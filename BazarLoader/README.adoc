@@ -1,0 +1,98 @@
+= BazarLoader - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.bazarloader[BazarLoader]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.bazarloader
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. DK
+. IT
+. ...
+
+There are 9 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|31.171.251.118|ch.ns.mon0.li|High
+|2|31.214.240.203|-|High
+|3|34.209.40.84|ec2-34-209-40-84.us-west-2.compute.amazonaws.com|Medium
+|4|34.221.188.35|ec2-34-221-188-35.us-west-2.compute.amazonaws.com|Medium
+|5|45.71.112.70|host-45-71-112-70.nedetel.net|High
+|6|45.76.254.23|45.76.254.23.vultr.com|Medium
+|7|54.184.178.68|ec2-54-184-178-68.us-west-2.compute.amazonaws.com|Medium
+|8|62.108.35.215|-|High
+|9|72.21.81.240|-|High
+|10|78.108.216.13|sshtunnel.itbyhf.xyz|High
+|11|80.82.68.132|-|High
+|12|91.217.137.37|frod.subnets.ru|High
+|13|92.222.97.145|ip145.ip-92-222-97.eu|High
+|14|94.247.43.254|opennic1.eth-services.de|High
+|15|104.37.195.178|178.195.37.104.in-addr.arpa|High
+|16|116.203.98.109|static.109.98.203.116.clients.your-server.de|High
+|17|163.53.248.170|vmx20170.hosting24.com.au|High
+|18|163.172.185.51|51-185-172-163.instances.scw.cloud|High
+|19|165.22.224.164|-|High
+|20|172.98.193.42|-|High
+|21|...|...|...
+|========================================
+
+There are 7 more IOC items available. Please use our online service to access the data.
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1222|Permission Issues|High
+|6|...|...|...
+|========================================
+
+There are 5 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.user|Low
+|2|File|/cgi-bin/system_mgr.cgi|High
+|3|File|/Content/Template/root/reverse-shell.aspx|High
+|4|File|/debug/pprof|Medium
+|5|File|/inc/parser/xhtml.php|High
+|6|File|/includes/db_adodb.php|High
+|7|File|/PluXml/core/admin/parametres_edittpl.php|High
+|8|File|/register.do|Medium
+|9|File|/rest/project-templates/1.0/createshared|High
+|10|File|/restoreinfo.cgi|High
+|11|...|...|...
+|========================================
+
+There are 302 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
+* https://twitter.com/_pr4gma/status/1347617681197961225
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

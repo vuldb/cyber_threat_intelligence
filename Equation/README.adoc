@@ -1,0 +1,99 @@
+= Equation - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.equation[Equation]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.equation
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Gauss
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. ES
+. GB
+. ...
+
+There are 4 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|41.222.35.70|70.35.static.rdns.co.za|High
+|2|62.216.152.67|-|High
+|3|64.76.82.52|c647682-52.static.impsat.com.co|High
+|4|80.77.4.3|-|High
+|5|81.31.34.175|81-31-34-175.static.masterinter.net|High
+|6|81.31.36.174|vl504.sl509s.r1-3.dc1.4d.prg.masterinter.net|High
+|7|81.31.38.163|81-31-38-163.static.masterinter.net|High
+|8|81.31.38.166|81-31-38-166.static.masterinter.net|High
+|9|84.233.205.99|-|High
+|10|85.112.1.83|-|High
+|11|87.255.38.2|-|High
+|12|89.18.177.3|89-18-177-3.reasonnet.com|High
+|13|109.71.45.115|smtp-out.wisdomgroup.pt|High
+|14|149.12.71.2|-|High
+|15|173.204.235.196|-|High
+|16|173.204.235.201|-|High
+|17|173.204.235.204|-|High
+|18|182.18.166.116|mail.microhostingmail.com|High
+|19|190.60.202.4|4.202.60.190.static.host.ifxnetworks.com|High
+|20|190.242.96.212|-|High
+|21|...|...|...
+|========================================
+
+There are 10 more IOC items available. Please use our online service to access the data.
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/exec/|Low
+|2|File|/wlanAccess.asp|High
+|3|File|GetRules.asp|Medium
+|4|File|kaiseki.cgi|Medium
+|5|File|phpinfo.php|Medium
+|6|File|rpc.statd|Medium
+|7|Library|DNSAPI.dll|Medium
+|8|Library|isusweb.dll|Medium
+|9|Argument|Connected Clients|High
+|10|Network Port|Ports 137-139|High
+|11|...|...|...
+|========================================
+
+There are 2 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064459/Equation_group_questions_and_answers.pdf
+* https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134940/kaspersky-lab-gauss.pdf
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

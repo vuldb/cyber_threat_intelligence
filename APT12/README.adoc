@@ -1,0 +1,76 @@
+= APT12 - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.apt12[APT12]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.apt12
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Etumbot
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. ES
+. US
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|32.114.251.129|-|High
+|2|59.0.249.11|-|High
+|3|92.54.232.142|-|High
+|4|98.188.111.244|-|High
+|5|133.87.242.63|turonian.cris.hokudai.ac.jp|High
+|6|133.87.242.631|-|High
+|7|141.108.2.157|fabernext.roma1.infn.it|High
+|8|143.89.47.132|eea132.ee.ust.hk|High
+|9|143.89.145.156|dy145-156.ust.hk|High
+|10|190.16.246.129|129-246-16-190.fibertel.com.ar|High
+|11|190.193.44.138|138-44-193-190.cab.prima.net.ar|High
+|12|196.1.99.15|-|High
+|13|196.1.99.154|-|High
+|14|200.27.173.58|-|High
+|15|200.42.69.140|mail1.argus.com.ar|High
+|16|211.53.164.152|recruit.dhc.co.kr|High
+|17|217.119.240.118|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1499|Resource Consumption|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|Network Port|tcp/264|Low
+|========================================
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.fireeye.com/blog/threat-research/2014/09/darwins-favorite-apt-group-2.html
+* https://www.threatminer.org/report.php?q=ASERT-Threat-Intelligence-Brief-2014-07-Illuminating-Etumbot-APT.pdf&y=2014
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

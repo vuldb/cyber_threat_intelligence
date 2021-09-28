@@ -1,0 +1,78 @@
+= Shell Crew - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.shell_crew[Shell Crew]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.shell_crew
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. CA
+. US
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|12.0.742.112|-|High
+|2|43.249.81.210|-|High
+|3|50.115.138.215|50-115-138-215.genericreverse.com|High
+|4|92.242.144.2|-|High
+|5|118.193.153.5|-|High
+|6|119.57.196.30|-|High
+|7|122.10.9.154|-|High
+|8|125.141.233.19|-|High
+|9|158.69.34.129|ip129.ip-158-69-34.net|High
+|10|167.160.16.242|.|High
+|11|173.231.49.141|173-231-49-141.hosted.static.webnx.com|High
+|12|174.139.57.26|174.139.57.26.customer.vpls.net|High
+|13|174.139.57.27|174.139.57.27.customer.vpls.net|High
+|14|174.139.57.30|174.139.57.30.customer.vpls.net|High
+|15|184.71.210.4|-|High
+|16|211.58.38.100|-|High
+|17|220.73.222.86|-|High
+|18|220.73.222.120|-|High
+|19|221.139.50.134|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1068|Execution with Unnecessary Privileges|High
+|2|T1222|Permission Issues|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|fs/aio.c|Medium
+|2|File|index.php?mod=main&opt=personal|High
+|3|File|pkg/tool/path.go|High
+|4|File|receiver.c|Medium
+|5|File|routes/api/v1/api.go|High
+|6|Argument|avatar_file|Medium
+|7|Argument|m1_idlist|Medium
+|========================================
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=RSAIncidentResponseEmergingThreatProfile_ShellCrew.pdf&y=2014
+* https://www.threatminer.org/report.php?q=ShellCrewVariantsContinuetoFlyUnderBigAV%E2%80%99sRadar-Cylance.pdf&y=2017
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

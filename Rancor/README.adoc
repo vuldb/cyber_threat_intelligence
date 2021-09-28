@@ -1,0 +1,88 @@
+= Rancor - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.rancor[Rancor]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.rancor
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- PLAINTEE/DDKONG
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. VN
+. CN
+. ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|45.76.176.236|45.76.176.236.vultr.com|Medium
+|2|45.121.146.26|businesso.top|High
+|3|89.46.222.97|97.222.46.89.in-addr.arpa|High
+|4|103.75.189.74|frozen.honefrez.com|High
+|5|103.75.191.75|totalenterprise.club|High
+|6|103.75.191.177|-|High
+|7|131.153.48.146|-|High
+|8|199.247.6.253|199.247.6.253.vultr.com|Medium
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1499|Resource Consumption|High
+|6|...|...|...
+|========================================
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/bin/login.php|High
+|2|File|/cgi-bin/wapopen|High
+|3|File|/cgi/cpaddons_feature.pl|High
+|4|File|/data/nvram|Medium
+|5|File|/forum/away.php|High
+|6|File|/frontend/x3/cpanelpro/filelist-thumbs.html|High
+|7|File|/fs/cifs/file.c|High
+|8|File|/goform/login|High
+|9|File|/horde/util/go.php|High
+|10|File|/mib.db|Low
+|11|...|...|...
+|========================================
+
+There are 229 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://unit42.paloaltonetworks.com/unit42-rancor-targeted-attacks-south-east-asia-using-plaintee-ddkong-malware-families/
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

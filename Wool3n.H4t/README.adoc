@@ -1,0 +1,50 @@
+= Wool3n.H4t - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.wool3n.h4t[Wool3n.H4t]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.wool3n.h4t
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Woolen-Goldfish
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|83.170.33.32|host-83-170-33-32.customer.teleport-iabg.de|High
+|2|83.170.33.37|host-83-170-33-37.customer.teleport-iabg.de|High
+|3|83.170.33.60|host-83-170-33-60.customer.teleport-iabg.de|High
+|4|83.170.33.63|host-83-170-33-63.customer.teleport-iabg.de|High
+|5|83.170.33.64|host-83-170-33-64.customer.teleport-iabg.de|High
+|6|83.170.33.80|host-83-170-33-80.customer.teleport-iabg.de|High
+|7|83.170.33.95|host-83-170-33-95.customer.teleport-iabg.de|High
+|8|83.170.43.64|host-83-170-43-64.customer.teleport-iabg.de|High
+|9|83.170.43.67|host-83-170-43-67.customer.teleport-iabg.de|High
+|10|83.170.43.95|host-83-170-43-95.customer.teleport-iabg.de|High
+|11|84.11.26.224|host-84-11-26-224.customer.teleport-iabg.de|High
+|12|84.11.26.230|host-84-11-26-230.customer.teleport-iabg.de|High
+|13|84.11.26.255|host-84-11-26-255.customer.teleport-iabg.de|High
+|14|84.11.37.128|host-84-11-37-128.customer.teleport-iabg.de|High
+|15|84.11.37.159|host-84-11-37-159.customer.teleport-iabg.de|High
+|16|84.11.75.192|host-84-11-75-192.customer.teleport-iabg.de|High
+|17|84.11.75.220|host-84-11-75-220.customer.teleport-iabg.de|High
+|18|84.11.75.255|host-84-11-75-255.customer.teleport-iabg.de|High
+|19|84.11.146.55|host-84-11-146-55.customer.teleport-iabg.de|High
+|20|84.11.146.255|host-84-11-146-255.customer.teleport-iabg.de|High
+|========================================
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=wp-operation-woolen-goldfish.pdf&y=2015
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

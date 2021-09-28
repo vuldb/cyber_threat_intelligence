@@ -1,0 +1,95 @@
+= Chimera - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.chimera[Chimera]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.chimera
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. CN
+. NU
+. ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|1.3.35.342|-|High
+|2|5.254.64.234|-|High
+|3|5.254.112.226|-|High
+|4|14.229.140.66|static.vnpt.vn|High
+|5|23.236.77.94|-|High
+|6|39.109.5.135|-|High
+|7|43.250.200.106|-|High
+|8|43.250.201.71|-|High
+|9|45.9.248.74|te-4-3-177.pe2.man4.uk.m247.com|High
+|10|47.75.0.147|-|High
+|11|59.47.4.27|27.4.47.59.broad.bx.ln.dynamic.163data.com.cn|High
+|12|103.51.145.123|smtphk.71.com|High
+|13|119.39.248.20|-|High
+|14|119.39.248.32|-|High
+|15|119.39.248.101|-|High
+|16|120.227.35.98|-|High
+|17|172.111.210.53|-|High
+|18|185.170.210.84|-|High
+|19|188.72.99.41|-|High
+|20|220.202.152.47|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1566.003|Clickjacking|High
+|6|...|...|...
+|========================================
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|%windir%\Internet Logs\|High
+|2|File|/admin/system/database/filedown.php|High
+|3|File|/cgi-bin/supervisor/adcommand.cgi|High
+|4|File|/common/info.cgi|High
+|5|File|/getcfg.php|Medium
+|6|File|/uncpath/|Medium
+|7|File|/usr/local/www/csrf/csrf-magic.php|High
+|8|File|admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1|High
+|9|File|administrator/components/com_media/helpers/media.php|High
+|10|File|APPFLT.SYS|Medium
+|11|...|...|...
+|========================================
+
+There are 115 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://cycraft.com/download/%5BTLP-White%5D20200415%20Chimera_V4.1.pdf
+* https://vxug.fakedoma.in/archive/APTs/2021/2021.01.12/Chimera.pdf
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

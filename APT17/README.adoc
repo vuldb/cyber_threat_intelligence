@@ -1,0 +1,89 @@
+= APT17 - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.apt17[APT17]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.apt17
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- CCleaner
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. DE
+. US
+. JP
+. ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|1.234.52.111|-|High
+|2|69.80.72.165|-|High
+|3|103.250.72.39|sv01growth.bulks.jp|High
+|4|103.250.72.254|103x250x72x254.bulks.jp|High
+|5|110.45.151.43|-|High
+|6|121.101.73.231|p6549e7.fkokff01.ap.so-net.ne.jp|High
+|7|130.184.156.62|-|High
+|8|148.251.71.75|hotspot.nwwc.de|High
+|9|175.126.104.175|-|High
+|10|178.62.20.110|-|High
+|11|216.126.225.148|-|High
+|12|217.198.143.40|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1587.003|Improper Certificate Validation|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.htaccess|Medium
+|2|File|/wbg/core/_includes/authorization.inc.php|High
+|3|File|data/gbconfiguration.dat|High
+|4|File|inc/config.php|High
+|5|File|inc/filebrowser/browser.php|High
+|6|File|register/check/username?username|High
+|7|File|wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php|High
+|8|File|wp-login.php|Medium
+|9|Argument|basePath|Medium
+|10|Argument|file|Low
+|11|...|...|...
+|========================================
+
+There are 2 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://github.com/fireeye/iocs/blob/master/APT17/7b9e87c5-b619-4a13-b862-0145614d359a.ioc
+* https://www.threatminer.org/report.php?q=EvidenceAuroraOperationStillActive_SupplyChainAttackThroughCCleaner-Intezer.pdf&y=2017
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

@@ -1,0 +1,86 @@
+= Palevo - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.palevo[Palevo]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.palevo
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. RU
+. ES
+. ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|42.120.158.78|-|High
+|2|67.210.170.169|67-210-170.169.static.tel-ott.com|High
+|3|76.74.255.138|loom.com|High
+|4|82.196.6.164|-|High
+|5|91.208.194.18|www.masterkey.ua|High
+|6|103.51.144.193|scdc.worra.com|High
+|7|107.150.36.226|-|High
+|8|173.230.133.99|li173-99.members.linode.com|High
+|9|173.255.206.248|li216-248.members.linode.com|High
+|10|189.236.206.143|dsl-189-236-206-143-dyn.prod-infinitum.com.mx|High
+|11|199.2.137.20|-|High
+|12|199.2.137.25|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1499|Resource Consumption|High
+|6|...|...|...
+|========================================
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|download.php|Medium
+|2|File|epan/dissectors/packet-ldss.c|High
+|3|File|epan/dissectors/packet-rtmpt.c|High
+|4|File|epan/dissectors/packet-wsp.c|High
+|5|File|gd_gif_in.c|Medium
+|6|File|httpd.conf|Medium
+|7|File|includes/upload.php|High
+|8|File|index.php|Medium
+|9|File|ipc/shm.c|Medium
+|10|File|libass/ass_shaper.c|High
+|11|...|...|...
+|========================================
+
+There are 23 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_palevo.netset
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

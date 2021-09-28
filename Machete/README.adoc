@@ -1,0 +1,80 @@
+= Machete - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.machete[Machete]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.machete
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. CA
+. FR
+. ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|69.64.43.33|falcon207.startdedicated.com|High
+|2|109.61.164.33|109-61-164-33.dsl.orel.ru|High
+|3|142.44.236.215|ip215.ip-142-44-236.net|High
+|4|156.67.222.88|-|High
+|5|158.69.9.209|ip209.ip-158-69-9.net|High
+|6|176.9.3.184|static.184.3.9.176.clients.your-server.de|High
+|7|185.224.137.63|-|High
+|8|199.79.63.188|bh-plesk-web3.webhostbox.net|High
+|9|213.239.232.149|zeus.colombiaredes.info|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/admin/config.php?display=backup|High
+|2|File|/proc/self/cwd|High
+|3|File|file_download.php|High
+|4|File|includes/startup.php|High
+|5|File|index.php|Medium
+|6|File|index.php?pg=moderated|High
+|7|File|products1h.php|High
+|8|File|upload.php|Medium
+|9|File|visitormessage.php|High
+|10|File|wp-admin/user-new.php|High
+|11|...|...|...
+|========================================
+
+There are 6 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://blogs.blackberry.com/en/2017/03/el-machete-malware-attacks-cut-through-latam
+* https://www.welivesecurity.com/wp-content/uploads/2019/08/ESET_Machete.pdf
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

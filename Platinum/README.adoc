@@ -1,0 +1,38 @@
+= Platinum - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.platinum[Platinum]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.platinum
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. ES
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|61.31.203.98|-|High
+|2|70.39.115.196|-|High
+|3|190.96.47.9|-|High
+|4|192.192.114.1|-|High
+|5|200.61.248.8|8-248-61-200.uner.edu.ar|High
+|6|209.45.65.163|mail.buro.com.pe|High
+|========================================
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://download.microsoft.com/download/2/2/5/225BFE3E-E1DE-4F5B-A77B-71200928D209/Platinum%20feature%20article%20-%20Targeted%20attacks%20in%20South%20and%20Southeast%20Asia%20April%202016.pdf
+* https://www.threatminer.org/report.php?q=Platinumfeaturearticle-TargetedattacksinSouthandSoutheastAsiaApril2016.pdf&y=2016
+* https://www.threatminer.org/report.php?q=Titanium_thePlatinumgroupstrikesagain_Securelist.pdf&y=2019
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

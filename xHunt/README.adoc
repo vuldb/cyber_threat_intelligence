@@ -1,0 +1,104 @@
+= xHunt - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.xhunt[xHunt]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.xhunt
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- BumbleBee
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. GB
+. NL
+. ...
+
+There are 49 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|23.92.127.18|-|High
+|2|46.246.3.253|-|High
+|3|46.246.3.254|-|High
+|4|77.243.191.20|-|High
+|5|82.102.21.219|-|High
+|6|84.17.55.68|unn-84-17-55-68.cdn77.com|High
+|7|85.203.46.99|-|High
+|8|89.26.241.70|70.serverhs.org|High
+|9|89.238.137.37|no-mans-land.m247.com|High
+|10|89.238.139.52|no-mans-land.m247.com|High
+|11|91.92.109.59|-|High
+|12|92.223.89.134|lux35.evoluso.com|High
+|13|92.223.89.136|lux35.evoluso.com|High
+|14|92.223.89.137|lux35.evoluso.com|High
+|15|142.11.211.79|qaw.bkshs.com|High
+|16|185.220.70.139|-|High
+|17|185.220.70.144|-|High
+|18|185.230.127.233|-|High
+|19|185.230.127.238|-|High
+|20|185.230.127.239|-|High
+|21|...|...|...
+|========================================
+
+There are 13 more IOC items available. Please use our online service to access the data.
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1040|Authentication Bypass by Capture-replay|High
+|2|T1059.007|Cross Site Scripting|High
+|3|T1068|Execution with Unnecessary Privileges|High
+|4|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|5|T1211|7PK Security Features|High
+|6|...|...|...
+|========================================
+
+There are 8 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.htaccess|Medium
+|2|File|.procmailrc|Medium
+|3|File|/.dbus-keyrings|High
+|4|File|/.env|Low
+|5|File|//etc/RT2870STA.dat|High
+|6|File|/account/register|High
+|7|File|/adfs/ls|Medium
+|8|File|/admin/conferences/list/|High
+|9|File|/admin/login.php|High
+|10|File|/ajax-files/postComment.php|High
+|11|...|...|...
+|========================================
+
+There are 1788 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://unit42.paloaltonetworks.com/bumblebee-webshell-xhunt-campaign/
+* https://unit42.paloaltonetworks.com/xhunt-campaign-backdoors/
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

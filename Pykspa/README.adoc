@@ -1,0 +1,75 @@
+= Pykspa - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.pykspa[Pykspa]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.pykspa
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. ES
+. US
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|40.255.0.62|-|High
+|2|78.47.106.15|www437.your-server.de|High
+|3|169.50.13.61|3d.0d.32a9.ip4.static.sl-reverse.com|High
+|4|189.50.110.40|server9.hospedaria.com.br|High
+|5|193.146.253.37|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1222|Permission Issues|High
+|6|...|...|...
+|========================================
+
+There are 3 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|//etc/RT2870STA.dat|High
+|2|File|/cgi-bin/wapopen|High
+|3|File|/setSystemAdmin|High
+|4|File|/updown/upload.cgi|High
+|5|File|acl.c|Low
+|6|File|AESNI.c|Low
+|7|File|app/Controller/UsersController.php|High
+|8|File|auth-gss2.c|Medium
+|9|File|auth.php|Medium
+|10|File|block_templace.c|High
+|11|...|...|...
+|========================================
+
+There are 43 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_pykspa.ipset
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

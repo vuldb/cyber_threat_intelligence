@@ -1,0 +1,76 @@
+= APT-C-36 - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.apt-c-36[APT-C-36]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.apt-c-36
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. BR
+. FR
+. ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|128.90.106.22|undefined.hostname.localhost|High
+|2|128.90.107.21|undefined.hostname.localhost|High
+|3|128.90.107.189|undefined.hostname.localhost|High
+|4|128.90.107.236|undefined.hostname.localhost|High
+|5|128.90.108.126|undefined.hostname.localhost|High
+|6|128.90.114.5|undefined.hostname.localhost|High
+|7|128.90.115.28|undefined.hostname.localhost|High
+|8|128.90.115.179|undefined.hostname.localhost|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1499|Resource Consumption|High
+|2|T1600|Cryptographic Issues|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.htaccess|Medium
+|2|File|FileSeek.cgi|Medium
+|3|File|includes/dbal.php|High
+|4|File|index.php|Medium
+|5|File|modules/mappers/mod_rewrite.c|High
+|6|File|personalData/resumeDetail.cfm|High
+|7|File|prod.php|Medium
+|8|File|products.php|Medium
+|9|File|shop.pl|Low
+|10|File|software-description.php|High
+|11|...|...|...
+|========================================
+
+There are 10 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

@@ -1,0 +1,85 @@
+= Chafer - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.chafer[Chafer]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.chafer
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. RU
+. GB
+. ...
+
+There are 15 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|83.142.230.113|-|High
+|2|89.38.97.112|-|High
+|3|89.38.97.115|89-38-97-115.hosted-by-worldstream.net|High
+|4|91.218.114.225|-|High
+|5|94.100.21.213|94-100-21-213.static.hvvc.us|High
+|6|134.119.217.84|-|High
+|7|134.119.217.87|-|High
+|8|148.251.197.113|n38-05.vpsnow.ru|High
+|9|185.22.172.40|mx2.privacyrequired.link|High
+|10|185.177.59.70|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1552|Unprotected Storage of Credentials|High
+|6|...|...|...
+|========================================
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|//etc/RT2870STA.dat|High
+|2|File|/cwp_{SESSION_HASH}/admin/loader_ajax.php|High
+|3|File|/magnoliaPublic/travel/members/login.html|High
+|4|File|/Main_AdmStatus_Content.asp|High
+|5|File|/uncpath/|Medium
+|6|File|/var/log/nginx|High
+|7|File|advertiser.php|High
+|8|File|akocomments.php|High
+|9|File|al_initialize.php|High
+|10|File|category.cfm|Medium
+|11|...|...|...
+|========================================
+
+There are 42 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=Chafer_LatestAttacksRevealHeightenedAmbitions_SymantecBlogs.pdf&y=2018
+* https://www.threatminer.org/_reports/2019/NewPython-BasedPayloadMechaFlounderUsedbyChafer.pdf#viewer.action=download
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

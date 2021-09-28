@@ -1,0 +1,98 @@
+= TeamTNT - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.teamtnt[TeamTNT]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.teamtnt
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Hildegard
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. MO
+. US
+. ES
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|13.245.9.147|ec2-13-245-9-147.af-south-1.compute.amazonaws.com|Medium
+|2|39.100.33.209|-|High
+|3|45.9.148.35|-|High
+|4|45.9.148.37|-|High
+|5|45.9.148.108|mx1.dendrite.network|High
+|6|45.9.150.36|-|High
+|7|47.253.42.213|-|High
+|8|62.234.121.105|-|High
+|9|85.214.149.236|h2381205.stratoserver.net|High
+|10|103.125.218.107|-|High
+|11|106.15.74.113|-|High
+|12|123.245.9.147|-|High
+|13|147.75.47.199|juju-bfd037-0|High
+|14|164.68.106.96|vmi283395.contaboserver.net|High
+|15|169.254.169.254|-|High
+|16|169.254.170.2|-|High
+|17|176.123.10.57|pop.micrswitch.net|High
+|18|199.19.226.117|-|High
+|19|199.199.226.117|199-199-226-117.ip.rrv.net|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1552|Unprotected Storage of Credentials|High
+|6|...|...|...
+|========================================
+
+There are 3 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/goform/SetNetControlList|High
+|2|File|/Search-Results|High
+|3|File|admin/categories_industry.php|High
+|4|File|admin/content/postcategory|High
+|5|File|Adminstrator/Users/Edit/|High
+|6|File|agent.cfg|Medium
+|7|File|ALL_IN_THE_BOX.OCX|High
+|8|File|bmp.c|Low
+|9|File|cmd|Low
+|10|File|cmd/frontend/auth/redirect.go|High
+|11|...|...|...
+|========================================
+
+There are 35 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://unit42.paloaltonetworks.com/hildegard-malware-teamtnt/
+* https://unit42.paloaltonetworks.com/teamtnt-cryptojacking-watchdog-operations/
+* https://vxug.fakedoma.in/archive/APTs/2021/2021.02.03/Hildegard.pdf
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

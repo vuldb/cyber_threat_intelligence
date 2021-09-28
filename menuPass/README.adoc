@@ -1,0 +1,94 @@
+= menuPass - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.menupass[menuPass]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.menupass
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Cloud Hopper
+- Hogfish
+- Poison Ivy
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. CN
+. ES
+. ...
+
+There are 4 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1| 60.2.148.167|-|High
+|2|60.10.1.114|-|High
+|3|60.10.1.115|-|High
+|4|60.10.1.120|-|High
+|5|60.10.1.121|-|High
+|6|67.205.132.17|635089.cloudwaysapps.com|High
+|7|82.221.100.52|ns3.flokinet.net|High
+|8|83.136.106.108|-|High
+|9|123.183.210.28|-|High
+|10|144.168.45.116|144-168-45-116.static.hvvc.us|High
+|11|149.36.63.65|-|High
+|12|151.106.53.147|-|High
+|13|153.92.210.208|-|High
+|14|167.99.121.203|cbridge.nc4es.org|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1222|Permission Issues|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/anony/mjpg.cgi|High
+|2|File|/uncpath/|Medium
+|3|File|cart.php|Medium
+|4|File|categorie.php3|High
+|5|File|com.PhonePe.app|High
+|6|File|data/gbconfiguration.dat|High
+|7|File|perm_sql.php3|High
+|8|File|public/?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]|High
+|9|File|wp-admin/includes/class-file-upload-upgrader.php|High
+|10|Argument|cid|Low
+|11|...|...|...
+|========================================
+
+There are 7 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.accenture.com/t20180423T055005Z_w_/se-en/_acnmedia/PDF-76/Accenture-Hogfish-Threat-Analysis.pdf
+* https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html
+* https://www.fireeye.com/content/dam/fireeye-www/global/en/current-threats/pdfs/rpt-poison-ivy.pdf
+* https://www.pwc.co.uk/cyber-security/pdf/cloud-hopper-annex-b-final.pdf
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

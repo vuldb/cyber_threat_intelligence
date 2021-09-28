@@ -1,0 +1,80 @@
+= Packrat - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.packrat[Packrat]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.packrat
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. ES
+. CL
+. US
+. ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|46.246.89.246|joana.homework.space|High
+|2|50.62.133.49|ip-50-62-133-49.ip.secureserver.net|High
+|3|186.220.1.84|badc0154.virtua.com.br|High
+|4|186.220.11.67|badc0b43.virtua.com.br|High
+|5|189.100.148.188|bd6494bc.virtua.com.br|High
+|6|190.20.180.181|190-20-180-181.baf.movistar.cl|High
+|7|190.210.180.181|customer-static-210-180-181.iplannetworks.net|High
+|8|192.169.243.65|ip-192-169-243-65.ip.secureserver.net|High
+|9|198.12.150.249|ip-198-12-150-249.ip.secureserver.net|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1600|Cryptographic Issues|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|api/sms_check.php|High
+|2|File|chmextract.c|Medium
+|3|File|inc/filebrowser/browser.php|High
+|4|File|label.php|Medium
+|5|File|nvhost_job.c|Medium
+|6|File|print-bgp.c|Medium
+|7|Library|mfc71enu.dll|Medium
+|8|Argument|file|Low
+|9|Argument|param|Low
+|10|Argument|quesList|Medium
+|11|...|...|...
+|========================================
+
+There are 1 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=Packrat-SevenYearsofaSouthAmericanThreatActor-CitizenLab.pdf&y=2015
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

@@ -1,0 +1,83 @@
+= Phorpiex - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.phorpiex[Phorpiex]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.phorpiex
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|63.251.106.25|-|High
+|2|72.5.161.12|-|High
+|3|74.125.155.40|iad23s82-in-f8.1e100.net|High
+|4|74.125.155.102|iad23s88-in-f6.1e100.net|High
+|5|74.125.192.94|qn-in-f94.1e100.net|High
+|6|92.63.197.48|-|High
+|7|92.63.197.60|-|High
+|8|92.63.197.153|-|High
+|9|172.217.135.10|iad23s67-in-f10.1e100.net|High
+|10|172.217.197.101|qa-in-f101.1e100.net|High
+|11|172.217.197.105|qa-in-f105.1e100.net|High
+|12|172.217.222.132|qi-in-f132.1e100.net|High
+|13|173.194.7.12|iad66s04-in-f12.1e100.net|High
+|14|173.194.7.44|iad66s05-in-f12.1e100.net|High
+|15|173.194.66.94|qo-in-f94.1e100.net|High
+|16|173.194.175.102|qs-in-f102.1e100.net|High
+|17|173.194.207.84|qk-in-f84.1e100.net|High
+|18|173.194.207.95|qk-in-f95.1e100.net|High
+|19|173.194.207.139|qk-in-f139.1e100.net|High
+|20|173.231.184.122|mail410.us2.mcsv.net|High
+|21|...|...|...
+|========================================
+
+There are 3 more IOC items available. Please use our online service to access the data.
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|ajax/api/hook/decodeArguments|High
+|2|File|breadcrumbs_create.php|High
+|3|File|forumrunner/includes/moderation.php|High
+|4|File|includes/startup.php|High
+|5|File|includes/ucp/ucp_pm_options.php|High
+|6|File|install.php|Medium
+|7|File|links.php|Medium
+|8|File|modcp.php|Medium
+|9|File|moderate.php|Medium
+|10|File|profile.php|Medium
+|11|...|...|...
+|========================================
+
+There are 15 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
+* https://blog.talosintelligence.com/2021/04/threat-roundup-0416-0423.html
+* https://blog.talosintelligence.com/2021/05/threat-roundup-0430-0507.html
+* https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

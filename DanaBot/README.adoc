@@ -1,0 +1,86 @@
+= DanaBot - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.danabot[DanaBot]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.danabot
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. CN
+. AT
+. ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|5.8.55.205|carpbaboon.com|High
+|2|31.214.157.12|mail.private-mail.nl|High
+|3|47.74.130.165|-|High
+|4|149.154.157.106|106.157.154.149.in-addr.arpa|High
+|5|176.119.1.99|-|High
+|6|176.119.1.100|-|High
+|7|176.119.1.120|-|High
+|8|176.119.1.176|-|High
+|9|176.223.133.15|qcd.l.hostens.cloud|High
+|10|185.254.121.44|-|High
+|11|188.68.208.77|avtogenri.ru|High
+|12|192.71.249.50|50.249.71.192.in-addr.arpa|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1552|Unprotected Storage of Credentials|High
+|6|...|...|...
+|========================================
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.htaccess|Medium
+|2|File|/addnews.html|High
+|3|File|/cm/delete|Medium
+|4|File|/redpass.cgi|Medium
+|5|File|/uncpath/|Medium
+|6|File|add-category.php|High
+|7|File|add_comment.php|High
+|8|File|admin.php|Medium
+|9|File|admin/admin.shtml|High
+|10|File|admin/user.php?form=update_f&user_name|High
+|11|...|...|...
+|========================================
+
+There are 80 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://github.com/eset/malware-ioc/tree/master/danabot
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

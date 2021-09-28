@@ -1,0 +1,99 @@
+= APT39 - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.apt39[APT39]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.apt39
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Chafer
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. RU
+. GB
+. ...
+
+There are 15 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|83.142.230.113|-|High
+|2|86.105.227.224|-|High
+|3|87.117.204.113|-|High
+|4|87.117.204.115|-|High
+|5|89.38.97.112|-|High
+|6|89.38.97.115   |-|High
+|7|91.218.114.204|-|High
+|8|91.218.114.225|-|High
+|9|92.243.95.203|203.95.243.92.cust-fiber.enegan.it|High
+|10|94.100.21.213|94-100-21-213.static.hvvc.us|High
+|11|107.191.62.45|107.191.62.45.vultr.com|Medium
+|12|108.61.189.174|108.61.189.174.vultr.com|Medium
+|13|134.119.217.84|-|High
+|14|134.119.217.87|-|High
+|15|148.251.197.113|n38-05.vpsnow.ru|High
+|16|185.22.172.40|mx2.privacyrequired.link|High
+|17|185.177.59.70|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1211|7PK Security Features|High
+|4|T1499|Resource Consumption|High
+|5|T1552|Unprotected Storage of Credentials|High
+|6|...|...|...
+|========================================
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|//etc/RT2870STA.dat|High
+|2|File|/cwp_{SESSION_HASH}/admin/loader_ajax.php|High
+|3|File|/magnoliaPublic/travel/members/login.html|High
+|4|File|/Main_AdmStatus_Content.asp|High
+|5|File|/uncpath/|Medium
+|6|File|/var/log/nginx|High
+|7|File|admin/index.php|High
+|8|File|advertiser.php|High
+|9|File|akocomments.php|High
+|10|File|al_initialize.php|High
+|11|...|...|...
+|========================================
+
+There are 49 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://securelist.com/chafer-used-remexi-malware/89538/
+* https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/chafer-latest-attacks-reveal-heightened-ambitions
+* https://unit42.paloaltonetworks.com/new-python-based-payload-mechaflounder-used-by-chafer/
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

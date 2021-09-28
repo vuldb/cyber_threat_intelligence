@@ -1,0 +1,85 @@
+= InvisiMole - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.invisimole[InvisiMole]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.invisimole
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. FR
+. ES
+. ...
+
+There are 21 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|46.165.230.241|-|High
+|2|46.165.231.85|-|High
+|3|46.165.241.129|-|High
+|4|46.165.241.153|-|High
+|5|78.46.35.74|static.74.35.46.78.clients.your-server.de|High
+|6|95.215.111.109|vps59012.vpsville.ru|High
+|7|185.118.66.163|vps85002.vpsville.ru|High
+|8|185.118.67.233|vps87008.vpsville.ru|High
+|9|185.156.173.92|-|High
+|10|194.187.249.157|-|High
+|11|213.239.220.41|static.213.239.220.41.clients.your-server.de|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1040|Authentication Bypass by Capture-replay|High
+|2|T1059.007|Cross Site Scripting|High
+|3|T1068|Execution with Unnecessary Privileges|High
+|4|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|5|T1211|7PK Security Features|High
+|6|...|...|...
+|========================================
+
+There are 7 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10|High
+|2|File|.htaccess|Medium
+|3|File|/.env|Low
+|4|File|/api/CONFIG/restore|High
+|5|File|/cgi-bin/activate.cgi|High
+|6|File|/cgi-bin/bcm_password|High
+|7|File|/cgi-bin/nobody|High
+|8|File|/cgi-bin/nobody/Search.cgi|High
+|9|File|/cgi-bin/supervisor/CloudSetup.cgi|High
+|10|File|/cgi-bin/webproc|High
+|11|...|...|...
+|========================================
+
+There are 614 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://github.com/eset/malware-ioc/tree/master/invisimole
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

@@ -1,0 +1,74 @@
+= Guccifer 2.0 - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.guccifer_2.0[Guccifer 2.0]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.guccifer_2.0
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. FR
+. RU
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|95.130.9.198|-|High
+|2|95.130.15.34|-|High
+|3|95.130.15.36|-|High
+|4|95.130.15.37|-|High
+|5|95.130.15.38|-|High
+|6|95.130.15.40|-|High
+|7|95.130.15.41|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1499|Resource Consumption|High
+|4|T1600|Cryptographic Issues|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/Forms/|Low
+|2|File|/see_more_details.php|High
+|3|File|ajax.cgi|Medium
+|4|File|exprcalc.cfm|Medium
+|5|File|generate.php|Medium
+|6|File|io/channel-websock.c|High
+|7|File|net/xdp/xdp_umem.c|High
+|8|File|wp-admin/admin.php?page=monetize-zones-new|High
+|9|File|wp-admin/options-general.php?page=wp-social-bookmarking-light%2Fmodules%2Fadmin.php|High
+|10|File|wsecure-config.php|High
+|11|...|...|...
+|========================================
+
+There are 6 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=ThreatConnectfollowsGuccifer2-ThreatConnect.pdf&y=2016
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

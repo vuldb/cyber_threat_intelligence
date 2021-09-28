@@ -1,0 +1,89 @@
+= Hangover - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.hangover[Hangover]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.hangover
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- WindShift
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. TR
+. NL
+. ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|37.46.150.102|situku.e-conteri.com|High
+|2|37.59.175.131|-|High
+|3|45.133.1.133|-|High
+|4|46.32.235.162|vps37226820.123-vps.co.uk|High
+|5|81.4.125.90|-|High
+|6|109.235.51.110|mx2.superoferta.poa.br|High
+|7|109.235.51.153|ipv4.at.netrouting.net|High
+|8|176.56.238.177|-|High
+|9|185.25.50.189|8449-19037.bacloud.info|High
+|10|185.239.242.63|scl-0064.mails--servers.org|High
+|11|203.159.80.241|-|High
+|12|213.229.64.222|server.galexysparkals.net|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1499|Resource Consumption|High
+|========================================
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.procmailrc|Medium
+|2|File|/it-IT/splunkd/__raw/services/get_snapshot|High
+|3|File|/phpwcms/setup/setup.php|High
+|4|File|/uncpath/|Medium
+|5|File|agent/Core/SpawningKit/Spawner.h|High
+|6|File|base/ErrorHandler.php|High
+|7|File|category.cfm|Medium
+|8|File|cmd.php?cmd=login_form|High
+|9|File|db_central_columns.php|High
+|10|File|wp-postratings.php|High
+|11|...|...|...
+|========================================
+
+There are 10 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://unit42.paloaltonetworks.com/shifting-in-the-wind-windshift-attacks-target-middle-eastern-governments/
+* https://www.threatminer.org/report.php?q=SnakeInTheGrass-Python-basedMalwareUsedForTargetedAttacks-BLUECOATLABS.pdf&y=2014
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

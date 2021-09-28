@@ -1,0 +1,104 @@
+= SmokeLoader - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.smokeloader[SmokeLoader]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.smokeloader
+
+== Campaigns
+
+The following campaigns are known and can be associated with the actor.
+
+- Tsunami
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. ES
+. PL
+. RU
+. ...
+
+There are 7 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|5.135.183.146|freya.stelas.de|High
+|2|5.196.8.173|vps-b5645e9a.vps.ovh.net|High
+|3|13.107.21.200|-|High
+|4|23.3.13.154|a23-3-13-154.deploy.static.akamaitechnologies.com|High
+|5|31.13.65.36|edge-star-mini-shv-01-atl3.facebook.com|High
+|6|51.254.25.115|ip115.ip-51-254-25.eu|High
+|7|51.255.48.78|vps-ede152ed.vps.ovh.net|High
+|8|58.251.121.110|reverse.gdsz.cncnet.net|High
+|9|72.21.81.240|-|High
+|10|74.114.154.18|-|High
+|11|79.141.165.169|e8wwm.perlyoffers.co.uk|High
+|12|85.192.56.35|-|High
+|13|88.99.66.31|iplogger.com|High
+|14|88.218.92.148|148.92-218-88.rdns.scalabledns.com|High
+|15|92.53.96.150|vh300.timeweb.ru|High
+|16|101.226.79.205|-|High
+|17|104.21.21.221|-|High
+|18|104.21.42.63|-|High
+|19|104.21.69.75|-|High
+|20|104.21.78.28|-|High
+|21|...|...|...
+|========================================
+
+There are 17 more IOC items available. Please use our online service to access the data.
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1222|Permission Issues|High
+|6|...|...|...
+|========================================
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|.htaccess|Medium
+|2|File|.pref.xml|Medium
+|3|File|/bin/appmgr|Medium
+|4|File|/cgi-bin/editBookmark|High
+|5|File|/cgi-bin/koha/acqui/supplier.pl?op=enter|High
+|6|File|/cgi-bin/luci|High
+|7|File|/cgi-bin/pass|High
+|8|File|/cgi/ansi|Medium
+|9|File|/ClickAndBanexDemo/admin/admin.asp|High
+|10|File|/etc/gsissh/sshd_config|High
+|11|...|...|...
+|========================================
+
+There are 379 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
+* https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!

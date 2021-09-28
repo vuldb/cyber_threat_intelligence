@@ -1,0 +1,96 @@
+= OilRig - Cyber Threat Intelligence
+
+The indicators are related to https://vuldb.com/?doc.cti[VulDB CTI analysis] of the actor known as https://vuldb.com/?actor.oilrig[OilRig]. The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+
+Live data and more analysis capabilities are available at https://vuldb.com/?actor.oilrig
+
+== Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with the actor.
+
+. US
+. IR
+. GB
+. ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+== IOC - Indicator of Compromise
+
+The indicators of compromise indicate associated network ressources which are known to be part of research and attack activities.
+
+[options="header"]
+|========================================
+|ID|IP address|Hostname|Confidence
+|1|11.24.237.110|-|High
+|2|24.125.0.1|-|High
+|3|31.3.225.55|h31-3-225-55.host.redstation.co.uk|High
+|4|33.33.94.94|-|High
+|5|33.33.97.97|-|High
+|6|35.35.35.35|-|High
+|7|36.37.94.33|-|High
+|8|74.91.19.122|-|High
+|9|80.82.79.221|-|High
+|10|80.82.79.240|-|High
+|11|83.142.230.138|-|High
+|12|99.250.250.199|cpe9050cab62cc3-cm9050cab62cc0.cpe.net.cable.rogers.com|High
+|13|136.243.214.247|static.247.214.243.136.clients.your-server.de|High
+|14|151.80.211.156|-|High
+|15|158.69.57.61|-|High
+|16|178.33.94.47|a47.my.des-marques-et-toi.com|High
+|17|185.162.235.29|-|High
+|18|185.162.235.121|-|High
+|========================================
+
+== TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Technique|Access Vector|Confidence
+|1|T1059.007|Cross Site Scripting|High
+|2|T1068|Execution with Unnecessary Privileges|High
+|3|T1110.001|Improper Restriction of Excessive Authentication Attempts|High
+|4|T1211|7PK Security Features|High
+|5|T1222|Permission Issues|High
+|6|...|...|...
+|========================================
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+== IOA - Indicator of Attack
+
+The indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration. This data is unique as it uses our predictive model for actor profiling.
+
+[options="header"]
+|========================================
+|ID|Class|Indicator|Confidence
+|1|File|/admin/index.php|High
+|2|File|/bdswebui/assignusers/|High
+|3|File|/bin/goahead|Medium
+|4|File|/cgi-bin/luci|High
+|5|File|/cgi-bin/supervisor/PwdGrp.cgi|High
+|6|File|/dev/dri/card1|High
+|7|File|/forum/away.php|High
+|8|File|/GetCSSashx/?CP=%2fwebconfig|High
+|9|File|/HNAP1|Low
+|10|File|/horde/util/go.php|High
+|11|...|...|...
+|========================================
+
+There are 126 more IOA items available. Please use our online service to access the data.
+
+== References
+
+The following list contains external sources which discuss the actor and the associated activities.
+
+* https://www.threatminer.org/report.php?q=IranianThreatAgentOilRigDeliversDigitallySignedMalware,ImpersonatesUniversityofOxford_ClearSkyCybersecurity.pdf&y=2017
+* https://www.threatminer.org/report.php?q=OilRigGroupStepsUpAttackswithNewDeliveryDocumentsandNewInjectorTrojan-PaloAltoNetworks.pdf&y=2017
+* https://www.threatminer.org/report.php?q=OilRigTargetsTechnologyServiceProviderandGovernmentAgencywithQUADAGENT-PaloAltoNetworksBlog.pdf&y=2018
+* https://www.threatminer.org/report.php?q=OopsIE!OilRigusesThreeDollarstoDeliverNewTrojan.pdf&y=2018
+* https://www.threatminer.org/_reports/2019/DNSTunnelingintheWild_OverviewofOilRig%E2%80%99sDNSTunneling.pdf#viewer.action=download
+
+== License
+
+(c) https://vuldb.com/?doc.changelog[1997-2021] by https://vuldb.com/?doc.about[vuldb.com]. All data on this page is shared under the license https://creativecommons.org/licenses/by-nc-sa/4.0/[CC BY-NC-SA 4.0]. Questions? Check the https://vuldb.com/?doc.faq[FAQ], read the https://vuldb.com/?doc[documentation] or https://vuldb.com/?contact[contact us]!
