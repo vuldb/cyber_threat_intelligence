@@ -21,29 +21,29 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 23.152.0.36 | tcts-000036.techtrapes.com | High
-2 | 34.199.22.139 | ec2-34-199-22-139.compute-1.amazonaws.com | Medium
-3 | 45.56.79.23 | li929-23.members.linode.com | High
-4 | 52.2.101.52 | ec2-52-2-101-52.compute-1.amazonaws.com | Medium
-5 | 52.21.132.24 | ec2-52-21-132-24.compute-1.amazonaws.com | Medium
-6 | 54.84.252.139 | ec2-54-84-252-139.compute-1.amazonaws.com | Medium
-7 | 54.87.5.88 | ec2-54-87-5-88.compute-1.amazonaws.com | Medium
-8 | 54.88.175.149 | ec2-54-88-175-149.compute-1.amazonaws.com | Medium
-9 | 54.152.181.87 | ec2-54-152-181-87.compute-1.amazonaws.com | Medium
-10 | 78.128.92.96 | - | High
-11 | 85.93.0.0 | - | High
-12 | 87.96.148.0 | h87-96-148-0.cust.a3fiber.se | High
-13 | 87.97.148.0 | - | High
-14 | 87.98.148.0 | sbg5-mail-137.bouncer.cloud | High
-15 | 87.106.18.141 | - | High
-16 | 91.119.56.0 | 91-119-56-0.dsl.dynamic.surfer.at | High
-17 | 91.119.216.0 | 91-119-216-0.dsl.dynamic.surfer.at | High
-18 | 91.120.56.0 | - | High
-19 | 91.120.216.0 | - | High
-20 | 91.121.56.0 | - | High
+1 | 5.196.159.173 | - | High
+2 | 23.152.0.36 | tcts-000036.techtrapes.com | High
+3 | 34.199.22.139 | ec2-34-199-22-139.compute-1.amazonaws.com | Medium
+4 | 45.56.79.23 | li929-23.members.linode.com | High
+5 | 52.2.101.52 | ec2-52-2-101-52.compute-1.amazonaws.com | Medium
+6 | 52.21.132.24 | ec2-52-21-132-24.compute-1.amazonaws.com | Medium
+7 | 54.84.252.139 | ec2-54-84-252-139.compute-1.amazonaws.com | Medium
+8 | 54.87.5.88 | ec2-54-87-5-88.compute-1.amazonaws.com | Medium
+9 | 54.88.175.149 | ec2-54-88-175-149.compute-1.amazonaws.com | Medium
+10 | 54.152.181.87 | ec2-54-152-181-87.compute-1.amazonaws.com | Medium
+11 | 78.128.92.96 | - | High
+12 | 85.93.0.0 | - | High
+13 | 87.96.148.0 | h87-96-148-0.cust.a3fiber.se | High
+14 | 87.97.148.0 | - | High
+15 | 87.98.148.0 | sbg5-mail-137.bouncer.cloud | High
+16 | 87.106.18.141 | - | High
+17 | 91.119.56.0 | 91-119-56-0.dsl.dynamic.surfer.at | High
+18 | 91.119.216.0 | 91-119-216-0.dsl.dynamic.surfer.at | High
+19 | 91.120.56.0 | - | High
+20 | 91.120.216.0 | - | High
 21 | ... | ... | ...
 
-There are 40 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,7 +77,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/shell?cmd` | Medium
 11 | ... | ... | ...
 
-There are 519 more IOA items available. Please use our online service to access the data.
+There are 521 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -90,6 +90,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0305-0312.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0402-0409.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 
 ## Literature
 

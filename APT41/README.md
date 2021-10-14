@@ -16,7 +16,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * CN
-* TR
+* RU
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -27,26 +27,28 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 43.255.191.255 | - | High
-2 | 45.76.6.149 | 45.76.6.149.vultr.com | Medium
-3 | 45.76.75.219 | 45.76.75.219.vultr.com | Medium
-4 | 45.138.157.78 | vpnru07.12.21.example.com | High
-5 | 61.78.62.21 | - | High
-6 | 61.195.98.245 | h61-195-98-245.ablenetvps.ne.jp | High
-7 | 66.42.48.186 | 66.42.48.186.vultr.com | Medium
-8 | 66.42.98.220 | 66.42.98.220.vultr.com | Medium
-9 | 66.42.103.222 | 66.42.103.222.vultr.com | Medium
-10 | 66.42.107.133 | 66.42.107.133.vultr.com | Medium
-11 | 66.98.126.203 | 66.98.126.203.16clouds.com | High
-12 | 67.198.161.250 | 67.198.161.250.CUSTOMER.KRYPT.COM | High
-13 | 67.198.161.251 | 67.198.161.251.CUSTOMER.KRYPT.COM | High
-14 | 67.198.161.252 | 67.198.161.252.CUSTOMER.KRYPT.COM | High
-15 | 74.82.201.8 | 74.82.201.8.16clouds.com | High
-16 | 91.208.184.78 | wk-azure.biz | High
-17 | 103.19.3.21 | - | High
-18 | ... | ... | ...
+1 | 23.67.95.153 | a23-67-95-153.deploy.static.akamaitechnologies.com | High
+2 | 43.255.191.255 | - | High
+3 | 45.76.6.149 | 45.76.6.149.vultr.com | Medium
+4 | 45.76.75.219 | 45.76.75.219.vultr.com | Medium
+5 | 45.138.157.78 | vpnru07.12.21.example.com | High
+6 | 61.78.62.21 | - | High
+7 | 61.195.98.245 | h61-195-98-245.ablenetvps.ne.jp | High
+8 | 66.42.48.186 | 66.42.48.186.vultr.com | Medium
+9 | 66.42.98.220 | 66.42.98.220.vultr.com | Medium
+10 | 66.42.103.222 | 66.42.103.222.vultr.com | Medium
+11 | 66.42.107.133 | 66.42.107.133.vultr.com | Medium
+12 | 66.98.126.203 | 66.98.126.203.16clouds.com | High
+13 | 67.198.161.250 | 67.198.161.250.CUSTOMER.KRYPT.COM | High
+14 | 67.198.161.251 | 67.198.161.251.CUSTOMER.KRYPT.COM | High
+15 | 67.198.161.252 | 67.198.161.252.CUSTOMER.KRYPT.COM | High
+16 | 74.82.201.8 | 74.82.201.8.16clouds.com | High
+17 | 91.208.184.78 | wk-azure.biz | High
+18 | 103.19.3.21 | - | High
+19 | 103.19.3.109 | - | High
+20 | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,13 +81,14 @@ ID | Type | Indicator | Confidence
 10 | File | `addentry.php` | Medium
 11 | ... | ... | ...
 
-There are 98 more IOA items available. Please use our online service to access the data.
+There are 109 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
+* https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
 * https://github.com/eset/malware-ioc/tree/master/winnti_group
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134508/winnti-more-than-just-a-game-130410.pdf
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.14/APT%2041.pdf

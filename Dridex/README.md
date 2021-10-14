@@ -9,8 +9,8 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dridex:
 
 * DE
-* NO
 * US
+* NO
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -26,24 +26,24 @@ ID | IP address | Hostname | Confidence
 3 | 2.58.16.87 | - | High
 4 | 2.138.111.86 | 86.red-2-138-111.dynamicip.rima-tde.net | High
 5 | 3.223.115.185 | ec2-3-223-115-185.compute-1.amazonaws.com | Medium
-6 | 5.9.44.37 | static.37.44.9.5.clients.your-server.de | High
-7 | 5.9.188.148 | static.148.188.9.5.clients.your-server.de | High
-8 | 8.210.53.215 | - | High
-9 | 8.248.159.254 | - | High
-10 | 8.249.217.254 | - | High
-11 | 8.249.233.254 | - | High
-12 | 8.253.45.214 | - | High
-13 | 8.253.45.249 | - | High
-14 | 8.253.131.120 | - | High
-15 | 8.253.131.121 | - | High
-16 | 8.253.132.120 | - | High
-17 | 14.98.183.4 | static-4.183.98.14-tataidc.co.in | High
-18 | 18.195.23.231 | ec2-18-195-23-231.eu-central-1.compute.amazonaws.com | Medium
-19 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
-20 | 23.3.13.153 | a23-3-13-153.deploy.static.akamaitechnologies.com | High
+6 | 5.2.70.173 | - | High
+7 | 5.9.44.37 | static.37.44.9.5.clients.your-server.de | High
+8 | 5.9.188.148 | mta5.offerteora.com | High
+9 | 5.39.222.84 | - | High
+10 | 5.39.222.87 | - | High
+11 | 5.39.222.102 | insideappple.com | High
+12 | 5.181.158.4 | no-rdns.mivocloud.com | High
+13 | 5.181.158.185 | no-rdns.mivocloud.com | High
+14 | 5.181.158.186 | no-rdns.mivocloud.com | High
+15 | 5.181.158.187 | no-rdns.mivocloud.com | High
+16 | 8.210.53.215 | - | High
+17 | 8.248.159.254 | - | High
+18 | 8.249.217.254 | - | High
+19 | 8.249.233.254 | - | High
+20 | 8.253.45.214 | - | High
 21 | ... | ... | ...
 
-There are 324 more IOC items available. Please use our online service to access the data.
+There are 390 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,9 +55,10 @@ ID | Technique | Description | Confidence
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+5 | T1222 | Permission Issues | High
+6 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,17 +68,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.DS_Store` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/.htpasswd` | Medium
-4 | File | `/admin.php/Foodcat/editsave` | High
-5 | File | `/admin.php?s=/admin/config/groupsave.html` | High
-6 | File | `/admin/?req=modules&action=add` | High
-7 | File | `/admin/api-cms-nav/create-page` | High
-8 | File | `/admin/index.html` | High
-9 | File | `/admin/index.php?c=database` | High
-10 | File | `/admin/index/index.html#listarticle` | High
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/.htpasswd` | Medium
+5 | File | `/admin.php/Foodcat/editsave` | High
+6 | File | `/admin.php?s=/admin/config/groupsave.html` | High
+7 | File | `/admin/?req=modules&action=add` | High
+8 | File | `/admin/api-cms-nav/create-page` | High
+9 | File | `/admin/index.html` | High
+10 | File | `/admin/index.php?c=database` | High
 11 | ... | ... | ...
 
-There are 1212 more IOA items available. Please use our online service to access the data.
+There are 1351 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -100,8 +101,10 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://feodotracker.abuse.ch/downloads/ipblocklist.csv
 * https://gist.githubusercontent.com/BBcan177/bf29d47ea04391cb3eb0/raw/
+* https://github.com/blackberry/threat-research-and-intelligence/blob/main/TA575-Dridex.csv
 * https://github.com/fl0x2208/IOCs-in-CSV-format/blob/6297513d672bd69f1bf488018035892e599e7a9c/Dridex_banking_trojan.xlsx
 * https://us-cert.cisa.gov/ncas/alerts/aa19-339a
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.04(2)/Dridex.pdf

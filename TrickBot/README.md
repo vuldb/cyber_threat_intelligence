@@ -24,7 +24,7 @@ ID | IP address | Hostname | Confidence
 1 | 5.1.81.68 | mx4.tarifvergleichbhv.net | High
 2 | 5.2.75.93 | - | High
 3 | 5.2.75.167 | coms.a9v34.com.cn | High
-4 | 5.39.47.22 | mail.newsbit.fun | High
+4 | 5.39.47.22 | mail.dmgs.site | High
 5 | 5.59.205.32 | dhcp-32-205-59-5.metro86.ru | High
 6 | 5.133.179.108 | 5-133-179-108.freeucouponsnow.ru | High
 7 | 5.182.210.132 | - | High
@@ -36,14 +36,14 @@ ID | IP address | Hostname | Confidence
 13 | 18.233.90.151 | ec2-18-233-90-151.compute-1.amazonaws.com | Medium
 14 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
 15 | 23.3.13.154 | a23-3-13-154.deploy.static.akamaitechnologies.com | High
-16 | 23.21.27.29 | ec2-23-21-27-29.compute-1.amazonaws.com | Medium
-17 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | Medium
-18 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
-19 | 23.96.30.229 | - | High
-20 | 23.160.192.125 | unknown.ip-xfer.net | High
+16 | 23.3.125.111 | a23-3-125-111.deploy.static.akamaitechnologies.com | High
+17 | 23.21.27.29 | ec2-23-21-27-29.compute-1.amazonaws.com | Medium
+18 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | Medium
+19 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
+20 | 23.96.30.229 | - | High
 21 | ... | ... | ...
 
-There are 235 more IOC items available. Please use our online service to access the data.
+There are 257 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/config.php?display=backup` | High
 11 | ... | ... | ...
 
-There are 966 more IOA items available. Please use our online service to access the data.
+There are 987 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -92,6 +92,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0625-0702.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://feodotracker.abuse.ch/downloads/ipblocklist.csv
 
 ## Literature

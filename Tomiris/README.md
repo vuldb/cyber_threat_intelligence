@@ -20,7 +20,7 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 51.195.68.217 | time1.lyhuao.com | High
 2 | 185.193.126.172 | b9c17eac.host.njalla.net | High
-3 | 185.193.127.92 | host-185-193-127-92.njalla.net | High
+3 | 185.193.127.92 | arbf.io | High
 
 ## TTP - Tactics, Techniques, Procedures
 

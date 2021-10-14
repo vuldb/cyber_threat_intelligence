@@ -27,21 +27,23 @@ ID | IP address | Hostname | Confidence
 4 | 35.247.234.230 | 230.234.247.35.bc.googleusercontent.com | Medium
 5 | 37.235.1.174 | resolver1.freedns.zone.powered.by.virtexxa.com | High
 6 | 37.235.1.177 | resolver2.freedns.zone.powered.by.virtexxa.com | High
-7 | 45.147.229.85 | - | High
-8 | 50.16.216.118 | ec2-50-16-216-118.compute-1.amazonaws.com | Medium
-9 | 50.19.92.227 | ec2-50-19-92-227.compute-1.amazonaws.com | Medium
-10 | 54.225.78.40 | ec2-54-225-78-40.compute-1.amazonaws.com | Medium
-11 | 54.225.165.85 | ec2-54-225-165-85.compute-1.amazonaws.com | Medium
-12 | 54.225.245.108 | ec2-54-225-245-108.compute-1.amazonaws.com | Medium
-13 | 54.235.88.121 | ec2-54-235-88-121.compute-1.amazonaws.com | Medium
-14 | 63.251.106.25 | - | High
-15 | 70.32.1.32 | ip-70.32.1.32.hosted.by.gigenet.com | High
-16 | 79.134.225.70 | - | High
-17 | 91.195.240.46 | - | High
-18 | 102.186.213.112 | - | High
-19 | ... | ... | ...
+7 | 45.33.83.75 | li1029-75.members.linode.com | High
+8 | 45.147.229.85 | - | High
+9 | 50.16.216.118 | ec2-50-16-216-118.compute-1.amazonaws.com | Medium
+10 | 50.19.92.227 | ec2-50-19-92-227.compute-1.amazonaws.com | Medium
+11 | 54.225.78.40 | ec2-54-225-78-40.compute-1.amazonaws.com | Medium
+12 | 54.225.165.85 | ec2-54-225-165-85.compute-1.amazonaws.com | Medium
+13 | 54.225.245.108 | ec2-54-225-245-108.compute-1.amazonaws.com | Medium
+14 | 54.235.88.121 | ec2-54-235-88-121.compute-1.amazonaws.com | Medium
+15 | 63.251.106.25 | - | High
+16 | 65.254.254.55 | mail.yourhostingaccount.com | High
+17 | 70.32.1.32 | ip-70.32.1.32.hosted.by.gigenet.com | High
+18 | 78.128.92.142 | venom8.steeldns.com | High
+19 | 79.134.225.70 | - | High
+20 | 91.195.240.46 | - | High
+21 | ... | ... | ...
 
-There are 36 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,7 +77,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/loginc.php` | High
 11 | ... | ... | ...
 
-There are 1119 more IOA items available. Please use our online service to access the data.
+There are 1121 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +89,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.06(1)/LokiBot%20Infection%20Chain.pdf
 
 ## Literature

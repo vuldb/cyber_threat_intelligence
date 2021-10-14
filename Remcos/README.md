@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * SE
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,12 +38,12 @@ ID | IP address | Hostname | Confidence
 15 | 23.227.38.74 | - | High
 16 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
 17 | 35.214.144.124 | 124.144.214.35.bc.googleusercontent.com | Medium
-18 | 37.139.64.106 | - | High
-19 | 37.230.130.153 | - | High
-20 | 40.126.28.22 | - | High
+18 | 37.1.206.16 | free.ispiria.net | High
+19 | 37.139.64.106 | - | High
+20 | 37.230.130.153 | - | High
 21 | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,7 +76,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/tmp` | Low
 11 | ... | ... | ...
 
-There are 163 more IOA items available. Please use our online service to access the data.
+There are 170 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -90,6 +90,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 
 ## Literature
 

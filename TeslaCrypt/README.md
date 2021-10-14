@@ -9,11 +9,11 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TeslaCrypt:
 
 * US
+* DE
 * CN
-* TR
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,10 +24,17 @@ ID | IP address | Hostname | Confidence
 1 | 2.57.138.47 | s27.zenbox.pl | High
 2 | 5.79.68.109 | - | High
 3 | 5.79.68.110 | - | High
-4 | 35.205.61.67 | 67.61.205.35.bc.googleusercontent.com | Medium
-5 | ... | ... | ...
+4 | 23.63.245.19 | a23-63-245-19.deploy.static.akamaitechnologies.com | High
+5 | 23.63.245.50 | a23-63-245-50.deploy.static.akamaitechnologies.com | High
+6 | 23.196.73.160 | a23-196-73-160.deploy.static.akamaitechnologies.com | High
+7 | 35.205.61.67 | 67.61.205.35.bc.googleusercontent.com | Medium
+8 | 35.209.43.160 | 160.43.209.35.bc.googleusercontent.com | Medium
+9 | 52.216.22.34 | s3-website-us-east-1.amazonaws.com | Medium
+10 | 52.216.128.178 | s3-website-us-east-1.amazonaws.com | Medium
+11 | 52.216.142.11 | s3-website-us-east-1.amazonaws.com | Medium
+12 | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,10 +44,10 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,21 +59,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/views/freepbx_reload.php` | High
 3 | File | `/cimom` | Low
 4 | File | `/dhtml/index.php` | High
-5 | File | `/drivers/vhost/net.c` | High
-6 | File | `/flash/mypage.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/index_amp.php` | High
-9 | File | `/principals` | Medium
-10 | File | `/recordings/index.php` | High
+5 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+6 | File | `/drivers/vhost/net.c` | High
+7 | File | `/flash/mypage.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/index_amp.php` | High
+10 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 11 | ... | ... | ...
 
-There are 138 more IOA items available. Please use our online service to access the data.
+There are 155 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 
 ## Literature
 

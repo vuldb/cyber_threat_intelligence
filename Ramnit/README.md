@@ -43,7 +43,7 @@ ID | IP address | Hostname | Confidence
 20 | 35.224.11.86 | 86.11.224.35.bc.googleusercontent.com | Medium
 21 | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 134 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,6 +88,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0813-0820.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_ramnit.ipset
 
 ## Literature

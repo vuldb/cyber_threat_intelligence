@@ -21,29 +21,29 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 36.43.74.215 | - | High
-2 | 36.46.114.54 | - | High
-3 | 39.109.1.246 | - | High
-4 | 42.51.192.3 | - | High
-5 | 43.226.152.12 | - | High
-6 | 43.226.159.201 | - | High
-7 | 45.119.125.223 | - | High
-8 | 45.195.203.97 | - | High
-9 | 45.253.67.78 | - | High
-10 | 47.93.52.188 | - | High
-11 | 47.93.245.163 | - | High
-12 | 47.95.233.18 | - | High
-13 | 47.111.82.157 | - | High
-14 | 47.112.30.91 | - | High
-15 | 58.218.66.21 | - | High
-16 | 58.218.67.245 | - | High
-17 | 58.218.199.225 | - | High
-18 | 58.221.47.41 | - | High
-19 | 58.221.47.47 | - | High
-20 | 59.46.12.8 | - | High
+1 | 13.249.38.69 | server-13-249-38-69.iad89.r.cloudfront.net | High
+2 | 36.43.74.215 | - | High
+3 | 36.46.114.54 | - | High
+4 | 39.109.1.246 | - | High
+5 | 42.51.192.3 | - | High
+6 | 43.226.152.12 | - | High
+7 | 43.226.159.201 | - | High
+8 | 45.119.125.223 | - | High
+9 | 45.195.203.97 | - | High
+10 | 45.253.67.78 | - | High
+11 | 47.93.52.188 | - | High
+12 | 47.93.245.163 | - | High
+13 | 47.95.233.18 | - | High
+14 | 47.111.82.157 | - | High
+15 | 47.112.30.91 | - | High
+16 | 58.218.66.21 | - | High
+17 | 58.218.67.245 | - | High
+18 | 58.218.199.225 | - | High
+19 | 58.221.47.41 | - | High
+20 | 58.221.47.47 | - | High
 21 | ... | ... | ...
 
-There are 72 more IOC items available. Please use our online service to access the data.
+There are 77 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,6 +93,8 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 
 ## Literature
 

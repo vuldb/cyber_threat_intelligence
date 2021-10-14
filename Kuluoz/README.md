@@ -8,8 +8,8 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kuluoz:
 
-* IL
 * US
+* IL
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +17,23 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 37.59.24.98 | ns3043472.ip-37-59-24.eu | High
-2 | 69.64.32.247 | dragon324.dedicatedpanel.com | High
-3 | 74.221.221.58 | 58.221.221.74.opticip.com | High
-4 | ... | ... | ...
+1 | 13.32.208.34 | server-13-32-208-34.iad66.r.cloudfront.net | High
+2 | 37.59.24.98 | ns3043472.ip-37-59-24.eu | High
+3 | 69.64.32.247 | dragon324.dedicatedpanel.com | High
+4 | 74.221.221.58 | 58.221.221.74.opticip.com | High
+5 | 82.165.155.77 | mail850785786.mywebspace.zone | High
+6 | 85.12.29.254 | - | High
+7 | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Kuluoz. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Description | Confidence
+-- | --------- | ----------- | ----------
+1 | T1059.007 | Cross Site Scripting | High
 
 ## IOA - Indicator of Attack
 
@@ -31,13 +42,15 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `data/gbconfiguration.dat` | High
-2 | Argument | `Password` | Medium
+2 | File | `wp-includes/kses.php` | High
+3 | Argument | `Password` | Medium
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0806-0813.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 
 ## Literature
 

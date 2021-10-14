@@ -10,10 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * CN
-* IT
+* DE
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,25 +25,25 @@ ID | IP address | Hostname | Confidence
 2 | 3.223.115.185 | ec2-3-223-115-185.compute-1.amazonaws.com | Medium
 3 | 5.134.13.72 | i51.gds.guru.net.uk | High
 4 | 13.59.53.244 | ec2-13-59-53-244.us-east-2.compute.amazonaws.com | Medium
-5 | 20.36.253.92 | - | High
-6 | 23.6.69.99 | a23-6-69-99.deploy.static.akamaitechnologies.com | High
-7 | 23.227.38.74 | - | High
-8 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
-9 | 34.214.40.214 | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | Medium
-10 | 34.216.47.14 | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | Medium
-11 | 34.242.63.192 | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | Medium
-12 | 34.243.160.251 | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | Medium
-13 | 34.255.61.59 | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | Medium
-14 | 35.178.125.63 | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | Medium
-15 | 40.77.18.167 | - | High
-16 | 44.230.27.49 | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | Medium
-17 | 45.135.229.212 | iad.scarletshark.net | High
-18 | 47.75.37.155 | - | High
-19 | 47.111.101.108 | - | High
-20 | 50.116.94.41 | almanagalleria.com.qa | High
+5 | 13.107.42.12 | 1drv.ms | High
+6 | 20.36.253.92 | - | High
+7 | 23.6.69.99 | a23-6-69-99.deploy.static.akamaitechnologies.com | High
+8 | 23.227.38.74 | - | High
+9 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
+10 | 34.214.40.214 | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | Medium
+11 | 34.216.47.14 | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | Medium
+12 | 34.242.63.192 | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | Medium
+13 | 34.243.160.251 | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | Medium
+14 | 34.255.61.59 | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | Medium
+15 | 35.178.125.63 | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | Medium
+16 | 40.77.18.167 | - | High
+17 | 40.126.26.134 | - | High
+18 | 44.230.27.49 | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | Medium
+19 | 45.135.229.212 | iad.scarletshark.net | High
+20 | 47.75.37.155 | - | High
 21 | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 73 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/admintools/tool.php` | High
 11 | ... | ... | ...
 
-There are 2005 more IOA items available. Please use our online service to access the data.
+There are 2013 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +88,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0702-0709.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0723-0730.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0813-0820.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 
 ## Literature
 

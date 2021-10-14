@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * RU
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,7 @@ ID | IP address | Hostname | Confidence
 20 | 40.76.4.15 | - | High
 21 | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 187 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,17 +67,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/blocks/blocks/edit/8` | High
-3 | File | `/admin/menus/menus/edit/3` | High
-4 | File | `/admin/nodes/nodes/add/blog` | High
-5 | File | `/admin/taxonomy/vocabularies` | High
-6 | File | `/cgi/networkDiag.cgi` | High
-7 | File | `/exponent_constants.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/mods/_core/users/admins/my_edit.php` | High
-10 | File | `/plain` | Low
+3 | File | `/admin/login/login_check.php` | High
+4 | File | `/admin/menus/menus/edit/3` | High
+5 | File | `/admin/nodes/nodes/add/blog` | High
+6 | File | `/admin/taxonomy/vocabularies` | High
+7 | File | `/bin/goahead` | Medium
+8 | File | `/cgi/networkDiag.cgi` | High
+9 | File | `/exponent_constants.php` | High
+10 | File | `/forum/away.php` | High
 11 | ... | ... | ...
 
-There are 172 more IOA items available. Please use our online service to access the data.
+There are 189 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -107,6 +107,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 
 ## Literature
 
