@@ -1,6 +1,6 @@
 # Fareit - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Fareit](https://vuldb.com/?actor.fareit). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Fareit](https://vuldb.com/?actor.fareit). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.fareit](https://vuldb.com/?actor.fareit)
 
@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fareit:
 
-* US
 * GB
-* FR
+* US
+* CA
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,11 +23,24 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 23.21.126.66 | ec2-23-21-126-66.compute-1.amazonaws.com | Medium
 2 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
-3 | 79.134.225.53 | - | High
-4 | 91.195.240.117 | - | High
-5 | ... | ... | ...
+3 | 34.117.168.233 | 233.168.117.34.bc.googleusercontent.com | Medium
+4 | 50.87.236.238 | 50-87-236-238.unifiedlayer.com | High
+5 | 63.141.242.46 | - | High
+6 | 64.219.114.114 | adsl-64-219-114-114.dsl.bumttx.swbell.net | High
+7 | 66.228.61.192 | li318-192.members.linode.com | High
+8 | 68.171.208.119 | penandpixel.com | High
+9 | 71.42.56.253 | rrcs-71-42-56-253.se.biz.rr.com | High
+10 | 74.125.192.138 | qn-in-f138.1e100.net | High
+11 | 75.98.175.114 | a2ss23.a2hosting.com | High
+12 | 79.134.225.53 | - | High
+13 | 81.17.18.194 | - | High
+14 | 81.17.29.146 | - | High
+15 | 81.169.145.70 | w06.rzone.de | High
+16 | 81.169.145.164 | wa4.rzone.de | High
+17 | 82.145.53.14 | table1555.cfd | High
+18 | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,10 +50,11 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
-4 | ... | ... | ...
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | T1211 | 7PK Security Features | High
+5 | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,33 +62,36 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `cat.php` | Low
-3 | File | `detail.php` | Medium
-4 | File | `filemanager/model.php` | High
-5 | File | `gallery.php` | Medium
-6 | File | `libbb/lineedit.c` | High
-7 | File | `PDF.js` | Low
-8 | File | `reports_mta_queue_status.html` | High
-9 | File | `send_reminders.php` | High
-10 | File | `shop_display_products.php` | High
+1 | File | `/admin/download_frame.php` | High
+2 | File | `/backups/` | Medium
+3 | File | `/etc/sudoers` | Medium
+4 | File | `/index.php?controller=system&action=admin_edit_act` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `bits.c` | Low
+7 | File | `cat.php` | Low
+8 | File | `Cgi/admindb.py` | High
+9 | File | `core/kernels/count_ops.cc` | High
+10 | File | `data/gbconfiguration.dat` | High
 11 | ... | ... | ...
 
-There are 12 more IOA items available. Please use our online service to access the data.
+There are 53 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1105-1112.html
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

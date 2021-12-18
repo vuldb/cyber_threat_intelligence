@@ -1,6 +1,6 @@
 # Ursu - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Ursu](https://vuldb.com/?actor.ursu). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Ursu](https://vuldb.com/?actor.ursu). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.ursu](https://vuldb.com/?actor.ursu)
 
@@ -9,6 +9,7 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ursu:
 
 * CN
+* US
 * JP
 
 ## IOC - Indicator of Compromise
@@ -23,9 +24,19 @@ ID | IP address | Hostname | Confidence
 4 | 15.11.35.18 | - | High
 5 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
 6 | 34.117.237.239 | 239.237.117.34.bc.googleusercontent.com | Medium
-7 | ... | ... | ...
+7 | 35.162.37.28 | ec2-35-162-37-28.us-west-2.compute.amazonaws.com | Medium
+8 | 44.230.33.128 | ec2-44-230-33-128.us-west-2.compute.amazonaws.com | Medium
+9 | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Ursu. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Description | Confidence
+-- | --------- | ----------- | ----------
+1 | T1068 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -33,7 +44,11 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `adminUsername/adminPassword` | High
+1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
+2 | File | `Layout.java` | Medium
+3 | Argument | `adminUsername/adminPassword` | High
+4 | Input Value | `xxx.php[space]` | High
+5 | Pattern | `|0a|If|3a|` | Medium
 
 ## References
 
@@ -43,14 +58,15 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0319-0326.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0409-0416.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
+* https://blog.talosintelligence.com/2021/12/threat-roundup-1203-1210.html
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

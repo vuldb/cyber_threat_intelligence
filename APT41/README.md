@@ -1,6 +1,6 @@
 # APT41 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt41](https://vuldb.com/?actor.apt41)
 
@@ -31,7 +31,7 @@ ID | IP address | Hostname | Confidence
 2 | 43.255.191.255 | - | High
 3 | 45.76.6.149 | 45.76.6.149.vultr.com | Medium
 4 | 45.76.75.219 | 45.76.75.219.vultr.com | Medium
-5 | 45.138.157.78 | vpnru07.12.21.example.com | High
+5 | 45.138.157.78 | vm303301.pq.hosting | High
 6 | 61.78.62.21 | - | High
 7 | 61.195.98.245 | h61-195-98-245.ablenetvps.ne.jp | High
 8 | 66.42.48.186 | 66.42.48.186.vultr.com | Medium
@@ -44,8 +44,8 @@ ID | IP address | Hostname | Confidence
 15 | 67.198.161.252 | 67.198.161.252.CUSTOMER.KRYPT.COM | High
 16 | 74.82.201.8 | 74.82.201.8.16clouds.com | High
 17 | 91.208.184.78 | wk-azure.biz | High
-18 | 103.19.3.21 | - | High
-19 | 103.19.3.109 | - | High
+18 | 103.19.3.21 | 103.19.3.21.static.xtom.com | High
+19 | 103.19.3.109 | 103.19.3.109.static.xtom.com | High
 20 | ... | ... | ...
 
 There are 38 more IOC items available. Please use our online service to access the data.
@@ -61,7 +61,7 @@ ID | Technique | Description | Confidence
 3 | T1211 | 7PK Security Features | High
 4 | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,19 +69,19 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/config/rpcd` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/get_getnetworkconf.cgi` | High
-4 | File | `/lists/admin/` | High
-5 | File | `/login.cgi?logout=1` | High
-6 | File | `/public/login.htm` | High
-7 | File | `/tmp/app/.env` | High
-8 | File | `/wp-admin/admin-ajax.php` | High
-9 | File | `/_next` | Low
-10 | File | `addentry.php` | Medium
+1 | File | `/api/blade-log/api/list` | High
+2 | File | `/category_view.php` | High
+3 | File | `/cgi-bin/system_mgr.cgi` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/etc/config/rpcd` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/get_getnetworkconf.cgi` | High
+8 | File | `/lists/admin/` | High
+9 | File | `/login.cgi?logout=1` | High
+10 | File | `/public/login.htm` | High
 11 | ... | ... | ...
 
-There are 109 more IOA items available. Please use our online service to access the data.
+There are 126 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -103,9 +103,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # Ramnit - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Ramnit](https://vuldb.com/?actor.ramnit). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Ramnit](https://vuldb.com/?actor.ramnit). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.ramnit](https://vuldb.com/?actor.ramnit)
 
@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * US
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,29 +21,29 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 5.101.159.26 | - | High
-2 | 5.180.102.147 | 377961.msk-kvm.ru | High
-3 | 13.90.196.81 | - | High
-4 | 13.107.21.200 | - | High
-5 | 18.213.250.117 | ec2-18-213-250-117.compute-1.amazonaws.com | Medium
-6 | 18.215.128.143 | ec2-18-215-128-143.compute-1.amazonaws.com | Medium
-7 | 23.5.233.23 | a23-5-233-23.deploy.static.akamaitechnologies.com | High
-8 | 23.46.56.194 | a23-46-56-194.deploy.static.akamaitechnologies.com | High
-9 | 23.46.57.84 | a23-46-57-84.deploy.static.akamaitechnologies.com | High
-10 | 23.46.57.232 | a23-46-57-232.deploy.static.akamaitechnologies.com | High
-11 | 23.46.57.251 | a23-46-57-251.deploy.static.akamaitechnologies.com | High
-12 | 23.64.109.30 | a23-64-109-30.deploy.static.akamaitechnologies.com | High
-13 | 23.196.65.196 | a23-196-65-196.deploy.static.akamaitechnologies.com | High
-14 | 23.218.130.41 | a23-218-130-41.deploy.static.akamaitechnologies.com | High
-15 | 34.98.99.30 | 30.99.98.34.bc.googleusercontent.com | Medium
-16 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
-17 | 34.197.76.50 | ec2-34-197-76-50.compute-1.amazonaws.com | Medium
-18 | 34.225.182.233 | ec2-34-225-182-233.compute-1.amazonaws.com | Medium
-19 | 35.188.161.42 | 42.161.188.35.bc.googleusercontent.com | Medium
-20 | 35.224.11.86 | 86.11.224.35.bc.googleusercontent.com | Medium
+1 | 3.64.163.50 | ec2-3-64-163-50.eu-central-1.compute.amazonaws.com | Medium
+2 | 5.45.82.108 | - | High
+3 | 5.45.118.216 | - | High
+4 | 5.45.120.46 | s052d782e.fastvps-server.com | High
+5 | 5.45.124.183 | sfc6c0e42.fastvps-server.com | High
+6 | 5.45.147.152 | - | High
+7 | 5.101.159.26 | - | High
+8 | 5.180.102.147 | 377961.msk-kvm.ru | High
+9 | 13.90.196.81 | - | High
+10 | 13.107.21.200 | - | High
+11 | 18.213.250.117 | ec2-18-213-250-117.compute-1.amazonaws.com | Medium
+12 | 18.215.128.143 | ec2-18-215-128-143.compute-1.amazonaws.com | Medium
+13 | 23.5.233.23 | a23-5-233-23.deploy.static.akamaitechnologies.com | High
+14 | 23.46.56.194 | a23-46-56-194.deploy.static.akamaitechnologies.com | High
+15 | 23.46.57.84 | a23-46-57-84.deploy.static.akamaitechnologies.com | High
+16 | 23.46.57.232 | a23-46-57-232.deploy.static.akamaitechnologies.com | High
+17 | 23.46.57.251 | a23-46-57-251.deploy.static.akamaitechnologies.com | High
+18 | 23.64.109.30 | a23-64-109-30.deploy.static.akamaitechnologies.com | High
+19 | 23.196.65.196 | a23-196-65-196.deploy.static.akamaitechnologies.com | High
+20 | 23.218.130.41 | a23-218-130-41.deploy.static.akamaitechnologies.com | High
 21 | ... | ... | ...
 
-There are 134 more IOC items available. Please use our online service to access the data.
+There are 158 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/about-us/locations/index` | High
 11 | ... | ... | ...
 
-There are 3550 more IOA items available. Please use our online service to access the data.
+There are 3581 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -89,15 +89,17 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1022-1029.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_ramnit.ipset
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

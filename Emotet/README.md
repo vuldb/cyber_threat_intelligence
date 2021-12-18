@@ -1,6 +1,6 @@
 # Emotet - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Emotet](https://vuldb.com/?actor.emotet). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Emotet](https://vuldb.com/?actor.emotet). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.emotet](https://vuldb.com/?actor.emotet)
 
@@ -10,10 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * CN
-* VN
+* ES
 * ...
 
-There are 33 more country items available. Please use our online service to access the data.
+There are 40 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,15 +35,15 @@ ID | IP address | Hostname | Confidence
 12 | 5.89.33.136 | net-5-89-33-136.cust.vodafonedsl.it | High
 13 | 5.196.35.138 | vps10.open-techno.net | High
 14 | 5.230.193.41 | casagarcia-web.sys.netzfabrik.eu | High
-15 | 8.4.9.137 | host-8-4-9-137.onlinehorizons.net | High
+15 | 8.4.9.137 | onlinehorizons.net | High
 16 | 12.162.84.2 | - | High
 17 | 12.163.208.58 | - | High
 18 | 12.184.217.101 | - | High
-19 | 24.43.99.75 | rrcs-24-43-99-75.west.biz.rr.com | High
-20 | 24.101.229.82 | dynamic-acs-24-101-229-82.zoominternet.net | High
+19 | 23.6.65.194 | a23-6-65-194.deploy.static.akamaitechnologies.com | High
+20 | 23.36.85.183 | a23-36-85-183.deploy.static.akamaitechnologies.com | High
 21 | ... | ... | ...
 
-There are 379 more IOC items available. Please use our online service to access the data.
+There are 425 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,9 +55,10 @@ ID | Technique | Description | Confidence
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+5 | T1222 | Permission Issues | High
+6 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,19 +66,19 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/accounts/password_change/` | High
-3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-5 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-6 | File | `/HNAP1` | Low
-7 | File | `/out.php` | Medium
-8 | File | `/PreviewHandler.ashx` | High
-9 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-10 | File | `/shared/view_source.php` | High
+1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
+2 | File | `/.env` | Low
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/accounts/password_change/` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/account/changepassword` | High
+7 | File | `/admin/account/changeprofileimage` | High
+8 | File | `/admin/account/clearcache` | High
+9 | File | `/admin/cms.php` | High
+10 | File | `/admin/communitymanagement.php` | High
 11 | ... | ... | ...
 
-There are 275 more IOA items available. Please use our online service to access the data.
+There are 736 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +90,9 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0723-0730.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1022-1029.html
+* https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
 * https://community.blueliv.com/#!/s/5fb2ee2482df413eaf344b29
 * https://unit42.paloaltonetworks.com/emotet-command-and-control/
 
@@ -96,9 +100,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

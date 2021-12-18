@@ -1,6 +1,6 @@
 # Tofsee - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Tofsee](https://vuldb.com/?actor.tofsee). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tofsee](https://vuldb.com/?actor.tofsee). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.tofsee](https://vuldb.com/?actor.tofsee)
 
@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tofsee:
 
-* JP
 * US
+* JP
 * RU
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,24 +26,24 @@ ID | IP address | Hostname | Confidence
 3 | 5.61.37.41 | - | High
 4 | 12.167.151.116 | - | High
 5 | 13.107.21.200 | - | High
-6 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
-7 | 23.3.112.125 | a23-3-112-125.deploy.static.akamaitechnologies.com | High
-8 | 23.5.227.69 | a23-5-227-69.deploy.static.akamaitechnologies.com | High
-9 | 23.5.238.94 | a23-5-238-94.deploy.static.akamaitechnologies.com | High
-10 | 23.10.92.253 | a23-10-92-253.deploy.static.akamaitechnologies.com | High
-11 | 23.10.134.216 | a23-10-134-216.deploy.static.akamaitechnologies.com | High
-12 | 23.64.99.87 | a23-64-99-87.deploy.static.akamaitechnologies.com | High
-13 | 23.64.110.75 | a23-64-110-75.deploy.static.akamaitechnologies.com | High
-14 | 23.78.210.51 | a23-78-210-51.deploy.static.akamaitechnologies.com | High
-15 | 23.90.4.6 | dementia.virtual-dope.com | High
-16 | 23.216.244.163 | a23-216-244-163.deploy.static.akamaitechnologies.com | High
-17 | 31.13.65.52 | instagram-p3-shv-01-atl3.fbcdn.net | High
-18 | 31.13.65.174 | instagram-p42-shv-01-atl3.fbcdn.net | High
-19 | 37.1.217.172 | - | High
-20 | 40.76.4.15 | - | High
+6 | 18.237.235.220 | ec2-18-237-235-220.us-west-2.compute.amazonaws.com | Medium
+7 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
+8 | 23.3.112.125 | a23-3-112-125.deploy.static.akamaitechnologies.com | High
+9 | 23.5.227.69 | a23-5-227-69.deploy.static.akamaitechnologies.com | High
+10 | 23.5.238.94 | a23-5-238-94.deploy.static.akamaitechnologies.com | High
+11 | 23.10.92.253 | a23-10-92-253.deploy.static.akamaitechnologies.com | High
+12 | 23.10.134.216 | a23-10-134-216.deploy.static.akamaitechnologies.com | High
+13 | 23.64.99.87 | a23-64-99-87.deploy.static.akamaitechnologies.com | High
+14 | 23.64.110.75 | a23-64-110-75.deploy.static.akamaitechnologies.com | High
+15 | 23.78.210.51 | a23-78-210-51.deploy.static.akamaitechnologies.com | High
+16 | 23.90.4.6 | dementia.virtual-dope.com | High
+17 | 23.216.244.163 | a23-216-244-163.deploy.static.akamaitechnologies.com | High
+18 | 31.13.65.52 | instagram-p3-shv-01-atl3.fbcdn.net | High
+19 | 31.13.65.174 | instagram-p42-shv-01-atl3.fbcdn.net | High
+20 | 34.223.6.127 | ec2-34-223-6-127.us-west-2.compute.amazonaws.com | Medium
 21 | ... | ... | ...
 
-There are 187 more IOC items available. Please use our online service to access the data.
+There are 214 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,11 +53,12 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
-4 | T1222 | Permission Issues | High
-5 | ... | ... | ...
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | T1211 | 7PK Security Features | High
+5 | T1222 | Permission Issues | High
+6 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,19 +66,19 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/blocks/blocks/edit/8` | High
-3 | File | `/admin/login/login_check.php` | High
-4 | File | `/admin/menus/menus/edit/3` | High
-5 | File | `/admin/nodes/nodes/add/blog` | High
-6 | File | `/admin/taxonomy/vocabularies` | High
-7 | File | `/bin/goahead` | Medium
-8 | File | `/cgi/networkDiag.cgi` | High
-9 | File | `/exponent_constants.php` | High
-10 | File | `/forum/away.php` | High
+1 | File | `.nautilus-metafile.xml` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/blocks/blocks/edit/8` | High
+4 | File | `/admin/conferences/get-all-status/` | High
+5 | File | `/admin/login/login_check.php` | High
+6 | File | `/admin/menus/menus/edit/3` | High
+7 | File | `/admin/nodes/nodes/add/blog` | High
+8 | File | `/admin/taxonomy/vocabularies` | High
+9 | File | `/bin/goahead` | Medium
+10 | File | `/cgi/networkDiag.cgi` | High
 11 | ... | ... | ...
 
-There are 189 more IOA items available. Please use our online service to access the data.
+There are 270 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -108,14 +109,20 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0917-0924.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1022-1029.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1105-1112.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

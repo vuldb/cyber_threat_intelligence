@@ -1,6 +1,6 @@
 # TrickBot - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [TrickBot](https://vuldb.com/?actor.trickbot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [TrickBot](https://vuldb.com/?actor.trickbot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.trickbot](https://vuldb.com/?actor.trickbot)
 
@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * ES
 * ...
 
-There are 35 more country items available. Please use our online service to access the data.
+There are 38 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,10 +40,10 @@ ID | IP address | Hostname | Confidence
 17 | 23.21.27.29 | ec2-23-21-27-29.compute-1.amazonaws.com | Medium
 18 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | Medium
 19 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
-20 | 23.96.30.229 | - | High
+20 | 23.94.233.210 | 23-94-233-210-host.colocrossing.com | High
 21 | ... | ... | ...
 
-There are 257 more IOC items available. Please use our online service to access the data.
+There are 286 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/config.php?display=backup` | High
 11 | ... | ... | ...
 
-There are 987 more IOA items available. Please use our online service to access the data.
+There are 1043 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -93,15 +93,18 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0625-0702.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
+* https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
+* https://blog.talosintelligence.com/2021/11/threat-roundup-1105-1112.html
 * https://feodotracker.abuse.ch/downloads/ipblocklist.csv
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
