@@ -27,11 +27,9 @@ ID | IP address | Hostname | Confidence
 1 | 24.64.36.238 | mail.target-realty.com | High
 2 | 45.63.62.109 | 45.63.62.109.vultr.com | Medium
 3 | 45.76.173.103 | 45.76.173.103.vultr.com | Medium
-4 | 45.77.121.232 | 45.77.121.232.vultr.com | Medium
-5 | 66.42.98.156 | 66.42.98.156.vultr.com | Medium
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,15 +54,9 @@ ID | Type | Indicator | Confidence
 2 | File | `data/gbconfiguration.dat` | High
 3 | File | `flow.php` | Medium
 4 | File | `goform/setUsbUnload` | High
-5 | File | `HTTPServerILServlet.java` | High
-6 | File | `login_meeting.cgi` | High
-7 | File | `manager.c` | Medium
-8 | File | `options.cpp` | Medium
-9 | File | `redir.php` | Medium
-10 | File | `register.php` | Medium
-11 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 21 more IOA items available. Please use our online service to access the data.
+There are 27 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -82,4 +74,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

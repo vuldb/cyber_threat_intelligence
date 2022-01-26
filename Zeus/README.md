@@ -1,6 +1,6 @@
 # Zeus - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Zeus](https://vuldb.com/?actor.zeus). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zeus](https://vuldb.com/?actor.zeus). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.zeus](https://vuldb.com/?actor.zeus)
 
@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
 
-* DE
-* ES
 * US
+* RU
+* FR
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +41,31 @@ ID | IP address | Hostname | Confidence
 18 | 60.13.186.5 | - | High
 19 | 60.241.184.209 | 60-241-184-209.static.tpgi.com.au | High
 20 | 62.14.215.109 | 109.215.14.62.static.jazztel.es | High
-21 | ... | ... | ...
+21 | 63.249.131.74 | - | High
+22 | 63.249.133.74 | - | High
+23 | 63.249.138.74 | - | High
+24 | 63.249.141.74 | - | High
+25 | 63.249.142.74 | - | High
+26 | 63.249.143.70 | - | High
+27 | 63.249.143.74 | - | High
+28 | 63.249.146.74 | - | High
+29 | 63.249.147.74 | - | High
+30 | 63.249.148.74 | - | High
+31 | 64.70.19.202 | mailrelay.202.website.ws | High
+32 | 64.74.223.48 | - | High
+33 | 64.85.233.8 | astound-64-85-233-8.ca.astound.net | High
+34 | 64.90.187.131 | 64.90.187.131.static.nyinternet.net | High
+35 | 64.127.71.73 | vcg2-4.slc1.tnltd.net | High
+36 | 64.182.0.64 | - | High
+37 | 64.182.1.64 | - | High
+38 | 64.182.6.64 | - | High
+39 | 64.182.10.64 | - | High
+40 | 64.182.12.64 | hobart2.dal01.corespace.com | High
+41 | 64.182.13.64 | - | High
+42 | 64.182.16.64 | - | High
+43 | ... | ... | ...
 
-There are 189 more IOC items available. Please use our online service to access the data.
+There are 167 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,10 +76,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,19 +86,27 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%2a` | Low
-2 | File | `%SYSTEMDRIVE%` | High
-3 | File | `.asp` | Low
-4 | File | `.htaccess` | Medium
-5 | File | `.imwheelrc` | Medium
-6 | File | `.joerc` | Low
-7 | File | `.jpilot` | Low
-8 | File | `.php` | Low
-9 | File | `.plan` | Low
-10 | File | `.procmailrc` | Medium
-11 | ... | ... | ...
+1 | File | `/cgi-bin/user/Config.cgi` | High
+2 | File | `/htdocs/cgibin` | High
+3 | File | `/payu/icpcheckout/` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `/videotalk` | Medium
+6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+7 | File | `activity_log.php` | High
+8 | File | `adm/systools.asp` | High
+9 | File | `admin.php` | Medium
+10 | File | `admin/getparam.cgi` | High
+11 | File | `adminCons.php` | High
+12 | File | `ajax_list_accounts.php` | High
+13 | File | `asn1fix_retrieve.c` | High
+14 | File | `auth-options.c` | High
+15 | File | `bigsam_guestbook.php` | High
+16 | File | `books.php` | Medium
+17 | File | `card/pay/.../amount` | High
+18 | File | `category.cfm` | Medium
+19 | ... | ... | ...
 
-There are 2494 more IOA items available. Please use our online service to access the data.
+There are 152 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -89,9 +118,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

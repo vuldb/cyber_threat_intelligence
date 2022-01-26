@@ -1,6 +1,6 @@
 # Dofoil - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Dofoil](https://vuldb.com/?actor.dofoil). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Dofoil](https://vuldb.com/?actor.dofoil). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.dofoil](https://vuldb.com/?actor.dofoil)
 
@@ -26,13 +26,9 @@ ID | IP address | Hostname | Confidence
 3 | 23.6.24.15 | a23-6-24-15.deploy.static.akamaitechnologies.com | High
 4 | 23.6.65.194 | a23-6-65-194.deploy.static.akamaitechnologies.com | High
 5 | 23.209.185.159 | a23-209-185-159.deploy.static.akamaitechnologies.com | High
-6 | 27.100.36.191 | - | High
-7 | 45.63.25.55 | 45.63.25.55.vultr.com | Medium
-8 | 50.3.75.246 | web.netkolik.org | High
-9 | 50.21.183.63 | - | High
-10 | ... | ... | ...
+6 | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,10 +55,9 @@ ID | Type | Indicator | Confidence
 7 | File | `catalog.asp` | Medium
 8 | File | `dapur/index.php` | High
 9 | File | `data/gbconfiguration.dat` | High
-10 | File | `dc_categorieslist.asp` | High
-11 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 69 more IOA items available. Please use our online service to access the data.
+There are 79 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -74,9 +69,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

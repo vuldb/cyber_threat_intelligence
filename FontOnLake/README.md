@@ -41,16 +41,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/s/` | Low
 2 | File | `AdminbaseController.class.php` | High
 3 | File | `application\User\Controller\ProfileController.class.php` | High
-4 | File | `exif.c` | Low
-5 | File | `htimage.exe` | Medium
-6 | File | `libbfd.c` | Medium
-7 | File | `opncls.c` | Medium
-8 | Library | `gdrv.sys` | Medium
-9 | Argument | `-m/-c` | Low
-10 | Argument | `imgurl` | Low
-11 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 5 more IOA items available. Please use our online service to access the data.
+There are 12 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -67,4 +60,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

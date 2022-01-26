@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ramnit:
 
-* DE
-* ES
 * US
+* ES
+* RU
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +41,25 @@ ID | IP address | Hostname | Confidence
 18 | 23.64.109.30 | a23-64-109-30.deploy.static.akamaitechnologies.com | High
 19 | 23.196.65.196 | a23-196-65-196.deploy.static.akamaitechnologies.com | High
 20 | 23.218.130.41 | a23-218-130-41.deploy.static.akamaitechnologies.com | High
-21 | ... | ... | ...
+21 | 31.44.184.117 | - | High
+22 | 34.98.99.30 | 30.99.98.34.bc.googleusercontent.com | Medium
+23 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
+24 | 34.197.76.50 | ec2-34-197-76-50.compute-1.amazonaws.com | Medium
+25 | 34.225.182.233 | ec2-34-225-182-233.compute-1.amazonaws.com | Medium
+26 | 35.188.161.42 | 42.161.188.35.bc.googleusercontent.com | Medium
+27 | 35.224.11.86 | 86.11.224.35.bc.googleusercontent.com | Medium
+28 | 39.107.34.197 | - | High
+29 | 45.118.145.96 | - | High
+30 | 46.17.47.67 | fxchfjhtftfr.net | High
+31 | 46.165.220.141 | - | High
+32 | 46.165.220.142 | - | High
+33 | 46.165.220.143 | - | High
+34 | 46.165.220.144 | - | High
+35 | 46.165.220.145 | - | High
+36 | 46.165.220.146 | - | High
+37 | ... | ... | ...
 
-There are 158 more IOC items available. Please use our online service to access the data.
+There are 143 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,14 +67,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,19 +80,26 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `-X/path/to/wwwroot/file.php.` | High
-2 | File | `.dbshell` | Medium
-3 | File | `.gemspec` | Medium
-4 | File | `.git/hooks/post-update` | High
-5 | File | `.gitmodules` | Medium
-6 | File | `.htaccess` | Medium
-7 | File | `/.kedpm/history` | High
-8 | File | `/.vnc/sesman_${username}_passwd` | High
-9 | File | `//etc/RT2870STA.dat` | High
-10 | File | `/about-us/locations/index` | High
-11 | ... | ... | ...
+1 | File | `/admin/admin.php` | High
+2 | File | `/admin/imageslider/file.php` | High
+3 | File | `/cgi-bin/luci` | High
+4 | File | `/core/vb/vurl.php` | High
+5 | File | `/etc/ldap.conf` | High
+6 | File | `/importTool/preview` | High
+7 | File | `/mods/_core/courses/users/create_course.php` | High
+8 | File | `/phppath/php` | Medium
+9 | File | `/plugins/Dashboard/Controller.php` | High
+10 | File | `/server-status` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `adclick.php` | Medium
+13 | File | `addentry.php` | Medium
+14 | File | `add_comment.php` | High
+15 | File | `admin-ajax.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/class-bulk-editor-list-table.php` | High
+18 | ... | ... | ...
 
-There are 3581 more IOA items available. Please use our online service to access the data.
+There are 149 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -92,6 +113,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1022-1029.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_ramnit.ipset
+* https://twitter.com/bit_dam/status/1280975679354556429
 
 ## Literature
 
@@ -102,4 +124,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

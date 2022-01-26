@@ -1,6 +1,6 @@
 # Sandworm Team - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Sandworm Team](https://vuldb.com/?actor.sandworm_team). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Sandworm Team](https://vuldb.com/?actor.sandworm_team). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.sandworm_team](https://vuldb.com/?actor.sandworm_team)
 
@@ -34,13 +34,9 @@ ID | IP address | Hostname | Confidence
 5 | 5.149.254.114 | mail1.auditoriavanzada.info | High
 6 | 5.255.87.39 | - | High
 7 | 31.210.111.154 | . | High
-8 | 37.220.34.56 | - | High
-9 | 46.4.28.218 | static.218.28.4.46.clients.your-server.de | High
-10 | 46.165.222.6 | - | High
-11 | 46.165.222.28 | root.server-ke412.com | High
-12 | ... | ... | ...
+8 | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,11 +47,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,11 +65,36 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/portal` | High
 7 | File | `/common/vam_editXml.php` | High
 8 | File | `/configs/application.ini` | High
-9 | File | `/Monitoring-History.php` | High
-10 | File | `/nova/bin/diskd` | High
-11 | ... | ... | ...
+9 | File | `/dl/dl_print.php` | High
+10 | File | `/moddable/xs/sources/xsDebug.c` | High
+11 | File | `/Monitoring-History.php` | High
+12 | File | `/nova/bin/diskd` | High
+13 | File | `/phppath/php` | Medium
+14 | File | `/portal/api/style/edit-theme-set/template-sources` | High
+15 | File | `/rpc/api` | Medium
+16 | File | `/rup` | Low
+17 | File | `/StdC/Ap4StdCFileByteStream.cpp` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/user-utils/users/md5.json` | High
+20 | File | `/var/log/nginx` | High
+21 | File | `/webapps/blogs-journals/execute/editBlogEntry` | High
+22 | File | `/wordpress/wp-admin/admin.php` | High
+23 | File | `/wp-json` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `add.php` | Low
+26 | File | `add.php/del.php` | High
+27 | File | `add_comment.php` | High
+28 | File | `admin-ajax.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/adminsignin.html` | High
+31 | File | `admin/forums.php` | High
+32 | File | `admin/google_search_console/class-gsc-table.php` | High
+33 | File | `admin/infoclass_update.php` | High
+34 | File | `admin/menus/edit.php` | High
+35 | File | `admin/system/admin/certificates/delete` | High
+36 | ... | ... | ...
 
-There are 319 more IOA items available. Please use our online service to access the data.
+There are 305 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -91,9 +110,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # REvil - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [REvil](https://vuldb.com/?actor.revil). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [REvil](https://vuldb.com/?actor.revil). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.revil](https://vuldb.com/?actor.revil)
 
@@ -16,7 +16,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * DE
-* CN
+* RU
+* ...
+
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,10 +29,16 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 5.230.195.226 | - | High
 2 | 18.223.199.234 | ec2-18-223-199-234.us-east-2.compute.amazonaws.com | Medium
-3 | 45.55.211.79 | - | High
-4 | ... | ... | ...
+3 | 45.9.148.108 | mx1.dendrite.network | High
+4 | 45.33.2.79 | li956-79.members.linode.com | High
+5 | 45.33.18.44 | li972-44.members.linode.com | High
+6 | 45.33.20.235 | li974-235.members.linode.com | High
+7 | 45.33.23.183 | li977-183.members.linode.com | High
+8 | 45.33.30.197 | li1047-197.members.linode.com | High
+9 | 45.55.211.79 | - | High
+10 | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +48,10 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1222 | Permission Issues | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,25 +59,32 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/category_view.php` | High
-2 | File | `/cms/process.php` | High
-3 | File | `/etc/shadow` | Medium
-4 | File | `/movie.php` | Medium
-5 | File | `admin/settings.php` | High
-6 | File | `data/gbconfiguration.dat` | High
-7 | File | `instant_service.cc` | High
-8 | File | `item_show.php` | High
-9 | File | `language/lang_english/lang_main_album.php` | High
-10 | File | `maketemp.pl` | Medium
-11 | ... | ... | ...
+1 | File | `/.htpasswd` | Medium
+2 | File | `/category_view.php` | High
+3 | File | `/cgi-bin/nasset.cgi` | High
+4 | File | `/cgi-bin/webadminget.cgi` | High
+5 | File | `/cms/process.php` | High
+6 | File | `/etc/shadow` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/SetNetControlList` | High
+9 | File | `/index.php/weblinks-categories` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/movie.php` | Medium
+12 | File | `/public/login.htm` | High
+13 | File | `/show_news.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `adclick.php` | Medium
+16 | File | `admin.asp` | Medium
+17 | ... | ... | ...
 
-There are 13 more IOA items available. Please use our online service to access the data.
+There are 135 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
+* https://ddanchev.blogspot.com/2022/01/exposing-internet-connected_24.html
 * https://www.darktrace.com/en/blog/darktraces-cyber-ai-analyst-investigates-sodinokibi-r-evil-ransomware/
 * https://www.varonis.com/blog/revil-msp-supply-chain-attack/
 
@@ -73,9 +92,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

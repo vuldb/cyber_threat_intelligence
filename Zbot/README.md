@@ -9,11 +9,11 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zbot:
 
 * US
-* GR
-* IT
+* ES
+* RU
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +41,30 @@ ID | IP address | Hostname | Confidence
 18 | 45.60.77.201 | - | High
 19 | 49.212.235.209 | www3469.sakura.ne.jp | High
 20 | 50.72.177.24 | S01069050ca30b943.wp.shawcable.net | High
-21 | ... | ... | ...
+21 | 50.116.43.143 | li480-143.members.linode.com | High
+22 | 51.178.156.9 | ip9.ip-51-178-156.eu | High
+23 | 52.85.132.44 | server-52-85-132-44.iad50.r.cloudfront.net | High
+24 | 52.137.90.34 | - | High
+25 | 52.185.71.28 | - | High
+26 | 58.1.158.10 | ntaich204010.aich.nt.ngn.ppp.infoweb.ne.jp | High
+27 | 58.68.2.214 | - | High
+28 | 58.185.131.158 | - | High
+29 | 59.90.221.6 | static.bb.hyd.59.90.221.6.bsnl.in | High
+30 | 60.244.81.6 | 60-244-81-6.apol.com.tw | High
+31 | 61.7.235.35 | - | High
+32 | 61.32.242.131 | - | High
+33 | 62.49.180.189 | - | High
+34 | 64.219.121.189 | - | High
+35 | 65.55.50.189 | - | High
+36 | 66.34.208.39 | - | High
+37 | 66.117.77.134 | 66-117-77-134.gohighspeed.com | High
+38 | 66.151.138.85 | c-66-151-138-85.inap-sj.nfoservers.com | High
+39 | 66.214.95.108 | 066-214-095-108.res.spectrum.com | High
+40 | 68.13.34.171 | ip68-13-34-171.om.om.cox.net | High
+41 | 69.39.74.6 | mail.marrsterry.com | High
+42 | ... | ... | ...
 
-There are 186 more IOC items available. Please use our online service to access the data.
+There are 165 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +77,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,19 +85,27 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cartstore/cartstoreadmin/orders.php` | High
-2 | File | `/dev/kvm` | Medium
-3 | File | `/forum/away.php` | High
-4 | File | `/mnt/mtd/app/config/ProductConfig.xml` | High
-5 | File | `/principals` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `/var/log/nginx` | High
-8 | File | `/wp-admin/admin-ajax.php` | High
-9 | File | `4.2.0.CP03` | Medium
-10 | File | `CGIProxy.fcgi?cmd=setTelnetSwitch` | High
-11 | ... | ... | ...
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/imageslider/file.php` | High
+4 | File | `/cgi-bin/luci` | High
+5 | File | `/core/vb/vurl.php` | High
+6 | File | `/etc/ldap.conf` | High
+7 | File | `/importTool/preview` | High
+8 | File | `/mods/_core/courses/users/create_course.php` | High
+9 | File | `/phppath/php` | Medium
+10 | File | `/plugins/Dashboard/Controller.php` | High
+11 | File | `/server-status` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `adclick.php` | Medium
+14 | File | `add_comment.php` | High
+15 | File | `admin-ajax.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/class-bulk-editor-list-table.php` | High
+18 | File | `ajax/render/widget_php` | High
+19 | ... | ... | ...
 
-There are 89 more IOA items available. Please use our online service to access the data.
+There are 152 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +137,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

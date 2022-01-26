@@ -33,10 +33,10 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1222 | Permission Issues | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,9 +54,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/services/details.asp` | High
 9 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 10 | File | `/_core/profile/` | High
-11 | ... | ... | ...
+11 | File | `adclick.php` | Medium
+12 | File | `additem.asp` | Medium
+13 | File | `addsite.php` | Medium
+14 | File | `admin/review.php` | High
+15 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
+16 | ... | ... | ...
 
-There are 122 more IOA items available. Please use our online service to access the data.
+There are 124 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -73,4 +78,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -27,14 +27,9 @@ ID | IP address | Hostname | Confidence
 4 | 45.144.225.219 | - | High
 5 | 89.249.74.213 | - | High
 6 | 94.103.80.254 | v702647.hosted-by-vdsina.ru | High
-7 | 103.150.8.54 | - | High
-8 | 104.21.70.22 | - | High
-9 | 142.44.252.19 | ip19.ip-142-44-252.net | High
-10 | 155.94.198.169 | 155.94.198.169.static.quadranet.com | High
-11 | 162.159.129.233 | - | High
-12 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +42,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,9 +60,19 @@ ID | Type | Indicator | Confidence
 8 | File | `/netflow/jspui/linkdownalertConfig.jsp` | High
 9 | File | `/product.php` | Medium
 10 | File | `/products/details.asp` | High
-11 | ... | ... | ...
+11 | File | `/uncpath/` | Medium
+12 | File | `123flashchat.php` | High
+13 | File | `ActionsAndOperations` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin.php` | Medium
+16 | File | `adminlogin.asp` | High
+17 | File | `Adminstrator/Users/Edit/` | High
+18 | File | `binder.c` | Medium
+19 | File | `books.php` | Medium
+20 | File | `buy.php` | Low
+21 | ... | ... | ...
 
-There are 183 more IOA items available. Please use our online service to access the data.
+There are 174 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +96,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

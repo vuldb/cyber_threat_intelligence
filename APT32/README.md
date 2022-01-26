@@ -1,6 +1,6 @@
 # APT32 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT32](https://vuldb.com/?actor.apt32). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT32](https://vuldb.com/?actor.apt32). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt32](https://vuldb.com/?actor.apt32)
 
@@ -17,10 +17,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * CN
-* TR
+* VN
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,22 +35,14 @@ ID | IP address | Hostname | Confidence
 5 | 37.59.198.130 | - | High
 6 | 37.59.198.131 | - | High
 7 | 45.32.100.179 | 45.32.100.179.vultr.com | Medium
-8 | 45.32.105.45 | 45.32.105.45.vultr.com | Medium
+8 | 45.32.105.45 | - | High
 9 | 45.32.114.49 | 45.32.114.49.vultr.com | Medium
 10 | 45.76.147.201 | 45.76.147.201.vultr.com | Medium
 11 | 45.76.179.28 | 45.76.179.28.vultr.com | Medium
 12 | 45.76.179.151 | 45.76.179.151.vultr.com | Medium
-13 | 45.77.39.101 | 45.77.39.101.vultr.com | Medium
-14 | 45.114.117.137 | - | High
-15 | 45.114.117.164 | folien.reisnart.com | High
-16 | 64.62.174.9 | unassigned9.net2.fc.aoindustries.com | High
-17 | 64.62.174.16 | unassigned16.net2.fc.aoindustries.com | High
-18 | 64.62.174.17 | unassigned17.net2.fc.aoindustries.com | High
-19 | 64.62.174.21 | unassigned21.net2.fc.aoindustries.com | High
-20 | 64.62.174.41 | unassigned41.net2.fc.aoindustries.com | High
-21 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 40 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,10 +53,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,15 +65,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/cgiServer.exx` | High
 2 | File | `/cgi-bin/login_action.cgi` | High
-3 | File | `/dev/sg0` | Medium
-4 | File | `/event/runquery.do` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/manager?action=getlogcat` | High
-7 | File | `/password.html` | High
-8 | File | `/system/ws/v11/ss/email)` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `add_vhost.php` | High
-11 | ... | ... | ...
+3 | File | `/cgi-bin/webviewer_login_page` | High
+4 | File | `/dev/sg0` | Medium
+5 | File | `/event/runquery.do` | High
+6 | File | `/filemanager/php/connector.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/setmac` | High
+9 | File | `/manager?action=getlogcat` | High
+10 | File | `/password.html` | High
+11 | File | `/system/ws/v11/ss/email` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `add_vhost.php` | High
+14 | File | `admin/images.aspx` | High
+15 | File | `admin/index.php` | High
+16 | File | `adv2.php?action=modify` | High
+17 | File | `agent.cfg` | Medium
+18 | File | `arch/x86/include/asm/fpu/internal.h` | High
+19 | File | `asm/float.c` | Medium
+20 | File | `asm/nasm.c` | Medium
+21 | ... | ... | ...
 
 There are 178 more IOA items available. Please use our online service to access the data.
 
@@ -98,9 +99,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

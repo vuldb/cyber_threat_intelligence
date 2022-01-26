@@ -8,12 +8,8 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TrickBot:
 
-* US
-* RU
-* ES
-* ...
-
-There are 38 more country items available. Please use our online service to access the data.
+* VN
+* CN
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +37,50 @@ ID | IP address | Hostname | Confidence
 18 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | Medium
 19 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
 20 | 23.94.233.210 | 23-94-233-210-host.colocrossing.com | High
-21 | ... | ... | ...
+21 | 23.96.30.229 | - | High
+22 | 23.160.192.125 | unknown.ip-xfer.net | High
+23 | 23.160.193.106 | unknown.ip-xfer.net | High
+24 | 27.72.107.215 | dynamic-ip-adsl.viettel.vn | High
+25 | 34.117.59.81 | 81.59.117.34.bc.googleusercontent.com | Medium
+26 | 36.89.191.119 | - | High
+27 | 36.89.193.181 | - | High
+28 | 36.89.193.235 | - | High
+29 | 36.94.27.124 | - | High
+30 | 36.94.100.202 | - | High
+31 | 37.228.70.134 | - | High
+32 | 37.230.114.93 | admin1.fvds.ru | High
+33 | 37.230.114.248 | kosmolot.com | High
+34 | 37.230.115.133 | wdai.io | High
+35 | 37.230.115.138 | i2.com | High
+36 | 37.230.115.184 | 21922vdscom.com | High
+37 | 43.245.216.116 | - | High
+38 | 45.6.16.68 | - | High
+39 | 45.167.249.126 | - | High
+40 | 45.178.142.14 | - | High
+41 | 45.201.134.202 | - | High
+42 | 45.229.71.211 | static-45-229-71-211.extrememt.com.br | High
+43 | 45.234.248.154 | 45.-234.248-154.rev.voanet.br | High
+44 | 46.8.21.10 | 53980.web.hosting-russia.ru | High
+45 | 46.8.21.113 | 64403.web.hosting-russia.ru | High
+46 | 46.209.140.220 | - | High
+47 | 46.254.128.174 | 46.254.128.174.lanultra.net | High
+48 | 49.156.34.134 | - | High
+49 | 51.38.101.194 | - | High
+50 | 51.77.92.215 | - | High
+51 | 51.81.112.144 | - | High
+52 | 51.89.115.116 | tombe.nationfox.net | High
+53 | 52.0.197.231 | ec2-52-0-197-231.compute-1.amazonaws.com | Medium
+54 | 52.20.197.7 | ec2-52-20-197-7.compute-1.amazonaws.com | Medium
+55 | 52.204.109.97 | ec2-52-204-109-97.compute-1.amazonaws.com | Medium
+56 | 54.39.106.25 | ns560342.ip-54-39-106.net | High
+57 | 54.221.253.252 | ec2-54-221-253-252.compute-1.amazonaws.com | Medium
+58 | 62.64.9.237 | clients-62.64.9.237.misp.ru | High
+59 | 62.109.2.172 | megamart24.ru | High
+60 | 62.109.6.188 | velomarket31.ru | High
+61 | 62.109.14.24 | btc-manager1.ru | High
+62 | ... | ... | ...
 
-There are 286 more IOC items available. Please use our online service to access the data.
+There are 245 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,11 +91,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,19 +101,20 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.user` | Low
-3 | File | `/$({curl` | Medium
-4 | File | `/+CSCOE+/logon.html` | High
-5 | File | `/.env` | Low
-6 | File | `/accounts/password_change/` | High
-7 | File | `/addWhiteListDomain.imss` | High
-8 | File | `/adfs/ls` | Medium
-9 | File | `/admin/ajax/upload-logo` | High
-10 | File | `/admin/config.php?display=backup` | High
-11 | ... | ... | ...
+1 | File | `/admin/login.php` | High
+2 | File | `/ajax_crud` | Medium
+3 | File | `/core/table/query` | High
+4 | File | `/dev/ion` | Medium
+5 | File | `/ecma/operations/ecma-objects.c` | High
+6 | File | `/GetCopiedFile` | High
+7 | File | `/hdf5/src/H5T.c` | High
+8 | File | `/leave_system/classes/Login.php` | High
+9 | File | `/risque/administration/referentiel/json/create/categorie` | High
+10 | File | `/rsms/` | Low
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 1043 more IOA items available. Please use our online service to access the data.
+There are 90 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +143,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

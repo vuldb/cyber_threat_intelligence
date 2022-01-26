@@ -1,6 +1,6 @@
 # Baldr - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Baldr](https://vuldb.com/?actor.baldr). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Baldr](https://vuldb.com/?actor.baldr). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.baldr](https://vuldb.com/?actor.baldr)
 
@@ -8,12 +8,7 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Baldr:
 
-* US
-* CN
-* RU
-* ...
-
-There are 16 more country items available. Please use our online service to access the data.
+* NL
 
 ## IOC - Indicator of Compromise
 
@@ -39,11 +34,15 @@ ID | IP address | Hostname | Confidence
 16 | 18.221.49.166 | ec2-18-221-49-166.us-east-2.compute.amazonaws.com | Medium
 17 | 23.19.58.101 | - | High
 18 | 23.95.95.61 | 23-95-95-61-host.colocrossing.com | High
-19 | 23.254.217.112 | hwsrv-901988.hostwindsdns.com | High
-20 | 23.254.225.240 | hwsrv-907360.hostwindsdns.com | High
-21 | ... | ... | ...
+19 | 23.254.217.112 | hwsrv-930282.hostwindsdns.com | High
+20 | 23.254.225.240 | sha29.phpautomailer.com | High
+21 | 45.64.186.10 | 45-64-186-10.static.bangmod-idc.com | High
+22 | 45.77.252.143 | 45.77.252.143.vultr.com | Medium
+23 | 46.30.42.130 | assetshub.com | High
+24 | 46.249.62.196 | - | High
+25 | ... | ... | ...
 
-There are 101 more IOC items available. Please use our online service to access the data.
+There are 97 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +55,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,19 +63,46 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/functions.php` | High
-3 | File | `/auth/login` | Medium
-4 | File | `/download` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/saveParentControlInfo` | High
-7 | File | `/inc/lists/edit-list.php` | High
-8 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-9 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-10 | File | `/modules/projects/vw_files.php` | High
-11 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/config.php?display=disa&view=form` | High
+5 | File | `/BRS_netgear_success.html` | High
+6 | File | `/category_view.php` | High
+7 | File | `/dev/kmem` | Medium
+8 | File | `/dev/shm` | Medium
+9 | File | `/medical/inventories.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/NAGErrors` | Medium
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/proc/ioports` | High
+15 | File | `/replication` | Medium
+16 | File | `/rest/api/2/user/picker` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/rom-0` | Low
+19 | File | `/tmp` | Low
+20 | File | `/tmp/speedtest_urls.xml` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/log/nginx` | High
+23 | File | `/wp-admin/admin.php` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `abook_database.php` | High
+26 | File | `account.asp` | Medium
+27 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+28 | File | `admin/index.php` | High
+29 | File | `admin/login.php` | High
+30 | File | `admincp.php` | Medium
+31 | File | `admincp.php?app=apps&do=save` | High
+32 | File | `admincp.php?app=files` | High
+33 | File | `admin\model\catalog\download.php` | High
+34 | File | `ajax/render/widget_php` | High
+35 | File | `apcupsd.pid` | Medium
+36 | File | `api/sms/send-sms` | High
+37 | File | `api/v1/alarms` | High
+38 | ... | ... | ...
 
-There are 248 more IOA items available. Please use our online service to access the data.
+There are 323 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -88,9 +114,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

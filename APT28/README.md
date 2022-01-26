@@ -1,6 +1,6 @@
 # APT28 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt28](https://vuldb.com/?actor.apt28)
 
@@ -19,12 +19,12 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
+* NL
+* RO
 * US
-* DE
-* ES
 * ...
 
-There are 52 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,10 +51,36 @@ ID | IP address | Hostname | Confidence
 17 | 45.64.105.23 | - | High
 18 | 45.124.132.127 | - | High
 19 | 46.19.138.66 | ab2.alchibasystems.in.net | High
-20 | 46.21.147.55 | 55.147.21.46.in-addr.arpa | High
-21 | ... | ... | ...
+20 | 46.21.147.55 | 46-21-147-55.static.hvvc.us | High
+21 | 46.21.147.71 | 46-21-147-71.static.hvvc.us | High
+22 | 46.21.147.76 | 46-21-147-76.static.hvvc.us | High
+23 | 46.148.17.227 | - | High
+24 | 46.166.162.90 | - | High
+25 | 46.183.217.74 | ip-217-74.dataclub.info | High
+26 | 51.38.128.110 | - | High
+27 | 51.254.76.54 | - | High
+28 | 51.254.158.57 | - | High
+29 | 54.37.104.106 | piber.connectedlists.com | High
+30 | 58.49.58.58 | - | High
+31 | 62.113.232.197 | - | High
+32 | 66.172.11.207 | ip-66-172-11-207.chunkhost.com | High
+33 |  66.172.12.133 | - | High
+34 | 69.12.73.174 | 69.12.73.174.static.quadranet.com | High
+35 | 70.85.221.10 | server002.nilsson-it.dk | High
+36 | 70.85.221.20 | 14.dd.5546.static.theplanet.com | High
+37 | 76.74.177.251 | ip-76-74-177-251.chunkhost.com | High
+38 | 77.81.98.122 | no-rdns.clues.ro | High
+39 | 77.83.247.81 | - | High
+40 | 78.153.151.222 | smtp33.pristavka-fr.ru | High
+41 | 80.83.115.187 | host3.smtpnoida.biz | High
+42 | 80.255.3.93 | - | High
+43 | 80.255.3.94 | set121.com | High
+44 | 80.255.6.15 | - | High
+45 | 80.255.10.236 | - | High
+46 | 81.17.30.29 | - | High
+47 | ... | ... | ...
 
-There are 211 more IOC items available. Please use our online service to access the data.
+There are 185 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,14 +88,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,19 +101,43 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.procmailrc` | Medium
-3 | File | `/$({curl` | Medium
-4 | File | `/+CSCOE+/logon.html` | High
-5 | File | `/.env` | Low
-6 | File | `/.ssh/authorized_keys` | High
-7 | File | `/.vnc/sesman_${username}_passwd` | High
-8 | File | `/account/details.php` | High
-9 | File | `/admin.php` | Medium
-10 | File | `/admin/adclass.php` | High
-11 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/config.php?display=disa&view=form` | High
+5 | File | `/category_view.php` | High
+6 | File | `/dev/kmem` | Medium
+7 | File | `/filemanager/upload.php` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/NAGErrors` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/proc/ioports` | High
+14 | File | `/replication` | Medium
+15 | File | `/reports/rwservlet` | High
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/wp-admin/admin.php` | High
+22 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+23 | File | `admin/app/mediamanager` | High
+24 | File | `admin/index.php` | High
+25 | File | `admin\model\catalog\download.php` | High
+26 | File | `afr.php` | Low
+27 | File | `apcupsd.pid` | Medium
+28 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+29 | File | `api/sms/send-sms` | High
+30 | File | `api/v1/alarms` | High
+31 | File | `application/controller/InstallerController.php` | High
+32 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+33 | File | `arformcontroller.php` | High
+34 | File | `auth-gss2.c` | Medium
+35 | ... | ... | ...
 
-There are 2654 more IOA items available. Please use our online service to access the data.
+There are 300 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -132,9 +180,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

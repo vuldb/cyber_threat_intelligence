@@ -1,6 +1,6 @@
 # Strider - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Strider](https://vuldb.com/?actor.strider). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Strider](https://vuldb.com/?actor.strider). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.strider](https://vuldb.com/?actor.strider)
 
@@ -19,7 +19,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * DE
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,10 +30,9 @@ ID | IP address | Hostname | Confidence
 1 | 37.252.125.88 | - | High
 2 | 54.209.129.218 | ec2-54-209-129-218.compute-1.amazonaws.com | Medium
 3 | 66.228.52.133 | li294-133.members.linode.com | High
-4 | 81.4.108.168 | darkhshadow.co.uk | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,18 +54,11 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `BC_Logon.swf` | Medium
-3 | File | `C:\Windows\SysWOW64\webcenter\web.exe` | High
-4 | File | `index.php` | Medium
-5 | File | `libfaad/bits.c` | High
-6 | File | `modules/mappers/mod_rewrite.c` | High
-7 | File | `wp-includes/pluggable.php` | High
-8 | Library | `C:\Windows\System32\DriverStore\FileRepository\prnms003.inf_amd64_4592475aca2acf83\Amd64\printconfig.dll` | High
-9 | Library | `lib/user/sfBasicSecurityUser.class.php` | High
-10 | Library | `nvwgf2um/x.dll` | High
-11 | ... | ... | ...
+2 | File | `article.php` | Medium
+3 | File | `BC_Logon.swf` | Medium
+4 | ... | ... | ...
 
-There are 4 more IOA items available. Please use our online service to access the data.
+There are 22 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -78,9 +70,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

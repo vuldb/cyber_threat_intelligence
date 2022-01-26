@@ -1,6 +1,6 @@
 # Charming Kitten - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Charming Kitten](https://vuldb.com/?actor.charming_kitten). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Charming Kitten](https://vuldb.com/?actor.charming_kitten). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.charming_kitten](https://vuldb.com/?actor.charming_kitten)
 
@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Charming Kitten:
 
-* US
 * NL
-* ES
+* CN
+* US
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,10 +40,11 @@ ID | IP address | Hostname | Confidence
 17 | 51.254.254.217 | me14.mecide.com | High
 18 | 51.255.28.57 | - | High
 19 | 54.36.217.8 | ip8.ip-54-36-217.eu | High
-20 | 54.37.164.254 | ip254.ip-54-37-164.eu | High
-21 | ... | ... | ...
+20 | 54.37.164.254 | - | High
+21 | 69.30.221.126 | - | High
+22 | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,11 +52,10 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
 
@@ -65,19 +65,39 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `'phpshell.php` | High
-2 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-3 | File | `/about-us/locations/index` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/account/changepassword` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/pin/websitepin` | High
-8 | File | `/admin_giant/add_gallery.php` | High
-9 | File | `/admin_giant/add_team_member.php` | High
-10 | File | `/api/addusers` | High
-11 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/?module=users&section=cpanel&page=list` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/powerline` | High
+6 | File | `/admin/syslog` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/cgi-bin` | Medium
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+11 | File | `/medical/inventories.php` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/new` | Low
+14 | File | `/plugins/servlet/audit/resource` | High
+15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+16 | File | `/proc/<pid>/status` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/replication` | Medium
+19 | File | `/RestAPI` | Medium
+20 | File | `/scripts/killpvhost` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+23 | File | `/tmp` | Low
+24 | File | `/tmp/redis.ds` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/var/log/nginx` | High
+27 | File | `/wp-admin` | Medium
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `actions/CompanyDetailsSave.php` | High
+30 | File | `ActiveServices.java` | High
+31 | ... | ... | ...
 
-There are 1236 more IOA items available. Please use our online service to access the data.
+There are 260 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -91,9 +111,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

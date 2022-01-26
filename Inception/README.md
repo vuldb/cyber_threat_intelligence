@@ -1,6 +1,6 @@
 # Inception - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Inception](https://vuldb.com/?actor.inception). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Inception](https://vuldb.com/?actor.inception). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.inception](https://vuldb.com/?actor.inception)
 
@@ -14,12 +14,12 @@ The following campaigns are known and can be associated with Inception:
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* DE
-* FR
+* SV
 * IT
+* FR
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,10 +30,9 @@ ID | IP address | Hostname | Confidence
 1 | 51.255.139.194 | ip194.ip-51-255-139.eu | High
 2 | 82.221.100.55 | web.a1yola.com | High
 3 | 82.221.100.60 | - | High
-4 | 83.53.147.144 | 144.red-83-53-147.dynamicip.rima-tde.net | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,14 +40,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,19 +53,33 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
-2 | File | `%PROGRAMDATA%\WrData\PKG` | High
-3 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
-4 | File | `.gitolite.rc` | Medium
-5 | File | `.travis.yml` | Medium
-6 | File | `.well-known` | Medium
-7 | File | `/#/CampaignManager/users` | High
-8 | File | `/#/page` | Low
-9 | File | `/.htpasswd` | Medium
-10 | File | `/1.com.php` | Medium
-11 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/account/register` | High
+3 | File | `/api/notify.php` | High
+4 | File | `/backups/` | Medium
+5 | File | `/cgi-bin/New_GUI/Igmp.asp` | High
+6 | File | `/domain/service/.ewell-known/caldav` | High
+7 | File | `/etc/passwd` | Medium
+8 | File | `/formAdvFirewall` | High
+9 | File | `/goods/getGoodsListByConditions/` | High
+10 | File | `/home/user/dir` | High
+11 | File | `/master/article.php` | High
+12 | File | `/mobile/SelectUsers.jsp` | High
+13 | File | `/ProteinArraySignificanceTest.json` | High
+14 | File | `/Videos/Id/hls/PlaylistId/SegmentId.SegmentContainer` | High
+15 | File | `/web` | Low
+16 | File | `4.edu.php\conn\function.php` | High
+17 | File | `abc.c` | Low
+18 | File | `admin/bad.php` | High
+19 | File | `admin/dl_sendmail.php` | High
+20 | File | `admin/edit.php` | High
+21 | File | `admin/pages/useredit.php` | High
+22 | File | `AdminBaseController.class.php` | High
+23 | File | `AlertReceiver.java` | High
+24 | File | `AndroidManifest.xml` | High
+25 | ... | ... | ...
 
-There are 2413 more IOA items available. Please use our online service to access the data.
+There are 213 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -83,9 +94,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

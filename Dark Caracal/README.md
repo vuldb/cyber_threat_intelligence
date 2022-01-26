@@ -1,6 +1,6 @@
 # Dark Caracal - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Dark Caracal](https://vuldb.com/?actor.dark_caracal). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Dark Caracal](https://vuldb.com/?actor.dark_caracal). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.dark_caracal](https://vuldb.com/?actor.dark_caracal)
 
@@ -10,10 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * CZ
 * US
-* FR
+* CN
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,16 +47,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/apply.cgi` | Medium
 2 | File | `apply.cgi` | Medium
 3 | File | `data/gbconfiguration.dat` | High
-4 | File | `inc/config.php` | High
-5 | File | `ipp.c` | Low
-6 | File | `product_desc.php` | High
-7 | File | `software-description.php` | High
-8 | File | `system/admin/dash_additem.php` | High
-9 | File | `wp-admin/post.php` | High
-10 | Argument | `basePath` | Medium
-11 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 11 more IOA items available. Please use our online service to access the data.
+There are 22 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -68,9 +61,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

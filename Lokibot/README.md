@@ -1,12 +1,12 @@
-# LokiBot - Cyber Threat Intelligence
+# Lokibot - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [LokiBot](https://vuldb.com/?actor.lokibot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lokibot](https://vuldb.com/?actor.lokibot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.lokibot](https://vuldb.com/?actor.lokibot)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lokibot:
 
 * ES
 * US
@@ -17,7 +17,7 @@ There are 12 more country items available. Please use our online service to acce
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of LokiBot.
+These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Lokibot.
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
@@ -47,7 +47,7 @@ There are 65 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by LokiBot. This data is unique as it uses our predictive model for actor profiling.
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Lokibot. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
@@ -61,7 +61,7 @@ There are 8 more TTP items available. Please use our online service to access th
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by LokiBot. This data is unique as it uses our predictive model for actor profiling.
+These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lokibot. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
