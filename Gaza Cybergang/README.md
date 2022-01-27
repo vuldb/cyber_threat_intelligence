@@ -1,6 +1,6 @@
 # Gaza Cybergang - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Gaza Cybergang](https://vuldb.com/?actor.gaza_cybergang). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gaza Cybergang](https://vuldb.com/?actor.gaza_cybergang). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.gaza_cybergang](https://vuldb.com/?actor.gaza_cybergang)
 
@@ -28,12 +28,11 @@ These indicators of compromise indicate associated network ressources which are 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 45.63.97.44 | 45.63.97.44.vultr.com | Medium
-2 | 82.211.30.186 | cud3.newyparkingspaces.com | High
-3 | 82.211.30.192 | cud9.newyparkingspaces.com | High
-4 | 82.211.30.212 | cud29.newyparkingspaces.com | High
-5 | ... | ... | ...
+2 | 82.211.30.186 | - | High
+3 | 82.211.30.192 | - | High
+4 | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,19 +53,12 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `api_poller.php` | High
-2 | File | `crossdomain.xml` | High
-3 | File | `diy/module/member/controllers/Api.php` | High
-4 | File | `Forms/tools_admin_1` | High
-5 | File | `install/page_dbsettings.php` | High
-6 | File | `register/check/username?username` | High
-7 | File | `rzpnk.sys` | Medium
-8 | File | `wp-includes/class-wp-query.php` | High
-9 | Library | `C:\Windows\System32\DriverStore\FileRepository\prnms003.inf_amd64_4592475aca2acf83\Amd64\printconfig.dll` | High
-10 | Library | `mshtml.dll` | Medium
-11 | ... | ... | ...
+1 | File | `/index.php/newsletter/subscriber/new/` | High
+2 | File | `api_poller.php` | High
+3 | File | `crossdomain.xml` | High
+4 | ... | ... | ...
 
-There are 6 more IOA items available. Please use our online service to access the data.
+There are 14 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -79,9 +71,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

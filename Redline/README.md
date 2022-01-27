@@ -1,6 +1,6 @@
 # Redline - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Redline](https://vuldb.com/?actor.redline). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Redline](https://vuldb.com/?actor.redline). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.redline](https://vuldb.com/?actor.redline)
 
@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * TR
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,19 +31,14 @@ ID | IP address | Hostname | Confidence
 8 | 23.23.104.250 | ec2-23-23-104-250.compute-1.amazonaws.com | Medium
 9 | 23.46.238.194 | a23-46-238-194.deploy.static.akamaitechnologies.com | High
 10 | 34.76.8.115 | 115.8.76.34.bc.googleusercontent.com | Medium
-11 | 37.46.150.90 | redflower.bar | High
+11 | 37.46.150.90 | - | High
 12 | 45.33.89.196 | li1035-196.members.linode.com | High
 13 | 45.67.231.50 | licher.lone.example.com | High
 14 | 45.84.0.108 | pangeransosmed.vip | High
 15 | 45.84.0.200 | 1c.capricorn.md | High
-16 | 45.128.150.68 | dok.com | High
-17 | 45.130.147.55 | - | High
-18 | 45.139.184.124 | vps150027.vpsville.ru | High
-19 | 45.146.164.230 | - | High
-20 | 46.29.114.16 | pointer.vps.house | High
-21 | ... | ... | ...
+16 | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,10 +49,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,11 +67,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 7 | File | `/Config/SaveUploadedHotspotLogoFile` | High
 8 | File | `/dev/shm` | Medium
-9 | File | `/getcfg.php` | Medium
-10 | File | `/goform/RgUrlBlock.asp` | High
-11 | ... | ... | ...
+9 | File | `/dl/dl_print.php` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/goform/RgUrlBlock.asp` | High
+12 | File | `/index.php` | Medium
+13 | File | `/info.asp` | Medium
+14 | File | `/info.xml` | Medium
+15 | File | `/jeecg-boot/sys/common/upload` | High
+16 | File | `/mc-admin/post.php?state=delete&delete` | High
+17 | File | `/product_list.php` | High
+18 | File | `/see_more_details.php` | High
+19 | File | `/ucms/chk.php` | High
+20 | File | `5.2.9\syscrb.exe` | High
+21 | File | `abc-pcie.c` | Medium
+22 | File | `adclick.php` | Medium
+23 | File | `addentry.php` | Medium
+24 | File | `addmember.php` | High
+25 | File | `addtocart.asp` | High
+26 | File | `addtomylist.asp` | High
+27 | File | `admin.php/admin/configset/index/group/upload.html` | High
+28 | File | `admin.x-shop.php` | High
+29 | File | `admin/auth.php` | High
+30 | File | `admin/category.inc.php` | High
+31 | File | `admin/config/confmgr.php` | High
+32 | File | `admin/import/class-import-settings.php` | High
+33 | File | `admin/user/group/update` | High
+34 | ... | ... | ...
 
-There are 310 more IOA items available. Please use our online service to access the data.
+There are 292 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -93,9 +110,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

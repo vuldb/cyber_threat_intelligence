@@ -1,6 +1,6 @@
 # MuddyWater - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [MuddyWater](https://vuldb.com/?actor.muddywater). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [MuddyWater](https://vuldb.com/?actor.muddywater). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.muddywater](https://vuldb.com/?actor.muddywater)
 
@@ -34,13 +34,9 @@ ID | IP address | Hostname | Confidence
 4 | 38.132.99.167 | - | High
 5 | 46.99.148.96 | - | High
 6 | 66.219.22.235 | core96.hostingmadeeasy.com | High
-7 | 78.129.139.134 | der134.creditloanlenders.com | High
-8 | 78.129.139.147 | - | High
-9 | 78.129.139.148 | - | High
-10 | 78.129.222.56 | - | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,10 +47,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,17 +59,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `/.env` | Low
-3 | File | `/etc/ajenti/config.yml` | High
-4 | File | `/etc/passwd` | Medium
-5 | File | `/login` | Low
-6 | File | `/movie.php` | Medium
-7 | File | `/nagiosxi/admin/graphtemplates.php` | High
-8 | File | `/phppath/php` | Medium
-9 | File | `/search_events.php` | High
-10 | File | `/StartingPage/link_req_2.php` | High
-11 | ... | ... | ...
+3 | File | `/.flatpak-info` | High
+4 | File | `/etc/ajenti/config.yml` | High
+5 | File | `/etc/passwd` | Medium
+6 | File | `/login` | Low
+7 | File | `/movie.php` | Medium
+8 | File | `/nagiosxi/admin/graphtemplates.php` | High
+9 | File | `/phppath/php` | Medium
+10 | File | `/search_events.php` | High
+11 | File | `/StartingPage/link_req_2.php` | High
+12 | File | `/usr/bin/pkexec` | High
+13 | File | `/ViewUserHover.jspa` | High
+14 | File | `abook_database.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/admin.shtml` | High
+17 | File | `admin/AJAX_lookup_handler.php` | High
+18 | File | `admin/bitrix.xscan_worker.php` | High
+19 | File | `admin/config.php` | High
+20 | File | `admin/general.php` | High
+21 | File | `admin/login.asp` | High
+22 | File | `admin/movieedit.php` | High
+23 | File | `affich.php` | Medium
+24 | ... | ... | ...
 
-There are 197 more IOA items available. Please use our online service to access the data.
+There are 196 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -92,9 +100,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

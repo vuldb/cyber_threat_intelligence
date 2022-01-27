@@ -1,6 +1,6 @@
 # APT33 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt33](https://vuldb.com/?actor.apt33)
 
@@ -16,12 +16,12 @@ The following campaigns are known and can be associated with APT33:
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
+* SV
 * FR
-* DE
-* ES
+* PL
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,14 +44,9 @@ ID | IP address | Hostname | Confidence
 13 | 8.26.21.223 | mail5.boldinbox.com | High
 14 | 31.7.62.48 | - | High
 15 | 37.48.105.178 | - | High
-16 | 45.32.186.33 | 45.32.186.33.vultr.com | Medium
-17 | 45.76.32.252 | 45.76.32.252.vultr.com | Medium
-18 | 51.77.11.46 | ip46.ip-51-77-11.eu | High
-19 | 51.254.71.223 | ip223.ip-51-254-71.eu | High
-20 | 54.36.73.108 | mail.snap-status.com | High
-21 | ... | ... | ...
+16 | ... | ... | ...
 
-There are 55 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,14 +54,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,19 +67,32 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
-2 | File | `%PROGRAMDATA%\1E\Client` | High
-3 | File | `%PROGRAMDATA%\ASUS\GamingCenterLib` | High
-4 | File | `%PROGRAMDATA%\WrData\PKG` | High
-5 | File | `%PROGRAMFILES(X86)%/Aternity Information Systems/Assistant/plugins` | High
-6 | File | `.folder` | Low
-7 | File | `.forward` | Medium
-8 | File | `.git/hooks/post-update` | High
-9 | File | `.gitlab-ci.yml` | High
-10 | File | `.htaccess` | Medium
-11 | ... | ... | ...
+1 | File | `/admin/upload.php` | High
+2 | File | `/api/ZRMesh/set_ZRMesh` | High
+3 | File | `/appliance/shiftmgn.php` | High
+4 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+5 | File | `/etc/quagga` | Medium
+6 | File | `/fw/index2.do` | High
+7 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+8 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+9 | File | `/jerry-core/jmem/jmem-heap.c` | High
+10 | File | `/moddable/xs/sources/xsScript.c` | High
+11 | File | `/parser/js/js-parser-expr.c` | High
+12 | File | `/preferences/tags` | High
+13 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+14 | File | `/thruk/#cgi-bin/status.cgi?style=combined` | High
+15 | File | `/transmission/web/` | High
+16 | File | `/uploads/exam_question/` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `AccessPoint.java` | High
+19 | File | `acknow.php` | Medium
+20 | File | `acropora/app/identity/ic.c` | High
+21 | File | `acropora/app/identity/identity_support.c` | High
+22 | File | `actions.php` | Medium
+23 | File | `admin/bad.php` | High
+24 | ... | ... | ...
 
-There are 4716 more IOA items available. Please use our online service to access the data.
+There are 199 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -103,9 +109,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -87,31 +87,31 @@ ID | Type | Indicator | Confidence
 28 | File | `/uncpath/` | Medium
 29 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
 30 | File | `/uploads/dede` | High
-31 | File | `/var/log/messages` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/webman/info.cgi` | High
-34 | File | `/wp-json/wc/v3/webhooks` | High
-35 | File | `/_next` | Low
-36 | File | `AccessPoint.aspx` | High
-37 | File | `actions.hsp` | Medium
-38 | File | `activateuser.aspx` | High
-39 | File | `AdHocQuery_Processor.aspx` | High
-40 | File | `admin.asp` | Medium
-41 | File | `admin.php?m=admin&c=site&a=save` | High
-42 | File | `admin/admin.asp` | High
-43 | File | `admin/backupdb.php` | High
-44 | File | `admin/bitrix.mpbuilder_step2.php` | High
-45 | File | `admin/bitrix.xscan_worker.php` | High
-46 | File | `admin/gb-dashboard-widget.php` | High
-47 | File | `admin/images.aspx` | High
-48 | File | `admin/login.asp` | High
-49 | File | `admin/mcart_xls_import.php` | High
-50 | File | `admin/modules/tools/ip_history_logs.php` | High
-51 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-52 | File | `admin/ueditor/uploadFile` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/log/messages` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/webman/info.cgi` | High
+35 | File | `/wp-json/wc/v3/webhooks` | High
+36 | File | `/_next` | Low
+37 | File | `AccessPoint.aspx` | High
+38 | File | `actions.hsp` | Medium
+39 | File | `activateuser.aspx` | High
+40 | File | `AdHocQuery_Processor.aspx` | High
+41 | File | `admin.asp` | Medium
+42 | File | `admin.php?m=admin&c=site&a=save` | High
+43 | File | `admin/admin.asp` | High
+44 | File | `admin/backupdb.php` | High
+45 | File | `admin/bitrix.mpbuilder_step2.php` | High
+46 | File | `admin/bitrix.xscan_worker.php` | High
+47 | File | `admin/gb-dashboard-widget.php` | High
+48 | File | `admin/images.aspx` | High
+49 | File | `admin/login.asp` | High
+50 | File | `admin/mcart_xls_import.php` | High
+51 | File | `admin/modules/tools/ip_history_logs.php` | High
+52 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
 53 | ... | ... | ...
 
-There are 458 more IOA items available. Please use our online service to access the data.
+There are 459 more IOA items available. Please use our online service to access the data.
 
 ## References
 

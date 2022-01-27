@@ -242,12 +242,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/ecma/operations/ecma-objects.c` | High
 6 | File | `/GetCopiedFile` | High
 7 | File | `/hdf5/src/H5T.c` | High
-8 | File | `/leave_system/classes/Login.php` | High
-9 | File | `/risque/administration/referentiel/json/create/categorie` | High
-10 | File | `/rsms/` | Low
-11 | ... | ... | ...
+8 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+9 | File | `/jerry-core/ecma/operations/ecma-typedarray-object.c` | High
+10 | File | `/leave_system/classes/Login.php` | High
+11 | File | `/plugin` | Low
+12 | File | `/rest/collectors/1.0/template/custom` | High
+13 | File | `/risque/administration/referentiel/json/create/categorie` | High
+14 | ... | ... | ...
 
-There are 80 more IOA items available. Please use our online service to access the data.
+There are 115 more IOA items available. Please use our online service to access the data.
 
 ## References
 

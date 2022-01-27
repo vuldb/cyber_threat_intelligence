@@ -92,7 +92,8 @@ ID | Type | Indicator | Confidence
 32 | File | `admin/index.php` | High
 33 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
 34 | File | `admin/system_manage/save.html` | High
-35 | ... | ... | ...
+35 | File | `ajax.php` | Medium
+36 | ... | ... | ...
 
 There are 304 more IOA items available. Please use our online service to access the data.
 

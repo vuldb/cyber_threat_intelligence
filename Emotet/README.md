@@ -9,11 +9,11 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emotet:
 
 * VN
-* CN
 * US
+* CN
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Confidence
 13 | 5.89.33.136 | net-5-89-33-136.cust.vodafonedsl.it | High
 14 | 5.196.35.138 | vps10.open-techno.net | High
 15 | 5.230.193.41 | casagarcia-web.sys.netzfabrik.eu | High
-16 | 8.4.9.137 | host-8-4-9-137.onlinehorizons.net | High
+16 | 8.4.9.137 | onlinehorizons.net | High
 17 | 12.32.68.154 | mail.sealscoinc.com | High
 18 | 12.149.72.170 | - | High
 19 | 12.162.84.2 | - | High
@@ -141,7 +141,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -149,28 +149,28 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `./clients/client` | High
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/assets/ctx` | Medium
-4 | File | `/config/getuser` | High
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/ajax_crud` | Medium
+3 | File | `/appliance/users?action=edit` | High
+4 | File | `/assets/ctx` | Medium
 5 | File | `/core/table/query` | High
 6 | File | `/dev/ion` | Medium
 7 | File | `/ecma/operations/ecma-objects.c` | High
-8 | File | `/enduserreg` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/GetCopiedFile` | High
-11 | File | `/goform/activate_process` | High
-12 | File | `/hdf5/src/H5T.c` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/GetCopiedFile` | High
+10 | File | `/goform/activate_process` | High
+11 | File | `/hdf5/src/H5T.c` | High
+12 | File | `/include/chart_generator.php` | High
 13 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
 14 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
 15 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
 16 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
 17 | File | `/jerry-core/vm/vm.c` | High
-18 | File | `/mobile/SelectUsers.jsp` | High
-19 | File | `/ms/mdiy/model/importJson.do` | High
+18 | File | `/ms/mdiy/model/importJson.do` | High
+19 | File | `/ms/template/writeFileContent.do` | High
 20 | ... | ... | ...
 
-There are 166 more IOA items available. Please use our online service to access the data.
+There are 167 more IOA items available. Please use our online service to access the data.
 
 ## References
 

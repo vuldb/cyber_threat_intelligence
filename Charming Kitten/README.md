@@ -97,7 +97,7 @@ ID | Type | Indicator | Confidence
 30 | File | `ActiveServices.java` | High
 31 | ... | ... | ...
 
-There are 260 more IOA items available. Please use our online service to access the data.
+There are 262 more IOA items available. Please use our online service to access the data.
 
 ## References
 

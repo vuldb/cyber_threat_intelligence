@@ -1,6 +1,6 @@
 # PittyTiger - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [PittyTiger](https://vuldb.com/?actor.pittytiger). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PittyTiger](https://vuldb.com/?actor.pittytiger). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.pittytiger](https://vuldb.com/?actor.pittytiger)
 
@@ -29,17 +29,9 @@ ID | IP address | Hostname | Confidence
 10 | 58.61.40.5 | 5.40.61.58.broad.sz.gd.dynamic.163data.com.cn | High
 11 | 58.64.175.191 | - | High
 12 | 58.64.175.255 | - | High
-13 | 58.64.177.60 | - | High
-14 | 58.64.185.200 | - | High
-15 | 58.64.185.255 | - | High
-16 | 59.53.91.33 | - | High
-17 | 59.120.84.230 | 59-120-84-230.hinet-ip.hinet.net | High
-18 | 59.123.255.255 | 59-123-255-255.dynamic-ip.hinet.net | High
-19 | 61.145.112.78 | - | High
-20 | 61.220.44.244 | 61-220-44-244.hinet-ip.hinet.net | High
-21 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 40 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,6 +40,8 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
+2 | T1499 | Resource Consumption | High
+3 | T1587.003 | Improper Certificate Validation | High
 
 ## IOA - Indicator of Attack
 
@@ -57,10 +51,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/go` | Medium
 2 | File | `/cgi-bin/portal` | High
-3 | File | `kbdint.c` | Medium
-4 | File | `wp-admin/admin-post.php?swp_debug=load_options` | High
-5 | Argument | `ACTION` | Low
-6 | Argument | `swp_url` | Low
+3 | File | `admin/conf_users_edit.php` | High
+4 | ... | ... | ...
+
+There are 5 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -73,9 +67,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

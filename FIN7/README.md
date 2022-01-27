@@ -20,7 +20,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * FR
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,7 @@ ID | IP address | Hostname | Confidence
 7 | 5.61.32.118 | - | High
 8 | 5.61.38.52 | - | High
 9 | 5.135.73.113 | - | High
-10 | 5.149.250.235 | snigist.co.uk | High
+10 | 5.149.250.235 | quoll.tellfex.com | High
 11 | 5.149.250.241 | flipveranda.co.uk | High
 12 | 5.149.252.144 | - | High
 13 | 5.149.253.126 | - | High
@@ -116,33 +116,33 @@ ID | Type | Indicator | Confidence
 20 | File | `/tmp` | Low
 21 | File | `/type.php` | Medium
 22 | File | `/uncpath/` | Medium
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `4.2.0.CP09` | Medium
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `ActiveServices.java` | High
-28 | File | `admin.color.php` | High
-29 | File | `admin.cropcanvas.php` | High
-30 | File | `admin.joomlaradiov5.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-33 | File | `admin/add-glossary.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | File | `admin/edit-comments.php` | High
-36 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-37 | File | `admin/write-post.php` | High
-38 | File | `administrator/components/com_media/helpers/media.php` | High
-39 | File | `admin_events.php` | High
-40 | File | `AjaxApplication.java` | High
-41 | File | `akocomments.php` | High
-42 | File | `allopass-error.php` | High
-43 | File | `AllowBindAppWidgetActivity.java` | High
-44 | File | `AndroidManifest.xml` | High
-45 | File | `AnnotateActivity.java` | High
-46 | File | `announcement.php` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/wp-json/wc/v3/webhooks` | High
+25 | File | `4.2.0.CP09` | Medium
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `actions/CompanyDetailsSave.php` | High
+28 | File | `ActiveServices.java` | High
+29 | File | `admin.color.php` | High
+30 | File | `admin.cropcanvas.php` | High
+31 | File | `admin.joomlaradiov5.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+34 | File | `admin/add-glossary.php` | High
+35 | File | `admin/conf_users_edit.php` | High
+36 | File | `admin/edit-comments.php` | High
+37 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+38 | File | `admin/write-post.php` | High
+39 | File | `administrator/components/com_media/helpers/media.php` | High
+40 | File | `admin_events.php` | High
+41 | File | `AjaxApplication.java` | High
+42 | File | `akocomments.php` | High
+43 | File | `allopass-error.php` | High
+44 | File | `AllowBindAppWidgetActivity.java` | High
+45 | File | `AndroidManifest.xml` | High
+46 | File | `AnnotateActivity.java` | High
 47 | ... | ... | ...
 
-There are 404 more IOA items available. Please use our online service to access the data.
+There are 406 more IOA items available. Please use our online service to access the data.
 
 ## References
 
