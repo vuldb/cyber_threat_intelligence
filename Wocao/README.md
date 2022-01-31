@@ -16,10 +16,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * RU
-* DE
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* SV
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +42,7 @@ ID | Technique | Description | Confidence
 3 | T1068 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,16 +54,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/login.php` | High
 3 | File | `/ajax_crud` | Medium
 4 | File | `/api/ZRMacClone/mac_addr_clone` | High
-5 | File | `/base/ecma-helpers-string.c` | High
-6 | File | `/cms/ajax.php` | High
-7 | File | `/core/table/query` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/dev/ion` | Medium
-10 | File | `/ecma/operations/ecma-objects.c` | High
-11 | File | `/GetCopiedFile` | High
-12 | File | `/hdf5/src/H5Dchunk.c` | High
-13 | File | `/hdf5/src/H5Fint.c` | High
-14 | File | `/include/web_check.php` | High
+5 | File | `/application/common.php#action_log` | High
+6 | File | `/base/ecma-helpers-string.c` | High
+7 | File | `/cms/ajax.php` | High
+8 | File | `/core/table/query` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/dev/ion` | Medium
+11 | File | `/ecma/operations/ecma-objects.c` | High
+12 | File | `/GetCopiedFile` | High
+13 | File | `/hdf5/src/H5Dchunk.c` | High
+14 | File | `/hdf5/src/H5Fint.c` | High
 15 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
 16 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
 17 | File | `/jerry-core/parser/js/js-parser-expr.c` | High
@@ -74,9 +71,12 @@ ID | Type | Indicator | Confidence
 19 | File | `/member/post.php?job=postnew&step=post` | High
 20 | File | `/message-bus/_diagnostics` | High
 21 | File | `/mobile/SelectUsers.jsp` | High
-22 | ... | ... | ...
+22 | File | `/music/ajax.php` | High
+23 | File | `/orms/` | Low
+24 | File | `/parser/js/js-parser-mem.c` | High
+25 | ... | ... | ...
 
-There are 182 more IOA items available. Please use our online service to access the data.
+There are 212 more IOA items available. Please use our online service to access the data.
 
 ## References
 

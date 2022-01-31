@@ -19,12 +19,9 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
-* NL
-* RO
 * US
-* ...
-
-There are 3 more country items available. Please use our online service to access the data.
+* RU
+* BG
 
 ## IOC - Indicator of Compromise
 
@@ -90,10 +87,7 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
-
-There are 7 more TTP items available. Please use our online service to access the data.
+3 | T1587.003 | Improper Certificate Validation | High
 
 ## IOA - Indicator of Attack
 
@@ -101,43 +95,12 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/category_view.php` | High
-6 | File | `/dev/kmem` | Medium
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/replication` | Medium
-15 | File | `/reports/rwservlet` | High
-16 | File | `/RestAPI` | Medium
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-admin/admin.php` | High
-22 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-23 | File | `admin/app/mediamanager` | High
-24 | File | `admin/index.php` | High
-25 | File | `admin\model\catalog\download.php` | High
-26 | File | `afr.php` | Low
-27 | File | `apcupsd.pid` | Medium
-28 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-29 | File | `api/sms/send-sms` | High
-30 | File | `api/v1/alarms` | High
-31 | File | `application/controller/InstallerController.php` | High
-32 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-33 | File | `arformcontroller.php` | High
-34 | File | `auth-gss2.c` | Medium
-35 | ... | ... | ...
+1 | File | `elFinder.class.php` | High
+2 | File | `inc/config.php` | High
+3 | File | `ot_coupon.php` | High
+4 | ... | ... | ...
 
-There are 300 more IOA items available. Please use our online service to access the data.
+There are 8 more IOA items available. Please use our online service to access the data.
 
 ## References
 

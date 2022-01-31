@@ -42,16 +42,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/login.html` | Medium
 2 | File | `/new` | Low
 3 | File | `/system?action=ServiceAdmin` | High
-4 | File | `/var/log/nginx` | High
-5 | File | `admin/index.php?m=database&c=del` | High
-6 | File | `admin/ueditor/uploadFile` | High
-7 | File | `api_jsonrpc.php` | High
-8 | File | `entropy_decoder.cc` | High
-9 | File | `FileDownload.jsp` | High
-10 | File | `HttpAdvancedSensor.exe` | High
-11 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 16 more IOA items available. Please use our online service to access the data.
+There are 25 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -68,4 +61,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

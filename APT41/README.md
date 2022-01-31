@@ -82,16 +82,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/start-stop` | Medium
 15 | File | `/tmp/app/.env` | High
 16 | File | `/uncpath/` | Medium
-17 | File | `/WEB-INF/web.xml` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `/_next` | Low
-20 | File | `adclick.php` | Medium
-21 | File | `addentry.php` | Medium
-22 | File | `addrating.php` | High
-23 | File | `admin/conf_users_edit.php` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/WEB-INF/web.xml` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `/_next` | Low
+21 | File | `adclick.php` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `addrating.php` | High
 24 | ... | ... | ...
 
-There are 202 more IOA items available. Please use our online service to access the data.
+There are 203 more IOA items available. Please use our online service to access the data.
 
 ## References
 

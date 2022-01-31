@@ -1,6 +1,6 @@
 # Mofang - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Mofang](https://vuldb.com/?actor.mofang). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Mofang](https://vuldb.com/?actor.mofang). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.mofang](https://vuldb.com/?actor.mofang)
 
@@ -26,13 +26,9 @@ ID | IP address | Hostname | Confidence
 3 | 23.89.201.173 | - | High
 4 | 38.109.190.55 | ftp2.accs.net | High
 5 | 49.213.18.15 | - | High
-6 | 50.117.47.66 | - | High
-7 | 50.117.47.67 | - | High
-8 | 61.250.92.79 | - | High
-9 | 103.39.78.131 | - | High
-10 | ... | ... | ...
+6 | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,17 +51,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/index.php` | High
-3 | File | `/message/ajax/send/` | High
-4 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-5 | File | `add_comment.php` | High
-6 | File | `app/controllers/application_controller.rb` | High
-7 | File | `application\api\controller\User.php` | High
-8 | File | `blog.php` | Medium
-9 | File | `classes/Visualizer/Gutenberg/Block.php` | High
-10 | File | `content_timeline_class.php` | High
-11 | ... | ... | ...
+3 | File | `/cgi-mod/lookup.cgi` | High
+4 | File | `/message/ajax/send/` | High
+5 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
+6 | File | `add_comment.php` | High
+7 | File | `app/controllers/application_controller.rb` | High
+8 | File | `application\api\controller\User.php` | High
+9 | File | `blog.php` | Medium
+10 | ... | ... | ...
 
-There are 71 more IOA items available. Please use our online service to access the data.
+There are 75 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -78,9 +73,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

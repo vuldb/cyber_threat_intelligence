@@ -8,12 +8,12 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
-* CN
-* RU
 * US
+* ES
+* DK
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -168,36 +168,40 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php?lfj=mysql&action=del` | High
-2 | File | `/authen/start/` | High
-3 | File | `/cgi-bin/luci/rc` | High
-4 | File | `/cms/ajax.php` | High
-5 | File | `/context/%2e/WEB-INF/web.xml` | High
-6 | File | `/domain/service/.ewell-known/caldav` | High
-7 | File | `/download` | Medium
-8 | File | `/etc/hosts` | Medium
-9 | File | `/formWlanSetup` | High
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/monitoring` | Medium
-13 | File | `/music/ajax.php` | High
-14 | File | `/new` | Low
-15 | File | `/pandora_console/ajax.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/proc/<pid>/status` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/rest/api/1.0/render` | High
-21 | File | `/RestAPI` | Medium
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/var/log/nginx` | High
-27 | File | `account.php` | Medium
-28 | ... | ... | ...
+1 | File | `/admin/app.php` | High
+2 | File | `/admin/download_frame.php` | High
+3 | File | `/admin/index.php?lfj=mysql&action=del` | High
+4 | File | `/admin/maintenance/` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/api/v2/labels/` | High
+7 | File | `/authen/start/` | High
+8 | File | `/cgi-bin/luci/rc` | High
+9 | File | `/cms/ajax.php` | High
+10 | File | `/dl/dl_sendsms.php` | High
+11 | File | `/domain/service/.ewell-known/caldav` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/exponent_constants.php` | High
+14 | File | `/extensionsinstruction` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/graphStatus/displayServiceStatus.php` | High
+17 | File | `/ifs` | Low
+18 | File | `/includes/upload.php` | High
+19 | File | `/index.php?m=ucenter&a=index` | High
+20 | File | `/info.xml` | Medium
+21 | File | `/login.php?m=admin&c=Admin&a=admin_add&lang=cn` | High
+22 | File | `/manage/loginusername` | High
+23 | File | `/music/ajax.php` | High
+24 | File | `/planprop` | Medium
+25 | File | `/question/ask` | High
+26 | File | `/tmp` | Low
+27 | File | `/var/ipfire/backup/bin/backup.pl` | High
+28 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+29 | File | `/wp-json` | Medium
+30 | File | `account.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 240 more IOA items available. Please use our online service to access the data.
+There are 268 more IOA items available. Please use our online service to access the data.
 
 ## References
 

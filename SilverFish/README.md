@@ -1,6 +1,6 @@
 # SilverFish - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [SilverFish](https://vuldb.com/?actor.silverfish). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SilverFish](https://vuldb.com/?actor.silverfish). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.silverfish](https://vuldb.com/?actor.silverfish)
 
@@ -36,15 +36,9 @@ ID | IP address | Hostname | Confidence
 7 | 79.110.52.139 | - | High
 8 | 79.110.52.140 | - | High
 9 | 81.4.122.101 | comet.v1sor.com | High
-10 | 84.38.183.45 | spb-1.podivilov.ru | High
-11 | 91.219.239.43 | no-hostname.serverastra.com | High
-12 | 91.219.239.54 | no-hostname.serverastra.com | High
-13 | 104.128.228.76 | - | High
-14 | 130.0.232.194 | - | High
-15 | 130.0.233.91 | - | High
-16 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,10 +49,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,9 +69,39 @@ ID | Type | Indicator | Confidence
 8 | File | `/error` | Low
 9 | File | `/etc/config/rpcd` | High
 10 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-11 | ... | ... | ...
+11 | File | `/goform/saveParentControlInfo` | High
+12 | File | `/htdocs/admin/dict.php?id=3` | High
+13 | File | `/includes/rrdtool.inc.php` | High
+14 | File | `/index.php/weblinks-categories` | High
+15 | File | `/module/module_frame/index.php` | High
+16 | File | `/nidp/app/login` | High
+17 | File | `/proc` | Low
+18 | File | `/redpass.cgi` | Medium
+19 | File | `/rom-0` | Low
+20 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+21 | File | `/setSystemAdmin` | High
+22 | File | `/sgms/mainPage` | High
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/user-utils/users/md5.json` | High
+26 | File | `/usr/lib/utmp_update` | High
+27 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+28 | File | `/wp-admin` | Medium
+29 | File | `1.9.5\controllers\member\ContentController.php` | High
+30 | File | `2020\Messages\SDNotify.exe` | High
+31 | File | `admin/admin_disallow.php` | High
+32 | File | `admin/Login.php` | High
+33 | File | `admin/plugin-index.php` | High
+34 | File | `administration` | High
+35 | File | `administrative` | High
+36 | File | `Alias.asmx` | Medium
+37 | File | `android/webkit/SearchBoxImpl.java` | High
+38 | File | `aolfix.exe` | Medium
+39 | File | `AudioService.java` | High
+40 | File | `awhost32.exe` | Medium
+41 | ... | ... | ...
 
-There are 381 more IOA items available. Please use our online service to access the data.
+There are 356 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -91,9 +114,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -61,7 +61,7 @@ ID | Type | Indicator | Confidence
 15 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
 16 | ... | ... | ...
 
-There are 124 more IOA items available. Please use our online service to access the data.
+There are 125 more IOA items available. Please use our online service to access the data.
 
 ## References
 

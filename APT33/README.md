@@ -16,9 +16,9 @@ The following campaigns are known and can be associated with APT33:
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* SV
 * FR
 * PL
+* SV
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -67,32 +67,33 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/upload.php` | High
-2 | File | `/api/ZRMesh/set_ZRMesh` | High
-3 | File | `/appliance/shiftmgn.php` | High
-4 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-5 | File | `/etc/quagga` | Medium
-6 | File | `/fw/index2.do` | High
-7 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-8 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-9 | File | `/jerry-core/jmem/jmem-heap.c` | High
-10 | File | `/moddable/xs/sources/xsScript.c` | High
-11 | File | `/parser/js/js-parser-expr.c` | High
-12 | File | `/preferences/tags` | High
-13 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-14 | File | `/thruk/#cgi-bin/status.cgi?style=combined` | High
+1 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+2 | File | `/admin/customers.php?page=1&cID` | High
+3 | File | `/api/ZRMesh/set_ZRMesh` | High
+4 | File | `/appliance/shiftmgn.php` | High
+5 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+6 | File | `/etc/quagga` | Medium
+7 | File | `/fw/index2.do` | High
+8 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+9 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+10 | File | `/jerry-core/jmem/jmem-heap.c` | High
+11 | File | `/moddable/xs/sources/xsScript.c` | High
+12 | File | `/parser/js/js-parser-expr.c` | High
+13 | File | `/preferences/tags` | High
+14 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 15 | File | `/transmission/web/` | High
 16 | File | `/uploads/exam_question/` | High
 17 | File | `/usr/bin/pkexec` | High
-18 | File | `AccessPoint.java` | High
-19 | File | `acknow.php` | Medium
-20 | File | `acropora/app/identity/ic.c` | High
-21 | File | `acropora/app/identity/identity_support.c` | High
-22 | File | `actions.php` | Medium
-23 | File | `admin/bad.php` | High
-24 | ... | ... | ...
+18 | File | `/usr/local/bin/mjs` | High
+19 | File | `AccessPoint.java` | High
+20 | File | `account_sponsor_page.php` | High
+21 | File | `acknow.php` | Medium
+22 | File | `acropora/app/identity/ic.c` | High
+23 | File | `acropora/app/identity/identity_support.c` | High
+24 | File | `actions.php` | Medium
+25 | ... | ... | ...
 
-There are 199 more IOA items available. Please use our online service to access the data.
+There are 207 more IOA items available. Please use our online service to access the data.
 
 ## References
 

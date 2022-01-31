@@ -19,12 +19,8 @@ There are 5 more campaign items available. Please use our online service to acce
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
-* VN
-* FR
-* IN
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* CL
+* AE
 
 ## IOC - Indicator of Compromise
 
@@ -119,7 +115,7 @@ ID | IP address | Hostname | Confidence
 85 | 31.168.203.44 | bzq-203-168-31-44.red.bezeqint.net | High
 86 | 36.71.90.4 | - | High
 87 | 37.34.240.177 | - | High
-88 | 37.48.106.69 | high-convey.blockother.com | High
+88 | 37.48.106.69 | - | High
 89 | 37.71.50.2 | 2.50.71.37.rev.sfr.net | High
 90 | 37.75.0.98 | - | High
 91 | 37.75.2.203 | - | High
@@ -235,22 +231,46 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/ajax_crud` | Medium
-3 | File | `/core/table/query` | High
-4 | File | `/dev/ion` | Medium
-5 | File | `/ecma/operations/ecma-objects.c` | High
-6 | File | `/GetCopiedFile` | High
-7 | File | `/hdf5/src/H5T.c` | High
-8 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
-9 | File | `/jerry-core/ecma/operations/ecma-typedarray-object.c` | High
-10 | File | `/leave_system/classes/Login.php` | High
-11 | File | `/plugin` | Low
-12 | File | `/rest/collectors/1.0/template/custom` | High
-13 | File | `/risque/administration/referentiel/json/create/categorie` | High
-14 | ... | ... | ...
+1 | File | `/?/admin/snippet/add` | High
+2 | File | `/?admin/user.html` | High
+3 | File | `/admin.php/Foodcat/addsave` | High
+4 | File | `/admin/users/update` | High
+5 | File | `/api` | Low
+6 | File | `/cgi-bin/api-get_line_status` | High
+7 | File | `/cgi-bin/delete_CA` | High
+8 | File | `/cgi-bin/New_GUI/Acl.asp` | High
+9 | File | `/cgi?` | Low
+10 | File | `/contentshare/image/data/user/0/com.sony.dtv.photosharingplus/files/_BRAVPSS.TMP/LJYT0010.JPG` | High
+11 | File | `/EASYIO30P-123456789012345678901234567890123456789012345678/webuser.js` | High
+12 | File | `/EASYIO30P-<session_token>/dev.htm` | High
+13 | File | `/EXCU_SHELL` | Medium
+14 | File | `/goform/systemlog?cmd=set` | High
+15 | File | `/HNAP1/SetAccessPointMode` | High
+16 | File | `/HNAP1/SetClientInfoDemo` | High
+17 | File | `/images/browserslide.jpg` | High
+18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+19 | File | `/manager?action=getlogcat` | High
+20 | File | `/mc` | Low
+21 | File | `/oauth/token/request` | High
+22 | File | `/opencms/system/workplace/admin/accounts/user_new.jsp` | High
+23 | File | `/PreviewHandler.ashx` | High
+24 | File | `/priv_mgt.html` | High
+25 | File | `/protected/vendor/codeception/codeception/tests/data/app/view/index.php` | High
+26 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+27 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
+28 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+29 | File | `/spap.htm` | Medium
+30 | File | `/system-info/health` | High
+31 | File | `/tmp/scfgdndf` | High
+32 | File | `/ubus/controller.icc.update_nds_webroot_from_tmp` | High
+33 | File | `/ubus/uci.apply` | High
+34 | File | `/usr/syno/etc/mount.conf` | High
+35 | File | `/var/log/groonga` | High
+36 | File | `/var/run/jboss-eap/` | High
+37 | File | `/vendors/neato/robots/[robot_serial]/messages` | High
+38 | ... | ... | ...
 
-There are 115 more IOA items available. Please use our online service to access the data.
+There are 326 more IOA items available. Please use our online service to access the data.
 
 ## References
 

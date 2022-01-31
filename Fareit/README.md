@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * CA
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,16 +31,9 @@ ID | IP address | Hostname | Confidence
 8 | 68.171.208.119 | penandpixel.com | High
 9 | 71.42.56.253 | rrcs-71-42-56-253.se.biz.rr.com | High
 10 | 74.125.192.138 | qn-in-f138.1e100.net | High
-11 | 75.98.175.114 | a2ss23.a2hosting.com | High
-12 | 79.134.225.53 | - | High
-13 | 81.17.18.194 | - | High
-14 | 81.17.29.146 | - | High
-15 | 81.169.145.70 | w06.rzone.de | High
-16 | 81.169.145.164 | wa4.rzone.de | High
-17 | 82.145.53.14 | table1555.cfd | High
-18 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,10 +44,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,17 +56,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/download_frame.php` | High
 2 | File | `/backups/` | Medium
-3 | File | `/etc/sudoers` | Medium
-4 | File | `/index.php?controller=system&action=admin_edit_act` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `bits.c` | Low
-7 | File | `cat.php` | Low
-8 | File | `Cgi/admindb.py` | High
-9 | File | `core/kernels/count_ops.cc` | High
-10 | File | `data/gbconfiguration.dat` | High
-11 | ... | ... | ...
+3 | File | `/cms/ajax.php` | High
+4 | File | `/etc/sudoers` | Medium
+5 | File | `/index.php?controller=system&action=admin_edit_act` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `bits.c` | Low
+8 | File | `cat.php` | Low
+9 | ... | ... | ...
 
-There are 53 more IOA items available. Please use our online service to access the data.
+There are 69 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -94,4 +84,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # Potao - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Potao](https://vuldb.com/?actor.potao). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Potao](https://vuldb.com/?actor.potao). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.potao](https://vuldb.com/?actor.potao)
 
@@ -36,14 +36,9 @@ ID | IP address | Hostname | Confidence
 6 | 62.76.184.245 | 62-76-184-245.vm.clodoserver.ru | High
 7 | 62.76.189.181 | srv.planetaexcel.ru | High
 8 | 64.40.101.43 | - | High
-9 | 67.18.208.92 | - | High
-10 | 67.103.159.141 | h-67-103-159-141.atln.ga.globalcapacity.com | High
-11 | 69.64.72.206 | toonarific.com | High
-12 | 74.54.206.162 | a2.ce.364a.static.theplanet.com | High
-13 | 74.208.68.243 | s15242899.onlinehome-server.com | High
-14 | ... | ... | ...
+9 | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -69,14 +64,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/iwguestbook/admin/badwords_edit.asp` | High
 4 | File | `/setSystemAdmin` | High
 5 | File | `/uncpath/` | Medium
-6 | File | `/webpages/data` | High
-7 | File | `/zm/index.php` | High
-8 | File | `adclick.php` | Medium
-9 | File | `afd.sys` | Low
-10 | File | `ajax/api/hook/getHookList` | High
-11 | ... | ... | ...
+6 | File | `/usr/bin/pkexec` | High
+7 | File | `/webpages/data` | High
+8 | ... | ... | ...
 
-There are 53 more IOA items available. Please use our online service to access the data.
+There are 60 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -89,9 +81,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

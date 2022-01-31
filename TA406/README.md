@@ -35,6 +35,7 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1068 | Execution with Unnecessary Privileges | High
+2 | T1499 | Resource Consumption | High
 
 ## IOA - Indicator of Attack
 
@@ -45,9 +46,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/s/` | Low
 2 | File | `inc/config.php` | High
 3 | File | `read.php` | Medium
-4 | Argument | `basePath` | Medium
-5 | Argument | `TID` | Low
-6 | Network Port | `tcp/32764` | Medium
+4 | ... | ... | ...
+
+There are 3 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -64,4 +65,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

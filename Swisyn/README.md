@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * FR
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,15 +31,9 @@ ID | IP address | Hostname | Confidence
 8 | 59.42.71.178 | - | High
 9 | 59.188.239.165 | - | High
 10 | 64.32.28.254 | curtir.gicscorple.com | High
-11 | 82.149.227.236 | - | High
-12 | 85.25.185.17 | tor-exit-1.kerneloops.de | High
-13 | 85.208.144.164 | - | High
-14 | 89.163.128.26 | srv31933.dus6.fastwebserver.de | High
-15 | 89.163.128.28 | srv31933.dus6.fastwebserver.de | High
-16 | 95.214.54.163 | - | High
-17 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,19 +51,14 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/config.php?display=disa&view=form` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-4 | File | `/etc/sysconfig/tomcat` | High
-5 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-6 | File | `admin.php` | Medium
-7 | File | `admin/plugin.php` | High
-8 | File | `btu_hcif.cc` | Medium
-9 | File | `data/gbconfiguration.dat` | High
-10 | File | `day.php` | Low
-11 | ... | ... | ...
+1 | File | `/admin/admapi.php` | High
+2 | File | `/admin/config.php?display=disa&view=form` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/sysmon.php` | High
+5 | File | `/base/ecma-helpers-string.c` | High
+6 | ... | ... | ...
 
-There are 31 more IOA items available. Please use our online service to access the data.
+There are 42 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +67,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0402-0409.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0806-0813.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
 
 ## Literature
 
@@ -88,4 +78,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

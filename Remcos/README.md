@@ -9,11 +9,7 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Remcos:
 
 * US
-* KE
-* SE
-* ...
-
-There are 19 more country items available. Please use our online service to access the data.
+* FR
 
 ## IOC - Indicator of Compromise
 
@@ -41,9 +37,14 @@ ID | IP address | Hostname | Confidence
 18 | 23.21.205.229 | ec2-23-21-205-229.compute-1.amazonaws.com | Medium
 19 | 23.38.131.139 | a23-38-131-139.deploy.static.akamaitechnologies.com | High
 20 | 23.78.173.83 | a23-78-173-83.deploy.static.akamaitechnologies.com | High
-21 | ... | ... | ...
+21 | 23.227.38.74 | - | High
+22 | 34.96.116.138 | 138.116.96.34.bc.googleusercontent.com | Medium
+23 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
+24 | 34.202.33.33 | ec2-34-202-33-33.compute-1.amazonaws.com | Medium
+25 | 35.214.144.124 | 124.144.214.35.bc.googleusercontent.com | Medium
+26 | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,12 +53,6 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
-
-There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,19 +60,12 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/accounts/password_change/` | High
-3 | File | `/admin/submit-articles` | High
-4 | File | `/admin/syslog` | High
-5 | File | `/category_view.php` | High
-6 | File | `/cgi-bin/hi3510/param.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/config/getuser` | High
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/etc/passwd` | Medium
-11 | ... | ... | ...
+1 | File | `avrc_pars_tg.cc` | High
+2 | File | `tmUnblock.cgi` | High
+3 | Argument | `ttcp_ip` | Low
+4 | ... | ... | ...
 
-There are 304 more IOA items available. Please use our online service to access the data.
+There are 1 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -96,6 +84,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1022-1029.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 
 ## Literature
 
@@ -106,4 +95,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

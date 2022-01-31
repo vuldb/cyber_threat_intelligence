@@ -1,6 +1,6 @@
 # APT29 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT29](https://vuldb.com/?actor.apt29). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT29](https://vuldb.com/?actor.apt29). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt29](https://vuldb.com/?actor.apt29)
 
@@ -21,7 +21,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * RU
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,10 +48,9 @@ ID | IP address | Hostname | Confidence
 17 | 66.70.247.215 | ip215.ip-66-70-247.net | High
 18 | 69.59.28.57 | - | High
 19 | 79.141.168.109 | - | High
-20 | 81.17.17.213 | customer20.tamic.info | High
-21 | ... | ... | ...
+20 | ... | ... | ...
 
-There are 77 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,7 +63,7 @@ ID | Technique | Description | Confidence
 3 | T1211 | 7PK Security Features | High
 4 | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,11 +79,29 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/shadow` | Medium
 7 | File | `/etc/sudoers` | Medium
 8 | File | `/firewall/policy/` | High
-9 | File | `/includes/plugins/mobile/scripts/login.php` | High
-10 | File | `/notice-edit.php` | High
-11 | ... | ... | ...
+9 | File | `/icingaweb2/navigation/add` | High
+10 | File | `/includes/plugins/mobile/scripts/login.php` | High
+11 | File | `/notice-edit.php` | High
+12 | File | `/pages/systemcall.php?command={COMMAND}` | High
+13 | File | `/phppath/php` | Medium
+14 | File | `/plain` | Low
+15 | File | `/rest/project-templates/1.0/createshared` | High
+16 | File | `/rpc/setvmdrive.asp` | High
+17 | File | `/s/` | Low
+18 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
+19 | File | `/server-status` | High
+20 | File | `/setSystemAdmin` | High
+21 | File | `/setup.cgi` | Medium
+22 | File | `/tmp/csman/0` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+27 | File | `/var/log/monkeyd/master.log` | High
+28 | File | `/var/log/salt/minion` | High
+29 | ... | ... | ...
 
-There are 236 more IOA items available. Please use our online service to access the data.
+There are 249 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -102,9 +119,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

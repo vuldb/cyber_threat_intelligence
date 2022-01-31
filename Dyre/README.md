@@ -1,6 +1,6 @@
 # Dyre - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Dyre](https://vuldb.com/?actor.dyre). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Dyre](https://vuldb.com/?actor.dyre). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.dyre](https://vuldb.com/?actor.dyre)
 
@@ -10,7 +10,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * RU
 * US
-* NL
+* DE
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -27,13 +27,9 @@ ID | IP address | Hostname | Confidence
 4 | 80.248.224.75 | - | High
 5 | 85.25.134.53 | delta526.dedicatedpanel.com | High
 6 | 85.25.138.12 | echo389.startdedicated.de | High
-7 | 85.25.145.179 | austria184.startdedicated.de | High
-8 | 93.190.139.178 | 93-190-139-178.hosted-by-worldstream.net | High
-9 | 94.23.61.172 | xen.nkpa.co.uk | High
-10 | 94.23.196.90 | ns3098925.ip-94-23-196.eu | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,11 +58,9 @@ ID | Type | Indicator | Confidence
 6 | File | `/private/var/mobile/Containers/Data/Application` | High
 7 | File | `acp/core/files.browser.php` | High
 8 | File | `addentry.php` | Medium
-9 | File | `admin.jcomments.php` | High
-10 | File | `admin/index.php` | High
-11 | ... | ... | ...
+9 | ... | ... | ...
 
-There are 62 more IOA items available. Please use our online service to access the data.
+There are 64 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -79,9 +73,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

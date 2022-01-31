@@ -4,17 +4,6 @@ The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.zeus](https://vuldb.com/?actor.zeus)
 
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
-
-* US
-* RU
-* FR
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Zeus.
@@ -34,7 +23,7 @@ ID | IP address | Hostname | Confidence
 11 | 46.151.52.191 | - | High
 12 | 46.151.54.46 | - | High
 13 | 46.166.131.154 | svr508.redium.net | High
-14 | 46.166.145.113 | - | High
+14 | 46.166.145.113 | . | High
 15 | 46.183.221.240 | ip-221-240.dataclub.info | High
 16 | 58.195.1.4 | - | High
 17 | 59.157.4.2 | v-59-157-4-2.ub-freebit.net | High
@@ -66,47 +55,6 @@ ID | IP address | Hostname | Confidence
 43 | ... | ... | ...
 
 There are 167 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Zeus. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
-
-There are 5 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Zeus. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/cgi-bin/user/Config.cgi` | High
-2 | File | `/htdocs/cgibin` | High
-3 | File | `/payu/icpcheckout/` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/videotalk` | Medium
-6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-7 | File | `activity_log.php` | High
-8 | File | `adm/systools.asp` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/getparam.cgi` | High
-11 | File | `adminCons.php` | High
-12 | File | `ajax_list_accounts.php` | High
-13 | File | `asn1fix_retrieve.c` | High
-14 | File | `auth-options.c` | High
-15 | File | `bigsam_guestbook.php` | High
-16 | File | `books.php` | Medium
-17 | File | `card/pay/.../amount` | High
-18 | File | `category.cfm` | Medium
-19 | ... | ... | ...
-
-There are 152 more IOA items available. Please use our online service to access the data.
 
 ## References
 

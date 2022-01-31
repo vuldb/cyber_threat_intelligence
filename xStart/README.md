@@ -1,6 +1,6 @@
 # xStart - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [xStart](https://vuldb.com/?actor.xstart). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [xStart](https://vuldb.com/?actor.xstart). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.xstart](https://vuldb.com/?actor.xstart)
 
@@ -33,17 +33,9 @@ ID | IP address | Hostname | Confidence
 10 | 39.99.245.93 | - | High
 11 | 39.102.48.190 | - | High
 12 | 42.48.120.127 | - | High
-13 | 42.51.34.152 | - | High
-14 | 42.51.42.178 | - | High
-15 | 45.32.13.207 | 45.32.13.207.vultr.com | Medium
-16 | 45.32.36.106 | 45.32.36.106.vultr.com | Medium
-17 | 45.32.51.126 | 45.32.51.126.vultr.com | Medium
-18 | 45.32.127.163 | 45.32.127.163.vultr.com | Medium
-19 | 45.63.124.160 | 45.63.124.160.vultr.com | Medium
-20 | 45.76.55.52 | 45.76.55.52.vultr.com | Medium
-21 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,15 +60,39 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/category_view.php` | High
 4 | File | `/cgi-bin/loaddata.py` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/framework/modules/users/models/user.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/GponForm/usb_Form?script/` | High
-9 | File | `/groups/31-twitter-basics` | High
-10 | File | `/scdmz.cmd` | Medium
-11 | ... | ... | ...
+5 | File | `/debug/pprof` | Medium
+6 | File | `/etc/passwd` | Medium
+7 | File | `/framework/modules/users/models/user.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/goform/setportList` | High
+10 | File | `/goform/setVLAN` | High
+11 | File | `/GponForm/usb_Form?script/` | High
+12 | File | `/groups/31-twitter-basics` | High
+13 | File | `/scdmz.cmd` | Medium
+14 | File | `/tmp` | Low
+15 | File | `/tmp/before` | Medium
+16 | File | `/User/saveUser` | High
+17 | File | `/usr/bin/vmware-mount` | High
+18 | File | `/WEB-INF/web.xml` | High
+19 | File | `/_vti_pvt/access.cnf` | High
+20 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+21 | File | `accountsettings_add.html` | High
+22 | File | `aclient.exe` | Medium
+23 | File | `adclick.php` | Medium
+24 | File | `addentry.php` | Medium
+25 | File | `add_comment.php` | High
+26 | File | `admin/ajax/op_kandidat.php` | High
+27 | File | `admin/conf_users_edit.php` | High
+28 | File | `admin/domain-fields/` | High
+29 | File | `admin/index.asp` | High
+30 | File | `admin/news.php` | High
+31 | File | `admin/plugin.php` | High
+32 | File | `advancedsearch.php` | High
+33 | File | `agents.php` | Medium
+34 | File | `album_portal.php` | High
+35 | ... | ... | ...
 
-There are 319 more IOA items available. Please use our online service to access the data.
+There are 301 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -88,9 +104,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

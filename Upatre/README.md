@@ -34,16 +34,14 @@ ID | IP address | Hostname | Confidence
 11 | 24.240.107.12 | 024-240-107-012.res.spectrum.com | High
 12 | 31.31.196.102 | server139.hosting.reg.ru | High
 13 | 34.97.69.225 | 225.69.97.34.bc.googleusercontent.com | Medium
-14 | 34.117.59.81 | 81.59.117.34.bc.googleusercontent.com | Medium
-15 | 37.0.8.235 | - | High
-16 | 37.0.10.214 | - | High
-17 | 37.0.10.236 | - | High
-18 | 37.0.11.8 | - | High
-19 | 37.57.144.177 | 177.144.57.37.triolan.net | High
-20 | 50.116.50.55 | 50-116-50-55.ip.linodeusercontent.com | High
-21 | ... | ... | ...
+14 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
+15 | 34.117.59.81 | 81.59.117.34.bc.googleusercontent.com | Medium
+16 | 37.0.8.235 | - | High
+17 | 37.0.10.214 | - | High
+18 | 37.0.10.236 | - | High
+19 | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,7 +72,8 @@ ID | Type | Indicator | Confidence
 8 | File | `/menu.html` | Medium
 9 | File | `/product.php` | Medium
 10 | File | `admin.php` | Medium
-11 | ... | ... | ...
+11 | File | `admin/backupstart.php` | High
+12 | ... | ... | ...
 
 There are 91 more IOA items available. Please use our online service to access the data.
 
@@ -89,6 +88,8 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0107-0114.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 
 ## Literature
 
@@ -99,4 +100,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

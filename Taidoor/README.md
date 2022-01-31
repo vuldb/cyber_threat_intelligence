@@ -1,6 +1,6 @@
 # Taidoor - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Taidoor](https://vuldb.com/?actor.taidoor). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Taidoor](https://vuldb.com/?actor.taidoor). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.taidoor](https://vuldb.com/?actor.taidoor)
 
@@ -27,13 +27,9 @@ ID | IP address | Hostname | Confidence
 4 | 60.250.39.73 | 60-250-39-73.hinet-ip.hinet.net | High
 5 | 61.218.233.51 | 61-218-233-51.hinet-ip.hinet.net | High
 6 | 61.222.190.100 | 61-222-190-100.hinet-ip.hinet.net | High
-7 | 61.222.205.180 | mail.tami.org.tw | High
-8 | 62.13.61.173 | host.62.13.61.173.bitcom.se | High
-9 | 63.135.55.13 | 63.135.55.13.nwinternet.com | High
-10 | 64.34.60.218 | - | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,19 +50,13 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `awstats.pl` | Medium
-2 | File | `board.php` | Medium
-3 | File | `data/gbconfiguration.dat` | High
-4 | File | `DoBox_CstmBox_Info.model.htm` | High
-5 | File | `download.cgi` | Medium
-6 | File | `inc/config.php` | High
-7 | File | `index.php` | Medium
-8 | File | `login.cfm` | Medium
-9 | File | `rawdocdata.asp/RawCustomSearchField.asp` | High
-10 | File | `search.php` | Medium
-11 | ... | ... | ...
+1 | File | `Auth/Manager.php` | High
+2 | File | `awstats.pl` | Medium
+3 | File | `board.php` | Medium
+4 | File | `data/gbconfiguration.dat` | High
+5 | ... | ... | ...
 
-There are 11 more IOA items available. Please use our online service to access the data.
+There are 31 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -78,9 +68,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

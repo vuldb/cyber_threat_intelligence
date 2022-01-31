@@ -1,6 +1,6 @@
 # Nymaim - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Nymaim](https://vuldb.com/?actor.nymaim). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nymaim](https://vuldb.com/?actor.nymaim). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.nymaim](https://vuldb.com/?actor.nymaim)
 
@@ -27,13 +27,9 @@ ID | IP address | Hostname | Confidence
 4 | 47.91.242.212 | - | High
 5 | 51.218.181.145 | - | High
 6 | 52.85.144.32 | server-52-85-144-32.iad89.r.cloudfront.net | High
-7 | 52.114.128.43 | - | High
-8 | 77.29.56.4 | - | High
-9 | 78.28.210.44 | - | High
-10 | 78.90.243.124 | - | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,10 +40,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,18 +51,31 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adfs/ls` | Medium
-2 | File | `/IISADMPWD` | Medium
-3 | File | `/monitor/s_headmodel.php` | High
-4 | File | `/pro/repo-create.html` | High
-5 | File | `/server-info` | Medium
-6 | File | `/services` | Medium
-7 | File | `/test/cookie/` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/usr/bin/at` | Medium
-10 | File | `/WEB-INF/web.xml` | High
-11 | ... | ... | ...
+2 | File | `/appliance/users?action=edit` | High
+3 | File | `/config/getuser` | High
+4 | File | `/IISADMPWD` | Medium
+5 | File | `/login` | Low
+6 | File | `/monitor/s_headmodel.php` | High
+7 | File | `/pro/repo-create.html` | High
+8 | File | `/public/plugins/` | High
+9 | File | `/rest/api/latest/projectvalidate/key` | High
+10 | File | `/server-info` | Medium
+11 | File | `/services` | Medium
+12 | File | `/test/cookie/` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/bin/at` | Medium
+15 | File | `/usr/bin/pkexec` | High
+16 | File | `/WEB-INF/web.xml` | High
+17 | File | `admin-ajax.php` | High
+18 | File | `AndroidManifest.xml` | High
+19 | File | `app/View/Galaxies/view.ctp` | High
+20 | File | `apply.cgi` | Medium
+21 | File | `binder.c` | Medium
+22 | File | `bl-kernel/security.class.php` | High
+23 | File | `C:/evil.bat"` | Medium
+24 | ... | ... | ...
 
-There are 172 more IOA items available. Please use our online service to access the data.
+There are 200 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -81,9 +89,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # Qakbot - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Qakbot](https://vuldb.com/?actor.qakbot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Qakbot](https://vuldb.com/?actor.qakbot). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.qakbot](https://vuldb.com/?actor.qakbot)
 
@@ -8,12 +8,7 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Qakbot:
 
-* AE
-* US
-* FR
-* ...
-
-There are 14 more country items available. Please use our online service to access the data.
+* AU
 
 ## IOC - Indicator of Compromise
 
@@ -41,24 +36,43 @@ ID | IP address | Hostname | Confidence
 18 | 24.226.156.153 | 24-226-156-153.resi.cgocable.ca | High
 19 | 24.229.150.54 | 24.229.150.54.cmts-static.sm.ptd.net | High
 20 | 24.234.86.201 | wsip-24-234-86-201.lv.lv.cox.net | High
-21 | ... | ... | ...
+21 | 27.223.92.142 | - | High
+22 | 35.142.12.163 | 035-142-012-163.dhcp.bhn.net | High
+23 | 41.34.91.90 | host-41.34.91.90.tedata.net | High
+24 | 41.97.138.74 | - | High
+25 | 45.32.211.207 | 45.32.211.207.vultr.com | Medium
+26 | 45.46.53.140 | cpe-45-46-53-140.maine.res.rr.com | High
+27 | 45.63.107.192 | 45.63.107.192.vultr.com | Medium
+28 | 45.67.231.247 | vm272927.pq.hosting | High
+29 | 45.77.115.208 | 45.77.115.208.vultr.com | Medium
+30 | 45.77.117.108 | 45.77.117.108.vultr.com | Medium
+31 | 45.77.215.141 | 45.77.215.141.vultr.com | Medium
+32 | 46.214.62.199 | 46-214-62-199.next-gen.ro | High
+33 | 47.22.148.6 | ool-2f169406.static.optonline.net | High
+34 | 47.24.47.218 | 047-024-047-218.res.spectrum.com | High
+35 | 47.153.115.154 | - | High
+36 | 47.196.192.184 | - | High
+37 | 49.207.105.25 | broadband.actcorp.in | High
+38 | 50.29.166.232 | 50.29.166.232.res-cmts.sth3.ptd.net | High
+39 | 50.104.68.223 | 50-104-68-223.prtg.in.frontiernet.net | High
+40 | 50.244.112.106 | 50-244-112-106-static.hfc.comcastbusiness.net | High
+41 | 59.90.246.200 | static.bb.chn.59.90.246.200.bsnl.in | High
+42 | 64.19.74.29 | primhall.com | High
+43 | 64.121.114.87 | 64-121-114-87.s597.c3-0.smt-ubr1.atw-smt.pa.cable.rcncustomer.com | High
+44 | 65.100.174.]105 | - | High
+45 | 65.100.174.]106 | - | High
+46 | 65.100.174.]107 | - | High
+47 | 65.100.174.]108 | - | High
+48 | 65.100.174.]109 | - | High
+49 | 65.100.174.]111 | - | High
+50 | 66.26.160.37 | 066-026-160-037.inf.spectrum.com | High
+51 | 66.57.216.53 | rrcs-66-57-216-53.midsouth.biz.rr.com | High
+52 | 66.208.105.6 | 66-208-105-6.centex.net | High
+53 | 67.6.12.4 | 67-6-12-4.clma.centurylink.net | High
+54 | 67.8.103.21 | 67-8-103-21.res.bhn.net | High
+55 | ... | ... | ...
 
-There are 238 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Qakbot. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
-
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 214 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,18 +81,8 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
-2 | File | `/admin/custom/blog-plugin/add` | High
-3 | File | `/admin/setup.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/auth/v1/sso/config/` | High
-9 | File | `/auth/v1/user/` | High
-10 | File | `/auth/v1/user/{user-guid}/` | High
-11 | ... | ... | ...
-
-There are 448 more IOA items available. Please use our online service to access the data.
+2 | Argument | `username/password` | High
+3 | Input Value | `'or''='` | Low
 
 ## References
 
@@ -87,14 +91,15 @@ The following list contains external sources which discuss the actor and the ass
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_qakbot.ipset
 * https://pastebin.com/u/MalwareQuinn
 * https://tria.ge/210511-kvcz7vyfkx
+* https://twitter.com/Malwar3Ninja/status/1483514897266737154
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

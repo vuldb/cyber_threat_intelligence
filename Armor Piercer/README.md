@@ -18,7 +18,7 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 5.252.179.221 | 5-252-179-221.mivocloud.com | High
+1 | 5.252.179.221 | no-rdns.mivocloud.com | High
 2 | 45.79.81.88 | li1180-88.members.linode.com | High
 3 | 64.188.13.46 | 64.188.13.46.static.quadranet.com | High
 4 | ... | ... | ...
@@ -43,12 +43,9 @@ ID | Type | Indicator | Confidence
 1 | File | `app\admin\controller\sys\Uploads.php` | High
 2 | File | `category.cfm` | Medium
 3 | File | `itemlookup.asp` | High
-4 | File | `mat5.c` | Low
-5 | File | `phddns.lua` | Medium
-6 | File | `register.php` | Medium
-7 | Argument | `cat` | Low
-8 | Argument | `new-interface` | High
-9 | Argument | `PATH_INFO` | Medium
+4 | ... | ... | ...
+
+There are 6 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -65,4 +62,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

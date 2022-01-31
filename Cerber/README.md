@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * DE
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,18 +32,14 @@ ID | IP address | Hostname | Confidence
 9 | 45.56.79.23 | li929-23.members.linode.com | High
 10 | 45.56.117.118 | li935-118.members.linode.com | High
 11 | 45.63.25.55 | 45.63.25.55.vultr.com | Medium
-12 | 45.63.99.180 | 45.63.99.180.uk003.ys.com | High
+12 | 45.63.99.180 | 45.63.99.180.vultr.com | Medium
 13 | 52.2.101.52 | ec2-52-2-101-52.compute-1.amazonaws.com | Medium
 14 | 52.21.132.24 | ec2-52-21-132-24.compute-1.amazonaws.com | Medium
 15 | 54.84.252.139 | ec2-54-84-252-139.compute-1.amazonaws.com | Medium
 16 | 54.87.5.88 | ec2-54-87-5-88.compute-1.amazonaws.com | Medium
-17 | 54.88.175.149 | ec2-54-88-175-149.compute-1.amazonaws.com | Medium
-18 | 54.152.181.87 | ec2-54-152-181-87.compute-1.amazonaws.com | Medium
-19 | 78.128.92.96 | - | High
-20 | 84.201.32.108 | - | High
-21 | ... | ... | ...
+17 | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,8 +50,7 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
 
@@ -65,19 +60,32 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `+CSCO` | Low
-2 | File | `.htaccess` | Medium
-3 | File | `/cgi-bin/login_action.cgi` | High
-4 | File | `/cns/` | Low
-5 | File | `/DbXmlInfo.xml` | High
-6 | File | `/etc/auditlog-keeper.conf` | High
-7 | File | `/forms/web_importTFTP` | High
-8 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-9 | File | `/plugin/extended-choice-parameter/js/` | High
-10 | File | `/rest/api/1.0/render` | High
-11 | ... | ... | ...
+1 | File | `/cgi-bin/login_action.cgi` | High
+2 | File | `/DbXmlInfo.xml` | High
+3 | File | `/forms/web_importTFTP` | High
+4 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+5 | File | `/plugin/extended-choice-parameter/js/` | High
+6 | File | `/rest/api/1.0/render` | High
+7 | File | `/sap/public/bc/abap` | High
+8 | File | `/search.php` | Medium
+9 | File | `/shell?cmd` | Medium
+10 | File | `/tmp` | Low
+11 | File | `500page.jsp` | Medium
+12 | File | `activateuser.aspx` | High
+13 | File | `addentry.php` | Medium
+14 | File | `admin/password_forgotten.php` | High
+15 | File | `AndroidManifest.xml` | High
+16 | File | `application/admin/controller/Admin.php` | High
+17 | File | `asm/preproc.c` | High
+18 | File | `auth-gss2.c` | Medium
+19 | File | `authent.php4` | Medium
+20 | File | `authpam.c` | Medium
+21 | File | `bgp_packet.c` | Medium
+22 | File | `catalog.asp` | Medium
+23 | File | `Cgi/confirm.py` | High
+24 | ... | ... | ...
 
-There are 634 more IOA items available. Please use our online service to access the data.
+There are 201 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -102,4 +110,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
