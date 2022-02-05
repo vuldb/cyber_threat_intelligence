@@ -1,6 +1,6 @@
 # Conti - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Conti](https://vuldb.com/?actor.conti). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Conti](https://vuldb.com/?actor.conti). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.conti](https://vuldb.com/?actor.conti)
 
@@ -53,19 +53,38 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/bw` | Low
-2 | File | `/etc/tomcat8/Catalina/attack` | High
-3 | File | `/servlet/webacc` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `abook_database.php` | High
-6 | File | `add_comment.php` | High
-7 | File | `admin/index.php/template/upload` | High
-8 | File | `agent/Core/Controller/SendRequest.cpp` | High
-9 | File | `AjaxResponse.jsp` | High
-10 | File | `apl_42.c` | Medium
-11 | ... | ... | ...
+1 | File | `/admin/success_story.php` | High
+2 | File | `/bin/bw` | Low
+3 | File | `/etc/tomcat8/Catalina/attack` | High
+4 | File | `/movie-portal-script/movie.php` | High
+5 | File | `/servlet/webacc` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `abook_database.php` | High
+8 | File | `add_comment.php` | High
+9 | File | `admin/images.php` | High
+10 | File | `admin/index.php/template/upload` | High
+11 | File | `admin/preview.php` | High
+12 | File | `agent/Core/Controller/SendRequest.cpp` | High
+13 | File | `AjaxResponse.jsp` | High
+14 | File | `apl_42.c` | Medium
+15 | File | `app/code/core/Mage/Rss/Helper/Order.php` | High
+16 | File | `archive_read_support_format_rar5.c` | High
+17 | File | `blanko.preview.php` | High
+18 | File | `blueprints/sections/edit/1` | High
+19 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+20 | File | `cachemgr.cgi` | Medium
+21 | File | `CFM File Handler` | High
+22 | File | `cgi-bin/awstats.pl` | High
+23 | File | `cgi-bin/webproc` | High
+24 | File | `Change-password.php` | High
+25 | File | `class.t3lib_formmail.php` | High
+26 | File | `content/common/cursors/webcursor.cc` | High
+27 | File | `content/content.systempreferences.php` | High
+28 | File | `course/classes/management_renderer.php` | High
+29 | File | `dapur/index.php` | High
+30 | ... | ... | ...
 
-There are 181 more IOA items available. Please use our online service to access the data.
+There are 256 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -79,9 +98,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

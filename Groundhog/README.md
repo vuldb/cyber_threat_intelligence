@@ -1,6 +1,6 @@
 # Groundhog - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Groundhog](https://vuldb.com/?actor.groundhog). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Groundhog](https://vuldb.com/?actor.groundhog). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.groundhog](https://vuldb.com/?actor.groundhog)
 
@@ -8,12 +8,7 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Groundhog:
 
-* ES
-* CO
 * US
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,24 +36,17 @@ ID | IP address | Hostname | Confidence
 18 | 37.59.210.99 | - | High
 19 | 43.225.59.7 | - | High
 20 | 43.240.51.113 | - | High
-21 | ... | ... | ...
+21 | 46.229.169.89 | - | High
+22 | 58.64.187.29 | - | High
+23 | 58.218.213.237 | - | High
+24 | 58.221.35.5 | - | High
+25 | 58.221.45.242 | - | High
+26 | 59.56.64.169 | - | High
+27 | 59.188.86.215 | - | High
+28 | 59.188.86.222 | - | High
+29 | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Groundhog. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
-
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 113 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,19 +54,7 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addsrv` | Low
-2 | File | `/admin.php?action=images` | High
-3 | File | `/admin/mails.php?action=edit` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/api/version` | Medium
-6 | File | `/auth/login` | Medium
-7 | File | `/cgi-bin/nasset.cgi` | High
-8 | File | `/cgi?` | Low
-9 | File | `/com.biepie/shared_prefs/com.bitpie_preferences.xml` | High
-10 | File | `/Config/service/initModel?` | High
-11 | ... | ... | ...
-
-There are 694 more IOA items available. Please use our online service to access the data.
+1 | File | `http-domino-enum-passwords.nse` | High
 
 ## References
 
@@ -90,9 +66,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

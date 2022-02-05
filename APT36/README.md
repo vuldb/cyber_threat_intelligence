@@ -1,6 +1,6 @@
 # APT36 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT36](https://vuldb.com/?actor.apt36). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT36](https://vuldb.com/?actor.apt36). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt36](https://vuldb.com/?actor.apt36)
 
@@ -19,7 +19,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * RU
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,17 +38,9 @@ ID | IP address | Hostname | Confidence
 9 | 75.98.175.79 | a2s83.a2hosting.com | High
 10 | 75.119.139.169 | server1.immacolata.com | High
 11 | 80.240.134.51 | - | High
-12 | 82.196.13.94 | - | High
-13 | 95.85.43.35 | - | High
-14 | 95.168.176.141 | - | High
-15 | 107.175.64.209 | 107-175-64-209-host.colocrossing.com | High
-16 | 107.175.64.251 | 107-175-64-251-host.colocrossing.com | High
-17 | 151.106.14.125 | - | High
-18 | 151.106.19.218 | - | High
-19 | 151.106.56.32 | - | High
-20 | ... | ... | ...
+12 | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,15 +65,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/forum/away.php` | High
 3 | File | `/inc/HTTPClient.php` | High
 4 | File | `/out.php` | Medium
-5 | File | `/service/upload` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `adclick.php` | Medium
-8 | File | `add_comment.php` | High
-9 | File | `admin/system_manage/save.html` | High
-10 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
-11 | ... | ... | ...
+5 | File | `/products/details.asp` | High
+6 | File | `/service/upload` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `add_comment.php` | High
+10 | File | `admin/system_manage/save.html` | High
+11 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
+12 | File | `administrator/components/com_media/helpers/media.php` | High
+13 | File | `arm/t7xx/r5p0/mali_kbase_core_linux.c` | High
+14 | File | `awstats.pl` | Medium
+15 | File | `books.php` | Medium
+16 | File | `bridge/yabbse.inc.php` | High
+17 | File | `cachemgr.cgi` | Medium
+18 | File | `captcha.php` | Medium
+19 | File | `catagorie.php` | High
+20 | File | `category.php` | Medium
+21 | File | `cgi-bin/` | Medium
+22 | File | `cgi-bin/cmh/webcam.sh` | High
+23 | File | `channels/chan_skinny.c` | High
+24 | File | `clwarn.cgi` | Medium
+25 | File | `coders/dcm.c` | Medium
+26 | File | `comment_add.asp` | High
+27 | ... | ... | ...
 
-There are 232 more IOA items available. Please use our online service to access the data.
+There are 229 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -94,9 +102,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

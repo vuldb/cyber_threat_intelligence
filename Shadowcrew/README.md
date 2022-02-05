@@ -10,7 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * CN
-* PL
+* NL
+* ...
+
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -450,7 +453,7 @@ ID | IP address | Hostname | Confidence
 430 | 24.197.36.74 | 024-197-036-074.biz.spectrum.com | High
 431 | 24.197.38.129 | 024-197-038-129.biz.spectrum.com | High
 432 | 24.197.83.32 | 024-197-083-032.biz.spectrum.com | High
-433 | 24.199.2.82 | heathergabriel.com | High
+433 | 24.199.2.82 | digitalbuild.net | High
 434 | 24.199.129.78 | rrcs-24-199-129-78.midsouth.biz.rr.com | High
 435 | 24.199.132.178 | rrcs-24-199-132-178.midsouth.biz.rr.com | High
 436 | 24.199.174.172 | national-wholesale.com | High
@@ -717,7 +720,7 @@ ID | IP address | Hostname | Confidence
 697 | 62.3.44.179 | - | High
 698 | 62.3.45.196 | - | High
 699 | 62.4.7.172 | - | High
-700 | 62.4.22.39 | ns1.cordoweb.net | High
+700 | 62.4.22.39 | 62-4-22-39.rev.poneytelecom.eu | High
 701 | 62.5.151.18 | - | High
 702 | 62.5.154.194 | 62.5.154.194.in-addr.mtu.ru | High
 703 | 62.5.157.66 | - | High
@@ -725,7 +728,7 @@ ID | IP address | Hostname | Confidence
 705 | 62.5.254.66 | - | High
 706 | 62.6.148.234 | gateway.constantiapack.co.uk | High
 707 | 62.6.251.122 | - | High
-708 | 62.7.227.98 | mail.louvolite.com | High
+708 | 62.7.227.98 | mail.louver-liteltd.co.uk | High
 709 | 62.8.198.34 | ft1200.symposion.de | High
 710 | 62.8.239.178 | mail.lisardo.de | High
 711 | 62.12.32.74 | - | High
@@ -747,8 +750,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1068 | Execution with Unnecessary Privileges | High
-2 | T1222 | Permission Issues | High
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -756,12 +763,40 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | Library | `slogin_lib.inc.php` | High
-4 | ... | ... | ...
+1 | File | `/?module=users&section=cpanel&page=list` | High
+2 | File | `/admin/powerline` | High
+3 | File | `/admin/syslog` | High
+4 | File | `/advance_push/public/login` | High
+5 | File | `/api/upload` | Medium
+6 | File | `/cgi-bin` | Medium
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/config/getuser` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/login` | Low
+11 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/new` | Low
+14 | File | `/proc/<pid>/status` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/scripts/killpvhost` | High
+17 | File | `/secure/QueryComponent!Default.jspa` | High
+18 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+19 | File | `/tmp` | Low
+20 | File | `/tmp/redis.ds` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/var/log/nginx` | High
+24 | File | `/WEB-INF/web.xml` | High
+25 | File | `/wp-admin` | Medium
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `ActiveServices.java` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+32 | ... | ... | ...
 
-There are 2 more IOA items available. Please use our online service to access the data.
+There are 273 more IOA items available. Please use our online service to access the data.
 
 ## References
 

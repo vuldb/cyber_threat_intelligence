@@ -25,14 +25,9 @@ ID | IP address | Hostname | Confidence
 5 | 8.249.245.254 | - | High
 6 | 8.253.132.120 | - | High
 7 | 8.253.156.120 | - | High
-8 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
-9 | 23.3.13.154 | a23-3-13-154.deploy.static.akamaitechnologies.com | High
-10 | 23.46.238.194 | a23-46-238-194.deploy.static.akamaitechnologies.com | High
-11 | 34.76.8.115 | 115.8.76.34.bc.googleusercontent.com | Medium
-12 | 34.88.52.57 | 57.52.88.34.bc.googleusercontent.com | Medium
-13 | ... | ... | ...
+8 | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,9 +58,20 @@ ID | Type | Indicator | Confidence
 8 | File | `/home.php` | Medium
 9 | File | `/index.php/weblinks-categories` | High
 10 | File | `/plain` | Low
-11 | ... | ... | ...
+11 | File | `/searchpin.php` | High
+12 | File | `/show_group_members.php` | High
+13 | File | `/soap/server_sa` | High
+14 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+15 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+16 | File | `/web/google_analytics.php` | High
+17 | File | `addentry.php` | Medium
+18 | File | `AdminByRequest.exe` | High
+19 | File | `admincp.php?app=prop&do=add` | High
+20 | File | `advsearch.php` | High
+21 | File | `append/override_content_security_policy_directives` | High
+22 | ... | ... | ...
 
-There are 192 more IOA items available. Please use our online service to access the data.
+There are 181 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +89,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

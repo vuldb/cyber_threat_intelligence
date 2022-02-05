@@ -1,6 +1,6 @@
 # Stantinko - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Stantinko](https://vuldb.com/?actor.stantinko). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Stantinko](https://vuldb.com/?actor.stantinko). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.stantinko](https://vuldb.com/?actor.stantinko)
 
@@ -11,9 +11,6 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * US
 * RU
 * UA
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,10 +37,9 @@ ID | IP address | Hostname | Confidence
 17 | 13.58.182.92 | ec2-13-58-182-92.us-east-2.compute.amazonaws.com | Medium
 18 | 13.58.249.138 | ec2-13-58-249-138.us-east-2.compute.amazonaws.com | Medium
 19 | 13.59.31.61 | ec2-13-59-31-61.us-east-2.compute.amazonaws.com | Medium
-20 | 18.188.47.132 | ec2-18-188-47-132.us-east-2.compute.amazonaws.com | Medium
-21 | ... | ... | ...
+20 | ... | ... | ...
 
-There are 77 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,14 +47,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,19 +60,41 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `"/xml/system/setAttribute.xml` | High
-2 | File | `$HOME/.forward` | High
-3 | File | `$HOME/.nylas-mail` | High
-4 | File | `%APPDATA%` | Medium
-5 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
-6 | File | `%PROGRAMDATA%\Netwrix Auditor\Logs\ActiveDirectory\` | High
-7 | File | `%PROGRAMDATA%\Psyprax32\PPScreen.ini` | High
-8 | File | `%PROGRAMDATA%\TechSmith\TechSmith Recorder\QueuedPresentations` | High
-9 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
-10 | File | `%PROGRAMFILES(X86)%/Aternity Information Systems/Assistant/plugins` | High
-11 | ... | ... | ...
+1 | File | `%SYSTEMDRIVE%` | High
+2 | File | `/admin.php?action=editpage` | High
+3 | File | `/admin/web_config.php&amp` | High
+4 | File | `/alphaware/details.php` | High
+5 | File | `/core/kernels/ctc_decoder_ops.cc` | High
+6 | File | `/etc/controller-agent/agent.conf` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/evaluate/index.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/setmac` | High
+11 | File | `/goform/setportList` | High
+12 | File | `/goform/setVLAN` | High
+13 | File | `/gofrom/setwanType` | High
+14 | File | `/hcms/admin/index.php/language/ajax` | High
+15 | File | `/index.class.php` | High
+16 | File | `/knowage/restful-services/documentnotes/saveNote` | High
+17 | File | `/log_download.cgi` | High
+18 | File | `/MIME/INBOX-MM-1/` | High
+19 | File | `/new` | Low
+20 | File | `/nova/bin/diskd` | High
+21 | File | `/nova/bin/lcdstat` | High
+22 | File | `/proc/pid/syscall` | High
+23 | File | `/servlet/AdapterHTTP` | High
+24 | File | `/tmp` | Low
+25 | File | `/user/ldap_user/add` | High
+26 | File | `/wp-admin/upload.php?page=instant-images` | High
+27 | File | `admin/article/add.html` | High
+28 | File | `admin/navbar.php?action=add_page` | High
+29 | File | `admin/plugin-settings.php` | High
+30 | File | `admin/user_import.php` | High
+31 | File | `admin/wenjian.php?wj=../templets/pc` | High
+32 | File | `administrative` | High
+33 | ... | ... | ...
 
-There are 7408 more IOA items available. Please use our online service to access the data.
+There are 286 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -90,9 +106,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

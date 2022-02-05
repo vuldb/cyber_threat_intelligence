@@ -45,11 +45,11 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/apply.cgi` | Medium
-2 | File | `apply.cgi` | Medium
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `/usr/bin/pkexec` | High
+3 | File | `apply.cgi` | Medium
 4 | ... | ... | ...
 
-There are 22 more IOA items available. Please use our online service to access the data.
+There are 23 more IOA items available. Please use our online service to access the data.
 
 ## References
 

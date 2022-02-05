@@ -33,7 +33,7 @@ ID | IP address | Hostname | Confidence
 3 | 5.183.103.122 | - | High
 4 | 5.188.93.132 | gcorelabs.paris.vpn015 | High
 5 | 5.188.108.22 | pol1.htjsq.com | High
-6 | 5.188.108.228 | xc5.exclusivacondominios.com | High
+6 | 5.188.108.228 | keyvpn.warsawa | High
 7 | 5.189.222.33 | spain466.es | High
 8 | 23.67.95.153 | a23-67-95-153.deploy.static.akamaitechnologies.com | High
 9 | 43.255.191.255 | - | High
@@ -89,9 +89,10 @@ ID | Type | Indicator | Confidence
 21 | File | `adclick.php` | Medium
 22 | File | `addentry.php` | Medium
 23 | File | `addrating.php` | High
-24 | ... | ... | ...
+24 | File | `admin/conf_users_edit.php` | High
+25 | ... | ... | ...
 
-There are 203 more IOA items available. Please use our online service to access the data.
+There are 205 more IOA items available. Please use our online service to access the data.
 
 ## References
 

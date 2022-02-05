@@ -16,6 +16,11 @@ The following campaigns are known and can be associated with FIN7:
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
 * US
+* CN
+* FR
+* ...
+
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,6 +74,74 @@ ID | IP address | Hostname | Confidence
 44 | ... | ... | ...
 
 There are 172 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by FIN7. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Description | Confidence
+-- | --------- | ----------- | ----------
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by FIN7. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/?module=users&section=cpanel&page=list` | High
+3 | File | `/concat?/%2557EB-INF/web.xml` | High
+4 | File | `/context/%2e/WEB-INF/web.xml` | High
+5 | File | `/get_getnetworkconf.cgi` | High
+6 | File | `/HNAP1` | Low
+7 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+8 | File | `/monitoring` | Medium
+9 | File | `/new` | Low
+10 | File | `/osm/REGISTER.cmd` | High
+11 | File | `/proc/<pid>/status` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/replication` | Medium
+14 | File | `/secure/QueryComponent!Default.jspa` | High
+15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+16 | File | `/tmp` | Low
+17 | File | `/type.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/wp-json/wc/v3/webhooks` | High
+21 | File | `4.2.0.CP09` | Medium
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `actions/CompanyDetailsSave.php` | High
+24 | File | `ActiveServices.java` | High
+25 | File | `admin.color.php` | High
+26 | File | `admin.cropcanvas.php` | High
+27 | File | `admin.joomlaradiov5.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+30 | File | `admin/add-glossary.php` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/edit-comments.php` | High
+33 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+34 | File | `admin/write-post.php` | High
+35 | File | `administrator/components/com_media/helpers/media.php` | High
+36 | File | `admin_events.php` | High
+37 | File | `AjaxApplication.java` | High
+38 | File | `akocomments.php` | High
+39 | File | `allopass-error.php` | High
+40 | File | `AllowBindAppWidgetActivity.java` | High
+41 | File | `AndroidManifest.xml` | High
+42 | File | `AnnotateActivity.java` | High
+43 | File | `announcement.php` | High
+44 | File | `api/settings/values` | High
+45 | File | `apply.cgi` | Medium
+46 | ... | ... | ...
+
+There are 400 more IOA items available. Please use our online service to access the data.
 
 ## References
 

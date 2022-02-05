@@ -41,7 +41,7 @@ ID | IP address | Hostname | Confidence
 18 | 45.60.77.201 | - | High
 19 | 49.212.235.209 | www3469.sakura.ne.jp | High
 20 | 50.72.177.24 | S01069050ca30b943.wp.shawcable.net | High
-21 | 50.116.43.143 | li480-143.members.linode.com | High
+21 | 50.116.43.143 | 50-116-43-143.ip.linodeusercontent.com | High
 22 | 51.178.156.9 | ip9.ip-51-178-156.eu | High
 23 | 52.85.132.44 | server-52-85-132-44.iad50.r.cloudfront.net | High
 24 | 52.137.90.34 | - | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 18 | File | `ajax/render/widget_php` | High
 19 | ... | ... | ...
 
-There are 152 more IOA items available. Please use our online service to access the data.
+There are 153 more IOA items available. Please use our online service to access the data.
 
 ## References
 

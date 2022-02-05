@@ -30,14 +30,9 @@ ID | IP address | Hostname | Confidence
 7 | 23.199.63.11 | a23-199-63-11.deploy.static.akamaitechnologies.com | High
 8 | 23.199.63.83 | a23-199-63-83.deploy.static.akamaitechnologies.com | High
 9 | 35.205.61.67 | 67.61.205.35.bc.googleusercontent.com | Medium
-10 | 35.209.43.160 | 160.43.209.35.bc.googleusercontent.com | Medium
-11 | 52.216.22.34 | s3-website-us-east-1.amazonaws.com | Medium
-12 | 52.216.128.178 | s3-website-us-east-1.amazonaws.com | Medium
-13 | 52.216.142.11 | s3-website-us-east-1.amazonaws.com | Medium
-14 | 52.216.166.34 | s3-website-us-east-1.amazonaws.com | Medium
-15 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,9 +63,16 @@ ID | Type | Indicator | Confidence
 8 | File | `/forum/away.php` | High
 9 | File | `/index_amp.php` | High
 10 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-11 | ... | ... | ...
+11 | File | `/principals` | Medium
+12 | File | `/recordings/index.php` | High
+13 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+14 | File | `400.php` | Low
+15 | File | `accessibility/AccessibilityRenderObject.cpp` | High
+16 | File | `add_comment.php` | High
+17 | File | `admin/editors/text/editor-body.php` | High
+18 | ... | ... | ...
 
-There are 155 more IOA items available. Please use our online service to access the data.
+There are 148 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +81,8 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0114-0121.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
 
 ## Literature
 
@@ -89,4 +93,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

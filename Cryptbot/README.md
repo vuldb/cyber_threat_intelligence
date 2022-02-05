@@ -13,12 +13,9 @@ ID | IP address | Hostname | Confidence
 1 | 8.248.153.254 | - | High
 2 | 8.248.163.254 | - | High
 3 | 8.248.167.254 | - | High
-4 | 8.249.223.254 | - | High
-5 | 8.249.233.254 | - | High
-6 | 8.253.45.239 | - | High
-7 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -35,4 +32,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

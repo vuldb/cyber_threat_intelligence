@@ -1,6 +1,6 @@
 # APT10 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT10](https://vuldb.com/?actor.apt10). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT10](https://vuldb.com/?actor.apt10). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt10](https://vuldb.com/?actor.apt10)
 
@@ -16,11 +16,11 @@ The following campaigns are known and can be associated with APT10:
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT10:
 
 * US
-* CN
+* RU
 * DE
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,11 +46,14 @@ ID | IP address | Hostname | Confidence
 16 | 38.72.114.16 | - | High
 17 | 38.72.115.9 | - | High
 18 | 45.62.112.161 | 45.62.112.161.16clouds.com | High
-19 | 45.138.157.83 | lilanews.serveexchange.com | High
+19 | 45.138.157.83 | vm339806.pq.hosting | High
 20 | 46.108.39.134 | - | High
-21 | ... | ... | ...
+21 | 50.2.160.104 | - | High
+22 | 52.74.71.131 | ec2-52-74-71-131.ap-southeast-1.compute.amazonaws.com | Medium
+23 | 52.74.213.16 | ec2-52-74-213-16.ap-southeast-1.compute.amazonaws.com | Medium
+24 | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 91 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,7 +66,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,19 +74,41 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/addnews.html` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/assets/something/services/AppModule.class` | High
-6 | File | `/cgi-bin/admin/testserver.cgi` | High
-7 | File | `/cgi-bin/go` | Medium
-8 | File | `/dev/kvm` | Medium
-9 | File | `/etc/config/rpcd` | High
-10 | File | `/etc/gsissh/sshd_config` | High
-11 | ... | ... | ...
+1 | File | `.htpasswd` | Medium
+2 | File | `/../conf/config.properties` | High
+3 | File | `/drivers/infiniband/core/cm.c` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/horde/util/go.php` | High
+6 | File | `/images/` | Medium
+7 | File | `/inc/parser/xhtml.php` | High
+8 | File | `/login` | Low
+9 | File | `/mgmt/shared/authz/users/` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/out.php` | Medium
+12 | File | `/public/plugins/` | High
+13 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+14 | File | `/system/proxy` | High
+15 | File | `/tmp/phpglibccheck` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `adclick.php` | Medium
+18 | File | `add.php` | Low
+19 | File | `addentry.php` | Medium
+20 | File | `addressbookprovider.php` | High
+21 | File | `admin/htaccess/bpsunlock.php` | High
+22 | File | `ajax_udf.php` | Medium
+23 | File | `application.js.php` | High
+24 | File | `apply.cgi` | Medium
+25 | File | `arm/lithium-codegen-arm.cc` | High
+26 | File | `authenticate.c` | High
+27 | File | `Authenticate.class.php` | High
+28 | File | `base_maintenance.php` | High
+29 | File | `booking_details.php` | High
+30 | File | `browse.php` | Medium
+31 | File | `browser/thumbnails/render_widget_snapshot_taker.cc` | High
+32 | File | `bufferobject.c` | High
+33 | ... | ... | ...
 
-There are 481 more IOA items available. Please use our online service to access the data.
+There are 280 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -101,9 +126,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

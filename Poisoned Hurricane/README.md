@@ -1,6 +1,6 @@
 # Poisoned Hurricane - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Poisoned Hurricane](https://vuldb.com/?actor.poisoned_hurricane). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Poisoned Hurricane](https://vuldb.com/?actor.poisoned_hurricane). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.poisoned_hurricane](https://vuldb.com/?actor.poisoned_hurricane)
 
@@ -30,13 +30,9 @@ ID | IP address | Hostname | Confidence
 4 | 61.78.32.139 | - | High
 5 | 61.78.32.148 | - | High
 6 | 61.78.34.179 | - | High
-7 | 61.82.71.10 | - | High
-8 | 112.175.143.16 | - | High
-9 | 112.175.143.22 | - | High
-10 | 119.205.217.104 | - | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,11 +49,11 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/shell?cmd` | Medium
-2 | File | `item_show.php` | High
-3 | File | `print.php` | Medium
-4 | File | `rcube_image.php` | High
-5 | Argument | `code_no` | Low
-6 | Argument | `sid` | Low
+2 | File | `HidHostService.java` | High
+3 | File | `item_show.php` | High
+4 | ... | ... | ...
+
+There are 4 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -71,9 +67,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

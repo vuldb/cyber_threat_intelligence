@@ -1,6 +1,6 @@
 # CoinMiner - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [CoinMiner](https://vuldb.com/?actor.coinminer). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [CoinMiner](https://vuldb.com/?actor.coinminer). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.coinminer](https://vuldb.com/?actor.coinminer)
 
@@ -9,11 +9,11 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
 
 * DE
-* NL
 * US
+* ES
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,17 +32,9 @@ ID | IP address | Hostname | Confidence
 9 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
 10 | 49.12.80.38 | static.38.80.12.49.clients.your-server.de | High
 11 | 49.12.80.40 | static.40.80.12.49.clients.your-server.de | High
-12 | 50.19.96.218 | ec2-50-19-96-218.compute-1.amazonaws.com | Medium
-13 | 50.19.252.36 | ec2-50-19-252-36.compute-1.amazonaws.com | Medium
-14 | 51.15.54.102 | 102-54-15-51.instances.scw.cloud | High
-15 | 51.15.58.224 | 224-58-15-51.instances.scw.cloud | High
-16 | 51.15.65.182 | 182-65-15-51.instances.scw.cloud | High
-17 | 51.15.67.17 | 17-67-15-51.instances.scw.cloud | High
-18 | 51.15.69.136 | 136-69-15-51.instances.scw.cloud | High
-19 | 51.15.78.68 | 68-78-15-51.instances.scw.cloud | High
-20 | ... | ... | ...
+12 | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,14 +42,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1040 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | Cross Site Scripting | High
-3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,19 +55,52 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%windir%\Internet Logs\` | High
-2 | File | `.htaccess` | Medium
-3 | File | `.imwheelrc` | Medium
-4 | File | `.jpilot` | Low
-5 | File | `.php` | Low
-6 | File | `.plan` | Low
-7 | File | `.tin` | Low
-8 | File | `/?Key=PhoneRequestAuthorization` | High
-9 | File | `/adfs/ls` | Medium
-10 | File | `/api/users/admin/check` | High
-11 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `.jpilot` | Low
+3 | File | `.plan` | Low
+4 | File | `.tin` | Low
+5 | File | `/aux` | Low
+6 | File | `/coreframe/app/guestbook/myissue.php` | High
+7 | File | `/data/nvram` | Medium
+8 | File | `/icingaweb2/navigation/add` | High
+9 | File | `/root/.keeper/` | High
+10 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+11 | File | `/search-result/` | High
+12 | File | `/usr/bin/sonia` | High
+13 | File | `/var/log/nginx` | High
+14 | File | `/var/spool/fax/outgoing/.last_run` | High
+15 | File | `95.php` | Low
+16 | File | `123flashchat.php` | High
+17 | File | `action.php` | Medium
+18 | File | `Active Browser Profile` | High
+19 | File | `adb/adb_client.c` | High
+20 | File | `addons/mod_media/body.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/profile_settings_net.html` | High
+23 | File | `Administrator/add_pictures.php` | High
+24 | File | `af_netlink.c` | Medium
+25 | File | `aide.php3` | Medium
+26 | File | `aim/icq` | Low
+27 | File | `ajax.php` | Medium
+28 | File | `akocomment.php` | High
+29 | File | `album.php` | Medium
+30 | File | `allmanageup.pl` | High
+31 | File | `apache2/modsecurity.c` | High
+32 | File | `ardeaCore/lib/core/ardeaInit.php` | High
+33 | File | `arm/lithium-codegen-arm.cc` | High
+34 | File | `attachment_send.php` | High
+35 | File | `b2edit.showposts.php` | High
+36 | File | `bar.phtml` | Medium
+37 | File | `bios.php` | Medium
+38 | File | `cadastro_usuario.php` | High
+39 | File | `cartman.php` | Medium
+40 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+41 | File | `cgi-bin/NETGEAR_wpn824v3.cfg` | High
+42 | File | `cgi/actions.py` | High
+43 | File | `cgiproc` | Low
+44 | ... | ... | ...
 
-There are 760 more IOA items available. Please use our online service to access the data.
+There are 376 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -96,9 +119,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

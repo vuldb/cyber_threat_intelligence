@@ -84,31 +84,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/uncpath/` | Medium
 18 | File | `/usr/5bin/su` | Medium
 19 | File | `/usr/bin/mail` | High
-20 | File | `/var/dt/` | Medium
-21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-22 | File | `00.jsp` | Low
-23 | File | `account_activations/edit` | High
-24 | File | `adclick.php` | Medium
-25 | File | `AddResolution.jspa` | High
-26 | File | `admin.asp` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/` | Low
-29 | File | `admin/manage-comments.php` | High
-30 | File | `administration/comments.php` | High
-31 | File | `AdminViewError/AdminAddadmin` | High
-32 | File | `agentdisplay.php` | High
-33 | File | `ajax.php` | Medium
-34 | File | `ajaxhelper.php` | High
-35 | File | `app/call_centers/cmd.php` | High
-36 | File | `arch/x86/kvm/hyperv.c` | High
-37 | File | `ashnews.php/ashheadlines.php` | High
-38 | File | `auction.cgi` | Medium
-39 | File | `autologin.jsp` | High
-40 | File | `axspawn.c` | Medium
-41 | File | `backup.php` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/var/dt/` | Medium
+22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+23 | File | `00.jsp` | Low
+24 | File | `account_activations/edit` | High
+25 | File | `adclick.php` | Medium
+26 | File | `AddResolution.jspa` | High
+27 | File | `admin.asp` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin/` | Low
+30 | File | `admin/manage-comments.php` | High
+31 | File | `administration/comments.php` | High
+32 | File | `AdminViewError/AdminAddadmin` | High
+33 | File | `agentdisplay.php` | High
+34 | File | `ajax.php` | Medium
+35 | File | `ajaxhelper.php` | High
+36 | File | `app/call_centers/cmd.php` | High
+37 | File | `arch/x86/kvm/hyperv.c` | High
+38 | File | `ashnews.php/ashheadlines.php` | High
+39 | File | `auction.cgi` | Medium
+40 | File | `autologin.jsp` | High
+41 | File | `axspawn.c` | Medium
 42 | ... | ... | ...
 
-There are 361 more IOA items available. Please use our online service to access the data.
+There are 362 more IOA items available. Please use our online service to access the data.
 
 ## References
 

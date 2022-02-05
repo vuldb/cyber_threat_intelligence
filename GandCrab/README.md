@@ -10,10 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * ES
-* CA
+* FR
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,16 +31,9 @@ ID | IP address | Hostname | Confidence
 8 | 39.107.34.197 | - | High
 9 | 45.118.145.96 | - | High
 10 | 51.254.25.115 | ip115.ip-51-254-25.eu | High
-11 | 51.255.48.78 | vps-ede152ed.vps.ovh.net | High
-12 | 52.116.175.70 | hs20.name.tools | High
-13 | 54.36.194.90 | ip90.ip-54-36-194.eu | High
-14 | 66.96.147.103 | 103.147.96.66.static.eigbox.net | High
-15 | 66.171.248.178 | api1.whatismyipaddress.com | High
-16 | 69.163.193.127 | ps608110.dreamhostps.com | High
-17 | 87.236.16.107 | ssl.spectre.beget.com | High
-18 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,12 +41,10 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
+1 | T1040 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | Cross Site Scripting | High
+3 | T1068 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ...
 
 There are 11 more TTP items available. Please use our online service to access the data.
 
@@ -64,18 +55,39 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-3 | File | `.htaccess` | Medium
-4 | File | `/+CSCOE+/logon.html` | High
-5 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-6 | File | `/admin.php` | Medium
-7 | File | `/admin/` | Low
-8 | File | `/admin/admin_login.php` | High
-9 | File | `/admin/comment.php` | High
-10 | File | `/AdminDir` | Medium
-11 | ... | ... | ...
+2 | File | `/admin/comment.php` | High
+3 | File | `/agenttrayicon` | High
+4 | File | `/api/version` | Medium
+5 | File | `/app1/admin#foo` | High
+6 | File | `/appsuite` | Medium
+7 | File | `/article/add` | Medium
+8 | File | `/Controller/ChinaCityController.class.php` | High
+9 | File | `/coreframe/app/guestbook/myissue.php` | High
+10 | File | `/hub/api/user` | High
+11 | File | `/ics?tool=search` | High
+12 | File | `/info.xml` | Medium
+13 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+14 | File | `/knowage/restful-services/documentnotes/saveNote` | High
+15 | File | `/netact/sct` | Medium
+16 | File | `/nova/bin/bfd` | High
+17 | File | `/php/passport/index.php` | High
+18 | File | `/run/courier/authdaemon` | High
+19 | File | `/run/spice-vdagentd/spice-vdagent-sock` | High
+20 | File | `/service/v1/createUser` | High
+21 | File | `/settings/profile` | High
+22 | File | `/status.js` | Medium
+23 | File | `/suggest` | Medium
+24 | File | `/thruk/#cgi-bin/status.cgi?style=combined` | High
+25 | File | `/usr/local/bin/mjs` | High
+26 | File | `Access/DownloadFeed_Mnt/FileUpload_Upd.cfm` | High
+27 | File | `action.setdefaulttemplate.php` | High
+28 | File | `ActiveServices.java` | High
+29 | File | `Addons/file/mod.file.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/dashboard.php` | High
+32 | ... | ... | ...
 
-There are 1147 more IOA items available. Please use our online service to access the data.
+There are 272 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +108,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

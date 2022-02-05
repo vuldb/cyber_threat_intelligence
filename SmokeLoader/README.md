@@ -1,6 +1,6 @@
 # SmokeLoader - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [SmokeLoader](https://vuldb.com/?actor.smokeloader). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SmokeLoader](https://vuldb.com/?actor.smokeloader). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.smokeloader](https://vuldb.com/?actor.smokeloader)
 
@@ -34,15 +34,9 @@ ID | IP address | Hostname | Confidence
 5 | 31.13.65.36 | edge-star-mini-shv-01-atl3.facebook.com | High
 6 | 51.254.25.115 | ip115.ip-51-254-25.eu | High
 7 | 51.255.48.78 | vps-ede152ed.vps.ovh.net | High
-8 | 58.251.121.110 | reverse.gdsz.cncnet.net | High
-9 | 72.21.81.240 | - | High
-10 | 74.114.154.18 | - | High
-11 | 79.141.165.169 | e8wwm.perlyoffers.co.uk | High
-12 | 85.192.56.35 | - | High
-13 | 88.99.66.31 | iplogger.com | High
-14 | ... | ... | ...
+8 | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,9 +67,39 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi/ansi` | Medium
 9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
 10 | File | `/etc/gsissh/sshd_config` | High
-11 | ... | ... | ...
+11 | File | `/etc/passwd` | Medium
+12 | File | `/etc/sudoers` | Medium
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/GetNewDir` | High
+15 | File | `/hnap.cgi` | Medium
+16 | File | `/HNAP1` | Low
+17 | File | `/includes/common.inc.php` | High
+18 | File | `/knomi/analyze` | High
+19 | File | `/out.php` | Medium
+20 | File | `/outgoing.php` | High
+21 | File | `/scripts/iisadmin/bdir.htr` | High
+22 | File | `/tmp` | Low
+23 | File | `/tmp/csman/0` | Medium
+24 | File | `/ui/cbpc/login` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/var/avamar/f_cache.dat` | High
+27 | File | `/var/hnap/timestamp` | High
+28 | File | `/var/run/storage_account_root` | High
+29 | File | `/webmail/` | Medium
+30 | File | `/wp-content/plugins/forum-server/feed.php` | High
+31 | File | `/{ADMIN-FILE}/` | High
+32 | File | `a2billing/customer/iridium_threed.php` | High
+33 | File | `address.html` | Medium
+34 | File | `adm/systools.asp` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/index.php` | High
+37 | File | `administrador.asp` | High
+38 | File | `AdminQuickAccessesController.php` | High
+39 | File | `afd.sys` | Low
+40 | File | `ajaxfilemanager.php` | High
+41 | ... | ... | ...
 
-There are 379 more IOA items available. Please use our online service to access the data.
+There are 351 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -88,9 +112,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

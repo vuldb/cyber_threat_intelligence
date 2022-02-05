@@ -19,9 +19,12 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
+* NL
+* RO
 * US
-* RU
-* BG
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +37,7 @@ ID | IP address | Hostname | Confidence
 3 | 5.100.155.91 | 5.100.155-91.publicdomainregistry.com | High
 4 | 5.135.183.154 | ns3290077.ip-5-135-183.eu | High
 5 | 5.199.171.58 | - | High
-6 | 23.163.0.59 | naomi.rem2d.com | High
+6 | 23.163.0.59 | - | High
 7 | 23.227.196.21 | 23-227-196-21.static.hvvc.us | High
 8 | 23.227.196.215 | 23-227-196-215.static.hvvc.us | High
 9 | 23.227.196.217 | 23-227-196-217.static.hvvc.us | High
@@ -61,8 +64,8 @@ ID | IP address | Hostname | Confidence
 30 | 58.49.58.58 | - | High
 31 | 62.113.232.197 | - | High
 32 | 66.172.11.207 | ip-66-172-11-207.chunkhost.com | High
-33 |  66.172.12.133 | - | High
-34 | 69.12.73.174 | 69.12.73.174.static.quadranet.com | High
+33 | 66.172.12.133 | ip-66-172-12-133.chunkhost.com | High
+34 | 69.12.73.174 | - | High
 35 | 70.85.221.10 | server002.nilsson-it.dk | High
 36 | 70.85.221.20 | 14.dd.5546.static.theplanet.com | High
 37 | 76.74.177.251 | ip-76-74-177-251.chunkhost.com | High
@@ -77,7 +80,7 @@ ID | IP address | Hostname | Confidence
 46 | 81.17.30.29 | - | High
 47 | ... | ... | ...
 
-There are 185 more IOC items available. Please use our online service to access the data.
+There are 184 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,7 +90,10 @@ ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1587.003 | Improper Certificate Validation | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
+
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,12 +101,43 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `elFinder.class.php` | High
-2 | File | `inc/config.php` | High
-3 | File | `ot_coupon.php` | High
-4 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/config.php?display=disa&view=form` | High
+5 | File | `/category_view.php` | High
+6 | File | `/dev/kmem` | Medium
+7 | File | `/filemanager/upload.php` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/NAGErrors` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/proc/ioports` | High
+14 | File | `/replication` | Medium
+15 | File | `/reports/rwservlet` | High
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/wp-admin/admin.php` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+24 | File | `admin/app/mediamanager` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin\model\catalog\download.php` | High
+27 | File | `afr.php` | Low
+28 | File | `apcupsd.pid` | Medium
+29 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+30 | File | `api/sms/send-sms` | High
+31 | File | `api/v1/alarms` | High
+32 | File | `application/controller/InstallerController.php` | High
+33 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+34 | File | `arformcontroller.php` | High
+35 | ... | ... | ...
 
-There are 8 more IOA items available. Please use our online service to access the data.
+There are 297 more IOA items available. Please use our online service to access the data.
 
 ## References
 

@@ -1,6 +1,6 @@
 # Lotus Blossom - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.lotus_blossom](https://vuldb.com/?actor.lotus_blossom)
 
@@ -33,16 +33,9 @@ ID | IP address | Hostname | Confidence
 8 | 59.188.247.32 | - | High
 9 | 61.58.31.102 | - | High
 10 | 95.154.195.152 | hrms.blinkgator.net | High
-11 | 96.47.234.246 | unassigned.quadranet.com | High
-12 | 101.55.33.92 | - | High
-13 | 101.55.33.95 | - | High
-14 | 101.55.120.153 | - | High
-15 | 101.55.120.165 | - | High
-16 | 101.55.121.47 | - | High
-17 | 101.55.121.79 | - | High
-18 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,10 +54,11 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-2 | File | `plus/recommend.php` | High
-3 | Argument | `$_FILES` | Low
-4 | Argument | `password` | Medium
-5 | Input Value | `1234` | Low
+2 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+3 | File | `plus/recommend.php` | High
+4 | ... | ... | ...
+
+There are 3 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -79,9 +73,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

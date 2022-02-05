@@ -1,6 +1,6 @@
 # Tropic Trooper - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.tropic_trooper](https://vuldb.com/?actor.tropic_trooper)
 
@@ -32,21 +32,14 @@ ID | IP address | Hostname | Confidence
 2 | 23.27.112.216 | - | High
 3 | 23.234.27.100 | - | High
 4 | 27.126.176.169 | - | High
-5 | 27.126.186.74 | - | High
-6 | 27.126.186.222 | - | High
+5 | 27.126.186.74 | krakow.intellectint.net | High
+6 | 27.126.186.222 | grupos.slidefresh.net | High
 7 | 45.32.47.148 | 45.32.47.148.vultr.com | Medium
-8 | 45.125.12.147 | - | High
+8 | 45.125.12.147 | spk.cloudie.hk | High
 9 | 45.127.97.222 | - | High
-10 | 47.89.58.141 | - | High
-11 | 49.254.211.75 | - | High
-12 | 50.117.38.164 | - | High
-13 | 61.218.145.179 | 61-218-145-179.hinet-ip.hinet.net | High
-14 | 61.221.169.31 | 61-221-169-31.hinet-ip.hinet.net | High
-15 | 61.222.31.83 | 61-222-31-83.hinet-ip.hinet.net | High
-16 | 69.221.169.31 | adsl-69-221-169-31.dsl.akrnoh.ameritech.net | High
-17 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,18 +61,14 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
-2 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `binder.c` | Medium
-5 | File | `data/gbconfiguration.dat` | High
-6 | File | `ext/date/lib/parse_date.c` | High
-7 | File | `forumrunner/includes/moderation.php` | High
-8 | File | `inc/config.php` | High
-9 | File | `includes/wizard/wizard.php` | High
-10 | File | `index.php?a=Index&c=Channel&m=Home` | High
-11 | ... | ... | ...
+2 | File | `/onvif/device_service` | High
+3 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `binder.c` | Medium
+6 | File | `data/gbconfiguration.dat` | High
+7 | ... | ... | ...
 
-There are 39 more IOA items available. Please use our online service to access the data.
+There are 46 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -98,9 +87,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

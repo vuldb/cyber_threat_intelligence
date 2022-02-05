@@ -20,7 +20,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * RU
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,13 +30,15 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 1.5.1.1 | - | High
 2 | 5.9.0.155 | static.155.0.9.5.clients.your-server.de | High
-3 | 31.171.154.67 | - | High
-4 | 38.132.99.167 | - | High
-5 | 46.99.148.96 | - | High
-6 | 66.219.22.235 | core96.hostingmadeeasy.com | High
-7 | ... | ... | ...
+3 | 5.199.133.149 | ve958.venus.servdiscount-customer.com | High
+4 | 7.236.212.22 | - | High
+5 | 31.171.154.67 | - | High
+6 | 38.132.99.167 | - | High
+7 | 46.99.148.96 | - | High
+8 | 66.219.22.235 | core96.hostingmadeeasy.com | High
+9 | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,35 +62,42 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `/.env` | Low
 3 | File | `/.flatpak-info` | High
-4 | File | `/etc/ajenti/config.yml` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/login` | Low
-7 | File | `/movie.php` | Medium
-8 | File | `/nagiosxi/admin/graphtemplates.php` | High
-9 | File | `/phppath/php` | Medium
-10 | File | `/search_events.php` | High
-11 | File | `/StartingPage/link_req_2.php` | High
-12 | File | `/usr/bin/pkexec` | High
-13 | File | `/ViewUserHover.jspa` | High
-14 | File | `abook_database.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/admin.shtml` | High
-17 | File | `admin/AJAX_lookup_handler.php` | High
-18 | File | `admin/bitrix.xscan_worker.php` | High
-19 | File | `admin/config.php` | High
-20 | File | `admin/general.php` | High
-21 | File | `admin/login.asp` | High
-22 | File | `admin/movieedit.php` | High
-23 | File | `affich.php` | Medium
-24 | ... | ... | ...
+4 | File | `/convert/html` | High
+5 | File | `/etc/ajenti/config.yml` | High
+6 | File | `/etc/passwd` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/login` | Low
+9 | File | `/movie.php` | Medium
+10 | File | `/nagiosxi/admin/graphtemplates.php` | High
+11 | File | `/phppath/php` | Medium
+12 | File | `/search_events.php` | High
+13 | File | `/StartingPage/link_req_2.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/usr/bin/pkexec` | High
+16 | File | `/ViewUserHover.jspa` | High
+17 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+18 | File | `abook_database.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/admin.shtml` | High
+21 | File | `admin/AJAX_lookup_handler.php` | High
+22 | File | `admin/bitrix.xscan_worker.php` | High
+23 | File | `admin/config.php` | High
+24 | File | `admin/general.php` | High
+25 | File | `admin/login.asp` | High
+26 | File | `admin/movieedit.php` | High
+27 | File | `affich.php` | Medium
+28 | File | `ahcache.sys` | Medium
+29 | File | `ajax/api/hook/getHookList` | High
+30 | ... | ... | ...
 
-There are 196 more IOA items available. Please use our online service to access the data.
+There are 259 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
+* https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html
 * https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/
 * https://securelist.com/muddywater/88059/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group

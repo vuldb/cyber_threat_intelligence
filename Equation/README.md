@@ -1,6 +1,6 @@
 # Equation - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Equation](https://vuldb.com/?actor.equation). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Equation](https://vuldb.com/?actor.equation). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.equation](https://vuldb.com/?actor.equation)
 
@@ -33,13 +33,9 @@ ID | IP address | Hostname | Confidence
 4 | 80.77.4.3 | - | High
 5 | 81.31.34.175 | 81-31-34-175.static.masterinter.net | High
 6 | 81.31.36.174 | vl504.sl509s.r1-3.dc1.4d.prg.masterinter.net | High
-7 | 81.31.38.163 | 81-31-38-163.static.masterinter.net | High
-8 | 81.31.38.166 | 81-31-38-166.static.masterinter.net | High
-9 | 84.233.205.99 | - | High
-10 | 85.112.1.83 | - | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,6 +46,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1211 | 7PK Security Features | High
+4 | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,16 +59,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/exec/` | Low
 2 | File | `/wlanAccess.asp` | High
 3 | File | `GetRules.asp` | Medium
-4 | File | `kaiseki.cgi` | Medium
-5 | File | `phpinfo.php` | Medium
-6 | File | `rpc.statd` | Medium
-7 | Library | `DNSAPI.dll` | Medium
-8 | Library | `isusweb.dll` | Medium
-9 | Argument | `Connected Clients` | High
-10 | Network Port | `Ports 137-139` | High
-11 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 2 more IOA items available. Please use our online service to access the data.
+There are 9 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -82,9 +74,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

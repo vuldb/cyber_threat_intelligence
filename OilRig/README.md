@@ -1,6 +1,6 @@
 # OilRig - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [OilRig](https://vuldb.com/?actor.oilrig). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [OilRig](https://vuldb.com/?actor.oilrig). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.oilrig](https://vuldb.com/?actor.oilrig)
 
@@ -10,10 +10,10 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 
 * US
 * IR
-* GB
+* CN
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,11 +25,9 @@ ID | IP address | Hostname | Confidence
 2 | 24.125.0.1 | - | High
 3 | 31.3.225.55 | h31-3-225-55.host.redstation.co.uk | High
 4 | 33.33.94.94 | - | High
-5 | 33.33.97.97 | - | High
-6 | 35.35.35.35 | - | High
-7 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,9 +58,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
 9 | File | `/HNAP1` | Low
 10 | File | `/horde/util/go.php` | High
-11 | ... | ... | ...
+11 | File | `/login.html` | Medium
+12 | File | `/proc/#####/fd/3` | High
+13 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+14 | File | `/uir/` | Low
+15 | File | `/uncpath/` | Medium
+16 | ... | ... | ...
 
-There are 126 more IOA items available. Please use our online service to access the data.
+There are 127 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -78,9 +81,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

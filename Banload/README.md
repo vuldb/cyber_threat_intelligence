@@ -1,6 +1,6 @@
 # Banload - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Banload](https://vuldb.com/?actor.banload). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Banload](https://vuldb.com/?actor.banload). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.banload](https://vuldb.com/?actor.banload)
 
@@ -30,15 +30,9 @@ ID | IP address | Hostname | Confidence
 12 | 52.217.48.70 | s3-1.amazonaws.com | Medium
 13 | 52.217.79.142 | s3-1.amazonaws.com | Medium
 14 | 52.217.85.222 | s3-1.amazonaws.com | Medium
-15 | 74.119.119.139 | - | High
-16 | 74.125.192.94 | qn-in-f94.1e100.net | High
-17 | 142.250.80.2 | lga34s33-in-f2.1e100.net | High
-18 | 142.250.80.3 | lga34s33-in-f3.1e100.net | High
-19 | 142.250.111.154 | gb-in-f154.1e100.net | High
-20 | 143.204.150.172 | server-143-204-150-172.ewr52.r.cloudfront.net | High
-21 | ... | ... | ...
+15 | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,13 +59,9 @@ ID | Type | Indicator | Confidence
 4 | File | `/index.php` | Medium
 5 | File | `/lua/set-passwd.lua` | High
 6 | File | `/oauth/authorize` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/user/user/edit.php` | High
-9 | File | `backupsettings.html` | High
-10 | File | `comment_add.asp` | High
-11 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 41 more IOA items available. Please use our online service to access the data.
+There are 45 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -85,9 +75,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

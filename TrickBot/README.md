@@ -9,7 +9,6 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TrickBot:
 
 * VN
-* CN
 
 ## IOC - Indicator of Compromise
 
@@ -77,7 +76,7 @@ ID | IP address | Hostname | Confidence
 58 | 62.64.9.237 | clients-62.64.9.237.misp.ru | High
 59 | 62.109.2.172 | megamart24.ru | High
 60 | 62.109.6.188 | velomarket31.ru | High
-61 | 62.109.14.24 | btc-manager1.ru | High
+61 | 62.109.14.24 | jygbilj.bg.ru | High
 62 | ... | ... | ...
 
 There are 245 more IOC items available. Please use our online service to access the data.
@@ -93,7 +92,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,20 +100,23 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/ajax_crud` | Medium
-3 | File | `/core/table/query` | High
-4 | File | `/dev/ion` | Medium
-5 | File | `/ecma/operations/ecma-objects.c` | High
-6 | File | `/GetCopiedFile` | High
-7 | File | `/hdf5/src/H5T.c` | High
-8 | File | `/leave_system/classes/Login.php` | High
-9 | File | `/risque/administration/referentiel/json/create/categorie` | High
-10 | File | `/rsms/` | Low
-11 | File | `/uncpath/` | Medium
-12 | ... | ... | ...
+1 | File | `/admin/admin_manage/delete` | High
+2 | File | `/admin/configure.php` | High
+3 | File | `/admin/delete_image.php` | High
+4 | File | `/admin/edit_page.php` | High
+5 | File | `/admin/edit_post.php` | High
+6 | File | `/admin/edit_user.php` | High
+7 | File | `/admin/functions/functions.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/administrator/components/menu/` | High
+10 | File | `/administrator/components/table_manager/` | High
+11 | File | `/Hospital-Management-System-master/func.php` | High
+12 | File | `/usr/bin/pkexec` | High
+13 | File | `/yzmcms/comment/index/init.html` | High
+14 | File | `admin/posts.php?source=add_post` | High
+15 | ... | ... | ...
 
-There are 90 more IOA items available. Please use our online service to access the data.
+There are 121 more IOA items available. Please use our online service to access the data.
 
 ## References
 

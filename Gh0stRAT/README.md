@@ -45,7 +45,7 @@ ID | IP address | Hostname | Confidence
 22 | 58.218.199.225 | - | High
 23 | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -104,7 +104,7 @@ ID | Type | Indicator | Confidence
 36 | File | `/uncpath/` | Medium
 37 | ... | ... | ...
 
-There are 321 more IOA items available. Please use our online service to access the data.
+There are 317 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -123,6 +123,7 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0107-0114.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 
 ## Literature

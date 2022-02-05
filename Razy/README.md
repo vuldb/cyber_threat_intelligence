@@ -1,19 +1,8 @@
 # Razy - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Razy](https://vuldb.com/?actor.razy). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Razy](https://vuldb.com/?actor.razy). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.razy](https://vuldb.com/?actor.razy)
-
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Razy:
-
-* US
-* SC
-* FR
-* ...
-
-There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,44 +30,18 @@ ID | IP address | Hostname | Confidence
 18 | 54.225.155.11 | ec2-54-225-155-11.compute-1.amazonaws.com | Medium
 19 | 54.225.157.230 | ec2-54-225-157-230.compute-1.amazonaws.com | Medium
 20 | 54.225.165.85 | ec2-54-225-165-85.compute-1.amazonaws.com | Medium
-21 | ... | ... | ...
+21 | 58.215.145.98 | - | High
+22 | 58.215.145.108 | - | High
+23 | 58.216.118.224 | - | High
+24 | 58.216.118.225 | - | High
+25 | 58.216.118.228 | - | High
+26 | 58.216.118.229 | - | High
+27 | 61.160.228.205 | - | High
+28 | 72.21.81.240 | - | High
+29 | 74.117.178.19 | - | High
+30 | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Razy. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
-
-There are 8 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Razy. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/account/changepassword` | High
-4 | File | `/admin/account/changeprofileimage` | High
-5 | File | `/admin/account/clearcache` | High
-6 | File | `/admin/api` | Medium
-7 | File | `/admin/cms.php` | High
-8 | File | `/admin/communitymanagement.php` | High
-9 | File | `/admin/config.php?display=disa&view=form` | High
-10 | File | `/admin/countrymanagement.php` | High
-11 | ... | ... | ...
-
-There are 589 more IOA items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -104,14 +67,15 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0107-0114.html
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

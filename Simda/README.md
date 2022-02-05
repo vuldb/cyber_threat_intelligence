@@ -1,19 +1,8 @@
 # Simda - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Simda](https://vuldb.com/?actor.simda). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Simda](https://vuldb.com/?actor.simda). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.simda](https://vuldb.com/?actor.simda)
-
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Simda:
-
-* DE
-* US
-* JP
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,8 +19,8 @@ ID | IP address | Hostname | Confidence
 7 | 31.217.192.121 | cloud34.hostingpalvelu.fi | High
 8 | 34.98.99.30 | 30.99.98.34.bc.googleusercontent.com | Medium
 9 | 34.102.136.180 | 180.136.102.34.bc.googleusercontent.com | Medium
-10 | 45.82.253.244 | - | High
-11 | 46.28.105.107 | wl48-wv1.wedos.net | High
+10 | 45.82.253.244 | rios.phonationmanner.co.uk | High
+11 | 46.28.105.107 | hc1-wd246.wedos.net | High
 12 | 46.30.215.127 | webcluster2.webpod6-cph3.one.com | High
 13 | 46.30.215.202 | webcluster1.webpod8-cph3.one.com | High
 14 | 46.242.242.252 | cloudserver3219609-3219640.home.pl | High
@@ -41,42 +30,15 @@ ID | IP address | Hostname | Confidence
 18 | 54.65.172.3 | ec2-54-65-172-3.ap-northeast-1.compute.amazonaws.com | Medium
 19 | 62.97.115.37 | lnx-ppa-php53-01.microblau.net | High
 20 | 62.129.200.14 | cloudserver010174.home.pl | High
-21 | ... | ... | ...
+21 | 62.149.128.72 | mxd4.aruba.it | High
+22 | 62.149.128.74 | mxd5.aruba.it | High
+23 | 62.149.128.151 | mxd6.aruba.it | High
+24 | 62.149.128.154 | mxd7.aruba.it | High
+25 | 62.149.128.157 | mxd8.aruba.it | High
+26 | 62.149.128.160 | mxd1.aruba.it | High
+27 | ... | ... | ...
 
-There are 111 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Simda. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
-
-There are 5 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Simda. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/admin/edit_member.php` | High
-2 | File | `/apps/app_article/controller/editor.php` | High
-3 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-4 | File | `/front/actions.php` | High
-5 | File | `/front/search.php` | High
-6 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-7 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
-8 | File | `/timeline2.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/WebMstr7/servlet/mstrWeb` | High
-11 | ... | ... | ...
-
-There are 142 more IOA items available. Please use our online service to access the data.
+There are 105 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -88,9 +50,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

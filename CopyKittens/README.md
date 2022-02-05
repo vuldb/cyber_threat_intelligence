@@ -1,6 +1,6 @@
 # CopyKittens - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [CopyKittens](https://vuldb.com/?actor.copykittens). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [CopyKittens](https://vuldb.com/?actor.copykittens). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.copykittens](https://vuldb.com/?actor.copykittens)
 
@@ -15,11 +15,11 @@ The following campaigns are known and can be associated with CopyKittens:
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * PL
-* DE
 * FR
+* ES
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,13 +29,13 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 5.34.180.252 | vds-uuallex-113169.hosted-by-itldc.com | High
 2 | 5.34.181.13 | backups231.com | High
-3 | 31.192.105.16 | - | High
-4 | 31.192.105.17 | wikileaks.org | High
+3 | 31.192.105.16 | down-it-niscat.cosmeticdentistwellesley.com | High
+4 | 31.192.105.17 | most.muatypecast.com | High
 5 | 31.192.105.28 | - | High
 6 | 38.130.75.20 | h20-us75.fcsrv.net | High
 7 | 51.254.76.54 | - | High
 8 | 62.109.2.52 | ns.leangroup.ru | High
-9 | 62.109.2.109 | mediclick.ru | High
+9 | 62.109.2.109 | l2pvp.life | High
 10 | 66.55.152.164 | 66-55-152-164.choopa.net | High
 11 | 68.232.180.122 | 68-232-180-122.choopa.net | High
 12 | 80.179.42.37 | 80.179.42.37.forward.012.net.il | High
@@ -44,12 +44,9 @@ ID | IP address | Hostname | Confidence
 15 | 93.190.138.137 | 93-190-138-137.hosted-by-worldstream.net | High
 16 | 104.200.128.48 | - | High
 17 | 104.200.128.58 | - | High
-18 | 104.200.128.64 | - | High
-19 | 104.200.128.71 | - | High
-20 | 104.200.128.126 | - | High
-21 | ... | ... | ...
+18 | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 67 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,11 +57,9 @@ ID | Technique | Description | Confidence
 1 | T1040 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | Cross Site Scripting | High
 3 | T1068 | Execution with Unnecessary Privileges | High
-4 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-5 | T1211 | 7PK Security Features | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,19 +67,36 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%LOCALAPPDATA%\Zemana\ZALSDK\MyRules2.ini` | High
-2 | File | `.backup/` | Medium
-3 | File | `.gemspec` | Medium
-4 | File | `.mscreenrc` | Medium
-5 | File | `.pref.xml` | Medium
-6 | File | `/?ajax-request=jnews` | High
-7 | File | `/?mobile=1` | Medium
-8 | File | `/admin` | Low
-9 | File | `/ADMIN.ASP` | Medium
-10 | File | `/admin.php/Foodcat/editsave` | High
-11 | ... | ... | ...
+1 | File | `/about/../` | Medium
+2 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
+3 | File | `/admin/comment.php` | High
+4 | File | `/admin/configure.php` | High
+5 | File | `/admin/index.php?lfj=member&action=editmember` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/media/upload` | High
+8 | File | `/api/notify.php` | High
+9 | File | `/auth/v1/sso/config/` | High
+10 | File | `/EXCU_SHELL` | Medium
+11 | File | `/forgetpassword.php` | High
+12 | File | `/formAdvFirewall` | High
+13 | File | `/function/booksave.php` | High
+14 | File | `/home/user/dir` | High
+15 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+16 | File | `/moddable/xs/sources/xsDataView.c` | High
+17 | File | `abc2ps.c` | Medium
+18 | File | `acknow.php` | Medium
+19 | File | `adminlogin.php` | High
+20 | File | `AdminUpdateController.class.php` | High
+21 | File | `admin_home.php` | High
+22 | File | `allocator.cc` | Medium
+23 | File | `AndroidManifest.xml` | High
+24 | File | `archeryscores.php` | High
+25 | File | `archive_read_support_format_iso9660.c` | High
+26 | File | `AscoServer.exe` | High
+27 | File | `AudioOutputSpeech.cpp` | High
+28 | ... | ... | ...
 
-There are 2718 more IOA items available. Please use our online service to access the data.
+There are 239 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -99,9 +111,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

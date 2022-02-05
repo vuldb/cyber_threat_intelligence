@@ -1,6 +1,6 @@
 # Wizard Spider - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.wizard_spider](https://vuldb.com/?actor.wizard_spider)
 
@@ -15,11 +15,11 @@ The following campaigns are known and can be associated with Wizard Spider:
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wizard Spider:
 
 * US
-* KH
 * CN
+* RU
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Confidence
 7 | 5.2.64.167 | - | High
 8 | 5.2.64.172 | - | High
 9 | 5.2.64.174 | liteserver.netnik.eu | High
-10 | 5.2.64.182 | sync.remote.mutlamap.dk | High
+10 | 5.2.64.182 | mx.egmose.net | High
 11 | 5.2.70.149 | - | High
 12 | 5.2.72.200 | - | High
 13 | 5.2.72.202 | pieterb.com | High
@@ -44,12 +44,49 @@ ID | IP address | Hostname | Confidence
 15 | 5.2.79.10 | - | High
 16 | 5.2.79.12 | mail.suspicious-login-managepaypal.com | High
 17 | 5.2.79.121 | - | High
-18 | 5.2.79.122 | - | High
+18 | 5.2.79.122 | mailer.foliata.nl | High
 19 | 5.182.210.145 | - | High
 20 | 31.7.59.141 | - | High
-21 | ... | ... | ...
+21 | 31.131.21.184 | - | High
+22 | 34.222.33.48 | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | Medium
+23 | 36.89.106.69 | - | High
+24 | 36.91.87.227 | - | High
+25 | 37.187.3.176 | ns3367168.ip-37-187-3.eu | High
+26 | 45.32.30.162 | 45.32.30.162.vultr.com | Medium
+27 | 45.32.130.5 | 45.32.130.5.vultr.com | Medium
+28 | 45.32.170.9 | 45.32.170.9.vultr.com | Medium
+29 | 45.34.6.221 | unassigned.psychz.net | High
+30 | 45.34.6.222 | unassigned.psychz.net | High
+31 | 45.34.6.223 | unassigned.psychz.net | High
+32 | 45.34.6.225 | unassigned.psychz.net | High
+33 | 45.34.6.226 | unassigned.psychz.net | High
+34 | 45.34.6.229 | mail2.dehetre.cloud | High
+35 | 45.63.95.187 | 45.63.95.187.vultr.com | Medium
+36 | 45.76.20.140 | CITADEL_MD_BENNETPOINTGENERALSTOREDELI_1241_CONVENIENCE | High
+37 | 45.76.45.162 | 45.76.45.162.vultr.com | Medium
+38 | 45.76.49.78 | 45.76.49.78.vultr.com | Medium
+39 | 45.76.167.35 | virtjunkie.com | High
+40 | 45.76.231.195 | 45.76.231.195.vultr.com | Medium
+41 | 45.77.58.172 | 45.77.58.172.vultr.com | Medium
+42 | 45.77.89.31 | 45.77.89.31.vultr.com | Medium
+43 | 45.77.98.157 | 45.77.98.157.vultr.com | Medium
+44 | 45.77.119.212 | 45.77.119.212.vultr.com | Medium
+45 | 45.77.153.72 | 45.77.153.72.vultr.com | Medium
+46 | 45.77.206.105 | 45.77.206.105.vultr.com | Medium
+47 | 45.89.127.92 | - | High
+48 | 45.138.172.95 | - | High
+49 | 45.141.84.120 | - | High
+50 | 45.141.86.84 | - | High
+51 | 45.141.86.90 | - | High
+52 | 45.141.86.91 | - | High
+53 | 45.141.86.92 | - | High
+54 | 45.141.86.93 | - | High
+55 | 45.141.86.94 | - | High
+56 | 45.141.86.95 | - | High
+57 | 45.141.86.96 | - | High
+58 | ... | ... | ...
 
-There are 266 more IOC items available. Please use our online service to access the data.
+There are 229 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,9 +97,7 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
 
@@ -72,19 +107,56 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `.htaccess` | Medium
-3 | File | `.procmailrc` | Medium
-4 | File | `/$({curl` | Medium
-5 | File | `/+CSCOE+/logon.html` | High
-6 | File | `/admin/ajax/upload-logo` | High
-7 | File | `/administration/settings_registration.php` | High
-8 | File | `/ajax-files/followBoard.php` | High
-9 | File | `/ajax-files/postComment.php` | High
-10 | File | `/assets/components/gallery/connector.php` | High
-11 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/.env` | Low
+4 | File | `/.ssh/authorized_keys` | High
+5 | File | `/admin/default.asp` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/assets/ctx` | Medium
+8 | File | `/cgi-bin/login_action.cgi` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/checkLogin.cgi` | High
+11 | File | `/cms/print.php` | High
+12 | File | `/concat?/%2557EB-INF/web.xml` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/irj/portal/` | Medium
+18 | File | `/irj/servlet/prt/portal/prteventname/nav/prteventdata/` | High
+19 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+20 | File | `/login` | Low
+21 | File | `/navigate/navigate_download.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/p` | Low
+25 | File | `/password.html` | High
+26 | File | `/proc/ioports` | High
+27 | File | `/property-list/property_view.php` | High
+28 | File | `/rest` | Low
+29 | File | `/rest/api/2/search` | High
+30 | File | `/s/` | Low
+31 | File | `/scripts/cpan_config` | High
+32 | File | `/services/system/setup.json` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/webconsole/APIController` | High
+35 | File | `/websocket/exec` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `/wp-json/oembed/1.0/embed?url` | High
+38 | File | `/_next` | Low
+39 | File | `4.edu.php\conn\function.php` | High
+40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add.php` | Low
+43 | File | `addentry.php` | Medium
+44 | File | `addressbook.php` | High
+45 | File | `add_comment.php` | High
+46 | File | `admin/category.inc.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | ... | ... | ...
 
-There are 661 more IOA items available. Please use our online service to access the data.
+There are 413 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -101,9 +173,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

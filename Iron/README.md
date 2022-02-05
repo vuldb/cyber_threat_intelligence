@@ -75,7 +75,8 @@ ID | Type | Indicator | Confidence
 29 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_vooc.c` | High
 30 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
 31 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
-32 | ... | ... | ...
+32 | File | `/tools/network-trace` | High
+33 | ... | ... | ...
 
 There are 277 more IOA items available. Please use our online service to access the data.
 

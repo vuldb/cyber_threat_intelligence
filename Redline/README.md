@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 31 | File | `admin/config/confmgr.php` | High
 32 | File | `admin/import/class-import-settings.php` | High
 33 | File | `admin/user/group/update` | High
-34 | ... | ... | ...
+34 | File | `admincp/auth/checklogin.php` | High
+35 | ... | ... | ...
 
-There are 292 more IOA items available. Please use our online service to access the data.
+There are 295 more IOA items available. Please use our online service to access the data.
 
 ## References
 

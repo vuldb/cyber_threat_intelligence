@@ -48,11 +48,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/domains/list` | High
 2 | File | `/run/spice-vdagentd/spice-vdagent-sock` | High
 3 | File | `/tmp` | Low
-4 | File | `English/pages_MacUS/cgi_lan.cgi` | High
-5 | File | `ping.cgi` | Medium
-6 | Argument | `DIA_IPADDRESS` | High
-7 | Argument | `LAN_TXT24` | Medium
-8 | Argument | `Product` | Low
+4 | ... | ... | ...
+
+There are 6 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -69,4 +67,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

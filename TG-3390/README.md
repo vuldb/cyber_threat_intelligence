@@ -1,6 +1,6 @@
 # TG-3390 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [TG-3390](https://vuldb.com/?actor.tg-3390). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [TG-3390](https://vuldb.com/?actor.tg-3390). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.tg-3390](https://vuldb.com/?actor.tg-3390)
 
@@ -35,18 +35,12 @@ ID | IP address | Hostname | Confidence
 4 | 49.143.192.221 | - | High
 5 | 49.143.205.30 | - | High
 6 | 66.63.178.142 | unassigned.quadranet.com | High
-7 | 67.215.232.179 | ed-cricalf.allforbalance.com | High
-8 | 67.215.232.181 | ninths.allforbalance.com | High
-9 | 67.215.232.182 | stiage.com | High
-10 | 72.11.141.133 | 72.11.141.133.static.quadranet.com | High
-11 | 72.11.148.220 | unassigned.quadranet.com | High
-12 | 74.63.195.236 | 236-195-63-74.static.reverse.lstn.net | High
-13 | 74.63.195.237 | 237-195-63-74.static.reverse.lstn.net | High
-14 | 74.63.195.238 | 238-195-63-74.static.reverse.lstn.net | High
-15 | 96.44.177.195 | unassigned.quadranet.com | High
-16 | ... | ... | ...
+7 | 67.215.232.179 | ed-cricalf.latention.com | High
+8 | 67.215.232.181 | ninths.latention.com | High
+9 | 67.215.232.182 | 67.215.232.182.static.quadranet.com | High
+10 | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,10 +51,9 @@ ID | Technique | Description | Confidence
 1 | T1008 | Algorithm Downgrade | High
 2 | T1040 | Authentication Bypass by Capture-replay | High
 3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,9 +71,16 @@ ID | Type | Indicator | Confidence
 8 | File | `/syslog_rules` | High
 9 | File | `/upload` | Low
 10 | File | `/users/{id}` | Medium
-11 | ... | ... | ...
+11 | File | `/usr/bin/pkexec` | High
+12 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+13 | File | `/video` | Low
+14 | File | `ActivityManagerService.java` | High
+15 | File | `adaptmap_reg.c` | High
+16 | File | `admin.cgi` | Medium
+17 | File | `admin.php?action=files` | High
+18 | ... | ... | ...
 
-There are 155 more IOA items available. Please use our online service to access the data.
+There are 151 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -96,9 +96,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

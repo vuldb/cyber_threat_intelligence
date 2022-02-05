@@ -1,6 +1,6 @@
 # RIS - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [RIS](https://vuldb.com/?actor.ris). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [RIS](https://vuldb.com/?actor.ris). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.ris](https://vuldb.com/?actor.ris)
 
@@ -9,11 +9,11 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RIS:
 
 * US
-* LU
-* NO
+* ES
+* DK
 * ...
 
-There are 59 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,10 +40,111 @@ ID | IP address | Hostname | Confidence
 17 | 5.77.47.142 | - | High
 18 | 5.133.8.152 | vendorcool.com | High
 19 | 5.133.8.162 | d8162.artnet.gda.pl | High
-20 | 5.133.179.243 | - | High
-21 | ... | ... | ...
+20 | 5.133.179.243 | better-support4u.com | High
+21 | 5.134.1.250 | 5.134.1.250.hosted.by.stone-is.net | High
+22 | 5.135.65.145 | - | High
+23 | 5.135.65.146 | - | High
+24 | 5.135.186.35 | ns3291871.ip-5-135-186.eu | High
+25 | 5.135.199.28 | - | High
+26 | 5.149.249.172 | - | High
+27 | 5.149.254.114 | mail1.auditoriavanzada.info | High
+28 | 5.153.233.58 | - | High
+29 | 5.153.234.90 | - | High
+30 | 5.157.38.34 | - | High
+31 | 5.189.188.111 | vmd78384.contaboserver.net | High
+32 | 5.196.1.129 | vps-3d93b08b.vps.ovh.net | High
+33 | 5.196.58.96 | ip96.ip-5-196-58.eu | High
+34 | 5.199.171.58 | - | High
+35 | 5.199.172.147 | hst-172-147.cloudlix.com | High
+36 | 5.212.1.1 | - | High
+37 | 5.249.145.164 | host164-145-249-5.serverdedicati.aruba.it | High
+38 | 5.255.80.27 | srv23.mylady8.com | High
+39 | 8.39.147.120 | - | High
+40 | 23.239.10.144 | tor.shamm.as | High
+41 | 23.254.211.232 | hwsrv-930953.hostwindsdns.com | High
+42 | 27.24.190.240 | - | High
+43 | 27.50.94.251 | - | High
+44 | 31.16.91.237 | ip1f105bed.dynamic.kabel-deutschland.de | High
+45 | 31.31.72.43 | - | High
+46 | 31.132.0.11 | no.rdns.ukservers.com | High
+47 | 31.132.0.12 | no.rdns.ukservers.com | High
+48 | 31.148.219.50 | - | High
+49 | 31.148.219.166 | - | High
+50 | 31.148.219.168 | - | High
+51 | 31.148.219.176 | - | High
+52 | 31.168.172.147 | 31-168-172-147.telavivwifi.com | High
+53 | 31.186.96.19 | diburo.ru | High
+54 | 31.186.96.20 | test.diburo.ru | High
+55 | 31.192.228.185 | 31-192-228-185-static.glesys.net | High
+56 | 31.210.111.154 | . | High
+57 | 31.210.117.131 | . | High
+58 | 31.210.118.89 | . | High
+59 | 31.210.123.213 | . | High
+60 | 31.210.123.214 | . | High
+61 | 31.210.125.99 | . | High
+62 | 31.210.125.100 | . | High
+63 | 31.220.43.99 | - | High
+64 | 35.0.127.52 | tor-exit.eecs.umich.edu | High
+65 | 37.0.127.44 | bidder-quail.fellnear.net | High
+66 | 37.48.93.246 | 3906-others.noaaonline.com | High
+67 | 37.59.42.55 | dev.upyourbizz.com | High
+68 | 37.59.63.190 | ns3100645.ip-37-59-63.eu | High
+69 | 37.59.123.142 | 142.ip-37-59-123.eu | High
+70 | 37.123.130.176 | h-37-123-130-176.A183.corp.bahnhof.se | High
+71 | 37.123.130.186 | h-37-123-130-186.A183.corp.bahnhof.se | High
+72 | 37.139.52.47 | coachrobbo.com | High
+73 | 37.146.14.44 | 37-146-14-44.broadband.corbina.ru | High
+74 | 37.187.7.74 | ns3372567.ip-37-187-7.eu | High
+75 | 37.187.239.8 | 8.ip-37-187-239.eu | High
+76 | 37.187.247.3 | 3.ip-37-187-247.eu | High
+77 | 37.220.35.36 | - | High
+78 | 37.233.99.157 | - | High
+79 | 37.235.53.237 | 237.53.235.37.in-addr.arpa | High
+80 | 37.247.54.157 | - | High
+81 | 38.110.220.169 | - | High
+82 | 41.77.136.250 | - | High
+83 | 41.212.1.1 | po-0-0-0.edge1.uk-ln-TH-E.wananchi.com | High
+84 | 41.215.241.147 | - | High
+85 | 42.1.1.1 | - | High
+86 | 42.51.11.66 | - | High
+87 | 42.112.33.43 | - | High
+88 | 43.1.1.1 | - | High
+89 | 45.32.239.246 | 45.32.239.246.vultr.com | Medium
+90 | 45.55.178.34 | - | High
+91 | 45.56.90.85 | 45-56-90-85.ip.linodeusercontent.com | High
+92 | 45.62.255.94 | notassigned.cloudatcost.com | High
+93 | 45.79.85.112 | li1184-112.members.linode.com | High
+94 | 46.4.193.146 | server.netica.pl | High
+95 | 46.17.100.14 | - | High
+96 | 46.28.68.158 | a.prohoster.info | High
+97 | 46.28.110.136 | - | High
+98 | 46.28.111.122 | - | High
+99 | 46.29.248.238 | - | High
+100 | 46.73.164.160 | ip-46-73-164-160.bb.netbynet.ru | High
+101 | 46.148.17.98 | - | High
+102 | 46.148.17.99 | - | High
+103 | 46.148.17.100 | - | High
+104 | 46.148.17.210 | - | High
+105 | 46.148.26.78 | stb.fox-tv.info | High
+106 | 46.165.196.229 | - | High
+107 | 46.165.197.1 | - | High
+108 | 46.165.223.217 | - | High
+109 | 46.165.228.119 | - | High
+110 | 46.165.230.5 | tor-exit.dhalgren.org | High
+111 | 46.166.137.224 | - | High
+112 | 46.166.137.240 | - | High
+113 | 46.166.137.245 | - | High
+114 | 46.166.138.129 | - | High
+115 | 46.166.138.141 | - | High
+116 | 46.166.138.142 | - | High
+117 | 46.166.138.147 | - | High
+118 | 46.166.186.243 | tsn46-166-168-243.dyn.nltelcom.net | High
+119 | 46.166.188.228 | - | High
+120 | 46.166.190.182 | - | High
+121 | 46.166.190.192 | - | High
+122 | ... | ... | ...
 
-There are 583 more IOC items available. Please use our online service to access the data.
+There are 482 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,14 +152,12 @@ Tactics, techniques, and procedures summarize the suspected ATT&CK techniques us
 
 ID | Technique | Description | Confidence
 -- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
+1 | T1040 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | Cross Site Scripting | High
+3 | T1068 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,19 +165,40 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `#!/system` | Medium
-2 | File | `$HOME/.forward` | High
-3 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
-4 | File | `%2a` | Low
-5 | File | `%APPDATA%` | Medium
-6 | File | `%PROGRAMDATA%\1E\Client` | High
-7 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
-8 | File | `%PROGRAMDATA%\Psyprax32\PPScreen.ini` | High
-9 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
-10 | File | `%PROGRAMFILES(X86)%/Aternity Information Systems/Assistant/plugins` | High
-11 | ... | ... | ...
+1 | File | `/admin/app.php` | High
+2 | File | `/admin/download_frame.php` | High
+3 | File | `/admin/index.php?lfj=mysql&action=del` | High
+4 | File | `/admin/maintenance/` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/api/v2/labels/` | High
+7 | File | `/authen/start/` | High
+8 | File | `/cgi-bin/luci/rc` | High
+9 | File | `/cms/ajax.php` | High
+10 | File | `/dl/dl_sendsms.php` | High
+11 | File | `/domain/service/.ewell-known/caldav` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/exponent_constants.php` | High
+14 | File | `/extensionsinstruction` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/graphStatus/displayServiceStatus.php` | High
+17 | File | `/ifs` | Low
+18 | File | `/includes/upload.php` | High
+19 | File | `/index.php?m=ucenter&a=index` | High
+20 | File | `/info.xml` | Medium
+21 | File | `/login.php?m=admin&c=Admin&a=admin_add&lang=cn` | High
+22 | File | `/manage/loginusername` | High
+23 | File | `/music/ajax.php` | High
+24 | File | `/planprop` | Medium
+25 | File | `/question/ask` | High
+26 | File | `/tmp` | Low
+27 | File | `/var/ipfire/backup/bin/backup.pl` | High
+28 | File | `/woocommerce-stock-manager/trunk/admin/views/import-export.php` | High
+29 | File | `/wp-json` | Medium
+30 | File | `account.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 25120 more IOA items available. Please use our online service to access the data.
+There are 269 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -90,9 +210,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

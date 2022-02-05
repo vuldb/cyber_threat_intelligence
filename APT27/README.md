@@ -1,6 +1,6 @@
 # APT27 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT27](https://vuldb.com/?actor.apt27). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT27](https://vuldb.com/?actor.apt27). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt27](https://vuldb.com/?actor.apt27)
 
@@ -19,7 +19,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * ES
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,11 +30,9 @@ ID | IP address | Hostname | Confidence
 1 | 34.90.207.23 | 23.207.90.34.bc.googleusercontent.com | Medium
 2 | 34.93.247.126 | 126.247.93.34.bc.googleusercontent.com | Medium
 3 | 35.187.148.253 | 253.148.187.35.bc.googleusercontent.com | Medium
-4 | 35.220.135.85 | 85.135.220.35.bc.googleusercontent.com | Medium
-5 | 45.142.214.188 | mts.ru | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +43,9 @@ ID | Technique | Description | Confidence
 1 | T1008 | Algorithm Downgrade | High
 2 | T1040 | Authentication Bypass by Capture-replay | High
 3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,12 +60,23 @@ ID | Type | Indicator | Confidence
 5 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
 6 | File | `/oscommerce/admin/currencies.php` | High
 7 | File | `/proc/pid/syscall` | High
-8 | File | `/session/list/allActiveSession` | High
-9 | File | `/syslog_rules` | High
-10 | File | `/upload` | Low
-11 | ... | ... | ...
+8 | File | `/rapi/read_url` | High
+9 | File | `/session/list/allActiveSession` | High
+10 | File | `/syslog_rules` | High
+11 | File | `/upload` | Low
+12 | File | `/users/{id}` | Medium
+13 | File | `/video` | Low
+14 | File | `ActivityManagerService.java` | High
+15 | File | `adaptmap_reg.c` | High
+16 | File | `admin.cgi` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin.php?action=files` | High
+19 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+20 | File | `album_portal.php` | High
+21 | File | `al_initialize.php` | High
+22 | ... | ... | ...
 
-There are 186 more IOA items available. Please use our online service to access the data.
+There are 179 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -82,9 +90,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

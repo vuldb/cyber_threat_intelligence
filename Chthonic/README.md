@@ -1,6 +1,6 @@
 # Chthonic - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Chthonic](https://vuldb.com/?actor.chthonic). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Chthonic](https://vuldb.com/?actor.chthonic). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.chthonic](https://vuldb.com/?actor.chthonic)
 
@@ -13,7 +13,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * US
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,12 +25,9 @@ ID | IP address | Hostname | Confidence
 2 | 51.254.83.231 | pob01.mulx.net | High
 3 | 52.137.90.34 | - | High
 4 | 52.185.71.28 | - | High
-5 | 79.133.44.139 | - | High
-6 | 82.197.164.46 | aquila.init7.net | High
-7 | 85.199.214.98 | - | High
-8 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,15 +52,9 @@ ID | Type | Indicator | Confidence
 2 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
 3 | File | `AniGIF.ocx` | Medium
 4 | File | `config.php` | Medium
-5 | File | `data/gbconfiguration.dat` | High
-6 | File | `ext/gd/libgd/gd_interpolation.c` | High
-7 | File | `http_auth.c` | Medium
-8 | File | `index.php` | Medium
-9 | File | `install.php` | Medium
-10 | File | `login.php` | Medium
-11 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 20 more IOA items available. Please use our online service to access the data.
+There are 26 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -76,9 +67,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

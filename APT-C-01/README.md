@@ -1,6 +1,6 @@
 # APT-C-01 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [APT-C-01](https://vuldb.com/?actor.apt-c-01). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT-C-01](https://vuldb.com/?actor.apt-c-01). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt-c-01](https://vuldb.com/?actor.apt-c-01)
 
@@ -23,7 +23,7 @@ ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 45.32.8.137 | 45.32.8.137.vultr.com | Medium
 2 | 45.76.125.176 | 45.76.125.176.vultr.com | Medium
-3 | 45.76.228.61 | 45.76.228.61.vultr.com | Medium
+3 | 45.76.228.61 | - | High
 4 | ... | ... | ...
 
 There are 4 more IOC items available. Please use our online service to access the data.
@@ -47,15 +47,9 @@ ID | Type | Indicator | Confidence
 2 | File | `/goform/saveParentControlInfo` | High
 3 | File | `/uncpath/` | Medium
 4 | File | `2020\Messages\SDNotify.exe` | High
-5 | File | `admin/admin_disallow.php` | High
-6 | File | `email.php` | Medium
-7 | File | `entry.cgi` | Medium
-8 | File | `ext/date/lib/parse_date.c` | High
-9 | File | `goto.php` | Medium
-10 | File | `index.php?tg=delegat&idx=mem` | High
-11 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 25 more IOA items available. Please use our online service to access the data.
+There are 33 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -67,9 +61,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

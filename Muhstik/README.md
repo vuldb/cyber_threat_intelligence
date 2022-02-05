@@ -1,6 +1,6 @@
 # Muhstik - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Muhstik](https://vuldb.com/?actor.muhstik). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Muhstik](https://vuldb.com/?actor.muhstik). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.muhstik](https://vuldb.com/?actor.muhstik)
 
@@ -28,14 +28,13 @@ These indicators of compromise indicate associated network ressources which are 
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
-1 | 47.135.208.145 | 047-135-208-145.res.spectrum.com | High
-2 | 51.254.219.134 | 134.ip-51-254-219.eu | High
-3 | 66.70.190.236 | vps-d1afea2f.vps.ovh.ca | High
-4 | 121.128.171.44 | - | High
-5 | 139.99.101.96 | 96.ip-139-99-101.net | High
-6 | ... | ... | ...
+1 | 1.116.59.211 | - | High
+2 | 47.135.208.145 | 047-135-208-145.res.spectrum.com | High
+3 | 51.254.219.134 | 134.ip-51-254-219.eu | High
+4 | 66.70.190.236 | - | High
+5 | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,34 +55,33 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/rom-0` | Low
-2 | File | `ActivityManagerService.java` | High
-3 | File | `Attachment.pm/code-error.html.tmpl` | High
-4 | File | `category.cfm` | Medium
-5 | File | `cgi.c` | Low
-6 | File | `crypto/asn1/asn_mime.c` | High
-7 | File | `data/gbconfiguration.dat` | High
-8 | File | `epan/dissectors/packet-umts_mac.c` | High
-9 | File | `GponForm/diag_Form` | High
-10 | File | `inc/config.php` | High
-11 | ... | ... | ...
+1 | File | `/data/local.prop` | High
+2 | File | `/rom-0` | Low
+3 | File | `ActivityManagerService.java` | High
+4 | File | `adclick.php` | Medium
+5 | File | `Attachment.pm/code-error.html.tmpl` | High
+6 | ... | ... | ...
 
-There are 22 more IOA items available. Please use our online service to access the data.
+There are 38 more IOA items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains external sources which discuss the actor and the associated activities:
 
 * https://blog.netlab.360.com/botnet-muhstik-is-actively-exploiting-drupal-cve-2018-7600-in-a-worm-style-en/
+* https://twitter.com/honeymoon_ioc/status/1474379034926661643
+* https://twitter.com/honeymoon_ioc/status/1474379431783317555
+* https://twitter.com/honeymoon_ioc/status/1474678995430125568
+* https://twitter.com/honeymoon_ioc/status/1474792964736094209
 * https://unit42.paloaltonetworks.com/muhstik-botnet-exploits-the-latest-weblogic-vulnerability-for-cryptomining-and-ddos-attacks/
 
 ## Literature
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # Toddler - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Toddler](https://vuldb.com/?actor.toddler). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Toddler](https://vuldb.com/?actor.toddler). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.toddler](https://vuldb.com/?actor.toddler)
 
@@ -31,16 +31,9 @@ ID | IP address | Hostname | Confidence
 8 | 34.95.129.33 | 33.129.95.34.bc.googleusercontent.com | Medium
 9 | 34.95.187.117 | 117.187.95.34.bc.googleusercontent.com | Medium
 10 | 34.95.238.127 | 127.238.95.34.bc.googleusercontent.com | Medium
-11 | 34.106.247.111 | 111.247.106.34.bc.googleusercontent.com | Medium
-12 | 34.107.17.143 | 143.17.107.34.bc.googleusercontent.com | Medium
-13 | 34.107.72.79 | 79.72.107.34.bc.googleusercontent.com | Medium
-14 | 34.107.81.140 | 140.81.107.34.bc.googleusercontent.com | Medium
-15 | 35.197.204.121 | 121.204.197.35.bc.googleusercontent.com | Medium
-16 | 35.197.229.31 | 31.229.197.35.bc.googleusercontent.com | Medium
-17 | 35.199.117.241 | 241.117.199.35.bc.googleusercontent.com | Medium
-18 | ... | ... | ...
+11 | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,9 +64,10 @@ ID | Type | Indicator | Confidence
 8 | File | `books.php` | Medium
 9 | File | `c:\aux` | Low
 10 | File | `calendar.php` | Medium
-11 | ... | ... | ...
+11 | File | `cgi-bin/jc.cgi` | High
+12 | ... | ... | ...
 
-There are 91 more IOA items available. Please use our online service to access the data.
+There are 90 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -85,9 +79,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

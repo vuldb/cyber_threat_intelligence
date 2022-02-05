@@ -11,9 +11,6 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * US
 * RU
 * SV
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,32 +44,37 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php?lfj=friendlink&action=add` | High
+1 | File | `/admin/admin_manage/delete` | High
 2 | File | `/admin/login.php` | High
-3 | File | `/ajax_crud` | Medium
-4 | File | `/api/ZRMacClone/mac_addr_clone` | High
-5 | File | `/application/common.php#action_log` | High
-6 | File | `/base/ecma-helpers-string.c` | High
-7 | File | `/cms/ajax.php` | High
-8 | File | `/core/table/query` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/dev/ion` | Medium
-11 | File | `/ecma/operations/ecma-objects.c` | High
-12 | File | `/GetCopiedFile` | High
-13 | File | `/hdf5/src/H5Dchunk.c` | High
-14 | File | `/hdf5/src/H5Fint.c` | High
-15 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-16 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-17 | File | `/jerry-core/parser/js/js-parser-expr.c` | High
-18 | File | `/leave_system/classes/Login.php` | High
-19 | File | `/member/post.php?job=postnew&step=post` | High
+3 | File | `/administrator/components/table_manager/` | High
+4 | File | `/ajax_crud` | Medium
+5 | File | `/api/ZRMacClone/mac_addr_clone` | High
+6 | File | `/application/common.php#action_log` | High
+7 | File | `/base/ecma-helpers-string.c` | High
+8 | File | `/cms/ajax.php` | High
+9 | File | `/core/table/query` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/dev/ion` | Medium
+12 | File | `/ecma/operations/ecma-objects.c` | High
+13 | File | `/GetCopiedFile` | High
+14 | File | `/hdf5/src/H5Dchunk.c` | High
+15 | File | `/hdf5/src/H5Fint.c` | High
+16 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+17 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+18 | File | `/jerry-core/parser/js/js-parser-expr.c` | High
+19 | File | `/leave_system/classes/Login.php` | High
 20 | File | `/message-bus/_diagnostics` | High
 21 | File | `/mobile/SelectUsers.jsp` | High
 22 | File | `/music/ajax.php` | High
 23 | File | `/orms/` | Low
-24 | ... | ... | ...
+24 | File | `/parser/js/js-parser-mem.c` | High
+25 | File | `/rest/collectors/1.0/template/custom` | High
+26 | File | `/RPC2` | Low
+27 | File | `/UserSelfServiceSettings.jsp` | High
+28 | File | `/usr/bin/pkexec` | High
+29 | ... | ... | ...
 
-There are 197 more IOA items available. Please use our online service to access the data.
+There are 246 more IOA items available. Please use our online service to access the data.
 
 ## References
 

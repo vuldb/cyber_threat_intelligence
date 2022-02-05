@@ -4,6 +4,17 @@ The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.zeus](https://vuldb.com/?actor.zeus)
 
+## Countries
+
+These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
+
+* US
+* CN
+* GB
+* ...
+
+There are 26 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Zeus.
@@ -55,6 +66,64 @@ ID | IP address | Hostname | Confidence
 43 | ... | ... | ...
 
 There are 167 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Zeus. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Description | Confidence
+-- | --------- | ----------- | ----------
+1 | T1059.007 | Cross Site Scripting | High
+2 | T1068 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Zeus. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/?module=users&section=cpanel&page=list` | High
+2 | File | `/admin/powerline` | High
+3 | File | `/admin/syslog` | High
+4 | File | `/api/upload` | Medium
+5 | File | `/cgi-bin` | Medium
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/context/%2e/WEB-INF/web.xml` | High
+8 | File | `/dcim/sites/add/` | High
+9 | File | `/EXCU_SHELL` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/fudforum/adm/hlplist.php` | High
+12 | File | `/login` | Low
+13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+14 | File | `/monitoring` | Medium
+15 | File | `/new` | Low
+16 | File | `/proc/<pid>/status` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/rom` | Low
+19 | File | `/scripts/killpvhost` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+22 | File | `/tmp` | Low
+23 | File | `/tmp/redis.ds` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/ViewUserHover.jspa` | High
+26 | File | `/wp-admin` | Medium
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `ActiveServices.java` | High
+30 | File | `addlink.php` | Medium
+31 | File | `addtocart.asp` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+34 | File | `admin/add-glossary.php` | High
+35 | File | `admin/conf_users_edit.php` | High
+36 | ... | ... | ...
+
+There are 306 more IOA items available. Please use our online service to access the data.
 
 ## References
 

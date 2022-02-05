@@ -19,8 +19,12 @@ There are 5 more campaign items available. Please use our online service to acce
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
-* CL
-* AE
+* VN
+* IN
+* FR
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -223,7 +227,7 @@ ID | Technique | Description | Confidence
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -231,46 +235,24 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?/admin/snippet/add` | High
-2 | File | `/?admin/user.html` | High
-3 | File | `/admin.php/Foodcat/addsave` | High
-4 | File | `/admin/users/update` | High
-5 | File | `/api` | Low
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/delete_CA` | High
-8 | File | `/cgi-bin/New_GUI/Acl.asp` | High
-9 | File | `/cgi?` | Low
-10 | File | `/contentshare/image/data/user/0/com.sony.dtv.photosharingplus/files/_BRAVPSS.TMP/LJYT0010.JPG` | High
-11 | File | `/EASYIO30P-123456789012345678901234567890123456789012345678/webuser.js` | High
-12 | File | `/EASYIO30P-<session_token>/dev.htm` | High
-13 | File | `/EXCU_SHELL` | Medium
-14 | File | `/goform/systemlog?cmd=set` | High
-15 | File | `/HNAP1/SetAccessPointMode` | High
-16 | File | `/HNAP1/SetClientInfoDemo` | High
-17 | File | `/images/browserslide.jpg` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/manager?action=getlogcat` | High
-20 | File | `/mc` | Low
-21 | File | `/oauth/token/request` | High
-22 | File | `/opencms/system/workplace/admin/accounts/user_new.jsp` | High
-23 | File | `/PreviewHandler.ashx` | High
-24 | File | `/priv_mgt.html` | High
-25 | File | `/protected/vendor/codeception/codeception/tests/data/app/view/index.php` | High
-26 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
-27 | File | `/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf` | High
-28 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-29 | File | `/spap.htm` | Medium
-30 | File | `/system-info/health` | High
-31 | File | `/tmp/scfgdndf` | High
-32 | File | `/ubus/controller.icc.update_nds_webroot_from_tmp` | High
-33 | File | `/ubus/uci.apply` | High
-34 | File | `/usr/syno/etc/mount.conf` | High
-35 | File | `/var/log/groonga` | High
-36 | File | `/var/run/jboss-eap/` | High
-37 | File | `/vendors/neato/robots/[robot_serial]/messages` | High
-38 | ... | ... | ...
+1 | File | `/admin/admin_manage/delete` | High
+2 | File | `/admin/configure.php` | High
+3 | File | `/admin/delete_image.php` | High
+4 | File | `/admin/edit_page.php` | High
+5 | File | `/admin/edit_post.php` | High
+6 | File | `/admin/edit_user.php` | High
+7 | File | `/admin/functions/functions.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/administrator/components/menu/` | High
+10 | File | `/administrator/components/table_manager/` | High
+11 | File | `/Hospital-Management-System-master/func.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | File | `/yzmcms/comment/index/init.html` | High
+16 | ... | ... | ...
 
-There are 326 more IOA items available. Please use our online service to access the data.
+There are 126 more IOA items available. Please use our online service to access the data.
 
 ## References
 

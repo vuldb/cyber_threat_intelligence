@@ -19,7 +19,7 @@ These countries are directly (e.g. origin of attacks) or indirectly (e.g. access
 * IR
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,14 +33,9 @@ ID | IP address | Hostname | Confidence
 4 | 37.130.229.101 | uk.server | High
 5 | 37.220.10.28 | h37-220-10-28.host.redstation.co.uk | High
 6 | 50.115.118.140 | sfaaa.net | High
-7 | 50.115.119.172 | 327377ac.setaptr.net | High
-8 | 64.9.146.208 | - | High
-9 | 65.49.68.162 | - | High
-10 | 68.68.107.164 | - | High
-11 | 68.68.108.69 | - | High
-12 | ... | ... | ...
+7 | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,7 +66,11 @@ ID | Type | Indicator | Confidence
 8 | File | `admin.php` | Medium
 9 | File | `admin/users/add` | High
 10 | File | `administrator/components/com_media/helpers/media.php` | High
-11 | ... | ... | ...
+11 | File | `ajax-actions.php` | High
+12 | File | `ajaxRequest/methodCall.do` | High
+13 | File | `apply.cgi` | Medium
+14 | File | `BKESimmgr.exe` | High
+15 | ... | ... | ...
 
 There are 118 more IOA items available. Please use our online service to access the data.
 
@@ -90,4 +89,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

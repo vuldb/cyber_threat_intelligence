@@ -14,9 +14,9 @@ The following campaigns are known and can be associated with Inception:
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* IT
+* PL
 * SV
-* FR
+* DE
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -68,19 +68,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/usr/local/bin/mjs` | High
 14 | File | `/Videos/Id/hls/PlaylistId/SegmentId.SegmentContainer` | High
 15 | File | `/web` | Low
-16 | File | `4.edu.php\conn\function.php` | High
-17 | File | `abc.c` | Low
-18 | File | `admin/bad.php` | High
-19 | File | `admin/dl_sendmail.php` | High
-20 | File | `admin/edit.php` | High
-21 | File | `admin/pages/useredit.php` | High
-22 | File | `AdminBaseController.class.php` | High
-23 | File | `AlertReceiver.java` | High
-24 | File | `AndroidManifest.xml` | High
-25 | File | `apc.php` | Low
+16 | File | `abc.c` | Low
+17 | File | `admin/bad.php` | High
+18 | File | `admin/dl_sendmail.php` | High
+19 | File | `admin/edit.php` | High
+20 | File | `admin/pages/useredit.php` | High
+21 | File | `AdminBaseController.class.php` | High
+22 | File | `AlertReceiver.java` | High
+23 | File | `AndroidManifest.xml` | High
+24 | File | `apc.php` | Low
+25 | File | `api/info.php` | Medium
 26 | ... | ... | ...
 
-There are 214 more IOA items available. Please use our online service to access the data.
+There are 221 more IOA items available. Please use our online service to access the data.
 
 ## References
 

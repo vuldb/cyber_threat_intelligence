@@ -26,12 +26,9 @@ ID | IP address | Hostname | Confidence
 3 | 23.56.9.181 | a23-56-9-181.deploy.static.akamaitechnologies.com | High
 4 | 23.253.126.58 | - | High
 5 | 35.231.151.7 | 7.151.231.35.bc.googleusercontent.com | Medium
-6 | 45.33.2.79 | li956-79.members.linode.com | High
-7 | 45.33.18.44 | li972-44.members.linode.com | High
-8 | 45.33.20.235 | li974-235.members.linode.com | High
-9 | ... | ... | ...
+6 | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,16 +52,9 @@ ID | Type | Indicator | Confidence
 1 | File | `/.htpasswd` | Medium
 2 | File | `/cgi-bin/nasset.cgi` | High
 3 | File | `/index.php/weblinks-categories` | High
-4 | File | `/MIME/INBOX-MM-1/` | High
-5 | File | `c:\infected.exe` | High
-6 | File | `index.php?m=activity` | High
-7 | File | `mnt_ping.cgi` | Medium
-8 | File | `rfc1035.c` | Medium
-9 | File | `signup_page.php` | High
-10 | File | `users.php` | Medium
-11 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 15 more IOA items available. Please use our online service to access the data.
+There are 24 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -81,4 +71,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

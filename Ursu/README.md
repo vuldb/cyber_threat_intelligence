@@ -8,9 +8,9 @@ Live data and more analysis capabilities are available at [https://vuldb.com/?ac
 
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ursu:
 
+* JP
 * CN
 * US
-* JP
 
 ## IOC - Indicator of Compromise
 
@@ -22,13 +22,9 @@ ID | IP address | Hostname | Confidence
 2 | 14.0.63.141 | - | High
 3 | 14.11.5.18 | M014011005018.v4.enabler.ne.jp | High
 4 | 15.11.35.18 | - | High
-5 | 23.3.13.88 | a23-3-13-88.deploy.static.akamaitechnologies.com | High
-6 | 34.117.237.239 | 239.237.117.34.bc.googleusercontent.com | Medium
-7 | 35.162.37.28 | ec2-35-162-37-28.us-west-2.compute.amazonaws.com | Medium
-8 | 44.230.33.128 | ec2-44-230-33-128.us-west-2.compute.amazonaws.com | Medium
-9 | ... | ... | ...
+5 | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +41,11 @@ These indicators of attack list the potential fragments used for technical activ
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
-2 | File | `Layout.java` | Medium
-3 | Argument | `adminUsername/adminPassword` | High
-4 | Input Value | `xxx.php[space]` | High
-5 | Pattern | `|0a|If|3a|` | Medium
+2 | File | `example_form.ajax.php/example_form.php` | High
+3 | File | `Layout.java` | Medium
+4 | ... | ... | ...
+
+There are 4 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -69,4 +66,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,23 +1,12 @@
-# ZeroAccess - Cyber Threat Intelligence
+# Zeroaccess - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [ZeroAccess](https://vuldb.com/?actor.zeroaccess). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zeroaccess](https://vuldb.com/?actor.zeroaccess). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.zeroaccess](https://vuldb.com/?actor.zeroaccess)
 
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ZeroAccess:
-
-* US
-* DE
-* CN
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of ZeroAccess.
+These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Zeroaccess.
 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
@@ -33,7 +22,7 @@ ID | IP address | Hostname | Confidence
 10 | 36.3.96.243 | static-36-3-96-243.xxxxx.svips.gol.ne.jp | High
 11 | 38.121.20.199 | - | High
 12 | 40.91.78.9 | - | High
-13 | 46.47.98.47 | 46-47-98-47.stz.ddns.bulsat.com | High
+13 | 46.47.98.47 | - | High
 14 | 46.246.253.254 | 46.246.253.254.dsl.dyn.forthnet.gr | High
 15 | 50.151.53.179 | c-50-151-53-179.hsd1.il.comcast.net | High
 16 | 52.24.23.122 | ec2-52-24-23-122.us-west-2.compute.amazonaws.com | Medium
@@ -41,42 +30,13 @@ ID | IP address | Hostname | Confidence
 18 | 52.85.144.35 | server-52-85-144-35.iad89.r.cloudfront.net | High
 19 | 54.81.163.76 | ec2-54-81-163-76.compute-1.amazonaws.com | Medium
 20 | 54.160.67.78 | ec2-54-160-67-78.compute-1.amazonaws.com | Medium
-21 | ... | ... | ...
+21 | 64.4.54.254 | - | High
+22 | 64.210.151.32 | - | High
+23 | 65.55.44.109 | - | High
+24 | 66.233.105.136 | - | High
+25 | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by ZeroAccess. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
-4 | ... | ... | ...
-
-There are 2 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ZeroAccess. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `app.py` | Low
-2 | File | `AssemblaWeb.java` | High
-3 | File | `com.PhonePe.app` | High
-4 | File | `goto.php` | Medium
-5 | File | `include.php` | Medium
-6 | File | `index.php` | Medium
-7 | File | `mmhttpdb.asp` | Medium
-8 | File | `mod_alias.c` | Medium
-9 | Library | `VERSION.dll` | Medium
-10 | Argument | `-h` | Low
-11 | ... | ... | ...
-
-There are 15 more IOA items available. Please use our online service to access the data.
+There are 96 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -92,9 +52,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

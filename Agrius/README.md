@@ -22,7 +22,7 @@ These indicators of compromise indicate associated network ressources which are 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 5.2.67.85 | mail.astrilll.com | High
-2 | 5.2.73.67 | - | High
+2 | 5.2.73.67 | brokendip.cfd | High
 3 | 37.59.236.232 | 37.59.236.232.rdns.hasaserver.com | High
 4 | ... | ... | ...
 
@@ -58,7 +58,7 @@ ID | Type | Indicator | Confidence
 9 | File | `admin.php` | Medium
 10 | ... | ... | ...
 
-There are 74 more IOA items available. Please use our online service to access the data.
+There are 75 more IOA items available. Please use our online service to access the data.
 
 ## References
 

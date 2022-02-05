@@ -1,6 +1,6 @@
 # Carbanak - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [Carbanak](https://vuldb.com/?actor.carbanak). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Carbanak](https://vuldb.com/?actor.carbanak). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.carbanak](https://vuldb.com/?actor.carbanak)
 
@@ -16,11 +16,11 @@ The following campaigns are known and can be associated with Carbanak:
 These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Carbanak:
 
 * US
-* DE
 * RU
+* SE
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,9 +48,24 @@ ID | IP address | Hostname | Confidence
 18 | 37.59.202.124 | ip124.ip-37-59-202.eu | High
 19 | 37.235.54.48 | 48.54.235.37.in-addr.arpa | High
 20 | 45.63.23.135 | 45.63.23.135.vultr.com | Medium
-21 | ... | ... | ...
+21 | 45.63.96.216 | 45.63.96.216.vultr.com | Medium
+22 | 50.62.171.62 | ip-50-62-171-62.ip.secureserver.net | High
+23 | 50.115.127.36 | 50.115.127.36.static.westdc.net | High
+24 | 50.115.127.37 | mail.ingrampartners.com | High
+25 | 51.254.95.99 | ip99.ip-51-254-95.eu | High
+26 | 51.254.95.100 | ip100.ip-51-254-95.eu | High
+27 | 55.198.6.56 | - | High
+28 | 59.55.142.171 | - | High
+29 | 60.228.38.213 | cpe-60-228-38-213.bpe6-r-962.pie.wa.bigpond.net.au | High
+30 | 61.7.219.61 | - | High
+31 | 62.75.224.229 | prag178.startdedicated.de | High
+32 | 62.210.25.121 | svgit.festivalscope.com | High
+33 | 65.19.141.199 | - | High
+34 | 66.55.133.86 | 66-55-133-86.choopa.net | High
+35 | 66.232.124.175 | customer.hivelocity.net | High
+36 | ... | ... | ...
 
-There are 155 more IOC items available. Please use our online service to access the data.
+There are 140 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,11 +76,9 @@ ID | Technique | Description | Confidence
 1 | T1059.007 | Cross Site Scripting | High
 2 | T1068 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
+4 | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,19 +86,44 @@ These indicators of attack list the potential fragments used for technical activ
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.cdrdao` | High
-2 | File | `%windir%\Internet Logs\` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `//etc/RT2870STA.dat` | High
-5 | File | `/api/addusers` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/bin/boa` | Medium
-8 | File | `/cgi-bin/hotspot-changepw.cgi` | High
-9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-10 | File | `/core/vendor/meenie/javascript-packer/example-inline.php` | High
-11 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `.htaccess` | Medium
+3 | File | `.procmailrc` | Medium
+4 | File | `/+CSCOE+/logon.html` | High
+5 | File | `/.htpasswd` | Medium
+6 | File | `//etc/RT2870STA.dat` | High
+7 | File | `/admin/index.php` | High
+8 | File | `/api/addusers` | High
+9 | File | `/cgi-bin/hotspot-changepw.cgi` | High
+10 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+11 | File | `/config/getuser` | High
+12 | File | `/filemanager/ajax_calls.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/owa/auth/logon.aspx` | High
+15 | File | `/phppath/php` | Medium
+16 | File | `/proc/self/exe` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/server-info` | Medium
+19 | File | `/server-status` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/user/jobmanage.php` | High
+22 | File | `/user/zs_elite.php` | High
+23 | File | `/usr/bin/enq` | Medium
+24 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+27 | File | `/zhndnsdisplay.cmd` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `acl.c` | Low
+30 | File | `adclick.php` | Medium
+31 | File | `add_comment.php` | High
+32 | File | `add_vhost.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/default.asp` | High
+35 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+36 | ... | ... | ...
 
-There are 615 more IOA items available. Please use our online service to access the data.
+There are 306 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -105,9 +143,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

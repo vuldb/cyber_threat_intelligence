@@ -4,17 +4,6 @@ The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.tofsee](https://vuldb.com/?actor.tofsee)
 
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tofsee:
-
-* US
-* JP
-* RU
-* ...
-
-There are 20 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Tofsee.
@@ -22,7 +11,7 @@ These indicators of compromise indicate associated network ressources which are 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 5.8.10.237 | - | High
-2 | 5.9.72.48 | static.48.72.9.5.clients.your-server.de | High
+2 | 5.9.72.48 | cpanelbk.pcready.me | High
 3 | 5.61.37.41 | - | High
 4 | 12.167.151.116 | - | High
 5 | 13.107.21.200 | - | High
@@ -40,45 +29,42 @@ ID | IP address | Hostname | Confidence
 17 | 23.216.244.163 | a23-216-244-163.deploy.static.akamaitechnologies.com | High
 18 | 31.13.65.52 | instagram-p3-shv-01-atl3.fbcdn.net | High
 19 | 31.13.65.174 | instagram-p42-shv-01-atl3.fbcdn.net | High
-20 | 34.223.6.127 | ec2-34-223-6-127.us-west-2.compute.amazonaws.com | Medium
-21 | ... | ... | ...
+20 | 31.13.93.174 | instagram-p42-shv-02-dfw5.fbcdn.net | High
+21 | 34.223.6.127 | ec2-34-223-6-127.us-west-2.compute.amazonaws.com | Medium
+22 | 37.1.217.172 | - | High
+23 | 40.76.4.15 | - | High
+24 | 40.93.207.0 | - | High
+25 | 40.93.212.0 | - | High
+26 | 40.112.72.205 | - | High
+27 | 40.113.200.201 | - | High
+28 | 43.231.4.6 | - | High
+29 | 43.231.4.7 | - | High
+30 | 45.9.20.178 | - | High
+31 | 45.9.20.187 | - | High
+32 | 45.33.83.75 | li1029-75.members.linode.com | High
+33 | 45.90.34.87 | - | High
+34 | 45.90.219.105 | vm1430047.firstbyte.club | High
+35 | 45.93.6.27 | - | High
+36 | 47.43.26.7 | pkvw-mx.msg.pkvw.co.charter.net | High
+37 | 51.81.57.58 | oxsus1lb01p.external.vadesecure.com | High
+38 | 51.158.144.223 | 51-158-144-223.rev.poneytelecom.eu | High
+39 | 51.178.207.67 | host-35d452a2.hostiman.com | High
+40 | 52.73.137.222 | cxr.mx.a.cloudfilter.net | High
+41 | 52.101.24.0 | - | High
+42 | 52.180.174.216 | - | High
+43 | 54.38.220.85 | ns1.emailverification.info | High
+44 | 62.141.42.208 | srv21237.dus4.fastwebserver.de | High
+45 | 64.98.36.4 | mx.b.hostedemail.com | High
+46 | 64.136.44.37 | mx.dca.untd.com | High
+47 | 64.136.52.37 | mx.vgs.untd.com | High
+48 | 64.233.184.26 | wa-in-f26.1e100.net | High
+49 | 64.233.186.26 | cb-in-f26.1e100.net | High
+50 | 65.9.117.69 | server-65-9-117-69.qro50.r.cloudfront.net | High
+51 | 65.9.146.69 | server-65-9-146-69.qro51.r.cloudfront.net | High
+52 | 66.102.1.26 | wb-in-f26.1e100.net | High
+53 | ... | ... | ...
 
-There are 214 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Tofsee. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | T1211 | 7PK Security Features | High
-5 | T1222 | Permission Issues | High
-6 | ... | ... | ...
-
-There are 8 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Tofsee. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `.nautilus-metafile.xml` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/blocks/blocks/edit/8` | High
-4 | File | `/admin/conferences/get-all-status/` | High
-5 | File | `/admin/login/login_check.php` | High
-6 | File | `/admin/menus/menus/edit/3` | High
-7 | File | `/admin/nodes/nodes/add/blog` | High
-8 | File | `/admin/taxonomy/vocabularies` | High
-9 | File | `/bin/goahead` | Medium
-10 | File | `/cgi/networkDiag.cgi` | High
-11 | ... | ... | ...
-
-There are 270 more IOA items available. Please use our online service to access the data.
+There are 208 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +101,8 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1105-1112.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-0107-0114.html
+* https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 
 ## Literature
 
@@ -125,4 +113,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -1,6 +1,6 @@
 # RTM - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?doc.cti) of the actor known as [RTM](https://vuldb.com/?actor.rtm). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [RTM](https://vuldb.com/?actor.rtm). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.rtm](https://vuldb.com/?actor.rtm)
 
@@ -28,23 +28,17 @@ These indicators of compromise indicate associated network ressources which are 
 ID | IP address | Hostname | Confidence
 -- | ---------- | -------- | ----------
 1 | 5.45.71.239 | parkino.net | High
-2 | 5.154.190.167 | 5-154-190-167.stephost.md | High
-3 | 5.154.190.168 | 5-154-190-168.stephost.md | High
-4 | 5.154.190.189 | 5-154-190-189.stephost.md | High
-5 | 5.154.191.57 | 5-154-191-57.stephost.md | High
-6 | 5.154.191.154 | 154.191.154.rdns.cz | High
-7 | 5.154.191.174 | stratel.org.uk | High
-8 | 5.154.191.225 | mta3.libroenlinea.es | High
+2 | 5.154.190.167 | - | High
+3 | 5.154.190.168 | - | High
+4 | 5.154.190.189 | - | High
+5 | 5.154.191.57 | - | High
+6 | 5.154.191.154 | - | High
+7 | 5.154.191.174 | - | High
+8 | 5.154.191.225 | - | High
 9 | 37.1.206.78 | - | High
-10 | 37.1.221.248 | - | High
-11 | 87.106.18.146 | - | High
-12 | 88.208.28.147 | oil8147nl.maritime-deck.com | High
-13 | 91.207.7.69 | - | High
-14 | 91.215.153.31 | s13.friendhosting.net | High
-15 | 93.170.168.218 | - | High
-16 | ... | ... | ...
+10 | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,9 +69,16 @@ ID | Type | Indicator | Confidence
 8 | File | `/PreviewHandler.ashx` | High
 9 | File | `/tmp` | Low
 10 | File | `/uncpath/` | Medium
-11 | ... | ... | ...
+11 | File | `admin/index.php` | High
+12 | File | `ampie.swf` | Medium
+13 | File | `breadcrumbs_create.php` | High
+14 | File | `category_list.php` | High
+15 | File | `chan_skinny.c` | High
+16 | File | `cms/revert-content.php` | High
+17 | File | `CMSPages/GetDocLink.ashx` | High
+18 | ... | ... | ...
 
-There are 153 more IOA items available. Please use our online service to access the data.
+There are 147 more IOA items available. Please use our online service to access the data.
 
 ## References
 
@@ -91,9 +92,9 @@ The following list contains external sources which discuss the actor and the ass
 
 The following articles explain our unique predictive cyber threat intelligence:
 
-* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?doc.cti)
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?doc.changelog) by [vuldb.com](https://vuldb.com/?doc.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?doc.faq), read the [documentation](https://vuldb.com/?doc) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

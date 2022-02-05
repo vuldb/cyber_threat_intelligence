@@ -4,17 +4,6 @@ The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of
 
 Live data and more analysis capabilities are available at [https://vuldb.com/?actor.formbook](https://vuldb.com/?actor.formbook)
 
-## Countries
-
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Formbook:
-
-* GB
-* US
-* CN
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Formbook.
@@ -41,44 +30,10 @@ ID | IP address | Hostname | Confidence
 18 | 40.77.18.167 | - | High
 19 | 40.126.26.134 | - | High
 20 | 44.227.65.245 | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | Medium
-21 | ... | ... | ...
+21 | 44.230.27.49 | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | Medium
+22 | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Formbook. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1008 | Algorithm Downgrade | High
-2 | T1040 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | Cross Site Scripting | High
-4 | T1068 | Execution with Unnecessary Privileges | High
-5 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-6 | ... | ... | ...
-
-There are 11 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Formbook. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\3CXPhone for Windows\PhoneApp` | High
-2 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-3 | File | `%PROGRAMDATA%\WrData\PKG` | High
-4 | File | `%PROGRAMFILES(X86)%\IDriveWindows` | High
-5 | File | `.git/hooks/post-update` | High
-6 | File | `.htaccess` | Medium
-7 | File | `/admin` | Low
-8 | File | `/admin/?/plugin/comment/settings` | High
-9 | File | `/admin/academic/studenview_left.php` | High
-10 | File | `/admin/admintools/tool.php` | High
-11 | ... | ... | ...
-
-There are 2064 more IOA items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +55,4 @@ The following articles explain our unique predictive cyber threat intelligence:
 
 ## License
 
-(c) [1997-2021](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
