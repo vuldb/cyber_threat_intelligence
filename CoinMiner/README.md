@@ -1,12 +1,12 @@
 # CoinMiner - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [CoinMiner](https://vuldb.com/?actor.coinminer). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [CoinMiner](https://vuldb.com/?actor.coinminer). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.coinminer](https://vuldb.com/?actor.coinminer)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.coinminer](https://vuldb.com/?actor.coinminer)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
 
 * DE
 * US
@@ -17,41 +17,41 @@ There are 3 more country items available. Please use our online service to acces
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of CoinMiner.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of CoinMiner.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.196.13.29 | 29.ip-5-196-13.eu | High
-2 | 5.196.23.240 | 240.ip-5-196-23.eu | High
-3 | 13.107.21.200 | - | High
-4 | 18.210.126.40 | ec2-18-210-126-40.compute-1.amazonaws.com | Medium
-5 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | Medium
-6 | 23.21.76.253 | ec2-23-21-76-253.compute-1.amazonaws.com | Medium
-7 | 23.21.126.66 | ec2-23-21-126-66.compute-1.amazonaws.com | Medium
-8 | 23.21.140.41 | ec2-23-21-140-41.compute-1.amazonaws.com | Medium
-9 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
-10 | 49.12.80.38 | static.38.80.12.49.clients.your-server.de | High
-11 | 49.12.80.40 | static.40.80.12.49.clients.your-server.de | High
-12 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 5.196.13.29 | 29.ip-5-196-13.eu | - | High
+2 | 5.196.23.240 | 240.ip-5-196-23.eu | - | High
+3 | 13.107.21.200 | - | - | High
+4 | 18.210.126.40 | ec2-18-210-126-40.compute-1.amazonaws.com | - | Medium
+5 | 23.21.48.44 | ec2-23-21-48-44.compute-1.amazonaws.com | - | Medium
+6 | 23.21.76.253 | ec2-23-21-76-253.compute-1.amazonaws.com | - | Medium
+7 | 23.21.126.66 | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
+8 | 23.21.140.41 | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
+9 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
+10 | 49.12.80.38 | static.38.80.12.49.clients.your-server.de | - | High
+11 | 49.12.80.40 | static.40.80.12.49.clients.your-server.de | - | High
+12 | ... | ... | ... | ...
 
 There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by CoinMiner. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by CoinMiner. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by CoinMiner. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by CoinMiner. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -94,17 +94,16 @@ ID | Type | Indicator | Confidence
 37 | File | `bios.php` | Medium
 38 | File | `cadastro_usuario.php` | High
 39 | File | `cartman.php` | Medium
-40 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-41 | File | `cgi-bin/NETGEAR_wpn824v3.cfg` | High
+40 | File | `cdf.c` | Low
+41 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
 42 | File | `cgi/actions.py` | High
-43 | File | `cgiproc` | Low
-44 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 376 more IOA items available. Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
@@ -117,7 +116,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

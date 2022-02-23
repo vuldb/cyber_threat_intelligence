@@ -1,12 +1,12 @@
 # Gh0stRAT - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gh0stRAT](https://vuldb.com/?actor.gh0strat). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gh0stRAT](https://vuldb.com/?actor.gh0strat). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.gh0strat](https://vuldb.com/?actor.gh0strat)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gh0strat](https://vuldb.com/?actor.gh0strat)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
 * US
 * VN
@@ -17,52 +17,53 @@ There are 16 more country items available. Please use our online service to acce
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Gh0stRAT.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Gh0stRAT.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 13.249.38.69 | server-13-249-38-69.iad89.r.cloudfront.net | High
-2 | 20.42.65.92 | - | High
-3 | 20.189.173.22 | - | High
-4 | 36.43.74.215 | - | High
-5 | 36.46.114.54 | - | High
-6 | 39.109.1.246 | - | High
-7 | 42.51.192.3 | - | High
-8 | 43.226.152.12 | - | High
-9 | 43.226.159.201 | - | High
-10 | 45.119.125.223 | - | High
-11 | 45.195.203.97 | - | High
-12 | 45.253.67.78 | - | High
-13 | 47.93.52.188 | - | High
-14 | 47.93.245.163 | - | High
-15 | 47.95.233.18 | - | High
-16 | 47.111.82.157 | - | High
-17 | 47.112.30.91 | - | High
-18 | 52.168.117.173 | - | High
-19 | 52.182.143.212 | - | High
-20 | 58.218.66.21 | - | High
-21 | 58.218.67.245 | - | High
-22 | 58.218.199.225 | - | High
-23 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 13.249.38.69 | server-13-249-38-69.iad89.r.cloudfront.net | - | High
+2 | 20.42.65.92 | - | - | High
+3 | 20.189.173.22 | - | - | High
+4 | 36.43.74.215 | - | - | High
+5 | 36.46.114.54 | - | - | High
+6 | 39.109.1.246 | - | - | High
+7 | 42.51.192.3 | - | - | High
+8 | 43.226.152.12 | - | - | High
+9 | 43.226.159.201 | - | - | High
+10 | 45.119.125.223 | - | - | High
+11 | 45.195.203.97 | - | - | High
+12 | 45.253.67.78 | - | - | High
+13 | 47.93.52.188 | - | - | High
+14 | 47.93.245.163 | - | - | High
+15 | 47.95.233.18 | - | - | High
+16 | 47.111.82.157 | - | - | High
+17 | 47.112.30.91 | - | - | High
+18 | 52.168.117.173 | - | - | High
+19 | 52.182.143.212 | - | - | High
+20 | 58.218.66.21 | - | - | High
+21 | 58.218.67.245 | - | - | High
+22 | 58.218.199.225 | - | - | High
+23 | 58.221.47.41 | - | - | High
+24 | ... | ... | ... | ...
 
-There are 90 more IOC items available. Please use our online service to access the data.
+There are 93 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Gh0stRAT. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Gh0stRAT. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Gh0stRAT. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Gh0stRAT. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -72,43 +73,43 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php?&m=Public&a=login` | High
 5 | File | `/ajax/networking/get_netcfg.php` | High
 6 | File | `/car.php` | Medium
-7 | File | `/concat?/%2557EB-INF/web.xml` | High
-8 | File | `/config/getuser` | High
-9 | File | `/dashboards/#` | High
-10 | File | `/data/remove` | Medium
-11 | File | `/etc/controller-agent/agent.conf` | High
-12 | File | `/etc/postfix/sender_login` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/fudforum/adm/hlplist.php` | High
-18 | File | `/GponForm/fsetup_Form` | High
-19 | File | `/log_download.cgi` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/navigate/navigate_download.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/password.html` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/rest/api/2/search` | High
-27 | File | `/s/` | Low
-28 | File | `/scripts/cpan_config` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/server-info` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/tmp/app/.env` | High
-33 | File | `/tmp/kamailio_ctl` | High
-34 | File | `/tmp/kamailio_fifo` | High
-35 | File | `/ucms/index.php?do=list_edit` | High
-36 | File | `/uncpath/` | Medium
+7 | File | `/CMD_ACCOUNT_ADMIN` | High
+8 | File | `/concat?/%2557EB-INF/web.xml` | High
+9 | File | `/config/getuser` | High
+10 | File | `/core/admin/categories.php` | High
+11 | File | `/dashboards/#` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/etc/controller-agent/agent.conf` | High
+14 | File | `/etc/postfix/sender_login` | High
+15 | File | `/etc/sudoers` | Medium
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/fudforum/adm/hlplist.php` | High
+20 | File | `/GponForm/fsetup_Form` | High
+21 | File | `/log_download.cgi` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/navigate/navigate_download.php` | High
+24 | File | `/out.php` | Medium
+25 | File | `/password.html` | High
+26 | File | `/property-list/property_view.php` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/rest/api/2/search` | High
+29 | File | `/s/` | Low
+30 | File | `/scripts/cpan_config` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/server-info` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/tmp/app/.env` | High
+35 | File | `/tmp/kamailio_ctl` | High
+36 | File | `/tmp/kamailio_fifo` | High
 37 | ... | ... | ...
 
-There are 317 more IOA items available. Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0205-0212.html
@@ -125,10 +126,12 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0107-0114.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

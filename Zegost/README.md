@@ -1,70 +1,120 @@
 # Zegost - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zegost](https://vuldb.com/?actor.zegost). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zegost](https://vuldb.com/?actor.zegost). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.zegost](https://vuldb.com/?actor.zegost)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zegost](https://vuldb.com/?actor.zegost)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zegost:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zegost:
 
 * US
 * CN
-* DE
+* RU
+* ...
+
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Zegost.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Zegost.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 14.17.74.162 | - | High
-2 | 14.113.128.7 | - | High
-3 | 14.113.128.191 | - | High
-4 | 14.210.50.189 | - | High
-5 | 14.210.91.15 | - | High
-6 | 14.210.95.203 | - | High
-7 | 14.210.98.141 | - | High
-8 | 14.210.109.122 | - | High
-9 | 14.210.222.241 | - | High
-10 | 20.210.205.20 | - | High
-11 | 23.89.5.60 | mtx77mcs683.webex.com | High
-12 | 27.40.253.131 | - | High
-13 | 43.248.201.133 | - | High
-14 | 45.35.20.197 | unassigned.psychz.net | High
-15 | 45.119.125.223 | - | High
-16 | 49.2.123.56 | - | High
-17 | 54.76.135.1 | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | Medium
-18 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 14.17.74.162 | - | - | High
+2 | 14.113.128.7 | - | - | High
+3 | 14.113.128.191 | - | - | High
+4 | 14.210.50.189 | - | - | High
+5 | 14.210.91.15 | - | - | High
+6 | 14.210.95.203 | - | - | High
+7 | 14.210.98.141 | - | - | High
+8 | 14.210.109.122 | - | - | High
+9 | 14.210.222.241 | - | - | High
+10 | 20.210.205.20 | - | - | High
+11 | 23.89.5.60 | mtx77mcs683.webex.com | - | High
+12 | 27.40.253.131 | - | - | High
+13 | 43.248.201.133 | - | - | High
+14 | 45.35.20.197 | unassigned.psychz.net | - | High
+15 | 45.119.125.223 | - | - | High
+16 | 49.2.123.56 | - | - | High
+17 | 54.76.135.1 | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
+18 | ... | ... | ... | ...
 
-There are 68 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Zegost. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Zegost. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Zegost. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Zegost. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `adclick.php` | Medium
-2 | File | `add_comment.php` | High
-3 | File | `banner_add_edit.asp` | High
-4 | File | `data/gbconfiguration.dat` | High
-5 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.env` | Low
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/admin/default.asp` | High
+5 | File | `/ajax/networking/get_netcfg.php` | High
+6 | File | `/assets/ctx` | Medium
+7 | File | `/cgi-bin/login_action.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/checkLogin.cgi` | High
+10 | File | `/cms/print.php` | High
+11 | File | `/concat?/%2557EB-INF/web.xml` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/goform/telnet` | High
+16 | File | `/login` | Low
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/navigate/navigate_download.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/p` | Low
+22 | File | `/password.html` | High
+23 | File | `/proc/ioports` | High
+24 | File | `/property-list/property_view.php` | High
+25 | File | `/rest` | Low
+26 | File | `/rest/api/2/search` | High
+27 | File | `/rom-0` | Low
+28 | File | `/s/` | Low
+29 | File | `/scripts/cpan_config` | High
+30 | File | `/services/system/setup.json` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/webconsole/APIController` | High
+33 | File | `/websocket/exec` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/_next` | Low
+37 | File | `4.edu.php\conn\function.php` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `add_comment.php` | High
+42 | File | `admin/admin.php` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/conf_users_edit.php` | High
+45 | File | `admin/dl_sendmail.php` | High
+46 | File | `admin/index.php` | High
+47 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+48 | ... | ... | ...
 
-There are 28 more IOA items available. Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0305-0312.html
@@ -78,10 +128,11 @@ The following list contains external sources which discuss the actor and the ass
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0702-0709.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1112-1119.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

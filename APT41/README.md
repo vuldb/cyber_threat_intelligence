@@ -1,19 +1,19 @@
 # APT41 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt41](https://vuldb.com/?actor.apt41)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt41](https://vuldb.com/?actor.apt41)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with APT41:
+The following _campaigns_ are known and can be associated with APT41:
 
 * CVE-2019-19781
 * MoonBounce
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT41:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT41:
 
 * US
 * CN
@@ -24,45 +24,45 @@ There are 13 more country items available. Please use our online service to acce
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT41.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT41.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.183.101.21 | bestofgy.co.uk | High
-2 | 5.183.101.114 | - | High
-3 | 5.183.103.122 | - | High
-4 | 5.188.93.132 | gcorelabs.paris.vpn015 | High
-5 | 5.188.108.22 | pol1.htjsq.com | High
-6 | 5.188.108.228 | keyvpn.warsawa | High
-7 | 5.189.222.33 | spain466.es | High
-8 | 23.67.95.153 | a23-67-95-153.deploy.static.akamaitechnologies.com | High
-9 | 43.255.191.255 | - | High
-10 | 45.76.6.149 | 45.76.6.149.vultr.com | Medium
-11 | 45.76.75.219 | 45.76.75.219.vultr.com | Medium
-12 | 45.128.132.6 | - | High
-13 | 45.128.135.15 | - | High
-14 | 45.138.157.78 | srv1.fincantleri.co | High
-15 | 61.78.62.21 | - | High
-16 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 5.183.101.21 | bestofgy.co.uk | MoonBounce | High
+2 | 5.183.101.114 | - | MoonBounce | High
+3 | 5.183.103.122 | - | MoonBounce | High
+4 | 5.188.93.132 | gcorelabs.paris.vpn015 | MoonBounce | High
+5 | 5.188.108.22 | pol1.htjsq.com | MoonBounce | High
+6 | 5.188.108.228 | xc5.exclusivacondominios.com | MoonBounce | High
+7 | 5.189.222.33 | spain466.es | MoonBounce | High
+8 | 23.67.95.153 | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
+9 | 43.255.191.255 | - | - | High
+10 | 45.76.6.149 | 45.76.6.149.vultr.com | - | Medium
+11 | 45.76.75.219 | 45.76.75.219.vultr.com | - | Medium
+12 | 45.128.132.6 | - | MoonBounce | High
+13 | 45.128.135.15 | - | MoonBounce | High
+14 | 45.138.157.78 | srv1.fincantleri.co | - | High
+15 | 61.78.62.21 | - | - | High
+16 | ... | ... | ... | ...
 
 There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by APT41. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT41. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT41. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT41. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -79,24 +79,24 @@ ID | Type | Indicator | Confidence
 11 | File | `/public/login.htm` | High
 12 | File | `/public/plugins/` | High
 13 | File | `/replication` | Medium
-14 | File | `/start-stop` | Medium
-15 | File | `/tmp/app/.env` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/WEB-INF/web.xml` | High
-19 | File | `/wp-admin/admin-ajax.php` | High
-20 | File | `/_next` | Low
-21 | File | `adclick.php` | Medium
-22 | File | `addentry.php` | Medium
-23 | File | `addrating.php` | High
-24 | File | `admin/conf_users_edit.php` | High
+14 | File | `/SASWebReportStudio/logonAndRender.do` | High
+15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+16 | File | `/start-stop` | Medium
+17 | File | `/tmp/app/.env` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/WEB-INF/web.xml` | High
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `/_next` | Low
+24 | File | `adclick.php` | Medium
 25 | ... | ... | ...
 
-There are 205 more IOA items available. Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
 * https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
@@ -113,7 +113,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

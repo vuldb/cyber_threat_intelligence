@@ -1,35 +1,39 @@
 # Finteam - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Finteam](https://vuldb.com/?actor.finteam). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Finteam](https://vuldb.com/?actor.finteam). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.finteam](https://vuldb.com/?actor.finteam)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.finteam](https://vuldb.com/?actor.finteam)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Finteam:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Finteam:
 
 * US
+* CN
+* GB
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Finteam.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Finteam.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 146.0.72.180 | - | High
-2 | 185.70.186.145 | - | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 146.0.72.180 | - | - | High
+2 | 185.70.186.145 | - | - | High
+3 | 193.109.69.5 | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Finteam. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Finteam. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Finteam. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Finteam. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -43,17 +47,18 @@ ID | Type | Indicator | Confidence
 8 | File | `category.php` | Medium
 9 | ... | ... | ...
 
-There are 65 more IOA items available. Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://research.checkpoint.com/2019/finteam-trojanized-teamviewer-against-government-targets/
 * https://www.threatminer.org/_reports/2019/FINTEAM_TrojanizedTeamViewerAgainstGovernmentTargets-CheckPointResearch.pdf#viewer.action=download
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

@@ -1,12 +1,12 @@
 # Lazarus - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lazarus](https://vuldb.com/?actor.lazarus). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lazarus](https://vuldb.com/?actor.lazarus). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.lazarus](https://vuldb.com/?actor.lazarus)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lazarus](https://vuldb.com/?actor.lazarus)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with Lazarus:
+The following _campaigns_ are known and can be associated with Lazarus:
 
 * AppleJeus
 * Fallchill
@@ -17,250 +17,243 @@ There are 5 more campaign items available. Please use our online service to acce
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * VN
-* IN
 * FR
+* IN
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Lazarus.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Lazarus.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 2.50.22.137 | - | High
-2 | 2.50.22.189 | - | High
-3 | 2.50.25.205 | - | High
-4 | 2.50.27.239 | - | High
-5 | 2.50.40.245 | - | High
-6 | 2.93.86.36 | - | High
-7 | 2.93.86.38 | - | High
-8 | 2.93.86.65 | - | High
-9 | 2.93.86.89 | - | High
-10 | 2.93.86.106 | - | High
-11 | 2.93.86.136 | - | High
-12 | 2.93.86.150 | - | High
-13 | 2.93.86.194 | - | High
-14 | 2.93.86.197 | - | High
-15 | 2.93.86.224 | - | High
-16 | 2.93.86.226 | - | High
-17 | 2.93.86.247 | - | High
-18 | 2.93.86.251 | - | High
-19 | 2.93.86.253 | - | High
-20 | 2.93.131.116 | - | High
-21 | 2.93.131.179 | - | High
-22 | 2.93.238.2 | - | High
-23 | 2.93.238.12 | - | High
-24 | 2.93.238.20 | - | High
-25 | 2.93.238.26 | - | High
-26 | 2.93.238.35 | - | High
-27 | 2.93.238.93 | - | High
-28 | 2.93.238.146 | - | High
-29 | 2.93.238.167 | - | High
-30 | 2.93.238.176 | - | High
-31 | 2.93.238.183 | - | High
-32 | 2.93.238.199 | - | High
-33 | 2.93.238.213 | - | High
-34 | 2.93.238.215 | - | High
-35 | 2.93.238.222 | - | High
-36 | 2.93.238.252 | - | High
-37 | 2.93.238.253 | - | High
-38 | 2.93.248.5 | - | High
-39 | 2.93.248.46 | - | High
-40 | 2.94.53.139 | - | High
-41 | 2.94.65.211 | - | High
-42 | 2.94.65.246 | - | High
-43 | 2.94.82.42 | - | High
-44 | 2.94.117.30 | - | High
-45 | 2.94.117.46 | - | High
-46 | 2.94.117.47 | - | High
-47 | 2.94.117.56 | - | High
-48 | 2.94.209.30 | - | High
-49 | 2.187.99.180 | - | High
-50 | 5.22.137.178 | mail.bpdl.co.uk | High
-51 | 5.22.140.93 | 5-22-140-93.host.as51043.net | High
-52 | 5.41.88.137 | - | High
-53 | 5.41.89.32 | - | High
-54 | 5.41.94.221 | - | High
-55 | 5.41.190.7 | - | High
-56 | 5.41.201.151 | - | High
-57 | 5.41.237.214 | - | High
-58 | 5.79.99.169 | nsg037-19.divide.nl | High
-59 | 5.98.91.76 | host-5-98-91-76.business.telecomitalia.it | High
-60 | 5.141.87.156 | 5-141-97-156.static-adsl.isurgut.ru | High
-61 | 5.189.190.67 | m2767.contaboserver.net | High
-62 | 5.200.154.208 | - | High
-63 | 5.200.177.218 | - | High
-64 | 5.200.191.104 | - | High
-65 | 5.200.198.10 | - | High
-66 | 5.200.202.99 | - | High
-67 | 14.102.46.3 | - | High
-68 | 14.139.125.214 | - | High
-69 | 14.140.123.179 | 14.140.123.179.static-pune-vsnl.net.in | High
-70 | 14.141.27.100 | 14.141.26.100.static-Mumbai.vsnl.net.in | High
-71 | 14.141.129.116 | 14.141.129.116.static-Delhi.vsnl.net.in | High
-72 | 14.149.149.211 | - | High
-73 | 21.252.107.198 | - | High
-74 | 23.152.0.232 | betrp-basisto.seemband.com | High
-75 | 26.165.218.44 | - | High
-76 | 27.96.110.130 | 130.110.96.27.static.m1net.com.sg | High
-77 | 27.114.187.37 | - | High
-78 | 27.123.221.66 | 66-221.fiber.net.id | High
-79 | 27.125.35.229 | - | High
-80 | 31.47.47.130 | - | High
-81 | 31.54.73.156 | host31-54-73-156.range31-54.btcentralplus.com | High
-82 | 31.54.74.176 | host31-54-74-176.range31-54.btcentralplus.com | High
-83 | 31.146.82.22 | 31-146-82-22.dsl.utg.ge | High
-84 | 31.146.136.6 | 31-146-136-6.dsl.utg.ge | High
-85 | 31.168.203.44 | bzq-203-168-31-44.red.bezeqint.net | High
-86 | 36.71.90.4 | - | High
-87 | 37.34.240.177 | - | High
-88 | 37.48.106.69 | - | High
-89 | 37.71.50.2 | 2.50.71.37.rev.sfr.net | High
-90 | 37.75.0.98 | - | High
-91 | 37.75.2.203 | - | High
-92 | 37.75.10.194 | mail.kplus.com.tr | High
-93 | 37.75.11.162 | 37-75-11-162.rdns.saglayici.net | High
-94 | 37.98.114.90 | 90.mobinnet.net | High
-95 | 37.104.24.220 | - | High
-96 | 37.104.50.144 | - | High
-97 | 37.104.67.33 | - | High
-98 | 37.105.234.200 | - | High
-99 | 37.106.115.3 | - | High
-100 | 37.143.29.10 | - | High
-101 | 37.148.209.156 | 37-148-209-156.cizgi.net.tr | High
-102 | 37.216.67.155 | - | High
-103 | 37.216.213.70 | - | High
-104 | 37.235.21.166 | - | High
-105 | 41.57.108.68 | - | High
-106 | 41.67.136.38 | netcomafrica.com | High
-107 | 41.67.136.39 | netcomafrica.com | High
-108 | 41.72.99.5 | - | High
-109 | 41.72.101.138 | - | High
-110 | 41.74.166.253 | - | High
-111 | 41.92.208.194 | - | High
-112 | 41.92.208.196 | - | High
-113 | 41.92.208.197 | - | High
-114 | 41.110.179.197 | - | High
-115 | 41.128.226.60 | - | High
-116 | 41.131.49.228 | host-41-131-49-228.static.link.com.eg | High
-117 | 41.131.164.156 | - | High
-118 | 41.134.208.234 | 41-134-208-234.dsl.mweb.co.za | High
-119 | 41.182.252.56 | ADSL-41-182-252-56.ipb.na | High
-120 | 41.205.139.34 | ADSL-41-205-139-34.ipb.na | High
-121 | 41.208.106.68 | owa.altaqnya.com.ly | High
-122 | 41.208.106.70 | dc1.Mail.dsmhlc.ly | High
-123 | 41.215.250.40 | - | High
-124 | 41.223.30.20 | host30-20.creolink.com | High
-125 | 41.224.254.90 | - | High
-126 | 43.249.216.6 | - | High
-127 | 45.33.2.79 | li956-79.members.linode.com | High
-128 | 45.33.23.183 | li977-183.members.linode.com | High
-129 | 45.56.79.23 | li929-23.members.linode.com | High
-130 | 45.79.19.196 | li1118-196.members.linode.com | High
-131 | 45.118.34.215 | - | High
-132 | 45.120.61.145 | - | High
-133 | 45.124.169.36 | - | High
-134 | 45.199.63.220 | - | High
-135 | 46.19.101.186 | ip-46-19-101-186.gnc.net | High
-136 | 46.21.147.161 | 46-21-147-161.static.hvvc.us | High
-137 | 46.52.131.102 | - | High
-138 | 46.121.242.180 | 46-121-242-180.static.012.net.il | High
-139 | 46.174.116.60 | - | High
-140 | 46.174.116.87 | - | High
-141 | 46.174.116.90 | - | High
-142 | 46.174.116.99 | - | High
-143 | 46.174.116.221 | - | High
-144 | 46.174.116.231 | - | High
-145 | 46.174.116.234 | - | High
-146 | 46.174.117.15 | - | High
-147 | 46.174.117.32 | - | High
-148 | 46.174.117.36 | - | High
-149 | 46.174.117.42 | - | High
-150 | 46.174.117.44 | - | High
-151 | 46.174.117.50 | - | High
-152 | 46.174.117.61 | - | High
-153 | 46.174.117.77 | - | High
-154 | 46.174.117.80 | - | High
-155 | 46.174.117.97 | - | High
-156 | 46.174.117.98 | - | High
-157 | 46.174.117.103 | - | High
-158 | 46.174.117.116 | - | High
-159 | 46.174.117.121 | - | High
-160 | 46.174.117.129 | - | High
-161 | 46.174.117.134 | - | High
-162 | 46.174.117.153 | - | High
-163 | 46.174.117.164 | - | High
-164 | 46.218.127.110 | reverse.completel.fr | High
-165 | 47.206.4.145 | static-47-206-4-145.srst.fl.frontiernet.net | High
-166 | 49.206.1.61 | 49.206.1.61.actcorp.in | High
-167 | 50.62.168.157 | p3nwvpweb145.shr.prod.phx3.secureserver.net | High
-168 | 50.87.144.227 | somethingaboutmarketing.com | High
-169 | 51.235.1.216 | - | High
-170 | 51.235.13.162 | - | High
-171 | 51.235.17.133 | - | High
-172 | 51.235.19.202 | - | High
-173 | 51.235.33.226 | - | High
-174 | 51.235.49.202 | - | High
-175 | 54.64.30.175 | vega.mh-tec.co.jp | High
-176 | 58.82.155.98 | 98.155.82.58.static-corp.jastel.co.th | High
-177 | 58.185.197.210 | - | High
-178 | 59.90.93.97 | static.bb.knl.59.90.93.97.bsnl.in | High
-179 | 59.90.93.138 | static.bb.knl.59.90.93.138.bsnl.in | High
-180 | 59.90.93.248 | static.bb.knl.59.90.93.248.bsnl.in | High
-181 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 2.50.22.137 | - | Hidden Cobra | High
+2 | 2.50.22.189 | - | Hidden Cobra | High
+3 | 2.50.25.205 | - | Hidden Cobra | High
+4 | 2.50.27.239 | - | Hidden Cobra | High
+5 | 2.50.40.245 | - | Hidden Cobra | High
+6 | 2.93.86.36 | - | Hidden Cobra | High
+7 | 2.93.86.38 | - | Hidden Cobra | High
+8 | 2.93.86.65 | - | Hidden Cobra | High
+9 | 2.93.86.89 | - | Hidden Cobra | High
+10 | 2.93.86.106 | - | Hidden Cobra | High
+11 | 2.93.86.136 | - | Hidden Cobra | High
+12 | 2.93.86.150 | - | Hidden Cobra | High
+13 | 2.93.86.194 | - | Hidden Cobra | High
+14 | 2.93.86.197 | - | Hidden Cobra | High
+15 | 2.93.86.224 | - | Hidden Cobra | High
+16 | 2.93.86.226 | - | Hidden Cobra | High
+17 | 2.93.86.247 | - | Hidden Cobra | High
+18 | 2.93.86.251 | - | Hidden Cobra | High
+19 | 2.93.86.253 | - | Hidden Cobra | High
+20 | 2.93.131.116 | - | Hidden Cobra | High
+21 | 2.93.131.179 | - | Hidden Cobra | High
+22 | 2.93.238.2 | - | Hidden Cobra | High
+23 | 2.93.238.12 | - | Hidden Cobra | High
+24 | 2.93.238.20 | - | Hidden Cobra | High
+25 | 2.93.238.26 | - | Hidden Cobra | High
+26 | 2.93.238.35 | - | Hidden Cobra | High
+27 | 2.93.238.93 | - | Hidden Cobra | High
+28 | 2.93.238.146 | - | Hidden Cobra | High
+29 | 2.93.238.167 | - | Hidden Cobra | High
+30 | 2.93.238.176 | - | Hidden Cobra | High
+31 | 2.93.238.183 | - | Hidden Cobra | High
+32 | 2.93.238.199 | - | Hidden Cobra | High
+33 | 2.93.238.213 | - | Hidden Cobra | High
+34 | 2.93.238.215 | - | Hidden Cobra | High
+35 | 2.93.238.222 | - | Hidden Cobra | High
+36 | 2.93.238.252 | - | Hidden Cobra | High
+37 | 2.93.238.253 | - | Hidden Cobra | High
+38 | 2.93.248.5 | - | Hidden Cobra | High
+39 | 2.93.248.46 | - | Hidden Cobra | High
+40 | 2.94.53.139 | - | Hidden Cobra | High
+41 | 2.94.65.211 | - | Hidden Cobra | High
+42 | 2.94.65.246 | - | Hidden Cobra | High
+43 | 2.94.82.42 | - | Hidden Cobra | High
+44 | 2.94.117.30 | - | Hidden Cobra | High
+45 | 2.94.117.46 | - | Hidden Cobra | High
+46 | 2.94.117.47 | - | Hidden Cobra | High
+47 | 2.94.117.56 | - | Hidden Cobra | High
+48 | 2.94.209.30 | - | Hidden Cobra | High
+49 | 2.187.99.180 | - | Hidden Cobra | High
+50 | 5.22.137.178 | mail.bpdl.co.uk | Hidden Cobra | High
+51 | 5.22.140.93 | 5-22-140-93.host.as51043.net | Hidden Cobra | High
+52 | 5.41.88.137 | - | Hidden Cobra | High
+53 | 5.41.89.32 | - | Hidden Cobra | High
+54 | 5.41.94.221 | - | Hidden Cobra | High
+55 | 5.41.190.7 | - | Hidden Cobra | High
+56 | 5.41.201.151 | - | Hidden Cobra | High
+57 | 5.41.237.214 | - | Hidden Cobra | High
+58 | 5.79.99.169 | nsg037-19.divide.nl | Fallchill | High
+59 | 5.98.91.76 | host-5-98-91-76.business.telecomitalia.it | Hidden Cobra | High
+60 | 5.141.87.156 | 5-141-97-156.static-adsl.isurgut.ru | Hidden Cobra | High
+61 | 5.189.190.67 | m2767.contaboserver.net | Hidden Cobra | High
+62 | 5.200.154.208 | - | Hidden Cobra | High
+63 | 5.200.177.218 | - | Hidden Cobra | High
+64 | 5.200.191.104 | - | Hidden Cobra | High
+65 | 5.200.198.10 | - | Hidden Cobra | High
+66 | 5.200.202.99 | - | Hidden Cobra | High
+67 | 14.102.46.3 | - | Volgmer | High
+68 | 14.139.125.214 | - | Volgmer | High
+69 | 14.140.123.179 | 14.140.123.179.static-pune-vsnl.net.in | Hidden Cobra | High
+70 | 14.141.27.100 | 14.141.26.100.static-Mumbai.vsnl.net.in | Hidden Cobra | High
+71 | 14.141.129.116 | 14.141.129.116.static-Delhi.vsnl.net.in | Volgmer | High
+72 | 14.149.149.211 | - | Hidden Cobra | High
+73 | 21.252.107.198 | - | Hoplight | High
+74 | 23.152.0.232 | betrp-basisto.seemband.com | - | High
+75 | 26.165.218.44 | - | Hoplight | High
+76 | 27.96.110.130 | 130.110.96.27.static.m1net.com.sg | Hidden Cobra | High
+77 | 27.114.187.37 | - | Volgmer | High
+78 | 27.123.221.66 | 66-221.fiber.net.id | Fallchill | High
+79 | 27.125.35.229 | - | Hidden Cobra | High
+80 | 31.47.47.130 | - | Hidden Cobra | High
+81 | 31.54.73.156 | host31-54-73-156.range31-54.btcentralplus.com | Hidden Cobra | High
+82 | 31.54.74.176 | host31-54-74-176.range31-54.btcentralplus.com | Hidden Cobra | High
+83 | 31.146.82.22 | 31-146-82-22.dsl.utg.ge | Volgmer | High
+84 | 31.146.136.6 | 31-146-136-6.dsl.utg.ge | Hidden Cobra | High
+85 | 31.168.203.44 | bzq-203-168-31-44.red.bezeqint.net | Hidden Cobra | High
+86 | 36.71.90.4 | - | Fallchill | High
+87 | 37.34.240.177 | - | Hidden Cobra | High
+88 | 37.48.106.69 | high-convey.blockother.com | Hidden Cobra | High
+89 | 37.71.50.2 | 2.50.71.37.rev.sfr.net | Hidden Cobra | High
+90 | 37.75.0.98 | - | Hidden Cobra | High
+91 | 37.75.2.203 | - | Hidden Cobra | High
+92 | 37.75.10.194 | mail.kplus.com.tr | Hidden Cobra | High
+93 | 37.75.11.162 | 37-75-11-162.rdns.saglayici.net | Hidden Cobra | High
+94 | 37.98.114.90 | 90.mobinnet.net | Volgmer | High
+95 | 37.104.24.220 | - | Hidden Cobra | High
+96 | 37.104.50.144 | - | Hidden Cobra | High
+97 | 37.104.67.33 | - | Hidden Cobra | High
+98 | 37.105.234.200 | - | Hidden Cobra | High
+99 | 37.106.115.3 | - | Hidden Cobra | High
+100 | 37.143.29.10 | - | Hidden Cobra | High
+101 | 37.148.209.156 | 37-148-209-156.cizgi.net.tr | Hidden Cobra | High
+102 | 37.216.67.155 | - | Volgmer | High
+103 | 37.216.213.70 | - | Hidden Cobra | High
+104 | 37.235.21.166 | - | Volgmer | High
+105 | 37.238.135.70 | - | - | High
+106 | 41.57.108.68 | - | Hidden Cobra | High
+107 | 41.67.136.38 | netcomafrica.com | Hidden Cobra | High
+108 | 41.67.136.39 | netcomafrica.com | Hidden Cobra | High
+109 | 41.72.99.5 | - | Hidden Cobra | High
+110 | 41.72.101.138 | - | Hidden Cobra | High
+111 | 41.74.166.253 | - | Hidden Cobra | High
+112 | 41.92.208.194 | - | Fallchill | High
+113 | 41.92.208.196 | - | Fallchill | High
+114 | 41.92.208.197 | - | Fallchill | High
+115 | 41.110.179.197 | - | Hidden Cobra | High
+116 | 41.128.226.60 | - | Hidden Cobra | High
+117 | 41.131.49.228 | host-41-131-49-228.static.link.com.eg | Hidden Cobra | High
+118 | 41.131.164.156 | - | Hidden Cobra | High
+119 | 41.134.208.234 | 41-134-208-234.dsl.mweb.co.za | Hidden Cobra | High
+120 | 41.182.252.56 | ADSL-41-182-252-56.ipb.na | Hidden Cobra | High
+121 | 41.205.139.34 | ADSL-41-205-139-34.ipb.na | Hidden Cobra | High
+122 | 41.208.106.68 | owa.altaqnya.com.ly | Hidden Cobra | High
+123 | 41.208.106.70 | dc1.Mail.dsmhlc.ly | Hidden Cobra | High
+124 | 41.215.250.40 | - | Hidden Cobra | High
+125 | 41.223.30.20 | host30-20.creolink.com | Hidden Cobra | High
+126 | 41.224.254.90 | - | Hidden Cobra | High
+127 | 43.249.216.6 | - | Volgmer | High
+128 | 45.33.2.79 | li956-79.members.linode.com | AppleJeus | High
+129 | 45.33.23.183 | li977-183.members.linode.com | AppleJeus | High
+130 | 45.56.79.23 | li929-23.members.linode.com | AppleJeus | High
+131 | 45.79.19.196 | li1118-196.members.linode.com | AppleJeus | High
+132 | 45.118.34.215 | - | Volgmer | High
+133 | 45.120.61.145 | - | Hidden Cobra | High
+134 | 45.124.169.36 | - | Volgmer | High
+135 | 45.199.63.220 | - | AppleJeus | High
+136 | 46.19.101.186 | ip-46-19-101-186.gnc.net | Hidden Cobra | High
+137 | 46.21.147.161 | 46-21-147-161.static.hvvc.us | - | High
+138 | 46.52.131.102 | - | Hidden Cobra | High
+139 | 46.121.242.180 | 46-121-242-180.static.012.net.il | Hidden Cobra | High
+140 | 46.174.116.60 | - | Hidden Cobra | High
+141 | 46.174.116.87 | - | Hidden Cobra | High
+142 | 46.174.116.90 | - | Hidden Cobra | High
+143 | 46.174.116.99 | - | Hidden Cobra | High
+144 | 46.174.116.221 | - | Hidden Cobra | High
+145 | 46.174.116.231 | - | Hidden Cobra | High
+146 | 46.174.116.234 | - | Hidden Cobra | High
+147 | 46.174.117.15 | - | Hidden Cobra | High
+148 | 46.174.117.32 | - | Hidden Cobra | High
+149 | 46.174.117.36 | - | Hidden Cobra | High
+150 | 46.174.117.42 | - | Hidden Cobra | High
+151 | 46.174.117.44 | - | Hidden Cobra | High
+152 | 46.174.117.50 | - | Hidden Cobra | High
+153 | 46.174.117.61 | - | Hidden Cobra | High
+154 | 46.174.117.77 | - | Hidden Cobra | High
+155 | 46.174.117.80 | - | Hidden Cobra | High
+156 | 46.174.117.97 | - | Hidden Cobra | High
+157 | 46.174.117.98 | - | Hidden Cobra | High
+158 | 46.174.117.103 | - | Hidden Cobra | High
+159 | 46.174.117.116 | - | Hidden Cobra | High
+160 | 46.174.117.121 | - | Hidden Cobra | High
+161 | 46.174.117.129 | - | Hidden Cobra | High
+162 | 46.174.117.134 | - | Hidden Cobra | High
+163 | 46.174.117.153 | - | Hidden Cobra | High
+164 | 46.174.117.164 | - | Hidden Cobra | High
+165 | 46.218.127.110 | reverse.completel.fr | Hidden Cobra | High
+166 | 47.206.4.145 | static-47-206-4-145.srst.fl.frontiernet.net | Hoplight | High
+167 | 49.206.1.61 | 49.206.1.61.actcorp.in | Hidden Cobra | High
+168 | 50.62.168.157 | p3nwvpweb145.shr.prod.phx3.secureserver.net | Fallchill | High
+169 | 50.87.144.227 | somethingaboutmarketing.com | - | High
+170 | 51.235.1.216 | - | Hidden Cobra | High
+171 | 51.235.13.162 | - | Hidden Cobra | High
+172 | 51.235.17.133 | - | Hidden Cobra | High
+173 | 51.235.19.202 | - | Hidden Cobra | High
+174 | 51.235.33.226 | - | Hidden Cobra | High
+175 | 51.235.49.202 | - | Hidden Cobra | High
+176 | 54.64.30.175 | vega.mh-tec.co.jp | - | High
+177 | 58.82.155.98 | 98.155.82.58.static-corp.jastel.co.th | Volgmer | High
+178 | 58.185.197.210 | - | Volgmer | High
+179 | 59.90.93.97 | static.bb.knl.59.90.93.97.bsnl.in | Typeframe | High
+180 | 59.90.93.138 | static.bb.knl.59.90.93.138.bsnl.in | Fallchill | High
+181 | ... | ... | ... | ...
 
-There are 718 more IOC items available. Please use our online service to access the data.
+There are 720 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Lazarus. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Lazarus. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lazarus. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lazarus. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_manage/delete` | High
-2 | File | `/admin/configure.php` | High
-3 | File | `/admin/delete_image.php` | High
-4 | File | `/admin/edit_page.php` | High
-5 | File | `/admin/edit_post.php` | High
-6 | File | `/admin/edit_user.php` | High
-7 | File | `/admin/functions/functions.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/administrator/components/menu/` | High
-10 | File | `/administrator/components/table_manager/` | High
-11 | File | `/Hospital-Management-System-master/func.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/bin/pkexec` | High
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `/yzmcms/comment/index/init.html` | High
-16 | ... | ... | ...
+1 | File | `/admin.add` | Medium
+2 | File | `/BindAccount/SuccessTips.js` | High
+3 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+4 | File | `/exponentcms/administration/configure_site` | High
+5 | File | `/goform/setIPv6Status` | High
+6 | File | `/main?cmd=invalid_browser` | High
+7 | File | `/mobile_seal/get_seal.php` | High
+8 | ... | ... | ...
 
-There are 126 more IOA items available. Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/blackorbird/APT_REPORT/tree/master/lazarus
 * https://labs.f-secure.com/assets/BlogFiles/f-secureLABS-tlp-white-lazarus-threat-intel-report2.pdf
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/07180244/Lazarus_Under_The_Hood_PDF_final.pdf
+* https://research.checkpoint.com/2019/north-korea-turns-against-russian-targets/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/alerts/TA17-164A
 * https://us-cert.cisa.gov/ncas/alerts/TA17-318A
@@ -278,7 +271,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

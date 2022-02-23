@@ -1,104 +1,102 @@
 # APT34 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT34](https://vuldb.com/?actor.apt34). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT34](https://vuldb.com/?actor.apt34). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt34](https://vuldb.com/?actor.apt34)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt34](https://vuldb.com/?actor.apt34)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT34:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT34:
 
-* US
-* IR
-* CN
+* [NL](https://vuldb.com/?country.nl)
+* [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT34.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT34.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 23.19.226.69 | - | High
-2 | 23.106.215.76 | - | High
-3 | 23.227.201.6 | 23-227-201-6.static.hvvc.us | High
-4 | 38.132.124.153 | - | High
-5 | 46.4.69.52 | static.52.69.4.46.clients.your-server.de | High
-6 | 46.105.221.247 | - | High
-7 | 46.105.251.42 | ip42.ip-46-105-251.eu | High
-8 | 46.165.246.196 | - | High
-9 | 70.36.107.34 | - | High
-10 | 74.91.19.108 | - | High
-11 | 74.91.19.122 | - | High
-12 | 80.82.79.221 | - | High
-13 | 80.82.79.240 | - | High
-14 | 81.17.56.249 | - | High
-15 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [23.19.226.69](https://vuldb.com/?ip.23.19.226.69) | - | - | High
+2 | [23.106.215.76](https://vuldb.com/?ip.23.106.215.76) | - | - | High
+3 | [23.227.201.6](https://vuldb.com/?ip.23.227.201.6) | 23-227-201-6.static.hvvc.us | - | High
+4 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
+5 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
+6 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
+7 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
+8 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
+9 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
+10 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
+11 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
+12 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
+13 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
+14 | [81.17.56.249](https://vuldb.com/?ip.81.17.56.249) | - | - | High
+15 | ... | ... | ... | ...
 
 There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by APT34. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT34. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT34. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT34. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php` | High
-2 | File | `/bdswebui/assignusers/` | High
-3 | File | `/bin/goahead` | Medium
-4 | File | `/cgi-bin/luci` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/dev/dri/card1` | High
-7 | File | `/etc/fstab` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-11 | File | `/HNAP1` | Low
-12 | File | `/horde/util/go.php` | High
-13 | File | `/includes/rrdtool.inc.php` | High
-14 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-15 | File | `/login` | Low
-16 | File | `/monitoring` | Medium
-17 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-18 | File | `/proc/#####/fd/3` | High
-19 | File | `/proc/ioports` | High
-20 | File | `/rom-0` | Low
-21 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `adclick.php` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `add_edit_user.asp` | High
-28 | File | `add_to_cart.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/class-bulk-editor-list-table.php` | High
-31 | File | `admin/dl_data.php` | High
-32 | File | `admin/index.php` | High
-33 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-34 | File | `admin/system_manage/save.html` | High
-35 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/admin.php` | Medium
+4 | File | `/bdswebui/assignusers/` | High
+5 | File | `/etc/fstab` | Medium
+6 | File | `/includes/rrdtool.inc.php` | High
+7 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/NAGErrors` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/replication` | Medium
+14 | File | `/RestAPI` | Medium
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/tmp` | Low
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `actions.hsp` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `add_edit_user.asp` | High
+24 | File | `add_to_cart.php` | High
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin/config/confmgr.php` | High
+27 | File | `admin/system_manage/save.html` | High
+28 | File | `admin\model\catalog\download.php` | High
+29 | File | `ajax.php` | Medium
+30 | File | `apcupsd.pid` | Medium
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | ... | ... | ...
 
-There are 303 more IOA items available. Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/blackorbird/APT_REPORT/tree/master/APT34
 * https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/
@@ -111,7 +109,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

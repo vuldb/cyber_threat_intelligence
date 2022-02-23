@@ -1,41 +1,54 @@
 # Tortoiseshell - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tortoiseshell](https://vuldb.com/?actor.tortoiseshell). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tortoiseshell](https://vuldb.com/?actor.tortoiseshell). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.tortoiseshell](https://vuldb.com/?actor.tortoiseshell)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.tortoiseshell](https://vuldb.com/?actor.tortoiseshell)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tortoiseshell:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tortoiseshell:
 
 * US
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Tortoiseshell.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Tortoiseshell.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 64.235.39.45 | lasvegas-nv-datacenter.serverpoint.com | High
-2 | 64.235.60.123 | lasvegas-nv-datacenter.serverpoint.com | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 64.235.39.45 | lasvegas-nv-datacenter.serverpoint.com | - | High
+2 | 64.235.60.123 | lasvegas-nv-datacenter.serverpoint.com | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Tortoiseshell. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Tortoiseshell. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Tortoiseshell. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `data/gbconfiguration.dat` | High
+2 | File | `Image.php` | Medium
+3 | File | `shop.php` | Medium
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/tortoiseshell-apt-supply-chain
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

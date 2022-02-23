@@ -1,64 +1,64 @@
 # FIN6 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FIN6](https://vuldb.com/?actor.fin6). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FIN6](https://vuldb.com/?actor.fin6). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.fin6](https://vuldb.com/?actor.fin6)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.fin6](https://vuldb.com/?actor.fin6)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with FIN6:
+The following _campaigns_ are known and can be associated with FIN6:
 
 * MAZE
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN6:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN6:
 
 * DE
 * US
-* ES
+* RU
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of FIN6.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of FIN6.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.199.167.188 | - | High
-2 | 31.220.45.151 | - | High
-3 | 37.1.213.9 | - | High
-4 | 37.1.221.212 | adspect.net | High
-5 | 37.252.7.142 | - | High
-6 | 46.4.113.237 | static.237.113.4.46.clients.your-server.de | High
-7 | 46.166.173.109 | - | High
-8 | 54.39.233.188 | mail.ov120.slpmt.net | High
-9 | 62.210.136.65 | 62-210-136-65.rev.poneytelecom.eu | High
-10 | 89.105.194.236 | - | High
-11 | 91.208.184.174 | sell.mybeststore.club | High
-12 | 91.218.114.4 | - | High
-13 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 5.199.167.188 | - | MAZE | High
+2 | 31.220.45.151 | - | - | High
+3 | 37.1.213.9 | - | MAZE | High
+4 | 37.1.221.212 | adspect.net | - | High
+5 | 37.252.7.142 | - | MAZE | High
+6 | 46.4.113.237 | static.237.113.4.46.clients.your-server.de | - | High
+7 | 46.166.173.109 | - | - | High
+8 | 54.39.233.188 | mail.ov120.slpmt.net | MAZE | High
+9 | 62.210.136.65 | 62-210-136-65.rev.poneytelecom.eu | - | High
+10 | 89.105.194.236 | - | - | High
+11 | 91.208.184.174 | sell.mybeststore.club | MAZE | High
+12 | 91.218.114.4 | - | MAZE | High
+13 | ... | ... | ... | ...
 
 There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by FIN6. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by FIN6. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by FIN6. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by FIN6. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -93,33 +93,34 @@ ID | Type | Indicator | Confidence
 29 | File | `/mnt/skyeye/mode_switch.sh` | High
 30 | File | `/mybb_1806/Upload/admin/index.php` | High
 31 | File | `/oauth/token` | Medium
-32 | File | `/romfile.cfg` | Medium
-33 | File | `/scp/directory.php` | High
-34 | File | `/setSystemAdmin` | High
-35 | File | `/system/WCore/WHelper.php` | High
-36 | File | `/tmp/connlicj.bin` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/upload` | Low
-39 | File | `/userfs/bin/tcapi` | High
-40 | File | `/var/www/xms/application/config/config.php` | High
-41 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-42 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-43 | File | `/var/www/xms/cleanzip.sh` | High
-44 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-45 | File | `/websocket/exec` | High
-46 | File | `/workspaceCleanup` | High
-47 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
-48 | File | `account/gallery.php` | High
-49 | File | `add_edit_cat.asp` | High
-50 | File | `admin.htm` | Medium
-51 | File | `admin.php` | Medium
-52 | ... | ... | ...
+32 | File | `/plain` | Low
+33 | File | `/romfile.cfg` | Medium
+34 | File | `/scp/directory.php` | High
+35 | File | `/setSystemAdmin` | High
+36 | File | `/system/WCore/WHelper.php` | High
+37 | File | `/tmp/connlicj.bin` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/upload` | Low
+40 | File | `/userfs/bin/tcapi` | High
+41 | File | `/var/www/xms/application/config/config.php` | High
+42 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+43 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+44 | File | `/var/www/xms/cleanzip.sh` | High
+45 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+46 | File | `/websocket/exec` | High
+47 | File | `/workspaceCleanup` | High
+48 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
+49 | File | `account/gallery.php` | High
+50 | File | `add_edit_cat.asp` | High
+51 | File | `admin.htm` | Medium
+52 | File | `admin.php` | Medium
+53 | ... | ... | ...
 
-There are 450 more IOA items available. Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://securityintelligence.com/posts/more_eggs-anyone-threat-actor-itg08-strikes-again/
 * https://usa.visa.com/dam/VCOM/global/support-legal/documents/fin6-cybercrime-group-expands-threat-To-ecommerce-merchants.pdf
@@ -128,7 +129,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

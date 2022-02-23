@@ -1,12 +1,12 @@
 # APT33 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt33](https://vuldb.com/?actor.apt33)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt33](https://vuldb.com/?actor.apt33)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with APT33:
+The following _campaigns_ are known and can be associated with APT33:
 
 * Elfin
 * PoshC2
@@ -14,90 +14,91 @@ The following campaigns are known and can be associated with APT33:
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* FR
-* SV
 * PL
+* DE
+* FR
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT33.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT33.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.79.66.241 | - | High
-2 | 5.79.127.177 | - | High
-3 | 5.135.120.57 | - | High
-4 | 5.135.199.25 | - | High
-5 | 5.187.21.70 | - | High
-6 | 5.187.21.71 | - | High
-7 | 8.26.21.117 | 117.21.26.8.serverpronto.com | High
-8 | 8.26.21.119 | ns1.glasscitysoftware.net | High
-9 | 8.26.21.120 | ns2.glasscitysoftware.net | High
-10 | 8.26.21.220 | mail2.boldinbox.com | High
-11 | 8.26.21.221 | mail3.boldinbox.com | High
-12 | 8.26.21.222 | mail9.servidorz.com | High
-13 | 8.26.21.223 | mail5.boldinbox.com | High
-14 | 31.7.62.48 | - | High
-15 | 37.48.105.178 | - | High
-16 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 5.79.66.241 | - | Powerton | High
+2 | 5.79.127.177 | - | Elfin | High
+3 | 5.135.120.57 | - | - | High
+4 | 5.135.199.25 | - | - | High
+5 | 5.187.21.70 | - | Elfin | High
+6 | 5.187.21.71 | - | Elfin | High
+7 | 8.26.21.117 | 117.21.26.8.serverpronto.com | Elfin | High
+8 | 8.26.21.119 | ns1.glasscitysoftware.net | Elfin | High
+9 | 8.26.21.120 | ns2.glasscitysoftware.net | Elfin | High
+10 | 8.26.21.220 | mail2.boldinbox.com | Elfin | High
+11 | 8.26.21.221 | mail3.boldinbox.com | Elfin | High
+12 | 8.26.21.222 | mail9.servidorz.com | Elfin | High
+13 | 8.26.21.223 | mail5.boldinbox.com | Elfin | High
+14 | 31.7.62.48 | - | - | High
+15 | 37.48.105.178 | - | Elfin | High
+16 | ... | ... | ... | ...
 
 There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by APT33. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT33. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT33. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT33. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-2 | File | `/admin/customers.php?page=1&cID` | High
-3 | File | `/administrator/components/menu/` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/api/ZRMesh/set_ZRMesh` | High
-6 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-7 | File | `/etc/quagga` | Medium
-8 | File | `/fw/index2.do` | High
-9 | File | `/Hospital-Management-System-master/func.php` | High
-10 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-11 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-12 | File | `/jerry-core/jmem/jmem-heap.c` | High
-13 | File | `/moddable/xs/sources/xsScript.c` | High
-14 | File | `/parser/js/js-parser-expr.c` | High
-15 | File | `/preferences/tags` | High
-16 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-17 | File | `/transmission/web/` | High
-18 | File | `/uploads/exam_question/` | High
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/usr/local/bin/mjs` | High
-21 | File | `1.2.2.pl4` | Medium
-22 | File | `AccessPoint.java` | High
-23 | File | `account_sponsor_page.php` | High
-24 | File | `acknow.php` | Medium
-25 | ... | ... | ...
+1 | File | `/admin.add` | Medium
+2 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+3 | File | `/admin/customers.php?page=1&cID` | High
+4 | File | `/admin/edit_user.php` | High
+5 | File | `/administrator/components/menu/` | High
+6 | File | `/administrator/components/table_manager/` | High
+7 | File | `/api/ZRMesh/set_ZRMesh` | High
+8 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+9 | File | `/fw/index2.do` | High
+10 | File | `/Hospital-Management-System-master/contact.php` | High
+11 | File | `/Hospital-Management-System-master/func.php` | High
+12 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+13 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+14 | File | `/jerry-core/jmem/jmem-heap.c` | High
+15 | File | `/ms/cms/content/list.do` | High
+16 | File | `/orms/` | Low
+17 | File | `/parser/js/js-parser-expr.c` | High
+18 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+19 | File | `/transmission/web/` | High
+20 | File | `/uploads/exam_question/` | High
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/usr/local/bin/mjs` | High
+23 | File | `1.2.2.pl4` | Medium
+24 | File | `AccessPoint.java` | High
+25 | File | `account_sponsor_page.php` | High
+26 | ... | ... | ...
 
-There are 214 more IOA items available. Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/poshc2_apt_33.md
 * https://securelist.com/twas-the-night-before/91599/
@@ -108,7 +109,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

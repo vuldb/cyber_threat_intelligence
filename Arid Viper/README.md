@@ -1,12 +1,12 @@
 # Arid Viper - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Arid Viper](https://vuldb.com/?actor.arid_viper). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Arid Viper](https://vuldb.com/?actor.arid_viper). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.arid_viper](https://vuldb.com/?actor.arid_viper)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.arid_viper](https://vuldb.com/?actor.arid_viper)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arid Viper:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arid Viper:
 
 * US
 * DE
@@ -17,29 +17,29 @@ There are 1 more country items available. Please use our online service to acces
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Arid Viper.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Arid Viper.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 54.255.143.112 | ec2-54-255-143-112.ap-southeast-1.compute.amazonaws.com | Medium
-2 | 173.236.89.19 | 19.89.236.173.unassigned.ord.singlehop.net | High
-3 | 188.40.75.132 | static.132.75.40.188.clients.your-server.de | High
-4 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 54.255.143.112 | ec2-54-255-143-112.ap-southeast-1.compute.amazonaws.com | - | Medium
+2 | 173.236.89.19 | 19.89.236.173.unassigned.ord.singlehop.net | - | High
+3 | 188.40.75.132 | static.132.75.40.188.clients.your-server.de | - | High
+4 | ... | ... | ... | ...
 
 There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Arid Viper. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Arid Viper. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Arid Viper. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Arid Viper. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -49,18 +49,18 @@ ID | Type | Indicator | Confidence
 4 | File | `data/gbconfiguration.dat` | High
 5 | ... | ... | ...
 
-There are 25 more IOA items available. Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=operation-arid-viper-whitepaper-en.pdf&y=2015
 * https://www.threatminer.org/report.php?q=OperationAridViperSlithersBackintoView_Proofpoint.pdf&y=2015
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

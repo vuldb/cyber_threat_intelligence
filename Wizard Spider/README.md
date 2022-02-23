@@ -1,18 +1,18 @@
 # Wizard Spider - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.wizard_spider](https://vuldb.com/?actor.wizard_spider)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.wizard_spider](https://vuldb.com/?actor.wizard_spider)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with Wizard Spider:
+The following _campaigns_ are known and can be associated with Wizard Spider:
 
 * KEGTAP/SINGLEMALT
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wizard Spider:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wizard Spider:
 
 * US
 * CN
@@ -23,87 +23,87 @@ There are 24 more country items available. Please use our online service to acce
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Wizard Spider.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Wizard Spider.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 3.137.182.114 | ec2-3-137-182-114.us-east-2.compute.amazonaws.com | Medium
-2 | 5.2.64.113 | - | High
-3 | 5.2.64.133 | - | High
-4 | 5.2.64.135 | mail.chelseaf1oors.com | High
-5 | 5.2.64.144 | - | High
-6 | 5.2.64.149 | - | High
-7 | 5.2.64.167 | - | High
-8 | 5.2.64.172 | - | High
-9 | 5.2.64.174 | liteserver.netnik.eu | High
-10 | 5.2.64.182 | mx.egmose.net | High
-11 | 5.2.70.149 | - | High
-12 | 5.2.72.200 | - | High
-13 | 5.2.72.202 | pieterb.com | High
-14 | 5.2.78.118 | - | High
-15 | 5.2.79.10 | - | High
-16 | 5.2.79.12 | mail.suspicious-login-managepaypal.com | High
-17 | 5.2.79.121 | - | High
-18 | 5.2.79.122 | mailer.foliata.nl | High
-19 | 5.182.210.145 | - | High
-20 | 31.7.59.141 | - | High
-21 | 31.131.21.184 | - | High
-22 | 34.222.33.48 | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | Medium
-23 | 36.89.106.69 | - | High
-24 | 36.91.87.227 | - | High
-25 | 37.187.3.176 | ns3367168.ip-37-187-3.eu | High
-26 | 45.32.30.162 | 45.32.30.162.vultr.com | Medium
-27 | 45.32.130.5 | 45.32.130.5.vultr.com | Medium
-28 | 45.32.170.9 | 45.32.170.9.vultr.com | Medium
-29 | 45.34.6.221 | unassigned.psychz.net | High
-30 | 45.34.6.222 | unassigned.psychz.net | High
-31 | 45.34.6.223 | unassigned.psychz.net | High
-32 | 45.34.6.225 | unassigned.psychz.net | High
-33 | 45.34.6.226 | unassigned.psychz.net | High
-34 | 45.34.6.229 | mail2.dehetre.cloud | High
-35 | 45.63.95.187 | 45.63.95.187.vultr.com | Medium
-36 | 45.76.20.140 | CITADEL_MD_BENNETPOINTGENERALSTOREDELI_1241_CONVENIENCE | High
-37 | 45.76.45.162 | 45.76.45.162.vultr.com | Medium
-38 | 45.76.49.78 | 45.76.49.78.vultr.com | Medium
-39 | 45.76.167.35 | virtjunkie.com | High
-40 | 45.76.231.195 | 45.76.231.195.vultr.com | Medium
-41 | 45.77.58.172 | 45.77.58.172.vultr.com | Medium
-42 | 45.77.89.31 | 45.77.89.31.vultr.com | Medium
-43 | 45.77.98.157 | 45.77.98.157.vultr.com | Medium
-44 | 45.77.119.212 | 45.77.119.212.vultr.com | Medium
-45 | 45.77.153.72 | 45.77.153.72.vultr.com | Medium
-46 | 45.77.206.105 | 45.77.206.105.vultr.com | Medium
-47 | 45.89.127.92 | - | High
-48 | 45.138.172.95 | - | High
-49 | 45.141.84.120 | - | High
-50 | 45.141.86.84 | - | High
-51 | 45.141.86.90 | - | High
-52 | 45.141.86.91 | - | High
-53 | 45.141.86.92 | - | High
-54 | 45.141.86.93 | - | High
-55 | 45.141.86.94 | - | High
-56 | 45.141.86.95 | - | High
-57 | 45.141.86.96 | - | High
-58 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 3.137.182.114 | ec2-3-137-182-114.us-east-2.compute.amazonaws.com | - | Medium
+2 | 5.2.64.113 | - | KEGTAP/SINGLEMALT | High
+3 | 5.2.64.133 | - | KEGTAP/SINGLEMALT | High
+4 | 5.2.64.135 | mail.chelseaf1oors.com | KEGTAP/SINGLEMALT | High
+5 | 5.2.64.144 | - | KEGTAP/SINGLEMALT | High
+6 | 5.2.64.149 | - | KEGTAP/SINGLEMALT | High
+7 | 5.2.64.167 | - | KEGTAP/SINGLEMALT | High
+8 | 5.2.64.172 | - | KEGTAP/SINGLEMALT | High
+9 | 5.2.64.174 | liteserver.netnik.eu | KEGTAP/SINGLEMALT | High
+10 | 5.2.64.182 | sync.remote.mutlamap.dk | KEGTAP/SINGLEMALT | High
+11 | 5.2.70.149 | - | - | High
+12 | 5.2.72.200 | - | KEGTAP/SINGLEMALT | High
+13 | 5.2.72.202 | pieterb.com | KEGTAP/SINGLEMALT | High
+14 | 5.2.78.118 | - | - | High
+15 | 5.2.79.10 | - | KEGTAP/SINGLEMALT | High
+16 | 5.2.79.12 | mail.suspicious-login-managepaypal.com | KEGTAP/SINGLEMALT | High
+17 | 5.2.79.121 | - | KEGTAP/SINGLEMALT | High
+18 | 5.2.79.122 | mailer.foliata.nl | KEGTAP/SINGLEMALT | High
+19 | 5.182.210.145 | - | - | High
+20 | 31.7.59.141 | - | KEGTAP/SINGLEMALT | High
+21 | 31.131.21.184 | - | - | High
+22 | 34.222.33.48 | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | - | Medium
+23 | 36.89.106.69 | - | - | High
+24 | 36.91.87.227 | - | - | High
+25 | 37.187.3.176 | ns3367168.ip-37-187-3.eu | - | High
+26 | 45.32.30.162 | 45.32.30.162.vultr.com | KEGTAP/SINGLEMALT | Medium
+27 | 45.32.130.5 | 45.32.130.5.vultr.com | KEGTAP/SINGLEMALT | Medium
+28 | 45.32.170.9 | 45.32.170.9.vultr.com | KEGTAP/SINGLEMALT | Medium
+29 | 45.34.6.221 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+30 | 45.34.6.222 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+31 | 45.34.6.223 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+32 | 45.34.6.225 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+33 | 45.34.6.226 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+34 | 45.34.6.229 | mail2.dehetre.cloud | KEGTAP/SINGLEMALT | High
+35 | 45.63.95.187 | 45.63.95.187.vultr.com | KEGTAP/SINGLEMALT | Medium
+36 | 45.76.20.140 | CITADEL_MD_BENNETPOINTGENERALSTOREDELI_1241_CONVENIENCE | KEGTAP/SINGLEMALT | High
+37 | 45.76.45.162 | 45.76.45.162.vultr.com | KEGTAP/SINGLEMALT | Medium
+38 | 45.76.49.78 | 45.76.49.78.vultr.com | KEGTAP/SINGLEMALT | Medium
+39 | 45.76.167.35 | virtjunkie.com | KEGTAP/SINGLEMALT | High
+40 | 45.76.231.195 | 45.76.231.195.vultr.com | KEGTAP/SINGLEMALT | Medium
+41 | 45.77.58.172 | 45.77.58.172.vultr.com | KEGTAP/SINGLEMALT | Medium
+42 | 45.77.89.31 | 45.77.89.31.vultr.com | KEGTAP/SINGLEMALT | Medium
+43 | 45.77.98.157 | 45.77.98.157.vultr.com | KEGTAP/SINGLEMALT | Medium
+44 | 45.77.119.212 | 45.77.119.212.vultr.com | KEGTAP/SINGLEMALT | Medium
+45 | 45.77.153.72 | 45.77.153.72.vultr.com | KEGTAP/SINGLEMALT | Medium
+46 | 45.77.206.105 | 45.77.206.105.vultr.com | KEGTAP/SINGLEMALT | Medium
+47 | 45.89.127.92 | - | - | High
+48 | 45.138.172.95 | - | KEGTAP/SINGLEMALT | High
+49 | 45.141.84.120 | - | - | High
+50 | 45.141.86.84 | - | KEGTAP/SINGLEMALT | High
+51 | 45.141.86.90 | - | KEGTAP/SINGLEMALT | High
+52 | 45.141.86.91 | - | KEGTAP/SINGLEMALT | High
+53 | 45.141.86.92 | - | KEGTAP/SINGLEMALT | High
+54 | 45.141.86.93 | - | KEGTAP/SINGLEMALT | High
+55 | 45.141.86.94 | - | KEGTAP/SINGLEMALT | High
+56 | 45.141.86.95 | - | KEGTAP/SINGLEMALT | High
+57 | 45.141.86.96 | - | KEGTAP/SINGLEMALT | High
+58 | ... | ... | ... | ...
 
 There are 229 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Wizard Spider. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Wizard Spider. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Wizard Spider. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Wizard Spider. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -156,11 +156,11 @@ ID | Type | Indicator | Confidence
 47 | File | `admin/conf_users_edit.php` | High
 48 | ... | ... | ...
 
-There are 413 more IOA items available. Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Ryuk.csv
 * https://thedfirreport.com/2020/10/08/ryuks-return/
@@ -171,7 +171,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

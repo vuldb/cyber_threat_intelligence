@@ -1,12 +1,12 @@
 # APT28 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt28](https://vuldb.com/?actor.apt28)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt28](https://vuldb.com/?actor.apt28)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with APT28:
+The following _campaigns_ are known and can be associated with APT28:
 
 * Carberp
 * Fysbis
@@ -17,7 +17,7 @@ There are 3 more campaign items available. Please use our online service to acce
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
 * NL
 * RO
@@ -28,76 +28,76 @@ There are 3 more country items available. Please use our online service to acces
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT28.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT28.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.63.153.177 | 5-63-153-177.ovz.vps.regruhosting.ru | High
-2 | 5.100.155.82 | 5.100.155-82.publicdomainregistry.com | High
-3 | 5.100.155.91 | 5.100.155-91.publicdomainregistry.com | High
-4 | 5.135.183.154 | ns3290077.ip-5-135-183.eu | High
-5 | 5.199.171.58 | - | High
-6 | 23.163.0.59 | - | High
-7 | 23.227.196.21 | 23-227-196-21.static.hvvc.us | High
-8 | 23.227.196.215 | 23-227-196-215.static.hvvc.us | High
-9 | 23.227.196.217 | 23-227-196-217.static.hvvc.us | High
-10 | 31.184.198.23 | - | High
-11 | 31.184.198.38 | - | High
-12 | 31.220.43.99 | - | High
-13 | 31.220.61.251 | - | High
-14 | 37.235.52.18 | 18.52.235.37.in-addr.arpa | High
-15 | 45.32.129.185 | 45.32.129.185.vultr.com | Medium
-16 | 45.32.227.21 | 45.32.227.21.mobiltel.mx | High
-17 | 45.64.105.23 | - | High
-18 | 45.124.132.127 | - | High
-19 | 46.19.138.66 | ab2.alchibasystems.in.net | High
-20 | 46.21.147.55 | 46-21-147-55.static.hvvc.us | High
-21 | 46.21.147.71 | 46-21-147-71.static.hvvc.us | High
-22 | 46.21.147.76 | 46-21-147-76.static.hvvc.us | High
-23 | 46.148.17.227 | - | High
-24 | 46.166.162.90 | - | High
-25 | 46.183.217.74 | ip-217-74.dataclub.info | High
-26 | 51.38.128.110 | vps-b7b05fc8.vps.ovh.net | High
-27 | 51.254.76.54 | - | High
-28 | 51.254.158.57 | - | High
-29 | 54.37.104.106 | piber.connectedlists.com | High
-30 | 58.49.58.58 | - | High
-31 | 62.113.232.197 | - | High
-32 | 66.172.11.207 | ip-66-172-11-207.chunkhost.com | High
-33 | 66.172.12.133 | ip-66-172-12-133.chunkhost.com | High
-34 | 69.12.73.174 | - | High
-35 | 70.85.221.10 | server002.nilsson-it.dk | High
-36 | 70.85.221.20 | 14.dd.5546.static.theplanet.com | High
-37 | 76.74.177.251 | ip-76-74-177-251.chunkhost.com | High
-38 | 77.81.98.122 | no-rdns.clues.ro | High
-39 | 77.83.247.81 | - | High
-40 | 78.153.151.222 | smtp33.pristavka-fr.ru | High
-41 | 80.83.115.187 | host3.smtpnoida.biz | High
-42 | 80.255.3.93 | - | High
-43 | 80.255.3.94 | set121.com | High
-44 | 80.255.6.15 | - | High
-45 | 80.255.10.236 | - | High
-46 | 81.17.30.29 | - | High
-47 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 5.63.153.177 | 5-63-153-177.ovz.vps.regruhosting.ru | - | High
+2 | 5.100.155.82 | 5.100.155-82.publicdomainregistry.com | - | High
+3 | 5.100.155.91 | 5.100.155-91.publicdomainregistry.com | - | High
+4 | 5.135.183.154 | ns3290077.ip-5-135-183.eu | Sednit | High
+5 | 5.199.171.58 | - | - | High
+6 | 23.163.0.59 | naomi.rem2d.com | - | High
+7 | 23.227.196.21 | 23-227-196-21.static.hvvc.us | - | High
+8 | 23.227.196.215 | 23-227-196-215.static.hvvc.us | - | High
+9 | 23.227.196.217 | 23-227-196-217.static.hvvc.us | - | High
+10 | 31.184.198.23 | - | - | High
+11 | 31.184.198.38 | - | - | High
+12 | 31.220.43.99 | - | Sednit | High
+13 | 31.220.61.251 | - | - | High
+14 | 37.235.52.18 | 18.52.235.37.in-addr.arpa | - | High
+15 | 45.32.129.185 | 45.32.129.185.vultr.com | - | Medium
+16 | 45.32.227.21 | 45.32.227.21.mobiltel.mx | - | High
+17 | 45.64.105.23 | - | - | High
+18 | 45.124.132.127 | - | - | High
+19 | 46.19.138.66 | ab2.alchibasystems.in.net | - | High
+20 | 46.21.147.55 | 46-21-147-55.static.hvvc.us | - | High
+21 | 46.21.147.71 | 46-21-147-71.static.hvvc.us | - | High
+22 | 46.21.147.76 | 46-21-147-76.static.hvvc.us | - | High
+23 | 46.148.17.227 | - | - | High
+24 | 46.166.162.90 | - | Pawn Storm | High
+25 | 46.183.217.74 | ip-217-74.dataclub.info | Pawn Storm | High
+26 | 51.38.128.110 | vps-0a3489af.vps.ovh.net | - | High
+27 | 51.254.76.54 | - | - | High
+28 | 51.254.158.57 | - | - | High
+29 | 54.37.104.106 | piber.connectedlists.com | - | High
+30 | 58.49.58.58 | - | - | High
+31 | 62.113.232.197 | - | - | High
+32 | 66.172.11.207 | ip-66-172-11-207.chunkhost.com | Carberp | High
+33 | 66.172.12.133 | - | - | High
+34 | 69.12.73.174 | 69.12.73.174.static.quadranet.com | Sednit | High
+35 | 70.85.221.10 | server002.nilsson-it.dk | - | High
+36 | 70.85.221.20 | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+37 | 76.74.177.251 | ip-76-74-177-251.chunkhost.com | - | High
+38 | 77.81.98.122 | no-rdns.clues.ro | - | High
+39 | 77.83.247.81 | - | Global Brute Force | High
+40 | 78.153.151.222 | smtp33.pristavka-fr.ru | - | High
+41 | 80.83.115.187 | host3.smtpnoida.biz | - | High
+42 | 80.255.3.93 | - | - | High
+43 | 80.255.3.94 | set121.com | - | High
+44 | 80.255.6.15 | - | - | High
+45 | 80.255.10.236 | - | - | High
+46 | 81.17.30.29 | - | - | High
+47 | ... | ... | ... | ...
 
 There are 184 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by APT28. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT28. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT28. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT28. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -134,14 +134,13 @@ ID | Type | Indicator | Confidence
 31 | File | `api/v1/alarms` | High
 32 | File | `application/controller/InstallerController.php` | High
 33 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-34 | File | `arformcontroller.php` | High
-35 | ... | ... | ...
+34 | ... | ... | ...
 
-There are 297 more IOA items available. Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-05-ioc-mark.txt
@@ -178,7 +177,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

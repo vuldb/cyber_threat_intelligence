@@ -1,51 +1,51 @@
 # Razy - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Razy](https://vuldb.com/?actor.razy). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Razy](https://vuldb.com/?actor.razy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.razy](https://vuldb.com/?actor.razy)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.razy](https://vuldb.com/?actor.razy)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Razy.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Razy.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 8.248.157.254 | - | High
-2 | 8.248.161.254 | - | High
-3 | 8.249.223.254 | - | High
-4 | 8.249.241.254 | - | High
-5 | 14.215.177.34 | - | High
-6 | 23.3.13.154 | a23-3-13-154.deploy.static.akamaitechnologies.com | High
-7 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | Medium
-8 | 35.205.61.67 | 67.61.205.35.bc.googleusercontent.com | Medium
-9 | 37.187.179.73 | vps-48dadaca.vps.ovh.net | High
-10 | 37.228.108.132 | lati.autoupdate.opera.com | High
-11 | 40.76.4.15 | - | High
-12 | 40.112.72.205 | - | High
-13 | 40.113.200.201 | - | High
-14 | 45.139.236.6 | - | High
-15 | 47.91.170.222 | - | High
-16 | 50.19.96.218 | ec2-50-19-96-218.compute-1.amazonaws.com | Medium
-17 | 52.232.252.84 | - | High
-18 | 54.225.155.11 | ec2-54-225-155-11.compute-1.amazonaws.com | Medium
-19 | 54.225.157.230 | ec2-54-225-157-230.compute-1.amazonaws.com | Medium
-20 | 54.225.165.85 | ec2-54-225-165-85.compute-1.amazonaws.com | Medium
-21 | 58.215.145.98 | - | High
-22 | 58.215.145.108 | - | High
-23 | 58.216.118.224 | - | High
-24 | 58.216.118.225 | - | High
-25 | 58.216.118.228 | - | High
-26 | 58.216.118.229 | - | High
-27 | 61.160.228.205 | - | High
-28 | 72.21.81.240 | - | High
-29 | 74.117.178.19 | - | High
-30 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | 8.248.157.254 | - | - | High
+2 | 8.248.161.254 | - | - | High
+3 | 8.249.223.254 | - | - | High
+4 | 8.249.241.254 | - | - | High
+5 | 14.215.177.34 | - | - | High
+6 | 23.3.13.154 | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+7 | 23.21.252.4 | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
+8 | 35.205.61.67 | 67.61.205.35.bc.googleusercontent.com | - | Medium
+9 | 37.187.179.73 | vps-48dadaca.vps.ovh.net | - | High
+10 | 37.228.108.132 | lati.autoupdate.opera.com | - | High
+11 | 40.76.4.15 | - | - | High
+12 | 40.112.72.205 | - | - | High
+13 | 40.113.200.201 | - | - | High
+14 | 45.139.236.6 | - | - | High
+15 | 47.91.170.222 | - | - | High
+16 | 50.19.96.218 | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
+17 | 52.232.252.84 | - | - | High
+18 | 54.225.155.11 | ec2-54-225-155-11.compute-1.amazonaws.com | - | Medium
+19 | 54.225.157.230 | ec2-54-225-157-230.compute-1.amazonaws.com | - | Medium
+20 | 54.225.165.85 | ec2-54-225-165-85.compute-1.amazonaws.com | - | Medium
+21 | 58.215.145.98 | - | - | High
+22 | 58.215.145.108 | - | - | High
+23 | 58.216.118.224 | - | - | High
+24 | 58.216.118.225 | - | - | High
+25 | 58.216.118.228 | - | - | High
+26 | 58.216.118.229 | - | - | High
+27 | 61.160.228.205 | - | - | High
+28 | 72.21.81.240 | - | - | High
+29 | 74.117.178.19 | - | - | High
+30 | ... | ... | ... | ...
 
 There are 114 more IOC items available. Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2020/09/threat-roundup-0904-0911.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
@@ -71,7 +71,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

@@ -1,33 +1,33 @@
 # APT15 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT15](https://vuldb.com/?actor.apt15). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT15](https://vuldb.com/?actor.apt15). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt15](https://vuldb.com/?actor.apt15)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt15](https://vuldb.com/?actor.apt15)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with APT15:
+The following _campaigns_ are known and can be associated with APT15:
 
 * Ke3chang
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT15.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT15.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 61.128.110.38 | - | High
-2 | 180.149.252.181 | - | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [61.128.110.38](https://vuldb.com/?ip.61.128.110.38) | - | Ke3chang | High
+2 | [180.149.252.181](https://vuldb.com/?ip.180.149.252.181) | - | Ke3chang | High
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=XSLCmd_OSX.pdf&y=2014
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
