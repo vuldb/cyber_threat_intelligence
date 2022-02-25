@@ -1,6 +1,6 @@
 # Cobalt Group - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Cobalt Group](https://vuldb.com/?actor.cobalt_group). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Cobalt Group](https://vuldb.com/?actor.cobalt_group). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.cobalt_group](https://vuldb.com/?actor.cobalt_group)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* IT
-* DE
-* SV
+* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -21,10 +21,10 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.45.66.161 | - | - | High
-2 | 5.135.237.216 | - | - | High
-3 | 23.152.0.210 | nordns.crowncloud.net | - | High
-4 | 23.249.164.26 | - | - | High
+1 | [5.45.66.161](https://vuldb.com/?ip.5.45.66.161) | - | - | High
+2 | [5.135.237.216](https://vuldb.com/?ip.5.135.237.216) | - | - | High
+3 | [23.152.0.210](https://vuldb.com/?ip.23.152.0.210) | nordns.crowncloud.net | - | High
+4 | [23.249.164.26](https://vuldb.com/?ip.23.249.164.26) | - | - | High
 5 | ... | ... | ... | ...
 
 There are 16 more IOC items available. Please use our online service to access the data.
@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techn
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,29 +51,28 @@ ID | Type | Indicator | Confidence
 1 | File | `/account/login` | High
 2 | File | `/admin.back` | Medium
 3 | File | `/admin.html?do=user&act=add` | High
-4 | File | `/admin/index.php/template/edit` | High
-5 | File | `/administrator/components/menu/` | High
-6 | File | `/controller/CommentAdminController.java` | High
-7 | File | `/event-management/index.php` | High
-8 | File | `/goform/change_password_process` | High
-9 | File | `/goform/edit_opt` | High
-10 | File | `/hdf5/src/H5Fint.c` | High
-11 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-12 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-13 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-14 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-15 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-16 | File | `/src/njs_object.c` | High
-17 | File | `/template/unzip.do` | High
-18 | File | `/wp-json/wc/v3/webhooks` | High
-19 | File | `AccountManagerService.java` | High
-20 | File | `account_sponsor_page.php` | High
-21 | File | `act.php` | Low
-22 | File | `adduser.do` | Medium
-23 | File | `admin.php` | Medium
-24 | ... | ... | ...
+4 | File | `/administrator/components/menu/` | High
+5 | File | `/controller/CommentAdminController.java` | High
+6 | File | `/event-management/index.php` | High
+7 | File | `/goform/change_password_process` | High
+8 | File | `/goform/edit_opt` | High
+9 | File | `/hdf5/src/H5Fint.c` | High
+10 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+11 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+12 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+13 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+14 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+15 | File | `/src/njs_object.c` | High
+16 | File | `/template/unzip.do` | High
+17 | File | `/wp-json/wc/v3/webhooks` | High
+18 | File | `AccountManagerService.java` | High
+19 | File | `account_sponsor_page.php` | High
+20 | File | `act.php` | Low
+21 | File | `adduser.do` | Medium
+22 | File | `admin.php` | Medium
+23 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

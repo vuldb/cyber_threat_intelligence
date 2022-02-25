@@ -1,6 +1,6 @@
 # Prophet Spider - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Prophet Spider](https://vuldb.com/?actor.prophet_spider). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Prophet Spider](https://vuldb.com/?actor.prophet_spider). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.prophet_spider](https://vuldb.com/?actor.prophet_spider)
 
@@ -60,26 +60,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/allergens/edit/1` | High
-2 | File | `/admin/delete_image.php` | High
-3 | File | `/adminzone/index.php?page=admin-commandr` | High
-4 | File | `/core/admin/comment.php` | High
-5 | File | `/data-service/users/` | High
+2 | File | `/adminzone/index.php?page=admin-commandr` | High
+3 | File | `/core/admin/comment.php` | High
+4 | File | `/data-service/users/` | High
+5 | File | `/etc/cobbler` | Medium
 6 | File | `/etc/wpa_supplicant.conf` | High
 7 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
 8 | File | `/js/app.js` | Medium
 9 | File | `/js/js-parser.c` | High
 10 | File | `/main?cmd=invalid_browser` | High
 11 | File | `/ms/file/uploadTemplate.do` | High
-12 | File | `/options/mailman` | High
-13 | File | `/ping.html` | Medium
-14 | File | `/projeqtor/tool/saveAttachment.php` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-17 | File | `/secure/admin/RestoreDefaults.jspa` | High
-18 | File | `/src/njs_object.c` | High
-19 | ... | ... | ...
+12 | File | `/northstar/Admin/changePassword.jsp` | High
+13 | File | `/options/mailman` | High
+14 | File | `/ping.html` | Medium
+15 | File | `/projeqtor/tool/saveAttachment.php` | High
+16 | File | `/SASWebReportStudio/logonAndRender.do` | High
+17 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+18 | File | `/secure/admin/RestoreDefaults.jspa` | High
+19 | File | `/src/njs_object.c` | High
+20 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
