@@ -1,6 +1,6 @@
 # APT28 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT28](https://vuldb.com/?actor.apt28). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt28](https://vuldb.com/?actor.apt28)
 
@@ -19,9 +19,9 @@ There are 3 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT28:
 
-* NL
-* RO
-* US
+* [NL](https://vuldb.com/?country.nl)
+* [RO](https://vuldb.com/?country.ro)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -32,52 +32,52 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.63.153.177 | 5-63-153-177.ovz.vps.regruhosting.ru | - | High
-2 | 5.100.155.82 | 5.100.155-82.publicdomainregistry.com | - | High
-3 | 5.100.155.91 | 5.100.155-91.publicdomainregistry.com | - | High
-4 | 5.135.183.154 | ns3290077.ip-5-135-183.eu | Sednit | High
-5 | 5.199.171.58 | - | - | High
-6 | 23.163.0.59 | naomi.rem2d.com | - | High
-7 | 23.227.196.21 | 23-227-196-21.static.hvvc.us | - | High
-8 | 23.227.196.215 | 23-227-196-215.static.hvvc.us | - | High
-9 | 23.227.196.217 | 23-227-196-217.static.hvvc.us | - | High
-10 | 31.184.198.23 | - | - | High
-11 | 31.184.198.38 | - | - | High
-12 | 31.220.43.99 | - | Sednit | High
-13 | 31.220.61.251 | - | - | High
-14 | 37.235.52.18 | 18.52.235.37.in-addr.arpa | - | High
-15 | 45.32.129.185 | 45.32.129.185.vultr.com | - | Medium
-16 | 45.32.227.21 | 45.32.227.21.mobiltel.mx | - | High
-17 | 45.64.105.23 | - | - | High
-18 | 45.124.132.127 | - | - | High
-19 | 46.19.138.66 | ab2.alchibasystems.in.net | - | High
-20 | 46.21.147.55 | 46-21-147-55.static.hvvc.us | - | High
-21 | 46.21.147.71 | 46-21-147-71.static.hvvc.us | - | High
-22 | 46.21.147.76 | 46-21-147-76.static.hvvc.us | - | High
-23 | 46.148.17.227 | - | - | High
-24 | 46.166.162.90 | - | Pawn Storm | High
-25 | 46.183.217.74 | ip-217-74.dataclub.info | Pawn Storm | High
-26 | 51.38.128.110 | vps-0a3489af.vps.ovh.net | - | High
-27 | 51.254.76.54 | - | - | High
-28 | 51.254.158.57 | - | - | High
-29 | 54.37.104.106 | piber.connectedlists.com | - | High
-30 | 58.49.58.58 | - | - | High
-31 | 62.113.232.197 | - | - | High
-32 | 66.172.11.207 | ip-66-172-11-207.chunkhost.com | Carberp | High
-33 | 66.172.12.133 | - | - | High
-34 | 69.12.73.174 | 69.12.73.174.static.quadranet.com | Sednit | High
-35 | 70.85.221.10 | server002.nilsson-it.dk | - | High
-36 | 70.85.221.20 | 14.dd.5546.static.theplanet.com | Pawn Storm | High
-37 | 76.74.177.251 | ip-76-74-177-251.chunkhost.com | - | High
-38 | 77.81.98.122 | no-rdns.clues.ro | - | High
-39 | 77.83.247.81 | - | Global Brute Force | High
-40 | 78.153.151.222 | smtp33.pristavka-fr.ru | - | High
-41 | 80.83.115.187 | host3.smtpnoida.biz | - | High
-42 | 80.255.3.93 | - | - | High
-43 | 80.255.3.94 | set121.com | - | High
-44 | 80.255.6.15 | - | - | High
-45 | 80.255.10.236 | - | - | High
-46 | 81.17.30.29 | - | - | High
+1 | [5.63.153.177](https://vuldb.com/?ip.5.63.153.177) | 5-63-153-177.ovz.vps.regruhosting.ru | - | High
+2 | [5.100.155.82](https://vuldb.com/?ip.5.100.155.82) | 5.100.155-82.publicdomainregistry.com | - | High
+3 | [5.100.155.91](https://vuldb.com/?ip.5.100.155.91) | 5.100.155-91.publicdomainregistry.com | - | High
+4 | [5.135.183.154](https://vuldb.com/?ip.5.135.183.154) | ns3290077.ip-5-135-183.eu | Sednit | High
+5 | [5.199.171.58](https://vuldb.com/?ip.5.199.171.58) | - | - | High
+6 | [23.163.0.59](https://vuldb.com/?ip.23.163.0.59) | naomi.rem2d.com | - | High
+7 | [23.227.196.21](https://vuldb.com/?ip.23.227.196.21) | 23-227-196-21.static.hvvc.us | - | High
+8 | [23.227.196.215](https://vuldb.com/?ip.23.227.196.215) | 23-227-196-215.static.hvvc.us | - | High
+9 | [23.227.196.217](https://vuldb.com/?ip.23.227.196.217) | 23-227-196-217.static.hvvc.us | - | High
+10 | [31.184.198.23](https://vuldb.com/?ip.31.184.198.23) | - | - | High
+11 | [31.184.198.38](https://vuldb.com/?ip.31.184.198.38) | - | - | High
+12 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | Sednit | High
+13 | [31.220.61.251](https://vuldb.com/?ip.31.220.61.251) | - | - | High
+14 | [37.235.52.18](https://vuldb.com/?ip.37.235.52.18) | 18.52.235.37.in-addr.arpa | - | High
+15 | [45.32.129.185](https://vuldb.com/?ip.45.32.129.185) | 45.32.129.185.vultr.com | - | Medium
+16 | [45.32.227.21](https://vuldb.com/?ip.45.32.227.21) | 45.32.227.21.mobiltel.mx | - | High
+17 | [45.64.105.23](https://vuldb.com/?ip.45.64.105.23) | - | - | High
+18 | [45.124.132.127](https://vuldb.com/?ip.45.124.132.127) | - | - | High
+19 | [46.19.138.66](https://vuldb.com/?ip.46.19.138.66) | ab2.alchibasystems.in.net | - | High
+20 | [46.21.147.55](https://vuldb.com/?ip.46.21.147.55) | 46-21-147-55.static.hvvc.us | - | High
+21 | [46.21.147.71](https://vuldb.com/?ip.46.21.147.71) | 46-21-147-71.static.hvvc.us | - | High
+22 | [46.21.147.76](https://vuldb.com/?ip.46.21.147.76) | 46-21-147-76.static.hvvc.us | - | High
+23 | [46.148.17.227](https://vuldb.com/?ip.46.148.17.227) | - | - | High
+24 | [46.166.162.90](https://vuldb.com/?ip.46.166.162.90) | - | Pawn Storm | High
+25 | [46.183.217.74](https://vuldb.com/?ip.46.183.217.74) | ip-217-74.dataclub.info | Pawn Storm | High
+26 | [51.38.128.110](https://vuldb.com/?ip.51.38.128.110) | vps-0a3489af.vps.ovh.net | - | High
+27 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
+28 | [51.254.158.57](https://vuldb.com/?ip.51.254.158.57) | - | - | High
+29 | [54.37.104.106](https://vuldb.com/?ip.54.37.104.106) | piber.connectedlists.com | - | High
+30 | [58.49.58.58](https://vuldb.com/?ip.58.49.58.58) | - | - | High
+31 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
+32 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
+33 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
+34 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
+35 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
+36 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+37 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
+38 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
+39 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
+40 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
+41 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
+42 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
+43 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
+44 | [80.255.6.15](https://vuldb.com/?ip.80.255.6.15) | - | - | High
+45 | [80.255.10.236](https://vuldb.com/?ip.80.255.10.236) | - | - | High
+46 | [81.17.30.29](https://vuldb.com/?ip.81.17.30.29) | - | - | High
 47 | ... | ... | ... | ...
 
 There are 184 more IOC items available. Please use our online service to access the data.
@@ -136,7 +136,7 @@ ID | Type | Indicator | Confidence
 33 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
 34 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

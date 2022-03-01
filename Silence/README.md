@@ -1,6 +1,6 @@
 # Silence - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Silence](https://vuldb.com/?actor.silence). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Silence](https://vuldb.com/?actor.silence). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.silence](https://vuldb.com/?actor.silence)
 
@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,22 +91,22 @@ ID | Type | Indicator | Confidence
 20 | File | `/req_password_user.php` | High
 21 | File | `/rom` | Low
 22 | File | `/scripts/killpvhost` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/redis.ds` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `AccountManagerService.java` | High
-33 | File | `actions/CompanyDetailsSave.php` | High
-34 | File | `ActiveServices.java` | High
-35 | File | `addlink.php` | Medium
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/redis.ds` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/ViewUserHover.jspa` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/wp-admin` | Medium
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `AccountManagerService.java` | High
+34 | File | `actions/CompanyDetailsSave.php` | High
+35 | File | `ActiveServices.java` | High
 36 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

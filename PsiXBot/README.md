@@ -1,6 +1,6 @@
 # PsiXBot - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PsiXBot](https://vuldb.com/?actor.psixbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PsiXBot](https://vuldb.com/?actor.psixbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.psixbot](https://vuldb.com/?actor.psixbot)
 
@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PsiXBot:
 
-* US
-* CN
-* DE
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,20 +21,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 2.15.835.1 | - | - | High
-2 | 5.135.183.146 | freya.stelas.de | - | High
-3 | 5.154.191.67 | - | - | High
-4 | 14.42.81.85 | - | - | High
-5 | 31.3.135.232 | mirror.tillo.ch | - | High
-6 | 31.148.220.69 | - | - | High
-7 | 31.171.251.118 | ch.ns.mon0.li | - | High
-8 | 37.44.212.194 | - | - | High
-9 | 37.44.213.26 | - | - | High
-10 | 37.44.213.27 | - | - | High
-11 | 37.44.213.98 | - | - | High
-12 | 37.44.213.187 | - | - | High
-13 | 37.44.213.188 | - | - | High
-14 | 37.44.213.189 | - | - | High
+1 | [2.15.835.1](https://vuldb.com/?ip.2.15.835.1) | - | - | High
+2 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | - | High
+3 | [5.154.191.67](https://vuldb.com/?ip.5.154.191.67) | - | - | High
+4 | [14.42.81.85](https://vuldb.com/?ip.14.42.81.85) | - | - | High
+5 | [31.3.135.232](https://vuldb.com/?ip.31.3.135.232) | mirror.tillo.ch | - | High
+6 | [31.148.220.69](https://vuldb.com/?ip.31.148.220.69) | - | - | High
+7 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | - | High
+8 | [37.44.212.194](https://vuldb.com/?ip.37.44.212.194) | - | - | High
+9 | [37.44.213.26](https://vuldb.com/?ip.37.44.213.26) | - | - | High
+10 | [37.44.213.27](https://vuldb.com/?ip.37.44.213.27) | - | - | High
+11 | [37.44.213.98](https://vuldb.com/?ip.37.44.213.98) | - | - | High
+12 | [37.44.213.187](https://vuldb.com/?ip.37.44.213.187) | - | - | High
+13 | [37.44.213.188](https://vuldb.com/?ip.37.44.213.188) | - | - | High
+14 | [37.44.213.189](https://vuldb.com/?ip.37.44.213.189) | - | - | High
 15 | ... | ... | ... | ...
 
 There are 55 more IOC items available. Please use our online service to access the data.
@@ -114,7 +114,7 @@ ID | Type | Indicator | Confidence
 54 | File | `authent.php4` | Medium
 55 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

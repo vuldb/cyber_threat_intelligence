@@ -1,6 +1,6 @@
 # APT29 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT29](https://vuldb.com/?actor.apt29). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT29](https://vuldb.com/?actor.apt29). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt29](https://vuldb.com/?actor.apt29)
 
@@ -19,9 +19,9 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT29:
 
-* US
-* CN
-* ES
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -32,27 +32,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.45.66.134 | - | - | High
-2 | 5.199.174.164 | - | - | High
-3 | 23.29.115.180 | 23-29-115-180.static.hvvc.us | StellarParticle | High
-4 | 23.82.128.144 | - | StellarParticle | High
-5 | 27.102.130.115 | - | - | High
-6 | 31.7.63.141 | game.bignamegamereviewz.com | - | High
-7 | 31.170.107.186 | ohra.supplrald.com | - | High
-8 | 45.120.156.69 | - | - | High
-9 | 45.123.190.167 | - | COVID-19 | High
-10 | 45.123.190.168 | - | - | High
-11 | 45.129.229.48 | - | COVID-19 | High
-12 | 45.152.84.57 | - | - | High
-13 | 46.19.143.69 | - | - | High
-14 | 46.246.120.178 | - | - | High
-15 | 50.7.192.146 | - | - | High
-16 | 64.18.143.66 | - | - | High
-17 | 65.15.88.243 | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
-18 | 66.29.115.55 | 647807.ds.nac.net | - | High
-19 | 66.70.247.215 | ip215.ip-66-70-247.net | - | High
-20 | 69.59.28.57 | - | - | High
-21 | 79.141.168.109 | - | - | High
+1 | [5.45.66.134](https://vuldb.com/?ip.5.45.66.134) | - | - | High
+2 | [5.199.174.164](https://vuldb.com/?ip.5.199.174.164) | - | - | High
+3 | [23.29.115.180](https://vuldb.com/?ip.23.29.115.180) | 23-29-115-180.static.hvvc.us | StellarParticle | High
+4 | [23.82.128.144](https://vuldb.com/?ip.23.82.128.144) | - | StellarParticle | High
+5 | [27.102.130.115](https://vuldb.com/?ip.27.102.130.115) | - | - | High
+6 | [31.7.63.141](https://vuldb.com/?ip.31.7.63.141) | game.bignamegamereviewz.com | - | High
+7 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
+8 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
+9 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
+10 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
+11 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
+12 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
+13 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
+14 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
+15 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
+16 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
+17 | [65.15.88.243](https://vuldb.com/?ip.65.15.88.243) | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
+18 | [66.29.115.55](https://vuldb.com/?ip.66.29.115.55) | 647807.ds.nac.net | - | High
+19 | [66.70.247.215](https://vuldb.com/?ip.66.70.247.215) | ip215.ip-66-70-247.net | - | High
+20 | [69.59.28.57](https://vuldb.com/?ip.69.59.28.57) | - | - | High
+21 | [79.141.168.109](https://vuldb.com/?ip.79.141.168.109) | - | - | High
 22 | ... | ... | ... | ...
 
 There are 83 more IOC items available. Please use our online service to access the data.
@@ -102,20 +102,20 @@ ID | Type | Indicator | Confidence
 24 | File | `/public/plugins/` | High
 25 | File | `/rom` | Low
 26 | File | `/scripts/killpvhost` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-29 | File | `/tmp` | Low
-30 | File | `/tmp/redis.ds` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/ViewUserHover.jspa` | High
-33 | File | `/wp-admin` | Medium
-34 | File | `/wp-json/wc/v3/webhooks` | High
-35 | File | `ABuffer.cpp` | Medium
-36 | File | `AccountManagerService.java` | High
-37 | File | `actions/CompanyDetailsSave.php` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/redis.ds` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/ViewUserHover.jspa` | High
+34 | File | `/wp-admin` | Medium
+35 | File | `/wp-json/wc/v3/webhooks` | High
+36 | File | `ABuffer.cpp` | Medium
+37 | File | `AccountManagerService.java` | High
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

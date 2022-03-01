@@ -1,6 +1,6 @@
 # Kuluoz - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Kuluoz](https://vuldb.com/?actor.kuluoz). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Kuluoz](https://vuldb.com/?actor.kuluoz). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.kuluoz](https://vuldb.com/?actor.kuluoz)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kuluoz:
 
-* US
-* CN
-* GB
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -21,11 +21,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 13.32.208.34 | server-13-32-208-34.iad66.r.cloudfront.net | - | High
-2 | 37.59.24.98 | ns3043472.ip-37-59-24.eu | - | High
-3 | 64.91.226.48 | - | - | High
-4 | 65.181.127.125 | pentos.yahomail.today | - | High
-5 | 69.64.32.247 | dragon324.dedicatedpanel.com | - | High
+1 | [13.32.208.34](https://vuldb.com/?ip.13.32.208.34) | server-13-32-208-34.iad66.r.cloudfront.net | - | High
+2 | [37.59.24.98](https://vuldb.com/?ip.37.59.24.98) | ns3043472.ip-37-59-24.eu | - | High
+3 | [64.91.226.48](https://vuldb.com/?ip.64.91.226.48) | - | - | High
+4 | [65.181.127.125](https://vuldb.com/?ip.65.181.127.125) | pentos.yahomail.today | - | High
+5 | [69.64.32.247](https://vuldb.com/?ip.69.64.32.247) | dragon324.dedicatedpanel.com | - | High
 6 | ... | ... | ... | ...
 
 There are 20 more IOC items available. Please use our online service to access the data.

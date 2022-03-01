@@ -1,6 +1,6 @@
 # LinuxMoose - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [LinuxMoose](https://vuldb.com/?actor.linuxmoose). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [LinuxMoose](https://vuldb.com/?actor.linuxmoose). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.linuxmoose](https://vuldb.com/?actor.linuxmoose)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LinuxMoose:
 
-* NL
-* CN
-* US
+* [NL](https://vuldb.com/?country.nl)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 22 more country items available. Please use our online service to access the data.
@@ -21,18 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 27.124.41.11 | - | - | High
-2 | 27.124.41.31 | - | - | High
-3 | 27.124.41.33 | - | - | High
-4 | 27.124.41.52 | - | - | High
-5 | 42.119.173.138 | - | - | High
-6 | 62.210.6.34 | 62-210-6-34.rev.poneytelecom.eu | - | High
-7 | 77.247.177.31 | - | - | High
-8 | 77.247.177.36 | - | - | High
-9 | 77.247.177.87 | - | - | High
-10 | 77.247.178.177 | - | - | High
-11 | 79.176.26.142 | bzq-79-176-26-142.red.bezeqint.net | - | High
-12 | 82.146.63.15 | ebay2.com | - | High
+1 | [27.124.41.11](https://vuldb.com/?ip.27.124.41.11) | - | - | High
+2 | [27.124.41.31](https://vuldb.com/?ip.27.124.41.31) | - | - | High
+3 | [27.124.41.33](https://vuldb.com/?ip.27.124.41.33) | - | - | High
+4 | [27.124.41.52](https://vuldb.com/?ip.27.124.41.52) | - | - | High
+5 | [42.119.173.138](https://vuldb.com/?ip.42.119.173.138) | - | - | High
+6 | [62.210.6.34](https://vuldb.com/?ip.62.210.6.34) | 62-210-6-34.rev.poneytelecom.eu | - | High
+7 | [77.247.177.31](https://vuldb.com/?ip.77.247.177.31) | - | - | High
+8 | [77.247.177.36](https://vuldb.com/?ip.77.247.177.36) | - | - | High
+9 | [77.247.177.87](https://vuldb.com/?ip.77.247.177.87) | - | - | High
+10 | [77.247.178.177](https://vuldb.com/?ip.77.247.178.177) | - | - | High
+11 | [79.176.26.142](https://vuldb.com/?ip.79.176.26.142) | bzq-79-176-26-142.red.bezeqint.net | - | High
+12 | [82.146.63.15](https://vuldb.com/?ip.82.146.63.15) | ebay2.com | - | High
 13 | ... | ... | ... | ...
 
 There are 48 more IOC items available. Please use our online service to access the data.
@@ -67,14 +67,14 @@ ID | Type | Indicator | Confidence
 9 | File | `/medical/inventories.php` | High
 10 | File | `/monitoring` | Medium
 11 | File | `/new` | Low
-12 | File | `/nova/bin/sniffer` | High
-13 | File | `/plugins/servlet/audit/resource` | High
-14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-15 | File | `/proc/<pid>/status` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/replication` | Medium
-18 | File | `/rest/api/1.0/render` | High
-19 | File | `/RestAPI` | Medium
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/proc/<pid>/status` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/replication` | Medium
+17 | File | `/rest/api/1.0/render` | High
+18 | File | `/RestAPI` | Medium
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 20 | File | `/secure/QueryComponent!Default.jspa` | High
 21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
 22 | File | `/tmp` | Low
@@ -82,13 +82,12 @@ ID | Type | Indicator | Confidence
 24 | File | `/uncpath/` | Medium
 25 | File | `/var/log/nginx` | High
 26 | File | `/wp-json/wc/v3/webhooks` | High
-27 | File | `actions/CompanyDetailsSave.php` | High
-28 | File | `ActiveServices.java` | High
-29 | File | `adclick.php` | Medium
-30 | File | `admin.php` | Medium
-31 | ... | ... | ...
+27 | File | `AccountManagerService.java` | High
+28 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `ActiveServices.java` | High
+30 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

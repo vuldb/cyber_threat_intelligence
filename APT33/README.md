@@ -1,6 +1,6 @@
 # APT33 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT33](https://vuldb.com/?actor.apt33). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt33](https://vuldb.com/?actor.apt33)
 
@@ -16,9 +16,9 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* PL
-* DE
-* FR
+* [PL](https://vuldb.com/?country.pl)
+* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -29,21 +29,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.79.66.241 | - | Powerton | High
-2 | 5.79.127.177 | - | Elfin | High
-3 | 5.135.120.57 | - | - | High
-4 | 5.135.199.25 | - | - | High
-5 | 5.187.21.70 | - | Elfin | High
-6 | 5.187.21.71 | - | Elfin | High
-7 | 8.26.21.117 | 117.21.26.8.serverpronto.com | Elfin | High
-8 | 8.26.21.119 | ns1.glasscitysoftware.net | Elfin | High
-9 | 8.26.21.120 | ns2.glasscitysoftware.net | Elfin | High
-10 | 8.26.21.220 | mail2.boldinbox.com | Elfin | High
-11 | 8.26.21.221 | mail3.boldinbox.com | Elfin | High
-12 | 8.26.21.222 | mail9.servidorz.com | Elfin | High
-13 | 8.26.21.223 | mail5.boldinbox.com | Elfin | High
-14 | 31.7.62.48 | - | - | High
-15 | 37.48.105.178 | - | Elfin | High
+1 | [5.79.66.241](https://vuldb.com/?ip.5.79.66.241) | - | Powerton | High
+2 | [5.79.127.177](https://vuldb.com/?ip.5.79.127.177) | - | Elfin | High
+3 | [5.135.120.57](https://vuldb.com/?ip.5.135.120.57) | - | - | High
+4 | [5.135.199.25](https://vuldb.com/?ip.5.135.199.25) | - | - | High
+5 | [5.187.21.70](https://vuldb.com/?ip.5.187.21.70) | - | Elfin | High
+6 | [5.187.21.71](https://vuldb.com/?ip.5.187.21.71) | - | Elfin | High
+7 | [8.26.21.117](https://vuldb.com/?ip.8.26.21.117) | 117.21.26.8.serverpronto.com | Elfin | High
+8 | [8.26.21.119](https://vuldb.com/?ip.8.26.21.119) | ns1.glasscitysoftware.net | Elfin | High
+9 | [8.26.21.120](https://vuldb.com/?ip.8.26.21.120) | ns2.glasscitysoftware.net | Elfin | High
+10 | [8.26.21.220](https://vuldb.com/?ip.8.26.21.220) | mail2.boldinbox.com | Elfin | High
+11 | [8.26.21.221](https://vuldb.com/?ip.8.26.21.221) | mail3.boldinbox.com | Elfin | High
+12 | [8.26.21.222](https://vuldb.com/?ip.8.26.21.222) | mail9.servidorz.com | Elfin | High
+13 | [8.26.21.223](https://vuldb.com/?ip.8.26.21.223) | mail5.boldinbox.com | Elfin | High
+14 | [31.7.62.48](https://vuldb.com/?ip.31.7.62.48) | - | - | High
+15 | [37.48.105.178](https://vuldb.com/?ip.37.48.105.178) | - | Elfin | High
 16 | ... | ... | ... | ...
 
 There are 60 more IOC items available. Please use our online service to access the data.
@@ -75,15 +75,15 @@ ID | Type | Indicator | Confidence
 6 | File | `/administrator/components/table_manager/` | High
 7 | File | `/api/ZRMesh/set_ZRMesh` | High
 8 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-9 | File | `/fw/index2.do` | High
-10 | File | `/Hospital-Management-System-master/contact.php` | High
-11 | File | `/Hospital-Management-System-master/func.php` | High
-12 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-13 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-14 | File | `/jerry-core/jmem/jmem-heap.c` | High
-15 | File | `/ms/cms/content/list.do` | High
-16 | File | `/orms/` | Low
-17 | File | `/parser/js/js-parser-expr.c` | High
+9 | File | `/Hospital-Management-System-master/contact.php` | High
+10 | File | `/Hospital-Management-System-master/func.php` | High
+11 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+12 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+13 | File | `/jerry-core/jmem/jmem-heap.c` | High
+14 | File | `/ms/cms/content/list.do` | High
+15 | File | `/orms/` | Low
+16 | File | `/parser/js/js-parser-expr.c` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 18 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 19 | File | `/transmission/web/` | High
 20 | File | `/uploads/exam_question/` | High
@@ -91,10 +91,9 @@ ID | Type | Indicator | Confidence
 22 | File | `/usr/local/bin/mjs` | High
 23 | File | `1.2.2.pl4` | Medium
 24 | File | `AccessPoint.java` | High
-25 | File | `account_sponsor_page.php` | High
-26 | ... | ... | ...
+25 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
