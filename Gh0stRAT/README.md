@@ -1,6 +1,6 @@
 # Gh0stRAT - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gh0stRAT](https://vuldb.com/?actor.gh0strat). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gh0stRAT](https://vuldb.com/?actor.gh0strat). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gh0strat](https://vuldb.com/?actor.gh0strat)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
-* US
-* VN
-* CN
+* [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -21,32 +21,33 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 13.249.38.69 | server-13-249-38-69.iad89.r.cloudfront.net | - | High
-2 | 20.42.65.92 | - | - | High
-3 | 20.189.173.22 | - | - | High
-4 | 36.43.74.215 | - | - | High
-5 | 36.46.114.54 | - | - | High
-6 | 39.109.1.246 | - | - | High
-7 | 42.51.192.3 | - | - | High
-8 | 43.226.152.12 | - | - | High
-9 | 43.226.159.201 | - | - | High
-10 | 45.119.125.223 | - | - | High
-11 | 45.195.203.97 | - | - | High
-12 | 45.253.67.78 | - | - | High
-13 | 47.93.52.188 | - | - | High
-14 | 47.93.245.163 | - | - | High
-15 | 47.95.233.18 | - | - | High
-16 | 47.111.82.157 | - | - | High
-17 | 47.112.30.91 | - | - | High
-18 | 52.168.117.173 | - | - | High
-19 | 52.182.143.212 | - | - | High
-20 | 58.218.66.21 | - | - | High
-21 | 58.218.67.245 | - | - | High
-22 | 58.218.199.225 | - | - | High
-23 | 58.221.47.41 | - | - | High
-24 | ... | ... | ... | ...
+1 | [13.249.38.69](https://vuldb.com/?ip.13.249.38.69) | server-13-249-38-69.iad89.r.cloudfront.net | - | High
+2 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
+3 | [20.189.173.22](https://vuldb.com/?ip.20.189.173.22) | - | - | High
+4 | [36.43.74.215](https://vuldb.com/?ip.36.43.74.215) | - | - | High
+5 | [36.46.114.54](https://vuldb.com/?ip.36.46.114.54) | - | - | High
+6 | [39.109.1.246](https://vuldb.com/?ip.39.109.1.246) | - | - | High
+7 | [42.51.192.3](https://vuldb.com/?ip.42.51.192.3) | - | - | High
+8 | [43.226.152.12](https://vuldb.com/?ip.43.226.152.12) | - | - | High
+9 | [43.226.159.201](https://vuldb.com/?ip.43.226.159.201) | - | - | High
+10 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
+11 | [45.195.203.97](https://vuldb.com/?ip.45.195.203.97) | - | - | High
+12 | [45.253.67.78](https://vuldb.com/?ip.45.253.67.78) | - | - | High
+13 | [47.93.52.188](https://vuldb.com/?ip.47.93.52.188) | - | - | High
+14 | [47.93.245.163](https://vuldb.com/?ip.47.93.245.163) | - | - | High
+15 | [47.95.233.18](https://vuldb.com/?ip.47.95.233.18) | - | - | High
+16 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
+17 | [47.112.30.91](https://vuldb.com/?ip.47.112.30.91) | - | - | High
+18 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+19 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
+20 | [58.218.66.21](https://vuldb.com/?ip.58.218.66.21) | - | - | High
+21 | [58.218.67.245](https://vuldb.com/?ip.58.218.67.245) | - | - | High
+22 | [58.218.199.225](https://vuldb.com/?ip.58.218.199.225) | - | - | High
+23 | [58.221.47.41](https://vuldb.com/?ip.58.221.47.41) | - | - | High
+24 | [58.221.47.47](https://vuldb.com/?ip.58.221.47.47) | - | - | High
+25 | ... | ... | ... | ...
 
-There are 93 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,9 +104,10 @@ ID | Type | Indicator | Confidence
 34 | File | `/tmp/app/.env` | High
 35 | File | `/tmp/kamailio_ctl` | High
 36 | File | `/tmp/kamailio_fifo` | High
-37 | ... | ... | ...
+37 | File | `/ucms/index.php?do=list_edit` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,6 +130,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
 
 ## Literature
 

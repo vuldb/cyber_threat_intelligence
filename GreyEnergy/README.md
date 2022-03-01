@@ -1,6 +1,6 @@
 # GreyEnergy - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [GreyEnergy](https://vuldb.com/?actor.greyenergy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [GreyEnergy](https://vuldb.com/?actor.greyenergy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.greyenergy](https://vuldb.com/?actor.greyenergy)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with GreyEnergy:
 
-* US
-* CN
-* RO
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -21,11 +21,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.149.248.77 | - | - | High
-2 | 31.148.220.112 | - | - | High
-3 | 37.59.14.94 | ns3317178.ip-37-59-14.eu | - | High
-4 | 46.249.49.231 | - | - | High
-5 | 62.210.77.169 | 62-210-77-169.rev.poneytelecom.eu | - | High
+1 | [5.149.248.77](https://vuldb.com/?ip.5.149.248.77) | - | - | High
+2 | [31.148.220.112](https://vuldb.com/?ip.31.148.220.112) | - | - | High
+3 | [37.59.14.94](https://vuldb.com/?ip.37.59.14.94) | ns3317178.ip-37-59-14.eu | - | High
+4 | [46.249.49.231](https://vuldb.com/?ip.46.249.49.231) | - | - | High
+5 | [62.210.77.169](https://vuldb.com/?ip.62.210.77.169) | 62-210-77-169.rev.poneytelecom.eu | - | High
 6 | ... | ... | ... | ...
 
 There are 21 more IOC items available. Please use our online service to access the data.
@@ -68,26 +68,27 @@ ID | Type | Indicator | Confidence
 17 | File | `/public/plugins/` | High
 18 | File | `/rom` | Low
 19 | File | `/scripts/killpvhost` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-22 | File | `/tmp` | Low
-23 | File | `/tmp/redis.ds` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/ViewUserHover.jspa` | High
-26 | File | `/wp-admin` | Medium
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `actions/CompanyDetailsSave.php` | High
-29 | File | `ActiveServices.java` | High
-30 | File | `addlink.php` | Medium
-31 | File | `addtocart.asp` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-34 | File | `admin/add-glossary.php` | High
-35 | File | `admin/conf_users_edit.php` | High
-36 | File | `admin/dashboard.php` | High
-37 | ... | ... | ...
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+23 | File | `/tmp` | Low
+24 | File | `/tmp/redis.ds` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/ViewUserHover.jspa` | High
+27 | File | `/wp-admin` | Medium
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `AccountManagerService.java` | High
+30 | File | `actions/CompanyDetailsSave.php` | High
+31 | File | `ActiveServices.java` | High
+32 | File | `ActivityManagerService.java` | High
+33 | File | `addlink.php` | Medium
+34 | File | `addtocart.asp` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+37 | File | `admin/add-glossary.php` | High
+38 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

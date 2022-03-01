@@ -1,6 +1,6 @@
 # APT41 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT41](https://vuldb.com/?actor.apt41). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt41](https://vuldb.com/?actor.apt41)
 
@@ -15,9 +15,9 @@ The following _campaigns_ are known and can be associated with APT41:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT41:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -28,21 +28,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.183.101.21 | bestofgy.co.uk | MoonBounce | High
-2 | 5.183.101.114 | - | MoonBounce | High
-3 | 5.183.103.122 | - | MoonBounce | High
-4 | 5.188.93.132 | gcorelabs.paris.vpn015 | MoonBounce | High
-5 | 5.188.108.22 | pol1.htjsq.com | MoonBounce | High
-6 | 5.188.108.228 | xc5.exclusivacondominios.com | MoonBounce | High
-7 | 5.189.222.33 | spain466.es | MoonBounce | High
-8 | 23.67.95.153 | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
-9 | 43.255.191.255 | - | - | High
-10 | 45.76.6.149 | 45.76.6.149.vultr.com | - | Medium
-11 | 45.76.75.219 | 45.76.75.219.vultr.com | - | Medium
-12 | 45.128.132.6 | - | MoonBounce | High
-13 | 45.128.135.15 | - | MoonBounce | High
-14 | 45.138.157.78 | srv1.fincantleri.co | - | High
-15 | 61.78.62.21 | - | - | High
+1 | [5.183.101.21](https://vuldb.com/?ip.5.183.101.21) | bestofgy.co.uk | MoonBounce | High
+2 | [5.183.101.114](https://vuldb.com/?ip.5.183.101.114) | - | MoonBounce | High
+3 | [5.183.103.122](https://vuldb.com/?ip.5.183.103.122) | - | MoonBounce | High
+4 | [5.188.93.132](https://vuldb.com/?ip.5.188.93.132) | gcorelabs.paris.vpn015 | MoonBounce | High
+5 | [5.188.108.22](https://vuldb.com/?ip.5.188.108.22) | pol1.htjsq.com | MoonBounce | High
+6 | [5.188.108.228](https://vuldb.com/?ip.5.188.108.228) | xc5.exclusivacondominios.com | MoonBounce | High
+7 | [5.189.222.33](https://vuldb.com/?ip.5.189.222.33) | spain466.es | MoonBounce | High
+8 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
+9 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
+10 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
+11 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
+12 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
+13 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
+14 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
+15 | [61.78.62.21](https://vuldb.com/?ip.61.78.62.21) | - | - | High
 16 | ... | ... | ... | ...
 
 There are 60 more IOC items available. Please use our online service to access the data.
@@ -80,19 +80,19 @@ ID | Type | Indicator | Confidence
 12 | File | `/public/plugins/` | High
 13 | File | `/replication` | Medium
 14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-16 | File | `/start-stop` | Medium
-17 | File | `/tmp/app/.env` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `/_next` | Low
-24 | File | `adclick.php` | Medium
+15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+17 | File | `/start-stop` | Medium
+18 | File | `/tmp/app/.env` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `/_next` | Low
 25 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

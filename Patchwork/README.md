@@ -1,6 +1,6 @@
 # Patchwork - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Patchwork](https://vuldb.com/?actor.patchwork). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Patchwork](https://vuldb.com/?actor.patchwork). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.patchwork](https://vuldb.com/?actor.patchwork)
 
@@ -15,9 +15,9 @@ The following _campaigns_ are known and can be associated with Patchwork:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Patchwork:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 33 more country items available. Please use our online service to access the data.
@@ -28,75 +28,75 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.8.88.64 | - | - | High
-2 | 5.34.242.129 | - | - | High
-3 | 5.39.11.72 | vm482.sakuraserver.co | - | High
-4 | 5.39.36.56 | - | - | High
-5 | 5.39.36.57 | - | - | High
-6 | 5.39.36.58 | - | - | High
-7 | 5.39.36.59 | - | - | High
-8 | 5.39.36.60 | - | - | High
-9 | 5.39.36.61 | - | - | High
-10 | 5.39.97.57 | - | - | High
-11 | 5.39.97.58 | - | - | High
-12 | 5.101.140.220 | prodsrv1.a7holding.com | - | High
-13 | 5.254.98.68 | - | Badnews | High
-14 | 8.22.200.44 | server36.hostcats.com | - | High
-15 | 8.23.224.90 | - | - | High
-16 | 10.30.4.112 | - | Dropping Elephant | High
-17 | 23.106.123.87 | - | - | High
-18 | 31.3.154.110 | vps3.geozinho.com.br | - | High
-19 | 31.3.154.111 | vps4.geozinho.com.br | - | High
-20 | 31.3.154.113 | swe-net-ip.as51430.net | - | High
-21 | 31.3.154.114 | swe-net-ip.as51430.net | - | High
-22 | 31.3.154.115 | swe-net-ip.as51430.net | - | High
-23 | 31.3.154.116 | swe-net-ip.as51430.net | - | High
-24 | 31.3.154.117 | swe-net-ip.as51430.net | - | High
-25 | 31.3.155.106 | swe-net-ip.as51430.net | - | High
-26 | 31.170.161.56 | - | - | High
-27 | 31.170.161.136 | cpl02.main-hosting.eu | - | High
-28 | 31.170.162.23 | cpl04.main-hosting.eu | - | High
-29 | 31.214.169.86 | - | - | High
-30 | 31.214.169.87 | - | - | High
-31 | 37.46.127.75 | nerops15.roupasnews4.com.br | - | High
-32 | 37.46.127.76 | nerops16.roupasnews4.com.br | - | High
-33 | 37.46.127.77 | watch-man6.topchairlifts.com | - | High
-34 | 37.46.127.78 | watch-man7.topchairlifts.com | - | High
-35 | 37.46.127.79 | watch-man8.topchairlifts.com | - | High
-36 | 37.46.127.81 | watch-man10.topchairlifts.com | - | High
-37 | 37.48.77.214 | nl.redseedbox.com | - | High
-38 | 37.48.77.215 | - | - | High
-39 | 37.58.60.195 | - | - | High
-40 | 37.59.175.130 | ip130.ip-37-59-175.eu | - | High
-41 | 37.59.208.94 | - | - | High
-42 | 37.59.231.161 | - | - | High
-43 | 37.221.166.7 | - | - | High
-44 | 37.221.166.8 | - | - | High
-45 | 37.221.166.9 | - | - | High
-46 | 37.221.166.15 | - | - | High
-47 | 37.221.166.36 | - | - | High
-48 | 37.221.166.42 | - | - | High
-49 | 37.221.166.47 | - | - | High
-50 | 37.221.166.48 | - | - | High
-51 | 37.221.166.49 | - | - | High
-52 | 37.221.166.53 | - | - | High
-53 | 37.221.166.55 | - | - | High
-54 | 37.221.166.58 | - | - | High
-55 | 37.221.166.61 | - | - | High
-56 | 43.249.37.173 | - | Badnews | High
-57 | 43.249.37.199 | - | - | High
-58 | 45.43.192.172 | - | - | High
-59 | 46.4.187.60 | static.60.187.4.46.clients.your-server.de | - | High
-60 | 46.4.215.38 | mx01.wugrafixcloud.net | - | High
-61 | 46.165.225.66 | - | - | High
-62 | 46.165.229.7 | - | - | High
-63 | 46.165.229.8 | - | - | High
-64 | 46.165.229.9 | smtp1.lnkyfi.com | - | High
-65 | 46.165.248.236 | - | - | High
-66 | 46.165.248.237 | - | - | High
-67 | 46.165.248.238 | - | - | High
-68 | 46.165.248.239 | - | - | High
-69 | 46.165.248.240 | - | - | High
+1 | [5.8.88.64](https://vuldb.com/?ip.5.8.88.64) | - | - | High
+2 | [5.34.242.129](https://vuldb.com/?ip.5.34.242.129) | - | - | High
+3 | [5.39.11.72](https://vuldb.com/?ip.5.39.11.72) | vm482.sakuraserver.co | - | High
+4 | [5.39.36.56](https://vuldb.com/?ip.5.39.36.56) | - | - | High
+5 | [5.39.36.57](https://vuldb.com/?ip.5.39.36.57) | - | - | High
+6 | [5.39.36.58](https://vuldb.com/?ip.5.39.36.58) | - | - | High
+7 | [5.39.36.59](https://vuldb.com/?ip.5.39.36.59) | - | - | High
+8 | [5.39.36.60](https://vuldb.com/?ip.5.39.36.60) | - | - | High
+9 | [5.39.36.61](https://vuldb.com/?ip.5.39.36.61) | - | - | High
+10 | [5.39.97.57](https://vuldb.com/?ip.5.39.97.57) | - | - | High
+11 | [5.39.97.58](https://vuldb.com/?ip.5.39.97.58) | - | - | High
+12 | [5.101.140.220](https://vuldb.com/?ip.5.101.140.220) | prodsrv1.a7holding.com | - | High
+13 | [5.254.98.68](https://vuldb.com/?ip.5.254.98.68) | - | Badnews | High
+14 | [8.22.200.44](https://vuldb.com/?ip.8.22.200.44) | server36.hostcats.com | - | High
+15 | [8.23.224.90](https://vuldb.com/?ip.8.23.224.90) | - | - | High
+16 | [10.30.4.112](https://vuldb.com/?ip.10.30.4.112) | - | Dropping Elephant | High
+17 | [23.106.123.87](https://vuldb.com/?ip.23.106.123.87) | - | - | High
+18 | [31.3.154.110](https://vuldb.com/?ip.31.3.154.110) | vps3.geozinho.com.br | - | High
+19 | [31.3.154.111](https://vuldb.com/?ip.31.3.154.111) | vps4.geozinho.com.br | - | High
+20 | [31.3.154.113](https://vuldb.com/?ip.31.3.154.113) | swe-net-ip.as51430.net | - | High
+21 | [31.3.154.114](https://vuldb.com/?ip.31.3.154.114) | swe-net-ip.as51430.net | - | High
+22 | [31.3.154.115](https://vuldb.com/?ip.31.3.154.115) | swe-net-ip.as51430.net | - | High
+23 | [31.3.154.116](https://vuldb.com/?ip.31.3.154.116) | swe-net-ip.as51430.net | - | High
+24 | [31.3.154.117](https://vuldb.com/?ip.31.3.154.117) | swe-net-ip.as51430.net | - | High
+25 | [31.3.155.106](https://vuldb.com/?ip.31.3.155.106) | swe-net-ip.as51430.net | - | High
+26 | [31.170.161.56](https://vuldb.com/?ip.31.170.161.56) | - | - | High
+27 | [31.170.161.136](https://vuldb.com/?ip.31.170.161.136) | cpl02.main-hosting.eu | - | High
+28 | [31.170.162.23](https://vuldb.com/?ip.31.170.162.23) | cpl04.main-hosting.eu | - | High
+29 | [31.214.169.86](https://vuldb.com/?ip.31.214.169.86) | - | - | High
+30 | [31.214.169.87](https://vuldb.com/?ip.31.214.169.87) | - | - | High
+31 | [37.46.127.75](https://vuldb.com/?ip.37.46.127.75) | nerops15.roupasnews4.com.br | - | High
+32 | [37.46.127.76](https://vuldb.com/?ip.37.46.127.76) | nerops16.roupasnews4.com.br | - | High
+33 | [37.46.127.77](https://vuldb.com/?ip.37.46.127.77) | watch-man6.topchairlifts.com | - | High
+34 | [37.46.127.78](https://vuldb.com/?ip.37.46.127.78) | watch-man7.topchairlifts.com | - | High
+35 | [37.46.127.79](https://vuldb.com/?ip.37.46.127.79) | watch-man8.topchairlifts.com | - | High
+36 | [37.46.127.81](https://vuldb.com/?ip.37.46.127.81) | watch-man10.topchairlifts.com | - | High
+37 | [37.48.77.214](https://vuldb.com/?ip.37.48.77.214) | nl.redseedbox.com | - | High
+38 | [37.48.77.215](https://vuldb.com/?ip.37.48.77.215) | - | - | High
+39 | [37.58.60.195](https://vuldb.com/?ip.37.58.60.195) | - | - | High
+40 | [37.59.175.130](https://vuldb.com/?ip.37.59.175.130) | ip130.ip-37-59-175.eu | - | High
+41 | [37.59.208.94](https://vuldb.com/?ip.37.59.208.94) | - | - | High
+42 | [37.59.231.161](https://vuldb.com/?ip.37.59.231.161) | - | - | High
+43 | [37.221.166.7](https://vuldb.com/?ip.37.221.166.7) | - | - | High
+44 | [37.221.166.8](https://vuldb.com/?ip.37.221.166.8) | - | - | High
+45 | [37.221.166.9](https://vuldb.com/?ip.37.221.166.9) | - | - | High
+46 | [37.221.166.15](https://vuldb.com/?ip.37.221.166.15) | - | - | High
+47 | [37.221.166.36](https://vuldb.com/?ip.37.221.166.36) | - | - | High
+48 | [37.221.166.42](https://vuldb.com/?ip.37.221.166.42) | - | - | High
+49 | [37.221.166.47](https://vuldb.com/?ip.37.221.166.47) | - | - | High
+50 | [37.221.166.48](https://vuldb.com/?ip.37.221.166.48) | - | - | High
+51 | [37.221.166.49](https://vuldb.com/?ip.37.221.166.49) | - | - | High
+52 | [37.221.166.53](https://vuldb.com/?ip.37.221.166.53) | - | - | High
+53 | [37.221.166.55](https://vuldb.com/?ip.37.221.166.55) | - | - | High
+54 | [37.221.166.58](https://vuldb.com/?ip.37.221.166.58) | - | - | High
+55 | [37.221.166.61](https://vuldb.com/?ip.37.221.166.61) | - | - | High
+56 | [43.249.37.173](https://vuldb.com/?ip.43.249.37.173) | - | Badnews | High
+57 | [43.249.37.199](https://vuldb.com/?ip.43.249.37.199) | - | - | High
+58 | [45.43.192.172](https://vuldb.com/?ip.45.43.192.172) | - | - | High
+59 | [46.4.187.60](https://vuldb.com/?ip.46.4.187.60) | static.60.187.4.46.clients.your-server.de | - | High
+60 | [46.4.215.38](https://vuldb.com/?ip.46.4.215.38) | mx01.wugrafixcloud.net | - | High
+61 | [46.165.225.66](https://vuldb.com/?ip.46.165.225.66) | - | - | High
+62 | [46.165.229.7](https://vuldb.com/?ip.46.165.229.7) | - | - | High
+63 | [46.165.229.8](https://vuldb.com/?ip.46.165.229.8) | - | - | High
+64 | [46.165.229.9](https://vuldb.com/?ip.46.165.229.9) | smtp1.lnkyfi.com | - | High
+65 | [46.165.248.236](https://vuldb.com/?ip.46.165.248.236) | - | - | High
+66 | [46.165.248.237](https://vuldb.com/?ip.46.165.248.237) | - | - | High
+67 | [46.165.248.238](https://vuldb.com/?ip.46.165.248.238) | - | - | High
+68 | [46.165.248.239](https://vuldb.com/?ip.46.165.248.239) | - | - | High
+69 | [46.165.248.240](https://vuldb.com/?ip.46.165.248.240) | - | - | High
 70 | ... | ... | ... | ...
 
 There are 274 more IOC items available. Please use our online service to access the data.
@@ -155,27 +155,27 @@ ID | Type | Indicator | Confidence
 33 | File | `/_next` | Low
 34 | File | `4.edu.php\conn\function.php` | High
 35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `acl.c` | Low
-37 | File | `activity_log.php` | High
-38 | File | `adclick.php` | Medium
-39 | File | `addentry.php` | Medium
-40 | File | `add_vhost.php` | High
-41 | File | `adm/systools.asp` | High
-42 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
-43 | File | `admin/category.inc.php` | High
-44 | File | `admin/conf_users_edit.php` | High
-45 | File | `admin/default.asp` | High
-46 | File | `admin/dl_sendmail.php` | High
-47 | File | `admin/getparam.cgi` | High
-48 | File | `admin/index.php` | High
-49 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-50 | File | `admin/media/rename.php` | High
-51 | File | `admin/password_forgotten.php` | High
-52 | File | `admin/versions.html` | High
-53 | File | `adminCons.php` | High
+36 | File | `about.php` | Medium
+37 | File | `acl.c` | Low
+38 | File | `activity_log.php` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `add_vhost.php` | High
+42 | File | `adm/systools.asp` | High
+43 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
+44 | File | `admin/category.inc.php` | High
+45 | File | `admin/conf_users_edit.php` | High
+46 | File | `admin/default.asp` | High
+47 | File | `admin/dl_sendmail.php` | High
+48 | File | `admin/getparam.cgi` | High
+49 | File | `admin/index.php` | High
+50 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+51 | File | `admin/media/rename.php` | High
+52 | File | `admin/password_forgotten.php` | High
+53 | File | `admin/versions.html` | High
 54 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

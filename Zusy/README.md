@@ -1,6 +1,6 @@
 # Zusy - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zusy](https://vuldb.com/?actor.zusy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zusy](https://vuldb.com/?actor.zusy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zusy](https://vuldb.com/?actor.zusy)
 
@@ -45,21 +45,23 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [36.249.67.210](https://vuldb.com/?ip.36.249.67.210) | - | - | High
 23 | [37.0.10.214](https://vuldb.com/?ip.37.0.10.214) | - | - | High
 24 | [38.110.100.64](https://vuldb.com/?ip.38.110.100.64) | - | - | High
-25 | [40.97.116.82](https://vuldb.com/?ip.40.97.116.82) | - | - | High
-26 | [40.97.153.146](https://vuldb.com/?ip.40.97.153.146) | - | - | High
-27 | [40.97.160.2](https://vuldb.com/?ip.40.97.160.2) | - | - | High
-28 | [40.97.164.146](https://vuldb.com/?ip.40.97.164.146) | - | - | High
-29 | [40.97.188.226](https://vuldb.com/?ip.40.97.188.226) | - | - | High
-30 | [41.57.156.203](https://vuldb.com/?ip.41.57.156.203) | - | - | High
-31 | [42.62.20.137](https://vuldb.com/?ip.42.62.20.137) | - | - | High
-32 | [43.252.159.63](https://vuldb.com/?ip.43.252.159.63) | ipv4-63-159-252.as55666.net | - | High
-33 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
-34 | [44.240.138.42](https://vuldb.com/?ip.44.240.138.42) | ec2-44-240-138-42.us-west-2.compute.amazonaws.com | - | Medium
-35 | [45.9.20.202](https://vuldb.com/?ip.45.9.20.202) | - | - | High
-36 | [45.144.225.236](https://vuldb.com/?ip.45.144.225.236) | - | - | High
-37 | ... | ... | ... | ...
+25 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
+26 | [40.97.116.82](https://vuldb.com/?ip.40.97.116.82) | - | - | High
+27 | [40.97.153.146](https://vuldb.com/?ip.40.97.153.146) | - | - | High
+28 | [40.97.160.2](https://vuldb.com/?ip.40.97.160.2) | - | - | High
+29 | [40.97.164.146](https://vuldb.com/?ip.40.97.164.146) | - | - | High
+30 | [40.97.188.226](https://vuldb.com/?ip.40.97.188.226) | - | - | High
+31 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+32 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
+33 | [41.57.156.203](https://vuldb.com/?ip.41.57.156.203) | - | - | High
+34 | [42.62.20.137](https://vuldb.com/?ip.42.62.20.137) | - | - | High
+35 | [43.252.159.63](https://vuldb.com/?ip.43.252.159.63) | ipv4-63-159-252.as55666.net | - | High
+36 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
+37 | [44.240.138.42](https://vuldb.com/?ip.44.240.138.42) | ec2-44-240-138-42.us-west-2.compute.amazonaws.com | - | Medium
+38 | [45.9.20.202](https://vuldb.com/?ip.45.9.20.202) | - | - | High
+39 | ... | ... | ... | ...
 
-There are 146 more IOC items available. Please use our online service to access the data.
+There are 153 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,30 +100,30 @@ ID | Type | Indicator | Confidence
 16 | File | `/product_list.php` | High
 17 | File | `/public/plugins/` | High
 18 | File | `/SASWebReportStudio/logonAndRender.do` | High
-19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/see_more_details.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/web/frames/` | Medium
-26 | File | `AccountManager.java` | High
-27 | File | `adclick.php` | Medium
-28 | File | `addentry.php` | Medium
-29 | File | `admin.cgi?action=upgrade` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/executar_login.php` | High
-32 | File | `admin/index.php?mode=tools&page=upload` | High
-33 | File | `admin/pageUploadCSV.php` | High
-34 | File | `admin/setting.php` | High
-35 | File | `AdminQuickAccessesController.php` | High
-36 | File | `ajax/aj_*.php` | High
-37 | File | `alipay/alipayapi.php` | High
-38 | File | `auth.inc.php` | Medium
-39 | File | `auth.py` | Low
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/see_more_details.php` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+25 | File | `/WEB-INF/web.xml` | High
+26 | File | `/web/frames/` | Medium
+27 | File | `AccountManager.java` | High
+28 | File | `adclick.php` | Medium
+29 | File | `addentry.php` | Medium
+30 | File | `admin.cgi?action=upgrade` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/executar_login.php` | High
+33 | File | `admin/index.php?mode=tools&page=upload` | High
+34 | File | `admin/pageUploadCSV.php` | High
+35 | File | `admin/setting.php` | High
+36 | File | `AdminQuickAccessesController.php` | High
+37 | File | `ajax/aj_*.php` | High
+38 | File | `alipay/alipayapi.php` | High
+39 | File | `auth.inc.php` | Medium
 40 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -143,6 +145,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
 
 ## Literature
 

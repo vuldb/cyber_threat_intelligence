@@ -1,6 +1,6 @@
 # Gamarue - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gamarue](https://vuldb.com/?actor.gamarue). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gamarue](https://vuldb.com/?actor.gamarue). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gamarue](https://vuldb.com/?actor.gamarue)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gamarue:
 
-* US
-* RU
-* ES
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -21,15 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.154.191.57 | - | - | High
-2 | 37.187.0.40 | ns3108067.ip-37-187-0.eu | - | High
-3 | 45.8.124.25 | free.gbnhost.com | - | High
-4 | 45.128.204.36 | - | - | High
-5 | 45.128.207.237 | - | - | High
-6 | 46.45.169.106 | 46-45-169-106.turkrdns.com | - | High
-7 | 46.254.21.69 | h13.ihc.ru | - | High
-8 | 50.116.23.211 | www.eqnic.net | - | High
-9 | 51.195.53.221 | ip221.ip-51-195-53.eu | - | High
+1 | [5.154.191.57](https://vuldb.com/?ip.5.154.191.57) | - | - | High
+2 | [37.187.0.40](https://vuldb.com/?ip.37.187.0.40) | ns3108067.ip-37-187-0.eu | - | High
+3 | [45.8.124.25](https://vuldb.com/?ip.45.8.124.25) | free.gbnhost.com | - | High
+4 | [45.128.204.36](https://vuldb.com/?ip.45.128.204.36) | - | - | High
+5 | [45.128.207.237](https://vuldb.com/?ip.45.128.207.237) | - | - | High
+6 | [46.45.169.106](https://vuldb.com/?ip.46.45.169.106) | 46-45-169-106.turkrdns.com | - | High
+7 | [46.254.21.69](https://vuldb.com/?ip.46.254.21.69) | h13.ihc.ru | - | High
+8 | [50.116.23.211](https://vuldb.com/?ip.50.116.23.211) | www.eqnic.net | - | High
+9 | [51.195.53.221](https://vuldb.com/?ip.51.195.53.221) | ip221.ip-51-195-53.eu | - | High
 10 | ... | ... | ... | ...
 
 There are 35 more IOC items available. Please use our online service to access the data.

@@ -1,6 +1,6 @@
 # Inception - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Inception](https://vuldb.com/?actor.inception). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Inception](https://vuldb.com/?actor.inception). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.inception](https://vuldb.com/?actor.inception)
 
@@ -53,31 +53,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/register` | High
-2 | File | `/api/notify.php` | High
-3 | File | `/domain/service/.ewell-known/caldav` | High
-4 | File | `/etc/passwd` | Medium
-5 | File | `/formAdvFirewall` | High
-6 | File | `/master/article.php` | High
-7 | File | `/mobile/SelectUsers.jsp` | High
-8 | File | `/ProteinArraySignificanceTest.json` | High
-9 | File | `/usr/local/bin/mjs` | High
-10 | File | `/web` | Low
-11 | File | `admin/bad.php` | High
-12 | File | `admin/dl_sendmail.php` | High
-13 | File | `admin/pages/useredit.php` | High
-14 | File | `AdminBaseController.class.php` | High
-15 | File | `AlertReceiver.java` | High
-16 | File | `AndroidFuture.java` | High
-17 | File | `AndroidManifest.xml` | High
-18 | File | `apc.php` | Low
-19 | File | `api/info.php` | Medium
-20 | File | `attach.c` | Medium
-21 | File | `backup_xi.sh` | Medium
-22 | File | `box_code_apple.c` | High
-23 | ... | ... | ...
+1 | File | `/api/notify.php` | High
+2 | File | `/domain/service/.ewell-known/caldav` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/formAdvFirewall` | High
+5 | File | `/master/article.php` | High
+6 | File | `/mobile/SelectUsers.jsp` | High
+7 | File | `/ProteinArraySignificanceTest.json` | High
+8 | File | `/usr/local/bin/mjs` | High
+9 | File | `/web` | Low
+10 | File | `admin/bad.php` | High
+11 | File | `admin/dl_sendmail.php` | High
+12 | File | `admin/pages/useredit.php` | High
+13 | File | `AdminBaseController.class.php` | High
+14 | File | `AlertReceiver.java` | High
+15 | File | `AndroidFuture.java` | High
+16 | File | `AndroidManifest.xml` | High
+17 | File | `api/info.php` | Medium
+18 | File | `attach.c` | Medium
+19 | File | `backup_xi.sh` | Medium
+20 | File | `box_code_apple.c` | High
+21 | File | `bugs.aspx` | Medium
+22 | File | `bug_actiongroup.php` | High
+23 | File | `bug_report_page.php` | High
+24 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
