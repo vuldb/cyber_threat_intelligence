@@ -1,47 +1,47 @@
 # MalKamak - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [MalKamak](https://vuldb.com/?actor.malkamak). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [MalKamak](https://vuldb.com/?actor.malkamak). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.malkamak](https://vuldb.com/?actor.malkamak)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.malkamak](https://vuldb.com/?actor.malkamak)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with MalKamak:
+The following _campaigns_ are known and can be associated with MalKamak:
 
 * GhostShell
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MalKamak:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MalKamak:
 
-* CN
-* US
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of MalKamak.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of MalKamak.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 50.116.17.41 | li601-41.members.linode.com | High
-2 | 139.162.120.150 | li1604-150.members.linode.com | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [50.116.17.41](https://vuldb.com/?ip.50.116.17.41) | li601-41.members.linode.com | GhostShell | High
+2 | [139.162.120.150](https://vuldb.com/?ip.139.162.120.150) | li1604-150.members.linode.com | GhostShell | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by MalKamak. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by MalKamak. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1499 | Resource Consumption | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1499 | CWE-770 | Resource Consumption | High
+4 | ... | ... | ... | ...
 
 There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by MalKamak. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by MalKamak. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -50,17 +50,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/tmp` | Low
 4 | ... | ... | ...
 
-There are 6 more IOA items available. Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.cybereason.com/blog/operation-ghostshell-novel-rat-targets-global-aerospace-and-telecoms-firms
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

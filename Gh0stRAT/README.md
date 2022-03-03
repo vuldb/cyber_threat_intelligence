@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -98,14 +98,13 @@ ID | Type | Indicator | Confidence
 28 | File | `/rest/api/2/search` | High
 29 | File | `/s/` | Low
 30 | File | `/scripts/cpan_config` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/server-info` | Medium
-33 | File | `/tmp` | Low
-34 | File | `/tmp/app/.env` | High
-35 | File | `/tmp/kamailio_ctl` | High
-36 | File | `/tmp/kamailio_fifo` | High
-37 | File | `/ucms/index.php?do=list_edit` | High
-38 | ... | ... | ...
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/server-info` | Medium
+34 | File | `/tmp` | Low
+35 | File | `/tmp/app/.env` | High
+36 | File | `/tmp/kamailio_ctl` | High
+37 | ... | ... | ...
 
 There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -1,6 +1,6 @@
 # xHunt - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [xHunt](https://vuldb.com/?actor.xhunt). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [xHunt](https://vuldb.com/?actor.xhunt). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.xhunt](https://vuldb.com/?actor.xhunt)
 
@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 37 more country items available. Please use our online service to access the data.
+There are 34 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,55 +57,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/../../conf/template/uhttpd.json` | High
-2 | File | `/about.php` | Medium
-3 | File | `/account/register` | High
-4 | File | `/app1/admin#foo` | High
-5 | File | `/articles/welcome-to-your-site#comments-head` | High
-6 | File | `/assets/ctx` | Medium
-7 | File | `/bin/boa` | Medium
-8 | File | `/cgi?1&5` | Medium
-9 | File | `/config/getuser` | High
-10 | File | `/configs/application.ini` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-16 | File | `/iissamples` | Medium
-17 | File | `/index.pl` | Medium
-18 | File | `/login` | Low
-19 | File | `/plugin/file_manager/` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/sbin/gs_config` | High
-22 | File | `/settings` | Medium
-23 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-26 | File | `/uploads/dede` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/WEB-INF/web.xml` | High
-29 | File | `/webman/info.cgi` | High
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `/_next` | Low
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `adclick.php` | Medium
-35 | File | `admin.php?m=admin&c=site&a=save` | High
-36 | File | `admin.php?page=languages` | High
-37 | File | `admin/backupdb.php` | High
-38 | File | `admin/bitrix.mpbuilder_step2.php` | High
-39 | File | `admin/bitrix.xscan_worker.php` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/gb-dashboard-widget.php` | High
-42 | File | `admin/mcart_xls_import.php` | High
-43 | File | `admin/modules/tools/ip_history_logs.php` | High
-44 | File | `admin/ops/reports/ops/news.php` | High
-45 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-46 | File | `adminer.php` | Medium
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/../../conf/template/uhttpd.json` | High
+3 | File | `/about.php` | Medium
+4 | File | `/account/register` | High
+5 | File | `/app1/admin#foo` | High
+6 | File | `/articles/welcome-to-your-site#comments-head` | High
+7 | File | `/assets/ctx` | Medium
+8 | File | `/bin/boa` | Medium
+9 | File | `/cgi?1&5` | Medium
+10 | File | `/config/getuser` | High
+11 | File | `/configs/application.ini` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/export` | Low
+15 | File | `/forum/away.php` | High
+16 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+17 | File | `/iissamples` | Medium
+18 | File | `/index.pl` | Medium
+19 | File | `/login` | Low
+20 | File | `/plugin/file_manager/` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/sbin/gs_config` | High
+23 | File | `/settings` | Medium
+24 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+27 | File | `/uploads/dede` | High
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/webman/info.cgi` | High
+31 | File | `/wp-json/oembed/1.0/embed?url` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `/_next` | Low
+34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin.php?m=admin&c=site&a=save` | High
+37 | File | `admin.php?page=languages` | High
+38 | File | `admin/backupdb.php` | High
+39 | File | `admin/bitrix.mpbuilder_step2.php` | High
+40 | File | `admin/bitrix.xscan_worker.php` | High
+41 | File | `admin/conf_users_edit.php` | High
+42 | File | `admin/gb-dashboard-widget.php` | High
+43 | File | `admin/mcart_xls_import.php` | High
+44 | File | `admin/modules/tools/ip_history_logs.php` | High
+45 | File | `admin/ops/reports/ops/news.php` | High
+46 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
 47 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

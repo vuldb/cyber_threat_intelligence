@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with TrickBot:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TrickBot:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -97,12 +97,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techn
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,22 +110,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.add` | Medium
-2 | File | `/admin.back` | Medium
-3 | File | `/admin/allergens/edit/1` | High
-4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-5 | File | `/core/admin/categories.php` | High
-6 | File | `/core/admin/comment.php` | High
-7 | File | `/etc/cobbler` | Medium
-8 | File | `/exponentcms/administration/configure_site` | High
-9 | File | `/HandleEvent` | Medium
-10 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-11 | File | `/js/js-parser.c` | High
-12 | File | `/main?cmd=invalid_browser` | High
-13 | File | `/MobiPlusWeb/Handlers/MainHandler.ashx?MethodName=GridData&GridName=Users` | High
-14 | ... | ... | ...
+1 | File | `/admin-panel1.php` | High
+2 | File | `/admin.add` | Medium
+3 | File | `/admin.back` | Medium
+4 | File | `/admin/?page=members/view_member` | High
+5 | File | `/admin/options` | High
+6 | File | `/admin/page_edit/3` | High
+7 | File | `/admin_page/all-files-update-ajax.php` | High
+8 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+9 | File | `/core/admin/categories.php` | High
+10 | File | `/core/admin/comment.php` | High
+11 | File | `/etc/cobbler` | Medium
+12 | File | `/HandleEvent` | Medium
+13 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+14 | File | `/js/js-parser.c` | High
+15 | File | `/main?cmd=invalid_browser` | High
+16 | File | `/members/view_member.php` | High
+17 | File | `/MobiPlusWeb/Handlers/MainHandler.ashx?MethodName=GridData&GridName=Users` | High
+18 | File | `/ms/cms/content/list.do` | High
+19 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

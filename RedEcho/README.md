@@ -1,66 +1,101 @@
 # RedEcho - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [RedEcho](https://vuldb.com/?actor.redecho). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [RedEcho](https://vuldb.com/?actor.redecho). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.redecho](https://vuldb.com/?actor.redecho)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.redecho](https://vuldb.com/?actor.redecho)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedEcho:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedEcho:
 
-* US
-* CN
-* HK
+* [HK](https://vuldb.com/?country.hk)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of RedEcho.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of RedEcho.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 27.255.92.83 | - | High
-2 | 27.255.94.21 | - | High
-3 | 27.255.94.29 | - | High
-4 | 101.78.177.227 | - | High
-5 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [27.255.92.83](https://vuldb.com/?ip.27.255.92.83) | - | - | High
+2 | [27.255.94.21](https://vuldb.com/?ip.27.255.94.21) | - | - | High
+3 | [27.255.94.29](https://vuldb.com/?ip.27.255.94.29) | - | - | High
+4 | [101.78.177.227](https://vuldb.com/?ip.101.78.177.227) | - | - | High
+5 | ... | ... | ... | ...
 
 There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by RedEcho. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by RedEcho. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by RedEcho. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by RedEcho. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/preauth` | Medium
-2 | File | `/usr/bin/pkexec` | High
-3 | File | `Adminstrator/Users/Edit/` | High
-4 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/api/email_accounts` | High
+5 | File | `/API/system/admins/session` | High
+6 | File | `/cgi-bin/ExportALLSettings.sh` | High
+7 | File | `/config/config.php` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/customers/index.php` | High
+10 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+11 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+12 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+13 | File | `/DataHandler/Handler_CFG.ashx` | High
+14 | File | `/ECT_Provider/` | High
+15 | File | `/fuel/index.php/fuel/logs/items` | High
+16 | File | `/fuel/index.php/fuel/pages/items` | High
+17 | File | `/goform/openSchedWifi` | High
+18 | File | `/goform/SetNetControlList` | High
+19 | File | `/image_zoom.php` | High
+20 | File | `/include/config.cache.php` | High
+21 | File | `/json/profile/removeStarAjax.do` | High
+22 | File | `/oauth/token/request` | High
+23 | File | `/plugin/ajax.php` | High
+24 | File | `/plugins/servlet/branchreview` | High
+25 | File | `/preauth` | Medium
+26 | File | `/proc/ioports` | High
+27 | File | `/proc/self/exe` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/rest/api/2/search` | High
+30 | File | `/rest/api/latest/groupuserpicker` | High
+31 | File | `/rest/api/latest/projectvalidate/key` | High
+32 | File | `/rom-0` | Low
+33 | File | `/tmp` | Low
+34 | File | `/tmp/connlicj.bin` | High
+35 | File | `/uncpath/` | Medium
+36 | ... | ... | ...
 
-There are 22 more IOA items available. Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.02.28/RedEcho%20APT.pdf
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

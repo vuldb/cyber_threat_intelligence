@@ -92,7 +92,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,45 +104,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/../../conf/template/uhttpd.json` | High
 3 | File | `/bin/boa` | Medium
 4 | File | `/context/%2e/WEB-INF/web.xml` | High
-5 | File | `/dev/dri/card1` | High
-6 | File | `/etc/sudoers` | Medium
-7 | File | `/export` | Low
-8 | File | `/iissamples` | Medium
-9 | File | `/login` | Low
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/new` | Low
-13 | File | `/proc/<pid>/status` | High
-14 | File | `/public/plugins/` | High
-15 | File | `/req_password_user.php` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/servlet/webacc` | High
-19 | File | `/show_news.php` | High
-20 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/webconsole/Controller` | High
-26 | File | `/wp-json/wc/v3/webhooks` | High
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `AccountManagerService.java` | High
-29 | File | `actions/CompanyDetailsSave.php` | High
-30 | File | `ActivityManagerService.java` | High
-31 | File | `adclick.php` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin.php?page=languages` | High
-34 | File | `admin/add-glossary.php` | High
-35 | File | `admin/admin.php` | High
-36 | File | `admin/conf_users_edit.php` | High
-37 | File | `admin/edit-comments.php` | High
-38 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-39 | File | `admin\db\DoSql.php` | High
-40 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
+5 | File | `/etc/sudoers` | Medium
+6 | File | `/export` | Low
+7 | File | `/iissamples` | Medium
+8 | File | `/login` | Low
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/new` | Low
+12 | File | `/proc/<pid>/status` | High
+13 | File | `/public/plugins/` | High
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/servlet/webacc` | High
+17 | File | `/show_news.php` | High
+18 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `AccountManagerService.java` | High
+26 | File | `actions/CompanyDetailsSave.php` | High
+27 | File | `ActivityManagerService.java` | High
+28 | File | `adclick.php` | Medium
+29 | File | `admin.php` | Medium
+30 | File | `admin.php?page=languages` | High
+31 | File | `admin/add-glossary.php` | High
+32 | File | `admin/admin.php` | High
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/edit-comments.php` | High
+35 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+36 | File | `admin\db\DoSql.php` | High
+37 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
+38 | File | `advsearch.asp` | High
+39 | File | `AjaxApplication.java` | High
+40 | File | `AllowBindAppWidgetActivity.java` | High
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -92,7 +92,7 @@ ID | Type | Indicator | Confidence
 37 | File | `arch/powerpc/kernel/idle_book3s.S` | High
 38 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

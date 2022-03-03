@@ -53,32 +53,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/notify.php` | High
-2 | File | `/domain/service/.ewell-known/caldav` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/formAdvFirewall` | High
-5 | File | `/master/article.php` | High
-6 | File | `/mobile/SelectUsers.jsp` | High
-7 | File | `/ProteinArraySignificanceTest.json` | High
-8 | File | `/usr/local/bin/mjs` | High
-9 | File | `/web` | Low
-10 | File | `admin/bad.php` | High
-11 | File | `admin/dl_sendmail.php` | High
-12 | File | `admin/pages/useredit.php` | High
-13 | File | `AdminBaseController.class.php` | High
-14 | File | `AlertReceiver.java` | High
-15 | File | `AndroidFuture.java` | High
-16 | File | `AndroidManifest.xml` | High
-17 | File | `api/info.php` | Medium
-18 | File | `attach.c` | Medium
-19 | File | `backup_xi.sh` | Medium
-20 | File | `box_code_apple.c` | High
-21 | File | `bugs.aspx` | Medium
-22 | File | `bug_actiongroup.php` | High
-23 | File | `bug_report_page.php` | High
+1 | File | `/admin/page_edit/3` | High
+2 | File | `/api/notify.php` | High
+3 | File | `/domain/service/.ewell-known/caldav` | High
+4 | File | `/etc/passwd` | Medium
+5 | File | `/formAdvFirewall` | High
+6 | File | `/master/article.php` | High
+7 | File | `/mobile/SelectUsers.jsp` | High
+8 | File | `/ProteinArraySignificanceTest.json` | High
+9 | File | `/usr/local/bin/mjs` | High
+10 | File | `/web` | Low
+11 | File | `admin/bad.php` | High
+12 | File | `admin/dl_sendmail.php` | High
+13 | File | `admin/pages/useredit.php` | High
+14 | File | `AdminBaseController.class.php` | High
+15 | File | `AlertReceiver.java` | High
+16 | File | `AndroidFuture.java` | High
+17 | File | `AndroidManifest.xml` | High
+18 | File | `api/info.php` | Medium
+19 | File | `attach.c` | Medium
+20 | File | `backup_xi.sh` | Medium
+21 | File | `box_code_apple.c` | High
+22 | File | `bugs.aspx` | Medium
+23 | File | `bug_actiongroup.php` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

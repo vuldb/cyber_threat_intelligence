@@ -1,6 +1,6 @@
 # Magecart - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Magecart](https://vuldb.com/?actor.magecart). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Magecart](https://vuldb.com/?actor.magecart). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.magecart](https://vuldb.com/?actor.magecart)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
-* CN
-* FR
-* IT
+* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -21,13 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.135.247.141 | ip141.ip-5-135-247.eu | - | High
-2 | 5.135.247.142 | ip142.ip-5-135-247.eu | - | High
-3 | 5.188.44.32 | - | - | High
-4 | 35.246.189.253 | 253.189.246.35.bc.googleusercontent.com | - | Medium
-5 | 37.59.47.208 | ns3000975.ip-37-59-47.eu | - | High
-6 | 47.254.175.211 | - | - | High
-7 | 51.83.209.11 | ip11.ip-51-83-209.eu | - | High
+1 | [5.135.247.141](https://vuldb.com/?ip.5.135.247.141) | ip141.ip-5-135-247.eu | - | High
+2 | [5.135.247.142](https://vuldb.com/?ip.5.135.247.142) | ip142.ip-5-135-247.eu | - | High
+3 | [5.188.44.32](https://vuldb.com/?ip.5.188.44.32) | - | - | High
+4 | [35.246.189.253](https://vuldb.com/?ip.35.246.189.253) | 253.189.246.35.bc.googleusercontent.com | - | Medium
+5 | [37.59.47.208](https://vuldb.com/?ip.37.59.47.208) | ns3000975.ip-37-59-47.eu | - | High
+6 | [47.254.175.211](https://vuldb.com/?ip.47.254.175.211) | - | - | High
+7 | [51.83.209.11](https://vuldb.com/?ip.51.83.209.11) | ip11.ip-51-83-209.eu | - | High
 8 | ... | ... | ... | ...
 
 There are 27 more IOC items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,36 +51,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.html?do=user&act=add` | High
-2 | File | `/admin/delete_image.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/changePassword` | High
-6 | File | `/check_availability.php` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/data-service/users/` | High
-9 | File | `/Hospital-Management-System-master/func.php` | High
-10 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-11 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-12 | File | `/js/app.js` | Medium
-13 | File | `/message-bus/_diagnostics` | High
-14 | File | `/ms/cms/content/list.do` | High
-15 | File | `/new` | Low
-16 | File | `/plugin/jcapture/applet.php` | High
-17 | File | `/preferences/tags` | High
-18 | File | `/proc/<pid>/status` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/secure/EditSubscription.jspa` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `1.2.2.pl4` | Medium
-26 | File | `AccountManagerService.java` | High
-27 | File | `acl.c` | Low
+1 | File | `/admin/delete_image.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/administrator/components/table_manager/` | High
+4 | File | `/changePassword` | High
+5 | File | `/context/%2e/WEB-INF/web.xml` | High
+6 | File | `/data-service/users/` | High
+7 | File | `/Hospital-Management-System-master/func.php` | High
+8 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+9 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+10 | File | `/js/app.js` | Medium
+11 | File | `/message-bus/_diagnostics` | High
+12 | File | `/ms/cms/content/list.do` | High
+13 | File | `/new` | Low
+14 | File | `/plugin/jcapture/applet.php` | High
+15 | File | `/preferences/tags` | High
+16 | File | `/proc/<pid>/status` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/EditSubscription.jspa` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+22 | File | `/tmp` | Low
+23 | File | `/uncpath/` | Medium
+24 | File | `1.2.2.pl4` | Medium
+25 | File | `AccountManagerService.java` | High
+26 | File | `actions/CompanyDetailsSave.php` | High
+27 | File | `ActivityManagerService.java` | High
 28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

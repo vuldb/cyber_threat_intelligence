@@ -68,31 +68,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/blade-log/api/list` | High
 2 | File | `/category_view.php` | High
-3 | File | `/cgi-bin/system_mgr.cgi` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/etc/config/rpcd` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/get_getnetworkconf.cgi` | High
-8 | File | `/lists/admin/` | High
-9 | File | `/login.cgi?logout=1` | High
-10 | File | `/module/admin_logs` | High
-11 | File | `/public/login.htm` | High
-12 | File | `/public/plugins/` | High
-13 | File | `/replication` | Medium
-14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-17 | File | `/start-stop` | Medium
-18 | File | `/tmp/app/.env` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `/_next` | Low
-25 | ... | ... | ...
+3 | File | `/cgi-bin/portal` | High
+4 | File | `/cgi-bin/system_mgr.cgi` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/etc/config/rpcd` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/get_getnetworkconf.cgi` | High
+9 | File | `/lists/admin/` | High
+10 | File | `/login.cgi?logout=1` | High
+11 | File | `/medical/inventories.php` | High
+12 | File | `/module/admin_logs` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/replication` | Medium
+16 | File | `/SASWebReportStudio/logonAndRender.do` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+19 | File | `/start-stop` | Medium
+20 | File | `/tmp/app/.env` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/WEB-INF/web.xml` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

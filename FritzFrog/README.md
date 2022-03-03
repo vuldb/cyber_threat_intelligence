@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -336,7 +336,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -347,48 +347,49 @@ ID | Type | Indicator | Confidence
 1 | File | `/CMD_ACCOUNT_ADMIN` | High
 2 | File | `/config/getuser` | High
 3 | File | `/core/admin/categories.php` | High
-4 | File | `/data-service/users/` | High
+4 | File | `/debug/pprof` | Medium
 5 | File | `/dev/cpu/*/msr` | High
-6 | File | `/ext/phar/phar_object.c` | High
-7 | File | `/filemanager/php/connector.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/front/document.form.php` | High
-10 | File | `/horde/util/go.php` | High
-11 | File | `/hostapd` | Medium
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/modx/manager/index.php` | High
-14 | File | `/MTFWU` | Low
-15 | File | `/my_photo_gallery/image.php` | High
+6 | File | `/filemanager/php/connector.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/front/document.form.php` | High
+9 | File | `/horde/util/go.php` | High
+10 | File | `/hostapd` | Medium
+11 | File | `/include/chart_generator.php` | High
+12 | File | `/modx/manager/index.php` | High
+13 | File | `/MTFWU` | Low
+14 | File | `/my_photo_gallery/image.php` | High
+15 | File | `/public/admin.php` | High
 16 | File | `/public/login.htm` | High
 17 | File | `/public/plugins/` | High
 18 | File | `/rest/api/1.0/render` | High
-19 | File | `/search.php` | Medium
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-22 | File | `/sys/attachment/uploaderServlet` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/user/login/oauth` | High
-25 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-json` | Medium
-29 | File | `/x_program_center/jaxrs/invoke` | High
-30 | File | `/zm/index.php` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `102/tcp` | Low
-33 | File | `802dot1xclientcert.cgi` | High
-34 | File | `add.exe` | Low
-35 | File | `admin.php?m=Food&a=addsave` | High
-36 | File | `admin.remository.php` | High
-37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/theme-edit.php` | High
-40 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-41 | File | `admin_ajax.php?action=checkrepeat` | High
-42 | File | `affich.php` | Medium
-43 | ... | ... | ...
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/user-utils/users/md5.json` | High
+23 | File | `/userRpm/popupSiteSurveyRpm.html` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/wp-json` | Medium
+26 | File | `/x_program_center/jaxrs/invoke` | High
+27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+28 | File | `102/tcp` | Low
+29 | File | `802dot1xclientcert.cgi` | High
+30 | File | `add.exe` | Low
+31 | File | `admin.php?m=Food&a=addsave` | High
+32 | File | `admin.remository.php` | High
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/index.php` | High
+35 | File | `admin/theme-edit.php` | High
+36 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+37 | File | `admin_ajax.php?action=checkrepeat` | High
+38 | File | `affich.php` | Medium
+39 | File | `ajax/kanban.php` | High
+40 | File | `ajax_calls.php` | High
+41 | File | `akocomments.php` | High
+42 | File | `api-third-party/download/extdisks../etc/config/account` | High
+43 | File | `app/topic/action/admin/topic.php` | High
+44 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

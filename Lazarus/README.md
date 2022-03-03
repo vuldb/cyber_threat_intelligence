@@ -235,20 +235,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/front/document.form.php` | High
-2 | File | `/members/view_member.php` | High
-3 | File | `/ms/file/uploadTemplate.do` | High
-4 | File | `/MTFWU` | Low
-5 | File | `/SASWebReportStudio/logonAndRender.do` | High
-6 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-7 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-8 | File | `/template/unzip.do` | High
-9 | File | `/tmp` | Low
-10 | File | `/x_program_center/jaxrs/invoke` | High
-11 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-12 | ... | ... | ...
+1 | File | `/admin-panel1.php` | High
+2 | File | `/admin/files` | Medium
+3 | File | `/admin/options` | High
+4 | File | `/admin/page_edit/3` | High
+5 | File | `/admin_page/all-files-update-ajax.php` | High
+6 | File | `/api/servers` | Medium
+7 | File | `/front/document.form.php` | High
+8 | File | `/members/view_member.php` | High
+9 | File | `/ms/file/uploadTemplate.do` | High
+10 | File | `/MTFWU` | Low
+11 | File | `/ok_jpg.c` | Medium
+12 | File | `/ok_png.c` | Medium
+13 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+16 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

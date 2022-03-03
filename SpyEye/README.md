@@ -1,6 +1,6 @@
 # SpyEye - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SpyEye](https://vuldb.com/?actor.spyeye). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SpyEye](https://vuldb.com/?actor.spyeye). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.spyeye](https://vuldb.com/?actor.spyeye)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SpyEye:
 
-* CO
-* US
-* RU
+* [CO](https://vuldb.com/?country.co)
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -21,23 +21,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 38.99.83.111 | - | - | High
-2 | 46.17.96.177 | - | - | High
-3 | 46.17.100.230 | - | - | High
-4 | 46.243.9.169 | - | - | High
-5 | 50.22.104.142 | 8e.68.1632.ip4.static.sl-reverse.com | - | High
-6 | 60.199.114.84 | 60-199-114-84.static.tfn.net.tw | - | High
-7 | 62.109.3.105 | indocreo.fvds.ru | - | High
-8 | 62.193.233.77 | - | - | High
-9 | 66.7.199.176 | 66-7-199-176.static.hostdime.com | - | High
-10 | 69.89.31.133 | box333.bluehost.com | - | High
-11 | 69.197.135.91 | - | - | High
-12 | 74.54.152.37 | 25.98.364a.static.theplanet.com | - | High
-13 | 74.81.82.189 | srv3.93w.ru | - | High
-14 | 76.76.98.82 | - | - | High
-15 | 76.76.107.74 | - | - | High
-16 | 77.79.4.200 | - | - | High
-17 | 77.79.10.93 | - | - | High
+1 | [38.99.83.111](https://vuldb.com/?ip.38.99.83.111) | - | - | High
+2 | [46.17.96.177](https://vuldb.com/?ip.46.17.96.177) | - | - | High
+3 | [46.17.100.230](https://vuldb.com/?ip.46.17.100.230) | - | - | High
+4 | [46.243.9.169](https://vuldb.com/?ip.46.243.9.169) | - | - | High
+5 | [50.22.104.142](https://vuldb.com/?ip.50.22.104.142) | 8e.68.1632.ip4.static.sl-reverse.com | - | High
+6 | [60.199.114.84](https://vuldb.com/?ip.60.199.114.84) | 60-199-114-84.static.tfn.net.tw | - | High
+7 | [62.109.3.105](https://vuldb.com/?ip.62.109.3.105) | indocreo.fvds.ru | - | High
+8 | [62.193.233.77](https://vuldb.com/?ip.62.193.233.77) | - | - | High
+9 | [66.7.199.176](https://vuldb.com/?ip.66.7.199.176) | 66-7-199-176.static.hostdime.com | - | High
+10 | [69.89.31.133](https://vuldb.com/?ip.69.89.31.133) | box333.bluehost.com | - | High
+11 | [69.197.135.91](https://vuldb.com/?ip.69.197.135.91) | - | - | High
+12 | [74.54.152.37](https://vuldb.com/?ip.74.54.152.37) | 25.98.364a.static.theplanet.com | - | High
+13 | [74.81.82.189](https://vuldb.com/?ip.74.81.82.189) | srv3.93w.ru | - | High
+14 | [76.76.98.82](https://vuldb.com/?ip.76.76.98.82) | - | - | High
+15 | [76.76.107.74](https://vuldb.com/?ip.76.76.107.74) | - | - | High
+16 | [77.79.4.200](https://vuldb.com/?ip.77.79.4.200) | - | - | High
+17 | [77.79.10.93](https://vuldb.com/?ip.77.79.10.93) | - | - | High
 18 | ... | ... | ... | ...
 
 There are 66 more IOC items available. Please use our online service to access the data.
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

@@ -125,32 +125,32 @@ ID | Type | Indicator | Confidence
 2 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-6 | File | `/auth/session` | High
-7 | File | `/cfg` | Low
-8 | File | `/cgi-bin/webproc` | High
-9 | File | `/config/getuser` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/exponent_constants.php` | High
-12 | File | `/front/document.form.php` | High
-13 | File | `/ibi_apps/WFServlet.cfg` | High
-14 | File | `/log_download.cgi` | High
-15 | File | `/modx/manager/index.php` | High
-16 | File | `/proc/sysvipc/sem` | High
-17 | File | `/replication` | Medium
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/RestAPI` | Medium
-20 | File | `/search.php` | Medium
-21 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-22 | File | `/tmp` | Low
-23 | File | `/trigger` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/login/oauth` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/usr/doc` | Medium
+5 | File | `/auth/session` | High
+6 | File | `/cfg` | Low
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/config/getuser` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/exponent_constants.php` | High
+11 | File | `/front/document.form.php` | High
+12 | File | `/ibi_apps/WFServlet.cfg` | High
+13 | File | `/log_download.cgi` | High
+14 | File | `/proc/sysvipc/sem` | High
+15 | File | `/replication` | Medium
+16 | File | `/rest/collectors/1.0/template/custom` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/search.php` | Medium
+19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+20 | File | `/tmp` | Low
+21 | File | `/trigger` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/user/login/oauth` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/usr/doc` | Medium
+26 | File | `/WEB-INF/web.xml` | High
+27 | File | `/webpages/data` | High
 28 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

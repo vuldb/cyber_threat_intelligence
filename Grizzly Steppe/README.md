@@ -160,7 +160,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -178,30 +178,30 @@ ID | Type | Indicator | Confidence
 8 | File | `/dev/dri/card1` | High
 9 | File | `/domain/service/.ewell-known/caldav` | High
 10 | File | `/download` | Medium
-11 | File | `/etc/hosts` | Medium
-12 | File | `/formWlanSetup` | High
-13 | File | `/goform/setIPv6Status` | High
-14 | File | `/images` | Low
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/InternalPages/ExecuteTask.aspx` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/music/ajax.php` | High
-20 | File | `/pandora_console/ajax.php` | High
-21 | File | `/plugins/servlet/audit/resource` | High
-22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-23 | File | `/proc/<pid>/status` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rest/api/1.0/render` | High
-26 | File | `/RestAPI` | Medium
-27 | File | `/SASWebReportStudio/logonAndRender.do` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
+11 | File | `/formWlanSetup` | High
+12 | File | `/goform/setIPv6Status` | High
+13 | File | `/images` | Low
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/InternalPages/ExecuteTask.aspx` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/music/ajax.php` | High
+19 | File | `/pandora_console/ajax.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/proc/<pid>/status` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/rest/api/1.0/render` | High
+25 | File | `/RestAPI` | Medium
+26 | File | `/SASWebReportStudio/logonAndRender.do` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/var/log/nginx` | High
 32 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
