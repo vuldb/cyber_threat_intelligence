@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,15 +101,15 @@ ID | Type | Indicator | Confidence
 23 | File | `addressbookprovider.php` | High
 24 | File | `admin/pageUploadCSV.php` | High
 25 | File | `ajax_udf.php` | Medium
-26 | File | `application.js.php` | High
-27 | File | `apply.cgi` | Medium
-28 | File | `arm/lithium-codegen-arm.cc` | High
-29 | File | `authenticate.c` | High
-30 | File | `Authenticate.class.php` | High
-31 | File | `base_maintenance.php` | High
+26 | File | `AppCompatCache.exe` | High
+27 | File | `application.js.php` | High
+28 | File | `apply.cgi` | Medium
+29 | File | `arm/lithium-codegen-arm.cc` | High
+30 | File | `authenticate.c` | High
+31 | File | `Authenticate.class.php` | High
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,13 +72,13 @@ ID | Type | Indicator | Confidence
 17 | File | `AndroidManifest.xml` | High
 18 | File | `api/info.php` | Medium
 19 | File | `attach.c` | Medium
-20 | File | `backup_xi.sh` | Medium
-21 | File | `box_code_apple.c` | High
-22 | File | `bugs.aspx` | Medium
-23 | File | `bug_actiongroup.php` | High
+20 | File | `box_code_apple.c` | High
+21 | File | `bugs.aspx` | Medium
+22 | File | `bug_actiongroup.php` | High
+23 | File | `bug_report_page.php` | High
 24 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

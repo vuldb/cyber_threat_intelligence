@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [IN](https://vuldb.com/?country.in)
-* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -227,7 +227,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -236,23 +236,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/files` | Medium
-3 | File | `/admin/options` | High
-4 | File | `/admin/page_edit/3` | High
-5 | File | `/admin_page/all-files-update-ajax.php` | High
-6 | File | `/api/servers` | Medium
-7 | File | `/front/document.form.php` | High
-8 | File | `/members/view_member.php` | High
-9 | File | `/ms/file/uploadTemplate.do` | High
-10 | File | `/MTFWU` | Low
-11 | File | `/ok_jpg.c` | Medium
-12 | File | `/ok_png.c` | Medium
-13 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+2 | File | `/admin/?page=members/view_member` | High
+3 | File | `/admin/files` | Medium
+4 | File | `/admin/options` | High
+5 | File | `/admin/page_edit/3` | High
+6 | File | `/admin_page/all-files-update-ajax.php` | High
+7 | File | `/api/servers` | Medium
+8 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+9 | File | `/members/view_member.php` | High
+10 | File | `/ok_jpg.c` | Medium
+11 | File | `/ok_png.c` | Medium
+12 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+13 | File | `/rootfs` | Low
 14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-16 | ... | ... | ...
+15 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
