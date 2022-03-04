@@ -1,6 +1,6 @@
 # Black KingDom - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Black KingDom](https://vuldb.com/?actor.black_kingdom). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Black KingDom](https://vuldb.com/?actor.black_kingdom). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.black_kingdom](https://vuldb.com/?actor.black_kingdom)
 
@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
-* US
-* FR
-* RU
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [MX](https://vuldb.com/?country.mx)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,9 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 104.21.89.10 | - | - | High
-2 | 172.64.80.0 | - | - | High
-3 | 185.220.101.204 | tor-exit-204.relayon.org | - | High
+1 | [104.21.89.10](https://vuldb.com/?ip.104.21.89.10) | - | - | High
+2 | [172.64.80.0](https://vuldb.com/?ip.172.64.80.0) | - | - | High
+3 | [185.220.101.204](https://vuldb.com/?ip.185.220.101.204) | tor-exit-204.relayon.org | - | High
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
@@ -44,37 +47,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_manage/delete` | High
-2 | File | `/admin/login.php` | High
+1 | File | `/admin-panel1.php` | High
+2 | File | `/admin/admin_manage/delete` | High
 3 | File | `/administrator/components/table_manager/` | High
 4 | File | `/adminzone/index.php?page=admin-commandr` | High
-5 | File | `/ajax_crud` | Medium
-6 | File | `/anony/mjpg.cgi` | High
-7 | File | `/application/common.php#action_log` | High
-8 | File | `/base/ecma-helpers-string.c` | High
-9 | File | `/cms/ajax.php` | High
-10 | File | `/core/table/query` | High
-11 | File | `/data-service/users/` | High
-12 | File | `/dev/ion` | Medium
-13 | File | `/ecma/operations/ecma-objects.c` | High
-14 | File | `/GetCopiedFile` | High
-15 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-16 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-17 | File | `/jerry-core/parser/js/js-parser-expr.c` | High
-18 | File | `/js/app.js` | Medium
-19 | File | `/leave_system/classes/Login.php` | High
-20 | File | `/music/ajax.php` | High
-21 | File | `/orms/` | Low
-22 | File | `/parser/js/js-parser-mem.c` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/user/login/oauth` | High
-25 | File | `/userRpm/PingIframeRpm.htm` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/usr/local/bin/mjs` | High
-28 | File | `/usr/local/www/pkg.php` | High
-29 | ... | ... | ...
+5 | File | `/anony/mjpg.cgi` | High
+6 | File | `/api/servers` | Medium
+7 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+8 | File | `/core/admin/comment.php` | High
+9 | File | `/data-service/users/` | High
+10 | File | `/etc/wpa_supplicant.conf` | High
+11 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+12 | File | `/js/app.js` | Medium
+13 | File | `/js/js-parser.c` | High
+14 | File | `/main?cmd=invalid_browser` | High
+15 | File | `/ms/file/uploadTemplate.do` | High
+16 | File | `/ok_jpg.c` | Medium
+17 | File | `/ok_png.c` | Medium
+18 | File | `/ping.html` | Medium
+19 | File | `/rootfs` | Low
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/SHARED/<username>` | High
+23 | File | `/sys/user/queryUserComponentData` | High
+24 | File | `/template/unzip.do` | High
+25 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

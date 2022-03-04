@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* [IT](https://vuldb.com/?country.it)
 * [DE](https://vuldb.com/?country.de)
-* [SV](https://vuldb.com/?country.sv)
+* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,7 +72,7 @@ ID | Type | Indicator | Confidence
 22 | File | `admin.php` | Medium
 23 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

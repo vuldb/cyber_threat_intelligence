@@ -1,6 +1,6 @@
 # Nymaim - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nymaim](https://vuldb.com/?actor.nymaim). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nymaim](https://vuldb.com/?actor.nymaim). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.nymaim](https://vuldb.com/?actor.nymaim)
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,32 +51,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/adfs/ls` | Medium
-2 | File | `/appliance/users?action=edit` | High
-3 | File | `/config/getuser` | High
-4 | File | `/data-service/users/` | High
-5 | File | `/IISADMPWD` | Medium
-6 | File | `/js/app.js` | Medium
-7 | File | `/login` | Low
-8 | File | `/monitor/s_headmodel.php` | High
-9 | File | `/pro/repo-create.html` | High
-10 | File | `/public/plugins/` | High
-11 | File | `/rest/api/latest/projectvalidate/key` | High
-12 | File | `/rest/collectors/1.0/template/custom` | High
-13 | File | `/server-info` | Medium
-14 | File | `/services` | Medium
-15 | File | `/test/cookie/` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/at` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/WEB-INF/web.xml` | High
-20 | File | `admin-ajax.php` | High
-21 | File | `AndroidManifest.xml` | High
-22 | File | `app/View/Galaxies/view.ctp` | High
-23 | File | `apply.cgi` | Medium
-24 | File | `binder.c` | Medium
-25 | ... | ... | ...
+2 | File | `/admin/doctors/view_doctor.php` | High
+3 | File | `/appliance/users?action=edit` | High
+4 | File | `/config/getuser` | High
+5 | File | `/data-service/users/` | High
+6 | File | `/IISADMPWD` | Medium
+7 | File | `/js/app.js` | Medium
+8 | File | `/login` | Low
+9 | File | `/monitor/s_headmodel.php` | High
+10 | File | `/pro/repo-create.html` | High
+11 | File | `/public/plugins/` | High
+12 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+13 | File | `/rest/api/latest/projectvalidate/key` | High
+14 | File | `/rest/collectors/1.0/template/custom` | High
+15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/server-info` | Medium
+17 | File | `/services` | Medium
+18 | File | `/test/cookie/` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/bin/at` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `admin-ajax.php` | High
+24 | File | `AndroidManifest.xml` | High
+25 | File | `app/View/Galaxies/view.ctp` | High
+26 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
