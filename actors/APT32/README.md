@@ -46,7 +46,7 @@ There are 48 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT32. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT32_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,19 +74,20 @@ ID | Type | Indicator | Confidence
 9 | File | `/goform/setmac` | High
 10 | File | `/log_download.cgi` | High
 11 | File | `/manager?action=getlogcat` | High
-12 | File | `/password.html` | High
-13 | File | `/system/ws/v11/ss/email` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `add_vhost.php` | High
-16 | File | `admin/images.aspx` | High
-17 | File | `admin/index.php` | High
-18 | File | `adv2.php?action=modify` | High
-19 | File | `agent.cfg` | Medium
-20 | File | `arch/x86/include/asm/fpu/internal.h` | High
-21 | File | `asm/float.c` | Medium
-22 | ... | ... | ...
+12 | File | `/pages/systemcall.php?command={COMMAND}` | High
+13 | File | `/password.html` | High
+14 | File | `/system/ws/v11/ss/email` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `add_vhost.php` | High
+17 | File | `admin/images.aspx` | High
+18 | File | `admin/index.php` | High
+19 | File | `adv2.php?action=modify` | High
+20 | File | `agent.cfg` | Medium
+21 | File | `arch/x86/include/asm/fpu/internal.h` | High
+22 | File | `asm/float.c` | Medium
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

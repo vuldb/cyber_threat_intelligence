@@ -1,18 +1,12 @@
-# Agent Tesla - Cyber Threat Intelligence
+# Phishing Korea - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Agent Tesla](https://vuldb.com/?actor.agent_tesla). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the campaign known as _Phishing Korea_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.agent_tesla](https://vuldb.com/?actor.agent_tesla)
-
-## Campaigns
-
-The following _campaigns_ are known and can be associated with Agent Tesla:
-
-* Phishing Korea
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Agent Tesla:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phishing Korea:
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
@@ -21,19 +15,24 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 There are 8 more country items available. Please use our online service to access the data.
 
+## Actors
+
+These _actors_ are associated with Phishing Korea:
+
+* [Agent Tesla](https://vuldb.com/?actor.agent tesla)
+
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Agent Tesla.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Phishing Korea.
 
-ID | IP address | Hostname | Campaign | Confidence
--- | ---------- | -------- | -------- | ----------
-1 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | Phishing Korea | High
-2 | [149.56.200.165](https://vuldb.com/?ip.149.56.200.165) | ip165.ip-149-56-200.net | Phishing Korea | High
-3 | [208.91.199.223](https://vuldb.com/?ip.208.91.199.223) | us2.outbound.mailhostbox.com | - | High
+ID | IP address | Hostname | Actor | Confidence
+-- | ---------- | -------- | ----- | ----------
+1 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | Agent Tesla | High
+2 | [149.56.200.165](https://vuldb.com/?ip.149.56.200.165) | ip165.ip-149-56-200.net | Agent Tesla | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Agent Tesla_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Phishing Korea. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -46,7 +45,7 @@ There are 3 more TTP items available. Please use our online service to access th
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Agent Tesla. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Phishing Korea. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -103,13 +102,12 @@ ID | Type | Indicator | Confidence
 51 | File | `e/member/doaction.php` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains _external sources_ which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the campaign and the associated activities:
 
-* https://blogs.blackberry.com/en/2020/04/threat-spotlight-secret-agent-tesla
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
 
 ## Literature

@@ -1,6 +1,6 @@
 # Moobot - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Moobot](https://vuldb.com/?actor.moobot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Moobot](https://vuldb.com/?actor.moobot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.moobot](https://vuldb.com/?actor.moobot)
 
@@ -8,18 +8,19 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Moobot:
 
+* DDoS Ukraine
 * UNIX CCTV DVR
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Moobot:
 
-* US
-* LU
-* ES
+* [US](https://vuldb.com/?country.us)
+* [LU](https://vuldb.com/?country.lu)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,19 +28,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 31.13.195.56 | - | - | High
-2 | 37.49.226.216 | - | - | High
-3 | 45.95.168.90 | - | - | High
-4 | 89.248.174.165 | - | UNIX CCTV DVR | High
-5 | 89.248.174.166 | - | UNIX CCTV DVR | High
-6 | 89.248.174.198 | - | - | High
+1 | [31.13.195.56](https://vuldb.com/?ip.31.13.195.56) | - | - | High
+2 | [37.49.226.216](https://vuldb.com/?ip.37.49.226.216) | - | - | High
+3 | [45.95.168.90](https://vuldb.com/?ip.45.95.168.90) | - | - | High
+4 | [89.248.174.165](https://vuldb.com/?ip.89.248.174.165) | - | UNIX CCTV DVR | High
+5 | [89.248.174.166](https://vuldb.com/?ip.89.248.174.166) | - | UNIX CCTV DVR | High
+6 | [89.248.174.198](https://vuldb.com/?ip.89.248.174.198) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Moobot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Moobot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -48,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,25 +78,23 @@ ID | Type | Indicator | Confidence
 19 | File | `/member/index/login.html` | High
 20 | File | `/moddable/xs/sources/xsScript.c` | High
 21 | File | `/moddable/xs/sources/xsSymbol.c` | High
-22 | File | `/multiux/SaveMailbox` | High
-23 | File | `/music/ajax.php` | High
-24 | File | `/nagioslogserver/configure/create_snapshot` | High
-25 | File | `/nova/bin/lcdstat` | High
-26 | File | `/orms/` | Low
-27 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-28 | File | `/rest/api/2/user/picker` | High
-29 | File | `/rsms/` | Low
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/src/njs_vmcode.c` | High
-32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-33 | File | `/syscmd.asp` | Medium
-34 | File | `/system?action=ServiceAdmin` | High
-35 | File | `/tmp` | Low
-36 | File | `/uncpath/` | Medium
-37 | File | `/uploads/dede` | High
-38 | ... | ... | ...
+22 | File | `/music/ajax.php` | High
+23 | File | `/nagioslogserver/configure/create_snapshot` | High
+24 | File | `/nova/bin/lcdstat` | High
+25 | File | `/orms/` | Low
+26 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+27 | File | `/rest/api/2/user/picker` | High
+28 | File | `/rsms/` | Low
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/src/njs_vmcode.c` | High
+31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+32 | File | `/syscmd.asp` | Medium
+33 | File | `/system?action=ServiceAdmin` | High
+34 | File | `/tmp` | Low
+35 | File | `/uncpath/` | Medium
+36 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.netlab.360.com/ddos-botnet-moobot-en/
 * https://blog.netlab.360.com/moobot-0day-unixcctv-dvr-en/
+* https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
 * https://blog.netlab.360.com/the-botnet-cluster-on-185-244-25-0-24-en/
 
 ## Literature

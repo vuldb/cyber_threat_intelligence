@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -151,7 +151,7 @@ There are 496 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Grizzly Steppe. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Grizzly Steppe_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -169,39 +169,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/configure.php` | High
-3 | File | `/admin/doctors/view_doctor.php` | High
-4 | File | `/admin/index.php?lfj=mysql&action=del` | High
-5 | File | `/cgi-bin/luci/rc` | High
-6 | File | `/cms/ajax.php` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/dev/dri/card1` | High
-9 | File | `/domain/service/.ewell-known/caldav` | High
-10 | File | `/download` | Medium
-11 | File | `/formWlanSetup` | High
-12 | File | `/goform/setIPv6Status` | High
-13 | File | `/images` | Low
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/InternalPages/ExecuteTask.aspx` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/music/ajax.php` | High
-19 | File | `/pandora_console/ajax.php` | High
-20 | File | `/plugins/servlet/audit/resource` | High
-21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-22 | File | `/proc/<pid>/status` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rest/api/1.0/render` | High
-25 | File | `/RestAPI` | Medium
-26 | File | `/SASWebReportStudio/logonAndRender.do` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/var/log/nginx` | High
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin/configure.php` | High
+4 | File | `/admin/doctors/view_doctor.php` | High
+5 | File | `/admin/index.php?lfj=mysql&action=del` | High
+6 | File | `/cgi-bin/luci/rc` | High
+7 | File | `/cms/ajax.php` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/dev/dri/card1` | High
+10 | File | `/domain/service/.ewell-known/caldav` | High
+11 | File | `/download` | Medium
+12 | File | `/formWlanSetup` | High
+13 | File | `/goform/setIPv6Status` | High
+14 | File | `/images` | Low
+15 | File | `/include/chart_generator.php` | High
+16 | File | `/InternalPages/ExecuteTask.aspx` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/music/ajax.php` | High
+20 | File | `/pandora_console/ajax.php` | High
+21 | File | `/plugins/servlet/audit/resource` | High
+22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/rest/api/1.0/render` | High
+26 | File | `/RestAPI` | Medium
+27 | File | `/SASWebReportStudio/logonAndRender.do` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
