@@ -1,0 +1,146 @@
+# Spalax - Cyber Threat Intelligence
+
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the campaign known as _Spalax_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
+
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spalax:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 21 more country items available. Please use our online service to access the data.
+
+## Actors
+
+These _actors_ are associated with Spalax or other actors linked to the campaign.
+
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Spalax](https://vuldb.com/?actor.spalax) | High
+
+## IOC - Indicator of Compromise
+
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Spalax.
+
+ID | IP address | Hostname | Actor | Confidence
+-- | ---------- | -------- | ----- | ----------
+1 | [128.90.108.132](https://vuldb.com/?ip.128.90.108.132) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+2 | [128.90.108.177](https://vuldb.com/?ip.128.90.108.177) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+3 | [128.90.112.34](https://vuldb.com/?ip.128.90.112.34) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+4 | [128.90.112.142](https://vuldb.com/?ip.128.90.112.142) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+5 | [128.90.115.100](https://vuldb.com/?ip.128.90.115.100) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+6 | [128.90.115.244](https://vuldb.com/?ip.128.90.115.244) | undefined.hostname.localhost | [Spalax](https://vuldb.com/?actor.spalax) | High
+7 | [179.14.171.7](https://vuldb.com/?ip.179.14.171.7) | Dinamic-Tigo-179-14-171-7.tigo.com.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+8 | [179.14.173.93](https://vuldb.com/?ip.179.14.173.93) | Dinamic-Tigo-179-14-173-93.tigo.com.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+9 | [181.49.90.193](https://vuldb.com/?ip.181.49.90.193) | dynamic-ip-1814990193.cable.net.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+10 | [181.52.100.157](https://vuldb.com/?ip.181.52.100.157) | static-ip-cr181520100157.cable.net.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+11 | [181.52.102.87](https://vuldb.com/?ip.181.52.102.87) | static-ip-cr18152010287.cable.net.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+12 | [181.52.103.140](https://vuldb.com/?ip.181.52.103.140) | static-ip-cr181520103140.cable.net.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+13 | [181.52.104.2](https://vuldb.com/?ip.181.52.104.2) | static-ip-cr1815201042.cable.net.co | [Spalax](https://vuldb.com/?actor.spalax) | High
+14 | ... | ... | ... | ...
+
+There are 52 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Spalax. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 7 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Spalax. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/assets/ctx` | Medium
+5 | File | `/concat?/%2557EB-INF/web.xml` | High
+6 | File | `/config/getuser` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/ext/phar/phar_object.c` | High
+9 | File | `/filemanager/php/connector.php` | High
+10 | File | `/get_getnetworkconf.cgi` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/osm/REGISTER.cmd` | High
+16 | File | `/product_list.php` | High
+17 | File | `/replication` | Medium
+18 | File | `/see_more_details.php` | High
+19 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+20 | File | `/supervisor/procesa_carga.php` | High
+21 | File | `/type.php` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/zm/index.php` | High
+25 | File | `4.2.0.CP09` | Medium
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `802dot1xclientcert.cgi` | High
+28 | File | `add.exe` | Low
+29 | File | `addentry.php` | Medium
+30 | File | `admin-ajax.php` | High
+31 | File | `admin.color.php` | High
+32 | File | `admin.cropcanvas.php` | High
+33 | File | `admin.joomlaradiov5.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin.php?m=Food&a=addsave` | High
+36 | File | `admin/category.inc.php` | High
+37 | File | `admin/conf_users_edit.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/user.php` | High
+40 | File | `admin/write-post.php` | High
+41 | File | `administrator/components/com_media/helpers/media.php` | High
+42 | File | `admin_events.php` | High
+43 | File | `ajax_new_account.php` | High
+44 | File | `akocomments.php` | High
+45 | File | `allopass-error.php` | High
+46 | File | `announcement.php` | High
+47 | File | `api_poller.php` | High
+48 | File | `apply.cgi` | Medium
+49 | File | `archiver\index.php` | High
+50 | File | `artlinks.dispnew.php` | High
+51 | File | `auth.inc.php` | Medium
+52 | File | `authorization.do` | High
+53 | File | `awstats.pl` | Medium
+54 | File | `backoffice/login.asp` | High
+55 | File | `bb_usage_stats.php` | High
+56 | File | `binder.c` | Medium
+57 | File | `bl-kernel/ajax/upload-images.php` | High
+58 | File | `books.php` | Medium
+59 | File | `C:\Python27` | Medium
+60 | ... | ... | ...
+
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+
+## References
+
+The following list contains _external sources_ which discuss the campaign and the associated activities:
+
+* https://github.com/eset/malware-ioc/tree/master/spalax
+
+## Literature
+
+The following _articles_ explain our unique predictive cyber threat intelligence:
+
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
+
+## License
+
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

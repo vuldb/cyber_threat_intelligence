@@ -17,9 +17,11 @@ There are 1 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with CostaRicto:
+These _actors_ are associated with CostaRicto or other actors linked to the campaign.
 
-* [Hackers-for-Hire](https://vuldb.com/?actor.hackers-for-hire)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Hackers-for-Hire](https://vuldb.com/?actor.hackers-for-hire) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +29,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.89.175.206](https://vuldb.com/?ip.45.89.175.206) | - | Hackers-for-Hire | High
-2 | [45.138.172.54](https://vuldb.com/?ip.45.138.172.54) | - | Hackers-for-Hire | High
-3 | [144.217.53.146](https://vuldb.com/?ip.144.217.53.146) | ip146.ip-144-217-53.net | Hackers-for-Hire | High
+1 | [45.89.175.206](https://vuldb.com/?ip.45.89.175.206) | - | [Hackers-for-Hire](https://vuldb.com/?actor.hackers-for-hire) | High
+2 | [45.138.172.54](https://vuldb.com/?ip.45.138.172.54) | - | [Hackers-for-Hire](https://vuldb.com/?actor.hackers-for-hire) | High
+3 | [144.217.53.146](https://vuldb.com/?ip.144.217.53.146) | ip146.ip-144-217-53.net | [Hackers-for-Hire](https://vuldb.com/?actor.hackers-for-hire) | High
 4 | ... | ... | ... | ...
 
 There are 3 more IOC items available. Please use our online service to access the data.

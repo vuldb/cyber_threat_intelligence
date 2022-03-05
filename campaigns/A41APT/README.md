@@ -17,9 +17,11 @@ There are 3 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with A41APT:
+These _actors_ are associated with A41APT or other actors linked to the campaign.
 
-* [APT10](https://vuldb.com/?actor.apt10)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [APT10](https://vuldb.com/?actor.apt10) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +29,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.138.157.83](https://vuldb.com/?ip.45.138.157.83) | google.com.tm | APT10 | High
-2 | [88.198.101.58](https://vuldb.com/?ip.88.198.101.58) | static.88.198.101.58.clients.your-server.de | APT10 | High
-3 | [151.236.30.223](https://vuldb.com/?ip.151.236.30.223) | 223.30.236.151.in-addr.arpa | APT10 | High
+1 | [45.138.157.83](https://vuldb.com/?ip.45.138.157.83) | google.com.tm | [APT10](https://vuldb.com/?actor.apt10) | High
+2 | [88.198.101.58](https://vuldb.com/?ip.88.198.101.58) | static.88.198.101.58.clients.your-server.de | [APT10](https://vuldb.com/?actor.apt10) | High
+3 | [151.236.30.223](https://vuldb.com/?ip.151.236.30.223) | 223.30.236.151.in-addr.arpa | [APT10](https://vuldb.com/?actor.apt10) | High
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.

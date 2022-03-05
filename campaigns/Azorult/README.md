@@ -17,10 +17,12 @@ There are 3 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with Azorult:
+These _actors_ are associated with Azorult or other actors linked to the campaign.
 
-* [Ramnit](https://vuldb.com/?actor.ramnit)
-* [Amadey Bot](https://vuldb.com/?actor.amadey bot)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Ramnit](https://vuldb.com/?actor.ramnit) | High
+2 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +30,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [2.59.42.63](https://vuldb.com/?ip.2.59.42.63) | vds-cw08597.timeweb.ru | Amadey Bot | High
-2 | [80.87.197.238](https://vuldb.com/?ip.80.87.197.238) | profiapp21.fvds.ru | Ramnit | High
-3 | [93.189.44.143](https://vuldb.com/?ip.93.189.44.143) | - | Ramnit | High
+1 | [2.59.42.63](https://vuldb.com/?ip.2.59.42.63) | vds-cw08597.timeweb.ru | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
+2 | [80.87.197.238](https://vuldb.com/?ip.80.87.197.238) | profiapp21.fvds.ru | [Ramnit](https://vuldb.com/?actor.ramnit) | High
+3 | [93.189.44.143](https://vuldb.com/?ip.93.189.44.143) | - | [Ramnit](https://vuldb.com/?actor.ramnit) | High
 4 | ... | ... | ... | ...
 
 There are 3 more IOC items available. Please use our online service to access the data.

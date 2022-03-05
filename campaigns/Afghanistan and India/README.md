@@ -13,9 +13,11 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 ## Actors
 
-These _actors_ are associated with Afghanistan and India:
+These _actors_ are associated with Afghanistan and India or other actors linked to the campaign.
 
-* [Bunse](https://vuldb.com/?actor.bunse)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Bunse](https://vuldb.com/?actor.bunse) | High
 
 ## IOC - Indicator of Compromise
 
@@ -23,8 +25,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [62.171.157.185](https://vuldb.com/?ip.62.171.157.185) | vmi479022.contaboserver.net | Bunse | High
-2 | [95.111.241.233](https://vuldb.com/?ip.95.111.241.233) | vmi698587.contaboserver.net | Bunse | High
+1 | [62.171.157.185](https://vuldb.com/?ip.62.171.157.185) | vmi479022.contaboserver.net | [Bunse](https://vuldb.com/?actor.bunse) | High
+2 | [95.111.241.233](https://vuldb.com/?ip.95.111.241.233) | vmi698587.contaboserver.net | [Bunse](https://vuldb.com/?actor.bunse) | High
 
 ## IOA - Indicator of Attack
 

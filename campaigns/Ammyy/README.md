@@ -14,9 +14,11 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 ## Actors
 
-These _actors_ are associated with Ammyy:
+These _actors_ are associated with Ammyy or other actors linked to the campaign.
 
-* [TA505](https://vuldb.com/?actor.ta505)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [TA505](https://vuldb.com/?actor.ta505) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,8 +26,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [179.60.146.3](https://vuldb.com/?ip.179.60.146.3) | hostby.data-solutions.net | TA505 | High
-2 | [194.165.16.11](https://vuldb.com/?ip.194.165.16.11) | - | TA505 | High
+1 | [179.60.146.3](https://vuldb.com/?ip.179.60.146.3) | hostby.data-solutions.net | [TA505](https://vuldb.com/?actor.ta505) | High
+2 | [194.165.16.11](https://vuldb.com/?ip.194.165.16.11) | - | [TA505](https://vuldb.com/?actor.ta505) | High
 
 ## TTP - Tactics, Techniques, Procedures
 

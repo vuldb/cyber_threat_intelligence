@@ -17,9 +17,11 @@ There are 8 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with Phishing Korea:
+These _actors_ are associated with Phishing Korea or other actors linked to the campaign.
 
-* [Agent Tesla](https://vuldb.com/?actor.agent tesla)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Agent Tesla](https://vuldb.com/?actor.agent_tesla) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +29,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | Agent Tesla | High
-2 | [149.56.200.165](https://vuldb.com/?ip.149.56.200.165) | ip165.ip-149-56-200.net | Agent Tesla | High
+1 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | [Agent Tesla](https://vuldb.com/?actor.agent_tesla) | High
+2 | [149.56.200.165](https://vuldb.com/?ip.149.56.200.165) | ip165.ip-149-56-200.net | [Agent Tesla](https://vuldb.com/?actor.agent_tesla) | High
 
 ## TTP - Tactics, Techniques, Procedures
 

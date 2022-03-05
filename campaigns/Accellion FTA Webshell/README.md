@@ -17,9 +17,11 @@ There are 20 more country items available. Please use our online service to acce
 
 ## Actors
 
-These _actors_ are associated with Accellion FTA Webshell:
+These _actors_ are associated with Accellion FTA Webshell or other actors linked to the campaign.
 
-* [Unknown](https://vuldb.com/?actor.unknown)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +29,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.135.229.179](https://vuldb.com/?ip.45.135.229.179) | ipcore3.example.com | Unknown | High
-2 | [79.141.162.82](https://vuldb.com/?ip.79.141.162.82) | - | Unknown | High
-3 | [92.38.135.29](https://vuldb.com/?ip.92.38.135.29) | camerotn1.com | Unknown | High
+1 | [45.135.229.179](https://vuldb.com/?ip.45.135.229.179) | ipcore3.example.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [79.141.162.82](https://vuldb.com/?ip.79.141.162.82) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [92.38.135.29](https://vuldb.com/?ip.92.38.135.29) | camerotn1.com | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
 There are 6 more IOC items available. Please use our online service to access the data.

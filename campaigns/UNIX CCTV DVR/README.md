@@ -17,9 +17,11 @@ There are 21 more country items available. Please use our online service to acce
 
 ## Actors
 
-These _actors_ are associated with UNIX CCTV DVR:
+These _actors_ are associated with UNIX CCTV DVR or other actors linked to the campaign.
 
-* [Moobot](https://vuldb.com/?actor.moobot)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Moobot](https://vuldb.com/?actor.moobot) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +29,10 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [89.248.174.165](https://vuldb.com/?ip.89.248.174.165) | - | Moobot | High
-2 | [89.248.174.166](https://vuldb.com/?ip.89.248.174.166) | - | Moobot | High
-3 | [89.248.174.203](https://vuldb.com/?ip.89.248.174.203) | no-reverse-dns-configured.com | Moobot | High
-4 | [92.223.73.54](https://vuldb.com/?ip.92.223.73.54) | james050721.example.com | Moobot | High
+1 | [89.248.174.165](https://vuldb.com/?ip.89.248.174.165) | - | [Moobot](https://vuldb.com/?actor.moobot) | High
+2 | [89.248.174.166](https://vuldb.com/?ip.89.248.174.166) | - | [Moobot](https://vuldb.com/?actor.moobot) | High
+3 | [89.248.174.203](https://vuldb.com/?ip.89.248.174.203) | no-reverse-dns-configured.com | [Moobot](https://vuldb.com/?actor.moobot) | High
+4 | [92.223.73.54](https://vuldb.com/?ip.92.223.73.54) | james050721.example.com | [Moobot](https://vuldb.com/?actor.moobot) | High
 5 | ... | ... | ... | ...
 
 There are 16 more IOC items available. Please use our online service to access the data.
@@ -93,7 +95,7 @@ ID | Type | Indicator | Confidence
 37 | File | `/user/add` | Medium
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

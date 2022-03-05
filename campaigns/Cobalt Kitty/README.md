@@ -17,9 +17,11 @@ There are 2 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with Cobalt Kitty:
+These _actors_ are associated with Cobalt Kitty or other actors linked to the campaign.
 
-* [APT32](https://vuldb.com/?actor.apt32)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [APT32](https://vuldb.com/?actor.apt32) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +29,10 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.227.196.126](https://vuldb.com/?ip.23.227.196.126) | 23-227-196-126.static.hvvc.us | APT32 | High
-2 | [23.227.199.121](https://vuldb.com/?ip.23.227.199.121) | 23-227-199-121.static.hvvc.us | APT32 | High
-3 | [27.102.70.211](https://vuldb.com/?ip.27.102.70.211) | - | APT32 | High
-4 | [45.114.117.137](https://vuldb.com/?ip.45.114.117.137) | - | APT32 | High
+1 | [23.227.196.126](https://vuldb.com/?ip.23.227.196.126) | 23-227-196-126.static.hvvc.us | [APT32](https://vuldb.com/?actor.apt32) | High
+2 | [23.227.199.121](https://vuldb.com/?ip.23.227.199.121) | 23-227-199-121.static.hvvc.us | [APT32](https://vuldb.com/?actor.apt32) | High
+3 | [27.102.70.211](https://vuldb.com/?ip.27.102.70.211) | - | [APT32](https://vuldb.com/?actor.apt32) | High
+4 | [45.114.117.137](https://vuldb.com/?ip.45.114.117.137) | - | [APT32](https://vuldb.com/?actor.apt32) | High
 5 | ... | ... | ... | ...
 
 There are 15 more IOC items available. Please use our online service to access the data.

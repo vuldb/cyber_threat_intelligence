@@ -13,9 +13,11 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 ## Actors
 
-These _actors_ are associated with Asylum Ambuscade:
+These _actors_ are associated with Asylum Ambuscade or other actors linked to the campaign.
 
-* [Unknown](https://vuldb.com/?actor.unknown)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -23,9 +25,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.61.137.231](https://vuldb.com/?ip.45.61.137.231) | - | Unknown | High
-2 | [84.32.188.96](https://vuldb.com/?ip.84.32.188.96) | - | Unknown | High
-3 | [157.230.104.79](https://vuldb.com/?ip.157.230.104.79) | - | Unknown | High
+1 | [45.61.137.231](https://vuldb.com/?ip.45.61.137.231) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [84.32.188.96](https://vuldb.com/?ip.84.32.188.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [157.230.104.79](https://vuldb.com/?ip.157.230.104.79) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## TTP - Tactics, Techniques, Procedures
 

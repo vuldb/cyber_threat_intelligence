@@ -14,9 +14,11 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 ## Actors
 
-These _actors_ are associated with servhelper:
+These _actors_ are associated with servhelper or other actors linked to the campaign.
 
-* [TA505](https://vuldb.com/?actor.ta505)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [TA505](https://vuldb.com/?actor.ta505) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +26,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.63.101.210](https://vuldb.com/?ip.45.63.101.210) | 45.63.101.210.vultr.com | TA505 | Medium
-2 | [151.236.23.56](https://vuldb.com/?ip.151.236.23.56) | 56.23.236.151.in-addr.arpa | TA505 | High
-3 | [169.239.128.104](https://vuldb.com/?ip.169.239.128.104) | rns.za.zappiehost.com | TA505 | High
+1 | [45.63.101.210](https://vuldb.com/?ip.45.63.101.210) | 45.63.101.210.vultr.com | [TA505](https://vuldb.com/?actor.ta505) | Medium
+2 | [46.161.27.241](https://vuldb.com/?ip.46.161.27.241) | - | [TA505](https://vuldb.com/?actor.ta505) | High
+3 | [151.236.23.56](https://vuldb.com/?ip.151.236.23.56) | 56.23.236.151.in-addr.arpa | [TA505](https://vuldb.com/?actor.ta505) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +53,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/addusers` | High
-2 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-3 | File | `/public/login.htm` | High
-4 | File | `/sendKey` | Medium
-5 | ... | ... | ...
+2 | File | `/dus/shopliste/index.php` | High
+3 | File | `/etc/path` | Medium
+4 | File | `/nagiosql/admin/checkcommands.php` | High
+5 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+6 | File | `/public/login.htm` | High
+7 | File | `/sendKey` | Medium
+8 | File | `/tmp` | Low
+9 | File | `/usr/5bin/su` | Medium
+10 | File | `/usr/bin/mail` | High
+11 | File | `/var/dt/` | Medium
+12 | File | `00.jsp` | Low
+13 | File | `adclick.php` | Medium
+14 | File | `admin.asp` | Medium
+15 | File | `admin.php` | Medium
+16 | File | `admin/` | Low
+17 | File | `admin/manage-comments.php` | High
+18 | File | `AdminViewError/AdminAddadmin` | High
+19 | File | `agentdisplay.php` | High
+20 | File | `ashnews.php/ashheadlines.php` | High
+21 | File | `auction.cgi` | Medium
+22 | File | `autologin.jsp` | High
+23 | File | `axspawn.c` | Medium
+24 | File | `base_ag_main.php` | High
+25 | File | `base_qry_main.php` | High
+26 | File | `bigsam_guestbook.php` | High
+27 | File | `bugzilla_email_append.pl` | High
+28 | File | `bug_actiongroup.php` | High
+29 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://www.deepinstinct.com/2019/04/02/new-servhelper-variant-employs-excel-4-0-macro-to-drop-signed-payload/
+* https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505
 
 ## Literature
 

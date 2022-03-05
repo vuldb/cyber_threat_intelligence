@@ -17,9 +17,11 @@ There are 5 more country items available. Please use our online service to acces
 
 ## Actors
 
-These _actors_ are associated with SolarWinds:
+These _actors_ are associated with SolarWinds or other actors linked to the campaign.
 
-* [SilverFish](https://vuldb.com/?actor.silverfish)
+ID | Actor | Confidence
+-- | ----- | ----------
+1 | [SilverFish](https://vuldb.com/?actor.silverfish) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +29,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.61.57.152](https://vuldb.com/?ip.5.61.57.152) | - | SilverFish | High
-2 | [23.106.61.74](https://vuldb.com/?ip.23.106.61.74) | - | SilverFish | High
-3 | [74.72.74.142](https://vuldb.com/?ip.74.72.74.142) | cpe-74-72-74-142.nyc.res.rr.com | SilverFish | High
+1 | [5.61.57.152](https://vuldb.com/?ip.5.61.57.152) | - | [SilverFish](https://vuldb.com/?actor.silverfish) | High
+2 | [23.106.61.74](https://vuldb.com/?ip.23.106.61.74) | - | [SilverFish](https://vuldb.com/?actor.silverfish) | High
+3 | [74.72.74.142](https://vuldb.com/?ip.74.72.74.142) | cpe-74-72-74-142.nyc.res.rr.com | [SilverFish](https://vuldb.com/?actor.silverfish) | High
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
