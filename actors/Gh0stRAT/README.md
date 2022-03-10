@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,16 +47,16 @@ ID | IP address | Hostname | Campaign | Confidence
 24 | [58.221.47.47](https://vuldb.com/?ip.58.221.47.47) | - | - | High
 25 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 97 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Gh0stRAT. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Gh0stRAT_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -76,20 +76,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/car.php` | Medium
 7 | File | `/CMD_ACCOUNT_ADMIN` | High
 8 | File | `/concat?/%2557EB-INF/web.xml` | High
-9 | File | `/config/getuser` | High
-10 | File | `/core/admin/categories.php` | High
-11 | File | `/dashboards/#` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/etc/controller-agent/agent.conf` | High
-14 | File | `/etc/postfix/sender_login` | High
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/etc/tomcat8/Catalina/attack` | High
-17 | File | `/filemanager/php/connector.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/fudforum/adm/hlplist.php` | High
-20 | File | `/GponForm/fsetup_Form` | High
-21 | File | `/log_download.cgi` | High
-22 | File | `/modules/profile/index.php` | High
+9 | File | `/core/admin/categories.php` | High
+10 | File | `/dashboards/#` | High
+11 | File | `/data/remove` | Medium
+12 | File | `/etc/controller-agent/agent.conf` | High
+13 | File | `/etc/postfix/sender_login` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/etc/tomcat8/Catalina/attack` | High
+16 | File | `/filemanager/php/connector.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/fudforum/adm/hlplist.php` | High
+19 | File | `/GponForm/fsetup_Form` | High
+20 | File | `/log_download.cgi` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/MTFWU` | Low
 23 | File | `/navigate/navigate_download.php` | High
 24 | File | `/out.php` | Medium
 25 | File | `/password.html` | High
@@ -106,7 +106,7 @@ ID | Type | Indicator | Confidence
 36 | File | `/tmp/kamailio_ctl` | High
 37 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -130,6 +130,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
+* https://blog.talosintelligence.com/2022/03/threat-roundup-0225-0304.html
 
 ## Literature
 

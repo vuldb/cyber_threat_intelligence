@@ -1,6 +1,6 @@
 # Wizard Spider - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wizard Spider](https://vuldb.com/?actor.wizard_spider). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.wizard_spider](https://vuldb.com/?actor.wizard_spider)
 
@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with Wizard Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wizard Spider:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -27,70 +27,70 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 3.137.182.114 | ec2-3-137-182-114.us-east-2.compute.amazonaws.com | - | Medium
-2 | 5.2.64.113 | - | KEGTAP/SINGLEMALT | High
-3 | 5.2.64.133 | - | KEGTAP/SINGLEMALT | High
-4 | 5.2.64.135 | mail.chelseaf1oors.com | KEGTAP/SINGLEMALT | High
-5 | 5.2.64.144 | - | KEGTAP/SINGLEMALT | High
-6 | 5.2.64.149 | - | KEGTAP/SINGLEMALT | High
-7 | 5.2.64.167 | - | KEGTAP/SINGLEMALT | High
-8 | 5.2.64.172 | - | KEGTAP/SINGLEMALT | High
-9 | 5.2.64.174 | liteserver.netnik.eu | KEGTAP/SINGLEMALT | High
-10 | 5.2.64.182 | sync.remote.mutlamap.dk | KEGTAP/SINGLEMALT | High
-11 | 5.2.70.149 | - | - | High
-12 | 5.2.72.200 | - | KEGTAP/SINGLEMALT | High
-13 | 5.2.72.202 | pieterb.com | KEGTAP/SINGLEMALT | High
-14 | 5.2.78.118 | - | - | High
-15 | 5.2.79.10 | - | KEGTAP/SINGLEMALT | High
-16 | 5.2.79.12 | mail.suspicious-login-managepaypal.com | KEGTAP/SINGLEMALT | High
-17 | 5.2.79.121 | - | KEGTAP/SINGLEMALT | High
-18 | 5.2.79.122 | mailer.foliata.nl | KEGTAP/SINGLEMALT | High
-19 | 5.182.210.145 | - | - | High
-20 | 31.7.59.141 | - | KEGTAP/SINGLEMALT | High
-21 | 31.131.21.184 | - | - | High
-22 | 34.222.33.48 | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | - | Medium
-23 | 36.89.106.69 | - | - | High
-24 | 36.91.87.227 | - | - | High
-25 | 37.187.3.176 | ns3367168.ip-37-187-3.eu | - | High
-26 | 45.32.30.162 | 45.32.30.162.vultr.com | KEGTAP/SINGLEMALT | Medium
-27 | 45.32.130.5 | 45.32.130.5.vultr.com | KEGTAP/SINGLEMALT | Medium
-28 | 45.32.170.9 | 45.32.170.9.vultr.com | KEGTAP/SINGLEMALT | Medium
-29 | 45.34.6.221 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
-30 | 45.34.6.222 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
-31 | 45.34.6.223 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
-32 | 45.34.6.225 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
-33 | 45.34.6.226 | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
-34 | 45.34.6.229 | mail2.dehetre.cloud | KEGTAP/SINGLEMALT | High
-35 | 45.63.95.187 | 45.63.95.187.vultr.com | KEGTAP/SINGLEMALT | Medium
-36 | 45.76.20.140 | CITADEL_MD_BENNETPOINTGENERALSTOREDELI_1241_CONVENIENCE | KEGTAP/SINGLEMALT | High
-37 | 45.76.45.162 | 45.76.45.162.vultr.com | KEGTAP/SINGLEMALT | Medium
-38 | 45.76.49.78 | 45.76.49.78.vultr.com | KEGTAP/SINGLEMALT | Medium
-39 | 45.76.167.35 | virtjunkie.com | KEGTAP/SINGLEMALT | High
-40 | 45.76.231.195 | 45.76.231.195.vultr.com | KEGTAP/SINGLEMALT | Medium
-41 | 45.77.58.172 | 45.77.58.172.vultr.com | KEGTAP/SINGLEMALT | Medium
-42 | 45.77.89.31 | 45.77.89.31.vultr.com | KEGTAP/SINGLEMALT | Medium
-43 | 45.77.98.157 | 45.77.98.157.vultr.com | KEGTAP/SINGLEMALT | Medium
-44 | 45.77.119.212 | 45.77.119.212.vultr.com | KEGTAP/SINGLEMALT | Medium
-45 | 45.77.153.72 | 45.77.153.72.vultr.com | KEGTAP/SINGLEMALT | Medium
-46 | 45.77.206.105 | 45.77.206.105.vultr.com | KEGTAP/SINGLEMALT | Medium
-47 | 45.89.127.92 | - | - | High
-48 | 45.138.172.95 | - | KEGTAP/SINGLEMALT | High
-49 | 45.141.84.120 | - | - | High
-50 | 45.141.86.84 | - | KEGTAP/SINGLEMALT | High
-51 | 45.141.86.90 | - | KEGTAP/SINGLEMALT | High
-52 | 45.141.86.91 | - | KEGTAP/SINGLEMALT | High
-53 | 45.141.86.92 | - | KEGTAP/SINGLEMALT | High
-54 | 45.141.86.93 | - | KEGTAP/SINGLEMALT | High
-55 | 45.141.86.94 | - | KEGTAP/SINGLEMALT | High
-56 | 45.141.86.95 | - | KEGTAP/SINGLEMALT | High
-57 | 45.141.86.96 | - | KEGTAP/SINGLEMALT | High
+1 | [3.137.182.114](https://vuldb.com/?ip.3.137.182.114) | ec2-3-137-182-114.us-east-2.compute.amazonaws.com | - | Medium
+2 | [5.2.64.113](https://vuldb.com/?ip.5.2.64.113) | - | KEGTAP/SINGLEMALT | High
+3 | [5.2.64.133](https://vuldb.com/?ip.5.2.64.133) | - | KEGTAP/SINGLEMALT | High
+4 | [5.2.64.135](https://vuldb.com/?ip.5.2.64.135) | mail.chelseaf1oors.com | KEGTAP/SINGLEMALT | High
+5 | [5.2.64.144](https://vuldb.com/?ip.5.2.64.144) | - | KEGTAP/SINGLEMALT | High
+6 | [5.2.64.149](https://vuldb.com/?ip.5.2.64.149) | - | KEGTAP/SINGLEMALT | High
+7 | [5.2.64.167](https://vuldb.com/?ip.5.2.64.167) | - | KEGTAP/SINGLEMALT | High
+8 | [5.2.64.172](https://vuldb.com/?ip.5.2.64.172) | - | KEGTAP/SINGLEMALT | High
+9 | [5.2.64.174](https://vuldb.com/?ip.5.2.64.174) | liteserver.netnik.eu | KEGTAP/SINGLEMALT | High
+10 | [5.2.64.182](https://vuldb.com/?ip.5.2.64.182) | sync.remote.mutlamap.dk | KEGTAP/SINGLEMALT | High
+11 | [5.2.70.149](https://vuldb.com/?ip.5.2.70.149) | - | - | High
+12 | [5.2.72.200](https://vuldb.com/?ip.5.2.72.200) | - | KEGTAP/SINGLEMALT | High
+13 | [5.2.72.202](https://vuldb.com/?ip.5.2.72.202) | pieterb.com | KEGTAP/SINGLEMALT | High
+14 | [5.2.78.118](https://vuldb.com/?ip.5.2.78.118) | - | - | High
+15 | [5.2.79.10](https://vuldb.com/?ip.5.2.79.10) | - | KEGTAP/SINGLEMALT | High
+16 | [5.2.79.12](https://vuldb.com/?ip.5.2.79.12) | mail.suspicious-login-managepaypal.com | KEGTAP/SINGLEMALT | High
+17 | [5.2.79.121](https://vuldb.com/?ip.5.2.79.121) | - | KEGTAP/SINGLEMALT | High
+18 | [5.2.79.122](https://vuldb.com/?ip.5.2.79.122) | mailer.foliata.nl | KEGTAP/SINGLEMALT | High
+19 | [5.182.210.145](https://vuldb.com/?ip.5.182.210.145) | - | - | High
+20 | [31.7.59.141](https://vuldb.com/?ip.31.7.59.141) | - | KEGTAP/SINGLEMALT | High
+21 | [31.131.21.184](https://vuldb.com/?ip.31.131.21.184) | - | - | High
+22 | [34.222.33.48](https://vuldb.com/?ip.34.222.33.48) | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | - | Medium
+23 | [36.89.106.69](https://vuldb.com/?ip.36.89.106.69) | - | - | High
+24 | [36.91.87.227](https://vuldb.com/?ip.36.91.87.227) | - | - | High
+25 | [37.187.3.176](https://vuldb.com/?ip.37.187.3.176) | ns3367168.ip-37-187-3.eu | - | High
+26 | [45.32.30.162](https://vuldb.com/?ip.45.32.30.162) | 45.32.30.162.vultr.com | KEGTAP/SINGLEMALT | Medium
+27 | [45.32.130.5](https://vuldb.com/?ip.45.32.130.5) | 45.32.130.5.vultr.com | KEGTAP/SINGLEMALT | Medium
+28 | [45.32.170.9](https://vuldb.com/?ip.45.32.170.9) | 45.32.170.9.vultr.com | KEGTAP/SINGLEMALT | Medium
+29 | [45.34.6.221](https://vuldb.com/?ip.45.34.6.221) | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+30 | [45.34.6.222](https://vuldb.com/?ip.45.34.6.222) | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+31 | [45.34.6.223](https://vuldb.com/?ip.45.34.6.223) | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+32 | [45.34.6.225](https://vuldb.com/?ip.45.34.6.225) | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+33 | [45.34.6.226](https://vuldb.com/?ip.45.34.6.226) | unassigned.psychz.net | KEGTAP/SINGLEMALT | High
+34 | [45.34.6.229](https://vuldb.com/?ip.45.34.6.229) | mail2.dehetre.cloud | KEGTAP/SINGLEMALT | High
+35 | [45.63.95.187](https://vuldb.com/?ip.45.63.95.187) | 45.63.95.187.vultr.com | KEGTAP/SINGLEMALT | Medium
+36 | [45.76.20.140](https://vuldb.com/?ip.45.76.20.140) | CITADEL_MD_BENNETPOINTGENERALSTOREDELI_1241_CONVENIENCE | KEGTAP/SINGLEMALT | High
+37 | [45.76.45.162](https://vuldb.com/?ip.45.76.45.162) | 45.76.45.162.vultr.com | KEGTAP/SINGLEMALT | Medium
+38 | [45.76.49.78](https://vuldb.com/?ip.45.76.49.78) | 45.76.49.78.vultr.com | KEGTAP/SINGLEMALT | Medium
+39 | [45.76.167.35](https://vuldb.com/?ip.45.76.167.35) | virtjunkie.com | KEGTAP/SINGLEMALT | High
+40 | [45.76.231.195](https://vuldb.com/?ip.45.76.231.195) | 45.76.231.195.vultr.com | KEGTAP/SINGLEMALT | Medium
+41 | [45.77.58.172](https://vuldb.com/?ip.45.77.58.172) | 45.77.58.172.vultr.com | KEGTAP/SINGLEMALT | Medium
+42 | [45.77.89.31](https://vuldb.com/?ip.45.77.89.31) | 45.77.89.31.vultr.com | KEGTAP/SINGLEMALT | Medium
+43 | [45.77.98.157](https://vuldb.com/?ip.45.77.98.157) | 45.77.98.157.vultr.com | KEGTAP/SINGLEMALT | Medium
+44 | [45.77.119.212](https://vuldb.com/?ip.45.77.119.212) | 45.77.119.212.vultr.com | KEGTAP/SINGLEMALT | Medium
+45 | [45.77.153.72](https://vuldb.com/?ip.45.77.153.72) | 45.77.153.72.vultr.com | KEGTAP/SINGLEMALT | Medium
+46 | [45.77.206.105](https://vuldb.com/?ip.45.77.206.105) | 45.77.206.105.vultr.com | KEGTAP/SINGLEMALT | Medium
+47 | [45.89.127.92](https://vuldb.com/?ip.45.89.127.92) | - | - | High
+48 | [45.138.172.95](https://vuldb.com/?ip.45.138.172.95) | - | KEGTAP/SINGLEMALT | High
+49 | [45.141.84.120](https://vuldb.com/?ip.45.141.84.120) | - | - | High
+50 | [45.141.86.84](https://vuldb.com/?ip.45.141.86.84) | - | KEGTAP/SINGLEMALT | High
+51 | [45.141.86.90](https://vuldb.com/?ip.45.141.86.90) | - | KEGTAP/SINGLEMALT | High
+52 | [45.141.86.91](https://vuldb.com/?ip.45.141.86.91) | - | KEGTAP/SINGLEMALT | High
+53 | [45.141.86.92](https://vuldb.com/?ip.45.141.86.92) | - | KEGTAP/SINGLEMALT | High
+54 | [45.141.86.93](https://vuldb.com/?ip.45.141.86.93) | - | KEGTAP/SINGLEMALT | High
+55 | [45.141.86.94](https://vuldb.com/?ip.45.141.86.94) | - | KEGTAP/SINGLEMALT | High
+56 | [45.141.86.95](https://vuldb.com/?ip.45.141.86.95) | - | KEGTAP/SINGLEMALT | High
+57 | [45.141.86.96](https://vuldb.com/?ip.45.141.86.96) | - | KEGTAP/SINGLEMALT | High
 58 | ... | ... | ... | ...
 
 There are 229 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Wizard Spider. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Wizard Spider_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -99,7 +99,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -123,40 +123,39 @@ ID | Type | Indicator | Confidence
 14 | File | `/debug/pprof` | Medium
 15 | File | `/etc/passwd` | Medium
 16 | File | `/forum/away.php` | High
-17 | File | `/irj/portal/` | Medium
-18 | File | `/irj/servlet/prt/portal/prteventname/nav/prteventdata/` | High
-19 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-20 | File | `/login` | Low
-21 | File | `/navigate/navigate_download.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/p` | Low
-25 | File | `/password.html` | High
-26 | File | `/proc/ioports` | High
-27 | File | `/property-list/property_view.php` | High
-28 | File | `/rest` | Low
-29 | File | `/rest/api/2/search` | High
-30 | File | `/s/` | Low
-31 | File | `/scripts/cpan_config` | High
-32 | File | `/services/system/setup.json` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/webconsole/APIController` | High
-35 | File | `/websocket/exec` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/wp-json/oembed/1.0/embed?url` | High
-38 | File | `/_next` | Low
-39 | File | `4.edu.php\conn\function.php` | High
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `adclick.php` | Medium
-42 | File | `add.php` | Low
-43 | File | `addentry.php` | Medium
-44 | File | `addressbook.php` | High
-45 | File | `add_comment.php` | High
-46 | File | `admin/category.inc.php` | High
-47 | File | `admin/conf_users_edit.php` | High
-48 | ... | ... | ...
+17 | File | `/login` | Low
+18 | File | `/navigate/navigate_download.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/p` | Low
+22 | File | `/password.html` | High
+23 | File | `/proc/ioports` | High
+24 | File | `/property-list/property_view.php` | High
+25 | File | `/rest` | Low
+26 | File | `/rest/api/2/search` | High
+27 | File | `/s/` | Low
+28 | File | `/scripts/cpan_config` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/services/system/setup.json` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/webconsole/APIController` | High
+33 | File | `/websocket/exec` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/_next` | Low
+37 | File | `4.edu.php\conn\function.php` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `addressbook.php` | High
+42 | File | `add_comment.php` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/conf_users_edit.php` | High
+45 | File | `admin/dl_sendmail.php` | High
+46 | File | `admin/index.php` | High
+47 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

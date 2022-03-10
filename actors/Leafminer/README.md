@@ -1,29 +1,29 @@
 # Leafminer - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Leafminer](https://vuldb.com/?actor.leafminer). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Leafminer](https://vuldb.com/?actor.leafminer). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.leafminer](https://vuldb.com/?actor.leafminer)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.leafminer](https://vuldb.com/?actor.leafminer)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Leafminer.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Leafminer.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 51.254.173.240 | ip240.ip-51-254-173.eu | High
-2 | 188.165.187.235 | - | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [51.254.173.240](https://vuldb.com/?ip.51.254.173.240) | ip240.ip-51-254-173.eu | - | High
+2 | [188.165.187.235](https://vuldb.com/?ip.188.165.187.235) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Leafminer. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Leafminer_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Leafminer. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Leafminer. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -31,13 +31,13 @@ ID | Type | Indicator | Confidence
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://symantec-enterprise-blogs.security.com/sites/default/files/2018-07/Leafminer_IOCs.txt
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

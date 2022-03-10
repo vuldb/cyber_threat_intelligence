@@ -22,6 +22,7 @@ These _actors_ are associated with Sednit or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT28](https://vuldb.com/?actor.apt28) | High
+2 | [Sednit](https://vuldb.com/?actor.sednit) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,11 +31,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.135.183.154](https://vuldb.com/?ip.5.135.183.154) | ns3290077.ip-5-135-183.eu | [APT28](https://vuldb.com/?actor.apt28) | High
-2 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | [APT28](https://vuldb.com/?actor.apt28) | High
-3 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | [APT28](https://vuldb.com/?actor.apt28) | High
+2 | [31.7.62.103](https://vuldb.com/?ip.31.7.62.103) | - | [Sednit](https://vuldb.com/?actor.sednit) | High
+3 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | [APT28](https://vuldb.com/?actor.apt28) | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,12 +59,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/htdocs/web/getcfg.php` | High
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q3
 * https://www.welivesecurity.com/wp-content/uploads/2016/10/eset-sednit-part-2.pdf
 
 ## Literature

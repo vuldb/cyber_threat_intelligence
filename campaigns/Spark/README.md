@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with Spark or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Molerats](https://vuldb.com/?actor.molerats) | High
+2 | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,7 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [91.219.237.99](https://vuldb.com/?ip.91.219.237.99) | sa1286.azar-a.net | [Molerats](https://vuldb.com/?actor.molerats) | High
+1 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+2 | [91.219.237.99](https://vuldb.com/?ip.91.219.237.99) | sa1286.azar-a.net | [Molerats](https://vuldb.com/?actor.molerats) | High
+3 | [104.21.49.220](https://vuldb.com/?ip.104.21.49.220) | - | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,12 +79,13 @@ ID | Type | Indicator | Confidence
 21 | File | `auth_profile.php` | High
 22 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://github.com/eset/malware-ioc/tree/master/sparklinggoblin
 * https://unit42.paloaltonetworks.com/molerats-delivers-spark-backdoor/
 
 ## Literature

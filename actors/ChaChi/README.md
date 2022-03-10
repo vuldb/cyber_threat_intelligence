@@ -33,7 +33,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by ChaChi. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _ChaChi_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/config/confmgr.php` | High
 29 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

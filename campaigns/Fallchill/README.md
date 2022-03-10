@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -53,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 4 more TTP items available. Please use our online service to access the data.
@@ -64,23 +66,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/?page=members/view_member` | High
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/files` | Medium
-5 | File | `/admin/options` | High
-6 | File | `/admin/page_edit/3` | High
-7 | File | `/admin_page/all-files-update-ajax.php` | High
-8 | File | `/api/servers` | Medium
-9 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-10 | File | `/cbpos/` | Low
-11 | File | `/etc/passwd` | Medium
-12 | File | `/goform/SetPptpServerCfg` | High
-13 | File | `/mdiy/dict/listExcludeApp` | High
-14 | File | `/members/view_member.php` | High
-15 | ... | ... | ...
+1 | File | `/etc/passwd` | Medium
+2 | File | `/mdiy/dict/listExcludeApp` | High
+3 | File | `/web/MCmsAction.java` | High
+4 | File | `admin.php` | Medium
+5 | File | `admin/cgi-bin/listdir.pl` | High
+6 | File | `admin/cgi-bin/rulemgr.pl/getfile/` | High
+7 | File | `alfresco/s/admin/admin-nodebrowser` | High
+8 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

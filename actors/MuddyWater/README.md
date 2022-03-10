@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ There are 50 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by MuddyWater. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _MuddyWater_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,28 +76,27 @@ ID | Type | Indicator | Confidence
 6 | File | `/css/..%2f` | Medium
 7 | File | `/etc/tomcat8/Catalina/attack` | High
 8 | File | `/etc/wpa_supplicant.conf` | High
-9 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-10 | File | `/formSetPortTr` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/GetCopiedFile` | High
-14 | File | `/hdf5/src/H5T.c` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/music/ajax.php` | High
-19 | File | `/opensis/functions/GetStuListFnc.php` | High
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/post/editing` | High
-22 | File | `/product.php` | Medium
-23 | File | `/product_list.php` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/RestAPI` | Medium
-26 | File | `/rsms/` | Low
-27 | File | `/secure/admin/AssociatedProjectsForCustomField.jspa` | High
-28 | ... | ... | ...
+9 | File | `/formSetPortTr` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/GetCopiedFile` | High
+12 | File | `/hdf5/src/H5T.c` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/music/ajax.php` | High
+17 | File | `/opensis/functions/GetStuListFnc.php` | High
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/post/editing` | High
+20 | File | `/product.php` | Medium
+21 | File | `/product_list.php` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/RestAPI` | Medium
+24 | File | `/rsms/` | Low
+25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+26 | File | `/userRpm/PingIframeRpm.htm` | High
+27 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

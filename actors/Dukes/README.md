@@ -1,6 +1,6 @@
 # Dukes - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Dukes](https://vuldb.com/?actor.dukes). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Dukes](https://vuldb.com/?actor.dukes). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.dukes](https://vuldb.com/?actor.dukes)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dukes:
 
-* US
-* RU
-* ID
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [ID](https://vuldb.com/?country.id)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -21,18 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.45.66.134 | - | - | High
-2 | 46.246.120.178 | - | - | High
-3 | 50.7.192.146 | - | - | High
-4 | 64.18.143.66 | - | - | High
-5 | 66.29.115.55 | 647807.ds.nac.net | - | High
+1 | [5.45.66.134](https://vuldb.com/?ip.5.45.66.134) | - | - | High
+2 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
+3 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
+4 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
+5 | [66.29.115.55](https://vuldb.com/?ip.66.29.115.55) | 647807.ds.nac.net | - | High
 6 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Dukes. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Dukes_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,7 +58,7 @@ ID | Type | Indicator | Confidence
 7 | File | `bbcode.php` | Medium
 8 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

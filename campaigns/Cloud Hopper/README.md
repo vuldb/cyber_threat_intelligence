@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

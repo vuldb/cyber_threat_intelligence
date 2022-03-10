@@ -40,7 +40,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Sandworm Team. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Sandworm Team_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -90,11 +90,11 @@ ID | Type | Indicator | Confidence
 31 | File | `/tmp/redis.ds` | High
 32 | File | `/uncpath/` | Medium
 33 | File | `/usr/bin/pkexec` | High
-34 | File | `/ViewUserHover.jspa` | High
-35 | File | `/wp-admin` | Medium
+34 | File | `/wp-admin` | Medium
+35 | File | `/wp-json/wc/v3/webhooks` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

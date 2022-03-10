@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ There are 71 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by LokiBot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _LokiBot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,19 +67,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/car.php` | Medium
 4 | File | `/CMD_ACCOUNT_ADMIN` | High
 5 | File | `/config/getuser` | High
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/core/admin/categories.php` | High
-8 | File | `/dashboards/#` | High
-9 | File | `/etc/controller-agent/agent.conf` | High
-10 | File | `/etc/postfix/sender_login` | High
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/etc/tomcat8/Catalina/attack` | High
-13 | File | `/filemanager/php/connector.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/fudforum/adm/hlplist.php` | High
-16 | File | `/GponForm/fsetup_Form` | High
-17 | File | `/log_download.cgi` | High
-18 | File | `/modules/profile/index.php` | High
+6 | File | `/core/admin/categories.php` | High
+7 | File | `/dashboards/#` | High
+8 | File | `/etc/controller-agent/agent.conf` | High
+9 | File | `/etc/postfix/sender_login` | High
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/etc/tomcat8/Catalina/attack` | High
+12 | File | `/filemanager/php/connector.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/fudforum/adm/hlplist.php` | High
+15 | File | `/GponForm/fsetup_Form` | High
+16 | File | `/log_download.cgi` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/MTFWU` | Low
 19 | File | `/out.php` | Medium
 20 | File | `/public/plugins/` | High
 21 | File | `/s/` | Low
@@ -91,13 +91,13 @@ ID | Type | Indicator | Confidence
 27 | File | `/tmp/kamailio_fifo` | High
 28 | File | `/uncpath/` | Medium
 29 | File | `/updown/upload.cgi` | High
-30 | File | `/usr/bin/at` | Medium
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/way4acs/enroll` | High
-33 | File | `/WEB-INF/web.xml` | High
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/way4acs/enroll` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/wp-json/wc/v3/webhooks` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

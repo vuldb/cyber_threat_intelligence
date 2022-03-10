@@ -27,7 +27,7 @@ There are 2 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by FIN12. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _FIN12_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 13 | File | `addsite.php` | Medium
 14 | File | `admin/review.php` | High
 15 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
-16 | ... | ... | ...
+16 | File | `ajax/profile-picture-upload.php` | High
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

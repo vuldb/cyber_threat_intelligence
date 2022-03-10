@@ -1,6 +1,6 @@
 # NSO Group - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [NSO Group](https://vuldb.com/?actor.nso_group). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [NSO Group](https://vuldb.com/?actor.nso_group). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.nso_group](https://vuldb.com/?actor.nso_group)
 
@@ -16,9 +16,9 @@ The following _campaigns_ are known and can be associated with NSO Group:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NSO Group:
 
-* DE
-* US
-* CN
+* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -29,21 +29,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 3.13.132.96 | ec2-3-13-132-96.us-east-2.compute.amazonaws.com | Pegasus | Medium
-2 | 3.16.75.157 | ec2-3-16-75-157.us-east-2.compute.amazonaws.com | Pegasus | Medium
-3 | 13.58.85.100 | ec2-13-58-85-100.us-east-2.compute.amazonaws.com | Pegasus | Medium
-4 | 13.59.79.240 | ec2-13-59-79-240.us-east-2.compute.amazonaws.com | Pegasus | Medium
-5 | 18.191.63.125 | ec2-18-191-63-125.us-east-2.compute.amazonaws.com | Pegasus | Medium
-6 | 18.217.13.50 | ec2-18-217-13-50.us-east-2.compute.amazonaws.com | Pegasus | Medium
-7 | 18.225.12.72 | ec2-18-225-12-72.us-east-2.compute.amazonaws.com | Pegasus | Medium
-8 | 23.239.16.143 | li685-143.members.linode.com | Pegasus | High
+1 | [3.13.132.96](https://vuldb.com/?ip.3.13.132.96) | ec2-3-13-132-96.us-east-2.compute.amazonaws.com | Pegasus | Medium
+2 | [3.16.75.157](https://vuldb.com/?ip.3.16.75.157) | ec2-3-16-75-157.us-east-2.compute.amazonaws.com | Pegasus | Medium
+3 | [13.58.85.100](https://vuldb.com/?ip.13.58.85.100) | ec2-13-58-85-100.us-east-2.compute.amazonaws.com | Pegasus | Medium
+4 | [13.59.79.240](https://vuldb.com/?ip.13.59.79.240) | ec2-13-59-79-240.us-east-2.compute.amazonaws.com | Pegasus | Medium
+5 | [18.191.63.125](https://vuldb.com/?ip.18.191.63.125) | ec2-18-191-63-125.us-east-2.compute.amazonaws.com | Pegasus | Medium
+6 | [18.217.13.50](https://vuldb.com/?ip.18.217.13.50) | ec2-18-217-13-50.us-east-2.compute.amazonaws.com | Pegasus | Medium
+7 | [18.225.12.72](https://vuldb.com/?ip.18.225.12.72) | ec2-18-225-12-72.us-east-2.compute.amazonaws.com | Pegasus | Medium
+8 | [23.239.16.143](https://vuldb.com/?ip.23.239.16.143) | li685-143.members.linode.com | Pegasus | High
 9 | ... | ... | ... | ...
 
 There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by NSO Group. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _NSO Group_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 18 | File | `admin.php` | Medium
 19 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

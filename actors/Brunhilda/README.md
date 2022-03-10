@@ -1,6 +1,6 @@
 # Brunhilda - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Brunhilda](https://vuldb.com/?actor.brunhilda). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Brunhilda](https://vuldb.com/?actor.brunhilda). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.brunhilda](https://vuldb.com/?actor.brunhilda)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brunhilda:
 
-* FR
-* US
-* DE
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -18,16 +18,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 45.142.212.216 | vm324137.pq.hosting | - | High
-2 | 95.142.40.68 | vm482228.eurodir.ru | - | High
-3 | 185.177.92.213 | ip-185-177-92-213.ah-server.com | - | High
+1 | [45.142.212.216](https://vuldb.com/?ip.45.142.212.216) | vm324137.pq.hosting | - | High
+2 | [95.142.40.68](https://vuldb.com/?ip.95.142.40.68) | vm482228.eurodir.ru | - | High
+3 | [185.177.92.213](https://vuldb.com/?ip.185.177.92.213) | ip-185-177-92-213.ah-server.com | - | High
 4 | ... | ... | ... | ...
 
 There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Brunhilda. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Brunhilda_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

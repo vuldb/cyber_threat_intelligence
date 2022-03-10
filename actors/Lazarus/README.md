@@ -20,8 +20,8 @@ There are 5 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
+* [FR](https://vuldb.com/?country.fr)
 * [IN](https://vuldb.com/?country.in)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -218,13 +218,13 @@ There are 722 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Lazarus. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Lazarus_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 5 more TTP items available. Please use our online service to access the data.
@@ -235,23 +235,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/?page=members/view_member` | High
-3 | File | `/admin/files` | Medium
-4 | File | `/admin/options` | High
-5 | File | `/admin/page_edit/3` | High
-6 | File | `/admin_page/all-files-update-ajax.php` | High
-7 | File | `/api/servers` | Medium
-8 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-9 | File | `/members/view_member.php` | High
-10 | File | `/ok_jpg.c` | Medium
-11 | File | `/ok_png.c` | Medium
-12 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-13 | File | `/rootfs` | Low
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | ... | ... | ...
+1 | File | `/etc/passwd` | Medium
+2 | File | `/mdiy/dict/listExcludeApp` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `/web/MCmsAction.java` | High
+5 | File | `admin.php` | Medium
+6 | File | `admin/cgi-bin/listdir.pl` | High
+7 | File | `admin/cgi-bin/rulemgr.pl/getfile/` | High
+8 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

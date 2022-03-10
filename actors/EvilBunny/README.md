@@ -1,6 +1,6 @@
 # EvilBunny - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [EvilBunny](https://vuldb.com/?actor.evilbunny). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [EvilBunny](https://vuldb.com/?actor.evilbunny). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.evilbunny](https://vuldb.com/?actor.evilbunny)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with EvilBunny:
 
-* US
-* CN
-* GB
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -21,17 +21,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 1.9.32.11 | - | - | High
-2 | 8.5.1.34 | - | - | High
-3 | 64.15.136.137 | - | - | High
-4 | 66.45.225.11 | - | - | High
+1 | [1.9.32.11](https://vuldb.com/?ip.1.9.32.11) | - | - | High
+2 | [8.5.1.34](https://vuldb.com/?ip.8.5.1.34) | - | - | High
+3 | [64.15.136.137](https://vuldb.com/?ip.64.15.136.137) | - | - | High
+4 | [66.45.225.11](https://vuldb.com/?ip.66.45.225.11) | - | - | High
 5 | ... | ... | ... | ...
 
 There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by EvilBunny. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _EvilBunny_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

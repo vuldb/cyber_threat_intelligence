@@ -89,25 +89,25 @@ ID | Type | Indicator | Confidence
 13 | File | `/front/document.form.php` | High
 14 | File | `/ibi_apps/WFServlet.cfg` | High
 15 | File | `/include/chart_generator.php` | High
-16 | File | `/log_download.cgi` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/proc/sysvipc/sem` | High
-20 | File | `/rest/collectors/1.0/template/custom` | High
-21 | File | `/RestAPI` | Medium
-22 | File | `/search.php` | Medium
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/tmp` | Low
-26 | File | `/trigger` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/login/oauth` | High
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/usr/doc` | Medium
-31 | File | `/WEB-INF/web.xml` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/proc/sysvipc/sem` | High
+19 | File | `/rest/collectors/1.0/template/custom` | High
+20 | File | `/RestAPI` | Medium
+21 | File | `/search.php` | Medium
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/tmp` | Low
+25 | File | `/trigger` | Medium
+26 | File | `/uncpath/` | Medium
+27 | File | `/user/login/oauth` | High
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/usr/doc` | Medium
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/webpages/data` | High
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

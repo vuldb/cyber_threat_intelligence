@@ -1,6 +1,6 @@
 # APT-C-36 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT-C-36](https://vuldb.com/?actor.apt-c-36). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT-C-36](https://vuldb.com/?actor.apt-c-36). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt-c-36](https://vuldb.com/?actor.apt-c-36)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT-C-36:
 
-* US
-* CN
-* DE
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 128.90.106.22 | undefined.hostname.localhost | - | High
-2 | 128.90.107.21 | undefined.hostname.localhost | - | High
-3 | 128.90.107.189 | undefined.hostname.localhost | - | High
+1 | [128.90.106.22](https://vuldb.com/?ip.128.90.106.22) | undefined.hostname.localhost | - | High
+2 | [128.90.107.21](https://vuldb.com/?ip.128.90.107.21) | undefined.hostname.localhost | - | High
+3 | [128.90.107.189](https://vuldb.com/?ip.128.90.107.189) | undefined.hostname.localhost | - | High
 4 | ... | ... | ... | ...
 
 There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT-C-36. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT-C-36_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,29 +53,29 @@ ID | Type | Indicator | Confidence
 4 | File | `/assets/ctx` | Medium
 5 | File | `/concat?/%2557EB-INF/web.xml` | High
 6 | File | `/config/getuser` | High
-7 | File | `/ext/phar/phar_object.c` | High
-8 | File | `/filemanager/php/connector.php` | High
-9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/HNAP1` | Low
-11 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-12 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-13 | File | `/modx/manager/index.php` | High
-14 | File | `/osm/REGISTER.cmd` | High
-15 | File | `/product_list.php` | High
-16 | File | `/replication` | Medium
-17 | File | `/see_more_details.php` | High
-18 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-19 | File | `/supervisor/procesa_carga.php` | High
-20 | File | `/type.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/zm/index.php` | High
-24 | File | `4.2.0.CP09` | Medium
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `802dot1xclientcert.cgi` | High
-27 | File | `add.exe` | Low
-28 | File | `addentry.php` | Medium
-29 | File | `add_edit_user.asp` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/ext/phar/phar_object.c` | High
+9 | File | `/filemanager/php/connector.php` | High
+10 | File | `/get_getnetworkconf.cgi` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/osm/REGISTER.cmd` | High
+16 | File | `/product_list.php` | High
+17 | File | `/replication` | Medium
+18 | File | `/see_more_details.php` | High
+19 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+20 | File | `/supervisor/procesa_carga.php` | High
+21 | File | `/type.php` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/zm/index.php` | High
+25 | File | `4.2.0.CP09` | Medium
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `802dot1xclientcert.cgi` | High
+28 | File | `add.exe` | Low
+29 | File | `addentry.php` | Medium
 30 | File | `admin-ajax.php` | High
 31 | File | `admin.color.php` | High
 32 | File | `admin.cropcanvas.php` | High
@@ -107,10 +107,9 @@ ID | Type | Indicator | Confidence
 58 | File | `books.php` | Medium
 59 | File | `C:\Python27` | Medium
 60 | File | `C:\Windows\System32\config\SAM` | High
-61 | File | `categorie.php3` | High
-62 | ... | ... | ...
+61 | ... | ... | ...
 
-There are 541 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

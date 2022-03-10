@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -52,7 +52,7 @@ There are 101 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Silence. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Silence_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -106,7 +106,7 @@ ID | Type | Indicator | Confidence
 35 | File | `ActiveServices.java` | High
 36 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

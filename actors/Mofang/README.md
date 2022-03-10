@@ -1,6 +1,6 @@
 # Mofang - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Mofang](https://vuldb.com/?actor.mofang). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Mofang](https://vuldb.com/?actor.mofang). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.mofang](https://vuldb.com/?actor.mofang)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mofang:
 
-* US
-* CN
-* AT
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [AT](https://vuldb.com/?country.at)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -21,18 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 22.2.0.31 | - | - | High
-2 | 23.89.200.128 | - | - | High
-3 | 23.89.201.173 | - | - | High
-4 | 38.109.190.55 | lauras-creative-catering.com | - | High
-5 | 49.213.18.15 | - | - | High
+1 | [22.2.0.31](https://vuldb.com/?ip.22.2.0.31) | - | - | High
+2 | [23.89.200.128](https://vuldb.com/?ip.23.89.200.128) | - | - | High
+3 | [23.89.201.173](https://vuldb.com/?ip.23.89.201.173) | - | - | High
+4 | [38.109.190.55](https://vuldb.com/?ip.38.109.190.55) | lauras-creative-catering.com | - | High
+5 | [49.213.18.15](https://vuldb.com/?ip.49.213.18.15) | - | - | High
 6 | ... | ... | ... | ...
 
 There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Mofang. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Mofang_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,7 +60,7 @@ ID | Type | Indicator | Confidence
 9 | File | `blog.php` | Medium
 10 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

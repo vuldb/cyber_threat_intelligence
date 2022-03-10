@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* [DE](https://vuldb.com/?country.de)
 * [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
@@ -31,7 +31,7 @@ There are 16 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Cobalt Group. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Cobalt Group_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -56,23 +56,23 @@ ID | Type | Indicator | Confidence
 6 | File | `/event-management/index.php` | High
 7 | File | `/goform/change_password_process` | High
 8 | File | `/goform/edit_opt` | High
-9 | File | `/hdf5/src/H5Fint.c` | High
-10 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-11 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-12 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-13 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-14 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-15 | File | `/src/njs_object.c` | High
-16 | File | `/template/unzip.do` | High
-17 | File | `/wp-json/wc/v3/webhooks` | High
-18 | File | `AccountManagerService.java` | High
-19 | File | `account_sponsor_page.php` | High
-20 | File | `act.php` | Low
-21 | File | `adduser.do` | Medium
-22 | File | `admin.php` | Medium
+9 | File | `/goform/SetPptpServerCfg` | High
+10 | File | `/hdf5/src/H5Fint.c` | High
+11 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+12 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+13 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+14 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+15 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+16 | File | `/src/njs_object.c` | High
+17 | File | `/template/unzip.do` | High
+18 | File | `/wp-json/wc/v3/webhooks` | High
+19 | File | `AccountManagerService.java` | High
+20 | File | `account_sponsor_page.php` | High
+21 | File | `act.php` | Low
+22 | File | `adduser.do` | Medium
 23 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

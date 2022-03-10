@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cyclops Blink:
 
 * [FR](https://vuldb.com/?country.fr)
-* [DE](https://vuldb.com/?country.de)
 * [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -32,16 +32,16 @@ There are 20 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Cyclops Blink. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Cyclops Blink_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-401, CWE-404, CWE-770 | Resource Consumption | High
+3 | T1548.002 | CWE-285 | Improper Authorization | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,7 +58,7 @@ ID | Type | Indicator | Confidence
 7 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
 8 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

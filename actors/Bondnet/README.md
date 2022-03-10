@@ -1,6 +1,6 @@
 # Bondnet - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Bondnet](https://vuldb.com/?actor.bondnet). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Bondnet](https://vuldb.com/?actor.bondnet). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bondnet](https://vuldb.com/?actor.bondnet)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bondnet:
 
-* CN
-* US
-* FR
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 
 ## IOC - Indicator of Compromise
 
@@ -18,18 +18,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 47.90.206.226 | - | - | High
-2 | 50.207.71.22 | 50-207-71-22-static.hfc.comcastbusiness.net | - | High
-3 | 59.3.127.132 | - | - | High
-4 | 69.90.114.185 | - | - | High
-5 | 72.167.201.140 | ip-72-167-201-140.ip.secureserver.net | - | High
+1 | [47.90.206.226](https://vuldb.com/?ip.47.90.206.226) | - | - | High
+2 | [50.207.71.22](https://vuldb.com/?ip.50.207.71.22) | 50-207-71-22-static.hfc.comcastbusiness.net | - | High
+3 | [59.3.127.132](https://vuldb.com/?ip.59.3.127.132) | - | - | High
+4 | [69.90.114.185](https://vuldb.com/?ip.69.90.114.185) | - | - | High
+5 | [72.167.201.140](https://vuldb.com/?ip.72.167.201.140) | ip-72-167-201-140.ip.secureserver.net | - | High
 6 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Bondnet. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Bondnet_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

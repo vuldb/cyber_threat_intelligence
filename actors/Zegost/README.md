@@ -1,6 +1,6 @@
 # Zegost - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zegost](https://vuldb.com/?actor.zegost). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zegost](https://vuldb.com/?actor.zegost). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zegost](https://vuldb.com/?actor.zegost)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zegost:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -21,30 +21,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 14.17.74.162 | - | - | High
-2 | 14.113.128.7 | - | - | High
-3 | 14.113.128.191 | - | - | High
-4 | 14.210.50.189 | - | - | High
-5 | 14.210.91.15 | - | - | High
-6 | 14.210.95.203 | - | - | High
-7 | 14.210.98.141 | - | - | High
-8 | 14.210.109.122 | - | - | High
-9 | 14.210.222.241 | - | - | High
-10 | 20.210.205.20 | - | - | High
-11 | 23.89.5.60 | mtx77mcs683.webex.com | - | High
-12 | 27.40.253.131 | - | - | High
-13 | 43.248.201.133 | - | - | High
-14 | 45.35.20.197 | unassigned.psychz.net | - | High
-15 | 45.119.125.223 | - | - | High
-16 | 49.2.123.56 | - | - | High
-17 | 54.76.135.1 | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
+1 | [14.17.74.162](https://vuldb.com/?ip.14.17.74.162) | - | - | High
+2 | [14.113.128.7](https://vuldb.com/?ip.14.113.128.7) | - | - | High
+3 | [14.113.128.191](https://vuldb.com/?ip.14.113.128.191) | - | - | High
+4 | [14.210.50.189](https://vuldb.com/?ip.14.210.50.189) | - | - | High
+5 | [14.210.91.15](https://vuldb.com/?ip.14.210.91.15) | - | - | High
+6 | [14.210.95.203](https://vuldb.com/?ip.14.210.95.203) | - | - | High
+7 | [14.210.98.141](https://vuldb.com/?ip.14.210.98.141) | - | - | High
+8 | [14.210.109.122](https://vuldb.com/?ip.14.210.109.122) | - | - | High
+9 | [14.210.222.241](https://vuldb.com/?ip.14.210.222.241) | - | - | High
+10 | [20.210.205.20](https://vuldb.com/?ip.20.210.205.20) | - | - | High
+11 | [23.89.5.60](https://vuldb.com/?ip.23.89.5.60) | mtx77mcs683.webex.com | - | High
+12 | [27.40.253.131](https://vuldb.com/?ip.27.40.253.131) | - | - | High
+13 | [43.248.201.133](https://vuldb.com/?ip.43.248.201.133) | - | - | High
+14 | [45.35.20.197](https://vuldb.com/?ip.45.35.20.197) | unassigned.psychz.net | - | High
+15 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
+16 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
+17 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
 18 | ... | ... | ... | ...
 
 There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Zegost. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Zegost_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,17 +79,17 @@ ID | Type | Indicator | Confidence
 16 | File | `/login` | Low
 17 | File | `/modules/profile/index.php` | High
 18 | File | `/navigate/navigate_download.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/p` | Low
-22 | File | `/password.html` | High
-23 | File | `/proc/ioports` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/rest` | Low
-26 | File | `/rest/api/2/search` | High
-27 | File | `/rom-0` | Low
-28 | File | `/s/` | Low
-29 | File | `/scripts/cpan_config` | High
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/p` | Low
+21 | File | `/password.html` | High
+22 | File | `/proc/ioports` | High
+23 | File | `/property-list/property_view.php` | High
+24 | File | `/rest` | Low
+25 | File | `/rest/api/2/search` | High
+26 | File | `/rom-0` | Low
+27 | File | `/s/` | Low
+28 | File | `/scripts/cpan_config` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 30 | File | `/services/system/setup.json` | High
 31 | File | `/uncpath/` | Medium
 32 | File | `/webconsole/APIController` | High
@@ -110,7 +110,7 @@ ID | Type | Indicator | Confidence
 47 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 48 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

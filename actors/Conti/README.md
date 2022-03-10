@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,7 +83,7 @@ There are 200 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Conti. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Conti_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -115,34 +115,34 @@ ID | Type | Indicator | Confidence
 13 | File | `/public/plugins/` | High
 14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | File | `/servlet/webacc` | High
-17 | File | `/show_news.php` | High
-18 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `AccountManagerService.java` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `ActivityManagerService.java` | High
-28 | File | `adclick.php` | Medium
-29 | File | `admin.php` | Medium
-30 | File | `admin.php?page=languages` | High
-31 | File | `admin/add-glossary.php` | High
-32 | File | `admin/admin.php` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin/edit-comments.php` | High
-35 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-36 | File | `admin\db\DoSql.php` | High
-37 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
-38 | File | `advsearch.asp` | High
-39 | File | `AjaxApplication.java` | High
-40 | File | `AllowBindAppWidgetActivity.java` | High
+16 | File | `/show_news.php` | High
+17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/WEB-INF/web.xml` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+24 | File | `AccountManagerService.java` | High
+25 | File | `actions/CompanyDetailsSave.php` | High
+26 | File | `ActivityManagerService.java` | High
+27 | File | `adclick.php` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin.php?page=languages` | High
+30 | File | `admin/add-glossary.php` | High
+31 | File | `admin/admin.php` | High
+32 | File | `admin/conf_users_edit.php` | High
+33 | File | `admin/edit-comments.php` | High
+34 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+35 | File | `admin\db\DoSql.php` | High
+36 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
+37 | File | `advsearch.asp` | High
+38 | File | `AjaxApplication.java` | High
+39 | File | `AllowBindAppWidgetActivity.java` | High
+40 | File | `android/webkit/SearchBoxImpl.java` | High
 41 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

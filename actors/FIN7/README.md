@@ -77,7 +77,7 @@ There are 172 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by FIN7. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _FIN7_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -86,7 +86,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,59 +96,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `/ext/phar/phar_object.c` | High
-4 | File | `/filemanager/php/connector.php` | High
-5 | File | `/get_getnetworkconf.cgi` | High
-6 | File | `/HNAP1` | Low
-7 | File | `/modx/manager/index.php` | High
-8 | File | `/monitoring` | Medium
-9 | File | `/new` | Low
-10 | File | `/proc/<pid>/status` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/replication` | Medium
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-16 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-17 | File | `/tmp` | Low
-18 | File | `/type.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/wp-json/wc/v3/webhooks` | High
-22 | File | `4.2.0.CP09` | Medium
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `802dot1xclientcert.cgi` | High
-25 | File | `AccountManagerService.java` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `ActivityManagerService.java` | High
-28 | File | `add.exe` | Low
-29 | File | `admin.color.php` | High
-30 | File | `admin.cropcanvas.php` | High
-31 | File | `admin.joomlaradiov5.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin.php?m=Food&a=addsave` | High
-34 | File | `admin/add-glossary.php` | High
-35 | File | `admin/conf_users_edit.php` | High
-36 | File | `admin/edit-comments.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-39 | File | `admin/write-post.php` | High
-40 | File | `administrator/components/com_media/helpers/media.php` | High
-41 | File | `admin_events.php` | High
-42 | File | `AjaxApplication.java` | High
-43 | File | `akocomments.php` | High
-44 | File | `allopass-error.php` | High
-45 | File | `AllowBindAppWidgetActivity.java` | High
-46 | File | `android/webkit/SearchBoxImpl.java` | High
-47 | File | `AndroidManifest.xml` | High
-48 | File | `announcement.php` | High
-49 | File | `api/settings/values` | High
-50 | File | `app/topic/action/admin/topic.php` | High
-51 | File | `apply.cgi` | Medium
-52 | File | `artlinks.dispnew.php` | High
-53 | ... | ... | ...
+3 | File | `/debug/pprof` | Medium
+4 | File | `/ext/phar/phar_object.c` | High
+5 | File | `/filemanager/php/connector.php` | High
+6 | File | `/get_getnetworkconf.cgi` | High
+7 | File | `/HNAP1` | Low
+8 | File | `/modx/manager/index.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/new` | Low
+11 | File | `/proc/<pid>/status` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/replication` | Medium
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+18 | File | `/tmp` | Low
+19 | File | `/type.php` | Medium
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `4.2.0.CP09` | Medium
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `802dot1xclientcert.cgi` | High
+26 | File | `AccountManagerService.java` | High
+27 | File | `actions/CompanyDetailsSave.php` | High
+28 | File | `ActivityManagerService.java` | High
+29 | File | `add.exe` | Low
+30 | File | `admin.color.php` | High
+31 | File | `admin.cropcanvas.php` | High
+32 | File | `admin.joomlaradiov5.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin.php?m=Food&a=addsave` | High
+35 | File | `admin/add-glossary.php` | High
+36 | File | `admin/conf_users_edit.php` | High
+37 | File | `admin/edit-comments.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+40 | File | `admin/write-post.php` | High
+41 | File | `administrator/components/com_media/helpers/media.php` | High
+42 | File | `admin_events.php` | High
+43 | File | `AjaxApplication.java` | High
+44 | File | `akocomments.php` | High
+45 | File | `allopass-error.php` | High
+46 | File | `AllowBindAppWidgetActivity.java` | High
+47 | File | `android/webkit/SearchBoxImpl.java` | High
+48 | File | `AndroidManifest.xml` | High
+49 | File | `announcement.php` | High
+50 | File | `api/settings/values` | High
+51 | File | `app/topic/action/admin/topic.php` | High
+52 | ... | ... | ...
 
-There are 458 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -1,6 +1,6 @@
 # South Asia Unknown - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [South Asia Unknown](https://vuldb.com/?actor.south_asia_unknown). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [South Asia Unknown](https://vuldb.com/?actor.south_asia_unknown). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.south_asia_unknown](https://vuldb.com/?actor.south_asia_unknown)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South Asia Unknown:
 
-* US
-* RU
-* IR
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 91.92.136.239 | osca.gotdns.ch | - | High
-2 | 139.28.38.231 | 139.28.38.231.deltahost-ptr | - | High
-3 | 139.28.38.236 | 139.28.38.236.deltahost-ptr | - | High
+1 | [91.92.136.239](https://vuldb.com/?ip.91.92.136.239) | osca.gotdns.ch | - | High
+2 | [139.28.38.231](https://vuldb.com/?ip.139.28.38.231) | 139.28.38.231.deltahost-ptr | - | High
+3 | [139.28.38.236](https://vuldb.com/?ip.139.28.38.236) | 139.28.38.236.deltahost-ptr | - | High
 4 | ... | ... | ... | ...
 
 There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by South Asia Unknown. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _South Asia Unknown_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

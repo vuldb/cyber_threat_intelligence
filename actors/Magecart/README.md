@@ -34,7 +34,7 @@ There are 27 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Magecart. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Magecart_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,19 +51,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/delete_image.php` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/administrator/components/table_manager/` | High
-4 | File | `/changePassword` | High
-5 | File | `/context/%2e/WEB-INF/web.xml` | High
-6 | File | `/data-service/users/` | High
-7 | File | `/Hospital-Management-System-master/func.php` | High
-8 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-9 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-10 | File | `/js/app.js` | Medium
-11 | File | `/message-bus/_diagnostics` | High
-12 | File | `/ms/cms/content/list.do` | High
-13 | File | `/new` | Low
+1 | File | `/admin-panel1.php` | High
+2 | File | `/admin/delete_image.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/administrator/components/table_manager/` | High
+5 | File | `/changePassword` | High
+6 | File | `/context/%2e/WEB-INF/web.xml` | High
+7 | File | `/data-service/users/` | High
+8 | File | `/Hospital-Management-System-master/func.php` | High
+9 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+10 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+11 | File | `/js/app.js` | Medium
+12 | File | `/message-bus/_diagnostics` | High
+13 | File | `/ms/cms/content/list.do` | High
 14 | File | `/plugin/jcapture/applet.php` | High
 15 | File | `/preferences/tags` | High
 16 | File | `/proc/<pid>/status` | High
@@ -71,13 +71,13 @@ ID | Type | Indicator | Confidence
 18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 19 | File | `/secure/EditSubscription.jspa` | High
 20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `1.2.2.pl4` | Medium
-25 | File | `AccountManagerService.java` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `ActivityManagerService.java` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `1.2.2.pl4` | Medium
+24 | File | `AccountManagerService.java` | High
+25 | File | `actions/CompanyDetailsSave.php` | High
+26 | File | `ActivityManagerService.java` | High
+27 | File | `admin.php` | Medium
 28 | ... | ... | ...
 
 There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

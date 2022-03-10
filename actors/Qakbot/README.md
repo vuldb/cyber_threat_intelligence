@@ -104,7 +104,7 @@ There are 306 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Qakbot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Qakbot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -113,7 +113,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,32 +122,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
-2 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-5 | File | `/auth/session` | High
-6 | File | `/cfg` | Low
-7 | File | `/cgi-bin/webproc` | High
-8 | File | `/config/getuser` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/exponent_constants.php` | High
-11 | File | `/front/document.form.php` | High
-12 | File | `/ibi_apps/WFServlet.cfg` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+4 | File | `/auth/session` | High
+5 | File | `/cfg` | Low
+6 | File | `/cgi-bin/webproc` | High
+7 | File | `/config/getuser` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/exponent_constants.php` | High
+10 | File | `/front/document.form.php` | High
+11 | File | `/ibi_apps/WFServlet.cfg` | High
+12 | File | `/include/chart_generator.php` | High
 13 | File | `/log_download.cgi` | High
 14 | File | `/proc/sysvipc/sem` | High
 15 | File | `/replication` | Medium
 16 | File | `/rest/collectors/1.0/template/custom` | High
 17 | File | `/RestAPI` | Medium
 18 | File | `/search.php` | Medium
-19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-20 | File | `/tmp` | Low
-21 | File | `/trigger` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/login/oauth` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/usr/doc` | Medium
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/webpages/data` | High
+19 | File | `/tmp` | Low
+20 | File | `/trigger` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/user/login/oauth` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/usr/doc` | Medium
+25 | File | `/WEB-INF/web.xml` | High
+26 | File | `/webpages/data` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
 28 | ... | ... | ...
 
 There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

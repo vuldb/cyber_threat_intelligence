@@ -42,7 +42,7 @@ There are 17 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Molerats. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Molerats_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 26 | File | `agents.php` | Medium
 27 | File | `api_poller.php` | High
 28 | File | `app/View/Helper/CommandHelper.php` | High
-29 | ... | ... | ...
+29 | File | `apport/hookutils.py` | High
+30 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

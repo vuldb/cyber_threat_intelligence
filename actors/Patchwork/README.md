@@ -103,7 +103,7 @@ There are 274 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Patchwork. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Patchwork_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -145,37 +145,37 @@ ID | Type | Indicator | Confidence
 23 | File | `/rest/api/2/search` | High
 24 | File | `/s/` | Low
 25 | File | `/scripts/cpan_config` | High
-26 | File | `/services/system/setup.json` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/videotalk` | Medium
-29 | File | `/webconsole/APIController` | High
-30 | File | `/websocket/exec` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `/_next` | Low
-34 | File | `4.edu.php\conn\function.php` | High
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `about.php` | Medium
-37 | File | `acl.c` | Low
-38 | File | `activity_log.php` | High
-39 | File | `adclick.php` | Medium
-40 | File | `addentry.php` | Medium
-41 | File | `add_vhost.php` | High
-42 | File | `adm/systools.asp` | High
-43 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
-44 | File | `admin/category.inc.php` | High
-45 | File | `admin/conf_users_edit.php` | High
-46 | File | `admin/default.asp` | High
-47 | File | `admin/dl_sendmail.php` | High
-48 | File | `admin/getparam.cgi` | High
-49 | File | `admin/index.php` | High
-50 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-51 | File | `admin/media/rename.php` | High
-52 | File | `admin/password_forgotten.php` | High
-53 | File | `admin/versions.html` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/services/system/setup.json` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/videotalk` | Medium
+30 | File | `/web/MCmsAction.java` | High
+31 | File | `/webconsole/APIController` | High
+32 | File | `/websocket/exec` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `/_next` | Low
+36 | File | `4.edu.php\conn\function.php` | High
+37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+38 | File | `about.php` | Medium
+39 | File | `acl.c` | Low
+40 | File | `activity_log.php` | High
+41 | File | `adclick.php` | Medium
+42 | File | `addentry.php` | Medium
+43 | File | `add_vhost.php` | High
+44 | File | `adm/systools.asp` | High
+45 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
+46 | File | `admin/category.inc.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | File | `admin/default.asp` | High
+49 | File | `admin/dl_sendmail.php` | High
+50 | File | `admin/getparam.cgi` | High
+51 | File | `admin/index.php` | High
+52 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+53 | File | `admin/media/rename.php` | High
 54 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

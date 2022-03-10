@@ -1,6 +1,6 @@
 # xStart - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [xStart](https://vuldb.com/?actor.xstart). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [xStart](https://vuldb.com/?actor.xstart). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.xstart](https://vuldb.com/?actor.xstart)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with xStart:
 
-* CN
-* US
-* DE
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -21,25 +21,25 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 8.210.23.243 | - | - | High
-2 | 8.210.29.183 | - | - | High
-3 | 8.210.43.38 | - | - | High
-4 | 8.210.66.64 | - | - | High
-5 | 8.210.74.149 | - | - | High
-6 | 8.210.120.8 | - | - | High
-7 | 8.210.130.151 | - | - | High
-8 | 34.92.61.61 | 61.61.92.34.bc.googleusercontent.com | - | Medium
-9 | 36.99.196.223 | - | - | High
-10 | 39.99.245.93 | - | - | High
-11 | 39.102.48.190 | - | - | High
-12 | 42.48.120.127 | - | - | High
+1 | [8.210.23.243](https://vuldb.com/?ip.8.210.23.243) | - | - | High
+2 | [8.210.29.183](https://vuldb.com/?ip.8.210.29.183) | - | - | High
+3 | [8.210.43.38](https://vuldb.com/?ip.8.210.43.38) | - | - | High
+4 | [8.210.66.64](https://vuldb.com/?ip.8.210.66.64) | - | - | High
+5 | [8.210.74.149](https://vuldb.com/?ip.8.210.74.149) | - | - | High
+6 | [8.210.120.8](https://vuldb.com/?ip.8.210.120.8) | - | - | High
+7 | [8.210.130.151](https://vuldb.com/?ip.8.210.130.151) | - | - | High
+8 | [34.92.61.61](https://vuldb.com/?ip.34.92.61.61) | 61.61.92.34.bc.googleusercontent.com | - | Medium
+9 | [36.99.196.223](https://vuldb.com/?ip.36.99.196.223) | - | - | High
+10 | [39.99.245.93](https://vuldb.com/?ip.39.99.245.93) | - | - | High
+11 | [39.102.48.190](https://vuldb.com/?ip.39.102.48.190) | - | - | High
+12 | [42.48.120.127](https://vuldb.com/?ip.42.48.120.127) | - | - | High
 13 | ... | ... | ... | ...
 
 There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by xStart. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _xStart_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,45 +65,45 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-sys/FormMail-clone.cgi` | High
 8 | File | `/debug/pprof` | Medium
 9 | File | `/etc/passwd` | Medium
-10 | File | `/framework/modules/users/models/user.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/setportList` | High
-13 | File | `/goform/setVLAN` | High
-14 | File | `/goform/wlanPrimaryNetwork` | High
-15 | File | `/GponForm/usb_Form?script/` | High
-16 | File | `/groups/31-twitter-basics` | High
-17 | File | `/scdmz.cmd` | Medium
-18 | File | `/tmp` | Low
-19 | File | `/tmp/before` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/User/saveUser` | High
-22 | File | `/usr/bin/vmware-mount` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | File | `/_vti_pvt/access.cnf` | High
-25 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-26 | File | `accountsettings_add.html` | High
-27 | File | `aclient.exe` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `addentry.php` | Medium
-30 | File | `add_comment.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin.php?c=update&f=unzip` | High
-33 | File | `admin/ajax/op_kandidat.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | File | `admin/domain-fields/` | High
-36 | File | `admin/index.asp` | High
-37 | File | `admin/member_deal.php` | High
-38 | File | `admin/news.php` | High
-39 | File | `admin/plugin.php` | High
-40 | File | `AdminLoginInterceptor.java` | High
-41 | File | `admins.js` | Medium
-42 | File | `advancedsearch.php` | High
-43 | File | `aepx` | Low
-44 | File | `agents.php` | Medium
-45 | File | `album_portal.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/framework/modules/users/models/user.php` | High
+12 | File | `/getcfg.php` | Medium
+13 | File | `/goform/setportList` | High
+14 | File | `/goform/setVLAN` | High
+15 | File | `/goform/wlanPrimaryNetwork` | High
+16 | File | `/GponForm/usb_Form?script/` | High
+17 | File | `/groups/31-twitter-basics` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/scdmz.cmd` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/tmp/before` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/User/saveUser` | High
+24 | File | `/usr/bin/vmware-mount` | High
+25 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+26 | File | `/WEB-INF/web.xml` | High
+27 | File | `/_vti_pvt/access.cnf` | High
+28 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+29 | File | `accountsettings_add.html` | High
+30 | File | `aclient.exe` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `addentry.php` | Medium
+33 | File | `add_comment.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin.php?c=update&f=unzip` | High
+36 | File | `admin/ajax/op_kandidat.php` | High
+37 | File | `admin/conf_users_edit.php` | High
+38 | File | `admin/domain-fields/` | High
+39 | File | `admin/index.asp` | High
+40 | File | `admin/member_deal.php` | High
+41 | File | `admin/news.php` | High
+42 | File | `admin/plugin.php` | High
+43 | File | `AdminLoginInterceptor.java` | High
+44 | File | `admins.js` | Medium
+45 | File | `advancedsearch.php` | High
 46 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 34 more country items available. Please use our online service to access the data.
@@ -40,7 +40,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by xHunt. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _xHunt_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -76,15 +76,15 @@ ID | Type | Indicator | Confidence
 17 | File | `/iissamples` | Medium
 18 | File | `/index.pl` | Medium
 19 | File | `/login` | Low
-20 | File | `/plugin/file_manager/` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/sbin/gs_config` | High
-23 | File | `/settings` | Medium
-24 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-27 | File | `/uploads/dede` | High
-28 | File | `/usr/bin/pkexec` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/sbin/gs_config` | High
+22 | File | `/settings` | Medium
+23 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+26 | File | `/uploads/dede` | High
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/usr/sbin/nagios` | High
 29 | File | `/WEB-INF/web.xml` | High
 30 | File | `/webman/info.cgi` | High
 31 | File | `/wp-json/oembed/1.0/embed?url` | High
@@ -103,10 +103,9 @@ ID | Type | Indicator | Confidence
 44 | File | `admin/modules/tools/ip_history_logs.php` | High
 45 | File | `admin/ops/reports/ops/news.php` | High
 46 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-47 | File | `adminer.php` | Medium
-48 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

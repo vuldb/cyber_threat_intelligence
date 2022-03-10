@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* [SV](https://vuldb.com/?country.sv)
 * [ES](https://vuldb.com/?country.es)
-* [PL](https://vuldb.com/?country.pl)
+* [SV](https://vuldb.com/?country.sv)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -74,12 +74,12 @@ ID | Type | Indicator | Confidence
 17 | File | `api/info.php` | Medium
 18 | File | `attach.c` | Medium
 19 | File | `box_code_apple.c` | High
-20 | File | `bugs.aspx` | Medium
-21 | File | `bug_actiongroup.php` | High
-22 | File | `bug_report_page.php` | High
+20 | File | `bug_actiongroup.php` | High
+21 | File | `bug_report_page.php` | High
+22 | File | `cavsdec.c` | Medium
 23 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

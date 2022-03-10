@@ -71,35 +71,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin` | Medium
 7 | File | `/cgi-bin/kerbynet` | High
 8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dcim/sites/add/` | High
-10 | File | `/export` | Low
-11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/login` | Low
-13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/new` | Low
-16 | File | `/out.php` | Medium
-17 | File | `/proc/<pid>/status` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rom` | Low
-20 | File | `/scripts/killpvhost` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/redis.ds` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload/catalog/controller/account/password.php` | High
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/var/lib/docker/<remapping>` | High
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `AccountManagerService.java` | High
-33 | File | `actions/CompanyDetailsSave.php` | High
-34 | File | `ActiveServices.java` | High
+9 | File | `/export` | Low
+10 | File | `/fudforum/adm/hlplist.php` | High
+11 | File | `/login` | Low
+12 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+13 | File | `/monitoring` | Medium
+14 | File | `/new` | Low
+15 | File | `/out.php` | Medium
+16 | File | `/proc/<pid>/status` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/rom` | Low
+19 | File | `/scripts/killpvhost` | High
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+23 | File | `/tmp` | Low
+24 | File | `/tmp/redis.ds` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload/catalog/controller/account/password.php` | High
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/var/lib/docker/<remapping>` | High
+29 | File | `/wp-admin` | Medium
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `AccountManagerService.java` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `ActiveServices.java` | High
+34 | File | `ActivityManagerService.java` | High
 35 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

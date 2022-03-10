@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
+* [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
-* [MX](https://vuldb.com/?country.mx)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -283,16 +283,16 @@ There are 1024 more IOC items available. Please use our online service to access
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Indexsinas. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Indexsinas_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,18 +300,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/members/view_member.php` | High
-2 | File | `/rest/api/1.0/render` | High
-3 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-4 | File | `/tmp` | Low
-5 | File | `/usr/bin/pkexec` | High
+1 | File | `/config/getuser` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/mdiy/dict/listExcludeApp` | High
+4 | File | `/public/login.htm` | High
+5 | File | `/web/MCmsAction.java` | High
 6 | File | `admin.php` | Medium
-7 | File | `bash_completion` | High
-8 | File | `coders/tiff.c` | High
-9 | File | `default_validator.cc` | High
-10 | ... | ... | ...
+7 | File | `admin/cgi-bin/listdir.pl` | High
+8 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

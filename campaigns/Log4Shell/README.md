@@ -129,16 +129,16 @@ ID | Type | Indicator | Confidence
 20 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
 21 | File | `/rootfs` | Low
 22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/scheduler/addSchedule.php` | High
-24 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-26 | File | `/secure/admin/RestoreDefaults.jspa` | High
-27 | File | `/src/njs_vmcode.c` | High
-28 | File | `/storage/classes/Login.php` | High
-29 | File | `/sys/user/queryUserComponentData` | High
+23 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/admin/RestoreDefaults.jspa` | High
+26 | File | `/src/njs_vmcode.c` | High
+27 | File | `/sys/user/queryUserComponentData` | High
+28 | File | `/template/unzip.do` | High
+29 | File | `/uncpath/` | Medium
 30 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

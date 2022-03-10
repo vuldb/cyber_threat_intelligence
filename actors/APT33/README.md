@@ -50,7 +50,7 @@ There are 60 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT33. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT33_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,32 +68,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.add` | Medium
-2 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-3 | File | `/admin/customers.php?page=1&cID` | High
-4 | File | `/admin/edit_user.php` | High
-5 | File | `/administrator/components/menu/` | High
-6 | File | `/administrator/components/table_manager/` | High
-7 | File | `/api/ZRMesh/set_ZRMesh` | High
-8 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-9 | File | `/Hospital-Management-System-master/contact.php` | High
-10 | File | `/Hospital-Management-System-master/func.php` | High
-11 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-12 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-13 | File | `/jerry-core/jmem/jmem-heap.c` | High
-14 | File | `/ms/cms/content/list.do` | High
-15 | File | `/orms/` | Low
-16 | File | `/parser/js/js-parser-expr.c` | High
-17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-18 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-19 | File | `/transmission/web/` | High
-20 | File | `/uploads/exam_question/` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/usr/local/bin/mjs` | High
-23 | File | `1.2.2.pl4` | Medium
-24 | File | `AccessPoint.java` | High
-25 | ... | ... | ...
+2 | File | `/admin/?page=user/manage_user` | High
+3 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+4 | File | `/admin/customers.php?page=1&cID` | High
+5 | File | `/admin/edit_user.php` | High
+6 | File | `/admin/files` | Medium
+7 | File | `/administrator/components/menu/` | High
+8 | File | `/administrator/components/table_manager/` | High
+9 | File | `/api/ZRMesh/set_ZRMesh` | High
+10 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+11 | File | `/Hospital-Management-System-master/contact.php` | High
+12 | File | `/Hospital-Management-System-master/func.php` | High
+13 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+14 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+15 | File | `/jerry-core/jmem/jmem-heap.c` | High
+16 | File | `/ms/cms/content/list.do` | High
+17 | File | `/orms/` | Low
+18 | File | `/parser/js/js-parser-expr.c` | High
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+21 | File | `/transmission/web/` | High
+22 | File | `/uploads/exam_question/` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

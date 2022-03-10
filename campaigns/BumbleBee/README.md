@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 35 more country items available. Please use our online service to access the data.
+There are 34 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -85,28 +85,28 @@ ID | Type | Indicator | Confidence
 25 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
 26 | File | `/uploads/dede` | High
 27 | File | `/usr/bin/pkexec` | High
-28 | File | `/WEB-INF/web.xml` | High
-29 | File | `/webman/info.cgi` | High
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `/_next` | Low
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `adclick.php` | Medium
-35 | File | `admin.php?m=admin&c=site&a=save` | High
-36 | File | `admin.php?page=languages` | High
-37 | File | `admin/backupdb.php` | High
-38 | File | `admin/bitrix.mpbuilder_step2.php` | High
-39 | File | `admin/bitrix.xscan_worker.php` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/gb-dashboard-widget.php` | High
-42 | File | `admin/mcart_xls_import.php` | High
-43 | File | `admin/modules/tools/ip_history_logs.php` | High
-44 | File | `admin/ops/reports/ops/news.php` | High
-45 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-46 | File | `adminer.php` | Medium
+28 | File | `/usr/sbin/nagios` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/webman/info.cgi` | High
+31 | File | `/wp-json/oembed/1.0/embed?url` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `/_next` | Low
+34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin.php?m=admin&c=site&a=save` | High
+37 | File | `admin.php?page=languages` | High
+38 | File | `admin/backupdb.php` | High
+39 | File | `admin/bitrix.mpbuilder_step2.php` | High
+40 | File | `admin/bitrix.xscan_worker.php` | High
+41 | File | `admin/conf_users_edit.php` | High
+42 | File | `admin/gb-dashboard-widget.php` | High
+43 | File | `admin/mcart_xls_import.php` | High
+44 | File | `admin/modules/tools/ip_history_logs.php` | High
+45 | File | `admin/ops/reports/ops/news.php` | High
+46 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
 47 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

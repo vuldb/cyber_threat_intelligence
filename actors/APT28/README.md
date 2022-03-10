@@ -84,7 +84,7 @@ There are 184 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT28. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT28_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -93,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,36 +107,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/config.php?display=disa&view=form` | High
 5 | File | `/category_view.php` | High
 6 | File | `/dev/kmem` | Medium
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/replication` | Medium
-15 | File | `/reports/rwservlet` | High
-16 | File | `/RestAPI` | Medium
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-admin/admin.php` | High
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-24 | File | `admin/app/mediamanager` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin\model\catalog\download.php` | High
-27 | File | `afr.php` | Low
-28 | File | `apcupsd.pid` | Medium
-29 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-30 | File | `api/sms/send-sms` | High
-31 | File | `api/v1/alarms` | High
-32 | File | `application/controller/InstallerController.php` | High
-33 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+7 | File | `/file?action=download&file` | High
+8 | File | `/filemanager/upload.php` | High
+9 | File | `/medical/inventories.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/NAGErrors` | Medium
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/proc/ioports` | High
+15 | File | `/replication` | Medium
+16 | File | `/reports/rwservlet` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/tmp` | Low
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/wp-admin/admin.php` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+25 | File | `admin/app/mediamanager` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin\model\catalog\download.php` | High
+28 | File | `afr.php` | Low
+29 | File | `apcupsd.pid` | Medium
+30 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | File | `application/controller/InstallerController.php` | High
 34 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
