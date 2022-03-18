@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Sandworm Team_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sandworm Team_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -69,32 +69,32 @@ ID | Type | Indicator | Confidence
 10 | File | `/dcim/sites/add/` | High
 11 | File | `/dl/dl_print.php` | High
 12 | File | `/EXCU_SHELL` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/fudforum/adm/hlplist.php` | High
-15 | File | `/login` | Low
-16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-17 | File | `/moddable/xs/sources/xsDebug.c` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/Monitoring-History.php` | High
-20 | File | `/new` | Low
-21 | File | `/nova/bin/diskd` | High
-22 | File | `/proc/<pid>/status` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/rom` | Low
-25 | File | `/scripts/killpvhost` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-29 | File | `/StdC/Ap4StdCFileByteStream.cpp` | High
-30 | File | `/tmp` | Low
-31 | File | `/tmp/redis.ds` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-json/wc/v3/webhooks` | High
+13 | File | `/fudforum/adm/hlplist.php` | High
+14 | File | `/login` | Low
+15 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+16 | File | `/moddable/xs/sources/xsDebug.c` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/Monitoring-History.php` | High
+19 | File | `/new` | Low
+20 | File | `/nova/bin/diskd` | High
+21 | File | `/proc/<pid>/status` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/rom` | Low
+24 | File | `/scripts/killpvhost` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+28 | File | `/StdC/Ap4StdCFileByteStream.cpp` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/redis.ds` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/bin/pkexec` | High
+33 | File | `/wp-admin` | Medium
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 36 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

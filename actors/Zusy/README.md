@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,7 +65,7 @@ There are 153 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Zusy. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Zusy_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -74,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,48 +82,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$TOMCAT_HOME/webapps/ROOT/assets` | High
-2 | File | `.procmailrc` | Medium
-3 | File | `/../conf/config.properties` | High
-4 | File | `/auth` | Low
-5 | File | `/dashboard/view-chair-list.php` | High
-6 | File | `/etc/gsissh/sshd_config` | High
-7 | File | `/etc/hosts` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/login` | Low
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-15 | File | `/product_list.php` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/SASWebReportStudio/logonAndRender.do` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/see_more_details.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/web/frames/` | Medium
-26 | File | `AccountManager.java` | High
-27 | File | `adclick.php` | Medium
-28 | File | `addentry.php` | Medium
-29 | File | `admin.cgi?action=upgrade` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/executar_login.php` | High
-32 | File | `admin/index.php?mode=tools&page=upload` | High
-33 | File | `admin/pageUploadCSV.php` | High
-34 | File | `admin/setting.php` | High
-35 | File | `ajax/aj_*.php` | High
-36 | File | `alipay/alipayapi.php` | High
-37 | File | `auth.inc.php` | Medium
-38 | File | `auth.py` | Low
-39 | File | `auth2-gss.c` | Medium
-40 | ... | ... | ...
+1 | File | `.procmailrc` | Medium
+2 | File | `/../conf/config.properties` | High
+3 | File | `/auth` | Low
+4 | File | `/dashboard/view-chair-list.php` | High
+5 | File | `/etc/gsissh/sshd_config` | High
+6 | File | `/etc/hosts` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/images/` | Medium
+9 | File | `/login` | Low
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/out.php` | Medium
+12 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+13 | File | `/product_list.php` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+18 | File | `/secure/QueryComponent!Default.jspa` | High
+19 | File | `/see_more_details.php` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/web/frames/` | Medium
+24 | File | `AccountManager.java` | High
+25 | File | `adclick.php` | Medium
+26 | File | `addentry.php` | Medium
+27 | File | `admin.cgi?action=upgrade` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/executar_login.php` | High
+30 | File | `admin/index.php?mode=tools&page=upload` | High
+31 | File | `admin/pageUploadCSV.php` | High
+32 | File | `admin/setting.php` | High
+33 | File | `ajax/aj_*.php` | High
+34 | File | `alipay/alipayapi.php` | High
+35 | File | `AppCompatCache.exe` | High
+36 | File | `auth.inc.php` | Medium
+37 | File | `auth.py` | Low
+38 | File | `auth2-gss.c` | Medium
+39 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

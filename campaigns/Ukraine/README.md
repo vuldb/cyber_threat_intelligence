@@ -19,9 +19,10 @@ ID | Actor | Confidence
 1 | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 2 | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
 3 | [Mirai](https://vuldb.com/?actor.mirai) | High
-4 | ... | ...
+4 | [Gafgyt](https://vuldb.com/?actor.gafgyt) | High
+5 | ... | ...
 
-There are 6 more actor items available. Please use our online service to access the data.
+There are 7 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,22 +58,23 @@ ID | IP address | Hostname | Actor | Confidence
 26 | [37.77.105.102](https://vuldb.com/?ip.37.77.105.102) | 701115-cm83897.tmweb.ru | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
 27 | [37.145.11.91](https://vuldb.com/?ip.37.145.11.91) | 37-145-11-91.broadband.corbina.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
 28 | [44.192.75.28](https://vuldb.com/?ip.44.192.75.28) | ec2-44-192-75-28.compute-1.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
-29 | ... | ... | ... | ...
+29 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
+30 | ... | ... | ... | ...
 
-There are 112 more IOC items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Ukraine. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Ukraine. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,27 +82,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/files` | Medium
-4 | File | `/admin/options` | High
-5 | File | `/admin/page_edit/3` | High
-6 | File | `/admin_page/all-files-update-ajax.php` | High
-7 | File | `/api/servers` | Medium
-8 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-9 | File | `/cbpos/` | Low
-10 | File | `/etc/passwd` | Medium
-11 | File | `/goform/SetPptpServerCfg` | High
-12 | File | `/mdiy/dict/listExcludeApp` | High
-13 | ... | ... | ...
+1 | File | `/.htaccess` | Medium
+2 | File | `//` | Low
+3 | File | `/admin/ajax/avatar.php` | High
+4 | File | `/admin/uploads.php` | High
+5 | File | `/alerts/alertConfigField.php` | High
+6 | File | `/alerts/alertLightbox.php` | High
+7 | File | `/aqpg/users/login.php` | High
+8 | File | `/classes/ajax/Functions.php` | High
+9 | File | `/cwms/admin/?page=articles/view_article/` | High
+10 | File | `/cwms/classes/Master.php?f=save_contact` | High
+11 | File | `/ethash/algorithm.go` | High
+12 | File | `/jquery_file_upload/server/php/index.php` | High
+13 | File | `/ptms/?page=user` | High
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.malwarebytes.com/threat-intelligence/2022/03/formbook-spam-campaign-targets-citizens-of-ukraine%ef%b8%8f/
 * https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
+* https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/

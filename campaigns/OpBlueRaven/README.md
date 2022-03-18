@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,7 +46,7 @@ There are 44 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within OpBlueRaven. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within OpBlueRaven. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -93,13 +93,14 @@ ID | Type | Indicator | Confidence
 28 | File | `/var/lib/docker/<remapping>` | High
 29 | File | `/wp-admin` | Medium
 30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `AccountManagerService.java` | High
-32 | File | `actions/CompanyDetailsSave.php` | High
-33 | File | `ActiveServices.java` | High
-34 | File | `ActivityManagerService.java` | High
-35 | ... | ... | ...
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `AccountManagerService.java` | High
+33 | File | `actions/CompanyDetailsSave.php` | High
+34 | File | `ActiveServices.java` | High
+35 | File | `ActivityManagerService.java` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

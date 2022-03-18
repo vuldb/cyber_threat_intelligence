@@ -33,7 +33,7 @@ There are 22 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Nymaim_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Nymaim_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -50,34 +50,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/doctors/view_doctor.php` | High
-3 | File | `/appliance/users?action=edit` | High
-4 | File | `/config/getuser` | High
-5 | File | `/data-service/users/` | High
-6 | File | `/IISADMPWD` | Medium
-7 | File | `/js/app.js` | Medium
-8 | File | `/login` | Low
-9 | File | `/monitor/s_headmodel.php` | High
-10 | File | `/pro/repo-create.html` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-13 | File | `/rest/api/latest/projectvalidate/key` | High
-14 | File | `/rest/collectors/1.0/template/custom` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/server-info` | Medium
-17 | File | `/services` | Medium
-18 | File | `/test/cookie/` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/bin/at` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `admin-ajax.php` | High
-24 | File | `AndroidManifest.xml` | High
-25 | File | `app/View/Galaxies/view.ctp` | High
+1 | File | `//` | Low
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/doctors/view_doctor.php` | High
+4 | File | `/appliance/users?action=edit` | High
+5 | File | `/config/getuser` | High
+6 | File | `/data-service/users/` | High
+7 | File | `/IISADMPWD` | Medium
+8 | File | `/js/app.js` | Medium
+9 | File | `/login` | Low
+10 | File | `/monitor/s_headmodel.php` | High
+11 | File | `/pro/repo-create.html` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+14 | File | `/rest/api/latest/projectvalidate/key` | High
+15 | File | `/rest/collectors/1.0/template/custom` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/server-info` | Medium
+18 | File | `/services` | Medium
+19 | File | `/test/cookie/` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/at` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | File | `admin-ajax.php` | High
+25 | File | `AndroidManifest.xml` | High
 26 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

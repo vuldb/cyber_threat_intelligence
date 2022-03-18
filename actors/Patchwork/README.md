@@ -103,7 +103,7 @@ There are 274 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Patchwork_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Patchwork_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -163,19 +163,18 @@ ID | Type | Indicator | Confidence
 41 | File | `adclick.php` | Medium
 42 | File | `addentry.php` | Medium
 43 | File | `add_vhost.php` | High
-44 | File | `adm/systools.asp` | High
-45 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
-46 | File | `admin/category.inc.php` | High
-47 | File | `admin/conf_users_edit.php` | High
-48 | File | `admin/default.asp` | High
-49 | File | `admin/dl_sendmail.php` | High
-50 | File | `admin/getparam.cgi` | High
-51 | File | `admin/index.php` | High
-52 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
-53 | File | `admin/media/rename.php` | High
-54 | ... | ... | ...
+44 | File | `admin/admin_admin.php?nav=list_admin_user&admin_p_nav=user` | High
+45 | File | `admin/category.inc.php` | High
+46 | File | `admin/conf_users_edit.php` | High
+47 | File | `admin/default.asp` | High
+48 | File | `admin/dl_sendmail.php` | High
+49 | File | `admin/getparam.cgi` | High
+50 | File | `admin/index.php` | High
+51 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
+52 | File | `admin/media/rename.php` | High
+53 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

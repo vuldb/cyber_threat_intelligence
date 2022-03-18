@@ -1,6 +1,6 @@
 # Zbot - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zbot](https://vuldb.com/?actor.zbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zbot](https://vuldb.com/?actor.zbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zbot](https://vuldb.com/?actor.zbot)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zbot:
 
-* US
-* ES
-* RU
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -21,50 +21,50 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 3.223.115.185 | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
-2 | 12.96.218.170 | - | - | High
-3 | 13.32.204.55 | server-13-32-204-55.iad66.r.cloudfront.net | - | High
-4 | 18.207.9.28 | ec2-18-207-9-28.compute-1.amazonaws.com | - | Medium
-5 | 20.189.173.20 | - | - | High
-6 | 20.189.173.22 | - | - | High
-7 | 23.56.9.181 | a23-56-9-181.deploy.static.akamaitechnologies.com | - | High
-8 | 23.96.30.229 | - | - | High
-9 | 23.193.42.12 | a23-193-42-12.deploy.static.akamaitechnologies.com | - | High
-10 | 23.227.38.32 | myshopify.com | - | High
-11 | 24.115.94.180 | 24.115.94.180.res-cmts.ovr.ptd.net | - | High
-12 | 24.120.165.58 | wsip-24-120-165-58.lv.lv.cox.net | - | High
-13 | 27.54.110.77 | 77.110.54.27.dhcp.mct.ne.jp | - | High
-14 | 32.178.143.61 | mobile-32-178-143-61.mycingular.net | - | High
-15 | 34.72.197.182 | 182.197.72.34.bc.googleusercontent.com | - | Medium
-16 | 35.177.71.77 | ns1.symbiant.net | - | High
-17 | 36.2.242.186 | 36-2-242-186.aichi.otk.vectant.ne.jp | - | High
-18 | 39.116.90.10 | - | - | High
-19 | 41.168.5.140 | - | - | High
-20 | 45.60.77.201 | - | - | High
-21 | 46.165.243.51 | - | - | High
-22 | 49.212.235.209 | www3469.sakura.ne.jp | - | High
-23 | 50.7.252.125 | - | - | High
-24 | 50.72.177.24 | S01069050ca30b943.wp.shawcable.net | - | High
-25 | 50.116.43.143 | li480-143.members.linode.com | - | High
-26 | 51.178.156.9 | ip9.ip-51-178-156.eu | - | High
-27 | 52.85.132.44 | server-52-85-132-44.iad50.r.cloudfront.net | - | High
-28 | 52.137.90.34 | - | - | High
-29 | 52.168.117.173 | - | - | High
-30 | 52.182.143.212 | - | - | High
-31 | 52.185.71.28 | - | - | High
-32 | 58.1.158.10 | ntaich204010.aich.nt.ngn.ppp.infoweb.ne.jp | - | High
-33 | 58.68.2.214 | - | - | High
-34 | 58.185.131.158 | - | - | High
-35 | 59.90.221.6 | static.bb.hyd.59.90.221.6.bsnl.in | - | High
-36 | 60.244.81.6 | 60-244-81-6.apol.com.tw | - | High
-37 | 61.7.235.35 | - | - | High
-38 | 61.32.242.131 | - | - | High
-39 | 62.49.180.189 | - | - | High
-40 | 62.76.47.5 | 62-76-47-5.vm.clodoserver.ru | - | High
-41 | 62.76.178.192 | ballistica.ru | - | High
-42 | 62.76.185.233 | 62-76-185-233.vm.clodoserver.ru | - | High
-43 | 62.76.188.38 | 62-76-188-38.vm.clodoserver.ru | - | High
-44 | 64.219.121.189 | - | - | High
+1 | [3.223.115.185](https://vuldb.com/?ip.3.223.115.185) | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
+2 | [12.96.218.170](https://vuldb.com/?ip.12.96.218.170) | - | - | High
+3 | [13.32.204.55](https://vuldb.com/?ip.13.32.204.55) | server-13-32-204-55.iad66.r.cloudfront.net | - | High
+4 | [18.207.9.28](https://vuldb.com/?ip.18.207.9.28) | ec2-18-207-9-28.compute-1.amazonaws.com | - | Medium
+5 | [20.189.173.20](https://vuldb.com/?ip.20.189.173.20) | - | - | High
+6 | [20.189.173.22](https://vuldb.com/?ip.20.189.173.22) | - | - | High
+7 | [23.56.9.181](https://vuldb.com/?ip.23.56.9.181) | a23-56-9-181.deploy.static.akamaitechnologies.com | - | High
+8 | [23.96.30.229](https://vuldb.com/?ip.23.96.30.229) | - | - | High
+9 | [23.193.42.12](https://vuldb.com/?ip.23.193.42.12) | a23-193-42-12.deploy.static.akamaitechnologies.com | - | High
+10 | [23.227.38.32](https://vuldb.com/?ip.23.227.38.32) | myshopify.com | - | High
+11 | [24.115.94.180](https://vuldb.com/?ip.24.115.94.180) | 24.115.94.180.res-cmts.ovr.ptd.net | - | High
+12 | [24.120.165.58](https://vuldb.com/?ip.24.120.165.58) | wsip-24-120-165-58.lv.lv.cox.net | - | High
+13 | [27.54.110.77](https://vuldb.com/?ip.27.54.110.77) | 77.110.54.27.dhcp.mct.ne.jp | - | High
+14 | [32.178.143.61](https://vuldb.com/?ip.32.178.143.61) | mobile-32-178-143-61.mycingular.net | - | High
+15 | [34.72.197.182](https://vuldb.com/?ip.34.72.197.182) | 182.197.72.34.bc.googleusercontent.com | - | Medium
+16 | [35.177.71.77](https://vuldb.com/?ip.35.177.71.77) | ns1.symbiant.net | - | High
+17 | [36.2.242.186](https://vuldb.com/?ip.36.2.242.186) | 36-2-242-186.aichi.otk.vectant.ne.jp | - | High
+18 | [39.116.90.10](https://vuldb.com/?ip.39.116.90.10) | - | - | High
+19 | [41.168.5.140](https://vuldb.com/?ip.41.168.5.140) | - | - | High
+20 | [45.60.77.201](https://vuldb.com/?ip.45.60.77.201) | - | - | High
+21 | [46.165.243.51](https://vuldb.com/?ip.46.165.243.51) | - | - | High
+22 | [49.212.235.209](https://vuldb.com/?ip.49.212.235.209) | www3469.sakura.ne.jp | - | High
+23 | [50.7.252.125](https://vuldb.com/?ip.50.7.252.125) | - | - | High
+24 | [50.72.177.24](https://vuldb.com/?ip.50.72.177.24) | S01069050ca30b943.wp.shawcable.net | - | High
+25 | [50.116.43.143](https://vuldb.com/?ip.50.116.43.143) | li480-143.members.linode.com | - | High
+26 | [51.178.156.9](https://vuldb.com/?ip.51.178.156.9) | ip9.ip-51-178-156.eu | - | High
+27 | [52.85.132.44](https://vuldb.com/?ip.52.85.132.44) | server-52-85-132-44.iad50.r.cloudfront.net | - | High
+28 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+29 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+30 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
+31 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
+32 | [58.1.158.10](https://vuldb.com/?ip.58.1.158.10) | ntaich204010.aich.nt.ngn.ppp.infoweb.ne.jp | - | High
+33 | [58.68.2.214](https://vuldb.com/?ip.58.68.2.214) | - | - | High
+34 | [58.185.131.158](https://vuldb.com/?ip.58.185.131.158) | - | - | High
+35 | [59.90.221.6](https://vuldb.com/?ip.59.90.221.6) | static.bb.hyd.59.90.221.6.bsnl.in | - | High
+36 | [60.244.81.6](https://vuldb.com/?ip.60.244.81.6) | 60-244-81-6.apol.com.tw | - | High
+37 | [61.7.235.35](https://vuldb.com/?ip.61.7.235.35) | - | - | High
+38 | [61.32.242.131](https://vuldb.com/?ip.61.32.242.131) | - | - | High
+39 | [62.49.180.189](https://vuldb.com/?ip.62.49.180.189) | - | - | High
+40 | [62.76.47.5](https://vuldb.com/?ip.62.76.47.5) | 62-76-47-5.vm.clodoserver.ru | - | High
+41 | [62.76.178.192](https://vuldb.com/?ip.62.76.178.192) | ballistica.ru | - | High
+42 | [62.76.185.233](https://vuldb.com/?ip.62.76.185.233) | 62-76-185-233.vm.clodoserver.ru | - | High
+43 | [62.76.188.38](https://vuldb.com/?ip.62.76.188.38) | 62-76-188-38.vm.clodoserver.ru | - | High
+44 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | - | High
 45 | ... | ... | ... | ...
 
 There are 174 more IOC items available. Please use our online service to access the data.

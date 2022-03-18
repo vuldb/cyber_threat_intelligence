@@ -28,16 +28,13 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by MalKamak. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MalKamak_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-770 | Resource Consumption | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+3 | T1555 | CWE-312 | Cleartext Storage of Sensitive Information | High
 
 ## IOA - Indicator of Attack
 

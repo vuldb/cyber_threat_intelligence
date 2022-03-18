@@ -1,6 +1,6 @@
 # Redaman - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Redaman](https://vuldb.com/?actor.redaman). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Redaman](https://vuldb.com/?actor.redaman). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.redaman](https://vuldb.com/?actor.redaman)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Redaman:
 
-* US
-* RU
-* PL
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -21,37 +21,34 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 35.216.85.217 | 217.85.216.35.bc.googleusercontent.com | - | Medium
-2 | 35.216.185.203 | 203.185.216.35.bc.googleusercontent.com | - | Medium
-3 | 54.151.91.200 | ec2-54-151-91-200.us-west-1.compute.amazonaws.com | - | Medium
-4 | 54.151.172.105 | ec2-54-151-172-105.ap-southeast-1.compute.amazonaws.com | - | Medium
-5 | 59.149.85.217 | 059149085217.ctinets.com | - | High
-6 | 59.149.171.48 | 059149171048.ctinets.com | - | High
-7 | 69.5.100.66 | dynamic-69-5-100-66.molalla.net | - | High
-8 | 69.5.172.104 | - | - | High
-9 | 72.50.91.200 | adsl-72-50-91-200.prtc.net | - | High
-10 | 72.50.185.234 | mca-e-72-50-185-234.resnet.wvu.edu | - | High
-11 | 78.108.216.39 | mail.saity.info | - | High
-12 | 85.217.59.149 | adsl-85-217-59-149.kotinet.com | - | High
-13 | 85.217.94.156 | - | - | High
-14 | 85.217.170.51 | - | - | High
-15 | 85.217.171.48 | - | - | High
+1 | [35.216.85.217](https://vuldb.com/?ip.35.216.85.217) | 217.85.216.35.bc.googleusercontent.com | - | Medium
+2 | [35.216.185.203](https://vuldb.com/?ip.35.216.185.203) | 203.185.216.35.bc.googleusercontent.com | - | Medium
+3 | [54.151.91.200](https://vuldb.com/?ip.54.151.91.200) | ec2-54-151-91-200.us-west-1.compute.amazonaws.com | - | Medium
+4 | [54.151.172.105](https://vuldb.com/?ip.54.151.172.105) | ec2-54-151-172-105.ap-southeast-1.compute.amazonaws.com | - | Medium
+5 | [59.149.85.217](https://vuldb.com/?ip.59.149.85.217) | 059149085217.ctinets.com | - | High
+6 | [59.149.171.48](https://vuldb.com/?ip.59.149.171.48) | 059149171048.ctinets.com | - | High
+7 | [69.5.100.66](https://vuldb.com/?ip.69.5.100.66) | dynamic-69-5-100-66.molalla.net | - | High
+8 | [69.5.172.104](https://vuldb.com/?ip.69.5.172.104) | - | - | High
+9 | [72.50.91.200](https://vuldb.com/?ip.72.50.91.200) | adsl-72-50-91-200.prtc.net | - | High
+10 | [72.50.185.234](https://vuldb.com/?ip.72.50.185.234) | mca-e-72-50-185-234.resnet.wvu.edu | - | High
+11 | [78.108.216.39](https://vuldb.com/?ip.78.108.216.39) | mail.saity.info | - | High
+12 | [85.217.59.149](https://vuldb.com/?ip.85.217.59.149) | adsl-85-217-59-149.kotinet.com | - | High
+13 | [85.217.94.156](https://vuldb.com/?ip.85.217.94.156) | - | - | High
+14 | [85.217.170.51](https://vuldb.com/?ip.85.217.170.51) | - | - | High
+15 | [85.217.171.48](https://vuldb.com/?ip.85.217.171.48) | - | - | High
 16 | ... | ... | ... | ...
 
 There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Redaman. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Redaman_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,17 +57,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/sqfs/bin/sccd` | High
-2 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-3 | File | `admin.php` | Medium
-4 | File | `admin/google_search_console/class-gsc-table.php` | High
-5 | File | `ajax.php` | Medium
-6 | File | `akocomments.php` | High
-7 | File | `auth.inc.php` | Medium
-8 | File | `bgpd/bgp_aspath.c` | High
-9 | File | `cmd.php` | Low
+2 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+3 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+4 | File | `admin.php` | Medium
+5 | File | `admin/google_search_console/class-gsc-table.php` | High
+6 | File | `ajax.php` | Medium
+7 | File | `akocomments.php` | High
+8 | File | `auth.inc.php` | Medium
+9 | File | `bgpd/bgp_aspath.c` | High
 10 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -56,7 +56,7 @@ There are 80 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Cloud Hopper. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Cloud Hopper. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -103,10 +103,10 @@ ID | Type | Indicator | Confidence
 28 | File | `apply.cgi` | Medium
 29 | File | `arm/lithium-codegen-arm.cc` | High
 30 | File | `authenticate.c` | High
-31 | File | `Authenticate.class.php` | High
+31 | File | `base_maintenance.php` | High
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

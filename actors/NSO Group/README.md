@@ -43,7 +43,7 @@ There are 31 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _NSO Group_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _NSO Group_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -66,21 +66,21 @@ ID | Type | Indicator | Confidence
 4 | File | `/forms/web_importTFTP` | High
 5 | File | `/forum/away.php` | High
 6 | File | `/graphql` | Medium
-7 | File | `/localhost/u` | Medium
-8 | File | `/out.php` | Medium
-9 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-10 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-11 | File | `/rom-0` | Low
-12 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-13 | File | `/v2/devices/add` | High
-14 | File | `/var/ipfire/backup/bin/backup.pl` | High
-15 | File | `/wp-json/wc/v3/webhooks` | High
-16 | File | `adclick.php` | Medium
-17 | File | `AddEvent.php` | Medium
-18 | File | `admin.php` | Medium
+7 | File | `/jeecg-boot/jmreport/view` | High
+8 | File | `/localhost/u` | Medium
+9 | File | `/out.php` | Medium
+10 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+11 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+12 | File | `/rom-0` | Low
+13 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+14 | File | `/v2/devices/add` | High
+15 | File | `/var/ipfire/backup/bin/backup.pl` | High
+16 | File | `/wp-json/wc/v3/webhooks` | High
+17 | File | `adclick.php` | Medium
+18 | File | `AddEvent.php` | Medium
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

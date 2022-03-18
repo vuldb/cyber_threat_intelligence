@@ -151,7 +151,7 @@ There are 496 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Grizzly Steppe_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Grizzly Steppe_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -160,7 +160,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -179,13 +179,13 @@ ID | Type | Indicator | Confidence
 9 | File | `/dev/dri/card1` | High
 10 | File | `/domain/service/.ewell-known/caldav` | High
 11 | File | `/download` | Medium
-12 | File | `/formWlanSetup` | High
-13 | File | `/goform/setIPv6Status` | High
-14 | File | `/images` | Low
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/InternalPages/ExecuteTask.aspx` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/monitoring` | Medium
+12 | File | `/file?action=download&file` | High
+13 | File | `/formWlanSetup` | High
+14 | File | `/goform/setIPv6Status` | High
+15 | File | `/images` | Low
+16 | File | `/include/chart_generator.php` | High
+17 | File | `/InternalPages/ExecuteTask.aspx` | High
+18 | File | `/modules/profile/index.php` | High
 19 | File | `/music/ajax.php` | High
 20 | File | `/pandora_console/ajax.php` | High
 21 | File | `/plugins/servlet/audit/resource` | High
@@ -198,10 +198,9 @@ ID | Type | Indicator | Confidence
 28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 29 | File | `/secure/QueryComponent!Default.jspa` | High
 30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | ... | ... | ...
+31 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

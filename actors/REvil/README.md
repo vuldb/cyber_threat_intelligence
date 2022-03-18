@@ -1,6 +1,6 @@
 # REvil - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [REvil](https://vuldb.com/?actor.revil). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [REvil](https://vuldb.com/?actor.revil). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.revil](https://vuldb.com/?actor.revil)
 
@@ -8,18 +8,18 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with REvil:
 
-* WebLogic CVE-2019-2725
+* CVE-2019-2725
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with REvil:
 
-* US
-* DE
-* RU
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,22 +27,22 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.230.195.226 | - | - | High
-2 | 18.223.199.234 | ec2-18-223-199-234.us-east-2.compute.amazonaws.com | - | Medium
-3 | 45.9.148.108 | mx1.dendrite.network | - | High
-4 | 45.33.2.79 | li956-79.members.linode.com | - | High
-5 | 45.33.18.44 | li972-44.members.linode.com | - | High
-6 | 45.33.20.235 | li974-235.members.linode.com | - | High
-7 | 45.33.23.183 | li977-183.members.linode.com | - | High
-8 | 45.33.30.197 | li1047-197.members.linode.com | - | High
-9 | 45.55.211.79 | - | WebLogic CVE-2019-2725 | High
+1 | [5.230.195.226](https://vuldb.com/?ip.5.230.195.226) | - | - | High
+2 | [18.223.199.234](https://vuldb.com/?ip.18.223.199.234) | ec2-18-223-199-234.us-east-2.compute.amazonaws.com | - | Medium
+3 | [45.9.148.108](https://vuldb.com/?ip.45.9.148.108) | mx1.dendrite.network | - | High
+4 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | - | High
+5 | [45.33.18.44](https://vuldb.com/?ip.45.33.18.44) | li972-44.members.linode.com | - | High
+6 | [45.33.20.235](https://vuldb.com/?ip.45.33.20.235) | li974-235.members.linode.com | - | High
+7 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | - | High
+8 | [45.33.30.197](https://vuldb.com/?ip.45.33.30.197) | li1047-197.members.linode.com | - | High
+9 | [45.55.211.79](https://vuldb.com/?ip.45.55.211.79) | - | CVE-2019-2725 | High
 10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by REvil. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _REvil_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,15 +75,17 @@ ID | Type | Indicator | Confidence
 14 | File | `/uncpath/` | Medium
 15 | File | `adclick.php` | Medium
 16 | File | `admin.asp` | Medium
-17 | ... | ... | ...
+17 | File | `admin/categories_industry.php` | High
+18 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
+* https://blogs.blackberry.com/en/2021/11/revil-under-the-microscope
 * https://ddanchev.blogspot.com/2022/01/exposing-internet-connected_24.html
 * https://www.darktrace.com/en/blog/darktraces-cyber-ai-analyst-investigates-sodinokibi-r-evil-ransomware/
 * https://www.varonis.com/blog/revil-msp-supply-chain-attack/

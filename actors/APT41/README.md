@@ -9,18 +9,22 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT41:
 
 * CVE-2019-19781
-* MoonBounce
+* CVE-2021-44207
+* CVE-2021-44228
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT41:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,21 +39,25 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [5.188.108.22](https://vuldb.com/?ip.5.188.108.22) | pol1.htjsq.com | MoonBounce | High
 6 | [5.188.108.228](https://vuldb.com/?ip.5.188.108.228) | xc5.exclusivacondominios.com | MoonBounce | High
 7 | [5.189.222.33](https://vuldb.com/?ip.5.189.222.33) | spain466.es | MoonBounce | High
-8 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
-9 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
-10 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
-11 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
-12 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
-13 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
-14 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
-15 | [61.78.62.21](https://vuldb.com/?ip.61.78.62.21) | - | - | High
-16 | ... | ... | ... | ...
+8 | [18.118.56.237](https://vuldb.com/?ip.18.118.56.237) | ec2-18-118-56-237.us-east-2.compute.amazonaws.com | CVE-2021-44207 | Medium
+9 | [20.121.42.11](https://vuldb.com/?ip.20.121.42.11) | - | CVE-2021-44207 | High
+10 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
+11 | [34.139.13.46](https://vuldb.com/?ip.34.139.13.46) | 46.13.139.34.bc.googleusercontent.com | CVE-2021-44207 | Medium
+12 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
+13 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
+14 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
+15 | [45.84.1.181](https://vuldb.com/?ip.45.84.1.181) | vm372737.pq.hosting | CVE-2021-44207 | High
+16 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
+17 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
+18 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
+19 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
+20 | ... | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT41_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT41_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -58,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,34 +75,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/blade-log/api/list` | High
-2 | File | `/category_view.php` | High
-3 | File | `/cgi-bin/portal` | High
-4 | File | `/cgi-bin/system_mgr.cgi` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/etc/config/rpcd` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/get_getnetworkconf.cgi` | High
-9 | File | `/lists/admin/` | High
-10 | File | `/login.cgi?logout=1` | High
-11 | File | `/medical/inventories.php` | High
-12 | File | `/module/admin_logs` | High
-13 | File | `/public/login.htm` | High
-14 | File | `/public/plugins/` | High
-15 | File | `/replication` | Medium
-16 | File | `/SASWebReportStudio/logonAndRender.do` | High
-17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-18 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-19 | File | `/start-stop` | Medium
-20 | File | `/tmp/app/.env` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/_next` | Low
-27 | ... | ... | ...
+2 | File | `/api/trackedEntityInstances` | High
+3 | File | `/category_view.php` | High
+4 | File | `/cgi-bin/portal` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/etc/config/rpcd` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/get_getnetworkconf.cgi` | High
+10 | File | `/lists/admin/` | High
+11 | File | `/login.cgi?logout=1` | High
+12 | File | `/medical/inventories.php` | High
+13 | File | `/module/admin_logs` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/replication` | Medium
+17 | File | `/SASWebReportStudio/logonAndRender.do` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/start-stop` | Medium
+22 | File | `/tmp/app/.env` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/usr/bin/pkexec` | High
+26 | File | `/WEB-INF/web.xml` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/_next` | Low
+29 | File | `adclick.php` | Medium
+30 | File | `addentry.php` | Medium
+31 | File | `addrating.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin.php/comments/batchdel/` | High
+34 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://securelist.com/moonbounce-the-dark-side-of-uefi-firmware/105468/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.14/APT%2041.pdf
 * https://www.fireeye.com/blog/threat-research/2020/03/apt41-initiates-global-intrusion-campaign-using-multiple-exploits.html
+* https://www.mandiant.com/resources/apt41-us-state-governments
 * https://www.threatminer.org/report.php?q=OfPigsandMalwareExaminingaPossibleMemberoftheWinntiGroup-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiAbusesGitHubforC&CCommunications-TrendMicro.pdf&y=2017
 * https://www.threatminer.org/report.php?q=WinntiEvolution-GoingOpenSource-Protectwise.pdf&y=2017

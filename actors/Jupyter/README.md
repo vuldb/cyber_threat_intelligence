@@ -1,6 +1,6 @@
 # Jupyter - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Jupyter](https://vuldb.com/?actor.jupyter). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Jupyter](https://vuldb.com/?actor.jupyter). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.jupyter](https://vuldb.com/?actor.jupyter)
 
@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Jupyter:
 
-* US
-* FR
-* RU
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 23.29.115.175 | 23-29-115-175.static.hvvc.us | - | High
-2 | 37.221.114.23 | - | - | High
-3 | 69.46.15.151 | 69-46-15-151.static.hvvc.us | - | High
+1 | [23.29.115.175](https://vuldb.com/?ip.23.29.115.175) | 23-29-115-175.static.hvvc.us | - | High
+2 | [37.221.114.23](https://vuldb.com/?ip.37.221.114.23) | - | - | High
+3 | [69.46.15.151](https://vuldb.com/?ip.69.46.15.151) | 69-46-15-151.static.hvvc.us | - | High
 4 | ... | ... | ... | ...
 
 There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Jupyter. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Jupyter_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,14 +51,15 @@ ID | Type | Indicator | Confidence
 2 | File | `/include/chart_generator.php` | High
 3 | File | `/login` | Low
 4 | File | `/modules/profile/index.php` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/usr/bin/pkexec` | High
-7 | File | `/wp-admin` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `admin-ajax.php` | High
-10 | ... | ... | ...
+5 | File | `/setup/finish` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/usr/bin/pkexec` | High
+8 | File | `/wp-admin` | Medium
+9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+10 | File | `adclick.php` | Medium
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

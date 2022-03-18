@@ -90,16 +90,16 @@ There are 202 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Log4Shell. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Log4Shell. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,37 +108,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin-panel1.php` | High
-3 | File | `/admin/?page=members/view_member` | High
-4 | File | `/admin/allergens/edit/1` | High
-5 | File | `/admin/delete_image.php` | High
-6 | File | `/admin/file-manager/` | High
-7 | File | `/admin/options` | High
-8 | File | `/admin/page_edit/3` | High
-9 | File | `/administrator/components/table_manager/` | High
-10 | File | `/admin_page/all-files-update-ajax.php` | High
-11 | File | `/api/servers` | Medium
-12 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-13 | File | `/etc/cobbler` | Medium
-14 | File | `/etc/wpa_supplicant.conf` | High
-15 | File | `/mdiy/dict/listExcludeApp` | High
-16 | File | `/members/view_member.php` | High
-17 | File | `/ok_jpg.c` | Medium
-18 | File | `/options/mailman` | High
-19 | File | `/projeqtor/tool/saveAttachment.php` | High
-20 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-21 | File | `/rootfs` | Low
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/RestoreDefaults.jspa` | High
-26 | File | `/src/njs_vmcode.c` | High
-27 | File | `/sys/user/queryUserComponentData` | High
-28 | File | `/template/unzip.do` | High
-29 | File | `/uncpath/` | Medium
-30 | ... | ... | ...
+2 | File | `/.htaccess` | Medium
+3 | File | `/admin-panel1.php` | High
+4 | File | `/admin/?page=members/view_member` | High
+5 | File | `/admin/allergens/edit/1` | High
+6 | File | `/admin/delete_image.php` | High
+7 | File | `/admin/file-manager/` | High
+8 | File | `/admin/news/news_mod.php` | High
+9 | File | `/admin/options` | High
+10 | File | `/admin/page_edit/3` | High
+11 | File | `/administrator/components/table_manager/` | High
+12 | File | `/admin_page/all-files-update-ajax.php` | High
+13 | File | `/api/servers` | Medium
+14 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+15 | File | `/etc/cobbler` | Medium
+16 | File | `/etc/wpa_supplicant.conf` | High
+17 | File | `/mdiy/dict/listExcludeApp` | High
+18 | File | `/members/view_member.php` | High
+19 | File | `/ok_jpg.c` | Medium
+20 | File | `/options/mailman` | High
+21 | File | `/projeqtor/tool/saveAttachment.php` | High
+22 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+23 | File | `/rootfs` | Low
+24 | File | `/SASWebReportStudio/logonAndRender.do` | High
+25 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/RestoreDefaults.jspa` | High
+28 | File | `/src/njs_vmcode.c` | High
+29 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

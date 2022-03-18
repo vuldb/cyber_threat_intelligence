@@ -1,6 +1,6 @@
 # APT3 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT3](https://vuldb.com/?actor.apt3). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT3](https://vuldb.com/?actor.apt3). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt3](https://vuldb.com/?actor.apt3)
 
@@ -9,16 +9,15 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT3:
 
 * CVE-2015-5119
-* Doubletap
 * Double Tap
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT3:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -29,16 +28,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 23.99.20.198 | - | - | High
-2 | 54.169.89.240 | ec2-54-169-89-240.ap-southeast-1.compute.amazonaws.com | - | Medium
-3 | 104.151.248.173 | 173.248-151-104.rdns.scalabledns.com | Doubletap | High
+1 | [23.99.20.198](https://vuldb.com/?ip.23.99.20.198) | - | - | High
+2 | [54.169.89.240](https://vuldb.com/?ip.54.169.89.240) | ec2-54-169-89-240.ap-southeast-1.compute.amazonaws.com | - | Medium
+3 | [104.151.248.173](https://vuldb.com/?ip.104.151.248.173) | 173.248-151-104.rdns.scalabledns.com | Double Tap | High
 4 | ... | ... | ... | ...
 
 There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT3. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT3_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -47,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,29 +80,30 @@ ID | Type | Indicator | Confidence
 24 | File | `/rest/api/2/search` | High
 25 | File | `/s/` | Low
 26 | File | `/scripts/cpan_config` | High
-27 | File | `/services/system/setup.json` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/webconsole/APIController` | High
-30 | File | `/websocket/exec` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `/_next` | Low
-34 | File | `4.edu.php\conn\function.php` | High
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `adclick.php` | Medium
-37 | File | `addentry.php` | Medium
-38 | File | `addressbook.php` | High
-39 | File | `add_comment.php` | High
-40 | File | `admin/category.inc.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/dl_sendmail.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/languages.php` | High
-45 | File | `admin/password_forgotten.php` | High
-46 | File | `admin/versions.html` | High
-47 | ... | ... | ...
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/services/system/setup.json` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/webconsole/APIController` | High
+31 | File | `/websocket/exec` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `/wp-json/oembed/1.0/embed?url` | High
+34 | File | `/_next` | Low
+35 | File | `4.edu.php\conn\function.php` | High
+36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `addressbook.php` | High
+40 | File | `add_comment.php` | High
+41 | File | `admin/category.inc.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `admin/dl_sendmail.php` | High
+44 | File | `admin/index.php` | High
+45 | File | `admin/languages.php` | High
+46 | File | `admin/password_forgotten.php` | High
+47 | File | `admin/versions.html` | High
+48 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

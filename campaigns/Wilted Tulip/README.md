@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
-* [PL](https://vuldb.com/?country.pl)
 * [ES](https://vuldb.com/?country.es)
+* [PL](https://vuldb.com/?country.pl)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
@@ -49,7 +49,7 @@ There are 57 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Wilted Tulip. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Wilted Tulip. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,29 +68,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about/../` | Medium
 2 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
-3 | File | `/admin/comment.php` | High
-4 | File | `/admin/configure.php` | High
-5 | File | `/admin/index.php?lfj=member&action=editmember` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/api/notify.php` | High
-8 | File | `/apilog.php` | Medium
-9 | File | `/box_code_base.c` | High
-10 | File | `/forgetpassword.php` | High
-11 | File | `/formAdvFirewall` | High
-12 | File | `/function/booksave.php` | High
-13 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-14 | File | `/moddable/xs/sources/xsDataView.c` | High
-15 | File | `/ok_png.c` | Medium
-16 | File | `abc2ps.c` | Medium
-17 | File | `acknow.php` | Medium
-18 | File | `adminlogin.php` | High
-19 | File | `admin_home.php` | High
-20 | File | `alfresco/s/admin/admin-nodebrowser` | High
-21 | File | `allocator.cc` | Medium
-22 | File | `AndroidManifest.xml` | High
-23 | ... | ... | ...
+3 | File | `/admin/configure.php` | High
+4 | File | `/admin/index.php?lfj=member&action=editmember` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/apilog.php` | Medium
+7 | File | `/box_code_base.c` | High
+8 | File | `/cloud_config/router_post/upgrade_info` | High
+9 | File | `/forgetpassword.php` | High
+10 | File | `/formAdvFirewall` | High
+11 | File | `/function/booksave.php` | High
+12 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+13 | File | `/moddable/xs/sources/xsDataView.c` | High
+14 | File | `/ok_png.c` | Medium
+15 | File | `abc2ps.c` | Medium
+16 | File | `acknow.php` | Medium
+17 | File | `adminlogin.php` | High
+18 | File | `admin_home.php` | High
+19 | File | `alfresco/s/admin/admin-nodebrowser` | High
+20 | File | `allocator.cc` | Medium
+21 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

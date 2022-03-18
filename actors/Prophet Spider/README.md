@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ There are 35 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Prophet Spider_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Prophet Spider_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -59,28 +59,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/?page=members/view_member` | High
-3 | File | `/admin/file-manager/` | High
-4 | File | `/admin/page_edit/3` | High
-5 | File | `/admin_page/all-files-update-ajax.php` | High
-6 | File | `/api/servers` | Medium
-7 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-8 | File | `/etc/cobbler` | Medium
-9 | File | `/etc/passwd` | Medium
-10 | File | `/etc/wpa_supplicant.conf` | High
-11 | File | `/goform/SetPptpServerCfg` | High
-12 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-13 | File | `/js/js-parser.c` | High
-14 | File | `/languages/index.php` | High
-15 | File | `/mdiy/dict/listExcludeApp` | High
-16 | File | `/members/view_member.php` | High
-17 | File | `/ms/file/uploadTemplate.do` | High
-18 | File | `/northstar/Admin/changePassword.jsp` | High
-19 | File | `/ok_jpg.c` | Medium
-20 | File | `/ok_png.c` | Medium
-21 | File | `/ping.html` | Medium
-22 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+1 | File | `/.htaccess` | Medium
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin/?page=members/view_member` | High
+4 | File | `/admin/file-manager/` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/news/news_mod.php` | High
+7 | File | `/admin/page_edit/3` | High
+8 | File | `/admin/templates/template_manage.php` | High
+9 | File | `/admin_page/all-files-update-ajax.php` | High
+10 | File | `/api/servers` | Medium
+11 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+12 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+13 | File | `/cloud_config/router_post/register` | High
+14 | File | `/cloud_config/router_post/upgrade_info` | High
+15 | File | `/DataPackageTable` | High
+16 | File | `/download/` | Medium
+17 | File | `/etc/cobbler` | Medium
+18 | File | `/etc/passwd` | Medium
+19 | File | `/goform/SetPptpServerCfg` | High
+20 | File | `/i/:data/ipa.plist` | High
+21 | File | `/languages/index.php` | High
+22 | File | `/mdiy/dict/listExcludeApp` | High
 23 | ... | ... | ...
 
 There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

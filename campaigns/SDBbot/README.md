@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -39,7 +39,7 @@ There are 16 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within SDBbot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within SDBbot. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -64,9 +64,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 7 | File | `account_activations/edit` | High
 8 | File | `AddResolution.jspa` | High
-9 | ... | ... | ...
+9 | File | `admin-ajax.php` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

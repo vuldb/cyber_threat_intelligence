@@ -29,16 +29,13 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Ripprbot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Ripprbot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-404, CWE-835 | Resource Consumption | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+2 | T1068 | CWE-264, CWE-266 | Execution with Unnecessary Privileges | High
+3 | T1555 | CWE-312 | Cleartext Storage of Sensitive Information | High
 
 ## IOA - Indicator of Attack
 
@@ -46,19 +43,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/navigate/navigate_download.php` | High
-2 | File | `123flashchat.php` | High
-3 | File | `acme_accountkeys_edit.php` | High
-4 | File | `admin.cropcanvas.php` | High
-5 | File | `admin.joomlaradiov5.php` | High
-6 | File | `admin.webring.docs.php` | High
-7 | File | `admin/dashboard.php` | High
-8 | File | `advsearch_h.asp` | High
-9 | File | `akocomments.php` | High
-10 | File | `al_initialize.php` | High
-11 | ... | ... | ...
+1 | File | `/adherents/note.php?id=1` | High
+2 | File | `/dus_en/medieninfo_detail/index.php` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/master/article.php` | High
+5 | File | `/members/profiles.php` | High
+6 | File | `/navigate/navigate_download.php` | High
+7 | File | `/servlet/webacc` | High
+8 | File | `/userman/inbox.php` | High
+9 | File | `123flashchat.php` | High
+10 | File | `acme_accountkeys_edit.php` | High
+11 | File | `admin.cropcanvas.php` | High
+12 | File | `admin.joomlaradiov5.php` | High
+13 | File | `admin.webring.docs.php` | High
+14 | File | `admin/dashboard.php` | High
+15 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+16 | File | `advsearch_h.asp` | High
+17 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

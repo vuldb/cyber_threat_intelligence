@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ There are 60 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT33_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT33_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -75,24 +75,24 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/files` | Medium
 7 | File | `/administrator/components/menu/` | High
 8 | File | `/administrator/components/table_manager/` | High
-9 | File | `/api/ZRMesh/set_ZRMesh` | High
-10 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-11 | File | `/Hospital-Management-System-master/contact.php` | High
-12 | File | `/Hospital-Management-System-master/func.php` | High
-13 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-14 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-15 | File | `/jerry-core/jmem/jmem-heap.c` | High
-16 | File | `/ms/cms/content/list.do` | High
-17 | File | `/orms/` | Low
-18 | File | `/parser/js/js-parser-expr.c` | High
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-21 | File | `/transmission/web/` | High
-22 | File | `/uploads/exam_question/` | High
-23 | File | `/usr/bin/pkexec` | High
+9 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
+10 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
+11 | File | `/api/ZRMesh/set_ZRMesh` | High
+12 | File | `/cloud_config/router_post/register` | High
+13 | File | `/Hospital-Management-System-master/contact.php` | High
+14 | File | `/Hospital-Management-System-master/func.php` | High
+15 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+16 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+17 | File | `/jerry-core/jmem/jmem-heap.c` | High
+18 | File | `/ManageRoute/postRoute` | High
+19 | File | `/ms/cms/content/list.do` | High
+20 | File | `/orms/` | Low
+21 | File | `/parser/js/js-parser-expr.c` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 24 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

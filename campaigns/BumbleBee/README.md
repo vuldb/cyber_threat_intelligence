@@ -41,7 +41,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within BumbleBee. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within BumbleBee. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -86,27 +86,27 @@ ID | Type | Indicator | Confidence
 26 | File | `/uploads/dede` | High
 27 | File | `/usr/bin/pkexec` | High
 28 | File | `/usr/sbin/nagios` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/webman/info.cgi` | High
-31 | File | `/wp-json/oembed/1.0/embed?url` | High
-32 | File | `/wp-json/wc/v3/webhooks` | High
-33 | File | `/_next` | Low
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `adclick.php` | Medium
-36 | File | `admin.php?m=admin&c=site&a=save` | High
-37 | File | `admin.php?page=languages` | High
-38 | File | `admin/backupdb.php` | High
-39 | File | `admin/bitrix.mpbuilder_step2.php` | High
-40 | File | `admin/bitrix.xscan_worker.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/gb-dashboard-widget.php` | High
-43 | File | `admin/mcart_xls_import.php` | High
-44 | File | `admin/modules/tools/ip_history_logs.php` | High
-45 | File | `admin/ops/reports/ops/news.php` | High
-46 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+29 | File | `/usr/sbin/suexec` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/webman/info.cgi` | High
+32 | File | `/wp-json/oembed/1.0/embed?url` | High
+33 | File | `/wp-json/wc/v3/webhooks` | High
+34 | File | `/_next` | Low
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `adclick.php` | Medium
+37 | File | `admin.php?m=admin&c=site&a=save` | High
+38 | File | `admin.php?page=languages` | High
+39 | File | `admin/backupdb.php` | High
+40 | File | `admin/bitrix.mpbuilder_step2.php` | High
+41 | File | `admin/bitrix.xscan_worker.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `admin/gb-dashboard-widget.php` | High
+44 | File | `admin/mcart_xls_import.php` | High
+45 | File | `admin/modules/tools/ip_history_logs.php` | High
+46 | File | `admin/ops/reports/ops/news.php` | High
 47 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

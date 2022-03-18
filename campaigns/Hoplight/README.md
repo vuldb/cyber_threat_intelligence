@@ -1,19 +1,19 @@
-# Hoplight - Cyber Threat Intelligence
+# HOPLIGHT - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the campaign known as _Hoplight_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the campaign known as _HOPLIGHT_. The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hoplight:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with HOPLIGHT:
 
 * [US](https://vuldb.com/?country.us)
 * [ZW](https://vuldb.com/?country.zw)
 
 ## Actors
 
-These _actors_ are associated with Hoplight or other actors linked to the campaign.
+These _actors_ are associated with HOPLIGHT or other actors linked to the campaign.
 
 ID | Actor | Confidence
 -- | ----- | ----------
@@ -22,7 +22,7 @@ ID | Actor | Confidence
 
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Hoplight.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of HOPLIGHT.
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
@@ -35,7 +35,7 @@ There are 12 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Hoplight. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within HOPLIGHT. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Hoplight. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during HOPLIGHT. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------

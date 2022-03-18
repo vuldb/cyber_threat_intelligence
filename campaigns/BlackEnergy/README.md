@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackEnergy:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -40,7 +40,7 @@ There are 20 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within BlackEnergy. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within BlackEnergy. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -86,16 +86,16 @@ ID | Type | Indicator | Confidence
 27 | File | `/ViewUserHover.jspa` | High
 28 | File | `/wp-admin` | Medium
 29 | File | `/wp-json/wc/v3/webhooks` | High
-30 | File | `AccountManagerService.java` | High
-31 | File | `actions/CompanyDetailsSave.php` | High
-32 | File | `ActiveServices.java` | High
-33 | File | `ActivityManagerService.java` | High
-34 | File | `addlink.php` | Medium
-35 | File | `addtocart.asp` | High
-36 | File | `admin.php` | Medium
+30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+31 | File | `AccountManagerService.java` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `ActiveServices.java` | High
+34 | File | `ActivityManagerService.java` | High
+35 | File | `addlink.php` | Medium
+36 | File | `addtocart.asp` | High
 37 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

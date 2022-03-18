@@ -1,6 +1,6 @@
 # Gafgyt - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gafgyt](https://vuldb.com/?actor.gafgyt). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Gafgyt](https://vuldb.com/?actor.gafgyt). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gafgyt](https://vuldb.com/?actor.gafgyt)
 
@@ -10,17 +10,18 @@ The following _campaigns_ are known and can be associated with Gafgyt:
 
 * CVE-2014-8361 / CVE-2017-17215 / CVE-2017-18368
 * CVE-2017-5638 / CVE-2018-9866
+* DDoS Ukraine
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gafgyt:
 
 * [SC](https://vuldb.com/?country.sc)
-* [LI](https://vuldb.com/?country.li)
 * [US](https://vuldb.com/?country.us)
+* [LI](https://vuldb.com/?country.li)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,22 +29,25 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.10.68.127](https://vuldb.com/?ip.185.10.68.127) | 127.68.10.185.ro.ovo.sc | CVE-2017-5638 / CVE-2018-9866 | High
-2 | [185.10.68.213](https://vuldb.com/?ip.185.10.68.213) | 213.68.10.185.ro.ovo.sc | CVE-2017-5638 / CVE-2018-9866 | High
-3 | [185.172.110.224](https://vuldb.com/?ip.185.172.110.224) | - | CVE-2014-8361 / CVE-2017-17215 / CVE-2017-18368 | High
+1 | [46.249.32.109](https://vuldb.com/?ip.46.249.32.109) | reverse.hostingbb.com | DDoS Ukraine | High
+2 | [172.245.6.134](https://vuldb.com/?ip.172.245.6.134) | 172-245-6-134-host.colocrossing.com | - | High
+3 | [185.10.68.127](https://vuldb.com/?ip.185.10.68.127) | 127.68.10.185.ro.ovo.sc | CVE-2017-5638 / CVE-2018-9866 | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Gafgyt. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Gafgyt_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,18 +57,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
-3 | File | `/Home/GetAttachment` | High
-4 | File | `/modules/projects/vw_files.php` | High
-5 | File | `admin/limits.php` | High
-6 | File | `AjaxFileUploadHandler.axd` | High
-7 | ... | ... | ...
+3 | File | `/cimom` | Low
+4 | File | `/Home/GetAttachment` | High
+5 | File | `/LogoStore/search.php` | High
+6 | File | `/modules/projects/vw_files.php` | High
+7 | File | `admin/limits.php` | High
+8 | File | `AjaxFileUploadHandler.axd` | High
+9 | File | `CarelDataServer.exe` | High
+10 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
+* https://blog.netlab.360.com/wo-men-kan-dao-de-wu-ke-lan-bei-ddosgong-ji-xi-jie/
 * https://unit42.paloaltonetworks.com/home-small-office-wireless-routers-exploited-to-attack-gaming-servers/
 * https://unit42.paloaltonetworks.com/unit42-multi-exploit-iotlinux-botnets-mirai-gafgyt-target-apache-struts-sonicwall/
 

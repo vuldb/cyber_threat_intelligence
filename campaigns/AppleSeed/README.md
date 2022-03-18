@@ -38,16 +38,16 @@ There are 5 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within AppleSeed. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within AppleSeed. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,14 +56,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/cgi-bin/webproc` | High
-3 | File | `/expert_wizard.php` | High
-4 | File | `/mc` | Low
-5 | File | `/tlogin.cgi` | Medium
-6 | File | `/upload` | Low
-7 | ... | ... | ...
+2 | File | `/?/admin/snippet/add` | High
+3 | File | `/bin/false` | Medium
+4 | File | `/cgi-bin/webproc` | High
+5 | File | `/expert_wizard.php` | High
+6 | File | `/images/browserslide.jpg` | High
+7 | File | `/includes/lib/get.php` | High
+8 | File | `/main?cmd=invalid_browser` | High
+9 | File | `/manager?action=getlogcat` | High
+10 | File | `/mc` | Low
+11 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+12 | File | `/SASWebReportStudio/logonAndRender.do` | High
+13 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

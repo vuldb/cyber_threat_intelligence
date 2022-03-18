@@ -51,7 +51,7 @@ There are 97 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Gh0stRAT_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Gh0stRAT_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -80,33 +80,32 @@ ID | Type | Indicator | Confidence
 10 | File | `/dashboards/#` | High
 11 | File | `/data/remove` | Medium
 12 | File | `/etc/controller-agent/agent.conf` | High
-13 | File | `/etc/postfix/sender_login` | High
-14 | File | `/etc/sudoers` | Medium
-15 | File | `/etc/tomcat8/Catalina/attack` | High
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/fudforum/adm/hlplist.php` | High
-19 | File | `/GponForm/fsetup_Form` | High
-20 | File | `/log_download.cgi` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/MTFWU` | Low
-23 | File | `/navigate/navigate_download.php` | High
-24 | File | `/out.php` | Medium
-25 | File | `/password.html` | High
-26 | File | `/property-list/property_view.php` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/rest/api/2/search` | High
-29 | File | `/s/` | Low
-30 | File | `/scripts/cpan_config` | High
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/server-info` | Medium
-34 | File | `/tmp` | Low
-35 | File | `/tmp/app/.env` | High
-36 | File | `/tmp/kamailio_ctl` | High
-37 | ... | ... | ...
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/etc/tomcat8/Catalina/attack` | High
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/fudforum/adm/hlplist.php` | High
+18 | File | `/GponForm/fsetup_Form` | High
+19 | File | `/log_download.cgi` | High
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/MTFWU` | Low
+22 | File | `/navigate/navigate_download.php` | High
+23 | File | `/out.php` | Medium
+24 | File | `/password.html` | High
+25 | File | `/property-list/property_view.php` | High
+26 | File | `/public/plugins/` | High
+27 | File | `/rest/api/2/search` | High
+28 | File | `/s/` | Low
+29 | File | `/scripts/cpan_config` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/server-info` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/tmp/app/.env` | High
+35 | File | `/tmp/kamailio_ctl` | High
+36 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

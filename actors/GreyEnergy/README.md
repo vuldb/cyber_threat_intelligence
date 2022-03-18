@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ There are 22 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _GreyEnergy_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _GreyEnergy_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -56,14 +56,14 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin` | Medium
 6 | File | `/cgi-bin/kerbynet` | High
 7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/dcim/sites/add/` | High
-9 | File | `/fudforum/adm/hlplist.php` | High
-10 | File | `/login` | Low
-11 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-12 | File | `/monitoring` | Medium
-13 | File | `/new` | Low
-14 | File | `/proc/<pid>/status` | High
-15 | File | `/public/plugins/` | High
+8 | File | `/fudforum/adm/hlplist.php` | High
+9 | File | `/login` | Low
+10 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/new` | Low
+13 | File | `/proc/<pid>/status` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/REBOOTSYSTEM` | High
 16 | File | `/rom` | Low
 17 | File | `/scripts/killpvhost` | High
 18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
@@ -74,15 +74,15 @@ ID | Type | Indicator | Confidence
 23 | File | `/uncpath/` | Medium
 24 | File | `/wp-admin` | Medium
 25 | File | `/wp-json/wc/v3/webhooks` | High
-26 | File | `AccountManagerService.java` | High
-27 | File | `actions/CompanyDetailsSave.php` | High
-28 | File | `ActiveServices.java` | High
-29 | File | `ActivityManagerService.java` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-32 | File | `admin/add-glossary.php` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin/dashboard.php` | High
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `AccountManagerService.java` | High
+28 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `ActiveServices.java` | High
+30 | File | `ActivityManagerService.java` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+33 | File | `admin/add-glossary.php` | High
+34 | File | `admin/conf_users_edit.php` | High
 35 | File | `admin/edit-comments.php` | High
 36 | ... | ... | ...
 

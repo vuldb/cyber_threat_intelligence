@@ -1,0 +1,106 @@
+# PassCV - Cyber Threat Intelligence
+
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PassCV](https://vuldb.com/?actor.passcv). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.passcv](https://vuldb.com/?actor.passcv)
+
+## Campaigns
+
+The following _campaigns_ are known and can be associated with PassCV:
+
+* Gaming Companies
+
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PassCV:
+
+* [MS](https://vuldb.com/?country.ms)
+* [HK](https://vuldb.com/?country.hk)
+* [KR](https://vuldb.com/?country.kr)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
+## IOC - Indicator of Compromise
+
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of PassCV.
+
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [14.29.50.66](https://vuldb.com/?ip.14.29.50.66) | - | Gaming Companies | High
+2 | [23.252.164.156](https://vuldb.com/?ip.23.252.164.156) | - | Gaming Companies | High
+3 | [23.252.164.238](https://vuldb.com/?ip.23.252.164.238) | - | Gaming Companies | High
+4 | [27.255.64.94](https://vuldb.com/?ip.27.255.64.94) | - | Gaming Companies | High
+5 | [42.121.131.17](https://vuldb.com/?ip.42.121.131.17) | - | Gaming Companies | High
+6 | [45.114.9.206](https://vuldb.com/?ip.45.114.9.206) | - | Gaming Companies | High
+7 | [45.125.13.227](https://vuldb.com/?ip.45.125.13.227) | spk.cloudie.hk | Gaming Companies | High
+8 | [45.125.13.247](https://vuldb.com/?ip.45.125.13.247) | spk.cloudie.hk | Gaming Companies | High
+9 | [58.64.203.13](https://vuldb.com/?ip.58.64.203.13) | - | Gaming Companies | High
+10 | [61.36.11.112](https://vuldb.com/?ip.61.36.11.112) | - | Gaming Companies | High
+11 | [69.56.214.232](https://vuldb.com/?ip.69.56.214.232) | e8.d6.3845.static.theplanet.com | Gaming Companies | High
+12 | [98.126.91.205](https://vuldb.com/?ip.98.126.91.205) | suvmagic.com | Gaming Companies | High
+13 | [98.126.107.249](https://vuldb.com/?ip.98.126.107.249) | 98.126.107.249.static.krypt.com | Gaming Companies | High
+14 | [98.126.193.223](https://vuldb.com/?ip.98.126.193.223) | 98.126.193.223.customer.vpls.net | Gaming Companies | High
+15 | [101.55.33.106](https://vuldb.com/?ip.101.55.33.106) | - | Gaming Companies | High
+16 | [101.55.64.183](https://vuldb.com/?ip.101.55.64.183) | - | Gaming Companies | High
+17 | [101.55.64.209](https://vuldb.com/?ip.101.55.64.209) | - | Gaming Companies | High
+18 | [101.55.64.246](https://vuldb.com/?ip.101.55.64.246) | - | Gaming Companies | High
+19 | [101.55.64.248](https://vuldb.com/?ip.101.55.64.248) | - | Gaming Companies | High
+20 | ... | ... | ... | ...
+
+There are 74 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PassCV_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PassCV. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/cgi-bin/api-get_line_status` | High
+4 | File | `/config/getuser` | High
+5 | File | `/export` | Low
+6 | File | `/getcfg.php` | Medium
+7 | File | `/includes/rrdtool.inc.php` | High
+8 | File | `/mifs/c/i/reg/reg.html` | High
+9 | File | `/pages/systemcall.php?command={COMMAND}` | High
+10 | File | `/server-info` | Medium
+11 | File | `/uncpath/` | Medium
+12 | File | `/updown/upload.cgi` | High
+13 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+14 | File | `/wp-json/oembed/1.0/embed?url` | High
+15 | File | `a2billing/customer/iridium_threed.php` | High
+16 | ... | ... | ...
+
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+
+## References
+
+The following list contains _external sources_ which discuss the actor and the associated activities:
+
+* https://blogs.blackberry.com/en/2016/10/digitally-signed-malware-targeting-gaming-companies
+
+## Literature
+
+The following _articles_ explain our unique predictive cyber threat intelligence:
+
+* [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
+* [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)
+
+## License
+
+(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

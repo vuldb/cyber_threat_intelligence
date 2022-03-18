@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [SV](https://vuldb.com/?country.sv)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -36,13 +36,13 @@ There are 7 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Inception_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Inception_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
@@ -53,31 +53,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/page_edit/3` | High
-2 | File | `/api/notify.php` | High
-3 | File | `/domain/service/.ewell-known/caldav` | High
-4 | File | `/formAdvFirewall` | High
-5 | File | `/mobile/SelectUsers.jsp` | High
-6 | File | `/ProteinArraySignificanceTest.json` | High
-7 | File | `/usr/local/bin/mjs` | High
-8 | File | `/web` | Low
-9 | File | `admin/bad.php` | High
-10 | File | `admin/dl_sendmail.php` | High
-11 | File | `admin/pages/useredit.php` | High
-12 | File | `AdminBaseController.class.php` | High
-13 | File | `AlertReceiver.java` | High
-14 | File | `alfresco/s/admin/admin-nodebrowser` | High
-15 | File | `AndroidFuture.java` | High
-16 | File | `AndroidManifest.xml` | High
-17 | File | `api/info.php` | Medium
-18 | File | `attach.c` | Medium
-19 | File | `box_code_apple.c` | High
-20 | File | `bug_actiongroup.php` | High
-21 | File | `bug_report_page.php` | High
-22 | File | `cavsdec.c` | Medium
+1 | File | `/admin/news/news_mod.php` | High
+2 | File | `/admin/page_edit/3` | High
+3 | File | `/api/notify.php` | High
+4 | File | `/domain/service/.ewell-known/caldav` | High
+5 | File | `/formAdvFirewall` | High
+6 | File | `/mobile/SelectUsers.jsp` | High
+7 | File | `/ProteinArraySignificanceTest.json` | High
+8 | File | `/system/bin/osi_bin` | High
+9 | File | `/usr/local/bin/mjs` | High
+10 | File | `/web` | Low
+11 | File | `admin/bad.php` | High
+12 | File | `admin/dl_sendmail.php` | High
+13 | File | `admin/pages/useredit.php` | High
+14 | File | `AdminBaseController.class.php` | High
+15 | File | `AlertReceiver.java` | High
+16 | File | `alfresco/s/admin/admin-nodebrowser` | High
+17 | File | `AndroidFuture.java` | High
+18 | File | `AndroidManifest.xml` | High
+19 | File | `api/info.php` | Medium
+20 | File | `attach.c` | Medium
+21 | File | `box_code_apple.c` | High
+22 | File | `bug_actiongroup.php` | High
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,8 +19,8 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT29:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
@@ -59,16 +59,16 @@ There are 83 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT29. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT29_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,14 +108,14 @@ ID | Type | Indicator | Confidence
 30 | File | `/tmp` | Low
 31 | File | `/tmp/redis.ds` | High
 32 | File | `/uncpath/` | Medium
-33 | File | `/ViewUserHover.jspa` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `/wp-admin` | Medium
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 36 | File | `ABuffer.cpp` | Medium
 37 | File | `AccountManagerService.java` | High
 38 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

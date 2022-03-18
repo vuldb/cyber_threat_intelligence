@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -746,7 +746,7 @@ There are 2877 more IOC items available. Please use our online service to access
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Shadowcrew_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Shadowcrew_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -768,22 +768,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/syslog` | High
 4 | File | `/advance_push/public/login` | High
 5 | File | `/api/upload` | Medium
-6 | File | `/cgi-bin` | Medium
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/new` | Low
-11 | File | `/proc/<pid>/status` | High
-12 | File | `/public/plugins/` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/WEB-INF/web.xml` | High
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `/wp-json/wc/v3/webhooks` | High
+6 | File | `/cgi-bin/luci` | High
+7 | File | `/context/%2e/WEB-INF/web.xml` | High
+8 | File | `/monitoring` | Medium
+9 | File | `/new` | Low
+10 | File | `/proc/<pid>/status` | High
+11 | File | `/public/plugins/` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/WEB-INF/web.xml` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `/wp-json/wc/v3/webhooks` | High
+21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 22 | File | `AccountManagerService.java` | High
 23 | File | `actions/CompanyDetailsSave.php` | High
 24 | File | `ActiveServices.java` | High
@@ -794,7 +794,7 @@ ID | Type | Indicator | Confidence
 29 | File | `admin/conf_users_edit.php` | High
 30 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

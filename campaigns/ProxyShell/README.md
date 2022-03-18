@@ -39,7 +39,7 @@ There are 6 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within ProxyShell. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within ProxyShell. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 47 | File | `admin/index.php` | High
 48 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -1,6 +1,6 @@
 # Ircbot - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Ircbot](https://vuldb.com/?actor.ircbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Ircbot](https://vuldb.com/?actor.ircbot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.ircbot](https://vuldb.com/?actor.ircbot)
 
@@ -8,7 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ircbot:
 
-* US
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -16,9 +16,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 70.39.99.203 | ns2.4.cn | - | High
-2 | 91.134.203.49 | - | - | High
-3 | 95.173.180.252 | 2522nimdu.alanyareklam.com | - | High
+1 | [70.39.99.203](https://vuldb.com/?ip.70.39.99.203) | ns2.4.cn | - | High
+2 | [91.134.203.49](https://vuldb.com/?ip.91.134.203.49) | - | - | High
+3 | [95.173.180.252](https://vuldb.com/?ip.95.173.180.252) | 2522nimdu.alanyareklam.com | - | High
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,16 +30,16 @@ There are 1 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Black KingDom_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Black KingDom_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,30 +47,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/adminzone/index.php?page=admin-commandr` | High
-3 | File | `/api/servers` | Medium
-4 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-5 | File | `/core/admin/comment.php` | High
-6 | File | `/data-service/users/` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/etc/wpa_supplicant.conf` | High
-9 | File | `/goform/SetPptpServerCfg` | High
-10 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-11 | File | `/js/app.js` | Medium
-12 | File | `/js/js-parser.c` | High
-13 | File | `/main?cmd=invalid_browser` | High
-14 | File | `/mdiy/dict/listExcludeApp` | High
-15 | File | `/ms/file/uploadTemplate.do` | High
-16 | File | `/ok_jpg.c` | Medium
-17 | File | `/ok_png.c` | Medium
-18 | File | `/ping.html` | Medium
-19 | File | `/rootfs` | Low
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+1 | File | `/.htaccess` | Medium
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/templates/template_manage.php` | High
+5 | File | `/adminzone/index.php?page=admin-commandr` | High
+6 | File | `/api/servers` | Medium
+7 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+8 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+9 | File | `/cloud_config/router_post/upgrade_info` | High
+10 | File | `/core/admin/comment.php` | High
+11 | File | `/DataPackageTable` | High
+12 | File | `/download/` | Medium
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/wpa_supplicant.conf` | High
+15 | File | `/goform/SetPptpServerCfg` | High
+16 | File | `/i/:data/ipa.plist` | High
+17 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+18 | File | `/js/js-parser.c` | High
+19 | File | `/main?cmd=invalid_browser` | High
+20 | File | `/mdiy/dict/listExcludeApp` | High
+21 | File | `/ms/file/uploadTemplate.do` | High
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

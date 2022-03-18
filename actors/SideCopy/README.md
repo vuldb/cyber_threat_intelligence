@@ -1,6 +1,6 @@
 # SideCopy - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SideCopy](https://vuldb.com/?actor.sidecopy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SideCopy](https://vuldb.com/?actor.sidecopy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sidecopy](https://vuldb.com/?actor.sidecopy)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SideCopy:
 
-* NL
-* US
-* DE
+* [NL](https://vuldb.com/?country.nl)
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -21,9 +21,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 109.236.85.152 | customer.worldstream.nl | - | High
-2 | 144.91.65.100 | vmi652772.contaboserver.net | - | High
-3 | 144.91.91.236 | vmi512038.contaboserver.net | - | High
+1 | [109.236.85.152](https://vuldb.com/?ip.109.236.85.152) | customer.worldstream.nl | - | High
+2 | [144.91.65.100](https://vuldb.com/?ip.144.91.65.100) | vmi652772.contaboserver.net | - | High
+3 | [144.91.91.236](https://vuldb.com/?ip.144.91.91.236) | vmi512038.contaboserver.net | - | High
 4 | ... | ... | ... | ...
 
 There are 11 more IOC items available. Please use our online service to access the data.
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 29 | File | `auth-options.c` | High
 30 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

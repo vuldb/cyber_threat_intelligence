@@ -1,68 +1,78 @@
 # APT2 - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT2](https://vuldb.com/?actor.apt2). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [APT2](https://vuldb.com/?actor.apt2). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.apt2](https://vuldb.com/?actor.apt2)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.apt2](https://vuldb.com/?actor.apt2)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with APT2:
+The following _campaigns_ are known and can be associated with APT2:
 
 * Putter Panda
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT2:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT2:
 
-* KR
-* US
+* [CN](https://vuldb.com/?country.cn)
+* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of APT2.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of APT2.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 31.170.110.163 | io.uu3.net | High
-2 | 58.196.156.15 | - | High
-3 | 59.120.168.199 | 59-120-168-199.hinet-ip.hinet.net | High
-4 | 61.34.97.69 | - | High
-5 | 61.74.190.14 | - | High
-6 | 61.78.37.121 | - | High
-7 | 61.78.75.96 | - | High
-8 | 61.221.54.99 | 61-221-54-99.hinet-ip.hinet.net | High
-9 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [31.170.110.163](https://vuldb.com/?ip.31.170.110.163) | io.uu3.net | Putter Panda | High
+2 | [58.196.156.15](https://vuldb.com/?ip.58.196.156.15) | - | Putter Panda | High
+3 | [59.120.168.199](https://vuldb.com/?ip.59.120.168.199) | 59-120-168-199.hinet-ip.hinet.net | - | High
+4 | [61.34.97.69](https://vuldb.com/?ip.61.34.97.69) | - | - | High
+5 | [61.74.190.14](https://vuldb.com/?ip.61.74.190.14) | - | - | High
+6 | [61.78.37.121](https://vuldb.com/?ip.61.78.37.121) | - | - | High
+7 | [61.78.75.96](https://vuldb.com/?ip.61.78.75.96) | - | - | High
+8 | [61.221.54.99](https://vuldb.com/?ip.61.221.54.99) | 61-221-54-99.hinet-ip.hinet.net | - | High
+9 | ... | ... | ... | ...
 
 There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by APT2. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT2. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT2. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT2. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/boa` | Medium
-2 | Argument | `Authorization` | High
-3 | Argument | `Username` | Medium
+1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+2 | File | `/bin/boa` | Medium
+3 | File | `/DOWN/FIRMWAREUPDATE/ROM1` | High
+4 | File | `admin/admin/adminsave.html` | High
+5 | ... | ... | ...
+
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * http://cdn0.vox-cdn.com/assets/4589853/crowdstrike-intelligence-report-putter-panda.original.pdf
 * https://www.threatminer.org/report.php?q=putter-panda.pdf&y=2014
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

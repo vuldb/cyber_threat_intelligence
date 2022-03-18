@@ -1,6 +1,6 @@
 # Muhstik - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Muhstik](https://vuldb.com/?actor.muhstik). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Muhstik](https://vuldb.com/?actor.muhstik). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.muhstik](https://vuldb.com/?actor.muhstik)
 
@@ -16,9 +16,9 @@ The following _campaigns_ are known and can be associated with Muhstik:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Muhstik:
 
-* FR
-* US
-* NL
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -29,20 +29,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 1.116.59.211 | - | - | High
-2 | 3.10.224.87 | ec2-3-10-224-87.eu-west-2.compute.amazonaws.com | - | Medium
-3 | 5.19.4.15 | relay.zmk.spb.ru | - | High
-4 | 18.228.7.109 | ec2-18-228-7-109.sa-east-1.compute.amazonaws.com | Log4Shell | Medium
-5 | 34.66.229.152 | 152.229.66.34.bc.googleusercontent.com | - | Medium
-6 | 34.221.40.237 | ec2-34-221-40-237.us-west-2.compute.amazonaws.com | - | Medium
-7 | 35.160.222.182 | ec2-35-160-222-182.us-west-2.compute.amazonaws.com | - | Medium
-8 | 37.187.107.139 | ns326418.ip-37-187-107.eu | - | High
-9 | 37.187.253.12 | ns347308.ip-37-187-253.eu | - | High
-10 | 45.130.229.168 | - | Log4Shell | High
-11 | 46.29.160.149 | - | - | High
-12 | 46.218.149.85 | reverse.completel.fr | - | High
-13 | 47.135.208.145 | 047-135-208-145.res.spectrum.com | CVE-2018-7600 / CVE-2017-10271 | High
-14 | 51.254.219.134 | 134.ip-51-254-219.eu | CVE-2018-7600 / CVE-2017-10271 | High
+1 | [1.116.59.211](https://vuldb.com/?ip.1.116.59.211) | - | - | High
+2 | [3.10.224.87](https://vuldb.com/?ip.3.10.224.87) | ec2-3-10-224-87.eu-west-2.compute.amazonaws.com | - | Medium
+3 | [5.19.4.15](https://vuldb.com/?ip.5.19.4.15) | relay.zmk.spb.ru | - | High
+4 | [18.228.7.109](https://vuldb.com/?ip.18.228.7.109) | ec2-18-228-7-109.sa-east-1.compute.amazonaws.com | Log4Shell | Medium
+5 | [34.66.229.152](https://vuldb.com/?ip.34.66.229.152) | 152.229.66.34.bc.googleusercontent.com | - | Medium
+6 | [34.221.40.237](https://vuldb.com/?ip.34.221.40.237) | ec2-34-221-40-237.us-west-2.compute.amazonaws.com | - | Medium
+7 | [35.160.222.182](https://vuldb.com/?ip.35.160.222.182) | ec2-35-160-222-182.us-west-2.compute.amazonaws.com | - | Medium
+8 | [37.187.107.139](https://vuldb.com/?ip.37.187.107.139) | ns326418.ip-37-187-107.eu | - | High
+9 | [37.187.253.12](https://vuldb.com/?ip.37.187.253.12) | ns347308.ip-37-187-253.eu | - | High
+10 | [45.130.229.168](https://vuldb.com/?ip.45.130.229.168) | - | Log4Shell | High
+11 | [46.29.160.149](https://vuldb.com/?ip.46.29.160.149) | - | - | High
+12 | [46.218.149.85](https://vuldb.com/?ip.46.218.149.85) | reverse.completel.fr | - | High
+13 | [47.135.208.145](https://vuldb.com/?ip.47.135.208.145) | 047-135-208-145.res.spectrum.com | CVE-2018-7600 / CVE-2017-10271 | High
+14 | [51.254.219.134](https://vuldb.com/?ip.51.254.219.134) | 134.ip-51-254-219.eu | CVE-2018-7600 / CVE-2017-10271 | High
 15 | ... | ... | ... | ...
 
 There are 56 more IOC items available. Please use our online service to access the data.
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 21 | File | `adm1n/admin_config.php` | High
 22 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

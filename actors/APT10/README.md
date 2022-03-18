@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ There are 98 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _APT10_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT10_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -106,10 +106,10 @@ ID | Type | Indicator | Confidence
 28 | File | `apply.cgi` | Medium
 29 | File | `arm/lithium-codegen-arm.cc` | High
 30 | File | `authenticate.c` | High
-31 | File | `Authenticate.class.php` | High
+31 | File | `base_maintenance.php` | High
 32 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

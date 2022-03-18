@@ -33,7 +33,7 @@ There are 23 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Candiru_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Candiru_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -85,7 +85,8 @@ ID | Type | Indicator | Confidence
 33 | File | `/storage/app/media/evil.svg` | High
 34 | File | `/transmission/web/` | High
 35 | File | `/uapi/doc` | Medium
-36 | ... | ... | ...
+36 | File | `/uncpath/` | Medium
+37 | ... | ... | ...
 
 There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

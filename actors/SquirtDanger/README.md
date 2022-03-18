@@ -1,6 +1,6 @@
 # SquirtDanger - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SquirtDanger](https://vuldb.com/?actor.squirtdanger). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [SquirtDanger](https://vuldb.com/?actor.squirtdanger). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.squirtdanger](https://vuldb.com/?actor.squirtdanger)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SquirtDanger:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 25 more country items available. Please use our online service to access the data.
@@ -21,30 +21,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 5.188.231.107 | - | - | High
-2 | 5.188.231.246 | - | - | High
-3 | 37.252.14.159 | - | - | High
-4 | 62.141.42.190 | mail.borengo.com | - | High
-5 | 62.210.139.234 | web3.groupe-nlcl.com | - | High
-6 | 62.210.142.233 | 62-210-142-233.rev.poneytelecom.eu | - | High
-7 | 77.220.212.78 | vm3071969.33ssd.had.wf | - | High
-8 | 81.4.104.135 | ramnode.schmidtie.net | - | High
-9 | 81.177.139.248 | - | - | High
-10 | 82.202.231.21 | - | - | High
-11 | 86.110.118.102 | - | - | High
-12 | 92.53.90.11 | - | - | High
-13 | 92.63.197.19 | - | - | High
-14 | 93.171.138.195 | host-195.primonet.com.ua | - | High
-15 | 94.23.20.210 | ovh7.siscomvigo.com | - | High
-16 | 95.47.137.169 | - | - | High
-17 | 136.243.88.145 | static.145.88.243.136.clients.your-server.de | - | High
-18 | 136.243.94.27 | static.27.94.243.136.clients.your-server.de | - | High
-19 | 136.243.102.157 | static.157.102.243.136.clients.your-server.de | - | High
-20 | 151.236.30.50 | 50.30.236.151.in-addr.arpa | - | High
-21 | 176.9.0.89 | static.89.0.9.176.clients.your-server.de | - | High
-22 | 176.9.47.243 | raphinida.de | - | High
-23 | 178.158.17.134 | - | - | High
-24 | 185.48.56.223 | - | - | High
+1 | [5.188.231.107](https://vuldb.com/?ip.5.188.231.107) | - | - | High
+2 | [5.188.231.246](https://vuldb.com/?ip.5.188.231.246) | - | - | High
+3 | [37.252.14.159](https://vuldb.com/?ip.37.252.14.159) | - | - | High
+4 | [62.141.42.190](https://vuldb.com/?ip.62.141.42.190) | mail.borengo.com | - | High
+5 | [62.210.139.234](https://vuldb.com/?ip.62.210.139.234) | web3.groupe-nlcl.com | - | High
+6 | [62.210.142.233](https://vuldb.com/?ip.62.210.142.233) | 62-210-142-233.rev.poneytelecom.eu | - | High
+7 | [77.220.212.78](https://vuldb.com/?ip.77.220.212.78) | vm3071969.33ssd.had.wf | - | High
+8 | [81.4.104.135](https://vuldb.com/?ip.81.4.104.135) | ramnode.schmidtie.net | - | High
+9 | [81.177.139.248](https://vuldb.com/?ip.81.177.139.248) | - | - | High
+10 | [82.202.231.21](https://vuldb.com/?ip.82.202.231.21) | - | - | High
+11 | [86.110.118.102](https://vuldb.com/?ip.86.110.118.102) | - | - | High
+12 | [92.53.90.11](https://vuldb.com/?ip.92.53.90.11) | - | - | High
+13 | [92.63.197.19](https://vuldb.com/?ip.92.63.197.19) | - | - | High
+14 | [93.171.138.195](https://vuldb.com/?ip.93.171.138.195) | host-195.primonet.com.ua | - | High
+15 | [94.23.20.210](https://vuldb.com/?ip.94.23.20.210) | ovh7.siscomvigo.com | - | High
+16 | [95.47.137.169](https://vuldb.com/?ip.95.47.137.169) | - | - | High
+17 | [136.243.88.145](https://vuldb.com/?ip.136.243.88.145) | static.145.88.243.136.clients.your-server.de | - | High
+18 | [136.243.94.27](https://vuldb.com/?ip.136.243.94.27) | static.27.94.243.136.clients.your-server.de | - | High
+19 | [136.243.102.157](https://vuldb.com/?ip.136.243.102.157) | static.157.102.243.136.clients.your-server.de | - | High
+20 | [151.236.30.50](https://vuldb.com/?ip.151.236.30.50) | 50.30.236.151.in-addr.arpa | - | High
+21 | [176.9.0.89](https://vuldb.com/?ip.176.9.0.89) | static.89.0.9.176.clients.your-server.de | - | High
+22 | [176.9.47.243](https://vuldb.com/?ip.176.9.47.243) | raphinida.de | - | High
+23 | [178.158.17.134](https://vuldb.com/?ip.178.158.17.134) | - | - | High
+24 | [185.48.56.223](https://vuldb.com/?ip.185.48.56.223) | - | - | High
 25 | ... | ... | ... | ...
 
 There are 95 more IOC items available. Please use our online service to access the data.
@@ -106,7 +106,7 @@ ID | Type | Indicator | Confidence
 36 | File | `addtocart.asp` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

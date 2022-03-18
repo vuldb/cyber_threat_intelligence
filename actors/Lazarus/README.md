@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -218,16 +218,16 @@ There are 722 more IOC items available. Please use our online service to access 
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Lazarus_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lazarus_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -235,16 +235,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/mdiy/dict/listExcludeApp` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `/web/MCmsAction.java` | High
-5 | File | `admin.php` | Medium
-6 | File | `admin/cgi-bin/listdir.pl` | High
-7 | File | `admin/cgi-bin/rulemgr.pl/getfile/` | High
-8 | ... | ... | ...
+1 | File | `/.htaccess` | Medium
+2 | File | `/admin/link/link_ok.php` | High
+3 | File | `/alerts/alertConfigField.php` | High
+4 | File | `/alerts/alertLightbox.php` | High
+5 | File | `/aqpg/users/login.php` | High
+6 | File | `/cwms/admin/?page=articles/view_article/` | High
+7 | File | `/cwms/classes/Master.php?f=save_contact` | High
+8 | File | `/download/` | Medium
+9 | File | `/i/:data/ipa.plist` | High
+10 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

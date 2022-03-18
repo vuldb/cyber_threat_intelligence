@@ -40,12 +40,12 @@ There are 14 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within DDoS Ukraine. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within DDoS Ukraine. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -57,28 +57,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/formSetPortTr` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/jeecg-boot/sys/common/upload` | High
-4 | File | `/LogoStore/search.php` | High
-5 | File | `/navigate/navigate_download.php` | High
-6 | File | `/question/ask` | High
-7 | File | `/rest/api/2/search` | High
-8 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/sbin/httpd` | High
-11 | File | `123flashchat.php` | High
-12 | File | `acme_accountkeys_edit.php` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin.cropcanvas.php` | High
-15 | File | `admin.joomlaradiov5.php` | High
-16 | File | `admin.webring.docs.php` | High
-17 | File | `admin/dashboard.php` | High
-18 | File | `advsearch_h.asp` | High
-19 | File | `ajax/telemetry.php` | High
-20 | ... | ... | ...
+1 | File | `/adherents/note.php?id=1` | High
+2 | File | `/dus_en/medieninfo_detail/index.php` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/formSetPortTr` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/jeecg-boot/sys/common/upload` | High
+7 | File | `/LogoStore/search.php` | High
+8 | File | `/master/article.php` | High
+9 | File | `/members/profiles.php` | High
+10 | File | `/navigate/navigate_download.php` | High
+11 | File | `/question/ask` | High
+12 | File | `/rest/api/2/search` | High
+13 | File | `/servlet/webacc` | High
+14 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/userman/inbox.php` | High
+17 | File | `/usr/sbin/httpd` | High
+18 | File | `123flashchat.php` | High
+19 | File | `acme_accountkeys_edit.php` | High
+20 | File | `adclick.php` | Medium
+21 | File | `admin.cropcanvas.php` | High
+22 | File | `admin.joomlaradiov5.php` | High
+23 | File | `admin.webring.docs.php` | High
+24 | File | `admin/dashboard.php` | High
+25 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+26 | File | `advsearch_h.asp` | High
+27 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
