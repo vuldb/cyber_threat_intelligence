@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
@@ -60,9 +60,9 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htaccess` | Medium
 2 | File | `/admin-panel1.php` | High
-3 | File | `/admin/?page=members/view_member` | High
-4 | File | `/admin/doctors/view_doctor.php` | High
-5 | File | `/admin/file-manager/` | High
+3 | File | `/admin.php/admin/plog/index.html` | High
+4 | File | `/admin.php/admin/ulog/index.html` | High
+5 | File | `/admin.php/admin/vod/data.html` | High
 6 | File | `/admin/files` | Medium
 7 | File | `/admin/login.php` | High
 8 | File | `/admin/news/news_mod.php` | High
@@ -70,19 +70,22 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/options` | High
 11 | File | `/admin/page_edit/3` | High
 12 | File | `/admin/templates/template_manage.php` | High
-13 | File | `/admin_page/all-files-update-ajax.php` | High
-14 | File | `/api/servers` | Medium
-15 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-16 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
-17 | File | `/cloud_config/router_post/upgrade_info` | High
-18 | File | `/common/info.cgi` | High
-19 | File | `/DataPackageTable` | High
-20 | File | `/download/` | Medium
-21 | File | `/etc/passwd` | Medium
-22 | File | `/goform/SetPptpServerCfg` | High
-23 | ... | ... | ...
+13 | File | `/cgi-bin/uploadAccessCodePic` | High
+14 | File | `/cgi-bin/uploadWeiXinPic` | High
+15 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+16 | File | `/cloud_config/router_post/upgrade_info` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/config/list` | Medium
+19 | File | `/controller/Index.php` | High
+20 | File | `/data/sqldata` | High
+21 | File | `/DataPackageTable` | High
+22 | File | `/download/` | Medium
+23 | File | `/etc/passwd` | Medium
+24 | File | `/factor/avx-ecm/vecarith52.c` | High
+25 | File | `/goform/delAd` | High
+26 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

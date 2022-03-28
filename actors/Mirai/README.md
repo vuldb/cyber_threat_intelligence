@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Mirai:
 
+* CVE-2020-9054
 * DDoS Ukraine
 * Log4Shell
 
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,7 +34,8 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [34.80.131.135](https://vuldb.com/?ip.34.80.131.135) | 135.131.80.34.bc.googleusercontent.com | - | Medium
 4 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | DDoS Ukraine | High
 5 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | DDoS Ukraine | High
-6 | ... | ... | ... | ...
+6 | [45.88.181.46](https://vuldb.com/?ip.45.88.181.46) | pelko.incifios.org.uk | - | High
+7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -66,14 +68,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/rest/api/2/search` | High
 9 | File | `/rom-0` | Low
 10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/usr/sbin/httpd` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin.php` | Medium
-15 | File | `admin/scripts/FileUploader/php.php` | High
+11 | File | `/tmp` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/sbin/httpd` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin.php` | Medium
 16 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,6 +88,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.netlab.360.com/wei-xie-kuai-xun-log4jlou-dong-yi-jing-bei-yong-lai-zu-jian-botnet-zhen-dui-linuxshe-bei/
 * https://blog.netlab.360.com/wo-men-kan-dao-de-wu-ke-lan-bei-ddosgong-ji-xi-jie/
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
+* https://isc.sans.edu/forums/diary/Zyxel+Network+Storage+Devices+Hunted+By+Mirai+Variant/28324/
 * https://urlhaus.abuse.ch/host/185.243.56.167/
 
 ## Literature

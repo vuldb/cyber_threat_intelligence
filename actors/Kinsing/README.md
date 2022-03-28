@@ -43,7 +43,7 @@ There are 42 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Kinsing_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Kinsing_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -93,11 +93,12 @@ ID | Type | Indicator | Confidence
 31 | File | `application/modules/admin/views/ecommerce/products.php` | High
 32 | File | `ArchiveNews.aspx` | High
 33 | File | `ashnews.php/ashheadlines.php` | High
-34 | File | `blog.php` | Medium
-35 | File | `board.php` | Medium
-36 | ... | ... | ...
+34 | File | `base/ErrorHandler.php` | High
+35 | File | `blog.php` | Medium
+36 | File | `board.php` | Medium
+37 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

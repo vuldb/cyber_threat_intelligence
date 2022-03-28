@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
 * [US](https://vuldb.com/?country.us)
-* [DK](https://vuldb.com/?country.dk)
 * [GB](https://vuldb.com/?country.gb)
+* [DK](https://vuldb.com/?country.dk)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -92,37 +92,37 @@ ID | Type | Indicator | Confidence
 8 | File | `/images/` | Medium
 9 | File | `/login` | Low
 10 | File | `/modules/profile/index.php` | High
-11 | File | `/out.php` | Medium
-12 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-13 | File | `/product_list.php` | High
-14 | File | `/public/plugins/` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/secure/QueryComponent!Default.jspa` | High
-19 | File | `/see_more_details.php` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/web/frames/` | Medium
-24 | File | `AccountManager.java` | High
-25 | File | `adclick.php` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `admin.cgi?action=upgrade` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/executar_login.php` | High
-30 | File | `admin/index.php?mode=tools&page=upload` | High
-31 | File | `admin/pageUploadCSV.php` | High
-32 | File | `admin/setting.php` | High
-33 | File | `ajax/aj_*.php` | High
-34 | File | `alipay/alipayapi.php` | High
-35 | File | `AppCompatCache.exe` | High
-36 | File | `auth.inc.php` | Medium
-37 | File | `auth.py` | Low
-38 | File | `auth2-gss.c` | Medium
+11 | File | `/one_church/userregister.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+14 | File | `/product_list.php` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/SASWebReportStudio/logonAndRender.do` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+19 | File | `/secure/QueryComponent!Default.jspa` | High
+20 | File | `/see_more_details.php` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | File | `/web/frames/` | Medium
+25 | File | `AccountManager.java` | High
+26 | File | `adclick.php` | Medium
+27 | File | `addentry.php` | Medium
+28 | File | `admin.cgi?action=upgrade` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/executar_login.php` | High
+31 | File | `admin/index.php?mode=tools&page=upload` | High
+32 | File | `admin/pageUploadCSV.php` | High
+33 | File | `admin/setting.php` | High
+34 | File | `ajax/aj_*.php` | High
+35 | File | `alipay/alipayapi.php` | High
+36 | File | `AppCompatCache.exe` | High
+37 | File | `auth.inc.php` | Medium
+38 | File | `auth.py` | Low
 39 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

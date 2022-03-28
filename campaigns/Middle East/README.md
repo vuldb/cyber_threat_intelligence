@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [UA](https://vuldb.com/?country.ua)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,8 @@ These _actors_ are associated with Middle East or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Molerats](https://vuldb.com/?actor.molerats) | High
+2 | [Wirte](https://vuldb.com/?actor.wirte) | High
+3 | [DNSpionage](https://vuldb.com/?actor.dnspionage) | High
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +33,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [23.94.218.221](https://vuldb.com/?ip.23.94.218.221) | 23-94-218-221-host.colocrossing.com | [Molerats](https://vuldb.com/?actor.molerats) | High
 2 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | [Molerats](https://vuldb.com/?actor.molerats) | Medium
-3 | [185.244.39.165](https://vuldb.com/?ip.185.244.39.165) | host0.inpennystock.one | [Molerats](https://vuldb.com/?actor.molerats) | High
+3 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | [Wirte](https://vuldb.com/?actor.wirte) | High
+4 | ... | ... | ... | ...
+
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,6 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 
 ## IOA - Indicator of Attack
 
@@ -52,15 +58,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/forum/away.php` | High
 3 | File | `/goform/form2userconfig.cgi` | High
 4 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-5 | File | `adclick.php` | Medium
-6 | ... | ... | ...
+5 | File | `/members/view_member.php` | High
+6 | File | `adclick.php` | Medium
+7 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://gblogs.cisco.com/jp/2018/12/talos-dnspionage-campaign-targets-middle-east/)
+* https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/
 * https://www.zscaler.com/blogs/security-research/new-espionage-attack-molerats-apt-targeting-users-middle-east
 
 ## Literature

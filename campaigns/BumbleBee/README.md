@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with BumbleBee or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [xHunt](https://vuldb.com/?actor.xhunt) | High
+2 | [Exotic Lily](https://vuldb.com/?actor.exotic_lily) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,13 +30,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.92.127.18](https://vuldb.com/?ip.23.92.127.18) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-2 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-3 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-4 | [77.243.191.20](https://vuldb.com/?ip.77.243.191.20) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-5 | [82.102.21.219](https://vuldb.com/?ip.82.102.21.219) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
-6 | [84.17.55.68](https://vuldb.com/?ip.84.17.55.68) | unn-84-17-55-68.cdn77.com | [xHunt](https://vuldb.com/?actor.xhunt) | High
-7 | ... | ... | ... | ...
+1 | [23.81.246.187](https://vuldb.com/?ip.23.81.246.187) | - | [Exotic Lily](https://vuldb.com/?actor.exotic_lily) | High
+2 | [23.92.127.18](https://vuldb.com/?ip.23.92.127.18) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+3 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+4 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+5 | [77.243.191.20](https://vuldb.com/?ip.77.243.191.20) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+6 | [82.102.21.219](https://vuldb.com/?ip.82.102.21.219) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
+7 | [84.17.55.68](https://vuldb.com/?ip.84.17.55.68) | unn-84-17-55-68.cdn77.com | [xHunt](https://vuldb.com/?actor.xhunt) | High
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -45,12 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,60 +60,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/../../conf/template/uhttpd.json` | High
-3 | File | `/about.php` | Medium
-4 | File | `/account/register` | High
-5 | File | `/app1/admin#foo` | High
-6 | File | `/articles/welcome-to-your-site#comments-head` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/bin/boa` | Medium
-9 | File | `/cgi?1&5` | Medium
-10 | File | `/config/getuser` | High
-11 | File | `/configs/application.ini` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-17 | File | `/iissamples` | Medium
-18 | File | `/login` | Low
-19 | File | `/plugin/file_manager/` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/sbin/gs_config` | High
-22 | File | `/settings` | Medium
-23 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-26 | File | `/uploads/dede` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/sbin/nagios` | High
-29 | File | `/usr/sbin/suexec` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webman/info.cgi` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `/_next` | Low
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `adclick.php` | Medium
-37 | File | `admin.php?m=admin&c=site&a=save` | High
-38 | File | `admin.php?page=languages` | High
-39 | File | `admin/backupdb.php` | High
-40 | File | `admin/bitrix.mpbuilder_step2.php` | High
-41 | File | `admin/bitrix.xscan_worker.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/gb-dashboard-widget.php` | High
-44 | File | `admin/mcart_xls_import.php` | High
-45 | File | `admin/modules/tools/ip_history_logs.php` | High
-46 | File | `admin/ops/reports/ops/news.php` | High
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/../../conf/template/uhttpd.json` | High
+4 | File | `/about.php` | Medium
+5 | File | `/account/register` | High
+6 | File | `/admin.php?action=themeinstall` | High
+7 | File | `/admin/modules/system/custom_field.php` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/app1/admin#foo` | High
+10 | File | `/articles/welcome-to-your-site#comments-head` | High
+11 | File | `/assets/ctx` | Medium
+12 | File | `/bin/boa` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cgi?1&5` | Medium
+15 | File | `/config/getuser` | High
+16 | File | `/configs/application.ini` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/sudoers` | Medium
+19 | File | `/export` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+22 | File | `/iissamples` | Medium
+23 | File | `/login` | Low
+24 | File | `/public/plugins/` | High
+25 | File | `/sbin/gs_config` | High
+26 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+29 | File | `/uploads/dede` | High
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/usr/sbin/nagios` | High
+32 | File | `/usr/sbin/suexec` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/webman/info.cgi` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-json/oembed/1.0/embed?url` | High
+37 | File | `/wp-json/wc/v3/webhooks` | High
+38 | File | `/_next` | Low
+39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+40 | File | `adclick.php` | Medium
+41 | File | `admin.php?m=admin&c=site&a=save` | High
+42 | File | `admin.php?page=languages` | High
+43 | File | `admin/backupdb.php` | High
+44 | File | `admin/bitrix.mpbuilder_step2.php` | High
+45 | File | `admin/bitrix.xscan_worker.php` | High
+46 | File | `admin/conf_users_edit.php` | High
 47 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.google/threat-analysis-group/exposing-initial-access-broker-ties-conti/
 * https://unit42.paloaltonetworks.com/bumblebee-webshell-xhunt-campaign/
 
 ## Literature

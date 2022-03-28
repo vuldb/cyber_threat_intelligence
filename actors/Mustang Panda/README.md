@@ -9,14 +9,18 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Mustang Panda:
 
 * Diànxùn
+* Hodur
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mustang Panda:
 
 * [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,12 +30,15 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
 2 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
-3 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
-4 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
-5 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
-6 | ... | ... | ... | ...
+3 | [43.254.218.42](https://vuldb.com/?ip.43.254.218.42) | - | Hodur | High
+4 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
+5 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
+6 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
+7 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
+8 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,7 +72,7 @@ ID | Type | Indicator | Confidence
 11 | File | `/webtools/control/httpService` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,6 +82,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/ESETresearch/status/1400165861973966854
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
+* https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/
 
 ## Literature
 

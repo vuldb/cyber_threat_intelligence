@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Kimsuky:
 
 * AppleSeed
+* PebbleDash
 
 ## Countries
 
@@ -16,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [MN](https://vuldb.com/?country.mn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +28,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [27.102.107.63](https://vuldb.com/?ip.27.102.107.63) | - | AppleSeed | High
-2 | [27.102.114.89](https://vuldb.com/?ip.27.102.114.89) | - | AppleSeed | High
-3 | [45.13.135.103](https://vuldb.com/?ip.45.13.135.103) | - | AppleSeed | High
-4 | ... | ... | ... | ...
+1 | [23.106.122.239](https://vuldb.com/?ip.23.106.122.239) | - | - | High
+2 | [27.102.102.70](https://vuldb.com/?ip.27.102.102.70) | - | - | High
+3 | [27.102.107.63](https://vuldb.com/?ip.27.102.107.63) | - | AppleSeed | High
+4 | [27.102.112.44](https://vuldb.com/?ip.27.102.112.44) | - | - | High
+5 | [27.102.112.58](https://vuldb.com/?ip.27.102.112.58) | - | - | High
+6 | [27.102.114.63](https://vuldb.com/?ip.27.102.114.63) | - | - | High
+7 | [27.102.114.79](https://vuldb.com/?ip.27.102.114.79) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,26 +60,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/?/admin/snippet/add` | High
-3 | File | `/bin/false` | Medium
-4 | File | `/cgi-bin/webproc` | High
-5 | File | `/expert_wizard.php` | High
-6 | File | `/images/browserslide.jpg` | High
-7 | File | `/includes/lib/get.php` | High
-8 | File | `/main?cmd=invalid_browser` | High
-9 | File | `/manager?action=getlogcat` | High
-10 | File | `/mc` | Low
-11 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-12 | File | `/SASWebReportStudio/logonAndRender.do` | High
-13 | ... | ... | ...
+3 | File | `/assets/something/services/AppModule.class` | High
+4 | File | `/bin/false` | Medium
+5 | File | `/cgi-bin/webproc` | High
+6 | File | `/editsettings` | High
+7 | File | `/expert_wizard.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/images/browserslide.jpg` | High
+10 | File | `/includes/lib/get.php` | High
+11 | File | `/login` | Low
+12 | File | `/main?cmd=invalid_browser` | High
+13 | File | `/manager?action=getlogcat` | High
+14 | File | `/mc` | Low
+15 | File | `/plugins/Dashboard/Controller.php` | High
+16 | File | `/public/plugins/` | High
+17 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+18 | File | `/SASWebReportStudio/logonAndRender.do` | High
+19 | File | `/tlogin.cgi` | Medium
+20 | File | `/tmp/scfgdndf` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/usr/ucb/mail` | High
+24 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/30532/
 * https://blog.alyac.co.kr/2234
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/
+* https://twitter.com/shadowchasing1/status/1500778382966939653
+* https://twitter.com/souiten/status/1473862308132651011
 
 ## Literature
 

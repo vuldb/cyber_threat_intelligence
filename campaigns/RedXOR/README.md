@@ -27,6 +27,14 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [34.92.228.216](https://vuldb.com/?ip.34.92.228.216) | 216.228.92.34.bc.googleusercontent.com | [China Unknown](https://vuldb.com/?actor.china_unknown) | Medium
 2 | [158.247.208.230](https://vuldb.com/?ip.158.247.208.230) | 158.247.208.230.vultr.com | [China Unknown](https://vuldb.com/?actor.china_unknown) | Medium
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within RedXOR. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1555 | CWE-312 | Cleartext Storage of Sensitive Information | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during RedXOR. This data is unique as it uses our predictive model for actor profiling.
@@ -34,8 +42,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `index.php` | Medium
-2 | File | `wp-includes/class-wp-query.php` | High
-3 | Argument | `tid` | Low
+2 | File | `rcube_image.php` | High
+3 | File | `rcube_plugin_api.php` | High
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,15 +67,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/mdiy/dict/listExcludeApp` | High
-3 | File | `/web/MCmsAction.java` | High
-4 | File | `admin.php` | Medium
-5 | File | `admin/cgi-bin/listdir.pl` | High
-6 | File | `admin/cgi-bin/rulemgr.pl/getfile/` | High
-7 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin.php/admin/plog/index.html` | High
+3 | File | `/admin.php/admin/ulog/index.html` | High
+4 | File | `/admin.php/admin/vod/data.html` | High
+5 | File | `/admin.php/admin/website/data.html` | High
+6 | File | `/admin/contenttemp` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/api/fetch` | Medium
+10 | File | `/cgi-bin/uploadAccessCodePic` | High
+11 | File | `/cgi-bin/uploadWeiXinPic` | High
+12 | File | `/config/list` | Medium
+13 | File | `/controller/Index.php` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/data/sqldata` | High
+16 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

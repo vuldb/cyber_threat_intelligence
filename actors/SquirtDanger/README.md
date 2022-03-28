@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SquirtDanger:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -51,7 +51,7 @@ There are 95 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by SquirtDanger. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SquirtDanger_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,23 +90,24 @@ ID | Type | Indicator | Confidence
 20 | File | `/public/plugins/` | High
 21 | File | `/rom` | Low
 22 | File | `/scripts/killpvhost` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/redis.ds` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `AccountManagerService.java` | High
-32 | File | `actions/CompanyDetailsSave.php` | High
-33 | File | `ActiveServices.java` | High
-34 | File | `adclick.php` | Medium
-35 | File | `addlink.php` | Medium
-36 | File | `addtocart.asp` | High
-37 | ... | ... | ...
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/redis.ds` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/ViewUserHover.jspa` | High
+30 | File | `/wp-admin` | Medium
+31 | File | `/wp-json/wc/v3/webhooks` | High
+32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+33 | File | `AccountManagerService.java` | High
+34 | File | `actions/CompanyDetailsSave.php` | High
+35 | File | `ActiveServices.java` | High
+36 | File | `ActivityManagerService.java` | High
+37 | File | `adclick.php` | Medium
+38 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

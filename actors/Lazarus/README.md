@@ -20,11 +20,11 @@ There are 5 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -222,12 +222,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -235,18 +235,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htaccess` | Medium
-2 | File | `/admin/link/link_ok.php` | High
-3 | File | `/alerts/alertConfigField.php` | High
-4 | File | `/alerts/alertLightbox.php` | High
-5 | File | `/aqpg/users/login.php` | High
-6 | File | `/cwms/admin/?page=articles/view_article/` | High
-7 | File | `/cwms/classes/Master.php?f=save_contact` | High
-8 | File | `/download/` | Medium
-9 | File | `/i/:data/ipa.plist` | High
-10 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin/contenttemp` | High
+3 | File | `/admin/maintenance_actions.php` | High
+4 | File | `/api/crontab` | Medium
+5 | File | `/api/fetch` | Medium
+6 | File | `/audit/log/log_management.php` | High
+7 | File | `/cgi-bin/uploadAccessCodePic` | High
+8 | File | `/cgi-bin/uploadWeiXinPic` | High
+9 | File | `/controller/Index.php` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/factor/avx-ecm/vecarith52.c` | High
+12 | File | `/goform/exeCommand` | High
+13 | File | `/goform/SetLanInfo` | High
+14 | File | `/goform/setWorkmode` | High
+15 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

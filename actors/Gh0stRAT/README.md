@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,40 +69,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin.php?&m=Public&a=login` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/car.php` | Medium
-7 | File | `/CMD_ACCOUNT_ADMIN` | High
-8 | File | `/concat?/%2557EB-INF/web.xml` | High
-9 | File | `/core/admin/categories.php` | High
-10 | File | `/dashboards/#` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/etc/controller-agent/agent.conf` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/fudforum/adm/hlplist.php` | High
-18 | File | `/GponForm/fsetup_Form` | High
-19 | File | `/log_download.cgi` | High
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/MTFWU` | Low
-22 | File | `/navigate/navigate_download.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/password.html` | High
-25 | File | `/property-list/property_view.php` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/rest/api/2/search` | High
-28 | File | `/s/` | Low
-29 | File | `/scripts/cpan_config` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/server-info` | Medium
-33 | File | `/tmp` | Low
-34 | File | `/tmp/app/.env` | High
-35 | File | `/tmp/kamailio_ctl` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin.php?&m=Public&a=login` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/car.php` | Medium
+6 | File | `/CMD_ACCOUNT_ADMIN` | High
+7 | File | `/concat?/%2557EB-INF/web.xml` | High
+8 | File | `/core/admin/categories.php` | High
+9 | File | `/dashboards/#` | High
+10 | File | `/data/remove` | Medium
+11 | File | `/etc/controller-agent/agent.conf` | High
+12 | File | `/etc/sudoers` | Medium
+13 | File | `/filemanager/php/connector.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/fudforum/adm/hlplist.php` | High
+16 | File | `/GponForm/fsetup_Form` | High
+17 | File | `/log_download.cgi` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/MTFWU` | Low
+20 | File | `/navigate/navigate_download.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/password.html` | High
+23 | File | `/property-list/property_view.php` | High
+24 | File | `/ptms/classes/Users.php` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/rest/api/2/search` | High
+27 | File | `/s/` | Low
+28 | File | `/scripts/cpan_config` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/server-info` | Medium
+32 | File | `/tmp` | Low
+33 | File | `/tmp/kamailio_ctl` | High
+34 | File | `/tmp/kamailio_fifo` | High
+35 | File | `/ucms/index.php?do=list_edit` | High
 36 | ... | ... | ...
 
 There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

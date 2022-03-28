@@ -41,7 +41,7 @@ There are 25 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within BOUNDLESS INFORMANT. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within BOUNDLESS INFORMANT. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -98,9 +98,10 @@ ID | Type | Indicator | Confidence
 38 | File | `apply.cgi` | Medium
 39 | File | `auth.inc.php` | Medium
 40 | File | `auth.py` | Low
-41 | ... | ... | ...
+41 | File | `auth2-gss.c` | Medium
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

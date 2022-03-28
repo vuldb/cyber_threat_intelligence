@@ -41,7 +41,7 @@ There are 55 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by PsiXBot. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PsiXBot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,46 +59,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-2 | File | `/bin/boa` | Medium
-3 | File | `/config/getuser` | High
-4 | File | `/de/cgi/dfs_guest/` | High
-5 | File | `/download` | Medium
-6 | File | `/etc/gsissh/sshd_config` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/etc/quantum/quantum.conf` | High
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/telnet` | High
-13 | File | `/goform/WanParameterSetting` | High
-14 | File | `/inc/extensions.php` | High
-15 | File | `/include/makecvs.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/modules/tasks/summary.inc.php` | High
-18 | File | `/payu/icpcheckout/` | High
-19 | File | `/property-list/property_view.php` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/req_password_user.php` | High
-22 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-23 | File | `/resourceNode/resources.jsf` | High
-24 | File | `/rest/project-templates/1.0/createshared` | High
-25 | File | `/rom-0` | Low
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/trx_addons/v2/get/sc_layout` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-30 | File | `/usr/syno/etc/mount.conf` | High
-31 | File | `/var/log/nginx` | High
-32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `/_next` | Low
-35 | File | `3.6.cpj` | Low
-36 | File | `404.php` | Low
-37 | File | `a-b-membres.php` | High
-38 | File | `ActionsAndOperations` | High
-39 | File | `adclick.php` | Medium
-40 | File | `add_2_basket.asp` | High
-41 | File | `add_vhost.php` | High
+2 | File | `/admin/news/news_ok.php` | High
+3 | File | `/bin/boa` | Medium
+4 | File | `/config/getuser` | High
+5 | File | `/de/cgi/dfs_guest/` | High
+6 | File | `/download` | Medium
+7 | File | `/etc/gsissh/sshd_config` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/etc/quantum/quantum.conf` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/getcfg.php` | Medium
+13 | File | `/goform/telnet` | High
+14 | File | `/goform/WanParameterSetting` | High
+15 | File | `/inc/extensions.php` | High
+16 | File | `/include/makecvs.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/modules/tasks/summary.inc.php` | High
+19 | File | `/payu/icpcheckout/` | High
+20 | File | `/property-list/property_view.php` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/req_password_user.php` | High
+23 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+24 | File | `/resourceNode/resources.jsf` | High
+25 | File | `/rest/project-templates/1.0/createshared` | High
+26 | File | `/rom-0` | Low
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/trx_addons/v2/get/sc_layout` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+31 | File | `/usr/syno/etc/mount.conf` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/_next` | Low
+36 | File | `3.6.cpj` | Low
+37 | File | `404.php` | Low
+38 | File | `a-b-membres.php` | High
+39 | File | `ActionsAndOperations` | High
+40 | File | `adclick.php` | Medium
+41 | File | `add_2_basket.asp` | High
 42 | File | `admin.asp` | Medium
 43 | File | `admin.aspx` | Medium
 44 | File | `admin.php` | Medium
@@ -106,15 +106,15 @@ ID | Type | Indicator | Confidence
 46 | File | `admin/member_details.php` | High
 47 | File | `admin_chatconfig.php` | High
 48 | File | `ajaxp.php` | Medium
-49 | File | `alphabet.php` | Medium
-50 | File | `article2/comments.inc.php` | High
-51 | File | `articles/edit.php` | High
-52 | File | `assp.pl` | Low
-53 | File | `auth-gss2.c` | Medium
-54 | File | `authent.php4` | Medium
+49 | File | `ajax_calls.php` | High
+50 | File | `alphabet.php` | Medium
+51 | File | `article2/comments.inc.php` | High
+52 | File | `articles/edit.php` | High
+53 | File | `assp.pl` | Low
+54 | File | `auth-gss2.c` | Medium
 55 | ... | ... | ...
 
-There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

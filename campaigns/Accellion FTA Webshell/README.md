@@ -60,32 +60,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/anony/mjpg.cgi` | High
 5 | File | `/authenticate.php` | High
-6 | File | `/cameras/XXXX/clips` | High
-7 | File | `/category.php` | High
-8 | File | `/cgi-bin` | Medium
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-11 | File | `/data/vendor/tcl` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/DLSnap` | Low
-14 | File | `/exec/` | Low
-15 | File | `/ldclient/ldprov.cgi` | High
-16 | File | `/login` | Low
-17 | File | `/plugin/extended-choice-parameter/js/` | High
-18 | File | `/plugins/servlet/gadgets/makeRequest` | High
-19 | File | `/PreviewHandler.ashx` | High
-20 | File | `/products/details.asp` | High
-21 | File | `/rest/api/2/user/picker` | High
-22 | File | `/rest/api/latest/groupuserpicker` | High
-23 | File | `/rom-0` | Low
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/services/details.asp` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-29 | ... | ... | ...
+6 | File | `/cache/backup/` | High
+7 | File | `/cameras/XXXX/clips` | High
+8 | File | `/category.php` | High
+9 | File | `/cgi-bin` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+12 | File | `/data/vendor/tcl` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/DLSnap` | Low
+15 | File | `/exec/` | Low
+16 | File | `/ldclient/ldprov.cgi` | High
+17 | File | `/login` | Low
+18 | File | `/plugin/extended-choice-parameter/js/` | High
+19 | File | `/plugins/servlet/gadgets/makeRequest` | High
+20 | File | `/PreviewHandler.ashx` | High
+21 | File | `/products/details.asp` | High
+22 | File | `/rest/api/2/user/picker` | High
+23 | File | `/rest/api/latest/groupuserpicker` | High
+24 | File | `/rom-0` | Low
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/services/details.asp` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+30 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

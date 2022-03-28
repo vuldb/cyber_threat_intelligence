@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,12 +44,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,55 +57,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/../../conf/template/uhttpd.json` | High
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/about.php` | Medium
 4 | File | `/account/register` | High
-5 | File | `/app1/admin#foo` | High
-6 | File | `/articles/welcome-to-your-site#comments-head` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/bin/boa` | Medium
-9 | File | `/cgi?1&5` | Medium
-10 | File | `/config/getuser` | High
-11 | File | `/configs/application.ini` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-17 | File | `/iissamples` | Medium
-18 | File | `/index.pl` | Medium
-19 | File | `/login` | Low
-20 | File | `/public/plugins/` | High
-21 | File | `/sbin/gs_config` | High
-22 | File | `/settings` | Medium
-23 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-26 | File | `/uploads/dede` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/sbin/nagios` | High
-29 | File | `/usr/sbin/suexec` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webman/info.cgi` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `/_next` | Low
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `adclick.php` | Medium
-37 | File | `admin.php?m=admin&c=site&a=save` | High
-38 | File | `admin.php?page=languages` | High
-39 | File | `admin/backupdb.php` | High
-40 | File | `admin/bitrix.mpbuilder_step2.php` | High
-41 | File | `admin/bitrix.xscan_worker.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/gb-dashboard-widget.php` | High
-44 | File | `admin/mcart_xls_import.php` | High
-45 | File | `admin/modules/tools/ip_history_logs.php` | High
-46 | File | `admin/ops/reports/ops/news.php` | High
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/modules/system/custom_field.php` | High
+7 | File | `/api/crontab` | Medium
+8 | File | `/app1/admin#foo` | High
+9 | File | `/articles/welcome-to-your-site#comments-head` | High
+10 | File | `/assets/ctx` | Medium
+11 | File | `/bin/boa` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi?1&5` | Medium
+14 | File | `/config/getuser` | High
+15 | File | `/configs/application.ini` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/export` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+21 | File | `/iissamples` | Medium
+22 | File | `/login` | Low
+23 | File | `/public/plugins/` | High
+24 | File | `/sbin/gs_config` | High
+25 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+28 | File | `/uploads/dede` | High
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/sbin/nagios` | High
+31 | File | `/usr/sbin/suexec` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/webman/info.cgi` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `/_next` | Low
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `adclick.php` | Medium
+40 | File | `admin.php?m=admin&c=site&a=save` | High
+41 | File | `admin.php?page=languages` | High
+42 | File | `admin/backupdb.php` | High
+43 | File | `admin/bitrix.mpbuilder_step2.php` | High
+44 | File | `admin/bitrix.xscan_worker.php` | High
+45 | File | `admin/conf_users_edit.php` | High
+46 | File | `admin/gb-dashboard-widget.php` | High
 47 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

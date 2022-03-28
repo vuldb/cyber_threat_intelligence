@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -169,38 +169,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin-panel1.php` | High
-3 | File | `/admin/configure.php` | High
-4 | File | `/admin/doctors/view_doctor.php` | High
-5 | File | `/admin/index.php?lfj=mysql&action=del` | High
-6 | File | `/cgi-bin/luci/rc` | High
-7 | File | `/cms/ajax.php` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dev/dri/card1` | High
-10 | File | `/domain/service/.ewell-known/caldav` | High
-11 | File | `/download` | Medium
-12 | File | `/file?action=download&file` | High
-13 | File | `/formWlanSetup` | High
+2 | File | `//` | Low
+3 | File | `/admin-panel1.php` | High
+4 | File | `/admin.php/admin/ulog/index.html` | High
+5 | File | `/admin/configure.php` | High
+6 | File | `/admin/doctors/view_doctor.php` | High
+7 | File | `/admin/index.php?lfj=mysql&action=del` | High
+8 | File | `/cgi-bin/uploadAccessCodePic` | High
+9 | File | `/cms/ajax.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/dev/dri/card1` | High
+12 | File | `/download` | Medium
+13 | File | `/file?action=download&file` | High
 14 | File | `/goform/setIPv6Status` | High
 15 | File | `/images` | Low
 16 | File | `/include/chart_generator.php` | High
 17 | File | `/InternalPages/ExecuteTask.aspx` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/music/ajax.php` | High
-20 | File | `/pandora_console/ajax.php` | High
-21 | File | `/plugins/servlet/audit/resource` | High
-22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-23 | File | `/proc/<pid>/status` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rest/api/1.0/render` | High
-26 | File | `/RestAPI` | Medium
-27 | File | `/SASWebReportStudio/logonAndRender.do` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/tmp` | Low
-31 | ... | ... | ...
+18 | File | `/music/ajax.php` | High
+19 | File | `/pandora_console/ajax.php` | High
+20 | File | `/principals` | Medium
+21 | File | `/public/plugins/` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/system/bin/osi_bin` | High
+26 | File | `/tmp` | Low
+27 | File | `/TMS/admin/setting/mail/createorupdate` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/var/log/nginx` | High
+30 | File | `/web/MCmsAction.java` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `account.php` | Medium
+33 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

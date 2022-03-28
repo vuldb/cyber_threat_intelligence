@@ -34,16 +34,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
-2 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | [Lorec53](https://vuldb.com/?actor.lorec53) | High
-3 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | [Agent Tesla](https://vuldb.com/?actor.agent_tesla) | High
-4 | ... | ... | ... | ...
+1 | [3.37.215.204](https://vuldb.com/?ip.3.37.215.204) | ec2-3-37-215-204.ap-northeast-2.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+2 | [16.162.223.161](https://vuldb.com/?ip.16.162.223.161) | ec2-16-162-223-161.ap-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+3 | [18.229.249.186](https://vuldb.com/?ip.18.229.249.186) | ec2-18-229-249-186.sa-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+4 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
+5 | [45.76.84.233](https://vuldb.com/?ip.45.76.84.233) | 45.76.84.233.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Phishing. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Phishing. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -67,47 +69,47 @@ ID | Type | Indicator | Confidence
 5 | File | `/configs/application.ini` | High
 6 | File | `/context/%2e/WEB-INF/web.xml` | High
 7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/goform/telnet` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
-11 | File | `/iwgallery/admin/pictures_edit.asp` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/replication` | Medium
-15 | File | `/rom-0` | Low
-16 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-17 | File | `/tmp/phpglibccheck` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/uploads/dede` | High
-20 | File | `/var/tmp/sess_*` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `AccessPoint.aspx` | High
-23 | File | `action.php` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/telnet` | High
+10 | File | `/HNAP1` | Low
+11 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
+12 | File | `/iwgallery/admin/pictures_edit.asp` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/replication` | Medium
+16 | File | `/rom-0` | Low
+17 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+18 | File | `/tmp/phpglibccheck` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/uploads/dede` | High
+21 | File | `/var/tmp/sess_*` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `AccessPoint.aspx` | High
 24 | File | `actionphp/download.File.php` | High
 25 | File | `activateuser.aspx` | High
-26 | File | `add_comment.php` | High
-27 | File | `AdHocQuery_Processor.aspx` | High
-28 | File | `admin.asp` | Medium
-29 | File | `admin/admin.asp` | High
-30 | File | `admin/admin.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/gallery.php` | High
-33 | File | `admin/images.aspx` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-36 | File | `admin/login.asp` | High
-37 | File | `admin/manage-departments.php` | High
-38 | File | `admin/sellerupd.php` | High
-39 | File | `admin/sitesettings.php` | High
-40 | File | `advsearch.asp` | High
-41 | File | `AEAgent.cpp` | Medium
-42 | File | `affich.php` | Medium
-43 | File | `agent/Core/Controller/SendRequest.cpp` | High
-44 | File | `ajax.php` | Medium
-45 | File | `ajax_calls.php` | High
-46 | File | `ajax_cmd.php` | Medium
-47 | File | `album_portal.php` | High
-48 | File | `apache-auth.conf` | High
+26 | File | `adclick.php` | Medium
+27 | File | `add_comment.php` | High
+28 | File | `AdHocQuery_Processor.aspx` | High
+29 | File | `admin.asp` | Medium
+30 | File | `admin/admin.asp` | High
+31 | File | `admin/admin.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/gallery.php` | High
+34 | File | `admin/images.aspx` | High
+35 | File | `admin/index.php` | High
+36 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+37 | File | `admin/login.asp` | High
+38 | File | `admin/manage-departments.php` | High
+39 | File | `admin/sellerupd.php` | High
+40 | File | `admin/sitesettings.php` | High
+41 | File | `advsearch.asp` | High
+42 | File | `AEAgent.cpp` | Medium
+43 | File | `affich.php` | Medium
+44 | File | `agent/Core/Controller/SendRequest.cpp` | High
+45 | File | `ajax.php` | Medium
+46 | File | `ajax_calls.php` | High
+47 | File | `ajax_cmd.php` | Medium
+48 | File | `album_portal.php` | High
 49 | File | `appfeed.c` | Medium
 50 | File | `ara.asp` | Low
 51 | File | `askapache-firefox-adsense.php` | High
@@ -118,7 +120,7 @@ ID | Type | Indicator | Confidence
 56 | File | `blocking.asp` | Medium
 57 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 498 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,6 +129,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.riskiq.com/article/e3a7ceea/indicators
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/M365_MFA_Phishing/HvS_M365_MFA_Phishing_2022-01_IOCs.csv
 * https://nsfocusglobal.com/apt-retrospection-lorec53-an-active-russian-hack-group-launched-phishing-attacks-against-georgian-government/
+* https://twitter.com/__0XYC__/status/1502593457201811459
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
 * https://us-cert.cisa.gov/ncas/alerts/aa20-225a
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant

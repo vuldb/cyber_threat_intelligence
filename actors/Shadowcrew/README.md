@@ -792,9 +792,10 @@ ID | Type | Indicator | Confidence
 27 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
 28 | File | `admin/add-glossary.php` | High
 29 | File | `admin/conf_users_edit.php` | High
-30 | ... | ... | ...
+30 | File | `admin/edit-comments.php` | High
+31 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

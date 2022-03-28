@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,32 +67,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.add` | Medium
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-4 | File | `/admin/customers.php?page=1&cID` | High
-5 | File | `/admin/edit_user.php` | High
-6 | File | `/admin/files` | Medium
-7 | File | `/administrator/components/menu/` | High
-8 | File | `/administrator/components/table_manager/` | High
-9 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
-10 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
-11 | File | `/api/ZRMesh/set_ZRMesh` | High
-12 | File | `/cloud_config/router_post/register` | High
-13 | File | `/Hospital-Management-System-master/contact.php` | High
-14 | File | `/Hospital-Management-System-master/func.php` | High
-15 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-16 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-17 | File | `/jerry-core/jmem/jmem-heap.c` | High
-18 | File | `/ManageRoute/postRoute` | High
-19 | File | `/ms/cms/content/list.do` | High
-20 | File | `/orms/` | Low
-21 | File | `/parser/js/js-parser-expr.c` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-24 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin.add` | Medium
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+5 | File | `/admin/customers.php?page=1&cID` | High
+6 | File | `/admin/edit_user.php` | High
+7 | File | `/admin/files` | Medium
+8 | File | `/admin/login.php` | High
+9 | File | `/administrator/components/menu/` | High
+10 | File | `/administrator/components/table_manager/` | High
+11 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
+12 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
+13 | File | `/api/fetch` | Medium
+14 | File | `/api/ZRMesh/set_ZRMesh` | High
+15 | File | `/audit/log/log_management.php` | High
+16 | File | `/cloud_config/router_post/register` | High
+17 | File | `/cwms/admin/?page=articles/view_article/` | High
+18 | File | `/Hospital-Management-System-master/contact.php` | High
+19 | File | `/Hospital-Management-System-master/func.php` | High
+20 | File | `/i/:data/ipa.plist` | High
+21 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
+22 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+23 | File | `/jerry-core/jmem/jmem-heap.c` | High
+24 | File | `/ManageRoute/postRoute` | High
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

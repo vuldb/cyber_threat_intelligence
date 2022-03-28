@@ -45,13 +45,14 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
 12 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
 13 | [78.129.139.134](https://vuldb.com/?ip.78.129.139.134) | der134.creditloanlenders.com | - | High
-14 | ... | ... | ... | ...
+14 | [78.129.139.147](https://vuldb.com/?ip.78.129.139.147) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _MuddyWater_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MuddyWater_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -82,21 +83,20 @@ ID | Type | Indicator | Confidence
 12 | File | `/hdf5/src/H5T.c` | High
 13 | File | `/include/chart_generator.php` | High
 14 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/music/ajax.php` | High
-17 | File | `/opensis/functions/GetStuListFnc.php` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/post/editing` | High
-20 | File | `/product.php` | Medium
-21 | File | `/product_list.php` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/RestAPI` | Medium
-24 | File | `/rsms/` | Low
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/userRpm/PingIframeRpm.htm` | High
-27 | ... | ... | ...
+15 | File | `/music/ajax.php` | High
+16 | File | `/opensis/functions/GetStuListFnc.php` | High
+17 | File | `/post/editing` | High
+18 | File | `/product.php` | Medium
+19 | File | `/product_list.php` | High
+20 | File | `/ptms/classes/Users.php` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/RestAPI` | Medium
+23 | File | `/rsms/` | Low
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/userRpm/PingIframeRpm.htm` | High
+26 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -104,9 +104,11 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
 * https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html
+* https://blog.talosintelligence.com/2022/03/iranian-supergroup-muddywater.html
 * https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/
 * https://securelist.com/muddywater/88059/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group
+* https://twitter.com/ShadowChasing1/status/1481621068255137794
 * https://unit42.paloaltonetworks.com/unit42-muddying-the-water-targeted-attacks-in-the-middle-east/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-055a
 * https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf

@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1555 | CWE-312 | Cleartext Storage of Sensitive Information | High
 
 ## IOA - Indicator of Attack
@@ -43,25 +43,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adherents/note.php?id=1` | High
-2 | File | `/dus_en/medieninfo_detail/index.php` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/master/article.php` | High
-5 | File | `/members/profiles.php` | High
-6 | File | `/navigate/navigate_download.php` | High
-7 | File | `/servlet/webacc` | High
-8 | File | `/userman/inbox.php` | High
-9 | File | `123flashchat.php` | High
-10 | File | `acme_accountkeys_edit.php` | High
-11 | File | `admin.cropcanvas.php` | High
-12 | File | `admin.joomlaradiov5.php` | High
-13 | File | `admin.webring.docs.php` | High
-14 | File | `admin/dashboard.php` | High
-15 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-16 | File | `advsearch_h.asp` | High
-17 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/adherents/note.php?id=1` | High
+3 | File | `/aqpg/users/login.php` | High
+4 | File | `/coreframe/app/content/admin/content.php` | High
+5 | File | `/dl/dl_print.php` | High
+6 | File | `/dus_en/medieninfo_detail/index.php` | High
+7 | File | `/etc/passwd` | Medium
+8 | File | `/Hospital-Management-System-master/contact.php` | High
+9 | File | `/master/article.php` | High
+10 | File | `/members/profiles.php` | High
+11 | File | `/navigate/navigate_download.php` | High
+12 | File | `/servlet/webacc` | High
+13 | File | `/sitemagic/upgrade.php` | High
+14 | File | `/userman/inbox.php` | High
+15 | File | `123flashchat.php` | High
+16 | File | `acme_accountkeys_edit.php` | High
+17 | File | `additem.asp` | Medium
+18 | File | `addtocart.asp` | High
+19 | File | `admin.asp` | Medium
+20 | File | `admin.cropcanvas.php` | High
+21 | File | `admin.joomlaradiov5.php` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin.webring.docs.php` | High
+24 | File | `admin/dashboard.php` | High
+25 | File | `admin/general.php` | High
+26 | File | `admin/inc/change_action.php` | High
+27 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+28 | File | `admin/info.php` | High
+29 | File | `admin/login.asp` | High
+30 | File | `admin/specials.php` | High
+31 | File | `admin:de` | Medium
+32 | File | `admincp/auth/checklogin.php` | High
+33 | File | `admincp/auth/secure.php` | High
+34 | File | `administrator/index.php` | High
+35 | File | `admin_login.asp` | High
+36 | File | `advsearch_h.asp` | High
+37 | File | `adv_search.asp` | High
+38 | File | `ajax.php` | Medium
+39 | File | `ajax_url.php` | Medium
+40 | File | `akocomments.php` | High
+41 | File | `album_portal.php` | High
+42 | File | `al_initialize.php` | High
+43 | File | `anjel.index.php` | High
+44 | File | `announce.php` | Medium
+45 | File | `announcement.php` | High
+46 | File | `announcements.php` | High
+47 | File | `article.php` | Medium
+48 | File | `articles.php` | Medium
+49 | File | `artikel_anzeige.php` | High
+50 | File | `ashnews.php/ashheadlines.php` | High
+51 | File | `auth.php` | Medium
+52 | File | `awstats.pl` | Medium
+53 | File | `basket.php` | Medium
+54 | File | `bb_usage_stats.php` | High
+55 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+56 | File | `books.php` | Medium
+57 | File | `bridge/yabbse.inc.php` | High
+58 | File | `browse-category.php` | High
+59 | File | `browse.php` | Medium
+60 | File | `calendar.php` | Medium
+61 | File | `cart.php` | Medium
+62 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

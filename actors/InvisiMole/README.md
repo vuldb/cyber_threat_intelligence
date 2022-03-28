@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.invisimole](https://vuldb.com/?actor.invisimole)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with InvisiMole:
+
+* Ukraine
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with InvisiMole:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +27,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [46.165.230.241](https://vuldb.com/?ip.46.165.230.241) | - | - | High
-2 | [46.165.231.85](https://vuldb.com/?ip.46.165.231.85) | - | - | High
-3 | [46.165.241.129](https://vuldb.com/?ip.46.165.241.129) | - | - | High
+1 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | Ukraine | High
+2 | [46.165.230.241](https://vuldb.com/?ip.46.165.230.241) | - | - | High
+3 | [46.165.231.85](https://vuldb.com/?ip.46.165.231.85) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by InvisiMole. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _InvisiMole_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -39,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,37 +85,40 @@ ID | Type | Indicator | Confidence
 30 | File | `/uncpath/` | Medium
 31 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
 32 | File | `/usr/local/ssl/openssl.cnf` | High
-33 | File | `/var/log/nginx` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/xampp/guestbook-en.pl` | High
-36 | File | `abook_database.php` | High
-37 | File | `AccountStatus.jsp` | High
-38 | File | `action/usermanager.htm` | High
-39 | File | `add.php` | Low
-40 | File | `add_comment.php` | High
-41 | File | `admin.cgi?action=config_restore` | High
-42 | File | `admin.php3` | Medium
-43 | File | `admin/add-news.php` | High
-44 | File | `admin/ajax/op_kandidat.php` | High
-45 | File | `admin/gv_mail.php` | High
-46 | File | `admin/manage-articles.php` | High
-47 | File | `admin/manage-departments.php` | High
-48 | File | `admin/systemOutOfBand.do` | High
-49 | File | `ajax.php` | Medium
-50 | File | `and/or` | Low
-51 | File | `Annot.cc` | Medium
-52 | File | `aoutx.h` | Low
-53 | File | `app/application.cpp` | High
-54 | File | `apply.cgi` | Medium
-55 | ... | ... | ...
+33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+34 | File | `/var/log/nginx` | High
+35 | File | `/wp-admin` | Medium
+36 | File | `/xampp/guestbook-en.pl` | High
+37 | File | `abook_database.php` | High
+38 | File | `AccountStatus.jsp` | High
+39 | File | `action/usermanager.htm` | High
+40 | File | `add.php` | Low
+41 | File | `add_comment.php` | High
+42 | File | `admin.cgi?action=config_restore` | High
+43 | File | `admin.php3` | Medium
+44 | File | `admin/add-news.php` | High
+45 | File | `admin/ajax/op_kandidat.php` | High
+46 | File | `admin/gv_mail.php` | High
+47 | File | `admin/manage-articles.php` | High
+48 | File | `admin/manage-departments.php` | High
+49 | File | `admin/systemOutOfBand.do` | High
+50 | File | `ajax.php` | Medium
+51 | File | `and/or` | Low
+52 | File | `Annot.cc` | Medium
+53 | File | `aoutx.h` | Low
+54 | File | `app/application.cpp` | High
+55 | File | `apply.cgi` | Medium
+56 | ... | ... | ...
 
-There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cert.gov.ua/article/37829
 * https://github.com/eset/malware-ioc/tree/master/invisimole
+* https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q4
 
 ## Literature
 

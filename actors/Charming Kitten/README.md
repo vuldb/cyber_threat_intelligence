@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Charming Kitten:
 
+* CVE-2021-34473 / CVE-2021-34523 / CVE-2021-31207
 * Log4Shell
 
 ## Countries
@@ -51,7 +52,7 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [69.30.221.126](https://vuldb.com/?ip.69.30.221.126) | - | - | High
 23 | ... | ... | ... | ...
 
-There are 88 more IOC items available. Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -101,9 +102,10 @@ ID | Type | Indicator | Confidence
 27 | File | `actions/CompanyDetailsSave.php` | High
 28 | File | `ActiveServices.java` | High
 29 | File | `ActivityManagerService.java` | High
-30 | ... | ... | ...
+30 | File | `admin.php` | Medium
+31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +113,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/blackorbird/APT_REPORT/tree/master/Charming%20Kitten
 * https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/
+* https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.08/Charming%20Kitten.pdf
 * https://www.clearskysec.com/wp-content/uploads/2017/12/Charming_Kitten_2017.pdf
 

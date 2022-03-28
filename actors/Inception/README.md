@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,29 +55,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/news/news_mod.php` | High
 2 | File | `/admin/page_edit/3` | High
-3 | File | `/api/notify.php` | High
+3 | File | `/cgi-bin/uploadWeiXinPic` | High
 4 | File | `/domain/service/.ewell-known/caldav` | High
 5 | File | `/formAdvFirewall` | High
-6 | File | `/mobile/SelectUsers.jsp` | High
-7 | File | `/ProteinArraySignificanceTest.json` | High
-8 | File | `/system/bin/osi_bin` | High
-9 | File | `/usr/local/bin/mjs` | High
-10 | File | `/web` | Low
-11 | File | `admin/bad.php` | High
-12 | File | `admin/dl_sendmail.php` | High
-13 | File | `admin/pages/useredit.php` | High
-14 | File | `AdminBaseController.class.php` | High
-15 | File | `AlertReceiver.java` | High
-16 | File | `alfresco/s/admin/admin-nodebrowser` | High
-17 | File | `AndroidFuture.java` | High
-18 | File | `AndroidManifest.xml` | High
-19 | File | `api/info.php` | Medium
-20 | File | `attach.c` | Medium
-21 | File | `box_code_apple.c` | High
-22 | File | `bug_actiongroup.php` | High
-23 | ... | ... | ...
+6 | File | `/jquery_file_upload/server/php/index.php` | High
+7 | File | `/mobile/SelectUsers.jsp` | High
+8 | File | `/ProteinArraySignificanceTest.json` | High
+9 | File | `/ptms/classes/Users.php` | High
+10 | File | `/system/bin/osi_bin` | High
+11 | File | `/usr/local/bin/mjs` | High
+12 | File | `admin/bad.php` | High
+13 | File | `admin/dl_sendmail.php` | High
+14 | File | `admin/pages/useredit.php` | High
+15 | File | `AdminBaseController.class.php` | High
+16 | File | `AlertReceiver.java` | High
+17 | File | `alfresco/s/admin/admin-nodebrowser` | High
+18 | File | `anchor/routes/posts.php` | High
+19 | File | `AndroidFuture.java` | High
+20 | File | `AndroidManifest.xml` | High
+21 | File | `api/info.php` | Medium
+22 | File | `app/admin/subnets/find_free_section_subnets.php` | High
+23 | File | `attach.c` | Medium
+24 | File | `blocking.cgi` | Medium
+25 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

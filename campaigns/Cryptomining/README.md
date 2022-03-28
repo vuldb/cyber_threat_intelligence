@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cryptomining:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
 
 ## Actors
@@ -29,10 +29,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.9.148.182](https://vuldb.com/?ip.45.9.148.182) | - | [TeamTNT](https://vuldb.com/?actor.teamtnt) | High
 2 | [129.226.180.53](https://vuldb.com/?ip.129.226.180.53) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [164.52.212.196](https://vuldb.com/?ip.164.52.212.196) | e2e-81-196.ssdcloudindia.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [132.162.107.97](https://vuldb.com/?ip.132.162.107.97) | ip-107-97.wireless.oberlin.edu | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,6 +66,7 @@ There are 36 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.trendmicro.co.jp/archives/20418
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://www.trendmicro.com/en_us/research/21/k/compromised-docker-hub-accounts-abused-for-cryptomining-linked-t.html
 

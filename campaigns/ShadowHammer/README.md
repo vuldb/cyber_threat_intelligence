@@ -29,12 +29,13 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [23.236.79.255](https://vuldb.com/?ip.23.236.79.255) | - | [ShadowHammer](https://vuldb.com/?actor.shadowhammer) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://teamt5.org/resource/newsroom/2019/03/28/another-supply-chain-attack-asus-software-updates-was-hacked.html
 * https://www.threatminer.org/_reports/2019/OperationShadowHammer_AHighProfileSupplyChainAttack_Securelist.pdf#viewer.action=download
 
 ## Literature

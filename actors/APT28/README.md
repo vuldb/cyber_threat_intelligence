@@ -114,29 +114,29 @@ ID | Type | Indicator | Confidence
 11 | File | `/NAGErrors` | Medium
 12 | File | `/plugins/servlet/audit/resource` | High
 13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/proc/ioports` | High
-15 | File | `/REBOOTSYSTEM` | High
-16 | File | `/replication` | Medium
-17 | File | `/reports/rwservlet` | High
-18 | File | `/RestAPI` | Medium
-19 | File | `/tmp` | Low
-20 | File | `/tmp/speedtest_urls.xml` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/var/log/nginx` | High
-23 | File | `/wp-admin/admin.php` | High
-24 | File | `/wp-json/wc/v3/webhooks` | High
-25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-26 | File | `admin/app/mediamanager` | High
-27 | File | `admin/index.php` | High
-28 | File | `admin\model\catalog\download.php` | High
-29 | File | `afr.php` | Low
-30 | File | `apcupsd.pid` | Medium
-31 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-32 | File | `api/sms/send-sms` | High
-33 | File | `api/v1/alarms` | High
+14 | File | `/REBOOTSYSTEM` | High
+15 | File | `/replication` | Medium
+16 | File | `/reports/rwservlet` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/tmp` | Low
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/wp-admin/admin.php` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+25 | File | `admin/app/mediamanager` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin\model\catalog\download.php` | High
+28 | File | `afr.php` | Low
+29 | File | `apcupsd.pid` | Medium
+30 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | File | `application/controller/InstallerController.php` | High
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

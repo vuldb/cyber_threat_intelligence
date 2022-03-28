@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Turla:
 
+* Penquin
 * Waterbug
 * Whitebear
 
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [80.74.145.80](https://vuldb.com/?ip.80.74.145.80) | volta.ch-meta.net | - | High
 10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,14 +76,16 @@ ID | Type | Indicator | Confidence
 13 | File | `/system?action=ServiceAdmin` | High
 14 | File | `/uncpath/` | Medium
 15 | File | `/Uploads` | Medium
-16 | ... | ... | ...
+16 | File | `/User/saveUser` | High
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://lab52.io/blog/looking-for-penquins-in-the-wild/
 * https://securelist.com/introducing-whitebear/81638/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/waterbug-espionage-governments
 * https://www.recordedfuture.com/turla-apt-infrastructure/

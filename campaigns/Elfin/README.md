@@ -61,34 +61,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/produts/controller.php` | High
-3 | File | `/admin/user/team` | High
-4 | File | `/backupsettings.conf` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/common/logViewer/logViewer.jsf` | High
-8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/export` | Low
-10 | File | `/forum/away.php` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/mifs/c/i/reg/reg.html` | High
-14 | File | `/ms/cms/content/list.do` | High
-15 | File | `/orms/` | Low
-16 | File | `/public/login.htm` | High
-17 | File | `/show_news.php` | High
-18 | File | `/style/` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `ABuffer.cpp` | Medium
-21 | File | `account.asp` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `admin.php` | Medium
-24 | File | `admin/changedata.php` | High
-25 | File | `admin/dashboard.php` | High
-26 | File | `admin/edit-news.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/admin/produts/controller.php` | High
+4 | File | `/admin/user/team` | High
+5 | File | `/backupsettings.conf` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi-bin/system_mgr.cgi` | High
+8 | File | `/common/logViewer/logViewer.jsf` | High
+9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+10 | File | `/export` | Low
+11 | File | `/forum/away.php` | High
+12 | File | `/horde/util/go.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/mifs/c/i/reg/reg.html` | High
+15 | File | `/ms/cms/content/list.do` | High
+16 | File | `/orms/` | Low
+17 | File | `/public/login.htm` | High
+18 | File | `/show_news.php` | High
+19 | File | `/style/` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `ABuffer.cpp` | Medium
+22 | File | `account.asp` | Medium
+23 | File | `adclick.php` | Medium
+24 | File | `admin.php` | Medium
+25 | File | `admin/changedata.php` | High
+26 | File | `admin/dashboard.php` | High
 27 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

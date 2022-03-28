@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -24,6 +24,9 @@ ID | Actor | Confidence
 1 | [APT29](https://vuldb.com/?actor.apt29) | High
 2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 3 | [Vicious Panda](https://vuldb.com/?actor.vicious_panda) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,10 +36,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | [APT29](https://vuldb.com/?actor.apt29) | High
 2 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | [APT29](https://vuldb.com/?actor.apt29) | High
-3 | [95.179.156.97](https://vuldb.com/?ip.95.179.156.97) | 95.179.156.97.vultr.com | [Vicious Panda](https://vuldb.com/?actor.vicious_panda) | Medium
+3 | [46.101.202.66](https://vuldb.com/?ip.46.101.202.66) | grafana.jagu.dev | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,15 +62,17 @@ ID | Type | Indicator | Confidence
 4 | File | `/WEB-INF/web.xml` | High
 5 | File | `abook_database.php` | High
 6 | File | `adclick.php` | Medium
-7 | ... | ... | ...
+7 | File | `admin/conf_users_edit.php` | High
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Russia/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
+* https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
 * https://research.checkpoint.com/2020/vicious-panda-the-covid-campaign/
 * https://us-cert.cisa.gov/ncas/alerts/aa20-225a
 

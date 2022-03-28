@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,20 +77,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/produts/controller.php` | High
-4 | File | `/admin/syslog` | High
-5 | File | `/admin/user/team` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/cgi-bin` | Medium
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/common/logViewer/logViewer.jsf` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-13 | File | `/dcim/sites/add/` | High
-14 | File | `/EXCU_SHELL` | Medium
-15 | File | `/forum/away.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/admin/powerline` | High
+4 | File | `/admin/produts/controller.php` | High
+5 | File | `/admin/syslog` | High
+6 | File | `/admin/user/team` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/cgi-bin` | Medium
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+14 | File | `/dcim/sites/add/` | High
+15 | File | `/EXCU_SHELL` | Medium
 16 | File | `/fudforum/adm/hlplist.php` | High
 17 | File | `/login` | Low
 18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
@@ -115,7 +115,7 @@ ID | Type | Indicator | Confidence
 37 | File | `AccountManagerService.java` | High
 38 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

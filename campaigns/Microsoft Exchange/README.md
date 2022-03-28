@@ -17,6 +17,7 @@ These _actors_ are associated with Microsoft Exchange or other actors linked to 
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Tortilla](https://vuldb.com/?actor.tortilla) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +28,16 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [54.221.65.242](https://vuldb.com/?ip.54.221.65.242) | ec2-54-221-65-242.compute-1.amazonaws.com | [Tortilla](https://vuldb.com/?actor.tortilla) | Medium
 2 | [168.119.93.163](https://vuldb.com/?ip.168.119.93.163) | dupa.tk | [Tortilla](https://vuldb.com/?actor.tortilla) | High
 3 | [185.219.52.229](https://vuldb.com/?ip.185.219.52.229) | - | [Tortilla](https://vuldb.com/?actor.tortilla) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2021/11/babuk-exploits-exchange.html
+* https://isc.sans.edu/forums/diary/Scanning+for+Microsoft+Exchange+eDiscovery/27748/
 
 ## Literature
 

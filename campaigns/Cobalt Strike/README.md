@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
 * [DE](https://vuldb.com/?country.de)
+* [SV](https://vuldb.com/?country.sv)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-2 | [62.128.111.176](https://vuldb.com/?ip.62.128.111.176) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-3 | [82.118.21.1](https://vuldb.com/?ip.82.118.21.1) | 77626-46583.hyperdomen.com | [Conti](https://vuldb.com/?actor.conti) | High
+1 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+2 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+3 | [62.128.111.176](https://vuldb.com/?ip.62.128.111.176) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,48 +56,81 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
+1 | File | `/?admin/user.html` | High
 2 | File | `/admin/success_story.php` | High
 3 | File | `/bin/bw` | Low
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/movie-portal-script/movie.php` | High
-6 | File | `/notice-edit.php` | High
-7 | File | `/servlet/webacc` | High
-8 | File | `/tmp` | Low
-9 | File | `/uncpath/` | Medium
-10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-11 | File | `abook_database.php` | High
-12 | File | `add_comment.php` | High
-13 | File | `admin/images.php` | High
-14 | File | `admin/index.php/template/upload` | High
-15 | File | `admin/preview.php` | High
-16 | File | `agent/Core/Controller/SendRequest.cpp` | High
-17 | File | `AjaxResponse.jsp` | High
-18 | File | `apl_42.c` | Medium
-19 | File | `app/code/core/Mage/Rss/Helper/Order.php` | High
-20 | File | `archive_read_support_format_rar5.c` | High
-21 | File | `blanko.preview.php` | High
-22 | File | `blueprints/sections/edit/1` | High
-23 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-24 | File | `breadcrumbs_create.php` | High
-25 | File | `burl.c` | Low
-26 | File | `cachemgr.cgi` | Medium
-27 | File | `CFM File Handler` | High
-28 | File | `cgi-bin/awstats.pl` | High
-29 | File | `cgi-bin/webproc` | High
-30 | File | `Change-password.php` | High
-31 | File | `class.t3lib_formmail.php` | High
-32 | File | `content/common/cursors/webcursor.cc` | High
-33 | File | `content/content.systempreferences.php` | High
-34 | ... | ... | ...
+4 | File | `/configuration/httpListenerEdit.jsf` | High
+5 | File | `/etc/tomcat8/Catalina/attack` | High
+6 | File | `/movie-portal-script/movie.php` | High
+7 | File | `/notice-edit.php` | High
+8 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+9 | File | `/servlet/webacc` | High
+10 | File | `/tmp` | Low
+11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+12 | File | `4.2.0.CP08` | Medium
+13 | File | `account.asp` | Medium
+14 | File | `acerctrl.ocx` | Medium
+15 | File | `activate.php` | Medium
+16 | File | `add.php` | Low
+17 | File | `addressbook/csv_import.php` | High
+18 | File | `adm/krgourl.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/admin.php` | High
+21 | File | `admin/adminaddeditdetails.php` | High
+22 | File | `admin/ajaxsave.php` | High
+23 | File | `admin/auth.php` | High
+24 | File | `admin/config.php` | High
+25 | File | `admin/images.php` | High
+26 | File | `ADMIN/loginaction.php` | High
+27 | File | `admin/member_details.php` | High
+28 | File | `admin/preview.php` | High
+29 | File | `ajax/addComment.php` | High
+30 | File | `app/code/core/Mage/Rss/Helper/Order.php` | High
+31 | File | `App_Data/sb.mdb` | High
+32 | File | `archive_read_support_format_rar5.c` | High
+33 | File | `article.php` | Medium
+34 | File | `asp:.jpg` | Medium
+35 | File | `aviso.php` | Medium
+36 | File | `backup.php` | Medium
+37 | File | `bios.php` | Medium
+38 | File | `blanko.preview.php` | High
+39 | File | `blocks.php` | Medium
+40 | File | `browse.php` | Medium
+41 | File | `browse_ladies.php` | High
+42 | File | `burl.c` | Low
+43 | File | `cadena_ofertas_ext.php` | High
+44 | File | `cal_popup.php` | High
+45 | File | `category-delete.php` | High
+46 | File | `category.php` | Medium
+47 | File | `CFM File Handler` | High
+48 | File | `cgi-bin/awstats.pl` | High
+49 | File | `Change-password.php` | High
+50 | File | `charts.php` | Medium
+51 | File | `class.t3lib_formmail.php` | High
+52 | File | `classified.php` | High
+53 | File | `client.c` | Medium
+54 | File | `cmd.php` | Low
+55 | File | `comment.php` | Medium
+56 | File | `comments.php` | Medium
+57 | File | `config.php` | Medium
+58 | File | `core/stack/l2cap/l2cap_sm.c` | High
+59 | File | `country_escorts.php` | High
+60 | File | `cource.php` | Medium
+61 | File | `dapur/index.php` | High
+62 | File | `default.asp` | Medium
+63 | File | `detail.php` | Medium
+64 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 563 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://isc.sans.edu/forums/diary/Example+of+Cobalt+Strike+from+Emotet+infection/28318/
+* https://isc.sans.edu/forums/diary/Qakbot+infection+with+Cobalt+Strike+and+VNC+activity/28448/
 * https://research.checkpoint.com/2019/cobalt-group-returns-to-kazakhstan/
+* https://securelist.com/owowa-credential-stealer-and-remote-access/105219/
 * https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452

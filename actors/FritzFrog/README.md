@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -327,16 +327,16 @@ There are 1200 more IOC items available. Please use our online service to access
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _FritzFrog_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _FritzFrog_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -344,54 +344,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\ASUS\GamingCenterLib` | High
-2 | File | `/administrator/components/menu/` | High
-3 | File | `/apply_noauth.cgi` | High
-4 | File | `/cgi-bin/login` | High
-5 | File | `/CMD_ACCOUNT_ADMIN` | High
-6 | File | `/config/getuser` | High
-7 | File | `/core/admin/categories.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/dev/cpu/*/msr` | High
-10 | File | `/filemanager/php/connector.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/front/document.form.php` | High
-13 | File | `/ghost/preview` | High
-14 | File | `/horde/util/go.php` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/member/index/login.html` | High
-18 | File | `/modx/manager/index.php` | High
-19 | File | `/MTFWU` | Low
-20 | File | `/my_photo_gallery/image.php` | High
-21 | File | `/products/details.asp` | High
-22 | File | `/public/admin.php` | High
-23 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rest/api/1.0/render` | High
-26 | File | `/s/` | Low
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/user-utils/users/md5.json` | High
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/webhooks/aws` | High
-33 | File | `/x_program_center/jaxrs/invoke` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `add.exe` | Low
-36 | File | `admin.php?m=Food&a=addsave` | High
-37 | File | `admin.remository.php` | High
-38 | File | `admin/conf_users_edit.php` | High
-39 | File | `admin/index.php` | High
-40 | File | `admin/login.asp` | High
-41 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-42 | File | `admin\db\DoSql.php` | High
-43 | File | `affich.php` | Medium
-44 | File | `ajax/kanban.php` | High
-45 | File | `ajax_calls.php` | High
-46 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/../conf/config.properties` | High
+4 | File | `//` | Low
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/api/crontab` | Medium
+8 | File | `/apply_noauth.cgi` | High
+9 | File | `/as/authorization.oauth2` | High
+10 | File | `/audit/log/log_management.php` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/cgi-bin/delete_CA` | High
+13 | File | `/cgi-bin/login` | High
+14 | File | `/classes/profile.class.php` | High
+15 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+16 | File | `/config/getuser` | High
+17 | File | `/dev/tty` | Medium
+18 | File | `/export` | Low
+19 | File | `/ghost/preview` | High
+20 | File | `/index.php` | Medium
+21 | File | `/member/index/login.html` | High
+22 | File | `/products/details.asp` | High
+23 | File | `/ptms/classes/Users.php` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/ScadaBR/login.htm` | High
+26 | File | `/system/tool/ping.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/uploads/dede` | High
+29 | File | `/usr/bin/at` | Medium
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/_matrix/client/r0/auth/m.login.recaptcha` | High
+33 | File | `?location=search` | High
+34 | File | `account/login.php` | High
+35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+36 | File | `acrord32.exe` | Medium
+37 | File | `admin.php` | Medium
+38 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

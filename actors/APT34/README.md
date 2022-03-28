@@ -68,30 +68,31 @@ ID | Type | Indicator | Confidence
 8 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
 9 | File | `/medical/inventories.php` | High
 10 | File | `/monitoring` | Medium
-11 | File | `/NAGErrors` | Medium
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/SASWebReportStudio/logonAndRender.do` | High
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `actions.hsp` | Medium
-23 | File | `addentry.php` | Medium
-24 | File | `add_edit_user.asp` | High
-25 | File | `add_to_cart.php` | High
-26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | File | `admin/config/confmgr.php` | High
-28 | File | `admin/system_manage/save.html` | High
-29 | File | `admin\model\catalog\download.php` | High
-30 | File | `ajax.php` | Medium
-31 | File | `apcupsd.pid` | Medium
-32 | ... | ... | ...
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/replication` | Medium
+14 | File | `/RestAPI` | Medium
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/tmp` | Low
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `actions.hsp` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `add_edit_user.asp` | High
+24 | File | `add_to_cart.php` | High
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin/config/confmgr.php` | High
+27 | File | `admin/system_manage/save.html` | High
+28 | File | `admin\model\catalog\download.php` | High
+29 | File | `ajax.php` | Medium
+30 | File | `apcupsd.pid` | Medium
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

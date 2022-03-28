@@ -37,7 +37,8 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [37.139.28.208](https://vuldb.com/?ip.37.139.28.208) | - | - | High
 8 | [45.33.29.133](https://vuldb.com/?ip.45.33.29.133) | li1046-133.members.linode.com | - | High
 9 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
-10 | ... | ... | ... | ...
+10 | [46.105.40.12](https://vuldb.com/?ip.46.105.40.12) | ip12.ip-46-105-40.eu | - | High
+11 | ... | ... | ... | ...
 
 There are 38 more IOC items available. Please use our online service to access the data.
 
@@ -96,13 +97,14 @@ ID | Type | Indicator | Confidence
 34 | File | `announcements.php` | High
 35 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/faisalusuf/ThreatIntelligence/blob/main/APT%20DONOT%20TEAM/Tracking-DONOT-IOCs.csv
+* https://twitter.com/ShadowChasing1/status/1497125743125413892
 * https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/
 
 ## Literature

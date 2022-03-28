@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Camerashy:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
 
 ## Actors
@@ -52,18 +53,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%windir%\Internet Logs\` | High
-2 | File | `/crypto_keyfile.bin` | High
-3 | File | `/show_news.php` | High
-4 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-5 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-6 | File | `500page.jsp` | Medium
-7 | File | `admin/admin_process.php` | High
-8 | File | `admin/user_activate_submit.php` | High
-9 | File | `browse-scategory.php` | High
-10 | File | `classes/Visualizer/Gutenberg/Block.php` | High
-11 | ... | ... | ...
+2 | File | `/admin.php/admin/website/data.html` | High
+3 | File | `/aqpg/users/login.php` | High
+4 | File | `/crypto_keyfile.bin` | High
+5 | File | `/cwms/admin/?page=articles/view_article/` | High
+6 | File | `/cwms/classes/Master.php?f=save_contact` | High
+7 | File | `/mims/app/addcustomerHandler.php` | High
+8 | File | `/one_church/userregister.php` | High
+9 | File | `/show_news.php` | High
+10 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+11 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+12 | File | `500page.jsp` | Medium
+13 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

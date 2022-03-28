@@ -4,13 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.chafer](https://vuldb.com/?actor.chafer)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Chafer:
+
+* Remexi
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chafer:
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -26,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [89.38.97.115](https://vuldb.com/?ip.89.38.97.115) | 89-38-97-115.hosted-by-worldstream.net | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,17 +56,19 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
 3 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-4 | File | `/magnoliaPublic/travel/members/login.html` | High
-5 | File | `/Main_AdmStatus_Content.asp` | High
-6 | File | `/uncpath/` | Medium
-7 | ... | ... | ...
+4 | File | `/jquery_file_upload/server/php/index.php` | High
+5 | File | `/magnoliaPublic/travel/members/login.html` | High
+6 | File | `/Main_AdmStatus_Content.asp` | High
+7 | File | `/uncpath/` | Medium
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://securelist.com/chafer-used-remexi-malware/89538/
 * https://www.threatminer.org/report.php?q=Chafer_LatestAttacksRevealHeightenedAmbitions_SymantecBlogs.pdf&y=2018
 * https://www.threatminer.org/_reports/2019/NewPython-BasedPayloadMechaFlounderUsedbyChafer.pdf#viewer.action=download
 

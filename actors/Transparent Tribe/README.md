@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Transparent Tribe:
 
+* COVID-19
 * Indian Defense Officials
 
 ## Countries
@@ -19,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,11 +36,11 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Transparent Tribe. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Transparent Tribe_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -84,13 +85,14 @@ ID | Type | Indicator | Confidence
 26 | File | `apps/calendar/ajax/event/new.php` | High
 27 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2021/09/14/apt-group-targets-indian-defense-officials-through-enhanced-ttps/
+* https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
 * https://www.threatminer.org/report.php?q=APTGroupSendsSpearPhishingEmailstoIndianGovernmentOfficials%C2%ABThreatResearchBlog_FireEyeInc.pdf&y=2016
 * https://www.threatminer.org/report.php?q=MalwareActorsUsingNICCyberSecurityThemedSpearPhishingtoTargetIndianGovernmentOrganizations-Cysinfo.pdf&y=2016
 * https://www.threatminer.org/report.php?q=proofpoint-operation-transparent-tribe-threat-insight-en.pdf&y=2016

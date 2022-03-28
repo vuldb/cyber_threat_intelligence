@@ -56,39 +56,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/Admin/Views/FileEditor/` | High
 5 | File | `/article/add` | Medium
 6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/computer/(agent-name)/api` | High
-8 | File | `/controller/pay.class.php` | High
-9 | File | `/dev/block/mmcblk0rpmb` | High
-10 | File | `/dev/kmem` | Medium
-11 | File | `/dev/shm` | Medium
-12 | File | `/dev/snd/seq` | Medium
-13 | File | `/device/device=140/tab=wifi/view` | High
-14 | File | `/dl/dl_print.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/goform/addressNat` | High
-17 | File | `/htdocs/admin/dict.php?id=3` | High
-18 | File | `/include/menu_v.inc.php` | High
-19 | File | `/includes/rrdtool.inc.php` | High
-20 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-21 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-22 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-23 | File | `/login` | Low
-24 | File | `/module/module_frame/index.php` | High
-25 | File | `/notice-edit.php` | High
-26 | File | `/nova/bin/sniffer` | High
-27 | File | `/proc/pid/syscall` | High
-28 | File | `/product_list.php` | High
-29 | File | `/rest/api/2/user/picker` | High
-30 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/src/core/controllers/cm.php` | High
-33 | File | `/storage/app/media/evil.svg` | High
-34 | File | `/transmission/web/` | High
-35 | File | `/uapi/doc` | Medium
-36 | File | `/uncpath/` | Medium
+7 | File | `/cgi-bin/uploadWeiXinPic` | High
+8 | File | `/computer/(agent-name)/api` | High
+9 | File | `/controller/pay.class.php` | High
+10 | File | `/dev/block/mmcblk0rpmb` | High
+11 | File | `/dev/kmem` | Medium
+12 | File | `/dev/shm` | Medium
+13 | File | `/dev/snd/seq` | Medium
+14 | File | `/device/device=140/tab=wifi/view` | High
+15 | File | `/dl/dl_print.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/addressNat` | High
+18 | File | `/htdocs/admin/dict.php?id=3` | High
+19 | File | `/include/menu_v.inc.php` | High
+20 | File | `/includes/rrdtool.inc.php` | High
+21 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+22 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+23 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+24 | File | `/login` | Low
+25 | File | `/module/module_frame/index.php` | High
+26 | File | `/notice-edit.php` | High
+27 | File | `/nova/bin/sniffer` | High
+28 | File | `/proc/pid/syscall` | High
+29 | File | `/product_list.php` | High
+30 | File | `/rest/api/2/user/picker` | High
+31 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+32 | File | `/services/details.asp` | High
+33 | File | `/src/core/controllers/cm.php` | High
+34 | File | `/storage/app/media/evil.svg` | High
+35 | File | `/transmission/web/` | High
+36 | File | `/uapi/doc` | Medium
 37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,29 +61,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htaccess` | Medium
 2 | File | `/admin-panel1.php` | High
-3 | File | `/admin/?page=members/view_member` | High
-4 | File | `/admin/file-manager/` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/news/news_mod.php` | High
-7 | File | `/admin/page_edit/3` | High
-8 | File | `/admin/templates/template_manage.php` | High
-9 | File | `/admin_page/all-files-update-ajax.php` | High
-10 | File | `/api/servers` | Medium
-11 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-12 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
-13 | File | `/cloud_config/router_post/register` | High
-14 | File | `/cloud_config/router_post/upgrade_info` | High
-15 | File | `/DataPackageTable` | High
-16 | File | `/download/` | Medium
-17 | File | `/etc/cobbler` | Medium
-18 | File | `/etc/passwd` | Medium
-19 | File | `/goform/SetPptpServerCfg` | High
-20 | File | `/i/:data/ipa.plist` | High
-21 | File | `/languages/index.php` | High
-22 | File | `/mdiy/dict/listExcludeApp` | High
-23 | ... | ... | ...
+3 | File | `/admin.php/admin/ulog/index.html` | High
+4 | File | `/admin.php/admin/vod/data.html` | High
+5 | File | `/admin/?page=members/view_member` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/news/news_mod.php` | High
+8 | File | `/admin/page_edit/3` | High
+9 | File | `/admin/templates/template_manage.php` | High
+10 | File | `/admin_page/all-files-update-ajax.php` | High
+11 | File | `/api/crontab` | Medium
+12 | File | `/api/servers` | Medium
+13 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+14 | File | `/cgi-bin/uploadAccessCodePic` | High
+15 | File | `/cgi-bin/uploadWeiXinPic` | High
+16 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+17 | File | `/cloud_config/router_post/register` | High
+18 | File | `/cloud_config/router_post/upgrade_info` | High
+19 | File | `/config/list` | Medium
+20 | File | `/controller/Index.php` | High
+21 | File | `/data/sqldata` | High
+22 | File | `/DataPackageTable` | High
+23 | File | `/download/` | Medium
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

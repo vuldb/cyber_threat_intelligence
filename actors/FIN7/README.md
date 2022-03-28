@@ -137,17 +137,17 @@ ID | Type | Indicator | Confidence
 41 | File | `admin/write-post.php` | High
 42 | File | `administrator/components/com_media/helpers/media.php` | High
 43 | File | `admin_events.php` | High
-44 | File | `AjaxApplication.java` | High
-45 | File | `akocomments.php` | High
-46 | File | `allopass-error.php` | High
-47 | File | `AllowBindAppWidgetActivity.java` | High
-48 | File | `android/webkit/SearchBoxImpl.java` | High
-49 | File | `AndroidManifest.xml` | High
-50 | File | `api/settings/values` | High
-51 | File | `app/topic/action/admin/topic.php` | High
+44 | File | `aidl_const_expressions.cpp` | High
+45 | File | `ajax/include.php` | High
+46 | File | `AjaxApplication.java` | High
+47 | File | `akocomments.php` | High
+48 | File | `allopass-error.php` | High
+49 | File | `AllowBindAppWidgetActivity.java` | High
+50 | File | `android/webkit/SearchBoxImpl.java` | High
+51 | File | `AndroidManifest.xml` | High
 52 | ... | ... | ...
 
-There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

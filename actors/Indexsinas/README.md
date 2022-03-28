@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [NZ](https://vuldb.com/?country.nz)
-* [US](https://vuldb.com/?country.us)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -292,7 +292,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,17 +300,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htaccess` | Medium
-2 | File | `/admin/link/link_ok.php` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/api/appInternals/1.0/agent/configuration` | High
-5 | File | `/api/appInternals/1.0/agent/da/pcf` | High
-6 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
-7 | File | `/api/appInternals/1.0/plugin/pmx` | High
-8 | File | `/api/eventinstance` | High
-9 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin/contenttemp` | High
+3 | File | `/api/crontab` | Medium
+4 | File | `/api/fetch` | Medium
+5 | File | `/cgi-bin/uploadAccessCodePic` | High
+6 | File | `/cgi-bin/uploadWeiXinPic` | High
+7 | File | `/controller/Index.php` | High
+8 | File | `/core/conditions/AbstractWrapper.java` | High
+9 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+10 | File | `/factor/avx-ecm/vecarith52.c` | High
+11 | File | `/goform/exeCommand` | High
+12 | File | `/goform/SetLanInfo` | High
+13 | File | `/goform/setWorkmode` | High
+14 | File | `/mims/app/addcustomerHandler.php` | High
+15 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

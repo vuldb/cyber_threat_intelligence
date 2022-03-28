@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 28 | File | `/usr/bin/pkexec` | High
 29 | File | `/usr/doc` | Medium
 30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webpages/data` | High
-32 | ... | ... | ...
+31 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

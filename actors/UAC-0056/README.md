@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | Ukraine | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 34 | File | `admincp/auth/checklogin.php` | High
 35 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,6 +97,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://cert.gov.ua/article/18419
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
+* https://www.sentinelone.com/blog/threat-actor-uac-0056-targeting-ukraine-with-fake-translation-software/
 
 ## Literature
 

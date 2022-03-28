@@ -29,7 +29,7 @@ ID | IP address | Hostname | Actor | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within XBash. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within XBash. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 32 | File | `/user/release.html` | High
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

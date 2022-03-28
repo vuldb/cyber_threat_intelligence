@@ -1,12 +1,12 @@
 # BlackTech - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [BlackTech](https://vuldb.com/?actor.blacktech). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [BlackTech](https://vuldb.com/?actor.blacktech). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.blacktech](https://vuldb.com/?actor.blacktech)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.blacktech](https://vuldb.com/?actor.blacktech)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with BlackTech:
+The following _campaigns_ are known and can be associated with BlackTech:
 
 * Taiwan Government Agencies
 * TSCookie
@@ -14,51 +14,60 @@ The following campaigns are known and can be associated with BlackTech:
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackTech:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackTech:
 
-* CN
-* MS
-* US
+* [MS](https://vuldb.com/?country.ms)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of BlackTech.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of BlackTech.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 10.0.0.211 | - | High
-2 | 43.240.12.81 | mail.terascape.net | High
-3 | 45.76.102.145 | 45.76.102.145.vultr.com | Medium
-4 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [10.0.0.211](https://vuldb.com/?ip.10.0.0.211) | - | WaterBear | High
+2 | [43.240.12.81](https://vuldb.com/?ip.43.240.12.81) | mail.terascape.net | Taiwan Government Agencies | High
+3 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultr.com | TSCookie | Medium
+4 | ... | ... | ... | ...
 
 There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by BlackTech. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _BlackTech_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1600 | Cryptographic Issues | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by BlackTech. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by BlackTech. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wp-json/oembed/1.0/embed?url` | High
-2 | File | `base/ErrorHandler.php` | High
-3 | File | `goto.php` | Medium
-4 | ... | ... | ...
+1 | File | `/mifs/c/i/reg/reg.html` | High
+2 | File | `/server-info` | Medium
+3 | File | `/wp-json/oembed/1.0/embed?url` | High
+4 | File | `a2billing/customer/iridium_threed.php` | High
+5 | File | `admin.php?s=/Channel/add.html` | High
+6 | File | `admin/class-bulk-editor-list-table.php` | High
+7 | File | `administrator/components/com_media/helpers/media.php` | High
+8 | File | `auth.asp` | Medium
+9 | File | `base/ErrorHandler.php` | High
+10 | ... | ... | ...
 
-There are 8 more IOA items available. Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html
 * https://www.ithome.com.tw/news/139504
@@ -67,7 +76,7 @@ The following list contains external sources which discuss the actor and the ass
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

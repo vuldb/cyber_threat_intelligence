@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,14 +23,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [109.236.85.152](https://vuldb.com/?ip.109.236.85.152) | customer.worldstream.nl | - | High
 2 | [144.91.65.100](https://vuldb.com/?ip.144.91.65.100) | vmi652772.contaboserver.net | - | High
-3 | [144.91.91.236](https://vuldb.com/?ip.144.91.91.236) | vmi512038.contaboserver.net | - | High
+3 | [144.91.87.179](https://vuldb.com/?ip.144.91.87.179) | vmi778487.contaboserver.net | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by SideCopy. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SideCopy_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,7 +51,7 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/category_view.php` | High
-5 | File | `/dev/kmem` | Medium
+5 | File | `/file?action=download&file` | High
 6 | File | `/medical/inventories.php` | High
 7 | File | `/monitoring` | Medium
 8 | File | `/NAGErrors` | Medium
@@ -86,6 +86,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.malwarebytes.com/threat-intelligence/2021/12/sidecopy-apt-connecting-lures-to-victims-payloads-to-infrastructure/
 * https://blog.talosintelligence.com/2021/07/sidecopy.html
+* https://twitter.com/ShadowChasing1/status/1491261131800780810
+* https://twitter.com/ShadowChasing1/status/1499704400670986240
 
 ## Literature
 

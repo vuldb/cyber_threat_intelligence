@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -84,7 +84,8 @@ ID | IP address | Hostname | Actor | Confidence
 48 | [68.183.192.239](https://vuldb.com/?ip.68.183.192.239) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 49 | [68.183.198.36](https://vuldb.com/?ip.68.183.198.36) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 50 | [68.183.198.247](https://vuldb.com/?ip.68.183.198.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-51 | ... | ... | ... | ...
+51 | [68.183.207.73](https://vuldb.com/?ip.68.183.207.73) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+52 | ... | ... | ... | ...
 
 There are 202 more IOC items available. Please use our online service to access the data.
 
@@ -99,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,37 +108,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.htaccess` | Medium
-3 | File | `/admin-panel1.php` | High
-4 | File | `/admin/?page=members/view_member` | High
-5 | File | `/admin/allergens/edit/1` | High
-6 | File | `/admin/delete_image.php` | High
+1 | File | `/.htaccess` | Medium
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin.php/admin/ulog/index.html` | High
+4 | File | `/admin.php/admin/website/data.html` | High
+5 | File | `/admin/?page=members/view_member` | High
+6 | File | `/admin/allergens/edit/1` | High
 7 | File | `/admin/file-manager/` | High
 8 | File | `/admin/news/news_mod.php` | High
 9 | File | `/admin/options` | High
 10 | File | `/admin/page_edit/3` | High
-11 | File | `/administrator/components/table_manager/` | High
+11 | File | `/admin/show.php` | High
 12 | File | `/admin_page/all-files-update-ajax.php` | High
-13 | File | `/api/servers` | Medium
-14 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-15 | File | `/etc/cobbler` | Medium
-16 | File | `/etc/wpa_supplicant.conf` | High
-17 | File | `/mdiy/dict/listExcludeApp` | High
-18 | File | `/members/view_member.php` | High
-19 | File | `/ok_jpg.c` | Medium
-20 | File | `/options/mailman` | High
-21 | File | `/projeqtor/tool/saveAttachment.php` | High
-22 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-23 | File | `/rootfs` | Low
-24 | File | `/SASWebReportStudio/logonAndRender.do` | High
-25 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/admin/RestoreDefaults.jspa` | High
-28 | File | `/src/njs_vmcode.c` | High
-29 | ... | ... | ...
+13 | File | `/api/crontab` | Medium
+14 | File | `/api/servers` | Medium
+15 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+16 | File | `/cgi-bin/uploadWeiXinPic` | High
+17 | File | `/data/sqldata` | High
+18 | File | `/etc/cobbler` | Medium
+19 | File | `/etc/wpa_supplicant.conf` | High
+20 | File | `/goform/form2Reboot.cgi` | High
+21 | File | `/goform/setAdInfoDetail` | High
+22 | File | `/goform/setFixTools` | High
+23 | File | `/goform/SetInternetLanInfo` | High
+24 | File | `/goform/setPicListItem` | High
+25 | File | `/mdiy/dict/listExcludeApp` | High
+26 | File | `/members/view_member.php` | High
+27 | File | `/ok_jpg.c` | Medium
+28 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,6 +148,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blogs.blackberry.com/en/2022/01/log4u-shell4me
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://gist.github.com/Iansus/050e121170a864c37b13f979c1883ad4
+* https://isc.sans.edu/forums/diary/Example+of+how+attackers+are+trying+to+push+crypto+miners+via+Log4Shell/28172/
 * https://isc.sans.edu/forums/diary/Log4Shell+exploited+to+implant+coin+miners/28124/
 * https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/
 * https://twitter.com/iansus/status/1472867647410819073

@@ -29,37 +29,38 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.59.198.130](https://vuldb.com/?ip.37.59.198.130) | - | - | High
 2 | [37.59.198.131](https://vuldb.com/?ip.37.59.198.131) | - | - | High
-3 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | - | Medium
-4 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | - | Medium
-5 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | - | Medium
-6 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | - | Medium
-7 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | - | High
-8 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | - | High
-9 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | - | High
-10 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | - | High
-11 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | - | High
-12 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | - | High
-13 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
-14 | [46.183.223.107](https://vuldb.com/?ip.46.183.223.107) | ip-223-107.dataclub.info | - | High
-15 | [62.113.238.135](https://vuldb.com/?ip.62.113.238.135) | hosted-by.securefastserver.com | - | High
-16 | [64.62.174.9](https://vuldb.com/?ip.64.62.174.9) | agent2.jenkins.aoindustries.com | - | High
-17 | [64.62.174.16](https://vuldb.com/?ip.64.62.174.16) | unassigned16.net2.fc.aoindustries.com | - | High
-18 | [64.62.174.17](https://vuldb.com/?ip.64.62.174.17) | unassigned17.net2.fc.aoindustries.com | - | High
-19 | [64.62.174.21](https://vuldb.com/?ip.64.62.174.21) | unassigned21.net2.fc.aoindustries.com | - | High
-20 | [64.62.174.41](https://vuldb.com/?ip.64.62.174.41) | dev1.plant-orbit.com | - | High
-21 | ... | ... | ... | ...
+3 | [45.9.239.34](https://vuldb.com/?ip.45.9.239.34) | 45.9.239.34.deltahost-ptr | - | High
+4 | [45.9.239.45](https://vuldb.com/?ip.45.9.239.45) | 45.9.239.45.deltahost-ptr | - | High
+5 | [45.9.239.77](https://vuldb.com/?ip.45.9.239.77) | 45.9.239.77.deltahost-ptr | - | High
+6 | [45.9.239.110](https://vuldb.com/?ip.45.9.239.110) | 45.9.239.110.deltahost-ptr | - | High
+7 | [45.9.239.139](https://vuldb.com/?ip.45.9.239.139) | 45.9.239.139.deltahost-ptr | - | High
+8 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | - | Medium
+9 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | - | Medium
+10 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | - | Medium
+11 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | - | Medium
+12 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | - | High
+13 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | - | High
+14 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | - | High
+15 | [46.183.221.188](https://vuldb.com/?ip.46.183.221.188) | ip-221-188.dataclub.info | - | High
+16 | [46.183.221.189](https://vuldb.com/?ip.46.183.221.189) | ip-221-189.dataclub.info | - | High
+17 | [46.183.221.190](https://vuldb.com/?ip.46.183.221.190) | ip-221-190.dataclub.info | - | High
+18 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | - | High
+19 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | - | High
+20 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | - | High
+21 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
+22 | [46.183.223.107](https://vuldb.com/?ip.46.183.223.107) | ip-223-107.dataclub.info | - | High
+23 | ... | ... | ... | ...
 
-There are 81 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by OceanLotus. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _OceanLotus_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-404 | Resource Consumption | High
 
 ## IOA - Indicator of Attack
 
@@ -78,6 +79,7 @@ There are 10 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
 * https://github.com/eset/malware-ioc/tree/master/oceanlotus
 * https://www.threatminer.org/report.php?q=ESET_OceanLotus.pdf&y=2018
 * https://www.threatminer.org/report.php?q=OceanLotusBlossoms_MassDigitalSurveillanceandAttacksTargetingASEAN,AsianNations,theMedia,HumanRightsGroups,andCivilSociety_Volexity.pdf&y=2017

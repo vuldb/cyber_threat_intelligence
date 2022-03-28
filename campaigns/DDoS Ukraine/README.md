@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DK](https://vuldb.com/?country.dk)
+* [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,35 +60,85 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adherents/note.php?id=1` | High
-2 | File | `/dus_en/medieninfo_detail/index.php` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/formSetPortTr` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/jeecg-boot/sys/common/upload` | High
-7 | File | `/LogoStore/search.php` | High
-8 | File | `/master/article.php` | High
-9 | File | `/members/profiles.php` | High
-10 | File | `/navigate/navigate_download.php` | High
-11 | File | `/question/ask` | High
-12 | File | `/rest/api/2/search` | High
-13 | File | `/servlet/webacc` | High
-14 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/userman/inbox.php` | High
-17 | File | `/usr/sbin/httpd` | High
-18 | File | `123flashchat.php` | High
-19 | File | `acme_accountkeys_edit.php` | High
-20 | File | `adclick.php` | Medium
-21 | File | `admin.cropcanvas.php` | High
-22 | File | `admin.joomlaradiov5.php` | High
-23 | File | `admin.webring.docs.php` | High
-24 | File | `admin/dashboard.php` | High
-25 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-26 | File | `advsearch_h.asp` | High
-27 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/adherents/note.php?id=1` | High
+3 | File | `/admin.php` | Medium
+4 | File | `/aqpg/users/login.php` | High
+5 | File | `/coreframe/app/content/admin/content.php` | High
+6 | File | `/dl/dl_print.php` | High
+7 | File | `/dus_en/medieninfo_detail/index.php` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/formSetPortTr` | High
+10 | File | `/Hospital-Management-System-master/contact.php` | High
+11 | File | `/jeecg-boot/sys/common/upload` | High
+12 | File | `/LogoStore/search.php` | High
+13 | File | `/master/article.php` | High
+14 | File | `/members/profiles.php` | High
+15 | File | `/navigate/navigate_download.php` | High
+16 | File | `/question/ask` | High
+17 | File | `/rest/api/2/search` | High
+18 | File | `/servlet/webacc` | High
+19 | File | `/sitemagic/upgrade.php` | High
+20 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/userman/inbox.php` | High
+24 | File | `/usr/sbin/httpd` | High
+25 | File | `123flashchat.php` | High
+26 | File | `acme_accountkeys_edit.php` | High
+27 | File | `adclick.php` | Medium
+28 | File | `additem.asp` | Medium
+29 | File | `addtocart.asp` | High
+30 | File | `admin.asp` | Medium
+31 | File | `admin.cropcanvas.php` | High
+32 | File | `admin.joomlaradiov5.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin.webring.docs.php` | High
+35 | File | `admin/admin.php` | High
+36 | File | `admin/dashboard.php` | High
+37 | File | `admin/general.php` | High
+38 | File | `admin/inc/change_action.php` | High
+39 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+40 | File | `admin/info.php` | High
+41 | File | `admin/login.asp` | High
+42 | File | `admin/specials.php` | High
+43 | File | `admin:de` | Medium
+44 | File | `admincp/auth/checklogin.php` | High
+45 | File | `admincp/auth/secure.php` | High
+46 | File | `administrator/index.php` | High
+47 | File | `admin_login.asp` | High
+48 | File | `advsearch_h.asp` | High
+49 | File | `adv_search.asp` | High
+50 | File | `ajax.php` | Medium
+51 | File | `ajax/telemetry.php` | High
+52 | File | `ajax_url.php` | Medium
+53 | File | `akocomments.php` | High
+54 | File | `album_portal.php` | High
+55 | File | `al_initialize.php` | High
+56 | File | `AndroidManifest.xml` | High
+57 | File | `anjel.index.php` | High
+58 | File | `annonces-p-f.php` | High
+59 | File | `announce.php` | Medium
+60 | File | `announcement.php` | High
+61 | File | `announcements.php` | High
+62 | File | `App\Manage\Controller\DownloadController.class.php` | High
+63 | File | `article.php` | Medium
+64 | File | `articles.php` | Medium
+65 | File | `artikel_anzeige.php` | High
+66 | File | `ashnews.php/ashheadlines.php` | High
+67 | File | `auth.php` | Medium
+68 | File | `authent.php4` | Medium
+69 | File | `awstats.pl` | Medium
+70 | File | `backupmgt/getAlias.php` | High
+71 | File | `basket.php` | Medium
+72 | File | `bb_usage_stats.php` | High
+73 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+74 | File | `books.php` | Medium
+75 | File | `bridge/yabbse.inc.php` | High
+76 | File | `browse-category.php` | High
+77 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 680 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

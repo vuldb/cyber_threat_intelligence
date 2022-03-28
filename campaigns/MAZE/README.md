@@ -35,15 +35,15 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [37.252.7.142](https://vuldb.com/?ip.37.252.7.142) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
 4 | [54.39.233.188](https://vuldb.com/?ip.54.39.233.188) | mail.ov120.slpmt.net | [FIN6](https://vuldb.com/?actor.fin6) | High
 5 | [91.208.184.174](https://vuldb.com/?ip.91.208.184.174) | sell.mybeststore.club | [FIN6](https://vuldb.com/?actor.fin6) | High
-6 | [91.218.114.4](https://vuldb.com/?ip.91.218.114.4) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
-7 | [91.218.114.31](https://vuldb.com/?ip.91.218.114.31) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
+6 | [91.218.114.4](https://vuldb.com/?ip.91.218.114.4) | - | [Maze](https://vuldb.com/?actor.maze) | High
+7 | [91.218.114.11](https://vuldb.com/?ip.91.218.114.11) | - | [Maze](https://vuldb.com/?actor.maze) | High
 8 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within MAZE. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within MAZE. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -56,30 +56,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax-files/postComment.php` | High
-2 | File | `/cgi-bin/login_action.cgi` | High
-3 | File | `/cgi-bin/webproc` | High
-4 | File | `/index.php` | Medium
-5 | File | `/index.php/weblinks-categories` | High
-6 | File | `/menu.html` | Medium
-7 | File | `/mics/j_spring_security_check` | High
-8 | File | `/mybb_1806/Upload/admin/index.php` | High
-9 | File | `/scp/directory.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/var/log/nginx` | High
-12 | File | `account/gallery.php` | High
-13 | File | `add_edit_cat.asp` | High
-14 | File | `admin.php?mod=user&act=del` | High
-15 | File | `admin/admin_process.php` | High
-16 | File | `allocator.cc` | Medium
+1 | File | `//` | Low
+2 | File | `/ajax-files/postComment.php` | High
+3 | File | `/cgi-bin/login_action.cgi` | High
+4 | File | `/cgi-bin/webproc` | High
+5 | File | `/index.php` | Medium
+6 | File | `/index.php/weblinks-categories` | High
+7 | File | `/menu.html` | Medium
+8 | File | `/mics/j_spring_security_check` | High
+9 | File | `/mybb_1806/Upload/admin/index.php` | High
+10 | File | `/scp/directory.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/var/log/nginx` | High
+13 | File | `account/gallery.php` | High
+14 | File | `add_edit_cat.asp` | High
+15 | File | `admin.php?mod=user&act=del` | High
+16 | File | `admin/admin_process.php` | High
 17 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Maze.csv
 * https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html
 
