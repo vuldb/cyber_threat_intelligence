@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,12 +4908,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4921,29 +4921,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/../conf/config.properties` | High
-3 | File | `//` | Low
-4 | File | `/admin.php/admin/art/data.html` | High
-5 | File | `/admin.php/admin/plog/index.html` | High
-6 | File | `/admin.php/admin/ulog/index.html` | High
-7 | File | `/admin.php/admin/vod/data.html` | High
-8 | File | `/admin.php/admin/website/data.html` | High
-9 | File | `/admin/show.php` | High
-10 | File | `/cgi-bin/delete_CA` | High
-11 | File | `/cgi-bin/uploadAccessCodePic` | High
-12 | File | `/cgi-bin/uploadWeiXinPic` | High
-13 | File | `/config/list` | Medium
-14 | File | `/config/service/host.go` | High
-15 | File | `/data/sqldata` | High
-16 | File | `/goform/delAd` | High
-17 | File | `/goform/exeCommand` | High
-18 | File | `/goform/form2Reboot.cgi` | High
-19 | File | `/goform/setAdInfoDetail` | High
-20 | File | `/goform/setFixTools` | High
-21 | ... | ... | ...
+1 | File | `%APPDATA%\Securepoint SSL VPN` | High
+2 | File | `/#/CampaignManager/users` | High
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `//` | Low
+5 | File | `/admin/export/getcsv/article_db` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/api/user/{ID}` | High
+8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/bin/sh` | Low
+11 | File | `/cgi-mod/lookup.cgi` | High
+12 | File | `/config/service/host.go` | High
+13 | File | `/downloads/` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/export` | Low
+16 | File | `/include/chart_generator.php` | High
+17 | File | `/member/index/login.html` | High
+18 | File | `/modules/certinfo/index.php` | High
+19 | File | `/new` | Low
+20 | File | `/nova/bin/sniffer` | High
+21 | File | `/system/user/resetPwd` | High
+22 | File | `/textpattern/index.php` | High
+23 | File | `/tmp/swhkd.pid` | High
+24 | File | `/tmp/swhks.pid` | High
+25 | File | `/tools/run-dev-server` | High
+26 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CO](https://vuldb.com/?country.co)
-* [IT](https://vuldb.com/?country.it)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
-2 | [82.221.129.18](https://vuldb.com/?ip.82.221.129.18) | baula.orangewebsite.com | - | High
-3 | [82.221.129.19](https://vuldb.com/?ip.82.221.129.19) | jolnir.orangewebsite.com | - | High
+1 | [45.11.19.170](https://vuldb.com/?ip.45.11.19.170) | - | - | High
+2 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
+3 | [82.221.129.18](https://vuldb.com/?ip.82.221.129.18) | baula.orangewebsite.com | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Bitter_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bitter_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,23 +51,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/etc/gsissh/sshd_config` | High
 3 | File | `/forms/nslookupHandler` | High
 4 | File | `/news.dtl.php` | High
-5 | File | `/systemrw/` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `/upload/file.php` | High
-8 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-9 | File | `5.2.9\syscrb.exe` | High
-10 | File | `admin.cgi` | Medium
-11 | File | `admin/category.inc.php` | High
-12 | File | `data/gbconfiguration.dat` | High
-13 | ... | ... | ...
+5 | File | `/ptms/?page=user` | High
+6 | File | `/systemrw/` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `/upload/file.php` | High
+9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+10 | File | `5.2.9\syscrb.exe` | High
+11 | File | `admin.cgi` | Medium
+12 | File | `admin/category.inc.php` | High
+13 | File | `admin/vqmods.app/vqmods.inc.php` | High
+14 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
+* https://twitter.com/ShadowChasing1/status/1504833720489951234
 * https://www.threatminer.org/report.php?q=SuspectedBITTERAPTContinuesTargetingGovernmentofChinaandChineseOrganizations.pdf&y=2019
 
 ## Literature

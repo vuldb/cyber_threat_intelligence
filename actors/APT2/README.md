@@ -38,7 +38,7 @@ There are 34 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT2. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT2_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

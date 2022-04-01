@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with APT36:
 
 * C-Major
+* Crimson RAT
 
 ## Countries
 
@@ -34,14 +35,14 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | C-Major | High
 6 | [23.254.119.11](https://vuldb.com/?ip.23.254.119.11) | - | - | High
 7 | [64.188.12.126](https://vuldb.com/?ip.64.188.12.126) | 64.188.12.126.static.quadranet.com | - | High
-8 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
-9 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
-10 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
-11 | [80.240.134.51](https://vuldb.com/?ip.80.240.134.51) | - | C-Major | High
-12 | [82.196.13.94](https://vuldb.com/?ip.82.196.13.94) | - | C-Major | High
+8 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | Crimson RAT | High
+9 | [64.188.25.232](https://vuldb.com/?ip.64.188.25.232) | 64.188.25.232.static.quadranet.com | - | High
+10 | [75.98.175.79](https://vuldb.com/?ip.75.98.175.79) | a2s83.a2hosting.com | C-Major | High
+11 | [75.119.139.169](https://vuldb.com/?ip.75.119.139.169) | server1.immacolata.com | - | High
+12 | [80.240.134.51](https://vuldb.com/?ip.80.240.134.51) | - | C-Major | High
 13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,6 +97,7 @@ There are 229 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.malwarebytes.com/threat-analysis/2020/03/apt36-jumps-on-the-coronavirus-bandwagon-delivers-crimson-rat/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
 * https://www.threatminer.org/report.php?q=indian-military-personnel-targeted-by-information-theft-campaign-cmajor.pdf&y=2016
 * https://www.trendmicro.com/en_us/research/22/a/investigating-apt36-or-earth-karkaddans-attack-chain-and-malware.html

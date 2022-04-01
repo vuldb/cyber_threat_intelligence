@@ -54,45 +54,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
-2 | File | `.authlie` | Medium
-3 | File | `.htaccess` | Medium
-4 | File | `/+CSCOE+/logon.html` | High
-5 | File | `/admin/settings/sites/new` | High
-6 | File | `/admin_giant/` | High
-7 | File | `/advanced/adv_dns.xgi` | High
-8 | File | `/folder/list` | Medium
-9 | File | `/forms/nslookupHandler` | High
-10 | File | `/goform/GetNewDir` | High
-11 | File | `/goform/right_now_d` | High
-12 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-13 | File | `/group/comment` | High
-14 | File | `/home/home_parent.xgi` | High
-15 | File | `/lookin/info` | Medium
-16 | File | `/plugins/servlet/jira-blockers/` | High
-17 | File | `/status/status_log.sys` | High
-18 | File | `/themes/<php_file_name>` | High
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/usr/bin/shutter` | High
-23 | File | `/zm/index.php` | High
-24 | File | `adclick.php` | Medium
-25 | File | `admin-ajax.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-28 | File | `admin/controller/pages/localisation/language.php` | High
-29 | File | `admin/fm/` | Medium
-30 | File | `admin/pages/*/edit` | High
-31 | File | `admincp/attachment.php&do=rebuild&type` | High
-32 | File | `administrator/index.php?option=com_pago&view=comments` | High
-33 | File | `ajax.php` | Medium
-34 | File | `ajax_mod_security.php` | High
-35 | File | `api.php` | Low
-36 | File | `appconfig.php` | High
-37 | File | `arch/powerpc/kernel/idle_book3s.S` | High
+2 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+3 | File | `.authlie` | Medium
+4 | File | `.htaccess` | Medium
+5 | File | `/+CSCOE+/logon.html` | High
+6 | File | `/admin/settings/sites/new` | High
+7 | File | `/admin_giant/` | High
+8 | File | `/advanced/adv_dns.xgi` | High
+9 | File | `/folder/list` | Medium
+10 | File | `/forms/nslookupHandler` | High
+11 | File | `/goform/GetNewDir` | High
+12 | File | `/goform/right_now_d` | High
+13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+14 | File | `/group/comment` | High
+15 | File | `/home/home_parent.xgi` | High
+16 | File | `/lookin/info` | Medium
+17 | File | `/plugins/servlet/jira-blockers/` | High
+18 | File | `/status/status_log.sys` | High
+19 | File | `/themes/<php_file_name>` | High
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/usr/bin/shutter` | High
+24 | File | `/zm/index.php` | High
+25 | File | `adclick.php` | Medium
+26 | File | `admin-ajax.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+29 | File | `admin/controller/pages/localisation/language.php` | High
+30 | File | `admin/fm/` | Medium
+31 | File | `admin/pages/*/edit` | High
+32 | File | `admincp/attachment.php&do=rebuild&type` | High
+33 | File | `administrator/index.php?option=com_pago&view=comments` | High
+34 | File | `ajax.php` | Medium
+35 | File | `ajax_mod_security.php` | High
+36 | File | `api.php` | Low
+37 | File | `appconfig.php` | High
 38 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

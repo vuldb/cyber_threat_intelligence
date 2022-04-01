@@ -1,6 +1,6 @@
 # Fanel - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Fanel](https://vuldb.com/?actor.fanel). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Fanel](https://vuldb.com/?actor.fanel). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.fanel](https://vuldb.com/?actor.fanel)
 
@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fanel:
 
-* RO
-* US
-* ES
+* [RO](https://vuldb.com/?country.ro)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,19 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 34.67.140.147 | 147.140.67.34.bc.googleusercontent.com | - | Medium
-2 | 34.87.185.57 | 57.185.87.34.bc.googleusercontent.com | - | Medium
-3 | 34.93.240.37 | 37.240.93.34.bc.googleusercontent.com | - | Medium
-4 | 41.234.66.22 | host-41.234.66.22.tedata.net | - | High
-5 | 51.89.99.60 | ns31180559.ip-51-89-99.eu | - | High
-6 | 51.91.140.218 | - | - | High
+1 | [34.67.140.147](https://vuldb.com/?ip.34.67.140.147) | 147.140.67.34.bc.googleusercontent.com | - | Medium
+2 | [34.87.185.57](https://vuldb.com/?ip.34.87.185.57) | 57.185.87.34.bc.googleusercontent.com | - | Medium
+3 | [34.93.240.37](https://vuldb.com/?ip.34.93.240.37) | 37.240.93.34.bc.googleusercontent.com | - | Medium
+4 | [41.234.66.22](https://vuldb.com/?ip.41.234.66.22) | host-41.234.66.22.tedata.net | - | High
+5 | [51.89.99.60](https://vuldb.com/?ip.51.89.99.60) | ns31180559.ip-51-89-99.eu | - | High
+6 | [51.91.140.218](https://vuldb.com/?ip.51.91.140.218) | - | - | High
 7 | ... | ... | ... | ...
 
 There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Fanel. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Fanel_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,7 +90,8 @@ ID | Type | Indicator | Confidence
 38 | File | `arch/arm/kernel/perf_event.c` | High
 39 | File | `ArticleType.php` | High
 40 | File | `attachment.php` | High
-41 | ... | ... | ...
+41 | File | `Attachment.pm/code-error.html.tmpl` | High
+42 | ... | ... | ...
 
 There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

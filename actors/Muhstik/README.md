@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 19 | File | `ActivityManagerService.java` | High
 20 | File | `adclick.php` | Medium
 21 | File | `adm1n/admin_config.php` | High
-22 | ... | ... | ...
+22 | File | `admin-ajax.php` | High
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with HOPLIGHT:
 
+* [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
-* [ZW](https://vuldb.com/?country.zw)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -26,12 +30,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
-2 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
-3 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [DPRK](https://vuldb.com/?actor.dprk) | High
-4 | ... | ... | ... | ...
+1 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+2 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
+3 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
+4 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [DPRK](https://vuldb.com/?actor.dprk) | High
+5 | [70.224.36.194](https://vuldb.com/?ip.70.224.36.194) | adsl-70-224-36-194.dsl.sbndin.ameritech.net | [DPRK](https://vuldb.com/?actor.dprk) | High
+6 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,8 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,14 +58,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `countedit.cgi` | High
-2 | File | `p.php` | Low
+1 | File | `.htaccess` | Medium
+2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+3 | File | `/admin-panel1.php` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/alerts/alertConfigField.php` | High
+6 | File | `/api/email_accounts` | High
+7 | File | `/API/system/admins/session` | High
+8 | File | `/cgi-bin/ExportALLSettings.sh` | High
+9 | File | `/config/config.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/customers/index.php` | High
+12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+15 | File | `/DataHandler/Handler_CFG.ashx` | High
+16 | File | `/ECT_Provider/` | High
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/index.php/fuel/pages/items` | High
+19 | File | `/goform/openSchedWifi` | High
+20 | File | `/goform/SetNetControlList` | High
+21 | File | `/image_zoom.php` | High
+22 | File | `/include/config.cache.php` | High
+23 | File | `/json/profile/removeStarAjax.do` | High
+24 | File | `/oauth/token/request` | High
+25 | File | `/plugin/ajax.php` | High
+26 | File | `/plugins/servlet/branchreview` | High
+27 | File | `/proc/ioports` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/rest/api/2/search` | High
+30 | File | `/rest/api/latest/groupuserpicker` | High
+31 | File | `/rest/api/latest/projectvalidate/key` | High
+32 | File | `/rom-0` | Low
+33 | File | `/tmp` | Low
+34 | File | `/tmp/connlicj.bin` | High
+35 | ... | ... | ...
+
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A
+* https://www.cisa.gov/uscert/ncas/analysis-reports/ar20-045g
 
 ## Literature
 

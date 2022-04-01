@@ -1,6 +1,6 @@
 # Lotus Blossom - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lotus Blossom](https://vuldb.com/?actor.lotus_blossom). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lotus_blossom](https://vuldb.com/?actor.lotus_blossom)
 
@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with Lotus Blossom:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lotus Blossom:
 
-* US
-* CN
-* ES
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -27,23 +27,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 23.234.63.197 | - | - | High
-2 | 27.255.64.231 | - | - | High
-3 | 45.64.113.130 | - | - | High
-4 | 46.251.237.59 | - | - | High
-5 | 50.7.11.10 | yem1.entregadorvirtual9.com | - | High
-6 | 58.64.183.92 | - | - | High
-7 | 59.6.2.16 | - | - | High
-8 | 59.188.247.32 | - | - | High
-9 | 61.58.31.102 | - | - | High
-10 | 95.154.195.152 | hrms.blinkgator.net | - | High
+1 | [23.234.63.197](https://vuldb.com/?ip.23.234.63.197) | - | - | High
+2 | [27.255.64.231](https://vuldb.com/?ip.27.255.64.231) | - | - | High
+3 | [45.64.113.130](https://vuldb.com/?ip.45.64.113.130) | - | - | High
+4 | [46.251.237.59](https://vuldb.com/?ip.46.251.237.59) | - | - | High
+5 | [50.7.11.10](https://vuldb.com/?ip.50.7.11.10) | yem1.entregadorvirtual9.com | - | High
+6 | [58.64.183.92](https://vuldb.com/?ip.58.64.183.92) | - | - | High
+7 | [59.6.2.16](https://vuldb.com/?ip.59.6.2.16) | - | - | High
+8 | [59.188.247.32](https://vuldb.com/?ip.59.188.247.32) | - | - | High
+9 | [61.58.31.102](https://vuldb.com/?ip.61.58.31.102) | - | - | High
+10 | [95.154.195.152](https://vuldb.com/?ip.95.154.195.152) | hrms.blinkgator.net | - | High
 11 | ... | ... | ... | ...
 
 There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Lotus Blossom. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lotus Blossom_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,7 +112,7 @@ ID | Type | Indicator | Confidence
 50 | File | `download-file.php` | High
 51 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

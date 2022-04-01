@@ -43,7 +43,7 @@ There are 30 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Potao. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Potao. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -64,9 +64,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/uncpath/` | Medium
 6 | File | `/usr/bin/pkexec` | High
 7 | File | `/webpages/data` | High
-8 | ... | ... | ...
+8 | File | `/zm/index.php` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

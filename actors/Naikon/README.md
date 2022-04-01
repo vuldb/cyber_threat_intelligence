@@ -58,14 +58,16 @@ ID | Type | Indicator | Confidence
 5 | File | `/cwms/admin/?page=articles/view_article/` | High
 6 | File | `/cwms/classes/Master.php?f=save_contact` | High
 7 | File | `/mims/app/addcustomerHandler.php` | High
-8 | File | `/one_church/userregister.php` | High
-9 | File | `/show_news.php` | High
-10 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-11 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-12 | File | `500page.jsp` | Medium
-13 | ... | ... | ...
+8 | File | `/one_church/churchprofile.php` | High
+9 | File | `/one_church/userregister.php` | High
+10 | File | `/show_news.php` | High
+11 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+12 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+13 | File | `/wp-admin/options-general.php` | High
+14 | File | `500page.jsp` | Medium
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

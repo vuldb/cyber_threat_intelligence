@@ -31,7 +31,7 @@ There are 17 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by RedEcho. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _RedEcho_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,33 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+1 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+2 | File | `/admin-panel1.php` | High
 3 | File | `/ad_js.php` | Medium
-4 | File | `/api/email_accounts` | High
-5 | File | `/API/system/admins/session` | High
-6 | File | `/cgi-bin/ExportALLSettings.sh` | High
-7 | File | `/config/config.php` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/customers/index.php` | High
-10 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-11 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-12 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-13 | File | `/DataHandler/Handler_CFG.ashx` | High
-14 | File | `/ECT_Provider/` | High
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/fuel/index.php/fuel/pages/items` | High
-17 | File | `/goform/openSchedWifi` | High
-18 | File | `/goform/SetNetControlList` | High
-19 | File | `/image_zoom.php` | High
-20 | File | `/include/config.cache.php` | High
-21 | File | `/json/profile/removeStarAjax.do` | High
-22 | File | `/oauth/token/request` | High
-23 | File | `/plugin/ajax.php` | High
-24 | File | `/plugins/servlet/branchreview` | High
-25 | File | `/preauth` | Medium
-26 | File | `/proc/ioports` | High
-27 | File | `/proc/self/exe` | High
+4 | File | `/alerts/alertConfigField.php` | High
+5 | File | `/api/email_accounts` | High
+6 | File | `/API/system/admins/session` | High
+7 | File | `/cgi-bin/ExportALLSettings.sh` | High
+8 | File | `/config/config.php` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/customers/index.php` | High
+11 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+12 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+13 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+14 | File | `/DataHandler/Handler_CFG.ashx` | High
+15 | File | `/ECT_Provider/` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/index.php/fuel/pages/items` | High
+18 | File | `/goform/openSchedWifi` | High
+19 | File | `/goform/SetNetControlList` | High
+20 | File | `/image_zoom.php` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/json/profile/removeStarAjax.do` | High
+23 | File | `/oauth/token/request` | High
+24 | File | `/plugin/ajax.php` | High
+25 | File | `/plugins/servlet/branchreview` | High
+26 | File | `/preauth` | Medium
+27 | File | `/proc/ioports` | High
 28 | File | `/public/plugins/` | High
 29 | File | `/rest/api/2/search` | High
 30 | File | `/rest/api/latest/groupuserpicker` | High
@@ -82,10 +82,9 @@ ID | Type | Indicator | Confidence
 32 | File | `/rom-0` | Low
 33 | File | `/tmp` | Low
 34 | File | `/tmp/connlicj.bin` | High
-35 | File | `/uncpath/` | Medium
-36 | ... | ... | ...
+35 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

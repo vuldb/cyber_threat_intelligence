@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -321,7 +321,7 @@ There are 1142 more IOC items available. Please use our online service to access
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Sunburst. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Sunburst. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -330,7 +330,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -338,33 +338,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/configure.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/css/..%2f` | Medium
-7 | File | `/etc/tomcat8/Catalina/attack` | High
-8 | File | `/etc/wpa_supplicant.conf` | High
-9 | File | `/export` | Low
-10 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-11 | File | `/formSetPortTr` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/GetCopiedFile` | High
-14 | File | `/hdf5/src/H5T.c` | High
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-17 | File | `/music/ajax.php` | High
-18 | File | `/opensis/functions/GetStuListFnc.php` | High
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/post/editing` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/replication` | Medium
-23 | File | `/RestAPI` | Medium
-24 | File | `/rsms/` | Low
-25 | ... | ... | ...
+1 | File | `/admin/configure.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/appliance/users?action=edit` | High
+4 | File | `/cgi-bin/kerbynet` | High
+5 | File | `/css/..%2f` | Medium
+6 | File | `/etc/tomcat8/Catalina/attack` | High
+7 | File | `/etc/wpa_supplicant.conf` | High
+8 | File | `/formSetPortTr` | High
+9 | File | `/GetCopiedFile` | High
+10 | File | `/hdf5/src/H5T.c` | High
+11 | File | `/include/chart_generator.php` | High
+12 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+13 | File | `/music/ajax.php` | High
+14 | File | `/one_church/churchprofile.php` | High
+15 | File | `/opensis/functions/GetStuListFnc.php` | High
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/post/editing` | High
+18 | File | `/ptms/classes/Users.php` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/RestAPI` | Medium
+21 | File | `/rsms/` | Low
+22 | File | `/userRpm/PingIframeRpm.htm` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

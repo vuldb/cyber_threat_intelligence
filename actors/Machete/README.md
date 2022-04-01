@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [69.64.43.33](https://vuldb.com/?ip.69.64.43.33) | falcon207.startdedicated.com | - | High
-2 | [109.61.164.33](https://vuldb.com/?ip.109.61.164.33) | 109-61-164-33.dsl.orel.ru | - | High
-3 | [142.44.236.215](https://vuldb.com/?ip.142.44.236.215) | ip215.ip-142-44-236.net | - | High
+1 | [31.207.44.72](https://vuldb.com/?ip.31.207.44.72) | - | - | High
+2 | [69.64.43.33](https://vuldb.com/?ip.69.64.43.33) | falcon207.startdedicated.com | - | High
+3 | [109.61.164.33](https://vuldb.com/?ip.109.61.164.33) | 109-61-164-33.dsl.orel.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Machete_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Machete_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -49,13 +49,14 @@ ID | Type | Indicator | Confidence
 3 | File | `file_download.php` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2017/03/el-machete-malware-attacks-cut-through-latam
+* https://research.checkpoint.com/2022/state-sponsored-attack-groups-capitalise-on-russia-ukraine-war-for-cyber-espionage/
 * https://www.welivesecurity.com/wp-content/uploads/2019/08/ESET_Machete.pdf
 
 ## Literature

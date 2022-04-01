@@ -70,7 +70,7 @@ ID | IP address | Hostname | Campaign | Confidence
 47 | [64.182.215.73](https://vuldb.com/?ip.64.182.215.73) | - | - | High
 48 | ... | ... | ... | ...
 
-There are 187 more IOC items available. Please use our online service to access the data.
+There are 188 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -129,7 +129,7 @@ ID | Type | Indicator | Confidence
 36 | File | `addlink.php` | Medium
 37 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -137,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_zeus.netset
+* https://isc.sans.edu/forums/diary/Recent+Emotet+activity/23908/
 
 ## Literature
 

@@ -33,7 +33,7 @@ There are 26 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _ChaChi_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ChaChi_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -61,26 +61,26 @@ ID | Type | Indicator | Confidence
 9 | File | `/forum/away.php` | High
 10 | File | `/get_getnetworkconf.cgi` | High
 11 | File | `/horde/util/go.php` | High
-12 | File | `/opensis/modules/users/Staff.php` | High
-13 | File | `/plugins/servlet/gadgets/makeRequest` | High
-14 | File | `/req_password_user.php` | High
-15 | File | `/show_news.php` | High
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/Uploads` | Medium
-19 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-20 | File | `/WEB-INF/web.xml` | High
-21 | File | `/webconsole/APIController` | High
-22 | File | `AccountStatus.jsp` | High
-23 | File | `add.php` | Low
-24 | File | `addentry.php` | Medium
-25 | File | `admin.htm` | Medium
-26 | File | `admin.php` | Medium
-27 | File | `admin/article_category.php?rec=update` | High
-28 | File | `admin/config/confmgr.php` | High
+12 | File | `/nova/bin/detnet` | High
+13 | File | `/opensis/modules/users/Staff.php` | High
+14 | File | `/plugins/servlet/gadgets/makeRequest` | High
+15 | File | `/req_password_user.php` | High
+16 | File | `/show_news.php` | High
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/Uploads` | Medium
+20 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+21 | File | `/WEB-INF/web.xml` | High
+22 | File | `/webconsole/APIController` | High
+23 | File | `AccountStatus.jsp` | High
+24 | File | `add.php` | Low
+25 | File | `addentry.php` | Medium
+26 | File | `admin.htm` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/article_category.php?rec=update` | High
 29 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

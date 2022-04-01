@@ -1,6 +1,6 @@
 # Hafnium - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Hafnium](https://vuldb.com/?actor.hafnium). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Hafnium](https://vuldb.com/?actor.hafnium). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.hafnium](https://vuldb.com/?actor.hafnium)
 
@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Hafnium:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hafnium:
 
-* CN
-* US
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -23,13 +23,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 172.105.174.117 | 172-105-174-117.ip.linodeusercontent.com | Hafnium | High
-2 | 182.239.123.241 | 182.239.123.241.hk.chinamobile.com | Hafnium | High
-3 | 182.239.124.180 | 182.239.124.180.hk.chinamobile.com | Hafnium | High
+1 | [172.105.174.117](https://vuldb.com/?ip.172.105.174.117) | 172-105-174-117.ip.linodeusercontent.com | Hafnium | High
+2 | [182.239.123.241](https://vuldb.com/?ip.182.239.123.241) | 182.239.123.241.hk.chinamobile.com | Hafnium | High
+3 | [182.239.124.180](https://vuldb.com/?ip.182.239.124.180) | 182.239.124.180.hk.chinamobile.com | Hafnium | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Hafnium. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Hafnium_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

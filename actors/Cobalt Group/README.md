@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
 * [SV](https://vuldb.com/?country.sv)
+* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,29 +50,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/account/login` | High
 2 | File | `/admin.back` | Medium
-3 | File | `/admin.html?do=user&act=add` | High
-4 | File | `/admin/customers.php?page=1&cID` | High
-5 | File | `/admin/link/link_ok.php` | High
+3 | File | `/admin/customers.php?page=1&cID` | High
+4 | File | `/admin/link/link_ok.php` | High
+5 | File | `/admin/show.php` | High
 6 | File | `/administrator/components/menu/` | High
 7 | File | `/controller/CommentAdminController.java` | High
-8 | File | `/event-management/index.php` | High
-9 | File | `/goform/change_password_process` | High
-10 | File | `/goform/edit_opt` | High
-11 | File | `/goform/SetPptpServerCfg` | High
-12 | File | `/hdf5/src/H5Fint.c` | High
-13 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-14 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-15 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-16 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-17 | File | `/src/njs_object.c` | High
-18 | File | `/template/unzip.do` | High
-19 | File | `/wp-json/wc/v3/webhooks` | High
-20 | File | `AccountManagerService.java` | High
-21 | File | `account_sponsor_page.php` | High
-22 | File | `act.php` | Low
-23 | ... | ... | ...
+8 | File | `/data/sqldata` | High
+9 | File | `/feedback/post/` | High
+10 | File | `/goform/change_password_process` | High
+11 | File | `/goform/edit_opt` | High
+12 | File | `/goform/SetPptpServerCfg` | High
+13 | File | `/hdf5/src/H5Fint.c` | High
+14 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+15 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+16 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+17 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+18 | File | `/setting/NTPSyncWithHost` | High
+19 | File | `/src/njs_object.c` | High
+20 | File | `/template/unzip.do` | High
+21 | File | `/u8sl/WebHelp` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `AccountManagerService.java` | High
+24 | File | `account_sponsor_page.php` | High
+25 | File | `act.php` | Low
+26 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

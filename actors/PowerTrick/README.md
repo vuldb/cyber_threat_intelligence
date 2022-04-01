@@ -1,87 +1,88 @@
 # PowerTrick - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PowerTrick](https://vuldb.com/?actor.powertrick). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [PowerTrick](https://vuldb.com/?actor.powertrick). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.powertrick](https://vuldb.com/?actor.powertrick)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.powertrick](https://vuldb.com/?actor.powertrick)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PowerTrick:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PowerTrick:
 
-* ES
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of PowerTrick.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of PowerTrick.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 5.9.161.246 | static.246.161.9.5.clients.your-server.de | High
-2 | 192.99.38.41 | ns501815.ip-192-99-38.net | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [5.9.161.246](https://vuldb.com/?ip.5.9.161.246) | static.246.161.9.5.clients.your-server.de | - | High
+2 | [192.99.38.41](https://vuldb.com/?ip.192.99.38.41) | ns501815.ip-192-99-38.net | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by PowerTrick. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PowerTrick_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PowerTrick. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PowerTrick. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about-us/locations/index` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/config.php?display=disa&view=form` | High
-4 | File | `/admin/generalsettings.php` | High
-5 | File | `/admin/settings.php` | High
-6 | File | `/admin/user/userdetails/69` | High
-7 | File | `/adminlogin.asp` | High
-8 | File | `/category.php` | High
-9 | File | `/connectors/index.php` | High
-10 | File | `/data/system/users/0/settings_secure.xml` | High
-11 | File | `/etc/waipass` | Medium
-12 | File | `/ext/phar/phar_object.c` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/inc/lists/csvexport.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/search.php` | Medium
-17 | File | `/services/getFile.cmd` | High
-18 | File | `/tools/required/files/importers/imageeditor` | High
-19 | File | `/Upload.ashx` | Medium
-20 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-21 | File | `/var/log/messages` | High
-22 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-23 | File | `/webconsole/Controller` | High
-24 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-25 | File | `/zm/index.php` | High
-26 | File | `acl/save_user.cgi` | High
-27 | File | `adaptive-images-script.php` | High
-28 | File | `admin/auth.php` | High
-29 | File | `admin/blogs.php` | High
-30 | File | `admin/convertutf8/index.php` | High
-31 | File | `admin/inc/template_functions.php` | High
+1 | File | `/admin/` | Low
+2 | File | `/admin/config.php?display=disa&view=form` | High
+3 | File | `/admin/generalsettings.php` | High
+4 | File | `/admin/settings.php` | High
+5 | File | `/admin/user/userdetails/69` | High
+6 | File | `/category.php` | High
+7 | File | `/data/system/users/0/settings_secure.xml` | High
+8 | File | `/etc/waipass` | Medium
+9 | File | `/ext/phar/phar_object.c` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/inc/lists/csvexport.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/phppath/php` | Medium
+14 | File | `/search.php` | Medium
+15 | File | `/services/getFile.cmd` | High
+16 | File | `/tools/required/files/importers/imageeditor` | High
+17 | File | `/Upload.ashx` | Medium
+18 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+19 | File | `/var/log/messages` | High
+20 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+21 | File | `/webconsole/Controller` | High
+22 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+23 | File | `acl/save_user.cgi` | High
+24 | File | `adaptive-images-script.php` | High
+25 | File | `admin/auth.php` | High
+26 | File | `admin/blogs.php` | High
+27 | File | `admin/cgi-bin/listdir.pl` | High
+28 | File | `admin/convertutf8/index.php` | High
+29 | File | `admin/inc/template_functions.php` | High
+30 | File | `admin/settings/update/` | High
+31 | File | `adminuseredit.php?usertoedit=XSS` | High
 32 | ... | ... | ...
 
-There are 268 more IOA items available. Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/SentineLabs/PowerTrick/tree/master/IOCs
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

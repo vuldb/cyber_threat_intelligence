@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -105,11 +105,11 @@ ID | Type | Indicator | Confidence
 27 | File | `ajax_udf.php` | Medium
 28 | File | `AppCompatCache.exe` | High
 29 | File | `application.js.php` | High
-30 | File | `apply.cgi` | Medium
-31 | File | `arm/lithium-codegen-arm.cc` | High
+30 | File | `arm/lithium-codegen-arm.cc` | High
+31 | File | `authenticate.c` | High
 32 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

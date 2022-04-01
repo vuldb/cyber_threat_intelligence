@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [31.210.111.154](https://vuldb.com/?ip.31.210.111.154) | . | BlackEnergy | High
 8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,14 +92,16 @@ ID | Type | Indicator | Confidence
 33 | File | `/wp-json/wc/v3/webhooks` | High
 34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 35 | File | `AccountManagerService.java` | High
-36 | ... | ... | ...
+36 | File | `actions/CompanyDetailsSave.php` | High
+37 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf
 * https://www.threatminer.org/report.php?q=BlackEnergy2_Plugins_Router.pdf&y=2014
 * https://www.welivesecurity.com/2016/01/03/blackenergy-sshbeardoor-details-2015-attacks-ukrainian-news-media-electric-industry/
 * https://www.welivesecurity.com/2016/12/13/rise-telebots-analyzing-disruptive-killdisk-attacks/

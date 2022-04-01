@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,8 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [34.104.35.123](https://vuldb.com/?ip.34.104.35.123) | 123.35.104.34.bc.googleusercontent.com | - | Medium
 16 | [38.132.109.186](https://vuldb.com/?ip.38.132.109.186) | - | - | High
 17 | [41.78.118.2](https://vuldb.com/?ip.41.78.118.2) | - | - | High
-18 | ... | ... | ... | ...
+18 | [41.189.230.12](https://vuldb.com/?ip.41.189.230.12) | - | - | High
+19 | ... | ... | ... | ...
 
 There are 70 more IOC items available. Please use our online service to access the data.
 
@@ -63,53 +64,53 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/account/details.php` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin/user/manage` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/artist-display.php` | High
-9 | File | `/customer_demo/index2.html` | High
-10 | File | `/file?action=download&file` | High
-11 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-12 | File | `/html/includes/graphs/port/mac_acc_total.inc.php` | High
-13 | File | `/inc/subscriber_list.php` | High
-14 | File | `/install/index.php` | High
-15 | File | `/layout/class.xblogcomment.php` | High
-16 | File | `/LEPTON_stable_2.2.2/upload/admins/admintools/tool.php` | High
-17 | File | `/manager/jsp/test.jsp` | High
-18 | File | `/medical/inventories.php` | High
-19 | File | `/monitoring` | Medium
-20 | File | `/plugins/servlet/audit/resource` | High
-21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-22 | File | `/replication` | Medium
-23 | File | `/RestAPI` | Medium
-24 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/speedtest_urls.xml` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/at` | Medium
-29 | File | `/var/log/nginx` | High
-30 | File | `/_vti_pvt/access.cnf` | High
-31 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-32 | File | `admin/e_mesaj_yaz.asp` | High
-33 | File | `admin/mcart_xls_import.php` | High
-34 | File | `admin/profile.php` | High
-35 | File | `admin/salesadmin.php` | High
-36 | File | `admin/systemWebAdminConfig.do` | High
-37 | File | `admin11.cgi` | Medium
-38 | File | `admincp/auth/checklogin.php` | High
-39 | File | `agenda2.php3` | Medium
-40 | File | `ajax-actions.php` | High
-41 | ... | ... | ...
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/user/manage` | High
+5 | File | `/anony/mjpg.cgi` | High
+6 | File | `/artist-display.php` | High
+7 | File | `/customer_demo/index2.html` | High
+8 | File | `/file?action=download&file` | High
+9 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+10 | File | `/html/includes/graphs/port/mac_acc_total.inc.php` | High
+11 | File | `/inc/subscriber_list.php` | High
+12 | File | `/install/index.php` | High
+13 | File | `/layout/class.xblogcomment.php` | High
+14 | File | `/LEPTON_stable_2.2.2/upload/admins/admintools/tool.php` | High
+15 | File | `/manager/jsp/test.jsp` | High
+16 | File | `/medical/inventories.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/plugins/servlet/audit/resource` | High
+19 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/replication` | Medium
+22 | File | `/RestAPI` | Medium
+23 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+24 | File | `/tmp` | Low
+25 | File | `/tmp/speedtest_urls.xml` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/bin/at` | Medium
+28 | File | `/var/log/nginx` | High
+29 | File | `/_vti_pvt/access.cnf` | High
+30 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+31 | File | `admin/e_mesaj_yaz.asp` | High
+32 | File | `admin/mcart_xls_import.php` | High
+33 | File | `admin/profile.php` | High
+34 | File | `admin/salesadmin.php` | High
+35 | File | `admin/systemWebAdminConfig.do` | High
+36 | File | `admin11.cgi` | Medium
+37 | File | `admincp/auth/checklogin.php` | High
+38 | File | `agenda2.php3` | Medium
+39 | File | `ajax-actions.php` | High
+40 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/ManagedGuard/AfricaBlackList/blob/main/MGAfricaIPBlackList.txt
+* https://isc.sans.edu/forums/diary/Hunting+for+Phishing+Sites+Masquerading+as+Outlook+Web+Access/27974/
 
 ## Literature
 

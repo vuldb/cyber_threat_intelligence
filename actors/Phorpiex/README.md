@@ -1,6 +1,6 @@
 # Phorpiex - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Phorpiex](https://vuldb.com/?actor.phorpiex). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Phorpiex](https://vuldb.com/?actor.phorpiex). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.phorpiex](https://vuldb.com/?actor.phorpiex)
 
@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Phorpiex:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phorpiex:
 
-* CN
-* ID
-* US
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ID](https://vuldb.com/?country.id)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,23 +27,28 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 63.251.106.25 | - | - | High
-2 | 72.5.161.12 | - | - | High
-3 | 74.125.155.40 | iad23s82-in-f8.1e100.net | - | High
-4 | 74.125.155.102 | iad23s88-in-f6.1e100.net | - | High
-5 | 74.125.192.94 | qn-in-f94.1e100.net | - | High
-6 | 87.120.37.156 | - | - | High
-7 | 87.120.37.234 | - | - | High
-8 | 87.120.37.235 | main.coloropportunity.net | - | High
-9 | 92.63.197.38 | - | - | High
-10 | 92.63.197.48 | - | - | High
-11 | ... | ... | ... | ...
+1 | [2.61.176.216](https://vuldb.com/?ip.2.61.176.216) | dynamic-2-61-176-216.pppoe.khakasnet.ru | - | High
+2 | [2.184.139.149](https://vuldb.com/?ip.2.184.139.149) | - | - | High
+3 | [5.232.28.65](https://vuldb.com/?ip.5.232.28.65) | - | - | High
+4 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+5 | [20.109.209.108](https://vuldb.com/?ip.20.109.209.108) | - | - | High
+6 | [31.59.189.4](https://vuldb.com/?ip.31.59.189.4) | 31-59-189-4.shatel.ir | - | High
+7 | [37.255.99.93](https://vuldb.com/?ip.37.255.99.93) | - | - | High
+8 | [39.41.234.182](https://vuldb.com/?ip.39.41.234.182) | - | - | High
+9 | [42.248.182.125](https://vuldb.com/?ip.42.248.182.125) | - | - | High
+10 | [42.248.182.234](https://vuldb.com/?ip.42.248.182.234) | - | - | High
+11 | [42.248.183.250](https://vuldb.com/?ip.42.248.183.250) | - | - | High
+12 | [46.70.200.184](https://vuldb.com/?ip.46.70.200.184) | - | - | High
+13 | [46.224.180.246](https://vuldb.com/?ip.46.224.180.246) | - | - | High
+14 | [46.225.106.121](https://vuldb.com/?ip.46.225.106.121) | - | - | High
+15 | [63.251.106.25](https://vuldb.com/?ip.63.251.106.25) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Phorpiex. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Phorpiex_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -52,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,15 +65,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/plugin` | Low
-2 | File | `/services/details.asp` | High
-3 | File | `/way4acs/enroll` | High
-4 | File | `ajax/api/hook/decodeArguments` | High
-5 | File | `breadcrumbs_create.php` | High
-6 | File | `browser.php` | Medium
-7 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/plugin` | Low
+3 | File | `/services/details.asp` | High
+4 | File | `/way4acs/enroll` | High
+5 | File | `ajax/api/hook/decodeArguments` | High
+6 | File | `bin/named/query.c` | High
+7 | File | `blocking.asp` | Medium
+8 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0416-0423.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0430-0507.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
+* https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://research.checkpoint.com/2019/in-the-footsteps-of-a-sextortion-campaign/
 * https://research.checkpoint.com/2019/phorpiex-breakdown/
 * https://research.checkpoint.com/2021/phorpiex-botnet-is-back-with-a-new-twizt-hijacking-hundreds-of-crypto-transactions/

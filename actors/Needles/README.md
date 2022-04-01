@@ -1,35 +1,34 @@
 # Needles - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Needles](https://vuldb.com/?actor.needles). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Needles](https://vuldb.com/?actor.needles). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.needles](https://vuldb.com/?actor.needles)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.needles](https://vuldb.com/?actor.needles)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Needles.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Needles.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 188.241.58.68 | swimta.net | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [188.241.58.68](https://vuldb.com/?ip.188.241.58.68) | swimta.net | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Needles. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Needles_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1499 | Resource Consumption | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=OperationPoisonNeedles-APTGroupAttackedthePolyclinicofthePresidentialAdministrationofRussia,ExploitingaZero-day-360CoreSecurity.pdf&y=2018
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

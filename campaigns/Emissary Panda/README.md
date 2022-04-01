@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Emissary Panda. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Emissary Panda. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -66,7 +66,8 @@ ID | Type | Indicator | Confidence
 12 | File | `adaptmap_reg.c` | High
 13 | File | `admin.cgi` | Medium
 14 | File | `admin.php?action=files` | High
-15 | ... | ... | ...
+15 | File | `app/dialplans/dialplan_detail_edit.php` | High
+16 | ... | ... | ...
 
 There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

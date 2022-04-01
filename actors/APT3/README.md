@@ -76,34 +76,34 @@ ID | Type | Indicator | Confidence
 20 | File | `/password.html` | High
 21 | File | `/proc/ioports` | High
 22 | File | `/property-list/property_view.php` | High
-23 | File | `/rest` | Low
-24 | File | `/rest/api/2/search` | High
-25 | File | `/s/` | Low
-26 | File | `/scripts/cpan_config` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/services/system/setup.json` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/webconsole/APIController` | High
-31 | File | `/websocket/exec` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `/_next` | Low
-35 | File | `4.edu.php\conn\function.php` | High
-36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-37 | File | `adclick.php` | Medium
-38 | File | `addentry.php` | Medium
-39 | File | `addressbook.php` | High
-40 | File | `add_comment.php` | High
-41 | File | `admin/category.inc.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/dl_sendmail.php` | High
-44 | File | `admin/index.php` | High
-45 | File | `admin/languages.php` | High
-46 | File | `admin/password_forgotten.php` | High
-47 | File | `admin/versions.html` | High
+23 | File | `/ptms/classes/Users.php` | High
+24 | File | `/rest` | Low
+25 | File | `/rest/api/2/search` | High
+26 | File | `/s/` | Low
+27 | File | `/scripts/cpan_config` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/services/system/setup.json` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/webconsole/APIController` | High
+32 | File | `/websocket/exec` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `/_next` | Low
+36 | File | `4.edu.php\conn\function.php` | High
+37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+38 | File | `adclick.php` | Medium
+39 | File | `addentry.php` | Medium
+40 | File | `addressbook.php` | High
+41 | File | `add_comment.php` | High
+42 | File | `admin/category.inc.php` | High
+43 | File | `admin/conf_users_edit.php` | High
+44 | File | `admin/dl_sendmail.php` | High
+45 | File | `admin/index.php` | High
+46 | File | `admin/languages.php` | High
+47 | File | `admin/password_forgotten.php` | High
 48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,29 +74,29 @@ ID | Type | Indicator | Confidence
 3 | File | `/api/trackedEntityInstances` | High
 4 | File | `/appliance/users?action=edit` | High
 5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/css/..%2f` | Medium
-7 | File | `/etc/tomcat8/Catalina/attack` | High
-8 | File | `/etc/wpa_supplicant.conf` | High
-9 | File | `/formSetPortTr` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/GetCopiedFile` | High
-12 | File | `/hdf5/src/H5T.c` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-15 | File | `/music/ajax.php` | High
-16 | File | `/opensis/functions/GetStuListFnc.php` | High
-17 | File | `/post/editing` | High
-18 | File | `/product.php` | Medium
-19 | File | `/product_list.php` | High
-20 | File | `/ptms/classes/Users.php` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/RestAPI` | Medium
-23 | File | `/rsms/` | Low
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/userRpm/PingIframeRpm.htm` | High
+6 | File | `/configs/application.ini` | High
+7 | File | `/css/..%2f` | Medium
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/etc/wpa_supplicant.conf` | High
+10 | File | `/formSetPortTr` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/GetCopiedFile` | High
+13 | File | `/hdf5/src/H5T.c` | High
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+16 | File | `/music/ajax.php` | High
+17 | File | `/one_church/churchprofile.php` | High
+18 | File | `/opensis/functions/GetStuListFnc.php` | High
+19 | File | `/post/editing` | High
+20 | File | `/product.php` | Medium
+21 | File | `/product_list.php` | High
+22 | File | `/ptms/classes/Users.php` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/RestAPI` | Medium
+25 | File | `/rsms/` | Low
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

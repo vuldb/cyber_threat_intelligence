@@ -180,29 +180,30 @@ ID | Type | Indicator | Confidence
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
 11 | File | `/dev/dri/card1` | High
 12 | File | `/download` | Medium
-13 | File | `/file?action=download&file` | High
-14 | File | `/goform/setIPv6Status` | High
-15 | File | `/images` | Low
-16 | File | `/include/chart_generator.php` | High
-17 | File | `/InternalPages/ExecuteTask.aspx` | High
-18 | File | `/music/ajax.php` | High
-19 | File | `/pandora_console/ajax.php` | High
-20 | File | `/principals` | Medium
-21 | File | `/public/plugins/` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/system/bin/osi_bin` | High
-26 | File | `/tmp` | Low
-27 | File | `/TMS/admin/setting/mail/createorupdate` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/var/log/nginx` | High
-30 | File | `/web/MCmsAction.java` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `account.php` | Medium
-33 | ... | ... | ...
+13 | File | `/export` | Low
+14 | File | `/file?action=download&file` | High
+15 | File | `/goform/setIPv6Status` | High
+16 | File | `/images` | Low
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/InternalPages/ExecuteTask.aspx` | High
+19 | File | `/music/ajax.php` | High
+20 | File | `/nova/bin/sniffer` | High
+21 | File | `/pandora_console/ajax.php` | High
+22 | File | `/principals` | Medium
+23 | File | `/public/plugins/` | High
+24 | File | `/SASWebReportStudio/logonAndRender.do` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/system/bin/osi_bin` | High
+28 | File | `/tmp` | Low
+29 | File | `/TMS/admin/setting/mail/createorupdate` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/var/log/nginx` | High
+32 | File | `/web/MCmsAction.java` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Russia Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,12 +28,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.32.137.94](https://vuldb.com/?ip.45.32.137.94) | 45.32.137.94.vultrusercontent.com | CVE-2021-34527 | High
-2 | [94.140.112.178](https://vuldb.com/?ip.94.140.112.178) | - | - | High
-3 | [109.68.212.97](https://vuldb.com/?ip.109.68.212.97) | 751051-hvost63465.tmweb.ru | Ukraine Document Management System | High
-4 | ... | ... | ... | ...
+1 | [5.23.52.131](https://vuldb.com/?ip.5.23.52.131) | 418209-ci33127.tmweb.ru | - | High
+2 | [5.45.119.124](https://vuldb.com/?ip.5.45.119.124) | - | - | High
+3 | [5.196.167.184](https://vuldb.com/?ip.5.196.167.184) | ip184.ip-5-196-167.eu | - | High
+4 | [37.139.7.16](https://vuldb.com/?ip.37.139.7.16) | - | - | High
+5 | [45.8.228.49](https://vuldb.com/?ip.45.8.228.49) | - | - | High
+6 | [45.32.137.94](https://vuldb.com/?ip.45.32.137.94) | 45.32.137.94.vultrusercontent.com | CVE-2021-34527 | High
+7 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,32 +59,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/data/wps.setup.json` | High
-3 | File | `/product.php` | Medium
-4 | File | `/Pwrchute` | Medium
-5 | File | `/uncpath/` | Medium
-6 | File | `/WEB-INF/web.xml` | High
-7 | File | `admin/controller/pages/localisation/language.php` | High
-8 | File | `admin/web_config.php` | High
-9 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-10 | File | `admin_add.php` | High
-11 | File | `ajax.php` | Medium
-12 | File | `api/v1/User?filterList` | High
-13 | File | `apply.cgi` | Medium
-14 | File | `arch/powerpc/kernel/traps.c` | High
-15 | File | `avrc_pars_tg.cc` | High
-16 | File | `base/ErrorHandler.php` | High
-17 | File | `bg_console/index.php?m=opt&c=request` | High
-18 | File | `board.php` | Medium
-19 | File | `category_list.php` | High
-20 | File | `cc_guestbook.pl` | High
-21 | ... | ... | ...
+3 | File | `/osm/REGISTER.cmd` | High
+4 | File | `/product.php` | Medium
+5 | File | `/Pwrchute` | Medium
+6 | File | `/uncpath/` | Medium
+7 | File | `/wbg/core/_includes/authorization.inc.php` | High
+8 | File | `/WEB-INF/web.xml` | High
+9 | File | `adm-menu.php` | Medium
+10 | File | `adm-style.php` | High
+11 | File | `admin/admin.shtml` | High
+12 | File | `admin/controller/pages/localisation/language.php` | High
+13 | File | `admin/show.php?rec=update` | High
+14 | File | `admin/web_config.php` | High
+15 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+16 | File | `admin_add.php` | High
+17 | File | `ajax.php` | Medium
+18 | File | `api/v1/User?filterList` | High
+19 | File | `apply.cgi` | Medium
+20 | File | `arch/powerpc/kernel/traps.c` | High
+21 | File | `architext.conf` | High
+22 | File | `attachment_send.php` | High
+23 | File | `avrc_pars_tg.cc` | High
+24 | File | `base/ErrorHandler.php` | High
+25 | File | `bg_console/index.php?m=opt&c=request` | High
+26 | File | `board.php` | Medium
+27 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/
+* https://isc.sans.edu/forums/diary/More+Russian+language+malspam+pushing+Shade+Troldesh+ransomware/24668/
+* https://www.cisa.gov/uscert/ncas/alerts/aa20-296a
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-074a
 * https://www.rnbo.gov.ua/en/Diialnist/4823.html
 * https://www.trellix.com/en-gb/about/newsroom/stories/threat-labs/prime-ministers-office-compromised.html

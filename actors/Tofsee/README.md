@@ -64,22 +64,24 @@ ID | IP address | Hostname | Campaign | Confidence
 41 | [51.81.57.58](https://vuldb.com/?ip.51.81.57.58) | oxsus1lb01p.external.vadesecure.com | - | High
 42 | [51.158.144.223](https://vuldb.com/?ip.51.158.144.223) | 51-158-144-223.rev.poneytelecom.eu | - | High
 43 | [51.178.207.67](https://vuldb.com/?ip.51.178.207.67) | host-35d452a2.hostiman.com | - | High
-44 | [52.73.137.222](https://vuldb.com/?ip.52.73.137.222) | cxr.mx.a.cloudfilter.net | - | High
-45 | [52.101.24.0](https://vuldb.com/?ip.52.101.24.0) | - | - | High
-46 | [52.180.174.216](https://vuldb.com/?ip.52.180.174.216) | - | - | High
-47 | [54.38.220.85](https://vuldb.com/?ip.54.38.220.85) | ns1.emailverification.info | - | High
-48 | [62.141.42.208](https://vuldb.com/?ip.62.141.42.208) | srv21237.dus4.fastwebserver.de | - | High
-49 | [62.204.41.45](https://vuldb.com/?ip.62.204.41.45) | - | - | High
-50 | [62.204.41.46](https://vuldb.com/?ip.62.204.41.46) | - | - | High
-51 | [62.204.41.48](https://vuldb.com/?ip.62.204.41.48) | - | - | High
-52 | [62.204.41.50](https://vuldb.com/?ip.62.204.41.50) | - | - | High
-53 | [64.98.36.4](https://vuldb.com/?ip.64.98.36.4) | mx.b.hostedemail.com | - | High
-54 | [64.136.44.37](https://vuldb.com/?ip.64.136.44.37) | mx.dca.untd.com | - | High
-55 | [64.136.52.37](https://vuldb.com/?ip.64.136.52.37) | mx.vgs.untd.com | - | High
-56 | [64.233.184.26](https://vuldb.com/?ip.64.233.184.26) | wa-in-f26.1e100.net | - | High
-57 | ... | ... | ... | ...
+44 | [52.11.241.224](https://vuldb.com/?ip.52.11.241.224) | ec2-52-11-241-224.us-west-2.compute.amazonaws.com | - | Medium
+45 | [52.73.137.222](https://vuldb.com/?ip.52.73.137.222) | cxr.mx.a.cloudfilter.net | - | High
+46 | [52.101.24.0](https://vuldb.com/?ip.52.101.24.0) | - | - | High
+47 | [52.180.174.216](https://vuldb.com/?ip.52.180.174.216) | - | - | High
+48 | [54.38.220.85](https://vuldb.com/?ip.54.38.220.85) | ns1.emailverification.info | - | High
+49 | [62.42.230.22](https://vuldb.com/?ip.62.42.230.22) | 62.42.230.22.static.user.ono.com | - | High
+50 | [62.141.42.208](https://vuldb.com/?ip.62.141.42.208) | srv21237.dus4.fastwebserver.de | - | High
+51 | [62.204.41.45](https://vuldb.com/?ip.62.204.41.45) | - | - | High
+52 | [62.204.41.46](https://vuldb.com/?ip.62.204.41.46) | - | - | High
+53 | [62.204.41.48](https://vuldb.com/?ip.62.204.41.48) | - | - | High
+54 | [62.204.41.50](https://vuldb.com/?ip.62.204.41.50) | - | - | High
+55 | [63.240.178.216](https://vuldb.com/?ip.63.240.178.216) | - | - | High
+56 | [64.8.71.111](https://vuldb.com/?ip.64.8.71.111) | mx.wowway.com | - | High
+57 | [64.98.36.4](https://vuldb.com/?ip.64.98.36.4) | mx.b.hostedemail.com | - | High
+58 | [64.136.44.37](https://vuldb.com/?ip.64.136.44.37) | mx.dca.untd.com | - | High
+59 | ... | ... | ... | ...
 
-There are 224 more IOC items available. Please use our online service to access the data.
+There are 234 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -144,6 +146,7 @@ There are 320 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/06/threat-roundup-0605-0612.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html

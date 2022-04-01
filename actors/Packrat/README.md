@@ -1,68 +1,68 @@
 # Packrat - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Packrat](https://vuldb.com/?actor.packrat). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Packrat](https://vuldb.com/?actor.packrat). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.packrat](https://vuldb.com/?actor.packrat)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.packrat](https://vuldb.com/?actor.packrat)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Packrat:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Packrat:
 
-* ES
-* CL
-* US
+* [ES](https://vuldb.com/?country.es)
+* [BR](https://vuldb.com/?country.br)
+* [CL](https://vuldb.com/?country.cl)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Packrat.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Packrat.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 46.246.89.246 | joana.homework.space | High
-2 | 50.62.133.49 | ip-50-62-133-49.ip.secureserver.net | High
-3 | 186.220.1.84 | badc0154.virtua.com.br | High
-4 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [46.246.89.246](https://vuldb.com/?ip.46.246.89.246) | joana.homework.space | - | High
+2 | [50.62.133.49](https://vuldb.com/?ip.50.62.133.49) | ip-50-62-133-49.ip.secureserver.net | - | High
+3 | [186.220.1.84](https://vuldb.com/?ip.186.220.1.84) | badc0154.virtua.com.br | - | High
+4 | ... | ... | ... | ...
 
 There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Packrat. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Packrat_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
+4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Packrat. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Packrat. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `api/sms_check.php` | High
-2 | File | `chmextract.c` | Medium
-3 | File | `inc/filebrowser/browser.php` | High
+2 | File | `avahi-core/socket.c` | High
+3 | File | `chmextract.c` | Medium
 4 | ... | ... | ...
 
-There are 9 more IOA items available. Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=Packrat-SevenYearsofaSouthAmericanThreatActor-CitizenLab.pdf&y=2015
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

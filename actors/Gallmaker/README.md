@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gallmaker:
 
-* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -23,7 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Gallmaker. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Gallmaker_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -41,12 +41,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `application/modules/admin/views/ecommerce/products.php` | High
-2 | File | `blog.php` | Medium
-3 | File | `c4t64fx.c` | Medium
-4 | File | `cgi-bin/webcm` | High
+2 | File | `base/ErrorHandler.php` | High
+3 | File | `blog.php` | Medium
+4 | File | `c4t64fx.c` | Medium
 5 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

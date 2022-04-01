@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,13 +31,18 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [34.93.247.126](https://vuldb.com/?ip.34.93.247.126) | 126.247.93.34.bc.googleusercontent.com | SysUpdate | Medium
 3 | [35.187.148.253](https://vuldb.com/?ip.35.187.148.253) | 253.148.187.35.bc.googleusercontent.com | SysUpdate | Medium
 4 | [35.220.135.85](https://vuldb.com/?ip.35.220.135.85) | 85.135.220.35.bc.googleusercontent.com | SysUpdate | Medium
-5 | ... | ... | ... | ...
+5 | [45.77.250.141](https://vuldb.com/?ip.45.77.250.141) | 45.77.250.141.vultr.com | - | Medium
+6 | [45.142.214.188](https://vuldb.com/?ip.45.142.214.188) | vm309132.pq.hosting | SysUpdate | High
+7 | [47.75.49.32](https://vuldb.com/?ip.47.75.49.32) | - | SysUpdate | High
+8 | [49.143.192.221](https://vuldb.com/?ip.49.143.192.221) | - | - | High
+9 | [49.143.205.30](https://vuldb.com/?ip.49.143.205.30) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by APT27. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _APT27_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -46,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,28 +61,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/cgi-bin/live_api.cgi` | High
-3 | File | `/config/getuser` | High
-4 | File | `/etc/shadow` | Medium
-5 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-6 | File | `/oscommerce/admin/currencies.php` | High
-7 | File | `/proc/pid/syscall` | High
-8 | File | `/rapi/read_url` | High
-9 | File | `/session/list/allActiveSession` | High
-10 | File | `/syslog_rules` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/upload` | Low
-13 | File | `/users/{id}` | Medium
-14 | File | `/video` | Low
-15 | File | `ActivityManagerService.java` | High
-16 | File | `adaptmap_reg.c` | High
-17 | File | `admin.cgi` | Medium
-18 | File | `admin.php` | Medium
-19 | File | `admin.php?action=files` | High
-20 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-21 | File | `album_portal.php` | High
-22 | ... | ... | ...
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/config/getuser` | High
+5 | File | `/etc/ajenti/config.yml` | High
+6 | File | `/etc/shadow` | Medium
+7 | File | `/goform/telnet` | High
+8 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/oscommerce/admin/currencies.php` | High
+11 | File | `/proc/pid/syscall` | High
+12 | File | `/rapi/read_url` | High
+13 | File | `/rom-0` | Low
+14 | File | `/session/list/allActiveSession` | High
+15 | File | `/syslog_rules` | High
+16 | File | `/tmp/phpglibccheck` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/upload` | Low
+19 | File | `/users/{id}` | Medium
+20 | File | `/var/tmp/sess_*` | High
+21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+22 | File | `/video` | Low
+23 | File | `actionphp/download.File.php` | High
+24 | File | `ActivityManagerService.java` | High
+25 | File | `adaptmap_reg.c` | High
+26 | File | `add_comment.php` | High
+27 | File | `admin.cgi` | Medium
+28 | File | `admin.php` | Medium
+29 | File | `admin.php?action=files` | High
+30 | File | `admin/admin.php` | High
+31 | File | `admin/content.php` | High
+32 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+33 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+34 | File | `affich.php` | Medium
+35 | File | `agent/Core/Controller/SendRequest.cpp` | High
+36 | File | `album_portal.php` | High
+37 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,6 +106,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Emissary_Panda_APT27/HvS_APT27_2021-10_IOCs.csv
 * https://unit42.paloaltonetworks.com/emissary-panda-attacks-middle-east-government-sharepoint-servers/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.04.09/Iron%20Tiger.pdf
+* https://www.secureworks.com/research/threat-group-3390-targets-organizations-for-cyberespionage
 * https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
 
 ## Literature

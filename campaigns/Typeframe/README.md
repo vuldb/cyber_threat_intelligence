@@ -18,6 +18,7 @@ These _actors_ are associated with Typeframe or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [Typeframe](https://vuldb.com/?actor.typeframe) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +26,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [59.90.93.97](https://vuldb.com/?ip.59.90.93.97) | static.bb.knl.59.90.93.97.bsnl.in | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [80.91.118.45](https://vuldb.com/?ip.80.91.118.45) | ip-80-91-118-45.net.abissnet.al | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-3 | [184.107.209.2](https://vuldb.com/?ip.184.107.209.2) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+1 | [59.90.93.97](https://vuldb.com/?ip.59.90.93.97) | static.bb.knl.59.90.93.97.bsnl.in | [Typeframe](https://vuldb.com/?actor.typeframe) | High
+2 | [80.91.118.45](https://vuldb.com/?ip.80.91.118.45) | ip-80-91-118-45.net.abissnet.al | [Typeframe](https://vuldb.com/?actor.typeframe) | High
+3 | [81.0.213.173](https://vuldb.com/?ip.81.0.213.173) | nemoshopru.cms.cz | [Typeframe](https://vuldb.com/?actor.typeframe) | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,6 +62,7 @@ There are 26 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR18-165A
+* https://www.cisa.gov/uscert/ncas/analysis-reports/AR18-165A
 
 ## Literature
 

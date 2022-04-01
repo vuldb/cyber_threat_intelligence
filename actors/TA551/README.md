@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with TA551:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [CF](https://vuldb.com/?country.cf)
 * [US](https://vuldb.com/?country.us)
+* [CF](https://vuldb.com/?country.cf)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,13 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | Hancitor | High
 6 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | Hancitor | High
 7 | [43.133.160.144](https://vuldb.com/?ip.43.133.160.144) | - | Hancitor | High
-8 | ... | ... | ... | ...
+8 | [45.89.67.166](https://vuldb.com/?ip.45.89.67.166) | srbtv.ru | - | High
+9 | [45.95.11.151](https://vuldb.com/?ip.45.95.11.151) | vm220095.pq.hosting | - | High
+10 | [45.95.11.153](https://vuldb.com/?ip.45.95.11.153) | vm284420.pq.hosting | - | High
+11 | [45.95.11.154](https://vuldb.com/?ip.45.95.11.154) | 4ser-1640356836.4server.su | - | High
+12 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,18 +61,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/postfix/sender_login` | High
-2 | File | `/find_v2/_click` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/goform/openSchedWifi` | High
-5 | File | `/includes/lib/tree.php` | High
-6 | File | `/objects/getImage.php` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `admin/getparam.cgi` | High
-10 | ... | ... | ...
+1 | File | `/cgi-bin/hi3510/param.cgi` | High
+2 | File | `/etc/postfix/sender_login` | High
+3 | File | `/find_v2/_click` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/openSchedWifi` | High
+6 | File | `/includes/lib/tree.php` | High
+7 | File | `/objects/getImage.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/usr/bin/at` | Medium
+10 | File | `adclick.php` | Medium
+11 | File | `admin/conf_users_edit.php` | High
+12 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +82,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://isc.sans.edu/diary/28092
 * https://isc.sans.edu/diary/rss/27738
+* https://isc.sans.edu/forums/diary/More+TA551+Shathak+Word+docs+push+IcedID+Bokbot/26674/
+* https://isc.sans.edu/forums/diary/TA551+Shathak+Word+docs+push+IcedID+Bokbot/26438/
 * https://www.malware-traffic-analysis.net/2021/09/14/index.html
 
 ## Literature

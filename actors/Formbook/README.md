@@ -36,22 +36,23 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
 8 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
 9 | [23.227.38.74](https://vuldb.com/?ip.23.227.38.74) | - | - | High
-10 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
-11 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-12 | [34.214.40.214](https://vuldb.com/?ip.34.214.40.214) | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | - | Medium
-13 | [34.216.47.14](https://vuldb.com/?ip.34.216.47.14) | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | - | Medium
-14 | [34.242.63.192](https://vuldb.com/?ip.34.242.63.192) | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | - | Medium
-15 | [34.243.160.251](https://vuldb.com/?ip.34.243.160.251) | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | - | Medium
-16 | [34.255.61.59](https://vuldb.com/?ip.34.255.61.59) | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | - | Medium
-17 | [35.178.125.63](https://vuldb.com/?ip.35.178.125.63) | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | - | Medium
-18 | [40.77.18.167](https://vuldb.com/?ip.40.77.18.167) | - | - | High
-19 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
-20 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
-21 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
-22 | [45.135.229.212](https://vuldb.com/?ip.45.135.229.212) | iad.scarletshark.net | - | High
-23 | ... | ... | ... | ...
+10 | [23.235.199.50](https://vuldb.com/?ip.23.235.199.50) | - | - | High
+11 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
+12 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+13 | [34.214.40.214](https://vuldb.com/?ip.34.214.40.214) | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | - | Medium
+14 | [34.216.47.14](https://vuldb.com/?ip.34.216.47.14) | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | - | Medium
+15 | [34.242.63.192](https://vuldb.com/?ip.34.242.63.192) | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | - | Medium
+16 | [34.243.160.251](https://vuldb.com/?ip.34.243.160.251) | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | - | Medium
+17 | [34.255.61.59](https://vuldb.com/?ip.34.255.61.59) | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | - | Medium
+18 | [35.178.125.63](https://vuldb.com/?ip.35.178.125.63) | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | - | Medium
+19 | [40.77.18.167](https://vuldb.com/?ip.40.77.18.167) | - | - | High
+20 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
+21 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
+22 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
+23 | [45.135.229.212](https://vuldb.com/?ip.45.135.229.212) | iad.scarletshark.net | - | High
+24 | ... | ... | ... | ...
 
-There are 86 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,7 +87,7 @@ ID | Type | Indicator | Confidence
 12 | File | `admin/admin.shtml` | High
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0813-0820.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
+* https://isc.sans.edu/forums/diary/Excel+spreasheet+macro+kicks+off+Formbook+infection/26332/
 
 ## Literature
 

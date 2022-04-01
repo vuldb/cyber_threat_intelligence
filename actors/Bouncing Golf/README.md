@@ -1,6 +1,6 @@
 # Bouncing Golf - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Bouncing Golf](https://vuldb.com/?actor.bouncing_golf). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Bouncing Golf](https://vuldb.com/?actor.bouncing_golf). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bouncing_golf](https://vuldb.com/?actor.bouncing_golf)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bouncing Golf:
 
-* US
-* FR
-* GB
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 54.38.51.159 | - | - | High
-2 | 82.211.31.181 | - | - | High
-3 | 84.234.96.167 | eronn.erivermle.com | - | High
+1 | [54.38.51.159](https://vuldb.com/?ip.54.38.51.159) | - | - | High
+2 | [82.211.31.181](https://vuldb.com/?ip.82.211.31.181) | - | - | High
+3 | [84.234.96.167](https://vuldb.com/?ip.84.234.96.167) | eronn.erivermle.com | - | High
 4 | ... | ... | ... | ...
 
 There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Bouncing Golf. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bouncing Golf_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,24 +55,24 @@ ID | Type | Indicator | Confidence
 6 | File | `/forum/away.php` | High
 7 | File | `/get_getnetworkconf.cgi` | High
 8 | File | `/horde/util/go.php` | High
-9 | File | `/new` | Low
-10 | File | `/show_news.php` | High
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-14 | File | `/ViewUserHover.jspa` | High
-15 | File | `AccountStatus.jsp` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add.php` | Low
-18 | File | `admin/systemOutOfBand.do` | High
-19 | File | `app/application.cpp` | High
-20 | File | `auth-gss2.c` | Medium
-21 | File | `authent.php4` | Medium
-22 | File | `base_maintenance.php` | High
-23 | File | `boardrule.php` | High
+9 | File | `/mobile_seal/get_seal.php` | High
+10 | File | `/new` | Low
+11 | File | `/nova/bin/detnet` | High
+12 | File | `/show_news.php` | High
+13 | File | `/tmp` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+16 | File | `/ViewUserHover.jspa` | High
+17 | File | `AccountStatus.jsp` | High
+18 | File | `adclick.php` | Medium
+19 | File | `add.php` | Low
+20 | File | `admin/systemOutOfBand.do` | High
+21 | File | `app/application.cpp` | High
+22 | File | `auth-gss2.c` | Medium
+23 | File | `authent.php4` | Medium
 24 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

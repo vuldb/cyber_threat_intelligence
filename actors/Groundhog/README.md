@@ -1,6 +1,6 @@
 # Groundhog - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Groundhog](https://vuldb.com/?actor.groundhog). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Groundhog](https://vuldb.com/?actor.groundhog). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.groundhog](https://vuldb.com/?actor.groundhog)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Groundhog:
 
-* US
-* CN
-* RU
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 24 more country items available. Please use our online service to access the data.
@@ -21,41 +21,41 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 1.93.16.186 | - | - | High
-2 | 1.93.18.99 | - | - | High
-3 | 1.93.60.81 | - | - | High
-4 | 1.93.62.132 | - | - | High
-5 | 8.8.4.4 | dns.google | - | High
-6 | 8.23.224.120 | dynupdate.no-ip.com | - | High
-7 | 14.17.93.147 | - | - | High
-8 | 14.19.222.76 | - | - | High
-9 | 23.234.28.5 | - | - | High
-10 | 23.234.41.199 | - | - | High
-11 | 23.234.41.219 | - | - | High
-12 | 23.234.43.134 | - | - | High
-13 | 23.234.60.140 | - | - | High
-14 | 23.252.162.178 | - | - | High
-15 | 23.252.164.225 | - | - | High
-16 | 27.152.183.116 | - | - | High
-17 | 36.251.136.189 | - | - | High
-18 | 37.59.210.99 | - | - | High
-19 | 43.225.59.7 | - | - | High
-20 | 43.240.51.113 | - | - | High
-21 | 46.229.169.89 | - | - | High
-22 | 58.64.187.29 | - | - | High
-23 | 58.218.213.237 | - | - | High
-24 | 58.221.35.5 | - | - | High
-25 | 58.221.45.242 | - | - | High
-26 | 59.56.64.169 | - | - | High
-27 | 59.188.86.215 | - | - | High
-28 | 59.188.86.222 | - | - | High
+1 | [1.93.16.186](https://vuldb.com/?ip.1.93.16.186) | - | - | High
+2 | [1.93.18.99](https://vuldb.com/?ip.1.93.18.99) | - | - | High
+3 | [1.93.60.81](https://vuldb.com/?ip.1.93.60.81) | - | - | High
+4 | [1.93.62.132](https://vuldb.com/?ip.1.93.62.132) | - | - | High
+5 | [8.8.4.4](https://vuldb.com/?ip.8.8.4.4) | dns.google | - | High
+6 | [8.23.224.120](https://vuldb.com/?ip.8.23.224.120) | dynupdate.no-ip.com | - | High
+7 | [14.17.93.147](https://vuldb.com/?ip.14.17.93.147) | - | - | High
+8 | [14.19.222.76](https://vuldb.com/?ip.14.19.222.76) | - | - | High
+9 | [23.234.28.5](https://vuldb.com/?ip.23.234.28.5) | - | - | High
+10 | [23.234.41.199](https://vuldb.com/?ip.23.234.41.199) | - | - | High
+11 | [23.234.41.219](https://vuldb.com/?ip.23.234.41.219) | - | - | High
+12 | [23.234.43.134](https://vuldb.com/?ip.23.234.43.134) | - | - | High
+13 | [23.234.60.140](https://vuldb.com/?ip.23.234.60.140) | - | - | High
+14 | [23.252.162.178](https://vuldb.com/?ip.23.252.162.178) | - | - | High
+15 | [23.252.164.225](https://vuldb.com/?ip.23.252.164.225) | - | - | High
+16 | [27.152.183.116](https://vuldb.com/?ip.27.152.183.116) | - | - | High
+17 | [36.251.136.189](https://vuldb.com/?ip.36.251.136.189) | - | - | High
+18 | [37.59.210.99](https://vuldb.com/?ip.37.59.210.99) | - | - | High
+19 | [43.225.59.7](https://vuldb.com/?ip.43.225.59.7) | - | - | High
+20 | [43.240.51.113](https://vuldb.com/?ip.43.240.51.113) | - | - | High
+21 | [46.229.169.89](https://vuldb.com/?ip.46.229.169.89) | - | - | High
+22 | [58.64.187.29](https://vuldb.com/?ip.58.64.187.29) | - | - | High
+23 | [58.218.213.237](https://vuldb.com/?ip.58.218.213.237) | - | - | High
+24 | [58.221.35.5](https://vuldb.com/?ip.58.221.35.5) | - | - | High
+25 | [58.221.45.242](https://vuldb.com/?ip.58.221.45.242) | - | - | High
+26 | [59.56.64.169](https://vuldb.com/?ip.59.56.64.169) | - | - | High
+27 | [59.188.86.215](https://vuldb.com/?ip.59.188.86.215) | - | - | High
+28 | [59.188.86.222](https://vuldb.com/?ip.59.188.86.222) | - | - | High
 29 | ... | ... | ... | ...
 
 There are 113 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Groundhog. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Groundhog_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -98,30 +98,31 @@ ID | Type | Indicator | Confidence
 24 | File | `/password.html` | High
 25 | File | `/proc/ioports` | High
 26 | File | `/property-list/property_view.php` | High
-27 | File | `/rest` | Low
-28 | File | `/rest/api/2/search` | High
-29 | File | `/rom-0` | Low
-30 | File | `/s/` | Low
-31 | File | `/scripts/cpan_config` | High
-32 | File | `/services/system/setup.json` | High
-33 | File | `/setSystemAdmin` | High
-34 | File | `/ucms/index.php?do=list_edit` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/webconsole/APIController` | High
-37 | File | `/websocket/exec` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-json/oembed/1.0/embed?url` | High
-40 | File | `/_next` | Low
-41 | File | `4.edu.php\conn\function.php` | High
-42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-43 | File | `actions/beats_uploader.php` | High
-44 | File | `adclick.php` | Medium
-45 | File | `addentry.php` | Medium
-46 | File | `admin/admin.php` | High
-47 | File | `admin/category.inc.php` | High
-48 | ... | ... | ...
+27 | File | `/ptms/classes/Users.php` | High
+28 | File | `/rest` | Low
+29 | File | `/rest/api/2/search` | High
+30 | File | `/rom-0` | Low
+31 | File | `/s/` | Low
+32 | File | `/scripts/cpan_config` | High
+33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+34 | File | `/services/system/setup.json` | High
+35 | File | `/setSystemAdmin` | High
+36 | File | `/ucms/index.php?do=list_edit` | High
+37 | File | `/uncpath/` | Medium
+38 | File | `/webconsole/APIController` | High
+39 | File | `/websocket/exec` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `/wp-json/oembed/1.0/embed?url` | High
+42 | File | `/_next` | Low
+43 | File | `4.edu.php\conn\function.php` | High
+44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+45 | File | `actions/beats_uploader.php` | High
+46 | File | `adclick.php` | Medium
+47 | File | `addentry.php` | Medium
+48 | File | `admin/admin.php` | High
+49 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

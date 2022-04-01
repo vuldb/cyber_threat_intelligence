@@ -1,39 +1,39 @@
 # Corkow - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Corkow](https://vuldb.com/?actor.corkow). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Corkow](https://vuldb.com/?actor.corkow). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.corkow](https://vuldb.com/?actor.corkow)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.corkow](https://vuldb.com/?actor.corkow)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Corkow.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Corkow.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 1.17.6.4 | - | High
-2 | 3.8.9.6 | ec2-3-8-9-6.eu-west-2.compute.amazonaws.com | Medium
-3 | 4.1.0.1 | - | High
-4 | 4.3.1.2 | - | High
-5 | 4.3.9.1 | - | High
-6 | 4.3.9.5 | - | High
-7 | 4.3.9.7 | - | High
-8 | 4.3.9.8 | - | High
-9 | 4.4.7.1 | lag-32-1065-99.ear3.Chicago2.Level3.net | High
-10 | 4.4.7.2 | ANDERSEN-CO.ear3.Chicago2.Level3.net | High
-11 | 4.4.7.7 | - | High
-12 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [1.17.6.4](https://vuldb.com/?ip.1.17.6.4) | - | - | High
+2 | [3.8.9.6](https://vuldb.com/?ip.3.8.9.6) | ec2-3-8-9-6.eu-west-2.compute.amazonaws.com | - | Medium
+3 | [4.1.0.1](https://vuldb.com/?ip.4.1.0.1) | - | - | High
+4 | [4.3.1.2](https://vuldb.com/?ip.4.3.1.2) | - | - | High
+5 | [4.3.9.1](https://vuldb.com/?ip.4.3.9.1) | - | - | High
+6 | [4.3.9.5](https://vuldb.com/?ip.4.3.9.5) | - | - | High
+7 | [4.3.9.7](https://vuldb.com/?ip.4.3.9.7) | - | - | High
+8 | [4.3.9.8](https://vuldb.com/?ip.4.3.9.8) | - | - | High
+9 | [4.4.7.1](https://vuldb.com/?ip.4.4.7.1) | lag-32-1065-99.ear3.Chicago2.Level3.net | - | High
+10 | [4.4.7.2](https://vuldb.com/?ip.4.4.7.2) | ANDERSEN-CO.ear3.Chicago2.Level3.net | - | High
+11 | [4.4.7.7](https://vuldb.com/?ip.4.4.7.7) | - | - | High
+12 | ... | ... | ... | ...
 
 There are 45 more IOC items available. Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/#apt_report_19
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

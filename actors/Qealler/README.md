@@ -1,6 +1,6 @@
 # Qealler - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Qealler](https://vuldb.com/?actor.qealler). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Qealler](https://vuldb.com/?actor.qealler). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.qealler](https://vuldb.com/?actor.qealler)
 
@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Qealler:
 
-* US
-* RU
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 139.59.76.44 | server1.agorimtech.com | - | High
-2 | 146.185.139.123 | - | - | High
+1 | [139.59.76.44](https://vuldb.com/?ip.139.59.76.44) | server1.agorimtech.com | - | High
+2 | [146.185.139.123](https://vuldb.com/?ip.146.185.139.123) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Qealler. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Qealler_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

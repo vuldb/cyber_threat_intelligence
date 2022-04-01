@@ -1,27 +1,27 @@
 # Nitro - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nitro](https://vuldb.com/?actor.nitro). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Nitro](https://vuldb.com/?actor.nitro). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.nitro](https://vuldb.com/?actor.nitro)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.nitro](https://vuldb.com/?actor.nitro)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Nitro.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Nitro.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 196.45.144.12 | - | High
-2 | 223.25.233.248 | - | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [196.45.144.12](https://vuldb.com/?ip.196.45.144.12) | - | - | High
+2 | [223.25.233.248](https://vuldb.com/?ip.223.25.233.248) | - | - | High
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=PAN_Nitro.pdf&y=2014
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

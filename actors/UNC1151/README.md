@@ -32,7 +32,7 @@ There are 1 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by UNC1151. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _UNC1151_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -54,7 +54,7 @@ ID | Type | Indicator | Confidence
 3 | File | `net/unix/af_unix.c` | High
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

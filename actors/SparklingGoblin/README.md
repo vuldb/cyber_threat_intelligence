@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with SparklingGoblin:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SparklingGoblin:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
 
 ## IOC - Indicator of Compromise
@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _SparklingGoblin_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SparklingGoblin_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

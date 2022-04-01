@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [KP](https://vuldb.com/?country.kp)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Ramnit](https://vuldb.com/?actor.ramnit) | High
 2 | [Amadey Bot](https://vuldb.com/?actor.amadey_bot) | High
+3 | [Azorult](https://vuldb.com/?actor.azorult) | High
 
 ## IOC - Indicator of Compromise
 
@@ -35,16 +36,20 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [93.189.44.143](https://vuldb.com/?ip.93.189.44.143) | - | [Ramnit](https://vuldb.com/?actor.ramnit) | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Azorult. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Azorult. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,15 +60,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
 3 | File | `/uncpath/` | Medium
-4 | ... | ... | ...
+4 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+5 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blogs.blackberry.com/en/2020/01/threat-spotlight-amadey-bot
+* https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/
 
 ## Literature

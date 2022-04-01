@@ -78,13 +78,13 @@ ID | Type | Indicator | Confidence
 29 | File | `addentry.php` | Medium
 30 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 31 | File | `admin/index.php` | High
-32 | File | `admin/login.php` | High
-33 | File | `admins.js` | Medium
-34 | File | `admin\model\catalog\download.php` | High
-35 | File | `apcupsd.pid` | Medium
+32 | File | `admins.js` | Medium
+33 | File | `admin\model\catalog\download.php` | High
+34 | File | `apcupsd.pid` | Medium
+35 | File | `api/sms/send-sms` | High
 36 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

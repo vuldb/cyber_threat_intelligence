@@ -1,6 +1,6 @@
 # Zloader - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zloader](https://vuldb.com/?actor.zloader). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Zloader](https://vuldb.com/?actor.zloader). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zloader](https://vuldb.com/?actor.zloader)
 
@@ -14,7 +14,12 @@ The following _campaigns_ are known and can be associated with Zloader:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zloader:
 
-* JP
+* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,21 +27,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 185.191.34.209 | - | Microsoft Signature Verification | High
-2 | 185.191.34.223 | - | Microsoft Signature Verification | High
+1 | [31.3.135.232](https://vuldb.com/?ip.31.3.135.232) | mirror.tillo.ch | - | High
+2 | [37.228.151.133](https://vuldb.com/?ip.37.228.151.133) | - | - | High
+3 | [45.63.25.55](https://vuldb.com/?ip.45.63.25.55) | 45.63.25.55.vultr.com | - | Medium
+4 | [51.83.216.232](https://vuldb.com/?ip.51.83.216.232) | a1c.s.cuk.pl | - | High
+5 | ... | ... | ... | ...
+
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Zloader. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Zloader_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-400, CWE-404 | Resource Consumption | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+3 | T1548.002 | CWE-285 | Improper Authorization | High
 
 ## IOA - Indicator of Attack
 
@@ -45,16 +52,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/team` | High
-2 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-3 | File | `dbutil_2_3.sys` | High
-4 | ... | ... | ...
+2 | File | `authent.php4` | Medium
+3 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+4 | File | `catalog.asp` | Medium
+5 | File | `controllers/Weixin.php` | High
+6 | File | `dapur/index.php` | High
+7 | File | `dbutil_2_3.sys` | High
+8 | File | `details.php` | Medium
+9 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.blackberry.com/en/2017/12/threat-spotlight-terdot-a-zloader-malicious-downloader
+* https://isc.sans.edu/forums/diary/German+malspam+pushes+ZLoader+malware/25996/
+* https://isc.sans.edu/forums/diary/Job+applicationthemed+malspam+pushes+ZLoader/26222/
+* https://isc.sans.edu/forums/diary/Polish+malspam+pushes+ZLoader+malware/26196/
 * https://research.checkpoint.com/2022/can-you-trust-a-files-digital-signature-new-zloader-campaign-exploits-microsofts-signature-verification-putting-users-at-risk/
 
 ## Literature

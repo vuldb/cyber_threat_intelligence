@@ -42,7 +42,7 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [37.0.11.8](https://vuldb.com/?ip.37.0.11.8) | - | - | High
 24 | ... | ... | ... | ...
 
-There are 93 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,6 +82,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0225-0304.html
+* https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 
 ## Literature
 

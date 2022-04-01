@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _PyXie_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PyXie_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -41,7 +41,7 @@ ID | Type | Indicator | Confidence
 3 | File | `Forms/tools_admin_1` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

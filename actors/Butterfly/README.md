@@ -1,49 +1,49 @@
 # Butterfly - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Butterfly](https://vuldb.com/?actor.butterfly). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Butterfly](https://vuldb.com/?actor.butterfly). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.butterfly](https://vuldb.com/?actor.butterfly)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.butterfly](https://vuldb.com/?actor.butterfly)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Butterfly:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Butterfly:
 
-* NL
-* US
-* DE
+* [NL](https://vuldb.com/?country.nl)
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Butterfly.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Butterfly.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 46.165.237.75 | - | High
-2 | 46.183.217.132 | skalli.pereformed.com | High
-3 | 178.162.197.9 | - | High
-4 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [46.165.237.75](https://vuldb.com/?ip.46.165.237.75) | - | - | High
+2 | [46.183.217.132](https://vuldb.com/?ip.46.183.217.132) | skalli.pereformed.com | - | High
+3 | [178.162.197.9](https://vuldb.com/?ip.178.162.197.9) | - | - | High
+4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Butterfly. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Butterfly_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
-2 | T1068 | Execution with Unnecessary Privileges | High
-3 | T1211 | 7PK Security Features | High
-4 | ... | ... | ...
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
+4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Butterfly. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Butterfly. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -61,19 +61,20 @@ ID | Type | Indicator | Confidence
 12 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
 13 | File | `auth-gss2.c` | Medium
 14 | File | `bin/jp2/convert.c` | High
-15 | ... | ... | ...
+15 | File | `books.php` | Medium
+16 | ... | ... | ...
 
-There are 123 more IOA items available. Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=butterfly-corporate-spies-out-for-financial-gain.pdf&y=2015
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

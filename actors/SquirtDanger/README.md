@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 34 | File | `actions/CompanyDetailsSave.php` | High
 35 | File | `ActiveServices.java` | High
 36 | File | `ActivityManagerService.java` | High
-37 | File | `adclick.php` | Medium
-38 | ... | ... | ...
+37 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

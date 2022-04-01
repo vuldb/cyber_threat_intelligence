@@ -75,42 +75,42 @@ ID | Type | Indicator | Confidence
 20 | File | `/login.cgi?logout=1` | High
 21 | File | `/Login.do` | Medium
 22 | File | `/mifs/c/i/reg/reg.html` | High
-23 | File | `/pages.php` | Medium
-24 | File | `/pages/items` | Medium
-25 | File | `/proc/iomem` | Medium
-26 | File | `/profile/deleteWatch.do` | High
-27 | File | `/show_news.php` | High
-28 | File | `/status.js` | Medium
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-32 | File | `/usr/local/ssl/openssl.cnf` | High
-33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-34 | File | `/var/log/nginx` | High
-35 | File | `/wp-admin` | Medium
-36 | File | `/xampp/guestbook-en.pl` | High
-37 | File | `abook_database.php` | High
-38 | File | `AccountStatus.jsp` | High
-39 | File | `action/usermanager.htm` | High
-40 | File | `add.php` | Low
-41 | File | `add_comment.php` | High
-42 | File | `admin.cgi?action=config_restore` | High
-43 | File | `admin.php3` | Medium
-44 | File | `admin/add-news.php` | High
-45 | File | `admin/ajax/op_kandidat.php` | High
-46 | File | `admin/gv_mail.php` | High
-47 | File | `admin/manage-articles.php` | High
-48 | File | `admin/manage-departments.php` | High
-49 | File | `admin/systemOutOfBand.do` | High
-50 | File | `ajax.php` | Medium
-51 | File | `and/or` | Low
-52 | File | `Annot.cc` | Medium
-53 | File | `aoutx.h` | Low
-54 | File | `app/application.cpp` | High
-55 | File | `apply.cgi` | Medium
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/pages.php` | Medium
+25 | File | `/pages/items` | Medium
+26 | File | `/proc/iomem` | Medium
+27 | File | `/profile/deleteWatch.do` | High
+28 | File | `/show_news.php` | High
+29 | File | `/status.js` | Medium
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
+32 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+33 | File | `/usr/local/ssl/openssl.cnf` | High
+34 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+35 | File | `/var/log/nginx` | High
+36 | File | `/wp-admin` | Medium
+37 | File | `/xampp/guestbook-en.pl` | High
+38 | File | `abook_database.php` | High
+39 | File | `AccountStatus.jsp` | High
+40 | File | `action/usermanager.htm` | High
+41 | File | `add.php` | Low
+42 | File | `add_comment.php` | High
+43 | File | `admin.cgi?action=config_restore` | High
+44 | File | `admin.php3` | Medium
+45 | File | `admin/add-news.php` | High
+46 | File | `admin/ajax/op_kandidat.php` | High
+47 | File | `admin/gv_mail.php` | High
+48 | File | `admin/manage-articles.php` | High
+49 | File | `admin/manage-departments.php` | High
+50 | File | `admin/systemOutOfBand.do` | High
+51 | File | `ajax.php` | Medium
+52 | File | `and/or` | Low
+53 | File | `Annot.cc` | Medium
+54 | File | `aoutx.h` | Low
+55 | File | `app/application.cpp` | High
 56 | ... | ... | ...
 
-There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

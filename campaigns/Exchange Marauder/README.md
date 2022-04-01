@@ -58,12 +58,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/filemanager/upload.php` | High
 2 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
 3 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-4 | File | `api_poller.php` | High
-5 | File | `application/controllers/admin/dataentry.php` | High
-6 | File | `cmd.php?cmd=login_form` | High
+4 | File | `admin/modules/tools/ip_history_logs.php` | High
+5 | File | `api_poller.php` | High
+6 | File | `application/controllers/admin/dataentry.php` | High
 7 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

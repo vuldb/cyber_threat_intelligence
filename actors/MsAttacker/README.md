@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MsAttacker:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ There are 1 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by MsAttacker. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MsAttacker_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

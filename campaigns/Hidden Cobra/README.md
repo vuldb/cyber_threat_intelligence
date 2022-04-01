@@ -177,14 +177,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/catcompany.php` | High
-2 | File | `/config/netconf.cmd` | High
-3 | File | `/export` | Low
-4 | File | `/forgetpassword.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/graphStatus/displayServiceStatus.php` | High
-7 | File | `/inc/HTTPClient.php` | High
-8 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+1 | File | `/admin.php?action=themeinstall` | High
+2 | File | `/catcompany.php` | High
+3 | File | `/config/netconf.cmd` | High
+4 | File | `/export` | Low
+5 | File | `/forgetpassword.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/graphStatus/displayServiceStatus.php` | High
+8 | File | `/inc/HTTPClient.php` | High
 9 | File | `/modules/profile/index.php` | High
 10 | File | `/osm/REGISTER.cmd` | High
 11 | File | `/out.php` | Medium
@@ -198,10 +198,9 @@ ID | Type | Indicator | Confidence
 19 | File | `/uncpath/` | Medium
 20 | File | `/usr/bin/pkexec` | High
 21 | File | `/WEB-INF/web.xml` | High
-22 | File | `adclick.php` | Medium
-23 | ... | ... | ...
+22 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

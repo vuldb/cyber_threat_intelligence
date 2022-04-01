@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [MS](https://vuldb.com/?country.ms)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -42,13 +42,13 @@ There are 27 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Dust Storm. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Dust Storm. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -59,46 +59,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/access` | High
-2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-3 | File | `/apply_noauth.cgi` | High
-4 | File | `/article/comment` | High
-5 | File | `/backup/lispbx-CONF-YYYY-MM-DD.tar` | High
-6 | File | `/cgi/sshcheck.cgi` | High
-7 | File | `/crmeb/crmeb/services/UploadService.php` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/IISADMPWD` | Medium
-10 | File | `/inc/session.php` | High
-11 | File | `/mcms/view.do` | High
-12 | File | `/modules/projects/list.php` | High
-13 | File | `/password.html` | High
-14 | File | `/post/editing` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/restful-services/publish` | High
-17 | File | `/search.php` | Medium
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
-20 | File | `/tmp` | Low
-21 | File | `/upload` | Low
-22 | File | `/usr/bin/lua` | Medium
-23 | File | `/usr/sbin/mini_httpd` | High
-24 | File | `/v1/continue` | Medium
-25 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-26 | File | `3f.jsp` | Low
-27 | File | `?location=search` | High
-28 | File | `add.asp` | Low
-29 | File | `admin.home.php` | High
-30 | File | `admin/ajax.config.php` | High
-31 | File | `admin/categories_industry.php` | High
-32 | File | `admin/conf_users_edit.php` | High
-33 | File | `admin/mailIdsConfig.do` | High
-34 | File | `admin/modul/users/aksi_users.php?act=update` | High
-35 | File | `admin/viewtheatre.php` | High
-36 | File | `adsense-deluxe.php` | High
-37 | File | `album.html` | Medium
-38 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/#/CampaignManager/users` | High
+4 | File | `//` | Low
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/apply_noauth.cgi` | High
+9 | File | `/article/comment` | High
+10 | File | `/audit/log/log_management.php` | High
+11 | File | `/backup/lispbx-CONF-YYYY-MM-DD.tar` | High
+12 | File | `/bin/login` | Medium
+13 | File | `/bin/sh` | Low
+14 | File | `/cgi-bin/login` | High
+15 | File | `/cgi/sshcheck.cgi` | High
+16 | File | `/classes/profile.class.php` | High
+17 | File | `/crmeb/crmeb/services/UploadService.php` | High
+18 | File | `/dev/tty` | Medium
+19 | File | `/downloads/` | Medium
+20 | File | `/IISADMPWD` | Medium
+21 | File | `/inc/session.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mcms/view.do` | High
+24 | File | `/member/index/login.html` | High
+25 | File | `/modules/certinfo/index.php` | High
+26 | File | `/post/editing` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/restful-services/publish` | High
+29 | File | `/ScadaBR/login.htm` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/system/tool/ping.php` | High
+32 | File | `/upload` | Low
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/usr/sbin/mini_httpd` | High
+35 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+36 | File | `?location=search` | High
+37 | File | `account/login.php` | High
+38 | File | `add.asp` | Low
+39 | File | `admin.home.php` | High
+40 | File | `admin.php` | Medium
+41 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

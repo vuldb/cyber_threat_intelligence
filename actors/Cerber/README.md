@@ -44,7 +44,7 @@ There are 66 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Cerber_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Cerber_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -85,7 +85,7 @@ ID | Type | Indicator | Confidence
 22 | File | `content/unity-api.js` | High
 23 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

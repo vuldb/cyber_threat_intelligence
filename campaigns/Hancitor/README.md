@@ -30,17 +30,20 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [8.209.76.110](https://vuldb.com/?ip.8.209.76.110) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-2 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-3 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-4 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-5 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-6 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-7 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-8 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-9 | ... | ... | ... | ...
+1 | [8.208.9.98](https://vuldb.com/?ip.8.208.9.98) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+2 | [8.208.77.171](https://vuldb.com/?ip.8.208.77.171) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+3 | [8.209.76.110](https://vuldb.com/?ip.8.209.76.110) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+4 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+5 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+6 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+7 | [31.44.184.36](https://vuldb.com/?ip.31.44.184.36) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+8 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+9 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+10 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+11 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+12 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,23 +89,26 @@ ID | Type | Indicator | Confidence
 23 | File | `add.php` | Low
 24 | File | `addentry.php` | Medium
 25 | File | `addressbookprovider.php` | High
-26 | File | `admin.jcomments.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/pageUploadCSV.php` | High
-29 | File | `ajax_udf.php` | Medium
-30 | File | `AppCompatCache.exe` | High
-31 | File | `application.js.php` | High
-32 | File | `arm/lithium-codegen-arm.cc` | High
-33 | File | `authenticate.c` | High
+26 | File | `admin.cropcanvas.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/dashboard.php` | High
+30 | File | `admin/pageUploadCSV.php` | High
+31 | File | `ajax_udf.php` | Medium
+32 | File | `AppCompatCache.exe` | High
+33 | File | `application.js.php` | High
 34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://isc.sans.edu/forums/diary/Campaign+evolution+Hancitor+changes+its+Word+macros/24376/
+* https://isc.sans.edu/forums/diary/Campaign+evolution+Hancitor+malspam+starts+pushing+Ursnif+this+week/24256/
 * https://isc.sans.edu/forums/diary/Hancitor+activity+resumes+after+a+hoilday+break/26980/
+* https://isc.sans.edu/forums/diary/Hancitor+distributed+through+coronavirusthemed+malspam/25892/
 * https://isc.sans.edu/forums/diary/Hancitor+tries+XLL+as+initial+malware+file/27618/
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 * https://www.malware-traffic-analysis.net/2021/09/14/index.html

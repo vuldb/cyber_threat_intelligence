@@ -27,16 +27,13 @@ There are 4 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Guccifer 2.0. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Guccifer 2.0_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1499 | CWE-400 | Resource Consumption | High
-4 | ... | ... | ... | ...
-
-There are 1 more TTP items available. Please use our online service to access the data.
+3 | T1600 | CWE-310 | Cryptographic Issues | High
 
 ## IOA - Indicator of Attack
 

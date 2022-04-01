@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
 * [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -44,17 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dana/nc/ncrun.cgi` | High
-2 | File | `/jsonrpc` | Medium
-3 | File | `admin.php?mod=user&act=del` | High
-4 | File | `ajax/render/widget_php` | High
-5 | File | `arch/s390/kvm/kvm-s390.c` | High
-6 | File | `auth.inc.php` | Medium
-7 | File | `certs/blacklist.c` | High
-8 | File | `com/wavemaker/studio/StudioService.java` | High
+1 | File | `/configs/application.ini` | High
+2 | File | `/dana/nc/ncrun.cgi` | High
+3 | File | `/jsonrpc` | Medium
+4 | File | `admin.php?mod=user&act=del` | High
+5 | File | `ajax/render/widget_php` | High
+6 | File | `arch/s390/kvm/kvm-s390.c` | High
+7 | File | `auth.inc.php` | Medium
+8 | File | `certs/blacklist.c` | High
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

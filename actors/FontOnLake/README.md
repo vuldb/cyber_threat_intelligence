@@ -1,6 +1,6 @@
 # FontOnLake - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FontOnLake](https://vuldb.com/?actor.fontonlake). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FontOnLake](https://vuldb.com/?actor.fontonlake). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.fontonlake](https://vuldb.com/?actor.fontonlake)
 
@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FontOnLake:
 
-* CN
-* US
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -17,16 +17,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 27.102.130.63 | - | - | High
-2 | 47.107.60.212 | - | - | High
-3 | 47.112.197.119 | - | - | High
+1 | [27.102.130.63](https://vuldb.com/?ip.27.102.130.63) | - | - | High
+2 | [47.107.60.212](https://vuldb.com/?ip.47.107.60.212) | - | - | High
+3 | [47.112.197.119](https://vuldb.com/?ip.47.112.197.119) | - | - | High
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by FontOnLake. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _FontOnLake_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -38,12 +38,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/s/` | Low
-2 | File | `AdminbaseController.class.php` | High
-3 | File | `application\User\Controller\ProfileController.class.php` | High
+1 | File | `/crmeb/crmeb/services/UploadService.php` | High
+2 | File | `/s/` | Low
+3 | File | `AdminbaseController.class.php` | High
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

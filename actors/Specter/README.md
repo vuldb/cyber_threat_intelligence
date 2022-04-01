@@ -1,6 +1,6 @@
 # Specter - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Specter](https://vuldb.com/?actor.specter). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Specter](https://vuldb.com/?actor.specter). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.specter](https://vuldb.com/?actor.specter)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Specter:
 
-* US
-* TR
-* RU
+* [US](https://vuldb.com/?country.us)
+* [TR](https://vuldb.com/?country.tr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 45.141.70.5 | - | - | High
-2 | 85.159.233.158 | ns101.cloudns.net | - | High
-3 | 108.59.1.30 | ns102.cloudns.net | - | High
+1 | [45.141.70.5](https://vuldb.com/?ip.45.141.70.5) | - | - | High
+2 | [85.159.233.158](https://vuldb.com/?ip.85.159.233.158) | ns101.cloudns.net | - | High
+3 | [108.59.1.30](https://vuldb.com/?ip.108.59.1.30) | ns102.cloudns.net | - | High
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Specter. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Specter_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

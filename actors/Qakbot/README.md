@@ -73,38 +73,40 @@ ID | IP address | Hostname | Campaign | Confidence
 50 | [45.77.115.208](https://vuldb.com/?ip.45.77.115.208) | 45.77.115.208.vultr.com | - | Medium
 51 | [45.77.117.108](https://vuldb.com/?ip.45.77.117.108) | 45.77.117.108.vultr.com | - | Medium
 52 | [45.77.215.141](https://vuldb.com/?ip.45.77.215.141) | 45.77.215.141.vultr.com | - | Medium
-53 | [46.214.62.199](https://vuldb.com/?ip.46.214.62.199) | 46-214-62-199.next-gen.ro | - | High
-54 | [46.228.199.235](https://vuldb.com/?ip.46.228.199.235) | vps2231940.fastwebserver.de | - | High
-55 | [47.22.148.6](https://vuldb.com/?ip.47.22.148.6) | ool-2f169406.static.optonline.net | - | High
-56 | [47.24.47.218](https://vuldb.com/?ip.47.24.47.218) | 047-024-047-218.res.spectrum.com | - | High
-57 | [47.28.135.155](https://vuldb.com/?ip.47.28.135.155) | 047-028-135-155.res.spectrum.com | - | High
-58 | [47.138.200.85](https://vuldb.com/?ip.47.138.200.85) | - | - | High
-59 | [47.153.115.154](https://vuldb.com/?ip.47.153.115.154) | - | - | High
-60 | [47.180.66.10](https://vuldb.com/?ip.47.180.66.10) | static-47-180-66-10.lsan.ca.frontiernet.net | - | High
-61 | [47.196.192.184](https://vuldb.com/?ip.47.196.192.184) | - | - | High
-62 | [49.144.81.46](https://vuldb.com/?ip.49.144.81.46) | dsl.49.144.81.46.pldt.net | - | High
-63 | [49.191.4.245](https://vuldb.com/?ip.49.191.4.245) | n49-191-4-245.mrk1.qld.optusnet.com.au | - | High
-64 | [49.207.105.25](https://vuldb.com/?ip.49.207.105.25) | broadband.actcorp.in | - | High
-65 | [50.29.166.232](https://vuldb.com/?ip.50.29.166.232) | 50.29.166.232.res-cmts.sth3.ptd.net | - | High
-66 | [50.104.68.223](https://vuldb.com/?ip.50.104.68.223) | 50-104-68-223.prtg.in.frontiernet.net | - | High
-67 | [50.244.112.106](https://vuldb.com/?ip.50.244.112.106) | 50-244-112-106-static.hfc.comcastbusiness.net | - | High
-68 | [51.210.14.58](https://vuldb.com/?ip.51.210.14.58) | vps-e6e2a926.vps.ovh.net | - | High
-69 | [54.36.108.120](https://vuldb.com/?ip.54.36.108.120) | ns3112762.ip-54-36-108.eu | - | High
-70 | [58.233.220.182](https://vuldb.com/?ip.58.233.220.182) | - | - | High
-71 | [59.90.246.200](https://vuldb.com/?ip.59.90.246.200) | static.bb.chn.59.90.246.200.bsnl.in | - | High
-72 | [59.124.10.133](https://vuldb.com/?ip.59.124.10.133) | 59-124-10-133.hinet-ip.hinet.net | - | High
-73 | [62.38.114.12](https://vuldb.com/?ip.62.38.114.12) | ppp062038114012.dsl.hol.gr | - | High
-74 | [62.121.123.57](https://vuldb.com/?ip.62.121.123.57) | - | - | High
-75 | [64.19.74.29](https://vuldb.com/?ip.64.19.74.29) | primhall.com | - | High
-76 | [64.29.151.102](https://vuldb.com/?ip.64.29.151.102) | mail.myfairpoint.net | - | High
-77 | [64.121.114.87](https://vuldb.com/?ip.64.121.114.87) | 64-121-114-87.s597.c3-0.smt-ubr1.atw-smt.pa.cable.rcncustomer.com | - | High
-78 | [65.100.174.]105](https://vuldb.com/?ip.65.100.174.]105) | - | - | High
-79 | [65.100.174.]106](https://vuldb.com/?ip.65.100.174.]106) | - | - | High
-80 | [65.100.174.]107](https://vuldb.com/?ip.65.100.174.]107) | - | - | High
-81 | [65.100.174.]108](https://vuldb.com/?ip.65.100.174.]108) | - | - | High
-82 | ... | ... | ... | ...
+53 | [45.230.228.26](https://vuldb.com/?ip.45.230.228.26) | - | - | High
+54 | [46.214.62.199](https://vuldb.com/?ip.46.214.62.199) | 46-214-62-199.next-gen.ro | - | High
+55 | [46.228.199.235](https://vuldb.com/?ip.46.228.199.235) | vps2231940.fastwebserver.de | - | High
+56 | [47.22.148.6](https://vuldb.com/?ip.47.22.148.6) | ool-2f169406.static.optonline.net | - | High
+57 | [47.24.47.218](https://vuldb.com/?ip.47.24.47.218) | 047-024-047-218.res.spectrum.com | - | High
+58 | [47.28.135.155](https://vuldb.com/?ip.47.28.135.155) | 047-028-135-155.res.spectrum.com | - | High
+59 | [47.44.217.98](https://vuldb.com/?ip.47.44.217.98) | 047-044-217-098.biz.spectrum.com | - | High
+60 | [47.138.200.85](https://vuldb.com/?ip.47.138.200.85) | - | - | High
+61 | [47.153.115.154](https://vuldb.com/?ip.47.153.115.154) | - | - | High
+62 | [47.180.66.10](https://vuldb.com/?ip.47.180.66.10) | static-47-180-66-10.lsan.ca.frontiernet.net | - | High
+63 | [47.196.192.184](https://vuldb.com/?ip.47.196.192.184) | - | - | High
+64 | [49.144.81.46](https://vuldb.com/?ip.49.144.81.46) | dsl.49.144.81.46.pldt.net | - | High
+65 | [49.191.4.245](https://vuldb.com/?ip.49.191.4.245) | n49-191-4-245.mrk1.qld.optusnet.com.au | - | High
+66 | [49.207.105.25](https://vuldb.com/?ip.49.207.105.25) | broadband.actcorp.in | - | High
+67 | [50.29.166.232](https://vuldb.com/?ip.50.29.166.232) | 50.29.166.232.res-cmts.sth3.ptd.net | - | High
+68 | [50.91.114.38](https://vuldb.com/?ip.50.91.114.38) | 050-091-114-038.res.spectrum.com | - | High
+69 | [50.104.68.223](https://vuldb.com/?ip.50.104.68.223) | 50-104-68-223.prtg.in.frontiernet.net | - | High
+70 | [50.244.112.106](https://vuldb.com/?ip.50.244.112.106) | 50-244-112-106-static.hfc.comcastbusiness.net | - | High
+71 | [51.210.14.58](https://vuldb.com/?ip.51.210.14.58) | vps-e6e2a926.vps.ovh.net | - | High
+72 | [54.36.108.120](https://vuldb.com/?ip.54.36.108.120) | ns3112762.ip-54-36-108.eu | - | High
+73 | [58.233.220.182](https://vuldb.com/?ip.58.233.220.182) | - | - | High
+74 | [59.90.246.200](https://vuldb.com/?ip.59.90.246.200) | static.bb.chn.59.90.246.200.bsnl.in | - | High
+75 | [59.124.10.133](https://vuldb.com/?ip.59.124.10.133) | 59-124-10-133.hinet-ip.hinet.net | - | High
+76 | [62.38.114.12](https://vuldb.com/?ip.62.38.114.12) | ppp062038114012.dsl.hol.gr | - | High
+77 | [62.121.123.57](https://vuldb.com/?ip.62.121.123.57) | - | - | High
+78 | [64.19.74.29](https://vuldb.com/?ip.64.19.74.29) | primhall.com | - | High
+79 | [64.29.151.102](https://vuldb.com/?ip.64.29.151.102) | mail.myfairpoint.net | - | High
+80 | [64.121.114.87](https://vuldb.com/?ip.64.121.114.87) | 64-121-114-87.s597.c3-0.smt-ubr1.atw-smt.pa.cable.rcncustomer.com | - | High
+81 | [65.100.174.]105](https://vuldb.com/?ip.65.100.174.]105) | - | - | High
+82 | [65.100.174.]106](https://vuldb.com/?ip.65.100.174.]106) | - | - | High
+83 | [65.100.174.]107](https://vuldb.com/?ip.65.100.174.]107) | - | - | High
+84 | ... | ... | ... | ...
 
-There are 325 more IOC items available. Please use our online service to access the data.
+There are 334 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -113,7 +115,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -156,13 +158,14 @@ ID | Type | Indicator | Confidence
 29 | File | `/wp-json` | Medium
 30 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_qakbot.ipset
+* https://isc.sans.edu/forums/diary/Emotet+Qakbot+more+Emotet/26750/
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 * https://isc.sans.edu/forums/diary/Qakbot+activity+resumes+after+holiday+break/27008/
 * https://isc.sans.edu/forums/diary/Qakbot+infection+with+Cobalt+Strike+and+VNC+activity/28448/

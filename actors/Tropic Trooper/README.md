@@ -1,6 +1,6 @@
 # Tropic Trooper - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Tropic Trooper](https://vuldb.com/?actor.tropic_trooper). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.tropic_trooper](https://vuldb.com/?actor.tropic_trooper)
 
@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Tropic Trooper:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tropic Trooper:
 
-* HK
-* CN
-* US
+* [CN](https://vuldb.com/?country.cn)
+* [HK](https://vuldb.com/?country.hk)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,22 +28,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 10.196.132.154 | - | - | High
-2 | 23.27.112.216 | - | Poison Ivy | High
-3 | 23.234.27.100 | - | - | High
-4 | 27.126.176.169 | - | - | High
-5 | 27.126.186.74 | krakow.intellectint.net | - | High
-6 | 27.126.186.222 | grupos.slidefresh.net | - | High
-7 | 45.32.47.148 | 45.32.47.148.vultr.com | - | Medium
-8 | 45.125.12.147 | spk.cloudie.hk | - | High
-9 | 45.127.97.222 | - | - | High
-10 | ... | ... | ... | ...
+1 | [10.196.132.154](https://vuldb.com/?ip.10.196.132.154) | - | - | High
+2 | [23.27.112.216](https://vuldb.com/?ip.23.27.112.216) | - | Poison Ivy | High
+3 | [23.234.27.100](https://vuldb.com/?ip.23.234.27.100) | - | - | High
+4 | [27.126.176.169](https://vuldb.com/?ip.27.126.176.169) | - | - | High
+5 | [27.126.186.74](https://vuldb.com/?ip.27.126.186.74) | krakow.intellectint.net | - | High
+6 | [27.126.186.222](https://vuldb.com/?ip.27.126.186.222) | grupos.slidefresh.net | - | High
+7 | [45.32.47.148](https://vuldb.com/?ip.45.32.47.148) | 45.32.47.148.vultr.com | - | Medium
+8 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
+9 | [45.125.12.147](https://vuldb.com/?ip.45.125.12.147) | spk.cloudie.hk | - | High
+10 | [45.127.97.222](https://vuldb.com/?ip.45.127.97.222) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Tropic Trooper. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Tropic Trooper_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -52,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,10 +69,12 @@ ID | Type | Indicator | Confidence
 6 | File | `/onvif/device_service` | High
 7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 8 | File | `/uncpath/` | Medium
-9 | File | `administrator/components/com_media/helpers/media.php` | High
-10 | ... | ... | ...
+9 | File | `ActiveMediaServer.exe` | High
+10 | File | `administrator/components/com_media/helpers/media.php` | High
+11 | File | `api/sms_check.php` | High
+12 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -84,6 +87,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.anomali.com/blog/anomali-suspects-that-china-backed-apt-pirate-panda-may-be-seeking-access-to-vietnam-government-data-center#When:15:00:00Z
 * https://www.pwc.co.uk/issues/cyber-security-services/research/the-keyboys-are-back-in-town.html
 * https://www.threatminer.org/report.php?q=It%E2%80%99sParliamentary_KeyBoyandthetargetingoftheTibetanCommunity-TheCitizenLab.pdf&y=2016
+* https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/collecting-in-the-dark-tropic-trooper-targets-transportation-and-government-organizations/IOCs-Collecting-in-the-dark-Tropic-Trooper.txt
 * https://www.trendmicro.de/cloud-content/us/pdfs/security-intelligence/white-papers/wp-operation-tropic-trooper.pdf
 
 ## Literature

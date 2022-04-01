@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SombRAT:
 
 * [CL](https://vuldb.com/?country.cl)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -33,6 +34,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `http_auth.c` | Medium
+2 | File | `wp/v2/posts` | Medium
 
 ## References
 

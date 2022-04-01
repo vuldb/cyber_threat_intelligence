@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -132,12 +132,12 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/setFixTools` | High
 23 | File | `/goform/SetInternetLanInfo` | High
 24 | File | `/goform/setPicListItem` | High
-25 | File | `/mdiy/dict/listExcludeApp` | High
-26 | File | `/members/view_member.php` | High
-27 | File | `/ok_jpg.c` | Medium
+25 | File | `/lan.asp` | Medium
+26 | File | `/mdiy/dict/listExcludeApp` | High
+27 | File | `/members/view_member.php` | High
 28 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

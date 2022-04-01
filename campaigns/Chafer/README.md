@@ -35,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [89.38.97.115](https://vuldb.com/?ip.89.38.97.115) | 89-38-97-115.hosted-by-worldstream.net | [Chafer](https://vuldb.com/?actor.chafer) | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,12 +65,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/uncpath/` | Medium
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://securelist.com/chafer-used-remexi-malware/89538/
 * https://unit42.paloaltonetworks.com/new-python-based-payload-mechaflounder-used-by-chafer/
 * https://www.threatminer.org/report.php?q=Chafer_LatestAttacksRevealHeightenedAmbitions_SymantecBlogs.pdf&y=2018
 * https://www.threatminer.org/_reports/2019/NewPython-BasedPayloadMechaFlounderUsedbyChafer.pdf#viewer.action=download

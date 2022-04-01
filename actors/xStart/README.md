@@ -39,7 +39,7 @@ There are 47 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _xStart_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _xStart_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -60,50 +60,50 @@ ID | Type | Indicator | Confidence
 2 | File | `.kss.pid` | Medium
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/api/collection/findone` | High
-5 | File | `/category_view.php` | High
-6 | File | `/cgi-bin/loaddata.py` | High
-7 | File | `/cgi-sys/FormMail-clone.cgi` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/passwd` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/framework/modules/users/models/user.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/goform/setportList` | High
-14 | File | `/goform/setVLAN` | High
-15 | File | `/goform/wlanPrimaryNetwork` | High
-16 | File | `/GponForm/usb_Form?script/` | High
-17 | File | `/groups/31-twitter-basics` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/scdmz.cmd` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/tmp/before` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/User/saveUser` | High
-24 | File | `/usr/bin/vmware-mount` | High
-25 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/_vti_pvt/access.cnf` | High
-28 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-29 | File | `accountsettings_add.html` | High
-30 | File | `aclient.exe` | Medium
-31 | File | `adclick.php` | Medium
-32 | File | `addentry.php` | Medium
-33 | File | `add_comment.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin.php?c=update&f=unzip` | High
-36 | File | `admin/ajax/op_kandidat.php` | High
-37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/domain-fields/` | High
-39 | File | `admin/index.asp` | High
-40 | File | `admin/member_deal.php` | High
-41 | File | `admin/news.php` | High
-42 | File | `admin/plugin.php` | High
+5 | File | `/api/crontab` | Medium
+6 | File | `/category_view.php` | High
+7 | File | `/cgi-bin/loaddata.py` | High
+8 | File | `/cgi-sys/FormMail-clone.cgi` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/etc/passwd` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/framework/modules/users/models/user.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/setportList` | High
+15 | File | `/goform/setVLAN` | High
+16 | File | `/goform/wlanPrimaryNetwork` | High
+17 | File | `/GponForm/usb_Form?script/` | High
+18 | File | `/groups/31-twitter-basics` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/scdmz.cmd` | Medium
+21 | File | `/tmp` | Low
+22 | File | `/tmp/before` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/User/saveUser` | High
+25 | File | `/usr/bin/vmware-mount` | High
+26 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+27 | File | `/WEB-INF/web.xml` | High
+28 | File | `/_vti_pvt/access.cnf` | High
+29 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+30 | File | `accountsettings_add.html` | High
+31 | File | `aclient.exe` | Medium
+32 | File | `adclick.php` | Medium
+33 | File | `addentry.php` | Medium
+34 | File | `add_comment.php` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin.php?c=update&f=unzip` | High
+37 | File | `admin/ajax/op_kandidat.php` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `admin/domain-fields/` | High
+40 | File | `admin/index.asp` | High
+41 | File | `admin/member_deal.php` | High
+42 | File | `admin/news.php` | High
 43 | File | `AdminLoginInterceptor.java` | High
 44 | File | `admins.js` | Medium
 45 | File | `advancedsearch.php` | High
 46 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

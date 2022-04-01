@@ -1,38 +1,38 @@
 # Wool3n.H4t - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wool3n.H4t](https://vuldb.com/?actor.wool3n.h4t). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Wool3n.H4t](https://vuldb.com/?actor.wool3n.h4t). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.wool3n.h4t](https://vuldb.com/?actor.wool3n.h4t)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.wool3n.h4t](https://vuldb.com/?actor.wool3n.h4t)
 
 ## Campaigns
 
-The following campaigns are known and can be associated with Wool3n.H4t:
+The following _campaigns_ are known and can be associated with Wool3n.H4t:
 
 * Woolen-Goldfish
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Wool3n.H4t.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Wool3n.H4t.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 83.170.33.32 | host-83-170-33-32.customer.teleport-iabg.de | High
-2 | 83.170.33.37 | host-83-170-33-37.customer.teleport-iabg.de | High
-3 | 83.170.33.60 | host-83-170-33-60.customer.teleport-iabg.de | High
-4 | 83.170.33.63 | host-83-170-33-63.customer.teleport-iabg.de | High
-5 | ... | ... | ...
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [83.170.33.32](https://vuldb.com/?ip.83.170.33.32) | host-83-170-33-32.customer.teleport-iabg.de | Woolen-Goldfish | High
+2 | [83.170.33.37](https://vuldb.com/?ip.83.170.33.37) | host-83-170-33-37.customer.teleport-iabg.de | Woolen-Goldfish | High
+3 | [83.170.33.60](https://vuldb.com/?ip.83.170.33.60) | host-83-170-33-60.customer.teleport-iabg.de | Woolen-Goldfish | High
+4 | [83.170.33.63](https://vuldb.com/?ip.83.170.33.63) | host-83-170-33-63.customer.teleport-iabg.de | Woolen-Goldfish | High
+5 | ... | ... | ... | ...
 
 There are 16 more IOC items available. Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=wp-operation-woolen-goldfish.pdf&y=2015
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

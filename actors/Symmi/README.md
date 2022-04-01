@@ -1,26 +1,26 @@
 # Symmi - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Symmi](https://vuldb.com/?actor.symmi). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Symmi](https://vuldb.com/?actor.symmi). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.symmi](https://vuldb.com/?actor.symmi)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.symmi](https://vuldb.com/?actor.symmi)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Symmi.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Symmi.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 208.100.26.245 | ip245.208-100-26.static.steadfastdns.net | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [208.100.26.245](https://vuldb.com/?ip.208.100.26.245) | ip245.208-100-26.static.steadfastdns.net | - | High
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_symmi.ipset
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

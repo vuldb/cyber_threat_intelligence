@@ -30,7 +30,7 @@ There are 7 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Sauron. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sauron_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -75,17 +75,17 @@ ID | Type | Indicator | Confidence
 26 | File | `/ViewUserHover.jspa` | High
 27 | File | `/wp-admin` | Medium
 28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `AccountManagerService.java` | High
-30 | File | `actions/CompanyDetailsSave.php` | High
-31 | File | `ActiveServices.java` | High
-32 | File | `ActivityManagerService.java` | High
-33 | File | `addlink.php` | Medium
-34 | File | `addtocart.asp` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+30 | File | `AccountManagerService.java` | High
+31 | File | `actions/CompanyDetailsSave.php` | High
+32 | File | `ActiveServices.java` | High
+33 | File | `ActivityManagerService.java` | High
+34 | File | `addlink.php` | Medium
+35 | File | `addtocart.asp` | High
+36 | File | `admin.php` | Medium
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -1,6 +1,6 @@
 # Darkode - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Darkode](https://vuldb.com/?actor.darkode). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Darkode](https://vuldb.com/?actor.darkode). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.darkode](https://vuldb.com/?actor.darkode)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Darkode:
 
-* US
-* RU
-* IR
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -21,11 +21,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 80.82.66.204 | no-reverse-dns-configured.com | - | High
+1 | [80.82.66.204](https://vuldb.com/?ip.80.82.66.204) | no-reverse-dns-configured.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Darkode. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Darkode_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,17 +46,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/htdocs/cgibin` | High
 3 | File | `/uncpath/` | Medium
 4 | File | `/videotalk` | Medium
-5 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-6 | File | `activity_log.php` | High
-7 | File | `adm/systools.asp` | High
-8 | File | `admin/getparam.cgi` | High
-9 | File | `adminCons.php` | High
-10 | File | `ajax_list_accounts.php` | High
-11 | File | `auth-options.c` | High
-12 | File | `cdf.c` | Low
+5 | File | `/web/MCmsAction.java` | High
+6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+7 | File | `activity_log.php` | High
+8 | File | `adm/systools.asp` | High
+9 | File | `admin/getparam.cgi` | High
+10 | File | `adminCons.php` | High
+11 | File | `ajax_list_accounts.php` | High
+12 | File | `auth-options.c` | High
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

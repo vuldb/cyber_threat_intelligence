@@ -13,12 +13,13 @@ The following _campaigns_ are known and can be associated with DPRK:
 * DrillMalware
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DPRK:
 
+* [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -35,25 +36,41 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.62.61.65](https://vuldb.com/?ip.5.62.61.65) | r-65.61.62.5.ptr.avast.com | - | High
 7 | [5.62.61.66](https://vuldb.com/?ip.5.62.61.66) | r-66.61.62.5.ptr.avast.com | - | High
 8 | [5.62.61.67](https://vuldb.com/?ip.5.62.61.67) | r-67.61.62.5.ptr.avast.com | - | High
-9 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | HOPLIGHT | High
-10 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | HOPLIGHT | High
-11 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
-12 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
-13 | [45.42.151.11](https://vuldb.com/?ip.45.42.151.11) | - | - | High
-14 | [45.42.151.12](https://vuldb.com/?ip.45.42.151.12) | - | - | High
-15 | [45.42.151.13](https://vuldb.com/?ip.45.42.151.13) | - | - | High
-16 | [45.42.151.14](https://vuldb.com/?ip.45.42.151.14) | - | - | High
-17 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
-18 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
-19 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
-20 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | HOPLIGHT | High
-21 | [51.68.152.96](https://vuldb.com/?ip.51.68.152.96) | ns3122934.ip-51-68-152.eu | BLINDINGCAN | High
-22 | [54.241.91.49](https://vuldb.com/?ip.54.241.91.49) | ec2-54-241-91-49.us-west-1.compute.amazonaws.com | BLINDINGCAN | Medium
-23 | [70.224.36.194](https://vuldb.com/?ip.70.224.36.194) | adsl-70-224-36-194.dsl.sbndin.ameritech.net | HOPLIGHT | High
-24 | [81.94.192.10](https://vuldb.com/?ip.81.94.192.10) | 10-192-94-81.rackcentre.redstation.net.uk | HOPLIGHT | High
-25 | ... | ... | ... | ...
+9 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | Hoplight | High
+10 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | HOPLIGHT | High
+11 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | HOPLIGHT | High
+12 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | AppleJeus | High
+13 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | AppleJeus | High
+14 | [45.42.151.0](https://vuldb.com/?ip.45.42.151.0) | - | - | High
+15 | [45.42.151.11](https://vuldb.com/?ip.45.42.151.11) | - | - | High
+16 | [45.42.151.12](https://vuldb.com/?ip.45.42.151.12) | - | - | High
+17 | [45.42.151.13](https://vuldb.com/?ip.45.42.151.13) | - | - | High
+18 | [45.42.151.14](https://vuldb.com/?ip.45.42.151.14) | - | - | High
+19 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | AppleJeus | High
+20 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | AppleJeus | High
+21 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | AppleJeus | High
+22 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
+23 | [46.36.203.82](https://vuldb.com/?ip.46.36.203.82) | - | - | High
+24 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | HOPLIGHT | High
+25 | [51.68.152.96](https://vuldb.com/?ip.51.68.152.96) | ns3122934.ip-51-68-152.eu | BLINDINGCAN | High
+26 | [54.241.91.49](https://vuldb.com/?ip.54.241.91.49) | ec2-54-241-91-49.us-west-1.compute.amazonaws.com | BLINDINGCAN | Medium
+27 | [57.73.224.0](https://vuldb.com/?ip.57.73.224.0) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 96 more IOC items available. Please use our online service to access the data.
+There are 108 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _DPRK_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,12 +78,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `wp-includes/class-wp-query.php` | High
+1 | File | `.htaccess` | Medium
+2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+3 | File | `/admin-panel1.php` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/alerts/alertConfigField.php` | High
+6 | File | `/api/email_accounts` | High
+7 | File | `/API/system/admins/session` | High
+8 | File | `/cgi-bin/ExportALLSettings.sh` | High
+9 | File | `/config/config.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/customers/index.php` | High
+12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+15 | File | `/DataHandler/Handler_CFG.ashx` | High
+16 | File | `/ECT_Provider/` | High
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/index.php/fuel/pages/items` | High
+19 | File | `/goform/openSchedWifi` | High
+20 | File | `/goform/SetNetControlList` | High
+21 | File | `/image_zoom.php` | High
+22 | File | `/include/config.cache.php` | High
+23 | File | `/json/profile/removeStarAjax.do` | High
+24 | File | `/oauth/token/request` | High
+25 | File | `/plugin/ajax.php` | High
+26 | File | `/plugins/servlet/branchreview` | High
+27 | File | `/proc/ioports` | High
+28 | File | `/proc/self/exe` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/rest/api/2/search` | High
+31 | File | `/rest/api/latest/groupuserpicker` | High
+32 | File | `/rest/api/latest/projectvalidate/key` | High
+33 | File | `/rom-0` | Low
+34 | File | `/tmp` | Low
+35 | File | `/tmp/connlicj.bin` | High
+36 | ... | ... | ...
+
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* http://blog.trendmicro.co.jp/archives/16218
 * https://en.wikipedia.org/wiki/Internet_in_North_Korea#IP_address_ranges
 * https://github.com/blackorbird/APT_REPORT/tree/master/International%20Strategic/Korea
 * https://github.com/mandatoryprogrammer/NorthKoreaDNSLeak
@@ -74,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a
+* https://www.cisa.gov/uscert/ncas/analysis-reports/ar20-045g
 * https://www.threatminer.org/report.php?q=HPSRSecurityBriefing_Episode16_NorthKorea.pdf&y=2014
 * https://www.threatminer.org/report.php?q=SuspectedNorthKoreanCyberEspionageCampaignTargetsMultipleForeignMinistriesandThinkTanks.pdf&y=2019
 

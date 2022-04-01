@@ -19,6 +19,7 @@ These _actors_ are associated with Hotcroissant or other actors linked to the ca
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +27,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [94.177.123.138](https://vuldb.com/?ip.94.177.123.138) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+1 | [94.177.123.138](https://vuldb.com/?ip.94.177.123.138) | - | [Hotcroissant](https://vuldb.com/?actor.hotcroissant) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +56,7 @@ There are 6 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-045d
+* https://www.cisa.gov/uscert/ncas/analysis-reports/ar20-045d
 
 ## Literature
 

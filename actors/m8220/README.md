@@ -28,7 +28,7 @@ ID | IP address | Hostname | Campaign | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _m8220_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _m8220_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -67,31 +67,30 @@ ID | Type | Indicator | Confidence
 20 | File | `administrators/backups/` | High
 21 | File | `afmparse.c` | Medium
 22 | File | `ajax.php` | Medium
-23 | File | `ajax_udf.php` | Medium
-24 | File | `answers.php` | Medium
-25 | File | `apsetup.php` | Medium
-26 | File | `arch/powerpc/kernel/process.c` | High
-27 | File | `arch/x86/kvm/vmx.c` | High
-28 | File | `ArchiveUtil.java` | High
-29 | File | `bmp.c` | Low
-30 | File | `browse.php` | Medium
-31 | File | `buy.php` | Low
-32 | File | `calendar.class.php` | High
-33 | File | `calendar/submit/` | High
-34 | File | `category.php` | Medium
-35 | File | `cc_guestbook.pl` | High
-36 | File | `centipaid_class.php` | High
-37 | File | `channel.c` | Medium
-38 | File | `chetcpasswd.cgi` | High
-39 | File | `clastree.htm` | Medium
-40 | File | `client-assist.php` | High
-41 | File | `coders/dds.c` | Medium
-42 | File | `coders/webp.c` | High
-43 | File | `CollabNetApp.java` | High
-44 | File | `collection.class.php` | High
-45 | ... | ... | ...
+23 | File | `answers.php` | Medium
+24 | File | `apsetup.php` | Medium
+25 | File | `arch/powerpc/kernel/process.c` | High
+26 | File | `arch/x86/kvm/vmx.c` | High
+27 | File | `ArchiveUtil.java` | High
+28 | File | `bmp.c` | Low
+29 | File | `browse.php` | Medium
+30 | File | `buy.php` | Low
+31 | File | `calendar.class.php` | High
+32 | File | `calendar/submit/` | High
+33 | File | `category.php` | Medium
+34 | File | `cc_guestbook.pl` | High
+35 | File | `centipaid_class.php` | High
+36 | File | `channel.c` | Medium
+37 | File | `chetcpasswd.cgi` | High
+38 | File | `clastree.htm` | Medium
+39 | File | `client-assist.php` | High
+40 | File | `coders/dds.c` | Medium
+41 | File | `coders/webp.c` | High
+42 | File | `CollabNetApp.java` | High
+43 | File | `collection.class.php` | High
+44 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

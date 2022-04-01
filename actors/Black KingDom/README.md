@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,21 +49,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htaccess` | Medium
 2 | File | `/admin-panel1.php` | High
-3 | File | `/admin.php/admin/ulog/index.html` | High
-4 | File | `/admin.php/admin/vod/data.html` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/templates/template_manage.php` | High
-7 | File | `/api/servers` | Medium
-8 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-9 | File | `/cgi-bin/uploadAccessCodePic` | High
-10 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
-11 | File | `/cloud_config/router_post/upgrade_info` | High
-12 | File | `/core/admin/comment.php` | High
-13 | File | `/data/sqldata` | High
-14 | File | `/DataPackageTable` | High
-15 | File | `/download/` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/etc/wpa_supplicant.conf` | High
+3 | File | `/admin.php/admin/art/data.html` | High
+4 | File | `/admin.php/admin/ulog/index.html` | High
+5 | File | `/admin.php/admin/vod/data.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/templates/template_manage.php` | High
+8 | File | `/api/servers` | Medium
+9 | File | `/api /v3/auth` | High
+10 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+11 | File | `/cgi-bin/uploadAccessCodePic` | High
+12 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+13 | File | `/cloud_config/router_post/upgrade_info` | High
+14 | File | `/data/sqldata` | High
+15 | File | `/DataPackageTable` | High
+16 | File | `/download/` | Medium
+17 | File | `/etc/passwd` | Medium
 18 | File | `/factor/avx-ecm/vecarith52.c` | High
 19 | File | `/goform/delAd` | High
 20 | File | `/goform/form2Reboot.cgi` | High
@@ -72,9 +72,10 @@ ID | Type | Indicator | Confidence
 23 | File | `/i/:data/ipa.plist` | High
 24 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
 25 | File | `/js/js-parser.c` | High
-26 | ... | ... | ...
+26 | File | `/mdiy/dict/listExcludeApp` | High
+27 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

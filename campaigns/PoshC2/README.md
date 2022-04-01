@@ -17,6 +17,7 @@ These _actors_ are associated with PoshC2 or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT33](https://vuldb.com/?actor.apt33) | High
+2 | [PoshC2](https://vuldb.com/?actor.poshc2) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,7 +25,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [213.227.155.25](https://vuldb.com/?ip.213.227.155.25) | - | [APT33](https://vuldb.com/?actor.apt33) | High
+1 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
+2 | [213.227.155.25](https://vuldb.com/?ip.213.227.155.25) | - | [APT33](https://vuldb.com/?actor.apt33) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,6 +54,7 @@ There are 5 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/poshc2_apt_33.md
+* https://www.lac.co.jp/lacwatch/people/20190213_001770.html
 
 ## Literature
 

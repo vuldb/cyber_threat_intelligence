@@ -10,13 +10,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.244.25.213](https://vuldb.com/?ip.185.244.25.213) | - | - | High
+1 | [185.244.25.200](https://vuldb.com/?ip.185.244.25.200) | - | - | High
+2 | [185.244.25.213](https://vuldb.com/?ip.185.244.25.213) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.trendmicro.co.jp/archives/20879
+* https://blog.trendmicro.co.jp/archives/22211
 
 ## Literature
 

@@ -62,17 +62,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/../../conf/template/uhttpd.json` | High
-4 | File | `/about.php` | Medium
-5 | File | `/account/register` | High
-6 | File | `/admin.php?action=themeinstall` | High
-7 | File | `/admin/modules/system/custom_field.php` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/app1/admin#foo` | High
-10 | File | `/articles/welcome-to-your-site#comments-head` | High
-11 | File | `/assets/ctx` | Medium
-12 | File | `/bin/boa` | Medium
-13 | File | `/cgi-bin/wapopen` | High
+3 | File | `/about.php` | Medium
+4 | File | `/account/register` | High
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/modules/system/custom_field.php` | High
+7 | File | `/api/crontab` | Medium
+8 | File | `/app1/admin#foo` | High
+9 | File | `/articles/welcome-to-your-site#comments-head` | High
+10 | File | `/assets/ctx` | Medium
+11 | File | `/bin/boa` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-mod/lookup.cgi` | High
 14 | File | `/cgi?1&5` | Medium
 15 | File | `/config/getuser` | High
 16 | File | `/configs/application.ini` | High
@@ -83,32 +83,31 @@ ID | Type | Indicator | Confidence
 21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
 22 | File | `/iissamples` | Medium
 23 | File | `/login` | Low
-24 | File | `/public/plugins/` | High
-25 | File | `/sbin/gs_config` | High
-26 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-29 | File | `/uploads/dede` | High
-30 | File | `/usr/bin/pkexec` | High
-31 | File | `/usr/sbin/nagios` | High
-32 | File | `/usr/sbin/suexec` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `/webman/info.cgi` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
-37 | File | `/wp-json/wc/v3/webhooks` | High
-38 | File | `/_next` | Low
-39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-40 | File | `adclick.php` | Medium
-41 | File | `admin.php?m=admin&c=site&a=save` | High
-42 | File | `admin.php?page=languages` | High
-43 | File | `admin/backupdb.php` | High
-44 | File | `admin/bitrix.mpbuilder_step2.php` | High
-45 | File | `admin/bitrix.xscan_worker.php` | High
-46 | File | `admin/conf_users_edit.php` | High
-47 | ... | ... | ...
+24 | File | `/new` | Low
+25 | File | `/public/plugins/` | High
+26 | File | `/sbin/gs_config` | High
+27 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+30 | File | `/uploads/dede` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/usr/sbin/nagios` | High
+33 | File | `/usr/sbin/suexec` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/webman/info.cgi` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `/wp-json/oembed/1.0/embed?url` | High
+38 | File | `/wp-json/wc/v3/webhooks` | High
+39 | File | `/_next` | Low
+40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+41 | File | `adclick.php` | Medium
+42 | File | `admin.php?m=admin&c=site&a=save` | High
+43 | File | `admin.php?page=languages` | High
+44 | File | `admin/admin_users.php` | High
+45 | File | `admin/backupdb.php` | High
+46 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

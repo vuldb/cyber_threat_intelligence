@@ -54,7 +54,7 @@ ID | Type | Indicator | Confidence
 6 | File | `add_comment.php` | High
 7 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

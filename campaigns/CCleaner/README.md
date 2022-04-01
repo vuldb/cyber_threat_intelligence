@@ -17,6 +17,7 @@ These _actors_ are associated with CCleaner or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT17](https://vuldb.com/?actor.apt17) | High
+2 | [CCleaner Malware](https://vuldb.com/?actor.ccleaner_malware) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,7 +25,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [216.126.225.148](https://vuldb.com/?ip.216.126.225.148) | - | [APT17](https://vuldb.com/?actor.apt17) | High
+1 | [216.126.225.148](https://vuldb.com/?ip.216.126.225.148) | - | [CCleaner Malware](https://vuldb.com/?actor.ccleaner_malware) | High
 
 ## IOA - Indicator of Attack
 
@@ -43,6 +44,7 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://exchange.xforce.ibmcloud.com/collection/CCleaner-Malware-b76e23a6710956bd0782d55976e748ae
 * https://www.threatminer.org/report.php?q=EvidenceAuroraOperationStillActive_SupplyChainAttackThroughCCleaner-Intezer.pdf&y=2017
 
 ## Literature

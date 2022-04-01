@@ -38,7 +38,7 @@ There are 2 more IOC items available. Please use our online service to access th
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Cyber Jihad. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Cyber Jihad. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -53,11 +53,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `application/modules/admin/views/ecommerce/products.php` | High
-2 | File | `blog.php` | Medium
-3 | File | `cgi-bin/iptest.cgi` | High
+2 | File | `base/ErrorHandler.php` | High
+3 | File | `blog.php` | Medium
 4 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

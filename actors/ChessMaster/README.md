@@ -1,27 +1,27 @@
 # ChessMaster - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [ChessMaster](https://vuldb.com/?actor.chessmaster). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [ChessMaster](https://vuldb.com/?actor.chessmaster). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.chessmaster](https://vuldb.com/?actor.chessmaster)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.chessmaster](https://vuldb.com/?actor.chessmaster)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of ChessMaster.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of ChessMaster.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 62.75.197.131 | static-ip-62-75-197-131.inaddr.ip-pool.com | High
-2 | 89.18.27.159 | - | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [62.75.197.131](https://vuldb.com/?ip.62.75.197.131) | static-ip-62-75-197-131.inaddr.ip-pool.com | - | High
+2 | [89.18.27.159](https://vuldb.com/?ip.89.18.27.159) | - | - | High
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.threatminer.org/report.php?q=ChessMaster%E2%80%99sNewStrategy_EvolvingToolsandTactics-TrendLabsSecurityIntelligenceBlog.pdf&y=2017
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

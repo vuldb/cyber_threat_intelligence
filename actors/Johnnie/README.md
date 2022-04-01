@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Johnnie:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -27,13 +27,14 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.218.140.208](https://vuldb.com/?ip.23.218.140.208) | a23-218-140-208.deploy.static.akamaitechnologies.com | - | High
 5 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
 6 | [34.215.65.187](https://vuldb.com/?ip.34.215.65.187) | ec2-34-215-65-187.us-west-2.compute.amazonaws.com | - | Medium
-7 | ... | ... | ... | ...
+7 | [34.216.80.151](https://vuldb.com/?ip.34.216.80.151) | ec2-34-216-80-151.us-west-2.compute.amazonaws.com | - | Medium
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Johnnie. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Johnnie_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -42,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,6 +75,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0305-0312.html
+* https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 
 ## Literature
 

@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -73,7 +75,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1008 | CWE-757 | Algorithm Downgrade | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -84,24 +86,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin.php/admin/plog/index.html` | High
-3 | File | `/admin.php/admin/ulog/index.html` | High
-4 | File | `/admin.php/admin/vod/data.html` | High
-5 | File | `/admin.php/admin/website/data.html` | High
-6 | File | `/admin/contenttemp` | High
+1 | File | `/admin.php/admin/plog/index.html` | High
+2 | File | `/admin.php/admin/ulog/index.html` | High
+3 | File | `/admin.php/admin/vod/data.html` | High
+4 | File | `/admin.php/admin/website/data.html` | High
+5 | File | `/admin/export/getcsv/article_db` | High
+6 | File | `/admin/login.php` | High
 7 | File | `/admin/show.php` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/api/fetch` | Medium
-10 | File | `/cgi-bin/uploadAccessCodePic` | High
-11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/config/list` | Medium
-13 | File | `/controller/Index.php` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/data/sqldata` | High
-16 | ... | ... | ...
+8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+9 | File | `/cgi-bin/uploadAccessCodePic` | High
+10 | File | `/cgi-bin/uploadWeiXinPic` | High
+11 | File | `/config/list` | Medium
+12 | File | `/data/sqldata` | High
+13 | File | `/goform/delAd` | High
+14 | File | `/goform/exeCommand` | High
+15 | File | `/goform/setAdInfoDetail` | High
+16 | File | `/goform/setFixTools` | High
+17 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

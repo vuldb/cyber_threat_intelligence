@@ -1,6 +1,6 @@
 # ZHtrap - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [ZHtrap](https://vuldb.com/?actor.zhtrap). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [ZHtrap](https://vuldb.com/?actor.zhtrap). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zhtrap](https://vuldb.com/?actor.zhtrap)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ZHtrap:
 
-* US
-* LU
-* CA
+* [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -21,16 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 46.101.61.9 | 609740.cloudwaysapps.com | - | High
-2 | 51.79.157.89 | vps-41c87cd5.vps.ovh.ca | - | High
-3 | 51.178.54.234 | - | - | High
+1 | [46.101.61.9](https://vuldb.com/?ip.46.101.61.9) | 609740.cloudwaysapps.com | - | High
+2 | [51.79.157.89](https://vuldb.com/?ip.51.79.157.89) | vps-41c87cd5.vps.ovh.ca | - | High
+3 | [51.178.54.234](https://vuldb.com/?ip.51.178.54.234) | - | - | High
 4 | ... | ... | ... | ...
 
 There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by ZHtrap. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ZHtrap_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -54,12 +54,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
 6 | File | `/master/core/PostHandler.php` | High
 7 | File | `/preferences/tags` | High
-8 | File | `account/login.php` | High
-9 | File | `admin.php/admin/admin/del/ids/<id>.html` | High
-10 | File | `arch/x86/events/intel/ds.c` | High
+8 | File | `/royal_event/companyprofile.php` | High
+9 | File | `account/login.php` | High
+10 | File | `admin.php/admin/admin/del/ids/<id>.html` | High
 11 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

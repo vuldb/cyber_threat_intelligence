@@ -1,6 +1,6 @@
 # Taidoor - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Taidoor](https://vuldb.com/?actor.taidoor). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Taidoor](https://vuldb.com/?actor.taidoor). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.taidoor](https://vuldb.com/?actor.taidoor)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Taidoor:
 
-* CN
-* US
-* SE
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [SE](https://vuldb.com/?country.se)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -21,19 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 58.40.20.165 | - | - | High
-2 | 60.248.216.194 | 60-248-216-194.hinet-ip.hinet.net | - | High
-3 | 60.249.219.82 | 60-249-219-82.hinet-ip.hinet.net | - | High
-4 | 60.250.39.73 | 60-250-39-73.hinet-ip.hinet.net | - | High
-5 | 61.218.233.51 | 61-218-233-51.hinet-ip.hinet.net | - | High
-6 | 61.222.190.100 | 61-222-190-100.hinet-ip.hinet.net | - | High
+1 | [58.40.20.165](https://vuldb.com/?ip.58.40.20.165) | - | - | High
+2 | [60.248.216.194](https://vuldb.com/?ip.60.248.216.194) | 60-248-216-194.hinet-ip.hinet.net | - | High
+3 | [60.249.219.82](https://vuldb.com/?ip.60.249.219.82) | 60-249-219-82.hinet-ip.hinet.net | - | High
+4 | [60.250.39.73](https://vuldb.com/?ip.60.250.39.73) | 60-250-39-73.hinet-ip.hinet.net | - | High
+5 | [61.218.233.51](https://vuldb.com/?ip.61.218.233.51) | 61-218-233-51.hinet-ip.hinet.net | - | High
+6 | [61.222.190.100](https://vuldb.com/?ip.61.222.190.100) | 61-222-190-100.hinet-ip.hinet.net | - | High
 7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Taidoor. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Taidoor_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

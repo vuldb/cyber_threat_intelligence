@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [5.189.145.248](https://vuldb.com/?ip.5.189.145.248) | ip-248-145-189-5.static.contabo.net | - | High
 5 | [5.189.152.147](https://vuldb.com/?ip.5.189.152.147) | ccloud.armax.de | - | High
 6 | [5.189.167.23](https://vuldb.com/?ip.5.189.167.23) | mltx.de | - | High
-7 | ... | ... | ... | ...
+7 | [5.189.167.65](https://vuldb.com/?ip.5.189.167.65) | vmi437585.contaboserver.net | - | High
+8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,33 +66,37 @@ ID | Type | Indicator | Confidence
 6 | File | `/exponentcms/administration/configure_site` | High
 7 | File | `/export` | Low
 8 | File | `/forum/away.php` | High
-9 | File | `/goform/setVLAN` | High
-10 | File | `/horde/util/go.php` | High
-11 | File | `/lab.html` | Medium
-12 | File | `/out.php` | Medium
-13 | File | `/products/details.asp` | High
-14 | File | `/sm/api/v1/firewall/zone/services` | High
-15 | File | `/spacecom/login.php` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-18 | File | `acknowledge.c` | High
-19 | File | `actions/CompanyDetailsSave.php` | High
-20 | File | `adclick.php` | Medium
-21 | File | `add_comment.php` | High
-22 | File | `admin/inc/template_functions.php` | High
-23 | File | `admincp/attachment.php` | High
-24 | File | `administrator/components/com_media/helpers/media.php` | High
-25 | File | `adminpasswd.cgi` | High
-26 | File | `apps/calendar/ajax/event/new.php` | High
-27 | ... | ... | ...
+9 | File | `/fudforum/index.php` | High
+10 | File | `/goform/setVLAN` | High
+11 | File | `/horde/util/go.php` | High
+12 | File | `/lab.html` | Medium
+13 | File | `/out.php` | Medium
+14 | File | `/products/details.asp` | High
+15 | File | `/sm/api/v1/firewall/zone/services` | High
+16 | File | `/spacecom/login.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+19 | File | `acknowledge.c` | High
+20 | File | `actions/CompanyDetailsSave.php` | High
+21 | File | `adclick.php` | Medium
+22 | File | `add_comment.php` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/conf_users_edit.php` | High
+25 | File | `admin/inc/template_functions.php` | High
+26 | File | `admincp/attachment.php` | High
+27 | File | `administrator/components/com_media/helpers/media.php` | High
+28 | File | `adminpasswd.cgi` | High
+29 | File | `admsession.php` | High
+30 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2021/09/14/apt-group-targets-indian-defense-officials-through-enhanced-ttps/
+* https://blog.talosintelligence.com/2022/03/transparent-tribe-new-campaign.html
 * https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
 * https://www.threatminer.org/report.php?q=APTGroupSendsSpearPhishingEmailstoIndianGovernmentOfficials%C2%ABThreatResearchBlog_FireEyeInc.pdf&y=2016
 * https://www.threatminer.org/report.php?q=MalwareActorsUsingNICCyberSecurityThemedSpearPhishingtoTargetIndianGovernmentOrganizations-Cysinfo.pdf&y=2016

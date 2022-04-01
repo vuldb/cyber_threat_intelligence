@@ -27,7 +27,7 @@ There are 16 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by Chimera. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Chimera_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -45,39 +45,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `./clients/client` | High
-2 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+2 | File | `//` | Low
 3 | File | `/assets/ctx` | Medium
 4 | File | `/cgi-bin/luci` | High
 5 | File | `/cgi-bin/portal` | High
-6 | File | `/cimom` | Low
-7 | File | `/config/getuser` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/gcp/roleset/*` | High
-10 | File | `/horde/util/go.php` | High
-11 | File | `/hostapd` | Medium
-12 | File | `/IISADMPWD` | Medium
-13 | File | `/iisadmpwd` | Medium
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/MTFWU` | Low
-16 | File | `/my_photo_gallery/image.php` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rest/api/1.0/render` | High
-20 | File | `/rest/api/latest/user/avatar/temporary` | High
-21 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/sm/api/v1/firewall/zone/services` | High
-24 | File | `/sys/attachment/uploaderServlet` | High
-25 | File | `/uncpath/` | Medium
+6 | File | `/config/getuser` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/horde/util/go.php` | High
+9 | File | `/hostapd` | Medium
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/MTFWU` | Low
+12 | File | `/my_photo_gallery/image.php` | High
+13 | File | `/ptms/classes/Users.php` | High
+14 | File | `/public/admin.php` | High
+15 | File | `/public/login.htm` | High
+16 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/rest/api/1.0/render` | High
+19 | File | `/rest/api/latest/user/avatar/temporary` | High
+20 | File | `/s/` | Low
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/sm/api/v1/firewall/zone/services` | High
+23 | File | `/sys/attachment/uploaderServlet` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/user-utils/users/md5.json` | High
 26 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-27 | File | `/users/{id}` | Medium
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-json` | Medium
-32 | ... | ... | ...
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/wp-json` | Medium
+30 | File | `102/tcp` | Low
+31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin.remository.php` | High
+34 | File | `admin/conf_users_edit.php` | High
+35 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

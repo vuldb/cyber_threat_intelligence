@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Amnesty International and Pegasus:
 
+* [US](https://vuldb.com/?country.us)
 * [UA](https://vuldb.com/?country.ua)
 
 ## Actors
@@ -27,6 +28,14 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [87.249.53.124](https://vuldb.com/?ip.87.249.53.124) | 713697-cj66716.tmweb.ru | [Sarwent](https://vuldb.com/?actor.sarwent) | High
 2 | [185.215.113.67](https://vuldb.com/?ip.185.215.113.67) | - | [Sarwent](https://vuldb.com/?actor.sarwent) | High
 3 | [194.9.71.129](https://vuldb.com/?ip.194.9.71.129) | free.gmhost.hosting | [Sarwent](https://vuldb.com/?actor.sarwent) | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Amnesty International and Pegasus. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `rpc.statd` | Medium
 
 ## References
 

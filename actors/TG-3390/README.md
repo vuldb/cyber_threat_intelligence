@@ -1,6 +1,6 @@
 # TG-3390 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [TG-3390](https://vuldb.com/?actor.tg-3390). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [TG-3390](https://vuldb.com/?actor.tg-3390). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.tg-3390](https://vuldb.com/?actor.tg-3390)
 
@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with TG-3390:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TG-3390:
 
-* US
-* CN
-* ES
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,22 +29,22 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 43.242.35.13 | - | Gh0st RAT | High
-2 | 43.242.35.16 | - | Gh0st RAT | High
-3 | 45.114.9.174 | - | Bronze Union | High
-4 | 49.143.192.221 | - | - | High
-5 | 49.143.205.30 | - | - | High
-6 | 66.63.178.142 | unassigned.quadranet.com | - | High
-7 | 67.215.232.179 | ed-cricalf.latention.com | - | High
-8 | 67.215.232.181 | ninths.latention.com | - | High
-9 | 67.215.232.182 | 67.215.232.182.static.quadranet.com | - | High
+1 | [43.242.35.13](https://vuldb.com/?ip.43.242.35.13) | - | Gh0st RAT | High
+2 | [43.242.35.16](https://vuldb.com/?ip.43.242.35.16) | - | Gh0st RAT | High
+3 | [45.114.9.174](https://vuldb.com/?ip.45.114.9.174) | - | Bronze Union | High
+4 | [49.143.192.221](https://vuldb.com/?ip.49.143.192.221) | - | - | High
+5 | [49.143.205.30](https://vuldb.com/?ip.49.143.205.30) | - | - | High
+6 | [66.63.178.142](https://vuldb.com/?ip.66.63.178.142) | unassigned.quadranet.com | - | High
+7 | [67.215.232.179](https://vuldb.com/?ip.67.215.232.179) | ed-cricalf.latention.com | - | High
+8 | [67.215.232.181](https://vuldb.com/?ip.67.215.232.181) | ninths.latention.com | - | High
+9 | [67.215.232.182](https://vuldb.com/?ip.67.215.232.182) | 67.215.232.182.static.quadranet.com | - | High
 10 | ... | ... | ... | ...
 
 There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by TG-3390. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _TG-3390_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,9 +95,10 @@ ID | Type | Indicator | Confidence
 32 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 33 | File | `affich.php` | Medium
 34 | File | `agent/Core/Controller/SendRequest.cpp` | High
-35 | ... | ... | ...
+35 | File | `album_portal.php` | High
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

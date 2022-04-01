@@ -1,57 +1,61 @@
 # Evilnum - Cyber Threat Intelligence
 
-The indicators are related to [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Evilnum](https://vuldb.com/?actor.evilnum). The activity monitoring correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, activities, intentions, emerging research, and attacks. Our unique predictive model is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Evilnum](https://vuldb.com/?actor.evilnum). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
-Live data and more analysis capabilities are available at [https://vuldb.com/?actor.evilnum](https://vuldb.com/?actor.evilnum)
+_Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.evilnum](https://vuldb.com/?actor.evilnum)
 
 ## Countries
 
-These countries are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Evilnum:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Evilnum:
 
-* SE
-* US
-* IO
+* [IO](https://vuldb.com/?country.io)
+* [SE](https://vuldb.com/?country.se)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
-These indicators of compromise indicate associated network ressources which are known to be part of research and attack activities of Evilnum.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Evilnum.
 
-ID | IP address | Hostname | Confidence
--- | ---------- | -------- | ----------
-1 | 139.28.37.63 | 139.28.37.63.deltahost-ptr | High
-2 | 139.28.39.165 | 139.28.39.165.deltahost-ptr | High
-3 | 185.62.190.89 | hosted-by.blazingfast.io | High
+ID | IP address | Hostname | Campaign | Confidence
+-- | ---------- | -------- | -------- | ----------
+1 | [139.28.37.63](https://vuldb.com/?ip.139.28.37.63) | 139.28.37.63.deltahost-ptr | - | High
+2 | [139.28.39.165](https://vuldb.com/?ip.139.28.39.165) | 139.28.39.165.deltahost-ptr | - | High
+3 | [185.62.190.89](https://vuldb.com/?ip.185.62.190.89) | hosted-by.blazingfast.io | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-Tactics, techniques, and procedures summarize the suspected ATT&CK techniques used by Evilnum. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Evilnum_. This data is unique as it uses our predictive model for actor profiling.
 
-ID | Technique | Description | Confidence
--- | --------- | ----------- | ----------
-1 | T1059.007 | Cross Site Scripting | High
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
 
 ## IOA - Indicator of Attack
 
-These indicators of attack list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Evilnum. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Evilnum. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `books.php` | Medium
-2 | File | `Forms/MAI/list.asp` | High
-3 | File | `inc/config.php` | High
-4 | ... | ... | ...
+1 | File | `/etc/shadow` | Medium
+2 | File | `/public/login.htm` | High
+3 | File | `auth-gss2.c` | Medium
+4 | File | `books.php` | Medium
+5 | File | `data/gbconfiguration.dat` | High
+6 | ... | ... | ...
 
-There are 11 more IOA items available. Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
-The following list contains external sources which discuss the actor and the associated activities:
+The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/eset/malware-ioc/tree/master/evilnum
 
 ## Literature
 
-The following articles explain our unique predictive cyber threat intelligence:
+The following _articles_ explain our unique predictive cyber threat intelligence:
 
 * [VulDB Cyber Threat Intelligence Documentation](https://vuldb.com/?kb.cti)
 * [Cyber Threat Intelligence - Early Anticipation of Attacks](https://www.scip.ch/en/?labs.20201022)

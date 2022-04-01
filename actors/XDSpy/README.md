@@ -1,6 +1,6 @@
 # XDSpy - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [XDSpy](https://vuldb.com/?actor.xdspy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [XDSpy](https://vuldb.com/?actor.xdspy). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.xdspy](https://vuldb.com/?actor.xdspy)
 
@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XDSpy:
 
-* US
-* ES
-* GB
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -18,13 +18,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 62.213.213.170 | 62-213-213-170.ip.stuart.be | - | High
-2 | 93.63.198.40 | 93-63-198-40.ip352.fastwebnet.it | - | High
-3 | 95.215.60.53 | 53-60-215-95.cust.briod.net | - | High
+1 | [62.213.213.170](https://vuldb.com/?ip.62.213.213.170) | 62-213-213-170.ip.stuart.be | - | High
+2 | [93.63.198.40](https://vuldb.com/?ip.93.63.198.40) | 93-63-198-40.ip352.fastwebnet.it | - | High
+3 | [95.215.60.53](https://vuldb.com/?ip.95.215.60.53) | 53-60-215-95.cust.briod.net | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by XDSpy. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _XDSpy_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

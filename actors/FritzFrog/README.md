@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
 * [CN](https://vuldb.com/?country.cn)
-* [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -331,12 +331,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -346,28 +346,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
 2 | File | `.htaccess` | Medium
-3 | File | `/../conf/config.properties` | High
-4 | File | `//` | Low
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/apply_noauth.cgi` | High
-9 | File | `/as/authorization.oauth2` | High
-10 | File | `/audit/log/log_management.php` | High
-11 | File | `/bin/login` | Medium
-12 | File | `/cgi-bin/delete_CA` | High
-13 | File | `/cgi-bin/login` | High
-14 | File | `/classes/profile.class.php` | High
-15 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-16 | File | `/config/getuser` | High
+3 | File | `/#/CampaignManager/users` | High
+4 | File | `/../conf/config.properties` | High
+5 | File | `//` | Low
+6 | File | `/admin.php?action=themeinstall` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/as/authorization.oauth2` | High
+11 | File | `/audit/log/log_management.php` | High
+12 | File | `/bin/login` | Medium
+13 | File | `/cgi-bin/delete_CA` | High
+14 | File | `/cgi-bin/login` | High
+15 | File | `/classes/profile.class.php` | High
+16 | File | `/cloud_config/router_post/check_reg_verify_code` | High
 17 | File | `/dev/tty` | Medium
-18 | File | `/export` | Low
-19 | File | `/ghost/preview` | High
-20 | File | `/index.php` | Medium
-21 | File | `/member/index/login.html` | High
-22 | File | `/products/details.asp` | High
-23 | File | `/ptms/classes/Users.php` | High
-24 | File | `/public/login.htm` | High
+18 | File | `/downloads/` | Medium
+19 | File | `/etc/passwd` | Medium
+20 | File | `/export` | Low
+21 | File | `/include/chart_generator.php` | High
+22 | File | `/member/index/login.html` | High
+23 | File | `/modules/certinfo/index.php` | High
+24 | File | `/ptms/classes/Users.php` | High
 25 | File | `/ScadaBR/login.htm` | High
 26 | File | `/system/tool/ping.php` | High
 27 | File | `/uncpath/` | Medium
@@ -377,13 +377,14 @@ ID | Type | Indicator | Confidence
 31 | File | `/wp-admin/admin-ajax.php` | High
 32 | File | `/_matrix/client/r0/auth/m.login.recaptcha` | High
 33 | File | `?location=search` | High
-34 | File | `account/login.php` | High
-35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-36 | File | `acrord32.exe` | Medium
-37 | File | `admin.php` | Medium
-38 | ... | ... | ...
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `acrord32.exe` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?m=backup&c=backup&a=doback` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ There are 19 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _WatchDog_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _WatchDog_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -54,23 +54,23 @@ ID | Type | Indicator | Confidence
 3 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
 4 | File | `/cgi-bin/editBookmark` | High
 5 | File | `/chat_im/chat_window.php` | High
-6 | File | `/etc/openstack-dashboard/local_settings` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/filemanager/upload.php` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/SetNetControlList` | High
-11 | File | `/include/menu_v.inc.php` | High
-12 | File | `/MagickCore/statistic.c` | High
-13 | File | `/proc/pid/syscall` | High
-14 | File | `/Search-Results` | High
-15 | File | `/var/log/pcp/configs.sh` | High
-16 | File | `/visualizza_tabelle.php` | High
-17 | File | `a2m.cpp` | Low
-18 | File | `admin.php` | Medium
-19 | File | `admin.php?m=backup&c=backup&a=doback` | High
+6 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+7 | File | `/etc/openstack-dashboard/local_settings` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/filemanager/upload.php` | High
+10 | File | `/goform/addressNat` | High
+11 | File | `/goform/SetNetControlList` | High
+12 | File | `/include/menu_v.inc.php` | High
+13 | File | `/MagickCore/statistic.c` | High
+14 | File | `/proc/pid/syscall` | High
+15 | File | `/Search-Results` | High
+16 | File | `/var/log/pcp/configs.sh` | High
+17 | File | `/visualizza_tabelle.php` | High
+18 | File | `a2m.cpp` | Low
+19 | File | `admin.php` | Medium
 20 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

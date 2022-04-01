@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,13 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
 23 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
 24 | [45.33.83.75](https://vuldb.com/?ip.45.33.83.75) | li1029-75.members.linode.com | - | High
-25 | [45.128.184.132](https://vuldb.com/?ip.45.128.184.132) | vds107519.mgn-host.ru | - | High
-26 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
-27 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
-28 | ... | ... | ... | ...
+25 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
+26 | [45.128.184.132](https://vuldb.com/?ip.45.128.184.132) | vds107519.mgn-host.ru | - | High
+27 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
+28 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
+29 | ... | ... | ... | ...
 
-There are 109 more IOC items available. Please use our online service to access the data.
+There are 112 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,9 +104,10 @@ ID | Type | Indicator | Confidence
 30 | File | `/usr/bin/pkexec` | High
 31 | File | `/way4acs/enroll` | High
 32 | File | `/WEB-INF/web.xml` | High
-33 | ... | ... | ...
+33 | File | `/wp-json/wc/v3/webhooks` | High
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +126,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
+* https://isc.sans.edu/forums/diary/Malspam+pushing+Lokibot+malware/24372/
+* https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.01.06(1)/LokiBot%20Infection%20Chain.pdf
 
 ## Literature

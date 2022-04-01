@@ -1,6 +1,6 @@
 # FIN8 - Cyber Threat Intelligence
 
-These _indicators_ were collected during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FIN8](https://vuldb.com/?actor.fin8). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ is able to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [FIN8](https://vuldb.com/?actor.fin8). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.fin8](https://vuldb.com/?actor.fin8)
 
@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with FIN8:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN8:
 
-* US
-* CN
-* IT
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -27,16 +27,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | 104.168.145.204 | hwsrv-836597.hostwindsdns.com | Badhatch | High
-2 | 104.168.237.21 | hwsrv-850035.hostwindsdns.com | - | High
-3 | 192.52.167.199 | mx312.punkchaine.net | Badhatch | High
+1 | [104.168.145.204](https://vuldb.com/?ip.104.168.145.204) | hwsrv-836597.hostwindsdns.com | Badhatch | High
+2 | [104.168.237.21](https://vuldb.com/?ip.104.168.237.21) | hwsrv-850035.hostwindsdns.com | - | High
+3 | [192.52.167.199](https://vuldb.com/?ip.192.52.167.199) | mx312.punkchaine.net | Badhatch | High
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by FIN8. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _FIN8_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
-* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,24 +72,27 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/configure.php` | High
 4 | File | `/admin/index.php?lfj=member&action=editmember` | High
 5 | File | `/admin/login.php` | High
-6 | File | `/apilog.php` | Medium
-7 | File | `/box_code_base.c` | High
-8 | File | `/cloud_config/router_post/upgrade_info` | High
-9 | File | `/forgetpassword.php` | High
-10 | File | `/formAdvFirewall` | High
-11 | File | `/function/booksave.php` | High
-12 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-13 | File | `/moddable/xs/sources/xsDataView.c` | High
-14 | File | `/ok_png.c` | Medium
-15 | File | `abc2ps.c` | Medium
-16 | File | `acknow.php` | Medium
-17 | File | `adminlogin.php` | High
-18 | File | `admin_home.php` | High
-19 | File | `alfresco/s/admin/admin-nodebrowser` | High
-20 | File | `allocator.cc` | Medium
-21 | ... | ... | ...
+6 | File | `/admin/modules/system/custom_field.php` | High
+7 | File | `/alerts/alertLightbox.php` | High
+8 | File | `/api /v3/auth` | High
+9 | File | `/apilog.php` | Medium
+10 | File | `/box_code_base.c` | High
+11 | File | `/cloud_config/router_post/upgrade_info` | High
+12 | File | `/forgetpassword.php` | High
+13 | File | `/formAdvFirewall` | High
+14 | File | `/function/booksave.php` | High
+15 | File | `/goform/SetInternetLanInfo` | High
+16 | File | `/goform/setPicListItem` | High
+17 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+18 | File | `/moddable/xs/sources/xsDataView.c` | High
+19 | File | `/ok_png.c` | Medium
+20 | File | `/one_church/userregister.php` | High
+21 | File | `acknow.php` | Medium
+22 | File | `adminlogin.php` | High
+23 | File | `admin_home.php` | High
+24 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

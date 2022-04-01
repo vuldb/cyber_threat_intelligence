@@ -35,9 +35,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | DDoS Ukraine | High
 5 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | DDoS Ukraine | High
 6 | [45.88.181.46](https://vuldb.com/?ip.45.88.181.46) | pelko.incifios.org.uk | - | High
-7 | ... | ... | ... | ...
+7 | [45.134.225.20](https://vuldb.com/?ip.45.134.225.20) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,9 +74,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/usr/sbin/httpd` | High
 14 | File | `adclick.php` | Medium
 15 | File | `admin.php` | Medium
-16 | ... | ... | ...
+16 | File | `admin/scripts/FileUploader/php.php` | High
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,6 +90,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.netlab.360.com/wei-xie-kuai-xun-log4jlou-dong-yi-jing-bei-yong-lai-zu-jian-botnet-zhen-dui-linuxshe-bei/
 * https://blog.netlab.360.com/wo-men-kan-dao-de-wu-ke-lan-bei-ddosgong-ji-xi-jie/
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
+* https://isc.sans.edu/forums/diary/Mirai+Botnet+Activity/26234/
+* https://isc.sans.edu/forums/diary/Scanning+Activity+end+Goal+is+to+add+Hosts+to+Mirai+Botnet/24450/
 * https://isc.sans.edu/forums/diary/Zyxel+Network+Storage+Devices+Hunted+By+Mirai+Variant/28324/
 * https://urlhaus.abuse.ch/host/185.243.56.167/
 

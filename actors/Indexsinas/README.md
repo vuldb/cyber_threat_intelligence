@@ -287,12 +287,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,23 +300,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin/contenttemp` | High
-3 | File | `/api/crontab` | Medium
-4 | File | `/api/fetch` | Medium
-5 | File | `/cgi-bin/uploadAccessCodePic` | High
-6 | File | `/cgi-bin/uploadWeiXinPic` | High
-7 | File | `/controller/Index.php` | High
-8 | File | `/core/conditions/AbstractWrapper.java` | High
-9 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-10 | File | `/factor/avx-ecm/vecarith52.c` | High
-11 | File | `/goform/exeCommand` | High
-12 | File | `/goform/SetLanInfo` | High
-13 | File | `/goform/setWorkmode` | High
-14 | File | `/mims/app/addcustomerHandler.php` | High
-15 | ... | ... | ...
+1 | File | `/admin.php/admin/plog/index.html` | High
+2 | File | `/admin.php/admin/ulog/index.html` | High
+3 | File | `/admin.php/admin/vod/data.html` | High
+4 | File | `/admin.php/admin/website/data.html` | High
+5 | File | `/admin/export/getcsv/article_db` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+9 | File | `/cgi-bin/uploadAccessCodePic` | High
+10 | File | `/cgi-bin/uploadWeiXinPic` | High
+11 | File | `/config/list` | Medium
+12 | File | `/data/sqldata` | High
+13 | File | `/feedback/post/` | High
+14 | File | `/goform/delAd` | High
+15 | File | `/goform/exeCommand` | High
+16 | File | `/goform/setAdInfoDetail` | High
+17 | File | `/goform/setFixTools` | High
+18 | File | `/goform/SetInternetLanInfo` | High
+19 | File | `/goform/SetLanInfo` | High
+20 | File | `/goform/setPicListItem` | High
+21 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

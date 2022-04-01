@@ -74,7 +74,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,19 +110,20 @@ ID | Type | Indicator | Confidence
 26 | File | `adclick.php` | Medium
 27 | File | `addentry.php` | Medium
 28 | File | `admin.cgi?action=upgrade` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/executar_login.php` | High
-31 | File | `admin/index.php?mode=tools&page=upload` | High
-32 | File | `admin/pageUploadCSV.php` | High
-33 | File | `admin/setting.php` | High
-34 | File | `ajax/aj_*.php` | High
-35 | File | `alipay/alipayapi.php` | High
-36 | File | `AppCompatCache.exe` | High
-37 | File | `auth.inc.php` | Medium
-38 | File | `auth.py` | Low
-39 | ... | ... | ...
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/executar_login.php` | High
+32 | File | `admin/index.php?mode=tools&page=upload` | High
+33 | File | `admin/pageUploadCSV.php` | High
+34 | File | `admin/setting.php` | High
+35 | File | `ajax/aj_*.php` | High
+36 | File | `alipay/alipayapi.php` | High
+37 | File | `AppCompatCache.exe` | High
+38 | File | `auth.inc.php` | Medium
+39 | File | `auth.py` | Low
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

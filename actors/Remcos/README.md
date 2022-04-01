@@ -66,7 +66,7 @@ ID | IP address | Hostname | Campaign | Confidence
 37 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
 38 | ... | ... | ... | ...
 
-There are 147 more IOC items available. Please use our online service to access the data.
+There are 150 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -143,6 +143,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0318-0325.html
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
+* https://isc.sans.edu/forums/diary/Malspam+using+passwordprotected+Word+docs+to+push+Remcos+RAT/25292/
 
 ## Literature
 

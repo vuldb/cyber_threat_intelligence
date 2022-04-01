@@ -26,7 +26,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultr.com | [BlackTech](https://vuldb.com/?actor.blacktech) | Medium
+1 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultrusercontent.com | [TSCookie](https://vuldb.com/?actor.tscookie) | High
 2 | [60.244.52.29](https://vuldb.com/?ip.60.244.52.29) | 60-244-52-29.tinp.apol.com.tw | [TSCookie](https://vuldb.com/?actor.tscookie) | High
 3 | [220.130.216.76](https://vuldb.com/?ip.220.130.216.76) | 220-130-216-76.hinet-ip.hinet.net | [TSCookie](https://vuldb.com/?actor.tscookie) | High
 
@@ -54,6 +54,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html
+* https://blogs.jpcert.or.jp/ja/2018/03/tscookie.html
 * https://www.threatminer.org/report.php?q=JPCERT_CCBlog_MalwareTSCookie_JP-CERT.pdf&y=2018
 
 ## Literature

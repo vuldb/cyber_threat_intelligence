@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,16 +40,16 @@ There are 25 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Moobot_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Moobot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,44 +57,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/cloud.php` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/api/document/<DocumentID>/attachments` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/cgi-bin/` | Medium
-6 | File | `/coders/pdf.c` | High
-7 | File | `/core/admin/categories.php` | High
-8 | File | `/coreframe/app/order/admin/card.php` | High
-9 | File | `/device/device=345/?tab=ports` | High
-10 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-11 | File | `/eshop/products/json/aouCustomerAdresse` | High
-12 | File | `/etc/config/cameo` | High
-13 | File | `/etc/environment` | High
-14 | File | `/extensionsinstruction` | High
-15 | File | `/goods/getGoodsListByConditions/` | High
-16 | File | `/includes/lib/tree.php` | High
-17 | File | `/MagickCore/quantize.c` | High
-18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-19 | File | `/member/index/login.html` | High
-20 | File | `/moddable/xs/sources/xsScript.c` | High
-21 | File | `/moddable/xs/sources/xsSymbol.c` | High
-22 | File | `/music/ajax.php` | High
-23 | File | `/nagioslogserver/configure/create_snapshot` | High
-24 | File | `/nova/bin/lcdstat` | High
-25 | File | `/orms/` | Low
-26 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-27 | File | `/rest/api/2/user/picker` | High
-28 | File | `/rsms/` | Low
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/src/njs_vmcode.c` | High
-31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-32 | File | `/syscmd.asp` | Medium
-33 | File | `/system?action=ServiceAdmin` | High
-34 | File | `/tmp` | Low
-35 | File | `/uncpath/` | Medium
-36 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/admin/cloud.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/api/document/<DocumentID>/attachments` | High
+5 | File | `/cgi-bin/uploadWeiXinPic` | High
+6 | File | `/core/admin/categories.php` | High
+7 | File | `/coreframe/app/order/admin/card.php` | High
+8 | File | `/DsaDataTest` | Medium
+9 | File | `/eshop/products/json/aouCustomerAdresse` | High
+10 | File | `/etc/config/cameo` | High
+11 | File | `/etc/environment` | High
+12 | File | `/extensionsinstruction` | High
+13 | File | `/goform/setWorkmode` | High
+14 | File | `/goods/getGoodsListByConditions/` | High
+15 | File | `/member/index/login.html` | High
+16 | File | `/moddable/xs/sources/xsScript.c` | High
+17 | File | `/moddable/xs/sources/xsSymbol.c` | High
+18 | File | `/music/ajax.php` | High
+19 | File | `/nagioslogserver/configure/create_snapshot` | High
+20 | File | `/nova/bin/lcdstat` | High
+21 | File | `/orms/` | Low
+22 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+23 | File | `/rest/api/2/user/picker` | High
+24 | File | `/rsms/` | Low
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/src/njs_vmcode.c` | High
+27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+28 | File | `/syscmd.asp` | Medium
+29 | File | `/system?action=ServiceAdmin` | High
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
+32 | File | `/uploads/dede` | High
+33 | File | `/user/add` | Medium
+34 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

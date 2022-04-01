@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [FR](https://vuldb.com/?country.fr)
-* [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -38,7 +38,7 @@ There are 13 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within Wocao. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Wocao. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -55,33 +55,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin-panel1.php` | High
-2 | File | `/admin/admin_manage/delete` | High
-3 | File | `/administrator/components/table_manager/` | High
-4 | File | `/adminzone/index.php?page=admin-commandr` | High
-5 | File | `/anony/mjpg.cgi` | High
-6 | File | `/api/servers` | Medium
-7 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-8 | File | `/core/admin/comment.php` | High
-9 | File | `/data-service/users/` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/etc/wpa_supplicant.conf` | High
-12 | File | `/goform/SetPptpServerCfg` | High
-13 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-14 | File | `/js/app.js` | Medium
-15 | File | `/js/js-parser.c` | High
-16 | File | `/main?cmd=invalid_browser` | High
-17 | File | `/mdiy/dict/listExcludeApp` | High
-18 | File | `/ms/file/uploadTemplate.do` | High
-19 | File | `/ok_jpg.c` | Medium
-20 | File | `/ok_png.c` | Medium
-21 | File | `/ping.html` | Medium
-22 | File | `/rootfs` | Low
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | ... | ... | ...
+1 | File | `/.htaccess` | Medium
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin.php/admin/art/data.html` | High
+4 | File | `/admin.php/admin/ulog/index.html` | High
+5 | File | `/admin.php/admin/vod/data.html` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/templates/template_manage.php` | High
+8 | File | `/api/servers` | Medium
+9 | File | `/api /v3/auth` | High
+10 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+11 | File | `/cgi-bin/uploadAccessCodePic` | High
+12 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
+13 | File | `/cloud_config/router_post/upgrade_info` | High
+14 | File | `/data/sqldata` | High
+15 | File | `/DataPackageTable` | High
+16 | File | `/download/` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/factor/avx-ecm/vecarith52.c` | High
+19 | File | `/goform/delAd` | High
+20 | File | `/goform/form2Reboot.cgi` | High
+21 | File | `/goform/SetLanInfo` | High
+22 | File | `/goform/SetPptpServerCfg` | High
+23 | File | `/i/:data/ipa.plist` | High
+24 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+25 | File | `/js/js-parser.c` | High
+26 | File | `/mdiy/dict/listExcludeApp` | High
+27 | File | `/ms/file/uploadTemplate.do` | High
+28 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

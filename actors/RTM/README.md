@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -42,7 +42,7 @@ There are 36 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by RTM. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _RTM_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,40 +65,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/config.php?display=disa&view=form` | High
 5 | File | `/category_view.php` | High
 6 | File | `/dev/kmem` | Medium
-7 | File | `/medical/inventories.php` | High
-8 | File | `/monitoring` | Medium
-9 | File | `/NAGErrors` | Medium
-10 | File | `/plugins/servlet/audit/resource` | High
-11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-12 | File | `/PreviewHandler.ashx` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/rom-0` | Low
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-admin/admin.php` | High
-22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-23 | File | `abook_database.php` | High
-24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/login.php` | High
-27 | File | `admin\model\catalog\download.php` | High
-28 | File | `ajax/render/widget_php` | High
-29 | File | `apcupsd.pid` | Medium
-30 | File | `api/sms/send-sms` | High
-31 | File | `api/v1/alarms` | High
-32 | File | `application/controller/InstallerController.php` | High
-33 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-34 | File | `arformcontroller.php` | High
-35 | File | `auth-gss2.c` | Medium
-36 | File | `auth-options.c` | High
-37 | File | `Auth/Manager.php` | High
-38 | ... | ... | ...
+7 | File | `/file?action=download&file` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/NAGErrors` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/PreviewHandler.ashx` | High
+14 | File | `/proc/ioports` | High
+15 | File | `/replication` | Medium
+16 | File | `/RestAPI` | Medium
+17 | File | `/rom-0` | Low
+18 | File | `/tmp` | Low
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/wp-admin/admin.php` | High
+23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+24 | File | `abook_database.php` | High
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin/login.php` | High
+28 | File | `admin\model\catalog\download.php` | High
+29 | File | `ajax/render/widget_php` | High
+30 | File | `apcupsd.pid` | Medium
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | File | `application/controller/InstallerController.php` | High
+34 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+35 | File | `arformcontroller.php` | High
+36 | File | `auth-gss2.c` | Medium
+37 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

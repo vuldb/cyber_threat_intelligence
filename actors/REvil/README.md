@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 17 | File | `admin/categories_industry.php` | High
 18 | ... | ... | ...
 
-There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,12 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | - | High
-2 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | - | High
-3 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | - | High
-4 | ... | ... | ... | ...
+1 | [8.208.9.98](https://vuldb.com/?ip.8.208.9.98) | - | - | High
+2 | [8.208.77.171](https://vuldb.com/?ip.8.208.77.171) | - | - | High
+3 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | - | High
+4 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | - | High
+5 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | - | High
+6 | [31.44.184.36](https://vuldb.com/?ip.31.44.184.36) | - | - | High
+7 | [45.40.182.1](https://vuldb.com/?ip.45.40.182.1) | ip-45-40-182-1.ip.secureserver.net | - | High
+8 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,40 +59,43 @@ ID | Type | Indicator | Confidence
 6 | File | `/images/` | Medium
 7 | File | `/inc/parser/xhtml.php` | High
 8 | File | `/login` | Low
-9 | File | `/mgmt/shared/authz/users/` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/objects/getImageMP4.php` | High
-12 | File | `/one_church/userregister.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/public/plugins/` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-19 | File | `/system/proxy` | High
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `add.php` | Low
-24 | File | `addentry.php` | Medium
-25 | File | `addressbookprovider.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/objects/getImageMP4.php` | High
+11 | File | `/one_church/userregister.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/public/plugins/` | High
+14 | File | `/SASWebReportStudio/logonAndRender.do` | High
+15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+18 | File | `/system/proxy` | High
+19 | File | `/tmp/phpglibccheck` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `adclick.php` | Medium
+22 | File | `add.php` | Low
+23 | File | `addentry.php` | Medium
+24 | File | `addressbookprovider.php` | High
+25 | File | `admin.cropcanvas.php` | High
 26 | File | `admin.jcomments.php` | High
 27 | File | `admin.php` | Medium
-28 | File | `admin/pageUploadCSV.php` | High
-29 | File | `ajax_udf.php` | Medium
-30 | File | `AppCompatCache.exe` | High
-31 | File | `application.js.php` | High
-32 | File | `arm/lithium-codegen-arm.cc` | High
-33 | File | `authenticate.c` | High
+28 | File | `admin/dashboard.php` | High
+29 | File | `admin/pageUploadCSV.php` | High
+30 | File | `ajax_udf.php` | Medium
+31 | File | `AppCompatCache.exe` | High
+32 | File | `application.js.php` | High
+33 | File | `arm/lithium-codegen-arm.cc` | High
 34 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://isc.sans.edu/forums/diary/Campaign+evolution+Hancitor+changes+its+Word+macros/24376/
+* https://isc.sans.edu/forums/diary/Campaign+evolution+Hancitor+malspam+starts+pushing+Ursnif+this+week/24256/
 * https://isc.sans.edu/forums/diary/Hancitor+activity+resumes+after+a+hoilday+break/26980/
+* https://isc.sans.edu/forums/diary/Hancitor+distributed+through+coronavirusthemed+malspam/25892/
 * https://isc.sans.edu/forums/diary/Hancitor+tries+XLL+as+initial+malware+file/27618/
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,6 +27,14 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | ... | ... | ... | ...
 
 There are 4 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Kraken_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 
 ## IOA - Indicator of Attack
 

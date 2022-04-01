@@ -74,11 +74,11 @@ ID | Type | Indicator | Confidence
 28 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_vooc.c` | High
 29 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
 30 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
-31 | File | `/tools/network-trace` | High
-32 | File | `/user/release.html` | High
+31 | File | `/tmp/swhks.pid` | High
+32 | File | `/tools/network-trace` | High
 33 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

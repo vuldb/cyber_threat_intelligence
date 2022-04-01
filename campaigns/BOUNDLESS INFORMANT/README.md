@@ -99,9 +99,10 @@ ID | Type | Indicator | Confidence
 39 | File | `auth.inc.php` | Medium
 40 | File | `auth.py` | Low
 41 | File | `auth2-gss.c` | Medium
-42 | ... | ... | ...
+42 | File | `authent.php4` | Medium
+43 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

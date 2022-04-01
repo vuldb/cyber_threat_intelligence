@@ -44,7 +44,7 @@ There are 66 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by SpyEye. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SpyEye_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 11 | File | `classes/SystemSettings.php` | High
 12 | File | `classified.php` | High
 13 | File | `coders/mat.c` | Medium
-14 | ... | ... | ...
+14 | File | `comments.php` | Medium
+15 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,18 +68,18 @@ ID | Type | Indicator | Confidence
 15 | File | `/ManageRoute/postRoute` | High
 16 | File | `/message-bus/_diagnostics` | High
 17 | File | `/ms/cms/content/list.do` | High
-18 | File | `/plugin/jcapture/applet.php` | High
-19 | File | `/preferences/tags` | High
-20 | File | `/proc/<pid>/status` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/rest-service-fecru/server-v1` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/EditSubscription.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/tmp` | Low
+18 | File | `/one_church/churchprofile.php` | High
+19 | File | `/proc/<pid>/status` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rest-service-fecru/server-v1` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/EditSubscription.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/tmp` | Low
+26 | File | `/uncpath/` | Medium
 27 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

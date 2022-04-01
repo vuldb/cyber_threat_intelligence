@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,31 +69,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin.add` | Medium
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
-5 | File | `/admin/customers.php?page=1&cID` | High
-6 | File | `/admin/edit_user.php` | High
-7 | File | `/admin/files` | Medium
-8 | File | `/admin/login.php` | High
-9 | File | `/administrator/components/menu/` | High
-10 | File | `/administrator/components/table_manager/` | High
-11 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
-12 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
-13 | File | `/api/fetch` | Medium
-14 | File | `/api/ZRMesh/set_ZRMesh` | High
-15 | File | `/audit/log/log_management.php` | High
-16 | File | `/cloud_config/router_post/register` | High
-17 | File | `/cwms/admin/?page=articles/view_article/` | High
-18 | File | `/Hospital-Management-System-master/contact.php` | High
-19 | File | `/Hospital-Management-System-master/func.php` | High
-20 | File | `/i/:data/ipa.plist` | High
-21 | File | `/jerry-core/ecma/base/ecma-lcache.c` | High
-22 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+3 | File | `/admin.php/admin/art/data.html` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/admin.php?module=admin_access_group_edit&aagID` | High
+6 | File | `/admin/customers.php?page=1&cID` | High
+7 | File | `/admin/edit_user.php` | High
+8 | File | `/admin/files` | Medium
+9 | File | `/admin/login.php` | High
+10 | File | `/administrator/components/menu/` | High
+11 | File | `/administrator/components/table_manager/` | High
+12 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
+13 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
+14 | File | `/api/fetch` | Medium
+15 | File | `/api/user/{ID}` | High
+16 | File | `/audit/log/log_management.php` | High
+17 | File | `/cloud_config/router_post/register` | High
+18 | File | `/config/list` | Medium
+19 | File | `/cwms/admin/?page=articles/view_article/` | High
+20 | File | `/Hospital-Management-System-master/contact.php` | High
+21 | File | `/Hospital-Management-System-master/func.php` | High
+22 | File | `/i/:data/ipa.plist` | High
 23 | File | `/jerry-core/jmem/jmem-heap.c` | High
 24 | File | `/ManageRoute/postRoute` | High
-25 | ... | ... | ...
+25 | File | `/ms/cms/content/list.do` | High
+26 | File | `/orms/` | Low
+27 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

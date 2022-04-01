@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SideWalk:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
 
 ## Actors
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Actor | Confidence
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used within SideWalk. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within SideWalk. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------

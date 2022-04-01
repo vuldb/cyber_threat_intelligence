@@ -37,7 +37,7 @@ There are 38 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by _Dofoil_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Dofoil_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -59,34 +59,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/syslog` | High
 4 | File | `/api/upload` | Medium
 5 | File | `/cgi-bin` | Medium
-6 | File | `/config/getuser` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/export` | Low
-9 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/new` | Low
-12 | File | `/proc/<pid>/status` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/scripts/killpvhost` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/QueryComponent!Default.jspa` | High
-17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-18 | File | `/tmp` | Low
-19 | File | `/tmp/redis.ds` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/wp-admin` | Medium
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `AccountManagerService.java` | High
-24 | File | `actions/CompanyDetailsSave.php` | High
-25 | File | `ActiveServices.java` | High
-26 | File | `ActivityManagerService.java` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-29 | File | `admin/add-glossary.php` | High
-30 | File | `admin/conf_users_edit.php` | High
-31 | ... | ... | ...
+6 | File | `/context/%2e/WEB-INF/web.xml` | High
+7 | File | `/export` | Low
+8 | File | `/monitoring` | Medium
+9 | File | `/new` | Low
+10 | File | `/proc/<pid>/status` | High
+11 | File | `/public/plugins/` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/wp-admin` | Medium
+18 | File | `/wp-json/wc/v3/webhooks` | High
+19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+20 | File | `AccountManagerService.java` | High
+21 | File | `actions/CompanyDetailsSave.php` | High
+22 | File | `ActiveServices.java` | High
+23 | File | `ActivityManagerService.java` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+26 | File | `admin/add-glossary.php` | High
+27 | File | `admin/conf_users_edit.php` | High
+28 | File | `admin/edit-comments.php` | High
+29 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+30 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -172,9 +172,10 @@ ID | Type | Indicator | Confidence
 50 | File | `admin/index.php` | High
 51 | File | `admin/index.php?n=ui_set&m=admin&c=index&a=doget_text_content&table=lang&field=1` | High
 52 | File | `admin/media/rename.php` | High
-53 | ... | ... | ...
+53 | File | `admin/password_forgotten.php` | High
+54 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

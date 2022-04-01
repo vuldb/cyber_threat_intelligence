@@ -10,17 +10,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [198.54.117.197](https://vuldb.com/?ip.198.54.117.197) | - | - | High
-2 | [198.54.117.198](https://vuldb.com/?ip.198.54.117.198) | - | - | High
-3 | [198.54.117.199](https://vuldb.com/?ip.198.54.117.199) | - | - | High
+1 | [77.55.8.61](https://vuldb.com/?ip.77.55.8.61) | static-aai61.rev.nazwa.pl | - | High
+2 | [85.128.212.154](https://vuldb.com/?ip.85.128.212.154) | shared-and154.rev.nazwa.pl | - | High
+3 | [91.211.2.112](https://vuldb.com/?ip.91.211.2.112) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.trendmicro.co.jp/archives/15257
 * https://blogs.blackberry.com/en/2019/03/blackberry-cylance-vs-tinba-banking-trojan
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_tinba.ipset
 

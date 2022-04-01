@@ -43,13 +43,14 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [45.87.3.177](https://vuldb.com/?ip.45.87.3.177) | vm3114026.43ssd.had.wf | - | High
 21 | [45.128.150.68](https://vuldb.com/?ip.45.128.150.68) | dok.com | - | High
 22 | [45.130.147.55](https://vuldb.com/?ip.45.130.147.55) | - | - | High
-23 | ... | ... | ... | ...
+23 | [45.132.104.3](https://vuldb.com/?ip.45.132.104.3) | city-boots.ru | - | High
+24 | ... | ... | ... | ...
 
 There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by RedLine. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _RedLine_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -92,6 +93,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0625-0702.html
 * https://blogs.blackberry.com/en/2021/07/threat-thursday-redline-infostealer
 * https://blogs.blackberry.com/en/2021/10/threat-thursday-redline-infostealer-update
+* https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
 
 ## Literature
 

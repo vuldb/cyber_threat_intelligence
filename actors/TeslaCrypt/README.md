@@ -42,7 +42,7 @@ There are 58 more IOC items available. Please use our online service to access t
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected ATT&CK techniques used by TeslaCrypt. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _TeslaCrypt_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,51 +63,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/.htpasswd` | Medium
 3 | File | `/adfs/ls` | Medium
 4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-5 | File | `/admin/views/freepbx_reload.php` | High
-6 | File | `/auth` | Low
-7 | File | `/cgi-bin/nasset.cgi` | High
-8 | File | `/cimom` | Low
-9 | File | `/dashboard/view-chair-list.php` | High
-10 | File | `/dhtml/index.php` | High
-11 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-12 | File | `/drivers/vhost/net.c` | High
-13 | File | `/etc/hosts` | Medium
-14 | File | `/flash/mypage.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/GponForm/device_Form?script/` | High
-17 | File | `/GponForm/fsetup_Form` | High
-18 | File | `/GponForm/usb_restore_Form?script/` | High
-19 | File | `/includes/decorators/global-translations.jsp` | High
-20 | File | `/index.php/weblinks-categories` | High
-21 | File | `/index_amp.php` | High
-22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-23 | File | `/principals` | Medium
-24 | File | `/product_list.php` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/see_more_details.php` | High
-28 | File | `/server-status` | High
-29 | File | `/setSystemAdmin` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-34 | File | `400.php` | Low
-35 | File | `accessibility/AccessibilityRenderObject.cpp` | High
-36 | File | `addentry.php` | Medium
-37 | File | `add_comment.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/editors/text/editor-body.php` | High
-40 | File | `admin/executar_login.php` | High
-41 | File | `admin/mcart_xls_import.php` | High
-42 | File | `admin/module/init.html` | High
-43 | File | `admin/setting.php` | High
-44 | File | `admin_ranks.php` | High
-45 | File | `advancedsearch.php` | High
-46 | File | `ajax-actions.php` | High
+5 | File | `/auth` | Low
+6 | File | `/cgi-bin/nasset.cgi` | High
+7 | File | `/cimom` | Low
+8 | File | `/dashboard/view-chair-list.php` | High
+9 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+10 | File | `/drivers/vhost/net.c` | High
+11 | File | `/etc/hosts` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/GponForm/device_Form?script/` | High
+14 | File | `/GponForm/fsetup_Form` | High
+15 | File | `/GponForm/usb_restore_Form?script/` | High
+16 | File | `/includes/decorators/global-translations.jsp` | High
+17 | File | `/index.php/weblinks-categories` | High
+18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+19 | File | `/principals` | Medium
+20 | File | `/product_list.php` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/see_more_details.php` | High
+23 | File | `/server-status` | High
+24 | File | `/setSystemAdmin` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+27 | File | `/WEB-INF/web.xml` | High
+28 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+29 | File | `400.php` | Low
+30 | File | `accessibility/AccessibilityRenderObject.cpp` | High
+31 | File | `addentry.php` | Medium
+32 | File | `add_comment.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/editors/text/editor-body.php` | High
+35 | File | `admin/executar_login.php` | High
+36 | File | `admin/mcart_xls_import.php` | High
+37 | File | `admin/module/init.html` | High
+38 | File | `admin/setting.php` | High
+39 | File | `admin_ranks.php` | High
+40 | File | `advancedsearch.php` | High
+41 | File | `ajax-actions.php` | High
+42 | File | `alipay/alipayapi.php` | High
+43 | File | `apcupsd.exe` | Medium
+44 | File | `api/device/time` | High
+45 | File | `attachments/edit/$file_id` | High
+46 | File | `auth.inc.php` | Medium
 47 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
