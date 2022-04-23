@@ -1,6 +1,6 @@
 # Cyber Threat Intelligence Data and Analysis
 
-Our unique [Cyber Threat Intelligence](https://vuldb.com/?doc.cti) aims to determine the ongoing research of APT actors to anticipiate their acitivities.
+Our unique [Cyber Threat Intelligence](https://vuldb.com/?kb.cti) aims to determine the ongoing research of APT actors to anticipiate their acitivities.
 
 ## Activity Monitoring
 
