@@ -4,11 +4,11 @@ Our unique [Cyber Threat Intelligence](https://vuldb.com/?kb.cti) aims to determ
 
 ## Activity Monitoring
 
-A broad activity monitoring is used to determine the actions by actors. Observing exploit markets on the Darknet, discussions of vulnerabilities on mailinglists, and social media exchanges makes it possible to identify planned attacks.
+A broad activity monitoring is used to determine the actions by [actors](https://vuldb.com/?actor). Observing exploit markets on the Darknet, discussions of vulnerabilities on mailinglists, and social media exchanges makes it possible to identify planned attacks.
 
 ## Geopolitical Analysis
 
-The CTI team is mapping structures of countries and their relationships to identify tensions and possible attack scenarios.
+The CTI team is mapping structures of [countries](https://vuldb.com/?country) and their relationships to identify tensions and possible attack scenarios.
 
 ## Indicators
 
