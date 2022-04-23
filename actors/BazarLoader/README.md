@@ -107,15 +107,16 @@ ID | Type | Indicator | Confidence
 44 | File | `administrator/components/com_media/helpers/media.php` | High
 45 | File | `adminquery.php` | High
 46 | File | `agent_links.pl` | High
-47 | File | `Ap4StssAtom.cpp` | High
-48 | File | `Ap4StszAtom.cpp` | High
-49 | File | `apetag.c` | Medium
-50 | File | `app/system/language/admin/language_general.class.php` | High
-51 | File | `apply_sec.cgi` | High
-52 | File | `app\contacts\contact_times.php` | High
-53 | File | `Archive.java` | Medium
-54 | File | `article.php` | Medium
-55 | ... | ... | ...
+47 | File | `ajax/render/widget_php` | High
+48 | File | `Ap4StssAtom.cpp` | High
+49 | File | `Ap4StszAtom.cpp` | High
+50 | File | `apetag.c` | Medium
+51 | File | `app/system/language/admin/language_general.class.php` | High
+52 | File | `apply_sec.cgi` | High
+53 | File | `app\contacts\contact_times.php` | High
+54 | File | `Archive.java` | Medium
+55 | File | `article.php` | Medium
+56 | ... | ... | ...
 
 There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

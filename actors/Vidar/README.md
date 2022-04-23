@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -18,6 +19,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [104.200.67.209](https://vuldb.com/?ip.104.200.67.209) | x-sert.online | - | High
+2 | [159.69.20.131](https://vuldb.com/?ip.159.69.20.131) | static.131.20.69.159.clients.your-server.de | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,6 +45,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
+* https://twitter.com/S2W_Official/status/1401915001921626114
 
 ## Literature
 

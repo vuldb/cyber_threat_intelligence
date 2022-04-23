@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -87,13 +87,13 @@ ID | Type | Indicator | Confidence
 32 | File | `/websocket/exec` | High
 33 | File | `/wp-admin/admin-ajax.php` | High
 34 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
-36 | File | `/_next` | Low
-37 | File | `4.edu.php\conn\function.php` | High
-38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-39 | File | `adclick.php` | Medium
-40 | File | `addentry.php` | Medium
-41 | File | `addressbook.php` | High
+35 | File | `/wp-json` | Medium
+36 | File | `/wp-json/oembed/1.0/embed?url` | High
+37 | File | `/_next` | Low
+38 | File | `4.edu.php\conn\function.php` | High
+39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+40 | File | `adclick.php` | Medium
+41 | File | `addentry.php` | Medium
 42 | File | `add_comment.php` | High
 43 | File | `admin/category.inc.php` | High
 44 | File | `admin/conf_users_edit.php` | High
@@ -102,7 +102,7 @@ ID | Type | Indicator | Confidence
 47 | File | `admin/password_forgotten.php` | High
 48 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

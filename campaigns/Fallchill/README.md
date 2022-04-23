@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 
 ## Actors
 
@@ -52,9 +51,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -65,25 +64,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/plog/index.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/admin/vod/data.html` | High
-4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin/export/getcsv/article_db` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-9 | File | `/cgi-bin/uploadAccessCodePic` | High
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/config/list` | Medium
-12 | File | `/data/sqldata` | High
-13 | File | `/goform/delAd` | High
-14 | File | `/goform/exeCommand` | High
-15 | File | `/goform/setAdInfoDetail` | High
-16 | File | `/goform/setFixTools` | High
-17 | ... | ... | ...
+1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+2 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+4 | File | `/admin/inbox.php&action=delete` | High
+5 | File | `/admin/inbox.php&action=read` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/pagerole.php&action=display&value=1` | High
+8 | File | `/admin/pagerole.php&action=edit` | High
+9 | File | `/admin/posts.php` | High
+10 | File | `/admin/posts.php&action=delete` | High
+11 | File | `/admin/posts.php&action=edit` | High
+12 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+13 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+14 | File | `/admin/uesrs.php&action=display&value=Show` | High
+15 | File | `/apps/acs-commons/content/page-compare.html` | High
+16 | File | `/blog/blog.php` | High
+17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+18 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+19 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

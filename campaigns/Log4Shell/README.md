@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [SC](https://vuldb.com/?country.sc)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -24,7 +24,8 @@ ID | Actor | Confidence
 1 | [Unknown](https://vuldb.com/?actor.unknown) | High
 2 | [Kinsing](https://vuldb.com/?actor.kinsing) | High
 3 | [Mirai](https://vuldb.com/?actor.mirai) | High
-4 | ... | ...
+4 | [Muhstik](https://vuldb.com/?actor.muhstik) | High
+5 | ... | ...
 
 There are 7 more actor items available. Please use our online service to access the data.
 
@@ -87,7 +88,7 @@ ID | IP address | Hostname | Actor | Confidence
 51 | [68.183.207.73](https://vuldb.com/?ip.68.183.207.73) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 52 | ... | ... | ... | ...
 
-There are 202 more IOC items available. Please use our online service to access the data.
+There are 204 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -97,7 +98,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -108,36 +109,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htaccess` | Medium
-2 | File | `/admin-panel1.php` | High
-3 | File | `/admin.php/admin/ulog/index.html` | High
-4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin/?page=members/view_member` | High
-6 | File | `/admin/allergens/edit/1` | High
-7 | File | `/admin/file-manager/` | High
-8 | File | `/admin/news/news_mod.php` | High
-9 | File | `/admin/options` | High
-10 | File | `/admin/page_edit/3` | High
-11 | File | `/admin/show.php` | High
-12 | File | `/admin_page/all-files-update-ajax.php` | High
-13 | File | `/api/crontab` | Medium
-14 | File | `/api/servers` | Medium
-15 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-16 | File | `/cgi-bin/uploadWeiXinPic` | High
+1 | File | `/admin.php/admin/ulog/index.html` | High
+2 | File | `/admin.php/admin/website/data.html` | High
+3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+4 | File | `/admin/config` | High
+5 | File | `/admin/inbox.php&action=delete` | High
+6 | File | `/admin/pagerole.php&action=display&value=1` | High
+7 | File | `/admin/posts.php&action=delete` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/agenttrayicon` | High
+10 | File | `/api/crontab` | Medium
+11 | File | `/app/controller/Books.php` | High
+12 | File | `/app/elkarbackup/src/Binovo/ElkarBackupBundle/Controller/DefaultController.php` | High
+13 | File | `/apply.cgi` | Medium
+14 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+15 | File | `/cgi-bin/uploadWeiXinPic` | High
+16 | File | `/cwms/admin/?page=articles/view_article/` | High
 17 | File | `/data/sqldata` | High
-18 | File | `/etc/cobbler` | Medium
-19 | File | `/etc/wpa_supplicant.conf` | High
-20 | File | `/goform/form2Reboot.cgi` | High
-21 | File | `/goform/setAdInfoDetail` | High
-22 | File | `/goform/setFixTools` | High
-23 | File | `/goform/SetInternetLanInfo` | High
-24 | File | `/goform/setPicListItem` | High
-25 | File | `/lan.asp` | Medium
-26 | File | `/mdiy/dict/listExcludeApp` | High
-27 | File | `/members/view_member.php` | High
-28 | ... | ... | ...
+18 | File | `/etc/ajenti/config.yml` | High
+19 | File | `/etc/master.passwd` | High
+20 | File | `/etc/zarafa/license` | High
+21 | File | `/export` | Low
+22 | File | `/goform/form2Reboot.cgi` | High
+23 | File | `/goform/login_process` | High
+24 | File | `/goform/setAdInfoDetail` | High
+25 | File | `/goform/setFixTools` | High
+26 | File | `/goform/SetInternetLanInfo` | High
+27 | File | `/goform/setPicListItem` | High
+28 | File | `/include/chart_generator.php` | High
+29 | File | `/include/up.php` | High
+30 | File | `/jpg/image.jpg` | High
+31 | File | `/lan.asp` | Medium
+32 | File | `/mims/app/addcustomerHandler.php` | High
+33 | File | `/modules/eligibility/Student.php` | High
+34 | File | `/one_church/churchprofile.php` | High
+35 | File | `/preauth` | Medium
+36 | File | `/ptms/?page=user` | High
+37 | File | `/ptms/classes/Users.php` | High
+38 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,6 +163,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/forums/diary/Log4Shell+exploited+to+implant+coin+miners/28124/
 * https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/
 * https://twitter.com/iansus/status/1472867647410819073
+* https://www.fortinet.com/blog/threat-research/deep-panda-log4shell-fire-chili-rootkits
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
 
 ## Literature

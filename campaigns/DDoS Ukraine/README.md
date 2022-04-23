@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DDoS Ukraine:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [IR](https://vuldb.com/?country.ir)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [DE](https://vuldb.com/?country.de)
 
 ## Actors
 
@@ -48,11 +45,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,82 +60,97 @@ ID | Type | Indicator | Confidence
 1 | File | `/about.php` | Medium
 2 | File | `/adherents/note.php?id=1` | High
 3 | File | `/admin.php` | Medium
-4 | File | `/aqpg/users/login.php` | High
-5 | File | `/coreframe/app/content/admin/content.php` | High
-6 | File | `/dl/dl_print.php` | High
-7 | File | `/dus_en/medieninfo_detail/index.php` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/formSetPortTr` | High
-10 | File | `/Hospital-Management-System-master/contact.php` | High
-11 | File | `/jeecg-boot/sys/common/upload` | High
-12 | File | `/LogoStore/search.php` | High
-13 | File | `/master/article.php` | High
-14 | File | `/members/profiles.php` | High
-15 | File | `/navigate/navigate_download.php` | High
-16 | File | `/question/ask` | High
-17 | File | `/rest/api/2/search` | High
+4 | File | `/admin/doctors/view_doctor.php` | High
+5 | File | `/admin/modules/bibliography/index.php` | High
+6 | File | `/adminlogin.asp` | High
+7 | File | `/app/controller/Books.php` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/controller/Index.php` | High
+10 | File | `/coreframe/app/content/admin/content.php` | High
+11 | File | `/dl/dl_print.php` | High
+12 | File | `/dus_en/medieninfo_detail/index.php` | High
+13 | File | `/Hospital-Management-System-master/contact.php` | High
+14 | File | `/include/friends.inc.php` | High
+15 | File | `/master/article.php` | High
+16 | File | `/members/profiles.php` | High
+17 | File | `/members/view_member.php` | High
 18 | File | `/servlet/webacc` | High
 19 | File | `/sitemagic/upgrade.php` | High
-20 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/userman/inbox.php` | High
-24 | File | `/usr/sbin/httpd` | High
-25 | File | `123flashchat.php` | High
-26 | File | `acme_accountkeys_edit.php` | High
-27 | File | `additem.asp` | Medium
-28 | File | `addtocart.asp` | High
+20 | File | `/tmp` | Low
+21 | File | `/userman/inbox.php` | High
+22 | File | `/userui/ticket_list.php` | High
+23 | File | `/wp-admin/options-general.php` | High
+24 | File | `/zm/index.php` | High
+25 | File | `adaptive-images-script.php` | High
+26 | File | `additem.asp` | Medium
+27 | File | `addtocart.asp` | High
+28 | File | `adherents/subscription/info.php` | High
 29 | File | `admin.asp` | Medium
-30 | File | `admin.cropcanvas.php` | High
-31 | File | `admin.joomlaradiov5.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin.webring.docs.php` | High
-34 | File | `admin/admin.php` | High
-35 | File | `admin/dashboard.php` | High
-36 | File | `admin/general.php` | High
-37 | File | `admin/inc/change_action.php` | High
-38 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-39 | File | `admin/info.php` | High
-40 | File | `admin/login.asp` | High
-41 | File | `admin/specials.php` | High
-42 | File | `admin:de` | Medium
-43 | File | `admincp/auth/checklogin.php` | High
-44 | File | `admincp/auth/secure.php` | High
-45 | File | `administrator/index.php` | High
-46 | File | `admin_login.asp` | High
-47 | File | `advsearch_h.asp` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/admin.php` | High
+32 | File | `admin/general.php` | High
+33 | File | `admin/header.php` | High
+34 | File | `admin/inc/change_action.php` | High
+35 | File | `admin/index.php` | High
+36 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+37 | File | `admin/info.php` | High
+38 | File | `admin/login.asp` | High
+39 | File | `admin/manage-comments.php` | High
+40 | File | `admin/manage-news.php` | High
+41 | File | `admin/plugin-settings.php` | High
+42 | File | `admin/specials.php` | High
+43 | File | `admin:de` | Medium
+44 | File | `admincp/auth/checklogin.php` | High
+45 | File | `admincp/auth/secure.php` | High
+46 | File | `administrator/index.php` | High
+47 | File | `admin_login.asp` | High
 48 | File | `adv_search.asp` | High
 49 | File | `ajax.php` | Medium
-50 | File | `ajax/telemetry.php` | High
-51 | File | `ajax_url.php` | Medium
-52 | File | `akocomments.php` | High
-53 | File | `album_portal.php` | High
-54 | File | `al_initialize.php` | High
-55 | File | `AndroidManifest.xml` | High
-56 | File | `anjel.index.php` | High
-57 | File | `annonces-p-f.php` | High
-58 | File | `announce.php` | Medium
-59 | File | `announcement.php` | High
-60 | File | `announcements.php` | High
-61 | File | `App\Manage\Controller\DownloadController.class.php` | High
-62 | File | `article.php` | Medium
-63 | File | `articles.php` | Medium
-64 | File | `artikel_anzeige.php` | High
-65 | File | `ashnews.php/ashheadlines.php` | High
-66 | File | `auth.php` | Medium
-67 | File | `authent.php4` | Medium
-68 | File | `awstats.pl` | Medium
-69 | File | `backupmgt/getAlias.php` | High
-70 | File | `basket.php` | Medium
-71 | File | `bb_usage_stats.php` | High
-72 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-73 | File | `books.php` | Medium
-74 | File | `bridge/yabbse.inc.php` | High
-75 | File | `browse-category.php` | High
-76 | File | `browse.php` | Medium
-77 | ... | ... | ...
+50 | File | `ajax_url.php` | Medium
+51 | File | `album_portal.php` | High
+52 | File | `al_initialize.php` | High
+53 | File | `anjel.index.php` | High
+54 | File | `annonces-p-f.php` | High
+55 | File | `announce.php` | Medium
+56 | File | `announcement.php` | High
+57 | File | `announcements.php` | High
+58 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+59 | File | `apply.cgi` | Medium
+60 | File | `apps/app_article/controller/rating.php` | High
+61 | File | `article.php` | Medium
+62 | File | `articles.php` | Medium
+63 | File | `artikel_anzeige.php` | High
+64 | File | `auktion.cgi` | Medium
+65 | File | `auth.php` | Medium
+66 | File | `basket.php` | Medium
+67 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+68 | File | `books.php` | Medium
+69 | File | `browse-category.php` | High
+70 | File | `browse.php` | Medium
+71 | File | `browse_videos.php` | High
+72 | File | `BrudaNews/BrudaGB` | High
+73 | File | `bwlist_inc.html` | High
+74 | File | `calendar.php` | Medium
+75 | File | `cart.php` | Medium
+76 | File | `cart_add.php` | Medium
+77 | File | `case.filemanager.php` | High
+78 | File | `catalog.php` | Medium
+79 | File | `catalogshop.php` | High
+80 | File | `catalogue.asp` | High
+81 | File | `category.cfm` | Medium
+82 | File | `category.php` | Medium
+83 | File | `category_list.php` | High
+84 | File | `cgi-bin/awstats.pl` | High
+85 | File | `channel.asp` | Medium
+86 | File | `ChooseCpSearch.php` | High
+87 | File | `comentarii.php` | High
+88 | File | `comments.php` | Medium
+89 | File | `config.inc.php` | High
+90 | File | `config.php` | Medium
+91 | File | `contact.php` | Medium
+92 | ... | ... | ...
 
-There are 673 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 813 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

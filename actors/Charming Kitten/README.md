@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,36 +76,34 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/?module=users&section=cpanel&page=list` | High
-4 | File | `/admin/powerline` | High
-5 | File | `/admin/syslog` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/file?action=download&file` | High
-9 | File | `/medical/inventories.php` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/new` | Low
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/proc/<pid>/status` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/replication` | Medium
-17 | File | `/RestAPI` | Medium
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/var/log/nginx` | High
-24 | File | `/wp-json/wc/v3/webhooks` | High
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `AccountManagerService.java` | High
-27 | File | `actions/CompanyDetailsSave.php` | High
-28 | File | `ActiveServices.java` | High
-29 | File | `ActivityManagerService.java` | High
-30 | File | `admin.php` | Medium
-31 | ... | ... | ...
+4 | File | `/context/%2e/WEB-INF/web.xml` | High
+5 | File | `/file?action=download&file` | High
+6 | File | `/medical/inventories.php` | High
+7 | File | `/monitoring` | Medium
+8 | File | `/new` | Low
+9 | File | `/plugins/servlet/audit/resource` | High
+10 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+11 | File | `/proc/<pid>/status` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/replication` | Medium
+14 | File | `/RestAPI` | Medium
+15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/secure/QueryComponent!Default.jspa` | High
+17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/wp-json/wc/v3/webhooks` | High
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `AccountManagerService.java` | High
+24 | File | `actions/CompanyDetailsSave.php` | High
+25 | File | `ActiveServices.java` | High
+26 | File | `ActivityManagerService.java` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+29 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

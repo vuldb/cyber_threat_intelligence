@@ -78,17 +78,18 @@ ID | Type | Indicator | Confidence
 26 | File | `/module/module_frame/index.php` | High
 27 | File | `/notice-edit.php` | High
 28 | File | `/nova/bin/sniffer` | High
-29 | File | `/proc/pid/syscall` | High
-30 | File | `/product_list.php` | High
-31 | File | `/rest/api/2/user/picker` | High
-32 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-33 | File | `/services/details.asp` | High
-34 | File | `/src/core/controllers/cm.php` | High
-35 | File | `/storage/app/media/evil.svg` | High
-36 | File | `/transmission/web/` | High
-37 | ... | ... | ...
+29 | File | `/ofcms/company-c-47` | High
+30 | File | `/proc/*/cmdline"` | High
+31 | File | `/proc/pid/syscall` | High
+32 | File | `/product_list.php` | High
+33 | File | `/rest/api/2/user/picker` | High
+34 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+35 | File | `/services/details.asp` | High
+36 | File | `/src/core/controllers/cm.php` | High
+37 | File | `/storage/app/media/evil.svg` | High
+38 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

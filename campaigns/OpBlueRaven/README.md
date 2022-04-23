@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -80,27 +80,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/out.php` | Medium
 16 | File | `/proc/<pid>/status` | High
 17 | File | `/public/plugins/` | High
-18 | File | `/rom` | Low
-19 | File | `/scripts/killpvhost` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/tmp/redis.ds` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload/catalog/controller/account/password.php` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/var/lib/docker/<remapping>` | High
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `AccountManagerService.java` | High
-33 | File | `actions/CompanyDetailsSave.php` | High
-34 | File | `ActiveServices.java` | High
-35 | File | `ActivityManagerService.java` | High
+18 | File | `/scripts/killpvhost` | High
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+22 | File | `/tmp` | Low
+23 | File | `/tmp/redis.ds` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload/catalog/controller/account/password.php` | High
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/var/lib/docker/<remapping>` | High
+28 | File | `/wp-admin` | Medium
+29 | File | `/wp-json/wc/v3/webhooks` | High
+30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+31 | File | `AccountManagerService.java` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `ActiveServices.java` | High
+34 | File | `ActivityManagerService.java` | High
+35 | File | `admin.php` | Medium
 36 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

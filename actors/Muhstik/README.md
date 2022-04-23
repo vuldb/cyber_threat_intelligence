@@ -76,21 +76,21 @@ ID | Type | Indicator | Confidence
 8 | File | `/graphStatus/displayServiceStatus.php` | High
 9 | File | `/iisadmpwd` | Medium
 10 | File | `/index.php/admin/tag/add.html` | High
-11 | File | `/proc/pid/syscall` | High
-12 | File | `/rom-0` | Low
-13 | File | `/servlet.gupld` | High
-14 | File | `/status` | Low
-15 | File | `/tools/developerConsoleOperations.jsp` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/WEB-INF/web.xml` | High
-19 | File | `ActivityManagerService.java` | High
-20 | File | `adclick.php` | Medium
-21 | File | `adm1n/admin_config.php` | High
-22 | File | `admin-ajax.php` | High
+11 | File | `/Items/*/RemoteImages/Download` | High
+12 | File | `/proc/pid/syscall` | High
+13 | File | `/rom-0` | Low
+14 | File | `/servlet.gupld` | High
+15 | File | `/status` | Low
+16 | File | `/tools/developerConsoleOperations.jsp` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/WEB-INF/web.xml` | High
+20 | File | `ActivityManagerService.java` | High
+21 | File | `adclick.php` | Medium
+22 | File | `adm1n/admin_config.php` | High
 23 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

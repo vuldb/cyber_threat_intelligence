@@ -85,25 +85,25 @@ ID | Type | Indicator | Confidence
 21 | File | `/replication` | Medium
 22 | File | `/RestAPI` | Medium
 23 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/speedtest_urls.xml` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/at` | Medium
-28 | File | `/var/log/nginx` | High
-29 | File | `/_vti_pvt/access.cnf` | High
-30 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-31 | File | `admin/e_mesaj_yaz.asp` | High
-32 | File | `admin/mcart_xls_import.php` | High
-33 | File | `admin/profile.php` | High
-34 | File | `admin/salesadmin.php` | High
-35 | File | `admin/systemWebAdminConfig.do` | High
-36 | File | `admin11.cgi` | Medium
-37 | File | `admincp/auth/checklogin.php` | High
-38 | File | `agenda2.php3` | Medium
-39 | File | `ajax-actions.php` | High
+24 | File | `/tmp/speedtest_urls.xml` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/bin/at` | Medium
+27 | File | `/var/log/nginx` | High
+28 | File | `/_vti_pvt/access.cnf` | High
+29 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+30 | File | `admin/e_mesaj_yaz.asp` | High
+31 | File | `admin/profile.php` | High
+32 | File | `admin/salesadmin.php` | High
+33 | File | `admin/systemWebAdminConfig.do` | High
+34 | File | `admin11.cgi` | Medium
+35 | File | `admincp/auth/checklogin.php` | High
+36 | File | `agenda2.php3` | Medium
+37 | File | `ajax-actions.php` | High
+38 | File | `ajax/deletePage.php` | High
+39 | File | `ajouter_tva.php` | High
 40 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

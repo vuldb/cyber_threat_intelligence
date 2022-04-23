@@ -36,6 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1600 | CWE-311 | Cryptographic Issues | High
 
 ## IOA - Indicator of Attack
 

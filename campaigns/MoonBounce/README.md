@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,19 +58,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/medical/inventories.php` | High
 2 | File | `/module/admin_logs` | High
-3 | File | `/public/plugins/` | High
-4 | File | `/replication` | Medium
-5 | File | `/start-stop` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `/usr/bin/pkexec` | High
-8 | File | `/WEB-INF/web.xml` | High
-9 | File | `adclick.php` | Medium
-10 | File | `addrating.php` | High
-11 | File | `app/Model/Log.php` | High
-12 | File | `article.php` | Medium
+3 | File | `/nova/bin/console` | High
+4 | File | `/public/plugins/` | High
+5 | File | `/replication` | Medium
+6 | File | `/start-stop` | Medium
+7 | File | `/uncpath/` | Medium
+8 | File | `/usr/bin/pkexec` | High
+9 | File | `/WEB-INF/web.xml` | High
+10 | File | `adclick.php` | Medium
+11 | File | `addrating.php` | High
+12 | File | `admin_forum_prune.php` | High
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

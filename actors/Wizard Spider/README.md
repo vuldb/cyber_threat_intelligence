@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -112,51 +112,52 @@ ID | Type | Indicator | Confidence
 3 | File | `/.env` | Low
 4 | File | `/.ssh/authorized_keys` | High
 5 | File | `/admin/default.asp` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/cgi-bin/login_action.cgi` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/cms/print.php` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/data/remove` | Medium
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/login` | Low
-18 | File | `/navigate/navigate_download.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/p` | Low
-22 | File | `/password.html` | High
-23 | File | `/proc/ioports` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/ptms/classes/Users.php` | High
-26 | File | `/rest` | Low
-27 | File | `/rest/api/2/search` | High
-28 | File | `/s/` | Low
-29 | File | `/scripts/cpan_config` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/services/system/setup.json` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/webconsole/APIController` | High
-34 | File | `/websocket/exec` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
-37 | File | `/_next` | Low
-38 | File | `4.edu.php\conn\function.php` | High
-39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addentry.php` | Medium
-42 | File | `addressbook.php` | High
-43 | File | `add_comment.php` | High
-44 | File | `admin/category.inc.php` | High
-45 | File | `admin/conf_users_edit.php` | High
-46 | File | `admin/dl_sendmail.php` | High
-47 | File | `admin/index.php` | High
-48 | ... | ... | ...
+6 | File | `/admin/moduleinterface.php` | High
+7 | File | `/ajax/networking/get_netcfg.php` | High
+8 | File | `/assets/ctx` | Medium
+9 | File | `/cgi-bin/login_action.cgi` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/checkLogin.cgi` | High
+12 | File | `/cms/print.php` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/login` | Low
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/navigate/navigate_download.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/p` | Low
+24 | File | `/password.html` | High
+25 | File | `/proc/ioports` | High
+26 | File | `/property-list/property_view.php` | High
+27 | File | `/ptms/classes/Users.php` | High
+28 | File | `/rest` | Low
+29 | File | `/rest/api/2/search` | High
+30 | File | `/s/` | Low
+31 | File | `/scripts/cpan_config` | High
+32 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+33 | File | `/services/system/setup.json` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/webconsole/APIController` | High
+36 | File | `/websocket/exec` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
+38 | File | `/wp-json` | Medium
+39 | File | `/wp-json/oembed/1.0/embed?url` | High
+40 | File | `/_next` | Low
+41 | File | `4.edu.php\conn\function.php` | High
+42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `add_comment.php` | High
+46 | File | `admin/category.inc.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | File | `admin/dl_sendmail.php` | High
+49 | ... | ... | ...
 
-There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

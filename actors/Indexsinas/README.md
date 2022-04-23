@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [NZ](https://vuldb.com/?country.nz)
+* [US](https://vuldb.com/?country.us)
 * [HK](https://vuldb.com/?country.hk)
 * ...
 
@@ -287,12 +287,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,29 +300,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/plog/index.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/admin/vod/data.html` | High
-4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin/export/getcsv/article_db` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-9 | File | `/cgi-bin/uploadAccessCodePic` | High
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/config/list` | Medium
-12 | File | `/data/sqldata` | High
-13 | File | `/feedback/post/` | High
-14 | File | `/goform/delAd` | High
-15 | File | `/goform/exeCommand` | High
-16 | File | `/goform/setAdInfoDetail` | High
-17 | File | `/goform/setFixTools` | High
-18 | File | `/goform/SetInternetLanInfo` | High
-19 | File | `/goform/SetLanInfo` | High
-20 | File | `/goform/setPicListItem` | High
-21 | ... | ... | ...
+1 | File | `/admin/index.php` | High
+2 | File | `/blog/blog.php` | High
+3 | File | `/cmd?cmd=connect` | High
+4 | File | `/ghost/preview` | High
+5 | File | `/nova/bin/detnet` | High
+6 | File | `/pineapple/ui` | High
+7 | File | `/proc/stat` | Medium
+8 | File | `/row/row0mysql.cc` | High
+9 | File | `/sql/sql_string.h` | High
+10 | File | `/sql/sql_type.cc` | High
+11 | File | `/src/njs_vmcode.c` | High
+12 | File | `/strings/ctype-simple.c` | High
+13 | File | `/tcpedit/checksum.c` | High
+14 | File | `/uncpath/` | Medium
+15 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

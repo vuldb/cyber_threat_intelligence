@@ -31,43 +31,44 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [23.96.30.229](https://vuldb.com/?ip.23.96.30.229) | - | - | High
 9 | [23.193.42.12](https://vuldb.com/?ip.23.193.42.12) | a23-193-42-12.deploy.static.akamaitechnologies.com | - | High
 10 | [23.227.38.32](https://vuldb.com/?ip.23.227.38.32) | myshopify.com | - | High
-11 | [24.115.94.180](https://vuldb.com/?ip.24.115.94.180) | 24.115.94.180.res-cmts.ovr.ptd.net | - | High
-12 | [24.120.165.58](https://vuldb.com/?ip.24.120.165.58) | wsip-24-120-165-58.lv.lv.cox.net | - | High
-13 | [27.54.110.77](https://vuldb.com/?ip.27.54.110.77) | 77.110.54.27.dhcp.mct.ne.jp | - | High
-14 | [32.178.143.61](https://vuldb.com/?ip.32.178.143.61) | mobile-32-178-143-61.mycingular.net | - | High
-15 | [34.72.197.182](https://vuldb.com/?ip.34.72.197.182) | 182.197.72.34.bc.googleusercontent.com | - | Medium
-16 | [35.177.71.77](https://vuldb.com/?ip.35.177.71.77) | ns1.symbiant.net | - | High
-17 | [36.2.242.186](https://vuldb.com/?ip.36.2.242.186) | 36-2-242-186.aichi.otk.vectant.ne.jp | - | High
-18 | [39.116.90.10](https://vuldb.com/?ip.39.116.90.10) | - | - | High
-19 | [41.168.5.140](https://vuldb.com/?ip.41.168.5.140) | - | - | High
-20 | [45.60.77.201](https://vuldb.com/?ip.45.60.77.201) | - | - | High
-21 | [46.165.243.51](https://vuldb.com/?ip.46.165.243.51) | - | - | High
-22 | [49.212.235.209](https://vuldb.com/?ip.49.212.235.209) | www3469.sakura.ne.jp | - | High
-23 | [50.7.252.125](https://vuldb.com/?ip.50.7.252.125) | - | - | High
-24 | [50.72.177.24](https://vuldb.com/?ip.50.72.177.24) | S01069050ca30b943.wp.shawcable.net | - | High
-25 | [50.116.43.143](https://vuldb.com/?ip.50.116.43.143) | li480-143.members.linode.com | - | High
-26 | [51.178.156.9](https://vuldb.com/?ip.51.178.156.9) | ip9.ip-51-178-156.eu | - | High
-27 | [52.85.132.44](https://vuldb.com/?ip.52.85.132.44) | server-52-85-132-44.iad50.r.cloudfront.net | - | High
-28 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
-29 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
-30 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
-31 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
-32 | [58.1.158.10](https://vuldb.com/?ip.58.1.158.10) | ntaich204010.aich.nt.ngn.ppp.infoweb.ne.jp | - | High
-33 | [58.68.2.214](https://vuldb.com/?ip.58.68.2.214) | - | - | High
-34 | [58.185.131.158](https://vuldb.com/?ip.58.185.131.158) | - | - | High
-35 | [59.90.221.6](https://vuldb.com/?ip.59.90.221.6) | static.bb.hyd.59.90.221.6.bsnl.in | - | High
-36 | [60.244.81.6](https://vuldb.com/?ip.60.244.81.6) | 60-244-81-6.apol.com.tw | - | High
-37 | [61.7.235.35](https://vuldb.com/?ip.61.7.235.35) | - | - | High
-38 | [61.32.242.131](https://vuldb.com/?ip.61.32.242.131) | - | - | High
-39 | [62.49.180.189](https://vuldb.com/?ip.62.49.180.189) | - | - | High
-40 | [62.76.47.5](https://vuldb.com/?ip.62.76.47.5) | 62-76-47-5.vm.clodoserver.ru | - | High
-41 | [62.76.178.192](https://vuldb.com/?ip.62.76.178.192) | ballistica.ru | - | High
-42 | [62.76.185.233](https://vuldb.com/?ip.62.76.185.233) | 62-76-185-233.vm.clodoserver.ru | - | High
-43 | [62.76.188.38](https://vuldb.com/?ip.62.76.188.38) | 62-76-188-38.vm.clodoserver.ru | - | High
-44 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | - | High
-45 | ... | ... | ... | ...
+11 | [23.253.126.58](https://vuldb.com/?ip.23.253.126.58) | - | - | High
+12 | [24.115.94.180](https://vuldb.com/?ip.24.115.94.180) | 24.115.94.180.res-cmts.ovr.ptd.net | - | High
+13 | [24.120.165.58](https://vuldb.com/?ip.24.120.165.58) | wsip-24-120-165-58.lv.lv.cox.net | - | High
+14 | [27.54.110.77](https://vuldb.com/?ip.27.54.110.77) | 77.110.54.27.dhcp.mct.ne.jp | - | High
+15 | [32.178.143.61](https://vuldb.com/?ip.32.178.143.61) | mobile-32-178-143-61.mycingular.net | - | High
+16 | [34.72.197.182](https://vuldb.com/?ip.34.72.197.182) | 182.197.72.34.bc.googleusercontent.com | - | Medium
+17 | [35.177.71.77](https://vuldb.com/?ip.35.177.71.77) | ns1.symbiant.net | - | High
+18 | [36.2.242.186](https://vuldb.com/?ip.36.2.242.186) | 36-2-242-186.aichi.otk.vectant.ne.jp | - | High
+19 | [39.116.90.10](https://vuldb.com/?ip.39.116.90.10) | - | - | High
+20 | [41.168.5.140](https://vuldb.com/?ip.41.168.5.140) | - | - | High
+21 | [45.60.77.201](https://vuldb.com/?ip.45.60.77.201) | - | - | High
+22 | [46.165.243.51](https://vuldb.com/?ip.46.165.243.51) | - | - | High
+23 | [49.212.235.209](https://vuldb.com/?ip.49.212.235.209) | www3469.sakura.ne.jp | - | High
+24 | [50.7.252.125](https://vuldb.com/?ip.50.7.252.125) | - | - | High
+25 | [50.72.177.24](https://vuldb.com/?ip.50.72.177.24) | S01069050ca30b943.wp.shawcable.net | - | High
+26 | [50.116.43.143](https://vuldb.com/?ip.50.116.43.143) | li480-143.members.linode.com | - | High
+27 | [51.178.156.9](https://vuldb.com/?ip.51.178.156.9) | ip9.ip-51-178-156.eu | - | High
+28 | [52.85.132.44](https://vuldb.com/?ip.52.85.132.44) | server-52-85-132-44.iad50.r.cloudfront.net | - | High
+29 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+30 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+31 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
+32 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
+33 | [58.1.158.10](https://vuldb.com/?ip.58.1.158.10) | ntaich204010.aich.nt.ngn.ppp.infoweb.ne.jp | - | High
+34 | [58.68.2.214](https://vuldb.com/?ip.58.68.2.214) | - | - | High
+35 | [58.185.131.158](https://vuldb.com/?ip.58.185.131.158) | - | - | High
+36 | [59.90.221.6](https://vuldb.com/?ip.59.90.221.6) | static.bb.hyd.59.90.221.6.bsnl.in | - | High
+37 | [60.244.81.6](https://vuldb.com/?ip.60.244.81.6) | 60-244-81-6.apol.com.tw | - | High
+38 | [61.7.235.35](https://vuldb.com/?ip.61.7.235.35) | - | - | High
+39 | [61.32.242.131](https://vuldb.com/?ip.61.32.242.131) | - | - | High
+40 | [62.49.180.189](https://vuldb.com/?ip.62.49.180.189) | - | - | High
+41 | [62.76.47.5](https://vuldb.com/?ip.62.76.47.5) | 62-76-47-5.vm.clodoserver.ru | - | High
+42 | [62.76.178.192](https://vuldb.com/?ip.62.76.178.192) | ballistica.ru | - | High
+43 | [62.76.185.233](https://vuldb.com/?ip.62.76.185.233) | 62-76-185-233.vm.clodoserver.ru | - | High
+44 | [62.76.188.38](https://vuldb.com/?ip.62.76.188.38) | 62-76-188-38.vm.clodoserver.ru | - | High
+45 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | - | High
+46 | ... | ... | ... | ...
 
-There are 174 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -114,6 +115,10 @@ There are 155 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/05/threat-roundup-0504-0511.html
+* https://blog.talosintelligence.com/2018/10/threat-roundup-1005-1012.html
+* https://blog.talosintelligence.com/2019/03/threat-roundup-0315-0322.html
+* https://blog.talosintelligence.com/2019/03/threat-roundup-for-feb-22-to-march-1.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0205-0212.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html

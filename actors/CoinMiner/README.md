@@ -33,9 +33,10 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
 11 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
 12 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
-13 | ... | ... | ... | ...
+13 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
+14 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,40 +74,42 @@ ID | Type | Indicator | Confidence
 15 | File | `123flashchat.php` | High
 16 | File | `action.php` | Medium
 17 | File | `Active Browser Profile` | High
-18 | File | `adb/adb_client.c` | High
-19 | File | `addons/mod_media/body.php` | High
-20 | File | `admin.php` | Medium
-21 | File | `admin/profile_settings_net.html` | High
-22 | File | `af.cgi/alienform.cgi` | High
-23 | File | `af_netlink.c` | Medium
-24 | File | `aide.php3` | Medium
-25 | File | `aim/icq` | Low
-26 | File | `ajax.php` | Medium
-27 | File | `akocomment.php` | High
-28 | File | `album.php` | Medium
-29 | File | `allmanageup.pl` | High
-30 | File | `apache2/modsecurity.c` | High
-31 | File | `arm/lithium-codegen-arm.cc` | High
-32 | File | `attachment_send.php` | High
-33 | File | `b2edit.showposts.php` | High
-34 | File | `bar.phtml` | Medium
-35 | File | `bitmap/bdfread.c` | High
-36 | File | `cadastro_usuario.php` | High
-37 | File | `cartman.php` | Medium
-38 | File | `cdf.c` | Low
-39 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-40 | File | `cgi/actions.py` | High
-41 | File | `cgiproc` | Low
-42 | File | `classifieds.cgi` | High
-43 | File | `cmd.php` | Low
-44 | ... | ... | ...
+18 | File | `addons/mod_media/body.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/profile_settings_net.html` | High
+21 | File | `af.cgi/alienform.cgi` | High
+22 | File | `af_netlink.c` | Medium
+23 | File | `aide.php3` | Medium
+24 | File | `aim/icq` | Low
+25 | File | `ajax.php` | Medium
+26 | File | `akocomment.php` | High
+27 | File | `album.php` | Medium
+28 | File | `allmanageup.pl` | High
+29 | File | `apache2/modsecurity.c` | High
+30 | File | `arm/lithium-codegen-arm.cc` | High
+31 | File | `attachment_send.php` | High
+32 | File | `b2edit.showposts.php` | High
+33 | File | `bar.phtml` | Medium
+34 | File | `bitmap/bdfread.c` | High
+35 | File | `cadastro_usuario.php` | High
+36 | File | `cartman.php` | Medium
+37 | File | `cdf.c` | Low
+38 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+39 | File | `cgi/actions.py` | High
+40 | File | `cgiproc` | Low
+41 | File | `classifieds.cgi` | High
+42 | File | `cmd.php` | Low
+43 | File | `colors.py` | Medium
+44 | File | `com.evernote_preferences.xml` | High
+45 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/09/threat-roundup-0914-0921.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0305-0312.html
@@ -116,6 +119,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0611-0617.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
+* https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
+* https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/
 
 ## Literature
 

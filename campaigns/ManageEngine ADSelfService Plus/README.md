@@ -51,12 +51,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin/conf_users_edit.php` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `goform/setUsbUnload` | High
-4 | ... | ... | ...
+1 | File | `/language/lang` | High
+2 | File | `admin/conf_users_edit.php` | High
+3 | File | `data/gbconfiguration.dat` | High
+4 | File | `goform/setUsbUnload` | High
+5 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

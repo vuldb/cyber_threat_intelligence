@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shadowcrew:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
@@ -764,38 +764,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/syslog` | High
-4 | File | `/advance_push/public/login` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/cgi-bin/luci` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/monitoring` | Medium
-9 | File | `/new` | Low
-10 | File | `/proc/<pid>/status` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/secure/QueryComponent!Default.jspa` | High
-14 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-15 | File | `/tmp` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/WEB-INF/web.xml` | High
-19 | File | `/wp-admin/admin-ajax.php` | High
-20 | File | `/wp-json/wc/v3/webhooks` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `AccountManagerService.java` | High
-23 | File | `actions/CompanyDetailsSave.php` | High
-24 | File | `ActiveServices.java` | High
-25 | File | `ActivityManagerService.java` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-28 | File | `admin/add-glossary.php` | High
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin/controllers/Albumsgalleries.php` | High
-31 | ... | ... | ...
+2 | File | `/advance_push/public/login` | High
+3 | File | `/cgi-bin/luci` | High
+4 | File | `/context/%2e/WEB-INF/web.xml` | High
+5 | File | `/monitoring` | Medium
+6 | File | `/new` | Low
+7 | File | `/proc/<pid>/status` | High
+8 | File | `/public/plugins/` | High
+9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+10 | File | `/secure/QueryComponent!Default.jspa` | High
+11 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+12 | File | `/tmp` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/bin/pkexec` | High
+15 | File | `/WEB-INF/web.xml` | High
+16 | File | `/wp-admin/admin-ajax.php` | High
+17 | File | `/wp-json/wc/v3/webhooks` | High
+18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+19 | File | `AccountManagerService.java` | High
+20 | File | `actions/CompanyDetailsSave.php` | High
+21 | File | `ActiveServices.java` | High
+22 | File | `ActivityManagerService.java` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+25 | File | `admin/add-glossary.php` | High
+26 | File | `admin/conf_users_edit.php` | High
+27 | File | `admin/controllers/Albumsgalleries.php` | High
+28 | File | `admin/edit-comments.php` | High
+29 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+30 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

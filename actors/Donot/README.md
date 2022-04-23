@@ -81,23 +81,23 @@ ID | Type | Indicator | Confidence
 18 | File | `/var/www/xms/cleanzip.sh` | High
 19 | File | `/web/jquery/uploader/multi_uploadify.php` | High
 20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `about.php` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `addentry.php` | Medium
-25 | File | `add_vhost.php` | High
-26 | File | `admin/conf_users_edit.php` | High
-27 | File | `admin/default.asp` | High
-28 | File | `admin/media/rename.php` | High
-29 | File | `admin/user.php` | High
-30 | File | `advanced_component_system/index.php` | High
-31 | File | `agent.cfg` | Medium
-32 | File | `ajax/render/widget_php` | High
-33 | File | `ampie.swf` | Medium
-34 | File | `announcements.php` | High
+21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `about.php` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `addentry.php` | Medium
+26 | File | `add_vhost.php` | High
+27 | File | `admin/conf_users_edit.php` | High
+28 | File | `admin/default.asp` | High
+29 | File | `admin/media/rename.php` | High
+30 | File | `admin/user.php` | High
+31 | File | `advanced_component_system/index.php` | High
+32 | File | `agent.cfg` | Medium
+33 | File | `ajax/render/widget_php` | High
+34 | File | `ampie.swf` | Medium
 35 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -27,9 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [13.56.128.67](https://vuldb.com/?ip.13.56.128.67) | screenconnect.medsphere.com | - | High
 5 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
 6 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-7 | ... | ... | ... | ...
+7 | [23.63.245.19](https://vuldb.com/?ip.23.63.245.19) | a23-63-245-19.deploy.static.akamaitechnologies.com | - | High
+8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,6 +74,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0910-0917.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0318-0325.html
+* https://isc.sans.edu/forums/diary/Brazilian+malspam+sends+Autoitbased+malware/22081/
 
 ## Literature
 

@@ -60,45 +60,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/files/` | Medium
-2 | File | `/api/trackedEntityInstances` | High
-3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-4 | File | `/de/cgi/dfs_guest/` | High
-5 | File | `/filemanager/upload.php` | High
-6 | File | `/include/makecvs.php` | High
-7 | File | `/includes/event-management/index.php` | High
-8 | File | `/Main_AdmStatus_Content.asp` | High
-9 | File | `/member/picture/album` | High
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/products/details.asp` | High
-13 | File | `/services/details.asp` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-16 | File | `/usr/syno/etc/mount.conf` | High
-17 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-18 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-19 | File | `a-b-membres.php` | High
-20 | File | `actions.php` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `add.php` | Low
-23 | File | `add_2_basket.asp` | High
-24 | File | `add_comment.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin.php/comments/batchdel/` | High
-27 | File | `admin/aboutus.php` | High
-28 | File | `admin\controller\uploadfile.php` | High
-29 | File | `album_portal.php` | High
-30 | File | `al_initialize.php` | High
-31 | File | `application/modules/admin/views/ecommerce/products.php` | High
-32 | File | `ArchiveNews.aspx` | High
-33 | File | `ashnews.php/ashheadlines.php` | High
-34 | File | `base/ErrorHandler.php` | High
-35 | File | `blog.php` | Medium
-36 | File | `board.php` | Medium
-37 | ... | ... | ...
+1 | File | `/admin/contenttemp` | High
+2 | File | `/api/files/` | Medium
+3 | File | `/api/trackedEntityInstances` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/de/cgi/dfs_guest/` | High
+6 | File | `/filemanager/upload.php` | High
+7 | File | `/include/makecvs.php` | High
+8 | File | `/includes/event-management/index.php` | High
+9 | File | `/Main_AdmStatus_Content.asp` | High
+10 | File | `/member/picture/album` | High
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/products/details.asp` | High
+14 | File | `/services/details.asp` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+17 | File | `/usr/syno/etc/mount.conf` | High
+18 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+19 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+20 | File | `a-b-membres.php` | High
+21 | File | `actions.php` | Medium
+22 | File | `adclick.php` | Medium
+23 | File | `add.php` | Low
+24 | File | `add_2_basket.asp` | High
+25 | File | `add_comment.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin.php/comments/batchdel/` | High
+28 | File | `admin/aboutus.php` | High
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin\controller\uploadfile.php` | High
+31 | File | `album_portal.php` | High
+32 | File | `al_initialize.php` | High
+33 | File | `application/modules/admin/views/ecommerce/products.php` | High
+34 | File | `ArchiveNews.aspx` | High
+35 | File | `ashnews.php/ashheadlines.php` | High
+36 | File | `base/ErrorHandler.php` | High
+37 | File | `blog.php` | Medium
+38 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with TeamTNT:
 
+* Amazon Web Services
 * Cryptomining
 * Hildegard
 
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,13 +29,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.245.9.147](https://vuldb.com/?ip.13.245.9.147) | ec2-13-245-9-147.af-south-1.compute.amazonaws.com | Hildegard | Medium
-2 | [39.100.33.209](https://vuldb.com/?ip.39.100.33.209) | - | - | High
-3 | [45.9.148.35](https://vuldb.com/?ip.45.9.148.35) | - | - | High
-4 | [45.9.148.37](https://vuldb.com/?ip.45.9.148.37) | - | - | High
-5 | ... | ... | ... | ...
+1 | [3.125.10.23](https://vuldb.com/?ip.3.125.10.23) | ec2-3-125-10-23.eu-central-1.compute.amazonaws.com | Amazon Web Services | Medium
+2 | [13.245.9.147](https://vuldb.com/?ip.13.245.9.147) | ec2-13-245-9-147.af-south-1.compute.amazonaws.com | Hildegard | Medium
+3 | [15.236.100.141](https://vuldb.com/?ip.15.236.100.141) | ec2-15-236-100-141.eu-west-3.compute.amazonaws.com | Amazon Web Services | Medium
+4 | [39.100.33.209](https://vuldb.com/?ip.39.100.33.209) | - | - | High
+5 | [45.9.148.35](https://vuldb.com/?ip.45.9.148.35) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 20 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,17 +59,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/goform/SetNetControlList` | High
 2 | File | `/Search-Results` | High
-3 | File | `admin/categories_industry.php` | High
-4 | File | `admin/content/postcategory` | High
-5 | File | `Adminstrator/Users/Edit/` | High
+3 | File | `/usr/bin/pkexec` | High
+4 | File | `admin/categories_industry.php` | High
+5 | File | `admin/content/postcategory` | High
 6 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2022/04/teamtnt-targeting-aws-alibaba.html
 * https://unit42.paloaltonetworks.com/hildegard-malware-teamtnt/
 * https://unit42.paloaltonetworks.com/teamtnt-cryptojacking-watchdog-operations/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.02.03/Hildegard.pdf

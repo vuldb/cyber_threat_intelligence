@@ -64,9 +64,16 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [23.227.38.74](https://vuldb.com/?ip.23.227.38.74) | - | - | High
 36 | [34.96.116.138](https://vuldb.com/?ip.34.96.116.138) | 138.116.96.34.bc.googleusercontent.com | - | Medium
 37 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-38 | ... | ... | ... | ...
+38 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
+39 | [34.202.33.33](https://vuldb.com/?ip.34.202.33.33) | ec2-34-202-33-33.compute-1.amazonaws.com | - | Medium
+40 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+41 | [35.214.144.124](https://vuldb.com/?ip.35.214.144.124) | 124.144.214.35.bc.googleusercontent.com | - | Medium
+42 | [37.1.206.16](https://vuldb.com/?ip.37.1.206.16) | free.ispiria.net | - | High
+43 | [37.19.193.217](https://vuldb.com/?ip.37.19.193.217) | unn-37-19-193-217.cdn77.com | - | High
+44 | [37.120.138.222](https://vuldb.com/?ip.37.120.138.222) | - | - | High
+45 | ... | ... | ... | ...
 
-There are 150 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -79,7 +86,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,44 +94,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htpasswd` | Medium
-2 | File | `/../conf/config.properties` | High
-3 | File | `/drivers/infiniband/core/cm.c` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/horde/util/go.php` | High
-6 | File | `/images/` | Medium
-7 | File | `/inc/parser/xhtml.php` | High
-8 | File | `/login` | Low
-9 | File | `/mgmt/shared/authz/users/` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/one_church/userregister.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/public/plugins/` | High
-14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-17 | File | `/system/proxy` | High
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `adclick.php` | Medium
-20 | File | `add.php` | Low
-21 | File | `addentry.php` | Medium
-22 | File | `addressbookprovider.php` | High
-23 | File | `admin.jcomments.php` | High
-24 | File | `admin/pageUploadCSV.php` | High
-25 | File | `ajax_udf.php` | Medium
-26 | File | `AppCompatCache.exe` | High
-27 | File | `application.js.php` | High
-28 | File | `apply.cgi` | Medium
-29 | File | `arm/lithium-codegen-arm.cc` | High
-30 | File | `authenticate.c` | High
-31 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `.htpasswd` | Medium
+3 | File | `/../conf/config.properties` | High
+4 | File | `/drivers/infiniband/core/cm.c` | High
+5 | File | `/ext/phar/phar_object.c` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/images/` | Medium
+9 | File | `/inc/parser/xhtml.php` | High
+10 | File | `/index.php?page=signup` | High
+11 | File | `/login` | Low
+12 | File | `/mgmt/shared/authz/users/` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/one_church/userregister.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/public/plugins/` | High
+17 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+18 | File | `/SASWebReportStudio/logonAndRender.do` | High
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+21 | File | `/system/proxy` | High
+22 | File | `/tmp/phpglibccheck` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add.php` | Low
+25 | File | `addentry.php` | Medium
+26 | File | `addressbookprovider.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin/pageUploadCSV.php` | High
+29 | File | `ajax_udf.php` | Medium
+30 | File | `AppCompatCache.exe` | High
+31 | File | `application.js.php` | High
+32 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/06/threat-roundup-0622-0629.html
+* https://blog.talosintelligence.com/2018/08/picking-apart-remcos.html
+* https://blog.talosintelligence.com/2019/03/threat-roundup-0315-0322.html
+* https://blog.talosintelligence.com/2019/05/threat-roundup-0524-0531.html
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0531-0607.html
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0614-0621.html
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
@@ -143,6 +158,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0318-0325.html
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
+* https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
 * https://isc.sans.edu/forums/diary/Malspam+using+passwordprotected+Word+docs+to+push+Remcos+RAT/25292/
 
 ## Literature

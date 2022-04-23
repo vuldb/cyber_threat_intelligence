@@ -184,15 +184,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/forgetpassword.php` | High
 6 | File | `/forum/away.php` | High
 7 | File | `/graphStatus/displayServiceStatus.php` | High
-8 | File | `/inc/HTTPClient.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/osm/REGISTER.cmd` | High
-11 | File | `/out.php` | Medium
-12 | File | `/pages/items` | Medium
-13 | File | `/proc/pid/syscall` | High
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-16 | File | `/servlet.gupld` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/osm/REGISTER.cmd` | High
+10 | File | `/out.php` | Medium
+11 | File | `/pages/items` | Medium
+12 | File | `/proc/pid/syscall` | High
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+15 | File | `/servlet.gupld` | High
+16 | File | `/sql/sql_type.cc` | High
 17 | File | `/status` | Low
 18 | File | `/tools/developerConsoleOperations.jsp` | High
 19 | File | `/uncpath/` | Medium
@@ -200,7 +200,7 @@ ID | Type | Indicator | Confidence
 21 | File | `/WEB-INF/web.xml` | High
 22 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

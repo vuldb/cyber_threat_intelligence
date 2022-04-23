@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with UAC-0056:
 
+* GraphSteel/GrimPlant
 * Ukraine
 
 ## Countries
@@ -32,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | Ukraine | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,35 +68,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/mifs/c/i/reg/reg.html` | High
 13 | File | `/ms/cms/content/list.do` | High
 14 | File | `/orms/` | Low
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-17 | File | `/www/ping_response.cgi` | High
-18 | File | `ABuffer.cpp` | Medium
-19 | File | `account.asp` | Medium
-20 | File | `addmember.php` | High
-21 | File | `addtocart.asp` | High
-22 | File | `addtomylist.asp` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin.x-shop.php` | High
-25 | File | `admin/auth.php` | High
-26 | File | `admin/changedata.php` | High
-27 | File | `admin/dashboard.php` | High
-28 | File | `admin/edit-news.php` | High
-29 | File | `admin/gallery.php` | High
-30 | File | `admin/index.php` | High
-31 | File | `admin/manage-departments.php` | High
-32 | File | `admin/sellerupd.php` | High
-33 | File | `admin/vqmods.app/vqmods.inc.php` | High
-34 | File | `admincp/auth/checklogin.php` | High
-35 | ... | ... | ...
+15 | File | `/plesk-site-preview/` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+18 | File | `/www/ping_response.cgi` | High
+19 | File | `ABuffer.cpp` | Medium
+20 | File | `account.asp` | Medium
+21 | File | `addmember.php` | High
+22 | File | `addtocart.asp` | High
+23 | File | `addtomylist.asp` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin.x-shop.php` | High
+26 | File | `admin/auth.php` | High
+27 | File | `admin/changedata.php` | High
+28 | File | `admin/dashboard.php` | High
+29 | File | `admin/edit-news.php` | High
+30 | File | `admin/gallery.php` | High
+31 | File | `admin/index.php` | High
+32 | File | `admin/manage-departments.php` | High
+33 | File | `admin/sellerupd.php` | High
+34 | File | `admin/vqmods.app/vqmods.inc.php` | High
+35 | File | `admincp/auth/checklogin.php` | High
+36 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cert.gov.ua/article/18419
+* https://cert.gov.ua/article/38374
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
 * https://www.sentinelone.com/blog/threat-actor-uac-0056-targeting-ukraine-with-fake-translation-software/
 

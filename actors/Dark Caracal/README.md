@@ -52,9 +52,10 @@ ID | Type | Indicator | Confidence
 3 | File | `application/modules/admin/views/ecommerce/products.php` | High
 4 | File | `apply.cgi` | Medium
 5 | File | `base/ErrorHandler.php` | High
-6 | ... | ... | ...
+6 | File | `blog.php` | Medium
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

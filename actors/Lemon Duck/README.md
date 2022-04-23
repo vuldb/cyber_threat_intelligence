@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -62,43 +62,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `./clients/client` | High
-2 | File | `//` | Low
-3 | File | `/assets/ctx` | Medium
-4 | File | `/cgi-bin/luci` | High
-5 | File | `/config/getuser` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/horde/util/go.php` | High
-8 | File | `/hostapd` | Medium
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/MTFWU` | Low
-11 | File | `/my_photo_gallery/image.php` | High
-12 | File | `/ptms/classes/Users.php` | High
-13 | File | `/public/admin.php` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/rest/api/1.0/render` | High
-18 | File | `/rest/api/latest/user/avatar/temporary` | High
-19 | File | `/s/` | Low
+1 | File | `//` | Low
+2 | File | `/cgi-bin/luci` | High
+3 | File | `/config/getuser` | High
+4 | File | `/form/index.php?module=getjson` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/horde/util/go.php` | High
+7 | File | `/hostapd` | Medium
+8 | File | `/include/chart_generator.php` | High
+9 | File | `/MTFWU` | Low
+10 | File | `/my_photo_gallery/image.php` | High
+11 | File | `/ptms/classes/Users.php` | High
+12 | File | `/public/admin.php` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/rest/api/1.0/render` | High
+17 | File | `/s/` | Low
+18 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+19 | File | `/scripts/unlock_tasks.php` | High
 20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 21 | File | `/sm/api/v1/firewall/zone/services` | High
 22 | File | `/sys/attachment/uploaderServlet` | High
 23 | File | `/uncpath/` | Medium
 24 | File | `/user-utils/users/md5.json` | High
-25 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-json` | Medium
-29 | File | `102/tcp` | Low
-30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin.remository.php` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-35 | ... | ... | ...
+25 | File | `/userfs/bin/tcapi` | High
+26 | File | `/userRpm/popupSiteSurveyRpm.html` | High
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/wp-json` | Medium
+30 | File | `102/tcp` | Low
+31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin.remository.php` | High
+34 | File | `admin/conf_users_edit.php` | High
+35 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

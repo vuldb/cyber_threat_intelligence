@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,11 +84,11 @@ ID | Type | Indicator | Confidence
 6 | File | `/images/` | Medium
 7 | File | `/inc/parser/xhtml.php` | High
 8 | File | `/login` | Low
-9 | File | `/mgmt/shared/authz/users/` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/one_church/userregister.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/public/plugins/` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/one_church/userregister.php` | High
+11 | File | `/out.php` | Medium
+12 | File | `/public/plugins/` | High
+13 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 14 | File | `/SASWebReportStudio/logonAndRender.do` | High
 15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 16 | File | `/secure/admin/ViewInstrumentation.jspa` | High

@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with xHunt:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with xHunt:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 35 more country items available. Please use our online service to access the data.
@@ -59,52 +59,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/about.php` | Medium
-4 | File | `/account/register` | High
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/modules/system/custom_field.php` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/app1/admin#foo` | High
-9 | File | `/articles/welcome-to-your-site#comments-head` | High
-10 | File | `/assets/ctx` | Medium
+3 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
+4 | File | `/about.php` | Medium
+5 | File | `/account/register` | High
+6 | File | `/admin.php?action=themeinstall` | High
+7 | File | `/admin/contenttemp` | High
+8 | File | `/admin/modules/system/custom_field.php` | High
+9 | File | `/api/crontab` | Medium
+10 | File | `/app1/admin#foo` | High
 11 | File | `/bin/boa` | Medium
 12 | File | `/cgi-bin/wapopen` | High
 13 | File | `/cgi-mod/lookup.cgi` | High
 14 | File | `/cgi?1&5` | Medium
 15 | File | `/config/getuser` | High
 16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/sudoers` | Medium
-18 | File | `/export` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-21 | File | `/iissamples` | Medium
-22 | File | `/login` | Low
-23 | File | `/new` | Low
-24 | File | `/public/plugins/` | High
-25 | File | `/sbin/gs_config` | High
-26 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
-29 | File | `/uploads/dede` | High
-30 | File | `/usr/bin/pkexec` | High
-31 | File | `/usr/sbin/nagios` | High
-32 | File | `/usr/sbin/suexec` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `/webman/info.cgi` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
-37 | File | `/wp-json/wc/v3/webhooks` | High
-38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-39 | File | `admin.php?m=admin&c=site&a=save` | High
-40 | File | `admin.php?page=languages` | High
-41 | File | `admin/admin_users.php` | High
-42 | File | `admin/bitrix.mpbuilder_step2.php` | High
-43 | File | `admin/bitrix.xscan_worker.php` | High
-44 | File | `admin/conf_users_edit.php` | High
-45 | File | `admin/mcart_xls_import.php` | High
+17 | File | `/export` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+20 | File | `/iissamples` | Medium
+21 | File | `/interface/main/backup.php` | High
+22 | File | `/new` | Low
+23 | File | `/public/plugins/` | High
+24 | File | `/sbin/gs_config` | High
+25 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+28 | File | `/uploads/dede` | High
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/sbin/nagios` | High
+31 | File | `/usr/sbin/suexec` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/webman/info.cgi` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+38 | File | `admin.php?m=admin&c=site&a=save` | High
+39 | File | `admin.php?page=languages` | High
+40 | File | `admin/admin_users.php` | High
+41 | File | `admin/bitrix.mpbuilder_step2.php` | High
+42 | File | `admin/bitrix.xscan_worker.php` | High
+43 | File | `admin/conf_users_edit.php` | High
+44 | File | `admin/mcart_xls_import.php` | High
+45 | File | `admin/ops/reports/ops/news.php` | High
 46 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

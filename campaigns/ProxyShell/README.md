@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -91,21 +91,22 @@ ID | Type | Indicator | Confidence
 33 | File | `/webconsole/APIController` | High
 34 | File | `/websocket/exec` | High
 35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
-37 | File | `/_next` | Low
-38 | File | `4.edu.php\conn\function.php` | High
-39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addentry.php` | Medium
-42 | File | `addressbook.php` | High
+36 | File | `/wp-json` | Medium
+37 | File | `/wp-json/oembed/1.0/embed?url` | High
+38 | File | `/_next` | Low
+39 | File | `4.edu.php\conn\function.php` | High
+40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+41 | File | `adclick.php` | Medium
+42 | File | `addentry.php` | Medium
 43 | File | `add_comment.php` | High
 44 | File | `add_edit_user.asp` | High
 45 | File | `admin/category.inc.php` | High
 46 | File | `admin/conf_users_edit.php` | High
 47 | File | `admin/dl_sendmail.php` | High
-48 | ... | ... | ...
+48 | File | `admin/index.php` | High
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

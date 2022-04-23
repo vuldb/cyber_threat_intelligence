@@ -29,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.3.251.197](https://vuldb.com/?ip.31.3.251.197) | h31-3-251-197.host.redstation.co.uk | - | High
 2 | [69.174.99.181](https://vuldb.com/?ip.69.174.99.181) | unassigned.quadranet.com | Phishing Korea | High
-3 | [105.112.112.57](https://vuldb.com/?ip.105.112.112.57) | - | - | High
+3 | [103.147.185.68](https://vuldb.com/?ip.103.147.185.68) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -108,6 +108,7 @@ There are 405 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2020/04/threat-spotlight-secret-agent-tesla
+* https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -101,10 +101,9 @@ ID | Type | Indicator | Confidence
 48 | File | `DigiDocSAXParser.c` | High
 49 | File | `download-file.php` | High
 50 | File | `download.php` | Medium
-51 | File | `e/member/doaction.php` | High
-52 | ... | ... | ...
+51 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

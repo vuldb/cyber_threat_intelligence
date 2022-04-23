@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,9 +40,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
@@ -53,33 +53,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/news/news_mod.php` | High
-2 | File | `/admin/page_edit/3` | High
-3 | File | `/cgi-bin/uploadWeiXinPic` | High
-4 | File | `/domain/service/.ewell-known/caldav` | High
-5 | File | `/formAdvFirewall` | High
-6 | File | `/jquery_file_upload/server/php/index.php` | High
-7 | File | `/mobile/SelectUsers.jsp` | High
-8 | File | `/ProteinArraySignificanceTest.json` | High
-9 | File | `/ptms/classes/Users.php` | High
-10 | File | `/system/bin/osi_bin` | High
-11 | File | `/usr/local/bin/mjs` | High
-12 | File | `admin/bad.php` | High
-13 | File | `admin/dl_sendmail.php` | High
-14 | File | `admin/pages/useredit.php` | High
-15 | File | `AdminBaseController.class.php` | High
-16 | File | `AlertReceiver.java` | High
-17 | File | `alfresco/s/admin/admin-nodebrowser` | High
-18 | File | `anchor/routes/posts.php` | High
-19 | File | `AndroidFuture.java` | High
-20 | File | `AndroidManifest.xml` | High
-21 | File | `api/info.php` | Medium
-22 | File | `app/admin/subnets/find_free_section_subnets.php` | High
-23 | File | `attach.c` | Medium
-24 | File | `blocking.cgi` | Medium
-25 | ... | ... | ...
+1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+2 | File | `/admin/inbox.php&action=read` | High
+3 | File | `/admin/news/news_mod.php` | High
+4 | File | `/admin/page_edit/3` | High
+5 | File | `/apps/acs-commons/content/page-compare.html` | High
+6 | File | `/blog/blog.php` | High
+7 | File | `/cgi-bin/uploadWeiXinPic` | High
+8 | File | `/domain/service/.ewell-known/caldav` | High
+9 | File | `/dvcset/sysset/set.cgi` | High
+10 | File | `/example/editor` | High
+11 | File | `/include/make.php` | High
+12 | File | `/jquery_file_upload/server/php/index.php` | High
+13 | File | `/mobile/SelectUsers.jsp` | High
+14 | File | `/php/ajax.php` | High
+15 | File | `/ProteinArraySignificanceTest.json` | High
+16 | File | `/ptms/classes/Users.php` | High
+17 | File | `/public/admin/index.php?add_product` | High
+18 | File | `/system/bin/osi_bin` | High
+19 | File | `/usr/local/bin/mjs` | High
+20 | File | `/wp-content/uploads/jobmonster/` | High
+21 | File | `/zbzedit/php/zbz.php` | High
+22 | File | `ActiveServices.java` | High
+23 | File | `admin/bad.php` | High
+24 | File | `admin/dl_sendmail.php` | High
+25 | File | `admin/htaccess/bpsunlock.php` | High
+26 | File | `admin/pages/useredit.php` | High
+27 | File | `AlertReceiver.java` | High
+28 | File | `alfresco/s/admin/admin-nodebrowser` | High
+29 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

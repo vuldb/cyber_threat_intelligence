@@ -81,41 +81,40 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
 3 | File | `/admin-panel1.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/alerts/alertConfigField.php` | High
-6 | File | `/api/email_accounts` | High
-7 | File | `/API/system/admins/session` | High
-8 | File | `/cgi-bin/ExportALLSettings.sh` | High
-9 | File | `/config/config.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/customers/index.php` | High
-12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-15 | File | `/DataHandler/Handler_CFG.ashx` | High
-16 | File | `/ECT_Provider/` | High
-17 | File | `/fuel/index.php/fuel/logs/items` | High
-18 | File | `/fuel/index.php/fuel/pages/items` | High
-19 | File | `/goform/openSchedWifi` | High
-20 | File | `/goform/SetNetControlList` | High
-21 | File | `/image_zoom.php` | High
-22 | File | `/include/config.cache.php` | High
-23 | File | `/json/profile/removeStarAjax.do` | High
-24 | File | `/oauth/token/request` | High
-25 | File | `/plugin/ajax.php` | High
-26 | File | `/plugins/servlet/branchreview` | High
-27 | File | `/proc/ioports` | High
-28 | File | `/proc/self/exe` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/rest/api/2/search` | High
-31 | File | `/rest/api/latest/groupuserpicker` | High
-32 | File | `/rest/api/latest/projectvalidate/key` | High
-33 | File | `/rom-0` | Low
-34 | File | `/tmp` | Low
-35 | File | `/tmp/connlicj.bin` | High
-36 | ... | ... | ...
+4 | File | `/admin/academic/studenview_left.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/alerts/alertConfigField.php` | High
+7 | File | `/api/email_accounts` | High
+8 | File | `/API/system/admins/session` | High
+9 | File | `/cgi-bin/ExportALLSettings.sh` | High
+10 | File | `/config/config.php` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/customers/index.php` | High
+13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+16 | File | `/DataHandler/Handler_CFG.ashx` | High
+17 | File | `/ECT_Provider/` | High
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/index.php/fuel/pages/items` | High
+20 | File | `/goform/openSchedWifi` | High
+21 | File | `/goform/SetNetControlList` | High
+22 | File | `/image_zoom.php` | High
+23 | File | `/include/config.cache.php` | High
+24 | File | `/json/profile/removeStarAjax.do` | High
+25 | File | `/oauth/token/request` | High
+26 | File | `/plugin/ajax.php` | High
+27 | File | `/plugins/servlet/branchreview` | High
+28 | File | `/proc/ioports` | High
+29 | File | `/proc/self/exe` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/rest/api/2/search` | High
+32 | File | `/rest/api/latest/groupuserpicker` | High
+33 | File | `/rest/api/latest/projectvalidate/key` | High
+34 | File | `/rom-0` | Low
+35 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

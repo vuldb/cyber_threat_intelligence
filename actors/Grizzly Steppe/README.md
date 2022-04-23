@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -171,39 +171,40 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `//` | Low
 3 | File | `/admin-panel1.php` | High
-4 | File | `/admin.php/admin/ulog/index.html` | High
-5 | File | `/admin/configure.php` | High
-6 | File | `/admin/doctors/view_doctor.php` | High
-7 | File | `/admin/index.php?lfj=mysql&action=del` | High
-8 | File | `/cgi-bin/uploadAccessCodePic` | High
-9 | File | `/cms/ajax.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/dev/dri/card1` | High
-12 | File | `/download` | Medium
-13 | File | `/export` | Low
-14 | File | `/file?action=download&file` | High
-15 | File | `/goform/setIPv6Status` | High
-16 | File | `/images` | Low
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/InternalPages/ExecuteTask.aspx` | High
-19 | File | `/music/ajax.php` | High
-20 | File | `/nova/bin/sniffer` | High
-21 | File | `/pandora_console/ajax.php` | High
-22 | File | `/principals` | Medium
-23 | File | `/public/plugins/` | High
-24 | File | `/SASWebReportStudio/logonAndRender.do` | High
-25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/system/bin/osi_bin` | High
-28 | File | `/tmp` | Low
-29 | File | `/TMS/admin/setting/mail/createorupdate` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/var/log/nginx` | High
-32 | File | `/web/MCmsAction.java` | High
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | ... | ... | ...
+4 | File | `/admin.php` | Medium
+5 | File | `/admin.php/admin/ulog/index.html` | High
+6 | File | `/admin/configure.php` | High
+7 | File | `/admin/doctors/view_doctor.php` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/AvalancheWeb/image` | High
+11 | File | `/category.php` | High
+12 | File | `/cgi-bin/uploadAccessCodePic` | High
+13 | File | `/cms/ajax.php` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dev/dri/card1` | High
+16 | File | `/export` | Low
+17 | File | `/file?action=download&file` | High
+18 | File | `/goform/setIPv6Status` | High
+19 | File | `/images` | Low
+20 | File | `/include/chart_generator.php` | High
+21 | File | `/include/make.php` | High
+22 | File | `/InternalPages/ExecuteTask.aspx` | High
+23 | File | `/music/ajax.php` | High
+24 | File | `/nova/bin/sniffer` | High
+25 | File | `/pandora_console/ajax.php` | High
+26 | File | `/principals` | Medium
+27 | File | `/public/plugins/` | High
+28 | File | `/SASWebReportStudio/logonAndRender.do` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/system/bin/osi_bin` | High
+31 | File | `/tmp` | Low
+32 | File | `/TMS/admin/setting/mail/createorupdate` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/web/MCmsAction.java` | High
+35 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,7 +50,7 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/category_view.php` | High
+4 | File | `/dvcset/sysset/set.cgi` | High
 5 | File | `/file?action=download&file` | High
 6 | File | `/medical/inventories.php` | High
 7 | File | `/monitoring` | Medium
@@ -63,22 +63,21 @@ ID | Type | Indicator | Confidence
 14 | File | `/tmp/speedtest_urls.xml` | High
 15 | File | `/uncpath/` | Medium
 16 | File | `/var/log/nginx` | High
-17 | File | `/wp-admin/admin.php` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-20 | File | `admin/index.php` | High
-21 | File | `admin\model\catalog\download.php` | High
-22 | File | `apcupsd.pid` | Medium
-23 | File | `api/sms/send-sms` | High
-24 | File | `api/v1/alarms` | High
-25 | File | `application/controller/InstallerController.php` | High
-26 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-27 | File | `arformcontroller.php` | High
-28 | File | `auth-gss2.c` | Medium
-29 | File | `auth-options.c` | High
-30 | ... | ... | ...
+17 | File | `adclick.php` | Medium
+18 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+19 | File | `admin/index.php` | High
+20 | File | `admin\model\catalog\download.php` | High
+21 | File | `apcupsd.pid` | Medium
+22 | File | `api/sms/send-sms` | High
+23 | File | `api/v1/alarms` | High
+24 | File | `application/controller/InstallerController.php` | High
+25 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+26 | File | `arformcontroller.php` | High
+27 | File | `auth-gss2.c` | Medium
+28 | File | `auth-options.c` | High
+29 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

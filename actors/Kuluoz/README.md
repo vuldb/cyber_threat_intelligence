@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,13 +22,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.32.208.34](https://vuldb.com/?ip.13.32.208.34) | server-13-32-208-34.iad66.r.cloudfront.net | - | High
-2 | [37.59.24.98](https://vuldb.com/?ip.37.59.24.98) | ns3043472.ip-37-59-24.eu | - | High
-3 | [64.91.226.48](https://vuldb.com/?ip.64.91.226.48) | - | - | High
-4 | [65.181.127.125](https://vuldb.com/?ip.65.181.127.125) | pentos.yahomail.today | - | High
-5 | [69.64.32.247](https://vuldb.com/?ip.69.64.32.247) | dragon324.dedicatedpanel.com | - | High
-6 | ... | ... | ... | ...
+2 | [37.26.108.41](https://vuldb.com/?ip.37.26.108.41) | - | - | High
+3 | [37.59.24.98](https://vuldb.com/?ip.37.59.24.98) | ns3043472.ip-37-59-24.eu | - | High
+4 | [62.75.143.211](https://vuldb.com/?ip.62.75.143.211) | static-ip-62-75-143-211.inaddr.ip-pool.com | - | High
+5 | [64.76.19.249](https://vuldb.com/?ip.64.76.19.249) | boromir.mauriciofrappa.com.ar | - | High
+6 | [64.91.226.48](https://vuldb.com/?ip.64.91.226.48) | - | - | High
+7 | [65.181.127.125](https://vuldb.com/?ip.65.181.127.125) | pentos.yahomail.today | - | High
+8 | [69.64.32.247](https://vuldb.com/?ip.69.64.32.247) | dragon324.dedicatedpanel.com | - | High
+9 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,17 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `cgi-bin/webfile_mgr.cgi` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `img.pl` | Low
+1 | File | `bacdcode.c` | Medium
+2 | File | `cgi-bin/webfile_mgr.cgi` | High
+3 | File | `data/gbconfiguration.dat` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/07/threat-roundup-0712-0719.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-for-0705-0712.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0806-0813.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html

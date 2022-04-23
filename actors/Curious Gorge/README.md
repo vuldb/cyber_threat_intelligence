@@ -44,13 +44,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/Items/*/RemoteImages/Download` | High
-3 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-4 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-5 | File | `adclick.php` | Medium
+2 | File | `/filemanager/ajax_calls.php` | High
+3 | File | `/Items/*/RemoteImages/Download` | High
+4 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+5 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

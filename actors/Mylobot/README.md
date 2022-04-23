@@ -88,9 +88,11 @@ ID | Type | Indicator | Confidence
 38 | File | `admin.php` | Medium
 39 | File | `admin/change-password.php` | High
 40 | File | `admin/index.php` | High
-41 | ... | ... | ...
+41 | File | `admin/killsource` | High
+42 | File | `admin/scripts/FileUploader/php.php` | High
+43 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

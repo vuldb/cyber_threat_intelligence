@@ -21,9 +21,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.173.164.205](https://vuldb.com/?ip.5.173.164.205) | user-5-173-164-205.play-internet.pl | - | High
 2 | [46.38.52.225](https://vuldb.com/?ip.46.38.52.225) | free.tel.ru | - | High
 3 | [46.101.8.169](https://vuldb.com/?ip.46.101.8.169) | - | - | High
-4 | ... | ... | ... | ...
+4 | [46.148.20.32](https://vuldb.com/?ip.46.148.20.32) | sa3.net.ua | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,6 +58,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.blackberry.com/en/2017/11/threat-spotlight-locky-ransomware
 * https://github.com/fl0x2208/IOCs-in-CSV-format/blob/6297513d672bd69f1bf488018035892e599e7a9c/locky%20ransomware.csv
+* https://isc.sans.edu/forums/diary/Malspam+pushing+Locky+ransomware+tries+HoeflerText+notifications+for+Chrome+and+FireFox/22776/
+* https://isc.sans.edu/forums/diary/Ongoing+Ykcol+Locky+campaign/22848/
 * https://unit42.paloaltonetworks.com/locky-ransomware-installed-through-nuclear-ek/
 
 ## Literature

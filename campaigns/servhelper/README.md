@@ -69,20 +69,20 @@ ID | Type | Indicator | Confidence
 15 | File | `admin.php` | Medium
 16 | File | `admin/` | Low
 17 | File | `admin/manage-comments.php` | High
-18 | File | `AdminViewError/AdminAddadmin` | High
-19 | File | `agentdisplay.php` | High
-20 | File | `ashnews.php/ashheadlines.php` | High
-21 | File | `auction.cgi` | Medium
-22 | File | `autologin.jsp` | High
-23 | File | `axspawn.c` | Medium
-24 | File | `base_ag_main.php` | High
-25 | File | `base_qry_main.php` | High
-26 | File | `bigsam_guestbook.php` | High
-27 | File | `bugzilla_email_append.pl` | High
-28 | File | `bug_actiongroup.php` | High
+18 | File | `administrator/mail/download.cfm` | High
+19 | File | `AdminViewError/AdminAddadmin` | High
+20 | File | `agentdisplay.php` | High
+21 | File | `ashnews.php/ashheadlines.php` | High
+22 | File | `auction.cgi` | Medium
+23 | File | `autologin.jsp` | High
+24 | File | `axspawn.c` | Medium
+25 | File | `base_ag_main.php` | High
+26 | File | `base_qry_main.php` | High
+27 | File | `bigsam_guestbook.php` | High
+28 | File | `bugzilla_email_append.pl` | High
 29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

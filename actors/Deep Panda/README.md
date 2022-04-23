@@ -4,12 +4,19 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.deep_panda](https://vuldb.com/?actor.deep_panda)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Deep Panda:
+
+* Log4Shell
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Deep Panda:
 
-* [CA](https://vuldb.com/?country.ca)
 * [US](https://vuldb.com/?country.us)
+* [CA](https://vuldb.com/?country.ca)
+* [DZ](https://vuldb.com/?country.dz)
 
 ## IOC - Indicator of Compromise
 
@@ -18,11 +25,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.9.5.38](https://vuldb.com/?ip.1.9.5.38) | - | - | High
-2 | [142.91.76.134](https://vuldb.com/?ip.142.91.76.134) | mx3.29v.info | - | High
-3 | [184.71.210.4](https://vuldb.com/?ip.184.71.210.4) | - | - | High
+2 | [104.223.34.198](https://vuldb.com/?ip.104.223.34.198) | 104.223.34.198.static.quadranet.com | Log4Shell | High
+3 | [142.91.76.134](https://vuldb.com/?ip.142.91.76.134) | mx3.29v.info | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,8 +37,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1222 | CWE-275 | Permission Issues | High
+1 | T1059.007 | CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -39,18 +50,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `fs/aio.c` | Medium
-2 | File | `index.php?mod=main&opt=personal` | High
-3 | File | `pkg/tool/path.go` | High
+1 | File | `/etc/sudoers` | Medium
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `fs/aio.c` | Medium
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://threatconnect.com/blog/the-anthem-hack-all-roads-lead-to-china/
+* https://www.fortinet.com/blog/threat-research/deep-panda-log4shell-fire-chili-rootkits
 * https://www.rsa.com/content/dam/en/white-paper/rsa-incident-response-emerging-threat-profile-shell-crew.pdf
 * https://www.threatminer.org/report.php?q=AdversaryIntelligenceReport_DeepPanda_01.pdf&y=2014
 * https://www.threatminer.org/report.php?q=DEEP_PANDA_Sakula.pdf&y=2014

@@ -112,19 +112,19 @@ ID | Type | Indicator | Confidence
 24 | File | `/web/jquery/uploader/multi_uploadify.php` | High
 25 | File | `/wp-admin/admin-ajax.php` | High
 26 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-27 | File | `/zhndnsdisplay.cmd` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `about.php` | Medium
-30 | File | `acl.c` | Low
-31 | File | `adclick.php` | Medium
-32 | File | `add_comment.php` | High
-33 | File | `add_vhost.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/conf_users_edit.php` | High
-36 | File | `admin/default.asp` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `/zhndnsdisplay.cmd` | High
+29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+30 | File | `about.php` | Medium
+31 | File | `acl.c` | Low
+32 | File | `adclick.php` | Medium
+33 | File | `add_comment.php` | High
+34 | File | `add_vhost.php` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/conf_users_edit.php` | High
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

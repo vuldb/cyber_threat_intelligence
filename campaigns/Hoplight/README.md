@@ -58,9 +58,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
-3 | File | `/admin-panel1.php` | High
+1 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
+2 | File | `/admin-panel1.php` | High
+3 | File | `/admin/academic/studenview_left.php` | High
 4 | File | `/ad_js.php` | Medium
 5 | File | `/alerts/alertConfigField.php` | High
 6 | File | `/api/email_accounts` | High
@@ -94,7 +94,7 @@ ID | Type | Indicator | Confidence
 34 | File | `/tmp/connlicj.bin` | High
 35 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with APT41:
 
+* ColunmTK
 * CVE-2019-19781
 * CVE-2021-44207
-* CVE-2021-44228
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,16 +44,16 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [23.67.95.153](https://vuldb.com/?ip.23.67.95.153) | a23-67-95-153.deploy.static.akamaitechnologies.com | - | High
 11 | [34.139.13.46](https://vuldb.com/?ip.34.139.13.46) | 46.13.139.34.bc.googleusercontent.com | CVE-2021-44207 | Medium
 12 | [43.255.191.255](https://vuldb.com/?ip.43.255.191.255) | - | - | High
-13 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
-14 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
-15 | [45.84.1.181](https://vuldb.com/?ip.45.84.1.181) | vm372737.pq.hosting | CVE-2021-44207 | High
-16 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
-17 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
-18 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
-19 | [45.153.231.31](https://vuldb.com/?ip.45.153.231.31) | cheater.rehab | CVE-2021-44207 | High
+13 | [45.61.136.199](https://vuldb.com/?ip.45.61.136.199) | - | ColunmTK | High
+14 | [45.76.6.149](https://vuldb.com/?ip.45.76.6.149) | 45.76.6.149.vultr.com | - | Medium
+15 | [45.76.75.219](https://vuldb.com/?ip.45.76.75.219) | 45.76.75.219.vultr.com | - | Medium
+16 | [45.84.1.181](https://vuldb.com/?ip.45.84.1.181) | vm372737.pq.hosting | CVE-2021-44207 | High
+17 | [45.128.132.6](https://vuldb.com/?ip.45.128.132.6) | - | MoonBounce | High
+18 | [45.128.135.15](https://vuldb.com/?ip.45.128.135.15) | - | MoonBounce | High
+19 | [45.138.157.78](https://vuldb.com/?ip.45.138.157.78) | srv1.fincantleri.co | - | High
 20 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,39 +83,47 @@ ID | Type | Indicator | Confidence
 7 | File | `/etc/config/rpcd` | High
 8 | File | `/forum/away.php` | High
 9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/lists/admin/` | High
-11 | File | `/login.cgi?logout=1` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/module/admin_logs` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/replication` | Medium
-17 | File | `/SASWebReportStudio/logonAndRender.do` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/start-stop` | Medium
-22 | File | `/tmp/app/.env` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/_next` | Low
-29 | File | `adclick.php` | Medium
-30 | File | `addentry.php` | Medium
-31 | File | `addrating.php` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin.php/comments/batchdel/` | High
-34 | ... | ... | ...
+10 | File | `/include/make.php` | High
+11 | File | `/jeecg-boot/sys/common/upload` | High
+12 | File | `/lists/admin/` | High
+13 | File | `/login.cgi?logout=1` | High
+14 | File | `/medical/inventories.php` | High
+15 | File | `/module/admin_logs` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/replication` | Medium
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/scas/classes/Users.php?f=save_user` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/start-stop` | Medium
+27 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+28 | File | `/tmp/app/.env` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/upload` | Low
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/_next` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `addentry.php` | Medium
+37 | File | `addrating.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin.php/comments/batchdel/` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://app.box.com/s/qtqlwejty7xz8wj8osz98webycgo5j9x
+* https://blog.group-ib.com/colunmtk_apt41
 * https://github.com/blackberry/threat-research-and-intelligence/blob/main/APT41.csv
 * https://github.com/eset/malware-ioc/tree/master/winnti_group
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/20134508/winnti-more-than-just-a-game-130410.pdf

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kaseya:
+
+* [US](https://vuldb.com/?country.us)
+
 ## Actors
 
 These _actors_ are associated with Kaseya or other actors linked to the campaign.
@@ -11,6 +17,7 @@ These _actors_ are associated with Kaseya or other actors linked to the campaign
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
+2 | [Unknown](https://vuldb.com/?actor.unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -19,17 +26,41 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.254.113.102](https://vuldb.com/?ip.5.254.113.102) | - | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
-2 | [178.32.152.214](https://vuldb.com/?ip.178.32.152.214) | - | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
-3 | [209.99.17.27](https://vuldb.com/?ip.209.99.17.27) | 209.99.17-27.confluence-networks.com | [Vasinskyi](https://vuldb.com/?actor.vasinskyi) | High
+2 | [35.226.94.113](https://vuldb.com/?ip.35.226.94.113) | 113.94.226.35.bc.googleusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+3 | [161.35.239.148](https://vuldb.com/?ip.161.35.239.148) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Kaseya. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Kaseya. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `config.php` | Medium
+2 | File | `passthru.php` | Medium
+3 | Library | `lib/pwa-deactivate.php` | High
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://ddanchev.blogspot.com/2022/01/profiling-yaroslav-vasinskyi-from.html
+* https://helpdesk.kaseya.com/hc/en-gb/articles/4403584098961-Incident-Overview-Technical-Details
 
 ## Literature
 

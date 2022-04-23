@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CF](https://vuldb.com/?country.cf)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -67,14 +67,14 @@ ID | Type | Indicator | Confidence
 4 | File | `/forum/away.php` | High
 5 | File | `/goform/openSchedWifi` | High
 6 | File | `/includes/lib/tree.php` | High
-7 | File | `/objects/getImage.php` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/usr/bin/at` | Medium
-10 | File | `adclick.php` | Medium
-11 | File | `admin/conf_users_edit.php` | High
+7 | File | `/jpg/image.jpg` | High
+8 | File | `/objects/getImage.php` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/usr/bin/at` | Medium
+11 | File | `adclick.php` | Medium
 12 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

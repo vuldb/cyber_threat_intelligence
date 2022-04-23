@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BumbleBee:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 35 more country items available. Please use our online service to access the data.
@@ -62,27 +62,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/about.php` | Medium
-4 | File | `/account/register` | High
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/modules/system/custom_field.php` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/app1/admin#foo` | High
-9 | File | `/articles/welcome-to-your-site#comments-head` | High
-10 | File | `/assets/ctx` | Medium
-11 | File | `/bin/boa` | Medium
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-mod/lookup.cgi` | High
-14 | File | `/cgi?1&5` | Medium
-15 | File | `/config/getuser` | High
-16 | File | `/configs/application.ini` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/etc/sudoers` | Medium
+3 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
+4 | File | `/about.php` | Medium
+5 | File | `/account/register` | High
+6 | File | `/admin.php?action=themeinstall` | High
+7 | File | `/admin/contenttemp` | High
+8 | File | `/admin/modules/system/custom_field.php` | High
+9 | File | `/api/crontab` | Medium
+10 | File | `/app1/admin#foo` | High
+11 | File | `/articles/welcome-to-your-site#comments-head` | High
+12 | File | `/assets/ctx` | Medium
+13 | File | `/bin/boa` | Medium
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/cgi-mod/lookup.cgi` | High
+16 | File | `/cgi?1&5` | Medium
+17 | File | `/config/getuser` | High
+18 | File | `/debug/pprof` | Medium
 19 | File | `/export` | Low
 20 | File | `/forum/away.php` | High
 21 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
 22 | File | `/iissamples` | Medium
-23 | File | `/login` | Low
+23 | File | `/interface/main/backup.php` | High
 24 | File | `/new` | Low
 25 | File | `/public/plugins/` | High
 26 | File | `/sbin/gs_config` | High
@@ -98,16 +98,15 @@ ID | Type | Indicator | Confidence
 36 | File | `/wp-admin/admin-ajax.php` | High
 37 | File | `/wp-json/oembed/1.0/embed?url` | High
 38 | File | `/wp-json/wc/v3/webhooks` | High
-39 | File | `/_next` | Low
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `adclick.php` | Medium
-42 | File | `admin.php?m=admin&c=site&a=save` | High
-43 | File | `admin.php?page=languages` | High
-44 | File | `admin/admin_users.php` | High
-45 | File | `admin/backupdb.php` | High
-46 | ... | ... | ...
+39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+40 | File | `admin.php?m=admin&c=site&a=save` | High
+41 | File | `admin.php?page=languages` | High
+42 | File | `admin/admin_users.php` | High
+43 | File | `admin/bitrix.mpbuilder_step2.php` | High
+44 | File | `admin/bitrix.xscan_worker.php` | High
+45 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

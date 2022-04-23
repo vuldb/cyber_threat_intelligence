@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,22 +23,24 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.234.4.151](https://vuldb.com/?ip.23.234.4.151) | - | - | High
 2 | [23.234.4.153](https://vuldb.com/?ip.23.234.4.153) | - | - | High
-3 | [27.221.28.231](https://vuldb.com/?ip.27.221.28.231) | - | - | High
-4 | [27.221.54.252](https://vuldb.com/?ip.27.221.54.252) | - | - | High
-5 | [36.103.236.221](https://vuldb.com/?ip.36.103.236.221) | - | - | High
-6 | [36.103.247.121](https://vuldb.com/?ip.36.103.247.121) | - | - | High
-7 | [36.248.26.205](https://vuldb.com/?ip.36.248.26.205) | - | - | High
-8 | [42.56.76.104](https://vuldb.com/?ip.42.56.76.104) | - | - | High
-9 | [42.202.141.230](https://vuldb.com/?ip.42.202.141.230) | - | - | High
-10 | [42.236.125.84](https://vuldb.com/?ip.42.236.125.84) | hn.kd.ny.adsl | - | High
-11 | [43.224.225.220](https://vuldb.com/?ip.43.224.225.220) | - | - | High
-12 | [43.242.166.88](https://vuldb.com/?ip.43.242.166.88) | - | - | High
-13 | [58.215.145.137](https://vuldb.com/?ip.58.215.145.137) | - | - | High
-14 | [58.216.107.77](https://vuldb.com/?ip.58.216.107.77) | - | - | High
-15 | [58.218.208.13](https://vuldb.com/?ip.58.218.208.13) | - | - | High
-16 | ... | ... | ... | ...
+3 | [27.193.180.224](https://vuldb.com/?ip.27.193.180.224) | - | - | High
+4 | [27.210.170.197](https://vuldb.com/?ip.27.210.170.197) | - | - | High
+5 | [27.221.28.231](https://vuldb.com/?ip.27.221.28.231) | - | - | High
+6 | [27.221.54.252](https://vuldb.com/?ip.27.221.54.252) | - | - | High
+7 | [36.103.236.221](https://vuldb.com/?ip.36.103.236.221) | - | - | High
+8 | [36.103.247.121](https://vuldb.com/?ip.36.103.247.121) | - | - | High
+9 | [36.248.26.205](https://vuldb.com/?ip.36.248.26.205) | - | - | High
+10 | [42.56.76.104](https://vuldb.com/?ip.42.56.76.104) | - | - | High
+11 | [42.202.141.230](https://vuldb.com/?ip.42.202.141.230) | - | - | High
+12 | [42.236.125.84](https://vuldb.com/?ip.42.236.125.84) | hn.kd.ny.adsl | - | High
+13 | [43.224.225.220](https://vuldb.com/?ip.43.224.225.220) | - | - | High
+14 | [43.242.166.88](https://vuldb.com/?ip.43.242.166.88) | - | - | High
+15 | [52.167.219.168](https://vuldb.com/?ip.52.167.219.168) | - | - | High
+16 | [58.215.145.137](https://vuldb.com/?ip.58.215.145.137) | - | - | High
+17 | [58.216.107.77](https://vuldb.com/?ip.58.216.107.77) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,50 +66,51 @@ ID | Type | Indicator | Confidence
 3 | File | `/#/CampaignManager/users` | High
 4 | File | `//` | Low
 5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/apply_noauth.cgi` | High
-9 | File | `/article/comment` | High
+6 | File | `/admin/?setting-base.htm` | High
+7 | File | `/admin/ajax.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/apply_noauth.cgi` | High
 10 | File | `/audit/log/log_management.php` | High
 11 | File | `/backup/lispbx-CONF-YYYY-MM-DD.tar` | High
 12 | File | `/bin/login` | Medium
 13 | File | `/bin/sh` | Low
 14 | File | `/cgi-bin/login` | High
-15 | File | `/check_availability.php` | High
-16 | File | `/classes/profile.class.php` | High
-17 | File | `/crmeb/crmeb/services/UploadService.php` | High
-18 | File | `/dev/tty` | Medium
-19 | File | `/downloads/` | Medium
+15 | File | `/classes/profile.class.php` | High
+16 | File | `/dev/tty` | Medium
+17 | File | `/downloads/` | Medium
+18 | File | `/goform/rlmswitchr_process` | High
+19 | File | `/goforms/rlminfo` | High
 20 | File | `/IISADMPWD` | Medium
 21 | File | `/inc/session.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/mcms/view.do` | High
+22 | File | `/include/make.php` | High
+23 | File | `/index.php` | Medium
 24 | File | `/member/index/login.html` | High
 25 | File | `/modules/certinfo/index.php` | High
 26 | File | `/post/editing` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/restful-services/publish` | High
-29 | File | `/ScadaBR/login.htm` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/system/tool/ping.php` | High
+27 | File | `/restful-services/publish` | High
+28 | File | `/ScadaBR/login.htm` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/system/tool/ping.php` | High
+31 | File | `/tmp/swhks.pid` | High
 32 | File | `/upload` | Low
 33 | File | `/usr/bin/pkexec` | High
-34 | File | `/usr/sbin/mini_httpd` | High
-35 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+34 | File | `/usr/local/www/pkg.php` | High
+35 | File | `/zbzedit/php/zbz.php` | High
 36 | File | `?location=search` | High
 37 | File | `account/login.php` | High
 38 | File | `add.asp` | Low
-39 | File | `admin.home.php` | High
-40 | File | `admin.php` | Medium
+39 | File | `add.php` | Low
+40 | File | `admin.home.php` | High
 41 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2018/08/rocke-champion-of-monero-miners.html
+* https://blog.talosintelligence.com/2018/12/cryptomining-campaigns-2018.html
 * https://unit42.paloaltonetworks.com/malware-used-by-rocke-group-evolves-to-evade-detection-by-cloud-security-products/
 * https://unit42.paloaltonetworks.com/rockein-the-netflow/
 * https://www.anomali.com/blog/rocke-evolves-its-arsenal-with-a-new-malware-family-written-in-golang

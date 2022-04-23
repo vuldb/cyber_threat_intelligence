@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.130.104.156](https://vuldb.com/?ip.185.130.104.156) | . | - | High
-2 | [185.130.104.178](https://vuldb.com/?ip.185.130.104.178) | mail.instadavance.com | - | High
-3 | [185.159.82.11](https://vuldb.com/?ip.185.159.82.11) | customer.clientshostname.com | - | High
+1 | [24.96.108.157](https://vuldb.com/?ip.24.96.108.157) | static-24-96-108-157.knology.net | - | High
+2 | [61.134.39.188](https://vuldb.com/?ip.61.134.39.188) | - | - | High
+3 | [133.30.115.97](https://vuldb.com/?ip.133.30.115.97) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -90,6 +90,8 @@ There are 313 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/12/threat-roundup-1207-1214.html
+* https://isc.sans.edu/forums/diary/NemucodAES+and+the+malspam+that+distributes+it/22614/
 * https://unit42.paloaltonetworks.com/unit42-practice-makes-perfect-nemucod-evolves-delivery-obfuscation-techniques-harvest-credentials/
 
 ## Literature

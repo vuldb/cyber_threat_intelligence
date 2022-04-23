@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [UA](https://vuldb.com/?country.ua)
+* [SC](https://vuldb.com/?country.sc)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,37 +58,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htaccess` | Medium
-2 | File | `/admin.php/admin/art/data.html` | High
-3 | File | `/admin.php/admin/plog/index.html` | High
-4 | File | `/admin.php/admin/ulog/index.html` | High
-5 | File | `/admin.php/admin/vod/data.html` | High
-6 | File | `/admin.php/admin/website/data.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/news/news_mod.php` | High
-9 | File | `/admin/news/news_ok.php` | High
-10 | File | `/admin/templates/template_manage.php` | High
-11 | File | `/api /v3/auth` | High
-12 | File | `/app/controller/Books.php` | High
-13 | File | `/cgi-bin/uploadAccessCodePic` | High
-14 | File | `/cgi-bin/uploadWeiXinPic` | High
-15 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
-16 | File | `/cloud_config/router_post/upgrade_info` | High
-17 | File | `/common/info.cgi` | High
-18 | File | `/config/list` | Medium
-19 | File | `/controller/Index.php` | High
-20 | File | `/data/sqldata` | High
-21 | File | `/DataPackageTable` | High
-22 | File | `/download/` | Medium
-23 | File | `/factor/avx-ecm/vecarith52.c` | High
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/exeCommand` | High
-26 | File | `/goform/form2Reboot.cgi` | High
-27 | File | `/goform/setAdInfoDetail` | High
-28 | File | `/goform/setFixTools` | High
-29 | ... | ... | ...
+1 | File | `/agenttrayicon` | High
+2 | File | `/aqpg/users/login.php` | High
+3 | File | `/blog/blog.php` | High
+4 | File | `/category.php` | High
+5 | File | `/cmd?cmd=connect` | High
+6 | File | `/cwms/admin/?page=articles/view_article/` | High
+7 | File | `/cwms/classes/Master.php?f=save_contact` | High
+8 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+9 | File | `/goform/login_process` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/include/make.php` | High
+12 | File | `/login` | Low
+13 | File | `/manager/files` | High
+14 | File | `/mims/app/addcustomerHandler.php` | High
+15 | File | `/mims/login.php` | High
+16 | File | `/nova/bin/detnet` | High
+17 | File | `/nova/bin/igmp-proxy` | High
+18 | File | `/one_church/churchprofile.php` | High
+19 | File | `/one_church/userregister.php` | High
+20 | File | `/preauth` | Medium
+21 | File | `/scas/admin/` | Medium
+22 | File | `/sql/sql_string.h` | High
+23 | File | `/src/njs_vmcode.c` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/var/log/demisto/` | High
+26 | File | `/wbg/core/_includes/authorization.inc.php` | High
+27 | File | `/_error` | Low
+28 | File | `a2billing/customer/iridium_threed.php` | High
+29 | File | `actions/beats_uploader.php` | High
+30 | File | `actions/vote_channel.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/index.php?module=send_ssh` | High
+33 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

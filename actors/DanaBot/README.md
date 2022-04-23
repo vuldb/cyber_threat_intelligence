@@ -59,16 +59,16 @@ ID | Type | Indicator | Confidence
 6 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
 7 | File | `/lms/admin.php` | High
 8 | File | `/redpass.cgi` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `add-category.php` | High
-11 | File | `add_comment.php` | High
-12 | File | `admin.php` | Medium
-13 | File | `admin/admin.shtml` | High
-14 | File | `admin/content.php` | High
-15 | File | `admin/user.php?form=update_f&user_name` | High
+9 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `add-category.php` | High
+12 | File | `add_comment.php` | High
+13 | File | `admin.php` | Medium
+14 | File | `admin/admin.shtml` | High
+15 | File | `admin/content.php` | High
 16 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

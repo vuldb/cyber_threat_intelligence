@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +21,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [34.92.30.54](https://vuldb.com/?ip.34.92.30.54) | 54.30.92.34.bc.googleusercontent.com | - | Medium
-2 | [35.220.176.90](https://vuldb.com/?ip.35.220.176.90) | 90.176.220.35.bc.googleusercontent.com | - | Medium
-3 | [95.179.128.208](https://vuldb.com/?ip.95.179.128.208) | 95.179.128.208.vultr.com | - | Medium
-4 | ... | ... | ... | ...
+1 | [13.213.157.52](https://vuldb.com/?ip.13.213.157.52) | ec2-13-213-157-52.ap-southeast-1.compute.amazonaws.com | - | Medium
+2 | [18.138.107.235](https://vuldb.com/?ip.18.138.107.235) | ec2-18-138-107-235.ap-southeast-1.compute.amazonaws.com | - | Medium
+3 | [34.92.30.54](https://vuldb.com/?ip.34.92.30.54) | 54.30.92.34.bc.googleusercontent.com | - | Medium
+4 | [34.96.224.146](https://vuldb.com/?ip.34.96.224.146) | 146.224.96.34.bc.googleusercontent.com | - | Medium
+5 | [35.220.176.90](https://vuldb.com/?ip.35.220.176.90) | 90.176.220.35.bc.googleusercontent.com | - | Medium
+6 | [35.220.214.142](https://vuldb.com/?ip.35.220.214.142) | 142.214.220.35.bc.googleusercontent.com | - | Medium
+7 | [45.32.125.79](https://vuldb.com/?ip.45.32.125.79) | manages.space | - | High
+8 | [45.207.50.104](https://vuldb.com/?ip.45.207.50.104) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,10 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,46 +53,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
-2 | File | `/admin/` | Low
-3 | File | `/admin/?/plugin/comment/settings` | High
-4 | File | `/admin/ajax/file-browser/upload/` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/api/filemanager` | High
-7 | File | `/api/request/?OPERATION_NAME` | High
-8 | File | `/apparel--accessories` | High
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-11 | File | `/domains/index.fts` | High
-12 | File | `/DroboAccess/delete_user` | High
-13 | File | `/foundry/modules/news/newscolumns.php` | High
-14 | File | `/GponForm/device_Form?script/` | High
-15 | File | `/media/api` | Medium
-16 | File | `/member/test/points` | High
-17 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-18 | File | `/port_3480` | Medium
-19 | File | `/q` | Low
-20 | File | `/service-list` | High
-21 | File | `/smstest.html` | High
-22 | File | `/tmp` | Low
-23 | File | `/tmp/kamailio_fifo` | High
-24 | File | `/tmp/scfgdndf` | High
-25 | File | `/view/friend_profile.php` | High
-26 | File | `AccessManagerCoreService.exe` | High
-27 | File | `actions/doreport.php` | High
-28 | File | `addlyricsform.php` | High
-29 | File | `addmerchpicform.php` | High
-30 | File | `addresses_export.php` | High
-31 | File | `adherents/cartes/carte.php` | High
-32 | File | `admin.php?m=Member&a=adminaddsave` | High
-33 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?/plugin/comment/settings` | High
+5 | File | `/admin/ajax/file-browser/upload/` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/api/filemanager` | High
+8 | File | `/api/request/?OPERATION_NAME` | High
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/apparel--accessories` | High
+11 | File | `/apply_noauth.cgi` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/domains/index.fts` | High
+14 | File | `/download` | Medium
+15 | File | `/DroboAccess/delete_user` | High
+16 | File | `/foundry/modules/news/newscolumns.php` | High
+17 | File | `/ghost/preview` | High
+18 | File | `/GponForm/device_Form?script/` | High
+19 | File | `/LDMS/frm_splitfrm.aspx` | High
+20 | File | `/media/api` | Medium
+21 | File | `/member/test/points` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+24 | File | `/NAGErrors` | Medium
+25 | File | `/port_3480` | Medium
+26 | File | `/q` | Low
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/service-list` | High
+29 | File | `/smstest.html` | High
+30 | File | `/start-stop` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/tmp/kamailio_fifo` | High
+33 | File | `/tmp/scfgdndf` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/view/friend_profile.php` | High
+36 | File | `/WEB-INF/web.xml` | High
+37 | File | `/wp-json/oembed/1.0/embed?url` | High
+38 | File | `AccessManagerCoreService.exe` | High
+39 | File | `actions/authenticate.php` | High
+40 | File | `actions/doreport.php` | High
+41 | File | `addlyricsform.php` | High
+42 | File | `addmerchpicform.php` | High
+43 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://twitter.com/0xrb/status/1469184108030955529
+* https://twitter.com/0xrb/status/1470678183301181441
+* https://twitter.com/0xrb/status/1478253942123347968
 * https://twitter.com/0xrb/status/1482976719300890629
+* https://twitter.com/0xrb/status/1484467191445475328
 
 ## Literature
 

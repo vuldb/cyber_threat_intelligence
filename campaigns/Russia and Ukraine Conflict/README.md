@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,9 +57,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -67,25 +70,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/plog/index.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/admin/vod/data.html` | High
-4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin/export/getcsv/article_db` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-9 | File | `/cgi-bin/uploadAccessCodePic` | High
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/config/list` | Medium
-12 | File | `/data/sqldata` | High
-13 | File | `/goform/delAd` | High
-14 | File | `/goform/exeCommand` | High
-15 | File | `/goform/setAdInfoDetail` | High
-16 | File | `/goform/setFixTools` | High
+1 | File | `/admin/index.php` | High
+2 | File | `/admin/index.php?slides` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/uploads.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/AvalancheWeb/image` | High
+7 | File | `/blog/blog.php` | High
+8 | File | `/cgi-bin/adm.cgi` | High
+9 | File | `/classes/Comment` | High
+10 | File | `/customer_register.php` | High
+11 | File | `/devices/acurite.c` | High
+12 | File | `/etc/master.passwd` | High
+13 | File | `/example/editor` | High
+14 | File | `/goform/login_process` | High
+15 | File | `/goform/rlmswitchr_process` | High
+16 | File | `/goforms/rlminfo` | High
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

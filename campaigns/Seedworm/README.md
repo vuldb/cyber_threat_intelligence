@@ -70,7 +70,8 @@ ID | Type | Indicator | Confidence
 13 | File | `ahcache.sys` | Medium
 14 | File | `ajax/api/hook/getHookList` | High
 15 | File | `api.php` | Low
-16 | ... | ... | ...
+16 | File | `applicationContext-spring-security.xml` | High
+17 | ... | ... | ...
 
 There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

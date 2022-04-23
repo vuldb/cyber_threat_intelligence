@@ -50,15 +50,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/passwd` | Medium
-2 | File | `AbstractController.php` | High
-3 | File | `ActBar.ocx` | Medium
-4 | File | `admin.comms.php` | High
-5 | File | `admin.php` | Medium
-6 | File | `admincp.php?app=user&do=save` | High
-7 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
-8 | ... | ... | ...
+2 | File | `/tmp` | Low
+3 | File | `AbstractController.php` | High
+4 | File | `ActBar.ocx` | Medium
+5 | File | `admin.comms.php` | High
+6 | File | `admin.php` | Medium
+7 | File | `admincp.php?app=user&do=save` | High
+8 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

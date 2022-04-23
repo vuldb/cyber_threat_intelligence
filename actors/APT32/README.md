@@ -87,7 +87,7 @@ ID | Type | Indicator | Confidence
 22 | File | `asm/float.c` | Medium
 23 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
+* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,10 +37,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,34 +48,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/login` | High
-2 | File | `/admin.back` | Medium
-3 | File | `/admin/customers.php?page=1&cID` | High
-4 | File | `/admin/link/link_ok.php` | High
-5 | File | `/admin/show.php` | High
-6 | File | `/administrator/components/menu/` | High
+1 | File | `/admin.back` | Medium
+2 | File | `/admin/customers.php?page=1&cID` | High
+3 | File | `/admin/link/link_ok.php` | High
+4 | File | `/admin/show.php` | High
+5 | File | `/administrator/components/menu/` | High
+6 | File | `/app/register.php` | High
 7 | File | `/controller/CommentAdminController.java` | High
 8 | File | `/data/sqldata` | High
 9 | File | `/feedback/post/` | High
-10 | File | `/goform/change_password_process` | High
-11 | File | `/goform/edit_opt` | High
-12 | File | `/goform/SetPptpServerCfg` | High
-13 | File | `/hdf5/src/H5Fint.c` | High
-14 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-15 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-16 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-17 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-18 | File | `/setting/NTPSyncWithHost` | High
-19 | File | `/src/njs_object.c` | High
-20 | File | `/template/unzip.do` | High
-21 | File | `/u8sl/WebHelp` | High
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `AccountManagerService.java` | High
-24 | File | `account_sponsor_page.php` | High
-25 | File | `act.php` | Low
+10 | File | `/goform/SetPptpServerCfg` | High
+11 | File | `/hdf5/src/H5Fint.c` | High
+12 | File | `/index.php?page=reserve` | High
+13 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+14 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+15 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+16 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+17 | File | `/public/launchNewWindow.jsp` | High
+18 | File | `/purchase_order/admin/?page=user` | High
+19 | File | `/reps/admin/?page=agents/manage_agent` | High
+20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+21 | File | `/scas/classes/Users.php?f=save_user` | High
+22 | File | `/servlets/Jmx_dynamic` | High
+23 | File | `/setting/NTPSyncWithHost` | High
+24 | File | `/src/njs_object.c` | High
+25 | File | `/template/unzip.do` | High
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

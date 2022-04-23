@@ -4,18 +4,64 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.darkkomet](https://vuldb.com/?actor.darkkomet)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Darkkomet:
+
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Darkkomet.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [209.99.40.222](https://vuldb.com/?ip.209.99.40.222) | 209-99-40-222.fwd.datafoundry.com | - | High
+1 | [12.167.151.119](https://vuldb.com/?ip.12.167.151.119) | - | - | High
+2 | [41.58.102.142](https://vuldb.com/?ip.41.58.102.142) | - | - | High
+3 | [41.58.104.23](https://vuldb.com/?ip.41.58.104.23) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 12 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Darkkomet_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1211 | CWE-254 | 7PK Security Features | High
+3 | T1222 | CWE-275 | Permission Issues | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Darkkomet. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/SCRIPTPATH/index.php` | High
+2 | File | `auth-gss2.c` | Medium
+3 | File | `category.cfm` | Medium
+4 | File | `cgi-bin/MANGA/admin.cgi` | High
+5 | ... | ... | ...
+
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2015/07/ding-your-rat-has-been-delivered.html
+* https://blog.talosintelligence.com/2018/09/threat-roundup-0907-0914.html
+* https://blog.talosintelligence.com/2019/05/threat-roundup-0503-0510.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
 
 ## Literature

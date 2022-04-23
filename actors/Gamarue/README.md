@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,17 +22,21 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.154.191.57](https://vuldb.com/?ip.5.154.191.57) | - | - | High
-2 | [37.187.0.40](https://vuldb.com/?ip.37.187.0.40) | ns3108067.ip-37-187-0.eu | - | High
-3 | [45.8.124.25](https://vuldb.com/?ip.45.8.124.25) | free.gbnhost.com | - | High
-4 | [45.128.204.36](https://vuldb.com/?ip.45.128.204.36) | - | - | High
-5 | [45.128.207.237](https://vuldb.com/?ip.45.128.207.237) | - | - | High
-6 | [46.45.169.106](https://vuldb.com/?ip.46.45.169.106) | 46-45-169-106.turkrdns.com | - | High
-7 | [46.254.21.69](https://vuldb.com/?ip.46.254.21.69) | h13.ihc.ru | - | High
-8 | [50.116.23.211](https://vuldb.com/?ip.50.116.23.211) | www.eqnic.net | - | High
-9 | [51.195.53.221](https://vuldb.com/?ip.51.195.53.221) | ip221.ip-51-195-53.eu | - | High
-10 | ... | ... | ... | ...
+2 | [20.186.50.83](https://vuldb.com/?ip.20.186.50.83) | - | - | High
+3 | [37.187.0.40](https://vuldb.com/?ip.37.187.0.40) | ns3108067.ip-37-187-0.eu | - | High
+4 | [40.81.11.194](https://vuldb.com/?ip.40.81.11.194) | - | - | High
+5 | [40.91.94.203](https://vuldb.com/?ip.40.91.94.203) | - | - | High
+6 | [45.8.124.25](https://vuldb.com/?ip.45.8.124.25) | free.gbnhost.com | - | High
+7 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
+8 | [45.128.204.36](https://vuldb.com/?ip.45.128.204.36) | - | - | High
+9 | [45.128.207.237](https://vuldb.com/?ip.45.128.207.237) | - | - | High
+10 | [46.45.169.106](https://vuldb.com/?ip.46.45.169.106) | 46-45-169-106.turkrdns.com | - | High
+11 | [46.249.38.155](https://vuldb.com/?ip.46.249.38.155) | - | - | High
+12 | [46.254.21.69](https://vuldb.com/?ip.46.254.21.69) | h13.ihc.ru | - | High
+13 | [50.116.23.211](https://vuldb.com/?ip.50.116.23.211) | www.eqnic.net | - | High
+14 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 51 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,41 +67,45 @@ ID | Type | Indicator | Confidence
 8 | File | `/advanced/adv_dns.xgi` | High
 9 | File | `/folder/list` | Medium
 10 | File | `/forms/nslookupHandler` | High
-11 | File | `/goform/GetNewDir` | High
-12 | File | `/goform/right_now_d` | High
-13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-14 | File | `/group/comment` | High
-15 | File | `/home/home_parent.xgi` | High
-16 | File | `/lookin/info` | Medium
-17 | File | `/plugins/servlet/jira-blockers/` | High
-18 | File | `/status/status_log.sys` | High
-19 | File | `/themes/<php_file_name>` | High
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/usr/bin/shutter` | High
-24 | File | `/zm/index.php` | High
-25 | File | `adclick.php` | Medium
-26 | File | `admin-ajax.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-29 | File | `admin/controller/pages/localisation/language.php` | High
-30 | File | `admin/fm/` | Medium
-31 | File | `admin/pages/*/edit` | High
-32 | File | `admincp/attachment.php&do=rebuild&type` | High
-33 | File | `administrator/index.php?option=com_pago&view=comments` | High
-34 | File | `ajax.php` | Medium
-35 | File | `ajax_mod_security.php` | High
-36 | File | `api.php` | Low
-37 | File | `appconfig.php` | High
-38 | ... | ... | ...
+11 | File | `/getcfg.php` | Medium
+12 | File | `/goform/GetNewDir` | High
+13 | File | `/goform/right_now_d` | High
+14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+15 | File | `/group/comment` | High
+16 | File | `/home/home_parent.xgi` | High
+17 | File | `/lookin/info` | Medium
+18 | File | `/plugins/servlet/jira-blockers/` | High
+19 | File | `/status/status_log.sys` | High
+20 | File | `/themes/<php_file_name>` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/usr/bin/shutter` | High
+25 | File | `/zm/index.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `admin-ajax.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+30 | File | `admin/controller/pages/localisation/language.php` | High
+31 | File | `admin/fm/` | Medium
+32 | File | `admin/pages/*/edit` | High
+33 | File | `admincp/attachment.php&do=rebuild&type` | High
+34 | File | `administrator/index.php?option=com_pago&view=comments` | High
+35 | File | `ajax.php` | Medium
+36 | File | `ajax_mod_security.php` | High
+37 | File | `api.php` | Low
+38 | File | `appconfig.php` | High
+39 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/09/threat-roundup-0907-0914.html
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0621-0628.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html

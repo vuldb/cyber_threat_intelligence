@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [TH](https://vuldb.com/?country.th)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
-2 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-3 | [41.200.44.39](https://vuldb.com/?ip.41.200.44.39) | - | - | High
-4 | ... | ... | ... | ...
+1 | [2.91.138.211](https://vuldb.com/?ip.2.91.138.211) | - | - | High
+2 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
+3 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+4 | [41.200.44.39](https://vuldb.com/?ip.41.200.44.39) | - | - | High
+5 | [41.200.143.212](https://vuldb.com/?ip.41.200.143.212) | - | - | High
+6 | [43.229.151.64](https://vuldb.com/?ip.43.229.151.64) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,16 +52,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/uncpath/` | Medium
 2 | File | `/var/log/nginx` | High
-3 | File | `books.php` | Medium
-4 | File | `data/gbconfiguration.dat` | High
-5 | ... | ... | ...
+3 | File | `admin/conf_users_edit.php` | High
+4 | File | `art_detalle.php` | High
+5 | File | `books.php` | Medium
+6 | File | `com_contact` | Medium
+7 | ... | ... | ...
 
-There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0607-0614.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-for-0705-0712.html
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0809-0816.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0423-0430.html

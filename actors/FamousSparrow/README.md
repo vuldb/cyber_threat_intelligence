@@ -41,11 +41,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/login.html` | Medium
 2 | File | `/new` | Low
-3 | File | `/system?action=ServiceAdmin` | High
-4 | File | `/var/log/nginx` | High
+3 | File | `/service/upload` | High
+4 | File | `/system?action=ServiceAdmin` | High
 5 | ... | ... | ...
 
-There are 28 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

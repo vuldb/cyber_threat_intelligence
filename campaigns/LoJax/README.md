@@ -57,13 +57,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/bin/boa` | Medium
-3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-4 | File | `/modules/tasks/summary.inc.php` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+3 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+4 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+5 | File | `/modules/tasks/summary.inc.php` | High
+6 | File | `/uncpath/` | Medium
 7 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

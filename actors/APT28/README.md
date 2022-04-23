@@ -105,37 +105,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/category_view.php` | High
-5 | File | `/dev/kmem` | Medium
-6 | File | `/file?action=download&file` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/REBOOTSYSTEM` | High
-14 | File | `/replication` | Medium
-15 | File | `/reports/rwservlet` | High
-16 | File | `/RestAPI` | Medium
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-admin/admin.php` | High
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-24 | File | `admin/app/mediamanager` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin\model\catalog\download.php` | High
-27 | File | `afr.php` | Low
-28 | File | `apcupsd.pid` | Medium
-29 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-30 | File | `api/sms/send-sms` | High
-31 | File | `api/v1/alarms` | High
-32 | File | `application/controller/InstallerController.php` | High
-33 | ... | ... | ...
+5 | File | `/file?action=download&file` | High
+6 | File | `/filemanager/upload.php` | High
+7 | File | `/medical/inventories.php` | High
+8 | File | `/monitoring` | Medium
+9 | File | `/NAGErrors` | Medium
+10 | File | `/plugins/servlet/audit/resource` | High
+11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+12 | File | `/REBOOTSYSTEM` | High
+13 | File | `/replication` | Medium
+14 | File | `/reports/rwservlet` | High
+15 | File | `/RestAPI` | Medium
+16 | File | `/tmp` | Low
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/wp-admin/admin.php` | High
+21 | File | `/wp-json/wc/v3/webhooks` | High
+22 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+23 | File | `admin/app/mediamanager` | High
+24 | File | `admin\model\catalog\download.php` | High
+25 | File | `afr.php` | Low
+26 | File | `apcupsd.pid` | Medium
+27 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+28 | File | `api/sms/send-sms` | High
+29 | File | `api/v1/alarms` | High
+30 | File | `application/controller/InstallerController.php` | High
+31 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+32 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CH](https://vuldb.com/?country.ch)
 * [US](https://vuldb.com/?country.us)
 
 ## Actors
@@ -25,7 +24,7 @@ ID | Actor | Confidence
 5 | [Moobot](https://vuldb.com/?actor.moobot) | High
 6 | ... | ...
 
-There are 9 more actor items available. Please use our online service to access the data.
+There are 11 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,9 +62,12 @@ ID | IP address | Hostname | Actor | Confidence
 28 | [37.145.11.91](https://vuldb.com/?ip.37.145.11.91) | 37-145-11-91.broadband.corbina.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
 29 | [44.192.75.28](https://vuldb.com/?ip.44.192.75.28) | ec2-44-192-75-28.compute-1.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
 30 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | galya.gitarova.example.com | [Babadeda](https://vuldb.com/?actor.babadeda) | High
-31 | ... | ... | ... | ...
+31 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
+32 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
+33 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
+34 | ... | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
+There are 131 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,9 +75,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -86,25 +88,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/plog/index.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/admin/vod/data.html` | High
-4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin/export/getcsv/article_db` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-9 | File | `/cgi-bin/uploadAccessCodePic` | High
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/config/list` | Medium
-12 | File | `/data/sqldata` | High
-13 | File | `/goform/delAd` | High
-14 | File | `/goform/exeCommand` | High
-15 | File | `/goform/setAdInfoDetail` | High
-16 | File | `/goform/setFixTools` | High
-17 | ... | ... | ...
+1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+2 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+4 | File | `/admin/inbox.php&action=delete` | High
+5 | File | `/admin/inbox.php&action=read` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/pagerole.php&action=display&value=1` | High
+9 | File | `/admin/pagerole.php&action=edit` | High
+10 | File | `/admin/posts.php` | High
+11 | File | `/admin/posts.php&action=delete` | High
+12 | File | `/admin/posts.php&action=edit` | High
+13 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+14 | File | `/admin/uesrs.php&action=display&value=Show` | High
+15 | File | `/admin/uploads.php` | High
+16 | File | `/apps/acs-commons/content/page-compare.html` | High
+17 | File | `/blog/blog.php` | High
+18 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+19 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,9 +116,11 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://blog.malwarebytes.com/threat-intelligence/2022/03/formbook-spam-campaign-targets-citizens-of-ukraine%ef%b8%8f/
 * https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
+* https://blog.talosintelligence.com/2018/02/coinhoarder.html
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
 * https://cert.gov.ua/article/37829
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
+* https://otx.alienvault.com/pulse/62552abdd7e44d9aba08636d
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
 * https://twitter.com/s1ckb017/status/1494047314792665088
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/

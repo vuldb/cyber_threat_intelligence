@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SI](https://vuldb.com/?country.si)
-* [ES](https://vuldb.com/?country.es)
+* [BG](https://vuldb.com/?country.bg)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -65,19 +65,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
 14 | File | `/rest/api/latest/projectvalidate/key` | High
 15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/server-info` | Medium
-18 | File | `/services` | Medium
-19 | File | `/test/cookie/` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/at` | Medium
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | File | `admin-ajax.php` | High
-25 | File | `AndroidManifest.xml` | High
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/server-info` | Medium
+19 | File | `/services` | Medium
+20 | File | `/test/cookie/` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/bin/at` | Medium
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/WEB-INF/web.xml` | High
+25 | File | `admin-ajax.php` | High
 26 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

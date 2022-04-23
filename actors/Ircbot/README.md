@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ircbot:
 
+* [CA](https://vuldb.com/?country.ca)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +21,26 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [70.39.99.203](https://vuldb.com/?ip.70.39.99.203) | ns2.4.cn | - | High
-2 | [91.134.203.49](https://vuldb.com/?ip.91.134.203.49) | - | - | High
-3 | [95.173.180.252](https://vuldb.com/?ip.95.173.180.252) | 2522nimdu.alanyareklam.com | - | High
+1 | [35.229.93.46](https://vuldb.com/?ip.35.229.93.46) | 46.93.229.35.bc.googleusercontent.com | - | Medium
+2 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
+3 | [64.70.19.203](https://vuldb.com/?ip.64.70.19.203) | mailrelay.203.website.ws | - | High
+4 | [69.49.96.16](https://vuldb.com/?ip.69.49.96.16) | hostingc6-4.megawebservers.com | - | High
+5 | ... | ... | ... | ...
+
+There are 15 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Ircbot_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -29,12 +48,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
+1 | File | `/catcompany.php` | High
+2 | File | `/proc/self/cwd` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `/wp-admin/options-general.php` | High
+5 | File | `admin/movieview.php` | High
+6 | File | `admincp/attachment.php` | High
+7 | File | `auth2-chall.c` | High
+8 | ... | ... | ...
+
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/12/threat-roundup-1214-1221.html
+* https://blog.talosintelligence.com/2019/02/threat-roundup-0125-0201.html
+* https://blog.talosintelligence.com/2019/03/threat-roundup-0308-0315.html
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0412-0419.html
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0531-0607.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0521-0528.html
 
 ## Literature

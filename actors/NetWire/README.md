@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,45 +61,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/../../conf/template/uhttpd.json` | High
-3 | File | `/admin/modules/system/custom_field.php` | High
-4 | File | `/admin/web_config.php` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/cgi-bin/qcmap_auth` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-mod/lookup.cgi` | High
-9 | File | `/cms/print.php` | High
-10 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-11 | File | `/dev/dri/card1` | High
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/iissamples` | Medium
-16 | File | `/index.php` | Medium
-17 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-18 | File | `/login` | Low
-19 | File | `/osm/REGISTER.cmd` | High
-20 | File | `/product.php` | Medium
-21 | File | `/public/plugins/` | High
-22 | File | `/rom-0` | Low
-23 | File | `/servlet/webacc` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `/usr/sbin/suexec` | High
-27 | File | `/webconsole/Controller` | High
-28 | File | `/webman/info.cgi` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-31 | File | `AAclAuthz.java` | High
-32 | File | `ABuffer.cpp` | Medium
-33 | File | `ActionsAndOperations` | High
-34 | File | `adclick.php` | Medium
-35 | File | `admin.php` | Medium
-36 | File | `admin.php?page=languages` | High
-37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/dashboard.php` | High
-39 | ... | ... | ...
+3 | File | `/admin/contenttemp` | High
+4 | File | `/admin/modules/system/custom_field.php` | High
+5 | File | `/admin/web_config.php` | High
+6 | File | `/api/crontab` | Medium
+7 | File | `/bin/boa` | Medium
+8 | File | `/cgi-bin/qcmap_auth` | High
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/cgi-mod/lookup.cgi` | High
+11 | File | `/cms/print.php` | High
+12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+13 | File | `/dev/dri/card1` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/export` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/iissamples` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+20 | File | `/login` | Low
+21 | File | `/osm/REGISTER.cmd` | High
+22 | File | `/product.php` | Medium
+23 | File | `/public/plugins/` | High
+24 | File | `/rom-0` | Low
+25 | File | `/servlet/webacc` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/usr/sbin/suexec` | High
+29 | File | `/webconsole/Controller` | High
+30 | File | `/webman/info.cgi` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+33 | File | `AAclAuthz.java` | High
+34 | File | `ABuffer.cpp` | Medium
+35 | File | `ActionsAndOperations` | High
+36 | File | `adclick.php` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?page=languages` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

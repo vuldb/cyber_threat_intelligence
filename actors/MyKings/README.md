@@ -98,7 +98,7 @@ ID | Type | Indicator | Confidence
 30 | File | `ajax/api/hook/decodeArguments` | High
 31 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

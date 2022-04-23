@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
-* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -331,12 +331,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -344,47 +344,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/#/CampaignManager/users` | High
-4 | File | `/../conf/config.properties` | High
-5 | File | `//` | Low
-6 | File | `/admin.php?action=themeinstall` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/as/authorization.oauth2` | High
-11 | File | `/audit/log/log_management.php` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/cgi-bin/delete_CA` | High
-14 | File | `/cgi-bin/login` | High
-15 | File | `/classes/profile.class.php` | High
-16 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-17 | File | `/dev/tty` | Medium
-18 | File | `/downloads/` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/export` | Low
-21 | File | `/include/chart_generator.php` | High
-22 | File | `/member/index/login.html` | High
-23 | File | `/modules/certinfo/index.php` | High
-24 | File | `/ptms/classes/Users.php` | High
-25 | File | `/ScadaBR/login.htm` | High
-26 | File | `/system/tool/ping.php` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/uploads/dede` | High
-29 | File | `/usr/bin/at` | Medium
-30 | File | `/usr/bin/pkexec` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/_matrix/client/r0/auth/m.login.recaptcha` | High
-33 | File | `?location=search` | High
-34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-35 | File | `acrord32.exe` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin.php?m=backup&c=backup&a=doback` | High
-38 | File | `admin/conf_users_edit.php` | High
-39 | ... | ... | ...
+1 | File | `/#/CampaignManager/users` | High
+2 | File | `/admin/admin_login.php` | High
+3 | File | `/admin/index.php?slides` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/bin/sh` | Low
+7 | File | `/bsms/?page=products` | High
+8 | File | `/cgi-bin/portal` | High
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+11 | File | `/etc/groups` | Medium
+12 | File | `/form/index.php?module=getjson` | High
+13 | File | `/ghost/preview` | High
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/login` | Low
+16 | File | `/login.html` | Medium
+17 | File | `/magnoliaPublic/travel/members/login.html` | High
+18 | File | `/member/index/login.html` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/op/op.LockDocument.php` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/rest/api/2/search` | High
+23 | File | `/rest/api/latest/projectvalidate/key` | High
+24 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+26 | File | `/sm/api/v1/firewall/zone/services` | High
+27 | File | `/src/njs_vmcode.c` | High
+28 | File | `/system/tool/ping.php` | High
+29 | File | `/system/user/resetPwd` | High
+30 | File | `/tmp/app/.env` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

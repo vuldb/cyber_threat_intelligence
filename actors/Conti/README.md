@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -79,7 +79,7 @@ ID | IP address | Hostname | Campaign | Confidence
 50 | [45.153.240.191](https://vuldb.com/?ip.45.153.240.191) | - | - | High
 51 | ... | ... | ... | ...
 
-There are 200 more IOC items available. Please use our online service to access the data.
+There are 202 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,48 +102,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/../../conf/template/uhttpd.json` | High
+3 | File | `/admin/contenttemp` | High
 4 | File | `/admin/modules/system/custom_field.php` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/cgi-mod/lookup.cgi` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/etc/sudoers` | Medium
-10 | File | `/export` | Low
-11 | File | `/iissamples` | Medium
-12 | File | `/login` | Low
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/new` | Low
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/show_news.php` | High
-21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/usr/sbin/suexec` | High
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `AccountManagerService.java` | High
-31 | File | `actions/CompanyDetailsSave.php` | High
-32 | File | `ActivityManagerService.java` | High
-33 | File | `adclick.php` | Medium
-34 | File | `admin.php` | Medium
-35 | File | `admin.php?page=languages` | High
-36 | File | `admin/add-glossary.php` | High
-37 | File | `admin/admin.php` | High
-38 | File | `admin/conf_users_edit.php` | High
-39 | File | `admin/edit-comments.php` | High
-40 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-41 | File | `admin\db\DoSql.php` | High
-42 | ... | ... | ...
+5 | File | `/api/crontab` | Medium
+6 | File | `/bin/boa` | Medium
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/cgi-mod/lookup.cgi` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/export` | Low
+12 | File | `/iissamples` | Medium
+13 | File | `/login` | Low
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/new` | Low
+17 | File | `/nova/bin/console` | High
+18 | File | `/proc/<pid>/status` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/show_news.php` | High
+23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+24 | File | `/tmp` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/usr/sbin/suexec` | High
+28 | File | `/WEB-INF/web.xml` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `AccountManagerService.java` | High
+33 | File | `actions/CompanyDetailsSave.php` | High
+34 | File | `ActivityManagerService.java` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin.php?page=languages` | High
+37 | File | `admin/add-glossary.php` | High
+38 | File | `admin/admin.php` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | File | `admin/edit-comments.php` | High
+41 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -152,6 +151,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://ddanchev.blogspot.com/2022/02/exposing-conti-ransomware-gang-osint_28.html
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Conti.csv
 * https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/
+* https://twitter.com/cherryblond83/status/1498133186316062724
 * https://twitter.com/vxunderground/status/1414809517993435139
 
 ## Literature

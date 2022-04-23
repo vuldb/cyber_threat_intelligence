@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -88,22 +88,23 @@ ID | Type | Indicator | Confidence
 31 | File | `/webconsole/APIController` | High
 32 | File | `/websocket/exec` | High
 33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/wp-json/oembed/1.0/embed?url` | High
-35 | File | `/_next` | Low
-36 | File | `4.edu.php\conn\function.php` | High
-37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-38 | File | `adclick.php` | Medium
-39 | File | `addentry.php` | Medium
-40 | File | `addressbook.php` | High
-41 | File | `add_comment.php` | High
-42 | File | `admin/category.inc.php` | High
-43 | File | `admin/conf_users_edit.php` | High
-44 | File | `admin/dl_sendmail.php` | High
-45 | File | `admin/index.php` | High
-46 | File | `admin/password_forgotten.php` | High
-47 | ... | ... | ...
+34 | File | `/wp-json` | Medium
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/_next` | Low
+37 | File | `4.edu.php\conn\function.php` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `addressbook.php` | High
+42 | File | `add_comment.php` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/conf_users_edit.php` | High
+45 | File | `admin/dl_sendmail.php` | High
+46 | File | `admin/index.php` | High
+47 | File | `admin/password_forgotten.php` | High
+48 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

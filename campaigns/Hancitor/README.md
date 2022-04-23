@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hancitor:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
+* [CA](https://vuldb.com/?country.ca)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,20 +30,32 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [8.208.9.98](https://vuldb.com/?ip.8.208.9.98) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-2 | [8.208.77.171](https://vuldb.com/?ip.8.208.77.171) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-3 | [8.209.76.110](https://vuldb.com/?ip.8.209.76.110) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-4 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-5 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-6 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-7 | [31.44.184.36](https://vuldb.com/?ip.31.44.184.36) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-8 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-9 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-10 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-11 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-12 | ... | ... | ... | ...
+1 | [5.196.129.108](https://vuldb.com/?ip.5.196.129.108) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+2 | [8.208.9.98](https://vuldb.com/?ip.8.208.9.98) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+3 | [8.208.77.171](https://vuldb.com/?ip.8.208.77.171) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+4 | [8.209.76.110](https://vuldb.com/?ip.8.209.76.110) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+5 | [8.209.119.208](https://vuldb.com/?ip.8.209.119.208) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+6 | [8.211.241.0](https://vuldb.com/?ip.8.211.241.0) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+7 | [10.0.2.2](https://vuldb.com/?ip.10.0.2.2) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+8 | [23.228.100.130](https://vuldb.com/?ip.23.228.100.130) | gewrig.cerned.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+9 | [23.236.75.32](https://vuldb.com/?ip.23.236.75.32) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+10 | [24.172.35.186](https://vuldb.com/?ip.24.172.35.186) | rrcs-24-172-35-186.midsouth.biz.rr.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+11 | [24.209.225.196](https://vuldb.com/?ip.24.209.225.196) | cpe-24-209-225-196.cinci.res.rr.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+12 | [24.229.13.112](https://vuldb.com/?ip.24.229.13.112) | cpe-static-raysautorepair-rtr.cmts.mlf.ptd.net | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+13 | [24.240.249.177](https://vuldb.com/?ip.24.240.249.177) | 024-240-249-177.biz.spectrum.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+14 | [27.121.64.185](https://vuldb.com/?ip.27.121.64.185) | cp185.ezyreg.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+15 | [27.124.124.97](https://vuldb.com/?ip.27.124.124.97) | server-2p-r17.ipv4.per01.ds.network | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+16 | [31.44.184.36](https://vuldb.com/?ip.31.44.184.36) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+17 | [31.44.184.62](https://vuldb.com/?ip.31.44.184.62) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+18 | [34.213.214.65](https://vuldb.com/?ip.34.213.214.65) | ec2-34-213-214-65.us-west-2.compute.amazonaws.com | [Hancitor](https://vuldb.com/?actor.hancitor) | Medium
+19 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+20 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+21 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+22 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+23 | [43.133.160.144](https://vuldb.com/?ip.43.133.160.144) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+24 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,42 +76,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htpasswd` | Medium
-2 | File | `/../conf/config.properties` | High
-3 | File | `/drivers/infiniband/core/cm.c` | High
-4 | File | `/find_v2/_click` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/images/` | Medium
-8 | File | `/inc/parser/xhtml.php` | High
-9 | File | `/login` | Low
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/objects/getImageMP4.php` | High
-12 | File | `/one_church/userregister.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/public/plugins/` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-19 | File | `/system/proxy` | High
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `add.php` | Low
-24 | File | `addentry.php` | Medium
-25 | File | `addressbookprovider.php` | High
-26 | File | `admin.cropcanvas.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/dashboard.php` | High
-30 | File | `admin/pageUploadCSV.php` | High
-31 | File | `ajax_udf.php` | Medium
-32 | File | `AppCompatCache.exe` | High
-33 | File | `application.js.php` | High
-34 | ... | ... | ...
+1 | File | `/../conf/config.properties` | High
+2 | File | `/auth/session` | High
+3 | File | `/concat?/%2557EB-INF/web.xml` | High
+4 | File | `/download` | Medium
+5 | File | `/drivers/infiniband/core/cm.c` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/images/` | Medium
+9 | File | `/inc/extensions.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/login` | Low
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/nova/bin/console` | High
+14 | File | `/objects/getImageMP4.php` | High
+15 | File | `/one_church/userregister.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/public/plugins/` | High
+18 | File | `/replication` | Medium
+19 | File | `/req_password_user.php` | High
+20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/phpglibccheck` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/syno/etc/mount.conf` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+32 | File | `/wp-json/oembed/1.0/embed?url` | High
+33 | File | `adclick.php` | Medium
+34 | File | `addentry.php` | Medium
+35 | File | `admin.jcomments.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/conf_users_edit.php` | High
+38 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,8 +125,13 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/forums/diary/Campaign+evolution+Hancitor+malspam+starts+pushing+Ursnif+this+week/24256/
 * https://isc.sans.edu/forums/diary/Hancitor+activity+resumes+after+a+hoilday+break/26980/
 * https://isc.sans.edu/forums/diary/Hancitor+distributed+through+coronavirusthemed+malspam/25892/
+* https://isc.sans.edu/forums/diary/Hancitor+malspam+uses+DDE+attack/22936/
 * https://isc.sans.edu/forums/diary/Hancitor+tries+XLL+as+initial+malware+file/27618/
+* https://isc.sans.edu/forums/diary/HancitorPony+malspam/22053/
+* https://isc.sans.edu/forums/diary/HancitorPonyVawtrak+malspam/21919/
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
+* https://isc.sans.edu/forums/diary/Malspam+pushing+Word+documents+with+Hancitor+malware/22858/
+* https://isc.sans.edu/forums/diary/RTF+files+for+Hancitor+utilize+exploit+for+CVE201711882/23271/
 * https://www.malware-traffic-analysis.net/2021/09/14/index.html
 
 ## Literature

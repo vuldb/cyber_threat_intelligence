@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lodeinfo:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.67.231.169](https://vuldb.com/?ip.45.67.231.169) | vm377031.pq.hosting | - | High
-2 | [162.244.32.148](https://vuldb.com/?ip.162.244.32.148) | arthurherrera.clientshostname.com | - | High
-3 | [193.228.52.57](https://vuldb.com/?ip.193.228.52.57) | 193.228.52.57.deltahost-ptr | - | High
+2 | [103.27.184.27](https://vuldb.com/?ip.103.27.184.27) | - | - | High
+3 | [103.140.187.183](https://vuldb.com/?ip.103.140.187.183) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,6 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,14 +50,17 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/index.php` | High
 3 | File | `/uncpath/` | Medium
-4 | ... | ... | ...
+4 | File | `/upload` | Low
+5 | File | `color.php` | Medium
+6 | ... | ... | ...
 
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.jpcert.or.jp/ja/2020/06/LODEINFO-2.html
 * https://files.macnica.co.jp/mnc/mpressioncss_ta_report_2019_2.pdf
 
 ## Literature

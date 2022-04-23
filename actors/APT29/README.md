@@ -89,14 +89,14 @@ ID | Type | Indicator | Confidence
 11 | File | `/common/logViewer/logViewer.jsf` | High
 12 | File | `/context/%2e/WEB-INF/web.xml` | High
 13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-14 | File | `/dcim/sites/add/` | High
-15 | File | `/fudforum/adm/hlplist.php` | High
-16 | File | `/login` | Low
-17 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/ms/cms/content/list.do` | High
-20 | File | `/new` | Low
-21 | File | `/orms/` | Low
+14 | File | `/fudforum/adm/hlplist.php` | High
+15 | File | `/login` | Low
+16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/new` | Low
+20 | File | `/orms/` | Low
+21 | File | `/plesk-site-preview/` | High
 22 | File | `/proc/<pid>/status` | High
 23 | File | `/public/plugins/` | High
 24 | File | `/rom` | Low
@@ -104,18 +104,18 @@ ID | Type | Indicator | Confidence
 26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 27 | File | `/secure/QueryComponent!Default.jspa` | High
 28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-29 | File | `/tmp` | Low
-30 | File | `/tmp/redis.ds` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/wp-admin` | Medium
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `ABuffer.cpp` | Medium
-36 | File | `AccountManagerService.java` | High
-37 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `/student-grading-system/rms.php?page=grade` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/redis.ds` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/wp-admin` | Medium
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `ABuffer.cpp` | Medium
+37 | File | `AccountManagerService.java` | High
 38 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

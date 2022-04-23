@@ -132,33 +132,32 @@ ID | Type | Indicator | Confidence
 3 | File | `/../conf/config.properties` | High
 4 | File | `/alumni/admin/ajax.php?action=save_settings` | High
 5 | File | `/auth/session` | High
-6 | File | `/cfg` | Low
-7 | File | `/cgi-bin/ExportALLSettings.sh` | High
-8 | File | `/cgi-bin/webproc` | High
-9 | File | `/config/getuser` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/exponent_constants.php` | High
-12 | File | `/front/document.form.php` | High
-13 | File | `/ibi_apps/WFServlet.cfg` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/proc/sysvipc/sem` | High
-16 | File | `/replication` | Medium
-17 | File | `/rest/collectors/1.0/template/custom` | High
-18 | File | `/RestAPI` | Medium
-19 | File | `/search.php` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/trigger` | Medium
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/login/oauth` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/usr/doc` | Medium
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/webpages/data` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-json` | Medium
-30 | ... | ... | ...
+6 | File | `/cgi-bin/ExportALLSettings.sh` | High
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/config/getuser` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/exponent_constants.php` | High
+11 | File | `/front/document.form.php` | High
+12 | File | `/ibi_apps/WFServlet.cfg` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/proc/sysvipc/sem` | High
+15 | File | `/replication` | Medium
+16 | File | `/rest/collectors/1.0/template/custom` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/search.php` | Medium
+19 | File | `/tmp` | Low
+20 | File | `/trigger` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/user/login/oauth` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/usr/doc` | Medium
+25 | File | `/WEB-INF/web.xml` | High
+26 | File | `/webpages/data` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-json` | Medium
+29 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

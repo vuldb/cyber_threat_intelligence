@@ -60,36 +60,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=editpage` | High
 2 | File | `/admin/featured.php` | High
-3 | File | `/coders/pdf.c` | High
-4 | File | `/download` | Medium
-5 | File | `/etc/grafana/grafana.ini` | High
-6 | File | `/exponentcms/administration/configure_site` | High
-7 | File | `/export` | Low
-8 | File | `/forum/away.php` | High
-9 | File | `/fudforum/index.php` | High
-10 | File | `/goform/setVLAN` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/lab.html` | Medium
-13 | File | `/out.php` | Medium
-14 | File | `/products/details.asp` | High
-15 | File | `/sm/api/v1/firewall/zone/services` | High
-16 | File | `/spacecom/login.php` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-19 | File | `acknowledge.c` | High
-20 | File | `actions/CompanyDetailsSave.php` | High
-21 | File | `adclick.php` | Medium
-22 | File | `add_comment.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `admin/inc/template_functions.php` | High
-26 | File | `admincp/attachment.php` | High
-27 | File | `administrator/components/com_media/helpers/media.php` | High
-28 | File | `adminpasswd.cgi` | High
-29 | File | `admsession.php` | High
+3 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+4 | File | `/coders/pdf.c` | High
+5 | File | `/download` | Medium
+6 | File | `/etc/grafana/grafana.ini` | High
+7 | File | `/exponentcms/administration/configure_site` | High
+8 | File | `/export` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/fudforum/index.php` | High
+11 | File | `/goform/setVLAN` | High
+12 | File | `/horde/util/go.php` | High
+13 | File | `/lab.html` | Medium
+14 | File | `/out.php` | Medium
+15 | File | `/products/details.asp` | High
+16 | File | `/sm/api/v1/firewall/zone/services` | High
+17 | File | `/spacecom/login.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+20 | File | `acknowledge.c` | High
+21 | File | `actions/CompanyDetailsSave.php` | High
+22 | File | `adclick.php` | Medium
+23 | File | `add_comment.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/conf_users_edit.php` | High
+26 | File | `admin/inc/template_functions.php` | High
+27 | File | `admincp/attachment.php` | High
+28 | File | `administrator/components/com_media/helpers/media.php` | High
+29 | File | `adminpasswd.cgi` | High
 30 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

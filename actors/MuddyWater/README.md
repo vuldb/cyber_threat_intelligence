@@ -19,12 +19,12 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MuddyWater:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,34 +69,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/configure.php` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/api/trackedEntityInstances` | High
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/configs/application.ini` | High
-7 | File | `/css/..%2f` | Medium
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/etc/wpa_supplicant.conf` | High
-10 | File | `/formSetPortTr` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/GetCopiedFile` | High
-13 | File | `/hdf5/src/H5T.c` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-16 | File | `/music/ajax.php` | High
-17 | File | `/one_church/churchprofile.php` | High
-18 | File | `/opensis/functions/GetStuListFnc.php` | High
-19 | File | `/post/editing` | High
-20 | File | `/product.php` | Medium
-21 | File | `/product_list.php` | High
-22 | File | `/ptms/classes/Users.php` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/RestAPI` | Medium
-25 | File | `/rsms/` | Low
-26 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/admin/config` | High
+3 | File | `/admin/configure.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/maintenance_actions.php` | High
+6 | File | `/appliance/users?action=edit` | High
+7 | File | `/configs/application.ini` | High
+8 | File | `/css/..%2f` | Medium
+9 | File | `/etc/tomcat8/Catalina/attack` | High
+10 | File | `/etc/wpa_supplicant.conf` | High
+11 | File | `/GetCopiedFile` | High
+12 | File | `/hdf5/src/H5T.c` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+15 | File | `/music/ajax.php` | High
+16 | File | `/one_church/churchprofile.php` | High
+17 | File | `/opensis/functions/GetStuListFnc.php` | High
+18 | File | `/post/editing` | High
+19 | File | `/product.php` | Medium
+20 | File | `/product_list.php` | High
+21 | File | `/ptms/classes/Users.php` | High
+22 | File | `/rsms/` | Low
+23 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/tools/run-dev-server` | High
+26 | File | `/userRpm/PingIframeRpm.htm` | High
+27 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

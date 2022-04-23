@@ -62,7 +62,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -80,34 +80,33 @@ ID | Type | Indicator | Confidence
 4 | File | `/alumni/admin/ajax.php?action=save_settings` | High
 5 | File | `/auth/session` | High
 6 | File | `/catcompany.php` | High
-7 | File | `/cfg` | Low
-8 | File | `/cgi-bin/webproc` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/exponent_constants.php` | High
-11 | File | `/export` | Low
-12 | File | `/forgetpassword.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/front/document.form.php` | High
-15 | File | `/ibi_apps/WFServlet.cfg` | High
-16 | File | `/include/chart_generator.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/proc/sysvipc/sem` | High
-20 | File | `/rest/collectors/1.0/template/custom` | High
-21 | File | `/RestAPI` | Medium
-22 | File | `/search.php` | Medium
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/tmp` | Low
-26 | File | `/trigger` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/login/oauth` | High
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/usr/doc` | Medium
-31 | File | `/WEB-INF/web.xml` | High
-32 | ... | ... | ...
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/exponent_constants.php` | High
+10 | File | `/export` | Low
+11 | File | `/forgetpassword.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/front/document.form.php` | High
+14 | File | `/ibi_apps/WFServlet.cfg` | High
+15 | File | `/include/chart_generator.php` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/proc/sysvipc/sem` | High
+19 | File | `/rest/collectors/1.0/template/custom` | High
+20 | File | `/RestAPI` | Medium
+21 | File | `/search.php` | Medium
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/trigger` | Medium
+25 | File | `/uncpath/` | Medium
+26 | File | `/user/login/oauth` | High
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/usr/doc` | Medium
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/webpages/data` | High
+31 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

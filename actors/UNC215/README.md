@@ -47,11 +47,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/config/getuser` | High
 3 | File | `/img/main.cgi` | High
-4 | File | `/public/plugins/` | High
-5 | File | `/rapi/read_url` | High
+4 | File | `/lan.asp` | Medium
+5 | File | `/public/plugins/` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,6 +47,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,15 +57,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forms/nslookupHandler` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/goform/form2userconfig.cgi` | High
-4 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-5 | File | `/members/view_member.php` | High
-6 | File | `adclick.php` | Medium
-7 | ... | ... | ...
+1 | File | `/example/editor` | High
+2 | File | `/forms/nslookupHandler` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/goform/form2userconfig.cgi` | High
+5 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+6 | File | `/members/view_member.php` | High
+7 | File | `/var/log/demisto/` | High
+8 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

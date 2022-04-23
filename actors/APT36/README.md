@@ -91,7 +91,7 @@ ID | Type | Indicator | Confidence
 26 | File | `comment_add.asp` | High
 27 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

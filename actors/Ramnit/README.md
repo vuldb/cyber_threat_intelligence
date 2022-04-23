@@ -51,27 +51,29 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [23.56.169.209](https://vuldb.com/?ip.23.56.169.209) | a23-56-169-209.deploy.static.akamaitechnologies.com | - | High
 23 | [23.56.169.217](https://vuldb.com/?ip.23.56.169.217) | a23-56-169-217.deploy.static.akamaitechnologies.com | - | High
 24 | [23.64.109.30](https://vuldb.com/?ip.23.64.109.30) | a23-64-109-30.deploy.static.akamaitechnologies.com | - | High
-25 | [23.196.65.196](https://vuldb.com/?ip.23.196.65.196) | a23-196-65-196.deploy.static.akamaitechnologies.com | - | High
-26 | [23.218.130.41](https://vuldb.com/?ip.23.218.130.41) | a23-218-130-41.deploy.static.akamaitechnologies.com | - | High
-27 | [31.44.184.117](https://vuldb.com/?ip.31.44.184.117) | - | - | High
-28 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
-29 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-30 | [34.197.76.50](https://vuldb.com/?ip.34.197.76.50) | ec2-34-197-76-50.compute-1.amazonaws.com | - | Medium
-31 | [34.225.182.233](https://vuldb.com/?ip.34.225.182.233) | ec2-34-225-182-233.compute-1.amazonaws.com | - | Medium
-32 | [35.188.161.42](https://vuldb.com/?ip.35.188.161.42) | 42.161.188.35.bc.googleusercontent.com | - | Medium
-33 | [35.224.11.86](https://vuldb.com/?ip.35.224.11.86) | 86.11.224.35.bc.googleusercontent.com | - | Medium
-34 | [39.107.34.197](https://vuldb.com/?ip.39.107.34.197) | - | - | High
-35 | [45.118.145.96](https://vuldb.com/?ip.45.118.145.96) | - | - | High
-36 | [46.17.47.67](https://vuldb.com/?ip.46.17.47.67) | fxchfjhtftfr.net | - | High
-37 | [46.161.40.50](https://vuldb.com/?ip.46.161.40.50) | hosting-by.ankas-group.net | - | High
-38 | [46.165.220.141](https://vuldb.com/?ip.46.165.220.141) | - | - | High
-39 | [46.165.220.142](https://vuldb.com/?ip.46.165.220.142) | - | - | High
-40 | [46.165.220.143](https://vuldb.com/?ip.46.165.220.143) | - | - | High
-41 | [46.165.220.144](https://vuldb.com/?ip.46.165.220.144) | - | - | High
-42 | [46.165.220.145](https://vuldb.com/?ip.46.165.220.145) | - | - | High
-43 | ... | ... | ... | ...
+25 | [23.96.57.36](https://vuldb.com/?ip.23.96.57.36) | - | - | High
+26 | [23.196.65.196](https://vuldb.com/?ip.23.196.65.196) | a23-196-65-196.deploy.static.akamaitechnologies.com | - | High
+27 | [23.218.130.41](https://vuldb.com/?ip.23.218.130.41) | a23-218-130-41.deploy.static.akamaitechnologies.com | - | High
+28 | [31.44.184.117](https://vuldb.com/?ip.31.44.184.117) | - | - | High
+29 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
+30 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+31 | [34.197.76.50](https://vuldb.com/?ip.34.197.76.50) | ec2-34-197-76-50.compute-1.amazonaws.com | - | Medium
+32 | [34.225.182.233](https://vuldb.com/?ip.34.225.182.233) | ec2-34-225-182-233.compute-1.amazonaws.com | - | Medium
+33 | [35.188.161.42](https://vuldb.com/?ip.35.188.161.42) | 42.161.188.35.bc.googleusercontent.com | - | Medium
+34 | [35.224.11.86](https://vuldb.com/?ip.35.224.11.86) | 86.11.224.35.bc.googleusercontent.com | - | Medium
+35 | [35.224.232.239](https://vuldb.com/?ip.35.224.232.239) | 239.232.224.35.bc.googleusercontent.com | - | Medium
+36 | [35.225.160.245](https://vuldb.com/?ip.35.225.160.245) | 245.160.225.35.bc.googleusercontent.com | - | Medium
+37 | [37.48.125.120](https://vuldb.com/?ip.37.48.125.120) | - | - | High
+38 | [39.107.34.197](https://vuldb.com/?ip.39.107.34.197) | - | - | High
+39 | [45.118.145.96](https://vuldb.com/?ip.45.118.145.96) | - | - | High
+40 | [46.17.47.67](https://vuldb.com/?ip.46.17.47.67) | fxchfjhtftfr.net | - | High
+41 | [46.161.40.50](https://vuldb.com/?ip.46.161.40.50) | hosting-by.ankas-group.net | - | High
+42 | [46.165.220.141](https://vuldb.com/?ip.46.165.220.141) | - | - | High
+43 | [46.165.220.142](https://vuldb.com/?ip.46.165.220.142) | - | - | High
+44 | [46.165.220.143](https://vuldb.com/?ip.46.165.220.143) | - | - | High
+45 | ... | ... | ... | ...
 
-There are 167 more IOC items available. Please use our online service to access the data.
+There are 177 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -118,6 +120,9 @@ There are 151 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0621-0628.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-0712-0719.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0402-0409.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0813-0820.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html

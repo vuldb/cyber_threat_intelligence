@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
 17 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,45 +78,46 @@ ID | Type | Indicator | Confidence
 16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
 17 | File | `/opt/novell/ncl/bin/nwrights` | High
 18 | File | `/out.php` | Medium
-19 | File | `/proc/pid/syscall` | High
-20 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-21 | File | `/var/log/pcp/configs.sh` | High
-22 | File | `/webconsole/APIController` | High
-23 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-24 | File | `a-b-membres.php` | High
-25 | File | `action.php` | Medium
-26 | File | `admin-search.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin/adminsignin.html` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin/plugin.php` | High
-31 | File | `admin/test.php` | High
-32 | File | `admin/versions.html` | High
-33 | File | `administrator/index.php?option=com_pago&view=comments` | High
-34 | File | `Adminlog.asp` | Medium
-35 | File | `admin_iplog.php` | High
-36 | File | `ajax.php` | Medium
-37 | File | `ajax_admin_apis.php` | High
-38 | File | `ajax_php_pecl.php` | High
-39 | File | `antserver.exe` | High
-40 | File | `api.cc` | Low
-41 | File | `api/ApiQueryCheckUser.php` | High
-42 | File | `app/helpers/application_helper.rb` | High
-43 | File | `app\conference_controls\conference_control_details.php` | High
-44 | File | `apt/package.py` | High
-45 | File | `arch/x86/include/asm/uaccess.h` | High
-46 | File | `architext.conf` | High
-47 | File | `archive/savedqueries/savequeryfinish.html` | High
-48 | File | `atari800.svgalib` | High
-49 | File | `atomphotoblog.php` | High
+19 | File | `/proc/*/cmdline"` | High
+20 | File | `/proc/pid/syscall` | High
+21 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/var/log/pcp/configs.sh` | High
+24 | File | `/webconsole/APIController` | High
+25 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+26 | File | `a-b-membres.php` | High
+27 | File | `action.php` | Medium
+28 | File | `admin-search.php` | High
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin/adminsignin.html` | High
+31 | File | `admin/index.php` | High
+32 | File | `admin/plugin.php` | High
+33 | File | `admin/test.php` | High
+34 | File | `admin/versions.html` | High
+35 | File | `administrator/index.php?option=com_pago&view=comments` | High
+36 | File | `Adminlog.asp` | Medium
+37 | File | `admin_iplog.php` | High
+38 | File | `ajax.php` | Medium
+39 | File | `ajax_admin_apis.php` | High
+40 | File | `ajax_php_pecl.php` | High
+41 | File | `antserver.exe` | High
+42 | File | `api.cc` | Low
+43 | File | `api/ApiQueryCheckUser.php` | High
+44 | File | `app/helpers/application_helper.rb` | High
+45 | File | `app\conference_controls\conference_control_details.php` | High
+46 | File | `apt/package.py` | High
+47 | File | `arch/x86/include/asm/uaccess.h` | High
+48 | File | `architext.conf` | High
+49 | File | `archive/savedqueries/savequeryfinish.html` | High
 50 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/

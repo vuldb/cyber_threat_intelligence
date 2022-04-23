@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,9 +4908,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -4921,34 +4921,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%APPDATA%\Securepoint SSL VPN` | High
+1 | File | `.nautilus-metafile.xml` | High
 2 | File | `/#/CampaignManager/users` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `//` | Low
-5 | File | `/admin/export/getcsv/article_db` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/api/user/{ID}` | High
-8 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/bin/sh` | Low
-11 | File | `/cgi-mod/lookup.cgi` | High
-12 | File | `/config/service/host.go` | High
-13 | File | `/downloads/` | Medium
-14 | File | `/etc/passwd` | Medium
-15 | File | `/export` | Low
-16 | File | `/include/chart_generator.php` | High
-17 | File | `/member/index/login.html` | High
-18 | File | `/modules/certinfo/index.php` | High
-19 | File | `/new` | Low
-20 | File | `/nova/bin/sniffer` | High
-21 | File | `/system/user/resetPwd` | High
-22 | File | `/textpattern/index.php` | High
-23 | File | `/tmp/swhkd.pid` | High
-24 | File | `/tmp/swhks.pid` | High
-25 | File | `/tools/run-dev-server` | High
-26 | ... | ... | ...
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/index.php` | High
+5 | File | `/appliance/users?action=edit` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/blog/blog.php` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/devices/acurite.c` | High
+10 | File | `/ghost/preview` | High
+11 | File | `/if.cgi` | Low
+12 | File | `/Items/*/RemoteImages/Download` | High
+13 | File | `/login` | Low
+14 | File | `/nova/bin/console` | High
+15 | File | `/nova/bin/detnet` | High
+16 | File | `/pineapple/ui` | High
+17 | File | `/plesk-site-preview/` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/row/row0mysql.cc` | High
+21 | File | `/searchblox/servlet/FileServlet?col=url=` | High
+22 | File | `/sm/api/v1/firewall/zone/services` | High
+23 | File | `/sources/folders.queries.php` | High
+24 | File | `/sql/sql_string.h` | High
+25 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
