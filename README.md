@@ -17,3 +17,5 @@ We provide a wide variety of indicators like campaigns, country associations, IO
 ## Predictive Capabilities
 
 Due to our unique AI-based system we are able to provide predictive indicators. These are indicators which are not yet used in attacks but might be used by the specific actors. This helps to anticipate and mitigate attacks very eary.
+
+![The unique VulDB CTI model to predict activities and indicators](https://vuldb.com/documentation/images/cti_model.png)
