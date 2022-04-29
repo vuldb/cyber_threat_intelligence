@@ -175,36 +175,37 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin.php/admin/ulog/index.html` | High
 6 | File | `/admin/configure.php` | High
 7 | File | `/admin/doctors/view_doctor.php` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/api/trackedEntityInstances` | High
-10 | File | `/AvalancheWeb/image` | High
-11 | File | `/category.php` | High
-12 | File | `/cgi-bin/uploadAccessCodePic` | High
-13 | File | `/cms/ajax.php` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/dev/dri/card1` | High
-16 | File | `/export` | Low
-17 | File | `/file?action=download&file` | High
-18 | File | `/goform/setIPv6Status` | High
-19 | File | `/images` | Low
-20 | File | `/include/chart_generator.php` | High
-21 | File | `/include/make.php` | High
-22 | File | `/InternalPages/ExecuteTask.aspx` | High
-23 | File | `/music/ajax.php` | High
-24 | File | `/nova/bin/sniffer` | High
-25 | File | `/pandora_console/ajax.php` | High
-26 | File | `/principals` | Medium
-27 | File | `/public/plugins/` | High
-28 | File | `/SASWebReportStudio/logonAndRender.do` | High
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/system/bin/osi_bin` | High
-31 | File | `/tmp` | Low
-32 | File | `/TMS/admin/setting/mail/createorupdate` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/web/MCmsAction.java` | High
-35 | ... | ... | ...
+8 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+9 | File | `/api/crontab` | Medium
+10 | File | `/api/students/me/messages/` | High
+11 | File | `/api/trackedEntityInstances` | High
+12 | File | `/AvalancheWeb/image` | High
+13 | File | `/category.php` | High
+14 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+15 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+16 | File | `/cgi-bin/uploadAccessCodePic` | High
+17 | File | `/common/info.cgi` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dev/dri/card1` | High
+20 | File | `/export` | Low
+21 | File | `/file?action=download&file` | High
+22 | File | `/goform/setIPv6Status` | High
+23 | File | `/goform/WifiExtraSet` | High
+24 | File | `/images` | Low
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/include/make.php` | High
+27 | File | `/InternalPages/ExecuteTask.aspx` | High
+28 | File | `/nova/bin/sniffer` | High
+29 | File | `/principals` | Medium
+30 | File | `/public/plugins/` | High
+31 | File | `/reps/admin/?page=agents/manage_agent` | High
+32 | File | `/reps/classes/Master.php?f=delete_estate` | High
+33 | File | `/SASWebReportStudio/logonAndRender.do` | High
+34 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+35 | File | `/system/bin/osi_bin` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

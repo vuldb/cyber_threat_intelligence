@@ -10,6 +10,7 @@ The following _campaigns_ are known and can be associated with Mustang Panda:
 
 * Diànxùn
 * Hodur
+* PlugX
 
 ## Countries
 
@@ -34,11 +35,12 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
 5 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
 6 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
-7 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
-8 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
-9 | ... | ... | ... | ...
+7 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
+8 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
+9 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,9 +72,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/uploads/dede` | High
 10 | File | `/way4acs/enroll` | High
 11 | File | `/webtools/control/httpService` | High
-12 | ... | ... | ...
+12 | File | `/_error` | Low
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -80,6 +83,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q2
 * https://twitter.com/ESETresearch/status/1400165861973966854
+* https://twitter.com/xorhex/status/1406496693735067650
+* https://twitter.com/xorhex/status/1422815329684758537
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
 * https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/

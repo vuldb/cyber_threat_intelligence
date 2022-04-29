@@ -53,10 +53,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,24 +67,19 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
 2 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
 3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-4 | File | `/admin/inbox.php&action=delete` | High
-5 | File | `/admin/inbox.php&action=read` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/pagerole.php&action=display&value=1` | High
-8 | File | `/admin/pagerole.php&action=edit` | High
-9 | File | `/admin/posts.php` | High
-10 | File | `/admin/posts.php&action=delete` | High
-11 | File | `/admin/posts.php&action=edit` | High
-12 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-13 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-14 | File | `/admin/uesrs.php&action=display&value=Show` | High
-15 | File | `/apps/acs-commons/content/page-compare.html` | High
-16 | File | `/blog/blog.php` | High
-17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-18 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-19 | ... | ... | ...
+4 | File | `/admin.php?r=admin/AdminBackup/del` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/inbox.php&action=delete` | High
+7 | File | `/admin/inbox.php&action=read` | High
+8 | File | `/admin/index.php/template/ajax?action=delete` | High
+9 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+10 | File | `/admin/pagerole.php&action=display&value=1` | High
+11 | File | `/admin/pagerole.php&action=edit` | High
+12 | File | `/admin/posts.php` | High
+13 | File | `/admin/posts.php&action=delete` | High
+14 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

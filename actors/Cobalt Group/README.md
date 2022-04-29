@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
 * [FR](https://vuldb.com/?country.fr)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -54,28 +54,27 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/show.php` | High
 5 | File | `/administrator/components/menu/` | High
 6 | File | `/app/register.php` | High
-7 | File | `/controller/CommentAdminController.java` | High
-8 | File | `/data/sqldata` | High
-9 | File | `/feedback/post/` | High
-10 | File | `/goform/SetPptpServerCfg` | High
-11 | File | `/hdf5/src/H5Fint.c` | High
-12 | File | `/index.php?page=reserve` | High
-13 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-14 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-15 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-16 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-17 | File | `/public/launchNewWindow.jsp` | High
-18 | File | `/purchase_order/admin/?page=user` | High
-19 | File | `/reps/admin/?page=agents/manage_agent` | High
-20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-21 | File | `/scas/classes/Users.php?f=save_user` | High
-22 | File | `/servlets/Jmx_dynamic` | High
-23 | File | `/setting/NTPSyncWithHost` | High
-24 | File | `/src/njs_object.c` | High
-25 | File | `/template/unzip.do` | High
-26 | ... | ... | ...
+7 | File | `/data/sqldata` | High
+8 | File | `/feedback/post/` | High
+9 | File | `/goform/SetPptpServerCfg` | High
+10 | File | `/hdf5/src/H5Fint.c` | High
+11 | File | `/index.php?page=reserve` | High
+12 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+13 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
+14 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+15 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+16 | File | `/public/launchNewWindow.jsp` | High
+17 | File | `/purchase_order/admin/?page=user` | High
+18 | File | `/reps/admin/?page=agents/manage_agent` | High
+19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+20 | File | `/scas/classes/Users.php?f=save_user` | High
+21 | File | `/servlets/Jmx_dynamic` | High
+22 | File | `/setting/NTPSyncWithHost` | High
+23 | File | `/src/njs_object.c` | High
+24 | File | `/template/unzip.do` | High
+25 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

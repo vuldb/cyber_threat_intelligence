@@ -61,10 +61,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,23 +78,26 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/loginc.php` | High
 5 | File | `/auditLogAction.do` | High
 6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-10 | File | `/plugin` | Low
-11 | File | `/rating.php` | Medium
-12 | File | `/services/prefs.php` | High
-13 | File | `/src/njs_object.c` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/wordpress-gallery-transformation/gallery.php` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add_to_cart.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/config/confmgr.php` | High
-20 | File | `admin/index.php` | High
-21 | ... | ... | ...
+7 | File | `/devices/acurite.c` | High
+8 | File | `/etc/ajenti/config.yml` | High
+9 | File | `/example/editor` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+12 | File | `/goform/login_process` | High
+13 | File | `/goform/rlmswitchr_process` | High
+14 | File | `/goforms/rlminfo` | High
+15 | File | `/plugin` | Low
+16 | File | `/rating.php` | Medium
+17 | File | `/scas/admin/` | Medium
+18 | File | `/scas/classes/Users.php?f=save_user` | High
+19 | File | `/services/prefs.php` | High
+20 | File | `/src/njs_object.c` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/wordpress-gallery-transformation/gallery.php` | High
+23 | File | `adclick.php` | Medium
+24 | ... | ... | ...
 
-There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

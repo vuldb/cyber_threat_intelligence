@@ -43,7 +43,7 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
 21 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 81 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -70,52 +70,51 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/default.asp` | High
 5 | File | `/ajax/networking/get_netcfg.php` | High
 6 | File | `/assets/ctx` | Medium
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/checkLogin.cgi` | High
-9 | File | `/cms/print.php` | High
-10 | File | `/concat?/%2557EB-INF/web.xml` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/etc/ajenti/config.yml` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/goform/telnet` | High
-15 | File | `/login` | Low
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/navigate/navigate_download.php` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/p` | Low
-20 | File | `/password.html` | High
-21 | File | `/proc/ioports` | High
-22 | File | `/property-list/property_view.php` | High
-23 | File | `/ptms/classes/Users.php` | High
-24 | File | `/rest` | Low
-25 | File | `/rest/api/2/search` | High
-26 | File | `/s/` | Low
-27 | File | `/scripts/cpan_config` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/services/system/setup.json` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/webconsole/APIController` | High
-32 | File | `/websocket/exec` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/wp-json` | Medium
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
-36 | File | `/_next` | Low
-37 | File | `4.edu.php\conn\function.php` | High
-38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-39 | File | `adclick.php` | Medium
-40 | File | `addentry.php` | Medium
-41 | File | `add_comment.php` | High
-42 | File | `admin/admin.php` | High
-43 | File | `admin/category.inc.php` | High
-44 | File | `admin/conf_users_edit.php` | High
-45 | File | `admin/dl_sendmail.php` | High
-46 | File | `admin/index.php` | High
-47 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-48 | File | `admin/password_forgotten.php` | High
-49 | File | `admin/versions.html` | High
-50 | ... | ... | ...
+7 | File | `/cgi-bin/login_action.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/checkLogin.cgi` | High
+10 | File | `/cms/print.php` | High
+11 | File | `/concat?/%2557EB-INF/web.xml` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/etc/ajenti/config.yml` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/goform/telnet` | High
+16 | File | `/login` | Low
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/navigate/navigate_download.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/p` | Low
+22 | File | `/password.html` | High
+23 | File | `/proc/ioports` | High
+24 | File | `/property-list/property_view.php` | High
+25 | File | `/ptms/classes/Users.php` | High
+26 | File | `/rest` | Low
+27 | File | `/rest/api/2/search` | High
+28 | File | `/rom-0` | Low
+29 | File | `/s/` | Low
+30 | File | `/scripts/cpan_config` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/services/system/setup.json` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/webconsole/APIController` | High
+35 | File | `/websocket/exec` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `/wp-json` | Medium
+38 | File | `/wp-json/oembed/1.0/embed?url` | High
+39 | File | `/_next` | Low
+40 | File | `4.edu.php\conn\function.php` | High
+41 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+42 | File | `adclick.php` | Medium
+43 | File | `addentry.php` | Medium
+44 | File | `admin/admin.php` | High
+45 | File | `admin/category.inc.php` | High
+46 | File | `admin/conf_users_edit.php` | High
+47 | File | `admin/dl_sendmail.php` | High
+48 | File | `admin/index.php` | High
+49 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0325-0401.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
+* https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
 
 ## Literature
 

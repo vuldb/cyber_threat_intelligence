@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,34 +52,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/admin/ulog/index.html` | High
 4 | File | `/admin.php/admin/website/data.html` | High
 5 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
-6 | File | `/admin/inbox.php&action=read` | High
-7 | File | `/admin/posts.php` | High
-8 | File | `/admin/posts.php&action=delete` | High
-9 | File | `/admin/run_ajax.php` | High
-10 | File | `/administrator/components/menu/` | High
-11 | File | `/admin_page/all-files-update-ajax.php` | High
-12 | File | `/api/crontab` | Medium
-13 | File | `/blog/blog.php` | High
-14 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cloud_config/router_post/modify_account_pwd` | High
-17 | File | `/cloud_config/router_post/register` | High
-18 | File | `/config/list` | Medium
-19 | File | `/download/` | Medium
-20 | File | `/etc/ajenti/config.yml` | High
-21 | File | `/etc/cobbler` | Medium
-22 | File | `/etc/passwd` | Medium
-23 | File | `/export` | Low
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/form2Reboot.cgi` | High
-26 | File | `/home.asp` | Medium
-27 | File | `/index.php?act=api&tag=8` | High
-28 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-29 | File | `/languages/index.php` | High
-30 | File | `/members/view_member.php` | High
-31 | ... | ... | ...
+6 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+7 | File | `/admin/inbox.php&action=read` | High
+8 | File | `/admin/posts.php` | High
+9 | File | `/admin/posts.php&action=delete` | High
+10 | File | `/admin/run_ajax.php` | High
+11 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+12 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+13 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+14 | File | `/admin_page/all-files-update-ajax.php` | High
+15 | File | `/api/crontab` | Medium
+16 | File | `/blog/blog.php` | High
+17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+18 | File | `/cgi-bin/kerbynet` | High
+19 | File | `/cloud_config/router_post/modify_account_pwd` | High
+20 | File | `/cloud_config/router_post/register` | High
+21 | File | `/config/list` | Medium
+22 | File | `/download/` | Medium
+23 | File | `/etc/ajenti/config.yml` | High
+24 | File | `/etc/cobbler` | Medium
+25 | File | `/etc/passwd` | Medium
+26 | File | `/export` | Low
+27 | File | `/goform/delAd` | High
+28 | File | `/goform/form2Reboot.cgi` | High
+29 | File | `/home.asp` | Medium
+30 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

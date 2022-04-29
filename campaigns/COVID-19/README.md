@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -34,12 +34,116 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | [APT29](https://vuldb.com/?actor.apt29) | High
-2 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | [APT29](https://vuldb.com/?actor.apt29) | High
-3 | [46.101.202.66](https://vuldb.com/?ip.46.101.202.66) | grafana.jagu.dev | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
-4 | ... | ... | ... | ...
+1 | [2.47.112.152](https://vuldb.com/?ip.2.47.112.152) | net-2-47-112-152.cust.vodafonedsl.it | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [2.56.214.178](https://vuldb.com/?ip.2.56.214.178) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [5.75.75.75](https://vuldb.com/?ip.5.75.75.75) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+4 | [5.101.0.209](https://vuldb.com/?ip.5.101.0.209) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+5 | [5.157.87.204](https://vuldb.com/?ip.5.157.87.204) | redirect.yourhosting.nl | [Unknown](https://vuldb.com/?actor.unknown) | High
+6 | [5.181.156.14](https://vuldb.com/?ip.5.181.156.14) | no-rdns.mivocloud.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+7 | [5.182.210.2](https://vuldb.com/?ip.5.182.210.2) | server30.flaunt7.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+8 | [5.182.210.84](https://vuldb.com/?ip.5.182.210.84) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+9 | [5.188.60.131](https://vuldb.com/?ip.5.188.60.131) | sk.s5.ans1.ns148.ztomy.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+10 | [5.189.132.254](https://vuldb.com/?ip.5.189.132.254) | vmi429632.contaboserver.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+11 | [5.255.96.187](https://vuldb.com/?ip.5.255.96.187) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+12 | [8.208.15.85](https://vuldb.com/?ip.8.208.15.85) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+13 | [8.208.78.192](https://vuldb.com/?ip.8.208.78.192) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+14 | [8.209.69.101](https://vuldb.com/?ip.8.209.69.101) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+15 | [8.209.70.110](https://vuldb.com/?ip.8.209.70.110) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+16 | [8.250.169.254](https://vuldb.com/?ip.8.250.169.254) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+17 | [8.250.183.254](https://vuldb.com/?ip.8.250.183.254) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+18 | [8.251.5.254](https://vuldb.com/?ip.8.251.5.254) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+19 | [8.251.15.254](https://vuldb.com/?ip.8.251.15.254) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+20 | [8.251.31.254](https://vuldb.com/?ip.8.251.31.254) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+21 | [12.162.84.2](https://vuldb.com/?ip.12.162.84.2) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+22 | [14.161.6.60](https://vuldb.com/?ip.14.161.6.60) | static.vnpt.vn | [Unknown](https://vuldb.com/?actor.unknown) | High
+23 | [23.19.227.235](https://vuldb.com/?ip.23.19.227.235) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+24 | [23.227.38.64](https://vuldb.com/?ip.23.227.38.64) | shops.myshopify.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+25 | [23.254.215.229](https://vuldb.com/?ip.23.254.215.229) | hwsrv-869108.hostwindsdns.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+26 | [24.94.237.248](https://vuldb.com/?ip.24.94.237.248) | cpe-24-94-237-248.sw.res.rr.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+27 | [24.196.13.216](https://vuldb.com/?ip.24.196.13.216) | 024-196-013-216.res.spectrum.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+28 | [24.247.182.167](https://vuldb.com/?ip.24.247.182.167) | 024-247-182-167.res.spectrum.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+29 | [24.247.182.240](https://vuldb.com/?ip.24.247.182.240) | 024-247-182-240.res.spectrum.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+30 | [31.31.77.83](https://vuldb.com/?ip.31.31.77.83) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+31 | [31.146.61.34](https://vuldb.com/?ip.31.146.61.34) | 31-146-61-34.dsl.utg.ge | [Unknown](https://vuldb.com/?actor.unknown) | High
+32 | [31.202.128.80](https://vuldb.com/?ip.31.202.128.80) | 31-202-128-80-kh.maxnet.ua | [Unknown](https://vuldb.com/?actor.unknown) | High
+33 | [35.242.251.130](https://vuldb.com/?ip.35.242.251.130) | 130.251.242.35.bc.googleusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+34 | [37.1.209.51](https://vuldb.com/?ip.37.1.209.51) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+35 | [37.1.212.70](https://vuldb.com/?ip.37.1.212.70) | surprisefoun.reveltip.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+36 | [37.1.221.65](https://vuldb.com/?ip.37.1.221.65) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+37 | [37.49.226.13](https://vuldb.com/?ip.37.49.226.13) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+38 | [37.49.226.21](https://vuldb.com/?ip.37.49.226.21) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+39 | [37.49.226.142](https://vuldb.com/?ip.37.49.226.142) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+40 | [37.49.226.182](https://vuldb.com/?ip.37.49.226.182) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+41 | [37.70.131.107](https://vuldb.com/?ip.37.70.131.107) | 107.131.70.37.rev.sfr.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+42 | [37.152.88.55](https://vuldb.com/?ip.37.152.88.55) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+43 | [37.208.106.146](https://vuldb.com/?ip.37.208.106.146) | mail.joerrens.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+44 | [38.132.124.233](https://vuldb.com/?ip.38.132.124.233) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+45 | [41.60.200.34](https://vuldb.com/?ip.41.60.200.34) | 41.60.200.34.liquidtelecom.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+46 | [41.185.29.128](https://vuldb.com/?ip.41.185.29.128) | abp79-nix01.wadns.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+47 | [41.221.164.77](https://vuldb.com/?ip.41.221.164.77) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+48 | [42.51.192.231](https://vuldb.com/?ip.42.51.192.231) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+49 | [45.55.49.33](https://vuldb.com/?ip.45.55.49.33) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+50 | [45.55.179.121](https://vuldb.com/?ip.45.55.179.121) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+51 | [45.56.64.36](https://vuldb.com/?ip.45.56.64.36) | li914-36.members.linode.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+52 | [45.76.218.232](https://vuldb.com/?ip.45.76.218.232) | 45.76.218.232.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+53 | [45.81.226.17](https://vuldb.com/?ip.45.81.226.17) | vm3471381.43ssd.had.wf | [Unknown](https://vuldb.com/?actor.unknown) | High
+54 | [45.95.168.85](https://vuldb.com/?ip.45.95.168.85) | maxko-hosting.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+55 | [45.95.168.98](https://vuldb.com/?ip.45.95.168.98) | maxko-hosting.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+56 | [45.118.136.92](https://vuldb.com/?ip.45.118.136.92) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+57 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | [APT29](https://vuldb.com/?actor.apt29) | High
+58 | [45.128.132.55](https://vuldb.com/?ip.45.128.132.55) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+59 | [45.128.134.14](https://vuldb.com/?ip.45.128.134.14) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+60 | [45.128.134.20](https://vuldb.com/?ip.45.128.134.20) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+61 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | [APT29](https://vuldb.com/?actor.apt29) | High
+62 | [45.138.72.143](https://vuldb.com/?ip.45.138.72.143) | uziel.example.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+63 | [45.138.72.155](https://vuldb.com/?ip.45.138.72.155) | sp200177.example.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+64 | [45.142.212.126](https://vuldb.com/?ip.45.142.212.126) | ivan.temporary | [Unknown](https://vuldb.com/?actor.unknown) | High
+65 | [45.142.212.192](https://vuldb.com/?ip.45.142.212.192) | blackswan95.example1.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+66 | [45.142.212.209](https://vuldb.com/?ip.45.142.212.209) | augenweide.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+67 | [45.142.213.59](https://vuldb.com/?ip.45.142.213.59) | vm423520.stark-industries.solutions | [Unknown](https://vuldb.com/?actor.unknown) | High
+68 | [45.143.138.47](https://vuldb.com/?ip.45.143.138.47) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+69 | [45.148.120.13](https://vuldb.com/?ip.45.148.120.13) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+70 | [45.148.120.153](https://vuldb.com/?ip.45.148.120.153) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+71 | [45.153.40.105](https://vuldb.com/?ip.45.153.40.105) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+72 | [45.153.184.67](https://vuldb.com/?ip.45.153.184.67) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+73 | [45.161.242.102](https://vuldb.com/?ip.45.161.242.102) | 45-161-242-102.megalink.com.br | [Unknown](https://vuldb.com/?actor.unknown) | High
+74 | [46.4.157.37](https://vuldb.com/?ip.46.4.157.37) | static.37.157.4.46.clients.your-server.de | [Unknown](https://vuldb.com/?actor.unknown) | High
+75 | [46.17.6.116](https://vuldb.com/?ip.46.17.6.116) | 116-6-17-46.static.fxw.nl | [Unknown](https://vuldb.com/?actor.unknown) | High
+76 | [46.17.107.65](https://vuldb.com/?ip.46.17.107.65) | ulasiuk21.example.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+77 | [46.19.143.155](https://vuldb.com/?ip.46.19.143.155) | growthinside.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+78 | [46.20.1.226](https://vuldb.com/?ip.46.20.1.226) | ns1.ceyhunsezer.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+79 | [46.28.111.142](https://vuldb.com/?ip.46.28.111.142) | enkindu.jsuchy.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+80 | [46.101.202.66](https://vuldb.com/?ip.46.101.202.66) | grafana.jagu.dev | [Transparent Tribe](https://vuldb.com/?actor.transparent_tribe) | High
+81 | [46.105.131.87](https://vuldb.com/?ip.46.105.131.87) | pop.adven.fr | [Unknown](https://vuldb.com/?actor.unknown) | High
+82 | [46.166.187.223](https://vuldb.com/?ip.46.166.187.223) | . | [Unknown](https://vuldb.com/?actor.unknown) | High
+83 | [46.214.11.172](https://vuldb.com/?ip.46.214.11.172) | 46-214-11-172.next-gen.ro | [Unknown](https://vuldb.com/?actor.unknown) | High
+84 | [47.150.248.161](https://vuldb.com/?ip.47.150.248.161) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+85 | [50.28.51.143](https://vuldb.com/?ip.50.28.51.143) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+86 | [50.87.253.50](https://vuldb.com/?ip.50.87.253.50) | box2161.bluehost.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+87 | [50.116.78.109](https://vuldb.com/?ip.50.116.78.109) | intersearchmedia.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+88 | [51.38.93.190](https://vuldb.com/?ip.51.38.93.190) | ip190.ip-51-38-93.eu | [Unknown](https://vuldb.com/?actor.unknown) | High
+89 | [51.79.129.4](https://vuldb.com/?ip.51.79.129.4) | ip4.ip-51-79-129.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+90 | [51.89.73.158](https://vuldb.com/?ip.51.89.73.158) | ip158.ip-51-89-73.eu | [Unknown](https://vuldb.com/?actor.unknown) | High
+91 | [51.159.23.217](https://vuldb.com/?ip.51.159.23.217) | jambold.co.uk | [Unknown](https://vuldb.com/?actor.unknown) | High
+92 | [51.254.164.244](https://vuldb.com/?ip.51.254.164.244) | y9gs.gaurented.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+93 | [51.254.164.245](https://vuldb.com/?ip.51.254.164.245) | ip245.ip-51-254-164.eu | [Unknown](https://vuldb.com/?actor.unknown) | High
+94 | [54.39.139.67](https://vuldb.com/?ip.54.39.139.67) | ip67.ip-54-39-139.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+95 | [58.171.38.26](https://vuldb.com/?ip.58.171.38.26) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+96 | [58.177.172.160](https://vuldb.com/?ip.58.177.172.160) | 058177172160.ctinets.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+97 | [59.20.65.102](https://vuldb.com/?ip.59.20.65.102) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+98 | [59.120.5.154](https://vuldb.com/?ip.59.120.5.154) | 59-120-5-154.hinet-ip.hinet.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+99 | [60.130.173.117](https://vuldb.com/?ip.60.130.173.117) | softbank060130173117.bbtec.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+100 | [60.250.78.22](https://vuldb.com/?ip.60.250.78.22) | 60-250-78-22.hinet-ip.hinet.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+101 | [61.92.159.208](https://vuldb.com/?ip.61.92.159.208) | 061092159208.ctinets.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+102 | [63.142.252.21](https://vuldb.com/?ip.63.142.252.21) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+103 | [63.250.38.195](https://vuldb.com/?ip.63.250.38.195) | business61-5.web-hosting.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+104 | [63.250.38.240](https://vuldb.com/?ip.63.250.38.240) | anakmas.org | [Unknown](https://vuldb.com/?actor.unknown) | High
+105 | [63.250.47.83](https://vuldb.com/?ip.63.250.47.83) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+106 | [64.44.51.113](https://vuldb.com/?ip.64.44.51.113) | srv44.pahlmeyer.life | [Unknown](https://vuldb.com/?actor.unknown) | High
+107 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+108 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 426 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,8 +151,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,16 +164,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/pages/systemcall.php?command={COMMAND}` | High
-2 | File | `/phppath/php` | Medium
-3 | File | `/uncpath/` | Medium
-4 | File | `/WEB-INF/web.xml` | High
-5 | File | `abook_database.php` | High
-6 | File | `adclick.php` | Medium
-7 | File | `admin/conf_users_edit.php` | High
-8 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/admin/index.php?slides` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/config/getuser` | High
+5 | File | `/domains/list` | High
+6 | File | `/form/index.php?module=getjson` | High
+7 | File | `/ghost/preview` | High
+8 | File | `/include/chart_generator.php` | High
+9 | File | `/nova/bin/detnet` | High
+10 | File | `/ptms/classes/Users.php` | High
+11 | File | `/public/admin.php` | High
+12 | File | `/public/login.htm` | High
+13 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+14 | File | `/rest/api/latest/user/avatar/temporary` | High
+15 | File | `/s/` | Low
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/scripts/unlock_tasks.php` | High
+18 | File | `/tmp/app/.env` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/user-utils/users/md5.json` | High
+21 | File | `/userfs/bin/tcapi` | High
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `500page.jsp` | Medium
+26 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `afr.php` | Low
+30 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -73,6 +203,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Russia/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
 * https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
+* https://loreto.ccn-cert.cni.es/index.php/s/oDcNr5Jqqpd5cjn#editor
 * https://research.checkpoint.com/2020/vicious-panda-the-covid-campaign/
 * https://us-cert.cisa.gov/ncas/alerts/aa20-225a
 

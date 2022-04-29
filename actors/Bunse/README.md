@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with Bunse:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bunse:
 
+* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 

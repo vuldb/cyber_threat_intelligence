@@ -71,9 +71,10 @@ ID | IP address | Hostname | Campaign | Confidence
 42 | [37.1.206.16](https://vuldb.com/?ip.37.1.206.16) | free.ispiria.net | - | High
 43 | [37.19.193.217](https://vuldb.com/?ip.37.19.193.217) | unn-37-19-193-217.cdn77.com | - | High
 44 | [37.120.138.222](https://vuldb.com/?ip.37.120.138.222) | - | - | High
-45 | ... | ... | ... | ...
+45 | [37.123.118.150](https://vuldb.com/?ip.37.123.118.150) | - | - | High
+46 | ... | ... | ... | ...
 
-There are 178 more IOC items available. Please use our online service to access the data.
+There are 179 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,29 +106,29 @@ ID | Type | Indicator | Confidence
 9 | File | `/inc/parser/xhtml.php` | High
 10 | File | `/index.php?page=signup` | High
 11 | File | `/login` | Low
-12 | File | `/mgmt/shared/authz/users/` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/one_church/userregister.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/public/plugins/` | High
-17 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-18 | File | `/SASWebReportStudio/logonAndRender.do` | High
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-21 | File | `/system/proxy` | High
-22 | File | `/tmp/phpglibccheck` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add.php` | Low
-25 | File | `addentry.php` | Medium
-26 | File | `addressbookprovider.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin/pageUploadCSV.php` | High
-29 | File | `ajax_udf.php` | Medium
-30 | File | `AppCompatCache.exe` | High
-31 | File | `application.js.php` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/one_church/userregister.php` | High
+14 | File | `/out.php` | Medium
+15 | File | `/public/plugins/` | High
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/SASWebReportStudio/logonAndRender.do` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/system/proxy` | High
+21 | File | `/tmp/phpglibccheck` | High
+22 | File | `adclick.php` | Medium
+23 | File | `add.php` | Low
+24 | File | `addentry.php` | Medium
+25 | File | `addressbookprovider.php` | High
+26 | File | `admin.jcomments.php` | High
+27 | File | `admin/pageUploadCSV.php` | High
+28 | File | `ajax_udf.php` | Medium
+29 | File | `AppCompatCache.exe` | High
+30 | File | `application.js.php` | High
+31 | File | `arm/lithium-codegen-arm.cc` | High
 32 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -160,6 +161,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
 * https://isc.sans.edu/forums/diary/Malspam+using+passwordprotected+Word+docs+to+push+Remcos+RAT/25292/
+* https://twitter.com/Paladin3161/status/1197842954037018625
 
 ## Literature
 

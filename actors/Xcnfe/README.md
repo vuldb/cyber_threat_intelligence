@@ -13,14 +13,17 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [8.249.221.254](https://vuldb.com/?ip.8.249.221.254) | - | - | High
 2 | [8.249.225.254](https://vuldb.com/?ip.8.249.225.254) | - | - | High
 3 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
-4 | ... | ... | ... | ...
+4 | [104.20.208.21](https://vuldb.com/?ip.104.20.208.21) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/07/threat-roundup-for-0705-0712.html
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0816-0823.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0430-0507.html
 
 ## Literature

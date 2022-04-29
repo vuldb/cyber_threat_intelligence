@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [RU](https://vuldb.com/?country.ru)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,40 +59,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/goods/update` | High
-2 | File | `/agenttrayicon` | High
-3 | File | `/blog/blog.php` | High
-4 | File | `/cmd?cmd=connect` | High
-5 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-6 | File | `/goform/login_process` | High
-7 | File | `/include/make.php` | High
-8 | File | `/login` | Low
-9 | File | `/manager/files` | High
-10 | File | `/nova/bin/detnet` | High
-11 | File | `/nova/bin/igmp-proxy` | High
-12 | File | `/ofcms/company-c-47` | High
-13 | File | `/php/ajax.php` | High
-14 | File | `/preauth` | Medium
-15 | File | `/sql/sql_string.h` | High
-16 | File | `/src/njs_vmcode.c` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/demisto/` | High
-19 | File | `/webminlog/view.cgi` | High
-20 | File | `/_error` | Low
-21 | File | `a2billing/customer/iridium_threed.php` | High
-22 | File | `actions/beats_uploader.php` | High
-23 | File | `actions/vote_channel.php` | High
-24 | File | `ActiveServices.java` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/moduleinterface.php` | High
-27 | File | `admin/profile/save` | High
-28 | File | `admin/tools/utf8conversion/index.php` | High
-29 | File | `ad_manage.php` | High
-30 | File | `asm/preproc.c` | High
-31 | File | `Atom.CMS_admin_ajax_list-sort.php` | High
-32 | ... | ... | ...
+1 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+2 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+3 | File | `/admin.php?r=admin/AdminBackup/del` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/inbox.php&action=delete` | High
+6 | File | `/admin/inbox.php&action=read` | High
+7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+8 | File | `/admin/pagerole.php&action=edit` | High
+9 | File | `/admin/posts.php` | High
+10 | File | `/admin/posts.php&action=delete` | High
+11 | File | `/admin/posts.php&action=edit` | High
+12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+13 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+15 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+16 | File | `/admin/uesrs.php&action=display&value=Show` | High
+17 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+18 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+19 | File | `/administrator/alerts/alertLightbox.php` | High
+20 | File | `/agenttrayicon` | High
+21 | File | `/api/students/me/messages/` | High
+22 | File | `/apps/acs-commons/content/page-compare.html` | High
+23 | File | `/blog/blog.php` | High
+24 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+25 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+26 | File | `/cmd?cmd=connect` | High
+27 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+28 | File | `/hocms/classes/Master.php?f=delete_member` | High
+29 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+30 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+31 | File | `/login` | Low
+32 | File | `/manager/files` | High
+33 | File | `/module/api.php?mobile/wapNasIPS` | High
+34 | File | `/module/api.php?mobile/webNasIPS` | High
+35 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

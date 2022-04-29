@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.icedid](https://vuldb.com/?actor.icedid)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with IcedID:
+
+* Cobalt Strike
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with IcedID:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,25 +27,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.149.252.179](https://vuldb.com/?ip.5.149.252.179) | hnh7.arenal.xyz | - | High
-2 | [31.24.224.12](https://vuldb.com/?ip.31.24.224.12) | 1f18e00c.setaptr.net | - | High
-3 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | - | High
-4 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | - | High
-5 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | - | High
-6 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | - | High
-7 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | - | High
-8 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | - | High
-9 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | - | High
-10 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | - | High
-11 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | - | High
-12 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | - | High
-13 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | - | High
-14 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
-15 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
-16 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
-17 | ... | ... | ... | ...
+1 | [5.61.46.161](https://vuldb.com/?ip.5.61.46.161) | - | - | High
+2 | [5.149.252.179](https://vuldb.com/?ip.5.149.252.179) | hnh7.arenal.xyz | - | High
+3 | [31.24.224.12](https://vuldb.com/?ip.31.24.224.12) | 1f18e00c.setaptr.net | - | High
+4 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | - | High
+5 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | - | High
+6 | [37.120.222.100](https://vuldb.com/?ip.37.120.222.100) | - | - | High
+7 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | - | High
+8 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | - | High
+9 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | - | High
+10 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | - | High
+11 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | - | High
+12 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | - | High
+13 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | - | High
+14 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | - | High
+15 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | - | High
+16 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
+17 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
+18 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
+19 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,52 +74,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/anony/mjpg.cgi` | High
 5 | File | `/bin/sh` | Low
 6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/EXCU_SHELL` | Medium
-9 | File | `/export` | Low
-10 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-11 | File | `/goform/addressNat` | High
-12 | File | `/iisadmpwd` | Medium
-13 | File | `/include/menu_v.inc.php` | High
-14 | File | `/lms/admin.php` | High
-15 | File | `/mc` | Low
-16 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-17 | File | `/opt/novell/ncl/bin/nwrights` | High
-18 | File | `/out.php` | Medium
-19 | File | `/proc/*/cmdline"` | High
-20 | File | `/proc/pid/syscall` | High
-21 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/var/log/pcp/configs.sh` | High
-24 | File | `/webconsole/APIController` | High
-25 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-26 | File | `a-b-membres.php` | High
-27 | File | `action.php` | Medium
-28 | File | `admin-search.php` | High
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin/adminsignin.html` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/plugin.php` | High
-33 | File | `admin/test.php` | High
-34 | File | `admin/versions.html` | High
-35 | File | `administrator/index.php?option=com_pago&view=comments` | High
-36 | File | `Adminlog.asp` | Medium
-37 | File | `admin_iplog.php` | High
-38 | File | `ajax.php` | Medium
-39 | File | `ajax_admin_apis.php` | High
-40 | File | `ajax_php_pecl.php` | High
-41 | File | `antserver.exe` | High
-42 | File | `api.cc` | Low
-43 | File | `api/ApiQueryCheckUser.php` | High
-44 | File | `app/helpers/application_helper.rb` | High
-45 | File | `app\conference_controls\conference_control_details.php` | High
-46 | File | `apt/package.py` | High
-47 | File | `arch/x86/include/asm/uaccess.h` | High
-48 | File | `architext.conf` | High
-49 | File | `archive/savedqueries/savequeryfinish.html` | High
-50 | ... | ... | ...
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/etc/shadow` | Medium
+9 | File | `/EXCU_SHELL` | Medium
+10 | File | `/export` | Low
+11 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
+12 | File | `/goform/addressNat` | High
+13 | File | `/iisadmpwd` | Medium
+14 | File | `/include/menu_v.inc.php` | High
+15 | File | `/lms/admin.php` | High
+16 | File | `/mc` | Low
+17 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+18 | File | `/opt/novell/ncl/bin/nwrights` | High
+19 | File | `/out.php` | Medium
+20 | File | `/proc/*/cmdline"` | High
+21 | File | `/proc/pid/syscall` | High
+22 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+23 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/var/log/pcp/configs.sh` | High
+26 | File | `/webconsole/APIController` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+29 | File | `a-b-membres.php` | High
+30 | File | `action.php` | Medium
+31 | File | `admin-search.php` | High
+32 | File | `admin.jcomments.php` | High
+33 | File | `admin/adminsignin.html` | High
+34 | File | `admin/index.php` | High
+35 | File | `admin/infoclass_update.php` | High
+36 | File | `admin/plugin.php` | High
+37 | File | `admin/test.php` | High
+38 | File | `admin/versions.html` | High
+39 | File | `administrator/index.php?option=com_pago&view=comments` | High
+40 | File | `Adminlog.asp` | Medium
+41 | File | `admin_iplog.php` | High
+42 | File | `ajax.php` | Medium
+43 | File | `ajax_admin_apis.php` | High
+44 | File | `ajax_php_pecl.php` | High
+45 | File | `allocate_block.cpp` | High
+46 | File | `api.cc` | Low
+47 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,6 +132,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/Microsoft+Word+document+with+malicious+macro+pushes+IcedID+Bokbot/26146/
 * https://isc.sans.edu/forums/diary/One+Emotet+infection+leads+to+three+followup+malware+infections/24140/
 * https://research.checkpoint.com/2021/melting-ice-tracking-icedid-servers-with-a-few-simple-steps/
+* https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/
+* https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/
 
 ## Literature
 

@@ -20,8 +20,8 @@ There are 7 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [FR](https://vuldb.com/?country.fr)
 * [IN](https://vuldb.com/?country.in)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -225,12 +225,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -243,22 +243,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
 4 | File | `/admin/inbox.php&action=delete` | High
 5 | File | `/admin/inbox.php&action=read` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/pagerole.php&action=display&value=1` | High
-8 | File | `/admin/pagerole.php&action=edit` | High
-9 | File | `/admin/posts.php` | High
-10 | File | `/admin/posts.php&action=delete` | High
-11 | File | `/admin/posts.php&action=edit` | High
+6 | File | `/admin/pagerole.php&action=display&value=1` | High
+7 | File | `/admin/pagerole.php&action=edit` | High
+8 | File | `/admin/posts.php` | High
+9 | File | `/admin/posts.php&action=delete` | High
+10 | File | `/admin/posts.php&action=edit` | High
+11 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
 12 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-13 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-14 | File | `/admin/uesrs.php&action=display&value=Show` | High
-15 | File | `/apps/acs-commons/content/page-compare.html` | High
-16 | File | `/blog/blog.php` | High
-17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-18 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-19 | ... | ... | ...
+13 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

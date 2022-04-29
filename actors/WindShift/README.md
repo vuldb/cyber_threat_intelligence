@@ -15,8 +15,11 @@ The following _campaigns_ are known and can be associated with WindShift:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with WindShift:
 
 * [US](https://vuldb.com/?country.us)
-* [TR](https://vuldb.com/?country.tr)
 * [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,6 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 
 ## IOA - Indicator of Attack
 
@@ -42,11 +46,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/uncpath/` | Medium
-3 | File | `base/ErrorHandler.php` | High
+2 | File | `/cgi-bin/wapopen` | High
+3 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

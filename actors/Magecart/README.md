@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
-* [CN](https://vuldb.com/?country.cn)
 * [PL](https://vuldb.com/?country.pl)
 * [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -54,33 +54,34 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/delete_image.php` | High
 3 | File | `/admin/login.php` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/aqpg/users/login.php` | High
-6 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/data-service/users/` | High
-9 | File | `/etc/config/rpcd` | High
-10 | File | `/Hospital-Management-System-master/func.php` | High
-11 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-12 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-13 | File | `/js/app.js` | Medium
-14 | File | `/ManageRoute/postRoute` | High
-15 | File | `/message-bus/_diagnostics` | High
-16 | File | `/ms/cms/content/list.do` | High
-17 | File | `/one_church/churchprofile.php` | High
-18 | File | `/php/ajax.php` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/public_html/apply_vacancy` | High
-21 | File | `/rest-service-fecru/server-v1` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/EditSubscription.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/swhkd.sock` | High
-27 | File | `/uncpath/` | Medium
-28 | ... | ... | ...
+4 | File | `/admin/users.php?source=edit_user&id=1` | High
+5 | File | `/admin/weixin.php` | High
+6 | File | `/administrator/components/table_manager/` | High
+7 | File | `/apps/acs-commons/content/page-compare.html` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/data-service/users/` | High
+12 | File | `/etc/config/rpcd` | High
+13 | File | `/Hospital-Management-System-master/func.php` | High
+14 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+15 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
+16 | File | `/js/app.js` | Medium
+17 | File | `/ManageRoute/postRoute` | High
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/one_church/churchprofile.php` | High
+20 | File | `/php/ajax.php` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/public_html/apply_vacancy` | High
+23 | File | `/purchase_order/admin/?page=user` | High
+24 | File | `/rest-service-fecru/server-v1` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/student-grading-system/rms.php?page=school_year` | High
+27 | File | `/tmp` | Low
+28 | File | `/tmp/swhkd.sock` | High
+29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

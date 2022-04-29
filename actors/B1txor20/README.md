@@ -46,11 +46,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,41 +58,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/agenttrayicon` | High
-2 | File | `/aqpg/users/login.php` | High
-3 | File | `/blog/blog.php` | High
-4 | File | `/category.php` | High
-5 | File | `/cmd?cmd=connect` | High
-6 | File | `/cwms/admin/?page=articles/view_article/` | High
-7 | File | `/cwms/classes/Master.php?f=save_contact` | High
-8 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-9 | File | `/goform/login_process` | High
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/include/make.php` | High
-12 | File | `/login` | Low
-13 | File | `/manager/files` | High
-14 | File | `/mims/app/addcustomerHandler.php` | High
-15 | File | `/mims/login.php` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/nova/bin/igmp-proxy` | High
-18 | File | `/one_church/churchprofile.php` | High
-19 | File | `/one_church/userregister.php` | High
-20 | File | `/preauth` | Medium
-21 | File | `/scas/admin/` | Medium
-22 | File | `/sql/sql_string.h` | High
-23 | File | `/src/njs_vmcode.c` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/log/demisto/` | High
-26 | File | `/wbg/core/_includes/authorization.inc.php` | High
-27 | File | `/_error` | Low
-28 | File | `a2billing/customer/iridium_threed.php` | High
-29 | File | `actions/beats_uploader.php` | High
-30 | File | `actions/vote_channel.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/index.php?module=send_ssh` | High
-33 | ... | ... | ...
+1 | File | `/admin.php/Plugins/update.html` | High
+2 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+3 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+4 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+5 | File | `/admin.php?r=admin/AdminBackup/del` | High
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/inbox.php&action=delete` | High
+8 | File | `/admin/inbox.php&action=read` | High
+9 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+10 | File | `/admin/pagerole.php&action=edit` | High
+11 | File | `/admin/posts.php` | High
+12 | File | `/admin/posts.php&action=delete` | High
+13 | File | `/admin/posts.php&action=edit` | High
+14 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+15 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+16 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+17 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+18 | File | `/admin/uesrs.php&action=display&value=Show` | High
+19 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+20 | File | `/administrator/alerts/alertLightbox.php` | High
+21 | File | `/agenttrayicon` | High
+22 | File | `/api/students/me/messages/` | High
+23 | File | `/apps/acs-commons/content/page-compare.html` | High
+24 | File | `/aqpg/users/login.php` | High
+25 | File | `/blog/blog.php` | High
+26 | File | `/category.php` | High
+27 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+28 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+29 | File | `/cgi-bin/main.cgi` | High
+30 | File | `/cmd?cmd=connect` | High
+31 | File | `/customer_register.php` | High
+32 | File | `/cwms/admin/?page=articles/view_article/` | High
+33 | File | `/cwms/classes/Master.php?f=save_contact` | High
+34 | File | `/demo/module/?module=HERE` | High
+35 | File | `/goform/WifiExtraSet` | High
+36 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+37 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

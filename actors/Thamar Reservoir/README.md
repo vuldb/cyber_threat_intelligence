@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Thamar Reservoir:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 * [PL](https://vuldb.com/?country.pl)
 
@@ -28,6 +29,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -101,7 +101,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,44 +111,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/admin/ulog/index.html` | High
 2 | File | `/admin.php/admin/website/data.html` | High
-3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-4 | File | `/admin/config` | High
-5 | File | `/admin/inbox.php&action=delete` | High
-6 | File | `/admin/pagerole.php&action=display&value=1` | High
-7 | File | `/admin/posts.php&action=delete` | High
-8 | File | `/admin/show.php` | High
-9 | File | `/agenttrayicon` | High
-10 | File | `/api/crontab` | Medium
-11 | File | `/app/controller/Books.php` | High
-12 | File | `/app/elkarbackup/src/Binovo/ElkarBackupBundle/Controller/DefaultController.php` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-15 | File | `/cgi-bin/uploadWeiXinPic` | High
-16 | File | `/cwms/admin/?page=articles/view_article/` | High
-17 | File | `/data/sqldata` | High
-18 | File | `/etc/ajenti/config.yml` | High
-19 | File | `/etc/master.passwd` | High
-20 | File | `/etc/zarafa/license` | High
-21 | File | `/export` | Low
-22 | File | `/goform/form2Reboot.cgi` | High
-23 | File | `/goform/login_process` | High
-24 | File | `/goform/setAdInfoDetail` | High
-25 | File | `/goform/setFixTools` | High
-26 | File | `/goform/SetInternetLanInfo` | High
-27 | File | `/goform/setPicListItem` | High
-28 | File | `/include/chart_generator.php` | High
-29 | File | `/include/up.php` | High
-30 | File | `/jpg/image.jpg` | High
-31 | File | `/lan.asp` | Medium
-32 | File | `/mims/app/addcustomerHandler.php` | High
-33 | File | `/modules/eligibility/Student.php` | High
-34 | File | `/one_church/churchprofile.php` | High
-35 | File | `/preauth` | Medium
-36 | File | `/ptms/?page=user` | High
-37 | File | `/ptms/classes/Users.php` | High
+3 | File | `/admin.php/Plugins/update.html` | High
+4 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+5 | File | `/admin/config` | High
+6 | File | `/admin/inbox.php&action=delete` | High
+7 | File | `/admin/pagerole.php&action=display&value=1` | High
+8 | File | `/admin/posts.php` | High
+9 | File | `/admin/posts.php&action=delete` | High
+10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+11 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+12 | File | `/administrator/alerts/alertLightbox.php` | High
+13 | File | `/agenttrayicon` | High
+14 | File | `/api/crontab` | Medium
+15 | File | `/api/students/me/messages/` | High
+16 | File | `/app/controller/Books.php` | High
+17 | File | `/app/elkarbackup/src/Binovo/ElkarBackupBundle/Controller/DefaultController.php` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/apps/acs-commons/content/page-compare.html` | High
+20 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+21 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+22 | File | `/customer_register.php` | High
+23 | File | `/cwms/admin/?page=articles/view_article/` | High
+24 | File | `/etc/ajenti/config.yml` | High
+25 | File | `/etc/master.passwd` | High
+26 | File | `/etc/zarafa/license` | High
+27 | File | `/export` | Low
+28 | File | `/goform/login_process` | High
+29 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+30 | File | `/hocms/classes/Master.php?f=delete_member` | High
+31 | File | `/include/chart_generator.php` | High
+32 | File | `/include/up.php` | High
+33 | File | `/jpg/image.jpg` | High
+34 | File | `/lan.asp` | Medium
+35 | File | `/mims/app/addcustomerHandler.php` | High
+36 | File | `/modules/eligibility/Student.php` | High
+37 | File | `/one_church/churchprofile.php` | High
 38 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

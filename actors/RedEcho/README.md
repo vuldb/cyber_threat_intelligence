@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.redecho](https://vuldb.com/?actor.redecho)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with RedEcho:
+
+* India Power Grid
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedEcho:
@@ -21,13 +27,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [27.255.92.83](https://vuldb.com/?ip.27.255.92.83) | - | - | High
-2 | [27.255.94.21](https://vuldb.com/?ip.27.255.94.21) | - | - | High
-3 | [27.255.94.29](https://vuldb.com/?ip.27.255.94.29) | - | - | High
-4 | [101.78.177.227](https://vuldb.com/?ip.101.78.177.227) | - | - | High
-5 | ... | ... | ... | ...
+1 | [14.43.108.22](https://vuldb.com/?ip.14.43.108.22) | - | India Power Grid | High
+2 | [27.255.92.83](https://vuldb.com/?ip.27.255.92.83) | - | - | High
+3 | [27.255.94.21](https://vuldb.com/?ip.27.255.94.21) | - | - | High
+4 | [27.255.94.29](https://vuldb.com/?ip.27.255.94.29) | - | - | High
+5 | [59.10.140.47](https://vuldb.com/?ip.59.10.140.47) | - | India Power Grid | High
+6 | [59.127.10.132](https://vuldb.com/?ip.59.127.10.132) | 59-127-10-132.hinet-ip.hinet.net | India Power Grid | High
+7 | [61.74.255.16](https://vuldb.com/?ip.61.74.255.16) | - | India Power Grid | High
+8 | [101.78.177.227](https://vuldb.com/?ip.101.78.177.227) | - | - | High
+9 | [101.78.177.242](https://vuldb.com/?ip.101.78.177.242) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,25 +82,26 @@ ID | Type | Indicator | Confidence
 21 | File | `/image_zoom.php` | High
 22 | File | `/include/config.cache.php` | High
 23 | File | `/json/profile/removeStarAjax.do` | High
-24 | File | `/oauth/token/request` | High
-25 | File | `/plugin/ajax.php` | High
-26 | File | `/plugins/servlet/branchreview` | High
-27 | File | `/preauth` | Medium
-28 | File | `/proc/ioports` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/rest/api/2/search` | High
-31 | File | `/rest/api/latest/groupuserpicker` | High
-32 | File | `/rest/api/latest/projectvalidate/key` | High
-33 | File | `/rom-0` | Low
-34 | File | `/tmp` | Low
+24 | File | `/plugin/ajax.php` | High
+25 | File | `/plugins/servlet/branchreview` | High
+26 | File | `/preauth` | Medium
+27 | File | `/proc/ioports` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/rest/api/2/search` | High
+30 | File | `/rest/api/latest/groupuserpicker` | High
+31 | File | `/rest/api/latest/projectvalidate/key` | High
+32 | File | `/rom-0` | Low
+33 | File | `/tmp` | Low
+34 | File | `/tmp/connlicj.bin` | High
 35 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://go.recordedfuture.com/hubfs/reports/ta-2022-0406.pdf
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.02.28/RedEcho%20APT.pdf
 
 ## Literature

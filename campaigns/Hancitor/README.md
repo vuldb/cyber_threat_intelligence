@@ -115,7 +115,7 @@ ID | Type | Indicator | Confidence
 37 | File | `admin/conf_users_edit.php` | High
 38 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

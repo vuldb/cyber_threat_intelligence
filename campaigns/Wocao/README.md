@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,44 +55,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htaccess` | Medium
-2 | File | `/admin.php/admin/art/data.html` | High
-3 | File | `/admin.php/admin/ulog/index.html` | High
-4 | File | `/admin.php/admin/vod/data.html` | High
-5 | File | `/admin/goods/update` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/templates/template_manage.php` | High
-8 | File | `/api/eventinstance` | High
-9 | File | `/api /v3/auth` | High
-10 | File | `/blog/blog.php` | High
-11 | File | `/cgi-bin/uploadAccessCodePic` | High
-12 | File | `/cloud_config/router_post/check_reset_pwd_verify_code` | High
-13 | File | `/cloud_config/router_post/upgrade_info` | High
-14 | File | `/cwms/admin/?page=articles/view_article/` | High
-15 | File | `/cwms/classes/Master.php?f=save_contact` | High
-16 | File | `/data/sqldata` | High
-17 | File | `/DataPackageTable` | High
-18 | File | `/download/` | Medium
-19 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-20 | File | `/etc/zarafa/license` | High
-21 | File | `/factor/avx-ecm/vecarith52.c` | High
-22 | File | `/goform/delAd` | High
-23 | File | `/goform/form2Reboot.cgi` | High
-24 | File | `/goform/login_process` | High
-25 | File | `/goform/SetLanInfo` | High
-26 | File | `/i/:data/ipa.plist` | High
-27 | File | `/include/make.php` | High
-28 | File | `/jpg/image.jpg` | High
-29 | File | `/login` | Low
-30 | File | `/nova/bin/traceroute` | High
-31 | File | `/one_church/churchprofile.php` | High
-32 | File | `/one_church/userregister.php` | High
-33 | File | `/php/ajax.php` | High
-34 | File | `/plesk-site-preview/` | High
-35 | File | `/public/admin/index.php?add_product` | High
-36 | ... | ... | ...
+1 | File | `/admin.php/admin/art/data.html` | High
+2 | File | `/admin.php/admin/vod/data.html` | High
+3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+4 | File | `/admin.php?r=admin/AdminBackup/del` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/goods/update` | High
+7 | File | `/admin/inbox.php&action=delete` | High
+8 | File | `/admin/inbox.php&action=read` | High
+9 | File | `/admin/pagerole.php&action=edit` | High
+10 | File | `/admin/posts.php` | High
+11 | File | `/admin/posts.php&action=delete` | High
+12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+13 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+15 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+16 | File | `/admin/uesrs.php&action=display&value=Show` | High
+17 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+18 | File | `/administrator/alerts/alertLightbox.php` | High
+19 | File | `/api/eventinstance` | High
+20 | File | `/api /v3/auth` | High
+21 | File | `/appliance/users?action=edit` | High
+22 | File | `/apps/acs-commons/content/page-compare.html` | High
+23 | File | `/blog/blog.php` | High
+24 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+25 | File | `/cmd?cmd=connect` | High
+26 | File | `/cwms/admin/?page=articles/view_article/` | High
+27 | File | `/cwms/classes/Master.php?f=save_contact` | High
+28 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+29 | File | `/etc/zarafa/license` | High
+30 | File | `/goform/login_process` | High
+31 | File | `/hocms/classes/Master.php?f=delete_member` | High
+32 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+33 | File | `/include/make.php` | High
+34 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+35 | File | `/jpg/image.jpg` | High
+36 | File | `/login` | Low
+37 | File | `/manager/files` | High
+38 | File | `/module/api.php?mobile/wapNasIPS` | High
+39 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

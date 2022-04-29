@@ -71,24 +71,25 @@ ID | Type | Indicator | Confidence
 9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 10 | File | `/export` | Low
 11 | File | `/forum/away.php` | High
-12 | File | `/horde/util/go.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/ms/cms/content/list.do` | High
-16 | File | `/orms/` | Low
-17 | File | `/public/login.htm` | High
-18 | File | `/show_news.php` | High
-19 | File | `/style/` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `ABuffer.cpp` | Medium
-22 | File | `account.asp` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `admin.php` | Medium
-25 | File | `admin/changedata.php` | High
-26 | File | `admin/dashboard.php` | High
-27 | ... | ... | ...
+12 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+13 | File | `/horde/util/go.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/ms/cms/content/list.do` | High
+17 | File | `/orms/` | Low
+18 | File | `/plesk-site-preview/` | High
+19 | File | `/public/login.htm` | High
+20 | File | `/show_news.php` | High
+21 | File | `/student-grading-system/rms.php?page=grade` | High
+22 | File | `/style/` | Low
+23 | File | `/uncpath/` | Medium
+24 | File | `ABuffer.cpp` | Medium
+25 | File | `account.asp` | Medium
+26 | File | `adclick.php` | Medium
+27 | File | `admin.php` | Medium
+28 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

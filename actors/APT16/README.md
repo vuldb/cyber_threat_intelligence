@@ -35,11 +35,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/download` | Medium
-2 | File | `comment_add.asp` | High
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `/oscommerce/admin/currencies.php` | High
+3 | File | `comment_add.asp` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

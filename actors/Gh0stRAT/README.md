@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,39 +91,49 @@ ID | Type | Indicator | Confidence
 4 | File | `//` | Low
 5 | File | `/admin.php?action=themeinstall` | High
 6 | File | `/admin/?setting-base.htm` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/apply_noauth.cgi` | High
-9 | File | `/audit/log/log_management.php` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/bin/sh` | Low
-12 | File | `/cgi-bin/login` | High
-13 | File | `/classes/profile.class.php` | High
-14 | File | `/CMD_ACCOUNT_ADMIN` | High
-15 | File | `/core/admin/categories.php` | High
-16 | File | `/dev/tty` | Medium
+7 | File | `/admin/admin_login.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/audit/log/log_management.php` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/bin/sh` | Low
+13 | File | `/cgi-bin/login` | High
+14 | File | `/classes/profile.class.php` | High
+15 | File | `/dev/tty` | Medium
+16 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
 17 | File | `/downloads/` | Medium
-18 | File | `/index.php` | Medium
-19 | File | `/member/index/login.html` | High
-20 | File | `/modules/certinfo/index.php` | High
-21 | File | `/MTFWU` | Low
-22 | File | `/ptms/classes/Users.php` | High
-23 | File | `/ScadaBR/login.htm` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/system/tool/ping.php` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/updown/upload.cgi` | High
-28 | File | `/upload` | Low
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/wp-json` | Medium
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `?location=search` | High
-33 | File | `account/login.php` | High
-34 | File | `add.php` | Low
-35 | File | `admin.php` | Medium
-36 | File | `admin.php?m=backup&c=backup&a=doback` | High
-37 | ... | ... | ...
+18 | File | `/etc/groups` | Medium
+19 | File | `/index.php` | Medium
+20 | File | `/login` | Low
+21 | File | `/login.html` | Medium
+22 | File | `/magnoliaPublic/travel/members/login.html` | High
+23 | File | `/member/index/login.html` | High
+24 | File | `/modules/certinfo/index.php` | High
+25 | File | `/MTFWU` | Low
+26 | File | `/ptms/classes/Users.php` | High
+27 | File | `/ScadaBR/login.htm` | High
+28 | File | `/system/tool/ping.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/bin/pkexec` | High
+31 | File | `/var/adm/btmp` | High
+32 | File | `/wp-json` | Medium
+33 | File | `?location=search` | High
+34 | File | `account/login.php` | High
+35 | File | `add.php` | Low
+36 | File | `admin.inc.php` | High
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?m=backup&c=backup&a=doback` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/login.asp` | High
+42 | File | `admin/login.php` | High
+43 | File | `admin/nos/login` | High
+44 | File | `admin\db\DoSql.php` | High
+45 | File | `agenda.php3` | Medium
+46 | File | `ajaxp.php` | Medium
+47 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

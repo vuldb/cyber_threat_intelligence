@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Afghanistan and India:
 
+* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 

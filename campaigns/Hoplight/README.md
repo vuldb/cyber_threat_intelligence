@@ -91,8 +91,7 @@ ID | Type | Indicator | Confidence
 31 | File | `/rest/api/latest/projectvalidate/key` | High
 32 | File | `/rom-0` | Low
 33 | File | `/tmp` | Low
-34 | File | `/tmp/connlicj.bin` | High
-35 | ... | ... | ...
+34 | ... | ... | ...
 
 There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -22,6 +22,7 @@ These _actors_ are associated with Rocket Kitten or other actors linked to the c
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+2 | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
 
 ## IOC - Indicator of Compromise
 
@@ -38,17 +39,18 @@ ID | IP address | Hostname | Actor | Confidence
 7 | [5.145.151.6](https://vuldb.com/?ip.5.145.151.6) | ip-5-145-151-6.hosts.businesscomnetworks.com | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
 8 | [5.145.151.7](https://vuldb.com/?ip.5.145.151.7) | ip-5-145-151-7.hosts.businesscomnetworks.com | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
 9 | [31.192.105.10](https://vuldb.com/?ip.31.192.105.10) | - | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-10 | [84.11.146.52](https://vuldb.com/?ip.84.11.146.52) | host-84-11-146-52.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-11 | [84.11.146.53](https://vuldb.com/?ip.84.11.146.53) | host-84-11-146-53.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-12 | [84.11.146.54](https://vuldb.com/?ip.84.11.146.54) | host-84-11-146-54.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-13 | [84.11.146.55](https://vuldb.com/?ip.84.11.146.55) | host-84-11-146-55.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-14 | [84.11.146.56](https://vuldb.com/?ip.84.11.146.56) | host-84-11-146-56.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-15 | [84.11.146.57](https://vuldb.com/?ip.84.11.146.57) | host-84-11-146-57.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-16 | [84.11.146.58](https://vuldb.com/?ip.84.11.146.58) | host-84-11-146-58.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-17 | [84.11.146.59](https://vuldb.com/?ip.84.11.146.59) | host-84-11-146-59.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
-18 | ... | ... | ... | ...
+10 | [83.170.33.37](https://vuldb.com/?ip.83.170.33.37) | host-83-170-33-37.customer.teleport-iabg.de | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
+11 | [83.170.33.60](https://vuldb.com/?ip.83.170.33.60) | host-83-170-33-60.customer.teleport-iabg.de | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
+12 | [83.170.33.80](https://vuldb.com/?ip.83.170.33.80) | host-83-170-33-80.customer.teleport-iabg.de | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
+13 | [83.170.43.67](https://vuldb.com/?ip.83.170.43.67) | host-83-170-43-67.customer.teleport-iabg.de | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
+14 | [84.11.75.220](https://vuldb.com/?ip.84.11.75.220) | host-84-11-75-220.customer.teleport-iabg.de | [Rocket Kitten](https://vuldb.com/?actor.rocket_kitten) | High
+15 | [84.11.146.52](https://vuldb.com/?ip.84.11.146.52) | host-84-11-146-52.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+16 | [84.11.146.53](https://vuldb.com/?ip.84.11.146.53) | host-84-11-146-53.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+17 | [84.11.146.54](https://vuldb.com/?ip.84.11.146.54) | host-84-11-146-54.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+18 | [84.11.146.55](https://vuldb.com/?ip.84.11.146.55) | host-84-11-146-55.customer.teleport-iabg.de | [Magic Hound](https://vuldb.com/?actor.magic_hound) | High
+19 | ... | ... | ... | ...
 
-There are 69 more IOC items available. Please use our online service to access the data.
+There are 73 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,10 +60,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,30 +77,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/loginc.php` | High
 5 | File | `/auditLogAction.do` | High
 6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/getcfg.php` | Medium
-10 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-11 | File | `/plugin` | Low
-12 | File | `/rating.php` | Medium
-13 | File | `/services/prefs.php` | High
-14 | File | `/src/njs_object.c` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/wordpress-gallery-transformation/gallery.php` | High
-17 | File | `adclick.php` | Medium
-18 | File | `add_to_cart.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/config/confmgr.php` | High
-21 | File | `admin/index.php` | High
-22 | ... | ... | ...
+7 | File | `/devices/acurite.c` | High
+8 | File | `/etc/ajenti/config.yml` | High
+9 | File | `/etc/sudoers` | Medium
+10 | File | `/example/editor` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+13 | File | `/goform/login_process` | High
+14 | File | `/goform/rlmswitchr_process` | High
+15 | File | `/goforms/rlminfo` | High
+16 | File | `/plugin` | Low
+17 | File | `/rating.php` | Medium
+18 | File | `/scas/admin/` | Medium
+19 | File | `/scas/classes/Users.php?f=save_user` | High
+20 | File | `/services/prefs.php` | High
+21 | File | `/src/njs_object.c` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/wordpress-gallery-transformation/gallery.php` | High
+24 | File | `adclick.php` | Medium
+25 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.checkpoint.com/wp-content/uploads/2015/11/rocket-kitten-report.pdf
+* https://isc.sans.edu/forums/diary/Rocket+Kitten+Is+it+still+APT+if+you+can+buy+it+off+the+shelf/19123/
 
 ## Literature
 

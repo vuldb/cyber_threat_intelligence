@@ -63,35 +63,35 @@ ID | Type | Indicator | Confidence
 7 | File | `/common/logViewer/logViewer.jsf` | High
 8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 9 | File | `/forum/away.php` | High
-10 | File | `/includes/rrdtool.inc.php` | High
-11 | File | `/mc-admin/post.php?state=delete&delete` | High
-12 | File | `/mifs/c/i/reg/reg.html` | High
-13 | File | `/ms/cms/content/list.do` | High
-14 | File | `/orms/` | Low
-15 | File | `/plesk-site-preview/` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-18 | File | `/www/ping_response.cgi` | High
-19 | File | `ABuffer.cpp` | Medium
-20 | File | `account.asp` | Medium
-21 | File | `addmember.php` | High
-22 | File | `addtocart.asp` | High
-23 | File | `addtomylist.asp` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin.x-shop.php` | High
-26 | File | `admin/auth.php` | High
-27 | File | `admin/changedata.php` | High
-28 | File | `admin/dashboard.php` | High
-29 | File | `admin/edit-news.php` | High
-30 | File | `admin/gallery.php` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/manage-departments.php` | High
-33 | File | `admin/sellerupd.php` | High
-34 | File | `admin/vqmods.app/vqmods.inc.php` | High
-35 | File | `admincp/auth/checklogin.php` | High
+10 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/mc-admin/post.php?state=delete&delete` | High
+13 | File | `/mifs/c/i/reg/reg.html` | High
+14 | File | `/ms/cms/content/list.do` | High
+15 | File | `/orms/` | Low
+16 | File | `/plesk-site-preview/` | High
+17 | File | `/student-grading-system/rms.php?page=grade` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+20 | File | `/www/ping_response.cgi` | High
+21 | File | `ABuffer.cpp` | Medium
+22 | File | `account.asp` | Medium
+23 | File | `addmember.php` | High
+24 | File | `addtocart.asp` | High
+25 | File | `addtomylist.asp` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin.x-shop.php` | High
+28 | File | `admin/auth.php` | High
+29 | File | `admin/changedata.php` | High
+30 | File | `admin/dashboard.php` | High
+31 | File | `admin/edit-news.php` | High
+32 | File | `admin/gallery.php` | High
+33 | File | `admin/index.php` | High
+34 | File | `admin/manage-departments.php` | High
+35 | File | `admin/sellerupd.php` | High
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

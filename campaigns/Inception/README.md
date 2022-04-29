@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,33 +59,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/inbox.php&action=read` | High
 3 | File | `/admin/news/news_mod.php` | High
 4 | File | `/admin/page_edit/3` | High
-5 | File | `/apps/acs-commons/content/page-compare.html` | High
-6 | File | `/blog/blog.php` | High
-7 | File | `/cgi-bin/uploadWeiXinPic` | High
-8 | File | `/domain/service/.ewell-known/caldav` | High
-9 | File | `/dvcset/sysset/set.cgi` | High
-10 | File | `/example/editor` | High
-11 | File | `/include/make.php` | High
-12 | File | `/jquery_file_upload/server/php/index.php` | High
-13 | File | `/mobile/SelectUsers.jsp` | High
-14 | File | `/php/ajax.php` | High
-15 | File | `/ProteinArraySignificanceTest.json` | High
-16 | File | `/ptms/classes/Users.php` | High
-17 | File | `/public/admin/index.php?add_product` | High
-18 | File | `/system/bin/osi_bin` | High
-19 | File | `/usr/local/bin/mjs` | High
-20 | File | `/wp-content/uploads/jobmonster/` | High
-21 | File | `/zbzedit/php/zbz.php` | High
-22 | File | `ActiveServices.java` | High
-23 | File | `admin/bad.php` | High
-24 | File | `admin/dl_sendmail.php` | High
-25 | File | `admin/htaccess/bpsunlock.php` | High
-26 | File | `admin/pages/useredit.php` | High
-27 | File | `AlertReceiver.java` | High
-28 | File | `alfresco/s/admin/admin-nodebrowser` | High
-29 | ... | ... | ...
+5 | File | `/administrator/alerts/alertLightbox.php` | High
+6 | File | `/apps/acs-commons/content/page-compare.html` | High
+7 | File | `/blog/blog.php` | High
+8 | File | `/cgi-bin/main.cgi` | High
+9 | File | `/cgi-bin/uploadWeiXinPic` | High
+10 | File | `/controller/Adv.php` | High
+11 | File | `/domain/service/.ewell-known/caldav` | High
+12 | File | `/dvcset/sysset/set.cgi` | High
+13 | File | `/example/editor` | High
+14 | File | `/include/make.php` | High
+15 | File | `/jquery_file_upload/server/php/index.php` | High
+16 | File | `/mobile/SelectUsers.jsp` | High
+17 | File | `/php/ajax.php` | High
+18 | File | `/ProteinArraySignificanceTest.json` | High
+19 | File | `/ptms/classes/Users.php` | High
+20 | File | `/public/admin/index.php?add_product` | High
+21 | File | `/role/saveOrUpdateRole.do` | High
+22 | File | `/system/bin/osi_bin` | High
+23 | File | `/usr/local/bin/mjs` | High
+24 | File | `/wp-content/uploads/jobmonster/` | High
+25 | File | `/zbzedit/php/zbz.php` | High
+26 | File | `ActiveServices.java` | High
+27 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

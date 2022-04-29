@@ -105,9 +105,10 @@ ID | Type | Indicator | Confidence
 37 | File | `app/call_centers/cmd.php` | High
 38 | File | `arch/x86/kvm/hyperv.c` | High
 39 | File | `auction.cgi` | Medium
-40 | ... | ... | ...
+40 | File | `autologin.jsp` | High
+41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

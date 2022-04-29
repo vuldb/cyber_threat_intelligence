@@ -81,13 +81,13 @@ ID | Type | Indicator | Confidence
 22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 23 | File | `AccountManagerService.java` | High
 24 | File | `actions/CompanyDetailsSave.php` | High
-25 | File | `ActiveServices.java` | High
-26 | File | `ActivityManagerService.java` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/add-glossary.php` | High
+25 | File | `ActivityManagerService.java` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/add-glossary.php` | High
+28 | File | `admin/conf_users_edit.php` | High
 29 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

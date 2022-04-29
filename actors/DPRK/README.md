@@ -13,7 +13,7 @@ The following _campaigns_ are known and can be associated with DPRK:
 * DrillMalware
 * ...
 
-There are 2 more campaign items available. Please use our online service to access the data.
+There are 3 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -57,7 +57,7 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [57.73.224.0](https://vuldb.com/?ip.57.73.224.0) | - | - | High
 28 | ... | ... | ... | ...
 
-There are 108 more IOC items available. Please use our online service to access the data.
+There are 109 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -125,6 +125,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/tree/master/International%20Strategic/Korea
 * https://github.com/mandatoryprogrammer/NorthKoreaDNSLeak
 * https://raidforums.com/Thread-North-Korean-IP-Addresses-300
+* https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-232a

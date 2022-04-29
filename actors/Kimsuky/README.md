@@ -76,15 +76,15 @@ ID | Type | Indicator | Confidence
 16 | File | `/public/plugins/` | High
 17 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
 18 | File | `/SASWebReportStudio/logonAndRender.do` | High
-19 | File | `/tlogin.cgi` | Medium
-20 | File | `/tmp/scfgdndf` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/usr/ucb/mail` | High
-24 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+19 | File | `/scas/admin/` | Medium
+20 | File | `/tlogin.cgi` | Medium
+21 | File | `/tmp/scfgdndf` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/usr/ucb/mail` | High
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

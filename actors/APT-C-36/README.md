@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -51,63 +51,62 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/assets/ctx` | Medium
 4 | File | `/bsms/?page=products` | High
-5 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-6 | File | `/concat?/%2557EB-INF/web.xml` | High
-7 | File | `/config/getuser` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/ext/phar/phar_object.c` | High
-10 | File | `/filemanager/php/connector.php` | High
-11 | File | `/get_getnetworkconf.cgi` | High
-12 | File | `/HNAP1` | Low
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-15 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-16 | File | `/modx/manager/index.php` | High
-17 | File | `/osm/REGISTER.cmd` | High
-18 | File | `/product_list.php` | High
-19 | File | `/replication` | Medium
-20 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-21 | File | `/supervisor/procesa_carga.php` | High
-22 | File | `/type.php` | Medium
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/zm/index.php` | High
-26 | File | `4.2.0.CP09` | Medium
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `802dot1xclientcert.cgi` | High
-29 | File | `add.exe` | Low
-30 | File | `addentry.php` | Medium
-31 | File | `admin-ajax.php` | High
-32 | File | `admin.color.php` | High
-33 | File | `admin.cropcanvas.php` | High
-34 | File | `admin.joomlaradiov5.php` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin.php?m=Food&a=addsave` | High
-37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/user.php` | High
-40 | File | `admin/write-post.php` | High
-41 | File | `administrator/components/com_media/helpers/media.php` | High
-42 | File | `admin_events.php` | High
-43 | File | `ajax_new_account.php` | High
-44 | File | `akocomments.php` | High
-45 | File | `allopass-error.php` | High
-46 | File | `announcement.php` | High
-47 | File | `apply.cgi` | Medium
-48 | File | `archiver\index.php` | High
-49 | File | `artlinks.dispnew.php` | High
-50 | File | `auth.inc.php` | Medium
-51 | File | `authorization.do` | High
-52 | File | `awstats.pl` | Medium
-53 | File | `backoffice/login.asp` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+7 | File | `/concat?/%2557EB-INF/web.xml` | High
+8 | File | `/config/getuser` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/ext/phar/phar_object.c` | High
+11 | File | `/filemanager/php/connector.php` | High
+12 | File | `/get_getnetworkconf.cgi` | High
+13 | File | `/HNAP1` | Low
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+17 | File | `/modx/manager/index.php` | High
+18 | File | `/osm/REGISTER.cmd` | High
+19 | File | `/product_list.php` | High
+20 | File | `/replication` | Medium
+21 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+22 | File | `/supervisor/procesa_carga.php` | High
+23 | File | `/type.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/pkexec` | High
+26 | File | `/zm/index.php` | High
+27 | File | `4.2.0.CP09` | Medium
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `802dot1xclientcert.cgi` | High
+30 | File | `add.exe` | Low
+31 | File | `addentry.php` | Medium
+32 | File | `admin-ajax.php` | High
+33 | File | `admin.color.php` | High
+34 | File | `admin.cropcanvas.php` | High
+35 | File | `admin.joomlaradiov5.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?m=Food&a=addsave` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/user.php` | High
+41 | File | `admin/write-post.php` | High
+42 | File | `administrator/components/com_media/helpers/media.php` | High
+43 | File | `admin_events.php` | High
+44 | File | `ajax_new_account.php` | High
+45 | File | `akocomments.php` | High
+46 | File | `allopass-error.php` | High
+47 | File | `announcement.php` | High
+48 | File | `apply.cgi` | Medium
+49 | File | `archiver\index.php` | High
+50 | File | `artlinks.dispnew.php` | High
+51 | File | `auth.inc.php` | Medium
+52 | File | `authorization.do` | High
+53 | File | `awstats.pl` | Medium
 54 | File | `bb_usage_stats.php` | High
 55 | File | `binder.c` | Medium
 56 | File | `books.php` | Medium
 57 | File | `C:\Python27` | Medium
-58 | File | `C:\Windows\System32\config\SAM` | High
-59 | ... | ... | ...
+58 | ... | ... | ...
 
-There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

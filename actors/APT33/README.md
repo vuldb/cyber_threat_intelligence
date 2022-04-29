@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PL](https://vuldb.com/?country.pl)
+* [SV](https://vuldb.com/?country.sv)
 * [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
@@ -68,34 +68,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin.add` | Medium
-3 | File | `/admin.php/admin/art/data.html` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/edit_user.php` | High
-6 | File | `/admin/files` | Medium
-7 | File | `/admin/login.php` | High
-8 | File | `/administrator/components/menu/` | High
-9 | File | `/administrator/components/table_manager/` | High
-10 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
-11 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
-12 | File | `/api/fetch` | Medium
-13 | File | `/api/user/{ID}` | High
-14 | File | `/audit/log/log_management.php` | High
-15 | File | `/cloud_config/router_post/register` | High
+2 | File | `/admin.php/admin/art/data.html` | High
+3 | File | `/admin/goods/update` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/posts.php` | High
+6 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+7 | File | `/administrator/alerts/alertLightbox.php` | High
+8 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
+9 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
+10 | File | `/api/fetch` | Medium
+11 | File | `/api/user/{ID}` | High
+12 | File | `/audit/log/log_management.php` | High
+13 | File | `/blog/blog.php` | High
+14 | File | `/cloud_config/router_post/register` | High
+15 | File | `/cmd?cmd=connect` | High
 16 | File | `/config/list` | Medium
-17 | File | `/cwms/admin/?page=articles/view_article/` | High
-18 | File | `/Hospital-Management-System-master/contact.php` | High
-19 | File | `/Hospital-Management-System-master/func.php` | High
-20 | File | `/i/:data/ipa.plist` | High
-21 | File | `/ManageRoute/postRoute` | High
-22 | File | `/ms/cms/content/list.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/setting/NTPSyncWithHost` | High
-25 | File | `/system/tool/ping.php` | High
-26 | File | `/system/user/resetPwd` | High
-27 | ... | ... | ...
+17 | File | `/customer_register.php` | High
+18 | File | `/cwms/admin/?page=articles/view_article/` | High
+19 | File | `/etc/master.passwd` | High
+20 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+21 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+22 | File | `/i/:data/ipa.plist` | High
+23 | File | `/index.php?page=reserve` | High
+24 | File | `/ManageRoute/postRoute` | High
+25 | File | `/module/api.php?mobile/webNasIPS` | High
+26 | File | `/modules/eligibility/Student.php` | High
+27 | File | `/plesk-site-preview/` | High
+28 | File | `/public_html/apply_vacancy` | High
+29 | File | `/purchase_order/classes/Master.php?f=delete_item` | High
+30 | File | `/reps/classes/Users.php?f=delete_agent` | High
+31 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

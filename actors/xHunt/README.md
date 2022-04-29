@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,9 +81,9 @@ ID | Type | Indicator | Confidence
 22 | File | `/new` | Low
 23 | File | `/public/plugins/` | High
 24 | File | `/sbin/gs_config` | High
-25 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/Upload/admin/index.php?module=forum-management&action=add` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+27 | File | `/uncpath/` | Medium
 28 | File | `/uploads/dede` | High
 29 | File | `/usr/bin/pkexec` | High
 30 | File | `/usr/sbin/nagios` | High
@@ -101,8 +101,7 @@ ID | Type | Indicator | Confidence
 42 | File | `admin/bitrix.xscan_worker.php` | High
 43 | File | `admin/conf_users_edit.php` | High
 44 | File | `admin/mcart_xls_import.php` | High
-45 | File | `admin/ops/reports/ops/news.php` | High
-46 | ... | ... | ...
+45 | ... | ... | ...
 
 There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

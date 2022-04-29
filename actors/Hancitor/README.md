@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,35 +75,34 @@ ID | Type | Indicator | Confidence
 10 | File | `/inc/parser/xhtml.php` | High
 11 | File | `/login` | Low
 12 | File | `/modules/profile/index.php` | High
-13 | File | `/objects/getImageMP4.php` | High
-14 | File | `/one_church/userregister.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/public/plugins/` | High
-17 | File | `/replication` | Medium
-18 | File | `/req_password_user.php` | High
-19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/phpglibccheck` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/syno/etc/mount.conf` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-31 | File | `/wp-json/oembed/1.0/embed?url` | High
-32 | File | `adclick.php` | Medium
-33 | File | `addentry.php` | Medium
-34 | File | `admin.cropcanvas.php` | High
+13 | File | `/nova/bin/console` | High
+14 | File | `/objects/getImageMP4.php` | High
+15 | File | `/one_church/userregister.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/public/plugins/` | High
+18 | File | `/replication` | Medium
+19 | File | `/req_password_user.php` | High
+20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/phpglibccheck` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/syno/etc/mount.conf` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+32 | File | `/wp-json/oembed/1.0/embed?url` | High
+33 | File | `adclick.php` | Medium
+34 | File | `addentry.php` | Medium
 35 | File | `admin.jcomments.php` | High
 36 | File | `admin.php` | Medium
 37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/create-package.php` | High
-39 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

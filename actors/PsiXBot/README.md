@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,55 +66,55 @@ ID | Type | Indicator | Confidence
 6 | File | `/download` | Medium
 7 | File | `/etc/gsissh/sshd_config` | High
 8 | File | `/etc/passwd` | Medium
-9 | File | `/etc/quantum/quantum.conf` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/goform/telnet` | High
-14 | File | `/goform/WanParameterSetting` | High
-15 | File | `/inc/extensions.php` | High
-16 | File | `/include/makecvs.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/payu/icpcheckout/` | High
-20 | File | `/property-list/property_view.php` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/req_password_user.php` | High
-23 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-24 | File | `/resourceNode/resources.jsf` | High
-25 | File | `/rest/project-templates/1.0/createshared` | High
-26 | File | `/rom-0` | Low
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/trx_addons/v2/get/sc_layout` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-31 | File | `/usr/syno/etc/mount.conf` | High
-32 | File | `/var/log/nginx` | High
-33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/_next` | Low
-36 | File | `3.6.cpj` | Low
-37 | File | `404.php` | Low
-38 | File | `a-b-membres.php` | High
-39 | File | `ActionsAndOperations` | High
-40 | File | `adclick.php` | Medium
-41 | File | `add_2_basket.asp` | High
-42 | File | `admin.asp` | Medium
-43 | File | `admin.aspx` | Medium
-44 | File | `admin.php` | Medium
-45 | File | `admin/aboutus.php` | High
-46 | File | `admin/member_details.php` | High
-47 | File | `admin_chatconfig.php` | High
-48 | File | `ajaxp.php` | Medium
-49 | File | `ajax_calls.php` | High
-50 | File | `alphabet.php` | Medium
-51 | File | `article2/comments.inc.php` | High
-52 | File | `articles/edit.php` | High
-53 | File | `assp.pl` | Low
-54 | File | `auth-gss2.c` | Medium
+9 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+10 | File | `/etc/quantum/quantum.conf` | High
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/telnet` | High
+15 | File | `/goform/WanParameterSetting` | High
+16 | File | `/inc/extensions.php` | High
+17 | File | `/include/makecvs.php` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/modules/tasks/summary.inc.php` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/nova/bin/console` | High
+22 | File | `/payu/icpcheckout/` | High
+23 | File | `/property-list/property_view.php` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/req_password_user.php` | High
+26 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+27 | File | `/resourceNode/resources.jsf` | High
+28 | File | `/rest/project-templates/1.0/createshared` | High
+29 | File | `/rom-0` | Low
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/trx_addons/v2/get/sc_layout` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+34 | File | `/usr/syno/etc/mount.conf` | High
+35 | File | `/var/log/nginx` | High
+36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+37 | File | `/WEB-INF/web.xml` | High
+38 | File | `/_next` | Low
+39 | File | `3.6.cpj` | Low
+40 | File | `404.php` | Low
+41 | File | `a-b-membres.php` | High
+42 | File | `ActionsAndOperations` | High
+43 | File | `adclick.php` | Medium
+44 | File | `add_2_basket.asp` | High
+45 | File | `admin.asp` | Medium
+46 | File | `admin.aspx` | Medium
+47 | File | `admin.php` | Medium
+48 | File | `admin/aboutus.php` | High
+49 | File | `admin/member_details.php` | High
+50 | File | `admin_chatconfig.php` | High
+51 | File | `ajaxp.php` | Medium
+52 | File | `ajax_calls.php` | High
+53 | File | `alphabet.php` | Medium
+54 | File | `article2/comments.inc.php` | High
 55 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,12 +36,13 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [23.36.85.183](https://vuldb.com/?ip.23.36.85.183) | a23-36-85-183.deploy.static.akamaitechnologies.com | - | High
 14 | [23.38.131.139](https://vuldb.com/?ip.23.38.131.139) | a23-38-131-139.deploy.static.akamaitechnologies.com | - | High
 15 | [23.64.110.64](https://vuldb.com/?ip.23.64.110.64) | a23-64-110-64.deploy.static.akamaitechnologies.com | - | High
-16 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
-17 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
-18 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
-19 | ... | ... | ... | ...
+16 | [23.67.200.172](https://vuldb.com/?ip.23.67.200.172) | a23-67-200-172.deploy.static.akamaitechnologies.com | - | High
+17 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
+18 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
+19 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,10 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,22 +64,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/modules/tasks/summary.inc.php` | High
-3 | File | `/usr/bin/pkexec` | High
-4 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-5 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-6 | File | `admin.php` | Medium
-7 | File | `adminpasswd.cgi` | High
-8 | File | `ajax.php` | Medium
-9 | File | `apache2/modsecurity.c` | High
-10 | ... | ... | ...
+2 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+3 | File | `/modules/tasks/summary.inc.php` | High
+4 | File | `/usr/bin/pkexec` | High
+5 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+6 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+7 | File | `admin.php` | Medium
+8 | File | `adminpasswd.cgi` | High
+9 | File | `ajax.php` | Medium
+10 | File | `apache2/modsecurity.c` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/05/threat-roundup-0517-0524.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0205-0212.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
@@ -89,6 +92,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/07/threat-roundup-for-july-9-to-july-16.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0806-0813.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
+* https://blog.talosintelligence.com/2022/04/threat-roundup-0325-0401.html
 
 ## Literature
 

@@ -36,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | - | High
 8 | [45.33.30.197](https://vuldb.com/?ip.45.33.30.197) | li1047-197.members.linode.com | - | High
 9 | [45.55.211.79](https://vuldb.com/?ip.45.55.211.79) | - | CVE-2019-2725 | High
-10 | ... | ... | ... | ...
+10 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | - | High
+11 | ... | ... | ... | ...
 
-There are 36 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,25 +61,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/category_view.php` | High
-3 | File | `/cgi-bin/nasset.cgi` | High
-4 | File | `/cgi-bin/webadminget.cgi` | High
-5 | File | `/cms/process.php` | High
-6 | File | `/etc/shadow` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/SetNetControlList` | High
-9 | File | `/index.php/weblinks-categories` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/movie.php` | Medium
-12 | File | `/public/login.htm` | High
-13 | File | `/show_news.php` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `adclick.php` | Medium
-16 | File | `admin.asp` | Medium
-17 | File | `admin/categories_industry.php` | High
-18 | ... | ... | ...
+2 | File | `/assets/something/services/AppModule.class` | High
+3 | File | `/category_view.php` | High
+4 | File | `/cgi-bin/nasset.cgi` | High
+5 | File | `/cgi-bin/webadminget.cgi` | High
+6 | File | `/cms/process.php` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/SetNetControlList` | High
+10 | File | `/index.php/weblinks-categories` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/movie.php` | Medium
+13 | File | `/public/login.htm` | High
+14 | File | `/service/v1/createUser` | High
+15 | File | `/show_news.php` | High
+16 | File | `/system?action=ServiceAdmin` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `adclick.php` | Medium
+19 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/04/sodinokibi-ransomware-exploits-weblogic.html
 * https://blogs.blackberry.com/en/2021/11/revil-under-the-microscope
 * https://ddanchev.blogspot.com/2022/01/exposing-internet-connected_24.html
+* https://thedfirreport.com/2021/03/29/sodinokibi-aka-revil-ransomware/
 * https://www.darktrace.com/en/blog/darktraces-cyber-ai-analyst-investigates-sodinokibi-r-evil-ransomware/
 * https://www.varonis.com/blog/revil-msp-supply-chain-attack/
 

@@ -11,9 +11,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,44 +61,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/#/CampaignManager/users` | High
 4 | File | `//` | Low
 5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/apply_noauth.cgi` | High
-9 | File | `/article/comment` | High
+6 | File | `/admin/?setting-base.htm` | High
+7 | File | `/admin/admin_login.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/apply_noauth.cgi` | High
 10 | File | `/audit/log/log_management.php` | High
-11 | File | `/backup/lispbx-CONF-YYYY-MM-DD.tar` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/bin/sh` | Low
-14 | File | `/cgi-bin/login` | High
-15 | File | `/cgi/sshcheck.cgi` | High
-16 | File | `/classes/profile.class.php` | High
-17 | File | `/crmeb/crmeb/services/UploadService.php` | High
-18 | File | `/dev/tty` | Medium
-19 | File | `/downloads/` | Medium
-20 | File | `/IISADMPWD` | Medium
-21 | File | `/inc/session.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/mcms/view.do` | High
+11 | File | `/bin/login` | Medium
+12 | File | `/bin/sh` | Low
+13 | File | `/cgi-bin/login` | High
+14 | File | `/classes/profile.class.php` | High
+15 | File | `/dev/tty` | Medium
+16 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+17 | File | `/downloads/` | Medium
+18 | File | `/IISADMPWD` | Medium
+19 | File | `/inc/session.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/login` | Low
+22 | File | `/login.html` | Medium
+23 | File | `/magnoliaPublic/travel/members/login.html` | High
 24 | File | `/member/index/login.html` | High
 25 | File | `/modules/certinfo/index.php` | High
-26 | File | `/post/editing` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/restful-services/publish` | High
-29 | File | `/ScadaBR/login.htm` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/system/tool/ping.php` | High
-32 | File | `/upload` | Low
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/usr/sbin/mini_httpd` | High
-35 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-36 | File | `?location=search` | High
-37 | File | `account/login.php` | High
-38 | File | `add.asp` | Low
-39 | File | `admin.home.php` | High
-40 | File | `admin.php` | Medium
-41 | ... | ... | ...
+26 | File | `/restful-services/publish` | High
+27 | File | `/ScadaBR/login.htm` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/system/tool/ping.php` | High
+30 | File | `/upload` | Low
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/adm/btmp` | High
+33 | File | `?location=search` | High
+34 | File | `account/login.php` | High
+35 | File | `add.asp` | Low
+36 | File | `add.php` | Low
+37 | File | `admin.inc.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin.php?m=backup&c=backup&a=doback` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/login.asp` | High
+43 | File | `admin/login.php` | High
+44 | File | `admin/nos/login` | High
+45 | File | `admin\db\DoSql.php` | High
+46 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

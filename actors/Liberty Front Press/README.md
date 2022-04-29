@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -104,40 +104,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/CMD_ACCOUNT_ADMIN` | High
-3 | File | `/context/%2e/WEB-INF/web.xml` | High
-4 | File | `/core/admin/categories.php` | High
-5 | File | `/etc/hosts` | Medium
-6 | File | `/etc/sudoers` | Medium
-7 | File | `/filemanager/php/connector.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/MTFWU` | Low
-11 | File | `/new` | Low
-12 | File | `/proc/<pid>/status` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | File | `/server-info` | Medium
-17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/updown/upload.cgi` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/way4acs/enroll` | High
+2 | File | `/admin.php` | Medium
+3 | File | `/CMD_ACCOUNT_ADMIN` | High
+4 | File | `/context/%2e/WEB-INF/web.xml` | High
+5 | File | `/core/admin/categories.php` | High
+6 | File | `/etc/groups` | Medium
+7 | File | `/etc/hosts` | Medium
+8 | File | `/etc/sudoers` | Medium
+9 | File | `/filemanager/php/connector.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/MTFWU` | Low
+13 | File | `/new` | Low
+14 | File | `/proc/<pid>/status` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/QueryComponent!Default.jspa` | High
+18 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `/updown/upload.cgi` | High
+22 | File | `/usr/bin/pkexec` | High
 23 | File | `4.2.0.CP09` | Medium
 24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 25 | File | `AccountManagerService.java` | High
 26 | File | `actions/CompanyDetailsSave.php` | High
 27 | File | `ActivityManagerService.java` | High
 28 | File | `admin.php` | Medium
-29 | File | `admin.php/comments/batchdel/` | High
-30 | File | `admin/add-glossary.php` | High
-31 | File | `admin/conf_users_edit.php` | High
-32 | File | `admin/edit-comments.php` | High
-33 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

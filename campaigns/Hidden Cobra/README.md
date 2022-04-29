@@ -169,7 +169,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -185,22 +185,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/forum/away.php` | High
 7 | File | `/graphStatus/displayServiceStatus.php` | High
 8 | File | `/modules/profile/index.php` | High
-9 | File | `/osm/REGISTER.cmd` | High
-10 | File | `/out.php` | Medium
-11 | File | `/pages/items` | Medium
-12 | File | `/proc/pid/syscall` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-15 | File | `/servlet.gupld` | High
-16 | File | `/sql/sql_type.cc` | High
-17 | File | `/status` | Low
-18 | File | `/tools/developerConsoleOperations.jsp` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | ... | ... | ...
+9 | File | `/out.php` | Medium
+10 | File | `/pages/items` | Medium
+11 | File | `/proc/pid/syscall` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+14 | File | `/servlet.gupld` | High
+15 | File | `/sql/sql_type.cc` | High
+16 | File | `/status` | Low
+17 | File | `/tools/developerConsoleOperations.jsp` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/WEB-INF/web.xml` | High
+21 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

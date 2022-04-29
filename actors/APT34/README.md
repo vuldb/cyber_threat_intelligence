@@ -73,24 +73,23 @@ ID | Type | Indicator | Confidence
 13 | File | `/replication` | Medium
 14 | File | `/RestAPI` | Medium
 15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/tmp/speedtest_urls.xml` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/nginx` | High
-19 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-20 | File | `actions.hsp` | Medium
-21 | File | `addentry.php` | Medium
-22 | File | `add_edit_user.asp` | High
-23 | File | `add_to_cart.php` | High
-24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-25 | File | `admin/config/confmgr.php` | High
-26 | File | `admin/system_manage/save.html` | High
-27 | File | `ajax.php` | Medium
-28 | File | `apcupsd.pid` | Medium
-29 | File | `api/sms/send-sms` | High
-30 | File | `api/v1/alarms` | High
-31 | ... | ... | ...
+16 | File | `/scas/admin/` | Medium
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/var/log/nginx` | High
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `actions.hsp` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `add_edit_user.asp` | High
+24 | File | `add_to_cart.php` | High
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin/config/confmgr.php` | High
+27 | File | `admin/system_manage/save.html` | High
+28 | File | `ajax.php` | Medium
+29 | File | `apcupsd.pid` | Medium
+30 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
