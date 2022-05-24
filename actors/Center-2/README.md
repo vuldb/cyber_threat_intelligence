@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * [IT](https://vuldb.com/?country.it)
 * [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,17 +47,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/docs/captcha_(number).jpeg` | High
-2 | File | `/etc/keystone/user-project-map.json` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/horde/util/go.php` | High
-5 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-6 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-7 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
-8 | File | `action/addproject.php` | High
-9 | ... | ... | ...
+1 | File | `/ctpms/admin/?page=applications/view_application` | High
+2 | File | `/docs/captcha_(number).jpeg` | High
+3 | File | `/etc/keystone/user-project-map.json` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/horde/util/go.php` | High
+6 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+7 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+8 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
+9 | File | `action/addproject.php` | High
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

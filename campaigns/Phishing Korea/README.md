@@ -93,17 +93,17 @@ ID | Type | Indicator | Confidence
 40 | File | `control.c` | Medium
 41 | File | `core-util.c` | Medium
 42 | File | `core/coreuserinputhandler.cpp` | High
-43 | File | `d1_both.c` | Medium
-44 | File | `data/gbconfiguration.dat` | High
-45 | File | `Debug_command_page.asp` | High
-46 | File | `details_view.php` | High
-47 | File | `Diagnose.exe` | Medium
-48 | File | `DigiDocSAXParser.c` | High
-49 | File | `download-file.php` | High
-50 | File | `download.php` | Medium
+43 | File | `cve-bin/moreBlockInfo.cgi` | High
+44 | File | `d1_both.c` | Medium
+45 | File | `data/gbconfiguration.dat` | High
+46 | File | `Debug_command_page.asp` | High
+47 | File | `details_view.php` | High
+48 | File | `Diagnose.exe` | Medium
+49 | File | `DigiDocSAXParser.c` | High
+50 | File | `download-file.php` | High
 51 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

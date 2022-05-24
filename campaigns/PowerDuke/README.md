@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PowerDuke:
 
+* [HU](https://vuldb.com/?country.hu)
 * [CN](https://vuldb.com/?country.cn)
 * [BE](https://vuldb.com/?country.be)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.

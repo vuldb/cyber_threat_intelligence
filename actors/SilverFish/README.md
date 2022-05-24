@@ -89,19 +89,19 @@ ID | Type | Indicator | Confidence
 28 | File | `/wp-admin` | Medium
 29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 30 | File | `2020\Messages\SDNotify.exe` | High
-31 | File | `admin/admin_disallow.php` | High
-32 | File | `admin/Login.php` | High
-33 | File | `admin/plugin-index.php` | High
-34 | File | `administration` | High
-35 | File | `administrative` | High
-36 | File | `Alias.asmx` | Medium
-37 | File | `aolfix.exe` | Medium
+31 | File | `admin/Login.php` | High
+32 | File | `admin/plugin-index.php` | High
+33 | File | `administration` | High
+34 | File | `administrative` | High
+35 | File | `Alias.asmx` | Medium
+36 | File | `aolfix.exe` | Medium
+37 | File | `Array.prototype.concat` | High
 38 | File | `AudioService.java` | High
 39 | File | `awhost32.exe` | Medium
 40 | File | `bidhistory.php` | High
 41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

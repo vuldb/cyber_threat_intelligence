@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -76,36 +76,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/../conf/config.properties` | High
-3 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-4 | File | `/auth/session` | High
-5 | File | `/catcompany.php` | High
-6 | File | `/cgi-bin/webproc` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/exponent_constants.php` | High
-9 | File | `/export` | Low
-10 | File | `/forgetpassword.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/front/document.form.php` | High
-13 | File | `/ibi_apps/WFServlet.cfg` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/proc/sysvipc/sem` | High
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/RestAPI` | Medium
-20 | File | `/search.php` | Medium
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+3 | File | `/auth/session` | High
+4 | File | `/catcompany.php` | High
+5 | File | `/cgi-bin/webproc` | High
+6 | File | `/etc/passwd` | Medium
+7 | File | `/exponent_constants.php` | High
+8 | File | `/export` | Low
+9 | File | `/forgetpassword.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/front/document.form.php` | High
+12 | File | `/ibi_apps/WFServlet.cfg` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/proc/sysvipc/sem` | High
+17 | File | `/rest/collectors/1.0/template/custom` | High
+18 | File | `/RestAPI` | Medium
+19 | File | `/search.php` | Medium
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+22 | File | `/ServletAPI/accounts/login` | High
 23 | File | `/trigger` | Medium
 24 | File | `/uncpath/` | Medium
 25 | File | `/user/login/oauth` | High
 26 | File | `/usr/bin/pkexec` | High
 27 | File | `/usr/doc` | Medium
-28 | File | `/WEB-INF/web.xml` | High
-29 | File | `/webpages/data` | High
-30 | ... | ... | ...
+28 | File | `/var/log/messages` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/webpages/data` | High
+31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

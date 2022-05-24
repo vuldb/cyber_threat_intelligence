@@ -53,13 +53,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/tmp` | Low
 3 | File | `AbstractController.php` | High
 4 | File | `ActBar.ocx` | Medium
-5 | File | `admin.comms.php` | High
-6 | File | `admin.php` | Medium
-7 | File | `admincp.php?app=user&do=save` | High
-8 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
+5 | File | `add_ons.php` | Medium
+6 | File | `admin.comms.php` | High
+7 | File | `admin.php` | Medium
+8 | File | `admin/bad.php` | High
 9 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

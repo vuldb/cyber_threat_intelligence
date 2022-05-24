@@ -70,38 +70,35 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/config.php?display=disa&view=form` | High
 5 | File | `/category_view.php` | High
 6 | File | `/dev/kmem` | Medium
-7 | File | `/dev/shm` | Medium
-8 | File | `/file?action=download&file` | High
-9 | File | `/medical/inventories.php` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/NAGErrors` | Medium
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/proc/ioports` | High
-15 | File | `/replication` | Medium
-16 | File | `/RestAPI` | Medium
-17 | File | `/rom-0` | Low
-18 | File | `/tmp` | Low
-19 | File | `/tmp/speedtest_urls.xml` | High
+7 | File | `/file?action=download&file` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/monitoring` | Medium
+10 | File | `/NAGErrors` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/proc/ioports` | High
+14 | File | `/replication` | Medium
+15 | File | `/RestAPI` | Medium
+16 | File | `/rom-0` | Low
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
 20 | File | `/uncpath/` | Medium
-21 | File | `/var/log/nginx` | High
-22 | File | `/wp-admin/admin.php` | High
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `abook_database.php` | High
-25 | File | `account.asp` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-28 | File | `admin/index.php` | High
-29 | File | `admin/login.php` | High
-30 | File | `admincp.php?app=files` | High
-31 | File | `admin\model\catalog\download.php` | High
-32 | File | `ajax/render/widget_php` | High
-33 | File | `apcupsd.pid` | Medium
-34 | File | `api/sms/send-sms` | High
-35 | File | `api/v1/alarms` | High
-36 | ... | ... | ...
+21 | File | `/upload` | Low
+22 | File | `/var/log/nginx` | High
+23 | File | `/wp-admin/admin.php` | High
+24 | File | `addentry.php` | Medium
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin/login.php` | High
+28 | File | `admin\model\catalog\download.php` | High
+29 | File | `ajax/render/widget_php` | High
+30 | File | `apcupsd.pid` | Medium
+31 | File | `api/sms/send-sms` | High
+32 | File | `api/v1/alarms` | High
+33 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

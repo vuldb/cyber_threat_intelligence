@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,38 +74,38 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/path` | Medium
 7 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
 8 | File | `/include/chart_generator.php` | High
-9 | File | `/modules/tasks/summary.inc.php` | High
-10 | File | `/nagiosql/admin/checkcommands.php` | High
-11 | File | `/rest/api/2/user/picker` | High
-12 | File | `/secure/QueryComponent!Default.jspa` | High
-13 | File | `/tmp` | Low
-14 | File | `/ui/artifactimport/upload` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/5bin/su` | Medium
-17 | File | `/usr/bin/mail` | High
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/var/dt/` | Medium
-20 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-21 | File | `00.jsp` | Low
-22 | File | `account_activations/edit` | High
-23 | File | `adclick.php` | Medium
-24 | File | `AddResolution.jspa` | High
-25 | File | `admin.asp` | Medium
-26 | File | `admin.jcomments.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/` | Low
-29 | File | `admin/manage-comments.php` | High
-30 | File | `administration/comments.php` | High
-31 | File | `administrator/mail/download.cfm` | High
-32 | File | `AdminViewError/AdminAddadmin` | High
-33 | File | `agentdisplay.php` | High
-34 | File | `ajaxhelper.php` | High
-35 | File | `album_portal.php` | High
-36 | File | `al_initialize.php` | High
-37 | File | `app/call_centers/cmd.php` | High
-38 | File | `arch/x86/kvm/hyperv.c` | High
-39 | File | `auction.cgi` | Medium
-40 | File | `autologin.jsp` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/modules/tasks/summary.inc.php` | High
+11 | File | `/nagiosql/admin/checkcommands.php` | High
+12 | File | `/rest/api/2/user/picker` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/tmp` | Low
+15 | File | `/ui/artifactimport/upload` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/5bin/su` | Medium
+18 | File | `/usr/bin/mail` | High
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/var/dt/` | Medium
+21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+22 | File | `00.jsp` | Low
+23 | File | `account_activations/edit` | High
+24 | File | `adclick.php` | Medium
+25 | File | `AddResolution.jspa` | High
+26 | File | `admin.asp` | Medium
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/` | Low
+30 | File | `admin/manage-comments.php` | High
+31 | File | `administration/comments.php` | High
+32 | File | `administrator/mail/download.cfm` | High
+33 | File | `AdminViewError/AdminAddadmin` | High
+34 | File | `agentdisplay.php` | High
+35 | File | `ajaxhelper.php` | High
+36 | File | `album_portal.php` | High
+37 | File | `al_initialize.php` | High
+38 | File | `app/call_centers/cmd.php` | High
+39 | File | `arch/x86/kvm/hyperv.c` | High
+40 | File | `auction.cgi` | Medium
 41 | ... | ... | ...
 
 There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

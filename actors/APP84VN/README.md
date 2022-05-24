@@ -44,11 +44,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/anony/mjpg.cgi` | High
-2 | File | `/product_list.php` | High
-3 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+2 | File | `/mgmt/tm/util/bash` | High
+3 | File | `/product_list.php` | High
 4 | ... | ... | ...
 
-There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

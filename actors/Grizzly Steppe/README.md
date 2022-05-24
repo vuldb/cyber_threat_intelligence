@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -160,7 +160,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -168,14 +168,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `//` | Low
-3 | File | `/admin-panel1.php` | High
-4 | File | `/admin.php` | Medium
-5 | File | `/admin.php/admin/ulog/index.html` | High
-6 | File | `/admin/configure.php` | High
-7 | File | `/admin/doctors/view_doctor.php` | High
-8 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+1 | File | `//` | Low
+2 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+3 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
+4 | File | `/admin-panel1.php` | High
+5 | File | `/admin.php` | Medium
+6 | File | `/admin.php/admin/ulog/index.html` | High
+7 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+8 | File | `/anony/mjpg.cgi` | High
 9 | File | `/api/crontab` | Medium
 10 | File | `/api/students/me/messages/` | High
 11 | File | `/api/trackedEntityInstances` | High
@@ -183,29 +183,29 @@ ID | Type | Indicator | Confidence
 13 | File | `/category.php` | High
 14 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 15 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-16 | File | `/cgi-bin/uploadAccessCodePic` | High
-17 | File | `/common/info.cgi` | High
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/dev/dri/card1` | High
-20 | File | `/export` | Low
-21 | File | `/file?action=download&file` | High
-22 | File | `/goform/setIPv6Status` | High
-23 | File | `/goform/WifiExtraSet` | High
-24 | File | `/images` | Low
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/include/make.php` | High
-27 | File | `/InternalPages/ExecuteTask.aspx` | High
-28 | File | `/nova/bin/sniffer` | High
-29 | File | `/principals` | Medium
-30 | File | `/public/plugins/` | High
-31 | File | `/reps/admin/?page=agents/manage_agent` | High
-32 | File | `/reps/classes/Master.php?f=delete_estate` | High
-33 | File | `/SASWebReportStudio/logonAndRender.do` | High
-34 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-35 | File | `/system/bin/osi_bin` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cgi-bin/luci/api/switch` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/cgi-bin/uploadAccessCodePic` | High
+20 | File | `/cms/admin/?page=invoice/manage_invoice` | High
+21 | File | `/cms/classes/Master.php?f=delete_invoice` | High
+22 | File | `/cms/classes/Users.php?f=delete` | High
+23 | File | `/common/info.cgi` | High
+24 | File | `/ctpms/admin/individuals/update_status.php` | High
+25 | File | `/export` | Low
+26 | File | `/file?action=download&file` | High
+27 | File | `/fuel/index.php/fuel/logs/items` | High
+28 | File | `/goform/WifiExtraSet` | High
+29 | File | `/guest/s/default/` | High
+30 | File | `/include/chart_generator.php` | High
+31 | File | `/include/make.php` | High
+32 | File | `/Items/*/RemoteImages/Download` | High
+33 | File | `/login` | Low
+34 | File | `/mtms/admin/?page=transaction/send` | High
+35 | File | `/nova/bin/sniffer` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

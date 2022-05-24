@@ -69,7 +69,8 @@ ID | Type | Indicator | Confidence
 17 | File | `admincp/auth/checklogin.php` | High
 18 | File | `adminlogin.asp` | High
 19 | File | `aj.html` | Low
-20 | ... | ... | ...
+20 | File | `ajax/autocompletion.php` | High
+21 | ... | ... | ...
 
 There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

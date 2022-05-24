@@ -114,10 +114,9 @@ ID | Type | Indicator | Confidence
 54 | File | `binder.c` | Medium
 55 | File | `books.php` | Medium
 56 | File | `C:\Python27` | Medium
-57 | File | `C:\Windows\System32\config\SAM` | High
-58 | ... | ... | ...
+57 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

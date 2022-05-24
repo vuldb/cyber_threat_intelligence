@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,9 +78,11 @@ ID | Type | Indicator | Confidence
 16 | File | `/wp-json/wc/v3/webhooks` | High
 17 | File | `adclick.php` | Medium
 18 | File | `AddEvent.php` | Medium
-19 | ... | ... | ...
+19 | File | `admin.php` | Medium
+20 | File | `admin/scripts/FileUploader/php.php` | High
+21 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

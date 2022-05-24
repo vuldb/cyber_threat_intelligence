@@ -72,21 +72,22 @@ ID | Type | Indicator | Confidence
 15 | File | `/exec/` | Low
 16 | File | `/ldclient/ldprov.cgi` | High
 17 | File | `/login` | Low
-18 | File | `/plugin/extended-choice-parameter/js/` | High
-19 | File | `/plugins/servlet/gadgets/makeRequest` | High
-20 | File | `/PreviewHandler.ashx` | High
-21 | File | `/products/details.asp` | High
-22 | File | `/rest/api/2/user/picker` | High
-23 | File | `/rest/api/latest/groupuserpicker` | High
-24 | File | `/rom-0` | Low
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/services/details.asp` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-30 | ... | ... | ...
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/plugin/extended-choice-parameter/js/` | High
+20 | File | `/plugins/servlet/gadgets/makeRequest` | High
+21 | File | `/PreviewHandler.ashx` | High
+22 | File | `/products/details.asp` | High
+23 | File | `/rest/api/2/user/picker` | High
+24 | File | `/rest/api/latest/groupuserpicker` | High
+25 | File | `/rom-0` | Low
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/services/details.asp` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+31 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

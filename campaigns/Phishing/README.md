@@ -90,37 +90,38 @@ ID | Type | Indicator | Confidence
 26 | File | `adclick.php` | Medium
 27 | File | `add_comment.php` | High
 28 | File | `AdHocQuery_Processor.aspx` | High
-29 | File | `admin.asp` | Medium
-30 | File | `admin/admin.asp` | High
-31 | File | `admin/admin.php` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/gallery.php` | High
-34 | File | `admin/images.aspx` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-37 | File | `admin/login.asp` | High
-38 | File | `admin/manage-departments.php` | High
-39 | File | `admin/sellerupd.php` | High
-40 | File | `admin/sitesettings.php` | High
-41 | File | `advsearch.asp` | High
-42 | File | `AEAgent.cpp` | Medium
-43 | File | `affich.php` | Medium
-44 | File | `agent/Core/Controller/SendRequest.cpp` | High
-45 | File | `ajax.php` | Medium
-46 | File | `ajax_calls.php` | High
-47 | File | `ajax_cmd.php` | Medium
-48 | File | `album_portal.php` | High
-49 | File | `appfeed.c` | Medium
-50 | File | `ara.asp` | Low
-51 | File | `askapache-firefox-adsense.php` | High
+29 | File | `admin` | Low
+30 | File | `admin.asp` | Medium
+31 | File | `admin/admin.asp` | High
+32 | File | `admin/admin.php` | High
+33 | File | `admin/content.php` | High
+34 | File | `admin/gallery.php` | High
+35 | File | `admin/images.aspx` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+38 | File | `admin/login.asp` | High
+39 | File | `admin/manage-departments.php` | High
+40 | File | `admin/sellerupd.php` | High
+41 | File | `admin/sitesettings.php` | High
+42 | File | `advsearch.asp` | High
+43 | File | `AEAgent.cpp` | Medium
+44 | File | `affich.php` | Medium
+45 | File | `agent/Core/Controller/SendRequest.cpp` | High
+46 | File | `ajax.php` | Medium
+47 | File | `ajax_calls.php` | High
+48 | File | `ajax_cmd.php` | Medium
+49 | File | `album_portal.php` | High
+50 | File | `appfeed.c` | Medium
+51 | File | `ara.asp` | Low
 52 | File | `aspx` | Low
 53 | File | `auction_details.php` | High
 54 | File | `auth.inc.php` | Medium
 55 | File | `backend/utilities/terminal.js` | High
 56 | File | `blocking.asp` | Medium
-57 | ... | ... | ...
+57 | File | `blueprints/sections/edit/1` | High
+58 | ... | ... | ...
 
-There are 501 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

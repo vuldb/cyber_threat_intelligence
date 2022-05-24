@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
 * [FR](https://vuldb.com/?country.fr)
-* [PL](https://vuldb.com/?country.pl)
 * [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
@@ -52,29 +52,33 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/customers.php?page=1&cID` | High
 3 | File | `/admin/link/link_ok.php` | High
 4 | File | `/admin/show.php` | High
-5 | File | `/administrator/components/menu/` | High
+5 | File | `/administrator/alerts/alertLightbox.php` | High
 6 | File | `/app/register.php` | High
-7 | File | `/data/sqldata` | High
-8 | File | `/feedback/post/` | High
-9 | File | `/goform/SetPptpServerCfg` | High
-10 | File | `/hdf5/src/H5Fint.c` | High
-11 | File | `/index.php?page=reserve` | High
-12 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-13 | File | `/jerry-core/ecma/base/ecma-literal-storage.c` | High
-14 | File | `/jerry-core/ecma/builtin-objects/ecma-builtin-date-prototype.c` | High
-15 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-16 | File | `/public/launchNewWindow.jsp` | High
-17 | File | `/purchase_order/admin/?page=user` | High
-18 | File | `/reps/admin/?page=agents/manage_agent` | High
-19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-20 | File | `/scas/classes/Users.php?f=save_user` | High
-21 | File | `/servlets/Jmx_dynamic` | High
-22 | File | `/setting/NTPSyncWithHost` | High
-23 | File | `/src/njs_object.c` | High
-24 | File | `/template/unzip.do` | High
-25 | ... | ... | ...
+7 | File | `/CommunitySSORedirect.jsp` | High
+8 | File | `/config` | Low
+9 | File | `/ctpms/admin/individuals/update_status.php` | High
+10 | File | `/data/sqldata` | High
+11 | File | `/feedback/post/` | High
+12 | File | `/goform/setDeviceSettings` | High
+13 | File | `/goform/SetPptpServerCfg` | High
+14 | File | `/help/treecontent.jsp` | High
+15 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+16 | File | `/index.php?page=reserve` | High
+17 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
+18 | File | `/public/launchNewWindow.jsp` | High
+19 | File | `/purchase_order/admin/?page=user` | High
+20 | File | `/reps/admin/?page=agents/manage_agent` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/scas/classes/Users.php?f=save_user` | High
+23 | File | `/servlets/Jmx_dynamic` | High
+24 | File | `/setting/CloudACMunualUpdate` | High
+25 | File | `/setting/NTPSyncWithHost` | High
+26 | File | `/setting/setWebWlanIdx` | High
+27 | File | `/simple_chat_bot/admin/responses/view_response.php` | High
+28 | File | `/src/njs_object.c` | High
+29 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

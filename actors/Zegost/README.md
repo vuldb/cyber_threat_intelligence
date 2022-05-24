@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,16 +34,22 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [20.210.205.20](https://vuldb.com/?ip.20.210.205.20) | - | - | High
 12 | [23.89.5.60](https://vuldb.com/?ip.23.89.5.60) | mtx77mcs683.webex.com | - | High
 13 | [27.40.253.131](https://vuldb.com/?ip.27.40.253.131) | - | - | High
-14 | [43.248.201.133](https://vuldb.com/?ip.43.248.201.133) | - | - | High
-15 | [45.35.20.197](https://vuldb.com/?ip.45.35.20.197) | unassigned.psychz.net | - | High
-16 | [45.39.189.31](https://vuldb.com/?ip.45.39.189.31) | - | - | High
-17 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
-18 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
-19 | [50.63.202.70](https://vuldb.com/?ip.50.63.202.70) | ip-50-63-202-70.ip.secureserver.net | - | High
-20 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
-21 | ... | ... | ... | ...
+14 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+15 | [35.244.181.201](https://vuldb.com/?ip.35.244.181.201) | 201.181.244.35.bc.googleusercontent.com | - | Medium
+16 | [43.248.201.133](https://vuldb.com/?ip.43.248.201.133) | - | - | High
+17 | [45.35.20.197](https://vuldb.com/?ip.45.35.20.197) | unassigned.psychz.net | - | High
+18 | [45.39.189.31](https://vuldb.com/?ip.45.39.189.31) | - | - | High
+19 | [45.114.11.195](https://vuldb.com/?ip.45.114.11.195) | - | - | High
+20 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
+21 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
+22 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
+23 | [50.63.202.70](https://vuldb.com/?ip.50.63.202.70) | ip-50-63-202-70.ip.secureserver.net | - | High
+24 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
+25 | [50.63.202.88](https://vuldb.com/?ip.50.63.202.88) | ip-50-63-202-88.ip.secureserver.net | - | High
+26 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 81 more IOC items available. Please use our online service to access the data.
+There are 106 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,8 +58,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -64,57 +70,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/default.asp` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/assets/ctx` | Medium
-7 | File | `/cgi-bin/login_action.cgi` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/checkLogin.cgi` | High
-10 | File | `/cms/print.php` | High
-11 | File | `/concat?/%2557EB-INF/web.xml` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/etc/ajenti/config.yml` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/goform/telnet` | High
-16 | File | `/login` | Low
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/navigate/navigate_download.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/p` | Low
-22 | File | `/password.html` | High
-23 | File | `/proc/ioports` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/ptms/classes/Users.php` | High
-26 | File | `/rest` | Low
-27 | File | `/rest/api/2/search` | High
-28 | File | `/rom-0` | Low
-29 | File | `/s/` | Low
-30 | File | `/scripts/cpan_config` | High
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/services/system/setup.json` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/webconsole/APIController` | High
-35 | File | `/websocket/exec` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/wp-json` | Medium
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `/_next` | Low
-40 | File | `4.edu.php\conn\function.php` | High
-41 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-42 | File | `adclick.php` | Medium
-43 | File | `addentry.php` | Medium
-44 | File | `admin/admin.php` | High
-45 | File | `admin/category.inc.php` | High
-46 | File | `admin/conf_users_edit.php` | High
-47 | File | `admin/dl_sendmail.php` | High
-48 | File | `admin/index.php` | High
-49 | ... | ... | ...
+1 | File | `/admin.php?r=admin/AdminBackup/del` | High
+2 | File | `/admin/edit.php` | High
+3 | File | `/admin/index.php/template/ajax?action=delete` | High
+4 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+5 | File | `/admin/users.php?source=edit_user&id=1` | High
+6 | File | `/administrator/alerts/alertLightbox.php` | High
+7 | File | `/administrator/templates/default/html/windows/right.php` | High
+8 | File | `/apps/acs-commons/content/page-compare.html` | High
+9 | File | `/Content/Template/root/reverse-shell.aspx` | High
+10 | File | `/demo/module/?module=HERE` | High
+11 | File | `/download/set.cgi` | High
+12 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +91,9 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0517-0524.html
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-1016-1023.html
+* https://blog.talosintelligence.com/2020/11/threat-roundup-1106-1113.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0305-0312.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0409-0416.html

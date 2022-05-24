@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
-* [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [UA](https://vuldb.com/?country.ua)
+* [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -24,6 +24,9 @@ ID | Actor | Confidence
 1 | [Molerats](https://vuldb.com/?actor.molerats) | High
 2 | [Wirte](https://vuldb.com/?actor.wirte) | High
 3 | [DNSpionage](https://vuldb.com/?actor.dnspionage) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,12 +34,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [23.94.218.221](https://vuldb.com/?ip.23.94.218.221) | 23-94-218-221-host.colocrossing.com | [Molerats](https://vuldb.com/?actor.molerats) | High
-2 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | [Molerats](https://vuldb.com/?actor.molerats) | Medium
-3 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | [Wirte](https://vuldb.com/?actor.wirte) | High
-4 | ... | ... | ... | ...
+1 | [5.34.180.252](https://vuldb.com/?ip.5.34.180.252) | storage-948074.hosted-by.itldc.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+2 | [5.34.181.13](https://vuldb.com/?ip.5.34.181.13) | backups231.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+3 | [23.94.218.221](https://vuldb.com/?ip.23.94.218.221) | 23-94-218-221-host.colocrossing.com | [Molerats](https://vuldb.com/?actor.molerats) | High
+4 | [31.192.105.16](https://vuldb.com/?ip.31.192.105.16) | down-it-niscat.donotbargain.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+5 | [31.192.105.17](https://vuldb.com/?ip.31.192.105.17) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+6 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+7 | [38.130.75.20](https://vuldb.com/?ip.38.130.75.20) | h20-us75.fcsrv.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+8 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | [Molerats](https://vuldb.com/?actor.molerats) | Medium
+9 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | [Wirte](https://vuldb.com/?actor.wirte) | High
+10 | [45.129.97.207](https://vuldb.com/?ip.45.129.97.207) | - | [Wirte](https://vuldb.com/?actor.wirte) | High
+11 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+12 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+13 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+14 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+15 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+16 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+17 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+18 | [91.203.6.27](https://vuldb.com/?ip.91.203.6.27) | wbqj.duound.com | [Wirte](https://vuldb.com/?actor.wirte) | High
+19 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 72 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,21 +75,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/example/editor` | High
-2 | File | `/forms/nslookupHandler` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/goform/form2userconfig.cgi` | High
-5 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-6 | File | `/members/view_member.php` | High
-7 | File | `/var/log/demisto/` | High
-8 | ... | ... | ...
+1 | File | `/admin/edit.php` | High
+2 | File | `/admin/modules/system/custom_field.php` | High
+3 | File | `/admin/new-content` | High
+4 | File | `/admin/weixin.php` | High
+5 | File | `/alerts/alertLightbox.php` | High
+6 | File | `/api /v3/auth` | High
+7 | File | `/apilog.php` | Medium
+8 | File | `/apps/acs-commons/content/page-compare.html` | High
+9 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+10 | File | `/cloud_config/router_post/upgrade_info` | High
+11 | File | `/cms/classes/Master.php?f=delete_client` | High
+12 | File | `/config` | Low
+13 | File | `/example/editor` | High
+14 | File | `/goform/login_process` | High
+15 | File | `/goform/SetInternetLanInfo` | High
+16 | File | `/goform/setNetworkLan` | High
+17 | File | `/goform/setPicListItem` | High
+18 | File | `/goform/SetSysTimeCfg` | High
+19 | File | `/html/Solar_Ftp.php` | High
+20 | File | `/members/view_member.php` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/mngset/authset` | High
+23 | File | `/mtms/admin/?page=transaction/send` | High
+24 | File | `/ok_png.c` | Medium
+25 | File | `/one_church/userregister.php` | High
+26 | File | `/page.php` | Medium
+27 | File | `/php/ajax.php` | High
+28 | File | `/reps/classes/Master.php?f=delete_estate` | High
+29 | File | `/scbs/admin/bookings/view_booking.php` | High
+30 | File | `/setting/CloudACMunualUpdate` | High
+31 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.talosintelligence.com/2020/01/mideast-tensions-preparations.html
 * https://gblogs.cisco.com/jp/2018/12/talos-dnspionage-campaign-targets-middle-east/)
 * https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/
 * https://www.zscaler.com/blogs/security-research/new-espionage-attack-molerats-apt-targeting-users-middle-east

@@ -63,31 +63,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/cgiServer.exx` | High
-2 | File | `/cgi-bin/login_action.cgi` | High
-3 | File | `/cgi-bin/nobody/Search.cgi` | High
-4 | File | `/cgi-bin/webviewer_login_page` | High
-5 | File | `/dev/sg0` | Medium
-6 | File | `/event/runquery.do` | High
-7 | File | `/filemanager/php/connector.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/setmac` | High
-10 | File | `/log_download.cgi` | High
-11 | File | `/manager?action=getlogcat` | High
-12 | File | `/pages/systemcall.php?command={COMMAND}` | High
-13 | File | `/password.html` | High
-14 | File | `/system/ws/v11/ss/email` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `add_vhost.php` | High
-17 | File | `admin/images.aspx` | High
-18 | File | `admin/index.php` | High
-19 | File | `adv2.php?action=modify` | High
-20 | File | `agent.cfg` | Medium
-21 | File | `arch/x86/include/asm/fpu/internal.h` | High
-22 | File | `asm/float.c` | Medium
-23 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/cgi-bin/cgiServer.exx` | High
+3 | File | `/cgi-bin/login_action.cgi` | High
+4 | File | `/cgi-bin/nobody/Search.cgi` | High
+5 | File | `/cgi-bin/webviewer_login_page` | High
+6 | File | `/dev/sg0` | Medium
+7 | File | `/event/runquery.do` | High
+8 | File | `/filemanager/php/connector.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/setmac` | High
+11 | File | `/log_download.cgi` | High
+12 | File | `/manager?action=getlogcat` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/pages/systemcall.php?command={COMMAND}` | High
+15 | File | `/password.html` | High
+16 | File | `/system/ws/v11/ss/email` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `add_vhost.php` | High
+19 | File | `admin/images.aspx` | High
+20 | File | `admin/index.php` | High
+21 | File | `adv2.php?action=modify` | High
+22 | File | `agent.cfg` | Medium
+23 | File | `arch/x86/include/asm/fpu/internal.h` | High
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

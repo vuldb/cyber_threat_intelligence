@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.hancitor](https://vuldb.com/?actor.hancitor)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Hancitor:
+
+* Cobalt Strike
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hancitor:
@@ -40,9 +46,10 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [34.213.214.65](https://vuldb.com/?ip.34.213.214.65) | ec2-34-213-214-65.us-west-2.compute.amazonaws.com | - | Medium
 18 | [45.40.182.1](https://vuldb.com/?ip.45.40.182.1) | ip-45-40-182-1.ip.secureserver.net | - | High
 19 | [45.49.169.80](https://vuldb.com/?ip.45.49.169.80) | cpe-45-49-169-80.socal.res.rr.com | - | High
-20 | ... | ... | ... | ...
+20 | [45.153.73.33](https://vuldb.com/?ip.45.153.73.33) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 75 more IOC items available. Please use our online service to access the data.
+There are 79 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,41 +75,39 @@ ID | Type | Indicator | Confidence
 3 | File | `/concat?/%2557EB-INF/web.xml` | High
 4 | File | `/download` | Medium
 5 | File | `/drivers/infiniband/core/cm.c` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/horde/util/go.php` | High
-8 | File | `/images/` | Medium
-9 | File | `/inc/extensions.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/login` | Low
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/nova/bin/console` | High
-14 | File | `/objects/getImageMP4.php` | High
-15 | File | `/one_church/userregister.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/public/plugins/` | High
-18 | File | `/replication` | Medium
-19 | File | `/req_password_user.php` | High
-20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-21 | File | `/SASWebReportStudio/logonAndRender.do` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/phpglibccheck` | High
+6 | File | `/files.md5` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/horde/util/go.php` | High
+9 | File | `/images/` | Medium
+10 | File | `/inc/extensions.php` | High
+11 | File | `/inc/parser/xhtml.php` | High
+12 | File | `/login` | Low
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/nova/bin/console` | High
+15 | File | `/objects/getImageMP4.php` | High
+16 | File | `/one_church/userregister.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/public/plugins/` | High
+19 | File | `/replication` | Medium
+20 | File | `/req_password_user.php` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+27 | File | `/tmp` | Low
 28 | File | `/uncpath/` | Medium
 29 | File | `/usr/syno/etc/mount.conf` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `adclick.php` | Medium
-34 | File | `addentry.php` | Medium
-35 | File | `admin.jcomments.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/conf_users_edit.php` | High
-38 | ... | ... | ...
+30 | File | `/v2/quantum/save-data-upload-big-file` | High
+31 | File | `/WEB-INF/web.xml` | High
+32 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+33 | File | `/wp-json/oembed/1.0/embed?url` | High
+34 | File | `adclick.php` | Medium
+35 | File | `addentry.php` | Medium
+36 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +124,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 * https://isc.sans.edu/forums/diary/Malspam+pushing+Word+documents+with+Hancitor+malware/22858/
 * https://isc.sans.edu/forums/diary/RTF+files+for+Hancitor+utilize+exploit+for+CVE201711882/23271/
+* https://thedfirreport.com/2021/06/28/hancitor-continues-to-push-cobalt-strike/
+* https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/
 
 ## Literature
 

@@ -97,9 +97,10 @@ ID | Type | Indicator | Confidence
 35 | File | `ashnews.php/ashheadlines.php` | High
 36 | File | `base/ErrorHandler.php` | High
 37 | File | `blog.php` | Medium
-38 | ... | ... | ...
+38 | File | `board.php` | Medium
+39 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

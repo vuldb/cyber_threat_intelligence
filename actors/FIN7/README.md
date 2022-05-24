@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,61 +94,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/bsms/?page=products` | High
-3 | File | `/cgi-bin/system_mgr.cgi` | High
-4 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-5 | File | `/context/%2e/WEB-INF/web.xml` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/ext/phar/phar_object.c` | High
-8 | File | `/filemanager/php/connector.php` | High
+1 | File | `/bsms/?page=products` | High
+2 | File | `/cgi-bin/system_mgr.cgi` | High
+3 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+4 | File | `/context/%2e/WEB-INF/web.xml` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/ext/phar/phar_object.c` | High
+7 | File | `/filemanager/php/connector.php` | High
+8 | File | `/fuel/index.php/fuel/logs/items` | High
 9 | File | `/get_getnetworkconf.cgi` | High
 10 | File | `/HNAP1` | Low
 11 | File | `/include/chart_generator.php` | High
-12 | File | `/modx/manager/index.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/new` | Low
-15 | File | `/proc/<pid>/status` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/replication` | Medium
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/type.php` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `4.2.0.CP09` | Medium
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `802dot1xclientcert.cgi` | High
-31 | File | `AccountManagerService.java` | High
-32 | File | `actions/CompanyDetailsSave.php` | High
-33 | File | `ActivityManagerService.java` | High
-34 | File | `add.exe` | Low
-35 | File | `admin.color.php` | High
-36 | File | `admin.cropcanvas.php` | High
-37 | File | `admin.joomlaradiov5.php` | High
+12 | File | `/info.cgi` | Medium
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/modx/manager/index.php` | High
+15 | File | `/new` | Low
+16 | File | `/proc/<pid>/status` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/replication` | Medium
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+25 | File | `/tmp` | Low
+26 | File | `/type.php` | Medium
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/wp-json/wc/v3/webhooks` | High
+30 | File | `4.2.0.CP09` | Medium
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `802dot1xclientcert.cgi` | High
+33 | File | `a2billing/customer/iridium_threed.php` | High
+34 | File | `AccountManagerService.java` | High
+35 | File | `actions/CompanyDetailsSave.php` | High
+36 | File | `ActivityManagerService.java` | High
+37 | File | `add.exe` | Low
 38 | File | `admin.php` | Medium
 39 | File | `admin.php?m=Food&a=addsave` | High
 40 | File | `admin/add-glossary.php` | High
 41 | File | `admin/conf_users_edit.php` | High
 42 | File | `admin/edit-comments.php` | High
 43 | File | `admin/index.php` | High
-44 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-45 | File | `admin/write-post.php` | High
-46 | File | `administrator/components/com_media/helpers/media.php` | High
-47 | File | `admin_events.php` | High
-48 | File | `aidl_const_expressions.cpp` | High
-49 | File | `ajax/include.php` | High
-50 | File | `AjaxApplication.java` | High
-51 | File | `akocomments.php` | High
-52 | File | `allopass-error.php` | High
-53 | ... | ... | ...
+44 | File | `administrator/components/com_media/helpers/media.php` | High
+45 | File | `ahcache.sys` | Medium
+46 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

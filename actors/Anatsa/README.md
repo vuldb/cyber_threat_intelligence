@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -30,8 +31,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Library | `FARFLT.SYS` | Medium
-2 | Argument | `wan_dyn_hostname` | High
+1 | File | `Illuminate\Broadcasting\PendingBroadcast.php` | High
+2 | Library | `FARFLT.SYS` | Medium
+3 | Argument | `wan_dyn_hostname` | High
 
 ## References
 

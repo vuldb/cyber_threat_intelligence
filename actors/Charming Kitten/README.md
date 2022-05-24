@@ -74,36 +74,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/?module=users&section=cpanel&page=list` | High
-4 | File | `/context/%2e/WEB-INF/web.xml` | High
-5 | File | `/file?action=download&file` | High
-6 | File | `/medical/inventories.php` | High
-7 | File | `/monitoring` | Medium
-8 | File | `/new` | Low
-9 | File | `/plugins/servlet/audit/resource` | High
-10 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-11 | File | `/proc/<pid>/status` | High
-12 | File | `/public/plugins/` | High
-13 | File | `/replication` | Medium
-14 | File | `/RestAPI` | Medium
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/QueryComponent!Default.jspa` | High
-17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
+2 | File | `/context/%2e/WEB-INF/web.xml` | High
+3 | File | `/file?action=download&file` | High
+4 | File | `/fuel/index.php/fuel/logs/items` | High
+5 | File | `/monitoring` | Medium
+6 | File | `/new` | Low
+7 | File | `/plugins/servlet/audit/resource` | High
+8 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+9 | File | `/proc/<pid>/status` | High
+10 | File | `/public/plugins/` | High
+11 | File | `/replication` | Medium
+12 | File | `/RestAPI` | Medium
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/secure/QueryComponent!Default.jspa` | High
+15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+16 | File | `/tmp` | Low
+17 | File | `/tmp/zarafa-vacation-*` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
 20 | File | `/var/log/nginx` | High
 21 | File | `/wp-json/wc/v3/webhooks` | High
 22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 23 | File | `AccountManagerService.java` | High
 24 | File | `actions/CompanyDetailsSave.php` | High
-25 | File | `ActiveServices.java` | High
-26 | File | `ActivityManagerService.java` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-29 | ... | ... | ...
+25 | File | `ActivityManagerService.java` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/add-glossary.php` | High
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/edit-comments.php` | High
+30 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

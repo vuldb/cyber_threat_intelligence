@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snatch:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [RU](https://vuldb.com/?country.ru)
-* [BE](https://vuldb.com/?country.be)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [67.211.209.151](https://vuldb.com/?ip.67.211.209.151) | vps2367725.trouble-free.net | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,19 +47,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/export` | Low
-3 | File | `/tmp` | Low
-4 | File | `backupmgt/pre_connect_check.php` | High
-5 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\WrData\PKG` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/assets/components/gallery/connector.php` | High
+4 | File | `/etc/target` | Medium
+5 | File | `/export` | Low
+6 | File | `/getcfg.php` | Medium
+7 | File | `/goform/WriteFacMac` | High
+8 | File | `/lists/admin/user.php` | High
+9 | File | `/tmp` | Low
+10 | File | `/uncpath/` | Medium
+11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+12 | File | `/_vti_pvt/access.cnf` | High
+13 | File | `admin.php3` | Medium
+14 | File | `admin/mobile.php` | High
+15 | File | `admin/themes` | Medium
+16 | File | `administration/comments.php` | High
+17 | File | `admin_hacks_list.php` | High
+18 | File | `affiliate_signup.php` | High
+19 | File | `ajax.php` | Medium
+20 | File | `amadmin.pl` | Medium
+21 | File | `apirest.php/User` | High
+22 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Snatch
+* https://thedfirreport.com/2020/06/21/snatch-ransomware/
 
 ## Literature
 

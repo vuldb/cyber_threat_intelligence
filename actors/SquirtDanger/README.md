@@ -84,29 +84,29 @@ ID | Type | Indicator | Confidence
 14 | File | `/include/makecvs.php` | High
 15 | File | `/login` | Low
 16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/new` | Low
-19 | File | `/proc/<pid>/status` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/rom` | Low
-22 | File | `/scripts/killpvhost` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/redis.ds` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/ViewUserHover.jspa` | High
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `AccountManagerService.java` | High
-34 | File | `actions/CompanyDetailsSave.php` | High
-35 | File | `ActiveServices.java` | High
-36 | File | `ActivityManagerService.java` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/new` | Low
+20 | File | `/proc/<pid>/status` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/rom` | Low
+23 | File | `/scripts/killpvhost` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+27 | File | `/tmp` | Low
+28 | File | `/tmp/redis.ds` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/ViewUserHover.jspa` | High
+31 | File | `/wp-admin` | Medium
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | File | `AccountManagerService.java` | High
+35 | File | `actions/CompanyDetailsSave.php` | High
+36 | File | `ActiveServices.java` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

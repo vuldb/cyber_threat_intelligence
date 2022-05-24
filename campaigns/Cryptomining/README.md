@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cryptomining:
 
 * [US](https://vuldb.com/?country.us)
-* [HU](https://vuldb.com/?country.hu)
 * [CN](https://vuldb.com/?country.cn)
+* [HU](https://vuldb.com/?country.hu)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 9 | File | `agent.cfg` | Medium
 10 | File | `ALL_IN_THE_BOX.OCX` | High
 11 | File | `bmp.c` | Low
-12 | ... | ... | ...
+12 | File | `class.mysql.php` | High
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [PL](https://vuldb.com/?country.pl)
-* [SV](https://vuldb.com/?country.sv)
 * [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,39 +67,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/admin.php/admin/art/data.html` | High
+1 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/admin/goods/update` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/posts.php` | High
-6 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+4 | File | `/admin/posts.php` | High
+5 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+6 | File | `/admin/weixin.php` | High
 7 | File | `/administrator/alerts/alertLightbox.php` | High
-8 | File | `/api/appInternals/1.0/agent/configuration&amp` | High
-9 | File | `/api/appInternals/1.0/agent/diagnostic/logs` | High
-10 | File | `/api/fetch` | Medium
-11 | File | `/api/user/{ID}` | High
-12 | File | `/audit/log/log_management.php` | High
-13 | File | `/blog/blog.php` | High
-14 | File | `/cloud_config/router_post/register` | High
-15 | File | `/cmd?cmd=connect` | High
-16 | File | `/config/list` | Medium
-17 | File | `/customer_register.php` | High
-18 | File | `/cwms/admin/?page=articles/view_article/` | High
-19 | File | `/etc/master.passwd` | High
-20 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-21 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-22 | File | `/i/:data/ipa.plist` | High
-23 | File | `/index.php?page=reserve` | High
-24 | File | `/ManageRoute/postRoute` | High
-25 | File | `/module/api.php?mobile/webNasIPS` | High
-26 | File | `/modules/eligibility/Student.php` | High
-27 | File | `/plesk-site-preview/` | High
-28 | File | `/public_html/apply_vacancy` | High
-29 | File | `/purchase_order/classes/Master.php?f=delete_item` | High
-30 | File | `/reps/classes/Users.php?f=delete_agent` | High
-31 | ... | ... | ...
+8 | File | `/blog/blog.php` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cmd?cmd=connect` | High
+11 | File | `/cms/admin/?page=invoice/view_invoice` | High
+12 | File | `/cms/classes/Master.php?f=delete_invoice` | High
+13 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+14 | File | `/ctpms/admin/applications/update_status.php` | High
+15 | File | `/dms/admin/reports/daily_collection_report.php` | High
+16 | File | `/etc/networkd-dispatcher` | High
+17 | File | `/goform/form2Dhcpip` | High
+18 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+19 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+20 | File | `/includes/login.php` | High
+21 | File | `/module/api.php?mobile/webNasIPS` | High
+22 | File | `/modules/eligibility/Student.php` | High
+23 | File | `/mtms/classes/Users.php?f=delete` | High
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/purchase_order/classes/Master.php?f=delete_item` | High
+26 | File | `/reps/classes/Users.php?f=delete_agent` | High
+27 | File | `/resources//../` | High
+28 | File | `/role/saveOrUpdateRole.do` | High
+29 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+30 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

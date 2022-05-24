@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,32 +53,37 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/admin/website/data.html` | High
 5 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
 6 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-7 | File | `/admin/inbox.php&action=read` | High
-8 | File | `/admin/posts.php` | High
-9 | File | `/admin/posts.php&action=delete` | High
-10 | File | `/admin/run_ajax.php` | High
-11 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-12 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-13 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-14 | File | `/admin_page/all-files-update-ajax.php` | High
-15 | File | `/api/crontab` | Medium
-16 | File | `/blog/blog.php` | High
-17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-18 | File | `/cgi-bin/kerbynet` | High
-19 | File | `/cloud_config/router_post/modify_account_pwd` | High
-20 | File | `/cloud_config/router_post/register` | High
-21 | File | `/config/list` | Medium
-22 | File | `/download/` | Medium
-23 | File | `/etc/ajenti/config.yml` | High
-24 | File | `/etc/cobbler` | Medium
-25 | File | `/etc/passwd` | Medium
-26 | File | `/export` | Low
-27 | File | `/goform/delAd` | High
-28 | File | `/goform/form2Reboot.cgi` | High
-29 | File | `/home.asp` | Medium
-30 | ... | ... | ...
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/inbox.php&action=read` | High
+9 | File | `/admin/new-content` | High
+10 | File | `/admin/posts.php` | High
+11 | File | `/admin/posts.php&action=delete` | High
+12 | File | `/admin/run_ajax.php` | High
+13 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+15 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+16 | File | `/admin_page/all-files-update-ajax.php` | High
+17 | File | `/api/crontab` | Medium
+18 | File | `/blog/blog.php` | High
+19 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+20 | File | `/cgi-bin/kerbynet` | High
+21 | File | `/cloud_config/router_post/modify_account_pwd` | High
+22 | File | `/cloud_config/router_post/register` | High
+23 | File | `/cms/classes/Master.php?f=delete_service` | High
+24 | File | `/config/list` | Medium
+25 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+26 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+27 | File | `/download/` | Medium
+28 | File | `/etc/ajenti/config.yml` | High
+29 | File | `/etc/passwd` | Medium
+30 | File | `/export` | Low
+31 | File | `/goform/AdvSetLanIp` | High
+32 | File | `/goform/delAd` | High
+33 | File | `/goform/form2Reboot.cgi` | High
+34 | File | `/goform/SetNetControlList` | High
+35 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkComet:
 
+* [UA](https://vuldb.com/?country.ua)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,11 +34,14 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [23.64.110.64](https://vuldb.com/?ip.23.64.110.64) | a23-64-110-64.deploy.static.akamaitechnologies.com | - | High
 16 | [23.67.200.172](https://vuldb.com/?ip.23.67.200.172) | a23-67-200-172.deploy.static.akamaitechnologies.com | - | High
 17 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
-18 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
-19 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
-20 | ... | ... | ... | ...
+18 | [25.109.69.178](https://vuldb.com/?ip.25.109.69.178) | - | - | High
+19 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
+20 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
+21 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
+22 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+23 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,12 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
-
-There are 4 more TTP items available. Please use our online service to access the data.
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -63,25 +57,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-3 | File | `/modules/tasks/summary.inc.php` | High
-4 | File | `/usr/bin/pkexec` | High
-5 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-6 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-7 | File | `admin.php` | Medium
-8 | File | `adminpasswd.cgi` | High
-9 | File | `ajax.php` | Medium
-10 | File | `apache2/modsecurity.c` | High
-11 | ... | ... | ...
+1 | File | `admin.php` | Medium
+2 | File | `apache2/modsecurity.c` | High
+3 | File | `forumrunner/includes/moderation.php` | High
+4 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0517-0524.html
+* https://blog.talosintelligence.com/2019/09/threat-roundup-0906-0913.html
+* https://blog.talosintelligence.com/2019/11/threat-roundup-1101-1108.html
+* https://blog.talosintelligence.com/2019/12/threat-roundup-1206-1213.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0205-0212.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html

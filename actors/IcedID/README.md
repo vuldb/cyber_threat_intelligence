@@ -45,9 +45,10 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
 17 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
 18 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
-19 | ... | ... | ... | ...
+19 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
+20 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,39 +85,39 @@ ID | Type | Indicator | Confidence
 14 | File | `/include/menu_v.inc.php` | High
 15 | File | `/lms/admin.php` | High
 16 | File | `/mc` | Low
-17 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-18 | File | `/opt/novell/ncl/bin/nwrights` | High
-19 | File | `/out.php` | Medium
-20 | File | `/proc/*/cmdline"` | High
-21 | File | `/proc/pid/syscall` | High
-22 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-23 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/log/pcp/configs.sh` | High
-26 | File | `/webconsole/APIController` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-29 | File | `a-b-membres.php` | High
-30 | File | `action.php` | Medium
-31 | File | `admin-search.php` | High
-32 | File | `admin.jcomments.php` | High
-33 | File | `admin/adminsignin.html` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/infoclass_update.php` | High
-36 | File | `admin/plugin.php` | High
-37 | File | `admin/test.php` | High
-38 | File | `admin/versions.html` | High
-39 | File | `administrator/index.php?option=com_pago&view=comments` | High
-40 | File | `Adminlog.asp` | Medium
-41 | File | `admin_iplog.php` | High
-42 | File | `ajax.php` | Medium
-43 | File | `ajax_admin_apis.php` | High
-44 | File | `ajax_php_pecl.php` | High
-45 | File | `allocate_block.cpp` | High
-46 | File | `api.cc` | Low
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+19 | File | `/opt/novell/ncl/bin/nwrights` | High
+20 | File | `/out.php` | Medium
+21 | File | `/proc/*/cmdline"` | High
+22 | File | `/proc/pid/syscall` | High
+23 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+24 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/var/log/pcp/configs.sh` | High
+27 | File | `/webconsole/APIController` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+30 | File | `a-b-membres.php` | High
+31 | File | `action.php` | Medium
+32 | File | `admin-search.php` | High
+33 | File | `admin.jcomments.php` | High
+34 | File | `admin/adminsignin.html` | High
+35 | File | `admin/index.php` | High
+36 | File | `admin/infoclass_update.php` | High
+37 | File | `admin/plugin.php` | High
+38 | File | `admin/test.php` | High
+39 | File | `admin/versions.html` | High
+40 | File | `administrator/index.php?option=com_pago&view=comments` | High
+41 | File | `Adminlog.asp` | Medium
+42 | File | `admin_iplog.php` | High
+43 | File | `ajax.php` | Medium
+44 | File | `ajax_admin_apis.php` | High
+45 | File | `ajax_php_pecl.php` | High
+46 | File | `allocate_block.cpp` | High
 47 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -134,6 +135,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2021/melting-ice-tracking-icedid-servers-with-a-few-simple-steps/
 * https://thedfirreport.com/2021/07/19/icedid-and-cobalt-strike-vs-antivirus/
 * https://thedfirreport.com/2021/10/18/icedid-to-xinglocker-ransomware-in-24-hours/
+* https://www.cybereason.com/blog/cybereason-vs.-quantum-locker-ransomware
 
 ## Literature
 

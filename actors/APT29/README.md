@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -84,38 +84,38 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/user/team` | High
 7 | File | `/api/upload` | Medium
 8 | File | `/cgi-bin` | Medium
-9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-14 | File | `/fudforum/adm/hlplist.php` | High
-15 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-16 | File | `/login` | Low
-17 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/ms/cms/content/list.do` | High
-20 | File | `/new` | Low
-21 | File | `/orms/` | Low
-22 | File | `/plesk-site-preview/` | High
-23 | File | `/proc/<pid>/status` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/rom` | Low
-26 | File | `/scripts/killpvhost` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-30 | File | `/student-grading-system/rms.php?page=grade` | High
-31 | File | `/tmp` | Low
-32 | File | `/tmp/redis.ds` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-json/wc/v3/webhooks` | High
-36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-37 | File | `ABuffer.cpp` | Medium
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/common/logViewer/logViewer.jsf` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+13 | File | `/fuel/index.php/fuel/logs/items` | High
+14 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+15 | File | `/login` | Low
+16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/new` | Low
+20 | File | `/orms/` | Low
+21 | File | `/plesk-site-preview/` | High
+22 | File | `/proc/<pid>/status` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/scripts/killpvhost` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+28 | File | `/student-grading-system/rms.php?page=grade` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/redis.ds` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/wp-admin` | Medium
+33 | File | `/wp-json/wc/v3/webhooks` | High
+34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+35 | File | `ABuffer.cpp` | Medium
+36 | File | `AccountManagerService.java` | High
+37 | File | `actions/CompanyDetailsSave.php` | High
 38 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -77,25 +77,25 @@ ID | Type | Indicator | Confidence
 15 | File | `/index.class.php` | High
 16 | File | `/knowage/restful-services/documentnotes/saveNote` | High
 17 | File | `/log_download.cgi` | High
-18 | File | `/MIME/INBOX-MM-1/` | High
-19 | File | `/new` | Low
-20 | File | `/nova/bin/diskd` | High
-21 | File | `/nova/bin/lcdstat` | High
-22 | File | `/proc/pid/syscall` | High
-23 | File | `/servlet/AdapterHTTP` | High
-24 | File | `/tmp` | Low
-25 | File | `/user/ldap_user/add` | High
-26 | File | `/wp-admin/upload.php?page=instant-images` | High
-27 | File | `admin/article/add.html` | High
-28 | File | `admin/navbar.php?action=add_page` | High
-29 | File | `admin/plugin-settings.php` | High
-30 | File | `admin/user_import.php` | High
-31 | File | `admin/wenjian.php?wj=../templets/pc` | High
-32 | File | `administrative` | High
-33 | File | `Administrative` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/MIME/INBOX-MM-1/` | High
+20 | File | `/new` | Low
+21 | File | `/nova/bin/diskd` | High
+22 | File | `/nova/bin/lcdstat` | High
+23 | File | `/proc/pid/syscall` | High
+24 | File | `/servlet/AdapterHTTP` | High
+25 | File | `/tmp` | Low
+26 | File | `/user/ldap_user/add` | High
+27 | File | `/wp-admin/upload.php?page=instant-images` | High
+28 | File | `admin/article/add.html` | High
+29 | File | `admin/navbar.php?action=add_page` | High
+30 | File | `admin/plugin-settings.php` | High
+31 | File | `admin/user_import.php` | High
+32 | File | `admin/wenjian.php?wj=../templets/pc` | High
+33 | File | `administrative` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,8 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PowerTrick:
 
-* [ES](https://vuldb.com/?country.es)
 * [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -40,37 +41,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config.php?display=disa&view=form` | High
-2 | File | `/etc/waipass` | Medium
-3 | File | `/ext/phar/phar_object.c` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/phppath/php` | Medium
-6 | File | `/services/getFile.cmd` | High
-7 | File | `/tools/required/files/importers/imageeditor` | High
-8 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-9 | File | `/var/log/messages` | High
-10 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-11 | File | `/webconsole/Controller` | High
-12 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-13 | File | `acl/save_user.cgi` | High
-14 | File | `adaptive-images-script.php` | High
-15 | File | `admin/auth.php` | High
-16 | File | `admin/blogs.php` | High
-17 | File | `admin/cgi-bin/listdir.pl` | High
-18 | File | `admin/convertutf8/index.php` | High
-19 | File | `admin/inc/template_functions.php` | High
-20 | File | `admin/settings/update/` | High
-21 | File | `adminuseredit.php?usertoedit=XSS` | High
-22 | File | `admin_console/web/tools/SimpleJWPlayer.php` | High
-23 | File | `app/admin/instructions/preview.php` | High
-24 | File | `app/webroot/js/misp2.4.68.js` | High
-25 | File | `application/classes/application.php` | High
-26 | File | `Autopilot/route_mgr.cxx` | High
-27 | File | `AvastSvc.exe` | Medium
-28 | File | `avs.c` | Low
-29 | File | `backupsettings.conf` | High
-30 | ... | ... | ...
+2 | File | `/apps/acs-commons/content/page-compare.html` | High
+3 | File | `/edit-db.php` | Medium
+4 | File | `/etc/waipass` | Medium
+5 | File | `/ext/phar/phar_object.c` | High
+6 | File | `/files/password` | High
+7 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+8 | File | `/hocms/classes/Master.php?f=delete_member` | High
+9 | File | `/phppath/php` | Medium
+10 | File | `/services/getFile.cmd` | High
+11 | File | `/sns/classes/Master.php?f=delete_img` | High
+12 | File | `/tools/required/files/importers/imageeditor` | High
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/v2/quantum/save-data-upload-big-file` | High
+15 | File | `/var/log/messages` | High
+16 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+17 | File | `/webconsole/Controller` | High
+18 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+19 | File | `abook_database.php` | High
+20 | File | `acl/save_user.cgi` | High
+21 | File | `adaptive-images-script.php` | High
+22 | File | `admin/auth.php` | High
+23 | File | `admin/cgi-bin/listdir.pl` | High
+24 | File | `adminuseredit.php?usertoedit=XSS` | High
+25 | File | `AvastSvc.exe` | Medium
+26 | File | `backupsettings.conf` | High
+27 | File | `base/ErrorHandler.php` | High
+28 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

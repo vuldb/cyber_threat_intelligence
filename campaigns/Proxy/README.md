@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,46 +67,44 @@ ID | Type | Indicator | Confidence
 9 | File | `/checkLogin.cgi` | High
 10 | File | `/cms/print.php` | High
 11 | File | `/concat?/%2557EB-INF/web.xml` | High
-12 | File | `/data/remove` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/filemanager/upload.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/index_amp.php` | High
-17 | File | `/login` | Low
-18 | File | `/navigate/navigate_download.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/p` | Low
-22 | File | `/password.html` | High
-23 | File | `/proc/ioports` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/ptms/classes/Users.php` | High
-26 | File | `/rest` | Low
-27 | File | `/rest/api/2/search` | High
-28 | File | `/s/` | Low
-29 | File | `/scripts/cpan_config` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/services/system/setup.json` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/webconsole/APIController` | High
-34 | File | `/websocket/exec` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json` | Medium
-37 | File | `/wp-json/oembed/1.0/embed?url` | High
-38 | File | `/_next` | Low
-39 | File | `4.edu.php\conn\function.php` | High
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `adclick.php` | Medium
-42 | File | `addentry.php` | Medium
-43 | File | `add_comment.php` | High
-44 | File | `add_edit_user.asp` | High
-45 | File | `admin/category.inc.php` | High
-46 | File | `admin/conf_users_edit.php` | High
-47 | File | `admin/dl_sendmail.php` | High
-48 | File | `admin/index.php` | High
-49 | ... | ... | ...
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/goforms/rlminfo` | High
+17 | File | `/index_amp.php` | High
+18 | File | `/login` | Low
+19 | File | `/navigate/navigate_download.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/p` | Low
+23 | File | `/password.html` | High
+24 | File | `/proc/ioports` | High
+25 | File | `/property-list/property_view.php` | High
+26 | File | `/ptms/classes/Users.php` | High
+27 | File | `/rest` | Low
+28 | File | `/rest/api/2/search` | High
+29 | File | `/s/` | Low
+30 | File | `/scripts/cpan_config` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/services/system/setup.json` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/vloggers_merch/?p=view_product` | High
+35 | File | `/webconsole/APIController` | High
+36 | File | `/websocket/exec` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
+38 | File | `/wp-json` | Medium
+39 | File | `/wp-json/oembed/1.0/embed?url` | High
+40 | File | `/_next` | Low
+41 | File | `4.edu.php\conn\function.php` | High
+42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `add_comment.php` | High
+46 | File | `add_edit_user.asp` | High
+47 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

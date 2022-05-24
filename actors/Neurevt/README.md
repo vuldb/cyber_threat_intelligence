@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Neurevt:
 
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [CN](https://vuldb.com/?country.cn)
+* [IN](https://vuldb.com/?country.in)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.95.225.105](https://vuldb.com/?ip.23.95.225.105) | 23-95-225-105-host.colocrossing.com | - | High
-2 | [79.170.44.146](https://vuldb.com/?ip.79.170.44.146) | web146.extendcp.co.uk | - | High
-3 | [162.213.251.176](https://vuldb.com/?ip.162.213.251.176) | business118-5.web-hosting.com | - | High
+1 | [20.41.46.145](https://vuldb.com/?ip.20.41.46.145) | - | - | High
+2 | [23.95.225.105](https://vuldb.com/?ip.23.95.225.105) | 23-95-225-105-host.colocrossing.com | - | High
+3 | [40.67.189.14](https://vuldb.com/?ip.40.67.189.14) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -28,7 +35,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1600 | CWE-310 | Cryptographic Issues | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1600 | CWE-310 | Cryptographic Issues | High
 
 ## IOA - Indicator of Attack
 
@@ -36,13 +44,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `index.php` | Medium
-2 | Argument | `newsid` | Low
+1 | File | `/uncpath/` | Medium
+2 | File | `index.php` | Medium
+3 | Argument | `newsid` | Low
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/10/threat-roundup-for-september-27-to.html
 * https://blog.talosintelligence.com/2021/08/neurevt-trojan-takes-aim-at-mexican.html
 
 ## Literature

@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with Inception:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* [ES](https://vuldb.com/?country.es)
 * [SV](https://vuldb.com/?country.sv)
-* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -53,35 +53,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
-2 | File | `/admin/inbox.php&action=read` | High
-3 | File | `/admin/news/news_mod.php` | High
-4 | File | `/admin/page_edit/3` | High
-5 | File | `/administrator/alerts/alertLightbox.php` | High
-6 | File | `/apps/acs-commons/content/page-compare.html` | High
-7 | File | `/blog/blog.php` | High
-8 | File | `/cgi-bin/main.cgi` | High
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/controller/Adv.php` | High
-11 | File | `/domain/service/.ewell-known/caldav` | High
-12 | File | `/dvcset/sysset/set.cgi` | High
-13 | File | `/example/editor` | High
-14 | File | `/include/make.php` | High
-15 | File | `/jquery_file_upload/server/php/index.php` | High
-16 | File | `/mobile/SelectUsers.jsp` | High
-17 | File | `/php/ajax.php` | High
-18 | File | `/ProteinArraySignificanceTest.json` | High
-19 | File | `/ptms/classes/Users.php` | High
-20 | File | `/public/admin/index.php?add_product` | High
-21 | File | `/role/saveOrUpdateRole.do` | High
-22 | File | `/system/bin/osi_bin` | High
-23 | File | `/usr/local/bin/mjs` | High
-24 | File | `/wp-content/uploads/jobmonster/` | High
-25 | File | `/zbzedit/php/zbz.php` | High
-26 | File | `ActiveServices.java` | High
-27 | ... | ... | ...
+1 | File | `.jboss-cli-history` | High
+2 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+3 | File | `/admin/inbox.php&action=read` | High
+4 | File | `/admin/news/news_mod.php` | High
+5 | File | `/admin/page_edit/3` | High
+6 | File | `/administrator/alerts/alertLightbox.php` | High
+7 | File | `/apps/acs-commons/content/page-compare.html` | High
+8 | File | `/blog/blog.php` | High
+9 | File | `/cgi-bin/luci/api/diagnose` | High
+10 | File | `/cgi-bin/main.cgi` | High
+11 | File | `/cgi-bin/uploadWeiXinPic` | High
+12 | File | `/cms/classes/Master.php?f=delete_designation` | High
+13 | File | `/controller/Adv.php` | High
+14 | File | `/dvcset/sysset/set.cgi` | High
+15 | File | `/example/editor` | High
+16 | File | `/goform/setsambacfg` | High
+17 | File | `/goform/websURLFilter` | High
+18 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+19 | File | `/include/make.php` | High
+20 | File | `/jquery_file_upload/server/php/index.php` | High
+21 | File | `/mobile/SelectUsers.jsp` | High
+22 | File | `/php/ajax.php` | High
+23 | File | `/ptms/classes/Users.php` | High
+24 | File | `/public/admin/index.php?add_product` | High
+25 | File | `/resolv/nss_dns/dns-host.c` | High
+26 | File | `/role/saveOrUpdateRole.do` | High
+27 | File | `/scbs/admin/?page=facilities/manage_facility` | High
+28 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,17 +10,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [47.102.38.15](https://vuldb.com/?ip.47.102.38.15) | - | - | High
-2 | [47.103.45.17](https://vuldb.com/?ip.47.103.45.17) | - | - | High
-3 | [106.14.178.247](https://vuldb.com/?ip.106.14.178.247) | - | - | High
+1 | [36.99.227.233](https://vuldb.com/?ip.36.99.227.233) | - | - | High
+2 | [39.108.27.173](https://vuldb.com/?ip.39.108.27.173) | - | - | High
+3 | [47.95.181.45](https://vuldb.com/?ip.47.95.181.45) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0607-0614.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0416-0423.html
 
 ## Literature

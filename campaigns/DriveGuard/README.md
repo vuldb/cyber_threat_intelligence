@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DriveGuard:
+
+* [US](https://vuldb.com/?country.us)
+
 ## Actors
 
 These _actors_ are associated with DriveGuard or other actors linked to the campaign.
@@ -19,6 +25,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [87.120.8.210](https://vuldb.com/?ip.87.120.8.210) | - | [Moses Staff](https://vuldb.com/?actor.moses_staff) | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during DriveGuard. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/jpg/image.jpg` | High
 
 ## References
 

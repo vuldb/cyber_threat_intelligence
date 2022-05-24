@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 15 | File | `coders/mat.c` | Medium
 16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

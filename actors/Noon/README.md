@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Noon:
 
+* [CA](https://vuldb.com/?country.ca)
 * [IT](https://vuldb.com/?country.it)
 * [JP](https://vuldb.com/?country.jp)
-* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.45.84.69](https://vuldb.com/?ip.5.45.84.69) | - | - | High
-2 | [192.0.78.25](https://vuldb.com/?ip.192.0.78.25) | - | - | High
-3 | [198.54.117.210](https://vuldb.com/?ip.198.54.117.210) | parkingpage.namecheap.com | - | High
+2 | [69.172.201.218](https://vuldb.com/?ip.69.172.201.218) | - | - | High
+3 | [81.19.145.88](https://vuldb.com/?ip.81.19.145.88) | www68.world4you.com | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,17 +43,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `add_comment.php` | High
-2 | File | `add_quiz.php` | Medium
-3 | File | `admin.jcomments.php` | High
-4 | ... | ... | ...
+1 | File | `/uncpath/` | Medium
+2 | File | `add_comment.php` | High
+3 | File | `add_quiz.php` | Medium
+4 | File | `admin.jcomments.php` | High
+5 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/02/threat-roundup-0208-0215.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
 
 ## Literature

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,13 +44,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/filemanager/ajax_calls.php` | High
-3 | File | `/Items/*/RemoteImages/Download` | High
-4 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-5 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-6 | ... | ... | ...
+2 | File | `/etc/postfix/sender_login` | High
+3 | File | `/filemanager/ajax_calls.php` | High
+4 | File | `/Items/*/RemoteImages/Download` | High
+5 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+6 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+7 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

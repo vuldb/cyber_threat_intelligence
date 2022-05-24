@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Nanocore:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nanocore:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [8.8.8.8](https://vuldb.com/?ip.8.8.8.8) | dns.google | - | High
 2 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
 3 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
-4 | ... | ... | ... | ...
+4 | [79.134.225.101](https://vuldb.com/?ip.79.134.225.101) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,20 +55,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/etc/sudoers` | Medium
-2 | File | `/services/details.asp` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `browser.php` | Medium
-5 | File | `cat.php` | Low
-6 | ... | ... | ...
+2 | File | `/forum/away.php` | High
+3 | File | `/secure/admin/RestoreDefaults.jspa` | High
+4 | File | `/services/details.asp` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/webapps/blogs-journals/execute/editBlogEntry` | High
+7 | File | `addentry.php` | Medium
+8 | File | `additem.asp` | Medium
+9 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/09/threat-roundup-0913-0920.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
+* https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
+* https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
 
 ## Literature

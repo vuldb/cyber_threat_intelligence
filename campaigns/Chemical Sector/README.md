@@ -27,6 +27,14 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [52.79.118.195](https://vuldb.com/?ip.52.79.118.195) | ec2-52-79-118-195.ap-northeast-2.compute.amazonaws.com | [Lazarus](https://vuldb.com/?actor.lazarus) | Medium
 2 | [61.81.50.174](https://vuldb.com/?ip.61.81.50.174) | mail.ointech.co.kr | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Chemical Sector. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | Input Value | `../` | Low
+
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:

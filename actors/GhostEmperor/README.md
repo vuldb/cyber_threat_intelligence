@@ -45,17 +45,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/index.php` | High
-3 | File | `/login.html` | Medium
-4 | File | `/new` | Low
-5 | File | `/system?action=ServiceAdmin` | High
-6 | File | `/tlogin.cgi` | Medium
-7 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-8 | File | `/var/log/nginx` | High
-9 | File | `add_vhost.php` | High
-10 | ... | ... | ...
+2 | File | `/admin/comment.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/login.html` | Medium
+5 | File | `/new` | Low
+6 | File | `/system?action=ServiceAdmin` | High
+7 | File | `/tlogin.cgi` | Medium
+8 | File | `/userRpm/popupSiteSurveyRpm.html` | High
+9 | File | `/var/log/nginx` | High
+10 | File | `add_vhost.php` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,36 +57,36 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin` | Medium
 7 | File | `/cgi-bin/kerbynet` | High
 8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/fudforum/adm/hlplist.php` | High
-10 | File | `/login` | Low
-11 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-12 | File | `/monitoring` | Medium
-13 | File | `/new` | Low
-14 | File | `/proc/<pid>/status` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/REBOOTSYSTEM` | High
-17 | File | `/scripts/killpvhost` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-21 | File | `/tmp` | Low
-22 | File | `/tmp/redis.ds` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/wp-admin` | Medium
-25 | File | `/wp-json/wc/v3/webhooks` | High
-26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-27 | File | `AccountManagerService.java` | High
-28 | File | `actions/CompanyDetailsSave.php` | High
-29 | File | `ActiveServices.java` | High
-30 | File | `ActivityManagerService.java` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-33 | File | `admin/add-glossary.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | File | `admin/edit-comments.php` | High
+9 | File | `/login` | Low
+10 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/new` | Low
+13 | File | `/proc/<pid>/status` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/REBOOTSYSTEM` | High
+16 | File | `/scripts/killpvhost` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/secure/QueryComponent!Default.jspa` | High
+19 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+20 | File | `/tmp` | Low
+21 | File | `/tmp/redis.ds` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/wp-admin` | Medium
+24 | File | `/wp-json/wc/v3/webhooks` | High
+25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+26 | File | `AccountManagerService.java` | High
+27 | File | `actions/CompanyDetailsSave.php` | High
+28 | File | `ActiveServices.java` | High
+29 | File | `ActivityManagerService.java` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+32 | File | `admin/add-glossary.php` | High
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/edit-comments.php` | High
+35 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

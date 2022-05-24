@@ -73,23 +73,24 @@ ID | Type | Indicator | Confidence
 13 | File | `/lab.html` | Medium
 14 | File | `/out.php` | Medium
 15 | File | `/products/details.asp` | High
-16 | File | `/sm/api/v1/firewall/zone/services` | High
-17 | File | `/spacecom/login.php` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-20 | File | `acknowledge.c` | High
-21 | File | `actions/CompanyDetailsSave.php` | High
-22 | File | `adclick.php` | Medium
-23 | File | `add_comment.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/conf_users_edit.php` | High
-26 | File | `admin/inc/template_functions.php` | High
-27 | File | `admincp/attachment.php` | High
-28 | File | `administrator/components/com_media/helpers/media.php` | High
-29 | File | `adminpasswd.cgi` | High
-30 | ... | ... | ...
+16 | File | `/RestAPI` | Medium
+17 | File | `/sm/api/v1/firewall/zone/services` | High
+18 | File | `/spacecom/login.php` | High
+19 | File | `/strings/ctype-simple.c` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+22 | File | `acknowledge.c` | High
+23 | File | `actions/CompanyDetailsSave.php` | High
+24 | File | `adclick.php` | Medium
+25 | File | `add_comment.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/conf_users_edit.php` | High
+28 | File | `admin/inc/template_functions.php` | High
+29 | File | `admincp/attachment.php` | High
+30 | File | `administrator/components/com_media/helpers/media.php` | High
+31 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

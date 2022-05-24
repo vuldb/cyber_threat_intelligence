@@ -55,15 +55,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `adclick.php` | Medium
-3 | File | `add_comment.php` | High
-4 | File | `buffer.c` | Medium
-5 | File | `category.php` | Medium
-6 | File | `data/gbconfiguration.dat` | High
-7 | ... | ... | ...
+1 | File | `/ctpms/admin/?page=applications/view_application` | High
+2 | File | `/forum/away.php` | High
+3 | File | `adclick.php` | Medium
+4 | File | `add_comment.php` | High
+5 | File | `buffer.c` | Medium
+6 | File | `category.php` | Medium
+7 | File | `ctpms/admin/?page=user/manage_user` | High
+8 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

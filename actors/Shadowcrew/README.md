@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -763,10 +763,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/advance_push/public/login` | High
-3 | File | `/cgi-bin/luci` | High
-4 | File | `/context/%2e/WEB-INF/web.xml` | High
+1 | File | `/advance_push/public/login` | High
+2 | File | `/cgi-bin/luci` | High
+3 | File | `/context/%2e/WEB-INF/web.xml` | High
+4 | File | `/fuel/index.php/fuel/logs/items` | High
 5 | File | `/monitoring` | Medium
 6 | File | `/new` | Low
 7 | File | `/proc/<pid>/status` | High
@@ -783,15 +783,15 @@ ID | Type | Indicator | Confidence
 18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 19 | File | `AccountManagerService.java` | High
 20 | File | `actions/CompanyDetailsSave.php` | High
-21 | File | `ActiveServices.java` | High
-22 | File | `ActivityManagerService.java` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-25 | File | `admin/add-glossary.php` | High
-26 | File | `admin/conf_users_edit.php` | High
-27 | File | `admin/controllers/Albumsgalleries.php` | High
-28 | File | `admin/edit-comments.php` | High
-29 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+21 | File | `ActivityManagerService.java` | High
+22 | File | `admin.php` | Medium
+23 | File | `admin/add-glossary.php` | High
+24 | File | `admin/conf_users_edit.php` | High
+25 | File | `admin/controllers/Albumsgalleries.php` | High
+26 | File | `admin/edit-comments.php` | High
+27 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+28 | File | `ahcache.sys` | Medium
+29 | File | `aidl_const_expressions.cpp` | High
 30 | ... | ... | ...
 
 There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

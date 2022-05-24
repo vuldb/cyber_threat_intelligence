@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,12 +4908,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4921,33 +4921,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.nautilus-metafile.xml` | High
-2 | File | `/#/CampaignManager/users` | High
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/index.php` | High
-5 | File | `/appliance/users?action=edit` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/blog/blog.php` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/devices/acurite.c` | High
-10 | File | `/ghost/preview` | High
-11 | File | `/if.cgi` | Low
-12 | File | `/Items/*/RemoteImages/Download` | High
-13 | File | `/login` | Low
-14 | File | `/nova/bin/console` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/pineapple/ui` | High
-17 | File | `/plesk-site-preview/` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rapi/read_url` | High
-20 | File | `/row/row0mysql.cc` | High
-21 | File | `/searchblox/servlet/FileServlet?col=url=` | High
-22 | File | `/sm/api/v1/firewall/zone/services` | High
-23 | File | `/sources/folders.queries.php` | High
-24 | File | `/sql/sql_string.h` | High
-25 | ... | ... | ...
+1 | File | `/acms/classes/Master.php?f=delete_img` | High
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/api/students/me/courses/` | High
+4 | File | `/cgi-bin/login` | High
+5 | File | `/cgi-bin/luci/api/auth` | High
+6 | File | `/cgi-bin/luci/api/diagnose` | High
+7 | File | `/cgi-bin/luci/api/switch` | High
+8 | File | `/cgi-bin/luci/api/wireless` | High
+9 | File | `/course/modedit.php` | High
+10 | File | `/ctpms/admin/?page=applications/view_application` | High
+11 | File | `/ctpms/admin/individuals/update_status.php` | High
+12 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+13 | File | `/fantasticblog/single.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/fuel/index.php/fuel/logs/items` | High
+16 | File | `/goform/editassignment` | High
+17 | File | `/goform/form2IPQoSTcAdd` | High
+18 | File | `/goform/setDeviceSettings` | High
+19 | File | `/goform/SetNetControlList` | High
+20 | File | `/goform/setNetworkLan` | High
+21 | File | `/goform/setpptpservercfg` | High
+22 | File | `/goform/setsambacfg` | High
+23 | File | `/goform/setSysAdm` | High
+24 | File | `/goform/websHostFilter` | High
+25 | File | `/goform/websURLFilter` | High
+26 | File | `/guest/s/default/` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
+30 | File | `/ServletAPI/accounts/login` | High
+31 | File | `/setnetworksettings/IPAddress` | High
+32 | File | `/setnetworksettings/SubnetMask` | High
+33 | File | `/setting/CloudACMunualUpdate` | High
+34 | File | `/setting/NTPSyncWithHost` | High
+35 | File | `/setting/setDeviceName` | High
+36 | File | `/setting/setDiagnosisCfg` | High
+37 | File | `/setting/setLanguageCfg` | High
+38 | File | `/setting/setUpgradeFW` | High
+39 | File | `/setting/setUploadSetting` | High
+40 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

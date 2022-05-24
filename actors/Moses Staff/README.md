@@ -10,6 +10,12 @@ The following _campaigns_ are known and can be associated with Moses Staff:
 
 * DriveGuard
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Moses Staff:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Moses Staff.
@@ -19,6 +25,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [87.120.8.210](https://vuldb.com/?ip.87.120.8.210) | - | DriveGuard | High
 2 | [95.169.196.52](https://vuldb.com/?ip.95.169.196.52) | - | - | High
 3 | [185.206.180.138](https://vuldb.com/?ip.185.206.180.138) | 25.http-proxy2.cloudns.net | - | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Moses Staff. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/jpg/image.jpg` | High
 
 ## References
 

@@ -22,15 +22,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.55.205](https://vuldb.com/?ip.5.8.55.205) | carpbaboon.com | - | High
-2 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
-3 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
-4 | [45.147.231.79](https://vuldb.com/?ip.45.147.231.79) | - | - | High
-5 | [46.173.218.13](https://vuldb.com/?ip.46.173.218.13) | - | - | High
-6 | [47.74.130.165](https://vuldb.com/?ip.47.74.130.165) | - | - | High
-7 | [84.54.37.102](https://vuldb.com/?ip.84.54.37.102) | - | - | High
+2 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
+3 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
+4 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
+5 | [45.147.231.79](https://vuldb.com/?ip.45.147.231.79) | - | - | High
+6 | [46.173.218.13](https://vuldb.com/?ip.46.173.218.13) | - | - | High
+7 | [47.74.130.165](https://vuldb.com/?ip.47.74.130.165) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,10 +40,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-358 | 7PK Security Features | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,16 +59,18 @@ ID | Type | Indicator | Confidence
 6 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
 7 | File | `/lms/admin.php` | High
 8 | File | `/redpass.cgi` | Medium
-9 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `add-category.php` | High
-12 | File | `add_comment.php` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/admin.shtml` | High
-15 | File | `admin/content.php` | High
-16 | ... | ... | ...
+9 | File | `/rom-0` | Low
+10 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `add-category.php` | High
+13 | File | `add_comment.php` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin/admin.shtml` | High
+16 | File | `admin/content.php` | High
+17 | File | `admin/user.php?form=update_f&user_name` | High
+18 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +80,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/eset/malware-ioc/tree/master/danabot
 * https://isc.sans.edu/forums/diary/Example+of+Danabot+distributed+through+malspam/27744/
 * https://research.checkpoint.com/2019/danabot-demands-a-ransom-payment/
+* https://twitter.com/CERT_OPL/status/1138810411149643777
 
 ## Literature
 

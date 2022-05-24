@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Barys:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,14 +23,19 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
 2 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
-3 | [23.225.145.234](https://vuldb.com/?ip.23.225.145.234) | - | - | High
-4 | [47.246.136.160](https://vuldb.com/?ip.47.246.136.160) | - | - | High
-5 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
-6 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
-7 | [58.215.145.95](https://vuldb.com/?ip.58.215.145.95) | - | - | High
-8 | ... | ... | ... | ...
+3 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+4 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+5 | [23.225.145.234](https://vuldb.com/?ip.23.225.145.234) | - | - | High
+6 | [31.170.160.103](https://vuldb.com/?ip.31.170.160.103) | srv39.000webhost.com | - | High
+7 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
+8 | [41.38.1.86](https://vuldb.com/?ip.41.38.1.86) | host-41.38.1.86.tedata.net | - | High
+9 | [41.239.65.189](https://vuldb.com/?ip.41.239.65.189) | host-41.239.65.189.tedata.net | - | High
+10 | [47.246.136.160](https://vuldb.com/?ip.47.246.136.160) | - | - | High
+11 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+12 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,49 +72,54 @@ ID | Type | Indicator | Confidence
 14 | File | `/usr/bin/cu` | Medium
 15 | File | `/var/crash/vmcore.log` | High
 16 | File | `aclient.exe` | Medium
-17 | File | `addadmin.asp` | Medium
-18 | File | `admin` | Low
-19 | File | `admin.php` | Medium
-20 | File | `admin.rssreader.php` | High
+17 | File | `admin` | Low
+18 | File | `admin.php` | Medium
+19 | File | `admin.rssreader.php` | High
+20 | File | `admin/batch_manager_unit.php` | High
 21 | File | `admin/configuration/modifier.php` | High
 22 | File | `admin/skins.php` | High
-23 | File | `adminconsole` | Medium
-24 | File | `administrator/mail/download.cfm` | High
-25 | File | `admin_board.php` | High
-26 | File | `af_netlink.c` | Medium
-27 | File | `ajax.php` | Medium
-28 | File | `ajaxRequest/methodCall.do` | High
-29 | File | `announcements.php` | High
-30 | File | `apache2/modsecurity.c` | High
-31 | File | `apply.cgi` | Medium
-32 | File | `app_new.php` | Medium
-33 | File | `aspx` | Low
-34 | File | `AttachmentsList.aspx` | High
-35 | File | `Atx45.ocx` | Medium
-36 | File | `auction_details.php` | High
-37 | File | `auth.php` | Medium
-38 | File | `aut_verifica.inc.php` | High
-39 | File | `awsguest.php` | Medium
-40 | File | `b2edit.showposts.php` | High
-41 | File | `backend.php/screen.php/comment.php` | High
-42 | File | `basicfunctions.php` | High
-43 | File | `board.cgi` | Medium
-44 | File | `bug_actiongroup_ext_page.php` | High
-45 | File | `canned_opr.php` | High
-46 | File | `cart.cgi` | Medium
-47 | File | `cat.asp` | Low
-48 | File | `cddbcontrolaol.cddbaolcontrol` | High
-49 | File | `channel.asp` | Medium
-50 | File | `class_auth.php` | High
-51 | File | `compte.php` | Medium
+23 | File | `admin/system_manage/save.html` | High
+24 | File | `admin/system_manage/user_config_add.html` | High
+25 | File | `adminconsole` | Medium
+26 | File | `administrator/mail/download.cfm` | High
+27 | File | `admin_board.php` | High
+28 | File | `af_netlink.c` | Medium
+29 | File | `ajax.php` | Medium
+30 | File | `ajaxRequest/methodCall.do` | High
+31 | File | `announcements.php` | High
+32 | File | `apache2/modsecurity.c` | High
+33 | File | `apply.cgi` | Medium
+34 | File | `app_new.php` | Medium
+35 | File | `aspx` | Low
+36 | File | `AttachmentsList.aspx` | High
+37 | File | `Atx45.ocx` | Medium
+38 | File | `auction_details.php` | High
+39 | File | `auth-gss2.c` | Medium
+40 | File | `auth.php` | Medium
+41 | File | `aut_verifica.inc.php` | High
+42 | File | `awsguest.php` | Medium
+43 | File | `b2edit.showposts.php` | High
+44 | File | `backend.php/screen.php/comment.php` | High
+45 | File | `basicfunctions.php` | High
+46 | File | `board.cgi` | Medium
+47 | File | `bug_actiongroup_ext_page.php` | High
+48 | File | `canned_opr.php` | High
+49 | File | `cart.cgi` | Medium
+50 | File | `cat.asp` | Low
+51 | File | `cddbcontrolaol.cddbaolcontrol` | High
 52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0329-0405.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0110-0117.html
+* https://blog.talosintelligence.com/2020/06/threat-roundup-0529-0605.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-0925-1002.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1127-1204.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0604-0611.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html

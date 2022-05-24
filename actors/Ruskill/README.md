@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ruskill:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [PT](https://vuldb.com/?country.pt)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,11 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
 2 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
-3 | [131.253.33.200](https://vuldb.com/?ip.131.253.33.200) | a-0001.dc-msedge.net | - | High
-4 | ... | ... | ... | ...
+3 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+4 | [66.171.248.178](https://vuldb.com/?ip.66.171.248.178) | api1.whatismyipaddress.com | - | High
+5 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -44,16 +45,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/appliance/users?action=edit` | High
-2 | File | `countrydetails.php` | High
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+3 | File | `countrydetails.php` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/11/threat-roundup-1113-1120.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0319-0326.html
 

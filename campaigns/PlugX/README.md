@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -39,9 +39,13 @@ ID | IP address | Hostname | Actor | Confidence
 6 | [35.220.214.142](https://vuldb.com/?ip.35.220.214.142) | 142.214.220.35.bc.googleusercontent.com | [PlugX](https://vuldb.com/?actor.plugx) | Medium
 7 | [43.252.175.119](https://vuldb.com/?ip.43.252.175.119) | - | [TA459](https://vuldb.com/?actor.ta459) | High
 8 | [45.32.125.79](https://vuldb.com/?ip.45.32.125.79) | manages.space | [PlugX](https://vuldb.com/?actor.plugx) | High
-9 | ... | ... | ... | ...
+9 | [45.76.188.118](https://vuldb.com/?ip.45.76.188.118) | - | [PlugX](https://vuldb.com/?actor.plugx) | High
+10 | [45.77.16.91](https://vuldb.com/?ip.45.77.16.91) | 45.77.16.91.vultrusercontent.com | [PlugX](https://vuldb.com/?actor.plugx) | High
+11 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | [Mustang Panda](https://vuldb.com/?actor.mustang_panda) | High
+12 | [45.207.50.104](https://vuldb.com/?ip.45.207.50.104) | - | [PlugX](https://vuldb.com/?actor.plugx) | High
+13 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,50 +72,53 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?/plugin/comment/settings` | High
 5 | File | `/admin/ajax/file-browser/upload/` | High
 6 | File | `/admin/index.php` | High
-7 | File | `/api/filemanager` | High
-8 | File | `/api/request/?OPERATION_NAME` | High
-9 | File | `/api/trackedEntityInstances` | High
-10 | File | `/apparel--accessories` | High
-11 | File | `/apply_noauth.cgi` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/domains/index.fts` | High
-14 | File | `/download` | Medium
-15 | File | `/DroboAccess/delete_user` | High
-16 | File | `/foundry/modules/news/newscolumns.php` | High
-17 | File | `/ghost/preview` | High
-18 | File | `/GponForm/device_Form?script/` | High
-19 | File | `/LDMS/frm_splitfrm.aspx` | High
-20 | File | `/media/api` | Medium
-21 | File | `/member/test/points` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-24 | File | `/NAGErrors` | Medium
-25 | File | `/port_3480` | Medium
-26 | File | `/q` | Low
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/service-list` | High
-29 | File | `/smstest.html` | High
-30 | File | `/start-stop` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/tmp/kamailio_fifo` | High
-33 | File | `/tmp/scfgdndf` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/view/friend_profile.php` | High
-36 | File | `/WEB-INF/web.xml` | High
-37 | File | `/wp-json/oembed/1.0/embed?url` | High
-38 | File | `AccessManagerCoreService.exe` | High
-39 | File | `actions/authenticate.php` | High
-40 | File | `actions/doreport.php` | High
-41 | File | `addlyricsform.php` | High
-42 | File | `addmerchpicform.php` | High
-43 | ... | ... | ...
+7 | File | `/api/request/?OPERATION_NAME` | High
+8 | File | `/api/trackedEntityInstances` | High
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/domains/index.fts` | High
+12 | File | `/download` | Medium
+13 | File | `/DroboAccess/delete_user` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/foundry/modules/news/newscolumns.php` | High
+16 | File | `/ghost/preview` | High
+17 | File | `/GponForm/device_Form?script/` | High
+18 | File | `/LDMS/frm_splitfrm.aspx` | High
+19 | File | `/media/api` | Medium
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+22 | File | `/NAGErrors` | Medium
+23 | File | `/q` | Low
+24 | File | `/RestAPI` | Medium
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/service-list` | High
+27 | File | `/smstest.html` | High
+28 | File | `/start-stop` | Medium
+29 | File | `/subscribe/subscribe` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/kamailio_fifo` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/view/friend_profile.php` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `actions/authenticate.php` | High
+37 | File | `actions/doreport.php` | High
+38 | File | `addlyricsform.php` | High
+39 | File | `addmerchpicform.php` | High
+40 | File | `addresses_export.php` | High
+41 | File | `adherents/cartes/carte.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin.php?m=backup&c=backup&a=doback` | High
+44 | File | `admin/admin.php` | High
+45 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blogs.mcafee.jp/plugx-a-talisman-to-behold
 * https://twitter.com/0xrb/status/1469184108030955529
 * https://twitter.com/0xrb/status/1470678183301181441
 * https://twitter.com/0xrb/status/1478253942123347968
@@ -119,6 +126,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/0xrb/status/1484467191445475328
 * https://twitter.com/xorhex/status/1406496693735067650
 * https://twitter.com/xorhex/status/1422815329684758537
+* https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx
 * https://www.threatminer.org/report.php?q=InPursuitofOpticalFibersandTroopIntel_TargetedAttackDistributesPlugXinRussia_Proofpoint.pdf&y=2015
 
 ## Literature

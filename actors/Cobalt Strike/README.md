@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,10 +28,19 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | - | High
 6 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | - | High
 7 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | - | High
-8 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
-9 | ... | ... | ... | ...
+8 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | - | High
+9 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
+10 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | - | High
+11 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | - | High
+12 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | - | High
+13 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | - | High
+14 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
+15 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | - | High
+16 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | - | High
+17 | [62.128.111.176](https://vuldb.com/?ip.62.128.111.176) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,66 +61,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/success_story.php` | High
-2 | File | `/category.php` | High
-3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/movie-portal-script/movie.php` | High
-6 | File | `/notice-edit.php` | High
-7 | File | `/objects/getSpiritsFromVideo.php` | High
-8 | File | `/servlet/webacc` | High
-9 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-10 | File | `/tmp` | Low
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-admin/admin-ajax.php` | High
-13 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-14 | File | `4.2.0.CP08` | Medium
-15 | File | `account.asp` | Medium
-16 | File | `acerctrl.ocx` | Medium
-17 | File | `activate.php` | Medium
-18 | File | `add.php` | Low
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin.php` | High
-21 | File | `admin/adminaddeditdetails.php` | High
-22 | File | `admin/class-jtrt-responsive-tables-admin.php` | High
-23 | File | `admin/images.php` | High
-24 | File | `admin/import/class-import-settings.php` | High
-25 | File | `admin/infoclass_update.php` | High
-26 | File | `admin/member_details.php` | High
-27 | File | `admin/preview.php` | High
-28 | File | `ajax/addComment.php` | High
-29 | File | `allocate_block.cpp` | High
-30 | File | `and/or` | Low
-31 | File | `app/code/core/Mage/Rss/Helper/Order.php` | High
-32 | File | `arch/powerpc/kernel/entry_64.S` | High
-33 | File | `archive_read_support_format_rar5.c` | High
-34 | File | `article.php` | Medium
-35 | File | `asmjs/asmangle.cpp` | High
-36 | File | `asp:.jpg` | Medium
-37 | File | `auth2-gss.c` | Medium
-38 | File | `backup.php` | Medium
-39 | File | `bios.php` | Medium
-40 | File | `blanko.preview.php` | High
-41 | File | `block/bfq-iosched.c` | High
-42 | File | `books.php` | Medium
-43 | File | `browse_ladies.php` | High
-44 | File | `burl.c` | Low
-45 | File | `cadena_ofertas_ext.php` | High
-46 | File | `category-delete.php` | High
-47 | File | `category.php` | Medium
-48 | File | `CFM File Handler` | High
-49 | File | `cgi-bin/awstats.pl` | High
-50 | File | `cgi-bin/write.cgi` | High
-51 | File | `Change-password.php` | High
-52 | File | `chat.php` | Medium
-53 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `.nautilus-metafile.xml` | High
+3 | File | `/acms/classes/Master.php?f=delete_img` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+6 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+7 | File | `/administrator/components/table_manager/` | High
+8 | File | `/administrator/templates/default/html/windows/right.php` | High
+9 | File | `/admin_page/all-files-update-ajax.php` | High
+10 | File | `/api/students/me/courses/` | High
+11 | File | `/api/students/me/messages/` | High
+12 | File | `/Applications/Utilities/Terminal` | High
+13 | File | `/apps/acs-commons/content/page-compare.html` | High
+14 | File | `/blog/blog.php` | High
+15 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/classes/master.php?f=delete_facility` | High
+18 | File | `/College_Management_System/admin/display-teacher.php` | High
+19 | File | `/coreframe/app/member/admin/group.php` | High
+20 | File | `/ctpms/admin/?page=applications/view_application` | High
+21 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+22 | File | `/ctpms/admin/individuals/update_status.php` | High
+23 | File | `/default.php?idx=17` | High
+24 | File | `/ecrire` | Low
+25 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/hocms/classes/Master.php?f=delete_member` | High
+28 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+29 | File | `/html/Solar_Ftp.php` | High
+30 | File | `/include/chart_generator.php` | High
+31 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+32 | File | `/info.cgi` | Medium
+33 | File | `/insurance/editPayment.php` | High
+34 | File | `/lists/admin/` | High
+35 | File | `/mgmt/tm/util/bash` | High
+36 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://asec.ahnlab.com/en/20130/
+* https://asec.ahnlab.com/en/27646/
+* https://blog.morphisec.com/log4j-exploit-targets-vulnerable-unifi-network-applications
+* https://blog.talosintelligence.com/2020/06/indigodrop-maldocs-cobalt-strike.html
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Attackers+Exploiting+WebLogic+Servers+via+CVE202014882+to+install+Cobalt+Strike/26752/
 * https://isc.sans.edu/forums/diary/Example+of+Cobalt+Strike+from+Emotet+infection/28318/
@@ -131,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/
 * https://thedfirreport.com/2021/12/13/diavol-ransomware/
 * https://thedfirreport.com/2022/02/21/qbot-and-zerologon-lead-to-full-domain-compromise/
+* https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
 * https://twitter.com/TheDFIRReport/status/1508451341844168706

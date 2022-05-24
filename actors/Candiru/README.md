@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,43 +58,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/addsrv` | Low
-4 | File | `/Admin/Views/FileEditor/` | High
-5 | File | `/api/user/{ID}` | High
-6 | File | `/article/add` | Medium
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/uploadWeiXinPic` | High
-9 | File | `/controller/pay.class.php` | High
-10 | File | `/dev/block/mmcblk0rpmb` | High
-11 | File | `/dev/kmem` | Medium
-12 | File | `/dev/shm` | Medium
-13 | File | `/dev/snd/seq` | Medium
-14 | File | `/device/device=140/tab=wifi/view` | High
-15 | File | `/dl/dl_print.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/addressNat` | High
-18 | File | `/htdocs/admin/dict.php?id=3` | High
-19 | File | `/include/menu_v.inc.php` | High
-20 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-21 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-22 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-23 | File | `/login` | Low
-24 | File | `/module/module_frame/index.php` | High
-25 | File | `/notice-edit.php` | High
-26 | File | `/nova/bin/sniffer` | High
-27 | File | `/ofcms/company-c-47` | High
-28 | File | `/proc/*/cmdline"` | High
-29 | File | `/proc/pid/syscall` | High
-30 | File | `/product_list.php` | High
-31 | File | `/rest/api/2/user/picker` | High
-32 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-33 | File | `/services/details.asp` | High
-34 | File | `/src/core/controllers/cm.php` | High
-35 | File | `/storage/app/media/evil.svg` | High
-36 | File | `/transmission/web/` | High
-37 | ... | ... | ...
+3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+4 | File | `/addsrv` | Low
+5 | File | `/Admin/Views/FileEditor/` | High
+6 | File | `/api/user/{ID}` | High
+7 | File | `/article/add` | Medium
+8 | File | `/cgi-bin/editBookmark` | High
+9 | File | `/cgi-bin/uploadWeiXinPic` | High
+10 | File | `/controller/pay.class.php` | High
+11 | File | `/ctpms/admin/?page=applications/view_application` | High
+12 | File | `/dev/block/mmcblk0rpmb` | High
+13 | File | `/dev/kmem` | Medium
+14 | File | `/dev/shm` | Medium
+15 | File | `/dev/snd/seq` | Medium
+16 | File | `/device/device=140/tab=wifi/view` | High
+17 | File | `/dl/dl_print.php` | High
+18 | File | `/getcfg.php` | Medium
+19 | File | `/goform/addressNat` | High
+20 | File | `/htdocs/admin/dict.php?id=3` | High
+21 | File | `/include/menu_v.inc.php` | High
+22 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+23 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+24 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+25 | File | `/login` | Low
+26 | File | `/mngset/authset` | High
+27 | File | `/module/module_frame/index.php` | High
+28 | File | `/notice-edit.php` | High
+29 | File | `/nova/bin/sniffer` | High
+30 | File | `/ofcms/company-c-47` | High
+31 | File | `/proc/*/cmdline"` | High
+32 | File | `/proc/pid/syscall` | High
+33 | File | `/product_list.php` | High
+34 | File | `/rest/api/2/user/picker` | High
+35 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+36 | File | `/services/details.asp` | High
+37 | File | `/src/core/controllers/cm.php` | High
+38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

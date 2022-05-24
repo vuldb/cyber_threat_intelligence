@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [DE](https://vuldb.com/?country.de)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -26,7 +26,7 @@ ID | Actor | Confidence
 3 | [Hancitor](https://vuldb.com/?actor.hancitor) | High
 4 | ... | ...
 
-There are 1 more actor items available. Please use our online service to access the data.
+There are 3 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,20 +34,37 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-2 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-3 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-4 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-5 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-6 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-7 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-8 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-9 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-10 | [62.128.111.176](https://vuldb.com/?ip.62.128.111.176) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-11 | [65.60.35.141](https://vuldb.com/?ip.65.60.35.141) | duwaer.presembling.vip | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-12 | ... | ... | ... | ...
+1 | [5.199.162.14](https://vuldb.com/?ip.5.199.162.14) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
+2 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+3 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+4 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+5 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+6 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+7 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+8 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+9 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+10 | [45.58.124.98](https://vuldb.com/?ip.45.58.124.98) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
+11 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+12 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+13 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+14 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+15 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+16 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+17 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+18 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+19 | [62.128.111.176](https://vuldb.com/?ip.62.128.111.176) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+20 | [65.60.35.141](https://vuldb.com/?ip.65.60.35.141) | duwaer.presembling.vip | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+21 | [77.83.159.15](https://vuldb.com/?ip.77.83.159.15) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+22 | [78.128.113.14](https://vuldb.com/?ip.78.128.113.14) | ip-113-14.4vendeta.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+23 | [78.142.19.43](https://vuldb.com/?ip.78.142.19.43) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+24 | [79.104.209.156](https://vuldb.com/?ip.79.104.209.156) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+25 | [80.209.242.9](https://vuldb.com/?ip.80.209.242.9) | - | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+26 | [82.117.252.32](https://vuldb.com/?ip.82.117.252.32) | vds-897679.hosted-by-itldc.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+27 | [82.117.252.143](https://vuldb.com/?ip.82.117.252.143) | dedic-holkitsor-883283.hosted-by-itldc.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+28 | [82.118.21.1](https://vuldb.com/?ip.82.118.21.1) | 77626-46583.hyperdomen.com | [Conti](https://vuldb.com/?actor.conti) | High
+29 | ... | ... | ... | ...
 
-There are 43 more IOC items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,11 +73,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,66 +85,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/success_story.php` | High
-2 | File | `/category.php` | High
-3 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/movie-portal-script/movie.php` | High
-6 | File | `/notice-edit.php` | High
-7 | File | `/objects/getSpiritsFromVideo.php` | High
-8 | File | `/servlet/webacc` | High
-9 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-10 | File | `/tmp` | Low
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-admin/admin-ajax.php` | High
-13 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-14 | File | `4.2.0.CP08` | Medium
-15 | File | `account.asp` | Medium
-16 | File | `acerctrl.ocx` | Medium
-17 | File | `activate.php` | Medium
-18 | File | `add.php` | Low
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin.php` | High
-21 | File | `admin/adminaddeditdetails.php` | High
-22 | File | `admin/class-jtrt-responsive-tables-admin.php` | High
-23 | File | `admin/images.php` | High
-24 | File | `admin/import/class-import-settings.php` | High
-25 | File | `admin/infoclass_update.php` | High
-26 | File | `admin/member_details.php` | High
-27 | File | `admin/preview.php` | High
-28 | File | `ajax/addComment.php` | High
-29 | File | `allocate_block.cpp` | High
-30 | File | `and/or` | Low
-31 | File | `app/code/core/Mage/Rss/Helper/Order.php` | High
-32 | File | `arch/powerpc/kernel/entry_64.S` | High
-33 | File | `archive_read_support_format_rar5.c` | High
-34 | File | `article.php` | Medium
-35 | File | `asmjs/asmangle.cpp` | High
-36 | File | `asp:.jpg` | Medium
-37 | File | `auth2-gss.c` | Medium
-38 | File | `backup.php` | Medium
-39 | File | `bios.php` | Medium
-40 | File | `blanko.preview.php` | High
-41 | File | `block/bfq-iosched.c` | High
-42 | File | `books.php` | Medium
-43 | File | `browse_ladies.php` | High
-44 | File | `burl.c` | Low
-45 | File | `cadena_ofertas_ext.php` | High
-46 | File | `category-delete.php` | High
-47 | File | `category.php` | Medium
-48 | File | `CFM File Handler` | High
-49 | File | `cgi-bin/awstats.pl` | High
-50 | File | `cgi-bin/write.cgi` | High
-51 | File | `Change-password.php` | High
-52 | File | `chat.php` | Medium
-53 | ... | ... | ...
+1 | File | `.nautilus-metafile.xml` | High
+2 | File | `/acms/classes/Master.php?f=delete_img` | High
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+5 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+6 | File | `/administrator/components/table_manager/` | High
+7 | File | `/administrator/templates/default/html/windows/right.php` | High
+8 | File | `/admin_page/all-files-update-ajax.php` | High
+9 | File | `/api/students/me/courses/` | High
+10 | File | `/api/students/me/messages/` | High
+11 | File | `/Applications/Utilities/Terminal` | High
+12 | File | `/apps/acs-commons/content/page-compare.html` | High
+13 | File | `/blog/blog.php` | High
+14 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+15 | File | `/cgi-bin/system_mgr.cgi` | High
+16 | File | `/classes/master.php?f=delete_facility` | High
+17 | File | `/College_Management_System/admin/display-teacher.php` | High
+18 | File | `/coreframe/app/member/admin/group.php` | High
+19 | File | `/ctpms/admin/?page=applications/view_application` | High
+20 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+21 | File | `/ctpms/admin/individuals/update_status.php` | High
+22 | File | `/default.php?idx=17` | High
+23 | File | `/dms/admin/reports/daily_collection_report.php` | High
+24 | File | `/ecrire` | Low
+25 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/hocms/classes/Master.php?f=delete_member` | High
+28 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+29 | File | `/html/Solar_Ftp.php` | High
+30 | File | `/include/chart_generator.php` | High
+31 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+32 | File | `/info.cgi` | Medium
+33 | File | `/insurance/editPayment.php` | High
+34 | File | `/lists/admin/` | High
+35 | File | `/mgmt/tm/util/bash` | High
+36 | File | `/page.php` | Medium
+37 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://asec.ahnlab.com/en/20130/
+* https://asec.ahnlab.com/en/27646/
+* https://blog.morphisec.com/log4j-exploit-targets-vulnerable-unifi-network-applications
+* https://blog.talosintelligence.com/2020/06/indigodrop-maldocs-cobalt-strike.html
+* https://cert.gov.ua/article/39708
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Attackers+Exploiting+WebLogic+Servers+via+CVE202014882+to+install+Cobalt+Strike/26752/
 * https://isc.sans.edu/forums/diary/Example+of+Cobalt+Strike+from+Emotet+infection/28318/
@@ -149,12 +155,14 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/
 * https://thedfirreport.com/2021/12/13/diavol-ransomware/
 * https://thedfirreport.com/2022/02/21/qbot-and-zerologon-lead-to-full-domain-compromise/
+* https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
 * https://twitter.com/TheDFIRReport/status/1508451341844168706
 * https://twitter.com/Unit42_Intel/status/1392174941181812737
 * https://us-cert.cisa.gov/ncas/alerts/aa21-148a
+* https://www.prodaft.com/resource/detail/ws-wizard-spider-group-depth-analysis
 * https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
 
 ## Literature

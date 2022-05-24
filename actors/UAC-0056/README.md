@@ -89,9 +89,10 @@ ID | Type | Indicator | Confidence
 33 | File | `admin/index.php` | High
 34 | File | `admin/manage-departments.php` | High
 35 | File | `admin/sellerupd.php` | High
-36 | ... | ... | ...
+36 | File | `admin/vqmods.app/vqmods.inc.php` | High
+37 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

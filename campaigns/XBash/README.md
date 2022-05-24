@@ -33,12 +33,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,12 +50,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/account/login` | High
 3 | File | `/adherents/note.php?id=1` | High
 4 | File | `/admin/ajax.php` | High
-5 | File | `/admin/gallery.php` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/bin/sh` | Low
-8 | File | `/cgi-bin/cgiServer.exx` | High
-9 | File | `/cgi?1&5` | Medium
-10 | File | `/clients/editclient.php` | High
+5 | File | `/Api/ASF` | Medium
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/cgiServer.exx` | High
+8 | File | `/cgi?1&5` | Medium
+9 | File | `/clients/editclient.php` | High
+10 | File | `/CommunitySSORedirect.jsp` | High
 11 | File | `/dl/dl_sendmail.php` | High
 12 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
 13 | File | `/formStaticDHCP` | High
@@ -78,10 +78,9 @@ ID | Type | Indicator | Confidence
 30 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/charger_ic/oppo_mp2650.c` | High
 31 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
 32 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_vooc.c` | High
-33 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
-34 | ... | ... | ...
+33 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

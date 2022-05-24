@@ -25,11 +25,13 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [65.181.113.87](https://vuldb.com/?ip.65.181.113.87) | mx1.lifestylefundings.com | Boleto Mestre | High
 2 | [65.181.127.152](https://vuldb.com/?ip.65.181.127.152) | portal2.brewmyidea.com | Boleto Mestre | High
+3 | [200.98.142.67](https://vuldb.com/?ip.200.98.142.67) | 200-98-142-67.clouduol.com.br | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://isc.sans.edu/forums/diary/BankerGoogleChromeExtensiontargetingBrazil/22722/
 * https://unit42.paloaltonetworks.com/unit42-master-channel-the-boleto-mestre-campaign-targets-brazil/
 
 ## Literature

@@ -80,7 +80,7 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/article_category.php?rec=update` | High
 29 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

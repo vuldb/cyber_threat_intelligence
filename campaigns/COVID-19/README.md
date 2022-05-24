@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -164,38 +164,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/admin/index.php?slides` | High
+1 | File | `/admin/index.php?slides` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
-4 | File | `/config/getuser` | High
-5 | File | `/domains/list` | High
-6 | File | `/form/index.php?module=getjson` | High
+4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+5 | File | `/form/index.php?module=getjson` | High
+6 | File | `/fuel/index.php/fuel/logs/items` | High
 7 | File | `/ghost/preview` | High
 8 | File | `/include/chart_generator.php` | High
-9 | File | `/nova/bin/detnet` | High
-10 | File | `/ptms/classes/Users.php` | High
-11 | File | `/public/admin.php` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-14 | File | `/rest/api/latest/user/avatar/temporary` | High
-15 | File | `/s/` | Low
-16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-17 | File | `/scripts/unlock_tasks.php` | High
-18 | File | `/tmp/app/.env` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/nova/bin/detnet` | High
+11 | File | `/rest/api/latest/projectvalidate/key` | High
+12 | File | `/rest/api/latest/user/avatar/temporary` | High
+13 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+14 | File | `/scripts/unlock_tasks.php` | High
+15 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+16 | File | `/secure/QueryComponent!Default.jspa` | High
+17 | File | `/tmp/app/.env` | High
+18 | File | `/ubus/uci.apply` | High
 19 | File | `/uncpath/` | Medium
 20 | File | `/user-utils/users/md5.json` | High
 21 | File | `/userfs/bin/tcapi` | High
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `500page.jsp` | Medium
-26 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/conf_users_edit.php` | High
-29 | File | `afr.php` | Low
-30 | ... | ... | ...
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `aam/v1/authenticate` | High
+24 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+25 | File | `adclick.php` | Medium
+26 | File | `admin.webring.docs.php` | High
+27 | File | `admin/conf_users_edit.php` | High
+28 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

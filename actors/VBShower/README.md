@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VBShower:
 
-* [ES](https://vuldb.com/?country.es)
 * [SV](https://vuldb.com/?country.sv)
+* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,35 +43,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
-2 | File | `/admin/inbox.php&action=read` | High
-3 | File | `/admin/news/news_mod.php` | High
-4 | File | `/admin/page_edit/3` | High
-5 | File | `/administrator/alerts/alertLightbox.php` | High
-6 | File | `/apps/acs-commons/content/page-compare.html` | High
-7 | File | `/blog/blog.php` | High
-8 | File | `/cgi-bin/main.cgi` | High
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/domain/service/.ewell-known/caldav` | High
-11 | File | `/dvcset/sysset/set.cgi` | High
-12 | File | `/example/editor` | High
-13 | File | `/include/make.php` | High
-14 | File | `/jquery_file_upload/server/php/index.php` | High
-15 | File | `/mobile/SelectUsers.jsp` | High
-16 | File | `/php/ajax.php` | High
-17 | File | `/ProteinArraySignificanceTest.json` | High
-18 | File | `/ptms/classes/Users.php` | High
-19 | File | `/public/admin/index.php?add_product` | High
-20 | File | `/role/saveOrUpdateRole.do` | High
-21 | File | `/system/bin/osi_bin` | High
-22 | File | `/usr/local/bin/mjs` | High
-23 | File | `/wp-content/uploads/jobmonster/` | High
-24 | File | `/zbzedit/php/zbz.php` | High
-25 | File | `ActiveServices.java` | High
-26 | File | `admin/htaccess/bpsunlock.php` | High
-27 | ... | ... | ...
+1 | File | `.jboss-cli-history` | High
+2 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+3 | File | `/admin/inbox.php&action=read` | High
+4 | File | `/admin/news/news_mod.php` | High
+5 | File | `/admin/page_edit/3` | High
+6 | File | `/administrator/alerts/alertLightbox.php` | High
+7 | File | `/api/students/me/courses/` | High
+8 | File | `/apps/acs-commons/content/page-compare.html` | High
+9 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+10 | File | `/blog/blog.php` | High
+11 | File | `/cgi-bin/luci/api/diagnose` | High
+12 | File | `/cgi-bin/main.cgi` | High
+13 | File | `/cgi-bin/uploadWeiXinPic` | High
+14 | File | `/cms/classes/Master.php?f=delete_designation` | High
+15 | File | `/controller/Adv.php` | High
+16 | File | `/createnewaccount` | High
+17 | File | `/dev/urandom` | Medium
+18 | File | `/dvcset/sysset/set.cgi` | High
+19 | File | `/ecrire` | Low
+20 | File | `/example/editor` | High
+21 | File | `/genericreport` | High
+22 | File | `/goform/setsambacfg` | High
+23 | File | `/goform/websURLFilter` | High
+24 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+25 | File | `/include/make.php` | High
+26 | File | `/jquery_file_upload/server/php/index.php` | High
+27 | File | `/php/ajax.php` | High
+28 | File | `/ptms/classes/Users.php` | High
+29 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

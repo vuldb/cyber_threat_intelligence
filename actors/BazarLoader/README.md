@@ -29,30 +29,34 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.101.57.185](https://vuldb.com/?ip.3.101.57.185) | ec2-3-101-57-185.us-west-1.compute.amazonaws.com | - | Medium
-2 | [13.225.230.232](https://vuldb.com/?ip.13.225.230.232) | server-13-225-230-232.jfk51.r.cloudfront.net | - | High
-3 | [13.226.32.216](https://vuldb.com/?ip.13.226.32.216) | server-13-226-32-216.ewr53.r.cloudfront.net | - | High
-4 | [18.67.60.164](https://vuldb.com/?ip.18.67.60.164) | server-18-67-60-164.iad89.r.cloudfront.net | - | High
-5 | [23.56.10.219](https://vuldb.com/?ip.23.56.10.219) | a23-56-10-219.deploy.static.akamaitechnologies.com | - | High
-6 | [23.62.25.178](https://vuldb.com/?ip.23.62.25.178) | a23-62-25-178.deploy.static.akamaitechnologies.com | - | High
-7 | [23.82.19.173](https://vuldb.com/?ip.23.82.19.173) | - | - | High
-8 | [23.94.51.80](https://vuldb.com/?ip.23.94.51.80) | 23-94-51-80-host.colocrossing.com | Anchor | High
-9 | [23.95.238.122](https://vuldb.com/?ip.23.95.238.122) | 23-95-238-122-host.colocrossing.com | - | High
-10 | [23.106.160.77](https://vuldb.com/?ip.23.106.160.77) | - | - | High
-11 | [23.106.215.61](https://vuldb.com/?ip.23.106.215.61) | - | - | High
-12 | [23.106.223.174](https://vuldb.com/?ip.23.106.223.174) | - | - | High
-13 | [23.152.0.22](https://vuldb.com/?ip.23.152.0.22) | anahiem.net | Diavol | High
-14 | [23.160.193.217](https://vuldb.com/?ip.23.160.193.217) | unknown.ip-xfer.net | - | High
-15 | [23.193.217.119](https://vuldb.com/?ip.23.193.217.119) | a23-193-217-119.deploy.static.akamaitechnologies.com | - | High
-16 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | - | High
-17 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | - | High
-18 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | - | Medium
-19 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | Anchor | Medium
-20 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | - | Medium
-21 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | - | Medium
-22 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | - | Medium
-23 | ... | ... | ... | ...
+2 | [5.45.97.127](https://vuldb.com/?ip.5.45.97.127) | v22018107054674935.goodsrv.de | - | High
+3 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | - | High
+4 | [13.225.230.232](https://vuldb.com/?ip.13.225.230.232) | server-13-225-230-232.jfk51.r.cloudfront.net | - | High
+5 | [13.226.32.216](https://vuldb.com/?ip.13.226.32.216) | server-13-226-32-216.ewr53.r.cloudfront.net | - | High
+6 | [18.67.60.164](https://vuldb.com/?ip.18.67.60.164) | server-18-67-60-164.iad89.r.cloudfront.net | - | High
+7 | [23.56.10.219](https://vuldb.com/?ip.23.56.10.219) | a23-56-10-219.deploy.static.akamaitechnologies.com | - | High
+8 | [23.62.25.178](https://vuldb.com/?ip.23.62.25.178) | a23-62-25-178.deploy.static.akamaitechnologies.com | - | High
+9 | [23.82.19.173](https://vuldb.com/?ip.23.82.19.173) | - | - | High
+10 | [23.94.51.80](https://vuldb.com/?ip.23.94.51.80) | 23-94-51-80-host.colocrossing.com | Anchor | High
+11 | [23.95.238.122](https://vuldb.com/?ip.23.95.238.122) | 23-95-238-122-host.colocrossing.com | - | High
+12 | [23.106.160.77](https://vuldb.com/?ip.23.106.160.77) | - | - | High
+13 | [23.106.215.61](https://vuldb.com/?ip.23.106.215.61) | - | - | High
+14 | [23.106.223.174](https://vuldb.com/?ip.23.106.223.174) | - | - | High
+15 | [23.152.0.22](https://vuldb.com/?ip.23.152.0.22) | anahiem.net | Diavol | High
+16 | [23.160.193.217](https://vuldb.com/?ip.23.160.193.217) | unknown.ip-xfer.net | - | High
+17 | [23.193.217.119](https://vuldb.com/?ip.23.193.217.119) | a23-193-217-119.deploy.static.akamaitechnologies.com | - | High
+18 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | - | High
+19 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | - | High
+20 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | - | Medium
+21 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | Anchor | Medium
+22 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | - | Medium
+23 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | - | Medium
+24 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | - | Medium
+25 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
+26 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+27 | ... | ... | ... | ...
 
-There are 88 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,6 +93,7 @@ There are 66 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with njRAT:
 
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,15 +21,28 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [2.91.138.211](https://vuldb.com/?ip.2.91.138.211) | - | - | High
-2 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
-3 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-4 | [41.200.44.39](https://vuldb.com/?ip.41.200.44.39) | - | - | High
-5 | [41.200.143.212](https://vuldb.com/?ip.41.200.143.212) | - | - | High
-6 | [43.229.151.64](https://vuldb.com/?ip.43.229.151.64) | - | - | High
-7 | ... | ... | ... | ...
+1 | [2.57.90.16](https://vuldb.com/?ip.2.57.90.16) | - | - | High
+2 | [2.91.138.211](https://vuldb.com/?ip.2.91.138.211) | - | - | High
+3 | [3.17.202.129](https://vuldb.com/?ip.3.17.202.129) | ec2-3-17-202-129.us-east-2.compute.amazonaws.com | - | Medium
+4 | [3.19.114.185](https://vuldb.com/?ip.3.19.114.185) | ec2-3-19-114-185.us-east-2.compute.amazonaws.com | - | Medium
+5 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
+6 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+7 | [31.13.66.19](https://vuldb.com/?ip.31.13.66.19) | xx-fbcdn-shv-01-iad3.fbcdn.net | - | High
+8 | [41.42.68.235](https://vuldb.com/?ip.41.42.68.235) | host-41.42.68.235.tedata.net | - | High
+9 | [41.97.3.243](https://vuldb.com/?ip.41.97.3.243) | - | - | High
+10 | [41.102.39.1](https://vuldb.com/?ip.41.102.39.1) | - | - | High
+11 | [41.102.190.225](https://vuldb.com/?ip.41.102.190.225) | - | - | High
+12 | [41.141.118.138](https://vuldb.com/?ip.41.141.118.138) | - | - | High
+13 | [41.200.44.39](https://vuldb.com/?ip.41.200.44.39) | - | - | High
+14 | [41.200.143.212](https://vuldb.com/?ip.41.200.143.212) | - | - | High
+15 | [41.226.95.248](https://vuldb.com/?ip.41.226.95.248) | - | - | High
+16 | [41.235.176.195](https://vuldb.com/?ip.41.235.176.195) | host-41.235.176.195.tedata.net | - | High
+17 | [43.229.151.64](https://vuldb.com/?ip.43.229.151.64) | - | - | High
+18 | [46.105.201.240](https://vuldb.com/?ip.46.105.201.240) | - | - | High
+19 | [46.243.150.150](https://vuldb.com/?ip.46.243.150.150) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,10 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-358 | 7PK Security Features | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,15 +63,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `/var/log/nginx` | High
-3 | File | `admin/conf_users_edit.php` | High
-4 | File | `art_detalle.php` | High
-5 | File | `books.php` | Medium
-6 | File | `com_contact` | Medium
-7 | ... | ... | ...
+1 | File | `/admin/login.php` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+4 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+5 | File | `/etc/gsissh/sshd_config` | High
+6 | File | `/redpass.cgi` | Medium
+7 | File | `/server-status` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/var/log/nginx` | High
+10 | File | `/WebMstr7/servlet/mstrWeb` | High
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+13 | File | `adclick.php` | Medium
+14 | File | `admin/conf_users_edit.php` | High
+15 | File | `admin/editusertag.php` | High
+16 | File | `admin/login.asp` | High
+17 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -67,6 +90,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0607-0614.html
 * https://blog.talosintelligence.com/2019/07/threat-roundup-for-0705-0712.html
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0809-0816.html
+* https://blog.talosintelligence.com/2019/11/threat-roundup-1025-1101.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0110-0117.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
+* https://blog.talosintelligence.com/2020/02/threat-roundup-0221-0228.html
+* https://blog.talosintelligence.com/2020/04/threat-roundup-0326-0403.html
+* https://blog.talosintelligence.com/2020/04/threat-roundup-0403-0410.html
+* https://blog.talosintelligence.com/2020/05/threat-roundup-0522-0529.html
+* https://blog.talosintelligence.com/2020/07/threat-roundup-0703-0710.html
+* https://blog.talosintelligence.com/2020/08/threat-roundup-0814-0821.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-1009-1016.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1204-1211.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0423-0430.html

@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Mirai:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,15 +30,17 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.56.56.78](https://vuldb.com/?ip.2.56.56.78) | - | - | High
-2 | [5.182.211.5](https://vuldb.com/?ip.5.182.211.5) | - | - | High
-3 | [34.80.131.135](https://vuldb.com/?ip.34.80.131.135) | 135.131.80.34.bc.googleusercontent.com | - | Medium
-4 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | DDoS Ukraine | High
-5 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | DDoS Ukraine | High
-6 | [45.88.181.46](https://vuldb.com/?ip.45.88.181.46) | pelko.incifios.org.uk | - | High
-7 | [45.134.225.20](https://vuldb.com/?ip.45.134.225.20) | - | - | High
-8 | ... | ... | ... | ...
+2 | [5.2.69.50](https://vuldb.com/?ip.5.2.69.50) | - | - | High
+3 | [5.182.211.5](https://vuldb.com/?ip.5.182.211.5) | - | - | High
+4 | [23.128.248.12](https://vuldb.com/?ip.23.128.248.12) | tor-exit03.stormycloud.org | - | High
+5 | [23.128.248.24](https://vuldb.com/?ip.23.128.248.24) | tor-exit15.stormycloud.org | - | High
+6 | [34.80.131.135](https://vuldb.com/?ip.34.80.131.135) | 135.131.80.34.bc.googleusercontent.com | - | Medium
+7 | [37.187.18.212](https://vuldb.com/?ip.37.187.18.212) | ns3110317.ip-37-187-18.eu | - | High
+8 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | DDoS Ukraine | High
+9 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | DDoS Ukraine | High
+10 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,11 +49,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,30 +61,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/skel` | Medium
-2 | File | `/formSetPortTr` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/guest/s/default/` | High
-5 | File | `/jeecg-boot/sys/common/upload` | High
-6 | File | `/public/plugins/` | High
-7 | File | `/question/ask` | High
-8 | File | `/rest/api/2/search` | High
-9 | File | `/rom-0` | Low
-10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/usr/sbin/httpd` | High
-14 | File | `adclick.php` | Medium
-15 | File | `admin.php` | Medium
-16 | File | `admin/scripts/FileUploader/php.php` | High
-17 | ... | ... | ...
+1 | File | `/adm/setmain.php` | High
+2 | File | `/admin.php/Plugins/update.html` | High
+3 | File | `/admin/new-content` | High
+4 | File | `/api/students/me/courses/` | High
+5 | File | `/Applications/Utilities/Terminal` | High
+6 | File | `/classes/master.php?f=delete_facility` | High
+7 | File | `/College_Management_System/admin/display-teacher.php` | High
+8 | File | `/common/info.cgi` | High
+9 | File | `/coreframe/app/member/admin/group.php` | High
+10 | File | `/ctpms/admin/?page=applications/view_application` | High
+11 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+12 | File | `/ctpms/admin/applications/update_status.php` | High
+13 | File | `/ctpms/admin/individuals/update_status.php` | High
+14 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+15 | File | `/default.php?idx=17` | High
+16 | File | `/ecrire` | Low
+17 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
+18 | File | `/exports/export.php` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/goform/setDeviceSettings` | High
+21 | File | `/goform/setMacFilterCfg` | High
+22 | File | `/html/Solar_Ftp.php` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/includes/login.php` | High
+25 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+26 | File | `/insurance/editPayment.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/page.php` | Medium
+29 | File | `/public/admin/index.php?add_product` | High
+30 | File | `/scbs/classes/Users.php?f=save_client` | High
+31 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2022/04/12/springshell-remote-code-execution-vulnerability/
 * https://blog.netlab.360.com/early-warning-a-new-mirai-variant-is-spreading-quickly-on-port-23-and-2323-en/
 * https://blog.netlab.360.com/emptiness-a-new-evolving-botnet/
 * https://blog.netlab.360.com/gpon-exploit-in-the-wild-iii-mettle-hajime-mirai-omni-imgay/

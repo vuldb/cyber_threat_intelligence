@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TVT Digital DVR Devices:
 
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
-* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -37,7 +37,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -50,7 +51,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/public/login.htm` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

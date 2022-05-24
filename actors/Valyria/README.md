@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Valyria:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [IL](https://vuldb.com/?country.il)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,16 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [12.139.45.113](https://vuldb.com/?ip.12.139.45.113) | - | - | High
-2 | [45.60.22.20](https://vuldb.com/?ip.45.60.22.20) | - | - | High
-3 | [50.62.26.129](https://vuldb.com/?ip.50.62.26.129) | ip-50-62-26-129.ip.secureserver.net | - | High
-4 | [54.164.54.19](https://vuldb.com/?ip.54.164.54.19) | ec2-54-164-54-19.compute-1.amazonaws.com | - | Medium
-5 | [72.167.191.65](https://vuldb.com/?ip.72.167.191.65) | p3nlhclust404.shr.prod.phx3.secureserver.net | - | High
-6 | [78.47.139.102](https://vuldb.com/?ip.78.47.139.102) | test.invidious.io | - | High
-7 | [81.215.192.201](https://vuldb.com/?ip.81.215.192.201) | 81.215.192.201.dynamic.ttnet.com.tr | - | High
-8 | ... | ... | ... | ...
+1 | [8.248.159.254](https://vuldb.com/?ip.8.248.159.254) | - | - | High
+2 | [8.249.221.254](https://vuldb.com/?ip.8.249.221.254) | - | - | High
+3 | [8.253.45.248](https://vuldb.com/?ip.8.253.45.248) | - | - | High
+4 | [8.253.131.111](https://vuldb.com/?ip.8.253.131.111) | - | - | High
+5 | [12.139.45.113](https://vuldb.com/?ip.12.139.45.113) | - | - | High
+6 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+7 | [45.60.22.20](https://vuldb.com/?ip.45.60.22.20) | - | - | High
+8 | [50.62.26.129](https://vuldb.com/?ip.50.62.26.129) | ip-50-62-26-129.ip.secureserver.net | - | High
+9 | [54.164.54.19](https://vuldb.com/?ip.54.164.54.19) | ec2-54-164-54-19.compute-1.amazonaws.com | - | Medium
+10 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,47 +53,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/art/data.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/admin/vod/data.html` | High
-4 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-5 | File | `/admin.php?r=admin/AdminBackup/del` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/admin/goods/update` | High
-8 | File | `/admin/inbox.php&action=delete` | High
-9 | File | `/admin/inbox.php&action=read` | High
-10 | File | `/admin/pagerole.php&action=edit` | High
-11 | File | `/admin/posts.php` | High
-12 | File | `/admin/posts.php&action=delete` | High
-13 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-14 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-15 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-16 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-17 | File | `/admin/uesrs.php&action=display&value=Show` | High
-18 | File | `/admin/uesrs.php&action=type&userrole=User` | High
-19 | File | `/administrator/alerts/alertLightbox.php` | High
-20 | File | `/api/eventinstance` | High
-21 | File | `/api /v3/auth` | High
-22 | File | `/appliance/users?action=edit` | High
-23 | File | `/apps/acs-commons/content/page-compare.html` | High
-24 | File | `/blog/blog.php` | High
-25 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-26 | File | `/cmd?cmd=connect` | High
-27 | File | `/cwms/admin/?page=articles/view_article/` | High
-28 | File | `/cwms/classes/Master.php?f=save_contact` | High
-29 | File | `/data/sqldata` | High
-30 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-31 | File | `/etc/zarafa/license` | High
-32 | File | `/goform/login_process` | High
-33 | File | `/hocms/classes/Master.php?f=delete_member` | High
-34 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-35 | File | `/include/make.php` | High
-36 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-37 | File | `/jpg/image.jpg` | High
-38 | File | `/login` | Low
-39 | ... | ... | ...
+1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+5 | File | `/acms/classes/Master.php?f=delete_img` | High
+6 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+7 | File | `/admin.php?r=admin/AdminBackup/del` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/inbox.php&action=delete` | High
+10 | File | `/admin/inbox.php&action=read` | High
+11 | File | `/admin/pagerole.php&action=edit` | High
+12 | File | `/admin/posts.php` | High
+13 | File | `/admin/posts.php&action=delete` | High
+14 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+15 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+16 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+17 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+18 | File | `/admin/uesrs.php&action=display&value=Show` | High
+19 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+20 | File | `/administrator/alerts/alertLightbox.php` | High
+21 | File | `/appliance/users?action=edit` | High
+22 | File | `/apps/acs-commons/content/page-compare.html` | High
+23 | File | `/assets/partials/_handleLogin.php` | High
+24 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+25 | File | `/cgi-bin/login.cgi` | High
+26 | File | `/classes/master.php?f=delete_facility` | High
+27 | File | `/cms/admin/?page=user/manage_user` | High
+28 | File | `/cms/classes/Master.php?f=delete_designation` | High
+29 | File | `/College_Management_System/admin/display-teacher.php` | High
+30 | File | `/coreframe/app/member/admin/group.php` | High
+31 | File | `/ctpms/admin/?page=applications/view_application` | High
+32 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+33 | File | `/ctpms/admin/applications/update_status.php` | High
+34 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +100,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/12/threat-roundup-1214-1221.html
 * https://blog.talosintelligence.com/2019/01/threat-roundup-0118-0125.html
 * https://blog.talosintelligence.com/2019/02/threat-roundup-0208-0215.html
+* https://blog.talosintelligence.com/2020/02/threat-roundup-0221-0228.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-0925-1002.html
 
 ## Literature
 

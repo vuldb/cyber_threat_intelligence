@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Miner:
 
 * [SC](https://vuldb.com/?country.sc)
-* [LI](https://vuldb.com/?country.li)
 * [US](https://vuldb.com/?country.us)
+* [LI](https://vuldb.com/?country.li)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.211.89.29](https://vuldb.com/?ip.91.211.89.29) | - | - | High
-2 | [185.10.68.123](https://vuldb.com/?ip.185.10.68.123) | 123.68.10.185.ro.ovo.sc | - | High
-3 | [185.10.68.220](https://vuldb.com/?ip.185.10.68.220) | 220.68.10.185.ro.ovo.sc | - | High
+1 | [5.9.116.27](https://vuldb.com/?ip.5.9.116.27) | static.27.116.9.5.clients.your-server.de | - | High
+2 | [5.9.175.19](https://vuldb.com/?ip.5.9.175.19) | static.19.175.9.5.clients.your-server.de | - | High
+3 | [5.9.176.3](https://vuldb.com/?ip.5.9.176.3) | static.3.176.9.5.clients.your-server.de | - | High
+4 | [5.9.198.83](https://vuldb.com/?ip.5.9.198.83) | static.83.198.9.5.clients.your-server.de | - | High
+5 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+6 | [23.6.70.227](https://vuldb.com/?ip.23.6.70.227) | a23-6-70-227.deploy.static.akamaitechnologies.com | - | High
+7 | ... | ... | ... | ...
+
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,18 +52,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
-3 | File | `/Home/GetAttachment` | High
-4 | File | `/members/view_member.php` | High
-5 | File | `/modules/projects/vw_files.php` | High
-6 | File | `admin/limits.php` | High
-7 | ... | ... | ...
+3 | File | `/example/editor` | High
+4 | File | `/Home/GetAttachment` | High
+5 | File | `/members/view_member.php` | High
+6 | File | `/modules/projects/vw_files.php` | High
+7 | File | `/var/log/demisto/` | High
+8 | File | `admin/limits.php` | High
+9 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 
 ## Literature

@@ -4,20 +4,67 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.cybergate](https://vuldb.com/?actor.cybergate)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cybergate:
+
+* [CA](https://vuldb.com/?country.ca)
+* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Cybergate.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [52.8.126.80](https://vuldb.com/?ip.52.8.126.80) | ec2-52-8-126-80.us-west-1.compute.amazonaws.com | - | Medium
-2 | [187.58.232.18](https://vuldb.com/?ip.187.58.232.18) | 187.58.232.18.static.host.gvt.net.br | - | High
+1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+2 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+3 | [23.5.234.11](https://vuldb.com/?ip.23.5.234.11) | a23-5-234-11.deploy.static.akamaitechnologies.com | - | High
+4 | [23.203.29.190](https://vuldb.com/?ip.23.203.29.190) | a23-203-29-190.deploy.static.akamaitechnologies.com | - | High
+5 | [52.8.126.80](https://vuldb.com/?ip.52.8.126.80) | ec2-52-8-126-80.us-west-1.compute.amazonaws.com | - | Medium
+6 | [52.201.110.209](https://vuldb.com/?ip.52.201.110.209) | ec2-52-201-110-209.compute-1.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
+
+There are 23 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Cybergate_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Cybergate. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/catcompany.php` | High
+2 | File | `/proc/self/cwd` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `admin/movieview.php` | High
+5 | ... | ... | ...
+
+There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0809-0816.html
+* https://blog.talosintelligence.com/2020/08/threat-roundup-0814-0821.html
+* https://blog.talosintelligence.com/2020/08/threat-roundup-0821-0827.html
 
 ## Literature
 

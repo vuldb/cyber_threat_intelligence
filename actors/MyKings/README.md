@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [HU](https://vuldb.com/?country.hu)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -98,7 +98,7 @@ ID | Type | Indicator | Confidence
 30 | File | `ajax/api/hook/decodeArguments` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,17 +80,17 @@ ID | Type | Indicator | Confidence
 12 | File | `/proc/pid/syscall` | High
 13 | File | `/rom-0` | Low
 14 | File | `/servlet.gupld` | High
-15 | File | `/status` | Low
-16 | File | `/tools/developerConsoleOperations.jsp` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/WEB-INF/web.xml` | High
-20 | File | `ActivityManagerService.java` | High
-21 | File | `adclick.php` | Medium
-22 | File | `adm1n/admin_config.php` | High
+15 | File | `/sql/sql_type.cc` | High
+16 | File | `/status` | Low
+17 | File | `/tools/developerConsoleOperations.jsp` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/WEB-INF/web.xml` | High
+21 | File | `ActivityManagerService.java` | High
+22 | File | `adclick.php` | Medium
 23 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -61,12 +61,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/Home/GetAttachment` | High
 5 | File | `/LogoStore/search.php` | High
 6 | File | `/modules/projects/vw_files.php` | High
-7 | File | `admin/limits.php` | High
-8 | File | `AjaxFileUploadHandler.axd` | High
-9 | File | `auth-gss2.c` | Medium
-10 | ... | ... | ...
+7 | File | `/sm/api/v1/firewall/zone/services` | High
+8 | File | `admin/limits.php` | High
+9 | File | `AjaxFileUploadHandler.axd` | High
+10 | File | `auth-gss2.c` | Medium
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

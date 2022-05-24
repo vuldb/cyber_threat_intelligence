@@ -30,14 +30,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.199.167.188](https://vuldb.com/?ip.5.199.167.188) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
+1 | [5.199.167.188](https://vuldb.com/?ip.5.199.167.188) | - | [Maze](https://vuldb.com/?actor.maze) | High
 2 | [37.1.213.9](https://vuldb.com/?ip.37.1.213.9) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
 3 | [37.252.7.142](https://vuldb.com/?ip.37.252.7.142) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
 4 | [54.39.233.188](https://vuldb.com/?ip.54.39.233.188) | mail.ov120.slpmt.net | [FIN6](https://vuldb.com/?actor.fin6) | High
 5 | [91.208.184.174](https://vuldb.com/?ip.91.208.184.174) | sell.mybeststore.club | [FIN6](https://vuldb.com/?actor.fin6) | High
 6 | [91.218.114.4](https://vuldb.com/?ip.91.218.114.4) | - | [Maze](https://vuldb.com/?actor.maze) | High
 7 | [91.218.114.11](https://vuldb.com/?ip.91.218.114.11) | - | [Maze](https://vuldb.com/?actor.maze) | High
-8 | ... | ... | ... | ...
+8 | [91.218.114.31](https://vuldb.com/?ip.91.218.114.31) | - | [FIN6](https://vuldb.com/?actor.fin6) | High
+9 | ... | ... | ... | ...
 
 There are 30 more IOC items available. Please use our online service to access the data.
 
@@ -80,6 +81,7 @@ There are 138 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.talosintelligence.com/2019/12/IR-Lessons-Maze.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Maze.csv
 * https://www.fireeye.com/blog/threat-research/2020/05/tactics-techniques-procedures-associated-with-maze-ransomware-incidents.html

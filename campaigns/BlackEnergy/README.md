@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 4 more TTP items available. Please use our online service to access the data.
@@ -70,34 +70,34 @@ ID | Type | Indicator | Confidence
 9 | File | `/EXCU_SHELL` | Medium
 10 | File | `/forum/away.php` | High
 11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/login` | Low
-13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/new` | Low
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rom` | Low
-19 | File | `/scripts/killpvhost` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/tmp/redis.ds` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/pkexec` | High
-27 | File | `/ViewUserHover.jspa` | High
-28 | File | `/wp-admin` | Medium
-29 | File | `/wp-json/wc/v3/webhooks` | High
-30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-31 | File | `AccountManagerService.java` | High
-32 | File | `actions/CompanyDetailsSave.php` | High
-33 | File | `ActiveServices.java` | High
-34 | File | `ActivityManagerService.java` | High
-35 | File | `addlink.php` | Medium
+12 | File | `/fuel/index.php/fuel/logs/items` | High
+13 | File | `/login` | Low
+14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/new` | Low
+17 | File | `/proc/<pid>/status` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/rom` | Low
+20 | File | `/scripts/killpvhost` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+24 | File | `/tmp` | Low
+25 | File | `/tmp/redis.ds` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/ViewUserHover.jspa` | High
+29 | File | `/wp-admin` | Medium
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `AccountManagerService.java` | High
+33 | File | `actions/CompanyDetailsSave.php` | High
+34 | File | `ActiveServices.java` | High
+35 | File | `ActivityManagerService.java` | High
 36 | File | `addtocart.asp` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

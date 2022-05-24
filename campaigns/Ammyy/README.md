@@ -19,6 +19,7 @@ These _actors_ are associated with Ammyy or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [TA505](https://vuldb.com/?actor.ta505) | High
+2 | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,7 +28,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [179.60.146.3](https://vuldb.com/?ip.179.60.146.3) | hostby.data-solutions.net | [TA505](https://vuldb.com/?actor.ta505) | High
-2 | [194.165.16.11](https://vuldb.com/?ip.194.165.16.11) | - | [TA505](https://vuldb.com/?actor.ta505) | High
+2 | [185.99.133.83](https://vuldb.com/?ip.185.99.133.83) | rns.nz.zappiehost.com | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
+3 | [194.165.16.11](https://vuldb.com/?ip.194.165.16.11) | - | [TA505](https://vuldb.com/?actor.ta505) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,16 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/common/ticket_associated_tickets.php` | High
-2 | File | `msg.c` | Low
-3 | Argument | `id` | Low
+2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+3 | File | `FileDownload.jsp` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.morphisec.com/morphisec-uncovers-pied-piper-campaign
 * https://www.proofpoint.com/us/threat-insight/post/leaked-ammyy-admin-source-code-turned-malware
 
 ## Literature

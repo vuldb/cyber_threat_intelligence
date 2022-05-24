@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Vicious Panda:
 
 * COVID-19
+* Russian Research Institutes
 
 ## Countries
 
@@ -16,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [JP](https://vuldb.com/?country.jp)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [95.179.156.97](https://vuldb.com/?ip.95.179.156.97) | 95.179.156.97.vultr.com | COVID-19 | Medium
-2 | [95.179.210.61](https://vuldb.com/?ip.95.179.210.61) | 95.179.210.61.vultr.com | COVID-19 | Medium
-3 | [95.179.242.6](https://vuldb.com/?ip.95.179.242.6) | 95.179.242.6.vultr.com | COVID-19 | Medium
+1 | [45.76.34.147](https://vuldb.com/?ip.45.76.34.147) | 45.76.34.147.vultrusercontent.com | Russian Research Institutes | High
+2 | [95.179.156.97](https://vuldb.com/?ip.95.179.156.97) | 95.179.156.97.vultr.com | COVID-19 | Medium
+3 | [95.179.210.61](https://vuldb.com/?ip.95.179.210.61) | 95.179.210.61.vultr.com | COVID-19 | Medium
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +42,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 
 ## IOA - Indicator of Attack
 
@@ -54,15 +56,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/WEB-INF/web.xml` | High
 4 | File | `abook_database.php` | High
 5 | File | `adclick.php` | Medium
-6 | ... | ... | ...
+6 | File | `admin.php` | Medium
+7 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://research.checkpoint.com/2020/vicious-panda-the-covid-campaign/
+* https://st.drweb.com/static/new-www/news/2021/april/drweb_research_attacks_on_russian_research_institutes_en.pdf
 
 ## Literature
 

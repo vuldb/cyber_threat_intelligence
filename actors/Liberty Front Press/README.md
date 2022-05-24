@@ -105,35 +105,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/admin.php` | Medium
-3 | File | `/CMD_ACCOUNT_ADMIN` | High
-4 | File | `/context/%2e/WEB-INF/web.xml` | High
-5 | File | `/core/admin/categories.php` | High
-6 | File | `/etc/groups` | Medium
-7 | File | `/etc/hosts` | Medium
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/filemanager/php/connector.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/MTFWU` | Low
-13 | File | `/new` | Low
-14 | File | `/proc/<pid>/status` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+3 | File | `/cgi-bin/luci/api/auth` | High
+4 | File | `/cgi-bin/luci/api/diagnose` | High
+5 | File | `/CMD_ACCOUNT_ADMIN` | High
+6 | File | `/context/%2e/WEB-INF/web.xml` | High
+7 | File | `/core/admin/categories.php` | High
+8 | File | `/etc/groups` | Medium
+9 | File | `/etc/hosts` | Medium
+10 | File | `/filemanager/php/connector.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/MTFWU` | Low
+14 | File | `/php/passport/index.php` | High
+15 | File | `/proc/<pid>/status` | High
+16 | File | `/public/plugins/` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/secure/QueryComponent!Default.jspa` | High
 19 | File | `/tmp` | Low
 20 | File | `/uncpath/` | Medium
 21 | File | `/updown/upload.cgi` | High
 22 | File | `/usr/bin/pkexec` | High
-23 | File | `4.2.0.CP09` | Medium
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `AccountManagerService.java` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `ActivityManagerService.java` | High
-28 | File | `admin.php` | Medium
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `4.2.0.CP09` | Medium
+25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+26 | File | `AccountManagerService.java` | High
+27 | File | `actions/CompanyDetailsSave.php` | High
+28 | File | `ActivityManagerService.java` | High
 29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

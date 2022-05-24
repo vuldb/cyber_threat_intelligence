@@ -88,35 +88,36 @@ ID | Type | Indicator | Confidence
 12 | File | `/lists/admin/` | High
 13 | File | `/login.cgi?logout=1` | High
 14 | File | `/medical/inventories.php` | High
-15 | File | `/module/admin_logs` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/replication` | Medium
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/scas/classes/Users.php?f=save_user` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-26 | File | `/start-stop` | Medium
-27 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-28 | File | `/tmp/app/.env` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/upload` | Low
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/_next` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `addentry.php` | Medium
-37 | File | `addrating.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.php/comments/batchdel/` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | ... | ... | ...
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/module/admin_logs` | High
+17 | File | `/nova/bin/console` | High
+18 | File | `/public/login.htm` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/replication` | Medium
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/scas/classes/Users.php?f=save_user` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+27 | File | `/start-stop` | Medium
+28 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+29 | File | `/tmp/app/.env` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload` | Low
+32 | File | `/usr/bin/pkexec` | High
+33 | File | `/v2/quantum/save-data-upload-big-file` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/_next` | Low
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `addrating.php` | High
+40 | File | `admin.php` | Medium
+41 | File | `admin.php/comments/batchdel/` | High
+42 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

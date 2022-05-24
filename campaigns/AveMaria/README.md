@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with AveMaria or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [FIN7](https://vuldb.com/?actor.fin7) | High
+2 | [AveMaria](https://vuldb.com/?actor.avemaria) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [91.192.100.62](https://vuldb.com/?ip.91.192.100.62) | 91-192-100-62.gerber.non-logging.vpn | [FIN7](https://vuldb.com/?actor.fin7) | High
-2 | [168.167.45.162](https://vuldb.com/?ip.168.167.45.162) | gbe-msu2-2-bnkabc.btc.net.bw | [FIN7](https://vuldb.com/?actor.fin7) | High
-3 | [185.61.138.249](https://vuldb.com/?ip.185.61.138.249) | hosted-by.blazingfast.io | [FIN7](https://vuldb.com/?actor.fin7) | High
+1 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+2 | [91.192.100.62](https://vuldb.com/?ip.91.192.100.62) | 91-192-100-62.gerber.non-logging.vpn | [FIN7](https://vuldb.com/?actor.fin7) | High
+3 | [168.167.45.162](https://vuldb.com/?ip.168.167.45.162) | gbe-msu2-2-bnkabc.btc.net.bw | [FIN7](https://vuldb.com/?actor.fin7) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,24 +56,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/anony/mjpg.cgi` | High
-2 | File | `/etc/shadow` | Medium
-3 | File | `/plain` | Low
-4 | File | `/public/login.htm` | High
-5 | File | `/service/upload` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/upload/catalog/controller/account/password.php` | High
-8 | File | `admin/record_company.php` | High
-9 | File | `auth-gss2.c` | Medium
-10 | File | `awstats.pl` | Medium
-11 | ... | ... | ...
+1 | File | `/admin/syslog` | High
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/etc/shadow` | Medium
+4 | File | `/plain` | Low
+5 | File | `/public/login.htm` | High
+6 | File | `/service/upload` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/upload/catalog/controller/account/password.php` | High
+9 | File | `admin/admin_users.php` | High
+10 | File | `admin/pageEditGroup.php` | High
+11 | File | `admin/record_company.php` | High
+12 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
+13 | File | `api/account/register` | High
+14 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://asec.ahnlab.com/en/34102/
+* https://blog.morphisec.com/threat-alert-ave-maria-infostealer-on-the-rise-with-new-stealthier-delivery
 * https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/
 
 ## Literature

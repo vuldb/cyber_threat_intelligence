@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,10 +25,12 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
 3 | [23.56.9.181](https://vuldb.com/?ip.23.56.9.181) | a23-56-9-181.deploy.static.akamaitechnologies.com | - | High
 4 | [23.253.126.58](https://vuldb.com/?ip.23.253.126.58) | - | - | High
-5 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
-6 | ... | ... | ... | ...
+5 | [27.86.106.68](https://vuldb.com/?ip.27.86.106.68) | mx01.au.com | - | High
+6 | [35.229.93.46](https://vuldb.com/?ip.35.229.93.46) | 46.93.229.35.bc.googleusercontent.com | - | Medium
+7 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
+8 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,14 +54,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/.htpasswd` | Medium
 2 | File | `/cgi-bin/nasset.cgi` | High
 3 | File | `/index.php/weblinks-categories` | High
-4 | ... | ... | ...
+4 | File | `/MIME/INBOX-MM-1/` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/wp-admin/options-general.php` | High
+7 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0614-0621.html
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0911-0918.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0115-0122.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 
 ## Literature

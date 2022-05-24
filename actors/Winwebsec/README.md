@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.winwebsec](https://vuldb.com/?actor.winwebsec)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Winwebsec:
+
+* [MS](https://vuldb.com/?country.ms)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Winwebsec.
@@ -12,11 +18,48 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [84.22.104.243](https://vuldb.com/?ip.84.22.104.243) | - | - | High
 2 | [103.4.225.41](https://vuldb.com/?ip.103.4.225.41) | - | - | High
+3 | [116.255.235.9](https://vuldb.com/?ip.116.255.235.9) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Winwebsec_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Winwebsec. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/mifs/c/i/reg/reg.html` | High
+2 | File | `/server-info` | Medium
+3 | File | `/wp-json/oembed/1.0/embed?url` | High
+4 | File | `a2billing/customer/iridium_threed.php` | High
+5 | File | `admin.php?s=/Channel/add.html` | High
+6 | File | `admin/class-bulk-editor-list-table.php` | High
+7 | File | `administrator/components/com_media/helpers/media.php` | High
+8 | File | `auth.asp` | Medium
+9 | ... | ... | ...
+
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0329-0405.html
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0405-0412.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
 
 ## Literature

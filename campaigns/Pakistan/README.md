@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pakistan:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -61,15 +61,15 @@ ID | Type | Indicator | Confidence
 3 | File | `/categorypage.php` | High
 4 | File | `/home.php` | Medium
 5 | File | `/list_temp_photo_pin_upload.php` | High
-6 | File | `/searchpin.php` | High
-7 | File | `/service/upload` | High
-8 | File | `/show_group_members.php` | High
-9 | File | `/sqfs/bin/sccd` | High
-10 | File | `admin/adduser.php` | High
-11 | File | `admin\model\catalog\download.php` | High
+6 | File | `/nova/bin/detnet` | High
+7 | File | `/searchpin.php` | High
+8 | File | `/service/upload` | High
+9 | File | `/show_group_members.php` | High
+10 | File | `/sqfs/bin/sccd` | High
+11 | File | `admin/adduser.php` | High
 12 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

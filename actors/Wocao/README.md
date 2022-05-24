@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Wocao:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [IL](https://vuldb.com/?country.il)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,47 +53,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/art/data.html` | High
-2 | File | `/admin.php/admin/vod/data.html` | High
-3 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-4 | File | `/admin.php?r=admin/AdminBackup/del` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/goods/update` | High
-7 | File | `/admin/inbox.php&action=delete` | High
-8 | File | `/admin/inbox.php&action=read` | High
-9 | File | `/admin/pagerole.php&action=edit` | High
-10 | File | `/admin/posts.php` | High
-11 | File | `/admin/posts.php&action=delete` | High
-12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-13 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-15 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-16 | File | `/admin/uesrs.php&action=display&value=Show` | High
-17 | File | `/admin/uesrs.php&action=type&userrole=User` | High
-18 | File | `/administrator/alerts/alertLightbox.php` | High
-19 | File | `/api/eventinstance` | High
-20 | File | `/api /v3/auth` | High
+1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+5 | File | `/acms/classes/Master.php?f=delete_img` | High
+6 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+7 | File | `/admin.php?r=admin/AdminBackup/del` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/inbox.php&action=delete` | High
+10 | File | `/admin/inbox.php&action=read` | High
+11 | File | `/admin/pagerole.php&action=edit` | High
+12 | File | `/admin/posts.php` | High
+13 | File | `/admin/posts.php&action=delete` | High
+14 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+15 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+16 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+17 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+18 | File | `/admin/uesrs.php&action=display&value=Show` | High
+19 | File | `/admin/uesrs.php&action=type&userrole=User` | High
+20 | File | `/administrator/alerts/alertLightbox.php` | High
 21 | File | `/appliance/users?action=edit` | High
 22 | File | `/apps/acs-commons/content/page-compare.html` | High
-23 | File | `/blog/blog.php` | High
+23 | File | `/assets/partials/_handleLogin.php` | High
 24 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-25 | File | `/cmd?cmd=connect` | High
-26 | File | `/cwms/admin/?page=articles/view_article/` | High
-27 | File | `/cwms/classes/Master.php?f=save_contact` | High
-28 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-29 | File | `/etc/zarafa/license` | High
-30 | File | `/goform/login_process` | High
-31 | File | `/hocms/classes/Master.php?f=delete_member` | High
-32 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-33 | File | `/include/make.php` | High
-34 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-35 | File | `/jpg/image.jpg` | High
-36 | File | `/login` | Low
-37 | File | `/manager/files` | High
-38 | File | `/module/api.php?mobile/wapNasIPS` | High
-39 | ... | ... | ...
+25 | File | `/cgi-bin/login.cgi` | High
+26 | File | `/cmd?cmd=connect` | High
+27 | File | `/cms/admin/?page=user/manage_user` | High
+28 | File | `/cms/classes/Master.php?f=delete_designation` | High
+29 | File | `/College_Management_System/admin/display-teacher.php` | High
+30 | File | `/coreframe/app/member/admin/group.php` | High
+31 | File | `/ctpms/admin/?page=applications/view_application` | High
+32 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+33 | File | `/ctpms/admin/applications/update_status.php` | High
+34 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+35 | File | `/dms/admin/reports/daily_collection_report.php` | High
+36 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
