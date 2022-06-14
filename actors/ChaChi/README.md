@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ChaChi:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -64,23 +64,24 @@ ID | Type | Indicator | Confidence
 12 | File | `/nova/bin/detnet` | High
 13 | File | `/opensis/modules/users/Staff.php` | High
 14 | File | `/plugins/servlet/gadgets/makeRequest` | High
-15 | File | `/req_password_user.php` | High
-16 | File | `/show_news.php` | High
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/Uploads` | Medium
-20 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `/webconsole/APIController` | High
-23 | File | `AccountStatus.jsp` | High
-24 | File | `add.php` | Low
-25 | File | `addentry.php` | Medium
-26 | File | `admin.htm` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/article_category.php?rec=update` | High
-29 | ... | ... | ...
+15 | File | `/REBOOTSYSTEM` | High
+16 | File | `/req_password_user.php` | High
+17 | File | `/show_news.php` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/Uploads` | Medium
+21 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/webconsole/APIController` | High
+24 | File | `/wp-admin/admin-ajax.php` | High
+25 | File | `AccountStatus.jsp` | High
+26 | File | `add.php` | Low
+27 | File | `addentry.php` | Medium
+28 | File | `admin.htm` | Medium
+29 | File | `admin.php` | Medium
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

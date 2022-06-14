@@ -56,21 +56,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/goform/SetNetControlList` | High
-2 | File | `/modules/tasks/summary.inc.php` | High
-3 | File | `/rest/api/2/user/picker` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `admin/categories_industry.php` | High
-6 | File | `admin/category.inc.php` | High
-7 | File | `admin/content/postcategory` | High
-8 | File | `Adminstrator/Users/Edit/` | High
-9 | File | `agent.cfg` | Medium
-10 | File | `ALL_IN_THE_BOX.OCX` | High
-11 | File | `bmp.c` | Low
-12 | File | `class.mysql.php` | High
+1 | File | `/cgi-bin/editBookmark` | High
+2 | File | `/goform/SetNetControlList` | High
+3 | File | `/modules/tasks/summary.inc.php` | High
+4 | File | `/rest/api/2/user/picker` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `admin/categories_industry.php` | High
+7 | File | `admin/category.inc.php` | High
+8 | File | `admin/content/postcategory` | High
+9 | File | `Adminstrator/Users/Edit/` | High
+10 | File | `agent.cfg` | Medium
+11 | File | `ALL_IN_THE_BOX.OCX` | High
+12 | File | `bmp.c` | Low
 13 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

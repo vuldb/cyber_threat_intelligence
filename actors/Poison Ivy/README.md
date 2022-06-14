@@ -45,11 +45,13 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
 2 | File | `/goform/saveParentControlInfo` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `2020\Messages\SDNotify.exe` | High
-5 | ... | ... | ...
+3 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+4 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `2020\Messages\SDNotify.exe` | High
+7 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

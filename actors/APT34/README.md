@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,31 +64,30 @@ ID | Type | Indicator | Confidence
 4 | File | `/bdswebui/assignusers/` | High
 5 | File | `/etc/fstab` | Medium
 6 | File | `/file?action=download&file` | High
-7 | File | `/includes/rrdtool.inc.php` | High
-8 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-9 | File | `/medical/inventories.php` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/SASWebReportStudio/logonAndRender.do` | High
-17 | File | `/scas/admin/` | Medium
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/var/log/nginx` | High
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `actions.hsp` | Medium
-25 | File | `addentry.php` | Medium
-26 | File | `add_to_cart.php` | High
-27 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-28 | File | `admin/config/confmgr.php` | High
-29 | ... | ... | ...
+7 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+8 | File | `/medical/inventories.php` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/replication` | Medium
+14 | File | `/RestAPI` | Medium
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/scas/admin/` | Medium
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/tmp/zarafa-vacation-*` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/var/log/nginx` | High
+22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+23 | File | `actions.hsp` | Medium
+24 | File | `addentry.php` | Medium
+25 | File | `add_to_cart.php` | High
+26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+27 | File | `admin/config/confmgr.php` | High
+28 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

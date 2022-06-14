@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [IL](https://vuldb.com/?country.il)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,10 +48,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,36 +59,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-5 | File | `/acms/classes/Master.php?f=delete_img` | High
-6 | File | `/assets/partials/_handleLogin.php` | High
-7 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/classes/master.php?f=delete_facility` | High
-10 | File | `/cms/admin/?page=client/view_client` | High
-11 | File | `/cms/admin/?page=invoice/view_invoice` | High
-12 | File | `/cms/admin/?page=user/manage_user` | High
-13 | File | `/cms/classes/Master.php?f=delete_designation` | High
-14 | File | `/cms/classes/Master.php?f=delete_service` | High
-15 | File | `/College_Management_System/admin/display-teacher.php` | High
-16 | File | `/ctpms/admin/?page=applications/view_application` | High
-17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-18 | File | `/ctpms/admin/applications/update_status.php` | High
-19 | File | `/ctpms/admin/individuals/update_status.php` | High
-20 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-21 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-22 | File | `/dms/admin/reports/daily_collection_report.php` | High
-23 | File | `/ecrire` | Low
-24 | File | `/goform/AdvSetLanIp` | High
-25 | File | `/help/treecontent.jsp` | High
-26 | File | `/index.php?page=reserve` | High
-27 | File | `/insurance/editNominee.php` | High
-28 | ... | ... | ...
+1 | File | `../FILEDIR` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/api/part_categories` | High
+6 | File | `/api/programs/orgUnits?programs` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/bcms/admin/?page=court_rentals/view_court_rental` | High
+9 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
+10 | File | `/bcms/admin/?page=sales/view_details` | High
+11 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+12 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+13 | File | `/bcms/admin/?page=user/manage_user` | High
+14 | File | `/cgi-bin` | Medium
+15 | File | `/cgi-bin/kerbynet` | High
+16 | File | `/checklogin.jsp` | High
+17 | File | `/churchcrm/WhyCameEditor.php` | High
+18 | File | `/course/api/upload/pic` | High
+19 | File | `/etc/cron.daily/upstart` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/itop/webservices/export-v2.php` | High
+23 | File | `/modules/profile/index.php` | High
+24 | File | `/nova/bin/sniffer` | High
+25 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+26 | File | `/ocwbs/admin/?page=user/manage_user` | High
+27 | File | `/ofrs/admin/?page=reports` | High
+28 | File | `/ofrs/admin/?page=requests/manage_request` | High
+29 | File | `/ofrs/admin/?page=teams/manage_team` | High
+30 | File | `/ofrs/admin/?page=teams/view_team` | High
+31 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

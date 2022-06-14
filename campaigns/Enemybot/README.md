@@ -18,6 +18,7 @@ These _actors_ are associated with Enemybot or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Keksec](https://vuldb.com/?actor.keksec) | High
+2 | [EnemyBot](https://vuldb.com/?actor.enemybot) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,7 +26,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [198.12.116.254](https://vuldb.com/?ip.198.12.116.254) | 198-12-116-254-host.colocrossing.com | [Keksec](https://vuldb.com/?actor.keksec) | High
+1 | [80.94.92.38](https://vuldb.com/?ip.80.94.92.38) | - | [EnemyBot](https://vuldb.com/?actor.enemybot) | High
+2 | [198.12.116.254](https://vuldb.com/?ip.198.12.116.254) | 198-12-116-254-host.colocrossing.com | [EnemyBot](https://vuldb.com/?actor.enemybot) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +50,9 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://cybersecurity.att.com/blogs/labs-research/rapidly-evolving-iot-malware-enemybot-now-targeting-content-management-system-servers
 * https://www.fortinet.com/blog/threat-research/enemybot-a-look-into-keksecs-latest-ddos-botnet
+* https://www.securonix.com/blog/detecting-the-enemybot-botnet-advisory/
 
 ## Literature
 

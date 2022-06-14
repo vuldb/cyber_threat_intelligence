@@ -95,12 +95,12 @@ ID | Type | Indicator | Confidence
 8 | File | `/modules/projects/vw_files.php` | High
 9 | File | `/plain` | Low
 10 | File | `/uncpath/` | Medium
-11 | File | `/_next` | Low
-12 | File | `actionHandler/ajax_managed_services.php` | High
-13 | File | `admin/admin.shtml` | High
+11 | File | `/xyhai.php?s=/Auth/editUser` | High
+12 | File | `/_next` | Low
+13 | File | `actionHandler/ajax_managed_services.php` | High
 14 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

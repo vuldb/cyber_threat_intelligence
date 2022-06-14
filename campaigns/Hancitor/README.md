@@ -81,40 +81,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/auth/session` | High
 3 | File | `/concat?/%2557EB-INF/web.xml` | High
 4 | File | `/download` | Medium
-5 | File | `/drivers/infiniband/core/cm.c` | High
-6 | File | `/files.md5` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/inc/extensions.php` | High
-11 | File | `/inc/parser/xhtml.php` | High
-12 | File | `/login` | Low
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/objects/getImageMP4.php` | High
-16 | File | `/one_church/userregister.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/public/plugins/` | High
-19 | File | `/replication` | Medium
-20 | File | `/req_password_user.php` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/syno/etc/mount.conf` | High
-30 | File | `/v2/quantum/save-data-upload-big-file` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
+5 | File | `/files.md5` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/images/` | Medium
+9 | File | `/inc/extensions.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/login` | Low
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/nova/bin/console` | High
+14 | File | `/objects/getImageMP4.php` | High
+15 | File | `/one_church/userregister.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/public/plugins/` | High
+18 | File | `/replication` | Medium
+19 | File | `/req_password_user.php` | High
+20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/syno/etc/mount.conf` | High
+29 | File | `/v2/quantum/save-data-upload-big-file` | High
+30 | File | `/WEB-INF/web.xml` | High
+31 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+32 | File | `/wp-json/oembed/1.0/embed?url` | High
+33 | File | `4.edu.php` | Medium
 34 | File | `adclick.php` | Medium
 35 | File | `addentry.php` | Medium
 36 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Domestic Kitten:
 
 * [NL](https://vuldb.com/?country.nl)
-* [IR](https://vuldb.com/?country.ir)
 * [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -51,36 +51,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/appliance/users?action=edit` | High
-5 | File | `/category_view.php` | High
-6 | File | `/connectors/index.php` | High
-7 | File | `/core/model/modx/modmanagerrequest.class.php` | High
-8 | File | `/dev/kmem` | Medium
-9 | File | `/file?action=download&file` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/hub/api/user` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/NAGErrors` | Medium
-15 | File | `/plugins/servlet/audit/resource` | High
-16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-17 | File | `/replication` | Medium
-18 | File | `/RestAPI` | Medium
-19 | File | `/tmp` | Low
-20 | File | `/tmp/speedtest_urls.xml` | High
-21 | File | `/uncpath/` | Medium
+5 | File | `/connectors/index.php` | High
+6 | File | `/core/model/modx/modmanagerrequest.class.php` | High
+7 | File | `/file?action=download&file` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/hub/api/user` | High
+10 | File | `/medical/inventories.php` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/NAGErrors` | Medium
+13 | File | `/plugins/servlet/audit/resource` | High
+14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+15 | File | `/replication` | Medium
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
 22 | File | `/var/log/nginx` | High
 23 | File | `/WEB-INF/web.xml` | High
-24 | File | `/wp-admin/admin.php` | High
-25 | File | `account.asp` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-28 | File | `admin/index.php` | High
-29 | File | `admins.js` | Medium
-30 | File | `admin\model\catalog\download.php` | High
-31 | File | `apcupsd.pid` | Medium
-32 | ... | ... | ...
+24 | File | `account.asp` | Medium
+25 | File | `addentry.php` | Medium
+26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+27 | File | `admins.js` | Medium
+28 | File | `admin\model\catalog\download.php` | High
+29 | File | `apcupsd.pid` | Medium
+30 | File | `api/sms/send-sms` | High
+31 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -36,11 +36,11 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [37.139.3.130](https://vuldb.com/?ip.37.139.3.130) | - | - | High
 7 | [37.139.28.208](https://vuldb.com/?ip.37.139.28.208) | - | - | High
 8 | [45.33.29.133](https://vuldb.com/?ip.45.33.29.133) | li1046-133.members.linode.com | - | High
-9 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
-10 | [46.105.40.12](https://vuldb.com/?ip.46.105.40.12) | ip12.ip-46-105-40.eu | - | High
+9 | [45.61.137.7](https://vuldb.com/?ip.45.61.137.7) | - | - | High
+10 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,36 +73,38 @@ ID | Type | Indicator | Confidence
 10 | File | `/htmlcode/html/indexdefault.asp` | High
 11 | File | `/out.php` | Medium
 12 | File | `/products/details.asp` | High
-13 | File | `/system/ws/v11/ss/email` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/var/www/xms/application/config/config.php` | High
-16 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-17 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-18 | File | `/var/www/xms/cleanzip.sh` | High
-19 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-23 | File | `about.php` | Medium
-24 | File | `adclick.php` | Medium
-25 | File | `addentry.php` | Medium
-26 | File | `add_vhost.php` | High
-27 | File | `admin/conf_users_edit.php` | High
-28 | File | `admin/default.asp` | High
-29 | File | `admin/media/rename.php` | High
-30 | File | `admin/user.php` | High
-31 | File | `advanced_component_system/index.php` | High
-32 | File | `agent.cfg` | Medium
-33 | File | `ajax/render/widget_php` | High
-34 | File | `ampie.swf` | Medium
-35 | ... | ... | ...
+13 | File | `/share/error?message` | High
+14 | File | `/system/ws/v11/ss/email` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/var/www/xms/application/config/config.php` | High
+17 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+18 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+19 | File | `/var/www/xms/cleanzip.sh` | High
+20 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+21 | File | `/wp-admin/admin-ajax.php` | High
+22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+24 | File | `about.php` | Medium
+25 | File | `adclick.php` | Medium
+26 | File | `addentry.php` | Medium
+27 | File | `add_vhost.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/conf_users_edit.php` | High
+30 | File | `admin/default.asp` | High
+31 | File | `admin/media/rename.php` | High
+32 | File | `admin/user.php` | High
+33 | File | `advanced_component_system/index.php` | High
+34 | File | `agent.cfg` | Medium
+35 | File | `ajax/render/widget_php` | High
+36 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2021/07/22/donot-apt-group-delivers-a-spyware-variant-of-chat-app/
 * https://github.com/faisalusuf/ThreatIntelligence/blob/main/APT%20DONOT%20TEAM/Tracking-DONOT-IOCs.csv
 * https://twitter.com/ShadowChasing1/status/1497125743125413892
 * https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/

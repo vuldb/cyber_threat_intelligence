@@ -72,7 +72,7 @@ ID | Type | Indicator | Confidence
 20 | File | `ajax/autocompletion.php` | High
 21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

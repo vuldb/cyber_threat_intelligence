@@ -89,27 +89,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/lms/admin.php` | High
 16 | File | `/mc` | Low
 17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-19 | File | `/opt/novell/ncl/bin/nwrights` | High
+18 | File | `/my_photo_gallery/image.php` | High
+19 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
 20 | File | `/out.php` | Medium
 21 | File | `/proc/*/cmdline"` | High
 22 | File | `/proc/pid/syscall` | High
-23 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-24 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/var/log/pcp/configs.sh` | High
-27 | File | `/webconsole/APIController` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-30 | File | `a-b-membres.php` | High
-31 | File | `action.php` | Medium
-32 | File | `admin-search.php` | High
-33 | File | `admin.jcomments.php` | High
-34 | File | `admin/adminsignin.html` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/infoclass_update.php` | High
-37 | File | `admin/plugin.php` | High
-38 | File | `admin/test.php` | High
+23 | File | `/reps/classes/Users.php?f=delete_agent` | High
+24 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+25 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/var/log/pcp/configs.sh` | High
+28 | File | `/webconsole/APIController` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+31 | File | `a-b-membres.php` | High
+32 | File | `action.php` | Medium
+33 | File | `admin-search.php` | High
+34 | File | `admin.jcomments.php` | High
+35 | File | `admin/adminsignin.html` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/infoclass_update.php` | High
+38 | File | `admin/plugin.php` | High
 39 | File | `admin/versions.html` | High
 40 | File | `administrator/index.php?option=com_pago&view=comments` | High
 41 | File | `Adminlog.asp` | Medium
@@ -118,9 +118,10 @@ ID | Type | Indicator | Confidence
 44 | File | `ajax_admin_apis.php` | High
 45 | File | `ajax_php_pecl.php` | High
 46 | File | `allocate_block.cpp` | High
-47 | ... | ... | ...
+47 | File | `api.cc` | Low
+48 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

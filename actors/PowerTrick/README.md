@@ -51,25 +51,24 @@ ID | Type | Indicator | Confidence
 9 | File | `/phppath/php` | Medium
 10 | File | `/services/getFile.cmd` | High
 11 | File | `/sns/classes/Master.php?f=delete_img` | High
-12 | File | `/tools/required/files/importers/imageeditor` | High
-13 | File | `/usr/bin/pkexec` | High
-14 | File | `/v2/quantum/save-data-upload-big-file` | High
-15 | File | `/var/log/messages` | High
-16 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-17 | File | `/webconsole/Controller` | High
-18 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-19 | File | `abook_database.php` | High
-20 | File | `acl/save_user.cgi` | High
-21 | File | `adaptive-images-script.php` | High
-22 | File | `admin/auth.php` | High
-23 | File | `admin/cgi-bin/listdir.pl` | High
-24 | File | `adminuseredit.php?usertoedit=XSS` | High
-25 | File | `AvastSvc.exe` | Medium
-26 | File | `backupsettings.conf` | High
-27 | File | `base/ErrorHandler.php` | High
-28 | ... | ... | ...
+12 | File | `/usr/bin/pkexec` | High
+13 | File | `/v2/quantum/save-data-upload-big-file` | High
+14 | File | `/var/log/messages` | High
+15 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+16 | File | `/webconsole/Controller` | High
+17 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+18 | File | `abook_database.php` | High
+19 | File | `acl/save_user.cgi` | High
+20 | File | `adaptive-images-script.php` | High
+21 | File | `admin/auth.php` | High
+22 | File | `admin/cgi-bin/listdir.pl` | High
+23 | File | `adminuseredit.php?usertoedit=XSS` | High
+24 | File | `AvastSvc.exe` | Medium
+25 | File | `backupsettings.conf` | High
+26 | File | `base/ErrorHandler.php` | High
+27 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

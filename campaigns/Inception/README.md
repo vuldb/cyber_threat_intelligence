@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SV](https://vuldb.com/?country.sv)
 * [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,35 +56,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.jboss-cli-history` | High
-2 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
-3 | File | `/admin/inbox.php&action=read` | High
-4 | File | `/admin/news/news_mod.php` | High
-5 | File | `/admin/page_edit/3` | High
-6 | File | `/administrator/alerts/alertLightbox.php` | High
-7 | File | `/apps/acs-commons/content/page-compare.html` | High
-8 | File | `/blog/blog.php` | High
-9 | File | `/cgi-bin/luci/api/diagnose` | High
-10 | File | `/cgi-bin/main.cgi` | High
-11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/cms/classes/Master.php?f=delete_designation` | High
-13 | File | `/controller/Adv.php` | High
-14 | File | `/dvcset/sysset/set.cgi` | High
-15 | File | `/example/editor` | High
-16 | File | `/goform/setsambacfg` | High
-17 | File | `/goform/websURLFilter` | High
-18 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-19 | File | `/include/make.php` | High
-20 | File | `/jquery_file_upload/server/php/index.php` | High
-21 | File | `/mobile/SelectUsers.jsp` | High
-22 | File | `/php/ajax.php` | High
-23 | File | `/ptms/classes/Users.php` | High
-24 | File | `/public/admin/index.php?add_product` | High
-25 | File | `/resolv/nss_dns/dns-host.c` | High
-26 | File | `/role/saveOrUpdateRole.do` | High
-27 | File | `/scbs/admin/?page=facilities/manage_facility` | High
-28 | ... | ... | ...
+2 | File | `/admin.php/Links/del` | High
+3 | File | `/admin.php/pic/admin/pic/hy` | High
+4 | File | `/admin.php/singer/admin/lists/zhuan` | High
+5 | File | `/admin.php/singer/admin/singer/hy` | High
+6 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
+7 | File | `/admin/inbox.php&action=read` | High
+8 | File | `/admin/news/news_mod.php` | High
+9 | File | `/administrator/alerts/alertLightbox.php` | High
+10 | File | `/api/part_categories` | High
+11 | File | `/api/programs/orgUnits?programs` | High
+12 | File | `/api/students/me/courses/` | High
+13 | File | `/apps/acs-commons/content/page-compare.html` | High
+14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+15 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+16 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+17 | File | `/blog/blog.php` | High
+18 | File | `/cgi-bin/luci/api/diagnose` | High
+19 | File | `/cgi-bin/main.cgi` | High
+20 | File | `/cgi-bin/uploadWeiXinPic` | High
+21 | File | `/cgi-mod/lookup.cgi` | High
+22 | File | `/cms/classes/Master.php?f=delete_designation` | High
+23 | File | `/controller/Adv.php` | High
+24 | File | `/createnewaccount` | High
+25 | File | `/dev/urandom` | Medium
+26 | File | `/dvcset/sysset/set.cgi` | High
+27 | File | `/ecrire` | Low
+28 | File | `/etc/sudoers` | Medium
+29 | File | `/example/editor` | High
+30 | File | `/food/admin/all_users.php` | High
+31 | File | `/genericreport` | High
+32 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,9 +66,9 @@ ID | Type | Indicator | Confidence
 15 | File | `/DbXmlInfo.xml` | High
 16 | File | `/download` | Medium
 17 | File | `/etc/passwd` | Medium
-18 | File | `/login` | Low
-19 | File | `/navigate/navigate_download.php` | High
-20 | File | `/out.php` | Medium
+18 | File | `/goforms/rlminfo` | High
+19 | File | `/login` | Low
+20 | File | `/navigate/navigate_download.php` | High
 21 | File | `/owa/auth/logon.aspx` | High
 22 | File | `/p` | Low
 23 | File | `/password.html` | High
@@ -82,25 +82,24 @@ ID | Type | Indicator | Confidence
 31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 32 | File | `/services/system/setup.json` | High
 33 | File | `/uncpath/` | Medium
-34 | File | `/webconsole/APIController` | High
-35 | File | `/websocket/exec` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/wp-json` | Medium
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `/_next` | Low
-40 | File | `4.edu.php\conn\function.php` | High
-41 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-42 | File | `adclick.php` | Medium
-43 | File | `addentry.php` | Medium
-44 | File | `admin.php?reqGadget=Components&reqAction=InstallGadget&comp=FileBrowser` | High
-45 | File | `admin/category.inc.php` | High
-46 | File | `admin/conf_users_edit.php` | High
-47 | File | `admin/dl_sendmail.php` | High
-48 | File | `admin/google_search_console/class-gsc-table.php` | High
-49 | File | `admin/index.php` | High
-50 | ... | ... | ...
+34 | File | `/vloggers_merch/?p=view_product` | High
+35 | File | `/webconsole/APIController` | High
+36 | File | `/websocket/exec` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
+38 | File | `/wp-json` | Medium
+39 | File | `/wp-json/oembed/1.0/embed?url` | High
+40 | File | `/_next` | Low
+41 | File | `4.edu.php\conn\function.php` | High
+42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `admin.php?reqGadget=Components&reqAction=InstallGadget&comp=FileBrowser` | High
+46 | File | `admin/category.inc.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | File | `admin/dl_sendmail.php` | High
+49 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

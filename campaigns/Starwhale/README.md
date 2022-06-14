@@ -39,7 +39,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1222 | CWE-275 | Permission Issues | High
-3 | T1552 | CWE-319 | Unprotected Storage of Credentials | High
+3 | T1548.002 | CWE-285 | Improper Authorization | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,14 +53,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/configs/application.ini` | High
 2 | File | `/dana/nc/ncrun.cgi` | High
 3 | File | `/jsonrpc` | Medium
-4 | File | `admin.php?mod=user&act=del` | High
-5 | File | `ajax/render/widget_php` | High
-6 | File | `arch/s390/kvm/kvm-s390.c` | High
-7 | File | `auth.inc.php` | Medium
-8 | File | `certs/blacklist.c` | High
-9 | ... | ... | ...
+4 | File | `/simple_chat_bot/admin/responses/view_response.php` | High
+5 | File | `adclick.php` | Medium
+6 | File | `admin.php?mod=user&act=del` | High
+7 | File | `ajax/render/widget_php` | High
+8 | File | `arch/s390/kvm/kvm-s390.c` | High
+9 | File | `auth.inc.php` | Medium
+10 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

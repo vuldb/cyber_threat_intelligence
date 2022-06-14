@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
-* [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4910,7 +4910,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 9 more TTP items available. Please use our online service to access the data.
@@ -4921,48 +4921,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/classes/Master.php?f=delete_img` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/api/students/me/courses/` | High
-4 | File | `/cgi-bin/login` | High
-5 | File | `/cgi-bin/luci/api/auth` | High
-6 | File | `/cgi-bin/luci/api/diagnose` | High
-7 | File | `/cgi-bin/luci/api/switch` | High
-8 | File | `/cgi-bin/luci/api/wireless` | High
-9 | File | `/course/modedit.php` | High
-10 | File | `/ctpms/admin/?page=applications/view_application` | High
-11 | File | `/ctpms/admin/individuals/update_status.php` | High
-12 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-13 | File | `/fantasticblog/single.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/goform/editassignment` | High
-17 | File | `/goform/form2IPQoSTcAdd` | High
-18 | File | `/goform/setDeviceSettings` | High
-19 | File | `/goform/SetNetControlList` | High
-20 | File | `/goform/setNetworkLan` | High
-21 | File | `/goform/setpptpservercfg` | High
-22 | File | `/goform/setsambacfg` | High
-23 | File | `/goform/setSysAdm` | High
-24 | File | `/goform/websHostFilter` | High
-25 | File | `/goform/websURLFilter` | High
-26 | File | `/guest/s/default/` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/pharmacy-sales-and-inventory-system/manage_user.php` | High
-30 | File | `/ServletAPI/accounts/login` | High
-31 | File | `/setnetworksettings/IPAddress` | High
-32 | File | `/setnetworksettings/SubnetMask` | High
-33 | File | `/setting/CloudACMunualUpdate` | High
-34 | File | `/setting/NTPSyncWithHost` | High
-35 | File | `/setting/setDeviceName` | High
-36 | File | `/setting/setDiagnosisCfg` | High
-37 | File | `/setting/setLanguageCfg` | High
-38 | File | `/setting/setUpgradeFW` | High
-39 | File | `/setting/setUploadSetting` | High
-40 | ... | ... | ...
+1 | File | `../FILEDIR` | Medium
+2 | File | `.htaccess` | Medium
+3 | File | `//proc/kcore` | Medium
+4 | File | `/?module=fileman&section=get&page=grid` | High
+5 | File | `/account/ResetPassword` | High
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/sign/out` | High
+8 | File | `/Ap4RtpAtom.cpp` | High
+9 | File | `/api/part_categories` | High
+10 | File | `/cgi-bin` | Medium
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/checklogin.jsp` | High
+13 | File | `/componetns/user/class.user.php` | High
+14 | File | `/config/getuser` | High
+15 | File | `/defaultui/player/modern.html` | High
+16 | File | `/etc/quagga` | Medium
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/getcfg.php` | Medium
+19 | File | `/goform/aspForm` | High
+20 | File | `/goform/saveParentControlInfo` | High
+21 | File | `/goform/SetFirewallCfg` | High
+22 | File | `/goform/WifiExtraSet` | High
+23 | File | `/IISADMPWD` | Medium
+24 | File | `/itop/webservices/export-v2.php` | High
+25 | File | `/MIME/INBOX-MM-1/` | High
+26 | File | `/nova/bin/sniffer` | High
+27 | File | `/ofrs/admin/?page=teams/manage_team` | High
+28 | File | `/ram/pckg/security/nova/bin/ipsec` | High
+29 | File | `/resources//../` | High
+30 | File | `/rest/api/latest/projectvalidate/key` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/service/upload` | High
+33 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

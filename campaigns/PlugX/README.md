@@ -78,41 +78,41 @@ ID | Type | Indicator | Confidence
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
 11 | File | `/domains/index.fts` | High
 12 | File | `/download` | Medium
-13 | File | `/DroboAccess/delete_user` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/foundry/modules/news/newscolumns.php` | High
-16 | File | `/ghost/preview` | High
-17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/LDMS/frm_splitfrm.aspx` | High
-19 | File | `/media/api` | Medium
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-22 | File | `/NAGErrors` | Medium
-23 | File | `/q` | Low
-24 | File | `/RestAPI` | Medium
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/service-list` | High
-27 | File | `/smstest.html` | High
-28 | File | `/start-stop` | Medium
-29 | File | `/subscribe/subscribe` | High
-30 | File | `/tmp` | Low
-31 | File | `/tmp/kamailio_fifo` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/view/friend_profile.php` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
-36 | File | `actions/authenticate.php` | High
-37 | File | `actions/doreport.php` | High
-38 | File | `addlyricsform.php` | High
-39 | File | `addmerchpicform.php` | High
-40 | File | `addresses_export.php` | High
-41 | File | `adherents/cartes/carte.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin.php?m=backup&c=backup&a=doback` | High
-44 | File | `admin/admin.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/foundry/modules/news/newscolumns.php` | High
+15 | File | `/ghost/preview` | High
+16 | File | `/GponForm/device_Form?script/` | High
+17 | File | `/LDMS/frm_splitfrm.aspx` | High
+18 | File | `/media/api` | Medium
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+21 | File | `/NAGErrors` | Medium
+22 | File | `/q` | Low
+23 | File | `/RestAPI` | Medium
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/service-list` | High
+26 | File | `/smstest.html` | High
+27 | File | `/start-stop` | Medium
+28 | File | `/subscribe/subscribe` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/kamailio_fifo` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/view/friend_profile.php` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `actions/authenticate.php` | High
+36 | File | `actions/doreport.php` | High
+37 | File | `addlyricsform.php` | High
+38 | File | `addmerchpicform.php` | High
+39 | File | `addresses_export.php` | High
+40 | File | `adherents/cartes/carte.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin.php?m=backup&c=backup&a=doback` | High
+43 | File | `admin/admin.php` | High
+44 | File | `admin/admin/fileUploadAction_fileUpload.action` | High
 45 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

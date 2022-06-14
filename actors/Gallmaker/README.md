@@ -29,10 +29,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1548.002 | CWE-285 | Improper Authorization | High
+3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,9 +44,10 @@ ID | Type | Indicator | Confidence
 2 | File | `base/ErrorHandler.php` | High
 3 | File | `blog.php` | Medium
 4 | File | `c4t64fx.c` | Medium
-5 | ... | ... | ...
+5 | File | `cgi-bin/webcm` | High
+6 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

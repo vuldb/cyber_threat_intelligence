@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mars Stealer:
 
 * [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.63.155.126](https://vuldb.com/?ip.5.63.155.126) | 5-63-155-126.cloudvps.regruhosting.ru | - | High
-2 | [159.65.9.223](https://vuldb.com/?ip.159.65.9.223) | - | - | High
+1 | [5.45.84.214](https://vuldb.com/?ip.5.45.84.214) | - | - | High
+2 | [5.63.155.126](https://vuldb.com/?ip.5.63.155.126) | 5-63-155-126.cloudvps.regruhosting.ru | - | High
+3 | [66.29.142.232](https://vuldb.com/?ip.66.29.142.232) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,7 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 
@@ -34,16 +44,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/lists/index.php` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `ngx_http_lua_subrequest.c` | High
-4 | ... | ... | ...
+2 | File | `add_comment.php` | High
+3 | File | `add_quiz.php` | Medium
+4 | File | `admin.jcomments.php` | High
+5 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.morphisec.com/threat-research-mars-stealer
 * https://gist.github.com/viriback/362a91ed9601ba906d8a17c8102a68bb
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
 

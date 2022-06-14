@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Moobot:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Moobot:
 
-* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,41 +58,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
-2 | File | `/admin/cloud.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/api/document/<DocumentID>/attachments` | High
-5 | File | `/cgi-bin/uploadWeiXinPic` | High
-6 | File | `/core/admin/categories.php` | High
-7 | File | `/coreframe/app/order/admin/card.php` | High
-8 | File | `/DsaDataTest` | Medium
-9 | File | `/eshop/products/json/aouCustomerAdresse` | High
-10 | File | `/etc/config/cameo` | High
-11 | File | `/etc/environment` | High
-12 | File | `/extensionsinstruction` | High
-13 | File | `/goform/setWorkmode` | High
-14 | File | `/goods/getGoodsListByConditions/` | High
-15 | File | `/member/index/login.html` | High
-16 | File | `/moddable/xs/sources/xsScript.c` | High
-17 | File | `/moddable/xs/sources/xsSymbol.c` | High
-18 | File | `/music/ajax.php` | High
-19 | File | `/nagioslogserver/configure/create_snapshot` | High
-20 | File | `/nova/bin/lcdstat` | High
-21 | File | `/orms/` | Low
-22 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-23 | File | `/rest/api/2/user/picker` | High
-24 | File | `/rsms/` | Low
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/src/njs_vmcode.c` | High
-27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-28 | File | `/syscmd.asp` | Medium
-29 | File | `/system?action=ServiceAdmin` | High
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/uploads/dede` | High
-33 | File | `/user/add` | Medium
-34 | ... | ... | ...
+2 | File | `/admin.php/pic/admin/pic/del` | High
+3 | File | `/admin.php/singer/admin/lists/zhuan` | High
+4 | File | `/admin.php/User/level_sort` | High
+5 | File | `/admin/cloud.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/cgi-bin/uploadWeiXinPic` | High
+10 | File | `/core/admin/categories.php` | High
+11 | File | `/coreframe/app/order/admin/card.php` | High
+12 | File | `/dms/admin/reports/daily_collection_report.php` | High
+13 | File | `/DsaDataTest` | Medium
+14 | File | `/eshop/products/json/aouCustomerAdresse` | High
+15 | File | `/etc/config/cameo` | High
+16 | File | `/extensionsinstruction` | High
+17 | File | `/food/admin/all_users.php` | High
+18 | File | `/goform/SetClientState` | High
+19 | File | `/goform/SetFirewallCfg` | High
+20 | File | `/goform/setWorkmode` | High
+21 | File | `/goods/getGoodsListByConditions/` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/moddable/xs/sources/xsScript.c` | High
+24 | File | `/moddable/xs/sources/xsSymbol.c` | High
+25 | File | `/music/ajax.php` | High
+26 | File | `/nova/bin/lcdstat` | High
+27 | File | `/orms/` | Low
+28 | File | `/public_html/animals` | High
+29 | File | `/public_html/apply_vacancy` | High
+30 | File | `/purchase_order/admin/?page=user` | High
+31 | File | `/purchase_order/classes/Master.php?f=delete_supplier` | High
+32 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+33 | File | `/rest/api/2/user/picker` | High
+34 | File | `/rsms/` | Low
+35 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,41 +68,40 @@ ID | Type | Indicator | Confidence
 4 | File | `/anony/mjpg.cgi` | High
 5 | File | `/customer_demo/index2.html` | High
 6 | File | `/file?action=download&file` | High
-7 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-8 | File | `/html/includes/graphs/port/mac_acc_total.inc.php` | High
-9 | File | `/layout/class.xblogcomment.php` | High
-10 | File | `/LEPTON_stable_2.2.2/upload/admins/admintools/tool.php` | High
-11 | File | `/manager/jsp/test.jsp` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/plugins/servlet/audit/resource` | High
-15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/replication` | Medium
-18 | File | `/RestAPI` | Medium
-19 | File | `/tmp/speedtest_urls.xml` | High
-20 | File | `/tmp/zarafa-vacation-*` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/usr/bin/at` | Medium
-24 | File | `/var/log/nginx` | High
-25 | File | `/_vti_pvt/access.cnf` | High
-26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | File | `admin/e_mesaj_yaz.asp` | High
-28 | File | `admin/profile.php` | High
-29 | File | `admin/salesadmin.php` | High
-30 | File | `admin/systemWebAdminConfig.do` | High
-31 | File | `admin11.cgi` | Medium
-32 | File | `admincp/auth/checklogin.php` | High
-33 | File | `agenda2.php3` | Medium
-34 | File | `ajax-actions.php` | High
-35 | File | `ajax/deletePage.php` | High
-36 | File | `ajouter_tva.php` | High
-37 | File | `apcupsd.pid` | Medium
-38 | File | `api/sms/send-sms` | High
-39 | ... | ... | ...
+7 | File | `/html/Solar_Ftp.php` | High
+8 | File | `/layout/class.xblogcomment.php` | High
+9 | File | `/manager/jsp/test.jsp` | High
+10 | File | `/medical/inventories.php` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/replication` | Medium
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/tmp/zarafa-vacation-*` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/usr/bin/at` | Medium
+22 | File | `/var/log/nginx` | High
+23 | File | `/_vti_pvt/access.cnf` | High
+24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+25 | File | `admin/e_mesaj_yaz.asp` | High
+26 | File | `admin/profile.php` | High
+27 | File | `admin/salesadmin.php` | High
+28 | File | `admin/systemWebAdminConfig.do` | High
+29 | File | `admin11.cgi` | Medium
+30 | File | `admincp/auth/checklogin.php` | High
+31 | File | `agenda2.php3` | Medium
+32 | File | `ajax-actions.php` | High
+33 | File | `ajax/deletePage.php` | High
+34 | File | `ajouter_tva.php` | High
+35 | File | `apcupsd.pid` | Medium
+36 | File | `api/sms/send-sms` | High
+37 | File | `api/v1/alarms` | High
+38 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

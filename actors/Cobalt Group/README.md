@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
+* [SV](https://vuldb.com/?country.sv)
 * [FR](https://vuldb.com/?country.fr)
 * [IT](https://vuldb.com/?country.it)
-* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,37 +48,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.back` | Medium
-2 | File | `/admin/customers.php?page=1&cID` | High
-3 | File | `/admin/link/link_ok.php` | High
-4 | File | `/admin/show.php` | High
-5 | File | `/administrator/alerts/alertLightbox.php` | High
-6 | File | `/app/register.php` | High
-7 | File | `/CommunitySSORedirect.jsp` | High
-8 | File | `/config` | Low
-9 | File | `/ctpms/admin/individuals/update_status.php` | High
-10 | File | `/data/sqldata` | High
-11 | File | `/feedback/post/` | High
-12 | File | `/goform/setDeviceSettings` | High
-13 | File | `/goform/SetPptpServerCfg` | High
-14 | File | `/help/treecontent.jsp` | High
-15 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-16 | File | `/index.php?page=reserve` | High
-17 | File | `/jeecg-boot/sys/user/queryUserByDepId` | High
-18 | File | `/public/launchNewWindow.jsp` | High
-19 | File | `/purchase_order/admin/?page=user` | High
-20 | File | `/reps/admin/?page=agents/manage_agent` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/scas/classes/Users.php?f=save_user` | High
-23 | File | `/servlets/Jmx_dynamic` | High
-24 | File | `/setting/CloudACMunualUpdate` | High
-25 | File | `/setting/NTPSyncWithHost` | High
-26 | File | `/setting/setWebWlanIdx` | High
-27 | File | `/simple_chat_bot/admin/responses/view_response.php` | High
-28 | File | `/src/njs_object.c` | High
-29 | ... | ... | ...
+1 | File | `/admin.php/Label/js_del` | High
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/admin/comn/service/update.json` | High
+4 | File | `/admin/customers.php?page=1&cID` | High
+5 | File | `/admin/link/link_ok.php` | High
+6 | File | `/admin/show.php` | High
+7 | File | `/administrator/alerts/alertLightbox.php` | High
+8 | File | `/app/register.php` | High
+9 | File | `/bcms/admin/courts/view_court.php` | High
+10 | File | `/CommunitySSORedirect.jsp` | High
+11 | File | `/config` | Low
+12 | File | `/ctpms/admin/individuals/update_status.php` | High
+13 | File | `/data/sqldata` | High
+14 | File | `/feedback/post/` | High
+15 | File | `/goform/saveParentControlInfo` | High
+16 | File | `/goform/SetClientState` | High
+17 | File | `/goform/setDeviceSettings` | High
+18 | File | `/goform/SetPptpServerCfg` | High
+19 | File | `/help/treecontent.jsp` | High
+20 | File | `/home/jobfairol/resumelist` | High
+21 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+22 | File | `/index.php?page=reserve` | High
+23 | File | `/ip/car-rental-management-system/admin/ajax.php?action=login` | High
+24 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+25 | File | `/ocwbs/admin/?page=user/manage_user` | High
+26 | File | `/ocwbs/admin/services/manage_service.php` | High
+27 | File | `/ocwbs/classes/Master.php?f=delete_booking` | High
+28 | File | `/ocwbs/classes/Master.php?f=delete_vehicle` | High
+29 | File | `/ofrs/admin/?page=user/manage_user` | High
+30 | File | `/ordering/admin/stockin/index.php?view=edit` | High
+31 | File | `/public/launchNewWindow.jsp` | High
+32 | File | `/purchase_order/admin/?page=user` | High
+33 | File | `/rdms/admin/incident_reports/view_report.php` | High
+34 | File | `/rdms/admin/respondent_types/manage_respondent_type.php` | High
+35 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

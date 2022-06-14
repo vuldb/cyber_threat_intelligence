@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -326,11 +326,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -338,33 +338,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/admin/config` | High
-3 | File | `/admin/configure.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/maintenance_actions.php` | High
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/cgi-bin/kerbynet` | High
-8 | File | `/css/..%2f` | Medium
-9 | File | `/etc/tomcat8/Catalina/attack` | High
-10 | File | `/etc/wpa_supplicant.conf` | High
-11 | File | `/formSetPortTr` | High
-12 | File | `/GetCopiedFile` | High
-13 | File | `/hdf5/src/H5T.c` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-16 | File | `/music/ajax.php` | High
-17 | File | `/one_church/churchprofile.php` | High
-18 | File | `/opensis/functions/GetStuListFnc.php` | High
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/post/editing` | High
-21 | File | `/ptms/classes/Users.php` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/RestAPI` | Medium
-24 | File | `/rsms/` | Low
-25 | ... | ... | ...
+1 | File | `/admin/edit.php` | High
+2 | File | `/admin/new-content` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/apps/acs-commons/content/page-compare.html` | High
+5 | File | `/backups/` | Medium
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/blog/blog.php` | High
+8 | File | `/cardo/api` | Medium
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/luci/api/auth` | High
+11 | File | `/cgi-bin/luci/api/diagnose` | High
+12 | File | `/cgi-bin/luci/api/switch` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-mod/lookup.cgi` | High
+15 | File | `/edit-db.php` | Medium
+16 | File | `/etc/networkd-dispatcher` | High
+17 | File | `/fantasticblog/single.php` | High
+18 | File | `/goform/AdvSetLanIp` | High
+19 | File | `/goform/editassignment` | High
+20 | File | `/goform/form2IPQoSTcAdd` | High
+21 | File | `/goform/setDeviceSettings` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | File | `/goform/SetNetControlList` | High
+24 | File | `/goform/setNetworkLan` | High
+25 | File | `/goform/setpptpservercfg` | High
+26 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

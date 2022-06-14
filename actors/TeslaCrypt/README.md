@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,23 +22,31 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.57.138.47](https://vuldb.com/?ip.2.57.138.47) | s27.zenbox.pl | - | High
-2 | [5.79.68.109](https://vuldb.com/?ip.5.79.68.109) | - | - | High
-3 | [5.79.68.110](https://vuldb.com/?ip.5.79.68.110) | - | - | High
-4 | [23.63.245.19](https://vuldb.com/?ip.23.63.245.19) | a23-63-245-19.deploy.static.akamaitechnologies.com | - | High
-5 | [23.63.245.50](https://vuldb.com/?ip.23.63.245.50) | a23-63-245-50.deploy.static.akamaitechnologies.com | - | High
-6 | [23.196.73.160](https://vuldb.com/?ip.23.196.73.160) | a23-196-73-160.deploy.static.akamaitechnologies.com | - | High
-7 | [23.199.63.11](https://vuldb.com/?ip.23.199.63.11) | a23-199-63-11.deploy.static.akamaitechnologies.com | - | High
-8 | [23.199.63.83](https://vuldb.com/?ip.23.199.63.83) | a23-199-63-83.deploy.static.akamaitechnologies.com | - | High
-9 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
-10 | [35.195.98.220](https://vuldb.com/?ip.35.195.98.220) | 220.98.195.35.bc.googleusercontent.com | - | Medium
-11 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
-12 | [35.209.43.160](https://vuldb.com/?ip.35.209.43.160) | 160.43.209.35.bc.googleusercontent.com | - | Medium
-13 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | - | High
-14 | [45.33.18.44](https://vuldb.com/?ip.45.33.18.44) | li972-44.members.linode.com | - | High
-15 | [45.33.20.235](https://vuldb.com/?ip.45.33.20.235) | li974-235.members.linode.com | - | High
-16 | ... | ... | ... | ...
+2 | [3.93.124.54](https://vuldb.com/?ip.3.93.124.54) | ec2-3-93-124-54.compute-1.amazonaws.com | - | Medium
+3 | [3.225.189.10](https://vuldb.com/?ip.3.225.189.10) | ec2-3-225-189-10.compute-1.amazonaws.com | - | Medium
+4 | [3.229.167.115](https://vuldb.com/?ip.3.229.167.115) | ec2-3-229-167-115.compute-1.amazonaws.com | - | Medium
+5 | [5.79.68.109](https://vuldb.com/?ip.5.79.68.109) | - | - | High
+6 | [5.79.68.110](https://vuldb.com/?ip.5.79.68.110) | - | - | High
+7 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+8 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
+9 | [20.189.173.20](https://vuldb.com/?ip.20.189.173.20) | - | - | High
+10 | [20.189.173.22](https://vuldb.com/?ip.20.189.173.22) | - | - | High
+11 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+12 | [23.63.245.19](https://vuldb.com/?ip.23.63.245.19) | a23-63-245-19.deploy.static.akamaitechnologies.com | - | High
+13 | [23.63.245.50](https://vuldb.com/?ip.23.63.245.50) | a23-63-245-50.deploy.static.akamaitechnologies.com | - | High
+14 | [23.196.73.160](https://vuldb.com/?ip.23.196.73.160) | a23-196-73-160.deploy.static.akamaitechnologies.com | - | High
+15 | [23.199.63.11](https://vuldb.com/?ip.23.199.63.11) | a23-199-63-11.deploy.static.akamaitechnologies.com | - | High
+16 | [23.199.63.83](https://vuldb.com/?ip.23.199.63.83) | a23-199-63-83.deploy.static.akamaitechnologies.com | - | High
+17 | [23.218.119.73](https://vuldb.com/?ip.23.218.119.73) | a23-218-119-73.deploy.static.akamaitechnologies.com | - | High
+18 | [23.236.62.147](https://vuldb.com/?ip.23.236.62.147) | 147.62.236.23.bc.googleusercontent.com | - | Medium
+19 | [27.254.87.155](https://vuldb.com/?ip.27.254.87.155) | cs56.hostneverdie.com | - | High
+20 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
+21 | [34.195.145.145](https://vuldb.com/?ip.34.195.145.145) | ec2-34-195-145-145.compute-1.amazonaws.com | - | Medium
+22 | [35.195.98.220](https://vuldb.com/?ip.35.195.98.220) | 220.98.195.35.bc.googleusercontent.com | - | Medium
+23 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+24 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,59 +68,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/.htpasswd` | Medium
-3 | File | `/adfs/ls` | Medium
-4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-5 | File | `/auth` | Low
-6 | File | `/cgi-bin/nasset.cgi` | High
-7 | File | `/cimom` | Low
-8 | File | `/dashboard/view-chair-list.php` | High
-9 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-10 | File | `/drivers/vhost/net.c` | High
-11 | File | `/etc/hosts` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/GponForm/device_Form?script/` | High
-14 | File | `/GponForm/fsetup_Form` | High
-15 | File | `/GponForm/usb_restore_Form?script/` | High
-16 | File | `/includes/decorators/global-translations.jsp` | High
-17 | File | `/index.php/weblinks-categories` | High
-18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-19 | File | `/principals` | Medium
-20 | File | `/product_list.php` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/see_more_details.php` | High
-23 | File | `/server-status` | High
-24 | File | `/setSystemAdmin` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-27 | File | `/WEB-INF/web.xml` | High
-28 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-29 | File | `400.php` | Low
-30 | File | `accessibility/AccessibilityRenderObject.cpp` | High
-31 | File | `addentry.php` | Medium
-32 | File | `add_comment.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin/editors/text/editor-body.php` | High
-35 | File | `admin/executar_login.php` | High
-36 | File | `admin/mcart_xls_import.php` | High
-37 | File | `admin/module/init.html` | High
-38 | File | `admin/setting.php` | High
-39 | File | `admin_ranks.php` | High
-40 | File | `advancedsearch.php` | High
-41 | File | `ajax-actions.php` | High
-42 | File | `alipay/alipayapi.php` | High
-43 | File | `apcupsd.exe` | Medium
-44 | File | `api/device/time` | High
-45 | File | `attachments/edit/$file_id` | High
-46 | File | `auth.inc.php` | Medium
-47 | ... | ... | ...
+2 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+3 | File | `/admin.php` | Medium
+4 | File | `/auth` | Low
+5 | File | `/dashboard/view-chair-list.php` | High
+6 | File | `/etc/hosts` | Medium
+7 | File | `/GponForm/device_Form?script/` | High
+8 | File | `/GponForm/fsetup_Form` | High
+9 | File | `/GponForm/usb_restore_Form?script/` | High
+10 | File | `/includes/decorators/global-translations.jsp` | High
+11 | File | `/index.php` | Medium
+12 | File | `/product_list.php` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/see_more_details.php` | High
+15 | File | `/server-status` | High
+16 | File | `/setSystemAdmin` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+19 | File | `/WEB-INF/web.xml` | High
+20 | File | `addentry.php` | Medium
+21 | File | `admin.php` | Medium
+22 | File | `admin/executar_login.php` | High
+23 | File | `admin/mcart_xls_import.php` | High
+24 | File | `admin/setting.php` | High
+25 | File | `admin_ranks.php` | High
+26 | File | `ajax-actions.php` | High
+27 | File | `alipay/alipayapi.php` | High
+28 | File | `apcupsd.exe` | Medium
+29 | File | `auth.inc.php` | Medium
+30 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
+* https://blog.talosintelligence.com/2019/08/threat-roundup-0823-0830.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0103-0110.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
+* https://blog.talosintelligence.com/2020/06/threat-roundup-0619-0626.html
+* https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
@@ -120,6 +117,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
 
 ## Literature
 

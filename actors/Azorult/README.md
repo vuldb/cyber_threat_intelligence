@@ -26,7 +26,8 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [37.140.192.153](https://vuldb.com/?ip.37.140.192.153) | scp59.hosting.reg.ru | - | High
 4 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | - | High
 5 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | - | High
-6 | ... | ... | ... | ...
+6 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | - | High
+7 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -71,6 +72,7 @@ There are 116 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
 

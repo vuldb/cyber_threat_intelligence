@@ -103,11 +103,11 @@ ID | Type | Indicator | Confidence
 31 | File | `/WEB-INF/web.xml` | High
 32 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
 33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `adclick.php` | Medium
-35 | File | `addentry.php` | Medium
+34 | File | `4.edu.php` | Medium
+35 | File | `adclick.php` | Medium
 36 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

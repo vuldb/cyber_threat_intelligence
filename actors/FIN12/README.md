@@ -51,18 +51,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/modules/admin/vw_usr_roles.php` | High
 6 | File | `/modules/projects/vw_files.php` | High
 7 | File | `/modules/public/calendar.php` | High
-8 | File | `/services/details.asp` | High
-9 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-10 | File | `/_core/profile/` | High
-11 | File | `adclick.php` | Medium
-12 | File | `additem.asp` | Medium
-13 | File | `addsite.php` | Medium
-14 | File | `admin/review.php` | High
-15 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
-16 | File | `ajax/profile-picture-upload.php` | High
+8 | File | `/ofrs/admin/?page=requests/view_request` | High
+9 | File | `/services/details.asp` | High
+10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+11 | File | `/_core/profile/` | High
+12 | File | `adclick.php` | Medium
+13 | File | `additem.asp` | Medium
+14 | File | `addsite.php` | Medium
+15 | File | `admin/review.php` | High
+16 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
 17 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

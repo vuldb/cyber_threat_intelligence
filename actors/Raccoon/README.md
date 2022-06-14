@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CE](https://vuldb.com/?country.ce)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +28,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [8.249.241.254](https://vuldb.com/?ip.8.249.241.254) | - | - | High
 6 | [8.249.245.254](https://vuldb.com/?ip.8.249.245.254) | - | - | High
 7 | [8.253.132.120](https://vuldb.com/?ip.8.253.132.120) | - | - | High
-8 | ... | ... | ... | ...
+8 | [8.253.156.120](https://vuldb.com/?ip.8.253.156.120) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,26 +67,27 @@ ID | Type | Indicator | Confidence
 13 | File | `/show_group_members.php` | High
 14 | File | `/soap/server_sa` | High
 15 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-16 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-17 | File | `/web/google_analytics.php` | High
-18 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-19 | File | `addentry.php` | Medium
-20 | File | `AdminByRequest.exe` | High
-21 | File | `admincp.php?app=prop&do=add` | High
-22 | File | `advsearch.php` | High
-23 | File | `append/override_content_security_policy_directives` | High
-24 | File | `archive_endian.h` | High
-25 | File | `assets/add/dns.php` | High
-26 | File | `bits.c` | Low
-27 | File | `blog/index.php` | High
+16 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
+17 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+18 | File | `/web/google_analytics.php` | High
+19 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+20 | File | `addentry.php` | Medium
+21 | File | `AdminByRequest.exe` | High
+22 | File | `admincp.php?app=prop&do=add` | High
+23 | File | `advsearch.php` | High
+24 | File | `append/override_content_security_policy_directives` | High
+25 | File | `archive_endian.h` | High
+26 | File | `assets/add/dns.php` | High
+27 | File | `bits.c` | Low
 28 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.group-ib.com/fakesecurity_raccoon
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1203-1210.html
 * https://blogs.blackberry.com/en/2021/08/threat-spotlight-lockbit-2-0-ransomware-takes-on-top-consulting-firm

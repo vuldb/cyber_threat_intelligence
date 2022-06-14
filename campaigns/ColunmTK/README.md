@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ColunmTK:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -60,11 +60,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 4 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 5 | File | `/uncpath/` | Medium
-6 | File | `AppCompatCache.exe` | High
-7 | File | `authent.php4` | Medium
-8 | ... | ... | ...
+6 | File | `/wp-admin/options.php` | High
+7 | File | `AppCompatCache.exe` | High
+8 | File | `authent.php4` | Medium
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

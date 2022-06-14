@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,32 +53,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/doctors/view_doctor.php` | High
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/config/getuser` | High
-6 | File | `/data-service/users/` | High
-7 | File | `/IISADMPWD` | Medium
-8 | File | `/js/app.js` | Medium
-9 | File | `/login` | Low
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/monitor/s_headmodel.php` | High
-12 | File | `/pro/repo-create.html` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-15 | File | `/rest/api/latest/projectvalidate/key` | High
-16 | File | `/rest/collectors/1.0/template/custom` | High
-17 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/server-info` | Medium
-20 | File | `/services` | Medium
-21 | File | `/test/cookie/` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/bin/at` | Medium
-24 | File | `/usr/bin/pkexec` | High
-25 | ... | ... | ...
+2 | File | `/admin/doctors/view_doctor.php` | High
+3 | File | `/appliance/users?action=edit` | High
+4 | File | `/config/getuser` | High
+5 | File | `/data-service/users/` | High
+6 | File | `/IISADMPWD` | Medium
+7 | File | `/js/app.js` | Medium
+8 | File | `/login` | Low
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/monitor/s_headmodel.php` | High
+11 | File | `/pro/repo-create.html` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+14 | File | `/rest/api/latest/projectvalidate/key` | High
+15 | File | `/rest/collectors/1.0/template/custom` | High
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/server-info` | Medium
+19 | File | `/services` | Medium
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/at` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

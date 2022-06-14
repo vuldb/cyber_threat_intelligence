@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 7 more TTP items available. Please use our online service to access the data.
@@ -65,46 +65,45 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/contenttemp` | High
 7 | File | `/admin/modules/system/custom_field.php` | High
 8 | File | `/api/crontab` | Medium
-9 | File | `/app1/admin#foo` | High
-10 | File | `/bin/boa` | Medium
-11 | File | `/category_view.php` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/cgi-mod/lookup.cgi` | High
-14 | File | `/cgi?1&5` | Medium
-15 | File | `/config/getuser` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-19 | File | `/iissamples` | Medium
-20 | File | `/interface/main/backup.php` | High
-21 | File | `/new` | Low
-22 | File | `/public/plugins/` | High
-23 | File | `/sbin/gs_config` | High
+9 | File | `/bin/boa` | Medium
+10 | File | `/category_view.php` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-mod/lookup.cgi` | High
+13 | File | `/cgi?1&5` | Medium
+14 | File | `/config/getuser` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+17 | File | `/iissamples` | Medium
+18 | File | `/interface/main/backup.php` | High
+19 | File | `/new` | Low
+20 | File | `/public/plugins/` | High
+21 | File | `/requests.php` | High
+22 | File | `/sbin/gs_config` | High
+23 | File | `/scripts/cpan_config` | High
 24 | File | `/secure/QueryComponent!Default.jspa` | High
 25 | File | `/uncpath/` | Medium
-26 | File | `/uploads/dede` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/sbin/nagios` | High
-29 | File | `/usr/sbin/suexec` | High
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/usr/sbin/nagios` | High
+28 | File | `/usr/sbin/suexec` | High
+29 | File | `/WEB-INF/web.xml` | High
 30 | File | `/webman/info.cgi` | High
 31 | File | `/wp-admin/admin-ajax.php` | High
 32 | File | `/wp-json/oembed/1.0/embed?url` | High
 33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `adclick.php` | Medium
-36 | File | `admin.php?m=admin&c=site&a=save` | High
-37 | File | `admin.php?page=languages` | High
-38 | File | `admin/admin_users.php` | High
-39 | File | `admin/bitrix.mpbuilder_step2.php` | High
-40 | File | `admin/bitrix.xscan_worker.php` | High
+34 | File | `/_internal` | Medium
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `adclick.php` | Medium
+37 | File | `admin.php?m=admin&c=site&a=save` | High
+38 | File | `admin.php?page=languages` | High
+39 | File | `admin/admin_users.php` | High
+40 | File | `admin/bitrix.mpbuilder_step2.php` | High
 41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/mcart_xls_import.php` | High
-43 | File | `admin/ops/reports/ops/news.php` | High
-44 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-45 | File | `adminer.php` | Medium
-46 | ... | ... | ...
+42 | File | `admin/ops/reports/ops/news.php` | High
+43 | File | `adminer.php` | Medium
+44 | File | `administrator/mail/download.cfm` | High
+45 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -61,35 +61,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/produts/controller.php` | High
-4 | File | `/admin/user/team` | High
-5 | File | `/backupsettings.conf` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/common/logViewer/logViewer.jsf` | High
-9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-10 | File | `/export` | Low
-11 | File | `/forum/away.php` | High
-12 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-13 | File | `/horde/util/go.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/ms/cms/content/list.do` | High
-17 | File | `/orms/` | Low
-18 | File | `/plesk-site-preview/` | High
-19 | File | `/public/login.htm` | High
-20 | File | `/show_news.php` | High
-21 | File | `/student-grading-system/rms.php?page=grade` | High
-22 | File | `/style/` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `ABuffer.cpp` | Medium
-25 | File | `account.asp` | Medium
-26 | File | `adclick.php` | Medium
-27 | File | `admin.php` | Medium
-28 | ... | ... | ...
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/produts/controller.php` | High
+5 | File | `/admin/user/team` | High
+6 | File | `/backupsettings.conf` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/common/logViewer/logViewer.jsf` | High
+10 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+11 | File | `/export` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+15 | File | `/horde/util/go.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/mifs/c/i/reg/reg.html` | High
+18 | File | `/ms/cms/content/list.do` | High
+19 | File | `/orms/` | Low
+20 | File | `/plesk-site-preview/` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/show_news.php` | High
+23 | File | `/student-grading-system/rms.php?page=grade` | High
+24 | File | `/style/` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `ABuffer.cpp` | Medium
+27 | File | `account.asp` | Medium
+28 | File | `adclick.php` | Medium
+29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

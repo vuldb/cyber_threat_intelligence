@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackCat:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
-* [IL](https://vuldb.com/?country.il)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,39 +51,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/admin/plog/index.html` | High
 3 | File | `/admin.php/admin/ulog/index.html` | High
 4 | File | `/admin.php/admin/website/data.html` | High
-5 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
-6 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/inbox.php&action=read` | High
-9 | File | `/admin/new-content` | High
-10 | File | `/admin/posts.php` | High
-11 | File | `/admin/posts.php&action=delete` | High
-12 | File | `/admin/run_ajax.php` | High
-13 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-15 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-16 | File | `/admin_page/all-files-update-ajax.php` | High
-17 | File | `/api/crontab` | Medium
-18 | File | `/blog/blog.php` | High
-19 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-20 | File | `/cgi-bin/kerbynet` | High
-21 | File | `/cloud_config/router_post/modify_account_pwd` | High
-22 | File | `/cloud_config/router_post/register` | High
-23 | File | `/cms/classes/Master.php?f=delete_service` | High
-24 | File | `/config/list` | Medium
-25 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-26 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-27 | File | `/download/` | Medium
-28 | File | `/etc/ajenti/config.yml` | High
-29 | File | `/etc/passwd` | Medium
-30 | File | `/export` | Low
-31 | File | `/goform/AdvSetLanIp` | High
-32 | File | `/goform/delAd` | High
-33 | File | `/goform/form2Reboot.cgi` | High
-34 | File | `/goform/SetNetControlList` | High
-35 | ... | ... | ...
+5 | File | `/admin.php/Label/js_del` | High
+6 | File | `/admin.php/Label/page_del` | High
+7 | File | `/admin.php/user/zu_del` | High
+8 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+9 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/admin/inbox.php&action=read` | High
+12 | File | `/admin/new-content` | High
+13 | File | `/admin/posts.php` | High
+14 | File | `/admin/posts.php&action=delete` | High
+15 | File | `/admin/run_ajax.php` | High
+16 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+17 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+18 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+19 | File | `/api/programs/orgUnits?programs` | High
+20 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+21 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+22 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+23 | File | `/blog/blog.php` | High
+24 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+25 | File | `/cgi-bin/kerbynet` | High
+26 | File | `/checklogin.jsp` | High
+27 | File | `/cms/classes/Master.php?f=delete_service` | High
+28 | File | `/config/list` | Medium
+29 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+30 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+31 | File | `/etc/ajenti/config.yml` | High
+32 | File | `/goform/AdvSetLanIp` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/goform/delAd` | High
+35 | File | `/goform/form2Reboot.cgi` | High
+36 | File | `/goform/SetNetControlList` | High
+37 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -103,16 +103,15 @@ ID | Type | Indicator | Confidence
 41 | File | `control.c` | Medium
 42 | File | `core-util.c` | Medium
 43 | File | `core/coreuserinputhandler.cpp` | High
-44 | File | `d1_both.c` | Medium
-45 | File | `data/gbconfiguration.dat` | High
-46 | File | `Debug_command_page.asp` | High
-47 | File | `details_view.php` | High
-48 | File | `Diagnose.exe` | Medium
-49 | File | `DigiDocSAXParser.c` | High
-50 | File | `download-file.php` | High
-51 | ... | ... | ...
+44 | File | `cve-bin/moreBlockInfo.cgi` | High
+45 | File | `d1_both.c` | Medium
+46 | File | `data/gbconfiguration.dat` | High
+47 | File | `Debug_command_page.asp` | High
+48 | File | `details_view.php` | High
+49 | File | `Diagnose.exe` | Medium
+50 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

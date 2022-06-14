@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -129,30 +129,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `//` | Low
-3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/api/crontab` | Medium
-5 | File | `/as/authorization.oauth2` | High
-6 | File | `/bin/mail` | Medium
-7 | File | `/cgi-bin/delete_CA` | High
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/api/crontab` | Medium
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/bin/mail` | Medium
+6 | File | `/cgi-bin/delete_CA` | High
+7 | File | `/common/info.cgi` | High
 8 | File | `/data/vendor/tcl` | High
 9 | File | `/dev/random` | Medium
 10 | File | `/etc/passwd` | Medium
-11 | File | `/files.md5` | Medium
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/one_church/userregister.php` | High
-15 | File | `/op/op.LockDocument.php` | High
-16 | File | `/plesk-site-preview/` | High
-17 | File | `/proc/self/setgroups` | High
-18 | File | `/rest/api/2/search` | High
-19 | File | `/rest/api/latest/projectvalidate/key` | High
-20 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/tmp` | Low
+11 | File | `/etc/password` | High
+12 | File | `/files.md5` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/one_church/userregister.php` | High
+17 | File | `/op/op.LockDocument.php` | High
+18 | File | `/plesk-site-preview/` | High
+19 | File | `/proc/self/setgroups` | High
+20 | File | `/proc/stat` | Medium
+21 | File | `/rest/api/2/search` | High
+22 | File | `/rest/api/latest/projectvalidate/key` | High
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

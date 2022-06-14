@@ -117,28 +117,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/.env` | Low
-4 | File | `/.ssh/authorized_keys` | High
-5 | File | `/admin/default.asp` | High
-6 | File | `/admin/moduleinterface.php` | High
-7 | File | `/ajax/networking/get_netcfg.php` | High
-8 | File | `/assets/ctx` | Medium
-9 | File | `/cgi-bin/login_action.cgi` | High
-10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-11 | File | `/checkLogin.cgi` | High
-12 | File | `/cms/print.php` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/data/remove` | Medium
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/login` | Low
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/navigate/navigate_download.php` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.env` | Low
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/admin/default.asp` | High
+5 | File | `/admin/moduleinterface.php` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/assets/ctx` | Medium
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/checkLogin.cgi` | High
+10 | File | `/cms/print.php` | High
+11 | File | `/concat?/%2557EB-INF/web.xml` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goforms/rlminfo` | High
+18 | File | `/login` | Low
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/navigate/navigate_download.php` | High
+21 | File | `/ocwbs/admin/?page=user/manage_user` | High
+22 | File | `/ofrs/admin/?page=user/manage_user` | High
 23 | File | `/out.php` | Medium
 24 | File | `/owa/auth/logon.aspx` | High
 25 | File | `/p` | Low
@@ -167,7 +167,7 @@ ID | Type | Indicator | Confidence
 48 | File | `addentry.php` | Medium
 49 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

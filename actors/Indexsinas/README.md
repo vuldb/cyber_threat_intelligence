@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,9 +287,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 8 more TTP items available. Please use our online service to access the data.
@@ -306,22 +306,31 @@ ID | Type | Indicator | Confidence
 4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
 5 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
 6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/cms/admin/?page=client/view_client` | High
-9 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-10 | File | `/cms/admin/?page=invoice/view_invoice` | High
-11 | File | `/cms/admin/?page=user/manage_user` | High
-12 | File | `/cms/admin/maintenance/manage_service.php` | High
-13 | File | `/cms/classes/Users.php?f=delete` | High
-14 | File | `/College_Management_System/admin/display-teacher.php` | High
-15 | File | `/ctpms/admin/?page=applications/view_application` | High
-16 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-17 | File | `/ctpms/admin/applications/update_status.php` | High
-18 | File | `/ctpms/admin/individuals/update_status.php` | High
-19 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-20 | ... | ... | ...
+7 | File | `/admin.php/news/admin/topic/save` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+12 | File | `/cms/admin/?page=invoice/manage_invoice` | High
+13 | File | `/cms/admin/?page=invoice/view_invoice` | High
+14 | File | `/cms/admin/?page=user/manage_user` | High
+15 | File | `/College_Management_System/admin/display-teacher.php` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+18 | File | `/ctpms/admin/applications/update_status.php` | High
+19 | File | `/ctpms/admin/individuals/update_status.php` | High
+20 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+21 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+22 | File | `/current_action.php?action=reboot` | High
+23 | File | `/etc/config/image_sign` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/help/treecontent.jsp` | High
+26 | File | `/IISADMPWD` | Medium
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/mtms/admin/?page=transaction/send` | High
+29 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

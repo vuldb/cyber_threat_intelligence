@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -168,44 +168,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-3 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-4 | File | `/admin-panel1.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+4 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
 5 | File | `/admin.php` | Medium
-6 | File | `/admin.php/admin/ulog/index.html` | High
-7 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-8 | File | `/anony/mjpg.cgi` | High
-9 | File | `/api/crontab` | Medium
-10 | File | `/api/students/me/messages/` | High
-11 | File | `/api/trackedEntityInstances` | High
-12 | File | `/AvalancheWeb/image` | High
-13 | File | `/category.php` | High
-14 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-15 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/cgi-bin/luci/api/switch` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/uploadAccessCodePic` | High
-20 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-21 | File | `/cms/classes/Master.php?f=delete_invoice` | High
-22 | File | `/cms/classes/Users.php?f=delete` | High
-23 | File | `/common/info.cgi` | High
-24 | File | `/ctpms/admin/individuals/update_status.php` | High
-25 | File | `/export` | Low
-26 | File | `/file?action=download&file` | High
-27 | File | `/fuel/index.php/fuel/logs/items` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/guest/s/default/` | High
-30 | File | `/include/chart_generator.php` | High
-31 | File | `/include/make.php` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/login` | Low
-34 | File | `/mtms/admin/?page=transaction/send` | High
-35 | File | `/nova/bin/sniffer` | High
-36 | ... | ... | ...
+6 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+7 | File | `/anony/mjpg.cgi` | High
+8 | File | `/Ap4RtpAtom.cpp` | High
+9 | File | `/api/students/me/messages/` | High
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/AvalancheWeb/image` | High
+12 | File | `/bcms/admin/?page=user/list` | High
+13 | File | `/car-rental-management-system/admin/manage_user.php` | High
+14 | File | `/category.php` | High
+15 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+16 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/cgi-bin/login.cgi` | High
+19 | File | `/cgi-bin/luci/api/switch` | High
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cms/admin/?page=invoice/manage_invoice` | High
+22 | File | `/cms/classes/Master.php?f=delete_invoice` | High
+23 | File | `/cms/classes/Users.php?f=delete` | High
+24 | File | `/common/info.cgi` | High
+25 | File | `/course/api/upload/pic` | High
+26 | File | `/ctpms/admin/individuals/update_status.php` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/fuel/index.php/fuel/logs/items` | High
+29 | File | `/fuel/sitevariables/delete/4` | High
+30 | File | `/getcfg.php` | Medium
+31 | File | `/goform/WifiExtraSet` | High
+32 | File | `/guest/s/default/` | High
+33 | File | `/hub/api/user` | High
+34 | File | `/include/chart_generator.php` | High
+35 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OldGremlin:
 
-* [AT](https://vuldb.com/?country.at)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [AT](https://vuldb.com/?country.at)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [46.101.113.161](https://vuldb.com/?ip.46.101.113.161) | - | - | High
-2 | [161.35.41.9](https://vuldb.com/?ip.161.35.41.9) | - | - | High
-3 | [192.248.176.138](https://vuldb.com/?ip.192.248.176.138) | 192.248.176.138.vultrusercontent.com | - | High
+1 | [5.181.156.84](https://vuldb.com/?ip.5.181.156.84) | no-rdns.mivocloud.com | - | High
+2 | [45.61.138.170](https://vuldb.com/?ip.45.61.138.170) | - | - | High
+3 | [46.101.113.161](https://vuldb.com/?ip.46.101.113.161) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1548.002 | CWE-285 | Improper Authorization | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1495 | CWE-494 | Download of Code Without Integrity Check | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -37,14 +47,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `journal_article/page.jsp` | High
-2 | File | `scripts/quotacheck` | High
-3 | Argument | `p_r_p` | Low
+1 | File | `/rapi/read_url` | High
+2 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+3 | File | `AppCompatCache.exe` | High
+4 | File | `cgi-bin/MANGA/admin.cgi` | High
+5 | File | `coders/png.c` | Medium
+6 | File | `customoid.inc.php` | High
+7 | ... | ... | ...
+
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.group-ib.com/oldgremlin
 * https://blog.group-ib.com/oldgremlin_comeback
 
 ## Literature

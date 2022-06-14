@@ -752,7 +752,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -764,37 +764,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/advance_push/public/login` | High
-2 | File | `/cgi-bin/luci` | High
+2 | File | `/bcms/admin/?page=user/list` | High
 3 | File | `/context/%2e/WEB-INF/web.xml` | High
 4 | File | `/fuel/index.php/fuel/logs/items` | High
-5 | File | `/monitoring` | Medium
-6 | File | `/new` | Low
-7 | File | `/proc/<pid>/status` | High
-8 | File | `/public/plugins/` | High
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/secure/QueryComponent!Default.jspa` | High
-11 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-12 | File | `/tmp` | Low
-13 | File | `/uncpath/` | Medium
-14 | File | `/usr/bin/pkexec` | High
-15 | File | `/WEB-INF/web.xml` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `/wp-json/wc/v3/webhooks` | High
-18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-19 | File | `AccountManagerService.java` | High
-20 | File | `actions/CompanyDetailsSave.php` | High
-21 | File | `ActivityManagerService.java` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/add-glossary.php` | High
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `admin/controllers/Albumsgalleries.php` | High
-26 | File | `admin/edit-comments.php` | High
-27 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-28 | File | `ahcache.sys` | Medium
-29 | File | `aidl_const_expressions.cpp` | High
-30 | ... | ... | ...
+5 | File | `/mgmt/tm/util/bash` | High
+6 | File | `/monitoring` | Medium
+7 | File | `/new` | Low
+8 | File | `/proc/<pid>/status` | High
+9 | File | `/public/plugins/` | High
+10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+11 | File | `/secure/QueryComponent!Default.jspa` | High
+12 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+13 | File | `/tmp` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/usr/bin/pkexec` | High
+16 | File | `/WEB-INF/web.xml` | High
+17 | File | `/wp-admin/admin-ajax.php` | High
+18 | File | `/wp-json/wc/v3/webhooks` | High
+19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+20 | File | `AccountManagerService.java` | High
+21 | File | `actions/CompanyDetailsSave.php` | High
+22 | File | `ActivityManagerService.java` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/add-glossary.php` | High
+25 | File | `admin/conf_users_edit.php` | High
+26 | File | `admin/controllers/Albumsgalleries.php` | High
+27 | File | `admin/edit-comments.php` | High
+28 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+29 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

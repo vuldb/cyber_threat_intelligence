@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,37 +74,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `/file?action=download&file` | High
-4 | File | `/fuel/index.php/fuel/logs/items` | High
-5 | File | `/monitoring` | Medium
-6 | File | `/new` | Low
-7 | File | `/plugins/servlet/audit/resource` | High
-8 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-9 | File | `/proc/<pid>/status` | High
-10 | File | `/public/plugins/` | High
-11 | File | `/replication` | Medium
-12 | File | `/RestAPI` | Medium
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-16 | File | `/tmp` | Low
-17 | File | `/tmp/zarafa-vacation-*` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-json/wc/v3/webhooks` | High
-22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-23 | File | `AccountManagerService.java` | High
-24 | File | `actions/CompanyDetailsSave.php` | High
-25 | File | `ActivityManagerService.java` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/add-glossary.php` | High
-28 | File | `admin/conf_users_edit.php` | High
-29 | File | `admin/edit-comments.php` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/context/%2e/WEB-INF/web.xml` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/file?action=download&file` | High
+8 | File | `/fuel/index.php/fuel/logs/items` | High
+9 | File | `/fuel/sitevariables/delete/4` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/new` | Low
+13 | File | `/plugins/servlet/audit/resource` | High
+14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+15 | File | `/proc/<pid>/status` | High
+16 | File | `/public/plugins/` | High
+17 | File | `/replication` | Medium
+18 | File | `/RestAPI` | Medium
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+23 | File | `/tmp` | Low
+24 | File | `/tmp/zarafa-vacation-*` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload` | Low
+27 | File | `/var/log/nginx` | High
+28 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+29 | File | `/wp-json/wc/v3/webhooks` | High
 30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

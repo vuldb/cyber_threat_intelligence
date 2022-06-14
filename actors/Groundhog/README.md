@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,50 +79,50 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/default.asp` | High
 6 | File | `/ajax/networking/get_netcfg.php` | High
 7 | File | `/assets/ctx` | Medium
-8 | File | `/cgi-bin/login_action.cgi` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/cms/print.php` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/config/getuser` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/etc/ajenti/config.yml` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/goform/telnet` | High
+8 | File | `/checkLogin.cgi` | High
+9 | File | `/cms/print.php` | High
+10 | File | `/concat?/%2557EB-INF/web.xml` | High
+11 | File | `/config/getuser` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/data/remove` | Medium
+14 | File | `/etc/ajenti/config.yml` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/goform/telnet` | High
+17 | File | `/goforms/rlminfo` | High
 18 | File | `/login` | Low
 19 | File | `/modules/profile/index.php` | High
 20 | File | `/navigate/navigate_download.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/p` | Low
-24 | File | `/password.html` | High
-25 | File | `/proc/ioports` | High
-26 | File | `/property-list/property_view.php` | High
-27 | File | `/ptms/classes/Users.php` | High
-28 | File | `/rest` | Low
-29 | File | `/rest/api/2/search` | High
-30 | File | `/rom-0` | Low
-31 | File | `/s/` | Low
-32 | File | `/scripts/cpan_config` | High
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-34 | File | `/services/system/setup.json` | High
-35 | File | `/setSystemAdmin` | High
-36 | File | `/ucms/index.php?do=list_edit` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/webconsole/APIController` | High
-39 | File | `/websocket/exec` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-json/oembed/1.0/embed?url` | High
-42 | File | `/_next` | Low
-43 | File | `4.edu.php\conn\function.php` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `actions/beats_uploader.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `addentry.php` | Medium
-48 | File | `admin/admin.php` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/p` | Low
+23 | File | `/password.html` | High
+24 | File | `/proc/ioports` | High
+25 | File | `/property-list/property_view.php` | High
+26 | File | `/ptms/classes/Users.php` | High
+27 | File | `/rest` | Low
+28 | File | `/rest/api/2/search` | High
+29 | File | `/s/` | Low
+30 | File | `/scripts/cpan_config` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/services/system/setup.json` | High
+33 | File | `/ucms/index.php?do=list_edit` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/vloggers_merch/?p=view_product` | High
+36 | File | `/webconsole/APIController` | High
+37 | File | `/websocket/exec` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/wp-json` | Medium
+40 | File | `/wp-json/oembed/1.0/embed?url` | High
+41 | File | `/_next` | Low
+42 | File | `4.edu.php\conn\function.php` | High
+43 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+44 | File | `actions/beats_uploader.php` | High
+45 | File | `adclick.php` | Medium
+46 | File | `addentry.php` | Medium
+47 | File | `admin/admin.php` | High
+48 | File | `admin/category.inc.php` | High
 49 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

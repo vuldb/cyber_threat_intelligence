@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,37 +58,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-5 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-8 | File | `/cgi-bin/activate.cgi` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/classes/master.php?f=delete_facility` | High
-11 | File | `/cms/admin/?page=client/view_client` | High
-12 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-13 | File | `/cms/admin/?page=invoice/view_invoice` | High
-14 | File | `/cms/admin/?page=user/manage_user` | High
-15 | File | `/cms/classes/Master.php?f=delete_designation` | High
-16 | File | `/cms/classes/Master.php?f=delete_invoice` | High
-17 | File | `/cms/classes/Users.php?f=delete` | High
-18 | File | `/College_Management_System/admin/display-teacher.php` | High
-19 | File | `/ctpms/admin/?page=applications/view_application` | High
-20 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-21 | File | `/ctpms/admin/applications/update_status.php` | High
-22 | File | `/ctpms/admin/individuals/update_status.php` | High
-23 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-24 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-25 | File | `/dms/admin/reports/daily_collection_report.php` | High
-26 | File | `/ecrire` | Low
-27 | File | `/fuel/index.php/fuel/logs/items` | High
-28 | File | `/help/treecontent.jsp` | High
-29 | ... | ... | ...
+1 | File | `../FILEDIR` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?module=fileman&section=get&page=grid` | High
+4 | File | `/admin/?page=system_info/contact_info` | High
+5 | File | `/admin/comn/service/update.json` | High
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/api/part_categories` | High
+8 | File | `/auditLogAction.do` | High
+9 | File | `/bcms/admin/?page=court_rentals/view_court_rental` | High
+10 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
+11 | File | `/bcms/admin/?page=sales/view_details` | High
+12 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+13 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+14 | File | `/bcms/admin/?page=user/manage_user` | High
+15 | File | `/car-rental-management-system/admin/manage_user.php` | High
+16 | File | `/cgi-bin` | Medium
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/checklogin.jsp` | High
+19 | File | `/churchcrm/WhyCameEditor.php` | High
+20 | File | `/course/api/upload/pic` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/cron.daily/upstart` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/itop/webservices/export-v2.php` | High
+26 | File | `/login.html` | Medium
+27 | File | `/nova/bin/sniffer` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ofrs/admin/?page=reports` | High
+30 | File | `/ofrs/admin/?page=requests/manage_request` | High
+31 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

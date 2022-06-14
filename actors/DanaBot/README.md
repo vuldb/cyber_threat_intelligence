@@ -58,19 +58,20 @@ ID | Type | Indicator | Confidence
 5 | File | `/download` | Medium
 6 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
 7 | File | `/lms/admin.php` | High
-8 | File | `/redpass.cgi` | Medium
-9 | File | `/rom-0` | Low
-10 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `add-category.php` | High
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/admin.shtml` | High
-16 | File | `admin/content.php` | High
-17 | File | `admin/user.php?form=update_f&user_name` | High
-18 | ... | ... | ...
+8 | File | `/my_photo_gallery/image.php` | High
+9 | File | `/redpass.cgi` | Medium
+10 | File | `/reps/classes/Users.php?f=delete_agent` | High
+11 | File | `/rom-0` | Low
+12 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `add-category.php` | High
+15 | File | `add_comment.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/admin.shtml` | High
+18 | File | `admin/content.php` | High
+19 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

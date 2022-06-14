@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,9 +56,10 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [23.202.231.167](https://vuldb.com/?ip.23.202.231.167) | a23-202-231-167.deploy.static.akamaitechnologies.com | - | High
 34 | [23.216.88.76](https://vuldb.com/?ip.23.216.88.76) | a23-216-88-76.deploy.static.akamaitechnologies.com | - | High
 35 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
-36 | ... | ... | ... | ...
+36 | [23.221.49.75](https://vuldb.com/?ip.23.221.49.75) | a23-221-49-75.deploy.static.akamaitechnologies.com | - | High
+37 | ... | ... | ... | ...
 
-There are 140 more IOC items available. Please use our online service to access the data.
+There are 145 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,37 +89,36 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin` | Medium
 8 | File | `/cgi-bin/kerbynet` | High
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/dcim/sites/add/` | High
-11 | File | `/EXCU_SHELL` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/fudforum/adm/hlplist.php` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/login` | Low
-16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/proc/<pid>/status` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/rom` | Low
-23 | File | `/scripts/killpvhost` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/redis.ds` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `AccountManagerService.java` | High
-34 | File | `actions/CompanyDetailsSave.php` | High
-35 | File | `ActiveServices.java` | High
-36 | File | `ActivityManagerService.java` | High
-37 | File | `adclick.php` | Medium
-38 | ... | ... | ...
+10 | File | `/debug/pprof` | Medium
+11 | File | `/fudforum/adm/hlplist.php` | High
+12 | File | `/fuel/index.php/fuel/logs/items` | High
+13 | File | `/login` | Low
+14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/new` | Low
+18 | File | `/proc/<pid>/status` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/rom` | Low
+21 | File | `/scripts/killpvhost` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+25 | File | `/tmp` | Low
+26 | File | `/tmp/redis.ds` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/wp-admin` | Medium
+29 | File | `/wp-json/wc/v3/webhooks` | High
+30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+31 | File | `AccountManagerService.java` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `ActiveServices.java` | High
+34 | File | `ActivityManagerService.java` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin.php` | Medium
+37 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,6 +142,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0429-0506.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0506-0513.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0520-0527.html
 * https://isc.sans.edu/forums/diary/German+language+malspam+pushes+Ursnif/25732/
 * https://isc.sans.edu/forums/diary/Malpsam+pushes+Ursnif+through+Italian+language+Word+docs/25792/
 * https://isc.sans.edu/forums/diary/Ursnif+infection+with+Dridex/25566/

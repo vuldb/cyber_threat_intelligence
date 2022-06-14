@@ -109,15 +109,16 @@ ID | Type | Indicator | Confidence
 33 | File | `/v2/quantum/save-data-upload-big-file` | High
 34 | File | `/WEB-INF/web.xml` | High
 35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/_next` | Low
-37 | File | `adclick.php` | Medium
-38 | File | `addentry.php` | Medium
-39 | File | `addrating.php` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin.php/comments/batchdel/` | High
-42 | ... | ... | ...
+36 | File | `/wp-admin/options.php` | High
+37 | File | `/_next` | Low
+38 | File | `adclick.php` | Medium
+39 | File | `addentry.php` | Medium
+40 | File | `addrating.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin.php/comments/batchdel/` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -77,10 +77,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1222 | CWE-275 | Permission Issues | High
+3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,27 +88,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-5 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/assets/partials/_handleLogin.php` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cms/admin/?page=client/view_client` | High
-10 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-11 | File | `/cms/admin/?page=invoice/view_invoice` | High
-12 | File | `/cms/admin/?page=user/manage_user` | High
-13 | File | `/cms/admin/maintenance/manage_service.php` | High
-14 | File | `/cms/classes/Users.php?f=delete` | High
-15 | File | `/College_Management_System/admin/display-teacher.php` | High
-16 | File | `/ctpms/admin/?page=applications/view_application` | High
-17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-18 | File | `/ctpms/admin/applications/update_status.php` | High
-19 | ... | ... | ...
+1 | File | `/account/ResetPassword` | High
+2 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+4 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+5 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+6 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
+7 | File | `/acms/classes/Master.php?f=delete_img` | High
+8 | File | `/admin/?page=system_info/contact_info` | High
+9 | File | `/assets/partials/_handleLogin.php` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cms/admin/?page=client/view_client` | High
+12 | File | `/cms/admin/?page=invoice/manage_invoice` | High
+13 | File | `/cms/admin/?page=invoice/view_invoice` | High
+14 | File | `/cms/admin/?page=user/manage_user` | High
+15 | File | `/cms/admin/maintenance/manage_service.php` | High
+16 | File | `/cms/classes/Users.php?f=delete` | High
+17 | File | `/College_Management_System/admin/display-teacher.php` | High
+18 | File | `/ctpms/admin/?page=applications/view_application` | High
+19 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+20 | File | `/ctpms/admin/applications/update_status.php` | High
+21 | File | `/ctpms/admin/individuals/update_status.php` | High
+22 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

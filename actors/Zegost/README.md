@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IR](https://vuldb.com/?country.ir)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,9 +47,12 @@ ID | IP address | Hostname | Campaign | Confidence
 24 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
 25 | [50.63.202.88](https://vuldb.com/?ip.50.63.202.88) | ip-50-63-202-88.ip.secureserver.net | - | High
 26 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
-27 | ... | ... | ... | ...
+27 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
+28 | [58.221.72.157](https://vuldb.com/?ip.58.221.72.157) | - | - | High
+29 | [58.250.136.113](https://vuldb.com/?ip.58.250.136.113) | - | - | High
+30 | ... | ... | ... | ...
 
-There are 106 more IOC items available. Please use our online service to access the data.
+There are 115 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,9 +84,12 @@ ID | Type | Indicator | Confidence
 9 | File | `/Content/Template/root/reverse-shell.aspx` | High
 10 | File | `/demo/module/?module=HERE` | High
 11 | File | `/download/set.cgi` | High
-12 | ... | ... | ...
+12 | File | `/dvcset/sysset/set.cgi` | High
+13 | File | `/goform/SysToolReboot` | High
+14 | File | `/goform/WifiExtraSet` | High
+15 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +116,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0325-0401.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
+* https://blog.talosintelligence.com/2022/06/threat-roundup-0527-0603.html
 
 ## Literature
 

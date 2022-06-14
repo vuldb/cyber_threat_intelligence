@@ -10,6 +10,7 @@ The following _campaigns_ are known and can be associated with China Unknown:
 
 * Dragon Castling
 * RedXOR
+* Russia
 
 ## Countries
 
@@ -17,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [34.92.228.216](https://vuldb.com/?ip.34.92.228.216) | 216.228.92.34.bc.googleusercontent.com | RedXOR | Medium
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,15 +62,17 @@ ID | Type | Indicator | Confidence
 5 | File | `/uncpath/` | Medium
 6 | File | `/wp-content/plugins/forum-server/feed.php` | High
 7 | File | `actions/ChangeConfiguration.html` | High
-8 | File | `ajaxfilemanager.php` | High
-9 | ... | ... | ...
+8 | File | `admin.php` | Medium
+9 | File | `ajaxfilemanager.php` | High
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.malwarebytes.com/malwarebytes-news/2022/05/unknown-apt-group-has-targeted-russia-repeatedly-since-ukraine-invasion/
 * https://blog.talosintelligence.com/2019/08/china-chopper-still-active-9-years-later.html
 * https://github.com/avast/ioc/tree/master/OperationDragonCastling
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.03.10(1)/RedXOR.pdf

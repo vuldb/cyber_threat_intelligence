@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with KillSomeOne:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise

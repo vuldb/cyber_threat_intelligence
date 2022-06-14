@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [SV](https://vuldb.com/?country.sv)
-* [PL](https://vuldb.com/?country.pl)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,7 +63,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
@@ -75,39 +75,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit.php` | High
-2 | File | `/admin/modules/system/custom_field.php` | High
-3 | File | `/admin/new-content` | High
-4 | File | `/admin/weixin.php` | High
-5 | File | `/alerts/alertLightbox.php` | High
-6 | File | `/api /v3/auth` | High
-7 | File | `/apilog.php` | Medium
-8 | File | `/apps/acs-commons/content/page-compare.html` | High
-9 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-10 | File | `/cloud_config/router_post/upgrade_info` | High
-11 | File | `/cms/classes/Master.php?f=delete_client` | High
-12 | File | `/config` | Low
-13 | File | `/example/editor` | High
-14 | File | `/goform/login_process` | High
-15 | File | `/goform/SetInternetLanInfo` | High
-16 | File | `/goform/setNetworkLan` | High
-17 | File | `/goform/setPicListItem` | High
-18 | File | `/goform/SetSysTimeCfg` | High
-19 | File | `/html/Solar_Ftp.php` | High
-20 | File | `/members/view_member.php` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/mngset/authset` | High
-23 | File | `/mtms/admin/?page=transaction/send` | High
-24 | File | `/ok_png.c` | Medium
-25 | File | `/one_church/userregister.php` | High
-26 | File | `/page.php` | Medium
-27 | File | `/php/ajax.php` | High
-28 | File | `/reps/classes/Master.php?f=delete_estate` | High
-29 | File | `/scbs/admin/bookings/view_booking.php` | High
-30 | File | `/setting/CloudACMunualUpdate` | High
-31 | ... | ... | ...
+1 | File | `/?module=fileman&section=get&page=grid` | High
+2 | File | `/admin.php/pic/admin/type/pl_save` | High
+3 | File | `/admin.php/singer/admin/singer/hy` | High
+4 | File | `/admin.php/vod/admin/topic/del` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/modules/system/custom_field.php` | High
+7 | File | `/admin/new-content` | High
+8 | File | `/admin/weixin.php` | High
+9 | File | `/alerts/alertLightbox.php` | High
+10 | File | `/api /v3/auth` | High
+11 | File | `/apps/acs-commons/content/page-compare.html` | High
+12 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+13 | File | `/bcms/admin/courts/manage_court.php` | High
+14 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+15 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/cloud_config/router_post/upgrade_info` | High
+18 | File | `/cms/classes/Master.php?f=delete_client` | High
+19 | File | `/config` | Low
+20 | File | `/defaultui/player/modern.html` | High
+21 | File | `/example/editor` | High
+22 | File | `/gaia-job-admin/user/add` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/login_process` | High
+25 | File | `/goform/SetInternetLanInfo` | High
+26 | File | `/goform/setNetworkLan` | High
+27 | File | `/goform/setPicListItem` | High
+28 | File | `/goform/SetSysTimeCfg` | High
+29 | File | `/html/Solar_Ftp.php` | High
+30 | File | `/lists/admin/` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/mngset/authset` | High
+33 | File | `/mtms/admin/?page=transaction/send` | High
+34 | File | `/one_church/userregister.php` | High
+35 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

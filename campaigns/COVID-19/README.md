@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -151,12 +151,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -164,36 +164,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php?slides` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-5 | File | `/form/index.php?module=getjson` | High
-6 | File | `/fuel/index.php/fuel/logs/items` | High
-7 | File | `/ghost/preview` | High
-8 | File | `/include/chart_generator.php` | High
-9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/nova/bin/detnet` | High
-11 | File | `/rest/api/latest/projectvalidate/key` | High
-12 | File | `/rest/api/latest/user/avatar/temporary` | High
-13 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-14 | File | `/scripts/unlock_tasks.php` | High
-15 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-16 | File | `/secure/QueryComponent!Default.jspa` | High
-17 | File | `/tmp/app/.env` | High
-18 | File | `/ubus/uci.apply` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/user-utils/users/md5.json` | High
-21 | File | `/userfs/bin/tcapi` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `aam/v1/authenticate` | High
-24 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-25 | File | `adclick.php` | Medium
-26 | File | `admin.webring.docs.php` | High
-27 | File | `admin/conf_users_edit.php` | High
-28 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/api/crontab` | Medium
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+8 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+9 | File | `/current_action.php?action=reboot` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/config/image_sign` | High
+12 | File | `/etc/quagga` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/IISADMPWD` | Medium
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/rest/api/latest/projectvalidate/key` | High
+19 | File | `/rest/api/latest/user/avatar/temporary` | High
+20 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+23 | File | `/src/njs/src/njs_module.c` | High
+24 | File | `/tmp/app/.env` | High
+25 | File | `/ubus/uci.apply` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/user-utils/users/md5.json` | High
+28 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+29 | File | `4.edu.php` | Medium
+30 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

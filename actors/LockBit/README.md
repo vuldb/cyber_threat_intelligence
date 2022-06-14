@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LockBit:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [88.80.147.102](https://vuldb.com/?ip.88.80.147.102) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,10 +49,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 4 | File | `/export` | Low
 5 | File | `/secure/QueryComponent!Default.jspa` | High
-6 | File | `backend/Login/load/` | High
-7 | ... | ... | ...
+6 | File | `/uncpath/` | Medium
+7 | File | `agent/Core/Controller/SendRequest.cpp` | High
+8 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -60,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Proxyshell/HvS_Proxyshell_2021_09_IOCs.csv
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit.csv
+* https://thedfirreport.com/2020/06/10/lockbit-ransomware-why-you-no-spread/
 * https://www.ic3.gov/Media/News/2022/220204.pdf
 
 ## Literature

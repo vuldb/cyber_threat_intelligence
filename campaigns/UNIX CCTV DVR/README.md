@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNIX CCTV DVR:
 
-* [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -56,45 +56,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer Chroma\SDK\Apps` | High
-2 | File | `/admin/cloud.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/api/document/<DocumentID>/attachments` | High
-5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin-sdb/` | High
-7 | File | `/cgi-bin/` | Medium
-8 | File | `/cgi-bin/uploadWeiXinPic` | High
-9 | File | `/core/admin/categories.php` | High
-10 | File | `/coreframe/app/order/admin/card.php` | High
-11 | File | `/device/device=345/?tab=ports` | High
-12 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-13 | File | `/eshop/products/json/aouCustomerAdresse` | High
-14 | File | `/etc/config/cameo` | High
-15 | File | `/etc/environment` | High
-16 | File | `/extensionsinstruction` | High
-17 | File | `/goform/setWorkmode` | High
-18 | File | `/goods/getGoodsListByConditions/` | High
-19 | File | `/includes/lib/tree.php` | High
-20 | File | `/MagickCore/quantize.c` | High
-21 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-22 | File | `/member/index/login.html` | High
-23 | File | `/moddable/xs/sources/xsScript.c` | High
-24 | File | `/moddable/xs/sources/xsSymbol.c` | High
-25 | File | `/multiux/SaveMailbox` | High
-26 | File | `/nagioslogserver/configure/create_snapshot` | High
-27 | File | `/nova/bin/lcdstat` | High
-28 | File | `/PreviewHandler.ashx` | High
-29 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-30 | File | `/rest/api/2/user/picker` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/src/njs_vmcode.c` | High
-33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-34 | File | `/syscmd.asp` | Medium
-35 | File | `/system?action=ServiceAdmin` | High
-36 | File | `/tmp` | Low
-37 | ... | ... | ...
+1 | File | `/admin.php/singer/admin/lists/zhuan` | High
+2 | File | `/admin.php/User/level_sort` | High
+3 | File | `/admin/cloud.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+6 | File | `/api/document/<DocumentID>/attachments` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/cgi-bin/` | Medium
+9 | File | `/cgi-bin/uploadWeiXinPic` | High
+10 | File | `/core/admin/categories.php` | High
+11 | File | `/coreframe/app/order/admin/card.php` | High
+12 | File | `/device/device=345/?tab=ports` | High
+13 | File | `/dms/admin/reports/daily_collection_report.php` | High
+14 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+15 | File | `/eshop/products/json/aouCustomerAdresse` | High
+16 | File | `/etc/config/cameo` | High
+17 | File | `/etc/environment` | High
+18 | File | `/extensionsinstruction` | High
+19 | File | `/food/admin/all_users.php` | High
+20 | File | `/goform/SetClientState` | High
+21 | File | `/goform/SetFirewallCfg` | High
+22 | File | `/goform/setWorkmode` | High
+23 | File | `/goods/getGoodsListByConditions/` | High
+24 | File | `/includes/lib/tree.php` | High
+25 | File | `/MagickCore/quantize.c` | High
+26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+27 | File | `/member/index/login.html` | High
+28 | File | `/moddable/xs/sources/xsScript.c` | High
+29 | File | `/moddable/xs/sources/xsSymbol.c` | High
+30 | File | `/multiux/SaveMailbox` | High
+31 | File | `/nagioslogserver/configure/create_snapshot` | High
+32 | File | `/nova/bin/lcdstat` | High
+33 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+34 | File | `/rest/api/2/user/picker` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+37 | File | `/sns/classes/Master.php?f=delete_img` | High
+38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

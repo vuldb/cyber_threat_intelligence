@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gamarue:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,22 +21,28 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.154.191.57](https://vuldb.com/?ip.5.154.191.57) | - | - | High
-2 | [20.186.50.83](https://vuldb.com/?ip.20.186.50.83) | - | - | High
-3 | [37.187.0.40](https://vuldb.com/?ip.37.187.0.40) | ns3108067.ip-37-187-0.eu | - | High
-4 | [40.81.11.194](https://vuldb.com/?ip.40.81.11.194) | - | - | High
-5 | [40.91.94.203](https://vuldb.com/?ip.40.91.94.203) | - | - | High
-6 | [45.8.124.25](https://vuldb.com/?ip.45.8.124.25) | free.gbnhost.com | - | High
-7 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
-8 | [45.128.204.36](https://vuldb.com/?ip.45.128.204.36) | - | - | High
-9 | [45.128.207.237](https://vuldb.com/?ip.45.128.207.237) | - | - | High
-10 | [46.45.169.106](https://vuldb.com/?ip.46.45.169.106) | 46-45-169-106.turkrdns.com | - | High
-11 | [46.249.38.155](https://vuldb.com/?ip.46.249.38.155) | - | - | High
-12 | [46.254.21.69](https://vuldb.com/?ip.46.254.21.69) | h13.ihc.ru | - | High
-13 | [50.116.23.211](https://vuldb.com/?ip.50.116.23.211) | www.eqnic.net | - | High
-14 | ... | ... | ... | ...
+1 | [5.35.249.46](https://vuldb.com/?ip.5.35.249.46) | redirect.haribo.com | - | High
+2 | [5.154.191.57](https://vuldb.com/?ip.5.154.191.57) | - | - | High
+3 | [5.159.57.195](https://vuldb.com/?ip.5.159.57.195) | www-riedle.transfermarkt.de | - | High
+4 | [20.186.50.83](https://vuldb.com/?ip.20.186.50.83) | - | - | High
+5 | [37.187.0.40](https://vuldb.com/?ip.37.187.0.40) | ns3108067.ip-37-187-0.eu | - | High
+6 | [40.70.224.146](https://vuldb.com/?ip.40.70.224.146) | - | - | High
+7 | [40.81.11.194](https://vuldb.com/?ip.40.81.11.194) | - | - | High
+8 | [40.91.94.203](https://vuldb.com/?ip.40.91.94.203) | - | - | High
+9 | [45.8.124.25](https://vuldb.com/?ip.45.8.124.25) | free.gbnhost.com | - | High
+10 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
+11 | [45.128.204.36](https://vuldb.com/?ip.45.128.204.36) | - | - | High
+12 | [45.128.207.237](https://vuldb.com/?ip.45.128.207.237) | - | - | High
+13 | [46.45.169.106](https://vuldb.com/?ip.46.45.169.106) | 46-45-169-106.turkrdns.com | - | High
+14 | [46.249.38.155](https://vuldb.com/?ip.46.249.38.155) | - | - | High
+15 | [46.254.21.69](https://vuldb.com/?ip.46.254.21.69) | h13.ihc.ru | - | High
+16 | [50.116.23.211](https://vuldb.com/?ip.50.116.23.211) | www.eqnic.net | - | High
+17 | [51.195.53.221](https://vuldb.com/?ip.51.195.53.221) | ip221.ip-51-195-53.eu | - | High
+18 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+19 | [52.230.217.195](https://vuldb.com/?ip.52.230.217.195) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 51 more IOC items available. Please use our online service to access the data.
+There are 75 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,45 +65,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-3 | File | `.authlie` | Medium
-4 | File | `.htaccess` | Medium
-5 | File | `/+CSCOE+/logon.html` | High
-6 | File | `/admin/settings/sites/new` | High
-7 | File | `/admin_giant/` | High
-8 | File | `/advanced/adv_dns.xgi` | High
-9 | File | `/folder/list` | Medium
-10 | File | `/forms/nslookupHandler` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/GetNewDir` | High
-13 | File | `/goform/right_now_d` | High
+3 | File | `.htaccess` | Medium
+4 | File | `/+CSCOE+/logon.html` | High
+5 | File | `/admin/settings/sites/new` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/app/admin/nat/item-add-submit.php` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/config/netconf.cmd` | High
+10 | File | `/etc/config/image_sign` | High
+11 | File | `/etc/sudoers` | Medium
+12 | File | `/folder/list` | Medium
+13 | File | `/forms/nslookupHandler` | High
 14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
 15 | File | `/group/comment` | High
-16 | File | `/home/home_parent.xgi` | High
+16 | File | `/icingaweb2/navigation/add` | High
 17 | File | `/lookin/info` | Medium
 18 | File | `/plugins/servlet/jira-blockers/` | High
-19 | File | `/status/status_log.sys` | High
-20 | File | `/themes/<php_file_name>` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/usr/bin/shutter` | High
-25 | File | `/zm/index.php` | High
-26 | File | `adclick.php` | Medium
-27 | File | `admin-ajax.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-30 | File | `admin/controller/pages/localisation/language.php` | High
-31 | File | `admin/fm/` | Medium
-32 | File | `admin/pages/*/edit` | High
-33 | File | `admincp/attachment.php&do=rebuild&type` | High
-34 | File | `administrator/index.php?option=com_pago&view=comments` | High
-35 | File | `ajax.php` | Medium
-36 | File | `ajax_mod_security.php` | High
-37 | File | `api.php` | Low
-38 | File | `appconfig.php` | High
-39 | ... | ... | ...
+19 | File | `/register.do` | Medium
+20 | File | `/sessions/sess_<sessionid>` | High
+21 | File | `/themes/<php_file_name>` | High
+22 | File | `/tmp/speedtest_urls.xml` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/var/log/nginx` | High
+26 | File | `/wbg/core/_includes/authorization.inc.php` | High
+27 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+28 | File | `/wp-admin/admin.php` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+30 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,6 +103,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/09/threat-roundup-0907-0914.html
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0621-0628.html
 * https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
+* https://blog.talosintelligence.com/2019/12/threat-roundup-1206-1213.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-1023-1030.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1211-1218.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0115-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html

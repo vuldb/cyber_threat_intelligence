@@ -79,26 +79,24 @@ ID | Type | Indicator | Confidence
 13 | File | `/proc/ioports` | High
 14 | File | `/replication` | Medium
 15 | File | `/RestAPI` | Medium
-16 | File | `/rom-0` | Low
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/var/log/nginx` | High
-23 | File | `/wp-admin/admin.php` | High
-24 | File | `addentry.php` | Medium
-25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/login.php` | High
-28 | File | `admin\model\catalog\download.php` | High
-29 | File | `ajax/render/widget_php` | High
-30 | File | `apcupsd.pid` | Medium
-31 | File | `api/sms/send-sms` | High
-32 | File | `api/v1/alarms` | High
-33 | ... | ... | ...
+16 | File | `/tmp` | Low
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/tmp/zarafa-vacation-*` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/var/log/nginx` | High
+22 | File | `/wp-admin/admin.php` | High
+23 | File | `addentry.php` | Medium
+24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin\model\catalog\download.php` | High
+27 | File | `apcupsd.pid` | Medium
+28 | File | `api/sms/send-sms` | High
+29 | File | `api/v1/alarms` | High
+30 | File | `application/controller/InstallerController.php` | High
+31 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

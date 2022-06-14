@@ -179,26 +179,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=themeinstall` | High
 2 | File | `/catcompany.php` | High
-3 | File | `/export` | Low
-4 | File | `/forgetpassword.php` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/graphStatus/displayServiceStatus.php` | High
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/out.php` | Medium
-9 | File | `/pages/items` | Medium
-10 | File | `/proc/pid/syscall` | High
-11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-12 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-13 | File | `/servlet.gupld` | High
-14 | File | `/sql/sql_type.cc` | High
-15 | File | `/status` | Low
-16 | File | `/tools/developerConsoleOperations.jsp` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/WEB-INF/web.xml` | High
-20 | ... | ... | ...
+3 | File | `/cgi-bin/login.cgi` | High
+4 | File | `/export` | Low
+5 | File | `/forgetpassword.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/graphStatus/displayServiceStatus.php` | High
+8 | File | `/modules/profile/index.php` | High
+9 | File | `/out.php` | Medium
+10 | File | `/pages/items` | Medium
+11 | File | `/proc/pid/syscall` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+14 | File | `/servlet.gupld` | High
+15 | File | `/sql/sql_type.cc` | High
+16 | File | `/status` | Low
+17 | File | `/tools/developerConsoleOperations.jsp` | High
+18 | File | `/uncpath/` | Medium
+19 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

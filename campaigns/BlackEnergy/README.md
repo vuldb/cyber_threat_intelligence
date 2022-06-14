@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -63,16 +63,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/powerline` | High
 3 | File | `/admin/syslog` | High
 4 | File | `/api/upload` | Medium
-5 | File | `/cgi-bin` | Medium
-6 | File | `/cgi-bin/kerbynet` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/dcim/sites/add/` | High
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/login` | Low
-14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/cgi-bin` | Medium
+7 | File | `/cgi-bin/kerbynet` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/fudforum/adm/hlplist.php` | High
+11 | File | `/fuel/index.php/fuel/logs/items` | High
+12 | File | `/login` | Low
+13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+14 | File | `/mgmt/tm/util/bash` | High
 15 | File | `/monitoring` | Medium
 16 | File | `/new` | Low
 17 | File | `/proc/<pid>/status` | High
@@ -81,21 +81,22 @@ ID | Type | Indicator | Confidence
 20 | File | `/scripts/killpvhost` | High
 21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/redis.ds` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `AccountManagerService.java` | High
-33 | File | `actions/CompanyDetailsSave.php` | High
-34 | File | `ActiveServices.java` | High
-35 | File | `ActivityManagerService.java` | High
-36 | File | `addtocart.asp` | High
-37 | ... | ... | ...
+23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+25 | File | `/tmp` | Low
+26 | File | `/tmp/redis.ds` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+30 | File | `/wp-admin` | Medium
+31 | File | `/wp-json/wc/v3/webhooks` | High
+32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+33 | File | `AccountManagerService.java` | High
+34 | File | `actions/CompanyDetailsSave.php` | High
+35 | File | `ActiveServices.java` | High
+36 | File | `ActivityManagerService.java` | High
+37 | File | `admin.php` | Medium
+38 | ... | ... | ...
 
 There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

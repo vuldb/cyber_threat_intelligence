@@ -80,15 +80,15 @@ ID | Type | Indicator | Confidence
 15 | File | `/password.html` | High
 16 | File | `/system/ws/v11/ss/email` | High
 17 | File | `/uncpath/` | Medium
-18 | File | `add_vhost.php` | High
-19 | File | `admin/images.aspx` | High
-20 | File | `admin/index.php` | High
-21 | File | `adv2.php?action=modify` | High
-22 | File | `agent.cfg` | Medium
-23 | File | `arch/x86/include/asm/fpu/internal.h` | High
+18 | File | `/upload` | Low
+19 | File | `add_vhost.php` | High
+20 | File | `admin/images.aspx` | High
+21 | File | `admin/index.php` | High
+22 | File | `adv2.php?action=modify` | High
+23 | File | `agent.cfg` | Medium
 24 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

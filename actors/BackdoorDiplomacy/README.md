@@ -65,36 +65,37 @@ ID | Type | Indicator | Confidence
 16 | File | `/goforms/rlminfo` | High
 17 | File | `/login` | Low
 18 | File | `/navigate/navigate_download.php` | High
-19 | File | `/oputilsServlet` | High
-20 | File | `/out.php` | Medium
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/p` | Low
-23 | File | `/password.html` | High
-24 | File | `/proc/ioports` | High
-25 | File | `/property-list/property_view.php` | High
-26 | File | `/ptms/classes/Users.php` | High
-27 | File | `/rest` | Low
-28 | File | `/rest/api/2/search` | High
-29 | File | `/s/` | Low
-30 | File | `/scripts/cpan_config` | High
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/services/system/setup.json` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/vloggers_merch/?p=view_product` | High
-35 | File | `/webconsole/APIController` | High
-36 | File | `/websocket/exec` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/wp-json` | Medium
-39 | File | `/wp-json/oembed/1.0/embed?url` | High
-40 | File | `/_next` | Low
-41 | File | `4.edu.php\conn\function.php` | High
-42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-43 | File | `adclick.php` | Medium
-44 | File | `addentry.php` | Medium
-45 | File | `admin/category.inc.php` | High
-46 | ... | ... | ...
+19 | File | `/ocwbs/admin/?page=user/manage_user` | High
+20 | File | `/ofrs/admin/?page=user/manage_user` | High
+21 | File | `/oputilsServlet` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/p` | Low
+25 | File | `/password.html` | High
+26 | File | `/proc/ioports` | High
+27 | File | `/property-list/property_view.php` | High
+28 | File | `/ptms/classes/Users.php` | High
+29 | File | `/rest` | Low
+30 | File | `/rest/api/2/search` | High
+31 | File | `/s/` | Low
+32 | File | `/scripts/cpan_config` | High
+33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+34 | File | `/services/system/setup.json` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/vloggers_merch/?p=view_product` | High
+37 | File | `/webconsole/APIController` | High
+38 | File | `/websocket/exec` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-json` | Medium
+41 | File | `/wp-json/oembed/1.0/embed?url` | High
+42 | File | `/_next` | Low
+43 | File | `4.edu.php\conn\function.php` | High
+44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+45 | File | `adclick.php` | Medium
+46 | File | `addentry.php` | Medium
+47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

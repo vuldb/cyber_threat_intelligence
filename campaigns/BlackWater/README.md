@@ -59,7 +59,8 @@ ID | Type | Indicator | Confidence
 2 | File | `/.flatpak-info` | High
 3 | File | `/nagiosxi/admin/graphtemplates.php` | High
 4 | File | `/usr/bin/pkexec` | High
-5 | ... | ... | ...
+5 | File | `abook_database.php` | High
+6 | ... | ... | ...
 
 There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

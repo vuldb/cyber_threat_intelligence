@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,37 +70,37 @@ ID | Type | Indicator | Confidence
 8 | File | `/includes/event-management/index.php` | High
 9 | File | `/Main_AdmStatus_Content.asp` | High
 10 | File | `/member/picture/album` | High
-11 | File | `/mifs/c/i/reg/reg.html` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/products/details.asp` | High
-14 | File | `/services/details.asp` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-17 | File | `/usr/syno/etc/mount.conf` | High
-18 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-19 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-20 | File | `a-b-membres.php` | High
-21 | File | `actions.php` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `add.php` | Low
-24 | File | `add_2_basket.asp` | High
-25 | File | `add_comment.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin.php/comments/batchdel/` | High
-28 | File | `admin/aboutus.php` | High
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin\controller\uploadfile.php` | High
-31 | File | `album_portal.php` | High
-32 | File | `al_initialize.php` | High
-33 | File | `application/modules/admin/views/ecommerce/products.php` | High
-34 | File | `ArchiveNews.aspx` | High
-35 | File | `ashnews.php/ashheadlines.php` | High
-36 | File | `base/ErrorHandler.php` | High
-37 | File | `blog.php` | Medium
-38 | File | `board.php` | Medium
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/products/details.asp` | High
+15 | File | `/services/details.asp` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+18 | File | `/usr/syno/etc/mount.conf` | High
+19 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+20 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+21 | File | `a-b-membres.php` | High
+22 | File | `actions.php` | Medium
+23 | File | `adclick.php` | Medium
+24 | File | `add.php` | Low
+25 | File | `add_2_basket.asp` | High
+26 | File | `add_comment.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin.php/comments/batchdel/` | High
+29 | File | `admin/aboutus.php` | High
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin\controller\uploadfile.php` | High
+32 | File | `album_portal.php` | High
+33 | File | `al_initialize.php` | High
+34 | File | `application/modules/admin/views/ecommerce/products.php` | High
+35 | File | `ArchiveNews.aspx` | High
+36 | File | `ashnews.php/ashheadlines.php` | High
+37 | File | `base/ErrorHandler.php` | High
+38 | File | `blog.php` | Medium
 39 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

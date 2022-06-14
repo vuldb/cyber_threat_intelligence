@@ -42,8 +42,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1548.002 | CWE-285 | Improper Authorization | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,17 +55,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/team` | High
-2 | File | `authent.php4` | Medium
-3 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-4 | File | `catalog.asp` | Medium
-5 | File | `controllers/Weixin.php` | High
-6 | File | `dapur/index.php` | High
-7 | File | `Database.php` | Medium
-8 | File | `dbutil_2_3.sys` | High
-9 | File | `dcrledec.h` | Medium
+2 | File | `/bcms/admin/?page=user/list` | High
+3 | File | `ast/parser.go` | High
+4 | File | `authent.php4` | Medium
+5 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+6 | File | `catalog.asp` | Medium
+7 | File | `controllers/Weixin.php` | High
+8 | File | `dapur/index.php` | High
+9 | File | `Database.php` | Medium
 10 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

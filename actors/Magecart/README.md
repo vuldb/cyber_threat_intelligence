@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
+* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
-* [DE](https://vuldb.com/?country.de)
-* [SV](https://vuldb.com/?country.sv)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,39 +52,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/admin-panel1.php` | High
-3 | File | `/admin/users.php?source=edit_user&id=1` | High
-4 | File | `/admin/weixin.php` | High
-5 | File | `/apps/acs-commons/content/page-compare.html` | High
-6 | File | `/aqpg/users/login.php` | High
-7 | File | `/assets/partials/_handleLogin.php` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-10 | File | `/cms/classes/Master.php?f=delete_designation` | High
-11 | File | `/ecrire` | Low
-12 | File | `/etc/config/rpcd` | High
-13 | File | `/etc/cron.daily/upstart` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/goform/setpptpservercfg` | High
-16 | File | `/help/treecontent.jsp` | High
-17 | File | `/insurance/editNominee.php` | High
-18 | File | `/ManageRoute/postRoute` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/one_church/churchprofile.php` | High
-21 | File | `/php/ajax.php` | High
-22 | File | `/php_action/editProductImage.php` | High
-23 | File | `/public_html/apply_vacancy` | High
-24 | File | `/purchase_order/admin/?page=user` | High
-25 | File | `/rest-service-fecru/server-v1` | High
-26 | File | `/scbs/admin/bookings/view_booking.php` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/student-grading-system/rms.php?page=school_year` | High
-29 | File | `/tmp/swhkd.sock` | High
-30 | File | `/var/log/nginx/html/ADMINPASS` | High
-31 | ... | ... | ...
+1 | File | `../FILEDIR` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+4 | File | `/admin.php/pic/admin/type/del` | High
+5 | File | `/admin.php/vod/admin/topic/del` | High
+6 | File | `/admin.php?p=/User/index` | High
+7 | File | `/admin/users.php?source=edit_user&id=1` | High
+8 | File | `/admin/weixin.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/apps/acs-commons/content/page-compare.html` | High
+11 | File | `/assets/partials/_handleLogin.php` | High
+12 | File | `/bcms/admin/?page=user/list` | High
+13 | File | `/bcms/admin/?page=user/manage_user` | High
+14 | File | `/bcms/admin/services/view_service.php` | High
+15 | File | `/cardo/api` | Medium
+16 | File | `/cgi-bin/editBookmark` | High
+17 | File | `/cms/classes/Master.php?f=delete_designation` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ecrire` | Low
+20 | File | `/eris/admin/applicants/index.php?view=view` | High
+21 | File | `/etc/cron.daily/upstart` | High
+22 | File | `/fuel/index.php/fuel/logs/items` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/setpptpservercfg` | High
+26 | File | `/help/treecontent.jsp` | High
+27 | File | `/insurance/editNominee.php` | High
+28 | File | `/lists/admin/` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/my/unicorn/uc.c` | High
+31 | File | `/ordering/admin/category/index.php?view=edit` | High
+32 | File | `/ordering/admin/stockin/index.php?view=edit` | High
+33 | File | `/p1/p2/:name` | Medium
+34 | File | `/php/ajax.php` | High
+35 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

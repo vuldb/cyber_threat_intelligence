@@ -57,45 +57,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
-2 | File | `/.vnc/sesman_${username}_passwd` | High
-3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-4 | File | `/addsrv` | Low
-5 | File | `/Admin/Views/FileEditor/` | High
-6 | File | `/api/user/{ID}` | High
-7 | File | `/article/add` | Medium
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/controller/pay.class.php` | High
-11 | File | `/ctpms/admin/?page=applications/view_application` | High
-12 | File | `/dev/block/mmcblk0rpmb` | High
-13 | File | `/dev/kmem` | Medium
-14 | File | `/dev/shm` | Medium
-15 | File | `/dev/snd/seq` | Medium
-16 | File | `/device/device=140/tab=wifi/view` | High
-17 | File | `/dl/dl_print.php` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/goform/addressNat` | High
-20 | File | `/htdocs/admin/dict.php?id=3` | High
-21 | File | `/include/menu_v.inc.php` | High
-22 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-23 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-24 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-25 | File | `/login` | Low
-26 | File | `/mngset/authset` | High
-27 | File | `/module/module_frame/index.php` | High
-28 | File | `/notice-edit.php` | High
-29 | File | `/nova/bin/sniffer` | High
-30 | File | `/ofcms/company-c-47` | High
-31 | File | `/proc/*/cmdline"` | High
-32 | File | `/proc/pid/syscall` | High
-33 | File | `/product_list.php` | High
-34 | File | `/rest/api/2/user/picker` | High
-35 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-36 | File | `/services/details.asp` | High
-37 | File | `/src/core/controllers/cm.php` | High
+2 | File | `/.dbus-keyrings` | High
+3 | File | `/.vnc/sesman_${username}_passwd` | High
+4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+5 | File | `/addsrv` | Low
+6 | File | `/admin.php/news/admin/topic/save` | High
+7 | File | `/admin/comn/service/update.json` | High
+8 | File | `/Admin/Views/FileEditor/` | High
+9 | File | `/api/user/{ID}` | High
+10 | File | `/article/add` | Medium
+11 | File | `/cgi-bin/editBookmark` | High
+12 | File | `/cgi-bin/uploadWeiXinPic` | High
+13 | File | `/controller/pay.class.php` | High
+14 | File | `/ctpms/admin/?page=applications/view_application` | High
+15 | File | `/dev/block/mmcblk0rpmb` | High
+16 | File | `/dev/kmem` | Medium
+17 | File | `/dev/shm` | Medium
+18 | File | `/dev/snd/seq` | Medium
+19 | File | `/device/device=140/tab=wifi/view` | High
+20 | File | `/dl/dl_print.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/SetClientState` | High
+24 | File | `/htdocs/admin/dict.php?id=3` | High
+25 | File | `/include/menu_v.inc.php` | High
+26 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+27 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+28 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+29 | File | `/login` | Low
+30 | File | `/mngset/authset` | High
+31 | File | `/module/module_frame/index.php` | High
+32 | File | `/notice-edit.php` | High
+33 | File | `/nova/bin/sniffer` | High
+34 | File | `/ofcms/company-c-47` | High
+35 | File | `/proc/*/cmdline"` | High
+36 | File | `/proc/pid/syscall` | High
+37 | File | `/product_list.php` | High
 38 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
