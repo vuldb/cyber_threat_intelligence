@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,23 +76,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
+1 | File | `//proc/kcore` | Medium
 2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/admin/powerline` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/login.php` | High
 5 | File | `/admin/produts/controller.php` | High
-6 | File | `/admin/syslog` | High
-7 | File | `/admin/user/team` | High
-8 | File | `/api/upload` | Medium
-9 | File | `/bcms/admin/?page=user/list` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+6 | File | `/admin/user/team` | High
+7 | File | `/Ap4RtpAtom.cpp` | High
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/fuel/index.php/fuel/logs/items` | High
+14 | File | `/fuel/sitevariables/delete/4` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+17 | File | `/librarian/bookdetails.php` | High
 18 | File | `/mgmt/tm/util/bash` | High
 19 | File | `/monitoring` | Medium
 20 | File | `/ms/cms/content/list.do` | High
@@ -101,21 +101,20 @@ ID | Type | Indicator | Confidence
 23 | File | `/plesk-site-preview/` | High
 24 | File | `/proc/<pid>/status` | High
 25 | File | `/public/plugins/` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-30 | File | `/student-grading-system/rms.php?page=grade` | High
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
-33 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-34 | File | `/wp-json/wc/v3/webhooks` | High
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | File | `ABuffer.cpp` | Medium
-37 | File | `AccountManagerService.java` | High
-38 | ... | ... | ...
+26 | File | `/school/model/get_admin_profile.php` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+30 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+31 | File | `/student-grading-system/rms.php?page=grade` | High
+32 | File | `/timeline2.php` | High
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

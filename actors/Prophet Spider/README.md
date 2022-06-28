@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
@@ -59,39 +59,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `../FILEDIR` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/?page=system_info/contact_info` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/part_categories` | High
-6 | File | `/api/programs/orgUnits?programs` | High
-7 | File | `/auditLogAction.do` | High
-8 | File | `/bcms/admin/?page=court_rentals/view_court_rental` | High
-9 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
-10 | File | `/bcms/admin/?page=sales/view_details` | High
-11 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-12 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-13 | File | `/bcms/admin/?page=user/manage_user` | High
-14 | File | `/cgi-bin` | Medium
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/checklogin.jsp` | High
-17 | File | `/churchcrm/WhyCameEditor.php` | High
-18 | File | `/course/api/upload/pic` | High
-19 | File | `/etc/cron.daily/upstart` | High
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/itop/webservices/export-v2.php` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/nova/bin/sniffer` | High
-25 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-26 | File | `/ocwbs/admin/?page=user/manage_user` | High
-27 | File | `/ofrs/admin/?page=reports` | High
-28 | File | `/ofrs/admin/?page=requests/manage_request` | High
-29 | File | `/ofrs/admin/?page=teams/manage_team` | High
-30 | File | `/ofrs/admin/?page=teams/view_team` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/scheprofile.cgi` | High
+3 | File | `/admin/showbad.php` | High
+4 | File | `/admin/ztliuyan_sendmail.php` | High
+5 | File | `/alarm_pi/alarmService.php` | High
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/api/part_categories` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/webproc` | High
+10 | File | `/cgi/get_param.cgi` | High
+11 | File | `/churchcrm/WhyCameEditor.php` | High
+12 | File | `/company` | Medium
+13 | File | `/company/account/safety/trade` | High
+14 | File | `/company/service/increment/add/im` | High
+15 | File | `/dashboard/blocks/stacks/view_details/` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/dashboard/snapshot/*?orgId=0` | High
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/dl/dl_sendmail.php` | High
+20 | File | `/dl/dl_sendsms.php` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/home/campus/campus_job` | High
+24 | File | `/home/job/index` | High
+25 | File | `/IISADMPWD` | Medium
+26 | File | `/images/background/1.php` | High
+27 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+28 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+29 | File | `/itop/webservices/export-v2.php` | High
+30 | File | `/job` | Low
 31 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

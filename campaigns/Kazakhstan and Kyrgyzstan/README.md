@@ -58,13 +58,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/iisadmin` | Medium
 2 | File | `/MIME/INBOX-MM-1/` | High
 3 | File | `/ptms/classes/Users.php` | High
-4 | File | `/scripts/iisadmin/bdir.htr` | High
-5 | File | `add_comment.php` | High
-6 | File | `admin/borrower/index.php?view=add` | High
-7 | File | `banner_add_edit.asp` | High
-8 | ... | ... | ...
+4 | File | `/rest/api/1.0/render` | High
+5 | File | `/scripts/iisadmin/bdir.htr` | High
+6 | File | `add_comment.php` | High
+7 | File | `admin/borrower/index.php?view=add` | High
+8 | File | `banner_add_edit.asp` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

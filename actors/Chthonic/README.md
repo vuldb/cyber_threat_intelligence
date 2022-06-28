@@ -24,31 +24,35 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.34.248.225](https://vuldb.com/?ip.5.34.248.225) | ns2.newsnet.li | - | High
 2 | [5.39.81.111](https://vuldb.com/?ip.5.39.81.111) | pm.theglu.org | - | High
 3 | [5.103.128.88](https://vuldb.com/?ip.5.103.128.88) | 5.103.128.88.static.fibianet.dk | - | High
-4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-5 | [13.107.246.13](https://vuldb.com/?ip.13.107.246.13) | - | - | High
-6 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
-7 | [20.41.46.145](https://vuldb.com/?ip.20.41.46.145) | - | - | High
-8 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
-9 | [23.236.62.147](https://vuldb.com/?ip.23.236.62.147) | 147.62.236.23.bc.googleusercontent.com | - | Medium
-10 | [31.28.161.68](https://vuldb.com/?ip.31.28.161.68) | ntp.exact-time.org | - | High
-11 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
-12 | [35.229.93.46](https://vuldb.com/?ip.35.229.93.46) | 46.93.229.35.bc.googleusercontent.com | - | Medium
-13 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
-14 | [35.244.181.201](https://vuldb.com/?ip.35.244.181.201) | 201.181.244.35.bc.googleusercontent.com | - | Medium
-15 | [37.187.5.167](https://vuldb.com/?ip.37.187.5.167) | ks3370497.kimsufi.com | - | High
-16 | [37.187.20.28](https://vuldb.com/?ip.37.187.20.28) | ns397460.ip-37-187-20.eu | - | High
-17 | [40.67.189.14](https://vuldb.com/?ip.40.67.189.14) | - | - | High
-18 | [40.70.224.146](https://vuldb.com/?ip.40.70.224.146) | - | - | High
-19 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
-20 | [40.90.247.210](https://vuldb.com/?ip.40.90.247.210) | - | - | High
-21 | [40.91.124.111](https://vuldb.com/?ip.40.91.124.111) | - | - | High
-22 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-23 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
-24 | [45.87.76.3](https://vuldb.com/?ip.45.87.76.3) | ntp.devrandom.be | - | High
-25 | [46.17.46.226](https://vuldb.com/?ip.46.17.46.226) | brtnjbjgyi.quest | - | High
-26 | ... | ... | ... | ...
+4 | [5.199.135.170](https://vuldb.com/?ip.5.199.135.170) | ve1124.venus.servdiscount-customer.com | - | High
+5 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+6 | [13.107.246.13](https://vuldb.com/?ip.13.107.246.13) | - | - | High
+7 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+8 | [20.41.46.145](https://vuldb.com/?ip.20.41.46.145) | - | - | High
+9 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
+10 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+11 | [20.109.209.108](https://vuldb.com/?ip.20.109.209.108) | - | - | High
+12 | [23.236.62.147](https://vuldb.com/?ip.23.236.62.147) | 147.62.236.23.bc.googleusercontent.com | - | Medium
+13 | [31.28.161.68](https://vuldb.com/?ip.31.28.161.68) | ntp.exact-time.org | - | High
+14 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+15 | [35.229.93.46](https://vuldb.com/?ip.35.229.93.46) | 46.93.229.35.bc.googleusercontent.com | - | Medium
+16 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
+17 | [35.244.181.201](https://vuldb.com/?ip.35.244.181.201) | 201.181.244.35.bc.googleusercontent.com | - | Medium
+18 | [37.187.5.167](https://vuldb.com/?ip.37.187.5.167) | ks3370497.kimsufi.com | - | High
+19 | [37.187.20.28](https://vuldb.com/?ip.37.187.20.28) | ns397460.ip-37-187-20.eu | - | High
+20 | [40.67.189.14](https://vuldb.com/?ip.40.67.189.14) | - | - | High
+21 | [40.70.224.146](https://vuldb.com/?ip.40.70.224.146) | - | - | High
+22 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
+23 | [40.90.247.210](https://vuldb.com/?ip.40.90.247.210) | - | - | High
+24 | [40.91.124.111](https://vuldb.com/?ip.40.91.124.111) | - | - | High
+25 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+26 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
+27 | [45.87.76.3](https://vuldb.com/?ip.45.87.76.3) | ntp.devrandom.be | - | High
+28 | [46.17.46.226](https://vuldb.com/?ip.46.17.46.226) | brtnjbjgyi.quest | - | High
+29 | [46.54.224.12](https://vuldb.com/?ip.46.54.224.12) | ntp1.kate-wing.si | - | High
+30 | ... | ... | ... | ...
 
-There are 100 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,39 +76,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/category_view.php` | High
-6 | File | `/dev/kmem` | Medium
-7 | File | `/file?action=download&file` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/rom-0` | Low
-17 | File | `/tmp` | Low
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/var/log/nginx` | High
-23 | File | `/wp-admin/admin.php` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `abook_database.php` | High
-26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | File | `admin/index.php` | High
-28 | File | `admin/login.php` | High
-29 | File | `admin\model\catalog\download.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `apcupsd.pid` | Medium
-32 | File | `api/sms/send-sms` | High
-33 | File | `api/v1/alarms` | High
-34 | ... | ... | ...
+4 | File | `/category_view.php` | High
+5 | File | `/dev/kmem` | Medium
+6 | File | `/file?action=download&file` | High
+7 | File | `/medical/inventories.php` | High
+8 | File | `/monitoring` | Medium
+9 | File | `/NAGErrors` | Medium
+10 | File | `/plugins/servlet/audit/resource` | High
+11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+12 | File | `/replication` | Medium
+13 | File | `/RestAPI` | Medium
+14 | File | `/tmp` | Low
+15 | File | `/tmp/speedtest_urls.xml` | High
+16 | File | `/tmp/zarafa-vacation-*` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/upload` | Low
+19 | File | `/var/log/nginx` | High
+20 | File | `/wp-admin/admin.php` | High
+21 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+22 | File | `admin/index.php` | High
+23 | File | `admin\model\catalog\download.php` | High
+24 | File | `apcupsd.pid` | Medium
+25 | File | `api/sms/send-sms` | High
+26 | File | `api/v1/alarms` | High
+27 | File | `application/controller/InstallerController.php` | High
+28 | File | `apport/hookutils.py` | High
+29 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+30 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/12/threat-roundup-1127-1204.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0903-0910.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0520-0527.html
 
 ## Literature
 

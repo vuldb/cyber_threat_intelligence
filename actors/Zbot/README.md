@@ -112,24 +112,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/?ajax-request=jnews` | High
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/imageslider/file.php` | High
-4 | File | `/cgi-bin/luci` | High
-5 | File | `/cgi-bin/viewcert` | High
-6 | File | `/core/vb/vurl.php` | High
-7 | File | `/etc/ldap.conf` | High
-8 | File | `/importTool/preview` | High
-9 | File | `/mods/_core/courses/users/create_course.php` | High
-10 | File | `/phppath/php` | Medium
-11 | File | `/plugins/Dashboard/Controller.php` | High
-12 | File | `/server-status` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `adclick.php` | Medium
-15 | File | `add_comment.php` | High
-16 | File | `admin-ajax.php` | High
-17 | File | `admin.php` | Medium
-18 | File | `admin/class-bulk-editor-list-table.php` | High
+4 | File | `/admin/sign/out` | High
+5 | File | `/cgi-bin/luci` | High
+6 | File | `/cgi-bin/viewcert` | High
+7 | File | `/core/vb/vurl.php` | High
+8 | File | `/etc/ldap.conf` | High
+9 | File | `/importTool/preview` | High
+10 | File | `/mods/_core/courses/users/create_course.php` | High
+11 | File | `/phppath/php` | Medium
+12 | File | `/plugins/Dashboard/Controller.php` | High
+13 | File | `/server-status` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `adclick.php` | Medium
+16 | File | `add_comment.php` | High
+17 | File | `admin-ajax.php` | High
+18 | File | `admin.php` | Medium
 19 | ... | ... | ...
 
-There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

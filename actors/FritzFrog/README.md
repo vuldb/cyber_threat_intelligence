@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
-* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -331,12 +331,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -344,50 +344,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#/CampaignManager/users` | High
-2 | File | `/admin/admin_login.php` | High
-3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/cgi-bin/luci/api/auth` | High
-5 | File | `/cgi-bin/luci/api/diagnose` | High
-6 | File | `/data/vendor/tcl` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/i/:data/ipa.plist` | High
-11 | File | `/login` | Low
-12 | File | `/member/index/login.html` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/php/passport/index.php` | High
-15 | File | `/plesk-site-preview/` | High
-16 | File | `/requests.php` | High
-17 | File | `/saml/login` | Medium
-18 | File | `/ScadaBR/login.htm` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/ServletAPI/accounts/login` | High
-21 | File | `/ubus/uci.apply` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/var/adm/btmp` | High
-26 | File | `/var/log/messages` | High
-27 | File | `/var/run/zabbix` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `account/login.php` | High
-30 | File | `ad/login.asp` | Medium
-31 | File | `adclick.php` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin.webring.docs.php` | High
-34 | File | `admin/admin_ping.php` | High
-35 | File | `admin/login.php` | High
-36 | File | `admin/viewtheatre.php` | High
-37 | File | `adminer.php` | Medium
-38 | File | `agenda.php3` | Medium
-39 | File | `ajaxp.php` | Medium
-40 | File | `anonymous/authenticated` | High
-41 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-42 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/admin_page/all-files-update-ajax.php` | High
+4 | File | `/api/crontab` | Medium
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/cgi-bin/cgiServer.exx` | High
+7 | File | `/cgi-bin/kerbynet` | High
+8 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+9 | File | `/cmd?cmd=connect` | High
+10 | File | `/CMD_ACCOUNT_ADMIN` | High
+11 | File | `/componetns/user/class.user.php` | High
+12 | File | `/config/getuser` | High
+13 | File | `/current_action.php?action=reboot` | High
+14 | File | `/dms/admin/reports/daily_collection_report.php` | High
+15 | File | `/etc/config/image_sign` | High
+16 | File | `/etc/hosts` | Medium
+17 | File | `/etc/password` | High
+18 | File | `/etc/quagga` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/gaia-job-admin/user/add` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/info.cgi` | Medium
+23 | File | `/lists/admin/` | High
+24 | File | `/proc/stat` | Medium
+25 | File | `/public/plugins/` | High
+26 | File | `/ram/pckg/security/nova/bin/ipsec` | High
+27 | File | `/rest/api/latest/projectvalidate/key` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/sql/sql_string.h` | High
+31 | File | `/sql/sql_type.cc` | High
+32 | File | `/strings/ctype-latin1.c` | High
+33 | File | `/strings/ctype-simple.c` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload/localhost` | High
+36 | File | `/user-utils/users/md5.json` | High
+37 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

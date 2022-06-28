@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
+* [TW](https://vuldb.com/?country.tw)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* ...
-
-There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,30 +67,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=fileman&section=get&page=grid` | High
-2 | File | `/account/ResetPassword` | High
-3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-6 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-7 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-8 | File | `/acms/classes/Master.php?f=delete_img` | High
-9 | File | `/assets/partials/_handleLogin.php` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cms/admin/?page=client/view_client` | High
-12 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-13 | File | `/cms/admin/?page=invoice/view_invoice` | High
-14 | File | `/cms/admin/?page=user/manage_user` | High
-15 | File | `/cms/admin/maintenance/manage_service.php` | High
-16 | File | `/cms/classes/Users.php?f=delete` | High
-17 | File | `/College_Management_System/admin/display-teacher.php` | High
-18 | File | `/ctpms/admin/?page=applications/view_application` | High
-19 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-20 | File | `/ctpms/admin/applications/update_status.php` | High
-21 | File | `/ctpms/admin/individuals/update_status.php` | High
-22 | ... | ... | ...
+1 | File | `/alarm_pi/alarmService.php` | High
+2 | File | `/bsms/?page=manage_account` | High
+3 | File | `/company` | Medium
+4 | File | `/company/account/safety/trade` | High
+5 | File | `/company/down_resume/total/nature` | High
+6 | File | `/company/service/increment/add/im` | High
+7 | File | `/company/view_be_browsed/total` | High
+8 | File | `/dashboard/reports/logs/view` | High
+9 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+10 | File | `/fm-data.lua` | Medium
+11 | File | `/freelance/resume_list` | High
+12 | File | `/home/campus/campus_job` | High
+13 | File | `/home/job/index` | High
+14 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

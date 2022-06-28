@@ -51,15 +51,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/phppath/php` | Medium
-2 | File | `/uncpath/` | Medium
-3 | File | `/WEB-INF/web.xml` | High
-4 | File | `abook_database.php` | High
-5 | File | `adclick.php` | Medium
-6 | File | `admin.php` | Medium
+1 | File | `/cgi-bin/luci/api/diagnose` | High
+2 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+3 | File | `/phppath/php` | Medium
+4 | File | `/uncpath/` | Medium
+5 | File | `/WEB-INF/web.xml` | High
+6 | File | `abook_database.php` | High
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

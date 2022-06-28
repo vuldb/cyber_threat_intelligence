@@ -74,7 +74,8 @@ ID | Type | Indicator | Confidence
 11 | File | `adclick.php` | Medium
 12 | File | `admin.php` | Medium
 13 | File | `admin/conf_users_edit.php` | High
-14 | ... | ... | ...
+14 | File | `admin/getparam.cgi` | High
+15 | ... | ... | ...
 
 There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

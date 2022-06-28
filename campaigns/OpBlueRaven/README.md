@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,16 +64,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.dbus-keyrings` | High
-2 | File | `/?module=users&section=cpanel&page=list` | High
-3 | File | `/admin/powerline` | High
-4 | File | `/admin/syslog` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/export` | Low
-11 | File | `/fuel/index.php/fuel/logs/items` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?module=users&section=cpanel&page=list` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/context/%2e/WEB-INF/web.xml` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/export` | Low
+10 | File | `/fuel/index.php/fuel/logs/items` | High
+11 | File | `/fuel/sitevariables/delete/4` | High
 12 | File | `/mgmt/tm/util/bash` | High
 13 | File | `/monitoring` | Medium
 14 | File | `/new` | Low
@@ -88,19 +88,17 @@ ID | Type | Indicator | Confidence
 23 | File | `/uncpath/` | Medium
 24 | File | `/upload/catalog/controller/account/password.php` | High
 25 | File | `/usr/bin/pkexec` | High
-26 | File | `/var/lib/docker/<remapping>` | High
-27 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `AccountManagerService.java` | High
-31 | File | `actions/CompanyDetailsSave.php` | High
-32 | File | `ActiveServices.java` | High
-33 | File | `ActivityManagerService.java` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-36 | ... | ... | ...
+26 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `AccountManagerService.java` | High
+30 | File | `actions/CompanyDetailsSave.php` | High
+31 | File | `ActiveServices.java` | High
+32 | File | `ActivityManagerService.java` | High
+33 | File | `admin.php` | Medium
+34 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

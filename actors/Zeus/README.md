@@ -96,44 +96,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/syslog` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/cgi-bin` | Medium
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/login` | Low
-14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/new` | Low
-18 | File | `/objects/getImageMP4.php` | High
-19 | File | `/proc/<pid>/status` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/rom` | Low
-22 | File | `/scripts/killpvhost` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/redis.ds` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-31 | File | `/web/MCmsAction.java` | High
-32 | File | `/wp-admin` | Medium
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `AccountManagerService.java` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?module=users&section=cpanel&page=list` | High
+3 | File | `/admin/powerline` | High
+4 | File | `/admin/syslog` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/api/upload` | Medium
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/cgi-bin` | Medium
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/fudforum/adm/hlplist.php` | High
+13 | File | `/fuel/index.php/fuel/logs/items` | High
+14 | File | `/fuel/sitevariables/delete/4` | High
+15 | File | `/login` | Low
+16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/new` | Low
+20 | File | `/objects/getImageMP4.php` | High
+21 | File | `/proc/<pid>/status` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/scripts/killpvhost` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+28 | File | `/tmp` | Low
+29 | File | `/tmp/redis.ds` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+32 | File | `/web/MCmsAction.java` | High
+33 | File | `/wp-admin` | Medium
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

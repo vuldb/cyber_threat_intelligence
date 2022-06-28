@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -330,7 +330,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -338,34 +338,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit.php` | High
-2 | File | `/admin/new-content` | High
-3 | File | `/ad_js.php` | Medium
-4 | File | `/apps/acs-commons/content/page-compare.html` | High
-5 | File | `/backups/` | Medium
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/blog/blog.php` | High
-8 | File | `/cardo/api` | Medium
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/auth` | High
-11 | File | `/cgi-bin/luci/api/diagnose` | High
-12 | File | `/cgi-bin/luci/api/switch` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-mod/lookup.cgi` | High
-15 | File | `/edit-db.php` | Medium
-16 | File | `/etc/networkd-dispatcher` | High
-17 | File | `/fantasticblog/single.php` | High
-18 | File | `/goform/AdvSetLanIp` | High
-19 | File | `/goform/editassignment` | High
-20 | File | `/goform/form2IPQoSTcAdd` | High
-21 | File | `/goform/setDeviceSettings` | High
-22 | File | `/goform/setMacFilterCfg` | High
-23 | File | `/goform/SetNetControlList` | High
-24 | File | `/goform/setNetworkLan` | High
-25 | File | `/goform/setpptpservercfg` | High
-26 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin.php/pic/admin/lists/zhuan` | High
+3 | File | `/admin/?page=inmates/view_inmate` | High
+4 | File | `/admin/?page=system_info/contact_info` | High
+5 | File | `/admin/new-content` | High
+6 | File | `/admin/sign/out` | High
+7 | File | `/ad_js.php` | Medium
+8 | File | `/backups/` | Medium
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/cardo/api` | Medium
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/auth` | High
+13 | File | `/cgi-bin/luci/api/diagnose` | High
+14 | File | `/cgi-bin/luci/api/switch` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-mod/lookup.cgi` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/edit-db.php` | Medium
+19 | File | `/etc/networkd-dispatcher` | High
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/fantasticblog/single.php` | High
+22 | File | `/goform/AdvSetLanIp` | High
+23 | File | `/goform/editassignment` | High
+24 | File | `/goform/form2IPQoSTcAdd` | High
+25 | File | `/goform/saveParentControlInfo` | High
+26 | File | `/goform/setDeviceSettings` | High
+27 | File | `/goform/SetFirewallCfg` | High
+28 | File | `/goform/setMacFilterCfg` | High
+29 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

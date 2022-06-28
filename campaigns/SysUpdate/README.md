@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [AF](https://vuldb.com/?country.af)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,14 +54,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/config/getuser` | High
-3 | File | `/rapi/read_url` | High
-4 | File | `admin.php` | Medium
-5 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-6 | File | `album_portal.php` | High
-7 | File | `al_initialize.php` | High
+3 | File | `/lan.asp` | Medium
+4 | File | `/rapi/read_url` | High
+5 | File | `admin.php` | Medium
+6 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+7 | File | `album_portal.php` | High
 8 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

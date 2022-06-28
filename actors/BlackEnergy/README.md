@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackEnergy:
 
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [UA](https://vuldb.com/?country.ua)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,21 +50,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/BRS_netgear_success.html` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `/usr/bin/pkexec` | High
-4 | File | `/var/log/nginx` | High
-5 | File | `/webapps/blogs-journals/execute/editBlogEntry` | High
-6 | File | `/wordpress/wp-admin/admin.php` | High
-7 | File | `/wp-json` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `add.php` | Low
-10 | File | `add.php/del.php` | High
-11 | File | `add_comment.php` | High
-12 | File | `admin/adminsignin.html` | High
-13 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?module=users&section=cpanel&page=list` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/powerline` | High
+5 | File | `/admin/syslog` | High
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin` | Medium
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/new` | Low
+20 | File | `/proc/<pid>/status` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+25 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `AccountManagerService.java` | High
+33 | File | `actions/CompanyDetailsSave.php` | High
+34 | File | `ActiveServices.java` | High
+35 | File | `ActivityManagerService.java` | High
+36 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

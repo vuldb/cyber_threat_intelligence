@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,13 +54,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/pic/admin/type/pl_save` | High
-2 | File | `/example/editor` | High
-3 | File | `/members/view_member.php` | High
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/spip.php` | Medium
+2 | File | `/churchcrm/WhyCameEditor.php` | High
+3 | File | `/example/editor` | High
+4 | File | `/goform/aspForm` | High
+5 | File | `/members/view_member.php` | High
 6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

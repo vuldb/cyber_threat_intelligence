@@ -98,30 +98,30 @@ ID | Type | Indicator | Confidence
 24 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
 25 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
 26 | File | `/uncpath/` | Medium
-27 | File | `/var/log/pcp/configs.sh` | High
-28 | File | `/webconsole/APIController` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-31 | File | `a-b-membres.php` | High
-32 | File | `action.php` | Medium
-33 | File | `admin-search.php` | High
-34 | File | `admin.jcomments.php` | High
-35 | File | `admin/adminsignin.html` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/infoclass_update.php` | High
-38 | File | `admin/plugin.php` | High
-39 | File | `admin/versions.html` | High
-40 | File | `administrator/index.php?option=com_pago&view=comments` | High
-41 | File | `Adminlog.asp` | Medium
-42 | File | `admin_iplog.php` | High
-43 | File | `ajax.php` | Medium
-44 | File | `ajax_admin_apis.php` | High
-45 | File | `ajax_php_pecl.php` | High
-46 | File | `allocate_block.cpp` | High
-47 | File | `api.cc` | Low
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/var/log/pcp/configs.sh` | High
+29 | File | `/webconsole/APIController` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+32 | File | `a-b-membres.php` | High
+33 | File | `action.php` | Medium
+34 | File | `admin-search.php` | High
+35 | File | `admin.jcomments.php` | High
+36 | File | `admin/adminsignin.html` | High
+37 | File | `admin/index.php` | High
+38 | File | `admin/infoclass_update.php` | High
+39 | File | `admin/plugin.php` | High
+40 | File | `admin/versions.html` | High
+41 | File | `administrator/index.php?option=com_pago&view=comments` | High
+42 | File | `Adminlog.asp` | Medium
+43 | File | `admin_iplog.php` | High
+44 | File | `ajax.php` | Medium
+45 | File | `ajax_admin_apis.php` | High
+46 | File | `ajax_php_pecl.php` | High
+47 | File | `allocate_block.cpp` | High
 48 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

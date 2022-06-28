@@ -74,13 +74,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/auth/session` | High
 3 | File | `/concat?/%2557EB-INF/web.xml` | High
 4 | File | `/download` | Medium
-5 | File | `/drivers/infiniband/core/cm.c` | High
-6 | File | `/files.md5` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/inc/extensions.php` | High
-11 | File | `/inc/parser/xhtml.php` | High
+5 | File | `/files.md5` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/images/` | Medium
+9 | File | `/inc/extensions.php` | High
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/lists/index.php` | High
 12 | File | `/login` | Low
 13 | File | `/modules/profile/index.php` | High
 14 | File | `/nova/bin/console` | High
@@ -107,7 +107,7 @@ ID | Type | Indicator | Confidence
 35 | File | `adclick.php` | Medium
 36 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

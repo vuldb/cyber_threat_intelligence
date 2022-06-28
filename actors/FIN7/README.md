@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 22 more country items available. Please use our online service to access the data.
@@ -94,53 +94,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin_page/all-files-update-ajax.php` | High
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/bcms/admin/?page=user/list` | High
-4 | File | `/bsms/?page=products` | High
-5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/dms/admin/reports/daily_collection_report.php` | High
-10 | File | `/ext/phar/phar_object.c` | High
-11 | File | `/filemanager/php/connector.php` | High
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/info.cgi` | Medium
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/modx/manager/index.php` | High
-17 | File | `/proc/<pid>/status` | High
-18 | File | `/public/login.htm` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/replication` | Medium
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-24 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-31 | File | `/Wedding-Management/package_detail.php` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `802dot1xclientcert.cgi` | High
-34 | File | `a2billing/customer/iridium_threed.php` | High
-35 | File | `AccountManagerService.java` | High
-36 | File | `actions/CompanyDetailsSave.php` | High
-37 | File | `ActivityManagerService.java` | High
-38 | File | `add.exe` | Low
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?m=Food&a=addsave` | High
-41 | File | `admin/add-glossary.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/edit-comments.php` | High
-44 | File | `admin/index.php` | High
+1 | File | `.htaccess` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin_page/all-files-update-ajax.php` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/bsms/?page=products` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/system_mgr.cgi` | High
+10 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/dms/admin/reports/daily_collection_report.php` | High
+14 | File | `/ext/phar/phar_object.c` | High
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/info.cgi` | Medium
+20 | File | `/lists/admin/` | High
+21 | File | `/MagickCore/image.c` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/modx/manager/index.php` | High
+24 | File | `/proc/<pid>/status` | High
+25 | File | `/public/login.htm` | High
+26 | File | `/public/plugins/` | High
+27 | File | `/replication` | Medium
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+31 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/bin/pkexec` | High
+36 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+37 | File | `/Wedding-Management/package_detail.php` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `802dot1xclientcert.cgi` | High
+40 | File | `a2billing/customer/iridium_threed.php` | High
+41 | File | `AccountManagerService.java` | High
+42 | File | `actions/CompanyDetailsSave.php` | High
+43 | File | `ActiveServices.java` | High
+44 | File | `ActivityManagerService.java` | High
 45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

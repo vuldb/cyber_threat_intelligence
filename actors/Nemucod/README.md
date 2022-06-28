@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nemucod:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [24.96.108.157](https://vuldb.com/?ip.24.96.108.157) | static-24-96-108-157.knology.net | - | High
 2 | [61.134.39.188](https://vuldb.com/?ip.61.134.39.188) | - | - | High
-3 | [133.30.115.97](https://vuldb.com/?ip.133.30.115.97) | - | - | High
-4 | ... | ... | ... | ...
+3 | [62.173.145.104](https://vuldb.com/?ip.62.173.145.104) | sadovaya-mebel.com | - | High
+4 | [76.73.17.194](https://vuldb.com/?ip.76.73.17.194) | - | - | High
+5 | [78.129.150.54](https://vuldb.com/?ip.78.129.150.54) | - | - | High
+6 | [82.192.94.125](https://vuldb.com/?ip.82.192.94.125) | - | - | High
+7 | [85.93.145.251](https://vuldb.com/?ip.85.93.145.251) | mail.boanywhere.com | - | High
+8 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,50 +51,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/syslog` | High
-4 | File | `/api/upload` | Medium
-5 | File | `/cgi-bin` | Medium
-6 | File | `/cgi-bin/kerbynet` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/dcim/sites/add/` | High
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/login` | Low
-13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/new` | Low
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rom` | Low
-20 | File | `/scripts/killpvhost` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/redis.ds` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/ViewUserHover.jspa` | High
-28 | File | `/wp-admin` | Medium
-29 | File | `/wp-json/wc/v3/webhooks` | High
-30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-31 | File | `AccountManagerService.java` | High
-32 | File | `actions/CompanyDetailsSave.php` | High
-33 | File | `ActiveServices.java` | High
-34 | File | `ActivityManagerService.java` | High
-35 | File | `addlink.php` | Medium
-36 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+3 | File | `/admin-panel1.php` | High
+4 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/car-rental-management-system/admin/manage_user.php` | High
+9 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/ctpms/admin/?page=applications/view_application` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/extensionsinstruction` | High
+15 | File | `/fuel/index.php/fuel/logs/items` | High
+16 | File | `/fuel/sitevariables/delete/4` | High
+17 | File | `/ifs` | Low
+18 | File | `/include/chart_generator.php` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/mtms/admin/?page=transaction/send` | High
+22 | File | `/new` | Low
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/login.htm` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/question/ask` | High
+27 | File | `/reps/admin/?page=agents/manage_agent` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+31 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+32 | File | `/student-grading-system/rms.php?page=school_year` | High
+33 | File | `/tmp` | Low
+34 | File | `/tos/index.php?app/del` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+37 | File | `/wordpress-gallery-transformation/gallery.php` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2018/12/threat-roundup-1207-1214.html
+* https://blog.talosintelligence.com/2019/05/threat-roundup-0524-0531.html
 * https://isc.sans.edu/forums/diary/NemucodAES+and+the+malspam+that+distributes+it/22614/
 * https://unit42.paloaltonetworks.com/unit42-practice-makes-perfect-nemucod-evolves-delivery-obfuscation-techniques-harvest-credentials/
 

@@ -87,29 +87,30 @@ ID | Type | Indicator | Confidence
 9 | File | `/modules/profile/index.php` | High
 10 | File | `/one_church/userregister.php` | High
 11 | File | `/out.php` | Medium
-12 | File | `/public/plugins/` | High
-13 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-18 | File | `/system/proxy` | High
-19 | File | `/tmp/phpglibccheck` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/v2/quantum/save-data-upload-big-file` | High
-22 | File | `4.edu.php` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `add.php` | Low
-25 | File | `addentry.php` | Medium
-26 | File | `addressbookprovider.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin/pageUploadCSV.php` | High
-29 | File | `ajax_udf.php` | Medium
-30 | File | `AppCompatCache.exe` | High
-31 | File | `application.js.php` | High
-32 | ... | ... | ...
+12 | File | `/owa/auth/logon.aspx` | High
+13 | File | `/public/plugins/` | High
+14 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+19 | File | `/system/proxy` | High
+20 | File | `/tmp/phpglibccheck` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/v2/quantum/save-data-upload-big-file` | High
+23 | File | `4.edu.php` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `add.php` | Low
+26 | File | `addentry.php` | Medium
+27 | File | `addressbookprovider.php` | High
+28 | File | `admin.jcomments.php` | High
+29 | File | `admin/pageUploadCSV.php` | High
+30 | File | `ajax_udf.php` | Medium
+31 | File | `AppCompatCache.exe` | High
+32 | File | `application.js.php` | High
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

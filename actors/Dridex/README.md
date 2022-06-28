@@ -146,19 +146,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/syslog` | High
-4 | File | `/api` | Low
-5 | File | `/api/upload` | Medium
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/cgi-bin` | Medium
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/fudforum/adm/hlplist.php` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?module=users&section=cpanel&page=list` | High
+3 | File | `/admin/powerline` | High
+4 | File | `/admin/syslog` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/api` | Low
+7 | File | `/api/upload` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/cgi-bin` | Medium
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/debug/pprof` | Medium
 12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/login` | Low
+13 | File | `/fuel/sitevariables/delete/4` | High
 14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 15 | File | `/mgmt/tm/util/bash` | High
 16 | File | `/monitoring` | Medium
@@ -181,10 +181,9 @@ ID | Type | Indicator | Confidence
 33 | File | `AccountManagerService.java` | High
 34 | File | `actions/CompanyDetailsSave.php` | High
 35 | File | `ActiveServices.java` | High
-36 | File | `ActivityManagerService.java` | High
-37 | ... | ... | ...
+36 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

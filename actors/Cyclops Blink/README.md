@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1548.002 | CWE-285 | Improper Authorization | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,17 +49,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/tmp` | Low
-3 | File | `AbstractController.php` | High
-4 | File | `ActBar.ocx` | Medium
-5 | File | `add_ons.php` | Medium
-6 | File | `admin.comms.php` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/bad.php` | High
-9 | ... | ... | ...
+1 | File | `/doorgets/app/views/ajax/commentView.php` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/tmp` | Low
+4 | File | `AbstractController.php` | High
+5 | File | `ActBar.ocx` | Medium
+6 | File | `add_ons.php` | Medium
+7 | File | `admin.comms.php` | High
+8 | File | `admin.php` | Medium
+9 | File | `admin/bad.php` | High
+10 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

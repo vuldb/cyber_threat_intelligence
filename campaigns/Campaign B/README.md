@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign B:
 
 * [NZ](https://vuldb.com/?country.nz)
-* [RU](https://vuldb.com/?country.ru)
 * [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -62,38 +62,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-3 | File | `/adminzone/index.php?page=admin-commandr` | High
-4 | File | `/admin_giant/` | High
-5 | File | `/admin_giant/add_gallery.php` | High
-6 | File | `/admin_giant/add_team_member.php` | High
-7 | File | `/ajax/networking/get_netcfg.php` | High
-8 | File | `/ApplicationBanner` | High
-9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-10 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-11 | File | `/config/getuser` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/login` | Low
+1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+2 | File | `/adminzone/index.php?page=admin-commandr` | High
+3 | File | `/admin_giant/` | High
+4 | File | `/admin_giant/add_gallery.php` | High
+5 | File | `/admin_giant/add_team_member.php` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/ApplicationBanner` | High
+8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+9 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
+10 | File | `/config/getuser` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/login` | Low
+14 | File | `/mgmt/tm/util/bash` | High
 15 | File | `/panel/uploads` | High
 16 | File | `/probe?target` | High
-17 | File | `/Side.php` | Medium
-18 | File | `/start_apply.htm` | High
-19 | File | `/tmp` | Low
-20 | File | `/tmp/app/.env` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/uploads/exam_question/` | High
-23 | File | `/usr/local/www/pkg.php` | High
-24 | File | `/var/log/nginx` | High
-25 | File | `/vdesk` | Low
-26 | File | `/zm/index.php` | High
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `ActivityManagerService.java` | High
-29 | File | `admin.comms.php` | High
+17 | File | `/product.php` | Medium
+18 | File | `/Side.php` | Medium
+19 | File | `/start_apply.htm` | High
+20 | File | `/tmp` | Low
+21 | File | `/tmp/app/.env` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/uploads/exam_question/` | High
+24 | File | `/usr/local/www/pkg.php` | High
+25 | File | `/var/log/nginx` | High
+26 | File | `/vdesk` | Low
+27 | File | `/zm/index.php` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `ActivityManagerService.java` | High
 30 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

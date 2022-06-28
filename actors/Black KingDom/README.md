@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [AR](https://vuldb.com/?country.ar)
+* [PT](https://vuldb.com/?country.pt)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,46 +47,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-2 | File | `/admin.php?r=admin/AdminBackup/del` | High
-3 | File | `/admin/edit.php` | High
-4 | File | `/admin/goods/update` | High
-5 | File | `/admin/inbox.php&action=delete` | High
-6 | File | `/admin/inbox.php&action=read` | High
-7 | File | `/admin/pagerole.php&action=edit` | High
-8 | File | `/admin/posts.php` | High
-9 | File | `/admin/posts.php&action=delete` | High
-10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-11 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-12 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-13 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-14 | File | `/admin/uesrs.php&action=display&value=Show` | High
-15 | File | `/admin/uesrs.php&action=type&userrole=User` | High
-16 | File | `/administrator/alerts/alertLightbox.php` | High
-17 | File | `/api/eventinstance` | High
-18 | File | `/appliance/users?action=edit` | High
-19 | File | `/apps/acs-commons/content/page-compare.html` | High
-20 | File | `/blog/blog.php` | High
-21 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-22 | File | `/cmd?cmd=connect` | High
-23 | File | `/coreframe/app/member/admin/group.php` | High
-24 | File | `/cwms/admin/?page=articles/view_article/` | High
-25 | File | `/cwms/classes/Master.php?f=save_contact` | High
-26 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-27 | File | `/etc/zarafa/license` | High
-28 | File | `/goform/login_process` | High
-29 | File | `/goform/setpptpservercfg` | High
-30 | File | `/hocms/classes/Master.php?f=delete_member` | High
-31 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-32 | File | `/include/make.php` | High
-33 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-34 | File | `/jpg/image.jpg` | High
-35 | File | `/login` | Low
-36 | File | `/manager/files` | High
-37 | File | `/module/api.php?mobile/wapNasIPS` | High
-38 | ... | ... | ...
+1 | File | `../FILEDIR` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin.php/Label/js_del` | High
+4 | File | `/admin.php/Label/page_del` | High
+5 | File | `/admin.php/Links/del` | High
+6 | File | `/admin.php/news/admin/news/save` | High
+7 | File | `/admin.php/pic/admin/lists/zhuan` | High
+8 | File | `/admin.php/pic/admin/type/del` | High
+9 | File | `/admin.php/pic/admin/type/hy` | High
+10 | File | `/admin.php/singer/admin/singer/hy` | High
+11 | File | `/admin.php/User/level_sort` | High
+12 | File | `/admin.php/user/zu_del` | High
+13 | File | `/bcms/admin/?page=court_rentals/view_court_rental` | High
+14 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
+15 | File | `/bcms/admin/?page=sales/view_details` | High
+16 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+17 | File | `/bcms/admin/?page=user/manage_user` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/kerbynet` | High
+20 | File | `/checklogin.jsp` | High
+21 | File | `/churchcrm/WhyCameEditor.php` | High
+22 | File | `/classes/master.php?f=delete_facility` | High
+23 | File | `/controller/OnlinePreviewController.java` | High
+24 | File | `/course/api/upload/pic` | High
+25 | File | `/ctpms/classes/Users.php?f=save` | High
+26 | File | `/defaultui/player/modern.html` | High
+27 | File | `/dms/admin/reports/daily_collection_report.php` | High
+28 | File | `/ecrire` | Low
+29 | File | `/goform/aspForm` | High
+30 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+31 | File | `/home/jobfairol/resumelist` | High
+32 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

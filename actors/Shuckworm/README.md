@@ -56,18 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/error` | Low
-2 | File | `/forum/away.php` | High
-3 | File | `/gena.cgi` | Medium
-4 | File | `/login` | Low
-5 | File | `/php/ajax.php` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-8 | File | `/see_more_details.php` | High
-9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+1 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+2 | File | `/error` | Low
+3 | File | `/forum/away.php` | High
+4 | File | `/gena.cgi` | Medium
+5 | File | `/login` | Low
+6 | File | `/php/ajax.php` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+9 | File | `/see_more_details.php` | High
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

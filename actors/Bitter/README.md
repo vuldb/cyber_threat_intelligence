@@ -60,9 +60,10 @@ ID | Type | Indicator | Confidence
 11 | File | `admin.cgi` | Medium
 12 | File | `admin/category.inc.php` | High
 13 | File | `admin/vqmods.app/vqmods.inc.php` | High
-14 | ... | ... | ...
+14 | File | `auth2-gss.c` | Medium
+15 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

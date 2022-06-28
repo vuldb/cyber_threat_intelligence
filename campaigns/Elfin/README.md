@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,16 +81,16 @@ ID | Type | Indicator | Confidence
 19 | File | `/orms/` | Low
 20 | File | `/plesk-site-preview/` | High
 21 | File | `/public/login.htm` | High
-22 | File | `/show_news.php` | High
-23 | File | `/student-grading-system/rms.php?page=grade` | High
-24 | File | `/style/` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `ABuffer.cpp` | Medium
-27 | File | `account.asp` | Medium
-28 | File | `adclick.php` | Medium
+22 | File | `/school/model/get_admin_profile.php` | High
+23 | File | `/show_news.php` | High
+24 | File | `/student-grading-system/rms.php?page=grade` | High
+25 | File | `/style/` | Low
+26 | File | `/timeline2.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `ABuffer.cpp` | Medium
 29 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

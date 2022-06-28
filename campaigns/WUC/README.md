@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,7 +68,7 @@ ID | Type | Indicator | Confidence
 5 | File | `/setSystemAdmin` | High
 6 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

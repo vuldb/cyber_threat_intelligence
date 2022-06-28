@@ -54,15 +54,16 @@ ID | Type | Indicator | Confidence
 8 | File | `/ofrs/admin/?page=requests/view_request` | High
 9 | File | `/services/details.asp` | High
 10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-11 | File | `/_core/profile/` | High
-12 | File | `adclick.php` | Medium
-13 | File | `additem.asp` | Medium
-14 | File | `addsite.php` | Medium
-15 | File | `admin/review.php` | High
-16 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
-17 | ... | ... | ...
+11 | File | `/user/dls_download.php` | High
+12 | File | `/_core/profile/` | High
+13 | File | `adclick.php` | Medium
+14 | File | `additem.asp` | Medium
+15 | File | `addsite.php` | Medium
+16 | File | `admin/review.php` | High
+17 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

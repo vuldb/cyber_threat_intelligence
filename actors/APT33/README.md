@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
-* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.
@@ -68,41 +68,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../FILEDIR` | Medium
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/admin.php/pic/admin/lists/zhuan` | High
-5 | File | `/admin.php/pic/admin/type/save` | High
-6 | File | `/admin.php/singer/admin/lists/zhuan` | High
-7 | File | `/admin.php/singer/admin/singer/del` | High
-8 | File | `/admin/?page=system_info/contact_info` | High
-9 | File | `/admin/add_post.php` | High
+2 | File | `/admin.php/pic/admin/lists/zhuan` | High
+3 | File | `/admin.php/pic/admin/type/save` | High
+4 | File | `/admin.php/singer/admin/lists/zhuan` | High
+5 | File | `/admin.php/singer/admin/singer/del` | High
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/add_post.php` | High
+8 | File | `/admin/conferences/list/` | High
+9 | File | `/admin/dl_sendmail.php` | High
 10 | File | `/admin/dl_sendsms.php` | High
-11 | File | `/Ap4RtpAtom.cpp` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/asms/classes/Master.php?f=save_product` | High
-14 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
-15 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-16 | File | `/car-rental-management-system/admin/manage_user.php` | High
-17 | File | `/cardo/api` | Medium
-18 | File | `/cgi-bin` | Medium
-19 | File | `/cgi-bin/login.cgi` | High
-20 | File | `/checklogin.jsp` | High
-21 | File | `/cms/admin/?page=invoice/view_invoice` | High
-22 | File | `/cms/classes/Master.php?f=delete_invoice` | High
-23 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-24 | File | `/ctpms/admin/applications/update_status.php` | High
-25 | File | `/ctpms/classes/Users.php?f=save` | High
-26 | File | `/dms/admin/reports/daily_collection_report.php` | High
-27 | File | `/expense_action.php` | High
-28 | File | `/food/admin/all_users.php` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/form2Dhcpip` | High
-31 | File | `/goform/RgDhcp` | High
-32 | File | `/goform/RgUrlBlock.asp` | High
-33 | File | `/goform/saveParentControlInfo` | High
-34 | ... | ... | ...
+11 | File | `/admin/featured.php` | High
+12 | File | `/admin/general.cgi` | High
+13 | File | `/admin/general/change-lang` | High
+14 | File | `/admin/renewaldue.php` | High
+15 | File | `/admin/showbad.php` | High
+16 | File | `/admin/ztliuyan_sendmail.php` | High
+17 | File | `/Ap4RtpAtom.cpp` | High
+18 | File | `/api/programs/orgUnits?programs` | High
+19 | File | `/asms/classes/Master.php?f=save_product` | High
+20 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
+21 | File | `/bsms/?page=manage_account` | High
+22 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+23 | File | `/car-rental-management-system/admin/manage_user.php` | High
+24 | File | `/cardo/api` | Medium
+25 | File | `/cgi-bin` | Medium
+26 | File | `/checklogin.jsp` | High
+27 | File | `/ctpms/classes/Users.php?f=save` | High
+28 | File | `/dashboard/blocks/stacks/view_details/` | High
+29 | File | `/expense_action.php` | High
+30 | File | `/ffos/admin/sales/receipt.php` | High
+31 | File | `/food/admin/all_users.php` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/goform/RgDhcp` | High
+34 | File | `/goform/RgUrlBlock.asp` | High
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

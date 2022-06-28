@@ -97,7 +97,7 @@ ID | Type | Indicator | Confidence
 39 | File | `app/admin/controller/themecontroller.php` | High
 40 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

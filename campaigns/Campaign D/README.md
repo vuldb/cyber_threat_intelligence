@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,35 +65,36 @@ ID | Type | Indicator | Confidence
 1 | File | `/.htpasswd` | Medium
 2 | File | `//etc/RT2870STA.dat` | High
 3 | File | `/cgi-bin/login_action.cgi` | High
-4 | File | `/download` | Medium
-5 | File | `/etc/tomcat8/Catalina/attack` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/modules/registration_admission/patient_register.php` | High
-10 | File | `/news.dtl.php` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/rest/api/2/user/picker` | High
-14 | File | `/scripts/iisadmin/bdir.htr` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/ViewUserHover.jspa` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `/wp-json/oembed/1.0/embed?url` | High
-23 | File | `5.2.9\syscrb.exe` | High
-24 | File | `ad.cgi` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `add-category.php` | High
-27 | File | `add_comment.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/config/confmgr.php` | High
-30 | ... | ... | ...
+4 | File | `/data/vendor/tcl` | High
+5 | File | `/download` | Medium
+6 | File | `/etc/tomcat8/Catalina/attack` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/modules/registration_admission/patient_register.php` | High
+11 | File | `/news.dtl.php` | High
+12 | File | `/public/plugins/` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/rest/api/2/user/picker` | High
+15 | File | `/scripts/iisadmin/bdir.htr` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/ViewUserHover.jspa` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `/wp-json/oembed/1.0/embed?url` | High
+25 | File | `5.2.9\syscrb.exe` | High
+26 | File | `ad.cgi` | Low
+27 | File | `adclick.php` | Medium
+28 | File | `add-category.php` | High
+29 | File | `add_comment.php` | High
+30 | File | `admin.php` | Medium
+31 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

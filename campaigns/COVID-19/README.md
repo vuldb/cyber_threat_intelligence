@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -156,7 +156,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -166,36 +166,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/Ap4RtpAtom.cpp` | High
-4 | File | `/api/crontab` | Medium
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-8 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-9 | File | `/current_action.php?action=reboot` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/config/image_sign` | High
-12 | File | `/etc/quagga` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/IISADMPWD` | Medium
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/rest/api/latest/projectvalidate/key` | High
-19 | File | `/rest/api/latest/user/avatar/temporary` | High
-20 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-23 | File | `/src/njs/src/njs_module.c` | High
-24 | File | `/tmp/app/.env` | High
-25 | File | `/ubus/uci.apply` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/user-utils/users/md5.json` | High
-28 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-29 | File | `4.edu.php` | Medium
-30 | ... | ... | ...
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/api/crontab` | Medium
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/ATL/VQ23` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+11 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+12 | File | `/churchcrm/WhyCameEditor.php` | High
+13 | File | `/current_action.php?action=reboot` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/config/image_sign` | High
+17 | File | `/etc/quagga` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/IISADMPWD` | Medium
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/phppath/php` | Medium
+25 | File | `/public/plugins/` | High
+26 | File | `/recreate.php` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+29 | File | `/sql/sql_string.h` | High
+30 | File | `/sql/sql_type.cc` | High
+31 | File | `/src/njs/src/njs_module.c` | High
+32 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -763,37 +763,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/advance_push/public/login` | High
-2 | File | `/bcms/admin/?page=user/list` | High
-3 | File | `/context/%2e/WEB-INF/web.xml` | High
-4 | File | `/fuel/index.php/fuel/logs/items` | High
-5 | File | `/mgmt/tm/util/bash` | High
-6 | File | `/monitoring` | Medium
-7 | File | `/new` | Low
-8 | File | `/proc/<pid>/status` | High
-9 | File | `/public/plugins/` | High
-10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-11 | File | `/secure/QueryComponent!Default.jspa` | High
-12 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/bin/pkexec` | High
-16 | File | `/WEB-INF/web.xml` | High
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `/wp-json/wc/v3/webhooks` | High
-19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-20 | File | `AccountManagerService.java` | High
-21 | File | `actions/CompanyDetailsSave.php` | High
-22 | File | `ActivityManagerService.java` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/add-glossary.php` | High
-25 | File | `admin/conf_users_edit.php` | High
-26 | File | `admin/controllers/Albumsgalleries.php` | High
-27 | File | `admin/edit-comments.php` | High
-28 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-29 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/advance_push/public/login` | High
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/context/%2e/WEB-INF/web.xml` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/fuel/index.php/fuel/logs/items` | High
+8 | File | `/fuel/sitevariables/delete/4` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/new` | Low
+12 | File | `/proc/<pid>/status` | High
+13 | File | `/public/plugins/` | High
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+17 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `AccountManagerService.java` | High
+26 | File | `actions/CompanyDetailsSave.php` | High
+27 | File | `ActiveServices.java` | High
+28 | File | `ActivityManagerService.java` | High
+29 | File | `admin.php` | Medium
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

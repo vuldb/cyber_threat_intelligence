@@ -42,7 +42,7 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [46.243.150.150](https://vuldb.com/?ip.46.243.150.150) | - | - | High
 20 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 77 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,25 +63,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-4 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-5 | File | `/etc/gsissh/sshd_config` | High
-6 | File | `/redpass.cgi` | Medium
-7 | File | `/server-status` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/var/log/nginx` | High
-10 | File | `/WebMstr7/servlet/mstrWeb` | High
-11 | File | `/wp-admin/admin-ajax.php` | High
-12 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin/conf_users_edit.php` | High
-15 | File | `admin/editusertag.php` | High
-16 | File | `admin/login.asp` | High
-17 | ... | ... | ...
+1 | File | `.cfm` | Low
+2 | File | `/admin/login.php` | High
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+5 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+6 | File | `/etc/gsissh/sshd_config` | High
+7 | File | `/redpass.cgi` | Medium
+8 | File | `/see_more_details.php` | High
+9 | File | `/server-status` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/var/log/nginx` | High
+12 | File | `/WebMstr7/servlet/mstrWeb` | High
+13 | File | `/wp-admin/admin-ajax.php` | High
+14 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+15 | File | `adclick.php` | Medium
+16 | File | `admin.php` | Medium
+17 | File | `Admin/ADM_Pagina.php` | High
+18 | File | `admin/conf_users_edit.php` | High
+19 | ... | ... | ...
 
-There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,6 +108,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0423-0430.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
 * https://blogs.blackberry.com/en/2021/08/threat-thursday-dont-let-njrat-take-your-cheddar
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-20%20njRAT%20IOCs
 * https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/594/original/Network_IOCs_list_for_coverage.txt?1625657479
 
 ## Literature

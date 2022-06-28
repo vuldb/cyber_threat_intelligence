@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -69,31 +69,31 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin.php/vod/admin/topic/del` | High
 7 | File | `/admin/?page=system_info/contact_info` | High
 8 | File | `/admin/comn/service/update.json` | High
-9 | File | `/admin/dl_sendsms.php` | High
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/api/students/me/courses/` | High
-14 | File | `/Applications/Utilities/Terminal` | High
+9 | File | `/admin/dl_sendmail.php` | High
+10 | File | `/admin/dl_sendsms.php` | High
+11 | File | `/Ap4RtpAtom.cpp` | High
+12 | File | `/api/part_categories` | High
+13 | File | `/api/programs/orgUnits?programs` | High
+14 | File | `/api/students/me/courses/` | High
 15 | File | `/asms/classes/Master.php?f=delete_product` | High
 16 | File | `/asms/classes/Master.php?f=save_product` | High
 17 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
 18 | File | `/bcms/admin/?page=user/list` | High
 19 | File | `/checklogin.jsp` | High
 20 | File | `/classes/master.php?f=delete_facility` | High
-21 | File | `/College_Management_System/admin/display-teacher.php` | High
-22 | File | `/ctpms/admin/?page=applications/view_application` | High
-23 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-24 | File | `/ctpms/admin/applications/update_status.php` | High
-25 | File | `/ctpms/admin/individuals/update_status.php` | High
-26 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/ecrire` | Low
-29 | File | `/fuel/index.php/fuel/logs/items` | High
-30 | File | `/fuel/sitevariables/delete/4` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/goform/saveParentControlInfo` | High
-33 | File | `/goform/SetClientState` | High
+21 | File | `/ctpms/admin/?page=applications/view_application` | High
+22 | File | `/ctpms/admin/applications/update_status.php` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/dl/dl_sendmail.php` | High
+25 | File | `/ecrire` | Low
+26 | File | `/fuel/index.php/fuel/logs/items` | High
+27 | File | `/fuel/sitevariables/delete/4` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/goform/saveParentControlInfo` | High
+30 | File | `/goform/SetClientState` | High
+31 | File | `/htdocs/cgibin` | High
+32 | File | `/hub/api/user` | High
+33 | File | `/includes/init.php` | High
 34 | ... | ... | ...
 
 There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

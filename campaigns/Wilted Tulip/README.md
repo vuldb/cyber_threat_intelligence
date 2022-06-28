@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
 * [ES](https://vuldb.com/?country.es)
+* [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,38 +69,40 @@ ID | Type | Indicator | Confidence
 1 | File | `/?module=fileman&section=get&page=grid` | High
 2 | File | `/admin.php/singer/admin/singer/hy` | High
 3 | File | `/admin.php/vod/admin/topic/del` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/modules/system/custom_field.php` | High
-6 | File | `/admin/new-content` | High
-7 | File | `/admin/weixin.php` | High
-8 | File | `/alerts/alertLightbox.php` | High
-9 | File | `/api /v3/auth` | High
-10 | File | `/apps/acs-commons/content/page-compare.html` | High
-11 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-12 | File | `/bcms/admin/courts/manage_court.php` | High
-13 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-14 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/cloud_config/router_post/upgrade_info` | High
-17 | File | `/cms/classes/Master.php?f=delete_client` | High
-18 | File | `/config` | Low
-19 | File | `/defaultui/player/modern.html` | High
-20 | File | `/gaia-job-admin/user/add` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/login_process` | High
-23 | File | `/goform/SetInternetLanInfo` | High
-24 | File | `/goform/setNetworkLan` | High
-25 | File | `/goform/setPicListItem` | High
-26 | File | `/goform/SetSysTimeCfg` | High
-27 | File | `/html/Solar_Ftp.php` | High
-28 | File | `/lists/admin/` | High
-29 | File | `/mngset/authset` | High
-30 | File | `/mtms/admin/?page=transaction/send` | High
-31 | File | `/ok_png.c` | Medium
-32 | File | `/one_church/userregister.php` | High
-33 | ... | ... | ...
+4 | File | `/admin/deluser.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/googleads.php` | High
+7 | File | `/admin/new-content` | High
+8 | File | `/admin/operations/tax.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/scheprofile.cgi` | High
+11 | File | `/admin/weixin.php` | High
+12 | File | `/apps/acs-commons/content/page-compare.html` | High
+13 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+14 | File | `/bcms/admin/courts/manage_court.php` | High
+15 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+16 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/classes/Users.php?f=save` | High
+19 | File | `/cms/classes/Master.php?f=delete_client` | High
+20 | File | `/config` | Low
+21 | File | `/defaultui/player/modern.html` | High
+22 | File | `/ffos/admin/categories/manage_category.php` | High
+23 | File | `/ffos/admin/menus/view_menu.php` | High
+24 | File | `/gaia-job-admin/user/add` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/login_process` | High
+27 | File | `/goform/setNetworkLan` | High
+28 | File | `/goform/SetSysTimeCfg` | High
+29 | File | `/html/Solar_Ftp.php` | High
+30 | File | `/lists/admin/` | High
+31 | File | `/mngset/authset` | High
+32 | File | `/mtms/admin/?page=transaction/send` | High
+33 | File | `/orrs/admin/trains/manage_train.php` | High
+34 | File | `/otps/classes/Master.php?f=delete_team` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,14 +30,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.183.178.181](https://vuldb.com/?ip.5.183.178.181) | - | [Calypso](https://vuldb.com/?actor.calypso) | High
-2 | [5.188.228.53](https://vuldb.com/?ip.5.188.228.53) | indppur1.example.com | [Calypso](https://vuldb.com/?actor.calypso) | High
-3 | [45.32.184.101](https://vuldb.com/?ip.45.32.184.101) | 45.32.184.101.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-4 | [45.63.114.127](https://vuldb.com/?ip.45.63.114.127) | 45.63.114.127.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-5 | [45.77.234.118](https://vuldb.com/?ip.45.77.234.118) | MPVWEP01.myphonevouchers.com.au | [Unknown](https://vuldb.com/?actor.unknown) | High
-6 | ... | ... | ... | ...
+1 | [2.228.150.86](https://vuldb.com/?ip.2.228.150.86) | 2-228-150-86.ip192.fastwebnet.it | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [2.229.68.182](https://vuldb.com/?ip.2.229.68.182) | 2-229-68-182.ip195.fastwebnet.it | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [5.183.178.181](https://vuldb.com/?ip.5.183.178.181) | - | [Calypso](https://vuldb.com/?actor.calypso) | High
+4 | [5.188.228.53](https://vuldb.com/?ip.5.188.228.53) | indppur1.example.com | [Calypso](https://vuldb.com/?actor.calypso) | High
+5 | [45.32.184.101](https://vuldb.com/?ip.45.32.184.101) | 45.32.184.101.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+6 | [45.63.114.127](https://vuldb.com/?ip.45.63.114.127) | 45.63.114.127.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,25 +59,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/user/manage/add` | High
-2 | File | `/export` | Low
-3 | File | `/iisadmin` | Medium
-4 | File | `/inc/parser/xhtml.php` | High
-5 | File | `/includes/lib/detail.php` | High
-6 | File | `/MIME/INBOX-MM-1/` | High
-7 | File | `/ptms/classes/Users.php` | High
-8 | File | `/public/plugins/` | High
-9 | File | `/scripts/iisadmin/bdir.htr` | High
-10 | File | `add_comment.php` | High
-11 | File | `admin/borrower/index.php?view=add` | High
-12 | ... | ... | ...
+1 | File | `/admin/template.php` | High
+2 | File | `/admin/user/manage/add` | High
+3 | File | `/export` | Low
+4 | File | `/iisadmin` | Medium
+5 | File | `/inc/parser/xhtml.php` | High
+6 | File | `/includes/lib/detail.php` | High
+7 | File | `/MIME/INBOX-MM-1/` | High
+8 | File | `/ptms/classes/Users.php` | High
+9 | File | `/public/plugins/` | High
+10 | File | `/rest/api/1.0/render` | High
+11 | File | `/scripts/iisadmin/bdir.htr` | High
+12 | File | `add_comment.php` | High
+13 | ... | ... | ...
 
-There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.google/threat-analysis-group/italian-spyware-vendor-targets-users-in-italy-and-kazakhstan/
 * https://news.drweb.com/show/?i=14451
 * https://st.drweb.co.jp/static/new-www/news/2020/july/Study_of_the_APT_attacks_on_state_institutions_in_Kazakhstan_and_Kyrgyzstan_en.pdf
 * https://st.drweb.com/static/new-www/news/2022/march/telecom_research_en.pdf

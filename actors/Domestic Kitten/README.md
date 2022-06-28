@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Domestic Kitten:
 
 * [NL](https://vuldb.com/?country.nl)
-* [US](https://vuldb.com/?country.us)
 * [IR](https://vuldb.com/?country.ir)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -77,9 +77,10 @@ ID | Type | Indicator | Confidence
 28 | File | `admin\model\catalog\download.php` | High
 29 | File | `apcupsd.pid` | Medium
 30 | File | `api/sms/send-sms` | High
-31 | ... | ... | ...
+31 | File | `api/v1/alarms` | High
+32 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

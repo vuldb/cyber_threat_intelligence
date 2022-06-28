@@ -47,41 +47,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/acms/classes/Master.php?f=delete_img` | High
 4 | File | `/admin/?page=system_info/contact_info` | High
-5 | File | `/administrator/alerts/alertLightbox.php` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
 6 | File | `/api/part_categories` | High
-7 | File | `/api/students/me/messages/` | High
-8 | File | `/auditLogAction.do` | High
-9 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-10 | File | `/cgi-bin` | Medium
-11 | File | `/cgi-bin/luci/api/switch` | High
-12 | File | `/churchcrm/WhyCameEditor.php` | High
-13 | File | `/cms/admin/?page=client/view_client` | High
-14 | File | `/cms/admin/?page=invoice/view_invoice` | High
-15 | File | `/College_Management_System/admin/display-teacher.php` | High
-16 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-17 | File | `/ctpms/admin/applications/update_status.php` | High
-18 | File | `/ctpms/admin/individuals/update_status.php` | High
-19 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-20 | File | `/dict/list.do` | High
-21 | File | `/dms/admin/reports/daily_collection_report.php` | High
-22 | File | `/etc/cron.daily/upstart` | High
-23 | File | `/farm/store.php` | High
-24 | File | `/fuel/sitevariables/delete/4` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/setsambacfg` | High
-27 | File | `/index.php?page=reserve` | High
-28 | File | `/Items/*/RemoteImages/Download` | High
-29 | File | `/mdiy/dict/listExcludeApp` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/ofrs/admin/?page=reports` | High
-32 | File | `/PC/WebService.asmx` | High
-33 | File | `/RestAPI` | Medium
-34 | File | `/scas/classes/Users.php?f=save_user` | High
-35 | File | `/scbs/classes/Users.php?f=delete_client` | High
-36 | File | `/scripts/unlock_tasks.php` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+9 | File | `/cgi-bin` | Medium
+10 | File | `/cgi-bin/webproc` | High
+11 | File | `/churchcrm/WhyCameEditor.php` | High
+12 | File | `/cms/admin/?page=client/view_client` | High
+13 | File | `/cms/admin/?page=invoice/view_invoice` | High
+14 | File | `/College_Management_System/admin/display-teacher.php` | High
+15 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+16 | File | `/ctpms/admin/applications/update_status.php` | High
+17 | File | `/ctpms/admin/individuals/update_status.php` | High
+18 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+19 | File | `/dms/admin/reports/daily_collection_report.php` | High
+20 | File | `/etc/cron.daily/upstart` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/IISADMPWD` | Medium
+24 | File | `/index.php?page=reserve` | High
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/job` | Low
+27 | File | `/linkedcontent/editfolder.php` | High
+28 | File | `/mdiy/dict/listExcludeApp` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/ofrs/admin/?page=reports` | High
+31 | File | `/PC/WebService.asmx` | High
+32 | File | `/pms/admin/inmates/manage_inmate.php` | High
+33 | File | `/scas/classes/Users.php?f=save_user` | High
+34 | File | `/scbs/classes/Users.php?f=delete_client` | High
+35 | File | `/school/model/get_events.php` | High
+36 | File | `/scms/student.php` | High
 37 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,7 +41,7 @@ ID | IP address | Hostname | Actor | Confidence
 5 | [45.76.84.233](https://vuldb.com/?ip.45.76.84.233) | 45.76.84.233.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
 6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,13 +121,14 @@ ID | Type | Indicator | Confidence
 57 | File | `blueprints/sections/edit/1` | High
 58 | ... | ... | ...
 
-There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://community.riskiq.com/article/e3a7ceea/indicators
+* https://ddanchev.blogspot.com/2008/02/inside-botnet-phishing-activities.html
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/M365_MFA_Phishing/HvS_M365_MFA_Phishing_2022-01_IOCs.csv
 * https://nsfocusglobal.com/apt-retrospection-lorec53-an-active-russian-hack-group-launched-phishing-attacks-against-georgian-government/
 * https://twitter.com/__0XYC__/status/1502593457201811459

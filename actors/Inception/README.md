@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Inception:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
+* [AR](https://vuldb.com/?country.ar)
 * [SV](https://vuldb.com/?country.sv)
-* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
@@ -40,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,34 +59,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/singer/admin/lists/zhuan` | High
 5 | File | `/admin.php/singer/admin/singer/hy` | High
 6 | File | `/admin.php?id=posts&action=display&value=1&postid=` | High
-7 | File | `/admin/inbox.php&action=read` | High
-8 | File | `/admin/news/news_mod.php` | High
-9 | File | `/admin/page_edit/3` | High
-10 | File | `/administrator/alerts/alertLightbox.php` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/api/students/me/courses/` | High
-14 | File | `/apps/acs-commons/content/page-compare.html` | High
-15 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-16 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-17 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-18 | File | `/blog/blog.php` | High
-19 | File | `/cgi-bin/luci/api/diagnose` | High
-20 | File | `/cgi-bin/main.cgi` | High
-21 | File | `/cgi-bin/uploadWeiXinPic` | High
+7 | File | `/admin/featured.php` | High
+8 | File | `/admin/general.cgi` | High
+9 | File | `/admin/inbox.php&action=read` | High
+10 | File | `/admin/usermanagement.php` | High
+11 | File | `/administrator/alerts/alertLightbox.php` | High
+12 | File | `/api/part_categories` | High
+13 | File | `/api/programs/orgUnits?programs` | High
+14 | File | `/api/students/me/courses/` | High
+15 | File | `/apps/acs-commons/content/page-compare.html` | High
+16 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+17 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+18 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+19 | File | `/blog/blog.php` | High
+20 | File | `/cgi-bin/luci/api/diagnose` | High
+21 | File | `/cgi-bin/main.cgi` | High
 22 | File | `/cgi-mod/lookup.cgi` | High
-23 | File | `/cms/classes/Master.php?f=delete_designation` | High
-24 | File | `/controller/Adv.php` | High
-25 | File | `/createnewaccount` | High
-26 | File | `/dev/urandom` | Medium
-27 | File | `/dvcset/sysset/set.cgi` | High
-28 | File | `/ecrire` | Low
-29 | File | `/etc/sudoers` | Medium
-30 | File | `/example/editor` | High
-31 | File | `/food/admin/all_users.php` | High
-32 | ... | ... | ...
+23 | File | `/cgi/ansi` | Medium
+24 | File | `/cms/classes/Master.php?f=delete_designation` | High
+25 | File | `/controller/Adv.php` | High
+26 | File | `/createnewaccount` | High
+27 | File | `/dashboard/blocks/stacks/view_details/` | High
+28 | File | `/dev/urandom` | Medium
+29 | File | `/dl/dl_sendmail.php` | High
+30 | File | `/dvcset/sysset/set.cgi` | High
+31 | File | `/ecrire` | Low
+32 | File | `/etc/sudoers` | Medium
+33 | File | `/example/editor` | High
+34 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -172,39 +172,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/about.php` | Medium
 3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
 4 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-5 | File | `/admin.php` | Medium
-6 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-7 | File | `/anony/mjpg.cgi` | High
-8 | File | `/Ap4RtpAtom.cpp` | High
-9 | File | `/api/students/me/messages/` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/AvalancheWeb/image` | High
-12 | File | `/bcms/admin/?page=user/list` | High
-13 | File | `/car-rental-management-system/admin/manage_user.php` | High
-14 | File | `/category.php` | High
-15 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-16 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/cgi-bin/login.cgi` | High
-19 | File | `/cgi-bin/luci/api/switch` | High
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-22 | File | `/cms/classes/Master.php?f=delete_invoice` | High
-23 | File | `/cms/classes/Users.php?f=delete` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/course/api/upload/pic` | High
-26 | File | `/ctpms/admin/individuals/update_status.php` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/fuel/index.php/fuel/logs/items` | High
-29 | File | `/fuel/sitevariables/delete/4` | High
-30 | File | `/getcfg.php` | Medium
-31 | File | `/goform/WifiExtraSet` | High
-32 | File | `/guest/s/default/` | High
-33 | File | `/hub/api/user` | High
-34 | File | `/include/chart_generator.php` | High
-35 | ... | ... | ...
+5 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+6 | File | `/anony/mjpg.cgi` | High
+7 | File | `/Ap4RtpAtom.cpp` | High
+8 | File | `/api/students/me/messages/` | High
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/car-rental-management-system/admin/manage_user.php` | High
+11 | File | `/category.php` | High
+12 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+13 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/cgi-bin/login.cgi` | High
+16 | File | `/cgi-bin/luci/api/switch` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cms/admin/?page=invoice/manage_invoice` | High
+19 | File | `/cms/classes/Master.php?f=delete_invoice` | High
+20 | File | `/cms/classes/Users.php?f=delete` | High
+21 | File | `/common/info.cgi` | High
+22 | File | `/course/api/upload/pic` | High
+23 | File | `/ctpms/admin/individuals/update_status.php` | High
+24 | File | `/dashboard/snapshot/*?orgId=0` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/fuel/index.php/fuel/logs/items` | High
+27 | File | `/fuel/sitevariables/delete/4` | High
+28 | File | `/getcfg.php` | Medium
+29 | File | `/goform/SetFirewallCfg` | High
+30 | File | `/goform/WifiExtraSet` | High
+31 | File | `/guest/s/default/` | High
+32 | File | `/hub/api/user` | High
+33 | File | `/include/chart_generator.php` | High
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/itop/webservices/export-v2.php` | High
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

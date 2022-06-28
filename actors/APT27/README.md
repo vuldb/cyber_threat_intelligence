@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,37 +67,38 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/shadow` | Medium
 7 | File | `/goform/telnet` | High
 8 | File | `/infusions/shoutbox_panel/shoutbox_admin.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/oscommerce/admin/currencies.php` | High
-11 | File | `/proc/pid/syscall` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/rom-0` | Low
-14 | File | `/session/list/allActiveSession` | High
-15 | File | `/syslog_rules` | High
-16 | File | `/tmp/phpglibccheck` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `/users/{id}` | Medium
-20 | File | `/var/tmp/sess_*` | High
-21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-22 | File | `/video` | Low
-23 | File | `actionphp/download.File.php` | High
-24 | File | `ActivityManagerService.java` | High
-25 | File | `adaptmap_reg.c` | High
-26 | File | `add_comment.php` | High
-27 | File | `admin.cgi` | Medium
-28 | File | `admin.php` | Medium
-29 | File | `admin.php?action=files` | High
-30 | File | `admin/admin.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-33 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-34 | File | `affich.php` | Medium
-35 | File | `agent/Core/Controller/SendRequest.cpp` | High
-36 | File | `album_portal.php` | High
-37 | ... | ... | ...
+9 | File | `/lan.asp` | Medium
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/oscommerce/admin/currencies.php` | High
+12 | File | `/proc/pid/syscall` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/rom-0` | Low
+15 | File | `/session/list/allActiveSession` | High
+16 | File | `/syslog_rules` | High
+17 | File | `/tmp/phpglibccheck` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/users/{id}` | Medium
+21 | File | `/var/tmp/sess_*` | High
+22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+23 | File | `/video` | Low
+24 | File | `actionphp/download.File.php` | High
+25 | File | `ActivityManagerService.java` | High
+26 | File | `adaptmap_reg.c` | High
+27 | File | `add_comment.php` | High
+28 | File | `admin.cgi` | Medium
+29 | File | `admin.php` | Medium
+30 | File | `admin.php?action=files` | High
+31 | File | `admin/admin.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+34 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+35 | File | `affich.php` | Medium
+36 | File | `agent/Core/Controller/SendRequest.cpp` | High
+37 | File | `album_portal.php` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

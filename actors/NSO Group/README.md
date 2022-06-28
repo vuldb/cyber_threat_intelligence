@@ -76,13 +76,13 @@ ID | Type | Indicator | Confidence
 14 | File | `/v2/devices/add` | High
 15 | File | `/var/ipfire/backup/bin/backup.pl` | High
 16 | File | `/wp-json/wc/v3/webhooks` | High
-17 | File | `adclick.php` | Medium
-18 | File | `AddEvent.php` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/scripts/FileUploader/php.php` | High
+17 | File | `accounts/view_details.php` | High
+18 | File | `adclick.php` | Medium
+19 | File | `AddEvent.php` | Medium
+20 | File | `admin.php` | Medium
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

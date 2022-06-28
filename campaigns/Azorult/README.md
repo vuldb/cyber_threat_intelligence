@@ -62,22 +62,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/administration/theme.php` | High
-3 | File | `/BindAccount/SuccessTips.js` | High
-4 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-5 | File | `/login.html` | Medium
-6 | File | `/medical/inventories.php` | High
-7 | File | `/pages.php` | Medium
-8 | File | `/uncpath/` | Medium
-9 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-10 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-11 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-12 | File | `abm.aspx` | Medium
-13 | File | `actions/ChangeConfiguration.html` | High
-14 | File | `adclick.php` | Medium
+2 | File | `/admin/deluser.php` | High
+3 | File | `/administration/theme.php` | High
+4 | File | `/BindAccount/SuccessTips.js` | High
+5 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+6 | File | `/login.html` | Medium
+7 | File | `/medical/inventories.php` | High
+8 | File | `/pages.php` | Medium
+9 | File | `/uncpath/` | Medium
+10 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+11 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+12 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+13 | File | `abm.aspx` | Medium
+14 | File | `actions/ChangeConfiguration.html` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

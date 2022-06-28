@@ -74,10 +74,9 @@ ID | Type | Indicator | Confidence
 20 | File | `/uncpath/` | Medium
 21 | File | `/usr/bin/at` | Medium
 22 | File | `/usr/bin/pkexec` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | ... | ... | ...
+23 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

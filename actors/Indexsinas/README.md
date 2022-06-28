@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [HK](https://vuldb.com/?country.hk)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,12 +287,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,37 +300,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-5 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/admin.php/news/admin/topic/save` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/api/RecordingList/DownloadRecord?file=` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-12 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-13 | File | `/cms/admin/?page=invoice/view_invoice` | High
-14 | File | `/cms/admin/?page=user/manage_user` | High
-15 | File | `/College_Management_System/admin/display-teacher.php` | High
-16 | File | `/ctpms/admin/?page=applications/view_application` | High
-17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-18 | File | `/ctpms/admin/applications/update_status.php` | High
-19 | File | `/ctpms/admin/individuals/update_status.php` | High
-20 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-21 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-22 | File | `/current_action.php?action=reboot` | High
-23 | File | `/etc/config/image_sign` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/help/treecontent.jsp` | High
-26 | File | `/IISADMPWD` | Medium
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/mtms/admin/?page=transaction/send` | High
-29 | ... | ... | ...
+1 | File | `/admin/deluser.php` | High
+2 | File | `/admin/dl_sendmail.php` | High
+3 | File | `/admin/general.cgi` | High
+4 | File | `/admin/scheprofile.cgi` | High
+5 | File | `/admin/showbad.php` | High
+6 | File | `/admin/usermanagement.php` | High
+7 | File | `/admin/ztliuyan_sendmail.php` | High
+8 | File | `/churchcrm/WhyCameEditor.php` | High
+9 | File | `/dashboard/snapshot/*?orgId=0` | High
+10 | File | `/data/vendor/tcl` | High
+11 | File | `/dl/dl_sendmail.php` | High
+12 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

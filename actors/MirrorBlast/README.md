@@ -56,15 +56,16 @@ ID | Type | Indicator | Confidence
 7 | File | `/html/repository` | High
 8 | File | `/modules/projects/vw_files.php` | High
 9 | File | `/nova/bin/console` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/services/config/config.xml` | High
-12 | File | `/services/system/setup.json` | High
-13 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/WEB-INF/web.xml` | High
-16 | ... | ... | ...
+10 | File | `/owa/auth/logon.aspx` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/services/config/config.xml` | High
+13 | File | `/services/system/setup.json` | High
+14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/WEB-INF/web.xml` | High
+17 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

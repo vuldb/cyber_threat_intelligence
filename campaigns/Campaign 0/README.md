@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,39 +82,44 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/login.php` | High
 9 | File | `/apply_noauth.cgi` | High
 10 | File | `/audit/log/log_management.php` | High
-11 | File | `/backup/lispbx-CONF-YYYY-MM-DD.tar` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/bin/sh` | Low
-14 | File | `/cgi-bin/login` | High
-15 | File | `/classes/profile.class.php` | High
-16 | File | `/dev/tty` | Medium
-17 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
-18 | File | `/downloads/` | Medium
-19 | File | `/IISADMPWD` | Medium
-20 | File | `/inc/session.php` | High
-21 | File | `/index.php` | Medium
+11 | File | `/bin/login` | Medium
+12 | File | `/bin/sh` | Low
+13 | File | `/cgi-bin/login` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dev/tty` | Medium
+16 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+17 | File | `/downloads/` | Medium
+18 | File | `/gaia-job-admin/user/add` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/login` | Low
+21 | File | `/login.html` | Medium
 22 | File | `/magnoliaPublic/travel/members/login.html` | High
 23 | File | `/member/index/login.html` | High
 24 | File | `/modules/certinfo/index.php` | High
-25 | File | `/post/editing` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/restful-services/publish` | High
+25 | File | `/rdms/admin/?page=user/manage_user` | High
+26 | File | `/requests.php` | High
+27 | File | `/saml/login` | Medium
 28 | File | `/ScadaBR/login.htm` | High
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/system/tool/ping.php` | High
-31 | File | `/upload` | Low
-32 | File | `/usr/bin/pkexec` | High
-33 | File | `?location=search` | High
-34 | File | `account/login.php` | High
-35 | File | `add.asp` | Low
-36 | File | `add.php` | Low
-37 | File | `admin.home.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.php?m=backup&c=backup&a=doback` | High
+29 | File | `/system/tool/ping.php` | High
+30 | File | `/upload` | Low
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/adm/btmp` | High
+33 | File | `account/login.php` | High
+34 | File | `ad/login.asp` | Medium
+35 | File | `add.php` | Low
+36 | File | `admin.inc.php` | High
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?m=backup&c=backup&a=doback` | High
+39 | File | `admin/admin_ping.php` | High
 40 | File | `admin/conf_users_edit.php` | High
-41 | ... | ... | ...
+41 | File | `admin/index.php` | High
+42 | File | `admin/login.asp` | High
+43 | File | `admin/login.php` | High
+44 | File | `admin/nos/login` | High
+45 | File | `admin/viewtheatre.php` | High
+46 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

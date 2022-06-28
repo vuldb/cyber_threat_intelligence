@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,68 +58,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin_page/all-files-update-ajax.php` | High
-3 | File | `/assets/ctx` | Medium
-4 | File | `/bsms/?page=products` | High
-5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-7 | File | `/concat?/%2557EB-INF/web.xml` | High
-8 | File | `/config/getuser` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/dms/admin/reports/daily_collection_report.php` | High
-11 | File | `/ext/phar/phar_object.c` | High
-12 | File | `/filemanager/php/connector.php` | High
-13 | File | `/get_getnetworkconf.cgi` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/include/chart_generator.php` | High
-16 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-17 | File | `/info.cgi` | Medium
-18 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/modx/manager/index.php` | High
-21 | File | `/osm/REGISTER.cmd` | High
-22 | File | `/replication` | Medium
-23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/type.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/Wedding-Management/package_detail.php` | High
-29 | File | `/zm/index.php` | High
-30 | File | `4.2.0.CP09` | Medium
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `802dot1xclientcert.cgi` | High
-33 | File | `a2billing/customer/iridium_threed.php` | High
-34 | File | `add.exe` | Low
-35 | File | `admin-ajax.php` | High
-36 | File | `admin.color.php` | High
-37 | File | `admin.cropcanvas.php` | High
-38 | File | `admin.joomlaradiov5.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?m=Food&a=addsave` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/index.php` | High
-43 | File | `admin/limits.php` | High
-44 | File | `admin/user.php` | High
-45 | File | `admin/write-post.php` | High
-46 | File | `administrator/components/com_media/helpers/media.php` | High
-47 | File | `admin_events.php` | High
-48 | File | `akocomments.php` | High
-49 | File | `allopass-error.php` | High
-50 | File | `announcement.php` | High
-51 | File | `app.php` | Low
-52 | File | `apply.cgi` | Medium
-53 | File | `appointment.php` | High
-54 | File | `archiver\index.php` | High
-55 | File | `artlinks.dispnew.php` | High
-56 | File | `auth.inc.php` | Medium
-57 | File | `authorization.do` | High
-58 | File | `bb_usage_stats.php` | High
-59 | File | `binder.c` | Medium
-60 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin_page/all-files-update-ajax.php` | High
+4 | File | `/assets/ctx` | Medium
+5 | File | `/bsms/?page=products` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/cgi-bin/system_mgr.cgi` | High
+8 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+9 | File | `/concat?/%2557EB-INF/web.xml` | High
+10 | File | `/config/getuser` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/dms/admin/reports/daily_collection_report.php` | High
+13 | File | `/ext/phar/phar_object.c` | High
+14 | File | `/filemanager/php/connector.php` | High
+15 | File | `/get_getnetworkconf.cgi` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+19 | File | `/info.cgi` | Medium
+20 | File | `/lists/admin/` | High
+21 | File | `/MagickCore/image.c` | High
+22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/modx/manager/index.php` | High
+25 | File | `/osm/REGISTER.cmd` | High
+26 | File | `/replication` | Medium
+27 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/type.php` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/Wedding-Management/package_detail.php` | High
+33 | File | `/zm/index.php` | High
+34 | File | `4.2.0.CP09` | Medium
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `802dot1xclientcert.cgi` | High
+37 | File | `a2billing/customer/iridium_threed.php` | High
+38 | File | `add.exe` | Low
+39 | File | `admin-ajax.php` | High
+40 | File | `admin.color.php` | High
+41 | File | `admin.cropcanvas.php` | High
+42 | File | `admin.joomlaradiov5.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin.php?m=Food&a=addsave` | High
+45 | File | `admin/conf_users_edit.php` | High
+46 | File | `admin/index.php` | High
+47 | File | `admin/limits.php` | High
+48 | File | `admin/user.php` | High
+49 | File | `admin/write-post.php` | High
+50 | File | `administrator/components/com_media/helpers/media.php` | High
+51 | File | `admin_events.php` | High
+52 | File | `akocomments.php` | High
+53 | File | `allopass-error.php` | High
+54 | File | `announcement.php` | High
+55 | File | `app.php` | Low
+56 | File | `apply.cgi` | Medium
+57 | File | `appointment.php` | High
+58 | ... | ... | ...
 
-There are 521 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

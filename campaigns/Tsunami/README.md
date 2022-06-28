@@ -77,26 +77,27 @@ ID | Type | Indicator | Confidence
 20 | File | `/include/makecvs.php` | High
 21 | File | `/includes/common.inc.php` | High
 22 | File | `/knomi/analyze` | High
-23 | File | `/out.php` | Medium
-24 | File | `/outgoing.php` | High
-25 | File | `/scripts/iisadmin/bdir.htr` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/csman/0` | Medium
-28 | File | `/ui/cbpc/login` | High
-29 | File | `/var/avamar/f_cache.dat` | High
-30 | File | `/var/hnap/timestamp` | High
-31 | File | `/var/run/storage_account_root` | High
-32 | File | `/webmail/` | Medium
-33 | File | `/wp-content/plugins/forum-server/feed.php` | High
-34 | File | `/{ADMIN-FILE}/` | High
-35 | File | `a2billing/customer/iridium_threed.php` | High
-36 | File | `address.html` | Medium
-37 | File | `adm/systools.asp` | High
-38 | File | `admin.php` | Medium
-39 | File | `administrador.asp` | High
-40 | ... | ... | ...
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/monitoring` | Medium
+25 | File | `/out.php` | Medium
+26 | File | `/outgoing.php` | High
+27 | File | `/scripts/iisadmin/bdir.htr` | High
+28 | File | `/tmp` | Low
+29 | File | `/tmp/csman/0` | Medium
+30 | File | `/ui/cbpc/login` | High
+31 | File | `/var/avamar/f_cache.dat` | High
+32 | File | `/var/hnap/timestamp` | High
+33 | File | `/var/run/storage_account_root` | High
+34 | File | `/webmail/` | Medium
+35 | File | `/wp-content/plugins/forum-server/feed.php` | High
+36 | File | `/{ADMIN-FILE}/` | High
+37 | File | `a2billing/customer/iridium_threed.php` | High
+38 | File | `address.html` | Medium
+39 | File | `adm/systools.asp` | High
+40 | File | `admin.php` | Medium
+41 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

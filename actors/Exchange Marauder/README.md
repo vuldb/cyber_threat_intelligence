@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KR](https://vuldb.com/?country.kr)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -53,15 +53,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/filemanager/upload.php` | High
-2 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
-3 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-4 | File | `admin/modules/tools/ip_history_logs.php` | High
-5 | File | `api_poller.php` | High
-6 | File | `application/controllers/admin/dataentry.php` | High
-7 | ... | ... | ...
+1 | File | `/cgi-bin/luci/api/auth` | High
+2 | File | `/filemanager/upload.php` | High
+3 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+4 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+5 | File | `/wp-json/oembed/1.0/embed?url` | High
+6 | File | `admin/modules/tools/ip_history_logs.php` | High
+7 | File | `api_poller.php` | High
+8 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

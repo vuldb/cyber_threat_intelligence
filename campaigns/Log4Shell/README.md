@@ -98,7 +98,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -111,43 +111,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../FILEDIR` | Medium
 2 | File | `//proc/kcore` | Medium
-3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-4 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-5 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/admin.php/singer/admin/lists/zhuan` | High
-8 | File | `/admin.php/User/level_sort` | High
-9 | File | `/admin/?page=system_info/contact_info` | High
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/auditLogAction.do` | High
-14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-15 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-16 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-17 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-18 | File | `/car-rental-management-system/admin/manage_user.php` | High
-19 | File | `/catalog/admin/administrators.php` | High
-20 | File | `/cgi-bin` | Medium
-21 | File | `/cgi-bin/activate.cgi` | High
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/churchcrm/WhyCameEditor.php` | High
-24 | File | `/cms/admin/?page=client/view_client` | High
-25 | File | `/cms/admin/?page=invoice/view_invoice` | High
-26 | File | `/College_Management_System/admin/display-teacher.php` | High
-27 | File | `/course/api/upload/pic` | High
-28 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-29 | File | `/ctpms/admin/applications/update_status.php` | High
-30 | File | `/ctpms/admin/individuals/update_status.php` | High
-31 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-32 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-33 | File | `/defaultui/player/modern.html` | High
-34 | File | `/dms/admin/reports/daily_collection_report.php` | High
-35 | File | `/ecrire` | Low
-36 | File | `/etc/shadow.sample` | High
-37 | ... | ... | ...
+3 | File | `/admin.php/singer/admin/lists/zhuan` | High
+4 | File | `/admin.php/User/level_sort` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/dl_sendmail.php` | High
+7 | File | `/admin/showbad.php` | High
+8 | File | `/admin/ztliuyan_sendmail.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/api/part_categories` | High
+11 | File | `/api/programs/orgUnits?programs` | High
+12 | File | `/auditLogAction.do` | High
+13 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+14 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+15 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+16 | File | `/car-rental-management-system/admin/manage_user.php` | High
+17 | File | `/catalog/admin/administrators.php` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/kerbynet` | High
+20 | File | `/cgi-bin/webproc` | High
+21 | File | `/churchcrm/WhyCameEditor.php` | High
+22 | File | `/company` | Medium
+23 | File | `/company/down_resume/total/nature` | High
+24 | File | `/course/api/upload/pic` | High
+25 | File | `/dashboard/reports/logs/view` | High
+26 | File | `/dashboard/snapshot/*?orgId=0` | High
+27 | File | `/defaultui/player/modern.html` | High
+28 | File | `/dl/dl_sendmail.php` | High
+29 | File | `/dms/admin/reports/daily_collection_report.php` | High
+30 | File | `/ecrire` | Low
+31 | File | `/fuel/sitevariables/delete/4` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/goform/SetFirewallCfg` | High
+34 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+35 | File | `/home/jobfairol/resumelist` | High
+36 | File | `/IISADMPWD` | Medium
+37 | File | `/Items/*/RemoteImages/Download` | High
+38 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

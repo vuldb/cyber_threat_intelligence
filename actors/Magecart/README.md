@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
 * [ES](https://vuldb.com/?country.es)
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +29,19 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [8.211.5.139](https://vuldb.com/?ip.8.211.5.139) | - | - | High
 7 | [35.246.189.253](https://vuldb.com/?ip.35.246.189.253) | 253.189.246.35.bc.googleusercontent.com | - | Medium
 8 | [37.59.47.208](https://vuldb.com/?ip.37.59.47.208) | ns3000975.ip-37-59-47.eu | - | High
-9 | ... | ... | ... | ...
+9 | [47.254.169.212](https://vuldb.com/?ip.47.254.169.212) | - | - | High
+10 | [47.254.170.245](https://vuldb.com/?ip.47.254.170.245) | - | - | High
+11 | [47.254.175.211](https://vuldb.com/?ip.47.254.175.211) | - | - | High
+12 | [51.83.209.11](https://vuldb.com/?ip.51.83.209.11) | ip11.ip-51-83-209.eu | - | High
+13 | [54.38.49.244](https://vuldb.com/?ip.54.38.49.244) | ip244.ip-54-38-49.eu | - | High
+14 | [62.133.58.60](https://vuldb.com/?ip.62.133.58.60) | - | - | High
+15 | [74.119.239.234](https://vuldb.com/?ip.74.119.239.234) | - | - | High
+16 | [76.119.1.112](https://vuldb.com/?ip.76.119.1.112) | c-76-119-1-112.hsd1.ct.comcast.net | - | High
+17 | [77.246.157.133](https://vuldb.com/?ip.77.246.157.133) | test.com | - | High
+18 | [80.78.249.78](https://vuldb.com/?ip.80.78.249.78) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 72 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
 3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
@@ -58,37 +68,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/pic/admin/type/del` | High
 5 | File | `/admin.php/vod/admin/topic/del` | High
 6 | File | `/admin.php?p=/User/index` | High
-7 | File | `/admin/users.php?source=edit_user&id=1` | High
-8 | File | `/admin/weixin.php` | High
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/conferences/get-all-status/` | High
 9 | File | `/Ap4RtpAtom.cpp` | High
-10 | File | `/apps/acs-commons/content/page-compare.html` | High
-11 | File | `/assets/partials/_handleLogin.php` | High
-12 | File | `/bcms/admin/?page=user/list` | High
-13 | File | `/bcms/admin/?page=user/manage_user` | High
-14 | File | `/bcms/admin/services/view_service.php` | High
+10 | File | `/assets/partials/_handleLogin.php` | High
+11 | File | `/bcms/admin/?page=user/list` | High
+12 | File | `/bcms/admin/?page=user/manage_user` | High
+13 | File | `/bcms/admin/services/view_service.php` | High
+14 | File | `/bsms/?page=manage_account` | High
 15 | File | `/cardo/api` | Medium
 16 | File | `/cgi-bin/editBookmark` | High
 17 | File | `/cms/classes/Master.php?f=delete_designation` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/ecrire` | Low
-20 | File | `/eris/admin/applicants/index.php?view=view` | High
-21 | File | `/etc/cron.daily/upstart` | High
-22 | File | `/fuel/index.php/fuel/logs/items` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/goform/setpptpservercfg` | High
-26 | File | `/help/treecontent.jsp` | High
-27 | File | `/insurance/editNominee.php` | High
-28 | File | `/lists/admin/` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/my/unicorn/uc.c` | High
-31 | File | `/ordering/admin/category/index.php?view=edit` | High
-32 | File | `/ordering/admin/stockin/index.php?view=edit` | High
-33 | File | `/p1/p2/:name` | Medium
-34 | File | `/php/ajax.php` | High
-35 | ... | ... | ...
+18 | File | `/company` | Medium
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ecrire` | Low
+22 | File | `/eris/admin/applicants/index.php?view=view` | High
+23 | File | `/fuel/index.php/fuel/logs/items` | High
+24 | File | `/fuel/sitevariables/delete/4` | High
+25 | File | `/getImage` | Medium
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/setpptpservercfg` | High
+28 | File | `/help/treecontent.jsp` | High
+29 | File | `/hprms/admin/?page=patients/view_patient` | High
+30 | File | `/hprms/admin/patients/manage_patient.php` | High
+31 | File | `/insurance/editNominee.php` | High
+32 | File | `/librarian/bookdetails.php` | High
+33 | File | `/lists/admin/` | High
+34 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.bushidotoken.net/2020/12/analysis-of-meyhod-javascript-web.html
 * https://blog.bushidotoken.net/2021/04/mo-money-mo-magecart.html
 * https://blog.malwarebytes.com/threat-intelligence/2021/09/the-many-tentacles-of-magecart-group-8/
+* https://blog.malwarebytes.com/threat-intelligence/2022/06/client-side-magecart-attacks-still-around-but-more-covert/
 * https://github.com/blackorbird/APT_REPORT/tree/master/Magecart
 
 ## Literature

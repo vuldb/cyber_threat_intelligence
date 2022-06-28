@@ -54,41 +54,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/category_view.php` | High
 11 | File | `/cgi-bin/wapopen` | High
 12 | File | `/cgi-mod/lookup.cgi` | High
-13 | File | `/cgi?1&5` | Medium
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-17 | File | `/iissamples` | Medium
-18 | File | `/interface/main/backup.php` | High
-19 | File | `/new` | Low
-20 | File | `/public/plugins/` | High
-21 | File | `/requests.php` | High
-22 | File | `/sbin/gs_config` | High
-23 | File | `/scripts/cpan_config` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/usr/sbin/nagios` | High
-29 | File | `/usr/sbin/suexec` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/webman/info.cgi` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `/wp-json/wc/v3/webhooks` | High
-35 | File | `/_internal` | Medium
-36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-37 | File | `adclick.php` | Medium
-38 | File | `admin.php?m=admin&c=site&a=save` | High
-39 | File | `admin.php?page=languages` | High
-40 | File | `admin/admin_users.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/index.php` | High
-43 | File | `admin/ops/reports/ops/news.php` | High
-44 | File | `adminer.php` | Medium
-45 | ... | ... | ...
+13 | File | `/common/info.cgi` | High
+14 | File | `/common/ticket_associated_tickets.php` | High
+15 | File | `/config/getuser` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+18 | File | `/iissamples` | Medium
+19 | File | `/interface/main/backup.php` | High
+20 | File | `/new` | Low
+21 | File | `/platform.cgi` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/requests.php` | High
+24 | File | `/sbin/gs_config` | High
+25 | File | `/scripts/cpan_config` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/sbin/nagios` | High
+31 | File | `/usr/sbin/suexec` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/webman/info.cgi` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `/_internal` | Medium
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `adclick.php` | Medium
+40 | File | `admin.php?page=languages` | High
+41 | File | `admin/admin_users.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `admin/index.php` | High
+44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
 * [ES](https://vuldb.com/?country.es)
+* [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
-* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,7 +67,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,39 +79,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/pic/admin/type/pl_save` | High
 3 | File | `/admin.php/singer/admin/singer/hy` | High
 4 | File | `/admin.php/vod/admin/topic/del` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/modules/system/custom_field.php` | High
-7 | File | `/admin/new-content` | High
-8 | File | `/admin/weixin.php` | High
-9 | File | `/alerts/alertLightbox.php` | High
-10 | File | `/api /v3/auth` | High
-11 | File | `/apps/acs-commons/content/page-compare.html` | High
-12 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-13 | File | `/bcms/admin/courts/manage_court.php` | High
-14 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-15 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-16 | File | `/classes/Users.php?f=save` | High
-17 | File | `/cloud_config/router_post/upgrade_info` | High
-18 | File | `/cms/classes/Master.php?f=delete_client` | High
-19 | File | `/config` | Low
-20 | File | `/defaultui/player/modern.html` | High
-21 | File | `/example/editor` | High
-22 | File | `/gaia-job-admin/user/add` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/login_process` | High
-25 | File | `/goform/SetInternetLanInfo` | High
-26 | File | `/goform/setNetworkLan` | High
-27 | File | `/goform/setPicListItem` | High
-28 | File | `/goform/SetSysTimeCfg` | High
-29 | File | `/html/Solar_Ftp.php` | High
-30 | File | `/lists/admin/` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/mngset/authset` | High
-33 | File | `/mtms/admin/?page=transaction/send` | High
-34 | File | `/one_church/userregister.php` | High
-35 | ... | ... | ...
+5 | File | `/admin/deluser.php` | High
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/edit_admin_details.php?id=admin` | High
+8 | File | `/admin/googleads.php` | High
+9 | File | `/admin/new-content` | High
+10 | File | `/admin/operations/tax.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/scheprofile.cgi` | High
+13 | File | `/admin/weixin.php` | High
+14 | File | `/apps/acs-commons/content/page-compare.html` | High
+15 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+16 | File | `/bcms/admin/courts/manage_court.php` | High
+17 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+18 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+19 | File | `/cgi-bin/kerbynet` | High
+20 | File | `/churchcrm/WhyCameEditor.php` | High
+21 | File | `/classes/Users.php?f=save` | High
+22 | File | `/cms/classes/Master.php?f=delete_client` | High
+23 | File | `/config` | Low
+24 | File | `/defaultui/player/modern.html` | High
+25 | File | `/ffos/admin/categories/manage_category.php` | High
+26 | File | `/ffos/admin/menus/view_menu.php` | High
+27 | File | `/gaia-job-admin/user/add` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/goform/setNetworkLan` | High
+30 | File | `/goform/SetSysTimeCfg` | High
+31 | File | `/html/Solar_Ftp.php` | High
+32 | File | `/lists/admin/` | High
+33 | File | `/mgmt/tm/util/bash` | High
+34 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

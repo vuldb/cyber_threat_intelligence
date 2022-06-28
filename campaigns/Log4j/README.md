@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,12 +4908,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4921,41 +4921,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `../FILEDIR` | Medium
-2 | File | `.htaccess` | Medium
-3 | File | `//proc/kcore` | Medium
-4 | File | `/?module=fileman&section=get&page=grid` | High
-5 | File | `/account/ResetPassword` | High
-6 | File | `/admin/?page=system_info/contact_info` | High
-7 | File | `/admin/sign/out` | High
-8 | File | `/Ap4RtpAtom.cpp` | High
-9 | File | `/api/part_categories` | High
-10 | File | `/cgi-bin` | Medium
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/checklogin.jsp` | High
-13 | File | `/componetns/user/class.user.php` | High
-14 | File | `/config/getuser` | High
-15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/etc/quagga` | Medium
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/goform/aspForm` | High
-20 | File | `/goform/saveParentControlInfo` | High
-21 | File | `/goform/SetFirewallCfg` | High
-22 | File | `/goform/WifiExtraSet` | High
-23 | File | `/IISADMPWD` | Medium
-24 | File | `/itop/webservices/export-v2.php` | High
-25 | File | `/MIME/INBOX-MM-1/` | High
-26 | File | `/nova/bin/sniffer` | High
-27 | File | `/ofrs/admin/?page=teams/manage_team` | High
-28 | File | `/ram/pckg/security/nova/bin/ipsec` | High
-29 | File | `/resources//../` | High
-30 | File | `/rest/api/latest/projectvalidate/key` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/service/upload` | High
-33 | ... | ... | ...
+1 | File | `/alarm_pi/alarmService.php` | High
+2 | File | `/bin/boa` | Medium
+3 | File | `/blog/blog.php` | High
+4 | File | `/bsms/?page=manage_account` | High
+5 | File | `/company` | Medium
+6 | File | `/company/account/safety/trade` | High
+7 | File | `/company/down_resume/total/nature` | High
+8 | File | `/company/service/increment/add/im` | High
+9 | File | `/company/view_be_browsed/total` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+12 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

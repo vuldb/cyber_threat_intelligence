@@ -40,14 +40,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `application/modules/admin/views/ecommerce/products.php` | High
-2 | File | `base/ErrorHandler.php` | High
-3 | File | `blog.php` | Medium
-4 | File | `c4t64fx.c` | Medium
-5 | File | `cgi-bin/webcm` | High
+1 | File | `/admin/dl_sendmail.php` | High
+2 | File | `application/modules/admin/views/ecommerce/products.php` | High
+3 | File | `base/ErrorHandler.php` | High
+4 | File | `blog.php` | Medium
+5 | File | `c4t64fx.c` | Medium
 6 | ... | ... | ...
 
-There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

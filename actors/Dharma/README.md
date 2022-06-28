@@ -20,12 +20,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1008 | CWE-757 | Algorithm Downgrade | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -33,13 +33,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adm/setmain.php` | High
-2 | File | `/classes/master.php?f=delete_facility` | High
-3 | File | `/dms/admin/reports/daily_collection_report.php` | High
-4 | File | `/ecrire` | Low
-5 | ... | ... | ...
+1 | File | `/admin/deluser.php` | High
+2 | File | `/admin/dl_sendmail.php` | High
+3 | File | `/admin/operations/tax.php` | High
+4 | File | `/admin/showbad.php` | High
+5 | File | `/admin/ztliuyan_sendmail.php` | High
+6 | File | `/api/v2/config` | High
+7 | File | `/appinfo/save` | High
+8 | File | `/ATL/VQ23` | Medium
+9 | File | `/cgi-bin/ExportAllSettings.sh` | High
+10 | File | `/coreframe/app/pay/admin/index.php` | High
+11 | File | `/dashboard/snapshot/*?orgId=0` | High
+12 | File | `/dl/dl_sendmail.php` | High
+13 | File | `/dl/dl_sendsms.php` | High
+14 | File | `/ffos/admin/categories/manage_category.php` | High
+15 | File | `/ffos/admin/categories/view_category.php` | High
+16 | File | `/ffos/admin/menus/manage_menu.php` | High
+17 | File | `/ffos/admin/sales/receipt.php` | High
+18 | File | `/ffos/classes/Master.php?f=delete_category` | High
+19 | File | `/ffos/classes/Master.php?f=delete_img` | High
+20 | File | `/ffos/classes/Master.php?f=delete_menu` | High
+21 | File | `/hprms/admin/?page=patients/view_patient` | High
+22 | File | `/hprms/admin/?page=user/manage_user` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/hprms/admin/doctors/view_doctor.php` | High
+25 | ... | ... | ...
 
-There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

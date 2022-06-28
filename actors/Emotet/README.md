@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -404,12 +404,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1222 | CWE-275 | Permission Issues | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -417,39 +417,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/ResetPassword` | High
-2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/anony/mjpg.cgi` | High
-4 | File | `/api/crontab` | Medium
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-8 | File | `/current_action.php?action=reboot` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/config/image_sign` | High
-11 | File | `/etc/password` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/IISADMPWD` | Medium
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/proc/stat` | Medium
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-19 | File | `/src/njs/src/njs_module.c` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/user-utils/users/md5.json` | High
-22 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-23 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `/_internal` | Medium
-26 | File | `4.edu.php` | Medium
-27 | File | `aam/v1/authenticate` | High
-28 | File | `acl.c` | Low
-29 | File | `admin.webring.docs.php` | High
-30 | File | `admin/?page=students` | High
-31 | ... | ... | ...
+1 | File | `/admin/edit_admin_details.php?id=admin` | High
+2 | File | `/alarm_pi/alarmService.php` | High
+3 | File | `/blog/blog.php` | High
+4 | File | `/bsms/?page=manage_account` | High
+5 | File | `/company` | Medium
+6 | File | `/company/account/safety/trade` | High
+7 | File | `/company/down_resume/total/nature` | High
+8 | File | `/company/service/increment/add/im` | High
+9 | File | `/company/view_be_browsed/total` | High
+10 | File | `/dashboard/blocks/stacks/view_details/` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -486,7 +467,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0906-0913.html
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0913-0920.html
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0920-0927.html
-* https://blog.talosintelligence.com/2019/10/threat-roundup-1004-1011.htmlhttps://blog.talosintelligence.com/2019/10/threat-roundup-1004-1011.html
+* https://blog.talosintelligence.com/2019/10/threat-roundup-1004-1011.html
 * https://blog.talosintelligence.com/2019/10/threat-roundup-1011-1018.html
 * https://blog.talosintelligence.com/2019/10/threat-roundup-1018-1025.html
 * https://blog.talosintelligence.com/2019/10/threat-roundup-for-september-27-to.html

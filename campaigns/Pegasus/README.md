@@ -80,16 +80,17 @@ ID | Type | Indicator | Confidence
 16 | File | `/v2/devices/add` | High
 17 | File | `/var/ipfire/backup/bin/backup.pl` | High
 18 | File | `/wp-json/wc/v3/webhooks` | High
-19 | File | `adclick.php` | Medium
-20 | File | `AddEvent.php` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin.php?m=backup&c=backup&a=doback` | High
-23 | File | `admin.php?mod=product&act=state` | High
-24 | File | `admin/cp-functions/event-add.php` | High
-25 | File | `admin/modules/tools/ip_history_logs.php` | High
-26 | ... | ... | ...
+19 | File | `accounts/view_details.php` | High
+20 | File | `adclick.php` | Medium
+21 | File | `AddEvent.php` | Medium
+22 | File | `admin.php` | Medium
+23 | File | `admin.php?m=backup&c=backup&a=doback` | High
+24 | File | `admin.php?mod=product&act=state` | High
+25 | File | `admin/cp-functions/event-add.php` | High
+26 | File | `admin/modules/tools/ip_history_logs.php` | High
+27 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

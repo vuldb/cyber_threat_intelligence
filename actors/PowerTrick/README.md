@@ -42,33 +42,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config.php?display=disa&view=form` | High
 2 | File | `/apps/acs-commons/content/page-compare.html` | High
-3 | File | `/edit-db.php` | Medium
-4 | File | `/etc/waipass` | Medium
+3 | File | `/cgi/get_param.cgi` | High
+4 | File | `/edit-db.php` | Medium
 5 | File | `/ext/phar/phar_object.c` | High
 6 | File | `/files/password` | High
 7 | File | `/guest_auth/cfg/upLoadCfg.php` | High
 8 | File | `/hocms/classes/Master.php?f=delete_member` | High
-9 | File | `/phppath/php` | Medium
-10 | File | `/services/getFile.cmd` | High
-11 | File | `/sns/classes/Master.php?f=delete_img` | High
-12 | File | `/usr/bin/pkexec` | High
-13 | File | `/v2/quantum/save-data-upload-big-file` | High
-14 | File | `/var/log/messages` | High
-15 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-16 | File | `/webconsole/Controller` | High
-17 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
-18 | File | `abook_database.php` | High
-19 | File | `acl/save_user.cgi` | High
-20 | File | `adaptive-images-script.php` | High
-21 | File | `admin/auth.php` | High
-22 | File | `admin/cgi-bin/listdir.pl` | High
-23 | File | `adminuseredit.php?usertoedit=XSS` | High
-24 | File | `AvastSvc.exe` | Medium
-25 | File | `backupsettings.conf` | High
-26 | File | `base/ErrorHandler.php` | High
+9 | File | `/lists/admin/` | High
+10 | File | `/phppath/php` | Medium
+11 | File | `/services/getFile.cmd` | High
+12 | File | `/sns/classes/Master.php?f=delete_img` | High
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/v2/quantum/save-data-upload-big-file` | High
+15 | File | `/var/log/messages` | High
+16 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+17 | File | `/webconsole/Controller` | High
+18 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+19 | File | `abook_database.php` | High
+20 | File | `acl/save_user.cgi` | High
+21 | File | `adaptive-images-script.php` | High
+22 | File | `admin/auth.php` | High
+23 | File | `admin/cgi-bin/listdir.pl` | High
+24 | File | `adminuseredit.php?usertoedit=XSS` | High
+25 | File | `AvastSvc.exe` | Medium
+26 | File | `backupsettings.conf` | High
 27 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

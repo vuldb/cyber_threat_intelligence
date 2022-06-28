@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with APT19:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT19:
 
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise

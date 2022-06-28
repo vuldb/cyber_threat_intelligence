@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,14 +30,19 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | Tsunami | High
 2 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | - | High
 3 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-4 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
-5 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | - | High
-6 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | - | High
-7 | [51.254.25.115](https://vuldb.com/?ip.51.254.25.115) | ip115.ip-51-254-25.eu | Tsunami | High
-8 | [51.255.48.78](https://vuldb.com/?ip.51.255.48.78) | vps-ede152ed.vps.ovh.net | Tsunami | High
-9 | ... | ... | ... | ...
+4 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | - | High
+5 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | - | High
+6 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | - | High
+7 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+8 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+9 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | - | High
+10 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+11 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | - | High
+12 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | - | High
+13 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | - | High
+14 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,49 +72,56 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/pass` | High
 8 | File | `/cgi/ansi` | Medium
 9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-10 | File | `/config/getuser` | High
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/getcfg.php` | Medium
-15 | File | `/goform/GetNewDir` | High
-16 | File | `/goform/telnet` | High
-17 | File | `/goform/WanParameterSetting` | High
-18 | File | `/hnap.cgi` | Medium
-19 | File | `/HNAP1` | Low
-20 | File | `/include/makecvs.php` | High
-21 | File | `/includes/common.inc.php` | High
-22 | File | `/knomi/analyze` | High
-23 | File | `/opt/pia/ruby/64/ruby` | High
-24 | File | `/out.php` | Medium
-25 | File | `/outgoing.php` | High
-26 | File | `/scripts/iisadmin/bdir.htr` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/csman/0` | Medium
-29 | File | `/ui/cbpc/login` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/var/avamar/f_cache.dat` | High
-32 | File | `/var/hnap/timestamp` | High
-33 | File | `/var/run/storage_account_root` | High
-34 | File | `/webmail/` | Medium
-35 | File | `/wp-content/plugins/forum-server/feed.php` | High
-36 | File | `/{ADMIN-FILE}/` | High
-37 | File | `a2billing/customer/iridium_threed.php` | High
-38 | File | `address.html` | Medium
-39 | File | `adm/systools.asp` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin/index.php` | High
-42 | File | `administrador.asp` | High
-43 | File | `AdminQuickAccessesController.php` | High
-44 | ... | ... | ...
+10 | File | `/config.cgi?webmin` | High
+11 | File | `/config/getuser` | High
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/gateway/services/EdgeServiceImpl` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/dir_setWanWifi` | High
+18 | File | `/goform/GetNewDir` | High
+19 | File | `/goform/telnet` | High
+20 | File | `/goform/WanParameterSetting` | High
+21 | File | `/hnap.cgi` | Medium
+22 | File | `/HNAP1` | Low
+23 | File | `/include/makecvs.php` | High
+24 | File | `/includes/common.inc.php` | High
+25 | File | `/knomi/analyze` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/monitoring` | Medium
+28 | File | `/opt/pia/ruby/64/ruby` | High
+29 | File | `/opt/tms/bin/cli` | High
+30 | File | `/out.php` | Medium
+31 | File | `/outgoing.php` | High
+32 | File | `/Pwrchute` | Medium
+33 | File | `/reports/rwservlet` | High
+34 | File | `/scripts/iisadmin/bdir.htr` | High
+35 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
+36 | File | `/tmp` | Low
+37 | File | `/tmp/csman/0` | Medium
+38 | File | `/ui/cbpc/login` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+41 | File | `/var/avamar/f_cache.dat` | High
+42 | File | `/var/hnap/timestamp` | High
+43 | File | `/var/run/storage_account_root` | High
+44 | File | `/webmail/` | Medium
+45 | File | `/wordpress/wp-admin/admin.php` | High
+46 | File | `/wp-content/plugins/forum-server/feed.php` | High
+47 | File | `/{ADMIN-FILE}/` | High
+48 | File | `a2billing/customer/iridium_threed.php` | High
+49 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
+* https://isc.sans.edu/forums/diary/Resumethemed+malspam+pushing+Smoke+Loader/23054/
 * https://research.checkpoint.com/2019/2019-resurgence-of-smokeloader/
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
 

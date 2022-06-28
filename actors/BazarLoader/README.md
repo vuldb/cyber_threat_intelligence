@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,9 +54,11 @@ ID | IP address | Hostname | Campaign | Confidence
 24 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | - | Medium
 25 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
 26 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-27 | ... | ... | ... | ...
+27 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
+28 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 104 more IOC items available. Please use our online service to access the data.
+There are 112 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,13 +83,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/include/makecvs.php` | High
 3 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
 4 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-5 | File | `add.php` | Low
-6 | File | `admin/admin.shtml` | High
-7 | File | `cat.asp` | Low
-8 | File | `class.phpmailer.php` | High
-9 | ... | ... | ...
+5 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+6 | File | `add.php` | Low
+7 | File | `admin/admin.shtml` | High
+8 | File | `bpf-object-fuzzer.c` | High
+9 | File | `cal.php` | Low
+10 | ... | ... | ...
 
-There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,6 +100,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-16%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-03%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-08%20BazarCall%20IOCs
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Stolen+Images+Evidence+Campaign+Continues+Pushing+BazarLoader+Malware/27816/
 * https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -78,10 +78,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,43 +89,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/acms/classes/Master.php?f=delete_img` | High
-3 | File | `/admin.php/Label/page_del` | High
-4 | File | `/admin.php/vod/admin/topic/del` | High
-5 | File | `/admin/dl_sendsms.php` | High
-6 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-7 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-8 | File | `/administrator/templates/default/html/windows/right.php` | High
-9 | File | `/admin_page/all-files-update-ajax.php` | High
-10 | File | `/api/part_categories` | High
-11 | File | `/api/programs/orgUnits?programs` | High
-12 | File | `/api/students/me/courses/` | High
-13 | File | `/api/students/me/messages/` | High
-14 | File | `/Applications/Utilities/Terminal` | High
-15 | File | `/apps/acs-commons/content/page-compare.html` | High
-16 | File | `/asms/classes/Master.php?f=delete_product` | High
-17 | File | `/asms/classes/Master.php?f=save_product` | High
-18 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-19 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-20 | File | `/checklogin.jsp` | High
-21 | File | `/classes/master.php?f=delete_facility` | High
-22 | File | `/College_Management_System/admin/display-teacher.php` | High
-23 | File | `/coreframe/app/member/admin/group.php` | High
-24 | File | `/ctpms/admin/?page=applications/view_application` | High
-25 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-26 | File | `/ctpms/admin/individuals/update_status.php` | High
-27 | File | `/default.php?idx=17` | High
-28 | File | `/dms/admin/reports/daily_collection_report.php` | High
-29 | File | `/ecrire` | Low
-30 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
-31 | File | `/goform/aspForm` | High
-32 | File | `/goform/saveParentControlInfo` | High
-33 | File | `/goform/SetClientState` | High
-34 | File | `/goform/SysToolReboot` | High
-35 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/acms/classes/Master.php?f=delete_img` | High
+4 | File | `/admin.php/Label/page_del` | High
+5 | File | `/admin.php/vod/admin/topic/del` | High
+6 | File | `/admin/dl_sendmail.php` | High
+7 | File | `/admin/dl_sendsms.php` | High
+8 | File | `/admin_page/all-files-update-ajax.php` | High
+9 | File | `/api/part_categories` | High
+10 | File | `/api/programs/orgUnits?programs` | High
+11 | File | `/api/students/me/courses/` | High
+12 | File | `/Applications/Utilities/Terminal` | High
+13 | File | `/asms/classes/Master.php?f=delete_product` | High
+14 | File | `/asms/classes/Master.php?f=save_product` | High
+15 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+16 | File | `/bsms/?page=manage_account` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/checklogin.jsp` | High
+19 | File | `/classes/master.php?f=delete_facility` | High
+20 | File | `/College_Management_System/admin/display-teacher.php` | High
+21 | File | `/company` | Medium
+22 | File | `/company/service/increment/add/im` | High
+23 | File | `/ctpms/admin/?page=applications/view_application` | High
+24 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+25 | File | `/ctpms/admin/individuals/update_status.php` | High
+26 | File | `/dms/admin/reports/daily_collection_report.php` | High
+27 | File | `/ecrire` | Low
+28 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/goform/saveParentControlInfo` | High
+31 | File | `/goform/SetClientState` | High
+32 | File | `/htdocs/cgibin` | High
+33 | File | `/html/Solar_Ftp.php` | High
+34 | File | `/hub/api/user` | High
+35 | File | `/include/chart_generator.php` | High
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

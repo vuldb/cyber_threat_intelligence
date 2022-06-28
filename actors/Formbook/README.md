@@ -64,7 +64,7 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
 36 | ... | ... | ... | ...
 
-There are 141 more IOC items available. Please use our online service to access the data.
+There are 142 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,7 +100,7 @@ ID | Type | Indicator | Confidence
 13 | File | `actionHandler/ajax_managed_services.php` | High
 14 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-07%20Formbook%20IOCs
 * https://isc.sans.edu/forums/diary/Excel+spreasheet+macro+kicks+off+Formbook+infection/26332/
 
 ## Literature

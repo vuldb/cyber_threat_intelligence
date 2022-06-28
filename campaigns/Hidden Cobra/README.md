@@ -166,7 +166,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
+3 | T1211 | CWE-254 | 7PK Security Features | High
 4 | ... | ... | ... | ...
 
 There are 4 more TTP items available. Please use our online service to access the data.
@@ -178,26 +178,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=themeinstall` | High
-2 | File | `/catcompany.php` | High
-3 | File | `/cgi-bin/login.cgi` | High
-4 | File | `/export` | Low
-5 | File | `/forgetpassword.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/graphStatus/displayServiceStatus.php` | High
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/out.php` | Medium
-10 | File | `/pages/items` | Medium
-11 | File | `/proc/pid/syscall` | High
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-14 | File | `/servlet.gupld` | High
-15 | File | `/sql/sql_type.cc` | High
-16 | File | `/status` | Low
-17 | File | `/tools/developerConsoleOperations.jsp` | High
-18 | File | `/uncpath/` | Medium
+2 | File | `/admin/reports.php` | High
+3 | File | `/catcompany.php` | High
+4 | File | `/cgi-bin/login.cgi` | High
+5 | File | `/export` | Low
+6 | File | `/forgetpassword.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/graphStatus/displayServiceStatus.php` | High
+9 | File | `/modules/profile/index.php` | High
+10 | File | `/out.php` | Medium
+11 | File | `/pages/items` | Medium
+12 | File | `/proc/pid/syscall` | High
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+15 | File | `/servlet.gupld` | High
+16 | File | `/sql/sql_type.cc` | High
+17 | File | `/status` | Low
+18 | File | `/tools/developerConsoleOperations.jsp` | High
 19 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
