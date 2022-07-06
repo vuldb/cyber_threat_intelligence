@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [HU](https://vuldb.com/?country.hu)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -86,19 +86,20 @@ ID | Type | Indicator | Confidence
 18 | File | `/rating.php` | Medium
 19 | File | `/rom-0` | Low
 20 | File | `/secure/admin/ConfigureBatching!default.jspa` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-23 | File | `/var/log/nginx` | High
-24 | File | `/wordpress/wp-admin/admin.php` | High
-25 | File | `/xyhai.php?s=/Auth/editUser` | High
-26 | File | `/_next` | Low
-27 | File | `actionHandler/ajax_managed_services.php` | High
-28 | File | `actions.hsp` | Medium
-29 | File | `addtocart.asp` | High
-30 | File | `admin/admin.shtml` | High
-31 | ... | ... | ...
+21 | File | `/staff/tools/custom-fields` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+24 | File | `/var/log/nginx` | High
+25 | File | `/wordpress/wp-admin/admin.php` | High
+26 | File | `/xyhai.php?s=/Auth/editUser` | High
+27 | File | `/_next` | Low
+28 | File | `actionHandler/ajax_managed_services.php` | High
+29 | File | `actions.hsp` | Medium
+30 | File | `addtocart.asp` | High
+31 | File | `admin/admin.shtml` | High
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

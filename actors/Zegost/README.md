@@ -60,12 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,17 +82,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/administrator/alerts/alertLightbox.php` | High
 7 | File | `/administrator/templates/default/html/windows/right.php` | High
 8 | File | `/apps/acs-commons/content/page-compare.html` | High
-9 | File | `/Content/Template/root/reverse-shell.aspx` | High
-10 | File | `/demo/module/?module=HERE` | High
-11 | File | `/download/set.cgi` | High
-12 | File | `/dvcset/sysset/set.cgi` | High
-13 | File | `/goform/SysToolReboot` | High
-14 | File | `/goform/WifiExtraSet` | High
-15 | File | `/goforms/rlminfo` | High
-16 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+9 | File | `/classes/Master.php?f=delete_train` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/demo/module/?module=HERE` | High
+12 | File | `/download/set.cgi` | High
+13 | File | `/dvcset/sysset/set.cgi` | High
+14 | File | `/goform/SysToolReboot` | High
+15 | File | `/goform/WifiExtraSet` | High
+16 | File | `/goforms/rlminfo` | High
 17 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

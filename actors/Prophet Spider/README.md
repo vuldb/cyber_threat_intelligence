@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -46,12 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,39 +61,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/scheprofile.cgi` | High
-3 | File | `/admin/showbad.php` | High
-4 | File | `/admin/ztliuyan_sendmail.php` | High
-5 | File | `/alarm_pi/alarmService.php` | High
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/api/part_categories` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/webproc` | High
-10 | File | `/cgi/get_param.cgi` | High
-11 | File | `/churchcrm/WhyCameEditor.php` | High
-12 | File | `/company` | Medium
-13 | File | `/company/account/safety/trade` | High
-14 | File | `/company/service/increment/add/im` | High
-15 | File | `/dashboard/blocks/stacks/view_details/` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/dashboard/snapshot/*?orgId=0` | High
-18 | File | `/defaultui/player/modern.html` | High
-19 | File | `/dl/dl_sendmail.php` | High
-20 | File | `/dl/dl_sendsms.php` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/home/campus/campus_job` | High
-24 | File | `/home/job/index` | High
-25 | File | `/IISADMPWD` | Medium
-26 | File | `/images/background/1.php` | High
-27 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+1 | File | `/action/import_https_cert_file/` | High
+2 | File | `/action/remove/` | High
+3 | File | `/admin/edit_admin_details.php?id=admin` | High
+4 | File | `/admin/featured.php` | High
+5 | File | `/admin/scheprofile.cgi` | High
+6 | File | `/admin/showbad.php` | High
+7 | File | `/admin/ztliuyan_sendmail.php` | High
+8 | File | `/ajax/config_rollback/` | High
+9 | File | `/ajax/set_sys_time/` | High
+10 | File | `/alarm_pi/alarmService.php` | High
+11 | File | `/application/controllers/Users.php` | High
+12 | File | `/cgi-bin/webproc` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/ci_hms/search` | High
+15 | File | `/classes/Master.php?f=delete_schedule` | High
+16 | File | `/company` | Medium
+17 | File | `/company/account/safety/trade` | High
+18 | File | `/company/service/increment/add/im` | High
+19 | File | `/dashboard/blocks/stacks/view_details/` | High
+20 | File | `/dashboard/reports/logs/view` | High
+21 | File | `/dashboard/snapshot/*?orgId=0` | High
+22 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+23 | File | `/dl/dl_sendmail.php` | High
+24 | File | `/dl/dl_sendsms.php` | High
+25 | File | `/home/campus/campus_job` | High
+26 | File | `/home/job/index` | High
+27 | File | `/images/background/1.php` | High
 28 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-29 | File | `/itop/webservices/export-v2.php` | High
-30 | File | `/job` | Low
-31 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Arkei:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [37.252.15.126](https://vuldb.com/?ip.37.252.15.126) | google.com | - | High
-2 | [85.208.185.13](https://vuldb.com/?ip.85.208.185.13) | vm3155616.1nvme.had.wf | - | High
-3 | [185.7.214.239](https://vuldb.com/?ip.185.7.214.239) | - | - | High
+1 | [5.79.66.145](https://vuldb.com/?ip.5.79.66.145) | mail.zzz.com.ua | - | High
+2 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
+3 | [37.252.15.126](https://vuldb.com/?ip.37.252.15.126) | google.com | - | High
+4 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
+5 | [74.125.155.202](https://vuldb.com/?ip.74.125.155.202) | - | - | High
+6 | [74.125.155.216](https://vuldb.com/?ip.74.125.155.216) | - | - | High
+7 | ... | ... | ... | ...
+
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,8 +37,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,12 +56,13 @@ ID | Type | Indicator | Confidence
 4 | File | `data/gbconfiguration.dat` | High
 5 | ... | ... | ...
 
-There are 29 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0911-0918.html
 * https://blogs.blackberry.com/en/2022/02/threat-thursday-arkei-infostealer
 
 ## Literature

@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PT](https://vuldb.com/?country.pt)
-* [SV](https://vuldb.com/?country.sv)
 * [FR](https://vuldb.com/?country.fr)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -54,12 +54,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,42 +69,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../FILEDIR` | Medium
-2 | File | `/admin.php/pic/admin/lists/zhuan` | High
-3 | File | `/admin.php/pic/admin/type/save` | High
-4 | File | `/admin.php/singer/admin/lists/zhuan` | High
-5 | File | `/admin.php/singer/admin/singer/del` | High
-6 | File | `/admin/?page=system_info/contact_info` | High
-7 | File | `/admin/add_post.php` | High
-8 | File | `/admin/conferences/list/` | High
-9 | File | `/admin/dl_sendmail.php` | High
-10 | File | `/admin/dl_sendsms.php` | High
-11 | File | `/admin/featured.php` | High
-12 | File | `/admin/general.cgi` | High
-13 | File | `/admin/general/change-lang` | High
-14 | File | `/admin/renewaldue.php` | High
-15 | File | `/admin/showbad.php` | High
-16 | File | `/admin/ztliuyan_sendmail.php` | High
-17 | File | `/Ap4RtpAtom.cpp` | High
-18 | File | `/api/programs/orgUnits?programs` | High
-19 | File | `/asms/classes/Master.php?f=save_product` | High
-20 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
-21 | File | `/bsms/?page=manage_account` | High
-22 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-23 | File | `/car-rental-management-system/admin/manage_user.php` | High
-24 | File | `/cardo/api` | Medium
-25 | File | `/cgi-bin` | Medium
-26 | File | `/checklogin.jsp` | High
-27 | File | `/ctpms/classes/Users.php?f=save` | High
-28 | File | `/dashboard/blocks/stacks/view_details/` | High
-29 | File | `/expense_action.php` | High
-30 | File | `/ffos/admin/sales/receipt.php` | High
-31 | File | `/food/admin/all_users.php` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/RgDhcp` | High
-34 | File | `/goform/RgUrlBlock.asp` | High
-35 | ... | ... | ...
+2 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/admin/add_post.php` | High
+5 | File | `/admin/conferences/list/` | High
+6 | File | `/admin/dl_sendmail.php` | High
+7 | File | `/admin/featured.php` | High
+8 | File | `/admin/general.cgi` | High
+9 | File | `/admin/general/change-lang` | High
+10 | File | `/admin/renewaldue.php` | High
+11 | File | `/admin/showbad.php` | High
+12 | File | `/admin/ztliuyan_sendmail.php` | High
+13 | File | `/ajax/config_rollback/` | High
+14 | File | `/ajax/remove_sniffer_raw_log/` | High
+15 | File | `/Ap4RtpAtom.cpp` | High
+16 | File | `/bcms/admin/?page=reports/daily_sales_report` | High
+17 | File | `/bsms/?page=manage_account` | High
+18 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+19 | File | `/car-rental-management-system/admin/manage_user.php` | High
+20 | File | `/category.php` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/checklogin.jsp` | High
+23 | File | `/ci_hms/massage_room/edit/1` | High
+24 | File | `/classes/Master.php?f=delete_schedule` | High
+25 | File | `/dashboard/blocks/stacks/view_details/` | High
+26 | File | `/ffos/admin/sales/receipt.php` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/RgDhcp` | High
+29 | File | `/goform/RgUrlBlock.asp` | High
+30 | File | `/hprms/admin/rooms/manage_room.php` | High
+31 | File | `/hprms/admin/rooms/view_room.php` | High
+32 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

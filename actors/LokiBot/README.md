@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -114,37 +114,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/bcms/admin/?page=user/list` | High
-4 | File | `/cgi-bin/luci/api/auth` | High
-5 | File | `/cgi-bin/luci/api/diagnose` | High
-6 | File | `/CMD_ACCOUNT_ADMIN` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/core/admin/categories.php` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/config/image_sign` | High
-11 | File | `/etc/groups` | Medium
-12 | File | `/filemanager/php/connector.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/MTFWU` | Low
-17 | File | `/php/passport/index.php` | High
-18 | File | `/proc/<pid>/status` | High
-19 | File | `/public/login.htm` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/updown/upload.cgi` | High
-27 | File | `/user-utils/users/md5.json` | High
-28 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-29 | File | `/usr/bin/pkexec` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/luci/api/diagnose` | High
+9 | File | `/CMD_ACCOUNT_ADMIN` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/core/admin/categories.php` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/config/image_sign` | High
+15 | File | `/etc/groups` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+20 | File | `/index/jobfairol/show/` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/MTFWU` | Low
+24 | File | `/php/passport/index.php` | High
+25 | File | `/public/login.htm` | High
+26 | File | `/public/plugins/` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/setting/setDeviceName` | High
 30 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

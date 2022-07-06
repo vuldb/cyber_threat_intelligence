@@ -42,12 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,23 +56,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/doc/packages` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/getcfg.php` | Medium
-4 | File | `/login` | Low
-5 | File | `/newsDia.php` | Medium
-6 | File | `/product_list.php` | High
-7 | File | `/rom-0` | Low
-8 | File | `/scas/admin/` | Medium
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/var/log/nginx` | High
-11 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-12 | File | `adclick.php` | Medium
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | ... | ... | ...
+1 | File | `/admin/countrymanagement.php` | High
+2 | File | `/admin/newsletter1.php` | High
+3 | File | `/admin/payment.php` | High
+4 | File | `/doc/packages` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/getcfg.php` | Medium
+7 | File | `/login` | Low
+8 | File | `/newsDia.php` | Medium
+9 | File | `/product_list.php` | High
+10 | File | `/rom-0` | Low
+11 | File | `/scas/admin/` | Medium
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/var/log/nginx` | High
+14 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+15 | File | `adclick.php` | Medium
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

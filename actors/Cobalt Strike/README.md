@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -44,7 +44,7 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
 22 | ... | ... | ... | ...
 
-There are 84 more IOC items available. Please use our online service to access the data.
+There are 85 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,12 +52,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,43 +68,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/acms/classes/Master.php?f=delete_img` | High
-4 | File | `/admin.php/Label/page_del` | High
-5 | File | `/admin.php/vod/admin/topic/del` | High
-6 | File | `/admin/dl_sendmail.php` | High
-7 | File | `/admin/dl_sendsms.php` | High
-8 | File | `/admin_page/all-files-update-ajax.php` | High
-9 | File | `/api/part_categories` | High
-10 | File | `/api/programs/orgUnits?programs` | High
-11 | File | `/api/students/me/courses/` | High
-12 | File | `/Applications/Utilities/Terminal` | High
-13 | File | `/asms/classes/Master.php?f=delete_product` | High
-14 | File | `/asms/classes/Master.php?f=save_product` | High
-15 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-16 | File | `/bsms/?page=manage_account` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/checklogin.jsp` | High
-19 | File | `/classes/master.php?f=delete_facility` | High
-20 | File | `/College_Management_System/admin/display-teacher.php` | High
-21 | File | `/company` | Medium
-22 | File | `/company/service/increment/add/im` | High
-23 | File | `/ctpms/admin/?page=applications/view_application` | High
-24 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-25 | File | `/ctpms/admin/individuals/update_status.php` | High
-26 | File | `/dms/admin/reports/daily_collection_report.php` | High
-27 | File | `/ecrire` | Low
-28 | File | `/eris/index.php?q=result&searchfor=advancesearch` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/saveParentControlInfo` | High
-31 | File | `/goform/SetClientState` | High
-32 | File | `/htdocs/cgibin` | High
-33 | File | `/html/Solar_Ftp.php` | High
-34 | File | `/hub/api/user` | High
-35 | File | `/include/chart_generator.php` | High
-36 | ... | ... | ...
+2 | File | `/.dbus-keyrings` | High
+3 | File | `//proc/kcore` | Medium
+4 | File | `/acms/classes/Master.php?f=delete_img` | High
+5 | File | `/admin.php/Label/page_del` | High
+6 | File | `/admin.php/vod/admin/topic/del` | High
+7 | File | `/admin/dl_sendmail.php` | High
+8 | File | `/admin/dl_sendsms.php` | High
+9 | File | `/admin/edit_admin_details.php?id=admin` | High
+10 | File | `/admin/generalsettings.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/reports.php` | High
+13 | File | `/admin_page/all-files-update-ajax.php` | High
+14 | File | `/api/part_categories` | High
+15 | File | `/api/programs/orgUnits?programs` | High
+16 | File | `/api/students/me/courses/` | High
+17 | File | `/api/user/userData?userCode=admin` | High
+18 | File | `/Applications/Utilities/Terminal` | High
+19 | File | `/asms/classes/Master.php?f=delete_product` | High
+20 | File | `/asms/classes/Master.php?f=save_product` | High
+21 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+22 | File | `/bsms/?page=manage_account` | High
+23 | File | `/cgi-bin/kerbynet` | High
+24 | File | `/checklogin.jsp` | High
+25 | File | `/classes/master.php?f=delete_facility` | High
+26 | File | `/classes/Master.php?f=delete_reservation` | High
+27 | File | `/classes/Master.php?f=delete_schedule` | High
+28 | File | `/College_Management_System/admin/display-teacher.php` | High
+29 | File | `/company` | Medium
+30 | File | `/company/service/increment/add/im` | High
+31 | File | `/ctpms/admin/?page=applications/view_application` | High
+32 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+33 | File | `/ctpms/admin/individuals/update_status.php` | High
+34 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+35 | File | `/dms/admin/reports/daily_collection_report.php` | High
+36 | File | `/ecrire` | Low
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/saveParentControlInfo` | High
+40 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +135,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-29%20Hancitor%20IOCs
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Attackers+Exploiting+WebLogic+Servers+via+CVE202014882+to+install+Cobalt+Strike/26752/
+* https://isc.sans.edu/forums/diary/Case+Study+Cobalt+Strike+Server+Lives+on+After+Its+Domain+Is+Suspended/28804/
 * https://isc.sans.edu/forums/diary/Example+of+Cobalt+Strike+from+Emotet+infection/28318/
 * https://isc.sans.edu/forums/diary/Excel+spreadsheets+push+SystemBC+malware/27060/
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/

@@ -47,23 +47,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/admin/plog/index.html` | High
-2 | File | `/admin.php/admin/ulog/index.html` | High
-3 | File | `/admin.php/Label/js_del` | High
-4 | File | `/admin.php/Label/page_del` | High
-5 | File | `/admin.php/user/zu_del` | High
-6 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
-7 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-8 | File | `/admin/edit.php` | High
-9 | File | `/admin/inbox.php&action=read` | High
-10 | File | `/admin/new-content` | High
-11 | File | `/admin/posts.php` | High
-12 | File | `/admin/posts.php&action=delete` | High
-13 | File | `/admin/run_ajax.php` | High
-14 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-15 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-16 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-17 | File | `/api/programs/orgUnits?programs` | High
+1 | File | `/admin.php/Label/js_del` | High
+2 | File | `/admin.php/Label/page_del` | High
+3 | File | `/admin.php/user/zu_del` | High
+4 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
+5 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/edit_admin_details.php?id=admin` | High
+8 | File | `/admin/inbox.php&action=read` | High
+9 | File | `/admin/new-content` | High
+10 | File | `/admin/posts.php` | High
+11 | File | `/admin/posts.php&action=delete` | High
+12 | File | `/admin/run_ajax.php` | High
+13 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+15 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+16 | File | `/api/programs/orgUnits?programs` | High
+17 | File | `/application/controllers/Users.php` | High
 18 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
 19 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
 20 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
@@ -73,19 +73,19 @@ ID | Type | Indicator | Confidence
 24 | File | `/cgi/get_param.cgi` | High
 25 | File | `/checklogin.jsp` | High
 26 | File | `/cms/classes/Master.php?f=delete_service` | High
-27 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-28 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-29 | File | `/dashboard/snapshot/*?orgId=0` | High
-30 | File | `/etc/ajenti/config.yml` | High
-31 | File | `/fuel/sitevariables/delete/4` | High
-32 | File | `/goform/AdvSetLanIp` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/SetNetControlList` | High
-35 | File | `/goform/setNetworkLan` | High
-36 | File | `/goform/websURLFilterAddDel` | High
+27 | File | `/company/account/safety/trade` | High
+28 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+29 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+30 | File | `/dashboard/reports/logs/view` | High
+31 | File | `/dashboard/snapshot/*?orgId=0` | High
+32 | File | `/etc/ajenti/config.yml` | High
+33 | File | `/fuel/sitevariables/delete/4` | High
+34 | File | `/goform/AdvSetLanIp` | High
+35 | File | `/goform/aspForm` | High
+36 | File | `/goform/SetNetControlList` | High
 37 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,6 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [94.130.207.164](https://vuldb.com/?ip.94.130.207.164) | static.164.207.130.94.clients.your-server.de | - | High
 2 | [141.95.89.79](https://vuldb.com/?ip.141.95.89.79) | ip79.ip-141-95-89.eu | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _AsyncRAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by AsyncRAT. This data is unique as it uses our predictive model for actor profiling.

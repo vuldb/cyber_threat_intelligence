@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,23 +63,24 @@ ID | Type | Indicator | Confidence
 3 | File | `/getcfg.php` | Medium
 4 | File | `/index.php/weblinks-categories` | High
 5 | File | `/iwguestbook/admin/messages_edit.asp` | High
-6 | File | `/public/plugins/` | High
-7 | File | `/scripts/iisadmin/bdir.htr` | High
-8 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-9 | File | `add.php` | Low
-10 | File | `admin.cgi/config.cgi` | High
-11 | File | `admin/admin.guestbook.php` | High
-12 | File | `admin/auth.php` | High
-13 | File | `admin/backupdb.php` | High
-14 | File | `admin/login.asp` | High
-15 | File | `admin/preview.php` | High
-16 | File | `administrator/components/com_media/helpers/media.php` | High
-17 | File | `archive_read_support_format_rar.c` | High
-18 | File | `auth.py` | Low
-19 | File | `authenticate.php` | High
-20 | ... | ... | ...
+6 | File | `/odfs/classes/Master.php?f=delete_team` | High
+7 | File | `/public/plugins/` | High
+8 | File | `/scripts/iisadmin/bdir.htr` | High
+9 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+10 | File | `add.php` | Low
+11 | File | `admin.cgi/config.cgi` | High
+12 | File | `admin/admin.guestbook.php` | High
+13 | File | `admin/auth.php` | High
+14 | File | `admin/backupdb.php` | High
+15 | File | `admin/login.asp` | High
+16 | File | `admin/preview.php` | High
+17 | File | `administrator/components/com_media/helpers/media.php` | High
+18 | File | `archive_read_support_format_rar.c` | High
+19 | File | `auth.py` | Low
+20 | File | `authenticate.php` | High
+21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

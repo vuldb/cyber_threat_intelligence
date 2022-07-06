@@ -51,12 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,22 +65,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/alarm_pi/alarmService.php` | High
-2 | File | `/bsms/?page=manage_account` | High
-3 | File | `/company` | Medium
-4 | File | `/company/account/safety/trade` | High
-5 | File | `/company/down_resume/total/nature` | High
-6 | File | `/company/service/increment/add/im` | High
-7 | File | `/company/view_be_browsed/total` | High
-8 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-9 | File | `/fm-data.lua` | Medium
-10 | File | `/freelance/resume_list` | High
-11 | File | `/home/campus/campus_job` | High
-12 | File | `/home/job/index` | High
-13 | File | `/home/job/map` | High
-14 | ... | ... | ...
+1 | File | `/action/import_cert_file/` | High
+2 | File | `/action/import_https_cert_file/` | High
+3 | File | `/action/remove/` | High
+4 | File | `/admin/inquiries/view_details.php` | High
+5 | File | `/api/user/userData?userCode=admin` | High
+6 | File | `/ci_hms/massage_room/edit/1` | High
+7 | File | `/ci_hms/search` | High
+8 | File | `/ci_ssms/index.php/orders/create` | High
+9 | File | `/classes/Master.php?f=delete_message` | High
+10 | File | `/classes/Master.php?f=delete_reservation` | High
+11 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

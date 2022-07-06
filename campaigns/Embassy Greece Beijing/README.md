@@ -27,6 +27,14 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [74.121.191.33](https://vuldb.com/?ip.74.121.191.33) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Embassy Greece Beijing. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:

@@ -151,12 +151,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,31 +175,33 @@ ID | Type | Indicator | Confidence
 7 | File | `/ATL/VQ23` | Medium
 8 | File | `/bcms/admin/?page=user/list` | High
 9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/logo_extra_upload.cgi` | High
+10 | File | `/cgi-bin/login.cgi` | High
 11 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
 12 | File | `/churchcrm/WhyCameEditor.php` | High
-13 | File | `/current_action.php?action=reboot` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/config/image_sign` | High
-17 | File | `/etc/quagga` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/IISADMPWD` | Medium
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/phppath/php` | Medium
-25 | File | `/public/plugins/` | High
-26 | File | `/recreate.php` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-29 | File | `/sql/sql_string.h` | High
-30 | File | `/sql/sql_type.cc` | High
-31 | File | `/src/njs/src/njs_module.c` | High
-32 | ... | ... | ...
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/current_action.php?action=reboot` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/config/image_sign` | High
+18 | File | `/etc/quagga` | Medium
+19 | File | `/etc/tomcat8/Catalina/attack` | High
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/fuel/index.php/fuel/logs/items` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+25 | File | `/IISADMPWD` | Medium
+26 | File | `/index/jobfairol/show/` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/phppath/php` | Medium
+32 | File | `/public/plugins/` | High
+33 | File | `/recreate.php` | High
+34 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -59,12 +59,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,18 +87,18 @@ ID | Type | Indicator | Confidence
 12 | File | `/goform/login_process` | High
 13 | File | `/goform/rlmswitchr_process` | High
 14 | File | `/goforms/rlminfo` | High
-15 | File | `/plugin` | Low
-16 | File | `/rating.php` | Medium
-17 | File | `/scas/admin/` | Medium
-18 | File | `/scas/classes/Users.php?f=save_user` | High
-19 | File | `/services/prefs.php` | High
-20 | File | `/src/njs_object.c` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/wordpress-gallery-transformation/gallery.php` | High
-23 | File | `adclick.php` | Medium
+15 | File | `/newsDia.php` | Medium
+16 | File | `/plugin` | Low
+17 | File | `/rating.php` | Medium
+18 | File | `/scas/admin/` | Medium
+19 | File | `/scas/classes/Users.php?f=save_user` | High
+20 | File | `/services/prefs.php` | High
+21 | File | `/src/njs_object.c` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/wordpress-gallery-transformation/gallery.php` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

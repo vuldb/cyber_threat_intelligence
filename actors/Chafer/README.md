@@ -55,14 +55,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-3 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-4 | File | `/jquery_file_upload/server/php/index.php` | High
-5 | File | `/magnoliaPublic/travel/members/login.html` | High
-6 | File | `/Main_AdmStatus_Content.asp` | High
-7 | File | `/uncpath/` | Medium
-8 | ... | ... | ...
+3 | File | `/bin/boa` | Medium
+4 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+5 | File | `/jquery_file_upload/server/php/index.php` | High
+6 | File | `/magnoliaPublic/travel/members/login.html` | High
+7 | File | `/Main_AdmStatus_Content.asp` | High
+8 | File | `/uncpath/` | Medium
+9 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

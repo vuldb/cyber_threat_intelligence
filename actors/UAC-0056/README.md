@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,11 +29,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.42.185.63](https://vuldb.com/?ip.31.42.185.63) | dedicated.vsys.host | Ukraine | High
-2 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | Ukraine | High
-3 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | Ukraine | High
+2 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
+3 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | Ukraine | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,12 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,46 +61,53 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/produts/controller.php` | High
 5 | File | `/admin/user/team` | High
 6 | File | `/adminlogin.asp` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/common/logViewer/logViewer.jsf` | High
-9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/aspForm` | High
-12 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-13 | File | `/includes/rrdtool.inc.php` | High
-14 | File | `/mc-admin/post.php?state=delete&delete` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/ms/cms/content/list.do` | High
-17 | File | `/orms/` | Low
-18 | File | `/plesk-site-preview/` | High
-19 | File | `/student-grading-system/rms.php?page=grade` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-22 | File | `/www/ping_response.cgi` | High
-23 | File | `ABuffer.cpp` | Medium
-24 | File | `account.asp` | Medium
-25 | File | `addmember.php` | High
-26 | File | `addtocart.asp` | High
-27 | File | `addtomylist.asp` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin.x-shop.php` | High
-30 | File | `admin/auth.php` | High
-31 | File | `admin/changedata.php` | High
-32 | File | `admin/dashboard.php` | High
-33 | File | `admin/edit-news.php` | High
-34 | File | `admin/gallery.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/manage-departments.php` | High
-37 | File | `admin/sellerupd.php` | High
-38 | ... | ... | ...
+7 | File | `/ad_js.php` | Medium
+8 | File | `/api/RecordingList/DownloadRecord?file=` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+13 | File | `/etc/sudoers` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/aspForm` | High
+16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+17 | File | `/includes/rrdtool.inc.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/mc-admin/post.php?state=delete&delete` | High
+20 | File | `/mifs/c/i/reg/reg.html` | High
+21 | File | `/ms/cms/content/list.do` | High
+22 | File | `/oauth/token/request` | High
+23 | File | `/orms/` | Low
+24 | File | `/plesk-site-preview/` | High
+25 | File | `/school/model/get_admin_profile.php` | High
+26 | File | `/student-grading-system/rms.php?page=grade` | High
+27 | File | `/system-info/health` | High
+28 | File | `/timeline2.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+31 | File | `/www/ping_response.cgi` | High
+32 | File | `ABuffer.cpp` | Medium
+33 | File | `account.asp` | Medium
+34 | File | `addentry.php` | Medium
+35 | File | `addmember.php` | High
+36 | File | `addtocart.asp` | High
+37 | File | `addtomylist.asp` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin.x-shop.php` | High
+40 | File | `admin/auth.php` | High
+41 | File | `admin/changedata.php` | High
+42 | File | `admin/config/confmgr.php` | High
+43 | File | `admin/dashboard.php` | High
+44 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://cert.gov.ua/article/18419
+* https://cert.gov.ua/article/37704
 * https://cert.gov.ua/article/38374
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
 * https://www.sentinelone.com/blog/threat-actor-uac-0056-targeting-ukraine-with-fake-translation-software/

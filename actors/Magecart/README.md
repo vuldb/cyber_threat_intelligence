@@ -49,12 +49,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,22 +64,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../FILEDIR` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+2 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
+3 | File | `//proc/kcore` | Medium
 4 | File | `/admin.php/pic/admin/type/del` | High
 5 | File | `/admin.php/vod/admin/topic/del` | High
 6 | File | `/admin.php?p=/User/index` | High
 7 | File | `/admin/communitymanagement.php` | High
 8 | File | `/admin/conferences/get-all-status/` | High
 9 | File | `/Ap4RtpAtom.cpp` | High
-10 | File | `/assets/partials/_handleLogin.php` | High
-11 | File | `/bcms/admin/?page=user/list` | High
-12 | File | `/bcms/admin/?page=user/manage_user` | High
-13 | File | `/bcms/admin/services/view_service.php` | High
-14 | File | `/bsms/?page=manage_account` | High
-15 | File | `/cardo/api` | Medium
-16 | File | `/cgi-bin/editBookmark` | High
-17 | File | `/cms/classes/Master.php?f=delete_designation` | High
+10 | File | `/bcms/admin/?page=user/list` | High
+11 | File | `/bcms/admin/?page=user/manage_user` | High
+12 | File | `/bcms/admin/services/view_service.php` | High
+13 | File | `/bsms/?page=manage_account` | High
+14 | File | `/cardo/api` | Medium
+15 | File | `/cgi-bin/login.cgi` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/classes/Master.php?f=delete_train` | High
 18 | File | `/company` | Medium
 19 | File | `/dashboard/reports/logs/view` | High
 20 | File | `/debug/pprof` | Medium
@@ -88,16 +89,16 @@ ID | Type | Indicator | Confidence
 24 | File | `/fuel/sitevariables/delete/4` | High
 25 | File | `/getImage` | Medium
 26 | File | `/goform/aspForm` | High
-27 | File | `/goform/setpptpservercfg` | High
-28 | File | `/help/treecontent.jsp` | High
-29 | File | `/hprms/admin/?page=patients/view_patient` | High
-30 | File | `/hprms/admin/patients/manage_patient.php` | High
-31 | File | `/insurance/editNominee.php` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/lists/admin/` | High
+27 | File | `/hprms/admin/?page=patients/view_patient` | High
+28 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+29 | File | `/hprms/admin/patients/manage_patient.php` | High
+30 | File | `/index/jobfairol/show/` | High
+31 | File | `/librarian/bookdetails.php` | High
+32 | File | `/lists/admin/` | High
+33 | File | `/mgmt/tm/util/bash` | High
 34 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

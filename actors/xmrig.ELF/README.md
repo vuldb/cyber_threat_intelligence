@@ -38,7 +38,8 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/rest/api/2/user/picker` | High
+1 | File | `/cgi-bin/editBookmark` | High
+2 | File | `/rest/api/2/user/picker` | High
 
 ## References
 

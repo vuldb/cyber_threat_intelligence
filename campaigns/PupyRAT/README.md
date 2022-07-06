@@ -36,6 +36,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
 
 ## IOA - Indicator of Attack
 

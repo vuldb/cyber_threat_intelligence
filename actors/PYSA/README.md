@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
@@ -30,12 +31,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,41 +50,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/acms/classes/Master.php?f=delete_img` | High
 4 | File | `/admin/?page=system_info/contact_info` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/api/part_categories` | High
-7 | File | `/auditLogAction.do` | High
-8 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-9 | File | `/cgi-bin` | Medium
-10 | File | `/cgi-bin/webproc` | High
-11 | File | `/churchcrm/WhyCameEditor.php` | High
-12 | File | `/cms/admin/?page=client/view_client` | High
-13 | File | `/cms/admin/?page=invoice/view_invoice` | High
-14 | File | `/College_Management_System/admin/display-teacher.php` | High
-15 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-16 | File | `/ctpms/admin/applications/update_status.php` | High
-17 | File | `/ctpms/admin/individuals/update_status.php` | High
-18 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-19 | File | `/dms/admin/reports/daily_collection_report.php` | High
-20 | File | `/etc/cron.daily/upstart` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/IISADMPWD` | Medium
-24 | File | `/index.php?page=reserve` | High
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/job` | Low
-27 | File | `/linkedcontent/editfolder.php` | High
-28 | File | `/mdiy/dict/listExcludeApp` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/ofrs/admin/?page=reports` | High
-31 | File | `/PC/WebService.asmx` | High
-32 | File | `/pms/admin/inmates/manage_inmate.php` | High
-33 | File | `/scas/classes/Users.php?f=save_user` | High
-34 | File | `/scbs/classes/Users.php?f=delete_client` | High
-35 | File | `/school/model/get_events.php` | High
-36 | File | `/scms/student.php` | High
-37 | ... | ... | ...
+5 | File | `/admin/featured.php` | High
+6 | File | `/ajax/config_rollback/` | High
+7 | File | `/Ap4RtpAtom.cpp` | High
+8 | File | `/api/part_categories` | High
+9 | File | `/auditLogAction.do` | High
+10 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+11 | File | `/cgi-bin` | Medium
+12 | File | `/cgi-bin/webproc` | High
+13 | File | `/churchcrm/WhyCameEditor.php` | High
+14 | File | `/cms/admin/?page=client/view_client` | High
+15 | File | `/cms/admin/?page=invoice/view_invoice` | High
+16 | File | `/College_Management_System/admin/display-teacher.php` | High
+17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+18 | File | `/ctpms/admin/applications/update_status.php` | High
+19 | File | `/ctpms/admin/individuals/update_status.php` | High
+20 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+21 | File | `/dms/admin/reports/daily_collection_report.php` | High
+22 | File | `/etc/cron.daily/upstart` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/IISADMPWD` | Medium
+26 | File | `/index.php?page=reserve` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/job` | Low
+29 | File | `/linkedcontent/editfolder.php` | High
+30 | File | `/mdiy/dict/listExcludeApp` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/ofrs/admin/?page=reports` | High
+33 | File | `/PC/WebService.asmx` | High
+34 | File | `/pms/admin/actions/view_action.php` | High
+35 | File | `/pms/admin/cells/manage_cell.php` | High
+36 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

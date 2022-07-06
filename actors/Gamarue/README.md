@@ -42,7 +42,7 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [52.230.217.195](https://vuldb.com/?ip.52.230.217.195) | - | - | High
 20 | ... | ... | ... | ...
 
-There are 75 more IOC items available. Please use our online service to access the data.
+There are 77 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,12 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,28 +75,28 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/wapopen` | High
 9 | File | `/config/netconf.cmd` | High
 10 | File | `/etc/config/image_sign` | High
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/folder/list` | Medium
-13 | File | `/forms/nslookupHandler` | High
-14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-15 | File | `/group/comment` | High
-16 | File | `/icingaweb2/navigation/add` | High
-17 | File | `/lookin/info` | Medium
-18 | File | `/plugins/servlet/jira-blockers/` | High
-19 | File | `/register.do` | Medium
-20 | File | `/sessions/sess_<sessionid>` | High
-21 | File | `/themes/<php_file_name>` | High
-22 | File | `/tmp/speedtest_urls.xml` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/var/log/nginx` | High
-26 | File | `/wbg/core/_includes/authorization.inc.php` | High
-27 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-28 | File | `/wp-admin/admin.php` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+11 | File | `/folder/list` | Medium
+12 | File | `/forms/nslookupHandler` | High
+13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+14 | File | `/group/comment` | High
+15 | File | `/icingaweb2/navigation/add` | High
+16 | File | `/lookin/info` | Medium
+17 | File | `/plugins/servlet/jira-blockers/` | High
+18 | File | `/register.do` | Medium
+19 | File | `/sessions/sess_<sessionid>` | High
+20 | File | `/themes/<php_file_name>` | High
+21 | File | `/tmp/speedtest_urls.xml` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/var/log/nginx` | High
+25 | File | `/wbg/core/_includes/authorization.inc.php` | High
+26 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+27 | File | `/wp-admin/admin.php` | High
+28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+29 | File | `account.asp` | Medium
 30 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,6 +113,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
+* https://blog.talosintelligence.com/2022/06/threat-roundup-0617-0624.html
 
 ## Literature
 

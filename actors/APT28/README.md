@@ -89,12 +89,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,25 +106,25 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/file?action=download&file` | High
-5 | File | `/filemanager/upload.php` | High
+4 | File | `/core/conditions/AbstractWrapper.java` | High
+5 | File | `/file?action=download&file` | High
 6 | File | `/medical/inventories.php` | High
 7 | File | `/mgmt/tm/util/bash` | High
 8 | File | `/monitoring` | Medium
-9 | File | `/NAGErrors` | Medium
-10 | File | `/plugins/servlet/audit/resource` | High
-11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-12 | File | `/REBOOTSYSTEM` | High
-13 | File | `/replication` | Medium
-14 | File | `/reports/rwservlet` | High
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/tmp/speedtest_urls.xml` | High
-18 | File | `/tmp/zarafa-vacation-*` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/usr/bin/at` | Medium
-22 | File | `/var/log/nginx` | High
+9 | File | `/plugins/servlet/audit/resource` | High
+10 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+11 | File | `/REBOOTSYSTEM` | High
+12 | File | `/replication` | Medium
+13 | File | `/reports/rwservlet` | High
+14 | File | `/RestAPI` | Medium
+15 | File | `/tmp` | Low
+16 | File | `/tmp/speedtest_urls.xml` | High
+17 | File | `/tmp/zarafa-vacation-*` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/usr/bin/at` | Medium
+21 | File | `/var/log/nginx` | High
+22 | File | `/var/run/watchman.pid` | High
 23 | File | `/wp-json/wc/v3/webhooks` | High
 24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 25 | File | `admin/app/mediamanager` | High
@@ -134,7 +135,7 @@ ID | Type | Indicator | Confidence
 30 | File | `api/sms/send-sms` | High
 31 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

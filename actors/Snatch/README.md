@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snatch:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -50,27 +50,27 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\WrData\PKG` | High
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/assets/components/gallery/connector.php` | High
-4 | File | `/etc/target` | Medium
-5 | File | `/export` | Low
-6 | File | `/getcfg.php` | Medium
-7 | File | `/goform/WriteFacMac` | High
-8 | File | `/lists/admin/user.php` | High
-9 | File | `/tmp` | Low
-10 | File | `/uncpath/` | Medium
-11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-12 | File | `/_vti_pvt/access.cnf` | High
-13 | File | `admin.php3` | Medium
-14 | File | `admin/mobile.php` | High
-15 | File | `admin/themes` | Medium
-16 | File | `administration/comments.php` | High
-17 | File | `admin_hacks_list.php` | High
-18 | File | `affiliate_signup.php` | High
-19 | File | `ajax.php` | Medium
-20 | File | `amadmin.pl` | Medium
-21 | File | `apirest.php/User` | High
+4 | File | `/College/admin/teacher.php` | High
+5 | File | `/etc/target` | Medium
+6 | File | `/export` | Low
+7 | File | `/getcfg.php` | Medium
+8 | File | `/goform/WriteFacMac` | High
+9 | File | `/lists/admin/user.php` | High
+10 | File | `/tmp` | Low
+11 | File | `/uncpath/` | Medium
+12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+13 | File | `/_vti_pvt/access.cnf` | High
+14 | File | `admin.php3` | Medium
+15 | File | `admin/mobile.php` | High
+16 | File | `admin/themes` | Medium
+17 | File | `administration/comments.php` | High
+18 | File | `admin_hacks_list.php` | High
+19 | File | `affiliate_signup.php` | High
+20 | File | `ajax.php` | Medium
+21 | File | `amadmin.pl` | Medium
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,7 +15,7 @@ The following _campaigns_ are known and can be associated with Inception:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
 * [AR](https://vuldb.com/?country.ar)
-* [SV](https://vuldb.com/?country.sv)
+* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
@@ -40,12 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,31 +66,29 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/inbox.php&action=read` | High
 10 | File | `/admin/usermanagement.php` | High
 11 | File | `/administrator/alerts/alertLightbox.php` | High
-12 | File | `/api/part_categories` | High
-13 | File | `/api/programs/orgUnits?programs` | High
-14 | File | `/api/students/me/courses/` | High
-15 | File | `/apps/acs-commons/content/page-compare.html` | High
-16 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-17 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-18 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-19 | File | `/blog/blog.php` | High
-20 | File | `/cgi-bin/luci/api/diagnose` | High
-21 | File | `/cgi-bin/main.cgi` | High
-22 | File | `/cgi-mod/lookup.cgi` | High
-23 | File | `/cgi/ansi` | Medium
-24 | File | `/cms/classes/Master.php?f=delete_designation` | High
-25 | File | `/controller/Adv.php` | High
-26 | File | `/createnewaccount` | High
-27 | File | `/dashboard/blocks/stacks/view_details/` | High
-28 | File | `/dev/urandom` | Medium
-29 | File | `/dl/dl_sendmail.php` | High
-30 | File | `/dvcset/sysset/set.cgi` | High
-31 | File | `/ecrire` | Low
-32 | File | `/etc/sudoers` | Medium
-33 | File | `/example/editor` | High
-34 | ... | ... | ...
+12 | File | `/ajax/clear_tools_log/` | High
+13 | File | `/api/part_categories` | High
+14 | File | `/api/programs/orgUnits?programs` | High
+15 | File | `/api/students/me/courses/` | High
+16 | File | `/apps/acs-commons/content/page-compare.html` | High
+17 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+18 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+19 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+20 | File | `/blog/blog.php` | High
+21 | File | `/cgi-bin/luci/api/diagnose` | High
+22 | File | `/cgi-bin/main.cgi` | High
+23 | File | `/cgi-mod/lookup.cgi` | High
+24 | File | `/cgi/ansi` | Medium
+25 | File | `/classes/Master.php?f=delete_train` | High
+26 | File | `/cms/classes/Master.php?f=delete_designation` | High
+27 | File | `/controller/Adv.php` | High
+28 | File | `/createnewaccount` | High
+29 | File | `/dashboard/blocks/stacks/view_details/` | High
+30 | File | `/dev/urandom` | Medium
+31 | File | `/dl/dl_sendmail.php` | High
+32 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -110,12 +110,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -126,37 +127,39 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/cms/admin/maintenance/manage_service.php` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/hosts` | Medium
-12 | File | `/files.md5` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/goform/setSysAdm` | High
-17 | File | `/login` | Low
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/new` | Low
-21 | File | `/one_church/userregister.php` | High
-22 | File | `/proc/<pid>/status` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-25 | File | `/SASWebReportStudio/logonAndRender.do` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/setting/setUpgradeFW` | High
-30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-31 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-32 | ... | ... | ...
+4 | File | `/admin/` | Low
+5 | File | `/admin/photo.php` | High
+6 | File | `/admin/renewaldue.php` | High
+7 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
+8 | File | `/Ap4RtpAtom.cpp` | High
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/bsms/?page=manage_account` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/cms/admin/maintenance/manage_service.php` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/files.md5` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/fuel/index.php/fuel/logs/items` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/goform/setSysAdm` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/login` | Low
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/one_church/userregister.php` | High
+29 | File | `/proc/<pid>/status` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+32 | File | `/SASWebReportStudio/logonAndRender.do` | High
+33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+34 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -524,12 +524,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -537,43 +538,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/contenttemp` | High
-4 | File | `/admin/modules/system/custom_field.php` | High
-5 | File | `/admin/user/UserAdmin.do` | High
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/api/crontab` | Medium
-8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/cgi-mod/lookup.cgi` | High
-11 | File | `/controller/Index.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/devices/acurite.c` | High
-14 | File | `/example/editor` | High
-15 | File | `/file?action=download&file` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/goform/login_process` | High
-19 | File | `/goform/rlmswitchr_process` | High
-20 | File | `/goforms/rlminfo` | High
-21 | File | `/include/chart_generator.php` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/newsDia.php` | Medium
-25 | File | `/nova/bin/console` | High
-26 | File | `/product_list.php` | High
-27 | File | `/ptms/?page=user` | High
-28 | File | `/scas/admin/` | Medium
-29 | File | `/scas/classes/Users.php?f=save_user` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-32 | File | `/tmp/zarafa-vacation-*` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload` | Low
-35 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/admin/` | Low
+3 | File | `/admin/communitymanagement.php` | High
+4 | File | `/admin/contenttemp` | High
+5 | File | `/admin/extended` | High
+6 | File | `/admin/featured.php` | High
+7 | File | `/admin/generalsettings.php` | High
+8 | File | `/admin/newsletter1.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/user/UserAdmin.do` | High
+11 | File | `/admin/usermanagement.php` | High
+12 | File | `/Ap4RtpAtom.cpp` | High
+13 | File | `/api/crontab` | Medium
+14 | File | `/bcms/admin/?page=user/list` | High
+15 | File | `/bsms/?page=manage_account` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/ci_hms/massage_room/edit/1` | High
+18 | File | `/controller/Index.php` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/dashboard/reports/logs/view` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/designer/add/layout` | High
+23 | File | `/devices/acurite.c` | High
+24 | File | `/example/editor` | High
+25 | File | `/filemanager/upload/drop` | High
+26 | File | `/fuel/index.php/fuel/logs/items` | High
+27 | File | `/fuel/sitevariables/delete/4` | High
+28 | File | `/goform/login_process` | High
+29 | File | `/goform/rlmswitchr_process` | High
+30 | File | `/goforms/rlminfo` | High
+31 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+32 | File | `/include/chart_generator.php` | High
+33 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -208,12 +208,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -223,20 +225,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit_admin_details.php?id=admin` | High
 2 | File | `/alarm_pi/alarmService.php` | High
-3 | File | `/bsms/?page=manage_account` | High
-4 | File | `/company` | Medium
-5 | File | `/company/account/safety/trade` | High
-6 | File | `/company/down_resume/total/nature` | High
-7 | File | `/company/service/increment/add/im` | High
-8 | File | `/company/view_be_browsed/total` | High
-9 | File | `/dashboard/blocks/stacks/view_details/` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/dashboard/snapshot/*?orgId=0` | High
-12 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-13 | File | `/freelance/resume_list` | High
-14 | ... | ... | ...
+3 | File | `/api/admin/attachments/upload` | High
+4 | File | `/application/controllers/Users.php` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/classes/Master.php?f=delete_message` | High
+8 | File | `/classes/Master.php?f=delete_reservation` | High
+9 | File | `/classes/Master.php?f=delete_schedule` | High
+10 | File | `/classes/Master.php?f=delete_service` | High
+11 | File | `/classes/Master.php?f=delete_train` | High
+12 | File | `/company` | Medium
+13 | File | `/company/account/safety/trade` | High
+14 | File | `/company/down_resume/total/nature` | High
+15 | File | `/company/service/increment/add/im` | High
+16 | File | `/company/view_be_browsed/total` | High
+17 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -112,29 +112,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin.php` | High
 2 | File | `/admin/imageslider/file.php` | High
-3 | File | `/cgi-bin/luci` | High
-4 | File | `/cgi-bin/viewcert` | High
-5 | File | `/config/getuser` | High
-6 | File | `/core/vb/vurl.php` | High
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/etc/ldap.conf` | High
-9 | File | `/getcfg.php` | Medium
-10 | File | `/goform/telnet` | High
-11 | File | `/goform/WanParameterSetting` | High
-12 | File | `/importTool/preview` | High
-13 | File | `/include/makecvs.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/mods/_core/courses/users/create_course.php` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/phppath/php` | Medium
-18 | File | `/plugins/Dashboard/Controller.php` | High
-19 | File | `/server-status` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `addentry.php` | Medium
+3 | File | `/admin/sign/out` | High
+4 | File | `/cgi-bin/luci` | High
+5 | File | `/cgi-bin/viewcert` | High
+6 | File | `/config/getuser` | High
+7 | File | `/core/vb/vurl.php` | High
+8 | File | `/etc/gsissh/sshd_config` | High
+9 | File | `/etc/ldap.conf` | High
+10 | File | `/getcfg.php` | Medium
+11 | File | `/goform/telnet` | High
+12 | File | `/goform/WanParameterSetting` | High
+13 | File | `/importTool/preview` | High
+14 | File | `/include/makecvs.php` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/mods/_core/courses/users/create_course.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/phppath/php` | Medium
+19 | File | `/plugins/Dashboard/Controller.php` | High
+20 | File | `/server-status` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `adclick.php` | Medium
 23 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -62,29 +62,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/?/admin/snippet/add` | High
 3 | File | `/assets/something/services/AppModule.class` | High
 4 | File | `/bin/false` | Medium
-5 | File | `/cgi-bin/webproc` | High
-6 | File | `/editsettings` | High
-7 | File | `/expert_wizard.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/images/browserslide.jpg` | High
-10 | File | `/includes/lib/get.php` | High
-11 | File | `/login` | Low
-12 | File | `/main?cmd=invalid_browser` | High
-13 | File | `/manager?action=getlogcat` | High
-14 | File | `/mc` | Low
-15 | File | `/plugins/Dashboard/Controller.php` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-18 | File | `/SASWebReportStudio/logonAndRender.do` | High
-19 | File | `/scas/admin/` | Medium
-20 | File | `/tlogin.cgi` | Medium
-21 | File | `/tmp/scfgdndf` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/usr/ucb/mail` | High
+5 | File | `/cgi-bin/luci/api/wireless` | High
+6 | File | `/cgi-bin/webproc` | High
+7 | File | `/editsettings` | High
+8 | File | `/expert_wizard.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/images/browserslide.jpg` | High
+11 | File | `/includes/lib/get.php` | High
+12 | File | `/login` | Low
+13 | File | `/main?cmd=invalid_browser` | High
+14 | File | `/manager?action=getlogcat` | High
+15 | File | `/mc` | Low
+16 | File | `/plugins/Dashboard/Controller.php` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+19 | File | `/SASWebReportStudio/logonAndRender.do` | High
+20 | File | `/scas/admin/` | Medium
+21 | File | `/tlogin.cgi` | Medium
+22 | File | `/tmp/scfgdndf` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
 25 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

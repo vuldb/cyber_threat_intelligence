@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,37 +76,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/api/upload` | Medium
 7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/cgi-bin` | Medium
+9 | File | `/bsms/?page=manage_account` | High
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/fuel/sitevariables/delete/4` | High
-14 | File | `/login` | Low
-15 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/fuel/index.php/fuel/logs/items` | High
+14 | File | `/fuel/sitevariables/delete/4` | High
+15 | File | `/librarian/bookdetails.php` | High
 16 | File | `/mgmt/tm/util/bash` | High
 17 | File | `/monitoring` | Medium
 18 | File | `/new` | Low
 19 | File | `/proc/<pid>/status` | High
 20 | File | `/public/plugins/` | High
-21 | File | `/scripts/killpvhost` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-25 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/redis.ds` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-32 | File | `/wp-json/wc/v3/webhooks` | High
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `AccountManagerService.java` | High
-35 | File | `actions/CompanyDetailsSave.php` | High
-36 | File | `ActiveServices.java` | High
-37 | ... | ... | ...
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+25 | File | `/tmp` | Low
+26 | File | `/uncpath/` | Medium
+27 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+28 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+29 | File | `/wp-json/wc/v3/webhooks` | High
+30 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+31 | File | `AccountManagerService.java` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `ActiveServices.java` | High
+34 | File | `ActivityManagerService.java` | High
+35 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

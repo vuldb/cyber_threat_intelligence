@@ -65,13 +65,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/admin_login.php` | High
 5 | File | `/advanced/adv_dns.xgi` | High
 6 | File | `/CFIDE/probe.cfm` | High
-7 | File | `/computer/(agent-name)/api` | High
+7 | File | `/cgi-bin/kerbynet` | High
 8 | File | `/dev/snd/seq` | Medium
 9 | File | `/error` | Low
 10 | File | `/etc/config/rpcd` | High
 11 | File | `/goform/saveParentControlInfo` | High
-12 | File | `/htdocs/admin/dict.php?id=3` | High
-13 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/goform/SetFirewallCfg` | High
+13 | File | `/htdocs/admin/dict.php?id=3` | High
 14 | File | `/module/module_frame/index.php` | High
 15 | File | `/nidp/app/login` | High
 16 | File | `/proc` | Low
@@ -95,13 +95,13 @@ ID | Type | Indicator | Confidence
 34 | File | `administrative` | High
 35 | File | `Alias.asmx` | Medium
 36 | File | `aolfix.exe` | Medium
-37 | File | `Array.prototype.concat` | High
-38 | File | `AudioService.java` | High
-39 | File | `awhost32.exe` | Medium
-40 | File | `bidhistory.php` | High
+37 | File | `app/models/user.rb` | High
+38 | File | `apply.cgi` | Medium
+39 | File | `Array.prototype.concat` | High
+40 | File | `AudioService.java` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

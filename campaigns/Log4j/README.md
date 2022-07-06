@@ -4908,12 +4908,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1222 | CWE-275 | Permission Issues | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4921,20 +4922,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/alarm_pi/alarmService.php` | High
-2 | File | `/bin/boa` | Medium
-3 | File | `/blog/blog.php` | High
-4 | File | `/bsms/?page=manage_account` | High
-5 | File | `/company` | Medium
-6 | File | `/company/account/safety/trade` | High
-7 | File | `/company/down_resume/total/nature` | High
-8 | File | `/company/service/increment/add/im` | High
-9 | File | `/company/view_be_browsed/total` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-12 | ... | ... | ...
+1 | File | `/admin/conferences/get-all-status/` | High
+2 | File | `/admin/conferences/list/` | High
+3 | File | `/admin/edit_admin_details.php?id=admin` | High
+4 | File | `/admin/general/change-lang` | High
+5 | File | `/admin/group/list/` | High
+6 | File | `/admin/service/stop/` | High
+7 | File | `/ci_hms/massage_room/edit/1` | High
+8 | File | `/ci_hms/search` | High
+9 | File | `/ci_ssms/index.php/orders/create` | High
+10 | File | `/College/admin/teacher.php` | High
+11 | File | `/dashboard/snapshot/*?orgId=0` | High
+12 | File | `/front/roomtype-details.php` | High
+13 | File | `/getImage` | Medium
+14 | File | `/librarian/bookdetails.php` | High
+15 | File | `/pdfalto/src/pdfalto.cc` | High
+16 | File | `/pms/index.php` | High
+17 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

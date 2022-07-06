@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,12 +63,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,40 +82,39 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/dl_sendmail.php` | High
 4 | File | `/admin/login.php` | High
 5 | File | `/admin/produts/controller.php` | High
-6 | File | `/admin/user/team` | High
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/fuel/sitevariables/delete/4` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/monitoring` | Medium
-20 | File | `/ms/cms/content/list.do` | High
-21 | File | `/new` | Low
-22 | File | `/orms/` | Low
-23 | File | `/plesk-site-preview/` | High
-24 | File | `/proc/<pid>/status` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/school/model/get_admin_profile.php` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-30 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-31 | File | `/student-grading-system/rms.php?page=grade` | High
-32 | File | `/timeline2.php` | High
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-36 | File | `/wp-json/wc/v3/webhooks` | High
-37 | ... | ... | ...
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+18 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+19 | File | `/index/jobfairol/show/` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/monitoring` | Medium
+23 | File | `/ms/cms/content/list.do` | High
+24 | File | `/new` | Low
+25 | File | `/orms/` | Low
+26 | File | `/plesk-site-preview/` | High
+27 | File | `/proc/<pid>/status` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/school/model/get_admin_profile.php` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+33 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+34 | File | `/student-grading-system/rms.php?page=grade` | High
+35 | File | `/timeline2.php` | High
+36 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

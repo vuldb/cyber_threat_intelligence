@@ -48,12 +48,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,7 +66,8 @@ ID | Type | Indicator | Confidence
 3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
 4 | File | `/onvif/device_service` | High
 5 | File | `/setSystemAdmin` | High
-6 | ... | ... | ...
+6 | File | `/ucms/index.php?do=list_edit` | High
+7 | ... | ... | ...
 
 There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

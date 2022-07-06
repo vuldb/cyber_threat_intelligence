@@ -116,12 +116,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -132,29 +134,28 @@ ID | Type | Indicator | Confidence
 1 | File | `.procmailrc` | Medium
 2 | File | `/anony/mjpg.cgi` | High
 3 | File | `/bin/mail` | Medium
-4 | File | `/common/info.cgi` | High
-5 | File | `/data/vendor/tcl` | High
-6 | File | `/dev/random` | Medium
+4 | File | `/blog/blog.php` | High
+5 | File | `/common/info.cgi` | High
+6 | File | `/data/vendor/tcl` | High
 7 | File | `/etc/hosts` | Medium
 8 | File | `/etc/passwd` | Medium
 9 | File | `/etc/password` | High
 10 | File | `/files.md5` | Medium
 11 | File | `/forum/away.php` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/op/op.LockDocument.php` | High
-15 | File | `/plesk-site-preview/` | High
-16 | File | `/proc/self/setgroups` | High
-17 | File | `/proc/stat` | Medium
-18 | File | `/ram/pckg/security/nova/bin/ipsec` | High
-19 | File | `/rest/api/2/search` | High
-20 | File | `/rest/api/latest/projectvalidate/key` | High
-21 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/tmp` | Low
-24 | ... | ... | ...
+12 | File | `/hy-cgi/devices.cgi` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/op/op.LockDocument.php` | High
+16 | File | `/plesk-site-preview/` | High
+17 | File | `/proc/self/setgroups` | High
+18 | File | `/proc/stat` | Medium
+19 | File | `/ram/pckg/security/nova/bin/ipsec` | High
+20 | File | `/rest/api/2/search` | High
+21 | File | `/rest/api/latest/projectvalidate/key` | High
+22 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+23 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

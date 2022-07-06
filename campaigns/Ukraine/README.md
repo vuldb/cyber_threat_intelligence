@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CH](https://vuldb.com/?country.ch)
 
 ## Actors
 
@@ -21,7 +22,8 @@ ID | Actor | Confidence
 3 | [Mirai](https://vuldb.com/?actor.mirai) | High
 4 | [Gafgyt](https://vuldb.com/?actor.gafgyt) | High
 5 | [Moobot](https://vuldb.com/?actor.moobot) | High
-6 | ... | ...
+6 | [Ripprbot](https://vuldb.com/?actor.ripprbot) | High
+7 | ... | ...
 
 There are 11 more actor items available. Please use our online service to access the data.
 
@@ -66,7 +68,7 @@ ID | IP address | Hostname | Actor | Confidence
 33 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
 34 | ... | ... | ... | ...
 
-There are 131 more IOC items available. Please use our online service to access the data.
+There are 132 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,12 +76,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,22 +90,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/alarm_pi/alarmService.php` | High
-2 | File | `/bsms/?page=manage_account` | High
-3 | File | `/company` | Medium
-4 | File | `/company/account/safety/trade` | High
-5 | File | `/company/down_resume/total/nature` | High
-6 | File | `/company/service/increment/add/im` | High
-7 | File | `/company/view_be_browsed/total` | High
-8 | File | `/dashboard/reports/logs/view` | High
-9 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-10 | File | `/fm-data.lua` | Medium
-11 | File | `/freelance/resume_list` | High
-12 | File | `/home/campus/campus_job` | High
-13 | File | `/home/job/index` | High
-14 | ... | ... | ...
+1 | File | `/ci_hms/massage_room/edit/1` | High
+2 | File | `/ci_hms/search` | High
+3 | File | `/ci_ssms/index.php/orders/create` | High
+4 | File | `/College/admin/teacher.php` | High
+5 | File | `/pdfalto/src/pdfalto.cc` | High
+6 | File | `/pms/index.php` | High
+7 | File | `/pms/update_user.php?user_id=1` | High
+8 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,6 +118,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.rnbo.gov.ua/en/Diialnist/4823.html
 * https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/
 * https://www.wordfence.com/blog/2022/03/ukraine-universities-hacked-by-brazilian-via-finland-as-russian-invasion-started/
+* https://www.zscaler.com/blogs/security-research/hermeticwiper-resurgence-targeted-attacks-ukraine
 
 ## Literature
 

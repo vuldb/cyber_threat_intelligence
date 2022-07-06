@@ -43,12 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,43 +67,43 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/login_action.cgi` | High
 8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 9 | File | `/checkLogin.cgi` | High
-10 | File | `/cms/print.php` | High
-11 | File | `/concat?/%2557EB-INF/web.xml` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/data/remove` | Medium
-14 | File | `/etc/passwd` | Medium
-15 | File | `/filemanager/upload.php` | High
-16 | File | `/goforms/rlminfo` | High
-17 | File | `/index_amp.php` | High
-18 | File | `/login` | Low
-19 | File | `/navigate/navigate_download.php` | High
-20 | File | `/ocwbs/admin/?page=user/manage_user` | High
-21 | File | `/ofrs/admin/?page=user/manage_user` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/p` | Low
-25 | File | `/password.html` | High
-26 | File | `/proc/ioports` | High
-27 | File | `/property-list/property_view.php` | High
-28 | File | `/ptms/classes/Users.php` | High
-29 | File | `/rest` | Low
-30 | File | `/rest/api/2/search` | High
-31 | File | `/s/` | Low
-32 | File | `/scripts/cpan_config` | High
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-34 | File | `/services/system/setup.json` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/vloggers_merch/?p=view_product` | High
-37 | File | `/webconsole/APIController` | High
-38 | File | `/websocket/exec` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | File | `/wp-json` | Medium
-41 | File | `/wp-json/oembed/1.0/embed?url` | High
-42 | File | `/_next` | Low
-43 | File | `4.edu.php\conn\function.php` | High
-44 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-45 | File | `adclick.php` | Medium
-46 | File | `addentry.php` | Medium
+10 | File | `/classes/Master.php?f=delete_train` | High
+11 | File | `/cms/print.php` | High
+12 | File | `/concat?/%2557EB-INF/web.xml` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/filemanager/upload.php` | High
+17 | File | `/goforms/rlminfo` | High
+18 | File | `/index_amp.php` | High
+19 | File | `/login` | Low
+20 | File | `/navigate/navigate_download.php` | High
+21 | File | `/ocwbs/admin/?page=user/manage_user` | High
+22 | File | `/ofrs/admin/?page=user/manage_user` | High
+23 | File | `/out.php` | Medium
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/p` | Low
+26 | File | `/password.html` | High
+27 | File | `/proc/ioports` | High
+28 | File | `/property-list/property_view.php` | High
+29 | File | `/ptms/classes/Users.php` | High
+30 | File | `/rest` | Low
+31 | File | `/rest/api/2/search` | High
+32 | File | `/s/` | Low
+33 | File | `/scripts/cpan_config` | High
+34 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+35 | File | `/services/system/setup.json` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/uncpath/` | Medium
+38 | File | `/vloggers_merch/?p=view_product` | High
+39 | File | `/webconsole/APIController` | High
+40 | File | `/websocket/exec` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `/wp-json` | Medium
+43 | File | `/wp-json/oembed/1.0/embed?url` | High
+44 | File | `/_next` | Low
+45 | File | `4.edu.php\conn\function.php` | High
+46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 47 | ... | ... | ...
 
 There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

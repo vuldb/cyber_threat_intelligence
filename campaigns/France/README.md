@@ -31,6 +31,14 @@ ID | IP address | Hostname | Actor | Confidence
 
 There are 13 more IOC items available. Please use our online service to access the data.
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within France. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:

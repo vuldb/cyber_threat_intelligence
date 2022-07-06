@@ -57,12 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,27 +89,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/objects/getImageMP4.php` | High
 16 | File | `/one_church/userregister.php` | High
 17 | File | `/out.php` | Medium
-18 | File | `/public/plugins/` | High
-19 | File | `/replication` | Medium
-20 | File | `/req_password_user.php` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/syno/etc/mount.conf` | High
-30 | File | `/v2/quantum/save-data-upload-big-file` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `4.edu.php` | Medium
-35 | File | `adclick.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/replication` | Medium
+21 | File | `/req_password_user.php` | High
+22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+23 | File | `/SASWebReportStudio/logonAndRender.do` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/syno/etc/mount.conf` | High
+31 | File | `/v2/quantum/save-data-upload-big-file` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `4.edu.php` | Medium
 36 | ... | ... | ...
 
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,18 +55,19 @@ ID | Type | Indicator | Confidence
 6 | File | `/dev/kmem` | Medium
 7 | File | `/dev/snd/seq` | Medium
 8 | File | `/device/device=140/tab=wifi/view` | High
-9 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-10 | File | `/product_list.php` | High
-11 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-12 | File | `/src/core/controllers/cm.php` | High
-13 | File | `/transmission/web/` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local` | Medium
-16 | File | `/weibo/publishdata` | High
-17 | File | `adm.cgi` | Low
-18 | ... | ... | ...
+9 | File | `/goform/SetClientState` | High
+10 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+11 | File | `/product_list.php` | High
+12 | File | `/rrps/classes/Master.php?f=delete_category` | High
+13 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+14 | File | `/src/core/controllers/cm.php` | High
+15 | File | `/transmission/web/` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/local` | Medium
+18 | File | `/weibo/publishdata` | High
+19 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

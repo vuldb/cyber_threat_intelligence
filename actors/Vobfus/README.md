@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vobfus:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
-2 | [85.17.31.82](https://vuldb.com/?ip.85.17.31.82) | - | - | High
-3 | [178.162.203.202](https://vuldb.com/?ip.178.162.203.202) | - | - | High
-4 | ... | ... | ... | ...
+1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+2 | [18.211.9.206](https://vuldb.com/?ip.18.211.9.206) | ec2-18-211-9-206.compute-1.amazonaws.com | - | Medium
+3 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+4 | [37.48.65.148](https://vuldb.com/?ip.37.48.65.148) | - | - | High
+5 | [45.202.208.234](https://vuldb.com/?ip.45.202.208.234) | - | - | High
+6 | [46.166.182.115](https://vuldb.com/?ip.46.166.182.115) | - | - | High
+7 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+8 | [64.32.8.67](https://vuldb.com/?ip.64.32.8.67) | customer.sharktech.net | - | High
+9 | [67.225.218.50](https://vuldb.com/?ip.67.225.218.50) | lb01.parklogic.com | - | High
+10 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-358 | 7PK Security Features | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,19 +53,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/setSystemAdmin` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `/webpages/data` | High
-4 | File | `account.asp` | Medium
-5 | File | `admin\model\catalog\download.php` | High
-6 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/app/controller/Books.php` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/config/getuser` | High
+6 | File | `/context/%2e/WEB-INF/web.xml` | High
+7 | File | `/dev/urandom` | Medium
+8 | File | `/etc/ajenti/config.yml` | High
+9 | File | `/etc/quantum/quantum.conf` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/exec/` | Low
+12 | File | `/getcfg.php` | Medium
+13 | File | `/goform/dir_setWanWifi` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/MIME/INBOX-MM-1/` | High
+17 | File | `/modules/projects/vw_files.php` | High
+18 | File | `/opt/tms/bin/cli` | High
+19 | File | `/plain` | Low
+20 | File | `/server-status` | High
+21 | File | `/setSystemAdmin` | High
+22 | File | `/staff/tools/custom-fields` | High
+23 | File | `/tmp/phpglibccheck` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/WebMstr7/servlet/mstrWeb` | High
+26 | File | `/webpages/data` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `/wp-json/oembed/1.0/embed?url` | High
+29 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0329-0405.html
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0412-0419.html
+* https://blog.talosintelligence.com/2019/06/threat-roundup-0607-0614.html
+* https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
+* https://blog.talosintelligence.com/2019/11/threat-roundup-1115-1122.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
+* https://blog.talosintelligence.com/2020/04/threat-roundup-0417-0424.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 
 ## Literature

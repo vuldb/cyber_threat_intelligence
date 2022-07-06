@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,12 +94,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,39 +113,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/powerline` | High
 4 | File | `/admin/syslog` | High
 5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/api/upload` | Medium
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/cgi-bin` | Medium
-9 | File | `/cgi-bin/kerbynet` | High
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/ci_hms/massage_room/edit/1` | High
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/fudforum/adm/hlplist.php` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/debug/pprof` | Medium
 13 | File | `/fuel/index.php/fuel/logs/items` | High
 14 | File | `/fuel/sitevariables/delete/4` | High
-15 | File | `/login` | Low
-16 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/objects/getImageMP4.php` | High
-21 | File | `/proc/<pid>/status` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/scripts/killpvhost` | High
+15 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+16 | File | `/index/jobfairol/show/` | High
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/new` | Low
+21 | File | `/objects/getImageMP4.php` | High
+22 | File | `/proc/<pid>/status` | High
+23 | File | `/public/plugins/` | High
 24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 25 | File | `/secure/QueryComponent!Default.jspa` | High
 26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
 28 | File | `/tmp` | Low
-29 | File | `/tmp/redis.ds` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-32 | File | `/web/MCmsAction.java` | High
-33 | File | `/wp-admin` | Medium
-34 | File | `/wp-json/wc/v3/webhooks` | High
-35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-36 | ... | ... | ...
+29 | File | `/uncpath/` | Medium
+30 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+31 | File | `/web/MCmsAction.java` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
