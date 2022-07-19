@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,12 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,36 +64,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/sudoers` | Medium
-2 | File | `/forum/away.php` | High
-3 | File | `/inc/HTTPClient.php` | High
-4 | File | `/out.php` | Medium
-5 | File | `/products/details.asp` | High
-6 | File | `/service/upload` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `adclick.php` | Medium
-9 | File | `add_comment.php` | High
-10 | File | `admin/system_manage/save.html` | High
-11 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
-12 | File | `administrator/components/com_media/helpers/media.php` | High
-13 | File | `arm/t7xx/r5p0/mali_kbase_core_linux.c` | High
-14 | File | `awstats.pl` | Medium
-15 | File | `books.php` | Medium
-16 | File | `bridge/yabbse.inc.php` | High
-17 | File | `cachemgr.cgi` | Medium
-18 | File | `captcha.php` | Medium
-19 | File | `catagorie.php` | High
-20 | File | `category.php` | Medium
-21 | File | `cgi-bin/` | Medium
-22 | File | `cgi-bin/cmh/webcam.sh` | High
-23 | File | `channels/chan_skinny.c` | High
-24 | File | `clwarn.cgi` | Medium
-25 | File | `coders/dcm.c` | Medium
-26 | File | `comment_add.asp` | High
-27 | File | `content.php` | Medium
-28 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/conferences/get-all-status/` | High
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/countrymanagement.php` | High
+5 | File | `/admin/general/change-lang` | High
+6 | File | `/admin/group/list/` | High
+7 | File | `/admin/renewaldue.php` | High
+8 | File | `/admin/usermanagement.php` | High
+9 | File | `/backups/` | Medium
+10 | File | `/catcompany.php` | High
+11 | File | `/etc/sudoers` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/front/roomtype-details.php` | High
+14 | File | `/inc/HTTPClient.php` | High
+15 | File | `/lists/admin/` | High
+16 | File | `/mcategory.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/products/details.asp` | High
+19 | File | `/real-estate-script/search_property.php` | High
+20 | File | `/service/upload` | High
+21 | File | `/sitemagic/index.php` | High
+22 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+23 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/var/run/watchman.pid` | High
+26 | File | `/wbg/core/_includes/authorization.inc.php` | High
+27 | File | `/wolfcms/?/admin/user/add` | High
+28 | File | `adclick.php` | Medium
+29 | File | `add_comment.php` | High
+30 | File | `admin/app/mediamanager` | High
+31 | File | `admin/manage-ticket.php` | High
+32 | File | `admin/system_manage/save.html` | High
+33 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

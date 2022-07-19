@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with FIN8:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN8:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [104.168.145.204](https://vuldb.com/?ip.104.168.145.204) | hwsrv-836597.hostwindsdns.com | Badhatch | High
-2 | [104.168.237.21](https://vuldb.com/?ip.104.168.237.21) | hwsrv-850035.hostwindsdns.com | - | High
-3 | [192.52.167.199](https://vuldb.com/?ip.192.52.167.199) | mx312.punkchaine.net | Badhatch | High
+1 | [37.1.204.87](https://vuldb.com/?ip.37.1.204.87) | - | - | High
+2 | [104.168.145.204](https://vuldb.com/?ip.104.168.145.204) | hwsrv-836597.hostwindsdns.com | Badhatch | High
+3 | [104.168.237.21](https://vuldb.com/?ip.104.168.237.21) | hwsrv-850035.hostwindsdns.com | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,8 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,17 +54,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `addentry.php` | Medium
-2 | File | `add_comment.php` | High
-3 | File | `admin/index.php` | High
-4 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/Ap4RtpAtom.cpp` | High
+3 | File | `/app/options.py` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/ci_hms/massage_room/edit/1` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/dashboard/reports/logs/view` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/fuel/index.php/fuel/logs/items` | High
+12 | File | `/fuel/sitevariables/delete/4` | High
+13 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+14 | File | `/index/jobfairol/show/` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/new` | Low
+19 | File | `/proc/<pid>/status` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+25 | File | `/tmp` | Low
+26 | File | `/uncpath/` | Medium
+27 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.morphisec.com/security-alert-fin8-is-back
 * https://businessinsights.bitdefender.com/deep-dive-into-a-fin8-attack-a-forensic-investigation
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.03.10/BADHATCH.pdf
 

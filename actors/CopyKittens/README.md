@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
 * [PT](https://vuldb.com/?country.pt)
-* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -54,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,33 +75,33 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin.php/vod/admin/topic/del` | High
 5 | File | `/admin/conferences/list/` | High
 6 | File | `/admin/deluser.php` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/edit_admin_details.php?id=admin` | High
-9 | File | `/admin/googleads.php` | High
-10 | File | `/admin/new-content` | High
-11 | File | `/admin/operations/tax.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/scheprofile.cgi` | High
-14 | File | `/admin/weixin.php` | High
-15 | File | `/apps/acs-commons/content/page-compare.html` | High
-16 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-17 | File | `/bcms/admin/courts/manage_court.php` | High
-18 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-19 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-20 | File | `/catcompany.php` | High
-21 | File | `/cgi-bin/kerbynet` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/cms/classes/Master.php?f=delete_client` | High
-24 | File | `/config` | Low
-25 | File | `/defaultui/player/modern.html` | High
-26 | File | `/ffos/admin/categories/manage_category.php` | High
-27 | File | `/ffos/admin/menus/view_menu.php` | High
-28 | File | `/gaia-job-admin/user/add` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/setNetworkLan` | High
-31 | File | `/goform/SetSysTimeCfg` | High
-32 | File | `/html/Solar_Ftp.php` | High
-33 | File | `/lists/admin/` | High
+7 | File | `/admin/edit_admin_details.php?id=admin` | High
+8 | File | `/admin/googleads.php` | High
+9 | File | `/admin/new-content` | High
+10 | File | `/admin/operations/tax.php` | High
+11 | File | `/admin/payment.php` | High
+12 | File | `/admin/scheprofile.cgi` | High
+13 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+14 | File | `/bcms/admin/courts/manage_court.php` | High
+15 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+16 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+17 | File | `/catcompany.php` | High
+18 | File | `/cgi-bin/kerbynet` | High
+19 | File | `/cgi-bin/readfile.tcl` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/cms/classes/Master.php?f=delete_client` | High
+22 | File | `/config` | Low
+23 | File | `/defaultui/player/modern.html` | High
+24 | File | `/ffos/admin/categories/manage_category.php` | High
+25 | File | `/ffos/admin/menus/view_menu.php` | High
+26 | File | `/gaia-job-admin/user/add` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/setNetworkLan` | High
+29 | File | `/goform/SetSysTimeCfg` | High
+30 | File | `/html/Solar_Ftp.php` | High
+31 | File | `/isms/admin/stocks/view_stock.php` | High
+32 | File | `/lists/admin/` | High
+33 | File | `/mtms/admin/?page=transaction/send` | High
 34 | ... | ... | ...
 
 There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

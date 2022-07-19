@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -58,36 +58,37 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/reports.php` | High
 7 | File | `/admin/service/stop/` | High
 8 | File | `/admin/usermanagement.php` | High
-9 | File | `/administrator/alerts/alertLightbox.php` | High
+9 | File | `/app/options.py` | High
 10 | File | `/bcms/admin/courts/view_court.php` | High
 11 | File | `/category.php` | High
-12 | File | `/CommunitySSORedirect.jsp` | High
-13 | File | `/config` | Low
-14 | File | `/ctpms/admin/individuals/update_status.php` | High
-15 | File | `/filemanager/upload/drop` | High
-16 | File | `/freelance/resume_list` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/goform/saveParentControlInfo` | High
-19 | File | `/goform/SetClientState` | High
-20 | File | `/goform/setDeviceSettings` | High
-21 | File | `/help/treecontent.jsp` | High
-22 | File | `/home/jobfairol/resumelist` | High
-23 | File | `/hprms/admin/rooms/view_room.php` | High
-24 | File | `/hprms/classes/Master.php?f=delete_message` | High
-25 | File | `/images/background/1.php` | High
-26 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-27 | File | `/ip/car-rental-management-system/admin/ajax.php?action=login` | High
-28 | File | `/lists/admin/` | High
-29 | File | `/modules/mindmap/index.php` | High
-30 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | File | `/ocwbs/admin/services/manage_service.php` | High
-33 | File | `/ocwbs/classes/Master.php?f=delete_booking` | High
-34 | File | `/ocwbs/classes/Master.php?f=delete_vehicle` | High
-35 | File | `/odfs/classes/Master.php?f=save_category` | High
-36 | ... | ... | ...
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/CommunitySSORedirect.jsp` | High
+14 | File | `/config` | Low
+15 | File | `/ctpms/admin/individuals/update_status.php` | High
+16 | File | `/filemanager/upload/drop` | High
+17 | File | `/freelance/resume_list` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/goform/saveParentControlInfo` | High
+20 | File | `/goform/SetClientState` | High
+21 | File | `/goform/setDeviceSettings` | High
+22 | File | `/help/treecontent.jsp` | High
+23 | File | `/home/jobfairol/resumelist` | High
+24 | File | `/hprms/admin/rooms/view_room.php` | High
+25 | File | `/hprms/classes/Master.php?f=delete_message` | High
+26 | File | `/images/background/1.php` | High
+27 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+28 | File | `/ip/car-rental-management-system/admin/ajax.php?action=login` | High
+29 | File | `/lists/admin/` | High
+30 | File | `/modules/mindmap/index.php` | High
+31 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+32 | File | `/ocwbs/admin/?page=user/manage_user` | High
+33 | File | `/ocwbs/admin/services/manage_service.php` | High
+34 | File | `/ocwbs/classes/Master.php?f=delete_booking` | High
+35 | File | `/ocwbs/classes/Master.php?f=delete_vehicle` | High
+36 | File | `/odfs/classes/Master.php?f=save_category` | High
+37 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

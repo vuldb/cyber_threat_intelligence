@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [HK](https://vuldb.com/?country.hk)
-* [NZ](https://vuldb.com/?country.nz)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,12 +287,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -300,20 +301,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/deluser.php` | High
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/general.cgi` | High
-4 | File | `/admin/scheprofile.cgi` | High
-5 | File | `/admin/showbad.php` | High
-6 | File | `/admin/usermanagement.php` | High
-7 | File | `/admin/ztliuyan_sendmail.php` | High
-8 | File | `/churchcrm/WhyCameEditor.php` | High
-9 | File | `/dashboard/snapshot/*?orgId=0` | High
-10 | File | `/data/vendor/tcl` | High
-11 | File | `/dl/dl_sendmail.php` | High
-12 | ... | ... | ...
+1 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+2 | File | `/app/options.py` | High
+3 | File | `/ci_hms/massage_room/edit/1` | High
+4 | File | `/ci_hms/search` | High
+5 | File | `/ci_ssms/index.php/orders/create` | High
+6 | File | `/goform/formLogin` | High
+7 | File | `/index.php` | Medium
+8 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+9 | File | `/index.php?page=search/rentals` | High
+10 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+11 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

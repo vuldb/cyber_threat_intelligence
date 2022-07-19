@@ -20,11 +20,11 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT29:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,7 +67,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -83,38 +84,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/login.php` | High
 5 | File | `/admin/produts/controller.php` | High
 6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/goform/aspForm` | High
-17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-18 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-19 | File | `/index/jobfairol/show/` | High
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/monitoring` | Medium
-23 | File | `/ms/cms/content/list.do` | High
-24 | File | `/new` | Low
-25 | File | `/orms/` | Low
-26 | File | `/plesk-site-preview/` | High
-27 | File | `/proc/<pid>/status` | High
-28 | File | `/public/plugins/` | High
-29 | File | `/school/model/get_admin_profile.php` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-33 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-34 | File | `/student-grading-system/rms.php?page=grade` | High
-35 | File | `/timeline2.php` | High
-36 | ... | ... | ...
+7 | File | `/app/options.py` | High
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/ms/cms/content/list.do` | High
+25 | File | `/new` | Low
+26 | File | `/orms/` | Low
+27 | File | `/plesk-site-preview/` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/proc/<pid>/status` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/school/model/get_admin_profile.php` | High
+32 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

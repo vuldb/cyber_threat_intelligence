@@ -35,9 +35,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
 7 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
 8 | [51.68.128.171](https://vuldb.com/?ip.51.68.128.171) | ip171.ip-51-68-128.eu | - | High
-9 | ... | ... | ... | ...
+9 | [51.89.183.99](https://vuldb.com/?ip.51.89.183.99) | 90.eri1.ovh.abcd.network | - | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -101,10 +102,9 @@ ID | Type | Indicator | Confidence
 40 | File | `books.php` | Medium
 41 | File | `btif_hd.cc` | Medium
 42 | File | `cart.php` | Medium
-43 | File | `cart_add.php` | Medium
-44 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +119,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-07%20Agent%20Tesla%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-17%20Agent%20Tesla%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-20%20Agent%20Tesla%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-14%20Agent%20Tesla%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-22%20AgentTesla%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-22%20AgentTesla%20IOCs%20Rd2
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-20%20Agent%20Tesla%20IOCs
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant

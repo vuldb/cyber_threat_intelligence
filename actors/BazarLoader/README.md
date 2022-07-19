@@ -56,9 +56,11 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
 27 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
 28 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | - | High
-29 | ... | ... | ... | ...
+29 | [45.71.112.70](https://vuldb.com/?ip.45.71.112.70) | host-45-71-112-70.nedetel.net | - | High
+30 | [45.76.254.23](https://vuldb.com/?ip.45.76.254.23) | 45.76.254.23.vultr.com | - | Medium
+31 | ... | ... | ... | ...
 
-There are 112 more IOC items available. Please use our online service to access the data.
+There are 121 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,12 +68,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1552 | CWE-319, CWE-522 | Unprotected Storage of Credentials | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,10 +102,16 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
+* https://blogs.infoblox.com/cyber-threat-intelligence/ransomware-attacks-target-healthcare-sector/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-16%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-03%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-08%20BazarCall%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-12%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-13%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-18%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-02%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-24%20Bazarloader%20IOCs
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Stolen+Images+Evidence+Campaign+Continues+Pushing+BazarLoader+Malware/27816/
 * https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/

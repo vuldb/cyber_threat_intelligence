@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -115,51 +115,50 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/#/CampaignManager/users` | High
 3 | File | `/admin/admin_login.php` | High
-4 | File | `/admin/login.php` | High
+4 | File | `/app/options.py` | High
 5 | File | `/cgi-bin/luci/api/auth` | High
 6 | File | `/cgi-bin/luci/api/diagnose` | High
-7 | File | `/classes/Master.php?f=delete_train` | High
-8 | File | `/Content/Template/root/reverse-shell.aspx` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/dev/tty` | Medium
-11 | File | `/etc/config/image_sign` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/gaia-job-admin/user/add` | High
-14 | File | `/goforms/rlminfo` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/login` | Low
-17 | File | `/member/index/login.html` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/ocwbs/admin/?page=user/manage_user` | High
-20 | File | `/ofrs/admin/?page=user/manage_user` | High
-21 | File | `/p1/p2/:name` | Medium
-22 | File | `/php/passport/index.php` | High
-23 | File | `/rdms/admin/?page=user/manage_user` | High
-24 | File | `/requests.php` | High
-25 | File | `/saml/login` | Medium
-26 | File | `/ScadaBR/login.htm` | High
-27 | File | `/setting/setDeviceName` | High
-28 | File | `/setting/setLanguageCfg` | High
-29 | File | `/setting/setUploadSetting` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/upload` | Low
-32 | File | `/user-utils/users/md5.json` | High
-33 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-34 | File | `/var/adm/btmp` | High
-35 | File | `/vloggers_merch/?p=view_product` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `account/login.php` | High
-38 | File | `ad/login.asp` | Medium
-39 | File | `admin.inc.php` | High
-40 | File | `admin/?page=students` | High
-41 | File | `admin/admin_ping.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/login.php` | High
-45 | File | `admin/navbar.php?action=add_page` | High
-46 | ... | ... | ...
+7 | File | `/ci_spms/admin/category` | High
+8 | File | `/ci_spms/admin/search/searching/` | High
+9 | File | `/classes/Master.php?f=delete_train` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/dev/tty` | Medium
+13 | File | `/etc/config/image_sign` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/gaia-job-admin/user/add` | High
+16 | File | `/ghost/preview` | High
+17 | File | `/goforms/rlminfo` | High
+18 | File | `/HNAP1` | Low
+19 | File | `/login` | Low
+20 | File | `/member/index/login.html` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/ocwbs/admin/?page=user/manage_user` | High
+23 | File | `/ofrs/admin/?page=user/manage_user` | High
+24 | File | `/p1/p2/:name` | Medium
+25 | File | `/php/passport/index.php` | High
+26 | File | `/rdms/admin/?page=user/manage_user` | High
+27 | File | `/requests.php` | High
+28 | File | `/saml/login` | Medium
+29 | File | `/ScadaBR/login.htm` | High
+30 | File | `/setting/setDeviceName` | High
+31 | File | `/setting/setLanguageCfg` | High
+32 | File | `/setting/setUploadSetting` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/upload` | Low
+35 | File | `/user-utils/users/md5.json` | High
+36 | File | `/userRpm/popupSiteSurveyRpm.html` | High
+37 | File | `/var/adm/btmp` | High
+38 | File | `/vloggers_merch/?p=view_product` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `account/login.php` | High
+41 | File | `ad/login.asp` | Medium
+42 | File | `admin.inc.php` | High
+43 | File | `admin/?page=students` | High
+44 | File | `admin/admin_ping.php` | High
+45 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

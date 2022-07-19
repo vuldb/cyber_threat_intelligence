@@ -26,6 +26,14 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [95.169.196.52](https://vuldb.com/?ip.95.169.196.52) | - | - | High
 3 | [185.206.180.138](https://vuldb.com/?ip.185.206.180.138) | 25.http-proxy2.cloudns.net | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Moses Staff_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Moses Staff. This data is unique as it uses our predictive model for actor profiling.

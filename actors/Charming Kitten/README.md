@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Charming Kitten:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Charming Kitten:
 
-* [NL](https://vuldb.com/?country.nl)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,12 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,38 +74,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/Ap4RtpAtom.cpp` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/context/%2e/WEB-INF/web.xml` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/file?action=download&file` | High
-8 | File | `/fuel/index.php/fuel/logs/items` | High
-9 | File | `/fuel/sitevariables/delete/4` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/new` | Low
-13 | File | `/plugins/servlet/audit/resource` | High
-14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-15 | File | `/proc/<pid>/status` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/replication` | Medium
-18 | File | `/RestAPI` | Medium
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/secure/QueryComponent!Default.jspa` | High
-21 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/tmp/zarafa-vacation-*` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
-27 | File | `/var/log/nginx` | High
-28 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-29 | File | `/wp-json/wc/v3/webhooks` | High
-30 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/Ap4RtpAtom.cpp` | High
+3 | File | `/bcms/admin/?page=user/list` | High
+4 | File | `/bsms/?page=manage_account` | High
+5 | File | `/cgi-bin/login.cgi` | High
+6 | File | `/ci_hms/massage_room/edit/1` | High
+7 | File | `/context/%2e/WEB-INF/web.xml` | High
+8 | File | `/core/conditions/AbstractWrapper.java` | High
+9 | File | `/dashboard/reports/logs/view` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/file?action=download&file` | High
+12 | File | `/fuel/index.php/fuel/logs/items` | High
+13 | File | `/fuel/sitevariables/delete/4` | High
+14 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+15 | File | `/index/jobfairol/show/` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/new` | Low
+20 | File | `/plugin/LiveChat/getChat.json.php` | High
+21 | File | `/plugins/servlet/audit/resource` | High
+22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/RestAPI` | Medium
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/zarafa-vacation-*` | High
+32 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

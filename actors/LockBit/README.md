@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.91.83.176](https://vuldb.com/?ip.45.91.83.176) | - | - | High
 2 | [45.227.255.190](https://vuldb.com/?ip.45.227.255.190) | - | - | High
 3 | [88.80.147.102](https://vuldb.com/?ip.88.80.147.102) | - | - | High
-4 | ... | ... | ... | ...
+4 | [93.190.139.223](https://vuldb.com/?ip.93.190.139.223) | 93-190-139-223.hosted-by-worldstream.net | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,9 +55,11 @@ ID | Type | Indicator | Confidence
 5 | File | `/secure/QueryComponent!Default.jspa` | High
 6 | File | `/uncpath/` | Medium
 7 | File | `agent/Core/Controller/SendRequest.cpp` | High
-8 | ... | ... | ...
+8 | File | `backend/Login/load/` | High
+9 | File | `chan_skinny.c` | High
+10 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -65,6 +68,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Proxyshell/HvS_Proxyshell_2021_09_IOCs.csv
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit.csv
 * https://thedfirreport.com/2020/06/10/lockbit-ransomware-why-you-no-spread/
+* https://twitter.com/OscarAldana/status/1548457335852437506
+* https://www.cybereason.com/blog/threat-analysis-report-lockbit-2.0-all-paths-lead-to-ransom
 * https://www.ic3.gov/Media/News/2022/220204.pdf
 
 ## Literature

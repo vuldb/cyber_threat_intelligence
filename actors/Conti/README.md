@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Conti:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
-* [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -530,7 +530,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -541,38 +541,34 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/admin/` | Low
 3 | File | `/admin/communitymanagement.php` | High
-4 | File | `/admin/contenttemp` | High
-5 | File | `/admin/extended` | High
-6 | File | `/admin/featured.php` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/admin/newsletter1.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/user/UserAdmin.do` | High
-11 | File | `/admin/usermanagement.php` | High
-12 | File | `/Ap4RtpAtom.cpp` | High
-13 | File | `/api/crontab` | Medium
+4 | File | `/admin/extended` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/generalsettings.php` | High
+7 | File | `/admin/newsletter1.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/usermanagement.php` | High
+10 | File | `/Ap4RtpAtom.cpp` | High
+11 | File | `/api/addusers` | High
+12 | File | `/app/options.py` | High
+13 | File | `/application/common.php#action_log` | High
 14 | File | `/bcms/admin/?page=user/list` | High
 15 | File | `/bsms/?page=manage_account` | High
 16 | File | `/cgi-bin/login.cgi` | High
 17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/controller/Index.php` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/designer/add/layout` | High
-23 | File | `/devices/acurite.c` | High
-24 | File | `/example/editor` | High
-25 | File | `/filemanager/upload/drop` | High
-26 | File | `/fuel/index.php/fuel/logs/items` | High
-27 | File | `/fuel/sitevariables/delete/4` | High
-28 | File | `/goform/login_process` | High
-29 | File | `/goform/rlmswitchr_process` | High
-30 | File | `/goforms/rlminfo` | High
-31 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-32 | File | `/include/chart_generator.php` | High
-33 | ... | ... | ...
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/designer/add/layout` | High
+22 | File | `/etc/hosts` | Medium
+23 | File | `/filemanager/upload/drop` | High
+24 | File | `/fuel/index.php/fuel/logs/items` | High
+25 | File | `/fuel/sitevariables/delete/4` | High
+26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+27 | File | `/index/jobfairol/show/` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

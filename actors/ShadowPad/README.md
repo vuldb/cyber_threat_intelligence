@@ -33,6 +33,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-78 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

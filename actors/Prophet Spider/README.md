@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
 * [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
-* [DE](https://vuldb.com/?country.de)
+* [PT](https://vuldb.com/?country.pt)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,37 +61,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_https_cert_file/` | High
-2 | File | `/action/remove/` | High
-3 | File | `/admin/edit_admin_details.php?id=admin` | High
-4 | File | `/admin/featured.php` | High
-5 | File | `/admin/scheprofile.cgi` | High
-6 | File | `/admin/showbad.php` | High
-7 | File | `/admin/ztliuyan_sendmail.php` | High
-8 | File | `/ajax/config_rollback/` | High
-9 | File | `/ajax/set_sys_time/` | High
-10 | File | `/alarm_pi/alarmService.php` | High
-11 | File | `/application/controllers/Users.php` | High
-12 | File | `/cgi-bin/webproc` | High
-13 | File | `/ci_hms/massage_room/edit/1` | High
-14 | File | `/ci_hms/search` | High
-15 | File | `/classes/Master.php?f=delete_schedule` | High
-16 | File | `/company` | Medium
-17 | File | `/company/account/safety/trade` | High
-18 | File | `/company/service/increment/add/im` | High
-19 | File | `/dashboard/blocks/stacks/view_details/` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/dashboard/snapshot/*?orgId=0` | High
-22 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-23 | File | `/dl/dl_sendmail.php` | High
-24 | File | `/dl/dl_sendsms.php` | High
-25 | File | `/home/campus/campus_job` | High
-26 | File | `/home/job/index` | High
-27 | File | `/images/background/1.php` | High
-28 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-29 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys2` | High
+2 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+3 | File | `/ajax/remove_sniffer_raw_log/` | High
+4 | File | `/api/sys_username_passwd.cmd` | High
+5 | File | `/app/options.py` | High
+6 | File | `/auth/callback` | High
+7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+8 | File | `/cgi-bin/nobody` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/conf/` | Low
+12 | File | `/dashboard/menu-list.php` | High
+13 | File | `/dashboard/profile.php` | High
+14 | File | `/dashboard/table-list.php` | High
+15 | File | `/dev/pts/` | Medium
+16 | File | `/etc/lighttpd.d/ca.pem` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/etc/shadow` | Medium
+19 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

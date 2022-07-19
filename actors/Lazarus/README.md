@@ -21,11 +21,11 @@ There are 8 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [IN](https://vuldb.com/?country.in)
 * [US](https://vuldb.com/?country.us)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -228,13 +228,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -242,20 +242,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_cert_file/` | High
-2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/action/remove/` | High
-4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/api/user/userData?userCode=admin` | High
-6 | File | `/ci_hms/massage_room/edit/1` | High
-7 | File | `/ci_hms/search` | High
-8 | File | `/ci_ssms/index.php/orders/create` | High
-9 | File | `/classes/Master.php?f=delete_message` | High
-10 | File | `/classes/Master.php?f=delete_reservation` | High
-11 | File | `/classes/Master.php?f=delete_schedule` | High
-12 | ... | ... | ...
+1 | File | `/app/options.py` | High
+2 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+3 | File | `/dashboard/menu-list.php` | High
+4 | File | `/dashboard/profile.php` | High
+5 | File | `/dashboard/table-list.php` | High
+6 | File | `/etc/lighttpd.d/ca.pem` | High
+7 | File | `/ffos/classes/Master.php?f=save_category` | High
+8 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+9 | File | `/pkg/util` | Medium
+10 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

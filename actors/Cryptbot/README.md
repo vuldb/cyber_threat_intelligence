@@ -23,6 +23,32 @@ ID | IP address | Hostname | Campaign | Confidence
 
 There are 13 more IOC items available. Please use our online service to access the data.
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Cryptbot_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1202 | CWE-77 | Command Injection | High
+3 | T1600 | CWE-326 | J2EE Misconfiguration: Data Transmission Without Encryption | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Cryptbot. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/ci_spms/admin/search/searching/` | High
+2 | Argument | `langType` | Medium
+3 | Argument | `search` | Low
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

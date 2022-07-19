@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with Mirai:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,13 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,41 +63,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.dbus-keyrings` | High
-2 | File | `/.env` | Low
-3 | File | `//proc/kcore` | Medium
-4 | File | `/admin.php/Label/page_del` | High
-5 | File | `/admin.php/vod/admin/topic/del` | High
-6 | File | `/admin/?page=system_info/contact_info` | High
-7 | File | `/admin/comn/service/update.json` | High
-8 | File | `/admin/dl_sendmail.php` | High
-9 | File | `/admin/dl_sendsms.php` | High
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/api/user/userData?userCode=admin` | High
-14 | File | `/asms/classes/Master.php?f=save_product` | High
-15 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-16 | File | `/bsms/?page=manage_account` | High
-17 | File | `/cgi-bin/login.cgi` | High
-18 | File | `/checklogin.jsp` | High
+1 | File | `.forward` | Medium
+2 | File | `/.dbus-keyrings` | High
+3 | File | `/admin/communitymanagement.php` | High
+4 | File | `/admin/dl_sendmail.php` | High
+5 | File | `/admin/extended` | High
+6 | File | `/admin/featured.php` | High
+7 | File | `/admin/generalsettings.php` | High
+8 | File | `/admin/newsletter1.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/photo.php` | High
+11 | File | `/admin/renewaldue.php` | High
+12 | File | `/admin/success_story.php` | High
+13 | File | `/admin/usermanagement.php` | High
+14 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+15 | File | `/api/user/userData?userCode=admin` | High
+16 | File | `/app/options.py` | High
+17 | File | `/bsms/?page=manage_account` | High
+18 | File | `/cgi-bin/login.cgi` | High
 19 | File | `/ci_hms/massage_room/edit/1` | High
-20 | File | `/classes/Master.php?f=delete_reservation` | High
-21 | File | `/classes/Master.php?f=delete_schedule` | High
-22 | File | `/company` | Medium
-23 | File | `/company/service/increment/add/im` | High
-24 | File | `/dashboard/reports/logs/view` | High
-25 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/dl/dl_sendmail.php` | High
-28 | File | `/fuel/sitevariables/delete/4` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/saveParentControlInfo` | High
-31 | File | `/goform/SetClientState` | High
-32 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-33 | ... | ... | ...
+20 | File | `/ci_spms/admin/search/searching/` | High
+21 | File | `/ci_ssms/index.php/orders/create` | High
+22 | File | `/classes/Master.php?f=delete_reservation` | High
+23 | File | `/classes/Master.php?f=delete_schedule` | High
+24 | File | `/company` | Medium
+25 | File | `/company/service/increment/add/im` | High
+26 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

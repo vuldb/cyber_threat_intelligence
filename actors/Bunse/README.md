@@ -27,6 +27,16 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [62.171.157.185](https://vuldb.com/?ip.62.171.157.185) | vmi479022.contaboserver.net | Afghanistan and India | High
 2 | [95.111.241.233](https://vuldb.com/?ip.95.111.241.233) | vmi698587.contaboserver.net | Afghanistan and India | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bunse_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Bunse. This data is unique as it uses our predictive model for actor profiling.

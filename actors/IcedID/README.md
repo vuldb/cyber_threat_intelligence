@@ -56,12 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,53 +74,53 @@ ID | Type | Indicator | Confidence
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/admin-document/@@share` | High
 3 | File | `/admin/index.php` | High
-4 | File | `/anony/mjpg.cgi` | High
-5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/export` | Low
-11 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-12 | File | `/goform/addressNat` | High
-13 | File | `/iisadmpwd` | Medium
-14 | File | `/include/menu_v.inc.php` | High
-15 | File | `/lms/admin.php` | High
-16 | File | `/mc` | Low
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/my_photo_gallery/image.php` | High
-19 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-20 | File | `/out.php` | Medium
-21 | File | `/proc/*/cmdline"` | High
-22 | File | `/proc/pid/syscall` | High
-23 | File | `/reps/classes/Users.php?f=delete_agent` | High
-24 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-25 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/var/log/pcp/configs.sh` | High
-28 | File | `/webconsole/APIController` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-31 | File | `a-b-membres.php` | High
-32 | File | `action.php` | Medium
-33 | File | `admin-search.php` | High
-34 | File | `admin.jcomments.php` | High
-35 | File | `admin/adminsignin.html` | High
-36 | File | `admin/index.php` | High
-37 | File | `admin/infoclass_update.php` | High
-38 | File | `admin/plugin.php` | High
-39 | File | `admin/versions.html` | High
-40 | File | `administrator/index.php?option=com_pago&view=comments` | High
-41 | File | `Adminlog.asp` | Medium
-42 | File | `admin_iplog.php` | High
-43 | File | `ajax.php` | Medium
-44 | File | `ajax_admin_apis.php` | High
-45 | File | `ajax_php_pecl.php` | High
-46 | File | `allocate_block.cpp` | High
-47 | File | `api.cc` | Low
+4 | File | `/admin/inquiries/view_details.php` | High
+5 | File | `/anony/mjpg.cgi` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/EXCU_SHELL` | Medium
+11 | File | `/export` | Low
+12 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
+13 | File | `/goform/addressNat` | High
+14 | File | `/iisadmpwd` | Medium
+15 | File | `/include/menu_v.inc.php` | High
+16 | File | `/lms/admin.php` | High
+17 | File | `/mc` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/my_photo_gallery/image.php` | High
+20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+21 | File | `/out.php` | Medium
+22 | File | `/proc/*/cmdline"` | High
+23 | File | `/proc/pid/syscall` | High
+24 | File | `/reps/classes/Users.php?f=delete_agent` | High
+25 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
+26 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/pkexec` | High
+29 | File | `/var/log/pcp/configs.sh` | High
+30 | File | `/webconsole/APIController` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/WWW//app/admin/controller/admincontroller.php` | High
+33 | File | `a-b-membres.php` | High
+34 | File | `action.php` | Medium
+35 | File | `admin-search.php` | High
+36 | File | `admin.jcomments.php` | High
+37 | File | `admin/adminsignin.html` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/infoclass_update.php` | High
+40 | File | `admin/plugin.php` | High
+41 | File | `admin/versions.html` | High
+42 | File | `administrator/index.php?option=com_pago&view=comments` | High
+43 | File | `Adminlog.asp` | Medium
+44 | File | `admin_iplog.php` | High
+45 | File | `ajax.php` | Medium
+46 | File | `ajax_admin_apis.php` | High
+47 | File | `ajax_php_pecl.php` | High
 48 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
