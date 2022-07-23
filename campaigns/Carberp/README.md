@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -38,12 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,12 +53,45 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/access` | High
 2 | File | `/admin/index.html` | High
-3 | File | `/usr/bin/pkexec` | High
-4 | File | `/wp-admin/admin-ajax.php` | High
-5 | File | `cds-fpdf.php` | Medium
-6 | ... | ... | ...
+3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+4 | File | `/admin/posts.php` | High
+5 | File | `/ci_ssms/index.php/orders/create` | High
+6 | File | `/index.php` | Medium
+7 | File | `/membres/modif_profil.php` | High
+8 | File | `/ordering/admin/category/index.php?view=edit` | High
+9 | File | `/pms/index.php` | High
+10 | File | `/pms/update_user.php?user_id=1` | High
+11 | File | `/SimpleBusTicket/index.php` | High
+12 | File | `/usr/bin/pkexec` | High
+13 | File | `/wp-admin/admin-ajax.php` | High
+14 | File | `addpost_newpoll.php` | High
+15 | File | `adm-index.php` | High
+16 | File | `Admin.PHP` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin/index.php` | High
+19 | File | `admin/ops/reports/ops/forum.php` | High
+20 | File | `admincp/attachment.php` | High
+21 | File | `adminedit.pl` | Medium
+22 | File | `ajax/api/hook/getHookList` | High
+23 | File | `archive/index.php` | High
+24 | File | `backend/groups/index.php` | High
+25 | File | `bbs/member_confirm.php` | High
+26 | File | `bottom.php` | Medium
+27 | File | `breadcrumbs_create.php` | High
+28 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+29 | File | `cds-fpdf.php` | Medium
+30 | File | `controllers/member/Api.php` | High
+31 | File | `cp.php` | Low
+32 | File | `dashboard_teacher.php` | High
+33 | File | `demo.php` | Medium
+34 | File | `dev.c` | Low
+35 | File | `email.php` | Medium
+36 | File | `faq.php` | Low
+37 | File | `follow.php` | Medium
+38 | File | `footer.inc.php` | High
+39 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

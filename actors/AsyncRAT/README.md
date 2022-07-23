@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AsyncRAT:
 
-* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [94.130.207.164](https://vuldb.com/?ip.94.130.207.164) | static.164.207.130.94.clients.your-server.de | - | High
-2 | [141.95.89.79](https://vuldb.com/?ip.141.95.89.79) | ip79.ip-141-95-89.eu | - | High
+1 | [23.102.1.5](https://vuldb.com/?ip.23.102.1.5) | - | - | High
+2 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
+3 | [79.134.225.35](https://vuldb.com/?ip.79.134.225.35) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,7 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Configuration | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -33,15 +47,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `redirect.php` | Medium
-3 | Argument | `goto` | Low
+1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/etc/sudoers` | Medium
+4 | File | `/info.asp` | Medium
+5 | File | `/ucms/chk.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `5.2.9\syscrb.exe` | High
+8 | ... | ... | ...
+
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.morphisec.com/tracking-hcrypt-an-active-crypter-as-a-service
 * https://blog.talosintelligence.com/2022/04/asyncrat-3losh-update.html
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20AsyncRAT%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-29%20Various%20RAT%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-05%20AsyncRAT%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-25%20Likely%20AsyncRAT%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-28%20AsyncRAT%20IOCs
 
 ## Literature
 

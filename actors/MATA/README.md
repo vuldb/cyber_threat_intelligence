@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MATA:
 
-* [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/out.php` | Medium
-3 | File | `/phppath/php` | Medium
-4 | File | `/systemrw/` | Medium
-5 | File | `adclick.php` | Medium
-6 | File | `application/modules/admin/views/ecommerce/products.php` | High
-7 | File | `base/ErrorHandler.php` | High
-8 | File | `blog.php` | Medium
-9 | ... | ... | ...
+1 | File | `/admin/dl_sendmail.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/out.php` | Medium
+4 | File | `/phppath/php` | Medium
+5 | File | `/systemrw/` | Medium
+6 | File | `adclick.php` | Medium
+7 | File | `application/modules/admin/views/ecommerce/products.php` | High
+8 | File | `base/ErrorHandler.php` | High
+9 | File | `blog.php` | Medium
+10 | File | `category.php` | Medium
+11 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

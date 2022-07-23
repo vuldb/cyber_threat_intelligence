@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -25,7 +29,7 @@ ID | Actor | Confidence
 6 | [Ripprbot](https://vuldb.com/?actor.ripprbot) | High
 7 | ... | ...
 
-There are 11 more actor items available. Please use our online service to access the data.
+There are 12 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -65,10 +69,14 @@ ID | IP address | Hostname | Actor | Confidence
 30 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | galya.gitarova.example.com | [Babadeda](https://vuldb.com/?actor.babadeda) | High
 31 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
 32 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
-33 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
-34 | ... | ... | ... | ...
+33 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+34 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
+35 | [45.140.146.17](https://vuldb.com/?ip.45.140.146.17) | vm545760.stark-industries.solutions | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+36 | [45.142.122.175](https://vuldb.com/?ip.45.142.122.175) | dreary-payment.aeza.network | [Unknown](https://vuldb.com/?actor.unknown) | High
+37 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
+38 | ... | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 147 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,13 +84,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -90,16 +98,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ci_hms/massage_room/edit/1` | High
-2 | File | `/ci_hms/search` | High
-3 | File | `/ci_ssms/index.php/orders/create` | High
-4 | File | `/College/admin/teacher.php` | High
-5 | File | `/pdfalto/src/pdfalto.cc` | High
-6 | File | `/pms/index.php` | High
-7 | File | `/pms/update_user.php?user_id=1` | High
-8 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/vca/bia/addacph.cgi` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/api/sys_username_passwd.cmd` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin/luci/api/auth` | High
+10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+11 | File | `/cgi-bin/nightled.cgi` | High
+12 | File | `/cgi-bin/touchlist_sync.cgi` | High
+13 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,8 +122,12 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
 * https://blog.talosintelligence.com/2018/02/coinhoarder.html
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
+* https://blog.talosintelligence.com/2022/07/attackers-target-ukraine-using-gomet.html
+* https://blogs.infoblox.com/cyber-threat-intelligence/cyber-threat-advisory/ukraine-scam-campaigns/
+* https://businessinsights.bitdefender.com/deep-dive-into-the-elephant-framework-a-new-cyber-threat-in-ukraine
 * https://cert.gov.ua/article/37829
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
+* https://github.com/CYBERCOM-Malware-Alert/IOCs/blob/main/Ukraine%20Network%20IOCs%20July%2020%202022.xlsx
 * https://otx.alienvault.com/pulse/62552abdd7e44d9aba08636d
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
 * https://twitter.com/s1ckb017/status/1494047314792665088

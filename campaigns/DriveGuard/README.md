@@ -26,6 +26,14 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [87.120.8.210](https://vuldb.com/?ip.87.120.8.210) | - | [Moses Staff](https://vuldb.com/?actor.moses_staff) | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within DriveGuard. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during DriveGuard. This data is unique as it uses our predictive model for actor profiling.

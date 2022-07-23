@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -39,9 +39,11 @@ ID | IP address | Hostname | Actor | Confidence
 6 | [18.217.13.50](https://vuldb.com/?ip.18.217.13.50) | ec2-18-217-13-50.us-east-2.compute.amazonaws.com | [NSO Group](https://vuldb.com/?actor.nso_group) | Medium
 7 | [18.225.12.72](https://vuldb.com/?ip.18.225.12.72) | ec2-18-225-12-72.us-east-2.compute.amazonaws.com | [NSO Group](https://vuldb.com/?actor.nso_group) | Medium
 8 | [23.239.16.143](https://vuldb.com/?ip.23.239.16.143) | li685-143.members.linode.com | [NSO Group](https://vuldb.com/?actor.nso_group) | High
-9 | ... | ... | ... | ...
+9 | [45.32.105.249](https://vuldb.com/?ip.45.32.105.249) | 45.32.105.249.vultrusercontent.com | [NSO Group](https://vuldb.com/?actor.nso_group) | High
+10 | [45.79.190.38](https://vuldb.com/?ip.45.79.190.38) | srv01.benlinden.com | [NSO Group](https://vuldb.com/?actor.nso_group) | High
+11 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,12 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,35 +66,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/info.php` | High
-2 | File | `/admin/user_list_backend.php` | High
-3 | File | `/cgi?` | Low
-4 | File | `/etc/controller-agent/agent.conf` | High
-5 | File | `/forms/web_importTFTP` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/graphql` | Medium
-8 | File | `/individual` | Medium
-9 | File | `/jeecg-boot/jmreport/view` | High
-10 | File | `/localhost/u` | Medium
-11 | File | `/out.php` | Medium
-12 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-13 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-14 | File | `/rom-0` | Low
-15 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-16 | File | `/v2/devices/add` | High
-17 | File | `/var/ipfire/backup/bin/backup.pl` | High
-18 | File | `/wp-json/wc/v3/webhooks` | High
-19 | File | `accounts/view_details.php` | High
-20 | File | `adclick.php` | Medium
-21 | File | `AddEvent.php` | Medium
-22 | File | `admin.php` | Medium
-23 | File | `admin.php?m=backup&c=backup&a=doback` | High
-24 | File | `admin.php?mod=product&act=state` | High
-25 | File | `admin/cp-functions/event-add.php` | High
-26 | File | `admin/modules/tools/ip_history_logs.php` | High
-27 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/info.php` | High
+3 | File | `/admin/user_list_backend.php` | High
+4 | File | `/cfg` | Low
+5 | File | `/cgi?` | Low
+6 | File | `/etc/controller-agent/agent.conf` | High
+7 | File | `/forms/web_importTFTP` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/graphql` | Medium
+10 | File | `/individual` | Medium
+11 | File | `/jeecg-boot/jmreport/view` | High
+12 | File | `/localhost/u` | Medium
+13 | File | `/net` | Low
+14 | File | `/opt/bin/cli` | Medium
+15 | File | `/out.php` | Medium
+16 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+19 | File | `/rom-0` | Low
+20 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/v2/devices/add` | High
+23 | File | `/var/ipfire/backup/bin/backup.pl` | High
+24 | File | `/wp-json/wc/v3/webhooks` | High
+25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+26 | File | `accounts/view_details.php` | High
+27 | File | `adclick.php` | Medium
+28 | File | `AddEvent.php` | Medium
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin.php?m=backup&c=backup&a=doback` | High
+32 | File | `admin.php?mod=product&act=state` | High
+33 | File | `admin/admin_process.php` | High
+34 | File | `admin/conf_users_edit.php` | High
+35 | File | `admin/cp-functions/event-add.php` | High
+36 | File | `admin/index.php` | High
+37 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +112,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://blog.talosintelligence.com/2021/09/fakeantipegasusamnesty.html
 * https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/
+* https://citizenlab.ca/2022/07/geckospy-pegasus-spyware-used-against-thailands-pro-democracy-movement/
 * https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/
 
 ## Literature

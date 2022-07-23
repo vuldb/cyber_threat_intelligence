@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,66 +51,65 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/edit_admin_details.php?id=admin` | High
-4 | File | `/admin/generalsettings.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/reports.php` | High
-7 | File | `/admin_page/all-files-update-ajax.php` | High
-8 | File | `/assets/ctx` | Medium
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/edit_admin_details.php?id=admin` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin_page/all-files-update-ajax.php` | High
 9 | File | `/bsms/?page=products` | High
 10 | File | `/cgi-bin/kerbynet` | High
 11 | File | `/cgi-bin/system_mgr.cgi` | High
 12 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dms/admin/reports/daily_collection_report.php` | High
-17 | File | `/ext/phar/phar_object.c` | High
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/get_getnetworkconf.cgi` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/include/chart_generator.php` | High
-23 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-24 | File | `/info.cgi` | Medium
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/lists/admin/` | High
-27 | File | `/MagickCore/image.c` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/modx/manager/index.php` | High
-30 | File | `/osm/REGISTER.cmd` | High
-31 | File | `/replication` | Medium
-32 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-35 | File | `/type.php` | Medium
-36 | File | `/uncpath/` | Medium
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/Wedding-Management/package_detail.php` | High
-39 | File | `4.2.0.CP09` | Medium
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `802dot1xclientcert.cgi` | High
-42 | File | `a2billing/customer/iridium_threed.php` | High
-43 | File | `AdClass.php` | Medium
-44 | File | `add.exe` | Low
-45 | File | `admin-ajax.php` | High
-46 | File | `admin.color.php` | High
-47 | File | `admin.cropcanvas.php` | High
-48 | File | `admin.joomlaradiov5.php` | High
-49 | File | `admin.php` | Medium
-50 | File | `admin.php?m=Food&a=addsave` | High
-51 | File | `admin/conf_users_edit.php` | High
-52 | File | `admin/index.php` | High
-53 | File | `admin/limits.php` | High
-54 | File | `admin/user.php` | High
-55 | File | `admin/write-post.php` | High
-56 | File | `administrator/components/com_media/helpers/media.php` | High
-57 | File | `admin_events.php` | High
-58 | File | `akocomments.php` | High
-59 | File | `allopass-error.php` | High
-60 | ... | ... | ...
+13 | File | `/debug/pprof` | Medium
+14 | File | `/dms/admin/reports/daily_collection_report.php` | High
+15 | File | `/ext/phar/phar_object.c` | High
+16 | File | `/filemanager/php/connector.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/get_getnetworkconf.cgi` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/include/chart_generator.php` | High
+21 | File | `/info.cgi` | Medium
+22 | File | `/Items/*/RemoteImages/Download` | High
+23 | File | `/lists/admin/` | High
+24 | File | `/MagickCore/image.c` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/modx/manager/index.php` | High
+27 | File | `/public/launchNewWindow.jsp` | High
+28 | File | `/replication` | Medium
+29 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+32 | File | `/type.php` | Medium
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/Wedding-Management/package_detail.php` | High
+36 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+37 | File | `4.2.0.CP09` | Medium
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `802dot1xclientcert.cgi` | High
+40 | File | `a2billing/customer/iridium_threed.php` | High
+41 | File | `AdClass.php` | Medium
+42 | File | `add.exe` | Low
+43 | File | `admin.color.php` | High
+44 | File | `admin.cropcanvas.php` | High
+45 | File | `admin.joomlaradiov5.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin.php?m=Food&a=addsave` | High
+48 | File | `admin/conf_users_edit.php` | High
+49 | File | `admin/index.php` | High
+50 | File | `admin/limits.php` | High
+51 | File | `admin/write-post.php` | High
+52 | File | `administrator/components/com_media/helpers/media.php` | High
+53 | File | `admin_events.php` | High
+54 | File | `akocomments.php` | High
+55 | File | `allopass-error.php` | High
+56 | File | `announcement.php` | High
+57 | File | `apply.cgi` | Medium
+58 | File | `appointment.php` | High
+59 | ... | ... | ...
 
-There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 515 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

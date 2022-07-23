@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -87,9 +87,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -98,26 +99,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?module=users&section=cpanel&page=list` | High
-3 | File | `/admin/powerline` | High
-4 | File | `/admin/syslog` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/ci_hms/massage_room/edit/1` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/fuel/sitevariables/delete/4` | High
-15 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-16 | File | `/index/jobfairol/show/` | High
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/monitoring` | Medium
-20 | File | `/new` | Low
-21 | File | `/objects/getImageMP4.php` | High
+2 | File | `/Ap4RtpAtom.cpp` | High
+3 | File | `/app/options.py` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/ci_hms/massage_room/edit/1` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/dashboard/reports/logs/view` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/hosts` | Medium
+12 | File | `/fuel/index.php/fuel/logs/items` | High
+13 | File | `/fuel/sitevariables/delete/4` | High
+14 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+15 | File | `/index/jobfairol/show/` | High
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/new` | Low
+20 | File | `/objects/getImageMP4.php` | High
+21 | File | `/proc/<PID>/mem` | High
 22 | File | `/proc/<pid>/status` | High
 23 | File | `/public/plugins/` | High
 24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
@@ -125,13 +126,9 @@ ID | Type | Indicator | Confidence
 26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
 28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-31 | File | `/web/MCmsAction.java` | High
-32 | File | `/wp-json/wc/v3/webhooks` | High
-33 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

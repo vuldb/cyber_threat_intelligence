@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with UAC-0056:
 
+* Cobalt Strike
 * GraphSteel/GrimPlant
 * Ukraine
 
@@ -33,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | Ukraine | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,47 +66,48 @@ ID | Type | Indicator | Confidence
 8 | File | `/api/RecordingList/DownloadRecord?file=` | High
 9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/logViewer/logViewer.jsf` | High
-12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-17 | File | `/includes/rrdtool.inc.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/mc-admin/post.php?state=delete&delete` | High
-20 | File | `/mifs/c/i/reg/reg.html` | High
-21 | File | `/ms/cms/content/list.do` | High
-22 | File | `/oauth/token/request` | High
-23 | File | `/orms/` | Low
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/school/model/get_admin_profile.php` | High
-26 | File | `/student-grading-system/rms.php?page=grade` | High
-27 | File | `/system-info/health` | High
-28 | File | `/timeline2.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-31 | File | `/www/ping_response.cgi` | High
-32 | File | `ABuffer.cpp` | Medium
-33 | File | `account.asp` | Medium
-34 | File | `addentry.php` | Medium
-35 | File | `addmember.php` | High
-36 | File | `addtocart.asp` | High
-37 | File | `addtomylist.asp` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.x-shop.php` | High
-40 | File | `admin/auth.php` | High
-41 | File | `admin/changedata.php` | High
-42 | File | `admin/config/confmgr.php` | High
-43 | File | `admin/dashboard.php` | High
+11 | File | `/cgi/get_param.cgi` | High
+12 | File | `/common/logViewer/logViewer.jsf` | High
+13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+18 | File | `/includes/rrdtool.inc.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/mc-admin/post.php?state=delete&delete` | High
+21 | File | `/mifs/c/i/reg/reg.html` | High
+22 | File | `/ms/cms/content/list.do` | High
+23 | File | `/oauth/token/request` | High
+24 | File | `/orms/` | Low
+25 | File | `/plesk-site-preview/` | High
+26 | File | `/school/model/get_admin_profile.php` | High
+27 | File | `/student-grading-system/rms.php?page=grade` | High
+28 | File | `/system-info/health` | High
+29 | File | `/timeline2.php` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+32 | File | `/www/ping_response.cgi` | High
+33 | File | `ABuffer.cpp` | Medium
+34 | File | `account.asp` | Medium
+35 | File | `addentry.php` | Medium
+36 | File | `addmember.php` | High
+37 | File | `addtocart.asp` | High
+38 | File | `addtomylist.asp` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin.x-shop.php` | High
+41 | File | `admin/auth.php` | High
+42 | File | `admin/changedata.php` | High
+43 | File | `admin/config/confmgr.php` | High
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.malwarebytes.com/threat-intelligence/2022/07/cobalt-strikes-again-uac-0056-continues-to-target-ukraine-in-its-latest-campaign/
 * https://cert.gov.ua/article/18419
 * https://cert.gov.ua/article/37704
 * https://cert.gov.ua/article/38374

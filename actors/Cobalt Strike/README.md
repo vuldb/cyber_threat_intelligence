@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,16 +37,21 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | - | High
 15 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | - | High
 16 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | - | High
-17 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
-18 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | - | High
-19 | [45.197.132.72](https://vuldb.com/?ip.45.197.132.72) | - | - | High
-20 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | - | High
-21 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | - | High
-22 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | - | High
-23 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
-24 | ... | ... | ... | ...
+17 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
+18 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
+19 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | - | High
+20 | [45.197.132.72](https://vuldb.com/?ip.45.197.132.72) | - | - | High
+21 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | - | High
+22 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | - | High
+23 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | - | High
+24 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
+25 | [51.81.13.141](https://vuldb.com/?ip.51.81.13.141) | ip141.ip-51-81-13.us | - | High
+26 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | - | High
+27 | [52.18.235.51](https://vuldb.com/?ip.52.18.235.51) | ec2-52-18-235-51.eu-west-1.compute.amazonaws.com | - | Medium
+28 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | - | High
+29 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 114 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,10 +59,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -74,13 +79,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/.dbus-keyrings` | High
 4 | File | `//proc/kcore` | Medium
 5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/dl_sendmail.php` | High
-7 | File | `/admin/edit_admin_details.php?id=admin` | High
-8 | File | `/admin/generalsettings.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
-12 | File | `/api/part_categories` | High
+6 | File | `/admin/curltest.cgi` | High
+7 | File | `/admin/dl_sendmail.php` | High
+8 | File | `/admin/edit_admin_details.php?id=admin` | High
+9 | File | `/admin/generalsettings.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/reports.php` | High
+12 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
 13 | File | `/api/user/userData?userCode=admin` | High
 14 | File | `/app/options.py` | High
 15 | File | `/bsms/?page=manage_account` | High
@@ -103,7 +108,7 @@ ID | Type | Indicator | Confidence
 32 | File | `/index/notice/show` | High
 33 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +120,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.morphisec.com/log4j-exploit-targets-vulnerable-unifi-network-applications
 * https://blog.talosintelligence.com/2020/06/indigodrop-maldocs-cobalt-strike.html
 * https://blogs.infoblox.com/cyber-threat-intelligence/nobelium-campaigns-and-malware/
+* https://cert.gov.ua/article/37704
+* https://cert.gov.ua/article/39708
+* https://cert.gov.ua/article/40559
+* https://cert.gov.ua/article/703548
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-18%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-26%20Hancitor%20IOCs

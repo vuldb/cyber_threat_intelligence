@@ -544,31 +544,31 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/extended` | High
 5 | File | `/admin/featured.php` | High
 6 | File | `/admin/generalsettings.php` | High
-7 | File | `/admin/newsletter1.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/usermanagement.php` | High
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/api/addusers` | High
-12 | File | `/app/options.py` | High
-13 | File | `/application/common.php#action_log` | High
-14 | File | `/bcms/admin/?page=user/list` | High
-15 | File | `/bsms/?page=manage_account` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/dashboard/reports/logs/view` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/designer/add/layout` | High
-22 | File | `/etc/hosts` | Medium
-23 | File | `/filemanager/upload/drop` | High
-24 | File | `/fuel/index.php/fuel/logs/items` | High
-25 | File | `/fuel/sitevariables/delete/4` | High
-26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-27 | File | `/index/jobfairol/show/` | High
-28 | File | `/librarian/bookdetails.php` | High
+7 | File | `/admin/inquiries/view_details.php` | High
+8 | File | `/admin/newsletter1.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/usermanagement.php` | High
+11 | File | `/Ap4RtpAtom.cpp` | High
+12 | File | `/api/addusers` | High
+13 | File | `/app/options.py` | High
+14 | File | `/application/common.php#action_log` | High
+15 | File | `/bcms/admin/?page=user/list` | High
+16 | File | `/bsms/?page=manage_account` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/ci_hms/massage_room/edit/1` | High
+19 | File | `/core/conditions/AbstractWrapper.java` | High
+20 | File | `/dashboard/reports/logs/view` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/designer/add/layout` | High
+23 | File | `/etc/hosts` | Medium
+24 | File | `/filemanager/upload/drop` | High
+25 | File | `/fuel/index.php/fuel/logs/items` | High
+26 | File | `/fuel/sitevariables/delete/4` | High
+27 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+28 | File | `/index/jobfairol/show/` | High
 29 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

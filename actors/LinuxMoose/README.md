@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LinuxMoose:
 
+* [ES](https://vuldb.com/?country.es)
 * [NL](https://vuldb.com/?country.nl)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,12 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,37 +58,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.travis.yml` | Medium
-2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `/file?action=download&file` | High
-4 | File | `/include/chart_generator.php` | High
-5 | File | `/monitoring` | Medium
-6 | File | `/new` | Low
-7 | File | `/plugins/servlet/audit/resource` | High
-8 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-9 | File | `/proc/<pid>/status` | High
-10 | File | `/public/plugins/` | High
-11 | File | `/replication` | Medium
-12 | File | `/rest/api/1.0/render` | High
-13 | File | `/RestAPI` | Medium
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-17 | File | `/tmp` | Low
-18 | File | `/trx_addons/v2/get/sc_layout` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/wp-json/wc/v3/webhooks` | High
-22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-23 | File | `AccountManagerService.java` | High
-24 | File | `actions/CompanyDetailsSave.php` | High
-25 | File | `ActivityManagerService.java` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/add-glossary.php` | High
-28 | File | `admin/conf_users_edit.php` | High
-29 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/Ap4RtpAtom.cpp` | High
+3 | File | `/app/options.py` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/ci_hms/massage_room/edit/1` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/core/conditions/AbstractWrapper.java` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/hosts` | Medium
+13 | File | `/file?action=download&file` | High
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+17 | File | `/include/chart_generator.php` | High
+18 | File | `/index/jobfairol/show/` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/plugin/LiveChat/getChat.json.php` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+27 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

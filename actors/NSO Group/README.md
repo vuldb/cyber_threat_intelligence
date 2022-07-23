@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,11 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [18.217.13.50](https://vuldb.com/?ip.18.217.13.50) | ec2-18-217-13-50.us-east-2.compute.amazonaws.com | Pegasus | Medium
 7 | [18.225.12.72](https://vuldb.com/?ip.18.225.12.72) | ec2-18-225-12-72.us-east-2.compute.amazonaws.com | Pegasus | Medium
 8 | [23.239.16.143](https://vuldb.com/?ip.23.239.16.143) | li685-143.members.linode.com | Pegasus | High
-9 | ... | ... | ... | ...
+9 | [45.32.105.249](https://vuldb.com/?ip.45.32.105.249) | 45.32.105.249.vultrusercontent.com | Pegasus | High
+10 | [45.60.241.11](https://vuldb.com/?ip.45.60.241.11) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,12 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,29 +64,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/info.php` | High
-2 | File | `/cgi?` | Low
-3 | File | `/etc/controller-agent/agent.conf` | High
-4 | File | `/forms/web_importTFTP` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/graphql` | Medium
-7 | File | `/jeecg-boot/jmreport/view` | High
-8 | File | `/localhost/u` | Medium
-9 | File | `/out.php` | Medium
-10 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-11 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-12 | File | `/rom-0` | Low
-13 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-14 | File | `/v2/devices/add` | High
-15 | File | `/var/ipfire/backup/bin/backup.pl` | High
-16 | File | `/wp-json/wc/v3/webhooks` | High
-17 | File | `accounts/view_details.php` | High
-18 | File | `adclick.php` | Medium
-19 | File | `AddEvent.php` | Medium
-20 | File | `admin.php` | Medium
-21 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/info.php` | High
+3 | File | `/cfg` | Low
+4 | File | `/cgi?` | Low
+5 | File | `/etc/controller-agent/agent.conf` | High
+6 | File | `/forms/web_importTFTP` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/graphql` | Medium
+9 | File | `/jeecg-boot/jmreport/view` | High
+10 | File | `/localhost/u` | Medium
+11 | File | `/net` | Low
+12 | File | `/opt/bin/cli` | Medium
+13 | File | `/out.php` | Medium
+14 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+17 | File | `/rom-0` | Low
+18 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/v2/devices/add` | High
+21 | File | `/var/ipfire/backup/bin/backup.pl` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+24 | File | `accounts/view_details.php` | High
+25 | File | `adclick.php` | Medium
+26 | File | `AddEvent.php` | Medium
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/admin_process.php` | High
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin/index.php` | High
+32 | File | `admin/scripts/FileUploader/php.php` | High
+33 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://citizenlab.ca/2016/08/million-dollar-dissident-iphone-zero-day-nso-group-uae/
 * https://citizenlab.ca/2018/07/nso-spyware-targeting-amnesty-international/
 * https://citizenlab.ca/2021/08/bahrain-hacks-activists-with-nso-group-zero-click-iphone-exploits/
+* https://citizenlab.ca/2022/07/geckospy-pegasus-spyware-used-against-thailands-pro-democracy-movement/
 * https://www.amnesty.org/en/latest/research/2021/07/forensic-methodology-report-how-to-catch-nso-groups-pegasus/
 * https://www.nsogroup.com
 

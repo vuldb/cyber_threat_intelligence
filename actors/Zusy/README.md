@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -132,34 +132,29 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/renewaldue.php` | High
 7 | File | `/admin/siteoptions.php&social=remove&sid=2` | High
 8 | File | `/Ap4RtpAtom.cpp` | High
-9 | File | `/bcms/admin/?page=user/list` | High
-10 | File | `/bsms/?page=manage_account` | High
-11 | File | `/cgi-bin/login.cgi` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/cms/admin/maintenance/manage_service.php` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/files.md5` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/fuel/index.php/fuel/logs/items` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/setSysAdm` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index/jobfairol/show/` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/login` | Low
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/one_church/userregister.php` | High
-29 | File | `/proc/<pid>/status` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-32 | File | `/SASWebReportStudio/logonAndRender.do` | High
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-34 | ... | ... | ...
+9 | File | `/app/options.py` | High
+10 | File | `/bcms/admin/?page=user/list` | High
+11 | File | `/bsms/?page=manage_account` | High
+12 | File | `/catcompany.php` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/ci_hms/massage_room/edit/1` | High
+15 | File | `/cms/admin/maintenance/manage_service.php` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/files.md5` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/fuel/index.php/fuel/logs/items` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/goform/setSysAdm` | High
+25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+26 | File | `/index/jobfairol/show/` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

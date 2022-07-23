@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.67.231.169](https://vuldb.com/?ip.45.67.231.169) | vm377031.pq.hosting | - | High
-2 | [103.27.184.27](https://vuldb.com/?ip.103.27.184.27) | - | - | High
-3 | [103.140.187.183](https://vuldb.com/?ip.103.140.187.183) | - | - | High
+2 | [45.76.216.40](https://vuldb.com/?ip.45.76.216.40) | 45.76.216.40.vultrusercontent.com | - | High
+3 | [103.27.184.27](https://vuldb.com/?ip.103.27.184.27) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,17 +49,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/index.php` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `/upload` | Low
-5 | File | `color.php` | Medium
-6 | ... | ... | ...
+3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+4 | File | `/config/getuser` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/upload` | Low
+7 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.jpcert.or.jp/en/2021/02/LODEINFO-3.html
 * https://blogs.jpcert.or.jp/ja/2020/06/LODEINFO-2.html
 * https://files.macnica.co.jp/mnc/mpressioncss_ta_report_2019_2.pdf
 

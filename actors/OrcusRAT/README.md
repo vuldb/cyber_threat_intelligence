@@ -16,7 +16,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [194.5.98.139](https://vuldb.com/?ip.194.5.98.139) | - | - | High
+1 | [85.202.169.178](https://vuldb.com/?ip.85.202.169.178) | - | - | High
+2 | [194.5.98.139](https://vuldb.com/?ip.194.5.98.139) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _OrcusRAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -26,16 +35,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `dede\co_do.php` | High
 2 | File | `Dynamiccontenttags.php` | High
-3 | Argument | `ids` | Low
+3 | File | `index.php` | Medium
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.morphisec.com/new-campaign-delivering-orcus-rat
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-22%20Orcus%20RAT%20IOCs
 
 ## Literature
 

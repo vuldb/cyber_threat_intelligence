@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hancitor:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
 * [CN](https://vuldb.com/?country.cn)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -85,38 +85,37 @@ ID | Type | Indicator | Confidence
 4 | File | `/download` | Medium
 5 | File | `/files.md5` | Medium
 6 | File | `/forum/away.php` | High
-7 | File | `/horde/util/go.php` | High
-8 | File | `/images/` | Medium
-9 | File | `/inc/extensions.php` | High
-10 | File | `/inc/parser/xhtml.php` | High
-11 | File | `/lists/index.php` | High
-12 | File | `/login` | Low
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/objects/getImageMP4.php` | High
-16 | File | `/one_church/userregister.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/replication` | Medium
-21 | File | `/req_password_user.php` | High
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/syno/etc/mount.conf` | High
-31 | File | `/v2/quantum/save-data-upload-big-file` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-34 | File | `/wp-json/oembed/1.0/embed?url` | High
-35 | File | `4.edu.php` | Medium
-36 | ... | ... | ...
+7 | File | `/images/` | Medium
+8 | File | `/inc/extensions.php` | High
+9 | File | `/inc/parser/xhtml.php` | High
+10 | File | `/lists/index.php` | High
+11 | File | `/login` | Low
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/nova/bin/console` | High
+14 | File | `/objects/getImageMP4.php` | High
+15 | File | `/one_church/userregister.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/replication` | Medium
+20 | File | `/req_password_user.php` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+27 | File | `/trx_addons/v2/get/sc_layout` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/syno/etc/mount.conf` | High
+30 | File | `/v2/quantum/save-data-upload-big-file` | High
+31 | File | `/WEB-INF/web.xml` | High
+32 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+33 | File | `/wp-json/oembed/1.0/embed?url` | High
+34 | File | `4.edu.php` | Medium
+35 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

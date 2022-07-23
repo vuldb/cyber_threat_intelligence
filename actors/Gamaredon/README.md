@@ -72,9 +72,11 @@ ID | IP address | Hostname | Campaign | Confidence
 48 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
 49 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
 50 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
-51 | ... | ... | ... | ...
+51 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
+52 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
+53 | ... | ... | ... | ...
 
-There are 200 more IOC items available. Please use our online service to access the data.
+There are 206 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,6 +91,7 @@ ID | Technique | Weakness | Description | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/
+* https://cert.gov.ua/article/10702
 * https://github.com/blackorbird/APT_REPORT/blob/master/Gamaredon/Gamaredon202102_ioc1000%2B.csv
 * https://github.com/pan-unit42/iocs/blob/master/Gamaredon/Gamaredon_IoCs_JAN2022.txt
 * https://github.com/SentineLabs/Gamaredon-APT/blob/master/2020-02-04-gamaredon-blog-iocs-vk.misp.csv

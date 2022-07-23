@@ -1092,12 +1092,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1106,51 +1106,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/#/CampaignManager/users` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/dl_sendmail.php` | High
-5 | File | `/admin/edit_admin_details.php?id=admin` | High
-6 | File | `/admin/generalsettings.php` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/admin/reports.php` | High
-9 | File | `/admin_page/all-files-update-ajax.php` | High
-10 | File | `/cgi-bin/kerbynet` | High
-11 | File | `/componetns/user/class.user.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/gaia-job-admin/user/add` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/info.cgi` | Medium
-18 | File | `/Items/*/RemoteImages/Download` | High
-19 | File | `/lists/admin/` | High
-20 | File | `/lists/index.php` | High
-21 | File | `/MagickCore/image.c` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/p1/p2/:name` | Medium
-25 | File | `/public/launchNewWindow.jsp` | High
-26 | File | `/rdms/admin/?page=user/manage_user` | High
-27 | File | `/requests.php` | High
-28 | File | `/rest/api/latest/projectvalidate/key` | High
-29 | File | `/saml/login` | Medium
-30 | File | `/ScadaBR/login.htm` | High
-31 | File | `/ServletAPI/accounts/login` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-34 | File | `/trx_addons/v2/get/sc_layout` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload` | Low
-37 | File | `/var/adm/btmp` | High
-38 | File | `/WEB-INF/web.xml` | High
-39 | File | `/Wedding-Management/package_detail.php` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `a2billing/customer/iridium_threed.php` | High
-43 | File | `account/login.php` | High
-44 | ... | ... | ...
+2 | File | `/admin/conferences/list/` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/edit_admin_details.php?id=admin` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin_page/all-files-update-ajax.php` | High
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/componetns/user/class.user.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/dms/admin/reports/daily_collection_report.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/gaia-job-admin/user/add` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/info.cgi` | Medium
+17 | File | `/Items/*/RemoteImages/Download` | High
+18 | File | `/lists/admin/` | High
+19 | File | `/lists/index.php` | High
+20 | File | `/MagickCore/image.c` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/p1/p2/:name` | Medium
+24 | File | `/public/launchNewWindow.jsp` | High
+25 | File | `/rdms/admin/?page=user/manage_user` | High
+26 | File | `/requests.php` | High
+27 | File | `/rest/api/latest/projectvalidate/key` | High
+28 | File | `/saml/login` | Medium
+29 | File | `/ScadaBR/login.htm` | High
+30 | File | `/ServletAPI/accounts/login` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+33 | File | `/trx_addons/v2/get/sc_layout` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload` | Low
+36 | File | `/var/adm/btmp` | High
+37 | File | `/WEB-INF/web.xml` | High
+38 | File | `/Wedding-Management/package_detail.php` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+41 | File | `a2billing/customer/iridium_threed.php` | High
+42 | File | `account/login.php` | High
+43 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

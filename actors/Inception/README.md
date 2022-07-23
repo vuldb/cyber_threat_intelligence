@@ -63,32 +63,32 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/featured.php` | High
 7 | File | `/admin/general.cgi` | High
 8 | File | `/admin/usermanagement.php` | High
-9 | File | `/ajax/clear_tools_log/` | High
-10 | File | `/api/part_categories` | High
-11 | File | `/api/programs/orgUnits?programs` | High
-12 | File | `/api/students/me/courses/` | High
-13 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-14 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-15 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-16 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-17 | File | `/cgi-bin/luci/api/diagnose` | High
-18 | File | `/cgi-mod/lookup.cgi` | High
-19 | File | `/cgi/ansi` | Medium
-20 | File | `/classes/Master.php?f=delete_train` | High
-21 | File | `/cms/classes/Master.php?f=delete_designation` | High
-22 | File | `/createnewaccount` | High
-23 | File | `/dashboard/blocks/stacks/view_details/` | High
-24 | File | `/dev/urandom` | Medium
-25 | File | `/dl/dl_sendmail.php` | High
-26 | File | `/ecrire` | Low
-27 | File | `/etc/fstab` | Medium
-28 | File | `/etc/sudoers` | Medium
-29 | File | `/food/admin/all_users.php` | High
-30 | File | `/genericreport` | High
-31 | File | `/goform/aspForm` | High
+9 | File | `/AJAX/ajaxget` | High
+10 | File | `/ajax/clear_tools_log/` | High
+11 | File | `/api/part_categories` | High
+12 | File | `/api/programs/orgUnits?programs` | High
+13 | File | `/api/students/me/courses/` | High
+14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+15 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+16 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+17 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+18 | File | `/cgi-bin/luci/api/diagnose` | High
+19 | File | `/cgi-mod/lookup.cgi` | High
+20 | File | `/cgi/ansi` | Medium
+21 | File | `/classes/Master.php?f=delete_train` | High
+22 | File | `/cms/classes/Master.php?f=delete_designation` | High
+23 | File | `/createnewaccount` | High
+24 | File | `/dashboard/blocks/stacks/view_details/` | High
+25 | File | `/dev/urandom` | Medium
+26 | File | `/dl/dl_sendmail.php` | High
+27 | File | `/dotrace.asp` | Medium
+28 | File | `/ecrire` | Low
+29 | File | `/etc/fstab` | Medium
+30 | File | `/etc/sudoers` | Medium
+31 | File | `/food/admin/all_users.php` | High
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

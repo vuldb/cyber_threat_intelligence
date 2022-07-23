@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Raccoon Stealer:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -54,26 +54,27 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/deluser.php` | High
 4 | File | `/admin/sign/out` | High
 5 | File | `/admin/web_config.php&amp` | High
-6 | File | `/apps/` | Low
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/cmscp/ext/collect/fetch_url.do` | High
-9 | File | `/controllers/MgrDiagnosticTools.php` | High
-10 | File | `/convert/html` | High
-11 | File | `/course/api/upload/pic` | High
-12 | File | `/etc/init.d/S50dropbear.sh` | High
-13 | File | `/goform/rlmswitchr_process` | High
-14 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-15 | File | `/hub/api/user` | High
-16 | File | `/modules/mindmap/index.php` | High
-17 | File | `/modules/tasks/summary.inc.php` | High
-18 | File | `/password.html` | High
-19 | File | `/pms/admin/inmates/manage_record.php` | High
-20 | File | `/pms/admin/prisons/manage_prison.php` | High
-21 | File | `/root/.keeper/` | High
-22 | File | `/rss.xml` | Medium
-23 | ... | ... | ...
+6 | File | `/app/options.py` | High
+7 | File | `/apps/` | Low
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cmscp/ext/collect/fetch_url.do` | High
+10 | File | `/controllers/MgrDiagnosticTools.php` | High
+11 | File | `/convert/html` | High
+12 | File | `/course/api/upload/pic` | High
+13 | File | `/etc/init.d/S50dropbear.sh` | High
+14 | File | `/goform/rlmswitchr_process` | High
+15 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+16 | File | `/hub/api/user` | High
+17 | File | `/modules/mindmap/index.php` | High
+18 | File | `/modules/tasks/summary.inc.php` | High
+19 | File | `/password.html` | High
+20 | File | `/pms/admin/inmates/manage_record.php` | High
+21 | File | `/pms/admin/prisons/manage_prison.php` | High
+22 | File | `/root/.keeper/` | High
+23 | File | `/rss.xml` | Medium
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

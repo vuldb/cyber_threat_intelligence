@@ -17,31 +17,38 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [2.181.21.179](https://vuldb.com/?ip.2.181.21.179) | - | - | High
-2 | [3.223.115.185](https://vuldb.com/?ip.3.223.115.185) | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
-3 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-4 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
-5 | [13.107.213.40](https://vuldb.com/?ip.13.107.213.40) | - | - | High
-6 | [13.107.246.13](https://vuldb.com/?ip.13.107.246.13) | - | - | High
-7 | [13.107.246.18](https://vuldb.com/?ip.13.107.246.18) | - | - | High
-8 | [13.107.246.40](https://vuldb.com/?ip.13.107.246.40) | - | - | High
-9 | [13.107.246.70](https://vuldb.com/?ip.13.107.246.70) | - | - | High
-10 | [23.5.230.228](https://vuldb.com/?ip.23.5.230.228) | a23-5-230-228.deploy.static.akamaitechnologies.com | - | High
-11 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
-12 | [23.10.88.237](https://vuldb.com/?ip.23.10.88.237) | a23-10-88-237.deploy.static.akamaitechnologies.com | - | High
-13 | [23.36.85.183](https://vuldb.com/?ip.23.36.85.183) | a23-36-85-183.deploy.static.akamaitechnologies.com | - | High
-14 | [23.38.131.139](https://vuldb.com/?ip.23.38.131.139) | a23-38-131-139.deploy.static.akamaitechnologies.com | - | High
-15 | [23.64.110.64](https://vuldb.com/?ip.23.64.110.64) | a23-64-110-64.deploy.static.akamaitechnologies.com | - | High
-16 | [23.67.200.172](https://vuldb.com/?ip.23.67.200.172) | a23-67-200-172.deploy.static.akamaitechnologies.com | - | High
-17 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
-18 | [25.109.69.178](https://vuldb.com/?ip.25.109.69.178) | - | - | High
-19 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
-20 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
-21 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
-22 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
-23 | ... | ... | ... | ...
+1 | [1.1.1.1](https://vuldb.com/?ip.1.1.1.1) | one.one.one.one | - | High
+2 | [2.181.21.179](https://vuldb.com/?ip.2.181.21.179) | - | - | High
+3 | [3.223.115.185](https://vuldb.com/?ip.3.223.115.185) | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
+4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+5 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
+6 | [13.107.213.40](https://vuldb.com/?ip.13.107.213.40) | - | - | High
+7 | [13.107.246.13](https://vuldb.com/?ip.13.107.246.13) | - | - | High
+8 | [13.107.246.18](https://vuldb.com/?ip.13.107.246.18) | - | - | High
+9 | [13.107.246.40](https://vuldb.com/?ip.13.107.246.40) | - | - | High
+10 | [13.107.246.70](https://vuldb.com/?ip.13.107.246.70) | - | - | High
+11 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+12 | [23.5.230.228](https://vuldb.com/?ip.23.5.230.228) | a23-5-230-228.deploy.static.akamaitechnologies.com | - | High
+13 | [23.5.234.11](https://vuldb.com/?ip.23.5.234.11) | a23-5-234-11.deploy.static.akamaitechnologies.com | - | High
+14 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+15 | [23.10.88.237](https://vuldb.com/?ip.23.10.88.237) | a23-10-88-237.deploy.static.akamaitechnologies.com | - | High
+16 | [23.36.85.183](https://vuldb.com/?ip.23.36.85.183) | a23-36-85-183.deploy.static.akamaitechnologies.com | - | High
+17 | [23.38.131.139](https://vuldb.com/?ip.23.38.131.139) | a23-38-131-139.deploy.static.akamaitechnologies.com | - | High
+18 | [23.51.186.146](https://vuldb.com/?ip.23.51.186.146) | a23-51-186-146.deploy.static.akamaitechnologies.com | - | High
+19 | [23.59.221.43](https://vuldb.com/?ip.23.59.221.43) | a23-59-221-43.deploy.static.akamaitechnologies.com | - | High
+20 | [23.64.110.64](https://vuldb.com/?ip.23.64.110.64) | a23-64-110-64.deploy.static.akamaitechnologies.com | - | High
+21 | [23.67.200.172](https://vuldb.com/?ip.23.67.200.172) | a23-67-200-172.deploy.static.akamaitechnologies.com | - | High
+22 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
+23 | [23.218.140.208](https://vuldb.com/?ip.23.218.140.208) | a23-218-140-208.deploy.static.akamaitechnologies.com | - | High
+24 | [25.109.69.178](https://vuldb.com/?ip.25.109.69.178) | - | - | High
+25 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
+26 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
+27 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
+28 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+29 | [34.213.158.239](https://vuldb.com/?ip.34.213.158.239) | ec2-34-213-158-239.us-west-2.compute.amazonaws.com | - | Medium
+30 | ... | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
+There are 115 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,7 +56,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,6 +84,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0906-0913.html
 * https://blog.talosintelligence.com/2019/11/threat-roundup-1101-1108.html
 * https://blog.talosintelligence.com/2019/12/threat-roundup-1206-1213.html
+* https://blog.talosintelligence.com/2020/05/threat-roundup-0424-0501.html
+* https://blog.talosintelligence.com/2020/06/threat-roundup-0529-0605.html
+* https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
+* https://blog.talosintelligence.com/2020/08/tru-0731-0807.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-1023-1030.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1211-1218.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0205-0212.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0226-0305.html

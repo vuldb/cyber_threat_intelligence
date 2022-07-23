@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -441,10 +441,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -456,20 +456,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.python-version` | High
-2 | File | `/api/sys_username_passwd.cmd` | High
-3 | File | `/app/controller/Books.php` | High
-4 | File | `/app/options.py` | High
-5 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-6 | File | `/conf/` | Low
-7 | File | `/dashboard/menu-list.php` | High
-8 | File | `/dashboard/profile.php` | High
-9 | File | `/dashboard/table-list.php` | High
-10 | File | `/etc/lighttpd.d/ca.pem` | High
-11 | File | `/ffos/classes/Master.php?f=save_category` | High
-12 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-13 | ... | ... | ...
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/vca/bia/addacph.cgi` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/blog/blog.php` | High
+6 | File | `/bmis/pages/resident/resident.php` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+9 | File | `/cgi-bin/nightled.cgi` | High
+10 | File | `/cgi-bin/touchlist_sync.cgi` | High
+11 | File | `/dashboard/profile.php` | High
+12 | File | `/donor-wall` | Medium
+13 | File | `/editbrand.php` | High
+14 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

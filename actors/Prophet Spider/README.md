@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -61,27 +61,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys2` | High
-2 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+1 | File | `.encfs6.xml` | Medium
+2 | File | `.python-version` | High
 3 | File | `/ajax/remove_sniffer_raw_log/` | High
 4 | File | `/api/sys_username_passwd.cmd` | High
-5 | File | `/app/options.py` | High
-6 | File | `/auth/callback` | High
-7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-8 | File | `/cgi-bin/nobody` | High
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/conf/` | Low
-12 | File | `/dashboard/menu-list.php` | High
-13 | File | `/dashboard/profile.php` | High
-14 | File | `/dashboard/table-list.php` | High
-15 | File | `/dev/pts/` | Medium
-16 | File | `/etc/lighttpd.d/ca.pem` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/etc/shadow` | Medium
-19 | ... | ... | ...
+5 | File | `/auth/callback` | High
+6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+7 | File | `/bmis/pages/resident/resident.php` | High
+8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+9 | File | `/cgi-bin/nightled.cgi` | High
+10 | File | `/cgi-bin/nobody` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/conf/` | Low
+14 | File | `/dashboard/menu-list.php` | High
+15 | File | `/dashboard/profile.php` | High
+16 | File | `/dashboard/table-list.php` | High
+17 | File | `/dev/pts/` | Medium
+18 | File | `/doping.asp` | Medium
+19 | File | `/dotrace.asp` | Medium
+20 | File | `/editbrand.php` | High
+21 | File | `/etc/lighttpd.d/ca.pem` | High
+22 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

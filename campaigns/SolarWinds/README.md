@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with SolarWinds or other actors linked to the camp
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [SilverFish](https://vuldb.com/?actor.silverfish) | High
+2 | [SolarWinds](https://vuldb.com/?actor.solarwinds) | High
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [74.72.74.142](https://vuldb.com/?ip.74.72.74.142) | cpe-74-72-74-142.nyc.res.rr.com | [SilverFish](https://vuldb.com/?actor.silverfish) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,37 +63,42 @@ ID | Type | Indicator | Confidence
 4 | File | `/advanced/adv_dns.xgi` | High
 5 | File | `/CFIDE/probe.cfm` | High
 6 | File | `/etc/config/rpcd` | High
-7 | File | `/nidp/app/login` | High
-8 | File | `/proc` | Low
-9 | File | `/rapi/read_url` | High
-10 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-11 | File | `/setSystemAdmin` | High
-12 | File | `/tmp` | Low
-13 | File | `/usr/lib/utmp_update` | High
-14 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-15 | File | `admin/Login.php` | High
-16 | File | `admin/plugin-index.php` | High
-17 | File | `administration` | High
-18 | File | `administrative` | High
-19 | File | `aolfix.exe` | Medium
-20 | File | `awhost32.exe` | Medium
-21 | File | `bidhistory.php` | High
-22 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
-23 | File | `buffer.c` | Medium
-24 | File | `c:\aux` | Low
-25 | File | `cgi-bin/` | Medium
-26 | File | `cluster.asp` | Medium
-27 | File | `cmd.exe` | Low
-28 | File | `coders/png.c` | Medium
-29 | File | `containing` | Medium
-30 | ... | ... | ...
+7 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+8 | File | `/nidp/app/login` | High
+9 | File | `/proc` | Low
+10 | File | `/rapi/read_url` | High
+11 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+12 | File | `/setSystemAdmin` | High
+13 | File | `/start_apply.htm` | High
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | File | `/upload` | Low
+17 | File | `/usr/lib/utmp_update` | High
+18 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/graph_trend.php` | High
+21 | File | `admin/Login.php` | High
+22 | File | `admin/plugin-index.php` | High
+23 | File | `administration` | High
+24 | File | `administrative` | High
+25 | File | `aolfix.exe` | Medium
+26 | File | `Ap4DecoderConfigDescriptor.cpp` | High
+27 | File | `awhost32.exe` | Medium
+28 | File | `bidhistory.php` | High
+29 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
+30 | File | `buffer.c` | Medium
+31 | File | `c:\aux` | Low
+32 | File | `cgi-bin/` | Medium
+33 | File | `cluster.asp` | Medium
+34 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blogs.infoblox.com/cyber-threat-intelligence/cyber-threat-advisory/solarwinds-third-update/
 * https://github.com/blackorbird/APT_REPORT/blob/master/SunBurst/SilverFish_Solarwinds.pdf
 
 ## Literature

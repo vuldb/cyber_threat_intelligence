@@ -71,10 +71,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/public/plugins/` | High
 10 | File | `/rest/api/1.0/render` | High
 11 | File | `/scripts/iisadmin/bdir.htr` | High
-12 | File | `add_comment.php` | High
+12 | File | `/WEB-INF/web.xml` | High
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

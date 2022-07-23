@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -166,42 +166,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/news/admin/topic/save` | High
+1 | File | `.python-version` | High
+2 | File | `//proc/kcore` | Medium
 3 | File | `/admin/dl_sendmail.php` | High
 4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/crontab` | Medium
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/app/controller/Books.php` | High
+6 | File | `/app/options.py` | High
 7 | File | `/ATL/VQ23` | Medium
-8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-12 | File | `/churchcrm/WhyCameEditor.php` | High
-13 | File | `/ci_hms/massage_room/edit/1` | High
-14 | File | `/current_action.php?action=reboot` | High
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/config/image_sign` | High
-18 | File | `/etc/quagga` | Medium
-19 | File | `/etc/tomcat8/Catalina/attack` | High
-20 | File | `/filemanager/php/connector.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/fuel/index.php/fuel/logs/items` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-25 | File | `/IISADMPWD` | Medium
-26 | File | `/index/jobfairol/show/` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/phppath/php` | Medium
-32 | File | `/public/plugins/` | High
-33 | File | `/recreate.php` | High
-34 | ... | ... | ...
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/churchcrm/WhyCameEditor.php` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/etc/quagga` | Medium
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/fuel/sitevariables/delete/4` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+22 | File | `/index/jobfairol/show/` | High
+23 | File | `/language/lang` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/loginsave.php` | High
+26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+27 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

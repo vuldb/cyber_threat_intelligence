@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,13 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,18 +81,21 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/users.php?source=edit_user&id=1` | High
 6 | File | `/administrator/alerts/alertLightbox.php` | High
 7 | File | `/administrator/templates/default/html/windows/right.php` | High
-8 | File | `/apps/acs-commons/content/page-compare.html` | High
-9 | File | `/classes/Master.php?f=delete_train` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/demo/module/?module=HERE` | High
-12 | File | `/download/set.cgi` | High
-13 | File | `/dvcset/sysset/set.cgi` | High
-14 | File | `/goform/SysToolReboot` | High
-15 | File | `/goform/WifiExtraSet` | High
-16 | File | `/goforms/rlminfo` | High
-17 | ... | ... | ...
+8 | File | `/app/options.py` | High
+9 | File | `/apps/acs-commons/content/page-compare.html` | High
+10 | File | `/ci_spms/admin/category` | High
+11 | File | `/ci_spms/admin/search/searching/` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/dashboard/menu-list.php` | High
+15 | File | `/demo/module/?module=HERE` | High
+16 | File | `/download/set.cgi` | High
+17 | File | `/dvcset/sysset/set.cgi` | High
+18 | File | `/ffos/classes/Master.php?f=save_category` | High
+19 | File | `/goform/SysToolReboot` | High
+20 | ... | ... | ...
 
-There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

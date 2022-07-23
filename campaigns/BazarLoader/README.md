@@ -59,9 +59,11 @@ ID | IP address | Hostname | Actor | Confidence
 27 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
 28 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
 29 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-30 | ... | ... | ... | ...
+30 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+31 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+32 | ... | ... | ... | ...
 
-There are 115 more IOC items available. Please use our online service to access the data.
+There are 124 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,10 +105,16 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0514-0521.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
+* https://blogs.infoblox.com/cyber-threat-intelligence/ransomware-attacks-target-healthcare-sector/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-16%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-03%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-08%20BazarCall%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-12%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-13%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-18%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-02%20BazarLoader%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-24%20Bazarloader%20IOCs
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Stolen+Images+Evidence+Campaign+Continues+Pushing+BazarLoader+Malware/27816/
 * https://isc.sans.edu/forums/diary/TA551+Shathak+continues+pushing+BazarLoader+infections+lead+to+Cobalt+Strike/27738/

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,14 +66,14 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/generalsettings.php` | High
 6 | File | `/admin/newsletter1.php` | High
 7 | File | `/admin/payment.php` | High
-8 | File | `/bdswebui/assignusers/` | High
-9 | File | `/etc/fstab` | Medium
-10 | File | `/file?action=download&file` | High
-11 | File | `/filemanager/upload/drop` | High
-12 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-13 | File | `/medical/inventories.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/monitoring` | Medium
+8 | File | `/core/conditions/AbstractWrapper.java` | High
+9 | File | `/file?action=download&file` | High
+10 | File | `/filemanager/upload/drop` | High
+11 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+12 | File | `/medical/inventories.php` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/monitoring` | Medium
+15 | File | `/plugin/LiveChat/getChat.json.php` | High
 16 | File | `/plugins/servlet/audit/resource` | High
 17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 18 | File | `/replication` | Medium
@@ -84,9 +85,10 @@ ID | Type | Indicator | Confidence
 24 | File | `/uncpath/` | Medium
 25 | File | `/upload` | Low
 26 | File | `/var/log/nginx` | High
-27 | ... | ... | ...
+27 | File | `/var/run/watchman.pid` | High
+28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

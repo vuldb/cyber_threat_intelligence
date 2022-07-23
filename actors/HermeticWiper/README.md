@@ -24,6 +24,16 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [94.158.244.27](https://vuldb.com/?ip.94.158.244.27) | 94-158-244-27.mivocloud.com | Ukraine | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _HermeticWiper_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Configuration | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by HermeticWiper. This data is unique as it uses our predictive model for actor profiling.

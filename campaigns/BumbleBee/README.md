@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BumbleBee:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -146,13 +146,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,18 +160,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ci_hms/massage_room/edit/1` | High
-2 | File | `/ci_hms/search` | High
-3 | File | `/ci_ssms/index.php/orders/create` | High
-4 | File | `/College/admin/teacher.php` | High
-5 | File | `/pdfalto/src/pdfalto.cc` | High
-6 | File | `/pms/index.php` | High
-7 | File | `/pms/update_user.php?user_id=1` | High
-8 | File | `/resources//../` | High
-9 | File | `/storage/innobase/handler/handler0alter.cc` | High
-10 | ... | ... | ...
+1 | File | `/app/options.py` | High
+2 | File | `/auth/callback` | High
+3 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+4 | File | `/dashboard/menu-list.php` | High
+5 | File | `/dashboard/profile.php` | High
+6 | File | `/dashboard/table-list.php` | High
+7 | File | `/data/vendor/tcl` | High
+8 | File | `/etc/lighttpd.d/ca.pem` | High
+9 | File | `/ffos/classes/Master.php?f=save_category` | High
+10 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

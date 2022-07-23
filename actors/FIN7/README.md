@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with FIN7:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
-* [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,12 +81,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,51 +97,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `//proc/kcore` | Medium
-3 | File | `/admin_page/all-files-update-ajax.php` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/bcms/admin/?page=user/list` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/bsms/?page=products` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/ext/phar/phar_object.c` | High
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/info.cgi` | Medium
-20 | File | `/lists/admin/` | High
-21 | File | `/MagickCore/image.c` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/modx/manager/index.php` | High
-24 | File | `/proc/<pid>/status` | High
-25 | File | `/public/login.htm` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/replication` | Medium
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-31 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-37 | File | `/Wedding-Management/package_detail.php` | High
-38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-39 | File | `802dot1xclientcert.cgi` | High
-40 | File | `a2billing/customer/iridium_threed.php` | High
-41 | File | `AccountManagerService.java` | High
-42 | File | `actions/CompanyDetailsSave.php` | High
-43 | File | `ActiveServices.java` | High
-44 | File | `ActivityManagerService.java` | High
-45 | ... | ... | ...
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/edit_admin_details.php?id=admin` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin_page/all-files-update-ajax.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bcms/admin/?page=user/list` | High
+12 | File | `/bsms/?page=manage_account` | High
+13 | File | `/bsms/?page=products` | High
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/cgi-bin/login.cgi` | High
+16 | File | `/cgi-bin/system_mgr.cgi` | High
+17 | File | `/ci_hms/massage_room/edit/1` | High
+18 | File | `/dashboard/reports/logs/view` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/dms/admin/reports/daily_collection_report.php` | High
+21 | File | `/etc/hosts` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/fuel/index.php/fuel/logs/items` | High
+24 | File | `/fuel/sitevariables/delete/4` | High
+25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+26 | File | `/include/chart_generator.php` | High
+27 | File | `/index/jobfairol/show/` | High
+28 | File | `/info.cgi` | Medium
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/lists/admin/` | High
+32 | File | `/MagickCore/image.c` | High
+33 | File | `/mgmt/tm/util/bash` | High
+34 | File | `/proc/<PID>/mem` | High
+35 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

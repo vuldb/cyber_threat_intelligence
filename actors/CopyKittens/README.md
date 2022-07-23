@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [ES](https://vuldb.com/?country.es)
-* [SV](https://vuldb.com/?country.sv)
 * [PT](https://vuldb.com/?country.pt)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,34 +77,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/deluser.php` | High
 7 | File | `/admin/edit_admin_details.php?id=admin` | High
 8 | File | `/admin/googleads.php` | High
-9 | File | `/admin/new-content` | High
-10 | File | `/admin/operations/tax.php` | High
-11 | File | `/admin/payment.php` | High
-12 | File | `/admin/scheprofile.cgi` | High
-13 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-14 | File | `/bcms/admin/courts/manage_court.php` | High
-15 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-16 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-17 | File | `/catcompany.php` | High
-18 | File | `/cgi-bin/kerbynet` | High
-19 | File | `/cgi-bin/readfile.tcl` | High
-20 | File | `/classes/Users.php?f=save` | High
-21 | File | `/cms/classes/Master.php?f=delete_client` | High
-22 | File | `/config` | Low
-23 | File | `/defaultui/player/modern.html` | High
-24 | File | `/ffos/admin/categories/manage_category.php` | High
-25 | File | `/ffos/admin/menus/view_menu.php` | High
-26 | File | `/gaia-job-admin/user/add` | High
-27 | File | `/goform/aspForm` | High
-28 | File | `/goform/setNetworkLan` | High
-29 | File | `/goform/SetSysTimeCfg` | High
-30 | File | `/html/Solar_Ftp.php` | High
-31 | File | `/isms/admin/stocks/view_stock.php` | High
-32 | File | `/lists/admin/` | High
+9 | File | `/admin/operations/tax.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/scheprofile.cgi` | High
+12 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+13 | File | `/bcms/admin/courts/manage_court.php` | High
+14 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
+15 | File | `/car-rental-management-system/admin/manage_booking.php` | High
+16 | File | `/catcompany.php` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/cgi-bin/readfile.tcl` | High
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/cms/classes/Master.php?f=delete_client` | High
+21 | File | `/config` | Low
+22 | File | `/defaultui/player/modern.html` | High
+23 | File | `/ffos/admin/categories/manage_category.php` | High
+24 | File | `/ffos/admin/menus/view_menu.php` | High
+25 | File | `/gaia-job-admin/user/add` | High
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/setNetworkLan` | High
+28 | File | `/goform/SetSysTimeCfg` | High
+29 | File | `/html/Solar_Ftp.php` | High
+30 | File | `/isms/admin/stocks/view_stock.php` | High
+31 | File | `/lists/admin/` | High
+32 | File | `/login.php` | Medium
 33 | File | `/mtms/admin/?page=transaction/send` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

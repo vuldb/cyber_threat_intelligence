@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
-* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,28 +76,28 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/general/change-lang` | High
 7 | File | `/admin/renewaldue.php` | High
 8 | File | `/admin/showbad.php` | High
-9 | File | `/admin/ztliuyan_sendmail.php` | High
-10 | File | `/ajax/config_rollback/` | High
-11 | File | `/ajax/remove_sniffer_raw_log/` | High
-12 | File | `/bsms/?page=manage_account` | High
-13 | File | `/category.php` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/ci_spms/admin/category` | High
-16 | File | `/classes/Master.php?f=delete_schedule` | High
-17 | File | `/dashboard/blocks/stacks/view_details/` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/dev/pts/` | Medium
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/film-rating.php` | High
-22 | File | `/jfinal_cms/system/dict/list` | High
-23 | File | `/list` | Low
-24 | File | `/mnotice.php?id=2` | High
-25 | File | `/orrs/admin/reservations/view_details.php` | High
-26 | File | `/pms/admin/actions/manage_action.php` | High
-27 | File | `/pms/admin/inmates/view_inmate.php` | High
+9 | File | `/admin/vca/bia/addacph.cgi` | High
+10 | File | `/admin/ztliuyan_sendmail.php` | High
+11 | File | `/ajax/config_rollback/` | High
+12 | File | `/ajax/remove_sniffer_raw_log/` | High
+13 | File | `/bsms/?page=manage_account` | High
+14 | File | `/category.php` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/ci_spms/admin/category` | High
+17 | File | `/classes/Master.php?f=delete_schedule` | High
+18 | File | `/dashboard/blocks/stacks/view_details/` | High
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/dev/pts/` | Medium
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/film-rating.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/jfinal_cms/system/dict/list` | High
+25 | File | `/list` | Low
+26 | File | `/orrs/admin/reservations/view_details.php` | High
+27 | File | `/pms/admin/actions/manage_action.php` | High
 28 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,9 +39,11 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [59.111.181.116](https://vuldb.com/?ip.59.111.181.116) | - | - | High
 17 | [59.175.154.97](https://vuldb.com/?ip.59.175.154.97) | - | - | High
 18 | [60.10.56.169](https://vuldb.com/?ip.60.10.56.169) | hebei.10.60.in-addr.arpa | - | High
-19 | ... | ... | ... | ...
+19 | [60.10.134.93](https://vuldb.com/?ip.60.10.134.93) | hebei.10.60.in-addr.arpa | - | High
+20 | [60.19.236.50](https://vuldb.com/?ip.60.19.236.50) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 71 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,12 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,49 +66,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/cgi-bin/luci` | High
-3 | File | `/config/getuser` | High
-4 | File | `/form/index.php?module=getjson` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/hostapd` | Medium
-8 | File | `/include/chart_generator.php` | High
-9 | File | `/MTFWU` | Low
-10 | File | `/my_photo_gallery/image.php` | High
-11 | File | `/ptms/classes/Users.php` | High
-12 | File | `/public/admin.php` | High
-13 | File | `/public/login.htm` | High
-14 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/rest/api/1.0/render` | High
-17 | File | `/s/` | Low
-18 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-19 | File | `/scripts/unlock_tasks.php` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/sm/api/v1/firewall/zone/services` | High
-22 | File | `/sys/attachment/uploaderServlet` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/user-utils/users/md5.json` | High
-25 | File | `/userfs/bin/tcapi` | High
-26 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-json` | Medium
-30 | File | `102/tcp` | Low
-31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin.remository.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-36 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/advance_push/public/login` | High
+4 | File | `/api/crontab` | Medium
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/app/controller/Books.php` | High
+7 | File | `/ATL/VQ23` | Medium
+8 | File | `/bin/protest` | Medium
+9 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+10 | File | `/current_action.php?action=reboot` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/config/image_sign` | High
+13 | File | `/etc/hosts` | Medium
+14 | File | `/etc/quagga` | Medium
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+18 | File | `/language/lang` | High
+19 | File | `/loginsave.php` | High
+20 | File | `/menu.html` | Medium
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/recreate.php` | High
+25 | File | `/rest/api/latest/user/avatar/temporary` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/sql/sql_string.h` | High
+28 | File | `/sql/sql_type.cc` | High
+29 | File | `/strings/ctype-latin1.c` | High
+30 | File | `/strings/ctype-simple.c` | High
+31 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/10/lemon-duck-brings-cryptocurrency-miners.html
 * https://github.com/guardicore/labs_campaigns/tree/master/Lemon_Duck
 
 ## Literature

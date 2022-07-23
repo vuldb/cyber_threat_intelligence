@@ -43,12 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,20 +57,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/administration/settings_registration.php` | High
-2 | File | `/ajax-files/postComment.php` | High
-3 | File | `/categorypage.php` | High
-4 | File | `/home.php` | Medium
-5 | File | `/list_temp_photo_pin_upload.php` | High
-6 | File | `/nova/bin/detnet` | High
-7 | File | `/searchpin.php` | High
-8 | File | `/service/upload` | High
-9 | File | `/show_group_members.php` | High
-10 | File | `/sqfs/bin/sccd` | High
-11 | File | `admin/adduser.php` | High
-12 | ... | ... | ...
+1 | File | `/admin/countrymanagement.php` | High
+2 | File | `/administration/settings_registration.php` | High
+3 | File | `/ajax-files/postComment.php` | High
+4 | File | `/categorypage.php` | High
+5 | File | `/home.php` | Medium
+6 | File | `/list_temp_photo_pin_upload.php` | High
+7 | File | `/nova/bin/detnet` | High
+8 | File | `/searchpin.php` | High
+9 | File | `/service/upload` | High
+10 | File | `/show_group_members.php` | High
+11 | File | `/sqfs/bin/sccd` | High
+12 | File | `admin/adduser.php` | High
+13 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

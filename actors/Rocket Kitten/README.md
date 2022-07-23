@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.rocket_kitten](https://vuldb.com/?actor.rocket_kitten)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rocket Kitten:
+
+* [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 7 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Rocket Kitten.
@@ -16,6 +27,55 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | ... | ... | ... | ...
 
 There are 2 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Rocket Kitten_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 18 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Rocket Kitten. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `.htaccess` | Medium
+2 | File | `/admin.php` | Medium
+3 | File | `/admin/book/create/` | High
+4 | File | `/admin/loginc.php` | High
+5 | File | `/auditLogAction.do` | High
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/devices/acurite.c` | High
+8 | File | `/etc/ajenti/config.yml` | High
+9 | File | `/etc/sudoers` | Medium
+10 | File | `/example/editor` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+13 | File | `/goform/login_process` | High
+14 | File | `/goform/rlmswitchr_process` | High
+15 | File | `/goforms/rlminfo` | High
+16 | File | `/newsDia.php` | Medium
+17 | File | `/plugin` | Low
+18 | File | `/rating.php` | Medium
+19 | File | `/scas/admin/` | Medium
+20 | File | `/scas/classes/Users.php?f=save_user` | High
+21 | File | `/services/prefs.php` | High
+22 | File | `/src/njs_object.c` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/wordpress-gallery-transformation/gallery.php` | High
+25 | File | `adclick.php` | Medium
+26 | ... | ... | ...
+
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

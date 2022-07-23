@@ -28,6 +28,14 @@ ID | IP address | Hostname | Actor | Confidence
 2 | [104.194.160.59](https://vuldb.com/?ip.104.194.160.59) | a.59.160.194.104.servpac.com | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 3 | [212.143.21.43](https://vuldb.com/?ip.212.143.21.43) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Keymarble. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Keymarble. This data is unique as it uses our predictive model for actor profiling.

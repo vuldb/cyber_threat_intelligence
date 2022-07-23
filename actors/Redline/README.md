@@ -66,7 +66,7 @@ ID | IP address | Hostname | Campaign | Confidence
 43 | [45.156.24.97](https://vuldb.com/?ip.45.156.24.97) | palmaresk.co.uk | - | High
 44 | ... | ... | ... | ...
 
-There are 170 more IOC items available. Please use our online service to access the data.
+There are 173 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,12 +74,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,16 +104,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/includes/rrdtool.inc.php` | High
 15 | File | `/Main_AdmStatus_Content.asp` | High
 16 | File | `/NAGErrors` | Medium
-17 | File | `/public` | Low
-18 | File | `/sgms/TreeControl` | High
-19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
-22 | File | `/updown/upload.cgi` | High
-23 | File | `/var/log/nginx` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/public` | Low
+19 | File | `/sgms/TreeControl` | High
+20 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/updown/upload.cgi` | High
 24 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -139,6 +140,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/33569/
 * https://asec.ahnlab.com/en/33679/
 * https://asec.ahnlab.com/en/33763/
+* https://blog.morphisec.com/google-ppc-ads-deliver-redline-taurus-and-mini-redline-infostealers
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0212-0219.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0528-0604.html
@@ -147,6 +149,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0625-0702.html
 * https://blogs.blackberry.com/en/2021/07/threat-thursday-redline-infostealer
 * https://blogs.blackberry.com/en/2021/10/threat-thursday-redline-infostealer-update
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-21%20Redline%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-09%20Redline%20IOCs
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
 
 ## Literature

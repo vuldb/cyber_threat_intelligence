@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Miori:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [KR](https://vuldb.com/?country.kr)
+* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,6 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [94.177.226.227](https://vuldb.com/?ip.94.177.226.227) | host227-226-177-94.static.arubacloud.de | - | High
 2 | [144.202.49.126](https://vuldb.com/?ip.144.202.49.126) | 144.202.49.126.vultrusercontent.com | - | High
+3 | [179.43.156.214](https://vuldb.com/?ip.179.43.156.214) | xoc.ch | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,8 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,14 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `Advanced_ASUSDDNS_Content.asp` | High
-2 | File | `data/gbconfiguration.dat` | High
+1 | File | `.procmailrc` | Medium
+2 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+3 | File | `/etc/fstab` | Medium
+4 | ... | ... | ...
+
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.trendmicro.com/trendlabs-security-intelligence/with-mirai-comes-miori-iot-botnet-delivered-via-thinkphp-remote-code-execution-exploit/
+* https://twitter.com/albooboo_ioc/status/1548226322219945984
 
 ## Literature
 

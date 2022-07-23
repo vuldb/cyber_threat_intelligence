@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [23.6.70.227](https://vuldb.com/?ip.23.6.70.227) | a23-6-70-227.deploy.static.akamaitechnologies.com | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +37,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,17 +51,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/sysmon.php` | High
-2 | File | `/api/content/posts/comments` | High
-3 | File | `/example/editor` | High
-4 | File | `/Home/GetAttachment` | High
-5 | File | `/members/view_member.php` | High
-6 | File | `/modules/projects/vw_files.php` | High
-7 | File | `/var/log/demisto/` | High
-8 | File | `admin/limits.php` | High
-9 | ... | ... | ...
+1 | File | `/admin.php/pic/admin/type/pl_save` | High
+2 | File | `/admin/sysmon.php` | High
+3 | File | `/api/content/posts/comments` | High
+4 | File | `/churchcrm/WhyCameEditor.php` | High
+5 | File | `/example/editor` | High
+6 | File | `/goform/aspForm` | High
+7 | File | `/Home/GetAttachment` | High
+8 | File | `/index.php?page=search/rentals` | High
+9 | File | `/members/view_member.php` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/modules/projects/vw_files.php` | High
+12 | File | `/spip.php` | Medium
+13 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,6 +73,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0726-0802.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
 
 ## Literature
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [SC](https://vuldb.com/?country.sc)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,46 +111,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `../FILEDIR` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin.php/singer/admin/lists/zhuan` | High
-4 | File | `/admin.php/User/level_sort` | High
-5 | File | `/admin/?page=system_info/contact_info` | High
-6 | File | `/admin/dl_sendmail.php` | High
-7 | File | `/admin/showbad.php` | High
-8 | File | `/admin/ztliuyan_sendmail.php` | High
-9 | File | `/ajax/config_rollback/` | High
-10 | File | `/ajax/set_sys_time/` | High
-11 | File | `/Ap4RtpAtom.cpp` | High
-12 | File | `/api/part_categories` | High
-13 | File | `/api/programs/orgUnits?programs` | High
-14 | File | `/application/controllers/Users.php` | High
-15 | File | `/auditLogAction.do` | High
-16 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-17 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-18 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-19 | File | `/car-rental-management-system/admin/manage_user.php` | High
-20 | File | `/catalog/admin/administrators.php` | High
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/cgi-bin/webproc` | High
-24 | File | `/churchcrm/WhyCameEditor.php` | High
-25 | File | `/company` | Medium
-26 | File | `/company/down_resume/total/nature` | High
-27 | File | `/course/api/upload/pic` | High
-28 | File | `/dashboard/blocks/stacks/view_details/` | High
-29 | File | `/dashboard/reports/logs/view` | High
-30 | File | `/dashboard/snapshot/*?orgId=0` | High
-31 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-32 | File | `/defaultui/player/modern.html` | High
-33 | File | `/dl/dl_sendmail.php` | High
-34 | File | `/fuel/sitevariables/delete/4` | High
-35 | File | `/goform/aspForm` | High
-36 | File | `/goform/SetFirewallCfg` | High
-37 | File | `/home/jobfairol/resumelist` | High
-38 | ... | ... | ...
+1 | File | `.forward` | Medium
+2 | File | `.python-version` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/googleads.php` | High
+5 | File | `/admin/showbad.php` | High
+6 | File | `/admin/ztliuyan_sendmail.php` | High
+7 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+8 | File | `/ajax/config_rollback/` | High
+9 | File | `/ajax/set_sys_time/` | High
+10 | File | `/Ap4RtpAtom.cpp` | High
+11 | File | `/application/controllers/Users.php` | High
+12 | File | `/bmis/pages/resident/resident.php` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/nobody` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/webproc` | High
+17 | File | `/company` | Medium
+18 | File | `/company/down_resume/total/nature` | High
+19 | File | `/dashboard/blocks/stacks/view_details/` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/dashboard/reports/logs/view` | High
+22 | File | `/dashboard/snapshot/*?orgId=0` | High
+23 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+24 | File | `/defaultui/player/modern.html` | High
+25 | File | `/dl/dl_sendmail.php` | High
+26 | File | `/editbrand.php` | High
+27 | File | `/etc/lighttpd.d/ca.pem` | High
+28 | File | `/etc/shadow` | Medium
+29 | File | `/ffos/classes/Master.php?f=save_category` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/goform/SetFirewallCfg` | High
+32 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

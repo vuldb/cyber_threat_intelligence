@@ -21,11 +21,11 @@ There are 8 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lazarus:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [IN](https://vuldb.com/?country.in)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -228,8 +228,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -242,18 +242,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/options.py` | High
-2 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-3 | File | `/dashboard/menu-list.php` | High
-4 | File | `/dashboard/profile.php` | High
-5 | File | `/dashboard/table-list.php` | High
-6 | File | `/etc/lighttpd.d/ca.pem` | High
-7 | File | `/ffos/classes/Master.php?f=save_category` | High
-8 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-9 | File | `/pkg/util` | Medium
-10 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/vca/bia/addacph.cgi` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/api/sys_username_passwd.cmd` | High
+6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+7 | File | `/bmis/pages/resident/resident.php` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/nightled.cgi` | High
+11 | File | `/cgi-bin/touchlist_sync.cgi` | High
+12 | File | `/conf/` | Low
+13 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

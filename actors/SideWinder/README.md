@@ -48,12 +48,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,46 +63,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_login.php` | High
-2 | File | `/backups/` | Medium
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/config/getuser` | High
-5 | File | `/controllers/MgrDiagnosticTools.php` | High
-6 | File | `/dev/cuse` | Medium
-7 | File | `/download` | Medium
-8 | File | `/etc/config/rpcd` | High
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/export` | Low
-11 | File | `/forum/away.php` | High
-12 | File | `/gena.cgi` | Medium
-13 | File | `/goform/webSettingProfileSecurity` | High
-14 | File | `/login` | Low
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/MIME/INBOX-MM-1/` | High
-17 | File | `/ms/file/uploadTemplate.do` | High
-18 | File | `/netflow/jspui/editProfile.jsp` | High
-19 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-21 | File | `/out.php` | Medium
-22 | File | `/php/ajax.php` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/rapi/read_url` | High
-25 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/service/v1/createUser` | High
-28 | File | `/setSystemAdmin` | High
-29 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-30 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-36 | File | `/_core/profile/` | High
-37 | File | `adclick.php` | Medium
-38 | ... | ... | ...
+1 | File | `/admin/?page=system_info/contact_info` | High
+2 | File | `/admin/admin_login.php` | High
+3 | File | `/backups/` | Medium
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/config/getuser` | High
+6 | File | `/controllers/MgrDiagnosticTools.php` | High
+7 | File | `/dashboard/reports/logs/view` | High
+8 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+9 | File | `/dev/cuse` | Medium
+10 | File | `/download` | Medium
+11 | File | `/etc/config/rpcd` | High
+12 | File | `/EXCU_SHELL` | Medium
+13 | File | `/export` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/gena.cgi` | Medium
+16 | File | `/goform/webSettingProfileSecurity` | High
+17 | File | `/login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/MIME/INBOX-MM-1/` | High
+20 | File | `/ms/file/uploadTemplate.do` | High
+21 | File | `/netflow/jspui/editProfile.jsp` | High
+22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+23 | File | `/ofrs/admin/?page=requests/view_request` | High
+24 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php/ajax.php` | High
+27 | File | `/public/login.htm` | High
+28 | File | `/rapi/read_url` | High
+29 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+30 | File | `/see_more_details.php` | High
+31 | File | `/service/v1/createUser` | High
+32 | File | `/setSystemAdmin` | High
+33 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+34 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/user/dls_download.php` | High
+37 | File | `/vicidial/user_stats.php` | High
+38 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+41 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

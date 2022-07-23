@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [JP](https://vuldb.com/?country.jp)
+* [PT](https://vuldb.com/?country.pt)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,43 +50,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-3 | File | `/acms/classes/Master.php?f=delete_img` | High
-4 | File | `/admin/?page=system_info/contact_info` | High
-5 | File | `/admin/featured.php` | High
-6 | File | `/ajax/config_rollback/` | High
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/api/part_categories` | High
-9 | File | `/auditLogAction.do` | High
-10 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-11 | File | `/cgi-bin` | Medium
-12 | File | `/cgi-bin/webproc` | High
-13 | File | `/churchcrm/WhyCameEditor.php` | High
-14 | File | `/cms/admin/?page=client/view_client` | High
-15 | File | `/cms/admin/?page=invoice/view_invoice` | High
-16 | File | `/College_Management_System/admin/display-teacher.php` | High
-17 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-18 | File | `/ctpms/admin/applications/update_status.php` | High
-19 | File | `/ctpms/admin/individuals/update_status.php` | High
-20 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-21 | File | `/dms/admin/reports/daily_collection_report.php` | High
-22 | File | `/etc/cron.daily/upstart` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/IISADMPWD` | Medium
-26 | File | `/index.php?page=reserve` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/job` | Low
-29 | File | `/linkedcontent/editfolder.php` | High
-30 | File | `/mdiy/dict/listExcludeApp` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/ofrs/admin/?page=reports` | High
-33 | File | `/PC/WebService.asmx` | High
-34 | File | `/pms/admin/actions/view_action.php` | High
-35 | File | `/pms/admin/cells/manage_cell.php` | High
-36 | ... | ... | ...
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/featured.php` | High
+4 | File | `/ajax/config_rollback/` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/api/part_categories` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/cgi-bin` | Medium
+9 | File | `/cgi-bin/webproc` | High
+10 | File | `/churchcrm/WhyCameEditor.php` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/dashboard/menu-list.php` | High
+13 | File | `/dms/admin/reports/daily_collection_report.php` | High
+14 | File | `/editbrand.php` | High
+15 | File | `/etc/cron.daily/upstart` | High
+16 | File | `/etc/lighttpd.d/ca.pem` | High
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/goform/WanParameterSetting` | High
+20 | File | `/IISADMPWD` | Medium
+21 | File | `/index.php?page=search/rentals` | High
+22 | File | `/Items/*/RemoteImages/Download` | High
+23 | File | `/job` | Low
+24 | File | `/linkedcontent/editfolder.php` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/officials/officials.php` | High
+28 | File | `/ofrs/admin/?page=reports` | High
+29 | File | `/PC/WebService.asmx` | High
+30 | File | `/pms/admin/actions/view_action.php` | High
+31 | File | `/pms/admin/cells/manage_cell.php` | High
+32 | File | `/pms/admin/inmates/manage_inmate.php` | High
+33 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

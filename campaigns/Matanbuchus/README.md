@@ -18,6 +18,7 @@ These _actors_ are associated with Matanbuchus or other actors linked to the cam
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [BelialDemon](https://vuldb.com/?actor.belialdemon) | High
+2 | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | High
 
 ## IOC - Indicator of Compromise
 
@@ -28,6 +29,9 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [34.94.151.129](https://vuldb.com/?ip.34.94.151.129) | 129.151.94.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 2 | [34.105.89.82](https://vuldb.com/?ip.34.105.89.82) | 82.89.105.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 3 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,6 +42,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 3 | T1548.002 | CWE-285 | Improper Authorization | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,6 +60,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-16%20Matanbuchus%20IOCs
 * https://unit42.paloaltonetworks.com/matanbuchus-malware-as-a-service/
 
 ## Literature

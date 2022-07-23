@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,13 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,35 +60,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_https_cert_file/` | High
-2 | File | `/action/remove/` | High
-3 | File | `/admin/featured.php` | High
-4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/ajax/config_rollback/` | High
-6 | File | `/alarm_pi/alarmService.php` | High
-7 | File | `/api/admin/attachments/upload` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/ci_hms/search` | High
-12 | File | `/classes/Master.php?f=delete_reservation` | High
-13 | File | `/classes/Master.php?f=delete_schedule` | High
-14 | File | `/classes/Master.php?f=delete_train` | High
-15 | File | `/College/admin/teacher.php` | High
-16 | File | `/company` | Medium
-17 | File | `/company/down_resume/total/nature` | High
-18 | File | `/company/service/increment/add/im` | High
-19 | File | `/dashboard/blocks/stacks/view_details/` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/home/campus/campus_job` | High
-24 | File | `/home/job/index` | High
-25 | File | `/home/job/map` | High
-26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-27 | ... | ... | ...
+1 | File | `.encfs6.xml` | Medium
+2 | File | `.forward` | Medium
+3 | File | `.python-version` | High
+4 | File | `/ajax/remove_sniffer_raw_log/` | High
+5 | File | `/api/sys_username_passwd.cmd` | High
+6 | File | `/auth/callback` | High
+7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/nightled.cgi` | High
+11 | File | `/cgi-bin/nobody` | High
+12 | File | `/ci_spms/admin/category` | High
+13 | File | `/conf/` | Low
+14 | File | `/dashboard/menu-list.php` | High
+15 | File | `/dashboard/profile.php` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/dashboard/table-list.php` | High
+18 | File | `/dev/pts/` | Medium
+19 | File | `/editbrand.php` | High
+20 | File | `/etc/hosts` | Medium
+21 | File | `/etc/lighttpd.d/ca.pem` | High
+22 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

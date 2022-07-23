@@ -53,12 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,9 +105,9 @@ ID | Type | Indicator | Confidence
 36 | File | `album_portal.php` | High
 37 | File | `al_initialize.php` | High
 38 | File | `app/call_centers/cmd.php` | High
-39 | File | `arch/x86/kvm/hyperv.c` | High
-40 | File | `auction.cgi` | Medium
-41 | File | `autologin.jsp` | High
+39 | File | `apply.cgi` | Medium
+40 | File | `appointment.php` | High
+41 | File | `arch/x86/kvm/hyperv.c` | High
 42 | ... | ... | ...
 
 There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

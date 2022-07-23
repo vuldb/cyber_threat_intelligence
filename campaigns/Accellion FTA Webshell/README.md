@@ -86,7 +86,8 @@ ID | Type | Indicator | Confidence
 28 | File | `/uncpath/` | Medium
 29 | File | `/usr/bin/pkexec` | High
 30 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-31 | ... | ... | ...
+31 | File | `/var/log/nginx` | High
+32 | ... | ... | ...
 
 There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

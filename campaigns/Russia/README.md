@@ -66,10 +66,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -80,18 +80,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_cert_file/` | High
-2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/action/remove/` | High
-4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/api/user/userData?userCode=admin` | High
-6 | File | `/ci_hms/massage_room/edit/1` | High
-7 | File | `/ci_hms/search` | High
-8 | File | `/ci_ssms/index.php/orders/create` | High
-9 | File | `/classes/Master.php?f=delete_message` | High
-10 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/vca/bia/addacph.cgi` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/api/sys_username_passwd.cmd` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin/luci/api/auth` | High
+10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+11 | File | `/cgi-bin/nightled.cgi` | High
+12 | File | `/cgi-bin/touchlist_sync.cgi` | High
+13 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

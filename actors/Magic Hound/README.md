@@ -89,16 +89,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/goforms/rlminfo` | High
 15 | File | `/newsDia.php` | Medium
 16 | File | `/plugin` | Low
-17 | File | `/rating.php` | Medium
-18 | File | `/scas/admin/` | Medium
-19 | File | `/scas/classes/Users.php?f=save_user` | High
-20 | File | `/services/prefs.php` | High
-21 | File | `/src/njs_object.c` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/wordpress-gallery-transformation/gallery.php` | High
+17 | File | `/pms/index.php` | High
+18 | File | `/rating.php` | Medium
+19 | File | `/scas/admin/` | Medium
+20 | File | `/scas/classes/Users.php?f=save_user` | High
+21 | File | `/services/prefs.php` | High
+22 | File | `/src/njs_object.c` | High
+23 | File | `/uncpath/` | Medium
 24 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

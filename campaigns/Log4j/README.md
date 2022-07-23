@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,13 +4908,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4922,25 +4922,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/conferences/get-all-status/` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/admin/edit_admin_details.php?id=admin` | High
-4 | File | `/admin/general/change-lang` | High
-5 | File | `/admin/group/list/` | High
-6 | File | `/admin/service/stop/` | High
-7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/ci_hms/search` | High
-9 | File | `/ci_ssms/index.php/orders/create` | High
-10 | File | `/College/admin/teacher.php` | High
-11 | File | `/dashboard/snapshot/*?orgId=0` | High
-12 | File | `/front/roomtype-details.php` | High
-13 | File | `/getImage` | Medium
-14 | File | `/librarian/bookdetails.php` | High
-15 | File | `/pdfalto/src/pdfalto.cc` | High
-16 | File | `/pms/index.php` | High
-17 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/inquiries/view_details.php` | High
+4 | File | `/admin/vca/bia/addacph.cgi` | High
+5 | File | `/admin/vca/license/license_tok.cgi` | High
+6 | File | `/bmis/pages/resident/resident.php` | High
+7 | File | `/catcompany.php` | High
+8 | File | `/category.php` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/nightled.cgi` | High
+11 | File | `/cgi-bin/touchlist_sync.cgi` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/ci_hms/search` | High
+14 | File | `/ci_spms/admin/category` | High
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/ci_ssms/index.php/orders/create` | High
+17 | File | `/donor-wall` | Medium
+18 | File | `/doping.asp` | Medium
+19 | File | `/dotrace.asp` | Medium
+20 | File | `/editbrand.php` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/htmldoc/htmldoc/html.cxx` | High
+23 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -65,9 +65,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/rapi/read_url` | High
 8 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
 9 | File | `/see_more_details.php` | High
-10 | ... | ... | ...
+10 | File | `/vicidial/user_stats.php` | High
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

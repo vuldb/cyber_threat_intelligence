@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,27 +71,27 @@ ID | Type | Indicator | Confidence
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
 10 | File | `/dashboard/reports/logs/view` | High
 11 | File | `/debug/pprof` | Medium
-12 | File | `/dl/dl_print.php` | High
-13 | File | `/etc/hosts` | Medium
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/index/jobfairol/show/` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/moddable/xs/sources/xsDebug.c` | High
-21 | File | `/new` | Low
-22 | File | `/odfs/classes/Master.php?f=save_category` | High
-23 | File | `/proc/<PID>/mem` | High
-24 | File | `/proc/<pid>/status` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+12 | File | `/etc/hosts` | Medium
+13 | File | `/fuel/index.php/fuel/logs/items` | High
+14 | File | `/fuel/sitevariables/delete/4` | High
+15 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+16 | File | `/index/jobfairol/show/` | High
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/moddable/xs/sources/xsDebug.c` | High
+20 | File | `/new` | Low
+21 | File | `/odfs/classes/Master.php?f=save_category` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+29 | File | `/tmp` | Low
 30 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

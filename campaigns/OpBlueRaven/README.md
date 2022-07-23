@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OpBlueRaven:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,12 +50,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,40 +66,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.dbus-keyrings` | High
 2 | File | `//proc/kcore` | Medium
-3 | File | `/?module=users&section=cpanel&page=list` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/bcms/admin/?page=user/list` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/export` | Low
-10 | File | `/fuel/index.php/fuel/logs/items` | High
-11 | File | `/fuel/sitevariables/delete/4` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/new` | Low
-15 | File | `/out.php` | Medium
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload/catalog/controller/account/password.php` | High
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `AccountManagerService.java` | High
-30 | File | `actions/CompanyDetailsSave.php` | High
-31 | File | `ActiveServices.java` | High
-32 | File | `ActivityManagerService.java` | High
-33 | File | `admin.php` | Medium
-34 | ... | ... | ...
+3 | File | `/admin/` | Low
+4 | File | `/admin/cms.php` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/photo.php` | High
+8 | File | `/admin/searchview.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bcms/admin/?page=user/list` | High
+12 | File | `/bsms/?page=manage_account` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/ci_hms/massage_room/edit/1` | High
+15 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+22 | File | `/index/jobfairol/show/` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/new` | Low
+26 | File | `/proc/<PID>/mem` | High
+27 | File | `/proc/<pid>/status` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

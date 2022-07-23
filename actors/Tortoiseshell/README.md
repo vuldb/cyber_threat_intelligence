@@ -18,6 +18,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [64.235.39.45](https://vuldb.com/?ip.64.235.39.45) | lasvegas-nv-datacenter.serverpoint.com | - | High
 2 | [64.235.60.123](https://vuldb.com/?ip.64.235.60.123) | lasvegas-nv-datacenter.serverpoint.com | - | High
+3 | [162.220.55.249](https://vuldb.com/?ip.162.220.55.249) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,7 +29,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -33,17 +42,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `Image.php` | Medium
-3 | File | `shop.php` | Medium
+1 | File | `/uncpath/` | Medium
+2 | File | `coders\heic.c` | High
+3 | File | `data/gbconfiguration.dat` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/09/tortoiseshell-fake-veterans.html
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/tortoiseshell-apt-supply-chain
 
 ## Literature

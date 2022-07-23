@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AveMaria:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [IO](https://vuldb.com/?country.io)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,11 +31,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-2 | [91.192.100.62](https://vuldb.com/?ip.91.192.100.62) | 91-192-100-62.gerber.non-logging.vpn | [FIN7](https://vuldb.com/?actor.fin7) | High
-3 | [168.167.45.162](https://vuldb.com/?ip.168.167.45.162) | gbe-msu2-2-bnkabc.btc.net.bw | [FIN7](https://vuldb.com/?actor.fin7) | High
+2 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+3 | [91.192.100.62](https://vuldb.com/?ip.91.192.100.62) | 91-192-100-62.gerber.non-logging.vpn | [FIN7](https://vuldb.com/?actor.fin7) | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,22 +58,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/syslog` | High
-2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/etc/shadow` | Medium
-4 | File | `/plain` | Low
-5 | File | `/public/login.htm` | High
-6 | File | `/service/upload` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/upload/catalog/controller/account/password.php` | High
-9 | File | `admin/admin_users.php` | High
-10 | File | `admin/pageEditGroup.php` | High
-11 | File | `admin/record_company.php` | High
-12 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
-13 | File | `api/account/register` | High
-14 | ... | ... | ...
+1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/account/details.php` | High
+5 | File | `/admin/academic/studenview_left.php` | High
+6 | File | `/admin/contenttemp` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/syslog` | High
+9 | File | `/anony/mjpg.cgi` | High
+10 | File | `/assets/components/gallery/connector.php` | High
+11 | File | `/ctcprotocol/Protocol` | High
+12 | File | `/device/device=140/tab=wifi/view` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/Forms/` | Low
+15 | File | `/framework/modules/users/models/user.php` | High
+16 | File | `/HNAP1/SetAccessPointMode` | High
+17 | File | `/iisadmin` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/mcategory.php` | High
+20 | File | `/member/picture/album` | High
+21 | File | `/mysql/api/diags.php` | High
+22 | File | `/phpcollab/users/edituser.php` | High
+23 | File | `/plain` | Low
+24 | File | `/products/details.asp` | High
+25 | File | `/product_list.php` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/replication` | Medium
+28 | File | `/service/upload` | High
+29 | File | `/services/details.asp` | High
+30 | File | `/trx_addons/v2/get/sc_layout` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/upload/catalog/controller/account/password.php` | High
+33 | File | `/var/log/postgresql` | High
+34 | File | `/_vti_pvt/access.cnf` | High
+35 | File | `4.edu.php` | Medium
+36 | File | `add_ons.php` | Medium
+37 | File | `add_to_cart.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/admin_users.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/mod_users/controller.php?action=edit` | High
+42 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,6 +109,10 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://asec.ahnlab.com/en/34102/
 * https://blog.morphisec.com/threat-alert-ave-maria-infostealer-on-the-rise-with-new-stealthier-delivery
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-11%20AveMaria%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-28%20AveMaria_Warzone%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-19%20AveMaria_Warzone%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-24%20AveMaria_Warzone%20RAT%20IOCs
 * https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/
 
 ## Literature

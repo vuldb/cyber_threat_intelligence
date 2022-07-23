@@ -82,36 +82,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=system_info/contact_info` | High
 3 | File | `/admin/dl_sendmail.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/admin/produts/controller.php` | High
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/app/options.py` | High
-8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-21 | File | `/index/jobfairol/show/` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/ms/cms/content/list.do` | High
-25 | File | `/new` | Low
-26 | File | `/orms/` | Low
-27 | File | `/plesk-site-preview/` | High
-28 | File | `/proc/<PID>/mem` | High
-29 | File | `/proc/<pid>/status` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/school/model/get_admin_profile.php` | High
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/fuel/index.php/fuel/logs/items` | High
+16 | File | `/fuel/sitevariables/delete/4` | High
+17 | File | `/goform/aspForm` | High
+18 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+20 | File | `/index/jobfairol/show/` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/ms/cms/content/list.do` | High
+24 | File | `/new` | Low
+25 | File | `/orms/` | Low
+26 | File | `/plesk-site-preview/` | High
+27 | File | `/proc/<PID>/mem` | High
+28 | File | `/proc/<pid>/status` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/school/model/get_admin_profile.php` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

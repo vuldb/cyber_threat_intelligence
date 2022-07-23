@@ -62,9 +62,10 @@ ID | IP address | Hostname | Campaign | Confidence
 33 | [44.194.24.167](https://vuldb.com/?ip.44.194.24.167) | ec2-44-194-24-167.compute-1.amazonaws.com | - | Medium
 34 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
 35 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
-36 | ... | ... | ... | ...
+36 | [45.135.229.212](https://vuldb.com/?ip.45.135.229.212) | iad.scarletshark.net | - | High
+37 | ... | ... | ... | ...
 
-There are 142 more IOC items available. Please use our online service to access the data.
+There are 144 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,12 +73,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,13 +95,13 @@ ID | Type | Indicator | Confidence
 7 | File | `/mgmt/tm/util/bash` | High
 8 | File | `/modules/projects/vw_files.php` | High
 9 | File | `/plain` | Low
-10 | File | `/uncpath/` | Medium
-11 | File | `/xyhai.php?s=/Auth/editUser` | High
-12 | File | `/_next` | Low
-13 | File | `actionHandler/ajax_managed_services.php` | High
+10 | File | `/staff/tools/custom-fields` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/xyhai.php?s=/Auth/editUser` | High
+13 | File | `/_next` | Low
 14 | ... | ... | ...
 
-There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,7 +117,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/10/threat-roundup-0924-1001.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
+* https://cert.gov.ua/article/37688
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-07%20Formbook%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-13%20Formbook%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Formbook%20IOCs
 * https://isc.sans.edu/forums/diary/Excel+spreasheet+macro+kicks+off+Formbook+infection/26332/
 
 ## Literature

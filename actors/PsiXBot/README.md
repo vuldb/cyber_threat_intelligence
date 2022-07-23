@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,12 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,42 +82,41 @@ ID | Type | Indicator | Confidence
 20 | File | `/modules/tasks/summary.inc.php` | High
 21 | File | `/monitoring` | Medium
 22 | File | `/nova/bin/console` | High
-23 | File | `/payu/icpcheckout/` | High
-24 | File | `/property-list/property_view.php` | High
-25 | File | `/public/login.htm` | High
-26 | File | `/req_password_user.php` | High
-27 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-28 | File | `/resourceNode/resources.jsf` | High
-29 | File | `/rest/project-templates/1.0/createshared` | High
-30 | File | `/rom-0` | Low
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/trx_addons/v2/get/sc_layout` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-35 | File | `/usr/syno/etc/mount.conf` | High
-36 | File | `/var/log/nginx` | High
+23 | File | `/out.php` | Medium
+24 | File | `/payu/icpcheckout/` | High
+25 | File | `/property-list/property_view.php` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/req_password_user.php` | High
+28 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+29 | File | `/resourceNode/resources.jsf` | High
+30 | File | `/rest/project-templates/1.0/createshared` | High
+31 | File | `/rom-0` | Low
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/trx_addons/v2/get/sc_layout` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+36 | File | `/usr/syno/etc/mount.conf` | High
 37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 38 | File | `/WEB-INF/web.xml` | High
 39 | File | `/_next` | Low
 40 | File | `3.6.cpj` | Low
 41 | File | `404.php` | Low
 42 | File | `a-b-membres.php` | High
-43 | File | `ActionsAndOperations` | High
-44 | File | `adclick.php` | Medium
-45 | File | `add_2_basket.asp` | High
-46 | File | `admin.asp` | Medium
-47 | File | `admin.aspx` | Medium
-48 | File | `admin.php` | Medium
-49 | File | `admin/aboutus.php` | High
-50 | File | `admin/member_details.php` | High
-51 | File | `admin_chatconfig.php` | High
-52 | File | `ajaxp.php` | Medium
-53 | File | `ajax_calls.php` | High
-54 | File | `alphabet.php` | Medium
-55 | File | `article2/comments.inc.php` | High
-56 | ... | ... | ...
+43 | File | `acropora/crypto/asn1_common.c` | High
+44 | File | `ActionsAndOperations` | High
+45 | File | `adclick.php` | Medium
+46 | File | `add_2_basket.asp` | High
+47 | File | `admin.asp` | Medium
+48 | File | `admin.aspx` | Medium
+49 | File | `admin.php` | Medium
+50 | File | `admin/aboutus.php` | High
+51 | File | `admin/member_details.php` | High
+52 | File | `admin_chatconfig.php` | High
+53 | File | `ajaxp.php` | Medium
+54 | File | `ajax_calls.php` | High
+55 | ... | ... | ...
 
-There are 491 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

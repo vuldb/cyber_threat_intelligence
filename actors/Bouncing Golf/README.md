@@ -64,17 +64,18 @@ ID | Type | Indicator | Confidence
 14 | File | `/tmp` | Low
 15 | File | `/uncpath/` | Medium
 16 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-17 | File | `/ViewUserHover.jspa` | High
-18 | File | `AccountStatus.jsp` | High
-19 | File | `adclick.php` | Medium
-20 | File | `add.php` | Low
-21 | File | `admin/systemOutOfBand.do` | High
-22 | File | `app/application.cpp` | High
-23 | File | `auth-gss2.c` | Medium
-24 | File | `authent.php4` | Medium
-25 | ... | ... | ...
+17 | File | `/vicidial/AST_agent_time_sheet.php` | High
+18 | File | `/ViewUserHover.jspa` | High
+19 | File | `AccountStatus.jsp` | High
+20 | File | `adclick.php` | Medium
+21 | File | `add.php` | Low
+22 | File | `admin/systemOutOfBand.do` | High
+23 | File | `app/application.cpp` | High
+24 | File | `auth-gss2.c` | Medium
+25 | File | `authent.php4` | Medium
+26 | ... | ... | ...
 
-There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

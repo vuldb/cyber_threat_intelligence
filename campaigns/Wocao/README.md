@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,14 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,40 +56,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/action/remove/` | High
-4 | File | `/admin/scheprofile.cgi` | High
-5 | File | `/admin/showbad.php` | High
-6 | File | `/admin/ztliuyan_sendmail.php` | High
-7 | File | `/alarm_pi/alarmService.php` | High
-8 | File | `/cgi-bin/kerbynet` | High
-9 | File | `/cgi-bin/webproc` | High
-10 | File | `/churchcrm/WhyCameEditor.php` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/ci_hms/search` | High
-13 | File | `/company` | Medium
-14 | File | `/company/service/increment/add/im` | High
-15 | File | `/dashboard/blocks/stacks/view_details/` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/dashboard/snapshot/*?orgId=0` | High
-18 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-19 | File | `/defaultui/player/modern.html` | High
-20 | File | `/dl/dl_sendmail.php` | High
-21 | File | `/dl/dl_sendsms.php` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/home/campus/campus_job` | High
-24 | File | `/home/job/index` | High
-25 | File | `/images/background/1.php` | High
-26 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-27 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-28 | File | `/linkedcontent/editfolder.php` | High
-29 | File | `/loginsave.php` | High
-30 | File | `/mobilebroker/ServiceToBroker.svc/Json/Connect` | High
-31 | File | `/modules/mindmap/index.php` | High
-32 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/.ssh/authorized_keys2` | High
+3 | File | `/action/import_https_cert_file/` | High
+4 | File | `/action/remove/` | High
+5 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+6 | File | `/ajax/remove_sniffer_raw_log/` | High
+7 | File | `/api/sys_username_passwd.cmd` | High
+8 | File | `/app/options.py` | High
+9 | File | `/auth/callback` | High
+10 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+11 | File | `/bmis/pages/resident/resident.php` | High
+12 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+13 | File | `/cgi-bin/nightled.cgi` | High
+14 | File | `/cgi-bin/nobody` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/ci_hms/search` | High
+17 | File | `/ci_spms/admin/category` | High
+18 | File | `/conf/` | Low
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/dashboard/profile.php` | High
+21 | File | `/dashboard/table-list.php` | High
+22 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
