@@ -86,20 +86,21 @@ ID | Type | Indicator | Confidence
 15 | File | `/index/jobfairol/show/` | High
 16 | File | `/librarian/bookdetails.php` | High
 17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/proc/<PID>/mem` | High
-21 | File | `/proc/<pid>/status` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | ... | ... | ...
+18 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/new` | Low
+21 | File | `/proc/<PID>/mem` | High
+22 | File | `/proc/<pid>/status` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/secure/ViewCollectors` | High
+27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+29 | File | `/tmp` | Low
+30 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

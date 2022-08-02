@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackByte:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,6 +22,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.9.148.114](https://vuldb.com/?ip.45.9.148.114) | - | - | High
+2 | [185.93.6.31](https://vuldb.com/?ip.185.93.6.31) | free.example.com | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,12 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,18 +44,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/goform/SetNetControlList` | High
-2 | File | `admin/categories_industry.php` | High
-3 | File | `admin/content/postcategory` | High
-4 | File | `Adminstrator/Users/Edit/` | High
-5 | File | `agent.cfg` | Medium
-6 | ... | ... | ...
+2 | File | `/server-status` | High
+3 | File | `addentry.php` | Medium
+4 | File | `admin/categories_industry.php` | High
+5 | File | `admin/content/postcategory` | High
+6 | File | `Adminstrator/Users/Edit/` | High
+7 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/196/blackbyte-ransomware-iocs/
 * https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/blackbyte-ransomware-pt-1-in-depth-analysis/
 
 ## Literature

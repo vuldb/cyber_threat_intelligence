@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,13 +34,18 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [27.126.176.169](https://vuldb.com/?ip.27.126.176.169) | - | - | High
 5 | [27.126.186.74](https://vuldb.com/?ip.27.126.186.74) | krakow.intellectint.net | - | High
 6 | [27.126.186.222](https://vuldb.com/?ip.27.126.186.222) | grupos.slidefresh.net | - | High
-7 | [45.32.47.148](https://vuldb.com/?ip.45.32.47.148) | 45.32.47.148.vultr.com | - | Medium
-8 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
-9 | [45.125.12.147](https://vuldb.com/?ip.45.125.12.147) | spk.cloudie.hk | - | High
-10 | [45.127.97.222](https://vuldb.com/?ip.45.127.97.222) | - | - | High
-11 | ... | ... | ... | ...
+7 | [43.129.177.152](https://vuldb.com/?ip.43.129.177.152) | - | - | High
+8 | [43.134.194.237](https://vuldb.com/?ip.43.134.194.237) | - | - | High
+9 | [43.154.74.7](https://vuldb.com/?ip.43.154.74.7) | - | - | High
+10 | [43.154.85.5](https://vuldb.com/?ip.43.154.85.5) | - | - | High
+11 | [43.154.88.192](https://vuldb.com/?ip.43.154.88.192) | - | - | High
+12 | [45.32.47.148](https://vuldb.com/?ip.45.32.47.148) | 45.32.47.148.vultr.com | - | Medium
+13 | [45.76.218.247](https://vuldb.com/?ip.45.76.218.247) | 45.76.218.247.vultrusercontent.com | - | High
+14 | [45.77.178.47](https://vuldb.com/?ip.45.77.178.47) | 45.77.178.47.vultrusercontent.com | - | High
+15 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,25 +66,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/cgi-bin/api-get_line_status` | High
-3 | File | `/export` | Low
-4 | File | `/getcfg.php` | Medium
-5 | File | `/includes/rrdtool.inc.php` | High
-6 | File | `/onvif/device_service` | High
-7 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `ActiveMediaServer.exe` | High
-10 | File | `administrator/components/com_media/helpers/media.php` | High
-11 | File | `api/sms_check.php` | High
-12 | ... | ... | ...
+1 | File | `.config/Yubico` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin/manager/admin_mod.php` | High
+4 | File | `/cgi-bin/api-get_line_status` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/export` | Low
+7 | File | `/getcfg.php` | Medium
+8 | File | `/includes/rrdtool.inc.php` | High
+9 | File | `/onvif/device_service` | High
+10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `ActiveMediaServer.exe` | High
+13 | File | `addentry.php` | Medium
+14 | File | `administrator/components/com_media/helpers/media.php` | High
+15 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/369/tropic-trooper-apt-iocs/
 * https://citizenlab.ca/2016/11/parliament-keyboy/
 * https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf
 * https://github.com/citizenlab/malware-indicators/blob/master/201808_FamiliarFeeling/indicators.csv

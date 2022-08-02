@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,33 +51,32 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/dvcset/sysset/set.cgi` | High
-5 | File | `/edit-db.php` | Medium
-6 | File | `/file?action=download&file` | High
-7 | File | `/installers/common.sh` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/replication` | Medium
-14 | File | `/RestAPI` | Medium
-15 | File | `/tmp` | Low
-16 | File | `/tmp/speedtest_urls.xml` | High
-17 | File | `/tmp/zarafa-vacation-*` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/var/log/nginx` | High
-21 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-22 | File | `adclick.php` | Medium
-23 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-24 | File | `admin/index.php` | High
-25 | File | `admin\model\catalog\download.php` | High
-26 | File | `apcupsd.pid` | Medium
-27 | File | `api/sms/send-sms` | High
-28 | ... | ... | ...
+4 | File | `/admin/?page=inmates/view_inmate` | High
+5 | File | `/core/conditions/AbstractWrapper.java` | High
+6 | File | `/dvcset/sysset/set.cgi` | High
+7 | File | `/edit-db.php` | Medium
+8 | File | `/file?action=download&file` | High
+9 | File | `/goform/aspForm` | High
+10 | File | `/installers/common.sh` | High
+11 | File | `/medical/inventories.php` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/plugin/LiveChat/getChat.json.php` | High
+14 | File | `/plugins/servlet/audit/resource` | High
+15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+16 | File | `/replication` | Medium
+17 | File | `/RestAPI` | Medium
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
+22 | File | `/var/log/nginx` | High
+23 | File | `/var/run/watchman.pid` | High
+24 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+25 | File | `adclick.php` | Medium
+26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+27 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

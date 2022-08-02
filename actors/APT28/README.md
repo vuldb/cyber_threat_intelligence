@@ -69,19 +69,19 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
 36 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
 37 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
-38 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
-39 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
-40 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
-41 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
-42 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
-43 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
-44 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
-45 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
-46 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
-47 | [80.255.6.15](https://vuldb.com/?ip.80.255.6.15) | - | - | High
+38 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
+39 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
+40 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+41 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
+42 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
+43 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
+44 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
+45 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
+46 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
+47 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
 48 | ... | ... | ... | ...
 
-There are 188 more IOC items available. Please use our online service to access the data.
+There are 189 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -134,13 +134,14 @@ ID | Type | Indicator | Confidence
 29 | File | `api/sms/send-sms` | High
 30 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
+* https://cert.gov.ua/article/40102
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-05-ioc-mark.txt
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-09-ioc-mark.txt

@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Inception:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* [AR](https://vuldb.com/?country.ar)
 * [ES](https://vuldb.com/?country.es)
+* [AR](https://vuldb.com/?country.ar)
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
@@ -55,40 +55,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.jboss-cli-history` | High
-2 | File | `/admin.php/Links/del` | High
-3 | File | `/admin.php/pic/admin/pic/hy` | High
-4 | File | `/admin.php/singer/admin/lists/zhuan` | High
-5 | File | `/admin.php/singer/admin/singer/hy` | High
-6 | File | `/admin/featured.php` | High
-7 | File | `/admin/general.cgi` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/AJAX/ajaxget` | High
-10 | File | `/ajax/clear_tools_log/` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/api/students/me/courses/` | High
-14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-15 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-16 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-17 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-18 | File | `/cgi-bin/luci/api/diagnose` | High
-19 | File | `/cgi-mod/lookup.cgi` | High
-20 | File | `/cgi/ansi` | Medium
-21 | File | `/classes/Master.php?f=delete_train` | High
-22 | File | `/cms/classes/Master.php?f=delete_designation` | High
-23 | File | `/createnewaccount` | High
-24 | File | `/dashboard/blocks/stacks/view_details/` | High
-25 | File | `/dev/urandom` | Medium
-26 | File | `/dl/dl_sendmail.php` | High
-27 | File | `/dotrace.asp` | Medium
-28 | File | `/ecrire` | Low
-29 | File | `/etc/fstab` | Medium
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/food/admin/all_users.php` | High
-32 | ... | ... | ...
+1 | File | `/admin.php/Links/del` | High
+2 | File | `/admin.php/pic/admin/pic/hy` | High
+3 | File | `/admin.php/singer/admin/lists/zhuan` | High
+4 | File | `/admin.php/singer/admin/singer/hy` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/general.cgi` | High
+7 | File | `/admin/usermanagement.php` | High
+8 | File | `/AJAX/ajaxget` | High
+9 | File | `/ajax/clear_tools_log/` | High
+10 | File | `/api/part_categories` | High
+11 | File | `/api/programs/orgUnits?programs` | High
+12 | File | `/api/students/me/courses/` | High
+13 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+14 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+15 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+16 | File | `/cgi-mod/lookup.cgi` | High
+17 | File | `/cgi/ansi` | Medium
+18 | File | `/classes/Master.php?f=delete_train` | High
+19 | File | `/createnewaccount` | High
+20 | File | `/dashboard/blocks/stacks/view_details/` | High
+21 | File | `/dev/urandom` | Medium
+22 | File | `/dl/dl_sendmail.php` | High
+23 | File | `/dotrace.asp` | Medium
+24 | File | `/ecrire` | Low
+25 | File | `/etc/fstab` | Medium
+26 | File | `/etc/sudoers` | Medium
+27 | File | `/food/admin/all_users.php` | High
+28 | File | `/genericreport` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/hprms/classes/Master.php?f=delete_room_type` | High
+31 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+32 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+33 | File | `/linkedcontent/editfolder.php` | High
+34 | File | `/list` | Low
+35 | File | `/mcategory.php` | High
+36 | File | `/modules/tasks/gantt.php` | High
+37 | File | `/odfs/classes/Master.php?f=delete_team` | High
+38 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

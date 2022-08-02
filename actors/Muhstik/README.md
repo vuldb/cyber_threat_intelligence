@@ -53,12 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,31 +68,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/adminlogin.asp` | High
-3 | File | `/data/local.prop` | High
-4 | File | `/deviceIP` | Medium
-5 | File | `/etc/shadow` | Medium
-6 | File | `/firewall/policy/` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/graphStatus/displayServiceStatus.php` | High
-9 | File | `/iisadmpwd` | Medium
-10 | File | `/index.php/admin/tag/add.html` | High
-11 | File | `/Items/*/RemoteImages/Download` | High
-12 | File | `/proc/pid/syscall` | High
-13 | File | `/rom-0` | Low
-14 | File | `/servlet.gupld` | High
-15 | File | `/sql/sql_type.cc` | High
-16 | File | `/status` | Low
-17 | File | `/tools/developerConsoleOperations.jsp` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/WEB-INF/web.xml` | High
-21 | File | `ActivityManagerService.java` | High
-22 | File | `adclick.php` | Medium
-23 | ... | ... | ...
+1 | File | `/adminlogin.asp` | High
+2 | File | `/deviceIP` | Medium
+3 | File | `/etc/shadow` | Medium
+4 | File | `/firewall/policy/` | High
+5 | File | `/getcfg.php` | Medium
+6 | File | `/graphStatus/displayServiceStatus.php` | High
+7 | File | `/iisadmpwd` | Medium
+8 | File | `/index.php/admin/tag/add.html` | High
+9 | File | `/Items/*/RemoteImages/Download` | High
+10 | File | `/proc/pid/syscall` | High
+11 | File | `/rom-0` | Low
+12 | File | `/scas/admin/` | Medium
+13 | File | `/servlet.gupld` | High
+14 | File | `/sql/sql_type.cc` | High
+15 | File | `/status` | Low
+16 | File | `/tools/developerConsoleOperations.jsp` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/WEB-INF/web.xml` | High
+20 | File | `ActivityManagerService.java` | High
+21 | File | `adm1n/admin_config.php` | High
+22 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

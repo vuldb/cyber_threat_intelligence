@@ -134,7 +134,7 @@ ID | IP address | Hostname | Campaign | Confidence
 111 | [64.233.186.27](https://vuldb.com/?ip.64.233.186.27) | cb-in-f27.1e100.net | - | High
 112 | ... | ... | ... | ...
 
-There are 443 more IOC items available. Please use our online service to access the data.
+There are 445 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -174,20 +174,20 @@ ID | Type | Indicator | Confidence
 15 | File | `/index/jobfairol/show/` | High
 16 | File | `/librarian/bookdetails.php` | High
 17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/proc/<PID>/mem` | High
-21 | File | `/proc/<pid>/status` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
+18 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/new` | Low
+21 | File | `/proc/<PID>/mem` | High
+22 | File | `/proc/<pid>/status` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+28 | File | `/tmp` | Low
 29 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -271,6 +271,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0422-0429.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 
 ## Literature
 

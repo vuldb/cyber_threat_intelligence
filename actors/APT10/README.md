@@ -101,16 +101,16 @@ ID | Type | Indicator | Confidence
 22 | File | `/v2/quantum/save-data-upload-big-file` | High
 23 | File | `4.edu.php` | Medium
 24 | File | `adclick.php` | Medium
-25 | File | `add.php` | Low
-26 | File | `addentry.php` | Medium
-27 | File | `addressbookprovider.php` | High
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin/pageUploadCSV.php` | High
-30 | File | `ajax_udf.php` | Medium
-31 | File | `AppCompatCache.exe` | High
+25 | File | `addentry.php` | Medium
+26 | File | `addressbookprovider.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin/pageUploadCSV.php` | High
+29 | File | `ajax_udf.php` | Medium
+30 | File | `AppCompatCache.exe` | High
+31 | File | `application.js.php` | High
 32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

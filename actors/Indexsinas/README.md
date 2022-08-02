@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,10 +287,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -301,19 +301,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
-2 | File | `/app/options.py` | High
-3 | File | `/ci_hms/massage_room/edit/1` | High
-4 | File | `/ci_hms/search` | High
-5 | File | `/ci_ssms/index.php/orders/create` | High
-6 | File | `/goform/formLogin` | High
-7 | File | `/index.php` | Medium
-8 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-9 | File | `/index.php?page=search/rentals` | High
-10 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-11 | ... | ... | ...
+1 | File | `/?ajax-request=jnews` | High
+2 | File | `/admin/js` | Medium
+3 | File | `/api/plugin/uninstall` | High
+4 | File | `/api/plugin/upload` | High
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/etc/init.d/sshd_service` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/index.php/?p=report` | High
+10 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+11 | File | `/ossn/administrator/com_installer` | High
+12 | File | `/ossn/home` | Medium
+13 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

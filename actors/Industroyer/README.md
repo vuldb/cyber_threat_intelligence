@@ -8,9 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Industroyer:
 
+* [CN](https://vuldb.com/?country.cn)
 * [CH](https://vuldb.com/?country.ch)
-* [RU](https://vuldb.com/?country.ru)
-* [LU](https://vuldb.com/?country.lu)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.39.218.152](https://vuldb.com/?ip.5.39.218.152) | - | - | High
 2 | [46.28.200.132](https://vuldb.com/?ip.46.28.200.132) | hosted-by.solarcom.ch | - | High
-3 | [93.115.27.57](https://vuldb.com/?ip.93.115.27.57) | - | - | High
+3 | [91.245.255.243](https://vuldb.com/?ip.91.245.255.243) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1211 | CWE-254 | 7PK Security Features | High
-3 | T1495 | CWE-494 | Download of Code Without Integrity Check | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,15 +49,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 2 | File | `/CMD_SELECT_USERS` | High
-3 | File | `dwrcs.exe` | Medium
+3 | File | `cgichkmasterpwd.exe` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://cert.gov.ua/article/39518
 * https://www.threatminer.org/_reports/2017/Win32_Industroyer-ESETSecurity.pdf#viewer.action=download
 
 ## Literature

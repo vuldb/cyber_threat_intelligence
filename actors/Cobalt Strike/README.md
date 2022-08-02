@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,37 +21,39 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.252.177.199](https://vuldb.com/?ip.5.252.177.199) | 5-252-177-199.mivocloud.com | - | High
-2 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | - | High
-3 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | - | High
-4 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | - | High
-5 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | - | High
-6 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | - | High
-7 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | - | High
-8 | [23.160.193.55](https://vuldb.com/?ip.23.160.193.55) | unknown.ip-xfer.net | - | High
-9 | [23.227.194.86](https://vuldb.com/?ip.23.227.194.86) | 23-227-194-86.static.hvvc.us | - | High
-10 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | - | High
-11 | [23.229.36.43](https://vuldb.com/?ip.23.229.36.43) | bet5jn-day-43.bettertisholiday.com | - | High
-12 | [23.236.174.190](https://vuldb.com/?ip.23.236.174.190) | - | - | High
-13 | [37.0.8.252](https://vuldb.com/?ip.37.0.8.252) | - | - | High
-14 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | - | High
-15 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | - | High
-16 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | - | High
-17 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
-18 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
-19 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | - | High
-20 | [45.197.132.72](https://vuldb.com/?ip.45.197.132.72) | - | - | High
-21 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | - | High
-22 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | - | High
-23 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | - | High
-24 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
-25 | [51.81.13.141](https://vuldb.com/?ip.51.81.13.141) | ip141.ip-51-81-13.us | - | High
-26 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | - | High
-27 | [52.18.235.51](https://vuldb.com/?ip.52.18.235.51) | ec2-52-18-235-51.eu-west-1.compute.amazonaws.com | - | Medium
-28 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | - | High
-29 | ... | ... | ... | ...
+1 | [3.64.76.72](https://vuldb.com/?ip.3.64.76.72) | ec2-3-64-76-72.eu-central-1.compute.amazonaws.com | - | Medium
+2 | [5.199.173.152](https://vuldb.com/?ip.5.199.173.152) | - | - | High
+3 | [5.199.174.219](https://vuldb.com/?ip.5.199.174.219) | - | - | High
+4 | [5.252.177.199](https://vuldb.com/?ip.5.252.177.199) | 5-252-177-199.mivocloud.com | - | High
+5 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | - | High
+6 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | - | High
+7 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | - | High
+8 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | - | High
+9 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | - | High
+10 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | - | High
+11 | [23.160.193.55](https://vuldb.com/?ip.23.160.193.55) | unknown.ip-xfer.net | - | High
+12 | [23.227.194.86](https://vuldb.com/?ip.23.227.194.86) | 23-227-194-86.static.hvvc.us | - | High
+13 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | - | High
+14 | [23.229.36.43](https://vuldb.com/?ip.23.229.36.43) | bet5jn-day-43.bettertisholiday.com | - | High
+15 | [23.236.174.190](https://vuldb.com/?ip.23.236.174.190) | - | - | High
+16 | [37.0.8.252](https://vuldb.com/?ip.37.0.8.252) | - | - | High
+17 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | - | High
+18 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | - | High
+19 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | - | High
+20 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
+21 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
+22 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | - | High
+23 | [45.197.132.72](https://vuldb.com/?ip.45.197.132.72) | - | - | High
+24 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | - | High
+25 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | - | High
+26 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | - | High
+27 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | - | High
+28 | [51.81.13.141](https://vuldb.com/?ip.51.81.13.141) | ip141.ip-51-81-13.us | - | High
+29 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | - | High
+30 | [52.18.235.51](https://vuldb.com/?ip.52.18.235.51) | ec2-52-18-235-51.eu-west-1.compute.amazonaws.com | - | Medium
+31 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 120 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -75,45 +77,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
-2 | File | `.htaccess` | Medium
-3 | File | `/.dbus-keyrings` | High
-4 | File | `//proc/kcore` | Medium
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/curltest.cgi` | High
-7 | File | `/admin/dl_sendmail.php` | High
-8 | File | `/admin/edit_admin_details.php?id=admin` | High
-9 | File | `/admin/generalsettings.php` | High
-10 | File | `/admin/payment.php` | High
-11 | File | `/admin/reports.php` | High
-12 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
-13 | File | `/api/user/userData?userCode=admin` | High
-14 | File | `/app/options.py` | High
-15 | File | `/bsms/?page=manage_account` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/ci_spms/admin/category` | High
-19 | File | `/ci_spms/admin/search/searching/` | High
-20 | File | `/ci_ssms/index.php/orders/create` | High
-21 | File | `/classes/Master.php?f=delete_reservation` | High
-22 | File | `/classes/Master.php?f=delete_schedule` | High
-23 | File | `/classes/Master.php?f=delete_train` | High
-24 | File | `/company` | Medium
-25 | File | `/company/service/increment/add/im` | High
-26 | File | `/dashboard/menu-list.php` | High
-27 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-28 | File | `/ffos/classes/Master.php?f=save_category` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-32 | File | `/index/notice/show` | High
-33 | ... | ... | ...
+2 | File | `/.dbus-keyrings` | High
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/curltest.cgi` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin/showbad.php` | High
+9 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+10 | File | `/api/user/userData?userCode=admin` | High
+11 | File | `/app/options.py` | High
+12 | File | `/cgi-bin/ExportAllSettings.sh` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/ci_spms/admin/category` | High
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/ci_ssms/index.php/orders/create` | High
+17 | File | `/classes/Master.php?f=delete_reservation` | High
+18 | File | `/classes/Master.php?f=delete_schedule` | High
+19 | File | `/classes/Master.php?f=delete_train` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/edituser.php` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+26 | File | `/index.php/?p=report` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/out.php` | Medium
+30 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/321/cobalt-strike-iocs/
+* https://1275.ru/ioc/359/cobalt-strike-beacon-iocs-2/
 * https://asec.ahnlab.com/en/20130/
 * https://asec.ahnlab.com/en/27646/
 * https://blog.cyble.com/2022/05/20/malware-campaign-targets-infosec-community-threat-actor-uses-fake-proof-of-concept-to-deliver-cobalt-strike-beacon/

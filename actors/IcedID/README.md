@@ -48,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
 20 | ... | ... | ... | ...
 
-There are 76 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -117,16 +117,16 @@ ID | Type | Indicator | Confidence
 44 | File | `admin_iplog.php` | High
 45 | File | `ajax.php` | Medium
 46 | File | `ajax_admin_apis.php` | High
-47 | File | `ajax_php_pecl.php` | High
-48 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
+* https://cert.gov.ua/article/39609
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/

@@ -22,10 +22,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [IN](https://vuldb.com/?country.in)
-* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -228,13 +228,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -242,21 +242,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.python-version` | High
-2 | File | `/admin/curltest.cgi` | High
-3 | File | `/admin/vca/bia/addacph.cgi` | High
-4 | File | `/admin/vca/license/license_tok.cgi` | High
-5 | File | `/api/sys_username_passwd.cmd` | High
-6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/luci/api/auth` | High
-9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-10 | File | `/cgi-bin/nightled.cgi` | High
-11 | File | `/cgi-bin/touchlist_sync.cgi` | High
-12 | File | `/conf/` | Low
+1 | File | `/addNotifyServlet` | High
+2 | File | `/admin/js` | Medium
+3 | File | `/api/plugin/uninstall` | High
+4 | File | `/api/plugin/upload` | High
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/etc/init.d/sshd_service` | High
+7 | File | `/etc/tomcat8/Catalina/attack` | High
+8 | File | `/index.php/?p=report` | High
+9 | File | `/index.php?r=site%2Fsignup` | High
+10 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+11 | File | `/nav_bar_action.php` | High
+12 | File | `/ossn/administrator/com_installer` | High
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -67,7 +67,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/config.php?display=disa&view=form` | High
+1 | File | `/api/plugin/uninstall` | High
 2 | File | `/cgi-bin/webproc` | High
 3 | File | `/common/ticket_associated_tickets.php` | High
 4 | File | `/crmeb/crmeb/services/UploadService.php` | High
@@ -107,8 +107,7 @@ ID | Type | Indicator | Confidence
 38 | File | `app/call_centers/cmd.php` | High
 39 | File | `apply.cgi` | Medium
 40 | File | `appointment.php` | High
-41 | File | `arch/x86/kvm/hyperv.c` | High
-42 | ... | ... | ...
+41 | ... | ... | ...
 
 There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

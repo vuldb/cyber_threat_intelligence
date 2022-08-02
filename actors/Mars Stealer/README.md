@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [66.29.142.232](https://vuldb.com/?ip.66.29.142.232) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1202 | CWE-77 | Command Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,13 +53,14 @@ ID | Type | Indicator | Confidence
 4 | File | `admin.jcomments.php` | High
 5 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.morphisec.com/threat-research-mars-stealer
+* https://cert.gov.ua/article/38606
 * https://gist.github.com/viriback/362a91ed9601ba906d8a17c8102a68bb
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
 

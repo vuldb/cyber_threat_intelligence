@@ -141,37 +141,36 @@ ID | Type | Indicator | Confidence
 17 | File | `/ffos/classes/Master.php?f=save_category` | High
 18 | File | `/goforms/rlminfo` | High
 19 | File | `/htdocs/cgibin` | High
-20 | File | `/login` | Low
-21 | File | `/navigate/navigate_download.php` | High
-22 | File | `/ocwbs/admin/?page=user/manage_user` | High
-23 | File | `/ofrs/admin/?page=user/manage_user` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/password.html` | High
-26 | File | `/proc/ioports` | High
-27 | File | `/property-list/property_view.php` | High
-28 | File | `/ptms/classes/Users.php` | High
-29 | File | `/rest/api/2/search` | High
-30 | File | `/s/` | Low
-31 | File | `/scripts/cpan_config` | High
-32 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-33 | File | `/services/system/setup.json` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/uncpath/` | Medium
-36 | File | `/vloggers_merch/?p=view_product` | High
-37 | File | `/web/MCmsAction.java` | High
-38 | File | `/webconsole/APIController` | High
-39 | File | `/websocket/exec` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `/wp-json` | Medium
-43 | File | `/wp-json/oembed/1.0/embed?url` | High
-44 | File | `/_next` | Low
-45 | File | `4.edu.php\conn\function.php` | High
-46 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-47 | File | `about.php` | Medium
-48 | ... | ... | ...
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/login` | Low
+22 | File | `/navigate/navigate_download.php` | High
+23 | File | `/ocwbs/admin/?page=user/manage_user` | High
+24 | File | `/ofrs/admin/?page=user/manage_user` | High
+25 | File | `/owa/auth/logon.aspx` | High
+26 | File | `/password.html` | High
+27 | File | `/proc/ioports` | High
+28 | File | `/property-list/property_view.php` | High
+29 | File | `/ptms/classes/Users.php` | High
+30 | File | `/rest/api/2/search` | High
+31 | File | `/s/` | Low
+32 | File | `/scripts/cpan_config` | High
+33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+34 | File | `/services/system/setup.json` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/uncpath/` | Medium
+37 | File | `/vloggers_merch/?p=view_product` | High
+38 | File | `/web/MCmsAction.java` | High
+39 | File | `/webconsole/APIController` | High
+40 | File | `/websocket/exec` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+43 | File | `/wp-json` | Medium
+44 | File | `/wp-json/oembed/1.0/embed?url` | High
+45 | File | `/_next` | Low
+46 | File | `4.edu.php\conn\function.php` | High
+47 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

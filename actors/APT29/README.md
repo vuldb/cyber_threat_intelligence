@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with APT29:
 
+* Cobalt Strike
 * COVID-19
 * PowerDuke
-* StellarParticle
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -38,24 +38,24 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [23.82.128.144](https://vuldb.com/?ip.23.82.128.144) | - | StellarParticle | High
 5 | [27.102.130.115](https://vuldb.com/?ip.27.102.130.115) | - | - | High
 6 | [31.7.63.141](https://vuldb.com/?ip.31.7.63.141) | game.bignamegamereviewz.com | - | High
-7 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
-8 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
-9 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
-10 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
-11 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
-12 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
-13 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
-14 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
-15 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
-16 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
-17 | [65.15.88.243](https://vuldb.com/?ip.65.15.88.243) | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
-18 | [66.29.115.55](https://vuldb.com/?ip.66.29.115.55) | 647807.ds.nac.net | - | High
-19 | [66.70.247.215](https://vuldb.com/?ip.66.70.247.215) | ip215.ip-66-70-247.net | - | High
-20 | [69.59.28.57](https://vuldb.com/?ip.69.59.28.57) | - | - | High
-21 | [79.141.168.109](https://vuldb.com/?ip.79.141.168.109) | - | - | High
+7 | [31.31.74.79](https://vuldb.com/?ip.31.31.74.79) | - | Cobalt Strike | High
+8 | [31.170.107.186](https://vuldb.com/?ip.31.170.107.186) | ohra.supplrald.com | - | High
+9 | [45.120.156.69](https://vuldb.com/?ip.45.120.156.69) | - | - | High
+10 | [45.123.190.167](https://vuldb.com/?ip.45.123.190.167) | - | COVID-19 | High
+11 | [45.123.190.168](https://vuldb.com/?ip.45.123.190.168) | - | - | High
+12 | [45.129.229.48](https://vuldb.com/?ip.45.129.229.48) | - | COVID-19 | High
+13 | [45.152.84.57](https://vuldb.com/?ip.45.152.84.57) | - | - | High
+14 | [46.19.143.69](https://vuldb.com/?ip.46.19.143.69) | - | - | High
+15 | [46.246.120.178](https://vuldb.com/?ip.46.246.120.178) | - | - | High
+16 | [50.7.192.146](https://vuldb.com/?ip.50.7.192.146) | - | - | High
+17 | [64.18.143.66](https://vuldb.com/?ip.64.18.143.66) | - | - | High
+18 | [65.15.88.243](https://vuldb.com/?ip.65.15.88.243) | adsl-065-015-088-243.sip.asm.bellsouth.net | PowerDuke | High
+19 | [66.29.115.55](https://vuldb.com/?ip.66.29.115.55) | 647807.ds.nac.net | - | High
+20 | [66.70.247.215](https://vuldb.com/?ip.66.70.247.215) | ip215.ip-66-70-247.net | - | High
+21 | [69.59.28.57](https://vuldb.com/?ip.69.59.28.57) | - | - | High
 22 | ... | ... | ... | ...
 
-There are 83 more IOC items available. Please use our online service to access the data.
+There are 85 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -100,8 +100,8 @@ ID | Type | Indicator | Confidence
 20 | File | `/index/jobfairol/show/` | High
 21 | File | `/librarian/bookdetails.php` | High
 22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/ms/cms/content/list.do` | High
-24 | File | `/new` | Low
+23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+24 | File | `/ms/cms/content/list.do` | High
 25 | File | `/orms/` | Low
 26 | File | `/plesk-site-preview/` | High
 27 | File | `/proc/<PID>/mem` | High
@@ -109,9 +109,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/public/plugins/` | High
 30 | File | `/school/model/get_admin_profile.php` | High
 31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | ... | ... | ...
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog-assets.f-secure.com/wp-content/uploads/2020/03/18122307/F-Secure_Dukes_Whitepaper.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/Russia/Advisory-APT29-targets-COVID-19-vaccine-development.pdf
+* https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-148a
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar20-198c
 * https://www.crowdstrike.com/blog/observations-from-the-stellarparticle-campaign/

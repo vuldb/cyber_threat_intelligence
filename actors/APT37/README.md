@@ -10,6 +10,7 @@ The following _campaigns_ are known and can be associated with APT37:
 
 * Daybreak
 * Scarcruft
+* STIFF#BIZON
 
 ## Countries
 
@@ -33,7 +34,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [180.182.52.76](https://vuldb.com/?ip.180.182.52.76) | - | Scarcruft | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,6 +68,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://securelist.com/operation-daybreak/75100/
 * https://securelist.com/scarcruft-continues-to-evolve-introduces-bluetooth-harvester/90729/
+* https://www.securonix.com/blog/stiffbizon-detection-new-attack-campaign-observed/
 
 ## Literature
 

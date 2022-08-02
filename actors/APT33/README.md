@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [PT](https://vuldb.com/?country.pt)
-* [SV](https://vuldb.com/?country.sv)
-* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -55,12 +55,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,34 +71,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
 2 | File | `/admin/conferences/list/` | High
-3 | File | `/admin/dl_sendmail.php` | High
-4 | File | `/admin/featured.php` | High
-5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/general/change-lang` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/showbad.php` | High
-9 | File | `/admin/vca/bia/addacph.cgi` | High
-10 | File | `/admin/ztliuyan_sendmail.php` | High
-11 | File | `/ajax/config_rollback/` | High
-12 | File | `/ajax/remove_sniffer_raw_log/` | High
-13 | File | `/bsms/?page=manage_account` | High
-14 | File | `/category.php` | High
-15 | File | `/ci_hms/massage_room/edit/1` | High
-16 | File | `/ci_spms/admin/category` | High
-17 | File | `/classes/Master.php?f=delete_schedule` | High
-18 | File | `/dashboard/blocks/stacks/view_details/` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/dev/pts/` | Medium
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/film-rating.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/jfinal_cms/system/dict/list` | High
-25 | File | `/list` | Low
-26 | File | `/orrs/admin/reservations/view_details.php` | High
-27 | File | `/pms/admin/actions/manage_action.php` | High
-28 | ... | ... | ...
+3 | File | `/admin/general/change-lang` | High
+4 | File | `/admin/js` | Medium
+5 | File | `/admin/vca/bia/addacph.cgi` | High
+6 | File | `/ajax/config_rollback/` | High
+7 | File | `/ajax/remove_sniffer_raw_log/` | High
+8 | File | `/api/plugin/upload` | High
+9 | File | `/category.php` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/classes/Master.php?f=delete_schedule` | High
+13 | File | `/dashboard/menu-list.php` | High
+14 | File | `/dev/pts/` | Medium
+15 | File | `/dotrace.asp` | Medium
+16 | File | `/ffos/classes/Master.php?f=save_category` | High
+17 | File | `/film-rating.php` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/includes/session.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/index.php?r=site%2Fsignup` | High
+22 | File | `/list` | Low
+23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+24 | File | `/modules/projects/gantt.php` | High
+25 | File | `/ossn/administrator/com_installer` | High
+26 | File | `/pages/activity/activity.php` | High
+27 | File | `/php_action/createUser.php` | High
+28 | File | `/pms/update_user.php?user_id=1` | High
+29 | File | `/school/view/timetable_insert_form.php` | High
+30 | File | `/sys/amd64/amd64/sys_machdep.c` | High
+31 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+32 | File | `/vicidial/admin.php` | High
+33 | File | `/vicidial/AST_agent_time_sheet.php` | High
+34 | File | `add_comment.php` | High
+35 | File | `add_edit_cat.asp` | High
+36 | File | `add_url.htm` | Medium
+37 | File | `adm.cgi` | Low
+38 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

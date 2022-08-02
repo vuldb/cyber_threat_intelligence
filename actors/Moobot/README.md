@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,12 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,38 +64,35 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/singer/admin/lists/zhuan` | High
 4 | File | `/admin.php/User/level_sort` | High
 5 | File | `/admin/cloud.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/core/admin/categories.php` | High
-11 | File | `/coreframe/app/order/admin/card.php` | High
-12 | File | `/dms/admin/reports/daily_collection_report.php` | High
-13 | File | `/DsaDataTest` | Medium
-14 | File | `/eshop/products/json/aouCustomerAdresse` | High
+6 | File | `/admin/communitymanagement.php` | High
+7 | File | `/admin/generalsettings.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+10 | File | `/aqpg/users/login.php` | High
+11 | File | `/cgi-bin/uploadWeiXinPic` | High
+12 | File | `/core/admin/categories.php` | High
+13 | File | `/dms/admin/reports/daily_collection_report.php` | High
+14 | File | `/DsaDataTest` | Medium
 15 | File | `/etc/config/cameo` | High
-16 | File | `/extensionsinstruction` | High
-17 | File | `/food/admin/all_users.php` | High
-18 | File | `/goform/SetClientState` | High
-19 | File | `/goform/SetFirewallCfg` | High
-20 | File | `/goform/setWorkmode` | High
-21 | File | `/goods/getGoodsListByConditions/` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/moddable/xs/sources/xsScript.c` | High
-24 | File | `/moddable/xs/sources/xsSymbol.c` | High
+16 | File | `/etc/networkd-dispatcher` | High
+17 | File | `/filemanager/upload/drop` | High
+18 | File | `/food/admin/all_users.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/SetClientState` | High
+21 | File | `/goform/SetFirewallCfg` | High
+22 | File | `/goform/setWorkmode` | High
+23 | File | `/isms/classes/Users.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
 25 | File | `/music/ajax.php` | High
-26 | File | `/nova/bin/lcdstat` | High
-27 | File | `/orms/` | Low
-28 | File | `/public_html/animals` | High
-29 | File | `/public_html/apply_vacancy` | High
-30 | File | `/purchase_order/admin/?page=user` | High
-31 | File | `/purchase_order/classes/Master.php?f=delete_supplier` | High
-32 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-33 | File | `/rest/api/2/user/picker` | High
-34 | File | `/rsms/` | Low
-35 | ... | ... | ...
+26 | File | `/ofrs/admin/?page=teams/view_team` | High
+27 | File | `/ordering/index.php?q=category` | High
+28 | File | `/orms/` | Low
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/public_html/animals` | High
+31 | File | `/public_html/apply_vacancy` | High
+32 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

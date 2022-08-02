@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
 * [ES](https://vuldb.com/?country.es)
+* [PL](https://vuldb.com/?country.pl)
 * [AR](https://vuldb.com/?country.ar)
-* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -38,11 +38,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,39 +55,43 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/news/admin/topic/save` | High
 4 | File | `/admin/comn/service/update.json` | High
 5 | File | `/admin/general.cgi` | High
-6 | File | `/admin/reports.php` | High
-7 | File | `/admin/service/stop/` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/app/options.py` | High
-10 | File | `/bcms/admin/courts/view_court.php` | High
-11 | File | `/category.php` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/CommunitySSORedirect.jsp` | High
+6 | File | `/admin/inc/include.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin/service/stop/` | High
+9 | File | `/admin/usermanagement.php` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bcms/admin/courts/view_court.php` | High
+12 | File | `/category.php` | High
+13 | File | `/ci_spms/admin/search/searching/` | High
 14 | File | `/config` | Low
-15 | File | `/ctpms/admin/individuals/update_status.php` | High
+15 | File | `/domains/index.fts` | High
 16 | File | `/filemanager/upload/drop` | High
 17 | File | `/freelance/resume_list` | High
 18 | File | `/goform/aspForm` | High
 19 | File | `/goform/saveParentControlInfo` | High
 20 | File | `/goform/SetClientState` | High
-21 | File | `/goform/setDeviceSettings` | High
-22 | File | `/help/treecontent.jsp` | High
-23 | File | `/home/jobfairol/resumelist` | High
-24 | File | `/hprms/admin/rooms/view_room.php` | High
-25 | File | `/hprms/classes/Master.php?f=delete_message` | High
-26 | File | `/images/background/1.php` | High
-27 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-28 | File | `/ip/car-rental-management-system/admin/ajax.php?action=login` | High
-29 | File | `/lists/admin/` | High
-30 | File | `/modules/mindmap/index.php` | High
-31 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ocwbs/admin/services/manage_service.php` | High
-34 | File | `/ocwbs/classes/Master.php?f=delete_booking` | High
-35 | File | `/ocwbs/classes/Master.php?f=delete_vehicle` | High
-36 | ... | ... | ...
+21 | File | `/home/jobfairol/resumelist` | High
+22 | File | `/hprms/admin/rooms/view_room.php` | High
+23 | File | `/hprms/classes/Master.php?f=delete_message` | High
+24 | File | `/images/background/1.php` | High
+25 | File | `/ip/car-rental-management-system/admin/ajax.php?action=login` | High
+26 | File | `/lists/admin/` | High
+27 | File | `/modules/mindmap/index.php` | High
+28 | File | `/modules/tasks/gantt.php` | High
+29 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+30 | File | `/ocwbs/admin/?page=user/manage_user` | High
+31 | File | `/ocwbs/admin/services/manage_service.php` | High
+32 | File | `/ocwbs/classes/Master.php?f=delete_booking` | High
+33 | File | `/ocwbs/classes/Master.php?f=delete_vehicle` | High
+34 | File | `/odfs/classes/Master.php?f=save_category` | High
+35 | File | `/officials/officials.php` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/ordering/admin/stockin/index.php?view=edit` | High
+38 | File | `/php_action/createUser.php` | High
+39 | File | `/pms/admin/inmates/manage_privilege.php` | High
+40 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

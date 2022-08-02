@@ -162,7 +162,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,35 +171,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/about.php` | Medium
-4 | File | `/admin/` | Low
-5 | File | `/admin/photo.php` | High
-6 | File | `/admin/searchview.php` | High
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/app/options.py` | High
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/catcompany.php` | High
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/login.cgi` | High
-13 | File | `/ci_hms/massage_room/edit/1` | High
-14 | File | `/ci_spms/admin/category` | High
-15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/classes/Master.php?f=delete_schedule` | High
-17 | File | `/company/down_resume/total/nature` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/dashboard/reports/logs/view` | High
-20 | File | `/dashboard/snapshot/*?orgId=0` | High
-21 | File | `/etc/hosts` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/goform/SetFirewallCfg` | High
-25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-26 | File | `/index/jobfairol/show/` | High
-27 | File | `/itop/webservices/export-v2.php` | High
-28 | ... | ... | ...
+2 | File | `/admin/` | Low
+3 | File | `/admin/photo.php` | High
+4 | File | `/admin/searchview.php` | High
+5 | File | `/api/plugin/uninstall` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/catcompany.php` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/chart` | Low
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/ci_spms/admin/category` | High
+13 | File | `/ci_spms/admin/search/searching/` | High
+14 | File | `/classes/Master.php?f=delete_schedule` | High
+15 | File | `/company/down_resume/total/nature` | High
+16 | File | `/core/conditions/AbstractWrapper.java` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/dashboard/snapshot/*?orgId=0` | High
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/init.d/sshd_service` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SetFirewallCfg` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/mobile/downloadfile.aspx` | High
+27 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

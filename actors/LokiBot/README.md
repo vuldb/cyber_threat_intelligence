@@ -1,23 +1,23 @@
-# Lokibot - Cyber Threat Intelligence
+# LokiBot - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lokibot](https://vuldb.com/?actor.lokibot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [LokiBot](https://vuldb.com/?actor.lokibot). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lokibot](https://vuldb.com/?actor.lokibot)
 
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lokibot:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Lokibot.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of LokiBot.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
@@ -29,42 +29,42 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [3.232.242.170](https://vuldb.com/?ip.3.232.242.170) | ec2-3-232-242-170.compute-1.amazonaws.com | - | Medium
 7 | [5.160.218.88](https://vuldb.com/?ip.5.160.218.88) | ircpanel4.novinhost.org | - | High
 8 | [5.253.62.214](https://vuldb.com/?ip.5.253.62.214) | - | - | High
-9 | [5.255.255.80](https://vuldb.com/?ip.5.255.255.80) | yandex.ru | - | High
-10 | [8.208.76.80](https://vuldb.com/?ip.8.208.76.80) | - | - | High
-11 | [8.249.245.254](https://vuldb.com/?ip.8.249.245.254) | - | - | High
-12 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-13 | [13.250.255.10](https://vuldb.com/?ip.13.250.255.10) | ec2-13-250-255-10.ap-southeast-1.compute.amazonaws.com | - | Medium
-14 | [15.197.142.173](https://vuldb.com/?ip.15.197.142.173) | a4ec4c6ea1c92e2e6.awsglobalaccelerator.com | - | High
-15 | [18.116.152.12](https://vuldb.com/?ip.18.116.152.12) | ec2-18-116-152-12.us-east-2.compute.amazonaws.com | - | Medium
-16 | [18.118.182.0](https://vuldb.com/?ip.18.118.182.0) | ec2-18-118-182-0.us-east-2.compute.amazonaws.com | - | Medium
-17 | [18.188.18.34](https://vuldb.com/?ip.18.188.18.34) | ec2-18-188-18-34.us-east-2.compute.amazonaws.com | - | Medium
-18 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
-19 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
-20 | [20.112.52.29](https://vuldb.com/?ip.20.112.52.29) | - | - | High
-21 | [20.189.173.20](https://vuldb.com/?ip.20.189.173.20) | - | - | High
-22 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
-23 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
-24 | [23.21.173.155](https://vuldb.com/?ip.23.21.173.155) | ec2-23-21-173-155.compute-1.amazonaws.com | - | Medium
-25 | [23.21.211.162](https://vuldb.com/?ip.23.21.211.162) | ec2-23-21-211-162.compute-1.amazonaws.com | - | Medium
-26 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
-27 | [23.95.132.48](https://vuldb.com/?ip.23.95.132.48) | 23-95-132-48-host.colocrossing.com | - | High
-28 | [23.105.131.228](https://vuldb.com/?ip.23.105.131.228) | - | - | High
-29 | [23.111.168.182](https://vuldb.com/?ip.23.111.168.182) | netbserverdns02.com | - | High
-30 | [23.205.105.153](https://vuldb.com/?ip.23.205.105.153) | a23-205-105-153.deploy.static.akamaitechnologies.com | - | High
-31 | [23.205.105.157](https://vuldb.com/?ip.23.205.105.157) | a23-205-105-157.deploy.static.akamaitechnologies.com | - | High
-32 | [23.222.5.37](https://vuldb.com/?ip.23.222.5.37) | a23-222-5-37.deploy.static.akamaitechnologies.com | - | High
-33 | [27.121.64.133](https://vuldb.com/?ip.27.121.64.133) | cp133.ezyreg.com | - | High
-34 | [31.13.65.174](https://vuldb.com/?ip.31.13.65.174) | instagram-p42-shv-01-atl3.fbcdn.net | - | High
-35 | [31.41.46.120](https://vuldb.com/?ip.31.41.46.120) | maldova873.example.com | - | High
-36 | [31.220.52.219](https://vuldb.com/?ip.31.220.52.219) | workshop.piguno.com | - | High
-37 | [34.77.10.20](https://vuldb.com/?ip.34.77.10.20) | 20.10.77.34.bc.googleusercontent.com | - | Medium
-38 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
-39 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-40 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
-41 | [34.205.248.193](https://vuldb.com/?ip.34.205.248.193) | ec2-34-205-248-193.compute-1.amazonaws.com | - | Medium
-42 | [35.186.238.101](https://vuldb.com/?ip.35.186.238.101) | 101.238.186.35.bc.googleusercontent.com | - | Medium
-43 | [35.238.161.88](https://vuldb.com/?ip.35.238.161.88) | 88.161.238.35.bc.googleusercontent.com | - | Medium
-44 | [35.247.234.230](https://vuldb.com/?ip.35.247.234.230) | 230.234.247.35.bc.googleusercontent.com | - | Medium
+9 | [8.208.76.80](https://vuldb.com/?ip.8.208.76.80) | - | - | High
+10 | [8.249.245.254](https://vuldb.com/?ip.8.249.245.254) | - | - | High
+11 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+12 | [13.250.255.10](https://vuldb.com/?ip.13.250.255.10) | ec2-13-250-255-10.ap-southeast-1.compute.amazonaws.com | - | Medium
+13 | [15.197.142.173](https://vuldb.com/?ip.15.197.142.173) | a4ec4c6ea1c92e2e6.awsglobalaccelerator.com | - | High
+14 | [18.116.152.12](https://vuldb.com/?ip.18.116.152.12) | ec2-18-116-152-12.us-east-2.compute.amazonaws.com | - | Medium
+15 | [18.118.182.0](https://vuldb.com/?ip.18.118.182.0) | ec2-18-118-182-0.us-east-2.compute.amazonaws.com | - | Medium
+16 | [18.188.18.34](https://vuldb.com/?ip.18.188.18.34) | ec2-18-188-18-34.us-east-2.compute.amazonaws.com | - | Medium
+17 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
+18 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+19 | [20.112.52.29](https://vuldb.com/?ip.20.112.52.29) | - | - | High
+20 | [20.189.173.20](https://vuldb.com/?ip.20.189.173.20) | - | - | High
+21 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+22 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
+23 | [23.21.173.155](https://vuldb.com/?ip.23.21.173.155) | ec2-23-21-173-155.compute-1.amazonaws.com | - | Medium
+24 | [23.21.211.162](https://vuldb.com/?ip.23.21.211.162) | ec2-23-21-211-162.compute-1.amazonaws.com | - | Medium
+25 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
+26 | [23.95.132.48](https://vuldb.com/?ip.23.95.132.48) | 23-95-132-48-host.colocrossing.com | - | High
+27 | [23.105.131.228](https://vuldb.com/?ip.23.105.131.228) | - | - | High
+28 | [23.111.168.182](https://vuldb.com/?ip.23.111.168.182) | netbserverdns02.com | - | High
+29 | [23.205.105.153](https://vuldb.com/?ip.23.205.105.153) | a23-205-105-153.deploy.static.akamaitechnologies.com | - | High
+30 | [23.205.105.157](https://vuldb.com/?ip.23.205.105.157) | a23-205-105-157.deploy.static.akamaitechnologies.com | - | High
+31 | [23.222.5.37](https://vuldb.com/?ip.23.222.5.37) | a23-222-5-37.deploy.static.akamaitechnologies.com | - | High
+32 | [27.121.64.133](https://vuldb.com/?ip.27.121.64.133) | cp133.ezyreg.com | - | High
+33 | [31.13.65.174](https://vuldb.com/?ip.31.13.65.174) | instagram-p42-shv-01-atl3.fbcdn.net | - | High
+34 | [31.41.46.120](https://vuldb.com/?ip.31.41.46.120) | maldova873.example.com | - | High
+35 | [31.220.52.219](https://vuldb.com/?ip.31.220.52.219) | workshop.piguno.com | - | High
+36 | [34.77.10.20](https://vuldb.com/?ip.34.77.10.20) | 20.10.77.34.bc.googleusercontent.com | - | Medium
+37 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
+38 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+39 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
+40 | [34.205.248.193](https://vuldb.com/?ip.34.205.248.193) | ec2-34-205-248-193.compute-1.amazonaws.com | - | Medium
+41 | [35.186.238.101](https://vuldb.com/?ip.35.186.238.101) | 101.238.186.35.bc.googleusercontent.com | - | Medium
+42 | [35.238.161.88](https://vuldb.com/?ip.35.238.161.88) | 88.161.238.35.bc.googleusercontent.com | - | Medium
+43 | [35.247.234.230](https://vuldb.com/?ip.35.247.234.230) | 230.234.247.35.bc.googleusercontent.com | - | Medium
+44 | [37.0.11.227](https://vuldb.com/?ip.37.0.11.227) | - | - | High
 45 | [37.49.224.146](https://vuldb.com/?ip.37.49.224.146) | - | - | High
 46 | [37.49.224.209](https://vuldb.com/?ip.37.49.224.209) | - | - | High
 47 | [37.49.225.195](https://vuldb.com/?ip.37.49.225.195) | - | - | High
@@ -83,21 +83,22 @@ ID | IP address | Hostname | Campaign | Confidence
 60 | [45.80.132.70](https://vuldb.com/?ip.45.80.132.70) | host-45-80-132-70.superhosting.rs | - | High
 61 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
 62 | [45.128.184.132](https://vuldb.com/?ip.45.128.184.132) | vds107519.mgn-host.ru | - | High
-63 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
-64 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
-65 | [45.154.253.152](https://vuldb.com/?ip.45.154.253.152) | shared06.cust05.proxy.is | - | High
-66 | [46.17.98.105](https://vuldb.com/?ip.46.17.98.105) | - | - | High
-67 | [46.101.46.83](https://vuldb.com/?ip.46.101.46.83) | - | - | High
-68 | [47.52.60.150](https://vuldb.com/?ip.47.52.60.150) | - | - | High
-69 | [47.91.169.15](https://vuldb.com/?ip.47.91.169.15) | - | - | High
-70 | [47.254.177.155](https://vuldb.com/?ip.47.254.177.155) | - | - | High
-71 | ... | ... | ... | ...
+63 | [45.133.1.20](https://vuldb.com/?ip.45.133.1.20) | - | - | High
+64 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
+65 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
+66 | [45.154.253.152](https://vuldb.com/?ip.45.154.253.152) | shared06.cust05.proxy.is | - | High
+67 | [46.17.98.105](https://vuldb.com/?ip.46.17.98.105) | - | - | High
+68 | [46.101.46.83](https://vuldb.com/?ip.46.101.46.83) | - | - | High
+69 | [47.52.60.150](https://vuldb.com/?ip.47.52.60.150) | - | - | High
+70 | [47.88.22.122](https://vuldb.com/?ip.47.88.22.122) | server1.sjdjeu.top | - | High
+71 | [47.91.169.15](https://vuldb.com/?ip.47.91.169.15) | - | - | High
+72 | ... | ... | ... | ...
 
-There are 280 more IOC items available. Please use our online service to access the data.
+There are 282 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lokibot_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _LokiBot_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -112,7 +113,7 @@ There are 20 more TTP items available. Please use our online service to access t
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lokibot. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by LokiBot. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -139,12 +140,13 @@ ID | Type | Indicator | Confidence
 21 | File | `/librarian/bookdetails.php` | High
 22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
 23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/MTFWU` | Low
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 25 | File | `/php/passport/index.php` | High
 26 | File | `/proc/<PID>/mem` | High
-27 | ... | ... | ...
+27 | File | `/public/login.htm` | High
+28 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -183,6 +185,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0429-0506.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0506-0513.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20Lokibot%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-17%20Lokibot%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-16%20Lokibot%20IOCs

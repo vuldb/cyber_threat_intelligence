@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [PL](https://vuldb.com/?country.pl)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,8 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | ... | ... | ... | ...
+
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,12 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/modules/profile/index.php` | High
-2 | File | `/webman/info.cgi` | High
-3 | File | `B1iXcellerator/exec/soap/vP.001sap0003.in_WCSX/com.sap.b1i.vplatform.runtime/INB_WS_CALL_SYNC_XPT/INB_WS_CALL_SYNC_XPT.ipo/proc` | High
-4 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/conferences/get-all-status/` | High
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/countrymanagement.php` | High
+5 | File | `/admin/general/change-lang` | High
+6 | File | `/admin/group/list/` | High
+7 | File | `/admin/renewaldue.php` | High
+8 | File | `/admin/usermanagement.php` | High
+9 | File | `/artist-display.php` | High
+10 | File | `/backups/` | Medium
+11 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -25,19 +25,20 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [23.106.215.76](https://vuldb.com/?ip.23.106.215.76) | - | - | High
 3 | [23.227.201.6](https://vuldb.com/?ip.23.227.201.6) | 23-227-201-6.static.hvvc.us | - | High
 4 | [38.132.124.153](https://vuldb.com/?ip.38.132.124.153) | - | - | High
-5 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
-6 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
-7 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
-8 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
-9 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
-10 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
-11 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
-12 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
-13 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
-14 | [81.17.56.249](https://vuldb.com/?ip.81.17.56.249) | - | - | High
-15 | ... | ... | ... | ...
+5 | [45.11.19.47](https://vuldb.com/?ip.45.11.19.47) | - | - | High
+6 | [46.4.69.52](https://vuldb.com/?ip.46.4.69.52) | static.52.69.4.46.clients.your-server.de | - | High
+7 | [46.105.221.247](https://vuldb.com/?ip.46.105.221.247) | - | - | High
+8 | [46.105.251.42](https://vuldb.com/?ip.46.105.251.42) | ip42.ip-46-105-251.eu | - | High
+9 | [46.165.246.196](https://vuldb.com/?ip.46.165.246.196) | - | - | High
+10 | [70.36.107.34](https://vuldb.com/?ip.70.36.107.34) | - | - | High
+11 | [74.91.19.108](https://vuldb.com/?ip.74.91.19.108) | - | - | High
+12 | [74.91.19.122](https://vuldb.com/?ip.74.91.19.122) | - | - | High
+13 | [80.82.79.221](https://vuldb.com/?ip.80.82.79.221) | - | - | High
+14 | [80.82.79.240](https://vuldb.com/?ip.80.82.79.240) | - | - | High
+15 | [81.17.56.249](https://vuldb.com/?ip.81.17.56.249) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 58 more IOC items available. Please use our online service to access the data.
+There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,20 +81,21 @@ ID | Type | Indicator | Confidence
 19 | File | `/RestAPI` | Medium
 20 | File | `/SASWebReportStudio/logonAndRender.do` | High
 21 | File | `/scas/admin/` | Medium
-22 | File | `/tmp/speedtest_urls.xml` | High
-23 | File | `/tmp/zarafa-vacation-*` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
+22 | File | `/tmp/zarafa-vacation-*` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/Uploads` | Medium
 26 | File | `/var/log/nginx` | High
 27 | File | `/var/run/watchman.pid` | High
 28 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/204/apt34-apt-iocs/
 * https://github.com/blackorbird/APT_REPORT/tree/master/APT34
 * https://unit42.paloaltonetworks.com/unit42-oilrig-group-steps-attacks-new-delivery-documents-new-injector-trojan/
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-ismdoor-variant-possibly-linked-greenbug-threat-group/

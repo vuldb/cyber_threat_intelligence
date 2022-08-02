@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,41 +64,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/admin/conferences/get-all-status/` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/general/change-lang` | High
-6 | File | `/admin/group/list/` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/backups/` | Medium
-10 | File | `/catcompany.php` | High
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/front/roomtype-details.php` | High
-14 | File | `/inc/HTTPClient.php` | High
-15 | File | `/lists/admin/` | High
-16 | File | `/mcategory.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/products/details.asp` | High
-19 | File | `/real-estate-script/search_property.php` | High
-20 | File | `/service/upload` | High
-21 | File | `/sitemagic/index.php` | High
-22 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-23 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/var/run/watchman.pid` | High
-26 | File | `/wbg/core/_includes/authorization.inc.php` | High
-27 | File | `/wolfcms/?/admin/user/add` | High
-28 | File | `adclick.php` | Medium
-29 | File | `add_comment.php` | High
-30 | File | `admin/app/mediamanager` | High
-31 | File | `admin/manage-ticket.php` | High
-32 | File | `admin/system_manage/save.html` | High
-33 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin` | Low
+3 | File | `/admin/?page=inmates/view_inmate` | High
+4 | File | `/admin/?page=system_info` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/conferences/get-all-status/` | High
+7 | File | `/admin/conferences/list/` | High
+8 | File | `/admin/countrymanagement.php` | High
+9 | File | `/admin/edit.php` | High
+10 | File | `/admin/edit_admin_details.php?id=admin` | High
+11 | File | `/admin/general/change-lang` | High
+12 | File | `/admin/group/list/` | High
+13 | File | `/admin/new-content` | High
+14 | File | `/admin/renewaldue.php` | High
+15 | File | `/admin/sign/out` | High
+16 | File | `/admin/usermanagement.php` | High
+17 | File | `/aqpg/users/login.php` | High
+18 | File | `/backups/` | Medium
+19 | File | `/bcms/admin/?page=user/list` | High
+20 | File | `/cardo/api` | Medium
+21 | File | `/catcompany.php` | High
+22 | File | `/CCMAdmin/serverlist.asp` | High
+23 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+24 | File | `/cgi-bin/nightled.cgi` | High
+25 | File | `/cgi-bin/touchlist_sync.cgi` | High
+26 | File | `/ci_hms/massage_room/edit/1` | High
+27 | File | `/ci_hms/search` | High
+28 | File | `/ci_spms/admin/category` | High
+29 | File | `/ci_spms/admin/search/searching/` | High
+30 | File | `/ci_ssms/index.php/orders/create` | High
+31 | File | `/classes/Users.php?f=save` | High
+32 | File | `/cwms/admin/?page=articles/view_article/` | High
+33 | File | `/cwms/classes/Master.php?f=save_contact` | High
+34 | File | `/editbrand.php` | High
+35 | File | `/etc/sudoers` | Medium
+36 | File | `/front/roomtype-details.php` | High
+37 | File | `/goform/RgDdns` | High
+38 | File | `/goform/RgDhcp` | High
+39 | File | `/goform/RGFirewallEL` | High
+40 | File | `/goform/RgTime` | High
+41 | File | `/goform/RgUrlBlock.asp` | High
+42 | File | `/goform/wlanPrimaryNetwork` | High
+43 | File | `/horde/imp/search.php` | High
+44 | File | `/inc/HTTPClient.php` | High
+45 | File | `/index.php` | Medium
+46 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

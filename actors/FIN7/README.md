@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with FIN7:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,36 +102,36 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/generalsettings.php` | High
 6 | File | `/admin/payment.php` | High
 7 | File | `/admin/reports.php` | High
-8 | File | `/admin_page/all-files-update-ajax.php` | High
-9 | File | `/Ap4RtpAtom.cpp` | High
-10 | File | `/app/options.py` | High
-11 | File | `/bcms/admin/?page=user/list` | High
-12 | File | `/bsms/?page=manage_account` | High
-13 | File | `/bsms/?page=products` | High
+8 | File | `/admin/showbad.php` | High
+9 | File | `/admin_page/all-files-update-ajax.php` | High
+10 | File | `/Ap4RtpAtom.cpp` | High
+11 | File | `/app/options.py` | High
+12 | File | `/bcms/admin/?page=user/list` | High
+13 | File | `/bsms/?page=manage_account` | High
 14 | File | `/cgi-bin/kerbynet` | High
 15 | File | `/cgi-bin/login.cgi` | High
-16 | File | `/cgi-bin/system_mgr.cgi` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dms/admin/reports/daily_collection_report.php` | High
-21 | File | `/etc/hosts` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/index.php/fuel/logs/items` | High
-24 | File | `/fuel/sitevariables/delete/4` | High
-25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-26 | File | `/include/chart_generator.php` | High
-27 | File | `/index/jobfairol/show/` | High
-28 | File | `/info.cgi` | Medium
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/lists/admin/` | High
-32 | File | `/MagickCore/image.c` | High
-33 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dms/admin/reports/daily_collection_report.php` | High
+20 | File | `/etc/hosts` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/fuel/index.php/fuel/logs/items` | High
+23 | File | `/fuel/sitevariables/delete/4` | High
+24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+25 | File | `/index/jobfairol/show/` | High
+26 | File | `/info.cgi` | Medium
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/lists/admin/` | High
+30 | File | `/MagickCore/image.c` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/out.php` | Medium
 34 | File | `/proc/<PID>/mem` | High
 35 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

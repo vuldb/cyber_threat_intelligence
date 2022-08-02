@@ -30,10 +30,12 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [8.8.8.8](https://vuldb.com/?ip.8.8.8.8) | dns.google | - | High
 2 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
 3 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
-4 | [79.134.225.101](https://vuldb.com/?ip.79.134.225.101) | - | - | High
-5 | ... | ... | ... | ...
+4 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
+5 | [74.139.80.187](https://vuldb.com/?ip.74.139.80.187) | cpe-74-139-80-187.kya.res.rr.com | - | High
+6 | [79.134.225.101](https://vuldb.com/?ip.79.134.225.101) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,6 +76,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0401-0408.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-12%20Remcos%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-15%20Nanocore%20IOCs
 * https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/
 

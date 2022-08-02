@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emissary:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -31,6 +31,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Configuration | High
 
 ## IOA - Indicator of Attack
 
@@ -39,6 +41,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `data/gbconfiguration.dat` | High
+2 | File | `wp-admin/options-general.php?page=qtranslate-x` | High
+3 | File | `wp-includes/class-wp-query.php` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

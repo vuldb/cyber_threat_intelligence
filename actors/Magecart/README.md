@@ -64,31 +64,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/communitymanagement.php` | High
-4 | File | `/admin/conferences/get-all-status/` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/classes/Master.php?f=delete_train` | High
-12 | File | `/company` | Medium
-13 | File | `/conf/` | Low
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/etc/hosts` | Medium
-16 | File | `/fuel/sitevariables/delete/4` | High
-17 | File | `/getImage` | Medium
-18 | File | `/hprms/admin/?page=patients/view_patient` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/hprms/admin/patients/manage_patient.php` | High
-21 | File | `/index/jobfairol/show/` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/ordering/admin/store/index.php?view=edit` | High
-24 | ... | ... | ...
+2 | File | `/admin/communitymanagement.php` | High
+3 | File | `/admin/conferences/get-all-status/` | High
+4 | File | `/app/options.py` | High
+5 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/ci_hms/massage_room/edit/1` | High
+9 | File | `/classes/Master.php?f=delete_train` | High
+10 | File | `/company` | Medium
+11 | File | `/conf/` | Low
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/etc/hosts` | Medium
+14 | File | `/getImage` | Medium
+15 | File | `/hprms/admin/?page=patients/view_patient` | High
+16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+17 | File | `/hprms/admin/patients/manage_patient.php` | High
+18 | File | `/index/jobfairol/show/` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+21 | File | `/ordering/admin/store/index.php?view=edit` | High
+22 | File | `/orrs/admin/reservations/view_details.php` | High
+23 | File | `/pkg/util` | Medium
+24 | File | `/pms/admin/inmates/manage_inmate.php` | High
+25 | File | `/pms/admin/user/manage_user.php` | High
+26 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

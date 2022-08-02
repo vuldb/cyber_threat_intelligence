@@ -8,18 +8,23 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with TA551:
 
+* Cobalt Strike
+* DarkVNC
 * Hancitor
+* ...
+
+There are 1 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [US](https://vuldb.com/?country.us)
-* [CF](https://vuldb.com/?country.cf)
-* [RU](https://vuldb.com/?country.ru)
+* [PL](https://vuldb.com/?country.pl)
+* [SV](https://vuldb.com/?country.sv)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,9 +43,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.95.11.151](https://vuldb.com/?ip.45.95.11.151) | vm220095.pq.hosting | - | High
 10 | [45.95.11.153](https://vuldb.com/?ip.45.95.11.153) | vm284420.pq.hosting | - | High
 11 | [45.95.11.154](https://vuldb.com/?ip.45.95.11.154) | 4ser-1640356836.4server.su | - | High
-12 | ... | ... | ... | ...
+12 | [45.95.11.155](https://vuldb.com/?ip.45.95.11.155) | slfk.lz | - | High
+13 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,13 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,29 +69,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/hi3510/param.cgi` | High
-2 | File | `/etc/postfix/sender_login` | High
-3 | File | `/find_v2/_click` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/goform/openSchedWifi` | High
-6 | File | `/includes/lib/tree.php` | High
-7 | File | `/jpg/image.jpg` | High
-8 | File | `/objects/getImage.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/bin/at` | Medium
-11 | File | `adclick.php` | Medium
-12 | File | `admin.php` | Medium
-13 | File | `admin/conf_users_edit.php` | High
-14 | File | `admin/getparam.cgi` | High
-15 | ... | ... | ...
+1 | File | `/addNotifyServlet` | High
+2 | File | `/admin/curltest.cgi` | High
+3 | File | `/admin/inc/include.php` | High
+4 | File | `/admin/vca/bia/addacph.cgi` | High
+5 | File | `/admin/vca/license/license_tok.cgi` | High
+6 | File | `/api/plugin/upload` | High
+7 | File | `/bmis/pages/resident/resident.php` | High
+8 | File | `/cgi-bin/ExportAllSettings.sh` | High
+9 | File | `/docs/check.php` | High
+10 | File | `/doping.asp` | Medium
+11 | File | `/dotrace.asp` | Medium
+12 | File | `/edituser.php` | High
+13 | File | `/etc/init.d/sshd_service` | High
+14 | File | `/goform/aspForm` | High
+15 | File | `/HMS/admin.php` | High
+16 | File | `/ihomers/app` | Medium
+17 | File | `/includes/db_adodb.php` | High
+18 | File | `/includes/session.php` | High
+19 | File | `/index.php/?p=report` | High
+20 | File | `/index.php?r=site%2Fsignup` | High
+21 | File | `/modules/admin/vw_usr_roles.php` | High
+22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+23 | File | `/modules/projects/gantt.php` | High
+24 | File | `/modules/public/calendar.php` | High
+25 | File | `/modules/public/date_format.php` | High
+26 | File | `/nav_bar_action.php` | High
+27 | File | `/pages/activity/activity.php` | High
+28 | File | `/profiles/` | Medium
+29 | File | `/school/view/student_grade_wise.php` | High
+30 | File | `/sistema/flash/reboot` | High
+31 | File | `/web/api/v1/upload/UploadHandler.php` | High
+32 | File | `add_classification.htm` | High
+33 | File | `add_edit_user.asp` | High
+34 | File | `adm.cgi` | Low
+35 | File | `admin/admin_sil.asp` | High
+36 | File | `admin/detay_yorum.asp` | High
+37 | File | `admin/haber_ekle.asp` | High
+38 | File | `admin/include/inc_adminfoot.php` | High
+39 | File | `admin/index.php` | High
+40 | File | `admin/security/EditForm/field/Members/item/new/ItemEditForm` | High
+41 | File | `adminAvatars.php` | High
+42 | File | `adminSensored.php` | High
+43 | File | `admin_image.php` | High
+44 | ... | ... | ...
 
-There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://isc.sans.edu/diary/28092
+* https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
 * https://isc.sans.edu/diary/rss/27738
 * https://isc.sans.edu/forums/diary/More+TA551+Shathak+Word+docs+push+IcedID+Bokbot/26674/
 * https://isc.sans.edu/forums/diary/TA551+Shathak+Word+docs+push+IcedID+Bokbot/26438/

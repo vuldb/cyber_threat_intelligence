@@ -67,23 +67,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/login.php` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-5 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-6 | File | `/etc/gsissh/sshd_config` | High
-7 | File | `/redpass.cgi` | Medium
-8 | File | `/see_more_details.php` | High
-9 | File | `/server-status` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/var/log/nginx` | High
-12 | File | `/WebMstr7/servlet/mstrWeb` | High
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-15 | File | `adclick.php` | Medium
-16 | File | `admin.php` | Medium
-17 | File | `Admin/ADM_Pagina.php` | High
-18 | File | `admin/conf_users_edit.php` | High
+5 | File | `/dashboard/menu-list.php` | High
+6 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+7 | File | `/etc/gsissh/sshd_config` | High
+8 | File | `/redpass.cgi` | Medium
+9 | File | `/see_more_details.php` | High
+10 | File | `/server-status` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/var/log/nginx` | High
+13 | File | `/WebMstr7/servlet/mstrWeb` | High
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+16 | File | `adclick.php` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `Admin/ADM_Pagina.php` | High
 19 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

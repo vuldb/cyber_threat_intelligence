@@ -36,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,15 +52,15 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/index.php` | High
 3 | File | `/cgi-mod/lookup.cgi` | High
-4 | File | `/message/ajax/send/` | High
-5 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-6 | File | `add_comment.php` | High
-7 | File | `app/controllers/application_controller.rb` | High
-8 | File | `application\api\controller\User.php` | High
-9 | File | `blog.php` | Medium
+4 | File | `/getcfg.php` | Medium
+5 | File | `/message/ajax/send/` | High
+6 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
+7 | File | `add_comment.php` | High
+8 | File | `app/controllers/application_controller.rb` | High
+9 | File | `application\api\controller\User.php` | High
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

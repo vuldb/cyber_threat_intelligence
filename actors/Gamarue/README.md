@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -96,7 +96,7 @@ ID | Type | Indicator | Confidence
 29 | File | `account.asp` | Medium
 30 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

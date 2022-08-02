@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snatch:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -52,26 +52,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/assets/components/gallery/connector.php` | High
 4 | File | `/College/admin/teacher.php` | High
-5 | File | `/etc/target` | Medium
-6 | File | `/export` | Low
-7 | File | `/getcfg.php` | Medium
-8 | File | `/goform/WriteFacMac` | High
-9 | File | `/lists/admin/user.php` | High
-10 | File | `/tmp` | Low
-11 | File | `/uncpath/` | Medium
-12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-13 | File | `/_vti_pvt/access.cnf` | High
-14 | File | `admin.php3` | Medium
-15 | File | `admin/mobile.php` | High
-16 | File | `admin/themes` | Medium
-17 | File | `administration/comments.php` | High
-18 | File | `admin_hacks_list.php` | High
-19 | File | `affiliate_signup.php` | High
-20 | File | `ajax.php` | Medium
-21 | File | `amadmin.pl` | Medium
-22 | ... | ... | ...
+5 | File | `/editbrand.php` | High
+6 | File | `/etc/target` | Medium
+7 | File | `/export` | Low
+8 | File | `/getcfg.php` | Medium
+9 | File | `/goform/WriteFacMac` | High
+10 | File | `/index.php` | Medium
+11 | File | `/lists/admin/user.php` | High
+12 | File | `/movie.php` | Medium
+13 | File | `/news-portal-script/information.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+17 | File | `/_vti_pvt/access.cnf` | High
+18 | File | `admin.php3` | Medium
+19 | File | `admin/mobile.php` | High
+20 | File | `admin/themes` | Medium
+21 | File | `administration/comments.php` | High
+22 | File | `admin_hacks_list.php` | High
+23 | ... | ... | ...
 
-There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
