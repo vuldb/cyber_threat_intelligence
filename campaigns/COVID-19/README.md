@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -155,10 +155,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -167,34 +166,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.python-version` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/admin/dl_sendmail.php` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/app/controller/Books.php` | High
-6 | File | `/app/options.py` | High
-7 | File | `/ATL/VQ23` | Medium
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/churchcrm/WhyCameEditor.php` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/etc/quagga` | Medium
-16 | File | `/etc/tomcat8/Catalina/attack` | High
-17 | File | `/filemanager/php/connector.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/fuel/sitevariables/delete/4` | High
-20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-21 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/language/lang` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/loginsave.php` | High
-26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-27 | ... | ... | ...
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/admin/inc/include.php` | High
+4 | File | `/app/controller/Books.php` | High
+5 | File | `/app/options.py` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/catcompany.php` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/churchcrm/WhyCameEditor.php` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/etc/tomcat8/Catalina/attack` | High
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+18 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+19 | File | `/index/jobfairol/show/` | High
+20 | File | `/language/lang` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/loginsave.php` | High
+23 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+24 | File | `/mcategory.php` | High
+25 | File | `/menu.html` | Medium
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

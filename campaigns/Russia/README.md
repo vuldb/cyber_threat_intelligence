@@ -72,7 +72,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,21 +80,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.python-version` | High
-2 | File | `/admin/curltest.cgi` | High
-3 | File | `/admin/vca/bia/addacph.cgi` | High
-4 | File | `/admin/vca/license/license_tok.cgi` | High
-5 | File | `/api/sys_username_passwd.cmd` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-8 | File | `/bmis/pages/resident/resident.php` | High
-9 | File | `/cgi-bin/luci/api/auth` | High
-10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-11 | File | `/cgi-bin/nightled.cgi` | High
-12 | File | `/cgi-bin/touchlist_sync.cgi` | High
+1 | File | `/admin/curltest.cgi` | High
+2 | File | `/admin/vca/bia/addacph.cgi` | High
+3 | File | `/admin/vca/license/license_tok.cgi` | High
+4 | File | `/api/plugin/uninstall` | High
+5 | File | `/api/plugin/upload` | High
+6 | File | `/bmis/pages/resident/resident.php` | High
+7 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+8 | File | `/cgi-bin/nightled.cgi` | High
+9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+10 | File | `/donor-wall` | Medium
+11 | File | `/editbrand.php` | High
+12 | File | `/forum/away.php` | High
 13 | ... | ... | ...
 
-There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

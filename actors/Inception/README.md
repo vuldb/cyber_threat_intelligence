@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Inception:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
-* [ES](https://vuldb.com/?country.es)
 * [AR](https://vuldb.com/?country.ar)
+* [ES](https://vuldb.com/?country.es)
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
@@ -92,9 +92,12 @@ ID | Type | Indicator | Confidence
 35 | File | `/mcategory.php` | High
 36 | File | `/modules/tasks/gantt.php` | High
 37 | File | `/odfs/classes/Master.php?f=delete_team` | High
-38 | ... | ... | ...
+38 | File | `/ofrs/admin/requests/take_action.php` | High
+39 | File | `/otps/classes/Master.php` | High
+40 | File | `/pms/admin/actions/view_action.php` | High
+41 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

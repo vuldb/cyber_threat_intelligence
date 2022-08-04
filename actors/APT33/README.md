@@ -102,13 +102,17 @@ ID | Type | Indicator | Confidence
 31 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
 32 | File | `/vicidial/admin.php` | High
 33 | File | `/vicidial/AST_agent_time_sheet.php` | High
-34 | File | `add_comment.php` | High
-35 | File | `add_edit_cat.asp` | High
-36 | File | `add_url.htm` | Medium
-37 | File | `adm.cgi` | Low
-38 | ... | ... | ...
+34 | File | `addphotosform.php` | High
+35 | File | `addreviewsform.php` | High
+36 | File | `add_comment.php` | High
+37 | File | `add_edit_cat.asp` | High
+38 | File | `add_url.htm` | Medium
+39 | File | `adm.cgi` | Low
+40 | File | `admin/index.php` | High
+41 | File | `adminAttachments.php` | High
+42 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

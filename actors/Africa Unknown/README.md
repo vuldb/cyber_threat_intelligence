@@ -101,10 +101,9 @@ ID | Type | Indicator | Confidence
 36 | File | `ajax/deletePage.php` | High
 37 | File | `ajouter_tva.php` | High
 38 | File | `apcupsd.pid` | Medium
-39 | File | `api/sms/send-sms` | High
-40 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

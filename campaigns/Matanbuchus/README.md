@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Matanbuchus:
 
+* [US](https://vuldb.com/?country.us)
 * [TT](https://vuldb.com/?country.tt)
-* [CO](https://vuldb.com/?country.co)
+* [IT](https://vuldb.com/?country.it)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [34.106.243.174](https://vuldb.com/?ip.34.106.243.174) | 174.243.106.34.bc.googleusercontent.com | [BelialDemon](https://vuldb.com/?actor.belialdemon) | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1548.002 | CWE-285 | Improper Authorization | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,14 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `AdminBaseController.class.php` | High
-2 | File | `include/ajax.draft.php` | High
-3 | Argument | `request` | Low
+1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+2 | File | `/etc/shadow` | Medium
+3 | File | `/uncpath/` | Medium
+4 | ... | ... | ...
+
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://circleid.com/posts/20220721-matanbuchus-with-cobalt-strike-not-your-favorite-combo
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-16%20Matanbuchus%20IOCs
 * https://unit42.paloaltonetworks.com/matanbuchus-malware-as-a-service/
 

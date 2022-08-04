@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with PingPull or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [GALLIUM](https://vuldb.com/?actor.gallium) | High
+2 | [PingPull](https://vuldb.com/?actor.pingpull) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +30,35 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.8.71.97](https://vuldb.com/?ip.5.8.71.97) | goodluck23.jp.us | [GALLIUM](https://vuldb.com/?actor.gallium) | High
-2 | [5.181.25.55](https://vuldb.com/?ip.5.181.25.55) | vps76.example.com | [GALLIUM](https://vuldb.com/?actor.gallium) | High
-3 | [92.38.135.62](https://vuldb.com/?ip.92.38.135.62) | test.com | [GALLIUM](https://vuldb.com/?actor.gallium) | High
+1 | [2.58.242.229](https://vuldb.com/?ip.2.58.242.229) | 242-58-2-229.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+2 | [2.58.242.230](https://vuldb.com/?ip.2.58.242.230) | 242-58-2-230.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+3 | [2.58.242.231](https://vuldb.com/?ip.2.58.242.231) | 242-58-2-231.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+4 | [2.58.242.232](https://vuldb.com/?ip.2.58.242.232) | 242-58-2-232.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+5 | [2.58.242.235](https://vuldb.com/?ip.2.58.242.235) | 242-58-2-235.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+6 | [2.58.242.236](https://vuldb.com/?ip.2.58.242.236) | 242-58-2-236.hostinginside.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+7 | [5.8.71.97](https://vuldb.com/?ip.5.8.71.97) | vps.hostry.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+8 | [5.181.25.55](https://vuldb.com/?ip.5.181.25.55) | contato.instagram05.polarbor.solutions | [PingPull](https://vuldb.com/?actor.pingpull) | High
+9 | [5.188.33.237](https://vuldb.com/?ip.5.188.33.237) | core3.icons8.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+10 | [37.61.229.104](https://vuldb.com/?ip.37.61.229.104) | theodore974.example.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+11 | [37.61.229.106](https://vuldb.com/?ip.37.61.229.106) | www.asterip.net | [PingPull](https://vuldb.com/?actor.pingpull) | High
+12 | [43.254.218.43](https://vuldb.com/?ip.43.254.218.43) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+13 | [43.254.218.57](https://vuldb.com/?ip.43.254.218.57) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+14 | [43.254.218.98](https://vuldb.com/?ip.43.254.218.98) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+15 | [43.254.218.104](https://vuldb.com/?ip.43.254.218.104) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+16 | [43.254.218.114](https://vuldb.com/?ip.43.254.218.114) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+17 | [45.14.66.230](https://vuldb.com/?ip.45.14.66.230) | 45.14.66.230.static.xtom.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+18 | [45.76.113.163](https://vuldb.com/?ip.45.76.113.163) | 45.76.113.163.vultrusercontent.com | [PingPull](https://vuldb.com/?actor.pingpull) | High
+19 | [45.116.13.153](https://vuldb.com/?ip.45.116.13.153) | 45.116.13.153.static.xtom.hk | [PingPull](https://vuldb.com/?actor.pingpull) | High
+20 | [45.121.50.230](https://vuldb.com/?ip.45.121.50.230) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+21 | [45.128.221.61](https://vuldb.com/?ip.45.128.221.61) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+22 | [45.128.221.66](https://vuldb.com/?ip.45.128.221.66) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+23 | [45.128.221.169](https://vuldb.com/?ip.45.128.221.169) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+24 | [45.128.221.172](https://vuldb.com/?ip.45.128.221.172) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+25 | [45.128.221.182](https://vuldb.com/?ip.45.128.221.182) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+26 | [45.128.221.186](https://vuldb.com/?ip.45.128.221.186) | - | [PingPull](https://vuldb.com/?actor.pingpull) | High
+27 | ... | ... | ... | ...
+
+There are 103 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,12 +66,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,18 +81,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/trackedEntityInstances` | High
-2 | File | `/goform/setWorkmode` | High
-3 | File | `/mgmt/tm/util/bash` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/usr/bin/pkexec` | High
-6 | ... | ... | ...
+2 | File | `/cgi-bin/portal` | High
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/download` | Medium
+5 | File | `/etc/shadow` | Medium
+6 | File | `/inc/extensions.php` | High
+7 | File | `/Items/*/RemoteImages/Download` | High
+8 | File | `/mifs/c/i/reg/reg.html` | High
+9 | File | `/nova/bin/console` | High
+10 | File | `/out.php` | Medium
+11 | File | `/owa/auth/logon.aspx` | High
+12 | File | `/req_password_user.php` | High
+13 | File | `/secure/QueryComponent!Default.jspa` | High
+14 | File | `/service/upload` | High
+15 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://1275.ru/ioc/342/pingpull-trojan-iocs/
 * https://unit42.paloaltonetworks.com/pingpull-gallium/
 
 ## Literature

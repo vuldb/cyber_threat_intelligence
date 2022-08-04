@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4908,13 +4908,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4922,31 +4923,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/admin/curltest.cgi` | High
-3 | File | `/admin/inquiries/view_details.php` | High
-4 | File | `/admin/vca/bia/addacph.cgi` | High
-5 | File | `/admin/vca/license/license_tok.cgi` | High
-6 | File | `/bmis/pages/resident/resident.php` | High
-7 | File | `/catcompany.php` | High
-8 | File | `/category.php` | High
-9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-10 | File | `/cgi-bin/nightled.cgi` | High
-11 | File | `/cgi-bin/touchlist_sync.cgi` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/ci_hms/search` | High
-14 | File | `/ci_spms/admin/category` | High
-15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/ci_ssms/index.php/orders/create` | High
-17 | File | `/donor-wall` | Medium
-18 | File | `/doping.asp` | Medium
-19 | File | `/dotrace.asp` | Medium
-20 | File | `/editbrand.php` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/htmldoc/htmldoc/html.cxx` | High
-23 | ... | ... | ...
+1 | File | `/api/plugin/uninstall` | High
+2 | File | `/api/plugin/upload` | High
+3 | File | `/auth/callback` | High
+4 | File | `/debug/pprof` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/Items/*/RemoteImages/Download` | High
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+9 | File | `/ossn/administrator/com_installer` | High
+10 | File | `/ossn/home` | Medium
+11 | File | `/secure/ViewCollectors` | High
+12 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

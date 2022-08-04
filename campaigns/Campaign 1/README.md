@@ -54,12 +54,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,54 +68,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/#/CampaignManager/users` | High
-4 | File | `//` | Low
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/?setting-base.htm` | High
-7 | File | `/admin/admin_login.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/audit/log/log_management.php` | High
-11 | File | `/bin/login` | Medium
-12 | File | `/bin/sh` | Low
-13 | File | `/cgi-bin/login` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dev/tty` | Medium
-16 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
-17 | File | `/downloads/` | Medium
-18 | File | `/gaia-job-admin/user/add` | High
-19 | File | `/HNAP1` | Low
-20 | File | `/login` | Low
-21 | File | `/login.html` | Medium
-22 | File | `/magnoliaPublic/travel/members/login.html` | High
-23 | File | `/member/index/login.html` | High
-24 | File | `/modules/certinfo/index.php` | High
-25 | File | `/rdms/admin/?page=user/manage_user` | High
-26 | File | `/requests.php` | High
-27 | File | `/saml/login` | Medium
-28 | File | `/ScadaBR/login.htm` | High
-29 | File | `/system/tool/ping.php` | High
-30 | File | `/upload` | Low
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/var/adm/btmp` | High
-33 | File | `account/login.php` | High
-34 | File | `ad/login.asp` | Medium
-35 | File | `add.php` | Low
-36 | File | `admin.inc.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?m=backup&c=backup&a=doback` | High
-39 | File | `admin/admin_ping.php` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/index.php` | High
-42 | File | `admin/login.asp` | High
-43 | File | `admin/login.php` | High
-44 | File | `admin/nos/login` | High
-45 | File | `admin/viewtheatre.php` | High
-46 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/#/CampaignManager/users` | High
+3 | File | `/admin/?setting-base.htm` | High
+4 | File | `/admin/admin_login.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/apply_noauth.cgi` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/debug/pprof` | Medium
+9 | File | `/dev/tty` | Medium
+10 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+11 | File | `/downloads/` | Medium
+12 | File | `/gaia-job-admin/user/add` | High
+13 | File | `/HNAP1` | Low
+14 | File | `/login` | Low
+15 | File | `/login.html` | Medium
+16 | File | `/magnoliaPublic/travel/members/login.html` | High
+17 | File | `/member/index/login.html` | High
+18 | File | `/modules/certinfo/index.php` | High
+19 | File | `/p1/p2/:name` | Medium
+20 | File | `/rdms/admin/?page=user/manage_user` | High
+21 | File | `/requests.php` | High
+22 | File | `/saml/login` | Medium
+23 | File | `/ScadaBR/login.htm` | High
+24 | File | `/system/tool/ping.php` | High
+25 | File | `/upload` | Low
+26 | File | `/var/adm/btmp` | High
+27 | File | `account/login.php` | High
+28 | File | `ad/login.asp` | Medium
+29 | File | `add.php` | Low
+30 | File | `admin.inc.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin.php?m=backup&c=backup&a=doback` | High
+33 | File | `admin/admin_ping.php` | High
+34 | File | `admin/index.php` | High
+35 | File | `admin/login.asp` | High
+36 | File | `admin/login.php` | High
+37 | File | `admin/navbar.php?action=add_page` | High
+38 | File | `admin/nos/login` | High
+39 | File | `admin/viewtheatre.php` | High
+40 | File | `agenda.php3` | Medium
+41 | File | `ajaxp.php` | Medium
+42 | File | `album.asp` | Medium
+43 | File | `app/topic/action/admin/topic.php` | High
+44 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

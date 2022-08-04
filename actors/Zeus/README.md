@@ -75,7 +75,7 @@ ID | IP address | Hostname | Campaign | Confidence
 52 | [66.117.77.134](https://vuldb.com/?ip.66.117.77.134) | 66-117-77-134.gohighspeed.com | - | High
 53 | ... | ... | ... | ...
 
-There are 209 more IOC items available. Please use our online service to access the data.
+There are 210 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -115,17 +115,17 @@ ID | Type | Indicator | Confidence
 15 | File | `/index/jobfairol/show/` | High
 16 | File | `/librarian/bookdetails.php` | High
 17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/objects/getImageMP4.php` | High
-21 | File | `/proc/<PID>/mem` | High
-22 | File | `/proc/<pid>/status` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-27 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-28 | File | `/tmp` | Low
+18 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/new` | Low
+21 | File | `/objects/getImageMP4.php` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
 29 | ... | ... | ...
 
 There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -136,6 +136,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2020/09/threat-roundup-0918-0925.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_zeus.netset
 * https://isc.sans.edu/forums/diary/Recent+Emotet+activity/23908/
 * https://twitter.com/RakeshKrish12/status/1204571340096724993

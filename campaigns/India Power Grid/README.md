@@ -39,6 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1202 | CWE-77, CWE-78 | Command Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -48,6 +49,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `lists/admin/template.php` | High
 2 | File | `PSOutputDev.cc` | High
+3 | Argument | `hostName` | Medium
 
 ## References
 

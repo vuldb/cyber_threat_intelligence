@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IR](https://vuldb.com/?country.ir)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,7 +22,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.149.255.178](https://vuldb.com/?ip.5.149.255.178) | - | - | High
-2 | [185.80.54.18](https://vuldb.com/?ip.185.80.54.18) | specific.hornycone.com | - | High
+2 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+3 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+4 | [34.213.158.239](https://vuldb.com/?ip.34.213.158.239) | ec2-34-213-158-239.us-west-2.compute.amazonaws.com | - | Medium
+5 | [34.214.44.170](https://vuldb.com/?ip.34.214.44.170) | ec2-34-214-44-170.us-west-2.compute.amazonaws.com | - | Medium
+6 | ... | ... | ... | ...
+
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-358 | 7PK Security Features | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,18 +50,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/json/admin/getmailserversettings` | High
-2 | File | `administrative` | High
-3 | File | `sc.exe` | Low
-4 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/account/changepassword` | High
+3 | File | `/admin/users.php` | High
+4 | File | `/api/json/admin/getmailserversettings` | High
+5 | File | `/artist.php` | Medium
+6 | File | `/bin/su` | Low
+7 | File | `/data/system/users/0/settings_secure.xml` | High
+8 | File | `/dev/mem` | Medium
+9 | File | `/dev/urandom` | Medium
+10 | File | `/etc/dt` | Low
+11 | File | `/etc/password` | High
+12 | File | `/show_group_members.php` | High
+13 | File | `/usr/etc/rpc.passwd` | High
+14 | File | `/WEB-INF/web.xml` | High
+15 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2018/08/threat-roundup-0810-0817.html
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0405-0412.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1211-1218.html
 
 ## Literature
 

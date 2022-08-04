@@ -62,16 +62,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/modules/tasks/summary.inc.php` | High
 4 | File | `/rest/api/2/user/picker` | High
 5 | File | `/uncpath/` | Medium
-6 | File | `admin/categories_industry.php` | High
-7 | File | `admin/category.inc.php` | High
-8 | File | `admin/content/postcategory` | High
-9 | File | `Adminstrator/Users/Edit/` | High
-10 | File | `agent.cfg` | Medium
-11 | File | `ALL_IN_THE_BOX.OCX` | High
-12 | File | `bmp.c` | Low
+6 | File | `/wp-json` | Medium
+7 | File | `admin/categories_industry.php` | High
+8 | File | `admin/category.inc.php` | High
+9 | File | `admin/content/postcategory` | High
+10 | File | `Adminstrator/Users/Edit/` | High
+11 | File | `agent.cfg` | Medium
+12 | File | `ALL_IN_THE_BOX.OCX` | High
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

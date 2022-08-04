@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 26 | File | `/index.php/?p=report` | High
 27 | File | `/Items/*/RemoteImages/Download` | High
 28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/out.php` | Medium
-30 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

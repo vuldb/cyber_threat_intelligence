@@ -72,40 +72,40 @@ ID | Type | Indicator | Confidence
 7 | File | `/dashboard/reports/logs/view` | High
 8 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
 9 | File | `/dev/cuse` | Medium
-10 | File | `/download` | Medium
-11 | File | `/etc/config/rpcd` | High
-12 | File | `/EXCU_SHELL` | Medium
-13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/gena.cgi` | Medium
-16 | File | `/goform/webSettingProfileSecurity` | High
-17 | File | `/login` | Low
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/MIME/INBOX-MM-1/` | High
-20 | File | `/ms/file/uploadTemplate.do` | High
-21 | File | `/netflow/jspui/editProfile.jsp` | High
-22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-23 | File | `/ofrs/admin/?page=requests/view_request` | High
-24 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-25 | File | `/out.php` | Medium
-26 | File | `/php/ajax.php` | High
-27 | File | `/public/login.htm` | High
-28 | File | `/rapi/read_url` | High
-29 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-30 | File | `/see_more_details.php` | High
-31 | File | `/service/v1/createUser` | High
-32 | File | `/setSystemAdmin` | High
-33 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-34 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/user/dls_download.php` | High
-37 | File | `/vicidial/user_stats.php` | High
-38 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
-39 | File | `/wp-admin/admin-ajax.php` | High
-40 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+10 | File | `/etc/config/rpcd` | High
+11 | File | `/EXCU_SHELL` | Medium
+12 | File | `/export` | Low
+13 | File | `/forum/away.php` | High
+14 | File | `/gena.cgi` | Medium
+15 | File | `/goform/webSettingProfileSecurity` | High
+16 | File | `/login` | Low
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/MIME/INBOX-MM-1/` | High
+19 | File | `/ms/file/uploadTemplate.do` | High
+20 | File | `/netflow/jspui/editProfile.jsp` | High
+21 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+22 | File | `/ofrs/admin/?page=requests/view_request` | High
+23 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+24 | File | `/out.php` | Medium
+25 | File | `/php/ajax.php` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/rapi/read_url` | High
+28 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+29 | File | `/see_more_details.php` | High
+30 | File | `/service/v1/createUser` | High
+31 | File | `/setSystemAdmin` | High
+32 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+33 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/dls_download.php` | High
+36 | File | `/vicidial/user_stats.php` | High
+37 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+40 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

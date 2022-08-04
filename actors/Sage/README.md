@@ -4,12 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sage](https://vuldb.com/?actor.sage)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sage:
-
-* [US](https://vuldb.com/?country.us)
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Sage.
@@ -37,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,21 +43,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/inquiries/view_details.php` | High
-2 | File | `/tmp/zarafa-vacation-*` | High
-3 | File | `apl_42.c` | Medium
-4 | File | `arch/arm/p2m.c` | High
-5 | File | `arch/powerpc/kernel/process.c` | High
-6 | File | `arch/x86/mm/guest_walk.c` | High
-7 | File | `auth.c` | Low
-8 | File | `block/qcow.c` | Medium
-9 | File | `cgi-bin/webproc` | High
-10 | File | `cgi_main.c` | Medium
-11 | File | `class.phpmailer.php` | High
-12 | File | `content/content.systempreferences.php` | High
-13 | ... | ... | ...
+1 | File | `/admin/inc/include.php` | High
+2 | File | `/auth/callback` | High
+3 | File | `/modules/admin/vw_usr_roles.php` | High
+4 | File | `/modules/public/calendar.php` | High
+5 | File | `/profiles/` | Medium
+6 | File | `/resolv/nss_dns/dns-host.c` | High
+7 | File | `/util/print.c` | High
+8 | File | `account.asp` | Medium
+9 | File | `accounts/inc/include.php` | High
+10 | File | `add.php` | Low
+11 | File | `add_comment.php` | High
+12 | File | `add_contents.htm` | High
+13 | File | `add_review.htm` | High
+14 | File | `admin/BunchDetail.do` | High
+15 | File | `admin/main.php` | High
+16 | File | `advertiser.php` | High
+17 | File | `arch/powerpc/kernel/process.c` | High
+18 | File | `arch/s390/include/asm/mmu_context.h` | High
+19 | File | `arch/x86/mm/tlb.c` | High
+20 | File | `attachment_send.php` | High
+21 | File | `audit/class.audit.php` | High
+22 | File | `badlogin.php` | Medium
+23 | File | `browse.php` | Medium
+24 | File | `browsecats.php` | High
+25 | File | `C:\mingw64\bin\git.exe` | High
+26 | File | `cart.php` | Medium
+27 | File | `category.php` | Medium
+28 | File | `cdf.c` | Low
+29 | File | `check.php` | Medium
+30 | File | `closeup.php` | Medium
+31 | File | `comments.php` | Medium
+32 | File | `compiler/pipeline.cc` | High
+33 | File | `conf/revize.xml` | High
+34 | File | `config.php` | Medium
+35 | File | `contact.htm` | Medium
+36 | File | `containing` | Medium
+37 | File | `content.php` | Medium
+38 | File | `contents.php` | Medium
+39 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

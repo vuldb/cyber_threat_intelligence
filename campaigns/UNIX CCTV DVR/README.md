@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,12 +43,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-250, CWE-264, CWE-266, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,39 +66,37 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
 6 | File | `/api/document/<DocumentID>/attachments` | High
 7 | File | `/bin/sh` | Low
-8 | File | `/cgi-bin/` | Medium
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/core/admin/categories.php` | High
-11 | File | `/coreframe/app/order/admin/card.php` | High
-12 | File | `/device/device=345/?tab=ports` | High
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-15 | File | `/eshop/products/json/aouCustomerAdresse` | High
-16 | File | `/etc/config/cameo` | High
-17 | File | `/etc/environment` | High
-18 | File | `/extensionsinstruction` | High
-19 | File | `/food/admin/all_users.php` | High
-20 | File | `/goform/SetClientState` | High
-21 | File | `/goform/SetFirewallCfg` | High
-22 | File | `/goform/setWorkmode` | High
-23 | File | `/goods/getGoodsListByConditions/` | High
-24 | File | `/includes/lib/tree.php` | High
-25 | File | `/MagickCore/quantize.c` | High
-26 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-27 | File | `/member/index/login.html` | High
-28 | File | `/moddable/xs/sources/xsScript.c` | High
-29 | File | `/moddable/xs/sources/xsSymbol.c` | High
-30 | File | `/multiux/SaveMailbox` | High
-31 | File | `/nagioslogserver/configure/create_snapshot` | High
-32 | File | `/nova/bin/lcdstat` | High
-33 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-34 | File | `/rest/api/2/user/picker` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-37 | File | `/sns/classes/Master.php?f=delete_img` | High
-38 | ... | ... | ...
+8 | File | `/cgi-bin/uploadWeiXinPic` | High
+9 | File | `/core/admin/categories.php` | High
+10 | File | `/coreframe/app/order/admin/card.php` | High
+11 | File | `/dms/admin/reports/daily_collection_report.php` | High
+12 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+13 | File | `/eshop/products/json/aouCustomerAdresse` | High
+14 | File | `/etc/config/cameo` | High
+15 | File | `/etc/environment` | High
+16 | File | `/extensionsinstruction` | High
+17 | File | `/food/admin/all_users.php` | High
+18 | File | `/goform/SetClientState` | High
+19 | File | `/goform/SetFirewallCfg` | High
+20 | File | `/goform/setWorkmode` | High
+21 | File | `/goods/getGoodsListByConditions/` | High
+22 | File | `/includes/lib/tree.php` | High
+23 | File | `/isms/classes/Users.php` | High
+24 | File | `/MagickCore/quantize.c` | High
+25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+26 | File | `/member/index/login.html` | High
+27 | File | `/moddable/xs/sources/xsScript.c` | High
+28 | File | `/moddable/xs/sources/xsSymbol.c` | High
+29 | File | `/nagioslogserver/configure/create_snapshot` | High
+30 | File | `/nova/bin/lcdstat` | High
+31 | File | `/ofrs/admin/?page=teams/view_team` | High
+32 | File | `/ordering/index.php?q=category` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+35 | File | `/rest/api/2/user/picker` | High
+36 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

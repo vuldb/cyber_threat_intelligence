@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [185.220.100.240](https://vuldb.com/?ip.185.220.100.240) | tor-exit-13.zbau.f3netze.de | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,45 +50,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/?page=system_info/contact_info` | High
-3 | File | `/admin/featured.php` | High
-4 | File | `/ajax/config_rollback/` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/api/part_categories` | High
+2 | File | `/admin/featured.php` | High
+3 | File | `/ajax/config_rollback/` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/api/part_categories` | High
+6 | File | `/api/plugin/uninstall` | High
 7 | File | `/auditLogAction.do` | High
-8 | File | `/cgi-bin` | Medium
-9 | File | `/cgi-bin/webproc` | High
-10 | File | `/churchcrm/WhyCameEditor.php` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/dashboard/menu-list.php` | High
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/editbrand.php` | High
-15 | File | `/etc/cron.daily/upstart` | High
-16 | File | `/etc/lighttpd.d/ca.pem` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/goform/WanParameterSetting` | High
-20 | File | `/IISADMPWD` | Medium
-21 | File | `/index.php?page=search/rentals` | High
-22 | File | `/Items/*/RemoteImages/Download` | High
-23 | File | `/job` | Low
-24 | File | `/linkedcontent/editfolder.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/officials/officials.php` | High
-28 | File | `/ofrs/admin/?page=reports` | High
-29 | File | `/PC/WebService.asmx` | High
-30 | File | `/pms/admin/actions/view_action.php` | High
-31 | File | `/pms/admin/cells/manage_cell.php` | High
-32 | File | `/pms/admin/inmates/manage_inmate.php` | High
-33 | ... | ... | ...
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin` | Medium
+10 | File | `/cgi-bin/ExportAllSettings.sh` | High
+11 | File | `/cgi-bin/webproc` | High
+12 | File | `/churchcrm/WhyCameEditor.php` | High
+13 | File | `/ci_spms/admin/category` | High
+14 | File | `/dashboard/menu-list.php` | High
+15 | File | `/doping.asp` | Medium
+16 | File | `/dotrace.asp` | Medium
+17 | File | `/editbrand.php` | High
+18 | File | `/etc/cron.daily/upstart` | High
+19 | File | `/etc/lighttpd.d/ca.pem` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/WanParameterSetting` | High
+23 | File | `/IISADMPWD` | Medium
+24 | File | `/index.php` | Medium
+25 | File | `/index.php?page=search/rentals` | High
+26 | File | `/job` | Low
+27 | File | `/linkedcontent/editfolder.php` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/movie.php` | Medium
+30 | File | `/officials/officials.php` | High
+31 | File | `/ofrs/admin/?page=reports` | High
+32 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/120/pysa-ransomware-iocs/
 * https://thedfirreport.com/2020/11/23/pysa-mespinoza-ransomware/
 
 ## Literature

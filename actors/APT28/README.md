@@ -131,10 +131,9 @@ ID | Type | Indicator | Confidence
 26 | File | `afr.php` | Low
 27 | File | `apcupsd.pid` | Medium
 28 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
-29 | File | `api/sms/send-sms` | High
-30 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

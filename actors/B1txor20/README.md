@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,30 +60,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.encfs6.xml` | Medium
-2 | File | `.forward` | Medium
-3 | File | `.python-version` | High
-4 | File | `/ajax/remove_sniffer_raw_log/` | High
-5 | File | `/api/sys_username_passwd.cmd` | High
-6 | File | `/auth/callback` | High
-7 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-8 | File | `/bmis/pages/resident/resident.php` | High
-9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-10 | File | `/cgi-bin/nightled.cgi` | High
-11 | File | `/cgi-bin/nobody` | High
-12 | File | `/ci_spms/admin/category` | High
-13 | File | `/conf/` | Low
-14 | File | `/dashboard/menu-list.php` | High
-15 | File | `/dashboard/profile.php` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/dashboard/table-list.php` | High
-18 | File | `/dev/pts/` | Medium
-19 | File | `/editbrand.php` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/etc/lighttpd.d/ca.pem` | High
-22 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/api/plugin/uninstall` | High
+3 | File | `/api/plugin/upload` | High
+4 | File | `/artist-display.php` | High
+5 | File | `/assets/partials/_handleLogin.php` | High
+6 | File | `/cgi-bin/ExportAllSettings.sh` | High
+7 | File | `/chart` | Low
+8 | File | `/context.json` | High
+9 | File | `/ecrire` | Low
+10 | File | `/editbrand.php` | High
+11 | File | `/edituser.php` | High
+12 | File | `/login.php` | Medium
+13 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+14 | File | `/movie.php` | Medium
+15 | File | `/pages/activity/activity.php` | High
+16 | File | `/pages/permit/permit.php` | High
+17 | File | `/pay-with-paypal/{id}` | High
+18 | File | `/php_action/createUser.php` | High
+19 | File | `/req_password_user.php` | High
+20 | File | `/show_news.php` | High
+21 | File | `/sistema/flash/reboot` | High
+22 | File | `/smarthome/devicecontrol` | High
+23 | File | `/src/video/x11/SDL_x11yuv.c` | High
+24 | File | `/wordpress-gallery-transformation/gallery.php` | High
+25 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -30,17 +30,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.255.93.228](https://vuldb.com/?ip.5.255.93.228) | - | - | High
-2 | [62.12.39.117](https://vuldb.com/?ip.62.12.39.117) | - | Waterbug | High
-3 | [62.68.73.57](https://vuldb.com/?ip.62.68.73.57) | - | Waterbug | High
-4 | [62.212.226.118](https://vuldb.com/?ip.62.212.226.118) | - | Waterbug | High
-5 | [66.178.107.140](https://vuldb.com/?ip.66.178.107.140) | - | Whitebear | High
-6 | [70.32.39.219](https://vuldb.com/?ip.70.32.39.219) | am-smartsales.com | - | High
-7 | [72.232.222.58](https://vuldb.com/?ip.72.232.222.58) | HOST.MJSHOSTING.COM | Waterbug | High
-8 | [77.232.99.77](https://vuldb.com/?ip.77.232.99.77) | - | - | High
-9 | [80.74.145.80](https://vuldb.com/?ip.80.74.145.80) | volta.ch-meta.net | - | High
-10 | ... | ... | ... | ...
+2 | [45.153.241.162](https://vuldb.com/?ip.45.153.241.162) | - | - | High
+3 | [62.12.39.117](https://vuldb.com/?ip.62.12.39.117) | - | Waterbug | High
+4 | [62.68.73.57](https://vuldb.com/?ip.62.68.73.57) | - | Waterbug | High
+5 | [62.212.226.118](https://vuldb.com/?ip.62.212.226.118) | - | Waterbug | High
+6 | [66.178.107.140](https://vuldb.com/?ip.66.178.107.140) | - | Whitebear | High
+7 | [70.32.39.219](https://vuldb.com/?ip.70.32.39.219) | am-smartsales.com | - | High
+8 | [72.232.222.58](https://vuldb.com/?ip.72.232.222.58) | HOST.MJSHOSTING.COM | Waterbug | High
+9 | [77.232.99.77](https://vuldb.com/?ip.77.232.99.77) | - | - | High
+10 | [79.110.52.218](https://vuldb.com/?ip.79.110.52.218) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 36 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,9 +53,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,20 +74,23 @@ ID | Type | Indicator | Confidence
 8 | File | `/jsonrpc` | Medium
 9 | File | `/product.php` | Medium
 10 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-11 | File | `/registerCpe` | Medium
-12 | File | `/rest/collectors/1.0/template/custom` | High
-13 | File | `/system?action=ServiceAdmin` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/Uploads` | Medium
-16 | File | `/User/saveUser` | High
-17 | ... | ... | ...
+11 | File | `/redpass.cgi` | Medium
+12 | File | `/registerCpe` | Medium
+13 | File | `/rest/collectors/1.0/template/custom` | High
+14 | File | `/system?action=ServiceAdmin` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/Uploads` | Medium
+17 | File | `/User/saveUser` | High
+18 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+19 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/252/turla-apt-iocs/
 * https://lab52.io/blog/looking-for-penquins-in-the-wild/
 * https://securelist.com/introducing-whitebear/81638/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/waterbug-espionage-governments

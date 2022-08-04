@@ -45,12 +45,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,49 +61,51 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
 2 | File | `/.ssh/authorized_keys2` | High
-3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-4 | File | `/admin.php` | Medium
-5 | File | `/anony/mjpg.cgi` | High
-6 | File | `/auth` | Low
-7 | File | `/dashboard/view-chair-list.php` | High
-8 | File | `/etc/hosts` | Medium
-9 | File | `/filemanager/upload.php` | High
-10 | File | `/GponForm/device_Form?script/` | High
-11 | File | `/GponForm/fsetup_Form` | High
-12 | File | `/GponForm/usb_restore_Form?script/` | High
-13 | File | `/html/device-id` | High
-14 | File | `/includes/decorators/global-translations.jsp` | High
-15 | File | `/index.php` | Medium
-16 | File | `/product_list.php` | High
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/see_more_details.php` | High
-19 | File | `/server-status` | High
-20 | File | `/setSystemAdmin` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | File | `actbar3.ocx` | Medium
-25 | File | `adclick.php` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/executar_login.php` | High
-29 | File | `admin/mcart_xls_import.php` | High
-30 | File | `admin/setting.php` | High
-31 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-32 | File | `admin/users/add` | High
-33 | File | `administrator/components/com_media/helpers/media.php` | High
-34 | File | `admin_ranks.php` | High
-35 | File | `ajax-actions.php` | High
-36 | File | `ajaxRequest/methodCall.do` | High
-37 | File | `alipay/alipayapi.php` | High
-38 | File | `apcupsd.exe` | Medium
-39 | File | `apply.cgi` | Medium
-40 | File | `auth.inc.php` | Medium
-41 | File | `auth.py` | Low
-42 | File | `auth2-gss.c` | Medium
-43 | ... | ... | ...
+3 | File | `/about.php` | Medium
+4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+5 | File | `/admin.php` | Medium
+6 | File | `/admin/` | Low
+7 | File | `/admin/photo.php` | High
+8 | File | `/anony/mjpg.cgi` | High
+9 | File | `/auth` | Low
+10 | File | `/catcompany.php` | High
+11 | File | `/dashboard/view-chair-list.php` | High
+12 | File | `/etc/hosts` | Medium
+13 | File | `/filemanager/upload.php` | High
+14 | File | `/GponForm/device_Form?script/` | High
+15 | File | `/GponForm/fsetup_Form` | High
+16 | File | `/GponForm/usb_restore_Form?script/` | High
+17 | File | `/html/device-id` | High
+18 | File | `/includes/decorators/global-translations.jsp` | High
+19 | File | `/index.php` | Medium
+20 | File | `/product_list.php` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/see_more_details.php` | High
+23 | File | `/server-status` | High
+24 | File | `/setSystemAdmin` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+27 | File | `/WEB-INF/web.xml` | High
+28 | File | `a2dp_aac_decoder.cc` | High
+29 | File | `actbar3.ocx` | Medium
+30 | File | `adclick.php` | Medium
+31 | File | `addentry.php` | Medium
+32 | File | `admin.php` | Medium
+33 | File | `admin/executar_login.php` | High
+34 | File | `admin/mcart_xls_import.php` | High
+35 | File | `admin/setting.php` | High
+36 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+37 | File | `admin/users/add` | High
+38 | File | `administrator/components/com_media/helpers/media.php` | High
+39 | File | `admin_ranks.php` | High
+40 | File | `ajax-actions.php` | High
+41 | File | `ajaxRequest/methodCall.do` | High
+42 | File | `alipay/alipayapi.php` | High
+43 | File | `apcupsd.exe` | Medium
+44 | File | `apply.cgi` | Medium
+45 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

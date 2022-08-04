@@ -84,27 +84,27 @@ ID | Type | Indicator | Confidence
 16 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
 17 | File | `/public/plugins/` | High
 18 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-19 | File | `/rom-0` | Low
-20 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/v2/devices/add` | High
-23 | File | `/var/ipfire/backup/bin/backup.pl` | High
-24 | File | `/wp-json/wc/v3/webhooks` | High
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `accounts/view_details.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `AddEvent.php` | Medium
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin.php?m=backup&c=backup&a=doback` | High
-32 | File | `admin.php?mod=product&act=state` | High
-33 | File | `admin/admin_process.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | File | `admin/cp-functions/event-add.php` | High
-36 | File | `admin/index.php` | High
+19 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/v2/devices/add` | High
+22 | File | `/var/ipfire/backup/bin/backup.pl` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `accounts/view_details.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `AddEvent.php` | Medium
+28 | File | `admin.jcomments.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin.php?m=backup&c=backup&a=doback` | High
+31 | File | `admin.php?mod=product&act=state` | High
+32 | File | `admin/admin_process.php` | High
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/cp-functions/event-add.php` | High
+35 | File | `admin/index.php` | High
+36 | File | `admin/modules/tools/ip_history_logs.php` | High
 37 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

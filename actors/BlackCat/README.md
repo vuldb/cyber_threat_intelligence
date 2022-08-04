@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackCat:
 
 * [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,35 +61,32 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/new-content` | High
 10 | File | `/admin/posts.php` | High
 11 | File | `/admin/posts.php&action=delete` | High
-12 | File | `/admin/run_ajax.php` | High
-13 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-14 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-15 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-16 | File | `/ajax/set_sys_time/` | High
-17 | File | `/api/programs/orgUnits?programs` | High
-18 | File | `/application/controllers/Users.php` | High
-19 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-20 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-21 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-22 | File | `/blog/blog.php` | High
-23 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-24 | File | `/cgi-bin/kerbynet` | High
-25 | File | `/cgi/get_param.cgi` | High
-26 | File | `/checklogin.jsp` | High
-27 | File | `/ci_hms/search` | High
-28 | File | `/classes/Master.php?f=delete_schedule` | High
-29 | File | `/cms/classes/Master.php?f=delete_service` | High
-30 | File | `/company/account/safety/trade` | High
-31 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-32 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-33 | File | `/dashboard/reports/logs/view` | High
-34 | File | `/dashboard/snapshot/*?orgId=0` | High
-35 | File | `/etc/ajenti/config.yml` | High
-36 | File | `/fuel/sitevariables/delete/4` | High
-37 | File | `/goform/AdvSetLanIp` | High
-38 | ... | ... | ...
+12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+13 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
+14 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+15 | File | `/ajax/set_sys_time/` | High
+16 | File | `/api/programs/orgUnits?programs` | High
+17 | File | `/application/controllers/Users.php` | High
+18 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+19 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+20 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+21 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+22 | File | `/cgi/get_param.cgi` | High
+23 | File | `/checklogin.jsp` | High
+24 | File | `/ci_hms/search` | High
+25 | File | `/ci_spms/admin/search/searching/` | High
+26 | File | `/classes/Master.php?f=delete_schedule` | High
+27 | File | `/cms/classes/Master.php?f=delete_service` | High
+28 | File | `/company/account/safety/trade` | High
+29 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+30 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+31 | File | `/dashboard/reports/logs/view` | High
+32 | File | `/dashboard/snapshot/*?orgId=0` | High
+33 | File | `/dotrace.asp` | Medium
+34 | File | `/fuel/sitevariables/delete/4` | High
+35 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -45,7 +45,7 @@ ID | IP address | Hostname | Actor | Confidence
 12 | [45.207.50.104](https://vuldb.com/?ip.45.207.50.104) | - | [PlugX](https://vuldb.com/?actor.plugx) | High
 13 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,27 +99,28 @@ ID | Type | Indicator | Confidence
 30 | File | `/view/friend_profile.php` | High
 31 | File | `/WEB-INF/web.xml` | High
 32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `actions/authenticate.php` | High
-34 | File | `actions/doreport.php` | High
-35 | File | `addlyricsform.php` | High
-36 | File | `addmerchpicform.php` | High
-37 | File | `addresses_export.php` | High
-38 | File | `adherents/cartes/carte.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?m=backup&c=backup&a=doback` | High
-41 | File | `admin/admin.php` | High
-42 | File | `admin/admin/fileUploadAction_fileUpload.action` | High
-43 | File | `admin/AJAX_lookup_handler.php` | High
-44 | File | `admin/dashboard.php` | High
-45 | File | `admin/header.php` | High
+33 | File | `/_error` | Low
+34 | File | `actions/authenticate.php` | High
+35 | File | `actions/doreport.php` | High
+36 | File | `addlyricsform.php` | High
+37 | File | `addmerchpicform.php` | High
+38 | File | `addresses_export.php` | High
+39 | File | `adherents/cartes/carte.php` | High
+40 | File | `admin.php` | Medium
+41 | File | `admin.php?m=backup&c=backup&a=doback` | High
+42 | File | `admin/admin.php` | High
+43 | File | `admin/admin/fileUploadAction_fileUpload.action` | High
+44 | File | `admin/AJAX_lookup_handler.php` | High
+45 | File | `admin/dashboard.php` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://1275.ru/ioc/146/plugx-malware-iocs/
 * https://blogs.mcafee.jp/plugx-a-talisman-to-behold
 * https://twitter.com/0xrb/status/1469184108030955529
 * https://twitter.com/0xrb/status/1470678183301181441

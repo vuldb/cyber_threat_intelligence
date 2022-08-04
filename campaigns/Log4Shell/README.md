@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,38 +113,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
 2 | File | `.python-version` | High
-3 | File | `/admin/dl_sendmail.php` | High
+3 | File | `/admin` | Low
 4 | File | `/admin/googleads.php` | High
-5 | File | `/admin/showbad.php` | High
-6 | File | `/admin/ztliuyan_sendmail.php` | High
-7 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
-8 | File | `/ajax/config_rollback/` | High
-9 | File | `/ajax/set_sys_time/` | High
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/application/controllers/Users.php` | High
-12 | File | `/bmis/pages/resident/resident.php` | High
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/nobody` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/webproc` | High
-17 | File | `/company` | Medium
-18 | File | `/company/down_resume/total/nature` | High
-19 | File | `/dashboard/blocks/stacks/view_details/` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/dashboard/reports/logs/view` | High
-22 | File | `/dashboard/snapshot/*?orgId=0` | High
-23 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-24 | File | `/defaultui/player/modern.html` | High
-25 | File | `/dl/dl_sendmail.php` | High
-26 | File | `/editbrand.php` | High
-27 | File | `/etc/lighttpd.d/ca.pem` | High
-28 | File | `/etc/shadow` | Medium
-29 | File | `/ffos/classes/Master.php?f=save_category` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/goform/SetFirewallCfg` | High
-32 | ... | ... | ...
+5 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
+6 | File | `/ajax/config_rollback/` | High
+7 | File | `/ajax/set_sys_time/` | High
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin/ExportAllSettings.sh` | High
+10 | File | `/cgi-bin/nobody` | High
+11 | File | `/cgi-bin/touchlist_sync.cgi` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/dashboard/menu-list.php` | High
+14 | File | `/editbrand.php` | High
+15 | File | `/etc/lighttpd.d/ca.pem` | High
+16 | File | `/etc/shadow` | Medium
+17 | File | `/ffos/classes/Master.php?f=save_category` | High
+18 | File | `/goform/aspForm` | High
+19 | File | `/goform/WanParameterSetting` | High
+20 | File | `/HMS/admin.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/movie.php` | Medium
+25 | File | `/php_action/createUser.php` | High
+26 | File | `/pkg/util` | Medium
+27 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -63,7 +63,8 @@ ID | Type | Indicator | Confidence
 7 | File | `controllers/Weixin.php` | High
 8 | File | `dapur/index.php` | High
 9 | File | `Database.php` | Medium
-10 | ... | ... | ...
+10 | File | `dbutil_2_3.sys` | High
+11 | ... | ... | ...
 
 There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -45,40 +45,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.jboss-cli-history` | High
-2 | File | `/admin.php/Links/del` | High
-3 | File | `/admin.php/pic/admin/pic/hy` | High
-4 | File | `/admin.php/singer/admin/lists/zhuan` | High
-5 | File | `/admin.php/singer/admin/singer/hy` | High
-6 | File | `/admin/featured.php` | High
-7 | File | `/admin/general.cgi` | High
-8 | File | `/admin/usermanagement.php` | High
-9 | File | `/AJAX/ajaxget` | High
-10 | File | `/ajax/clear_tools_log/` | High
-11 | File | `/api/part_categories` | High
-12 | File | `/api/programs/orgUnits?programs` | High
-13 | File | `/api/students/me/courses/` | High
-14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
-15 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-16 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-17 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-18 | File | `/cgi-bin/luci/api/diagnose` | High
-19 | File | `/cgi-mod/lookup.cgi` | High
-20 | File | `/cgi/ansi` | Medium
-21 | File | `/classes/Master.php?f=delete_train` | High
-22 | File | `/cms/classes/Master.php?f=delete_designation` | High
-23 | File | `/createnewaccount` | High
-24 | File | `/dashboard/blocks/stacks/view_details/` | High
-25 | File | `/dev/urandom` | Medium
-26 | File | `/dl/dl_sendmail.php` | High
-27 | File | `/dotrace.asp` | Medium
-28 | File | `/ecrire` | Low
-29 | File | `/etc/fstab` | Medium
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/food/admin/all_users.php` | High
-32 | ... | ... | ...
+1 | File | `/admin.php/Links/del` | High
+2 | File | `/admin.php/pic/admin/pic/hy` | High
+3 | File | `/admin.php/singer/admin/lists/zhuan` | High
+4 | File | `/admin.php/singer/admin/singer/hy` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/general.cgi` | High
+7 | File | `/admin/usermanagement.php` | High
+8 | File | `/AJAX/ajaxget` | High
+9 | File | `/ajax/clear_tools_log/` | High
+10 | File | `/api/part_categories` | High
+11 | File | `/api/programs/orgUnits?programs` | High
+12 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+13 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+14 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+15 | File | `/cgi-mod/lookup.cgi` | High
+16 | File | `/cgi/ansi` | Medium
+17 | File | `/classes/Master.php?f=delete_train` | High
+18 | File | `/createnewaccount` | High
+19 | File | `/dashboard/blocks/stacks/view_details/` | High
+20 | File | `/dev/urandom` | Medium
+21 | File | `/dl/dl_sendmail.php` | High
+22 | File | `/dotrace.asp` | Medium
+23 | File | `/ecrire` | Low
+24 | File | `/etc/fstab` | Medium
+25 | File | `/etc/sudoers` | Medium
+26 | File | `/food/admin/all_users.php` | High
+27 | File | `/genericreport` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/hprms/classes/Master.php?f=delete_room_type` | High
+30 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+31 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+32 | File | `/linkedcontent/editfolder.php` | High
+33 | File | `/list` | Low
+34 | File | `/mcategory.php` | High
+35 | File | `/modules/tasks/gantt.php` | High
+36 | File | `/odfs/classes/Master.php?f=delete_team` | High
+37 | File | `/ofrs/admin/requests/take_action.php` | High
+38 | File | `/otps/classes/Master.php` | High
+39 | File | `/pms/admin/actions/view_action.php` | High
+40 | File | `/pms/admin/visits/view_visit.php` | High
+41 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

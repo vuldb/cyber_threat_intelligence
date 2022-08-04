@@ -64,34 +64,34 @@ ID | Type | Indicator | Confidence
 11 | File | `/SimpleBusTicket/index.php` | High
 12 | File | `/usr/bin/pkexec` | High
 13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `addpost_newpoll.php` | High
-15 | File | `adm-index.php` | High
-16 | File | `Admin.PHP` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/index.php` | High
-19 | File | `admin/ops/reports/ops/forum.php` | High
-20 | File | `admincp/attachment.php` | High
-21 | File | `adminedit.pl` | Medium
-22 | File | `ajax/api/hook/getHookList` | High
-23 | File | `archive/index.php` | High
-24 | File | `backend/groups/index.php` | High
-25 | File | `bbs/member_confirm.php` | High
-26 | File | `bottom.php` | Medium
-27 | File | `breadcrumbs_create.php` | High
-28 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-29 | File | `cds-fpdf.php` | Medium
-30 | File | `controllers/member/Api.php` | High
-31 | File | `cp.php` | Low
-32 | File | `dashboard_teacher.php` | High
-33 | File | `demo.php` | Medium
-34 | File | `dev.c` | Low
-35 | File | `email.php` | Medium
-36 | File | `faq.php` | Low
-37 | File | `follow.php` | Medium
-38 | File | `footer.inc.php` | High
+14 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+15 | File | `addpost_newpoll.php` | High
+16 | File | `adm-index.php` | High
+17 | File | `Admin.PHP` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/index.php` | High
+20 | File | `admin/ops/reports/ops/forum.php` | High
+21 | File | `admincp/attachment.php` | High
+22 | File | `adminedit.pl` | Medium
+23 | File | `ajax/api/hook/getHookList` | High
+24 | File | `archive/index.php` | High
+25 | File | `backend/groups/index.php` | High
+26 | File | `bbs/member_confirm.php` | High
+27 | File | `bottom.php` | Medium
+28 | File | `breadcrumbs_create.php` | High
+29 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+30 | File | `cds-fpdf.php` | Medium
+31 | File | `controllers/member/Api.php` | High
+32 | File | `cp.php` | Low
+33 | File | `dashboard_teacher.php` | High
+34 | File | `demo.php` | Medium
+35 | File | `dev.c` | Low
+36 | File | `email.php` | Medium
+37 | File | `faq.php` | Low
+38 | File | `follow.php` | Medium
 39 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

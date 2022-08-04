@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 33 more country items available. Please use our online service to access the data.
+There are 34 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,12 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,47 +64,44 @@ ID | Type | Indicator | Confidence
 3 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
 4 | File | `/about.php` | Medium
 5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/contenttemp` | High
-7 | File | `/admin/modules/system/custom_field.php` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/bin/boa` | Medium
-10 | File | `/category_view.php` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-mod/lookup.cgi` | High
-13 | File | `/cgi?1&5` | Medium
-14 | File | `/common/info.cgi` | High
-15 | File | `/config/getuser` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-18 | File | `/iissamples` | Medium
-19 | File | `/interface/main/backup.php` | High
-20 | File | `/new` | Low
-21 | File | `/platform.cgi` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/requests.php` | High
-24 | File | `/sbin/gs_config` | High
-25 | File | `/scripts/cpan_config` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/usr/sbin/nagios` | High
-31 | File | `/usr/sbin/suexec` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/webman/info.cgi` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-json/oembed/1.0/embed?url` | High
-36 | File | `/wp-json/wc/v3/webhooks` | High
-37 | File | `/_internal` | Medium
-38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-39 | File | `adclick.php` | Medium
-40 | File | `admin.php?page=languages` | High
-41 | File | `admin/admin_users.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/index.php` | High
-44 | ... | ... | ...
+6 | File | `/admin/` | Low
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/contenttemp` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/modules/system/custom_field.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/renewaldue.php` | High
+16 | File | `/admin/usermanagement.php` | High
+17 | File | `/api/addusers` | High
+18 | File | `/api/crontab` | Medium
+19 | File | `/category_view.php` | High
+20 | File | `/cgi-bin/wapopen` | High
+21 | File | `/cgi-mod/lookup.cgi` | High
+22 | File | `/common/info.cgi` | High
+23 | File | `/designer/add/layout` | High
+24 | File | `/filemanager/upload/drop` | High
+25 | File | `/getImage` | Medium
+26 | File | `/htmldoc/htmldoc/html.cxx` | High
+27 | File | `/interface/main/backup.php` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/login.php` | Medium
+30 | File | `/mcategory.php` | High
+31 | File | `/new` | Low
+32 | File | `/out.php` | Medium
+33 | File | `/platform.cgi` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/public/plugins/` | High
+36 | File | `/requests.php` | High
+37 | File | `/sbin/gs_config` | High
+38 | File | `/scripts/cpan_config` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/spip.php` | Medium
+41 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

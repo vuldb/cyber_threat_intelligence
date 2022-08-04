@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,20 +74,20 @@ ID | Type | Indicator | Confidence
 14 | File | `/fuel/index.php/fuel/logs/items` | High
 15 | File | `/fuel/sitevariables/delete/4` | High
 16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/include/chart_generator.php` | High
-18 | File | `/index/jobfairol/show/` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-22 | File | `/plugin/LiveChat/getChat.json.php` | High
-23 | File | `/proc/<PID>/mem` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+17 | File | `/index/jobfairol/show/` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+21 | File | `/plugin/LiveChat/getChat.json.php` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/zarafa-vacation-*` | High
 28 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

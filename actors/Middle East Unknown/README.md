@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East Unknown:
 
 * [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * [PT](https://vuldb.com/?country.pt)
-* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,8 +47,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -75,7 +75,7 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/scheprofile.cgi` | High
 12 | File | `/admin/vca/license/license_tok.cgi` | High
 13 | File | `/AJAX/ajaxget` | High
-14 | File | `/base/SysEveMenuAuthPointMapper.xml` | High
+14 | File | `/api/plugin/uninstall` | High
 15 | File | `/bcms/admin/courts/manage_court.php` | High
 16 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
 17 | File | `/car-rental-management-system/admin/manage_booking.php` | High
@@ -84,20 +84,26 @@ ID | Type | Indicator | Confidence
 20 | File | `/cgi-bin/readfile.tcl` | High
 21 | File | `/cgi-bin/touchlist_sync.cgi` | High
 22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/cms/classes/Master.php?f=delete_client` | High
-24 | File | `/config` | Low
-25 | File | `/defaultui/player/modern.html` | High
-26 | File | `/ffos/admin/categories/manage_category.php` | High
-27 | File | `/ffos/admin/menus/view_menu.php` | High
-28 | File | `/gaia-job-admin/user/add` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/setNetworkLan` | High
-31 | File | `/goform/SetSysTimeCfg` | High
-32 | File | `/html/Solar_Ftp.php` | High
-33 | File | `/isms/admin/stocks/view_stock.php` | High
-34 | ... | ... | ...
+23 | File | `/defaultui/player/modern.html` | High
+24 | File | `/etc/quagga` | Medium
+25 | File | `/ffos/admin/categories/manage_category.php` | High
+26 | File | `/ffos/admin/menus/view_menu.php` | High
+27 | File | `/gaia-job-admin/user/add` | High
+28 | File | `/goform/aspForm` | High
+29 | File | `/includes/db_connect.php` | High
+30 | File | `/isms/admin/stocks/view_stock.php` | High
+31 | File | `/lists/admin/` | High
+32 | File | `/login.php` | Medium
+33 | File | `/orrs/admin/trains/manage_train.php` | High
+34 | File | `/otps/classes/Master.php?f=delete_team` | High
+35 | File | `/pages/permit/permit.php` | High
+36 | File | `/pdfalto/src/pdfalto.cc` | High
+37 | File | `/pms/admin/crimes/manage_crime.php` | High
+38 | File | `/psrs/admin/?page=products/manage_product` | High
+39 | File | `/roomtype-details.php` | High
+40 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

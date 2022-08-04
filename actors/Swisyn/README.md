@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/fantasticblog/single.php` | High
 14 | File | `/goform/aspForm` | High
 15 | File | `/jpg/image.jpg` | High
-16 | ... | ... | ...
+16 | File | `/Main_AdmStatus_Content.asp` | High
+17 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

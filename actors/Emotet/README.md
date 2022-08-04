@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -446,11 +446,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -458,17 +458,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addNotifyServlet` | High
-2 | File | `/edituser.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/index.php/?p=report` | High
-5 | File | `/index.php?r=site%2Fsignup` | High
-6 | File | `/nav_bar_action.php` | High
-7 | File | `/pages/activity/activity.php` | High
-8 | File | `/pages/permit/permit.php` | High
-9 | ... | ... | ...
+1 | File | `/admin/operations/packages.php` | High
+2 | File | `/catcompany.php` | High
+3 | File | `/ECT_Provider/` | High
+4 | File | `/edituser.php` | High
+5 | File | `/IISADMPWD` | Medium
+6 | File | `/modules/projects/vw_files.php` | High
+7 | File | `/pages/permit/permit.php` | High
+8 | File | `/php_action/createUser.php` | High
+9 | File | `/products/view_product.php` | High
+10 | File | `/sistema/flash/reboot` | High
+11 | File | `/src/video/x11/SDL_x11yuv.c` | High
+12 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+13 | File | `adclick.php` | Medium
+14 | File | `admin/conf_users_edit.php` | High
+15 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

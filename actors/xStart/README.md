@@ -92,18 +92,17 @@ ID | Type | Indicator | Confidence
 32 | File | `aclient.exe` | Medium
 33 | File | `adclick.php` | Medium
 34 | File | `addentry.php` | Medium
-35 | File | `add_comment.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin.php?c=update&f=unzip` | High
-38 | File | `admin/ajax/op_kandidat.php` | High
-39 | File | `admin/conf_users_edit.php` | High
-40 | File | `admin/domain-fields/` | High
-41 | File | `admin/index.asp` | High
-42 | File | `admin/member_deal.php` | High
-43 | File | `admin/news.php` | High
-44 | File | `AdminLoginInterceptor.java` | High
-45 | File | `admins.js` | Medium
-46 | ... | ... | ...
+35 | File | `admin.php` | Medium
+36 | File | `admin.php?c=update&f=unzip` | High
+37 | File | `admin/ajax/op_kandidat.php` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `admin/domain-fields/` | High
+40 | File | `admin/index.asp` | High
+41 | File | `admin/member_deal.php` | High
+42 | File | `admin/news.php` | High
+43 | File | `AdminLoginInterceptor.java` | High
+44 | File | `admins.js` | Medium
+45 | ... | ... | ...
 
 There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

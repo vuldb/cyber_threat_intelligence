@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoolWebSearch:
 
+* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -154,12 +154,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -167,39 +169,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/cgi-bin/luci/api/auth` | High
-3 | File | `/cgi-bin/luci/api/diagnose` | High
-4 | File | `/CMD_ACCOUNT_ADMIN` | High
-5 | File | `/context/%2e/WEB-INF/web.xml` | High
-6 | File | `/core/admin/categories.php` | High
-7 | File | `/etc/groups` | Medium
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/filemanager/php/connector.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/MTFWU` | Low
-14 | File | `/new` | Low
-15 | File | `/php/passport/index.php` | High
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/server-info` | Medium
-21 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/updown/upload.cgi` | High
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `4.2.0.CP09` | Medium
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `AccountManagerService.java` | High
-29 | File | `actions/CompanyDetailsSave.php` | High
-30 | File | `ActivityManagerService.java` | High
-31 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/Ap4RtpAtom.cpp` | High
+3 | File | `/app/options.py` | High
+4 | File | `/bcms/admin/?page=user/list` | High
+5 | File | `/bsms/?page=manage_account` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/luci/api/diagnose` | High
+9 | File | `/ci_hms/massage_room/edit/1` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/config/image_sign` | High
+13 | File | `/etc/groups` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/ghost/preview` | High
+19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+20 | File | `/index/jobfairol/show/` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/php/passport/index.php` | High
+26 | File | `/proc/<PID>/mem` | High
+27 | File | `/servlet/AdapterHTTP` | High
+28 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

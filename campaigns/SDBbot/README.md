@@ -57,18 +57,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/webproc` | High
-2 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-3 | File | `/modules/tasks/summary.inc.php` | High
-4 | File | `/rest/api/2/user/picker` | High
-5 | File | `/secure/QueryComponent!Default.jspa` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-8 | File | `account_activations/edit` | High
-9 | File | `AddResolution.jspa` | High
+1 | File | `/api/plugin/uninstall` | High
+2 | File | `/cgi-bin/webproc` | High
+3 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+4 | File | `/modules/tasks/summary.inc.php` | High
+5 | File | `/rest/api/2/user/picker` | High
+6 | File | `/secure/QueryComponent!Default.jspa` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+9 | File | `account_activations/edit` | High
 10 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

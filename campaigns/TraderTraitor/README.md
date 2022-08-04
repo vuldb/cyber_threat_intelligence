@@ -22,6 +22,7 @@ These _actors_ are associated with TraderTraitor or other actors linked to the c
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [TraderTraitor](https://vuldb.com/?actor.tradertraitor) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [38.132.124.161](https://vuldb.com/?ip.38.132.124.161) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [46.16.62.238](https://vuldb.com/?ip.46.16.62.238) | fnadh-35.srv.cat | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-3 | [62.84.240.140](https://vuldb.com/?ip.62.84.240.140) | srv17340.flexwebhosting.nl | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+1 | [38.132.124.161](https://vuldb.com/?ip.38.132.124.161) | - | [TraderTraitor](https://vuldb.com/?actor.tradertraitor) | High
+2 | [45.14.227.58](https://vuldb.com/?ip.45.14.227.58) | static.pwxs.net | [TraderTraitor](https://vuldb.com/?actor.tradertraitor) | High
+3 | [46.16.62.238](https://vuldb.com/?ip.46.16.62.238) | fnadh-35.srv.cat | [TraderTraitor](https://vuldb.com/?actor.tradertraitor) | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,12 +74,13 @@ ID | Type | Indicator | Confidence
 15 | File | `adclick.php` | Medium
 16 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://1275.ru/ioc/126/tradertraitor-iocs/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-108a
 
 ## Literature

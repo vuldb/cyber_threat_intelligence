@@ -16576,13 +16576,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -16590,33 +16590,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.encfs6.xml` | Medium
-2 | File | `/admin/curltest.cgi` | High
-3 | File | `/admin/inquiries/view_details.php` | High
-4 | File | `/admin/vca/bia/addacph.cgi` | High
-5 | File | `/admin/vca/license/license_tok.cgi` | High
-6 | File | `/api/storage/upload/PostImage` | High
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-9 | File | `/cgi-bin/nightled.cgi` | High
-10 | File | `/cgi-bin/touchlist_sync.cgi` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/ci_ssms/index.php/orders/create` | High
-14 | File | `/donor-wall` | Medium
-15 | File | `/doping.asp` | Medium
-16 | File | `/dotrace.asp` | Medium
-17 | File | `/editbrand.php` | High
-18 | File | `/etc_ro/lighttpd/www/cgi-bin/ExportAllSettings.sh` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/HMS/admin.php` | High
-21 | File | `/htmldoc/htmldoc/html.cxx` | High
-22 | File | `/ihomers/app` | Medium
-23 | File | `/index.php` | Medium
-24 | File | `/language/lang` | High
-25 | ... | ... | ...
+1 | File | `/api/plugin/uninstall` | High
+2 | File | `/api/plugin/upload` | High
+3 | File | `/auth/callback` | High
+4 | File | `/chart` | Low
+5 | File | `/debug/pprof` | Medium
+6 | File | `/Items/*/RemoteImages/Download` | High
+7 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+8 | File | `/ossn/administrator/com_installer` | High
+9 | File | `/ossn/home` | Medium
+10 | File | `/secure/ViewCollectors` | High
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `aaa_base` | Medium
+13 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

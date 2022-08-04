@@ -11,6 +11,7 @@ These _actors_ are associated with GoldBackdoor or other actors linked to the ca
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [DPRK](https://vuldb.com/?actor.dprk) | High
+2 | [GoldBackdoor](https://vuldb.com/?actor.goldbackdoor) | High
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +19,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [142.93.201.77](https://vuldb.com/?ip.142.93.201.77) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
+1 | [13.107.42.12](https://vuldb.com/?ip.13.107.42.12) | 1drv.ms | [GoldBackdoor](https://vuldb.com/?actor.goldbackdoor) | High
+2 | [131.107.255.255](https://vuldb.com/?ip.131.107.255.255) | dns.msftncsi.com | [GoldBackdoor](https://vuldb.com/?actor.goldbackdoor) | High
+3 | [142.93.201.77](https://vuldb.com/?ip.142.93.201.77) | - | [GoldBackdoor](https://vuldb.com/?actor.goldbackdoor) | High
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://1275.ru/ioc/144/goldbackdoor-backdoor-iocs/
 * https://stairwell.com/wp-content/uploads/2022/04/Stairwell-threat-report-The-ink-stained-trail-of-GOLDBACKDOOR.pdf
 
 ## Literature

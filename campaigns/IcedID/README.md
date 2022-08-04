@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with IcedID:
-
-* [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 20 more country items available. Please use our online service to access the data.
-
 ## Actors
 
 These _actors_ are associated with IcedID or other actors linked to the campaign.
@@ -23,6 +12,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [IcedID](https://vuldb.com/?actor.icedid) | High
 2 | [UAC-0098](https://vuldb.com/?actor.uac-0098) | High
+3 | [TA551](https://vuldb.com/?actor.ta551) | High
 
 ## IOC - Indicator of Compromise
 
@@ -45,85 +35,14 @@ ID | IP address | Hostname | Actor | Confidence
 13 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 14 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
 15 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-16 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-17 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-18 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | [IcedID](https://vuldb.com/?actor.icedid) | High
-19 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-20 | ... | ... | ... | ...
+16 | [46.21.153.211](https://vuldb.com/?ip.46.21.153.211) | 211.153.21.46.static.swiftway.net | [TA551](https://vuldb.com/?actor.ta551) | High
+17 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+18 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+19 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | [IcedID](https://vuldb.com/?actor.icedid) | High
+20 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+21 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within IcedID. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
-
-There are 21 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during IcedID. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/admin-document/@@share` | High
-3 | File | `/admin/index.php` | High
-4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/anony/mjpg.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/cgi-bin/editBookmark` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/etc/shadow` | Medium
-10 | File | `/EXCU_SHELL` | Medium
-11 | File | `/export` | Low
-12 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-13 | File | `/goform/addressNat` | High
-14 | File | `/iisadmpwd` | Medium
-15 | File | `/include/menu_v.inc.php` | High
-16 | File | `/lms/admin.php` | High
-17 | File | `/mc` | Low
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/my_photo_gallery/image.php` | High
-20 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-21 | File | `/out.php` | Medium
-22 | File | `/proc/*/cmdline"` | High
-23 | File | `/proc/pid/syscall` | High
-24 | File | `/reps/classes/Users.php?f=delete_agent` | High
-25 | File | `/rest/review-coverage-chart/1.0/data/<repository_name>/.json` | High
-26 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/pkexec` | High
-29 | File | `/var/log/pcp/configs.sh` | High
-30 | File | `/webconsole/APIController` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/WWW//app/admin/controller/admincontroller.php` | High
-33 | File | `a-b-membres.php` | High
-34 | File | `action.php` | Medium
-35 | File | `admin-search.php` | High
-36 | File | `admin.jcomments.php` | High
-37 | File | `admin/adminsignin.html` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/infoclass_update.php` | High
-40 | File | `admin/plugin.php` | High
-41 | File | `admin/versions.html` | High
-42 | File | `administrator/index.php?option=com_pago&view=comments` | High
-43 | File | `Adminlog.asp` | Medium
-44 | File | `admin_iplog.php` | High
-45 | File | `ajax.php` | Medium
-46 | File | `ajax_admin_apis.php` | High
-47 | File | `ajax_php_pecl.php` | High
-48 | ... | ... | ...
-
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -131,6 +50,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
 * https://cert.gov.ua/article/39609
+* https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/

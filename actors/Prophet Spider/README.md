@@ -16,6 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PT](https://vuldb.com/?country.pt)
+* [TR](https://vuldb.com/?country.tr)
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,27 +60,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin` | Low
 2 | File | `/api/plugin/uninstall` | High
-3 | File | `/assets/partials/_handleLogin.php` | High
-4 | File | `/cgi-bin/ExportAllSettings.sh` | High
-5 | File | `/context.json` | High
-6 | File | `/ecrire` | Low
-7 | File | `/edituser.php` | High
-8 | File | `/login.php` | Medium
-9 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-10 | File | `/pages/activity/activity.php` | High
-11 | File | `/pages/permit/permit.php` | High
-12 | File | `/php_action/createUser.php` | High
-13 | File | `/req_password_user.php` | High
-14 | File | `/show_news.php` | High
-15 | File | `/sistema/flash/reboot` | High
-16 | File | `/smarthome/devicecontrol` | High
-17 | File | `/src/video/x11/SDL_x11yuv.c` | High
-18 | File | `/wordpress-gallery-transformation/gallery.php` | High
-19 | File | `adm.cgi` | Low
-20 | File | `admin.php` | Medium
-21 | ... | ... | ...
+3 | File | `/artist-display.php` | High
+4 | File | `/assets/partials/_handleLogin.php` | High
+5 | File | `/cgi-bin/ExportAllSettings.sh` | High
+6 | File | `/context.json` | High
+7 | File | `/ecrire` | Low
+8 | File | `/editbrand.php` | High
+9 | File | `/edituser.php` | High
+10 | File | `/login.php` | Medium
+11 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+12 | File | `/movie.php` | Medium
+13 | File | `/pages/activity/activity.php` | High
+14 | File | `/pages/permit/permit.php` | High
+15 | File | `/php_action/createUser.php` | High
+16 | File | `/req_password_user.php` | High
+17 | File | `/show_news.php` | High
+18 | File | `/sistema/flash/reboot` | High
+19 | File | `/smarthome/devicecontrol` | High
+20 | File | `/src/video/x11/SDL_x11yuv.c` | High
+21 | File | `/wordpress-gallery-transformation/gallery.php` | High
+22 | File | `adm.cgi` | Low
+23 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
