@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Valyria:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [IT](https://vuldb.com/?country.it)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,30 +55,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `.python-version` | High
-3 | File | `/admin` | Low
-4 | File | `/api/plugin/uninstall` | High
-5 | File | `/api/sys_username_passwd.cmd` | High
-6 | File | `/assets/partials/_handleLogin.php` | High
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-9 | File | `/cgi-bin/nightled.cgi` | High
-10 | File | `/cgi-bin/nobody` | High
-11 | File | `/context.json` | High
-12 | File | `/dashboard/profile.php` | High
-13 | File | `/editbrand.php` | High
-14 | File | `/edituser.php` | High
-15 | File | `/goform/aspForm` | High
-16 | File | `/HMS/admin.php` | High
-17 | File | `/htmldoc/htmldoc/html.cxx` | High
-18 | File | `/login.php` | Medium
-19 | File | `/LogoStore/search.php` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/pages/activity/activity.php` | High
-22 | ... | ... | ...
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/admin/?page=reports/stockin` | High
+3 | File | `/admin/?page=reports/waste` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/delete.php` | High
+8 | File | `/admin/delstu.php` | High
+9 | File | `/admin/history.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/modify.php` | High
+12 | File | `/admin/modify1.php` | High
+13 | File | `/admin/products/controller.php?action=add` | High
+14 | File | `/advanced-tools/nova/bin/netwatch` | High
+15 | File | `/api/v1/user` | Medium
+16 | File | `/appConfig/userDB.json` | High
+17 | File | `/assets` | Low
+18 | File | `/bits/stl_vector.h` | High
+19 | File | `/blog/edit` | Medium
+20 | File | `/blogengine/api/posts` | High
+21 | File | `/blotter/blotter.php` | High
+22 | File | `/brand.php` | Medium
+23 | File | `/cgi-bin/DownloadFlash` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/classes/Master.php?f=delete_account` | High
+26 | File | `/classes/Master.php?f=delete_category` | High
+27 | File | `/classes/Master.php?f=delete_img` | High
+28 | File | `/classes/Master.php?f=delete_payment` | High
+29 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

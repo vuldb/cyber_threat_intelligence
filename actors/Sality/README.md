@@ -22,12 +22,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.101.0.44](https://vuldb.com/?ip.5.101.0.44) | - | - | High
-2 | [23.253.126.58](https://vuldb.com/?ip.23.253.126.58) | - | - | High
-3 | [46.30.215.173](https://vuldb.com/?ip.46.30.215.173) | webcluster2.webpod7-cph3.one.com | - | High
-4 | [49.50.8.31](https://vuldb.com/?ip.49.50.8.31) | pelatuk.n.maintenis.com | - | High
-5 | ... | ... | ... | ...
+2 | [20.53.203.50](https://vuldb.com/?ip.20.53.203.50) | - | - | High
+3 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+4 | [20.81.111.85](https://vuldb.com/?ip.20.81.111.85) | - | - | High
+5 | [20.84.181.62](https://vuldb.com/?ip.20.84.181.62) | - | - | High
+6 | [20.103.85.33](https://vuldb.com/?ip.20.103.85.33) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -63,6 +65,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/09/threat-roundup-0921-0928.html
 * https://blog.talosintelligence.com/2018/10/threat-roundup-1019-1026.html
 * https://blog.talosintelligence.com/2019/01/threat-roundup-0111-0118.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-for-july-22-29.html
 
 ## Literature
 

@@ -19,12 +19,12 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [PL](https://vuldb.com/?country.pl)
-* [SV](https://vuldb.com/?country.sv)
-* [PT](https://vuldb.com/?country.pt)
+* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,20 +33,22 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.209.76.110](https://vuldb.com/?ip.8.209.76.110) | - | Hancitor | High
-2 | [23.106.223.174](https://vuldb.com/?ip.23.106.223.174) | - | - | High
-3 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | Hancitor | High
-4 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | Hancitor | High
-5 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | Hancitor | High
-6 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | Hancitor | High
-7 | [43.133.160.144](https://vuldb.com/?ip.43.133.160.144) | - | Hancitor | High
-8 | [45.89.67.166](https://vuldb.com/?ip.45.89.67.166) | srbtv.ru | - | High
-9 | [45.95.11.151](https://vuldb.com/?ip.45.95.11.151) | vm220095.pq.hosting | - | High
-10 | [45.95.11.153](https://vuldb.com/?ip.45.95.11.153) | vm284420.pq.hosting | - | High
-11 | [45.95.11.154](https://vuldb.com/?ip.45.95.11.154) | 4ser-1640356836.4server.su | - | High
-12 | [45.95.11.155](https://vuldb.com/?ip.45.95.11.155) | slfk.lz | - | High
-13 | ... | ... | ... | ...
+2 | [23.82.141.241](https://vuldb.com/?ip.23.82.141.241) | - | Cobalt Strike | High
+3 | [23.106.223.174](https://vuldb.com/?ip.23.106.223.174) | - | - | High
+4 | [43.128.225.230](https://vuldb.com/?ip.43.128.225.230) | - | Hancitor | High
+5 | [43.128.229.136](https://vuldb.com/?ip.43.128.229.136) | - | Hancitor | High
+6 | [43.128.232.152](https://vuldb.com/?ip.43.128.232.152) | - | Hancitor | High
+7 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | Hancitor | High
+8 | [43.133.160.144](https://vuldb.com/?ip.43.133.160.144) | - | Hancitor | High
+9 | [45.8.146.139](https://vuldb.com/?ip.45.8.146.139) | vm580483.stark-industries.solutions | IcedID | High
+10 | [45.89.67.166](https://vuldb.com/?ip.45.89.67.166) | srbtv.ru | - | High
+11 | [45.95.11.151](https://vuldb.com/?ip.45.95.11.151) | vm220095.pq.hosting | - | High
+12 | [45.95.11.153](https://vuldb.com/?ip.45.95.11.153) | vm284420.pq.hosting | - | High
+13 | [45.95.11.154](https://vuldb.com/?ip.45.95.11.154) | 4ser-1640356836.4server.su | - | High
+14 | [45.95.11.155](https://vuldb.com/?ip.45.95.11.155) | slfk.lz | - | High
+15 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,52 +71,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addNotifyServlet` | High
-2 | File | `/admin/curltest.cgi` | High
-3 | File | `/admin/inc/include.php` | High
-4 | File | `/admin/vca/bia/addacph.cgi` | High
-5 | File | `/admin/vca/license/license_tok.cgi` | High
-6 | File | `/api/plugin/upload` | High
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/ExportAllSettings.sh` | High
-9 | File | `/docs/check.php` | High
-10 | File | `/doping.asp` | Medium
-11 | File | `/dotrace.asp` | Medium
-12 | File | `/edituser.php` | High
-13 | File | `/etc/init.d/sshd_service` | High
-14 | File | `/goform/aspForm` | High
-15 | File | `/HMS/admin.php` | High
-16 | File | `/ihomers/app` | Medium
-17 | File | `/includes/db_adodb.php` | High
-18 | File | `/includes/session.php` | High
-19 | File | `/index.php/?p=report` | High
-20 | File | `/index.php?r=site%2Fsignup` | High
-21 | File | `/modules/admin/vw_usr_roles.php` | High
-22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-23 | File | `/modules/projects/gantt.php` | High
-24 | File | `/modules/public/calendar.php` | High
-25 | File | `/modules/public/date_format.php` | High
-26 | File | `/nav_bar_action.php` | High
-27 | File | `/pages/activity/activity.php` | High
-28 | File | `/profiles/` | Medium
-29 | File | `/school/view/student_grade_wise.php` | High
-30 | File | `/sistema/flash/reboot` | High
-31 | File | `/web/api/v1/upload/UploadHandler.php` | High
-32 | File | `add_classification.htm` | High
-33 | File | `add_edit_user.asp` | High
-34 | File | `adm.cgi` | Low
-35 | File | `admin/admin_sil.asp` | High
-36 | File | `admin/detay_yorum.asp` | High
-37 | File | `admin/haber_ekle.asp` | High
-38 | File | `admin/include/inc_adminfoot.php` | High
-39 | File | `admin/index.php` | High
-40 | File | `admin/security/EditForm/field/Members/item/new/ItemEditForm` | High
-41 | File | `adminAvatars.php` | High
-42 | File | `adminSensored.php` | High
-43 | File | `admin_image.php` | High
-44 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/stockout` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/modify1.php` | High
+6 | File | `/admin/search.php` | High
+7 | File | `/api/v1/user` | Medium
+8 | File | `/appConfig/userDB.json` | High
+9 | File | `/bin/boa` | Medium
+10 | File | `/blog/edit` | Medium
+11 | File | `/categories/view_category.php` | High
+12 | File | `/cgi-bin/ExportAllSettings.sh` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/classes/Master.php?f=delete_img` | High
+15 | File | `/classes/Master.php?f=delete_stockin` | High
+16 | File | `/classes/Master.php?f=delete_stockout` | High
+17 | File | `/classes/Master.php?f=delete_waste` | High
+18 | File | `/client.php` | Medium
+19 | File | `/coreframe/app/attachment/admin/index.php` | High
+20 | File | `/dede/co_do.php` | High
+21 | File | `/dishes.php` | Medium
+22 | File | `/edituser.php` | High
+23 | File | `/etc/ciel.cfg` | High
+24 | File | `/etc/init0.d/S80telnetd.sh` | High
+25 | File | `/etc/passwd` | Medium
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/goform/form2userconfig.cgi` | High
+28 | File | `/goform/SetLEDCfg` | High
+29 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,6 +109,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://isc.sans.edu/diary/28092
 * https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
+* https://isc.sans.edu/diary/Monster+Libra+%28TA551Shathak%29+--%3E+IcedID+%28Bokbot%29+--%3E+Cobalt+Strike+%26+DarkVNC/28974
+* https://isc.sans.edu/diary/Monster+Libra+%28TA551Shathak%29+pushes+IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28934
 * https://isc.sans.edu/diary/rss/27738
 * https://isc.sans.edu/forums/diary/More+TA551+Shathak+Word+docs+push+IcedID+Bokbot/26674/
 * https://isc.sans.edu/forums/diary/TA551+Shathak+Word+docs+push+IcedID+Bokbot/26438/

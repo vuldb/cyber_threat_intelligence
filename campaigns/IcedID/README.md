@@ -4,6 +4,14 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with IcedID:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+
 ## Actors
 
 These _actors_ are associated with IcedID or other actors linked to the campaign.
@@ -26,23 +34,53 @@ ID | IP address | Hostname | Actor | Confidence
 4 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | [IcedID](https://vuldb.com/?actor.icedid) | High
 5 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | [IcedID](https://vuldb.com/?actor.icedid) | High
 6 | [37.120.222.100](https://vuldb.com/?ip.37.120.222.100) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-7 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | [IcedID](https://vuldb.com/?actor.icedid) | High
-8 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-9 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-10 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-11 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | [IcedID](https://vuldb.com/?actor.icedid) | High
-12 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-13 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-14 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-15 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-16 | [46.21.153.211](https://vuldb.com/?ip.46.21.153.211) | 211.153.21.46.static.swiftway.net | [TA551](https://vuldb.com/?actor.ta551) | High
-17 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
-18 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-19 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | [IcedID](https://vuldb.com/?actor.icedid) | High
-20 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | [IcedID](https://vuldb.com/?actor.icedid) | High
-21 | ... | ... | ... | ...
+7 | [45.8.146.139](https://vuldb.com/?ip.45.8.146.139) | vm580483.stark-industries.solutions | [TA551](https://vuldb.com/?actor.ta551) | High
+8 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | [IcedID](https://vuldb.com/?actor.icedid) | High
+9 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+10 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+11 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+12 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | [IcedID](https://vuldb.com/?actor.icedid) | High
+13 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+14 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+15 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+16 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+17 | [46.21.153.211](https://vuldb.com/?ip.46.21.153.211) | 211.153.21.46.static.swiftway.net | [TA551](https://vuldb.com/?actor.ta551) | High
+18 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | [IcedID](https://vuldb.com/?actor.icedid) | High
+19 | [64.227.108.27](https://vuldb.com/?ip.64.227.108.27) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+20 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+21 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | [IcedID](https://vuldb.com/?actor.icedid) | High
+22 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | [IcedID](https://vuldb.com/?actor.icedid) | High
+23 | ... | ... | ... | ...
 
-There are 79 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within IcedID. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 13 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during IcedID. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin.php?&m=Public&a=login` | High
+2 | File | `/config/getuser` | High
+3 | File | `/management/api/rcx_management/global_config_query` | High
+4 | File | `/setSystemAdmin` | High
+5 | File | `/ucms/index.php?do=list_edit` | High
+6 | ... | ... | ...
+
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -51,6 +89,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
 * https://cert.gov.ua/article/39609
 * https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
+* https://isc.sans.edu/diary/Monster+Libra+%28TA551Shathak%29+--%3E+IcedID+%28Bokbot%29+--%3E+Cobalt+Strike+%26+DarkVNC/28974
+* https://isc.sans.edu/diary/Monster+Libra+%28TA551Shathak%29+pushes+IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28934
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/

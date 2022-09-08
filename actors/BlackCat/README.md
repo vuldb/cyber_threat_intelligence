@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,40 +53,38 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php/Label/js_del` | High
 2 | File | `/admin.php/Label/page_del` | High
 3 | File | `/admin.php/user/zu_del` | High
-4 | File | `/admin.php?id=siteoptions&social=display&value=0&sid=2` | High
-5 | File | `/admin.php?id=siteoptions&social=edit&sid=2` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/admin/edit_admin_details.php?id=admin` | High
-8 | File | `/admin/inbox.php&action=read` | High
-9 | File | `/admin/new-content` | High
-10 | File | `/admin/posts.php` | High
-11 | File | `/admin/posts.php&action=delete` | High
-12 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-13 | File | `/admin/uesrs.php&&action=delete&userid=4` | High
-14 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-15 | File | `/ajax/set_sys_time/` | High
-16 | File | `/api/programs/orgUnits?programs` | High
-17 | File | `/application/controllers/Users.php` | High
-18 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-19 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-20 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-21 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-22 | File | `/cgi/get_param.cgi` | High
-23 | File | `/checklogin.jsp` | High
-24 | File | `/ci_hms/search` | High
-25 | File | `/ci_spms/admin/search/searching/` | High
-26 | File | `/classes/Master.php?f=delete_schedule` | High
-27 | File | `/cms/classes/Master.php?f=delete_service` | High
-28 | File | `/company/account/safety/trade` | High
-29 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-30 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-31 | File | `/dashboard/reports/logs/view` | High
-32 | File | `/dashboard/snapshot/*?orgId=0` | High
-33 | File | `/dotrace.asp` | Medium
-34 | File | `/fuel/sitevariables/delete/4` | High
-35 | ... | ... | ...
+4 | File | `/admin/delstu.php` | High
+5 | File | `/admin/edit_admin_details.php?id=admin` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/ajax/set_sys_time/` | High
+8 | File | `/api/programs/orgUnits?programs` | High
+9 | File | `/api/v1/user` | Medium
+10 | File | `/application/controllers/Users.php` | High
+11 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+12 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+13 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+14 | File | `/cgi/get_param.cgi` | High
+15 | File | `/checklogin.jsp` | High
+16 | File | `/ci_hms/search` | High
+17 | File | `/ci_spms/admin/search/searching/` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=delete_payment` | High
+20 | File | `/classes/Master.php?f=delete_schedule` | High
+21 | File | `/cms/classes/Master.php?f=delete_service` | High
+22 | File | `/company/account/safety/trade` | High
+23 | File | `/ctpms/admin/?page=individuals/view_individual` | High
+24 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+25 | File | `/dashboard/reports/logs/view` | High
+26 | File | `/dashboard/snapshot/*?orgId=0` | High
+27 | File | `/dotrace.asp` | Medium
+28 | File | `/etc/init0.d/S80telnetd.sh` | High
+29 | File | `/fuel/sitevariables/delete/4` | High
+30 | File | `/goform/AdvSetLanIp` | High
+31 | File | `/goform/aspForm` | High
+32 | File | `/goform/WifiExtraSet` | High
+33 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +31,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [37.228.151.133](https://vuldb.com/?ip.37.228.151.133) | - | - | High
 3 | [45.63.25.55](https://vuldb.com/?ip.45.63.25.55) | 45.63.25.55.vultr.com | - | Medium
 4 | [51.83.216.232](https://vuldb.com/?ip.51.83.216.232) | a1c.s.cuk.pl | - | High
-5 | ... | ... | ... | ...
+5 | [62.113.203.55](https://vuldb.com/?ip.62.113.203.55) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,23 +57,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/team` | High
 2 | File | `/bcms/admin/?page=user/list` | High
-3 | File | `ast/parser.go` | High
-4 | File | `authent.php4` | Medium
-5 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-6 | File | `catalog.asp` | Medium
-7 | File | `controllers/Weixin.php` | High
-8 | File | `dapur/index.php` | High
-9 | File | `Database.php` | Medium
-10 | File | `dbutil_2_3.sys` | High
+3 | File | `/upload` | Low
+4 | File | `ast/parser.go` | High
+5 | File | `authent.php4` | Medium
+6 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+7 | File | `catalog.asp` | Medium
+8 | File | `controllers/Weixin.php` | High
+9 | File | `dapur/index.php` | High
+10 | File | `data/gbconfiguration.dat` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2017/12/threat-spotlight-terdot-a-zloader-malicious-downloader
+* https://community.blueliv.com/#!/s/6141e29b82df417a0032fc18
 * https://isc.sans.edu/forums/diary/German+malspam+pushes+ZLoader+malware/25996/
 * https://isc.sans.edu/forums/diary/Job+applicationthemed+malspam+pushes+ZLoader/26222/
 * https://isc.sans.edu/forums/diary/Polish+malspam+pushes+ZLoader+malware/26196/

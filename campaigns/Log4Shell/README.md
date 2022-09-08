@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [LU](https://vuldb.com/?country.lu)
+* [CH](https://vuldb.com/?country.ch)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,14 +96,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,35 +112,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.forward` | Medium
-2 | File | `.python-version` | High
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/addQuestion.php` | High
 3 | File | `/admin` | Low
-4 | File | `/admin/googleads.php` | High
-5 | File | `/AgilePointServer/Extension/FetchUsingEncodedData` | High
-6 | File | `/ajax/config_rollback/` | High
-7 | File | `/ajax/set_sys_time/` | High
-8 | File | `/bmis/pages/resident/resident.php` | High
-9 | File | `/cgi-bin/ExportAllSettings.sh` | High
-10 | File | `/cgi-bin/nobody` | High
-11 | File | `/cgi-bin/touchlist_sync.cgi` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/dashboard/menu-list.php` | High
-14 | File | `/editbrand.php` | High
-15 | File | `/etc/lighttpd.d/ca.pem` | High
-16 | File | `/etc/shadow` | Medium
-17 | File | `/ffos/classes/Master.php?f=save_category` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/goform/WanParameterSetting` | High
-20 | File | `/HMS/admin.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/movie.php` | Medium
-25 | File | `/php_action/createUser.php` | High
-26 | File | `/pkg/util` | Medium
-27 | ... | ... | ...
+4 | File | `/admin/?page=reports/stockin` | High
+5 | File | `/admin/list_key.html` | High
+6 | File | `/admin/products/controller.php?action=add` | High
+7 | File | `/admin/students/view_student.php` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/api/v1/user` | Medium
+10 | File | `/appConfig/userDB.json` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/assets` | Low
+13 | File | `/bits/stl_vector.h` | High
+14 | File | `/blog/edit` | Medium
+15 | File | `/blotter/blotter.php` | High
+16 | File | `/cgi-bin/DownloadFlash` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/claire_blake` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Master.php?f=delete_payment` | High
+21 | File | `/classes/Master.php?f=delete_waste` | High
+22 | File | `/classes/Users.php?f=save_client` | High
+23 | File | `/client.php` | Medium
+24 | File | `/controller/OnlinePreviewController.java` | High
+25 | File | `/dashboard/add-service.php` | High
+26 | File | `/edituser.php` | High
+27 | File | `/etc/init0.d/S80telnetd.sh` | High
+28 | File | `/etc/shadow.sample` | High
+29 | File | `/fw.login.php` | High
+30 | File | `/goform/addRouting` | High
+31 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,12 +57,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMFILES%\MyQ\PHP\Sessions\` | High
 2 | File | `/.flatpak-info` | High
-3 | File | `/admin/googleads.php` | High
-4 | File | `/admin/renewaldue.php` | High
-5 | File | `/nagiosxi/admin/graphtemplates.php` | High
-6 | ... | ... | ...
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/googleads.php` | High
+5 | File | `/admin/renewaldue.php` | High
+6 | File | `/dashboard/add-portfolio.php` | High
+7 | File | `/login.php` | Medium
+8 | File | `/mkshop/Men/profile.php` | High
+9 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

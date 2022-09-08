@@ -50,29 +50,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adminlogin.asp` | High
-2 | File | `/category_view.php` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/HNAP1` | Low
-5 | File | `/mc-admin/post.php?state=delete&delete` | High
-6 | File | `/public/login.htm` | High
-7 | File | `/usr/ucb/mail` | High
-8 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-9 | File | `adclick.php` | Medium
-10 | File | `addmember.php` | High
-11 | File | `addtocart.asp` | High
-12 | File | `addtomylist.asp` | High
-13 | File | `admin.x-shop.php` | High
-14 | File | `admin/auth.php` | High
-15 | File | `admin/import/class-import-settings.php` | High
-16 | File | `admin/sqlpatch.php` | High
-17 | File | `admincp/auth/checklogin.php` | High
-18 | File | `adminlogin.asp` | High
-19 | File | `aj.html` | Low
-20 | File | `ajax/autocompletion.php` | High
-21 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/adminlogin.asp` | High
+3 | File | `/category_view.php` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/HNAP1` | Low
+6 | File | `/mc-admin/post.php?state=delete&delete` | High
+7 | File | `/mkshop/Men/profile.php` | High
+8 | File | `/public/login.htm` | High
+9 | File | `/usr/ucb/mail` | High
+10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+11 | File | `adclick.php` | Medium
+12 | File | `addmember.php` | High
+13 | File | `addtocart.asp` | High
+14 | File | `addtomylist.asp` | High
+15 | File | `admin.x-shop.php` | High
+16 | File | `admin/auth.php` | High
+17 | File | `admin/import/class-import-settings.php` | High
+18 | File | `admin/sqlpatch.php` | High
+19 | File | `admincp/auth/checklogin.php` | High
+20 | File | `adminlogin.asp` | High
+21 | File | `admin_feature.php` | High
+22 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

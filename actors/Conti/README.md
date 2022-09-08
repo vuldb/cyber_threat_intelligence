@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Conti:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -528,9 +528,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -538,38 +539,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
+1 | File | `.procmailrc` | Medium
 2 | File | `/admin/` | Low
 3 | File | `/admin/communitymanagement.php` | High
 4 | File | `/admin/extended` | High
 5 | File | `/admin/featured.php` | High
 6 | File | `/admin/generalsettings.php` | High
 7 | File | `/admin/inquiries/view_details.php` | High
-8 | File | `/admin/newsletter1.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/usermanagement.php` | High
-11 | File | `/Ap4RtpAtom.cpp` | High
-12 | File | `/api/addusers` | High
-13 | File | `/app/options.py` | High
-14 | File | `/application/common.php#action_log` | High
-15 | File | `/bcms/admin/?page=user/list` | High
-16 | File | `/bsms/?page=manage_account` | High
-17 | File | `/cgi-bin/login.cgi` | High
-18 | File | `/ci_hms/massage_room/edit/1` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/designer/add/layout` | High
-23 | File | `/etc/hosts` | Medium
-24 | File | `/filemanager/upload/drop` | High
-25 | File | `/fuel/index.php/fuel/logs/items` | High
-26 | File | `/fuel/sitevariables/delete/4` | High
-27 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-28 | File | `/index/jobfairol/show/` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | ... | ... | ...
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/newsletter1.php` | High
+10 | File | `/admin/payment.php` | High
+11 | File | `/admin/students/view_student.php` | High
+12 | File | `/admin/usermanagement.php` | High
+13 | File | `/ad_js.php` | Medium
+14 | File | `/api/addusers` | High
+15 | File | `/app/options.py` | High
+16 | File | `/application/common.php#action_log` | High
+17 | File | `/bsms/?page=manage_account` | High
+18 | File | `/cgi-bin/login.cgi` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/ci_hms/massage_room/edit/1` | High
+21 | File | `/core/conditions/AbstractWrapper.java` | High
+22 | File | `/dashboard/reports/logs/view` | High
+23 | File | `/dashboard/updatelogo.php` | High
+24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/designer/add/layout` | High
+27 | File | `/etc/hosts` | Medium
+28 | File | `/filemanager/upload/drop` | High
+29 | File | `/gasmark/assets/myimages/oneWord.php` | High
+30 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index/jobfairol/show/` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/loginVaLidation.php` | High
+35 | File | `/manage-apartment.php` | High
+36 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

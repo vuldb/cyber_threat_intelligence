@@ -38,12 +38,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,42 +66,42 @@ ID | Type | Indicator | Confidence
 12 | File | `/login.html` | Medium
 13 | File | `/member/settings_account.php` | High
 14 | File | `/net/mac80211/mac80211/sta_info.c` | High
-15 | File | `/otweb/OTPClientLogin` | High
-16 | File | `/product.php` | Medium
-17 | File | `/tests/add_duration_test.php` | High
-18 | File | `/tests/all_tests.php` | High
-19 | File | `/var/run/storage_account_root` | High
-20 | File | `AccessPoint.aspx` | High
-21 | File | `account.asp` | Medium
-22 | File | `activate.php` | Medium
-23 | File | `addevent.php` | Medium
-24 | File | `adherents/cartes/carte.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/` | Low
-27 | File | `admin/?/plugin/file_manager/upload` | High
-28 | File | `admin/app/physical/physical.php` | High
-29 | File | `admin/edit.php` | High
-30 | File | `admin/eventlist.php` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/languages.php` | High
-33 | File | `admin/manufacturers.php` | High
-34 | File | `admin/newsletters.php` | High
-35 | File | `admin/products_attributes.php` | High
-36 | File | `admin/products_expected.php` | High
-37 | File | `admin/reviews.php` | High
-38 | File | `admin/worklist/worklist_edit.asp` | High
-39 | File | `administrator/index.php` | High
-40 | File | `ad_popup.php` | Medium
-41 | File | `afd.sys` | Low
-42 | File | `agent.exe` | Medium
-43 | File | `apps/calendar/export.php` | High
-44 | File | `archive.php` | Medium
-45 | File | `ask_chat.php` | Medium
-46 | File | `attachment.cgi` | High
-47 | File | `basic.html#ipsettings` | High
-48 | File | `block-forums.php` | High
-49 | File | `bouncedcc.cpp` | High
-50 | File | `BS.Player` | Medium
+15 | File | `/nova/bin/igmp-proxy` | High
+16 | File | `/otweb/OTPClientLogin` | High
+17 | File | `/product.php` | Medium
+18 | File | `/tests/add_duration_test.php` | High
+19 | File | `/tests/all_tests.php` | High
+20 | File | `/var/run/storage_account_root` | High
+21 | File | `AccessPoint.aspx` | High
+22 | File | `account.asp` | Medium
+23 | File | `activate.php` | Medium
+24 | File | `addevent.php` | Medium
+25 | File | `adherents/cartes/carte.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/` | Low
+28 | File | `admin/?/plugin/file_manager/upload` | High
+29 | File | `admin/app/physical/physical.php` | High
+30 | File | `admin/edit.php` | High
+31 | File | `admin/eventlist.php` | High
+32 | File | `admin/index.php` | High
+33 | File | `admin/languages.php` | High
+34 | File | `admin/manufacturers.php` | High
+35 | File | `admin/newsletters.php` | High
+36 | File | `admin/products_attributes.php` | High
+37 | File | `admin/products_expected.php` | High
+38 | File | `admin/reviews.php` | High
+39 | File | `admin/worklist/worklist_edit.asp` | High
+40 | File | `administrator/index.php` | High
+41 | File | `ad_popup.php` | Medium
+42 | File | `afd.sys` | Low
+43 | File | `agent.exe` | Medium
+44 | File | `apps/calendar/export.php` | High
+45 | File | `archive.php` | Medium
+46 | File | `ask_chat.php` | Medium
+47 | File | `attachment.cgi` | High
+48 | File | `basic.html#ipsettings` | High
+49 | File | `block-forums.php` | High
+50 | File | `bouncedcc.cpp` | High
 51 | ... | ... | ...
 
 There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

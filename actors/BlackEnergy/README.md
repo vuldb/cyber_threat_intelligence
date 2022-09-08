@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,29 +61,30 @@ ID | Type | Indicator | Confidence
 8 | File | `/ci_hms/massage_room/edit/1` | High
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
 10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/hosts` | Medium
-13 | File | `/fuel/index.php/fuel/logs/items` | High
-14 | File | `/fuel/sitevariables/delete/4` | High
-15 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-16 | File | `/index/jobfairol/show/` | High
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-20 | File | `/new` | Low
-21 | File | `/proc/<PID>/mem` | High
-22 | File | `/proc/<pid>/status` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | ... | ... | ...
+11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+17 | File | `/index/jobfairol/show/` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+21 | File | `/new` | Low
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/proc/<pid>/status` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
+32 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

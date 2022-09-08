@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
+* [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,14 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.223.115.185](https://vuldb.com/?ip.3.223.115.185) | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
-2 | [13.107.42.23](https://vuldb.com/?ip.13.107.42.23) | - | - | High
-3 | [20.36.252.129](https://vuldb.com/?ip.20.36.252.129) | - | - | High
-4 | [20.42.73.29](https://vuldb.com/?ip.20.42.73.29) | - | - | High
-5 | [20.189.173.20](https://vuldb.com/?ip.20.189.173.20) | - | - | High
+1 | [3.217.206.46](https://vuldb.com/?ip.3.217.206.46) | ec2-3-217-206-46.compute-1.amazonaws.com | - | Medium
+2 | [3.223.115.185](https://vuldb.com/?ip.3.223.115.185) | ec2-3-223-115-185.compute-1.amazonaws.com | - | Medium
+3 | [13.107.42.23](https://vuldb.com/?ip.13.107.42.23) | - | - | High
+4 | [20.36.252.129](https://vuldb.com/?ip.20.36.252.129) | - | - | High
+5 | [20.42.73.29](https://vuldb.com/?ip.20.42.73.29) | - | - | High
 6 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,11 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,7 +54,7 @@ ID | Type | Indicator | Confidence
 3 | File | `drivers/spi/spi-gpio.c` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -66,6 +66,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-1231-0107.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
+* https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 
 ## Literature
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,42 +86,42 @@ ID | Type | Indicator | Confidence
 8 | File | `/forum/away.php` | High
 9 | File | `/get_getnetworkconf.cgi` | High
 10 | File | `/include/make.php` | High
-11 | File | `/jeecg-boot/sys/common/upload` | High
-12 | File | `/lists/admin/` | High
-13 | File | `/login.cgi?logout=1` | High
-14 | File | `/medical/inventories.php` | High
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/module/admin_logs` | High
-17 | File | `/nova/bin/console` | High
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/public/login.htm` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/replication` | Medium
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/scas/classes/Users.php?f=save_user` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-28 | File | `/start-stop` | Medium
-29 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-30 | File | `/tmp/app/.env` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/upload` | Low
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/v2/quantum/save-data-upload-big-file` | High
-35 | File | `/WEB-INF/web.xml` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/wp-admin/options.php` | High
-38 | File | `/_next` | Low
-39 | File | `adclick.php` | Medium
-40 | File | `addentry.php` | Medium
-41 | File | `addrating.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin.php/comments/batchdel/` | High
+11 | File | `/index.php` | Medium
+12 | File | `/jeecg-boot/sys/common/upload` | High
+13 | File | `/lists/admin/` | High
+14 | File | `/login.cgi?logout=1` | High
+15 | File | `/medical/inventories.php` | High
+16 | File | `/members/view_member.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/module/admin_logs` | High
+19 | File | `/nova/bin/console` | High
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/plesk-site-preview/` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/public/plugins/` | High
+24 | File | `/replication` | Medium
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/scas/classes/Users.php?f=save_user` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+31 | File | `/start-stop` | Medium
+32 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+33 | File | `/tmp/app/.env` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload` | Low
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/v2/quantum/save-data-upload-big-file` | High
+38 | File | `/WEB-INF/web.xml` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-admin/options.php` | High
+41 | File | `/_next` | Low
+42 | File | `adclick.php` | Medium
+43 | File | `addentry.php` | Medium
 44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

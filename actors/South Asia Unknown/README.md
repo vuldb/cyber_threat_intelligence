@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [IR](https://vuldb.com/?country.ir)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.92.136.239](https://vuldb.com/?ip.91.92.136.239) | osca.gotdns.ch | - | High
-2 | [139.28.38.231](https://vuldb.com/?ip.139.28.38.231) | 139.28.38.231.deltahost-ptr | - | High
-3 | [139.28.38.236](https://vuldb.com/?ip.139.28.38.236) | 139.28.38.236.deltahost-ptr | - | High
+1 | [23.82.19.250](https://vuldb.com/?ip.23.82.19.250) | - | - | High
+2 | [45.89.175.206](https://vuldb.com/?ip.45.89.175.206) | - | - | High
+3 | [45.138.172.54](https://vuldb.com/?ip.45.138.172.54) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,19 +47,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/phppath/php` | Medium
-2 | File | `/uncpath/` | Medium
-3 | File | `app/topic/action/admin/topic.php` | High
-4 | File | `category.php` | Medium
-5 | File | `classified_right.php` | High
-6 | ... | ... | ...
+1 | File | `/EXCU_SHELL` | Medium
+2 | File | `/my_photo_gallery/image.php` | High
+3 | File | `/phppath/php` | Medium
+4 | File | `/real-estate-script/search_property.php` | High
+5 | File | `/reps/classes/Users.php?f=delete_agent` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `app/topic/action/admin/topic.php` | High
+8 | File | `category.asp` | Medium
+9 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/5fae843b82df413eb53518d0
+* https://community.blueliv.com/#!/s/60250b6c82df413eaf345d16
 * https://github.com/blackorbird/APT_REPORT/blob/master/International%20Strategic/SouthAsia/%E5%8D%97%E4%BA%9A%E5%9C%B0%E5%8C%BAAPT%E7%BB%84%E7%BB%872019%E5%B9%B4%E5%BA%A6%E6%94%BB%E5%87%BB%E6%B4%BB%E5%8A%A8%E6%80%BB%E7%BB%93.pdf
 
 ## Literature

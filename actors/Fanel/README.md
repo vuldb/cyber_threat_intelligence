@@ -37,12 +37,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,45 +56,45 @@ ID | Type | Indicator | Confidence
 3 | File | `/bin/goahead` | Medium
 4 | File | `/cgi-bin/kerbynet` | High
 5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/etc/postfix/sender_login` | High
-7 | File | `/framework/core/models/expRecord.php` | High
-8 | File | `/HNAP1` | Low
-9 | File | `/htdocs/webinc/js/bsc_sms_inbox.php` | High
-10 | File | `/manager?action=getlogcat` | High
-11 | File | `/medicines` | Medium
-12 | File | `/plugins/servlet/branchreview` | High
-13 | File | `/proc` | Low
-14 | File | `/Pwrchute` | Medium
-15 | File | `/tmp` | Low
-16 | File | `/tmp/.deepin-clone.log` | High
-17 | File | `/users/{id}` | Medium
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-20 | File | `actions.cpp` | Medium
-21 | File | `adm1n/admin_config.php` | High
-22 | File | `admin-ajax.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/addpage.php` | High
-25 | File | `admin/admin_process.php` | High
-26 | File | `admin/editusertag.php` | High
-27 | File | `admin/eventlist.php` | High
-28 | File | `admin/reklam_detay.asp` | High
-29 | File | `admin/settings.php` | High
-30 | File | `admin/snacks_edit.php` | High
-31 | File | `admin/userview.php` | High
-32 | File | `all_calendars.asp` | High
-33 | File | `anniv.php` | Medium
-34 | File | `api.php` | Low
-35 | File | `app/search/search.app.php` | High
-36 | File | `appGet.cgi` | Medium
-37 | File | `apply.cgi` | Medium
-38 | File | `arch/arm/kernel/perf_event.c` | High
-39 | File | `ArticleType.php` | High
-40 | File | `attachment.php` | High
-41 | File | `Attachment.pm/code-error.html.tmpl` | High
+6 | File | `/data/vendor/tcl` | High
+7 | File | `/etc/postfix/sender_login` | High
+8 | File | `/framework/core/models/expRecord.php` | High
+9 | File | `/HNAP1` | Low
+10 | File | `/htdocs/webinc/js/bsc_sms_inbox.php` | High
+11 | File | `/manager?action=getlogcat` | High
+12 | File | `/medicines` | Medium
+13 | File | `/plugins/servlet/branchreview` | High
+14 | File | `/proc` | Low
+15 | File | `/Pwrchute` | Medium
+16 | File | `/tmp` | Low
+17 | File | `/tmp/.deepin-clone.log` | High
+18 | File | `/users/{id}` | Medium
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+21 | File | `actions.cpp` | Medium
+22 | File | `adm1n/admin_config.php` | High
+23 | File | `admin-ajax.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/addpage.php` | High
+26 | File | `admin/admin_process.php` | High
+27 | File | `admin/editusertag.php` | High
+28 | File | `admin/eventlist.php` | High
+29 | File | `admin/reklam_detay.asp` | High
+30 | File | `admin/settings.php` | High
+31 | File | `admin/snacks_edit.php` | High
+32 | File | `admin/userview.php` | High
+33 | File | `all_calendars.asp` | High
+34 | File | `anniv.php` | Medium
+35 | File | `api.php` | Low
+36 | File | `app/search/search.app.php` | High
+37 | File | `appGet.cgi` | Medium
+38 | File | `apply.cgi` | Medium
+39 | File | `arch/arm/kernel/perf_event.c` | High
+40 | File | `ArticleType.php` | High
+41 | File | `attachment.php` | High
 42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

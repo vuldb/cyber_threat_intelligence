@@ -10,13 +10,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [212.117.50.228](https://vuldb.com/?ip.212.117.50.228) | - | - | High
+1 | [104.19.148.8](https://vuldb.com/?ip.104.19.148.8) | - | - | High
+2 | [172.67.161.60](https://vuldb.com/?ip.172.67.161.60) | - | - | High
+3 | [204.79.197.200](https://vuldb.com/?ip.204.79.197.200) | a-0001.a-msedge.net | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/06/threat-roundup-0621-0628.html
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
 
 ## Literature
 

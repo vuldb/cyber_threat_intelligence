@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Monokle:
 
+* [TT](https://vuldb.com/?country.tt)
 * [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,11 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,14 +52,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
 2 | File | `/?Key=PhoneRequestAuthorization` | High
-3 | File | `/proc/ioports` | High
-4 | File | `/start-stop` | Medium
-5 | File | `/usr/etc/rexecd` | High
-6 | File | `/WEB-INF/web.xml` | High
-7 | File | `ActivityPicker.java` | High
-8 | ... | ... | ...
+3 | File | `/admin/add_exercises.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/assets` | Low
+8 | File | `/dashboard/add-blog.php` | High
+9 | File | `/dashboard/add-portfolio.php` | High
+10 | File | `/dashboard/add-service.php` | High
+11 | File | `/dashboard/updatelogo.php` | High
+12 | File | `/gasmark/assets/myimages/oneWord.php` | High
+13 | File | `/goform/formWifiBasicSet` | High
+14 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+15 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

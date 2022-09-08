@@ -64,17 +64,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/posts.php&action=edit` | High
 7 | File | `/admin/sysmon.php` | High
 8 | File | `/base/ecma-helpers-string.c` | High
-9 | File | `/cimom` | Low
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-12 | File | `/etc/sysconfig/tomcat` | High
-13 | File | `/fantasticblog/single.php` | High
-14 | File | `/goform/aspForm` | High
-15 | File | `/jpg/image.jpg` | High
-16 | File | `/Main_AdmStatus_Content.asp` | High
-17 | ... | ... | ...
+9 | File | `/blog/edit` | Medium
+10 | File | `/cimom` | Low
+11 | File | `/ci_spms/admin/search/searching/` | High
+12 | File | `/classes/Master.php?f=delete_student` | High
+13 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+14 | File | `/etc/sysconfig/tomcat` | High
+15 | File | `/fantasticblog/single.php` | High
+16 | File | `/goform/aspForm` | High
+17 | File | `/goform/SetLEDCfg` | High
+18 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+19 | File | `/htdocs/utils/Files.php` | High
+20 | ... | ... | ...
 
-There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

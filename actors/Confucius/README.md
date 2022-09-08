@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -81,32 +81,32 @@ ID | Type | Indicator | Confidence
 19 | File | `/get_getnetworkconf.cgi` | High
 20 | File | `/HNAP1` | Low
 21 | File | `/include/chart_generator.php` | High
-22 | File | `/info.cgi` | Medium
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/lists/admin/` | High
-25 | File | `/MagickCore/image.c` | High
-26 | File | `/mgmt/tm/util/bash` | High
-27 | File | `/modx/manager/index.php` | High
-28 | File | `/out.php` | Medium
-29 | File | `/public/launchNewWindow.jsp` | High
-30 | File | `/replication` | Medium
-31 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-34 | File | `/type.php` | Medium
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/WEB-INF/web.xml` | High
-37 | File | `/Wedding-Management/package_detail.php` | High
-38 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-39 | File | `4.2.0.CP09` | Medium
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `802dot1xclientcert.cgi` | High
-42 | File | `a2billing/customer/iridium_threed.php` | High
-43 | File | `AdClass.php` | Medium
-44 | File | `adclick.php` | Medium
-45 | File | `add.exe` | Low
-46 | File | `admin.color.php` | High
-47 | File | `admin.cropcanvas.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/info.cgi` | Medium
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/lists/admin/` | High
+26 | File | `/MagickCore/image.c` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/modx/manager/index.php` | High
+29 | File | `/out.php` | Medium
+30 | File | `/public/launchNewWindow.jsp` | High
+31 | File | `/replication` | Medium
+32 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+35 | File | `/type.php` | Medium
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/WEB-INF/web.xml` | High
+38 | File | `/Wedding-Management/package_detail.php` | High
+39 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+40 | File | `4.2.0.CP09` | Medium
+41 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+42 | File | `802dot1xclientcert.cgi` | High
+43 | File | `a2billing/customer/iridium_threed.php` | High
+44 | File | `AdClass.php` | Medium
+45 | File | `adclick.php` | Medium
+46 | File | `add.exe` | Low
+47 | File | `admin.color.php` | High
 48 | File | `admin.joomlaradiov5.php` | High
 49 | File | `admin.php?m=Food&a=addsave` | High
 50 | File | `admin/conf_users_edit.php` | High
@@ -114,13 +114,10 @@ ID | Type | Indicator | Confidence
 52 | File | `admin/limits.php` | High
 53 | File | `admin/write-post.php` | High
 54 | File | `administrator/components/com_media/helpers/media.php` | High
-55 | File | `admin_events.php` | High
-56 | File | `akocomments.php` | High
-57 | File | `allopass-error.php` | High
-58 | File | `apply.cgi` | Medium
-59 | ... | ... | ...
+55 | File | `allopass-error.php` | High
+56 | ... | ... | ...
 
-There are 519 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

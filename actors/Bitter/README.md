@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.11.19.170](https://vuldb.com/?ip.45.11.19.170) | - | - | High
-2 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
-3 | [82.221.129.18](https://vuldb.com/?ip.82.221.129.18) | baula.orangewebsite.com | - | High
+2 | [64.44.131.109](https://vuldb.com/?ip.64.44.131.109) | 64.44.131.147 | - | High
+3 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +37,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -48,27 +49,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/etc/gsissh/sshd_config` | High
-3 | File | `/forms/nslookupHandler` | High
-4 | File | `/news.dtl.php` | High
-5 | File | `/ptms/?page=user` | High
-6 | File | `/systemrw/` | Medium
-7 | File | `/uncpath/` | Medium
-8 | File | `/upload/file.php` | High
-9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-10 | File | `5.2.9\syscrb.exe` | High
-11 | File | `admin.cgi` | Medium
-12 | File | `admin/category.inc.php` | High
-13 | File | `admin/vqmods.app/vqmods.inc.php` | High
-14 | File | `auth2-gss.c` | Medium
-15 | ... | ... | ...
+2 | File | `/admin/moduleinterface.php` | High
+3 | File | `/etc/gsissh/sshd_config` | High
+4 | File | `/forms/nslookupHandler` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/modules/profile/index.php` | High
+8 | File | `/news.dtl.php` | High
+9 | File | `/out.php` | Medium
+10 | File | `/ptms/?page=user` | High
+11 | File | `/systemrw/` | Medium
+12 | File | `/uncpath/` | Medium
+13 | File | `/upload/file.php` | High
+14 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+15 | File | `5.2.9\syscrb.exe` | High
+16 | File | `adclick.php` | Medium
+17 | File | `admin.cgi` | Medium
+18 | File | `admin/category.inc.php` | High
+19 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/414/bitter-apt-iocs/
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
 * https://twitter.com/ShadowChasing1/status/1504833720489951234
 * https://www.threatminer.org/report.php?q=SuspectedBITTERAPTContinuesTargetingGovernmentofChinaandChineseOrganizations.pdf&y=2019

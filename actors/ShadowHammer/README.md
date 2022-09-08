@@ -29,6 +29,14 @@ ID | IP address | Hostname | Campaign | Confidence
 
 There are 3 more IOC items available. Please use our online service to access the data.
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ShadowHammer_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-77 | Command Injection | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

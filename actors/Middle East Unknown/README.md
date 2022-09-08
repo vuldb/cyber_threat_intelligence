@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East Unknown:
 
+* [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
-* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,23 +23,25 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.34.180.252](https://vuldb.com/?ip.5.34.180.252) | storage-948074.hosted-by.itldc.com | - | High
 2 | [5.34.181.13](https://vuldb.com/?ip.5.34.181.13) | backups231.com | - | High
-3 | [31.192.105.16](https://vuldb.com/?ip.31.192.105.16) | down-it-niscat.donotbargain.com | - | High
-4 | [31.192.105.17](https://vuldb.com/?ip.31.192.105.17) | - | - | High
-5 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | - | High
-6 | [38.130.75.20](https://vuldb.com/?ip.38.130.75.20) | h20-us75.fcsrv.net | - | High
-7 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
-8 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | - | High
-9 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | - | High
-10 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | - | High
-11 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | - | High
-12 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | - | High
-13 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | - | High
-14 | [93.190.138.137](https://vuldb.com/?ip.93.190.138.137) | 93-190-138-137.hosted-by-worldstream.net | - | High
-15 | [104.200.128.48](https://vuldb.com/?ip.104.200.128.48) | - | - | High
-16 | [104.200.128.58](https://vuldb.com/?ip.104.200.128.58) | - | - | High
-17 | ... | ... | ... | ...
+3 | [23.94.50.197](https://vuldb.com/?ip.23.94.50.197) | 23-94-50-197-host.colocrossing.com | - | High
+4 | [23.95.215.100](https://vuldb.com/?ip.23.95.215.100) | 23-95-215-100-host.colocrossing.com | - | High
+5 | [31.192.105.16](https://vuldb.com/?ip.31.192.105.16) | down-it-niscat.donotbargain.com | - | High
+6 | [31.192.105.17](https://vuldb.com/?ip.31.192.105.17) | - | - | High
+7 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | - | High
+8 | [38.130.75.20](https://vuldb.com/?ip.38.130.75.20) | h20-us75.fcsrv.net | - | High
+9 | [51.68.244.39](https://vuldb.com/?ip.51.68.244.39) | ip39.ip-51-68-244.eu | - | High
+10 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
+11 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | - | High
+12 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | - | High
+13 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | - | High
+14 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | - | High
+15 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | - | High
+16 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | - | High
+17 | [87.236.212.184](https://vuldb.com/?ip.87.236.212.184) | - | - | High
+18 | [93.115.10.142](https://vuldb.com/?ip.93.115.10.142) | attrib-chkntfs.ariacyan.com | - | High
+19 | ... | ... | ... | ...
 
-There are 64 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -62,54 +64,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=fileman&section=get&page=grid` | High
-2 | File | `/action/import_sdk_file/` | High
-3 | File | `/admin.php/singer/admin/singer/hy` | High
-4 | File | `/admin.php/vod/admin/topic/del` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/deluser.php` | High
-7 | File | `/admin/edit_admin_details.php?id=admin` | High
-8 | File | `/admin/googleads.php` | High
-9 | File | `/admin/operations/tax.php` | High
-10 | File | `/admin/payment.php` | High
-11 | File | `/admin/scheprofile.cgi` | High
-12 | File | `/admin/vca/license/license_tok.cgi` | High
-13 | File | `/AJAX/ajaxget` | High
-14 | File | `/api/plugin/uninstall` | High
-15 | File | `/bcms/admin/courts/manage_court.php` | High
-16 | File | `/bcms/classes/Master.php?f=save_court_rental` | High
-17 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-18 | File | `/catcompany.php` | High
-19 | File | `/cgi-bin/kerbynet` | High
-20 | File | `/cgi-bin/readfile.tcl` | High
-21 | File | `/cgi-bin/touchlist_sync.cgi` | High
-22 | File | `/classes/Users.php?f=save` | High
-23 | File | `/defaultui/player/modern.html` | High
-24 | File | `/etc/quagga` | Medium
-25 | File | `/ffos/admin/categories/manage_category.php` | High
-26 | File | `/ffos/admin/menus/view_menu.php` | High
-27 | File | `/gaia-job-admin/user/add` | High
-28 | File | `/goform/aspForm` | High
-29 | File | `/includes/db_connect.php` | High
-30 | File | `/isms/admin/stocks/view_stock.php` | High
-31 | File | `/lists/admin/` | High
-32 | File | `/login.php` | Medium
-33 | File | `/orrs/admin/trains/manage_train.php` | High
-34 | File | `/otps/classes/Master.php?f=delete_team` | High
-35 | File | `/pages/permit/permit.php` | High
-36 | File | `/pdfalto/src/pdfalto.cc` | High
-37 | File | `/pms/admin/crimes/manage_crime.php` | High
-38 | File | `/psrs/admin/?page=products/manage_product` | High
-39 | File | `/roomtype-details.php` | High
-40 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/add_trainers.php` | High
+3 | File | `/admin/header.inc.php` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/AJAX/ajaxget` | High
+6 | File | `/api/plugin/uninstall` | High
+7 | File | `/api/v2/config` | High
+8 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+10 | File | `/claire_blake` | High
+11 | File | `/classes/Users.php?f=save_client` | High
+12 | File | `/coreframe/app/attachment/admin/index.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/defaultui/player/modern.html` | High
+15 | File | `/dishes.php` | Medium
+16 | File | `/etc/init0.d/S80telnetd.sh` | High
+17 | File | `/etc/quagga` | Medium
+18 | File | `/etc/shadow.sample` | High
+19 | File | `/fax/fax_send.php` | High
+20 | File | `/gfxpoly/stroke.c` | High
+21 | File | `/goform/addRouting` | High
+22 | File | `/goform/form2Wan.cgi` | High
+23 | File | `/htdocs/utils/Files.php` | High
+24 | File | `/include/menu_u.inc.php` | High
+25 | File | `/includes/db_connect.php` | High
+26 | File | `/includes/images.php` | High
+27 | File | `/ip/admin/` | Medium
+28 | File | `/jfinal_cms/system/role/list` | High
+29 | File | `/librarian/edit_book_details.php` | High
+30 | File | `/login.php` | Medium
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/master/index.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/oa/setup/checkPool?database` | High
+35 | File | `/pages/class_sched.php` | High
+36 | File | `/pages/faculty_sched.php` | High
+37 | File | `/pages/permit/permit.php` | High
+38 | File | `/pages/processlogin.php` | High
+39 | File | `/patient/booking.php` | High
+40 | File | `/php_action/createUser.php` | High
+41 | File | `/pms/update_medicine.php` | High
+42 | File | `/pms/update_user.php` | High
+43 | File | `/qr/I/` | Low
+44 | File | `/release-x64/otfccdump` | High
+45 | File | `/servlet/AdapterHTTP` | High
+46 | File | `/session/sendmail` | High
+47 | File | `/sistema/flash/reboot` | High
+48 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+49 | File | `/templates/default/html/windows/right.php` | High
+50 | File | `/ubus/uci.apply` | High
+51 | File | `/web/api/v1/upload/UploadHandler.php` | High
+52 | File | `/webmail/server/webmail.php` | High
+53 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2020/01/mideast-tensions-preparations.html
+* https://community.blueliv.com/#!/s/5fd096f382df413eaf344efc
+* https://community.blueliv.com/#!/s/6053819b82df413eaf346332
 
 ## Literature
 

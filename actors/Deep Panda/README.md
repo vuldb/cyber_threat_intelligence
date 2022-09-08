@@ -28,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [1.9.5.38](https://vuldb.com/?ip.1.9.5.38) | - | - | High
-2 | [104.223.34.198](https://vuldb.com/?ip.104.223.34.198) | 104.223.34.198.static.quadranet.com | Log4Shell | High
-3 | [142.91.76.134](https://vuldb.com/?ip.142.91.76.134) | mx3.29v.info | - | High
+2 | [103.224.80.76](https://vuldb.com/?ip.103.224.80.76) | - | - | High
+3 | [104.223.34.198](https://vuldb.com/?ip.104.223.34.198) | 104.223.34.198.static.quadranet.com | Log4Shell | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,6 +64,7 @@ There are 16 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/6246a11882df413eb5358dee
 * https://threatconnect.com/blog/the-anthem-hack-all-roads-lead-to-china/
 * https://www.fortinet.com/blog/threat-research/deep-panda-log4shell-fire-chili-rootkits
 * https://www.rsa.com/content/dam/en/white-paper/rsa-incident-response-emerging-threat-profile-shell-crew.pdf

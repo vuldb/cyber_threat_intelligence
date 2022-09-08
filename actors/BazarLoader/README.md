@@ -60,7 +60,7 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [45.76.254.23](https://vuldb.com/?ip.45.76.254.23) | 45.76.254.23.vultr.com | - | Medium
 31 | ... | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0211-0218.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 * https://blogs.infoblox.com/cyber-threat-intelligence/ransomware-attacks-target-healthcare-sector/
+* https://community.blueliv.com/#!/s/606c7f1882df413ea934c394
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-16%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20BazarLoader%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-03%20BazarLoader%20IOCs

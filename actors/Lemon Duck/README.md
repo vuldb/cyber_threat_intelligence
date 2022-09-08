@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,38 +67,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.python-version` | High
-2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/advance_push/public/login` | High
-4 | File | `/api/crontab` | Medium
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/admin/inc/include.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/advance_push/public/login` | High
+5 | File | `/alarm_pi/alarmService.php` | High
 6 | File | `/app/controller/Books.php` | High
-7 | File | `/ATL/VQ23` | Medium
-8 | File | `/bin/protest` | Medium
-9 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-10 | File | `/current_action.php?action=reboot` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/config/image_sign` | High
-13 | File | `/etc/hosts` | Medium
-14 | File | `/etc/quagga` | Medium
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-18 | File | `/language/lang` | High
-19 | File | `/loginsave.php` | High
-20 | File | `/menu.html` | Medium
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/recreate.php` | High
-25 | File | `/rest/api/latest/user/avatar/temporary` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/sql/sql_string.h` | High
-28 | File | `/sql/sql_type.cc` | High
-29 | File | `/strings/ctype-latin1.c` | High
-30 | File | `/strings/ctype-simple.c` | High
-31 | ... | ... | ...
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/ATL/VQ23` | Medium
+9 | File | `/bin/login` | Medium
+10 | File | `/catcompany.php` | High
+11 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+12 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/coreframe/app/pay/admin/index.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/etc/quagga` | Medium
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/h/search?action` | High
+21 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+22 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+23 | File | `/language/lang` | High
+24 | File | `/loginsave.php` | High
+25 | File | `/menu.html` | Medium
+26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/ows-bin` | Medium
+30 | File | `/public/plugins/` | High
+31 | File | `/recreate.php` | High
+32 | File | `/rest/collectors/1.0/template/custom` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/sql/sql_string.h` | High
+35 | File | `/sql/sql_type.cc` | High
+36 | File | `/strings/ctype-latin1.c` | High
+37 | File | `/strings/ctype-simple.c` | High
+38 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

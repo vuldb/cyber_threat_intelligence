@@ -23,7 +23,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [149.28.28.159](https://vuldb.com/?ip.149.28.28.159) | 149.28.28.159.vultrusercontent.com | Ninja | High
+1 | [45.76.78.237](https://vuldb.com/?ip.45.76.78.237) | 45.76.78.237.vultrusercontent.com | - | High
+2 | [137.220.40.10](https://vuldb.com/?ip.137.220.40.10) | 137.220.40.10.vultrusercontent.com | - | High
+3 | [149.28.28.159](https://vuldb.com/?ip.149.28.28.159) | 149.28.28.159.vultrusercontent.com | Ninja | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,16 +47,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `inc/config.php` | High
-2 | File | `plus/recommend.php` | High
-3 | File | `VMCI.SYS` | Medium
+2 | File | `list.php` | Medium
+3 | File | `plus/recommend.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/360/toddycat-apt-iocs/
 * https://securelist.com/toddycat/106799/
 
 ## Literature

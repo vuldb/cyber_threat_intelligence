@@ -188,18 +188,17 @@ ID | Type | Indicator | Confidence
 8 | File | `/graphStatus/displayServiceStatus.php` | High
 9 | File | `/modules/profile/index.php` | High
 10 | File | `/out.php` | Medium
-11 | File | `/pages/items` | Medium
-12 | File | `/proc/pid/syscall` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-15 | File | `/servlet.gupld` | High
-16 | File | `/sql/sql_type.cc` | High
-17 | File | `/status` | Low
-18 | File | `/tools/developerConsoleOperations.jsp` | High
-19 | File | `/uncpath/` | Medium
-20 | ... | ... | ...
+11 | File | `/proc/pid/syscall` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+14 | File | `/servlet.gupld` | High
+15 | File | `/sql/sql_type.cc` | High
+16 | File | `/status` | Low
+17 | File | `/tools/developerConsoleOperations.jsp` | High
+18 | File | `/uncpath/` | Medium
+19 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

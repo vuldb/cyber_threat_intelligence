@@ -64,17 +64,18 @@ ID | Type | Indicator | Confidence
 5 | File | `/forum/away.php` | High
 6 | File | `/getcfg.php` | Medium
 7 | File | `/login` | Low
-8 | File | `/newsDia.php` | Medium
-9 | File | `/product_list.php` | High
-10 | File | `/rom-0` | Low
-11 | File | `/scas/admin/` | Medium
-12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-13 | File | `/var/log/nginx` | High
-14 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-15 | File | `adclick.php` | Medium
-16 | ... | ... | ...
+8 | File | `/mkshop/Men/profile.php` | High
+9 | File | `/newsDia.php` | Medium
+10 | File | `/product_list.php` | High
+11 | File | `/rom-0` | Low
+12 | File | `/scas/admin/` | Medium
+13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+14 | File | `/var/log/nginx` | High
+15 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+16 | File | `adclick.php` | Medium
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

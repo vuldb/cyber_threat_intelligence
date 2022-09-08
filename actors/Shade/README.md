@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,12 +42,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,38 +59,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
-2 | File | `//WEB-INF` | Medium
-3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `//WEB-INF` | Medium
+4 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+5 | File | `/admin/` | Low
 6 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-7 | File | `/app/controller/Books.php` | High
-8 | File | `/auth/v1/sso/config/` | High
-9 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi/networkDiag.cgi` | High
-12 | File | `/ctpms/admin/?page=applications/view_application` | High
-13 | File | `/dev/cedar_dev` | High
-14 | File | `/dev/ion` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/exponent_constants.php` | High
-18 | File | `/gena.cgi` | Medium
-19 | File | `/GetCopiedFile` | High
-20 | File | `/goform/SetStaticRouteCfg` | High
-21 | File | `/include/chart_generator.php` | High
-22 | File | `/manager/files` | High
-23 | File | `/mtms/admin/?page=transaction/send` | High
-24 | File | `/nova/bin/detnet` | High
-25 | File | `/nova/bin/igmp-proxy` | High
-26 | File | `/nova/bin/lcdstat` | High
-27 | File | `/pineapple/ui` | High
-28 | File | `/preauth` | Medium
-29 | File | `/proc/net/snmp` | High
-30 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-31 | ... | ... | ...
+7 | File | `/admin/usermanagement.php` | High
+8 | File | `/app/controller/Books.php` | High
+9 | File | `/auth/v1/sso/config/` | High
+10 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+11 | File | `/car-rental-management-system/admin/manage_user.php` | High
+12 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi/networkDiag.cgi` | High
+15 | File | `/company/down_resume/total/nature` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/dev/cedar_dev` | High
+18 | File | `/dev/ion` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/exponent_constants.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/gena.cgi` | Medium
+24 | File | `/goform/SetStaticRouteCfg` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/manager/files` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/mtms/admin/?page=transaction/send` | High
+29 | File | `/nova/bin/detnet` | High
+30 | File | `/nova/bin/igmp-proxy` | High
+31 | File | `/nova/bin/lcdstat` | High
+32 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

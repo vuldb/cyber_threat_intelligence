@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
-* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
-* [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,12 +90,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,37 +107,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/` | Low
-5 | File | `/admin/photo.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/photo.php` | High
+5 | File | `/ad_js.php` | Medium
 6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/auth` | High
-11 | File | `/cgi-bin/luci/api/diagnose` | High
-12 | File | `/CMD_ACCOUNT_ADMIN` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/core/admin/categories.php` | High
-15 | File | `/dashboard/reports/logs/view` | High
+7 | File | `/app/options.py` | High
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/catcompany.php` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/claire_blake` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 16 | File | `/debug/pprof` | Medium
 17 | File | `/etc/config/image_sign` | High
-18 | File | `/etc/groups` | Medium
+18 | File | `/etc/hosts` | Medium
 19 | File | `/forum/away.php` | High
 20 | File | `/fuel/index.php/fuel/logs/items` | High
 21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-23 | File | `/index/jobfairol/show/` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/MTFWU` | Low
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/php/passport/index.php` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | ... | ... | ...
+22 | File | `/ghost/preview` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index/jobfairol/show/` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pages/faculty_sched.php` | High
+32 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -64,12 +64,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php?&m=Public&a=login` | High
 2 | File | `/config/getuser` | High
 3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-4 | File | `/onvif/device_service` | High
-5 | File | `/setSystemAdmin` | High
-6 | File | `/ucms/index.php?do=list_edit` | High
+4 | File | `/management/api/rcx_management/global_config_query` | High
+5 | File | `/onvif/device_service` | High
+6 | File | `/setSystemAdmin` | High
 7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

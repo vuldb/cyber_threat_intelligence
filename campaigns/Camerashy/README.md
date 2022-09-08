@@ -8,9 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Camerashy:
 
-* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -39,12 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,23 +52,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%windir%\Internet Logs\` | High
-2 | File | `/admin.php/admin/website/data.html` | High
-3 | File | `/aqpg/users/login.php` | High
-4 | File | `/crypto_keyfile.bin` | High
-5 | File | `/cwms/admin/?page=articles/view_article/` | High
-6 | File | `/cwms/classes/Master.php?f=save_contact` | High
-7 | File | `/mims/app/addcustomerHandler.php` | High
-8 | File | `/one_church/churchprofile.php` | High
-9 | File | `/one_church/userregister.php` | High
-10 | File | `/show_news.php` | High
-11 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-12 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-13 | File | `/wp-admin/options-general.php` | High
-14 | File | `500page.jsp` | Medium
-15 | ... | ... | ...
+1 | File | `/addQuestion.php` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/add_exercises.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/edit_admin_details.php?id=admin` | High
+7 | File | `/admin/lab.php` | High
+8 | File | `/admin/students/view_student.php` | High
+9 | File | `/api/` | Low
+10 | File | `/categories/view_category.php` | High
+11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+12 | File | `/cgi-bin/nightled.cgi` | High
+13 | File | `/cgi-bin/touchlist_sync.cgi` | High
+14 | File | `/ci_hms/massage_room/edit/1` | High
+15 | File | `/ci_hms/search` | High
+16 | File | `/ci_spms/admin/category` | High
+17 | File | `/ci_spms/admin/search/searching/` | High
+18 | File | `/ci_ssms/index.php/orders/create` | High
+19 | File | `/claire_blake` | High
+20 | File | `/classes/Master.php?f=delete_category` | High
+21 | File | `/dashboard/add-blog.php` | High
+22 | File | `/dashboard/add-portfolio.php` | High
+23 | File | `/dashboard/add-service.php` | High
+24 | File | `/dashboard/contact` | High
+25 | File | `/dashboard/settings` | High
+26 | File | `/dashboard/updatelogo.php` | High
+27 | File | `/editbrand.php` | High
+28 | File | `/edituser.php` | High
+29 | File | `/etc/shadow.sample` | High
+30 | File | `/fax/fax_send.php` | High
+31 | File | `/framework/mod/db/DBMapper.xml` | High
+32 | File | `/gasmark/assets/myimages/oneWord.php` | High
+33 | File | `/goform/aspForm` | High
+34 | File | `/goform/form2userconfig.cgi` | High
+35 | File | `/goform/setAutoPing` | High
+36 | File | `/guestmanagement/front.php` | High
+37 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+38 | File | `/htmldoc/htmldoc/html.cxx` | High
+39 | File | `/include/menu_v.inc.php` | High
+40 | File | `/includes/utils.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+43 | File | `/items/manage_item.php` | High
+44 | File | `/librarian/bookdetails.php` | High
+45 | File | `/login.php` | Medium
+46 | File | `/loginVaLidation.php` | High
+47 | File | `/manage-apartment.php` | High
+48 | File | `/management/api/rcx_management/global_config_query` | High
+49 | File | `/mdiy/page/verify` | High
+50 | File | `/mkshop/Men/profile.php` | High
+51 | File | `/mkshope/login.php` | High
+52 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

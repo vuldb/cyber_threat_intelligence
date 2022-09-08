@@ -8,12 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Glupteba:
 
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
-* ...
-
-There are 19 more country items available. Please use our online service to access the data.
+* [ES](https://vuldb.com/?country.es)
 
 ## IOC - Indicator of Compromise
 
@@ -22,16 +17,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.10.194](https://vuldb.com/?ip.5.8.10.194) | - | - | High
-2 | [5.79.87.139](https://vuldb.com/?ip.5.79.87.139) | - | - | High
-3 | [5.79.87.153](https://vuldb.com/?ip.5.79.87.153) | - | - | High
-4 | [5.101.6.132](https://vuldb.com/?ip.5.101.6.132) | amoglo.ru | - | High
-5 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
-6 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
-7 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
-8 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
-9 | ... | ... | ... | ...
+2 | [5.9.72.48](https://vuldb.com/?ip.5.9.72.48) | cpanelbk.pcready.me | - | High
+3 | [5.79.87.139](https://vuldb.com/?ip.5.79.87.139) | - | - | High
+4 | [5.79.87.153](https://vuldb.com/?ip.5.79.87.153) | - | - | High
+5 | [5.101.6.132](https://vuldb.com/?ip.5.101.6.132) | amoglo.ru | - | High
+6 | [23.5.238.97](https://vuldb.com/?ip.23.5.238.97) | a23-5-238-97.deploy.static.akamaitechnologies.com | - | High
+7 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
+8 | [40.90.22.185](https://vuldb.com/?ip.40.90.22.185) | - | - | High
+9 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+10 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
+11 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
+12 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
+13 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
+14 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
+15 | [46.165.249.201](https://vuldb.com/?ip.46.165.249.201) | - | - | High
+16 | [46.165.249.203](https://vuldb.com/?ip.46.165.249.203) | - | - | High
+17 | [46.165.250.25](https://vuldb.com/?ip.46.165.250.25) | - | - | High
+18 | [69.55.5.249](https://vuldb.com/?ip.69.55.5.249) | - | - | High
+19 | [69.64.46.27](https://vuldb.com/?ip.69.64.46.27) | dragon085.startdedicated.de | - | High
+20 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
+21 | [72.21.91.29](https://vuldb.com/?ip.72.21.91.29) | - | - | High
+22 | [74.67.240.204](https://vuldb.com/?ip.74.67.240.204) | cpe-74-67-240-204.twcny.res.rr.com | - | High
+23 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,12 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
-
-There are 5 more TTP items available. Please use our online service to access the data.
+1 | T1059 | CWE-94 | Cross Site Scripting | High
 
 ## IOA - Indicator of Attack
 
@@ -52,31 +56,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%SYSTEMDRIVE%\ProgramData\exclusions.dat` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/admin/blocks/blocks/edit/8` | High
-4 | File | `/admin/menus/menus/edit/3` | High
-5 | File | `/admin/nodes/nodes/add/blog` | High
-6 | File | `/admin/taxonomy/vocabularies` | High
-7 | File | `/dev/kmem` | Medium
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/get_getnetworkconf.cgi` | High
-10 | File | `/mods/_core/users/admins/my_edit.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/vdesk` | Low
-13 | File | `/__r1/` | Low
-14 | File | `admin/getparam.cgi` | High
-15 | File | `admin/index.php` | High
-16 | File | `admincp.php?app=apps&do=save` | High
-17 | File | `admincp.php?app=files` | High
-18 | ... | ... | ...
-
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+1 | Library | `tandberg/web/lib/secure.php` | High
+2 | Argument | `tandberg_login=` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
+* https://blog.talosintelligence.com/2020/12/threat-roundup-1204-1211.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0115-0122.html
 * https://github.com/eset/malware-ioc/tree/master/glupteba
 
 ## Literature

@@ -79,15 +79,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/trackedEntityInstances` | High
 2 | File | `/cgi-bin/portal` | High
 3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/Items/*/RemoteImages/Download` | High
-5 | File | `/mifs/c/i/reg/reg.html` | High
-6 | File | `/owa/auth/logon.aspx` | High
-7 | File | `/service/upload` | High
-8 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-9 | File | `/uncpath/` | Medium
-10 | ... | ... | ...
+4 | File | `/index.php` | Medium
+5 | File | `/Items/*/RemoteImages/Download` | High
+6 | File | `/members/view_member.php` | High
+7 | File | `/mifs/c/i/reg/reg.html` | High
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/service/upload` | High
+10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+11 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

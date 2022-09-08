@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [27.102.114.79](https://vuldb.com/?ip.27.102.114.79) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,6 +94,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://asec.ahnlab.com/en/30532/
 * https://blog.alyac.co.kr/2234
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/
+* https://community.blueliv.com/#!/s/5fa1234a82df413ea9349a07
 * https://twitter.com/shadowchasing1/status/1500778382966939653
 * https://twitter.com/souiten/status/1473862308132651011
 

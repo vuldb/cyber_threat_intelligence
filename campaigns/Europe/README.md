@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/export` | Low
 3 | File | `/goform/NTPSyncWithHost` | High
 4 | File | `/HNAP1/SetAccessPointMode` | High
-5 | File | `/include/helpers/upload.helper.php` | High
-6 | File | `/MTFWU` | Low
-7 | ... | ... | ...
+5 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+6 | File | `/include/helpers/upload.helper.php` | High
+7 | File | `/MTFWU` | Low
+8 | ... | ... | ...
 
 There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

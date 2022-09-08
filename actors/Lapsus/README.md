@@ -50,16 +50,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/context/%2e/WEB-INF/web.xml` | High
 5 | File | `/forum/away.php` | High
 6 | File | `/horde/util/go.php` | High
-7 | File | `/plain` | Low
-8 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `admin/admin.shtml` | High
-11 | File | `admin/import/class-import-settings.php` | High
-12 | File | `Administration/Controllers/ImportController.cs` | High
-13 | File | `administrator/components/com_media/helpers/media.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/plain` | Low
+9 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `admin/admin.shtml` | High
+12 | File | `admin/import/class-import-settings.php` | High
+13 | File | `Administration/Controllers/ImportController.cs` | High
 14 | ... | ... | ...
 
-There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

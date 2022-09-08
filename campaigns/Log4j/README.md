@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4909,13 +4909,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4923,20 +4923,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/plugin/uninstall` | High
-2 | File | `/api/plugin/upload` | High
-3 | File | `/auth/callback` | High
-4 | File | `/debug/pprof` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/Items/*/RemoteImages/Download` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-9 | File | `/ossn/administrator/com_installer` | High
-10 | File | `/ossn/home` | Medium
-11 | File | `/secure/ViewCollectors` | High
-12 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/waste` | High
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/changestock.php` | High
+5 | File | `/admin/history.php` | High
+6 | File | `/admin/modify.php` | High
+7 | File | `/admin/modify1.php` | High
+8 | File | `/admin/search.php` | High
+9 | File | `/advanced-tools/nova/bin/netwatch` | High
+10 | File | `/api/v1/user` | Medium
+11 | File | `/card_scan.php` | High
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/classes/Master.php?f=delete_account` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=delete_item` | High
+16 | File | `/classes/Master.php?f=delete_payment` | High
+17 | File | `/classes/Master.php?f=delete_schedule` | High
+18 | File | `/classes/Master.php?f=delete_stockin` | High
+19 | File | `/classes/Master.php?f=delete_stockout` | High
+20 | File | `/classes/Master.php?f=delete_student` | High
+21 | File | `/classes/Master.php?f=delete_waste` | High
+22 | File | `/classes/Users.php?f=save_client` | High
+23 | File | `/coreframe/app/attachment/admin/index.php` | High
+24 | File | `/etc/ciel.cfg` | High
+25 | File | `/etc/init0.d/S80telnetd.sh` | High
+26 | File | `/etc/networkd-dispatcher` | High
+27 | File | `/etc/shadow` | Medium
+28 | File | `/etc/shadow.sample` | High
+29 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

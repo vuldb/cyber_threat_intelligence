@@ -43,9 +43,10 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [45.76.218.247](https://vuldb.com/?ip.45.76.218.247) | 45.76.218.247.vultrusercontent.com | - | High
 14 | [45.77.178.47](https://vuldb.com/?ip.45.77.178.47) | 45.77.178.47.vultrusercontent.com | - | High
 15 | [45.77.214.244](https://vuldb.com/?ip.45.77.214.244) | - | - | High
-16 | ... | ... | ... | ...
+16 | [45.125.12.147](https://vuldb.com/?ip.45.125.12.147) | spk.cloudie.hk | - | High
+17 | ... | ... | ... | ...
 
-There are 60 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,18 +72,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/manager/admin_mod.php` | High
 4 | File | `/cgi-bin/api-get_line_status` | High
 5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/export` | Low
-7 | File | `/getcfg.php` | Medium
-8 | File | `/includes/rrdtool.inc.php` | High
-9 | File | `/onvif/device_service` | High
-10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `ActiveMediaServer.exe` | High
-13 | File | `addentry.php` | Medium
-14 | File | `administrator/components/com_media/helpers/media.php` | High
+6 | File | `/CMD_ACCOUNT_ADMIN` | High
+7 | File | `/controller/OnlinePreviewController.java` | High
+8 | File | `/export` | Low
+9 | File | `/getcfg.php` | Medium
+10 | File | `/includes/rrdtool.inc.php` | High
+11 | File | `/onvif/device_service` | High
+12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `ActiveMediaServer.exe` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,6 +91,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/369/tropic-trooper-apt-iocs/
 * https://citizenlab.ca/2016/11/parliament-keyboy/
+* https://citizenlab.ca/2018/08/familiar-feeling-a-malware-campaign-targeting-the-tibetan-diaspora-resurfaces/
 * https://documents.trendmicro.com/assets/Tech-Brief-Tropic-Trooper-s-Back-USBferry-Attack-Targets-Air-gapped-Environments.pdf
 * https://github.com/citizenlab/malware-indicators/blob/master/201808_FamiliarFeeling/indicators.csv
 * https://unit42.paloaltonetworks.com/unit42-tropic-trooper-targets-taiwanese-government-and-fossil-fuel-provider-with-poison-ivy/

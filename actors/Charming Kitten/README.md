@@ -9,18 +9,19 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with Charming Kitten:
 
 * CVE-2021-34473 / CVE-2021-34523 / CVE-2021-31207
+* HYPERSCRAPE
 * Log4Shell
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Charming Kitten:
 
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,9 +51,10 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [54.37.164.254](https://vuldb.com/?ip.54.37.164.254) | - | - | High
 21 | [54.38.49.6](https://vuldb.com/?ip.54.38.49.6) | ip6.ip-54-38-49.eu | Log4Shell | High
 22 | [69.30.221.126](https://vuldb.com/?ip.69.30.221.126) | - | - | High
-23 | ... | ... | ... | ...
+23 | [69.30.224.244](https://vuldb.com/?ip.69.30.224.244) | ramuran.eveningcatcher.com | - | High
+24 | ... | ... | ... | ...
 
-There are 89 more IOC items available. Please use our online service to access the data.
+There are 90 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,39 +77,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/app/options.py` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/bsms/?page=manage_account` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
+2 | File | `/ad_js.php` | Medium
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/app/options.py` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/ci_hms/massage_room/edit/1` | High
 9 | File | `/core/conditions/AbstractWrapper.java` | High
 10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/hosts` | Medium
-13 | File | `/file?action=download&file` | High
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/index/jobfairol/show/` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/plugin/LiveChat/getChat.json.php` | High
-21 | File | `/proc/<PID>/mem` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/tmp` | Low
-27 | ... | ... | ...
+11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/file?action=download&file` | High
+15 | File | `/fuel/index.php/fuel/logs/items` | High
+16 | File | `/fuel/sitevariables/delete/4` | High
+17 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+18 | File | `/index/jobfairol/show/` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/manage-apartment.php` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+23 | File | `/pages/apply_vacancy.php` | High
+24 | File | `/plugin/LiveChat/getChat.json.php` | High
+25 | File | `/proc/<PID>/mem` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+28 | File | `/tmp/zarafa-vacation-*` | High
+29 | File | `/uncpath/` | Medium
+30 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.google/threat-analysis-group/new-iranian-apt-data-extraction-tool/
 * https://github.com/blackorbird/APT_REPORT/tree/master/Charming%20Kitten
 * https://research.checkpoint.com/2022/apt35-exploits-log4j-vulnerability-to-distribute-new-modular-powershell-toolkit/
 * https://thedfirreport.com/2022/03/21/apt35-automates-initial-access-using-proxyshell/

@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -71,16 +71,16 @@ ID | Type | Indicator | Confidence
 6 | File | `/login.html` | Medium
 7 | File | `/medical/inventories.php` | High
 8 | File | `/pages.php` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-11 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-12 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-13 | File | `abm.aspx` | Medium
-14 | File | `actions/ChangeConfiguration.html` | High
-15 | File | `adclick.php` | Medium
+9 | File | `/patient/doctors.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+12 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+13 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+14 | File | `abm.aspx` | Medium
+15 | File | `actions/ChangeConfiguration.html` | High
 16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

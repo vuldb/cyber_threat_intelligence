@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT10:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT10:
 
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -69,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,39 +78,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
-2 | File | `/drivers/infiniband/core/cm.c` | High
-3 | File | `/files.md5` | Medium
-4 | File | `/forum/away.php` | High
-5 | File | `/horde/util/go.php` | High
-6 | File | `/images/` | Medium
-7 | File | `/inc/parser/xhtml.php` | High
-8 | File | `/login` | Low
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/one_church/userregister.php` | High
-11 | File | `/out.php` | Medium
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-19 | File | `/system/proxy` | High
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/v2/quantum/save-data-upload-big-file` | High
-23 | File | `4.edu.php` | Medium
-24 | File | `adclick.php` | Medium
-25 | File | `addentry.php` | Medium
-26 | File | `addressbookprovider.php` | High
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin/pageUploadCSV.php` | High
-29 | File | `ajax_udf.php` | Medium
-30 | File | `AppCompatCache.exe` | High
-31 | File | `application.js.php` | High
-32 | ... | ... | ...
+2 | File | `/dashboard/updatelogo.php` | High
+3 | File | `/drivers/infiniband/core/cm.c` | High
+4 | File | `/files.md5` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/horde/util/go.php` | High
+7 | File | `/images/` | Medium
+8 | File | `/inc/parser/xhtml.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/login` | Low
+11 | File | `/members/view_member.php` | High
+12 | File | `/mkshop/Men/profile.php` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/Noxen-master/users.php` | High
+15 | File | `/one_church/userregister.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+23 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+24 | File | `/system/proxy` | High
+25 | File | `/tmp/phpglibccheck` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/v2/quantum/save-data-upload-big-file` | High
+28 | File | `4.edu.php` | Medium
+29 | File | `adclick.php` | Medium
+30 | File | `addentry.php` | Medium
+31 | File | `addressbookprovider.php` | High
+32 | File | `admin.jcomments.php` | High
+33 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

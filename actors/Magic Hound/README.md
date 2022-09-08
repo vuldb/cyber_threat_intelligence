@@ -96,9 +96,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/services/prefs.php` | High
 22 | File | `/src/njs_object.c` | High
 23 | File | `/uncpath/` | Medium
-24 | ... | ... | ...
+24 | File | `/wordpress-gallery-transformation/gallery.php` | High
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

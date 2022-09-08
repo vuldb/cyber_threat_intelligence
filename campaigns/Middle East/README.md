@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
+* [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -36,25 +36,27 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.34.180.252](https://vuldb.com/?ip.5.34.180.252) | storage-948074.hosted-by.itldc.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
 2 | [5.34.181.13](https://vuldb.com/?ip.5.34.181.13) | backups231.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-3 | [23.94.218.221](https://vuldb.com/?ip.23.94.218.221) | 23-94-218-221-host.colocrossing.com | [Molerats](https://vuldb.com/?actor.molerats) | High
-4 | [31.192.105.16](https://vuldb.com/?ip.31.192.105.16) | down-it-niscat.donotbargain.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-5 | [31.192.105.17](https://vuldb.com/?ip.31.192.105.17) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-6 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-7 | [38.130.75.20](https://vuldb.com/?ip.38.130.75.20) | h20-us75.fcsrv.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-8 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | [Molerats](https://vuldb.com/?actor.molerats) | Medium
-9 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | [Wirte](https://vuldb.com/?actor.wirte) | High
-10 | [45.129.97.207](https://vuldb.com/?ip.45.129.97.207) | - | [Wirte](https://vuldb.com/?actor.wirte) | High
-11 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-12 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-13 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-14 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-15 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-16 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-17 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-18 | [91.203.6.27](https://vuldb.com/?ip.91.203.6.27) | wbqj.duound.com | [Wirte](https://vuldb.com/?actor.wirte) | High
-19 | ... | ... | ... | ...
+3 | [23.94.50.197](https://vuldb.com/?ip.23.94.50.197) | 23-94-50-197-host.colocrossing.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+4 | [23.94.218.221](https://vuldb.com/?ip.23.94.218.221) | 23-94-218-221-host.colocrossing.com | [Molerats](https://vuldb.com/?actor.molerats) | High
+5 | [23.95.215.100](https://vuldb.com/?ip.23.95.215.100) | 23-95-215-100-host.colocrossing.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+6 | [31.192.105.16](https://vuldb.com/?ip.31.192.105.16) | down-it-niscat.donotbargain.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+7 | [31.192.105.17](https://vuldb.com/?ip.31.192.105.17) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+8 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+9 | [38.130.75.20](https://vuldb.com/?ip.38.130.75.20) | h20-us75.fcsrv.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+10 | [45.63.49.202](https://vuldb.com/?ip.45.63.49.202) | 45.63.49.202.vultr.com | [Molerats](https://vuldb.com/?actor.molerats) | Medium
+11 | [45.129.96.174](https://vuldb.com/?ip.45.129.96.174) | free.gmhost.hosting | [Wirte](https://vuldb.com/?actor.wirte) | High
+12 | [45.129.97.207](https://vuldb.com/?ip.45.129.97.207) | - | [Wirte](https://vuldb.com/?actor.wirte) | High
+13 | [51.68.244.39](https://vuldb.com/?ip.51.68.244.39) | ip39.ip-51-68-244.eu | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+14 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+15 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+16 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+17 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+18 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+19 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+20 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+21 | ... | ... | ... | ...
 
-There are 72 more IOC items available. Please use our online service to access the data.
+There are 79 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,51 +79,69 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=fileman&section=get&page=grid` | High
-2 | File | `/action/import_sdk_file/` | High
-3 | File | `/admin.php/pic/admin/type/pl_save` | High
-4 | File | `/admin/conferences/list/` | High
-5 | File | `/admin/deluser.php` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/googleads.php` | High
-8 | File | `/admin/operations/tax.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/scheprofile.cgi` | High
-11 | File | `/admin/vca/license/license_tok.cgi` | High
-12 | File | `/AJAX/ajaxget` | High
-13 | File | `/api/plugin/uninstall` | High
-14 | File | `/bcms/admin/courts/manage_court.php` | High
-15 | File | `/car-rental-management-system/admin/manage_booking.php` | High
-16 | File | `/catcompany.php` | High
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/cgi-bin/readfile.tcl` | High
-19 | File | `/cgi-bin/touchlist_sync.cgi` | High
-20 | File | `/churchcrm/WhyCameEditor.php` | High
-21 | File | `/classes/Users.php?f=save` | High
-22 | File | `/defaultui/player/modern.html` | High
-23 | File | `/etc/quagga` | Medium
-24 | File | `/ffos/admin/categories/manage_category.php` | High
-25 | File | `/ffos/admin/menus/view_menu.php` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/includes/db_connect.php` | High
-28 | File | `/index.php?page=search/rentals` | High
-29 | File | `/isms/admin/stocks/view_stock.php` | High
-30 | File | `/lists/admin/` | High
-31 | File | `/login.php` | Medium
-32 | File | `/orrs/admin/trains/manage_train.php` | High
-33 | File | `/otps/classes/Master.php?f=delete_team` | High
-34 | File | `/pages/permit/permit.php` | High
-35 | File | `/pdfalto/src/pdfalto.cc` | High
-36 | File | `/pms/admin/crimes/manage_crime.php` | High
-37 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/add_trainers.php` | High
+3 | File | `/admin/header.inc.php` | High
+4 | File | `/admin/vca/license/license_tok.cgi` | High
+5 | File | `/AJAX/ajaxget` | High
+6 | File | `/api/plugin/uninstall` | High
+7 | File | `/api/v2/config` | High
+8 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+10 | File | `/claire_blake` | High
+11 | File | `/classes/Users.php?f=save_client` | High
+12 | File | `/coreframe/app/attachment/admin/index.php` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/defaultui/player/modern.html` | High
+15 | File | `/dishes.php` | Medium
+16 | File | `/etc/init0.d/S80telnetd.sh` | High
+17 | File | `/etc/quagga` | Medium
+18 | File | `/etc/shadow.sample` | High
+19 | File | `/fax/fax_send.php` | High
+20 | File | `/gfxpoly/stroke.c` | High
+21 | File | `/goform/addRouting` | High
+22 | File | `/goform/form2Wan.cgi` | High
+23 | File | `/htdocs/utils/Files.php` | High
+24 | File | `/include/menu_u.inc.php` | High
+25 | File | `/includes/db_connect.php` | High
+26 | File | `/includes/images.php` | High
+27 | File | `/ip/admin/` | Medium
+28 | File | `/jfinal_cms/system/role/list` | High
+29 | File | `/librarian/edit_book_details.php` | High
+30 | File | `/login.php` | Medium
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/master/index.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/oa/setup/checkPool?database` | High
+35 | File | `/pages/class_sched.php` | High
+36 | File | `/pages/faculty_sched.php` | High
+37 | File | `/pages/permit/permit.php` | High
+38 | File | `/pages/processlogin.php` | High
+39 | File | `/patient/booking.php` | High
+40 | File | `/php_action/createUser.php` | High
+41 | File | `/pms/update_medicine.php` | High
+42 | File | `/pms/update_user.php` | High
+43 | File | `/qr/I/` | Low
+44 | File | `/release-x64/otfccdump` | High
+45 | File | `/see_more_details.php` | High
+46 | File | `/servlet/AdapterHTTP` | High
+47 | File | `/session/sendmail` | High
+48 | File | `/sistema/flash/reboot` | High
+49 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+50 | File | `/templates/default/html/windows/right.php` | High
+51 | File | `/ubus/uci.apply` | High
+52 | File | `/web/api/v1/upload/UploadHandler.php` | High
+53 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2020/01/mideast-tensions-preparations.html
+* https://community.blueliv.com/#!/s/5fd096f382df413eaf344efc
+* https://community.blueliv.com/#!/s/6053819b82df413eaf346332
 * https://gblogs.cisco.com/jp/2018/12/talos-dnspionage-campaign-targets-middle-east/)
 * https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/
 * https://www.zscaler.com/blogs/security-research/new-espionage-attack-molerats-apt-targeting-users-middle-east

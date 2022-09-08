@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PingPull:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [HK](https://vuldb.com/?country.hk)
 * ...
 
@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,17 +77,18 @@ ID | Type | Indicator | Confidence
 4 | File | `/download` | Medium
 5 | File | `/etc/shadow` | Medium
 6 | File | `/inc/extensions.php` | High
-7 | File | `/Items/*/RemoteImages/Download` | High
-8 | File | `/mifs/c/i/reg/reg.html` | High
-9 | File | `/nova/bin/console` | High
-10 | File | `/out.php` | Medium
-11 | File | `/owa/auth/logon.aspx` | High
-12 | File | `/req_password_user.php` | High
-13 | File | `/secure/QueryComponent!Default.jspa` | High
-14 | File | `/service/upload` | High
-15 | ... | ... | ...
+7 | File | `/index.php` | Medium
+8 | File | `/Items/*/RemoteImages/Download` | High
+9 | File | `/members/view_member.php` | High
+10 | File | `/mifs/c/i/reg/reg.html` | High
+11 | File | `/nova/bin/console` | High
+12 | File | `/out.php` | Medium
+13 | File | `/owa/auth/logon.aspx` | High
+14 | File | `/req_password_user.php` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

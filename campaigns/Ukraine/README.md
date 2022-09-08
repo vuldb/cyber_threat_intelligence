@@ -10,6 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [LA](https://vuldb.com/?country.la)
+* [CH](https://vuldb.com/?country.ch)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -80,13 +84,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,18 +99,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/operations/packages.php` | High
-2 | File | `/edituser.php` | High
-3 | File | `/pages/permit/permit.php` | High
-4 | File | `/php_action/createUser.php` | High
-5 | File | `/products/view_product.php` | High
-6 | File | `/sistema/flash/reboot` | High
-7 | File | `/src/video/x11/SDL_x11yuv.c` | High
-8 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-9 | File | `/system/user` | Medium
-10 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/stockout` | High
+3 | File | `/admin/?page=reports/waste` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/delete.php` | High
+8 | File | `/admin/delstu.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/products/controller.php?action=add` | High
+11 | File | `/categories/view_category.php` | High
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/classes/Master.php?f=delete_account` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=delete_img` | High
+16 | File | `/classes/Master.php?f=delete_payment` | High
+17 | File | `/classes/Master.php?f=delete_schedule` | High
+18 | File | `/classes/Master.php?f=delete_student` | High
+19 | File | `/classes/Users.php?f=save_client` | High
+20 | File | `/defaultui/player/modern.html` | High
+21 | File | `/etc/ciel.cfg` | High
+22 | File | `/etc/init0.d/S80telnetd.sh` | High
+23 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

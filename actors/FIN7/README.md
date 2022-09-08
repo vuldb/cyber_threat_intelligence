@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with FIN7:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FIN7:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,13 +82,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,35 +103,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/payment.php` | High
 7 | File | `/admin/reports.php` | High
 8 | File | `/admin/showbad.php` | High
-9 | File | `/admin_page/all-files-update-ajax.php` | High
+9 | File | `/ad_js.php` | Medium
 10 | File | `/Ap4RtpAtom.cpp` | High
 11 | File | `/app/options.py` | High
-12 | File | `/bcms/admin/?page=user/list` | High
-13 | File | `/bsms/?page=manage_account` | High
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/login.cgi` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/bsms/?page=manage_account` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/login.cgi` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 18 | File | `/debug/pprof` | Medium
-19 | File | `/dms/admin/reports/daily_collection_report.php` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/fuel/index.php/fuel/logs/items` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/info.cgi` | Medium
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/lists/admin/` | High
-30 | File | `/MagickCore/image.c` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-33 | File | `/out.php` | Medium
-34 | File | `/proc/<PID>/mem` | High
-35 | ... | ... | ...
+19 | File | `/etc/hosts` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/lists/admin/` | High
+28 | File | `/MagickCore/image.c` | High
+29 | File | `/manage-apartment.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/out.php` | Medium
+32 | File | `/pages/apply_vacancy.php` | High
+33 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

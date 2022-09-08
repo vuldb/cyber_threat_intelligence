@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [23.102.1.5](https://vuldb.com/?ip.23.102.1.5) | - | - | High
-2 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
-3 | [79.134.225.35](https://vuldb.com/?ip.79.134.225.35) | - | - | High
+2 | [34.71.81.158](https://vuldb.com/?ip.34.71.81.158) | 158.81.71.34.bc.googleusercontent.com | - | Medium
+3 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,6 +62,7 @@ There are 59 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/195/asyncrat-rat-iocs/
 * https://blog.morphisec.com/tracking-hcrypt-an-active-crypter-as-a-service
 * https://blog.talosintelligence.com/2022/04/asyncrat-3losh-update.html
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20AsyncRAT%20IOCs

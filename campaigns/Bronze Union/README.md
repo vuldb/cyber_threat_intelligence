@@ -57,7 +57,7 @@ ID | Type | Indicator | Confidence
 3 | File | `public/?s=index/\think\app/invokefunction&function=call_user_func_array&vars[0]=system&vars[1][]` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

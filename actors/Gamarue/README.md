@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,18 +82,18 @@ ID | Type | Indicator | Confidence
 15 | File | `/icingaweb2/navigation/add` | High
 16 | File | `/lookin/info` | Medium
 17 | File | `/plugins/servlet/jira-blockers/` | High
-18 | File | `/register.do` | Medium
-19 | File | `/sessions/sess_<sessionid>` | High
-20 | File | `/themes/<php_file_name>` | High
-21 | File | `/tmp/speedtest_urls.xml` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/upload` | Low
-24 | File | `/var/log/nginx` | High
-25 | File | `/wbg/core/_includes/authorization.inc.php` | High
-26 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-27 | File | `/wp-admin/admin.php` | High
-28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-29 | File | `account.asp` | Medium
+18 | File | `/ptipupgrade.cgi` | High
+19 | File | `/register.do` | Medium
+20 | File | `/sessions/sess_<sessionid>` | High
+21 | File | `/themes/<php_file_name>` | High
+22 | File | `/tmp/speedtest_urls.xml` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/var/log/nginx` | High
+26 | File | `/wbg/core/_includes/authorization.inc.php` | High
+27 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+28 | File | `/wp-admin/admin.php` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 30 | ... | ... | ...
 
 There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

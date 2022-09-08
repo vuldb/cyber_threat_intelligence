@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -66,11 +66,12 @@ ID | Type | Indicator | Confidence
 10 | File | `/config/service/host.go` | High
 11 | File | `/data/sqldata` | High
 12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-13 | File | `/lan.asp` | Medium
-14 | File | `/Pwrchute` | Medium
-15 | ... | ... | ...
+13 | File | `/htmldoc/htmldoc/html.cxx` | High
+14 | File | `/lan.asp` | Medium
+15 | File | `/login.php` | Medium
+16 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

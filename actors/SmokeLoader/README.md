@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with SmokeLoader:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SmokeLoader:
 
-* [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -113,9 +113,10 @@ ID | Type | Indicator | Confidence
 46 | File | `/wp-content/plugins/forum-server/feed.php` | High
 47 | File | `/{ADMIN-FILE}/` | High
 48 | File | `a2billing/customer/iridium_threed.php` | High
-49 | ... | ... | ...
+49 | File | `address.html` | Medium
+50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

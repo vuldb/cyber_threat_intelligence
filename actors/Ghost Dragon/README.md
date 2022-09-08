@@ -31,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +44,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mifs/c/i/reg/reg.html` | High
-2 | File | `/server-info` | Medium
-3 | File | `/wp-json/oembed/1.0/embed?url` | High
-4 | File | `a2billing/customer/iridium_threed.php` | High
-5 | File | `admin.php?s=/Channel/add.html` | High
-6 | File | `admin/class-bulk-editor-list-table.php` | High
-7 | File | `administrator/components/com_media/helpers/media.php` | High
-8 | File | `auth.asp` | Medium
+1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+2 | File | `/mifs/c/i/reg/reg.html` | High
+3 | File | `/server-info` | Medium
+4 | File | `/wp-json/oembed/1.0/embed?url` | High
+5 | File | `a2billing/customer/iridium_threed.php` | High
+6 | File | `admin.php?s=/Channel/add.html` | High
+7 | File | `admin/class-bulk-editor-list-table.php` | High
+8 | File | `administrator/components/com_media/helpers/media.php` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

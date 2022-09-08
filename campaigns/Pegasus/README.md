@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -69,42 +69,44 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php` | Medium
 2 | File | `/admin/info.php` | High
 3 | File | `/admin/user_list_backend.php` | High
-4 | File | `/cfg` | Low
-5 | File | `/cgi?` | Low
-6 | File | `/etc/controller-agent/agent.conf` | High
-7 | File | `/forms/web_importTFTP` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/graphql` | Medium
-10 | File | `/individual` | Medium
-11 | File | `/jeecg-boot/jmreport/view` | High
-12 | File | `/localhost/u` | Medium
-13 | File | `/net` | Low
-14 | File | `/opt/bin/cli` | Medium
-15 | File | `/out.php` | Medium
-16 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-19 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/v2/devices/add` | High
-22 | File | `/var/ipfire/backup/bin/backup.pl` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `accounts/view_details.php` | High
-26 | File | `adclick.php` | Medium
-27 | File | `AddEvent.php` | Medium
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin.php?m=backup&c=backup&a=doback` | High
-31 | File | `admin.php?mod=product&act=state` | High
-32 | File | `admin/admin_process.php` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin/cp-functions/event-add.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/modules/tools/ip_history_logs.php` | High
-37 | ... | ... | ...
+4 | File | `/cgi?` | Low
+5 | File | `/etc/controller-agent/agent.conf` | High
+6 | File | `/forms/web_importTFTP` | High
+7 | File | `/graphql` | Medium
+8 | File | `/individual` | Medium
+9 | File | `/jeecg-boot/jmreport/view` | High
+10 | File | `/localhost/u` | Medium
+11 | File | `/net` | Low
+12 | File | `/opt/bin/cli` | Medium
+13 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+16 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+17 | File | `/templates/header.inc.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/v2/devices/add` | High
+20 | File | `/var/ipfire/backup/bin/backup.pl` | High
+21 | File | `/wp-json/wc/v3/webhooks` | High
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `account.php` | Medium
+24 | File | `accounts/view_details.php` | High
+25 | File | `AddEvent.php` | Medium
+26 | File | `admin.jcomments.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin.php?m=backup&c=backup&a=doback` | High
+29 | File | `admin.php?mod=product&act=state` | High
+30 | File | `admin/admin_process.php` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/cp-functions/event-add.php` | High
+33 | File | `admin/index.php` | High
+34 | File | `admin/modules/tools/ip_history_logs.php` | High
+35 | File | `admin/netbase/clean.php` | High
+36 | File | `admin/scripts/FileUploader/php.php` | High
+37 | File | `admin/ueditor/uploadFile` | High
+38 | File | `admin/user_perm.php` | High
+39 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

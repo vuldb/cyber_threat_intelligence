@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -104,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,52 +113,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/#/CampaignManager/users` | High
-3 | File | `/admin/admin_login.php` | High
-4 | File | `/app/options.py` | High
-5 | File | `/cgi-bin/luci/api/auth` | High
-6 | File | `/cgi-bin/luci/api/diagnose` | High
-7 | File | `/ci_spms/admin/category` | High
-8 | File | `/ci_spms/admin/search/searching/` | High
-9 | File | `/classes/Master.php?f=delete_train` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/dashboard/menu-list.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/config/image_sign` | High
+2 | File | `/admin/students/view_student.php` | High
+3 | File | `/app/options.py` | High
+4 | File | `/ci_spms/admin/category` | High
+5 | File | `/ci_spms/admin/search/searching/` | High
+6 | File | `/claire_blake` | High
+7 | File | `/classes/Master.php?f=delete_train` | High
+8 | File | `/coreframe/app/attachment/admin/index.php` | High
+9 | File | `/dashboard/menu-list.php` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/config/image_sign` | High
+12 | File | `/etc/init0.d/S80telnetd.sh` | High
+13 | File | `/etc/shadow.sample` | High
 14 | File | `/ffos/classes/Master.php?f=save_category` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/gaia-job-admin/user/add` | High
-17 | File | `/ghost/preview` | High
-18 | File | `/goforms/rlminfo` | High
-19 | File | `/HNAP1` | Low
-20 | File | `/login` | Low
-21 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-22 | File | `/member/index/login.html` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/ocwbs/admin/?page=user/manage_user` | High
-25 | File | `/ofrs/admin/?page=user/manage_user` | High
-26 | File | `/p1/p2/:name` | Medium
-27 | File | `/php/passport/index.php` | High
-28 | File | `/rdms/admin/?page=user/manage_user` | High
-29 | File | `/requests.php` | High
-30 | File | `/saml/login` | Medium
-31 | File | `/ScadaBR/login.htm` | High
-32 | File | `/setting/setDeviceName` | High
-33 | File | `/setting/setLanguageCfg` | High
-34 | File | `/setting/setUploadSetting` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/ubus/uci.apply` | High
-37 | File | `/upload` | Low
-38 | File | `/user-utils/users/md5.json` | High
-39 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-40 | File | `/var/adm/btmp` | High
-41 | File | `/vloggers_merch/?p=view_product` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `account/login.php` | High
-44 | File | `ad/login.asp` | Medium
-45 | ... | ... | ...
+15 | File | `/gaia-job-admin/user/add` | High
+16 | File | `/ghost/preview` | High
+17 | File | `/goform/setmac` | High
+18 | File | `/htdocs/utils/Files.php` | High
+19 | File | `/Items/*/RemoteImages/Download` | High
+20 | File | `/jfinal_cms/system/role/list` | High
+21 | File | `/librarian/edit_book_details.php` | High
+22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+23 | File | `/management/api/rcx_management/global_config_query` | High
+24 | File | `/master/index.php` | High
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/ocwbs/admin/?page=user/manage_user` | High
+27 | File | `/ofrs/admin/?page=user/manage_user` | High
+28 | File | `/p1/p2/:name` | Medium
+29 | File | `/pages/faculty_sched.php` | High
+30 | File | `/php_action/createUser.php` | High
+31 | File | `/rdms/admin/?page=user/manage_user` | High
+32 | File | `/redbin/rpwebutilities.exe/text` | High
+33 | File | `/requests.php` | High
+34 | File | `/servlet/AdapterHTTP` | High
+35 | File | `/setting/setDeviceName` | High
+36 | File | `/setting/setLanguageCfg` | High
+37 | File | `/setting/setUploadSetting` | High
+38 | File | `/spip.php` | Medium
+39 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

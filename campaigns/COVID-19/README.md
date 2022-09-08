@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -152,12 +152,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -168,34 +169,47 @@ ID | Type | Indicator | Confidence
 1 | File | `.python-version` | High
 2 | File | `/?ajax-request=jnews` | High
 3 | File | `/admin/inc/include.php` | High
-4 | File | `/app/controller/Books.php` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/catcompany.php` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/churchcrm/WhyCameEditor.php` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/hosts` | Medium
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-18 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-19 | File | `/index/jobfairol/show/` | High
-20 | File | `/language/lang` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/loginsave.php` | High
-23 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-24 | File | `/mcategory.php` | High
-25 | File | `/menu.html` | Medium
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/modules/projects/vw_files.php` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | ... | ... | ...
+4 | File | `/admin/index.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/alarm_pi/alarmService.php` | High
+7 | File | `/app/controller/Books.php` | High
+8 | File | `/appliance/users?action=edit` | High
+9 | File | `/bin/login` | Medium
+10 | File | `/catcompany.php` | High
+11 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+12 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/coreframe/app/pay/admin/index.php` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/shadow` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/ghost/preview` | High
+23 | File | `/h/search?action` | High
+24 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+27 | File | `/language/lang` | High
+28 | File | `/loginsave.php` | High
+29 | File | `/loginVaLidation.php` | High
+30 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+31 | File | `/manage-apartment.php` | High
+32 | File | `/mcategory.php` | High
+33 | File | `/members/view_member.php` | High
+34 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/modules/projects/vw_files.php` | High
+37 | File | `/ows-bin` | Medium
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/rest/collectors/1.0/template/custom` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/ubus/uci.apply` | High
+42 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

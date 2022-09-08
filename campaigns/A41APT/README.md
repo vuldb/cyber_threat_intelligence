@@ -58,11 +58,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/addnews.html` | High
 2 | File | `/sysworkflow/en/neoclassic/reportTables/reportTables_Ajax` | High
 3 | File | `account.asp` | Medium
-4 | File | `admin/admin.shtml` | High
-5 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-6 | ... | ... | ...
+4 | File | `admin/admin.php` | High
+5 | File | `admin/admin.shtml` | High
+6 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+7 | File | `api.php` | Low
+8 | File | `avrc_pars_tg.cc` | High
+9 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

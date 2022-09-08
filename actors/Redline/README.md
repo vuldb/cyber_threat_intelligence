@@ -64,9 +64,10 @@ ID | IP address | Hostname | Campaign | Confidence
 41 | [45.147.197.123](https://vuldb.com/?ip.45.147.197.123) | panel.antilopa.live | - | High
 42 | [45.153.184.61](https://vuldb.com/?ip.45.153.184.61) | no-reverse-yet.local | - | High
 43 | [45.156.24.97](https://vuldb.com/?ip.45.156.24.97) | palmaresk.co.uk | - | High
-44 | ... | ... | ... | ...
+44 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
+45 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 178 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,23 +103,28 @@ ID | Type | Indicator | Confidence
 12 | File | `/GponForm/device_Form?script/` | High
 13 | File | `/home` | Low
 14 | File | `/includes/rrdtool.inc.php` | High
-15 | File | `/Main_AdmStatus_Content.asp` | High
-16 | File | `/NAGErrors` | Medium
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/public` | Low
-19 | File | `/sgms/TreeControl` | High
-20 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/updown/upload.cgi` | High
-24 | ... | ... | ...
+15 | File | `/index.php` | Medium
+16 | File | `/Main_AdmStatus_Content.asp` | High
+17 | File | `/NAGErrors` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/public` | Low
+20 | File | `/sgms/TreeControl` | High
+21 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+22 | File | `/tmp` | Low
+23 | File | `/uncpath/` | Medium
+24 | File | `/updown/upload.cgi` | High
+25 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/161/redline-stealer-iocs/
+* https://1275.ru/ioc/214/redline-stealer-iocs-part-2/
+* https://1275.ru/ioc/264/gs-010-redline-stealer-iocs/
+* https://1275.ru/ioc/306/gs-030-redline-stealer-iocs/
 * https://asec.ahnlab.com/en/28835/
 * https://asec.ahnlab.com/en/28954/
 * https://asec.ahnlab.com/en/29216/

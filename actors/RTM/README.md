@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,12 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,42 +63,37 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/category_view.php` | High
-6 | File | `/dev/kmem` | Medium
-7 | File | `/file?action=download&file` | High
+4 | File | `/core/conditions/AbstractWrapper.java` | High
+5 | File | `/dashboard/updatelogo.php` | High
+6 | File | `/file?action=download&file` | High
+7 | File | `/index.php` | Medium
 8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/PreviewHandler.ashx` | High
-14 | File | `/proc/ioports` | High
-15 | File | `/replication` | Medium
-16 | File | `/RestAPI` | Medium
-17 | File | `/rom-0` | Low
-18 | File | `/tmp` | Low
-19 | File | `/tmp/speedtest_urls.xml` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/var/log/nginx` | High
-22 | File | `/wp-admin/admin.php` | High
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `abook_database.php` | High
-25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/login.php` | High
-28 | File | `admin\model\catalog\download.php` | High
-29 | File | `ajax/render/widget_php` | High
-30 | File | `apcupsd.pid` | Medium
-31 | File | `api/sms/send-sms` | High
-32 | File | `api/v1/alarms` | High
-33 | File | `application/controller/InstallerController.php` | High
-34 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-35 | File | `arformcontroller.php` | High
-36 | File | `auth-gss2.c` | Medium
-37 | ... | ... | ...
+9 | File | `/mkshop/Men/profile.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/NAGErrors` | Medium
+12 | File | `/Noxen-master/users.php` | High
+13 | File | `/plugin/LiveChat/getChat.json.php` | High
+14 | File | `/plugins/servlet/audit/resource` | High
+15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+16 | File | `/PreviewHandler.ashx` | High
+17 | File | `/recordings/index.php` | High
+18 | File | `/replication` | Medium
+19 | File | `/RestAPI` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/tmp/speedtest_urls.xml` | High
+22 | File | `/tmp/zarafa-vacation-*` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/var/log/nginx` | High
+26 | File | `/var/run/watchman.pid` | High
+27 | File | `/viewer/krpano.html` | High
+28 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+29 | File | `admin/index.php` | High
+30 | File | `admin\model\catalog\download.php` | High
+31 | File | `AdxDSrv.exe` | Medium
+32 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

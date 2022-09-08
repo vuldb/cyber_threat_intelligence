@@ -31,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
+2 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,47 +43,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/inc/include.php` | High
-2 | File | `/auth/callback` | High
-3 | File | `/modules/admin/vw_usr_roles.php` | High
-4 | File | `/modules/public/calendar.php` | High
-5 | File | `/profiles/` | Medium
-6 | File | `/resolv/nss_dns/dns-host.c` | High
-7 | File | `/util/print.c` | High
-8 | File | `account.asp` | Medium
-9 | File | `accounts/inc/include.php` | High
-10 | File | `add.php` | Low
-11 | File | `add_comment.php` | High
-12 | File | `add_contents.htm` | High
-13 | File | `add_review.htm` | High
-14 | File | `admin/BunchDetail.do` | High
-15 | File | `admin/main.php` | High
-16 | File | `advertiser.php` | High
-17 | File | `arch/powerpc/kernel/process.c` | High
-18 | File | `arch/s390/include/asm/mmu_context.h` | High
-19 | File | `arch/x86/mm/tlb.c` | High
-20 | File | `attachment_send.php` | High
-21 | File | `audit/class.audit.php` | High
-22 | File | `badlogin.php` | Medium
-23 | File | `browse.php` | Medium
-24 | File | `browsecats.php` | High
-25 | File | `C:\mingw64\bin\git.exe` | High
-26 | File | `cart.php` | Medium
-27 | File | `category.php` | Medium
-28 | File | `cdf.c` | Low
-29 | File | `check.php` | Medium
-30 | File | `closeup.php` | Medium
-31 | File | `comments.php` | Medium
-32 | File | `compiler/pipeline.cc` | High
-33 | File | `conf/revize.xml` | High
-34 | File | `config.php` | Medium
-35 | File | `contact.htm` | Medium
-36 | File | `containing` | Medium
-37 | File | `content.php` | Medium
-38 | File | `contents.php` | Medium
-39 | ... | ... | ...
+1 | File | `/admin/curltest.cgi` | High
+2 | File | `/admin/vca/license/license_tok.cgi` | High
+3 | File | `/api/storage/upload/PostImage` | High
+4 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+5 | File | `/cgi-bin/nightled.cgi` | High
+6 | File | `/cns/` | Low
+7 | File | `/doping.asp` | Medium
+8 | File | `/dotrace.asp` | Medium
+9 | File | `/etc_ro/lighttpd/www/cgi-bin/ExportAllSettings.sh` | High
+10 | File | `/frm/` | Low
+11 | File | `/goform/aspForm` | High
+12 | File | `/set_safety.shtml?r=52300` | High
+13 | File | `/sql/` | Low
+14 | File | `account_footer.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/editListing.php` | High
+17 | File | `admin/header.php` | High
+18 | File | `admin/membersearch.php` | High
+19 | File | `admin/notices/perso.inc.php` | High
+20 | File | `admin/plugin_manager.php` | High
+21 | File | `admin/ServiceConfiguration.do` | High
+22 | File | `admin_footer.php` | High
+23 | File | `Albmgr.PHP` | Medium
+24 | File | `albmgr.php` | Medium
+25 | File | `autherror.cfm` | High
+26 | File | `banners.php` | Medium
+27 | File | `Base/Application.php` | High
+28 | File | `begin.inc.php` | High
+29 | File | `blog/include/common/comfinish.cfm` | High
+30 | File | `browsecat.php` | High
+31 | File | `browseSubCat.php` | High
+32 | File | `browse_footer.php` | High
+33 | File | `chat.php` | Medium
+34 | File | `classRoom.php` | High
+35 | File | `clp` | Low
+36 | File | `cluster.php` | Medium
+37 | File | `CodeWidgets.com` | High
+38 | File | `comm.c` | Low
+39 | File | `common.inc.php` | High
+40 | File | `compose.php` | Medium
+41 | File | `CONFIG/errmsg.inc.php` | High
+42 | File | `connect/server` | High
+43 | File | `connections.c` | High
+44 | File | `contact/contact/index.php` | High
+45 | File | `contactsList.asp` | High
+46 | File | `core/support/_load.php` | High
+47 | File | `cp.php` | Low
+48 | File | `CVSROOT/passwd` | High
+49 | File | `db_ecard.php` | Medium
+50 | File | `development.php` | High
+51 | File | `download.php` | Medium
+52 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

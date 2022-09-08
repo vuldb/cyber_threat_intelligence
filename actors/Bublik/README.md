@@ -12,15 +12,18 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [66.128.53.179](https://vuldb.com/?ip.66.128.53.179) | - | - | High
 2 | [104.21.57.186](https://vuldb.com/?ip.104.21.57.186) | - | - | High
-3 | [157.240.2.35](https://vuldb.com/?ip.157.240.2.35) | edge-star-mini-shv-01-ort2.facebook.com | - | High
+3 | [143.248.35.28](https://vuldb.com/?ip.143.248.35.28) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/10/threat-roundup-1011-1018.html
+* https://blog.talosintelligence.com/2020/08/threat-roundup-0821-0827.html
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0507-0514.html
 
 ## Literature

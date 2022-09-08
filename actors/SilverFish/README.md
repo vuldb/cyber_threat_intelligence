@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -80,15 +80,15 @@ ID | Type | Indicator | Confidence
 17 | File | `/proc` | Low
 18 | File | `/rapi/read_url` | High
 19 | File | `/redpass.cgi` | Medium
-20 | File | `/rom-0` | Low
-21 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-22 | File | `/setSystemAdmin` | High
-23 | File | `/tmp` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `/user-utils/users/md5.json` | High
-26 | File | `/usr/lib/utmp_update` | High
-27 | File | `/usr/local` | Medium
-28 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+20 | File | `/release-x64/otfccdump` | High
+21 | File | `/rom-0` | Low
+22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+23 | File | `/setSystemAdmin` | High
+24 | File | `/tmp` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/user-utils/users/md5.json` | High
+27 | File | `/usr/lib/utmp_update` | High
+28 | File | `/usr/local` | Medium
 29 | File | `/wp-admin` | Medium
 30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 31 | File | `2020\Messages\SDNotify.exe` | High
@@ -96,14 +96,14 @@ ID | Type | Indicator | Confidence
 33 | File | `admin/plugin-index.php` | High
 34 | File | `administration` | High
 35 | File | `administrative` | High
-36 | File | `Alias.asmx` | Medium
-37 | File | `aolfix.exe` | Medium
-38 | File | `app/models/user.rb` | High
-39 | File | `apply.cgi` | Medium
-40 | File | `Array.prototype.concat` | High
+36 | File | `ag_server_service.exe` | High
+37 | File | `Alias.asmx` | Medium
+38 | File | `aolfix.exe` | Medium
+39 | File | `app/models/user.rb` | High
+40 | File | `apply.cgi` | Medium
 41 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

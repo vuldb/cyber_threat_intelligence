@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,48 +60,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
-4 | File | `/about.php` | Medium
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/communitymanagement.php` | High
-8 | File | `/admin/contenttemp` | High
-9 | File | `/admin/extended` | High
-10 | File | `/admin/featured.php` | High
-11 | File | `/admin/generalsettings.php` | High
-12 | File | `/admin/modules/system/custom_field.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/renewaldue.php` | High
-16 | File | `/admin/usermanagement.php` | High
-17 | File | `/api/addusers` | High
-18 | File | `/api/crontab` | Medium
-19 | File | `/category_view.php` | High
-20 | File | `/cgi-bin/wapopen` | High
-21 | File | `/cgi-mod/lookup.cgi` | High
-22 | File | `/common/info.cgi` | High
-23 | File | `/designer/add/layout` | High
-24 | File | `/filemanager/upload/drop` | High
-25 | File | `/getImage` | Medium
-26 | File | `/htmldoc/htmldoc/html.cxx` | High
-27 | File | `/interface/main/backup.php` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/login.php` | Medium
-30 | File | `/mcategory.php` | High
-31 | File | `/new` | Low
-32 | File | `/out.php` | Medium
-33 | File | `/platform.cgi` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/public/plugins/` | High
-36 | File | `/requests.php` | High
-37 | File | `/sbin/gs_config` | High
-38 | File | `/scripts/cpan_config` | High
-39 | File | `/secure/QueryComponent!Default.jspa` | High
-40 | File | `/spip.php` | Medium
+2 | File | `.procmailrc` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
+5 | File | `/about.php` | Medium
+6 | File | `/admin.php?action=themeinstall` | High
+7 | File | `/admin/` | Low
+8 | File | `/admin/communitymanagement.php` | High
+9 | File | `/admin/contenttemp` | High
+10 | File | `/admin/extended` | High
+11 | File | `/admin/featured.php` | High
+12 | File | `/admin/generalsettings.php` | High
+13 | File | `/admin/modules/system/custom_field.php` | High
+14 | File | `/admin/newsletter1.php` | High
+15 | File | `/admin/payment.php` | High
+16 | File | `/admin/renewaldue.php` | High
+17 | File | `/admin/usermanagement.php` | High
+18 | File | `/api/addusers` | High
+19 | File | `/api/crontab` | Medium
+20 | File | `/category_view.php` | High
+21 | File | `/cgi-bin/wapopen` | High
+22 | File | `/cgi-mod/lookup.cgi` | High
+23 | File | `/common/info.cgi` | High
+24 | File | `/designer/add/layout` | High
+25 | File | `/filemanager/upload/drop` | High
+26 | File | `/getImage` | Medium
+27 | File | `/htmldoc/htmldoc/html.cxx` | High
+28 | File | `/interface/main/backup.php` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/login.php` | Medium
+31 | File | `/mcategory.php` | High
+32 | File | `/new` | Low
+33 | File | `/out.php` | Medium
+34 | File | `/php_action/createUser.php` | High
+35 | File | `/platform.cgi` | High
+36 | File | `/public/login.htm` | High
+37 | File | `/public/plugins/` | High
+38 | File | `/requests.php` | High
+39 | File | `/scripts/cpan_config` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
 41 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

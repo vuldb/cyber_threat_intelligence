@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PT](https://vuldb.com/?country.pt)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -34,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,40 +49,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/featured.php` | High
-3 | File | `/ajax/config_rollback/` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/part_categories` | High
-6 | File | `/api/plugin/uninstall` | High
-7 | File | `/auditLogAction.do` | High
-8 | File | `/bmis/pages/resident/resident.php` | High
-9 | File | `/cgi-bin` | Medium
-10 | File | `/cgi-bin/ExportAllSettings.sh` | High
-11 | File | `/cgi-bin/webproc` | High
-12 | File | `/churchcrm/WhyCameEditor.php` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/dashboard/menu-list.php` | High
-15 | File | `/doping.asp` | Medium
-16 | File | `/dotrace.asp` | Medium
-17 | File | `/editbrand.php` | High
-18 | File | `/etc/cron.daily/upstart` | High
-19 | File | `/etc/lighttpd.d/ca.pem` | High
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/WanParameterSetting` | High
-23 | File | `/IISADMPWD` | Medium
-24 | File | `/index.php` | Medium
-25 | File | `/index.php?page=search/rentals` | High
-26 | File | `/job` | Low
-27 | File | `/linkedcontent/editfolder.php` | High
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/movie.php` | Medium
-30 | File | `/officials/officials.php` | High
-31 | File | `/ofrs/admin/?page=reports` | High
-32 | ... | ... | ...
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/admin/add_trainers.php` | High
+3 | File | `/admin/list_key.html` | High
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/api/plugin/uninstall` | High
+6 | File | `/artist-display.php` | High
+7 | File | `/bmis/pages/resident/resident.php` | High
+8 | File | `/cgi-bin/ExportAllSettings.sh` | High
+9 | File | `/claire_blake` | High
+10 | File | `/classes/Master.php?f=delete_account` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Master.php?f=delete_schedule` | High
+13 | File | `/classes/Master.php?f=delete_student` | High
+14 | File | `/classes/Master.php?f=delete_waste` | High
+15 | File | `/classes/Users.php?f=save_client` | High
+16 | File | `/client.php` | Medium
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/doping.asp` | Medium
+19 | File | `/dotrace.asp` | Medium
+20 | File | `/editbrand.php` | High
+21 | File | `/edituser.php` | High
+22 | File | `/etc/lighttpd.d/ca.pem` | High
+23 | File | `/etc/shadow.sample` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/exeCommand` | High
+26 | File | `/goform/form2userconfig.cgi` | High
+27 | File | `/goform/WanParameterSetting` | High
+28 | File | `/Home/debit_credit_p` | High
+29 | File | `/index.php` | Medium
+30 | File | `/login.php` | Medium
+31 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

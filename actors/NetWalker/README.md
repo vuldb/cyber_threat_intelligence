@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CO](https://vuldb.com/?country.co)
-* [RU](https://vuldb.com/?country.ru)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,17 +51,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/apply_noauth.cgi` | High
 3 | File | `/cgi-bin/wapopen` | High
 4 | File | `/config.cgi?webmin` | High
-5 | File | `/lib/` | Low
-6 | File | `/public/login.htm` | High
-7 | File | `/rom-0` | Low
-8 | File | `/uncpath/` | Medium
-9 | File | `/var/run/beaker/container_file/` | High
-10 | File | `/wordpress/wp-admin/options-general.php` | High
-11 | File | `/workspaceCleanup` | High
-12 | File | `5.2.9\syscrb.exe` | High
-13 | ... | ... | ...
+5 | File | `/index.php` | Medium
+6 | File | `/lib/` | Low
+7 | File | `/public/login.htm` | High
+8 | File | `/rom-0` | Low
+9 | File | `/uncpath/` | Medium
+10 | File | `/var/run/beaker/container_file/` | High
+11 | File | `/wordpress/wp-admin/options-general.php` | High
+12 | File | `/workspaceCleanup` | High
+13 | File | `5.2.9\syscrb.exe` | High
+14 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

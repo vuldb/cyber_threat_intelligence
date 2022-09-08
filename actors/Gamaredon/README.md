@@ -44,39 +44,42 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [37.140.199.224](https://vuldb.com/?ip.37.140.199.224) | nedvizhimostdoma.ru | - | High
 21 | [45.32.149.8](https://vuldb.com/?ip.45.32.149.8) | 45.32.149.8.vultr.com | - | Medium
 22 | [45.134.255.131](https://vuldb.com/?ip.45.134.255.131) | - | - | High
-23 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
-24 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
-25 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
-26 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
-27 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
-28 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
-29 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
-30 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
-31 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
-32 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
-33 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
-34 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
-35 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
-36 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
-37 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
-38 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
-39 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
-40 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
-41 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
-42 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
-43 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
-44 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
-45 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
-46 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
-47 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
-48 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
-49 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
-50 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
-51 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
-52 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
-53 | ... | ... | ... | ...
+23 | [45.135.134.139](https://vuldb.com/?ip.45.135.134.139) | ckus.site | - | High
+24 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
+25 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
+26 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
+27 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
+28 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
+29 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
+30 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
+31 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
+32 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
+33 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
+34 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
+35 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
+36 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
+37 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
+38 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
+39 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
+40 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
+41 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
+42 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
+43 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
+44 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
+45 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
+46 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
+47 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
+48 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
+49 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
+50 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
+51 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
+52 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
+53 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
+54 | [83.166.247.110](https://vuldb.com/?ip.83.166.247.110) | - | - | High
+55 | [83.166.247.185](https://vuldb.com/?ip.83.166.247.185) | - | - | High
+56 | ... | ... | ... | ...
 
-There are 206 more IOC items available. Please use our online service to access the data.
+There are 219 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,12 +87,35 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Gamaredon. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/objects/getImageMP4.php` | High
+2 | File | `/payu/icpcheckout/` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `admin.php` | Medium
+5 | File | `asn1fix_retrieve.c` | High
+6 | File | `bigsam_guestbook.php` | High
+7 | File | `books.php` | Medium
+8 | ... | ... | ...
+
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/215/gamaredon-apt-iocs/
 * https://blog.trendmicro.com/trendlabs-security-intelligence/gamaredon-apt-group-use-covid-19-lure-in-campaigns/
 * https://cert.gov.ua/article/10702
 * https://github.com/blackorbird/APT_REPORT/blob/master/Gamaredon/Gamaredon202102_ioc1000%2B.csv

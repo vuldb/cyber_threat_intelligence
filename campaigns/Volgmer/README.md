@@ -76,37 +76,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/../conf/config.properties` | High
-3 | File | `/catcompany.php` | High
-4 | File | `/cgi-bin/login.cgi` | High
-5 | File | `/componetns/user/class.user.php` | High
-6 | File | `/etc/passwd` | Medium
-7 | File | `/etc/tomcat8/Catalina/attack` | High
-8 | File | `/export` | Low
-9 | File | `/forgetpassword.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/front/document.form.php` | High
-12 | File | `/ibi_apps/WFServlet.cfg` | High
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/proc/sysvipc/sem` | High
-17 | File | `/rest/api/latest/projectvalidate/key` | High
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/RestAPI` | Medium
-20 | File | `/search.php` | Medium
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-23 | File | `/ServletAPI/accounts/login` | High
-24 | File | `/trigger` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/user/login/oauth` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/var/log/messages` | High
-29 | ... | ... | ...
+1 | File | `/../conf/config.properties` | High
+2 | File | `/catcompany.php` | High
+3 | File | `/cgi-bin/login.cgi` | High
+4 | File | `/componetns/user/class.user.php` | High
+5 | File | `/etc/passwd` | Medium
+6 | File | `/etc/tomcat8/Catalina/attack` | High
+7 | File | `/export` | Low
+8 | File | `/forgetpassword.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/front/document.form.php` | High
+11 | File | `/ibi_apps/WFServlet.cfg` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/out.php` | Medium
+15 | File | `/rest/api/latest/projectvalidate/key` | High
+16 | File | `/rest/collectors/1.0/template/custom` | High
+17 | File | `/RestAPI` | Medium
+18 | File | `/search.php` | Medium
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+21 | File | `/ServletAPI/accounts/login` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/user/login/oauth` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/var/log/messages` | High
+26 | File | `/var/www/core/controller/index.php` | High
+27 | File | `/WEB-INF/web.xml` | High
+28 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

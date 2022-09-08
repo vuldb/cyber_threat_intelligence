@@ -27,14 +27,18 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [34.96.224.146](https://vuldb.com/?ip.34.96.224.146) | 146.224.96.34.bc.googleusercontent.com | - | Medium
 5 | [35.220.176.90](https://vuldb.com/?ip.35.220.176.90) | 90.176.220.35.bc.googleusercontent.com | - | Medium
 6 | [35.220.214.142](https://vuldb.com/?ip.35.220.214.142) | 142.214.220.35.bc.googleusercontent.com | - | Medium
-7 | [45.32.125.79](https://vuldb.com/?ip.45.32.125.79) | manages.space | - | High
-8 | [45.76.188.118](https://vuldb.com/?ip.45.76.188.118) | - | - | High
-9 | [45.77.16.91](https://vuldb.com/?ip.45.77.16.91) | 45.77.16.91.vultrusercontent.com | - | High
-10 | [45.207.50.104](https://vuldb.com/?ip.45.207.50.104) | - | - | High
-11 | [66.154.111.63](https://vuldb.com/?ip.66.154.111.63) | unassigned.quadranet.com | - | High
-12 | ... | ... | ... | ...
+7 | [42.99.117.92](https://vuldb.com/?ip.42.99.117.92) | - | - | High
+8 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
+9 | [43.254.217.165](https://vuldb.com/?ip.43.254.217.165) | - | - | High
+10 | [45.32.125.79](https://vuldb.com/?ip.45.32.125.79) | manages.space | - | High
+11 | [45.76.188.118](https://vuldb.com/?ip.45.76.188.118) | - | - | High
+12 | [45.77.16.91](https://vuldb.com/?ip.45.77.16.91) | 45.77.16.91.vultrusercontent.com | - | High
+13 | [45.142.166.112](https://vuldb.com/?ip.45.142.166.112) | - | - | High
+14 | [45.207.50.104](https://vuldb.com/?ip.45.207.50.104) | - | - | High
+15 | [45.248.87.140](https://vuldb.com/?ip.45.248.87.140) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 61 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,57 +63,58 @@ ID | Type | Indicator | Confidence
 1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/admin/` | Low
-4 | File | `/admin/?/plugin/comment/settings` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/api/request/?OPERATION_NAME` | High
-7 | File | `/api/trackedEntityInstances` | High
-8 | File | `/apply_noauth.cgi` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/uploads.php` | High
+6 | File | `/api/trackedEntityInstances` | High
+7 | File | `/apply_noauth.cgi` | High
+8 | File | `/cgi-bin/portal` | High
 9 | File | `/context/%2e/WEB-INF/web.xml` | High
 10 | File | `/domains/index.fts` | High
 11 | File | `/download` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/foundry/modules/news/newscolumns.php` | High
-14 | File | `/ghost/preview` | High
-15 | File | `/GponForm/device_Form?script/` | High
-16 | File | `/LDMS/frm_splitfrm.aspx` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-19 | File | `/NAGErrors` | Medium
-20 | File | `/q` | Low
-21 | File | `/RestAPI` | Medium
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/service-list` | High
-24 | File | `/smstest.html` | High
-25 | File | `/start-stop` | Medium
-26 | File | `/subscribe/subscribe` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/kamailio_fifo` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/view/friend_profile.php` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/wp-json/oembed/1.0/embed?url` | High
-33 | File | `actions/authenticate.php` | High
-34 | File | `actions/doreport.php` | High
-35 | File | `addlyricsform.php` | High
-36 | File | `addmerchpicform.php` | High
-37 | File | `addresses_export.php` | High
-38 | File | `adherents/cartes/carte.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?m=backup&c=backup&a=doback` | High
-41 | File | `admin/admin.php` | High
-42 | File | `admin/admin/fileUploadAction_fileUpload.action` | High
-43 | File | `admin/AJAX_lookup_handler.php` | High
-44 | File | `admin/dashboard.php` | High
-45 | File | `admin/header.php` | High
-46 | ... | ... | ...
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/foundry/modules/news/newscolumns.php` | High
+15 | File | `/ghost/preview` | High
+16 | File | `/GponForm/device_Form?script/` | High
+17 | File | `/include/config.cache.php` | High
+18 | File | `/LDMS/frm_splitfrm.aspx` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+21 | File | `/NAGErrors` | Medium
+22 | File | `/RestAPI` | Medium
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/service-list` | High
+25 | File | `/service/upload` | High
+26 | File | `/smstest.html` | High
+27 | File | `/start-stop` | Medium
+28 | File | `/subscribe/subscribe` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/kamailio_fifo` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/view/friend_profile.php` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/wp-json/oembed/1.0/embed?url` | High
+35 | File | `/_error` | Low
+36 | File | `actions/authenticate.php` | High
+37 | File | `actions/doreport.php` | High
+38 | File | `addlyricsform.php` | High
+39 | File | `addmerchpicform.php` | High
+40 | File | `addresses_export.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin.php?m=backup&c=backup&a=doback` | High
+43 | File | `admin/admin.php` | High
+44 | File | `admin/AJAX_lookup_handler.php` | High
+45 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/146/plugx-malware-iocs/
 * https://blogs.mcafee.jp/plugx-a-talisman-to-behold
+* https://community.blueliv.com/#!/s/610141e982df417ed032f4e2
 * https://twitter.com/0xrb/status/1469184108030955529
 * https://twitter.com/0xrb/status/1470678183301181441
 * https://twitter.com/0xrb/status/1478253942123347968

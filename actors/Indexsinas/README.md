@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [NZ](https://vuldb.com/?country.nz)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -288,12 +288,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -301,21 +302,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/admin/js` | Medium
-3 | File | `/api/plugin/uninstall` | High
-4 | File | `/api/plugin/upload` | High
-5 | File | `/cgi-bin/ExportAllSettings.sh` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/init.d/sshd_service` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/index.php/?p=report` | High
-10 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-11 | File | `/ossn/administrator/com_installer` | High
-12 | File | `/ossn/home` | Medium
-13 | ... | ... | ...
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/list_key.html` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+6 | File | `/asan/asan_new_delete.cpp` | High
+7 | File | `/bin/png2swf` | Medium
+8 | File | `/bits/stl_vector.h` | High
+9 | File | `/blog/blogpublish.php` | High
+10 | File | `/blotter/blotter.php` | High
+11 | File | `/claire_blake` | High
+12 | File | `/common/bbox.cpp` | High
+13 | File | `/controller/OnlinePreviewController.java` | High
+14 | File | `/etc/init0.d/S80telnetd.sh` | High
+15 | File | `/Exago/WrImageResource.adx` | High
+16 | File | `/fax/fax_send.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/gfxpoly/stroke.c` | High
+19 | File | `/guestmanagement/front.php` | High
+20 | File | `/htdocs/upnpinc/gena.php` | High
+21 | File | `/htmldoc/htmldoc/html.cxx` | High
+22 | File | `/index.php` | Medium
+23 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

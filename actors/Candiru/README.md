@@ -86,17 +86,16 @@ ID | Type | Indicator | Confidence
 25 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
 26 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
 27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/login` | Low
-29 | File | `/mngset/authset` | High
-30 | File | `/module/module_frame/index.php` | High
-31 | File | `/nova/bin/sniffer` | High
-32 | File | `/ofcms/company-c-47` | High
-33 | File | `/proc/*/cmdline"` | High
-34 | File | `/proc/pid/syscall` | High
-35 | File | `/product_list.php` | High
-36 | ... | ... | ...
+28 | File | `/librarian/lab.php` | High
+29 | File | `/login` | Low
+30 | File | `/mngset/authset` | High
+31 | File | `/module/module_frame/index.php` | High
+32 | File | `/nova/bin/sniffer` | High
+33 | File | `/ofcms/company-c-47` | High
+34 | File | `/patient/settings.php` | High
+35 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,50 +69,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/admin/general/change-lang` | High
-4 | File | `/admin/js` | Medium
-5 | File | `/admin/vca/bia/addacph.cgi` | High
-6 | File | `/ajax/config_rollback/` | High
-7 | File | `/ajax/remove_sniffer_raw_log/` | High
-8 | File | `/api/plugin/upload` | High
-9 | File | `/category.php` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/classes/Master.php?f=delete_schedule` | High
-13 | File | `/dashboard/menu-list.php` | High
-14 | File | `/dev/pts/` | Medium
-15 | File | `/dotrace.asp` | Medium
-16 | File | `/ffos/classes/Master.php?f=save_category` | High
-17 | File | `/film-rating.php` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/includes/session.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/index.php?r=site%2Fsignup` | High
-22 | File | `/list` | Low
-23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-24 | File | `/modules/projects/gantt.php` | High
-25 | File | `/ossn/administrator/com_installer` | High
-26 | File | `/pages/activity/activity.php` | High
-27 | File | `/php_action/createUser.php` | High
-28 | File | `/pms/update_user.php?user_id=1` | High
-29 | File | `/school/view/timetable_insert_form.php` | High
-30 | File | `/sys/amd64/amd64/sys_machdep.c` | High
-31 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-32 | File | `/vicidial/admin.php` | High
-33 | File | `/vicidial/AST_agent_time_sheet.php` | High
-34 | File | `addphotosform.php` | High
-35 | File | `addreviewsform.php` | High
-36 | File | `add_comment.php` | High
-37 | File | `add_edit_cat.asp` | High
-38 | File | `add_url.htm` | Medium
-39 | File | `adm.cgi` | Low
-40 | File | `admin/index.php` | High
-41 | File | `adminAttachments.php` | High
-42 | ... | ... | ...
+1 | File | `/admin/?page=user/manage_user` | High
+2 | File | `/admin/del.php` | High
+3 | File | `/admin/delstu.php` | High
+4 | File | `/admin/image.php` | High
+5 | File | `/admin/lab.php` | High
+6 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+7 | File | `/asan/asan_new_delete.cpp` | High
+8 | File | `/blog/blogpublish.php` | High
+9 | File | `/categories/view_category.php` | High
+10 | File | `/classes/Master.php?f=delete_category` | High
+11 | File | `/classes/Master.php?f=delete_schedule` | High
+12 | File | `/classes/Users.php?f=save_client` | High
+13 | File | `/dashboard/contact` | High
+14 | File | `/dede/co_do.php` | High
+15 | File | `/etc/init0.d/S80telnetd.sh` | High
+16 | File | `/etc/shadow.sample` | High
+17 | File | `/frm/` | Low
+18 | File | `/goform/setAutoPing` | High
+19 | File | `/goform/wifiSSIDset` | High
+20 | File | `/inc/design.inc.php` | High
+21 | File | `/includes/db_utils.php` | High
+22 | File | `/includes/utils.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/ip/admin/` | Medium
+25 | File | `/master/index.php` | High
+26 | File | `/menu.htm` | Medium
+27 | File | `/mkshope/login.php` | High
+28 | File | `/mygym/admin/login.php` | High
+29 | File | `/Noxen-master/users.php` | High
+30 | File | `/patient/settings.php` | High
+31 | File | `/php_action/createUser.php` | High
+32 | File | `/pms/update_patient.php` | High
+33 | File | `/ptippage.cgi` | High
+34 | File | `/qr/I/` | Low
+35 | File | `/registration.php` | High
+36 | File | `/release-x64/otfccdump` | High
+37 | File | `/sanitizer_common/sanitizer_common_interceptors.inc` | High
+38 | File | `/schedules/view_schedule.php` | High
+39 | File | `/server-status` | High
+40 | File | `/src/jfif.c` | Medium
+41 | File | `/stdio-common/vfprintf.c` | High
+42 | File | `/stocks/manage_stockin.php` | High
+43 | File | `/templates/stylesheets.php` | High
+44 | File | `/users` | Low
+45 | File | `/usr/bin/tddp` | High
+46 | File | `/var/backup/tower` | High
+47 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+48 | File | `/viewReport.php` | High
+49 | File | `/webmail/server/webmail.php` | High
+50 | File | `/whbs/?page=contact_us` | High
+51 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+52 | File | `/xpdf/Lexer.cc` | High
+53 | File | `/xpdf/Stream.cc` | High
+54 | File | `addphotosform.php` | High
+55 | File | `addreviewsform.php` | High
+56 | File | `adm.cgi` | Low
+57 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

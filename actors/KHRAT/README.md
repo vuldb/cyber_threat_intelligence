@@ -35,12 +35,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,16 +49,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-2 | File | `/mifs/c/i/reg/reg.html` | High
-3 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-4 | File | `adclick.php` | Medium
-5 | File | `add_comment.php` | High
-6 | File | `checkout.cfm` | Medium
-7 | File | `Config/SaveUploadedHotspotLogoFile` | High
-8 | File | `data/gbconfiguration.dat` | High
-9 | ... | ... | ...
+2 | File | `/mgmt/tm/util/bash` | High
+3 | File | `/mifs/c/i/reg/reg.html` | High
+4 | File | `/secure/ViewCollectors` | High
+5 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+6 | File | `adclick.php` | Medium
+7 | File | `add_comment.php` | High
+8 | File | `checkout.cfm` | Medium
+9 | File | `Config/SaveUploadedHotspotLogoFile` | High
+10 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,9 +32,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [23.106.123.196](https://vuldb.com/?ip.23.106.123.196) | - | Dragon Castling | High
 2 | [23.106.124.136](https://vuldb.com/?ip.23.106.124.136) | - | Dragon Castling | High
 3 | [34.92.228.216](https://vuldb.com/?ip.34.92.228.216) | 216.228.92.34.bc.googleusercontent.com | RedXOR | Medium
-4 | ... | ... | ... | ...
+4 | [43.129.177.152](https://vuldb.com/?ip.43.129.177.152) | - | - | High
+5 | [43.134.194.237](https://vuldb.com/?ip.43.134.194.237) | - | - | High
+6 | [43.154.74.7](https://vuldb.com/?ip.43.154.74.7) | - | - | High
+7 | [43.154.85.5](https://vuldb.com/?ip.43.154.85.5) | - | - | High
+8 | [43.154.88.192](https://vuldb.com/?ip.43.154.88.192) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +47,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,26 +61,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax-files/postComment.php` | High
-2 | File | `/bin/login.php` | High
-3 | File | `/public/plugins/` | High
-4 | File | `/rom-0` | Low
-5 | File | `/uncpath/` | Medium
-6 | File | `/wp-content/plugins/forum-server/feed.php` | High
-7 | File | `actions/ChangeConfiguration.html` | High
-8 | File | `admin.php` | Medium
-9 | File | `ajaxfilemanager.php` | High
-10 | ... | ... | ...
+1 | File | `.config/Yubico` | High
+2 | File | `/admin/manager/admin_mod.php` | High
+3 | File | `/ajax-files/postComment.php` | High
+4 | File | `/bin/login.php` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/public/plugins/` | High
+7 | File | `/rom-0` | Low
+8 | File | `/server-status` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/wp-content/plugins/forum-server/feed.php` | High
+11 | File | `actions/ChangeConfiguration.html` | High
+12 | File | `addentry.php` | Medium
+13 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/431/scarab-mustang-panda-space-pirates-apt-iocs/
 * https://blog.malwarebytes.com/malwarebytes-news/2022/05/unknown-apt-group-has-targeted-russia-repeatedly-since-ukraine-invasion/
 * https://blog.talosintelligence.com/2019/08/china-chopper-still-active-9-years-later.html
+* https://community.blueliv.com/#!/s/6025590982df413ea934bd9a
 * https://github.com/avast/ioc/tree/master/OperationDragonCastling
+* https://research.checkpoint.com/2022/chinese-actor-takes-aim-armed-with-nim-language-and-bizarro-aes/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.03.10(1)/RedXOR.pdf
 
 ## Literature

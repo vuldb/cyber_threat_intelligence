@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -81,7 +81,7 @@ ID | IP address | Hostname | Campaign | Confidence
 47 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
 48 | ... | ... | ... | ...
 
-There are 189 more IOC items available. Please use our online service to access the data.
+There are 190 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -95,7 +95,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,34 +106,34 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/core/conditions/AbstractWrapper.java` | High
-5 | File | `/file?action=download&file` | High
-6 | File | `/medical/inventories.php` | High
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/monitoring` | Medium
-9 | File | `/plugin/LiveChat/getChat.json.php` | High
-10 | File | `/plugins/servlet/audit/resource` | High
-11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-12 | File | `/REBOOTSYSTEM` | High
-13 | File | `/replication` | Medium
-14 | File | `/reports/rwservlet` | High
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp/speedtest_urls.xml` | High
-17 | File | `/tmp/zarafa-vacation-*` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/usr/bin/at` | Medium
-21 | File | `/var/log/nginx` | High
-22 | File | `/var/run/watchman.pid` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-25 | File | `AdxDSrv.exe` | Medium
-26 | File | `afr.php` | Low
-27 | File | `apcupsd.pid` | Medium
-28 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+4 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+5 | File | `/core/conditions/AbstractWrapper.java` | High
+6 | File | `/dashboard/updatelogo.php` | High
+7 | File | `/file?action=download&file` | High
+8 | File | `/index.php` | Medium
+9 | File | `/medical/inventories.php` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/mkshop/Men/profile.php` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/Noxen-master/users.php` | High
+14 | File | `/plugin/LiveChat/getChat.json.php` | High
+15 | File | `/plugins/servlet/audit/resource` | High
+16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+17 | File | `/REBOOTSYSTEM` | High
+18 | File | `/replication` | Medium
+19 | File | `/reports/rwservlet` | High
+20 | File | `/RestAPI` | Medium
+21 | File | `/tmp/speedtest_urls.xml` | High
+22 | File | `/tmp/zarafa-vacation-*` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/upload` | Low
+25 | File | `/usr/bin/at` | Medium
+26 | File | `/var/log/nginx` | High
+27 | File | `/var/run/watchman.pid` | High
+28 | File | `/viewer/krpano.html` | High
 29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -141,6 +141,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
 * https://cert.gov.ua/article/40102
+* https://community.blueliv.com/#!/s/5f6b482482df413eb5350d3b
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-05-ioc-mark.txt
 * https://github.com/blackorbird/APT_REPORT/blob/master/APT28/IOC/2019-04-09-ioc-mark.txt

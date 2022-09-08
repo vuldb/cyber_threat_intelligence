@@ -57,7 +57,7 @@ ID | IP address | Hostname | Campaign | Confidence
 34 | [62.210.24.116](https://vuldb.com/?ip.62.210.24.116) | 62-210-24-116.rev.poneytelecom.eu | - | High
 35 | ... | ... | ... | ...
 
-There are 134 more IOC items available. Please use our online service to access the data.
+There are 135 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -65,12 +65,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -129,6 +130,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1001-1008.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1015-1022.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0429-0506.html
+* https://cert.gov.ua/article/2807
 * https://community.blueliv.com/#!/s/5afd59bd82df413e376682f2
 * https://isc.sans.edu/forums/diary/GandCrab+Ransomware+Now+Coming+From+Malspam/23321/
 * https://precisionsec.com/threat-intelligence-feeds/gandcrab/

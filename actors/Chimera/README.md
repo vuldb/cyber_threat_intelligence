@@ -31,12 +31,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,43 +46,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `./clients/client` | High
-2 | File | `//` | Low
-3 | File | `/assets/ctx` | Medium
-4 | File | `/cgi-bin/luci` | High
-5 | File | `/cgi-bin/portal` | High
-6 | File | `/config/getuser` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/horde/util/go.php` | High
-9 | File | `/hostapd` | Medium
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/MTFWU` | Low
-12 | File | `/my_photo_gallery/image.php` | High
-13 | File | `/ptms/classes/Users.php` | High
-14 | File | `/public/admin.php` | High
-15 | File | `/public/login.htm` | High
-16 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rest/api/1.0/render` | High
-19 | File | `/rest/api/latest/user/avatar/temporary` | High
-20 | File | `/s/` | Low
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/sm/api/v1/firewall/zone/services` | High
-23 | File | `/sys/attachment/uploaderServlet` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user-utils/users/md5.json` | High
-26 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-json` | Medium
-30 | File | `102/tcp` | Low
-31 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-32 | File | `admin.php` | Medium
-33 | File | `admin.remository.php` | High
-34 | File | `admin/conf_users_edit.php` | High
-35 | ... | ... | ...
+1 | File | `.python-version` | High
+2 | File | `/admin.php/news/admin/topic/save` | High
+3 | File | `/admin/inc/include.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/alarm_pi/alarmService.php` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/app/controller/Books.php` | High
+8 | File | `/appliance/users?action=edit` | High
+9 | File | `/ATL/VQ23` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/catcompany.php` | High
+12 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/coreframe/app/pay/admin/index.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/quagga` | Medium
+19 | File | `/filemanager/php/connector.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/h/search?action` | High
+22 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+23 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+24 | File | `/language/lang` | High
+25 | File | `/loginsave.php` | High
+26 | File | `/menu.html` | Medium
+27 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/ows-bin` | Medium
+31 | File | `/public/plugins/` | High
+32 | File | `/recreate.php` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/sql/sql_string.h` | High
+35 | File | `/sql/sql_type.cc` | High
+36 | File | `/strings/ctype-latin1.c` | High
+37 | File | `/strings/ctype-simple.c` | High
+38 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

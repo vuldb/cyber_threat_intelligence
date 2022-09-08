@@ -10,6 +10,7 @@ The following _campaigns_ are known and can be associated with UAC-0098:
 
 * Cobalt Strike
 * IcedID
+* Ukraine
 
 ## Countries
 
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,14 +29,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [84.32.188.29](https://vuldb.com/?ip.84.32.188.29) | - | Cobalt Strike | High
-2 | [134.209.144.87](https://vuldb.com/?ip.134.209.144.87) | - | IcedID | High
-3 | [138.68.229.0](https://vuldb.com/?ip.138.68.229.0) | - | Cobalt Strike | High
-4 | [139.60.160.8](https://vuldb.com/?ip.139.60.160.8) | - | Cobalt Strike | High
-5 | [139.60.160.17](https://vuldb.com/?ip.139.60.160.17) | - | Cobalt Strike | High
-6 | ... | ... | ... | ...
+1 | [5.199.173.152](https://vuldb.com/?ip.5.199.173.152) | - | - | High
+2 | [5.199.174.219](https://vuldb.com/?ip.5.199.174.219) | - | - | High
+3 | [64.190.113.51](https://vuldb.com/?ip.64.190.113.51) | - | - | High
+4 | [84.32.188.29](https://vuldb.com/?ip.84.32.188.29) | - | Cobalt Strike | High
+5 | [84.32.190.34](https://vuldb.com/?ip.84.32.190.34) | - | Ukraine | High
+6 | [87.251.64.5](https://vuldb.com/?ip.87.251.64.5) | - | - | High
+7 | [134.209.144.87](https://vuldb.com/?ip.134.209.144.87) | - | IcedID | High
+8 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,12 +46,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1222 | CWE-275 | Permission Issues | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,16 +64,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/goform/net_WebCSRGen` | High
 4 | File | `/goform/WebRSAKEYGen` | High
 5 | File | `/uncpath/` | Medium
-6 | ... | ... | ...
+6 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+7 | File | `add-category.php` | High
+8 | File | `admin/dashboard.php` | High
+9 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.google/threat-analysis-group/initial-access-broker-repurposing-techniques-in-targeted-attacks-against-ukraine/
 * https://cert.gov.ua/article/39609
 * https://cert.gov.ua/article/39708
+* https://cert.gov.ua/article/39934
+* https://cert.gov.ua/article/339662
 
 ## Literature
 

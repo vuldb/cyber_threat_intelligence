@@ -52,18 +52,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mifs/c/i/reg/reg.html` | High
-2 | File | `/server-info` | Medium
-3 | File | `/wp-json/oembed/1.0/embed?url` | High
-4 | File | `a2billing/customer/iridium_threed.php` | High
-5 | File | `admin.php?s=/Channel/add.html` | High
-6 | File | `admin/class-bulk-editor-list-table.php` | High
-7 | File | `administrator/components/com_media/helpers/media.php` | High
-8 | File | `auth.asp` | Medium
-9 | File | `base/ErrorHandler.php` | High
+1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+2 | File | `/mifs/c/i/reg/reg.html` | High
+3 | File | `/server-info` | Medium
+4 | File | `/wp-json/oembed/1.0/embed?url` | High
+5 | File | `a2billing/customer/iridium_threed.php` | High
+6 | File | `admin.php?s=/Channel/add.html` | High
+7 | File | `admin/class-bulk-editor-list-table.php` | High
+8 | File | `administrator/components/com_media/helpers/media.php` | High
+9 | File | `auth.asp` | Medium
 10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

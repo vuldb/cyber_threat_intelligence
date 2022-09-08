@@ -65,26 +65,26 @@ ID | Type | Indicator | Confidence
 11 | File | `/horde/util/go.php` | High
 12 | File | `/nova/bin/detnet` | High
 13 | File | `/opensis/modules/users/Staff.php` | High
-14 | File | `/plugins/servlet/gadgets/makeRequest` | High
-15 | File | `/REBOOTSYSTEM` | High
-16 | File | `/req_password_user.php` | High
-17 | File | `/show_news.php` | High
-18 | File | `/tmp` | Low
-19 | File | `/uncpath/` | Medium
-20 | File | `/Uploads` | Medium
-21 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/webconsole/APIController` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `AccountStatus.jsp` | High
-26 | File | `add.php` | Low
-27 | File | `addentry.php` | Medium
-28 | File | `admin.htm` | Medium
-29 | File | `admin.php` | Medium
-30 | File | `admin/article_category.php?rec=update` | High
+14 | File | `/php_action/createUser.php` | High
+15 | File | `/plugins/servlet/gadgets/makeRequest` | High
+16 | File | `/REBOOTSYSTEM` | High
+17 | File | `/req_password_user.php` | High
+18 | File | `/show_news.php` | High
+19 | File | `/tmp` | Low
+20 | File | `/uncpath/` | Medium
+21 | File | `/Uploads` | Medium
+22 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | File | `/webconsole/APIController` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `AccountStatus.jsp` | High
+27 | File | `add.php` | Low
+28 | File | `addentry.php` | Medium
+29 | File | `admin.htm` | Medium
+30 | File | `admin.php` | Medium
 31 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

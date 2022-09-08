@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bandook:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* [MX](https://vuldb.com/?country.mx)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
-2 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
-3 | [194.5.250.103](https://vuldb.com/?ip.194.5.250.103) | - | - | High
-4 | ... | ... | ... | ...
+1 | [41.41.255.235](https://vuldb.com/?ip.41.41.255.235) | host-41.41.255.235.tedata.net | - | High
+2 | [45.142.213.108](https://vuldb.com/?ip.45.142.213.108) | lv-ira.client | - | High
+3 | [45.142.214.31](https://vuldb.com/?ip.45.142.214.31) | vm341765.pq.hosting | - | High
+4 | [58.235.189.192](https://vuldb.com/?ip.58.235.189.192) | - | - | High
+5 | [88.198.122.116](https://vuldb.com/?ip.88.198.122.116) | static.88-198-122-116.clients.your-server.de | - | High
+6 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,8 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,17 +50,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `album_portal.php` | High
-2 | File | `al_initialize.php` | High
-3 | File | `command.php` | Medium
-4 | ... | ... | ...
+1 | File | `/cgi-bin/kerbynet` | High
+2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+3 | File | `/domain/add` | Medium
+4 | File | `/etc/sudoers` | Medium
+5 | File | `/index.php/weblinks-categories` | High
+6 | File | `/plain` | Low
+7 | File | `/show_group_members.php` | High
+8 | File | `/web/google_analytics.php` | High
+9 | File | `album_portal.php` | High
+10 | File | `al_initialize.php` | High
+11 | File | `archive_endian.h` | High
+12 | File | `bmp.c` | Low
+13 | File | `cgi-bin/jc.cgi` | High
+14 | File | `checklogin.php` | High
+15 | File | `cmd.exe` | Low
+16 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://github.com/eset/malware-ioc/tree/master/bandook
 
 ## Literature

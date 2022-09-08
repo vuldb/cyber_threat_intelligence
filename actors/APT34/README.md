@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,25 +71,27 @@ ID | Type | Indicator | Confidence
 9 | File | `/file?action=download&file` | High
 10 | File | `/filemanager/upload/drop` | High
 11 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/replication` | Medium
-19 | File | `/RestAPI` | Medium
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/scas/admin/` | Medium
-22 | File | `/tmp/zarafa-vacation-*` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/Uploads` | Medium
-26 | File | `/var/log/nginx` | High
-27 | File | `/var/run/watchman.pid` | High
-28 | ... | ... | ...
+12 | File | `/login.php` | Medium
+13 | File | `/medical/inventories.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/pages/apply_vacancy.php` | High
+17 | File | `/php_action/createUser.php` | High
+18 | File | `/plugin/LiveChat/getChat.json.php` | High
+19 | File | `/plugins/servlet/audit/resource` | High
+20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+21 | File | `/replication` | Medium
+22 | File | `/RestAPI` | Medium
+23 | File | `/SASWebReportStudio/logonAndRender.do` | High
+24 | File | `/scas/admin/` | Medium
+25 | File | `/tmp/zarafa-vacation-*` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/upload` | Low
+28 | File | `/Uploads` | Medium
+29 | File | `/var/log/nginx` | High
+30 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

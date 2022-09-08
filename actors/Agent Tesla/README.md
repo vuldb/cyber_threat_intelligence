@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [51.89.183.99](https://vuldb.com/?ip.51.89.183.99) | 90.eri1.ovh.abcd.network | - | High
 10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -102,17 +102,21 @@ ID | Type | Indicator | Confidence
 40 | File | `books.php` | Medium
 41 | File | `btif_hd.cc` | Medium
 42 | File | `cart.php` | Medium
-43 | ... | ... | ...
+43 | File | `cart_add.php` | Medium
+44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/254/gs-002-agent-tesla-spyware-iocs/
+* https://1275.ru/ioc/310/gs-032-agent-tesla-spyware-iocs/
 * https://asec.ahnlab.com/en/31083/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
 * https://blogs.blackberry.com/en/2020/04/threat-spotlight-secret-agent-tesla
+* https://community.blueliv.com/#!/s/5f7de53d82df413eb5350fba
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-20%20Agent%20Tesla%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-24%20Agent%20Tesla%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-27%20Agent%20Tesla%20IOCs

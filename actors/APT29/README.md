@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,10 +67,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,37 +81,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=system_info/contact_info` | High
 3 | File | `/admin/dl_sendmail.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/fuel/sitevariables/delete/4` | High
-17 | File | `/goform/aspForm` | High
-18 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/index/jobfairol/show/` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-24 | File | `/ms/cms/content/list.do` | High
-25 | File | `/orms/` | Low
-26 | File | `/plesk-site-preview/` | High
-27 | File | `/proc/<PID>/mem` | High
-28 | File | `/proc/<pid>/status` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/school/model/get_admin_profile.php` | High
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | ... | ... | ...
+5 | File | `/ad_js.php` | Medium
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/app/options.py` | High
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/aspForm` | High
+20 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+22 | File | `/index/jobfairol/show/` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/manage-apartment.php` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/ms/cms/content/list.do` | High
+28 | File | `/orms/` | Low
+29 | File | `/pages/apply_vacancy.php` | High
+30 | File | `/plesk-site-preview/` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | File | `/public/plugins/` | High
+33 | File | `/school/model/get_admin_profile.php` | High
+34 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

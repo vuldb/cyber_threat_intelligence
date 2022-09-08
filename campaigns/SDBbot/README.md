@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/uncpath/` | Medium
 8 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 9 | File | `account_activations/edit` | High
-10 | ... | ... | ...
+10 | File | `AddResolution.jspa` | High
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

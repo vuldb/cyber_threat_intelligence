@@ -19,6 +19,7 @@ These _actors_ are associated with Qbot or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [TA570](https://vuldb.com/?actor.ta570) | High
+2 | [QBot](https://vuldb.com/?actor.qbot) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [85.239.55.228](https://vuldb.com/?ip.85.239.55.228) | - | [TA570](https://vuldb.com/?actor.ta570) | High
-2 | [104.36.229.139](https://vuldb.com/?ip.104.36.229.139) | - | [TA570](https://vuldb.com/?actor.ta570) | High
-3 | [185.234.247.119](https://vuldb.com/?ip.185.234.247.119) | - | [TA570](https://vuldb.com/?actor.ta570) | High
+2 | [95.77.144.238](https://vuldb.com/?ip.95.77.144.238) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+3 | [104.36.229.139](https://vuldb.com/?ip.104.36.229.139) | - | [TA570](https://vuldb.com/?actor.ta570) | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,6 +42,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1592 | CWE-200 | Configuration | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,13 +54,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `admin/vqmods.app/vqmods.inc.php` | High
-2 | File | `index.php` | Medium
-3 | Argument | `SSPI_HEADER` | Medium
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `index.php` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://community.blueliv.com/#!/s/5fa3bb7882df413eb2352497
 * https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware
 
 ## Literature

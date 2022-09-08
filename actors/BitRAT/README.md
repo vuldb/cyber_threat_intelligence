@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BitRAT:
 
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [135.181.6.215](https://vuldb.com/?ip.135.181.6.215) | static.215.6.181.135.clients.your-server.de | - | High
-2 | [135.181.140.153](https://vuldb.com/?ip.135.181.140.153) | static.153.140.181.135.clients.your-server.de | - | High
-3 | [135.181.140.182](https://vuldb.com/?ip.135.181.140.182) | static.182.140.181.135.clients.your-server.de | - | High
+1 | [108.61.207.100](https://vuldb.com/?ip.108.61.207.100) | 108.61.207.100.vultrusercontent.com | - | High
+2 | [135.181.6.215](https://vuldb.com/?ip.135.181.6.215) | static.215.6.181.135.clients.your-server.de | - | High
+3 | [135.181.140.153](https://vuldb.com/?ip.135.181.140.153) | static.153.140.181.135.clients.your-server.de | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,14 +81,17 @@ ID | Type | Indicator | Confidence
 32 | File | `authform.inc.php` | High
 33 | File | `bad_link.php` | Medium
 34 | File | `bb_usage_stats.php` | High
-35 | ... | ... | ...
+35 | File | `big.php` | Low
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/50/bitrat-trojan-ioc/
+* https://1275.ru/ioc/281/bitrat-malware-iocs-part-5/
 * https://blog.morphisec.com/the-babadeda-crypter-targeting-crypto-nft-defi-communities
 
 ## Literature

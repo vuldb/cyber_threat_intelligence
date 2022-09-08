@@ -36,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,26 +52,29 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/admin` | Low
-3 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-4 | File | `/cgi-bin/editBookmark` | High
-5 | File | `/chat_im/chat_window.php` | High
-6 | File | `/cloud_config/router_post/get_reg_verify_code` | High
-7 | File | `/etc/openstack-dashboard/local_settings` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/filemanager/upload.php` | High
-10 | File | `/goform/addressNat` | High
-11 | File | `/goform/SetNetControlList` | High
-12 | File | `/include/menu_v.inc.php` | High
-13 | File | `/MagickCore/statistic.c` | High
-14 | File | `/proc/pid/syscall` | High
-15 | File | `/Search-Results` | High
-16 | File | `/var/log/pcp/configs.sh` | High
-17 | File | `/visualizza_tabelle.php` | High
-18 | File | `a2m.cpp` | Low
-19 | File | `admin.php` | Medium
-20 | ... | ... | ...
+3 | File | `/admin/uesrs.php&action=display&value=Hide` | High
+4 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/chat_im/chat_window.php` | High
+7 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+8 | File | `/etc/openstack-dashboard/local_settings` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/filemanager/upload.php` | High
+11 | File | `/goform/addressNat` | High
+12 | File | `/goform/SetNetControlList` | High
+13 | File | `/include/menu_v.inc.php` | High
+14 | File | `/MagickCore/statistic.c` | High
+15 | File | `/patient/settings.php` | High
+16 | File | `/proc/*/cmdline"` | High
+17 | File | `/proc/pid/syscall` | High
+18 | File | `/rrps/classes/Master.php?f=save_category` | High
+19 | File | `/Search-Results` | High
+20 | File | `/Source/C++/Core/Ap4Array.h` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/updown/upload.cgi` | High
+23 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

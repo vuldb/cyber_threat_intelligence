@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,9 +51,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 16 more TTP items available. Please use our online service to access the data.
@@ -76,42 +76,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/edit_admin_details.php?id=admin` | High
 11 | File | `/admin/general/change-lang` | High
 12 | File | `/admin/group/list/` | High
-13 | File | `/admin/new-content` | High
-14 | File | `/admin/renewaldue.php` | High
-15 | File | `/admin/sign/out` | High
-16 | File | `/admin/usermanagement.php` | High
-17 | File | `/aqpg/users/login.php` | High
-18 | File | `/backups/` | Medium
-19 | File | `/bcms/admin/?page=user/list` | High
-20 | File | `/cardo/api` | Medium
-21 | File | `/catcompany.php` | High
-22 | File | `/CCMAdmin/serverlist.asp` | High
-23 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-24 | File | `/cgi-bin/nightled.cgi` | High
-25 | File | `/cgi-bin/touchlist_sync.cgi` | High
-26 | File | `/ci_hms/massage_room/edit/1` | High
-27 | File | `/ci_hms/search` | High
-28 | File | `/ci_spms/admin/category` | High
-29 | File | `/ci_spms/admin/search/searching/` | High
-30 | File | `/ci_ssms/index.php/orders/create` | High
-31 | File | `/classes/Users.php?f=save` | High
-32 | File | `/cwms/admin/?page=articles/view_article/` | High
-33 | File | `/cwms/classes/Master.php?f=save_contact` | High
-34 | File | `/editbrand.php` | High
-35 | File | `/etc/sudoers` | Medium
-36 | File | `/front/roomtype-details.php` | High
-37 | File | `/goform/RgDdns` | High
-38 | File | `/goform/RgDhcp` | High
-39 | File | `/goform/RGFirewallEL` | High
-40 | File | `/goform/RgTime` | High
-41 | File | `/goform/RgUrlBlock.asp` | High
-42 | File | `/goform/wlanPrimaryNetwork` | High
-43 | File | `/horde/imp/search.php` | High
-44 | File | `/inc/HTTPClient.php` | High
-45 | File | `/index.php` | Medium
-46 | ... | ... | ...
+13 | File | `/admin/lab.php` | High
+14 | File | `/admin/new-content` | High
+15 | File | `/admin/renewaldue.php` | High
+16 | File | `/admin/sign/out` | High
+17 | File | `/admin/usermanagement.php` | High
+18 | File | `/aqpg/users/login.php` | High
+19 | File | `/artist-display.php` | High
+20 | File | `/backups/` | Medium
+21 | File | `/bcms/admin/?page=user/list` | High
+22 | File | `/cardo/api` | Medium
+23 | File | `/catcompany.php` | High
+24 | File | `/CCMAdmin/serverlist.asp` | High
+25 | File | `/cgi-bin/editBookmark` | High
+26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+27 | File | `/cgi-bin/nightled.cgi` | High
+28 | File | `/cgi-bin/touchlist_sync.cgi` | High
+29 | File | `/ci_hms/massage_room/edit/1` | High
+30 | File | `/ci_hms/search` | High
+31 | File | `/ci_spms/admin/category` | High
+32 | File | `/ci_spms/admin/search/searching/` | High
+33 | File | `/ci_ssms/index.php/orders/create` | High
+34 | File | `/classes/Users.php?f=save` | High
+35 | File | `/cwms/admin/?page=articles/view_article/` | High
+36 | File | `/cwms/classes/Master.php?f=save_contact` | High
+37 | File | `/editbrand.php` | High
+38 | File | `/film-rating.php` | High
+39 | File | `/front/roomtype-details.php` | High
+40 | File | `/goform/RgDdns` | High
+41 | File | `/goform/RgDhcp` | High
+42 | File | `/goform/RGFirewallEL` | High
+43 | File | `/goform/RgTime` | High
+44 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,19 +56,19 @@ ID | Type | Indicator | Confidence
 5 | File | `/ajax/networking/get_netcfg.php` | High
 6 | File | `/app/options.py` | High
 7 | File | `/assets/ctx` | Medium
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/checkLogin.cgi` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/cms/print.php` | High
-14 | File | `/concat?/%2557EB-INF/web.xml` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/dashboard/menu-list.php` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/etc/passwd` | Medium
-19 | File | `/ffos/classes/Master.php?f=save_category` | High
-20 | File | `/goforms/rlminfo` | High
+8 | File | `/checkLogin.cgi` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_train` | High
+12 | File | `/cms/print.php` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/dashboard/menu-list.php` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/ffos/classes/Master.php?f=save_category` | High
+19 | File | `/goforms/rlminfo` | High
+20 | File | `/Items/*/RemoteImages/Download` | High
 21 | File | `/login` | Low
 22 | File | `/navigate/navigate_download.php` | High
 23 | File | `/ocwbs/admin/?page=user/manage_user` | High
@@ -96,9 +96,10 @@ ID | Type | Indicator | Confidence
 45 | File | `/wp-json/oembed/1.0/embed?url` | High
 46 | File | `/_next` | Low
 47 | File | `4.edu.php\conn\function.php` | High
-48 | ... | ... | ...
+48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

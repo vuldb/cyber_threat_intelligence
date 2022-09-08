@@ -22,15 +22,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.55.205](https://vuldb.com/?ip.5.8.55.205) | carpbaboon.com | - | High
-2 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
-3 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
-4 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
-5 | [45.147.231.79](https://vuldb.com/?ip.45.147.231.79) | - | - | High
-6 | [46.173.218.13](https://vuldb.com/?ip.46.173.218.13) | - | - | High
-7 | [47.74.130.165](https://vuldb.com/?ip.47.74.130.165) | - | - | High
-8 | ... | ... | ... | ...
+2 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
+3 | [23.106.122.14](https://vuldb.com/?ip.23.106.122.14) | - | - | High
+4 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
+5 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
+6 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
+7 | [45.147.231.79](https://vuldb.com/?ip.45.147.231.79) | - | - | High
+8 | [46.173.218.13](https://vuldb.com/?ip.46.173.218.13) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -57,28 +58,31 @@ ID | Type | Indicator | Confidence
 3 | File | `/addnews.html` | High
 4 | File | `/cm/delete` | Medium
 5 | File | `/download` | Medium
-6 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-7 | File | `/lms/admin.php` | High
-8 | File | `/my_photo_gallery/image.php` | High
-9 | File | `/redpass.cgi` | Medium
-10 | File | `/reps/classes/Users.php?f=delete_agent` | High
-11 | File | `/rom-0` | Low
-12 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `add-category.php` | High
-15 | File | `add_comment.php` | High
-16 | File | `admin.php` | Medium
-17 | File | `admin/admin.shtml` | High
-18 | File | `admin/content.php` | High
-19 | ... | ... | ...
+6 | File | `/forum/away.php` | High
+7 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
+8 | File | `/lms/admin.php` | High
+9 | File | `/my_photo_gallery/image.php` | High
+10 | File | `/redpass.cgi` | Medium
+11 | File | `/reps/classes/Users.php?f=delete_agent` | High
+12 | File | `/rom-0` | Low
+13 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/usr/ucb/mail` | High
+16 | File | `adclick.php` | Medium
+17 | File | `add-category.php` | High
+18 | File | `add_comment.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/admin.shtml` | High
+21 | ... | ... | ...
 
-There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2021/11/threat-thursday-danabot-malware-as-a-service
+* https://community.blueliv.com/#!/s/6220736782df413eb5358bf6
 * https://github.com/eset/malware-ioc/tree/master/danabot
 * https://isc.sans.edu/forums/diary/Example+of+Danabot+distributed+through+malspam/27744/
 * https://research.checkpoint.com/2019/danabot-demands-a-ransom-payment/

@@ -56,16 +56,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/forum/away.php` | High
-2 | File | `/jeecg-boot/sys/common/upload` | High
-3 | File | `/owa/auth/logon.aspx` | High
-4 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-5 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `/wp-admin/options.php` | High
-8 | File | `AppCompatCache.exe` | High
-9 | ... | ... | ...
+2 | File | `/index.php` | Medium
+3 | File | `/jeecg-boot/sys/common/upload` | High
+4 | File | `/members/view_member.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+7 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/wp-admin/options.php` | High
+10 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

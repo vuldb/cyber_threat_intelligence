@@ -757,7 +757,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -766,34 +766,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/app/options.py` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/bsms/?page=manage_account` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dashboard/reports/logs/view` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/hosts` | Medium
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/fuel/sitevariables/delete/4` | High
-14 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-15 | File | `/index/jobfairol/show/` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-19 | File | `/proc/<PID>/mem` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-24 | File | `/tmp` | Low
+2 | File | `/ad_js.php` | Medium
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/app/options.py` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/ci_hms/massage_room/edit/1` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/fuel/index.php/fuel/logs/items` | High
+15 | File | `/fuel/sitevariables/delete/4` | High
+16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/index/jobfairol/show/` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/pkexec` | High
-27 | ... | ... | ...
+26 | File | `/upload` | Low
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/vendor/views/add_product.php` | High
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with eCh0raix:
 
+* [SC](https://vuldb.com/?country.sc)
+* [LI](https://vuldb.com/?country.li)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,7 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.193.126.161](https://vuldb.com/?ip.185.193.126.161) | b9c17ea1.host.njalla.net | - | High
+1 | [2.37.149.230](https://vuldb.com/?ip.2.37.149.230) | net-2-37-149-230.cust.vodafonedsl.it | - | High
+2 | [64.42.152.46](https://vuldb.com/?ip.64.42.152.46) | bern-wstd-gw.wireless.nmia.com | - | High
+3 | [98.144.56.47](https://vuldb.com/?ip.98.144.56.47) | cpe-98-144-56-47.wi.res.rr.com | - | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,17 +47,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-2 | File | `owa/redir.aspx` | High
-3 | File | `phpinfo.php` | Medium
-4 | ... | ... | ...
+1 | File | `/admin/sysmon.php` | High
+2 | File | `/api/content/posts/comments` | High
+3 | File | `/Home/GetAttachment` | High
+4 | File | `/modules/projects/vw_files.php` | High
+5 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+6 | File | `account/gallery.php` | High
+7 | File | `action.asp` | Medium
+8 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/61126ed882df413eb5357b59
 * https://threatfox.abuse.ch/ioc/715905/
 
 ## Literature

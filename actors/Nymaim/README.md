@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,12 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,22 +63,20 @@ ID | Type | Indicator | Confidence
 7 | File | `/js/app.js` | Medium
 8 | File | `/login` | Low
 9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/monitor/s_headmodel.php` | High
-11 | File | `/pro/repo-create.html` | High
-12 | File | `/public/plugins/` | High
-13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-18 | File | `/server-info` | Medium
-19 | File | `/services` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/at` | Medium
-22 | File | `/usr/bin/pkexec` | High
-23 | ... | ... | ...
+10 | File | `/pro/repo-create.html` | High
+11 | File | `/public/plugins/` | High
+12 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+13 | File | `/rest/api/latest/projectvalidate/key` | High
+14 | File | `/rest/collectors/1.0/template/custom` | High
+15 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/services` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/bin/at` | Medium
+20 | File | `/usr/bin/pkexec` | High
+21 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

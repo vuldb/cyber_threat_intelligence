@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with Naikon:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Naikon:
 
-* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
+* [CH](https://vuldb.com/?country.ch)
 
 ## IOC - Indicator of Compromise
 
@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [65.19.141.203](https://vuldb.com/?ip.65.19.141.203) | shibakov.org | Camerashy | High
 5 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,12 +38,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,29 +53,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%windir%\Internet Logs\` | High
-2 | File | `/admin.php/admin/website/data.html` | High
-3 | File | `/aqpg/users/login.php` | High
-4 | File | `/crypto_keyfile.bin` | High
-5 | File | `/cwms/admin/?page=articles/view_article/` | High
-6 | File | `/cwms/classes/Master.php?f=save_contact` | High
-7 | File | `/mims/app/addcustomerHandler.php` | High
-8 | File | `/one_church/churchprofile.php` | High
-9 | File | `/one_church/userregister.php` | High
-10 | File | `/show_news.php` | High
-11 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-12 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-13 | File | `/wp-admin/options-general.php` | High
-14 | File | `500page.jsp` | Medium
-15 | ... | ... | ...
+1 | File | `/addQuestion.php` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/add_exercises.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/advanced-tools/nova/bin/netwatch` | High
+8 | File | `/categories/view_category.php` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/claire_blake` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/dashboard/add-blog.php` | High
+13 | File | `/dashboard/add-portfolio.php` | High
+14 | File | `/dashboard/add-service.php` | High
+15 | File | `/dashboard/contact` | High
+16 | File | `/dashboard/settings` | High
+17 | File | `/dashboard/updatelogo.php` | High
+18 | File | `/etc/shadow.sample` | High
+19 | File | `/etc/srapi/config/system.conf` | High
+20 | File | `/fax/fax_send.php` | High
+21 | File | `/framework/mod/db/DBMapper.xml` | High
+22 | File | `/gasmark/assets/myimages/oneWord.php` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/form2userconfig.cgi` | High
+25 | File | `/goform/formWifiBasicSet` | High
+26 | File | `/goform/setAutoPing` | High
+27 | File | `/guestmanagement/front.php` | High
+28 | File | `/Home/debit_credit_p` | High
+29 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+30 | File | `/htdocs/utils/Files.php` | High
+31 | File | `/htmldoc/htmldoc/html.cxx` | High
+32 | File | `/include/menu_v.inc.php` | High
+33 | File | `/includes/utils.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/items/manage_item.php` | High
+36 | File | `/librarian/lab.php` | High
+37 | File | `/login.php` | Medium
+38 | File | `/loginVaLidation.php` | High
+39 | File | `/manage-apartment.php` | High
+40 | File | `/management/api/rcx_management/global_config_query` | High
+41 | File | `/mdiy/page/verify` | High
+42 | File | `/mkshop/Men/profile.php` | High
+43 | File | `/mkshope/login.php` | High
+44 | File | `/mygym/admin/index.php` | High
+45 | File | `/mygym/admin/index.php?view_exercises` | High
+46 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * http://cdn2.hubspot.net/hubfs/454298/Project_CAMERASHY_ThreatConnect_Copyright_2015.pdf
+* https://1275.ru/ioc/164/lotus-panda-apt-iocs/
 * https://research.checkpoint.com/2020/naikon-apt-cyber-espionage-reloaded/
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.04.23(1)/NAIKON.pdf
 * https://www.threatminer.org/report.php?q=TheNaikonAPT-MsnMM1.pdf&y=2015

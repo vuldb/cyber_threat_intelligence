@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
 * [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
 * [AR](https://vuldb.com/?country.ar)
-* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,30 +57,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin` | Low
-2 | File | `/api/plugin/uninstall` | High
-3 | File | `/artist-display.php` | High
-4 | File | `/assets/partials/_handleLogin.php` | High
-5 | File | `/bmis/pages/resident/resident.php` | High
-6 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-7 | File | `/cgi-bin/nightled.cgi` | High
-8 | File | `/context.json` | High
-9 | File | `/editbrand.php` | High
-10 | File | `/edituser.php` | High
-11 | File | `/goform/aspForm` | High
-12 | File | `/HMS/admin.php` | High
-13 | File | `/htmldoc/htmldoc/html.cxx` | High
-14 | File | `/login.php` | Medium
-15 | File | `/LogoStore/search.php` | High
-16 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-17 | File | `/pages/activity/activity.php` | High
-18 | File | `/pages/permit/permit.php` | High
-19 | File | `/php_action/createUser.php` | High
-20 | File | `/school/view/student_grade_wise.php` | High
-21 | File | `/show_news.php` | High
-22 | ... | ... | ...
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/addQuestion.php` | High
+3 | File | `/admin/?page=reports/stockin` | High
+4 | File | `/admin/?page=reports/waste` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/del.php` | High
+8 | File | `/admin/delete.php` | High
+9 | File | `/admin/delstu.php` | High
+10 | File | `/admin/history.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/modify.php` | High
+13 | File | `/admin/modify1.php` | High
+14 | File | `/admin/products/controller.php?action=add` | High
+15 | File | `/advanced-tools/nova/bin/netwatch` | High
+16 | File | `/api/v1/user` | Medium
+17 | File | `/appConfig/userDB.json` | High
+18 | File | `/assets` | Low
+19 | File | `/bits/stl_vector.h` | High
+20 | File | `/blog/edit` | Medium
+21 | File | `/blogengine/api/posts` | High
+22 | File | `/blotter/blotter.php` | High
+23 | File | `/brand.php` | Medium
+24 | File | `/cgi-bin/DownloadFlash` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php?f=delete_account` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=delete_img` | High
+29 | File | `/classes/Master.php?f=delete_payment` | High
+30 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

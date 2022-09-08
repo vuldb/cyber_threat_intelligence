@@ -57,35 +57,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/configs/application.ini` | High
 3 | File | `/HNAP1` | Low
 4 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
-5 | File | `/iwgallery/admin/pictures_edit.asp` | High
-6 | File | `/public/plugins/` | High
-7 | File | `/replication` | Medium
-8 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/uploads/dede` | High
-11 | File | `/WEB-INF/web.xml` | High
-12 | File | `AccessPoint.aspx` | High
-13 | File | `activateuser.aspx` | High
-14 | File | `AdHocQuery_Processor.aspx` | High
-15 | File | `admin.asp` | Medium
-16 | File | `admin/admin.asp` | High
-17 | File | `admin/images.aspx` | High
-18 | File | `admin/index.php` | High
-19 | File | `admin/login.asp` | High
-20 | File | `advsearch.asp` | High
-21 | File | `AEAgent.cpp` | Medium
-22 | File | `ajax.php` | Medium
-23 | File | `ajax_calls.php` | High
-24 | File | `ajax_cmd.php` | Medium
-25 | File | `appfeed.c` | Medium
-26 | File | `ara.asp` | Low
-27 | File | `aspx` | Low
-28 | File | `auction_details.php` | High
-29 | File | `auth.inc.php` | Medium
-30 | File | `blocking.asp` | Medium
-31 | ... | ... | ...
+5 | File | `/index.php` | Medium
+6 | File | `/iwgallery/admin/pictures_edit.asp` | High
+7 | File | `/mail/index.html` | High
+8 | File | `/public/plugins/` | High
+9 | File | `/replication` | Medium
+10 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/uploads/dede` | High
+13 | File | `/WEB-INF/web.xml` | High
+14 | File | `AccessPoint.aspx` | High
+15 | File | `activateuser.aspx` | High
+16 | File | `AdHocQuery_Processor.aspx` | High
+17 | File | `admin.asp` | Medium
+18 | File | `admin/admin.asp` | High
+19 | File | `admin/images.aspx` | High
+20 | File | `admin/index.php` | High
+21 | File | `admin/login.asp` | High
+22 | File | `advsearch.asp` | High
+23 | File | `AEAgent.cpp` | Medium
+24 | File | `ajax.php` | Medium
+25 | File | `ajax_calls.php` | High
+26 | File | `ajax_cmd.php` | Medium
+27 | File | `appfeed.c` | Medium
+28 | File | `ara.asp` | Low
+29 | File | `aspx` | Low
+30 | File | `auction_details.php` | High
+31 | File | `auth.inc.php` | Medium
+32 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

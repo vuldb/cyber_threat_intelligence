@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -21,7 +22,7 @@ ID | Actor | Confidence
 3 | [Vicious Panda](https://vuldb.com/?actor.vicious_panda) | High
 4 | ... | ...
 
-There are 1 more actor items available. Please use our online service to access the data.
+There are 2 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,9 +57,10 @@ ID | IP address | Hostname | Actor | Confidence
 25 | [36.69.111.152](https://vuldb.com/?ip.36.69.111.152) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 26 | [36.225.248.175](https://vuldb.com/?ip.36.225.248.175) | 36-225-248-175.dynamic-ip.hinet.net | [Unknown](https://vuldb.com/?actor.unknown) | High
 27 | [36.235.174.97](https://vuldb.com/?ip.36.235.174.97) | 36-235-174-97.dynamic-ip.hinet.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-28 | ... | ... | ... | ...
+28 | [37.139.7.16](https://vuldb.com/?ip.37.139.7.16) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
+29 | ... | ... | ... | ...
 
-There are 109 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,13 +68,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,21 +83,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/curltest.cgi` | High
-2 | File | `/admin/vca/bia/addacph.cgi` | High
-3 | File | `/admin/vca/license/license_tok.cgi` | High
-4 | File | `/api/plugin/uninstall` | High
-5 | File | `/api/plugin/upload` | High
-6 | File | `/bmis/pages/resident/resident.php` | High
-7 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-8 | File | `/cgi-bin/nightled.cgi` | High
-9 | File | `/cgi-bin/touchlist_sync.cgi` | High
-10 | File | `/donor-wall` | Medium
-11 | File | `/editbrand.php` | High
-12 | File | `/forum/away.php` | High
-13 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/stockout` | High
+3 | File | `/admin/?page=reports/waste` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/del.php` | High
+6 | File | `/admin/delete.php` | High
+7 | File | `/admin/delstu.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/products/controller.php?action=add` | High
+10 | File | `/api/v1/user` | Medium
+11 | File | `/categories/view_category.php` | High
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/classes/Master.php?f=delete_account` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=delete_img` | High
+16 | File | `/classes/Master.php?f=delete_payment` | High
+17 | File | `/classes/Master.php?f=delete_schedule` | High
+18 | File | `/classes/Master.php?f=delete_student` | High
+19 | File | `/classes/Users.php?f=save_client` | High
+20 | File | `/etc/ciel.cfg` | High
+21 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +113,8 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://blog.group-ib.com/oldgremlin_comeback
 * https://blog.malwarebytes.com/malwarebytes-news/2022/05/unknown-apt-group-has-targeted-russia-repeatedly-since-ukraine-invasion/
+* https://citizenlab.ca/2017/05/tainted-leaks-disinformation-phish/
+* https://community.blueliv.com/#!/s/628f220382df413eb5359232
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/
 * https://isc.sans.edu/forums/diary/More+Russian+language+malspam+pushing+Shade+Troldesh+ransomware/24668/

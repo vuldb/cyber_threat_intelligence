@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
+* [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,14 +155,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,34 +172,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
-2 | File | `/admin/` | Low
-3 | File | `/admin/photo.php` | High
-4 | File | `/admin/searchview.php` | High
-5 | File | `/api/plugin/uninstall` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/catcompany.php` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/chart` | Low
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/ci_spms/admin/category` | High
-13 | File | `/ci_spms/admin/search/searching/` | High
-14 | File | `/classes/Master.php?f=delete_schedule` | High
-15 | File | `/company/down_resume/total/nature` | High
-16 | File | `/core/conditions/AbstractWrapper.java` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/dashboard/snapshot/*?orgId=0` | High
-19 | File | `/etc/hosts` | Medium
-20 | File | `/etc/init.d/sshd_service` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/SetFirewallCfg` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index/jobfairol/show/` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/mobile/downloadfile.aspx` | High
-27 | ... | ... | ...
+2 | File | `/#/network?tab=network_node_list.html` | High
+3 | File | `/admin/del.php` | High
+4 | File | `/admin/lab.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/searchview.php` | High
+7 | File | `/advanced-tools/nova/bin/netwatch` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/api/` | Low
+10 | File | `/api/plugin/uninstall` | High
+11 | File | `/app/options.py` | High
+12 | File | `/blog/edit` | Medium
+13 | File | `/catcompany.php` | High
+14 | File | `/category/controller.php?action=edit` | High
+15 | File | `/cgi/get_param.cgi` | High
+16 | File | `/chart` | Low
+17 | File | `/ci_spms/admin/category` | High
+18 | File | `/ci_spms/admin/search/searching/` | High
+19 | File | `/classes/Master.php?f=delete_account` | High
+20 | File | `/dashboard/reports/logs/view` | High
+21 | File | `/dashboard/updatelogo.php` | High
+22 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+23 | File | `/dede/co_do.php` | High
+24 | File | `/etc/hosts` | Medium
+25 | File | `/etc/init.d/sshd_service` | High
+26 | File | `/goform/SystemCommand` | High
+27 | File | `/index.php` | Medium
+28 | File | `/librarian/lab.php` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/mkshop/Men/profile.php` | High
+31 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

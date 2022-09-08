@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/goform/SetSysTimeCfg` | High
 20 | File | `/ifs` | Low
 21 | File | `/mtms/admin/?page=user/manage_user` | High
-22 | ... | ... | ...
+22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+23 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,19 +29,20 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [8.211.5.139](https://vuldb.com/?ip.8.211.5.139) | - | - | High
 7 | [35.246.189.253](https://vuldb.com/?ip.35.246.189.253) | 253.189.246.35.bc.googleusercontent.com | - | Medium
 8 | [37.59.47.208](https://vuldb.com/?ip.37.59.47.208) | ns3000975.ip-37-59-47.eu | - | High
-9 | [47.254.169.212](https://vuldb.com/?ip.47.254.169.212) | - | - | High
-10 | [47.254.170.245](https://vuldb.com/?ip.47.254.170.245) | - | - | High
-11 | [47.254.175.211](https://vuldb.com/?ip.47.254.175.211) | - | - | High
-12 | [51.83.209.11](https://vuldb.com/?ip.51.83.209.11) | ip11.ip-51-83-209.eu | - | High
-13 | [54.38.49.244](https://vuldb.com/?ip.54.38.49.244) | ip244.ip-54-38-49.eu | - | High
-14 | [62.133.58.60](https://vuldb.com/?ip.62.133.58.60) | - | - | High
-15 | [74.119.239.234](https://vuldb.com/?ip.74.119.239.234) | - | - | High
-16 | [76.119.1.112](https://vuldb.com/?ip.76.119.1.112) | c-76-119-1-112.hsd1.ct.comcast.net | - | High
-17 | [77.246.157.133](https://vuldb.com/?ip.77.246.157.133) | test.com | - | High
-18 | [80.78.249.78](https://vuldb.com/?ip.80.78.249.78) | - | - | High
-19 | ... | ... | ... | ...
+9 | [45.197.141.250](https://vuldb.com/?ip.45.197.141.250) | - | - | High
+10 | [47.254.169.212](https://vuldb.com/?ip.47.254.169.212) | - | - | High
+11 | [47.254.170.245](https://vuldb.com/?ip.47.254.170.245) | - | - | High
+12 | [47.254.175.211](https://vuldb.com/?ip.47.254.175.211) | - | - | High
+13 | [51.83.209.11](https://vuldb.com/?ip.51.83.209.11) | ip11.ip-51-83-209.eu | - | High
+14 | [54.38.49.244](https://vuldb.com/?ip.54.38.49.244) | ip244.ip-54-38-49.eu | - | High
+15 | [62.133.58.60](https://vuldb.com/?ip.62.133.58.60) | - | - | High
+16 | [74.119.239.234](https://vuldb.com/?ip.74.119.239.234) | - | - | High
+17 | [76.119.1.112](https://vuldb.com/?ip.76.119.1.112) | c-76-119-1-112.hsd1.ct.comcast.net | - | High
+18 | [77.246.157.133](https://vuldb.com/?ip.77.246.157.133) | test.com | - | High
+19 | [80.78.249.78](https://vuldb.com/?ip.80.78.249.78) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 72 more IOC items available. Please use our online service to access the data.
+There are 75 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,10 +51,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -63,34 +65,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/(((a\2)|(a*)\g&lt/-1&gt/))*/` | High
-2 | File | `/admin/communitymanagement.php` | High
-3 | File | `/admin/conferences/get-all-status/` | High
+1 | File | `/admin/image.php` | High
+2 | File | `/admin/js` | Medium
+3 | File | `/ad_js.php` | Medium
 4 | File | `/app/options.py` | High
-5 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/ci_hms/massage_room/edit/1` | High
-9 | File | `/classes/Master.php?f=delete_train` | High
-10 | File | `/company` | Medium
-11 | File | `/conf/` | Low
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/etc/hosts` | Medium
-14 | File | `/getImage` | Medium
-15 | File | `/hprms/admin/?page=patients/view_patient` | High
-16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/hprms/admin/patients/manage_patient.php` | High
-18 | File | `/index/jobfairol/show/` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/ordering/admin/store/index.php?view=edit` | High
-22 | File | `/orrs/admin/reservations/view_details.php` | High
-23 | File | `/pkg/util` | Medium
-24 | File | `/pms/admin/inmates/manage_inmate.php` | High
-25 | File | `/pms/admin/user/manage_user.php` | High
-26 | ... | ... | ...
+5 | File | `/bin/png2swf` | Medium
+6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
+7 | File | `/conf/` | Low
+8 | File | `/dashboard/reports/logs/view` | High
+9 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+10 | File | `/etc/hosts` | Medium
+11 | File | `/frm/` | Low
+12 | File | `/goform/WifiMacFilterSet` | High
+13 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+14 | File | `/htmldoc/htmldoc/html.cxx` | High
+15 | File | `/include/comm_post.inc.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/jpeg-quantsmooth/jpegqs` | High
+18 | File | `/linux/main.cpp` | High
+19 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+20 | File | `/pages/class_sched.php` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/pkg/util` | Medium
+23 | File | `/pms/index.php` | High
+24 | File | `/proc/<PID>/mem` | High
+25 | File | `/release-x64/otfccdump` | High
+26 | File | `/secure/ViewCollectors` | High
+27 | File | `/services/v4/invoiceImg` | High
+28 | File | `/stdio-common/vfprintf.c` | High
+29 | File | `/tmp/tardiff-$` | High
+30 | File | `/upload` | Low
+31 | File | `/usr/local/sbin/webproject/set_param.cgi` | High
+32 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+33 | File | `/vendor/views/add_product.php` | High
+34 | File | `/wabt/bin/poc.wasm` | High
+35 | File | `/xpdf/Stream.cc` | High
+36 | File | `addinterviewsform.php` | High
+37 | File | `addmembioform.php` | High
+38 | File | `adm.cgi` | Low
+39 | File | `admin.php` | Medium
+40 | File | `admin.php3` | Medium
+41 | File | `admin/detay_yorum.asp` | High
+42 | File | `admin/header.php` | High
+43 | File | `admin/manufacturers.php` | High
+44 | File | `Admin/Staff` | Medium
+45 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.bushidotoken.net/2021/04/mo-money-mo-magecart.html
 * https://blog.malwarebytes.com/threat-intelligence/2021/09/the-many-tentacles-of-magecart-group-8/
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/client-side-magecart-attacks-still-around-but-more-covert/
+* https://community.blueliv.com/#!/s/614c62f382df414169331f64
 * https://github.com/blackorbird/APT_REPORT/tree/master/Magecart
 
 ## Literature

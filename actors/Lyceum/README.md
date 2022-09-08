@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,35 +74,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/etc/passwd` | Medium
 18 | File | `/ffos/classes/Master.php?f=save_category` | High
 19 | File | `/goforms/rlminfo` | High
-20 | File | `/login` | Low
-21 | File | `/navigate/navigate_download.php` | High
-22 | File | `/ocwbs/admin/?page=user/manage_user` | High
-23 | File | `/ofrs/admin/?page=user/manage_user` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/p` | Low
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/login` | Low
+22 | File | `/navigate/navigate_download.php` | High
+23 | File | `/ocwbs/admin/?page=user/manage_user` | High
+24 | File | `/ofrs/admin/?page=user/manage_user` | High
+25 | File | `/owa/auth/logon.aspx` | High
 26 | File | `/password.html` | High
 27 | File | `/pms/index.php` | High
 28 | File | `/proc/ioports` | High
 29 | File | `/property-list/property_view.php` | High
 30 | File | `/ptms/classes/Users.php` | High
-31 | File | `/rest` | Low
-32 | File | `/rest/api/2/search` | High
-33 | File | `/s/` | Low
-34 | File | `/scripts/cpan_config` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/services/system/setup.json` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/uncpath/` | Medium
-39 | File | `/vloggers_merch/?p=view_product` | High
-40 | File | `/webconsole/APIController` | High
-41 | File | `/websocket/exec` | High
+31 | File | `/rest/api/2/search` | High
+32 | File | `/s/` | Low
+33 | File | `/scripts/cpan_config` | High
+34 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+35 | File | `/services/system/setup.json` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/uncpath/` | Medium
+38 | File | `/vloggers_merch/?p=view_product` | High
+39 | File | `/webconsole/APIController` | High
+40 | File | `/websocket/exec` | High
+41 | File | `/whbs/?page=my_bookings` | High
 42 | File | `/wp-admin/admin-ajax.php` | High
 43 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 44 | File | `/wp-json` | Medium
-45 | File | `/wp-json/oembed/1.0/embed?url` | High
-46 | ... | ... | ...
+45 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

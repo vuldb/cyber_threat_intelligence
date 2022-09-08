@@ -53,24 +53,25 @@ ID | Type | Indicator | Confidence
 3 | File | `/etc/gsissh/sshd_config` | High
 4 | File | `/forms/nslookupHandler` | High
 5 | File | `/include/chart_generator.php` | High
-6 | File | `/log_download.cgi` | High
-7 | File | `/mgmt/tm/util/bash` | High
-8 | File | `/news.dtl.php` | High
-9 | File | `/p1/p2/:name` | Medium
-10 | File | `/ptms/?page=user` | High
-11 | File | `/setup/finish` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/upload/file.php` | High
-14 | File | `/usr/bin/pkexec` | High
-15 | File | `/wolfcms/?/admin/user/add` | High
-16 | File | `/wp-admin` | Medium
-17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-18 | File | `/wp-json/wc/v3/webhooks` | High
-19 | File | `5.2.9\syscrb.exe` | High
-20 | File | `adclick.php` | Medium
-21 | ... | ... | ...
+6 | File | `/index.php` | Medium
+7 | File | `/log_download.cgi` | High
+8 | File | `/mgmt/tm/util/bash` | High
+9 | File | `/news.dtl.php` | High
+10 | File | `/p1/p2/:name` | Medium
+11 | File | `/ptms/?page=user` | High
+12 | File | `/setup/finish` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/upload/file.php` | High
+15 | File | `/usr/bin/pkexec` | High
+16 | File | `/wolfcms/?/admin/user/add` | High
+17 | File | `/wp-admin` | Medium
+18 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+19 | File | `/wp-json/wc/v3/webhooks` | High
+20 | File | `5.2.9\syscrb.exe` | High
+21 | File | `adclick.php` | Medium
+22 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

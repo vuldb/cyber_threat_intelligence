@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [66.29.142.232](https://vuldb.com/?ip.66.29.142.232) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77 | Command Injection | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,7 +53,7 @@ ID | Type | Indicator | Confidence
 4 | File | `admin.jcomments.php` | High
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 30 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,6 +61,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.morphisec.com/threat-research-mars-stealer
 * https://cert.gov.ua/article/38606
+* https://community.blueliv.com/#!/s/628bf72a82df417b9232fc80
 * https://gist.github.com/viriback/362a91ed9601ba906d8a17c8102a68bb
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
 
