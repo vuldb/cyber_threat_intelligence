@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [IT](https://vuldb.com/?country.it)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -77,7 +77,7 @@ ID | Type | Indicator | Confidence
 22 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

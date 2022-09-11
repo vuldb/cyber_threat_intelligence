@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,13 +35,48 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [3.37.215.204](https://vuldb.com/?ip.3.37.215.204) | ec2-3-37-215-204.ap-northeast-2.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
-2 | [16.162.223.161](https://vuldb.com/?ip.16.162.223.161) | ec2-16-162-223-161.ap-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
-3 | [18.229.249.186](https://vuldb.com/?ip.18.229.249.186) | ec2-18-229-249-186.sa-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
-4 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
-5 | [45.76.84.233](https://vuldb.com/?ip.45.76.84.233) | 45.76.84.233.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-6 | ... | ... | ... | ...
+2 | [3.112.205.66](https://vuldb.com/?ip.3.112.205.66) | ec2-3-112-205-66.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+3 | [3.112.229.159](https://vuldb.com/?ip.3.112.229.159) | ec2-3-112-229-159.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+4 | [3.115.76.186](https://vuldb.com/?ip.3.115.76.186) | ec2-3-115-76-186.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+5 | [13.112.95.58](https://vuldb.com/?ip.13.112.95.58) | ec2-13-112-95-58.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+6 | [16.162.223.161](https://vuldb.com/?ip.16.162.223.161) | ec2-16-162-223-161.ap-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+7 | [18.176.61.150](https://vuldb.com/?ip.18.176.61.150) | ec2-18-176-61-150.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+8 | [18.229.249.186](https://vuldb.com/?ip.18.229.249.186) | ec2-18-229-249-186.sa-east-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+9 | [23.94.136.110](https://vuldb.com/?ip.23.94.136.110) | 23-94-136-110-host.colocrossing.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+10 | [23.224.160.154](https://vuldb.com/?ip.23.224.160.154) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+11 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | [Nanocore](https://vuldb.com/?actor.nanocore) | High
+12 | [27.120.99.179](https://vuldb.com/?ip.27.120.99.179) | v-27-120-99-179.ub-freebit.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+13 | [27.254.33.56](https://vuldb.com/?ip.27.254.33.56) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+14 | [34.85.36.111](https://vuldb.com/?ip.34.85.36.111) | 111.36.85.34.bc.googleusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+15 | [35.200.121.203](https://vuldb.com/?ip.35.200.121.203) | 203.121.200.35.bc.googleusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+16 | [36.55.235.159](https://vuldb.com/?ip.36.55.235.159) | v-36-55-235-159.ub-freebit.net | [Unknown](https://vuldb.com/?actor.unknown) | High
+17 | [37.143.130.36](https://vuldb.com/?ip.37.143.130.36) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+18 | [38.27.101.191](https://vuldb.com/?ip.38.27.101.191) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+19 | [38.108.181.103](https://vuldb.com/?ip.38.108.181.103) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+20 | [38.143.68.21](https://vuldb.com/?ip.38.143.68.21) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+21 | [38.143.68.60](https://vuldb.com/?ip.38.143.68.60) | onox.mywire.org | [Unknown](https://vuldb.com/?actor.unknown) | High
+22 | [38.143.68.131](https://vuldb.com/?ip.38.143.68.131) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+23 | [38.143.68.158](https://vuldb.com/?ip.38.143.68.158) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+24 | [45.32.19.47](https://vuldb.com/?ip.45.32.19.47) | 45.32.19.47.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+25 | [45.32.28.231](https://vuldb.com/?ip.45.32.28.231) | 45.32.28.231.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+26 | [45.63.124.21](https://vuldb.com/?ip.45.63.124.21) | 45.63.124.21.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+27 | [45.76.55.235](https://vuldb.com/?ip.45.76.55.235) | 45.76.55.235.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+28 | [45.76.84.233](https://vuldb.com/?ip.45.76.84.233) | 45.76.84.233.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+29 | [45.76.204.127](https://vuldb.com/?ip.45.76.204.127) | dns.virtualshield.dev | [Unknown](https://vuldb.com/?actor.unknown) | High
+30 | [45.76.206.45](https://vuldb.com/?ip.45.76.206.45) | 45.76.206.45.vultrusercontent.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+31 | [45.80.191.19](https://vuldb.com/?ip.45.80.191.19) | 45.80.191.19.static.xtom.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+32 | [45.80.191.73](https://vuldb.com/?ip.45.80.191.73) | 45.80.191.73.static.xtom.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+33 | [45.141.156.195](https://vuldb.com/?ip.45.141.156.195) | . | [Unknown](https://vuldb.com/?actor.unknown) | High
+34 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | [Lorec53](https://vuldb.com/?actor.lorec53) | High
+35 | [47.74.40.74](https://vuldb.com/?ip.47.74.40.74) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+36 | [47.91.19.174](https://vuldb.com/?ip.47.91.19.174) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+37 | [52.79.102.70](https://vuldb.com/?ip.52.79.102.70) | ec2-52-79-102-70.ap-northeast-2.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+38 | [52.119.1.112](https://vuldb.com/?ip.52.119.1.112) | 112.1.119.52.ptr.fantomservers.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+39 | [52.199.58.10](https://vuldb.com/?ip.52.199.58.10) | ec2-52-199-58-10.ap-northeast-1.compute.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+40 | [54.162.106.88](https://vuldb.com/?ip.54.162.106.88) | ec2-54-162-106-88.compute-1.amazonaws.com | [Unknown](https://vuldb.com/?actor.unknown) | Medium
+41 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 158 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,13 +84,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,67 +98,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-4 | File | `/concat?/%2557EB-INF/web.xml` | High
-5 | File | `/configs/application.ini` | High
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/etc/ajenti/config.yml` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/telnet` | High
-10 | File | `/HNAP1` | Low
-11 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
-12 | File | `/index.php` | Medium
-13 | File | `/iwgallery/admin/pictures_edit.asp` | High
-14 | File | `/mail/index.html` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/replication` | Medium
-18 | File | `/rom-0` | Low
-19 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-20 | File | `/tmp/phpglibccheck` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/uploads/dede` | High
-23 | File | `/var/tmp/sess_*` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `AccessPoint.aspx` | High
-26 | File | `actionphp/download.File.php` | High
-27 | File | `activateuser.aspx` | High
-28 | File | `adclick.php` | Medium
-29 | File | `add_comment.php` | High
-30 | File | `AdHocQuery_Processor.aspx` | High
-31 | File | `admin` | Low
-32 | File | `admin.asp` | Medium
-33 | File | `admin/admin.asp` | High
-34 | File | `admin/admin.php` | High
-35 | File | `admin/content.php` | High
-36 | File | `admin/gallery.php` | High
-37 | File | `admin/images.aspx` | High
-38 | File | `admin/index.php` | High
-39 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-40 | File | `admin/login.asp` | High
-41 | File | `admin/manage-departments.php` | High
-42 | File | `admin/sellerupd.php` | High
-43 | File | `admin/sitesettings.php` | High
-44 | File | `advsearch.asp` | High
-45 | File | `AEAgent.cpp` | Medium
-46 | File | `affich.php` | Medium
-47 | File | `agent/Core/Controller/SendRequest.cpp` | High
-48 | File | `ajax.php` | Medium
-49 | File | `ajax_calls.php` | High
-50 | File | `ajax_cmd.php` | Medium
-51 | File | `album_portal.php` | High
-52 | File | `appfeed.c` | Medium
-53 | File | `ara.asp` | Low
-54 | File | `aspx` | Low
-55 | File | `auction_details.php` | High
-56 | File | `auth.inc.php` | Medium
-57 | File | `backend/utilities/terminal.js` | High
-58 | File | `blocking.asp` | Medium
-59 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/conferences/list/` | High
+4 | File | `/admin/edit_admin_details.php?id=admin` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/reports.php` | High
+8 | File | `/admin/showbad.php` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/Ap4RtpAtom.cpp` | High
+11 | File | `/app/options.py` | High
+12 | File | `/bsms/?page=manage_account` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/login.cgi` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/lists/admin/` | High
+28 | File | `/MagickCore/image.c` | High
+29 | File | `/manage-apartment.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/out.php` | Medium
+32 | File | `/pages/apply_vacancy.php` | High
+33 | ... | ... | ...
 
-There are 518 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +141,17 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.riskiq.com/article/e3a7ceea/indicators
 * https://ddanchev.blogspot.com/2008/02/inside-botnet-phishing-activities.html
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/M365_MFA_Phishing/HvS_M365_MFA_Phishing_2022-01_IOCs.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201901.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201902.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201904.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201905.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201906.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201907.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201908.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201909.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201910.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201911.csv
+* https://github.com/JPCERTCC/phishurl-list/blob/main/2019/201912.csv
 * https://nsfocusglobal.com/apt-retrospection-lorec53-an-active-russian-hack-group-launched-phishing-attacks-against-georgian-government/
 * https://twitter.com/__0XYC__/status/1502593457201811459
 * https://unit42.paloaltonetworks.com/nanocorerat-behind-an-increase-in-tax-themed-phishing-e-mails/

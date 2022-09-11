@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 53 | File | `admin.htm` | Medium
 54 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

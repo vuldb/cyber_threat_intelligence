@@ -43,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `arch/x86/platform/efi/efi.c` | High
-2 | File | `cp-demangle.c` | High
-3 | File | `jumpin.php` | Medium
+1 | File | `/admin/addemployee.php` | High
+2 | File | `arch/x86/platform/efi/efi.c` | High
+3 | File | `cp-demangle.c` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

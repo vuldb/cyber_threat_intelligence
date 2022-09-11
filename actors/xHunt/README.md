@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 32 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,45 +63,47 @@ ID | Type | Indicator | Confidence
 2 | File | `.procmailrc` | Medium
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
-5 | File | `/about.php` | Medium
-6 | File | `/admin.php?action=themeinstall` | High
-7 | File | `/admin/` | Low
-8 | File | `/admin/communitymanagement.php` | High
-9 | File | `/admin/contenttemp` | High
-10 | File | `/admin/extended` | High
-11 | File | `/admin/featured.php` | High
-12 | File | `/admin/generalsettings.php` | High
+5 | File | `/admin.php?action=themeinstall` | High
+6 | File | `/admin/` | Low
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/contenttemp` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/login.php` | High
 13 | File | `/admin/modules/system/custom_field.php` | High
 14 | File | `/admin/newsletter1.php` | High
 15 | File | `/admin/payment.php` | High
 16 | File | `/admin/renewaldue.php` | High
-17 | File | `/admin/usermanagement.php` | High
-18 | File | `/api/addusers` | High
-19 | File | `/api/crontab` | Medium
-20 | File | `/category_view.php` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/cgi-mod/lookup.cgi` | High
-23 | File | `/common/info.cgi` | High
-24 | File | `/designer/add/layout` | High
-25 | File | `/filemanager/upload/drop` | High
-26 | File | `/getImage` | Medium
-27 | File | `/htmldoc/htmldoc/html.cxx` | High
-28 | File | `/interface/main/backup.php` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/login.php` | Medium
-31 | File | `/mcategory.php` | High
-32 | File | `/new` | Low
-33 | File | `/out.php` | Medium
-34 | File | `/php_action/createUser.php` | High
-35 | File | `/platform.cgi` | High
-36 | File | `/public/login.htm` | High
-37 | File | `/public/plugins/` | High
-38 | File | `/requests.php` | High
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | ... | ... | ...
+17 | File | `/admin/students/view_student.php` | High
+18 | File | `/admin/usermanagement.php` | High
+19 | File | `/api/addusers` | High
+20 | File | `/api/crontab` | Medium
+21 | File | `/bits/stl_vector.h` | High
+22 | File | `/category_view.php` | High
+23 | File | `/cgi-bin/wapopen` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/cgi-mod/lookup.cgi` | High
+26 | File | `/common/info.cgi` | High
+27 | File | `/dashboard/updatelogo.php` | High
+28 | File | `/designer/add/layout` | High
+29 | File | `/filemanager/upload/drop` | High
+30 | File | `/getImage` | Medium
+31 | File | `/htmldoc/htmldoc/html.cxx` | High
+32 | File | `/interface/main/backup.php` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/login.php` | Medium
+35 | File | `/loginVaLidation.php` | High
+36 | File | `/manage-apartment.php` | High
+37 | File | `/mcategory.php` | High
+38 | File | `/mkshop/Men/profile.php` | High
+39 | File | `/new` | Low
+40 | File | `/Noxen-master/users.php` | High
+41 | File | `/out.php` | Medium
+42 | File | `/pages/animals.php` | High
+43 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
 
 ## Actors
@@ -53,14 +54,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,32 +70,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/changestock.php` | High
-4 | File | `/admin/history.php` | High
-5 | File | `/admin/modify.php` | High
-6 | File | `/admin/modify1.php` | High
-7 | File | `/admin/search.php` | High
-8 | File | `/advanced-tools/nova/bin/netwatch` | High
-9 | File | `/api/v1/user` | Medium
-10 | File | `/card_scan.php` | High
-11 | File | `/categories/manage_category.php` | High
+2 | File | `/admin/?page=reports/stockout` | High
+3 | File | `/admin/?page=reports/waste` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/delete.php` | High
+8 | File | `/admin/delstu.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/products/controller.php?action=add` | High
+11 | File | `/bd_genie_create_account.cgi` | High
 12 | File | `/categories/view_category.php` | High
 13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/classes/Master.php?f=delete_account` | High
-15 | File | `/classes/Master.php?f=delete_category` | High
-16 | File | `/classes/Master.php?f=delete_item` | High
-17 | File | `/classes/Master.php?f=delete_payment` | High
-18 | File | `/classes/Master.php?f=delete_schedule` | High
-19 | File | `/classes/Master.php?f=delete_stockin` | High
-20 | File | `/classes/Master.php?f=delete_stockout` | High
-21 | File | `/classes/Master.php?f=delete_student` | High
-22 | File | `/classes/Master.php?f=delete_waste` | High
-23 | File | `/classes/Users.php?f=save_client` | High
-24 | File | `/coreframe/app/attachment/admin/index.php` | High
-25 | ... | ... | ...
+14 | File | `/classes/Master.php?f=delete_img` | High
+15 | File | `/classes/Master.php?f=delete_payment` | High
+16 | File | `/classes/Master.php?f=delete_student` | High
+17 | File | `/classes/Users.php?f=save_client` | High
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/etc/ciel.cfg` | High
+20 | File | `/etc/init0.d/S80telnetd.sh` | High
+21 | File | `/etc/srapi/config/system.conf` | High
+22 | File | `/goform/addRouting` | High
+23 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
-* [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -173,37 +173,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
 2 | File | `/#/network?tab=network_node_list.html` | High
-3 | File | `/admin/del.php` | High
-4 | File | `/admin/lab.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/searchview.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/api/` | Low
-10 | File | `/api/plugin/uninstall` | High
-11 | File | `/app/options.py` | High
-12 | File | `/blog/edit` | Medium
-13 | File | `/catcompany.php` | High
-14 | File | `/category/controller.php?action=edit` | High
-15 | File | `/cgi/get_param.cgi` | High
-16 | File | `/chart` | Low
-17 | File | `/ci_spms/admin/category` | High
-18 | File | `/ci_spms/admin/search/searching/` | High
-19 | File | `/classes/Master.php?f=delete_account` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/dashboard/updatelogo.php` | High
-22 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-23 | File | `/dede/co_do.php` | High
-24 | File | `/etc/hosts` | Medium
-25 | File | `/etc/init.d/sshd_service` | High
-26 | File | `/goform/SystemCommand` | High
-27 | File | `/index.php` | Medium
-28 | File | `/librarian/lab.php` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/mkshop/Men/profile.php` | High
-31 | ... | ... | ...
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/del.php` | High
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/searchview.php` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/api/` | Low
+11 | File | `/api/plugin/uninstall` | High
+12 | File | `/app/options.py` | High
+13 | File | `/blog/edit` | Medium
+14 | File | `/catcompany.php` | High
+15 | File | `/category/controller.php?action=edit` | High
+16 | File | `/cgi/get_param.cgi` | High
+17 | File | `/chart` | Low
+18 | File | `/ci_spms/admin/category` | High
+19 | File | `/ci_spms/admin/search/searching/` | High
+20 | File | `/classes/Master.php?f=delete_account` | High
+21 | File | `/dashboard/reports/logs/view` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dede/co_do.php` | High
+26 | File | `/etc/hosts` | Medium
+27 | File | `/etc/init.d/sshd_service` | High
+28 | File | `/goform/addRouting` | High
+29 | File | `/goform/saveParentControlInfo` | High
+30 | File | `/goform/SystemCommand` | High
+31 | File | `/index.php` | Medium
+32 | File | `/interview/editQuestion.php` | High
+33 | File | `/librarian/lab.php` | High
+34 | File | `/login.php` | Medium
+35 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

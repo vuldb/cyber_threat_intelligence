@@ -55,11 +55,11 @@ ID | Type | Indicator | Confidence
 9 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
 10 | File | `/uncpath/` | Medium
 11 | File | `admin/admin.shtml` | High
-12 | File | `admin/import/class-import-settings.php` | High
-13 | File | `Administration/Controllers/ImportController.cs` | High
+12 | File | `admin/area.php` | High
+13 | File | `admin/import/class-import-settings.php` | High
 14 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

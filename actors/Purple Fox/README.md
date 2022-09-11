@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -437,13 +437,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -457,24 +457,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/ad_js.php` | Medium
 5 | File | `/api/RecordingList/DownloadRecord?file=` | High
 6 | File | `/appliance/users?action=edit` | High
-7 | File | `/bin/login` | Medium
+7 | File | `/bd_genie_create_account.cgi` | High
 8 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/nightled.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/claire_blake` | High
-14 | File | `/configs/application.ini` | High
-15 | File | `/controller/OnlinePreviewController.java` | High
-16 | File | `/coreframe/app/attachment/admin/index.php` | High
-17 | File | `/coreframe/app/pay/admin/index.php` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/defaultui/player/modern.html` | High
-20 | File | `/etc/init0.d/S80telnetd.sh` | High
-21 | File | `/etc/shadow` | Medium
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/filemanager/ajax_calls.php` | High
-24 | File | `/forum/away.php` | High
+10 | File | `/cgi-bin/nightled.cgi` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/claire_blake` | High
+13 | File | `/configs/application.ini` | High
+14 | File | `/controller/OnlinePreviewController.java` | High
+15 | File | `/coreframe/app/attachment/admin/index.php` | High
+16 | File | `/coreframe/app/pay/admin/index.php` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/etc/init0.d/S80telnetd.sh` | High
+20 | File | `/etc/shadow` | Medium
+21 | File | `/etc/shadow.sample` | High
+22 | File | `/filemanager/ajax_calls.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/SetIpMacBind` | High
 25 | File | `/goform/setmac` | High
 26 | File | `/h/search?action` | High
 27 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
@@ -489,15 +489,11 @@ ID | Type | Indicator | Confidence
 36 | File | `/mkshop/Men/profile.php` | High
 37 | File | `/ows-bin` | Medium
 38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/pages/faculty_sched.php` | High
-40 | File | `/pages/processlogin.php` | High
-41 | File | `/redbin/rpwebutilities.exe/text` | High
-42 | File | `/resources//../` | High
-43 | File | `/rest/collectors/1.0/template/custom` | High
-44 | File | `/uncpath/` | Medium
-45 | ... | ... | ...
+39 | File | `/pages/processlogin.php` | High
+40 | File | `/redbin/rpwebutilities.exe/text` | High
+41 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

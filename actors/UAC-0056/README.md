@@ -154,7 +154,7 @@ ID | Type | Indicator | Confidence
 96 | File | `category.cfm` | Medium
 97 | ... | ... | ...
 
-There are 859 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 861 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

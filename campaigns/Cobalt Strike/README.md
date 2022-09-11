@@ -89,10 +89,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -104,38 +104,39 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=reports/waste` | High
 3 | File | `/admin/add_trainers.php` | High
 4 | File | `/admin/curltest.cgi` | High
-5 | File | `/admin/lab.php` | High
-6 | File | `/admin/modify.php` | High
-7 | File | `/admin/showbad.php` | High
-8 | File | `/advanced-tools/nova/bin/netwatch` | High
-9 | File | `/api/v1/user` | Medium
-10 | File | `/card_scan.php` | High
-11 | File | `/categories/view_category.php` | High
-12 | File | `/category/controller.php?action=edit` | High
-13 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-14 | File | `/cgi-bin/ExportAllSettings.sh` | High
-15 | File | `/claire_blake` | High
-16 | File | `/classes/Master.php?f=delete_account` | High
-17 | File | `/classes/Master.php?f=delete_schedule` | High
-18 | File | `/coreframe/app/attachment/admin/index.php` | High
-19 | File | `/dashboard/add-service.php` | High
-20 | File | `/dashboard/settings` | High
-21 | File | `/edituser.php` | High
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/fw.login.php` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/NTPSyncWithHost` | High
-27 | File | `/goform/SetLEDCfg` | High
-28 | File | `/index.php` | Medium
-29 | File | `/index.php/?p=report` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/master/index.php` | High
-32 | File | `/mkshop/Men/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | ... | ... | ...
+5 | File | `/admin/imagealbum/list` | High
+6 | File | `/admin/lab.php` | High
+7 | File | `/admin/modify.php` | High
+8 | File | `/admin/showbad.php` | High
+9 | File | `/admin/video/list` | High
+10 | File | `/admin/videoalbum/list` | High
+11 | File | `/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/api/v1/user` | Medium
+13 | File | `/bd_genie_create_account.cgi` | High
+14 | File | `/card_scan.php` | High
+15 | File | `/categories/view_category.php` | High
+16 | File | `/category/controller.php?action=edit` | High
+17 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
+18 | File | `/cgi-bin/ExportAllSettings.sh` | High
+19 | File | `/claire_blake` | High
+20 | File | `/classes/Master.php?f=delete_account` | High
+21 | File | `/classes/Master.php?f=delete_schedule` | High
+22 | File | `/coreframe/app/attachment/admin/index.php` | High
+23 | File | `/dashboard/add-service.php` | High
+24 | File | `/dashboard/settings` | High
+25 | File | `/edituser.php` | High
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/fw.login.php` | High
+29 | File | `/goform/aspForm` | High
+30 | File | `/goform/NTPSyncWithHost` | High
+31 | File | `/goform/saveParentControlInfo` | High
+32 | File | `/goform/SetLEDCfg` | High
+33 | File | `/goform/SetVirtualServerCfg` | High
+34 | File | `/index.php` | Medium
+35 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 30 | File | `/tmp` | Low
 31 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

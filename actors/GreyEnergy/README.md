@@ -70,20 +70,20 @@ ID | Type | Indicator | Confidence
 18 | File | `/hprms/admin/doctors/manage_doctor.php` | High
 19 | File | `/index/jobfairol/show/` | High
 20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-23 | File | `/php_action/editProductImage.php` | High
-24 | File | `/proc/<PID>/mem` | High
-25 | File | `/proc/<pid>/status` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/REBOOTSYSTEM` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-31 | File | `/spip.php` | Medium
+21 | File | `/manage-apartment.php` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+24 | File | `/pages/apply_vacancy.php` | High
+25 | File | `/php_action/editProductImage.php` | High
+26 | File | `/proc/<PID>/mem` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/REBOOTSYSTEM` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 32 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

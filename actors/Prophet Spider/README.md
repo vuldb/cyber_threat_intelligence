@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [SC](https://vuldb.com/?country.sc)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -61,37 +61,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/waste` | High
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/del.php` | High
-4 | File | `/admin/delete.php` | High
-5 | File | `/admin/delstu.php` | High
-6 | File | `/admin/history.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/modify.php` | High
-9 | File | `/admin/modify1.php` | High
-10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/v1/user` | Medium
-13 | File | `/assets` | Low
-14 | File | `/blogengine/api/posts` | High
-15 | File | `/cgi-bin/DownloadFlash` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/classes/Master.php?f=delete_account` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=delete_img` | High
-20 | File | `/classes/Master.php?f=delete_payment` | High
-21 | File | `/classes/Master.php?f=delete_schedule` | High
-22 | File | `/classes/Master.php?f=delete_student` | High
-23 | File | `/classes/Master.php?f=delete_waste` | High
-24 | File | `/classes/Users.php?f=save_client` | High
-25 | File | `/etc/ciel.cfg` | High
-26 | File | `/etc/init0.d/S80telnetd.sh` | High
-27 | File | `/etc/shadow.sample` | High
-28 | File | `/etc/srapi/config/system.conf` | High
-29 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/waste` | High
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/del.php` | High
+6 | File | `/admin/delete.php` | High
+7 | File | `/admin/delstu.php` | High
+8 | File | `/admin/history.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/modify.php` | High
+11 | File | `/admin/modify1.php` | High
+12 | File | `/admin/products/controller.php?action=add` | High
+13 | File | `/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/api/v1/user` | Medium
+15 | File | `/appConfig/userDB.json` | High
+16 | File | `/bd_genie_create_account.cgi` | High
+17 | File | `/bin/boa` | Medium
+18 | File | `/blog/edit` | Medium
+19 | File | `/blogengine/api/posts` | High
+20 | File | `/brand.php` | Medium
+21 | File | `/cgi-bin/DownloadFlash` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php?f=delete_account` | High
+24 | File | `/classes/Master.php?f=delete_category` | High
+25 | File | `/classes/Master.php?f=delete_img` | High
+26 | File | `/classes/Master.php?f=delete_payment` | High
+27 | File | `/classes/Master.php?f=delete_schedule` | High
+28 | File | `/classes/Master.php?f=delete_student` | High
+29 | File | `/classes/Master.php?f=delete_waste` | High
+30 | File | `/classes/Users.php?f=save_client` | High
+31 | File | `/client.php` | Medium
+32 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

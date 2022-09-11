@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [PT](https://vuldb.com/?country.pt)
-* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-268, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -55,33 +56,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/advanced-tools/nova/bin/netwatch` | High
 5 | File | `/api/plugin/uninstall` | High
 6 | File | `/artist-display.php` | High
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/ExportAllSettings.sh` | High
-9 | File | `/claire_blake` | High
-10 | File | `/classes/Master.php?f=delete_account` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/classes/Master.php?f=delete_schedule` | High
-13 | File | `/classes/Master.php?f=delete_student` | High
-14 | File | `/classes/Master.php?f=delete_waste` | High
-15 | File | `/classes/Users.php?f=save_client` | High
-16 | File | `/client.php` | Medium
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/doping.asp` | Medium
-19 | File | `/dotrace.asp` | Medium
-20 | File | `/editbrand.php` | High
-21 | File | `/edituser.php` | High
-22 | File | `/etc/lighttpd.d/ca.pem` | High
-23 | File | `/etc/shadow.sample` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/goform/exeCommand` | High
-26 | File | `/goform/form2userconfig.cgi` | High
-27 | File | `/goform/WanParameterSetting` | High
-28 | File | `/Home/debit_credit_p` | High
-29 | File | `/index.php` | Medium
-30 | File | `/login.php` | Medium
-31 | ... | ... | ...
+7 | File | `/bd_genie_create_account.cgi` | High
+8 | File | `/bmis/pages/resident/resident.php` | High
+9 | File | `/cgi-bin/ExportAllSettings.sh` | High
+10 | File | `/claire_blake` | High
+11 | File | `/classes/Master.php?f=delete_account` | High
+12 | File | `/classes/Master.php?f=delete_category` | High
+13 | File | `/classes/Master.php?f=delete_schedule` | High
+14 | File | `/classes/Master.php?f=delete_student` | High
+15 | File | `/classes/Master.php?f=delete_waste` | High
+16 | File | `/classes/Users.php?f=save_client` | High
+17 | File | `/client.php` | Medium
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/doping.asp` | Medium
+20 | File | `/dotrace.asp` | Medium
+21 | File | `/editbrand.php` | High
+22 | File | `/edituser.php` | High
+23 | File | `/etc/lighttpd.d/ca.pem` | High
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/exeCommand` | High
+27 | File | `/goform/form2userconfig.cgi` | High
+28 | File | `/goform/SetStaticRouteCfg` | High
+29 | File | `/goform/WanParameterSetting` | High
+30 | File | `/Home/debit_credit_p` | High
+31 | File | `/index.php` | Medium
+32 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

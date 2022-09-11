@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,12 +82,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/addemployee.php` | High
 2 | File | `/admin/add_trainers.php` | High
 3 | File | `/admin/header.inc.php` | High
-4 | File | `/admin/vca/license/license_tok.cgi` | High
-5 | File | `/AJAX/ajaxget` | High
-6 | File | `/api/plugin/uninstall` | High
+4 | File | `/admin/video/list` | High
+5 | File | `/api/plugin/uninstall` | High
+6 | File | `/api/upload-resource` | High
 7 | File | `/api/v2/config` | High
-8 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+8 | File | `/bd_genie_create_account.cgi` | High
+9 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
 10 | File | `/claire_blake` | High
 11 | File | `/classes/Users.php?f=save_client` | High
 12 | File | `/coreframe/app/attachment/admin/index.php` | High
@@ -101,39 +101,40 @@ ID | Type | Indicator | Confidence
 20 | File | `/gfxpoly/stroke.c` | High
 21 | File | `/goform/addRouting` | High
 22 | File | `/goform/form2Wan.cgi` | High
-23 | File | `/htdocs/utils/Files.php` | High
-24 | File | `/include/menu_u.inc.php` | High
-25 | File | `/includes/db_connect.php` | High
-26 | File | `/includes/images.php` | High
-27 | File | `/ip/admin/` | Medium
-28 | File | `/jfinal_cms/system/role/list` | High
-29 | File | `/librarian/edit_book_details.php` | High
-30 | File | `/login.php` | Medium
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/master/index.php` | High
-33 | File | `/mkshop/Men/profile.php` | High
-34 | File | `/oa/setup/checkPool?database` | High
-35 | File | `/pages/class_sched.php` | High
-36 | File | `/pages/faculty_sched.php` | High
-37 | File | `/pages/permit/permit.php` | High
-38 | File | `/pages/processlogin.php` | High
-39 | File | `/patient/booking.php` | High
-40 | File | `/php_action/createUser.php` | High
-41 | File | `/pms/update_medicine.php` | High
-42 | File | `/pms/update_user.php` | High
-43 | File | `/qr/I/` | Low
-44 | File | `/release-x64/otfccdump` | High
-45 | File | `/see_more_details.php` | High
-46 | File | `/servlet/AdapterHTTP` | High
-47 | File | `/session/sendmail` | High
-48 | File | `/sistema/flash/reboot` | High
-49 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-50 | File | `/templates/default/html/windows/right.php` | High
-51 | File | `/ubus/uci.apply` | High
-52 | File | `/web/api/v1/upload/UploadHandler.php` | High
-53 | ... | ... | ...
+23 | File | `/goform/SetIpMacBind` | High
+24 | File | `/htdocs/utils/Files.php` | High
+25 | File | `/include/menu_u.inc.php` | High
+26 | File | `/includes/db_connect.php` | High
+27 | File | `/includes/images.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/ip/admin/` | Medium
+30 | File | `/jfinal_cms/system/role/list` | High
+31 | File | `/librarian/edit_book_details.php` | High
+32 | File | `/login.php` | Medium
+33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+34 | File | `/master/index.php` | High
+35 | File | `/mkshop/Men/profile.php` | High
+36 | File | `/oa/setup/checkPool?database` | High
+37 | File | `/pages/class_sched.php` | High
+38 | File | `/pages/faculty_sched.php` | High
+39 | File | `/pages/permit/permit.php` | High
+40 | File | `/pages/processlogin.php` | High
+41 | File | `/patient/booking.php` | High
+42 | File | `/php_action/createUser.php` | High
+43 | File | `/pms/update_medicine.php` | High
+44 | File | `/pms/update_user.php` | High
+45 | File | `/qr/I/` | Low
+46 | File | `/release-x64/otfccdump` | High
+47 | File | `/see_more_details.php` | High
+48 | File | `/servlet/AdapterHTTP` | High
+49 | File | `/session/sendmail` | High
+50 | File | `/sistema/flash/reboot` | High
+51 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+52 | File | `/templates/default/html/windows/right.php` | High
+53 | File | `/WebApp/SettingsFileMonitor/GetFileMonitorProfiles` | High
+54 | ... | ... | ...
 
-There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

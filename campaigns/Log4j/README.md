@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with Log4j or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
 
 ## IOC - Indicator of Compromise
 
@@ -4898,9 +4899,10 @@ ID | IP address | Hostname | Actor | Confidence
 4867 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
 4868 | [45.137.22.142](https://vuldb.com/?ip.45.137.22.142) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
 4869 | [45.137.22.146](https://vuldb.com/?ip.45.137.22.146) | host.nectonline.ga | [Unknown](https://vuldb.com/?actor.unknown) | High
-4870 | ... | ... | ... | ...
+4870 | [45.137.64.165](https://vuldb.com/?ip.45.137.64.165) | chx12.aalid.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+4871 | ... | ... | ... | ...
 
-There are 19477 more IOC items available. Please use our online service to access the data.
+There are 19478 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -4908,8 +4910,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -4923,43 +4925,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/waste` | High
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/changestock.php` | High
-5 | File | `/admin/history.php` | High
-6 | File | `/admin/modify.php` | High
-7 | File | `/admin/modify1.php` | High
-8 | File | `/admin/search.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/api/v1/user` | Medium
-11 | File | `/card_scan.php` | High
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/classes/Master.php?f=delete_account` | High
-14 | File | `/classes/Master.php?f=delete_category` | High
-15 | File | `/classes/Master.php?f=delete_item` | High
-16 | File | `/classes/Master.php?f=delete_payment` | High
-17 | File | `/classes/Master.php?f=delete_schedule` | High
-18 | File | `/classes/Master.php?f=delete_stockin` | High
-19 | File | `/classes/Master.php?f=delete_stockout` | High
-20 | File | `/classes/Master.php?f=delete_student` | High
-21 | File | `/classes/Master.php?f=delete_waste` | High
-22 | File | `/classes/Users.php?f=save_client` | High
-23 | File | `/coreframe/app/attachment/admin/index.php` | High
-24 | File | `/etc/ciel.cfg` | High
-25 | File | `/etc/init0.d/S80telnetd.sh` | High
-26 | File | `/etc/networkd-dispatcher` | High
-27 | File | `/etc/shadow` | Medium
-28 | File | `/etc/shadow.sample` | High
-29 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/appConfig/userDB.json` | High
+5 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/bin/boa` | Medium
+8 | File | `/blog/edit` | Medium
+9 | File | `/brand.php` | Medium
+10 | File | `/categories/view_category.php` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi/get_param.cgi` | High
+13 | File | `/client.php` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dede/co_do.php` | High
+16 | File | `/defaultui/player/modern.html` | High
+17 | File | `/etc/srapi/config/system.conf` | High
+18 | File | `/goform/addRouting` | High
+19 | File | `/goform/NTPSyncWithHost` | High
+20 | File | `/goform/PowerSaveSet` | High
+21 | File | `/goform/SetIpMacBind` | High
+22 | File | `/goform/SystemCommand` | High
+23 | File | `/Home/debit_credit_p` | High
+24 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+25 | File | `/list/<path:folderpath>` | High
+26 | File | `/login.php` | Medium
+27 | File | `/manage-apartment.php` | High
+28 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/MelihOzturk/cyber-security-ip-blacklist/blob/main/log4j.txt
+* https://www.microsoft.com/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/
 
 ## Literature
 

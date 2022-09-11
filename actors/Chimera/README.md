@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,45 +47,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.python-version` | High
-2 | File | `/admin.php/news/admin/topic/save` | High
-3 | File | `/admin/inc/include.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/alarm_pi/alarmService.php` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/app/controller/Books.php` | High
-8 | File | `/appliance/users?action=edit` | High
-9 | File | `/ATL/VQ23` | Medium
-10 | File | `/bin/login` | Medium
-11 | File | `/catcompany.php` | High
-12 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/coreframe/app/pay/admin/index.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/etc/quagga` | Medium
+2 | File | `/admin/inc/include.php` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/alarm_pi/alarmService.php` | High
+5 | File | `/app/controller/Books.php` | High
+6 | File | `/appliance/users?action=edit` | High
+7 | File | `/ATL/VQ23` | Medium
+8 | File | `/bin/login` | Medium
+9 | File | `/catcompany.php` | High
+10 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/coreframe/app/pay/admin/index.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/etc/quagga` | Medium
+18 | File | `/etc/shadow` | Medium
 19 | File | `/filemanager/php/connector.php` | High
 20 | File | `/forum/away.php` | High
 21 | File | `/h/search?action` | High
-22 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-23 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-24 | File | `/language/lang` | High
-25 | File | `/loginsave.php` | High
-26 | File | `/menu.html` | Medium
-27 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/ows-bin` | Medium
-31 | File | `/public/plugins/` | High
-32 | File | `/recreate.php` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/sql/sql_string.h` | High
-35 | File | `/sql/sql_type.cc` | High
-36 | File | `/strings/ctype-latin1.c` | High
-37 | File | `/strings/ctype-simple.c` | High
+22 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+23 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+24 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
+25 | File | `/language/lang` | High
+26 | File | `/loginsave.php` | High
+27 | File | `/loginVaLidation.php` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/ows-bin` | Medium
+33 | File | `/public/plugins/` | High
+34 | File | `/recreate.php` | High
+35 | File | `/rest/collectors/1.0/template/custom` | High
+36 | File | `/sql/sql_string.h` | High
+37 | File | `/sql/sql_type.cc` | High
 38 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

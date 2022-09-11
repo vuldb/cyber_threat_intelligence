@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Camerashy:
 
 * [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -44,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,10 +58,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add_exercises.php` | High
 4 | File | `/admin/add_trainers.php` | High
 5 | File | `/admin/edit.php` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/lab.php` | High
-8 | File | `/admin/students/view_student.php` | High
-9 | File | `/api/` | Low
+6 | File | `/admin/lab.php` | High
+7 | File | `/admin/students/view_student.php` | High
+8 | File | `/api/` | Low
+9 | File | `/bd_genie_create_account.cgi` | High
 10 | File | `/categories/view_category.php` | High
 11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 12 | File | `/cgi-bin/nightled.cgi` | High
@@ -95,17 +96,16 @@ ID | Type | Indicator | Confidence
 41 | File | `/index.php` | Medium
 42 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
 43 | File | `/items/manage_item.php` | High
-44 | File | `/librarian/bookdetails.php` | High
-45 | File | `/login.php` | Medium
-46 | File | `/loginVaLidation.php` | High
-47 | File | `/manage-apartment.php` | High
-48 | File | `/management/api/rcx_management/global_config_query` | High
-49 | File | `/mdiy/page/verify` | High
-50 | File | `/mkshop/Men/profile.php` | High
-51 | File | `/mkshope/login.php` | High
-52 | ... | ... | ...
+44 | File | `/login.php` | Medium
+45 | File | `/loginVaLidation.php` | High
+46 | File | `/manage-apartment.php` | High
+47 | File | `/management/api/rcx_management/global_config_query` | High
+48 | File | `/mdiy/page/verify` | High
+49 | File | `/mkshop/Men/profile.php` | High
+50 | File | `/mkshope/login.php` | High
+51 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

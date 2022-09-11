@@ -72,30 +72,30 @@ ID | Type | Indicator | Confidence
 14 | File | `/debug/pprof` | Medium
 15 | File | `/DLSnap` | Low
 16 | File | `/exec/` | Low
-17 | File | `/ldclient/ldprov.cgi` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/login` | Low
-20 | File | `/mail/index.html` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/plugin/extended-choice-parameter/js/` | High
-23 | File | `/plugins/servlet/gadgets/makeRequest` | High
-24 | File | `/PreviewHandler.ashx` | High
-25 | File | `/products/details.asp` | High
-26 | File | `/rest/api/2/user/picker` | High
-27 | File | `/rest/api/latest/groupuserpicker` | High
-28 | File | `/rom-0` | Low
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/services/details.asp` | High
-31 | File | `/student/bookdetails.php` | High
-32 | File | `/templates/header.inc.php` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-36 | File | `/var/log/nginx` | High
-37 | File | `/ViewUserHover.jspa` | High
+17 | File | `/items/view_item.php` | High
+18 | File | `/ldclient/ldprov.cgi` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/login` | Low
+21 | File | `/mail/index.html` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/plugin/extended-choice-parameter/js/` | High
+24 | File | `/plugins/servlet/gadgets/makeRequest` | High
+25 | File | `/PreviewHandler.ashx` | High
+26 | File | `/products/details.asp` | High
+27 | File | `/rest/api/2/user/picker` | High
+28 | File | `/rest/api/latest/groupuserpicker` | High
+29 | File | `/rom-0` | Low
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/services/details.asp` | High
+32 | File | `/student/bookdetails.php` | High
+33 | File | `/templates/header.inc.php` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/bin/pkexec` | High
+36 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+37 | File | `/var/log/nginx` | High
 38 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

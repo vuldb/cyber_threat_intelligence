@@ -16,7 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
-* [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,13 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,47 +63,45 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/edit.php` | High
 6 | File | `/admin/students/view_student.php` | High
 7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/categories/view_category.php` | High
-9 | File | `/cgi-bin/editBookmark` | High
-10 | File | `/claire_blake` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/dashboard/add-blog.php` | High
-13 | File | `/dashboard/add-portfolio.php` | High
-14 | File | `/dashboard/add-service.php` | High
-15 | File | `/dashboard/contact` | High
-16 | File | `/dashboard/settings` | High
-17 | File | `/dashboard/updatelogo.php` | High
-18 | File | `/etc/shadow.sample` | High
-19 | File | `/etc/srapi/config/system.conf` | High
-20 | File | `/fax/fax_send.php` | High
-21 | File | `/framework/mod/db/DBMapper.xml` | High
-22 | File | `/gasmark/assets/myimages/oneWord.php` | High
-23 | File | `/goform/aspForm` | High
-24 | File | `/goform/form2userconfig.cgi` | High
-25 | File | `/goform/formWifiBasicSet` | High
-26 | File | `/goform/setAutoPing` | High
-27 | File | `/guestmanagement/front.php` | High
-28 | File | `/Home/debit_credit_p` | High
-29 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-30 | File | `/htdocs/utils/Files.php` | High
-31 | File | `/htmldoc/htmldoc/html.cxx` | High
-32 | File | `/include/menu_v.inc.php` | High
-33 | File | `/includes/utils.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/items/manage_item.php` | High
-36 | File | `/librarian/lab.php` | High
-37 | File | `/login.php` | Medium
-38 | File | `/loginVaLidation.php` | High
-39 | File | `/manage-apartment.php` | High
-40 | File | `/management/api/rcx_management/global_config_query` | High
-41 | File | `/mdiy/page/verify` | High
-42 | File | `/mkshop/Men/profile.php` | High
-43 | File | `/mkshope/login.php` | High
-44 | File | `/mygym/admin/index.php` | High
-45 | File | `/mygym/admin/index.php?view_exercises` | High
-46 | ... | ... | ...
+8 | File | `/bd_genie_create_account.cgi` | High
+9 | File | `/categories/view_category.php` | High
+10 | File | `/category_view.php` | High
+11 | File | `/cgi-bin/editBookmark` | High
+12 | File | `/claire_blake` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/dashboard/add-blog.php` | High
+15 | File | `/dashboard/add-portfolio.php` | High
+16 | File | `/dashboard/add-service.php` | High
+17 | File | `/dashboard/contact` | High
+18 | File | `/dashboard/settings` | High
+19 | File | `/dashboard/updatelogo.php` | High
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/etc/srapi/config/system.conf` | High
+22 | File | `/fax/fax_send.php` | High
+23 | File | `/framework/mod/db/DBMapper.xml` | High
+24 | File | `/gasmark/assets/myimages/oneWord.php` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/form2userconfig.cgi` | High
+27 | File | `/goform/formWifiBasicSet` | High
+28 | File | `/goform/setAutoPing` | High
+29 | File | `/guestmanagement/front.php` | High
+30 | File | `/Home/debit_credit_p` | High
+31 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+32 | File | `/htdocs/utils/Files.php` | High
+33 | File | `/htmldoc/htmldoc/html.cxx` | High
+34 | File | `/includes/utils.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/items/manage_item.php` | High
+37 | File | `/librarian/lab.php` | High
+38 | File | `/login.php` | Medium
+39 | File | `/loginVaLidation.php` | High
+40 | File | `/manage-apartment.php` | High
+41 | File | `/management/api/rcx_management/global_config_query` | High
+42 | File | `/mdiy/page/verify` | High
+43 | File | `/mkshop/Men/profile.php` | High
+44 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

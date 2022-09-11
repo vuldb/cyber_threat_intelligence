@@ -77,9 +77,10 @@ ID | Type | Indicator | Confidence
 14 | File | `add_edit_cat.asp` | High
 15 | File | `admin.php?mod=user&act=del` | High
 16 | File | `admin/admin_process.php` | High
-17 | ... | ... | ...
+17 | File | `allocator.cc` | Medium
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

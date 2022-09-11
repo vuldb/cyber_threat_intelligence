@@ -325,14 +325,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -344,51 +344,54 @@ ID | Type | Indicator | Confidence
 2 | File | `/addQuestion.php` | High
 3 | File | `/adm/setmain.php` | High
 4 | File | `/admin` | Low
-5 | File | `/admin/` | Low
-6 | File | `/admin/add_exercises.php` | High
-7 | File | `/admin/add_trainers.php` | High
-8 | File | `/admin/cms.php` | High
-9 | File | `/admin/conferences/get-all-status/` | High
-10 | File | `/admin/conferences/list/` | High
-11 | File | `/admin/countrymanagement.php` | High
-12 | File | `/admin/edit.php` | High
-13 | File | `/admin/edit_admin_details.php?id=admin` | High
-14 | File | `/admin/featured.php` | High
-15 | File | `/admin/general.cgi` | High
-16 | File | `/admin/general/change-lang` | High
-17 | File | `/admin/group/list/` | High
-18 | File | `/admin/newsletter1.php` | High
-19 | File | `/admin/photo.php` | High
-20 | File | `/admin/renewaldue.php` | High
-21 | File | `/admin/scheprofile.cgi` | High
-22 | File | `/admin/searchview.php` | High
-23 | File | `/admin/service/stop/` | High
-24 | File | `/admin/students/view_student.php` | High
-25 | File | `/admin/usermanagement.php` | High
-26 | File | `/Ap4RtpAtom.cpp` | High
-27 | File | `/api/` | Low
-28 | File | `/api/user/userData?userCode=admin` | High
-29 | File | `/artist-display.php` | High
-30 | File | `/catcompany.php` | High
-31 | File | `/category.php` | High
-32 | File | `/cgi-bin/ExportAllSettings.sh` | High
-33 | File | `/cgi-bin/kerbynet` | High
-34 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-35 | File | `/cgi-bin/nightled.cgi` | High
-36 | File | `/cgi-bin/touchlist_sync.cgi` | High
-37 | File | `/ci_hms/massage_room/edit/1` | High
-38 | File | `/ci_hms/search` | High
-39 | File | `/ci_spms/admin/category` | High
-40 | File | `/ci_spms/admin/search/searching/` | High
-41 | File | `/claire_blake` | High
-42 | File | `/config/getuser` | High
-43 | File | `/dashboard/add-portfolio.php` | High
-44 | File | `/dashboard/add-service.php` | High
-45 | File | `/dashboard/settings` | High
-46 | File | `/dashboard/updatelogo.php` | High
-47 | ... | ... | ...
+5 | File | `/admin/add_exercises.php` | High
+6 | File | `/admin/add_trainers.php` | High
+7 | File | `/admin/conferences/get-all-status/` | High
+8 | File | `/admin/conferences/list/` | High
+9 | File | `/admin/edit.php` | High
+10 | File | `/admin/edit_admin_details.php?id=admin` | High
+11 | File | `/admin/general.cgi` | High
+12 | File | `/admin/general/change-lang` | High
+13 | File | `/admin/group/list/` | High
+14 | File | `/admin/lab.php` | High
+15 | File | `/admin/newsletter1.php` | High
+16 | File | `/admin/scheprofile.cgi` | High
+17 | File | `/admin/searchview.php` | High
+18 | File | `/admin/service/stop/` | High
+19 | File | `/admin/students/view_student.php` | High
+20 | File | `/admin/usermanagement.php` | High
+21 | File | `/api/` | Low
+22 | File | `/api/user/userData?userCode=admin` | High
+23 | File | `/api/v1/user` | Medium
+24 | File | `/artist-display.php` | High
+25 | File | `/catcompany.php` | High
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/ExportAllSettings.sh` | High
+28 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+29 | File | `/cgi-bin/nightled.cgi` | High
+30 | File | `/cgi-bin/touchlist_sync.cgi` | High
+31 | File | `/ci_hms/massage_room/edit/1` | High
+32 | File | `/ci_hms/search` | High
+33 | File | `/ci_spms/admin/category` | High
+34 | File | `/ci_spms/admin/search/searching/` | High
+35 | File | `/claire_blake` | High
+36 | File | `/config/getuser` | High
+37 | File | `/dashboard/add-portfolio.php` | High
+38 | File | `/dashboard/add-service.php` | High
+39 | File | `/dashboard/settings` | High
+40 | File | `/dashboard/updatelogo.php` | High
+41 | File | `/ecrire` | Low
+42 | File | `/editbrand.php` | High
+43 | File | `/edituser.php` | High
+44 | File | `/etc/networkd-dispatcher` | High
+45 | File | `/etc/shadow` | Medium
+46 | File | `/etc/shadow.sample` | High
+47 | File | `/film-rating.php` | High
+48 | File | `/front/roomtype-details.php` | High
+49 | File | `/fw.login.php` | High
+50 | ... | ... | ...
 
-There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

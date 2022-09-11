@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 8 | File | `/Main_AdmStatus_Content.asp` | High
 9 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

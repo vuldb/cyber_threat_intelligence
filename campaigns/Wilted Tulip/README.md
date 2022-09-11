@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
 * [ES](https://vuldb.com/?country.es)
-* [SV](https://vuldb.com/?country.sv)
 * [PT](https://vuldb.com/?country.pt)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -73,54 +73,54 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/add_trainers.php` | High
 3 | File | `/admin/header.inc.php` | High
 4 | File | `/admin/vca/license/license_tok.cgi` | High
-5 | File | `/AJAX/ajaxget` | High
-6 | File | `/api/plugin/uninstall` | High
-7 | File | `/api/v2/config` | High
-8 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-9 | File | `/cgi-bin/readfile.tcl` | High
-10 | File | `/cgi-bin/touchlist_sync.cgi` | High
-11 | File | `/classes/Users.php?f=save_client` | High
-12 | File | `/coreframe/app/attachment/admin/index.php` | High
-13 | File | `/dishes.php` | Medium
-14 | File | `/etc/quagga` | Medium
-15 | File | `/etc/shadow.sample` | High
-16 | File | `/fax/fax_send.php` | High
-17 | File | `/gfxpoly/stroke.c` | High
-18 | File | `/goform/addRouting` | High
-19 | File | `/goform/form2Wan.cgi` | High
-20 | File | `/htdocs/utils/Files.php` | High
-21 | File | `/include/menu_u.inc.php` | High
-22 | File | `/includes/db_connect.php` | High
-23 | File | `/includes/images.php` | High
-24 | File | `/ip/admin/` | Medium
-25 | File | `/isms/admin/stocks/view_stock.php` | High
-26 | File | `/login.php` | Medium
-27 | File | `/oa/setup/checkPool?database` | High
-28 | File | `/pages/class_sched.php` | High
-29 | File | `/pages/faculty_sched.php` | High
-30 | File | `/pages/permit/permit.php` | High
-31 | File | `/patient/booking.php` | High
-32 | File | `/pms/update_medicine.php` | High
-33 | File | `/pms/update_user.php` | High
-34 | File | `/qr/I/` | Low
-35 | File | `/release-x64/otfccdump` | High
-36 | File | `/session/sendmail` | High
-37 | File | `/sistema/flash/reboot` | High
-38 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-39 | File | `/templates/default/html/windows/right.php` | High
-40 | File | `/vicidial/user_stats.php` | High
-41 | File | `/web/api/v1/upload/UploadHandler.php` | High
-42 | File | `/webmail/server/webmail.php` | High
-43 | File | `/whbs/?page=my_bookings` | High
-44 | File | `/www/cgi-bin/popen.cgi` | High
-45 | File | `/xpdf/Stream.cc` | High
-46 | File | `access_token.php` | High
-47 | File | `add_edit_download.asp` | High
-48 | File | `add_edit_user.asp` | High
-49 | File | `admin.php` | Medium
+5 | File | `/admin/video/list` | High
+6 | File | `/AJAX/ajaxget` | High
+7 | File | `/api/plugin/uninstall` | High
+8 | File | `/api/upload-resource` | High
+9 | File | `/api/v2/config` | High
+10 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+11 | File | `/cgi-bin/readfile.tcl` | High
+12 | File | `/cgi-bin/touchlist_sync.cgi` | High
+13 | File | `/classes/Users.php?f=save_client` | High
+14 | File | `/coreframe/app/attachment/admin/index.php` | High
+15 | File | `/dishes.php` | Medium
+16 | File | `/etc/quagga` | Medium
+17 | File | `/etc/shadow.sample` | High
+18 | File | `/fax/fax_send.php` | High
+19 | File | `/gfxpoly/stroke.c` | High
+20 | File | `/goform/addRouting` | High
+21 | File | `/goform/form2Wan.cgi` | High
+22 | File | `/htdocs/utils/Files.php` | High
+23 | File | `/include/menu_u.inc.php` | High
+24 | File | `/includes/db_connect.php` | High
+25 | File | `/includes/images.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/ip/admin/` | Medium
+28 | File | `/isms/admin/stocks/view_stock.php` | High
+29 | File | `/login.php` | Medium
+30 | File | `/oa/setup/checkPool?database` | High
+31 | File | `/pages/class_sched.php` | High
+32 | File | `/pages/faculty_sched.php` | High
+33 | File | `/pages/permit/permit.php` | High
+34 | File | `/patient/booking.php` | High
+35 | File | `/pms/update_medicine.php` | High
+36 | File | `/pms/update_user.php` | High
+37 | File | `/qr/I/` | Low
+38 | File | `/release-x64/otfccdump` | High
+39 | File | `/session/sendmail` | High
+40 | File | `/sistema/flash/reboot` | High
+41 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+42 | File | `/templates/default/html/windows/right.php` | High
+43 | File | `/vicidial/user_stats.php` | High
+44 | File | `/web/api/v1/upload/UploadHandler.php` | High
+45 | File | `/WebApp/SettingsFileMonitor/GetFileMonitorProfiles` | High
+46 | File | `/webmail/server/webmail.php` | High
+47 | File | `/whbs/?page=my_bookings` | High
+48 | File | `/www/cgi-bin/popen.cgi` | High
+49 | File | `/xpdf/Stream.cc` | High
 50 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

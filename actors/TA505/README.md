@@ -108,10 +108,9 @@ ID | Type | Indicator | Confidence
 38 | File | `app/call_centers/cmd.php` | High
 39 | File | `apply.cgi` | Medium
 40 | File | `appointment.php` | High
-41 | File | `arch/x86/kvm/hyperv.c` | High
-42 | ... | ... | ...
+41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

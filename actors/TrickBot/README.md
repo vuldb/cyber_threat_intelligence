@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -250,33 +250,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/del.php` | High
 4 | File | `/admin/delete.php` | High
 5 | File | `/admin/delstu.php` | High
-6 | File | `/admin/list_key.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/products/controller.php?action=add` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/assets` | Low
-11 | File | `/blog/post/edit` | High
-12 | File | `/categories/view_category.php` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php?f=delete_img` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/ciel.cfg` | High
-18 | File | `/etc/init0.d/S80telnetd.sh` | High
-19 | File | `/etc/shadow.sample` | High
-20 | File | `/fax/fax_send.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/framework/mod/db/DBMapper.xml` | High
-23 | File | `/goform/addRouting` | High
-24 | File | `/goform/Diagnosis` | High
-25 | File | `/goform/doReboot` | High
-26 | File | `/goform/form2userconfig.cgi` | High
-27 | File | `/goform/form2Wan.cgi` | High
-28 | File | `/goform/formWifiBasicSet` | High
-29 | File | `/goform/NTPSyncWithHost` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/products/controller.php?action=add` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/assets` | Low
+10 | File | `/blog/post/edit` | High
+11 | File | `/categories/view_category.php` | High
+12 | File | `/cgi-bin/ExportSettings.sh` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_img` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/ciel.cfg` | High
+17 | File | `/etc/init0.d/S80telnetd.sh` | High
+18 | File | `/etc/shadow.sample` | High
+19 | File | `/fax/fax_send.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/framework/mod/db/DBMapper.xml` | High
+22 | File | `/goform/addRouting` | High
+23 | File | `/goform/Diagnosis` | High
+24 | File | `/goform/doReboot` | High
+25 | File | `/goform/form2userconfig.cgi` | High
+26 | File | `/goform/form2Wan.cgi` | High
+27 | File | `/goform/formWifiBasicSet` | High
+28 | File | `/goform/NTPSyncWithHost` | High
+29 | File | `/goform/SetIpMacBind` | High
 30 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

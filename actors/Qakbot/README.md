@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1122,34 +1122,32 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/showbad.php` | High
 9 | File | `/admin/students/view_student.php` | High
 10 | File | `/cgi-bin/ExportAllSettings.sh` | High
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/coreframe/app/attachment/admin/index.php` | High
-13 | File | `/etc/tomcat8/Catalina/attack` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/index.php` | Medium
-16 | File | `/Items/*/RemoteImages/Download` | High
-17 | File | `/lists/admin/` | High
-18 | File | `/lists/index.php` | High
-19 | File | `/MagickCore/image.c` | High
-20 | File | `/members/view_member.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/p1/p2/:name` | Medium
-24 | File | `/public/launchNewWindow.jsp` | High
-25 | File | `/rdms/admin/?page=user/manage_user` | High
-26 | File | `/redbin/rpwebutilities.exe/text` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-29 | File | `/trx_addons/v2/get/sc_layout` | High
-30 | File | `/upload` | Low
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `?location=search` | High
-35 | File | `AdClass.php` | Medium
-36 | ... | ... | ...
+11 | File | `/coreframe/app/attachment/admin/index.php` | High
+12 | File | `/etc/tomcat8/Catalina/attack` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/Items/*/RemoteImages/Download` | High
+16 | File | `/lists/index.php` | High
+17 | File | `/MagickCore/image.c` | High
+18 | File | `/members/view_member.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/p1/p2/:name` | Medium
+22 | File | `/public/launchNewWindow.jsp` | High
+23 | File | `/rdms/admin/?page=user/manage_user` | High
+24 | File | `/redbin/rpwebutilities.exe/text` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+27 | File | `/trx_addons/v2/get/sc_layout` | High
+28 | File | `/upload` | Low
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+32 | File | `?location=search` | High
+33 | File | `AdClass.php` | Medium
+34 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

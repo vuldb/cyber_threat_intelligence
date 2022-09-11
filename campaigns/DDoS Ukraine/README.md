@@ -154,10 +154,10 @@ ID | Type | Indicator | Confidence
 91 | File | `category_list.php` | High
 92 | File | `cgi-bin/awstats.pl` | High
 93 | File | `channel.asp` | Medium
-94 | File | `ChooseCpSearch.php` | High
+94 | File | `charts.swf` | Medium
 95 | ... | ... | ...
 
-There are 837 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 838 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

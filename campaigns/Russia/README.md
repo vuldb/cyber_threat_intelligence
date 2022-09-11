@@ -68,11 +68,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -87,25 +87,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=reports/stockout` | High
 3 | File | `/admin/?page=reports/waste` | High
 4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/del.php` | High
-6 | File | `/admin/delete.php` | High
-7 | File | `/admin/delstu.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/products/controller.php?action=add` | High
-10 | File | `/api/v1/user` | Medium
-11 | File | `/categories/view_category.php` | High
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/classes/Master.php?f=delete_account` | High
-14 | File | `/classes/Master.php?f=delete_category` | High
-15 | File | `/classes/Master.php?f=delete_img` | High
-16 | File | `/classes/Master.php?f=delete_payment` | High
-17 | File | `/classes/Master.php?f=delete_schedule` | High
-18 | File | `/classes/Master.php?f=delete_student` | High
-19 | File | `/classes/Users.php?f=save_client` | High
-20 | File | `/etc/ciel.cfg` | High
-21 | ... | ... | ...
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/delete.php` | High
+8 | File | `/admin/delstu.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/products/controller.php?action=add` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/categories/view_category.php` | High
+13 | File | `/cgi-bin/ExportSettings.sh` | High
+14 | File | `/classes/Master.php?f=delete_img` | High
+15 | File | `/classes/Master.php?f=delete_payment` | High
+16 | File | `/classes/Master.php?f=delete_student` | High
+17 | File | `/classes/Users.php?f=save_client` | High
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/etc/ciel.cfg` | High
+20 | File | `/etc/init0.d/S80telnetd.sh` | High
+21 | File | `/etc/srapi/config/system.conf` | High
+22 | File | `/goform/addRouting` | High
+23 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

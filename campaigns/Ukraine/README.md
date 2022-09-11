@@ -29,7 +29,7 @@ ID | Actor | Confidence
 6 | [Ripprbot](https://vuldb.com/?actor.ripprbot) | High
 7 | ... | ...
 
-There are 12 more actor items available. Please use our online service to access the data.
+There are 13 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,7 +76,7 @@ ID | IP address | Hostname | Actor | Confidence
 37 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
 38 | ... | ... | ... | ...
 
-There are 147 more IOC items available. Please use our online service to access the data.
+There are 148 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,13 +85,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,26 +109,27 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/delstu.php` | High
 9 | File | `/admin/login.php` | High
 10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/categories/view_category.php` | High
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/classes/Master.php?f=delete_account` | High
-14 | File | `/classes/Master.php?f=delete_category` | High
-15 | File | `/classes/Master.php?f=delete_img` | High
-16 | File | `/classes/Master.php?f=delete_payment` | High
-17 | File | `/classes/Master.php?f=delete_schedule` | High
-18 | File | `/classes/Master.php?f=delete_student` | High
-19 | File | `/classes/Users.php?f=save_client` | High
-20 | File | `/defaultui/player/modern.html` | High
-21 | File | `/etc/ciel.cfg` | High
-22 | File | `/etc/init0.d/S80telnetd.sh` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/categories/view_category.php` | High
+13 | File | `/cgi-bin/ExportSettings.sh` | High
+14 | File | `/classes/Master.php?f=delete_img` | High
+15 | File | `/classes/Master.php?f=delete_payment` | High
+16 | File | `/classes/Master.php?f=delete_student` | High
+17 | File | `/classes/Users.php?f=save_client` | High
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/etc/ciel.cfg` | High
+20 | File | `/etc/init0.d/S80telnetd.sh` | High
+21 | File | `/etc/srapi/config/system.conf` | High
+22 | File | `/goform/addRouting` | High
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.google/threat-analysis-group/initial-access-broker-repurposing-techniques-in-targeted-attacks-against-ukraine/
 * https://blog.malwarebytes.com/threat-intelligence/2022/03/formbook-spam-campaign-targets-citizens-of-ukraine%ef%b8%8f/
 * https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
 * https://blog.talosintelligence.com/2018/02/coinhoarder.html

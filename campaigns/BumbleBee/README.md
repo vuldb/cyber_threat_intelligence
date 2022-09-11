@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -164,11 +164,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -179,32 +179,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delete.php` | High
-8 | File | `/admin/delstu.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/categories/view_category.php` | High
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/etc/ciel.cfg` | High
-17 | File | `/etc/init0.d/S80telnetd.sh` | High
-18 | File | `/etc/shadow` | Medium
-19 | File | `/etc/srapi/config/system.conf` | High
-20 | File | `/goform/addRouting` | High
-21 | File | `/goform/Diagnosis` | High
-22 | File | `/goform/form2userconfig.cgi` | High
-23 | File | `/goform/NTPSyncWithHost` | High
-24 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/del.php` | High
+3 | File | `/admin/delete.php` | High
+4 | File | `/admin/delstu.php` | High
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/products/controller.php?action=add` | High
+8 | File | `/bd_genie_create_account.cgi` | High
+9 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+10 | File | `/categories/view_category.php` | High
+11 | File | `/cgi-bin/ExportSettings.sh` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/classes/Master.php?f=delete_img` | High
+14 | File | `/defaultui/player/modern.html` | High
+15 | File | `/etc/ciel.cfg` | High
+16 | File | `/etc/srapi/config/system.conf` | High
+17 | File | `/goform/addRouting` | High
+18 | File | `/goform/Diagnosis` | High
+19 | File | `/goform/form2userconfig.cgi` | High
+20 | File | `/goform/NTPSyncWithHost` | High
+21 | File | `/goform/SetIpMacBind` | High
+22 | File | `/goform/setMAC` | High
+23 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

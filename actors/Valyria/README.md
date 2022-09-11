@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,37 +55,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/admin/?page=reports/stockin` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delete.php` | High
-8 | File | `/admin/delstu.php` | High
-9 | File | `/admin/history.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/modify.php` | High
-12 | File | `/admin/modify1.php` | High
-13 | File | `/admin/products/controller.php?action=add` | High
-14 | File | `/advanced-tools/nova/bin/netwatch` | High
-15 | File | `/api/v1/user` | Medium
-16 | File | `/appConfig/userDB.json` | High
-17 | File | `/assets` | Low
-18 | File | `/bits/stl_vector.h` | High
-19 | File | `/blog/edit` | Medium
-20 | File | `/blogengine/api/posts` | High
-21 | File | `/blotter/blotter.php` | High
-22 | File | `/brand.php` | Medium
-23 | File | `/cgi-bin/DownloadFlash` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php?f=delete_account` | High
-26 | File | `/classes/Master.php?f=delete_category` | High
-27 | File | `/classes/Master.php?f=delete_img` | High
-28 | File | `/classes/Master.php?f=delete_payment` | High
-29 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/?page=reports/waste` | High
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/del.php` | High
+6 | File | `/admin/delete.php` | High
+7 | File | `/admin/delstu.php` | High
+8 | File | `/admin/history.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/modify.php` | High
+11 | File | `/admin/modify1.php` | High
+12 | File | `/admin/products/controller.php?action=add` | High
+13 | File | `/advanced-tools/nova/bin/netwatch` | High
+14 | File | `/api/v1/user` | Medium
+15 | File | `/appConfig/userDB.json` | High
+16 | File | `/assets` | Low
+17 | File | `/bin/boa` | Medium
+18 | File | `/blog/edit` | Medium
+19 | File | `/blogengine/api/posts` | High
+20 | File | `/blotter/blotter.php` | High
+21 | File | `/brand.php` | Medium
+22 | File | `/cgi-bin/DownloadFlash` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Master.php?f=delete_account` | High
+25 | File | `/classes/Master.php?f=delete_category` | High
+26 | File | `/classes/Master.php?f=delete_img` | High
+27 | File | `/classes/Master.php?f=delete_payment` | High
+28 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

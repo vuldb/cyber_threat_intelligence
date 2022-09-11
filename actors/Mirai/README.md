@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Mirai:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -214,7 +214,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -229,15 +229,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/del.php` | High
-3 | File | `/admin/delete.php` | High
-4 | File | `/admin/delstu.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/products/controller.php?action=add` | High
-7 | File | `/categories/view_category.php` | High
-8 | File | `/cgi-bin/ExportSettings.sh` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/classes/Master.php?f=delete_img` | High
+2 | File | `/admin/lab.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/products/controller.php?action=add` | High
+5 | File | `/admin/videoalbum/list` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+8 | File | `/categories/view_category.php` | High
+9 | File | `/cgi-bin/ExportSettings.sh` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
 11 | File | `/debug/pprof` | Medium
 12 | File | `/defaultui/player/modern.html` | High
 13 | File | `/etc/ciel.cfg` | High
@@ -246,14 +246,18 @@ ID | Type | Indicator | Confidence
 16 | File | `/goform/Diagnosis` | High
 17 | File | `/goform/form2userconfig.cgi` | High
 18 | File | `/goform/NTPSyncWithHost` | High
-19 | File | `/goform/SetLEDCfg` | High
-20 | File | `/goform/setMAC` | High
-21 | File | `/goform/setPptpUserList` | High
-22 | File | `/goform/SystemCommand` | High
-23 | File | `/goform/WanParameterSetting` | High
-24 | ... | ... | ...
+19 | File | `/goform/saveParentControlInfo` | High
+20 | File | `/goform/SetIpMacBind` | High
+21 | File | `/goform/SetLEDCfg` | High
+22 | File | `/goform/setMAC` | High
+23 | File | `/goform/setPptpUserList` | High
+24 | File | `/goform/SetVirtualServerCfg` | High
+25 | File | `/goform/SystemCommand` | High
+26 | File | `/goform/WanParameterSetting` | High
+27 | File | `/goform/wizard_end` | High
+28 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

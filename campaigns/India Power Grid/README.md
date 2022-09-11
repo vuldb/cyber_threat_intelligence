@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with India Power Grid:
 
 * [CN](https://vuldb.com/?country.cn)
+* [KR](https://vuldb.com/?country.kr)
 
 ## Actors
 
@@ -39,7 +40,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1202 | CWE-77, CWE-78 | Command Injection | High
+2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77, CWE-78 | Command Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -47,9 +49,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `lists/admin/template.php` | High
-2 | File | `PSOutputDev.cc` | High
-3 | Argument | `hostName` | Medium
+1 | File | `channels/chan_iax2.c` | High
+2 | File | `lists/admin/template.php` | High
+3 | File | `PSOutputDev.cc` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -106,18 +106,14 @@ ID | Type | Indicator | Confidence
 44 | File | `AdClass.php` | Medium
 45 | File | `adclick.php` | Medium
 46 | File | `add.exe` | Low
-47 | File | `admin.color.php` | High
-48 | File | `admin.joomlaradiov5.php` | High
-49 | File | `admin.php?m=Food&a=addsave` | High
-50 | File | `admin/conf_users_edit.php` | High
-51 | File | `admin/index.php` | High
-52 | File | `admin/limits.php` | High
-53 | File | `admin/write-post.php` | High
-54 | File | `administrator/components/com_media/helpers/media.php` | High
-55 | File | `allopass-error.php` | High
-56 | ... | ... | ...
+47 | File | `admin.php?m=Food&a=addsave` | High
+48 | File | `admin/conf_users_edit.php` | High
+49 | File | `admin/index.php` | High
+50 | File | `admin/limits.php` | High
+51 | File | `admin/write-post.php` | High
+52 | ... | ... | ...
 
-There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

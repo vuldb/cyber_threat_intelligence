@@ -98,13 +98,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,46 +113,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/students/view_student.php` | High
-3 | File | `/app/options.py` | High
-4 | File | `/ci_spms/admin/category` | High
-5 | File | `/ci_spms/admin/search/searching/` | High
-6 | File | `/claire_blake` | High
-7 | File | `/classes/Master.php?f=delete_train` | High
-8 | File | `/coreframe/app/attachment/admin/index.php` | High
-9 | File | `/dashboard/menu-list.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/config/image_sign` | High
-12 | File | `/etc/init0.d/S80telnetd.sh` | High
-13 | File | `/etc/shadow.sample` | High
-14 | File | `/ffos/classes/Master.php?f=save_category` | High
-15 | File | `/gaia-job-admin/user/add` | High
-16 | File | `/ghost/preview` | High
-17 | File | `/goform/setmac` | High
-18 | File | `/htdocs/utils/Files.php` | High
-19 | File | `/Items/*/RemoteImages/Download` | High
-20 | File | `/jfinal_cms/system/role/list` | High
-21 | File | `/librarian/edit_book_details.php` | High
-22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-23 | File | `/management/api/rcx_management/global_config_query` | High
-24 | File | `/master/index.php` | High
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/ocwbs/admin/?page=user/manage_user` | High
-27 | File | `/ofrs/admin/?page=user/manage_user` | High
-28 | File | `/p1/p2/:name` | Medium
-29 | File | `/pages/faculty_sched.php` | High
-30 | File | `/php_action/createUser.php` | High
-31 | File | `/rdms/admin/?page=user/manage_user` | High
-32 | File | `/redbin/rpwebutilities.exe/text` | High
-33 | File | `/requests.php` | High
-34 | File | `/servlet/AdapterHTTP` | High
-35 | File | `/setting/setDeviceName` | High
-36 | File | `/setting/setLanguageCfg` | High
-37 | File | `/setting/setUploadSetting` | High
-38 | File | `/spip.php` | Medium
-39 | ... | ... | ...
+2 | File | `/admin/lab.php` | High
+3 | File | `/admin/students/view_student.php` | High
+4 | File | `/app/options.py` | High
+5 | File | `/bd_genie_create_account.cgi` | High
+6 | File | `/ci_spms/admin/category` | High
+7 | File | `/ci_spms/admin/search/searching/` | High
+8 | File | `/claire_blake` | High
+9 | File | `/classes/Master.php?f=delete_train` | High
+10 | File | `/coreframe/app/attachment/admin/index.php` | High
+11 | File | `/dashboard/menu-list.php` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/defaultui/player/modern.html` | High
+14 | File | `/etc/init0.d/S80telnetd.sh` | High
+15 | File | `/etc/shadow.sample` | High
+16 | File | `/ffos/classes/Master.php?f=save_category` | High
+17 | File | `/gaia-job-admin/user/add` | High
+18 | File | `/ghost/preview` | High
+19 | File | `/goform/SetIpMacBind` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/htdocs/utils/Files.php` | High
+22 | File | `/Items/*/RemoteImages/Download` | High
+23 | File | `/jfinal_cms/system/role/list` | High
+24 | File | `/librarian/edit_book_details.php` | High
+25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+26 | File | `/management/api/rcx_management/global_config_query` | High
+27 | File | `/master/index.php` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/ocwbs/admin/?page=user/manage_user` | High
+30 | File | `/ofrs/admin/?page=user/manage_user` | High
+31 | File | `/p1/p2/:name` | Medium
+32 | File | `/pages/faculty_sched.php` | High
+33 | File | `/pages/processlogin.php` | High
+34 | File | `/php_action/createUser.php` | High
+35 | File | `/rdms/admin/?page=user/manage_user` | High
+36 | File | `/redbin/rpwebutilities.exe/text` | High
+37 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

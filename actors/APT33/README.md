@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
 * [AR](https://vuldb.com/?country.ar)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,23 +72,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/?page=user/manage_user` | High
 2 | File | `/admin/del.php` | High
 3 | File | `/admin/delstu.php` | High
-4 | File | `/admin/image.php` | High
-5 | File | `/admin/lab.php` | High
-6 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-7 | File | `/asan/asan_new_delete.cpp` | High
-8 | File | `/blog/blogpublish.php` | High
-9 | File | `/categories/view_category.php` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/classes/Master.php?f=delete_schedule` | High
-12 | File | `/classes/Users.php?f=save_client` | High
-13 | File | `/dashboard/contact` | High
-14 | File | `/dede/co_do.php` | High
-15 | File | `/etc/init0.d/S80telnetd.sh` | High
-16 | File | `/etc/shadow.sample` | High
-17 | File | `/frm/` | Low
+4 | File | `/admin/lab.php` | High
+5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+6 | File | `/asan/asan_new_delete.cpp` | High
+7 | File | `/blog/blogpublish.php` | High
+8 | File | `/categories/view_category.php` | High
+9 | File | `/classes/Master.php?f=delete_category` | High
+10 | File | `/classes/Master.php?f=delete_schedule` | High
+11 | File | `/classes/Users.php?f=save_client` | High
+12 | File | `/dashboard/contact` | High
+13 | File | `/dede/co_do.php` | High
+14 | File | `/etc/init0.d/S80telnetd.sh` | High
+15 | File | `/etc/shadow.sample` | High
+16 | File | `/frm/` | Low
+17 | File | `/goform/saveParentControlInfo` | High
 18 | File | `/goform/setAutoPing` | High
-19 | File | `/goform/wifiSSIDset` | High
-20 | File | `/inc/design.inc.php` | High
+19 | File | `/goform/SetIpMacBind` | High
+20 | File | `/goform/wifiSSIDset` | High
 21 | File | `/includes/db_utils.php` | High
 22 | File | `/includes/utils.php` | High
 23 | File | `/index.php` | Medium
@@ -117,17 +117,9 @@ ID | Type | Indicator | Confidence
 46 | File | `/var/backup/tower` | High
 47 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
 48 | File | `/viewReport.php` | High
-49 | File | `/webmail/server/webmail.php` | High
-50 | File | `/whbs/?page=contact_us` | High
-51 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-52 | File | `/xpdf/Lexer.cc` | High
-53 | File | `/xpdf/Stream.cc` | High
-54 | File | `addphotosform.php` | High
-55 | File | `addreviewsform.php` | High
-56 | File | `adm.cgi` | Low
-57 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
