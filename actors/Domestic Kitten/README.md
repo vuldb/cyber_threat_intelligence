@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,30 +57,29 @@ ID | Type | Indicator | Confidence
 7 | File | `/hub/api/user` | High
 8 | File | `/medical/inventories.php` | High
 9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugin/LiveChat/getChat.json.php` | High
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/tmp/speedtest_urls.xml` | High
-18 | File | `/tmp/zarafa-vacation-*` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/var/log/nginx` | High
-22 | File | `/var/run/watchman.pid` | High
-23 | File | `/WEB-INF/web.xml` | High
+10 | File | `/plugin/LiveChat/getChat.json.php` | High
+11 | File | `/plugins/servlet/audit/resource` | High
+12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+13 | File | `/replication` | Medium
+14 | File | `/RestAPI` | Medium
+15 | File | `/tmp/speedtest_urls.xml` | High
+16 | File | `/tmp/zarafa-vacation-*` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/upload` | Low
+19 | File | `/var/log/nginx` | High
+20 | File | `/var/run/watchman.pid` | High
+21 | File | `/viewer/krpano.html` | High
+22 | File | `/WEB-INF/web.xml` | High
+23 | File | `/wp-json/oembed/1.0/embed?url` | High
 24 | File | `account.asp` | Medium
 25 | File | `addentry.php` | Medium
 26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 27 | File | `admins.js` | Medium
 28 | File | `admin\model\catalog\download.php` | High
 29 | File | `AdxDSrv.exe` | Medium
-30 | File | `apcupsd.pid` | Medium
-31 | ... | ... | ...
+30 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

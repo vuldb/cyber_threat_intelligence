@@ -104,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,45 +112,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
+1 | File | `/about.php` | Medium
 2 | File | `/admin/lab.php` | High
-3 | File | `/admin/students/view_student.php` | High
-4 | File | `/app/options.py` | High
-5 | File | `/bd_genie_create_account.cgi` | High
-6 | File | `/ci_spms/admin/category` | High
-7 | File | `/ci_spms/admin/search/searching/` | High
-8 | File | `/claire_blake` | High
-9 | File | `/classes/Master.php?f=delete_train` | High
-10 | File | `/coreframe/app/attachment/admin/index.php` | High
-11 | File | `/dashboard/menu-list.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/defaultui/player/modern.html` | High
-14 | File | `/etc/init0.d/S80telnetd.sh` | High
-15 | File | `/etc/shadow.sample` | High
-16 | File | `/ffos/classes/Master.php?f=save_category` | High
-17 | File | `/gaia-job-admin/user/add` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/goform/SetIpMacBind` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/htdocs/utils/Files.php` | High
-22 | File | `/Items/*/RemoteImages/Download` | High
-23 | File | `/jfinal_cms/system/role/list` | High
-24 | File | `/librarian/edit_book_details.php` | High
-25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-26 | File | `/management/api/rcx_management/global_config_query` | High
-27 | File | `/master/index.php` | High
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/ocwbs/admin/?page=user/manage_user` | High
-30 | File | `/ofrs/admin/?page=user/manage_user` | High
-31 | File | `/p1/p2/:name` | Medium
-32 | File | `/pages/faculty_sched.php` | High
-33 | File | `/pages/processlogin.php` | High
-34 | File | `/php_action/createUser.php` | High
-35 | File | `/rdms/admin/?page=user/manage_user` | High
-36 | File | `/redbin/rpwebutilities.exe/text` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/students/view_student.php` | High
+5 | File | `/app/options.py` | High
+6 | File | `/appConfig/userDB.json` | High
+7 | File | `/bd_genie_create_account.cgi` | High
+8 | File | `/bin/httpd` | Medium
+9 | File | `/c/macho_reader.c` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/claire_blake` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/coreframe/app/attachment/admin/index.php` | High
+16 | File | `/dashboard/menu-list.php` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/etc/init0.d/S80telnetd.sh` | High
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/goform/SetIpMacBind` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/htdocs/utils/Files.php` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/jfinal_cms/system/role/list` | High
+29 | File | `/librarian/edit_book_details.php` | High
+30 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+31 | File | `/management/api/rcx_management/global_config_query` | High
+32 | File | `/master/index.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/p1/p2/:name` | Medium
+35 | File | `/pages/faculty_sched.php` | High
+36 | File | `/pages/processlogin.php` | High
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

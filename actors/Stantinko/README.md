@@ -95,9 +95,10 @@ ID | Type | Indicator | Confidence
 31 | File | `admin/user_import.php` | High
 32 | File | `admin/wenjian.php?wj=../templets/pc` | High
 33 | File | `administrative` | High
-34 | ... | ... | ...
+34 | File | `Administrative` | High
+35 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LDMiner:
 
+* [FR](https://vuldb.com/?country.fr)
 * [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
@@ -17,6 +18,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [167.71.87.85](https://vuldb.com/?ip.167.71.87.85) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _LDMiner_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1204.001 | CWE-601 | Open Redirect | High
 
 ## IOA - Indicator of Attack
 

@@ -98,7 +98,8 @@ ID | Type | Indicator | Confidence
 33 | File | `affich.php` | Medium
 34 | File | `agent/Core/Controller/SendRequest.cpp` | High
 35 | File | `album_portal.php` | High
-36 | ... | ... | ...
+36 | File | `apache-auth.conf` | High
+37 | ... | ... | ...
 
 There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

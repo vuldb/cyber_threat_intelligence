@@ -230,14 +230,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -245,38 +246,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
+1 | File | `/about.php` | Medium
 2 | File | `/admin/addemployee.php` | High
 3 | File | `/admin/del.php` | High
 4 | File | `/admin/delete.php` | High
 5 | File | `/admin/delstu.php` | High
 6 | File | `/admin/login.php` | High
 7 | File | `/admin/products/controller.php?action=add` | High
-8 | File | `/advanced-tools/nova/bin/netwatch` | High
-9 | File | `/assets` | Low
-10 | File | `/blog/post/edit` | High
-11 | File | `/categories/view_category.php` | High
-12 | File | `/cgi-bin/ExportSettings.sh` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/ciel.cfg` | High
-17 | File | `/etc/init0.d/S80telnetd.sh` | High
-18 | File | `/etc/shadow.sample` | High
-19 | File | `/fax/fax_send.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/framework/mod/db/DBMapper.xml` | High
-22 | File | `/goform/addRouting` | High
-23 | File | `/goform/Diagnosis` | High
-24 | File | `/goform/doReboot` | High
-25 | File | `/goform/form2userconfig.cgi` | High
-26 | File | `/goform/form2Wan.cgi` | High
-27 | File | `/goform/formWifiBasicSet` | High
-28 | File | `/goform/NTPSyncWithHost` | High
-29 | File | `/goform/SetIpMacBind` | High
-30 | ... | ... | ...
+8 | File | `/admin_book.php` | High
+9 | File | `/advanced-tools/nova/bin/netwatch` | High
+10 | File | `/assets` | Low
+11 | File | `/blog/post/edit` | High
+12 | File | `/c/macho_reader.c` | High
+13 | File | `/categories/view_category.php` | High
+14 | File | `/cgi-bin/ExportSettings.sh` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Master.php?f=delete_img` | High
+18 | File | `/cwc/login` | Medium
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/ciel.cfg` | High
+21 | File | `/etc/init0.d/S80telnetd.sh` | High
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/framework/mod/db/DBMapper.xml` | High
+25 | File | `/goform/addRouting` | High
+26 | File | `/goform/Diagnosis` | High
+27 | File | `/goform/doReboot` | High
+28 | File | `/goform/form2userconfig.cgi` | High
+29 | File | `/goform/form2Wan.cgi` | High
+30 | File | `/goform/formWifiBasicSet` | High
+31 | File | `/goform/NTPSyncWithHost` | High
+32 | File | `/goform/SetIpMacBind` | High
+33 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

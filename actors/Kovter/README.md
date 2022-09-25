@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kovter:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -204,13 +204,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -218,30 +220,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.python-version` | High
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/admin/curltest.cgi` | High
-4 | File | `/admin/js` | Medium
-5 | File | `/admin/vca/bia/addacph.cgi` | High
-6 | File | `/api/plugin/uninstall` | High
-7 | File | `/api/plugin/upload` | High
-8 | File | `/api/sys_username_passwd.cmd` | High
-9 | File | `/app/controller/Books.php` | High
-10 | File | `/app/options.py` | High
-11 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-12 | File | `/cgi-bin/ExportAllSettings.sh` | High
-13 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-14 | File | `/cgi-bin/nightled.cgi` | High
-15 | File | `/cgi-bin/touchlist_sync.cgi` | High
-16 | File | `/conf/` | Low
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/dashboard/profile.php` | High
-19 | File | `/dashboard/table-list.php` | High
+1 | File | `/about.php` | Medium
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/del.php` | High
+4 | File | `/admin/delete.php` | High
+5 | File | `/admin/delstu.php` | High
+6 | File | `/admin/index.PHP` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/products/controller.php?action=add` | High
+9 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+10 | File | `/admin_book.php` | High
+11 | File | `/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/blog/post/edit` | High
+13 | File | `/c/macho_reader.c` | High
+14 | File | `/categories/view_category.php` | High
+15 | File | `/cgi-bin/ExportSettings.sh` | High
+16 | File | `/cgi-bin/kerbynet` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=delete_img` | High
+19 | File | `/coreframe/app/attachment/admin/index.php` | High
 20 | File | `/debug/pprof` | Medium
-21 | File | `/donor-wall` | Medium
-22 | ... | ... | ...
+21 | File | `/etc/ciel.cfg` | High
+22 | File | `/etc/init0.d/S80telnetd.sh` | High
+23 | File | `/etc/shadow` | Medium
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/EXCU_SHELL` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/framework/mod/db/DBMapper.xml` | High
+28 | File | `/goform/addRouting` | High
+29 | File | `/goform/Diagnosis` | High
+30 | File | `/goform/form2userconfig.cgi` | High
+31 | File | `/goform/NTPSyncWithHost` | High
+32 | File | `/goform/SetIpMacBind` | High
+33 | File | `/goform/SetLEDCfg` | High
+34 | File | `/goform/setMAC` | High
+35 | File | `/goform/setMacFilterCfg` | High
+36 | File | `/goform/setPptpUserList` | High
+37 | File | `/goform/SystemCommand` | High
+38 | File | `/goform/WanParameterSetting` | High
+39 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

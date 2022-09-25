@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,13 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -73,55 +72,55 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/addemployee.php` | High
 2 | File | `/admin/add_trainers.php` | High
 3 | File | `/admin/header.inc.php` | High
-4 | File | `/admin/vca/license/license_tok.cgi` | High
+4 | File | `/admin/index.PHP` | High
 5 | File | `/admin/video/list` | High
-6 | File | `/AJAX/ajaxget` | High
-7 | File | `/api/plugin/uninstall` | High
-8 | File | `/api/upload-resource` | High
-9 | File | `/api/v2/config` | High
-10 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-11 | File | `/cgi-bin/readfile.tcl` | High
-12 | File | `/cgi-bin/touchlist_sync.cgi` | High
-13 | File | `/classes/Users.php?f=save_client` | High
-14 | File | `/coreframe/app/attachment/admin/index.php` | High
-15 | File | `/dishes.php` | Medium
-16 | File | `/etc/quagga` | Medium
-17 | File | `/etc/shadow.sample` | High
-18 | File | `/fax/fax_send.php` | High
-19 | File | `/gfxpoly/stroke.c` | High
-20 | File | `/goform/addRouting` | High
-21 | File | `/goform/form2Wan.cgi` | High
-22 | File | `/htdocs/utils/Files.php` | High
-23 | File | `/include/menu_u.inc.php` | High
-24 | File | `/includes/db_connect.php` | High
-25 | File | `/includes/images.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/ip/admin/` | Medium
-28 | File | `/isms/admin/stocks/view_stock.php` | High
-29 | File | `/login.php` | Medium
-30 | File | `/oa/setup/checkPool?database` | High
-31 | File | `/pages/class_sched.php` | High
-32 | File | `/pages/faculty_sched.php` | High
-33 | File | `/pages/permit/permit.php` | High
-34 | File | `/patient/booking.php` | High
-35 | File | `/pms/update_medicine.php` | High
-36 | File | `/pms/update_user.php` | High
-37 | File | `/qr/I/` | Low
-38 | File | `/release-x64/otfccdump` | High
-39 | File | `/session/sendmail` | High
-40 | File | `/sistema/flash/reboot` | High
-41 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-42 | File | `/templates/default/html/windows/right.php` | High
-43 | File | `/vicidial/user_stats.php` | High
-44 | File | `/web/api/v1/upload/UploadHandler.php` | High
-45 | File | `/WebApp/SettingsFileMonitor/GetFileMonitorProfiles` | High
-46 | File | `/webmail/server/webmail.php` | High
-47 | File | `/whbs/?page=my_bookings` | High
-48 | File | `/www/cgi-bin/popen.cgi` | High
-49 | File | `/xpdf/Stream.cc` | High
+6 | File | `/api/plugin/uninstall` | High
+7 | File | `/api/upload-resource` | High
+8 | File | `/api/v2/config` | High
+9 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/bits/stl_vector.h` | High
+12 | File | `/card/in-card.php` | High
+13 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+14 | File | `/classes/Users.php?f=save_client` | High
+15 | File | `/coreframe/app/attachment/admin/index.php` | High
+16 | File | `/dishes.php` | Medium
+17 | File | `/etc/quagga` | Medium
+18 | File | `/etc/shadow.sample` | High
+19 | File | `/fax/fax_send.php` | High
+20 | File | `/garage/editclient.php` | High
+21 | File | `/get_missing_events` | High
+22 | File | `/gfxpoly/stroke.c` | High
+23 | File | `/goform/addRouting` | High
+24 | File | `/goform/form2Wan.cgi` | High
+25 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
+26 | File | `/htdocs/utils/Files.php` | High
+27 | File | `/include/menu_u.inc.php` | High
+28 | File | `/includes/db_connect.php` | High
+29 | File | `/includes/images.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/ip/admin/` | Medium
+32 | File | `/login.php` | Medium
+33 | File | `/multiarch/memset-vec-unaligned-erms.S` | High
+34 | File | `/oa/setup/checkPool?database` | High
+35 | File | `/pages/class_sched.php` | High
+36 | File | `/pages/faculty_sched.php` | High
+37 | File | `/pages/permit/permit.php` | High
+38 | File | `/patient/booking.php` | High
+39 | File | `/pms/update_medicine.php` | High
+40 | File | `/pms/update_user.php` | High
+41 | File | `/qr/I/` | Low
+42 | File | `/release-x64/otfccdump` | High
+43 | File | `/release-x64/otfccdump+0x6badae` | High
+44 | File | `/release-x64/otfccdump+0x5266a8` | High
+45 | File | `/sanitizer_common/sanitizer_common_interceptors.inc` | High
+46 | File | `/session/sendmail` | High
+47 | File | `/sistema/flash/reboot` | High
+48 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+49 | File | `/templates/default/html/windows/right.php` | High
 50 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

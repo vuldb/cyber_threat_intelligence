@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,7 +155,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -163,7 +163,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,41 +173,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.forward` | Medium
 2 | File | `/#/network?tab=network_node_list.html` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/del.php` | High
-5 | File | `/admin/lab.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/searchview.php` | High
-8 | File | `/advanced-tools/nova/bin/netwatch` | High
-9 | File | `/ad_js.php` | Medium
-10 | File | `/api/` | Low
-11 | File | `/api/plugin/uninstall` | High
-12 | File | `/app/options.py` | High
-13 | File | `/blog/edit` | Medium
-14 | File | `/catcompany.php` | High
-15 | File | `/category/controller.php?action=edit` | High
-16 | File | `/cgi/get_param.cgi` | High
-17 | File | `/chart` | Low
-18 | File | `/ci_spms/admin/category` | High
-19 | File | `/ci_spms/admin/search/searching/` | High
-20 | File | `/classes/Master.php?f=delete_account` | High
-21 | File | `/dashboard/reports/logs/view` | High
-22 | File | `/dashboard/updatelogo.php` | High
-23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dede/co_do.php` | High
-26 | File | `/etc/hosts` | Medium
-27 | File | `/etc/init.d/sshd_service` | High
-28 | File | `/goform/addRouting` | High
-29 | File | `/goform/saveParentControlInfo` | High
-30 | File | `/goform/SystemCommand` | High
-31 | File | `/index.php` | Medium
-32 | File | `/interview/editQuestion.php` | High
-33 | File | `/librarian/lab.php` | High
-34 | File | `/login.php` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/contact/list` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/folderrollpicture/list` | High
+8 | File | `/admin/imagealbum/list` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/ad_js.php` | Medium
+13 | File | `/api/` | Low
+14 | File | `/api/plugin/uninstall` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/blog/edit` | Medium
+17 | File | `/catcompany.php` | High
+18 | File | `/category/controller.php?action=edit` | High
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi/get_param.cgi` | High
+21 | File | `/chart` | Low
+22 | File | `/classes/Master.php?f=delete_account` | High
+23 | File | `/dashboard/reports/logs/view` | High
+24 | File | `/dashboard/updatelogo.php` | High
+25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/dede/co_do.php` | High
+28 | File | `/etc/hosts` | Medium
+29 | File | `/etc/init.d/sshd_service` | High
+30 | File | `/goform/addRouting` | High
+31 | File | `/goform/saveParentControlInfo` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/SystemCommand` | High
+34 | File | `/index.php` | Medium
 35 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

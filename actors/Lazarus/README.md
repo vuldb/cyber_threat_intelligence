@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -267,11 +267,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -279,30 +279,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delete.php` | High
-8 | File | `/admin/delstu.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/categories/view_category.php` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/etc/ciel.cfg` | High
-17 | File | `/etc/init0.d/S80telnetd.sh` | High
-18 | File | `/etc/srapi/config/system.conf` | High
-19 | File | `/goform/addRouting` | High
-20 | File | `/goform/Diagnosis` | High
-21 | File | `/goform/form2userconfig.cgi` | High
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/admin/products/controller.php?action=add` | High
+4 | File | `/bd_genie_create_account.cgi` | High
+5 | File | `/bibliography/marcsru.php` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/c/macho_reader.c` | High
+8 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+9 | File | `/card/in-card.php` | High
+10 | File | `/categories/view_category.php` | High
+11 | File | `/cgi-bin/ExportSettings.sh` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/defaultui/player/modern.html` | High
+14 | File | `/etc/ciel.cfg` | High
+15 | File | `/etc/srapi/config/system.conf` | High
+16 | File | `/goform/addRouting` | High
+17 | File | `/goform/Diagnosis` | High
+18 | File | `/goform/form2userconfig.cgi` | High
+19 | File | `/goform/NTPSyncWithHost` | High
+20 | File | `/goform/SetIpMacBind` | High
+21 | File | `/goform/setMAC` | High
 22 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

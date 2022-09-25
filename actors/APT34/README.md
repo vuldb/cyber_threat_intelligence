@@ -63,35 +63,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/countrymanagement.php` | High
-5 | File | `/admin/generalsettings.php` | High
-6 | File | `/admin/newsletter1.php` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/core/conditions/AbstractWrapper.java` | High
-9 | File | `/file?action=download&file` | High
-10 | File | `/filemanager/upload/drop` | High
-11 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-12 | File | `/login.php` | Medium
-13 | File | `/medical/inventories.php` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/monitoring` | Medium
-16 | File | `/pages/apply_vacancy.php` | High
-17 | File | `/php_action/createUser.php` | High
-18 | File | `/plugin/LiveChat/getChat.json.php` | High
-19 | File | `/plugins/servlet/audit/resource` | High
-20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-21 | File | `/replication` | Medium
-22 | File | `/RestAPI` | Medium
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/scas/admin/` | Medium
-25 | File | `/tmp/zarafa-vacation-*` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/upload` | Low
-28 | File | `/Uploads` | Medium
-29 | File | `/var/log/nginx` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/add_trainers.php` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/generalsettings.php` | High
+8 | File | `/admin/newsletter1.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/file?action=download&file` | High
+12 | File | `/filemanager/upload/drop` | High
+13 | File | `/index.php` | Medium
+14 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+15 | File | `/login.php` | Medium
+16 | File | `/medical/inventories.php` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/mkshop/Men/profile.php` | High
+19 | File | `/monitoring` | Medium
+20 | File | `/pages/apply_vacancy.php` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/plugin/LiveChat/getChat.json.php` | High
+23 | File | `/plugins/servlet/audit/resource` | High
+24 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+25 | File | `/replication` | Medium
+26 | File | `/RestAPI` | Medium
+27 | File | `/SASWebReportStudio/logonAndRender.do` | High
+28 | File | `/scas/admin/` | Medium
+29 | File | `/tmp/zarafa-vacation-*` | High
 30 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

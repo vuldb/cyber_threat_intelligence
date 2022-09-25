@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
-* [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,11 +51,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-272, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -65,53 +64,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/image.php` | High
-2 | File | `/admin/js` | Medium
-3 | File | `/ad_js.php` | Medium
-4 | File | `/app/options.py` | High
-5 | File | `/bin/png2swf` | Medium
-6 | File | `/bin/posix/src/ports/POSIX/OpENer` | High
-7 | File | `/conf/` | Low
-8 | File | `/dashboard/reports/logs/view` | High
-9 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-10 | File | `/etc/hosts` | Medium
-11 | File | `/frm/` | Low
-12 | File | `/goform/WifiMacFilterSet` | High
-13 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-14 | File | `/htmldoc/htmldoc/html.cxx` | High
-15 | File | `/include/comm_post.inc.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/jpeg-quantsmooth/jpegqs` | High
-18 | File | `/linux/main.cpp` | High
-19 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-20 | File | `/pages/class_sched.php` | High
-21 | File | `/php_action/createUser.php` | High
-22 | File | `/pkg/util` | Medium
-23 | File | `/pms/index.php` | High
-24 | File | `/proc/<PID>/mem` | High
-25 | File | `/release-x64/otfccdump` | High
-26 | File | `/secure/ViewCollectors` | High
-27 | File | `/services/v4/invoiceImg` | High
-28 | File | `/stdio-common/vfprintf.c` | High
-29 | File | `/tmp/tardiff-$` | High
-30 | File | `/upload` | Low
-31 | File | `/usr/local/sbin/webproject/set_param.cgi` | High
-32 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-33 | File | `/vendor/views/add_product.php` | High
-34 | File | `/wabt/bin/poc.wasm` | High
-35 | File | `/xpdf/Stream.cc` | High
-36 | File | `addinterviewsform.php` | High
-37 | File | `addmembioform.php` | High
-38 | File | `adm.cgi` | Low
-39 | File | `admin.php` | Medium
-40 | File | `admin.php3` | Medium
-41 | File | `admin/detay_yorum.asp` | High
-42 | File | `admin/header.php` | High
-43 | File | `admin/manufacturers.php` | High
-44 | File | `Admin/Staff` | Medium
-45 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/changestock.php` | High
+3 | File | `/admin/contact/list` | High
+4 | File | `/admin/delete.php` | High
+5 | File | `/admin/edit_visitor.php` | High
+6 | File | `/admin/image.php` | High
+7 | File | `/admin/modify.php` | High
+8 | File | `/admin/settings/fields` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/api/` | Low
+11 | File | `/api/plugin/uninstall` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/bin/png2swf` | Medium
+14 | File | `/blogengine/api/posts` | High
+15 | File | `/brand.php` | Medium
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=delete_stockin` | High
+19 | File | `/classes/Master.php?f=delete_student` | High
+20 | File | `/conf/users` | Medium
+21 | File | `/controller/OnlinePreviewController.java` | High
+22 | File | `/coreframe/app/attachment/admin/index.php` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/etc/ciel.cfg` | High
+26 | File | `/etc/init0.d/S80telnetd.sh` | High
+27 | File | `/etc/shadow.sample` | High
+28 | File | `/frm/` | Low
+29 | File | `/goform/setmac` | High
+30 | File | `/goform/WifiMacFilterSet` | High
+31 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+32 | File | `/htmldoc/htmldoc/html.cxx` | High
+33 | File | `/include/comm_post.inc.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/jpeg-quantsmooth/jpegqs` | High
+36 | File | `/linux/main.cpp` | High
+37 | File | `/manage-apartment.php` | High
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/pages/class_sched.php` | High
+40 | File | `/pages/processlogin.php` | High
+41 | File | `/publiccms/admin/ueditor` | High
+42 | File | `/release-x64/otfccdump` | High
+43 | File | `/release-x64/otfccdump+0x6e420d` | High
+44 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

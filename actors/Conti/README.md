@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Conti:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Conti:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -524,14 +524,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -540,7 +540,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/admin/` | Low
+2 | File | `/about.php` | Medium
 3 | File | `/admin/communitymanagement.php` | High
 4 | File | `/admin/extended` | High
 5 | File | `/admin/featured.php` | High
@@ -555,27 +555,28 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/addusers` | High
 15 | File | `/app/options.py` | High
 16 | File | `/application/common.php#action_log` | High
-17 | File | `/bsms/?page=manage_account` | High
-18 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
 19 | File | `/cgi-bin/wlogin.cgi` | High
 20 | File | `/ci_hms/massage_room/edit/1` | High
 21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/dashboard/reports/logs/view` | High
-23 | File | `/dashboard/updatelogo.php` | High
-24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/designer/add/layout` | High
-27 | File | `/etc/hosts` | Medium
-28 | File | `/filemanager/upload/drop` | High
-29 | File | `/gasmark/assets/myimages/oneWord.php` | High
-30 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index/jobfairol/show/` | High
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/loginVaLidation.php` | High
-35 | ... | ... | ...
+22 | File | `/cwc/login` | Medium
+23 | File | `/dashboard/reports/logs/view` | High
+24 | File | `/dashboard/updatelogo.php` | High
+25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/designer/add/layout` | High
+28 | File | `/etc/hosts` | Medium
+29 | File | `/filemanager/upload/drop` | High
+30 | File | `/gasmark/assets/myimages/oneWord.php` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+33 | File | `/index.php` | Medium
+34 | File | `/index/jobfairol/show/` | High
+35 | File | `/loginVaLidation.php` | High
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

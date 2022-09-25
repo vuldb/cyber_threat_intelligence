@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,51 +50,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.procmailrc` | Medium
-2 | File | `/../conf/config.properties` | High
-3 | File | `/addnews.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/inquiries/view_details.php` | High
-6 | File | `/api/2.0/rest/aggregator/xml` | High
-7 | File | `/api/blade-log/api/list` | High
-8 | File | `/cgi-bin/webviewer_login_page` | High
-9 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-10 | File | `/core/vendor/meenie/javascript-packer/example-inline.php` | High
-11 | File | `/etc/config/rpcd` | High
-12 | File | `/exponent_constants.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/formLogin` | High
-15 | File | `/hub/api/user` | High
-16 | File | `/mfaslmf/nolicense` | High
-17 | File | `/mhds/clinic/view_details.php` | High
-18 | File | `/opt/bin/cli` | Medium
-19 | File | `/plain` | Low
-20 | File | `/proc` | Low
-21 | File | `/proc/ioports` | High
-22 | File | `/products/details.asp` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/RestAPI` | Medium
-25 | File | `/tmp` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/User/saveUser` | High
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/WEB-INF/web.xml` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-json/wc/v3/webhooks` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `abc-pcie.c` | Medium
-34 | File | `accountmanagement.php` | High
-35 | File | `addentry.php` | Medium
-36 | File | `adherents/subscription/info.php` | High
-37 | File | `admin.joomlaflashfun.php` | High
-38 | File | `admin.joomlaradiov5.php` | High
-39 | File | `admin.panoramic.php` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin/change-password.php` | High
-42 | File | `admin/index.php` | High
-43 | ... | ... | ...
+1 | File | `/../conf/config.properties` | High
+2 | File | `/addnews.html` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/inquiries/view_details.php` | High
+5 | File | `/api/2.0/rest/aggregator/xml` | High
+6 | File | `/api/blade-log/api/list` | High
+7 | File | `/cgi-bin/webviewer_login_page` | High
+8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+9 | File | `/core/vendor/meenie/javascript-packer/example-inline.php` | High
+10 | File | `/etc/config/rpcd` | High
+11 | File | `/exponent_constants.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/formLogin` | High
+14 | File | `/hub/api/user` | High
+15 | File | `/include/commrecc.inc.php` | High
+16 | File | `/include/comm_post.inc.php` | High
+17 | File | `/include/friends.inc.php` | High
+18 | File | `/include/menu_v.inc.php` | High
+19 | File | `/include/notify.inc.php` | High
+20 | File | `/mfaslmf/nolicense` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/opt/bin/cli` | Medium
+23 | File | `/plain` | Low
+24 | File | `/proc` | Low
+25 | File | `/proc/ioports` | High
+26 | File | `/products/details.asp` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/RestAPI` | Medium
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/User/saveUser` | High
+32 | File | `/viewer/krpano.html` | High
+33 | File | `/ViewUserHover.jspa` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+38 | File | `abc-pcie.c` | Medium
+39 | File | `accountmanagement.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `addentry.php` | Medium
+42 | File | `adherents/subscription/info.php` | High
+43 | File | `admin.joomlaflashfun.php` | High
+44 | File | `admin.joomlaradiov5.php` | High
+45 | File | `admin.panoramic.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin/addons/archive/archive.php` | High
+48 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [12.167.151.119](https://vuldb.com/?ip.12.167.151.119) | - | - | High
-2 | [41.58.102.142](https://vuldb.com/?ip.41.58.102.142) | - | - | High
-3 | [41.58.104.23](https://vuldb.com/?ip.41.58.104.23) | - | - | High
-4 | ... | ... | ... | ...
+2 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
+3 | [20.81.111.85](https://vuldb.com/?ip.20.81.111.85) | - | - | High
+4 | [23.221.227.172](https://vuldb.com/?ip.23.221.227.172) | a23-221-227-172.deploy.static.akamaitechnologies.com | - | High
+5 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+6 | ... | ... | ... | ...
 
-There are 12 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,13 +49,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/SCRIPTPATH/index.php` | High
-2 | File | `auth-gss2.c` | Medium
-3 | File | `category.cfm` | Medium
-4 | File | `cgi-bin/MANGA/admin.cgi` | High
+1 | File | `/pages/processlogin.php` | High
+2 | File | `/SCRIPTPATH/index.php` | High
+3 | File | `admin/index.php` | High
+4 | File | `auth-gss2.c` | Medium
 5 | ... | ... | ...
 
-There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -63,6 +65,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/09/threat-roundup-0907-0914.html
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0503-0510.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1126-1203.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
 
 ## Literature
 

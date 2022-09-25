@@ -64,35 +64,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
 3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/adminlogin.asp` | High
-5 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-6 | File | `/dl/dl_sendmail.php` | High
-7 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-8 | File | `/etc/qci/answers` | High
-9 | File | `/forms/nslookupHandler` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/function/booksave.php` | High
-12 | File | `/goform/form2userconfig.cgi` | High
-13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-14 | File | `/inc/campaign/campaign-delete.php` | High
-15 | File | `/sgmi/` | Low
-16 | File | `/tmp` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/lib/print/conv_fix` | High
-19 | File | `adclick.php` | Medium
-20 | File | `add_comment.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin.php?page=languages` | High
-23 | File | `admin/controllers/Albumsgalleries.php` | High
-24 | File | `admin/plugin.php` | High
-25 | File | `admin\addgroup.php` | High
-26 | File | `agents.php` | Medium
-27 | File | `api_poller.php` | High
-28 | File | `app/View/Helper/CommandHelper.php` | High
-29 | File | `apport/hookutils.py` | High
+4 | File | `/admin/video/list` | High
+5 | File | `/adminlogin.asp` | High
+6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+7 | File | `/dl/dl_sendmail.php` | High
+8 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+9 | File | `/etc/qci/answers` | High
+10 | File | `/forms/nslookupHandler` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/function/booksave.php` | High
+13 | File | `/goform/form2userconfig.cgi` | High
+14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+15 | File | `/inc/campaign/campaign-delete.php` | High
+16 | File | `/sgmi/` | Low
+17 | File | `/tmp` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/lib/print/conv_fix` | High
+20 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+21 | File | `adclick.php` | Medium
+22 | File | `add_comment.php` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin.php?page=languages` | High
+25 | File | `admin/controllers/Albumsgalleries.php` | High
+26 | File | `admin/plugin.php` | High
+27 | File | `admin\addgroup.php` | High
+28 | File | `agents.php` | Medium
+29 | File | `api_poller.php` | High
 30 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,36 +63,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/pic/admin/pic/del` | High
 3 | File | `/admin.php/singer/admin/lists/zhuan` | High
 4 | File | `/admin.php/User/level_sort` | High
-5 | File | `/admin/cloud.php` | High
-6 | File | `/admin/communitymanagement.php` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-10 | File | `/aqpg/users/login.php` | High
+5 | File | `/admin/communitymanagement.php` | High
+6 | File | `/admin/generalsettings.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+9 | File | `/aqpg/users/login.php` | High
+10 | File | `/blog/edit` | Medium
 11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/core/admin/categories.php` | High
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/DsaDataTest` | Medium
-15 | File | `/etc/config/cameo` | High
+12 | File | `/classes/Master.php?f=delete_category` | High
+13 | File | `/core/admin/categories.php` | High
+14 | File | `/dms/admin/reports/daily_collection_report.php` | High
+15 | File | `/DsaDataTest` | Medium
 16 | File | `/etc/networkd-dispatcher` | High
 17 | File | `/filemanager/upload/drop` | High
 18 | File | `/food/admin/all_users.php` | High
 19 | File | `/forum/away.php` | High
-20 | File | `/goform/SetClientState` | High
-21 | File | `/goform/SetFirewallCfg` | High
-22 | File | `/goform/setWorkmode` | High
-23 | File | `/isms/classes/Users.php` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/music/ajax.php` | High
-26 | File | `/ofrs/admin/?page=teams/view_team` | High
-27 | File | `/ordering/index.php?q=category` | High
-28 | File | `/orms/` | Low
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/public_html/animals` | High
-31 | File | `/public_html/apply_vacancy` | High
-32 | ... | ... | ...
+20 | File | `/getcfg.php` | Medium
+21 | File | `/goform/PowerSaveSet` | High
+22 | File | `/goform/SetClientState` | High
+23 | File | `/goform/SetFirewallCfg` | High
+24 | File | `/goform/setWorkmode` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/index.php` | Medium
+27 | File | `/isms/classes/Users.php` | High
+28 | File | `/lists/index.php` | High
+29 | File | `/members/view_member.php` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/music/ajax.php` | High
+32 | File | `/ofrs/admin/?page=teams/view_team` | High
+33 | File | `/ordering/index.php?q=category` | High
+34 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

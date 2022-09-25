@@ -88,41 +88,41 @@ ID | Type | Indicator | Confidence
 19 | File | `/etc/config/rpcd` | High
 20 | File | `/etc/hosts` | Medium
 21 | File | `/forum/` | Low
-22 | File | `/goform/net\_Web\_get_value` | High
-23 | File | `/index.php` | Medium
-24 | File | `/index.php/weblinks-categories` | High
-25 | File | `/j_security_check` | High
-26 | File | `/login.html` | Medium
-27 | File | `/menu.html` | Medium
-28 | File | `/mics/j_spring_security_check` | High
-29 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
-30 | File | `/mnt/skyeye/mode_switch.sh` | High
-31 | File | `/mybb_1806/Upload/admin/index.php` | High
-32 | File | `/oauth/token` | Medium
-33 | File | `/plain` | Low
-34 | File | `/public/login.htm` | High
-35 | File | `/romfile.cfg` | Medium
-36 | File | `/scp/directory.php` | High
-37 | File | `/setSystemAdmin` | High
-38 | File | `/system/WCore/WHelper.php` | High
-39 | File | `/tmp/connlicj.bin` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/upload` | Low
-42 | File | `/userfs/bin/tcapi` | High
-43 | File | `/var/www/xms/application/config/config.php` | High
-44 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-45 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-46 | File | `/var/www/xms/cleanzip.sh` | High
-47 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-48 | File | `/websocket/exec` | High
-49 | File | `/workspaceCleanup` | High
-50 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
-51 | File | `account/gallery.php` | High
-52 | File | `add_edit_cat.asp` | High
-53 | File | `admin.htm` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/net\_Web\_get_value` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index.php/weblinks-categories` | High
+26 | File | `/j_security_check` | High
+27 | File | `/login.html` | Medium
+28 | File | `/menu.html` | Medium
+29 | File | `/mics/j_spring_security_check` | High
+30 | File | `/mnt/sdcard/$PRO_NAME/upgrade.sh` | High
+31 | File | `/mnt/skyeye/mode_switch.sh` | High
+32 | File | `/mybb_1806/Upload/admin/index.php` | High
+33 | File | `/oauth/token` | Medium
+34 | File | `/plain` | Low
+35 | File | `/public/login.htm` | High
+36 | File | `/romfile.cfg` | Medium
+37 | File | `/scp/directory.php` | High
+38 | File | `/setSystemAdmin` | High
+39 | File | `/system/WCore/WHelper.php` | High
+40 | File | `/tmp/connlicj.bin` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/upload` | Low
+43 | File | `/userfs/bin/tcapi` | High
+44 | File | `/var/www/xms/application/config/config.php` | High
+45 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+46 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+47 | File | `/var/www/xms/cleanzip.sh` | High
+48 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+49 | File | `/websocket/exec` | High
+50 | File | `/workspaceCleanup` | High
+51 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
+52 | File | `account/gallery.php` | High
+53 | File | `add_edit_cat.asp` | High
 54 | ... | ... | ...
 
-There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

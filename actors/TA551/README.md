@@ -19,9 +19,9 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
 * [ES](https://vuldb.com/?country.es)
-* [AR](https://vuldb.com/?country.ar)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -57,9 +57,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -71,37 +71,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/modify1.php` | High
-6 | File | `/admin/search.php` | High
-7 | File | `/api/v1/user` | Medium
-8 | File | `/appConfig/userDB.json` | High
-9 | File | `/bin/boa` | Medium
-10 | File | `/blog/edit` | Medium
-11 | File | `/categories/view_category.php` | High
-12 | File | `/cgi-bin/ExportAllSettings.sh` | High
-13 | File | `/classes/Master.php?f=delete_category` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/classes/Master.php?f=delete_stockin` | High
-16 | File | `/classes/Master.php?f=delete_stockout` | High
-17 | File | `/classes/Master.php?f=delete_waste` | High
-18 | File | `/client.php` | Medium
-19 | File | `/coreframe/app/attachment/admin/index.php` | High
-20 | File | `/dede/co_do.php` | High
-21 | File | `/dishes.php` | Medium
-22 | File | `/edituser.php` | High
-23 | File | `/etc/ciel.cfg` | High
-24 | File | `/etc/init0.d/S80telnetd.sh` | High
-25 | File | `/etc/passwd` | Medium
-26 | File | `/etc/shadow.sample` | High
-27 | File | `/goform/form2userconfig.cgi` | High
-28 | File | `/goform/SetLEDCfg` | High
-29 | ... | ... | ...
+1 | File | `.rediscli_history` | High
+2 | File | `/activity/admin/modules/department/index.php?view=edit` | High
+3 | File | `/admin/budget.php` | High
+4 | File | `/admin/edit_user.php` | High
+5 | File | `/admin/edit_visitor.php` | High
+6 | File | `/admin/settings/fields` | High
+7 | File | `/api/index.php` | High
+8 | File | `/application/documents/display.aspx` | High
+9 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+10 | File | `/bemarket/shop/index.php'` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/bits/stl_vector.h` | High
+13 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+14 | File | `/controller/OnlinePreviewController.java` | High
+15 | File | `/etc/qci/answers` | High
+16 | File | `/goform/NatStaticSetting` | High
+17 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
+18 | File | `/home/bupt/Desktop/swftools/src/src/gif2swf.c` | High
+19 | File | `/index.php` | Medium
+20 | File | `/jpeg-quantsmooth/jpegqs` | High
+21 | File | `/Login` | Low
+22 | File | `/MachO/SegmentCommand.cpp` | High
+23 | File | `/maintenance/manage_department.php` | High
+24 | File | `/opt/onedev/lib` | High
+25 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

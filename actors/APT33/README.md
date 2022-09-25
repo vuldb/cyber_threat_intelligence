@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [PL](https://vuldb.com/?country.pl)
-* [AR](https://vuldb.com/?country.ar)
 * [SV](https://vuldb.com/?country.sv)
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,57 +69,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/manage_user` | High
-2 | File | `/admin/del.php` | High
-3 | File | `/admin/delstu.php` | High
-4 | File | `/admin/lab.php` | High
-5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-6 | File | `/asan/asan_new_delete.cpp` | High
-7 | File | `/blog/blogpublish.php` | High
-8 | File | `/categories/view_category.php` | High
-9 | File | `/classes/Master.php?f=delete_category` | High
-10 | File | `/classes/Master.php?f=delete_schedule` | High
-11 | File | `/classes/Users.php?f=save_client` | High
-12 | File | `/dashboard/contact` | High
-13 | File | `/dede/co_do.php` | High
-14 | File | `/etc/init0.d/S80telnetd.sh` | High
-15 | File | `/etc/shadow.sample` | High
-16 | File | `/frm/` | Low
-17 | File | `/goform/saveParentControlInfo` | High
-18 | File | `/goform/setAutoPing` | High
-19 | File | `/goform/SetIpMacBind` | High
-20 | File | `/goform/wifiSSIDset` | High
-21 | File | `/includes/db_utils.php` | High
-22 | File | `/includes/utils.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/ip/admin/` | Medium
-25 | File | `/master/index.php` | High
-26 | File | `/menu.htm` | Medium
-27 | File | `/mkshope/login.php` | High
-28 | File | `/mygym/admin/login.php` | High
-29 | File | `/Noxen-master/users.php` | High
-30 | File | `/patient/settings.php` | High
-31 | File | `/php_action/createUser.php` | High
-32 | File | `/pms/update_patient.php` | High
-33 | File | `/ptippage.cgi` | High
-34 | File | `/qr/I/` | Low
-35 | File | `/registration.php` | High
-36 | File | `/release-x64/otfccdump` | High
-37 | File | `/sanitizer_common/sanitizer_common_interceptors.inc` | High
-38 | File | `/schedules/view_schedule.php` | High
-39 | File | `/server-status` | High
-40 | File | `/src/jfif.c` | Medium
-41 | File | `/stdio-common/vfprintf.c` | High
-42 | File | `/stocks/manage_stockin.php` | High
-43 | File | `/templates/stylesheets.php` | High
-44 | File | `/users` | Low
-45 | File | `/usr/bin/tddp` | High
-46 | File | `/var/backup/tower` | High
-47 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-48 | File | `/viewReport.php` | High
-49 | ... | ... | ...
+1 | File | `.rediscli_history` | High
+2 | File | `/activity/admin/modules/event/index.php?view=edit` | High
+3 | File | `/activity/admin/modules/modstudent/index.php?view=view` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/comment/list` | High
+6 | File | `/admin/del.php` | High
+7 | File | `/admin/delstu.php` | High
+8 | File | `/admin/edit_event.php` | High
+9 | File | `/admin/edit_user.php` | High
+10 | File | `/admin/lab.php` | High
+11 | File | `/admin/video/list` | High
+12 | File | `/admin/videoalbum/list` | High
+13 | File | `/api/upload-resource` | High
+14 | File | `/bibliography/marcsru.php` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/bits/stl_vector.h` | High
+17 | File | `/categories/view_category.php` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=delete_schedule` | High
+20 | File | `/classes/Users.php?f=save_client` | High
+21 | File | `/dashboard/settings` | High
+22 | File | `/dede/co_do.php` | High
+23 | File | `/etc/shadow.sample` | High
+24 | File | `/fax/fax_send.php` | High
+25 | File | `/garage/editcategory.php` | High
+26 | File | `/gfxpoly/stroke.c` | High
+27 | File | `/goform/saveParentControlInfo` | High
+28 | File | `/goform/SetIpMacBind` | High
+29 | File | `/guestmanagement/front.php` | High
+30 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

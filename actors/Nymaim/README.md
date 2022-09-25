@@ -60,23 +60,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/config/getuser` | High
 5 | File | `/data-service/users/` | High
 6 | File | `/IISADMPWD` | Medium
-7 | File | `/js/app.js` | Medium
-8 | File | `/login` | Low
-9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/pro/repo-create.html` | High
+7 | File | `/index.php` | Medium
+8 | File | `/js/app.js` | Medium
+9 | File | `/login` | Low
+10 | File | `/mgmt/tm/util/bash` | High
 11 | File | `/public/plugins/` | High
-12 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-13 | File | `/rest/api/latest/projectvalidate/key` | High
-14 | File | `/rest/collectors/1.0/template/custom` | High
-15 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/services` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/at` | Medium
-20 | File | `/usr/bin/pkexec` | High
-21 | ... | ... | ...
+12 | File | `/registration.php` | High
+13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+14 | File | `/rest/api/latest/projectvalidate/key` | High
+15 | File | `/rest/collectors/1.0/template/custom` | High
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+18 | File | `/services` | Medium
+19 | File | `/uncpath/` | Medium
+20 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

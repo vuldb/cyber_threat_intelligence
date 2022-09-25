@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,9 +44,10 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [34.195.145.145](https://vuldb.com/?ip.34.195.145.145) | ec2-34-195-145-145.compute-1.amazonaws.com | - | Medium
 22 | [35.195.98.220](https://vuldb.com/?ip.35.195.98.220) | 220.98.195.35.bc.googleusercontent.com | - | Medium
 23 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
-24 | ... | ... | ... | ...
+24 | [35.209.43.160](https://vuldb.com/?ip.35.209.43.160) | 160.43.209.35.bc.googleusercontent.com | - | Medium
+25 | ... | ... | ... | ...
 
-There are 92 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,12 +55,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,37 +70,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
-2 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-3 | File | `/admin.php` | Medium
-4 | File | `/auth` | Low
-5 | File | `/dashboard/view-chair-list.php` | High
-6 | File | `/etc/hosts` | Medium
-7 | File | `/GponForm/device_Form?script/` | High
-8 | File | `/GponForm/fsetup_Form` | High
-9 | File | `/GponForm/usb_restore_Form?script/` | High
-10 | File | `/includes/decorators/global-translations.jsp` | High
-11 | File | `/index.php` | Medium
-12 | File | `/product_list.php` | High
-13 | File | `/secure/QueryComponent!Default.jspa` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/server-status` | High
-16 | File | `/setSystemAdmin` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-19 | File | `/WEB-INF/web.xml` | High
-20 | File | `addentry.php` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin/executar_login.php` | High
-23 | File | `admin/mcart_xls_import.php` | High
-24 | File | `admin/setting.php` | High
-25 | File | `admin_ranks.php` | High
-26 | File | `ajax-actions.php` | High
-27 | File | `alipay/alipayapi.php` | High
-28 | File | `apcupsd.exe` | Medium
-29 | File | `auth.inc.php` | Medium
-30 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/` | Low
+6 | File | `/admin/photo.php` | High
+7 | File | `/auth` | Low
+8 | File | `/catcompany.php` | High
+9 | File | `/dashboard/view-chair-list.php` | High
+10 | File | `/etc/hosts` | Medium
+11 | File | `/GponForm/device_Form?script/` | High
+12 | File | `/GponForm/fsetup_Form` | High
+13 | File | `/GponForm/usb_restore_Form?script/` | High
+14 | File | `/includes/decorators/global-translations.jsp` | High
+15 | File | `/index.php` | Medium
+16 | File | `/product_list.php` | High
+17 | File | `/secure/QueryComponent!Default.jspa` | High
+18 | File | `/see_more_details.php` | High
+19 | File | `/server-status` | High
+20 | File | `/setSystemAdmin` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | File | `addentry.php` | Medium
+25 | File | `admin.php` | Medium
+26 | File | `admin/executar_login.php` | High
+27 | File | `admin/mcart_xls_import.php` | High
+28 | File | `admin/setting.php` | High
+29 | File | `admin_ranks.php` | High
+30 | File | `ajax-actions.php` | High
+31 | File | `alipay/alipayapi.php` | High
+32 | File | `apcupsd.exe` | Medium
+33 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +123,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
+* https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
+* https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 
 ## Literature
 

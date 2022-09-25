@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.dharma](https://vuldb.com/?actor.dharma)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dharma:
+
+* [US](https://vuldb.com/?country.us)
+* [BG](https://vuldb.com/?country.bg)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Dharma.
@@ -20,12 +27,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -33,33 +41,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/deluser.php` | High
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/operations/tax.php` | High
-4 | File | `/admin/showbad.php` | High
-5 | File | `/admin/ztliuyan_sendmail.php` | High
-6 | File | `/api/v2/config` | High
-7 | File | `/appinfo/save` | High
-8 | File | `/ATL/VQ23` | Medium
-9 | File | `/cgi-bin/ExportAllSettings.sh` | High
-10 | File | `/coreframe/app/pay/admin/index.php` | High
-11 | File | `/dashboard/snapshot/*?orgId=0` | High
-12 | File | `/dl/dl_sendmail.php` | High
-13 | File | `/dl/dl_sendsms.php` | High
-14 | File | `/ffos/admin/categories/manage_category.php` | High
-15 | File | `/ffos/admin/categories/view_category.php` | High
-16 | File | `/ffos/admin/menus/manage_menu.php` | High
-17 | File | `/ffos/admin/sales/receipt.php` | High
-18 | File | `/ffos/classes/Master.php?f=delete_category` | High
-19 | File | `/ffos/classes/Master.php?f=delete_img` | High
-20 | File | `/ffos/classes/Master.php?f=delete_menu` | High
-21 | File | `/hprms/admin/?page=patients/view_patient` | High
-22 | File | `/hprms/admin/?page=user/manage_user` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/hprms/admin/doctors/view_doctor.php` | High
-25 | ... | ... | ...
+1 | File | `/admin/edit_admin_details.php?id=admin` | High
+2 | File | `/admin/inquiries/view_details.php` | High
+3 | File | `/alarm_pi/alarmService.php` | High
+4 | File | `/api/admin/attachments/upload` | High
+5 | File | `/application/controllers/Users.php` | High
+6 | File | `/classes/Master.php?f=delete_message` | High
+7 | File | `/classes/Master.php?f=delete_reservation` | High
+8 | File | `/classes/Master.php?f=delete_schedule` | High
+9 | File | `/classes/Master.php?f=delete_service` | High
+10 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -153,23 +153,21 @@ ID | Type | Indicator | Confidence
 29 | File | `/s/` | Low
 30 | File | `/scripts/cpan_config` | High
 31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/services/system/setup.json` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/vloggers_merch/?p=view_product` | High
-36 | File | `/web/MCmsAction.java` | High
-37 | File | `/webconsole/APIController` | High
-38 | File | `/websocket/exec` | High
-39 | File | `/whbs/?page=my_bookings` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `/wp-json` | Medium
-43 | File | `/wp-json/oembed/1.0/embed?url` | High
-44 | File | `/_next` | Low
-45 | File | `4.edu.php\conn\function.php` | High
-46 | ... | ... | ...
+32 | File | `/spip.php` | Medium
+33 | File | `/uncpath/` | Medium
+34 | File | `/vloggers_merch/?p=view_product` | High
+35 | File | `/web/MCmsAction.java` | High
+36 | File | `/webconsole/APIController` | High
+37 | File | `/websocket/exec` | High
+38 | File | `/whbs/?page=my_bookings` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+41 | File | `/wp-json` | Medium
+42 | File | `/wp-json/oembed/1.0/embed?url` | High
+43 | File | `/_next` | Low
+44 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

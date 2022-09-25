@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,15 +26,15 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
 4 | [23.32.81.118](https://vuldb.com/?ip.23.32.81.118) | a23-32-81-118.deploy.static.akamaitechnologies.com | - | High
 5 | [23.62.7.138](https://vuldb.com/?ip.23.62.7.138) | a23-62-7-138.deploy.static.akamaitechnologies.com | - | High
-6 | [62.90.21.54](https://vuldb.com/?ip.62.90.21.54) | 62-90-21-54.barak.net.il | - | High
-7 | [64.29.151.221](https://vuldb.com/?ip.64.29.151.221) | hostedc40.carrierzone.com | - | High
-8 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
-9 | [71.95.133.164](https://vuldb.com/?ip.71.95.133.164) | 071-095-133-164.res.spectrum.com | - | High
-10 | [71.226.96.253](https://vuldb.com/?ip.71.226.96.253) | c-71-226-96-253.hsd1.sc.comcast.net | - | High
-11 | [72.22.185.201](https://vuldb.com/?ip.72.22.185.201) | - | - | High
+6 | [23.202.81.150](https://vuldb.com/?ip.23.202.81.150) | a23-202-81-150.deploy.static.akamaitechnologies.com | - | High
+7 | [62.90.21.54](https://vuldb.com/?ip.62.90.21.54) | 62-90-21-54.barak.net.il | - | High
+8 | [64.29.151.221](https://vuldb.com/?ip.64.29.151.221) | hostedc40.carrierzone.com | - | High
+9 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
+10 | [71.95.133.164](https://vuldb.com/?ip.71.95.133.164) | 071-095-133-164.res.spectrum.com | - | High
+11 | [71.226.96.253](https://vuldb.com/?ip.71.226.96.253) | c-71-226-96-253.hsd1.sc.comcast.net | - | High
 12 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,38 +58,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/car.php` | Medium
-3 | File | `/cgi-bin/luci/api/auth` | High
-4 | File | `/cgi-bin/luci/api/diagnose` | High
-5 | File | `/CMD_ACCOUNT_ADMIN` | High
-6 | File | `/core/admin/categories.php` | High
-7 | File | `/dashboards/#` | High
-8 | File | `/etc/config/image_sign` | High
-9 | File | `/etc/controller-agent/agent.conf` | High
-10 | File | `/etc/groups` | Medium
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/filemanager/php/connector.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/fudforum/adm/hlplist.php` | High
-15 | File | `/GponForm/fsetup_Form` | High
-16 | File | `/log_download.cgi` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/MTFWU` | Low
-20 | File | `/out.php` | Medium
-21 | File | `/php/passport/index.php` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/s/` | Low
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/server-info` | Medium
-26 | File | `/tmp` | Low
-27 | File | `/tmp/kamailio_ctl` | High
-28 | File | `/tmp/kamailio_fifo` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/updown/upload.cgi` | High
-31 | ... | ... | ...
+2 | File | `/bd_genie_create_account.cgi` | High
+3 | File | `/c/macho_reader.c` | High
+4 | File | `/cgi-bin/luci/api/auth` | High
+5 | File | `/cgi-bin/luci/api/diagnose` | High
+6 | File | `/claire_blake` | High
+7 | File | `/CMD_ACCOUNT_ADMIN` | High
+8 | File | `/core/admin/categories.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/defaultui/player/modern.html` | High
+11 | File | `/etc/config/image_sign` | High
+12 | File | `/etc/groups` | Medium
+13 | File | `/etc/init0.d/S80telnetd.sh` | High
+14 | File | `/etc/shadow.sample` | High
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/ghost/preview` | High
+18 | File | `/goform/SetIpMacBind` | High
+19 | File | `/htdocs/utils/Files.php` | High
+20 | File | `/jfinal_cms/system/role/list` | High
+21 | File | `/librarian/edit_book_details.php` | High
+22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+23 | File | `/master/index.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/MTFWU` | Low
+27 | File | `/pages/faculty_sched.php` | High
+28 | File | `/pages/processlogin.php` | High
+29 | File | `/php/passport/index.php` | High
+30 | File | `/php_action/createUser.php` | High
+31 | File | `/public/plugins/` | High
+32 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -99,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/05/threat-roundup-0424-0501.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0225-0304.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0429-0506.html
+* https://blog.talosintelligence.com/2022/08/threat-roundup-0819-0826.html
 
 ## Literature
 

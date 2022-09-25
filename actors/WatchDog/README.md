@@ -61,20 +61,22 @@ ID | Type | Indicator | Confidence
 9 | File | `/etc/passwd` | Medium
 10 | File | `/filemanager/upload.php` | High
 11 | File | `/goform/addressNat` | High
-12 | File | `/goform/SetNetControlList` | High
-13 | File | `/include/menu_v.inc.php` | High
-14 | File | `/MagickCore/statistic.c` | High
-15 | File | `/patient/settings.php` | High
-16 | File | `/proc/*/cmdline"` | High
-17 | File | `/proc/pid/syscall` | High
-18 | File | `/rrps/classes/Master.php?f=save_category` | High
-19 | File | `/Search-Results` | High
-20 | File | `/Source/C++/Core/Ap4Array.h` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/updown/upload.cgi` | High
-23 | ... | ... | ...
+12 | File | `/goform/addRouting` | High
+13 | File | `/goform/SetNetControlList` | High
+14 | File | `/include/menu_v.inc.php` | High
+15 | File | `/librarian/lab.php` | High
+16 | File | `/MagickCore/statistic.c` | High
+17 | File | `/patient/settings.php` | High
+18 | File | `/proc/*/cmdline"` | High
+19 | File | `/proc/pid/syscall` | High
+20 | File | `/rrps/classes/Master.php?f=save_category` | High
+21 | File | `/sbin/acos_service` | High
+22 | File | `/Search-Results` | High
+23 | File | `/Source/C++/Core/Ap4Array.h` | High
+24 | File | `/uncpath/` | Medium
+25 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

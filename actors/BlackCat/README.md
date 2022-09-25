@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,22 +55,22 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php/user/zu_del` | High
 4 | File | `/admin/delstu.php` | High
 5 | File | `/admin/edit_admin_details.php?id=admin` | High
-6 | File | `/admin/new-content` | High
-7 | File | `/ajax/set_sys_time/` | High
-8 | File | `/api/programs/orgUnits?programs` | High
-9 | File | `/api/v1/user` | Medium
-10 | File | `/application/controllers/Users.php` | High
-11 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-12 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-13 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-14 | File | `/cgi/get_param.cgi` | High
-15 | File | `/checklogin.jsp` | High
-16 | File | `/ci_hms/search` | High
-17 | File | `/ci_spms/admin/search/searching/` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=delete_payment` | High
-20 | File | `/classes/Master.php?f=delete_schedule` | High
-21 | File | `/cms/classes/Master.php?f=delete_service` | High
+6 | File | `/admin/foldernotice/list` | High
+7 | File | `/admin/image/list` | High
+8 | File | `/ajax/set_sys_time/` | High
+9 | File | `/api/programs/orgUnits?programs` | High
+10 | File | `/api/v1/user` | Medium
+11 | File | `/application/controllers/Users.php` | High
+12 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+13 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+14 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
+15 | File | `/cgi/get_param.cgi` | High
+16 | File | `/checklogin.jsp` | High
+17 | File | `/ci_hms/search` | High
+18 | File | `/ci_spms/admin/search/searching/` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Master.php?f=delete_payment` | High
+21 | File | `/classes/Master.php?f=delete_schedule` | High
 22 | File | `/company/account/safety/trade` | High
 23 | File | `/ctpms/admin/?page=individuals/view_individual` | High
 24 | File | `/ctpms/classes/Master.php?f=delete_img` | High
@@ -81,10 +81,9 @@ ID | Type | Indicator | Confidence
 29 | File | `/fuel/sitevariables/delete/4` | High
 30 | File | `/goform/AdvSetLanIp` | High
 31 | File | `/goform/aspForm` | High
-32 | File | `/goform/WifiExtraSet` | High
-33 | ... | ... | ...
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

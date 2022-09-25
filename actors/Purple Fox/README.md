@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -439,11 +439,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -451,49 +451,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/index.php` | High
-2 | File | `/admin/login.php` | High
-3 | File | `/admin/students/view_student.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/bd_genie_create_account.cgi` | High
+1 | File | `/about.php` | Medium
+2 | File | `/admin/index.php` | High
+3 | File | `/admin/lab.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/appConfig/userDB.json` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/c/macho_reader.c` | High
 8 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 9 | File | `/cgi-bin/kerbynet` | High
-10 | File | `/cgi-bin/nightled.cgi` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/claire_blake` | High
-13 | File | `/configs/application.ini` | High
-14 | File | `/controller/OnlinePreviewController.java` | High
-15 | File | `/coreframe/app/attachment/admin/index.php` | High
-16 | File | `/coreframe/app/pay/admin/index.php` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/defaultui/player/modern.html` | High
-19 | File | `/etc/init0.d/S80telnetd.sh` | High
-20 | File | `/etc/shadow` | Medium
-21 | File | `/etc/shadow.sample` | High
-22 | File | `/filemanager/ajax_calls.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/SetIpMacBind` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/h/search?action` | High
-27 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-28 | File | `/htdocs/utils/Files.php` | High
-29 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-30 | File | `/jfinal_cms/system/role/list` | High
-31 | File | `/librarian/edit_book_details.php` | High
-32 | File | `/loginVaLidation.php` | High
-33 | File | `/manage-apartment.php` | High
-34 | File | `/master/index.php` | High
-35 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-36 | File | `/mkshop/Men/profile.php` | High
-37 | File | `/ows-bin` | Medium
-38 | File | `/pages/apply_vacancy.php` | High
-39 | File | `/pages/processlogin.php` | High
-40 | File | `/redbin/rpwebutilities.exe/text` | High
-41 | ... | ... | ...
+10 | File | `/cgi-bin/koha/members/paycollect.pl` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cgi-bin/nightled.cgi` | High
+13 | File | `/cgi-bin/touchlist_sync.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/claire_blake` | High
+16 | File | `/controller/OnlinePreviewController.java` | High
+17 | File | `/coreframe/app/attachment/admin/index.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/defaultui/player/modern.html` | High
+20 | File | `/etc/init0.d/S80telnetd.sh` | High
+21 | File | `/etc/shadow` | Medium
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/EXCU_SHELL` | Medium
+24 | File | `/filemanager/ajax_calls.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SetIpMacBind` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/h/search?action` | High
+29 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+30 | File | `/htdocs/utils/Files.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+33 | File | `/jfinal_cms/system/role/list` | High
+34 | File | `/librarian/edit_book_details.php` | High
+35 | File | `/loginVaLidation.php` | High
+36 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,17 +49,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/proc/self/environ` | High
-2 | File | `/rest/project-templates/1.0/createshared` | High
-3 | File | `/server-status` | High
-4 | File | `act.php` | Low
-5 | File | `adclick.php` | Medium
-6 | File | `admin.php` | Medium
-7 | File | `administrator/mail/download.cfm` | High
-8 | File | `ashnews.php/ashheadlines.php` | High
-9 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/proc/self/environ` | High
+3 | File | `/rest/project-templates/1.0/createshared` | High
+4 | File | `/server-status` | High
+5 | File | `act.php` | Low
+6 | File | `adclick.php` | Medium
+7 | File | `admin.php` | Medium
+8 | File | `administrator/mail/download.cfm` | High
+9 | File | `ashnews.php/ashheadlines.php` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

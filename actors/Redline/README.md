@@ -65,7 +65,8 @@ ID | IP address | Hostname | Campaign | Confidence
 42 | [45.153.184.61](https://vuldb.com/?ip.45.153.184.61) | no-reverse-yet.local | - | High
 43 | [45.156.24.97](https://vuldb.com/?ip.45.156.24.97) | palmaresk.co.uk | - | High
 44 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-45 | ... | ... | ... | ...
+45 | [46.8.52.48](https://vuldb.com/?ip.46.8.52.48) | coparotiv1.example.com | - | High
+46 | ... | ... | ... | ...
 
 There are 178 more IOC items available. Please use our online service to access the data.
 
@@ -81,7 +82,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,17 +106,17 @@ ID | Type | Indicator | Confidence
 14 | File | `/includes/rrdtool.inc.php` | High
 15 | File | `/index.php` | Medium
 16 | File | `/Main_AdmStatus_Content.asp` | High
-17 | File | `/NAGErrors` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/public` | Low
-20 | File | `/sgms/TreeControl` | High
-21 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-22 | File | `/tmp` | Low
-23 | File | `/uncpath/` | Medium
-24 | File | `/updown/upload.cgi` | High
+17 | File | `/members/view_member.php` | High
+18 | File | `/NAGErrors` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/public` | Low
+21 | File | `/sgms/TreeControl` | High
+22 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -158,6 +159,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-21%20Redline%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-09%20Redline%20IOCs
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
+* https://www.malwarebytes.com/blog/news/2022/09/2k-games-helpdesk-abused-to-spread-redline-malware
 
 ## Literature
 

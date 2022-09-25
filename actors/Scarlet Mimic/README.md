@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.scarlet_mimic](https://vuldb.com/?actor.scarlet_mimic)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Scarlet Mimic:
+
+* Uyghurs
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Scarlet Mimic:
@@ -11,6 +17,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,11 +28,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.54.19.17](https://vuldb.com/?ip.5.54.19.17) | ppp005054019017.access.hol.gr | - | High
-2 | [59.188.239.117](https://vuldb.com/?ip.59.188.239.117) | - | - | High
-3 | [68.71.35.135](https://vuldb.com/?ip.68.71.35.135) | - | - | High
+2 | [45.32.112.182](https://vuldb.com/?ip.45.32.112.182) | 45.32.112.182.vultrusercontent.com | Uyghurs | High
+3 | [59.188.239.117](https://vuldb.com/?ip.59.188.239.117) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,16 +54,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/plugins/Dashboard/Controller.php` | High
-4 | ... | ... | ...
+2 | File | `/ajax-files/postComment.php` | High
+3 | File | `/cgi-bin/pass` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/passwordrecovered.cgi` | High
+6 | File | `/plugins/Dashboard/Controller.php` | High
+7 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://research.checkpoint.com/2022/never-truly-left-7-years-of-scarlet-mimics-mobile-surveillance-campaign-targeting-uyghurs/
 * https://unit42.paloaltonetworks.com/scarlet-mimic-years-long-espionage-targets-minority-activists/
 * https://www.threatminer.org/report.php?q=scarlet-mimic-full-report_PaloAltoNetworks.pdf&y=2018
 * https://www.threatminer.org/report.php?q=ShiftingTactics_Trackingchangesinyears-longespionagecampaignagainstTibetans-TheCitizenLab.pdf&y=2016

@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
-* [AR](https://vuldb.com/?country.ar)
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
+* [GB](https://vuldb.com/?country.gb)
+* [PT](https://vuldb.com/?country.pt)
 
 ## IOC - Indicator of Compromise
 
@@ -34,11 +31,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -53,32 +50,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=reports/waste` | High
 3 | File | `/admin/?page=user/manage_user` | High
 4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/del.php` | High
-6 | File | `/admin/delete.php` | High
-7 | File | `/admin/delstu.php` | High
-8 | File | `/admin/history.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/modify.php` | High
-11 | File | `/admin/modify1.php` | High
-12 | File | `/admin/products/controller.php?action=add` | High
-13 | File | `/advanced-tools/nova/bin/netwatch` | High
-14 | File | `/api/v1/user` | Medium
-15 | File | `/appConfig/userDB.json` | High
-16 | File | `/assets` | Low
-17 | File | `/bin/boa` | Medium
-18 | File | `/blog/edit` | Medium
-19 | File | `/blogengine/api/posts` | High
-20 | File | `/blotter/blotter.php` | High
-21 | File | `/brand.php` | Medium
-22 | File | `/cgi-bin/DownloadFlash` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php?f=delete_account` | High
-25 | File | `/classes/Master.php?f=delete_category` | High
-26 | File | `/classes/Master.php?f=delete_img` | High
-27 | File | `/classes/Master.php?f=delete_payment` | High
-28 | ... | ... | ...
+5 | File | `/admin/article/list_approve` | High
+6 | File | `/admin/contact/list` | High
+7 | File | `/admin/del.php` | High
+8 | File | `/admin/delete.php` | High
+9 | File | `/admin/delstu.php` | High
+10 | File | `/admin/foldernotice/list` | High
+11 | File | `/admin/history.php` | High
+12 | File | `/admin/image/list` | High
+13 | File | `/admin/imagealbum/list` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/modify.php` | High
+16 | File | `/admin/modify1.php` | High
+17 | File | `/admin/products/controller.php?action=add` | High
+18 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+19 | File | `/admin/site/list` | High
+20 | File | `/admin/video/list` | High
+21 | File | `/admin_book.php` | High
+22 | File | `/advanced-tools/nova/bin/netwatch` | High
+23 | File | `/api/upload-resource` | High
+24 | File | `/api/v1/user` | Medium
+25 | File | `/appConfig/userDB.json` | High
+26 | File | `/bin/boa` | Medium
+27 | File | `/bin/httpd` | Medium
+28 | File | `/blog/edit` | Medium
+29 | File | `/blogengine/api/posts` | High
+30 | File | `/brand.php` | Medium
+31 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+32 | File | `/card/in-card.php` | High
+33 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

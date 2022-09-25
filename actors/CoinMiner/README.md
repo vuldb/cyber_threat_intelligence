@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
 
 * [DE](https://vuldb.com/?country.de)
+* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,7 +36,7 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
 14 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 54 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,52 +59,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `.jpilot` | Low
+2 | File | `.imwheelrc` | Medium
 3 | File | `.plan` | Low
 4 | File | `.tin` | Low
 5 | File | `/aux` | Low
-6 | File | `/coreframe/app/guestbook/myissue.php` | High
-7 | File | `/icingaweb2/navigation/add` | High
+6 | File | `/configs/application.ini` | High
+7 | File | `/goform/setPicListItem` | High
 8 | File | `/root/.keeper/` | High
 9 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-10 | File | `/search-result/` | High
-11 | File | `/usr/bin/sonia` | High
-12 | File | `/var/log/nginx` | High
-13 | File | `/var/spool/fax/outgoing/.last_run` | High
-14 | File | `95.php` | Low
-15 | File | `123flashchat.php` | High
-16 | File | `action.php` | Medium
-17 | File | `Active Browser Profile` | High
-18 | File | `addons/mod_media/body.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/profile_settings_net.html` | High
-21 | File | `af.cgi/alienform.cgi` | High
-22 | File | `af_netlink.c` | Medium
-23 | File | `aide.php3` | Medium
-24 | File | `aim/icq` | Low
-25 | File | `ajax.php` | Medium
-26 | File | `akocomment.php` | High
-27 | File | `album.php` | Medium
-28 | File | `allmanageup.pl` | High
-29 | File | `apache2/modsecurity.c` | High
-30 | File | `arm/lithium-codegen-arm.cc` | High
-31 | File | `attachment_send.php` | High
-32 | File | `b2edit.showposts.php` | High
-33 | File | `bar.phtml` | Medium
-34 | File | `bitmap/bdfread.c` | High
-35 | File | `cadastro_usuario.php` | High
-36 | File | `cartman.php` | Medium
-37 | File | `cdf.c` | Low
-38 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-39 | File | `cgi/actions.py` | High
-40 | File | `cgiproc` | Low
-41 | File | `classifieds.cgi` | High
-42 | File | `cmd.php` | Low
-43 | File | `colors.py` | Medium
-44 | File | `com.evernote_preferences.xml` | High
+10 | File | `/spacecom/login.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/usr/bin/sonia` | High
+13 | File | `/var/log/nginx` | High
+14 | File | `/xampp/guestbook-en.pl` | High
+15 | File | `/zm/index.php` | High
+16 | File | `95.php` | Low
+17 | File | `123flashchat.php` | High
+18 | File | `abook_database.php` | High
+19 | File | `action.php` | Medium
+20 | File | `Active Browser Profile` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/profile_settings_net.html` | High
+23 | File | `af.cgi/alienform.cgi` | High
+24 | File | `aide.php3` | Medium
+25 | File | `aim/icq` | Low
+26 | File | `ajax.php` | Medium
+27 | File | `akocomment.php` | High
+28 | File | `article.php` | Medium
+29 | File | `aviso.php` | Medium
+30 | File | `bar.phtml` | Medium
+31 | File | `bitmap/bdfread.c` | High
+32 | File | `blog.cgi` | Medium
+33 | File | `browse.php` | Medium
+34 | File | `cartman.php` | Medium
+35 | File | `cdf.c` | Low
+36 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+37 | File | `chetcpasswd.cgi` | High
+38 | File | `classifieds.cgi` | High
+39 | File | `cmd.php` | Low
+40 | File | `com.evernote_preferences.xml` | High
+41 | File | `command/user.cgi` | High
+42 | File | `comments.php` | Medium
+43 | File | `common.php` | Medium
+44 | File | `content.php` | Medium
 45 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0604-0611.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0611-0617.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
+* https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
 * https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
 * https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/

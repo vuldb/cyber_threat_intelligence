@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,52 +56,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addQuestion.php` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/add_exercises.php` | High
+1 | File | `.dbshell` | Medium
+2 | File | `/addQuestion.php` | High
+3 | File | `/admin/addemployee.php` | High
 4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/bd_genie_create_account.cgi` | High
-9 | File | `/categories/view_category.php` | High
-10 | File | `/category_view.php` | High
-11 | File | `/cgi-bin/editBookmark` | High
-12 | File | `/claire_blake` | High
-13 | File | `/classes/Master.php?f=delete_category` | High
-14 | File | `/dashboard/add-blog.php` | High
-15 | File | `/dashboard/add-portfolio.php` | High
-16 | File | `/dashboard/add-service.php` | High
-17 | File | `/dashboard/contact` | High
-18 | File | `/dashboard/settings` | High
-19 | File | `/dashboard/updatelogo.php` | High
-20 | File | `/etc/shadow.sample` | High
-21 | File | `/etc/srapi/config/system.conf` | High
-22 | File | `/fax/fax_send.php` | High
-23 | File | `/framework/mod/db/DBMapper.xml` | High
-24 | File | `/gasmark/assets/myimages/oneWord.php` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/form2userconfig.cgi` | High
-27 | File | `/goform/formWifiBasicSet` | High
-28 | File | `/goform/setAutoPing` | High
-29 | File | `/guestmanagement/front.php` | High
-30 | File | `/Home/debit_credit_p` | High
-31 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-32 | File | `/htdocs/utils/Files.php` | High
-33 | File | `/htmldoc/htmldoc/html.cxx` | High
-34 | File | `/includes/utils.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/items/manage_item.php` | High
-37 | File | `/librarian/lab.php` | High
-38 | File | `/login.php` | Medium
-39 | File | `/loginVaLidation.php` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/management/api/rcx_management/global_config_query` | High
-42 | File | `/mdiy/page/verify` | High
-43 | File | `/mkshop/Men/profile.php` | High
-44 | ... | ... | ...
+5 | File | `/admin/budget.php` | High
+6 | File | `/admin/contact/list` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/students/view_student.php` | High
+9 | File | `/advanced-tools/nova/bin/netwatch` | High
+10 | File | `/bd_genie_create_account.cgi` | High
+11 | File | `/bits/stl_vector.h` | High
+12 | File | `/categories/view_category.php` | High
+13 | File | `/category_view.php` | High
+14 | File | `/cgi-bin/editBookmark` | High
+15 | File | `/claire_blake` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/dashboard/add-portfolio.php` | High
+18 | File | `/dashboard/add-service.php` | High
+19 | File | `/dashboard/contact` | High
+20 | File | `/dashboard/updatelogo.php` | High
+21 | File | `/employees/manage_leave_type.php` | High
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/etc/srapi/config/system.conf` | High
+24 | File | `/fax/fax_send.php` | High
+25 | File | `/framework/mod/db/DBMapper.xml` | High
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/form2userconfig.cgi` | High
+28 | File | `/goform/formWifiBasicSet` | High
+29 | File | `/goform/NatStaticSetting` | High
+30 | File | `/goform/wifiSSIDget` | High
+31 | File | `/goform/wifiSSIDset` | High
+32 | File | `/guestmanagement/front.php` | High
+33 | File | `/Home/debit_credit_p` | High
+34 | File | `/htdocs/utils/Files.php` | High
+35 | File | `/htmldoc/htmldoc/html.cxx` | High
+36 | File | `/include/makecvs.php` | High
+37 | File | `/index.php` | Medium
+38 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

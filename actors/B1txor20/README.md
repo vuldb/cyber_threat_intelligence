@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [SV](https://vuldb.com/?country.sv)
+* [SC](https://vuldb.com/?country.sc)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -45,15 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,40 +60,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/article/list` | High
-7 | File | `/admin/article/list_approve` | High
-8 | File | `/admin/contact/list` | High
-9 | File | `/admin/del.php` | High
-10 | File | `/admin/delete.php` | High
-11 | File | `/admin/delstu.php` | High
-12 | File | `/admin/foldernotice/list` | High
-13 | File | `/admin/folderrollpicture/list` | High
-14 | File | `/admin/image/list` | High
-15 | File | `/admin/imagealbum/list` | High
-16 | File | `/admin/login.php` | High
-17 | File | `/admin/products/controller.php?action=add` | High
-18 | File | `/admin/site/list` | High
-19 | File | `/admin/videoalbum/list` | High
-20 | File | `/advanced-tools/nova/bin/netwatch` | High
-21 | File | `/api/upload-resource` | High
-22 | File | `/appConfig/userDB.json` | High
-23 | File | `/bd_genie_create_account.cgi` | High
-24 | File | `/bin/boa` | Medium
-25 | File | `/blog/edit` | Medium
-26 | File | `/blogengine/api/posts` | High
-27 | File | `/brand.php` | Medium
-28 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-29 | File | `/cgi-bin/DownloadFlash` | High
-30 | File | `/cgi-bin/wlogin.cgi` | High
-31 | File | `/classes/Master.php?f=delete_account` | High
-32 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/article/list` | High
+4 | File | `/admin/article/list_approve` | High
+5 | File | `/admin/contact/list` | High
+6 | File | `/admin/foldernotice/list` | High
+7 | File | `/admin/folderrollpicture/list` | High
+8 | File | `/admin/friendlylink/list` | High
+9 | File | `/admin/image/list` | High
+10 | File | `/admin/imagealbum/list` | High
+11 | File | `/admin/site/list` | High
+12 | File | `/admin/video/list` | High
+13 | File | `/admin/videoalbum/list` | High
+14 | File | `/admin_book.php` | High
+15 | File | `/api/upload-resource` | High
+16 | File | `/appConfig/userDB.json` | High
+17 | File | `/bd_genie_create_account.cgi` | High
+18 | File | `/bin/boa` | Medium
+19 | File | `/bin/httpd` | Medium
+20 | File | `/blog/edit` | Medium
+21 | File | `/blogengine/api/posts` | High
+22 | File | `/brand.php` | Medium
+23 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+24 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+25 | File | `/card/in-card.php` | High
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/client.php` | Medium
+28 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -134,7 +134,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -143,31 +143,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/inquiries/view_details.php` | High
-2 | File | `/anony/mjpg.cgi` | High
+2 | File | `/api/index.php` | High
 3 | File | `/blog/blog.php` | High
 4 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 5 | File | `/common/info.cgi` | High
 6 | File | `/etc/hosts` | Medium
-7 | File | `/etc/password` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/hy-cgi/devices.cgi` | High
-10 | File | `/IISADMPWD` | Medium
-11 | File | `/index.php` | Medium
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/php_action/createUser.php` | High
-14 | File | `/plugin/jcapture/applet.php` | High
-15 | File | `/proc/stat` | Medium
-16 | File | `/ram/pckg/security/nova/bin/ipsec` | High
-17 | File | `/rss.xml` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/webservices/api/v2.php` | High
-21 | File | `/wp-admin/admin-ajax.php` | High
-22 | File | `/_internal` | Medium
-23 | File | `4.edu.php` | Medium
+7 | File | `/etc/networkd-dispatcher` | High
+8 | File | `/etc/password` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/wifiSSIDset` | High
+11 | File | `/hy-cgi/devices.cgi` | High
+12 | File | `/IISADMPWD` | Medium
+13 | File | `/index.php` | Medium
+14 | File | `/net/nfc/netlink.c` | High
+15 | File | `/obs/bookPerPub.php` | High
+16 | File | `/php_action/createUser.php` | High
+17 | File | `/plugin/jcapture/applet.php` | High
+18 | File | `/proc/stat` | Medium
+19 | File | `/ram/pckg/security/nova/bin/ipsec` | High
+20 | File | `/rss.xml` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/webservices/api/v2.php` | High
 24 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

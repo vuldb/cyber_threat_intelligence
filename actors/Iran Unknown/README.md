@@ -55,16 +55,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/administration/theme.php` | High
 2 | File | `/cgi-bin/webproc` | High
-3 | File | `/index.php` | Medium
-4 | File | `/ofrs/admin/?page=requests/manage_request` | High
-5 | File | `/spip.php` | Medium
-6 | File | `/wp-admin/admin-ajax.php` | High
-7 | File | `announcement.php` | High
-8 | File | `attachment.php` | High
-9 | File | `auth-gss2.c` | Medium
+3 | File | `/forum/away.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/ofrs/admin/?page=requests/manage_request` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/wp-admin/admin-ajax.php` | High
+8 | File | `announcement.php` | High
+9 | File | `attachment.php` | High
 10 | ... | ... | ...
 
-There are 71 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

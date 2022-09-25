@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [HK](https://vuldb.com/?country.hk)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,14 +287,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -302,31 +301,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/admin/index.php` | High
-3 | File | `/admin/list_key.html` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-6 | File | `/asan/asan_new_delete.cpp` | High
-7 | File | `/bin/png2swf` | Medium
-8 | File | `/bits/stl_vector.h` | High
-9 | File | `/blog/blogpublish.php` | High
-10 | File | `/blotter/blotter.php` | High
-11 | File | `/claire_blake` | High
-12 | File | `/common/bbox.cpp` | High
-13 | File | `/controller/OnlinePreviewController.java` | High
-14 | File | `/etc/init0.d/S80telnetd.sh` | High
-15 | File | `/Exago/WrImageResource.adx` | High
-16 | File | `/fax/fax_send.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/gfxpoly/stroke.c` | High
-19 | File | `/guestmanagement/front.php` | High
-20 | File | `/htdocs/upnpinc/gena.php` | High
-21 | File | `/htmldoc/htmldoc/html.cxx` | High
-22 | File | `/index.php` | Medium
-23 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin_book.php` | High
+3 | File | `/api/` | Low
+4 | File | `/bd_genie_create_account.cgi` | High
+5 | File | `/bibliography/marcsru.php` | High
+6 | File | `/c/macho_reader.c` | High
+7 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+8 | File | `/card/in-card.php` | High
+9 | File | `/cgi-bin/kerbynet` | High
+10 | File | `/cgi-bin/koha/members/paycollect.pl` | High
+11 | File | `/cgi-bin/touchlist_sync.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/defaultui/player/modern.html` | High
+14 | File | `/EXCU_SHELL` | Medium
+15 | File | `/filemanager/ajax_calls.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/addRouting` | High
+18 | File | `/goform/Diagnosis` | High
+19 | File | `/goform/form2userconfig.cgi` | High
+20 | File | `/goform/NTPSyncWithHost` | High
+21 | File | `/goform/SetIpMacBind` | High
+22 | File | `/goform/SetLEDCfg` | High
+23 | File | `/goform/setMAC` | High
+24 | File | `/goform/setMacFilterCfg` | High
+25 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

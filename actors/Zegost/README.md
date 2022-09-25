@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,29 +75,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?r=admin/AdminBackup/del` | High
-2 | File | `/admin/edit.php` | High
-3 | File | `/admin/index.php/template/ajax?action=delete` | High
-4 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-5 | File | `/admin/users.php?source=edit_user&id=1` | High
-6 | File | `/administrator/alerts/alertLightbox.php` | High
-7 | File | `/administrator/templates/default/html/windows/right.php` | High
-8 | File | `/app/options.py` | High
-9 | File | `/apps/acs-commons/content/page-compare.html` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/dashboard/menu-list.php` | High
-15 | File | `/demo/module/?module=HERE` | High
-16 | File | `/download/set.cgi` | High
-17 | File | `/dvcset/sysset/set.cgi` | High
-18 | File | `/ffos/classes/Master.php?f=save_category` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/SysToolReboot` | High
-21 | File | `/goform/WifiExtraSet` | High
-22 | ... | ... | ...
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/index.php/template/ajax?action=delete` | High
+5 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+6 | File | `/admin/users.php?source=edit_user&id=1` | High
+7 | File | `/administrator/alerts/alertLightbox.php` | High
+8 | File | `/administrator/templates/default/html/windows/right.php` | High
+9 | File | `/app/options.py` | High
+10 | File | `/apps/acs-commons/content/page-compare.html` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/ci_spms/admin/category` | High
+14 | File | `/ci_spms/admin/search/searching/` | High
+15 | File | `/classes/Master.php?f=delete_train` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/demo/module/?module=HERE` | High
+19 | File | `/download/set.cgi` | High
+20 | File | `/dvcset/sysset/set.cgi` | High
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/SysToolReboot` | High
+24 | File | `/goform/WifiExtraSet` | High
+25 | File | `/goforms/rlminfo` | High
+26 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

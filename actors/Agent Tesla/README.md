@@ -27,18 +27,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.95.85.181](https://vuldb.com/?ip.23.95.85.181) | 23-95-85-181-host.colocrossing.com | - | High
-2 | [31.3.251.197](https://vuldb.com/?ip.31.3.251.197) | h31-3-251-197.host.redstation.co.uk | - | High
-3 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
-4 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
-5 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
-6 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
-7 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
-8 | [51.68.128.171](https://vuldb.com/?ip.51.68.128.171) | ip171.ip-51-68-128.eu | - | High
-9 | [51.89.183.99](https://vuldb.com/?ip.51.89.183.99) | 90.eri1.ovh.abcd.network | - | High
-10 | ... | ... | ... | ...
+1 | [3.93.18.244](https://vuldb.com/?ip.3.93.18.244) | ec2-3-93-18-244.compute-1.amazonaws.com | - | Medium
+2 | [3.217.248.28](https://vuldb.com/?ip.3.217.248.28) | ec2-3-217-248-28.compute-1.amazonaws.com | - | Medium
+3 | [23.95.85.181](https://vuldb.com/?ip.23.95.85.181) | 23-95-85-181-host.colocrossing.com | - | High
+4 | [31.3.251.197](https://vuldb.com/?ip.31.3.251.197) | h31-3-251-197.host.redstation.co.uk | - | High
+5 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
+6 | [34.200.207.31](https://vuldb.com/?ip.34.200.207.31) | ec2-34-200-207-31.compute-1.amazonaws.com | - | Medium
+7 | [37.19.196.108](https://vuldb.com/?ip.37.19.196.108) | unn-37-19-196-108.datapacket.com | - | High
+8 | [45.142.215.180](https://vuldb.com/?ip.45.142.215.180) | connectoms.host | - | High
+9 | [45.156.25.78](https://vuldb.com/?ip.45.156.25.78) | - | - | High
+10 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
+11 | ... | ... | ... | ...
 
-There are 37 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,7 +106,7 @@ ID | Type | Indicator | Confidence
 43 | File | `cart_add.php` | Medium
 44 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,6 +116,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/310/gs-032-agent-tesla-spyware-iocs/
 * https://asec.ahnlab.com/en/31083/
 * https://blog.talosintelligence.com/2020/07/threat-roundup-0724-0731.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://blogs.blackberry.com/en/2020/04/threat-spotlight-secret-agent-tesla
 * https://community.blueliv.com/#!/s/5f7de53d82df413eb5350fba
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-20%20Agent%20Tesla%20IOCs

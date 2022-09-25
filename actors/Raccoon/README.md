@@ -53,36 +53,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ajax-files/followBoard.php` | High
-2 | File | `/ajax-files/postComment.php` | High
-3 | File | `/categorypage.php` | High
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-6 | File | `/domain/add` | Medium
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/home.php` | Medium
-9 | File | `/index.php/weblinks-categories` | High
-10 | File | `/plain` | Low
-11 | File | `/rapi/read_url` | High
-12 | File | `/searchpin.php` | High
-13 | File | `/show_group_members.php` | High
-14 | File | `/soap/server_sa` | High
-15 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-16 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
-17 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-18 | File | `/web/google_analytics.php` | High
-19 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-20 | File | `addentry.php` | Medium
-21 | File | `AdminByRequest.exe` | High
-22 | File | `admincp.php?app=prop&do=add` | High
-23 | File | `advsearch.php` | High
-24 | File | `append/override_content_security_policy_directives` | High
-25 | File | `archive_endian.h` | High
-26 | File | `assets/add/dns.php` | High
-27 | File | `bits.c` | Low
-28 | ... | ... | ...
+1 | File | `/admin/searchview.php` | High
+2 | File | `/ajax-files/followBoard.php` | High
+3 | File | `/ajax-files/postComment.php` | High
+4 | File | `/categorypage.php` | High
+5 | File | `/cgi-bin/kerbynet` | High
+6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+7 | File | `/domain/add` | Medium
+8 | File | `/etc/sudoers` | Medium
+9 | File | `/home.php` | Medium
+10 | File | `/index.php/weblinks-categories` | High
+11 | File | `/plain` | Low
+12 | File | `/rapi/read_url` | High
+13 | File | `/searchpin.php` | High
+14 | File | `/show_group_members.php` | High
+15 | File | `/soap/server_sa` | High
+16 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+17 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
+18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+19 | File | `/web/google_analytics.php` | High
+20 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+21 | File | `addentry.php` | Medium
+22 | File | `AdminByRequest.exe` | High
+23 | File | `admincp.php?app=prop&do=add` | High
+24 | File | `advsearch.php` | High
+25 | File | `append/override_content_security_policy_directives` | High
+26 | File | `archive_endian.h` | High
+27 | File | `assets/add/dns.php` | High
+28 | File | `bits.c` | Low
+29 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

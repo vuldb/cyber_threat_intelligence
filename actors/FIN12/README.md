@@ -53,18 +53,19 @@ ID | Type | Indicator | Confidence
 6 | File | `/modules/projects/vw_files.php` | High
 7 | File | `/modules/public/calendar.php` | High
 8 | File | `/ofrs/admin/?page=requests/view_request` | High
-9 | File | `/services/details.asp` | High
-10 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-11 | File | `/user/dls_download.php` | High
-12 | File | `/_core/profile/` | High
-13 | File | `adclick.php` | Medium
-14 | File | `additem.asp` | Medium
-15 | File | `addsite.php` | Medium
-16 | File | `admin/review.php` | High
-17 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
-18 | ... | ... | ...
+9 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
+10 | File | `/services/details.asp` | High
+11 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+12 | File | `/user/dls_download.php` | High
+13 | File | `/_core/profile/` | High
+14 | File | `adclick.php` | Medium
+15 | File | `additem.asp` | Medium
+16 | File | `addsite.php` | Medium
+17 | File | `admin/review.php` | High
+18 | File | `AdvancedBluetoothDetailsHeaderController.java` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,21 +10,21 @@ The following _campaigns_ are known and can be associated with MuddyWater:
 
 * BlackWater
 * Ligolo
-* Seedworm
+* Log4j
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MuddyWater:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [78.129.139.147](https://vuldb.com/?ip.78.129.139.147) | - | - | High
 15 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +56,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -71,57 +71,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/addQuestion.php` | High
-3 | File | `/adm/setmain.php` | High
-4 | File | `/admin` | Low
-5 | File | `/admin/` | Low
-6 | File | `/admin/add_exercises.php` | High
-7 | File | `/admin/add_trainers.php` | High
-8 | File | `/admin/cms.php` | High
-9 | File | `/admin/conferences/get-all-status/` | High
-10 | File | `/admin/conferences/list/` | High
-11 | File | `/admin/countrymanagement.php` | High
-12 | File | `/admin/edit.php` | High
-13 | File | `/admin/edit_admin_details.php?id=admin` | High
-14 | File | `/admin/featured.php` | High
-15 | File | `/admin/general.cgi` | High
-16 | File | `/admin/general/change-lang` | High
-17 | File | `/admin/googleads.php` | High
-18 | File | `/admin/group/list/` | High
-19 | File | `/admin/lab.php` | High
-20 | File | `/admin/newsletter1.php` | High
-21 | File | `/admin/photo.php` | High
-22 | File | `/admin/renewaldue.php` | High
-23 | File | `/admin/scheprofile.cgi` | High
-24 | File | `/admin/searchview.php` | High
-25 | File | `/admin/service/stop/` | High
-26 | File | `/admin/students/view_student.php` | High
-27 | File | `/admin/usermanagement.php` | High
-28 | File | `/api/` | Low
-29 | File | `/api/user/userData?userCode=admin` | High
-30 | File | `/artist-display.php` | High
-31 | File | `/catcompany.php` | High
-32 | File | `/category.php` | High
-33 | File | `/cgi-bin/ExportAllSettings.sh` | High
-34 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-35 | File | `/cgi-bin/nightled.cgi` | High
-36 | File | `/cgi-bin/touchlist_sync.cgi` | High
-37 | File | `/ci_hms/massage_room/edit/1` | High
-38 | File | `/ci_hms/search` | High
-39 | File | `/ci_spms/admin/category` | High
-40 | File | `/ci_spms/admin/search/searching/` | High
-41 | File | `/claire_blake` | High
-42 | File | `/config/getuser` | High
-43 | File | `/dashboard/add-portfolio.php` | High
-44 | File | `/dashboard/add-service.php` | High
-45 | File | `/dashboard/settings` | High
-46 | File | `/dashboard/updatelogo.php` | High
-47 | File | `/ecrire` | Low
-48 | File | `/editbrand.php` | High
-49 | ... | ... | ...
+1 | File | `/addQuestion.php` | High
+2 | File | `/admin/add_exercises.php` | High
+3 | File | `/admin/add_trainers.php` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/api/` | Low
+8 | File | `/api/v1/user` | Medium
+9 | File | `/bd_genie_create_account.cgi` | High
+10 | File | `/bin/boa` | Medium
+11 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+12 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+13 | File | `/cgi-bin/DownloadFlash` | High
+14 | File | `/claire_blake` | High
+15 | File | `/dashboard/add-portfolio.php` | High
+16 | File | `/dashboard/add-service.php` | High
+17 | File | `/dashboard/settings` | High
+18 | File | `/dashboard/updatelogo.php` | High
+19 | File | `/edituser.php` | High
+20 | File | `/etc/networkd-dispatcher` | High
+21 | File | `/etc/shadow.sample` | High
+22 | File | `/fw.login.php` | High
+23 | File | `/gasmark/assets/myimages/oneWord.php` | High
+24 | File | `/git-prereceive-callback` | High
+25 | File | `/goform/addRouting` | High
+26 | File | `/goform/Diagnosis` | High
+27 | File | `/goform/form2userconfig.cgi` | High
+28 | File | `/goform/NTPSyncWithHost` | High
+29 | File | `/goform/saveParentControlInfo` | High
+30 | File | `/goform/SetIpMacBind` | High
+31 | File | `/goform/SetLEDCfg` | High
+32 | File | `/goform/setMAC` | High
+33 | File | `/goform/setMacFilterCfg` | High
+34 | File | `/goform/SetStaticRouteCfg` | High
+35 | File | `/goform/SetVirtualServerCfg` | High
+36 | File | `/goform/SystemCommand` | High
+37 | File | `/goform/wizard_end` | High
+38 | File | `/htmldoc/htmldoc/html.cxx` | High
+39 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,6 +128,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-055a
 * https://www.clearskysec.com/wp-content/uploads/2019/06/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
 * https://www.mandiant.com/resources/telegram-malware-iranian-espionage
+* https://www.microsoft.com/security/blog/2022/08/25/mercury-leveraging-log4j-2-vulnerabilities-in-unpatched-systems-to-target-israeli-organizations/
 * https://www.threatminer.org/_reports/2019/TheMuddyWatersofAPTAttacks-CheckPointResearch.pdf#viewer.action=download
 
 ## Literature

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LinuxMoose:
 
 * [ES](https://vuldb.com/?country.es)
-* [NL](https://vuldb.com/?country.nl)
 * [CN](https://vuldb.com/?country.cn)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,35 +59,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/app/options.py` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/bsms/?page=manage_account` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
+2 | File | `/ad_js.php` | Medium
+3 | File | `/Ap4RtpAtom.cpp` | High
+4 | File | `/app/options.py` | High
+5 | File | `/bcms/admin/?page=user/list` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/ci_hms/massage_room/edit/1` | High
 9 | File | `/core/conditions/AbstractWrapper.java` | High
 10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/hosts` | Medium
-13 | File | `/file?action=download&file` | High
+11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
 14 | File | `/fuel/index.php/fuel/logs/items` | High
 15 | File | `/fuel/sitevariables/delete/4` | High
 16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
 17 | File | `/index/jobfairol/show/` | High
 18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/plugin/LiveChat/getChat.json.php` | High
-22 | File | `/proc/<PID>/mem` | High
-23 | File | `/public/plugins/` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/tmp` | Low
+19 | File | `/manage-apartment.php` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+22 | File | `/pages/apply_vacancy.php` | High
+23 | File | `/plugin/LiveChat/getChat.json.php` | High
+24 | File | `/proc/<PID>/mem` | High
+25 | File | `/recordings/index.php` | High
+26 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 27 | File | `/tmp/zarafa-vacation-*` | High
-28 | ... | ... | ...
+28 | File | `/uncpath/` | Medium
+29 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
