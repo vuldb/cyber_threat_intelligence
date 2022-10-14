@@ -50,32 +50,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
-3 | File | `/cgi-bin/nobody` | High
-4 | File | `/cgi-bin/nobody/Search.cgi` | High
-5 | File | `/edit-db.php` | Medium
-6 | File | `/etc/passwd` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/get_getnetworkconf.cgi` | High
-9 | File | `/horde/util/go.php` | High
-10 | File | `/mobile_seal/get_seal.php` | High
-11 | File | `/new` | Low
-12 | File | `/nova/bin/detnet` | High
-13 | File | `/show_news.php` | High
-14 | File | `/tmp` | Low
-15 | File | `/uncpath/` | Medium
-16 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-17 | File | `/vicidial/AST_agent_time_sheet.php` | High
-18 | File | `/ViewUserHover.jspa` | High
-19 | File | `AccountStatus.jsp` | High
-20 | File | `adclick.php` | Medium
-21 | File | `add.php` | Low
-22 | File | `admin/systemOutOfBand.do` | High
-23 | File | `app/application.cpp` | High
-24 | File | `auth-gss2.c` | Medium
-25 | File | `authent.php4` | Medium
-26 | ... | ... | ...
+3 | File | `/admin/login.php` | High
+4 | File | `/cgi-bin/nobody` | High
+5 | File | `/cgi-bin/nobody/Search.cgi` | High
+6 | File | `/edit-db.php` | Medium
+7 | File | `/etc/passwd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/get_getnetworkconf.cgi` | High
+10 | File | `/horde/util/go.php` | High
+11 | File | `/mobile_seal/get_seal.php` | High
+12 | File | `/new` | Low
+13 | File | `/nova/bin/detnet` | High
+14 | File | `/show_news.php` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+18 | File | `/vicidial/AST_agent_time_sheet.php` | High
+19 | File | `/ViewUserHover.jspa` | High
+20 | File | `AccountStatus.jsp` | High
+21 | File | `adclick.php` | Medium
+22 | File | `add.php` | Low
+23 | File | `admin.color.php` | High
+24 | File | `admin.joomlaradiov5.php` | High
+25 | File | `admin/systemOutOfBand.do` | High
+26 | File | `allopass-error.php` | High
+27 | File | `app/application.cpp` | High
+28 | File | `ashnews.php/ashheadlines.php` | High
+29 | File | `auth-gss2.c` | Medium
+30 | File | `authent.php4` | Medium
+31 | File | `base_maintenance.php` | High
+32 | File | `BBStore.php` | Medium
+33 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

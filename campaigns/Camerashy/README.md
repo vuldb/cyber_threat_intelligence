@@ -38,11 +38,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -53,59 +53,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addQuestion.php` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/add_exercises.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/lab.php` | High
-7 | File | `/admin/students/view_student.php` | High
-8 | File | `/api/` | Low
-9 | File | `/bd_genie_create_account.cgi` | High
-10 | File | `/categories/view_category.php` | High
-11 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-12 | File | `/cgi-bin/nightled.cgi` | High
-13 | File | `/cgi-bin/touchlist_sync.cgi` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/ci_hms/search` | High
-16 | File | `/ci_spms/admin/category` | High
-17 | File | `/ci_spms/admin/search/searching/` | High
-18 | File | `/ci_ssms/index.php/orders/create` | High
-19 | File | `/claire_blake` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/dashboard/add-blog.php` | High
-22 | File | `/dashboard/add-portfolio.php` | High
-23 | File | `/dashboard/add-service.php` | High
-24 | File | `/dashboard/contact` | High
-25 | File | `/dashboard/settings` | High
-26 | File | `/dashboard/updatelogo.php` | High
-27 | File | `/editbrand.php` | High
-28 | File | `/edituser.php` | High
-29 | File | `/etc/shadow.sample` | High
-30 | File | `/fax/fax_send.php` | High
-31 | File | `/framework/mod/db/DBMapper.xml` | High
-32 | File | `/gasmark/assets/myimages/oneWord.php` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/goform/form2userconfig.cgi` | High
-35 | File | `/goform/setAutoPing` | High
-36 | File | `/guestmanagement/front.php` | High
-37 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-38 | File | `/htmldoc/htmldoc/html.cxx` | High
-39 | File | `/include/menu_v.inc.php` | High
-40 | File | `/includes/utils.php` | High
-41 | File | `/index.php` | Medium
-42 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-43 | File | `/items/manage_item.php` | High
-44 | File | `/login.php` | Medium
-45 | File | `/loginVaLidation.php` | High
-46 | File | `/manage-apartment.php` | High
-47 | File | `/management/api/rcx_management/global_config_query` | High
-48 | File | `/mdiy/page/verify` | High
-49 | File | `/mkshop/Men/profile.php` | High
-50 | File | `/mkshope/login.php` | High
-51 | ... | ... | ...
+1 | File | `.dbshell` | Medium
+2 | File | `/addQuestion.php` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/add_exercises.php` | High
+5 | File | `/admin/add_trainers.php` | High
+6 | File | `/admin/budget.php` | High
+7 | File | `/admin/contact/list` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/students/view_student.php` | High
+10 | File | `/baseOpLog.do` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/bits/stl_vector.h` | High
+13 | File | `/categories/view_category.php` | High
+14 | File | `/claire_blake` | High
+15 | File | `/classes/Master.php?f=delete_category` | High
+16 | File | `/dashboard/add-blog.php` | High
+17 | File | `/dashboard/add-portfolio.php` | High
+18 | File | `/dashboard/add-service.php` | High
+19 | File | `/dashboard/contact` | High
+20 | File | `/dashboard/settings` | High
+21 | File | `/dashboard/updatelogo.php` | High
+22 | File | `/employees/manage_leave_type.php` | High
+23 | File | `/etc/shadow.sample` | High
+24 | File | `/fax/fax_send.php` | High
+25 | File | `/framework/mod/db/DBMapper.xml` | High
+26 | File | `/gasmark/assets/myimages/oneWord.php` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/form2userconfig.cgi` | High
+29 | File | `/goform/NatStaticSetting` | High
+30 | File | `/goform/setAutoPing` | High
+31 | File | `/goform/wifiSSIDget` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/guestmanagement/front.php` | High
+34 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+35 | File | `/htmldoc/htmldoc/html.cxx` | High
+36 | File | `/index.php` | Medium
+37 | File | `/items/manage_item.php` | High
+38 | File | `/kfm/index.php` | High
+39 | ... | ... | ...
 
-There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

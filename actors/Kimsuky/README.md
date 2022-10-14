@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [27.102.114.79](https://vuldb.com/?ip.27.102.114.79) | - | - | High
 8 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,13 +79,14 @@ ID | Type | Indicator | Confidence
 18 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
 19 | File | `/SASWebReportStudio/logonAndRender.do` | High
 20 | File | `/scas/admin/` | Medium
-21 | File | `/tlogin.cgi` | Medium
-22 | File | `/tmp/scfgdndf` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | ... | ... | ...
+21 | File | `/static/ueditor/php/controller.php` | High
+22 | File | `/tlogin.cgi` | Medium
+23 | File | `/tmp/scfgdndf` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload` | Low
+26 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -93,6 +94,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://asec.ahnlab.com/en/30532/
 * https://blog.alyac.co.kr/2234
+* https://blog.alyac.co.kr/4892
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/
 * https://community.blueliv.com/#!/s/5fa1234a82df413ea9349a07
 * https://twitter.com/shadowchasing1/status/1500778382966939653

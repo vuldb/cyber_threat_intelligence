@@ -76,30 +76,30 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin.php` | Medium
 3 | File | `/admin/book/create/` | High
-4 | File | `/admin/loginc.php` | High
-5 | File | `/auditLogAction.do` | High
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/devices/acurite.c` | High
-8 | File | `/etc/ajenti/config.yml` | High
-9 | File | `/example/editor` | High
-10 | File | `/getcfg.php` | Medium
-11 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-12 | File | `/goform/login_process` | High
-13 | File | `/goform/rlmswitchr_process` | High
-14 | File | `/goforms/rlminfo` | High
-15 | File | `/newsDia.php` | Medium
-16 | File | `/plugin` | Low
-17 | File | `/pms/index.php` | High
-18 | File | `/rating.php` | Medium
-19 | File | `/scas/admin/` | Medium
-20 | File | `/scas/classes/Users.php?f=save_user` | High
-21 | File | `/services/prefs.php` | High
-22 | File | `/src/njs_object.c` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/wordpress-gallery-transformation/gallery.php` | High
+4 | File | `/Admin/login.php` | High
+5 | File | `/admin/loginc.php` | High
+6 | File | `/auditLogAction.do` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/devices/acurite.c` | High
+9 | File | `/etc/ajenti/config.yml` | High
+10 | File | `/example/editor` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+13 | File | `/goform/login_process` | High
+14 | File | `/goform/rlmswitchr_process` | High
+15 | File | `/goforms/rlminfo` | High
+16 | File | `/newsDia.php` | Medium
+17 | File | `/plugin` | Low
+18 | File | `/pms/index.php` | High
+19 | File | `/rating.php` | Medium
+20 | File | `/scas/admin/` | Medium
+21 | File | `/scas/classes/Users.php?f=save_user` | High
+22 | File | `/services/prefs.php` | High
+23 | File | `/src/njs_object.c` | High
+24 | File | `/uncpath/` | Medium
 25 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

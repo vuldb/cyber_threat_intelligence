@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -325,14 +325,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -340,58 +341,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/addQuestion.php` | High
-3 | File | `/adm/setmain.php` | High
-4 | File | `/admin` | Low
-5 | File | `/admin/add_exercises.php` | High
-6 | File | `/admin/add_trainers.php` | High
-7 | File | `/admin/conferences/get-all-status/` | High
-8 | File | `/admin/conferences/list/` | High
-9 | File | `/admin/edit.php` | High
-10 | File | `/admin/edit_admin_details.php?id=admin` | High
-11 | File | `/admin/general.cgi` | High
-12 | File | `/admin/general/change-lang` | High
-13 | File | `/admin/group/list/` | High
-14 | File | `/admin/lab.php` | High
-15 | File | `/admin/newsletter1.php` | High
-16 | File | `/admin/scheprofile.cgi` | High
-17 | File | `/admin/searchview.php` | High
-18 | File | `/admin/service/stop/` | High
-19 | File | `/admin/students/view_student.php` | High
-20 | File | `/admin/usermanagement.php` | High
-21 | File | `/api/` | Low
-22 | File | `/api/user/userData?userCode=admin` | High
-23 | File | `/api/v1/user` | Medium
-24 | File | `/artist-display.php` | High
-25 | File | `/catcompany.php` | High
-26 | File | `/category.php` | High
-27 | File | `/cgi-bin/ExportAllSettings.sh` | High
-28 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-29 | File | `/cgi-bin/nightled.cgi` | High
-30 | File | `/cgi-bin/touchlist_sync.cgi` | High
-31 | File | `/ci_hms/massage_room/edit/1` | High
-32 | File | `/ci_hms/search` | High
-33 | File | `/ci_spms/admin/category` | High
-34 | File | `/ci_spms/admin/search/searching/` | High
-35 | File | `/claire_blake` | High
-36 | File | `/config/getuser` | High
-37 | File | `/dashboard/add-portfolio.php` | High
-38 | File | `/dashboard/add-service.php` | High
-39 | File | `/dashboard/settings` | High
-40 | File | `/dashboard/updatelogo.php` | High
-41 | File | `/ecrire` | Low
-42 | File | `/editbrand.php` | High
-43 | File | `/edituser.php` | High
-44 | File | `/etc/networkd-dispatcher` | High
-45 | File | `/etc/shadow` | Medium
-46 | File | `/etc/shadow.sample` | High
-47 | File | `/film-rating.php` | High
-48 | File | `/front/roomtype-details.php` | High
-49 | File | `/fw.login.php` | High
-50 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates` | High
+2 | File | `/admin/add_exercises.php` | High
+3 | File | `/admin/add_trainers.php` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/settings/fields` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/api/v1/chat.getThreadsList` | High
+8 | File | `/api/v1/user` | Medium
+9 | File | `/bd_genie_create_account.cgi` | High
+10 | File | `/bin/boa` | Medium
+11 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+12 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+13 | File | `/cgi-bin/DownloadFlash` | High
+14 | File | `/claire_blake` | High
+15 | File | `/cnr` | Low
+16 | File | `/dashboard/add-portfolio.php` | High
+17 | File | `/dashboard/add-service.php` | High
+18 | File | `/dashboard/settings` | High
+19 | File | `/dashboard/updatelogo.php` | High
+20 | File | `/ebics-server/ebics.aspx` | High
+21 | File | `/etc/networkd-dispatcher` | High
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/etc/version` | Medium
+24 | File | `/fw.login.php` | High
+25 | File | `/gasmark/assets/myimages/oneWord.php` | High
+26 | File | `/git-prereceive-callback` | High
+27 | File | `/goform/addRouting` | High
+28 | File | `/goform/Diagnosis` | High
+29 | File | `/goform/expandDlnaFile` | High
+30 | File | `/goform/fast_setting_wifi_set` | High
+31 | File | `/goform/form2userconfig.cgi` | High
+32 | File | `/goform/NatStaticSetting` | High
+33 | File | `/goform/NTPSyncWithHost` | High
+34 | File | `/goform/openSchedWifi/` | High
+35 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

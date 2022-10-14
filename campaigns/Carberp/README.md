@@ -66,33 +66,33 @@ ID | Type | Indicator | Confidence
 13 | File | `/SimpleBusTicket/index.php` | High
 14 | File | `/uncpath/` | Medium
 15 | File | `/usr/bin/pkexec` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-18 | File | `addpost_newpoll.php` | High
-19 | File | `adm-index.php` | High
-20 | File | `Admin.PHP` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin/index.php` | High
-23 | File | `admin/ops/reports/ops/forum.php` | High
-24 | File | `admincp/attachment.php` | High
-25 | File | `adminedit.pl` | Medium
-26 | File | `ajax/api/hook/getHookList` | High
-27 | File | `archive/index.php` | High
-28 | File | `backend/groups/index.php` | High
-29 | File | `bbs/member_confirm.php` | High
-30 | File | `bottom.php` | Medium
-31 | File | `breadcrumbs_create.php` | High
-32 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-33 | File | `cds-fpdf.php` | Medium
-34 | File | `controllers/member/Api.php` | High
-35 | File | `cp.php` | Low
-36 | File | `dashboard_teacher.php` | High
-37 | File | `demo.php` | Medium
-38 | File | `dev.c` | Low
-39 | File | `email.php` | Medium
+16 | File | `/var/run/docker.sock` | High
+17 | File | `/wp-admin/admin-ajax.php` | High
+18 | File | `/xpdf/Stream.cc` | High
+19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+20 | File | `addpost_newpoll.php` | High
+21 | File | `adm-index.php` | High
+22 | File | `Admin.PHP` | Medium
+23 | File | `admin.php` | Medium
+24 | File | `admin/index.php` | High
+25 | File | `admin/ops/reports/ops/forum.php` | High
+26 | File | `admincp/attachment.php` | High
+27 | File | `adminedit.pl` | Medium
+28 | File | `ajax/api/hook/getHookList` | High
+29 | File | `archive/index.php` | High
+30 | File | `backend/groups/index.php` | High
+31 | File | `bbs/member_confirm.php` | High
+32 | File | `bottom.php` | Medium
+33 | File | `breadcrumbs_create.php` | High
+34 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+35 | File | `cds-fpdf.php` | Medium
+36 | File | `controllers/member/Api.php` | High
+37 | File | `cp.php` | Low
+38 | File | `dashboard_teacher.php` | High
+39 | File | `demo.php` | Medium
 40 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

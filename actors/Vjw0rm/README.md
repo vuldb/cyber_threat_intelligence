@@ -4,6 +4,14 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.vjw0rm](https://vuldb.com/?actor.vjw0rm)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Vjw0rm:
+
+* [US](https://vuldb.com/?country.us)
+* [IT](https://vuldb.com/?country.it)
+* [FR](https://vuldb.com/?country.fr)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Vjw0rm.
@@ -11,12 +19,46 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [40.121.49.138](https://vuldb.com/?ip.40.121.49.138) | - | - | High
+2 | [45.137.116.156](https://vuldb.com/?ip.45.137.116.156) | vps-zap937104-1.zap-srv.com | - | High
+3 | [91.193.75.133](https://vuldb.com/?ip.91.193.75.133) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Vjw0rm_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-21 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1202 | CWE-78 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Vjw0rm. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/uncpath/` | Medium
+2 | File | `admin/login.asp` | High
+3 | File | `getfile.php` | Medium
+4 | ... | ... | ...
+
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-09-21%20Vjw0rm%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-08%20Vjw0rm%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-21%20Vjw0rm%20IOCs
+* https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-26%20vjw0rm%20IOCs
 
 ## Literature
 

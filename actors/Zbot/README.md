@@ -88,7 +88,7 @@ ID | IP address | Hostname | Campaign | Confidence
 65 | [62.76.188.38](https://vuldb.com/?ip.62.76.188.38) | 62-76-188-38.vm.clodoserver.ru | - | High
 66 | ... | ... | ... | ...
 
-There are 259 more IOC items available. Please use our online service to access the data.
+There are 262 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -130,7 +130,7 @@ ID | Type | Indicator | Confidence
 18 | File | `admin.php` | Medium
 19 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -169,6 +169,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0422-0429.html
+* https://blog.talosintelligence.com/2022/10/threat-roundup-0930-1007.html
 
 ## Literature
 

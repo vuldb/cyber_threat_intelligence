@@ -15,6 +15,11 @@ The following _campaigns_ are known and can be associated with 8220 Gang:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with 8220 Gang:
 
 * [US](https://vuldb.com/?country.us)
+* [SE](https://vuldb.com/?country.se)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,10 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [51.79.175.139](https://vuldb.com/?ip.51.79.175.139) | vps-dc8b0481.vps.ovh.ca | CVE-2022-26134 | High
 2 | [51.255.171.23](https://vuldb.com/?ip.51.255.171.23) | vps-fc1a1567.vps.ovh.net | CVE-2022-26134 | High
-3 | [146.59.198.38](https://vuldb.com/?ip.146.59.198.38) | vps-19ede15a.vps.ovh.net | CVE-2022-26134 | High
+3 | [89.34.27.167](https://vuldb.com/?ip.89.34.27.167) | core.afadashop.com | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +40,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,18 +54,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `GatewaySettings.bin` | High
-3 | File | `import.php` | Medium
-4 | ... | ... | ...
+1 | File | `/cgi-bin/web_index.cgi?lang=en&src=AwSystem.html&ertqVvnKV4TjU9Vt` | High
+2 | File | `/control/stream` | High
+3 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+4 | File | `/product_list.php` | High
+5 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+6 | File | `/tmp` | Low
+7 | File | `/ucms/chk.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+10 | File | `add-category.php` | High
+11 | File | `admin/content/postcategory` | High
+12 | File | `AdminByRequest.exe` | High
+13 | File | `announcements.php` | High
+14 | File | `app/View/Users/statistics_orgs.ctp` | High
+15 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/503/8220-botnet-iocs/
+* https://asec.ahnlab.com/en/36820/
 * https://blog.checkpoint.com/2022/06/09/crypto-miners-leveraging-atlassian-zero-day-vulnerability/
 
 ## Literature

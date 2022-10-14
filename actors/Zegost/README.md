@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,9 +102,12 @@ ID | Type | Indicator | Confidence
 26 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
 27 | File | `/Items/*/RemoteImages/Download` | High
 28 | File | `/mkshop/Men/profile.php` | High
-29 | ... | ... | ...
+29 | File | `/mngset/authset` | High
+30 | File | `/mobile/downloadfile.aspx` | High
+31 | File | `/ocwbs/admin/?page=user/manage_user` | High
+32 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

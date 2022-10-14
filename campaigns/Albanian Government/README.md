@@ -55,15 +55,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php` | Medium
-2 | File | `/wp-admin/admin-ajax.php` | High
-3 | File | `announcement.php` | High
-4 | File | `attachment.php` | High
-5 | File | `auth-gss2.c` | Medium
-6 | File | `catalog.asp` | Medium
+1 | File | `/forum/away.php` | High
+2 | File | `/index.php` | Medium
+3 | File | `/wp-admin/admin-ajax.php` | High
+4 | File | `announcement.php` | High
+5 | File | `attachment.php` | High
+6 | File | `auth-gss2.c` | Medium
 7 | ... | ... | ...
 
-There are 49 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

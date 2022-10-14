@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
-* [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
-* [AR](https://vuldb.com/?country.ar)
+* [SV](https://vuldb.com/?country.sv)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,58 +50,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/inc/include.php` | High
-2 | File | `/api/v1/user` | Medium
-3 | File | `/app/options.py` | High
+1 | File | `/admin/?page=user/manage_user` | High
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/api/v1/user` | Medium
 4 | File | `/blogengine/api/posts` | High
 5 | File | `/categories/view_category.php` | High
-6 | File | `/ci_spms/admin/search/searching/` | High
-7 | File | `/classes/Master.php?f=delete_category` | High
-8 | File | `/classes/Master.php?f=delete_stockin` | High
-9 | File | `/classes/Master.php?f=delete_student` | High
+6 | File | `/classes/Master.php?f=delete_category` | High
+7 | File | `/classes/Master.php?f=delete_stockin` | High
+8 | File | `/classes/Master.php?f=delete_student` | High
+9 | File | `/client.php` | Medium
 10 | File | `/conf/users` | Medium
-11 | File | `/domains/index.fts` | High
-12 | File | `/etc/shadow.sample` | High
-13 | File | `/garage/editcategory.php` | High
-14 | File | `/guestmanagement/front.php` | High
-15 | File | `/Home/debit_credit_p` | High
-16 | File | `/htdocs/upnpinc/gena.php` | High
-17 | File | `/include/comm_post.inc.php` | High
-18 | File | `/include/header_admin.inc.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/interview/delete.php?action=questiondelete` | High
-21 | File | `/interview/editQuestion.php` | High
-22 | File | `/ip/admin/` | Medium
-23 | File | `/login.php` | Medium
-24 | File | `/management/api/rcx_management/global_config_query` | High
-25 | File | `/master/index.php` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/modules/tasks/gantt.php` | High
+11 | File | `/csms/admin/storages/view_storage.php` | High
+12 | File | `/cstecgi.cgi` | Medium
+13 | File | `/etc/shadow` | Medium
+14 | File | `/export` | Low
+15 | File | `/garage/editcategory.php` | High
+16 | File | `/goform/delIpMacBind/` | High
+17 | File | `/guestmanagement/front.php` | High
+18 | File | `/Home/debit_credit_p` | High
+19 | File | `/htdocs/upnpinc/gena.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/interview/delete.php?action=deletecand` | High
+22 | File | `/interview/delete.php?action=questiondelete` | High
+23 | File | `/interview/editQuestion.php` | High
+24 | File | `/ip/admin/` | Medium
+25 | File | `/login.php` | Medium
+26 | File | `/master/index.php` | High
+27 | File | `/mkshop/Men/profile.php` | High
 28 | File | `/multiarch/memset-vec-unaligned-erms.S` | High
-29 | File | `/oa/setup/checkPool?database` | High
-30 | File | `/obs/book.php` | High
-31 | File | `/officials/officials.php` | High
-32 | File | `/pages/faculty_sched.php` | High
-33 | File | `/pages/processlogin.php` | High
-34 | File | `/patient/settings.php` | High
-35 | File | `/php_action/createUser.php` | High
-36 | File | `/pms/index.php` | High
-37 | File | `/psrs/classes/Master.php?f=delete_product` | High
-38 | File | `/readers/swf.c` | High
-39 | File | `/registration.php` | High
-40 | File | `/release-x64/otfccdump` | High
-41 | File | `/schedules/manage_schedule.php` | High
-42 | File | `/services/v4/invoiceImg` | High
-43 | File | `/src/inffast.c` | High
-44 | File | `/staff/delete.php` | High
-45 | File | `/system/department/list` | High
-46 | File | `/templates/header.inc.php` | High
-47 | File | `/tmp/tardiff-$` | High
-48 | File | `/whbs/?page=contact_us` | High
-49 | File | `/xpdf/Lexer.cc` | High
-50 | ... | ... | ...
+29 | File | `/net-banking/manage_customers.php` | High
+30 | File | `/Noxen-master/users.php` | High
+31 | File | `/oa/setup/checkPool?database` | High
+32 | File | `/obs/book.php` | High
+33 | File | `/opt/axess/var/blobstorage/` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/pages/processlogin.php` | High
+36 | ... | ... | ...
 
-There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

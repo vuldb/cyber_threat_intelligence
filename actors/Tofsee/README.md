@@ -147,8 +147,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -159,38 +158,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/ad_js.php` | Medium
-3 | File | `/Ap4RtpAtom.cpp` | High
-4 | File | `/app/options.py` | High
-5 | File | `/bcms/admin/?page=user/list` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/ci_hms/massage_room/edit/1` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/hosts` | Medium
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/index/jobfairol/show/` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/manage-apartment.php` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-22 | File | `/pages/apply_vacancy.php` | High
-23 | File | `/proc/<PID>/mem` | High
-24 | File | `/proc/<pid>/status` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/ad_js.php` | Medium
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/pages/apply_vacancy.php` | High
+27 | File | `/pages/processlogin.php` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

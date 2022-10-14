@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoolWebSearch:
 
-* [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,7 +155,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -169,36 +169,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/app/options.py` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/bsms/?page=manage_account` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/luci/api/diagnose` | High
-9 | File | `/ci_hms/massage_room/edit/1` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/etc/config/image_sign` | High
-13 | File | `/etc/groups` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/index/jobfairol/show/` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-25 | File | `/php/passport/index.php` | High
-26 | File | `/proc/<PID>/mem` | High
-27 | File | `/servlet/AdapterHTTP` | High
-28 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/administration/settings_registration.php` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/app/options.py` | High
+5 | File | `/appConfig/userDB.json` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/c/macho_reader.c` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/claire_blake` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/defaultui/player/modern.html` | High
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/init0.d/S80telnetd.sh` | High
+19 | File | `/etc/shadow.sample` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goform/SetIpMacBind` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+25 | File | `/htdocs/utils/Files.php` | High
+26 | File | `/index/jobfairol/show/` | High
+27 | File | `/jfinal_cms/system/role/list` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/librarian/edit_book_details.php` | High
+30 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+31 | File | `/manage-apartment.php` | High
+32 | File | `/master/index.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

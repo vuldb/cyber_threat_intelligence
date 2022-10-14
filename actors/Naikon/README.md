@@ -63,39 +63,41 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/budget.php` | High
 6 | File | `/admin/contact/list` | High
 7 | File | `/admin/edit.php` | High
-8 | File | `/admin/students/view_student.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/bd_genie_create_account.cgi` | High
-11 | File | `/bits/stl_vector.h` | High
-12 | File | `/categories/view_category.php` | High
-13 | File | `/category_view.php` | High
-14 | File | `/cgi-bin/editBookmark` | High
-15 | File | `/claire_blake` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/dashboard/add-portfolio.php` | High
-18 | File | `/dashboard/add-service.php` | High
-19 | File | `/dashboard/contact` | High
-20 | File | `/dashboard/updatelogo.php` | High
-21 | File | `/employees/manage_leave_type.php` | High
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/etc/srapi/config/system.conf` | High
-24 | File | `/fax/fax_send.php` | High
-25 | File | `/framework/mod/db/DBMapper.xml` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/form2userconfig.cgi` | High
-28 | File | `/goform/formWifiBasicSet` | High
-29 | File | `/goform/NatStaticSetting` | High
-30 | File | `/goform/wifiSSIDget` | High
-31 | File | `/goform/wifiSSIDset` | High
-32 | File | `/guestmanagement/front.php` | High
-33 | File | `/Home/debit_credit_p` | High
-34 | File | `/htdocs/utils/Files.php` | High
-35 | File | `/htmldoc/htmldoc/html.cxx` | High
-36 | File | `/include/makecvs.php` | High
-37 | File | `/index.php` | Medium
-38 | ... | ... | ...
+8 | File | `/admin/sql` | Medium
+9 | File | `/admin/students/view_student.php` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/baseOpLog.do` | High
+12 | File | `/bd_genie_create_account.cgi` | High
+13 | File | `/bits/stl_vector.h` | High
+14 | File | `/categories/view_category.php` | High
+15 | File | `/category_view.php` | High
+16 | File | `/cgi-bin/editBookmark` | High
+17 | File | `/claire_blake` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/dashboard/add-portfolio.php` | High
+20 | File | `/dashboard/add-service.php` | High
+21 | File | `/dashboard/contact` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/employees/manage_leave_type.php` | High
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/etc/srapi/config/system.conf` | High
+26 | File | `/fax/fax_send.php` | High
+27 | File | `/framework/mod/db/DBMapper.xml` | High
+28 | File | `/goform/form2userconfig.cgi` | High
+29 | File | `/goform/formWifiBasicSet` | High
+30 | File | `/goform/NatStaticSetting` | High
+31 | File | `/goform/wifiSSIDget` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/guestmanagement/front.php` | High
+34 | File | `/Home/debit_credit_p` | High
+35 | File | `/htdocs/utils/Files.php` | High
+36 | File | `/htmldoc/htmldoc/html.cxx` | High
+37 | File | `/include/makecvs.php` | High
+38 | File | `/items/manage_item.php` | High
+39 | File | `/kfm/index.php` | High
+40 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

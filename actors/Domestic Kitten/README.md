@@ -53,33 +53,32 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin.php` | Medium
 4 | File | `/appliance/users?action=edit` | High
 5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/file?action=download&file` | High
-7 | File | `/hub/api/user` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/plugin/LiveChat/getChat.json.php` | High
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/replication` | Medium
-14 | File | `/RestAPI` | Medium
-15 | File | `/tmp/speedtest_urls.xml` | High
-16 | File | `/tmp/zarafa-vacation-*` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `/var/log/nginx` | High
-20 | File | `/var/run/watchman.pid` | High
-21 | File | `/viewer/krpano.html` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/wp-json/oembed/1.0/embed?url` | High
-24 | File | `account.asp` | Medium
+6 | File | `/export` | Low
+7 | File | `/file?action=download&file` | High
+8 | File | `/hub/api/user` | High
+9 | File | `/medical/inventories.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/plugin/LiveChat/getChat.json.php` | High
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/replication` | Medium
+15 | File | `/RestAPI` | Medium
+16 | File | `/tmp/speedtest_urls.xml` | High
+17 | File | `/tmp/zarafa-vacation-*` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/var/log/nginx` | High
+21 | File | `/var/run/watchman.pid` | High
+22 | File | `/viewer/krpano.html` | High
+23 | File | `/WEB-INF/web.xml` | High
+24 | File | `/wp-json/oembed/1.0/embed?url` | High
 25 | File | `addentry.php` | Medium
 26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 27 | File | `admins.js` | Medium
 28 | File | `admin\model\catalog\download.php` | High
-29 | File | `AdxDSrv.exe` | Medium
-30 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

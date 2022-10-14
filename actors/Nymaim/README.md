@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nymaim:
 
 * [US](https://vuldb.com/?country.us)
-* [SI](https://vuldb.com/?country.si)
 * [BG](https://vuldb.com/?country.bg)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,7 +75,7 @@ ID | Type | Indicator | Confidence
 19 | File | `/uncpath/` | Medium
 20 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -73,18 +73,18 @@ ID | Type | Indicator | Confidence
 8 | File | `/redpass.cgi` | Medium
 9 | File | `/see_more_details.php` | High
 10 | File | `/server-status` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/var/log/nginx` | High
-13 | File | `/WebMstr7/servlet/mstrWeb` | High
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-16 | File | `adclick.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `Admin/ADM_Pagina.php` | High
-19 | File | `admin/conf_users_edit.php` | High
+11 | File | `/tour/admin/update_packages.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/var/log/nginx` | High
+14 | File | `/WebMstr7/servlet/mstrWeb` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+17 | File | `adclick.php` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `Admin/ADM_Pagina.php` | High
 20 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

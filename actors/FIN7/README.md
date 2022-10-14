@@ -82,7 +82,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
@@ -95,41 +95,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `//proc/kcore` | Medium
+1 | File | `/about.php` | Medium
+2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/conferences/list/` | High
 4 | File | `/admin/edit_admin_details.php?id=admin` | High
 5 | File | `/admin/generalsettings.php` | High
-6 | File | `/admin/payment.php` | High
-7 | File | `/admin/reports.php` | High
-8 | File | `/admin/showbad.php` | High
-9 | File | `/ad_js.php` | Medium
-10 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/reports.php` | High
+9 | File | `/admin/showbad.php` | High
+10 | File | `/ad_js.php` | Medium
 11 | File | `/app/options.py` | High
 12 | File | `/bsms/?page=manage_account` | High
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/ci_hms/massage_room/edit/1` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/index/jobfairol/show/` | High
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/lists/admin/` | High
-28 | File | `/MagickCore/image.c` | High
-29 | File | `/manage-apartment.php` | High
-30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-31 | File | `/out.php` | Medium
-32 | File | `/pages/apply_vacancy.php` | High
-33 | ... | ... | ...
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/hosts` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index/jobfairol/show/` | High
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/manage-apartment.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/out.php` | Medium
+31 | File | `/pages/apply_vacancy.php` | High
+32 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

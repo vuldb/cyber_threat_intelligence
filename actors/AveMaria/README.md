@@ -84,13 +84,14 @@ ID | Type | Indicator | Confidence
 33 | File | `/var/log/postgresql` | High
 34 | File | `/_vti_pvt/access.cnf` | High
 35 | File | `4.edu.php` | Medium
-36 | File | `add_ons.php` | Medium
-37 | File | `add_to_cart.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin_users.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/mod_users/controller.php?action=edit` | High
-42 | ... | ... | ...
+36 | File | `5.2.9\syscrb.exe` | High
+37 | File | `add_ons.php` | Medium
+38 | File | `add_to_cart.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/admin_users.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/mod_users/controller.php?action=edit` | High
+43 | ... | ... | ...
 
 There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

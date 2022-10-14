@@ -60,17 +60,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-2 | File | `/htdocs/admin/dict.php?id=3` | High
-3 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-4 | File | `/setSystemAdmin` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/usr/bin/pkexec` | High
-7 | File | `/webpages/data` | High
-8 | File | `/zm/index.php` | High
-9 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
+3 | File | `/htdocs/admin/dict.php?id=3` | High
+4 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+5 | File | `/setSystemAdmin` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/usr/bin/pkexec` | High
+8 | File | `/webpages/data` | High
+9 | File | `/zm/index.php` | High
+10 | ... | ... | ...
 
-There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

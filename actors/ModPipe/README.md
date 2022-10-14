@@ -49,49 +49,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/access` | High
-2 | File | `/admin/index.html` | High
-3 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-4 | File | `/admin/posts.php` | High
-5 | File | `/ci_ssms/index.php/orders/create` | High
-6 | File | `/fw.login.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/membres/modif_profil.php` | High
-9 | File | `/ordering/admin/category/index.php?view=edit` | High
-10 | File | `/pms/index.php` | High
-11 | File | `/pms/update_user.php?user_id=1` | High
-12 | File | `/SimpleBusTicket/index.php` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/updown/upload.cgi` | High
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-19 | File | `addpost_newpoll.php` | High
-20 | File | `adm-index.php` | High
-21 | File | `Admin.PHP` | Medium
-22 | File | `admin.php` | Medium
-23 | File | `admin/index.php` | High
-24 | File | `admin/ops/reports/ops/forum.php` | High
-25 | File | `admincp/attachment.php` | High
-26 | File | `adminedit.pl` | Medium
-27 | File | `ajax/api/hook/getHookList` | High
-28 | File | `archive/index.php` | High
-29 | File | `backend/groups/index.php` | High
-30 | File | `bbs/member_confirm.php` | High
-31 | File | `bottom.php` | Medium
-32 | File | `breadcrumbs_create.php` | High
-33 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-34 | File | `cds-fpdf.php` | Medium
-35 | File | `connector.php` | High
-36 | File | `controllers/member/Api.php` | High
-37 | File | `cp.php` | Low
-38 | File | `dashboard_teacher.php` | High
-39 | File | `data/gbconfiguration.dat` | High
-40 | File | `demo.php` | Medium
-41 | File | `dev.c` | Low
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/index.html` | High
+4 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+5 | File | `/admin/posts.php` | High
+6 | File | `/ci_ssms/index.php/orders/create` | High
+7 | File | `/fw.login.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/membres/modif_profil.php` | High
+10 | File | `/ordering/admin/category/index.php?view=edit` | High
+11 | File | `/pms/index.php` | High
+12 | File | `/pms/update_user.php?user_id=1` | High
+13 | File | `/SimpleBusTicket/index.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | File | `/updown/upload.cgi` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/wp-admin/admin-ajax.php` | High
+19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+20 | File | `addpost_newpoll.php` | High
+21 | File | `adm-index.php` | High
+22 | File | `Admin.PHP` | Medium
+23 | File | `admin.php` | Medium
+24 | File | `admin/index.php` | High
+25 | File | `admin/ops/reports/ops/forum.php` | High
+26 | File | `admincp/attachment.php` | High
+27 | File | `adminedit.pl` | Medium
+28 | File | `ajax/api/hook/getHookList` | High
+29 | File | `archive/index.php` | High
+30 | File | `backend/groups/index.php` | High
+31 | File | `bbs/member_confirm.php` | High
+32 | File | `bottom.php` | Medium
+33 | File | `breadcrumbs_create.php` | High
+34 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+35 | File | `cds-fpdf.php` | Medium
+36 | File | `connector.php` | High
+37 | File | `controllers/member/Api.php` | High
+38 | File | `cp.php` | Low
+39 | File | `dashboard_teacher.php` | High
+40 | File | `data/gbconfiguration.dat` | High
+41 | File | `demo.php` | Medium
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 * [CH](https://vuldb.com/?country.ch)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,15 +96,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-266, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,39 +112,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/addQuestion.php` | High
-3 | File | `/admin/?page=reports/stockin` | High
-4 | File | `/admin/list_key.html` | High
-5 | File | `/admin/products/controller.php?action=add` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/api/v1/user` | Medium
-9 | File | `/appConfig/userDB.json` | High
-10 | File | `/artist-display.php` | High
-11 | File | `/assets` | Low
-12 | File | `/bd_genie_create_account.cgi` | High
-13 | File | `/bits/stl_vector.h` | High
-14 | File | `/blog/edit` | Medium
-15 | File | `/blotter/blotter.php` | High
-16 | File | `/cgi-bin/DownloadFlash` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/claire_blake` | High
-19 | File | `/classes/Master.php?f=delete_category` | High
-20 | File | `/classes/Master.php?f=delete_payment` | High
-21 | File | `/classes/Master.php?f=delete_waste` | High
-22 | File | `/classes/Users.php?f=save_client` | High
-23 | File | `/client.php` | Medium
-24 | File | `/controller/OnlinePreviewController.java` | High
-25 | File | `/dashboard/add-service.php` | High
-26 | File | `/edituser.php` | High
-27 | File | `/etc/init0.d/S80telnetd.sh` | High
-28 | File | `/etc/shadow.sample` | High
-29 | File | `/fw.login.php` | High
-30 | File | `/goform/addRouting` | High
-31 | ... | ... | ...
+1 | File | `/admin/?page=reports/stockin` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/article/list` | High
+4 | File | `/admin/article/list_approve` | High
+5 | File | `/admin/budget.php` | High
+6 | File | `/admin/contact/list` | High
+7 | File | `/admin/foldernotice/list` | High
+8 | File | `/admin/folderrollpicture/list` | High
+9 | File | `/admin/imagealbum/list` | High
+10 | File | `/Admin/login.php` | High
+11 | File | `/admin/products/controller.php?action=add` | High
+12 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+13 | File | `/admin/settings/fields` | High
+14 | File | `/admin/site/list` | High
+15 | File | `/admin/update_currency.php` | High
+16 | File | `/admin/update_expense_category.php` | High
+17 | File | `/admin/videoalbum/list` | High
+18 | File | `/admin_book.php` | High
+19 | File | `/advanced-tools/nova/bin/netwatch` | High
+20 | File | `/api/v1/user` | Medium
+21 | File | `/appConfig/userDB.json` | High
+22 | File | `/authUserAction!edit.action` | High
+23 | File | `/baseOpLog.do` | High
+24 | File | `/bd_genie_create_account.cgi` | High
+25 | File | `/bin/httpd` | Medium
+26 | File | `/blog/edit` | Medium
+27 | File | `/buspassms/download-pass.php` | High
+28 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+29 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+30 | File | `/card/in-card.php` | High
+31 | File | `/category.php` | High
+32 | File | `/cgi-bin/cstecgi.cgi` | High
+33 | File | `/cgi-bin/DownloadFlash` | High
+34 | File | `/cgi-bin/wlogin.cgi` | High
+35 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

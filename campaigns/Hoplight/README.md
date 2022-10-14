@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -72,29 +72,27 @@ ID | Type | Indicator | Confidence
 10 | File | `/config/config.php` | High
 11 | File | `/context/%2e/WEB-INF/web.xml` | High
 12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/customers/index.php` | High
-14 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-15 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-16 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-17 | File | `/DataHandler/Handler_CFG.ashx` | High
-18 | File | `/ECT_Provider/` | High
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/index.php/fuel/pages/items` | High
-21 | File | `/goform/openSchedWifi` | High
-22 | File | `/goform/SetNetControlList` | High
-23 | File | `/image_zoom.php` | High
-24 | File | `/include/config.cache.php` | High
-25 | File | `/json/profile/removeStarAjax.do` | High
+13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+16 | File | `/DataHandler/Handler_CFG.ashx` | High
+17 | File | `/ECT_Provider/` | High
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/index.php/fuel/pages/items` | High
+20 | File | `/goform/openSchedWifi` | High
+21 | File | `/goform/SetNetControlList` | High
+22 | File | `/image_zoom.php` | High
+23 | File | `/include/config.cache.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/mkshop/Men/profile.php` | High
 26 | File | `/plugin/ajax.php` | High
-27 | File | `/plugins/servlet/branchreview` | High
-28 | File | `/proc/ioports` | High
-29 | File | `/proxy/` | Low
-30 | File | `/public/plugins/` | High
-31 | File | `/rest/api/2/search` | High
-32 | File | `/rest/api/latest/projectvalidate/key` | High
-33 | ... | ... | ...
+27 | File | `/proc/ioports` | High
+28 | File | `/proxy/` | Low
+29 | File | `/public/plugins/` | High
+30 | File | `/rest/api/2/search` | High
+31 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

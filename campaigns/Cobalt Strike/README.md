@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
+* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -40,43 +40,61 @@ ID | IP address | Hostname | Actor | Confidence
 4 | [5.199.173.152](https://vuldb.com/?ip.5.199.173.152) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 5 | [5.199.174.219](https://vuldb.com/?ip.5.199.174.219) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 6 | [5.252.177.199](https://vuldb.com/?ip.5.252.177.199) | 5-252-177-199.mivocloud.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-7 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-8 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-9 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-10 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-11 | [23.82.141.241](https://vuldb.com/?ip.23.82.141.241) | - | [TA551](https://vuldb.com/?actor.ta551) | High
-12 | [23.106.160.188](https://vuldb.com/?ip.23.106.160.188) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-13 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-14 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-15 | [23.160.193.55](https://vuldb.com/?ip.23.160.193.55) | unknown.ip-xfer.net | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-16 | [23.227.194.86](https://vuldb.com/?ip.23.227.194.86) | 23-227-194-86.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-17 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-18 | [23.229.36.43](https://vuldb.com/?ip.23.229.36.43) | bet5jn-day-43.bettertisholiday.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-19 | [23.236.174.190](https://vuldb.com/?ip.23.236.174.190) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-20 | [31.31.74.79](https://vuldb.com/?ip.31.31.74.79) | - | [APT29](https://vuldb.com/?actor.apt29) | High
-21 | [37.0.8.252](https://vuldb.com/?ip.37.0.8.252) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-22 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-23 | [39.104.90.45](https://vuldb.com/?ip.39.104.90.45) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-24 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
-25 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-26 | [45.58.124.98](https://vuldb.com/?ip.45.58.124.98) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
-27 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-28 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-29 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-30 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-31 | [45.153.243.142](https://vuldb.com/?ip.45.153.243.142) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-32 | [45.197.132.72](https://vuldb.com/?ip.45.197.132.72) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-33 | [46.165.254.166](https://vuldb.com/?ip.46.165.254.166) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-34 | [51.15.76.60](https://vuldb.com/?ip.51.15.76.60) | 60-76-15-51.instances.scw.cloud | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-35 | [51.68.91.152](https://vuldb.com/?ip.51.68.91.152) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-36 | [51.68.93.185](https://vuldb.com/?ip.51.68.93.185) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-37 | [51.81.13.141](https://vuldb.com/?ip.51.81.13.141) | ip141.ip-51-81-13.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-38 | [51.83.15.56](https://vuldb.com/?ip.51.83.15.56) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-39 | [52.18.235.51](https://vuldb.com/?ip.52.18.235.51) | ec2-52-18-235-51.eu-west-1.compute.amazonaws.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | Medium
-40 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-41 | ... | ... | ... | ...
+7 | [5.254.64.234](https://vuldb.com/?ip.5.254.64.234) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+8 | [5.254.112.226](https://vuldb.com/?ip.5.254.112.226) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+9 | [5.255.98.144](https://vuldb.com/?ip.5.255.98.144) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+10 | [14.229.140.66](https://vuldb.com/?ip.14.229.140.66) | static.vnpt.vn | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+11 | [23.19.227.147](https://vuldb.com/?ip.23.19.227.147) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+12 | [23.81.246.32](https://vuldb.com/?ip.23.81.246.32) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+13 | [23.81.246.187](https://vuldb.com/?ip.23.81.246.187) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+14 | [23.82.19.208](https://vuldb.com/?ip.23.82.19.208) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+15 | [23.82.140.91](https://vuldb.com/?ip.23.82.140.91) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+16 | [23.82.140.133](https://vuldb.com/?ip.23.82.140.133) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+17 | [23.82.141.184](https://vuldb.com/?ip.23.82.141.184) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+18 | [23.82.141.241](https://vuldb.com/?ip.23.82.141.241) | - | [TA551](https://vuldb.com/?actor.ta551) | High
+19 | [23.83.133.1](https://vuldb.com/?ip.23.83.133.1) | v327.er01.dal.ubiquity.io | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+20 | [23.83.133.182](https://vuldb.com/?ip.23.83.133.182) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+21 | [23.83.133.216](https://vuldb.com/?ip.23.83.133.216) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+22 | [23.83.134.110](https://vuldb.com/?ip.23.83.134.110) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+23 | [23.83.134.136](https://vuldb.com/?ip.23.83.134.136) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+24 | [23.106.160.39](https://vuldb.com/?ip.23.106.160.39) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+25 | [23.106.160.120](https://vuldb.com/?ip.23.106.160.120) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+26 | [23.106.160.188](https://vuldb.com/?ip.23.106.160.188) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+27 | [23.108.57.13](https://vuldb.com/?ip.23.108.57.13) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+28 | [23.108.57.39](https://vuldb.com/?ip.23.108.57.39) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+29 | [23.108.57.108](https://vuldb.com/?ip.23.108.57.108) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+30 | [23.160.193.55](https://vuldb.com/?ip.23.160.193.55) | unknown.ip-xfer.net | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+31 | [23.227.194.86](https://vuldb.com/?ip.23.227.194.86) | 23-227-194-86.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+32 | [23.227.198.217](https://vuldb.com/?ip.23.227.198.217) | 23-227-198-217.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+33 | [23.227.199.10](https://vuldb.com/?ip.23.227.199.10) | 23-227-199-10.static.hvvc.us | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+34 | [23.229.36.43](https://vuldb.com/?ip.23.229.36.43) | bet5jn-day-43.bettertisholiday.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+35 | [23.236.77.94](https://vuldb.com/?ip.23.236.77.94) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+36 | [23.236.174.190](https://vuldb.com/?ip.23.236.174.190) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+37 | [23.254.202.59](https://vuldb.com/?ip.23.254.202.59) | client-23-254-202-59.hostwindsdns.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+38 | [28.11.143.222](https://vuldb.com/?ip.28.11.143.222) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+39 | [31.31.74.79](https://vuldb.com/?ip.31.31.74.79) | - | [APT29](https://vuldb.com/?actor.apt29) | High
+40 | [37.0.8.252](https://vuldb.com/?ip.37.0.8.252) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+41 | [37.72.174.9](https://vuldb.com/?ip.37.72.174.9) | emailmail.org.uk | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+42 | [37.120.198.225](https://vuldb.com/?ip.37.120.198.225) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+43 | [39.104.90.45](https://vuldb.com/?ip.39.104.90.45) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+44 | [39.109.5.135](https://vuldb.com/?ip.39.109.5.135) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+45 | [43.154.175.230](https://vuldb.com/?ip.43.154.175.230) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+46 | [43.250.200.106](https://vuldb.com/?ip.43.250.200.106) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+47 | [43.250.201.71](https://vuldb.com/?ip.43.250.201.71) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+48 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
+49 | [45.9.248.74](https://vuldb.com/?ip.45.9.248.74) | te-4-3-177.pe2.man4.uk.m247.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+50 | [45.11.19.224](https://vuldb.com/?ip.45.11.19.224) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+51 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+52 | [45.58.124.98](https://vuldb.com/?ip.45.58.124.98) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
+53 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+54 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+55 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+56 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+57 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+58 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+59 | ... | ... | ... | ...
 
-There are 162 more IOC items available. Please use our online service to access the data.
+There are 233 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,14 +103,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,43 +118,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/addQuestion.php` | High
-2 | File | `/admin/?page=reports/waste` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/curltest.cgi` | High
-5 | File | `/admin/imagealbum/list` | High
-6 | File | `/admin/lab.php` | High
-7 | File | `/admin/modify.php` | High
-8 | File | `/admin/showbad.php` | High
-9 | File | `/admin/video/list` | High
-10 | File | `/admin/videoalbum/list` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/v1/user` | Medium
-13 | File | `/bd_genie_create_account.cgi` | High
-14 | File | `/card_scan.php` | High
-15 | File | `/categories/view_category.php` | High
-16 | File | `/category/controller.php?action=edit` | High
-17 | File | `/cgi-bin-sdb/ExportSettings.sh` | High
-18 | File | `/cgi-bin/ExportAllSettings.sh` | High
-19 | File | `/claire_blake` | High
-20 | File | `/classes/Master.php?f=delete_account` | High
-21 | File | `/classes/Master.php?f=delete_schedule` | High
-22 | File | `/coreframe/app/attachment/admin/index.php` | High
-23 | File | `/dashboard/add-service.php` | High
-24 | File | `/dashboard/settings` | High
-25 | File | `/edituser.php` | High
-26 | File | `/etc/shadow.sample` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/fw.login.php` | High
-29 | File | `/goform/aspForm` | High
-30 | File | `/goform/NTPSyncWithHost` | High
-31 | File | `/goform/saveParentControlInfo` | High
-32 | File | `/goform/SetLEDCfg` | High
-33 | File | `/goform/SetVirtualServerCfg` | High
-34 | File | `/index.php` | Medium
-35 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/article/list_approve` | High
+5 | File | `/admin/budget.php` | High
+6 | File | `/admin/client_assign.php` | High
+7 | File | `/admin/client_edit.php` | High
+8 | File | `/admin/conferences/list/` | High
+9 | File | `/admin/friendlylink/list` | High
+10 | File | `/admin/image/list` | High
+11 | File | `/admin/imagealbum/list` | High
+12 | File | `/admin/index.PHP` | High
+13 | File | `/Admin/login.php` | High
+14 | File | `/admin/select.php` | High
+15 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+16 | File | `/admin/settings.php` | High
+17 | File | `/admin/update_booking.php` | High
+18 | File | `/admin/update_currency.php` | High
+19 | File | `/admin/video/list` | High
+20 | File | `/admin/videoalbum/list` | High
+21 | File | `/advanced-tools/nova/bin/netwatch` | High
+22 | File | `/bd_genie_create_account.cgi` | High
+23 | File | `/bin/httpd` | Medium
+24 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+25 | File | `/categories/view_category.php` | High
+26 | File | `/category.php` | High
+27 | File | `/cgi-bin/cstecgi.cgi` | High
+28 | File | `/cgi-bin/kerbynet` | High
+29 | File | `/cgi-bin/qcmap_auth` | High
+30 | File | `/cgi-bin/wapopen` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/diagnostic/editcategory.php` | High
+33 | File | `/editbrand.php` | High
+34 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,7 +163,11 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://1275.ru/ioc/359/cobalt-strike-beacon-iocs-2/
 * https://asec.ahnlab.com/en/20130/
 * https://asec.ahnlab.com/en/27646/
+* https://asec.ahnlab.com/en/36159/
+* https://asec.ahnlab.com/en/39152/
 * https://blog.cyble.com/2022/05/20/malware-campaign-targets-infosec-community-threat-actor-uses-fake-proof-of-concept-to-deliver-cobalt-strike-beacon/
+* https://blog.fox-it.com/2021/01/12/abusing-cloud-services-to-fly-under-the-radar/
+* https://blog.fox-it.com/2022/04/29/adventures-in-the-land-of-bumblebee/
 * https://blog.malwarebytes.com/threat-intelligence/2022/07/cobalt-strikes-again-uac-0056-continues-to-target-ukraine-in-its-latest-campaign/
 * https://blog.morphisec.com/log4j-exploit-targets-vulnerable-unifi-network-applications
 * https://blog.talosintelligence.com/2020/06/indigodrop-maldocs-cobalt-strike.html
@@ -192,6 +213,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/forums/diary/June+2021+Forensic+Contest+Answers+and+Analysis/27582/
 * https://isc.sans.edu/forums/diary/Qakbot+infection+with+Cobalt+Strike+and+VNC+activity/28448/
 * https://isc.sans.edu/forums/diary/Qakbot+infection+with+Cobalt+Strike/27158/
+* https://raw.githubusercontent.com/Cisco-Talos/IOCs/main/2022/09/new-campaign-uses-government-union.txt
 * https://research.checkpoint.com/2019/cobalt-group-returns-to-kazakhstan/
 * https://research.nccgroup.com/2022/06/06/shining-the-light-on-black-basta/
 * https://securelist.com/owowa-credential-stealer-and-remote-access/105219/
@@ -219,6 +241,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-228a
 * https://www.malware-traffic-analysis.net/2022/06/07/index2.html
 * https://www.prodaft.com/resource/detail/ws-wizard-spider-group-depth-analysis
+* https://www.trendmicro.com/de_de/research/22/e/patch-your-wso2-cve-2022-29464-exploited-to-install-linux-compatible-cobalt-strike-beacons-other-malware.html
+* https://www.trendmicro.com/de_de/research/22/i/play-ransomware-s-attack-playbook-unmasks-it-as-another-hive-aff.html
 * https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
 
 ## Literature

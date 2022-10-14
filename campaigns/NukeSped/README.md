@@ -17,6 +17,7 @@ These _actors_ are associated with NukeSped or other actors linked to the campai
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [NukeSped](https://vuldb.com/?actor.nukesped) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +25,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [84.38.133.145](https://vuldb.com/?ip.84.38.133.145) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-3 | [185.29.8.18](https://vuldb.com/?ip.185.29.8.18) | ip-8-18.dataclub.info | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+1 | [84.38.133.16](https://vuldb.com/?ip.84.38.133.16) | - | [NukeSped](https://vuldb.com/?actor.nukesped) | High
+2 | [84.38.133.145](https://vuldb.com/?ip.84.38.133.145) | - | [NukeSped](https://vuldb.com/?actor.nukesped) | High
+3 | [185.29.8.18](https://vuldb.com/?ip.185.29.8.18) | ip-8-18.dataclub.info | [NukeSped](https://vuldb.com/?actor.nukesped) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,7 +89,7 @@ ID | Type | Indicator | Confidence
 38 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
 39 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

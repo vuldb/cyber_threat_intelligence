@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkVNC:
+
+* [DE](https://vuldb.com/?country.de)
+
 ## Actors
 
 These _actors_ are associated with DarkVNC or other actors linked to the campaign.

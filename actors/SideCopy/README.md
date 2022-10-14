@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -55,28 +55,29 @@ ID | Type | Indicator | Confidence
 5 | File | `/core/conditions/AbstractWrapper.java` | High
 6 | File | `/dvcset/sysset/set.cgi` | High
 7 | File | `/edit-db.php` | Medium
-8 | File | `/file?action=download&file` | High
-9 | File | `/goform/aspForm` | High
-10 | File | `/installers/common.sh` | High
-11 | File | `/medical/inventories.php` | High
-12 | File | `/monitoring` | Medium
-13 | File | `/plugin/LiveChat/getChat.json.php` | High
-14 | File | `/plugins/servlet/audit/resource` | High
-15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-16 | File | `/replication` | Medium
-17 | File | `/RestAPI` | Medium
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/var/log/nginx` | High
-23 | File | `/var/run/watchman.pid` | High
-24 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-25 | File | `adclick.php` | Medium
-26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | ... | ... | ...
+8 | File | `/export` | Low
+9 | File | `/file?action=download&file` | High
+10 | File | `/goform/aspForm` | High
+11 | File | `/installers/common.sh` | High
+12 | File | `/medical/inventories.php` | High
+13 | File | `/monitoring` | Medium
+14 | File | `/plugin/LiveChat/getChat.json.php` | High
+15 | File | `/plugins/servlet/audit/resource` | High
+16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+17 | File | `/replication` | Medium
+18 | File | `/RestAPI` | Medium
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/tmp/zarafa-vacation-*` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/var/log/nginx` | High
+24 | File | `/var/run/watchman.pid` | High
+25 | File | `/viewer/krpano.html` | High
+26 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+27 | File | `/wp-json/oembed/1.0/embed?url` | High
+28 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

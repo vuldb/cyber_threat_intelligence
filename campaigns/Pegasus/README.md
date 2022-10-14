@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,46 +66,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/info.php` | High
-2 | File | `/admin/user_list_backend.php` | High
-3 | File | `/cgi?` | Low
-4 | File | `/etc/controller-agent/agent.conf` | High
-5 | File | `/forms/web_importTFTP` | High
-6 | File | `/graphql` | Medium
-7 | File | `/individual` | Medium
-8 | File | `/jeecg-boot/jmreport/view` | High
-9 | File | `/localhost/u` | Medium
-10 | File | `/net` | Low
-11 | File | `/opt/bin/cli` | Medium
-12 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-13 | File | `/public/plugins/` | High
-14 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-15 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-16 | File | `/templates/header.inc.php` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/v2/devices/add` | High
-19 | File | `/var/ipfire/backup/bin/backup.pl` | High
-20 | File | `/wp-json/wc/v3/webhooks` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `account.php` | Medium
-23 | File | `accounts/view_details.php` | High
-24 | File | `AddEvent.php` | Medium
-25 | File | `admin.jcomments.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin.php?m=backup&c=backup&a=doback` | High
-28 | File | `admin.php?mod=product&act=state` | High
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin/cp-functions/event-add.php` | High
-31 | File | `admin/index.php` | High
-32 | File | `admin/modules/tools/ip_history_logs.php` | High
-33 | File | `admin/netbase/clean.php` | High
-34 | File | `admin/scripts/FileUploader/php.php` | High
-35 | File | `admin/ueditor/uploadFile` | High
-36 | File | `admin/user_perm.php` | High
-37 | File | `admin_main.php` | High
-38 | ... | ... | ...
+1 | File | `/admin/edit_visitor.php` | High
+2 | File | `/admin/info.php` | High
+3 | File | `/admin/user_list_backend.php` | High
+4 | File | `/cgi?` | Low
+5 | File | `/etc/controller-agent/agent.conf` | High
+6 | File | `/forms/web_importTFTP` | High
+7 | File | `/graphql` | Medium
+8 | File | `/individual` | Medium
+9 | File | `/jeecg-boot/jmreport/view` | High
+10 | File | `/localhost/u` | Medium
+11 | File | `/net` | Low
+12 | File | `/opt/bin/cli` | Medium
+13 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+16 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+17 | File | `/templates/header.inc.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/v2/devices/add` | High
+20 | File | `/var/ipfire/backup/bin/backup.pl` | High
+21 | File | `/wp-json/wc/v3/webhooks` | High
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `account.php` | Medium
+24 | File | `accounts/view_details.php` | High
+25 | File | `AddEvent.php` | Medium
+26 | File | `admin.jcomments.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin.php?m=backup&c=backup&a=doback` | High
+29 | File | `admin.php?mod=product&act=state` | High
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin/cp-functions/event-add.php` | High
+32 | File | `admin/index.php` | High
+33 | File | `admin/modules/tools/ip_history_logs.php` | High
+34 | File | `admin/netbase/clean.php` | High
+35 | File | `admin/scripts/FileUploader/php.php` | High
+36 | File | `admin/ueditor/uploadFile` | High
+37 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

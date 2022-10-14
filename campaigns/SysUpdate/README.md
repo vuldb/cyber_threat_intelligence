@@ -58,13 +58,13 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/config/getuser` | High
 3 | File | `/lan.asp` | Medium
-4 | File | `/rapi/read_url` | High
-5 | File | `admin.php` | Medium
-6 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-7 | File | `album_portal.php` | High
+4 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+5 | File | `/rapi/read_url` | High
+6 | File | `admin.php` | Medium
+7 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
 8 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

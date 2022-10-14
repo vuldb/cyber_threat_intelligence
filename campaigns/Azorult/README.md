@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,9 +78,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
 14 | File | `abm.aspx` | Medium
 15 | File | `actions/ChangeConfiguration.html` | High
-16 | ... | ... | ...
+16 | File | `adclick.php` | Medium
+17 | ... | ... | ...
 
-There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

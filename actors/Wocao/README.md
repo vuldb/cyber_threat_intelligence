@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Wocao:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
-* [AR](https://vuldb.com/?country.ar)
+* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,14 +40,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,30 +65,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/delete.php` | High
 9 | File | `/admin/delstu.php` | High
 10 | File | `/admin/foldernotice/list` | High
-11 | File | `/admin/history.php` | High
-12 | File | `/admin/image/list` | High
-13 | File | `/admin/imagealbum/list` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/modify.php` | High
-16 | File | `/admin/modify1.php` | High
-17 | File | `/admin/products/controller.php?action=add` | High
-18 | File | `/admin/site/list` | High
-19 | File | `/admin/video/list` | High
-20 | File | `/admin_book.php` | High
-21 | File | `/advanced-tools/nova/bin/netwatch` | High
-22 | File | `/api/upload-resource` | High
-23 | File | `/api/v1/user` | Medium
-24 | File | `/appConfig/userDB.json` | High
-25 | File | `/bin/boa` | Medium
-26 | File | `/bin/httpd` | Medium
-27 | File | `/blog/edit` | Medium
-28 | File | `/blogengine/api/posts` | High
-29 | File | `/brand.php` | Medium
-30 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-31 | File | `/card/in-card.php` | High
-32 | ... | ... | ...
+11 | File | `/admin/image/list` | High
+12 | File | `/admin/imagealbum/list` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/products/controller.php?action=add` | High
+15 | File | `/admin/select.php` | High
+16 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+17 | File | `/admin/site/list` | High
+18 | File | `/admin/video/list` | High
+19 | File | `/admin_book.php` | High
+20 | File | `/advanced-tools/nova/bin/netwatch` | High
+21 | File | `/api/upload-resource` | High
+22 | File | `/appConfig/userDB.json` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/bin/httpd` | Medium
+25 | File | `/blog/edit` | Medium
+26 | File | `/blogengine/api/posts` | High
+27 | File | `/brand.php` | Medium
+28 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+29 | File | `/card/in-card.php` | High
+30 | File | `/cgi-bin/DownloadFlash` | High
+31 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,6 +19,19 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.32.181.48](https://vuldb.com/?ip.45.32.181.48) | 45.32.181.48.vultr.com | - | Medium
 2 | [142.4.124.124](https://vuldb.com/?ip.142.4.124.124) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PcShare_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PcShare. This data is unique as it uses our predictive model for actor profiling.

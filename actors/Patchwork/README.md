@@ -107,7 +107,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -124,11 +124,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/app/options.py` | High
-7 | File | `/apply_noauth.cgi` | High
+3 | File | `/admin/index.php` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/app/options.py` | High
+6 | File | `/apply_noauth.cgi` | High
+7 | File | `/bin/httpd` | Medium
 8 | File | `/cgi-bin/wapopen` | High
 9 | File | `/ci_spms/admin/category` | High
 10 | File | `/ci_spms/admin/search/searching/` | High
@@ -144,30 +144,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/navigate/navigate_download.php` | High
 21 | File | `/ocwbs/admin/?page=user/manage_user` | High
 22 | File | `/ofrs/admin/?page=user/manage_user` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/password.html` | High
-25 | File | `/proc/ioports` | High
-26 | File | `/property-list/property_view.php` | High
-27 | File | `/ptms/classes/Users.php` | High
-28 | File | `/rest/api/2/search` | High
-29 | File | `/s/` | Low
-30 | File | `/scripts/cpan_config` | High
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/uncpath/` | Medium
-34 | File | `/vloggers_merch/?p=view_product` | High
-35 | File | `/web/MCmsAction.java` | High
-36 | File | `/webconsole/APIController` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/password.html` | High
+26 | File | `/proc/ioports` | High
+27 | File | `/property-list/property_view.php` | High
+28 | File | `/ptms/classes/Users.php` | High
+29 | File | `/rest/api/2/search` | High
+30 | File | `/s/` | Low
+31 | File | `/scripts/cpan_config` | High
+32 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/uncpath/` | Medium
+35 | File | `/vloggers_merch/?p=view_product` | High
+36 | File | `/web/MCmsAction.java` | High
 37 | File | `/websocket/exec` | High
 38 | File | `/whbs/?page=my_bookings` | High
 39 | File | `/wp-admin/admin-ajax.php` | High
 40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 41 | File | `/wp-json` | Medium
-42 | File | `/wp-json/oembed/1.0/embed?url` | High
-43 | File | `/_next` | Low
-44 | ... | ... | ...
+42 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

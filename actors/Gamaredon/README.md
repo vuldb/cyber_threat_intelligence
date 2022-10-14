@@ -78,7 +78,8 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
 54 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
 55 | [83.166.247.110](https://vuldb.com/?ip.83.166.247.110) | - | - | High
-56 | ... | ... | ... | ...
+56 | [83.166.247.185](https://vuldb.com/?ip.83.166.247.185) | - | - | High
+57 | ... | ... | ... | ...
 
 There are 222 more IOC items available. Please use our online service to access the data.
 
@@ -126,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/stamparm/maltrail/blob/2d0339af3523b230d8e9a08efd22af032ec7a18e/trails/static/malware/apt_gamaredon.txt
 * https://pastebin.com/Vhb4KF5L
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
+* https://twitter.com/500mk500/status/1579822593053691906
 * https://unit42.paloaltonetworks.com/gamaredon-primitive-bear-ukraine-update-2021/
 * https://www.fortinet.com/jp/blog/threat-research/gamaredon-group-ttp-profile-analysis
 

@@ -70,28 +70,28 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/newsletter1.php` | High
 9 | File | `/admin/payment.php` | High
 10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/file?action=download&file` | High
-12 | File | `/filemanager/upload/drop` | High
-13 | File | `/index.php` | Medium
-14 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-15 | File | `/login.php` | Medium
-16 | File | `/medical/inventories.php` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/mkshop/Men/profile.php` | High
-19 | File | `/monitoring` | Medium
-20 | File | `/pages/apply_vacancy.php` | High
-21 | File | `/php_action/createUser.php` | High
-22 | File | `/plugin/LiveChat/getChat.json.php` | High
-23 | File | `/plugins/servlet/audit/resource` | High
-24 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-25 | File | `/replication` | Medium
-26 | File | `/RestAPI` | Medium
-27 | File | `/SASWebReportStudio/logonAndRender.do` | High
-28 | File | `/scas/admin/` | Medium
-29 | File | `/tmp/zarafa-vacation-*` | High
+11 | File | `/export` | Low
+12 | File | `/file?action=download&file` | High
+13 | File | `/filemanager/upload/drop` | High
+14 | File | `/index.php` | Medium
+15 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+16 | File | `/login.php` | Medium
+17 | File | `/medical/inventories.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/pages/apply_vacancy.php` | High
+22 | File | `/php_action/createUser.php` | High
+23 | File | `/plugin/LiveChat/getChat.json.php` | High
+24 | File | `/plugins/servlet/audit/resource` | High
+25 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+26 | File | `/replication` | Medium
+27 | File | `/RestAPI` | Medium
+28 | File | `/SASWebReportStudio/logonAndRender.do` | High
+29 | File | `/scas/admin/` | Medium
 30 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

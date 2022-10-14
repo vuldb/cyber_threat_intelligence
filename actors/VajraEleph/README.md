@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with VajraEleph:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VajraEleph:
 
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * [NL](https://vuldb.com/?country.nl)
 
@@ -32,6 +33,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1548.002 | CWE-285 | Improper Authorization | High
 
 ## References
 

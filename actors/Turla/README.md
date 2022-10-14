@@ -84,7 +84,7 @@ ID | Type | Indicator | Confidence
 18 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
 19 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

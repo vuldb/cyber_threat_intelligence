@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [IO](https://vuldb.com/?country.io)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,12 +30,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-2 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-3 | [91.192.100.62](https://vuldb.com/?ip.91.192.100.62) | 91-192-100-62.gerber.non-logging.vpn | [FIN7](https://vuldb.com/?actor.fin7) | High
-4 | ... | ... | ... | ...
+1 | [2.56.56.88](https://vuldb.com/?ip.2.56.56.88) | nutir.top | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+2 | [2.56.57.85](https://vuldb.com/?ip.2.56.57.85) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+3 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+4 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+5 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+6 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -63,18 +65,18 @@ ID | Type | Indicator | Confidence
 3 | File | `/.ssh/authorized_keys` | High
 4 | File | `/account/details.php` | High
 5 | File | `/admin/academic/studenview_left.php` | High
-6 | File | `/admin/contenttemp` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/admin/syslog` | High
-9 | File | `/anony/mjpg.cgi` | High
-10 | File | `/assets/components/gallery/connector.php` | High
-11 | File | `/ctcprotocol/Protocol` | High
-12 | File | `/device/device=140/tab=wifi/view` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/Forms/` | Low
-15 | File | `/framework/modules/users/models/user.php` | High
-16 | File | `/HNAP1/SetAccessPointMode` | High
-17 | File | `/iisadmin` | Medium
+6 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
+7 | File | `/admin/contenttemp` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/syslog` | High
+10 | File | `/anony/mjpg.cgi` | High
+11 | File | `/assets/components/gallery/connector.php` | High
+12 | File | `/ctcprotocol/Protocol` | High
+13 | File | `/device/device=140/tab=wifi/view` | High
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/Forms/` | Low
+16 | File | `/framework/modules/users/models/user.php` | High
+17 | File | `/HNAP1/SetAccessPointMode` | High
 18 | File | `/index.php` | Medium
 19 | File | `/mcategory.php` | High
 20 | File | `/member/picture/album` | High
@@ -90,24 +92,32 @@ ID | Type | Indicator | Confidence
 30 | File | `/trx_addons/v2/get/sc_layout` | High
 31 | File | `/uncpath/` | Medium
 32 | File | `/upload/catalog/controller/account/password.php` | High
-33 | File | `/var/log/postgresql` | High
-34 | File | `/_vti_pvt/access.cnf` | High
-35 | File | `4.edu.php` | Medium
-36 | File | `add_ons.php` | Medium
-37 | File | `add_to_cart.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin_users.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/mod_users/controller.php?action=edit` | High
-42 | ... | ... | ...
+33 | File | `/usr/bin/pkexec` | High
+34 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+35 | File | `/WebMstr7/servlet/mstrWeb` | High
+36 | File | `4.edu.php` | Medium
+37 | File | `5.2.9\syscrb.exe` | High
+38 | File | `123flashchat.php` | High
+39 | File | `add_ons.php` | Medium
+40 | File | `add_to_cart.php` | High
+41 | File | `admin.php` | Medium
+42 | File | `admin/index.php` | High
+43 | File | `admin/mod_users/controller.php?action=edit` | High
+44 | File | `admin/pageEditGroup.php` | High
+45 | File | `admin/product_category.php?rec=update` | High
+46 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://asec.ahnlab.com/en/34102/
+* https://asec.ahnlab.com/en/34624/
+* https://asec.ahnlab.com/en/34785/
+* https://asec.ahnlab.com/en/35190/
+* https://asec.ahnlab.com/en/36629/
 * https://blog.morphisec.com/threat-alert-ave-maria-infostealer-on-the-rise-with-new-stealthier-delivery
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-11%20AveMaria%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-28%20AveMaria_Warzone%20IOCs

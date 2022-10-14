@@ -41,7 +41,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -62,45 +62,46 @@ ID | Type | Indicator | Confidence
 5 | File | `/ajax/networking/get_netcfg.php` | High
 6 | File | `/app/options.py` | High
 7 | File | `/assets/ctx` | Medium
-8 | File | `/ci_spms/admin/category` | High
-9 | File | `/ci_spms/admin/search/searching/` | High
-10 | File | `/classes/Master.php?f=delete_train` | High
-11 | File | `/cms/print.php` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/course/api/upload/pic` | High
-15 | File | `/dashboard/menu-list.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/ffos/classes/Master.php?f=save_category` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/Items/*/RemoteImages/Download` | High
-21 | File | `/login` | Low
-22 | File | `/navigate/navigate_download.php` | High
-23 | File | `/ocwbs/admin/?page=user/manage_user` | High
-24 | File | `/ofrs/admin/?page=user/manage_user` | High
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/password.html` | High
-27 | File | `/pms/index.php` | High
-28 | File | `/proc/ioports` | High
-29 | File | `/property-list/property_view.php` | High
-30 | File | `/ptms/classes/Users.php` | High
-31 | File | `/rest/api/2/search` | High
-32 | File | `/s/` | Low
-33 | File | `/scripts/cpan_config` | High
-34 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-35 | File | `/services/system/setup.json` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/vloggers_merch/?p=view_product` | High
-39 | File | `/webconsole/APIController` | High
-40 | File | `/websocket/exec` | High
-41 | File | `/whbs/?page=my_bookings` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-44 | ... | ... | ...
+8 | File | `/bin/httpd` | Medium
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/ci_spms/admin/category` | High
+11 | File | `/ci_spms/admin/search/searching/` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/cms/print.php` | High
+14 | File | `/concat?/%2557EB-INF/web.xml` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/course/api/upload/pic` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/ffos/classes/Master.php?f=save_category` | High
+20 | File | `/goforms/rlminfo` | High
+21 | File | `/Items/*/RemoteImages/Download` | High
+22 | File | `/login` | Low
+23 | File | `/navigate/navigate_download.php` | High
+24 | File | `/ocwbs/admin/?page=user/manage_user` | High
+25 | File | `/ofrs/admin/?page=user/manage_user` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/password.html` | High
+28 | File | `/pms/index.php` | High
+29 | File | `/proc/ioports` | High
+30 | File | `/property-list/property_view.php` | High
+31 | File | `/ptms/classes/Users.php` | High
+32 | File | `/rest/api/2/search` | High
+33 | File | `/s/` | Low
+34 | File | `/scripts/cpan_config` | High
+35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+36 | File | `/services/system/setup.json` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/vloggers_merch/?p=view_product` | High
+40 | File | `/webconsole/APIController` | High
+41 | File | `/websocket/exec` | High
+42 | File | `/whbs/?page=my_bookings` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+45 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

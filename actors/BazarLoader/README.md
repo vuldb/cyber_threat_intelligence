@@ -84,15 +84,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/api` | Low
 2 | File | `/include/makecvs.php` | High
 3 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-4 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-5 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-6 | File | `add.php` | Low
-7 | File | `admin/admin.shtml` | High
-8 | File | `bpf-object-fuzzer.c` | High
-9 | File | `cal.php` | Low
-10 | ... | ... | ...
+4 | File | `/requests.php` | High
+5 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+6 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+7 | File | `add.php` | Low
+8 | File | `admin/admin.shtml` | High
+9 | File | `bpf-object-fuzzer.c` | High
+10 | File | `cal.php` | Low
+11 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

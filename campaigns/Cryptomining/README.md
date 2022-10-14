@@ -71,7 +71,7 @@ ID | Type | Indicator | Confidence
 12 | File | `ALL_IN_THE_BOX.OCX` | High
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

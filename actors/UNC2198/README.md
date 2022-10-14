@@ -50,20 +50,20 @@ ID | Type | Indicator | Confidence
 1 | File | `/.dbus-keyrings` | High
 2 | File | `/addQuestion.php` | High
 3 | File | `/admin/` | Low
-4 | File | `/admin/cms.php` | High
-5 | File | `/admin/featured.php` | High
-6 | File | `/admin/payment.php` | High
-7 | File | `/admin/photo.php` | High
-8 | File | `/admin/searchview.php` | High
-9 | File | `/ajax-files/followBoard.php` | High
-10 | File | `/ajax-files/postComment.php` | High
-11 | File | `/anony/mjpg.cgi` | High
-12 | File | `/artist-display.php` | High
-13 | File | `/categorypage.php` | High
-14 | File | `/cgi-bin/nightled.cgi` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/cms.php` | High
+6 | File | `/admin/featured.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/photo.php` | High
+9 | File | `/admin/searchview.php` | High
+10 | File | `/ajax-files/followBoard.php` | High
+11 | File | `/ajax-files/postComment.php` | High
+12 | File | `/anony/mjpg.cgi` | High
+13 | File | `/artist-display.php` | High
+14 | File | `/categorypage.php` | High
 15 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

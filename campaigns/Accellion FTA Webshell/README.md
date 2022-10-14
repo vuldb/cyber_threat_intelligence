@@ -72,30 +72,32 @@ ID | Type | Indicator | Confidence
 14 | File | `/debug/pprof` | Medium
 15 | File | `/DLSnap` | Low
 16 | File | `/exec/` | Low
-17 | File | `/items/view_item.php` | High
-18 | File | `/ldclient/ldprov.cgi` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/login` | Low
-21 | File | `/mail/index.html` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/plugin/extended-choice-parameter/js/` | High
-24 | File | `/plugins/servlet/gadgets/makeRequest` | High
-25 | File | `/PreviewHandler.ashx` | High
-26 | File | `/products/details.asp` | High
-27 | File | `/rest/api/2/user/picker` | High
-28 | File | `/rest/api/latest/groupuserpicker` | High
-29 | File | `/rom-0` | Low
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/student/bookdetails.php` | High
-33 | File | `/templates/header.inc.php` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-37 | File | `/var/log/nginx` | High
-38 | ... | ... | ...
+17 | File | `/index.php` | Medium
+18 | File | `/items/view_item.php` | High
+19 | File | `/ldclient/ldprov.cgi` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/login` | Low
+22 | File | `/mail/index.html` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/plugin/extended-choice-parameter/js/` | High
+25 | File | `/plugins/servlet/gadgets/makeRequest` | High
+26 | File | `/PreviewHandler.ashx` | High
+27 | File | `/products/details.asp` | High
+28 | File | `/rest/api/2/user/picker` | High
+29 | File | `/rest/api/latest/groupuserpicker` | High
+30 | File | `/rom-0` | Low
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/services/details.asp` | High
+33 | File | `/student/bookdetails.php` | High
+34 | File | `/templates/header.inc.php` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+38 | File | `/var/log/nginx` | High
+39 | File | `/ViewUserHover.jspa` | High
+40 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

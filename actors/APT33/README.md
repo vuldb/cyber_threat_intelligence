@@ -16,9 +16,9 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [SV](https://vuldb.com/?country.sv)
-* [ES](https://vuldb.com/?country.es)
 * [DE](https://vuldb.com/?country.de)
+* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -54,11 +54,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -69,38 +69,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.rediscli_history` | High
-2 | File | `/activity/admin/modules/event/index.php?view=edit` | High
-3 | File | `/activity/admin/modules/modstudent/index.php?view=view` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/comment/list` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delstu.php` | High
-8 | File | `/admin/edit_event.php` | High
-9 | File | `/admin/edit_user.php` | High
-10 | File | `/admin/lab.php` | High
-11 | File | `/admin/video/list` | High
-12 | File | `/admin/videoalbum/list` | High
-13 | File | `/api/upload-resource` | High
-14 | File | `/bibliography/marcsru.php` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/bits/stl_vector.h` | High
-17 | File | `/categories/view_category.php` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=delete_schedule` | High
-20 | File | `/classes/Users.php?f=save_client` | High
-21 | File | `/dashboard/settings` | High
-22 | File | `/dede/co_do.php` | High
-23 | File | `/etc/shadow.sample` | High
-24 | File | `/fax/fax_send.php` | High
-25 | File | `/garage/editcategory.php` | High
-26 | File | `/gfxpoly/stroke.c` | High
-27 | File | `/goform/saveParentControlInfo` | High
-28 | File | `/goform/SetIpMacBind` | High
-29 | File | `/guestmanagement/front.php` | High
-30 | ... | ... | ...
+1 | File | `/activity/admin/modules/event/index.php?view=edit` | High
+2 | File | `/activity/admin/modules/modstudent/index.php?view=view` | High
+3 | File | `/admin/?page=orders/view_order` | High
+4 | File | `/admin/del.php` | High
+5 | File | `/admin/edit_user.php` | High
+6 | File | `/admin/products/controller.php?action=add` | High
+7 | File | `/bin/boa` | Medium
+8 | File | `/bin/httpd` | Medium
+9 | File | `/bits/stl_vector.h` | High
+10 | File | `/blog/post/edit` | High
+11 | File | `/brand.php` | Medium
+12 | File | `/categories/manage_category.php` | High
+13 | File | `/categories/view_category.php` | High
+14 | File | `/category.php` | High
+15 | File | `/cgi-bin/downloadFile.cgi` | High
+16 | File | `/cgi-bin/DownloadFlash` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/dede/co_do.php` | High
+19 | File | `/etc/init0.d/S80telnetd.sh` | High
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/etc/sysconfig/tomcat` | High
+22 | File | `/fax/fax_send.php` | High
+23 | File | `/framework/modules/help/controllers/helpController.php` | High
+24 | File | `/gfxpoly/stroke.c` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/guestmanagement/front.php` | High
+27 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sanctionedmedia:
 
+* [ES](https://vuldb.com/?country.es)
 * [KW](https://vuldb.com/?country.kw)
 * [US](https://vuldb.com/?country.us)
 
@@ -20,13 +21,22 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [158.69.30.89](https://vuldb.com/?ip.158.69.30.89) | - | - | High
 2 | [188.70.31.241](https://vuldb.com/?ip.188.70.31.241) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sanctionedmedia_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Sanctionedmedia. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `fileName` | Medium
+1 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+2 | Argument | `fileName` | Medium
 
 ## References
 

@@ -70,20 +70,21 @@ ID | Type | Indicator | Confidence
 13 | File | `/mcategory.php` | High
 14 | File | `/out.php` | Medium
 15 | File | `/p` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/bin/uucp` | High
-18 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-19 | File | `/web/google_analytics.php` | High
-20 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
-21 | File | `/whbs/admin/?page=user` | High
-22 | File | `/_readmail` | Medium
-23 | File | `admin.php3` | Medium
-24 | File | `admin/index.php?c=database` | High
-25 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-26 | File | `administrator/components/com_media/helpers/media.php` | High
-27 | ... | ... | ...
+16 | File | `/pages/processlogin.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/bin/uucp` | High
+19 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+20 | File | `/web/google_analytics.php` | High
+21 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
+22 | File | `/whbs/admin/?page=user` | High
+23 | File | `/_readmail` | Medium
+24 | File | `admin.php3` | Medium
+25 | File | `admin/index.php?c=database` | High
+26 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+27 | File | `administrator/components/com_media/helpers/media.php` | High
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

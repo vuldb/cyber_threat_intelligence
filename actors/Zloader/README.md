@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
 There are 10 more TTP items available. Please use our online service to access the data.
@@ -56,18 +56,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/user/team` | High
-2 | File | `/bcms/admin/?page=user/list` | High
-3 | File | `/upload` | Low
-4 | File | `ast/parser.go` | High
-5 | File | `authent.php4` | Medium
-6 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-7 | File | `catalog.asp` | Medium
-8 | File | `controllers/Weixin.php` | High
-9 | File | `dapur/index.php` | High
-10 | File | `data/gbconfiguration.dat` | High
+2 | File | `/baseOpLog.do` | High
+3 | File | `/bcms/admin/?page=user/list` | High
+4 | File | `/upload` | Low
+5 | File | `ast/parser.go` | High
+6 | File | `authent.php4` | Medium
+7 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+8 | File | `catalog.asp` | Medium
+9 | File | `controllers/Weixin.php` | High
+10 | File | `dapur/index.php` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [TR](https://vuldb.com/?country.tr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -72,34 +73,34 @@ ID | Type | Indicator | Confidence
 8 | File | `/event/runquery.do` | High
 9 | File | `/filemanager/ajax_calls.php` | High
 10 | File | `/htmlcode/html/indexdefault.asp` | High
-11 | File | `/out.php` | Medium
-12 | File | `/products/details.asp` | High
-13 | File | `/share/error?message` | High
-14 | File | `/system/ws/v11/ss/email` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/var/www/xms/application/config/config.php` | High
-17 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-18 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-19 | File | `/var/www/xms/cleanzip.sh` | High
-20 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-21 | File | `/wp-admin/admin-ajax.php` | High
-22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `about.php` | Medium
-25 | File | `adclick.php` | Medium
-26 | File | `addentry.php` | Medium
-27 | File | `add_vhost.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin/default.asp` | High
-31 | File | `admin/media/rename.php` | High
-32 | File | `admin/user.php` | High
-33 | File | `advanced_component_system/index.php` | High
-34 | File | `agent.cfg` | Medium
-35 | File | `ajax/render/widget_php` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/out.php` | Medium
+13 | File | `/products/details.asp` | High
+14 | File | `/share/error?message` | High
+15 | File | `/system/ws/v11/ss/email` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/var/www/xms/application/config/config.php` | High
+18 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+19 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+20 | File | `/var/www/xms/cleanzip.sh` | High
+21 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+25 | File | `about.php` | Medium
+26 | File | `adclick.php` | Medium
+27 | File | `addentry.php` | Medium
+28 | File | `add_vhost.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/conf_users_edit.php` | High
+31 | File | `admin/default.asp` | High
+32 | File | `admin/media/rename.php` | High
+33 | File | `admin/user.php` | High
+34 | File | `admincp/attachment.php&do=rebuild&type` | High
+35 | File | `advanced_component_system/index.php` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Uyghurs:
 
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [TH](https://vuldb.com/?country.th)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -17,6 +22,7 @@ These _actors_ are associated with Uyghurs or other actors linked to the campaig
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [Scarlet Mimic](https://vuldb.com/?actor.scarlet_mimic) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.134.1.3](https://vuldb.com/?ip.45.134.1.3) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [46.8.180.147](https://vuldb.com/?ip.46.8.180.147) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [47.91.170.222](https://vuldb.com/?ip.47.91.170.222) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+1 | [45.32.112.182](https://vuldb.com/?ip.45.32.112.182) | 45.32.112.182.vultrusercontent.com | [Scarlet Mimic](https://vuldb.com/?actor.scarlet_mimic) | High
+2 | [45.134.1.3](https://vuldb.com/?ip.45.134.1.3) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [46.8.180.147](https://vuldb.com/?ip.46.8.180.147) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1202 | CWE-77 | Command Injection | High
-3 | T1548.002 | CWE-285 | Improper Authorization | High
+1 | T1055 | CWE-74 | Injection | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,13 +56,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `rule_name` | Medium
+1 | File | `/ajax-files/postComment.php` | High
+2 | File | `/cgi-bin/pass` | High
+3 | File | `/passwordrecovered.cgi` | High
+4 | File | `admin/mcart_xls_import.php` | High
+5 | ... | ... | ...
+
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://research.checkpoint.com/2021/uyghurs-a-turkic-ethnic-minority-in-china-targeted-via-fake-foundations/
+* https://research.checkpoint.com/2022/never-truly-left-7-years-of-scarlet-mimics-mobile-surveillance-campaign-targeting-uyghurs/
 
 ## Literature
 

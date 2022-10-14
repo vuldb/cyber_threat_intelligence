@@ -64,9 +64,10 @@ ID | Type | Indicator | Confidence
 12 | File | `/gasmark/assets/myimages/oneWord.php` | High
 13 | File | `/goform/formWifiBasicSet` | High
 14 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-15 | ... | ... | ...
+15 | File | `/index.php` | Medium
+16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

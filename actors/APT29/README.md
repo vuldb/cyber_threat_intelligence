@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,7 +69,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,12 +107,12 @@ ID | Type | Indicator | Confidence
 28 | File | `/mgmt/tm/util/bash` | High
 29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 30 | File | `/ms/cms/content/list.do` | High
-31 | File | `/orms/` | Low
-32 | File | `/pages/apply_vacancy.php` | High
-33 | File | `/plesk-site-preview/` | High
+31 | File | `/pages/apply_vacancy.php` | High
+32 | File | `/plesk-site-preview/` | High
+33 | File | `/proc/<PID>/mem` | High
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -460,10 +460,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -474,33 +474,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/index.PHP` | High
-3 | File | `/admin/lab.php` | High
-4 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-5 | File | `/api/index.php` | High
-6 | File | `/appConfig/userDB.json` | High
-7 | File | `/bd_genie_create_account.cgi` | High
-8 | File | `/bibliography/marcsru.php` | High
-9 | File | `/c/macho_reader.c` | High
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/conferences/list/` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/administration/settings_registration.php` | High
+6 | File | `/advanced-tools/nova/bin/netwatch` | High
+7 | File | `/api/project` | Medium
+8 | File | `/authUserAction!edit.action` | High
+9 | File | `/baseOpLog.do` | High
 10 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-11 | File | `/card/in-card.php` | High
-12 | File | `/cgi-bin/kerbynet` | High
-13 | File | `/cgi-bin/koha/members/paycollect.pl` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/touchlist_sync.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/etc/networkd-dispatcher` | High
-18 | File | `/EXCU_SHELL` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/SetIpMacBind` | High
-21 | File | `/goform/setmac` | High
-22 | File | `/goform/wifiSSIDset` | High
-23 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-24 | File | `/modules/modstudent/index.php?view=edit` | High
-25 | ... | ... | ...
+11 | File | `/cgi-bin/qcmap_auth` | High
+12 | File | `/diagnostic/edittest.php` | High
+13 | File | `/editbrand.php` | High
+14 | File | `/etc/fwupd/redfish.conf` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/framework/mod/db/DBMapper.xml` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/issue` | Low
+19 | File | `/leave_system/classes/Master.php?f=delete_application` | High
+20 | File | `/leave_system/classes/Users.php?f=save` | High
+21 | File | `/opt/onedev/sites/` | High
+22 | ... | ... | ...
 
-There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

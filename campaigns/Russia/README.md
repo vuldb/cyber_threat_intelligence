@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -68,12 +67,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -83,31 +81,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delete.php` | High
-8 | File | `/admin/delstu.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/categories/view_category.php` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/classes/Master.php?f=delete_payment` | High
-16 | File | `/classes/Master.php?f=delete_student` | High
-17 | File | `/classes/Users.php?f=save_client` | High
-18 | File | `/defaultui/player/modern.html` | High
-19 | File | `/etc/ciel.cfg` | High
-20 | File | `/etc/init0.d/S80telnetd.sh` | High
-21 | File | `/etc/srapi/config/system.conf` | High
-22 | File | `/goform/addRouting` | High
-23 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/update_expense.php` | High
+4 | File | `/admin/update_expense_category.php` | High
+5 | File | `/api/project` | Medium
+6 | File | `/diagnostic/edittest.php` | High
+7 | File | `/ebics-server/ebics.aspx` | High
+8 | File | `/employeeview.php` | High
+9 | File | `/etc/fwupd/redfish.conf` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/file/upload/1` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/issue` | Low
+15 | File | `/kfm/index.php` | High
+16 | File | `/leave_system/classes/Users.php?f=save` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

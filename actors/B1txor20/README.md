@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-84 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,36 +60,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/article/list` | High
-4 | File | `/admin/article/list_approve` | High
-5 | File | `/admin/contact/list` | High
-6 | File | `/admin/foldernotice/list` | High
-7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/admin/friendlylink/list` | High
-9 | File | `/admin/image/list` | High
-10 | File | `/admin/imagealbum/list` | High
-11 | File | `/admin/site/list` | High
-12 | File | `/admin/video/list` | High
-13 | File | `/admin/videoalbum/list` | High
-14 | File | `/admin_book.php` | High
-15 | File | `/api/upload-resource` | High
-16 | File | `/appConfig/userDB.json` | High
-17 | File | `/bd_genie_create_account.cgi` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/bin/httpd` | Medium
-20 | File | `/blog/edit` | Medium
-21 | File | `/blogengine/api/posts` | High
-22 | File | `/brand.php` | Medium
-23 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-24 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-25 | File | `/card/in-card.php` | High
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/client.php` | Medium
-28 | ... | ... | ...
+1 | File | `/admin/?page=orders/view_order` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/client_assign.php` | High
+4 | File | `/admin/client_edit.php` | High
+5 | File | `/admin/feature_edit.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/settings.php` | High
+8 | File | `/admin/subnets/ripe-query.php` | High
+9 | File | `/admin/update_currency.php` | High
+10 | File | `/admin/update_expense.php` | High
+11 | File | `/admin/up_booking.php` | High
+12 | File | `/authUserAction!edit.action` | High
+13 | File | `/baseOpLog.do` | High
+14 | File | `/buspassms/download-pass.php` | High
+15 | File | `/cardo/api` | Medium
+16 | File | `/category.php` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/csms/admin/storages/manage_storage.php` | High
+19 | File | `/csms/admin/storages/view_storage.php` | High
+20 | File | `/DesignTools/CssEditor.aspx` | High
+21 | File | `/diagnostic/editcategory.php` | High
+22 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

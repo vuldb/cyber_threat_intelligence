@@ -20,6 +20,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [3.109.48.136](https://vuldb.com/?ip.3.109.48.136) | ec2-3-109-48-136.ap-south-1.compute.amazonaws.com | - | Medium
 2 | [13.235.50.147](https://vuldb.com/?ip.13.235.50.147) | ec2-13-235-50-147.ap-south-1.compute.amazonaws.com | - | Medium
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _GoodWill_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by GoodWill. This data is unique as it uses our predictive model for actor profiling.

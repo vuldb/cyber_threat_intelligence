@@ -41,14 +41,14 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [45.43.50.197](https://vuldb.com/?ip.45.43.50.197) | - | Europe | High
 8 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
 9 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
-10 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
-11 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
-12 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
-13 | [45.248.87.162](https://vuldb.com/?ip.45.248.87.162) | - | Europe | High
-14 | [46.8.198.134](https://vuldb.com/?ip.46.8.198.134) | - | Europe | High
+10 | [45.134.83.4](https://vuldb.com/?ip.45.134.83.4) | - | - | High
+11 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
+12 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
+13 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
+14 | [45.248.87.162](https://vuldb.com/?ip.45.248.87.162) | - | Europe | High
 15 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -71,34 +71,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/portal` | High
-2 | File | `/Config/service/initModel?` | High
-3 | File | `/export` | Low
-4 | File | `/goform/NTPSyncWithHost` | High
-5 | File | `/HNAP1/SetAccessPointMode` | High
-6 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-7 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-8 | File | `/htmlcode/html/indexdefault.asp` | High
-9 | File | `/include/helpers/upload.helper.php` | High
-10 | File | `/interface/main/backup.php` | High
-11 | File | `/local/domain/$DOMID` | High
-12 | File | `/mkshop/Men/profile.php` | High
-13 | File | `/MTFWU` | Low
-14 | File | `/mygym/admin/index.php` | High
-15 | File | `/patient/settings.php` | High
-16 | File | `/rest/api/2/user/picker` | High
-17 | File | `/service/upload` | High
-18 | File | `/settings` | Medium
-19 | File | `/tmp` | Low
-20 | ... | ... | ...
+1 | File | `/admin/settings.php` | High
+2 | File | `/cgi-bin/portal` | High
+3 | File | `/Config/service/initModel?` | High
+4 | File | `/export` | Low
+5 | File | `/goform/NTPSyncWithHost` | High
+6 | File | `/HNAP1/SetAccessPointMode` | High
+7 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+8 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+9 | File | `/htmlcode/html/indexdefault.asp` | High
+10 | File | `/include/helpers/upload.helper.php` | High
+11 | File | `/interface/main/backup.php` | High
+12 | File | `/local/domain/$DOMID` | High
+13 | File | `/mkshop/Men/profile.php` | High
+14 | File | `/MTFWU` | Low
+15 | File | `/mygym/admin/index.php` | High
+16 | File | `/patient/settings.php` | High
+17 | File | `/rest/api/2/user/picker` | High
+18 | File | `/service/upload` | High
+19 | File | `/settings` | Medium
+20 | File | `/tmp` | Low
+21 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2022/05/mustang-panda-targets-europe.html
+* https://blogs.blackberry.com/en/2022/10/mustang-panda-abuses-legitimate-apps-to-target-myanmar-based-victims
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q2
 * https://twitter.com/ESETresearch/status/1400165861973966854
 * https://twitter.com/xorhex/status/1406496693735067650

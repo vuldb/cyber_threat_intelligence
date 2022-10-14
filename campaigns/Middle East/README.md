@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,9 +66,9 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -79,62 +79,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/header.inc.php` | High
-4 | File | `/admin/video/list` | High
-5 | File | `/api/plugin/uninstall` | High
-6 | File | `/api/upload-resource` | High
-7 | File | `/api/v2/config` | High
-8 | File | `/bd_genie_create_account.cgi` | High
-9 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-10 | File | `/claire_blake` | High
-11 | File | `/classes/Users.php?f=save_client` | High
-12 | File | `/coreframe/app/attachment/admin/index.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/defaultui/player/modern.html` | High
-15 | File | `/dishes.php` | Medium
-16 | File | `/etc/init0.d/S80telnetd.sh` | High
-17 | File | `/etc/quagga` | Medium
-18 | File | `/etc/shadow.sample` | High
-19 | File | `/fax/fax_send.php` | High
-20 | File | `/gfxpoly/stroke.c` | High
-21 | File | `/goform/addRouting` | High
-22 | File | `/goform/form2Wan.cgi` | High
-23 | File | `/goform/SetIpMacBind` | High
-24 | File | `/htdocs/utils/Files.php` | High
-25 | File | `/include/menu_u.inc.php` | High
-26 | File | `/includes/db_connect.php` | High
-27 | File | `/includes/images.php` | High
-28 | File | `/index.php` | Medium
-29 | File | `/ip/admin/` | Medium
-30 | File | `/jfinal_cms/system/role/list` | High
-31 | File | `/librarian/edit_book_details.php` | High
-32 | File | `/login.php` | Medium
-33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-34 | File | `/master/index.php` | High
-35 | File | `/mkshop/Men/profile.php` | High
-36 | File | `/oa/setup/checkPool?database` | High
-37 | File | `/pages/class_sched.php` | High
-38 | File | `/pages/faculty_sched.php` | High
-39 | File | `/pages/permit/permit.php` | High
-40 | File | `/pages/processlogin.php` | High
-41 | File | `/patient/booking.php` | High
-42 | File | `/php_action/createUser.php` | High
-43 | File | `/pms/update_medicine.php` | High
-44 | File | `/pms/update_user.php` | High
-45 | File | `/qr/I/` | Low
-46 | File | `/release-x64/otfccdump` | High
-47 | File | `/see_more_details.php` | High
-48 | File | `/servlet/AdapterHTTP` | High
-49 | File | `/session/sendmail` | High
-50 | File | `/sistema/flash/reboot` | High
-51 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-52 | File | `/templates/default/html/windows/right.php` | High
-53 | File | `/WebApp/SettingsFileMonitor/GetFileMonitorProfiles` | High
-54 | ... | ... | ...
+1 | File | `/admin/?page=reports/waste` | High
+2 | File | `/admin/?page=user/manage_user` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/index.PHP` | High
+5 | File | `/admin/video/list` | High
+6 | File | `/administration/settings_registration.php` | High
+7 | File | `/api/upload-resource` | High
+8 | File | `/api/v2/config` | High
+9 | File | `/appConfig/userDB.json` | High
+10 | File | `/authUserAction!edit.action` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/bits/stl_vector.h` | High
+14 | File | `/c/macho_reader.c` | High
+15 | File | `/card/in-card.php` | High
+16 | File | `/cgi-bin/DownloadFlash` | High
+17 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Users.php?f=save_client` | High
+20 | File | `/coreframe/app/attachment/admin/index.php` | High
+21 | File | `/csms/admin/storages/view_storage.php` | High
+22 | File | `/defaultui/player/modern.html` | High
+23 | File | `/dishes.php` | Medium
+24 | File | `/etc/ciel.cfg` | High
+25 | File | `/etc/init0.d/S80telnetd.sh` | High
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/garage/editclient.php` | High
+29 | File | `/get_missing_events` | High
+30 | File | `/goform/addRouting` | High
+31 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -52,10 +52,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/common/ticket_associated_tickets.php` | High
 2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-3 | File | `FileDownload.jsp` | High
+3 | File | `DesktopEditor/common/File.cpp` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

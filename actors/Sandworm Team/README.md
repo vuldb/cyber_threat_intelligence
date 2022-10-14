@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,23 +77,24 @@ ID | Type | Indicator | Confidence
 15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 16 | File | `/debug/pprof` | Medium
 17 | File | `/etc/hosts` | Medium
-18 | File | `/fuel/index.php/fuel/logs/items` | High
-19 | File | `/fuel/sitevariables/delete/4` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/manage-apartment.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/odfs/classes/Master.php?f=save_category` | High
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/print.php` | Medium
-30 | File | `/proc/<PID>/mem` | High
-31 | File | `/public/plugins/` | High
-32 | ... | ... | ...
+18 | File | `/forum/away.php` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/setmac` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index/jobfairol/show/` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/odfs/classes/Master.php?f=save_category` | High
+29 | File | `/pages/apply_vacancy.php` | High
+30 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+31 | File | `/print.php` | Medium
+32 | File | `/proc/<PID>/mem` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

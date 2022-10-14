@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,39 +74,39 @@ ID | Type | Indicator | Confidence
 11 | File | `/public/launchNewWindow.jsp` | High
 12 | File | `/public/login.htm` | High
 13 | File | `/rom-0` | Low
-14 | File | `/tmp/connlicj.bin` | High
-15 | File | `/tmp/phpglibccheck` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-18 | File | `/var/log/nginx` | High
-19 | File | `/var/tmp/sess_*` | High
-20 | File | `action.php` | Medium
-21 | File | `actionphp/download.File.php` | High
-22 | File | `add_comment.php` | High
-23 | File | `admin.a6mambocredits.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/admin.php` | High
-26 | File | `admin/content.php` | High
-27 | File | `admin/import/class-import-settings.php` | High
-28 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-29 | File | `admin/sitesettings.php` | High
-30 | File | `affich.php` | Medium
-31 | File | `agent/Core/Controller/SendRequest.cpp` | High
-32 | File | `akeyActivationLogin.do` | High
-33 | File | `album_portal.php` | High
-34 | File | `apache-auth.conf` | High
-35 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-36 | File | `askapache-firefox-adsense.php` | High
-37 | File | `assets/add/category.php` | High
-38 | File | `attachment.cgi` | High
-39 | File | `blueprints/sections/edit/1` | High
-40 | File | `books.php` | Medium
-41 | File | `btif_hd.cc` | Medium
-42 | File | `cart.php` | Medium
-43 | File | `cart_add.php` | Medium
+14 | File | `/spip.php` | Medium
+15 | File | `/tmp/connlicj.bin` | High
+16 | File | `/tmp/phpglibccheck` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+19 | File | `/var/log/nginx` | High
+20 | File | `/var/tmp/sess_*` | High
+21 | File | `action.php` | Medium
+22 | File | `actionphp/download.File.php` | High
+23 | File | `add_comment.php` | High
+24 | File | `admin.a6mambocredits.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/admin.php` | High
+27 | File | `admin/content.php` | High
+28 | File | `admin/import/class-import-settings.php` | High
+29 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+30 | File | `admin/sitesettings.php` | High
+31 | File | `affich.php` | Medium
+32 | File | `agent/Core/Controller/SendRequest.cpp` | High
+33 | File | `akeyActivationLogin.do` | High
+34 | File | `album_portal.php` | High
+35 | File | `apache-auth.conf` | High
+36 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+37 | File | `askapache-firefox-adsense.php` | High
+38 | File | `assets/add/category.php` | High
+39 | File | `attachment.cgi` | High
+40 | File | `blueprints/sections/edit/1` | High
+41 | File | `books.php` | Medium
+42 | File | `btif_hd.cc` | Medium
+43 | File | `cart.php` | Medium
 44 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
-2 | [91.219.237.99](https://vuldb.com/?ip.91.219.237.99) | sa1286.azar-a.net | [Molerats](https://vuldb.com/?actor.molerats) | High
-3 | [104.21.49.220](https://vuldb.com/?ip.104.21.49.220) | - | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+1 | [66.42.103.222](https://vuldb.com/?ip.66.42.103.222) | 66.42.103.222.vultrusercontent.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+2 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | [SparklingGoblin](https://vuldb.com/?actor.sparklinggoblin) | High
+3 | [91.219.237.99](https://vuldb.com/?ip.91.219.237.99) | sa1286.azar-a.net | [Molerats](https://vuldb.com/?actor.molerats) | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,28 +60,29 @@ ID | Type | Indicator | Confidence
 1 | File | `.encfs6.xml` | Medium
 2 | File | `.htaccess` | Medium
 3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-5 | File | `/dl/dl_sendmail.php` | High
-6 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-7 | File | `/etc/qci/answers` | High
-8 | File | `/function/booksave.php` | High
-9 | File | `/inc/campaign/campaign-delete.php` | High
-10 | File | `/sgmi/` | Low
-11 | File | `/tmp` | Low
-12 | File | `/usr/lib/print/conv_fix` | High
-13 | File | `add_comment.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/plugin.php` | High
-16 | File | `admin\addgroup.php` | High
-17 | File | `agents.php` | Medium
-18 | File | `app/View/Helper/CommandHelper.php` | High
-19 | File | `apport/hookutils.py` | High
-20 | File | `auth_changepassword.php` | High
-21 | File | `auth_profile.php` | High
-22 | File | `base/PdfParser.cpp` | High
-23 | ... | ... | ...
+4 | File | `/admin/video/list` | High
+5 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+6 | File | `/dl/dl_sendmail.php` | High
+7 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
+8 | File | `/etc/qci/answers` | High
+9 | File | `/function/booksave.php` | High
+10 | File | `/inc/campaign/campaign-delete.php` | High
+11 | File | `/sgmi/` | Low
+12 | File | `/tmp` | Low
+13 | File | `/usr/lib/print/conv_fix` | High
+14 | File | `add_comment.php` | High
+15 | File | `admin.php` | Medium
+16 | File | `admin/plugin.php` | High
+17 | File | `admin/write-post.php` | High
+18 | File | `admin\addgroup.php` | High
+19 | File | `agents.php` | Medium
+20 | File | `app/View/Helper/CommandHelper.php` | High
+21 | File | `apport/hookutils.py` | High
+22 | File | `auth_changepassword.php` | High
+23 | File | `auth_profile.php` | High
+24 | ... | ... | ...
 
-There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

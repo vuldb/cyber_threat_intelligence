@@ -19,6 +19,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MS](https://vuldb.com/?country.ms)
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +32,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [10.0.0.211](https://vuldb.com/?ip.10.0.0.211) | - | WaterBear | High
 2 | [43.240.12.81](https://vuldb.com/?ip.43.240.12.81) | mail.terascape.net | Taiwan Government Agencies | High
 3 | [45.76.102.145](https://vuldb.com/?ip.45.76.102.145) | 45.76.102.145.vultr.com | TSCookie | Medium
-4 | ... | ... | ... | ...
+4 | [45.124.25.31](https://vuldb.com/?ip.45.124.25.31) | hkhdc.laws.ms | Taiwan Government Agencies | High
+5 | ... | ... | ... | ...
 
-There are 11 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,20 +60,22 @@ ID | Type | Indicator | Confidence
 1 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
 2 | File | `/cgi-bin/portal` | High
 3 | File | `/cgi-mod/lookup.cgi` | High
-4 | File | `/mifs/c/i/reg/reg.html` | High
-5 | File | `/server-info` | Medium
-6 | File | `/service/upload` | High
-7 | File | `/tmp` | Low
-8 | File | `/uncpath/` | Medium
-9 | File | `/wp-json/oembed/1.0/embed?url` | High
-10 | File | `a2billing/customer/iridium_threed.php` | High
-11 | File | `admin.php` | Medium
-12 | File | `admin.php?s=/Channel/add.html` | High
-13 | File | `admin/class-bulk-editor-list-table.php` | High
-14 | File | `administrator/components/com_media/helpers/media.php` | High
-15 | ... | ... | ...
+4 | File | `/forum/away.php` | High
+5 | File | `/mifs/c/i/reg/reg.html` | High
+6 | File | `/modules/profile/index.php` | High
+7 | File | `/RPC2` | Low
+8 | File | `/server-info` | Medium
+9 | File | `/service/upload` | High
+10 | File | `/tmp` | Low
+11 | File | `/uncpath/` | Medium
+12 | File | `/wp-json/oembed/1.0/embed?url` | High
+13 | File | `a2billing/customer/iridium_threed.php` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin.php?s=/Channel/add.html` | High
+16 | File | `admin/class-bulk-editor-list-table.php` | High
+17 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,6 +83,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blogs.jpcert.or.jp/en/2018/03/malware-tscooki-7aa0.html
 * https://blogs.jpcert.or.jp/en/2021/10/gh0sttimes.html
+* https://blogs.jpcert.or.jp/en/2022/09/bigip-exploit.html
 * https://www.ithome.com.tw/news/139504
 * https://www.trendmicro.com/en_us/research/17/f/following-trail-blacktech-cyber-espionage-campaigns.html
 * https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html

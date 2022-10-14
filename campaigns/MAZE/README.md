@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,22 +65,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/ajax-files/postComment.php` | High
 3 | File | `/cgi-bin/login_action.cgi` | High
 4 | File | `/cgi-bin/webproc` | High
-5 | File | `/index.php` | Medium
-6 | File | `/index.php/weblinks-categories` | High
-7 | File | `/menu.html` | Medium
-8 | File | `/mics/j_spring_security_check` | High
-9 | File | `/mybb_1806/Upload/admin/index.php` | High
-10 | File | `/scp/directory.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/var/log/nginx` | High
-13 | File | `account/gallery.php` | High
-14 | File | `add_edit_cat.asp` | High
-15 | File | `admin.php?mod=user&act=del` | High
-16 | File | `admin/admin_process.php` | High
-17 | File | `allocator.cc` | Medium
+5 | File | `/forum/away.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/index.php/weblinks-categories` | High
+8 | File | `/menu.html` | Medium
+9 | File | `/mics/j_spring_security_check` | High
+10 | File | `/mybb_1806/Upload/admin/index.php` | High
+11 | File | `/scp/directory.php` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/var/log/nginx` | High
+14 | File | `account/gallery.php` | High
+15 | File | `add_edit_cat.asp` | High
+16 | File | `admin.php?mod=user&act=del` | High
+17 | File | `admin/admin_process.php` | High
 18 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

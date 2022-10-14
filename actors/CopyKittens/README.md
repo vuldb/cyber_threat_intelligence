@@ -14,9 +14,9 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
-* [ES](https://vuldb.com/?country.es)
 * [PT](https://vuldb.com/?country.pt)
 * [SV](https://vuldb.com/?country.sv)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -69,58 +69,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/add_trainers.php` | High
-3 | File | `/admin/header.inc.php` | High
-4 | File | `/admin/index.PHP` | High
-5 | File | `/admin/video/list` | High
-6 | File | `/api/plugin/uninstall` | High
+1 | File | `/admin/?page=reports/waste` | High
+2 | File | `/admin/?page=user/manage_user` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/index.PHP` | High
+6 | File | `/admin/video/list` | High
 7 | File | `/api/upload-resource` | High
 8 | File | `/api/v2/config` | High
-9 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/bits/stl_vector.h` | High
-12 | File | `/card/in-card.php` | High
-13 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-14 | File | `/classes/Users.php?f=save_client` | High
-15 | File | `/coreframe/app/attachment/admin/index.php` | High
-16 | File | `/dishes.php` | Medium
-17 | File | `/etc/quagga` | Medium
-18 | File | `/etc/shadow.sample` | High
-19 | File | `/fax/fax_send.php` | High
-20 | File | `/garage/editclient.php` | High
-21 | File | `/get_missing_events` | High
-22 | File | `/gfxpoly/stroke.c` | High
-23 | File | `/goform/addRouting` | High
-24 | File | `/goform/form2Wan.cgi` | High
-25 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
-26 | File | `/htdocs/utils/Files.php` | High
-27 | File | `/include/menu_u.inc.php` | High
-28 | File | `/includes/db_connect.php` | High
-29 | File | `/includes/images.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/ip/admin/` | Medium
-32 | File | `/login.php` | Medium
-33 | File | `/multiarch/memset-vec-unaligned-erms.S` | High
-34 | File | `/oa/setup/checkPool?database` | High
-35 | File | `/pages/class_sched.php` | High
-36 | File | `/pages/faculty_sched.php` | High
-37 | File | `/pages/permit/permit.php` | High
-38 | File | `/patient/booking.php` | High
-39 | File | `/pms/update_medicine.php` | High
-40 | File | `/pms/update_user.php` | High
-41 | File | `/qr/I/` | Low
-42 | File | `/release-x64/otfccdump` | High
-43 | File | `/release-x64/otfccdump+0x6badae` | High
-44 | File | `/release-x64/otfccdump+0x5266a8` | High
-45 | File | `/sanitizer_common/sanitizer_common_interceptors.inc` | High
-46 | File | `/session/sendmail` | High
-47 | File | `/sistema/flash/reboot` | High
-48 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-49 | File | `/templates/default/html/windows/right.php` | High
-50 | ... | ... | ...
+9 | File | `/authUserAction!edit.action` | High
+10 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/bits/stl_vector.h` | High
+13 | File | `/card/in-card.php` | High
+14 | File | `/cgi-bin/DownloadFlash` | High
+15 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/classes/Users.php?f=save_client` | High
+18 | File | `/coreframe/app/attachment/admin/index.php` | High
+19 | File | `/csms/admin/storages/view_storage.php` | High
+20 | File | `/dishes.php` | Medium
+21 | File | `/etc/ciel.cfg` | High
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/fax/fax_send.php` | High
+24 | File | `/garage/editclient.php` | High
+25 | File | `/get_missing_events` | High
+26 | File | `/gfxpoly/stroke.c` | High
+27 | File | `/goform/addRouting` | High
+28 | File | `/goform/form2Wan.cgi` | High
+29 | File | `/goform/NTPSyncWithHost` | High
+30 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
+31 | File | `/htdocs/utils/Files.php` | High
+32 | File | `/includes/images.php` | High
+33 | File | `/index.php` | Medium
+34 | ... | ... | ...
 
-There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

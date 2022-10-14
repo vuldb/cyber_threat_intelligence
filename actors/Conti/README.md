@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -541,42 +541,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.procmailrc` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/admin/communitymanagement.php` | High
-4 | File | `/admin/extended` | High
-5 | File | `/admin/featured.php` | High
-6 | File | `/admin/generalsettings.php` | High
-7 | File | `/admin/inquiries/view_details.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/newsletter1.php` | High
-10 | File | `/admin/payment.php` | High
-11 | File | `/admin/students/view_student.php` | High
-12 | File | `/admin/usermanagement.php` | High
-13 | File | `/ad_js.php` | Medium
-14 | File | `/api/addusers` | High
-15 | File | `/app/options.py` | High
-16 | File | `/application/common.php#action_log` | High
-17 | File | `/cgi-bin/login.cgi` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/ci_hms/massage_room/edit/1` | High
-21 | File | `/core/conditions/AbstractWrapper.java` | High
-22 | File | `/cwc/login` | Medium
-23 | File | `/dashboard/reports/logs/view` | High
-24 | File | `/dashboard/updatelogo.php` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/designer/add/layout` | High
-28 | File | `/etc/hosts` | Medium
-29 | File | `/filemanager/upload/drop` | High
-30 | File | `/gasmark/assets/myimages/oneWord.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/index/jobfairol/show/` | High
-35 | File | `/loginVaLidation.php` | High
+3 | File | `/admin/inquiries/view_details.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/ad_js.php` | Medium
+8 | File | `/api/addusers` | High
+9 | File | `/app/options.py` | High
+10 | File | `/application/common.php#action_log` | High
+11 | File | `/card_scan.php` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cwc/login` | Medium
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/dashboard/updatelogo.php` | High
+17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/export` | Low
+21 | File | `/gasmark/assets/myimages/oneWord.php` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/index.php` | Medium
+24 | File | `/loginVaLidation.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/members/view_member.php` | High
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/mygym/admin/index.php` | High
+30 | File | `/Noxen-master/users.php` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/pages/animals.php` | High
+34 | File | `/pages/apply_vacancy.php` | High
+35 | File | `/pms/index.php` | High
 36 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

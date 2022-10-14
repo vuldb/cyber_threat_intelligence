@@ -51,10 +51,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/config/getuser` | High
 3 | File | `/img/main.cgi` | High
 4 | File | `/lan.asp` | Medium
-5 | File | `/public/plugins/` | High
+5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 6 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

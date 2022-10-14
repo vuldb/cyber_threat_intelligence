@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
-* [LA](https://vuldb.com/?country.la)
+* [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -69,14 +66,15 @@ ID | IP address | Hostname | Actor | Confidence
 30 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | galya.gitarova.example.com | [Babadeda](https://vuldb.com/?actor.babadeda) | High
 31 | [45.61.136.130](https://vuldb.com/?ip.45.61.136.130) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
 32 | [45.61.186.13](https://vuldb.com/?ip.45.61.186.13) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
-33 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-34 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
-35 | [45.140.146.17](https://vuldb.com/?ip.45.140.146.17) | vm545760.stark-industries.solutions | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
-36 | [45.142.122.175](https://vuldb.com/?ip.45.142.122.175) | dreary-payment.aeza.network | [Unknown](https://vuldb.com/?actor.unknown) | High
-37 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
-38 | ... | ... | ... | ...
+33 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+34 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+35 | [45.95.11.34](https://vuldb.com/?ip.45.95.11.34) | vds2103.zevshost.net | [InvisiMole](https://vuldb.com/?actor.invisimole) | High
+36 | [45.140.146.17](https://vuldb.com/?ip.45.140.146.17) | vm545760.stark-industries.solutions | [Ukraine Unknown](https://vuldb.com/?actor.ukraine_unknown) | High
+37 | [45.142.122.175](https://vuldb.com/?ip.45.142.122.175) | dreary-payment.aeza.network | [Unknown](https://vuldb.com/?actor.unknown) | High
+38 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
+39 | ... | ... | ... | ...
 
-There are 148 more IOC items available. Please use our online service to access the data.
+There are 150 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,12 +82,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -99,31 +96,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/stockout` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/delete.php` | High
-8 | File | `/admin/delstu.php` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/admin/products/controller.php?action=add` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/categories/view_category.php` | High
-13 | File | `/cgi-bin/ExportSettings.sh` | High
-14 | File | `/classes/Master.php?f=delete_img` | High
-15 | File | `/classes/Master.php?f=delete_payment` | High
-16 | File | `/classes/Master.php?f=delete_student` | High
-17 | File | `/classes/Users.php?f=save_client` | High
-18 | File | `/defaultui/player/modern.html` | High
-19 | File | `/etc/ciel.cfg` | High
-20 | File | `/etc/init0.d/S80telnetd.sh` | High
-21 | File | `/etc/srapi/config/system.conf` | High
-22 | File | `/goform/addRouting` | High
-23 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/update_expense.php` | High
+4 | File | `/admin/update_expense_category.php` | High
+5 | File | `/api/project` | Medium
+6 | File | `/diagnostic/edittest.php` | High
+7 | File | `/ebics-server/ebics.aspx` | High
+8 | File | `/employeeview.php` | High
+9 | File | `/etc/fwupd/redfish.conf` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/file/upload/1` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/issue` | Low
+15 | File | `/kfm/index.php` | High
+16 | File | `/leave_system/classes/Users.php?f=save` | High
+17 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,6 +126,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2018/02/coinhoarder.html
 * https://blog.talosintelligence.com/2022/03/ukraine-invasion-scams-malware.html
 * https://blog.talosintelligence.com/2022/07/attackers-target-ukraine-using-gomet.html
+* https://blog.talosintelligence.com/2022/09/gamaredon-apt-targets-ukrainian-agencies.html
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-threat-advisory/ukraine-scam-campaigns/
 * https://businessinsights.bitdefender.com/deep-dive-into-the-elephant-framework-a-new-cyber-threat-in-ukraine
 * https://cert.gov.ua/article/37829

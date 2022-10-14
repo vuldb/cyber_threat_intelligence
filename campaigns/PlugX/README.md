@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AU](https://vuldb.com/?country.au)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -73,51 +73,52 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/uploads.php` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/cgi-bin/portal` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/domains/index.fts` | High
-11 | File | `/download` | Medium
-12 | File | `/etc/passwd` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/foundry/modules/news/newscolumns.php` | High
-15 | File | `/ghost/preview` | High
-16 | File | `/GponForm/device_Form?script/` | High
-17 | File | `/include/config.cache.php` | High
-18 | File | `/LDMS/frm_splitfrm.aspx` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-21 | File | `/NAGErrors` | Medium
-22 | File | `/RestAPI` | Medium
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/service-list` | High
-25 | File | `/service/upload` | High
-26 | File | `/smstest.html` | High
-27 | File | `/start-stop` | Medium
-28 | File | `/subscribe/subscribe` | High
-29 | File | `/tmp` | Low
-30 | File | `/tmp/kamailio_fifo` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/view/friend_profile.php` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `/wp-json/oembed/1.0/embed?url` | High
-35 | File | `/_error` | Low
-36 | File | `actions/authenticate.php` | High
-37 | File | `actions/doreport.php` | High
-38 | File | `addlyricsform.php` | High
-39 | File | `addmerchpicform.php` | High
-40 | File | `addresses_export.php` | High
-41 | File | `admin.php` | Medium
-42 | File | `admin.php?m=backup&c=backup&a=doback` | High
-43 | File | `admin/admin.php` | High
-44 | File | `admin/AJAX_lookup_handler.php` | High
-45 | ... | ... | ...
+3 | File | `/admin.php?action=themeinstall` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/ajax/avatar.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/uploads.php` | High
+8 | File | `/admin/users.php?source=edit_user&id=1` | High
+9 | File | `/api/` | Low
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/apply_noauth.cgi` | High
+12 | File | `/cgi-bin/portal` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/domains/index.fts` | High
+15 | File | `/download` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/foundry/modules/news/newscolumns.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/GponForm/device_Form?script/` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/jeecg-boot/sys/common/upload` | High
+23 | File | `/lan.asp` | Medium
+24 | File | `/LDMS/frm_splitfrm.aspx` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+27 | File | `/NAGErrors` | Medium
+28 | File | `/replication` | Medium
+29 | File | `/RestAPI` | Medium
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/service-list` | High
+32 | File | `/service/upload` | High
+33 | File | `/smstest.html` | High
+34 | File | `/start-stop` | Medium
+35 | File | `/subscribe/subscribe` | High
+36 | File | `/tmp` | Low
+37 | File | `/tmp/kamailio_fifo` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/view/friend_profile.php` | High
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/wp-json/oembed/1.0/embed?url` | High
+42 | File | `/_error` | Low
+43 | File | `actions/authenticate.php` | High
+44 | File | `actions/doreport.php` | High
+45 | File | `adclick.php` | Medium
+46 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

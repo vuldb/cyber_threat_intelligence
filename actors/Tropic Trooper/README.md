@@ -70,21 +70,21 @@ ID | Type | Indicator | Confidence
 1 | File | `.config/Yubico` | High
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/admin/manager/admin_mod.php` | High
-4 | File | `/cgi-bin/api-get_line_status` | High
-5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/CMD_ACCOUNT_ADMIN` | High
-7 | File | `/controller/OnlinePreviewController.java` | High
-8 | File | `/export` | Low
-9 | File | `/getcfg.php` | Medium
-10 | File | `/includes/rrdtool.inc.php` | High
-11 | File | `/onvif/device_service` | High
-12 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `ActiveMediaServer.exe` | High
-15 | File | `addentry.php` | Medium
+4 | File | `/baseOpLog.do` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
+6 | File | `/cgi-bin/editBookmark` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/CMD_ACCOUNT_ADMIN` | High
+9 | File | `/controller/OnlinePreviewController.java` | High
+10 | File | `/export` | Low
+11 | File | `/getcfg.php` | Medium
+12 | File | `/includes/rrdtool.inc.php` | High
+13 | File | `/onvif/device_service` | High
+14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+15 | File | `/uncpath/` | Medium
 16 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

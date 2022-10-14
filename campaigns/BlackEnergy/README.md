@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -61,40 +61,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/ad_js.php` | Medium
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/ci_hms/massage_room/edit/1` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/fuel/sitevariables/delete/4` | High
-17 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-18 | File | `/index/jobfairol/show/` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/manage-apartment.php` | High
-21 | File | `/mgmt/tm/util/bash` | High
-22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-23 | File | `/pages/apply_vacancy.php` | High
-24 | File | `/proc/<PID>/mem` | High
-25 | File | `/proc/<pid>/status` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/pages/apply_vacancy.php` | High
+27 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

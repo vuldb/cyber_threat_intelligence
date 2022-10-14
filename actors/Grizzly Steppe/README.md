@@ -155,15 +155,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,43 +170,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.forward` | Medium
-2 | File | `/#/network?tab=network_node_list.html` | High
-3 | File | `/about.php` | Medium
+1 | File | `/#/network?tab=network_node_list.html` | High
+2 | File | `/about.php` | Medium
+3 | File | `/Admin/add-student.php` | High
 4 | File | `/admin/addemployee.php` | High
 5 | File | `/admin/contact/list` | High
 6 | File | `/admin/del.php` | High
 7 | File | `/admin/folderrollpicture/list` | High
 8 | File | `/admin/imagealbum/list` | High
-9 | File | `/admin/lab.php` | High
-10 | File | `/admin/login.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/Admin/login.php` | High
 11 | File | `/advanced-tools/nova/bin/netwatch` | High
 12 | File | `/ad_js.php` | Medium
 13 | File | `/api/` | Low
-14 | File | `/api/plugin/uninstall` | High
-15 | File | `/bin/httpd` | Medium
-16 | File | `/blog/edit` | Medium
-17 | File | `/catcompany.php` | High
-18 | File | `/category/controller.php?action=edit` | High
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi/get_param.cgi` | High
-21 | File | `/chart` | Low
-22 | File | `/classes/Master.php?f=delete_account` | High
-23 | File | `/dashboard/reports/logs/view` | High
-24 | File | `/dashboard/updatelogo.php` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/dede/co_do.php` | High
-28 | File | `/etc/hosts` | Medium
-29 | File | `/etc/init.d/sshd_service` | High
-30 | File | `/goform/addRouting` | High
-31 | File | `/goform/saveParentControlInfo` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/SystemCommand` | High
-34 | File | `/index.php` | Medium
-35 | ... | ... | ...
+14 | File | `/bin/httpd` | Medium
+15 | File | `/blog/edit` | Medium
+16 | File | `/category/controller.php?action=edit` | High
+17 | File | `/cgi-bin/cstecgi.cgi` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/cgi/get_param.cgi` | High
+20 | File | `/classes/Master.php?f=delete_account` | High
+21 | File | `/college_website/index.php?` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/dede/co_do.php` | High
+26 | File | `/DesignTools/CssEditor.aspx` | High
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/export` | Low
+29 | File | `/goform/addRouting` | High
+30 | File | `/goform/saveParentControlInfo` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/SystemCommand` | High
+33 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

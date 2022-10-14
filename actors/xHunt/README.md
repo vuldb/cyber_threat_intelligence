@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 33 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,49 +61,49 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `.procmailrc` | Medium
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/` | Low
-7 | File | `/admin/addemployee.php` | High
-8 | File | `/admin/communitymanagement.php` | High
-9 | File | `/admin/contenttemp` | High
-10 | File | `/admin/extended` | High
-11 | File | `/admin/featured.php` | High
-12 | File | `/admin/generalsettings.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/modules/system/custom_field.php` | High
-15 | File | `/admin/newsletter1.php` | High
-16 | File | `/admin/payment.php` | High
-17 | File | `/admin/renewaldue.php` | High
-18 | File | `/admin/students/view_student.php` | High
-19 | File | `/admin/usermanagement.php` | High
-20 | File | `/api/addusers` | High
-21 | File | `/api/crontab` | Medium
-22 | File | `/bits/stl_vector.h` | High
-23 | File | `/category_view.php` | High
-24 | File | `/cgi-bin/wapopen` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/cgi-mod/lookup.cgi` | High
-27 | File | `/common/info.cgi` | High
-28 | File | `/dashboard/add-portfolio.php` | High
-29 | File | `/dashboard/updatelogo.php` | High
-30 | File | `/designer/add/layout` | High
-31 | File | `/filemanager/upload/drop` | High
-32 | File | `/getImage` | Medium
-33 | File | `/htmldoc/htmldoc/html.cxx` | High
-34 | File | `/interface/main/backup.php` | High
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/login.php` | Medium
-37 | File | `/loginVaLidation.php` | High
-38 | File | `/manage-apartment.php` | High
-39 | File | `/mcategory.php` | High
-40 | File | `/mkshop/Men/profile.php` | High
-41 | File | `/new` | Low
-42 | File | `/Noxen-master/users.php` | High
+3 | File | `/6/api.php?function=command&class=remote&Cc='ls'` | High
+4 | File | `/admin.php?action=themeinstall` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/contenttemp` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/modules/system/custom_field.php` | High
+14 | File | `/admin/newsletter1.php` | High
+15 | File | `/admin/payment.php` | High
+16 | File | `/admin/renewaldue.php` | High
+17 | File | `/admin/students/view_student.php` | High
+18 | File | `/admin/usermanagement.php` | High
+19 | File | `/api/addusers` | High
+20 | File | `/api/crontab` | Medium
+21 | File | `/bits/stl_vector.h` | High
+22 | File | `/category_view.php` | High
+23 | File | `/cgi-bin/wapopen` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/cgi-mod/lookup.cgi` | High
+26 | File | `/common/info.cgi` | High
+27 | File | `/dashboard/add-portfolio.php` | High
+28 | File | `/dashboard/updatelogo.php` | High
+29 | File | `/designer/add/layout` | High
+30 | File | `/filemanager/upload/drop` | High
+31 | File | `/getImage` | Medium
+32 | File | `/htmldoc/htmldoc/html.cxx` | High
+33 | File | `/interface/main/backup.php` | High
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/login.php` | Medium
+36 | File | `/loginVaLidation.php` | High
+37 | File | `/manage-apartment.php` | High
+38 | File | `/mcategory.php` | High
+39 | File | `/mkshop/Men/profile.php` | High
+40 | File | `/new` | Low
+41 | File | `/Noxen-master/users.php` | High
+42 | File | `/out.php` | Medium
 43 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

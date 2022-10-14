@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,32 +80,32 @@ ID | Type | Indicator | Confidence
 2 | File | `/catcompany.php` | High
 3 | File | `/cgi-bin/login.cgi` | High
 4 | File | `/componetns/user/class.user.php` | High
-5 | File | `/etc/passwd` | Medium
-6 | File | `/etc/tomcat8/Catalina/attack` | High
-7 | File | `/export` | Low
-8 | File | `/forgetpassword.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/front/document.form.php` | High
-11 | File | `/ibi_apps/WFServlet.cfg` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/out.php` | Medium
-15 | File | `/rest/api/latest/projectvalidate/key` | High
-16 | File | `/rest/collectors/1.0/template/custom` | High
-17 | File | `/RestAPI` | Medium
-18 | File | `/search.php` | Medium
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-21 | File | `/ServletAPI/accounts/login` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/login/oauth` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/var/log/messages` | High
-26 | File | `/var/www/core/controller/index.php` | High
-27 | File | `/WEB-INF/web.xml` | High
+5 | File | `/etc/tomcat8/Catalina/attack` | High
+6 | File | `/export` | Low
+7 | File | `/forgetpassword.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/front/document.form.php` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/plugin` | Low
+14 | File | `/rest/api/latest/projectvalidate/key` | High
+15 | File | `/rest/collectors/1.0/template/custom` | High
+16 | File | `/RestAPI` | Medium
+17 | File | `/search.php` | Medium
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/ServletAPI/accounts/login` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/user/login/oauth` | High
+23 | File | `/usr/bin/pkexec` | High
+24 | File | `/var/log/messages` | High
+25 | File | `/var/www/core/controller/index.php` | High
+26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+27 | File | `/websocket/exec` | High
 28 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

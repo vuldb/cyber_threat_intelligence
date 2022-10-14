@@ -27,7 +27,8 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | - | High
 5 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | - | High
 6 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | - | High
-7 | ... | ... | ... | ...
+7 | [67.199.248.10](https://vuldb.com/?ip.67.199.248.10) | bit.ly | - | High
+8 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
@@ -37,13 +38,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,20 +60,23 @@ ID | Type | Indicator | Confidence
 6 | File | `/login.html` | Medium
 7 | File | `/medical/inventories.php` | High
 8 | File | `/pages.php` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-11 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-12 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-13 | File | `abm.aspx` | Medium
-14 | File | `actions/ChangeConfiguration.html` | High
-15 | ... | ... | ...
+9 | File | `/patient/doctors.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+12 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+13 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+14 | File | `abm.aspx` | Medium
+15 | File | `actions/ChangeConfiguration.html` | High
+16 | File | `adclick.php` | Medium
+17 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/308/gs-031-azorult-stealer-iocs/
 * https://blog.cyble.com/2021/10/26/a-deep-dive-analysis-of-azorult-stealer/
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://cert.gov.ua/article/2806

@@ -57,7 +57,8 @@ ID | Type | Indicator | Confidence
 3 | File | `admin/content/postcategory` | High
 4 | File | `Adminstrator/Users/Edit/` | High
 5 | File | `agent.cfg` | Medium
-6 | ... | ... | ...
+6 | File | `ALL_IN_THE_BOX.OCX` | High
+7 | ... | ... | ...
 
 There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

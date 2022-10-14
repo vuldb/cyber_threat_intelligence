@@ -16,12 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [178.132.6.150](https://vuldb.com/?ip.178.132.6.150) | 178-132-6-150.hosted-by-worldstream.net | - | High
-2 | [185.215.113.42](https://vuldb.com/?ip.185.215.113.42) | - | - | High
-3 | [185.215.113.81](https://vuldb.com/?ip.185.215.113.81) | - | - | High
+1 | [45.141.85.25](https://vuldb.com/?ip.45.141.85.25) | - | - | High
+2 | [178.132.6.150](https://vuldb.com/?ip.178.132.6.150) | 178-132-6-150.hosted-by-worldstream.net | - | High
+3 | [185.215.113.42](https://vuldb.com/?ip.185.215.113.42) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,6 +44,7 @@ ID | Type | Indicator | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/6290743382df41552632f5fe
 * https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html
 
 ## Literature

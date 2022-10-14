@@ -55,25 +55,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/movie.php` | Medium
-3 | File | `/phppath/php` | Medium
-4 | File | `/search_events.php` | High
-5 | File | `/StartingPage/link_req_2.php` | High
-6 | File | `/ViewUserHover.jspa` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/AJAX_lookup_handler.php` | High
-9 | File | `admin/general.php` | High
-10 | File | `admin/login.asp` | High
-11 | File | `admin/movieedit.php` | High
-12 | File | `affich.php` | Medium
-13 | File | `ahcache.sys` | Medium
-14 | File | `ajax/api/hook/getHookList` | High
-15 | File | `api.php` | Low
-16 | File | `applicationContext-spring-security.xml` | High
+1 | File | `/DesignTools/CssEditor.aspx` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/movie.php` | Medium
+4 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+5 | File | `/phppath/php` | Medium
+6 | File | `/search_events.php` | High
+7 | File | `/StartingPage/link_req_2.php` | High
+8 | File | `/ViewUserHover.jspa` | High
+9 | File | `admin.php` | Medium
+10 | File | `admin/AJAX_lookup_handler.php` | High
+11 | File | `admin/general.php` | High
+12 | File | `admin/login.asp` | High
+13 | File | `admin/movieedit.php` | High
+14 | File | `affich.php` | Medium
+15 | File | `ahcache.sys` | Medium
+16 | File | `ajax/api/hook/getHookList` | High
 17 | ... | ... | ...
 
-There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

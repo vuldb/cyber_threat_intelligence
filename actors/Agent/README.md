@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,54 +56,52 @@ ID | Type | Indicator | Confidence
 3 | File | `/.ssh/authorized_keys` | High
 4 | File | `/admin/default.asp` | High
 5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/app/options.py` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/ci_spms/admin/category` | High
-9 | File | `/ci_spms/admin/search/searching/` | High
-10 | File | `/classes/Master.php?f=delete_train` | High
-11 | File | `/cms/print.php` | High
-12 | File | `/concat?/%2557EB-INF/web.xml` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/dashboard/menu-list.php` | High
-15 | File | `/dashboard/updatelogo.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/download` | Medium
-18 | File | `/etc/passwd` | Medium
-19 | File | `/ffos/classes/Master.php?f=save_category` | High
-20 | File | `/goforms/rlminfo` | High
-21 | File | `/Items/*/RemoteImages/Download` | High
-22 | File | `/login` | Low
-23 | File | `/navigate/navigate_download.php` | High
-24 | File | `/ocwbs/admin/?page=user/manage_user` | High
-25 | File | `/ofrs/admin/?page=user/manage_user` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/password.html` | High
-28 | File | `/proc/ioports` | High
-29 | File | `/property-list/property_view.php` | High
-30 | File | `/ptms/classes/Users.php` | High
-31 | File | `/rest` | Low
-32 | File | `/rest/api/2/search` | High
-33 | File | `/s/` | Low
-34 | File | `/scripts/cpan_config` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/services/system/setup.json` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/uncpath/` | Medium
-39 | File | `/vloggers_merch/?p=view_product` | High
-40 | File | `/webconsole/APIController` | High
-41 | File | `/websocket/exec` | High
-42 | File | `/whbs/?page=my_bookings` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `/wp-json` | Medium
-45 | File | `/wp-json/oembed/1.0/embed?url` | High
-46 | File | `/_next` | Low
-47 | File | `4.edu.php\conn\function.php` | High
-48 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-49 | File | `adclick.php` | Medium
-50 | File | `addentry.php` | Medium
-51 | ... | ... | ...
+6 | File | `/api` | Low
+7 | File | `/app/options.py` | High
+8 | File | `/assets/ctx` | Medium
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_train` | High
+14 | File | `/cms/print.php` | High
+15 | File | `/concat?/%2557EB-INF/web.xml` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/dashboard/updatelogo.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/download` | Medium
+21 | File | `/etc/passwd` | Medium
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/index.php` | Medium
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+27 | File | `/login` | Low
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/navigate/navigate_download.php` | High
+30 | File | `/Noxen-master/users.php` | High
+31 | File | `/ocwbs/admin/?page=user/manage_user` | High
+32 | File | `/ofrs/admin/?page=user/manage_user` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/password.html` | High
+35 | File | `/port_3480/data_request` | High
+36 | File | `/proc/ioports` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/rest/api/2/search` | High
+40 | File | `/s/` | Low
+41 | File | `/scripts/cpan_config` | High
+42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+43 | File | `/services/system/setup.json` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/uncpath/` | Medium
+46 | File | `/vloggers_merch/?p=view_product` | High
+47 | File | `/webconsole/APIController` | High
+48 | File | `/websocket/exec` | High
+49 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

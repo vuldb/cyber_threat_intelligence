@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kaseya:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 
 ## Actors
 
@@ -52,11 +53,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `config.php` | Medium
-2 | File | `passthru.php` | Medium
-3 | Library | `lib/pwa-deactivate.php` | High
+2 | File | `hw/scsi/megasas.c` | High
+3 | File | `passthru.php` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

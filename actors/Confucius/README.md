@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,10 +61,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/edit_admin_details.php?id=admin` | High
-5 | File | `/admin/generalsettings.php` | High
+2 | File | `/admin/conferences/list/` | High
+3 | File | `/admin/edit_admin_details.php?id=admin` | High
+4 | File | `/admin/generalsettings.php` | High
+5 | File | `/Admin/login.php` | High
 6 | File | `/admin/payment.php` | High
 7 | File | `/admin/reports.php` | High
 8 | File | `/admin/showbad.php` | High
@@ -72,13 +72,13 @@ ID | Type | Indicator | Confidence
 10 | File | `/bsms/?page=products` | High
 11 | File | `/cgi-bin/kerbynet` | High
 12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dms/admin/reports/daily_collection_report.php` | High
-16 | File | `/ext/phar/phar_object.c` | High
-17 | File | `/filemanager/php/connector.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/get_getnetworkconf.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dms/admin/reports/daily_collection_report.php` | High
+17 | File | `/ext/phar/phar_object.c` | High
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/forum/away.php` | High
 20 | File | `/HNAP1` | Low
 21 | File | `/include/chart_generator.php` | High
 22 | File | `/index.php` | Medium
@@ -109,11 +109,9 @@ ID | Type | Indicator | Confidence
 47 | File | `admin.php?m=Food&a=addsave` | High
 48 | File | `admin/conf_users_edit.php` | High
 49 | File | `admin/index.php` | High
-50 | File | `admin/limits.php` | High
-51 | File | `admin/write-post.php` | High
-52 | ... | ... | ...
+50 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

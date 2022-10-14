@@ -53,9 +53,11 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [43.245.196.122](https://vuldb.com/?ip.43.245.196.122) | - | Cache Panda | High
 23 | [43.245.196.123](https://vuldb.com/?ip.43.245.196.123) | - | Cache Panda | High
 24 | [43.245.196.124](https://vuldb.com/?ip.43.245.196.124) | - | Cache Panda | High
-25 | ... | ... | ... | ...
+25 | [45.62.112.161](https://vuldb.com/?ip.45.62.112.161) | 45.62.112.161.16clouds.com | Cloud Hopper | High
+26 | [45.138.157.83](https://vuldb.com/?ip.45.138.157.83) | google.com.tm | A41APT | High
+27 | ... | ... | ... | ...
 
-There are 98 more IOC items available. Please use our online service to access the data.
+There are 104 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -111,12 +113,13 @@ ID | Type | Indicator | Confidence
 32 | File | `admin.jcomments.php` | High
 33 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/blackorbird/APT_REPORT/blob/master/summary/2021/mpressioncss_ta_report_2020_5_en.pdf
 * https://github.com/janhenrikdotcom/iocs/blob/master/APT10/Operation%20Cloud%20Hopper%20-%20Indicators%20of%20Compromise%20v3.csv
 * https://github.com/PwCUK-CTO/OperationCloudHopper/blob/master/cloud-hopper-indicators-of-compromise-v3.csv
 * https://github.com/riduangan/APT10/blob/master/IOC

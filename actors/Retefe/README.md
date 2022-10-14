@@ -35,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/config.php?display=disa&view=form` | High
-2 | File | `/owa/auth/logon.aspx` | High
-3 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `adclick.php` | Medium
-6 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-7 | File | `clsowa.cls` | Medium
-8 | ... | ... | ...
+2 | File | `/index.php` | Medium
+3 | File | `/members/view_member.php` | High
+4 | File | `/owa/auth/logon.aspx` | High
+5 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `adclick.php` | Medium
+8 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+9 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

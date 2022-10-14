@@ -84,7 +84,8 @@ ID | IP address | Hostname | Actor | Confidence
 52 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
 53 | [66.117.77.134](https://vuldb.com/?ip.66.117.77.134) | 66-117-77-134.gohighspeed.com | [Zeus](https://vuldb.com/?actor.zeus) | High
 54 | [66.180.118.226](https://vuldb.com/?ip.66.180.118.226) | 66-180-118-226.customerip.birch.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-55 | ... | ... | ... | ...
+55 | [66.221.13.60](https://vuldb.com/?ip.66.221.13.60) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+56 | ... | ... | ... | ...
 
 There are 218 more IOC items available. Please use our online service to access the data.
 
@@ -101,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -110,38 +111,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/ad_js.php` | Medium
-3 | File | `/Ap4RtpAtom.cpp` | High
-4 | File | `/app/options.py` | High
-5 | File | `/bcms/admin/?page=user/list` | High
-6 | File | `/bsms/?page=manage_account` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/ci_hms/massage_room/edit/1` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/hosts` | Medium
-14 | File | `/fuel/index.php/fuel/logs/items` | High
-15 | File | `/fuel/sitevariables/delete/4` | High
-16 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-17 | File | `/index/jobfairol/show/` | High
-18 | File | `/librarian/bookdetails.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/new` | Low
-22 | File | `/objects/getImageMP4.php` | High
-23 | File | `/proc/<PID>/mem` | High
-24 | File | `/proc/<pid>/status` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-29 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-30 | File | `/tmp` | Low
-31 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/ad_js.php` | Medium
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/app/options.py` | High
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/fuel/index.php/fuel/logs/items` | High
+17 | File | `/fuel/sitevariables/delete/4` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+20 | File | `/index/jobfairol/show/` | High
+21 | File | `/librarian/bookdetails.php` | High
+22 | File | `/manage-apartment.php` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/objects/getImageMP4.php` | High
+26 | File | `/pages/apply_vacancy.php` | High
+27 | File | `/proc/<PID>/mem` | High
+28 | File | `/proc/<pid>/status` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -151,6 +153,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2020/09/threat-roundup-0918-0925.html
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_zeus.netset
 * https://isc.sans.edu/forums/diary/Recent+Emotet+activity/23908/
 * https://twitter.com/RakeshKrish12/status/1204571340096724993

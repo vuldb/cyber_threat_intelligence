@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,7 +61,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -72,23 +73,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/trackedEntityInstances` | High
-2 | File | `/cgi-bin/portal` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/download` | Medium
-5 | File | `/etc/shadow` | Medium
-6 | File | `/inc/extensions.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/Items/*/RemoteImages/Download` | High
-9 | File | `/members/view_member.php` | High
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/nova/bin/console` | High
-12 | File | `/out.php` | Medium
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/req_password_user.php` | High
-15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | ... | ... | ...
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/portal` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/cwc/login` | Medium
+6 | File | `/download` | Medium
+7 | File | `/etc/shadow` | Medium
+8 | File | `/inc/extensions.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/Items/*/RemoteImages/Download` | High
+11 | File | `/members/view_member.php` | High
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/nova/bin/console` | High
+14 | File | `/out.php` | Medium
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/req_password_user.php` | High
+17 | ... | ... | ...
 
-There are 130 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

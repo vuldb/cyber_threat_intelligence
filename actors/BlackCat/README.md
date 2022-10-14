@@ -34,15 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,26 +64,25 @@ ID | Type | Indicator | Confidence
 12 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
 13 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
 14 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-15 | File | `/cgi/get_param.cgi` | High
-16 | File | `/checklogin.jsp` | High
-17 | File | `/ci_hms/search` | High
-18 | File | `/ci_spms/admin/search/searching/` | High
-19 | File | `/classes/Master.php?f=delete_category` | High
-20 | File | `/classes/Master.php?f=delete_payment` | High
-21 | File | `/classes/Master.php?f=delete_schedule` | High
-22 | File | `/company/account/safety/trade` | High
-23 | File | `/ctpms/admin/?page=individuals/view_individual` | High
-24 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-25 | File | `/dashboard/reports/logs/view` | High
-26 | File | `/dashboard/snapshot/*?orgId=0` | High
-27 | File | `/dotrace.asp` | Medium
-28 | File | `/etc/init0.d/S80telnetd.sh` | High
-29 | File | `/fuel/sitevariables/delete/4` | High
-30 | File | `/goform/AdvSetLanIp` | High
-31 | File | `/goform/aspForm` | High
-32 | ... | ... | ...
+15 | File | `/buspassms/download-pass.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/cgi/get_param.cgi` | High
+18 | File | `/checklogin.jsp` | High
+19 | File | `/ci_hms/search` | High
+20 | File | `/ci_spms/admin/search/searching/` | High
+21 | File | `/classes/Master.php?f=delete_category` | High
+22 | File | `/classes/Master.php?f=delete_payment` | High
+23 | File | `/classes/Master.php?f=delete_schedule` | High
+24 | File | `/company/account/safety/trade` | High
+25 | File | `/csms/admin/storages/view_storage.php` | High
+26 | File | `/dashboard/reports/logs/view` | High
+27 | File | `/dashboard/snapshot/*?orgId=0` | High
+28 | File | `/diagnostic/editclient.php` | High
+29 | File | `/dotrace.asp` | Medium
+30 | File | `/etc/init0.d/S80telnetd.sh` | High
+31 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

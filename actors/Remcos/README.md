@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -117,9 +117,11 @@ ID | IP address | Hostname | Campaign | Confidence
 88 | [46.246.80.68](https://vuldb.com/?ip.46.246.80.68) | c-46-246-80-68.ip4.frootvpn.com | - | High
 89 | [47.254.172.117](https://vuldb.com/?ip.47.254.172.117) | - | - | High
 90 | [50.16.234.229](https://vuldb.com/?ip.50.16.234.229) | ec2-50-16-234-229.compute-1.amazonaws.com | - | Medium
-91 | ... | ... | ... | ...
+91 | [50.63.202.36](https://vuldb.com/?ip.50.63.202.36) | ip-50-63-202-36.ip.secureserver.net | - | High
+92 | [51.15.229.127](https://vuldb.com/?ip.51.15.229.127) | 127-229-15-51.instances.scw.cloud | - | High
+93 | ... | ... | ... | ...
 
-There are 361 more IOC items available. Please use our online service to access the data.
+There are 366 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -134,7 +136,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -143,31 +145,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/inquiries/view_details.php` | High
-2 | File | `/api/index.php` | High
-3 | File | `/blog/blog.php` | High
-4 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-5 | File | `/common/info.cgi` | High
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/api/index.php` | High
+4 | File | `/blog/blog.php` | High
+5 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 6 | File | `/etc/hosts` | Medium
 7 | File | `/etc/networkd-dispatcher` | High
-8 | File | `/etc/password` | High
+8 | File | `/export` | Low
 9 | File | `/forum/away.php` | High
 10 | File | `/goform/wifiSSIDset` | High
 11 | File | `/hy-cgi/devices.cgi` | High
 12 | File | `/IISADMPWD` | Medium
 13 | File | `/index.php` | Medium
-14 | File | `/net/nfc/netlink.c` | High
-15 | File | `/obs/bookPerPub.php` | High
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/plugin/jcapture/applet.php` | High
-18 | File | `/proc/stat` | Medium
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/net/nfc/netlink.c` | High
+16 | File | `/obs/bookPerPub.php` | High
+17 | File | `/php_action/createUser.php` | High
+18 | File | `/plugin/jcapture/applet.php` | High
 19 | File | `/ram/pckg/security/nova/bin/ipsec` | High
 20 | File | `/rss.xml` | Medium
 21 | File | `/uncpath/` | Medium
 22 | File | `/usr/bin/pkexec` | High
-23 | File | `/webservices/api/v2.php` | High
-24 | ... | ... | ...
+23 | ... | ... | ...
 
-There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -176,6 +177,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/87/remcos-rat-remote-access-trojan-ioc/
 * https://asec.ahnlab.com/en/31429/
 * https://asec.ahnlab.com/en/32085/
+* https://asec.ahnlab.com/en/34876/
+* https://asec.ahnlab.com/en/36042/
+* https://asec.ahnlab.com/en/36586/
+* https://asec.ahnlab.com/en/37837/
 * https://blog.morphisec.com/remcos-trojan-analyzing-attack-chain
 * https://blog.morphisec.com/the-babadeda-crypter-targeting-crypto-nft-defi-communities
 * https://blog.talosintelligence.com/2018/06/threat-roundup-0622-0629.html
@@ -222,6 +227,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0729-0805.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0923-0930.html
 * https://github.com/0xToxin/Malware-IOCs/blob/main/Remcos%20RAT/Remcos%20-%2024082022
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20Remcos%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-19%20Remcos%20RAT%20IOCs

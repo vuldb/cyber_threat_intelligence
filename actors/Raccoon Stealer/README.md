@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -53,28 +53,29 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/pic/admin/pic/del` | High
 3 | File | `/admin/deluser.php` | High
 4 | File | `/admin/sign/out` | High
-5 | File | `/admin/web_config.php&amp` | High
-6 | File | `/app/options.py` | High
-7 | File | `/apps/` | Low
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cmscp/ext/collect/fetch_url.do` | High
-10 | File | `/controllers/MgrDiagnosticTools.php` | High
-11 | File | `/convert/html` | High
-12 | File | `/course/api/upload/pic` | High
-13 | File | `/etc/init.d/S50dropbear.sh` | High
-14 | File | `/goform/rlmswitchr_process` | High
-15 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-16 | File | `/hub/api/user` | High
-17 | File | `/modules/mindmap/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/password.html` | High
-20 | File | `/pms/admin/inmates/manage_record.php` | High
-21 | File | `/pms/admin/prisons/manage_prison.php` | High
-22 | File | `/root/.keeper/` | High
-23 | File | `/rss.xml` | Medium
-24 | ... | ... | ...
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/admin/web_config.php&amp` | High
+7 | File | `/app/options.py` | High
+8 | File | `/apps/` | Low
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cmscp/ext/collect/fetch_url.do` | High
+11 | File | `/controllers/MgrDiagnosticTools.php` | High
+12 | File | `/convert/html` | High
+13 | File | `/course/api/upload/pic` | High
+14 | File | `/etc/init.d/S50dropbear.sh` | High
+15 | File | `/goform/rlmswitchr_process` | High
+16 | File | `/hocms/classes/Master.php?f=delete_phase` | High
+17 | File | `/hub/api/user` | High
+18 | File | `/modules/mindmap/index.php` | High
+19 | File | `/modules/tasks/summary.inc.php` | High
+20 | File | `/password.html` | High
+21 | File | `/pms/admin/inmates/manage_record.php` | High
+22 | File | `/pms/admin/prisons/manage_prison.php` | High
+23 | File | `/root/.keeper/` | High
+24 | File | `/rss.xml` | Medium
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

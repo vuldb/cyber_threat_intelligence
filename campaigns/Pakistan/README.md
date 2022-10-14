@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Pakistan:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [DE](https://vuldb.com/?country.de)
+* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,10 +68,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/service/upload` | High
 10 | File | `/show_group_members.php` | High
 11 | File | `/sqfs/bin/sccd` | High
-12 | File | `admin/adduser.php` | High
+12 | File | `/whbs/?page=manage_account` | High
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

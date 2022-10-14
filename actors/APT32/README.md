@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 21 | File | `admin/index.php` | High
 22 | File | `adv2.php?action=modify` | High
 23 | File | `agent.cfg` | Medium
-24 | ... | ... | ...
+24 | File | `arch/x86/include/asm/fpu/internal.h` | High
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

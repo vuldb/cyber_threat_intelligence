@@ -19,12 +19,12 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
-* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,33 +71,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.rediscli_history` | High
-2 | File | `/activity/admin/modules/department/index.php?view=edit` | High
-3 | File | `/admin/budget.php` | High
-4 | File | `/admin/edit_user.php` | High
-5 | File | `/admin/edit_visitor.php` | High
-6 | File | `/admin/settings/fields` | High
-7 | File | `/api/index.php` | High
-8 | File | `/application/documents/display.aspx` | High
-9 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-10 | File | `/bemarket/shop/index.php'` | High
-11 | File | `/bin/httpd` | Medium
-12 | File | `/bits/stl_vector.h` | High
-13 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-14 | File | `/controller/OnlinePreviewController.java` | High
-15 | File | `/etc/qci/answers` | High
-16 | File | `/goform/NatStaticSetting` | High
-17 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
-18 | File | `/home/bupt/Desktop/swftools/src/src/gif2swf.c` | High
-19 | File | `/index.php` | Medium
-20 | File | `/jpeg-quantsmooth/jpegqs` | High
-21 | File | `/Login` | Low
-22 | File | `/MachO/SegmentCommand.cpp` | High
-23 | File | `/maintenance/manage_department.php` | High
-24 | File | `/opt/onedev/lib` | High
-25 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates` | High
+2 | File | `.gitmodules` | Medium
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/search.php` | High
+5 | File | `/advanced-tools/nova/bin/netwatch` | High
+6 | File | `/api/project` | Medium
+7 | File | `/api/v1/user` | Medium
+8 | File | `/categories/manage_category.php` | High
+9 | File | `/categories/view_category.php` | High
+10 | File | `/classes/Master.php?f=delete_account` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Master.php?f=delete_stockin` | High
+13 | File | `/classes/Master.php?f=delete_stockout` | High
+14 | File | `/classes/Master.php?f=delete_student` | High
+15 | File | `/classes/Master.php?f=delete_waste` | High
+16 | File | `/cnr` | Low
+17 | File | `/coreframe/app/attachment/admin/index.php` | High
+18 | File | `/csms/admin/storages/manage_storage.php` | High
+19 | File | `/csms/classes/Master.php?f=delete_message` | High
+20 | File | `/DesignTools/CssEditor.aspx` | High
+21 | File | `/diagnostic/editcategory.php` | High
+22 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
