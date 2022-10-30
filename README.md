@@ -2,6 +2,8 @@
 
 Our unique [Cyber Threat Intelligence](https://vuldb.com/?kb.cti) aims to determine the ongoing research of APT actors to anticipiate their acitivities.
 
+[![CC-BY-SA](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](#license)
+
 ## Activity Monitoring
 
 A broad activity monitoring is used to determine the actions by [actors](https://vuldb.com/?actor). Observing exploit markets on the Darknet, discussions of vulnerabilities on mailinglists, and social media exchanges makes it possible to identify planned attacks.
