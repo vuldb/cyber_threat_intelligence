@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -325,15 +325,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -342,42 +341,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates` | High
-2 | File | `/admin/add_exercises.php` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/settings/fields` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/api/v1/chat.getThreadsList` | High
-8 | File | `/api/v1/user` | Medium
-9 | File | `/bd_genie_create_account.cgi` | High
-10 | File | `/bin/boa` | Medium
-11 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-12 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-13 | File | `/cgi-bin/DownloadFlash` | High
-14 | File | `/claire_blake` | High
-15 | File | `/cnr` | Low
-16 | File | `/dashboard/add-portfolio.php` | High
-17 | File | `/dashboard/add-service.php` | High
-18 | File | `/dashboard/settings` | High
-19 | File | `/dashboard/updatelogo.php` | High
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/etc/networkd-dispatcher` | High
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/etc/version` | Medium
-24 | File | `/fw.login.php` | High
-25 | File | `/gasmark/assets/myimages/oneWord.php` | High
-26 | File | `/git-prereceive-callback` | High
-27 | File | `/goform/addRouting` | High
-28 | File | `/goform/Diagnosis` | High
-29 | File | `/goform/expandDlnaFile` | High
-30 | File | `/goform/fast_setting_wifi_set` | High
-31 | File | `/goform/form2userconfig.cgi` | High
-32 | File | `/goform/NatStaticSetting` | High
-33 | File | `/goform/NTPSyncWithHost` | High
-34 | File | `/goform/openSchedWifi/` | High
-35 | ... | ... | ...
+2 | File | `/action/iperf` | High
+3 | File | `/action/wirelessConnect` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/settings/fields` | High
+7 | File | `/admin/sign/out` | High
+8 | File | `/api/discoveries/` | High
+9 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/api/v1/attack` | High
+11 | File | `/api/v1/attack/falco` | High
+12 | File | `/api/v1/attack/token` | High
+13 | File | `/api/v1/bait/set` | High
+14 | File | `/api/v1/chat.getThreadsList` | High
+15 | File | `/api/v2/open/rowsInfo` | High
+16 | File | `/api/v2/open/tablesInfo` | High
+17 | File | `/bd_genie_create_account.cgi` | High
+18 | File | `/bin/boa` | Medium
+19 | File | `/bin/proc.cgi` | High
+20 | File | `/buspassms/download-pass.php` | High
+21 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+22 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+23 | File | `/category.php` | High
+24 | File | `/cgi-bin/DownloadFlash` | High
+25 | File | `/changePassword` | High
+26 | File | `/cnr` | Low
+27 | File | `/Core/Ap4File.cpp` | High
+28 | File | `/csms/admin/?page=user/manage_user` | High
+29 | File | `/depotHead/list` | High
+30 | File | `/ebics-server/ebics.aspx` | High
+31 | File | `/etc/shadow.sample` | High
+32 | File | `/etc/version` | Medium
+33 | File | `/git-prereceive-callback` | High
+34 | File | `/goform/addRouting` | High
+35 | File | `/goform/Diagnosis` | High
+36 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

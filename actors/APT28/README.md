@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,33 +108,33 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/dashboard/updatelogo.php` | High
-7 | File | `/export` | Low
-8 | File | `/file?action=download&file` | High
-9 | File | `/index.php` | Medium
-10 | File | `/medical/inventories.php` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/mkshop/Men/profile.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/Noxen-master/users.php` | High
-15 | File | `/plugin/LiveChat/getChat.json.php` | High
-16 | File | `/plugins/servlet/audit/resource` | High
-17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-18 | File | `/REBOOTSYSTEM` | High
-19 | File | `/replication` | Medium
-20 | File | `/reports/rwservlet` | High
-21 | File | `/RestAPI` | Medium
-22 | File | `/tmp/speedtest_urls.xml` | High
-23 | File | `/tmp/zarafa-vacation-*` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
-26 | File | `/usr/bin/at` | Medium
-27 | File | `/var/log/nginx` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/dashboard/updatelogo.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/etc/openshift/server_priv.pem` | High
+10 | File | `/export` | Low
+11 | File | `/file?action=download&file` | High
+12 | File | `/index.php` | Medium
+13 | File | `/medical/inventories.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/mkshop/Men/profile.php` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/MTFWU` | Low
+18 | File | `/Noxen-master/users.php` | High
+19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+20 | File | `/plugin/LiveChat/getChat.json.php` | High
+21 | File | `/plugins/servlet/audit/resource` | High
+22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+23 | File | `/REBOOTSYSTEM` | High
+24 | File | `/replication` | Medium
+25 | File | `/RestAPI` | Medium
+26 | File | `/tmp/zarafa-vacation-*` | High
+27 | File | `/uncpath/` | Medium
 28 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -71,34 +71,35 @@ ID | Type | Indicator | Confidence
 12 | File | `/index.php?page=forums&action=search` | High
 13 | File | `/index.php?page=signup` | High
 14 | File | `/index.php?page=viewnews` | High
-15 | File | `/login` | Low
-16 | File | `/member/pm.php` | High
-17 | File | `/onvif/device_service` | High
-18 | File | `/rapi/read_url` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/tab_tariffe.php` | High
-21 | File | `/var/log/groonga` | High
-22 | File | `/visualizza_tabelle.php` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `acrord32.exe` | Medium
-25 | File | `admin.php/user/add` | High
-26 | File | `admin.php?m=Member&a=adminadd` | High
-27 | File | `admin/conf_users_edit.php` | High
-28 | File | `admin/content.php` | High
-29 | File | `admin/content/search.html` | High
-30 | File | `admin/index.php?lfj=member&action=addmember` | High
-31 | File | `admin/tool/ShowPic.php` | High
-32 | File | `admin/ueditor/uploadFile` | High
-33 | File | `adv_remotelog.asp` | High
-34 | File | `AjaxApplication.java` | High
-35 | File | `album_cat.php` | High
-36 | File | `AndroidManifest.xml` | High
-37 | File | `Annot.c` | Low
-38 | File | `api/Files/Attachment` | High
-39 | File | `app/admin/controller/themecontroller.php` | High
-40 | ... | ... | ...
+15 | File | `/list-gitolite` | High
+16 | File | `/login` | Low
+17 | File | `/member/pm.php` | High
+18 | File | `/onvif/device_service` | High
+19 | File | `/rapi/read_url` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/tab_tariffe.php` | High
+22 | File | `/var/log/groonga` | High
+23 | File | `/visualizza_tabelle.php` | High
+24 | File | `/wp-json/wc/v3/webhooks` | High
+25 | File | `acrord32.exe` | Medium
+26 | File | `admin.php/user/add` | High
+27 | File | `admin.php?m=Member&a=adminadd` | High
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/content.php` | High
+30 | File | `admin/content/search.html` | High
+31 | File | `admin/index.php?lfj=member&action=addmember` | High
+32 | File | `admin/tool/ShowPic.php` | High
+33 | File | `admin/ueditor/uploadFile` | High
+34 | File | `adv_remotelog.asp` | High
+35 | File | `AjaxApplication.java` | High
+36 | File | `album_cat.php` | High
+37 | File | `AndroidManifest.xml` | High
+38 | File | `Annot.c` | Low
+39 | File | `api/Files/Attachment` | High
+40 | File | `app/admin/controller/themecontroller.php` | High
+41 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

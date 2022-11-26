@@ -10,10 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [TT](https://vuldb.com/?country.tt)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
-* ...
-
-There are 9 more country items available. Please use our online service to access the data.
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -35,14 +32,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1059 | CWE-88 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,24 +45,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/?Key=PhoneRequestAuthorization` | High
-3 | File | `/admin/add_exercises.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/assets` | Low
-8 | File | `/dashboard/add-blog.php` | High
-9 | File | `/dashboard/add-portfolio.php` | High
-10 | File | `/dashboard/add-service.php` | High
-11 | File | `/dashboard/updatelogo.php` | High
-12 | File | `/gasmark/assets/myimages/oneWord.php` | High
-13 | File | `/goform/formWifiBasicSet` | High
-14 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-15 | File | `/index.php` | Medium
-16 | ... | ... | ...
+1 | File | `/admin/students/manage.php` | High
+2 | File | `/goform/SetFirewallCfg` | High
+3 | File | `/goform/SetPptpServerCfg` | High
+4 | File | `/goform/SetSysTimeCfg` | High
+5 | File | `/goform/SetVirtualServerCfg` | High
+6 | File | `/php-sms/classes/Master.php` | High
+7 | File | `/php-sms/classes/SystemSettings.php` | High
+8 | File | `/queuing/login.php` | High
+9 | File | `/sacco_shield/manage_payment.php` | High
+10 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

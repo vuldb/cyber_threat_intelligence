@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with APT2:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT2:
 
 * [CN](https://vuldb.com/?country.cn)
+* [FJ](https://vuldb.com/?country.fj)
 * [KR](https://vuldb.com/?country.kr)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.

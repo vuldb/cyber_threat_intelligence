@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,38 +62,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=editpage` | High
 2 | File | `/admin/featured.php` | High
-3 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-4 | File | `/coders/pdf.c` | High
-5 | File | `/download` | Medium
-6 | File | `/etc/grafana/grafana.ini` | High
-7 | File | `/exponentcms/administration/configure_site` | High
-8 | File | `/export` | Low
-9 | File | `/forum/away.php` | High
-10 | File | `/fudforum/index.php` | High
-11 | File | `/goform/setVLAN` | High
-12 | File | `/horde/util/go.php` | High
-13 | File | `/index.php/ccm/system/file/upload` | High
-14 | File | `/isms/admin/stocks/view_stock.php` | High
-15 | File | `/lab.html` | Medium
-16 | File | `/out.php` | Medium
-17 | File | `/products/details.asp` | High
-18 | File | `/RestAPI` | Medium
-19 | File | `/sm/api/v1/firewall/zone/services` | High
-20 | File | `/spacecom/login.php` | High
-21 | File | `/strings/ctype-simple.c` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/dls_download.php` | High
-24 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-25 | File | `acknowledge.c` | High
-26 | File | `actions/CompanyDetailsSave.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `add_comment.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/conf_users_edit.php` | High
-31 | File | `admin/inc/template_functions.php` | High
-32 | ... | ... | ...
+3 | File | `/admin/imagealbum/list` | High
+4 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+5 | File | `/coders/pdf.c` | High
+6 | File | `/download` | Medium
+7 | File | `/etc/grafana/grafana.ini` | High
+8 | File | `/exponentcms/administration/configure_site` | High
+9 | File | `/export` | Low
+10 | File | `/forum/away.php` | High
+11 | File | `/fudforum/index.php` | High
+12 | File | `/goform/setVLAN` | High
+13 | File | `/horde/util/go.php` | High
+14 | File | `/index.php/ccm/system/file/upload` | High
+15 | File | `/isms/admin/stocks/view_stock.php` | High
+16 | File | `/lab.html` | Medium
+17 | File | `/list/<path:folderpath>` | High
+18 | File | `/out.php` | Medium
+19 | File | `/products/details.asp` | High
+20 | File | `/RestAPI` | Medium
+21 | File | `/sm/api/v1/firewall/zone/services` | High
+22 | File | `/spacecom/login.php` | High
+23 | File | `/strings/ctype-simple.c` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/user/dls_download.php` | High
+26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+27 | File | `acknowledge.c` | High
+28 | File | `actions/CompanyDetailsSave.php` | High
+29 | File | `adclick.php` | Medium
+30 | File | `add_comment.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/conf_users_edit.php` | High
+33 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

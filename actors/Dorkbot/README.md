@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dorkbot:
 
+* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,8 +22,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-2 | [204.79.197.200](https://vuldb.com/?ip.204.79.197.200) | a-0001.a-msedge.net | - | High
-3 | [212.83.168.196](https://vuldb.com/?ip.212.83.168.196) | 212-83-168-196.rev.poneytelecom.eu | - | High
+2 | [20.112.52.29](https://vuldb.com/?ip.20.112.52.29) | - | - | High
+3 | [80.82.64.8](https://vuldb.com/?ip.80.82.64.8) | nil-bustle.garished.com | - | High
+4 | [80.82.65.199](https://vuldb.com/?ip.80.82.65.199) | no-reverse-dns-configured.com | - | High
+5 | [80.82.65.207](https://vuldb.com/?ip.80.82.65.207) | s1.tor-exit.net | - | High
+6 | [93.190.139.14](https://vuldb.com/?ip.93.190.139.14) | 93-190-139-14.hosted-by-worldstream.net | - | High
+7 | ... | ... | ... | ...
+
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,7 +37,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,18 +51,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `countrydetails.php` | High
-2 | File | `data/gbconfiguration.dat` | High
-3 | File | `db_central_columns.php` | High
-4 | ... | ... | ...
+1 | File | `.travis.yml` | Medium
+2 | File | `/.env` | Low
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/coders/pdf.c` | High
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/file?action=download&file` | High
+10 | File | `/medical/inventories.php` | High
+11 | File | `/monitoring` | Medium
+12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+13 | File | `/out.php` | Medium
+14 | File | `/plugin/LiveChat/getChat.json.php` | High
+15 | File | `/plugins/servlet/audit/resource` | High
+16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+17 | File | `/product_list.php` | High
+18 | File | `/recordings/index.php` | High
+19 | File | `/replication` | Medium
+20 | File | `/rest/api/1.0/render` | High
+21 | File | `/RestAPI` | Medium
+22 | File | `/tmp/speedtest_urls.xml` | High
+23 | File | `/tmp/zarafa-vacation-*` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload` | Low
+26 | File | `/var/log/nginx` | High
+27 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0830-0906.html
+* https://blog.talosintelligence.com/2022/08/threat-roundup-0812-0819.html
 
 ## Literature
 

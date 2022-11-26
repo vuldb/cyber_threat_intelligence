@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
-* [DZ](https://vuldb.com/?country.dz)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.

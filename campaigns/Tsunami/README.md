@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -66,39 +66,39 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi/ansi` | Medium
 9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
 10 | File | `/config/getuser` | High
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/getcfg.php` | Medium
-15 | File | `/goform/GetNewDir` | High
-16 | File | `/goform/telnet` | High
-17 | File | `/goform/WanParameterSetting` | High
-18 | File | `/hnap.cgi` | Medium
-19 | File | `/HNAP1` | Low
-20 | File | `/include/makecvs.php` | High
-21 | File | `/includes/common.inc.php` | High
-22 | File | `/knomi/analyze` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/monitoring` | Medium
-25 | File | `/out.php` | Medium
-26 | File | `/outgoing.php` | High
-27 | File | `/scripts/iisadmin/bdir.htr` | High
-28 | File | `/tmp` | Low
-29 | File | `/tmp/csman/0` | Medium
-30 | File | `/ui/cbpc/login` | High
-31 | File | `/var/avamar/f_cache.dat` | High
-32 | File | `/var/hnap/timestamp` | High
-33 | File | `/var/run/storage_account_root` | High
-34 | File | `/webmail/` | Medium
-35 | File | `/wp-content/plugins/forum-server/feed.php` | High
-36 | File | `/{ADMIN-FILE}/` | High
-37 | File | `a2billing/customer/iridium_threed.php` | High
-38 | File | `address.html` | Medium
-39 | File | `adm/systools.asp` | High
-40 | File | `admin.php` | Medium
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/sudoers` | Medium
+15 | File | `/getcfg.php` | Medium
+16 | File | `/goform/GetNewDir` | High
+17 | File | `/goform/telnet` | High
+18 | File | `/goform/WanParameterSetting` | High
+19 | File | `/hnap.cgi` | Medium
+20 | File | `/HNAP1` | Low
+21 | File | `/include/makecvs.php` | High
+22 | File | `/includes/common.inc.php` | High
+23 | File | `/knomi/analyze` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/monitoring` | Medium
+26 | File | `/out.php` | Medium
+27 | File | `/outgoing.php` | High
+28 | File | `/scripts/iisadmin/bdir.htr` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/csman/0` | Medium
+31 | File | `/ui/cbpc/login` | High
+32 | File | `/var/avamar/f_cache.dat` | High
+33 | File | `/var/hnap/timestamp` | High
+34 | File | `/var/run/storage_account_root` | High
+35 | File | `/webmail/` | Medium
+36 | File | `/wp-content/plugins/forum-server/feed.php` | High
+37 | File | `/{ADMIN-FILE}/` | High
+38 | File | `a2billing/customer/iridium_threed.php` | High
+39 | File | `address.html` | Medium
+40 | File | `adm/systools.asp` | High
 41 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

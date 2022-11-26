@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -61,62 +61,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/news/news_ok.php` | High
-2 | File | `/bcms/admin/?page=user/list` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/config/getuser` | High
-5 | File | `/de/cgi/dfs_guest/` | High
-6 | File | `/download` | Medium
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/etc/passwd` | Medium
-9 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-10 | File | `/etc/quantum/quantum.conf` | High
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/goform/telnet` | High
-15 | File | `/goform/WanParameterSetting` | High
-16 | File | `/inc/extensions.php` | High
-17 | File | `/include/makecvs.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/modules/tasks/summary.inc.php` | High
-21 | File | `/monitoring` | Medium
-22 | File | `/nova/bin/console` | High
-23 | File | `/out.php` | Medium
-24 | File | `/payu/icpcheckout/` | High
-25 | File | `/property-list/property_view.php` | High
-26 | File | `/public/login.htm` | High
-27 | File | `/req_password_user.php` | High
-28 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-29 | File | `/resourceNode/resources.jsf` | High
-30 | File | `/rest/project-templates/1.0/createshared` | High
-31 | File | `/rom-0` | Low
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/trx_addons/v2/get/sc_layout` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-36 | File | `/usr/syno/etc/mount.conf` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/WEB-INF/web.xml` | High
-39 | File | `/_next` | Low
-40 | File | `3.6.cpj` | Low
-41 | File | `404.php` | Low
-42 | File | `a-b-membres.php` | High
-43 | File | `acropora/crypto/asn1_common.c` | High
-44 | File | `ActionsAndOperations` | High
-45 | File | `adclick.php` | Medium
-46 | File | `add_2_basket.asp` | High
-47 | File | `admin.asp` | Medium
-48 | File | `admin.aspx` | Medium
-49 | File | `admin.php` | Medium
-50 | File | `admin/aboutus.php` | High
-51 | File | `admin/member_details.php` | High
-52 | File | `admin_chatconfig.php` | High
-53 | File | `ajaxp.php` | Medium
-54 | File | `ajax_calls.php` | High
-55 | ... | ... | ...
+2 | File | `/api/plugin/uninstall` | High
+3 | File | `/bcms/admin/?page=user/list` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/card_scan.php` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/config/getuser` | High
+8 | File | `/cwc/login` | Medium
+9 | File | `/de/cgi/dfs_guest/` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/download` | Medium
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+15 | File | `/etc/quantum/quantum.conf` | High
+16 | File | `/etc/shadow` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/getcfg.php` | Medium
+19 | File | `/goform/telnet` | High
+20 | File | `/goform/WanParameterSetting` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/inc/extensions.php` | High
+23 | File | `/include/makecvs.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/modules/tasks/summary.inc.php` | High
+27 | File | `/monitoring` | Medium
+28 | File | `/nova/bin/console` | High
+29 | File | `/nova/bin/detnet` | High
+30 | File | `/out.php` | Medium
+31 | File | `/payu/icpcheckout/` | High
+32 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+33 | File | `/property-list/property_view.php` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/req_password_user.php` | High
+36 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+37 | File | `/resourceNode/resources.jsf` | High
+38 | File | `/rest/project-templates/1.0/createshared` | High
+39 | File | `/rom-0` | Low
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/trx_addons/v2/get/sc_layout` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+44 | File | `/usr/syno/etc/mount.conf` | High
+45 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+46 | File | `/WEB-INF/web.xml` | High
+47 | File | `/wp-json` | Medium
+48 | File | `/_next` | Low
+49 | File | `404.php` | Low
+50 | File | `a-b-membres.php` | High
+51 | File | `acropora/crypto/asn1_common.c` | High
+52 | ... | ... | ...
 
-There are 476 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,9 +80,10 @@ ID | Type | Indicator | Confidence
 17 | File | `/uncpath/` | Medium
 18 | File | `adclick.php` | Medium
 19 | File | `admin.asp` | Medium
-20 | ... | ... | ...
+20 | File | `admin/categories_industry.php` | High
+21 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

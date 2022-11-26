@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,54 +69,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/plugin/uninstall` | High
-2 | File | `/common/ticket_associated_tickets.php` | High
-3 | File | `/crmeb/crmeb/services/UploadService.php` | High
-4 | File | `/dus/shopliste/index.php` | High
-5 | File | `/etc/path` | Medium
-6 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-7 | File | `/include/chart_generator.php` | High
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/nagiosql/admin/checkcommands.php` | High
-11 | File | `/secure/QueryComponent!Default.jspa` | High
-12 | File | `/tmp` | Low
-13 | File | `/ui/artifactimport/upload` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/5bin/su` | Medium
-16 | File | `/usr/bin/mail` | High
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/var/dt/` | Medium
-19 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-20 | File | `00.jsp` | Low
-21 | File | `a-b-membres.php` | High
-22 | File | `account_activations/edit` | High
-23 | File | `add_2_basket.asp` | High
-24 | File | `admin.asp` | Medium
-25 | File | `admin.jcomments.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/` | Low
-28 | File | `admin/aboutus.php` | High
-29 | File | `admin/import/class-import-settings.php` | High
-30 | File | `admin/manage-comments.php` | High
-31 | File | `administration/comments.php` | High
-32 | File | `administrator/mail/download.cfm` | High
-33 | File | `AdminViewError/AdminAddadmin` | High
-34 | File | `admin_edit_comment.php` | High
-35 | File | `agentdisplay.php` | High
-36 | File | `ajaxhelper.php` | High
-37 | File | `apply.cgi` | Medium
-38 | File | `appointment.php` | High
-39 | File | `arch/x86/kvm/hyperv.c` | High
-40 | File | `assets/components/fred/web/elfinder/connector.php` | High
-41 | File | `auction.cgi` | Medium
-42 | File | `autologin.jsp` | High
-43 | File | `axspawn.c` | Medium
-44 | File | `base_ag_main.php` | High
-45 | File | `base_qry_main.php` | High
-46 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/api/` | Low
+3 | File | `/api/plugin/uninstall` | High
+4 | File | `/common/ticket_associated_tickets.php` | High
+5 | File | `/crmeb/crmeb/services/UploadService.php` | High
+6 | File | `/dus/shopliste/index.php` | High
+7 | File | `/etc/path` | Medium
+8 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+9 | File | `/include/chart_generator.php` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/modules/profile/index.php` | High
+12 | File | `/nagiosql/admin/checkcommands.php` | High
+13 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+14 | File | `/secure/QueryComponent!Default.jspa` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/5bin/su` | Medium
+18 | File | `/usr/bin/mail` | High
+19 | File | `/usr/bin/pkexec` | High
+20 | File | `/var/dt/` | Medium
+21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+22 | File | `00.jsp` | Low
+23 | File | `account_activations/edit` | High
+24 | File | `add_2_basket.asp` | High
+25 | File | `admin.asp` | Medium
+26 | File | `admin.jcomments.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/` | Low
+29 | File | `admin/?page=system_info` | High
+30 | File | `admin/aboutus.php` | High
+31 | File | `admin/import/class-import-settings.php` | High
+32 | File | `admin/manage-comments.php` | High
+33 | File | `administration/comments.php` | High
+34 | File | `administrator/mail/download.cfm` | High
+35 | File | `AdminViewError/AdminAddadmin` | High
+36 | File | `admin_edit_comment.php` | High
+37 | File | `agentdisplay.php` | High
+38 | File | `apply.cgi` | Medium
+39 | File | `appointment.php` | High
+40 | File | `arch/x86/kvm/hyperv.c` | High
+41 | File | `assets/components/fred/web/elfinder/connector.php` | High
+42 | File | `auction.cgi` | Medium
+43 | File | `autologin.jsp` | High
+44 | File | `axspawn.c` | Medium
+45 | File | `base_ag_main.php` | High
+46 | File | `base_qry_main.php` | High
+47 | ... | ... | ...
 
-There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

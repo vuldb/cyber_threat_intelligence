@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -82,38 +82,38 @@ ID | Type | Indicator | Confidence
 1 | File | `/../conf/config.properties` | High
 2 | File | `/auth/session` | High
 3 | File | `/card_scan.php` | High
-4 | File | `/concat?/%2557EB-INF/web.xml` | High
-5 | File | `/cwc/login` | Medium
-6 | File | `/download` | Medium
-7 | File | `/files.md5` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/images/` | Medium
-10 | File | `/inc/extensions.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/lists/index.php` | High
-13 | File | `/login` | Low
-14 | File | `/members/view_member.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/objects/getImageMP4.php` | High
-18 | File | `/one_church/userregister.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/replication` | Medium
-23 | File | `/req_password_user.php` | High
-24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-25 | File | `/SASWebReportStudio/logonAndRender.do` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/trx_addons/v2/get/sc_layout` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/usr/syno/etc/mount.conf` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/concat?/%2557EB-INF/web.xml` | High
+6 | File | `/cwc/login` | Medium
+7 | File | `/download` | Medium
+8 | File | `/files.md5` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/h/calendar` | Medium
+11 | File | `/images/` | Medium
+12 | File | `/inc/extensions.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/lists/index.php` | High
+15 | File | `/login` | Low
+16 | File | `/members/view_member.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/nova/bin/console` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/objects/getImageMP4.php` | High
+21 | File | `/one_church/userregister.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/replication` | Medium
+26 | File | `/req_password_user.php` | High
+27 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+28 | File | `/SASWebReportStudio/logonAndRender.do` | High
+29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+30 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 33 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

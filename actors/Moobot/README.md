@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Moobot:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Moobot:
 
-* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
+* [LU](https://vuldb.com/?country.lu)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
@@ -89,10 +89,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/lists/index.php` | High
 29 | File | `/members/view_member.php` | High
 30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/music/ajax.php` | High
-32 | File | `/ofrs/admin/?page=teams/view_team` | High
-33 | File | `/ordering/index.php?q=category` | High
-34 | File | `/orms/` | Low
+31 | File | `/ofrs/admin/?page=teams/view_team` | High
+32 | File | `/ordering/index.php?q=category` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/public_html/animals` | High
 35 | ... | ... | ...
 
 There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

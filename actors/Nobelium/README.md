@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [51.195.68.217](https://vuldb.com/?ip.51.195.68.217) | time1.lyhuao.com | Tomiris | High
-2 | [83.171.237.173](https://vuldb.com/?ip.83.171.237.173) | 83.171.237.173.static.as201206.net | - | High
-3 | [185.193.126.172](https://vuldb.com/?ip.185.193.126.172) | b9c17eac.host.njalla.net | Tomiris | High
-4 | ... | ... | ... | ...
+1 | [13.67.239.91](https://vuldb.com/?ip.13.67.239.91) | - | - | High
+2 | [37.120.247.135](https://vuldb.com/?ip.37.120.247.135) | - | - | High
+3 | [45.32.59.31](https://vuldb.com/?ip.45.32.59.31) | 45.32.59.31.vultrusercontent.com | - | High
+4 | [45.135.167.27](https://vuldb.com/?ip.45.135.167.27) | 27.167.135.45.vikhost.com | - | High
+5 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,16 +55,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/webadminget.cgi` | High
-2 | File | `/notice-edit.php` | High
-3 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-4 | ... | ... | ...
+2 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+3 | File | `/notice-edit.php` | High
+4 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+5 | File | `/public/login.htm` | High
+6 | File | `/start_apply.htm` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/upload` | Low
+9 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/174/nobelium-apt-iocs/
+* https://blogs.infoblox.com/cyber-threat-intelligence/nobelium-campaigns-and-malware/
+* https://community.blueliv.com/#!/s/6078a53c82df413eb5355f1a
 * https://securelist.com/darkhalo-after-solarwinds-the-tomiris-connection/104311/
 * https://www.microsoft.com/security/blog/2021/05/27/new-sophisticated-email-based-attack-from-nobelium/
 

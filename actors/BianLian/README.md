@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,23 +61,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/addQuestion.php` | High
 3 | File | `/admin` | Low
-4 | File | `/admin/admapi.php` | High
-5 | File | `/admin/conferences/get-all-status/` | High
-6 | File | `/admin/conferences/list/` | High
-7 | File | `/admin/countrymanagement.php` | High
-8 | File | `/admin/general/change-lang` | High
-9 | File | `/admin/group/list/` | High
-10 | File | `/admin/renewaldue.php` | High
-11 | File | `/admin/usermanagement.php` | High
-12 | File | `/admin/ztliuyan_sendmail.php` | High
-13 | File | `/api/RecordingList/DownloadRecord?file=` | High
-14 | File | `/app1/admin#foo` | High
-15 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
-16 | File | `/backups/` | Medium
-17 | File | `/bl-plugins/backup/plugin.php` | High
-18 | File | `/category.php` | High
-19 | File | `/cgi-bin/editBookmark` | High
-20 | File | `/chart` | Low
+4 | File | `/admin/conferences/get-all-status/` | High
+5 | File | `/admin/conferences/list/` | High
+6 | File | `/admin/countrymanagement.php` | High
+7 | File | `/admin/general/change-lang` | High
+8 | File | `/admin/group/list/` | High
+9 | File | `/admin/renewaldue.php` | High
+10 | File | `/admin/usermanagement.php` | High
+11 | File | `/admin/ztliuyan_sendmail.php` | High
+12 | File | `/api/RecordingList/DownloadRecord?file=` | High
+13 | File | `/app1/admin#foo` | High
+14 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
+15 | File | `/backups/` | Medium
+16 | File | `/bl-plugins/backup/plugin.php` | High
+17 | File | `/category.php` | High
+18 | File | `/cgi-bin/editBookmark` | High
+19 | File | `/chart` | Low
+20 | File | `/classes/Master.php?f=delete_appointment` | High
 21 | File | `/Core/Ap4Utils.h` | High
 22 | File | `/core/kernels/ctc_decoder_ops.cc` | High
 23 | File | `/ctpms/classes/Master.php?f=delete_application` | High
@@ -96,14 +96,14 @@ ID | Type | Indicator | Confidence
 36 | File | `/librarian/bookdetails.php` | High
 37 | File | `/lists/admin/` | High
 38 | File | `/mail/index.html` | High
-39 | File | `/media/?action=cmd` | High
-40 | File | `/medicines` | Medium
-41 | File | `/navigate/navigate_download.php` | High
-42 | File | `/onlineordering/GPST/admin/design.php` | High
-43 | File | `/public/plugins/` | High
+39 | File | `/medicines` | Medium
+40 | File | `/navigate/navigate_download.php` | High
+41 | File | `/public/plugins/` | High
+42 | File | `/rapi/read_url` | High
+43 | File | `/reps/admin/?page=agents/manage_agent` | High
 44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

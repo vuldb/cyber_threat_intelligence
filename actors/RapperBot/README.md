@@ -20,10 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.58.149.116](https://vuldb.com/?ip.2.58.149.116) | - | - | High
 2 | [31.44.185.235](https://vuldb.com/?ip.31.44.185.235) | - | - | High
-3 | [185.225.73.196](https://vuldb.com/?ip.185.225.73.196) | - | - | High
+3 | [185.216.71.149](https://vuldb.com/?ip.185.216.71.149) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,17 +45,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/include/chart_generator.php` | High
-2 | File | `export.c` | Medium
-3 | File | `ext/standard/link_win32.c` | High
+2 | File | `/index.php` | Medium
+3 | File | `export.c` | Medium
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/62f0af7a82df417a00331dae
+* https://www.fortinet.com/blog/threat-research/new-rapperbot-campaign-ddos-attacks
 
 ## Literature
 

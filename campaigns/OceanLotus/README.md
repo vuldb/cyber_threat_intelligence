@@ -32,31 +32,32 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [37.59.198.130](https://vuldb.com/?ip.37.59.198.130) | - | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
 2 | [37.59.198.131](https://vuldb.com/?ip.37.59.198.131) | - | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-3 | [45.9.239.34](https://vuldb.com/?ip.45.9.239.34) | 45.9.239.34.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-4 | [45.9.239.45](https://vuldb.com/?ip.45.9.239.45) | 45.9.239.45.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-5 | [45.9.239.77](https://vuldb.com/?ip.45.9.239.77) | 45.9.239.77.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-6 | [45.9.239.110](https://vuldb.com/?ip.45.9.239.110) | 45.9.239.110.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-7 | [45.9.239.139](https://vuldb.com/?ip.45.9.239.139) | 45.9.239.139.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-8 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
-9 | [45.32.105.45](https://vuldb.com/?ip.45.32.105.45) | - | [APT32](https://vuldb.com/?actor.apt32) | High
-10 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
-11 | [45.76.147.201](https://vuldb.com/?ip.45.76.147.201) | 45.76.147.201.vultr.com | [APT32](https://vuldb.com/?actor.apt32) | Medium
-12 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
-13 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
-14 | [45.77.39.101](https://vuldb.com/?ip.45.77.39.101) | 45.77.39.101.vultr.com | [APT32](https://vuldb.com/?actor.apt32) | Medium
-15 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-16 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-17 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-18 | [46.183.221.188](https://vuldb.com/?ip.46.183.221.188) | ip-221-188.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-19 | [46.183.221.189](https://vuldb.com/?ip.46.183.221.189) | ip-221-189.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-20 | [46.183.221.190](https://vuldb.com/?ip.46.183.221.190) | ip-221-190.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-21 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-22 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-23 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-24 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
-25 | ... | ... | ... | ...
+3 | [43.251.100.20](https://vuldb.com/?ip.43.251.100.20) | - | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+4 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+5 | [45.9.239.34](https://vuldb.com/?ip.45.9.239.34) | 45.9.239.34.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+6 | [45.9.239.45](https://vuldb.com/?ip.45.9.239.45) | 45.9.239.45.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+7 | [45.9.239.77](https://vuldb.com/?ip.45.9.239.77) | 45.9.239.77.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+8 | [45.9.239.110](https://vuldb.com/?ip.45.9.239.110) | 45.9.239.110.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+9 | [45.9.239.139](https://vuldb.com/?ip.45.9.239.139) | 45.9.239.139.deltahost-ptr | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+10 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
+11 | [45.32.105.45](https://vuldb.com/?ip.45.32.105.45) | - | [APT32](https://vuldb.com/?actor.apt32) | High
+12 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
+13 | [45.76.147.201](https://vuldb.com/?ip.45.76.147.201) | 45.76.147.201.vultr.com | [APT32](https://vuldb.com/?actor.apt32) | Medium
+14 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
+15 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | Medium
+16 | [45.77.39.101](https://vuldb.com/?ip.45.77.39.101) | 45.77.39.101.vultr.com | [APT32](https://vuldb.com/?actor.apt32) | Medium
+17 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+18 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+19 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+20 | [46.183.221.188](https://vuldb.com/?ip.46.183.221.188) | ip-221-188.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+21 | [46.183.221.189](https://vuldb.com/?ip.46.183.221.189) | ip-221-189.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+22 | [46.183.221.190](https://vuldb.com/?ip.46.183.221.190) | ip-221-190.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+23 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+24 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+25 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
+26 | ... | ... | ... | ...
 
-There are 97 more IOC items available. Please use our online service to access the data.
+There are 99 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,6 +90,7 @@ There are 10 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
+* https://github.com/blackorbird/APT_REPORT/blob/master/Oceanlotus/apt32_report_2019.pdf
 * https://github.com/eset/malware-ioc/tree/master/oceanlotus
 * https://www.threatminer.org/report.php?q=ESET_OceanLotus.pdf&y=2018
 * https://www.threatminer.org/report.php?q=OceanLotusBlossoms_MassDigitalSurveillanceandAttacksTargetingASEAN,AsianNations,theMedia,HumanRightsGroups,andCivilSociety_Volexity.pdf&y=2017

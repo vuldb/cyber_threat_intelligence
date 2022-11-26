@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,7 +94,7 @@ ID | IP address | Hostname | Actor | Confidence
 58 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 59 | ... | ... | ... | ...
 
-There are 233 more IOC items available. Please use our online service to access the data.
+There are 234 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,9 +103,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -118,42 +118,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/article/list_approve` | High
-5 | File | `/admin/budget.php` | High
-6 | File | `/admin/client_assign.php` | High
-7 | File | `/admin/client_edit.php` | High
-8 | File | `/admin/conferences/list/` | High
-9 | File | `/admin/friendlylink/list` | High
-10 | File | `/admin/image/list` | High
-11 | File | `/admin/imagealbum/list` | High
-12 | File | `/admin/index.PHP` | High
-13 | File | `/Admin/login.php` | High
-14 | File | `/admin/select.php` | High
-15 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-16 | File | `/admin/settings.php` | High
-17 | File | `/admin/update_booking.php` | High
-18 | File | `/admin/update_currency.php` | High
-19 | File | `/admin/video/list` | High
-20 | File | `/admin/videoalbum/list` | High
-21 | File | `/advanced-tools/nova/bin/netwatch` | High
-22 | File | `/bd_genie_create_account.cgi` | High
-23 | File | `/bin/httpd` | Medium
-24 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-25 | File | `/categories/view_category.php` | High
-26 | File | `/category.php` | High
-27 | File | `/cgi-bin/cstecgi.cgi` | High
-28 | File | `/cgi-bin/kerbynet` | High
-29 | File | `/cgi-bin/qcmap_auth` | High
-30 | File | `/cgi-bin/wapopen` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/diagnostic/editcategory.php` | High
-33 | File | `/editbrand.php` | High
-34 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/store.php` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/api/v1/attack/falco` | High
+6 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+7 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+8 | File | `/balance/service/list` | High
+9 | File | `/cgi-bin/qcmap_auth` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_reservation` | High
+13 | File | `/classes/Users.php?f=delete_client` | High
+14 | File | `/CommunitySSORedirect.jsp` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/diagnostic/editclient.php` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/index.php/purchase_order/browse_data` | High
+22 | File | `/index.php?module=global_lists/lists` | High
+23 | File | `/index/user/user_edit.html` | High
+24 | File | `/modules/announcement/index.php?view=edit` | High
+25 | File | `/okm:root` | Medium
+26 | File | `/omos/admin/?page=user/list` | High
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/out.php` | Medium
+29 | File | `/pages/processlogin.php` | High
+30 | File | `/pages/save_user.php` | High
+31 | File | `/php-sms/classes/Master.php` | High
+32 | File | `/php-sms/classes/Master.php?f=delete_inquiry` | High
+33 | File | `/php_action/editProductImage.php` | High
+34 | File | `/php_action/fetchSelectedfood.php` | High
+35 | File | `/php_action/fetchSelectedUser.php` | High
+36 | File | `/plugin/getList` | High
+37 | File | `/public_html/animals` | High
+38 | File | `/register/abort` | High
+39 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -234,6 +239,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
+* https://twitter.com/malware_traffic/status/1592262598195646464
 * https://twitter.com/TheDFIRReport/status/1508451341844168706
 * https://twitter.com/Unit42_Intel/status/1392174941181812737
 * https://unit42.paloaltonetworks.com/cloaked-ursa-online-storage-services-campaigns/

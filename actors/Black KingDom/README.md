@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [GB](https://vuldb.com/?country.gb)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [NO](https://vuldb.com/?country.no)
 
 ## IOC - Indicator of Compromise
 
@@ -34,15 +31,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,33 +46,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/article/list_approve` | High
-2 | File | `/admin/client_assign.php` | High
-3 | File | `/admin/client_edit.php` | High
-4 | File | `/admin/contact/list` | High
-5 | File | `/admin/feature_edit.php` | High
-6 | File | `/admin/foldernotice/list` | High
-7 | File | `/admin/image/list` | High
-8 | File | `/admin/imagealbum/list` | High
-9 | File | `/admin/select.php` | High
-10 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-11 | File | `/admin/site/list` | High
-12 | File | `/admin/subnets/ripe-query.php` | High
-13 | File | `/admin/update_currency.php` | High
-14 | File | `/admin/video/list` | High
-15 | File | `/admin_book.php` | High
-16 | File | `/api/upload-resource` | High
-17 | File | `/authUserAction!edit.action` | High
-18 | File | `/bin/boa` | Medium
-19 | File | `/bin/httpd` | Medium
-20 | File | `/buspassms/download-pass.php` | High
-21 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-22 | File | `/card/in-card.php` | High
-23 | File | `/cgi-bin/cstecgi.cgi` | High
-24 | File | `/confirm` | Medium
-25 | ... | ... | ...
+1 | File | `/action/import_cert_file/` | High
+2 | File | `/action/import_e2c_json_file/` | High
+3 | File | `/action/import_file/` | High
+4 | File | `/action/import_wireguard_cert_file/` | High
+5 | File | `/action/import_xml_file/` | High
+6 | File | `/action/ipcamRecordPost` | High
+7 | File | `/action/ipcamSetParamPost` | High
+8 | File | `/action/wirelessConnect` | High
+9 | File | `/admin/?page=bookings/view_details` | High
+10 | File | `/admin/?page=orders/manage_request` | High
+11 | File | `/admin/?page=user/manage_user` | High
+12 | File | `/admin/controller/JobLogController.java` | High
+13 | File | `/Admin/createClass.php` | High
+14 | File | `/admin/fst_upload.inc.php` | High
+15 | File | `/admin/sign/out` | High
+16 | File | `/admin/students/manage.php` | High
+17 | File | `/api/common/ping` | High
+18 | File | `/api/public/signup` | High
+19 | File | `/api/v1/attack/falco` | High
+20 | File | `/api/v1/bait/set` | High
+21 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+22 | File | `/api/v2/cli/commands` | High
+23 | File | `/asms/admin/?page=user/manage_user` | High
+24 | File | `/attachments` | Medium
+25 | File | `/bookings/update_status.php` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/classes/Master.php?f=delete_appointment` | High
+28 | File | `/classes/Users.php?f=delete_client` | High
+29 | File | `/clearance/clearance.php` | High
+30 | File | `/depotHead/list` | High
+31 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

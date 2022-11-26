@@ -19,8 +19,8 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [FR](https://vuldb.com/?country.fr)
-* [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
+* [PL](https://vuldb.com/?country.pl)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -56,14 +56,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,30 +70,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates` | High
-2 | File | `.gitmodules` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/search.php` | High
-5 | File | `/advanced-tools/nova/bin/netwatch` | High
-6 | File | `/api/project` | Medium
-7 | File | `/api/v1/user` | Medium
-8 | File | `/categories/manage_category.php` | High
-9 | File | `/categories/view_category.php` | High
-10 | File | `/classes/Master.php?f=delete_account` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/classes/Master.php?f=delete_stockin` | High
-13 | File | `/classes/Master.php?f=delete_stockout` | High
-14 | File | `/classes/Master.php?f=delete_student` | High
-15 | File | `/classes/Master.php?f=delete_waste` | High
-16 | File | `/cnr` | Low
-17 | File | `/coreframe/app/attachment/admin/index.php` | High
-18 | File | `/csms/admin/storages/manage_storage.php` | High
-19 | File | `/csms/classes/Master.php?f=delete_message` | High
-20 | File | `/DesignTools/CssEditor.aspx` | High
-21 | File | `/diagnostic/editcategory.php` | High
-22 | ... | ... | ...
+1 | File | `/admin/?page=user/manage_user` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/admin/problem_judge.php` | High
+6 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+7 | File | `/asms/admin/?page=user/manage_user` | High
+8 | File | `/asms/classes/Master.php?f=delete_img` | High
+9 | File | `/asms/classes/Master.php?f=delete_service` | High
+10 | File | `/attachments` | Medium
+11 | File | `/avms/index.php` | High
+12 | File | `/bin/proc.cgi` | High
+13 | File | `/diag_tracert_admin.asp` | High
+14 | File | `/etc/tomcat8/Catalina/attack` | High
+15 | File | `/index.php/admins/Fields/get_fields.html` | High
+16 | File | `/isomedia/meta.c` | High
+17 | File | `/lists/admin/` | High
+18 | File | `/lists/index.php` | High
+19 | File | `/login` | Low
+20 | File | `/mgm_dev_upgrade.asp` | High
+21 | File | `/pages/processlogin.php` | High
+22 | File | `/pages/save_user.php` | High
+23 | File | `/php-sms/admin/?page=user/manage_user` | High
+24 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

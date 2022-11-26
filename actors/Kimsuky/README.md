@@ -35,9 +35,10 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [27.102.112.58](https://vuldb.com/?ip.27.102.112.58) | - | - | High
 6 | [27.102.114.63](https://vuldb.com/?ip.27.102.114.63) | - | - | High
 7 | [27.102.114.79](https://vuldb.com/?ip.27.102.114.79) | - | - | High
-8 | ... | ... | ... | ...
+8 | [27.102.114.89](https://vuldb.com/?ip.27.102.114.89) | - | AppleSeed | High
+9 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,7 +87,7 @@ ID | Type | Indicator | Confidence
 25 | File | `/upload` | Low
 26 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,6 +98,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.alyac.co.kr/4892
 * https://blog.malwarebytes.com/threat-analysis/2021/06/kimsuky-apt-continues-to-target-south-korean-government-using-appleseed-backdoor/
 * https://community.blueliv.com/#!/s/5fa1234a82df413ea9349a07
+* https://github.com/blackorbird/APT_REPORT/blob/master/kimsuky/Kimsuky%20APT%20Group%20targeted%20on%20South%20Korean%20defense%20and%20security%20departments.pdf
+* https://github.com/blackorbird/APT_REPORT/tree/master/kimsuky
+* https://github.com/eset/malware-ioc/tree/master/kimsuky/hotdoge_donutcat_case
 * https://twitter.com/shadowchasing1/status/1500778382966939653
 * https://twitter.com/souiten/status/1473862308132651011
 

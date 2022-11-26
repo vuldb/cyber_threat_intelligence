@@ -77,29 +77,30 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/book/create/` | High
 4 | File | `/Admin/login.php` | High
 5 | File | `/admin/loginc.php` | High
-6 | File | `/auditLogAction.do` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/devices/acurite.c` | High
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/etc/sudoers` | Medium
-11 | File | `/example/editor` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-14 | File | `/goform/login_process` | High
-15 | File | `/goform/rlmswitchr_process` | High
-16 | File | `/goforms/rlminfo` | High
-17 | File | `/newsDia.php` | Medium
-18 | File | `/plugin` | Low
-19 | File | `/pms/index.php` | High
-20 | File | `/rating.php` | Medium
-21 | File | `/scas/admin/` | Medium
-22 | File | `/scas/classes/Users.php?f=save_user` | High
-23 | File | `/services/prefs.php` | High
-24 | File | `/src/njs_object.c` | High
-25 | File | `/uncpath/` | Medium
-26 | ... | ... | ...
+6 | File | `/admin/students/manage.php` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/devices/acurite.c` | High
+10 | File | `/etc/ajenti/config.yml` | High
+11 | File | `/etc/sudoers` | Medium
+12 | File | `/example/editor` | High
+13 | File | `/foms/place-order.php` | High
+14 | File | `/getcfg.php` | Medium
+15 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+16 | File | `/goform/login_process` | High
+17 | File | `/goform/rlmswitchr_process` | High
+18 | File | `/goforms/rlminfo` | High
+19 | File | `/newsDia.php` | Medium
+20 | File | `/plugin` | Low
+21 | File | `/pms/index.php` | High
+22 | File | `/rating.php` | Medium
+23 | File | `/scas/admin/` | Medium
+24 | File | `/scas/classes/Users.php?f=save_user` | High
+25 | File | `/services/prefs.php` | High
+26 | File | `/src/njs_object.c` | High
+27 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

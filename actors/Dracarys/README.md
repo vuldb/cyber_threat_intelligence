@@ -50,10 +50,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/dl/dl_print.php` | High
 6 | File | `/getcfg.php` | Medium
 7 | File | `/ofcms/company-c-47` | High
-8 | File | `/util/print.c` | High
+8 | File | `/usr/sbin/httpd` | High
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

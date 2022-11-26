@@ -56,11 +56,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
-3 | File | `/uncpath/` | Medium
+2 | File | `/admin/conferences/get-all-status/` | High
+3 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
 4 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

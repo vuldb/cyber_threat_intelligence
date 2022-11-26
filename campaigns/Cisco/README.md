@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,9 +53,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,34 +85,34 @@ ID | Type | Indicator | Confidence
 19 | File | `/template/wapian/vlist.php` | High
 20 | File | `/uncpath/` | Medium
 21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `admin.color.php` | High
-25 | File | `admin.cropcanvas.php` | High
-26 | File | `admin.htm` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin.remository.php` | High
-29 | File | `admin.webring.docs.php` | High
-30 | File | `admin/index.php` | High
-31 | File | `admin/login.php` | High
-32 | File | `admincp/auth/checklogin.php` | High
-33 | File | `admincp/auth/secure.php` | High
-34 | File | `admin_login.asp` | High
-35 | File | `advsearch.php` | High
-36 | File | `affich.php` | Medium
-37 | File | `affiliates.php` | High
-38 | File | `akocomments.php` | High
-39 | File | `alarm.cc` | Medium
-40 | File | `album_portal.php` | High
-41 | File | `allopass-error.php` | High
-42 | File | `allopass.php` | Medium
-43 | File | `al_initialize.php` | High
-44 | File | `announce.php` | Medium
-45 | File | `archive_read_support_format_rar.c` | High
-46 | File | `artlinks.dispnew.php` | High
+22 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `admin.color.php` | High
+24 | File | `admin.cropcanvas.php` | High
+25 | File | `admin.htm` | Medium
+26 | File | `admin.php` | Medium
+27 | File | `admin.remository.php` | High
+28 | File | `admin.webring.docs.php` | High
+29 | File | `admin/index.php` | High
+30 | File | `admin/login.php` | High
+31 | File | `admincp/auth/checklogin.php` | High
+32 | File | `admincp/auth/secure.php` | High
+33 | File | `admin_login.asp` | High
+34 | File | `advsearch.php` | High
+35 | File | `affich.php` | Medium
+36 | File | `affiliates.php` | High
+37 | File | `akocomments.php` | High
+38 | File | `alarm.cc` | Medium
+39 | File | `album_portal.php` | High
+40 | File | `allopass-error.php` | High
+41 | File | `allopass.php` | Medium
+42 | File | `al_initialize.php` | High
+43 | File | `announce.php` | Medium
+44 | File | `archive_read_support_format_rar.c` | High
+45 | File | `artlinks.dispnew.php` | High
+46 | File | `ashnews.php/ashheadlines.php` | High
 47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

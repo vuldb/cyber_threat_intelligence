@@ -32,9 +32,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -46,46 +46,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.python-version` | High
-2 | File | `/admin/inc/include.php` | High
-3 | File | `/admin/index.php` | High
-4 | File | `/alarm_pi/alarmService.php` | High
-5 | File | `/app/controller/Books.php` | High
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/ATL/VQ23` | Medium
-8 | File | `/bin/login` | Medium
-9 | File | `/catcompany.php` | High
-10 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/admin.php` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/index.PHP` | High
+6 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
+7 | File | `/admin/update_traveller.php` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/cameras/XXXX/clips` | High
+10 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
 11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cgi-bin/qcmap_auth` | High
 13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/coreframe/app/pay/admin/index.php` | High
+14 | File | `/CommunitySSORedirect.jsp` | High
 15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/hosts` | Medium
-17 | File | `/etc/quagga` | Medium
+16 | File | `/diagnostic/editclient.php` | High
+17 | File | `/editbrand.php` | High
 18 | File | `/etc/shadow` | Medium
-19 | File | `/filemanager/php/connector.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/h/search?action` | High
-22 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-23 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-24 | File | `/index.php?p=admin/actions/users/send-password-reset-email` | High
-25 | File | `/language/lang` | High
-26 | File | `/loginsave.php` | High
-27 | File | `/loginVaLidation.php` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/ows-bin` | Medium
-33 | File | `/public/plugins/` | High
-34 | File | `/recreate.php` | High
-35 | File | `/rest/collectors/1.0/template/custom` | High
-36 | File | `/sql/sql_string.h` | High
-37 | File | `/sql/sql_type.cc` | High
-38 | ... | ... | ...
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/EXCU_SHELL` | Medium
+21 | File | `/filemanager/php/connector.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+24 | File | `/index.php?module=global_lists/lists` | High
+25 | File | `/leave_system/classes/Master.php?f=delete_application` | High
+26 | File | `/loginVaLidation.php` | High
+27 | File | `/okm:root` | Medium
+28 | File | `/opt/onedev/sites/` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/phpinventory/editcategory.php` | High
+31 | File | `/public_html/animals` | High
+32 | File | `/rest/collectors/1.0/template/custom` | High
+33 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
+* [CN](https://vuldb.com/?country.cn)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,38 +65,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/admin_pic.php` | High
-4 | File | `/admin/contact/list` | High
-5 | File | `/admin/edit_visitor.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/settings/fields` | High
-8 | File | `/admin/update_expense_category.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/plugin/uninstall` | High
-11 | File | `/api/plugin/upload` | High
-12 | File | `/auth/callback` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-15 | File | `/category.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi-bin/DownloadFlash` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/classes/Master.php?f=delete_stockin` | High
-20 | File | `/college_website/index.php?` | High
-21 | File | `/connectors/index.php` | High
-22 | File | `/controller/OnlinePreviewController.java` | High
-23 | File | `/employeeview.php` | High
-24 | File | `/etc/shadow.sample` | High
-25 | File | `/ffos/classes/Master.php?f=delete_menu` | High
-26 | File | `/framework/core/models/expConfig.php` | High
-27 | File | `/goform/addRouting` | High
-28 | File | `/goform/Diagnosis` | High
-29 | File | `/goform/setmac` | High
-30 | ... | ... | ...
+1 | File | `/action/import_aaa_cert_file/` | High
+2 | File | `/action/import_cert_file/` | High
+3 | File | `/action/import_wireguard_cert_file/` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/group` | Medium
+6 | File | `/admin/profile.php` | High
+7 | File | `/admin/question/edit` | High
+8 | File | `/api/crontab` | Medium
+9 | File | `/api/programs/orgUnits?programs` | High
+10 | File | `/api/trackedEntityInstances` | High
+11 | File | `/appointments/manage_appointment.php` | High
+12 | File | `/asms/admin/services/manage_service.php` | High
+13 | File | `/balance/service/list` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/csms/?page=contact_us` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/editorder.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/garage/editorder.php` | High
+20 | File | `/git-prereceive-callback` | High
+21 | File | `/goform/addWifiMacFilter` | High
+22 | File | `/goform/formSetDeviceName` | High
+23 | File | `/goform/SetFirewallCfg` | High
+24 | File | `/goform/WanParameterSetting` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/Hospital-Management-System-master/func.php` | High
+27 | File | `/hrm/index.php?msg` | High
+28 | File | `/index.php?module=global_lists/lists` | High
+29 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

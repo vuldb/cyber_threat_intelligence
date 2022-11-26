@@ -50,9 +50,10 @@ ID | IP address | Hostname | Campaign | Confidence
 27 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
 28 | [58.221.72.157](https://vuldb.com/?ip.58.221.72.157) | - | - | High
 29 | [58.250.136.113](https://vuldb.com/?ip.58.250.136.113) | - | - | High
-30 | ... | ... | ... | ...
+30 | [59.35.32.87](https://vuldb.com/?ip.59.35.32.87) | 87.32.35.59.broad.st.gd.dynamic.163data.com.cn | - | High
+31 | ... | ... | ... | ...
 
-There are 115 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,40 +75,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?r=admin/AdminBackup/del` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/edit.php` | High
-4 | File | `/admin/index.php/template/ajax?action=delete` | High
-5 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-6 | File | `/admin/users.php?source=edit_user&id=1` | High
-7 | File | `/administrator/alerts/alertLightbox.php` | High
-8 | File | `/administrator/templates/default/html/windows/right.php` | High
-9 | File | `/app/options.py` | High
-10 | File | `/apps/acs-commons/content/page-compare.html` | High
-11 | File | `/bin/httpd` | Medium
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/classes/Master.php?f=delete_train` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/demo/module/?module=HERE` | High
-19 | File | `/download/set.cgi` | High
-20 | File | `/dvcset/sysset/set.cgi` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/SysToolReboot` | High
-24 | File | `/goform/WifiExtraSet` | High
-25 | File | `/goforms/rlminfo` | High
-26 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/mngset/authset` | High
-30 | File | `/mobile/downloadfile.aspx` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/?admin/user.html` | High
+3 | File | `/admin.php?r=admin/AdminBackup/del` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/edit.php` | High
+6 | File | `/admin/index.php/template/ajax?action=delete` | High
+7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+8 | File | `/admin/users.php?source=edit_user&id=1` | High
+9 | File | `/administrator/alerts/alertLightbox.php` | High
+10 | File | `/administrator/templates/default/html/windows/right.php` | High
+11 | File | `/app/options.py` | High
+12 | File | `/apps/acs-commons/content/page-compare.html` | High
+13 | File | `/bin/httpd` | Medium
+14 | File | `/cgi-bin/wapopen` | High
+15 | File | `/ci_spms/admin/category` | High
+16 | File | `/ci_spms/admin/search/searching/` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Master.php?f=delete_train` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/demo/module/?module=HERE` | High
+22 | File | `/download/set.cgi` | High
+23 | File | `/dvcset/sysset/set.cgi` | High
+24 | File | `/ffos/classes/Master.php?f=save_category` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/WifiExtraSet` | High
+28 | File | `/goforms/rlminfo` | High
+29 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/mkshop/Men/profile.php` | High
+32 | File | `/mngset/authset` | High
+33 | File | `/mobile/downloadfile.aspx` | High
+34 | File | `/net/nfc/netlink.c` | High
+35 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,6 +140,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
 * https://blog.talosintelligence.com/2022/06/threat-roundup-0527-0603.html
+* https://blog.talosintelligence.com/2022/10/threat-roundup-1014-1021.html
+* https://blog.talosintelligence.com/threat-roundup-1028-1104/
 
 ## Literature
 

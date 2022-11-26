@@ -29,12 +29,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,42 +45,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/loginc.php` | High
-3 | File | `/Applications/Calculator.app/Contents/MacOS/Calculator` | High
-4 | File | `/cgi-bin/` | Medium
-5 | File | `/cgi-bin/luci` | High
-6 | File | `/common/info.cgi` | High
-7 | File | `/config.cgi?webmin` | High
-8 | File | `/data/inc/images.php` | High
-9 | File | `/dev/block/mmcblk0rpmb` | High
-10 | File | `/edit` | Low
-11 | File | `/etc/passwd` | Medium
-12 | File | `/etc/stunnel.key` | High
-13 | File | `/etc/sysconfig/btrfsmaintenance` | High
-14 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
-15 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
-16 | File | `/job-details` | Medium
-17 | File | `/mib.db` | Low
-18 | File | `/page/add` | Medium
-19 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-20 | File | `/system-info/health` | High
-21 | File | `/tmp/s48lose.tmp` | High
-22 | File | `/tmp/xbindkeysrc-tmp` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/local` | Medium
-25 | File | `/var/log/nginx` | High
-26 | File | `/var/run/jboss-eap/` | High
-27 | File | `admin-ajax.php` | High
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
-31 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
-32 | File | `admin/admin_log/index.html?user_id` | High
-33 | File | `admin/admin_menu.php` | High
-34 | File | `admin/config.php` | High
-35 | File | `admin/content.php` | High
+3 | File | `/admin/students/view_student.php` | High
+4 | File | `/Applications/Calculator.app/Contents/MacOS/Calculator` | High
+5 | File | `/cgi-bin/` | Medium
+6 | File | `/cgi-bin/luci` | High
+7 | File | `/common/info.cgi` | High
+8 | File | `/config.cgi?webmin` | High
+9 | File | `/data/inc/images.php` | High
+10 | File | `/dev/block/mmcblk0rpmb` | High
+11 | File | `/edit` | Low
+12 | File | `/etc/passwd` | Medium
+13 | File | `/etc/stunnel.key` | High
+14 | File | `/etc/sysconfig/btrfsmaintenance` | High
+15 | File | `/framework/modules/notfound/controllers/notfoundController.php` | High
+16 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
+17 | File | `/job-details` | Medium
+18 | File | `/mib.db` | Low
+19 | File | `/page/add` | Medium
+20 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+21 | File | `/system-info/health` | High
+22 | File | `/tmp/s48lose.tmp` | High
+23 | File | `/tmp/xbindkeysrc-tmp` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/local` | Medium
+26 | File | `/var/log/nginx` | High
+27 | File | `/var/run/jboss-eap/` | High
+28 | File | `admin-ajax.php` | High
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
+32 | File | `admin/?n=user&c=admin_user&a=doGetUserInfo` | High
+33 | File | `admin/admin_log/index.html?user_id` | High
+34 | File | `admin/admin_menu.php` | High
+35 | File | `admin/config.php` | High
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

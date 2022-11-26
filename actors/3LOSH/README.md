@@ -34,8 +34,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `data/gbconfiguration.dat` | High
-2 | File | `redirect.php` | Medium
-3 | Argument | `goto` | Low
+2 | File | `init.inc.php` | Medium
+3 | File | `redirect.php` | Medium
+4 | ... | ... | ...
+
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

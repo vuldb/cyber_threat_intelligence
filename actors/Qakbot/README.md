@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IN](https://vuldb.com/?country.in)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1137,9 +1137,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -1150,32 +1150,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/users_add.php` | High
-5 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-6 | File | `/cgi-bin/qcmap_auth` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/diagnostic/edittest.php` | High
-9 | File | `/ebics-server/ebics.aspx` | High
-10 | File | `/editbrand.php` | High
-11 | File | `/employeeview.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/leave_system/classes/Master.php?f=delete_application` | High
-14 | File | `/leave_system/classes/Users.php?f=save` | High
-15 | File | `/opt/onedev/sites/` | High
-16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-17 | File | `/out.php` | Medium
-18 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-19 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-20 | File | `/ResiotQueryDBActive` | High
-21 | File | `/sacco_shield/ajax.php?action=delete_loan` | High
-22 | File | `/sacco_shield/ajax.php?action=delete_payment` | High
-23 | File | `/sacco_shield/manage_borrower.php` | High
-24 | ... | ... | ...
+1 | File | `/admin/admin.php` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/admin/problem_judge.php` | High
+4 | File | `/api/user/password/sent-reset-email` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+8 | File | `/asms/classes/Master.php?f=delete_service` | High
+9 | File | `/balance/service/list` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/modx/manager/` | High
+13 | File | `/okm:root` | Medium
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/plugin/getList` | High
+16 | File | `/proxy` | Low
+17 | File | `/public_html/animals` | High
+18 | File | `/register/abort` | High
+19 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
+20 | File | `/sqfs/bin/sccd` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

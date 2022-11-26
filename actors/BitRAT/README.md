@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [108.61.207.100](https://vuldb.com/?ip.108.61.207.100) | 108.61.207.100.vultrusercontent.com | - | High
-2 | [135.181.6.215](https://vuldb.com/?ip.135.181.6.215) | static.215.6.181.135.clients.your-server.de | - | High
-3 | [135.181.140.153](https://vuldb.com/?ip.135.181.140.153) | static.153.140.181.135.clients.your-server.de | - | High
+1 | [47.189.161.248](https://vuldb.com/?ip.47.189.161.248) | - | - | High
+2 | [108.61.207.100](https://vuldb.com/?ip.108.61.207.100) | 108.61.207.100.vultrusercontent.com | - | High
+3 | [135.181.6.215](https://vuldb.com/?ip.135.181.6.215) | static.215.6.181.135.clients.your-server.de | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,6 +92,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/50/bitrat-trojan-ioc/
 * https://1275.ru/ioc/281/bitrat-malware-iocs-part-5/
+* https://asec.ahnlab.com/en/37939/
 * https://blog.morphisec.com/the-babadeda-crypter-targeting-crypto-nft-defi-communities
 
 ## Literature

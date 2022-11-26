@@ -73,41 +73,41 @@ ID | Type | Indicator | Confidence
 23 | File | `admin_ug_auth.php` | High
 24 | File | `admin_user.db` | High
 25 | File | `advserver.exe` | High
-26 | File | `ad_member.php` | High
-27 | File | `agentadmin.php` | High
-28 | File | `aolsecurityprivate.class` | High
-29 | File | `article.php` | Medium
-30 | File | `artlist.php` | Medium
-31 | File | `astrocam.cgi` | Medium
-32 | File | `as_web.exe/as_web4.exe` | High
-33 | File | `athcgi.exe` | Medium
-34 | File | `auction.cgi` | Medium
-35 | File | `auth.inc.php` | Medium
-36 | File | `axspawn.c` | Medium
-37 | File | `backend.php/screen.php/comment.php` | High
-38 | File | `badmin.c` | Medium
-39 | File | `books.php` | Medium
-40 | File | `bttv-driver.c` | High
-41 | File | `bugzilla_email_append.pl` | High
-42 | File | `bug_update_advanced_page.php/bug_update_page.php/view_bug_advanced_page.php/view_bug_page.php` | High
-43 | File | `calendar.php` | Medium
-44 | File | `category.cfm` | Medium
-45 | File | `cgi-bin` | Low
-46 | File | `cgi-bin/` | Medium
-47 | File | `cgicso.c` | Medium
-48 | File | `cgitest.exe` | Medium
-49 | File | `charities.cron` | High
-50 | File | `check_me.mod.php` | High
-51 | File | `chetcpasswd.cgi` | High
-52 | File | `cio_main.c` | Medium
-53 | File | `clear_cookies.php` | High
-54 | File | `CodeBrws.asp` | Medium
-55 | File | `colegal.htm` | Medium
-56 | File | `com.ms.vm.loader.cabcracker` | High
-57 | File | `compose.php` | Medium
+26 | File | `agentadmin.php` | High
+27 | File | `aolsecurityprivate.class` | High
+28 | File | `article.php` | Medium
+29 | File | `artlist.php` | Medium
+30 | File | `astrocam.cgi` | Medium
+31 | File | `as_web.exe/as_web4.exe` | High
+32 | File | `athcgi.exe` | Medium
+33 | File | `auction.cgi` | Medium
+34 | File | `auth.inc.php` | Medium
+35 | File | `axspawn.c` | Medium
+36 | File | `backend.php/screen.php/comment.php` | High
+37 | File | `badmin.c` | Medium
+38 | File | `books.php` | Medium
+39 | File | `bttv-driver.c` | High
+40 | File | `bugzilla_email_append.pl` | High
+41 | File | `bug_update_advanced_page.php/bug_update_page.php/view_bug_advanced_page.php/view_bug_page.php` | High
+42 | File | `calendar.php` | Medium
+43 | File | `category.cfm` | Medium
+44 | File | `cgi-bin` | Low
+45 | File | `cgi-bin/` | Medium
+46 | File | `cgicso.c` | Medium
+47 | File | `cgitest.exe` | Medium
+48 | File | `charities.cron` | High
+49 | File | `check_me.mod.php` | High
+50 | File | `chetcpasswd.cgi` | High
+51 | File | `cio_main.c` | Medium
+52 | File | `clear_cookies.php` | High
+53 | File | `CodeBrws.asp` | Medium
+54 | File | `colegal.htm` | Medium
+55 | File | `com.ms.vm.loader.cabcracker` | High
+56 | File | `compose.php` | Medium
+57 | File | `config.img` | Medium
 58 | ... | ... | ...
 
-There are 505 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 504 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

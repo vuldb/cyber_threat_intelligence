@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,39 +79,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/waste` | High
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.PHP` | High
-5 | File | `/admin/video/list` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/api/upload-resource` | High
-8 | File | `/api/v2/config` | High
-9 | File | `/appConfig/userDB.json` | High
-10 | File | `/authUserAction!edit.action` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/bits/stl_vector.h` | High
-14 | File | `/c/macho_reader.c` | High
-15 | File | `/card/in-card.php` | High
-16 | File | `/cgi-bin/DownloadFlash` | High
-17 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Users.php?f=save_client` | High
-20 | File | `/coreframe/app/attachment/admin/index.php` | High
-21 | File | `/csms/admin/storages/view_storage.php` | High
-22 | File | `/defaultui/player/modern.html` | High
-23 | File | `/dishes.php` | Medium
-24 | File | `/etc/ciel.cfg` | High
-25 | File | `/etc/init0.d/S80telnetd.sh` | High
-26 | File | `/etc/shadow.sample` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/garage/editclient.php` | High
-29 | File | `/get_missing_events` | High
-30 | File | `/goform/addRouting` | High
+1 | File | `/action/factory` | High
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin/?page=reports/waste` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/add-fee.php` | High
+7 | File | `/admin/baojia_list.php` | High
+8 | File | `/admin/folderrollpicture/list` | High
+9 | File | `/admin/users_add.php` | High
+10 | File | `/administration/settings_registration.php` | High
+11 | File | `/anony/mjpg.cgi` | High
+12 | File | `/api/common/ping` | High
+13 | File | `/api/v2/open/rowsInfo` | High
+14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+15 | File | `/appointments/update_status.php` | High
+16 | File | `/authUserAction!edit.action` | High
+17 | File | `/bin/boa` | Medium
+18 | File | `/bookings/update_status.php` | High
+19 | File | `/cgi-bin/DownloadFlash` | High
+20 | File | `/classes/Master.php?f=delete_category` | High
+21 | File | `/classes/Users.php?f=delete_client` | High
+22 | File | `/Core/Ap4File.cpp` | High
+23 | File | `/csms/admin/storages/view_storage.php` | High
+24 | File | `/dede/file_manage_control.php` | High
+25 | File | `/etc/ciel.cfg` | High
+26 | File | `/etc/openshift/server_priv.pem` | High
+27 | File | `/etc/shadow.sample` | High
+28 | File | `/foms/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/formSetFirewallCfg` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

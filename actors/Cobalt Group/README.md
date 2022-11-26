@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Group:
 
 * [DE](https://vuldb.com/?country.de)
-* [SV](https://vuldb.com/?country.sv)
 * [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,44 +50,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/manage_user` | High
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/api/v1/user` | Medium
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/categories/view_category.php` | High
-6 | File | `/classes/Master.php?f=delete_category` | High
-7 | File | `/classes/Master.php?f=delete_stockin` | High
-8 | File | `/classes/Master.php?f=delete_student` | High
-9 | File | `/client.php` | Medium
-10 | File | `/conf/users` | Medium
-11 | File | `/csms/admin/storages/view_storage.php` | High
-12 | File | `/cstecgi.cgi` | Medium
-13 | File | `/etc/shadow` | Medium
-14 | File | `/export` | Low
-15 | File | `/garage/editcategory.php` | High
-16 | File | `/goform/delIpMacBind/` | High
-17 | File | `/guestmanagement/front.php` | High
-18 | File | `/Home/debit_credit_p` | High
-19 | File | `/htdocs/upnpinc/gena.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/interview/delete.php?action=deletecand` | High
-22 | File | `/interview/delete.php?action=questiondelete` | High
-23 | File | `/interview/editQuestion.php` | High
-24 | File | `/ip/admin/` | Medium
-25 | File | `/login.php` | Medium
-26 | File | `/master/index.php` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/multiarch/memset-vec-unaligned-erms.S` | High
-29 | File | `/net-banking/manage_customers.php` | High
-30 | File | `/Noxen-master/users.php` | High
-31 | File | `/oa/setup/checkPool?database` | High
-32 | File | `/obs/book.php` | High
-33 | File | `/opt/axess/var/blobstorage/` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/pages/processlogin.php` | High
-36 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin` | Low
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/contact/list` | High
+5 | File | `/admin/edit_event.php` | High
+6 | File | `/admin/sign/out` | High
+7 | File | `/admin/subnets/ripe-query.php` | High
+8 | File | `/api/common/ping` | High
+9 | File | `/api/upload-resource` | High
+10 | File | `/api/v2/open/tablesInfo` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/bin/httpd` | Medium
+13 | File | `/catcompany.php` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/client.php` | Medium
+16 | File | `/csms/admin/storages/view_storage.php` | High
+17 | File | `/cstecgi.cgi` | Medium
+18 | File | `/cwc/login` | Medium
+19 | File | `/etc/shadow` | Medium
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/export` | Low
+22 | File | `/goform/delIpMacBind/` | High
+23 | File | `/goform/fast_setting_wifi_set` | High
+24 | File | `/goform/formWifiWpsStart` | High
+25 | File | `/goform/saveParentControlInfo` | High
+26 | File | `/htdocs/upnpinc/gena.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/interview/delete.php?action=deletecand` | High
+29 | File | `/js/player/dmplayer/dmku/index.php` | High
+30 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

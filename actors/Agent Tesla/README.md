@@ -50,8 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -97,16 +96,15 @@ ID | Type | Indicator | Confidence
 34 | File | `album_portal.php` | High
 35 | File | `apache-auth.conf` | High
 36 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-37 | File | `askapache-firefox-adsense.php` | High
-38 | File | `assets/add/category.php` | High
-39 | File | `attachment.cgi` | High
-40 | File | `blueprints/sections/edit/1` | High
-41 | File | `books.php` | Medium
-42 | File | `btif_hd.cc` | Medium
-43 | File | `cart.php` | Medium
-44 | ... | ... | ...
+37 | File | `Asc.exe` | Low
+38 | File | `askapache-firefox-adsense.php` | High
+39 | File | `assets/add/category.php` | High
+40 | File | `attachment.cgi` | High
+41 | File | `blueprints/sections/edit/1` | High
+42 | File | `books.php` | Medium
+43 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

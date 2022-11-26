@@ -58,27 +58,26 @@ ID | Type | Indicator | Confidence
 8 | File | `/hub/api/user` | High
 9 | File | `/medical/inventories.php` | High
 10 | File | `/monitoring` | Medium
-11 | File | `/plugin/LiveChat/getChat.json.php` | High
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp/speedtest_urls.xml` | High
-17 | File | `/tmp/zarafa-vacation-*` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/upload` | Low
-20 | File | `/var/log/nginx` | High
-21 | File | `/var/run/watchman.pid` | High
-22 | File | `/viewer/krpano.html` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | File | `/wp-json/oembed/1.0/embed?url` | High
-25 | File | `addentry.php` | Medium
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/plugin/LiveChat/getChat.json.php` | High
+13 | File | `/plugins/servlet/audit/resource` | High
+14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+15 | File | `/replication` | Medium
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/tmp/zarafa-vacation-*` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/var/log/nginx` | High
+22 | File | `/var/run/watchman.pid` | High
+23 | File | `/viewer/krpano.html` | High
+24 | File | `/WEB-INF/web.xml` | High
+25 | File | `/wp-json/oembed/1.0/embed?url` | High
 26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 27 | File | `admins.js` | Medium
-28 | File | `admin\model\catalog\download.php` | High
-29 | ... | ... | ...
+28 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

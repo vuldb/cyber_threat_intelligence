@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinMiner:
 
 * [DE](https://vuldb.com/?country.de)
-* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
 12 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
 13 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
-14 | ... | ... | ... | ...
+14 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
+15 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,11 +59,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.imwheelrc` | Medium
-3 | File | `.plan` | Low
-4 | File | `.tin` | Low
-5 | File | `/aux` | Low
+1 | File | `.imwheelrc` | Medium
+2 | File | `.plan` | Low
+3 | File | `.tin` | Low
+4 | File | `/aux` | Low
+5 | File | `/cgi-bin/editBookmark` | High
 6 | File | `/configs/application.ini` | High
 7 | File | `/goform/setPicListItem` | High
 8 | File | `/root/.keeper/` | High
@@ -70,41 +71,38 @@ ID | Type | Indicator | Confidence
 10 | File | `/spacecom/login.php` | High
 11 | File | `/uncpath/` | Medium
 12 | File | `/usr/bin/sonia` | High
-13 | File | `/var/log/nginx` | High
-14 | File | `/xampp/guestbook-en.pl` | High
-15 | File | `/zm/index.php` | High
-16 | File | `95.php` | Low
-17 | File | `123flashchat.php` | High
-18 | File | `abook_database.php` | High
-19 | File | `action.php` | Medium
-20 | File | `Active Browser Profile` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/profile_settings_net.html` | High
-23 | File | `af.cgi/alienform.cgi` | High
-24 | File | `aide.php3` | Medium
-25 | File | `aim/icq` | Low
-26 | File | `ajax.php` | Medium
-27 | File | `akocomment.php` | High
-28 | File | `article.php` | Medium
-29 | File | `aviso.php` | Medium
-30 | File | `bar.phtml` | Medium
-31 | File | `bitmap/bdfread.c` | High
+13 | File | `/xampp/guestbook-en.pl` | High
+14 | File | `/zm/index.php` | High
+15 | File | `95.php` | Low
+16 | File | `123flashchat.php` | High
+17 | File | `abook_database.php` | High
+18 | File | `action.php` | Medium
+19 | File | `admin.php` | Medium
+20 | File | `admin/profile_settings_net.html` | High
+21 | File | `admin/vqmods.app/vqmods.inc.php` | High
+22 | File | `af.cgi/alienform.cgi` | High
+23 | File | `aim/icq` | Low
+24 | File | `ajax.php` | Medium
+25 | File | `akocomment.php` | High
+26 | File | `article.php` | Medium
+27 | File | `aviso.php` | Medium
+28 | File | `awredir.pl` | Medium
+29 | File | `bar.phtml` | Medium
+30 | File | `bitmap/bdfread.c` | High
+31 | File | `blocks.php` | Medium
 32 | File | `blog.cgi` | Medium
-33 | File | `browse.php` | Medium
-34 | File | `cartman.php` | Medium
-35 | File | `cdf.c` | Low
-36 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-37 | File | `chetcpasswd.cgi` | High
-38 | File | `classifieds.cgi` | High
-39 | File | `cmd.php` | Low
-40 | File | `com.evernote_preferences.xml` | High
-41 | File | `command/user.cgi` | High
-42 | File | `comments.php` | Medium
-43 | File | `common.php` | Medium
-44 | File | `content.php` | Medium
-45 | ... | ... | ...
+33 | File | `bluewrench-video-widget.php` | High
+34 | File | `browse.php` | Medium
+35 | File | `cartman.php` | Medium
+36 | File | `cdf.c` | Low
+37 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+38 | File | `chetcpasswd.cgi` | High
+39 | File | `classifieds.cgi` | High
+40 | File | `cmd.php` | Low
+41 | File | `collectivite.class.php` | High
+42 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,6 +121,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
 * https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
 * https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/
+* https://www.trendmicro.com/en_us/research/22/i/a-post-exploitation-look-at-coinminers-abusing-weblogic-vulnerab.html
 
 ## Literature
 

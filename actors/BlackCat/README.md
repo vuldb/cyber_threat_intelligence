@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackCat:
 
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,15 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,39 +50,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Label/js_del` | High
-2 | File | `/admin.php/Label/page_del` | High
-3 | File | `/admin.php/user/zu_del` | High
-4 | File | `/admin/delstu.php` | High
-5 | File | `/admin/edit_admin_details.php?id=admin` | High
-6 | File | `/admin/foldernotice/list` | High
-7 | File | `/admin/image/list` | High
-8 | File | `/ajax/set_sys_time/` | High
-9 | File | `/api/programs/orgUnits?programs` | High
+1 | File | `/action/factory` | High
+2 | File | `/action/import_wireguard_cert_file/` | High
+3 | File | `/admin/?page=orders/view_order` | High
+4 | File | `/admin/add-fee.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/delstu.php` | High
+7 | File | `/admin/foldernotice/list` | High
+8 | File | `/admin/fst_upload.inc.php` | High
+9 | File | `/admin/image/list` | High
 10 | File | `/api/v1/user` | Medium
-11 | File | `/application/controllers/Users.php` | High
-12 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-13 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-14 | File | `/bcms/classes/Master.php?f=delete_court_rental` | High
-15 | File | `/buspassms/download-pass.php` | High
-16 | File | `/cgi-bin/cstecgi.cgi` | High
-17 | File | `/cgi/get_param.cgi` | High
-18 | File | `/checklogin.jsp` | High
-19 | File | `/ci_hms/search` | High
-20 | File | `/ci_spms/admin/search/searching/` | High
-21 | File | `/classes/Master.php?f=delete_category` | High
-22 | File | `/classes/Master.php?f=delete_payment` | High
-23 | File | `/classes/Master.php?f=delete_schedule` | High
-24 | File | `/company/account/safety/trade` | High
-25 | File | `/csms/admin/storages/view_storage.php` | High
-26 | File | `/dashboard/reports/logs/view` | High
-27 | File | `/dashboard/snapshot/*?orgId=0` | High
-28 | File | `/diagnostic/editclient.php` | High
-29 | File | `/dotrace.asp` | Medium
-30 | File | `/etc/init0.d/S80telnetd.sh` | High
+11 | File | `/asms/classes/Master.php?f=delete_service` | High
+12 | File | `/buspassms/download-pass.php` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=delete_payment` | High
+16 | File | `/classes/Users.php?f=delete_client` | High
+17 | File | `/clients/profile` | High
+18 | File | `/csms/admin/?page=user/manage_user` | High
+19 | File | `/csms/admin/storages/view_storage.php` | High
+20 | File | `/diagnostic/editclient.php` | High
+21 | File | `/dotrace.asp` | Medium
+22 | File | `/etc/init0.d/S80telnetd.sh` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/home/hjsz/jsonlint/src/lexer` | High
+25 | File | `/index.php?module=entities/entities` | High
+26 | File | `/index.php?module=global_lists/lists` | High
+27 | File | `/index.php?module=users_alerts/users_alerts` | High
+28 | File | `/index1.html` | Medium
+29 | File | `/jfinal_cms/system/user/list` | High
+30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 31 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

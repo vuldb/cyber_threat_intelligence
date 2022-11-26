@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,9 +106,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/admin/` | Low
+2 | File | `/adfs/ls` | Medium
 3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/photo.php` | High
+4 | File | `/admin/users_add.php` | High
 5 | File | `/administration/settings_registration.php` | High
 6 | File | `/ad_js.php` | Medium
 7 | File | `/app/options.py` | High
@@ -116,32 +116,35 @@ ID | Type | Indicator | Confidence
 9 | File | `/bd_genie_create_account.cgi` | High
 10 | File | `/c/macho_reader.c` | High
 11 | File | `/catcompany.php` | High
-12 | File | `/cgi-bin/login.cgi` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/claire_blake` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/defaultui/player/modern.html` | High
-20 | File | `/ebics-server/ebics.aspx` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/claire_blake` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/defaultui/player/modern.html` | High
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/egroupware/index.php` | High
 21 | File | `/etc/hosts` | Medium
 22 | File | `/etc/init0.d/S80telnetd.sh` | High
 23 | File | `/etc/shadow.sample` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/ghost/preview` | High
-26 | File | `/goform/SetIpMacBind` | High
-27 | File | `/goform/setmac` | High
-28 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-29 | File | `/htdocs/utils/Files.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index/jobfairol/show/` | High
+24 | File | `/foms/place-order.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/ghost/preview` | High
+27 | File | `/goform/SetIpMacBind` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/htdocs/utils/Files.php` | High
+31 | File | `/index.php` | Medium
 32 | File | `/jfinal_cms/system/role/list` | High
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/librarian/edit_book_details.php` | High
-35 | ... | ... | ...
+33 | File | `/librarian/edit_book_details.php` | High
+34 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+35 | File | `/manage-apartment.php` | High
+36 | File | `/master/index.php` | High
+37 | File | `/members/view_member.php` | High
+38 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -66,21 +66,21 @@ ID | Type | Indicator | Confidence
 1 | File | `/forgetpassword.php` | High
 2 | File | `/forum/away.php` | High
 3 | File | `/modules/registration_admission/patient_register.php` | High
-4 | File | `/Tools/tools_admin.htm` | High
-5 | File | `adm/krgourl.php` | High
-6 | File | `admin.php` | Medium
-7 | File | `admin/conf_users_edit.php` | High
-8 | File | `administers` | Medium
-9 | File | `application\User\Controller\ProfileController.class.php` | High
-10 | File | `banner-edit.php` | High
-11 | File | `btif_hd.cc` | Medium
-12 | File | `catchsegv` | Medium
-13 | File | `classes/SystemSettings.php` | High
-14 | File | `classified.php` | High
-15 | File | `coders/mat.c` | Medium
+4 | File | `/spip.php` | Medium
+5 | File | `/Tools/tools_admin.htm` | High
+6 | File | `adm/krgourl.php` | High
+7 | File | `admin.php` | Medium
+8 | File | `admin/conf_users_edit.php` | High
+9 | File | `administers` | Medium
+10 | File | `application\User\Controller\ProfileController.class.php` | High
+11 | File | `banner-edit.php` | High
+12 | File | `btif_hd.cc` | Medium
+13 | File | `catchsegv` | Medium
+14 | File | `classes/SystemSettings.php` | High
+15 | File | `classified.php` | High
 16 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

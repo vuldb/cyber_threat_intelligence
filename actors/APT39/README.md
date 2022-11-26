@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,16 +57,17 @@ ID | Type | Indicator | Confidence
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
 3 | File | `/bin/boa` | Medium
-4 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-5 | File | `/jquery_file_upload/server/php/index.php` | High
-6 | File | `/librarian/bookdetails.php` | High
-7 | File | `/magnoliaPublic/travel/members/login.html` | High
-8 | File | `/Main_AdmStatus_Content.asp` | High
-9 | File | `/server-status` | High
-10 | File | `/uncpath/` | Medium
-11 | ... | ... | ...
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+6 | File | `/jquery_file_upload/server/php/index.php` | High
+7 | File | `/librarian/bookdetails.php` | High
+8 | File | `/magnoliaPublic/travel/members/login.html` | High
+9 | File | `/Main_AdmStatus_Content.asp` | High
+10 | File | `/server-status` | High
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

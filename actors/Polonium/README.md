@@ -14,9 +14,12 @@ The following _campaigns_ are known and can be associated with Polonium:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Polonium:
 
-* [TR](https://vuldb.com/?country.tr)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [TR](https://vuldb.com/?country.tr)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +27,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.80.149.57](https://vuldb.com/?ip.45.80.149.57) | - | CreepySnail | High
-2 | [45.80.149.68](https://vuldb.com/?ip.45.80.149.68) | - | CreepySnail | High
-3 | [45.80.149.71](https://vuldb.com/?ip.45.80.149.71) | - | CreepySnail | High
-4 | ... | ... | ... | ...
+1 | [37.120.233.89](https://vuldb.com/?ip.37.120.233.89) | no-rdns.m247.com | - | High
+2 | [45.80.148.119](https://vuldb.com/?ip.45.80.148.119) | - | - | High
+3 | [45.80.148.167](https://vuldb.com/?ip.45.80.148.167) | - | - | High
+4 | [45.80.148.186](https://vuldb.com/?ip.45.80.148.186) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,17 +55,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/passwd` | Medium
-2 | File | `/tmp` | Low
-3 | File | `admin/cal_login.php` | High
-4 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/etc/gsissh/sshd_config` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/forms/nslookupHandler` | High
+5 | File | `/index.php` | Medium
+6 | File | `/modules/profile/index.php` | High
+7 | File | `/news.dtl.php` | High
+8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+9 | File | `/ptms/?page=user` | High
+10 | File | `/sqfs/bin/sccd` | High
+11 | File | `/tmp` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/upload/file.php` | High
+14 | File | `/usr/bin/at` | Medium
+15 | File | `/usr/local/www/pkg.php` | High
+16 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+17 | File | `5.2.9\syscrb.exe` | High
+18 | File | `admin.cgi` | Medium
+19 | File | `admin/cal_login.php` | High
+20 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/eset/malware-ioc/tree/master/polonium
 * https://www.microsoft.com/security/blog/2022/06/02/exposing-polonium-activity-and-infrastructure-targeting-israeli-organizations/
 
 ## Literature

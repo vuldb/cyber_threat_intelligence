@@ -86,13 +86,14 @@ ID | Type | Indicator | Confidence
 33 | File | `breadcrumbs_create.php` | High
 34 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
 35 | File | `cds-fpdf.php` | Medium
-36 | File | `controllers/member/Api.php` | High
-37 | File | `cp.php` | Low
-38 | File | `dashboard_teacher.php` | High
-39 | File | `demo.php` | Medium
-40 | ... | ... | ...
+36 | File | `common.php` | Medium
+37 | File | `controllers/member/Api.php` | High
+38 | File | `cp.php` | Low
+39 | File | `dashboard_teacher.php` | High
+40 | File | `demo.php` | Medium
+41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

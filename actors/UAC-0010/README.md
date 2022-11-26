@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UAC-0010:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [66.42.95.123](https://vuldb.com/?ip.66.42.95.123) | 66.42.95.123.vultrusercontent.com | - | High
-2 | [66.175.219.231](https://vuldb.com/?ip.66.175.219.231) | 66-175-219-231.ip.linodeusercontent.com | - | High
-3 | [92.53.116.145](https://vuldb.com/?ip.92.53.116.145) | smtpout7.timeweb.ru | - | High
-4 | ... | ... | ... | ...
+1 | [45.61.138.226](https://vuldb.com/?ip.45.61.138.226) | - | - | High
+2 | [45.61.139.22](https://vuldb.com/?ip.45.61.139.22) | - | - | High
+3 | [45.77.196.211](https://vuldb.com/?ip.45.77.196.211) | 45.77.196.211.vultrusercontent.com | - | High
+4 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | - | High
+5 | [66.42.95.123](https://vuldb.com/?ip.66.42.95.123) | 66.42.95.123.vultrusercontent.com | - | High
+6 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,12 +50,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/tmp/speedtest_urls.xml` | High
-2 | File | `add_comment.php` | High
-3 | File | `api/sms_check.php` | High
-4 | ... | ... | ...
+1 | File | `/etc/keystone/user-project-map.json` | High
+2 | File | `/goform/formLogin` | High
+3 | File | `/html/portal/flash.jsp` | High
+4 | File | `/test/cookie/` | High
+5 | File | `/tmp/speedtest_urls.xml` | High
+6 | File | `/ui/login` | Medium
+7 | File | `/web/google_analytics.php` | High
+8 | File | `/wordpress/wp-admin/admin.php?page=weblib-circulation-desk&orderby=title&order=DESC` | High
+9 | File | `/wp-admin/options-general.php` | High
+10 | File | `addentry.php` | Medium
+11 | File | `add_comment.php` | High
+12 | File | `admin.php` | Medium
+13 | File | `api/sms_check.php` | High
+14 | ... | ... | ...
 
-There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -58,6 +75,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://cert.gov.ua/article/39138
 * https://cert.gov.ua/article/39386
 * https://cert.gov.ua/article/40240
+* https://cert.gov.ua/article/1229152
 
 ## Literature
 

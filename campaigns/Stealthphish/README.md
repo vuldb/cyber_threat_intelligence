@@ -63,20 +63,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php` | Medium
-2 | File | `/out.php` | Medium
-3 | File | `/tmp` | Low
-4 | File | `/uncpath/` | Medium
-5 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-6 | File | `admin` | Low
-7 | File | `adminlogin.asp` | High
-8 | File | `bidhistory.php` | High
-9 | File | `bl-kernel/ajax/upload-images.php` | High
-10 | File | `BlogEngine/BlogEngine.Core/Services/Security/Security.cs` | High
-11 | File | `bookPerPub.php` | High
+1 | File | `/drivers/isdn/i4l/isdn_net.c` | High
+2 | File | `/index.php` | Medium
+3 | File | `/out.php` | Medium
+4 | File | `/tmp` | Low
+5 | File | `/uncpath/` | Medium
+6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+7 | File | `admin` | Low
+8 | File | `adminlogin.asp` | High
+9 | File | `bidhistory.php` | High
+10 | File | `bl-kernel/ajax/upload-images.php` | High
+11 | File | `BlogEngine/BlogEngine.Core/Services/Security/Security.cs` | High
 12 | ... | ... | ...
 
-There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,34 +57,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
-3 | File | `/api/upload` | Medium
-4 | File | `/domain/add` | Medium
-5 | File | `/donor-wall` | Medium
-6 | File | `/esbus/servlet/GetSQLData` | High
-7 | File | `/film-rating.php` | High
-8 | File | `/goform/formLogin` | High
-9 | File | `/HNAP1` | Low
-10 | File | `/horde/util/go.php` | High
-11 | File | `/ishttpd/localweb/java/` | High
-12 | File | `/KK_LS9ReportingPortal/GetData` | High
-13 | File | `/mcategory.php` | High
-14 | File | `/out.php` | Medium
-15 | File | `/p` | Low
-16 | File | `/pages/processlogin.php` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/bin/uucp` | High
-19 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-20 | File | `/web/google_analytics.php` | High
-21 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
-22 | File | `/whbs/admin/?page=user` | High
-23 | File | `/_readmail` | Medium
-24 | File | `admin.php3` | Medium
-25 | File | `admin/index.php?c=database` | High
-26 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-27 | File | `administrator/components/com_media/helpers/media.php` | High
-28 | ... | ... | ...
+3 | File | `/Admin/login.php` | High
+4 | File | `/api/upload` | Medium
+5 | File | `/domain/add` | Medium
+6 | File | `/donor-wall` | Medium
+7 | File | `/ebics-server/ebics.aspx` | High
+8 | File | `/esbus/servlet/GetSQLData` | High
+9 | File | `/film-rating.php` | High
+10 | File | `/goform/formLogin` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/horde/util/go.php` | High
+13 | File | `/ishttpd/localweb/java/` | High
+14 | File | `/KK_LS9ReportingPortal/GetData` | High
+15 | File | `/mcategory.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/p` | Low
+18 | File | `/pages/processlogin.php` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/bin/uucp` | High
+21 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+22 | File | `/web/google_analytics.php` | High
+23 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
+24 | File | `/whbs/admin/?page=user` | High
+25 | File | `/_readmail` | Medium
+26 | File | `admin.php` | Medium
+27 | File | `admin.php3` | Medium
+28 | File | `admin/index.php?c=database` | High
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

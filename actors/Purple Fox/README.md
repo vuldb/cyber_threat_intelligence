@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -437,13 +437,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -451,47 +451,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/index.PHP` | High
-3 | File | `/admin/lab.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/appConfig/userDB.json` | High
-9 | File | `/authUserAction!edit.action` | High
-10 | File | `/baseOpLog.do` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/c/macho_reader.c` | High
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/koha/members/paycollect.pl` | High
-16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/cgi-bin/touchlist_sync.cgi` | High
-18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/coreframe/app/attachment/admin/index.php` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/defaultui/player/modern.html` | High
-23 | File | `/etc/shadow` | Medium
-24 | File | `/EXCU_SHELL` | Medium
-25 | File | `/filemanager/ajax_calls.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/framework/mod/db/DBMapper.xml` | High
-28 | File | `/goform/SetIpMacBind` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-31 | File | `/htdocs/utils/Files.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/librarian/edit_book_details.php` | High
-34 | File | `/manage-apartment.php` | High
-35 | File | `/master/index.php` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/pages/processlogin.php` | High
-39 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/cgi-bin/qcmap_auth` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/classes/Master.php?f=delete_appointment` | High
+10 | File | `/cmscp/ext/collect/fetch_url.do` | High
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/diagnostic/editclient.php` | High
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/foms/place-order.php` | High
+19 | File | `/FormLogin` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/index.php?module=global_lists/lists` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/modx/manager/` | High
+24 | File | `/okm:root` | Medium
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/out.php` | Medium
+27 | File | `/pet_shop/classes/Master.php?f=delete_category` | High
+28 | File | `/php_action/editProductImage.php` | High
+29 | File | `/php_action/fetchSelectedUser.php` | High
+30 | File | `/proxy` | Low
+31 | File | `/public_html/animals` | High
+32 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/sqfs/bin/sccd` | High
+35 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

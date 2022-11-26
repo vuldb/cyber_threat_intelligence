@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,34 +54,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?page=batch_manager&mode=unit` | High
-2 | File | `/administration/settings_registration.php` | High
-3 | File | `/appConfig/userDB.json` | High
-4 | File | `/bd_genie_create_account.cgi` | High
-5 | File | `/c/macho_reader.c` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/luci/api/diagnose` | High
-8 | File | `/claire_blake` | High
-9 | File | `/CMD_ACCOUNT_ADMIN` | High
-10 | File | `/core/admin/categories.php` | High
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin.php?page=batch_manager&mode=unit` | High
+3 | File | `/admin/users_add.php` | High
+4 | File | `/administration/settings_registration.php` | High
+5 | File | `/appConfig/userDB.json` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/c/macho_reader.c` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/luci/api/diagnose` | High
+10 | File | `/claire_blake` | High
 11 | File | `/debug/pprof` | Medium
 12 | File | `/defaultui/player/modern.html` | High
 13 | File | `/etc/config/image_sign` | High
 14 | File | `/etc/groups` | Medium
 15 | File | `/etc/init0.d/S80telnetd.sh` | High
 16 | File | `/etc/shadow.sample` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/goform/aspForm` | High
-20 | File | `/goform/SetIpMacBind` | High
-21 | File | `/htdocs/utils/Files.php` | High
-22 | File | `/jfinal_cms/system/role/list` | High
-23 | File | `/librarian/edit_book_details.php` | High
-24 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-25 | File | `/master/index.php` | High
-26 | File | `/mgmt/tm/util/bash` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/MTFWU` | Low
+17 | File | `/foms/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/goform/SetIpMacBind` | High
+22 | File | `/htdocs/utils/Files.php` | High
+23 | File | `/jfinal_cms/system/role/list` | High
+24 | File | `/librarian/edit_book_details.php` | High
+25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+26 | File | `/master/index.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/mkshop/Men/profile.php` | High
 29 | File | `/omps/seller` | Medium
 30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 31 | File | `/pages/faculty_sched.php` | High
@@ -90,7 +90,7 @@ ID | Type | Indicator | Confidence
 34 | File | `/php_action/createUser.php` | High
 35 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

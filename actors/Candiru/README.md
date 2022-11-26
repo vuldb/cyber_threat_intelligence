@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 25 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,40 +62,39 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `/.dbus-keyrings` | High
 3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-4 | File | `/addsrv` | Low
-5 | File | `/admin.php/news/admin/topic/save` | High
-6 | File | `/admin/addemployee.php` | High
-7 | File | `/admin/comn/service/update.json` | High
-8 | File | `/Admin/Views/FileEditor/` | High
-9 | File | `/api/user/{ID}` | High
-10 | File | `/article/add` | Medium
-11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/controller/pay.class.php` | High
-13 | File | `/ctpms/admin/?page=applications/view_application` | High
-14 | File | `/dev/block/mmcblk0rpmb` | High
-15 | File | `/dev/kmem` | Medium
-16 | File | `/dev/snd/seq` | Medium
-17 | File | `/device/device=140/tab=wifi/view` | High
-18 | File | `/dl/dl_print.php` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/addressNat` | High
-21 | File | `/goform/SetClientState` | High
-22 | File | `/htdocs/admin/dict.php?id=3` | High
-23 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-24 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-25 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/librarian/lab.php` | High
-28 | File | `/login` | Low
-29 | File | `/mngset/authset` | High
-30 | File | `/module/module_frame/index.php` | High
+4 | File | `/addnews.html` | High
+5 | File | `/addsrv` | Low
+6 | File | `/admin.php/news/admin/topic/save` | High
+7 | File | `/admin/addemployee.php` | High
+8 | File | `/admin/comn/service/update.json` | High
+9 | File | `/Admin/Views/FileEditor/` | High
+10 | File | `/api/user/{ID}` | High
+11 | File | `/article/add` | Medium
+12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+13 | File | `/cgi-bin/uploadWeiXinPic` | High
+14 | File | `/controller/pay.class.php` | High
+15 | File | `/ctpms/admin/?page=applications/view_application` | High
+16 | File | `/dev/block/mmcblk0rpmb` | High
+17 | File | `/dev/kmem` | Medium
+18 | File | `/dev/snd/seq` | Medium
+19 | File | `/device/device=140/tab=wifi/view` | High
+20 | File | `/dl/dl_print.php` | High
+21 | File | `/getcfg.php` | Medium
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/SetClientState` | High
+24 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+25 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+26 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/librarian/lab.php` | High
+29 | File | `/login` | Low
+30 | File | `/mngset/authset` | High
 31 | File | `/nova/bin/sniffer` | High
 32 | File | `/ofcms/company-c-47` | High
-33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-34 | File | `/patient/settings.php` | High
-35 | ... | ... | ...
+33 | File | `/omos/admin/?page=user/list` | High
+34 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -527,11 +527,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -539,44 +539,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.procmailrc` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin/inquiries/view_details.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/api/addusers` | High
-9 | File | `/app/options.py` | High
-10 | File | `/application/common.php#action_log` | High
-11 | File | `/card_scan.php` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cwc/login` | Medium
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/dashboard/updatelogo.php` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
-20 | File | `/export` | Low
-21 | File | `/gasmark/assets/myimages/oneWord.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/index.php` | Medium
-24 | File | `/loginVaLidation.php` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/members/view_member.php` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/mygym/admin/index.php` | High
-30 | File | `/Noxen-master/users.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/pages/animals.php` | High
-34 | File | `/pages/apply_vacancy.php` | High
-35 | File | `/pms/index.php` | High
-36 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/login.php` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/students/manage.php` | High
+5 | File | `/admin/students/view_student.php` | High
+6 | File | `/admin/subnets/ripe-query.php` | High
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/api/user/upsert/<uuid>` | High
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/cwc/login` | Medium
+14 | File | `/dashboard/updatelogo.php` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/export` | Low
+17 | File | `/foms/place-order.php` | High
+18 | File | `/gasmark/assets/myimages/oneWord.php` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/h/compose` | Medium
+23 | File | `/h/search?action=voicemail&action=listen` | High
+24 | File | `/index.php` | Medium
+25 | File | `/loginVaLidation.php` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/manager/index.php` | High
+28 | File | `/members/view_member.php` | High
+29 | File | `/mkshop/Men/profile.php` | High
+30 | File | `/mygym/admin/index.php` | High
+31 | File | `/nova/bin/detnet` | High
+32 | File | `/Noxen-master/users.php` | High
+33 | File | `/opac/Actions.php?a=login` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/pages/animals.php` | High
+37 | File | `/pages/apply_vacancy.php` | High
+38 | File | `/php-sms/classes/Master.php` | High
+39 | File | `/php-sms/classes/SystemSettings.php` | High
+40 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

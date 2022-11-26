@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,49 +57,49 @@ ID | Type | Indicator | Confidence
 6 | File | `/ajax/networking/get_netcfg.php` | High
 7 | File | `/app/options.py` | High
 8 | File | `/assets/ctx` | Medium
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=delete_train` | High
-12 | File | `/cms/print.php` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/dashboard/menu-list.php` | High
-16 | File | `/data/remove` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/ffos/classes/Master.php?f=save_category` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/index.php/newsletter/subscriber/new/` | High
-21 | File | `/Items/*/RemoteImages/Download` | High
-22 | File | `/login` | Low
-23 | File | `/navigate/navigate_download.php` | High
-24 | File | `/ocwbs/admin/?page=user/manage_user` | High
-25 | File | `/ofrs/admin/?page=user/manage_user` | High
-26 | File | `/oputilsServlet` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/p` | Low
-29 | File | `/password.html` | High
-30 | File | `/proc/ioports` | High
-31 | File | `/property-list/property_view.php` | High
-32 | File | `/ptms/classes/Users.php` | High
-33 | File | `/rest` | Low
-34 | File | `/rest/api/2/search` | High
-35 | File | `/s/` | Low
-36 | File | `/scripts/cpan_config` | High
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | File | `/services/system/setup.json` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/vloggers_merch/?p=view_product` | High
-42 | File | `/webconsole/APIController` | High
-43 | File | `/websocket/exec` | High
-44 | File | `/whbs/?page=my_bookings` | High
-45 | File | `/wp-admin/admin-ajax.php` | High
-46 | File | `/wp-json` | Medium
-47 | File | `/wp-json/oembed/1.0/embed?url` | High
-48 | File | `/_next` | Low
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/cms/print.php` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/index.php/newsletter/subscriber/new/` | High
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/login` | Low
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/navigate/navigate_download.php` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ofrs/admin/?page=user/manage_user` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/password.html` | High
+33 | File | `/php_action/fetchSelectedUser.php` | High
+34 | File | `/proc/ioports` | High
+35 | File | `/property-list/property_view.php` | High
+36 | File | `/ptms/classes/Users.php` | High
+37 | File | `/rest/api/2/search` | High
+38 | File | `/s/` | Low
+39 | File | `/scripts/cpan_config` | High
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/services/system/setup.json` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/vloggers_merch/?p=view_product` | High
+45 | File | `/webconsole/APIController` | High
+46 | File | `/websocket/exec` | High
+47 | File | `/whbs/?page=my_bookings` | High
+48 | File | `/whbs/admin/?page=user` | High
 49 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

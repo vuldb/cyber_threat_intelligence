@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -753,7 +753,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -774,29 +774,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/login.cgi` | High
 9 | File | `/cgi-bin/luci/api/wireless` | High
 10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/goform/setmac` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/IISADMPWD` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/manage-apartment.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/proc/<PID>/mem` | High
-29 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-30 | File | `/uncpath/` | Medium
+11 | File | `/CMD_SELECT_USERS` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/data/wps.setup.json` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/fuel/sitevariables/delete/4` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/IISADMPWD` | Medium
+24 | File | `/index.php` | Medium
+25 | File | `/index/jobfairol/show/` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/manage-apartment.php` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/pages/apply_vacancy.php` | High
 31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

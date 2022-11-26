@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,13 +64,13 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/lab.php` | High
 5 | File | `/api/collection/findone` | High
 6 | File | `/api/crontab` | Medium
-7 | File | `/category_view.php` | High
+7 | File | `/cgi-bin/editBookmark` | High
 8 | File | `/cgi-bin/loaddata.py` | High
 9 | File | `/cgi-sys/FormMail-clone.cgi` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/passwd` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/framework/modules/users/models/user.php` | High
+10 | File | `/debug` | Low
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forum/away.php` | High
 14 | File | `/getcfg.php` | Medium
 15 | File | `/goform/setmac` | High
 16 | File | `/goform/setportList` | High
@@ -80,32 +80,32 @@ ID | Type | Indicator | Confidence
 20 | File | `/groups/31-twitter-basics` | High
 21 | File | `/login` | Low
 22 | File | `/modules/profile/index.php` | High
-23 | File | `/scdmz.cmd` | Medium
-24 | File | `/tmp` | Low
-25 | File | `/tmp/before` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/User/saveUser` | High
-28 | File | `/usr/bin/vmware-mount` | High
-29 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-30 | File | `/WEB-INF/web.xml` | High
-31 | File | `/_vti_pvt/access.cnf` | High
-32 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-33 | File | `accountsettings_add.html` | High
-34 | File | `aclient.exe` | Medium
-35 | File | `adclick.php` | Medium
-36 | File | `addentry.php` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?c=update&f=unzip` | High
-39 | File | `admin/ajax/op_kandidat.php` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/domain-fields/` | High
-42 | File | `admin/index.asp` | High
-43 | File | `admin/member_deal.php` | High
-44 | File | `admin/news.php` | High
-45 | File | `AdminLoginInterceptor.java` | High
+23 | File | `/tmp` | Low
+24 | File | `/tmp/before` | Medium
+25 | File | `/User/saveUser` | High
+26 | File | `/usr/bin/vmware-mount` | High
+27 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+28 | File | `/WEB-INF/web.xml` | High
+29 | File | `/_vti_pvt/access.cnf` | High
+30 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+31 | File | `accountsettings_add.html` | High
+32 | File | `aclient.exe` | Medium
+33 | File | `adclick.php` | Medium
+34 | File | `addentry.php` | Medium
+35 | File | `admin.php` | Medium
+36 | File | `admin.php?c=update&f=unzip` | High
+37 | File | `admin/ajax/op_kandidat.php` | High
+38 | File | `admin/conf_users_edit.php` | High
+39 | File | `admin/domain-fields/` | High
+40 | File | `admin/index.asp` | High
+41 | File | `admin/member_deal.php` | High
+42 | File | `admin/news.php` | High
+43 | File | `AdminLoginInterceptor.java` | High
+44 | File | `admins.js` | Medium
+45 | File | `advancedsearch.php` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

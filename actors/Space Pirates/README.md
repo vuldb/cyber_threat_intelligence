@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,12 +52,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
 3 | File | `/includes/rrdtool.inc.php` | High
 4 | File | `/srv/www/htdocs` | High
-5 | File | `api_poller.php` | High
-6 | File | `articleview.php` | High
-7 | File | `authent.php4` | Medium
+5 | File | `admin/killsource` | High
+6 | File | `api_poller.php` | High
+7 | File | `articleview.php` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

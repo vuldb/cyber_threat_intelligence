@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,12 +43,15 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.153.231.104](https://vuldb.com/?ip.45.153.231.104) | vm218397.pq.hosting | - | High
 10 | [46.99.148.96](https://vuldb.com/?ip.46.99.148.96) | - | Seedworm | High
 11 | [46.166.129.159](https://vuldb.com/?ip.46.166.129.159) | gcn.warrirge.com | - | High
-12 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
-13 | [78.129.139.134](https://vuldb.com/?ip.78.129.139.134) | der134.creditloanlenders.com | - | High
-14 | [78.129.139.147](https://vuldb.com/?ip.78.129.139.147) | - | - | High
-15 | ... | ... | ... | ...
+12 | [51.77.97.65](https://vuldb.com/?ip.51.77.97.65) | ip65.ip-51-77-97.eu | - | High
+13 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
+14 | [78.129.139.131](https://vuldb.com/?ip.78.129.139.131) | - | - | High
+15 | [78.129.139.134](https://vuldb.com/?ip.78.129.139.134) | der134.creditloanlenders.com | - | High
+16 | [78.129.139.147](https://vuldb.com/?ip.78.129.139.147) | - | - | High
+17 | [78.129.139.148](https://vuldb.com/?ip.78.129.139.148) | - | Seedworm | High
+18 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,15 +59,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,44 +75,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\CheckPoint\ZoneAlarm\Data\Updates` | High
-2 | File | `/admin/add_exercises.php` | High
-3 | File | `/admin/add_trainers.php` | High
-4 | File | `/admin/edit.php` | High
-5 | File | `/admin/settings/fields` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/api/v1/chat.getThreadsList` | High
-8 | File | `/api/v1/user` | Medium
-9 | File | `/bd_genie_create_account.cgi` | High
-10 | File | `/bin/boa` | Medium
-11 | File | `/buspassms/download-pass.php` | High
-12 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-13 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-14 | File | `/cgi-bin/DownloadFlash` | High
-15 | File | `/claire_blake` | High
-16 | File | `/cnr` | Low
-17 | File | `/dashboard/add-portfolio.php` | High
-18 | File | `/dashboard/add-service.php` | High
-19 | File | `/dashboard/settings` | High
-20 | File | `/dashboard/updatelogo.php` | High
-21 | File | `/DesignTools/CssEditor.aspx` | High
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/etc/networkd-dispatcher` | High
-24 | File | `/etc/shadow.sample` | High
-25 | File | `/etc/version` | Medium
-26 | File | `/fw.login.php` | High
-27 | File | `/gasmark/assets/myimages/oneWord.php` | High
-28 | File | `/git-prereceive-callback` | High
-29 | File | `/goform/addRouting` | High
-30 | File | `/goform/Diagnosis` | High
-31 | File | `/goform/expandDlnaFile` | High
-32 | File | `/goform/fast_setting_wifi_set` | High
-33 | File | `/goform/form2userconfig.cgi` | High
-34 | File | `/goform/NatStaticSetting` | High
-35 | File | `/goform/NTPSyncWithHost` | High
-36 | File | `/goform/openSchedWifi/` | High
-37 | ... | ... | ...
+2 | File | `/action/iperf` | High
+3 | File | `/action/wirelessConnect` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/admin.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/settings/fields` | High
+8 | File | `/admin/sign/out` | High
+9 | File | `/api/discoveries/` | High
+10 | File | `/api/v1/attack` | High
+11 | File | `/api/v1/attack/falco` | High
+12 | File | `/api/v1/attack/token` | High
+13 | File | `/api/v1/bait/set` | High
+14 | File | `/api/v1/chat.getThreadsList` | High
+15 | File | `/api/v2/open/rowsInfo` | High
+16 | File | `/api/v2/open/tablesInfo` | High
+17 | File | `/balance/service/list` | High
+18 | File | `/bin/proc.cgi` | High
+19 | File | `/buspassms/download-pass.php` | High
+20 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+21 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+22 | File | `/category.php` | High
+23 | File | `/changePassword` | High
+24 | File | `/cnr` | Low
+25 | File | `/Core/Ap4File.cpp` | High
+26 | File | `/csms/admin/?page=user/manage_user` | High
+27 | File | `/depotHead/list` | High
+28 | File | `/DesignTools/CssEditor.aspx` | High
+29 | File | `/ebics-server/ebics.aspx` | High
+30 | File | `/etc/shadow.sample` | High
+31 | File | `/etc/version` | Medium
+32 | File | `/git-prereceive-callback` | High
+33 | File | `/goform/expandDlnaFile` | High
+34 | File | `/goform/fast_setting_wifi_set` | High
+35 | File | `/goform/form2WizardStep4` | High
+36 | File | `/goform/formSetClientState` | High
+37 | File | `/goform/fromSetIpMacBind` | High
+38 | File | `/goform/NatStaticSetting` | High
+39 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +123,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
 * https://blog.talosintelligence.com/2022/01/iranian-apt-muddywater-targets-turkey.html
 * https://blog.talosintelligence.com/2022/03/iranian-supergroup-muddywater.html
+* https://github.com/blackorbird/APT_REPORT/blob/master/muddywater/wp_new_muddywater_findings_uncovered.pdf
 * https://reaqta.com/2017/11/muddywater-apt-targeting-middle-east/
 * https://securelist.com/muddywater/88059/
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/seedworm-espionage-group

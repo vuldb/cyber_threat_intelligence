@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4910,14 +4910,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4925,37 +4925,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?admin/user.html` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/buspassms/download-pass.php` | High
-7 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-8 | File | `/cardo/api` | Medium
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/cnr` | Low
-12 | File | `/csms/admin/inquiries/view_details.php` | High
-13 | File | `/csms/admin/storages/manage_storage.php` | High
-14 | File | `/csms/admin/storages/view_storage.php` | High
-15 | File | `/csms/classes/Master.php?f=delete_booking` | High
-16 | File | `/debug` | Low
-17 | File | `/diagnostic/editcategory.php` | High
-18 | File | `/diagnostic/edittest.php` | High
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/employeeview.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/htdocs/upnpinc/gena.php` | High
-23 | File | `/leave_system/classes/Users.php?f=save` | High
-24 | File | `/live/GLOBALS` | High
-25 | File | `/net/nfc/netlink.c` | High
-26 | File | `/opt/axess/etc/default/axess` | High
-27 | File | `/opt/axess/var/blobstorage/` | High
-28 | File | `/opt/onedev/sites/` | High
-29 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/api/user/password/sent-reset-email` | High
+6 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+9 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+10 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+11 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+12 | File | `/asms/classes/Master.php?f=delete_service` | High
+13 | File | `/attachments` | Medium
+14 | File | `/auparse/auparse.c` | High
+15 | File | `/cgi-bin/luci` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/clients/view_client.php` | High
+18 | File | `/Content/Template/root/reverse-shell.aspx` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/diagnostic/login.php` | High
+21 | File | `/diag_ping_admin.asp` | High
+22 | File | `/diag_tracert_admin.asp` | High
+23 | File | `/FormLogin` | Medium
+24 | File | `/goform/wizard_end` | High
+25 | File | `/HNAP1` | Low
+26 | File | `/images/background/1.php` | High
+27 | File | `/js/player/dmplayer/dmku/index.php` | High
+28 | File | `/login` | Low
+29 | File | `/mgm_dev_reboot.asp` | High
+30 | File | `/MicroStrategyWS/` | High
+31 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

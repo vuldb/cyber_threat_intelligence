@@ -57,9 +57,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/uapi/doc` | Medium
 9 | File | `/uncpath/` | Medium
 10 | File | `/updownload/t.report` | High
-11 | ... | ... | ...
+11 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

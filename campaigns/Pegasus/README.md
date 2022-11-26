@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -52,9 +52,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -69,12 +69,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit_visitor.php` | High
 2 | File | `/admin/info.php` | High
 3 | File | `/admin/user_list_backend.php` | High
-4 | File | `/cgi?` | Low
-5 | File | `/etc/controller-agent/agent.conf` | High
-6 | File | `/forms/web_importTFTP` | High
-7 | File | `/graphql` | Medium
-8 | File | `/individual` | Medium
-9 | File | `/jeecg-boot/jmreport/view` | High
+4 | File | `/etc/controller-agent/agent.conf` | High
+5 | File | `/forms/web_importTFTP` | High
+6 | File | `/graphql` | Medium
+7 | File | `/individual` | Medium
+8 | File | `/jeecg-boot/jmreport/view` | High
+9 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 10 | File | `/localhost/u` | Medium
 11 | File | `/net` | Low
 12 | File | `/opt/bin/cli` | Medium
@@ -100,11 +100,11 @@ ID | Type | Indicator | Confidence
 32 | File | `admin/index.php` | High
 33 | File | `admin/modules/tools/ip_history_logs.php` | High
 34 | File | `admin/netbase/clean.php` | High
-35 | File | `admin/scripts/FileUploader/php.php` | High
-36 | File | `admin/ueditor/uploadFile` | High
+35 | File | `admin/ueditor/uploadFile` | High
+36 | File | `admin/user_perm.php` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

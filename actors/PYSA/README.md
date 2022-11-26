@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,15 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,15 +50,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/admin/?page=orders/view_order` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/add_trainers.php` | High
+1 | File | `/action/import_https_cert_file/` | High
+2 | File | `/admin/?page=bookings/view_details` | High
+3 | File | `/admin/?page=orders/view_order` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/addemployee.php` | High
 6 | File | `/admin/article/list` | High
 7 | File | `/admin/article/list_approve` | High
-8 | File | `/admin/friendlylink/list` | High
-9 | File | `/admin/list_key.html` | High
+8 | File | `/Admin/dashboard.php` | High
+9 | File | `/admin/friendlylink/list` | High
 10 | File | `/admin/settings.php` | High
 11 | File | `/admin/site/list` | High
 12 | File | `/admin/update_currency.php` | High
@@ -66,27 +66,29 @@ ID | Type | Indicator | Confidence
 14 | File | `/admin/videoalbum/list` | High
 15 | File | `/admin_book.php` | High
 16 | File | `/advanced-tools/nova/bin/netwatch` | High
-17 | File | `/authUserAction!edit.action` | High
-18 | File | `/bd_genie_create_account.cgi` | High
-19 | File | `/buspassms/download-pass.php` | High
-20 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-21 | File | `/card/in-card.php` | High
-22 | File | `/claire_blake` | High
-23 | File | `/classes/Master.php?f=delete_account` | High
-24 | File | `/classes/Master.php?f=delete_category` | High
-25 | File | `/classes/Master.php?f=delete_schedule` | High
-26 | File | `/classes/Master.php?f=delete_student` | High
-27 | File | `/classes/Master.php?f=delete_waste` | High
-28 | File | `/classes/Users.php?f=save_client` | High
-29 | File | `/client.php` | Medium
-30 | File | `/DesignTools/CssEditor.aspx` | High
-31 | File | `/diagnostic/edittest.php` | High
-32 | File | `/edituser.php` | High
-33 | File | `/etc/shadow.sample` | High
-34 | File | `/file/upload/1` | High
-35 | ... | ... | ...
+17 | File | `/api/geojson` | Medium
+18 | File | `/api/v1/attack` | High
+19 | File | `/api/v1/attack/token` | High
+20 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+21 | File | `/authUserAction!edit.action` | High
+22 | File | `/bd_genie_create_account.cgi` | High
+23 | File | `/buspassms/download-pass.php` | High
+24 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+25 | File | `/card/in-card.php` | High
+26 | File | `/classes/Master.php?f=delete_account` | High
+27 | File | `/classes/Master.php?f=delete_category` | High
+28 | File | `/classes/Master.php?f=delete_schedule` | High
+29 | File | `/classes/Master.php?f=delete_student` | High
+30 | File | `/classes/Master.php?f=delete_waste` | High
+31 | File | `/classes/Users.php?f=delete_client` | High
+32 | File | `/classes/Users.php?f=save_client` | High
+33 | File | `/clearance/clearance.php` | High
+34 | File | `/client.php` | Medium
+35 | File | `/dede/file_manage_control.php` | High
+36 | File | `/DesignTools/CssEditor.aspx` | High
+37 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

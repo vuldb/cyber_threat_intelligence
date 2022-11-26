@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -170,41 +170,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/#/network?tab=network_node_list.html` | High
-2 | File | `/about.php` | Medium
+1 | File | `/about.php` | Medium
+2 | File | `/action/import_https_cert_file/` | High
 3 | File | `/Admin/add-student.php` | High
 4 | File | `/admin/addemployee.php` | High
 5 | File | `/admin/contact/list` | High
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/admin/imagealbum/list` | High
-9 | File | `/admin/login.php` | High
-10 | File | `/Admin/login.php` | High
+6 | File | `/admin/folderrollpicture/list` | High
+7 | File | `/admin/imagealbum/list` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/Admin/login.php` | High
+10 | File | `/admin/subnets/ripe-query.php` | High
 11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/ad_js.php` | Medium
-13 | File | `/api/` | Low
-14 | File | `/bin/httpd` | Medium
-15 | File | `/blog/edit` | Medium
-16 | File | `/category/controller.php?action=edit` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi/get_param.cgi` | High
-20 | File | `/classes/Master.php?f=delete_account` | High
-21 | File | `/college_website/index.php?` | High
-22 | File | `/dashboard/updatelogo.php` | High
-23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/dede/co_do.php` | High
-26 | File | `/DesignTools/CssEditor.aspx` | High
+12 | File | `/api/v1/attack/token` | High
+13 | File | `/bin/httpd` | Medium
+14 | File | `/blog/edit` | Medium
+15 | File | `/cgi-bin/cstecgi.cgi` | High
+16 | File | `/cgi-bin/luci` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi/get_param.cgi` | High
+19 | File | `/college_website/index.php?` | High
+20 | File | `/common/info.cgi` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/dede/co_do.php` | High
+24 | File | `/DesignTools/CssEditor.aspx` | High
+25 | File | `/dev/mmz_userdev` | High
+26 | File | `/dev/shm` | Medium
 27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/export` | Low
-29 | File | `/goform/addRouting` | High
-30 | File | `/goform/saveParentControlInfo` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/SystemCommand` | High
+28 | File | `/egroupware/index.php` | High
+29 | File | `/etc/openshift/server_priv.pem` | High
+30 | File | `/etc/tomcat8/Catalina/attack` | High
+31 | File | `/export` | Low
+32 | File | `/filemanager/php/connector.php` | High
 33 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-270, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-267, CWE-269, CWE-270, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -81,46 +81,47 @@ ID | Type | Indicator | Confidence
 3 | File | `/category_view.php` | High
 4 | File | `/cgi-bin/portal` | High
 5 | File | `/cgi-bin/system_mgr.cgi` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/etc/config/rpcd` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/include/make.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/jeecg-boot/sys/common/upload` | High
-12 | File | `/lists/admin/` | High
-13 | File | `/login.cgi?logout=1` | High
-14 | File | `/medical/inventories.php` | High
-15 | File | `/members/view_member.php` | High
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/module/admin_logs` | High
-18 | File | `/nova/bin/console` | High
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/plesk-site-preview/` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/replication` | Medium
-24 | File | `/SASWebReportStudio/logonAndRender.do` | High
-25 | File | `/scas/classes/Users.php?f=save_user` | High
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-30 | File | `/start-stop` | Medium
-31 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-32 | File | `/tmp/app/.env` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload` | Low
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/v2/quantum/save-data-upload-big-file` | High
-37 | File | `/WEB-INF/web.xml` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-admin/options.php` | High
-40 | File | `/_next` | Low
-41 | File | `adclick.php` | Medium
-42 | File | `addentry.php` | Medium
-43 | ... | ... | ...
+6 | File | `/csms/?page=contact_us` | High
+7 | File | `/debug` | Low
+8 | File | `/debug/pprof` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/PowerSaveSet` | High
+11 | File | `/include/make.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/jeecg-boot/sys/common/upload` | High
+14 | File | `/lists/admin/` | High
+15 | File | `/login.cgi?logout=1` | High
+16 | File | `/medical/inventories.php` | High
+17 | File | `/members/view_member.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/module/admin_logs` | High
+20 | File | `/nova/bin/console` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/plesk-site-preview/` | High
+23 | File | `/public/login.htm` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/replication` | Medium
+26 | File | `/SASWebReportStudio/logonAndRender.do` | High
+27 | File | `/scas/classes/Users.php?f=save_user` | High
+28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+29 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+32 | File | `/start-stop` | Medium
+33 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+34 | File | `/tmp/app/.env` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upload` | Low
+37 | File | `/usr/bin/pkexec` | High
+38 | File | `/v2/quantum/save-data-upload-big-file` | High
+39 | File | `/WEB-INF/web.xml` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `/wp-admin/options.php` | High
+42 | File | `/_next` | Low
+43 | File | `AdClass.php` | Medium
+44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

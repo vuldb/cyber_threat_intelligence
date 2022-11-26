@@ -78,28 +78,29 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/book/create/` | High
 4 | File | `/Admin/login.php` | High
 5 | File | `/admin/loginc.php` | High
-6 | File | `/auditLogAction.do` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/devices/acurite.c` | High
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/example/editor` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-13 | File | `/goform/login_process` | High
-14 | File | `/goform/rlmswitchr_process` | High
-15 | File | `/goforms/rlminfo` | High
-16 | File | `/newsDia.php` | Medium
-17 | File | `/plugin` | Low
-18 | File | `/pms/index.php` | High
-19 | File | `/rating.php` | Medium
-20 | File | `/scas/admin/` | Medium
-21 | File | `/scas/classes/Users.php?f=save_user` | High
-22 | File | `/services/prefs.php` | High
-23 | File | `/src/njs_object.c` | High
-24 | File | `/uncpath/` | Medium
-25 | ... | ... | ...
+6 | File | `/admin/students/manage.php` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/devices/acurite.c` | High
+10 | File | `/etc/ajenti/config.yml` | High
+11 | File | `/example/editor` | High
+12 | File | `/foms/place-order.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+15 | File | `/goform/login_process` | High
+16 | File | `/goform/rlmswitchr_process` | High
+17 | File | `/goforms/rlminfo` | High
+18 | File | `/newsDia.php` | Medium
+19 | File | `/plugin` | Low
+20 | File | `/pms/index.php` | High
+21 | File | `/rating.php` | Medium
+22 | File | `/scas/admin/` | Medium
+23 | File | `/scas/classes/Users.php?f=save_user` | High
+24 | File | `/services/prefs.php` | High
+25 | File | `/src/njs_object.c` | High
+26 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

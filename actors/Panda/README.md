@@ -52,17 +52,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/editBookmark` | High
 4 | File | `/cgi-bin/system_mgr.cgi` | High
 5 | File | `/client/api/json/v2/nfareports/compareReport` | High
-6 | File | `/etc/services/DEVICE.TIME.php` | High
-7 | File | `/horde/imp/search.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/netflow/jspui/selectDevice.jsp` | High
-10 | File | `/public/login.htm` | High
-11 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-12 | File | `/reports/rwservlet` | High
-13 | File | `/SASWebReportStudio/logonAndRender.do` | High
+6 | File | `/dede/file_manage_control.php` | High
+7 | File | `/etc/services/DEVICE.TIME.php` | High
+8 | File | `/horde/imp/search.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/netflow/jspui/selectDevice.jsp` | High
+11 | File | `/public/login.htm` | High
+12 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+13 | File | `/reports/rwservlet` | High
 14 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

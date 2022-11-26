@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -232,13 +232,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -247,42 +247,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/del.php` | High
-5 | File | `/admin/delete.php` | High
-6 | File | `/admin/delstu.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/products/controller.php?action=add` | High
-10 | File | `/admin_book.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/blog/post/edit` | High
-13 | File | `/c/macho_reader.c` | High
-14 | File | `/card_scan.php` | High
-15 | File | `/categories/view_category.php` | High
-16 | File | `/cgi-bin/ExportSettings.sh` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/classes/Master.php?f=delete_img` | High
-20 | File | `/cwc/login` | Medium
-21 | File | `/debug/pprof` | Medium
-22 | File | `/diagnostic/edittest.php` | High
-23 | File | `/ebics-server/ebics.aspx` | High
-24 | File | `/etc/ciel.cfg` | High
-25 | File | `/etc/init0.d/S80telnetd.sh` | High
-26 | File | `/etc/shadow.sample` | High
-27 | File | `/file/upload/1` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/framework/mod/db/DBMapper.xml` | High
-30 | File | `/goform/addRouting` | High
-31 | File | `/goform/Diagnosis` | High
-32 | File | `/goform/form2userconfig.cgi` | High
-33 | File | `/goform/NTPSyncWithHost` | High
-34 | File | `/goform/SetIpMacBind` | High
-35 | ... | ... | ...
+2 | File | `/action/import_aaa_cert_file/` | High
+3 | File | `/action/import_file/` | High
+4 | File | `/action/import_firmware/` | High
+5 | File | `/action/import_https_cert_file/` | High
+6 | File | `/action/import_nodejs_app/` | High
+7 | File | `/admin/?page=orders/view_order` | High
+8 | File | `/Admin/add-student.php` | High
+9 | File | `/admin/addemployee.php` | High
+10 | File | `/admin/advicefeedback/list` | High
+11 | File | `/Admin/login.php` | High
+12 | File | `/admin/students/manage.php` | High
+13 | File | `/admin/users_add.php` | High
+14 | File | `/admin_book.php` | High
+15 | File | `/api/RecordingList/DownloadRecord?file=` | High
+16 | File | `/api/user/password/sent-reset-email` | High
+17 | File | `/balance/service/list` | High
+18 | File | `/c/macho_reader.c` | High
+19 | File | `/card_scan.php` | High
+20 | File | `/cgi-bin/DownloadFlash` | High
+21 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php?f=delete_reservation` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/cwc/login` | Medium
+26 | File | `/debug/pprof` | Medium
+27 | File | `/diagnostic/edittest.php` | High
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

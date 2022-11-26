@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,23 +87,24 @@ ID | Type | Indicator | Confidence
 16 | File | `/fuel/index.php/fuel/logs/items` | High
 17 | File | `/fuel/sitevariables/delete/4` | High
 18 | File | `/goform/setmac` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/index/jobfairol/show/` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/manage-apartment.php` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-25 | File | `/pages/apply_vacancy.php` | High
-26 | File | `/proc/<PID>/mem` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/secure/ViewCollectors` | High
-31 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-32 | File | `/tmp` | Low
-33 | ... | ... | ...
+19 | File | `/goform/wizard_end` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/pages/apply_vacancy.php` | High
+27 | File | `/proc/<PID>/mem` | High
+28 | File | `/public/plugins/` | High
+29 | File | `/requests.php` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | File | `/secure/ViewCollectors` | High
+32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+33 | File | `/tmp` | Low
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,7 +57,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -82,9 +83,10 @@ ID | Type | Indicator | Confidence
 13 | File | `/onvif/device_service` | High
 14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 15 | File | `/uncpath/` | Medium
-16 | ... | ... | ...
+16 | File | `ActiveMediaServer.exe` | High
+17 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

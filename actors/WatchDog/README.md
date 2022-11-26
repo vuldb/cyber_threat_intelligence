@@ -66,17 +66,18 @@ ID | Type | Indicator | Confidence
 14 | File | `/include/menu_v.inc.php` | High
 15 | File | `/librarian/lab.php` | High
 16 | File | `/MagickCore/statistic.c` | High
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/patient/settings.php` | High
-19 | File | `/proc/*/cmdline"` | High
-20 | File | `/proc/pid/syscall` | High
-21 | File | `/release-x64/otfccdump+0x4fe9a7` | High
-22 | File | `/rrps/classes/Master.php?f=save_category` | High
-23 | File | `/sbin/acos_service` | High
-24 | File | `/Search-Results` | High
-25 | ... | ... | ...
+17 | File | `/omos/admin/?page=user/list` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/panel/fields/add` | High
+20 | File | `/patient/settings.php` | High
+21 | File | `/proc/*/cmdline"` | High
+22 | File | `/proc/pid/syscall` | High
+23 | File | `/release-x64/otfccdump+0x4fe9a7` | High
+24 | File | `/rrps/classes/Master.php?f=save_category` | High
+25 | File | `/sbin/acos_service` | High
+26 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

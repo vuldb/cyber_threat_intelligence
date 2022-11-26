@@ -90,9 +90,10 @@ ID | Type | Indicator | Confidence
 27 | File | `admin\addgroup.php` | High
 28 | File | `agents.php` | Medium
 29 | File | `api_poller.php` | High
-30 | ... | ... | ...
+30 | File | `app/View/Helper/CommandHelper.php` | High
+31 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

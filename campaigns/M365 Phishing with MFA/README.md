@@ -84,9 +84,10 @@ ID | Type | Indicator | Confidence
 29 | File | `aspx` | Low
 30 | File | `auction_details.php` | High
 31 | File | `auth.inc.php` | Medium
-32 | ... | ... | ...
+32 | File | `blocking.asp` | Medium
+33 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

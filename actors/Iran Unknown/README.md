@@ -28,11 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.30.189.66](https://vuldb.com/?ip.46.30.189.66) | - | Albanian Government | High
-2 | [91.214.124.143](https://vuldb.com/?ip.91.214.124.143) | - | - | High
-3 | [144.76.6.34](https://vuldb.com/?ip.144.76.6.34) | static.34.6.76.144.clients.your-server.de | Albanian Government | High
-4 | ... | ... | ... | ...
+2 | [51.89.181.64](https://vuldb.com/?ip.51.89.181.64) | ip64.ip-51-89-181.eu | - | High
+3 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | - | High
+4 | [83.171.238.62](https://vuldb.com/?ip.83.171.238.62) | 558.cluster-nbg1.de | - | High
+5 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,23 +55,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/administration/theme.php` | High
-2 | File | `/cgi-bin/webproc` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/ofrs/admin/?page=requests/manage_request` | High
-6 | File | `/spip.php` | Medium
-7 | File | `/wp-admin/admin-ajax.php` | High
-8 | File | `announcement.php` | High
-9 | File | `attachment.php` | High
-10 | ... | ... | ...
+2 | File | `/api/index.php` | High
+3 | File | `/cgi-bin/webproc` | High
+4 | File | `/coreframe/app/pay/admin/index.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/ofrs/admin/?page=requests/manage_request` | High
+8 | File | `/spip.php` | Medium
+9 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+10 | File | `/wp-admin/admin-ajax.php` | High
+11 | File | `announcement.php` | High
+12 | ... | ... | ...
 
-There are 74 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/blackorbird/APT_REPORT/blob/master/muddywater/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
 * https://us-cert.cisa.gov/ncas/alerts/aa21-321a
+* https://www.cisa.gov/uscert/ncas/alerts/aa22-320a
 * https://www.microsoft.com/security/blog/2022/09/08/microsoft-investigates-iranian-attacks-against-the-albanian-government/
 
 ## Literature

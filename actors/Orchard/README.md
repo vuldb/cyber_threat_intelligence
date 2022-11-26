@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,11 +64,12 @@ ID | Type | Indicator | Confidence
 13 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
 14 | File | `/nova/bin/user` | High
 15 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-16 | File | `/question/ask` | High
-17 | File | `/rest/api/2/search` | High
-18 | ... | ... | ...
+16 | File | `/plesk-site-preview/` | High
+17 | File | `/question/ask` | High
+18 | File | `/rest/api/2/search` | High
+19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

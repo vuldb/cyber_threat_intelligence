@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Azorult:
 
-* [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [NL](https://vuldb.com/?country.nl)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -61,16 +61,16 @@ ID | Type | Indicator | Confidence
 7 | File | `/medical/inventories.php` | High
 8 | File | `/pages.php` | Medium
 9 | File | `/patient/doctors.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-12 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-13 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-14 | File | `abm.aspx` | Medium
-15 | File | `actions/ChangeConfiguration.html` | High
-16 | File | `adclick.php` | Medium
+10 | File | `/rom-0` | Low
+11 | File | `/uncpath/` | Medium
+12 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+13 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+14 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+15 | File | `abm.aspx` | Medium
+16 | File | `actions/ChangeConfiguration.html` | High
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

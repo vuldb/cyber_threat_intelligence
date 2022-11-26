@@ -52,14 +52,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/include/makecvs.php` | High
 2 | File | `/requests.php` | High
-3 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-4 | File | `add.php` | Low
-5 | File | `cat.asp` | Low
-6 | File | `class.phpmailer.php` | High
-7 | File | `clickstats.php` | High
+3 | File | `/spip.php` | Medium
+4 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+5 | File | `add.php` | Low
+6 | File | `cat.asp` | Low
+7 | File | `class.phpmailer.php` | High
 8 | ... | ... | ...
 
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

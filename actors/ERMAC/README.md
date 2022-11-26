@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [185.215.113.42](https://vuldb.com/?ip.185.215.113.42) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,6 +46,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://community.blueliv.com/#!/s/6290743382df41552632f5fe
 * https://www.threatfabric.com/blogs/ermac-another-cerberus-reborn.html
+* https://www.trendmicro.com/de_de/research/22/g/examining-new-dawdropper-banking-dropper-and-daas-on-the-dark-we.html
 
 ## Literature
 

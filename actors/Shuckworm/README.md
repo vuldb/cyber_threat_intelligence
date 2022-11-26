@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shuckworm:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -56,19 +56,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-2 | File | `/error` | Low
-3 | File | `/forum/away.php` | High
-4 | File | `/gena.cgi` | Medium
-5 | File | `/login` | Low
-6 | File | `/php/ajax.php` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-9 | File | `/see_more_details.php` | High
-10 | File | `/vicidial/user_stats.php` | High
-11 | ... | ... | ...
+1 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+3 | File | `/error` | Low
+4 | File | `/forum/away.php` | High
+5 | File | `/gena.cgi` | Medium
+6 | File | `/login` | Low
+7 | File | `/php/ajax.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+10 | File | `/see_more_details.php` | High
+11 | File | `/sys/user/queryUserComponentData` | High
+12 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

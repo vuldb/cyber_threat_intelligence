@@ -34,43 +34,45 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
 12 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | - | High
 13 | [23.10.206.162](https://vuldb.com/?ip.23.10.206.162) | a23-10-206-162.deploy.static.akamaitechnologies.com | - | High
-14 | [23.46.238.193](https://vuldb.com/?ip.23.46.238.193) | a23-46-238-193.deploy.static.akamaitechnologies.com | - | High
-15 | [23.46.238.194](https://vuldb.com/?ip.23.46.238.194) | a23-46-238-194.deploy.static.akamaitechnologies.com | - | High
-16 | [23.46.238.232](https://vuldb.com/?ip.23.46.238.232) | a23-46-238-232.deploy.static.akamaitechnologies.com | - | High
-17 | [23.62.6.161](https://vuldb.com/?ip.23.62.6.161) | a23-62-6-161.deploy.static.akamaitechnologies.com | - | High
-18 | [23.196.74.222](https://vuldb.com/?ip.23.196.74.222) | a23-196-74-222.deploy.static.akamaitechnologies.com | - | High
-19 | [23.199.63.11](https://vuldb.com/?ip.23.199.63.11) | a23-199-63-11.deploy.static.akamaitechnologies.com | - | High
-20 | [23.199.63.83](https://vuldb.com/?ip.23.199.63.83) | a23-199-63-83.deploy.static.akamaitechnologies.com | - | High
-21 | [23.218.129.107](https://vuldb.com/?ip.23.218.129.107) | a23-218-129-107.deploy.static.akamaitechnologies.com | - | High
-22 | [23.221.72.10](https://vuldb.com/?ip.23.221.72.10) | a23-221-72-10.deploy.static.akamaitechnologies.com | - | High
-23 | [23.221.72.27](https://vuldb.com/?ip.23.221.72.27) | a23-221-72-27.deploy.static.akamaitechnologies.com | - | High
-24 | [23.253.126.58](https://vuldb.com/?ip.23.253.126.58) | - | - | High
-25 | [24.19.25.40](https://vuldb.com/?ip.24.19.25.40) | c-24-19-25-40.hsd1.wa.comcast.net | - | High
-26 | [24.33.131.116](https://vuldb.com/?ip.24.33.131.116) | cpe-24-33-131-116.cinci.res.rr.com | - | High
-27 | [24.148.217.188](https://vuldb.com/?ip.24.148.217.188) | - | - | High
-28 | [24.220.92.193](https://vuldb.com/?ip.24.220.92.193) | 24-220-92-193-dynamic.midco.net | - | High
-29 | [24.240.107.12](https://vuldb.com/?ip.24.240.107.12) | 024-240-107-012.res.spectrum.com | - | High
-30 | [31.31.196.102](https://vuldb.com/?ip.31.31.196.102) | server139.hosting.reg.ru | - | High
-31 | [34.97.69.225](https://vuldb.com/?ip.34.97.69.225) | 225.69.97.34.bc.googleusercontent.com | - | Medium
-32 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-33 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
-34 | [35.208.217.200](https://vuldb.com/?ip.35.208.217.200) | 200.217.208.35.bc.googleusercontent.com | - | Medium
-35 | [37.0.8.235](https://vuldb.com/?ip.37.0.8.235) | - | - | High
-36 | [37.0.10.214](https://vuldb.com/?ip.37.0.10.214) | - | - | High
-37 | [37.0.10.236](https://vuldb.com/?ip.37.0.10.236) | - | - | High
-38 | [37.0.11.8](https://vuldb.com/?ip.37.0.11.8) | - | - | High
-39 | [37.57.144.177](https://vuldb.com/?ip.37.57.144.177) | 177.144.57.37.triolan.net | - | High
-40 | [37.58.63.231](https://vuldb.com/?ip.37.58.63.231) | - | - | High
-41 | [38.65.142.12](https://vuldb.com/?ip.38.65.142.12) | - | - | High
-42 | [38.123.202.3](https://vuldb.com/?ip.38.123.202.3) | - | - | High
-43 | [38.124.169.178](https://vuldb.com/?ip.38.124.169.178) | - | - | High
-44 | [38.124.169.187](https://vuldb.com/?ip.38.124.169.187) | - | - | High
-45 | [46.30.215.33](https://vuldb.com/?ip.46.30.215.33) | webcluster2.webpod5-cph3.one.com | - | High
-46 | [46.105.57.169](https://vuldb.com/?ip.46.105.57.169) | cluster020.hosting.ovh.net | - | High
-47 | [46.166.187.64](https://vuldb.com/?ip.46.166.187.64) | - | - | High
-48 | ... | ... | ... | ...
+14 | [23.46.150.40](https://vuldb.com/?ip.23.46.150.40) | a23-46-150-40.deploy.static.akamaitechnologies.com | - | High
+15 | [23.46.150.48](https://vuldb.com/?ip.23.46.150.48) | a23-46-150-48.deploy.static.akamaitechnologies.com | - | High
+16 | [23.46.150.72](https://vuldb.com/?ip.23.46.150.72) | a23-46-150-72.deploy.static.akamaitechnologies.com | - | High
+17 | [23.46.238.193](https://vuldb.com/?ip.23.46.238.193) | a23-46-238-193.deploy.static.akamaitechnologies.com | - | High
+18 | [23.46.238.194](https://vuldb.com/?ip.23.46.238.194) | a23-46-238-194.deploy.static.akamaitechnologies.com | - | High
+19 | [23.46.238.232](https://vuldb.com/?ip.23.46.238.232) | a23-46-238-232.deploy.static.akamaitechnologies.com | - | High
+20 | [23.62.6.161](https://vuldb.com/?ip.23.62.6.161) | a23-62-6-161.deploy.static.akamaitechnologies.com | - | High
+21 | [23.196.74.222](https://vuldb.com/?ip.23.196.74.222) | a23-196-74-222.deploy.static.akamaitechnologies.com | - | High
+22 | [23.199.63.11](https://vuldb.com/?ip.23.199.63.11) | a23-199-63-11.deploy.static.akamaitechnologies.com | - | High
+23 | [23.199.63.83](https://vuldb.com/?ip.23.199.63.83) | a23-199-63-83.deploy.static.akamaitechnologies.com | - | High
+24 | [23.218.129.107](https://vuldb.com/?ip.23.218.129.107) | a23-218-129-107.deploy.static.akamaitechnologies.com | - | High
+25 | [23.221.72.10](https://vuldb.com/?ip.23.221.72.10) | a23-221-72-10.deploy.static.akamaitechnologies.com | - | High
+26 | [23.221.72.27](https://vuldb.com/?ip.23.221.72.27) | a23-221-72-27.deploy.static.akamaitechnologies.com | - | High
+27 | [23.253.126.58](https://vuldb.com/?ip.23.253.126.58) | - | - | High
+28 | [24.19.25.40](https://vuldb.com/?ip.24.19.25.40) | c-24-19-25-40.hsd1.wa.comcast.net | - | High
+29 | [24.33.131.116](https://vuldb.com/?ip.24.33.131.116) | cpe-24-33-131-116.cinci.res.rr.com | - | High
+30 | [24.148.217.188](https://vuldb.com/?ip.24.148.217.188) | - | - | High
+31 | [24.220.92.193](https://vuldb.com/?ip.24.220.92.193) | 24-220-92-193-dynamic.midco.net | - | High
+32 | [24.240.107.12](https://vuldb.com/?ip.24.240.107.12) | 024-240-107-012.res.spectrum.com | - | High
+33 | [31.31.196.102](https://vuldb.com/?ip.31.31.196.102) | server139.hosting.reg.ru | - | High
+34 | [34.97.69.225](https://vuldb.com/?ip.34.97.69.225) | 225.69.97.34.bc.googleusercontent.com | - | Medium
+35 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+36 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
+37 | [35.208.217.200](https://vuldb.com/?ip.35.208.217.200) | 200.217.208.35.bc.googleusercontent.com | - | Medium
+38 | [35.214.107.94](https://vuldb.com/?ip.35.214.107.94) | 94.107.214.35.bc.googleusercontent.com | - | Medium
+39 | [37.0.8.235](https://vuldb.com/?ip.37.0.8.235) | - | - | High
+40 | [37.0.10.214](https://vuldb.com/?ip.37.0.10.214) | - | - | High
+41 | [37.0.10.236](https://vuldb.com/?ip.37.0.10.236) | - | - | High
+42 | [37.0.11.8](https://vuldb.com/?ip.37.0.11.8) | - | - | High
+43 | [37.57.144.177](https://vuldb.com/?ip.37.57.144.177) | 177.144.57.37.triolan.net | - | High
+44 | [37.58.63.231](https://vuldb.com/?ip.37.58.63.231) | - | - | High
+45 | [38.65.142.12](https://vuldb.com/?ip.38.65.142.12) | - | - | High
+46 | [38.123.202.3](https://vuldb.com/?ip.38.123.202.3) | - | - | High
+47 | [38.124.169.178](https://vuldb.com/?ip.38.124.169.178) | - | - | High
+48 | [38.124.169.187](https://vuldb.com/?ip.38.124.169.187) | - | - | High
+49 | [46.30.215.33](https://vuldb.com/?ip.46.30.215.33) | webcluster2.webpod5-cph3.one.com | - | High
+50 | ... | ... | ... | ...
 
-There are 190 more IOC items available. Please use our online service to access the data.
+There are 194 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,8 +80,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -130,6 +136,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0415-0422.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0506-0513.html
 * https://blog.talosintelligence.com/2022/06/threat-roundup-0527-0603.html
+* https://blog.talosintelligence.com/2022/06/threat-roundup-0610-0617.html
 
 ## Literature
 

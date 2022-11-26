@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Passwordstealera:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,13 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.253.246.41](https://vuldb.com/?ip.80.253.246.41) | tesla.isimkaydet.com | - | High
-2 | [89.252.182.52](https://vuldb.com/?ip.89.252.182.52) | 52skem7x.guzel.net.tr | - | High
-3 | [104.21.19.200](https://vuldb.com/?ip.104.21.19.200) | - | - | High
-4 | [107.180.56.180](https://vuldb.com/?ip.107.180.56.180) | ip-107-180-56-180.ip.secureserver.net | - | High
-5 | ... | ... | ... | ...
+1 | [3.14.212.173](https://vuldb.com/?ip.3.14.212.173) | ec2-3-14-212-173.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.19.114.185](https://vuldb.com/?ip.3.19.114.185) | ec2-3-19-114-185.us-east-2.compute.amazonaws.com | - | Medium
+3 | [18.188.14.65](https://vuldb.com/?ip.18.188.14.65) | ec2-18-188-14-65.us-east-2.compute.amazonaws.com | - | Medium
+4 | [23.249.161.111](https://vuldb.com/?ip.23.249.161.111) | - | - | High
+5 | [36.84.56.39](https://vuldb.com/?ip.36.84.56.39) | - | - | High
+6 | [36.84.57.230](https://vuldb.com/?ip.36.84.57.230) | - | - | High
+7 | [37.8.73.90](https://vuldb.com/?ip.37.8.73.90) | - | - | High
+8 | [74.118.139.67](https://vuldb.com/?ip.74.118.139.67) | - | - | High
+9 | [80.66.255.129](https://vuldb.com/?ip.80.66.255.129) | 80-66-255-129.kj.up.ee | - | High
+10 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254, CWE-358 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,25 +56,34 @@ ID | Type | Indicator | Confidence
 1 | File | `/cgi-bin/kerbynet` | High
 2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 3 | File | `/domain/add` | Medium
-4 | File | `/etc/sudoers` | Medium
-5 | File | `/index.php/weblinks-categories` | High
-6 | File | `/plain` | Low
-7 | File | `/show_group_members.php` | High
-8 | File | `/web/google_analytics.php` | High
-9 | File | `archive_endian.h` | High
-10 | File | `bmp.c` | Low
-11 | File | `cgi-bin/jc.cgi` | High
-12 | File | `checklogin.php` | High
-13 | File | `cmd.exe` | Low
-14 | File | `coders/pcx.c` | Medium
-15 | ... | ... | ...
+4 | File | `/download` | Medium
+5 | File | `/etc/sudoers` | Medium
+6 | File | `/index.php` | Medium
+7 | File | `/index.php/weblinks-categories` | High
+8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+9 | File | `/plain` | Low
+10 | File | `/show_group_members.php` | High
+11 | File | `/status` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/vdesk` | Low
+14 | File | `/web/google_analytics.php` | High
+15 | File | `admin_component.php` | High
+16 | File | `app/views/journals/index.builder` | High
+17 | File | `archive_endian.h` | High
+18 | File | `auth-gss2.c` | Medium
+19 | File | `bmp.c` | Low
+20 | File | `body.asp` | Medium
+21 | File | `caca/dither.c` | High
+22 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/12/threat-roundup-1130-1207.html
+* https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
 
 ## Literature

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,36 +67,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-3 | File | `.htaccess` | Medium
-4 | File | `/+CSCOE+/logon.html` | High
-5 | File | `/admin/settings/sites/new` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/app/admin/nat/item-add-submit.php` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/config/netconf.cmd` | High
-10 | File | `/etc/config/image_sign` | High
-11 | File | `/folder/list` | Medium
-12 | File | `/forms/nslookupHandler` | High
-13 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-14 | File | `/group/comment` | High
-15 | File | `/icingaweb2/navigation/add` | High
-16 | File | `/lookin/info` | Medium
-17 | File | `/plugins/servlet/jira-blockers/` | High
-18 | File | `/ptipupgrade.cgi` | High
-19 | File | `/register.do` | Medium
-20 | File | `/sessions/sess_<sessionid>` | High
-21 | File | `/themes/<php_file_name>` | High
-22 | File | `/tmp/speedtest_urls.xml` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/var/log/nginx` | High
-26 | File | `/wbg/core/_includes/authorization.inc.php` | High
-27 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-28 | File | `/wp-admin/admin.php` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | ... | ... | ...
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/admin/settings/sites/new` | High
+5 | File | `/ajax/networking/get_netcfg.php` | High
+6 | File | `/app/admin/nat/item-add-submit.php` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/config/netconf.cmd` | High
+9 | File | `/etc/config/image_sign` | High
+10 | File | `/folder/list` | Medium
+11 | File | `/forms/nslookupHandler` | High
+12 | File | `/group/comment` | High
+13 | File | `/lookin/info` | Medium
+14 | File | `/plugins/servlet/jira-blockers/` | High
+15 | File | `/ptipupgrade.cgi` | High
+16 | File | `/register.do` | Medium
+17 | File | `/sessions/sess_<sessionid>` | High
+18 | File | `/themes/<php_file_name>` | High
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
+22 | File | `/var/log/nginx` | High
+23 | File | `/wbg/core/_includes/authorization.inc.php` | High
+24 | File | `/wp-admin/admin.php` | High
+25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+26 | File | `account.asp` | Medium
+27 | File | `adclick.php` | Medium
+28 | File | `admin-ajax.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+31 | File | `admin/controller/pages/localisation/language.php` | High
+32 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

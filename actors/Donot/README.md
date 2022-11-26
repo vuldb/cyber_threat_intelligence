@@ -15,12 +15,12 @@ The following _campaigns_ are known and can be associated with Donot:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Donot:
 
+* [CH](https://vuldb.com/?country.ch)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [46.101.204.168](https://vuldb.com/?ip.46.101.204.168) | - | - | High
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,14 +48,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,50 +62,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/.htpasswd` | Medium
-4 | File | `/admin/index.php` | High
-5 | File | `/bin/login.php` | High
-6 | File | `/Category` | Medium
-7 | File | `/de/cgi/dfs_guest/` | High
-8 | File | `/event/runquery.do` | High
-9 | File | `/filemanager/ajax_calls.php` | High
-10 | File | `/htmlcode/html/indexdefault.asp` | High
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/out.php` | Medium
-13 | File | `/products/details.asp` | High
-14 | File | `/share/error?message` | High
-15 | File | `/system/ws/v11/ss/email` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/var/www/xms/application/config/config.php` | High
-18 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-19 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-20 | File | `/var/www/xms/cleanzip.sh` | High
-21 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `about.php` | Medium
-26 | File | `adclick.php` | Medium
-27 | File | `addentry.php` | Medium
-28 | File | `add_vhost.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/conf_users_edit.php` | High
-31 | File | `admin/default.asp` | High
-32 | File | `admin/media/rename.php` | High
-33 | File | `admin/user.php` | High
-34 | File | `admincp/attachment.php&do=rebuild&type` | High
-35 | File | `advanced_component_system/index.php` | High
-36 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin` | Low
+3 | File | `/admin/?page=inmates/view_inmate` | High
+4 | File | `/admin/?page=system_info` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/add_exercises.php` | High
+7 | File | `/admin/conferences/get-all-status/` | High
+8 | File | `/admin/conferences/list/` | High
+9 | File | `/admin/countrymanagement.php` | High
+10 | File | `/admin/edit.php` | High
+11 | File | `/admin/general/change-lang` | High
+12 | File | `/admin/group/list/` | High
+13 | File | `/admin/lab.php` | High
+14 | File | `/admin/new-content` | High
+15 | File | `/admin/renewaldue.php` | High
+16 | File | `/admin/sign/out` | High
+17 | File | `/admin/usermanagement.php` | High
+18 | File | `/aqpg/users/login.php` | High
+19 | File | `/artist-display.php` | High
+20 | File | `/backups/` | Medium
+21 | File | `/bcms/admin/?page=user/list` | High
+22 | File | `/cardo/api` | Medium
+23 | File | `/catcompany.php` | High
+24 | File | `/CCMAdmin/serverlist.asp` | High
+25 | File | `/cgi-bin/editBookmark` | High
+26 | File | `/cgi-bin/touchlist_sync.cgi` | High
+27 | File | `/ci_spms/admin/category` | High
+28 | File | `/classes/Users.php?f=save` | High
+29 | File | `/cwms/admin/?page=articles/view_article/` | High
+30 | File | `/cwms/classes/Master.php?f=save_contact` | High
+31 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.cyble.com/2021/07/22/donot-apt-group-delivers-a-spyware-variant-of-chat-app/
+* https://github.com/eset/malware-ioc/tree/master/donot
 * https://github.com/faisalusuf/ThreatIntelligence/blob/main/APT%20DONOT%20TEAM/Tracking-DONOT-IOCs.csv
 * https://twitter.com/ShadowChasing1/status/1497125743125413892
 * https://www.welivesecurity.com/2022/01/18/donot-go-do-not-respawn/

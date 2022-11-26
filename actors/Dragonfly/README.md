@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,12 +42,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,17 +57,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/system_mgr.cgi` | High
 2 | File | `/s/` | Low
-3 | File | `/uncpath/` | Medium
-4 | File | `/wbg/core/_includes/authorization.inc.php` | High
-5 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-6 | File | `admin/import/class-import-settings.php` | High
-7 | File | `ajax/comments.php` | High
-8 | File | `architext.conf` | High
-9 | File | `attachment_send.php` | High
-10 | File | `bull/javamelody/PayloadNameRequestWrapper.java` | High
+3 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `/wbg/core/_includes/authorization.inc.php` | High
+6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+7 | File | `admin/import/class-import-settings.php` | High
+8 | File | `ajax/comments.php` | High
+9 | File | `architext.conf` | High
+10 | File | `attachment_send.php` | High
 11 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

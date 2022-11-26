@@ -66,9 +66,9 @@ ID | Type | Indicator | Confidence
 7 | File | `/assets/ctx` | Medium
 8 | File | `/bin/httpd` | Medium
 9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/checkLogin.cgi` | High
-11 | File | `/ci_spms/admin/category` | High
-12 | File | `/ci_spms/admin/search/searching/` | High
+10 | File | `/ci_spms/admin/category` | High
+11 | File | `/ci_spms/admin/search/searching/` | High
+12 | File | `/classes/Master.php?f=delete_appointment` | High
 13 | File | `/classes/Master.php?f=delete_train` | High
 14 | File | `/cms/print.php` | High
 15 | File | `/concat?/%2557EB-INF/web.xml` | High
@@ -83,31 +83,30 @@ ID | Type | Indicator | Confidence
 24 | File | `/navigate/navigate_download.php` | High
 25 | File | `/ocwbs/admin/?page=user/manage_user` | High
 26 | File | `/ofrs/admin/?page=user/manage_user` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/p` | Low
+27 | File | `/out.php` | Medium
+28 | File | `/owa/auth/logon.aspx` | High
 29 | File | `/password.html` | High
-30 | File | `/proc/ioports` | High
-31 | File | `/property-list/property_view.php` | High
-32 | File | `/ptms/classes/Users.php` | High
-33 | File | `/rest` | Low
-34 | File | `/rest/api/2/search` | High
-35 | File | `/s/` | Low
-36 | File | `/scripts/cpan_config` | High
-37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-38 | File | `/services/system/setup.json` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/uncpath/` | Medium
-41 | File | `/vloggers_merch/?p=view_product` | High
-42 | File | `/webconsole/APIController` | High
-43 | File | `/websocket/exec` | High
-44 | File | `/whbs/?page=my_bookings` | High
-45 | File | `/wp-admin/admin-ajax.php` | High
-46 | File | `/wp-json` | Medium
-47 | File | `/wp-json/oembed/1.0/embed?url` | High
-48 | File | `/_next` | Low
-49 | ... | ... | ...
+30 | File | `/php_action/fetchSelectedUser.php` | High
+31 | File | `/proc/ioports` | High
+32 | File | `/property-list/property_view.php` | High
+33 | File | `/ptms/classes/Users.php` | High
+34 | File | `/rest` | Low
+35 | File | `/rest/api/2/search` | High
+36 | File | `/s/` | Low
+37 | File | `/scripts/cpan_config` | High
+38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+39 | File | `/services/system/setup.json` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/uncpath/` | Medium
+42 | File | `/vloggers_merch/?p=view_product` | High
+43 | File | `/webconsole/APIController` | High
+44 | File | `/websocket/exec` | High
+45 | File | `/whbs/?page=my_bookings` | High
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `/wp-json` | Medium
+48 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

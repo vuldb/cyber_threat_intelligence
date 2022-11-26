@@ -54,27 +54,27 @@ ID | Type | Indicator | Confidence
 4 | File | `/assets/components/gallery/connector.php` | High
 5 | File | `/College/admin/teacher.php` | High
 6 | File | `/editbrand.php` | High
-7 | File | `/etc/target` | Medium
-8 | File | `/export` | Low
-9 | File | `/getcfg.php` | Medium
-10 | File | `/goform/WriteFacMac` | High
-11 | File | `/index.php` | Medium
-12 | File | `/lists/admin/user.php` | High
-13 | File | `/mkshop/Men/profile.php` | High
-14 | File | `/movie.php` | Medium
-15 | File | `/news-portal-script/information.php` | High
-16 | File | `/pages/apply_vacancy.php` | High
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-20 | File | `/_vti_pvt/access.cnf` | High
-21 | File | `adclick.php` | Medium
-22 | File | `admin.php3` | Medium
-23 | File | `admin/mobile.php` | High
-24 | File | `admin/themes` | Medium
+7 | File | `/employeeview.php` | High
+8 | File | `/etc/target` | Medium
+9 | File | `/export` | Low
+10 | File | `/getcfg.php` | Medium
+11 | File | `/goform/WriteFacMac` | High
+12 | File | `/index.php` | Medium
+13 | File | `/lists/admin/user.php` | High
+14 | File | `/mkshop/Men/profile.php` | High
+15 | File | `/movie.php` | Medium
+16 | File | `/news-portal-script/information.php` | High
+17 | File | `/pages/apply_vacancy.php` | High
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `/_vti_pvt/access.cnf` | High
+22 | File | `adclick.php` | Medium
+23 | File | `admin.php3` | Medium
+24 | File | `admin/mobile.php` | High
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

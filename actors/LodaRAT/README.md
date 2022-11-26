@@ -10,13 +10,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [174.126.51.178](https://vuldb.com/?ip.174.126.51.178) | 174-126-51-178.cpe.sparklight.net | - | High
-2 | [193.161.193.99](https://vuldb.com/?ip.193.161.193.99) | - | - | High
+1 | [34.174.95.150](https://vuldb.com/?ip.34.174.95.150) | 150.95.174.34.bc.googleusercontent.com | - | Medium
+2 | [174.126.51.178](https://vuldb.com/?ip.174.126.51.178) | 174-126-51-178.cpe.sparklight.net | - | High
+3 | [193.161.193.99](https://vuldb.com/?ip.193.161.193.99) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/get-a-loda-this/
 * https://community.blueliv.com/#!/s/5f74413382df413eb234d30e
 
 ## Literature

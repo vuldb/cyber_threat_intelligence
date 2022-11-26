@@ -31,12 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,34 +48,30 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/category_view.php` | High
-6 | File | `/dev/kmem` | Medium
-7 | File | `/file?action=download&file` | High
-8 | File | `/medical/inventories.php` | High
-9 | File | `/monitoring` | Medium
-10 | File | `/NAGErrors` | Medium
-11 | File | `/plugins/servlet/audit/resource` | High
-12 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-13 | File | `/proc/ioports` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/tmp/speedtest_urls.xml` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/wp-admin/admin.php` | High
-21 | File | `adclick.php` | Medium
-22 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-23 | File | `admin/index.php` | High
-24 | File | `admin\model\catalog\download.php` | High
-25 | File | `apcupsd.pid` | Medium
-26 | File | `api/sms/send-sms` | High
-27 | File | `api/v1/alarms` | High
-28 | File | `application/controller/InstallerController.php` | High
-29 | ... | ... | ...
+4 | File | `/core/conditions/AbstractWrapper.java` | High
+5 | File | `/export` | Low
+6 | File | `/file?action=download&file` | High
+7 | File | `/medical/inventories.php` | High
+8 | File | `/monitoring` | Medium
+9 | File | `/plugin/LiveChat/getChat.json.php` | High
+10 | File | `/plugins/servlet/audit/resource` | High
+11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+12 | File | `/replication` | Medium
+13 | File | `/RestAPI` | Medium
+14 | File | `/tmp/speedtest_urls.xml` | High
+15 | File | `/tmp/zarafa-vacation-*` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/upload` | Low
+18 | File | `/var/log/nginx` | High
+19 | File | `/var/run/watchman.pid` | High
+20 | File | `/viewer/krpano.html` | High
+21 | File | `/wp-json/oembed/1.0/embed?url` | High
+22 | File | `adclick.php` | Medium
+23 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+24 | File | `AdxDSrv.exe` | Medium
+25 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

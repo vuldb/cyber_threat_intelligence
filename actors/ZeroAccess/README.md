@@ -93,13 +93,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,18 +108,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/assets` | Low
-2 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-3 | File | `/goform/doReboot` | High
-4 | File | `/goform/form2Wan.cgi` | High
-5 | File | `/goform/formWifiBasicSet` | High
-6 | File | `/h/search?action` | High
-7 | File | `/jfinal_cms/system/role/list` | High
-8 | File | `/jfinal_cms/system/user/list` | High
-9 | File | `/management/users/register` | High
-10 | ... | ... | ...
+1 | File | `/action/import_aaa_cert_file/` | High
+2 | File | `/action/import_file/` | High
+3 | File | `/action/import_firmware/` | High
+4 | File | `/action/import_https_cert_file/` | High
+5 | File | `/action/import_nodejs_app/` | High
+6 | File | `/action/import_sdk_file/` | High
+7 | File | `/adfs/ls` | Medium
+8 | File | `/admin/?page=orders/manage_request` | High
+9 | File | `/admin/?page=orders/view_order` | High
+10 | File | `/admin/sign/out` | High
+11 | File | `/admin/store.php` | High
+12 | File | `/admin/students/manage.php` | High
+13 | File | `/api/geojson` | Medium
+14 | File | `/api/user/password/sent-reset-email` | High
+15 | File | `/balance/service/list` | High
+16 | File | `/cgi-bin/qcmap_auth` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=delete_reservation` | High
+19 | File | `/diagnostic/editclient.php` | High
+20 | File | `/edit/server` | Medium
+21 | File | `/etc/passwd` | Medium
+22 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

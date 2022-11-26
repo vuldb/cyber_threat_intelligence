@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AsyncRAT:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,13 +56,14 @@ ID | Type | Indicator | Confidence
 7 | File | `5.2.9\syscrb.exe` | High
 8 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/195/asyncrat-rat-iocs/
+* https://asec.ahnlab.com/en/36315/
 * https://blog.morphisec.com/tracking-hcrypt-an-active-crypter-as-a-service
 * https://blog.talosintelligence.com/2022/04/asyncrat-3losh-update.html
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20AsyncRAT%20IOCs

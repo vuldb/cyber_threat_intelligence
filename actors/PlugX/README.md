@@ -73,24 +73,24 @@ ID | Type | Indicator | Confidence
 11 | File | `/apply_noauth.cgi` | High
 12 | File | `/cgi-bin/portal` | High
 13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/domains/index.fts` | High
-15 | File | `/download` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/foundry/modules/news/newscolumns.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/GponForm/device_Form?script/` | High
-21 | File | `/include/config.cache.php` | High
-22 | File | `/jeecg-boot/sys/common/upload` | High
-23 | File | `/lan.asp` | Medium
-24 | File | `/LDMS/frm_splitfrm.aspx` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-27 | File | `/NAGErrors` | Medium
-28 | File | `/replication` | Medium
-29 | File | `/RestAPI` | Medium
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/service-list` | High
+14 | File | `/controller/Index.php` | High
+15 | File | `/domains/index.fts` | High
+16 | File | `/download` | Medium
+17 | File | `/etc/passwd` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/foundry/modules/news/newscolumns.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/GponForm/device_Form?script/` | High
+22 | File | `/include/config.cache.php` | High
+23 | File | `/jeecg-boot/sys/common/upload` | High
+24 | File | `/lan.asp` | Medium
+25 | File | `/LDMS/frm_splitfrm.aspx` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+28 | File | `/NAGErrors` | Medium
+29 | File | `/replication` | Medium
+30 | File | `/RestAPI` | Medium
+31 | File | `/secure/QueryComponent!Default.jspa` | High
 32 | File | `/service/upload` | High
 33 | File | `/smstest.html` | High
 34 | File | `/start-stop` | Medium
@@ -103,11 +103,11 @@ ID | Type | Indicator | Confidence
 41 | File | `/wp-json/oembed/1.0/embed?url` | High
 42 | File | `/_error` | Low
 43 | File | `actions/authenticate.php` | High
-44 | File | `actions/doreport.php` | High
-45 | File | `adclick.php` | Medium
+44 | File | `adclick.php` | Medium
+45 | File | `addlyricsform.php` | High
 46 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MedusaLocker:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,10 +36,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -51,38 +51,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/stockin` | High
-2 | File | `/admin/?page=reports/waste` | High
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/del.php` | High
-5 | File | `/admin/delete.php` | High
-6 | File | `/admin/delstu.php` | High
-7 | File | `/admin/history.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/modify.php` | High
-10 | File | `/admin/modify1.php` | High
-11 | File | `/admin/products/controller.php?action=add` | High
-12 | File | `/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/api/v1/user` | Medium
-14 | File | `/appConfig/userDB.json` | High
-15 | File | `/assets` | Low
-16 | File | `/blog/edit` | Medium
-17 | File | `/blogengine/api/posts` | High
-18 | File | `/brand.php` | Medium
-19 | File | `/cgi-bin/DownloadFlash` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php?f=delete_account` | High
-22 | File | `/classes/Master.php?f=delete_category` | High
-23 | File | `/classes/Master.php?f=delete_img` | High
-24 | File | `/classes/Master.php?f=delete_payment` | High
-25 | File | `/classes/Master.php?f=delete_schedule` | High
-26 | File | `/classes/Master.php?f=delete_student` | High
-27 | File | `/classes/Master.php?f=delete_waste` | High
-28 | File | `/classes/Users.php?f=save_client` | High
-29 | File | `/client.php` | Medium
+1 | File | `/action/import_cert_file/` | High
+2 | File | `/action/import_e2c_json_file/` | High
+3 | File | `/action/import_file/` | High
+4 | File | `/action/import_wireguard_cert_file/` | High
+5 | File | `/action/import_xml_file/` | High
+6 | File | `/action/ipcamRecordPost` | High
+7 | File | `/action/ipcamSetParamPost` | High
+8 | File | `/action/wirelessConnect` | High
+9 | File | `/admin/?page=bookings/view_details` | High
+10 | File | `/admin/?page=orders/manage_request` | High
+11 | File | `/admin/?page=user/manage_user` | High
+12 | File | `/admin/sign/out` | High
+13 | File | `/admin/students/manage.php` | High
+14 | File | `/api/common/ping` | High
+15 | File | `/api/geojson` | Medium
+16 | File | `/api/public/signup` | High
+17 | File | `/api/v1/attack` | High
+18 | File | `/api/v1/attack/falco` | High
+19 | File | `/api/v1/attack/token` | High
+20 | File | `/api/v1/bait/set` | High
+21 | File | `/bookings/update_status.php` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Master.php?f=delete_appointment` | High
+24 | File | `/classes/Users.php?f=delete_client` | High
+25 | File | `/clearance/clearance.php` | High
+26 | File | `/depotHead/list` | High
+27 | File | `/dev/shm` | Medium
+28 | File | `/edit/server` | Medium
+29 | File | `/editorder.php` | High
 30 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

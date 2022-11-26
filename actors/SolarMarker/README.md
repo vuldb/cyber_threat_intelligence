@@ -60,19 +60,19 @@ ID | Type | Indicator | Confidence
 10 | File | `/p1/p2/:name` | Medium
 11 | File | `/ptms/?page=user` | High
 12 | File | `/setup/finish` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/upload/file.php` | High
-15 | File | `/usr/bin/pkexec` | High
-16 | File | `/wolfcms/?/admin/user/add` | High
-17 | File | `/wp-admin` | Medium
-18 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-19 | File | `/wp-json/wc/v3/webhooks` | High
-20 | File | `5.2.9\syscrb.exe` | High
-21 | File | `adclick.php` | Medium
-22 | File | `admin-ajax.php` | High
+13 | File | `/spip.php` | Medium
+14 | File | `/uncpath/` | Medium
+15 | File | `/upload/file.php` | High
+16 | File | `/usr/bin/pkexec` | High
+17 | File | `/wolfcms/?/admin/user/add` | High
+18 | File | `/wp-admin` | Medium
+19 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+20 | File | `/wp-json/wc/v3/webhooks` | High
+21 | File | `5.2.9\syscrb.exe` | High
+22 | File | `adclick.php` | Medium
 23 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -170,7 +170,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -184,22 +184,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/login.cgi` | High
 5 | File | `/export` | Low
 6 | File | `/forgetpassword.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/graphStatus/displayServiceStatus.php` | High
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/out.php` | Medium
-11 | File | `/plugin` | Low
-12 | File | `/proc/pid/syscall` | High
-13 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-14 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-15 | File | `/servlet.gupld` | High
-16 | File | `/sql/sql_type.cc` | High
-17 | File | `/status` | Low
+7 | File | `/FormLogin` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/graphStatus/displayServiceStatus.php` | High
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/out.php` | Medium
+12 | File | `/plugin` | Low
+13 | File | `/proc/pid/syscall` | High
+14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+16 | File | `/servlet.gupld` | High
+17 | File | `/sql/sql_type.cc` | High
 18 | File | `/tools/developerConsoleOperations.jsp` | High
 19 | File | `/uncpath/` | Medium
 20 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

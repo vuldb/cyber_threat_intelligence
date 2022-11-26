@@ -44,12 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,57 +60,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/default.asp` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/assets/ctx` | Medium
-7 | File | `/checkLogin.cgi` | High
-8 | File | `/cms/print.php` | High
-9 | File | `/concat?/%2557EB-INF/web.xml` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/data/remove` | Medium
-12 | File | `/etc/passwd` | Medium
-13 | File | `/goforms/rlminfo` | High
-14 | File | `/login` | Low
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/navigate/navigate_download.php` | High
-17 | File | `/owa/auth/logon.aspx` | High
-18 | File | `/p` | Low
-19 | File | `/password.html` | High
-20 | File | `/proc/ioports` | High
-21 | File | `/property-list/property_view.php` | High
-22 | File | `/ptms/classes/Users.php` | High
-23 | File | `/rest` | Low
-24 | File | `/rest/api/2/search` | High
-25 | File | `/s/` | Low
-26 | File | `/scripts/cpan_config` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/server-info` | Medium
-29 | File | `/services/system/setup.json` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/vloggers_merch/?p=view_product` | High
-32 | File | `/webconsole/APIController` | High
-33 | File | `/websocket/exec` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-json` | Medium
-36 | File | `/wp-json/oembed/1.0/embed?url` | High
-37 | File | `/_next` | Low
-38 | File | `4.edu.php\conn\function.php` | High
-39 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-40 | File | `a2billing/customer/iridium_threed.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `addentry.php` | Medium
-43 | File | `admin.php?s=/Channel/add.html` | High
-44 | File | `admin/category.inc.php` | High
-45 | File | `admin/class-bulk-editor-list-table.php` | High
-46 | File | `admin/conf_users_edit.php` | High
-47 | File | `admin/dl_sendmail.php` | High
-48 | File | `admin/index.php` | High
-49 | File | `admin/password_forgotten.php` | High
-50 | ... | ... | ...
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin/default.asp` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/app/options.py` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/cms/print.php` | High
+14 | File | `/concat?/%2557EB-INF/web.xml` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/dashboard/menu-list.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/ffos/classes/Master.php?f=save_category` | High
+19 | File | `/goforms/rlminfo` | High
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/login` | Low
+22 | File | `/mifs/c/i/reg/reg.html` | High
+23 | File | `/navigate/navigate_download.php` | High
+24 | File | `/ocwbs/admin/?page=user/manage_user` | High
+25 | File | `/ofrs/admin/?page=user/manage_user` | High
+26 | File | `/out.php` | Medium
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/password.html` | High
+29 | File | `/php_action/fetchSelectedUser.php` | High
+30 | File | `/proc/ioports` | High
+31 | File | `/property-list/property_view.php` | High
+32 | File | `/ptms/classes/Users.php` | High
+33 | File | `/rest/api/2/search` | High
+34 | File | `/s/` | Low
+35 | File | `/scripts/cpan_config` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/server-info` | Medium
+38 | File | `/services/system/setup.json` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/tmp` | Low
+41 | File | `/uncpath/` | Medium
+42 | File | `/vloggers_merch/?p=view_product` | High
+43 | File | `/webconsole/APIController` | High
+44 | File | `/websocket/exec` | High
+45 | File | `/whbs/?page=my_bookings` | High
+46 | File | `/wp-json` | Medium
+47 | File | `/wp-json/oembed/1.0/embed?url` | High
+48 | File | `/_next` | Low
+49 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

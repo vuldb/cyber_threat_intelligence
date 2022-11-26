@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
-* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -57,10 +57,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -71,27 +71,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/delete.php` | High
-3 | File | `/admin/edit.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/update_expense.php` | High
-6 | File | `/admin/update_expense_category.php` | High
-7 | File | `/api/project` | Medium
-8 | File | `/DesignTools/CssEditor.aspx` | High
-9 | File | `/diagnostic/edittest.php` | High
-10 | File | `/ebics-server/ebics.aspx` | High
-11 | File | `/employeeview.php` | High
-12 | File | `/etc/fwupd/redfish.conf` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/fax/fax_send.php` | High
-15 | File | `/file/upload/1` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/htdocs/upnpinc/gena.php` | High
+1 | File | `.../gogo/` | Medium
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/Admin/dashboard.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/store.php` | High
+8 | File | `/api/user/password/sent-reset-email` | High
+9 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+10 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+11 | File | `/asms/classes/Master.php?f=delete_service` | High
+12 | File | `/balance/service/list` | High
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/classes/Master.php?f=delete_reservation` | High
+15 | File | `/diag_ping_admin.asp` | High
+16 | File | `/diag_tracert_admin.asp` | High
+17 | File | `/FormLogin` | Medium
+18 | File | `/index/user/user_edit.html` | High
 19 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

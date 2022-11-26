@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Farseer:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +48,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/icingaweb2/navigation/add` | High
-4 | File | `/phppath/php` | Medium
-5 | File | `/rest/collectors/1.0/template/custom` | High
-6 | File | `/start_apply.htm` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/WEB-INF/web.xml` | High
-9 | File | `abook_database.php` | High
+2 | File | `/admin/users.php?source=edit_user&id=1` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/icingaweb2/navigation/add` | High
+5 | File | `/phppath/php` | Medium
+6 | File | `/rest/collectors/1.0/template/custom` | High
+7 | File | `/start_apply.htm` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/WEB-INF/web.xml` | High
 10 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

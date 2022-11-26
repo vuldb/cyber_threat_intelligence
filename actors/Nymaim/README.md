@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nymaim:
 
 * [US](https://vuldb.com/?country.us)
-* [BG](https://vuldb.com/?country.bg)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -57,22 +57,22 @@ ID | Type | Indicator | Confidence
 1 | File | `//` | Low
 2 | File | `/admin/doctors/view_doctor.php` | High
 3 | File | `/appliance/users?action=edit` | High
-4 | File | `/config/getuser` | High
-5 | File | `/data-service/users/` | High
-6 | File | `/IISADMPWD` | Medium
-7 | File | `/index.php` | Medium
-8 | File | `/js/app.js` | Medium
-9 | File | `/login` | Low
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/registration.php` | High
-13 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-17 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-18 | File | `/services` | Medium
-19 | File | `/uncpath/` | Medium
+4 | File | `/bin/boa` | Medium
+5 | File | `/classes/Master.php?f=delete_reservation` | High
+6 | File | `/config/getuser` | High
+7 | File | `/data-service/users/` | High
+8 | File | `/IISADMPWD` | Medium
+9 | File | `/index.php` | Medium
+10 | File | `/js/app.js` | Medium
+11 | File | `/login` | Low
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/northstar/Portal/processlogin.jsp` | High
+14 | File | `/public/plugins/` | High
+15 | File | `/registration.php` | High
+16 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+17 | File | `/rest/api/latest/projectvalidate/key` | High
+18 | File | `/rest/collectors/1.0/template/custom` | High
+19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 20 | ... | ... | ...
 
 There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

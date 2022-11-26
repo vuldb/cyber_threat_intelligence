@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -124,44 +124,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/administration/settings_registration.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/app/options.py` | High
-6 | File | `/appConfig/userDB.json` | High
-7 | File | `/bd_genie_create_account.cgi` | High
-8 | File | `/c/macho_reader.c` | High
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/claire_blake` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/defaultui/player/modern.html` | High
-16 | File | `/etc/hosts` | Medium
-17 | File | `/etc/init0.d/S80telnetd.sh` | High
-18 | File | `/etc/shadow.sample` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/goform/SetIpMacBind` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/htdocs/utils/Files.php` | High
-24 | File | `/index.asp` | Medium
-25 | File | `/jfinal_cms/system/role/list` | High
-26 | File | `/librarian/edit_book_details.php` | High
-27 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/master/index.php` | High
-30 | File | `/mkshop/Men/profile.php` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/pages/apply_vacancy.php` | High
-34 | File | `/pages/faculty_sched.php` | High
-35 | File | `/pages/processlogin.php` | High
-36 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/adfs/ls` | Medium
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/users_add.php` | High
+6 | File | `/administration/settings_registration.php` | High
+7 | File | `/ad_js.php` | Medium
+8 | File | `/appConfig/userDB.json` | High
+9 | File | `/bd_genie_create_account.cgi` | High
+10 | File | `/c/macho_reader.c` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/claire_blake` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/defaultui/player/modern.html` | High
+18 | File | `/etc/hosts` | Medium
+19 | File | `/etc/init0.d/S80telnetd.sh` | High
+20 | File | `/etc/shadow.sample` | High
+21 | File | `/foms/place-order.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/ghost/preview` | High
+24 | File | `/goform/SetIpMacBind` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/wizard_end` | High
+27 | File | `/htdocs/utils/Files.php` | High
+28 | File | `/index.asp` | Medium
+29 | File | `/jfinal_cms/system/role/list` | High
+30 | File | `/librarian/edit_book_details.php` | High
+31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+32 | File | `/manage-apartment.php` | High
+33 | File | `/master/index.php` | High
+34 | File | `/mkshop/Men/profile.php` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+37 | File | `/pages/apply_vacancy.php` | High
+38 | File | `/pages/faculty_sched.php` | High
+39 | File | `/pages/processlogin.php` | High
+40 | File | `/php_action/createUser.php` | High
+41 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

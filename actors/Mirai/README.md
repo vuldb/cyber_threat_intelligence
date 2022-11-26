@@ -213,13 +213,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -227,30 +228,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-6 | File | `/cgi-bin/qcmap_auth` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/diagnostic/editcategory.php` | High
-9 | File | `/diagnostic/edittest.php` | High
-10 | File | `/ebics-server/ebics.aspx` | High
-11 | File | `/editbrand.php` | High
-12 | File | `/etc/fwupd/redfish.conf` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/getcfg.php` | Medium
-15 | File | `/leave_system/classes/Master.php?f=delete_application` | High
-16 | File | `/leave_system/classes/Users.php?f=save` | High
-17 | File | `/opt/onedev/sites/` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/out.php` | Medium
-20 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-21 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-22 | ... | ... | ...
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/admin/problem_judge.php` | High
+6 | File | `/api/user/password/sent-reset-email` | High
+7 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+8 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+9 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+10 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+11 | File | `/asms/classes/Master.php?f=delete_service` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/CommunitySSORedirect.jsp` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/diag_ping_admin.asp` | High
+17 | File | `/diag_tracert_admin.asp` | High
+18 | File | `/HNAP1` | Low
+19 | File | `/index/user/user_edit.html` | High
+20 | File | `/login.php` | Medium
+21 | File | `/Member/memberedit.html` | High
+22 | File | `/modx/manager/` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/out.php` | Medium
+25 | File | `/pages/processlogin.php` | High
+26 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

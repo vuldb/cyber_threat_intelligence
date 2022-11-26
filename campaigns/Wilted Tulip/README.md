@@ -68,42 +68,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=reports/waste` | High
-2 | File | `/admin/?page=user/manage_user` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/add_trainers.php` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/video/list` | High
-7 | File | `/api/upload-resource` | High
-8 | File | `/api/v2/config` | High
-9 | File | `/authUserAction!edit.action` | High
-10 | File | `/belegungsplan/wochenuebersicht.inc.php` | High
-11 | File | `/bin/httpd` | Medium
-12 | File | `/bits/stl_vector.h` | High
-13 | File | `/card/in-card.php` | High
-14 | File | `/cgi-bin/DownloadFlash` | High
-15 | File | `/cgi-bin/R14.2/cgi-bin/R14.2/host.pl` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/Users.php?f=save_client` | High
-18 | File | `/coreframe/app/attachment/admin/index.php` | High
-19 | File | `/csms/admin/storages/view_storage.php` | High
-20 | File | `/dishes.php` | Medium
-21 | File | `/etc/ciel.cfg` | High
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/fax/fax_send.php` | High
-24 | File | `/garage/editclient.php` | High
-25 | File | `/get_missing_events` | High
-26 | File | `/gfxpoly/stroke.c` | High
-27 | File | `/goform/addRouting` | High
-28 | File | `/goform/form2Wan.cgi` | High
-29 | File | `/goform/NTPSyncWithHost` | High
-30 | File | `/home/bupt/Desktop/swftools/src/gif2swf` | High
-31 | File | `/htdocs/utils/Files.php` | High
-32 | File | `/includes/images.php` | High
-33 | File | `/index.php` | Medium
-34 | ... | ... | ...
+1 | File | `/action/factory` | High
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/admin/?page=reports/waste` | High
+4 | File | `/admin/?page=user/manage_user` | High
+5 | File | `/admin/add-fee.php` | High
+6 | File | `/admin/baojia_list.php` | High
+7 | File | `/admin/folderrollpicture/list` | High
+8 | File | `/admin/index.PHP` | High
+9 | File | `/anony/mjpg.cgi` | High
+10 | File | `/api/common/ping` | High
+11 | File | `/api/v2/open/rowsInfo` | High
+12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+13 | File | `/appointments/update_status.php` | High
+14 | File | `/authUserAction!edit.action` | High
+15 | File | `/bin/boa` | Medium
+16 | File | `/bin/httpd` | Medium
+17 | File | `/bits/stl_vector.h` | High
+18 | File | `/bookings/update_status.php` | High
+19 | File | `/cgi-bin/DownloadFlash` | High
+20 | File | `/classes/Master.php?f=delete_category` | High
+21 | File | `/classes/Users.php?f=delete_client` | High
+22 | File | `/Core/Ap4File.cpp` | High
+23 | File | `/csms/admin/storages/view_storage.php` | High
+24 | File | `/dede/file_manage_control.php` | High
+25 | File | `/etc/ciel.cfg` | High
+26 | File | `/etc/openshift/server_priv.pem` | High
+27 | File | `/etc/shadow.sample` | High
+28 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

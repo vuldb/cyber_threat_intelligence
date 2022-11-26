@@ -15,6 +15,11 @@ The following _campaigns_ are known and can be associated with Iron:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Iron:
 
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,8 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [142.44.215.177](https://vuldb.com/?ip.142.44.215.177) | ns554604.ip-142-44-215.net | XBash | High
-2 | [144.217.61.147](https://vuldb.com/?ip.144.217.61.147) | ip147.ip-144-217-61.net | XBash | High
+1 | [45.77.250.141](https://vuldb.com/?ip.45.77.250.141) | 45.77.250.141.vultrusercontent.com | - | High
+2 | [45.142.214.193](https://vuldb.com/?ip.45.142.214.193) | vm625196.stark-industries.solutions | - | High
+3 | [80.92.206.158](https://vuldb.com/?ip.80.92.206.158) | ra.lan-t.ru | - | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,12 +90,13 @@ ID | Type | Indicator | Confidence
 32 | File | `/tmp/swhks.pid` | High
 33 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/62fb3b7982df417ed03315be
 * https://unit42.paloaltonetworks.com/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/
 
 ## Literature

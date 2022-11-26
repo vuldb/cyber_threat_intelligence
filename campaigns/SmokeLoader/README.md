@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -78,10 +78,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/bin/appmgr` | Medium
 6 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
 7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi/ansi` | Medium
-9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-10 | File | `/config.cgi?webmin` | High
-11 | File | `/config/getuser` | High
+8 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+9 | File | `/config.cgi?webmin` | High
+10 | File | `/config/getuser` | High
+11 | File | `/debug/pprof` | Medium
 12 | File | `/etc/config/rpcd` | High
 13 | File | `/etc/gsissh/sshd_config` | High
 14 | File | `/etc/passwd` | Medium
@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 49 | File | `admin/getparam.cgi` | High
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

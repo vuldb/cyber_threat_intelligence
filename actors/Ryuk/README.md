@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -54,25 +54,28 @@ ID | Type | Indicator | Confidence
 2 | File | `/ajax-files/postComment.php` | High
 3 | File | `/categorypage.php` | High
 4 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-5 | File | `/dashboard/reports/logs/view` | High
-6 | File | `/download` | Medium
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/hdf5/src/H5T.c` | High
-9 | File | `/home.php` | Medium
-10 | File | `/ms/file/uploadTemplate.do` | High
-11 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-12 | File | `/owa/auth/logon.aspx` | High
-13 | File | `/searchpin.php` | High
-14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
-17 | File | `actions.hsp` | Medium
-18 | File | `adclick.php` | Medium
-19 | File | `admin/domain/ip_login_set/d_ip_login_get.php` | High
-20 | File | `admin/login.asp` | High
-21 | ... | ... | ...
+5 | File | `/client.php` | Medium
+6 | File | `/controller/OnlinePreviewController.java` | High
+7 | File | `/dashboard/reports/logs/view` | High
+8 | File | `/download` | Medium
+9 | File | `/etc/sudoers` | Medium
+10 | File | `/hdf5/src/H5T.c` | High
+11 | File | `/home.php` | Medium
+12 | File | `/index.php` | Medium
+13 | File | `/members/view_member.php` | High
+14 | File | `/ms/file/uploadTemplate.do` | High
+15 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+16 | File | `/owa/auth/logon.aspx` | High
+17 | File | `/ptipupgrade.cgi` | High
+18 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+19 | File | `/searchpin.php` | High
+20 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+21 | File | `/table_manager/view/cu_user_groups` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/vloggers_merch/admin/?page=orders/view_order` | High
+24 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

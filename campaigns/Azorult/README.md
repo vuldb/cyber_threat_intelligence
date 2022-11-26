@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,22 +66,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/deluser.php` | High
 3 | File | `/administration/theme.php` | High
-4 | File | `/BindAccount/SuccessTips.js` | High
-5 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-6 | File | `/login.html` | Medium
-7 | File | `/medical/inventories.php` | High
-8 | File | `/pages.php` | Medium
-9 | File | `/patient/doctors.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-12 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-13 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-14 | File | `abm.aspx` | Medium
-15 | File | `actions/ChangeConfiguration.html` | High
-16 | File | `adclick.php` | Medium
-17 | ... | ... | ...
+4 | File | `/auparse/auparse.c` | High
+5 | File | `/BindAccount/SuccessTips.js` | High
+6 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+7 | File | `/login.html` | Medium
+8 | File | `/medical/inventories.php` | High
+9 | File | `/pages.php` | Medium
+10 | File | `/pages/save_user.php` | High
+11 | File | `/patient/doctors.php` | High
+12 | File | `/rom-0` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+15 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+16 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+17 | File | `abm.aspx` | Medium
+18 | ... | ... | ...
 
-There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

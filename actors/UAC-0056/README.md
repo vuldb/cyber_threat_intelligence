@@ -43,9 +43,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -56,104 +56,79 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin.php` | Medium
-3 | File | `/admin/?page=system_info/contact_info` | High
-4 | File | `/admin/doctors/view_doctor.php` | High
-5 | File | `/admin/edit_user.php` | High
-6 | File | `/admin/modules/bibliography/index.php` | High
-7 | File | `/adminlogin.asp` | High
-8 | File | `/api/` | Low
-9 | File | `/app/controller/Books.php` | High
-10 | File | `/aqpg/users/login.php` | High
-11 | File | `/cgi/get_param.cgi` | High
-12 | File | `/controller/Index.php` | High
-13 | File | `/coreframe/app/content/admin/content.php` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dl/dl_print.php` | High
-16 | File | `/etc/master.passwd` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/goform/aspForm` | High
-19 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-20 | File | `/Hospital-Management-System-master/contact.php` | High
-21 | File | `/include/friends.inc.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/members/view_member.php` | High
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/school/model/get_admin_profile.php` | High
-26 | File | `/servlet/webacc` | High
-27 | File | `/sitemagic/upgrade.php` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/student-grading-system/rms.php?page=grade` | High
-30 | File | `/timeline2.php` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/userui/ticket_list.php` | High
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/wp-admin/options-general.php` | High
-35 | File | `/zm/index.php` | High
-36 | File | `/_next` | Low
-37 | File | `abook_database.php` | High
-38 | File | `accounts/inc/include.php` | High
-39 | File | `adaptive-images-script.php` | High
-40 | File | `additem.asp` | Medium
-41 | File | `adherents/subscription/info.php` | High
-42 | File | `admin.asp` | Medium
-43 | File | `admin.php` | Medium
-44 | File | `admin/admin.php` | High
-45 | File | `admin/admin_users.php` | High
-46 | File | `admin/general.php` | High
-47 | File | `admin/header.php` | High
-48 | File | `admin/inc/change_action.php` | High
-49 | File | `admin/index.php` | High
-50 | File | `admin/info.php` | High
-51 | File | `admin/login.asp` | High
-52 | File | `admin/manage-comments.php` | High
-53 | File | `admin/manage-news.php` | High
-54 | File | `admin/plugin-settings.php` | High
-55 | File | `admin/specials.php` | High
-56 | File | `admin/upload.php` | High
-57 | File | `admin:de` | Medium
-58 | File | `admincp/attachment.php&do=rebuild&type` | High
-59 | File | `admincp/auth/checklogin.php` | High
-60 | File | `admincp/auth/secure.php` | High
-61 | File | `administrator/components/com_media/helpers/media.php` | High
-62 | File | `administrator/index.php` | High
-63 | File | `admin_login.asp` | High
-64 | File | `ajax_url.php` | Medium
-65 | File | `album_portal.php` | High
-66 | File | `al_initialize.php` | High
-67 | File | `anjel.index.php` | High
-68 | File | `annonces-p-f.php` | High
-69 | File | `announce.php` | Medium
-70 | File | `announcement.php` | High
-71 | File | `announcements.php` | High
-72 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-73 | File | `application/config/config.php` | High
-74 | File | `apply.cgi` | Medium
-75 | File | `apps/app_article/controller/rating.php` | High
-76 | File | `article.php` | Medium
-77 | File | `articles.php` | Medium
-78 | File | `artikel_anzeige.php` | High
-79 | File | `Atom.CMS_admin_ajax_pages.php` | High
-80 | File | `auktion.cgi` | Medium
-81 | File | `auth.php` | Medium
-82 | File | `authfiles/login.asp` | High
-83 | File | `basket.php` | Medium
-84 | File | `books.php` | Medium
-85 | File | `browse.php` | Medium
-86 | File | `browse_videos.php` | High
-87 | File | `BrudaNews/BrudaGB` | High
-88 | File | `bwlist_inc.html` | High
-89 | File | `calendar.php` | Medium
-90 | File | `callme_page.php` | High
-91 | File | `cart_add.php` | Medium
-92 | File | `case.filemanager.php` | High
-93 | File | `catalog.php` | Medium
-94 | File | `catalogshop.php` | High
-95 | File | `catalogue.asp` | High
-96 | ... | ... | ...
+1 | File | `/admin.php` | Medium
+2 | File | `/admin/?page=system_info/contact_info` | High
+3 | File | `/admin/doctors/view_doctor.php` | High
+4 | File | `/admin/edit_user.php` | High
+5 | File | `/admin/modules/bibliography/index.php` | High
+6 | File | `/admin/question/edit` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/adminlogin.asp` | High
+9 | File | `/api/` | Low
+10 | File | `/app/controller/Books.php` | High
+11 | File | `/bifs/field_decode.c` | High
+12 | File | `/bin/proc.cgi` | High
+13 | File | `/cgi/get_param.cgi` | High
+14 | File | `/controller/Index.php` | High
+15 | File | `/Core/Ap4File.cpp` | High
+16 | File | `/csms/?page=contact_us` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/DXR.axd` | Medium
+19 | File | `/etc/master.passwd` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/goform/aspForm` | High
+22 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+23 | File | `/include/friends.inc.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/isomedia/box_funcs.c` | High
+26 | File | `/isomedia/meta.c` | High
+27 | File | `/members/view_member.php` | High
+28 | File | `/php_action/editProductImage.php` | High
+29 | File | `/plesk-site-preview/` | High
+30 | File | `/project/PROJECTNAME/reports/` | High
+31 | File | `/sacco_shield/manage_loan.php` | High
+32 | File | `/scene_manager/scene_dump.c` | High
+33 | File | `/school/model/get_admin_profile.php` | High
+34 | File | `/servlet/webacc` | High
+35 | File | `/shell` | Low
+36 | File | `/spip.php` | Medium
+37 | File | `/student-grading-system/rms.php?page=grade` | High
+38 | File | `/timeline2.php` | High
+39 | File | `/userui/ticket_list.php` | High
+40 | File | `/user_operations/profile.php` | High
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/wp-admin/options-general.php` | High
+43 | File | `/zm/index.php` | High
+44 | File | `/_next` | Low
+45 | File | `abook_database.php` | High
+46 | File | `accounts/inc/include.php` | High
+47 | File | `adaptive-images-script.php` | High
+48 | File | `additem.asp` | Medium
+49 | File | `adherents/subscription/info.php` | High
+50 | File | `admin.asp` | Medium
+51 | File | `admin.php` | Medium
+52 | File | `admin/admin.php` | High
+53 | File | `admin/admin_users.php` | High
+54 | File | `admin/article_save.php` | High
+55 | File | `admin/header.php` | High
+56 | File | `admin/index.php` | High
+57 | File | `admin/login.asp` | High
+58 | File | `admin/manage-comments.php` | High
+59 | File | `admin/manage-news.php` | High
+60 | File | `admin/plugin-settings.php` | High
+61 | File | `admin/theme-edit.php` | High
+62 | File | `adminer.php` | Medium
+63 | File | `administrator/components/com_media/helpers/media.php` | High
+64 | File | `administrator/index.php` | High
+65 | File | `admin_login.asp` | High
+66 | File | `ajax_calls.php` | High
+67 | File | `al_initialize.php` | High
+68 | File | `announcements.php` | High
+69 | File | `Ap4Dec3Atom.cpp` | High
+70 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+71 | ... | ... | ...
 
-There are 853 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 622 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -50,22 +50,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
-2 | File | `/admin/usermanagement.php` | High
-3 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-4 | File | `/cgi-bin/pass` | High
-5 | File | `/ctpms/admin/?page=applications/view_application` | High
-6 | File | `/dev/tcx0` | Medium
-7 | File | `/dev/urandom` | Medium
-8 | File | `/etc/environment` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/home.jsp` | Medium
-11 | File | `/spip/ecrire/` | High
-12 | File | `/student-grading-system/rms.php?page=school_year` | High
-13 | File | `/tmp` | Low
-14 | File | `/uncpath/` | Medium
-15 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/admin/?page=inmates/view_inmate` | High
+4 | File | `/admin/?page=system_info` | High
+5 | File | `/admin/?page=system_info/contact_info` | High
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/add_exercises.php` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/lab.php` | High
+10 | File | `/admin/new-content` | High
+11 | File | `/admin/sign/out` | High
+12 | File | `/admin/usermanagement.php` | High
+13 | File | `/aqpg/users/login.php` | High
+14 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+15 | File | `/bcms/admin/?page=user/list` | High
+16 | File | `/cardo/api` | Medium
+17 | File | `/cgi-bin/pass` | High
+18 | File | `/cgi-bin/touchlist_sync.cgi` | High
+19 | File | `/ci_spms/admin/category` | High
+20 | File | `/classes/Users.php?f=save` | High
+21 | File | `/ctpms/admin/?page=applications/view_application` | High
+22 | File | `/cwms/admin/?page=articles/view_article/` | High
+23 | File | `/cwms/classes/Master.php?f=save_contact` | High
+24 | File | `/dashboard/add-blog.php` | High
+25 | File | `/dashboard/add-portfolio.php` | High
+26 | File | `/dashboard/settings` | High
+27 | File | `/dev/tcx0` | Medium
+28 | File | `/dev/urandom` | Medium
+29 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+30 | File | `/etc/environment` | High
+31 | File | `/etc/passwd` | Medium
+32 | File | `/goform/RgDdns` | High
+33 | File | `/goform/RgDhcp` | High
+34 | File | `/goform/RGFirewallEL` | High
+35 | File | `/goform/RgTime` | High
+36 | File | `/goform/RgUrlBlock.asp` | High
+37 | File | `/goform/wlanPrimaryNetwork` | High
+38 | File | `/guestmanagement/front.php` | High
+39 | File | `/home.jsp` | Medium
+40 | ... | ... | ...
 
-There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

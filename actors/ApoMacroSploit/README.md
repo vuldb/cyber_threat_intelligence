@@ -18,6 +18,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [185.157.161.109](https://vuldb.com/?ip.185.157.161.109) | 185-157-161-109.pool.ovpn.com | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ApoMacroSploit_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

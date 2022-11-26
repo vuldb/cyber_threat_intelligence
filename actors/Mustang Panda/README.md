@@ -71,29 +71,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/settings.php` | High
-2 | File | `/cgi-bin/portal` | High
-3 | File | `/Config/service/initModel?` | High
-4 | File | `/export` | Low
-5 | File | `/goform/NTPSyncWithHost` | High
-6 | File | `/HNAP1/SetAccessPointMode` | High
-7 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-8 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-9 | File | `/htmlcode/html/indexdefault.asp` | High
-10 | File | `/include/helpers/upload.helper.php` | High
-11 | File | `/interface/main/backup.php` | High
-12 | File | `/local/domain/$DOMID` | High
-13 | File | `/mkshop/Men/profile.php` | High
-14 | File | `/MTFWU` | Low
-15 | File | `/mygym/admin/index.php` | High
-16 | File | `/patient/settings.php` | High
-17 | File | `/rest/api/2/user/picker` | High
-18 | File | `/service/upload` | High
-19 | File | `/settings` | Medium
-20 | File | `/tmp` | Low
-21 | ... | ... | ...
+1 | File | `/admin/?page=orders/manage_request` | High
+2 | File | `/admin/settings.php` | High
+3 | File | `/api/geojson` | Medium
+4 | File | `/api/user/password/sent-reset-email` | High
+5 | File | `/api/v1/attack` | High
+6 | File | `/cgi-bin/portal` | High
+7 | File | `/Config/service/initModel?` | High
+8 | File | `/export` | Low
+9 | File | `/goform/NTPSyncWithHost` | High
+10 | File | `/goform/SetVirtualServerCfg` | High
+11 | File | `/HNAP1/SetAccessPointMode` | High
+12 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+13 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+14 | File | `/htmlcode/html/indexdefault.asp` | High
+15 | File | `/include/helpers/upload.helper.php` | High
+16 | File | `/interface/main/backup.php` | High
+17 | File | `/local/domain/$DOMID` | High
+18 | File | `/mkshop/Men/profile.php` | High
+19 | File | `/MTFWU` | Low
+20 | File | `/mygym/admin/index.php` | High
+21 | File | `/patient/settings.php` | High
+22 | File | `/rest/api/2/user/picker` | High
+23 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

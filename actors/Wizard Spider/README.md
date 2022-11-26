@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -96,7 +96,7 @@ ID | IP address | Hostname | Campaign | Confidence
 66 | [45.147.160.5](https://vuldb.com/?ip.45.147.160.5) | free.ds | - | High
 67 | ... | ... | ... | ...
 
-There are 263 more IOC items available. Please use our online service to access the data.
+There are 265 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -131,14 +131,14 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-bin/wapopen` | High
 11 | File | `/ci_spms/admin/category` | High
 12 | File | `/ci_spms/admin/search/searching/` | High
-13 | File | `/classes/Master.php?f=delete_train` | High
-14 | File | `/cms/print.php` | High
-15 | File | `/concat?/%2557EB-INF/web.xml` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/passwd` | Medium
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/cms/print.php` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
 21 | File | `/ffos/classes/Master.php?f=save_category` | High
 22 | File | `/forum/away.php` | High
 23 | File | `/goforms/rlminfo` | High
@@ -153,10 +153,10 @@ ID | Type | Indicator | Confidence
 32 | File | `/out.php` | Medium
 33 | File | `/owa/auth/logon.aspx` | High
 34 | File | `/password.html` | High
-35 | File | `/proc/ioports` | High
-36 | File | `/property-list/property_view.php` | High
-37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/rest` | Low
+35 | File | `/php_action/fetchSelectedUser.php` | High
+36 | File | `/proc/ioports` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
 39 | File | `/rest/api/2/search` | High
 40 | File | `/s/` | Low
 41 | File | `/scripts/cpan_config` | High
@@ -168,16 +168,16 @@ ID | Type | Indicator | Confidence
 47 | File | `/vloggers_merch/?p=view_product` | High
 48 | File | `/webconsole/APIController` | High
 49 | File | `/websocket/exec` | High
-50 | File | `/whbs/?page=my_bookings` | High
-51 | ... | ... | ...
+50 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/233/wizard-spider-apt-iocs/
+* https://github.com/blackorbird/APT_REPORT/blob/master/Wizard%20Spider/WizardSpider_TLPWHITE_v.1.4.pdf
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-Ryuk.csv
 * https://thedfirreport.com/2020/10/08/ryuks-return/
 * https://thedfirreport.com/2020/10/18/ryuk-in-5-hours/

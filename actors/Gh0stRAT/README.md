@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,14 +97,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,45 +114,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/about.php` | Medium
-3 | File | `/admin/lab.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/students/view_student.php` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/app/options.py` | High
-8 | File | `/appConfig/userDB.json` | High
-9 | File | `/bd_genie_create_account.cgi` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/c/macho_reader.c` | High
-12 | File | `/cgi-bin/wapopen` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/claire_blake` | High
-16 | File | `/classes/Master.php?f=delete_train` | High
-17 | File | `/coreframe/app/attachment/admin/index.php` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/debug` | Low
-20 | File | `/debug/pprof` | Medium
-21 | File | `/defaultui/player/modern.html` | High
-22 | File | `/etc/init0.d/S80telnetd.sh` | High
-23 | File | `/etc/shadow.sample` | High
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/ghost/preview` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin/lab.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/admin/users_add.php` | High
+8 | File | `/administration/settings_registration.php` | High
+9 | File | `/api/` | Low
+10 | File | `/appConfig/userDB.json` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/c/macho_reader.c` | High
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/claire_blake` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/cmscp/ext/collect/fetch_url.do` | High
+19 | File | `/coreframe/app/attachment/admin/index.php` | High
+20 | File | `/debug` | Low
+21 | File | `/debug/pprof` | Medium
+22 | File | `/defaultui/player/modern.html` | High
+23 | File | `/etc/init0.d/S80telnetd.sh` | High
+24 | File | `/etc/shadow.sample` | High
+25 | File | `/foms/place-order.php` | High
+26 | File | `/forum/away.php` | High
 27 | File | `/goform/SetIpMacBind` | High
 28 | File | `/goform/setmac` | High
 29 | File | `/htdocs/utils/Files.php` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/jfinal_cms/system/role/list` | High
-32 | File | `/librarian/edit_book_details.php` | High
-33 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-34 | File | `/management/api/rcx_management/global_config_query` | High
-35 | File | `/master/index.php` | High
-36 | File | `/mkshop/Men/profile.php` | High
-37 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/jfinal_cms/system/role/list` | High
+31 | File | `/librarian/edit_book_details.php` | High
+32 | File | `/management/api/rcx_management/global_config_query` | High
+33 | File | `/master/index.php` | High
+34 | File | `/mkshop/Men/profile.php` | High
+35 | File | `/modx/manager/` | High
+36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+37 | File | `/out.php` | Medium
 38 | File | `/pages/faculty_sched.php` | High
-39 | ... | ... | ...
+39 | File | `/pages/processlogin.php` | High
+40 | File | `/php_action/createUser.php` | High
+41 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

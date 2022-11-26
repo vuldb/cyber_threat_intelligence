@@ -67,13 +67,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?&m=Public&a=login` | High
-2 | File | `/config/getuser` | High
-3 | File | `/management/api/rcx_management/global_config_query` | High
-4 | File | `/setSystemAdmin` | High
-5 | File | `/ucms/index.php?do=list_edit` | High
+2 | File | `/api/` | Low
+3 | File | `/config/getuser` | High
+4 | File | `/management/api/rcx_management/global_config_query` | High
+5 | File | `/setSystemAdmin` | High
 6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

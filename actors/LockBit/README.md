@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LockBit:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,15 +55,16 @@ ID | Type | Indicator | Confidence
 5 | File | `/icingaweb2/navigation/add` | High
 6 | File | `/recordings/index.php` | High
 7 | File | `/secure/QueryComponent!Default.jspa` | High
-8 | File | `/student/bookdetails.php` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `agent/Core/Controller/SendRequest.cpp` | High
-11 | File | `api_poller.php` | High
-12 | File | `arformcontroller.php` | High
-13 | File | `attachmentlibrary.php` | High
-14 | ... | ... | ...
+8 | File | `/spip.php` | Medium
+9 | File | `/student/bookdetails.php` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `adclick.php` | Medium
+12 | File | `agent/Core/Controller/SendRequest.cpp` | High
+13 | File | `api_poller.php` | High
+14 | File | `arformcontroller.php` | High
+15 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

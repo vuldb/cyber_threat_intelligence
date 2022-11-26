@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,44 +66,43 @@ ID | Type | Indicator | Confidence
 3 | File | `/.asp` | Low
 4 | File | `/admin/admin_login.php` | High
 5 | File | `/advanced/adv_dns.xgi` | High
-6 | File | `/CFIDE/probe.cfm` | High
-7 | File | `/cgi-bin/kerbynet` | High
-8 | File | `/conf/` | Low
-9 | File | `/dev/snd/seq` | Medium
-10 | File | `/error` | Low
-11 | File | `/goform/saveParentControlInfo` | High
-12 | File | `/goform/SetFirewallCfg` | High
-13 | File | `/htdocs/admin/dict.php?id=3` | High
-14 | File | `/module/module_frame/index.php` | High
-15 | File | `/nidp/app/login` | High
-16 | File | `/proc` | Low
-17 | File | `/rapi/read_url` | High
-18 | File | `/redpass.cgi` | Medium
-19 | File | `/release-x64/otfccdump` | High
-20 | File | `/rom-0` | Low
-21 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-22 | File | `/setSystemAdmin` | High
-23 | File | `/tmp` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `/user-utils/users/md5.json` | High
-26 | File | `/usr/lib/utmp_update` | High
-27 | File | `/usr/local` | Medium
-28 | File | `/wp-admin` | Medium
-29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-30 | File | `2020\Messages\SDNotify.exe` | High
-31 | File | `admin/Login.php` | High
-32 | File | `admin/plugin-index.php` | High
-33 | File | `administration` | High
-34 | File | `administrative` | High
-35 | File | `ag_server_service.exe` | High
-36 | File | `Alias.asmx` | Medium
-37 | File | `aolfix.exe` | Medium
-38 | File | `app/models/user.rb` | High
-39 | File | `apply.cgi` | Medium
-40 | File | `Array.prototype.concat` | High
-41 | ... | ... | ...
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/CFIDE/probe.cfm` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/conf/` | Low
+10 | File | `/dev/snd/seq` | Medium
+11 | File | `/error` | Low
+12 | File | `/goform/saveParentControlInfo` | High
+13 | File | `/goform/SetFirewallCfg` | High
+14 | File | `/htdocs/admin/dict.php?id=3` | High
+15 | File | `/module/module_frame/index.php` | High
+16 | File | `/nidp/app/login` | High
+17 | File | `/proc` | Low
+18 | File | `/rapi/read_url` | High
+19 | File | `/redpass.cgi` | Medium
+20 | File | `/release-x64/otfccdump` | High
+21 | File | `/rom-0` | Low
+22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+23 | File | `/setSystemAdmin` | High
+24 | File | `/tmp` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/user-utils/users/md5.json` | High
+27 | File | `/usr/lib/utmp_update` | High
+28 | File | `/usr/local` | Medium
+29 | File | `/wp-admin` | Medium
+30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+31 | File | `2020\Messages\SDNotify.exe` | High
+32 | File | `admin/Login.php` | High
+33 | File | `admin/plugin-index.php` | High
+34 | File | `administration` | High
+35 | File | `administrative` | High
+36 | File | `ag_server_service.exe` | High
+37 | File | `Alias.asmx` | Medium
+38 | File | `aolfix.exe` | Medium
+39 | File | `app/models/user.rb` | High
+40 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

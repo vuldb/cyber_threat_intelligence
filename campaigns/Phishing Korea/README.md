@@ -101,8 +101,7 @@ ID | Type | Indicator | Confidence
 47 | File | `details_view.php` | High
 48 | File | `Diagnose.exe` | Medium
 49 | File | `DigiDocSAXParser.c` | High
-50 | File | `download-file.php` | High
-51 | ... | ... | ...
+50 | ... | ... | ...
 
 There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

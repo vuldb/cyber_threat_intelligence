@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 The following _campaigns_ are known and can be associated with FIN7:
 
 * AveMaria
+* Black Basta
 * OpBlueRaven
 
 ## Countries
@@ -20,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,13 +68,13 @@ ID | IP address | Hostname | Campaign | Confidence
 37 | [37.1.215.72](https://vuldb.com/?ip.37.1.215.72) | - | OpBlueRaven | High
 38 | [37.235.54.48](https://vuldb.com/?ip.37.235.54.48) | 48.54.235.37.in-addr.arpa | - | High
 39 | [37.252.4.131](https://vuldb.com/?ip.37.252.4.131) | - | OpBlueRaven | High
-40 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
-41 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
-42 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
-43 | [45.133.216.25](https://vuldb.com/?ip.45.133.216.25) | lisulisimp.example.com | OpBlueRaven | High
+40 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | renoldgavrilov93.example.com | Black Basta | High
+41 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
+42 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
+43 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
 44 | ... | ... | ... | ...
 
-There are 172 more IOC items available. Please use our online service to access the data.
+There are 173 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,7 +88,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,38 +98,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
 2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/edit_admin_details.php?id=admin` | High
-5 | File | `/admin/generalsettings.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/admin/reports.php` | High
-9 | File | `/admin/showbad.php` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/app/options.py` | High
-12 | File | `/bsms/?page=manage_account` | High
-13 | File | `/cgi-bin/login.cgi` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/hosts` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/Items/*/RemoteImages/Download` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/showbad.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/apilog.php` | Medium
+8 | File | `/app/options.py` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/connectors/index.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/index.php` | Medium
+21 | File | `/items/view_item.php` | High
+22 | File | `/manage-apartment.php` | High
+23 | File | `/manager/index.php` | High
+24 | File | `/medical/inventories.php` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/modules/public/calendar.php` | High
+29 | File | `/newsDia.php` | Medium
 30 | File | `/out.php` | Medium
 31 | File | `/pages/apply_vacancy.php` | High
-32 | ... | ... | ...
+32 | File | `/proc/<PID>/mem` | High
+33 | File | `/proxy` | Low
+34 | File | `/public/launchNewWindow.jsp` | High
+35 | File | `/sacco_shield/manage_user.php` | High
+36 | File | `/secure/ViewCollectors` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+39 | File | `/staff/bookdetails.php` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/upload` | Low
+42 | File | `/user/update_booking.php` | High
+43 | File | `/vendor/views/add_product.php` | High
+44 | File | `/wabt/bin/poc.wasm` | High
+45 | File | `/WEB-INF/web.xml` | High
+46 | File | `/WebInterface/UserManager/` | High
+47 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+48 | File | `/wordpress/wp-admin/options-general.php` | High
+49 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+50 | File | `ActivityRecord.java` | High
+51 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -140,6 +160,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html
 * https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html
 * https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/
+* https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/
 * https://www.threatminer.org/report.php?q=the-carbanak-fin7-syndicate_RSA.pdf&y=2017
 
 ## Literature

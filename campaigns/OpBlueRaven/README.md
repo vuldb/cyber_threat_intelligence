@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -75,34 +75,36 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/payment.php` | High
 9 | File | `/admin/photo.php` | High
 10 | File | `/admin/searchview.php` | High
-11 | File | `/ad_js.php` | Medium
-12 | File | `/Ap4RtpAtom.cpp` | High
-13 | File | `/app/options.py` | High
-14 | File | `/artist-display.php` | High
-15 | File | `/bcms/admin/?page=user/list` | High
-16 | File | `/bsms/?page=manage_account` | High
-17 | File | `/cgi-bin/login.cgi` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/nightled.cgi` | High
-20 | File | `/ci_hms/massage_room/edit/1` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/dashboard/reports/logs/view` | High
-23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/etc/hosts` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/fuel/index.php/fuel/logs/items` | High
-28 | File | `/fuel/sitevariables/delete/4` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index/jobfairol/show/` | High
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/manage-apartment.php` | High
-35 | File | `/management/api/rcx_management/global_config_query` | High
-36 | ... | ... | ...
+11 | File | `/admin/students/manage.php` | High
+12 | File | `/ad_js.php` | Medium
+13 | File | `/Ap4RtpAtom.cpp` | High
+14 | File | `/api/RecordingList/DownloadRecord?file=` | High
+15 | File | `/app/options.py` | High
+16 | File | `/artist-display.php` | High
+17 | File | `/bcms/admin/?page=user/list` | High
+18 | File | `/bsms/?page=manage_account` | High
+19 | File | `/cgi-bin/login.cgi` | High
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cgi-bin/nightled.cgi` | High
+22 | File | `/ci_hms/massage_room/edit/1` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/dashboard/reports/logs/view` | High
+25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/etc/hosts` | Medium
+28 | File | `/foms/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/fuel/index.php/fuel/logs/items` | High
+31 | File | `/fuel/sitevariables/delete/4` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index/jobfairol/show/` | High
+37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

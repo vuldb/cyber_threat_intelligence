@@ -61,38 +61,38 @@ ID | Type | Indicator | Confidence
 6 | File | `/bmis/pages/resident/resident.php` | High
 7 | File | `/cgi-bin-sdb/` | High
 8 | File | `/cgi-bin/activate.cgi` | High
-9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/claire_blake` | High
-12 | File | `/core/admin/categories.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/dms/admin/reports/daily_collection_report.php` | High
-15 | File | `/etc/config/cameo` | High
-16 | File | `/export` | Low
-17 | File | `/files.md5` | Medium
-18 | File | `/food/admin/all_users.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/images/` | Medium
-21 | File | `/isms/classes/Users.php` | High
-22 | File | `/login` | Low
-23 | File | `/MagickCore/quantize.c` | High
-24 | File | `/mc` | Low
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/multiux/SaveMailbox` | High
-28 | File | `/ofrs/admin/?page=teams/view_team` | High
-29 | File | `/one_church/userregister.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/panel/configuration/general` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-34 | File | `/SASWebReportStudio/logonAndRender.do` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-37 | File | `/sns/classes/Master.php?f=delete_img` | High
+9 | File | `/cgi-bin/luci/api/auth` | High
+10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+11 | File | `/cgi-bin/uploadWeiXinPic` | High
+12 | File | `/claire_blake` | High
+13 | File | `/core/admin/categories.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dms/admin/reports/daily_collection_report.php` | High
+16 | File | `/etc/config/cameo` | High
+17 | File | `/export` | Low
+18 | File | `/files.md5` | Medium
+19 | File | `/food/admin/all_users.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/images/` | Medium
+22 | File | `/isms/classes/Users.php` | High
+23 | File | `/login` | Low
+24 | File | `/MagickCore/quantize.c` | High
+25 | File | `/mc` | Low
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/multiux/SaveMailbox` | High
+29 | File | `/ofrs/admin/?page=teams/view_team` | High
+30 | File | `/one_church/userregister.php` | High
+31 | File | `/out.php` | Medium
+32 | File | `/panel/configuration/general` | High
+33 | File | `/public/plugins/` | High
+34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+35 | File | `/SASWebReportStudio/logonAndRender.do` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
 38 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

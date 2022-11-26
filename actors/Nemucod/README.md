@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nemucod:
 
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,12 +38,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,45 +53,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-3 | File | `/admin-panel1.php` | High
-4 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/car-rental-management-system/admin/manage_user.php` | High
-9 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/ctpms/admin/?page=applications/view_application` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/extensionsinstruction` | High
-15 | File | `/fuel/index.php/fuel/logs/items` | High
-16 | File | `/fuel/sitevariables/delete/4` | High
-17 | File | `/ifs` | Low
-18 | File | `/include/chart_generator.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/monitoring` | Medium
-21 | File | `/mtms/admin/?page=transaction/send` | High
-22 | File | `/new` | Low
-23 | File | `/proc/<pid>/status` | High
-24 | File | `/public/login.htm` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/question/ask` | High
-27 | File | `/reps/admin/?page=agents/manage_agent` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-31 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-32 | File | `/student-grading-system/rms.php?page=school_year` | High
-33 | File | `/tmp` | Low
-34 | File | `/tos/index.php?app/del` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-37 | File | `/wordpress-gallery-transformation/gallery.php` | High
-38 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/acms/admin/?page=transactions/manage_transaction` | High
+4 | File | `/admin/del.php` | High
+5 | File | `/admin/folderrollpicture/list` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/usermanagement.php` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+12 | File | `/bcms/admin/?page=user/list` | High
+13 | File | `/bin/httpd` | Medium
+14 | File | `/blog/edit` | Medium
+15 | File | `/bsms/?page=manage_account` | High
+16 | File | `/car-rental-management-system/admin/manage_user.php` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/ci_hms/massage_room/edit/1` | High
+20 | File | `/company/down_resume/total/nature` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/ctpms/admin/?page=applications/view_application` | High
+23 | File | `/dashboard/reports/logs/view` | High
+24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/etc/hosts` | Medium
+27 | File | `/fuel/index.php/fuel/logs/items` | High
+28 | File | `/fuel/sitevariables/delete/4` | High
+29 | File | `/goform/setmac` | High
+30 | File | `/goform/SystemCommand` | High
+31 | File | `/goform/wizard_end` | High
+32 | File | `/hospital/hms/admin/patient-search.php` | High
+33 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+34 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

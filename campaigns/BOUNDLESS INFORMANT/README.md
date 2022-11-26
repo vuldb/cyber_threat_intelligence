@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,47 +65,49 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
 5 | File | `/admin.php` | Medium
 6 | File | `/admin/` | Low
-7 | File | `/admin/photo.php` | High
-8 | File | `/anony/mjpg.cgi` | High
-9 | File | `/auth` | Low
-10 | File | `/catcompany.php` | High
-11 | File | `/dashboard/view-chair-list.php` | High
-12 | File | `/etc/hosts` | Medium
-13 | File | `/filemanager/upload.php` | High
-14 | File | `/GponForm/device_Form?script/` | High
-15 | File | `/GponForm/fsetup_Form` | High
-16 | File | `/GponForm/usb_restore_Form?script/` | High
-17 | File | `/html/device-id` | High
-18 | File | `/includes/decorators/global-translations.jsp` | High
-19 | File | `/index.php` | Medium
-20 | File | `/product_list.php` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/see_more_details.php` | High
-23 | File | `/server-status` | High
-24 | File | `/setSystemAdmin` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-27 | File | `/WEB-INF/web.xml` | High
-28 | File | `a2dp_aac_decoder.cc` | High
-29 | File | `actbar3.ocx` | Medium
-30 | File | `adclick.php` | Medium
-31 | File | `addentry.php` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin/executar_login.php` | High
-34 | File | `admin/mcart_xls_import.php` | High
-35 | File | `admin/setting.php` | High
-36 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
-37 | File | `admin/users/add` | High
-38 | File | `administrator/components/com_media/helpers/media.php` | High
-39 | File | `admin_ranks.php` | High
-40 | File | `ajax-actions.php` | High
-41 | File | `ajaxRequest/methodCall.do` | High
-42 | File | `alipay/alipayapi.php` | High
-43 | File | `apcupsd.exe` | Medium
-44 | File | `apply.cgi` | Medium
-45 | ... | ... | ...
+7 | File | `/Admin/add-student.php` | High
+8 | File | `/admin/photo.php` | High
+9 | File | `/anony/mjpg.cgi` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/auth` | Low
+12 | File | `/catcompany.php` | High
+13 | File | `/dashboard/view-chair-list.php` | High
+14 | File | `/ebics-server/ebics.aspx` | High
+15 | File | `/egroupware/index.php` | High
+16 | File | `/etc/hosts` | Medium
+17 | File | `/filemanager/upload.php` | High
+18 | File | `/GponForm/device_Form?script/` | High
+19 | File | `/GponForm/fsetup_Form` | High
+20 | File | `/GponForm/usb_restore_Form?script/` | High
+21 | File | `/html/device-id` | High
+22 | File | `/includes/decorators/global-translations.jsp` | High
+23 | File | `/index.php` | Medium
+24 | File | `/product_list.php` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/see_more_details.php` | High
+27 | File | `/server-status` | High
+28 | File | `/setSystemAdmin` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+31 | File | `/WEB-INF/web.xml` | High
+32 | File | `a2dp_aac_decoder.cc` | High
+33 | File | `actbar3.ocx` | Medium
+34 | File | `adclick.php` | Medium
+35 | File | `addentry.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin/executar_login.php` | High
+38 | File | `admin/mcart_xls_import.php` | High
+39 | File | `admin/setting.php` | High
+40 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+41 | File | `admin/users/add` | High
+42 | File | `administrator/components/com_media/helpers/media.php` | High
+43 | File | `admin_ranks.php` | High
+44 | File | `ajax-actions.php` | High
+45 | File | `ajaxRequest/methodCall.do` | High
+46 | File | `alipay/alipayapi.php` | High
+47 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

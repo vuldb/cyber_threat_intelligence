@@ -61,9 +61,10 @@ ID | Type | Indicator | Confidence
 4 | File | `announcement.php` | High
 5 | File | `attachment.php` | High
 6 | File | `auth-gss2.c` | Medium
-7 | ... | ... | ...
+7 | File | `catalog.asp` | Medium
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

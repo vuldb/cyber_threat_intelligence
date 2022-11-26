@@ -82,17 +82,17 @@ ID | Type | Indicator | Confidence
 18 | File | `/ms/cms/content/list.do` | High
 19 | File | `/orms/` | Low
 20 | File | `/plesk-site-preview/` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/school/model/get_admin_profile.php` | High
-23 | File | `/show_news.php` | High
-24 | File | `/student-grading-system/rms.php?page=grade` | High
-25 | File | `/style/` | Low
-26 | File | `/timeline2.php` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `ABuffer.cpp` | Medium
+21 | File | `/project/PROJECTNAME/reports/` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/school/model/get_admin_profile.php` | High
+24 | File | `/show_news.php` | High
+25 | File | `/student-grading-system/rms.php?page=grade` | High
+26 | File | `/style/` | Low
+27 | File | `/timeline2.php` | High
+28 | File | `/uncpath/` | Medium
 29 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

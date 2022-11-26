@@ -35,8 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -56,49 +55,61 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/reports.php` | High
 9 | File | `/admin/showbad.php` | High
 10 | File | `/admin_page/all-files-update-ajax.php` | High
-11 | File | `/bsms/?page=products` | High
-12 | File | `/cgi-bin/kerbynet` | High
-13 | File | `/cgi-bin/system_mgr.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/dms/admin/reports/daily_collection_report.php` | High
-18 | File | `/ext/phar/phar_object.c` | High
-19 | File | `/filemanager/php/connector.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/get_getnetworkconf.cgi` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/info.cgi` | Medium
-26 | File | `/Items/*/RemoteImages/Download` | High
+11 | File | `/apilog.php` | Medium
+12 | File | `/bsms/?page=products` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/system_mgr.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+17 | File | `/connectors/index.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dms/admin/reports/daily_collection_report.php` | High
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/include/chart_generator.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/info.cgi` | Medium
+25 | File | `/Items/*/RemoteImages/Download` | High
+26 | File | `/items/view_item.php` | High
 27 | File | `/lists/admin/` | High
 28 | File | `/MagickCore/image.c` | High
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/modx/manager/index.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/public/launchNewWindow.jsp` | High
-33 | File | `/replication` | Medium
-34 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-37 | File | `/type.php` | Medium
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/WEB-INF/web.xml` | High
-40 | File | `/Wedding-Management/package_detail.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-42 | File | `4.2.0.CP09` | Medium
-43 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-44 | File | `802dot1xclientcert.cgi` | High
-45 | File | `a2billing/customer/iridium_threed.php` | High
-46 | File | `AdClass.php` | Medium
-47 | File | `adclick.php` | Medium
-48 | File | `add.exe` | Low
-49 | File | `admin.php?m=Food&a=addsave` | High
-50 | File | `admin/conf_users_edit.php` | High
-51 | ... | ... | ...
+29 | File | `/manager/index.php` | High
+30 | File | `/medical/inventories.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/modx/manager/index.php` | High
+36 | File | `/newsDia.php` | Medium
+37 | File | `/out.php` | Medium
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/sacco_shield/manage_user.php` | High
+40 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+43 | File | `/staff/bookdetails.php` | High
+44 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+45 | File | `/user/update_booking.php` | High
+46 | File | `/usr/bin/pkexec` | High
+47 | File | `/WEB-INF/web.xml` | High
+48 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+49 | File | `/Wedding-Management/package_detail.php` | High
+50 | File | `/wordpress/wp-admin/options-general.php` | High
+51 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+52 | File | `a2billing/customer/iridium_threed.php` | High
+53 | File | `AdClass.php` | Medium
+54 | File | `adclick.php` | Medium
+55 | File | `add.exe` | Low
+56 | File | `addtocart.asp` | High
+57 | File | `admin.php` | Medium
+58 | File | `admin.php?m=Food&a=addsave` | High
+59 | File | `admin/conf_users_edit.php` | High
+60 | File | `admin/index.php` | High
+61 | File | `admin/limits.php` | High
+62 | File | `admincp.php` | Medium
+63 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 552 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

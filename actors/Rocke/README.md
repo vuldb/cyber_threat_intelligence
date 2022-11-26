@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,11 +48,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -65,50 +66,47 @@ ID | Type | Indicator | Confidence
 1 | File | `../FILEDIR` | Medium
 2 | File | `.htaccess` | Medium
 3 | File | `/#/CampaignManager/users` | High
-4 | File | `/admin/admin_login.php` | High
-5 | File | `/admin/ajax.php` | High
+4 | File | `/about.php` | Medium
+5 | File | `/admin/admin_login.php` | High
 6 | File | `/admin/login.php` | High
-7 | File | `/bin/sh` | Low
-8 | File | `/CommunitySSORedirect.jsp` | High
-9 | File | `/ctpms/admin/?page=applications/view_application` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/dev/tty` | Medium
-12 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
+7 | File | `/admin/students/view_student.php` | High
+8 | File | `/baseOpLog.do` | High
+9 | File | `/CommunitySSORedirect.jsp` | High
+10 | File | `/coreframe/app/attachment/admin/index.php` | High
+11 | File | `/ctpms/admin/?page=applications/view_application` | High
+12 | File | `/debug/pprof` | Medium
 13 | File | `/etc/quagga` | Medium
 14 | File | `/gaia-job-admin/user/add` | High
-15 | File | `/goform/rlmswitchr_process` | High
-16 | File | `/goforms/rlminfo` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/include/make.php` | High
-19 | File | `/Items/*/RemoteImages/Download` | High
-20 | File | `/login` | Low
-21 | File | `/login.html` | Medium
-22 | File | `/magnoliaPublic/travel/members/login.html` | High
-23 | File | `/member/index/login.html` | High
-24 | File | `/ofrs/admin/?page=user/manage_user` | High
-25 | File | `/p1/p2/:name` | Medium
-26 | File | `/rdms/admin/?page=user/manage_user` | High
-27 | File | `/requests.php` | High
-28 | File | `/saml/login` | Medium
-29 | File | `/ScadaBR/login.htm` | High
-30 | File | `/template/edit` | High
-31 | File | `/upload` | Low
-32 | File | `/upload/localhost` | High
-33 | File | `/var/adm/btmp` | High
-34 | File | `/zbzedit/php/zbz.php` | High
-35 | File | `account/login.php` | High
-36 | File | `ad/login.asp` | Medium
-37 | File | `admin.inc.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin_ping.php` | High
-40 | File | `admin/index.php` | High
-41 | File | `admin/login.asp` | High
-42 | File | `admin/login.php` | High
-43 | File | `admin/navbar.php?action=add_page` | High
-44 | File | `admin/nos/login` | High
-45 | ... | ... | ...
+15 | File | `/goform/setPptpUserList` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/index.php` | Medium
+18 | File | `/Items/*/RemoteImages/Download` | High
+19 | File | `/login` | Low
+20 | File | `/member/index/login.html` | High
+21 | File | `/ofrs/admin/?page=user/manage_user` | High
+22 | File | `/p1/p2/:name` | Medium
+23 | File | `/rdms/admin/?page=user/manage_user` | High
+24 | File | `/recreate.php` | High
+25 | File | `/redbin/rpwebutilities.exe/text` | High
+26 | File | `/requests.php` | High
+27 | File | `/saml/login` | Medium
+28 | File | `/ScadaBR/login.htm` | High
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+31 | File | `/template/edit` | High
+32 | File | `/upload` | Low
+33 | File | `/upload/localhost` | High
+34 | File | `/var/adm/btmp` | High
+35 | File | `?location=search` | High
+36 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
+37 | File | `account/login.php` | High
+38 | File | `ad/login.asp` | Medium
+39 | File | `add-blog.php` | Medium
+40 | File | `admin.php` | Medium
+41 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
+42 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

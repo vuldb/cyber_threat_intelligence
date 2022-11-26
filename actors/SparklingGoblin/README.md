@@ -14,9 +14,12 @@ The following _campaigns_ are known and can be associated with SparklingGoblin:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SparklingGoblin:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | SideWalk | High
-2 | [104.21.49.220](https://vuldb.com/?ip.104.21.49.220) | - | SideWalk | High
-3 | [193.38.54.110](https://vuldb.com/?ip.193.38.54.110) | 4ser-1637423172.4server.su | SideWalk | High
+1 | [66.42.103.222](https://vuldb.com/?ip.66.42.103.222) | 66.42.103.222.vultrusercontent.com | - | High
+2 | [80.85.155.80](https://vuldb.com/?ip.80.85.155.80) | svr4.pcloud.ru.g.kwwwy.com | SideWalk | High
+3 | [104.21.49.220](https://vuldb.com/?ip.104.21.49.220) | - | SideWalk | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,9 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,12 +53,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `FileDownload.jsp` | High
-2 | File | `gallery.php` | Medium
-3 | File | `Illuminate/Validation/Concerns/ValidatesAttributes.php` | High
+1 | File | `admin/write-post.php` | High
+2 | File | `FileDownload.jsp` | High
+3 | File | `gallery.php` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

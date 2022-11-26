@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -43,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -65,40 +65,41 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/login.php` | High
 5 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
 6 | File | `/api/document/<DocumentID>/attachments` | High
-7 | File | `/bin/sh` | Low
-8 | File | `/blog/edit` | Medium
-9 | File | `/cgi-bin/uploadWeiXinPic` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/core/admin/categories.php` | High
-12 | File | `/coreframe/app/order/admin/card.php` | High
-13 | File | `/dms/admin/reports/daily_collection_report.php` | High
-14 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
-15 | File | `/eshop/products/json/aouCustomerAdresse` | High
-16 | File | `/etc/config/cameo` | High
-17 | File | `/etc/environment` | High
-18 | File | `/extensionsinstruction` | High
-19 | File | `/food/admin/all_users.php` | High
-20 | File | `/goform/PowerSaveSet` | High
-21 | File | `/goform/SetClientState` | High
-22 | File | `/goform/SetFirewallCfg` | High
-23 | File | `/goform/setWorkmode` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/goods/getGoodsListByConditions/` | High
-26 | File | `/includes/lib/tree.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/isms/classes/Users.php` | High
-29 | File | `/lists/index.php` | High
-30 | File | `/MagickCore/quantize.c` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/member/index/login.html` | High
-33 | File | `/members/view_member.php` | High
-34 | File | `/moddable/xs/sources/xsScript.c` | High
-35 | File | `/moddable/xs/sources/xsSymbol.c` | High
-36 | File | `/nagioslogserver/configure/create_snapshot` | High
-37 | File | `/nova/bin/lcdstat` | High
-38 | File | `/ofrs/admin/?page=teams/view_team` | High
-39 | File | `/ordering/index.php?q=category` | High
-40 | ... | ... | ...
+7 | File | `/blog/edit` | Medium
+8 | File | `/cgi-bin/uploadWeiXinPic` | High
+9 | File | `/classes/Master.php?f=delete_category` | High
+10 | File | `/core/admin/categories.php` | High
+11 | File | `/coreframe/app/order/admin/card.php` | High
+12 | File | `/dms/admin/reports/daily_collection_report.php` | High
+13 | File | `/eshop/products/json/aouCustomerAdresse` | High
+14 | File | `/etc/config/cameo` | High
+15 | File | `/etc/environment` | High
+16 | File | `/extensionsinstruction` | High
+17 | File | `/food/admin/all_users.php` | High
+18 | File | `/goform/PowerSaveSet` | High
+19 | File | `/goform/SetClientState` | High
+20 | File | `/goform/SetFirewallCfg` | High
+21 | File | `/goform/setWorkmode` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/goods/getGoodsListByConditions/` | High
+24 | File | `/index.php` | Medium
+25 | File | `/isms/classes/Users.php` | High
+26 | File | `/lists/index.php` | High
+27 | File | `/member/index/login.html` | High
+28 | File | `/members/view_member.php` | High
+29 | File | `/moddable/xs/sources/xsScript.c` | High
+30 | File | `/moddable/xs/sources/xsSymbol.c` | High
+31 | File | `/nagioslogserver/configure/create_snapshot` | High
+32 | File | `/nova/bin/lcdstat` | High
+33 | File | `/ofrs/admin/?page=teams/view_team` | High
+34 | File | `/ordering/index.php?q=category` | High
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+37 | File | `/rest/api/2/user/picker` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+40 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+41 | ... | ... | ...
 
 There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

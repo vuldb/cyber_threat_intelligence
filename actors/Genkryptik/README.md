@@ -4,6 +4,17 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.genkryptik](https://vuldb.com/?actor.genkryptik)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Genkryptik:
+
+* [US](https://vuldb.com/?country.us)
+* [ME](https://vuldb.com/?country.me)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Genkryptik.
@@ -11,12 +22,48 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+2 | [79.134.225.5](https://vuldb.com/?ip.79.134.225.5) | - | - | High
+3 | [79.134.225.125](https://vuldb.com/?ip.79.134.225.125) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 11 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Genkryptik_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Genkryptik. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/etc/sudoers` | Medium
+2 | File | `/uncpath/` | Medium
+3 | File | `admin.php?reqGadget=Components&reqAction=InstallGadget&comp=FileBrowser` | High
+4 | File | `cat.php` | Low
+5 | File | `category.cfm` | Medium
+6 | File | `core/lists/PAGING.php` | High
+7 | ... | ... | ...
+
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2018/10/threat-roundup-0928-1005.html
+* https://blog.talosintelligence.com/2019/01/threat-roundup-0118-0125.html
+* https://blog.talosintelligence.com/2020/02/threat-roundup-0131-0207.html
 
 ## Literature
 

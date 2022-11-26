@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
-* [MX](https://vuldb.com/?country.mx)
 * [ES](https://vuldb.com/?country.es)
 
 ## Actors
@@ -53,13 +52,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,25 +66,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/login.php` | High
-2 | File | `/admin/update_expense.php` | High
-3 | File | `/admin/update_expense_category.php` | High
-4 | File | `/api/project` | Medium
-5 | File | `/bibliography/marcsru.php` | High
-6 | File | `/c/macho_reader.c` | High
-7 | File | `/etc/fwupd/redfish.conf` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/file/upload/1` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/issue` | Low
-13 | File | `/kfm/index.php` | High
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/out.php` | Medium
-16 | File | `/plugin/rundeck/webhook/` | High
-17 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/?page=orders/manage_request` | High
+3 | File | `/admin/?page=orders/view_order` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/Admin/dashboard.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/sign/out` | High
+8 | File | `/admin/store.php` | High
+9 | File | `/api/user/password/sent-reset-email` | High
+10 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+11 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+12 | File | `/asms/classes/Master.php?f=delete_service` | High
+13 | File | `/balance/service/list` | High
+14 | File | `/classes/Master.php?f=delete_reservation` | High
+15 | File | `/diag_ping_admin.asp` | High
+16 | File | `/diag_tracert_admin.asp` | High
+17 | File | `/FormLogin` | Medium
+18 | File | `/index.php?module=global_lists/lists` | High
+19 | ... | ... | ...
 
-There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

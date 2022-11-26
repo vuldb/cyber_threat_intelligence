@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,23 +51,26 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
-3 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-4 | File | `/Home/GetAttachment` | High
-5 | File | `/html/device-id` | High
-6 | File | `/html/devstat.html` | High
-7 | File | `/html/repository` | High
-8 | File | `/modules/projects/vw_files.php` | High
-9 | File | `/nova/bin/console` | High
-10 | File | `/owa/auth/logon.aspx` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/services/config/config.xml` | High
-13 | File | `/services/system/setup.json` | High
-14 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/WEB-INF/web.xml` | High
-17 | ... | ... | ...
+3 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+5 | File | `/Home/GetAttachment` | High
+6 | File | `/html/device-id` | High
+7 | File | `/html/devstat.html` | High
+8 | File | `/html/repository` | High
+9 | File | `/index.php` | Medium
+10 | File | `/members/view_member.php` | High
+11 | File | `/modules/projects/vw_files.php` | High
+12 | File | `/nova/bin/console` | High
+13 | File | `/owa/auth/logon.aspx` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/services/config/config.xml` | High
+16 | File | `/services/system/setup.json` | High
+17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/WEB-INF/web.xml` | High
+20 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

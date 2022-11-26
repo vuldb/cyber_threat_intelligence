@@ -85,7 +85,7 @@ ID | Type | Indicator | Confidence
 31 | File | `admin.htm` | Medium
 32 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

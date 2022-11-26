@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -88,7 +88,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -100,38 +101,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
 2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/conferences/list/` | High
-4 | File | `/admin/edit_admin_details.php?id=admin` | High
-5 | File | `/admin/generalsettings.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/admin/reports.php` | High
-9 | File | `/admin/showbad.php` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/app/options.py` | High
-12 | File | `/bsms/?page=manage_account` | High
-13 | File | `/cgi-bin/login.cgi` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/hosts` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/Items/*/RemoteImages/Download` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/showbad.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/apilog.php` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/cgi-bin/luci/api/wireless` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/connectors/index.php` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/setmac` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/index.php` | Medium
+20 | File | `/items/view_item.php` | High
+21 | File | `/manage-apartment.php` | High
+22 | File | `/manager/index.php` | High
+23 | File | `/medical/inventories.php` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/modules/public/calendar.php` | High
+28 | File | `/MTFWU` | Low
+29 | File | `/newsDia.php` | Medium
 30 | File | `/out.php` | Medium
 31 | File | `/pages/apply_vacancy.php` | High
-32 | ... | ... | ...
+32 | File | `/proc/<PID>/mem` | High
+33 | File | `/proxy` | Low
+34 | File | `/public/launchNewWindow.jsp` | High
+35 | File | `/sacco_shield/manage_user.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+38 | File | `/staff/bookdetails.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/upload` | Low
+41 | File | `/user/update_booking.php` | High
+42 | File | `/vendor/views/add_product.php` | High
+43 | File | `/wabt/bin/poc.wasm` | High
+44 | File | `/WEB-INF/web.xml` | High
+45 | File | `/WebInterface/UserManager/` | High
+46 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+47 | File | `/wordpress/wp-admin/options-general.php` | High
+48 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+49 | File | `ActivityRecord.java` | High
+50 | File | `adclick.php` | Medium
+51 | File | `addtocart.asp` | High
+52 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

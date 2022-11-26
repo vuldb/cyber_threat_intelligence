@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -157,7 +157,8 @@ ID | IP address | Hostname | Actor | Confidence
 121 | [46.246.3.253](https://vuldb.com/?ip.46.246.3.253) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
 122 | [46.246.3.254](https://vuldb.com/?ip.46.246.3.254) | - | [xHunt](https://vuldb.com/?actor.xhunt) | High
 123 | [47.27.63.45](https://vuldb.com/?ip.47.27.63.45) | 047-027-063-045.res.spectrum.com | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
-124 | ... | ... | ... | ...
+124 | [47.58.200.234](https://vuldb.com/?ip.47.58.200.234) | 47-58-200-234.red-acceso.airtel.net | [Bumblebee](https://vuldb.com/?actor.bumblebee) | High
+125 | ... | ... | ... | ...
 
 There are 494 more IOC items available. Please use our online service to access the data.
 
@@ -167,13 +168,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -181,29 +182,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/update_expense.php` | High
-5 | File | `/admin/update_expense_category.php` | High
-6 | File | `/advanced-tools/nova/bin/netwatch` | High
-7 | File | `/api/project` | Medium
-8 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-9 | File | `/cgi-bin/qcmap_auth` | High
+1 | File | `/admin/admin.php` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/Admin/dashboard.php` | High
+4 | File | `/admin/problem_judge.php` | High
+5 | File | `/api/user/password/sent-reset-email` | High
+6 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+8 | File | `/asms/classes/Master.php?f=delete_service` | High
+9 | File | `/balance/service/list` | High
 10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/diagnostic/edittest.php` | High
-12 | File | `/editbrand.php` | High
-13 | File | `/etc/fwupd/redfish.conf` | High
-14 | File | `/etc/shadow` | Medium
-15 | File | `/file/upload/1` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/IISADMPWD` | Medium
-19 | File | `/issue` | Low
-20 | File | `/kfm/index.php` | High
-21 | ... | ... | ...
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/diagnostic/editclient.php` | High
+13 | File | `/diag_ping_admin.asp` | High
+14 | File | `/diag_tracert_admin.asp` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/foms/place-order.php` | High
+17 | File | `/FormLogin` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/lilac/main.php` | High
+20 | File | `/module/report_event/index.php` | High
+21 | File | `/okm:root` | Medium
+22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+23 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+24 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -235,6 +239,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/malware_traffic/status/1537168576162979843
 * https://unit42.paloaltonetworks.com/bumblebee-webshell-xhunt-campaign/
 * https://www.cybereason.com/blog/threat-analysis-report-bumblebee-loader-the-high-road-to-enterprise-domain-control
+* https://www.trendmicro.com/en_us/research/22/i/buzzing-in-the-background-bumblebee-a-new-modular-backdoor-evolv.html
 
 ## Literature
 

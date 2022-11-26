@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,11 +49,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,37 +63,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/alerts/alertConfigField.php` | High
-6 | File | `/API/system/admins/session` | High
-7 | File | `/cgi-bin/ExportALLSettings.sh` | High
-8 | File | `/config/config.php` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-12 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-13 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-14 | File | `/DataHandler/Handler_CFG.ashx` | High
-15 | File | `/ECT_Provider/` | High
-16 | File | `/fuel/index.php/fuel/logs/items` | High
-17 | File | `/fuel/index.php/fuel/pages/items` | High
-18 | File | `/goform/SetNetControlList` | High
-19 | File | `/image_zoom.php` | High
-20 | File | `/include/config.cache.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/plugin/ajax.php` | High
-24 | File | `/preauth` | Medium
-25 | File | `/proxy/` | Low
-26 | File | `/public/plugins/` | High
-27 | File | `/rest/api/2/search` | High
-28 | File | `/rest/api/latest/projectvalidate/key` | High
-29 | File | `/rom-0` | Low
-30 | File | `/spywall/ipchange.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/alerts/alertConfigField.php` | High
+7 | File | `/API/system/admins/session` | High
+8 | File | `/cgi-bin/ExportALLSettings.sh` | High
+9 | File | `/config/config.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+15 | File | `/DataHandler/Handler_CFG.ashx` | High
+16 | File | `/ECT_Provider/` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/index.php/fuel/pages/items` | High
+20 | File | `/image_zoom.php` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mkshop/Men/profile.php` | High
+24 | File | `/plugin/ajax.php` | High
+25 | File | `/preauth` | Medium
+26 | File | `/proxy/` | Low
+27 | File | `/public/plugins/` | High
+28 | File | `/rest/api/2/search` | High
+29 | File | `/rest/api/latest/projectvalidate/key` | High
+30 | File | `/rom-0` | Low
 31 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

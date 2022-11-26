@@ -33,10 +33,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,20 +46,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/generalsettings.php` | High
-3 | File | `/cbpos/` | Low
-4 | File | `/context/%2e/WEB-INF/web.xml` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/plain` | Low
-9 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `admin/admin.shtml` | High
-12 | File | `admin/area.php` | High
-13 | File | `admin/import/class-import-settings.php` | High
-14 | ... | ... | ...
+3 | File | `/Admin/login.php` | High
+4 | File | `/cbpos/` | Low
+5 | File | `/context/%2e/WEB-INF/web.xml` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/plain` | Low
+10 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `admin/admin.shtml` | High
+13 | File | `admin/area.php` | High
+14 | File | `admin/import/class-import-settings.php` | High
+15 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,15 +57,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bin/webserver` | High
-2 | File | `/etc/fstab` | Medium
-3 | File | `/EXCU_SHELL` | Medium
-4 | File | `/tmp/testkeys` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `admin.php?c=adminuser&a=add` | High
-7 | ... | ... | ...
+1 | File | `/admin/?page=inmates/view_inmate` | High
+2 | File | `/admin/?page=system_info` | High
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/add_exercises.php` | High
+5 | File | `/Admin/createClass.php` | High
+6 | File | `/admin/lab.php` | High
+7 | File | `/api/v2/open/rowsInfo` | High
+8 | File | `/bin/webserver` | High
+9 | File | `/cgi-bin/touchlist_sync.cgi` | High
+10 | File | `/ci_spms/admin/category` | High
+11 | File | `/classes/Users.php?f=save` | High
+12 | File | `/dashboard/add-blog.php` | High
+13 | File | `/dashboard/add-portfolio.php` | High
+14 | File | `/dashboard/settings` | High
+15 | File | `/ebics-server/ebics.aspx` | High
+16 | File | `/etc/fstab` | Medium
+17 | File | `/EXCU_SHELL` | Medium
+18 | File | `/guestmanagement/front.php` | High
+19 | File | `/index.php/purchase_order/browse_data` | High
+20 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

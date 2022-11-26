@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chthonic:
 
 * [NL](https://vuldb.com/?country.nl)
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,12 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,35 +77,34 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/category_view.php` | High
-5 | File | `/dev/kmem` | Medium
+4 | File | `/core/conditions/AbstractWrapper.java` | High
+5 | File | `/export` | Low
 6 | File | `/file?action=download&file` | High
 7 | File | `/medical/inventories.php` | High
 8 | File | `/monitoring` | Medium
 9 | File | `/NAGErrors` | Medium
-10 | File | `/plugins/servlet/audit/resource` | High
-11 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-12 | File | `/replication` | Medium
-13 | File | `/RestAPI` | Medium
-14 | File | `/tmp` | Low
-15 | File | `/tmp/speedtest_urls.xml` | High
-16 | File | `/tmp/zarafa-vacation-*` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `/var/log/nginx` | High
-20 | File | `/wp-admin/admin.php` | High
-21 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-22 | File | `admin/index.php` | High
-23 | File | `admin\model\catalog\download.php` | High
-24 | File | `apcupsd.pid` | Medium
-25 | File | `api/sms/send-sms` | High
-26 | File | `api/v1/alarms` | High
-27 | File | `application/controller/InstallerController.php` | High
-28 | File | `apport/hookutils.py` | High
-29 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-30 | ... | ... | ...
+10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+11 | File | `/plugin/LiveChat/getChat.json.php` | High
+12 | File | `/plugins/servlet/audit/resource` | High
+13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+14 | File | `/replication` | Medium
+15 | File | `/RestAPI` | Medium
+16 | File | `/tmp` | Low
+17 | File | `/tmp/speedtest_urls.xml` | High
+18 | File | `/tmp/zarafa-vacation-*` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload` | Low
+21 | File | `/var/log/nginx` | High
+22 | File | `/var/run/watchman.pid` | High
+23 | File | `/viewer/krpano.html` | High
+24 | File | `/wp-json/oembed/1.0/embed?url` | High
+25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+26 | File | `admin\model\catalog\download.php` | High
+27 | File | `AdxDSrv.exe` | Medium
+28 | File | `apcupsd.pid` | Medium
+29 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

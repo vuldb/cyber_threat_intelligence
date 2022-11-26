@@ -53,11 +53,11 @@ ID | Type | Indicator | Confidence
 4 | File | `/real-estate-script/search_property.php` | High
 5 | File | `/reps/classes/Users.php?f=delete_agent` | High
 6 | File | `/uncpath/` | Medium
-7 | File | `app/topic/action/admin/topic.php` | High
-8 | File | `category.asp` | Medium
+7 | File | `Admin/edit-admin.php` | High
+8 | File | `app/topic/action/admin/topic.php` | High
 9 | ... | ... | ...
 
-There are 64 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

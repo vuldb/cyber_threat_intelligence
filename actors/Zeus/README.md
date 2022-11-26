@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.zeus](https://vuldb.com/?actor.zeus)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Zeus:
+
+* ZeusEsta
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeus:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -76,7 +82,7 @@ ID | IP address | Hostname | Campaign | Confidence
 53 | [66.180.118.226](https://vuldb.com/?ip.66.180.118.226) | 66-180-118-226.customerip.birch.net | - | High
 54 | ... | ... | ... | ...
 
-There are 210 more IOC items available. Please use our online service to access the data.
+There are 212 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -88,8 +94,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -117,22 +122,22 @@ ID | Type | Indicator | Confidence
 16 | File | `/fuel/index.php/fuel/logs/items` | High
 17 | File | `/fuel/sitevariables/delete/4` | High
 18 | File | `/goform/setmac` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/index/jobfairol/show/` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/manage-apartment.php` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-25 | File | `/objects/getImageMP4.php` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/proc/<PID>/mem` | High
-28 | File | `/proc/<pid>/status` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/objects/getImageMP4.php` | High
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/proc/<PID>/mem` | High
 29 | File | `/public/plugins/` | High
 30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 31 | File | `/secure/QueryComponent!Default.jspa` | High
 32 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,6 +147,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0304-0311.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
+* https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
+* https://ddanchev.blogspot.com/2022/11/profiling-zeusesta-managed-zeus.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_zeus.netset
 * https://isc.sans.edu/forums/diary/Recent+Emotet+activity/23908/
 * https://twitter.com/RakeshKrish12/status/1204571340096724993

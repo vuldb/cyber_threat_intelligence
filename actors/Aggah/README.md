@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aggah:
 
 * [US](https://vuldb.com/?country.us)
+* [PL](https://vuldb.com/?country.pl)
 
 ## IOC - Indicator of Compromise
 
@@ -17,6 +18,26 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [103.125.190.248](https://vuldb.com/?ip.103.125.190.248) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Aggah_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1202 | CWE-77 | Command Injection | High
+3 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Aggah. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `index.php` | Medium
+2 | Argument | `id` | Low
+3 | Argument | `wd` | Low
 
 ## References
 

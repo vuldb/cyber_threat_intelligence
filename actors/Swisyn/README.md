@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Swisyn:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
@@ -57,31 +57,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/vod/admin/topic/del` | High
-2 | File | `/admin.php?action=themeinstall` | High
-3 | File | `/admin/admapi.php` | High
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/posts.php&action=edit` | High
-7 | File | `/admin/sysmon.php` | High
-8 | File | `/admin/update_expense.php` | High
-9 | File | `/api/v1/chat.getThreadsList` | High
-10 | File | `/base/ecma-helpers-string.c` | High
-11 | File | `/blog/edit` | Medium
-12 | File | `/cimom` | Low
-13 | File | `/ci_spms/admin/search/searching/` | High
-14 | File | `/classes/Master.php?f=delete_student` | High
-15 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-16 | File | `/etc/sysconfig/tomcat` | High
-17 | File | `/fantasticblog/single.php` | High
-18 | File | `/goform/aspForm` | High
-19 | File | `/goform/delIpMacBind/` | High
-20 | File | `/goform/SetLEDCfg` | High
-21 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-22 | File | `/htdocs/utils/Files.php` | High
-23 | ... | ... | ...
+1 | File | `/action/import_e2c_json_file/` | High
+2 | File | `/admin.php/vod/admin/topic/del` | High
+3 | File | `/admin.php?action=themeinstall` | High
+4 | File | `/admin/admapi.php` | High
+5 | File | `/admin/config.php?display=disa&view=form` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/posts.php&action=edit` | High
+8 | File | `/admin/sysmon.php` | High
+9 | File | `/admin/update_expense.php` | High
+10 | File | `/api/v1/chat.getThreadsList` | High
+11 | File | `/balance/service/list` | High
+12 | File | `/base/ecma-helpers-string.c` | High
+13 | File | `/blog/edit` | Medium
+14 | File | `/cimom` | Low
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/classes/Master.php?f=delete_student` | High
+17 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+18 | File | `/etc/sysconfig/tomcat` | High
+19 | File | `/fantasticblog/single.php` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/goform/delIpMacBind/` | High
+22 | File | `/goform/SetLEDCfg` | High
+23 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+24 | File | `/htdocs/utils/Files.php` | High
+25 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -4,23 +4,85 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.wiper](https://vuldb.com/?actor.wiper)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wiper:
+
+* [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Wiper.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [58.185.154.99](https://vuldb.com/?ip.58.185.154.99) | - | - | High
-2 | [88.53.215.64](https://vuldb.com/?ip.88.53.215.64) | 88-53-215-64.wdsl.neomedia.it | - | High
-3 | [200.87.126.116](https://vuldb.com/?ip.200.87.126.116) | - | - | High
-4 | ... | ... | ... | ...
+1 | [2.230.110.137](https://vuldb.com/?ip.2.230.110.137) | 2-230-110-137.ip201.fastwebnet.it | - | High
+2 | [24.199.247.222](https://vuldb.com/?ip.24.199.247.222) | webmail.capefearclinic.org | - | High
+3 | [37.71.147.186](https://vuldb.com/?ip.37.71.147.186) | 186.147.71.37.rev.sfr.net | - | High
+4 | [37.99.163.162](https://vuldb.com/?ip.37.99.163.162) | mail.futuregrp.org | - | High
+5 | [50.255.126.65](https://vuldb.com/?ip.50.255.126.65) | 50-255-126-65-static.hfc.comcastbusiness.net | - | High
+6 | [58.185.154.99](https://vuldb.com/?ip.58.185.154.99) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Wiper_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 18 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Wiper. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/doorgets/app/views/ajax/commentView.php` | High
+2 | File | `/etc/passwd` | Medium
+3 | File | `/index.php` | Medium
+4 | File | `/rom-0` | Low
+5 | File | `/tmp` | Low
+6 | File | `/uncpath/` | Medium
+7 | File | `AbstractController.php` | High
+8 | File | `ActBar.ocx` | Medium
+9 | File | `adclick.php` | Medium
+10 | File | `add_comment.php` | High
+11 | File | `add_ons.php` | Medium
+12 | File | `admin.comms.php` | High
+13 | File | `admin.php` | Medium
+14 | File | `admin/bad.php` | High
+15 | File | `admincp.php?app=user&do=save` | High
+16 | File | `ajax.php?type=../admin-panel/autoload&page=manage-users` | High
+17 | File | `apc.php` | Low
+18 | File | `auction.cgi` | Medium
+19 | File | `base_maintenance.php` | High
+20 | File | `cgi-bin/` | Medium
+21 | File | `cmd/gpt.c` | Medium
+22 | File | `comment_add.asp` | High
+23 | ... | ... | ...
+
+There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2022/03/04/ongoing-cyberwarfare-a-look-at-the-key-cyberattacks/
+* https://blog.cyble.com/2022/03/11/ongoing-russia-ukraine-warfare-significant-cyber-incidents/
 * https://www.threatminer.org/report.php?q=TA14-353A_wiper.pdf&y=2014
 
 ## Literature

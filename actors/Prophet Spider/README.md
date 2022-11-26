@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [IT](https://vuldb.com/?country.it)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,28 +61,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=orders/view_order` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/client_assign.php` | High
-4 | File | `/admin/client_edit.php` | High
-5 | File | `/admin/feature_edit.php` | High
-6 | File | `/admin/select.php` | High
-7 | File | `/admin/settings.php` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/admin/update_currency.php` | High
-10 | File | `/admin/up_booking.php` | High
-11 | File | `/authUserAction!edit.action` | High
-12 | File | `/buspassms/download-pass.php` | High
-13 | File | `/category.php` | High
-14 | File | `/cgi-bin/cstecgi.cgi` | High
-15 | File | `/csms/admin/?page=user/manage_user` | High
-16 | File | `/csms/admin/storages/manage_storage.php` | High
-17 | File | `/csms/admin/storages/view_storage.php` | High
-18 | File | `/DesignTools/CssEditor.aspx` | High
-19 | File | `/diagnostic/editcategory.php` | High
-20 | ... | ... | ...
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/admin/controller/JobLogController.java` | High
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+10 | File | `/asms/admin/?page=user/manage_user` | High
+11 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+12 | File | `/asms/classes/Master.php?f=delete_service` | High
+13 | File | `/attachments` | Medium
+14 | File | `/avms/index.php` | High
+15 | File | `/clients/profile` | High
+16 | File | `/College/admin/teacher.php` | High
+17 | File | `/dashboard/add-service.php` | High
+18 | File | `/dede/file_manage_control.php` | High
+19 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+20 | File | `/index.php/admins/Fields/get_fields.html` | High
+21 | File | `/js/player/dmplayer/dmku/index.php` | High
+22 | File | `/login.php` | Medium
+23 | File | `/mgm_dev_upgrade.asp` | High
+24 | File | `/pages/save_user.php` | High
+25 | File | `/php-sms/admin/?page=user/manage_user` | High
+26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+27 | File | `/php_action/fetchSelectedCategories.php` | High
+28 | File | `/psrs/admin/categories/manage_category.php` | High
+29 | File | `/register/abort` | High
+30 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
