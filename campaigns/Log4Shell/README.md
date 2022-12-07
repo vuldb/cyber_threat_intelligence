@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -115,37 +115,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/factory` | High
 3 | File | `/admin/?page=bookings/view_details` | High
 4 | File | `/admin/add-fee.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/settings.php` | High
-9 | File | `/admin/sign/out` | High
-10 | File | `/api/geojson` | Medium
-11 | File | `/api/v1/attack` | High
-12 | File | `/api/v1/attack/falco` | High
-13 | File | `/api/v1/attack/token` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/attachments` | Medium
-16 | File | `/authUserAction!edit.action` | High
-17 | File | `/baseOpLog.do` | High
-18 | File | `/buspassms/download-pass.php` | High
-19 | File | `/category.php` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Users.php?f=delete_client` | High
-23 | File | `/clearance/clearance.php` | High
-24 | File | `/csms/admin/?page=user/manage_user` | High
-25 | File | `/DesignTools/CssEditor.aspx` | High
-26 | File | `/dev/shm` | Medium
-27 | File | `/diagnostic/editclient.php` | High
-28 | File | `/diagnostic/edittest.php` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/controller/JobLogController.java` | High
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/edit_members.php` | High
+9 | File | `/admin/pages/sections_save.php` | High
+10 | File | `/admin/settings.php` | High
+11 | File | `/admin/sign/out` | High
+12 | File | `/api/geojson` | Medium
+13 | File | `/api/v1/attack` | High
+14 | File | `/api/v1/attack/falco` | High
+15 | File | `/api/v1/attack/token` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/asms/admin/products/manage_product.php` | High
+18 | File | `/attachments` | Medium
+19 | File | `/bsms_ci/index.php` | High
+20 | File | `/bsms_ci/index.php/user/edit_user/` | High
+21 | File | `/calendar/viewcalendar.php` | High
+22 | File | `/category.php` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Users.php?f=delete_client` | High
+25 | File | `/clearance/clearance.php` | High
+26 | File | `/clients/listclients.php` | High
+27 | File | `/csms/admin/?page=user/manage_user` | High
+28 | File | `/dev/shm` | Medium
 29 | File | `/etc/openshift/server_priv.pem` | High
-30 | File | `/file/upload/1` | High
-31 | File | `/goform/SetPptpServerCfg` | High
-32 | File | `/h/search?action=voicemail&action=listen` | High
-33 | ... | ... | ...
+30 | File | `/event/admin/?page=user/list` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/forums/editforum.php` | High
+33 | File | `/goform/setDiagnoseInfo` | High
+34 | File | `/goform/SetIpMacBind` | High
+35 | File | `/goform/SetPptpServerCfg` | High
+36 | File | `/goform/setUplinkInfo` | High
+37 | File | `/h/search?action=voicemail&action=listen` | High
+38 | File | `/hospital/hms/admin/patient-search.php` | High
+39 | File | `/hrm/employeeadd.php` | High
+40 | File | `/hrm/employeeview.php` | High
+41 | File | `/index.php/admins/Fields/get_fields.html` | High
+42 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -110,10 +110,9 @@ ID | Type | Indicator | Confidence
 29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 30 | File | `/secure/admin/ViewInstrumentation.jspa` | High
 31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-33 | ... | ... | ...
+32 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

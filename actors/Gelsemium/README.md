@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
 
@@ -18,7 +19,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [149.248.14.53](https://vuldb.com/?ip.149.248.14.53) | 149.248.14.53.vultr.com | - | Medium
-2 | [210.209.72.180](https://vuldb.com/?ip.210.209.72.180) | - | - | High
+2 | [202.182.123.185](https://vuldb.com/?ip.202.182.123.185) | 202.182.123.185.vultrusercontent.com | - | High
+3 | [207.148.109.111](https://vuldb.com/?ip.207.148.109.111) | 207.148.109.111.vultrusercontent.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1202 | CWE-77 | Command Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,15 +46,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/public/login.htm` | High
-3 | File | `iesfootprint.jsp` | High
+3 | File | `admin.php` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/62c2879682df417ed033135b
 * https://github.com/eset/malware-ioc/tree/master/gelsemium
 
 ## Literature

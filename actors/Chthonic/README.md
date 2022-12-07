@@ -77,34 +77,33 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/core/conditions/AbstractWrapper.java` | High
-5 | File | `/export` | Low
-6 | File | `/file?action=download&file` | High
-7 | File | `/medical/inventories.php` | High
-8 | File | `/monitoring` | Medium
-9 | File | `/NAGErrors` | Medium
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/plugin/LiveChat/getChat.json.php` | High
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/replication` | Medium
-15 | File | `/RestAPI` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/tmp/speedtest_urls.xml` | High
-18 | File | `/tmp/zarafa-vacation-*` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/var/log/nginx` | High
-22 | File | `/var/run/watchman.pid` | High
-23 | File | `/viewer/krpano.html` | High
-24 | File | `/wp-json/oembed/1.0/embed?url` | High
-25 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-26 | File | `admin\model\catalog\download.php` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/core/conditions/AbstractWrapper.java` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/export` | Low
+8 | File | `/file?action=download&file` | High
+9 | File | `/medical/inventories.php` | High
+10 | File | `/monitoring` | Medium
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/plugin/LiveChat/getChat.json.php` | High
+13 | File | `/plugins/servlet/audit/resource` | High
+14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+15 | File | `/replication` | Medium
+16 | File | `/RestAPI` | Medium
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
+22 | File | `/var/log/nginx` | High
+23 | File | `/var/run/watchman.pid` | High
+24 | File | `/viewer/krpano.html` | High
+25 | File | `/wp-json/oembed/1.0/embed?url` | High
+26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
 27 | File | `AdxDSrv.exe` | Medium
-28 | File | `apcupsd.pid` | Medium
-29 | ... | ... | ...
+28 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

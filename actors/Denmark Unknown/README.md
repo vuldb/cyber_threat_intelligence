@@ -396,14 +396,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -411,63 +411,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/iperf` | High
-2 | File | `/action/wirelessConnect` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/Admin/login.php` | High
+1 | File | `.../gogo/` | Medium
+2 | File | `/action/iperf` | High
+3 | File | `/action/wirelessConnect` | High
+4 | File | `/Admin/dashboard.php` | High
 5 | File | `/admin/sign/out` | High
 6 | File | `/admin/students/manage.php` | High
 7 | File | `/api/discoveries/` | High
-8 | File | `/api/user/upsert/<uuid>` | High
-9 | File | `/api/v1/attack` | High
-10 | File | `/api/v1/attack/falco` | High
-11 | File | `/api/v1/attack/token` | High
-12 | File | `/api/v1/bait/set` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/api/v2/open/tablesInfo` | High
-15 | File | `/apilog.php` | Medium
-16 | File | `/balance/service/list` | High
-17 | File | `/bin/proc.cgi` | High
-18 | File | `/buspassms/download-pass.php` | High
-19 | File | `/category.php` | High
-20 | File | `/changePassword` | High
-21 | File | `/connectors/index.php` | High
-22 | File | `/Core/Ap4File.cpp` | High
-23 | File | `/csms/admin/?page=user/manage_user` | High
-24 | File | `/depotHead/list` | High
-25 | File | `/ebics-server/ebics.aspx` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/form2WizardStep4` | High
-28 | File | `/goform/formSetClientState` | High
-29 | File | `/goform/fromSetIpMacBind` | High
-30 | File | `/h/calendar` | Medium
-31 | File | `/h/compose` | Medium
-32 | File | `/h/search?action=voicemail&action=listen` | High
-33 | File | `/index.asp` | Medium
-34 | File | `/index.php` | Medium
-35 | File | `/index.php/purchase_order/browse_data` | High
-36 | File | `/items/view_item.php` | High
-37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-38 | File | `/lilac/main.php` | High
-39 | File | `/login` | Low
-40 | File | `/manager/index.php` | High
-41 | File | `/medical/inventories.php` | High
-42 | File | `/module/admin_bp/add_application.php` | High
-43 | File | `/modules/profile/index.php` | High
-44 | File | `/modules/projects/vw_files.php` | High
-45 | File | `/modules/public/calendar.php` | High
-46 | File | `/newsDia.php` | Medium
-47 | File | `/omos/admin/?page=user/list` | High
-48 | File | `/opac/Actions.php?a=login` | High
-49 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-50 | File | `/out.php` | Medium
-51 | File | `/php-sms/admin/` | High
-52 | File | `/php-sms/classes/Master.php` | High
-53 | File | `/php-sms/classes/SystemSettings.php` | High
-54 | File | `/php_action/createOrder.php` | High
-55 | ... | ... | ...
+8 | File | `/api/v1/attack` | High
+9 | File | `/api/v1/attack/falco` | High
+10 | File | `/api/v1/attack/token` | High
+11 | File | `/api/v1/bait/set` | High
+12 | File | `/api/v2/open/rowsInfo` | High
+13 | File | `/api/v2/open/tablesInfo` | High
+14 | File | `/balance/service/list` | High
+15 | File | `/bin/proc.cgi` | High
+16 | File | `/category.php` | High
+17 | File | `/Core/Ap4File.cpp` | High
+18 | File | `/csms/admin/?page=user/manage_user` | High
+19 | File | `/depotHead/list` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/form2WizardStep4` | High
+22 | File | `/goform/formSetClientState` | High
+23 | File | `/goform/fromSetIpMacBind` | High
+24 | File | `/goform/setSysAdm` | High
+25 | File | `/h/compose` | Medium
+26 | File | `/index.asp` | Medium
+27 | File | `/index.php` | Medium
+28 | File | `/index.php/purchase_order/browse_data` | High
+29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+30 | File | `/lilac/main.php` | High
+31 | File | `/login` | Low
+32 | File | `/module/admin_bp/add_application.php` | High
+33 | File | `/newsDia.php` | Medium
+34 | File | `/omos/admin/?page=user/list` | High
+35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+36 | File | `/out.php` | Medium
+37 | File | `/pages/processlogin.php` | High
+38 | File | `/php-sms/admin/` | High
+39 | File | `/php-sms/classes/Master.php` | High
+40 | File | `/php-sms/classes/SystemSettings.php` | High
+41 | File | `/plugin/getList` | High
+42 | File | `/Redcock-Farm/farm/category.php` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/tmp` | Low
+45 | File | `/transcation.php` | High
+46 | File | `/user/update_booking.php` | High
+47 | File | `/usr/bin/pkexec` | High
+48 | File | `/usr/sbin/httpd` | High
+49 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

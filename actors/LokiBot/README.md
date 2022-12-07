@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -127,43 +127,43 @@ ID | Type | Indicator | Confidence
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
 3 | File | `/adfs/ls` | Medium
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/users_add.php` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/appConfig/userDB.json` | High
-9 | File | `/bd_genie_create_account.cgi` | High
-10 | File | `/c/macho_reader.c` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/claire_blake` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/defaultui/player/modern.html` | High
-18 | File | `/etc/hosts` | Medium
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/settings/save.php` | High
+7 | File | `/admin/users_add.php` | High
+8 | File | `/administration/settings_registration.php` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/appConfig/userDB.json` | High
+11 | File | `/bd_genie_create_account.cgi` | High
+12 | File | `/c/macho_reader.c` | High
+13 | File | `/cgi-bin/luci/api/wireless` | High
+14 | File | `/claire_blake` | High
+15 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/defaultui/player/modern.html` | High
 19 | File | `/etc/init0.d/S80telnetd.sh` | High
 20 | File | `/etc/shadow.sample` | High
 21 | File | `/foms/place-order.php` | High
 22 | File | `/forum/away.php` | High
-23 | File | `/ghost/preview` | High
-24 | File | `/goform/SetIpMacBind` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/wizard_end` | High
-27 | File | `/htdocs/utils/Files.php` | High
-28 | File | `/index.asp` | Medium
-29 | File | `/jfinal_cms/system/role/list` | High
-30 | File | `/librarian/edit_book_details.php` | High
-31 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-32 | File | `/manage-apartment.php` | High
-33 | File | `/master/index.php` | High
-34 | File | `/mkshop/Men/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/pages/faculty_sched.php` | High
-39 | File | `/pages/processlogin.php` | High
-40 | File | `/php_action/createUser.php` | High
+23 | File | `/goform/SetIpMacBind` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/htdocs/utils/Files.php` | High
+27 | File | `/index.asp` | Medium
+28 | File | `/jfinal_cms/system/role/list` | High
+29 | File | `/librarian/edit_book_details.php` | High
+30 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+31 | File | `/manage-apartment.php` | High
+32 | File | `/master/index.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+36 | File | `/pages/apply_vacancy.php` | High
+37 | File | `/pages/faculty_sched.php` | High
+38 | File | `/pages/processlogin.php` | High
+39 | File | `/php_action/createUser.php` | High
+40 | File | `/proxy` | Low
 41 | ... | ... | ...
 
 There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

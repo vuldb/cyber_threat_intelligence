@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with XBash:
 
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -54,36 +55,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/account/login` | High
 4 | File | `/adherents/note.php?id=1` | High
 5 | File | `/admin/ajax.php` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/cgi-bin/cgiServer.exx` | High
-8 | File | `/cgi?1&5` | Medium
-9 | File | `/clients/editclient.php` | High
-10 | File | `/CommunitySSORedirect.jsp` | High
-11 | File | `/ctpms/admin/?page=applications/view_application` | High
-12 | File | `/dl/dl_sendmail.php` | High
-13 | File | `/formStaticDHCP` | High
-14 | File | `/formVirtualApp` | High
-15 | File | `/formVirtualServ` | High
-16 | File | `/goform/rlmswitchr_process` | High
-17 | File | `/goforms/rlminfo` | High
-18 | File | `/include/make.php` | High
-19 | File | `/jsonrpc` | Medium
-20 | File | `/magnoliaAuthor/.magnolia/` | High
-21 | File | `/master/core/PostHandler.php` | High
-22 | File | `/medianet/sgcontentset.aspx` | High
-23 | File | `/Nodes-Traffic.php` | High
-24 | File | `/proc/pid/syscall` | High
-25 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-26 | File | `/rss.xml` | Medium
-27 | File | `/settings/profile` | High
-28 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/charger_ic/oppo_mp2650.c` | High
-29 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-30 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_vooc.c` | High
-31 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
-32 | File | `/tmp/swhks.pid` | High
+6 | File | `/Admin/dashboard.php` | High
+7 | File | `/Api/ASF` | Medium
+8 | File | `/cgi-bin/cgiServer.exx` | High
+9 | File | `/cgi?1&5` | Medium
+10 | File | `/clients/editclient.php` | High
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/ctpms/admin/?page=applications/view_application` | High
+13 | File | `/dl/dl_sendmail.php` | High
+14 | File | `/formStaticDHCP` | High
+15 | File | `/formVirtualApp` | High
+16 | File | `/formVirtualServ` | High
+17 | File | `/goform/form2WizardStep4` | High
+18 | File | `/goform/rlmswitchr_process` | High
+19 | File | `/goforms/rlminfo` | High
+20 | File | `/include/make.php` | High
+21 | File | `/jsonrpc` | Medium
+22 | File | `/magnoliaAuthor/.magnolia/` | High
+23 | File | `/master/core/PostHandler.php` | High
+24 | File | `/medianet/sgcontentset.aspx` | High
+25 | File | `/Nodes-Traffic.php` | High
+26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+27 | File | `/proc/pid/syscall` | High
+28 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+29 | File | `/rss.xml` | Medium
+30 | File | `/settings/profile` | High
+31 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/charger_ic/oppo_mp2650.c` | High
+32 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
 33 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

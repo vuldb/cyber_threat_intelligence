@@ -52,8 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -65,48 +64,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `../FILEDIR` | Medium
 2 | File | `.htaccess` | Medium
-3 | File | `/#/CampaignManager/users` | High
-4 | File | `/about.php` | Medium
-5 | File | `/admin/admin_login.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/students/view_student.php` | High
-8 | File | `/baseOpLog.do` | High
-9 | File | `/CommunitySSORedirect.jsp` | High
-10 | File | `/coreframe/app/attachment/admin/index.php` | High
-11 | File | `/ctpms/admin/?page=applications/view_application` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/quagga` | Medium
-14 | File | `/gaia-job-admin/user/add` | High
-15 | File | `/goform/setPptpUserList` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/index.php` | Medium
-18 | File | `/Items/*/RemoteImages/Download` | High
-19 | File | `/login` | Low
-20 | File | `/member/index/login.html` | High
-21 | File | `/ofrs/admin/?page=user/manage_user` | High
-22 | File | `/p1/p2/:name` | Medium
-23 | File | `/rdms/admin/?page=user/manage_user` | High
-24 | File | `/recreate.php` | High
-25 | File | `/redbin/rpwebutilities.exe/text` | High
-26 | File | `/requests.php` | High
-27 | File | `/saml/login` | Medium
-28 | File | `/ScadaBR/login.htm` | High
-29 | File | `/secure/QueryComponent!Default.jspa` | High
-30 | File | `/sys/ui/extend/varkind/custom.jsp` | High
-31 | File | `/template/edit` | High
-32 | File | `/upload` | Low
-33 | File | `/upload/localhost` | High
-34 | File | `/var/adm/btmp` | High
-35 | File | `?location=search` | High
-36 | File | `aa/../../uploads/blog/201811/attach_#.jpg` | High
-37 | File | `account/login.php` | High
-38 | File | `ad/login.asp` | Medium
-39 | File | `add-blog.php` | Medium
-40 | File | `admin.php` | Medium
-41 | File | `admin/?n=language&c=language_general&a=doSearchParameter` | High
-42 | ... | ... | ...
+3 | File | `/about.php` | Medium
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/baseOpLog.do` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/webproc` | High
+10 | File | `/cmscp/ext/collect/fetch_url.do` | High
+11 | File | `/CommunitySSORedirect.jsp` | High
+12 | File | `/coreframe/app/attachment/admin/index.php` | High
+13 | File | `/ctpms/admin/?page=applications/view_application` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/quagga` | Medium
+16 | File | `/gaia-job-admin/user/add` | High
+17 | File | `/goform/form2WizardStep4` | High
+18 | File | `/goform/setPptpUserList` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/index.php` | Medium
+21 | File | `/Items/*/RemoteImages/Download` | High
+22 | File | `/modx/manager/` | High
+23 | File | `/ofrs/admin/?page=user/manage_user` | High
+24 | File | `/p1/p2/:name` | Medium
+25 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+26 | File | `/proxy` | Low
+27 | File | `/rdms/admin/?page=user/manage_user` | High
+28 | File | `/recreate.php` | High
+29 | File | `/redbin/rpwebutilities.exe/text` | High
+30 | File | `/requests.php` | High
+31 | File | `/saml/login` | Medium
+32 | File | `/ScadaBR/login.htm` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/sys/ui/extend/varkind/custom.jsp` | High
+35 | File | `/system/sshkeys.js` | High
+36 | File | `/template/edit` | High
+37 | File | `/upload` | Low
+38 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

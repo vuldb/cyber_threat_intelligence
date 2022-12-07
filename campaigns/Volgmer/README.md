@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -68,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,9 +101,11 @@ ID | Type | Indicator | Confidence
 23 | File | `/var/www/core/controller/index.php` | High
 24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 25 | File | `/websocket/exec` | High
-26 | ... | ... | ...
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/x_program_center/jaxrs/invoke` | High
+28 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -76,35 +76,36 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/photo.php` | High
 10 | File | `/admin/searchview.php` | High
 11 | File | `/admin/students/manage.php` | High
-12 | File | `/ad_js.php` | Medium
-13 | File | `/Ap4RtpAtom.cpp` | High
-14 | File | `/api/RecordingList/DownloadRecord?file=` | High
-15 | File | `/app/options.py` | High
-16 | File | `/artist-display.php` | High
-17 | File | `/bcms/admin/?page=user/list` | High
-18 | File | `/bsms/?page=manage_account` | High
-19 | File | `/cgi-bin/login.cgi` | High
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cgi-bin/nightled.cgi` | High
-22 | File | `/ci_hms/massage_room/edit/1` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/dashboard/reports/logs/view` | High
-25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-26 | File | `/debug/pprof` | Medium
-27 | File | `/etc/hosts` | Medium
-28 | File | `/foms/place-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/fuel/index.php/fuel/logs/items` | High
-31 | File | `/fuel/sitevariables/delete/4` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index/jobfairol/show/` | High
-37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-38 | ... | ... | ...
+12 | File | `/admin/submit-articles` | High
+13 | File | `/ad_js.php` | Medium
+14 | File | `/Ap4RtpAtom.cpp` | High
+15 | File | `/api/RecordingList/DownloadRecord?file=` | High
+16 | File | `/app/options.py` | High
+17 | File | `/artist-display.php` | High
+18 | File | `/bcms/admin/?page=user/list` | High
+19 | File | `/bsms/?page=manage_account` | High
+20 | File | `/cgi-bin/login.cgi` | High
+21 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin/nightled.cgi` | High
+23 | File | `/ci_hms/massage_room/edit/1` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/dashboard/reports/logs/view` | High
+26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/etc/hosts` | Medium
+29 | File | `/foms/place-order.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/fuel/index.php/fuel/logs/items` | High
+32 | File | `/fuel/sitevariables/delete/4` | High
+33 | File | `/goform/setmac` | High
+34 | File | `/goform/wizard_end` | High
+35 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+36 | File | `/index.php` | Medium
+37 | File | `/index/jobfairol/show/` | High
+38 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

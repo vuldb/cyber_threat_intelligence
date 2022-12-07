@@ -57,12 +57,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/sudoers` | Medium
 6 | File | `/index.php` | Medium
 7 | File | `/oauth/token/request` | High
-8 | File | `/system-info/health` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `addentry.php` | Medium
+8 | File | `/spip.php` | Medium
+9 | File | `/system-info/health` | High
+10 | File | `/uncpath/` | Medium
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

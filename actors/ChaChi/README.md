@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,30 +62,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/export` | Low
 9 | File | `/forum/away.php` | High
 10 | File | `/get_getnetworkconf.cgi` | High
-11 | File | `/horde/util/go.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/nova/bin/detnet` | High
-14 | File | `/opensis/modules/users/Staff.php` | High
-15 | File | `/php_action/createUser.php` | High
-16 | File | `/plugins/servlet/gadgets/makeRequest` | High
-17 | File | `/REBOOTSYSTEM` | High
-18 | File | `/req_password_user.php` | High
-19 | File | `/services` | Medium
-20 | File | `/show_news.php` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/Uploads` | Medium
-24 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-25 | File | `/WEB-INF/web.xml` | High
-26 | File | `/webconsole/APIController` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `AccountStatus.jsp` | High
-29 | File | `add.php` | Low
-30 | File | `addentry.php` | Medium
-31 | File | `admin.htm` | Medium
-32 | ... | ... | ...
+11 | File | `/index.php` | Medium
+12 | File | `/nova/bin/detnet` | High
+13 | File | `/opensis/modules/users/Staff.php` | High
+14 | File | `/php_action/createUser.php` | High
+15 | File | `/plugins/servlet/gadgets/makeRequest` | High
+16 | File | `/REBOOTSYSTEM` | High
+17 | File | `/req_password_user.php` | High
+18 | File | `/services` | Medium
+19 | File | `/show_news.php` | High
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/Uploads` | Medium
+23 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+24 | File | `/WEB-INF/web.xml` | High
+25 | File | `/webconsole/APIController` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `AccountStatus.jsp` | High
+28 | File | `add.php` | Low
+29 | File | `addentry.php` | Medium
+30 | File | `admin.htm` | Medium
+31 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -58,13 +58,14 @@ ID | Type | Indicator | Confidence
 8 | File | `/spip.php` | Medium
 9 | File | `/student/bookdetails.php` | High
 10 | File | `/uncpath/` | Medium
-11 | File | `adclick.php` | Medium
-12 | File | `agent/Core/Controller/SendRequest.cpp` | High
-13 | File | `api_poller.php` | High
-14 | File | `arformcontroller.php` | High
-15 | ... | ... | ...
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `adclick.php` | Medium
+13 | File | `agent/Core/Controller/SendRequest.cpp` | High
+14 | File | `api_poller.php` | High
+15 | File | `arformcontroller.php` | High
+16 | ... | ... | ...
 
-There are 122 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

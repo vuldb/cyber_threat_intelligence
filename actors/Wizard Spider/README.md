@@ -164,13 +164,14 @@ ID | Type | Indicator | Confidence
 43 | File | `/services/system/setup.json` | High
 44 | File | `/spip.php` | Medium
 45 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-46 | File | `/uncpath/` | Medium
-47 | File | `/vloggers_merch/?p=view_product` | High
-48 | File | `/webconsole/APIController` | High
-49 | File | `/websocket/exec` | High
-50 | ... | ... | ...
+46 | File | `/tmp` | Low
+47 | File | `/uncpath/` | Medium
+48 | File | `/vloggers_merch/?p=view_product` | High
+49 | File | `/webconsole/APIController` | High
+50 | File | `/websocket/exec` | High
+51 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

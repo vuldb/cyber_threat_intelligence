@@ -141,7 +141,7 @@ ID | Type | Indicator | Confidence
 93 | File | `comentarii.php` | High
 94 | ... | ... | ...
 
-There are 826 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 828 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

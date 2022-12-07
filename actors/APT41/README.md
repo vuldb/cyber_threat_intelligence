@@ -118,10 +118,9 @@ ID | Type | Indicator | Confidence
 40 | File | `/wp-admin/admin-ajax.php` | High
 41 | File | `/wp-admin/options.php` | High
 42 | File | `/_next` | Low
-43 | File | `AdClass.php` | Medium
-44 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

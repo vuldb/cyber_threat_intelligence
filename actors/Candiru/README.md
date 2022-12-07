@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 25 more TTP items available. Please use our online service to access the data.
@@ -79,22 +79,22 @@ ID | Type | Indicator | Confidence
 18 | File | `/dev/snd/seq` | Medium
 19 | File | `/device/device=140/tab=wifi/view` | High
 20 | File | `/dl/dl_print.php` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/goform/addressNat` | High
-23 | File | `/goform/SetClientState` | High
-24 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-25 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-26 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/librarian/lab.php` | High
-29 | File | `/login` | Low
-30 | File | `/mngset/authset` | High
-31 | File | `/nova/bin/sniffer` | High
-32 | File | `/ofcms/company-c-47` | High
-33 | File | `/omos/admin/?page=user/list` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/addressNat` | High
+24 | File | `/goform/SetClientState` | High
+25 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+26 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+27 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/librarian/lab.php` | High
+30 | File | `/login` | Low
+31 | File | `/mngset/authset` | High
+32 | File | `/nova/bin/sniffer` | High
+33 | File | `/ofcms/company-c-47` | High
 34 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

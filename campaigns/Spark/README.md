@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spark:
 
 * [US](https://vuldb.com/?country.us)
+* [HU](https://vuldb.com/?country.hu)
 * [ES](https://vuldb.com/?country.es)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -64,25 +64,25 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 6 | File | `/dl/dl_sendmail.php` | High
 7 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-8 | File | `/etc/qci/answers` | High
-9 | File | `/function/booksave.php` | High
-10 | File | `/inc/campaign/campaign-delete.php` | High
-11 | File | `/sgmi/` | Low
-12 | File | `/tmp` | Low
-13 | File | `/usr/lib/print/conv_fix` | High
-14 | File | `add_comment.php` | High
-15 | File | `admin.php` | Medium
-16 | File | `admin/plugin.php` | High
-17 | File | `admin/write-post.php` | High
-18 | File | `admin\addgroup.php` | High
-19 | File | `agents.php` | Medium
-20 | File | `app/View/Helper/CommandHelper.php` | High
-21 | File | `apport/hookutils.py` | High
-22 | File | `auth_changepassword.php` | High
-23 | File | `auth_profile.php` | High
+8 | File | `/etc/passwd` | Medium
+9 | File | `/etc/qci/answers` | High
+10 | File | `/function/booksave.php` | High
+11 | File | `/inc/campaign/campaign-delete.php` | High
+12 | File | `/sgmi/` | Low
+13 | File | `/tmp` | Low
+14 | File | `/usr/lib/print/conv_fix` | High
+15 | File | `add_comment.php` | High
+16 | File | `admin.php` | Medium
+17 | File | `admin/plugin.php` | High
+18 | File | `admin/write-post.php` | High
+19 | File | `admin\addgroup.php` | High
+20 | File | `agents.php` | Medium
+21 | File | `app/View/Helper/CommandHelper.php` | High
+22 | File | `apport/hookutils.py` | High
+23 | File | `auth_changepassword.php` | High
 24 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

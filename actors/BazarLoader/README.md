@@ -82,18 +82,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api` | Low
-2 | File | `/include/makecvs.php` | High
-3 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-4 | File | `/requests.php` | High
-5 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-6 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-7 | File | `add.php` | Low
-8 | File | `admin/admin.shtml` | High
-9 | File | `bpf-object-fuzzer.c` | High
-10 | File | `cal.php` | Low
+2 | File | `/api/sys_username_passwd.cmd` | High
+3 | File | `/include/makecvs.php` | High
+4 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+5 | File | `/requests.php` | High
+6 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+7 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+8 | File | `add.php` | Low
+9 | File | `admin/admin.shtml` | High
+10 | File | `bpf-object-fuzzer.c` | High
 11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

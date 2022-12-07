@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3460,7 +3460,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3475,30 +3475,30 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/conferences/get-all-status/` | High
 6 | File | `/admin/conferences/list/` | High
 7 | File | `/admin/submit-articles` | High
-8 | File | `/api/v1/attack/token` | High
-9 | File | `/asms/admin/?page=user/manage_user` | High
+8 | File | `/asms/admin/?page=user/manage_user` | High
+9 | File | `/bsms_ci/index.php/book` | High
 10 | File | `/category.php` | High
-11 | File | `/classes/Master.php?f=delete_reservation` | High
-12 | File | `/clients/profile` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/Core/Ap4File.cpp` | High
-15 | File | `/crmeb/crmeb/services/UploadService.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/dede/file_manage_control.php` | High
-18 | File | `/FormLogin` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/index/user/user_edit.html` | High
-22 | File | `/lists/index.php` | High
-23 | File | `/LogoStore/search.php` | High
-24 | File | `/module/admin_bp/add_application.php` | High
-25 | File | `/odlms/classes/Master.php?f=delete_message` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/php_action/editProductImage.php` | High
-28 | File | `/proxy` | Low
+11 | File | `/clients/profile` | High
+12 | File | `/Core/Ap4File.cpp` | High
+13 | File | `/crmeb/crmeb/services/UploadService.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dede/file_manage_control.php` | High
+16 | File | `/FormLogin` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/index/user/user_edit.html` | High
+20 | File | `/lists/index.php` | High
+21 | File | `/LogoStore/search.php` | High
+22 | File | `/module/admin_bp/add_application.php` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/php_action/editProductImage.php` | High
+25 | File | `/proc/<pid>/status` | High
+26 | File | `/proxy` | Low
+27 | File | `/register/abort` | High
+28 | File | `/roomtype-details.php` | High
 29 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

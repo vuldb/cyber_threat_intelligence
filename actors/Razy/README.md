@@ -148,7 +148,7 @@ ID | Type | Indicator | Confidence
 29 | File | `application.js.php` | High
 30 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

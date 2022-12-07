@@ -769,34 +769,34 @@ ID | Type | Indicator | Confidence
 3 | File | `/ad_js.php` | Medium
 4 | File | `/Ap4RtpAtom.cpp` | High
 5 | File | `/app/options.py` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/CMD_SELECT_USERS` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/data/wps.setup.json` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/fuel/sitevariables/delete/4` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-23 | File | `/IISADMPWD` | Medium
-24 | File | `/index.php` | Medium
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/manage-apartment.php` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/pages/apply_vacancy.php` | High
+6 | File | `/bsms/?page=manage_account` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/cgi-bin/luci/api/wireless` | High
+9 | File | `/ci_hms/massage_room/edit/1` | High
+10 | File | `/CMD_SELECT_USERS` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/data/wps.setup.json` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+22 | File | `/IISADMPWD` | Medium
+23 | File | `/index.php` | Medium
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/pages/apply_vacancy.php` | High
+30 | File | `/proc/<PID>/mem` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [HU](https://vuldb.com/?country.hu)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -69,31 +69,31 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 7 | File | `/dl/dl_sendmail.php` | High
 8 | File | `/drivers/net/ethernet/broadcom/tg3.c` | High
-9 | File | `/etc/qci/answers` | High
-10 | File | `/forms/nslookupHandler` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/function/booksave.php` | High
-13 | File | `/goform/form2userconfig.cgi` | High
-14 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
-15 | File | `/inc/campaign/campaign-delete.php` | High
-16 | File | `/sgmi/` | Low
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/lib/print/conv_fix` | High
-20 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-21 | File | `adclick.php` | Medium
-22 | File | `add_comment.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin.php?page=languages` | High
-25 | File | `admin/controllers/Albumsgalleries.php` | High
-26 | File | `admin/plugin.php` | High
-27 | File | `admin\addgroup.php` | High
-28 | File | `agents.php` | Medium
-29 | File | `api_poller.php` | High
-30 | File | `app/View/Helper/CommandHelper.php` | High
+9 | File | `/etc/passwd` | Medium
+10 | File | `/etc/qci/answers` | High
+11 | File | `/forms/nslookupHandler` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/function/booksave.php` | High
+14 | File | `/goform/form2userconfig.cgi` | High
+15 | File | `/gracemedia-media-player/templates/files/ajax_controller.php` | High
+16 | File | `/inc/campaign/campaign-delete.php` | High
+17 | File | `/sgmi/` | Low
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/lib/print/conv_fix` | High
+21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+22 | File | `adclick.php` | Medium
+23 | File | `add_comment.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin.php?page=languages` | High
+26 | File | `admin/controllers/Albumsgalleries.php` | High
+27 | File | `admin/plugin.php` | High
+28 | File | `admin\addgroup.php` | High
+29 | File | `agents.php` | Medium
+30 | File | `api_poller.php` | High
 31 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

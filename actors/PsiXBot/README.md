@@ -95,25 +95,23 @@ ID | Type | Indicator | Confidence
 33 | File | `/property-list/property_view.php` | High
 34 | File | `/public/login.htm` | High
 35 | File | `/req_password_user.php` | High
-36 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-37 | File | `/resourceNode/resources.jsf` | High
-38 | File | `/rest/project-templates/1.0/createshared` | High
-39 | File | `/rom-0` | Low
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/trx_addons/v2/get/sc_layout` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-44 | File | `/usr/syno/etc/mount.conf` | High
-45 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-46 | File | `/WEB-INF/web.xml` | High
-47 | File | `/wp-json` | Medium
-48 | File | `/_next` | Low
-49 | File | `404.php` | Low
-50 | File | `a-b-membres.php` | High
-51 | File | `acropora/crypto/asn1_common.c` | High
-52 | ... | ... | ...
+36 | File | `/rest/project-templates/1.0/createshared` | High
+37 | File | `/rom-0` | Low
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/trx_addons/v2/get/sc_layout` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+42 | File | `/usr/syno/etc/mount.conf` | High
+43 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+44 | File | `/WEB-INF/web.xml` | High
+45 | File | `/wp-json` | Medium
+46 | File | `/_next` | Low
+47 | File | `404.php` | Low
+48 | File | `a-b-membres.php` | High
+49 | File | `acropora/crypto/asn1_common.c` | High
+50 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

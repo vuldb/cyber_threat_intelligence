@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,33 +69,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
 9 | File | `/aqpg/users/login.php` | High
 10 | File | `/blog/edit` | Medium
-11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/core/admin/categories.php` | High
-14 | File | `/dms/admin/reports/daily_collection_report.php` | High
-15 | File | `/DsaDataTest` | Medium
-16 | File | `/etc/networkd-dispatcher` | High
-17 | File | `/filemanager/upload/drop` | High
-18 | File | `/food/admin/all_users.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/PowerSaveSet` | High
-22 | File | `/goform/SetClientState` | High
-23 | File | `/goform/SetFirewallCfg` | High
-24 | File | `/goform/setWorkmode` | High
-25 | File | `/goform/wizard_end` | High
-26 | File | `/index.php` | Medium
-27 | File | `/isms/classes/Users.php` | High
-28 | File | `/lists/index.php` | High
-29 | File | `/members/view_member.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/ofrs/admin/?page=teams/view_team` | High
-32 | File | `/ordering/index.php?q=category` | High
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/public_html/animals` | High
-35 | ... | ... | ...
+11 | File | `/bsms_ci/index.php/user/edit_user/` | High
+12 | File | `/cgi-bin/uploadWeiXinPic` | High
+13 | File | `/classes/Master.php?f=delete_category` | High
+14 | File | `/core/admin/categories.php` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/dms/admin/reports/daily_collection_report.php` | High
+17 | File | `/DsaDataTest` | Medium
+18 | File | `/etc/networkd-dispatcher` | High
+19 | File | `/event/admin/?page=user/list` | High
+20 | File | `/filemanager/upload/drop` | High
+21 | File | `/food/admin/all_users.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/PowerSaveSet` | High
+25 | File | `/goform/SetClientState` | High
+26 | File | `/goform/SetFirewallCfg` | High
+27 | File | `/goform/setWorkmode` | High
+28 | File | `/goform/wizard_end` | High
+29 | File | `/hrm/employeeview.php` | High
+30 | File | `/index.php` | Medium
+31 | File | `/isms/classes/Users.php` | High
+32 | File | `/lists/index.php` | High
+33 | File | `/members/view_member.php` | High
+34 | File | `/mgmt/tm/util/bash` | High
+35 | File | `/ofrs/admin/?page=teams/view_team` | High
+36 | File | `/ordering/index.php?q=category` | High
+37 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

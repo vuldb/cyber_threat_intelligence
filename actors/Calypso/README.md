@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/MIME/INBOX-MM-1/` | High
 8 | File | `/ptms/classes/Users.php` | High
 9 | File | `/public/plugins/` | High
-10 | ... | ... | ...
+10 | File | `/scripts/iisadmin/bdir.htr` | High
+11 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

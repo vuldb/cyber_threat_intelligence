@@ -35,6 +35,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
 3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,11 +46,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/spip.php` | Medium
-2 | File | `index.php?module=dashboard_configure/index` | High
-3 | File | `net/bluetooth/l2cap_core.c` | High
+2 | File | `/youthappam/editcategory.php` | High
+3 | File | `index.php?module=dashboard_configure/index` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

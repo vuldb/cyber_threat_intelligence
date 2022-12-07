@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -159,10 +159,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-84 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-84, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,41 +170,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/action/import_https_cert_file/` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/contact/list` | High
-6 | File | `/admin/folderrollpicture/list` | High
-7 | File | `/admin/imagealbum/list` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/Admin/login.php` | High
-10 | File | `/admin/subnets/ripe-query.php` | High
-11 | File | `/advanced-tools/nova/bin/netwatch` | High
-12 | File | `/api/v1/attack/token` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/blog/edit` | Medium
-15 | File | `/cgi-bin/cstecgi.cgi` | High
-16 | File | `/cgi-bin/luci` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/cgi/get_param.cgi` | High
-19 | File | `/college_website/index.php?` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/dede/co_do.php` | High
-24 | File | `/DesignTools/CssEditor.aspx` | High
-25 | File | `/dev/mmz_userdev` | High
-26 | File | `/dev/shm` | Medium
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/egroupware/index.php` | High
-29 | File | `/etc/openshift/server_priv.pem` | High
-30 | File | `/etc/tomcat8/Catalina/attack` | High
-31 | File | `/export` | Low
-32 | File | `/filemanager/php/connector.php` | High
-33 | ... | ... | ...
+1 | File | `/action/import_https_cert_file/` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/settings/save.php` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/admin/subnets/ripe-query.php` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/api/v1/attack/token` | High
+9 | File | `/bin/httpd` | Medium
+10 | File | `/cgi-bin/cstecgi.cgi` | High
+11 | File | `/cgi-bin/luci` | High
+12 | File | `/college_website/index.php?` | High
+13 | File | `/common/info.cgi` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/DesignTools/CssEditor.aspx` | High
+17 | File | `/dev/mmz_userdev` | High
+18 | File | `/dev/shm` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/egroupware/index.php` | High
+21 | File | `/etc/openshift/server_priv.pem` | High
+22 | File | `/etc/tomcat8/Catalina/attack` | High
+23 | File | `/export` | Low
+24 | File | `/filemanager/php/connector.php` | High
+25 | File | `/garage/php_action/createBrand.php` | High
+26 | File | `/goform/setmac` | High
+27 | File | `/goform/wizard_end` | High
+28 | File | `/hospital/hms/admin/patient-search.php` | High
+29 | File | `/hrm/index.php?msg` | High
+30 | File | `/hrm/state.php` | High
+31 | File | `/images/background/1.php` | High
+32 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

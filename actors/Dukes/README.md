@@ -36,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +49,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/modules/profile/index.php` | High
-3 | File | `/proc/self/environ` | High
-4 | File | `/rest/project-templates/1.0/createshared` | High
-5 | File | `/server-status` | High
-6 | File | `act.php` | Low
-7 | File | `adclick.php` | Medium
-8 | File | `admin.php` | Medium
-9 | File | `administrator/mail/download.cfm` | High
+1 | File | `/admin/users.php?source=edit_user&id=1` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/modules/profile/index.php` | High
+4 | File | `/proc/self/environ` | High
+5 | File | `/rest/project-templates/1.0/createshared` | High
+6 | File | `/server-status` | High
+7 | File | `act.php` | Low
+8 | File | `adclick.php` | Medium
+9 | File | `admin.php` | Medium
 10 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

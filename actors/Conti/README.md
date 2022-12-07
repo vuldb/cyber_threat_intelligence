@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -539,48 +539,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/login.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/students/manage.php` | High
-5 | File | `/admin/students/view_student.php` | High
-6 | File | `/admin/subnets/ripe-query.php` | High
-7 | File | `/api/RecordingList/DownloadRecord?file=` | High
-8 | File | `/api/user/upsert/<uuid>` | High
-9 | File | `/card_scan.php` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/cwc/login` | Medium
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/export` | Low
-17 | File | `/foms/place-order.php` | High
-18 | File | `/gasmark/assets/myimages/oneWord.php` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/h/calendar` | Medium
-22 | File | `/h/compose` | Medium
-23 | File | `/h/search?action=voicemail&action=listen` | High
-24 | File | `/index.php` | Medium
-25 | File | `/loginVaLidation.php` | High
-26 | File | `/manage-apartment.php` | High
-27 | File | `/manager/index.php` | High
-28 | File | `/members/view_member.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/mygym/admin/index.php` | High
-31 | File | `/nova/bin/detnet` | High
-32 | File | `/Noxen-master/users.php` | High
-33 | File | `/opac/Actions.php?a=login` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/pages/animals.php` | High
+1 | File | `.../gogo/` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin/login.php` | High
+4 | File | `/Admin/login.php` | High
+5 | File | `/admin/students/manage.php` | High
+6 | File | `/admin/students/view_student.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/admin/subnets/ripe-query.php` | High
+9 | File | `/api/RecordingList/DownloadRecord?file=` | High
+10 | File | `/api/user/upsert/<uuid>` | High
+11 | File | `/card_scan.php` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/cwc/login` | Medium
+16 | File | `/dashboard/updatelogo.php` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/export` | Low
+19 | File | `/foms/place-order.php` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/h/calendar` | Medium
+23 | File | `/h/compose` | Medium
+24 | File | `/h/search?action=voicemail&action=listen` | High
+25 | File | `/index.php` | Medium
+26 | File | `/loginVaLidation.php` | High
+27 | File | `/manage-apartment.php` | High
+28 | File | `/manager/index.php` | High
+29 | File | `/members/view_member.php` | High
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/nova/bin/detnet` | High
+33 | File | `/Noxen-master/users.php` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+36 | File | `/owa/auth/logon.aspx` | High
 37 | File | `/pages/apply_vacancy.php` | High
-38 | File | `/php-sms/classes/Master.php` | High
-39 | File | `/php-sms/classes/SystemSettings.php` | High
-40 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,25 +73,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/debug/pprof` | Medium
 7 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
 8 | File | `/etc/ajenti/config.yml` | High
-9 | File | `/horde/util/go.php` | High
-10 | File | `/Items/*/RemoteImages/Download` | High
-11 | File | `/main.php` | Medium
-12 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-13 | File | `/new` | Low
-14 | File | `/nova/bin/traceroute` | High
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/phpcollab/users/emailusers.php` | High
-17 | File | `/proc/sys/kernel/rh_features` | High
-18 | File | `/product.php` | Medium
-19 | File | `/public/common/umeditor/php/getcontent.php` | High
-20 | File | `/service/upload` | High
-21 | File | `/services/prefs.php` | High
-22 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
-23 | File | `/sitemagic/index.php` | High
-24 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+9 | File | `/Items/*/RemoteImages/Download` | High
+10 | File | `/main.php` | Medium
+11 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+12 | File | `/new` | Low
+13 | File | `/nova/bin/traceroute` | High
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/phpcollab/users/emailusers.php` | High
+16 | File | `/proc/sys/kernel/rh_features` | High
+17 | File | `/product.php` | Medium
+18 | File | `/public/common/umeditor/php/getcontent.php` | High
+19 | File | `/service/upload` | High
+20 | File | `/services/prefs.php` | High
+21 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
+22 | File | `/sitemagic/index.php` | High
+23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+24 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
 25 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

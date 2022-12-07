@@ -346,21 +346,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
-2 | File | `/admin/admin.php` | High
-3 | File | `/api/v1/attack/token` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/cgi-bin/qcmap_auth` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/cmscp/ext/collect/fetch_url.do` | High
-9 | File | `/CommunitySSORedirect.jsp` | High
-10 | File | `/config/getuser` | High
-11 | File | `/Content/Template/root/reverse-shell.aspx` | High
-12 | File | `/crmeb/crmeb/services/UploadService.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/diagnostic/editclient.php` | High
-15 | File | `/etc/grafana/grafana.ini` | High
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/admin.php` | High
+4 | File | `/api/v1/attack/token` | High
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/cgi-bin/qcmap_auth` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/cmscp/ext/collect/fetch_url.do` | High
+10 | File | `/CommunitySSORedirect.jsp` | High
+11 | File | `/config/getuser` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/crmeb/crmeb/services/UploadService.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/diagnostic/editclient.php` | High
 16 | File | `/filemanager/php/connector.php` | High
 17 | File | `/foms/place-order.php` | High
 18 | File | `/forum/away.php` | High
@@ -381,10 +381,9 @@ ID | Type | Indicator | Confidence
 33 | File | `/text/pdf/PdfReader.java` | High
 34 | File | `/uncpath/` | Medium
 35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `ActivityRecord.java` | High
-37 | ... | ... | ...
+36 | ... | ... | ...
 
-There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

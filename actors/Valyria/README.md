@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,30 +64,31 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/fst_upload.inc.php` | High
 8 | File | `/admin/problem_judge.php` | High
 9 | File | `/admin/sign/out` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/public/signup` | High
-12 | File | `/api/v1/attack/falco` | High
-13 | File | `/api/v1/bait/set` | High
-14 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/asms/admin/?page=user/manage_user` | High
-17 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-18 | File | `/attachments` | Medium
-19 | File | `/avms/index.php` | High
-20 | File | `/bookings/update_status.php` | High
-21 | File | `/classes/Master.php?f=delete_appointment` | High
-22 | File | `/classes/Users.php?f=delete_client` | High
-23 | File | `/clearance/clearance.php` | High
-24 | File | `/depotHead/list` | High
-25 | File | `/editorder.php` | High
-26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-27 | File | `/garage/editorder.php` | High
-28 | File | `/goform/form2IPQoSTcAdd` | High
-29 | File | `/index.php?module=entities/entities` | High
-30 | File | `/index.php?module=global_lists/lists` | High
-31 | ... | ... | ...
+10 | File | `/admin/users/index.php` | High
+11 | File | `/api/common/ping` | High
+12 | File | `/api/public/signup` | High
+13 | File | `/api/v1/attack/falco` | High
+14 | File | `/api/v1/bait/set` | High
+15 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/asms/admin/?page=user/manage_user` | High
+18 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+19 | File | `/asms/admin/products/manage_product.php` | High
+20 | File | `/asms/products/view_product.php` | High
+21 | File | `/attachments` | Medium
+22 | File | `/avms/index.php` | High
+23 | File | `/bookings/update_status.php` | High
+24 | File | `/classes/Master.php?f=delete_appointment` | High
+25 | File | `/classes/Users.php?f=delete_client` | High
+26 | File | `/clearance/clearance.php` | High
+27 | File | `/depotHead/list` | High
+28 | File | `/editorder.php` | High
+29 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+30 | File | `/garage/editorder.php` | High
+31 | File | `/index.php/admins/Fields/get_fields.html` | High
+32 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -106,42 +106,44 @@ ID | Type | Indicator | Confidence
 3 | File | `/.ssh/authorized_keys` | High
 4 | File | `//proc/kcore` | Medium
 5 | File | `/?Key=PhoneRequestAuthorization` | High
-6 | File | `/admin/access` | High
-7 | File | `/Admin/add-student.php` | High
-8 | File | `/admin/dl_sendmail.php` | High
-9 | File | `/admin/index.html` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-12 | File | `/category.php` | High
-13 | File | `/cgi-bin/delete_CA` | High
-14 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-15 | File | `/download` | Medium
-16 | File | `/etc/gsissh/sshd_config` | High
-17 | File | `/get_getnetworkconf.cgi` | High
-18 | File | `/GponForm/device_Form?script/` | High
-19 | File | `/home` | Low
-20 | File | `/includes/rrdtool.inc.php` | High
-21 | File | `/index.asp` | Medium
-22 | File | `/index.php` | Medium
-23 | File | `/jfinal_cms/system/role/list` | High
-24 | File | `/Main_AdmStatus_Content.asp` | High
-25 | File | `/members/view_member.php` | High
-26 | File | `/NAGErrors` | Medium
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/plain` | Low
-29 | File | `/public` | Low
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/sgms/TreeControl` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-34 | File | `/tmp` | Low
-35 | File | `/uncpath/` | Medium
-36 | File | `/updown/upload.cgi` | High
-37 | File | `/var/log/nginx` | High
-38 | File | `/zm/index.php` | High
-39 | ... | ... | ...
+6 | File | `/admin.php/Admin/adminadd.html` | High
+7 | File | `/admin/access` | High
+8 | File | `/Admin/add-student.php` | High
+9 | File | `/admin/dl_sendmail.php` | High
+10 | File | `/admin/index.html` | High
+11 | File | `/admin/settings/save.php` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+15 | File | `/category.php` | High
+16 | File | `/cgi-bin/delete_CA` | High
+17 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+18 | File | `/download` | Medium
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/get_getnetworkconf.cgi` | High
+21 | File | `/gpac/src/bifs/unquantize.c` | High
+22 | File | `/GponForm/device_Form?script/` | High
+23 | File | `/home` | Low
+24 | File | `/includes/rrdtool.inc.php` | High
+25 | File | `/index.asp` | Medium
+26 | File | `/index.php` | Medium
+27 | File | `/jfinal_cms/system/role/list` | High
+28 | File | `/Main_AdmStatus_Content.asp` | High
+29 | File | `/members/view_member.php` | High
+30 | File | `/NAGErrors` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+33 | File | `/plain` | Low
+34 | File | `/public` | Low
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/sgms/TreeControl` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

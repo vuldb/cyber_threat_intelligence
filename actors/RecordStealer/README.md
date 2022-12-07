@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,12 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,19 +51,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/luci/api/switch` | High
-2 | File | `/cgi-bin/sm_changepassword.cgi` | High
-3 | File | `/export` | Low
-4 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-5 | File | `/include/chart_generator.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/jsonrpc` | Medium
-8 | File | `/mims/login.php` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/wp-admin/admin-ajax.php` | High
-11 | ... | ... | ...
+1 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/cgi-bin/luci/api/switch` | High
+3 | File | `/cgi-bin/sm_changepassword.cgi` | High
+4 | File | `/export` | Low
+5 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+6 | File | `/include/chart_generator.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/jsonrpc` | Medium
+9 | File | `/mims/login.php` | High
+10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+11 | File | `/rapi/read_url` | High
+12 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

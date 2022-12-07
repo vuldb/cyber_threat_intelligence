@@ -82,23 +82,23 @@ ID | Type | Indicator | Confidence
 11 | File | `/modules/profile/index.php` | High
 12 | File | `/nagiosql/admin/checkcommands.php` | High
 13 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/tmp` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/usr/5bin/su` | Medium
-18 | File | `/usr/bin/mail` | High
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/var/dt/` | Medium
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `00.jsp` | Low
-23 | File | `account_activations/edit` | High
-24 | File | `add_2_basket.asp` | High
-25 | File | `admin.asp` | Medium
-26 | File | `admin.jcomments.php` | High
-27 | File | `admin.php` | Medium
-28 | File | `admin/` | Low
-29 | File | `admin/?page=system_info` | High
-30 | File | `admin/aboutus.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/5bin/su` | Medium
+17 | File | `/usr/bin/mail` | High
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/var/dt/` | Medium
+20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+21 | File | `00.jsp` | Low
+22 | File | `account_activations/edit` | High
+23 | File | `add_2_basket.asp` | High
+24 | File | `admin.asp` | Medium
+25 | File | `admin.jcomments.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/` | Low
+28 | File | `admin/?page=system_info` | High
+29 | File | `admin/aboutus.php` | High
+30 | File | `admin/article_save.php` | High
 31 | File | `admin/import/class-import-settings.php` | High
 32 | File | `admin/manage-comments.php` | High
 33 | File | `administration/comments.php` | High
@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 46 | File | `base_qry_main.php` | High
 47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

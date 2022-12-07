@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,46 +66,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.python-version` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/admin/inc/include.php` | High
-4 | File | `/admin/index.php` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/admin.php` | High
+4 | File | `/admin/conferences/list/` | High
 5 | File | `/admin/index.PHP` | High
 6 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-7 | File | `/advanced-tools/nova/bin/netwatch` | High
-8 | File | `/alarm_pi/alarmService.php` | High
-9 | File | `/app/controller/Books.php` | High
-10 | File | `/appliance/users?action=edit` | High
-11 | File | `/bin/login` | Medium
-12 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-13 | File | `/catcompany.php` | High
-14 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-15 | File | `/cgi-bin/kerbynet` | High
-16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/cgi-bin/qcmap_auth` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/coreframe/app/pay/admin/index.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/editbrand.php` | High
-22 | File | `/etc/shadow` | Medium
-23 | File | `/EXCU_SHELL` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/h/search?action` | High
-26 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-27 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-28 | File | `/language/lang` | High
-29 | File | `/leave_system/classes/Master.php?f=delete_application` | High
-30 | File | `/loginsave.php` | High
-31 | File | `/loginVaLidation.php` | High
-32 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/ows-bin` | Medium
-36 | File | `/phpinventory/editcategory.php` | High
-37 | File | `/rest/collectors/1.0/template/custom` | High
-38 | ... | ... | ...
+7 | File | `/admin/update_traveller.php` | High
+8 | File | `/advanced-tools/nova/bin/netwatch` | High
+9 | File | `/cameras/XXXX/clips` | High
+10 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/qcmap_auth` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/CommunitySSORedirect.jsp` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/diagnostic/editclient.php` | High
+18 | File | `/editbrand.php` | High
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/EXCU_SHELL` | Medium
+21 | File | `/filemanager/php/connector.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/index.php?module=global_lists/lists` | High
+24 | File | `/leave_system/classes/Master.php?f=delete_application` | High
+25 | File | `/okm:root` | Medium
+26 | File | `/opt/onedev/sites/` | High
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/out.php` | Medium
+29 | File | `/phpinventory/editcategory.php` | High
+30 | File | `/public_html/animals` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/sqfs/bin/sccd` | High
+33 | File | `/text/pdf/PdfReader.java` | High
+34 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

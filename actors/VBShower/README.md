@@ -51,29 +51,31 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage_user` | High
 5 | File | `/admin/changestock.php` | High
 6 | File | `/admin/client_edit.php` | High
-7 | File | `/admin/index.PHP` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/modify.php` | High
-10 | File | `/admin/myaccount` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/modify.php` | High
+9 | File | `/admin/myaccount` | High
+10 | File | `/admin/pages/sections_save.php` | High
 11 | File | `/admin/search.php` | High
 12 | File | `/admin/select.php` | High
-13 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-14 | File | `/admin/settings/fields` | High
-15 | File | `/api/v1/chat.getThreadsList` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/api/v2/open/rowsInfo` | High
-18 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-19 | File | `/asms/admin/?page=user/manage_user` | High
-20 | File | `/card/in-card.php` | High
-21 | File | `/classes/Master.php?f=delete_student` | High
-22 | File | `/connectors/index.php` | High
-23 | File | `/csms/admin/?page=system_info` | High
-24 | File | `/etc/init0.d/S80telnetd.sh` | High
-25 | File | `/etc/srapi/config/system.conf` | High
-26 | File | `/framework/core/models/expConfig.php` | High
-27 | ... | ... | ...
+13 | File | `/admin/settings/fields` | High
+14 | File | `/api/v1/chat.getThreadsList` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/api/v2/open/rowsInfo` | High
+17 | File | `/asms/admin/?page=user/manage_user` | High
+18 | File | `/card/in-card.php` | High
+19 | File | `/classes/Master.php?f=delete_student` | High
+20 | File | `/connectors/index.php` | High
+21 | File | `/csms/admin/?page=system_info` | High
+22 | File | `/etc/init0.d/S80telnetd.sh` | High
+23 | File | `/etc/srapi/config/system.conf` | High
+24 | File | `/framework/core/models/expConfig.php` | High
+25 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
+26 | File | `/fw.login.php` | High
+27 | File | `/garage/php_action/createBrand.php` | High
+28 | File | `/goform/form2WizardStep54` | High
+29 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

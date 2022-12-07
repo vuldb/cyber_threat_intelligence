@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BlackCat:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -56,33 +56,35 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add-fee.php` | High
 5 | File | `/Admin/add-student.php` | High
 6 | File | `/admin/delstu.php` | High
-7 | File | `/admin/foldernotice/list` | High
-8 | File | `/admin/fst_upload.inc.php` | High
-9 | File | `/admin/image/list` | High
-10 | File | `/api/v1/user` | Medium
-11 | File | `/asms/classes/Master.php?f=delete_service` | High
-12 | File | `/buspassms/download-pass.php` | High
-13 | File | `/cgi-bin/cstecgi.cgi` | High
-14 | File | `/classes/Master.php?f=delete_category` | High
-15 | File | `/classes/Master.php?f=delete_payment` | High
-16 | File | `/classes/Users.php?f=delete_client` | High
-17 | File | `/clients/profile` | High
-18 | File | `/csms/admin/?page=user/manage_user` | High
-19 | File | `/csms/admin/storages/view_storage.php` | High
-20 | File | `/diagnostic/editclient.php` | High
-21 | File | `/dotrace.asp` | Medium
-22 | File | `/etc/init0.d/S80telnetd.sh` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/home/hjsz/jsonlint/src/lexer` | High
-25 | File | `/index.php?module=entities/entities` | High
-26 | File | `/index.php?module=global_lists/lists` | High
-27 | File | `/index.php?module=users_alerts/users_alerts` | High
-28 | File | `/index1.html` | Medium
-29 | File | `/jfinal_cms/system/user/list` | High
-30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-31 | ... | ... | ...
+7 | File | `/admin/edit_members.php` | High
+8 | File | `/admin/foldernotice/list` | High
+9 | File | `/admin/fst_upload.inc.php` | High
+10 | File | `/admin/image/list` | High
+11 | File | `/admin/users/index.php` | High
+12 | File | `/api/v1/user` | Medium
+13 | File | `/asms/classes/Master.php?f=delete_service` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/buspassms/download-pass.php` | High
+16 | File | `/cgi-bin/cstecgi.cgi` | High
+17 | File | `/classes/Master.php?f=delete_category` | High
+18 | File | `/classes/Master.php?f=delete_payment` | High
+19 | File | `/classes/Users.php?f=delete_client` | High
+20 | File | `/clients/profile` | High
+21 | File | `/csms/admin/?page=user/manage_user` | High
+22 | File | `/csms/admin/storages/view_storage.php` | High
+23 | File | `/diagnostic/editclient.php` | High
+24 | File | `/dotrace.asp` | Medium
+25 | File | `/etc/init0.d/S80telnetd.sh` | High
+26 | File | `/goform/SetIpMacBind` | High
+27 | File | `/goform/wizard_end` | High
+28 | File | `/home/hjsz/jsonlint/src/lexer` | High
+29 | File | `/index.php?module=entities/entities` | High
+30 | File | `/index.php?module=global_lists/lists` | High
+31 | File | `/index.php?module=users_alerts/users_alerts` | High
+32 | File | `/index1.html` | Medium
+33 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

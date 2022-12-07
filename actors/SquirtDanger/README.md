@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -96,15 +97,14 @@ ID | Type | Indicator | Confidence
 25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 26 | File | `/pages/apply_vacancy.php` | High
 27 | File | `/proc/<PID>/mem` | High
-28 | File | `/public/plugins/` | High
+28 | File | `/proxy` | Low
 29 | File | `/requests.php` | High
 30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 31 | File | `/secure/ViewCollectors` | High
 32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-33 | File | `/tmp` | Low
-34 | ... | ... | ...
+33 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

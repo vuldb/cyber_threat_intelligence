@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -142,7 +142,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -152,40 +152,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/ad_js.php` | Medium
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/hosts` | Medium
-17 | File | `/fuel/index.php/fuel/logs/items` | High
-18 | File | `/fuel/sitevariables/delete/4` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/index/jobfairol/show/` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/members/view_member.php` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/pages/apply_vacancy.php` | High
-31 | File | `/proc/<PID>/mem` | High
-32 | File | `/proxy` | Low
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+3 | File | `/admin/submit-articles` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/api/sys_username_passwd.cmd` | High
+8 | File | `/app/options.py` | High
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/bsms/?page=manage_account` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/setmac` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/index/jobfairol/show/` | High
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/manage-apartment.php` | High
+28 | File | `/members/view_member.php` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/pages/apply_vacancy.php` | High
+33 | File | `/proc/<PID>/mem` | High
 34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

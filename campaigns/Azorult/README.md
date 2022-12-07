@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -67,22 +67,22 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/deluser.php` | High
 3 | File | `/administration/theme.php` | High
 4 | File | `/auparse/auparse.c` | High
-5 | File | `/BindAccount/SuccessTips.js` | High
-6 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-7 | File | `/login.html` | Medium
-8 | File | `/medical/inventories.php` | High
-9 | File | `/pages.php` | Medium
-10 | File | `/pages/save_user.php` | High
-11 | File | `/patient/doctors.php` | High
-12 | File | `/rom-0` | Low
-13 | File | `/uncpath/` | Medium
-14 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-15 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-16 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-17 | File | `abm.aspx` | Medium
+5 | File | `/aux` | Low
+6 | File | `/BindAccount/SuccessTips.js` | High
+7 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+8 | File | `/login.html` | Medium
+9 | File | `/medical/inventories.php` | High
+10 | File | `/pages.php` | Medium
+11 | File | `/pages/save_user.php` | High
+12 | File | `/patient/doctors.php` | High
+13 | File | `/rom-0` | Low
+14 | File | `/uncpath/` | Medium
+15 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+16 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+17 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
 18 | ... | ... | ...
 
-There are 148 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

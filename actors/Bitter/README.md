@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bitter:
 
 * [US](https://vuldb.com/?country.us)
-* [CO](https://vuldb.com/?country.co)
+* [TR](https://vuldb.com/?country.tr)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [82.221.129.17](https://vuldb.com/?ip.82.221.129.17) | hengill.orangewebsite.com | - | High
 4 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,26 +50,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/moduleinterface.php` | High
-3 | File | `/etc/gsissh/sshd_config` | High
-4 | File | `/forms/nslookupHandler` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/modules/profile/index.php` | High
-8 | File | `/news.dtl.php` | High
-9 | File | `/out.php` | Medium
-10 | File | `/ptms/?page=user` | High
-11 | File | `/systemrw/` | Medium
-12 | File | `/uncpath/` | Medium
-13 | File | `/upload/file.php` | High
-14 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-15 | File | `5.2.9\syscrb.exe` | High
-16 | File | `adclick.php` | Medium
-17 | File | `admin.cgi` | Medium
-18 | File | `admin/category.inc.php` | High
-19 | ... | ... | ...
+2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+3 | File | `/admin.php/news/admin/topic/save` | High
+4 | File | `/admin/comn/service/update.json` | High
+5 | File | `/admin/moduleinterface.php` | High
+6 | File | `/dev/shm` | Medium
+7 | File | `/dl/dl_print.php` | High
+8 | File | `/etc/gsissh/sshd_config` | High
+9 | File | `/forms/nslookupHandler` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/index.php` | Medium
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/news.dtl.php` | High
+15 | File | `/ofcms/company-c-47` | High
+16 | File | `/out.php` | Medium
+17 | File | `/ptms/?page=user` | High
+18 | File | `/systemrw/` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload/file.php` | High
+21 | File | `/usr/sbin/httpd` | High
+22 | File | `/util/print.c` | High
+23 | File | `/web/MCmsAction.java` | High
+24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+25 | File | `5.2.9\syscrb.exe` | High
+26 | File | `abc-pcie.c` | Medium
+27 | File | `accounts/payment_history.php` | High
+28 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,6 +86,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://1275.ru/ioc/414/bitter-apt-iocs/
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
+* https://community.blueliv.com/#!/s/62f5f3fe82df41552632fc11
 * https://twitter.com/ShadowChasing1/status/1504833720489951234
 * https://www.threatminer.org/report.php?q=SuspectedBITTERAPTContinuesTargetingGovernmentofChinaandChineseOrganizations.pdf&y=2019
 

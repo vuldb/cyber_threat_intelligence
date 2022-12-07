@@ -55,36 +55,36 @@ ID | Type | Indicator | Confidence
 6 | File | `/modules/projects/vw_files.php` | High
 7 | File | `/modules/public/date_format.php` | High
 8 | File | `/modules/tasks/gantt.php` | High
-9 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-10 | File | `actions/del.php` | High
-11 | File | `addsite.php` | Medium
-12 | File | `Admin.PHP` | Medium
-13 | File | `admin.php` | Medium
-14 | File | `admin/define.inc.php` | High
-15 | File | `admin/general.php` | High
-16 | File | `admin/review.php` | High
-17 | File | `admincp/auth/secure.php` | High
-18 | File | `affich.php` | Medium
-19 | File | `agenda.php3` | Medium
-20 | File | `agenda2.php3` | Medium
-21 | File | `akocomments.php` | High
-22 | File | `album_portal.php` | High
-23 | File | `al_initialize.php` | High
-24 | File | `announcements.php` | High
-25 | File | `apa_phpinclude.inc.php` | High
-26 | File | `application.php` | High
-27 | File | `ashnews.php/ashheadlines.php` | High
-28 | File | `auction\auction_common.php` | High
-29 | File | `auktion.cgi` | Medium
-30 | File | `auth.inc.php` | Medium
-31 | File | `auth.php` | Medium
-32 | File | `authform.inc.php` | High
-33 | File | `bad_link.php` | Medium
-34 | File | `bb_usage_stats.php` | High
-35 | File | `big.php` | Low
+9 | File | `/out.php` | Medium
+10 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+11 | File | `actions/del.php` | High
+12 | File | `addsite.php` | Medium
+13 | File | `Admin.PHP` | Medium
+14 | File | `admin.php` | Medium
+15 | File | `admin/define.inc.php` | High
+16 | File | `admin/general.php` | High
+17 | File | `admin/review.php` | High
+18 | File | `admincp/auth/secure.php` | High
+19 | File | `affich.php` | Medium
+20 | File | `agenda.php3` | Medium
+21 | File | `agenda2.php3` | Medium
+22 | File | `akocomments.php` | High
+23 | File | `album_portal.php` | High
+24 | File | `al_initialize.php` | High
+25 | File | `announcements.php` | High
+26 | File | `apa_phpinclude.inc.php` | High
+27 | File | `application.php` | High
+28 | File | `ashnews.php/ashheadlines.php` | High
+29 | File | `auction\auction_common.php` | High
+30 | File | `auktion.cgi` | Medium
+31 | File | `auth.inc.php` | Medium
+32 | File | `auth.php` | Medium
+33 | File | `authform.inc.php` | High
+34 | File | `bad_link.php` | Medium
+35 | File | `bb_usage_stats.php` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

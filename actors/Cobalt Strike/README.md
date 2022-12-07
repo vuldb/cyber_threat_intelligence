@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,7 +73,7 @@ ID | IP address | Hostname | Campaign | Confidence
 50 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
 51 | ... | ... | ... | ...
 
-There are 199 more IOC items available. Please use our online service to access the data.
+There are 201 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,13 +81,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -97,47 +96,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/wirelessConnect` | High
+1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/admin/admin.php` | High
-3 | File | `/admin/store.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/api/v1/attack/falco` | High
-6 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-7 | File | `/asms/admin/mechanics/view_mechanic.php` | High
-8 | File | `/balance/service/list` | High
-9 | File | `/cgi-bin/qcmap_auth` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/classes/Master.php?f=delete_appointment` | High
-12 | File | `/classes/Master.php?f=delete_reservation` | High
-13 | File | `/classes/Users.php?f=delete_client` | High
-14 | File | `/CommunitySSORedirect.jsp` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/diagnostic/editclient.php` | High
-17 | File | `/etc/sudoers` | Medium
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/index.php/purchase_order/browse_data` | High
-22 | File | `/index.php?module=global_lists/lists` | High
-23 | File | `/index/user/user_edit.html` | High
-24 | File | `/modules/announcement/index.php?view=edit` | High
-25 | File | `/okm:root` | Medium
-26 | File | `/omos/admin/?page=user/list` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/out.php` | Medium
-29 | File | `/pages/processlogin.php` | High
-30 | File | `/pages/save_user.php` | High
-31 | File | `/php-sms/classes/Master.php` | High
-32 | File | `/php-sms/classes/Master.php?f=delete_inquiry` | High
-33 | File | `/php_action/editProductImage.php` | High
-34 | File | `/php_action/fetchSelectedfood.php` | High
-35 | File | `/php_action/fetchSelectedUser.php` | High
-36 | File | `/plugin/getList` | High
-37 | File | `/public_html/animals` | High
-38 | File | `/register/abort` | High
-39 | ... | ... | ...
+3 | File | `/admin/edit_members.php` | High
+4 | File | `/admin/store.php` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/admin/users/index.php` | High
+7 | File | `/api/sys_username_passwd.cmd` | High
+8 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+9 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+10 | File | `/asms/admin/products/manage_product.php` | High
+11 | File | `/asms/products/view_product.php` | High
+12 | File | `/balance/service/list` | High
+13 | File | `/bsms_ci/index.php` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/calendar/viewcalendar.php` | High
+16 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+17 | File | `/cgi-bin/qcmap_auth` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=delete_appointment` | High
+20 | File | `/classes/Master.php?f=delete_reservation` | High
+21 | File | `/classes/Users.php?f=delete_client` | High
+22 | File | `/clients/listclients.php` | High
+23 | File | `/CommunitySSORedirect.jsp` | High
+24 | File | `/Content/Template/root/reverse-shell.aspx` | High
+25 | File | `/Default/Bd` | Medium
+26 | File | `/device/acceptBind` | High
+27 | File | `/diagnostic/editclient.php` | High
+28 | File | `/event/admin/?page=user/list` | High
+29 | File | `/face-recognition-php/facepay-master/camera.php` | High
+30 | File | `/filemanager/php/connector.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/general/search.php?searchtype=simple` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/hrm/controller/employee.php` | High
+35 | File | `/hrm/employeeadd.php` | High
+36 | File | `/ims/login.php` | High
+37 | File | `/index.php/purchase_order/browse_data` | High
+38 | File | `/index.php?module=configuration/application` | High
+39 | File | `/index.php?module=entities/fields&entities_id=24` | High
+40 | File | `/index.php?module=entities/forms&entities_id=24` | High
+41 | File | `/index/user/user_edit.html` | High
+42 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -209,6 +211,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2022/02/21/qbot-and-zerologon-lead-to-full-domain-compromise/
 * https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/
+* https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
 * https://twitter.com/malware_traffic/status/1592262598195646464

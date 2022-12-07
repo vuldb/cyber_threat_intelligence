@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -56,34 +56,35 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/searchview.php` | High
 2 | File | `/ajax-files/followBoard.php` | High
 3 | File | `/ajax-files/postComment.php` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cgi-bin/kerbynet` | High
-6 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-7 | File | `/domain/add` | Medium
-8 | File | `/etc/sudoers` | Medium
-9 | File | `/home.php` | Medium
-10 | File | `/index.php/weblinks-categories` | High
-11 | File | `/plain` | Low
-12 | File | `/rapi/read_url` | High
-13 | File | `/searchpin.php` | High
-14 | File | `/show_group_members.php` | High
-15 | File | `/soap/server_sa` | High
-16 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-17 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
-18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-19 | File | `/web/google_analytics.php` | High
-20 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-21 | File | `addentry.php` | Medium
-22 | File | `AdminByRequest.exe` | High
-23 | File | `admincp.php?app=prop&do=add` | High
-24 | File | `advsearch.php` | High
-25 | File | `append/override_content_security_policy_directives` | High
-26 | File | `archive_endian.h` | High
-27 | File | `assets/add/dns.php` | High
-28 | File | `bits.c` | Low
-29 | ... | ... | ...
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/categorypage.php` | High
+6 | File | `/cgi-bin/kerbynet` | High
+7 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+8 | File | `/domain/add` | Medium
+9 | File | `/etc/sudoers` | Medium
+10 | File | `/home.php` | Medium
+11 | File | `/index.php/weblinks-categories` | High
+12 | File | `/plain` | Low
+13 | File | `/rapi/read_url` | High
+14 | File | `/searchpin.php` | High
+15 | File | `/show_group_members.php` | High
+16 | File | `/soap/server_sa` | High
+17 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+18 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
+19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+20 | File | `/web/google_analytics.php` | High
+21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+22 | File | `addentry.php` | Medium
+23 | File | `admin/scripts/FileUploader/php.php` | High
+24 | File | `AdminByRequest.exe` | High
+25 | File | `admincp.php?app=prop&do=add` | High
+26 | File | `advsearch.php` | High
+27 | File | `append/override_content_security_policy_directives` | High
+28 | File | `archive_endian.h` | High
+29 | File | `assets/add/dns.php` | High
+30 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

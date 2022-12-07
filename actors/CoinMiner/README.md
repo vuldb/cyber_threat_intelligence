@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,18 +69,18 @@ ID | Type | Indicator | Confidence
 8 | File | `/root/.keeper/` | High
 9 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
 10 | File | `/spacecom/login.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/usr/bin/sonia` | High
+11 | File | `/ucenter/active.php` | High
+12 | File | `/uncpath/` | Medium
 13 | File | `/xampp/guestbook-en.pl` | High
 14 | File | `/zm/index.php` | High
-15 | File | `95.php` | Low
-16 | File | `123flashchat.php` | High
-17 | File | `abook_database.php` | High
-18 | File | `action.php` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `admin/profile_settings_net.html` | High
-21 | File | `admin/vqmods.app/vqmods.inc.php` | High
-22 | File | `af.cgi/alienform.cgi` | High
+15 | File | `123flashchat.php` | High
+16 | File | `abook_database.php` | High
+17 | File | `action.php` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/profile_settings_net.html` | High
+20 | File | `admin/vqmods.app/vqmods.inc.php` | High
+21 | File | `af.cgi/alienform.cgi` | High
+22 | File | `afd.sys` | Low
 23 | File | `aim/icq` | Low
 24 | File | `ajax.php` | Medium
 25 | File | `akocomment.php` | High
@@ -93,16 +93,16 @@ ID | Type | Indicator | Confidence
 32 | File | `blog.cgi` | Medium
 33 | File | `bluewrench-video-widget.php` | High
 34 | File | `browse.php` | Medium
-35 | File | `cartman.php` | Medium
-36 | File | `cdf.c` | Low
-37 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-38 | File | `chetcpasswd.cgi` | High
-39 | File | `classifieds.cgi` | High
-40 | File | `cmd.php` | Low
-41 | File | `collectivite.class.php` | High
+35 | File | `carsdetail.asp` | High
+36 | File | `cartman.php` | Medium
+37 | File | `cdf.c` | Low
+38 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+39 | File | `chetcpasswd.cgi` | High
+40 | File | `classifieds.cgi` | High
+41 | File | `cmd.php` | Low
 42 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,30 +49,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/cloud_config/router_post/register` | High
-3 | File | `/etc/gsissh/sshd_config` | High
-4 | File | `/forms/nslookupHandler` | High
-5 | File | `/include/chart_generator.php` | High
-6 | File | `/index.php` | Medium
-7 | File | `/log_download.cgi` | High
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/news.dtl.php` | High
-10 | File | `/p1/p2/:name` | Medium
-11 | File | `/ptms/?page=user` | High
-12 | File | `/setup/finish` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/uncpath/` | Medium
-15 | File | `/upload/file.php` | High
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/wolfcms/?/admin/user/add` | High
-18 | File | `/wp-admin` | Medium
-19 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-20 | File | `/wp-json/wc/v3/webhooks` | High
-21 | File | `5.2.9\syscrb.exe` | High
-22 | File | `adclick.php` | Medium
-23 | ... | ... | ...
+2 | File | `/apiadmin/notice/add` | High
+3 | File | `/cloud_config/router_post/register` | High
+4 | File | `/etc/gsissh/sshd_config` | High
+5 | File | `/forms/nslookupHandler` | High
+6 | File | `/include/chart_generator.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/log_download.cgi` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/news.dtl.php` | High
+11 | File | `/p1/p2/:name` | Medium
+12 | File | `/ptms/?page=user` | High
+13 | File | `/setup/finish` | High
+14 | File | `/spip.php` | Medium
+15 | File | `/uncpath/` | Medium
+16 | File | `/upload/file.php` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+19 | File | `/wolfcms/?/admin/user/add` | High
+20 | File | `/wp-admin` | Medium
+21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `5.2.9\syscrb.exe` | High
+24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

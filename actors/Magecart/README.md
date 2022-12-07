@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [SV](https://vuldb.com/?country.sv)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -69,33 +69,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/import_cert_file/` | High
 3 | File | `/action/import_wireguard_cert_file/` | High
 4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/group` | Medium
-6 | File | `/admin/profile.php` | High
-7 | File | `/admin/question/edit` | High
-8 | File | `/api/crontab` | Medium
-9 | File | `/api/programs/orgUnits?programs` | High
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/appointments/manage_appointment.php` | High
-12 | File | `/asms/admin/services/manage_service.php` | High
-13 | File | `/balance/service/list` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/csms/?page=contact_us` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/editorder.php` | High
-18 | File | `/etc/gsissh/sshd_config` | High
-19 | File | `/garage/editorder.php` | High
-20 | File | `/git-prereceive-callback` | High
-21 | File | `/goform/addWifiMacFilter` | High
-22 | File | `/goform/formSetDeviceName` | High
-23 | File | `/goform/SetFirewallCfg` | High
+5 | File | `/admin/edit_members.php` | High
+6 | File | `/admin/group` | Medium
+7 | File | `/admin/submit-articles` | High
+8 | File | `/admin/users/index.php` | High
+9 | File | `/api/crontab` | Medium
+10 | File | `/api/programs/orgUnits?programs` | High
+11 | File | `/api/trackedEntityInstances` | High
+12 | File | `/appointments/manage_appointment.php` | High
+13 | File | `/asms/admin/services/manage_service.php` | High
+14 | File | `/aux` | Low
+15 | File | `/balance/service/list` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/dev/zero` | Medium
+19 | File | `/editorder.php` | High
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/event/admin/?page=user/list` | High
+22 | File | `/garage/editorder.php` | High
+23 | File | `/goform/SetIpMacBind` | High
 24 | File | `/goform/WanParameterSetting` | High
 25 | File | `/goform/wizard_end` | High
 26 | File | `/Hospital-Management-System-master/func.php` | High
 27 | File | `/hrm/index.php?msg` | High
 28 | File | `/index.php?module=global_lists/lists` | High
-29 | ... | ... | ...
+29 | File | `/languages/index.php` | High
+30 | File | `/linkedcontent/listfiles.php` | High
+31 | File | `/mgm_dev_upgrade.asp` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/myAccount` | Medium
+34 | ... | ... | ...
 
-There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

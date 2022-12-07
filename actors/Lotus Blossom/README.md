@@ -66,20 +66,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/etc/ajenti/config.yml` | High
 4 | File | `/goform/telnet` | High
 5 | File | `/modules/profile/index.php` | High
-6 | File | `/php/init.poll.php` | High
-7 | File | `/rom-0` | Low
-8 | File | `/tmp/phpglibccheck` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/var/tmp/sess_*` | High
-11 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-12 | File | `action.php` | Medium
-13 | File | `actionphp/download.File.php` | High
-14 | File | `add_comment.php` | High
-15 | File | `admin/admin.php` | High
-16 | File | `admin/content.php` | High
-17 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-18 | File | `admin/memberviewdetails.php` | High
-19 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+6 | File | `/rom-0` | Low
+7 | File | `/tmp/phpglibccheck` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/var/tmp/sess_*` | High
+10 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+11 | File | `action.php` | Medium
+12 | File | `actionphp/download.File.php` | High
+13 | File | `add_comment.php` | High
+14 | File | `admin/admin.php` | High
+15 | File | `admin/content.php` | High
+16 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+17 | File | `admin/memberviewdetails.php` | High
+18 | File | `admin/src/containers/InputModalStepperProvider/index.js` | High
+19 | File | `admin_gallery.php3` | High
 20 | File | `affich.php` | Medium
 21 | File | `agent/Core/Controller/SendRequest.cpp` | High
 22 | File | `akeyActivationLogin.do` | High
@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 48 | File | `details_view.php` | High
 49 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

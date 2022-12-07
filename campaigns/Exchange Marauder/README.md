@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [KR](https://vuldb.com/?country.kr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 7 | File | `admin/modules/tools/ip_history_logs.php` | High
 8 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

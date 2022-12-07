@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,37 +62,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/controller/JobLogController.java` | High
+2 | File | `/Admin/add-student.php` | High
 3 | File | `/Admin/createClass.php` | High
 4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/fst_upload.inc.php` | High
-6 | File | `/admin/problem_judge.php` | High
-7 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-10 | File | `/asms/admin/?page=user/manage_user` | High
-11 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-12 | File | `/asms/classes/Master.php?f=delete_service` | High
-13 | File | `/attachments` | Medium
-14 | File | `/avms/index.php` | High
-15 | File | `/clients/profile` | High
-16 | File | `/College/admin/teacher.php` | High
-17 | File | `/dashboard/add-service.php` | High
-18 | File | `/dede/file_manage_control.php` | High
-19 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-20 | File | `/index.php/admins/Fields/get_fields.html` | High
-21 | File | `/js/player/dmplayer/dmku/index.php` | High
-22 | File | `/login.php` | Medium
-23 | File | `/mgm_dev_upgrade.asp` | High
-24 | File | `/pages/save_user.php` | High
-25 | File | `/php-sms/admin/?page=user/manage_user` | High
-26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-27 | File | `/php_action/fetchSelectedCategories.php` | High
-28 | File | `/psrs/admin/categories/manage_category.php` | High
-29 | File | `/register/abort` | High
-30 | ... | ... | ...
+5 | File | `/admin/edit_members.php` | High
+6 | File | `/admin/pages/sections_save.php` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/transactions/update_status.php` | High
+9 | File | `/admin/users/index.php` | High
+10 | File | `/apiv1/` | Low
+11 | File | `/asms/admin/products/manage_product.php` | High
+12 | File | `/asms/products/view_product.php` | High
+13 | File | `/avms/index.php` | High
+14 | File | `/bsms_ci/index.php` | High
+15 | File | `/bsms_ci/index.php/user/edit_user/` | High
+16 | File | `/calendar/viewcalendar.php` | High
+17 | File | `/clients/listclients.php` | High
+18 | File | `/College/admin/teacher.php` | High
+19 | File | `/dashboard/add-service.php` | High
+20 | File | `/device/` | Medium
+21 | File | `/event/admin/?page=user/list` | High
+22 | File | `/forums/editforum.php` | High
+23 | File | `/garage/php_action/createBrand.php` | High
+24 | File | `/general/search.php?searchtype=simple` | High
+25 | File | `/goform/AddSysLogRule` | High
+26 | File | `/goform/setDiagnoseInfo` | High
+27 | File | `/goform/SetIpMacBind` | High
+28 | File | `/goform/setSnmpInfo` | High
+29 | File | `/goform/setUplinkInfo` | High
+30 | File | `/hrm/controller/employee.php` | High
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/ims/login.php` | High
+34 | File | `/index.php/admins/Fields/get_fields.html` | High
+35 | File | `/index.php?module=configuration/application` | High
+36 | File | `/index.php?module=entities/fields&entities_id=24` | High
+37 | File | `/index.php?module=entities/forms&entities_id=24` | High
+38 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+39 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

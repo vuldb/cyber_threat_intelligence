@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with CopyKittens:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CopyKittens:
 
 * [PT](https://vuldb.com/?country.pt)
-* [SV](https://vuldb.com/?country.sv)
 * [AR](https://vuldb.com/?country.ar)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -54,14 +54,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,29 +77,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/add-fee.php` | High
 6 | File | `/admin/baojia_list.php` | High
 7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/admin/index.PHP` | High
-9 | File | `/anony/mjpg.cgi` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/v2/open/rowsInfo` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/appointments/update_status.php` | High
-14 | File | `/authUserAction!edit.action` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/bin/httpd` | Medium
-17 | File | `/bits/stl_vector.h` | High
-18 | File | `/bookings/update_status.php` | High
-19 | File | `/cgi-bin/DownloadFlash` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/classes/Users.php?f=delete_client` | High
-22 | File | `/Core/Ap4File.cpp` | High
-23 | File | `/csms/admin/storages/view_storage.php` | High
-24 | File | `/dede/file_manage_control.php` | High
-25 | File | `/etc/ciel.cfg` | High
-26 | File | `/etc/openshift/server_priv.pem` | High
-27 | File | `/etc/shadow.sample` | High
-28 | ... | ... | ...
+8 | File | `/anony/mjpg.cgi` | High
+9 | File | `/api/common/ping` | High
+10 | File | `/api/v2/open/rowsInfo` | High
+11 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+12 | File | `/appointments/update_status.php` | High
+13 | File | `/authUserAction!edit.action` | High
+14 | File | `/bin/boa` | Medium
+15 | File | `/bookings/update_status.php` | High
+16 | File | `/cgi-bin/DownloadFlash` | High
+17 | File | `/classes/Master.php?f=delete_category` | High
+18 | File | `/classes/Users.php?f=delete_client` | High
+19 | File | `/contacts/listcontacts.php` | High
+20 | File | `/Core/Ap4File.cpp` | High
+21 | File | `/csms/admin/storages/view_storage.php` | High
+22 | File | `/dede/file_manage_control.php` | High
+23 | File | `/depotHead/list` | High
+24 | File | `/etc/ciel.cfg` | High
+25 | File | `/etc/openshift/server_priv.pem` | High
+26 | File | `/etc/shadow.sample` | High
+27 | File | `/forms/web_runScript` | High
+28 | File | `/garage/php_action/createBrand.php` | High
+29 | File | `/general/search.php?searchtype=simple` | High
+30 | File | `/goform/AddSysLogRule` | High
+31 | File | `/goform/formSetFirewallCfg` | High
+32 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

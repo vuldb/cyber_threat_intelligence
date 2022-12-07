@@ -96,9 +96,10 @@ ID | Type | Indicator | Confidence
 29 | File | `admin.php` | Medium
 30 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
 31 | File | `admin/controller/pages/localisation/language.php` | High
-32 | ... | ... | ...
+32 | File | `admin/fm/` | Medium
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

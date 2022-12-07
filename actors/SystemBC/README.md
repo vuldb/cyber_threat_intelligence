@@ -25,9 +25,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 2 | T1211 | CWE-254 | 7PK Security Features | High
-3 | T1600 | CWE-310 | Cryptographic Issues | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,6 +39,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/category_view.php` | High
+2 | File | `site-settings.php` | High
 
 ## References
 

@@ -46,11 +46,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,14 +96,14 @@ ID | Type | Indicator | Confidence
 36 | File | `/librarian/bookdetails.php` | High
 37 | File | `/lists/admin/` | High
 38 | File | `/mail/index.html` | High
-39 | File | `/medicines` | Medium
-40 | File | `/navigate/navigate_download.php` | High
-41 | File | `/public/plugins/` | High
-42 | File | `/rapi/read_url` | High
-43 | File | `/reps/admin/?page=agents/manage_agent` | High
+39 | File | `/navigate/navigate_download.php` | High
+40 | File | `/public/plugins/` | High
+41 | File | `/rapi/read_url` | High
+42 | File | `/reps/admin/?page=agents/manage_agent` | High
+43 | File | `/rest/api/1.0/render` | High
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

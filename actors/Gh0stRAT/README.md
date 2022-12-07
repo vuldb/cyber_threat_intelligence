@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -115,46 +115,45 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/about.php` | Medium
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/lab.php` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/students/view_student.php` | High
-7 | File | `/admin/users_add.php` | High
-8 | File | `/administration/settings_registration.php` | High
-9 | File | `/api/` | Low
-10 | File | `/appConfig/userDB.json` | High
-11 | File | `/bd_genie_create_account.cgi` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/c/macho_reader.c` | High
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/claire_blake` | High
-17 | File | `/classes/Master.php?f=delete_appointment` | High
-18 | File | `/cmscp/ext/collect/fetch_url.do` | High
-19 | File | `/coreframe/app/attachment/admin/index.php` | High
-20 | File | `/debug` | Low
-21 | File | `/debug/pprof` | Medium
-22 | File | `/defaultui/player/modern.html` | High
-23 | File | `/etc/init0.d/S80telnetd.sh` | High
-24 | File | `/etc/shadow.sample` | High
-25 | File | `/foms/place-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/SetIpMacBind` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/htdocs/utils/Files.php` | High
-30 | File | `/jfinal_cms/system/role/list` | High
-31 | File | `/librarian/edit_book_details.php` | High
-32 | File | `/management/api/rcx_management/global_config_query` | High
-33 | File | `/master/index.php` | High
-34 | File | `/mkshop/Men/profile.php` | High
-35 | File | `/modx/manager/` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/out.php` | Medium
-38 | File | `/pages/faculty_sched.php` | High
-39 | File | `/pages/processlogin.php` | High
-40 | File | `/php_action/createUser.php` | High
-41 | ... | ... | ...
+4 | File | `/admin/fst_upload.inc.php` | High
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/students/view_student.php` | High
+8 | File | `/admin/users_add.php` | High
+9 | File | `/administration/settings_registration.php` | High
+10 | File | `/api/` | Low
+11 | File | `/appConfig/userDB.json` | High
+12 | File | `/authUserAction!edit.action` | High
+13 | File | `/bd_genie_create_account.cgi` | High
+14 | File | `/bin/httpd` | Medium
+15 | File | `/c/macho_reader.c` | High
+16 | File | `/cgi-bin/kerbynet` | High
+17 | File | `/cgi-bin/wapopen` | High
+18 | File | `/cgi-bin/webproc` | High
+19 | File | `/claire_blake` | High
+20 | File | `/classes/Master.php?f=delete_appointment` | High
+21 | File | `/cmscp/ext/collect/fetch_url.do` | High
+22 | File | `/coreframe/app/attachment/admin/index.php` | High
+23 | File | `/debug` | Low
+24 | File | `/debug/pprof` | Medium
+25 | File | `/defaultui/player/modern.html` | High
+26 | File | `/etc/init0.d/S80telnetd.sh` | High
+27 | File | `/etc/shadow.sample` | High
+28 | File | `/foms/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/SetIpMacBind` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/htdocs/utils/Files.php` | High
+33 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+34 | File | `/jfinal_cms/system/role/list` | High
+35 | File | `/librarian/edit_book_details.php` | High
+36 | File | `/management/api/rcx_management/global_config_query` | High
+37 | File | `/master/index.php` | High
+38 | File | `/mkshop/Men/profile.php` | High
+39 | File | `/modx/manager/` | High
+40 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

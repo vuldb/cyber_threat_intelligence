@@ -93,12 +93,12 @@ ID | Type | Indicator | Confidence
 36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 37 | File | `/services/system/setup.json` | High
 38 | File | `/spip.php` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/vloggers_merch/?p=view_product` | High
-41 | File | `/webconsole/APIController` | High
-42 | File | `/websocket/exec` | High
-43 | File | `/whbs/?page=my_bookings` | High
-44 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | File | `/vloggers_merch/?p=view_product` | High
+42 | File | `/webconsole/APIController` | High
+43 | File | `/websocket/exec` | High
+44 | File | `/whbs/?page=my_bookings` | High
 45 | ... | ... | ...
 
 There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

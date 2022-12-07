@@ -53,31 +53,31 @@ ID | Type | Indicator | Confidence
 1 | File | `/.vnc/sesman_${username}_passwd` | High
 2 | File | `/admin` | Low
 3 | File | `/admin/uesrs.php&action=display&value=Hide` | High
-4 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/chat_im/chat_window.php` | High
-7 | File | `/cloud_config/router_post/get_reg_verify_code` | High
-8 | File | `/etc/openstack-dashboard/local_settings` | High
-9 | File | `/etc/passwd` | Medium
-10 | File | `/filemanager/upload.php` | High
-11 | File | `/goform/addressNat` | High
-12 | File | `/goform/addRouting` | High
-13 | File | `/goform/SetNetControlList` | High
-14 | File | `/include/menu_v.inc.php` | High
-15 | File | `/librarian/lab.php` | High
-16 | File | `/MagickCore/statistic.c` | High
-17 | File | `/omos/admin/?page=user/list` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/panel/fields/add` | High
-20 | File | `/patient/settings.php` | High
-21 | File | `/proc/*/cmdline"` | High
-22 | File | `/proc/pid/syscall` | High
-23 | File | `/release-x64/otfccdump+0x4fe9a7` | High
-24 | File | `/rrps/classes/Master.php?f=save_category` | High
-25 | File | `/sbin/acos_service` | High
+4 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+5 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+6 | File | `/cgi-bin/editBookmark` | High
+7 | File | `/chat_im/chat_window.php` | High
+8 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+9 | File | `/etc/openstack-dashboard/local_settings` | High
+10 | File | `/etc/passwd` | Medium
+11 | File | `/filemanager/upload.php` | High
+12 | File | `/goform/addressNat` | High
+13 | File | `/goform/addRouting` | High
+14 | File | `/goform/SetNetControlList` | High
+15 | File | `/include/menu_v.inc.php` | High
+16 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+17 | File | `/librarian/lab.php` | High
+18 | File | `/MagickCore/statistic.c` | High
+19 | File | `/omos/admin/?page=user/list` | High
+20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/panel/fields/add` | High
+22 | File | `/patient/settings.php` | High
+23 | File | `/proc/*/cmdline"` | High
+24 | File | `/proc/pid/syscall` | High
+25 | File | `/release-x64/otfccdump+0x4fe9a7` | High
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

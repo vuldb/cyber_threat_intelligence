@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +45,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/edit_admin_details.php?id=admin` | High
-2 | File | `/admin/inquiries/view_details.php` | High
-3 | File | `/alarm_pi/alarmService.php` | High
-4 | File | `/api/admin/attachments/upload` | High
-5 | File | `/application/controllers/Users.php` | High
-6 | File | `/classes/Master.php?f=delete_message` | High
-7 | File | `/classes/Master.php?f=delete_reservation` | High
-8 | File | `/classes/Master.php?f=delete_schedule` | High
-9 | File | `/classes/Master.php?f=delete_service` | High
+1 | File | `/admin/inquiries/view_details.php` | High
+2 | File | `/api/admin/attachments/upload` | High
+3 | File | `/api/audits` | Medium
+4 | File | `/application/controllers/Users.php` | High
+5 | File | `/classes/Master.php?f=delete_message` | High
+6 | File | `/classes/Master.php?f=delete_reservation` | High
+7 | File | `/classes/Master.php?f=delete_schedule` | High
+8 | File | `/classes/Master.php?f=delete_service` | High
+9 | File | `/classes/Master.php?f=delete_train` | High
 10 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

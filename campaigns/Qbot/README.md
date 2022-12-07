@@ -97,34 +97,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/../conf/config.properties` | High
-3 | File | `/componetns/user/class.user.php` | High
-4 | File | `/etc/passwd` | Medium
-5 | File | `/etc/tomcat8/Catalina/attack` | High
-6 | File | `/front/document.form.php` | High
-7 | File | `/goform/wizard_end` | High
-8 | File | `/ibi_apps/WFServlet.cfg` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/out.php` | Medium
-11 | File | `/proc/sysvipc/sem` | High
-12 | File | `/rest/api/latest/projectvalidate/key` | High
-13 | File | `/rest/collectors/1.0/template/custom` | High
-14 | File | `/RestAPI` | Medium
-15 | File | `/search.php` | Medium
-16 | File | `/ServletAPI/accounts/login` | High
-17 | File | `/trigger` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/user/login/oauth` | High
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-22 | File | `/var/log/messages` | High
-23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/websocket/exec` | High
-26 | ... | ... | ...
+1 | File | `/../conf/config.properties` | High
+2 | File | `/componetns/user/class.user.php` | High
+3 | File | `/etc/passwd` | Medium
+4 | File | `/etc/tomcat8/Catalina/attack` | High
+5 | File | `/front/document.form.php` | High
+6 | File | `/goform/wizard_end` | High
+7 | File | `/ibi_apps/WFServlet.cfg` | High
+8 | File | `/include/chart_generator.php` | High
+9 | File | `/out.php` | Medium
+10 | File | `/rest/api/latest/projectvalidate/key` | High
+11 | File | `/rest/collectors/1.0/template/custom` | High
+12 | File | `/RestAPI` | Medium
+13 | File | `/search.php` | Medium
+14 | File | `/ServletAPI/accounts/login` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/user/login/oauth` | High
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+19 | File | `/var/log/messages` | High
+20 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+21 | File | `/WEB-INF/web.xml` | High
+22 | File | `/websocket/exec` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `/wp-json` | Medium
+25 | File | `/x_program_center/jaxrs/invoke` | High
+26 | File | `/zm/index.php` | High
+27 | ... | ... | ...
 
-There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

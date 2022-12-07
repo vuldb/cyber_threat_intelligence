@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cryptbot:
 
 * [DE](https://vuldb.com/?country.de)
+* [JP](https://vuldb.com/?country.jp)
 
 ## IOC - Indicator of Compromise
 
@@ -42,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/ci_spms/admin/search/searching/` | High
-2 | Argument | `langType` | Medium
-3 | Argument | `search` | Low
+1 | File | `/aux` | Low
+2 | File | `/ci_spms/admin/search/searching/` | High
+3 | Argument | `langType` | Medium
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

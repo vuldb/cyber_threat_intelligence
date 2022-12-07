@@ -71,7 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,35 +81,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/login.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/alerts/alertConfigField.php` | High
-6 | File | `/API/system/admins/session` | High
-7 | File | `/cgi-bin/ExportALLSettings.sh` | High
-8 | File | `/config/config.php` | High
-9 | File | `/context/%2e/WEB-INF/web.xml` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-12 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-13 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-14 | File | `/DataHandler/Handler_CFG.ashx` | High
-15 | File | `/ECT_Provider/` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/fuel/index.php/fuel/logs/items` | High
-18 | File | `/fuel/index.php/fuel/pages/items` | High
-19 | File | `/image_zoom.php` | High
-20 | File | `/include/config.cache.php` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/plugin/ajax.php` | High
-24 | File | `/proxy/` | Low
-25 | File | `/public/plugins/` | High
-26 | File | `/rest/api/2/search` | High
-27 | File | `/rest/api/latest/projectvalidate/key` | High
-28 | File | `/rom-0` | Low
-29 | ... | ... | ...
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/alerts/alertConfigField.php` | High
+7 | File | `/API/system/admins/session` | High
+8 | File | `/cgi-bin/ExportALLSettings.sh` | High
+9 | File | `/config/config.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+15 | File | `/DataHandler/Handler_CFG.ashx` | High
+16 | File | `/ECT_Provider/` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/index.php/fuel/pages/items` | High
+20 | File | `/image_zoom.php` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mkshop/Men/profile.php` | High
+24 | File | `/plugin/ajax.php` | High
+25 | File | `/proxy/` | Low
+26 | File | `/public/plugins/` | High
+27 | File | `/rest/api/2/search` | High
+28 | File | `/rest/api/latest/projectvalidate/key` | High
+29 | File | `/rom-0` | Low
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

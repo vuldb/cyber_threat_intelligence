@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -118,8 +118,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -137,33 +136,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/operations/packages.php` | High
 7 | File | `/admin/photo.php` | High
 8 | File | `/admin/renewaldue.php` | High
-9 | File | `/ad_js.php` | Medium
-10 | File | `/Ap4RtpAtom.cpp` | High
-11 | File | `/app/options.py` | High
-12 | File | `/bcms/admin/?page=user/list` | High
-13 | File | `/bsms/?page=manage_account` | High
-14 | File | `/catcompany.php` | High
-15 | File | `/cgi-bin/login.cgi` | High
-16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/dashboard/reports/logs/view` | High
-20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/egroupware/index.php` | High
-24 | File | `/etc/hosts` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/fuel/sitevariables/delete/4` | High
-27 | File | `/goform/setmac` | High
-28 | File | `/goform/wizard_end` | High
-29 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/index.php?module=entities/entities` | High
-32 | File | `/index/jobfairol/show/` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/admin/transactions/update_status.php` | High
+11 | File | `/ad_js.php` | Medium
+12 | File | `/Ap4RtpAtom.cpp` | High
+13 | File | `/app/options.py` | High
+14 | File | `/bsms/?page=manage_account` | High
+15 | File | `/catcompany.php` | High
+16 | File | `/cgi-bin/login.cgi` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/ci_hms/massage_room/edit/1` | High
+19 | File | `/context/%2e/WEB-INF/web.xml` | High
+20 | File | `/dashboard/reports/logs/view` | High
+21 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/egroupware/index.php` | High
+25 | File | `/etc/hosts` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/fuel/sitevariables/delete/4` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?module=entities/entities` | High
 33 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MedusaLocker:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,38 +51,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_cert_file/` | High
-2 | File | `/action/import_e2c_json_file/` | High
-3 | File | `/action/import_file/` | High
-4 | File | `/action/import_wireguard_cert_file/` | High
-5 | File | `/action/import_xml_file/` | High
-6 | File | `/action/ipcamRecordPost` | High
-7 | File | `/action/ipcamSetParamPost` | High
-8 | File | `/action/wirelessConnect` | High
-9 | File | `/admin/?page=bookings/view_details` | High
-10 | File | `/admin/?page=orders/manage_request` | High
-11 | File | `/admin/?page=user/manage_user` | High
-12 | File | `/admin/sign/out` | High
-13 | File | `/admin/students/manage.php` | High
-14 | File | `/api/common/ping` | High
-15 | File | `/api/geojson` | Medium
-16 | File | `/api/public/signup` | High
-17 | File | `/api/v1/attack` | High
-18 | File | `/api/v1/attack/falco` | High
-19 | File | `/api/v1/attack/token` | High
-20 | File | `/api/v1/bait/set` | High
-21 | File | `/bookings/update_status.php` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php?f=delete_appointment` | High
-24 | File | `/classes/Users.php?f=delete_client` | High
-25 | File | `/clearance/clearance.php` | High
-26 | File | `/depotHead/list` | High
-27 | File | `/dev/shm` | Medium
-28 | File | `/edit/server` | Medium
-29 | File | `/editorder.php` | High
-30 | ... | ... | ...
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/pages/sections_save.php` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/transactions/update_status.php` | High
+9 | File | `/admin/users/index.php` | High
+10 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/apiv1/` | Low
+13 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+14 | File | `/asms/admin/?page=user/manage_user` | High
+15 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+16 | File | `/asms/admin/products/manage_product.php` | High
+17 | File | `/asms/products/view_product.php` | High
+18 | File | `/attachments` | Medium
+19 | File | `/avms/index.php` | High
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/calendar/viewcalendar.php` | High
+23 | File | `/dede/file_manage_control.php` | High
+24 | File | `/device/` | Medium
+25 | File | `/event/admin/?page=user/list` | High
+26 | File | `/forums/editforum.php` | High
+27 | File | `/garage/php_action/createBrand.php` | High
+28 | File | `/goform/AddSysLogRule` | High
+29 | File | `/goform/setDiagnoseInfo` | High
+30 | File | `/goform/SetIpMacBind` | High
+31 | File | `/goform/setUplinkInfo` | High
+32 | File | `/hrm/controller/employee.php` | High
+33 | File | `/hrm/employeeadd.php` | High
+34 | File | `/ims/login.php` | High
+35 | File | `/index.php/admins/Fields/get_fields.html` | High
+36 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

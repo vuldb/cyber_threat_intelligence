@@ -78,12 +78,12 @@ ID | Type | Indicator | Confidence
 15 | File | `/show_news.php` | High
 16 | File | `/system?action=ServiceAdmin` | High
 17 | File | `/uncpath/` | Medium
-18 | File | `adclick.php` | Medium
-19 | File | `admin.asp` | Medium
-20 | File | `admin/categories_industry.php` | High
+18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+19 | File | `adclick.php` | Medium
+20 | File | `admin.asp` | Medium
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

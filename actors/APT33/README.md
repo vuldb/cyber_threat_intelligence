@@ -18,7 +18,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [FR](https://vuldb.com/?country.fr)
-* [IT](https://vuldb.com/?country.it)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -54,11 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-40 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -86,20 +87,21 @@ ID | Type | Indicator | Confidence
 16 | File | `/api/geojson` | Medium
 17 | File | `/api/v1/attack/token` | High
 18 | File | `/api/v2/open/rowsInfo` | High
-19 | File | `/application/documents/display.aspx` | High
-20 | File | `/asms/classes/Master.php?f=delete_img` | High
-21 | File | `/bin/httpd` | Medium
-22 | File | `/bin/proc.cgi` | High
-23 | File | `/classes/Master.php?f=delete_img` | High
-24 | File | `/csms/?page=contact_us` | High
-25 | File | `/diag_ping_admin.asp` | High
-26 | File | `/fastfood/purchase.php` | High
-27 | File | `/FormLogin` | Medium
-28 | File | `/garage/editorder.php` | High
-29 | File | `/goform/form2WizardStep54` | High
-30 | ... | ... | ...
+19 | File | `/asms/classes/Master.php?f=delete_img` | High
+20 | File | `/bsms_ci/index.php/user/edit_user/` | High
+21 | File | `/classes/Master.php?f=delete_img` | High
+22 | File | `/device/signin` | High
+23 | File | `/diag_ping_admin.asp` | High
+24 | File | `/fastfood/purchase.php` | High
+25 | File | `/FormLogin` | Medium
+26 | File | `/garage/editorder.php` | High
+27 | File | `/goform/form2WizardStep54` | High
+28 | File | `/goform/NatStaticSetting` | High
+29 | File | `/goform/SetNetControlList` | High
+30 | File | `/gpac/src/bifs/unquantize.c` | High
+31 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

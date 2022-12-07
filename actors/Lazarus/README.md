@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -270,13 +270,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -284,30 +283,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adfs/ls` | Medium
+1 | File | `/admin.php/Admin/adminadd.html` | High
 2 | File | `/admin/controller/JobLogController.java` | High
 3 | File | `/Admin/dashboard.php` | High
 4 | File | `/admin/problem_judge.php` | High
-5 | File | `/admin/store.php` | High
-6 | File | `/api/user/password/sent-reset-email` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-9 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-10 | File | `/asms/classes/Master.php?f=delete_service` | High
-11 | File | `/balance/service/list` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
+5 | File | `/api/user/password/sent-reset-email` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+9 | File | `/asms/classes/Master.php?f=delete_service` | High
+10 | File | `/bsms_ci/index.php` | High
+11 | File | `/bsms_ci/index.php/book` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
 13 | File | `/diag_ping_admin.asp` | High
 14 | File | `/diag_tracert_admin.asp` | High
-15 | File | `/FormLogin` | Medium
-16 | File | `/goform/wizard_end` | High
-17 | File | `/lilac/main.php` | High
-18 | File | `/module/report_event/index.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-21 | File | `/plugin/getList` | High
-22 | ... | ... | ...
+15 | File | `/face-recognition-php/facepay-master/camera.php` | High
+16 | File | `/FormLogin` | Medium
+17 | File | `/goform/wizard_end` | High
+18 | File | `/gpac/src/bifs/unquantize.c` | High
+19 | File | `/hrm/controller/employee.php` | High
+20 | File | `/index/user/user_edit.html` | High
+21 | File | `/login.php` | Medium
+22 | File | `/Member/memberedit.html` | High
+23 | File | `/pages/processlogin.php` | High
+24 | File | `/product/savenewproduct.php?flag=1` | High
+25 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

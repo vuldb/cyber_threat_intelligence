@@ -81,34 +81,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/files.md5` | Medium
 6 | File | `/forum/away.php` | High
 7 | File | `/horde/util/go.php` | High
-8 | File | `/images/` | Medium
-9 | File | `/inc/parser/xhtml.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/login` | Low
-12 | File | `/members/view_member.php` | High
-13 | File | `/mkshop/Men/profile.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/Noxen-master/users.php` | High
-16 | File | `/one_church/userregister.php` | High
-17 | File | `/out.php` | Medium
-18 | File | `/owa/auth/logon.aspx` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-21 | File | `/SASWebReportStudio/logonAndRender.do` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-25 | File | `/tmp/phpglibccheck` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/v2/quantum/save-data-upload-big-file` | High
-28 | File | `4.edu.php` | Medium
-29 | File | `adclick.php` | Medium
-30 | File | `addentry.php` | Medium
-31 | File | `addressbookprovider.php` | High
-32 | File | `admin.jcomments.php` | High
-33 | ... | ... | ...
+8 | File | `/hrm/employeeview.php` | High
+9 | File | `/images/` | Medium
+10 | File | `/inc/parser/xhtml.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/login` | Low
+13 | File | `/members/view_member.php` | High
+14 | File | `/mkshop/Men/profile.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/Noxen-master/users.php` | High
+17 | File | `/one_church/userregister.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/owa/auth/logon.aspx` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+26 | File | `/tmp/phpglibccheck` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/v2/quantum/save-data-upload-big-file` | High
+29 | File | `4.edu.php` | Medium
+30 | File | `adclick.php` | Medium
+31 | File | `addentry.php` | Medium
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

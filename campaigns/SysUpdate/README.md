@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 7 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
 8 | ... | ... | ...
 
-There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -83,37 +83,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `.procmailrc` | Medium
-3 | File | `/../../conf/template/uhttpd.json` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/communitymanagement.php` | High
-6 | File | `/admin/contenttemp` | High
-7 | File | `/admin/extended` | High
-8 | File | `/admin/featured.php` | High
-9 | File | `/admin/generalsettings.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/modules/system/custom_field.php` | High
-12 | File | `/admin/newsletter1.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/admin/students/view_student.php` | High
-16 | File | `/admin/usermanagement.php` | High
-17 | File | `/api/addusers` | High
-18 | File | `/api/crontab` | Medium
-19 | File | `/api/RecordingList/DownloadRecord?file=` | High
-20 | File | `/api/user/upsert/<uuid>` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/cgi-bin/wapopen` | High
-23 | File | `/cgi-bin/webviewer_login_page` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/cgi-mod/lookup.cgi` | High
-26 | File | `/dashboard/updatelogo.php` | High
-27 | File | `/designer/add/layout` | High
-28 | File | `/dev/dri/card1` | High
-29 | File | `/etc/sudoers` | Medium
-30 | File | `/export` | Low
-31 | File | `/filemanager/upload/drop` | High
-32 | File | `/forum/away.php` | High
+2 | File | `.../gogo/` | Medium
+3 | File | `.procmailrc` | Medium
+4 | File | `/../../conf/template/uhttpd.json` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/communitymanagement.php` | High
+7 | File | `/admin/contenttemp` | High
+8 | File | `/admin/extended` | High
+9 | File | `/admin/featured.php` | High
+10 | File | `/admin/generalsettings.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/modules/system/custom_field.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/students/manage.php` | High
+16 | File | `/admin/students/view_student.php` | High
+17 | File | `/admin/usermanagement.php` | High
+18 | File | `/api/addusers` | High
+19 | File | `/api/crontab` | Medium
+20 | File | `/api/RecordingList/DownloadRecord?file=` | High
+21 | File | `/api/user/upsert/<uuid>` | High
+22 | File | `/bin/boa` | Medium
+23 | File | `/cgi-bin/wapopen` | High
+24 | File | `/cgi-bin/webviewer_login_page` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/cgi-mod/lookup.cgi` | High
+27 | File | `/dashboard/updatelogo.php` | High
+28 | File | `/designer/add/layout` | High
+29 | File | `/dev/dri/card1` | High
+30 | File | `/etc/sudoers` | Medium
+31 | File | `/export` | Low
+32 | File | `/filemanager/upload/drop` | High
 33 | File | `/h/calendar` | Medium
 34 | File | `/h/compose` | Medium
 35 | File | `/h/search?action=voicemail&action=listen` | High
@@ -133,7 +133,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/php-sms/classes/Master.php` | High
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

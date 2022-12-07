@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TK](https://vuldb.com/?country.tk)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,19 +73,20 @@ ID | Type | Indicator | Confidence
 16 | File | `/out.php` | Medium
 17 | File | `/p` | Low
 18 | File | `/pages/processlogin.php` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/usr/bin/uucp` | High
-21 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-22 | File | `/web/google_analytics.php` | High
-23 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
-24 | File | `/whbs/admin/?page=user` | High
-25 | File | `/_readmail` | Medium
-26 | File | `admin.php` | Medium
-27 | File | `admin.php3` | Medium
-28 | File | `admin/index.php?c=database` | High
-29 | ... | ... | ...
+19 | File | `/product/savenewproduct.php?flag=1` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/bin/uucp` | High
+22 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+23 | File | `/web/google_analytics.php` | High
+24 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
+25 | File | `/whbs/admin/?page=user` | High
+26 | File | `/_readmail` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin.php3` | Medium
+29 | File | `admin/index.php?c=database` | High
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

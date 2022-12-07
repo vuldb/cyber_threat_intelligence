@@ -108,9 +108,10 @@ ID | Type | Indicator | Confidence
 42 | File | `/goform/RGFirewallEL` | High
 43 | File | `/goform/RgTime` | High
 44 | File | `/goform/RgUrlBlock.asp` | High
-45 | ... | ... | ...
+45 | File | `/goform/wlanPrimaryNetwork` | High
+46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

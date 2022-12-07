@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PrivateLoader:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [89.38.131.151](https://vuldb.com/?ip.89.38.131.151) | no-reverse-yet.local | - | High
-2 | [89.38.131.155](https://vuldb.com/?ip.89.38.131.155) | no-reverse-yet.local | - | High
-3 | [93.115.21.45](https://vuldb.com/?ip.93.115.21.45) | - | - | High
-4 | ... | ... | ... | ...
+1 | [5.182.36.101](https://vuldb.com/?ip.5.182.36.101) | vz.darytelecom.ru | - | High
+2 | [79.174.12.174](https://vuldb.com/?ip.79.174.12.174) | king420.lazy.fvds.ru | - | High
+3 | [89.38.131.151](https://vuldb.com/?ip.89.38.131.151) | no-reverse-yet.local | - | High
+4 | [89.38.131.155](https://vuldb.com/?ip.89.38.131.155) | no-reverse-yet.local | - | High
+5 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,23 +52,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/category.php` | High
-3 | File | `/cgi-bin/delete_CA` | High
-4 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-5 | File | `/download` | Medium
-6 | File | `/get_getnetworkconf.cgi` | High
-7 | File | `/GponForm/device_Form?script/` | High
-8 | File | `/includes/rrdtool.inc.php` | High
-9 | File | `/Main_AdmStatus_Content.asp` | High
-10 | ... | ... | ...
+2 | File | `/admin.php/singer/admin/singer/del` | High
+3 | File | `/baseOpLog.do` | High
+4 | File | `/category.php` | High
+5 | File | `/cgi-bin/delete_CA` | High
+6 | File | `/common/info.cgi` | High
+7 | File | `/common/logViewer/logViewer.jsf` | High
+8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+9 | File | `/controller/Index.php` | High
+10 | File | `/cwc/login` | Medium
+11 | File | `/download` | Medium
+12 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+13 | File | `/get_getnetworkconf.cgi` | High
+14 | File | `/GponForm/device_Form?script/` | High
+15 | File | `/home/resume/index` | High
+16 | File | `/includes/lib/detail.php` | High
+17 | File | `/includes/lib/get.php` | High
+18 | File | `/includes/lib/tree.php` | High
+19 | File | `/includes/rrdtool.inc.php` | High
+20 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+21 | File | `/iwguestbook/admin/messages_edit.asp` | High
+22 | File | `/MagickCore/enhance.c` | High
+23 | File | `/MagickCore/quantize.c` | High
+24 | File | `/MagickCore/statistic.c` | High
+25 | File | `/Main_AdmStatus_Content.asp` | High
+26 | File | `/modules/tasks/summary.inc.php` | High
+27 | File | `/NAGErrors` | Medium
+28 | File | `/ofrs/admin/?page=reports` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/6274c2b082df417a00331684
+* https://community.blueliv.com/#!/s/63280e7d82df417ed0331974
+* https://github.com/SEKOIA-IO/Community/blob/main/IOCs/20220914_privateloader_IOC.csv
 
 ## Literature
 

@@ -67,11 +67,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,36 +83,39 @@ ID | Type | Indicator | Confidence
 1 | File | `/action/factory` | High
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/?page=reports/waste` | High
-5 | File | `/admin/?page=user/manage_user` | High
-6 | File | `/admin/add-fee.php` | High
-7 | File | `/admin/baojia_list.php` | High
-8 | File | `/admin/folderrollpicture/list` | High
-9 | File | `/admin/users_add.php` | High
-10 | File | `/administration/settings_registration.php` | High
-11 | File | `/anony/mjpg.cgi` | High
-12 | File | `/api/common/ping` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-15 | File | `/appointments/update_status.php` | High
-16 | File | `/authUserAction!edit.action` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/bookings/update_status.php` | High
-19 | File | `/cgi-bin/DownloadFlash` | High
-20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/classes/Users.php?f=delete_client` | High
-22 | File | `/Core/Ap4File.cpp` | High
-23 | File | `/csms/admin/storages/view_storage.php` | High
-24 | File | `/dede/file_manage_control.php` | High
-25 | File | `/etc/ciel.cfg` | High
-26 | File | `/etc/openshift/server_priv.pem` | High
-27 | File | `/etc/shadow.sample` | High
-28 | File | `/foms/place-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/formSetFirewallCfg` | High
-31 | ... | ... | ...
+4 | File | `/admin/add-fee.php` | High
+5 | File | `/admin/baojia_list.php` | High
+6 | File | `/admin/folderrollpicture/list` | High
+7 | File | `/admin/loginc.php` | High
+8 | File | `/admin/users_add.php` | High
+9 | File | `/anony/mjpg.cgi` | High
+10 | File | `/api/common/ping` | High
+11 | File | `/api/v2/open/rowsInfo` | High
+12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+13 | File | `/appointments/update_status.php` | High
+14 | File | `/authUserAction!edit.action` | High
+15 | File | `/bin/boa` | Medium
+16 | File | `/bookings/update_status.php` | High
+17 | File | `/classes/Users.php?f=delete_client` | High
+18 | File | `/contacts/listcontacts.php` | High
+19 | File | `/Core/Ap4File.cpp` | High
+20 | File | `/dede/file_manage_control.php` | High
+21 | File | `/depotHead/list` | High
+22 | File | `/etc/openshift/server_priv.pem` | High
+23 | File | `/foms/place-order.php` | High
+24 | File | `/forms/web_runScript` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/garage/php_action/createBrand.php` | High
+27 | File | `/general/search.php?searchtype=simple` | High
+28 | File | `/goform/AddSysLogRule` | High
+29 | File | `/goform/formSetFirewallCfg` | High
+30 | File | `/goform/NTPSyncWithHost` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/index.asp` | Medium
+33 | File | `/isomedia/meta.c` | High
+34 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

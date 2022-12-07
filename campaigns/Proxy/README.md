@@ -47,11 +47,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -62,44 +62,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=bookings/view_details` | High
-2 | File | `/admin/?page=orders/manage_request` | High
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/admin/fst_upload.inc.php` | High
-7 | File | `/admin/new-content` | High
-8 | File | `/admin/problem_judge.php` | High
-9 | File | `/admin/sign/out` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/public/signup` | High
-12 | File | `/api/v1/bait/set` | High
-13 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/asms/admin/?page=user/manage_user` | High
-16 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/new-content` | High
+7 | File | `/admin/problem_judge.php` | High
+8 | File | `/admin/transactions/update_status.php` | High
+9 | File | `/admin/users/index.php` | High
+10 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/apiv1/` | Low
+13 | File | `/asms/admin/?page=user/manage_user` | High
+14 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+15 | File | `/asms/admin/products/manage_product.php` | High
+16 | File | `/asms/products/view_product.php` | High
 17 | File | `/attachments` | Medium
 18 | File | `/avms/index.php` | High
-19 | File | `/bookings/update_status.php` | High
-20 | File | `/classes/Master.php?f=delete_appointment` | High
-21 | File | `/classes/Users.php?f=delete_client` | High
-22 | File | `/clearance/clearance.php` | High
-23 | File | `/config/getuser` | High
-24 | File | `/depotHead/list` | High
-25 | File | `/editorder.php` | High
+19 | File | `/bsms_ci/index.php` | High
+20 | File | `/bsms_ci/index.php/user/edit_user/` | High
+21 | File | `/calendar/viewcalendar.php` | High
+22 | File | `/config/getuser` | High
+23 | File | `/Default/Bd` | Medium
+24 | File | `/device/` | Medium
+25 | File | `/event/admin/?page=user/list` | High
 26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-27 | File | `/garage/editorder.php` | High
-28 | File | `/gena.cgi` | Medium
-29 | File | `/index.php?module=entities/entities` | High
-30 | File | `/index.php?module=global_lists/lists` | High
-31 | File | `/index.php?module=global_vars/vars` | High
-32 | File | `/index.php?module=users_alerts/users_alerts` | High
-33 | File | `/index.php?module=users_groups/users_groups` | High
-34 | File | `/index/user/upload_img.html` | High
-35 | File | `/js/player/dmplayer/dmku/index.php` | High
-36 | ... | ... | ...
+27 | File | `/garage/php_action/createBrand.php` | High
+28 | File | `/goform/setDiagnoseInfo` | High
+29 | File | `/goform/setSysPwd` | High
+30 | File | `/goform/setUplinkInfo` | High
+31 | File | `/hrm/controller/employee.php` | High
+32 | File | `/hrm/employeeadd.php` | High
+33 | File | `/ims/login.php` | High
+34 | File | `/index.php/admins/Fields/get_fields.html` | High
+35 | File | `/index.php?module=configuration/application` | High
+36 | File | `/index.php?module=entities/fields&entities_id=24` | High
+37 | File | `/index.php?module=entities/forms&entities_id=24` | High
+38 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+39 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

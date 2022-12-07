@@ -61,15 +61,15 @@ ID | Type | Indicator | Confidence
 10 | File | `/formSetPortTr` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/goform/wlanPrimaryNetwork` | High
-13 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-14 | File | `/nova/bin/user` | High
-15 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-16 | File | `/plesk-site-preview/` | High
-17 | File | `/question/ask` | High
-18 | File | `/rest/api/2/search` | High
+13 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+14 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+15 | File | `/nova/bin/user` | High
+16 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+17 | File | `/plesk-site-preview/` | High
+18 | File | `/question/ask` | High
 19 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

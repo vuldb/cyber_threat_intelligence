@@ -67,7 +67,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -82,37 +83,37 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/?page=system_info/contact_info` | High
 4 | File | `/admin/dl_sendmail.php` | High
 5 | File | `/admin/login.php` | High
-6 | File | `/ad_js.php` | Medium
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/app/options.py` | High
-10 | File | `/bcms/admin/?page=user/list` | High
-11 | File | `/bsms/?page=manage_account` | High
-12 | File | `/cgi-bin/login.cgi` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
-20 | File | `/fuel/index.php/fuel/logs/items` | High
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-27 | File | `/index/jobfairol/show/` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/manage-apartment.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/pages/apply_vacancy.php` | High
-33 | File | `/plesk-site-preview/` | High
+6 | File | `/admin/submit-articles` | High
+7 | File | `/ad_js.php` | Medium
+8 | File | `/Ap4RtpAtom.cpp` | High
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/app/options.py` | High
+11 | File | `/bcms/admin/?page=user/list` | High
+12 | File | `/bsms/?page=manage_account` | High
+13 | File | `/cgi-bin/login.cgi` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/hosts` | Medium
+21 | File | `/fuel/index.php/fuel/logs/items` | High
+22 | File | `/fuel/sitevariables/delete/4` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+27 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+28 | File | `/index/jobfairol/show/` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/manage-apartment.php` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/pages/apply_vacancy.php` | High
 34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

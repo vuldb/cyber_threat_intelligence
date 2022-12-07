@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -60,10 +60,11 @@ ID | Type | Indicator | Confidence
 3 | File | `/bin/boa` | Medium
 4 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
 5 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-6 | File | `/modules/tasks/summary.inc.php` | High
-7 | ... | ... | ...
+6 | File | `/hrm/employeeadd.php` | High
+7 | File | `/modules/tasks/summary.inc.php` | High
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Europe Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -7957,14 +7957,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -7972,63 +7972,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\Steam` | High
-2 | File | `.php.gif` | Medium
-3 | File | `//proc/kcore` | Medium
-4 | File | `/action/iperf` | High
-5 | File | `/action/wirelessConnect` | High
-6 | File | `/admin/options` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/admin/users.php?source=edit_user&id=1` | High
-9 | File | `/api/user/upsert/<uuid>` | High
-10 | File | `/api/v1/attack` | High
-11 | File | `/api/v1/attack/token` | High
-12 | File | `/api/v1/bait/set` | High
-13 | File | `/apilog.php` | Medium
-14 | File | `/bin/proc.cgi` | High
-15 | File | `/category.php` | High
-16 | File | `/changePassword` | High
-17 | File | `/cmscp/ext/collect/fetch_url.do` | High
-18 | File | `/connectors/index.php` | High
-19 | File | `/Core/Ap4File.cpp` | High
-20 | File | `/core/conditions/AbstractWrapper.java` | High
-21 | File | `/csms/admin/?page=user/manage_user` | High
-22 | File | `/dev/mmz_userdev` | High
-23 | File | `/egroupware/index.php` | High
-24 | File | `/etc/grafana/grafana.ini` | High
-25 | File | `/fantasticblog/single.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/doReboot` | High
-28 | File | `/goform/formSetClientState` | High
-29 | File | `/goform/fromSetIpMacBind` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/h/compose` | Medium
-32 | File | `/index.asp` | Medium
-33 | File | `/index.php` | Medium
-34 | File | `/items/view_item.php` | High
-35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-36 | File | `/manager/index.php` | High
-37 | File | `/medical/inventories.php` | High
-38 | File | `/modules/profile/index.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/modules/public/calendar.php` | High
-41 | File | `/MTFWU` | Low
-42 | File | `/newsDia.php` | Medium
-43 | File | `/omos/admin/?page=user/list` | High
-44 | File | `/out.php` | Medium
-45 | File | `/php-sms/admin/` | High
-46 | File | `/php-sms/classes/Master.php` | High
-47 | File | `/php-sms/classes/SystemSettings.php` | High
-48 | File | `/recreate.php` | High
-49 | File | `/ResiotQueryDBActive` | High
-50 | File | `/resources//../` | High
-51 | File | `/sacco_shield/manage_user.php` | High
-52 | File | `/sessions/sess_<sessionid>` | High
-53 | File | `/spip.php` | Medium
-54 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-55 | ... | ... | ...
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/admin/edit.php` | High
+3 | File | `/admin/settings/save.php` | High
+4 | File | `/balance/service/list` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/setSysAdm` | High
+8 | File | `/HNAP1` | Low
+9 | File | `/index.php` | Medium
+10 | File | `/index.php/purchase_order/browse_data` | High
+11 | File | `/lilac/main.php` | High
+12 | File | `/module/admin_bp/add_application.php` | High
+13 | File | `/modx/manager/` | High
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/out.php` | Medium
+16 | File | `/plugin/getList` | High
+17 | File | `/project/PROJECTNAME/reports/` | High
+18 | File | `/proxy` | Low
+19 | File | `/spip.php` | Medium
+20 | File | `/sys/duplicate/check` | High
+21 | File | `/upload/catalog/controller/account/password.php` | High
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/usr/sbin/httpd` | High
+24 | File | `/var/log/nginx` | High
+25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+26 | File | `2020\Messages\SDNotify.exe` | High
+27 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
+28 | File | `ActivityRecord.java` | High
+29 | File | `adclick.php` | Medium
+30 | File | `admin.php?m=backup&c=backup&a=doback` | High
+31 | File | `admin/?page=system_info` | High
+32 | File | `admin/app/mediamanager` | High
+33 | File | `admin/article_save.php` | High
+34 | ... | ... | ...
 
-There are 483 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

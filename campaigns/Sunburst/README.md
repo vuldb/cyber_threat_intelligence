@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -325,14 +325,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -344,40 +344,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/iperf` | High
 3 | File | `/action/wirelessConnect` | High
 4 | File | `/Admin/add-student.php` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/settings/fields` | High
+5 | File | `/Admin/dashboard.php` | High
+6 | File | `/Admin/login.php` | High
 7 | File | `/admin/sign/out` | High
 8 | File | `/api/discoveries/` | High
 9 | File | `/api/v1/attack` | High
 10 | File | `/api/v1/attack/falco` | High
 11 | File | `/api/v1/attack/token` | High
 12 | File | `/api/v1/bait/set` | High
-13 | File | `/api/v1/chat.getThreadsList` | High
-14 | File | `/api/v2/open/rowsInfo` | High
-15 | File | `/api/v2/open/tablesInfo` | High
-16 | File | `/bd_genie_create_account.cgi` | High
-17 | File | `/bin/boa` | Medium
-18 | File | `/bin/proc.cgi` | High
+13 | File | `/api/v2/open/rowsInfo` | High
+14 | File | `/api/v2/open/tablesInfo` | High
+15 | File | `/balance/service/list` | High
+16 | File | `/bin/proc.cgi` | High
+17 | File | `/bsms_ci/index.php` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
 19 | File | `/buspassms/download-pass.php` | High
-20 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-21 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/DownloadFlash` | High
-24 | File | `/changePassword` | High
-25 | File | `/cnr` | Low
-26 | File | `/Core/Ap4File.cpp` | High
-27 | File | `/csms/admin/?page=user/manage_user` | High
-28 | File | `/depotHead/list` | High
-29 | File | `/ebics-server/ebics.aspx` | High
-30 | File | `/etc/shadow.sample` | High
-31 | File | `/etc/version` | Medium
-32 | File | `/git-prereceive-callback` | High
-33 | File | `/goform/addRouting` | High
-34 | File | `/goform/Diagnosis` | High
-35 | File | `/goform/expandDlnaFile` | High
-36 | ... | ... | ...
+20 | File | `/category.php` | High
+21 | File | `/changePassword` | High
+22 | File | `/cnr` | Low
+23 | File | `/confirm` | Medium
+24 | File | `/Core/Ap4File.cpp` | High
+25 | File | `/csms/admin/?page=user/manage_user` | High
+26 | File | `/Default/Bd` | Medium
+27 | File | `/depotHead/list` | High
+28 | File | `/ebics-server/ebics.aspx` | High
+29 | File | `/etc/version` | Medium
+30 | File | `/event/admin/?page=user/list` | High
+31 | File | `/face-recognition-php/facepay-master/camera.php` | High
+32 | File | `/goform/form2WizardStep4` | High
+33 | File | `/goform/formSetClientState` | High
+34 | File | `/goform/fromSetIpMacBind` | High
+35 | File | `/goform/setSysAdm` | High
+36 | File | `/gpac/src/bifs/unquantize.c` | High
+37 | File | `/h/compose` | Medium
+38 | File | `/hrm/controller/employee.php` | High
+39 | File | `/hrm/employeeadd.php` | High
+40 | File | `/hrm/employeeview.php` | High
+41 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

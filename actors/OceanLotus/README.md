@@ -29,29 +29,30 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.59.198.130](https://vuldb.com/?ip.37.59.198.130) | - | - | High
 2 | [37.59.198.131](https://vuldb.com/?ip.37.59.198.131) | - | - | High
-3 | [45.9.239.34](https://vuldb.com/?ip.45.9.239.34) | 45.9.239.34.deltahost-ptr | - | High
-4 | [45.9.239.45](https://vuldb.com/?ip.45.9.239.45) | 45.9.239.45.deltahost-ptr | - | High
-5 | [45.9.239.77](https://vuldb.com/?ip.45.9.239.77) | 45.9.239.77.deltahost-ptr | - | High
-6 | [45.9.239.110](https://vuldb.com/?ip.45.9.239.110) | 45.9.239.110.deltahost-ptr | - | High
-7 | [45.9.239.139](https://vuldb.com/?ip.45.9.239.139) | 45.9.239.139.deltahost-ptr | - | High
-8 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | - | Medium
-9 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | - | Medium
-10 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | - | Medium
-11 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | - | Medium
-12 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | - | High
-13 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | - | High
-14 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | - | High
-15 | [46.183.221.188](https://vuldb.com/?ip.46.183.221.188) | ip-221-188.dataclub.info | - | High
-16 | [46.183.221.189](https://vuldb.com/?ip.46.183.221.189) | ip-221-189.dataclub.info | - | High
-17 | [46.183.221.190](https://vuldb.com/?ip.46.183.221.190) | ip-221-190.dataclub.info | - | High
-18 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | - | High
-19 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | - | High
-20 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | - | High
-21 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
-22 | [46.183.223.107](https://vuldb.com/?ip.46.183.223.107) | ip-223-107.dataclub.info | - | High
-23 | ... | ... | ... | ...
+3 | [43.251.100.20](https://vuldb.com/?ip.43.251.100.20) | - | - | High
+4 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
+5 | [45.9.239.34](https://vuldb.com/?ip.45.9.239.34) | 45.9.239.34.deltahost-ptr | - | High
+6 | [45.9.239.45](https://vuldb.com/?ip.45.9.239.45) | 45.9.239.45.deltahost-ptr | - | High
+7 | [45.9.239.77](https://vuldb.com/?ip.45.9.239.77) | 45.9.239.77.deltahost-ptr | - | High
+8 | [45.9.239.110](https://vuldb.com/?ip.45.9.239.110) | 45.9.239.110.deltahost-ptr | - | High
+9 | [45.9.239.139](https://vuldb.com/?ip.45.9.239.139) | 45.9.239.139.deltahost-ptr | - | High
+10 | [45.32.100.179](https://vuldb.com/?ip.45.32.100.179) | 45.32.100.179.vultr.com | - | Medium
+11 | [45.32.114.49](https://vuldb.com/?ip.45.32.114.49) | 45.32.114.49.vultr.com | - | Medium
+12 | [45.76.179.28](https://vuldb.com/?ip.45.76.179.28) | 45.76.179.28.vultr.com | - | Medium
+13 | [45.76.179.151](https://vuldb.com/?ip.45.76.179.151) | 45.76.179.151.vultr.com | - | Medium
+14 | [45.114.117.164](https://vuldb.com/?ip.45.114.117.164) | folien.reisnart.com | - | High
+15 | [46.183.220.81](https://vuldb.com/?ip.46.183.220.81) | ip-220-81.dataclub.info | - | High
+16 | [46.183.220.82](https://vuldb.com/?ip.46.183.220.82) | ip-220-82.dataclub.info | - | High
+17 | [46.183.221.188](https://vuldb.com/?ip.46.183.221.188) | ip-221-188.dataclub.info | - | High
+18 | [46.183.221.189](https://vuldb.com/?ip.46.183.221.189) | ip-221-189.dataclub.info | - | High
+19 | [46.183.221.190](https://vuldb.com/?ip.46.183.221.190) | ip-221-190.dataclub.info | - | High
+20 | [46.183.222.82](https://vuldb.com/?ip.46.183.222.82) | ip-222-82.dataclub.info | - | High
+21 | [46.183.222.83](https://vuldb.com/?ip.46.183.222.83) | ip-222-83.dataclub.info | - | High
+22 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | - | High
+23 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
+24 | ... | ... | ... | ...
 
-There are 90 more IOC items available. Please use our online service to access the data.
+There are 92 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,6 +85,7 @@ There are 10 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2019/10/mobile-malware-and-apt-espionage-prolific-pervasive-and-cross-platform
+* https://github.com/blackorbird/APT_REPORT/blob/master/Oceanlotus/apt32_report_2019.pdf
 * https://github.com/eset/malware-ioc/tree/master/oceanlotus
 * https://www.threatminer.org/report.php?q=ESET_OceanLotus.pdf&y=2018
 * https://www.threatminer.org/report.php?q=OceanLotusBlossoms_MassDigitalSurveillanceandAttacksTargetingASEAN,AsianNations,theMedia,HumanRightsGroups,andCivilSociety_Volexity.pdf&y=2017

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -246,37 +246,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/action/import_aaa_cert_file/` | High
-3 | File | `/action/import_file/` | High
-4 | File | `/action/import_firmware/` | High
-5 | File | `/action/import_https_cert_file/` | High
-6 | File | `/action/import_nodejs_app/` | High
-7 | File | `/admin/?page=orders/view_order` | High
-8 | File | `/Admin/add-student.php` | High
-9 | File | `/admin/addemployee.php` | High
-10 | File | `/admin/advicefeedback/list` | High
-11 | File | `/Admin/login.php` | High
+1 | File | `/action/import_aaa_cert_file/` | High
+2 | File | `/action/import_file/` | High
+3 | File | `/action/import_firmware/` | High
+4 | File | `/action/import_https_cert_file/` | High
+5 | File | `/action/import_nodejs_app/` | High
+6 | File | `/admin/?page=orders/view_order` | High
+7 | File | `/Admin/add-student.php` | High
+8 | File | `/admin/advicefeedback/list` | High
+9 | File | `/Admin/dashboard.php` | High
+10 | File | `/Admin/login.php` | High
+11 | File | `/admin/problem_judge.php` | High
 12 | File | `/admin/students/manage.php` | High
 13 | File | `/admin/users_add.php` | High
-14 | File | `/admin_book.php` | High
-15 | File | `/api/RecordingList/DownloadRecord?file=` | High
-16 | File | `/api/user/password/sent-reset-email` | High
-17 | File | `/balance/service/list` | High
-18 | File | `/c/macho_reader.c` | High
-19 | File | `/card_scan.php` | High
+14 | File | `/api/RecordingList/DownloadRecord?file=` | High
+15 | File | `/api/user/password/sent-reset-email` | High
+16 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+17 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+18 | File | `/asms/classes/Master.php?f=delete_service` | High
+19 | File | `/balance/service/list` | High
 20 | File | `/cgi-bin/DownloadFlash` | High
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Master.php?f=delete_reservation` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/cwc/login` | Medium
-26 | File | `/debug/pprof` | Medium
-27 | File | `/diagnostic/edittest.php` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php?f=delete_reservation` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/diagnostic/edittest.php` | High
+26 | File | `/diag_ping_admin.asp` | High
+27 | File | `/diag_tracert_admin.asp` | High
 28 | File | `/ebics-server/ebics.aspx` | High
-29 | ... | ... | ...
+29 | File | `/edit-db.php` | Medium
+30 | File | `/employeeview.php` | High
+31 | ... | ... | ...
 
-There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

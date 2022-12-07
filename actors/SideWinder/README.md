@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,10 +48,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -68,16 +68,16 @@ ID | Type | Indicator | Confidence
 3 | File | `/backups/` | Medium
 4 | File | `/blogengine/api/posts` | High
 5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/client.php` | Medium
-7 | File | `/config/getuser` | High
-8 | File | `/controller/OnlinePreviewController.java` | High
-9 | File | `/controllers/MgrDiagnosticTools.php` | High
-10 | File | `/dashboard/reports/logs/view` | High
-11 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-12 | File | `/EXCU_SHELL` | Medium
-13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/gena.cgi` | Medium
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/client.php` | Medium
+8 | File | `/config/getuser` | High
+9 | File | `/controller/OnlinePreviewController.java` | High
+10 | File | `/controllers/MgrDiagnosticTools.php` | High
+11 | File | `/dashboard/reports/logs/view` | High
+12 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+13 | File | `/EXCU_SHELL` | Medium
+14 | File | `/export` | Low
+15 | File | `/forum/away.php` | High
 16 | File | `/goform/setMAC` | High
 17 | File | `/goform/webSettingProfileSecurity` | High
 18 | File | `/items/view_item.php` | High
@@ -104,12 +104,11 @@ ID | Type | Indicator | Confidence
 39 | File | `/setSystemAdmin` | High
 40 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
 41 | File | `/student/bookdetails.php` | High
-42 | File | `/table_manager/view/cu_user_groups` | High
-43 | File | `/templates/header.inc.php` | High
-44 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-45 | ... | ... | ...
+42 | File | `/sys/user/queryUserComponentData` | High
+43 | File | `/table_manager/view/cu_user_groups` | High
+44 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LI](https://vuldb.com/?country.li)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,9 +66,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/sm/api/v1/firewall/zone/services` | High
 9 | File | `/usr/bin/pkexec` | High
 10 | File | `admin/limits.php` | High
-11 | ... | ... | ...
+11 | File | `AjaxFileUploadHandler.axd` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

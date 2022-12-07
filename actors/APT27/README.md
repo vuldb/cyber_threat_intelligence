@@ -78,30 +78,30 @@ ID | Type | Indicator | Confidence
 15 | File | `/rom-0` | Low
 16 | File | `/session/list/allActiveSession` | High
 17 | File | `/syslog_rules` | High
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/users/{id}` | Medium
-22 | File | `/var/tmp/sess_*` | High
-23 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-24 | File | `/video` | Low
-25 | File | `actionphp/download.File.php` | High
-26 | File | `ActivityManagerService.java` | High
-27 | File | `adaptmap_reg.c` | High
-28 | File | `add_comment.php` | High
-29 | File | `admin.cgi` | Medium
-30 | File | `admin.php` | Medium
-31 | File | `admin.php?action=files` | High
-32 | File | `admin/admin.php` | High
-33 | File | `admin/content.php` | High
-34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-35 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `/users/{id}` | Medium
+21 | File | `/var/tmp/sess_*` | High
+22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+23 | File | `/video` | Low
+24 | File | `actionphp/download.File.php` | High
+25 | File | `ActivityManagerService.java` | High
+26 | File | `adaptmap_reg.c` | High
+27 | File | `add_comment.php` | High
+28 | File | `admin.cgi` | Medium
+29 | File | `admin.php` | Medium
+30 | File | `admin.php?action=files` | High
+31 | File | `admin/admin.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+34 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+35 | File | `admin_gallery.php3` | High
 36 | File | `affich.php` | Medium
 37 | File | `agent/Core/Controller/SendRequest.cpp` | High
 38 | File | `album_portal.php` | High
 39 | ... | ... | ...
 
-There are 333 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
