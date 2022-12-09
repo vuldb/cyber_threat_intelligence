@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,30 +77,30 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/controller/JobLogController.java` | High
 4 | File | `/Admin/dashboard.php` | High
 5 | File | `/admin/pages/sections_save.php` | High
-6 | File | `/admin/problem_judge.php` | High
-7 | File | `/admin/settings/save.php` | High
-8 | File | `/admin/transactions/update_status.php` | High
-9 | File | `/admin/users/index.php` | High
-10 | File | `/api/audits` | Medium
-11 | File | `/api/geojson` | Medium
-12 | File | `/api/user/password/sent-reset-email` | High
-13 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-14 | File | `/asms/admin/products/manage_product.php` | High
-15 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-16 | File | `/asms/classes/Master.php?f=delete_service` | High
-17 | File | `/asms/products/view_product.php` | High
-18 | File | `/bsms_ci/index.php` | High
-19 | File | `/bsms_ci/index.php/book` | High
-20 | File | `/bsms_ci/index.php/user/edit_user/` | High
-21 | File | `/diag_ping_admin.asp` | High
-22 | File | `/diag_tracert_admin.asp` | High
-23 | File | `/face-recognition-php/facepay-master/camera.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/form2IPQoSTcAdd` | High
-26 | File | `/goform/form2WizardStep4` | High
+6 | File | `/admin/settings/save.php` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/admin/users/index.php` | High
+9 | File | `/api/audits` | Medium
+10 | File | `/api/geojson` | Medium
+11 | File | `/api/user/password/sent-reset-email` | High
+12 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+13 | File | `/asms/admin/products/manage_product.php` | High
+14 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+15 | File | `/asms/classes/Master.php?f=delete_service` | High
+16 | File | `/asms/products/view_product.php` | High
+17 | File | `/bsms_ci/index.php` | High
+18 | File | `/bsms_ci/index.php/book` | High
+19 | File | `/bsms_ci/index.php/user/edit_user/` | High
+20 | File | `/diag_ping_admin.asp` | High
+21 | File | `/diag_tracert_admin.asp` | High
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/form2IPQoSTcAdd` | High
+25 | File | `/goform/form2WizardStep4` | High
+26 | File | `/goform/form2WizardStep54` | High
 27 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,7 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
@@ -80,14 +80,14 @@ ID | Type | Indicator | Confidence
 16 | File | `/asms/products/view_product.php` | High
 17 | File | `/attachments` | Medium
 18 | File | `/avms/index.php` | High
-19 | File | `/bsms_ci/index.php` | High
-20 | File | `/bsms_ci/index.php/user/edit_user/` | High
-21 | File | `/calendar/viewcalendar.php` | High
-22 | File | `/config/getuser` | High
-23 | File | `/Default/Bd` | Medium
-24 | File | `/device/` | Medium
-25 | File | `/event/admin/?page=user/list` | High
-26 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+19 | File | `/back/index.php/user/User/?1` | High
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/calendar/viewcalendar.php` | High
+23 | File | `/config/getuser` | High
+24 | File | `/Default/Bd` | Medium
+25 | File | `/device/` | Medium
+26 | File | `/event/admin/?page=user/list` | High
 27 | File | `/garage/php_action/createBrand.php` | High
 28 | File | `/goform/setDiagnoseInfo` | High
 29 | File | `/goform/setSysPwd` | High
@@ -102,7 +102,7 @@ ID | Type | Indicator | Confidence
 38 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
 39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [CN](https://vuldb.com/?country.cn)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,41 +58,41 @@ ID | Type | Indicator | Confidence
 6 | File | `/Admin/dashboard.php` | High
 7 | File | `/admin/pages/sections_save.php` | High
 8 | File | `/admin/settings.php` | High
-9 | File | `/admin/update_currency.php` | High
-10 | File | `/admin/up_booking.php` | High
-11 | File | `/api/geojson` | Medium
-12 | File | `/api/v1/attack` | High
-13 | File | `/api/v1/attack/token` | High
-14 | File | `/apiv1/` | Low
-15 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-16 | File | `/authUserAction!edit.action` | High
-17 | File | `/bsms_ci/index.php/user/edit_user/` | High
-18 | File | `/buspassms/download-pass.php` | High
-19 | File | `/calendar/viewcalendar.php` | High
-20 | File | `/classes/Users.php?f=delete_client` | High
-21 | File | `/clearance/clearance.php` | High
-22 | File | `/clients/listclients.php` | High
-23 | File | `/College/admin/teacher.php` | High
-24 | File | `/dede/file_manage_control.php` | High
-25 | File | `/DesignTools/CssEditor.aspx` | High
-26 | File | `/dev/shm` | Medium
-27 | File | `/device/` | Medium
-28 | File | `/diagnostic/edittest.php` | High
-29 | File | `/file/upload/1` | High
-30 | File | `/forums/editforum.php` | High
-31 | File | `/general/search.php?searchtype=simple` | High
-32 | File | `/gfxpoly/stroke.c` | High
+9 | File | `/admin/up_booking.php` | High
+10 | File | `/api/geojson` | Medium
+11 | File | `/api/v1/attack` | High
+12 | File | `/api/v1/attack/token` | High
+13 | File | `/apiv1/` | Low
+14 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+15 | File | `/authUserAction!edit.action` | High
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/buspassms/download-pass.php` | High
+18 | File | `/calendar/viewcalendar.php` | High
+19 | File | `/classes/Users.php?f=delete_client` | High
+20 | File | `/clearance/clearance.php` | High
+21 | File | `/clients/listclients.php` | High
+22 | File | `/College/admin/teacher.php` | High
+23 | File | `/dede/file_manage_control.php` | High
+24 | File | `/DesignTools/CssEditor.aspx` | High
+25 | File | `/dev/shm` | Medium
+26 | File | `/device/` | Medium
+27 | File | `/diagnostic/edittest.php` | High
+28 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+29 | File | `/event/admin/?page=user/list` | High
+30 | File | `/file/upload/1` | High
+31 | File | `/forums/editforum.php` | High
+32 | File | `/general/search.php?searchtype=simple` | High
 33 | File | `/goform/AddSysLogRule` | High
-34 | File | `/goform/setDiagnoseInfo` | High
-35 | File | `/goform/SetIpMacBind` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/hrm/employeeadd.php` | High
-38 | File | `/hrm/employeeview.php` | High
-39 | File | `/index.php/admins/Fields/get_fields.html` | High
-40 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+34 | File | `/goform/editUserName` | High
+35 | File | `/goform/setDiagnoseInfo` | High
+36 | File | `/goform/SetIpMacBind` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/hrm/controller/employee.php` | High
+39 | File | `/hrm/employeeadd.php` | High
+40 | File | `/hrm/employeeview.php` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

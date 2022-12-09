@@ -80,32 +80,32 @@ ID | Type | Indicator | Confidence
 20 | File | `/groups/31-twitter-basics` | High
 21 | File | `/login` | Low
 22 | File | `/modules/profile/index.php` | High
-23 | File | `/tmp` | Low
-24 | File | `/tmp/before` | Medium
-25 | File | `/User/saveUser` | High
-26 | File | `/usr/bin/vmware-mount` | High
-27 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-28 | File | `/WEB-INF/web.xml` | High
-29 | File | `/_vti_pvt/access.cnf` | High
-30 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-31 | File | `accountsettings_add.html` | High
-32 | File | `aclient.exe` | Medium
-33 | File | `adclick.php` | Medium
-34 | File | `addentry.php` | Medium
-35 | File | `admin.php` | Medium
-36 | File | `admin.php?c=update&f=unzip` | High
-37 | File | `admin/ajax/op_kandidat.php` | High
-38 | File | `admin/conf_users_edit.php` | High
-39 | File | `admin/domain-fields/` | High
-40 | File | `admin/index.asp` | High
-41 | File | `admin/member_deal.php` | High
-42 | File | `admin/news.php` | High
-43 | File | `AdminLoginInterceptor.java` | High
-44 | File | `admins.js` | Medium
-45 | File | `advancedsearch.php` | High
+23 | File | `/sys/dict/queryTableData` | High
+24 | File | `/tmp` | Low
+25 | File | `/tmp/before` | Medium
+26 | File | `/User/saveUser` | High
+27 | File | `/usr/bin/vmware-mount` | High
+28 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+29 | File | `/WEB-INF/web.xml` | High
+30 | File | `/_vti_pvt/access.cnf` | High
+31 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+32 | File | `accountsettings_add.html` | High
+33 | File | `aclient.exe` | Medium
+34 | File | `adclick.php` | Medium
+35 | File | `addentry.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?c=update&f=unzip` | High
+38 | File | `admin/ajax/op_kandidat.php` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | File | `admin/domain-fields/` | High
+41 | File | `admin/index.asp` | High
+42 | File | `admin/member_deal.php` | High
+43 | File | `admin/news.php` | High
+44 | File | `AdminLoginInterceptor.java` | High
+45 | File | `admins.js` | Medium
 46 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

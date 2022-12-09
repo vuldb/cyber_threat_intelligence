@@ -70,40 +70,40 @@ ID | Type | Indicator | Confidence
 16 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 17 | File | `admin/memberviewdetails.php` | High
 18 | File | `admin/sitesettings.php` | High
-19 | File | `affich.php` | Medium
-20 | File | `agent/Core/Controller/SendRequest.cpp` | High
-21 | File | `akeyActivationLogin.do` | High
-22 | File | `album_portal.php` | High
-23 | File | `apache-auth.conf` | High
-24 | File | `askapache-firefox-adsense.php` | High
-25 | File | `attachment.cgi` | High
-26 | File | `basic_search_result.php` | High
-27 | File | `blueprints/sections/edit/1` | High
-28 | File | `books.php` | Medium
-29 | File | `cart_add.php` | Medium
-30 | File | `CFS.c` | Low
-31 | File | `cgi-bin/gnudip.cgi` | High
-32 | File | `checktransferstatus.php` | High
-33 | File | `checkuser.php` | High
-34 | File | `class.SystemAction.php` | High
-35 | File | `clientarea.php` | High
-36 | File | `cmdmon.c` | Medium
-37 | File | `collectivite.class.php` | High
-38 | File | `confirm.php` | Medium
-39 | File | `contact` | Low
-40 | File | `control.c` | Medium
-41 | File | `core-util.c` | Medium
-42 | File | `core/coreuserinputhandler.cpp` | High
-43 | File | `cve-bin/moreBlockInfo.cgi` | High
-44 | File | `d1_both.c` | Medium
-45 | File | `data/gbconfiguration.dat` | High
-46 | File | `Debug_command_page.asp` | High
-47 | File | `details_view.php` | High
-48 | File | `Diagnose.exe` | Medium
-49 | File | `DigiDocSAXParser.c` | High
+19 | File | `admin_gallery.php3` | High
+20 | File | `affich.php` | Medium
+21 | File | `agent/Core/Controller/SendRequest.cpp` | High
+22 | File | `akeyActivationLogin.do` | High
+23 | File | `album_portal.php` | High
+24 | File | `apache-auth.conf` | High
+25 | File | `askapache-firefox-adsense.php` | High
+26 | File | `attachment.cgi` | High
+27 | File | `basic_search_result.php` | High
+28 | File | `blueprints/sections/edit/1` | High
+29 | File | `books.php` | Medium
+30 | File | `cart_add.php` | Medium
+31 | File | `CFS.c` | Low
+32 | File | `cgi-bin/gnudip.cgi` | High
+33 | File | `checktransferstatus.php` | High
+34 | File | `checkuser.php` | High
+35 | File | `class.SystemAction.php` | High
+36 | File | `clientarea.php` | High
+37 | File | `cmdmon.c` | Medium
+38 | File | `collectivite.class.php` | High
+39 | File | `confirm.php` | Medium
+40 | File | `contact` | Low
+41 | File | `control.c` | Medium
+42 | File | `core-util.c` | Medium
+43 | File | `core/coreuserinputhandler.cpp` | High
+44 | File | `cve-bin/moreBlockInfo.cgi` | High
+45 | File | `d1_both.c` | Medium
+46 | File | `data/gbconfiguration.dat` | High
+47 | File | `Debug_command_page.asp` | High
+48 | File | `details_view.php` | High
+49 | File | `Diagnose.exe` | Medium
 50 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -97,15 +97,16 @@ ID | Type | Indicator | Confidence
 39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 40 | File | `/services/system/setup.json` | High
 41 | File | `/spip.php` | Medium
-42 | File | `/uncpath/` | Medium
-43 | File | `/vloggers_merch/?p=view_product` | High
-44 | File | `/webconsole/APIController` | High
-45 | File | `/websocket/exec` | High
-46 | File | `/whbs/?page=my_bookings` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | ... | ... | ...
+42 | File | `/tmp` | Low
+43 | File | `/uncpath/` | Medium
+44 | File | `/vloggers_merch/?p=view_product` | High
+45 | File | `/webconsole/APIController` | High
+46 | File | `/websocket/exec` | High
+47 | File | `/whbs/?page=my_bookings` | High
+48 | File | `/wp-admin/admin-ajax.php` | High
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

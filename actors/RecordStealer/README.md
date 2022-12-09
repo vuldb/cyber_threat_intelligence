@@ -62,7 +62,8 @@ ID | Type | Indicator | Confidence
 9 | File | `/mims/login.php` | High
 10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 11 | File | `/rapi/read_url` | High
-12 | ... | ... | ...
+12 | File | `/SetTriggerWPS/PIN` | High
+13 | ... | ... | ...
 
 There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

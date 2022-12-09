@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Agent Tesla:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Agent Tesla:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
 * [CN](https://vuldb.com/?country.cn)
+* [CA](https://vuldb.com/?country.ca)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -90,21 +90,21 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/import/class-import-settings.php` | High
 29 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 30 | File | `admin/sitesettings.php` | High
-31 | File | `affich.php` | Medium
-32 | File | `agent/Core/Controller/SendRequest.cpp` | High
-33 | File | `akeyActivationLogin.do` | High
-34 | File | `album_portal.php` | High
-35 | File | `apache-auth.conf` | High
-36 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-37 | File | `Asc.exe` | Low
-38 | File | `askapache-firefox-adsense.php` | High
-39 | File | `assets/add/category.php` | High
-40 | File | `attachment.cgi` | High
-41 | File | `blueprints/sections/edit/1` | High
-42 | File | `books.php` | Medium
+31 | File | `admin_gallery.php3` | High
+32 | File | `affich.php` | Medium
+33 | File | `agent/Core/Controller/SendRequest.cpp` | High
+34 | File | `akeyActivationLogin.do` | High
+35 | File | `album_portal.php` | High
+36 | File | `apache-auth.conf` | High
+37 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+38 | File | `Asc.exe` | Low
+39 | File | `askapache-firefox-adsense.php` | High
+40 | File | `assets/add/category.php` | High
+41 | File | `attachment.cgi` | High
+42 | File | `blueprints/sections/edit/1` | High
 43 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

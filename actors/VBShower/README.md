@@ -62,20 +62,22 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/v2/cli/commands` | High
 16 | File | `/api/v2/open/rowsInfo` | High
 17 | File | `/asms/admin/?page=user/manage_user` | High
-18 | File | `/card/in-card.php` | High
-19 | File | `/classes/Master.php?f=delete_student` | High
-20 | File | `/connectors/index.php` | High
-21 | File | `/csms/admin/?page=system_info` | High
-22 | File | `/etc/init0.d/S80telnetd.sh` | High
-23 | File | `/etc/srapi/config/system.conf` | High
-24 | File | `/framework/core/models/expConfig.php` | High
-25 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
-26 | File | `/fw.login.php` | High
+18 | File | `/blog/comment` | High
+19 | File | `/card/in-card.php` | High
+20 | File | `/classes/Master.php?f=delete_student` | High
+21 | File | `/connectors/index.php` | High
+22 | File | `/csms/admin/?page=system_info` | High
+23 | File | `/etc/init0.d/S80telnetd.sh` | High
+24 | File | `/etc/srapi/config/system.conf` | High
+25 | File | `/framework/core/models/expConfig.php` | High
+26 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
 27 | File | `/garage/php_action/createBrand.php` | High
-28 | File | `/goform/form2WizardStep54` | High
-29 | ... | ... | ...
+28 | File | `/goform/addressNat` | High
+29 | File | `/goform/AdvSetWrlsafeset` | High
+30 | File | `/goform/editFileName` | High
+31 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

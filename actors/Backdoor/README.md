@@ -129,21 +129,21 @@ ID | Type | Indicator | Confidence
 26 | File | `/ffos/classes/Master.php?f=save_category` | High
 27 | File | `/goforms/rlminfo` | High
 28 | File | `/h/calendar` | Medium
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/inc/extensions.php` | High
-31 | File | `/includes/rrdtool.inc.php` | High
-32 | File | `/Items/*/RemoteImages/Download` | High
-33 | File | `/navigate/navigate_download.php` | High
-34 | File | `/nova/bin/console` | High
-35 | File | `/nova/bin/detnet` | High
-36 | File | `/ocwbs/admin/?page=user/manage_user` | High
-37 | File | `/ofrs/admin/?page=user/manage_user` | High
-38 | File | `/out.php` | Medium
-39 | File | `/password.html` | High
-40 | File | `/php_action/fetchSelectedUser.php` | High
+29 | File | `/inc/extensions.php` | High
+30 | File | `/includes/rrdtool.inc.php` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/nova/bin/console` | High
+34 | File | `/nova/bin/detnet` | High
+35 | File | `/ocwbs/admin/?page=user/manage_user` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/out.php` | Medium
+38 | File | `/password.html` | High
+39 | File | `/php_action/fetchSelectedUser.php` | High
+40 | File | `/proc/ioports` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

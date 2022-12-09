@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Europe:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -7993,30 +7993,30 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/fst_upload.inc.php` | High
 6 | File | `/admin/settings/save.php` | High
 7 | File | `/admin/submit-articles` | High
-8 | File | `/balance/service/list` | High
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/cgi-bin/webproc` | High
-13 | File | `/confirm` | Medium
-14 | File | `/debug/pprof` | Medium
-15 | File | `/Default/Bd` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
+8 | File | `/bsms_ci/index.php` | High
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/cgi-bin/webproc` | High
+12 | File | `/confirm` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/setSnmpInfo` | High
 20 | File | `/goform/setSysAdm` | High
-21 | File | `/gpac/src/bifs/unquantize.c` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php/purchase_order/browse_data` | High
-27 | File | `/index.php?module=entities/fields&entities_id=24` | High
-28 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/modx/manager/` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+21 | File | `/goform/setSysPwd` | High
+22 | File | `/gpac/src/bifs/unquantize.c` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/includes/login.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index.php?module=entities/fields&entities_id=24` | High
+29 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/modx/manager/` | High
 32 | File | `/out.php` | Medium
 33 | File | `/pages/processlogin.php` | High
 34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
@@ -8025,11 +8025,10 @@ ID | Type | Indicator | Confidence
 37 | File | `/Redcock-Farm/farm/category.php` | High
 38 | File | `/spip.php` | Medium
 39 | File | `/sys/duplicate/check` | High
-40 | File | `/tmp` | Low
-41 | File | `/transcation.php` | High
-42 | ... | ... | ...
+40 | File | `/template/edit` | High
+41 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

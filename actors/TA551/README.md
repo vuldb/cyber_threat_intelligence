@@ -19,9 +19,9 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [SV](https://vuldb.com/?country.sv)
-* [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
+* [AR](https://vuldb.com/?country.ar)
+* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -56,13 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,32 +71,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/manage_user` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/Admin/createClass.php` | High
-4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/problem_judge.php` | High
-6 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-7 | File | `/asms/admin/?page=user/manage_user` | High
-8 | File | `/asms/classes/Master.php?f=delete_img` | High
-9 | File | `/asms/classes/Master.php?f=delete_service` | High
-10 | File | `/attachments` | Medium
-11 | File | `/avms/index.php` | High
-12 | File | `/bin/proc.cgi` | High
-13 | File | `/diag_tracert_admin.asp` | High
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/index.php/admins/Fields/get_fields.html` | High
-16 | File | `/isomedia/meta.c` | High
-17 | File | `/lists/admin/` | High
-18 | File | `/lists/index.php` | High
-19 | File | `/login` | Low
-20 | File | `/mgm_dev_upgrade.asp` | High
-21 | File | `/pages/processlogin.php` | High
-22 | File | `/pages/save_user.php` | High
-23 | File | `/php-sms/admin/?page=user/manage_user` | High
-24 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/loginc.php` | High
+3 | File | `/admin/pages/revisions.php` | High
+4 | File | `/apiv1/` | Low
+5 | File | `/back/index.php/user/User/?1` | High
+6 | File | `/blog/comment` | High
+7 | File | `/bsms_ci/index.php` | High
+8 | File | `/calendar/viewcalendar.php` | High
+9 | File | `/classes/Users.php?f=delete_client` | High
+10 | File | `/confirm` | Medium
+11 | File | `/face-recognition-php/facepay-master/camera.php` | High
+12 | File | `/forms/web_runScript` | High
+13 | File | `/garage/php_action/createBrand.php` | High
+14 | File | `/general/search.php?searchtype=simple` | High
+15 | File | `/goform/addUserName` | High
+16 | File | `/goform/IPSECsave` | High
+17 | File | `/goform/NatStaticSetting` | High
+18 | File | `/goform/P2pListFilter` | High
+19 | File | `/goform/SafeEmailFilter` | High
+20 | File | `/goform/SafeMacFilter` | High
+21 | File | `/goform/SafeUrlFilter` | High
+22 | File | `/goform/setSysPwd` | High
+23 | File | `/goform/setUplinkInfo` | High
+24 | File | `/goform/SysToolReboot` | High
+25 | File | `/goform/SysToolRestoreSet` | High
+26 | File | `/goform/VirtualSer` | High
+27 | File | `/goform/WifiBasicSet` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/gpac/src/bifs/unquantize.c` | High
+30 | File | `/hrm/controller/employee.php` | High
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/index.php?module=configuration/application` | High
+33 | File | `/index.php?module=entities/fields&entities_id=24` | High
+34 | File | `/index.php?module=entities/forms&entities_id=24` | High
+35 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+37 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
+38 | File | `/linkedcontent/listfiles.php` | High
+39 | ... | ... | ...
 
-There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

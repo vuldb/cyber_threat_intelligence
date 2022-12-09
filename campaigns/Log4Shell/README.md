@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -132,29 +132,28 @@ ID | Type | Indicator | Confidence
 19 | File | `/bsms_ci/index.php` | High
 20 | File | `/bsms_ci/index.php/user/edit_user/` | High
 21 | File | `/calendar/viewcalendar.php` | High
-22 | File | `/category.php` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Users.php?f=delete_client` | High
-25 | File | `/clearance/clearance.php` | High
-26 | File | `/clients/listclients.php` | High
-27 | File | `/csms/admin/?page=user/manage_user` | High
-28 | File | `/dev/shm` | Medium
-29 | File | `/etc/openshift/server_priv.pem` | High
-30 | File | `/event/admin/?page=user/list` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/forums/editforum.php` | High
-33 | File | `/goform/setDiagnoseInfo` | High
-34 | File | `/goform/SetIpMacBind` | High
-35 | File | `/goform/SetPptpServerCfg` | High
-36 | File | `/goform/setUplinkInfo` | High
-37 | File | `/h/search?action=voicemail&action=listen` | High
-38 | File | `/hospital/hms/admin/patient-search.php` | High
-39 | File | `/hrm/employeeadd.php` | High
-40 | File | `/hrm/employeeview.php` | High
-41 | File | `/index.php/admins/Fields/get_fields.html` | High
-42 | ... | ... | ...
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/classes/Users.php?f=delete_client` | High
+24 | File | `/clearance/clearance.php` | High
+25 | File | `/clients/listclients.php` | High
+26 | File | `/csms/admin/?page=user/manage_user` | High
+27 | File | `/dev/shm` | Medium
+28 | File | `/etc/openshift/server_priv.pem` | High
+29 | File | `/event/admin/?page=user/list` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/forums/editforum.php` | High
+32 | File | `/goform/setDiagnoseInfo` | High
+33 | File | `/goform/SetIpMacBind` | High
+34 | File | `/goform/SetPptpServerCfg` | High
+35 | File | `/goform/setUplinkInfo` | High
+36 | File | `/h/search?action=voicemail&action=listen` | High
+37 | File | `/hospital/hms/admin/patient-search.php` | High
+38 | File | `/hrm/employeeadd.php` | High
+39 | File | `/hrm/employeeview.php` | High
+40 | File | `/index.php/admins/Fields/get_fields.html` | High
+41 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

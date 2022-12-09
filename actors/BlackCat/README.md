@@ -69,22 +69,25 @@ ID | Type | Indicator | Confidence
 17 | File | `/classes/Master.php?f=delete_category` | High
 18 | File | `/classes/Master.php?f=delete_payment` | High
 19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/clients/profile` | High
-21 | File | `/csms/admin/?page=user/manage_user` | High
-22 | File | `/csms/admin/storages/view_storage.php` | High
-23 | File | `/diagnostic/editclient.php` | High
-24 | File | `/dotrace.asp` | Medium
-25 | File | `/etc/init0.d/S80telnetd.sh` | High
-26 | File | `/goform/SetIpMacBind` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/home/hjsz/jsonlint/src/lexer` | High
-29 | File | `/index.php?module=entities/entities` | High
-30 | File | `/index.php?module=global_lists/lists` | High
-31 | File | `/index.php?module=users_alerts/users_alerts` | High
-32 | File | `/index1.html` | Medium
-33 | ... | ... | ...
+20 | File | `/clients/listclients.php` | High
+21 | File | `/clients/profile` | High
+22 | File | `/contacts/listcontacts.php` | High
+23 | File | `/csms/admin/?page=user/manage_user` | High
+24 | File | `/csms/admin/storages/view_storage.php` | High
+25 | File | `/Default/Bd` | Medium
+26 | File | `/diagnostic/editclient.php` | High
+27 | File | `/etc/init0.d/S80telnetd.sh` | High
+28 | File | `/goform/AddSysLogRule` | High
+29 | File | `/goform/SetIpMacBind` | High
+30 | File | `/goform/setSnmpInfo` | High
+31 | File | `/goform/setUplinkInfo` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/home/hjsz/jsonlint/src/lexer` | High
+34 | File | `/hrm/employeeview.php` | High
+35 | File | `/index.php?module=entities/entities` | High
+36 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

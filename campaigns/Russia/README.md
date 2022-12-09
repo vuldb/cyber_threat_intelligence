@@ -72,7 +72,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -97,16 +98,16 @@ ID | Type | Indicator | Confidence
 13 | File | `/diag_ping_admin.asp` | High
 14 | File | `/diag_tracert_admin.asp` | High
 15 | File | `/face-recognition-php/facepay-master/camera.php` | High
-16 | File | `/gpac/src/bifs/unquantize.c` | High
-17 | File | `/hrm/controller/employee.php` | High
-18 | File | `/index/user/user_edit.html` | High
-19 | File | `/login` | Low
-20 | File | `/login.php` | Medium
-21 | File | `/Member/memberedit.html` | High
-22 | File | `/pages/processlogin.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/gpac/src/bifs/unquantize.c` | High
+18 | File | `/hrm/controller/employee.php` | High
+19 | File | `/index/user/user_edit.html` | High
+20 | File | `/leave_system/admin/?page=maintenance/department` | High
+21 | File | `/login` | Low
+22 | File | `/login.php` | Medium
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

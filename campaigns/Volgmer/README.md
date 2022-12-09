@@ -102,10 +102,9 @@ ID | Type | Indicator | Confidence
 24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 25 | File | `/websocket/exec` | High
 26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/x_program_center/jaxrs/invoke` | High
-28 | ... | ... | ...
+27 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

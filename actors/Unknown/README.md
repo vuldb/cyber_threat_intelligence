@@ -39,7 +39,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16721,11 +16721,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -16735,35 +16735,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/fst_upload.inc.php` | High
 2 | File | `/api/audits` | Medium
-3 | File | `/bsms_ci/index.php` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/calendar/viewcalendar.php` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/clients/listclients.php` | High
-9 | File | `/common/info.cgi` | High
-10 | File | `/contacts/listcontacts.php` | High
-11 | File | `/Default/Bd` | Medium
-12 | File | `/etc/passwd` | Medium
-13 | File | `/event/admin/?page=user/list` | High
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/forums/editforum.php` | High
-17 | File | `/general/search.php?searchtype=simple` | High
-18 | File | `/goform/setDiagnoseInfo` | High
-19 | File | `/goform/setSnmpInfo` | High
-20 | File | `/goform/setSysPwd` | High
-21 | File | `/goform/setUplinkInfo` | High
-22 | File | `/gpac/src/bifs/unquantize.c` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/index.php?module=configuration/application` | High
-27 | File | `/index.php?module=entities/fields&entities_id=24` | High
-28 | File | `/index.php?module=entities/forms&entities_id=24` | High
-29 | ... | ... | ...
+3 | File | `/back/index.php/user/User/?1` | High
+4 | File | `/balance/service/list` | High
+5 | File | `/blog/comment` | High
+6 | File | `/bsms_ci/index.php` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/calendar/viewcalendar.php` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/ci_hms/search` | High
+12 | File | `/clients/listclients.php` | High
+13 | File | `/contacts/listcontacts.php` | High
+14 | File | `/Default/Bd` | Medium
+15 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forums/editforum.php` | High
+19 | File | `/general/search.php?searchtype=simple` | High
+20 | File | `/goform/setDiagnoseInfo` | High
+21 | File | `/goform/setSnmpInfo` | High
+22 | File | `/goform/setSysPwd` | High
+23 | File | `/goform/setUplinkInfo` | High
+24 | File | `/gpac/src/bifs/unquantize.c` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/includes/login.php` | High
+29 | File | `/index.php?module=configuration/application` | High
+30 | File | `/index.php?module=entities/fields&entities_id=24` | High
+31 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+32 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

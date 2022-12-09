@@ -56,7 +56,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -70,27 +71,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/controller/JobLogController.java` | High
 3 | File | `/Admin/dashboard.php` | High
 4 | File | `/admin/problem_judge.php` | High
-5 | File | `/api/user/password/sent-reset-email` | High
-6 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-7 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-8 | File | `/asms/classes/Master.php?f=delete_service` | High
-9 | File | `/balance/service/list` | High
+5 | File | `/api/audits` | Medium
+6 | File | `/api/user/password/sent-reset-email` | High
+7 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+8 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+9 | File | `/asms/classes/Master.php?f=delete_service` | High
 10 | File | `/bsms_ci/index.php` | High
 11 | File | `/bsms_ci/index.php/book` | High
 12 | File | `/bsms_ci/index.php/user/edit_user/` | High
 13 | File | `/diag_ping_admin.asp` | High
 14 | File | `/diag_tracert_admin.asp` | High
 15 | File | `/face-recognition-php/facepay-master/camera.php` | High
-16 | File | `/gpac/src/bifs/unquantize.c` | High
-17 | File | `/hrm/controller/employee.php` | High
-18 | File | `/index/user/user_edit.html` | High
-19 | File | `/login.php` | Medium
-20 | File | `/Member/memberedit.html` | High
-21 | File | `/pages/processlogin.php` | High
-22 | File | `/plugin/getList` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/gpac/src/bifs/unquantize.c` | High
+18 | File | `/hrm/controller/employee.php` | High
+19 | File | `/index/user/user_edit.html` | High
+20 | File | `/leave_system/admin/?page=maintenance/department` | High
+21 | File | `/login` | Low
+22 | File | `/login.php` | Medium
 23 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

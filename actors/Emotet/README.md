@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emotet:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -825,7 +825,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -833,13 +833,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/fst_upload.inc.php` | High
-4 | File | `/admin/submit-articles` | High
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `/admin/fst_upload.inc.php` | High
+3 | File | `/admin/submit-articles` | High
+4 | File | `/api/audits` | Medium
 5 | File | `/authUserAction!edit.action` | High
-6 | File | `/bsms_ci/index.php` | High
-7 | File | `/bsms_ci/index.php/book` | High
+6 | File | `/balance/service/list` | High
+7 | File | `/bsms_ci/index.php` | High
 8 | File | `/bsms_ci/index.php/user/edit_user/` | High
 9 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
 10 | File | `/cgi-bin/webproc` | High
@@ -851,19 +851,19 @@ ID | Type | Indicator | Confidence
 16 | File | `/gpac/src/bifs/unquantize.c` | High
 17 | File | `/hrm/controller/employee.php` | High
 18 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-19 | File | `/login` | Low
-20 | File | `/Member/memberedit.html` | High
+19 | File | `/leave_system/admin/?page=maintenance/department` | High
+20 | File | `/login` | Low
 21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-22 | File | `/out.php` | Medium
-23 | File | `/pages/processlogin.php` | High
-24 | File | `/product/savenewproduct.php?flag=1` | High
-25 | File | `/proxy` | Low
+22 | File | `/product/savenewproduct.php?flag=1` | High
+23 | File | `/proxy` | Low
+24 | File | `/scenegraph/svg_attributes.c` | High
+25 | File | `/self.key` | Medium
 26 | File | `/signup_script.php` | High
 27 | File | `/spip.php` | Medium
 28 | File | `/system/sshkeys.js` | High
 29 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -181,18 +181,18 @@ ID | Type | Indicator | Confidence
 13 | File | `/context/%2e/WEB-INF/web.xml` | High
 14 | File | `/debug/pprof` | Medium
 15 | File | `/diagnostic/editclient.php` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/filemanager/php/connector.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/wizard_end` | High
-20 | File | `/index.php?module=global_lists/lists` | High
-21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/okm:root` | Medium
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/out.php` | Medium
-26 | File | `/proxy` | Low
-27 | File | `/public_html/animals` | High
+16 | File | `/filemanager/php/connector.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/index.php?module=global_lists/lists` | High
+20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+21 | File | `/modules/profile/index.php` | High
+22 | File | `/okm:root` | Medium
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/out.php` | Medium
+25 | File | `/proxy` | Low
+26 | File | `/public_html/animals` | High
+27 | File | `/self.key` | Medium
 28 | File | `/spip.php` | Medium
 29 | File | `/sqfs/bin/sccd` | High
 30 | File | `/text/pdf/PdfReader.java` | High
@@ -201,7 +201,7 @@ ID | Type | Indicator | Confidence
 33 | File | `/usr/bin/pkexec` | High
 34 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

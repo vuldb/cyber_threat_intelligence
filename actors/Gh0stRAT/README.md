@@ -124,36 +124,35 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/` | Low
 11 | File | `/appConfig/userDB.json` | High
 12 | File | `/authUserAction!edit.action` | High
-13 | File | `/bd_genie_create_account.cgi` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/c/macho_reader.c` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/cgi-bin/wapopen` | High
-18 | File | `/cgi-bin/webproc` | High
-19 | File | `/claire_blake` | High
-20 | File | `/classes/Master.php?f=delete_appointment` | High
-21 | File | `/cmscp/ext/collect/fetch_url.do` | High
-22 | File | `/coreframe/app/attachment/admin/index.php` | High
-23 | File | `/debug` | Low
-24 | File | `/debug/pprof` | Medium
-25 | File | `/defaultui/player/modern.html` | High
-26 | File | `/etc/init0.d/S80telnetd.sh` | High
-27 | File | `/etc/shadow.sample` | High
-28 | File | `/foms/place-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/SetIpMacBind` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/htdocs/utils/Files.php` | High
-33 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-34 | File | `/jfinal_cms/system/role/list` | High
-35 | File | `/librarian/edit_book_details.php` | High
-36 | File | `/management/api/rcx_management/global_config_query` | High
-37 | File | `/master/index.php` | High
-38 | File | `/mkshop/Men/profile.php` | High
-39 | File | `/modx/manager/` | High
-40 | ... | ... | ...
+13 | File | `/balance/service/list` | High
+14 | File | `/bd_genie_create_account.cgi` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/c/macho_reader.c` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/cgi-bin/wapopen` | High
+19 | File | `/cgi-bin/webproc` | High
+20 | File | `/claire_blake` | High
+21 | File | `/classes/Master.php?f=delete_appointment` | High
+22 | File | `/cmscp/ext/collect/fetch_url.do` | High
+23 | File | `/coreframe/app/attachment/admin/index.php` | High
+24 | File | `/debug` | Low
+25 | File | `/debug/pprof` | Medium
+26 | File | `/defaultui/player/modern.html` | High
+27 | File | `/etc/init0.d/S80telnetd.sh` | High
+28 | File | `/etc/shadow.sample` | High
+29 | File | `/foms/place-order.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/SetIpMacBind` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/htdocs/utils/Files.php` | High
+34 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+35 | File | `/jfinal_cms/system/role/list` | High
+36 | File | `/librarian/edit_book_details.php` | High
+37 | File | `/management/api/rcx_management/global_config_query` | High
+38 | File | `/master/index.php` | High
+39 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

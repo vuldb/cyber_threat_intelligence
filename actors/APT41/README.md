@@ -108,19 +108,19 @@ ID | Type | Indicator | Confidence
 30 | File | `/secure/QueryComponent!Default.jspa` | High
 31 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 32 | File | `/start-stop` | Medium
-33 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-34 | File | `/tmp/app/.env` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload` | Low
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/v2/quantum/save-data-upload-big-file` | High
-39 | File | `/WEB-INF/web.xml` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-admin/options.php` | High
-42 | File | `/_next` | Low
+33 | File | `/start_apply.htm` | High
+34 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+35 | File | `/tmp/app/.env` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/upload` | Low
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/v2/quantum/save-data-upload-big-file` | High
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `/wp-admin/options.php` | High
 43 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

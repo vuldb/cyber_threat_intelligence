@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,47 +99,45 @@ ID | Type | Indicator | Confidence
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/admin/admin.php` | High
 3 | File | `/admin/edit_members.php` | High
-4 | File | `/admin/store.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/users/index.php` | High
-7 | File | `/api/sys_username_passwd.cmd` | High
-8 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-9 | File | `/asms/admin/mechanics/view_mechanic.php` | High
-10 | File | `/asms/admin/products/manage_product.php` | High
-11 | File | `/asms/products/view_product.php` | High
-12 | File | `/balance/service/list` | High
-13 | File | `/bsms_ci/index.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/calendar/viewcalendar.php` | High
-16 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-17 | File | `/cgi-bin/qcmap_auth` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/classes/Master.php?f=delete_appointment` | High
-20 | File | `/classes/Master.php?f=delete_reservation` | High
-21 | File | `/classes/Users.php?f=delete_client` | High
-22 | File | `/clients/listclients.php` | High
-23 | File | `/CommunitySSORedirect.jsp` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/Default/Bd` | Medium
-26 | File | `/device/acceptBind` | High
-27 | File | `/diagnostic/editclient.php` | High
-28 | File | `/event/admin/?page=user/list` | High
-29 | File | `/face-recognition-php/facepay-master/camera.php` | High
-30 | File | `/filemanager/php/connector.php` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/general/search.php?searchtype=simple` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/hrm/controller/employee.php` | High
-35 | File | `/hrm/employeeadd.php` | High
-36 | File | `/ims/login.php` | High
-37 | File | `/index.php/purchase_order/browse_data` | High
-38 | File | `/index.php?module=configuration/application` | High
-39 | File | `/index.php?module=entities/fields&entities_id=24` | High
-40 | File | `/index.php?module=entities/forms&entities_id=24` | High
-41 | File | `/index/user/user_edit.html` | High
-42 | ... | ... | ...
+4 | File | `/admin/submit-articles` | High
+5 | File | `/admin/users/index.php` | High
+6 | File | `/api/sys_username_passwd.cmd` | High
+7 | File | `/asms/admin/?page=transactions/manage_transaction` | High
+8 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+9 | File | `/asms/admin/products/manage_product.php` | High
+10 | File | `/asms/products/view_product.php` | High
+11 | File | `/balance/service/list` | High
+12 | File | `/bsms_ci/index.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/calendar/viewcalendar.php` | High
+15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/clients/listclients.php` | High
+19 | File | `/CommunitySSORedirect.jsp` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/device/acceptBind` | High
+23 | File | `/diagnostic/editclient.php` | High
+24 | File | `/event/admin/?page=user/list` | High
+25 | File | `/face-recognition-php/facepay-master/camera.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/general/search.php?searchtype=simple` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/hrm/controller/employee.php` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/ims/login.php` | High
+33 | File | `/index.php/purchase_order/browse_data` | High
+34 | File | `/index.php?module=configuration/application` | High
+35 | File | `/index.php?module=entities/fields&entities_id=24` | High
+36 | File | `/index.php?module=entities/forms&entities_id=24` | High
+37 | File | `/index/user/user_edit.html` | High
+38 | File | `/Member/memberedit.html` | High
+39 | File | `/okm:root` | Medium
+40 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -62,32 +62,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/add_trainers.php` | High
-6 | File | `/admin/countrymanagement.php` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/admin/newsletter1.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/subnets/ripe-query.php` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/export` | Low
-14 | File | `/file?action=download&file` | High
-15 | File | `/filemanager/upload/drop` | High
-16 | File | `/index.php` | Medium
-17 | File | `/login.php` | Medium
-18 | File | `/medical/inventories.php` | High
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/mkshop/Men/profile.php` | High
-21 | File | `/monitoring` | Medium
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/pages/apply_vacancy.php` | High
-24 | File | `/php_action/createUser.php` | High
-25 | File | `/plugin/LiveChat/getChat.json.php` | High
-26 | File | `/plugins/servlet/audit/resource` | High
-27 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-28 | File | `/replication` | Medium
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/add_trainers.php` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/generalsettings.php` | High
+7 | File | `/admin/newsletter1.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/subnets/ripe-query.php` | High
+10 | File | `/core/conditions/AbstractWrapper.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/export` | Low
+13 | File | `/file?action=download&file` | High
+14 | File | `/filemanager/upload/drop` | High
+15 | File | `/index.php` | Medium
+16 | File | `/login.php` | Medium
+17 | File | `/medical/inventories.php` | High
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/pages/apply_vacancy.php` | High
+23 | File | `/php_action/createUser.php` | High
+24 | File | `/plugin/LiveChat/getChat.json.php` | High
+25 | File | `/plugins/servlet/audit/resource` | High
+26 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+27 | File | `/replication` | Medium
+28 | File | `/RestAPI` | Medium
 29 | ... | ... | ...
 
 There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

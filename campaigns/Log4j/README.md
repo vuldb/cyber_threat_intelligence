@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4917,7 +4917,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4925,43 +4925,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/controller/JobLogController.java` | High
-2 | File | `/admin/fst_upload.inc.php` | High
-3 | File | `/api/audits` | Medium
-4 | File | `/authUserAction!edit.action` | High
-5 | File | `/bsms_ci/index.php` | High
-6 | File | `/bsms_ci/index.php/user/edit_user/` | High
-7 | File | `/calendar/viewcalendar.php` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/clients/listclients.php` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/confirm` | Medium
-13 | File | `/contacts/listcontacts.php` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/Default/Bd` | Medium
-16 | File | `/etc/passwd` | Medium
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forums/editforum.php` | High
-21 | File | `/general/search.php?searchtype=simple` | High
-22 | File | `/goform/setSnmpInfo` | High
-23 | File | `/goform/setSysPwd` | High
-24 | File | `/goform/setUplinkInfo` | High
-25 | File | `/gpac/src/bifs/unquantize.c` | High
-26 | File | `/hrm/controller/employee.php` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/hrm/employeeview.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?module=configuration/application` | High
-31 | File | `/index.php?module=entities/fields&entities_id=24` | High
-32 | File | `/index.php?module=entities/forms&entities_id=24` | High
-33 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-34 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-35 | ... | ... | ...
+1 | File | `/api/audits` | Medium
+2 | File | `/balance/service/list` | High
+3 | File | `/blog/comment` | High
+4 | File | `/bsms_ci/index.php` | High
+5 | File | `/bsms_ci/index.php/user/edit_user/` | High
+6 | File | `/calendar/viewcalendar.php` | High
+7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/ci_hms/search` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/contacts/listcontacts.php` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/Default/Bd` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/event/admin/?page=user/list` | High
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forums/editforum.php` | High
+19 | File | `/general/search.php?searchtype=simple` | High
+20 | File | `/goform/setDiagnoseInfo` | High
+21 | File | `/goform/setSnmpInfo` | High
+22 | File | `/goform/setSysPwd` | High
+23 | File | `/goform/setUplinkInfo` | High
+24 | File | `/gpac/src/bifs/unquantize.c` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/includes/login.php` | High
+29 | File | `/index.php?module=configuration/application` | High
+30 | File | `/index.php?module=entities/fields&entities_id=24` | High
+31 | File | `/index.php?module=entities/forms&entities_id=24` | High
+32 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
+33 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

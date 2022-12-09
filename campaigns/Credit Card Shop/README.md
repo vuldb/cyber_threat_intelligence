@@ -98,9 +98,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 30 | File | `/pages/apply_vacancy.php` | High
 31 | File | `/pms/update_patient.php` | High
-32 | ... | ... | ...
+32 | File | `/proc/<PID>/mem` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

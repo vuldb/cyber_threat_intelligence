@@ -10,10 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [NO](https://vuldb.com/?country.no)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
+* [PT](https://vuldb.com/?country.pt)
 
 ## Actors
 
@@ -42,14 +39,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,39 +55,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/?page=bookings/view_details` | High
-3 | File | `/admin/?page=orders/manage_request` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/fst_upload.inc.php` | High
-8 | File | `/admin/problem_judge.php` | High
-9 | File | `/admin/sign/out` | High
-10 | File | `/admin/users/index.php` | High
-11 | File | `/api/common/ping` | High
-12 | File | `/api/public/signup` | High
-13 | File | `/api/v1/attack/falco` | High
-14 | File | `/api/v1/bait/set` | High
-15 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/asms/admin/?page=user/manage_user` | High
-18 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-19 | File | `/asms/admin/products/manage_product.php` | High
-20 | File | `/asms/products/view_product.php` | High
-21 | File | `/attachments` | Medium
-22 | File | `/avms/index.php` | High
-23 | File | `/bookings/update_status.php` | High
-24 | File | `/classes/Master.php?f=delete_appointment` | High
-25 | File | `/classes/Users.php?f=delete_client` | High
-26 | File | `/clearance/clearance.php` | High
-27 | File | `/depotHead/list` | High
-28 | File | `/editorder.php` | High
-29 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-30 | File | `/garage/editorder.php` | High
-31 | File | `/index.php/admins/Fields/get_fields.html` | High
-32 | ... | ... | ...
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/admin/users/index.php` | High
+9 | File | `/api/v1/nics/wifi/wlan0/ping` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/apiv1/` | Low
+12 | File | `/asms/admin/?page=user/manage_user` | High
+13 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+14 | File | `/asms/admin/products/manage_product.php` | High
+15 | File | `/asms/products/view_product.php` | High
+16 | File | `/attachments` | Medium
+17 | File | `/avms/index.php` | High
+18 | File | `/back/index.php/user/User/?1` | High
+19 | File | `/blog/comment` | High
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/calendar/viewcalendar.php` | High
+23 | File | `/classes/Master.php?f=delete_appointment` | High
+24 | File | `/classes/Users.php?f=delete_client` | High
+25 | File | `/Default/Bd` | Medium
+26 | File | `/device/` | Medium
+27 | File | `/event/admin/?page=user/list` | High
+28 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+29 | File | `/garage/php_action/createBrand.php` | High
+30 | File | `/goform/setDiagnoseInfo` | High
+31 | File | `/goform/setSysPwd` | High
+32 | File | `/goform/setUplinkInfo` | High
+33 | File | `/hrm/controller/employee.php` | High
+34 | File | `/hrm/employeeadd.php` | High
+35 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

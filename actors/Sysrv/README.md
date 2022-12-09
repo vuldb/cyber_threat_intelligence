@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sysrv:
 
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 * [CN](https://vuldb.com/?country.cn)
-* [SI](https://vuldb.com/?country.si)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/contenttemp` | High
-2 | File | `/member/picture/album` | High
-3 | File | `/products/details.asp` | High
-4 | File | `/services/details.asp` | High
-5 | File | `admin.php` | Medium
-6 | File | `comersus_optreviewreadexec.asp` | High
-7 | ... | ... | ...
+2 | File | `/htdocs/upnpinc/gena.php` | High
+3 | File | `/lab.html` | Medium
+4 | File | `/member/picture/album` | High
+5 | File | `/products/details.asp` | High
+6 | File | `/services/details.asp` | High
+7 | File | `/vendor` | Low
+8 | File | `admin.php` | Medium
+9 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

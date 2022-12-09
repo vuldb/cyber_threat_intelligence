@@ -143,28 +143,28 @@ ID | Type | Indicator | Confidence
 32 | File | `/pages/apply_vacancy.php` | High
 33 | File | `/proc/<PID>/mem` | High
 34 | File | `/proxy` | Low
-35 | File | `/public/launchNewWindow.jsp` | High
-36 | File | `/Redcock-Farm/farm/category.php` | High
-37 | File | `/sacco_shield/manage_user.php` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-40 | File | `/staff/bookdetails.php` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/upload` | Low
-43 | File | `/user/update_booking.php` | High
-44 | File | `/vendor/views/add_product.php` | High
-45 | File | `/wabt/bin/poc.wasm` | High
-46 | File | `/WebInterface/UserManager/` | High
-47 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-48 | File | `/wordpress/wp-admin/options-general.php` | High
-49 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-50 | File | `ActivityRecord.java` | High
-51 | File | `adclick.php` | Medium
-52 | File | `addtocart.asp` | High
-53 | File | `admin.php` | Medium
+35 | File | `/Redcock-Farm/farm/category.php` | High
+36 | File | `/sacco_shield/manage_user.php` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+39 | File | `/staff/bookdetails.php` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/upload` | Low
+42 | File | `/user/update_booking.php` | High
+43 | File | `/vendor/views/add_product.php` | High
+44 | File | `/wabt/bin/poc.wasm` | High
+45 | File | `/WebInterface/UserManager/` | High
+46 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+47 | File | `/wordpress/wp-admin/options-general.php` | High
+48 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+49 | File | `ActivityRecord.java` | High
+50 | File | `adclick.php` | Medium
+51 | File | `addtocart.asp` | High
+52 | File | `admin.php` | Medium
+53 | File | `admin.php3` | Medium
 54 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

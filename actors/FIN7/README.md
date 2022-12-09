@@ -105,18 +105,18 @@ ID | Type | Indicator | Confidence
 6 | File | `/ad_js.php` | Medium
 7 | File | `/api/RecordingList/DownloadRecord?file=` | High
 8 | File | `/apilog.php` | Medium
-9 | File | `/app/options.py` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/connectors/index.php` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/connectors/index.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/hrm/employeeadd.php` | High
 21 | File | `/index.php` | Medium
 22 | File | `/items/view_item.php` | High
 23 | File | `/manage-apartment.php` | High
@@ -143,15 +143,16 @@ ID | Type | Indicator | Confidence
 44 | File | `/user/update_booking.php` | High
 45 | File | `/vendor/views/add_product.php` | High
 46 | File | `/wabt/bin/poc.wasm` | High
-47 | File | `/WEB-INF/web.xml` | High
-48 | File | `/WebInterface/UserManager/` | High
-49 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-50 | File | `/wordpress/wp-admin/options-general.php` | High
-51 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-52 | File | `ActivityRecord.java` | High
-53 | ... | ... | ...
+47 | File | `/WebInterface/UserManager/` | High
+48 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+49 | File | `/wordpress/wp-admin/options-general.php` | High
+50 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+51 | File | `ActivityRecord.java` | High
+52 | File | `adclick.php` | Medium
+53 | File | `addtocart.asp` | High
+54 | ... | ... | ...
 
-There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

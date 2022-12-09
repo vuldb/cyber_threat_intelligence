@@ -102,20 +102,21 @@ ID | Type | Indicator | Confidence
 20 | File | `/dede/file_manage_control.php` | High
 21 | File | `/depotHead/list` | High
 22 | File | `/etc/openshift/server_priv.pem` | High
-23 | File | `/foms/place-order.php` | High
-24 | File | `/forms/web_runScript` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/garage/php_action/createBrand.php` | High
-27 | File | `/general/search.php?searchtype=simple` | High
-28 | File | `/goform/AddSysLogRule` | High
-29 | File | `/goform/formSetFirewallCfg` | High
-30 | File | `/goform/NTPSyncWithHost` | High
+23 | File | `/etc/pki/pulp/nodes/` | High
+24 | File | `/foms/place-order.php` | High
+25 | File | `/forms/web_runScript` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/garage/php_action/createBrand.php` | High
+28 | File | `/general/search.php?searchtype=simple` | High
+29 | File | `/goform/AddSysLogRule` | High
+30 | File | `/goform/formSetFirewallCfg` | High
 31 | File | `/hrm/employeeview.php` | High
-32 | File | `/index.asp` | Medium
-33 | File | `/isomedia/meta.c` | High
-34 | ... | ... | ...
+32 | File | `/isomedia/meta.c` | High
+33 | File | `/meetings/listmeetings.php` | High
+34 | File | `/odlms/?page=appointments/view_appointment` | High
+35 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

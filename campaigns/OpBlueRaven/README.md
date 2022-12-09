@@ -95,17 +95,16 @@ ID | Type | Indicator | Confidence
 28 | File | `/etc/hosts` | Medium
 29 | File | `/foms/place-order.php` | High
 30 | File | `/forum/away.php` | High
-31 | File | `/fuel/index.php/fuel/logs/items` | High
-32 | File | `/fuel/sitevariables/delete/4` | High
-33 | File | `/goform/setmac` | High
-34 | File | `/goform/wizard_end` | High
-35 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index/jobfairol/show/` | High
-38 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-39 | ... | ... | ...
+31 | File | `/fuel/sitevariables/delete/4` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index/jobfairol/show/` | High
+37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+38 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

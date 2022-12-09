@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -136,7 +136,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -144,32 +144,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/api/index.php` | High
-3 | File | `/config/getuser` | High
-4 | File | `/configs/application.ini` | High
-5 | File | `/etc/grafana/grafana.ini` | High
-6 | File | `/etc/networkd-dispatcher` | High
-7 | File | `/export` | Low
-8 | File | `/file` | Low
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/wifiSSIDset` | High
-11 | File | `/home/hjsz/jsonlint/src/lexer` | High
-12 | File | `/IISADMPWD` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/info.asp` | Medium
-15 | File | `/login` | Low
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/net/nfc/netlink.c` | High
-18 | File | `/obs/bookPerPub.php` | High
-19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-20 | File | `/out.php` | Medium
-21 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-22 | File | `/php_action/createUser.php` | High
-23 | File | `/public/plugins/` | High
-24 | ... | ... | ...
+1 | File | `%ProgramData%\GOG.com` | High
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/api/index.php` | High
+4 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+5 | File | `/config/getuser` | High
+6 | File | `/configs/application.ini` | High
+7 | File | `/etc/grafana/grafana.ini` | High
+8 | File | `/etc/networkd-dispatcher` | High
+9 | File | `/export` | Low
+10 | File | `/file` | Low
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/wifiSSIDset` | High
+13 | File | `/home/hjsz/jsonlint/src/lexer` | High
+14 | File | `/hrm/employeeview.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/info.asp` | Medium
+17 | File | `/login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/net/nfc/netlink.c` | High
+20 | File | `/obs/bookPerPub.php` | High
+21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+24 | File | `/public/plugins/` | High
+25 | ... | ... | ...
 
-There are 203 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

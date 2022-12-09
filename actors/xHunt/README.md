@@ -77,35 +77,36 @@ ID | Type | Indicator | Confidence
 16 | File | `/api/addusers` | High
 17 | File | `/api/user/upsert/<uuid>` | High
 18 | File | `/bits/stl_vector.h` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/common/info.cgi` | High
-21 | File | `/dashboard/add-portfolio.php` | High
-22 | File | `/dashboard/updatelogo.php` | High
-23 | File | `/designer/add/layout` | High
-24 | File | `/filemanager/upload/drop` | High
-25 | File | `/foms/place-order.php` | High
-26 | File | `/getImage` | Medium
-27 | File | `/goform/wizard_end` | High
-28 | File | `/h/calendar` | Medium
-29 | File | `/h/compose` | Medium
-30 | File | `/h/search?action=voicemail&action=listen` | High
-31 | File | `/htmldoc/htmldoc/html.cxx` | High
-32 | File | `/index.php` | Medium
-33 | File | `/librarian/bookdetails.php` | High
-34 | File | `/login.php` | Medium
-35 | File | `/loginVaLidation.php` | High
-36 | File | `/manage-apartment.php` | High
-37 | File | `/manager/index.php` | High
-38 | File | `/mcategory.php` | High
-39 | File | `/mkshop/Men/profile.php` | High
-40 | File | `/new` | Low
-41 | File | `/Noxen-master/users.php` | High
-42 | File | `/opac/Actions.php?a=login` | High
-43 | File | `/out.php` | Medium
-44 | File | `/pages/animals.php` | High
-45 | ... | ... | ...
+19 | File | `/bsms_ci/index.php` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/common/info.cgi` | High
+22 | File | `/dashboard/add-portfolio.php` | High
+23 | File | `/dashboard/updatelogo.php` | High
+24 | File | `/designer/add/layout` | High
+25 | File | `/filemanager/upload/drop` | High
+26 | File | `/foms/place-order.php` | High
+27 | File | `/getImage` | Medium
+28 | File | `/goform/wizard_end` | High
+29 | File | `/h/calendar` | Medium
+30 | File | `/h/compose` | Medium
+31 | File | `/h/search?action=voicemail&action=listen` | High
+32 | File | `/htmldoc/htmldoc/html.cxx` | High
+33 | File | `/index.php` | Medium
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/login.php` | Medium
+36 | File | `/loginVaLidation.php` | High
+37 | File | `/manage-apartment.php` | High
+38 | File | `/manager/index.php` | High
+39 | File | `/mcategory.php` | High
+40 | File | `/mkshop/Men/profile.php` | High
+41 | File | `/new` | Low
+42 | File | `/Noxen-master/users.php` | High
+43 | File | `/opac/Actions.php?a=login` | High
+44 | File | `/out.php` | Medium
+45 | File | `/pages/animals.php` | High
+46 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

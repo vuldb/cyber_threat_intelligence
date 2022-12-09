@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -61,47 +61,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/Admin/createClass.php` | High
-4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/edit_members.php` | High
-6 | File | `/admin/pages/sections_save.php` | High
-7 | File | `/admin/problem_judge.php` | High
-8 | File | `/admin/transactions/update_status.php` | High
-9 | File | `/admin/users/index.php` | High
-10 | File | `/apiv1/` | Low
-11 | File | `/asms/admin/products/manage_product.php` | High
-12 | File | `/asms/products/view_product.php` | High
-13 | File | `/avms/index.php` | High
-14 | File | `/bsms_ci/index.php` | High
-15 | File | `/bsms_ci/index.php/user/edit_user/` | High
-16 | File | `/calendar/viewcalendar.php` | High
-17 | File | `/clients/listclients.php` | High
-18 | File | `/College/admin/teacher.php` | High
-19 | File | `/dashboard/add-service.php` | High
-20 | File | `/device/` | Medium
-21 | File | `/event/admin/?page=user/list` | High
-22 | File | `/forums/editforum.php` | High
-23 | File | `/garage/php_action/createBrand.php` | High
-24 | File | `/general/search.php?searchtype=simple` | High
-25 | File | `/goform/AddSysLogRule` | High
-26 | File | `/goform/setDiagnoseInfo` | High
-27 | File | `/goform/SetIpMacBind` | High
-28 | File | `/goform/setSnmpInfo` | High
-29 | File | `/goform/setUplinkInfo` | High
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/ims/login.php` | High
-34 | File | `/index.php/admins/Fields/get_fields.html` | High
-35 | File | `/index.php?module=configuration/application` | High
-36 | File | `/index.php?module=entities/fields&entities_id=24` | High
-37 | File | `/index.php?module=entities/forms&entities_id=24` | High
-38 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-39 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/edit_members.php` | High
+3 | File | `/admin/pages/sections_save.php` | High
+4 | File | `/admin/transactions/update_status.php` | High
+5 | File | `/admin/users/index.php` | High
+6 | File | `/apiv1/` | Low
+7 | File | `/asms/admin/products/manage_product.php` | High
+8 | File | `/asms/products/view_product.php` | High
+9 | File | `/back/index.php/user/User/?1` | High
+10 | File | `/blog/comment` | High
+11 | File | `/bsms_ci/index.php` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/calendar/viewcalendar.php` | High
+14 | File | `/clients/listclients.php` | High
+15 | File | `/contacts/listcontacts.php` | High
+16 | File | `/Default/Bd` | Medium
+17 | File | `/device/` | Medium
+18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+19 | File | `/event/admin/?page=user/list` | High
+20 | File | `/forums/editforum.php` | High
+21 | File | `/garage/php_action/createBrand.php` | High
+22 | File | `/general/search.php?searchtype=simple` | High
+23 | File | `/goform/AddSysLogRule` | High
+24 | File | `/goform/AdvSetWrlsafeset` | High
+25 | File | `/goform/editUserName` | High
+26 | File | `/goform/IPSECsave` | High
+27 | File | `/goform/L7Im` | Medium
+28 | File | `/goform/SafeEmailFilter` | High
+29 | File | `/goform/setDiagnoseInfo` | High
+30 | File | `/goform/SetIpMacBind` | High
+31 | File | `/goform/setSnmpInfo` | High
+32 | File | `/goform/setSysPwd` | High
+33 | File | `/goform/setUplinkInfo` | High
+34 | File | `/goform/SysToolReboot` | High
+35 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -89,30 +89,29 @@ ID | Type | Indicator | Confidence
 8 | File | `/files.md5` | Medium
 9 | File | `/forum/away.php` | High
 10 | File | `/h/calendar` | Medium
-11 | File | `/images/` | Medium
-12 | File | `/inc/extensions.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/lists/index.php` | High
-15 | File | `/login` | Low
-16 | File | `/members/view_member.php` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/nova/bin/console` | High
-19 | File | `/nova/bin/detnet` | High
-20 | File | `/objects/getImageMP4.php` | High
-21 | File | `/one_church/userregister.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/replication` | Medium
-26 | File | `/req_password_user.php` | High
-27 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-28 | File | `/SASWebReportStudio/logonAndRender.do` | High
-29 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-30 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | ... | ... | ...
+11 | File | `/hrm/employeeview.php` | High
+12 | File | `/images/` | Medium
+13 | File | `/inc/extensions.php` | High
+14 | File | `/index.php` | Medium
+15 | File | `/lists/index.php` | High
+16 | File | `/login` | Low
+17 | File | `/members/view_member.php` | High
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/nova/bin/console` | High
+20 | File | `/nova/bin/detnet` | High
+21 | File | `/objects/getImageMP4.php` | High
+22 | File | `/one_church/userregister.php` | High
+23 | File | `/out.php` | Medium
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/replication` | Medium
+27 | File | `/req_password_user.php` | High
+28 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+29 | File | `/SASWebReportStudio/logonAndRender.do` | High
+30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+31 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

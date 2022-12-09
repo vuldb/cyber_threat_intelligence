@@ -178,32 +178,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/subnets/ripe-query.php` | High
 7 | File | `/admin/transactions/update_status.php` | High
 8 | File | `/api/v1/attack/token` | High
-9 | File | `/bin/httpd` | Medium
-10 | File | `/cgi-bin/cstecgi.cgi` | High
-11 | File | `/cgi-bin/luci` | High
-12 | File | `/college_website/index.php?` | High
-13 | File | `/common/info.cgi` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/debug/pprof` | Medium
+9 | File | `/cgi-bin/cstecgi.cgi` | High
+10 | File | `/cgi-bin/luci` | High
+11 | File | `/college_website/index.php?` | High
+12 | File | `/common/info.cgi` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/Default/Bd` | Medium
 16 | File | `/DesignTools/CssEditor.aspx` | High
 17 | File | `/dev/mmz_userdev` | High
 18 | File | `/dev/shm` | Medium
 19 | File | `/ebics-server/ebics.aspx` | High
 20 | File | `/egroupware/index.php` | High
 21 | File | `/etc/openshift/server_priv.pem` | High
-22 | File | `/etc/tomcat8/Catalina/attack` | High
-23 | File | `/export` | Low
-24 | File | `/filemanager/php/connector.php` | High
-25 | File | `/garage/php_action/createBrand.php` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/hospital/hms/admin/patient-search.php` | High
-29 | File | `/hrm/index.php?msg` | High
-30 | File | `/hrm/state.php` | High
-31 | File | `/images/background/1.php` | High
-32 | ... | ... | ...
+22 | File | `/etc/passwd` | Medium
+23 | File | `/etc/tomcat8/Catalina/attack` | High
+24 | File | `/export` | Low
+25 | File | `/face-recognition-php/facepay-master/camera.php` | High
+26 | File | `/filemanager/php/connector.php` | High
+27 | File | `/garage/php_action/createBrand.php` | High
+28 | File | `/goform/wizard_end` | High
+29 | File | `/hospital/hms/admin/patient-search.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/hrm/index.php?msg` | High
+32 | File | `/hrm/state.php` | High
+33 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

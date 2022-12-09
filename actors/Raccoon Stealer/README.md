@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Raccoon Stealer:
 
+* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,30 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.252.22.62](https://vuldb.com/?ip.5.252.22.62) | vm523526.stark-industries.solutions | - | High
-2 | [45.142.212.100](https://vuldb.com/?ip.45.142.212.100) | pikpik.top | - | High
-3 | [51.81.143.169](https://vuldb.com/?ip.51.81.143.169) | ip169.ip-51-81-143.us | - | High
-4 | ... | ... | ... | ...
+1 | [2.58.56.247](https://vuldb.com/?ip.2.58.56.247) | powered.by.rdp.sh | - | High
+2 | [5.42.199.87](https://vuldb.com/?ip.5.42.199.87) | - | - | High
+3 | [5.252.22.62](https://vuldb.com/?ip.5.252.22.62) | vm523526.stark-industries.solutions | - | High
+4 | [5.252.22.66](https://vuldb.com/?ip.5.252.22.66) | s-germany.rocks | - | High
+5 | [5.252.22.107](https://vuldb.com/?ip.5.252.22.107) | ns3.pacehost.de | - | High
+6 | [23.88.55.150](https://vuldb.com/?ip.23.88.55.150) | static.150.55.88.23.clients.your-server.de | - | High
+7 | [31.13.195.44](https://vuldb.com/?ip.31.13.195.44) | - | - | High
+8 | [45.61.136.191](https://vuldb.com/?ip.45.61.136.191) | - | - | High
+9 | [45.67.34.152](https://vuldb.com/?ip.45.67.34.152) | vm749292.stark-industries.solutions | - | High
+10 | [45.67.34.234](https://vuldb.com/?ip.45.67.34.234) | server.ga2.so-net.ne.jp | - | High
+11 | [45.67.35.251](https://vuldb.com/?ip.45.67.35.251) | vm684273.stark-industries.solutions | - | High
+12 | [45.84.0.80](https://vuldb.com/?ip.45.84.0.80) | sfixbfc.cn | - | High
+13 | [45.92.156.52](https://vuldb.com/?ip.45.92.156.52) | - | - | High
+14 | [45.92.156.53](https://vuldb.com/?ip.45.92.156.53) | - | - | High
+15 | [45.133.216.145](https://vuldb.com/?ip.45.133.216.145) | mail.axiknh.top | - | High
+16 | [45.133.216.170](https://vuldb.com/?ip.45.133.216.170) | wireguard.vasilchenko.dev | - | High
+17 | [45.133.216.249](https://vuldb.com/?ip.45.133.216.249) | vm699942.stark-industries.solutions | - | High
+18 | [45.138.74.104](https://vuldb.com/?ip.45.138.74.104) | descriptive-servant.aeza.network | - | High
+19 | [45.142.212.100](https://vuldb.com/?ip.45.142.212.100) | pikpik.top | - | High
+20 | [45.142.215.50](https://vuldb.com/?ip.45.142.215.50) | vm700900.stark-industries.solutions | - | High
+21 | [45.142.215.92](https://vuldb.com/?ip.45.142.215.92) | vm586875.stark-industries.solutions | - | High
+22 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 83 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,14 +52,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,40 +67,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/account/register` | High
-2 | File | `/admin.php/pic/admin/pic/del` | High
-3 | File | `/admin/deluser.php` | High
-4 | File | `/admin/sign/out` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/admin/web_config.php&amp` | High
-7 | File | `/app/options.py` | High
-8 | File | `/apps/` | Low
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cmscp/ext/collect/fetch_url.do` | High
-11 | File | `/controllers/MgrDiagnosticTools.php` | High
-12 | File | `/convert/html` | High
-13 | File | `/course/api/upload/pic` | High
-14 | File | `/etc/init.d/S50dropbear.sh` | High
-15 | File | `/goform/rlmswitchr_process` | High
-16 | File | `/hocms/classes/Master.php?f=delete_phase` | High
-17 | File | `/hub/api/user` | High
-18 | File | `/modules/mindmap/index.php` | High
-19 | File | `/modules/tasks/summary.inc.php` | High
-20 | File | `/password.html` | High
-21 | File | `/pms/admin/inmates/manage_record.php` | High
-22 | File | `/pms/admin/prisons/manage_prison.php` | High
-23 | File | `/root/.keeper/` | High
-24 | File | `/rss.xml` | Medium
-25 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-26 | ... | ... | ...
+1 | File | `.forward` | Medium
+2 | File | `//proc/kcore` | Medium
+3 | File | `/addQuestion.php` | High
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/admin.php/vod/admin/topic/del` | High
+6 | File | `/Admin/add-student.php` | High
+7 | File | `/admin/article/list_approve` | High
+8 | File | `/admin/communitymanagement.php` | High
+9 | File | `/admin/folderrollpicture/list` | High
+10 | File | `/admin/settings/save.php` | High
+11 | File | `/api/plugin/upload` | High
+12 | File | `/api/RecordingList/DownloadRecord?file=` | High
+13 | File | `/api/upload-resource` | High
+14 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+15 | File | `/bcms/admin/?page=user/manage_user` | High
+16 | File | `/bd_genie_create_account.cgi` | High
+17 | File | `/College_Management_System/admin/display-teacher.php` | High
+18 | File | `/conf/users` | Medium
+19 | File | `/course/api/upload/pic` | High
+20 | File | `/csms/classes/Master.php?f=delete_booking` | High
+21 | File | `/ctpms/classes/Master.php?f=delete_img` | High
+22 | File | `/dev/mmz_userdev` | High
+23 | File | `/diagnostic/editcategory.php` | High
+24 | File | `/etc/passwd` | Medium
+25 | File | `/gaia-job-admin/user/add` | High
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/SetFirewallCfg` | High
+28 | File | `/goform/WifiExtraSet` | High
+29 | File | `/goform/WriteFacMac` | High
+30 | File | `/gpac/src/bifs/unquantize.c` | High
+31 | File | `/h/search?action` | High
+32 | File | `/h/search?action=voicemail&action=listen` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/htdocs/upnpinc/gena.php` | High
+35 | File | `/index.asp` | Medium
+36 | File | `/index.php?module=entities/fields&entities_id=24` | High
+37 | File | `/Items/*/RemoteImages/Download` | High
+38 | File | `/jfinal_cms/system/role/list` | High
+39 | File | `/login.php` | Medium
+40 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/610bc7b082df417ed032f5f1
+* https://github.com/SEKOIA-IO/Community/blob/main/IOCs/raccoonstealer/raccoon_stealer_iocs_20220628.csv
 * https://www.zerofox.com/blog/brief-raccoon-stealer-version-2-0/
 
 ## Literature

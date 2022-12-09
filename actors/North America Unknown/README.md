@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [SH](https://vuldb.com/?country.sh)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -6529,7 +6529,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -6537,41 +6537,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/edit.php` | High
-3 | File | `/admin/settings/save.php` | High
-4 | File | `/admin/sign/out` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/api/v1/attack/falco` | High
-7 | File | `/api/v1/attack/token` | High
-8 | File | `/api/v2/open/tablesInfo` | High
-9 | File | `/balance/service/list` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/depotHead/list` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/setSysAdm` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/index.php` | Medium
-16 | File | `/index.php/purchase_order/browse_data` | High
-17 | File | `/lilac/main.php` | High
-18 | File | `/module/admin_bp/add_application.php` | High
-19 | File | `/module/report_event/index.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/out.php` | Medium
-22 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-23 | File | `/plugin/getList` | High
-24 | File | `/project/PROJECTNAME/reports/` | High
-25 | File | `/proxy` | Low
-26 | File | `/spip.php` | Medium
-27 | File | `/sys/duplicate/check` | High
-28 | File | `/tmp` | Low
-29 | File | `/usr/bin/pkexec` | High
-30 | File | `/usr/sbin/httpd` | High
-31 | File | `/var/log/nginx` | High
-32 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-33 | ... | ... | ...
+1 | File | `.../gogo/` | Medium
+2 | File | `/admin.php/Admin/adminadd.html` | High
+3 | File | `/admin/controller/JobLogController.java` | High
+4 | File | `/Admin/dashboard.php` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/settings/save.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/admin/subnets/ripe-query.php` | High
+9 | File | `/bsms_ci/index.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+12 | File | `/confirm` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/setDiagnoseInfo` | High
+20 | File | `/goform/setSnmpInfo` | High
+21 | File | `/goform/setSysAdm` | High
+22 | File | `/goform/setSysPwd` | High
+23 | File | `/goform/setUplinkInfo` | High
+24 | File | `/gpac/src/bifs/unquantize.c` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/includes/login.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?module=entities/fields&entities_id=24` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/out.php` | Medium
+33 | File | `/pages/processlogin.php` | High
+34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+35 | File | `/plugin/getList` | High
+36 | File | `/proxy` | Low
+37 | File | `/Redcock-Farm/farm/category.php` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/sys/duplicate/check` | High
+40 | File | `/template/edit` | High
+41 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

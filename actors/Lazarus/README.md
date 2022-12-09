@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -272,10 +272,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -286,7 +286,7 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php/Admin/adminadd.html` | High
 2 | File | `/admin/controller/JobLogController.java` | High
 3 | File | `/Admin/dashboard.php` | High
-4 | File | `/admin/problem_judge.php` | High
+4 | File | `/api/audits` | Medium
 5 | File | `/api/user/password/sent-reset-email` | High
 6 | File | `/api/v2/cli/commands` | High
 7 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
@@ -299,17 +299,20 @@ ID | Type | Indicator | Confidence
 14 | File | `/diag_tracert_admin.asp` | High
 15 | File | `/face-recognition-php/facepay-master/camera.php` | High
 16 | File | `/FormLogin` | Medium
-17 | File | `/goform/wizard_end` | High
-18 | File | `/gpac/src/bifs/unquantize.c` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/index/user/user_edit.html` | High
-21 | File | `/login.php` | Medium
-22 | File | `/Member/memberedit.html` | High
-23 | File | `/pages/processlogin.php` | High
-24 | File | `/product/savenewproduct.php?flag=1` | High
-25 | ... | ... | ...
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/gpac/src/bifs/unquantize.c` | High
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/index/user/user_edit.html` | High
+22 | File | `/leave_system/admin/?page=maintenance/department` | High
+23 | File | `/login` | Low
+24 | File | `/login.php` | Medium
+25 | File | `/Member/memberedit.html` | High
+26 | File | `/pages/processlogin.php` | High
+27 | File | `/product/savenewproduct.php?flag=1` | High
+28 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,35 +58,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/action/ipcamRecordPost` | High
-3 | File | `/admin/` | Low
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/settings/save.php` | High
-6 | File | `/auparse/auparse.c` | High
-7 | File | `/bsms_ci/index.php` | High
-8 | File | `/bsms_ci/index.php/user/edit_user/` | High
-9 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-10 | File | `/cgi-bin/qcmap_auth` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/CommunitySSORedirect.jsp` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/device/signin` | High
-16 | File | `/diagnostic/editclient.php` | High
-17 | File | `/diag_tracert_admin.asp` | High
-18 | File | `/edit-db.php` | Medium
-19 | File | `/event/admin/?page=user/list` | High
-20 | File | `/exec/` | Low
-21 | File | `/filemanager/php/connector.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/hospital/hms/admin/patient-search.php` | High
-24 | File | `/hrm/controller/employee.php` | High
-25 | File | `/hrm/index.php?msg` | High
-26 | File | `/hrm/state.php` | High
-27 | File | `/index.php?module=entities/fields&entities_id=24` | High
-28 | File | `/index.php?module=global_lists/lists` | High
-29 | File | `/irj/portal/` | Medium
-30 | File | `/modules/projects/vw_files.php` | High
+2 | File | `/admin/` | Low
+3 | File | `/admin/admin.php` | High
+4 | File | `/admin/settings/save.php` | High
+5 | File | `/auparse/auparse.c` | High
+6 | File | `/bsms_ci/index.php` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+9 | File | `/cgi-bin/qcmap_auth` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/CommunitySSORedirect.jsp` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/device/signin` | High
+15 | File | `/diagnostic/editclient.php` | High
+16 | File | `/diag_tracert_admin.asp` | High
+17 | File | `/edit-db.php` | Medium
+18 | File | `/event/admin/?page=user/list` | High
+19 | File | `/exec/` | Low
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/hospital/hms/admin/patient-search.php` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/index.php?msg` | High
+25 | File | `/hrm/state.php` | High
+26 | File | `/index.php?module=entities/fields&entities_id=24` | High
+27 | File | `/index.php?module=global_lists/lists` | High
+28 | File | `/irj/portal/` | Medium
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/nova/bin/sniffer` | High
 31 | File | `/odlms/?page=appointments/view_appointment` | High
 32 | File | `/okm:root` | Medium
 33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
@@ -98,7 +98,7 @@ ID | Type | Indicator | Confidence
 39 | File | `/Redcock-Farm/farm/category.php` | High
 40 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
