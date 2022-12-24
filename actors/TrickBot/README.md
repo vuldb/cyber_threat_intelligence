@@ -231,14 +231,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -252,33 +253,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/action/import_https_cert_file/` | High
 5 | File | `/action/import_nodejs_app/` | High
 6 | File | `/admin/?page=orders/view_order` | High
-7 | File | `/Admin/add-student.php` | High
-8 | File | `/admin/advicefeedback/list` | High
-9 | File | `/Admin/dashboard.php` | High
-10 | File | `/Admin/login.php` | High
-11 | File | `/admin/problem_judge.php` | High
-12 | File | `/admin/students/manage.php` | High
-13 | File | `/admin/users_add.php` | High
-14 | File | `/api/RecordingList/DownloadRecord?file=` | High
-15 | File | `/api/user/password/sent-reset-email` | High
-16 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-17 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-18 | File | `/asms/classes/Master.php?f=delete_service` | High
+7 | File | `/admin/advicefeedback/list` | High
+8 | File | `/Admin/dashboard.php` | High
+9 | File | `/admin/problem_judge.php` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/admin/submit-articles` | High
+12 | File | `/api/audits` | Medium
+13 | File | `/api/sys_username_passwd.cmd` | High
+14 | File | `/api/user/password/sent-reset-email` | High
+15 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+16 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+17 | File | `/asms/classes/Master.php?f=delete_service` | High
+18 | File | `/attachments` | Medium
 19 | File | `/balance/service/list` | High
-20 | File | `/cgi-bin/DownloadFlash` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Master.php?f=delete_reservation` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/diagnostic/edittest.php` | High
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/cgi-bin/DownloadFlash` | High
+23 | File | `/classes/Master.php?f=delete_reservation` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/debug/pprof` | Medium
 26 | File | `/diag_ping_admin.asp` | High
 27 | File | `/diag_tracert_admin.asp` | High
-28 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
 29 | File | `/edit-db.php` | Medium
-30 | File | `/employeeview.php` | High
-31 | ... | ... | ...
+30 | File | `/env` | Low
+31 | File | `/etc/hosts` | Medium
+32 | File | `/etc/quagga` | Medium
+33 | File | `/face-recognition-php/facepay-master/camera.php` | High
+34 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

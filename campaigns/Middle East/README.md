@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -26,7 +26,7 @@ ID | Actor | Confidence
 3 | [DNSpionage](https://vuldb.com/?actor.dnspionage) | High
 4 | ... | ...
 
-There are 1 more actor items available. Please use our online service to access the data.
+There are 2 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,12 +51,14 @@ ID | IP address | Hostname | Actor | Confidence
 15 | [62.109.2.52](https://vuldb.com/?ip.62.109.2.52) | ns.leangroup.ru | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
 16 | [66.55.152.164](https://vuldb.com/?ip.66.55.152.164) | 66-55-152-164.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
 17 | [68.232.180.122](https://vuldb.com/?ip.68.232.180.122) | 68-232-180-122.choopa.net | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-18 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-19 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-20 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
-21 | ... | ... | ... | ...
+18 | [70.34.248.149](https://vuldb.com/?ip.70.34.248.149) | 70.34.248.149.vultrusercontent.com | [BackdoorDiplomacy](https://vuldb.com/?actor.backdoordiplomacy) | High
+19 | [80.179.42.37](https://vuldb.com/?ip.80.179.42.37) | 80.179.42.37.forward.012.net.il | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+20 | [80.179.42.44](https://vuldb.com/?ip.80.179.42.44) | lnkrten-dazling.linegrace.com | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+21 | [86.105.18.5](https://vuldb.com/?ip.86.105.18.5) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+22 | [87.236.212.184](https://vuldb.com/?ip.87.236.212.184) | - | [Middle East Unknown](https://vuldb.com/?actor.middle_east_unknown) | High
+23 | ... | ... | ... | ...
 
-There are 79 more IOC items available. Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -64,15 +66,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,43 +81,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/factory` | High
-2 | File | `/action/wirelessConnect` | High
-3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/add-fee.php` | High
-5 | File | `/admin/baojia_list.php` | High
-6 | File | `/admin/folderrollpicture/list` | High
-7 | File | `/admin/loginc.php` | High
-8 | File | `/admin/users_add.php` | High
-9 | File | `/anony/mjpg.cgi` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/v2/open/rowsInfo` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/appointments/update_status.php` | High
-14 | File | `/authUserAction!edit.action` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/bookings/update_status.php` | High
-17 | File | `/classes/Users.php?f=delete_client` | High
-18 | File | `/contacts/listcontacts.php` | High
-19 | File | `/Core/Ap4File.cpp` | High
-20 | File | `/dede/file_manage_control.php` | High
-21 | File | `/depotHead/list` | High
-22 | File | `/etc/openshift/server_priv.pem` | High
-23 | File | `/etc/pki/pulp/nodes/` | High
-24 | File | `/foms/place-order.php` | High
-25 | File | `/forms/web_runScript` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/garage/php_action/createBrand.php` | High
-28 | File | `/general/search.php?searchtype=simple` | High
-29 | File | `/goform/AddSysLogRule` | High
-30 | File | `/goform/formSetFirewallCfg` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/isomedia/meta.c` | High
-33 | File | `/meetings/listmeetings.php` | High
-34 | File | `/odlms/?page=appointments/view_appointment` | High
-35 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin/videoalbum/list` | High
+3 | File | `/authUserAction!edit.action` | High
+4 | File | `/c/macho_reader.c` | High
+5 | File | `/cgi-bin/DownloadFlash` | High
+6 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+7 | File | `/conf/` | Low
+8 | File | `/config/getuser` | High
+9 | File | `/dashboard/contact` | High
+10 | File | `/dev/bus` | Medium
+11 | File | `/example/editor` | High
+12 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/L7Im` | Medium
+15 | File | `/goform/setMacFilterCfg` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/index` | Low
+18 | File | `/iu-application/controllers/administration/auth.php` | High
+19 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+20 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+21 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+22 | File | `/module/module_frame/index.php` | High
+23 | File | `/music/ajax.php` | High
+24 | File | `/northstar/Admin/changePassword.jsp` | High
+25 | File | `/orms/` | Low
+26 | File | `/ossn/administrator/com_installer` | High
+27 | File | `/rest/api/1.0/render` | High
+28 | File | `/sre/params.php` | High
+29 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/xbindkeysrc-tmp` | High
+32 | File | `/Users` | Low
+33 | File | `/var/spool/hylafax` | High
+34 | File | `/whbs/?page=my_bookings` | High
+35 | File | `access_rules/rules_form` | High
+36 | File | `action/addproject.php` | High
+37 | File | `adclick.php` | Medium
+38 | File | `admin.php` | Medium
+39 | File | `admin/ajax.attachment.php` | High
+40 | File | `admin/index.php` | High
+41 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -127,6 +134,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://community.blueliv.com/#!/s/6053819b82df413eaf346332
 * https://gblogs.cisco.com/jp/2018/12/talos-dnspionage-campaign-targets-middle-east/)
 * https://securelist.com/wirtes-campaign-in-the-middle-east-living-off-the-land-since-at-least-2019/105044/
+* https://www.bitdefender.com/files/News/CaseStudies/study/426/Bitdefender-PR-Whitepaper-BackdoorDiplomacy-creat6507-en-EN.pdf
 * https://www.zscaler.com/blogs/security-research/new-espionage-attack-molerats-apt-targeting-users-middle-east
 
 ## Literature

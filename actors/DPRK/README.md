@@ -64,7 +64,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -96,21 +96,21 @@ ID | Type | Indicator | Confidence
 15 | File | `/DataHandler/Handler_CFG.ashx` | High
 16 | File | `/ECT_Provider/` | High
 17 | File | `/etc/passwd` | Medium
-18 | File | `/fuel/index.php/fuel/logs/items` | High
-19 | File | `/fuel/index.php/fuel/pages/items` | High
-20 | File | `/image_zoom.php` | High
-21 | File | `/include/config.cache.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/mkshop/Men/profile.php` | High
-24 | File | `/plugin/ajax.php` | High
-25 | File | `/proxy/` | Low
-26 | File | `/public/plugins/` | High
-27 | File | `/rest/api/2/search` | High
-28 | File | `/rest/api/latest/projectvalidate/key` | High
-29 | File | `/rom-0` | Low
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/index.php/fuel/pages/items` | High
+21 | File | `/image_zoom.php` | High
+22 | File | `/include/config.cache.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/plugin/ajax.php` | High
+26 | File | `/proxy/` | Low
+27 | File | `/public/plugins/` | High
+28 | File | `/rest/api/2/search` | High
+29 | File | `/rest/api/latest/projectvalidate/key` | High
 30 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

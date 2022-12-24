@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.104.230.200](https://vuldb.com/?ip.5.104.230.200) | hosted-by.snel.com | - | High
-2 | [62.75.222.235](https://vuldb.com/?ip.62.75.222.235) | rom243.dedicatedpanel.com | - | High
-3 | [66.199.229.251](https://vuldb.com/?ip.66.199.229.251) | 66-199-229-251.reverse.ezzi.net | - | High
-4 | ... | ... | ... | ...
+1 | [5.61.40.13](https://vuldb.com/?ip.5.61.40.13) | - | - | High
+2 | [5.61.42.235](https://vuldb.com/?ip.5.61.42.235) | - | - | High
+3 | [5.104.230.200](https://vuldb.com/?ip.5.104.230.200) | hosted-by.snel.com | - | High
+4 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
+5 | [18.133.158.66](https://vuldb.com/?ip.18.133.158.66) | ec2-18-133-158-66.eu-west-2.compute.amazonaws.com | - | Medium
+6 | [23.21.42.25](https://vuldb.com/?ip.23.21.42.25) | ec2-23-21-42-25.compute-1.amazonaws.com | - | Medium
+7 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 24 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +37,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-250, CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,35 +55,48 @@ ID | Type | Indicator | Confidence
 1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
 2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
 3 | File | `/32` | Low
-4 | File | `/cgi-bin/kerbynet` | High
-5 | File | `/etc/keystone/user-project-map.json` | High
-6 | File | `/etc/passwd` | Medium
-7 | File | `/inc/campaign/view-campaign-list.php` | High
-8 | File | `/include/menu_v.inc.php` | High
-9 | File | `/servlet/webacc` | High
-10 | File | `/usr/` | Low
-11 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-12 | File | `admin-ajax.php` | High
-13 | File | `ajax_crons.php` | High
-14 | File | `ansi.c` | Low
-15 | File | `api.php/List/index` | High
-16 | File | `API/api/Version` | High
-17 | File | `application/controllers/LSBaseController.php` | High
-18 | File | `AsusScreenXpertServicec.exe` | High
-19 | File | `backupDB.php` | Medium
-20 | File | `bind.cpp` | Medium
-21 | File | `bits.c` | Low
-22 | File | `bundles/AdminBundle/Controller/Reports/CustomReportController.php` | High
-23 | File | `C:\downsoft` | Medium
-24 | ... | ... | ...
+4 | File | `/admin/usermanagement.php` | High
+5 | File | `/assets/something/services/AppModule.class` | High
+6 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+7 | File | `/cgi-bin/kerbynet` | High
+8 | File | `/cgi-bin/pass` | High
+9 | File | `/ctpms/admin/?page=applications/view_application` | High
+10 | File | `/dev/tcx0` | Medium
+11 | File | `/dev/urandom` | Medium
+12 | File | `/etc/environment` | High
+13 | File | `/etc/keystone/user-project-map.json` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/home.jsp` | Medium
+16 | File | `/inc/campaign/view-campaign-list.php` | High
+17 | File | `/include/menu_v.inc.php` | High
+18 | File | `/index.php/weblinks-categories` | High
+19 | File | `/servlet/webacc` | High
+20 | File | `/student-grading-system/rms.php?page=school_year` | High
+21 | File | `/system?action=ServiceAdmin` | High
+22 | File | `/usr/` | Low
+23 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+24 | File | `ActiveMQConnection.java` | High
+25 | File | `admin-ajax.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/ad_list.php` | High
+28 | File | `admin/status/realtime/bandwidth_status` | High
+29 | File | `agent.c` | Low
+30 | File | `ajax_crons.php` | High
+31 | File | `ansi.c` | Low
+32 | File | `api.php/List/index` | High
+33 | File | `API/api/Version` | High
+34 | File | `application/controllers/LSBaseController.php` | High
+35 | File | `arq_updater` | Medium
+36 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/11/threat-roundup-1115-1122.html
+* https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 
 ## Literature
 

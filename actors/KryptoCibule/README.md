@@ -19,6 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [198.211.34.151](https://vuldb.com/?ip.198.211.34.151) | host-198-211-34-151-by.yhsrv.com | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _KryptoCibule_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

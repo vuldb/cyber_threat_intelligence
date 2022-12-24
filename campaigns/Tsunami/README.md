@@ -78,27 +78,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/HNAP1` | Low
 21 | File | `/include/makecvs.php` | High
 22 | File | `/includes/common.inc.php` | High
-23 | File | `/knomi/analyze` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/monitoring` | Medium
-26 | File | `/out.php` | Medium
-27 | File | `/outgoing.php` | High
-28 | File | `/scripts/iisadmin/bdir.htr` | High
-29 | File | `/tmp` | Low
-30 | File | `/tmp/csman/0` | Medium
-31 | File | `/ui/cbpc/login` | High
-32 | File | `/var/avamar/f_cache.dat` | High
-33 | File | `/var/hnap/timestamp` | High
-34 | File | `/var/run/storage_account_root` | High
-35 | File | `/webmail/` | Medium
-36 | File | `/wp-content/plugins/forum-server/feed.php` | High
-37 | File | `/{ADMIN-FILE}/` | High
-38 | File | `a2billing/customer/iridium_threed.php` | High
-39 | File | `address.html` | Medium
-40 | File | `adm/systools.asp` | High
-41 | ... | ... | ...
+23 | File | `/js/app.js` | Medium
+24 | File | `/knomi/analyze` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/monitoring` | Medium
+27 | File | `/out.php` | Medium
+28 | File | `/outgoing.php` | High
+29 | File | `/scripts/iisadmin/bdir.htr` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/csman/0` | Medium
+32 | File | `/ui/cbpc/login` | High
+33 | File | `/var/avamar/f_cache.dat` | High
+34 | File | `/var/hnap/timestamp` | High
+35 | File | `/var/run/storage_account_root` | High
+36 | File | `/webmail/` | Medium
+37 | File | `/wp-content/plugins/forum-server/feed.php` | High
+38 | File | `/{ADMIN-FILE}/` | High
+39 | File | `a2billing/customer/iridium_threed.php` | High
+40 | File | `address.html` | Medium
+41 | File | `adm/systools.asp` | High
+42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

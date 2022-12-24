@@ -75,7 +75,7 @@ ID | Type | Indicator | Confidence
 19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 20 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

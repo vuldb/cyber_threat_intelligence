@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,9 +48,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,26 +60,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `//proc/kcore` | Medium
-3 | File | `/about.php` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin/submit-articles` | High
 4 | File | `/admin/subnets/ripe-query.php` | High
 5 | File | `/ad_js.php` | Medium
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/app/options.py` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/core/conditions/AbstractWrapper.java` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/dev/shm` | Medium
-18 | File | `/ebics-server/ebics.aspx` | High
-19 | File | `/etc/hosts` | Medium
-20 | File | `/export` | Low
-21 | File | `/fuel/sitevariables/delete/4` | High
+6 | File | `/app/options.py` | High
+7 | File | `/attachments` | Medium
+8 | File | `/bin/boa` | Medium
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/dev/shm` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/etc/hosts` | Medium
+21 | File | `/export` | Low
 22 | File | `/goform/setmac` | High
 23 | File | `/goform/wizard_end` | High
 24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
@@ -89,7 +90,7 @@ ID | Type | Indicator | Confidence
 29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 30 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

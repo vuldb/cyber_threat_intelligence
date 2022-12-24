@@ -62,14 +62,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/maint/index.php` | High
 3 | File | `/see_more_details.php` | High
-4 | File | `admsession.php` | High
-5 | File | `al_initialize.php` | High
-6 | File | `coders/gif.c` | Medium
-7 | File | `connectors/index.php` | High
-8 | File | `Core\Admin\PFTemplater.php` | High
+4 | File | `/shopping/product.php` | High
+5 | File | `admsession.php` | High
+6 | File | `al_initialize.php` | High
+7 | File | `coders/gif.c` | Medium
+8 | File | `connectors/index.php` | High
 9 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

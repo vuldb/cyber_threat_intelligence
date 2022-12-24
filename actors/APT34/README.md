@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,9 +47,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -74,23 +74,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/export` | Low
 13 | File | `/file?action=download&file` | High
 14 | File | `/filemanager/upload/drop` | High
-15 | File | `/index.php` | Medium
-16 | File | `/login.php` | Medium
-17 | File | `/medical/inventories.php` | High
-18 | File | `/mgmt/tm/util/bash` | High
-19 | File | `/mkshop/Men/profile.php` | High
-20 | File | `/monitoring` | Medium
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/pages/apply_vacancy.php` | High
-23 | File | `/php_action/createUser.php` | High
-24 | File | `/plugin/LiveChat/getChat.json.php` | High
-25 | File | `/plugins/servlet/audit/resource` | High
-26 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-27 | File | `/replication` | Medium
-28 | File | `/RestAPI` | Medium
+15 | File | `/hardware` | Medium
+16 | File | `/hrm/employeeview.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/login.php` | Medium
+19 | File | `/medical/inventories.php` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/monitoring` | Medium
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/pages/apply_vacancy.php` | High
+25 | File | `/php_action/createUser.php` | High
+26 | File | `/plugin/LiveChat/getChat.json.php` | High
+27 | File | `/plugins/servlet/audit/resource` | High
+28 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 29 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

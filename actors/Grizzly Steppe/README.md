@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -155,14 +155,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-84, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -171,40 +172,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/import_https_cert_file/` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/settings/save.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/subnets/ripe-query.php` | High
-7 | File | `/admin/transactions/update_status.php` | High
-8 | File | `/api/v1/attack/token` | High
-9 | File | `/cgi-bin/cstecgi.cgi` | High
-10 | File | `/cgi-bin/luci` | High
-11 | File | `/college_website/index.php?` | High
-12 | File | `/common/info.cgi` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/Default/Bd` | Medium
-16 | File | `/DesignTools/CssEditor.aspx` | High
-17 | File | `/dev/mmz_userdev` | High
-18 | File | `/dev/shm` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/egroupware/index.php` | High
-21 | File | `/etc/openshift/server_priv.pem` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/etc/tomcat8/Catalina/attack` | High
-24 | File | `/export` | Low
-25 | File | `/face-recognition-php/facepay-master/camera.php` | High
-26 | File | `/filemanager/php/connector.php` | High
-27 | File | `/garage/php_action/createBrand.php` | High
-28 | File | `/goform/wizard_end` | High
-29 | File | `/hospital/hms/admin/patient-search.php` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/hrm/index.php?msg` | High
-32 | File | `/hrm/state.php` | High
-33 | ... | ... | ...
+2 | File | `/addNotifyServlet` | High
+3 | File | `/admin/settings/save.php` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/admin/transactions/update_status.php` | High
+7 | File | `/api/v1/attack/token` | High
+8 | File | `/attachments` | Medium
+9 | File | `/cgi-bin/luci` | High
+10 | File | `/cms/category/list` | High
+11 | File | `/common/info.cgi` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/dev/shm` | Medium
+16 | File | `/egroupware/index.php` | High
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/openshift/server_priv.pem` | High
+19 | File | `/etc/passwd` | Medium
+20 | File | `/etc/tomcat8/Catalina/attack` | High
+21 | File | `/face-recognition-php/facepay-master/camera.php` | High
+22 | File | `/filemanager/php/connector.php` | High
+23 | File | `/garage/php_action/createBrand.php` | High
+24 | File | `/goform/wizard_end` | High
+25 | File | `/hospital/hms/admin/patient-search.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/hrm/index.php?msg` | High
+28 | File | `/hrm/state.php` | High
+29 | File | `/hss/?page=view_product` | High
+30 | File | `/images/background/1.php` | High
+31 | File | `/index.php?module=configuration/application` | High
+32 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+33 | File | `/lib` | Low
+34 | File | `/login` | Low
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/modules/projects/vw_files.php` | High
+37 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

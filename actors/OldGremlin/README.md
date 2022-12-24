@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,15 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/rapi/read_url` | High
-2 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-3 | File | `AppCompatCache.exe` | High
-4 | File | `cgi-bin/awstats.pl` | High
-5 | File | `cgi-bin/MANGA/admin.cgi` | High
-6 | File | `coders/png.c` | Medium
-7 | ... | ... | ...
+1 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/rapi/read_url` | High
+3 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+4 | File | `AppCompatCache.exe` | High
+5 | File | `cgi-bin/awstats.pl` | High
+6 | File | `cgi-bin/MANGA/admin.cgi` | High
+7 | File | `coders/png.c` | Medium
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

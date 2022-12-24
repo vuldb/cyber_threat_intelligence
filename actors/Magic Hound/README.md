@@ -82,25 +82,25 @@ ID | Type | Indicator | Confidence
 7 | File | `/auditLogAction.do` | High
 8 | File | `/cgi-bin/wapopen` | High
 9 | File | `/devices/acurite.c` | High
-10 | File | `/etc/ajenti/config.yml` | High
-11 | File | `/example/editor` | High
-12 | File | `/foms/place-order.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-15 | File | `/goform/login_process` | High
-16 | File | `/goform/rlmswitchr_process` | High
-17 | File | `/goforms/rlminfo` | High
-18 | File | `/newsDia.php` | Medium
-19 | File | `/plugin` | Low
-20 | File | `/pms/index.php` | High
-21 | File | `/rating.php` | Medium
-22 | File | `/scas/admin/` | Medium
-23 | File | `/scas/classes/Users.php?f=save_user` | High
-24 | File | `/services/prefs.php` | High
-25 | File | `/src/njs_object.c` | High
+10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+11 | File | `/etc/ajenti/config.yml` | High
+12 | File | `/event/admin/?page=user/list` | High
+13 | File | `/example/editor` | High
+14 | File | `/foms/place-order.php` | High
+15 | File | `/getcfg.php` | Medium
+16 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+17 | File | `/goform/login_process` | High
+18 | File | `/goform/rlmswitchr_process` | High
+19 | File | `/goforms/rlminfo` | High
+20 | File | `/newsDia.php` | Medium
+21 | File | `/plugin` | Low
+22 | File | `/pms/index.php` | High
+23 | File | `/rating.php` | Medium
+24 | File | `/scas/admin/` | Medium
+25 | File | `/scas/classes/Users.php?f=save_user` | High
 26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

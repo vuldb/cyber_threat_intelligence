@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -67,41 +67,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
-2 | File | `/Admin/add-student.php` | High
+2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/admin/admin.php` | High
-4 | File | `/admin/conferences/list/` | High
-5 | File | `/admin/index.PHP` | High
-6 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-7 | File | `/admin/update_traveller.php` | High
-8 | File | `/advanced-tools/nova/bin/netwatch` | High
-9 | File | `/cameras/XXXX/clips` | High
-10 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-11 | File | `/cgi-bin/kerbynet` | High
-12 | File | `/cgi-bin/qcmap_auth` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/CommunitySSORedirect.jsp` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/diagnostic/editclient.php` | High
-18 | File | `/editbrand.php` | High
-19 | File | `/etc/sudoers` | Medium
-20 | File | `/EXCU_SHELL` | Medium
-21 | File | `/filemanager/php/connector.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/index.php?module=global_lists/lists` | High
-24 | File | `/leave_system/classes/Master.php?f=delete_application` | High
-25 | File | `/okm:root` | Medium
-26 | File | `/opt/onedev/sites/` | High
-27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-28 | File | `/out.php` | Medium
-29 | File | `/phpinventory/editcategory.php` | High
-30 | File | `/public_html/animals` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/sqfs/bin/sccd` | High
-33 | File | `/text/pdf/PdfReader.java` | High
+4 | File | `/admin/update_traveller.php` | High
+5 | File | `/bsms_ci/index.php` | High
+6 | File | `/bsms_ci/index.php/user/edit_user/` | High
+7 | File | `/cameras/XXXX/clips` | High
+8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+9 | File | `/cgi-bin/luci` | High
+10 | File | `/cgi-bin/qcmap_auth` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi/trustclustermaster.cgi` | High
+13 | File | `/CommunitySSORedirect.jsp` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/diagnostic/editclient.php` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/export` | Low
+19 | File | `/filemanager/php/connector.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/SetPptpServerCfg` | High
+22 | File | `/h/calendar` | Medium
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/index.php?module=global_lists/lists` | High
+25 | File | `/js/app.js` | Medium
+26 | File | `/mkshope/login.php` | High
+27 | File | `/okm:root` | Medium
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/out.php` | Medium
+30 | File | `/public/launchNewWindow.jsp` | High
+31 | File | `/public_html/animals` | High
+32 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
 34 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

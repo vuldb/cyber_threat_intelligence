@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -71,7 +71,7 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/kerbynet` | High
 9 | File | `/conf/` | Low
 10 | File | `/dev/snd/seq` | Medium
-11 | File | `/error` | Low
+11 | File | `/etc/passwd` | Medium
 12 | File | `/goform/saveParentControlInfo` | High
 13 | File | `/goform/SetFirewallCfg` | High
 14 | File | `/htdocs/admin/dict.php?id=3` | High
@@ -83,26 +83,26 @@ ID | Type | Indicator | Confidence
 20 | File | `/release-x64/otfccdump` | High
 21 | File | `/rom-0` | Low
 22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-23 | File | `/setSystemAdmin` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/user-utils/users/md5.json` | High
-27 | File | `/usr/lib/utmp_update` | High
-28 | File | `/usr/local` | Medium
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-31 | File | `2020\Messages\SDNotify.exe` | High
-32 | File | `admin/Login.php` | High
-33 | File | `admin/plugin-index.php` | High
-34 | File | `administration` | High
-35 | File | `administrative` | High
-36 | File | `ag_server_service.exe` | High
-37 | File | `Alias.asmx` | Medium
-38 | File | `aolfix.exe` | Medium
-39 | File | `app/models/user.rb` | High
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/user-utils/users/md5.json` | High
+26 | File | `/usr/lib/utmp_update` | High
+27 | File | `/usr/local` | Medium
+28 | File | `/wp-admin` | Medium
+29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+30 | File | `2020\Messages\SDNotify.exe` | High
+31 | File | `admin/Login.php` | High
+32 | File | `admin/plugin-index.php` | High
+33 | File | `administration` | High
+34 | File | `administrative` | High
+35 | File | `ag_server_service.exe` | High
+36 | File | `Alias.asmx` | Medium
+37 | File | `aolfix.exe` | Medium
+38 | File | `app/models/user.rb` | High
+39 | File | `apply.cgi` | Medium
 40 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
-* [US](https://vuldb.com/?country.us)
+* [SV](https://vuldb.com/?country.sv)
 * [DE](https://vuldb.com/?country.de)
-* [PT](https://vuldb.com/?country.pt)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,15 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,49 +49,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_https_cert_file/` | High
-2 | File | `/admin/?page=bookings/view_details` | High
-3 | File | `/admin/?page=orders/view_order` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/Admin/dashboard.php` | High
-7 | File | `/admin/pages/sections_save.php` | High
-8 | File | `/admin/settings.php` | High
-9 | File | `/admin/up_booking.php` | High
-10 | File | `/api/geojson` | Medium
-11 | File | `/api/v1/attack` | High
-12 | File | `/api/v1/attack/token` | High
-13 | File | `/apiv1/` | Low
-14 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-15 | File | `/authUserAction!edit.action` | High
-16 | File | `/bsms_ci/index.php/user/edit_user/` | High
-17 | File | `/buspassms/download-pass.php` | High
-18 | File | `/calendar/viewcalendar.php` | High
-19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/clearance/clearance.php` | High
-21 | File | `/clients/listclients.php` | High
-22 | File | `/College/admin/teacher.php` | High
-23 | File | `/dede/file_manage_control.php` | High
-24 | File | `/DesignTools/CssEditor.aspx` | High
-25 | File | `/dev/shm` | Medium
-26 | File | `/device/` | Medium
-27 | File | `/diagnostic/edittest.php` | High
-28 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-29 | File | `/event/admin/?page=user/list` | High
-30 | File | `/file/upload/1` | High
-31 | File | `/forums/editforum.php` | High
-32 | File | `/general/search.php?searchtype=simple` | High
-33 | File | `/goform/AddSysLogRule` | High
-34 | File | `/goform/editUserName` | High
-35 | File | `/goform/setDiagnoseInfo` | High
-36 | File | `/goform/SetIpMacBind` | High
-37 | File | `/goform/WifiBasicSet` | High
-38 | File | `/hrm/controller/employee.php` | High
-39 | File | `/hrm/employeeadd.php` | High
-40 | File | `/hrm/employeeview.php` | High
-41 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
+2 | File | `/addNotifyServlet` | High
+3 | File | `/admin/sign/out` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/adminui/error_details.php` | High
+6 | File | `/Api/ASF` | Medium
+7 | File | `/balance/service/list` | High
+8 | File | `/bsms_ci/index.php/user/edit_user/` | High
+9 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/common/ajax_email_connection_test.php` | High
+12 | File | `/common/download_agent_installer.php` | High
+13 | File | `/common/download_attachment.php` | High
+14 | File | `/common/run_cross_report.php` | High
+15 | File | `/etc/gsissh/sshd_config` | High
+16 | File | `/goform/CertListInfo` | High
+17 | File | `/goform/dir_setWanWifi` | High
+18 | File | `/goform/IPSECsave` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/login` | Low
+21 | File | `/opt/tms/bin/cli` | High
+22 | File | `/proc/self/environ` | High
+23 | File | `/product/savenewproduct.php?flag=1` | High
+24 | File | `/tmp/boa-temp` | High
+25 | File | `/tools/developerConsoleOperations.jsp` | High
+26 | File | `/ui/cbpc/login` | High
+27 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

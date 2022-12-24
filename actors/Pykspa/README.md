@@ -11,6 +11,9 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,17 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//etc/RT2870STA.dat` | High
-2 | File | `/cgi-bin/wapopen` | High
-3 | File | `/HNAP1` | Low
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/setSystemAdmin` | High
-6 | File | `/updown/upload.cgi` | High
-7 | File | `/usr/bin/pkexec` | High
-8 | File | `acl.c` | Low
-9 | ... | ... | ...
+1 | File | `/.ssh/authorized_keys` | High
+2 | File | `//etc/RT2870STA.dat` | High
+3 | File | `/cgi-bin/wapopen` | High
+4 | File | `/HNAP1` | Low
+5 | File | `/mgmt/tm/util/bash` | High
+6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+7 | File | `/setSystemAdmin` | High
+8 | File | `/updown/upload.cgi` | High
+9 | File | `/usr/bin/pkexec` | High
+10 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

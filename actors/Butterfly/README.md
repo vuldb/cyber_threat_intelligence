@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,24 +48,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/webviewer_login_page` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/getcfg.php` | Medium
-4 | File | `/proc/ioports` | High
-5 | File | `/services/details.asp` | High
-6 | File | `/tmp` | Low
-7 | File | `/uncpath/` | Medium
-8 | File | `/Upload.ashx` | Medium
-9 | File | `/var/tmp/sess_*` | High
-10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-11 | File | `admin/killsource` | High
-12 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-13 | File | `auth-gss2.c` | Medium
-14 | File | `bin/jp2/convert.c` | High
-15 | File | `books.php` | Medium
-16 | ... | ... | ...
+1 | File | `/admin/broadcast.php` | High
+2 | File | `/admin/sysmon.php` | High
+3 | File | `/cgi-bin/webviewer_login_page` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/getcfg.php` | Medium
+6 | File | `/proc/ioports` | High
+7 | File | `/services/details.asp` | High
+8 | File | `/tmp` | Low
+9 | File | `/uncpath/` | Medium
+10 | File | `/Upload.ashx` | Medium
+11 | File | `/var/tmp/sess_*` | High
+12 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+13 | File | `activateuser.aspx` | High
+14 | File | `adclick.php` | Medium
+15 | File | `admin/killsource` | High
+16 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+17 | ... | ... | ...
 
-There are 126 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

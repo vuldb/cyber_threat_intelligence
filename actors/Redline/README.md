@@ -87,13 +87,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,29 +121,30 @@ ID | Type | Indicator | Confidence
 18 | File | `/download` | Medium
 19 | File | `/etc/gsissh/sshd_config` | High
 20 | File | `/get_getnetworkconf.cgi` | High
-21 | File | `/gpac/src/bifs/unquantize.c` | High
-22 | File | `/GponForm/device_Form?script/` | High
-23 | File | `/home` | Low
-24 | File | `/includes/rrdtool.inc.php` | High
-25 | File | `/index.asp` | Medium
-26 | File | `/index.php` | Medium
-27 | File | `/jfinal_cms/system/role/list` | High
-28 | File | `/Main_AdmStatus_Content.asp` | High
-29 | File | `/members/view_member.php` | High
-30 | File | `/NAGErrors` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-33 | File | `/plain` | Low
-34 | File | `/public` | Low
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/sgms/TreeControl` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-39 | File | `/tmp` | Low
-40 | File | `/uncpath/` | Medium
-41 | ... | ... | ...
+21 | File | `/goform/addUserName` | High
+22 | File | `/goform/wifiSSIDset` | High
+23 | File | `/gpac/src/bifs/unquantize.c` | High
+24 | File | `/GponForm/device_Form?script/` | High
+25 | File | `/home` | Low
+26 | File | `/includes/rrdtool.inc.php` | High
+27 | File | `/index.asp` | Medium
+28 | File | `/index.php` | Medium
+29 | File | `/jfinal_cms/system/role/list` | High
+30 | File | `/Main_AdmStatus_Content.asp` | High
+31 | File | `/members/view_member.php` | High
+32 | File | `/NAGErrors` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+35 | File | `/plain` | Low
+36 | File | `/public` | Low
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/sgms/TreeControl` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+41 | File | `/tmp` | Low
+42 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

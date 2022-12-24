@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 29 more country items available. Please use our online service to access the data.
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,12 +54,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/addnews.html` | High
 3 | File | `/admin/` | Low
 4 | File | `/admin/inquiries/view_details.php` | High
-5 | File | `/api/2.0/rest/aggregator/xml` | High
-6 | File | `/api/blade-log/api/list` | High
-7 | File | `/cgi-bin/webviewer_login_page` | High
-8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-9 | File | `/core/vendor/meenie/javascript-packer/example-inline.php` | High
-10 | File | `/etc/config/rpcd` | High
+5 | File | `/anony/mjpg.cgi` | High
+6 | File | `/api/2.0/rest/aggregator/xml` | High
+7 | File | `/api/blade-log/api/list` | High
+8 | File | `/cgi-bin/webviewer_login_page` | High
+9 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+10 | File | `/core/vendor/meenie/javascript-packer/example-inline.php` | High
 11 | File | `/exponent_constants.php` | High
 12 | File | `/forum/away.php` | High
 13 | File | `/goform/formLogin` | High
@@ -72,34 +72,34 @@ ID | Type | Indicator | Confidence
 20 | File | `/mfaslmf/nolicense` | High
 21 | File | `/mhds/clinic/view_details.php` | High
 22 | File | `/opt/bin/cli` | Medium
-23 | File | `/plain` | Low
-24 | File | `/proc` | Low
-25 | File | `/proc/ioports` | High
-26 | File | `/products/details.asp` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/RestAPI` | Medium
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/User/saveUser` | High
-32 | File | `/viewer/krpano.html` | High
-33 | File | `/ViewUserHover.jspa` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
+23 | File | `/proc` | Low
+24 | File | `/proc/ioports` | High
+25 | File | `/products/details.asp` | High
+26 | File | `/public/plugins/` | High
+27 | File | `/RestAPI` | Medium
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/User/saveUser` | High
+31 | File | `/viewer/krpano.html` | High
+32 | File | `/ViewUserHover.jspa` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 36 | File | `/wp-json/wc/v3/webhooks` | High
 37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 38 | File | `abc-pcie.c` | Medium
 39 | File | `accountmanagement.php` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addentry.php` | Medium
-42 | File | `adherents/subscription/info.php` | High
-43 | File | `admin.joomlaflashfun.php` | High
-44 | File | `admin.joomlaradiov5.php` | High
-45 | File | `admin.panoramic.php` | High
-46 | File | `admin.php` | Medium
-47 | File | `admin/addons/archive/archive.php` | High
+40 | File | `activateuser.aspx` | High
+41 | File | `adclick.php` | Medium
+42 | File | `addentry.php` | Medium
+43 | File | `adherents/subscription/info.php` | High
+44 | File | `admin.joomlaflashfun.php` | High
+45 | File | `admin.php` | Medium
+46 | File | `admin/addons/archive/archive.php` | High
+47 | File | `admin/change-password.php` | High
 48 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -80,35 +80,35 @@ ID | Type | Indicator | Confidence
 15 | File | `/forum/away.php` | High
 16 | File | `/goform/setMAC` | High
 17 | File | `/goform/webSettingProfileSecurity` | High
-18 | File | `/items/view_item.php` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/login` | Low
-21 | File | `/mail/index.html` | High
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/MIME/INBOX-MM-1/` | High
-24 | File | `/ms/file/uploadTemplate.do` | High
-25 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-26 | File | `/ofrs/admin/?page=requests/view_request` | High
-27 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-28 | File | `/out.php` | Medium
-29 | File | `/pages/processlogin.php` | High
-30 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
-31 | File | `/php/ajax.php` | High
-32 | File | `/ptipupgrade.cgi` | High
-33 | File | `/public/login.htm` | High
-34 | File | `/rapi/read_url` | High
-35 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-36 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-37 | File | `/see_more_details.php` | High
-38 | File | `/service/v1/createUser` | High
-39 | File | `/setSystemAdmin` | High
-40 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-41 | File | `/student/bookdetails.php` | High
-42 | File | `/sys/user/queryUserComponentData` | High
-43 | File | `/table_manager/view/cu_user_groups` | High
+18 | File | `/goform/wifiSSIDset` | High
+19 | File | `/items/view_item.php` | High
+20 | File | `/librarian/bookdetails.php` | High
+21 | File | `/login` | Low
+22 | File | `/mail/index.html` | High
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/MIME/INBOX-MM-1/` | High
+25 | File | `/ms/file/uploadTemplate.do` | High
+26 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+27 | File | `/ofrs/admin/?page=requests/view_request` | High
+28 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+29 | File | `/out.php` | Medium
+30 | File | `/pages/processlogin.php` | High
+31 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
+32 | File | `/php/ajax.php` | High
+33 | File | `/ptipupgrade.cgi` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/rapi/read_url` | High
+36 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+37 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+38 | File | `/see_more_details.php` | High
+39 | File | `/service/v1/createUser` | High
+40 | File | `/setSystemAdmin` | High
+41 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+42 | File | `/student/bookdetails.php` | High
+43 | File | `/sys/user/queryUserComponentData` | High
 44 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

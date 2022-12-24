@@ -40,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,17 +57,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 3 | File | `/CMD_SELECT_USERS` | High
 4 | File | `/configs/application.ini` | High
-5 | File | `/phppath/php` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `admin-ajax.php` | High
-8 | File | `admin/google_search_console/class-gsc-table.php` | High
-9 | File | `admin/menus/edit.php` | High
-10 | File | `album_portal.php` | High
-11 | File | `arch/x86/crypto/aesni-intel_glue.c` | High
-12 | File | `calendar.php` | Medium
-13 | ... | ... | ...
+5 | File | `/dashboard/updatelogo.php` | High
+6 | File | `/etc/openshift/server_priv.pem` | High
+7 | File | `/index.php` | Medium
+8 | File | `/mkshop/Men/profile.php` | High
+9 | File | `/Noxen-master/users.php` | High
+10 | File | `/phppath/php` | Medium
+11 | File | `/uncpath/` | Medium
+12 | File | `admin-ajax.php` | High
+13 | File | `admin/google_search_console/class-gsc-table.php` | High
+14 | File | `admin/menus/edit.php` | High
+15 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

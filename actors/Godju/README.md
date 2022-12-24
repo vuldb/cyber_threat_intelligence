@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Godju:
 
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -24,12 +25,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -38,17 +41,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/config/list` | Medium
-3 | File | `/coreframe/app/guestbook/myissue.php` | High
-4 | File | `/include/make.php` | High
-5 | File | `/login` | Low
-6 | File | `/src/njs_object.c` | High
-7 | File | `/TMS/admin/setting/mail/createorupdate` | High
-8 | File | `/usr/local/vesta/bin` | High
-9 | File | `abook_database.php` | High
-10 | ... | ... | ...
+2 | File | `/addNotifyServlet` | High
+3 | File | `/admin.php/pic/admin/pic/hy` | High
+4 | File | `/admin/?page=reports/stockin` | High
+5 | File | `/admin/inbox.php&action=read` | High
+6 | File | `/admin/operations/packages.php` | High
+7 | File | `/admin/pages/sections_save.php` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/uesrs.php&action=display&value=Show` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/config/list` | Medium
+12 | File | `/coreframe/app/guestbook/myissue.php` | High
+13 | File | `/dede/co_do.php` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/etc/init.d/sshd_service` | High
+16 | File | `/fuel/sitevariables/delete/4` | High
+17 | File | `/goform/saveParentControlInfo` | High
+18 | File | `/goform/setSnmpInfo` | High
+19 | File | `/include/make.php` | High
+20 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

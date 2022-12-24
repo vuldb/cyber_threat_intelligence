@@ -31,13 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +45,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/inquiries/view_details.php` | High
-2 | File | `/api/admin/attachments/upload` | High
+1 | File | `/&quot` | Low
+2 | File | `/admin/inquiries/view_details.php` | High
 3 | File | `/api/audits` | Medium
-4 | File | `/application/controllers/Users.php` | High
-5 | File | `/classes/Master.php?f=delete_message` | High
-6 | File | `/classes/Master.php?f=delete_reservation` | High
-7 | File | `/classes/Master.php?f=delete_schedule` | High
-8 | File | `/classes/Master.php?f=delete_service` | High
-9 | File | `/classes/Master.php?f=delete_train` | High
-10 | ... | ... | ...
+4 | File | `/api2/html/` | Medium
+5 | File | `/auth/register` | High
+6 | File | `/binbloom-master/src/helpers.c` | High
+7 | File | `/classes/Master.php?f=delete_message` | High
+8 | File | `/classes/Master.php?f=delete_reservation` | High
+9 | File | `/classes/Master.php?f=delete_schedule` | High
+10 | File | `/classes/Master.php?f=delete_service` | High
+11 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

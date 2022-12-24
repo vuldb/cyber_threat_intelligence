@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,8 +57,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
@@ -72,35 +72,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/advicefeedback/list` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/pages/sections_save.php` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/transactions/update_status.php` | High
-8 | File | `/admin/users/index.php` | High
-9 | File | `/api/audits` | Medium
-10 | File | `/api/geojson` | Medium
-11 | File | `/api/user/password/sent-reset-email` | High
-12 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-13 | File | `/asms/admin/products/manage_product.php` | High
-14 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-15 | File | `/asms/classes/Master.php?f=delete_service` | High
-16 | File | `/asms/products/view_product.php` | High
-17 | File | `/bsms_ci/index.php` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/bsms_ci/index.php/user/edit_user/` | High
-20 | File | `/diag_ping_admin.asp` | High
-21 | File | `/diag_tracert_admin.asp` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/form2IPQoSTcAdd` | High
-25 | File | `/goform/form2WizardStep4` | High
-26 | File | `/goform/form2WizardStep54` | High
+1 | File | `/api/audits` | Medium
+2 | File | `/bsms_ci/index.php` | High
+3 | File | `/bsms_ci/index.php/book` | High
+4 | File | `/bsms_ci/index.php/user/edit_user/` | High
+5 | File | `/cms/category/list` | High
+6 | File | `/env` | Low
+7 | File | `/face-recognition-php/facepay-master/camera.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/FreshRSS/p/ext.php` | High
+10 | File | `/goform/addressNat` | High
+11 | File | `/goform/CertListInfo` | High
+12 | File | `/goform/fast_setting_wifi_set` | High
+13 | File | `/goform/IPSECsave` | High
+14 | File | `/goform/L7Im` | Medium
+15 | File | `/goform/NatStaticSetting` | High
+16 | File | `/goform/qossetting` | High
+17 | File | `/goform/SafeClientFilter` | High
+18 | File | `/goform/SafeMacFilter` | High
+19 | File | `/goform/SafeUrlFilter` | High
+20 | File | `/goform/setMacFilterCfg` | High
+21 | File | `/goform/SysToolReboot` | High
+22 | File | `/goform/SysToolRestoreSet` | High
+23 | File | `/goform/VirtualSer` | High
+24 | File | `/gpac/src/bifs/unquantize.c` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/leave_system/admin/?page=maintenance/department` | High
 27 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

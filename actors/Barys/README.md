@@ -23,19 +23,24 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
 2 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
-3 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
-4 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
-5 | [23.225.145.234](https://vuldb.com/?ip.23.225.145.234) | - | - | High
-6 | [31.170.160.103](https://vuldb.com/?ip.31.170.160.103) | srv39.000webhost.com | - | High
-7 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
-8 | [41.38.1.86](https://vuldb.com/?ip.41.38.1.86) | host-41.38.1.86.tedata.net | - | High
-9 | [41.239.65.189](https://vuldb.com/?ip.41.239.65.189) | host-41.239.65.189.tedata.net | - | High
-10 | [47.246.136.160](https://vuldb.com/?ip.47.246.136.160) | - | - | High
-11 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
-12 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
-13 | ... | ... | ... | ...
+3 | [14.204.51.240](https://vuldb.com/?ip.14.204.51.240) | - | - | High
+4 | [14.204.51.250](https://vuldb.com/?ip.14.204.51.250) | - | - | High
+5 | [20.36.253.92](https://vuldb.com/?ip.20.36.253.92) | - | - | High
+6 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | - | High
+7 | [23.225.145.234](https://vuldb.com/?ip.23.225.145.234) | - | - | High
+8 | [31.170.160.103](https://vuldb.com/?ip.31.170.160.103) | srv39.000webhost.com | - | High
+9 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
+10 | [36.248.43.231](https://vuldb.com/?ip.36.248.43.231) | - | - | High
+11 | [41.38.1.86](https://vuldb.com/?ip.41.38.1.86) | host-41.38.1.86.tedata.net | - | High
+12 | [41.239.65.189](https://vuldb.com/?ip.41.239.65.189) | host-41.239.65.189.tedata.net | - | High
+13 | [47.246.136.160](https://vuldb.com/?ip.47.246.136.160) | - | - | High
+14 | [52.137.90.34](https://vuldb.com/?ip.52.137.90.34) | - | - | High
+15 | [52.185.71.28](https://vuldb.com/?ip.52.185.71.28) | - | - | High
+16 | [58.158.177.102](https://vuldb.com/?ip.58.158.177.102) | 58x158x177x102.ap58.ftth.ucom.ne.jp | - | High
+17 | [58.215.145.95](https://vuldb.com/?ip.58.215.145.95) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 68 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -109,7 +114,7 @@ ID | Type | Indicator | Confidence
 51 | File | `cddbcontrolaol.cddbaolcontrol` | High
 52 | ... | ... | ...
 
-There are 456 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
+* https://blog.talosintelligence.com/threat-roundup-1202-1209/
 
 ## Literature
 

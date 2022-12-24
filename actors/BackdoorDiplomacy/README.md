@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.backdoordiplomacy](https://vuldb.com/?actor.backdoordiplomacy)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with BackdoorDiplomacy:
+
+* Middle East
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BackdoorDiplomacy:
@@ -13,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +30,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [23.83.224.178](https://vuldb.com/?ip.23.83.224.178) | 23.83.224.178.16clouds.com | - | High
 2 | [23.106.140.207](https://vuldb.com/?ip.23.106.140.207) | 23.106.140.207.16clouds.com | - | High
 3 | [23.228.203.130](https://vuldb.com/?ip.23.228.203.130) | unassigned.psychz.net | - | High
-4 | ... | ... | ... | ...
+4 | [23.247.47.252](https://vuldb.com/?ip.23.247.47.252) | - | - | High
+5 | [43.225.126.179](https://vuldb.com/?ip.43.225.126.179) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -66,45 +74,47 @@ ID | Type | Indicator | Confidence
 15 | File | `/cms/print.php` | High
 16 | File | `/concat?/%2557EB-INF/web.xml` | High
 17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/etc/passwd` | Medium
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/data/remove` | Medium
 21 | File | `/ffos/classes/Master.php?f=save_category` | High
 22 | File | `/goforms/rlminfo` | High
 23 | File | `/index.php/newsletter/subscriber/new/` | High
 24 | File | `/Items/*/RemoteImages/Download` | High
 25 | File | `/login` | Low
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/navigate/navigate_download.php` | High
-28 | File | `/ocwbs/admin/?page=user/manage_user` | High
-29 | File | `/ofrs/admin/?page=user/manage_user` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/password.html` | High
-33 | File | `/php_action/fetchSelectedUser.php` | High
-34 | File | `/proc/ioports` | High
-35 | File | `/property-list/property_view.php` | High
-36 | File | `/ptms/classes/Users.php` | High
-37 | File | `/rest/api/2/search` | High
-38 | File | `/s/` | Low
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/services/system/setup.json` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/uncpath/` | Medium
-44 | File | `/vloggers_merch/?p=view_product` | High
-45 | File | `/webconsole/APIController` | High
-46 | File | `/websocket/exec` | High
-47 | File | `/whbs/?page=my_bookings` | High
-48 | File | `/whbs/admin/?page=user` | High
-49 | ... | ... | ...
+26 | File | `/menu.html` | Medium
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/navigate/navigate_download.php` | High
+29 | File | `/ocwbs/admin/?page=user/manage_user` | High
+30 | File | `/ofrs/admin/?page=user/manage_user` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/password.html` | High
+34 | File | `/php_action/fetchSelectedUser.php` | High
+35 | File | `/proc/ioports` | High
+36 | File | `/property-list/property_view.php` | High
+37 | File | `/ptms/classes/Users.php` | High
+38 | File | `/rest/api/2/search` | High
+39 | File | `/s/` | Low
+40 | File | `/scripts/cpan_config` | High
+41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+42 | File | `/services/system/setup.json` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
+46 | File | `/vloggers_merch/?p=view_product` | High
+47 | File | `/webconsole/APIController` | High
+48 | File | `/websocket/exec` | High
+49 | File | `/whbs/?page=my_bookings` | High
+50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.bitdefender.com/files/News/CaseStudies/study/426/Bitdefender-PR-Whitepaper-BackdoorDiplomacy-creat6507-en-EN.pdf
 * https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/
 
 ## Literature

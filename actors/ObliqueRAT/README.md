@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [TK](https://vuldb.com/?country.tk)
 
 ## IOC - Indicator of Compromise
 
@@ -18,6 +19,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [185.117.73.222](https://vuldb.com/?ip.185.117.73.222) | - | - | High
+2 | [185.183.98.182](https://vuldb.com/?ip.185.183.98.182) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -25,9 +27,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,17 +40,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `cachemgr.cgi` | Medium
-2 | File | `fw.progrss.details.php` | High
-3 | File | `hydrogen-alias-analysis.h` | High
+1 | File | `admin/sysUser/save.do?callbackType=closeCurrent&navTabId=sysUser/list` | High
+2 | File | `cachemgr.cgi` | Medium
+3 | File | `cgi-bin/cmh/webcam.sh` | High
 4 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/603e5dc582df413ea934c0ad
 * https://ioc.hatenablog.com/entry/2020/02/20/000000_1
 
 ## Literature

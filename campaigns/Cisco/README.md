@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -66,18 +66,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
 2 | File | `/admin/files` | Medium
-3 | File | `/api/crontab` | Medium
-4 | File | `/controller/Index.php` | High
-5 | File | `/etc/init0.d/S80telnetd.sh` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/aspForm` | High
-8 | File | `/index.php` | Medium
-9 | File | `/loginVaLidation.php` | High
-10 | File | `/mail/index.html` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/modules/tasks/gantt.php` | High
-13 | File | `/mygym/admin/index.php` | High
-14 | File | `/my_photo_gallery/image.php` | High
+3 | File | `/controller/Index.php` | High
+4 | File | `/etc/init0.d/S80telnetd.sh` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/goform/aspForm` | High
+7 | File | `/index.php` | Medium
+8 | File | `/loginVaLidation.php` | High
+9 | File | `/mail/index.html` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/modules/tasks/gantt.php` | High
+12 | File | `/mygym/admin/index.php` | High
+13 | File | `/my_photo_gallery/image.php` | High
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 15 | File | `/psrs/admin/categories/manage_category.php` | High
 16 | File | `/release-x64/otfccdump+0x6b544e` | High
 17 | File | `/release-x64/otfccdump+0x6e41a8` | High
@@ -112,7 +112,7 @@ ID | Type | Indicator | Confidence
 46 | File | `ashnews.php/ashheadlines.php` | High
 47 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

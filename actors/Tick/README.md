@@ -8,7 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tick:
 
+* [US](https://vuldb.com/?country.us)
 * [KR](https://vuldb.com/?country.kr)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -18,7 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [61.106.60.47](https://vuldb.com/?ip.61.106.60.47) | - | - | High
 2 | [110.45.203.133](https://vuldb.com/?ip.110.45.203.133) | - | - | High
-3 | [211.233.81.242](https://vuldb.com/?ip.211.233.81.242) | - | - | High
+3 | [154.223.179.14](https://vuldb.com/?ip.154.223.179.14) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,6 +32,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1204.001 | CWE-601 | Open Redirect | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -34,13 +44,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
+1 | File | `/forum/away.php` | High
+2 | File | `/uncpath/` | Medium
+3 | File | `data/gbconfiguration.dat` | High
+4 | ... | ... | ...
+
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.jpcert.or.jp/ja/2019/02/tick-activity.html
+* https://github.com/blackorbird/APT_REPORT/blob/master/summary/2021/mpressioncss_ta_report_2020_5_en.pdf
 
 ## Literature
 

@@ -46,11 +46,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/v1/bait/set` | High
-2 | File | `exec.php` | Medium
-3 | File | `index.html` | Medium
+2 | File | `/release-x64/otfccdump+0x6b0b2c` | High
+3 | File | `/release-x64/otfccdump+0x6c08a6` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

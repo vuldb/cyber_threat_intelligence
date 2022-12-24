@@ -86,12 +86,12 @@ ID | Type | Indicator | Confidence
 5 | File | `/concat?/%2557EB-INF/web.xml` | High
 6 | File | `/cwc/login` | Medium
 7 | File | `/download` | Medium
-8 | File | `/files.md5` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/h/calendar` | Medium
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/images/` | Medium
-13 | File | `/inc/extensions.php` | High
+8 | File | `/etc/quagga` | Medium
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/images/` | Medium
 14 | File | `/index.php` | Medium
 15 | File | `/lists/index.php` | High
 16 | File | `/login` | Low
@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 31 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

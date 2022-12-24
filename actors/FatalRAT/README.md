@@ -16,8 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [144.48.243.79](https://vuldb.com/?ip.144.48.243.79) | - | - | High
-2 | [156.226.173.202](https://vuldb.com/?ip.156.226.173.202) | - | - | High
+1 | [103.119.44.93](https://vuldb.com/?ip.103.119.44.93) | - | - | High
+2 | [103.119.44.100](https://vuldb.com/?ip.103.119.44.100) | - | - | High
+3 | [103.119.44.152](https://vuldb.com/?ip.103.119.44.152) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,13 +37,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `web/jquery/uploader/uploadify.php` | High
+1 | File | `json_reader.cpp` | High
+2 | File | `web/jquery/uploader/uploadify.php` | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/66/fatalrat-backdoor-ioc/
+* https://community.blueliv.com/#!/s/6107d20982df4141693319a7
 
 ## Literature
 

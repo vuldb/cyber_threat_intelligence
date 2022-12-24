@@ -19,6 +19,14 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [80.211.37.240](https://vuldb.com/?ip.80.211.37.240) | host240-37-211-80.serverdedicati.aruba.it | - | High
 2 | [161.35.38.8](https://vuldb.com/?ip.161.35.38.8) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Center-1_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

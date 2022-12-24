@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [79.134.225.8](https://vuldb.com/?ip.79.134.225.8) | - | - | High
-2 | [91.221.66.6](https://vuldb.com/?ip.91.221.66.6) | post.mholding.ru | - | High
-3 | [105.112.96.51](https://vuldb.com/?ip.105.112.96.51) | - | - | High
+1 | [45.147.230.231](https://vuldb.com/?ip.45.147.230.231) | - | - | High
+2 | [79.134.225.8](https://vuldb.com/?ip.79.134.225.8) | - | - | High
+3 | [91.221.66.6](https://vuldb.com/?ip.91.221.66.6) | post.mholding.ru | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1008 | CWE-757 | Algorithm Downgrade | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,24 +49,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `//` | Low
-3 | File | `/admin/launch_time.php` | High
-4 | File | `/admin/settings.php` | High
-5 | File | `/etc/sudoers` | Medium
-6 | File | `/qsr_server/device/reboot` | High
-7 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-8 | File | `/tmp` | Low
-9 | File | `/uncpath/` | Medium
-10 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-11 | File | `album_portal.php` | High
-12 | ... | ... | ...
+3 | File | `/admin/edit_member.php` | High
+4 | File | `/admin/launch_time.php` | High
+5 | File | `/admin/settings.php` | High
+6 | File | `/apps/app_article/controller/editor.php` | High
+7 | File | `/editbrand.php` | High
+8 | File | `/etc/sudoers` | Medium
+9 | File | `/front/actions.php` | High
+10 | File | `/front/search.php` | High
+11 | File | `/gadgets/definitions/uptime.CapacityWhatIfGadget/getmetrics.php` | High
+12 | File | `/gadgets/definitions/uptime.CapacityWhatifGadget/getxenmetrics.php` | High
+13 | File | `/qsr_server/device/reboot` | High
+14 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+15 | File | `/timeline2.php` | High
+16 | File | `/tmp` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+19 | File | `adduser.php` | Medium
+20 | File | `admin.php` | Medium
+21 | File | `Admin.php` | Medium
+22 | ... | ... | ...
 
-There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/149/revengerat-iocs/
 * https://blog.talosintelligence.com/2019/07/threat-roundup-0628-0705.html
+* https://blog.talosintelligence.com/2019/08/rat-ratatouille-revrat-orcus.html
 
 ## Literature
 

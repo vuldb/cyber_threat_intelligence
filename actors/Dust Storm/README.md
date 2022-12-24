@@ -16,7 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [MS](https://vuldb.com/?country.ms)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,12 +44,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,54 +59,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\checkmk\agent\local` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/#/CampaignManager/users` | High
-4 | File | `//` | Low
-5 | File | `/admin.php?action=themeinstall` | High
-6 | File | `/admin/?setting-base.htm` | High
-7 | File | `/admin/admin_login.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/audit/log/log_management.php` | High
-11 | File | `/bin/login` | Medium
-12 | File | `/bin/sh` | Low
-13 | File | `/cgi-bin/login` | High
-14 | File | `/classes/profile.class.php` | High
-15 | File | `/dev/tty` | Medium
-16 | File | `/doorgets/app/requests/user/modulecategoryRequest.php` | High
-17 | File | `/downloads/` | Medium
-18 | File | `/IISADMPWD` | Medium
-19 | File | `/inc/session.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/login` | Low
-22 | File | `/login.html` | Medium
-23 | File | `/magnoliaPublic/travel/members/login.html` | High
-24 | File | `/member/index/login.html` | High
-25 | File | `/modules/certinfo/index.php` | High
-26 | File | `/restful-services/publish` | High
-27 | File | `/ScadaBR/login.htm` | High
-28 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-29 | File | `/system/tool/ping.php` | High
-30 | File | `/upload` | Low
-31 | File | `/usr/bin/pkexec` | High
-32 | File | `/var/adm/btmp` | High
-33 | File | `?location=search` | High
-34 | File | `account/login.php` | High
-35 | File | `add.asp` | Low
-36 | File | `add.php` | Low
-37 | File | `admin.inc.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin.php?m=backup&c=backup&a=doback` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/index.php` | High
-42 | File | `admin/login.asp` | High
-43 | File | `admin/login.php` | High
-44 | File | `admin/nos/login` | High
-45 | File | `admin\db\DoSql.php` | High
-46 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/action/import_authorized_keys/` | High
+3 | File | `/admin/fst_upload.inc.php` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/students/view_student.php` | High
+6 | File | `/admin/upload/upload` | High
+7 | File | `/api/index.php` | High
+8 | File | `/api/students/me/courses/` | High
+9 | File | `/balance/service/list` | High
+10 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+11 | File | `/cgi-bin/kerbynet` | High
+12 | File | `/cgi-bin/webproc` | High
+13 | File | `/ci_spms/admin/search/searching/` | High
+14 | File | `/cmscp/ext/collect/fetch_url.do` | High
+15 | File | `/controller/OnlinePreviewController.java` | High
+16 | File | `/coreframe/app/attachment/admin/index.php` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/form2userconfig.cgi` | High
+20 | File | `/goform/fromNatStaticSetting` | High
+21 | File | `/goform/SafeClientFilter` | High
+22 | File | `/hss/classes/Master.php?f=delete_product` | High
+23 | File | `/index.php/admins/Fields/get_fields.html` | High
+24 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+25 | File | `/login.php` | Medium
+26 | File | `/members/view_member.php` | High
+27 | File | `/modx/manager/` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ocwbs/classes/Master.php?f=delete_service` | High
+30 | File | `/pms/update_user.php?user_id=1` | High
+31 | File | `/private/en/pages/add` | High
+32 | File | `/proxy` | Low
+33 | File | `/recreate.php` | High
+34 | File | `/redbin/rpwebutilities.exe/text` | High
+35 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

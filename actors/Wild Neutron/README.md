@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wild Neutron:
 
 * [NL](https://vuldb.com/?country.nl)
+* [OM](https://vuldb.com/?country.om)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -30,12 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,42 +48,33 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/config.php?display=disa&view=form` | High
-5 | File | `/category_view.php` | High
-6 | File | `/dev/kmem` | Medium
-7 | File | `/dev/shm` | Medium
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/core/conditions/AbstractWrapper.java` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/export` | Low
 8 | File | `/file?action=download&file` | High
 9 | File | `/medical/inventories.php` | High
 10 | File | `/monitoring` | Medium
-11 | File | `/NAGErrors` | Medium
-12 | File | `/plugins/servlet/audit/resource` | High
-13 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-14 | File | `/proc/ioports` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/plugin/LiveChat/getChat.json.php` | High
+13 | File | `/plugins/servlet/audit/resource` | High
+14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 15 | File | `/replication` | Medium
 16 | File | `/RestAPI` | Medium
-17 | File | `/rom-0` | Low
-18 | File | `/tmp` | Low
-19 | File | `/tmp/speedtest_urls.xml` | High
+17 | File | `/tmp` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
 20 | File | `/uncpath/` | Medium
-21 | File | `/var/log/nginx` | High
-22 | File | `/wp-admin/admin.php` | High
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `abook_database.php` | High
-25 | File | `account.asp` | Medium
+21 | File | `/upload` | Low
+22 | File | `/var/log/nginx` | High
+23 | File | `/var/run/watchman.pid` | High
+24 | File | `/viewer/krpano.html` | High
+25 | File | `/wp-json/oembed/1.0/embed?url` | High
 26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | File | `admin/index.php` | High
-28 | File | `admin/login.php` | High
-29 | File | `admincp.php?app=apps&do=save` | High
-30 | File | `admincp.php?app=files` | High
-31 | File | `admin\model\catalog\download.php` | High
-32 | File | `ajax/render/widget_php` | High
-33 | File | `apcupsd.pid` | Medium
-34 | File | `api/sms/send-sms` | High
-35 | File | `api/v1/alarms` | High
-36 | File | `application/controller/InstallerController.php` | High
-37 | ... | ... | ...
+27 | File | `admin\model\catalog\download.php` | High
+28 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

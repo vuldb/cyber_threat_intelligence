@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Europe Unknown:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [SH](https://vuldb.com/?country.sh)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -7957,14 +7957,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -7972,42 +7972,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/edit.php` | High
-3 | File | `/admin/settings/save.php` | High
-4 | File | `/balance/service/list` | High
-5 | File | `/debug/pprof` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/setSysAdm` | High
-8 | File | `/HNAP1` | Low
-9 | File | `/index.php` | Medium
-10 | File | `/index.php/purchase_order/browse_data` | High
-11 | File | `/lilac/main.php` | High
-12 | File | `/module/admin_bp/add_application.php` | High
-13 | File | `/modx/manager/` | High
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/out.php` | Medium
-16 | File | `/plugin/getList` | High
-17 | File | `/project/PROJECTNAME/reports/` | High
-18 | File | `/proxy` | Low
-19 | File | `/spip.php` | Medium
-20 | File | `/sys/duplicate/check` | High
-21 | File | `/upload/catalog/controller/account/password.php` | High
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/usr/sbin/httpd` | High
-24 | File | `/var/log/nginx` | High
-25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-26 | File | `2020\Messages\SDNotify.exe` | High
-27 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
-28 | File | `ActivityRecord.java` | High
-29 | File | `adclick.php` | Medium
-30 | File | `admin.php?m=backup&c=backup&a=doback` | High
-31 | File | `admin/?page=system_info` | High
-32 | File | `admin/app/mediamanager` | High
-33 | File | `admin/article_save.php` | High
-34 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `.kss.pid` | Medium
+3 | File | `.qpopper-options` | High
+4 | File | `/api/v1/containers` | High
+5 | File | `/apps/` | Low
+6 | File | `/backupsettings.conf` | High
+7 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/dev/mem` | Medium
+10 | File | `/goform/delAd` | High
+11 | File | `/menu.html` | Medium
+12 | File | `/modules/snf/index.php` | High
+13 | File | `/Online%20Course%20Registration/my-profile.php` | High
+14 | File | `/opt/mysql` | Medium
+15 | File | `/private/sessions` | High
+16 | File | `/root/*.db` | Medium
+17 | File | `/spip.php` | Medium
+18 | File | `/tmp` | Low
+19 | File | `/var/avamar/f_cache.dat` | High
+20 | File | `26.html` | Low
+21 | File | `account_change.php` | High
+22 | File | `add_postit.php` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin/index.php?c=database` | High
+25 | File | `admin/partials/ajax/add_field_to_form.php` | High
+26 | File | `admin/wp-security-blacklist-menu.php` | High
+27 | File | `administration.jsp` | High
+28 | File | `adminquery.php` | High
+29 | File | `ajaxRequest/methodCall.do` | High
+30 | File | `ajax_represent.php` | High
+31 | File | `Alias.asmx` | Medium
+32 | File | `ansfaq.asp` | Medium
+33 | File | `app.coffee` | Medium
+34 | File | `app/routes/research.js` | High
+35 | File | `archivejson.cgi` | High
+36 | File | `authpam.c` | Medium
+37 | File | `autocms.php` | Medium
+38 | File | `avahi-core/socket.c` | High
+39 | File | `AvailableApps.php` | High
+40 | File | `banner.php` | Medium
+41 | File | `boundary_rules.jsp` | High
+42 | File | `browser.php` | Medium
+43 | File | `buf.c` | Low
+44 | File | `calendar.php` | Medium
+45 | File | `calendar_scheduler.php` | High
+46 | File | `cal_config.inc.php` | High
+47 | File | `channels/chan_sip.c` | High
+48 | File | `chrome-devtools-frontend.appspot.com` | High
+49 | File | `claro_init_global.inc.php` | High
+50 | File | `class/class.php` | High
+51 | File | `cls_fast_template.php` | High
+52 | File | `com/ruoyi/generator/controller/GenController` | High
+53 | File | `comersus_supporterror.asp` | High
+54 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 473 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -28,6 +28,14 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [65.181.113.87](https://vuldb.com/?ip.65.181.113.87) | mx1.lifestylefundings.com | [Brazil Unknown](https://vuldb.com/?actor.brazil_unknown) | High
 2 | [65.181.127.152](https://vuldb.com/?ip.65.181.127.152) | portal2.brewmyidea.com | [Brazil Unknown](https://vuldb.com/?actor.brazil_unknown) | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within Boleto Mestre. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-209 | Configuration | High
+
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:

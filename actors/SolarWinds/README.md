@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,11 +29,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -47,38 +48,39 @@ ID | Type | Indicator | Confidence
 2 | File | `/.asp` | Low
 3 | File | `/admin/admin_login.php` | High
 4 | File | `/advanced/adv_dns.xgi` | High
-5 | File | `/CFIDE/probe.cfm` | High
-6 | File | `/etc/config/rpcd` | High
-7 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-8 | File | `/nidp/app/login` | High
-9 | File | `/proc` | Low
-10 | File | `/rapi/read_url` | High
-11 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-12 | File | `/setSystemAdmin` | High
-13 | File | `/start_apply.htm` | High
-14 | File | `/tmp` | Low
-15 | File | `/uncpath/` | Medium
-16 | File | `/upload` | Low
-17 | File | `/usr/lib/utmp_update` | High
-18 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/graph_trend.php` | High
-21 | File | `admin/Login.php` | High
-22 | File | `admin/plugin-index.php` | High
-23 | File | `administration` | High
-24 | File | `administrative` | High
-25 | File | `aolfix.exe` | Medium
-26 | File | `Ap4DecoderConfigDescriptor.cpp` | High
-27 | File | `awhost32.exe` | Medium
-28 | File | `bidhistory.php` | High
-29 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
-30 | File | `buffer.c` | Medium
-31 | File | `c:\aux` | Low
-32 | File | `cgi-bin/` | Medium
-33 | File | `cluster.asp` | Medium
-34 | ... | ... | ...
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/CFIDE/probe.cfm` | High
+7 | File | `/etc/config/rpcd` | High
+8 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+9 | File | `/nidp/app/login` | High
+10 | File | `/proc` | Low
+11 | File | `/rapi/read_url` | High
+12 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+13 | File | `/setSystemAdmin` | High
+14 | File | `/start_apply.htm` | High
+15 | File | `/tmp` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/upload` | Low
+18 | File | `/usr/lib/utmp_update` | High
+19 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/graph_trend.php` | High
+22 | File | `admin/Login.php` | High
+23 | File | `admin/plugin-index.php` | High
+24 | File | `administration` | High
+25 | File | `administrative` | High
+26 | File | `aolfix.exe` | Medium
+27 | File | `Ap4DecoderConfigDescriptor.cpp` | High
+28 | File | `awhost32.exe` | Medium
+29 | File | `bidhistory.php` | High
+30 | File | `browser/notifications/notification_ui_manager_impl.cc` | High
+31 | File | `buffer.c` | Medium
+32 | File | `c:\aux` | Low
+33 | File | `C:\Wamp64` | Medium
+34 | File | `cgi-bin/` | Medium
+35 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

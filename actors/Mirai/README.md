@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Mirai:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
+* [PL](https://vuldb.com/?country.pl)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -213,14 +213,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -228,43 +228,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `.python-version` | High
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/edit_members.php` | High
-5 | File | `/admin/fst_upload.inc.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/api/audits` | Medium
-8 | File | `/api/sys_username_passwd.cmd` | High
-9 | File | `/balance/service/list` | High
-10 | File | `/blog/comment` | High
-11 | File | `/bsms_ci/index.php` | High
-12 | File | `/bsms_ci/index.php/user/edit_user/` | High
-13 | File | `/calendar/viewcalendar.php` | High
-14 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-15 | File | `/cgi-bin/webproc` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/clients/listclients.php` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/Default/Bd` | Medium
-20 | File | `/device/acceptBind` | High
-21 | File | `/event/admin/?page=user/list` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/general/search.php?searchtype=simple` | High
-25 | File | `/goform/addressNat` | High
-26 | File | `/goform/CertListInfo` | High
-27 | File | `/goform/IPSECsave` | High
-28 | File | `/goform/L7Im` | Medium
-29 | File | `/goform/NatStaticSetting` | High
-30 | File | `/goform/qossetting` | High
-31 | File | `/goform/SafeClientFilter` | High
-32 | File | `/goform/SafeMacFilter` | High
-33 | File | `/goform/SafeUrlFilter` | High
-34 | File | `/goform/setSysPwd` | High
-35 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `.kss.pid` | Medium
+3 | File | `.qpopper-options` | High
+4 | File | `/Api/ASF` | Medium
+5 | File | `/api/v1/containers` | High
+6 | File | `/backupsettings.conf` | High
+7 | File | `/ctcprotocol/Protocol` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/delAd` | High
+10 | File | `/h/calendar` | Medium
+11 | File | `/menu.html` | Medium
+12 | File | `/modules/snf/index.php` | High
+13 | File | `/services/view_service.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/tmp/boa-temp` | High
+16 | File | `/tmp/f` | Low
+17 | File | `/var/avamar/f_cache.dat` | High
+18 | File | `/zhndnsdisplay.cmd` | High
+19 | File | `26.html` | Low
+20 | File | `add_postit.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/wp-security-blacklist-menu.php` | High
+23 | File | `administration.jsp` | High
+24 | File | `adminquery.php` | High
+25 | File | `ajaxRequest/methodCall.do` | High
+26 | File | `ansfaq.asp` | Medium
+27 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
+28 | File | `ardguest.php` | Medium
+29 | File | `authpam.c` | Medium
+30 | File | `autocms.php` | Medium
+31 | File | `avahi-core/socket.c` | High
+32 | File | `AvailableApps.php` | High
+33 | File | `avi.c` | Low
+34 | File | `banner.php` | Medium
+35 | File | `Binder.java` | Medium
+36 | File | `boot_config.jsp` | High
+37 | File | `boundary_rules.jsp` | High
+38 | File | `browser.php` | Medium
+39 | File | `browser/liferay/browser.html?Type` | High
+40 | File | `calendar.php` | Medium
+41 | File | `calendar_scheduler.php` | High
+42 | File | `cal_config.inc.php` | High
+43 | File | `cgi-bin/adv_nat_virsvr.asp` | High
+44 | File | `channels/chan_sip.c` | High
+45 | File | `claro_init_global.inc.php` | High
+46 | File | `class/class.php` | High
+47 | File | `cls_fast_template.php` | High
+48 | File | `comersus_supporterror.asp` | High
+49 | File | `compose.php` | Medium
+50 | File | `contact_us.php` | High
+51 | File | `content.php` | Medium
+52 | File | `crontab.c` | Medium
+53 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

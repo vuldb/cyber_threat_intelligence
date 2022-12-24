@@ -48,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [66.29.139.154](https://vuldb.com/?ip.66.29.139.154) | main-too.quarantine-pnap-vlan52.web-hosting.com | - | High
 26 | ... | ... | ... | ...
 
-There are 101 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,14 +83,16 @@ ID | Type | Indicator | Confidence
 12 | File | `/xyhai.php?s=/Auth/editUser` | High
 13 | File | `/_next` | Low
 14 | File | `actionHandler/ajax_managed_services.php` | High
-15 | ... | ... | ...
+15 | File | `admin/admin.shtml` | High
+16 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2022/07/01/xloader-returns-with-new-infection-technique/
 * https://community.blueliv.com/#!/s/610c31d282df417a0032f54d
 * https://research.checkpoint.com/2021/stealth-is-never-enough-or-revealing-formbook-successors-cc-infrastructure/
 * https://research.checkpoint.com/2022/xloader-botnet-find-me-if-you-can/

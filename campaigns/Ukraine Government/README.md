@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine Government:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
 * [IR](https://vuldb.com/?country.ir)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -19,6 +22,7 @@ These _actors_ are associated with Ukraine Government or other actors linked to 
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+2 | [Stowaway](https://vuldb.com/?actor.stowaway) | High
 
 ## IOC - Indicator of Compromise
 
@@ -27,8 +31,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
-2 | [155.138.252.221](https://vuldb.com/?ip.155.138.252.221) | 155.138.252.221.vultrusercontent.com | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
-3 | [162.33.178.129](https://vuldb.com/?ip.162.33.178.129) | - | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+2 | [91.205.230.66](https://vuldb.com/?ip.91.205.230.66) | - | [Stowaway](https://vuldb.com/?actor.stowaway) | High
+3 | [155.138.252.221](https://vuldb.com/?ip.155.138.252.221) | 155.138.252.221.vultrusercontent.com | [Gamaredon](https://vuldb.com/?actor.gamaredon) | High
+4 | ... | ... | ... | ...
+
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,11 +44,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +56,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `addentry.php` | Medium
-2 | File | `browse.groups.php` | High
-3 | File | `cat.php` | Low
-4 | ... | ... | ...
+1 | File | `/etc/skyring/skyring.conf` | High
+2 | File | `/public/plugins/` | High
+3 | File | `addentry.php` | Medium
+4 | File | `api/v1/registry` | High
+5 | File | `browse.groups.php` | High
+6 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 38 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2022/09/gamaredon-apt-targets-ukrainian-agencies.html
+* https://www.mandiant.com/resources/blog/trojanized-windows-installers-ukrainian-government
 
 ## Literature
 

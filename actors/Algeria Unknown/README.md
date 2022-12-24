@@ -123,10 +123,9 @@ ID | Type | Indicator | Confidence
 59 | File | `Cgi/private.py` | High
 60 | File | `city.asp` | Medium
 61 | File | `class.ajax.php` | High
-62 | File | `classified.php` | High
-63 | ... | ... | ...
+62 | ... | ... | ...
 
-There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -74,39 +74,39 @@ ID | Type | Indicator | Confidence
 8 | File | `/etc/openshift/server_priv.pem` | High
 9 | File | `/forms/web_importTFTP` | High
 10 | File | `/forum/away.php` | High
-11 | File | `/graphql` | Medium
-12 | File | `/index.php` | Medium
-13 | File | `/jeecg-boot/jmreport/view` | High
-14 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-15 | File | `/localhost/u` | Medium
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/net` | Low
-18 | File | `/Noxen-master/users.php` | High
-19 | File | `/opt/bin/cli` | Medium
-20 | File | `/out.php` | Medium
-21 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-24 | File | `/rom-0` | Low
-25 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-26 | File | `/templates/header.inc.php` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/v2/devices/add` | High
-29 | File | `/var/ipfire/backup/bin/backup.pl` | High
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `account.php` | Medium
-33 | File | `accounts/view_details.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `AddEvent.php` | Medium
-36 | File | `admin.jcomments.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin/admin_process.php` | High
-39 | File | `admin/conf_users_edit.php` | High
-40 | File | `admin/index.php` | High
+11 | File | `/goform/SysToolReboot` | High
+12 | File | `/goform/SysToolRestoreSet` | High
+13 | File | `/graphql` | Medium
+14 | File | `/index.php` | Medium
+15 | File | `/jeecg-boot/jmreport/view` | High
+16 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+17 | File | `/localhost/u` | Medium
+18 | File | `/mkshop/Men/profile.php` | High
+19 | File | `/net` | Low
+20 | File | `/Noxen-master/users.php` | High
+21 | File | `/opt/bin/cli` | Medium
+22 | File | `/out.php` | Medium
+23 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+24 | File | `/public/plugins/` | High
+25 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+26 | File | `/rom-0` | Low
+27 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+28 | File | `/templates/header.inc.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/v2/devices/add` | High
+31 | File | `/var/ipfire/backup/bin/backup.pl` | High
+32 | File | `/wp-json/wc/v3/webhooks` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | File | `account.php` | Medium
+35 | File | `accounts/view_details.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `AddEvent.php` | Medium
+38 | File | `admin.jcomments.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/admin_process.php` | High
 41 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,12 +78,12 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/students/manage.php` | High
 12 | File | `/admin/submit-articles` | High
 13 | File | `/ad_js.php` | Medium
-14 | File | `/Ap4RtpAtom.cpp` | High
-15 | File | `/api/RecordingList/DownloadRecord?file=` | High
-16 | File | `/app/options.py` | High
-17 | File | `/artist-display.php` | High
-18 | File | `/bcms/admin/?page=user/list` | High
-19 | File | `/bsms/?page=manage_account` | High
+14 | File | `/api/RecordingList/DownloadRecord?file=` | High
+15 | File | `/app/options.py` | High
+16 | File | `/artist-display.php` | High
+17 | File | `/attachments` | Medium
+18 | File | `/bsms/?page=manage_account` | High
+19 | File | `/bsms_ci/index.php` | High
 20 | File | `/cgi-bin/login.cgi` | High
 21 | File | `/cgi-bin/luci/api/wireless` | High
 22 | File | `/cgi-bin/nightled.cgi` | High
@@ -102,9 +102,11 @@ ID | Type | Indicator | Confidence
 35 | File | `/index.php` | Medium
 36 | File | `/index/jobfairol/show/` | High
 37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-38 | ... | ... | ...
+38 | File | `/librarian/bookdetails.php` | High
+39 | File | `/manage-apartment.php` | High
+40 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

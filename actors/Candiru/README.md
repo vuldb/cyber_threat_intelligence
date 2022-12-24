@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,17 +71,17 @@ ID | Type | Indicator | Confidence
 10 | File | `/api/user/{ID}` | High
 11 | File | `/article/add` | Medium
 12 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-13 | File | `/cgi-bin/uploadWeiXinPic` | High
-14 | File | `/controller/pay.class.php` | High
-15 | File | `/ctpms/admin/?page=applications/view_application` | High
-16 | File | `/dev/block/mmcblk0rpmb` | High
-17 | File | `/dev/kmem` | Medium
-18 | File | `/dev/snd/seq` | Medium
-19 | File | `/device/device=140/tab=wifi/view` | High
-20 | File | `/dl/dl_print.php` | High
-21 | File | `/etc/passwd` | Medium
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/addressNat` | High
+13 | File | `/auth/register` | High
+14 | File | `/cgi-bin/uploadWeiXinPic` | High
+15 | File | `/controller/pay.class.php` | High
+16 | File | `/ctpms/admin/?page=applications/view_application` | High
+17 | File | `/dev/block/mmcblk0rpmb` | High
+18 | File | `/dev/kmem` | Medium
+19 | File | `/dev/snd/seq` | Medium
+20 | File | `/device/device=140/tab=wifi/view` | High
+21 | File | `/dl/dl_print.php` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/getcfg.php` | Medium
 24 | File | `/goform/SetClientState` | High
 25 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
 26 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
@@ -94,7 +94,7 @@ ID | Type | Indicator | Confidence
 33 | File | `/ofcms/company-c-47` | High
 34 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

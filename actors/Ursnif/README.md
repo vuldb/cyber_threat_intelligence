@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -87,38 +87,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/ad_js.php` | Medium
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/api/RecordingList/DownloadRecord?file=` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/hosts` | Medium
-17 | File | `/fuel/index.php/fuel/logs/items` | High
-18 | File | `/fuel/sitevariables/delete/4` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/manage-apartment.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/proc/<PID>/mem` | High
-29 | File | `/proxy` | Low
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/secure/ViewCollectors` | High
+3 | File | `/admin/submit-articles` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/app/options.py` | High
+8 | File | `/attachments` | Medium
+9 | File | `/bcms/admin/?page=user/list` | High
+10 | File | `/bsms/?page=manage_account` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/fuel/index.php/fuel/logs/items` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/setmac` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/pages/apply_vacancy.php` | High
+30 | File | `/proc/<PID>/mem` | High
+31 | File | `/proxy` | Low
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

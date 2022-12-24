@@ -53,27 +53,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/cloud_config/router_post/register` | High
 4 | File | `/etc/gsissh/sshd_config` | High
 5 | File | `/forms/nslookupHandler` | High
-6 | File | `/include/chart_generator.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/log_download.cgi` | High
-9 | File | `/mgmt/tm/util/bash` | High
-10 | File | `/news.dtl.php` | High
-11 | File | `/p1/p2/:name` | Medium
-12 | File | `/ptms/?page=user` | High
-13 | File | `/setup/finish` | High
-14 | File | `/spip.php` | Medium
-15 | File | `/uncpath/` | Medium
-16 | File | `/upload/file.php` | High
-17 | File | `/usr/bin/pkexec` | High
-18 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-19 | File | `/wolfcms/?/admin/user/add` | High
-20 | File | `/wp-admin` | Medium
-21 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `5.2.9\syscrb.exe` | High
-24 | ... | ... | ...
+6 | File | `/forum/away.php` | High
+7 | File | `/include/chart_generator.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/log_download.cgi` | High
+10 | File | `/mgmt/tm/util/bash` | High
+11 | File | `/news.dtl.php` | High
+12 | File | `/p1/p2/:name` | Medium
+13 | File | `/ptms/?page=user` | High
+14 | File | `/setup/finish` | High
+15 | File | `/spip.php` | Medium
+16 | File | `/uncpath/` | Medium
+17 | File | `/upload/file.php` | High
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+20 | File | `/wolfcms/?/admin/user/add` | High
+21 | File | `/wp-admin` | Medium
+22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+23 | File | `/wp-json/wc/v3/webhooks` | High
+24 | File | `5.2.9\syscrb.exe` | High
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -35,7 +35,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1600 | CWE-310 | Cryptographic Issues | High
+1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1592 | CWE-200 | Configuration | High
+3 | T1600 | CWE-310 | J2EE Misconfiguration: Data Transmission Without Encryption | High
 
 ## IOA - Indicator of Attack
 

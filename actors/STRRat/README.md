@@ -18,6 +18,20 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [35.163.204.167](https://vuldb.com/?ip.35.163.204.167) | ec2-35-163-204-167.us-west-2.compute.amazonaws.com | - | Medium
 2 | [54.202.26.55](https://vuldb.com/?ip.54.202.26.55) | ec2-54-202-26-55.us-west-2.compute.amazonaws.com | - | Medium
+3 | [72.10.160.246](https://vuldb.com/?ip.72.10.160.246) | molosa.de | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _STRRat_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-80 | Cross Site Scripting | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -25,13 +39,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | Argument | `line` | Low
+1 | File | `phpinfo.php` | Medium
+2 | File | `shoptellafriend.asp` | High
+3 | File | `yabb.pl` | Low
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blogs.blackberry.com/en/2021/10/threat-thursday-strrat-malware
+* https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-27%20STRRat%20IOCs
 * https://isc.sans.edu/forums/diary/STRRAT+a+Javabased+RAT+that+doesnt+care+if+you+have+Java/27798/
 
 ## Literature

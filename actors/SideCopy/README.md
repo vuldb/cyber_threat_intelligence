@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,32 +52,31 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
 4 | File | `/admin/?page=inmates/view_inmate` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/dvcset/sysset/set.cgi` | High
-7 | File | `/edit-db.php` | Medium
-8 | File | `/export` | Low
-9 | File | `/file?action=download&file` | High
-10 | File | `/goform/aspForm` | High
-11 | File | `/installers/common.sh` | High
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/plugin/LiveChat/getChat.json.php` | High
-15 | File | `/plugins/servlet/audit/resource` | High
-16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-17 | File | `/replication` | Medium
-18 | File | `/RestAPI` | Medium
-19 | File | `/tmp/speedtest_urls.xml` | High
-20 | File | `/tmp/zarafa-vacation-*` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/var/log/nginx` | High
-24 | File | `/var/run/watchman.pid` | High
-25 | File | `/viewer/krpano.html` | High
-26 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-27 | File | `/wp-json/oembed/1.0/embed?url` | High
-28 | ... | ... | ...
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/dvcset/sysset/set.cgi` | High
+9 | File | `/edit-db.php` | Medium
+10 | File | `/export` | Low
+11 | File | `/file?action=download&file` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/aspForm` | High
+14 | File | `/installers/common.sh` | High
+15 | File | `/medical/inventories.php` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/plugin/LiveChat/getChat.json.php` | High
+19 | File | `/plugins/servlet/audit/resource` | High
+20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+21 | File | `/replication` | Medium
+22 | File | `/RestAPI` | Medium
+23 | File | `/tmp/zarafa-vacation-*` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload` | Low
+26 | File | `/var/log/nginx` | High
+27 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

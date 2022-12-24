@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,25 +94,26 @@ ID | Type | Indicator | Confidence
 17 | File | `/classes/Master.php?f=delete_appointment` | High
 18 | File | `/classes/Master.php?f=delete_train` | High
 19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/demo/module/?module=HERE` | High
-22 | File | `/download/set.cgi` | High
-23 | File | `/dvcset/sysset/set.cgi` | High
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/WifiExtraSet` | High
-28 | File | `/goforms/rlminfo` | High
-29 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/mkshop/Men/profile.php` | High
-32 | File | `/mngset/authset` | High
-33 | File | `/mobile/downloadfile.aspx` | High
-34 | File | `/net/nfc/netlink.c` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | ... | ... | ...
+20 | File | `/ctcprotocol/Protocol` | High
+21 | File | `/dashboard/menu-list.php` | High
+22 | File | `/demo/module/?module=HERE` | High
+23 | File | `/download/set.cgi` | High
+24 | File | `/dvcset/sysset/set.cgi` | High
+25 | File | `/ffos/classes/Master.php?f=save_category` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/SysToolReboot` | High
+28 | File | `/goform/WifiExtraSet` | High
+29 | File | `/goforms/rlminfo` | High
+30 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/mngset/authset` | High
+35 | File | `/mobile/downloadfile.aspx` | High
+36 | File | `/net/nfc/netlink.c` | High
+37 | ... | ... | ...
 
-There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

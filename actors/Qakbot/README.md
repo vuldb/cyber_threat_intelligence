@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2618,14 +2618,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2633,36 +2633,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/fst_upload.inc.php` | High
-3 | File | `/api/audits` | Medium
-4 | File | `/api/sys_username_passwd.cmd` | High
-5 | File | `/authUserAction!edit.action` | High
-6 | File | `/bin/proc.cgi` | High
-7 | File | `/bsms_ci/index.php` | High
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-11 | File | `/cgi-bin/webproc` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/gpac/src/bifs/unquantize.c` | High
-17 | File | `/hrm/controller/employee.php` | High
-18 | File | `/hrm/employeeadd.php` | High
-19 | File | `/hrm/employeeview.php` | High
-20 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-21 | File | `/login` | Low
-22 | File | `/out.php` | Medium
-23 | File | `/product/savenewproduct.php?flag=1` | High
-24 | File | `/Redcock-Farm/farm/category.php` | High
-25 | File | `/scenegraph/svg_attributes.c` | High
-26 | File | `/signup_script.php` | High
-27 | File | `/spip.php` | Medium
-28 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
+2 | File | `.kss.pid` | Medium
+3 | File | `.qpopper-options` | High
+4 | File | `/api/v1/containers` | High
+5 | File | `/apps/` | Low
+6 | File | `/backupsettings.conf` | High
+7 | File | `/config/getuser` | High
+8 | File | `/EASYIO30P-123456789012345678901234567890123456789012345678/webuser.js` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+11 | File | `/Online%20Course%20Registration/my-profile.php` | High
+12 | File | `/opt/mysql` | Medium
+13 | File | `/private/sessions` | High
+14 | File | `/root/*.db` | Medium
+15 | File | `/sre/params.php` | High
+16 | File | `/tmp` | Low
+17 | File | `/Users` | Low
+18 | File | `/var/avamar/f_cache.dat` | High
+19 | File | `/var/spool/hylafax` | High
+20 | File | `26.html` | Low
+21 | File | `action/addproject.php` | High
+22 | File | `ActivityStarter.java` | High
+23 | File | `admin.php` | Medium
+24 | File | `admin.php/upload/picture.html` | High
+25 | File | `admin.php?s=Tpl/Add/id` | High
+26 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
+27 | File | `admin/manage-fields.php` | High
+28 | File | `admin/wp-security-blacklist-menu.php` | High
+29 | File | `af_netlink.c` | Medium
+30 | File | `ajaxRequest/methodCall.do` | High
+31 | File | `album_portal.php` | High
+32 | File | `Alias.asmx` | Medium
+33 | File | `api.php/List/index` | High
+34 | File | `app-layer-enip-commmon.c` | High
+35 | File | `app/operator_panel/index_inc.php` | High
+36 | File | `application/core/Survey_Common_Action.php` | High
+37 | File | `archivejson.cgi` | High
+38 | File | `authpam.c` | Medium
+39 | File | `AvailableApps.php` | High
+40 | File | `bb_smilies.php/bbcode_ref.php` | High
+41 | File | `Blog.CGI` | Medium
+42 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

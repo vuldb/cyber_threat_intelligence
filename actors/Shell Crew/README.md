@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Shell Crew:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shell Crew:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,12 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,46 +57,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?module=users&section=cpanel&page=list` | High
-3 | File | `/admin/powerline` | High
-4 | File | `/admin/syslog` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/cgi-bin` | Medium
-7 | File | `/cgi-bin/kerbynet` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dcim/sites/add/` | High
-10 | File | `/EXCU_SHELL` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/fudforum/adm/hlplist.php` | High
-13 | File | `/login` | Low
-14 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/new` | Low
-18 | File | `/proc/<pid>/status` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/rom` | Low
-21 | File | `/scripts/killpvhost` | High
-22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-25 | File | `/tmp` | Low
-26 | File | `/tmp/redis.ds` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/ViewUserHover.jspa` | High
-29 | File | `/wp-admin` | Medium
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `AccountManagerService.java` | High
-33 | File | `actions/CompanyDetailsSave.php` | High
-34 | File | `ActiveServices.java` | High
-35 | File | `ActivityManagerService.java` | High
-36 | File | `addlink.php` | Medium
-37 | File | `addtocart.asp` | High
-38 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin/submit-articles` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/app/options.py` | High
+7 | File | `/attachments` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/sitevariables/delete/4` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index/jobfairol/show/` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/proc/<PID>/mem` | High
+30 | File | `/proxy` | Low
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+33 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,13 +44,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wordpress/wp-admin/admin.php` | High
-2 | File | `admin/index.php` | High
-3 | File | `books.php` | Medium
-4 | File | `data/gbconfiguration.dat` | High
+1 | File | `/forum/away.php` | High
+2 | File | `/wordpress/wp-admin/admin.php` | High
+3 | File | `admin/index.php` | High
+4 | File | `books.php` | Medium
 5 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

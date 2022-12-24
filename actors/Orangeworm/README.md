@@ -29,12 +29,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,33 +45,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
 2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/cgi-bin/login_action.cgi` | High
-4 | File | `/download` | Medium
-5 | File | `/etc/tomcat8/Catalina/attack` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/modules/profile/index.php` | High
-9 | File | `/modules/registration_admission/patient_register.php` | High
-10 | File | `/news.dtl.php` | High
-11 | File | `/public/plugins/` | High
-12 | File | `/rapi/read_url` | High
-13 | File | `/rest/api/2/user/picker` | High
-14 | File | `/scripts/iisadmin/bdir.htr` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/ViewUserHover.jspa` | High
-21 | File | `/WEB-INF/web.xml` | High
-22 | File | `/wp-json/oembed/1.0/embed?url` | High
-23 | File | `ad.cgi` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `add-category.php` | High
-26 | File | `admin.php` | Medium
-27 | ... | ... | ...
+3 | File | `/api/user/{ID}` | High
+4 | File | `/bin/proc.cgi` | High
+5 | File | `/cgi-bin/login_action.cgi` | High
+6 | File | `/data/vendor/tcl` | High
+7 | File | `/download` | Medium
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/files.md5` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/getcfg.php` | Medium
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/modules/registration_admission/patient_register.php` | High
+14 | File | `/news.dtl.php` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/rest/api/2/user/picker` | High
+18 | File | `/sbin/acos_service` | High
+19 | File | `/scripts/iisadmin/bdir.htr` | High
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+21 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+22 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/ViewUserHover.jspa` | High
+26 | File | `/WEB-INF/web.xml` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-json/oembed/1.0/embed?url` | High
+29 | File | `/www/cgi-bin/popen.cgi` | High
+30 | File | `5.2.9\syscrb.exe` | High
+31 | File | `ad.cgi` | Low
+32 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

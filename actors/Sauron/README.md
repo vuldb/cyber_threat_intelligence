@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sauron:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-266, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-307, CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,45 +48,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?module=users&section=cpanel&page=list` | High
-2 | File | `/admin/powerline` | High
-3 | File | `/admin/syslog` | High
-4 | File | `/api/upload` | Medium
-5 | File | `/cgi-bin` | Medium
-6 | File | `/cgi-bin/kerbynet` | High
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/dcim/sites/add/` | High
-9 | File | `/EXCU_SHELL` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/fudforum/adm/hlplist.php` | High
-12 | File | `/login` | Low
-13 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-14 | File | `/monitoring` | Medium
-15 | File | `/new` | Low
-16 | File | `/proc/<pid>/status` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rom` | Low
-19 | File | `/scripts/killpvhost` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-23 | File | `/tmp` | Low
-24 | File | `/tmp/redis.ds` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/ViewUserHover.jspa` | High
-27 | File | `/wp-admin` | Medium
-28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `AccountManagerService.java` | High
-31 | File | `actions/CompanyDetailsSave.php` | High
-32 | File | `ActiveServices.java` | High
-33 | File | `ActivityManagerService.java` | High
-34 | File | `addlink.php` | Medium
-35 | File | `addtocart.asp` | High
-36 | File | `admin.php` | Medium
-37 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin/submit-articles` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/app/options.py` | High
+7 | File | `/attachments` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/fuel/index.php/fuel/logs/items` | High
+19 | File | `/fuel/sitevariables/delete/4` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index/jobfairol/show/` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/proc/<PID>/mem` | High
+30 | File | `/proxy` | Low
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

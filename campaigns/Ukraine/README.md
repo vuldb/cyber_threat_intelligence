@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [LA](https://vuldb.com/?country.la)
-* [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -27,7 +27,8 @@ ID | Actor | Confidence
 4 | [Gafgyt](https://vuldb.com/?actor.gafgyt) | High
 5 | [Moobot](https://vuldb.com/?actor.moobot) | High
 6 | [Ripprbot](https://vuldb.com/?actor.ripprbot) | High
-7 | ... | ...
+7 | [Unknown](https://vuldb.com/?actor.unknown) | High
+8 | ... | ...
 
 There are 13 more actor items available. Please use our online service to access the data.
 
@@ -77,7 +78,7 @@ ID | IP address | Hostname | Actor | Confidence
 38 | [45.146.164.37](https://vuldb.com/?ip.45.146.164.37) | - | [UAC-0056](https://vuldb.com/?actor.uac-0056) | High
 39 | ... | ... | ... | ...
 
-There are 150 more IOC items available. Please use our online service to access the data.
+There are 152 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,14 +86,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -100,31 +102,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/controller/JobLogController.java` | High
-3 | File | `/Admin/dashboard.php` | High
-4 | File | `/admin/problem_judge.php` | High
-5 | File | `/api/audits` | Medium
-6 | File | `/api/user/password/sent-reset-email` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-9 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-10 | File | `/asms/classes/Master.php?f=delete_service` | High
-11 | File | `/bsms_ci/index.php` | High
-12 | File | `/bsms_ci/index.php/book` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/diag_ping_admin.asp` | High
-15 | File | `/diag_tracert_admin.asp` | High
-16 | File | `/etc/openshift/server_priv.pem` | High
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/gpac/src/bifs/unquantize.c` | High
-20 | File | `/hrm/controller/employee.php` | High
-21 | File | `/index/user/user_edit.html` | High
-22 | File | `/leave_system/admin/?page=maintenance/department` | High
-23 | ... | ... | ...
+1 | File | `/api/audits` | Medium
+2 | File | `/bsms_ci/index.php` | High
+3 | File | `/bsms_ci/index.php/book` | High
+4 | File | `/bsms_ci/index.php/user/edit_user/` | High
+5 | File | `/env` | Low
+6 | File | `/face-recognition-php/facepay-master/camera.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/FreshRSS/p/ext.php` | High
+9 | File | `/goform/addressNat` | High
+10 | File | `/goform/CertListInfo` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | File | `/goform/IPSECsave` | High
+13 | File | `/goform/L7Im` | Medium
+14 | File | `/goform/NatStaticSetting` | High
+15 | File | `/goform/qossetting` | High
+16 | File | `/goform/SafeClientFilter` | High
+17 | File | `/goform/SafeMacFilter` | High
+18 | File | `/goform/SafeUrlFilter` | High
+19 | File | `/goform/setMacFilterCfg` | High
+20 | File | `/goform/SysToolReboot` | High
+21 | File | `/goform/SysToolRestoreSet` | High
+22 | File | `/goform/VirtualSer` | High
+23 | File | `/gpac/src/bifs/unquantize.c` | High
+24 | File | `/hrm/controller/employee.php` | High
+25 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,6 +150,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/shuckworm-gamaredon-espionage-ukraine
 * https://twitter.com/s1ckb017/status/1494047314792665088
 * https://unit42.paloaltonetworks.com/ukraine-targeted-outsteel-saintbot/
+* https://www.mandiant.com/resources/blog/trojanized-windows-installers-ukrainian-government
 * https://www.rnbo.gov.ua/en/Diialnist/4823.html
 * https://www.welivesecurity.com/2017/06/30/telebots-back-supply-chain-attacks-against-ukraine/
 * https://www.wordfence.com/blog/2022/03/ukraine-universities-hacked-by-brazilian-via-finland-as-russian-invasion-started/

@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with Moses Staff:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Moses Staff:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
@@ -33,7 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1592 | CWE-200 | Configuration | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Configuration | High
 
 ## IOA - Indicator of Attack
 
@@ -42,6 +44,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/jpg/image.jpg` | High
+2 | File | `readrec.c` | Medium
 
 ## References
 

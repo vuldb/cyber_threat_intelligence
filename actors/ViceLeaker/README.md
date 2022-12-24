@@ -14,8 +14,12 @@ The following _campaigns_ are known and can be associated with ViceLeaker:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ViceLeaker:
 
+* [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [TO](https://vuldb.com/?country.to)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,6 +30,28 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [185.141.60.21](https://vuldb.com/?ip.185.141.60.21) | - | ViceLeaker | High
 2 | [188.165.28.25](https://vuldb.com/?ip.188.165.28.25) | - | ViceLeaker | High
 3 | [188.165.49.20](https://vuldb.com/?ip.188.165.49.20) | lxctest01.efr.zone | ViceLeaker | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ViceLeaker_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ViceLeaker. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/password.jsn` | High
+2 | Pattern | `|11|` | Low
 
 ## References
 

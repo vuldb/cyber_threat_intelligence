@@ -71,39 +71,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/factory` | High
 2 | File | `/action/wirelessConnect` | High
-3 | File | `/admin/?page=reports/waste` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/add-fee.php` | High
-6 | File | `/admin/baojia_list.php` | High
-7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/admin/loginc.php` | High
-9 | File | `/anony/mjpg.cgi` | High
-10 | File | `/api/common/ping` | High
-11 | File | `/api/v2/open/rowsInfo` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/appointments/update_status.php` | High
-14 | File | `/authUserAction!edit.action` | High
+3 | File | `/admin.php` | Medium
+4 | File | `/admin/?page=reports/waste` | High
+5 | File | `/admin/?page=user/manage_user` | High
+6 | File | `/admin/add-fee.php` | High
+7 | File | `/admin/baojia_list.php` | High
+8 | File | `/admin/folderrollpicture/list` | High
+9 | File | `/admin/loginc.php` | High
+10 | File | `/anony/mjpg.cgi` | High
+11 | File | `/api/common/ping` | High
+12 | File | `/api/v2/open/rowsInfo` | High
+13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+14 | File | `/appointments/update_status.php` | High
 15 | File | `/bin/boa` | Medium
-16 | File | `/bookings/update_status.php` | High
-17 | File | `/cgi-bin/DownloadFlash` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
+16 | File | `/binbloom-master/src/helpers.c` | High
+17 | File | `/bookings/update_status.php` | High
+18 | File | `/cgi-bin/DownloadFlash` | High
 19 | File | `/classes/Users.php?f=delete_client` | High
 20 | File | `/contacts/listcontacts.php` | High
 21 | File | `/Core/Ap4File.cpp` | High
-22 | File | `/csms/admin/storages/view_storage.php` | High
-23 | File | `/dede/file_manage_control.php` | High
-24 | File | `/depotHead/list` | High
-25 | File | `/etc/ciel.cfg` | High
-26 | File | `/etc/openshift/server_priv.pem` | High
-27 | File | `/etc/shadow.sample` | High
-28 | File | `/forms/web_runScript` | High
-29 | File | `/garage/php_action/createBrand.php` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/goform/AddSysLogRule` | High
-32 | File | `/goform/formSetFirewallCfg` | High
-33 | ... | ... | ...
+22 | File | `/dede/file_manage_control.php` | High
+23 | File | `/depotHead/list` | High
+24 | File | `/etc/ciel.cfg` | High
+25 | File | `/etc/openshift/server_priv.pem` | High
+26 | File | `/etc/os-release` | High
+27 | File | `/etc/pki/pulp/nodes/` | High
+28 | File | `/etc/shadow.sample` | High
+29 | File | `/forms/web_runScript` | High
+30 | File | `/fs/nfsd/nfs4proc.c` | High
+31 | File | `/garage/php_action/createBrand.php` | High
+32 | File | `/general/search.php?searchtype=simple` | High
+33 | File | `/goform/AddSysLogRule` | High
+34 | File | `/goform/AdvSetWrlsafeset` | High
+35 | File | `/goform/formSetFirewallCfg` | High
+36 | File | `/goform/NTPSyncWithHost` | High
+37 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

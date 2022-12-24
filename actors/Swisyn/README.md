@@ -73,17 +73,18 @@ ID | Type | Indicator | Confidence
 14 | File | `/cimom` | Low
 15 | File | `/ci_spms/admin/search/searching/` | High
 16 | File | `/classes/Master.php?f=delete_student` | High
-17 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-18 | File | `/etc/sysconfig/tomcat` | High
-19 | File | `/fantasticblog/single.php` | High
-20 | File | `/goform/aspForm` | High
-21 | File | `/goform/delIpMacBind/` | High
-22 | File | `/goform/SetLEDCfg` | High
-23 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-24 | File | `/htdocs/utils/Files.php` | High
-25 | ... | ... | ...
+17 | File | `/dev/tty` | Medium
+18 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+19 | File | `/etc/sysconfig/tomcat` | High
+20 | File | `/fantasticblog/single.php` | High
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/delIpMacBind/` | High
+23 | File | `/goform/SetLEDCfg` | High
+24 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
+25 | File | `/htdocs/utils/Files.php` | High
+26 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

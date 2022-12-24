@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
 17 | File | `/plesk-site-preview/` | High
 18 | File | `/question/ask` | High
-19 | ... | ... | ...
+19 | File | `/rest/api/2/search` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,6 +24,19 @@ ID | IP address | Hostname | Campaign | Confidence
 
 There are 1 more IOC items available. Please use our online service to access the data.
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Astro Locker_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
+2 | T1202 | CWE-78 | Command Injection | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Astro Locker. This data is unique as it uses our predictive model for actor profiling.
@@ -35,7 +48,7 @@ ID | Type | Indicator | Confidence
 3 | File | `ajax_php_pecl.php` | High
 4 | ... | ... | ...
 
-There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

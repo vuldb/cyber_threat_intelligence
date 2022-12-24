@@ -68,23 +68,23 @@ ID | Type | Indicator | Confidence
 16 | File | `/formVirtualServ` | High
 17 | File | `/goform/form2WizardStep4` | High
 18 | File | `/goform/rlmswitchr_process` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/include/make.php` | High
-21 | File | `/jsonrpc` | Medium
-22 | File | `/magnoliaAuthor/.magnolia/` | High
-23 | File | `/master/core/PostHandler.php` | High
-24 | File | `/medianet/sgcontentset.aspx` | High
-25 | File | `/Nodes-Traffic.php` | High
-26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-27 | File | `/proc/pid/syscall` | High
-28 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-29 | File | `/rss.xml` | Medium
-30 | File | `/settings/profile` | High
-31 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/charger_ic/oppo_mp2650.c` | High
-32 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
+19 | File | `/goform/SafeMacFilter` | High
+20 | File | `/goform/SafeUrlFilter` | High
+21 | File | `/goforms/rlminfo` | High
+22 | File | `/include/make.php` | High
+23 | File | `/jsonrpc` | Medium
+24 | File | `/magnoliaAuthor/.magnolia/` | High
+25 | File | `/master/core/PostHandler.php` | High
+26 | File | `/medianet/sgcontentset.aspx` | High
+27 | File | `/Nodes-Traffic.php` | High
+28 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+29 | File | `/proc/pid/syscall` | High
+30 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+31 | File | `/rss.xml` | Medium
+32 | File | `/settings/profile` | High
 33 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

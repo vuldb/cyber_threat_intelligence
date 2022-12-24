@@ -19,6 +19,15 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [199.192.19.18](https://vuldb.com/?ip.199.192.19.18) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _TimpDoor_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1592 | CWE-200 | Configuration | High
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

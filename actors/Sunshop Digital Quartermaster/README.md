@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sunshop_digital_quartermaster](https://vuldb.com/?actor.sunshop_digital_quartermaster)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sunshop Digital Quartermaster:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Sunshop Digital Quartermaster.
@@ -11,6 +17,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [115.126.62.100](https://vuldb.com/?ip.115.126.62.100) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sunshop Digital Quartermaster_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1204.001 | CWE-601 | Open Redirect | High
 
 ## References
 

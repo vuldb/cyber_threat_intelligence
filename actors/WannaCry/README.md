@@ -88,9 +88,10 @@ ID | Type | Indicator | Confidence
 37 | File | `/goform/wlanPrimaryNetwork` | High
 38 | File | `/guestmanagement/front.php` | High
 39 | File | `/home.jsp` | Medium
-40 | ... | ... | ...
+40 | File | `/login.php` | Medium
+41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

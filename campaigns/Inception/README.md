@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
 * [AR](https://vuldb.com/?country.ar)
-* [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
+* [PT](https://vuldb.com/?country.pt)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -34,7 +34,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [82.221.100.60](https://vuldb.com/?ip.82.221.100.60) | - | [Inception](https://vuldb.com/?actor.inception) | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,14 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,43 +59,47 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/action/import_xml_file/` | High
 2 | File | `/action/wirelessConnect` | High
-3 | File | `/admin/?page=reports/stockout` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/changestock.php` | High
-6 | File | `/admin/client_edit.php` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/modify.php` | High
-9 | File | `/admin/myaccount` | High
-10 | File | `/admin/pages/sections_save.php` | High
-11 | File | `/admin/search.php` | High
-12 | File | `/admin/select.php` | High
-13 | File | `/admin/settings/fields` | High
-14 | File | `/api/v1/chat.getThreadsList` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/api/v2/open/rowsInfo` | High
-17 | File | `/asms/admin/?page=user/manage_user` | High
-18 | File | `/blog/comment` | High
-19 | File | `/card/in-card.php` | High
-20 | File | `/classes/Master.php?f=delete_student` | High
-21 | File | `/connectors/index.php` | High
-22 | File | `/csms/admin/?page=system_info` | High
-23 | File | `/etc/init0.d/S80telnetd.sh` | High
-24 | File | `/etc/srapi/config/system.conf` | High
-25 | File | `/framework/core/models/expConfig.php` | High
-26 | File | `/framework/modules/core/controllers/expHTMLEditorController.php` | High
-27 | File | `/garage/php_action/createBrand.php` | High
-28 | File | `/goform/addressNat` | High
-29 | File | `/goform/AdvSetWrlsafeset` | High
-30 | File | `/goform/editFileName` | High
-31 | ... | ... | ...
+3 | File | `/admin/?page=user/manage_user` | High
+4 | File | `/admin/myaccount` | High
+5 | File | `/admin/pages/sections_save.php` | High
+6 | File | `/admin/settings/fields` | High
+7 | File | `/api/v1/chat.getThreadsList` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/api/v2/open/rowsInfo` | High
+10 | File | `/asms/admin/?page=user/manage_user` | High
+11 | File | `/blog/comment` | High
+12 | File | `/card/in-card.php` | High
+13 | File | `/connectors/index.php` | High
+14 | File | `/csms/admin/?page=system_info` | High
+15 | File | `/env` | Low
+16 | File | `/etc/os-release` | High
+17 | File | `/front/search.php` | High
+18 | File | `/garage/php_action/createBrand.php` | High
+19 | File | `/goform/addressNat` | High
+20 | File | `/goform/AdvSetWrlsafeset` | High
+21 | File | `/goform/editFileName` | High
+22 | File | `/goform/form2WizardStep54` | High
+23 | File | `/goform/setSysAdm` | High
+24 | File | `/goform/webExcptypemanFilter` | High
+25 | File | `/goform/WifiBasicSet` | High
+26 | File | `/goform/WifiMacFilterGet` | High
+27 | File | `/hss/admin/categories/view_category.php` | High
+28 | File | `/index.asp` | Medium
+29 | File | `/isomedia/meta.c` | High
+30 | File | `/mods/_core/courses/users/create_course.php` | High
+31 | File | `/module/report_event/index.php` | High
+32 | File | `/Redcock-Farm/farm/category.php` | High
+33 | File | `/release-x64/otfccdump+0x6c0a32` | High
+34 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/eset/malware-ioc/tree/master/interception
+* https://research.checkpoint.com/2022/cloud-atlas-targets-entities-in-russia-and-belarus-amid-the-ongoing-war-in-ukraine/
 * https://securelist.com/recent-cloud-atlas-activity/92016/
 * https://unit42.paloaltonetworks.com/unit42-inception-attackers-target-europe-year-old-office-vulnerability/
 * https://www.threatminer.org/report.php?q=bcs_wp_InceptionReport_EN_v12914.pdf&y=2014

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1600 | CWE-310 | Cryptographic Issues | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +48,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-2 | File | `/inc/HTTPClient.php` | High
-3 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-4 | File | `addentry.php` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `admin/admin.shtml` | High
-7 | File | `Admin/ADM_Pagina.php` | High
-8 | File | `admin/editcatalogue.php` | High
-9 | File | `admin/menus/edit.php` | High
-10 | File | `apage.cgi` | Medium
-11 | ... | ... | ...
+2 | File | `/etc/passwd` | Medium
+3 | File | `/inc/HTTPClient.php` | High
+4 | File | `/php_action/createUser.php` | High
+5 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+6 | File | `addentry.php` | Medium
+7 | File | `admin.php` | Medium
+8 | File | `admin/admin.shtml` | High
+9 | File | `Admin/ADM_Pagina.php` | High
+10 | File | `admin/editcatalogue.php` | High
+11 | File | `admin/menus/edit.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

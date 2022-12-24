@@ -73,9 +73,10 @@ ID | Type | Indicator | Confidence
 14 | File | `admin.php` | Medium
 15 | File | `admin.php?s=/Channel/add.html` | High
 16 | File | `admin/class-bulk-editor-list-table.php` | High
-17 | ... | ... | ...
+17 | File | `administrator/components/com_media/helpers/media.php` | High
+18 | ... | ... | ...
 
-There are 142 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

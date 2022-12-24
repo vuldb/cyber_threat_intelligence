@@ -10,18 +10,63 @@ The following _campaigns_ are known and can be associated with FinFisher:
 
 * Turkey March for Justice
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FinFisher:
+
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of FinFisher.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [178.32.214.175](https://vuldb.com/?ip.178.32.214.175) | reverse.bilgi-islem.com | Turkey March for Justice | High
+1 | [45.86.136.138](https://vuldb.com/?ip.45.86.136.138) | - | - | High
+2 | [79.143.87.216](https://vuldb.com/?ip.79.143.87.216) | - | - | High
+3 | [108.61.190.183](https://vuldb.com/?ip.108.61.190.183) | 108.61.190.183.vultrusercontent.com | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _FinFisher_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 10 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by FinFisher. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `admin.php` | Medium
+3 | File | `books.php` | Medium
+4 | File | `cgi-bin/mainfunction.cgi` | High
+5 | File | `data/gbconfiguration.dat` | High
+6 | ... | ... | ...
+
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/61562c5082df413eb2354cb1
 * https://www.accessnow.org/cms/assets/uploads/2018/05/FinFisher-changes-tactics-to-hook-critics-AN.pdf
 
 ## Literature

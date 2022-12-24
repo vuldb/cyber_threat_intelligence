@@ -34,12 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,25 +53,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/APP_Installation.asp` | High
 3 | File | `/cgi-bin/live_api.cgi` | High
 4 | File | `/IISADMPWD` | Medium
-5 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-6 | File | `/platform.cgi` | High
-7 | File | `/Status/wan_button_action.asp` | High
-8 | File | `/tmp/.uci/network` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/Users` | Low
-11 | File | `/usr/` | Low
-12 | File | `Aavmker4.sys` | Medium
-13 | File | `add_user.php` | Medium
-14 | File | `admin/app/physical/physical.php` | High
-15 | File | `admin/auto.def` | High
-16 | File | `api/settings/values` | High
-17 | File | `app/admin/custom-fields/filter.php` | High
-18 | File | `appfeed.c` | Medium
-19 | File | `ashmem.c` | Medium
-20 | File | `auth-gss2.c` | Medium
-21 | ... | ... | ...
+5 | File | `/pages/class_sched.php` | High
+6 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+7 | File | `/platform.cgi` | High
+8 | File | `/Status/wan_button_action.asp` | High
+9 | File | `/tmp/.uci/network` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/Users` | Low
+12 | File | `/usr/` | Low
+13 | File | `Aavmker4.sys` | Medium
+14 | File | `add_user.php` | Medium
+15 | File | `admin/app/physical/physical.php` | High
+16 | File | `admin/auto.def` | High
+17 | File | `api/settings/values` | High
+18 | File | `app/admin/custom-fields/filter.php` | High
+19 | File | `appfeed.c` | Medium
+20 | File | `ashmem.c` | Medium
+21 | File | `auth-gss2.c` | Medium
+22 | ... | ... | ...
 
-There are 173 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

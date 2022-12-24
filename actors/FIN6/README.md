@@ -107,19 +107,19 @@ ID | Type | Indicator | Confidence
 38 | File | `/scp/directory.php` | High
 39 | File | `/setSystemAdmin` | High
 40 | File | `/system/WCore/WHelper.php` | High
-41 | File | `/tmp/connlicj.bin` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/upload` | Low
-44 | File | `/userfs/bin/tcapi` | High
-45 | File | `/var/www/xms/application/config/config.php` | High
-46 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
-47 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
-48 | File | `/var/www/xms/cleanzip.sh` | High
-49 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
-50 | File | `/websocket/exec` | High
-51 | File | `/workspaceCleanup` | High
-52 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
-53 | File | `account/gallery.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/upload` | Low
+43 | File | `/userfs/bin/tcapi` | High
+44 | File | `/var/www/xms/application/config/config.php` | High
+45 | File | `/var/www/xms/application/controllers/gatherLogs.php` | High
+46 | File | `/var/www/xms/application/controllers/verifyLogin.php` | High
+47 | File | `/var/www/xms/cleanzip.sh` | High
+48 | File | `/vendor/phpdocumentor/reflection-docblock/tests/phpDocumentor/Reflection/DocBlock/Tag/LinkTagTeet.php` | High
+49 | File | `/websocket/exec` | High
+50 | File | `/workspaceCleanup` | High
+51 | File | `/wp-admin/admin-ajax.php?action=get_wdtable&table_id=1` | High
+52 | File | `account/gallery.php` | High
+53 | File | `add_edit_cat.asp` | High
 54 | ... | ... | ...
 
 There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

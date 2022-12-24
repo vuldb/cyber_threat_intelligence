@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,33 +64,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/Admin/dashboard.php` | High
 7 | File | `/Api/ASF` | Medium
 8 | File | `/cgi-bin/cgiServer.exx` | High
-9 | File | `/cgi?1&5` | Medium
-10 | File | `/clients/editclient.php` | High
-11 | File | `/CommunitySSORedirect.jsp` | High
-12 | File | `/ctpms/admin/?page=applications/view_application` | High
-13 | File | `/dl/dl_sendmail.php` | High
-14 | File | `/formStaticDHCP` | High
-15 | File | `/formVirtualApp` | High
-16 | File | `/formVirtualServ` | High
-17 | File | `/goform/form2WizardStep4` | High
-18 | File | `/goform/rlmswitchr_process` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/include/make.php` | High
-21 | File | `/jsonrpc` | Medium
-22 | File | `/magnoliaAuthor/.magnolia/` | High
-23 | File | `/master/core/PostHandler.php` | High
-24 | File | `/medianet/sgcontentset.aspx` | High
-25 | File | `/Nodes-Traffic.php` | High
-26 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-27 | File | `/proc/pid/syscall` | High
-28 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-29 | File | `/settings/profile` | High
-30 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_vooc.c` | High
-31 | File | `/sys/net/gnrc/routing/rpl/gnrc_rpl_control_messages.c` | High
-32 | File | `/system/sshkeys.js` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/cgi?1&5` | Medium
+11 | File | `/clients/editclient.php` | High
+12 | File | `/CommunitySSORedirect.jsp` | High
+13 | File | `/ctpms/admin/?page=applications/view_application` | High
+14 | File | `/dl/dl_sendmail.php` | High
+15 | File | `/formStaticDHCP` | High
+16 | File | `/formVirtualApp` | High
+17 | File | `/formVirtualServ` | High
+18 | File | `/goform/form2WizardStep4` | High
+19 | File | `/goform/rlmswitchr_process` | High
+20 | File | `/goform/SafeMacFilter` | High
+21 | File | `/goform/SafeUrlFilter` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/include/make.php` | High
+24 | File | `/jsonrpc` | Medium
+25 | File | `/magnoliaAuthor/.magnolia/` | High
+26 | File | `/master/core/PostHandler.php` | High
+27 | File | `/medianet/sgcontentset.aspx` | High
+28 | File | `/Nodes-Traffic.php` | High
+29 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+30 | File | `/proc/pid/syscall` | High
+31 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+32 | File | `/settings/profile` | High
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,22 +48,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
-2 | File | `/include/makecvs.php` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `add.php` | Low
-5 | File | `adm_config_report.php` | High
-6 | File | `ampie.swf` | Medium
-7 | File | `auth-gss2.c` | Medium
-8 | File | `cat.asp` | Low
-9 | File | `class.phpmailer.php` | High
-10 | File | `clickstats.php` | High
-11 | File | `CodeMeter.exe` | High
-12 | File | `components/bitrix/mobileapp.list/ajax.php/` | High
-13 | File | `data/gbconfiguration.dat` | High
-14 | File | `default.asp` | Medium
-15 | ... | ... | ...
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/include/makecvs.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/requests.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+8 | File | `add.php` | Low
+9 | File | `adm_config_report.php` | High
+10 | File | `ampie.swf` | Medium
+11 | File | `auth-gss2.c` | Medium
+12 | File | `cat.asp` | Low
+13 | File | `class.phpmailer.php` | High
+14 | File | `clickstats.php` | High
+15 | File | `CodeMeter.exe` | High
+16 | File | `components/bitrix/mobileapp.list/ajax.php/` | High
+17 | File | `CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N` | High
+18 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

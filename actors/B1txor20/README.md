@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [IT](https://vuldb.com/?country.it)
 * [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,14 +45,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,49 +61,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/Admin/createClass.php` | High
-4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/edit_members.php` | High
-6 | File | `/admin/pages/sections_save.php` | High
-7 | File | `/admin/problem_judge.php` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/submit-articles` | High
-10 | File | `/admin/transactions/update_status.php` | High
-11 | File | `/admin/users/index.php` | High
-12 | File | `/apiv1/` | Low
-13 | File | `/asms/admin/products/manage_product.php` | High
-14 | File | `/asms/products/view_product.php` | High
-15 | File | `/avms/index.php` | High
-16 | File | `/bsms_ci/index.php` | High
-17 | File | `/bsms_ci/index.php/user/edit_user/` | High
-18 | File | `/calendar/viewcalendar.php` | High
-19 | File | `/clients/listclients.php` | High
-20 | File | `/College/admin/teacher.php` | High
-21 | File | `/contacts/listcontacts.php` | High
-22 | File | `/dashboard/add-service.php` | High
-23 | File | `/Default/Bd` | Medium
-24 | File | `/device/` | Medium
-25 | File | `/device/signin` | High
-26 | File | `/event/admin/?page=user/list` | High
-27 | File | `/face-recognition-php/facepay-master/camera.php` | High
-28 | File | `/forums/editforum.php` | High
-29 | File | `/garage/php_action/createBrand.php` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/goform/AddSysLogRule` | High
-32 | File | `/goform/setDiagnoseInfo` | High
-33 | File | `/goform/SetIpMacBind` | High
-34 | File | `/goform/setSysPwd` | High
-35 | File | `/goform/setUplinkInfo` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/hrm/employeeadd.php` | High
-38 | File | `/hrm/employeeview.php` | High
-39 | File | `/ims/login.php` | High
-40 | File | `/index.php/admins/Fields/get_fields.html` | High
-41 | ... | ... | ...
+1 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
+2 | File | `/addNotifyServlet` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/bsms_ci/index.php/user/edit_user/` | High
+6 | File | `/ci_hms/search` | High
+7 | File | `/etc/gsissh/sshd_config` | High
+8 | File | `/etc/hosts` | Medium
+9 | File | `/goform/delAd` | High
+10 | File | `/goform/setFixTools` | High
+11 | File | `/lab.html` | Medium
+12 | File | `/menu.html` | Medium
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/tmp/app/.env` | High
+15 | File | `/tmp/boa-temp` | High
+16 | File | `/tools/developerConsoleOperations.jsp` | High
+17 | File | `/uploadServlet` | High
+18 | File | `/var/tmp/audacity-$USER` | High
+19 | File | `/vendor` | Low
+20 | File | `/workspaceCleanup` | High
+21 | File | `5.2.9\syscrb.exe` | High
+22 | File | `AbstractController.php` | High
+23 | File | `account_change.php` | High
+24 | File | `adclick.php` | Medium
+25 | File | `addentry.php` | Medium
+26 | File | `addetail.asp` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/admin.guestbook.php` | High
+29 | File | `admin/index.php` | High
+30 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

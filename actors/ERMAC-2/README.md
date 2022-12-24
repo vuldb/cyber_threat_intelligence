@@ -16,17 +16,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.215.113.100](https://vuldb.com/?ip.185.215.113.100) | - | Bolt Food | High
-2 | [193.106.191.116](https://vuldb.com/?ip.193.106.191.116) | - | Bolt Food | High
-3 | [193.106.191.118](https://vuldb.com/?ip.193.106.191.118) | - | Bolt Food | High
+1 | [45.141.85.25](https://vuldb.com/?ip.45.141.85.25) | - | - | High
+2 | [185.215.113.100](https://vuldb.com/?ip.185.215.113.100) | - | Bolt Food | High
+3 | [193.106.191.116](https://vuldb.com/?ip.193.106.191.116) | - | Bolt Food | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/270/ermac-2-0-trojan-iocs/
 * https://twitter.com/ESETresearch/status/1526897320817840128
 
 ## Literature

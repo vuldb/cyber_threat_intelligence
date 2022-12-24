@@ -25,6 +25,28 @@ ID | IP address | Hostname | Campaign | Confidence
 
 There are 20 more IOC items available. Please use our online service to access the data.
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Shadowbrokers_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1592 | CWE-200 | Configuration | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Shadowbrokers. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/pages/processlogin.php` | High
+2 | File | `formContactGroup.php` | High
+3 | Argument | `cg_id` | Low
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:

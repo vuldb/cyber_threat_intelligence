@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
+* [IT](https://vuldb.com/?country.it)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,8 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
@@ -45,41 +49,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/admin/?page=orders/manage_request` | High
-3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/Admin/createClass.php` | High
-7 | File | `/admin/fst_upload.inc.php` | High
-8 | File | `/admin/problem_judge.php` | High
-9 | File | `/admin/transactions/update_status.php` | High
-10 | File | `/admin/users/index.php` | High
-11 | File | `/api/common/ping` | High
-12 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/apiv1/` | Low
-15 | File | `/asms/admin/?page=user/manage_user` | High
-16 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-17 | File | `/asms/admin/products/manage_product.php` | High
-18 | File | `/asms/products/view_product.php` | High
-19 | File | `/attachments` | Medium
-20 | File | `/avms/index.php` | High
-21 | File | `/bsms_ci/index.php` | High
-22 | File | `/bsms_ci/index.php/user/edit_user/` | High
-23 | File | `/classes/Master.php?f=delete_appointment` | High
-24 | File | `/classes/Users.php?f=delete_client` | High
-25 | File | `/depotHead/list` | High
-26 | File | `/device/` | Medium
-27 | File | `/editorder.php` | High
-28 | File | `/event/admin/?page=user/list` | High
-29 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-30 | File | `/garage/editorder.php` | High
-31 | File | `/garage/php_action/createBrand.php` | High
-32 | File | `/ims/login.php` | High
-33 | ... | ... | ...
+1 | File | `/&quot` | Low
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/admin/transactions/update_status.php` | High
+5 | File | `/admin/users/index.php` | High
+6 | File | `/apiv1/` | Low
+7 | File | `/asms/admin/products/manage_product.php` | High
+8 | File | `/asms/products/view_product.php` | High
+9 | File | `/auth/register` | High
+10 | File | `/back/index.php/user/User/?1` | High
+11 | File | `/binbloom-master/src/helpers.c` | High
+12 | File | `/blog/comment` | High
+13 | File | `/bsms_ci/index.php` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/calendar/viewcalendar.php` | High
+16 | File | `/Default/Bd` | Medium
+17 | File | `/dev/kmem` | Medium
+18 | File | `/dev/tty` | Medium
+19 | File | `/device/` | Medium
+20 | File | `/env` | Low
+21 | File | `/etc/passwd` | Medium
+22 | File | `/event/admin/?page=user/list` | High
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/garage/php_action/createBrand.php` | High
+25 | File | `/goform/addressNat` | High
+26 | File | `/goform/AdvSetWrlsafeset` | High
+27 | File | `/goform/CertListInfo` | High
+28 | File | `/goform/exeCommand` | High
+29 | File | `/goform/IPSECsave` | High
+30 | File | `/goform/L7Im` | Medium
+31 | File | `/goform/NatStaticSetting` | High
+32 | File | `/goform/qossetting` | High
+33 | File | `/goform/SafeClientFilter` | High
+34 | File | `/goform/setDiagnoseInfo` | High
+35 | File | `/goform/setSysPwd` | High
+36 | File | `/goform/setUplinkInfo` | High
+37 | File | `/goform/SysToolRestoreSet` | High
+38 | ... | ... | ...
 
-There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

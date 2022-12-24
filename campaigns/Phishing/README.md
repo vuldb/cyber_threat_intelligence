@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,7 +94,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -116,55 +116,58 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/submit-articles` | High
 6 | File | `/ad_js.php` | Medium
 7 | File | `/apilog.php` | Medium
-8 | File | `/cgi-bin/luci/api/wireless` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/connectors/index.php` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/dashboard/reports/logs/view` | High
+8 | File | `/attachments` | Medium
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/connectors/index.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
 13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/setmac` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/items/view_item.php` | High
-22 | File | `/manage-apartment.php` | High
-23 | File | `/manager/index.php` | High
-24 | File | `/medical/inventories.php` | High
-25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/modules/projects/vw_files.php` | High
-28 | File | `/modules/public/calendar.php` | High
-29 | File | `/MTFWU` | Low
-30 | File | `/newsDia.php` | Medium
-31 | File | `/out.php` | Medium
-32 | File | `/pages/apply_vacancy.php` | High
-33 | File | `/proc/<PID>/mem` | High
-34 | File | `/proxy` | Low
-35 | File | `/Redcock-Farm/farm/category.php` | High
-36 | File | `/sacco_shield/manage_user.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-39 | File | `/staff/bookdetails.php` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/upload` | Low
-42 | File | `/user/update_booking.php` | High
-43 | File | `/vendor/views/add_product.php` | High
-44 | File | `/wabt/bin/poc.wasm` | High
-45 | File | `/WebInterface/UserManager/` | High
-46 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-47 | File | `/wordpress/wp-admin/options-general.php` | High
-48 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-49 | File | `ActivityRecord.java` | High
-50 | File | `adclick.php` | Medium
-51 | File | `addtocart.asp` | High
-52 | File | `admin.php` | Medium
-53 | File | `admin.php3` | Medium
-54 | ... | ... | ...
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/etc/hosts` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/items/view_item.php` | High
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/lookin/info` | Medium
+27 | File | `/manage-apartment.php` | High
+28 | File | `/manager/index.php` | High
+29 | File | `/medical/inventories.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/modules/projects/vw_files.php` | High
+33 | File | `/modules/public/calendar.php` | High
+34 | File | `/MTFWU` | Low
+35 | File | `/newsDia.php` | Medium
+36 | File | `/out.php` | Medium
+37 | File | `/pages/apply_vacancy.php` | High
+38 | File | `/proxy` | Low
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/sacco_shield/manage_user.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+43 | File | `/staff/bookdetails.php` | High
+44 | File | `/uncpath/` | Medium
+45 | File | `/upload` | Low
+46 | File | `/user/update_booking.php` | High
+47 | File | `/wabt/bin/poc.wasm` | High
+48 | File | `/WebInterface/UserManager/` | High
+49 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+50 | File | `/wordpress/wp-admin/options-general.php` | High
+51 | File | `AbstractScheduleJob.java` | High
+52 | File | `actionphp/download.File.php` | High
+53 | File | `ActivityRecord.java` | High
+54 | File | `adclick.php` | Medium
+55 | File | `addtocart.asp` | High
+56 | File | `admin.php` | Medium
+57 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

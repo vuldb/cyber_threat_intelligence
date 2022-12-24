@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Denmark Unknown:
 
-* [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -416,52 +416,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/action/wirelessConnect` | High
 4 | File | `/Admin/dashboard.php` | High
 5 | File | `/admin/sign/out` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/api/discoveries/` | High
-8 | File | `/api/v1/attack` | High
-9 | File | `/api/v1/attack/falco` | High
-10 | File | `/api/v1/attack/token` | High
-11 | File | `/api/v1/bait/set` | High
-12 | File | `/api/v2/open/rowsInfo` | High
-13 | File | `/api/v2/open/tablesInfo` | High
-14 | File | `/balance/service/list` | High
-15 | File | `/bin/proc.cgi` | High
-16 | File | `/category.php` | High
-17 | File | `/Core/Ap4File.cpp` | High
-18 | File | `/csms/admin/?page=user/manage_user` | High
-19 | File | `/depotHead/list` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/form2WizardStep4` | High
-22 | File | `/goform/formSetClientState` | High
-23 | File | `/goform/fromSetIpMacBind` | High
-24 | File | `/goform/setSysAdm` | High
-25 | File | `/h/compose` | Medium
-26 | File | `/index.asp` | Medium
-27 | File | `/index.php` | Medium
-28 | File | `/index.php/purchase_order/browse_data` | High
-29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-30 | File | `/lilac/main.php` | High
-31 | File | `/login` | Low
-32 | File | `/module/admin_bp/add_application.php` | High
-33 | File | `/newsDia.php` | Medium
-34 | File | `/omos/admin/?page=user/list` | High
-35 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-36 | File | `/out.php` | Medium
-37 | File | `/pages/processlogin.php` | High
-38 | File | `/php-sms/admin/` | High
-39 | File | `/php-sms/classes/Master.php` | High
-40 | File | `/php-sms/classes/SystemSettings.php` | High
-41 | File | `/plugin/getList` | High
-42 | File | `/Redcock-Farm/farm/category.php` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/tmp` | Low
-45 | File | `/transcation.php` | High
-46 | File | `/user/update_booking.php` | High
-47 | File | `/usr/bin/pkexec` | High
-48 | File | `/usr/sbin/httpd` | High
-49 | ... | ... | ...
+6 | File | `/api/discoveries/` | High
+7 | File | `/api/v1/attack` | High
+8 | File | `/api/v1/attack/falco` | High
+9 | File | `/api/v1/attack/token` | High
+10 | File | `/api/v1/bait/set` | High
+11 | File | `/api/v2/open/rowsInfo` | High
+12 | File | `/api/v2/open/tablesInfo` | High
+13 | File | `/balance/service/list` | High
+14 | File | `/bin/proc.cgi` | High
+15 | File | `/bsms_ci/index.php` | High
+16 | File | `/bsms_ci/index.php/user/edit_user/` | High
+17 | File | `/calendar/viewcalendar.php` | High
+18 | File | `/clients/listclients.php` | High
+19 | File | `/confirm` | Medium
+20 | File | `/contacts/listcontacts.php` | High
+21 | File | `/Core/Ap4File.cpp` | High
+22 | File | `/csms/admin/?page=user/manage_user` | High
+23 | File | `/Default/Bd` | Medium
+24 | File | `/depotHead/list` | High
+25 | File | `/event/admin/?page=user/list` | High
+26 | File | `/face-recognition-php/facepay-master/camera.php` | High
+27 | File | `/forums/editforum.php` | High
+28 | File | `/general/search.php?searchtype=simple` | High
+29 | File | `/goform/form2WizardStep4` | High
+30 | File | `/goform/formSetClientState` | High
+31 | File | `/goform/fromSetIpMacBind` | High
+32 | File | `/goform/setDiagnoseInfo` | High
+33 | File | `/goform/setSnmpInfo` | High
+34 | File | `/goform/setSysAdm` | High
+35 | File | `/goform/setSysPwd` | High
+36 | File | `/goform/setUplinkInfo` | High
+37 | File | `/gpac/src/bifs/unquantize.c` | High
+38 | File | `/hrm/controller/employee.php` | High
+39 | File | `/hrm/employeeadd.php` | High
+40 | File | `/hrm/employeeview.php` | High
+41 | File | `/index.php` | Medium
+42 | File | `/index.php/purchase_order/browse_data` | High
+43 | File | `/index.php?module=configuration/application` | High
+44 | File | `/index.php?module=entities/fields&entities_id=24` | High
+45 | File | `/lilac/main.php` | High
+46 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

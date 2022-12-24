@@ -524,12 +524,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -541,44 +542,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/admin/login.php` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/students/manage.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/admin/subnets/ripe-query.php` | High
-8 | File | `/api/RecordingList/DownloadRecord?file=` | High
-9 | File | `/api/user/upsert/<uuid>` | High
+3 | File | `/Admin/login.php` | High
+4 | File | `/admin/students/manage.php` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/admin/subnets/ripe-query.php` | High
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/api/user/upsert/<uuid>` | High
+9 | File | `/attachments` | Medium
 10 | File | `/card_scan.php` | High
 11 | File | `/cgi-bin/luci/api/wireless` | High
 12 | File | `/cgi-bin/wlogin.cgi` | High
 13 | File | `/context/%2e/WEB-INF/web.xml` | High
 14 | File | `/cwc/login` | Medium
 15 | File | `/debug/pprof` | Medium
-16 | File | `/event/admin/?page=user/list` | High
-17 | File | `/export` | Low
-18 | File | `/foms/place-order.php` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/h/calendar` | Medium
-22 | File | `/h/compose` | Medium
-23 | File | `/h/search?action=voicemail&action=listen` | High
-24 | File | `/index.php` | Medium
-25 | File | `/loginVaLidation.php` | High
-26 | File | `/manage-apartment.php` | High
-27 | File | `/manager/index.php` | High
-28 | File | `/members/view_member.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-31 | File | `/nova/bin/detnet` | High
-32 | File | `/Noxen-master/users.php` | High
+16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/ldap.conf` | High
+19 | File | `/etc/quagga` | Medium
+20 | File | `/event/admin/?page=user/list` | High
+21 | File | `/export` | Low
+22 | File | `/foms/place-order.php` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/goform/wizard_end` | High
+25 | File | `/h/calendar` | Medium
+26 | File | `/h/compose` | Medium
+27 | File | `/h/search?action=voicemail&action=listen` | High
+28 | File | `/hardware` | Medium
+29 | File | `/index.php` | Medium
+30 | File | `/manager/index.php` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/nova/bin/detnet` | High
 33 | File | `/opac/Actions.php?a=login` | High
 34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/php-sms/classes/Master.php` | High
+35 | File | `/php-sms/classes/Master.php` | High
+36 | File | `/php-sms/classes/SystemSettings.php` | High
+37 | File | `/php_action/createOrder.php` | High
 38 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

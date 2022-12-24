@@ -25,6 +25,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

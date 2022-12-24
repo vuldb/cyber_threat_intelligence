@@ -50,7 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -73,28 +74,29 @@ ID | Type | Indicator | Confidence
 11 | File | `/fudforum/index.php` | High
 12 | File | `/goform/setVLAN` | High
 13 | File | `/horde/util/go.php` | High
-14 | File | `/index.php/ccm/system/file/upload` | High
-15 | File | `/isms/admin/stocks/view_stock.php` | High
-16 | File | `/lab.html` | Medium
-17 | File | `/list/<path:folderpath>` | High
-18 | File | `/out.php` | Medium
-19 | File | `/products/details.asp` | High
-20 | File | `/RestAPI` | Medium
-21 | File | `/sm/api/v1/firewall/zone/services` | High
-22 | File | `/spacecom/login.php` | High
-23 | File | `/strings/ctype-simple.c` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/dls_download.php` | High
-26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-27 | File | `acknowledge.c` | High
-28 | File | `actions/CompanyDetailsSave.php` | High
-29 | File | `adclick.php` | Medium
-30 | File | `add_comment.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/conf_users_edit.php` | High
-33 | ... | ... | ...
+14 | File | `/hss/?page=view_product` | High
+15 | File | `/index.php/ccm/system/file/upload` | High
+16 | File | `/isms/admin/stocks/view_stock.php` | High
+17 | File | `/lab.html` | Medium
+18 | File | `/list/<path:folderpath>` | High
+19 | File | `/out.php` | Medium
+20 | File | `/products/details.asp` | High
+21 | File | `/RestAPI` | Medium
+22 | File | `/sm/api/v1/firewall/zone/services` | High
+23 | File | `/spacecom/login.php` | High
+24 | File | `/strings/ctype-simple.c` | High
+25 | File | `/sys/dict/queryTableData` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/user/dls_download.php` | High
+28 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+29 | File | `/v1/sql-runner` | High
+30 | File | `/web/IndexController.java` | High
+31 | File | `acknowledge.c` | High
+32 | File | `actions/CompanyDetailsSave.php` | High
+33 | File | `adclick.php` | Medium
+34 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

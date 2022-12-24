@@ -18,6 +18,14 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [80.211.252.12](https://vuldb.com/?ip.80.211.252.12) | host12-252-211-80.static.arubacloud.pl | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Metamorfo_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Metamorfo. This data is unique as it uses our predictive model for actor profiling.

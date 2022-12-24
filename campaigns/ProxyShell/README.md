@@ -106,10 +106,9 @@ ID | Type | Indicator | Confidence
 46 | File | `/webconsole/APIController` | High
 47 | File | `/websocket/exec` | High
 48 | File | `/whbs/?page=my_bookings` | High
-49 | File | `/wp-admin/admin-ajax.php` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

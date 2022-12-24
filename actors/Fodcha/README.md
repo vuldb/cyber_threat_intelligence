@@ -84,14 +84,13 @@ ID | Type | Indicator | Confidence
 17 | File | `/product.php` | Medium
 18 | File | `/public/common/umeditor/php/getcontent.php` | High
 19 | File | `/service/upload` | High
-20 | File | `/services/prefs.php` | High
-21 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
-22 | File | `/sitemagic/index.php` | High
-23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-24 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
-25 | ... | ... | ...
+20 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
+21 | File | `/sitemagic/index.php` | High
+22 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+23 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
+24 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 8 | File | `add_vhost.php` | High
 9 | File | `admin-ajax.php` | High
 10 | File | `and/or` | Low
-11 | ... | ... | ...
+11 | File | `arsys/servlet/AttachServlet` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

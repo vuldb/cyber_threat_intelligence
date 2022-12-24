@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,21 +56,22 @@ ID | Type | Indicator | Confidence
 8 | File | `/dashboard/contact` | High
 9 | File | `/etc/tomcat8/Catalina/attack` | High
 10 | File | `/etc/uci-defaults` | High
-11 | File | `/Home/debit_credit_p` | High
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/nova/bin/console` | High
-14 | File | `/ossn/administrator/com_installer` | High
-15 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-16 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/user-utils/users/md5.json` | High
-19 | File | `/user/check.php` | High
-20 | File | `/var/avamar/f_cache.dat` | High
-21 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
-22 | File | `/wlanAccess.asp` | High
-23 | ... | ... | ...
+11 | File | `/goform/setSnmpInfo` | High
+12 | File | `/Home/debit_credit_p` | High
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/nova/bin/console` | High
+15 | File | `/ossn/administrator/com_installer` | High
+16 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+17 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/user-utils/users/md5.json` | High
+20 | File | `/user/check.php` | High
+21 | File | `/var/avamar/f_cache.dat` | High
+22 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
+23 | File | `/wlanAccess.asp` | High
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

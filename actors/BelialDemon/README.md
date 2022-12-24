@@ -46,9 +46,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `AdminBaseController.class.php` | High
-2 | File | `include/ajax.draft.php` | High
-3 | Argument | `request` | Low
+1 | File | `/goform/CertListInfo` | High
+2 | File | `/goform/NatStaticSetting` | High
+3 | File | `AdminBaseController.class.php` | High
+4 | ... | ... | ...
+
+There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

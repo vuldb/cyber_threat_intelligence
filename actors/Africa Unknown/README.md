@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1295,9 +1295,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -1311,58 +1311,59 @@ ID | Type | Indicator | Confidence
 1 | File | `/Admin/add-student.php` | High
 2 | File | `/admin/addemployee.php` | High
 3 | File | `/admin/conferences/get-all-status/` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/api/` | Low
-7 | File | `/api/v1/attack/token` | High
-8 | File | `/apilog.php` | Medium
-9 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-10 | File | `/assets` | Low
-11 | File | `/baseOpLog.do` | High
-12 | File | `/cgi-bin/ExportAllSettings.sh` | High
-13 | File | `/cgi-bin/nightled.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/ci_spms/admin/category` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/subnets/ripe-query.php` | High
+7 | File | `/api/audits` | Medium
+8 | File | `/api/v1/attack/token` | High
+9 | File | `/apilog.php` | Medium
+10 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+11 | File | `/assets` | Low
+12 | File | `/baseOpLog.do` | High
+13 | File | `/cgi-bin/ExportAllSettings.sh` | High
+14 | File | `/cgi-bin/nightled.cgi` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/connectors/index.php` | High
 17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/controller/OnlinePreviewController.java` | High
-19 | File | `/core/conditions/AbstractWrapper.java` | High
-20 | File | `/crmeb/crmeb/services/UploadService.php` | High
-21 | File | `/dashboard/snapshot/*?orgId=0` | High
-22 | File | `/debug/pprof` | Medium
+18 | File | `/core/conditions/AbstractWrapper.java` | High
+19 | File | `/crmeb/crmeb/services/UploadService.php` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+22 | File | `/env` | Low
 23 | File | `/export` | Low
-24 | File | `/form/index.php?module=getjson` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/addRouting` | High
-27 | File | `/goform/doReboot` | High
-28 | File | `/h/search?action` | High
-29 | File | `/index.php` | Medium
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/items/view_item.php` | High
-32 | File | `/lists/admin/` | High
-33 | File | `/lists/index.php` | High
-34 | File | `/login.php` | Medium
-35 | File | `/management/api/rcx_management/global_config_query` | High
-36 | File | `/management/users/register` | High
-37 | File | `/manager/index.php` | High
-38 | File | `/medical/inventories.php` | High
-39 | File | `/mkshope/login.php` | High
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/modules/projects/vw_files.php` | High
-42 | File | `/modules/public/calendar.php` | High
-43 | File | `/mygym/admin/index.php` | High
-44 | File | `/newsDia.php` | Medium
-45 | File | `/obs/bookPerPub.php` | High
-46 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-47 | File | `/out.php` | Medium
-48 | File | `/pages/processlogin.php` | High
-49 | File | `/ptipupgrade.cgi` | High
-50 | File | `/sacco_shield/manage_user.php` | High
-51 | File | `/secure/QueryComponent!Default.jspa` | High
-52 | File | `/spip.php` | Medium
-53 | ... | ... | ...
+24 | File | `/face-recognition-php/facepay-master/camera.php` | High
+25 | File | `/form/index.php?module=getjson` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/addRouting` | High
+28 | File | `/goform/doReboot` | High
+29 | File | `/h/search?action` | High
+30 | File | `/hardware` | Medium
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/includes/login.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/items/view_item.php` | High
+36 | File | `/login.php` | Medium
+37 | File | `/lookin/info` | Medium
+38 | File | `/management/users/register` | High
+39 | File | `/manager/index.php` | High
+40 | File | `/medical/inventories.php` | High
+41 | File | `/mkshope/login.php` | High
+42 | File | `/modules/profile/index.php` | High
+43 | File | `/modules/projects/vw_files.php` | High
+44 | File | `/modules/public/calendar.php` | High
+45 | File | `/newsDia.php` | Medium
+46 | File | `/obs/bookPerPub.php` | High
+47 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+48 | File | `/out.php` | Medium
+49 | File | `/pages/processlogin.php` | High
+50 | File | `/ptipupgrade.cgi` | High
+51 | File | `/Redcock-Farm/farm/category.php` | High
+52 | File | `/sacco_shield/manage_user.php` | High
+53 | File | `/spip.php` | Medium
+54 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

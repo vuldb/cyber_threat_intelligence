@@ -122,7 +122,7 @@ ID | Type | Indicator | Confidence
 59 | File | `blocklayered-ajax.php` | High
 60 | ... | ... | ...
 
-There are 521 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

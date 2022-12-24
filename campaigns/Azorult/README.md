@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,9 +53,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,20 +70,23 @@ ID | Type | Indicator | Confidence
 4 | File | `/auparse/auparse.c` | High
 5 | File | `/aux` | Low
 6 | File | `/BindAccount/SuccessTips.js` | High
-7 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-8 | File | `/login.html` | Medium
-9 | File | `/medical/inventories.php` | High
-10 | File | `/pages.php` | Medium
-11 | File | `/pages/save_user.php` | High
-12 | File | `/patient/doctors.php` | High
-13 | File | `/rom-0` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-16 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-17 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-18 | ... | ... | ...
+7 | File | `/goform/QuickIndex` | High
+8 | File | `/goform/setMacFilterCfg` | High
+9 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+10 | File | `/login.html` | Medium
+11 | File | `/medical/inventories.php` | High
+12 | File | `/pages.php` | Medium
+13 | File | `/pages/save_user.php` | High
+14 | File | `/patient/doctors.php` | High
+15 | File | `/rom-0` | Low
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+18 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+19 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+20 | File | `abm.aspx` | Medium
+21 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

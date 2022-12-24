@@ -61,17 +61,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/admin/index.php` | High
-3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-4 | File | `/auth` | Low
-5 | File | `/balance/service/list` | High
-6 | File | `/config/getuser` | High
-7 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-8 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/upload` | Low
+3 | File | `/api /v3/auth` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/auth` | Low
+6 | File | `/balance/service/list` | High
+7 | File | `/config/getuser` | High
+8 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+9 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+10 | File | `/uncpath/` | Medium
 11 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

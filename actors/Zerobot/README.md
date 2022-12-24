@@ -11,12 +11,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [176.65.137.5](https://vuldb.com/?ip.176.65.137.5) | - | - | High
+2 | [176.65.137.6](https://vuldb.com/?ip.176.65.137.6) | - | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.fortinet.com/blog/threat-research/zerobot-new-go-based-botnet-campaign-targets-multiple-vulnerabilities
+* https://www.microsoft.com/en-us/security/blog/2022/12/21/microsoft-research-uncovers-new-zerobot-capabilities/
 
 ## Literature
 

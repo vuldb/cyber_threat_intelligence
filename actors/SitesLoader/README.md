@@ -10,6 +10,12 @@ The following _campaigns_ are known and can be associated with SitesLoader:
 
 * Log4Shell
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SitesLoader:
+
+* [RU](https://vuldb.com/?country.ru)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of SitesLoader.
@@ -18,6 +24,16 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [185.250.148.157](https://vuldb.com/?ip.185.250.148.157) | free.pq.hosting | Log4Shell | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SitesLoader_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1574 | CWE-427 | Untrusted Search Path | High
+3 | T1608.002 | CWE-434 | Unrestricted Upload | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by SitesLoader. This data is unique as it uses our predictive model for actor profiling.
@@ -25,6 +41,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/files/` | Medium
+2 | Library | `gcapi.dll` | Medium
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -93,9 +93,10 @@ ID | IP address | Hostname | Actor | Confidence
 57 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 58 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 59 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-60 | ... | ... | ... | ...
+60 | [45.147.229.177](https://vuldb.com/?ip.45.147.229.177) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+61 | ... | ... | ... | ...
 
-There are 235 more IOC items available. Please use our online service to access the data.
+There are 238 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,14 +104,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,46 +121,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/edit_members.php` | High
-5 | File | `/admin/users/index.php` | High
-6 | File | `/api/sys_username_passwd.cmd` | High
-7 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-8 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+3 | File | `/admin.php?mod=admin&func=panel` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/edit_members.php` | High
+6 | File | `/Api/ASF` | Medium
+7 | File | `/api/sys_username_passwd.cmd` | High
+8 | File | `/api2/html/` | Medium
 9 | File | `/asms/admin/products/manage_product.php` | High
 10 | File | `/asms/products/view_product.php` | High
-11 | File | `/balance/service/list` | High
-12 | File | `/blog/comment` | High
-13 | File | `/bsms_ci/index.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/calendar/viewcalendar.php` | High
-16 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+11 | File | `/blog/comment` | High
+12 | File | `/bsms_ci/index.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/calendar/viewcalendar.php` | High
+15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+16 | File | `/cgi-bin/luci` | High
 17 | File | `/cgi-bin/wlogin.cgi` | High
 18 | File | `/clients/listclients.php` | High
-19 | File | `/CommunitySSORedirect.jsp` | High
+19 | File | `/cms/notify` | Medium
 20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/Default/Bd` | Medium
-22 | File | `/device/acceptBind` | High
-23 | File | `/diagnostic/editclient.php` | High
-24 | File | `/event/admin/?page=user/list` | High
-25 | File | `/face-recognition-php/facepay-master/camera.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/general/search.php?searchtype=simple` | High
-28 | File | `/goform/L7Im` | Medium
-29 | File | `/HNAP1` | Low
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/ims/login.php` | High
-34 | File | `/index.php/purchase_order/browse_data` | High
-35 | File | `/index.php?module=configuration/application` | High
-36 | File | `/index.php?module=entities/fields&entities_id=24` | High
-37 | File | `/index.php?module=entities/forms&entities_id=24` | High
-38 | File | `/index/user/user_edit.html` | High
-39 | File | `/Member/memberedit.html` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/Default/Bd` | Medium
+23 | File | `/device/acceptBind` | High
+24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+25 | File | `/event/admin/?page=user/list` | High
+26 | File | `/export` | Low
+27 | File | `/face-recognition-php/facepay-master/camera.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/FreshRSS/p/ext.php` | High
+30 | File | `/general/search.php?searchtype=simple` | High
+31 | File | `/goform/addUserName` | High
+32 | File | `/goform/CertListInfo` | High
+33 | File | `/goform/editUserName` | High
+34 | File | `/goform/L7Im` | Medium
+35 | File | `/goform/SafeUrlFilter` | High
+36 | File | `/h/calendar` | Medium
+37 | File | `/hrm/controller/employee.php` | High
+38 | File | `/hrm/employeeadd.php` | High
+39 | File | `/hrm/employeeview.php` | High
 40 | ... | ... | ...
 
-There are 343 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -208,6 +209,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-30%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-01%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-15%20Hancitor%20IOCs
+* https://isc.sans.edu/diary/Google+ads+lead+to+fake+software+pages+pushing+IcedID+Bokbot/29344
 * https://isc.sans.edu/diary/IcedID+%28Bokbot%29+with+Dark+VNC+and+Cobalt+Strike/28884
 * https://isc.sans.edu/diary/Monster+Libra+%28TA551Shathak%29+--%3E+IcedID+%28Bokbot%29+--%3E+Cobalt+Strike+%26+DarkVNC/28974
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/

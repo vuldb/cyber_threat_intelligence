@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 34 more country items available. Please use our online service to access the data.
+There are 35 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,29 +111,30 @@ ID | Type | Indicator | Confidence
 27 | File | `/dashboard/updatelogo.php` | High
 28 | File | `/designer/add/layout` | High
 29 | File | `/dev/dri/card1` | High
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/export` | Low
-32 | File | `/filemanager/upload/drop` | High
-33 | File | `/h/calendar` | Medium
-34 | File | `/h/compose` | Medium
-35 | File | `/h/search?action=voicemail&action=listen` | High
-36 | File | `/iissamples` | Medium
-37 | File | `/index.php` | Medium
-38 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/login` | Low
-41 | File | `/loginVaLidation.php` | High
-42 | File | `/manage-apartment.php` | High
-43 | File | `/manager/index.php` | High
-44 | File | `/mkshop/Men/profile.php` | High
-45 | File | `/Noxen-master/users.php` | High
-46 | File | `/opac/Actions.php?a=login` | High
-47 | File | `/osm/REGISTER.cmd` | High
-48 | File | `/pages/animals.php` | High
-49 | File | `/php-sms/classes/Master.php` | High
-50 | ... | ... | ...
+30 | File | `/etc/ldap.conf` | High
+31 | File | `/etc/sudoers` | Medium
+32 | File | `/export` | Low
+33 | File | `/filemanager/upload/drop` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/h/compose` | Medium
+36 | File | `/h/search?action=voicemail&action=listen` | High
+37 | File | `/iissamples` | Medium
+38 | File | `/index.php` | Medium
+39 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/login` | Low
+42 | File | `/loginVaLidation.php` | High
+43 | File | `/manage-apartment.php` | High
+44 | File | `/manager/index.php` | High
+45 | File | `/mkshop/Men/profile.php` | High
+46 | File | `/Noxen-master/users.php` | High
+47 | File | `/opac/Actions.php?a=login` | High
+48 | File | `/osm/REGISTER.cmd` | High
+49 | File | `/pages/animals.php` | High
+50 | File | `/php-sms/classes/Master.php` | High
+51 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

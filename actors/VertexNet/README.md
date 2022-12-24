@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VertexNet:
 
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -31,12 +32,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,46 +45,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.imwheelrc` | Medium
-2 | File | `.jpilot` | Low
-3 | File | `.plan` | Low
-4 | File | `.tin` | Low
-5 | File | `/configs/application.ini` | High
-6 | File | `/downloads/` | Medium
-7 | File | `/goform/dir_setWanWifi` | High
-8 | File | `/proc` | Low
-9 | File | `/root/.keeper/` | High
-10 | File | `/usr/bin/sonia` | High
-11 | File | `3dsimp.cpp` | Medium
-12 | File | `Active Browser Profile` | High
-13 | File | `admin.asp` | Medium
-14 | File | `admin.php` | Medium
-15 | File | `admin/stat.ratings.php` | High
-16 | File | `aim/icq` | Low
-17 | File | `ajax.php` | Medium
-18 | File | `akocomment.php` | High
-19 | File | `album.php` | Medium
-20 | File | `allmanageup.pl` | High
-21 | File | `api/device/time` | High
-22 | File | `archive_read_support_format_lha.c` | High
-23 | File | `ardeaCore/lib/core/ardeaInit.php` | High
-24 | File | `arm/lithium-codegen-arm.cc` | High
-25 | File | `asm.js` | Low
-26 | File | `assetmanager.asp` | High
-27 | File | `bar.phtml` | Medium
-28 | File | `bb-hostsvc.sh` | High
-29 | File | `bible.php` | Medium
-30 | File | `bin/named/query.c` | High
-31 | File | `blocks.php` | Medium
-32 | File | `blog.cgi` | Medium
-33 | File | `Calc` | Low
-34 | File | `calender.pl` | Medium
-35 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-36 | File | `cgiforum.pl` | Medium
-37 | File | `channels/chan_skinny.c` | High
-38 | ... | ... | ...
+1 | File | `.plan` | Low
+2 | File | `.tin` | Low
+3 | File | `/configs/application.ini` | High
+4 | File | `/search-result/` | High
+5 | File | `/usr/bin/sonia` | High
+6 | File | `3dsimp.cpp` | Medium
+7 | File | `123flashchat.php` | High
+8 | File | `abook_database.php` | High
+9 | File | `admin.asp` | Medium
+10 | File | `admin.php` | Medium
+11 | File | `admin/stat.ratings.php` | High
+12 | File | `akocomment.php` | High
+13 | File | `album.php` | Medium
+14 | File | `allmanageup.pl` | High
+15 | File | `archive_read_support_format_lha.c` | High
+16 | File | `ardeaCore/lib/core/ardeaInit.php` | High
+17 | File | `asm.js` | Low
+18 | File | `bar.phtml` | Medium
+19 | File | `bible.php` | Medium
+20 | File | `bin/named/query.c` | High
+21 | File | `blocks.php` | Medium
+22 | File | `blog.cgi` | Medium
+23 | File | `c2c_service.exe` | High
+24 | File | `cadastro_usuario.php` | High
+25 | File | `Calc` | Low
+26 | File | `calender.pl` | Medium
+27 | File | `categoria.php` | High
+28 | File | `category_list.php` | High
+29 | File | `cgiforum.pl` | Medium
+30 | File | `classes/class.model.php` | High
+31 | File | `classifieds.cgi` | High
+32 | File | `collectivite.class.php` | High
+33 | File | `command.c` | Medium
+34 | File | `command/user.cgi` | High
+35 | File | `ContentRender.class.php` | High
+36 | File | `conversations.c` | High
+37 | File | `core/includes/gfw_smarty.php` | High
+38 | File | `cpi_playlist.c` | High
+39 | File | `definitions/parser.py` | High
+40 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

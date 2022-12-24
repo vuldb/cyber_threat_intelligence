@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ursu:
 
 * [CN](https://vuldb.com/?country.cn)
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,9 +25,10 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [14.0.63.141](https://vuldb.com/?ip.14.0.63.141) | - | - | High
 3 | [14.11.5.18](https://vuldb.com/?ip.14.11.5.18) | M014011005018.v4.enabler.ne.jp | - | High
 4 | [15.11.35.18](https://vuldb.com/?ip.15.11.35.18) | - | - | High
-5 | ... | ... | ... | ...
+5 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
+6 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,7 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,20 +51,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$SPLUNK_HOME/etc/splunk-launch.conf` | High
 2 | File | `/config/getuser` | High
-3 | File | `example_form.ajax.php/example_form.php` | High
+3 | File | `/start_apply.htm` | High
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2018/06/threat-roundup-0622-0629.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0219-0226.html
 * https://blog.talosintelligence.com/2021/03/threat-roundup-0319-0326.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0409-0416.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1203-1210.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
+* https://blog.talosintelligence.com/2022/06/threat-roundup-0610-0617.html
 
 ## Literature
 

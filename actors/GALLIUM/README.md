@@ -86,9 +86,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/owa/auth/logon.aspx` | High
 9 | File | `/service/upload` | High
 10 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-11 | ... | ... | ...
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

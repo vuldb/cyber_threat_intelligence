@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -98,27 +98,27 @@ ID | Type | Indicator | Confidence
 17 | File | `/connectors/index.php` | High
 18 | File | `/debug/pprof` | Medium
 19 | File | `/dms/admin/reports/daily_collection_report.php` | High
-20 | File | `/filemanager/php/connector.php` | High
-21 | File | `/forum/away.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/hrm/employeeadd.php` | High
 22 | File | `/include/chart_generator.php` | High
 23 | File | `/index.php` | Medium
 24 | File | `/info.cgi` | Medium
 25 | File | `/Items/*/RemoteImages/Download` | High
 26 | File | `/items/view_item.php` | High
 27 | File | `/lists/admin/` | High
-28 | File | `/MagickCore/image.c` | High
-29 | File | `/manager/index.php` | High
-30 | File | `/medical/inventories.php` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/modules/projects/vw_files.php` | High
-34 | File | `/modules/public/calendar.php` | High
-35 | File | `/modx/manager/index.php` | High
+28 | File | `/lookin/info` | Medium
+29 | File | `/MagickCore/image.c` | High
+30 | File | `/manager/index.php` | High
+31 | File | `/medical/inventories.php` | High
+32 | File | `/mgmt/tm/util/bash` | High
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/modules/projects/vw_files.php` | High
+35 | File | `/modules/public/calendar.php` | High
 36 | File | `/newsDia.php` | Medium
 37 | File | `/out.php` | Medium
 38 | File | `/public/launchNewWindow.jsp` | High
-39 | File | `/sacco_shield/manage_user.php` | High
-40 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/sacco_shield/manage_user.php` | High
 41 | File | `/spip.php` | Medium
 42 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
 43 | File | `/staff/bookdetails.php` | High
@@ -137,13 +137,9 @@ ID | Type | Indicator | Confidence
 56 | File | `addtocart.asp` | High
 57 | File | `admin.php` | Medium
 58 | File | `admin.php?m=Food&a=addsave` | High
-59 | File | `admin/conf_users_edit.php` | High
-60 | File | `admin/index.php` | High
-61 | File | `admin/limits.php` | High
-62 | File | `admincp.php` | Medium
-63 | ... | ... | ...
+59 | ... | ... | ...
 
-There are 553 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

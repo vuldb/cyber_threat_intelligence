@@ -59,34 +59,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/.env` | Low
 3 | File | `/Admin/login.php` | High
 4 | File | `/api/upload` | Medium
-5 | File | `/domain/add` | Medium
-6 | File | `/donor-wall` | Medium
-7 | File | `/ebics-server/ebics.aspx` | High
-8 | File | `/esbus/servlet/GetSQLData` | High
-9 | File | `/film-rating.php` | High
-10 | File | `/goform/formLogin` | High
-11 | File | `/HNAP1` | Low
-12 | File | `/horde/util/go.php` | High
-13 | File | `/ishttpd/localweb/java/` | High
-14 | File | `/KK_LS9ReportingPortal/GetData` | High
-15 | File | `/mcategory.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/p` | Low
-18 | File | `/pages/processlogin.php` | High
-19 | File | `/product/savenewproduct.php?flag=1` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/uucp` | High
-22 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-23 | File | `/web/google_analytics.php` | High
-24 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
-25 | File | `/whbs/admin/?page=user` | High
-26 | File | `/_readmail` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin.php3` | Medium
-29 | File | `admin/index.php?c=database` | High
-30 | ... | ... | ...
+5 | File | `/cms/category/list` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/Default/Bd` | Medium
+8 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+9 | File | `/domain/add` | Medium
+10 | File | `/donor-wall` | Medium
+11 | File | `/ebics-server/ebics.aspx` | High
+12 | File | `/esbus/servlet/GetSQLData` | High
+13 | File | `/film-rating.php` | High
+14 | File | `/goform/formLogin` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/horde/util/go.php` | High
+17 | File | `/ishttpd/localweb/java/` | High
+18 | File | `/KK_LS9ReportingPortal/GetData` | High
+19 | File | `/mcategory.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/p` | Low
+22 | File | `/pages/processlogin.php` | High
+23 | File | `/product/savenewproduct.php?flag=1` | High
+24 | File | `/services/Card/findUser` | High
+25 | File | `/template/edit` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/bin/uucp` | High
+28 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+29 | File | `/v1/tokens` | Medium
+30 | File | `/web/google_analytics.php` | High
+31 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
+32 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

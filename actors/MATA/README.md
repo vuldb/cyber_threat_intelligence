@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,19 +49,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/out.php` | Medium
-4 | File | `/phppath/php` | Medium
-5 | File | `/spip.php` | Medium
-6 | File | `/systemrw/` | Medium
-7 | File | `adclick.php` | Medium
-8 | File | `application/modules/admin/views/ecommerce/products.php` | High
-9 | File | `base/ErrorHandler.php` | High
-10 | File | `blog.php` | Medium
-11 | File | `category.php` | Medium
+2 | File | `/api/v2/cli/commands` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/out.php` | Medium
+5 | File | `/phppath/php` | Medium
+6 | File | `/spip.php` | Medium
+7 | File | `/systemrw/` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `application/modules/admin/views/ecommerce/products.php` | High
+10 | File | `base/ErrorHandler.php` | High
+11 | File | `blog.php` | Medium
 12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

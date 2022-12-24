@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -94,7 +94,7 @@ ID | IP address | Hostname | Campaign | Confidence
 65 | [46.165.220.148](https://vuldb.com/?ip.46.165.220.148) | - | - | High
 66 | ... | ... | ... | ...
 
-There are 258 more IOC items available. Please use our online service to access the data.
+There are 259 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -120,28 +120,30 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/imageslider/file.php` | High
 3 | File | `/admin/sign/out` | High
 4 | File | `/cgi-bin/luci` | High
-5 | File | `/cgi-bin/viewcert` | High
-6 | File | `/config/getuser` | High
-7 | File | `/core/vb/vurl.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/etc/ldap.conf` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/goform/telnet` | High
-13 | File | `/goform/WanParameterSetting` | High
-14 | File | `/importTool/preview` | High
-15 | File | `/include/makecvs.php` | High
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/mods/_core/courses/users/create_course.php` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/phppath/php` | Medium
-20 | File | `/plugins/Dashboard/Controller.php` | High
-21 | File | `/server-status` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `adclick.php` | Medium
-24 | ... | ... | ...
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/cgi-bin/viewcert` | High
+7 | File | `/config/getuser` | High
+8 | File | `/core/vb/vurl.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/etc/gsissh/sshd_config` | High
+11 | File | `/etc/ldap.conf` | High
+12 | File | `/getcfg.php` | Medium
+13 | File | `/goform/telnet` | High
+14 | File | `/goform/WanParameterSetting` | High
+15 | File | `/importTool/preview` | High
+16 | File | `/include/makecvs.php` | High
+17 | File | `/js/app.js` | Medium
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/mods/_core/courses/users/create_course.php` | High
+20 | File | `/monitoring` | Medium
+21 | File | `/phppath/php` | Medium
+22 | File | `/plugins/Dashboard/Controller.php` | High
+23 | File | `/server-status` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `adclick.php` | Medium
+26 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -167,6 +169,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0729-0805.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
+* https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_ramnit.ipset
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/
 * https://research.checkpoint.com/2018/ramnits-network-proxy-servers/

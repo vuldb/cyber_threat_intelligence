@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 31 | File | `buffer.c` | Medium
 32 | File | `c:\aux` | Low
 33 | File | `C:\Wamp64` | Medium
-34 | ... | ... | ...
+34 | File | `cgi-bin/` | Medium
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

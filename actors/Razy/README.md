@@ -145,10 +145,9 @@ ID | Type | Indicator | Confidence
 26 | File | `admin/pageUploadCSV.php` | High
 27 | File | `ajax_udf.php` | Medium
 28 | File | `AppCompatCache.exe` | High
-29 | File | `application.js.php` | High
-30 | ... | ... | ...
+29 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

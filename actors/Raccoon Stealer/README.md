@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,13 +77,13 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/communitymanagement.php` | High
 9 | File | `/admin/folderrollpicture/list` | High
 10 | File | `/admin/settings/save.php` | High
-11 | File | `/api/plugin/upload` | High
-12 | File | `/api/RecordingList/DownloadRecord?file=` | High
-13 | File | `/api/upload-resource` | High
-14 | File | `/bcms/admin/?page=service_transactions/view_details` | High
-15 | File | `/bcms/admin/?page=user/manage_user` | High
-16 | File | `/bd_genie_create_account.cgi` | High
-17 | File | `/College_Management_System/admin/display-teacher.php` | High
+11 | File | `/api/index.php` | High
+12 | File | `/api/plugin/upload` | High
+13 | File | `/api/RecordingList/DownloadRecord?file=` | High
+14 | File | `/api/upload-resource` | High
+15 | File | `/bcms/admin/?page=service_transactions/view_details` | High
+16 | File | `/bcms/admin/?page=user/manage_user` | High
+17 | File | `/bd_genie_create_account.cgi` | High
 18 | File | `/conf/users` | Medium
 19 | File | `/course/api/upload/pic` | High
 20 | File | `/csms/classes/Master.php?f=delete_booking` | High
@@ -92,23 +92,23 @@ ID | Type | Indicator | Confidence
 23 | File | `/diagnostic/editcategory.php` | High
 24 | File | `/etc/passwd` | Medium
 25 | File | `/gaia-job-admin/user/add` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/SetFirewallCfg` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/goform/WriteFacMac` | High
-30 | File | `/gpac/src/bifs/unquantize.c` | High
-31 | File | `/h/search?action` | High
-32 | File | `/h/search?action=voicemail&action=listen` | High
-33 | File | `/HNAP1` | Low
-34 | File | `/htdocs/upnpinc/gena.php` | High
-35 | File | `/index.asp` | Medium
-36 | File | `/index.php?module=entities/fields&entities_id=24` | High
-37 | File | `/Items/*/RemoteImages/Download` | High
-38 | File | `/jfinal_cms/system/role/list` | High
-39 | File | `/login.php` | Medium
+26 | File | `/goform/addUserName` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/SetFirewallCfg` | High
+29 | File | `/goform/SysToolReboot` | High
+30 | File | `/goform/SysToolRestoreSet` | High
+31 | File | `/goform/WifiExtraSet` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/gpac/src/bifs/unquantize.c` | High
+34 | File | `/h/search?action` | High
+35 | File | `/h/search?action=voicemail&action=listen` | High
+36 | File | `/HNAP1` | Low
+37 | File | `/hss/admin/categories/view_category.php` | High
+38 | File | `/htdocs/upnpinc/gena.php` | High
+39 | File | `/index.asp` | Medium
 40 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

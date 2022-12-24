@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
-* [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,43 +60,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/edit_members.php` | High
-3 | File | `/admin/pages/sections_save.php` | High
-4 | File | `/admin/transactions/update_status.php` | High
-5 | File | `/admin/users/index.php` | High
-6 | File | `/apiv1/` | Low
-7 | File | `/asms/admin/products/manage_product.php` | High
-8 | File | `/asms/products/view_product.php` | High
-9 | File | `/back/index.php/user/User/?1` | High
-10 | File | `/blog/comment` | High
-11 | File | `/bsms_ci/index.php` | High
-12 | File | `/bsms_ci/index.php/user/edit_user/` | High
-13 | File | `/calendar/viewcalendar.php` | High
-14 | File | `/clients/listclients.php` | High
-15 | File | `/contacts/listcontacts.php` | High
-16 | File | `/Default/Bd` | Medium
-17 | File | `/device/` | Medium
-18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-19 | File | `/event/admin/?page=user/list` | High
-20 | File | `/forums/editforum.php` | High
-21 | File | `/garage/php_action/createBrand.php` | High
-22 | File | `/general/search.php?searchtype=simple` | High
-23 | File | `/goform/AddSysLogRule` | High
-24 | File | `/goform/AdvSetWrlsafeset` | High
-25 | File | `/goform/editUserName` | High
-26 | File | `/goform/IPSECsave` | High
-27 | File | `/goform/L7Im` | Medium
-28 | File | `/goform/SafeEmailFilter` | High
-29 | File | `/goform/setDiagnoseInfo` | High
-30 | File | `/goform/SetIpMacBind` | High
-31 | File | `/goform/setSnmpInfo` | High
-32 | File | `/goform/setSysPwd` | High
-33 | File | `/goform/setUplinkInfo` | High
-34 | File | `/goform/SysToolReboot` | High
-35 | ... | ... | ...
+1 | File | `/adminui/error_details.php` | High
+2 | File | `/Api/ASF` | Medium
+3 | File | `/balance/service/list` | High
+4 | File | `/bsms_ci/index.php/user/edit_user/` | High
+5 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/common/ajax_email_connection_test.php` | High
+8 | File | `/common/download_agent_installer.php` | High
+9 | File | `/common/download_attachment.php` | High
+10 | File | `/common/run_cross_report.php` | High
+11 | File | `/goform/CertListInfo` | High
+12 | File | `/goform/dir_setWanWifi` | High
+13 | File | `/goform/IPSECsave` | High
+14 | File | `/opt/tms/bin/cli` | High
+15 | File | `/proc/self/environ` | High
+16 | File | `/product/savenewproduct.php?flag=1` | High
+17 | File | `/ui/cbpc/login` | High
+18 | File | `/usr/local/vesta/bin` | High
+19 | File | `/v1/sql-runner` | High
+20 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

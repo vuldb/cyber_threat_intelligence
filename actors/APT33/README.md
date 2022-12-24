@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with APT33:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
-* [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [PL](https://vuldb.com/?country.pl)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,14 +54,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,36 +76,44 @@ ID | Type | Indicator | Confidence
 4 | File | `/action/ipcamRecordPost` | High
 5 | File | `/action/wirelessConnect` | High
 6 | File | `/admin.php/Admin/adminadd.html` | High
-7 | File | `/admin/admin.php` | High
-8 | File | `/admin/conferences/list/` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/api/audits` | Medium
-11 | File | `/api/geojson` | Medium
-12 | File | `/asms/classes/Master.php?f=delete_img` | High
-13 | File | `/bin/sh` | Low
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/calendar/viewcalendar.php` | High
-16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/classes/Master.php?f=delete_img` | High
-18 | File | `/classes/Users.php?f=delete_client` | High
+7 | File | `/admin/api/theme-edit/` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/api/audits` | Medium
+10 | File | `/api/geojson` | Medium
+11 | File | `/asms/classes/Master.php?f=delete_img` | High
+12 | File | `/bin/sh` | Low
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/calendar/viewcalendar.php` | High
+15 | File | `/classes/Master.php?f=delete_appointment` | High
+16 | File | `/classes/Users.php?f=delete_client` | High
+17 | File | `/clients/profile` | High
+18 | File | `/cms/notify` | Medium
 19 | File | `/depotHead/list` | High
 20 | File | `/device/signin` | High
 21 | File | `/diag_ping_admin.asp` | High
-22 | File | `/ext/phar/phar_object.c` | High
-23 | File | `/FormLogin` | Medium
-24 | File | `/garage/editorder.php` | High
-25 | File | `/goform/form2WizardStep54` | High
-26 | File | `/goform/setSysPwd` | High
-27 | File | `/goform/SysToolReboot` | High
-28 | File | `/goform/SysToolRestoreSet` | High
-29 | File | `/goform/wifiSSIDset` | High
-30 | File | `/gpac/src/bifs/unquantize.c` | High
-31 | File | `/hrm/controller/login.php` | High
-32 | File | `/hrm/employeeadd.php` | High
-33 | File | `/hrm/index.php?msg` | High
-34 | ... | ... | ...
+22 | File | `/env` | Low
+23 | File | `/ext/phar/phar_object.c` | High
+24 | File | `/goform/form2WizardStep54` | High
+25 | File | `/goform/setSysPwd` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/SysToolRestoreSet` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/gpac/src/bifs/unquantize.c` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hss/?page=product_per_brand` | High
+32 | File | `/hss/admin/?page=client/manage_client` | High
+33 | File | `/hss/admin/?page=user/manage_user` | High
+34 | File | `/index.php?module=configuration/application` | High
+35 | File | `/index.php?module=entities/forms&entities_id=24` | High
+36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+37 | File | `/index/user/user_edit.html` | High
+38 | File | `/list-gitolite` | High
+39 | File | `/login` | Low
+40 | File | `/login.php` | Medium
+41 | File | `/network_test.php` | High
+42 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

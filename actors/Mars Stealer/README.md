@@ -46,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,20 +69,21 @@ ID | Type | Indicator | Confidence
 10 | File | `/dashboard/updatelogo.php` | High
 11 | File | `/Default/Bd` | Medium
 12 | File | `/event/admin/?page=user/list` | High
-13 | File | `/filemanager/upload/drop` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/hrm/employeeadd.php` | High
-17 | File | `/hrm/employeeview.php` | High
-18 | File | `/htdocs/cgibin` | High
-19 | File | `/lists/index.php` | High
-20 | File | `/login.php` | Medium
-21 | File | `/netflow/jspui/editProfile.jsp` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-24 | ... | ... | ...
+13 | File | `/face-recognition-php/facepay-master/camera.php` | High
+14 | File | `/filemanager/upload/drop` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/RouteStatic` | High
+18 | File | `/hrm/employeeadd.php` | High
+19 | File | `/hrm/employeeview.php` | High
+20 | File | `/htdocs/cgibin` | High
+21 | File | `/lists/index.php` | High
+22 | File | `/login.php` | Medium
+23 | File | `/netflow/jspui/editProfile.jsp` | High
+24 | File | `/uncpath/` | Medium
+25 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [LU](https://vuldb.com/?country.lu)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,13 +45,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,21 +62,21 @@ ID | Type | Indicator | Confidence
 1 | File | `.imwheelrc` | Medium
 2 | File | `.plan` | Low
 3 | File | `.tin` | Low
-4 | File | `/aux` | Low
-5 | File | `/cgi-bin/editBookmark` | High
-6 | File | `/configs/application.ini` | High
-7 | File | `/goform/setPicListItem` | High
-8 | File | `/root/.keeper/` | High
-9 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-10 | File | `/spacecom/login.php` | High
-11 | File | `/ucenter/active.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/xampp/guestbook-en.pl` | High
-14 | File | `/zm/index.php` | High
-15 | File | `123flashchat.php` | High
-16 | File | `abook_database.php` | High
-17 | File | `action.php` | Medium
-18 | File | `admin.php` | Medium
+4 | File | `/cgi-bin/editBookmark` | High
+5 | File | `/configs/application.ini` | High
+6 | File | `/goform/setPicListItem` | High
+7 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
+8 | File | `/services/Card/findUser` | High
+9 | File | `/spacecom/login.php` | High
+10 | File | `/ucenter/active.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/xampp/guestbook-en.pl` | High
+13 | File | `/zm/index.php` | High
+14 | File | `123flashchat.php` | High
+15 | File | `abook_database.php` | High
+16 | File | `action.php` | Medium
+17 | File | `admin.php` | Medium
+18 | File | `admin/admin_process.php` | High
 19 | File | `admin/profile_settings_net.html` | High
 20 | File | `admin/vqmods.app/vqmods.inc.php` | High
 21 | File | `af.cgi/alienform.cgi` | High
@@ -95,14 +95,14 @@ ID | Type | Indicator | Confidence
 34 | File | `browse.php` | Medium
 35 | File | `carsdetail.asp` | High
 36 | File | `cartman.php` | Medium
-37 | File | `cdf.c` | Low
-38 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-39 | File | `chetcpasswd.cgi` | High
-40 | File | `classifieds.cgi` | High
-41 | File | `cmd.php` | Low
+37 | File | `categories.php` | High
+38 | File | `cdf.c` | Low
+39 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
+40 | File | `chetcpasswd.cgi` | High
+41 | File | `classifieds.cgi` | High
 42 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

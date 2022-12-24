@@ -14,10 +14,12 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [13.107.22.200](https://vuldb.com/?ip.13.107.22.200) | - | - | High
 3 | [23.3.13.33](https://vuldb.com/?ip.23.3.13.33) | a23-3-13-33.deploy.static.akamaitechnologies.com | - | High
 4 | [23.3.13.40](https://vuldb.com/?ip.23.3.13.40) | a23-3-13-40.deploy.static.akamaitechnologies.com | - | High
-5 | [65.55.252.93](https://vuldb.com/?ip.65.55.252.93) | - | - | High
-6 | ... | ... | ... | ...
+5 | [23.89.5.60](https://vuldb.com/?ip.23.89.5.60) | mtx77mcs683.webex.com | - | High
+6 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
+7 | [52.182.143.212](https://vuldb.com/?ip.52.182.143.212) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -25,6 +27,8 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0122.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-for-july-9-to-july-16.html
+* https://blog.talosintelligence.com/2022/05/threat-roundup-0506-0513.html
+* https://blog.talosintelligence.com/threat-roundup-1111-1118/
 
 ## Literature
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,13 +56,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,39 +72,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/ad_js.php` | Medium
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bsms/?page=manage_account` | High
-8 | File | `/card_scan.php` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/cwc/login` | Medium
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/etc/hosts` | Medium
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/goform/setmac` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/h/calendar` | Medium
-24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/manage-apartment.php` | High
-28 | File | `/mgmt/tm/util/bash` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/nova/bin/console` | High
-31 | File | `/nova/bin/detnet` | High
-32 | File | `/out.php` | Medium
-33 | ... | ... | ...
+3 | File | `/admin/submit-articles` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/Ap4RtpAtom.cpp` | High
+6 | File | `/app/options.py` | High
+7 | File | `/attachments` | Medium
+8 | File | `/bcms/admin/?page=user/list` | High
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/card_scan.php` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/ci_hms/massage_room/edit/1` | High
+15 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/cwc/login` | Medium
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/hosts` | Medium
+21 | File | `/etc/quagga` | Medium
+22 | File | `/fuel/sitevariables/delete/4` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/goform/wizard_end` | High
+25 | File | `/h/calendar` | Medium
+26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+27 | File | `/index/jobfairol/show/` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/manage-apartment.php` | High
+30 | File | `/mgmt/tm/util/bash` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

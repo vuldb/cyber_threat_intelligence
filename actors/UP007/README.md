@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UP007:
 
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * [KR](https://vuldb.com/?country.kr)
 
 ## IOC - Indicator of Compromise
@@ -23,6 +24,15 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | ... | ... | ... | ...
 
 There are 3 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _UP007_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1202 | CWE-78 | Command Injection | High
 
 ## IOA - Indicator of Attack
 

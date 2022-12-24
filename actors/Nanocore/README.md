@@ -29,17 +29,24 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [8.8.8.8](https://vuldb.com/?ip.8.8.8.8) | dns.google | - | High
 2 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
-3 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
-4 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
-5 | [74.139.80.187](https://vuldb.com/?ip.74.139.80.187) | cpe-74-139-80-187.kya.res.rr.com | - | High
-6 | [79.134.225.101](https://vuldb.com/?ip.79.134.225.101) | - | - | High
-7 | [79.172.242.25](https://vuldb.com/?ip.79.172.242.25) | hosted.realcapitol.com | - | High
-8 | [87.120.37.96](https://vuldb.com/?ip.87.120.37.96) | - | - | High
-9 | [95.140.125.64](https://vuldb.com/?ip.95.140.125.64) | free-125-64.mediaworksit.net | - | High
-10 | [95.140.125.73](https://vuldb.com/?ip.95.140.125.73) | free-125-73.mediaworksit.net | - | High
-11 | ... | ... | ... | ...
+3 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
+4 | [23.230.152.134](https://vuldb.com/?ip.23.230.152.134) | - | - | High
+5 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
+6 | [31.31.196.51](https://vuldb.com/?ip.31.31.196.51) | server222.hosting.reg.ru | - | High
+7 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+8 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
+9 | [38.6.77.91](https://vuldb.com/?ip.38.6.77.91) | - | - | High
+10 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+11 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | High
+12 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
+13 | [54.91.59.199](https://vuldb.com/?ip.54.91.59.199) | ec2-54-91-59-199.compute-1.amazonaws.com | - | Medium
+14 | [64.190.63.111](https://vuldb.com/?ip.64.190.63.111) | - | - | High
+15 | [66.96.160.130](https://vuldb.com/?ip.66.96.160.130) | 130.160.96.66.static.eigbox.net | - | High
+16 | [74.139.80.187](https://vuldb.com/?ip.74.139.80.187) | cpe-74-139-80-187.kya.res.rr.com | - | High
+17 | [75.2.26.18](https://vuldb.com/?ip.75.2.26.18) | a6b5b419953ac02a6.awsglobalaccelerator.com | - | High
+18 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,32 +68,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/kerbynet` | High
-2 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-3 | File | `/domain/add` | Medium
-4 | File | `/etc/sudoers` | Medium
-5 | File | `/forum/away.php` | High
-6 | File | `/index.php/weblinks-categories` | High
+1 | File | `/cgi/ansi` | Medium
+2 | File | `/etc/password` | High
+3 | File | `/etc/sudoers` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/iissamples` | Medium
+6 | File | `/php/` | Low
 7 | File | `/php_action/createUser.php` | High
-8 | File | `/plain` | Low
+8 | File | `/Pwrchute` | Medium
 9 | File | `/secure/admin/RestoreDefaults.jspa` | High
 10 | File | `/services/details.asp` | High
-11 | File | `/show_group_members.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/web/google_analytics.php` | High
-14 | File | `/webapps/blogs-journals/execute/editBlogEntry` | High
-15 | File | `adclick.php` | Medium
-16 | File | `addentry.php` | Medium
-17 | File | `additem.asp` | Medium
-18 | File | `admin/password_forgotten.php` | High
-19 | File | `agent/Core/Controller/SendRequest.cpp` | High
-20 | File | `archive_endian.h` | High
-21 | File | `bmp.c` | Low
-22 | File | `browser.php` | Medium
-23 | File | `browser/liferay/browser.html?Type` | High
-24 | ... | ... | ...
+11 | File | `/uncpath/` | Medium
+12 | File | `/var/yp` | Low
+13 | File | `/webapps/blogs-journals/execute/editBlogEntry` | High
+14 | File | `/_vti_pvt/access.cnf` | High
+15 | File | `14all.cgi` | Medium
+16 | File | `500error.jsp` | Medium
+17 | File | `ab.c` | Low
+18 | File | `account_update.php` | High
+19 | File | `adclick.php` | Medium
+20 | File | `add.php` | Low
+21 | File | `addentry.php` | Medium
+22 | File | `additem.asp` | Medium
+23 | File | `addressbook.php/options.php/search.php/help.php` | High
+24 | File | `admin/password_forgotten.php` | High
+25 | File | `admin_ug_auth.php` | High
+26 | File | `advserver.exe` | High
+27 | File | `aolsecurityprivate.class` | High
+28 | File | `astrocam.cgi` | Medium
+29 | File | `as_web.exe/as_web4.exe` | High
+30 | File | `auction.cgi` | Medium
+31 | File | `books.php` | Medium
+32 | File | `browser.php` | Medium
+33 | File | `browser/liferay/browser.html?Type` | High
+34 | File | `bttv-driver.c` | High
+35 | File | `bugzilla_email_append.pl` | High
+36 | File | `bug_update_advanced_page.php/bug_update_page.php/view_bug_advanced_page.php/view_bug_page.php` | High
+37 | File | `calendar.php` | Medium
+38 | File | `cat.php` | Low
+39 | File | `catalog.asp` | Medium
+40 | File | `cgi-bin` | Low
+41 | File | `cgicso.c` | Medium
+42 | File | `charities.cron` | High
+43 | File | `check_me.mod.php` | High
+44 | File | `cio_main.c` | Medium
+45 | File | `clients/resources/ajax/ajax_new_admin.php` | High
+46 | File | `cloud.php` | Medium
+47 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,6 +130,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0812-0819.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
+* https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
+* https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
+* https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-12%20Remcos%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-15%20Nanocore%20IOCs
 * https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/

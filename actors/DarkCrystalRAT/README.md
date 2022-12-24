@@ -22,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.7.58.82](https://vuldb.com/?ip.31.7.58.82) | no-rdns.offshorededicated.net | - | High
-2 | [103.27.202.127](https://vuldb.com/?ip.103.27.202.127) | 103-27-202-127.static.bangmod-idc.com | - | High
-3 | [203.96.191.70](https://vuldb.com/?ip.203.96.191.70) | - | - | High
+2 | [95.214.8.52](https://vuldb.com/?ip.95.214.8.52) | - | - | High
+3 | [103.27.202.127](https://vuldb.com/?ip.103.27.202.127) | 103-27-202-127.static.bangmod-idc.com | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,14 +58,16 @@ ID | Type | Indicator | Confidence
 8 | File | `admin/index.php` | High
 9 | File | `admin/tools/dolibarr_export.php` | High
 10 | File | `adv_remotelog.asp` | High
-11 | ... | ... | ...
+11 | File | `api.php` | Low
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/47/dcrat-dark-crystal-rat-ioc/
 * https://cert.gov.ua/article/405538
 
 ## Literature

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ZHtrap:
 
-* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
+* [LU](https://vuldb.com/?country.lu)
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,19 +49,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/exponent_constants.php` | High
-2 | File | `/group/apply` | Medium
-3 | File | `/image_zoom.php` | High
-4 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-5 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-6 | File | `/master/core/PostHandler.php` | High
-7 | File | `/preferences/tags` | High
-8 | File | `/royal_event/companyprofile.php` | High
-9 | File | `account/login.php` | High
-10 | File | `admin.php/admin/admin/del/ids/<id>.html` | High
-11 | ... | ... | ...
+1 | File | `/admin/addemployee.php` | High
+2 | File | `/admin/foldernotice/list` | High
+3 | File | `/admin/weixin.php` | High
+4 | File | `/Ap4RtpAtom.cpp` | High
+5 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+6 | File | `/bcms/admin/?page=user/manage_user` | High
+7 | File | `/College/admin/teacher.php` | High
+8 | File | `/etc/ciel.cfg` | High
+9 | File | `/exponent_constants.php` | High
+10 | File | `/goform/addRouting` | High
+11 | File | `/group/apply` | Medium
+12 | File | `/image_zoom.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+15 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+16 | File | `/master/core/PostHandler.php` | High
+17 | File | `/mdiy/dict/list` | High
+18 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+19 | File | `/ofrs/admin/?page=requests/manage_request` | High
+20 | File | `/package_detail.php` | High
+21 | File | `/php_action/createUser.php` | High
+22 | File | `/preferences/tags` | High
+23 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

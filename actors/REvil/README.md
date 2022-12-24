@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,20 +70,21 @@ ID | Type | Indicator | Confidence
 7 | File | `/etc/shadow` | Medium
 8 | File | `/forum/away.php` | High
 9 | File | `/goform/SetNetControlList` | High
-10 | File | `/index.php/weblinks-categories` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/movie.php` | Medium
-13 | File | `/public/login.htm` | High
-14 | File | `/service/v1/createUser` | High
-15 | File | `/show_news.php` | High
-16 | File | `/system?action=ServiceAdmin` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-19 | File | `adclick.php` | Medium
-20 | File | `admin.asp` | Medium
-21 | ... | ... | ...
+10 | File | `/hrm/controller/employee.php` | High
+11 | File | `/index.php/weblinks-categories` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/movie.php` | Medium
+14 | File | `/public/login.htm` | High
+15 | File | `/service/v1/createUser` | High
+16 | File | `/show_news.php` | High
+17 | File | `/system?action=ServiceAdmin` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+20 | File | `adclick.php` | Medium
+21 | File | `admin.asp` | Medium
+22 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

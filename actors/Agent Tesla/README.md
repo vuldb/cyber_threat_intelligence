@@ -50,7 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -69,42 +70,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/forum/away.php` | High
 8 | File | `/goform/telnet` | High
 9 | File | `/include/chart_generator.php` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/public/launchNewWindow.jsp` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/rom-0` | Low
-14 | File | `/spip.php` | Medium
-15 | File | `/tmp/connlicj.bin` | High
-16 | File | `/tmp/phpglibccheck` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-19 | File | `/var/log/nginx` | High
-20 | File | `/var/tmp/sess_*` | High
-21 | File | `action.php` | Medium
-22 | File | `actionphp/download.File.php` | High
-23 | File | `add_comment.php` | High
-24 | File | `admin.a6mambocredits.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/admin.php` | High
-27 | File | `admin/content.php` | High
-28 | File | `admin/import/class-import-settings.php` | High
-29 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-30 | File | `admin/sitesettings.php` | High
-31 | File | `admin_gallery.php3` | High
-32 | File | `affich.php` | Medium
-33 | File | `agent/Core/Controller/SendRequest.cpp` | High
-34 | File | `akeyActivationLogin.do` | High
-35 | File | `album_portal.php` | High
-36 | File | `apache-auth.conf` | High
-37 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-38 | File | `Asc.exe` | Low
-39 | File | `askapache-firefox-adsense.php` | High
-40 | File | `assets/add/category.php` | High
-41 | File | `attachment.cgi` | High
-42 | File | `blueprints/sections/edit/1` | High
-43 | ... | ... | ...
+10 | File | `/lilac/main.php` | High
+11 | File | `/module/admin_bp/add_application.php` | High
+12 | File | `/module/report_event/index.php` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/public/launchNewWindow.jsp` | High
+15 | File | `/public/login.htm` | High
+16 | File | `/rom-0` | Low
+17 | File | `/spip.php` | Medium
+18 | File | `/tmp/connlicj.bin` | High
+19 | File | `/tmp/phpglibccheck` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+22 | File | `/var/log/nginx` | High
+23 | File | `/var/tmp/sess_*` | High
+24 | File | `/youthappam/add-food.php` | High
+25 | File | `/youthappam/editclient.php` | High
+26 | File | `action.php` | Medium
+27 | File | `actionphp/download.File.php` | High
+28 | File | `add_comment.php` | High
+29 | File | `admin.a6mambocredits.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/admin.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/import/class-import-settings.php` | High
+34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+35 | File | `admin/sitesettings.php` | High
+36 | File | `admin_gallery.php3` | High
+37 | File | `affich.php` | Medium
+38 | File | `agent/Core/Controller/SendRequest.cpp` | High
+39 | File | `akeyActivationLogin.do` | High
+40 | File | `album_portal.php` | High
+41 | File | `apache-auth.conf` | High
+42 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+43 | File | `Asc.exe` | Low
+44 | File | `askapache-firefox-adsense.php` | High
+45 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

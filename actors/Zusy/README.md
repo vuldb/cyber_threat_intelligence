@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -114,11 +114,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -128,41 +129,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin/` | Low
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/image/list` | High
-6 | File | `/admin/operations/packages.php` | High
-7 | File | `/admin/photo.php` | High
-8 | File | `/admin/renewaldue.php` | High
-9 | File | `/admin/submit-articles` | High
-10 | File | `/admin/transactions/update_status.php` | High
-11 | File | `/ad_js.php` | Medium
-12 | File | `/Ap4RtpAtom.cpp` | High
-13 | File | `/app/options.py` | High
-14 | File | `/bsms/?page=manage_account` | High
-15 | File | `/catcompany.php` | High
-16 | File | `/cgi-bin/login.cgi` | High
-17 | File | `/cgi-bin/luci/api/wireless` | High
-18 | File | `/ci_hms/massage_room/edit/1` | High
-19 | File | `/context/%2e/WEB-INF/web.xml` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/Default/Bd` | Medium
-24 | File | `/ebics-server/ebics.aspx` | High
-25 | File | `/egroupware/index.php` | High
-26 | File | `/etc/hosts` | Medium
-27 | File | `/forum/away.php` | High
-28 | File | `/forums/editforum.php` | High
-29 | File | `/fuel/sitevariables/delete/4` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-33 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/` | Low
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/image/list` | High
+5 | File | `/admin/operations/packages.php` | High
+6 | File | `/admin/photo.php` | High
+7 | File | `/admin/renewaldue.php` | High
+8 | File | `/admin/submit-articles` | High
+9 | File | `/admin/transactions/update_status.php` | High
+10 | File | `/ad_js.php` | Medium
+11 | File | `/app/options.py` | High
+12 | File | `/attachments` | Medium
+13 | File | `/catcompany.php` | High
+14 | File | `/cgi-bin/login.cgi` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/cms/category/list` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/Default/Bd` | Medium
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/egroupware/index.php` | High
+25 | File | `/etc/hosts` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/forums/editforum.php` | High
+28 | File | `/goform/CertListInfo` | High
+29 | File | `/goform/setmac` | High
+30 | File | `/goform/wizard_end` | High
+31 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/index.php` | Medium
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -40,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,23 +64,23 @@ ID | Type | Indicator | Confidence
 9 | File | `/horde/util/go.php` | High
 10 | File | `/mib.db` | Low
 11 | File | `/modules/profile/index.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/system/site.php` | High
-14 | File | `adb/adb_client.c` | High
-15 | File | `adclick.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `adelogs.adobe.com` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/google_search_console/class-gsc-table.php` | High
-20 | File | `administrator/components/com_media/helpers/media.php` | High
-21 | File | `android/webkit/SearchBoxImpl.java` | High
-22 | File | `app-layer-ssh.c` | High
-23 | File | `arch_init.c` | Medium
-24 | File | `authenticate.c` | High
-25 | File | `BKCLogSvr.exe` | High
+12 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+13 | File | `/out.php` | Medium
+14 | File | `/system/site.php` | High
+15 | File | `adb/adb_client.c` | High
+16 | File | `adclick.php` | Medium
+17 | File | `add_comment.php` | High
+18 | File | `adelogs.adobe.com` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/google_search_console/class-gsc-table.php` | High
+21 | File | `administrator/components/com_media/helpers/media.php` | High
+22 | File | `android/webkit/SearchBoxImpl.java` | High
+23 | File | `app-layer-ssh.c` | High
+24 | File | `arch_init.c` | Medium
+25 | File | `authenticate.c` | High
 26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

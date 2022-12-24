@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 11 | File | `add_comment.php` | High
 12 | File | `admin.php` | Medium
 13 | File | `api/sms_check.php` | High
-14 | ... | ... | ...
+14 | File | `B1iXcellerator/exec/soap/vP.001sap0003.in_WCSX/com.sap.b1i.vplatform.runtime/INB_WS_CALL_SYNC_XPT/INB_WS_CALL_SYNC_XPT.ipo/proc` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

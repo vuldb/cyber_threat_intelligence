@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,59 +76,60 @@ ID | Type | Indicator | Confidence
 18 | File | `/DXR.axd` | Medium
 19 | File | `/etc/master.passwd` | High
 20 | File | `/etc/passwd` | Medium
-21 | File | `/goform/aspForm` | High
-22 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-23 | File | `/include/friends.inc.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/isomedia/box_funcs.c` | High
-26 | File | `/isomedia/meta.c` | High
-27 | File | `/members/view_member.php` | High
-28 | File | `/php_action/editProductImage.php` | High
-29 | File | `/plesk-site-preview/` | High
-30 | File | `/project/PROJECTNAME/reports/` | High
-31 | File | `/sacco_shield/manage_loan.php` | High
-32 | File | `/scene_manager/scene_dump.c` | High
-33 | File | `/school/model/get_admin_profile.php` | High
-34 | File | `/servlet/webacc` | High
-35 | File | `/shell` | Low
-36 | File | `/spip.php` | Medium
-37 | File | `/student-grading-system/rms.php?page=grade` | High
-38 | File | `/timeline2.php` | High
-39 | File | `/userui/ticket_list.php` | High
-40 | File | `/user_operations/profile.php` | High
-41 | File | `/usr/bin/pkexec` | High
-42 | File | `/wp-admin/options-general.php` | High
-43 | File | `/zm/index.php` | High
-44 | File | `/_next` | Low
-45 | File | `abook_database.php` | High
-46 | File | `accounts/inc/include.php` | High
-47 | File | `adaptive-images-script.php` | High
-48 | File | `additem.asp` | Medium
-49 | File | `adherents/subscription/info.php` | High
-50 | File | `admin.asp` | Medium
-51 | File | `admin.php` | Medium
-52 | File | `admin/admin.php` | High
-53 | File | `admin/admin_users.php` | High
-54 | File | `admin/article_save.php` | High
-55 | File | `admin/header.php` | High
-56 | File | `admin/index.php` | High
-57 | File | `admin/login.asp` | High
-58 | File | `admin/manage-comments.php` | High
-59 | File | `admin/manage-news.php` | High
-60 | File | `admin/plugin-settings.php` | High
-61 | File | `admin/theme-edit.php` | High
-62 | File | `adminer.php` | Medium
-63 | File | `administrator/components/com_media/helpers/media.php` | High
-64 | File | `administrator/index.php` | High
-65 | File | `admin_login.asp` | High
-66 | File | `ajax_calls.php` | High
-67 | File | `al_initialize.php` | High
-68 | File | `announcements.php` | High
-69 | File | `Ap4Dec3Atom.cpp` | High
-70 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-71 | ... | ... | ...
+21 | File | `/goform/AddSysLogRule` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+24 | File | `/include/friends.inc.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php?module=configuration/application` | High
+27 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+28 | File | `/isomedia/box_funcs.c` | High
+29 | File | `/isomedia/meta.c` | High
+30 | File | `/members/view_member.php` | High
+31 | File | `/php_action/editProductImage.php` | High
+32 | File | `/plesk-site-preview/` | High
+33 | File | `/project/PROJECTNAME/reports/` | High
+34 | File | `/sacco_shield/manage_loan.php` | High
+35 | File | `/scene_manager/scene_dump.c` | High
+36 | File | `/school/model/get_admin_profile.php` | High
+37 | File | `/services/view_service.php` | High
+38 | File | `/servlet/webacc` | High
+39 | File | `/shell` | Low
+40 | File | `/spip.php` | Medium
+41 | File | `/student-grading-system/rms.php?page=grade` | High
+42 | File | `/timeline2.php` | High
+43 | File | `/userui/ticket_list.php` | High
+44 | File | `/user_operations/profile.php` | High
+45 | File | `/usr/bin/pkexec` | High
+46 | File | `/wp-admin/options-general.php` | High
+47 | File | `/zm/index.php` | High
+48 | File | `/_next` | Low
+49 | File | `abook_database.php` | High
+50 | File | `accounts/inc/include.php` | High
+51 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+52 | File | `adaptive-images-script.php` | High
+53 | File | `additem.asp` | Medium
+54 | File | `adherents/subscription/info.php` | High
+55 | File | `admin.asp` | Medium
+56 | File | `admin.php` | Medium
+57 | File | `admin/admin_users.php` | High
+58 | File | `admin/article_save.php` | High
+59 | File | `admin/header.php` | High
+60 | File | `admin/index.php` | High
+61 | File | `admin/login.asp` | High
+62 | File | `admin/manage-comments.php` | High
+63 | File | `admin/manage-news.php` | High
+64 | File | `admin/plugin-settings.php` | High
+65 | File | `admin/theme-edit.php` | High
+66 | File | `adminer.php` | Medium
+67 | File | `administrator/components/com_media/helpers/media.php` | High
+68 | File | `administrator/index.php` | High
+69 | File | `admin_login.asp` | High
+70 | File | `ajax_calls.php` | High
+71 | File | `al_initialize.php` | High
+72 | ... | ... | ...
 
-There are 623 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 629 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

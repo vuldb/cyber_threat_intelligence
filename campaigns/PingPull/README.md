@@ -88,19 +88,20 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/wlogin.cgi` | High
 6 | File | `/cwc/login` | Medium
 7 | File | `/download` | Medium
-8 | File | `/etc/shadow` | Medium
-9 | File | `/h/calendar` | Medium
-10 | File | `/inc/extensions.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/Items/*/RemoteImages/Download` | High
-13 | File | `/members/view_member.php` | High
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/nova/bin/console` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/out.php` | Medium
-18 | ... | ... | ...
+8 | File | `/etc/quagga` | Medium
+9 | File | `/etc/shadow` | Medium
+10 | File | `/h/calendar` | Medium
+11 | File | `/inc/extensions.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/Items/*/RemoteImages/Download` | High
+14 | File | `/members/view_member.php` | High
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/out.php` | Medium
+19 | ... | ... | ...
 
-There are 143 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

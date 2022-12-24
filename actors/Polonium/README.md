@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Polonium:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Polonium:
 
 * [US](https://vuldb.com/?country.us)
-* [TR](https://vuldb.com/?country.tr)
 * [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 17 | File | `5.2.9\syscrb.exe` | High
 18 | File | `admin.cgi` | Medium
 19 | File | `admin/cal_login.php` | High
-20 | ... | ... | ...
+20 | File | `admin/category.inc.php` | High
+21 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

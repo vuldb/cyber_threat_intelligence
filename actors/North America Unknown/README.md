@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North America Unknown:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
+* [SH](https://vuldb.com/?country.sh)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -6522,14 +6522,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -6537,49 +6537,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.../gogo/` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/Admin/dashboard.php` | High
-5 | File | `/admin/fst_upload.inc.php` | High
-6 | File | `/admin/settings/save.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/confirm` | Medium
-13 | File | `/debug/pprof` | Medium
-14 | File | `/Default/Bd` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/event/admin/?page=user/list` | High
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/setDiagnoseInfo` | High
-20 | File | `/goform/setSnmpInfo` | High
-21 | File | `/goform/setSysAdm` | High
-22 | File | `/goform/setSysPwd` | High
-23 | File | `/goform/setUplinkInfo` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/includes/login.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?module=entities/fields&entities_id=24` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/out.php` | Medium
-33 | File | `/pages/processlogin.php` | High
-34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-35 | File | `/plugin/getList` | High
-36 | File | `/proxy` | Low
-37 | File | `/Redcock-Farm/farm/category.php` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/sys/duplicate/check` | High
-40 | File | `/template/edit` | High
-41 | ... | ... | ...
+1 | File | `/admin/fst_upload.inc.php` | High
+2 | File | `/alarm_pi/alarmService.php` | High
+3 | File | `/api/audits` | Medium
+4 | File | `/api/index.php` | High
+5 | File | `/attachments` | Medium
+6 | File | `/back/index.php/user/User/?1` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/calendar/viewcalendar.php` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/clients/listclients.php` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/contacts/listcontacts.php` | High
+14 | File | `/ctcprotocol/Protocol` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/dev/mem` | Medium
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/ldap.conf` | High
+21 | File | `/event/admin/?page=user/list` | High
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forums/editforum.php` | High
+25 | File | `/general/search.php?searchtype=simple` | High
+26 | File | `/goform/addUserName` | High
+27 | File | `/goform/delAd` | High
+28 | File | `/goform/setDiagnoseInfo` | High
+29 | File | `/goform/setSnmpInfo` | High
+30 | File | `/goform/setSysPwd` | High
+31 | File | `/goform/setUplinkInfo` | High
+32 | File | `/goform/SysToolReboot` | High
+33 | File | `/goform/SysToolRestoreSet` | High
+34 | File | `/goform/wifiSSIDset` | High
+35 | File | `/gpac/src/bifs/unquantize.c` | High
+36 | File | `/hrm/controller/employee.php` | High
+37 | File | `/hrm/employeeadd.php` | High
+38 | File | `/hrm/employeeview.php` | High
+39 | File | `/hss/admin/categories/view_category.php` | High
+40 | File | `/includes/login.php` | High
+41 | File | `/index.php?module=configuration/application` | High
+42 | File | `/index.php?module=entities/fields&entities_id=24` | High
+43 | File | `/linkedcontent/listfiles.php` | High
+44 | File | `/lookin/info` | Medium
+45 | File | `/meetings/listmeetings.php` | High
+46 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

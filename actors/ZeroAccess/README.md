@@ -93,14 +93,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,34 +109,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/Admin/dashboard.php` | High
-4 | File | `/api/audits` | Medium
-5 | File | `/api/user/password/sent-reset-email` | High
-6 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-7 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-8 | File | `/bsms_ci/index.php` | High
-9 | File | `/bsms_ci/index.php/book` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/diag_ping_admin.asp` | High
-15 | File | `/diag_tracert_admin.asp` | High
-16 | File | `/face-recognition-php/facepay-master/camera.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/gpac/src/bifs/unquantize.c` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/index/user/user_edit.html` | High
-21 | File | `/login` | Low
-22 | File | `/login.php` | Medium
-23 | File | `/Member/memberedit.html` | High
-24 | File | `/out.php` | Medium
-25 | File | `/pages/processlogin.php` | High
-26 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/api/audits` | Medium
+4 | File | `/bsms_ci/index.php` | High
+5 | File | `/bsms_ci/index.php/user/edit_user/` | High
+6 | File | `/cgi-bin/luci` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/Content/Template/root/reverse-shell.aspx` | High
+9 | File | `/env` | Low
+10 | File | `/export` | Low
+11 | File | `/face-recognition-php/facepay-master/camera.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/FreshRSS/p/ext.php` | High
+14 | File | `/goform/addressNat` | High
+15 | File | `/goform/CertListInfo` | High
+16 | File | `/goform/fast_setting_wifi_set` | High
+17 | File | `/goform/IPSECsave` | High
+18 | File | `/goform/L7Im` | Medium
+19 | File | `/goform/NatStaticSetting` | High
+20 | File | `/goform/qossetting` | High
+21 | File | `/goform/SafeClientFilter` | High
+22 | File | `/goform/SafeMacFilter` | High
+23 | File | `/goform/SafeUrlFilter` | High
+24 | File | `/goform/setMacFilterCfg` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/goform/SysToolRestoreSet` | High
+27 | File | `/goform/VirtualSer` | High
+28 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

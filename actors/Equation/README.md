@@ -14,8 +14,8 @@ The following _campaigns_ are known and can be associated with Equation:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Equation:
 
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
@@ -43,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,12 +56,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/exec/` | Low
-2 | File | `/mics/j_spring_security_check` | High
-3 | File | `/wlanAccess.asp` | High
+1 | File | `/data/wps.setup.json` | High
+2 | File | `/exec/` | Low
+3 | File | `/lists/index.php` | High
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

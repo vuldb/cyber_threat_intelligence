@@ -65,7 +65,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -77,34 +77,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
-2 | File | `/cgi-bin/login.cgi` | High
-3 | File | `/componetns/user/class.user.php` | High
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/export` | Low
+2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+3 | File | `/cgi-bin/login.cgi` | High
+4 | File | `/componetns/user/class.user.php` | High
+5 | File | `/etc/tomcat8/Catalina/attack` | High
 6 | File | `/FormLogin` | Medium
-7 | File | `/front/document.form.php` | High
-8 | File | `/goform/wizard_end` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/out.php` | Medium
-11 | File | `/plugin` | Low
-12 | File | `/rest/api/latest/projectvalidate/key` | High
-13 | File | `/rest/collectors/1.0/template/custom` | High
-14 | File | `/search.php` | Medium
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-17 | File | `/ServletAPI/accounts/login` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/user/login/oauth` | High
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-22 | File | `/var/log/messages` | High
-23 | File | `/var/www/core/controller/index.php` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/websocket/exec` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | ... | ... | ...
+7 | File | `/forum/away.php` | High
+8 | File | `/front/document.form.php` | High
+9 | File | `/goform/wizard_end` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/mhds/clinic/view_details.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/plugin` | Low
+14 | File | `/rest/api/latest/projectvalidate/key` | High
+15 | File | `/search.php` | Medium
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+18 | File | `/ServletAPI/accounts/login` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/user/login/oauth` | High
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+23 | File | `/var/log/messages` | High
+24 | File | `/var/www/core/controller/index.php` | High
+25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+26 | File | `/websocket/exec` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,9 +71,10 @@ ID | IP address | Hostname | Campaign | Confidence
 48 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | - | High
 49 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
 50 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
-51 | ... | ... | ... | ...
+51 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | - | High
+52 | ... | ... | ... | ...
 
-There are 201 more IOC items available. Please use our online service to access the data.
+There are 204 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,14 +82,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-40 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,48 +97,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/admin/edit_members.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/admin/users/index.php` | High
-6 | File | `/api/sys_username_passwd.cmd` | High
-7 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-8 | File | `/asms/admin/mechanics/view_mechanic.php` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin.php?mod=admin&func=panel` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/edit_members.php` | High
+6 | File | `/admin/users/index.php` | High
+7 | File | `/api/sys_username_passwd.cmd` | High
+8 | File | `/api2/html/` | Medium
 9 | File | `/asms/admin/products/manage_product.php` | High
 10 | File | `/asms/products/view_product.php` | High
-11 | File | `/balance/service/list` | High
+11 | File | `/blog/comment` | High
 12 | File | `/bsms_ci/index.php` | High
 13 | File | `/bsms_ci/index.php/user/edit_user/` | High
 14 | File | `/calendar/viewcalendar.php` | High
 15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/classes/Master.php?f=delete_appointment` | High
+16 | File | `/cgi-bin/luci` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
 18 | File | `/clients/listclients.php` | High
-19 | File | `/CommunitySSORedirect.jsp` | High
+19 | File | `/cms/notify` | Medium
 20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/Default/Bd` | Medium
-22 | File | `/device/acceptBind` | High
-23 | File | `/diagnostic/editclient.php` | High
-24 | File | `/event/admin/?page=user/list` | High
-25 | File | `/face-recognition-php/facepay-master/camera.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/general/search.php?searchtype=simple` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/hrm/controller/employee.php` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/ims/login.php` | High
-33 | File | `/index.php/purchase_order/browse_data` | High
-34 | File | `/index.php?module=configuration/application` | High
-35 | File | `/index.php?module=entities/fields&entities_id=24` | High
-36 | File | `/index.php?module=entities/forms&entities_id=24` | High
-37 | File | `/index/user/user_edit.html` | High
-38 | File | `/Member/memberedit.html` | High
-39 | File | `/okm:root` | Medium
-40 | ... | ... | ...
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/Default/Bd` | Medium
+23 | File | `/device/acceptBind` | High
+24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+25 | File | `/event/admin/?page=user/list` | High
+26 | File | `/export` | Low
+27 | File | `/face-recognition-php/facepay-master/camera.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/FreshRSS/p/ext.php` | High
+30 | File | `/general/search.php?searchtype=simple` | High
+31 | File | `/goform/addUserName` | High
+32 | File | `/goform/CertListInfo` | High
+33 | File | `/goform/editUserName` | High
+34 | File | `/goform/L7Im` | Medium
+35 | File | `/goform/SafeUrlFilter` | High
+36 | File | `/h/calendar` | Medium
+37 | File | `/hrm/controller/employee.php` | High
+38 | File | `/hrm/employeeadd.php` | High
+39 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -184,6 +184,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-30%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-01%20Hancitor%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-15%20Hancitor%20IOCs
+* https://isc.sans.edu/diary/Google+ads+lead+to+fake+software+pages+pushing+IcedID+Bokbot/29344
 * https://isc.sans.edu/forums/diary/April+2021+Forensic+Quiz+Answers+and+Analysis/27308/
 * https://isc.sans.edu/forums/diary/Attackers+Exploiting+WebLogic+Servers+via+CVE202014882+to+install+Cobalt+Strike/26752/
 * https://isc.sans.edu/forums/diary/Case+Study+Cobalt+Strike+Server+Lives+on+After+Its+Domain+Is+Suspended/28804/

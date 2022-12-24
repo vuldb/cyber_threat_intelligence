@@ -37,8 +37,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,11 +54,12 @@ ID | Type | Indicator | Confidence
 2 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
 3 | File | `/register.do` | Medium
 4 | File | `4.3.0.CP04` | Medium
-5 | File | `addentry.php` | Medium
-6 | File | `add_comment.php` | High
-7 | ... | ... | ...
+5 | File | `adclick.php` | Medium
+6 | File | `addentry.php` | Medium
+7 | File | `add_comment.php` | High
+8 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 54 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

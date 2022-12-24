@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -151,14 +151,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -166,39 +166,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/bsms_ci/index.php` | High
-7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-9 | File | `/cgi-bin/qcmap_auth` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/CommunitySSORedirect.jsp` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/diagnostic/editclient.php` | High
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/index.php?module=global_lists/lists` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/okm:root` | Medium
-23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-24 | File | `/out.php` | Medium
-25 | File | `/proxy` | Low
-26 | File | `/public_html/animals` | High
-27 | File | `/self.key` | Medium
-28 | File | `/spip.php` | Medium
-29 | File | `/sqfs/bin/sccd` | High
-30 | File | `/text/pdf/PdfReader.java` | High
-31 | File | `/uncpath/` | Medium
-32 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-33 | File | `/usr/bin/pkexec` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `/.env` | Low
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/assets` | Low
+8 | File | `/attachments` | Medium
+9 | File | `/bsms_ci/index.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+12 | File | `/cgi-bin/luci` | High
+13 | File | `/cgi-bin/qcmap_auth` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/CommunitySSORedirect.jsp` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/context/%2e/WEB-INF/web.xml` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/diagnostic/editclient.php` | High
+20 | File | `/etc/hosts` | Medium
+21 | File | `/export` | Low
+22 | File | `/filemanager/php/connector.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/hrm/controller/employee.php` | High
+25 | File | `/mkshope/login.php` | High
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/okm:root` | Medium
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/out.php` | Medium
+31 | File | `/proxy` | Low
+32 | File | `/public/launchNewWindow.jsp` | High
+33 | File | `/public_html/animals` | High
 34 | ... | ... | ...
 
 There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

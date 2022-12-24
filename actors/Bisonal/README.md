@@ -4,6 +4,13 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bisonal](https://vuldb.com/?actor.bisonal)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bisonal:
+
+* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Bisonal.
@@ -11,12 +18,37 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [116.193.155.38](https://vuldb.com/?ip.116.193.155.38) | - | - | High
-2 | [196.44.49.154](https://vuldb.com/?ip.196.44.49.154) | - | - | High
+2 | [137.220.176.165](https://vuldb.com/?ip.137.220.176.165) | - | - | High
+3 | [196.44.49.154](https://vuldb.com/?ip.196.44.49.154) | - | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bisonal_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Bisonal. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `restore.php` | Medium
+2 | Library | `system/libraries/Email.php` | High
+3 | Argument | `email->from` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/368/bisonal-malware-iocs/
 * https://www.threatminer.org/report.php?q=BisonalMalwareUsedinAttacksAgainstRussiaandSouthKorea-PaloAltoNetworksBlog.pdf&y=2018
 
 ## Literature

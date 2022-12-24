@@ -19,8 +19,8 @@ There are 1 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
-* [AR](https://vuldb.com/?country.ar)
 * [ES](https://vuldb.com/?country.es)
+* [AR](https://vuldb.com/?country.ar)
 * [DE](https://vuldb.com/?country.de)
 * ...
 
@@ -56,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,47 +71,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/loginc.php` | High
-3 | File | `/admin/pages/revisions.php` | High
-4 | File | `/apiv1/` | Low
-5 | File | `/back/index.php/user/User/?1` | High
-6 | File | `/blog/comment` | High
-7 | File | `/bsms_ci/index.php` | High
-8 | File | `/calendar/viewcalendar.php` | High
-9 | File | `/classes/Users.php?f=delete_client` | High
-10 | File | `/confirm` | Medium
-11 | File | `/face-recognition-php/facepay-master/camera.php` | High
-12 | File | `/forms/web_runScript` | High
-13 | File | `/garage/php_action/createBrand.php` | High
-14 | File | `/general/search.php?searchtype=simple` | High
-15 | File | `/goform/addUserName` | High
-16 | File | `/goform/IPSECsave` | High
-17 | File | `/goform/NatStaticSetting` | High
-18 | File | `/goform/P2pListFilter` | High
-19 | File | `/goform/SafeEmailFilter` | High
-20 | File | `/goform/SafeMacFilter` | High
-21 | File | `/goform/SafeUrlFilter` | High
-22 | File | `/goform/setSysPwd` | High
-23 | File | `/goform/setUplinkInfo` | High
-24 | File | `/goform/SysToolReboot` | High
-25 | File | `/goform/SysToolRestoreSet` | High
-26 | File | `/goform/VirtualSer` | High
-27 | File | `/goform/WifiBasicSet` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/gpac/src/bifs/unquantize.c` | High
-30 | File | `/hrm/controller/employee.php` | High
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/index.php?module=configuration/application` | High
-33 | File | `/index.php?module=entities/fields&entities_id=24` | High
-34 | File | `/index.php?module=entities/forms&entities_id=24` | High
-35 | File | `/index.php?module=entities/listing_types&entities_id=24` | High
-36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-37 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
-38 | File | `/linkedcontent/listfiles.php` | High
-39 | ... | ... | ...
+1 | File | `/api/user/password/sent-reset-email` | High
+2 | File | `/binbloom-master/src/helpers.c` | High
+3 | File | `/cgi-bin/logs.ha` | High
+4 | File | `/data/app` | Medium
+5 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+6 | File | `/FreshRSS/p/ext.php` | High
+7 | File | `/front/actions.php` | High
+8 | File | `/goform/fast_setting_wifi_set` | High
+9 | File | `/goform/setMacFilterCfg` | High
+10 | File | `/hss/?page=categories` | High
+11 | File | `/hss/?page=view_product` | High
+12 | File | `/hss/admin/?page=client/manage_client` | High
+13 | File | `/mods/_core/courses/users/create_course.php` | High
+14 | File | `/odlms//classes/Master.php?f=delete_activity` | High
+15 | File | `/panel/fields/add` | High
+16 | File | `/queuing/admin/ajax.php?action=save_settings` | High
+17 | File | `/SAFESEH` | Medium
+18 | File | `/services/getFile.cmd` | High
+19 | File | `/youthappam/editcategory.php` | High
+20 | File | `/youthappam/editfood.php` | High
+21 | File | `AccessibilityManager.java` | High
+22 | File | `AccountsDb.java` | High
+23 | File | `acme_certificate_edit.php` | High
+24 | File | `AddAppNetworksActivity.java` | High
+25 | File | `AddAppNetworksFragment.java` | High
+26 | File | `add_post.php` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/modules/system/app_user.php` | High
+29 | File | `ajax_represent.php` | High
+30 | File | `AlarmManagerService.java` | High
+31 | File | `app/View/Helper/CommandHelper.php` | High
+32 | File | `application\core\controller\config.php` | High
+33 | File | `AppOpsManager.java` | High
+34 | File | `AppWidgetServiceImpl.java` | High
+35 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

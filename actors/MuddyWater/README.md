@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,14 +59,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,49 +74,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/iperf` | High
-2 | File | `/action/wirelessConnect` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/Admin/dashboard.php` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/sign/out` | High
-8 | File | `/api/discoveries/` | High
-9 | File | `/api/v1/attack` | High
-10 | File | `/api/v1/attack/falco` | High
-11 | File | `/api/v1/attack/token` | High
-12 | File | `/api/v1/bait/set` | High
-13 | File | `/api/v2/open/rowsInfo` | High
-14 | File | `/api/v2/open/tablesInfo` | High
-15 | File | `/balance/service/list` | High
-16 | File | `/bin/proc.cgi` | High
-17 | File | `/bsms_ci/index.php` | High
-18 | File | `/bsms_ci/index.php/user/edit_user/` | High
-19 | File | `/buspassms/download-pass.php` | High
-20 | File | `/category.php` | High
-21 | File | `/changePassword` | High
-22 | File | `/confirm` | Medium
-23 | File | `/Core/Ap4File.cpp` | High
-24 | File | `/csms/admin/?page=user/manage_user` | High
-25 | File | `/Default/Bd` | Medium
-26 | File | `/depotHead/list` | High
-27 | File | `/ebics-server/ebics.aspx` | High
-28 | File | `/event/admin/?page=user/list` | High
-29 | File | `/face-recognition-php/facepay-master/camera.php` | High
-30 | File | `/goform/form2WizardStep4` | High
-31 | File | `/goform/formSetClientState` | High
-32 | File | `/goform/fromSetIpMacBind` | High
-33 | File | `/goform/setSysAdm` | High
-34 | File | `/gpac/src/bifs/unquantize.c` | High
-35 | File | `/h/compose` | Medium
+1 | File | `/admin/admin.php` | High
+2 | File | `/Admin/dashboard.php` | High
+3 | File | `/admin/sign/out` | High
+4 | File | `/api/audits` | Medium
+5 | File | `/api/discoveries/` | High
+6 | File | `/api/v1/attack/falco` | High
+7 | File | `/api/v1/attack/token` | High
+8 | File | `/api/v2/open/rowsInfo` | High
+9 | File | `/api/v2/open/tablesInfo` | High
+10 | File | `/back/index.php/user/User/?1` | High
+11 | File | `/balance/service/list` | High
+12 | File | `/bsms_ci/index.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/calendar/viewcalendar.php` | High
+15 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+16 | File | `/clients/listclients.php` | High
+17 | File | `/cms/category/list` | High
+18 | File | `/confirm` | Medium
+19 | File | `/contacts/listcontacts.php` | High
+20 | File | `/Default/Bd` | Medium
+21 | File | `/depotHead/list` | High
+22 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+23 | File | `/event/admin/?page=user/list` | High
+24 | File | `/face-recognition-php/facepay-master/camera.php` | High
+25 | File | `/forums/editforum.php` | High
+26 | File | `/general/search.php?searchtype=simple` | High
+27 | File | `/goform/fast_setting_wifi_set` | High
+28 | File | `/goform/setDiagnoseInfo` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | File | `/goform/setSnmpInfo` | High
+31 | File | `/goform/setSysAdm` | High
+32 | File | `/goform/setSysPwd` | High
+33 | File | `/goform/setUplinkInfo` | High
+34 | File | `/goform/SysToolRestoreSet` | High
+35 | File | `/gpac/src/bifs/unquantize.c` | High
 36 | File | `/hrm/controller/employee.php` | High
 37 | File | `/hrm/employeeadd.php` | High
 38 | File | `/hrm/employeeview.php` | High
-39 | File | `/index.asp` | Medium
-40 | File | `/index.php/purchase_order/browse_data` | High
-41 | ... | ... | ...
+39 | File | `/index.php/purchase_order/browse_data` | High
+40 | File | `/index.php?module=configuration/application` | High
+41 | File | `/index.php?module=entities/fields&entities_id=24` | High
+42 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

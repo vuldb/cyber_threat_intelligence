@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,40 +57,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/bd_genie_create_account.cgi` | High
-3 | File | `/c/macho_reader.c` | High
-4 | File | `/cgi-bin/luci/api/auth` | High
-5 | File | `/cgi-bin/luci/api/diagnose` | High
-6 | File | `/claire_blake` | High
-7 | File | `/CMD_ACCOUNT_ADMIN` | High
-8 | File | `/core/admin/categories.php` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/defaultui/player/modern.html` | High
-11 | File | `/etc/config/image_sign` | High
-12 | File | `/etc/groups` | Medium
-13 | File | `/etc/init0.d/S80telnetd.sh` | High
-14 | File | `/etc/shadow.sample` | High
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/ghost/preview` | High
-18 | File | `/goform/SetIpMacBind` | High
-19 | File | `/htdocs/utils/Files.php` | High
-20 | File | `/jfinal_cms/system/role/list` | High
-21 | File | `/librarian/edit_book_details.php` | High
-22 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-23 | File | `/master/index.php` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/mkshop/Men/profile.php` | High
-26 | File | `/MTFWU` | Low
-27 | File | `/pages/faculty_sched.php` | High
-28 | File | `/pages/processlogin.php` | High
-29 | File | `/php/passport/index.php` | High
-30 | File | `/php_action/createUser.php` | High
-31 | File | `/public/plugins/` | High
-32 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/users_add.php` | High
+3 | File | `/administration/settings_registration.php` | High
+4 | File | `/appConfig/userDB.json` | High
+5 | File | `/authUserAction!edit.action` | High
+6 | File | `/bd_genie_create_account.cgi` | High
+7 | File | `/c/macho_reader.c` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/luci/api/diagnose` | High
+10 | File | `/claire_blake` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/defaultui/player/modern.html` | High
+13 | File | `/etc/config/image_sign` | High
+14 | File | `/etc/groups` | Medium
+15 | File | `/etc/init0.d/S80telnetd.sh` | High
+16 | File | `/etc/shadow.sample` | High
+17 | File | `/foms/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/goform/L7Im` | Medium
+21 | File | `/goform/SetIpMacBind` | High
+22 | File | `/htdocs/utils/Files.php` | High
+23 | File | `/jfinal_cms/system/role/list` | High
+24 | File | `/librarian/edit_book_details.php` | High
+25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
+26 | File | `/master/index.php` | High
+27 | File | `/mgmt/tm/util/bash` | High
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/MTFWU` | Low
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/pages/faculty_sched.php` | High
+32 | File | `/pages/processlogin.php` | High
+33 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 278 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

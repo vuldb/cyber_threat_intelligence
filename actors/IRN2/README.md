@@ -21,6 +21,15 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [35.35.35.35](https://vuldb.com/?ip.35.35.35.35) | - | - | High
 2 | [173.254.236.148](https://vuldb.com/?ip.173.254.236.148) | serv3.technoecart.bid | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _IRN2_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1562.006 | CWE-184 | Incomplete Blacklist | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by IRN2. This data is unique as it uses our predictive model for actor profiling.

@@ -71,7 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,23 +84,23 @@ ID | Type | Indicator | Confidence
 3 | File | `/files.md5` | Medium
 4 | File | `/forum/away.php` | High
 5 | File | `/horde/util/go.php` | High
-6 | File | `/images/` | Medium
-7 | File | `/inc/parser/xhtml.php` | High
-8 | File | `/login` | Low
-9 | File | `/modules/profile/index.php` | High
-10 | File | `/one_church/userregister.php` | High
-11 | File | `/out.php` | Medium
-12 | File | `/public/plugins/` | High
-13 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-14 | File | `/SASWebReportStudio/logonAndRender.do` | High
-15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-16 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-17 | File | `/system/proxy` | High
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `/v2/quantum/save-data-upload-big-file` | High
-20 | File | `4.edu.php` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `add.php` | Low
+6 | File | `/hrm/employeeview.php` | High
+7 | File | `/images/` | Medium
+8 | File | `/inc/parser/xhtml.php` | High
+9 | File | `/login` | Low
+10 | File | `/modules/profile/index.php` | High
+11 | File | `/one_church/userregister.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/public/plugins/` | High
+14 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+15 | File | `/SASWebReportStudio/logonAndRender.do` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+18 | File | `/system/proxy` | High
+19 | File | `/tmp/phpglibccheck` | High
+20 | File | `/v2/quantum/save-data-upload-big-file` | High
+21 | File | `4.edu.php` | Medium
+22 | File | `adclick.php` | Medium
 23 | File | `addentry.php` | Medium
 24 | File | `addressbookprovider.php` | High
 25 | File | `admin.jcomments.php` | High
@@ -108,10 +108,9 @@ ID | Type | Indicator | Confidence
 27 | File | `ajax_udf.php` | Medium
 28 | File | `AppCompatCache.exe` | High
 29 | File | `application.js.php` | High
-30 | File | `arm/lithium-codegen-arm.cc` | High
-31 | ... | ... | ...
+30 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

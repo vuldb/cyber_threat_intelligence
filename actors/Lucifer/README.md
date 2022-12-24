@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lucifer](https://vuldb.com/?actor.lucifer)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lucifer:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Lucifer.
@@ -16,6 +22,22 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lucifer_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1592 | CWE-200 | Configuration | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lucifer. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `Task.java` | Medium
 
 ## References
 

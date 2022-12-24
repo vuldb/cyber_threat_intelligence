@@ -51,6 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1600 | CWE-326 | J2EE Misconfiguration: Data Transmission Without Encryption | High
 
 ## IOA - Indicator of Attack
 
@@ -59,11 +60,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/pages/processlogin.php` | High
-2 | Library | `tandberg/web/lib/secure.php` | High
-3 | Argument | `tandberg_login=` | High
+2 | File | `formContactGroup.php` | High
+3 | Library | `tandberg/web/lib/secure.php` | High
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

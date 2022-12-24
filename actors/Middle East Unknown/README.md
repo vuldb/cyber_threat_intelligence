@@ -9,7 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Middle East Unknown:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
+* [AR](https://vuldb.com/?country.ar)
 * [PT](https://vuldb.com/?country.pt)
 * ...
 
@@ -54,10 +54,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,39 +67,41 @@ ID | Type | Indicator | Confidence
 1 | File | `/action/factory` | High
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/adfs/ls` | Medium
-4 | File | `/admin/?page=reports/waste` | High
-5 | File | `/admin/?page=user/manage_user` | High
-6 | File | `/admin/add-fee.php` | High
-7 | File | `/admin/baojia_list.php` | High
-8 | File | `/admin/folderrollpicture/list` | High
-9 | File | `/admin/users_add.php` | High
-10 | File | `/anony/mjpg.cgi` | High
-11 | File | `/api/common/ping` | High
-12 | File | `/api/v2/open/rowsInfo` | High
-13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-14 | File | `/appointments/update_status.php` | High
-15 | File | `/authUserAction!edit.action` | High
-16 | File | `/bin/boa` | Medium
-17 | File | `/bookings/update_status.php` | High
-18 | File | `/cgi-bin/DownloadFlash` | High
-19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/contacts/listcontacts.php` | High
-21 | File | `/Core/Ap4File.cpp` | High
-22 | File | `/dede/file_manage_control.php` | High
-23 | File | `/depotHead/list` | High
-24 | File | `/etc/ciel.cfg` | High
-25 | File | `/etc/openshift/server_priv.pem` | High
-26 | File | `/etc/shadow.sample` | High
-27 | File | `/foms/place-order.php` | High
-28 | File | `/forms/web_runScript` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/garage/php_action/createBrand.php` | High
-31 | File | `/general/search.php?searchtype=simple` | High
-32 | File | `/goform/AddSysLogRule` | High
-33 | File | `/goform/formSetFirewallCfg` | High
-34 | ... | ... | ...
+4 | File | `/admin.php` | Medium
+5 | File | `/admin/add-fee.php` | High
+6 | File | `/admin/baojia_list.php` | High
+7 | File | `/admin/loginc.php` | High
+8 | File | `/api/common/ping` | High
+9 | File | `/api/v2/open/rowsInfo` | High
+10 | File | `/appointments/update_status.php` | High
+11 | File | `/authUserAction!edit.action` | High
+12 | File | `/binbloom-master/src/helpers.c` | High
+13 | File | `/bookings/update_status.php` | High
+14 | File | `/classes/Users.php?f=delete_client` | High
+15 | File | `/contacts/listcontacts.php` | High
+16 | File | `/Core/Ap4File.cpp` | High
+17 | File | `/dede/file_manage_control.php` | High
+18 | File | `/depotHead/list` | High
+19 | File | `/dev/bus` | Medium
+20 | File | `/etc/openshift/server_priv.pem` | High
+21 | File | `/etc/os-release` | High
+22 | File | `/etc/pki/pulp/nodes/` | High
+23 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+24 | File | `/foms/place-order.php` | High
+25 | File | `/forms/web_runScript` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/fs/nfsd/nfs4proc.c` | High
+28 | File | `/garage/php_action/createBrand.php` | High
+29 | File | `/general/search.php?searchtype=simple` | High
+30 | File | `/goform/AddSysLogRule` | High
+31 | File | `/goform/AdvSetWrlsafeset` | High
+32 | File | `/goform/L7Im` | Medium
+33 | File | `/goform/qossetting` | High
+34 | File | `/goform/setAutoPing` | High
+35 | File | `/goform/setMacFilterCfg` | High
+36 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

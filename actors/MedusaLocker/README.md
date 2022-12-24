@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MedusaLocker:
 
-* [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
+* [SV](https://vuldb.com/?country.sv)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,44 +51,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/Admin/createClass.php` | High
-5 | File | `/admin/fst_upload.inc.php` | High
-6 | File | `/admin/pages/sections_save.php` | High
-7 | File | `/admin/problem_judge.php` | High
-8 | File | `/admin/transactions/update_status.php` | High
-9 | File | `/admin/users/index.php` | High
-10 | File | `/api/v1/nics/wifi/wlan0/ping` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/apiv1/` | Low
-13 | File | `/asms/admin/?page=transactions/manage_transaction` | High
-14 | File | `/asms/admin/?page=user/manage_user` | High
-15 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-16 | File | `/asms/admin/products/manage_product.php` | High
-17 | File | `/asms/products/view_product.php` | High
-18 | File | `/attachments` | Medium
-19 | File | `/avms/index.php` | High
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/bsms_ci/index.php/user/edit_user/` | High
-22 | File | `/calendar/viewcalendar.php` | High
-23 | File | `/dede/file_manage_control.php` | High
-24 | File | `/device/` | Medium
-25 | File | `/event/admin/?page=user/list` | High
-26 | File | `/forums/editforum.php` | High
-27 | File | `/garage/php_action/createBrand.php` | High
-28 | File | `/goform/AddSysLogRule` | High
-29 | File | `/goform/setDiagnoseInfo` | High
-30 | File | `/goform/SetIpMacBind` | High
-31 | File | `/goform/setUplinkInfo` | High
-32 | File | `/hrm/controller/employee.php` | High
-33 | File | `/hrm/employeeadd.php` | High
-34 | File | `/ims/login.php` | High
-35 | File | `/index.php/admins/Fields/get_fields.html` | High
-36 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
+2 | File | `.forward` | Medium
+3 | File | `/&quot` | Low
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/api/common/ping` | High
+6 | File | `/auth/register` | High
+7 | File | `/binbloom-master/src/helpers.c` | High
+8 | File | `/dev/kmem` | Medium
+9 | File | `/dev/tty` | Medium
+10 | File | `/etc/passwd` | Medium
+11 | File | `/etc/shadow` | Medium
+12 | File | `/face-recognition-php/facepay-master/camera.php` | High
+13 | File | `/goform/setSysAdm` | High
+14 | File | `/hrm/controller/employee.php` | High
+15 | File | `/hss/?page=product_per_brand` | High
+16 | File | `/hss/?page=view_product` | High
+17 | File | `/hss/admin/?page=products/view_product` | High
+18 | File | `/hss/admin/categories/manage_category.php` | High
+19 | File | `/hss/admin/categories/view_category.php` | High
+20 | File | `/lab.html` | Medium
+21 | File | `/menu.html` | Medium
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/templates/default/html/windows/right.php` | High
+24 | File | `/Upload/admin/admin_notify.php` | High
+25 | File | `/uploadServlet` | High
+26 | File | `/usr/sbin/httpd` | High
+27 | File | `/usr/ucb/mail` | High
+28 | File | `/vendor` | Low
+29 | File | `/workspaceCleanup` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `4.edu.php` | Medium
+32 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -94,35 +94,34 @@ ID | Type | Indicator | Confidence
 21 | File | `/HNAP1` | Low
 22 | File | `/include/makecvs.php` | High
 23 | File | `/includes/common.inc.php` | High
-24 | File | `/knomi/analyze` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/monitoring` | Medium
-27 | File | `/opt/pia/ruby/64/ruby` | High
-28 | File | `/out.php` | Medium
-29 | File | `/Pwrchute` | Medium
-30 | File | `/reports/rwservlet` | High
-31 | File | `/scripts/iisadmin/bdir.htr` | High
-32 | File | `/setSystemAdmin` | High
-33 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
-34 | File | `/tmp` | Low
-35 | File | `/tmp/csman/0` | Medium
-36 | File | `/ui/cbpc/login` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-39 | File | `/var/hnap/timestamp` | High
-40 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-41 | File | `/webmail/` | Medium
-42 | File | `/wordpress/wp-admin/admin.php` | High
-43 | File | `/wp-content/plugins/forum-server/feed.php` | High
-44 | File | `/{ADMIN-FILE}/` | High
-45 | File | `a2billing/customer/iridium_threed.php` | High
-46 | File | `address.html` | Medium
-47 | File | `adm/systools.asp` | High
-48 | File | `admin/admin_login.php` | High
-49 | File | `admin/dashboard.php` | High
-50 | ... | ... | ...
+24 | File | `/js/app.js` | Medium
+25 | File | `/knomi/analyze` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/monitoring` | Medium
+28 | File | `/opt/pia/ruby/64/ruby` | High
+29 | File | `/out.php` | Medium
+30 | File | `/Pwrchute` | Medium
+31 | File | `/reports/rwservlet` | High
+32 | File | `/scripts/iisadmin/bdir.htr` | High
+33 | File | `/setSystemAdmin` | High
+34 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
+35 | File | `/tmp` | Low
+36 | File | `/tmp/csman/0` | Medium
+37 | File | `/ui/cbpc/login` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+40 | File | `/var/hnap/timestamp` | High
+41 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+42 | File | `/webmail/` | Medium
+43 | File | `/wordpress/wp-admin/admin.php` | High
+44 | File | `/wp-content/plugins/forum-server/feed.php` | High
+45 | File | `/{ADMIN-FILE}/` | High
+46 | File | `a2billing/customer/iridium_threed.php` | High
+47 | File | `address.html` | Medium
+48 | File | `adm/systools.asp` | High
+49 | ... | ... | ...
 
-There are 434 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

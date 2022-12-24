@@ -30,22 +30,23 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [31.24.228.170](https://vuldb.com/?ip.31.24.228.170) | 31.24.228.170.static.midphase.com | - | High
 5 | [31.184.199.11](https://vuldb.com/?ip.31.184.199.11) | dalesmanager.com | - | High
 6 | [37.120.222.100](https://vuldb.com/?ip.37.120.222.100) | - | - | High
-7 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | - | High
-8 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | - | High
-9 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | - | High
-10 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | - | High
-11 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | - | High
-12 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | - | High
-13 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | - | High
-14 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | - | High
-15 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | - | High
-16 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
-17 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
-18 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
-19 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
-20 | ... | ... | ... | ...
+7 | [37.252.11.221](https://vuldb.com/?ip.37.252.11.221) | - | - | High
+8 | [45.129.99.241](https://vuldb.com/?ip.45.129.99.241) | 354851-vds-mamozw.gmhost.pp.ua | - | High
+9 | [45.138.172.179](https://vuldb.com/?ip.45.138.172.179) | - | - | High
+10 | [45.147.228.198](https://vuldb.com/?ip.45.147.228.198) | - | - | High
+11 | [45.147.230.82](https://vuldb.com/?ip.45.147.230.82) | - | - | High
+12 | [45.147.230.88](https://vuldb.com/?ip.45.147.230.88) | mailnode7.bulletproof-mail.biz | - | High
+13 | [45.147.231.113](https://vuldb.com/?ip.45.147.231.113) | - | - | High
+14 | [45.153.240.135](https://vuldb.com/?ip.45.153.240.135) | - | - | High
+15 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | - | High
+16 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | - | High
+17 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
+18 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
+19 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
+20 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
+21 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
+There are 80 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,6 +82,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
 * https://cert.gov.ua/article/39609
+* https://github.com/A-dd-Y/secops/blob/main/MalwareIOC/mwdb-icedid-c2.txt
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/

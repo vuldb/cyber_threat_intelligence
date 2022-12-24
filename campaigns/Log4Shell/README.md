@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [SC](https://vuldb.com/?country.sc)
-* [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
+* [IT](https://vuldb.com/?country.it)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,49 +111,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.../gogo/` | Medium
-2 | File | `/action/factory` | High
-3 | File | `/admin/?page=bookings/view_details` | High
-4 | File | `/admin/add-fee.php` | High
-5 | File | `/Admin/add-student.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/Admin/createClass.php` | High
-8 | File | `/admin/edit_members.php` | High
-9 | File | `/admin/pages/sections_save.php` | High
-10 | File | `/admin/settings.php` | High
-11 | File | `/admin/sign/out` | High
-12 | File | `/api/geojson` | Medium
-13 | File | `/api/v1/attack` | High
-14 | File | `/api/v1/attack/falco` | High
-15 | File | `/api/v1/attack/token` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/asms/admin/products/manage_product.php` | High
-18 | File | `/attachments` | Medium
-19 | File | `/bsms_ci/index.php` | High
-20 | File | `/bsms_ci/index.php/user/edit_user/` | High
-21 | File | `/calendar/viewcalendar.php` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/classes/Users.php?f=delete_client` | High
-24 | File | `/clearance/clearance.php` | High
-25 | File | `/clients/listclients.php` | High
-26 | File | `/csms/admin/?page=user/manage_user` | High
-27 | File | `/dev/shm` | Medium
-28 | File | `/etc/openshift/server_priv.pem` | High
-29 | File | `/event/admin/?page=user/list` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/forums/editforum.php` | High
-32 | File | `/goform/setDiagnoseInfo` | High
-33 | File | `/goform/SetIpMacBind` | High
-34 | File | `/goform/SetPptpServerCfg` | High
-35 | File | `/goform/setUplinkInfo` | High
-36 | File | `/h/search?action=voicemail&action=listen` | High
-37 | File | `/hospital/hms/admin/patient-search.php` | High
-38 | File | `/hrm/employeeadd.php` | High
-39 | File | `/hrm/employeeview.php` | High
-40 | File | `/index.php/admins/Fields/get_fields.html` | High
-41 | ... | ... | ...
+1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
+2 | File | `.forward` | Medium
+3 | File | `/addNotifyServlet` | High
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/adminui/error_details.php` | High
+6 | File | `/ajax/networking/get_netcfg.php` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/common/run_cross_report.php` | High
+9 | File | `/etc/gsissh/sshd_config` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/face-recognition-php/facepay-master/camera.php` | High
+12 | File | `/goform/dir_setWanWifi` | High
+13 | File | `/goform/IPSECsave` | High
+14 | File | `/hrm/controller/employee.php` | High
+15 | File | `/hss/?page=categories` | High
+16 | File | `/hss/?page=product_per_brand` | High
+17 | File | `/hss/admin/?page=products/view_product` | High
+18 | File | `/menu.html` | Medium
+19 | File | `/tmp/app/.env` | High
+20 | File | `/uploadServlet` | High
+21 | File | `/usr/local/vesta/bin` | High
+22 | File | `/usr/sbin/httpd` | High
+23 | File | `/usr/ucb/mail` | High
+24 | File | `/v1/sql-runner` | High
+25 | File | `/var/log/nginx` | High
+26 | File | `/vendor` | Low
+27 | File | `/workspaceCleanup` | High
+28 | File | `5.2.9\syscrb.exe` | High
+29 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

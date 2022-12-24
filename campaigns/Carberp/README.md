@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -74,26 +74,26 @@ ID | Type | Indicator | Confidence
 21 | File | `adm-index.php` | High
 22 | File | `Admin.PHP` | Medium
 23 | File | `admin.php` | Medium
-24 | File | `admin/index.php` | High
-25 | File | `admin/ops/reports/ops/forum.php` | High
-26 | File | `admincp/attachment.php` | High
-27 | File | `adminedit.pl` | Medium
-28 | File | `ajax/api/hook/getHookList` | High
-29 | File | `archive/index.php` | High
-30 | File | `backend/groups/index.php` | High
-31 | File | `bbs/member_confirm.php` | High
-32 | File | `bottom.php` | Medium
-33 | File | `breadcrumbs_create.php` | High
-34 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-35 | File | `cds-fpdf.php` | Medium
-36 | File | `common.php` | Medium
-37 | File | `controllers/member/Api.php` | High
-38 | File | `cp.php` | Low
-39 | File | `dashboard_teacher.php` | High
-40 | File | `demo.php` | Medium
+24 | File | `admin.php&r=article/AdminContent/edit` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin/ops/reports/ops/forum.php` | High
+27 | File | `admincp/attachment.php` | High
+28 | File | `adminedit.pl` | Medium
+29 | File | `ajax/api/hook/getHookList` | High
+30 | File | `archive/index.php` | High
+31 | File | `backend/groups/index.php` | High
+32 | File | `bbs/member_confirm.php` | High
+33 | File | `bottom.php` | Medium
+34 | File | `breadcrumbs_create.php` | High
+35 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+36 | File | `cds-fpdf.php` | Medium
+37 | File | `common.php` | Medium
+38 | File | `controllers/member/Api.php` | High
+39 | File | `cp.php` | Low
+40 | File | `dashboard_teacher.php` | High
 41 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

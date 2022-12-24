@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 The following _campaigns_ are known and can be associated with Luna Moth:
 
+* Callback Phishing
 * Subscription Scam
 
 ## Countries
@@ -44,7 +45,7 @@ ID | IP address | Hostname | Campaign | Confidence
 18 | [104.168.218.242](https://vuldb.com/?ip.104.168.218.242) | hwsrv-975504.hostwindsdns.com | Subscription Scam | High
 19 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
+There are 71 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -89,13 +90,14 @@ ID | Type | Indicator | Confidence
 22 | File | `comersus_optreviewreadexec.asp` | High
 23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.sygnia.co/luna-moth-false-subscription-scams
+* https://unit42.paloaltonetworks.com/luna-moth-callback-phishing/
 
 ## Literature
 

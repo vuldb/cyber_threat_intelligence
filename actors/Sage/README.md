@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [CN](https://vuldb.com/?country.cn)
+* [AR](https://vuldb.com/?country.ar)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,18 +64,19 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/init0.d/S80telnetd.sh` | High
 7 | File | `/etc/srapi/config/system.conf` | High
 8 | File | `/etc/sysconfig/tomcat` | High
-9 | File | `/goform/setMAC` | High
-10 | File | `/htmldoc/htmldoc/html.cxx` | High
-11 | File | `/index.php` | Medium
-12 | File | `/leave_system/classes/Users.php?f=save` | High
-13 | File | `/net-banking/manage_customers.php` | High
-14 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-15 | File | `/release-x64/otfccdump+0x6c0a32` | High
-16 | File | `/release-x64/otfccdump+0x703969` | High
-17 | File | `/xpdf/Lexer.cc` | High
-18 | ... | ... | ...
+9 | File | `/goform/SafeEmailFilter` | High
+10 | File | `/goform/setMAC` | High
+11 | File | `/hrm/controller/employee.php` | High
+12 | File | `/htmldoc/htmldoc/html.cxx` | High
+13 | File | `/index.php` | Medium
+14 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+15 | File | `/leave_system/classes/Users.php?f=save` | High
+16 | File | `/net-banking/manage_customers.php` | High
+17 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+18 | File | `/release-x64/otfccdump+0x6c0a32` | High
+19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

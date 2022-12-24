@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -108,14 +108,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -123,41 +124,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/admin/users_add.php` | High
-3 | File | `/administration/settings_registration.php` | High
-4 | File | `/appConfig/userDB.json` | High
-5 | File | `/bd_genie_create_account.cgi` | High
-6 | File | `/c/macho_reader.c` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/luci/api/diagnose` | High
-9 | File | `/claire_blake` | High
-10 | File | `/CMD_ACCOUNT_ADMIN` | High
-11 | File | `/core/admin/categories.php` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/defaultui/player/modern.html` | High
-14 | File | `/etc/config/image_sign` | High
-15 | File | `/etc/groups` | Medium
-16 | File | `/etc/init0.d/S80telnetd.sh` | High
-17 | File | `/etc/shadow.sample` | High
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/goform/SetIpMacBind` | High
-22 | File | `/htdocs/utils/Files.php` | High
-23 | File | `/jfinal_cms/system/role/list` | High
-24 | File | `/librarian/edit_book_details.php` | High
-25 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-26 | File | `/master/index.php` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/MTFWU` | Low
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/pages/faculty_sched.php` | High
-32 | File | `/pages/processlogin.php` | High
-33 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/adfs/ls` | Medium
+3 | File | `/admin/users_add.php` | High
+4 | File | `/admin/videoalbum/list` | High
+5 | File | `/administration/settings_registration.php` | High
+6 | File | `/appConfig/userDB.json` | High
+7 | File | `/authUserAction!edit.action` | High
+8 | File | `/bd_genie_create_account.cgi` | High
+9 | File | `/c/macho_reader.c` | High
+10 | File | `/cgi-bin/luci/api/auth` | High
+11 | File | `/cgi-bin/luci/api/diagnose` | High
+12 | File | `/claire_blake` | High
+13 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+14 | File | `/conf/` | Low
+15 | File | `/dashboard/contact` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/defaultui/player/modern.html` | High
+18 | File | `/dev/bus` | Medium
+19 | File | `/etc/config/image_sign` | High
+20 | File | `/etc/groups` | Medium
+21 | File | `/etc/init0.d/S80telnetd.sh` | High
+22 | File | `/etc/shadow.sample` | High
+23 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
+24 | File | `/foms/place-order.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/ghost/preview` | High
+27 | File | `/goform/L7Im` | Medium
+28 | File | `/goform/SetIpMacBind` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | File | `/htdocs/utils/Files.php` | High
+31 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+32 | File | `/jfinal_cms/system/role/list` | High
+33 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+34 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

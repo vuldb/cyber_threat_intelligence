@@ -25,6 +25,17 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1557 | CWE-300 | Improper Following of a Certificate's Chain of Trust | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by DazzleSpy. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `myform.php` | Medium
+2 | Argument | `name` | Low
 
 ## References
 

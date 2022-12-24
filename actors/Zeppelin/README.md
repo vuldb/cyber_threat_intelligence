@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zeppelin:
 
 * [US](https://vuldb.com/?country.us)
+* [ME](https://vuldb.com/?country.me)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -19,6 +21,19 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.142.213.167](https://vuldb.com/?ip.45.142.213.167) | katitoons.com | - | High
 2 | [216.249.104.215](https://vuldb.com/?ip.216.249.104.215) | - | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Zeppelin_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1505 | CWE-89 | SQL Injection | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Zeppelin. This data is unique as it uses our predictive model for actor profiling.
@@ -26,7 +41,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `frontend/models/model.php` | High
-2 | Argument | `bwg_search_x` | Medium
+2 | File | `LotusTraveler.nsf` | High
+3 | Argument | `bwg_search_x` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

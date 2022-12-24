@@ -103,10 +103,9 @@ ID | Type | Indicator | Confidence
 42 | File | `/Noxen-master/users.php` | High
 43 | File | `/opac/Actions.php?a=login` | High
 44 | File | `/out.php` | Medium
-45 | File | `/pages/animals.php` | High
-46 | ... | ... | ...
+45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

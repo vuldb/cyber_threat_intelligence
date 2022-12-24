@@ -51,11 +51,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/bl-plugins/backup/plugin.php` | High
-2 | File | `adm/config_form_update.php` | High
-3 | File | `blocking_request.cgi` | High
+2 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+3 | File | `adm/config_form_update.php` | High
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 11 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

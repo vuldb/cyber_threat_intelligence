@@ -78,9 +78,10 @@ ID | Type | Indicator | Confidence
 18 | File | `admin/preview.php` | High
 19 | File | `administrator/components/com_media/helpers/media.php` | High
 20 | File | `archive_read_support_format_rar.c` | High
-21 | ... | ... | ...
+21 | File | `auth.py` | Low
+22 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

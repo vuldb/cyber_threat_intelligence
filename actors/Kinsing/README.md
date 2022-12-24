@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [LA](https://vuldb.com/?country.la)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,19 +27,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [3.215.110.66](https://vuldb.com/?ip.3.215.110.66) | ec2-3-215-110-66.compute-1.amazonaws.com | Log4Shell | Medium
-2 | [5.34.183.14](https://vuldb.com/?ip.5.34.183.14) | vds-904894.hosted-by-itldc.com | - | High
-3 | [5.34.183.145](https://vuldb.com/?ip.5.34.183.145) | a.sadeghi | - | High
-4 | [31.210.20.181](https://vuldb.com/?ip.31.210.20.181) | - | Log4Shell | High
-5 | [34.81.218.76](https://vuldb.com/?ip.34.81.218.76) | 76.218.81.34.bc.googleusercontent.com | Log4Shell | Medium
-6 | [42.112.28.216](https://vuldb.com/?ip.42.112.28.216) | midp.highlatrol.com | Log4Shell | High
-7 | [45.10.88.124](https://vuldb.com/?ip.45.10.88.124) | - | - | High
-8 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
-9 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
-10 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
-11 | ... | ... | ... | ...
+1 | [3.22.186.242](https://vuldb.com/?ip.3.22.186.242) | ec2-3-22-186-242.us-east-2.compute.amazonaws.com | - | Medium
+2 | [3.215.110.66](https://vuldb.com/?ip.3.215.110.66) | ec2-3-215-110-66.compute-1.amazonaws.com | Log4Shell | Medium
+3 | [5.34.183.14](https://vuldb.com/?ip.5.34.183.14) | vds-904894.hosted-by-itldc.com | - | High
+4 | [5.34.183.145](https://vuldb.com/?ip.5.34.183.145) | a.sadeghi | - | High
+5 | [31.210.20.181](https://vuldb.com/?ip.31.210.20.181) | - | Log4Shell | High
+6 | [34.81.218.76](https://vuldb.com/?ip.34.81.218.76) | 76.218.81.34.bc.googleusercontent.com | Log4Shell | Medium
+7 | [42.112.28.216](https://vuldb.com/?ip.42.112.28.216) | midp.highlatrol.com | Log4Shell | High
+8 | [45.10.88.124](https://vuldb.com/?ip.45.10.88.124) | - | - | High
+9 | [45.67.230.68](https://vuldb.com/?ip.45.67.230.68) | vm330138.pq.hosting | - | High
+10 | [45.95.169.118](https://vuldb.com/?ip.45.95.169.118) | zb64.antoniagavve.live | - | High
+11 | [45.129.2.107](https://vuldb.com/?ip.45.129.2.107) | - | Log4Shell | High
+12 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
+13 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
+14 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
+15 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 57 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,50 +70,68 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/dl_sendmail.php` | High
 3 | File | `/api/files/` | Medium
 4 | File | `/api/trackedEntityInstances` | High
-5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-6 | File | `/de/cgi/dfs_guest/` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/GponForm/fsetup_Form` | High
-9 | File | `/include/makecvs.php` | High
-10 | File | `/includes/event-management/index.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/Main_AdmStatus_Content.asp` | High
-13 | File | `/member/picture/album` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/products/details.asp` | High
-18 | File | `/secure/ViewCollectors` | High
-19 | File | `/services/details.asp` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-23 | File | `/usr/syno/etc/mount.conf` | High
-24 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-25 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-26 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-27 | File | `a-b-membres.php` | High
-28 | File | `actions.php` | Medium
-29 | File | `adclick.php` | Medium
-30 | File | `add.php` | Low
-31 | File | `add_2_basket.asp` | High
-32 | File | `add_comment.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin.php/comments/batchdel/` | High
-35 | File | `admin/aboutus.php` | High
-36 | File | `admin/conf_users_edit.php` | High
-37 | File | `admin\controller\uploadfile.php` | High
-38 | File | `album_portal.php` | High
-39 | File | `al_initialize.php` | High
-40 | File | `application/modules/admin/views/ecommerce/products.php` | High
-41 | ... | ... | ...
+5 | File | `/api/v2/cli/commands` | High
+6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/de/cgi/dfs_guest/` | High
+9 | File | `/filemanager/upload.php` | High
+10 | File | `/GponForm/fsetup_Form` | High
+11 | File | `/include/makecvs.php` | High
+12 | File | `/includes/event-management/index.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/lab.html` | Medium
+15 | File | `/Main_AdmStatus_Content.asp` | High
+16 | File | `/member/picture/album` | High
+17 | File | `/mgmt/tm/util/bash` | High
+18 | File | `/mifs/c/i/reg/reg.html` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/products/details.asp` | High
+21 | File | `/requests.php` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/secure/ViewCollectors` | High
+24 | File | `/services/details.asp` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/SysInfo.htm` | Medium
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+29 | File | `/usr/syno/etc/mount.conf` | High
+30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+31 | File | `/vendor` | Low
+32 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+33 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+34 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+35 | File | `a-b-membres.php` | High
+36 | File | `actions.php` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `add.php` | Low
+39 | File | `addtocart.asp` | High
+40 | File | `add_2_basket.asp` | High
+41 | File | `add_comment.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin.php/comments/batchdel/` | High
+44 | File | `admin/aboutus.php` | High
+45 | File | `admin/adm/test.php` | High
+46 | File | `admin/bitrix.mpbuilder_step2.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | File | `admin/media.php` | High
+49 | File | `admin/vqmods.app/vqmods.inc.php` | High
+50 | File | `adminer.php` | Medium
+51 | File | `administrator/components/com_media/helpers/media.php` | High
+52 | File | `admin\controller\uploadfile.php` | High
+53 | File | `agora.cgi` | Medium
+54 | File | `album_portal.php` | High
+55 | File | `al_initialize.php` | High
+56 | File | `application/modules/admin/views/ecommerce/products.php` | High
+57 | File | `ArchiveNews.aspx` | High
+58 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/315/kinsing-i-dark-iot-botnet-iocs/
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://gist.github.com/Iansus/050e121170a864c37b13f979c1883ad4
 * https://twitter.com/iansus/status/1472867647410819073

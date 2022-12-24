@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -53,36 +53,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin.php/singer/admin/singer/del` | High
-3 | File | `/baseOpLog.do` | High
-4 | File | `/category.php` | High
-5 | File | `/cgi-bin/delete_CA` | High
-6 | File | `/common/info.cgi` | High
-7 | File | `/common/logViewer/logViewer.jsf` | High
-8 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-9 | File | `/controller/Index.php` | High
-10 | File | `/cwc/login` | Medium
-11 | File | `/download` | Medium
-12 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
-13 | File | `/get_getnetworkconf.cgi` | High
-14 | File | `/GponForm/device_Form?script/` | High
-15 | File | `/home/resume/index` | High
-16 | File | `/includes/lib/detail.php` | High
-17 | File | `/includes/lib/get.php` | High
-18 | File | `/includes/lib/tree.php` | High
-19 | File | `/includes/rrdtool.inc.php` | High
-20 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-21 | File | `/iwguestbook/admin/messages_edit.asp` | High
-22 | File | `/MagickCore/enhance.c` | High
-23 | File | `/MagickCore/quantize.c` | High
-24 | File | `/MagickCore/statistic.c` | High
-25 | File | `/Main_AdmStatus_Content.asp` | High
-26 | File | `/modules/tasks/summary.inc.php` | High
-27 | File | `/NAGErrors` | Medium
-28 | File | `/ofrs/admin/?page=reports` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | ... | ... | ...
+3 | File | `/admin/index.PHP` | High
+4 | File | `/baseOpLog.do` | High
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/delete_CA` | High
+7 | File | `/common/info.cgi` | High
+8 | File | `/common/logViewer/logViewer.jsf` | High
+9 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+10 | File | `/confirm` | Medium
+11 | File | `/controller/Index.php` | High
+12 | File | `/cwc/login` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/download` | Medium
+15 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
+16 | File | `/get_getnetworkconf.cgi` | High
+17 | File | `/goform/setMacFilterCfg` | High
+18 | File | `/GponForm/device_Form?script/` | High
+19 | File | `/home/resume/index` | High
+20 | File | `/includes/lib/detail.php` | High
+21 | File | `/includes/lib/get.php` | High
+22 | File | `/includes/lib/tree.php` | High
+23 | File | `/includes/rrdtool.inc.php` | High
+24 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+25 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+26 | File | `/iwguestbook/admin/messages_edit.asp` | High
+27 | File | `/MagickCore/enhance.c` | High
+28 | File | `/MagickCore/quantize.c` | High
+29 | File | `/MagickCore/statistic.c` | High
+30 | File | `/Main_AdmStatus_Content.asp` | High
+31 | File | `/modules/tasks/summary.inc.php` | High
+32 | File | `/NAGErrors` | Medium
+33 | File | `/ofrs/admin/?page=reports` | High
+34 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [IT](https://vuldb.com/?country.it)
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +18,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [52.85.151.4](https://vuldb.com/?ip.52.85.151.4) | server-52-85-151-4.iad89.r.cloudfront.net | - | High
-2 | [52.85.151.59](https://vuldb.com/?ip.52.85.151.59) | server-52-85-151-59.iad89.r.cloudfront.net | - | High
-3 | [88.198.147.80](https://vuldb.com/?ip.88.198.147.80) | static.88-198-147-80.clients.your-server.de | - | High
-4 | ... | ... | ... | ...
+1 | [35.186.232.167](https://vuldb.com/?ip.35.186.232.167) | 167.232.186.35.bc.googleusercontent.com | - | Medium
+2 | [52.85.151.4](https://vuldb.com/?ip.52.85.151.4) | server-52-85-151-4.iad89.r.cloudfront.net | - | High
+3 | [52.85.151.59](https://vuldb.com/?ip.52.85.151.59) | server-52-85-151-59.iad89.r.cloudfront.net | - | High
+4 | [64.186.131.47](https://vuldb.com/?ip.64.186.131.47) | - | - | High
+5 | [67.228.31.225](https://vuldb.com/?ip.67.228.31.225) | e1.1f.e443.ip4.static.sl-reverse.com | - | High
+6 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,8 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-358 | 7PK Security Features | High
+2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1202 | CWE-77 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,6 +58,9 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/2019/04/threat-roundup-0405-0412.html
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0828-0904.html
+* https://blog.talosintelligence.com/2020/11/threat-roundup-1106-1113.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0604-0611.html
 
 ## Literature

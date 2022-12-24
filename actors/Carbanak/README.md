@@ -125,9 +125,10 @@ ID | Type | Indicator | Confidence
 35 | File | `add_vhost.php` | High
 36 | File | `admin.php` | Medium
 37 | File | `admin/conf_users_edit.php` | High
-38 | ... | ... | ...
+38 | File | `admin/default.asp` | High
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,12 +24,29 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [43.240.14.44](https://vuldb.com/?ip.43.240.14.44) | scdc.worra.com | Asia Mobile Devices | High
-2 | [118.168.201.70](https://vuldb.com/?ip.118.168.201.70) | 118-168-201-70.dynamic-ip.hinet.net | Asia Mobile Devices | High
-3 | [118.168.202.125](https://vuldb.com/?ip.118.168.202.125) | 118-168-202-125.dynamic-ip.hinet.net | Asia Mobile Devices | High
-4 | ... | ... | ... | ...
+1 | [27.124.36.32](https://vuldb.com/?ip.27.124.36.32) | - | - | High
+2 | [27.124.36.34](https://vuldb.com/?ip.27.124.36.34) | - | - | High
+3 | [27.124.36.52](https://vuldb.com/?ip.27.124.36.52) | - | - | High
+4 | [27.124.39.241](https://vuldb.com/?ip.27.124.39.241) | - | - | High
+5 | [27.124.39.242](https://vuldb.com/?ip.27.124.39.242) | - | - | High
+6 | [27.124.39.243](https://vuldb.com/?ip.27.124.39.243) | - | - | High
+7 | [43.240.14.44](https://vuldb.com/?ip.43.240.14.44) | scdc.worra.com | Asia Mobile Devices | High
+8 | [61.97.248.6](https://vuldb.com/?ip.61.97.248.6) | faster-returns.viberhow.com | - | High
+9 | [61.97.248.7](https://vuldb.com/?ip.61.97.248.7) | vlan-routing.viberhow.com | - | High
+10 | [61.97.248.8](https://vuldb.com/?ip.61.97.248.8) | can-man.viberhow.com | - | High
+11 | [61.97.248.9](https://vuldb.com/?ip.61.97.248.9) | client-any.viberhow.com | - | High
+12 | [91.204.227.19](https://vuldb.com/?ip.91.204.227.19) | - | - | High
+13 | [91.204.227.20](https://vuldb.com/?ip.91.204.227.20) | - | - | High
+14 | [91.204.227.21](https://vuldb.com/?ip.91.204.227.21) | - | - | High
+15 | [91.204.227.22](https://vuldb.com/?ip.91.204.227.22) | - | - | High
+16 | [91.204.227.23](https://vuldb.com/?ip.91.204.227.23) | - | - | High
+17 | [91.204.227.24](https://vuldb.com/?ip.91.204.227.24) | - | - | High
+18 | [91.204.227.25](https://vuldb.com/?ip.91.204.227.25) | - | - | High
+19 | [91.204.227.26](https://vuldb.com/?ip.91.204.227.26) | - | - | High
+20 | [91.204.227.27](https://vuldb.com/?ip.91.204.227.27) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 81 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,20 +72,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/system/database/filedown.php` | High
 4 | File | `/bin/boa` | Medium
 5 | File | `/cgi-bin/upload_vpntar` | High
-6 | File | `/cgi-bin/user/Config.cgi` | High
-7 | File | `/MTFWU` | Low
-8 | File | `/okm:root` | Medium
-9 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-10 | File | `actions/authenticate.php` | High
-11 | ... | ... | ...
+6 | File | `/MTFWU` | Low
+7 | File | `/okm:root` | Medium
+8 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+9 | File | `admin.php?m=backup&c=backup&a=doback` | High
+10 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.kaspersky.co.jp/roaming-mantis-update/20383/
+* https://github.com/SEKOIA-IO/Community/blob/main/IOCs/roamingmantis/roaming_mantis_iocs_20220718.csv
 
 ## Literature
 

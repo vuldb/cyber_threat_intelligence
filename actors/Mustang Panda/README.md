@@ -10,10 +10,10 @@ The following _campaigns_ are known and can be associated with Mustang Panda:
 
 * Diànxùn
 * Europe
-* Hodur
+* Europe and Asia Pacific
 * ...
 
-There are 1 more campaign items available. Please use our online service to access the data.
+There are 2 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,23 +32,25 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.206.224.167](https://vuldb.com/?ip.5.206.224.167) | hardsysi | Europe | High
-2 | [18.138.107.235](https://vuldb.com/?ip.18.138.107.235) | ec2-18-138-107-235.ap-southeast-1.compute.amazonaws.com | Europe | Medium
-3 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
-4 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
-5 | [43.254.218.42](https://vuldb.com/?ip.43.254.218.42) | - | Hodur | High
-6 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
-7 | [45.43.50.197](https://vuldb.com/?ip.45.43.50.197) | - | Europe | High
-8 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
-9 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
-10 | [45.134.83.4](https://vuldb.com/?ip.45.134.83.4) | - | - | High
-11 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
-12 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
-13 | [45.248.87.14](https://vuldb.com/?ip.45.248.87.14) | - | - | High
-14 | [45.248.87.162](https://vuldb.com/?ip.45.248.87.162) | - | Europe | High
-15 | ... | ... | ... | ...
+1 | [5.34.178.156](https://vuldb.com/?ip.5.34.178.156) | paulojohnjerick.pserver.ru | Europe and Asia Pacific | High
+2 | [5.206.224.167](https://vuldb.com/?ip.5.206.224.167) | hardsysi | Europe | High
+3 | [18.138.107.235](https://vuldb.com/?ip.18.138.107.235) | ec2-18-138-107-235.ap-southeast-1.compute.amazonaws.com | Europe | Medium
+4 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
+5 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
+6 | [43.254.218.42](https://vuldb.com/?ip.43.254.218.42) | - | Hodur | High
+7 | [43.254.218.128](https://vuldb.com/?ip.43.254.218.128) | - | Europe and Asia Pacific | High
+8 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
+9 | [45.32.101.7](https://vuldb.com/?ip.45.32.101.7) | 45.32.101.7.vultrusercontent.com | Europe and Asia Pacific | High
+10 | [45.43.50.197](https://vuldb.com/?ip.45.43.50.197) | - | Europe | High
+11 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
+12 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
+13 | [45.134.83.4](https://vuldb.com/?ip.45.134.83.4) | - | - | High
+14 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
+15 | [45.147.26.45](https://vuldb.com/?ip.45.147.26.45) | - | Europe and Asia Pacific | High
+16 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
+17 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,29 +75,30 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=orders/manage_request` | High
 2 | File | `/admin/settings.php` | High
-3 | File | `/api/geojson` | Medium
-4 | File | `/api/user/password/sent-reset-email` | High
-5 | File | `/api/v1/attack` | High
-6 | File | `/cgi-bin/portal` | High
-7 | File | `/Config/service/initModel?` | High
-8 | File | `/export` | Low
-9 | File | `/goform/NTPSyncWithHost` | High
-10 | File | `/goform/SetVirtualServerCfg` | High
-11 | File | `/HNAP1/SetAccessPointMode` | High
-12 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-13 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-14 | File | `/htmlcode/html/indexdefault.asp` | High
-15 | File | `/include/helpers/upload.helper.php` | High
-16 | File | `/interface/main/backup.php` | High
-17 | File | `/local/domain/$DOMID` | High
-18 | File | `/mkshop/Men/profile.php` | High
-19 | File | `/MTFWU` | Low
-20 | File | `/mygym/admin/index.php` | High
-21 | File | `/patient/settings.php` | High
-22 | File | `/rest/api/2/user/picker` | High
-23 | ... | ... | ...
+3 | File | `/admin/uploads.php` | High
+4 | File | `/api/geojson` | Medium
+5 | File | `/api/user/password/sent-reset-email` | High
+6 | File | `/api/v1/attack` | High
+7 | File | `/cgi-bin/portal` | High
+8 | File | `/Config/service/initModel?` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/export` | Low
+11 | File | `/goform/NTPSyncWithHost` | High
+12 | File | `/goform/SetVirtualServerCfg` | High
+13 | File | `/HNAP1/SetAccessPointMode` | High
+14 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+15 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+16 | File | `/htmlcode/html/indexdefault.asp` | High
+17 | File | `/include/helpers/upload.helper.php` | High
+18 | File | `/interface/main/backup.php` | High
+19 | File | `/local/domain/$DOMID` | High
+20 | File | `/mkshop/Men/profile.php` | High
+21 | File | `/MTFWU` | Low
+22 | File | `/mygym/admin/index.php` | High
+23 | File | `/patient/settings.php` | High
+24 | ... | ... | ...
 
-There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +106,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2022/05/mustang-panda-targets-europe.html
 * https://blogs.blackberry.com/en/2022/10/mustang-panda-abuses-legitimate-apps-to-target-myanmar-based-victims
+* https://blogs.blackberry.com/en/2022/12/mustang-panda-uses-the-russian-ukrainian-war-to-attack-europe-and-asia-pacific-targets
 * https://github.com/eset/malware-ioc/tree/master/quarterly_reports/2020_Q2
 * https://twitter.com/ESETresearch/status/1400165861973966854
 * https://twitter.com/xorhex/status/1406496693735067650

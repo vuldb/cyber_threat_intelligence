@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CL](https://vuldb.com/?country.cl)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,6 +29,19 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | ... | ... | ... | ...
 
 There are 18 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _SombRAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1055 | CWE-74 | Injection | High
+2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1552 | CWE-255 | ASP.NET Misconfiguration: Password in Configuration File | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 

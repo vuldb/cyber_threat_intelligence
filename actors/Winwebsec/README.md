@@ -18,10 +18,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [84.22.104.243](https://vuldb.com/?ip.84.22.104.243) | - | - | High
 2 | [103.4.225.41](https://vuldb.com/?ip.103.4.225.41) | - | - | High
-3 | [116.255.235.9](https://vuldb.com/?ip.116.255.235.9) | - | - | High
+3 | [112.121.178.190](https://vuldb.com/?ip.112.121.178.190) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,9 +50,10 @@ ID | Type | Indicator | Confidence
 6 | File | `admin.php?s=/Channel/add.html` | High
 7 | File | `admin/class-bulk-editor-list-table.php` | High
 8 | File | `administrator/components/com_media/helpers/media.php` | High
-9 | ... | ... | ...
+9 | File | `auth.asp` | Medium
+10 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -61,6 +62,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/04/threat-roundup-0329-0405.html
 * https://blog.talosintelligence.com/2019/04/threat-roundup-0405-0412.html
 * https://blog.talosintelligence.com/2021/02/threat-roundup-0129-0205.html
+* https://blog.talosintelligence.com/threat-roundup-1111-1118/
 
 ## Literature
 
