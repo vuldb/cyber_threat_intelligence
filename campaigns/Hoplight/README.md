@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [HK](https://vuldb.com/?country.hk)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -45,14 +45,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -91,7 +91,7 @@ ID | Type | Indicator | Confidence
 29 | File | `/rest/api/latest/projectvalidate/key` | High
 30 | ... | ... | ...
 
-There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

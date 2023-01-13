@@ -58,23 +58,23 @@ ID | Type | Indicator | Confidence
 1 | File | `/DesignTools/CssEditor.aspx` | High
 2 | File | `/etc/passwd` | Medium
 3 | File | `/movie.php` | Medium
-4 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-5 | File | `/phppath/php` | Medium
-6 | File | `/search_events.php` | High
-7 | File | `/StartingPage/link_req_2.php` | High
-8 | File | `/ViewUserHover.jspa` | High
-9 | File | `admin.php` | Medium
-10 | File | `admin/AJAX_lookup_handler.php` | High
-11 | File | `admin/general.php` | High
-12 | File | `admin/login.asp` | High
-13 | File | `admin/movieedit.php` | High
-14 | File | `affich.php` | Medium
-15 | File | `ahcache.sys` | Medium
-16 | File | `ajax/api/hook/getHookList` | High
-17 | File | `ajax_represent.php` | High
+4 | File | `/out.php` | Medium
+5 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+6 | File | `/phppath/php` | Medium
+7 | File | `/search_events.php` | High
+8 | File | `/StartingPage/link_req_2.php` | High
+9 | File | `/ViewUserHover.jspa` | High
+10 | File | `admin.php` | Medium
+11 | File | `admin/AJAX_lookup_handler.php` | High
+12 | File | `admin/general.php` | High
+13 | File | `admin/login.asp` | High
+14 | File | `admin/movieedit.php` | High
+15 | File | `affich.php` | Medium
+16 | File | `ahcache.sys` | Medium
+17 | File | `ajax/api/hook/getHookList` | High
 18 | ... | ... | ...
 
-There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +91,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

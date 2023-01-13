@@ -49,21 +49,22 @@ ID | IP address | Hostname | Actor | Confidence
 17 | [23.160.193.217](https://vuldb.com/?ip.23.160.193.217) | unknown.ip-xfer.net | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
 18 | [23.193.217.119](https://vuldb.com/?ip.23.193.217.119) | a23-193-217-119.deploy.static.akamaitechnologies.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
 19 | [31.14.40.160](https://vuldb.com/?ip.31.14.40.160) | perico.cavepanel.com | [Conti](https://vuldb.com/?actor.conti) | High
-20 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-21 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-22 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
-23 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
-24 | [34.219.130.241](https://vuldb.com/?ip.34.219.130.241) | ec2-34-219-130-241.us-west-2.compute.amazonaws.com | [Conti](https://vuldb.com/?actor.conti) | Medium
-25 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
-26 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
-27 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
-28 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-29 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-30 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-31 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
-32 | ... | ... | ... | ...
+20 | [31.41.44.153](https://vuldb.com/?ip.31.41.44.153) | rodion.oftin.93.example.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+21 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+22 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+23 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
+24 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
+25 | [34.219.130.241](https://vuldb.com/?ip.34.219.130.241) | ec2-34-219-130-241.us-west-2.compute.amazonaws.com | [Conti](https://vuldb.com/?actor.conti) | Medium
+26 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
+27 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
+28 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | [BazarLoader](https://vuldb.com/?actor.bazarloader) | Medium
+29 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+30 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+31 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+32 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | [BazarLoader](https://vuldb.com/?actor.bazarloader) | High
+33 | ... | ... | ... | ...
 
-There are 125 more IOC items available. Please use our online service to access the data.
+There are 130 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -125,6 +126,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/
 * https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/
 * https://thedfirreport.com/2021/12/13/diavol-ransomware/
+* https://twitter.com/1ZRR4H/status/1611013038987005954
+* https://twitter.com/malwrhunterteam/status/1562741109171752960
 * https://twitter.com/_pr4gma/status/1347617681197961225
 
 ## Literature
@@ -136,4 +139,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

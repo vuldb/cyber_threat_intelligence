@@ -68,25 +68,27 @@ ID | Type | Indicator | Confidence
 15 | File | `/foms/all-orders.php?status=Cancelled%20by%20Customer` | High
 16 | File | `/get_getnetworkconf.cgi` | High
 17 | File | `/goform/setMacFilterCfg` | High
-18 | File | `/GponForm/device_Form?script/` | High
-19 | File | `/home/resume/index` | High
-20 | File | `/includes/lib/detail.php` | High
-21 | File | `/includes/lib/get.php` | High
-22 | File | `/includes/lib/tree.php` | High
-23 | File | `/includes/rrdtool.inc.php` | High
-24 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-25 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-26 | File | `/iwguestbook/admin/messages_edit.asp` | High
-27 | File | `/MagickCore/enhance.c` | High
-28 | File | `/MagickCore/quantize.c` | High
-29 | File | `/MagickCore/statistic.c` | High
-30 | File | `/Main_AdmStatus_Content.asp` | High
-31 | File | `/modules/tasks/summary.inc.php` | High
-32 | File | `/NAGErrors` | Medium
-33 | File | `/ofrs/admin/?page=reports` | High
-34 | ... | ... | ...
+18 | File | `/goform/SysToolChangePwd` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/GponForm/device_Form?script/` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/home/resume/index` | High
+23 | File | `/includes/lib/detail.php` | High
+24 | File | `/includes/lib/get.php` | High
+25 | File | `/includes/lib/tree.php` | High
+26 | File | `/includes/rrdtool.inc.php` | High
+27 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+28 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+29 | File | `/iwguestbook/admin/messages_edit.asp` | High
+30 | File | `/MagickCore/enhance.c` | High
+31 | File | `/MagickCore/quantize.c` | High
+32 | File | `/MagickCore/statistic.c` | High
+33 | File | `/Main_AdmStatus_Content.asp` | High
+34 | File | `/modules/tasks/summary.inc.php` | High
+35 | File | `/NAGErrors` | Medium
+36 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -69,42 +69,41 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit_visitor.php` | High
 2 | File | `/admin/info.php` | High
 3 | File | `/admin/user_list_backend.php` | High
-4 | File | `/etc/controller-agent/agent.conf` | High
-5 | File | `/forms/web_importTFTP` | High
-6 | File | `/goform/SysToolReboot` | High
-7 | File | `/goform/SysToolRestoreSet` | High
-8 | File | `/graphql` | Medium
-9 | File | `/individual` | Medium
-10 | File | `/jeecg-boot/jmreport/view` | High
-11 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-12 | File | `/localhost/u` | Medium
-13 | File | `/net` | Low
-14 | File | `/opt/bin/cli` | Medium
-15 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-16 | File | `/public/plugins/` | High
-17 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-18 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-19 | File | `/templates/header.inc.php` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/v2/devices/add` | High
-22 | File | `/var/ipfire/backup/bin/backup.pl` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `account.php` | Medium
-26 | File | `accounts/view_details.php` | High
-27 | File | `AddEvent.php` | Medium
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin.php?m=backup&c=backup&a=doback` | High
-31 | File | `admin.php?mod=product&act=state` | High
-32 | File | `admin/conf_users_edit.php` | High
-33 | File | `admin/cp-functions/event-add.php` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/modules/tools/ip_history_logs.php` | High
-36 | File | `admin/netbase/clean.php` | High
-37 | ... | ... | ...
+4 | File | `/apply.cgi` | Medium
+5 | File | `/etc/controller-agent/agent.conf` | High
+6 | File | `/forms/web_importTFTP` | High
+7 | File | `/goform/SysToolReboot` | High
+8 | File | `/goform/SysToolRestoreSet` | High
+9 | File | `/graphql` | Medium
+10 | File | `/individual` | Medium
+11 | File | `/jeecg-boot/jmreport/view` | High
+12 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+13 | File | `/localhost/u` | Medium
+14 | File | `/net` | Low
+15 | File | `/opt/bin/cli` | Medium
+16 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+19 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+20 | File | `/setNTP.cgi` | Medium
+21 | File | `/templates/header.inc.php` | High
+22 | File | `/v2/devices/add` | High
+23 | File | `/var/ipfire/backup/bin/backup.pl` | High
+24 | File | `/wp-json/wc/v3/webhooks` | High
+25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+26 | File | `account.php` | Medium
+27 | File | `accounts/view_details.php` | High
+28 | File | `AddEvent.php` | Medium
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin.php?m=backup&c=backup&a=doback` | High
+32 | File | `admin.php?mod=product&act=state` | High
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/cp-functions/event-add.php` | High
+35 | File | `admin/index.php` | High
+36 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

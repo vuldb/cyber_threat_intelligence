@@ -14,6 +14,7 @@ The following _campaigns_ are known and can be associated with APT19:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT19:
 
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 
@@ -37,6 +38,16 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1222 | CWE-276 | Permission Issues | High
+2 | T1505 | CWE-89 | SQL Injection | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by APT19. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `read.php` | Medium
+2 | Argument | `TID` | Low
 
 ## References
 
@@ -54,4 +65,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

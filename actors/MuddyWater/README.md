@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,14 +59,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,50 +75,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/Admin/dashboard.php` | High
-3 | File | `/admin/sign/out` | High
-4 | File | `/api/audits` | Medium
-5 | File | `/api/discoveries/` | High
-6 | File | `/api/v1/attack/falco` | High
-7 | File | `/api/v1/attack/token` | High
-8 | File | `/api/v2/open/rowsInfo` | High
-9 | File | `/api/v2/open/tablesInfo` | High
-10 | File | `/back/index.php/user/User/?1` | High
-11 | File | `/balance/service/list` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/calendar/viewcalendar.php` | High
-15 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-16 | File | `/clients/listclients.php` | High
-17 | File | `/cms/category/list` | High
-18 | File | `/confirm` | Medium
-19 | File | `/contacts/listcontacts.php` | High
-20 | File | `/Default/Bd` | Medium
-21 | File | `/depotHead/list` | High
-22 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-23 | File | `/event/admin/?page=user/list` | High
-24 | File | `/face-recognition-php/facepay-master/camera.php` | High
-25 | File | `/forums/editforum.php` | High
-26 | File | `/general/search.php?searchtype=simple` | High
-27 | File | `/goform/fast_setting_wifi_set` | High
-28 | File | `/goform/setDiagnoseInfo` | High
-29 | File | `/goform/setMacFilterCfg` | High
-30 | File | `/goform/setSnmpInfo` | High
-31 | File | `/goform/setSysAdm` | High
-32 | File | `/goform/setSysPwd` | High
-33 | File | `/goform/setUplinkInfo` | High
-34 | File | `/goform/SysToolRestoreSet` | High
-35 | File | `/gpac/src/bifs/unquantize.c` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/hrm/employeeadd.php` | High
-38 | File | `/hrm/employeeview.php` | High
-39 | File | `/index.php/purchase_order/browse_data` | High
-40 | File | `/index.php?module=configuration/application` | High
-41 | File | `/index.php?module=entities/fields&entities_id=24` | High
-42 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `//` | Low
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/api/audits` | Medium
+6 | File | `/api/browserextension/UpdatePassword/` | High
+7 | File | `/back/index.php/user/User/?1` | High
+8 | File | `/calendar/viewcalendar.php` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/clients/listclients.php` | High
+11 | File | `/cms/category/list` | High
+12 | File | `/contacts/listcontacts.php` | High
+13 | File | `/data/app` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forums/editforum.php` | High
+19 | File | `/general/search.php?searchtype=simple` | High
+20 | File | `/goform/fast_setting_wifi_set` | High
+21 | File | `/goform/setDiagnoseInfo` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | File | `/goform/setSnmpInfo` | High
+24 | File | `/goform/setSysPwd` | High
+25 | File | `/goform/setUplinkInfo` | High
+26 | File | `/goform/SysToolRestoreSet` | High
+27 | File | `/hrm/controller/employee.php` | High
+28 | File | `/hrm/employeeadd.php` | High
+29 | File | `/index.php?module=configuration/application` | High
+30 | File | `/index.php?module=entities/fields&entities_id=24` | High
+31 | File | `/linkedcontent/listfiles.php` | High
+32 | File | `/m3_exec.h` | Medium
+33 | File | `/meetings/listmeetings.php` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/out.php` | Medium
+36 | File | `/output/outdbg.c` | High
+37 | File | `/output/outieee.c` | High
+38 | File | `/password/reset` | High
+39 | File | `/picturesPreview` | High
+40 | File | `/projects/listprojects.php` | High
+41 | File | `/services/Card/findUser` | High
+42 | File | `/user/loader.php?api=1` | High
+43 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+44 | File | `AbstractScheduleJob.java` | High
+45 | File | `admin/panels/uploader/admin.uploader.php` | High
+46 | File | `admin/partials/ajax/add_field_to_form.php` | High
+47 | File | `agent/listener/templates/tail.html` | High
+48 | File | `ajax_represent.php` | High
+49 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -147,4 +155,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

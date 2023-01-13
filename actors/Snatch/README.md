@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -53,29 +53,30 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/lab.php` | High
 4 | File | `/assets/components/gallery/connector.php` | High
 5 | File | `/bsms_ci/index.php` | High
-6 | File | `/College/admin/teacher.php` | High
-7 | File | `/Default/Bd` | Medium
-8 | File | `/editbrand.php` | High
-9 | File | `/employeeview.php` | High
-10 | File | `/etc/target` | Medium
-11 | File | `/export` | Low
-12 | File | `/getcfg.php` | Medium
-13 | File | `/goform/WriteFacMac` | High
-14 | File | `/index.php` | Medium
-15 | File | `/lists/admin/user.php` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/movie.php` | Medium
-18 | File | `/news-portal-script/information.php` | High
-19 | File | `/pages/apply_vacancy.php` | High
-20 | File | `/tmp` | Low
-21 | File | `/uncpath/` | Medium
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `/_vti_pvt/access.cnf` | High
-24 | File | `adclick.php` | Medium
-25 | File | `admin.php3` | Medium
-26 | ... | ... | ...
+6 | File | `/cms/category/list` | High
+7 | File | `/College/admin/teacher.php` | High
+8 | File | `/Default/Bd` | Medium
+9 | File | `/editbrand.php` | High
+10 | File | `/employeeview.php` | High
+11 | File | `/etc/target` | Medium
+12 | File | `/export` | Low
+13 | File | `/getcfg.php` | Medium
+14 | File | `/goform/WriteFacMac` | High
+15 | File | `/index.php` | Medium
+16 | File | `/lists/admin/user.php` | High
+17 | File | `/mkshop/Men/profile.php` | High
+18 | File | `/movie.php` | Medium
+19 | File | `/news-portal-script/information.php` | High
+20 | File | `/pages/apply_vacancy.php` | High
+21 | File | `/tmp` | Low
+22 | File | `/uncpath/` | Medium
+23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+24 | File | `/_vti_pvt/access.cnf` | High
+25 | File | `adclick.php` | Medium
+26 | File | `admin.php3` | Medium
+27 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

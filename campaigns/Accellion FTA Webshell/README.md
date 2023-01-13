@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -78,27 +78,28 @@ ID | Type | Indicator | Confidence
 20 | File | `/ldclient/ldprov.cgi` | High
 21 | File | `/librarian/bookdetails.php` | High
 22 | File | `/login` | Low
-23 | File | `/mail/index.html` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/plugin/extended-choice-parameter/js/` | High
-26 | File | `/plugins/servlet/gadgets/makeRequest` | High
-27 | File | `/PreviewHandler.ashx` | High
-28 | File | `/products/details.asp` | High
-29 | File | `/rest/api/2/user/picker` | High
-30 | File | `/rest/api/latest/groupuserpicker` | High
-31 | File | `/rom-0` | Low
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/services/details.asp` | High
-34 | File | `/ServletAPI/accounts/login` | High
-35 | File | `/student/bookdetails.php` | High
-36 | File | `/templates/header.inc.php` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-40 | File | `/var/log/nginx` | High
-41 | ... | ... | ...
+23 | File | `/login/index.php` | High
+24 | File | `/mail/index.html` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/mygym/admin/index.php?view_exercises` | High
+27 | File | `/plugin/extended-choice-parameter/js/` | High
+28 | File | `/plugins/servlet/gadgets/makeRequest` | High
+29 | File | `/PreviewHandler.ashx` | High
+30 | File | `/products/details.asp` | High
+31 | File | `/rest/api/2/user/picker` | High
+32 | File | `/rest/api/latest/groupuserpicker` | High
+33 | File | `/rom-0` | Low
+34 | File | `/secure/QueryComponent!Default.jspa` | High
+35 | File | `/services/details.asp` | High
+36 | File | `/ServletAPI/accounts/login` | High
+37 | File | `/student/bookdetails.php` | High
+38 | File | `/templates/header.inc.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/usr/bin/pkexec` | High
+41 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+42 | ... | ... | ...
 
-There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,9 +65,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 5 | File | `/uncpath/` | Medium
 6 | File | `2020\Messages\SDNotify.exe` | High
-7 | ... | ... | ...
+7 | File | `admin/admin_disallow.php` | High
+8 | ... | ... | ...
 
-There are 47 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

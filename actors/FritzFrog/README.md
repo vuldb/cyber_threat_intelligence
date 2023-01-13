@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -331,14 +331,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -346,43 +345,66 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `.FBCIndex` | Medium
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-5 | File | `/admin/controller/JobLogController.java` | High
-6 | File | `/admin/fst_upload.inc.php` | High
-7 | File | `/api/audits` | Medium
-8 | File | `/authUserAction!edit.action` | High
-9 | File | `/balance/service/list` | High
-10 | File | `/bsms_ci/index.php` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-13 | File | `/cgi-bin/webproc` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/dev/bus` | Medium
-17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/form2userconfig.cgi` | High
-21 | File | `/goform/L7Im` | Medium
-22 | File | `/goform/setMacFilterCfg` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/hrm/controller/employee.php` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/includes/login.php` | High
-28 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-29 | File | `/lookin/info` | Medium
-30 | File | `/mkshope/login.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/public/launchNewWindow.jsp` | High
-33 | File | `/Redcock-Farm/farm/category.php` | High
-34 | File | `/rendering/wiki` | High
-35 | ... | ... | ...
+1 | File | `/apply_noauth.cgi` | High
+2 | File | `/blog/blog.php` | High
+3 | File | `/cgi-bin/api-get_line_status` | High
+4 | File | `/cgi-bin/upload_vpntar` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/Content/Template/root/reverse-shell.aspx` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/h/calendar` | Medium
+11 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+12 | File | `/modules/snf/index.php` | High
+13 | File | `/ossn/administrator/com_installer` | High
+14 | File | `/out.php` | Medium
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/services/view_service.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/var/log/nginx` | High
+19 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+20 | File | `26.html` | Low
+21 | File | `access_token.php` | High
+22 | File | `actionphp/download.File.php` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add_postit.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/index.php` | High
+27 | File | `administration.jsp` | High
+28 | File | `adminquery.php` | High
+29 | File | `ansfaq.asp` | Medium
+30 | File | `app/routes/research.js` | High
+31 | File | `appGet.cgi` | Medium
+32 | File | `application/forms/Comment.php` | High
+33 | File | `artreplydelete.asp` | High
+34 | File | `attachment.cgi` | High
+35 | File | `authpam.c` | Medium
+36 | File | `autocms.php` | Medium
+37 | File | `avahi-core/socket.c` | High
+38 | File | `awstats.pl` | Medium
+39 | File | `b/fs/ksmbd/smb2misc.c` | High
+40 | File | `banner.php` | Medium
+41 | File | `base_qry_main.php` | High
+42 | File | `bgp_packet.c` | Medium
+43 | File | `Blog.CGI` | Medium
+44 | File | `blogroll.php` | Medium
+45 | File | `boundary_rules.jsp` | High
+46 | File | `browser/liferay/browser.html?Type` | High
+47 | File | `calendar.php` | Medium
+48 | File | `calendar_scheduler.php` | High
+49 | File | `cal_config.inc.php` | High
+50 | File | `category.php` | Medium
+51 | File | `Category.php` | Medium
+52 | File | `centrify.cmd.0` | High
+53 | File | `cgi-bin/write.cgi` | High
+54 | File | `claro_init_global.inc.php` | High
+55 | File | `class/class.php` | High
+56 | File | `classifieds/viewcat.cgi` | High
+57 | File | `cls_fast_template.php` | High
+58 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

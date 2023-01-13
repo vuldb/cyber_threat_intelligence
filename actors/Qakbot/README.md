@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2610,7 +2610,7 @@ ID | IP address | Hostname | Campaign | Confidence
 2587 | [50.73.23.181](https://vuldb.com/?ip.50.73.23.181) | 50-73-23-181-cpennsylvania.hfc.comcastbusiness.net | - | High
 2588 | ... | ... | ... | ...
 
-There are 10346 more IOC items available. Please use our online service to access the data.
+There are 10349 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -2618,14 +2618,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2633,50 +2633,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `.qpopper-options` | High
-4 | File | `/api/v1/containers` | High
-5 | File | `/apps/` | Low
-6 | File | `/backupsettings.conf` | High
-7 | File | `/config/getuser` | High
-8 | File | `/EASYIO30P-123456789012345678901234567890123456789012345678/webuser.js` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-11 | File | `/Online%20Course%20Registration/my-profile.php` | High
-12 | File | `/opt/mysql` | Medium
-13 | File | `/private/sessions` | High
-14 | File | `/root/*.db` | Medium
-15 | File | `/sre/params.php` | High
-16 | File | `/tmp` | Low
-17 | File | `/Users` | Low
-18 | File | `/var/avamar/f_cache.dat` | High
-19 | File | `/var/spool/hylafax` | High
-20 | File | `26.html` | Low
-21 | File | `action/addproject.php` | High
-22 | File | `ActivityStarter.java` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin.php/upload/picture.html` | High
-25 | File | `admin.php?s=Tpl/Add/id` | High
-26 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
-27 | File | `admin/manage-fields.php` | High
-28 | File | `admin/wp-security-blacklist-menu.php` | High
-29 | File | `af_netlink.c` | Medium
-30 | File | `ajaxRequest/methodCall.do` | High
-31 | File | `album_portal.php` | High
-32 | File | `Alias.asmx` | Medium
-33 | File | `api.php/List/index` | High
-34 | File | `app-layer-enip-commmon.c` | High
-35 | File | `app/operator_panel/index_inc.php` | High
-36 | File | `application/core/Survey_Common_Action.php` | High
-37 | File | `archivejson.cgi` | High
-38 | File | `authpam.c` | Medium
-39 | File | `AvailableApps.php` | High
-40 | File | `bb_smilies.php/bbcode_ref.php` | High
-41 | File | `Blog.CGI` | Medium
-42 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/upload/upload` | High
+6 | File | `/apply_noauth.cgi` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/blog/blog.php` | High
+9 | File | `/blogengine/api/posts` | High
+10 | File | `/cgi-bin/api-get_line_status` | High
+11 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+12 | File | `/cgi-bin/upload_vpntar` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/tomcat8/Catalina/attack` | High
+17 | File | `/export` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/horde/util/go.php` | High
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/ims/login.php` | High
+24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+25 | File | `/login/index.php` | High
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/oauth/logout?redirect=url` | High
+28 | File | `/obs/book.php` | High
+29 | File | `/ossn/administrator/com_installer` | High
+30 | File | `/out.php` | Medium
+31 | File | `/pms/update_user.php?user_id=1` | High
+32 | File | `/proxy` | Low
+33 | File | `/reports/rwservlet` | High
+34 | File | `/tmp/net-$DEVICE.conf` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/user/upload/upload` | High
+37 | File | `/vendor` | Low
+38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+39 | ... | ... | ...
 
-There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2794,6 +2791,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2022/02/21/qbot-and-zerologon-lead-to-full-domain-compromise/
 * https://tria.ge/210511-kvcz7vyfkx
 * https://twitter.com/Malwar3Ninja/status/1483514897266737154
+* https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
 * https://www.zscaler.com/blogs/security-research/rise-qakbot-attacks-traced-evolving-threat-techniques
 
 ## Literature
@@ -2805,4 +2803,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

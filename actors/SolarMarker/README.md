@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 25 more country items available. Please use our online service to access the data.
@@ -38,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -49,32 +50,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/apiadmin/notice/add` | High
-3 | File | `/cloud_config/router_post/register` | High
-4 | File | `/etc/gsissh/sshd_config` | High
-5 | File | `/forms/nslookupHandler` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/include/chart_generator.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/log_download.cgi` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/news.dtl.php` | High
-12 | File | `/p1/p2/:name` | Medium
-13 | File | `/ptms/?page=user` | High
-14 | File | `/setup/finish` | High
-15 | File | `/spip.php` | Medium
-16 | File | `/uncpath/` | Medium
-17 | File | `/upload/file.php` | High
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-20 | File | `/wolfcms/?/admin/user/add` | High
-21 | File | `/wp-admin` | Medium
-22 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-23 | File | `/wp-json/wc/v3/webhooks` | High
-24 | File | `5.2.9\syscrb.exe` | High
-25 | ... | ... | ...
+2 | File | `/api2/html/` | Medium
+3 | File | `/apiadmin/notice/add` | High
+4 | File | `/cloud_config/router_post/register` | High
+5 | File | `/etc/gsissh/sshd_config` | High
+6 | File | `/forms/nslookupHandler` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/include/chart_generator.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/log_download.cgi` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/news.dtl.php` | High
+13 | File | `/p1/p2/:name` | Medium
+14 | File | `/proc/<PID>/mem` | High
+15 | File | `/ptms/?page=user` | High
+16 | File | `/setup/finish` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/template/edit` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/upload/file.php` | High
+21 | File | `/usr/bin/pkexec` | High
+22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+23 | File | `/wolfcms/?/admin/user/add` | High
+24 | File | `/wp-admin` | Medium
+25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+26 | File | `/wp-json/wc/v3/webhooks` | High
+27 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -91,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

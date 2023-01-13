@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1295,12 +1295,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1308,62 +1309,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/conferences/get-all-status/` | High
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/api/admin/articles/` | High
 4 | File | `/admin/controller/JobLogController.java` | High
 5 | File | `/Admin/login.php` | High
 6 | File | `/admin/subnets/ripe-query.php` | High
 7 | File | `/api/audits` | Medium
-8 | File | `/api/v1/attack/token` | High
-9 | File | `/apilog.php` | Medium
-10 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-11 | File | `/assets` | Low
-12 | File | `/baseOpLog.do` | High
-13 | File | `/cgi-bin/ExportAllSettings.sh` | High
-14 | File | `/cgi-bin/nightled.cgi` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/connectors/index.php` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/core/conditions/AbstractWrapper.java` | High
-19 | File | `/crmeb/crmeb/services/UploadService.php` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-22 | File | `/env` | Low
-23 | File | `/export` | Low
-24 | File | `/face-recognition-php/facepay-master/camera.php` | High
-25 | File | `/form/index.php?module=getjson` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/addRouting` | High
-28 | File | `/goform/doReboot` | High
-29 | File | `/h/search?action` | High
-30 | File | `/hardware` | Medium
-31 | File | `/hrm/employeeadd.php` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/includes/login.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/items/view_item.php` | High
-36 | File | `/login.php` | Medium
-37 | File | `/lookin/info` | Medium
-38 | File | `/management/users/register` | High
-39 | File | `/manager/index.php` | High
-40 | File | `/medical/inventories.php` | High
-41 | File | `/mkshope/login.php` | High
-42 | File | `/modules/profile/index.php` | High
-43 | File | `/modules/projects/vw_files.php` | High
-44 | File | `/modules/public/calendar.php` | High
-45 | File | `/newsDia.php` | Medium
-46 | File | `/obs/bookPerPub.php` | High
-47 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-48 | File | `/out.php` | Medium
-49 | File | `/pages/processlogin.php` | High
-50 | File | `/ptipupgrade.cgi` | High
-51 | File | `/Redcock-Farm/farm/category.php` | High
-52 | File | `/sacco_shield/manage_user.php` | High
-53 | File | `/spip.php` | Medium
-54 | ... | ... | ...
+8 | File | `/api/resource/Item?fields` | High
+9 | File | `/api/v1/attack/token` | High
+10 | File | `/apilog.php` | Medium
+11 | File | `/baseOpLog.do` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/connectors/index.php` | High
+14 | File | `/core/conditions/AbstractWrapper.java` | High
+15 | File | `/crmeb/crmeb/services/UploadService.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/env` | Low
+19 | File | `/export` | Low
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/doReboot` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/hardware` | Medium
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/includes/login.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/items/view_item.php` | High
+31 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+33 | File | `/login.php` | Medium
+34 | File | `/lookin/info` | Medium
+35 | File | `/management/users/register` | High
+36 | File | `/manager/index.php` | High
+37 | File | `/medical/inventories.php` | High
+38 | File | `/modules/profile/index.php` | High
+39 | File | `/modules/projects/vw_files.php` | High
+40 | File | `/modules/public/calendar.php` | High
+41 | File | `/newsDia.php` | Medium
+42 | File | `/obs/bookPerPub.php` | High
+43 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+44 | File | `/out.php` | Medium
+45 | File | `/pages/processlogin.php` | High
+46 | File | `/proxy` | Low
+47 | File | `/ptipupgrade.cgi` | High
+48 | File | `/Redcock-Farm/farm/category.php` | High
+49 | File | `/reports/rwservlet` | High
+50 | File | `/sacco_shield/manage_user.php` | High
+51 | File | `/spip.php` | Medium
+52 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+53 | File | `/staff/bookdetails.php` | High
+54 | File | `/uncpath/` | Medium
+55 | File | `/user/loader.php?api=1` | High
+56 | File | `/user/update_booking.php` | High
+57 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1382,4 +1386,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

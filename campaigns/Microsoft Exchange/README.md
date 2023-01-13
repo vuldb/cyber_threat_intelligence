@@ -8,7 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Microsoft Exchange:
 
-* [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
+* [VN](https://vuldb.com/?country.vn)
+* ...
+
+There are 30 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -25,12 +30,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [54.221.65.242](https://vuldb.com/?ip.54.221.65.242) | ec2-54-221-65-242.compute-1.amazonaws.com | [Tortilla](https://vuldb.com/?actor.tortilla) | Medium
-2 | [168.119.93.163](https://vuldb.com/?ip.168.119.93.163) | dupa.tk | [Tortilla](https://vuldb.com/?actor.tortilla) | High
-3 | [185.219.52.229](https://vuldb.com/?ip.185.219.52.229) | - | [Tortilla](https://vuldb.com/?actor.tortilla) | High
-4 | ... | ... | ... | ...
+1 | [5.180.61.17](https://vuldb.com/?ip.5.180.61.17) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [47.242.39.92](https://vuldb.com/?ip.47.242.39.92) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+3 | [54.221.65.242](https://vuldb.com/?ip.54.221.65.242) | ec2-54-221-65-242.compute-1.amazonaws.com | [Tortilla](https://vuldb.com/?actor.tortilla) | Medium
+4 | [61.244.94.85](https://vuldb.com/?ip.61.244.94.85) | 061244094085.ctinets.com | [Unknown](https://vuldb.com/?actor.unknown) | High
+5 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,13 +44,68 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
+
+There are 20 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration during Microsoft Exchange. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/academic/studenview_left.php` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/new-content` | High
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/api/crontab` | Medium
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/api/storage/upload/PostImage` | High
+8 | File | `/application/common.php#action_log` | High
+9 | File | `/asms/admin/products/manage_product.php` | High
+10 | File | `/asms/products/view_product.php` | High
+11 | File | `/cgi-bin/koha/members/paycollect.pl` | High
+12 | File | `/common/download?filename=1.jsp&delete=false` | High
+13 | File | `/common/info.cgi` | High
+14 | File | `/config/getuser` | High
+15 | File | `/dashboard/snapshot/*?orgId=0` | High
+16 | File | `/exports/export.php` | High
+17 | File | `/gena.cgi` | Medium
+18 | File | `/getcfg.php` | Medium
+19 | File | `/html/portal/flash.jsp` | High
+20 | File | `/include/chart_generator.php` | High
+21 | File | `/lan.asp` | Medium
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/metrics` | Medium
+24 | File | `/MIME/INBOX-MM-1/` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/photo/webapi/photo.php` | High
+27 | File | `/plesk-site-preview/` | High
+28 | File | `/requests.php` | High
+29 | File | `/resources//../` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/setSystemAdmin` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/start_apply.htm` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload` | Low
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/vitrea-view/error/` | High
+38 | ... | ... | ...
+
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2021/11/babuk-exploits-exchange.html
+* https://github.com/Cisco-Talos/IOCs/blob/main/2022/09/threat-advisory-exchange-server-vulns.txt
 * https://isc.sans.edu/forums/diary/Scanning+for+Microsoft+Exchange+eDiscovery/27748/
 
 ## Literature
@@ -56,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

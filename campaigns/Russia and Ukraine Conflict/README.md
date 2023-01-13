@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -60,11 +60,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,35 +72,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/audits` | Medium
-2 | File | `/bsms_ci/index.php` | High
-3 | File | `/bsms_ci/index.php/book` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/cms/category/list` | High
-6 | File | `/env` | Low
-7 | File | `/face-recognition-php/facepay-master/camera.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/FreshRSS/p/ext.php` | High
-10 | File | `/goform/addressNat` | High
-11 | File | `/goform/CertListInfo` | High
-12 | File | `/goform/fast_setting_wifi_set` | High
-13 | File | `/goform/IPSECsave` | High
-14 | File | `/goform/L7Im` | Medium
-15 | File | `/goform/NatStaticSetting` | High
-16 | File | `/goform/qossetting` | High
-17 | File | `/goform/SafeClientFilter` | High
-18 | File | `/goform/SafeMacFilter` | High
-19 | File | `/goform/SafeUrlFilter` | High
-20 | File | `/goform/setMacFilterCfg` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/SysToolRestoreSet` | High
-23 | File | `/goform/VirtualSer` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/hrm/controller/employee.php` | High
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/api/audits` | Medium
+3 | File | `/bsms_ci/index.php/user/edit_user/` | High
+4 | File | `/cms/category/list` | High
+5 | File | `/env` | Low
+6 | File | `/face-recognition-php/facepay-master/camera.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/FreshRSS/p/ext.php` | High
+9 | File | `/goform/addressNat` | High
+10 | File | `/goform/CertListInfo` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | File | `/goform/IPSECsave` | High
+13 | File | `/goform/L7Im` | Medium
+14 | File | `/goform/NatStaticSetting` | High
+15 | File | `/goform/qossetting` | High
+16 | File | `/goform/SafeClientFilter` | High
+17 | File | `/goform/SafeMacFilter` | High
+18 | File | `/goform/SafeUrlFilter` | High
+19 | File | `/goform/setMacFilterCfg` | High
+20 | File | `/goform/SysToolReboot` | High
+21 | File | `/goform/SysToolRestoreSet` | High
+22 | File | `/goform/VirtualSer` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
 26 | File | `/leave_system/admin/?page=maintenance/department` | High
-27 | ... | ... | ...
+27 | File | `/lib` | Low
+28 | File | `/login` | Low
+29 | File | `/m3_exec.h` | Medium
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+32 | File | `/picturesPreview` | High
+33 | File | `/product/savenewproduct.php?flag=1` | High
+34 | File | `/scenegraph/svg_attributes.c` | High
+35 | File | `/school/model/get_subject.php` | High
+36 | File | `/services/Card/findUser` | High
+37 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

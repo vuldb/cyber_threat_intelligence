@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
+* [US](https://vuldb.com/?country.us)
 * [SV](https://vuldb.com/?country.sv)
-* [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -34,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,35 +49,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
-2 | File | `/addNotifyServlet` | High
-3 | File | `/admin/sign/out` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/adminui/error_details.php` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/balance/service/list` | High
-8 | File | `/bsms_ci/index.php/user/edit_user/` | High
-9 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-11 | File | `/common/ajax_email_connection_test.php` | High
-12 | File | `/common/download_agent_installer.php` | High
-13 | File | `/common/download_attachment.php` | High
-14 | File | `/common/run_cross_report.php` | High
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/goform/CertListInfo` | High
-17 | File | `/goform/dir_setWanWifi` | High
-18 | File | `/goform/IPSECsave` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/login` | Low
-21 | File | `/opt/tms/bin/cli` | High
-22 | File | `/proc/self/environ` | High
-23 | File | `/product/savenewproduct.php?flag=1` | High
-24 | File | `/tmp/boa-temp` | High
-25 | File | `/tools/developerConsoleOperations.jsp` | High
-26 | File | `/ui/cbpc/login` | High
-27 | ... | ... | ...
+1 | File | `/adminui/history_log.php` | High
+2 | File | `/apply.cgi` | Medium
+3 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
+4 | File | `/balance/service/list` | High
+5 | File | `/bsms_ci/index.php/user/edit_user/` | High
+6 | File | `/ci_hms/massage_room/edit/1` | High
+7 | File | `/common/ajax_email_connection_test.php` | High
+8 | File | `/common/download_agent_installer.php` | High
+9 | File | `/common/download_attachment.php` | High
+10 | File | `/common/run_cross_report.php` | High
+11 | File | `/common/user_profile.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/CertListInfo` | High
+14 | File | `/goform/IPSECsave` | High
+15 | File | `/goform/WifiBasicSet` | High
+16 | File | `/hss/admin/?page=client/manage_client` | High
+17 | File | `/login.php` | Medium
+18 | File | `/login/index.php` | High
+19 | File | `/php_action/createUser.php` | High
+20 | File | `/product/savenewproduct.php?flag=1` | High
+21 | File | `/setNTP.cgi` | Medium
+22 | File | `/tpts/manage_user.php` | High
+23 | File | `/ui/cbpc/login` | High
+24 | File | `/v1/sql-runner` | High
+25 | File | `actions/UploadAction.php` | High
+26 | File | `add_contestant.php` | High
+27 | File | `admin/panels/entry/admin.entry.list.php` | High
+28 | File | `admin/plugin-preferences.php` | High
+29 | File | `administrative` | High
+30 | File | `and/or` | Low
+31 | File | `announce.php` | Medium
+32 | File | `Ap4StscAtom.cpp` | High
+33 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

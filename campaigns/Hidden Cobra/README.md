@@ -182,23 +182,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/reports.php` | High
 3 | File | `/catcompany.php` | High
 4 | File | `/cgi-bin/login.cgi` | High
-5 | File | `/export` | Low
-6 | File | `/forgetpassword.php` | High
-7 | File | `/FormLogin` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/graphStatus/displayServiceStatus.php` | High
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/out.php` | Medium
-12 | File | `/plugin` | Low
-13 | File | `/proc/pid/syscall` | High
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-16 | File | `/servlet.gupld` | High
-17 | File | `/sql/sql_type.cc` | High
-18 | File | `/tools/developerConsoleOperations.jsp` | High
-19 | ... | ... | ...
+5 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+6 | File | `/cgi-bin/R14.2/log.pl` | High
+7 | File | `/export` | Low
+8 | File | `/forgetpassword.php` | High
+9 | File | `/FormLogin` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/graphStatus/displayServiceStatus.php` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/out.php` | Medium
+14 | File | `/plugin` | Low
+15 | File | `/proc/pid/syscall` | High
+16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+18 | File | `/servlet.gupld` | High
+19 | File | `/sql/sql_type.cc` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -215,4 +216,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

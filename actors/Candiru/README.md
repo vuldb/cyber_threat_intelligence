@@ -83,18 +83,18 @@ ID | Type | Indicator | Confidence
 22 | File | `/etc/passwd` | Medium
 23 | File | `/getcfg.php` | Medium
 24 | File | `/goform/SetClientState` | High
-25 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-26 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-27 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/librarian/lab.php` | High
-30 | File | `/login` | Low
-31 | File | `/mngset/authset` | High
-32 | File | `/nova/bin/sniffer` | High
-33 | File | `/ofcms/company-c-47` | High
+25 | File | `/goform/SysToolChangePwd` | High
+26 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+27 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+28 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/librarian/lab.php` | High
+31 | File | `/login` | Low
+32 | File | `/mngset/authset` | High
+33 | File | `/nova/bin/sniffer` | High
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

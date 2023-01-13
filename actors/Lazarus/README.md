@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -274,9 +274,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -286,35 +287,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
 2 | File | `/api/audits` | Medium
-3 | File | `/bsms_ci/index.php` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/ctcprotocol/Protocol` | High
-6 | File | `/env` | Low
-7 | File | `/face-recognition-php/facepay-master/camera.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/FreshRSS/p/ext.php` | High
-10 | File | `/goform/addressNat` | High
-11 | File | `/goform/CertListInfo` | High
-12 | File | `/goform/fast_setting_wifi_set` | High
-13 | File | `/goform/IPSECsave` | High
-14 | File | `/goform/L7Im` | Medium
-15 | File | `/goform/NatStaticSetting` | High
-16 | File | `/goform/qossetting` | High
-17 | File | `/goform/SafeClientFilter` | High
-18 | File | `/goform/SafeMacFilter` | High
-19 | File | `/goform/SafeUrlFilter` | High
-20 | File | `/goform/setMacFilterCfg` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/SysToolRestoreSet` | High
-23 | File | `/goform/VirtualSer` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/leave_system/admin/?page=maintenance/department` | High
-27 | File | `/lib` | Low
-28 | File | `/login` | Low
-29 | ... | ... | ...
+3 | File | `/bsms_ci/index.php/user/edit_user/` | High
+4 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+5 | File | `/cgi-bin/R14.2/log.pl` | High
+6 | File | `/ctcprotocol/Protocol` | High
+7 | File | `/env` | Low
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/face-recognition-php/facepay-master/camera.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/FreshRSS/p/ext.php` | High
+12 | File | `/goform/addressNat` | High
+13 | File | `/goform/CertListInfo` | High
+14 | File | `/goform/fast_setting_wifi_set` | High
+15 | File | `/goform/IPSECsave` | High
+16 | File | `/goform/L7Im` | Medium
+17 | File | `/goform/NatStaticSetting` | High
+18 | File | `/goform/qossetting` | High
+19 | File | `/goform/SafeClientFilter` | High
+20 | File | `/goform/SafeMacFilter` | High
+21 | File | `/goform/SafeUrlFilter` | High
+22 | File | `/goform/setMacFilterCfg` | High
+23 | File | `/goform/SysToolReboot` | High
+24 | File | `/goform/SysToolRestoreSet` | High
+25 | File | `/goform/VirtualSer` | High
+26 | File | `/hrm/controller/employee.php` | High
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/ims/login.php` | High
+30 | File | `/leave_system/admin/?page=maintenance/department` | High
+31 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -366,4 +369,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

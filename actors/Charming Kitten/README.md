@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Charming Kitten:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Charming Kitten:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,11 +62,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -76,37 +77,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin/submit-articles` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/app/options.py` | High
-8 | File | `/attachments` | Medium
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/etc/hosts` | Medium
-19 | File | `/export` | Low
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/goform/setmac` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index/jobfairol/show/` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/manage-apartment.php` | High
-27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/submit-articles` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/ad_js.php` | Medium
+5 | File | `/app/options.py` | High
+6 | File | `/attachments` | Medium
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/cgi-bin/luci/api/wireless` | High
+9 | File | `/ci_hms/massage_room/edit/1` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/export` | Low
+17 | File | `/goform/setmac` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/hardware` | Medium
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/pages/apply_vacancy.php` | High
+27 | File | `/plugin/LiveChat/getChat.json.php` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/proxy` | Low
+30 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

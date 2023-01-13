@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,41 +73,41 @@ ID | Type | Indicator | Confidence
 14 | File | `/cms/print.php` | High
 15 | File | `/concat?/%2557EB-INF/web.xml` | High
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/goforms/rlminfo` | High
-22 | File | `/Items/*/RemoteImages/Download` | High
-23 | File | `/login` | Low
-24 | File | `/navigate/navigate_download.php` | High
-25 | File | `/ocwbs/admin/?page=user/manage_user` | High
-26 | File | `/ofrs/admin/?page=user/manage_user` | High
-27 | File | `/out.php` | Medium
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/password.html` | High
-30 | File | `/php_action/fetchSelectedUser.php` | High
-31 | File | `/proc/ioports` | High
-32 | File | `/property-list/property_view.php` | High
-33 | File | `/ptms/classes/Users.php` | High
-34 | File | `/rest` | Low
-35 | File | `/rest/api/2/search` | High
-36 | File | `/s/` | Low
-37 | File | `/scripts/cpan_config` | High
-38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-39 | File | `/services/system/setup.json` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/tmp` | Low
-42 | File | `/uncpath/` | Medium
-43 | File | `/vloggers_merch/?p=view_product` | High
-44 | File | `/webconsole/APIController` | High
-45 | File | `/websocket/exec` | High
-46 | File | `/whbs/?page=my_bookings` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `/wp-json` | Medium
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/login` | Low
+26 | File | `/menu.html` | Medium
+27 | File | `/navigate/navigate_download.php` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ofrs/admin/?page=user/manage_user` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/password.html` | High
+33 | File | `/php_action/fetchSelectedUser.php` | High
+34 | File | `/proc/ioports` | High
+35 | File | `/property-list/property_view.php` | High
+36 | File | `/ptms/classes/Users.php` | High
+37 | File | `/rest/api/2/search` | High
+38 | File | `/s/` | Low
+39 | File | `/scripts/cpan_config` | High
+40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+41 | File | `/services/system/setup.json` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/tmp` | Low
+44 | File | `/uncpath/` | Medium
+45 | File | `/vloggers_merch/?p=view_product` | High
+46 | File | `/webconsole/APIController` | High
+47 | File | `/websocket/exec` | High
+48 | File | `/whbs/?page=my_bookings` | High
 49 | ... | ... | ...
 
-There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

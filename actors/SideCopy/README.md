@@ -61,22 +61,21 @@ ID | Type | Indicator | Confidence
 11 | File | `/file?action=download&file` | High
 12 | File | `/forum/away.php` | High
 13 | File | `/goform/aspForm` | High
-14 | File | `/installers/common.sh` | High
-15 | File | `/medical/inventories.php` | High
-16 | File | `/monitoring` | Medium
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/plugin/LiveChat/getChat.json.php` | High
-19 | File | `/plugins/servlet/audit/resource` | High
-20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-21 | File | `/replication` | Medium
-22 | File | `/RestAPI` | Medium
-23 | File | `/tmp/zarafa-vacation-*` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
-26 | File | `/var/log/nginx` | High
-27 | ... | ... | ...
+14 | File | `/hardware` | Medium
+15 | File | `/installers/common.sh` | High
+16 | File | `/medical/inventories.php` | High
+17 | File | `/monitoring` | Medium
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/replication` | Medium
+23 | File | `/RestAPI` | Medium
+24 | File | `/tmp/zarafa-vacation-*` | High
+25 | File | `/uncpath/` | Medium
+26 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +95,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

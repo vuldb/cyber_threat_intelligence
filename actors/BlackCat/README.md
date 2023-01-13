@@ -34,15 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,45 +50,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.tin` | Low
-2 | File | `/action/factory` | High
-3 | File | `/action/import_wireguard_cert_file/` | High
-4 | File | `/admin/?page=orders/view_order` | High
-5 | File | `/admin/add-fee.php` | High
-6 | File | `/Admin/add-student.php` | High
-7 | File | `/admin/delstu.php` | High
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `.tin` | Low
+3 | File | `/action/factory` | High
+4 | File | `/action/import_wireguard_cert_file/` | High
+5 | File | `/admin/?page=orders/view_order` | High
+6 | File | `/admin/add-fee.php` | High
+7 | File | `/Admin/add-student.php` | High
 8 | File | `/admin/edit_members.php` | High
-9 | File | `/admin/foldernotice/list` | High
-10 | File | `/admin/fst_upload.inc.php` | High
-11 | File | `/admin/image/list` | High
-12 | File | `/admin/users/index.php` | High
-13 | File | `/api/v1/user` | Medium
-14 | File | `/asms/classes/Master.php?f=delete_service` | High
-15 | File | `/bsms_ci/index.php/user/edit_user/` | High
-16 | File | `/buspassms/download-pass.php` | High
-17 | File | `/cgi-bin/cstecgi.cgi` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Master.php?f=delete_payment` | High
-20 | File | `/classes/Users.php?f=delete_client` | High
-21 | File | `/clients/listclients.php` | High
-22 | File | `/clients/profile` | High
-23 | File | `/cms/category/list` | High
-24 | File | `/contacts/listcontacts.php` | High
-25 | File | `/csms/admin/?page=user/manage_user` | High
-26 | File | `/csms/admin/storages/view_storage.php` | High
-27 | File | `/Default/Bd` | Medium
-28 | File | `/diagnostic/editclient.php` | High
-29 | File | `/etc/init0.d/S80telnetd.sh` | High
-30 | File | `/goform/AddSysLogRule` | High
-31 | File | `/goform/SafeEmailFilter` | High
-32 | File | `/goform/SetIpMacBind` | High
-33 | File | `/goform/setSnmpInfo` | High
-34 | File | `/goform/setUplinkInfo` | High
-35 | File | `/goform/SysToolReboot` | High
-36 | File | `/goform/wizard_end` | High
-37 | ... | ... | ...
+9 | File | `/admin/fst_upload.inc.php` | High
+10 | File | `/admin/users/index.php` | High
+11 | File | `/asms/classes/Master.php?f=delete_service` | High
+12 | File | `/bsms_ci/index.php/user/edit_user/` | High
+13 | File | `/cgi-bin/cstecgi.cgi` | High
+14 | File | `/classes/Users.php?f=delete_client` | High
+15 | File | `/clients/listclients.php` | High
+16 | File | `/clients/profile` | High
+17 | File | `/cms/category/list` | High
+18 | File | `/contacts/listcontacts.php` | High
+19 | File | `/csms/admin/?page=user/manage_user` | High
+20 | File | `/csms/admin/storages/view_storage.php` | High
+21 | File | `/Default/Bd` | Medium
+22 | File | `/diagnostic/editclient.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/AddSysLogRule` | High
+25 | File | `/goform/SafeEmailFilter` | High
+26 | File | `/goform/SetIpMacBind` | High
+27 | File | `/goform/setSnmpInfo` | High
+28 | File | `/goform/setUplinkInfo` | High
+29 | File | `/goform/SysToolReboot` | High
+30 | File | `/goform/WifiBasicSet` | High
+31 | File | `/graphql` | Medium
+32 | File | `/home/hjsz/jsonlint/src/lexer` | High
+33 | File | `/hrm/employeeview.php` | High
+34 | File | `/hss/?page=categories` | High
+35 | File | `/hss/admin/brands/manage_brand.php` | High
+36 | File | `/index.php?module=entities/entities` | High
+37 | File | `/index.php?module=global_lists/lists` | High
+38 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+39 | File | `/index.php?module=users_alerts/users_alerts` | High
+40 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

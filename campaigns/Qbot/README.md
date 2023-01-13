@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Qbot:
 
 * [IN](https://vuldb.com/?country.in)
-* [GB](https://vuldb.com/?country.gb)
 
 ## Actors
 
@@ -104,28 +103,29 @@ ID | Type | Indicator | Confidence
 5 | File | `/forum/away.php` | High
 6 | File | `/front/document.form.php` | High
 7 | File | `/goform/wizard_end` | High
-8 | File | `/ibi_apps/WFServlet.cfg` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/mhds/clinic/view_details.php` | High
-11 | File | `/out.php` | Medium
-12 | File | `/rest/api/latest/projectvalidate/key` | High
-13 | File | `/rest/collectors/1.0/template/custom` | High
-14 | File | `/RestAPI` | Medium
-15 | File | `/search.php` | Medium
-16 | File | `/ServletAPI/accounts/login` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/user/login/oauth` | High
-19 | File | `/usr/bin/pkexec` | High
-20 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-21 | File | `/var/log/messages` | High
-22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-23 | File | `/WEB-INF/web.xml` | High
-24 | File | `/websocket/exec` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/wp-json` | Medium
-27 | ... | ... | ...
+8 | File | `/include/chart_generator.php` | High
+9 | File | `/mhds/clinic/view_details.php` | High
+10 | File | `/out.php` | Medium
+11 | File | `/rest/api/latest/projectvalidate/key` | High
+12 | File | `/rest/collectors/1.0/template/custom` | High
+13 | File | `/RestAPI` | Medium
+14 | File | `/search.php` | Medium
+15 | File | `/ServletAPI/accounts/login` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/user/login/oauth` | High
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+20 | File | `/var/log/messages` | High
+21 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+22 | File | `/websocket/exec` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `/x_program_center/jaxrs/invoke` | High
+25 | File | `/zm/index.php` | High
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `action-visitor.php` | High
+28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -145,4 +145,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

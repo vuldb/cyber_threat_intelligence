@@ -24,12 +24,12 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.61.37.207](https://vuldb.com/?ip.5.61.37.207) | mx.domain.com | - | High
 2 | [5.199.162.220](https://vuldb.com/?ip.5.199.162.220) | - | - | High
 3 | [5.199.162.229](https://vuldb.com/?ip.5.199.162.229) | - | - | High
-4 | [46.166.161.93](https://vuldb.com/?ip.46.166.161.93) | - | - | High
-5 | [46.166.161.123](https://vuldb.com/?ip.46.166.161.123) | - | - | High
-6 | [46.166.162.96](https://vuldb.com/?ip.46.166.162.96) | - | - | High
+4 | [45.9.150.144](https://vuldb.com/?ip.45.9.150.144) | - | - | High
+5 | [46.166.161.93](https://vuldb.com/?ip.46.166.161.93) | - | - | High
+6 | [46.166.161.123](https://vuldb.com/?ip.46.166.161.123) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,12 +68,13 @@ ID | Type | Indicator | Confidence
 15 | File | `/sbin/acos_service` | High
 16 | ... | ... | ...
 
-There are 131 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.netlab.360.com/warning-hive-variant-xdr33-is-coming_cn/
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-321a
 * https://www.varonis.com/blog/hive-ransomware-analysis
 
@@ -86,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

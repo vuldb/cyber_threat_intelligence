@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
 * [SC](https://vuldb.com/?country.sc)
-* [IT](https://vuldb.com/?country.it)
-* [SV](https://vuldb.com/?country.sv)
+* [DE](https://vuldb.com/?country.de)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -96,14 +96,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,37 +111,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
-2 | File | `.forward` | Medium
-3 | File | `/addNotifyServlet` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/adminui/error_details.php` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/common/run_cross_report.php` | High
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/face-recognition-php/facepay-master/camera.php` | High
-12 | File | `/goform/dir_setWanWifi` | High
-13 | File | `/goform/IPSECsave` | High
-14 | File | `/hrm/controller/employee.php` | High
-15 | File | `/hss/?page=categories` | High
-16 | File | `/hss/?page=product_per_brand` | High
-17 | File | `/hss/admin/?page=products/view_product` | High
-18 | File | `/menu.html` | Medium
-19 | File | `/tmp/app/.env` | High
-20 | File | `/uploadServlet` | High
-21 | File | `/usr/local/vesta/bin` | High
-22 | File | `/usr/sbin/httpd` | High
-23 | File | `/usr/ucb/mail` | High
-24 | File | `/v1/sql-runner` | High
-25 | File | `/var/log/nginx` | High
-26 | File | `/vendor` | Low
-27 | File | `/workspaceCleanup` | High
-28 | File | `5.2.9\syscrb.exe` | High
-29 | ... | ... | ...
+1 | File | `/admin/api/admin/articles/` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/adminui/history_log.php` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/common/run_cross_report.php` | High
+6 | File | `/common/user_profile.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/dir_setWanWifi` | High
+9 | File | `/goform/IPSECsave` | High
+10 | File | `/goform/WifiBasicSet` | High
+11 | File | `/hss/admin/?page=client/manage_client` | High
+12 | File | `/login/index.php` | High
+13 | File | `/product/savenewproduct.php?flag=1` | High
+14 | File | `/setNTP.cgi` | Medium
+15 | File | `/ui/cbpc/login` | High
+16 | File | `/v1/sql-runner` | High
+17 | File | `actions/UploadAction.php` | High
+18 | File | `adclick.php` | Medium
+19 | File | `admin/AJAX_lookup_handler.php` | High
+20 | File | `admin/panels/entry/admin.entry.list.php` | High
+21 | File | `admin/plugin-preferences.php` | High
+22 | File | `admin/plugin-settings.php` | High
+23 | File | `administrative` | High
+24 | File | `ajax/getDropdownValue.php` | High
+25 | File | `announce.php` | Medium
+26 | File | `Ap4StssAtom.cpp` | High
+27 | File | `api/?api=add_server` | High
+28 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+29 | File | `app/controller/insertarSliderAjax.php` | High
+30 | File | `app/controllers/code_caller_controller.php` | High
+31 | File | `app/controllers/oauth.js` | High
+32 | File | `app/controllers/uploaded_files_controller.rb` | High
+33 | File | `app/filters.php` | High
+34 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+35 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -168,4 +174,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [BR](https://vuldb.com/?country.br)
+* [DE](https://vuldb.com/?country.de)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -19,8 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.238.25.2](https://vuldb.com/?ip.45.238.25.2) | ip-45-238-25-2.interlink.com.br | - | High
-2 | [118.70.116.154](https://vuldb.com/?ip.118.70.116.154) | - | - | High
-3 | [163.25.24.44](https://vuldb.com/?ip.163.25.24.44) | - | - | High
+2 | [104.168.174.80](https://vuldb.com/?ip.104.168.174.80) | client-104-168-174-80.hostwindsdns.com | - | High
+3 | [104.168.249.50](https://vuldb.com/?ip.104.168.249.50) | client-104-168-249-50.hostwindsdns.com | - | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -30,10 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,14 +50,16 @@ ID | Type | Indicator | Confidence
 1 | File | `/mgmt/tm/util/bash` | High
 2 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 3 | File | `auth.php` | Medium
-4 | ... | ... | ...
+4 | File | `books.php` | Medium
+5 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://securelist.com/bluenoroff-methods-bypass-motw/108383/
 * https://securelist.com/the-bluenoroff-cryptocurrency-hunt-is-still-on/105488/
 
 ## Literature
@@ -63,4 +71,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

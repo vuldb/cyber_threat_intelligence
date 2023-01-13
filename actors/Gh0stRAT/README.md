@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,10 +99,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 15 more TTP items available. Please use our online service to access the data.
@@ -115,65 +115,65 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.kss.pid` | Medium
 2 | File | `.qpopper-options` | High
-3 | File | `/ctcprotocol/Protocol` | High
-4 | File | `/menu.html` | Medium
-5 | File | `/modules/snf/index.php` | High
-6 | File | `/ossn/administrator/com_installer` | High
-7 | File | `/sre/params.php` | High
-8 | File | `/tmp` | Low
-9 | File | `/Users` | Low
-10 | File | `/var/avamar/f_cache.dat` | High
-11 | File | `26.html` | Low
-12 | File | `adclick.php` | Medium
-13 | File | `add_postit.php` | High
-14 | File | `admin.php` | Medium
-15 | File | `admin/index.php` | High
-16 | File | `admin/wp-security-blacklist-menu.php` | High
-17 | File | `administration.jsp` | High
-18 | File | `adminquery.php` | High
-19 | File | `af_netlink.c` | Medium
-20 | File | `ajaxRequest/methodCall.do` | High
-21 | File | `album_portal.php` | High
-22 | File | `ansfaq.asp` | Medium
-23 | File | `artreplydelete.asp` | High
-24 | File | `attachment.cgi` | High
-25 | File | `authpam.c` | Medium
-26 | File | `autocms.php` | Medium
-27 | File | `avahi-core/socket.c` | High
-28 | File | `banner.php` | Medium
-29 | File | `base_qry_main.php` | High
-30 | File | `bb_smilies.php/bbcode_ref.php` | High
-31 | File | `bgp_packet.c` | Medium
-32 | File | `Binder.java` | Medium
-33 | File | `Blog.CGI` | Medium
-34 | File | `blogroll.php` | Medium
-35 | File | `boundary_rules.jsp` | High
-36 | File | `browser/ui/browser_tabstrip.cc` | High
-37 | File | `calendar.php` | Medium
-38 | File | `calendar_scheduler.php` | High
-39 | File | `cal_config.inc.php` | High
-40 | File | `category.php` | Medium
-41 | File | `centrify.cmd.0` | High
-42 | File | `CGI.pm` | Low
-43 | File | `channels/chan_sip.c` | High
-44 | File | `claro_init_global.inc.php` | High
-45 | File | `class/class.php` | High
-46 | File | `classifieds/viewcat.cgi` | High
-47 | File | `cls_fast_template.php` | High
-48 | File | `comersus_customerauthenticateform.asp` | High
-49 | File | `comersus_supporterror.asp` | High
-50 | File | `compose.php` | Medium
-51 | File | `contact_us.php` | High
-52 | File | `content.php` | Medium
-53 | File | `crontab.c` | Medium
-54 | File | `crypto/algif_hash.c` | High
-55 | File | `ctrlservice.exe` | High
-56 | File | `DBUTIL.PUB.SYS` | High
-57 | File | `decode.c` | Medium
-58 | File | `default.asp` | Medium
+3 | File | `/+CSCOE+/logon.html` | High
+4 | File | `/admin/upload/upload` | High
+5 | File | `/apply_noauth.cgi` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/ctcprotocol/Protocol` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/menu.html` | Medium
+12 | File | `/modules/snf/index.php` | High
+13 | File | `/ossn/administrator/com_installer` | High
+14 | File | `/pms/update_user.php?user_id=1` | High
+15 | File | `/tmp` | Low
+16 | File | `/user/upload/upload` | High
+17 | File | `/Users` | Low
+18 | File | `/vendor` | Low
+19 | File | `26.html` | Low
+20 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+21 | File | `adclick.php` | Medium
+22 | File | `add_contestant.php` | High
+23 | File | `add_postit.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/index.php` | High
+26 | File | `admin/make_payments.php` | High
+27 | File | `admin/shophelp.php` | High
+28 | File | `administration.jsp` | High
+29 | File | `adminquery.php` | High
+30 | File | `album_portal.php` | High
+31 | File | `ansfaq.asp` | Medium
+32 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+33 | File | `appGet.cgi` | Medium
+34 | File | `artreplydelete.asp` | High
+35 | File | `attachment.cgi` | High
+36 | File | `authpam.c` | Medium
+37 | File | `autocms.php` | Medium
+38 | File | `avahi-core/socket.c` | High
+39 | File | `banner.php` | Medium
+40 | File | `base_qry_main.php` | High
+41 | File | `bb_smilies.php/bbcode_ref.php` | High
+42 | File | `bgp_packet.c` | Medium
+43 | File | `Binder.java` | Medium
+44 | File | `Blog.CGI` | Medium
+45 | File | `blogroll.php` | Medium
+46 | File | `boundary_rules.jsp` | High
+47 | File | `calendar.php` | Medium
+48 | File | `calendar_scheduler.php` | High
+49 | File | `cal_config.inc.php` | High
+50 | File | `category.php` | Medium
+51 | File | `Category.php` | Medium
+52 | File | `centrify.cmd.0` | High
+53 | File | `CGI.pm` | Low
+54 | File | `chrome-devtools-frontend.appspot.com` | High
+55 | File | `claro_init_global.inc.php` | High
+56 | File | `class/class.php` | High
+57 | File | `classifieds/viewcat.cgi` | High
+58 | File | `cloud.php` | Medium
 59 | ... | ... | ...
 
-There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -233,4 +233,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

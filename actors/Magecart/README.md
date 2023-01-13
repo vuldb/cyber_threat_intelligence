@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [SV](https://vuldb.com/?country.sv)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,42 +68,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/action/import_aaa_cert_file/` | High
 2 | File | `/action/import_wireguard_cert_file/` | High
 3 | File | `/admin/?page=user/manage_user` | High
-4 | File | `/admin/edit_members.php` | High
-5 | File | `/admin/group` | Medium
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/edit_members.php` | High
 6 | File | `/admin/submit-articles` | High
 7 | File | `/admin/users/index.php` | High
-8 | File | `/appointments/manage_appointment.php` | High
-9 | File | `/asms/admin/services/manage_service.php` | High
-10 | File | `/attachments` | Medium
-11 | File | `/aux` | Low
-12 | File | `/balance/service/list` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dev/zero` | Medium
-16 | File | `/editorder.php` | High
-17 | File | `/etc/os-release` | High
-18 | File | `/event/admin/?page=user/list` | High
-19 | File | `/garage/editorder.php` | High
-20 | File | `/goform/addUserName` | High
-21 | File | `/goform/SetIpMacBind` | High
-22 | File | `/goform/WanParameterSetting` | High
-23 | File | `/hprms/admin/rooms/view_room.php` | High
-24 | File | `/hrm/index.php?msg` | High
+8 | File | `/asms/admin/services/manage_service.php` | High
+9 | File | `/attachments` | Medium
+10 | File | `/aux` | Low
+11 | File | `/balance/service/list` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/dev/zero` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/etc/os-release` | High
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/goform/addUserName` | High
+18 | File | `/goform/form2WizardStep4` | High
+19 | File | `/goform/SetIpMacBind` | High
+20 | File | `/goform/WanParameterSetting` | High
+21 | File | `/goform/WifiBasicSet` | High
+22 | File | `/hprms/admin/rooms/view_room.php` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/controller/login.php` | High
 25 | File | `/hss/?page=categories` | High
 26 | File | `/inc/parser/xhtml.php` | High
-27 | File | `/index.php?module=global_lists/lists` | High
-28 | File | `/languages/index.php` | High
-29 | File | `/linkedcontent/listfiles.php` | High
-30 | File | `/mgm_dev_upgrade.asp` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/myAccount` | Medium
-33 | File | `/news-events/events` | High
+27 | File | `/index/user/upload_img.html` | High
+28 | File | `/js/player/dmplayer/dmku/index.php` | High
+29 | File | `/languages/index.php` | High
+30 | File | `/linkedcontent/listfiles.php` | High
+31 | File | `/mgm_dev_upgrade.asp` | High
+32 | File | `/mgm_log_cfg.asp` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 34 | File | `/odlms/?page=appointments/view_appointment` | High
-35 | File | `/odlms/classes/Master.php?f=delete_message` | High
-36 | File | `/php_action/fetchOrderData.php` | High
-37 | ... | ... | ...
+35 | File | `/php_action/fetchSelectedCategories.php` | High
+36 | File | `/proxy` | Low
+37 | File | `/RestAPI` | Medium
+38 | File | `/routing.asp` | Medium
+39 | File | `/services/getFile.cmd` | High
+40 | File | `/services/view_service.php` | High
+41 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +130,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

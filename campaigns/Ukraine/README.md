@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ukraine:
 
 * [VN](https://vuldb.com/?country.vn)
+* [DE](https://vuldb.com/?country.de)
 * [LA](https://vuldb.com/?country.la)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -89,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -104,31 +104,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/audits` | Medium
 2 | File | `/bsms_ci/index.php` | High
-3 | File | `/bsms_ci/index.php/book` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/env` | Low
-6 | File | `/face-recognition-php/facepay-master/camera.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/FreshRSS/p/ext.php` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/CertListInfo` | High
-11 | File | `/goform/fast_setting_wifi_set` | High
-12 | File | `/goform/IPSECsave` | High
-13 | File | `/goform/L7Im` | Medium
-14 | File | `/goform/NatStaticSetting` | High
-15 | File | `/goform/qossetting` | High
-16 | File | `/goform/SafeClientFilter` | High
-17 | File | `/goform/SafeMacFilter` | High
-18 | File | `/goform/SafeUrlFilter` | High
-19 | File | `/goform/setMacFilterCfg` | High
-20 | File | `/goform/SysToolReboot` | High
-21 | File | `/goform/SysToolRestoreSet` | High
-22 | File | `/goform/VirtualSer` | High
-23 | File | `/gpac/src/bifs/unquantize.c` | High
-24 | File | `/hrm/controller/employee.php` | High
-25 | ... | ... | ...
+3 | File | `/bsms_ci/index.php/user/edit_user/` | High
+4 | File | `/env` | Low
+5 | File | `/face-recognition-php/facepay-master/camera.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/FreshRSS/p/ext.php` | High
+8 | File | `/goform/addressNat` | High
+9 | File | `/goform/CertListInfo` | High
+10 | File | `/goform/fast_setting_wifi_set` | High
+11 | File | `/goform/IPSECsave` | High
+12 | File | `/goform/L7Im` | Medium
+13 | File | `/goform/NatStaticSetting` | High
+14 | File | `/goform/qossetting` | High
+15 | File | `/goform/SafeClientFilter` | High
+16 | File | `/goform/SafeMacFilter` | High
+17 | File | `/goform/SafeUrlFilter` | High
+18 | File | `/goform/setMacFilterCfg` | High
+19 | File | `/goform/SysToolReboot` | High
+20 | File | `/goform/SysToolRestoreSet` | High
+21 | File | `/goform/VirtualSer` | High
+22 | File | `/gpac/src/bifs/unquantize.c` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/leave_system/admin/?page=maintenance/department` | High
+27 | File | `/lib` | Low
+28 | File | `/login` | Low
+29 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -165,4 +169,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

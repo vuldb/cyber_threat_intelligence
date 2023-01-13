@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -85,47 +85,48 @@ ID | Type | Indicator | Confidence
 17 | File | `/mgmt/tm/util/bash` | High
 18 | File | `/mifs/c/i/reg/reg.html` | High
 19 | File | `/modules/profile/index.php` | High
-20 | File | `/products/details.asp` | High
-21 | File | `/requests.php` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/secure/ViewCollectors` | High
-24 | File | `/services/details.asp` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/SysInfo.htm` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-29 | File | `/usr/syno/etc/mount.conf` | High
-30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-31 | File | `/vendor` | Low
-32 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-33 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-34 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-35 | File | `a-b-membres.php` | High
-36 | File | `actions.php` | Medium
-37 | File | `adclick.php` | Medium
-38 | File | `add.php` | Low
-39 | File | `addtocart.asp` | High
-40 | File | `add_2_basket.asp` | High
-41 | File | `add_comment.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin.php/comments/batchdel/` | High
-44 | File | `admin/aboutus.php` | High
-45 | File | `admin/adm/test.php` | High
-46 | File | `admin/bitrix.mpbuilder_step2.php` | High
-47 | File | `admin/conf_users_edit.php` | High
-48 | File | `admin/media.php` | High
-49 | File | `admin/vqmods.app/vqmods.inc.php` | High
-50 | File | `adminer.php` | Medium
-51 | File | `administrator/components/com_media/helpers/media.php` | High
-52 | File | `admin\controller\uploadfile.php` | High
-53 | File | `agora.cgi` | Medium
-54 | File | `album_portal.php` | High
-55 | File | `al_initialize.php` | High
-56 | File | `application/modules/admin/views/ecommerce/products.php` | High
-57 | File | `ArchiveNews.aspx` | High
-58 | ... | ... | ...
+20 | File | `/out.php` | Medium
+21 | File | `/products/details.asp` | High
+22 | File | `/requests.php` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/secure/ViewCollectors` | High
+25 | File | `/services/details.asp` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/SysInfo.htm` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+30 | File | `/usr/syno/etc/mount.conf` | High
+31 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+32 | File | `/vendor` | Low
+33 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+34 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+35 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+36 | File | `a-b-membres.php` | High
+37 | File | `actions.php` | Medium
+38 | File | `adclick.php` | Medium
+39 | File | `add.php` | Low
+40 | File | `addtocart.asp` | High
+41 | File | `add_2_basket.asp` | High
+42 | File | `add_comment.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin.php/comments/batchdel/` | High
+45 | File | `admin/aboutus.php` | High
+46 | File | `admin/adm/test.php` | High
+47 | File | `admin/bitrix.mpbuilder_step2.php` | High
+48 | File | `admin/conf_users_edit.php` | High
+49 | File | `admin/media.php` | High
+50 | File | `admin/vqmods.app/vqmods.inc.php` | High
+51 | File | `adminer.php` | Medium
+52 | File | `administrator/components/com_media/helpers/media.php` | High
+53 | File | `admin\controller\uploadfile.php` | High
+54 | File | `agora.cgi` | Medium
+55 | File | `album_portal.php` | High
+56 | File | `al_initialize.php` | High
+57 | File | `application/modules/admin/views/ecommerce/products.php` | High
+58 | File | `ArchiveNews.aspx` | High
+59 | ... | ... | ...
 
-There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,4 +147,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

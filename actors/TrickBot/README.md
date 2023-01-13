@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -247,42 +247,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_aaa_cert_file/` | High
-2 | File | `/action/import_file/` | High
-3 | File | `/action/import_firmware/` | High
-4 | File | `/action/import_https_cert_file/` | High
-5 | File | `/action/import_nodejs_app/` | High
-6 | File | `/admin/?page=orders/view_order` | High
-7 | File | `/admin/advicefeedback/list` | High
-8 | File | `/Admin/dashboard.php` | High
-9 | File | `/admin/problem_judge.php` | High
-10 | File | `/admin/students/manage.php` | High
-11 | File | `/admin/submit-articles` | High
-12 | File | `/api/audits` | Medium
-13 | File | `/api/sys_username_passwd.cmd` | High
-14 | File | `/api/user/password/sent-reset-email` | High
-15 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-16 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-17 | File | `/asms/classes/Master.php?f=delete_service` | High
-18 | File | `/attachments` | Medium
-19 | File | `/balance/service/list` | High
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/bsms_ci/index.php/user/edit_user/` | High
-22 | File | `/cgi-bin/DownloadFlash` | High
-23 | File | `/classes/Master.php?f=delete_reservation` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/diag_ping_admin.asp` | High
-27 | File | `/diag_tracert_admin.asp` | High
-28 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-29 | File | `/edit-db.php` | Medium
-30 | File | `/env` | Low
-31 | File | `/etc/hosts` | Medium
-32 | File | `/etc/quagga` | Medium
-33 | File | `/face-recognition-php/facepay-master/camera.php` | High
-34 | ... | ... | ...
+1 | File | `/admin/conferences/list/` | High
+2 | File | `/Admin/dashboard.php` | High
+3 | File | `/admin/problem_judge.php` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/api/audits` | Medium
+6 | File | `/api/sys_username_passwd.cmd` | High
+7 | File | `/api/user/password/sent-reset-email` | High
+8 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
+9 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
+10 | File | `/asms/classes/Master.php?f=delete_service` | High
+11 | File | `/attachments` | Medium
+12 | File | `/balance/service/list` | High
+13 | File | `/bsms_ci/index.php` | High
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/classes/Master.php?f=delete_reservation` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/diag_ping_admin.asp` | High
+19 | File | `/diag_tracert_admin.asp` | High
+20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+21 | File | `/edit-db.php` | Medium
+22 | File | `/env` | Low
+23 | File | `/etc/hosts` | Medium
+24 | File | `/etc/quagga` | Medium
+25 | File | `/face-recognition-php/facepay-master/camera.php` | High
+26 | File | `/FormLogin` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/FreshRSS/p/ext.php` | High
+29 | File | `/goform/CertListInfo` | High
+30 | File | `/goform/fast_setting_wifi_set` | High
+31 | File | `/goform/L7Im` | Medium
+32 | File | `/goform/NatStaticSetting` | High
+33 | File | `/goform/SafeClientFilter` | High
+34 | File | `/goform/SafeMacFilter` | High
+35 | File | `/goform/SafeUrlFilter` | High
+36 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -364,4 +366,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

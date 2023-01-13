@@ -55,19 +55,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/system_mgr.cgi` | High
-2 | File | `/s/` | Low
-3 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/wbg/core/_includes/authorization.inc.php` | High
-6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-7 | File | `admin/import/class-import-settings.php` | High
-8 | File | `ajax/comments.php` | High
-9 | File | `architext.conf` | High
-10 | File | `attachment_send.php` | High
+1 | File | `%SYSTEMDRIVE%\totalcmd\TOTALCMD64.EXE` | High
+2 | File | `/cgi-bin/system_mgr.cgi` | High
+3 | File | `/s/` | Low
+4 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/wbg/core/_includes/authorization.inc.php` | High
+7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+8 | File | `admin/import/class-import-settings.php` | High
+9 | File | `ajax/comments.php` | High
+10 | File | `architext.conf` | High
 11 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

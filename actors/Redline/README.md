@@ -93,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -122,29 +122,33 @@ ID | Type | Indicator | Confidence
 19 | File | `/etc/gsissh/sshd_config` | High
 20 | File | `/get_getnetworkconf.cgi` | High
 21 | File | `/goform/addUserName` | High
-22 | File | `/goform/wifiSSIDset` | High
-23 | File | `/gpac/src/bifs/unquantize.c` | High
-24 | File | `/GponForm/device_Form?script/` | High
-25 | File | `/home` | Low
-26 | File | `/includes/rrdtool.inc.php` | High
-27 | File | `/index.asp` | Medium
-28 | File | `/index.php` | Medium
-29 | File | `/jfinal_cms/system/role/list` | High
-30 | File | `/Main_AdmStatus_Content.asp` | High
-31 | File | `/members/view_member.php` | High
-32 | File | `/NAGErrors` | Medium
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-35 | File | `/plain` | Low
-36 | File | `/public` | Low
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/sgms/TreeControl` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-41 | File | `/tmp` | Low
-42 | ... | ... | ...
+22 | File | `/goform/delAd` | High
+23 | File | `/goform/wifiSSIDset` | High
+24 | File | `/gpac/src/bifs/unquantize.c` | High
+25 | File | `/GponForm/device_Form?script/` | High
+26 | File | `/home` | Low
+27 | File | `/includes/rrdtool.inc.php` | High
+28 | File | `/index.asp` | Medium
+29 | File | `/index.php` | Medium
+30 | File | `/jfinal_cms/system/role/list` | High
+31 | File | `/Main_AdmStatus_Content.asp` | High
+32 | File | `/members/view_member.php` | High
+33 | File | `/NAGErrors` | Medium
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+36 | File | `/plain` | Low
+37 | File | `/public` | Low
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/sgms/TreeControl` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+42 | File | `/tmp` | Low
+43 | File | `/uncpath/` | Medium
+44 | File | `/updown/upload.cgi` | High
+45 | File | `/var/log/nginx` | High
+46 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -207,4 +211,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -38,7 +38,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,26 +52,26 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/wapopen` | High
 5 | File | `/cgi-bin/webproc` | High
 6 | File | `/classes/Master.php?f=delete_payment` | High
-7 | File | `/ctcprotocol/Protocol` | High
-8 | File | `/dashboard/contact` | High
-9 | File | `/etc/tomcat8/Catalina/attack` | High
-10 | File | `/etc/uci-defaults` | High
-11 | File | `/goform/setSnmpInfo` | High
-12 | File | `/Home/debit_credit_p` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/ossn/administrator/com_installer` | High
-16 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-17 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/user-utils/users/md5.json` | High
-20 | File | `/user/check.php` | High
-21 | File | `/var/avamar/f_cache.dat` | High
-22 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
-23 | File | `/wlanAccess.asp` | High
+7 | File | `/cms/category/list` | High
+8 | File | `/ctcprotocol/Protocol` | High
+9 | File | `/dashboard/contact` | High
+10 | File | `/etc/tomcat8/Catalina/attack` | High
+11 | File | `/etc/uci-defaults` | High
+12 | File | `/goform/setSnmpInfo` | High
+13 | File | `/Home/debit_credit_p` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/nova/bin/console` | High
+16 | File | `/ossn/administrator/com_installer` | High
+17 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+18 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/user-utils/users/md5.json` | High
+21 | File | `/user/check.php` | High
+22 | File | `/var/avamar/f_cache.dat` | High
+23 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
 24 | ... | ... | ...
 
-There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +88,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

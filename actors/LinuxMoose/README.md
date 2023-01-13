@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LinuxMoose:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,11 +44,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -67,30 +67,31 @@ ID | Type | Indicator | Confidence
 6 | File | `/app/options.py` | High
 7 | File | `/attachments` | Medium
 8 | File | `/bin/boa` | Medium
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/dashboard/reports/logs/view` | High
-16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dev/shm` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/export` | Low
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-25 | File | `/index/jobfairol/show/` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/manage-apartment.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | ... | ... | ...
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/core/conditions/AbstractWrapper.java` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dev/shm` | Medium
+17 | File | `/ebics-server/ebics.aspx` | High
+18 | File | `/etc/hosts` | Medium
+19 | File | `/etc/shadow` | Medium
+20 | File | `/export` | Low
+21 | File | `/goform/setmac` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/hardware` | Medium
+24 | File | `/manage-apartment.php` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+27 | File | `/out.php` | Medium
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/plugin/LiveChat/getChat.json.php` | High
+30 | File | `/proc/<PID>/mem` | High
+31 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

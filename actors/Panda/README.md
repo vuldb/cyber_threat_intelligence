@@ -47,22 +47,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/addusers` | High
-2 | File | `/api/blade-log/api/list` | High
-3 | File | `/cgi-bin/editBookmark` | High
-4 | File | `/cgi-bin/system_mgr.cgi` | High
-5 | File | `/client/api/json/v2/nfareports/compareReport` | High
-6 | File | `/dede/file_manage_control.php` | High
-7 | File | `/etc/services/DEVICE.TIME.php` | High
-8 | File | `/horde/imp/search.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/netflow/jspui/selectDevice.jsp` | High
-11 | File | `/public/login.htm` | High
-12 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
-13 | File | `/reports/rwservlet` | High
-14 | ... | ... | ...
+1 | File | `/api/` | Low
+2 | File | `/api/addusers` | High
+3 | File | `/api/blade-log/api/list` | High
+4 | File | `/cgi-bin/editBookmark` | High
+5 | File | `/cgi-bin/system_mgr.cgi` | High
+6 | File | `/client/api/json/v2/nfareports/compareReport` | High
+7 | File | `/dede/file_manage_control.php` | High
+8 | File | `/etc/services/DEVICE.TIME.php` | High
+9 | File | `/horde/imp/search.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/netflow/jspui/selectDevice.jsp` | High
+12 | File | `/public/login.htm` | High
+13 | File | `/public/login.htm?errormsg=&loginurl=%22%3E%3Csvg%20onload=prompt%28/XSS/%29%3E` | High
+14 | File | `/reports/rwservlet` | High
+15 | ... | ... | ...
 
-There are 114 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,4 +80,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

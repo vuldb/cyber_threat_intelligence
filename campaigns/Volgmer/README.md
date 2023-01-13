@@ -79,24 +79,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/../conf/config.properties` | High
 2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
 3 | File | `/cgi-bin/login.cgi` | High
-4 | File | `/componetns/user/class.user.php` | High
-5 | File | `/etc/tomcat8/Catalina/attack` | High
-6 | File | `/FormLogin` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/front/document.form.php` | High
-9 | File | `/goform/wizard_end` | High
-10 | File | `/include/chart_generator.php` | High
-11 | File | `/mhds/clinic/view_details.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/plugin` | Low
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/search.php` | Medium
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/ServletAPI/accounts/login` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/user/login/oauth` | High
-21 | File | `/usr/bin/pkexec` | High
+4 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+5 | File | `/cgi-bin/R14.2/log.pl` | High
+6 | File | `/componetns/user/class.user.php` | High
+7 | File | `/etc/tomcat8/Catalina/attack` | High
+8 | File | `/FormLogin` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/front/document.form.php` | High
+11 | File | `/goform/wizard_end` | High
+12 | File | `/ims/login.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/plugin` | Low
+17 | File | `/rest/api/latest/projectvalidate/key` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/ServletAPI/accounts/login` | High
+21 | File | `/uncpath/` | Medium
 22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
 23 | File | `/var/log/messages` | High
 24 | File | `/var/www/core/controller/index.php` | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 27 | File | `/wp-admin/admin-ajax.php` | High
 28 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -122,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

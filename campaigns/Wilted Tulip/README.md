@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wilted Tulip:
 
-* [PT](https://vuldb.com/?country.pt)
 * [AR](https://vuldb.com/?country.ar)
+* [PT](https://vuldb.com/?country.pt)
 * [IT](https://vuldb.com/?country.it)
 * ...
 
@@ -53,15 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,42 +71,47 @@ ID | Type | Indicator | Confidence
 1 | File | `/action/factory` | High
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin.php` | Medium
-4 | File | `/admin/?page=reports/waste` | High
-5 | File | `/admin/?page=user/manage_user` | High
-6 | File | `/admin/add-fee.php` | High
-7 | File | `/admin/baojia_list.php` | High
-8 | File | `/admin/folderrollpicture/list` | High
-9 | File | `/admin/loginc.php` | High
-10 | File | `/anony/mjpg.cgi` | High
-11 | File | `/api/common/ping` | High
-12 | File | `/api/v2/open/rowsInfo` | High
-13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-14 | File | `/appointments/update_status.php` | High
-15 | File | `/bin/boa` | Medium
-16 | File | `/binbloom-master/src/helpers.c` | High
-17 | File | `/bookings/update_status.php` | High
-18 | File | `/cgi-bin/DownloadFlash` | High
-19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/contacts/listcontacts.php` | High
-21 | File | `/Core/Ap4File.cpp` | High
-22 | File | `/dede/file_manage_control.php` | High
-23 | File | `/depotHead/list` | High
-24 | File | `/etc/ciel.cfg` | High
-25 | File | `/etc/openshift/server_priv.pem` | High
-26 | File | `/etc/os-release` | High
-27 | File | `/etc/pki/pulp/nodes/` | High
-28 | File | `/etc/shadow.sample` | High
-29 | File | `/forms/web_runScript` | High
-30 | File | `/fs/nfsd/nfs4proc.c` | High
-31 | File | `/garage/php_action/createBrand.php` | High
-32 | File | `/general/search.php?searchtype=simple` | High
-33 | File | `/goform/AddSysLogRule` | High
-34 | File | `/goform/AdvSetWrlsafeset` | High
-35 | File | `/goform/formSetFirewallCfg` | High
-36 | File | `/goform/NTPSyncWithHost` | High
-37 | ... | ... | ...
+4 | File | `/admin/add-fee.php` | High
+5 | File | `/admin/baojia_list.php` | High
+6 | File | `/admin/loginc.php` | High
+7 | File | `/anony/mjpg.cgi` | High
+8 | File | `/api/common/ping` | High
+9 | File | `/api/v2/open/rowsInfo` | High
+10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+11 | File | `/appointments/update_status.php` | High
+12 | File | `/binbloom-master/src/helpers.c` | High
+13 | File | `/bookings/update_status.php` | High
+14 | File | `/classes/Users.php?f=delete_client` | High
+15 | File | `/contacts/listcontacts.php` | High
+16 | File | `/Core/Ap4File.cpp` | High
+17 | File | `/data/app` | Medium
+18 | File | `/dede/file_manage_control.php` | High
+19 | File | `/depotHead/list` | High
+20 | File | `/etc/openshift/server_priv.pem` | High
+21 | File | `/etc/os-release` | High
+22 | File | `/etc/pki/pulp/nodes/` | High
+23 | File | `/forms/web_runScript` | High
+24 | File | `/fs/nfsd/nfs4proc.c` | High
+25 | File | `/garage/php_action/createBrand.php` | High
+26 | File | `/general/search.php?searchtype=simple` | High
+27 | File | `/goform/AddSysLogRule` | High
+28 | File | `/goform/AdvSetWrlsafeset` | High
+29 | File | `/goform/formSetFirewallCfg` | High
+30 | File | `/goform/qossetting` | High
+31 | File | `/goform/setAutoPing` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/hss/?page=product_per_brand` | High
+34 | File | `/isomedia/meta.c` | High
+35 | File | `/meetings/listmeetings.php` | High
+36 | File | `/odlms/?page=appointments/view_appointment` | High
+37 | File | `/odlms/classes/Users.php?f=delete` | High
+38 | File | `/one/siteinfo.php` | High
+39 | File | `/proc/*/exe` | Medium
+40 | File | `/projects/listprojects.php` | High
+41 | File | `/release-x64/otfccdump+0x4adcdb` | High
+42 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,4 +128,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

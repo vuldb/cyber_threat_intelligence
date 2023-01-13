@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [ES](https://vuldb.com/?country.es)
 
 ## Actors
 
@@ -58,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,34 +67,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
-2 | File | `/api/audits` | Medium
-3 | File | `/bsms_ci/index.php` | High
-4 | File | `/bsms_ci/index.php/book` | High
-5 | File | `/bsms_ci/index.php/user/edit_user/` | High
-6 | File | `/env` | Low
-7 | File | `/face-recognition-php/facepay-master/camera.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/FreshRSS/p/ext.php` | High
-10 | File | `/goform/addressNat` | High
-11 | File | `/goform/CertListInfo` | High
-12 | File | `/goform/fast_setting_wifi_set` | High
-13 | File | `/goform/IPSECsave` | High
-14 | File | `/goform/L7Im` | Medium
-15 | File | `/goform/NatStaticSetting` | High
-16 | File | `/goform/qossetting` | High
-17 | File | `/goform/SafeClientFilter` | High
-18 | File | `/goform/SafeMacFilter` | High
-19 | File | `/goform/SafeUrlFilter` | High
-20 | File | `/goform/setMacFilterCfg` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/SysToolRestoreSet` | High
-23 | File | `/goform/VirtualSer` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | ... | ... | ...
+1 | File | `/api/audits` | Medium
+2 | File | `/bsms_ci/index.php` | High
+3 | File | `/bsms_ci/index.php/user/edit_user/` | High
+4 | File | `/env` | Low
+5 | File | `/face-recognition-php/facepay-master/camera.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/FreshRSS/p/ext.php` | High
+8 | File | `/goform/addressNat` | High
+9 | File | `/goform/CertListInfo` | High
+10 | File | `/goform/fast_setting_wifi_set` | High
+11 | File | `/goform/IPSECsave` | High
+12 | File | `/goform/L7Im` | Medium
+13 | File | `/goform/NatStaticSetting` | High
+14 | File | `/goform/qossetting` | High
+15 | File | `/goform/SafeClientFilter` | High
+16 | File | `/goform/SafeMacFilter` | High
+17 | File | `/goform/SafeUrlFilter` | High
+18 | File | `/goform/setMacFilterCfg` | High
+19 | File | `/goform/SysToolReboot` | High
+20 | File | `/goform/SysToolRestoreSet` | High
+21 | File | `/goform/VirtualSer` | High
+22 | File | `/gpac/src/bifs/unquantize.c` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/leave_system/admin/?page=maintenance/department` | High
+27 | File | `/lib` | Low
+28 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

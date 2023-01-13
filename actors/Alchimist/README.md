@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [TT](https://vuldb.com/?country.tt)
 
 ## IOC - Indicator of Compromise
 
@@ -17,12 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.32.132.166](https://vuldb.com/?ip.45.32.132.166) | - | - | High
-2 | [95.179.246.73](https://vuldb.com/?ip.95.179.246.73) | 95.179.246.73.vultrusercontent.com | - | High
-3 | [149.28.36.160](https://vuldb.com/?ip.149.28.36.160) | 149.28.36.160.vultrusercontent.com | - | High
+1 | [3.86.255.88](https://vuldb.com/?ip.3.86.255.88) | ec2-3-86-255-88.compute-1.amazonaws.com | - | Medium
+2 | [45.32.132.166](https://vuldb.com/?ip.45.32.132.166) | - | - | High
+3 | [45.76.68.112](https://vuldb.com/?ip.45.76.68.112) | 45.76.68.112.vultrusercontent.com | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,16 +45,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/news-portal-script/information.php` | High
-2 | File | `HNAP1/GetNetworkTomographySettings` | High
-3 | File | `inftrees.c` | Medium
+2 | File | `/uncpath/` | Medium
+3 | File | `Colors.js` | Medium
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.talosintelligence.com/alchimist-offensive-framework/
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/10/alchimist-offensive-framework.txt
 
 ## Literature
@@ -65,4 +67,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

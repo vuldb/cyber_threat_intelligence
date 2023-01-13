@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,11 +67,11 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/CCMAdmin/serverlist.asp` | High
 2 | File | `/cgi-bin/editBookmark` | High
-3 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/config` | Low
-6 | File | `/debug/pprof` | Medium
-7 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/config` | Low
+5 | File | `/debug/pprof` | Medium
+6 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+7 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
 8 | File | `/etc/ajenti/config.yml` | High
 9 | File | `/Items/*/RemoteImages/Download` | High
 10 | File | `/main.php` | Medium
@@ -79,15 +79,15 @@ ID | Type | Indicator | Confidence
 12 | File | `/new` | Low
 13 | File | `/nova/bin/traceroute` | High
 14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/phpcollab/users/emailusers.php` | High
-16 | File | `/proc/sys/kernel/rh_features` | High
-17 | File | `/product.php` | Medium
-18 | File | `/public/common/umeditor/php/getcontent.php` | High
-19 | File | `/service/upload` | High
-20 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
-21 | File | `/sitemagic/index.php` | High
-22 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-23 | File | `/sub?target=%TARGET%&url=%URL%&config=%CONFIG%` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/phpcollab/users/emailusers.php` | High
+17 | File | `/proc/sys/kernel/rh_features` | High
+18 | File | `/product.php` | Medium
+19 | File | `/public/common/umeditor/php/getcontent.php` | High
+20 | File | `/service/upload` | High
+21 | File | `/Site/Troubleshooting/DiagnosticReport.asp` | High
+22 | File | `/sitemagic/index.php` | High
+23 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
 24 | ... | ... | ...
 
 There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -108,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

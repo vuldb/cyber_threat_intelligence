@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNIX CCTV DVR:
 
-* [LU](https://vuldb.com/?country.lu)
 * [US](https://vuldb.com/?country.us)
+* [LU](https://vuldb.com/?country.lu)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -48,7 +48,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -71,36 +72,37 @@ ID | Type | Indicator | Confidence
 11 | File | `/dms/admin/reports/daily_collection_report.php` | High
 12 | File | `/eshop/products/json/aouCustomerAdresse` | High
 13 | File | `/etc/config/cameo` | High
-14 | File | `/etc/environment` | High
-15 | File | `/extensionsinstruction` | High
-16 | File | `/food/admin/all_users.php` | High
-17 | File | `/goform/PowerSaveSet` | High
-18 | File | `/goform/SetClientState` | High
-19 | File | `/goform/SetFirewallCfg` | High
-20 | File | `/goform/setWorkmode` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/goods/getGoodsListByConditions/` | High
-23 | File | `/index.php` | Medium
-24 | File | `/isms/classes/Users.php` | High
-25 | File | `/lists/index.php` | High
-26 | File | `/member/index/login.html` | High
-27 | File | `/members/view_member.php` | High
-28 | File | `/moddable/xs/sources/xsScript.c` | High
-29 | File | `/moddable/xs/sources/xsSymbol.c` | High
-30 | File | `/nagioslogserver/configure/create_snapshot` | High
-31 | File | `/nova/bin/lcdstat` | High
-32 | File | `/ofrs/admin/?page=teams/view_team` | High
-33 | File | `/ordering/index.php?q=category` | High
-34 | File | `/owa/auth/logon.aspx` | High
+14 | File | `/extensionsinstruction` | High
+15 | File | `/food/admin/all_users.php` | High
+16 | File | `/goform/PowerSaveSet` | High
+17 | File | `/goform/SetClientState` | High
+18 | File | `/goform/SetFirewallCfg` | High
+19 | File | `/goform/setWorkmode` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/goods/getGoodsListByConditions/` | High
+22 | File | `/index.php` | Medium
+23 | File | `/isms/classes/Users.php` | High
+24 | File | `/lists/index.php` | High
+25 | File | `/member/index/login.html` | High
+26 | File | `/members/view_member.php` | High
+27 | File | `/moddable/xs/sources/xsScript.c` | High
+28 | File | `/moddable/xs/sources/xsSymbol.c` | High
+29 | File | `/nagioslogserver/configure/create_snapshot` | High
+30 | File | `/nova/bin/lcdstat` | High
+31 | File | `/ofrs/admin/?page=teams/view_team` | High
+32 | File | `/ordering/index.php?q=category` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/picturesPreview` | High
 35 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
 36 | File | `/rest/api/2/user/picker` | High
 37 | File | `/secure/QueryComponent!Default.jspa` | High
 38 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
 39 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
 40 | File | `/sns/classes/Master.php?f=delete_img` | High
-41 | ... | ... | ...
+41 | File | `/Source/C++/Core/Ap4Array.h` | High
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

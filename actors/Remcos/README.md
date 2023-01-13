@@ -131,13 +131,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -147,28 +147,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%ProgramData%\GOG.com` | High
 2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/api/index.php` | High
-4 | File | `/bin/boa` | Medium
+3 | File | `/bin/boa` | Medium
+4 | File | `/blog/blog.php` | High
 5 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
 6 | File | `/cgi-bin/wapopen` | High
 7 | File | `/config/getuser` | High
 8 | File | `/configs/application.ini` | High
 9 | File | `/etc/grafana/grafana.ini` | High
-10 | File | `/etc/networkd-dispatcher` | High
-11 | File | `/export` | Low
-12 | File | `/file` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/wifiSSIDset` | High
-15 | File | `/home/hjsz/jsonlint/src/lexer` | High
-16 | File | `/hrm/employeeview.php` | High
-17 | File | `/info.asp` | Medium
-18 | File | `/login` | Low
-19 | File | `/mgmt/tm/util/bash` | High
-20 | File | `/net/nfc/netlink.c` | High
-21 | File | `/obs/bookPerPub.php` | High
-22 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-23 | File | `/out.php` | Medium
-24 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+10 | File | `/export` | Low
+11 | File | `/file` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/home/hjsz/jsonlint/src/lexer` | High
+14 | File | `/hrm/employeeview.php` | High
+15 | File | `/info.asp` | Medium
+16 | File | `/login` | Low
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/out.php` | Medium
+19 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rendering/wiki` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/servlet/file` | High
+24 | File | `/spip.php` | Medium
 25 | ... | ... | ...
 
 There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -272,4 +272,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

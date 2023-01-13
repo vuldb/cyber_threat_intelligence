@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,13 +50,13 @@ ID | Type | Indicator | Confidence
 3 | File | `/goform/SetPptpServerCfg` | High
 4 | File | `/goform/SetSysTimeCfg` | High
 5 | File | `/goform/SetVirtualServerCfg` | High
-6 | File | `/php-sms/classes/Master.php` | High
-7 | File | `/php-sms/classes/SystemSettings.php` | High
-8 | File | `/queuing/login.php` | High
-9 | File | `/sacco_shield/manage_payment.php` | High
+6 | File | `/htmlcode/html/reboot.cgi` | High
+7 | File | `/php-sms/classes/Master.php` | High
+8 | File | `/php-sms/classes/SystemSettings.php` | High
+9 | File | `/queuing/login.php` | High
 10 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,10 +90,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-28, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -105,48 +105,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/adfs/ls` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/admin/users_add.php` | High
-6 | File | `/administration/settings_registration.php` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/appConfig/userDB.json` | High
-9 | File | `/authUserAction!edit.action` | High
-10 | File | `/bd_genie_create_account.cgi` | High
-11 | File | `/c/macho_reader.c` | High
-12 | File | `/catcompany.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/claire_blake` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/defaultui/player/modern.html` | High
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/egroupware/index.php` | High
-22 | File | `/etc/init0.d/S80telnetd.sh` | High
-23 | File | `/etc/shadow.sample` | High
-24 | File | `/foms/place-order.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/L7Im` | Medium
-27 | File | `/goform/SetIpMacBind` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goform/wizard_end` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/htdocs/utils/Files.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/jfinal_cms/system/role/list` | High
-34 | File | `/librarian/edit_book_details.php` | High
-35 | File | `/Main_Login.asp?flag=1&productname=RT-AC88U&url=/downloadmaster/task.asp` | High
-36 | File | `/manage-apartment.php` | High
-37 | File | `/master/index.php` | High
-38 | File | `/members/view_member.php` | High
-39 | File | `/mkshop/Men/profile.php` | High
-40 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/admin/videoalbum/list` | High
+4 | File | `/attachments` | Medium
+5 | File | `/c/macho_reader.c` | High
+6 | File | `/cgi-bin/DownloadFlash` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+9 | File | `/conf/` | Low
+10 | File | `/config/getuser` | High
+11 | File | `/dashboard/contact` | High
+12 | File | `/etc/hosts` | Medium
+13 | File | `/example/editor` | High
+14 | File | `/HNAP1` | Low
+15 | File | `/index` | Low
+16 | File | `/iu-application/controllers/administration/auth.php` | High
+17 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+19 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+20 | File | `/module/module_frame/index.php` | High
+21 | File | `/music/ajax.php` | High
+22 | File | `/northstar/Admin/changePassword.jsp` | High
+23 | File | `/orms/` | Low
+24 | File | `/ossn/administrator/com_installer` | High
+25 | File | `/sre/params.php` | High
+26 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+27 | File | `/tmp` | Low
+28 | File | `/tmp/xbindkeysrc-tmp` | High
+29 | File | `/Users` | Low
+30 | File | `/var/spool/hylafax` | High
+31 | File | `/whbs/?page=my_bookings` | High
+32 | File | `access_rules/rules_form` | High
+33 | File | `action/addproject.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `admin.php` | Medium
+36 | File | `admin/ajax.attachment.php` | High
+37 | File | `admin/index.php` | High
+38 | File | `admin/profile.php?section=admin` | High
+39 | File | `admin/sysCheckFile_deal.php` | High
+40 | File | `admin_delete.php` | High
+41 | File | `Advanced_ASUSDDNS_Content.asp` | High
+42 | File | `af_netlink.c` | Medium
+43 | File | `album_portal.php` | High
+44 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -164,4 +168,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

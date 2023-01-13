@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,11 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [37.139.7.16](https://vuldb.com/?ip.37.139.7.16) | - | - | High
 5 | [45.8.228.49](https://vuldb.com/?ip.45.8.228.49) | - | - | High
 6 | [45.32.137.94](https://vuldb.com/?ip.45.32.137.94) | 45.32.137.94.vultrusercontent.com | CVE-2021-34527 | High
-7 | ... | ... | ... | ...
+7 | [45.61.137.211](https://vuldb.com/?ip.45.61.137.211) | - | - | High
+8 | [46.101.113.161](https://vuldb.com/?ip.46.101.113.161) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,12 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,35 +65,40 @@ ID | Type | Indicator | Confidence
 3 | File | `/osm/REGISTER.cmd` | High
 4 | File | `/product.php` | Medium
 5 | File | `/Pwrchute` | Medium
-6 | File | `/uncpath/` | Medium
-7 | File | `/wbg/core/_includes/authorization.inc.php` | High
-8 | File | `/WEB-INF/web.xml` | High
-9 | File | `adm-menu.php` | Medium
-10 | File | `adm-style.php` | High
-11 | File | `admin/admin.shtml` | High
-12 | File | `admin/controller/pages/localisation/language.php` | High
-13 | File | `admin/show.php?rec=update` | High
-14 | File | `admin/web_config.php` | High
-15 | File | `adminpanel/modules/pro/inc/ajax.php` | High
-16 | File | `admin_add.php` | High
-17 | File | `ajax.php` | Medium
-18 | File | `api/v1/User?filterList` | High
-19 | File | `apply.cgi` | Medium
-20 | File | `arch/powerpc/kernel/traps.c` | High
-21 | File | `architext.conf` | High
-22 | File | `attachment_send.php` | High
-23 | File | `avrc_pars_tg.cc` | High
-24 | File | `base/ErrorHandler.php` | High
-25 | File | `bg_console/index.php?m=opt&c=request` | High
-26 | File | `board.php` | Medium
-27 | ... | ... | ...
+6 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/wbg/core/_includes/authorization.inc.php` | High
+9 | File | `/WEB-INF/web.xml` | High
+10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+11 | File | `adm-menu.php` | Medium
+12 | File | `adm-style.php` | High
+13 | File | `admin.php` | Medium
+14 | File | `admin/admin.shtml` | High
+15 | File | `admin/controller/pages/localisation/language.php` | High
+16 | File | `admin/show.php?rec=update` | High
+17 | File | `admin/web_config.php` | High
+18 | File | `adminpanel/modules/pro/inc/ajax.php` | High
+19 | File | `admin_add.php` | High
+20 | File | `ajax.php` | Medium
+21 | File | `api/v1/User?filterList` | High
+22 | File | `apply.cgi` | Medium
+23 | File | `arch/powerpc/kernel/traps.c` | High
+24 | File | `architext.conf` | High
+25 | File | `attachment_send.php` | High
+26 | File | `avrc_pars_tg.cc` | High
+27 | File | `base/ErrorHandler.php` | High
+28 | File | `bg_console/index.php?m=opt&c=request` | High
+29 | File | `board.php` | Medium
+30 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.group-ib.com/oldgremlin_comeback
+* https://community.blueliv.com/#!/s/628f220382df413eb5359232
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/
 * https://isc.sans.edu/forums/diary/More+Russian+language+malspam+pushing+Shade+Troldesh+ransomware/24668/
 * https://www.cisa.gov/uscert/ncas/alerts/aa20-296a
@@ -107,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

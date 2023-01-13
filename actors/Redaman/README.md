@@ -46,9 +46,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,19 +59,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/sqfs/bin/sccd` | High
-2 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-3 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-4 | File | `admin.php` | Medium
-5 | File | `admin/google_search_console/class-gsc-table.php` | High
-6 | File | `ajax.php` | Medium
-7 | File | `akocomments.php` | High
-8 | File | `auth.inc.php` | Medium
-9 | File | `bgpd/bgp_aspath.c` | High
-10 | File | `cgi-bin/luci` | Medium
-11 | ... | ... | ...
+1 | File | `/admin/edit.php` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/sqfs/bin/sccd` | High
+4 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+5 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+6 | File | `admin.php` | Medium
+7 | File | `admin/google_search_console/class-gsc-table.php` | High
+8 | File | `ajax.php` | Medium
+9 | File | `akocomments.php` | High
+10 | File | `auth.inc.php` | Medium
+11 | File | `bgpd/bgp_aspath.c` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

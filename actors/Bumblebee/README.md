@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -147,12 +147,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -165,35 +165,36 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/api/audits` | Medium
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/cbs/system/ShowAdvanced.do` | High
+3 | File | `/blogengine/api/posts` | High
+4 | File | `/cbs/system/ShowAdvanced.do` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
 6 | File | `/cgi-bin/luci` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/Content/Template/root/reverse-shell.aspx` | High
-9 | File | `/env` | Low
-10 | File | `/etc/ldap.conf` | High
-11 | File | `/export` | Low
-12 | File | `/face-recognition-php/facepay-master/camera.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/FreshRSS/p/ext.php` | High
-15 | File | `/goform/addressNat` | High
-16 | File | `/goform/CertListInfo` | High
-17 | File | `/goform/fast_setting_wifi_set` | High
-18 | File | `/goform/IPSECsave` | High
-19 | File | `/goform/L7Im` | Medium
-20 | File | `/goform/NatStaticSetting` | High
-21 | File | `/goform/qossetting` | High
-22 | File | `/goform/SafeClientFilter` | High
-23 | File | `/goform/SafeMacFilter` | High
-24 | File | `/goform/SafeUrlFilter` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/SysToolRestoreSet` | High
-28 | File | `/goform/VirtualSer` | High
-29 | ... | ... | ...
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/upload_vpntar` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/env` | Low
+12 | File | `/etc/ldap.conf` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/export` | Low
+15 | File | `/forum/away.php` | High
+16 | File | `/FreshRSS/p/ext.php` | High
+17 | File | `/goform/addressNat` | High
+18 | File | `/goform/CertListInfo` | High
+19 | File | `/goform/fast_setting_wifi_set` | High
+20 | File | `/goform/IPSECsave` | High
+21 | File | `/goform/L7Im` | Medium
+22 | File | `/goform/NatStaticSetting` | High
+23 | File | `/goform/qossetting` | High
+24 | File | `/goform/SafeClientFilter` | High
+25 | File | `/goform/SafeMacFilter` | High
+26 | File | `/goform/SafeUrlFilter` | High
+27 | File | `/goform/setMacFilterCfg` | High
+28 | File | `/goform/SysToolReboot` | High
+29 | File | `/goform/SysToolRestoreSet` | High
+30 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -234,4 +235,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

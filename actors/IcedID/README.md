@@ -41,12 +41,13 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [45.153.241.115](https://vuldb.com/?ip.45.153.241.115) | - | - | High
 16 | [46.17.98.191](https://vuldb.com/?ip.46.17.98.191) | - | - | High
 17 | [46.249.62.199](https://vuldb.com/?ip.46.249.62.199) | - | - | High
-18 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
-19 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
-20 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
-21 | ... | ... | ... | ...
+18 | [51.195.169.87](https://vuldb.com/?ip.51.195.169.87) | ip87.ip-51-195-169.eu | - | High
+19 | [79.141.161.176](https://vuldb.com/?ip.79.141.161.176) | zzs7bp73.copycomdigital.com | - | High
+20 | [79.141.164.241](https://vuldb.com/?ip.79.141.164.241) | x6ts.mtsgamingpro.fun | - | High
+21 | [79.141.166.39](https://vuldb.com/?ip.79.141.166.39) | webimpa.com | - | High
+22 | ... | ... | ... | ...
 
-There are 80 more IOC items available. Please use our online service to access the data.
+There are 83 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,6 +84,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2018/04/icedid-banking-trojan.html
 * https://cert.gov.ua/article/39609
 * https://github.com/A-dd-Y/secops/blob/main/MalwareIOC/mwdb-icedid-c2.txt
+* https://isc.sans.edu/diary/Google+ads+lead+to+fake+software+pages+pushing+IcedID+Bokbot/29344
 * https://isc.sans.edu/forums/diary/Analysis+from+March+2021+Traffic+Analysis+Quiz/27232/
 * https://isc.sans.edu/forums/diary/Emotet+infection+with+IcedID+banking+Trojan/24312/
 * https://isc.sans.edu/forums/diary/Emotet+infections+and+followup+malware/24532/
@@ -105,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

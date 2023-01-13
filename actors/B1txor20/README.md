@@ -9,11 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
 * [SC](https://vuldb.com/?country.sc)
-* ...
-
-There are 11 more country items available. Please use our online service to access the data.
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -45,15 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,38 +56,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\Cylance\Desktop\log` | High
-2 | File | `/addNotifyServlet` | High
-3 | File | `/admin/subnets/ripe-query.php` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
-5 | File | `/bsms_ci/index.php/user/edit_user/` | High
-6 | File | `/ci_hms/search` | High
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/etc/hosts` | Medium
-9 | File | `/goform/delAd` | High
-10 | File | `/goform/setFixTools` | High
-11 | File | `/lab.html` | Medium
-12 | File | `/menu.html` | Medium
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/tmp/app/.env` | High
-15 | File | `/tmp/boa-temp` | High
-16 | File | `/tools/developerConsoleOperations.jsp` | High
-17 | File | `/uploadServlet` | High
-18 | File | `/var/tmp/audacity-$USER` | High
-19 | File | `/vendor` | Low
-20 | File | `/workspaceCleanup` | High
-21 | File | `5.2.9\syscrb.exe` | High
-22 | File | `AbstractController.php` | High
-23 | File | `account_change.php` | High
-24 | File | `adclick.php` | Medium
-25 | File | `addentry.php` | Medium
-26 | File | `addetail.asp` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/admin.guestbook.php` | High
-29 | File | `admin/index.php` | High
-30 | ... | ... | ...
+1 | File | `/apply.cgi` | Medium
+2 | File | `/forum/away.php` | High
+3 | File | `/goform/WifiBasicSet` | High
+4 | File | `/hss/admin/?page=client/manage_client` | High
+5 | File | `/login/index.php` | High
+6 | File | `/output/outdbg.c` | High
+7 | File | `/output/outieee.c` | High
+8 | File | `/setNTP.cgi` | Medium
+9 | File | `/tiki-importer.php` | High
+10 | File | `/tpts/manage_user.php` | High
+11 | File | `actions/UploadAction.php` | High
+12 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+13 | File | `announce.php` | Medium
+14 | File | `app/controllers/code_caller_controller.php` | High
+15 | File | `app/controllers/image_controller.rb` | High
+16 | File | `app/controllers/oauth.js` | High
+17 | File | `app/controllers/uploaded_files_controller.rb` | High
+18 | File | `app/filters.php` | High
+19 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+20 | File | `application/controllers/Restapi.php` | High
+21 | File | `application/libraries/LanguageTask.php` | High
+22 | File | `AppRestrictionsFragment.java` | High
+23 | File | `App\Manage\Controller\ArticleController.class.php` | High
+24 | File | `arta/common/middleware.py` | High
+25 | File | `assets/components/fred/web/elfinder/connector.php` | High
+26 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

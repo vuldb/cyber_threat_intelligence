@@ -65,7 +65,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -89,31 +90,32 @@ ID | Type | Indicator | Confidence
 12 | File | `/apps/acs-commons/content/page-compare.html` | High
 13 | File | `/bin/httpd` | Medium
 14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/ci_spms/admin/category` | High
-16 | File | `/ci_spms/admin/search/searching/` | High
-17 | File | `/classes/Master.php?f=delete_appointment` | High
-18 | File | `/classes/Master.php?f=delete_train` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/ctcprotocol/Protocol` | High
-21 | File | `/dashboard/menu-list.php` | High
-22 | File | `/demo/module/?module=HERE` | High
-23 | File | `/download/set.cgi` | High
-24 | File | `/dvcset/sysset/set.cgi` | High
-25 | File | `/ffos/classes/Master.php?f=save_category` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/SysToolReboot` | High
-28 | File | `/goform/WifiExtraSet` | High
-29 | File | `/goforms/rlminfo` | High
-30 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-31 | File | `/Items/*/RemoteImages/Download` | High
-32 | File | `/menu.html` | Medium
-33 | File | `/mkshop/Men/profile.php` | High
-34 | File | `/mngset/authset` | High
-35 | File | `/mobile/downloadfile.aspx` | High
-36 | File | `/net/nfc/netlink.c` | High
-37 | ... | ... | ...
+15 | File | `/cgi-bin/webadminget.cgi` | High
+16 | File | `/ci_spms/admin/category` | High
+17 | File | `/ci_spms/admin/search/searching/` | High
+18 | File | `/classes/Master.php?f=delete_appointment` | High
+19 | File | `/classes/Master.php?f=delete_train` | High
+20 | File | `/Content/Template/root/reverse-shell.aspx` | High
+21 | File | `/ctcprotocol/Protocol` | High
+22 | File | `/dashboard/menu-list.php` | High
+23 | File | `/demo/module/?module=HERE` | High
+24 | File | `/ffos/classes/Master.php?f=save_category` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/SysToolReboot` | High
+27 | File | `/goform/WifiExtraSet` | High
+28 | File | `/goforms/rlminfo` | High
+29 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/menu.html` | Medium
+32 | File | `/mkshop/Men/profile.php` | High
+33 | File | `/mobile/downloadfile.aspx` | High
+34 | File | `/net/nfc/netlink.c` | High
+35 | File | `/ocwbs/admin/?page=user/manage_user` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/out.php` | Medium
+38 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,4 +156,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

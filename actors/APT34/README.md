@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,24 +61,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/add_trainers.php` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/admin/add_trainers.php` | High
+4 | File | `/admin/api/theme-edit/` | High
 5 | File | `/admin/countrymanagement.php` | High
 6 | File | `/admin/generalsettings.php` | High
 7 | File | `/admin/newsletter1.php` | High
 8 | File | `/admin/payment.php` | High
 9 | File | `/admin/subnets/ripe-query.php` | High
-10 | File | `/core/conditions/AbstractWrapper.java` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/export` | Low
-13 | File | `/file?action=download&file` | High
-14 | File | `/filemanager/upload/drop` | High
-15 | File | `/hardware` | Medium
-16 | File | `/hrm/employeeview.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/login.php` | Medium
-19 | File | `/medical/inventories.php` | High
+10 | File | `/common/info.cgi` | High
+11 | File | `/core/conditions/AbstractWrapper.java` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/export` | Low
+14 | File | `/file?action=download&file` | High
+15 | File | `/filemanager/upload/drop` | High
+16 | File | `/hardware` | Medium
+17 | File | `/hrm/employeeview.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/login.php` | Medium
 20 | File | `/mgmt/tm/util/bash` | High
 21 | File | `/mkshop/Men/profile.php` | High
 22 | File | `/monitoring` | Medium
@@ -88,9 +88,10 @@ ID | Type | Indicator | Confidence
 26 | File | `/plugin/LiveChat/getChat.json.php` | High
 27 | File | `/plugins/servlet/audit/resource` | High
 28 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-29 | ... | ... | ...
+29 | File | `/replication` | Medium
+30 | ... | ... | ...
 
-There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -115,4 +116,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

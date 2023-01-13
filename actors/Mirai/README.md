@@ -17,11 +17,11 @@ The following _campaigns_ are known and can be associated with Mirai:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
 * [VN](https://vuldb.com/?country.vn)
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -213,9 +213,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-35 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -228,61 +228,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `.qpopper-options` | High
-4 | File | `/Api/ASF` | Medium
-5 | File | `/api/v1/containers` | High
-6 | File | `/backupsettings.conf` | High
-7 | File | `/ctcprotocol/Protocol` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/delAd` | High
-10 | File | `/h/calendar` | Medium
-11 | File | `/menu.html` | Medium
-12 | File | `/modules/snf/index.php` | High
-13 | File | `/services/view_service.php` | High
-14 | File | `/tmp` | Low
-15 | File | `/tmp/boa-temp` | High
-16 | File | `/tmp/f` | Low
-17 | File | `/var/avamar/f_cache.dat` | High
-18 | File | `/zhndnsdisplay.cmd` | High
-19 | File | `26.html` | Low
-20 | File | `add_postit.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/wp-security-blacklist-menu.php` | High
-23 | File | `administration.jsp` | High
-24 | File | `adminquery.php` | High
-25 | File | `ajaxRequest/methodCall.do` | High
-26 | File | `ansfaq.asp` | Medium
-27 | File | `arch/powerpc/kvm/book3s_rtas.c` | High
-28 | File | `ardguest.php` | Medium
-29 | File | `authpam.c` | Medium
-30 | File | `autocms.php` | Medium
-31 | File | `avahi-core/socket.c` | High
-32 | File | `AvailableApps.php` | High
-33 | File | `avi.c` | Low
-34 | File | `banner.php` | Medium
-35 | File | `Binder.java` | Medium
-36 | File | `boot_config.jsp` | High
-37 | File | `boundary_rules.jsp` | High
-38 | File | `browser.php` | Medium
-39 | File | `browser/liferay/browser.html?Type` | High
-40 | File | `calendar.php` | Medium
-41 | File | `calendar_scheduler.php` | High
-42 | File | `cal_config.inc.php` | High
-43 | File | `cgi-bin/adv_nat_virsvr.asp` | High
-44 | File | `channels/chan_sip.c` | High
-45 | File | `claro_init_global.inc.php` | High
-46 | File | `class/class.php` | High
-47 | File | `cls_fast_template.php` | High
-48 | File | `comersus_supporterror.asp` | High
-49 | File | `compose.php` | Medium
-50 | File | `contact_us.php` | High
-51 | File | `content.php` | Medium
-52 | File | `crontab.c` | Medium
-53 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/Api/ASF` | Medium
+4 | File | `/api/browserextension/UpdatePassword/` | High
+5 | File | `/apply_noauth.cgi` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/blogengine/api/posts` | High
+8 | File | `/cgi-bin/api-get_line_status` | High
+9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/ctcprotocol/Protocol` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/export` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/h/calendar` | Medium
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/hss/admin/?page=client/manage_client` | High
+24 | File | `/login/index.php` | High
+25 | File | `/menu.html` | Medium
+26 | File | `/mhds/clinic/view_details.php` | High
+27 | File | `/obs/book.php` | High
+28 | File | `/picturesPreview` | High
+29 | File | `/setNTP.cgi` | Medium
+30 | File | `/tmp` | Low
+31 | File | `/tmp/boa-temp` | High
+32 | File | `/tpts/manage_user.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+35 | File | `/view-property.php` | High
+36 | File | `/webman/info.cgi` | High
+37 | File | `/zhndnsdisplay.cmd` | High
+38 | File | `adclick.php` | Medium
+39 | File | `addrtoname.c` | Medium
+40 | ... | ... | ...
 
-There are 463 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -356,4 +343,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -69,7 +69,8 @@ ID | Type | Indicator | Confidence
 13 | File | `/htmldoc/htmldoc/html.cxx` | High
 14 | File | `/lan.asp` | Medium
 15 | File | `/login.php` | Medium
-16 | ... | ... | ...
+16 | File | `/Pwrchute` | Medium
+17 | ... | ... | ...
 
 There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -88,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

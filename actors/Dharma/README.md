@@ -8,12 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dharma:
 
-* [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
 * [BG](https://vuldb.com/?country.bg)
-* [NL](https://vuldb.com/?country.nl)
-* ...
-
-There are 2 more country items available. Please use our online service to access the data.
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -31,13 +28,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,19 +42,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/&quot` | Low
-2 | File | `/admin/inquiries/view_details.php` | High
-3 | File | `/api/audits` | Medium
-4 | File | `/api2/html/` | Medium
-5 | File | `/auth/register` | High
-6 | File | `/binbloom-master/src/helpers.c` | High
-7 | File | `/classes/Master.php?f=delete_message` | High
-8 | File | `/classes/Master.php?f=delete_reservation` | High
-9 | File | `/classes/Master.php?f=delete_schedule` | High
-10 | File | `/classes/Master.php?f=delete_service` | High
-11 | ... | ... | ...
+1 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+2 | File | `/api/Index/getFileBinary` | High
+3 | File | `/api/User/download_img` | High
+4 | File | `/aya/module/admin/fst_del.inc.php` | High
+5 | File | `/aya/module/admin/fst_down.inc.php` | High
+6 | File | `/etc/sudoers` | Medium
+7 | File | `/goform/addressNat` | High
+8 | File | `/goform/addWifiMacFilter` | High
+9 | File | `/goform/DhcpListClient` | High
+10 | File | `/goform/exeCommand` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,4 +74,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

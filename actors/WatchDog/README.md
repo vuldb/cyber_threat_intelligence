@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [MO](https://vuldb.com/?country.mo)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -57,29 +57,30 @@ ID | Type | Indicator | Confidence
 4 | File | `/asms/classes/Master.php?f=delete_transaction` | High
 5 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
 6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/chat_im/chat_window.php` | High
-8 | File | `/cloud_config/router_post/get_reg_verify_code` | High
-9 | File | `/etc/openstack-dashboard/local_settings` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/FreshRSS/p/ext.php` | High
-13 | File | `/goform/addressNat` | High
-14 | File | `/goform/addRouting` | High
-15 | File | `/goform/SetNetControlList` | High
-16 | File | `/include/menu_v.inc.php` | High
-17 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-18 | File | `/librarian/lab.php` | High
-19 | File | `/MagickCore/statistic.c` | High
-20 | File | `/omos/admin/?page=user/list` | High
-21 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-22 | File | `/panel/fields/add` | High
-23 | File | `/patient/settings.php` | High
-24 | File | `/proc/*/cmdline"` | High
-25 | File | `/proc/pid/syscall` | High
-26 | File | `/release-x64/otfccdump+0x4fe9a7` | High
-27 | ... | ... | ...
+7 | File | `/cgi-bin/nobody` | High
+8 | File | `/cgi-bin/nobody/Search.cgi` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/user/Config.cgi` | High
+11 | File | `/chat_im/chat_window.php` | High
+12 | File | `/cloud_config/router_post/get_reg_verify_code` | High
+13 | File | `/etc/openstack-dashboard/local_settings` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/FreshRSS/p/ext.php` | High
+17 | File | `/goform/addressNat` | High
+18 | File | `/goform/addRouting` | High
+19 | File | `/goform/SetNetControlList` | High
+20 | File | `/include/menu_v.inc.php` | High
+21 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+22 | File | `/librarian/lab.php` | High
+23 | File | `/MagickCore/statistic.c` | High
+24 | File | `/omos/admin/?page=user/list` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/panel/fields/add` | High
+27 | File | `/patient/settings.php` | High
+28 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -96,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

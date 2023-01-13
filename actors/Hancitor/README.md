@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,39 +72,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/../conf/config.properties` | High
-2 | File | `/auth/session` | High
-3 | File | `/card_scan.php` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/concat?/%2557EB-INF/web.xml` | High
-6 | File | `/cwc/login` | Medium
-7 | File | `/download` | Medium
-8 | File | `/etc/quagga` | Medium
-9 | File | `/files.md5` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/h/calendar` | Medium
-12 | File | `/hrm/employeeview.php` | High
-13 | File | `/images/` | Medium
-14 | File | `/index.php` | Medium
-15 | File | `/lists/index.php` | High
-16 | File | `/login` | Low
-17 | File | `/members/view_member.php` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/nova/bin/console` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/objects/getImageMP4.php` | High
-22 | File | `/one_church/userregister.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/public/plugins/` | High
-26 | File | `/replication` | Medium
-27 | File | `/req_password_user.php` | High
-28 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-29 | File | `/SASWebReportStudio/logonAndRender.do` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | ... | ... | ...
+1 | File | `/auth/session` | High
+2 | File | `/card_scan.php` | High
+3 | File | `/cgi-bin/wlogin.cgi` | High
+4 | File | `/concat?/%2557EB-INF/web.xml` | High
+5 | File | `/cwc/login` | Medium
+6 | File | `/etc/quagga` | Medium
+7 | File | `/files.md5` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/h/calendar` | Medium
+10 | File | `/hrm/employeeview.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/lists/index.php` | High
+13 | File | `/login` | Low
+14 | File | `/members/view_member.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/objects/getImageMP4.php` | High
+19 | File | `/one_church/userregister.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/replication` | Medium
+24 | File | `/req_password_user.php` | High
+25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+26 | File | `/SASWebReportStudio/logonAndRender.do` | High
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+29 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -133,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

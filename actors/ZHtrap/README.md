@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -56,24 +56,32 @@ ID | Type | Indicator | Confidence
 5 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
 6 | File | `/bcms/admin/?page=user/manage_user` | High
 7 | File | `/College/admin/teacher.php` | High
-8 | File | `/etc/ciel.cfg` | High
-9 | File | `/exponent_constants.php` | High
-10 | File | `/goform/addRouting` | High
-11 | File | `/group/apply` | Medium
-12 | File | `/image_zoom.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-15 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-16 | File | `/master/core/PostHandler.php` | High
-17 | File | `/mdiy/dict/list` | High
-18 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-19 | File | `/ofrs/admin/?page=requests/manage_request` | High
-20 | File | `/package_detail.php` | High
-21 | File | `/php_action/createUser.php` | High
-22 | File | `/preferences/tags` | High
-23 | ... | ... | ...
+8 | File | `/common/run_cross_report.php` | High
+9 | File | `/confirm` | Medium
+10 | File | `/etc/ciel.cfg` | High
+11 | File | `/etc/gsissh/sshd_config` | High
+12 | File | `/exponent_constants.php` | High
+13 | File | `/goform/addRouting` | High
+14 | File | `/goform/WifiBasicSet` | High
+15 | File | `/group/apply` | Medium
+16 | File | `/image_zoom.php` | High
+17 | File | `/index.php` | Medium
+18 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+19 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+20 | File | `/master/core/PostHandler.php` | High
+21 | File | `/mdiy/dict/list` | High
+22 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+23 | File | `/ofrs/admin/?page=requests/manage_request` | High
+24 | File | `/package_detail.php` | High
+25 | File | `/php-sms/classes/Master.php` | High
+26 | File | `/php_action/createUser.php` | High
+27 | File | `/preferences/tags` | High
+28 | File | `/release-x64/otfccdump+0x6b559f` | High
+29 | File | `/royal_event/companyprofile.php` | High
+30 | File | `/server-status` | High
+31 | ... | ... | ...
 
-There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -90,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

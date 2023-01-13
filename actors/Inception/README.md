@@ -16,8 +16,8 @@ The following _campaigns_ are known and can be associated with Inception:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Inception:
 
 * [AR](https://vuldb.com/?country.ar)
-* [PT](https://vuldb.com/?country.pt)
 * [FR](https://vuldb.com/?country.fr)
+* [PT](https://vuldb.com/?country.pt)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,12 +65,12 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/v1/chat.getThreadsList` | High
 8 | File | `/api/v2/cli/commands` | High
 9 | File | `/api/v2/open/rowsInfo` | High
-10 | File | `/asms/admin/?page=user/manage_user` | High
-11 | File | `/blog/comment` | High
-12 | File | `/card/in-card.php` | High
-13 | File | `/connectors/index.php` | High
-14 | File | `/csms/admin/?page=system_info` | High
-15 | File | `/env` | Low
+10 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+11 | File | `/asms/admin/?page=user/manage_user` | High
+12 | File | `/blog/comment` | High
+13 | File | `/csms/admin/?page=system_info` | High
+14 | File | `/env` | Low
+15 | File | `/etc/master.passwd` | High
 16 | File | `/etc/os-release` | High
 17 | File | `/front/search.php` | High
 18 | File | `/garage/php_action/createBrand.php` | High
@@ -83,15 +83,18 @@ ID | Type | Indicator | Confidence
 25 | File | `/goform/WifiBasicSet` | High
 26 | File | `/goform/WifiMacFilterGet` | High
 27 | File | `/hss/admin/categories/view_category.php` | High
-28 | File | `/index.asp` | Medium
-29 | File | `/isomedia/meta.c` | High
-30 | File | `/mods/_core/courses/users/create_course.php` | High
-31 | File | `/module/report_event/index.php` | High
-32 | File | `/Redcock-Farm/farm/category.php` | High
-33 | File | `/release-x64/otfccdump+0x6c0a32` | High
-34 | ... | ... | ...
+28 | File | `/isomedia/meta.c` | High
+29 | File | `/mods/_core/courses/users/create_course.php` | High
+30 | File | `/module/report_event/index.php` | High
+31 | File | `/Redcock-Farm/farm/category.php` | High
+32 | File | `/release-x64/otfccdump+0x6c0a32` | High
+33 | File | `/services/view_service.php` | High
+34 | File | `/shell` | Low
+35 | File | `/sys/user/putRecycleBin` | High
+36 | File | `/tmp` | Low
+37 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

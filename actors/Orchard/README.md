@@ -53,24 +53,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/edit.php` | High
 3 | File | `/admin/profile/save_profile` | High
 4 | File | `/admin/reports.php` | High
-5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin/luci/api/diagnose` | High
-7 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-8 | File | `/coders/palm.c` | High
-9 | File | `/etc/groups` | Medium
-10 | File | `/formSetPortTr` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/wlanPrimaryNetwork` | High
-13 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-14 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-15 | File | `/nova/bin/user` | High
-16 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-17 | File | `/plesk-site-preview/` | High
-18 | File | `/question/ask` | High
-19 | File | `/rest/api/2/search` | High
-20 | ... | ... | ...
+5 | File | `/api/v1/chat.getThreadsList` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/luci/api/diagnose` | High
+8 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+9 | File | `/coders/palm.c` | High
+10 | File | `/etc/groups` | Medium
+11 | File | `/formSetPortTr` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/wlanPrimaryNetwork` | High
+14 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+15 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+16 | File | `/nova/bin/user` | High
+17 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+18 | File | `/plesk-site-preview/` | High
+19 | File | `/question/ask` | High
+20 | File | `/rest/api/2/search` | High
+21 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

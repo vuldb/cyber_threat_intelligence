@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,51 +77,51 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/admin.php?&m=Public&a=login` | High
-4 | File | `/admin/default.asp` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/api/` | Low
-7 | File | `/app/options.py` | High
-8 | File | `/bin/httpd` | Medium
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
-13 | File | `/classes/Master.php?f=delete_train` | High
-14 | File | `/cms/print.php` | High
-15 | File | `/concat?/%2557EB-INF/web.xml` | High
-16 | File | `/config/getuser` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/` | Low
+6 | File | `/app/options.py` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/cms/print.php` | High
+14 | File | `/concat?/%2557EB-INF/web.xml` | High
+15 | File | `/config/getuser` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
 19 | File | `/data/remove` | Medium
 20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/goforms/rlminfo` | High
-22 | File | `/Items/*/RemoteImages/Download` | High
-23 | File | `/management/api/rcx_management/global_config_query` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/navigate/navigate_download.php` | High
-26 | File | `/ocwbs/admin/?page=user/manage_user` | High
-27 | File | `/ofrs/admin/?page=user/manage_user` | High
-28 | File | `/out.php` | Medium
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/password.html` | High
-31 | File | `/php_action/fetchSelectedUser.php` | High
-32 | File | `/proc/ioports` | High
-33 | File | `/property-list/property_view.php` | High
-34 | File | `/ptms/classes/Users.php` | High
-35 | File | `/rest/api/2/search` | High
-36 | File | `/s/` | Low
-37 | File | `/scripts/cpan_config` | High
-38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/tmp` | Low
-41 | File | `/ucms/index.php?do=list_edit` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/vloggers_merch/?p=view_product` | High
-44 | File | `/websocket/exec` | High
-45 | File | `/whbs/?page=my_bookings` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/Items/*/RemoteImages/Download` | High
+24 | File | `/management/api/rcx_management/global_config_query` | High
+25 | File | `/menu.html` | Medium
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/navigate/navigate_download.php` | High
+28 | File | `/ocwbs/admin/?page=user/manage_user` | High
+29 | File | `/ofrs/admin/?page=user/manage_user` | High
+30 | File | `/out.php` | Medium
+31 | File | `/password.html` | High
+32 | File | `/php_action/fetchSelectedUser.php` | High
+33 | File | `/proc/ioports` | High
+34 | File | `/property-list/property_view.php` | High
+35 | File | `/ptms/classes/Users.php` | High
+36 | File | `/rest/api/2/search` | High
+37 | File | `/s/` | Low
+38 | File | `/scripts/cpan_config` | High
+39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/tmp` | Low
+42 | File | `/ucms/index.php?do=list_edit` | High
+43 | File | `/uncpath/` | Medium
+44 | File | `/vloggers_merch/?p=view_product` | High
+45 | File | `/websocket/exec` | High
 46 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

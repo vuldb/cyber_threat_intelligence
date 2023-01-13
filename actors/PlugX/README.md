@@ -82,32 +82,32 @@ ID | Type | Indicator | Confidence
 20 | File | `/ghost/preview` | High
 21 | File | `/GponForm/device_Form?script/` | High
 22 | File | `/include/config.cache.php` | High
-23 | File | `/jeecg-boot/sys/common/upload` | High
-24 | File | `/lan.asp` | Medium
-25 | File | `/LDMS/frm_splitfrm.aspx` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
-28 | File | `/NAGErrors` | Medium
-29 | File | `/replication` | Medium
-30 | File | `/RestAPI` | Medium
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/service/upload` | High
-33 | File | `/smstest.html` | High
-34 | File | `/start-stop` | Medium
-35 | File | `/subscribe/subscribe` | High
-36 | File | `/tmp` | Low
-37 | File | `/tmp/kamailio_fifo` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/WEB-INF/web.xml` | High
-40 | File | `/wp-json/oembed/1.0/embed?url` | High
-41 | File | `/_error` | Low
-42 | File | `actions/authenticate.php` | High
-43 | File | `adclick.php` | Medium
-44 | File | `addlyricsform.php` | High
-45 | File | `addmerchpicform.php` | High
+23 | File | `/index.php/admin/tag/add.html` | High
+24 | File | `/jeecg-boot/sys/common/upload` | High
+25 | File | `/lan.asp` | Medium
+26 | File | `/LDMS/frm_splitfrm.aspx` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+29 | File | `/NAGErrors` | Medium
+30 | File | `/out.php` | Medium
+31 | File | `/replication` | Medium
+32 | File | `/RestAPI` | Medium
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/service/upload` | High
+35 | File | `/smstest.html` | High
+36 | File | `/start-stop` | Medium
+37 | File | `/subscribe/subscribe` | High
+38 | File | `/tmp` | Low
+39 | File | `/uncpath/` | Medium
+40 | File | `/WEB-INF/web.xml` | High
+41 | File | `/wp-json/oembed/1.0/embed?url` | High
+42 | File | `/_error` | Low
+43 | File | `actions/authenticate.php` | High
+44 | File | `adclick.php` | Medium
+45 | File | `addlyricsform.php` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +131,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -16,6 +16,7 @@ The following _campaigns_ are known and can be associated with UNC1151:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC1151:
 
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -51,10 +52,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/concat?/%2557EB-INF/web.xml` | High
 2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `net/unix/af_unix.c` | High
+3 | File | `/forum/away.php` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -72,4 +73,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

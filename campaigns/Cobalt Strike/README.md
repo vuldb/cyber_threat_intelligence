@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -24,7 +24,8 @@ ID | Actor | Confidence
 1 | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 2 | [Conti](https://vuldb.com/?actor.conti) | High
 3 | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-4 | ... | ...
+4 | [IcedID](https://vuldb.com/?actor.icedid) | High
+5 | ... | ...
 
 There are 7 more actor items available. Please use our online service to access the data.
 
@@ -84,19 +85,19 @@ ID | IP address | Hostname | Actor | Confidence
 48 | [44.208.127.245](https://vuldb.com/?ip.44.208.127.245) | ec2-44-208-127-245.compute-1.amazonaws.com | [Matanbuchus](https://vuldb.com/?actor.matanbuchus) | Medium
 49 | [45.9.248.74](https://vuldb.com/?ip.45.9.248.74) | te-4-3-177.pe2.man4.uk.m247.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 50 | [45.11.19.224](https://vuldb.com/?ip.45.11.19.224) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-51 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-52 | [45.58.124.98](https://vuldb.com/?ip.45.58.124.98) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
-53 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-54 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-55 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-56 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-57 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-58 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-59 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
-60 | [45.147.229.177](https://vuldb.com/?ip.45.147.229.177) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+51 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | [FIN7](https://vuldb.com/?actor.fin7) | High
+52 | [45.15.131.96](https://vuldb.com/?ip.45.15.131.96) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+53 | [45.58.124.98](https://vuldb.com/?ip.45.58.124.98) | - | [Wizard Spider](https://vuldb.com/?actor.wizard_spider) | High
+54 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+55 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+56 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+57 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+58 | [45.140.146.244](https://vuldb.com/?ip.45.140.146.244) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+59 | [45.144.29.185](https://vuldb.com/?ip.45.144.29.185) | master.pisyandriy.com | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
+60 | [45.147.229.23](https://vuldb.com/?ip.45.147.229.23) | - | [Cobalt Strike](https://vuldb.com/?actor.cobalt_strike) | High
 61 | ... | ... | ... | ...
 
-There are 238 more IOC items available. Please use our online service to access the data.
+There are 242 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -104,14 +105,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-35 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -119,48 +120,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin.php?mod=admin&func=panel` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/edit_members.php` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/api/sys_username_passwd.cmd` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/asms/admin/products/manage_product.php` | High
-10 | File | `/asms/products/view_product.php` | High
-11 | File | `/blog/comment` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/calendar/viewcalendar.php` | High
-15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-16 | File | `/cgi-bin/luci` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/clients/listclients.php` | High
-19 | File | `/cms/notify` | Medium
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/Default/Bd` | Medium
-23 | File | `/device/acceptBind` | High
-24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-25 | File | `/event/admin/?page=user/list` | High
-26 | File | `/export` | Low
-27 | File | `/face-recognition-php/facepay-master/camera.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/FreshRSS/p/ext.php` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/goform/addUserName` | High
-32 | File | `/goform/CertListInfo` | High
-33 | File | `/goform/editUserName` | High
-34 | File | `/goform/L7Im` | Medium
-35 | File | `/goform/SafeUrlFilter` | High
-36 | File | `/h/calendar` | Medium
-37 | File | `/hrm/controller/employee.php` | High
-38 | File | `/hrm/employeeadd.php` | High
-39 | File | `/hrm/employeeview.php` | High
-40 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/Api/ASF` | Medium
+5 | File | `/api/browserextension/UpdatePassword/` | High
+6 | File | `/blogengine/api/posts` | High
+7 | File | `/cgi-bin/api-get_line_status` | High
+8 | File | `/cgi-bin/luci` | High
+9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cms/notify` | Medium
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/ctcprotocol/Protocol` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/export` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/hrm/employeeadd.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/hss/admin/?page=client/manage_client` | High
+26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+27 | File | `/login/index.php` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/obs/book.php` | High
+30 | File | `/pages/processlogin.php` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/proxy` | Low
+33 | File | `/reports/rwservlet` | High
+34 | File | `/services/view_service.php` | High
+35 | File | `/setNTP.cgi` | Medium
+36 | File | `/tmp/boa-temp` | High
+37 | File | `/tpts/manage_user.php` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+40 | File | `/view-property.php` | High
+41 | File | `/zhndnsdisplay.cmd` | High
+42 | File | `actionphp/download.File.php` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `addrtoname.c` | Medium
+46 | ... | ... | ...
 
-There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -240,6 +247,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/
 * https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/
+* https://thedfirreport.com/2023/01/09/unwrapping-ursnifs-gifts/
 * https://therecord.media/disgruntled-ransomware-affiliate-leaks-the-conti-gangs-technical-manuals/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
@@ -250,6 +258,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://us-cert.cisa.gov/ncas/alerts/aa21-148a
 * https://www.cisa.gov/uscert/ncas/alerts/aa22-228a
 * https://www.malware-traffic-analysis.net/2022/06/07/index2.html
+* https://www.prodaft.com/resource/detail/fin7-unveiled-deep-dive-notorious-cybercrime-gang
 * https://www.prodaft.com/resource/detail/ws-wizard-spider-group-depth-analysis
 * https://www.trendmicro.com/de_de/research/22/e/patch-your-wso2-cve-2022-29464-exploited-to-install-linux-compatible-cobalt-strike-beacons-other-malware.html
 * https://www.trendmicro.com/de_de/research/22/i/play-ransomware-s-attack-playbook-unmasks-it-as-another-hive-aff.html
@@ -264,4 +273,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

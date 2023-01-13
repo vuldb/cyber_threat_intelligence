@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -541,45 +541,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/students/manage.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/subnets/ripe-query.php` | High
-7 | File | `/api/RecordingList/DownloadRecord?file=` | High
-8 | File | `/api/user/upsert/<uuid>` | High
-9 | File | `/attachments` | Medium
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/cwc/login` | Medium
-15 | File | `/debug/pprof` | Medium
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/etc/hosts` | Medium
-18 | File | `/etc/ldap.conf` | High
-19 | File | `/etc/quagga` | Medium
-20 | File | `/event/admin/?page=user/list` | High
-21 | File | `/export` | Low
-22 | File | `/foms/place-order.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/h/calendar` | Medium
-26 | File | `/h/compose` | Medium
-27 | File | `/h/search?action=voicemail&action=listen` | High
-28 | File | `/hardware` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/manager/index.php` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/nova/bin/detnet` | High
-33 | File | `/opac/Actions.php?a=login` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/php-sms/classes/Master.php` | High
-36 | File | `/php-sms/classes/SystemSettings.php` | High
-37 | File | `/php_action/createOrder.php` | High
+2 | File | `/Admin/login.php` | High
+3 | File | `/admin/students/manage.php` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/admin/subnets/ripe-query.php` | High
+6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+7 | File | `/api/user/upsert/<uuid>` | High
+8 | File | `/attachments` | Medium
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+13 | File | `/etc/hosts` | Medium
+14 | File | `/etc/ldap.conf` | High
+15 | File | `/etc/quagga` | Medium
+16 | File | `/etc/shadow` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/foms/place-order.php` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/h/compose` | Medium
+22 | File | `/h/search?action=voicemail&action=listen` | High
+23 | File | `/hardware` | Medium
+24 | File | `/index.php` | Medium
+25 | File | `/manager/index.php` | High
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/nova/bin/detnet` | High
+28 | File | `/opac/Actions.php?a=login` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/php-sms/classes/Master.php` | High
+31 | File | `/php-sms/classes/SystemSettings.php` | High
+32 | File | `/php_action/createOrder.php` | High
+33 | File | `/php_action/editProductImage.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/ResiotQueryDBActive` | High
+36 | File | `/SetTriggerWPS/PIN` | High
+37 | File | `/spip.php` | Medium
 38 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -604,4 +604,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

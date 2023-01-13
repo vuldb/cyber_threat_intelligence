@@ -10,7 +10,10 @@ The following _campaigns_ are known and can be associated with FIN7:
 
 * AveMaria
 * Black Basta
-* OpBlueRaven
+* Carbanak
+* ...
+
+There are 3 more campaign items available. Please use our online service to access the data.
 
 ## Countries
 
@@ -21,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,36 +48,47 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [5.188.10.102](https://vuldb.com/?ip.5.188.10.102) | - | - | High
 15 | [5.188.10.248](https://vuldb.com/?ip.5.188.10.248) | - | - | High
 16 | [5.199.169.188](https://vuldb.com/?ip.5.199.169.188) | - | - | High
-17 | [5.252.177.23](https://vuldb.com/?ip.5.252.177.23) | 5-252-177-23.mivocloud.com | OpBlueRaven | High
-18 | [5.252.177.37](https://vuldb.com/?ip.5.252.177.37) | no-rdns.mivocloud.com | OpBlueRaven | High
-19 | [8.28.175.68](https://vuldb.com/?ip.8.28.175.68) | phoenixartisanacoutrements.com | - | High
-20 | [23.83.133.119](https://vuldb.com/?ip.23.83.133.119) | - | OpBlueRaven | High
-21 | [23.249.162.161](https://vuldb.com/?ip.23.249.162.161) | - | - | High
-22 | [31.7.61.136](https://vuldb.com/?ip.31.7.61.136) | hosted-by.securefastserver.com | - | High
-23 | [31.18.219.133](https://vuldb.com/?ip.31.18.219.133) | ip1f12db85.dynamic.kabel-deutschland.de | - | High
-24 | [31.131.17.125](https://vuldb.com/?ip.31.131.17.125) | - | - | High
-25 | [31.131.17.127](https://vuldb.com/?ip.31.131.17.127) | automarinetechnology.com | - | High
-26 | [31.131.17.128](https://vuldb.com/?ip.31.131.17.128) | - | - | High
-27 | [31.148.219.18](https://vuldb.com/?ip.31.148.219.18) | - | - | High
-28 | [31.148.219.44](https://vuldb.com/?ip.31.148.219.44) | - | - | High
-29 | [31.148.219.126](https://vuldb.com/?ip.31.148.219.126) | - | - | High
-30 | [31.148.219.141](https://vuldb.com/?ip.31.148.219.141) | - | - | High
-31 | [31.148.220.107](https://vuldb.com/?ip.31.148.220.107) | - | - | High
-32 | [31.148.220.215](https://vuldb.com/?ip.31.148.220.215) | - | - | High
-33 | [31.184.234.66](https://vuldb.com/?ip.31.184.234.66) | - | - | High
-34 | [31.184.234.71](https://vuldb.com/?ip.31.184.234.71) | - | - | High
-35 | [37.1.211.239](https://vuldb.com/?ip.37.1.211.239) | ourdrops.org | OpBlueRaven | High
-36 | [37.1.215.4](https://vuldb.com/?ip.37.1.215.4) | - | OpBlueRaven | High
-37 | [37.1.215.72](https://vuldb.com/?ip.37.1.215.72) | - | OpBlueRaven | High
-38 | [37.235.54.48](https://vuldb.com/?ip.37.235.54.48) | 48.54.235.37.in-addr.arpa | - | High
-39 | [37.252.4.131](https://vuldb.com/?ip.37.252.4.131) | - | OpBlueRaven | High
-40 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | renoldgavrilov93.example.com | Black Basta | High
-41 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
-42 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
-43 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
-44 | ... | ... | ... | ...
+17 | [5.252.177.8](https://vuldb.com/?ip.5.252.177.8) | no-rdns.mivocloud.com | - | High
+18 | [5.252.177.15](https://vuldb.com/?ip.5.252.177.15) | no-rdns.mivocloud.com | - | High
+19 | [5.252.177.23](https://vuldb.com/?ip.5.252.177.23) | 5-252-177-23.mivocloud.com | OpBlueRaven | High
+20 | [5.252.177.37](https://vuldb.com/?ip.5.252.177.37) | no-rdns.mivocloud.com | OpBlueRaven | High
+21 | [8.28.175.68](https://vuldb.com/?ip.8.28.175.68) | phoenixartisanacoutrements.com | - | High
+22 | [15.235.156.105](https://vuldb.com/?ip.15.235.156.105) | ip105.ip-15-235-156.net | - | High
+23 | [15.235.156.115](https://vuldb.com/?ip.15.235.156.115) | ip115.ip-15-235-156.net | - | High
+24 | [23.83.133.119](https://vuldb.com/?ip.23.83.133.119) | - | OpBlueRaven | High
+25 | [23.249.162.161](https://vuldb.com/?ip.23.249.162.161) | - | - | High
+26 | [31.7.61.136](https://vuldb.com/?ip.31.7.61.136) | hosted-by.securefastserver.com | - | High
+27 | [31.18.219.133](https://vuldb.com/?ip.31.18.219.133) | ip1f12db85.dynamic.kabel-deutschland.de | - | High
+28 | [31.131.17.125](https://vuldb.com/?ip.31.131.17.125) | - | - | High
+29 | [31.131.17.127](https://vuldb.com/?ip.31.131.17.127) | automarinetechnology.com | - | High
+30 | [31.131.17.128](https://vuldb.com/?ip.31.131.17.128) | - | - | High
+31 | [31.148.219.18](https://vuldb.com/?ip.31.148.219.18) | - | - | High
+32 | [31.148.219.44](https://vuldb.com/?ip.31.148.219.44) | - | - | High
+33 | [31.148.219.126](https://vuldb.com/?ip.31.148.219.126) | - | - | High
+34 | [31.148.219.141](https://vuldb.com/?ip.31.148.219.141) | - | - | High
+35 | [31.148.220.107](https://vuldb.com/?ip.31.148.220.107) | - | - | High
+36 | [31.148.220.215](https://vuldb.com/?ip.31.148.220.215) | - | - | High
+37 | [31.184.234.66](https://vuldb.com/?ip.31.184.234.66) | - | - | High
+38 | [31.184.234.71](https://vuldb.com/?ip.31.184.234.71) | - | - | High
+39 | [37.1.211.239](https://vuldb.com/?ip.37.1.211.239) | ourdrops.org | OpBlueRaven | High
+40 | [37.1.215.4](https://vuldb.com/?ip.37.1.215.4) | - | OpBlueRaven | High
+41 | [37.1.215.72](https://vuldb.com/?ip.37.1.215.72) | - | OpBlueRaven | High
+42 | [37.235.54.48](https://vuldb.com/?ip.37.235.54.48) | 48.54.235.37.in-addr.arpa | - | High
+43 | [37.252.4.131](https://vuldb.com/?ip.37.252.4.131) | - | OpBlueRaven | High
+44 | [45.11.180.82](https://vuldb.com/?ip.45.11.180.82) | - | Cobalt Strike | High
+45 | [45.67.229.148](https://vuldb.com/?ip.45.67.229.148) | renoldgavrilov93.example.com | Black Basta | High
+46 | [45.77.60.230](https://vuldb.com/?ip.45.77.60.230) | 45.77.60.230.vultr.com | OpBlueRaven | Medium
+47 | [45.77.204.130](https://vuldb.com/?ip.45.77.204.130) | 45.77.204.130.vultr.com | OpBlueRaven | Medium
+48 | [45.87.152.64](https://vuldb.com/?ip.45.87.152.64) | free.pq.hosting | OpBlueRaven | High
+49 | [45.133.216.25](https://vuldb.com/?ip.45.133.216.25) | lisulisimp.example.com | OpBlueRaven | High
+50 | [45.133.216.89](https://vuldb.com/?ip.45.133.216.89) | rinattumarov.example.com | OpBlueRaven | High
+51 | [45.133.216.194](https://vuldb.com/?ip.45.133.216.194) | vm263790.pq.hosting | OpBlueRaven | High
+52 | [45.140.146.184](https://vuldb.com/?ip.45.140.146.184) | vm237488.pq.hosting | Carbanak | High
+53 | [45.142.212.82](https://vuldb.com/?ip.45.142.212.82) | vm843762.stark-industries.solutions | - | High
+54 | [45.142.213.56](https://vuldb.com/?ip.45.142.213.56) | leygaycurfort1989.example.com | OpBlueRaven | High
+55 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 215 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -83,13 +97,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,12 +111,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/showbad.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/ad_js.php` | Medium
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/about.php` | Medium
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/api/admin/articles/` | High
+5 | File | `/Admin/login.php` | High
+6 | File | `/admin/submit-articles` | High
 7 | File | `/api/RecordingList/DownloadRecord?file=` | High
 8 | File | `/apilog.php` | Medium
 9 | File | `/attachments` | Medium
@@ -110,18 +124,18 @@ ID | Type | Indicator | Confidence
 11 | File | `/cgi-bin/wlogin.cgi` | High
 12 | File | `/connectors/index.php` | High
 13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/etc/hosts` | Medium
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/hrm/employeeadd.php` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/items/view_item.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/etc/hosts` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/items/view_item.php` | High
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 26 | File | `/lookin/info` | Medium
 27 | File | `/manage-apartment.php` | High
 28 | File | `/manager/index.php` | High
@@ -135,26 +149,28 @@ ID | Type | Indicator | Confidence
 36 | File | `/pages/apply_vacancy.php` | High
 37 | File | `/proxy` | Low
 38 | File | `/Redcock-Farm/farm/category.php` | High
-39 | File | `/sacco_shield/manage_user.php` | High
-40 | File | `/secure/ViewCollectors` | High
+39 | File | `/reports/rwservlet` | High
+40 | File | `/sacco_shield/manage_user.php` | High
 41 | File | `/spip.php` | Medium
 42 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
 43 | File | `/staff/bookdetails.php` | High
-44 | File | `/uncpath/` | Medium
-45 | File | `/upload` | Low
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
 46 | File | `/user/update_booking.php` | High
-47 | File | `/vendor/views/add_product.php` | High
-48 | File | `/wabt/bin/poc.wasm` | High
-49 | File | `/WebInterface/UserManager/` | High
-50 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-51 | File | `/wordpress/wp-admin/options-general.php` | High
-52 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-53 | File | `AbstractScheduleJob.java` | High
-54 | File | `ActivityRecord.java` | High
-55 | File | `adclick.php` | Medium
-56 | ... | ... | ...
+47 | File | `/WebInterface/UserManager/` | High
+48 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+49 | File | `/wordpress/wp-admin/options-general.php` | High
+50 | File | `AbstractScheduleJob.java` | High
+51 | File | `actionphp/download.File.php` | High
+52 | File | `ActivityRecord.java` | High
+53 | File | `adclick.php` | Medium
+54 | File | `addtocart.asp` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin/conf_users_edit.php` | High
+57 | File | `admin/make_payments.php` | High
+58 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -166,6 +182,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.fireeye.com/blog/threat-research/2017/04/fin7-phishing-lnk.html
 * https://www.fireeye.com/blog/threat-research/2018/08/fin7-pursuing-an-enigmatic-and-evasive-global-criminal-operation.html
 * https://www.flashpoint-intel.com/blog/fin7-revisited-inside-astra-panel-and-sqlrat-malware/
+* https://www.prodaft.com/resource/detail/fin7-unveiled-deep-dive-notorious-cybercrime-gang
 * https://www.sentinelone.com/labs/black-basta-ransomware-attacks-deploy-custom-edr-evasion-tools-tied-to-fin7-threat-actor/
 * https://www.threatminer.org/report.php?q=the-carbanak-fin7-syndicate_RSA.pdf&y=2017
 
@@ -178,4 +195,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

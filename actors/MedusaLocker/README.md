@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MedusaLocker:
 
-* [FR](https://vuldb.com/?country.fr)
-* [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
+* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +36,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,40 +51,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES(X86)%\Teradici\PCoIP.exe` | High
-2 | File | `.forward` | Medium
-3 | File | `/&quot` | Low
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/api/common/ping` | High
-6 | File | `/auth/register` | High
-7 | File | `/binbloom-master/src/helpers.c` | High
-8 | File | `/dev/kmem` | Medium
-9 | File | `/dev/tty` | Medium
-10 | File | `/etc/passwd` | Medium
-11 | File | `/etc/shadow` | Medium
-12 | File | `/face-recognition-php/facepay-master/camera.php` | High
-13 | File | `/goform/setSysAdm` | High
-14 | File | `/hrm/controller/employee.php` | High
-15 | File | `/hss/?page=product_per_brand` | High
-16 | File | `/hss/?page=view_product` | High
-17 | File | `/hss/admin/?page=products/view_product` | High
-18 | File | `/hss/admin/categories/manage_category.php` | High
-19 | File | `/hss/admin/categories/view_category.php` | High
-20 | File | `/lab.html` | Medium
-21 | File | `/menu.html` | Medium
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/templates/default/html/windows/right.php` | High
-24 | File | `/Upload/admin/admin_notify.php` | High
-25 | File | `/uploadServlet` | High
-26 | File | `/usr/sbin/httpd` | High
-27 | File | `/usr/ucb/mail` | High
-28 | File | `/vendor` | Low
-29 | File | `/workspaceCleanup` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `4.edu.php` | Medium
-32 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/adminui/history_log.php` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/common/download_agent_installer.php` | High
+5 | File | `/common/download_attachment.php` | High
+6 | File | `/common/run_cross_report.php` | High
+7 | File | `/etc/passwd` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/IPSECsave` | High
+10 | File | `/goform/WifiBasicSet` | High
+11 | File | `/hss/admin/?page=client/manage_client` | High
+12 | File | `/login/index.php` | High
+13 | File | `/out.php` | Medium
+14 | File | `/output/outdbg.c` | High
+15 | File | `/output/outieee.c` | High
+16 | File | `/product/savenewproduct.php?flag=1` | High
+17 | File | `/setNTP.cgi` | Medium
+18 | File | `/tiki-importer.php` | High
+19 | File | `/ui/cbpc/login` | High
+20 | File | `0_change-gallery.php` | High
+21 | File | `addToWishlist.asp` | High
+22 | File | `admin/panels/uploader/admin.uploader.php` | High
+23 | File | `admin/plugin-preferences.php` | High
+24 | File | `administrative` | High
+25 | File | `announce.php` | Medium
+26 | File | `app/controller/insertarSliderAjax.php` | High
+27 | File | `app/controllers/code_caller_controller.php` | High
+28 | File | `app/controllers/geopoll_controller.rb` | High
+29 | File | `app/controllers/image_controller.rb` | High
+30 | File | `app/controllers/oauth.js` | High
+31 | File | `app/controllers/uploaded_files_controller.rb` | High
+32 | File | `app/filters.php` | High
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +102,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

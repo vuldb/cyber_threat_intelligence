@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,12 +31,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,14 +44,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/includes/lib/tree.php` | High
-2 | File | `/objects/getImage.php` | High
-3 | File | `/services/details.asp` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `admin/infoclass_update.php` | High
+1 | File | `/etc/gsissh/sshd_config` | High
+2 | File | `/includes/lib/tree.php` | High
+3 | File | `/objects/getImage.php` | High
+4 | File | `/services/details.asp` | High
+5 | File | `/uncpath/` | Medium
 6 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,4 +68,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,70 +66,70 @@ ID | Type | Indicator | Confidence
 8 | File | `/adminlogin.asp` | High
 9 | File | `/api/` | Low
 10 | File | `/app/controller/Books.php` | High
-11 | File | `/bifs/field_decode.c` | High
-12 | File | `/bin/proc.cgi` | High
-13 | File | `/cgi/get_param.cgi` | High
-14 | File | `/controller/Index.php` | High
-15 | File | `/Core/Ap4File.cpp` | High
-16 | File | `/csms/?page=contact_us` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DXR.axd` | Medium
-19 | File | `/etc/master.passwd` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/goform/AddSysLogRule` | High
-22 | File | `/goform/aspForm` | High
-23 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-24 | File | `/include/friends.inc.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php?module=configuration/application` | High
-27 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-28 | File | `/isomedia/box_funcs.c` | High
-29 | File | `/isomedia/meta.c` | High
-30 | File | `/members/view_member.php` | High
-31 | File | `/php_action/editProductImage.php` | High
-32 | File | `/plesk-site-preview/` | High
-33 | File | `/project/PROJECTNAME/reports/` | High
-34 | File | `/sacco_shield/manage_loan.php` | High
-35 | File | `/scene_manager/scene_dump.c` | High
-36 | File | `/school/model/get_admin_profile.php` | High
-37 | File | `/services/view_service.php` | High
-38 | File | `/servlet/webacc` | High
-39 | File | `/shell` | Low
-40 | File | `/spip.php` | Medium
-41 | File | `/student-grading-system/rms.php?page=grade` | High
-42 | File | `/timeline2.php` | High
-43 | File | `/userui/ticket_list.php` | High
-44 | File | `/user_operations/profile.php` | High
-45 | File | `/usr/bin/pkexec` | High
-46 | File | `/wp-admin/options-general.php` | High
-47 | File | `/zm/index.php` | High
-48 | File | `/_next` | Low
-49 | File | `abook_database.php` | High
-50 | File | `accounts/inc/include.php` | High
-51 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
-52 | File | `adaptive-images-script.php` | High
-53 | File | `additem.asp` | Medium
-54 | File | `adherents/subscription/info.php` | High
-55 | File | `admin.asp` | Medium
-56 | File | `admin.php` | Medium
-57 | File | `admin/admin_users.php` | High
-58 | File | `admin/article_save.php` | High
-59 | File | `admin/header.php` | High
-60 | File | `admin/index.php` | High
-61 | File | `admin/login.asp` | High
-62 | File | `admin/manage-comments.php` | High
-63 | File | `admin/manage-news.php` | High
-64 | File | `admin/plugin-settings.php` | High
-65 | File | `admin/theme-edit.php` | High
-66 | File | `adminer.php` | Medium
-67 | File | `administrator/components/com_media/helpers/media.php` | High
-68 | File | `administrator/index.php` | High
-69 | File | `admin_login.asp` | High
-70 | File | `ajax_calls.php` | High
-71 | File | `al_initialize.php` | High
+11 | File | `/auth/register` | High
+12 | File | `/bifs/field_decode.c` | High
+13 | File | `/bin/proc.cgi` | High
+14 | File | `/cgi/get_param.cgi` | High
+15 | File | `/controller/Index.php` | High
+16 | File | `/Core/Ap4File.cpp` | High
+17 | File | `/csms/?page=contact_us` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DS/LM_API/api/SelectionService/InsertQueryWithActiveRelationsReturnId` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/etc/master.passwd` | High
+22 | File | `/etc/passwd` | Medium
+23 | File | `/etc/shadow` | Medium
+24 | File | `/goform/AddSysLogRule` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/WifiBasicSet` | High
+27 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+28 | File | `/include/friends.inc.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?module=configuration/application` | High
+31 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+32 | File | `/isomedia/box_funcs.c` | High
+33 | File | `/isomedia/meta.c` | High
+34 | File | `/members/view_member.php` | High
+35 | File | `/pages/animals.php` | High
+36 | File | `/pages/apply_vacancy.php` | High
+37 | File | `/php_action/editProductImage.php` | High
+38 | File | `/plesk-site-preview/` | High
+39 | File | `/project/PROJECTNAME/reports/` | High
+40 | File | `/sacco_shield/manage_loan.php` | High
+41 | File | `/scene_manager/scene_dump.c` | High
+42 | File | `/school/model/get_admin_profile.php` | High
+43 | File | `/services/view_service.php` | High
+44 | File | `/shell` | Low
+45 | File | `/spip.php` | Medium
+46 | File | `/student-grading-system/rms.php?page=grade` | High
+47 | File | `/timeline2.php` | High
+48 | File | `/userui/ticket_list.php` | High
+49 | File | `/user_operations/profile.php` | High
+50 | File | `/usr/bin/pkexec` | High
+51 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+52 | File | `/wp-admin/options-general.php` | High
+53 | File | `/zm/index.php` | High
+54 | File | `/_next` | Low
+55 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+56 | File | `abook_database.php` | High
+57 | File | `accounts/inc/include.php` | High
+58 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+59 | File | `adaptive-images-script.php` | High
+60 | File | `adherents/subscription/info.php` | High
+61 | File | `admin.asp` | Medium
+62 | File | `admin.php` | Medium
+63 | File | `admin/admin_users.php` | High
+64 | File | `admin/article_save.php` | High
+65 | File | `admin/header.php` | High
+66 | File | `admin/index.php` | High
+67 | File | `admin/login.asp` | High
+68 | File | `admin/manage-comments.php` | High
+69 | File | `admin/manage-news.php` | High
+70 | File | `admin/plugin-settings.php` | High
+71 | File | `admin/theme-edit.php` | High
 72 | ... | ... | ...
 
-There are 629 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 634 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -154,4 +154,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

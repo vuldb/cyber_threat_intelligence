@@ -61,30 +61,30 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/vod/admin/topic/del` | High
 3 | File | `/admin.php?action=themeinstall` | High
 4 | File | `/admin/admapi.php` | High
-5 | File | `/admin/config.php?display=disa&view=form` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/posts.php&action=edit` | High
-8 | File | `/admin/sysmon.php` | High
-9 | File | `/admin/update_expense.php` | High
-10 | File | `/api/v1/chat.getThreadsList` | High
-11 | File | `/balance/service/list` | High
-12 | File | `/base/ecma-helpers-string.c` | High
-13 | File | `/blog/edit` | Medium
-14 | File | `/cimom` | Low
-15 | File | `/ci_spms/admin/search/searching/` | High
-16 | File | `/classes/Master.php?f=delete_student` | High
-17 | File | `/dev/tty` | Medium
-18 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
-19 | File | `/etc/sysconfig/tomcat` | High
-20 | File | `/fantasticblog/single.php` | High
-21 | File | `/goform/aspForm` | High
-22 | File | `/goform/delIpMacBind/` | High
-23 | File | `/goform/SetLEDCfg` | High
-24 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-25 | File | `/htdocs/utils/Files.php` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/config.php?display=disa&view=form` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/posts.php&action=edit` | High
+9 | File | `/admin/sysmon.php` | High
+10 | File | `/admin/update_expense.php` | High
+11 | File | `/api/v1/chat.getThreadsList` | High
+12 | File | `/balance/service/list` | High
+13 | File | `/base/ecma-helpers-string.c` | High
+14 | File | `/blog/edit` | Medium
+15 | File | `/cimom` | Low
+16 | File | `/ci_spms/admin/search/searching/` | High
+17 | File | `/classes/Master.php?f=delete_student` | High
+18 | File | `/dev/tty` | Medium
+19 | File | `/EPOAGENTMETA/DisplayMSAPropsDetail.do` | High
+20 | File | `/etc/sysconfig/tomcat` | High
+21 | File | `/fantasticblog/single.php` | High
+22 | File | `/goform/aspForm` | High
+23 | File | `/goform/delIpMacBind/` | High
+24 | File | `/goform/SetLEDCfg` | High
+25 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
 26 | ... | ... | ...
 
-There are 217 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

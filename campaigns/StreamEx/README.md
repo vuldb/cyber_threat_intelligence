@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,14 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,24 +74,24 @@ ID | Type | Indicator | Confidence
 15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 16 | File | `/debug/pprof` | Medium
 17 | File | `/etc/hosts` | Medium
-18 | File | `/fuel/index.php/fuel/logs/items` | High
-19 | File | `/fuel/sitevariables/delete/4` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-23 | File | `/index/jobfairol/show/` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/mgmt/tm/util/bash` | High
-27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/proc/<PID>/mem` | High
-30 | File | `/proxy` | Low
-31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-32 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+22 | File | `/index/jobfairol/show/` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/manage-apartment.php` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/proxy` | Low
+30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/tmp` | Low
 33 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

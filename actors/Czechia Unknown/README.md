@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Czechia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [PT](https://vuldb.com/?country.pt)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -492,14 +492,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -507,46 +508,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/action/import_firmware/` | High
-3 | File | `/action/wirelessConnect` | High
-4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/group` | Medium
-6 | File | `/admin/index.PHP` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/api/discoveries/` | High
-9 | File | `/api/v1/attack/token` | High
-10 | File | `/api/v2/open/rowsInfo` | High
-11 | File | `/api/v2/open/tablesInfo` | High
-12 | File | `/application/views/themeOptions/update.php` | High
-13 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/clients/view_client.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/depotHead/list` | High
-18 | File | `/etc/tomcat8/Catalina/attack` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/form2WizardStep4` | High
-21 | File | `/goform/SetPptpServerCfg` | High
-22 | File | `/goform/SetSysTimeCfg` | High
-23 | File | `/isomedia/box_funcs.c` | High
-24 | File | `/js/player/dmplayer/dmku/index.php` | High
-25 | File | `/LogoStore/search.php` | High
-26 | File | `/modules/announcement/index.php?view=edit` | High
-27 | File | `/news-events/events` | High
-28 | File | `/out.php` | Medium
-29 | File | `/php-sms/classes/Master.php` | High
-30 | File | `/php_action/editProductImage.php` | High
-31 | File | `/php_action/fetchSelectedUser.php` | High
-32 | File | `/plugin/getList` | High
-33 | File | `/plugin/rundeck/webhook/` | High
-34 | File | `/real-estate-script/search_property.php` | High
-35 | File | `/release-x64/otfccdump+0x4adcdb` | High
-36 | File | `/release-x64/otfccdump+0x6adb1e` | High
-37 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-38 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+5 | File | `/api/browserextension/UpdatePassword/` | High
+6 | File | `/api/contents` | High
+7 | File | `/auth/register` | High
+8 | File | `/blog/comment` | High
+9 | File | `/Default/Bd` | Medium
+10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+11 | File | `/drivers/isdn/i4l/isdn_net.c` | High
+12 | File | `/env` | Low
+13 | File | `/etc/os-release` | High
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/addressNat` | High
+17 | File | `/goform/addUserName` | High
+18 | File | `/goform/exeCommand` | High
+19 | File | `/goform/IPSECsave` | High
+20 | File | `/goform/NatStaticSetting` | High
+21 | File | `/goform/P2pListFilter` | High
+22 | File | `/goform/SafeMacFilter` | High
+23 | File | `/goform/setMacFilterCfg` | High
+24 | File | `/goform/WifiMacFilterGet` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/hss/?page=categories` | High
+29 | File | `/hss/?page=product_per_brand` | High
+30 | File | `/hss/admin/?page=products/view_product` | High
+31 | File | `/inc/parser/xhtml.php` | High
+32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+33 | File | `/lookin/info` | Medium
+34 | File | `/odlms//classes/Master.php?f=delete_activity` | High
+35 | File | `/ossim/report/wizard_email.php` | High
+36 | File | `/pages/save_user.php` | High
+37 | File | `/plugin/getList` | High
+38 | File | `/product/savenewproduct.php?flag=1` | High
+39 | File | `/proxy` | Low
+40 | File | `/services/Card/findUser` | High
+41 | File | `/services/view_service.php` | High
+42 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+43 | File | `/timeline2.php` | High
+44 | File | `/tmp/jvm-*/hs_error.log` | High
+45 | File | `/Upload/admin/admin_notify.php` | High
+46 | File | `/usr/sbin/nagios` | High
+47 | File | `/v1/sql-runner` | High
+48 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -563,4 +574,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

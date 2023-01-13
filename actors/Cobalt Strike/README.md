@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -74,7 +74,7 @@ ID | IP address | Hostname | Campaign | Confidence
 51 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | - | High
 52 | ... | ... | ... | ...
 
-There are 204 more IOC items available. Please use our online service to access the data.
+There are 205 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,14 +82,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,47 +98,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin.php?mod=admin&func=panel` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/edit_members.php` | High
-6 | File | `/admin/users/index.php` | High
-7 | File | `/api/sys_username_passwd.cmd` | High
-8 | File | `/api2/html/` | Medium
-9 | File | `/asms/admin/products/manage_product.php` | High
-10 | File | `/asms/products/view_product.php` | High
-11 | File | `/blog/comment` | High
-12 | File | `/bsms_ci/index.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/calendar/viewcalendar.php` | High
-15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-16 | File | `/cgi-bin/luci` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/clients/listclients.php` | High
-19 | File | `/cms/notify` | Medium
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/Default/Bd` | Medium
-23 | File | `/device/acceptBind` | High
-24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-25 | File | `/event/admin/?page=user/list` | High
-26 | File | `/export` | Low
-27 | File | `/face-recognition-php/facepay-master/camera.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/FreshRSS/p/ext.php` | High
-30 | File | `/general/search.php?searchtype=simple` | High
-31 | File | `/goform/addUserName` | High
-32 | File | `/goform/CertListInfo` | High
-33 | File | `/goform/editUserName` | High
-34 | File | `/goform/L7Im` | Medium
-35 | File | `/goform/SafeUrlFilter` | High
-36 | File | `/h/calendar` | Medium
-37 | File | `/hrm/controller/employee.php` | High
-38 | File | `/hrm/employeeadd.php` | High
-39 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/Api/ASF` | Medium
+5 | File | `/api/browserextension/UpdatePassword/` | High
+6 | File | `/api2/html/` | Medium
+7 | File | `/cgi-bin/api-get_line_status` | High
+8 | File | `/cgi-bin/luci` | High
+9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cms/notify` | Medium
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/ctcprotocol/Protocol` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/export` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/hrm/employeeadd.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/hss/admin/?page=client/manage_client` | High
+26 | File | `/hss/admin/?page=products/manage_product` | High
+27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+28 | File | `/login/index.php` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/obs/book.php` | High
+31 | File | `/pages/processlogin.php` | High
+32 | File | `/product/savenewproduct.php?flag=1` | High
+33 | File | `/proxy` | Low
+34 | File | `/reports/rwservlet` | High
+35 | File | `/services/view_service.php` | High
+36 | File | `/tmp/boa-temp` | High
+37 | File | `/tpts/manage_user.php` | High
+38 | File | `/uncpath/` | Medium
+39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+40 | File | `/view-property.php` | High
+41 | File | `/zhndnsdisplay.cmd` | High
+42 | File | `actionphp/download.File.php` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addentry.php` | Medium
+45 | File | `addrtoname.c` | Medium
+46 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -211,6 +219,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2022/05/09/seo-poisoning-a-gootloader-story/
 * https://thedfirreport.com/2022/08/08/bumblebee-roasts-its-way-to-domain-admin/
 * https://thedfirreport.com/2022/11/28/emotet-strikes-again-lnk-file-leads-to-domain-wide-ransomware/
+* https://thedfirreport.com/2023/01/09/unwrapping-ursnifs-gifts/
 * https://twitter.com/malware_traffic/status/1400876426497253379
 * https://twitter.com/malware_traffic/status/1415740795622248452
 * https://twitter.com/malware_traffic/status/1592262598195646464
@@ -232,4 +241,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -51,10 +51,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -65,11 +65,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/addQuestion.php` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/addemployee.php` | High
+1 | File | `/about.php` | Medium
+2 | File | `/addQuestion.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/api/theme-edit/` | High
 6 | File | `/admin/cms.php` | High
 7 | File | `/admin/featured.php` | High
 8 | File | `/admin/payment.php` | High
@@ -82,12 +82,12 @@ ID | Type | Indicator | Confidence
 15 | File | `/app/options.py` | High
 16 | File | `/artist-display.php` | High
 17 | File | `/attachments` | Medium
-18 | File | `/bsms/?page=manage_account` | High
-19 | File | `/bsms_ci/index.php` | High
-20 | File | `/cgi-bin/login.cgi` | High
-21 | File | `/cgi-bin/luci/api/wireless` | High
-22 | File | `/cgi-bin/nightled.cgi` | High
-23 | File | `/ci_hms/massage_room/edit/1` | High
+18 | File | `/bsms_ci/index.php` | High
+19 | File | `/cgi-bin/login.cgi` | High
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cgi-bin/nightled.cgi` | High
+22 | File | `/ci_hms/massage_room/edit/1` | High
+23 | File | `/common/info.cgi` | High
 24 | File | `/context/%2e/WEB-INF/web.xml` | High
 25 | File | `/dashboard/reports/logs/view` | High
 26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
@@ -95,18 +95,20 @@ ID | Type | Indicator | Confidence
 28 | File | `/etc/hosts` | Medium
 29 | File | `/foms/place-order.php` | High
 30 | File | `/forum/away.php` | High
-31 | File | `/fuel/sitevariables/delete/4` | High
-32 | File | `/goform/setmac` | High
-33 | File | `/goform/wizard_end` | High
-34 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/index/jobfairol/show/` | High
-37 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-38 | File | `/librarian/bookdetails.php` | High
-39 | File | `/manage-apartment.php` | High
-40 | ... | ... | ...
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+34 | File | `/index.php` | Medium
+35 | File | `/index/jobfairol/show/` | High
+36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+37 | File | `/librarian/bookdetails.php` | High
+38 | File | `/manage-apartment.php` | High
+39 | File | `/management/api/rcx_management/global_config_query` | High
+40 | File | `/mcategory.php` | High
+41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+42 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +125,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

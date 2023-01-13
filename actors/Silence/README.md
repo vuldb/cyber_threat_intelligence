@@ -60,7 +60,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -77,33 +78,33 @@ ID | Type | Indicator | Confidence
 5 | File | `/Ap4RtpAtom.cpp` | High
 6 | File | `/app/options.py` | High
 7 | File | `/attachments` | Medium
-8 | File | `/bcms/admin/?page=user/list` | High
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/card_scan.php` | High
-11 | File | `/cgi-bin/login.cgi` | High
-12 | File | `/cgi-bin/luci/api/wireless` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/cwc/login` | Medium
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/hosts` | Medium
-21 | File | `/etc/quagga` | Medium
-22 | File | `/fuel/sitevariables/delete/4` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/h/calendar` | Medium
-26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-27 | File | `/index/jobfairol/show/` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/manage-apartment.php` | High
-30 | File | `/mgmt/tm/util/bash` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+8 | File | `/bsms/?page=manage_account` | High
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/cwc/login` | Medium
+16 | File | `/dashboard/reports/logs/view` | High
+17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/quagga` | Medium
+21 | File | `/fuel/sitevariables/delete/4` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/h/calendar` | Medium
+25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+26 | File | `/index/jobfairol/show/` | High
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/manage-apartment.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/nova/bin/detnet` | High
+31 | File | `/out.php` | Medium
 32 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -123,4 +124,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

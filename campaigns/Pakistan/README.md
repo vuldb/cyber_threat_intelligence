@@ -66,12 +66,12 @@ ID | Type | Indicator | Confidence
 7 | File | `/nova/bin/detnet` | High
 8 | File | `/searchpin.php` | High
 9 | File | `/service/upload` | High
-10 | File | `/show_group_members.php` | High
-11 | File | `/sqfs/bin/sccd` | High
-12 | File | `/whbs/?page=manage_account` | High
+10 | File | `/services/Card/findUser` | High
+11 | File | `/show_group_members.php` | High
+12 | File | `/sqfs/bin/sccd` | High
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -68,51 +68,51 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/files` | Medium
 3 | File | `/controller/Index.php` | High
 4 | File | `/etc/init0.d/S80telnetd.sh` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/goform/aspForm` | High
-7 | File | `/index.php` | Medium
-8 | File | `/loginVaLidation.php` | High
-9 | File | `/mail/index.html` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/modules/tasks/gantt.php` | High
-12 | File | `/mygym/admin/index.php` | High
-13 | File | `/my_photo_gallery/image.php` | High
+5 | File | `/etc/raspap/hostapd/enablelog.sh` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/goform/aspForm` | High
+8 | File | `/index.php` | Medium
+9 | File | `/loginVaLidation.php` | High
+10 | File | `/mail/index.html` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/modules/tasks/gantt.php` | High
+13 | File | `/mygym/admin/index.php` | High
 14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 15 | File | `/psrs/admin/categories/manage_category.php` | High
 16 | File | `/release-x64/otfccdump+0x6b544e` | High
 17 | File | `/release-x64/otfccdump+0x6e41a8` | High
-18 | File | `/src/video/x11/SDL_x11yuv.c` | High
-19 | File | `/template/wapian/vlist.php` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-22 | File | `/wp-admin/admin-ajax.php` | High
-23 | File | `admin.color.php` | High
-24 | File | `admin.cropcanvas.php` | High
-25 | File | `admin.htm` | Medium
-26 | File | `admin.php` | Medium
-27 | File | `admin.remository.php` | High
-28 | File | `admin.webring.docs.php` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin/login.php` | High
-31 | File | `admincp/auth/checklogin.php` | High
-32 | File | `admincp/auth/secure.php` | High
-33 | File | `admin_login.asp` | High
-34 | File | `advsearch.php` | High
-35 | File | `affich.php` | Medium
-36 | File | `affiliates.php` | High
-37 | File | `akocomments.php` | High
-38 | File | `alarm.cc` | Medium
-39 | File | `album_portal.php` | High
-40 | File | `allopass-error.php` | High
-41 | File | `allopass.php` | Medium
-42 | File | `al_initialize.php` | High
-43 | File | `announce.php` | Medium
-44 | File | `archive_read_support_format_rar.c` | High
-45 | File | `artlinks.dispnew.php` | High
-46 | File | `ashnews.php/ashheadlines.php` | High
+18 | File | `/scenegraph/svg_attributes.c` | High
+19 | File | `/src/video/x11/SDL_x11yuv.c` | High
+20 | File | `/template/wapian/vlist.php` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+23 | File | `/wp-admin/admin-ajax.php` | High
+24 | File | `admin.color.php` | High
+25 | File | `admin.cropcanvas.php` | High
+26 | File | `admin.htm` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin.remository.php` | High
+29 | File | `admin.webring.docs.php` | High
+30 | File | `admin/index.php` | High
+31 | File | `admin/login.php` | High
+32 | File | `admincp/auth/checklogin.php` | High
+33 | File | `admincp/auth/secure.php` | High
+34 | File | `admin_login.asp` | High
+35 | File | `advsearch.php` | High
+36 | File | `affich.php` | Medium
+37 | File | `affiliates.php` | High
+38 | File | `akocomments.php` | High
+39 | File | `alarm.cc` | Medium
+40 | File | `album_portal.php` | High
+41 | File | `allopass-error.php` | High
+42 | File | `allopass.php` | Medium
+43 | File | `al_initialize.php` | High
+44 | File | `announce.php` | Medium
+45 | File | `archive_read_support_format_rar.c` | High
+46 | File | `artlinks.dispnew.php` | High
 47 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

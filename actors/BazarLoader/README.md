@@ -45,22 +45,24 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [23.152.0.22](https://vuldb.com/?ip.23.152.0.22) | anahiem.net | Diavol | High
 16 | [23.160.193.217](https://vuldb.com/?ip.23.160.193.217) | unknown.ip-xfer.net | - | High
 17 | [23.193.217.119](https://vuldb.com/?ip.23.193.217.119) | a23-193-217-119.deploy.static.akamaitechnologies.com | - | High
-18 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | - | High
-19 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | - | High
-20 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | - | Medium
-21 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | Anchor | Medium
-22 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | - | Medium
-23 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | - | Medium
-24 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | - | Medium
-25 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
-26 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-27 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
-28 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | - | High
-29 | [45.71.112.70](https://vuldb.com/?ip.45.71.112.70) | host-45-71-112-70.nedetel.net | - | High
-30 | [45.76.254.23](https://vuldb.com/?ip.45.76.254.23) | 45.76.254.23.vultr.com | - | Medium
-31 | ... | ... | ... | ...
+18 | [31.41.44.153](https://vuldb.com/?ip.31.41.44.153) | rodion.oftin.93.example.com | - | High
+19 | [31.171.251.118](https://vuldb.com/?ip.31.171.251.118) | ch.ns.mon0.li | - | High
+20 | [31.214.240.203](https://vuldb.com/?ip.31.214.240.203) | - | - | High
+21 | [34.209.40.84](https://vuldb.com/?ip.34.209.40.84) | ec2-34-209-40-84.us-west-2.compute.amazonaws.com | - | Medium
+22 | [34.210.71.206](https://vuldb.com/?ip.34.210.71.206) | ec2-34-210-71-206.us-west-2.compute.amazonaws.com | Anchor | Medium
+23 | [34.221.188.35](https://vuldb.com/?ip.34.221.188.35) | ec2-34-221-188-35.us-west-2.compute.amazonaws.com | - | Medium
+24 | [34.222.222.126](https://vuldb.com/?ip.34.222.222.126) | ec2-34-222-222-126.us-west-2.compute.amazonaws.com | - | Medium
+25 | [35.165.197.209](https://vuldb.com/?ip.35.165.197.209) | ec2-35-165-197-209.us-west-2.compute.amazonaws.com | - | Medium
+26 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
+27 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+28 | [40.113.200.201](https://vuldb.com/?ip.40.113.200.201) | - | - | High
+29 | [45.14.226.23](https://vuldb.com/?ip.45.14.226.23) | - | - | High
+30 | [45.71.112.70](https://vuldb.com/?ip.45.71.112.70) | host-45-71-112-70.nedetel.net | - | High
+31 | [45.76.254.23](https://vuldb.com/?ip.45.76.254.23) | 45.76.254.23.vultr.com | - | Medium
+32 | [45.95.11.133](https://vuldb.com/?ip.45.95.11.133) | vm308769.pq.hosting | - | High
+33 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 126 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,6 +123,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2021/10/04/bazarloader-and-the-conti-leaks/
 * https://thedfirreport.com/2021/11/29/continuing-the-bazar-ransomware-story/
 * https://thedfirreport.com/2021/12/13/diavol-ransomware/
+* https://twitter.com/1ZRR4H/status/1611013038987005954
+* https://twitter.com/malwrhunterteam/status/1562741109171752960
 * https://twitter.com/_pr4gma/status/1347617681197961225
 
 ## Literature
@@ -132,4 +136,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

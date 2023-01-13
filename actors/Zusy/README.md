@@ -121,7 +121,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -130,41 +130,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/admin/` | Low
-3 | File | `/Admin/add-student.php` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/api/theme-edit/` | High
 4 | File | `/admin/image/list` | High
 5 | File | `/admin/operations/packages.php` | High
-6 | File | `/admin/photo.php` | High
-7 | File | `/admin/renewaldue.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/admin/transactions/update_status.php` | High
-10 | File | `/ad_js.php` | Medium
-11 | File | `/app/options.py` | High
-12 | File | `/attachments` | Medium
-13 | File | `/catcompany.php` | High
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/cms/category/list` | High
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/dashboard/reports/logs/view` | High
-20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/Default/Bd` | Medium
-23 | File | `/ebics-server/ebics.aspx` | High
-24 | File | `/egroupware/index.php` | High
-25 | File | `/etc/hosts` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/forums/editforum.php` | High
-28 | File | `/goform/CertListInfo` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/index.php` | Medium
-34 | ... | ... | ...
+6 | File | `/admin/submit-articles` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/app/options.py` | High
+10 | File | `/attachments` | Medium
+11 | File | `/catcompany.php` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/cms/category/list` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/Default/Bd` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/egroupware/index.php` | High
+21 | File | `/etc/hosts` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/forums/editforum.php` | High
+24 | File | `/goform/CertListInfo` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/wizard_end` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index.php?module=entities/entities` | High
+30 | File | `/manage-apartment.php` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/out.php` | Medium
+33 | File | `/pages/apply_vacancy.php` | High
+34 | File | `/proc/<PID>/mem` | High
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -220,4 +221,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

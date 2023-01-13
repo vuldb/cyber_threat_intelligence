@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -152,14 +152,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-84, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -167,42 +168,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_https_cert_file/` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/settings/save.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
+1 | File | `/addNotifyServlet` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/admin/conferences/get-all-status/` | High
+4 | File | `/admin/settings/save.php` | High
+5 | File | `/admin/submit-articles` | High
 6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/api/v1/attack/token` | High
+7 | File | `/adminui/history_log.php` | High
 8 | File | `/attachments` | Medium
-9 | File | `/cgi-bin/luci` | High
-10 | File | `/cms/category/list` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/Default/Bd` | Medium
-15 | File | `/dev/mmz_userdev` | High
-16 | File | `/dev/shm` | Medium
-17 | File | `/ebics-server/ebics.aspx` | High
-18 | File | `/egroupware/index.php` | High
-19 | File | `/etc/openshift/server_priv.pem` | High
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/tomcat8/Catalina/attack` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/filemanager/php/connector.php` | High
-24 | File | `/garage/php_action/createBrand.php` | High
-25 | File | `/goform/wizard_end` | High
-26 | File | `/hospital/hms/admin/patient-search.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/hrm/index.php?msg` | High
-29 | File | `/hrm/state.php` | High
-30 | File | `/hss/?page=view_product` | High
-31 | File | `/images/background/1.php` | High
-32 | File | `/index.php?module=configuration/application` | High
-33 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-34 | ... | ... | ...
+9 | File | `/cms/category/list` | High
+10 | File | `/common/run_cross_report.php` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/Default/Bd` | Medium
+13 | File | `/download` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/garage/php_action/createBrand.php` | High
+18 | File | `/goform/SysToolChangePwd` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/hardware` | Medium
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/hss/?page=view_product` | High
+23 | File | `/index.php?module=configuration/application` | High
+24 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+25 | File | `/lib` | Low
+26 | File | `/login` | Low
+27 | File | `/login/index.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/pages/faculty_sched.php` | High
+31 | File | `/php-sms/admin/?page=inquiries/view_inquiry` | High
+32 | File | `/product/savenewproduct.php?flag=1` | High
+33 | File | `/proxy` | Low
+34 | File | `/purchase_order/admin/?page=system_info` | High
+35 | File | `/services/Card/findUser` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/sys/dict/queryTableData` | High
+38 | File | `/sys/user/deleteRecycleBin` | High
+39 | File | `/sys/user/putRecycleBin` | High
+40 | File | `/templates/install.php` | High
+41 | ... | ... | ...
 
-There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,4 +227,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

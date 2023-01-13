@@ -67,46 +67,47 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php` | Medium
 2 | File | `/admin/edit_visitor.php` | High
 3 | File | `/admin/info.php` | High
-4 | File | `/cfg` | Low
-5 | File | `/cgi?` | Low
-6 | File | `/dashboard/updatelogo.php` | High
-7 | File | `/etc/controller-agent/agent.conf` | High
-8 | File | `/etc/openshift/server_priv.pem` | High
-9 | File | `/forms/web_importTFTP` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/SysToolReboot` | High
-12 | File | `/goform/SysToolRestoreSet` | High
-13 | File | `/graphql` | Medium
-14 | File | `/index.php` | Medium
-15 | File | `/jeecg-boot/jmreport/view` | High
-16 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-17 | File | `/localhost/u` | Medium
-18 | File | `/mkshop/Men/profile.php` | High
-19 | File | `/net` | Low
-20 | File | `/Noxen-master/users.php` | High
-21 | File | `/opt/bin/cli` | Medium
-22 | File | `/out.php` | Medium
-23 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-24 | File | `/public/plugins/` | High
-25 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-26 | File | `/rom-0` | Low
-27 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
-28 | File | `/templates/header.inc.php` | High
-29 | File | `/uncpath/` | Medium
-30 | File | `/v2/devices/add` | High
-31 | File | `/var/ipfire/backup/bin/backup.pl` | High
-32 | File | `/wp-json/wc/v3/webhooks` | High
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `account.php` | Medium
-35 | File | `accounts/view_details.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `AddEvent.php` | Medium
-38 | File | `admin.jcomments.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/admin_process.php` | High
-41 | ... | ... | ...
+4 | File | `/apply.cgi` | Medium
+5 | File | `/cfg` | Low
+6 | File | `/cgi?` | Low
+7 | File | `/dashboard/updatelogo.php` | High
+8 | File | `/etc/controller-agent/agent.conf` | High
+9 | File | `/etc/openshift/server_priv.pem` | High
+10 | File | `/forms/web_importTFTP` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/SysToolReboot` | High
+13 | File | `/goform/SysToolRestoreSet` | High
+14 | File | `/graphql` | Medium
+15 | File | `/index.php` | Medium
+16 | File | `/jeecg-boot/jmreport/view` | High
+17 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+18 | File | `/localhost/u` | Medium
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/net` | Low
+21 | File | `/Noxen-master/users.php` | High
+22 | File | `/opt/bin/cli` | Medium
+23 | File | `/out.php` | Medium
+24 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+25 | File | `/public/plugins/` | High
+26 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
+27 | File | `/rom-0` | Low
+28 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
+29 | File | `/setNTP.cgi` | Medium
+30 | File | `/templates/header.inc.php` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/v2/devices/add` | High
+33 | File | `/var/ipfire/backup/bin/backup.pl` | High
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `account.php` | Medium
+37 | File | `accounts/view_details.php` | High
+38 | File | `adclick.php` | Medium
+39 | File | `AddEvent.php` | Medium
+40 | File | `admin.jcomments.php` | High
+41 | File | `admin.php` | Medium
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -128,4 +129,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

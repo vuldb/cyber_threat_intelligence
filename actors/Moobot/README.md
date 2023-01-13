@@ -17,7 +17,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [LU](https://vuldb.com/?country.lu)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
@@ -72,32 +72,34 @@ ID | Type | Indicator | Confidence
 11 | File | `/bsms_ci/index.php/user/edit_user/` | High
 12 | File | `/cgi-bin/uploadWeiXinPic` | High
 13 | File | `/classes/Master.php?f=delete_category` | High
-14 | File | `/core/admin/categories.php` | High
-15 | File | `/Default/Bd` | Medium
-16 | File | `/dms/admin/reports/daily_collection_report.php` | High
-17 | File | `/DsaDataTest` | Medium
-18 | File | `/etc/networkd-dispatcher` | High
-19 | File | `/event/admin/?page=user/list` | High
-20 | File | `/filemanager/upload/drop` | High
-21 | File | `/food/admin/all_users.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/PowerSaveSet` | High
-25 | File | `/goform/SetClientState` | High
-26 | File | `/goform/SetFirewallCfg` | High
-27 | File | `/goform/setWorkmode` | High
-28 | File | `/goform/wizard_end` | High
-29 | File | `/hrm/employeeview.php` | High
-30 | File | `/index.php` | Medium
-31 | File | `/isms/classes/Users.php` | High
-32 | File | `/lists/index.php` | High
-33 | File | `/members/view_member.php` | High
-34 | File | `/mgmt/tm/util/bash` | High
-35 | File | `/ofrs/admin/?page=teams/view_team` | High
-36 | File | `/ordering/index.php?q=category` | High
-37 | ... | ... | ...
+14 | File | `/Default/Bd` | Medium
+15 | File | `/dms/admin/reports/daily_collection_report.php` | High
+16 | File | `/DsaDataTest` | Medium
+17 | File | `/etc/networkd-dispatcher` | High
+18 | File | `/event/admin/?page=user/list` | High
+19 | File | `/filemanager/upload/drop` | High
+20 | File | `/food/admin/all_users.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/PowerSaveSet` | High
+24 | File | `/goform/SetClientState` | High
+25 | File | `/goform/SetFirewallCfg` | High
+26 | File | `/goform/setWorkmode` | High
+27 | File | `/goform/wizard_end` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/isms/classes/Users.php` | High
+31 | File | `/lists/index.php` | High
+32 | File | `/members/view_member.php` | High
+33 | File | `/mgmt/tm/util/bash` | High
+34 | File | `/ofrs/admin/?page=teams/view_team` | High
+35 | File | `/ordering/index.php?q=category` | High
+36 | File | `/owa/auth/logon.aspx` | High
+37 | File | `/picturesPreview` | High
+38 | File | `/public_html/animals` | High
+39 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -117,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

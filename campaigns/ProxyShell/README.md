@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,41 +74,42 @@ ID | Type | Indicator | Confidence
 14 | File | `/cms/print.php` | High
 15 | File | `/concat?/%2557EB-INF/web.xml` | High
 16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/filemanager/upload.php` | High
-22 | File | `/goforms/rlminfo` | High
-23 | File | `/index_amp.php` | High
-24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/login` | Low
-26 | File | `/navigate/navigate_download.php` | High
-27 | File | `/ocwbs/admin/?page=user/manage_user` | High
-28 | File | `/ofrs/admin/?page=user/manage_user` | High
-29 | File | `/out.php` | Medium
-30 | File | `/owa/auth/logon.aspx` | High
-31 | File | `/password.html` | High
-32 | File | `/php_action/fetchSelectedUser.php` | High
-33 | File | `/proc/ioports` | High
-34 | File | `/property-list/property_view.php` | High
-35 | File | `/ptms/classes/Users.php` | High
-36 | File | `/rest` | Low
-37 | File | `/rest/api/2/search` | High
-38 | File | `/s/` | Low
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/services/system/setup.json` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/tmp` | Low
-44 | File | `/uncpath/` | Medium
-45 | File | `/vloggers_merch/?p=view_product` | High
-46 | File | `/webconsole/APIController` | High
-47 | File | `/websocket/exec` | High
-48 | File | `/whbs/?page=my_bookings` | High
-49 | ... | ... | ...
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/filemanager/upload.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goforms/rlminfo` | High
+25 | File | `/index_amp.php` | High
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/login` | Low
+28 | File | `/menu.html` | Medium
+29 | File | `/navigate/navigate_download.php` | High
+30 | File | `/ocwbs/admin/?page=user/manage_user` | High
+31 | File | `/ofrs/admin/?page=user/manage_user` | High
+32 | File | `/out.php` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/password.html` | High
+35 | File | `/php_action/fetchSelectedUser.php` | High
+36 | File | `/proc/ioports` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/rest/api/2/search` | High
+40 | File | `/s/` | Low
+41 | File | `/scripts/cpan_config` | High
+42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+43 | File | `/services/system/setup.json` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/tmp` | Low
+46 | File | `/uncpath/` | Medium
+47 | File | `/vloggers_merch/?p=view_product` | High
+48 | File | `/webconsole/APIController` | High
+49 | File | `/websocket/exec` | High
+50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

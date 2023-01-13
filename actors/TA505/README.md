@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,41 +83,42 @@ ID | Type | Indicator | Confidence
 12 | File | `/mgmt/tm/util/bash` | High
 13 | File | `/modules/profile/index.php` | High
 14 | File | `/nagiosql/admin/checkcommands.php` | High
-15 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-16 | File | `/SysInfo.htm` | Medium
-17 | File | `/tmp` | Low
-18 | File | `/uncpath/` | Medium
-19 | File | `/usr/5bin/su` | Medium
-20 | File | `/usr/bin/mail` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/var/dt/` | Medium
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `00.jsp` | Low
-25 | File | `add_2_basket.asp` | High
-26 | File | `admin.asp` | Medium
-27 | File | `admin.jcomments.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/` | Low
-30 | File | `admin/?page=system_info` | High
-31 | File | `admin/aboutus.php` | High
-32 | File | `admin/article_save.php` | High
-33 | File | `admin/import/class-import-settings.php` | High
-34 | File | `admin/manage-comments.php` | High
-35 | File | `administration/comments.php` | High
-36 | File | `administrator/mail/download.cfm` | High
-37 | File | `AdminViewError/AdminAddadmin` | High
-38 | File | `admin_edit_comment.php` | High
-39 | File | `agentdisplay.php` | High
-40 | File | `apply.cgi` | Medium
-41 | File | `appointment.php` | High
-42 | File | `arch/x86/kvm/hyperv.c` | High
-43 | File | `armv8_deprecated.c` | High
-44 | File | `assets/components/fred/web/elfinder/connector.php` | High
-45 | File | `auction.cgi` | Medium
-46 | File | `autologin.jsp` | High
-47 | ... | ... | ...
+15 | File | `/out.php` | Medium
+16 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+17 | File | `/SysInfo.htm` | Medium
+18 | File | `/tmp` | Low
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/5bin/su` | Medium
+21 | File | `/usr/bin/mail` | High
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/var/dt/` | Medium
+24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+25 | File | `00.jsp` | Low
+26 | File | `add_2_basket.asp` | High
+27 | File | `admin.asp` | Medium
+28 | File | `admin.jcomments.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/` | Low
+31 | File | `admin/?page=system_info` | High
+32 | File | `admin/aboutus.php` | High
+33 | File | `admin/article_save.php` | High
+34 | File | `admin/import/class-import-settings.php` | High
+35 | File | `admin/manage-comments.php` | High
+36 | File | `administration/comments.php` | High
+37 | File | `administrator/mail/download.cfm` | High
+38 | File | `AdminViewError/AdminAddadmin` | High
+39 | File | `admin_edit_comment.php` | High
+40 | File | `agentdisplay.php` | High
+41 | File | `apply.cgi` | Medium
+42 | File | `appointment.php` | High
+43 | File | `arch/x86/kvm/hyperv.c` | High
+44 | File | `armv8_deprecated.c` | High
+45 | File | `assets/components/fred/web/elfinder/connector.php` | High
+46 | File | `auction.cgi` | Medium
+47 | File | `autologin.jsp` | High
+48 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -143,4 +144,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

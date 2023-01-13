@@ -57,9 +57,10 @@ ID | Type | Indicator | Confidence
 8 | File | `addentry.php` | Medium
 9 | File | `admin/conf_users_edit.php` | High
 10 | File | `admin/write-post.php` | High
-11 | ... | ... | ...
+11 | File | `archiver\index.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -76,4 +77,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

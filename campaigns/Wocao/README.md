@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
-* [US](https://vuldb.com/?country.us)
-* [IT](https://vuldb.com/?country.it)
 * [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,14 +42,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,46 +58,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/&quot` | Low
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/transactions/update_status.php` | High
-5 | File | `/admin/users/index.php` | High
-6 | File | `/apiv1/` | Low
-7 | File | `/asms/admin/products/manage_product.php` | High
-8 | File | `/asms/products/view_product.php` | High
-9 | File | `/auth/register` | High
-10 | File | `/back/index.php/user/User/?1` | High
-11 | File | `/binbloom-master/src/helpers.c` | High
-12 | File | `/blog/comment` | High
-13 | File | `/bsms_ci/index.php` | High
-14 | File | `/bsms_ci/index.php/user/edit_user/` | High
-15 | File | `/calendar/viewcalendar.php` | High
-16 | File | `/Default/Bd` | Medium
-17 | File | `/dev/kmem` | Medium
-18 | File | `/dev/tty` | Medium
-19 | File | `/device/` | Medium
-20 | File | `/env` | Low
-21 | File | `/etc/passwd` | Medium
-22 | File | `/event/admin/?page=user/list` | High
-23 | File | `/face-recognition-php/facepay-master/camera.php` | High
-24 | File | `/garage/php_action/createBrand.php` | High
-25 | File | `/goform/addressNat` | High
-26 | File | `/goform/AdvSetWrlsafeset` | High
-27 | File | `/goform/CertListInfo` | High
-28 | File | `/goform/exeCommand` | High
-29 | File | `/goform/IPSECsave` | High
-30 | File | `/goform/L7Im` | Medium
-31 | File | `/goform/NatStaticSetting` | High
-32 | File | `/goform/qossetting` | High
-33 | File | `/goform/SafeClientFilter` | High
-34 | File | `/goform/setDiagnoseInfo` | High
-35 | File | `/goform/setSysPwd` | High
-36 | File | `/goform/setUplinkInfo` | High
-37 | File | `/goform/SysToolRestoreSet` | High
-38 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/&quot` | Low
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/adminui/error_details.php` | High
+5 | File | `/adminui/history_log.php` | High
+6 | File | `/auth/register` | High
+7 | File | `/binbloom-master/src/helpers.c` | High
+8 | File | `/dev/kmem` | Medium
+9 | File | `/dev/tty` | Medium
+10 | File | `/etc/gsissh/sshd_config` | High
+11 | File | `/etc/passwd` | Medium
+12 | File | `/face-recognition-php/facepay-master/camera.php` | High
+13 | File | `/goform/dir_setWanWifi` | High
+14 | File | `/goform/WifiBasicSet` | High
+15 | File | `/hss/?page=view_product` | High
+16 | File | `/hss/admin/categories/view_category.php` | High
+17 | File | `/lab.html` | Medium
+18 | File | `/login/index.php` | High
+19 | File | `/menu.html` | Medium
+20 | File | `/modules/profile/index.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/output/outdbg.c` | High
+23 | File | `/output/outieee.c` | High
+24 | File | `/SAFESEH` | Medium
+25 | File | `/Upload/admin/admin_notify.php` | High
+26 | File | `/usr/sbin/httpd` | High
+27 | File | `/var/log/nginx` | High
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `0_change-gallery.php` | High
+30 | File | `4.edu.php` | Medium
+31 | File | `5.2.9\syscrb.exe` | High
+32 | File | `AbstractScheduleJob.java` | High
+33 | File | `account-inbox.php` | High
+34 | File | `acme_certificate_edit.php` | High
+35 | File | `action/Core.class.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add-blog.php` | Medium
+38 | File | `addToWishlist.asp` | High
+39 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +115,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

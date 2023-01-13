@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PL](https://vuldb.com/?country.pl)
-* [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [ES](https://vuldb.com/?country.es)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -54,13 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37, CWE-40 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -70,50 +69,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_aaa_cert_file/` | High
-2 | File | `/action/import_cert_file/` | High
-3 | File | `/action/import_https_cert_file/` | High
-4 | File | `/action/ipcamRecordPost` | High
-5 | File | `/action/wirelessConnect` | High
-6 | File | `/admin.php/Admin/adminadd.html` | High
-7 | File | `/admin/api/theme-edit/` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/api/audits` | Medium
-10 | File | `/api/geojson` | Medium
-11 | File | `/asms/classes/Master.php?f=delete_img` | High
-12 | File | `/bin/sh` | Low
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/calendar/viewcalendar.php` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/classes/Users.php?f=delete_client` | High
-17 | File | `/clients/profile` | High
-18 | File | `/cms/notify` | Medium
-19 | File | `/depotHead/list` | High
-20 | File | `/device/signin` | High
-21 | File | `/diag_ping_admin.asp` | High
-22 | File | `/env` | Low
-23 | File | `/ext/phar/phar_object.c` | High
-24 | File | `/goform/form2WizardStep54` | High
-25 | File | `/goform/setSysPwd` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/SysToolRestoreSet` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/gpac/src/bifs/unquantize.c` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hss/?page=product_per_brand` | High
-32 | File | `/hss/admin/?page=client/manage_client` | High
-33 | File | `/hss/admin/?page=user/manage_user` | High
-34 | File | `/index.php?module=configuration/application` | High
-35 | File | `/index.php?module=entities/forms&entities_id=24` | High
-36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-37 | File | `/index/user/user_edit.html` | High
-38 | File | `/list-gitolite` | High
-39 | File | `/login` | Low
-40 | File | `/login.php` | Medium
-41 | File | `/network_test.php` | High
-42 | ... | ... | ...
+1 | File | `/admin/api/theme-edit/` | High
+2 | File | `/api/audits` | Medium
+3 | File | `/bin/sh` | Low
+4 | File | `/bsms_ci/index.php/user/edit_user/` | High
+5 | File | `/calendar/viewcalendar.php` | High
+6 | File | `/classes/Master.php?f=delete_appointment` | High
+7 | File | `/classes/Users.php?f=delete_client` | High
+8 | File | `/clients/profile` | High
+9 | File | `/cms/notify` | Medium
+10 | File | `/depotHead/list` | High
+11 | File | `/device/signin` | High
+12 | File | `/env` | Low
+13 | File | `/ext/phar/phar_object.c` | High
+14 | File | `/goform/setSysPwd` | High
+15 | File | `/goform/SysToolReboot` | High
+16 | File | `/goform/SysToolRestoreSet` | High
+17 | File | `/goform/WifiBasicSet` | High
+18 | File | `/goform/wifiSSIDset` | High
+19 | File | `/gpac/src/bifs/unquantize.c` | High
+20 | File | `/hrm/employeeadd.php` | High
+21 | File | `/hss/?page=product_per_brand` | High
+22 | File | `/hss/admin/?page=client/manage_client` | High
+23 | File | `/hss/admin/?page=user/manage_user` | High
+24 | File | `/index.php?module=configuration/application` | High
+25 | File | `/index.php?module=entities/forms&entities_id=24` | High
+26 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+27 | File | `/login` | Low
+28 | File | `/network_test.php` | High
+29 | File | `/odlms//classes/Master.php?f=delete_activity` | High
+30 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+31 | File | `/plugin/getList` | High
+32 | File | `/projects/listprojects.php` | High
+33 | File | `/queuing/admin/ajax.php?action=save_settings` | High
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/tmp` | Low
+36 | File | `/v1/sql-runner` | High
+37 | File | `/var/polycom/cma/upgrade/scripts` | High
+38 | File | `/var/tmp/abrt/*/maps` | High
+39 | File | `/web/IndexController.java` | High
+40 | File | `/youthappam/editcategory.php` | High
+41 | File | `3_row-order.php` | High
+42 | File | `4840/tcp` | Medium
+43 | File | `AbstractScheduleJob.java` | High
+44 | File | `AccountTypePreferenceLoader.java` | High
+45 | File | `addrtoname.c` | Medium
+46 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +138,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

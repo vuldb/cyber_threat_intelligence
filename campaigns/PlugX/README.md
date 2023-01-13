@@ -71,43 +71,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$JENKINS_HOME/jenkins.security.RekeySecretAdminMonitor/backups` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin.php?action=themeinstall` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/uploads.php` | High
-8 | File | `/admin/users.php?source=edit_user&id=1` | High
-9 | File | `/api/` | Low
-10 | File | `/api/trackedEntityInstances` | High
-11 | File | `/apply_noauth.cgi` | High
-12 | File | `/cgi-bin/portal` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/controller/Index.php` | High
-15 | File | `/domains/index.fts` | High
-16 | File | `/download` | Medium
-17 | File | `/etc/passwd` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/foundry/modules/news/newscolumns.php` | High
-20 | File | `/ghost/preview` | High
-21 | File | `/GponForm/device_Form?script/` | High
-22 | File | `/include/config.cache.php` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin.php?action=themeinstall` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/ajax/avatar.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/uploads.php` | High
+7 | File | `/admin/users.php?source=edit_user&id=1` | High
+8 | File | `/api/` | Low
+9 | File | `/api/trackedEntityInstances` | High
+10 | File | `/apply_noauth.cgi` | High
+11 | File | `/cgi-bin/portal` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/controller/Index.php` | High
+14 | File | `/domains/index.fts` | High
+15 | File | `/download` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/foundry/modules/news/newscolumns.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/GponForm/device_Form?script/` | High
+21 | File | `/include/config.cache.php` | High
+22 | File | `/index.php/admin/tag/add.html` | High
 23 | File | `/jeecg-boot/sys/common/upload` | High
 24 | File | `/lan.asp` | Medium
 25 | File | `/LDMS/frm_splitfrm.aspx` | High
 26 | File | `/modules/profile/index.php` | High
 27 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
 28 | File | `/NAGErrors` | Medium
-29 | File | `/replication` | Medium
-30 | File | `/RestAPI` | Medium
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/service/upload` | High
-33 | File | `/smstest.html` | High
-34 | File | `/start-stop` | Medium
-35 | File | `/subscribe/subscribe` | High
-36 | File | `/tmp` | Low
-37 | File | `/tmp/kamailio_fifo` | High
+29 | File | `/out.php` | Medium
+30 | File | `/replication` | Medium
+31 | File | `/RestAPI` | Medium
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/service/upload` | High
+34 | File | `/smstest.html` | High
+35 | File | `/start-stop` | Medium
+36 | File | `/subscribe/subscribe` | High
+37 | File | `/tmp` | Low
 38 | File | `/uncpath/` | Medium
 39 | File | `/WEB-INF/web.xml` | High
 40 | File | `/wp-json/oembed/1.0/embed?url` | High
@@ -118,7 +118,7 @@ ID | Type | Indicator | Confidence
 45 | File | `addmerchpicform.php` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,4 +146,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

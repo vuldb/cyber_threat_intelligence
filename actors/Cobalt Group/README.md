@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
-* [IT](https://vuldb.com/?country.it)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -54,41 +54,44 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin` | Low
 4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/contact/list` | High
-6 | File | `/Admin/dashboard.php` | High
-7 | File | `/admin/edit_event.php` | High
-8 | File | `/admin/sign/out` | High
-9 | File | `/api/common/ping` | High
-10 | File | `/api/upload-resource` | High
-11 | File | `/api/v2/open/tablesInfo` | High
-12 | File | `/asms/classes/Master.php?f=delete_img` | High
-13 | File | `/bin/boa` | Medium
-14 | File | `/bin/httpd` | Medium
-15 | File | `/catcompany.php` | High
-16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/client.php` | Medium
-18 | File | `/cms/notify` | Medium
-19 | File | `/cwc/login` | Medium
-20 | File | `/depotHead/list` | High
-21 | File | `/device/signin` | High
-22 | File | `/etc/shadow.sample` | High
-23 | File | `/fusiondirectory/index.php` | High
-24 | File | `/goform/addressNat` | High
-25 | File | `/goform/fast_setting_wifi_set` | High
-26 | File | `/goform/formWifiWpsStart` | High
-27 | File | `/goform/saveParentControlInfo` | High
-28 | File | `/goform/WifiBasicSet` | High
-29 | File | `/HNAP1` | Low
-30 | File | `/js/player/dmplayer/dmku/index.php` | High
-31 | File | `/lists/admin/` | High
-32 | File | `/modules/autonumber/index.php?view=edit` | High
-33 | File | `/multi-vendor-shopping-script/product-list.php` | High
-34 | File | `/myAccount` | Medium
-35 | File | `/operations/travellers.php` | High
-36 | File | `/php-sms/admin/orders/update_status.php` | High
-37 | ... | ... | ...
+5 | File | `/Admin/dashboard.php` | High
+6 | File | `/admin/sign/out` | High
+7 | File | `/api/common/ping` | High
+8 | File | `/api/v2/open/tablesInfo` | High
+9 | File | `/asms/classes/Master.php?f=delete_img` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/catcompany.php` | High
+12 | File | `/classes/Master.php?f=delete_appointment` | High
+13 | File | `/cms/notify` | Medium
+14 | File | `/depotHead/list` | High
+15 | File | `/device/signin` | High
+16 | File | `/etc/shadow.sample` | High
+17 | File | `/fusiondirectory/index.php` | High
+18 | File | `/goform/addressNat` | High
+19 | File | `/goform/fast_setting_wifi_set` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/js/player/dmplayer/dmku/index.php` | High
+23 | File | `/lists/admin/` | High
+24 | File | `/login/index.php` | High
+25 | File | `/multi-vendor-shopping-script/product-list.php` | High
+26 | File | `/myAccount` | Medium
+27 | File | `/operations/travellers.php` | High
+28 | File | `/php-sms/admin/orders/update_status.php` | High
+29 | File | `/php-sms/classes/Master.php?f=delete_service` | High
+30 | File | `/php_action/editProductImage.php` | High
+31 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+32 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+33 | File | `/release-x64/otfccdump+0x6e41a8` | High
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
+36 | File | `/sys/duplicate/check` | High
+37 | File | `/timeline2.php` | High
+38 | File | `/ucenter/repass.php` | High
+39 | File | `/usr/sbin/httpd` | High
+40 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

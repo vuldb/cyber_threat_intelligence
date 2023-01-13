@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
+* [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,10 +48,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -67,54 +67,54 @@ ID | Type | Indicator | Confidence
 2 | File | `.kss.pid` | Medium
 3 | File | `.qpopper-options` | High
 4 | File | `/api/v1/containers` | High
-5 | File | `/apps/` | Low
-6 | File | `/backupsettings.conf` | High
-7 | File | `/EASYIO30P-123456789012345678901234567890123456789012345678/webuser.js` | High
-8 | File | `/modules/snf/index.php` | High
-9 | File | `/Online%20Course%20Registration/my-profile.php` | High
-10 | File | `/opt/mysql` | Medium
-11 | File | `/private/sessions` | High
-12 | File | `/root/*.db` | Medium
-13 | File | `/tmp` | Low
-14 | File | `/var/avamar/f_cache.dat` | High
-15 | File | `26.html` | Low
-16 | File | `ActivityStarter.java` | High
-17 | File | `add_postit.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin.php?s=Tpl/Add/id` | High
-20 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
-21 | File | `admin/manage-fields.php` | High
-22 | File | `admin/wp-security-blacklist-menu.php` | High
-23 | File | `administration.jsp` | High
-24 | File | `adminquery.php` | High
-25 | File | `ajaxRequest/methodCall.do` | High
-26 | File | `Alias.asmx` | Medium
-27 | File | `ansfaq.asp` | Medium
-28 | File | `api.php/List/index` | High
-29 | File | `app-layer-enip-commmon.c` | High
-30 | File | `app/operator_panel/index_inc.php` | High
-31 | File | `application/core/Survey_Common_Action.php` | High
-32 | File | `archivejson.cgi` | High
-33 | File | `authpam.c` | Medium
-34 | File | `autocms.php` | Medium
-35 | File | `avahi-core/socket.c` | High
-36 | File | `AvailableApps.php` | High
-37 | File | `banner.php` | Medium
-38 | File | `boundary_rules.jsp` | High
-39 | File | `calendar.php` | Medium
-40 | File | `calendar_scheduler.php` | High
-41 | File | `cal_config.inc.php` | High
-42 | File | `channels/chan_sip.c` | High
-43 | File | `chrome-devtools-frontend.appspot.com` | High
-44 | File | `claro_init_global.inc.php` | High
-45 | File | `class/class.php` | High
-46 | File | `cls_fast_template.php` | High
-47 | File | `cmsmodules/medialibrary/formcontrols/liveselectors/insertimageormedia/tabs_media.aspx` | High
-48 | File | `coders/miff.c` | High
-49 | File | `comersus_supporterror.asp` | High
+5 | File | `/apply_noauth.cgi` | High
+6 | File | `/apps/` | Low
+7 | File | `/backupsettings.conf` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/debug/pprof` | Medium
+10 | File | `/etc/passwd` | Medium
+11 | File | `/modules/snf/index.php` | High
+12 | File | `/Online%20Course%20Registration/my-profile.php` | High
+13 | File | `/opt/mysql` | Medium
+14 | File | `/private/sessions` | High
+15 | File | `/root/*.db` | Medium
+16 | File | `/tmp` | Low
+17 | File | `/var/avamar/f_cache.dat` | High
+18 | File | `26.html` | Low
+19 | File | `ActivityStarter.java` | High
+20 | File | `add_postit.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
+23 | File | `admin/manage-fields.php` | High
+24 | File | `admin/shophelp.php` | High
+25 | File | `admin/wp-security-blacklist-menu.php` | High
+26 | File | `administration.jsp` | High
+27 | File | `adminquery.php` | High
+28 | File | `ajaxRequest/methodCall.do` | High
+29 | File | `Alias.asmx` | Medium
+30 | File | `ansfaq.asp` | Medium
+31 | File | `api.php/List/index` | High
+32 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+33 | File | `appGet.cgi` | Medium
+34 | File | `archivejson.cgi` | High
+35 | File | `authpam.c` | Medium
+36 | File | `autocms.php` | Medium
+37 | File | `avahi-core/socket.c` | High
+38 | File | `AvailableApps.php` | High
+39 | File | `banner.php` | Medium
+40 | File | `boundary_rules.jsp` | High
+41 | File | `calendar.php` | Medium
+42 | File | `calendar_scheduler.php` | High
+43 | File | `cal_config.inc.php` | High
+44 | File | `channels/chan_sip.c` | High
+45 | File | `chrome-devtools-frontend.appspot.com` | High
+46 | File | `claro_init_global.inc.php` | High
+47 | File | `class/class.php` | High
+48 | File | `cloud.php` | Medium
+49 | File | `cls_fast_template.php` | High
 50 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -135,4 +135,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

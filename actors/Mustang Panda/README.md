@@ -73,32 +73,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=orders/manage_request` | High
-2 | File | `/admin/settings.php` | High
-3 | File | `/admin/uploads.php` | High
-4 | File | `/api/geojson` | Medium
-5 | File | `/api/user/password/sent-reset-email` | High
-6 | File | `/api/v1/attack` | High
-7 | File | `/cgi-bin/portal` | High
-8 | File | `/Config/service/initModel?` | High
-9 | File | `/etc/shadow` | Medium
-10 | File | `/export` | Low
-11 | File | `/goform/NTPSyncWithHost` | High
-12 | File | `/goform/SetVirtualServerCfg` | High
-13 | File | `/HNAP1/SetAccessPointMode` | High
-14 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-15 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-16 | File | `/htmlcode/html/indexdefault.asp` | High
-17 | File | `/include/helpers/upload.helper.php` | High
-18 | File | `/interface/main/backup.php` | High
-19 | File | `/local/domain/$DOMID` | High
-20 | File | `/mkshop/Men/profile.php` | High
-21 | File | `/MTFWU` | Low
-22 | File | `/mygym/admin/index.php` | High
-23 | File | `/patient/settings.php` | High
-24 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/?page=orders/manage_request` | High
+3 | File | `/admin/settings.php` | High
+4 | File | `/admin/uploads.php` | High
+5 | File | `/api/geojson` | Medium
+6 | File | `/api/user/password/sent-reset-email` | High
+7 | File | `/api/v1/attack` | High
+8 | File | `/cgi-bin/portal` | High
+9 | File | `/Config/service/initModel?` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/export` | Low
+12 | File | `/goform/NTPSyncWithHost` | High
+13 | File | `/goform/SetVirtualServerCfg` | High
+14 | File | `/HNAP1/SetAccessPointMode` | High
+15 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+16 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+17 | File | `/htmlcode/html/indexdefault.asp` | High
+18 | File | `/include/helpers/upload.helper.php` | High
+19 | File | `/interface/main/backup.php` | High
+20 | File | `/local/domain/$DOMID` | High
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/MTFWU` | Low
+23 | File | `/mygym/admin/index.php` | High
+24 | File | `/patient/settings.php` | High
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 206 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

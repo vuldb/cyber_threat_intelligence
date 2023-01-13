@@ -14,12 +14,8 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
-* [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
-* [SV](https://vuldb.com/?country.sv)
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
+* [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 
 ## IOC - Indicator of Compromise
 
@@ -46,10 +42,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -60,28 +56,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adminui/error_details.php` | High
-2 | File | `/Api/ASF` | Medium
-3 | File | `/balance/service/list` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/common/ajax_email_connection_test.php` | High
-8 | File | `/common/download_agent_installer.php` | High
-9 | File | `/common/download_attachment.php` | High
-10 | File | `/common/run_cross_report.php` | High
-11 | File | `/goform/CertListInfo` | High
-12 | File | `/goform/dir_setWanWifi` | High
-13 | File | `/goform/IPSECsave` | High
-14 | File | `/opt/tms/bin/cli` | High
-15 | File | `/proc/self/environ` | High
-16 | File | `/product/savenewproduct.php?flag=1` | High
-17 | File | `/ui/cbpc/login` | High
-18 | File | `/usr/local/vesta/bin` | High
-19 | File | `/v1/sql-runner` | High
-20 | ... | ... | ...
+1 | File | `/apply.cgi` | Medium
+2 | File | `/forum/away.php` | High
+3 | File | `/goform/WifiBasicSet` | High
+4 | File | `/graphql` | Medium
+5 | File | `/hss/admin/?page=client/manage_client` | High
+6 | File | `/login/index.php` | High
+7 | File | `/output/outdbg.c` | High
+8 | File | `/output/outieee.c` | High
+9 | File | `/setNTP.cgi` | Medium
+10 | File | `/tiki-importer.php` | High
+11 | File | `/tpts/manage_user.php` | High
+12 | File | `01article.php` | High
+13 | File | `actions/UploadAction.php` | High
+14 | File | `announce.php` | Medium
+15 | File | `app/controller/insertarSliderAjax.php` | High
+16 | File | `app/controllers/code_caller_controller.php` | High
+17 | File | `app/controllers/image_controller.rb` | High
+18 | File | `app/controllers/oauth.js` | High
+19 | File | `app/controllers/uploaded_files_controller.rb` | High
+20 | File | `app/filters.php` | High
+21 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+22 | File | `application/controllers/Restapi.php` | High
+23 | File | `application/libraries/LanguageTask.php` | High
+24 | File | `arta/common/middleware.py` | High
+25 | File | `assets/components/fred/web/elfinder/connector.php` | High
+26 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +100,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

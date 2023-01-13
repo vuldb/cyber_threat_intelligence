@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,30 +77,29 @@ ID | Type | Indicator | Confidence
 20 | File | `/forum/away.php` | High
 21 | File | `/goforms/rlminfo` | High
 22 | File | `/Items/*/RemoteImages/Download` | High
-23 | File | `/login` | Low
-24 | File | `/menu.html` | Medium
-25 | File | `/navigate/navigate_download.php` | High
-26 | File | `/ocwbs/admin/?page=user/manage_user` | High
-27 | File | `/ofrs/admin/?page=user/manage_user` | High
-28 | File | `/out.php` | Medium
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/password.html` | High
-31 | File | `/php_action/fetchSelectedUser.php` | High
-32 | File | `/pms/index.php` | High
-33 | File | `/proc/ioports` | High
-34 | File | `/property-list/property_view.php` | High
-35 | File | `/ptms/classes/Users.php` | High
-36 | File | `/rest/api/2/search` | High
-37 | File | `/s/` | Low
-38 | File | `/scripts/cpan_config` | High
-39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/services/system/setup.json` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/tmp` | Low
-43 | File | `/uncpath/` | Medium
-44 | ... | ... | ...
+23 | File | `/menu.html` | Medium
+24 | File | `/navigate/navigate_download.php` | High
+25 | File | `/ocwbs/admin/?page=user/manage_user` | High
+26 | File | `/ofrs/admin/?page=user/manage_user` | High
+27 | File | `/out.php` | Medium
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/password.html` | High
+30 | File | `/php_action/fetchSelectedUser.php` | High
+31 | File | `/pms/index.php` | High
+32 | File | `/proc/ioports` | High
+33 | File | `/property-list/property_view.php` | High
+34 | File | `/ptms/classes/Users.php` | High
+35 | File | `/rest/api/2/search` | High
+36 | File | `/s/` | Low
+37 | File | `/scripts/cpan_config` | High
+38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+39 | File | `/services/system/setup.json` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/tmp` | Low
+42 | File | `/uncpath/` | Medium
+43 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,4 +117,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

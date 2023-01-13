@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -58,32 +58,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Admin/add-student.php` | High
-2 | File | `/admin/communitymanagement.php` | High
-3 | File | `/admin/generalsettings.php` | High
-4 | File | `/admin/payment.php` | High
-5 | File | `/admin/transactions/update_status.php` | High
-6 | File | `/api/user/password/sent-reset-email` | High
-7 | File | `/aqpg/users/login.php` | High
-8 | File | `/bsms_ci/index.php/user/edit_user/` | High
-9 | File | `/dashboard/add-service.php` | High
-10 | File | `/dashboard/updatelogo.php` | High
-11 | File | `/Default/Bd` | Medium
-12 | File | `/event/admin/?page=user/list` | High
-13 | File | `/face-recognition-php/facepay-master/camera.php` | High
-14 | File | `/filemanager/upload/drop` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/goform/RouteStatic` | High
-18 | File | `/hrm/employeeadd.php` | High
-19 | File | `/hrm/employeeview.php` | High
-20 | File | `/htdocs/cgibin` | High
-21 | File | `/lists/index.php` | High
-22 | File | `/login.php` | Medium
-23 | File | `/netflow/jspui/editProfile.jsp` | High
-24 | File | `/uncpath/` | Medium
-25 | ... | ... | ...
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/admin/communitymanagement.php` | High
+4 | File | `/admin/generalsettings.php` | High
+5 | File | `/admin/payment.php` | High
+6 | File | `/admin/transactions/update_status.php` | High
+7 | File | `/api/user/password/sent-reset-email` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/dashboard/add-service.php` | High
+11 | File | `/dashboard/updatelogo.php` | High
+12 | File | `/Default/Bd` | Medium
+13 | File | `/event/admin/?page=user/list` | High
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/filemanager/upload/drop` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/goform/RouteStatic` | High
+19 | File | `/hrm/employeeadd.php` | High
+20 | File | `/hrm/employeeview.php` | High
+21 | File | `/htdocs/cgibin` | High
+22 | File | `/lists/index.php` | High
+23 | File | `/login.php` | Medium
+24 | File | `/netflow/jspui/editProfile.jsp` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+27 | File | `/videotalk` | Medium
+28 | File | `/view-property.php` | High
+29 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

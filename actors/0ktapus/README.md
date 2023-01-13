@@ -57,38 +57,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
-3 | File | `/Admin/login.php` | High
-4 | File | `/api/upload` | Medium
-5 | File | `/cms/category/list` | High
-6 | File | `/debug/pprof` | Medium
-7 | File | `/Default/Bd` | Medium
-8 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-9 | File | `/domain/add` | Medium
-10 | File | `/donor-wall` | Medium
-11 | File | `/ebics-server/ebics.aspx` | High
-12 | File | `/esbus/servlet/GetSQLData` | High
-13 | File | `/film-rating.php` | High
-14 | File | `/goform/formLogin` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/horde/util/go.php` | High
-17 | File | `/ishttpd/localweb/java/` | High
-18 | File | `/KK_LS9ReportingPortal/GetData` | High
-19 | File | `/mcategory.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/p` | Low
-22 | File | `/pages/processlogin.php` | High
-23 | File | `/product/savenewproduct.php?flag=1` | High
-24 | File | `/services/Card/findUser` | High
-25 | File | `/template/edit` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/bin/uucp` | High
-28 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-29 | File | `/v1/tokens` | Medium
-30 | File | `/web/google_analytics.php` | High
-31 | File | `/webadmin.nsf/dlgFilesFolderNew` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/Admin/login.php` | High
+5 | File | `/api/upload` | Medium
+6 | File | `/cms/category/list` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/Default/Bd` | Medium
+9 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+10 | File | `/domain/add` | Medium
+11 | File | `/donor-wall` | Medium
+12 | File | `/ebics-server/ebics.aspx` | High
+13 | File | `/esbus/servlet/GetSQLData` | High
+14 | File | `/film-rating.php` | High
+15 | File | `/goform/formLogin` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/horde/util/go.php` | High
+18 | File | `/ishttpd/localweb/java/` | High
+19 | File | `/KK_LS9ReportingPortal/GetData` | High
+20 | File | `/mcategory.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/p` | Low
+23 | File | `/pages/processlogin.php` | High
+24 | File | `/product/savenewproduct.php?flag=1` | High
+25 | File | `/services/Card/findUser` | High
+26 | File | `/template/edit` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/usr/bin/uucp` | High
+29 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+30 | File | `/v1/tokens` | Medium
+31 | File | `/web/google_analytics.php` | High
 32 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

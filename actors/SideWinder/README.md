@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -77,7 +77,7 @@ ID | Type | Indicator | Confidence
 12 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
 13 | File | `/EXCU_SHELL` | Medium
 14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
+15 | File | `/goform/delAd` | High
 16 | File | `/goform/setMAC` | High
 17 | File | `/goform/webSettingProfileSecurity` | High
 18 | File | `/goform/wifiSSIDset` | High
@@ -91,24 +91,25 @@ ID | Type | Indicator | Confidence
 26 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
 27 | File | `/ofrs/admin/?page=requests/view_request` | High
 28 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-29 | File | `/out.php` | Medium
-30 | File | `/pages/processlogin.php` | High
-31 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
-32 | File | `/php/ajax.php` | High
-33 | File | `/ptipupgrade.cgi` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/rapi/read_url` | High
-36 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-37 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-38 | File | `/see_more_details.php` | High
-39 | File | `/service/v1/createUser` | High
-40 | File | `/setSystemAdmin` | High
-41 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-42 | File | `/student/bookdetails.php` | High
-43 | File | `/sys/user/queryUserComponentData` | High
-44 | ... | ... | ...
+29 | File | `/pages/processlogin.php` | High
+30 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
+31 | File | `/php/ajax.php` | High
+32 | File | `/ptipupgrade.cgi` | High
+33 | File | `/public/login.htm` | High
+34 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+35 | File | `/see_more_details.php` | High
+36 | File | `/service/v1/createUser` | High
+37 | File | `/setSystemAdmin` | High
+38 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+39 | File | `/student/bookdetails.php` | High
+40 | File | `/sys/user/queryUserComponentData` | High
+41 | File | `/table_manager/view/cu_user_groups` | High
+42 | File | `/templates/header.inc.php` | High
+43 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+44 | File | `/uncpath/` | Medium
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -125,4 +126,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

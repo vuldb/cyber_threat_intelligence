@@ -98,7 +98,8 @@ ID | Type | Indicator | Confidence
 23 | File | `/rating.php` | Medium
 24 | File | `/scas/admin/` | Medium
 25 | File | `/scas/classes/Users.php?f=save_user` | High
-26 | ... | ... | ...
+26 | File | `/services/prefs.php` | High
+27 | ... | ... | ...
 
 There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -121,4 +122,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

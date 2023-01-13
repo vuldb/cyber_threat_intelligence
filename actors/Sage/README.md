@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/net-banking/manage_customers.php` | High
 17 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
 18 | File | `/release-x64/otfccdump+0x6c0a32` | High
-19 | ... | ... | ...
+19 | File | `/release-x64/otfccdump+0x703969` | High
+20 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,4 +95,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

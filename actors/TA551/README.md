@@ -20,8 +20,8 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
 * [ES](https://vuldb.com/?country.es)
-* [AR](https://vuldb.com/?country.ar)
 * [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -56,14 +56,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,43 +71,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/user/password/sent-reset-email` | High
-2 | File | `/binbloom-master/src/helpers.c` | High
-3 | File | `/cgi-bin/logs.ha` | High
-4 | File | `/data/app` | Medium
-5 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-6 | File | `/FreshRSS/p/ext.php` | High
-7 | File | `/front/actions.php` | High
-8 | File | `/goform/fast_setting_wifi_set` | High
-9 | File | `/goform/setMacFilterCfg` | High
-10 | File | `/hss/?page=categories` | High
-11 | File | `/hss/?page=view_product` | High
-12 | File | `/hss/admin/?page=client/manage_client` | High
-13 | File | `/mods/_core/courses/users/create_course.php` | High
-14 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-15 | File | `/panel/fields/add` | High
-16 | File | `/queuing/admin/ajax.php?action=save_settings` | High
-17 | File | `/SAFESEH` | Medium
-18 | File | `/services/getFile.cmd` | High
-19 | File | `/youthappam/editcategory.php` | High
-20 | File | `/youthappam/editfood.php` | High
-21 | File | `AccessibilityManager.java` | High
-22 | File | `AccountsDb.java` | High
-23 | File | `acme_certificate_edit.php` | High
-24 | File | `AddAppNetworksActivity.java` | High
-25 | File | `AddAppNetworksFragment.java` | High
-26 | File | `add_post.php` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin/modules/system/app_user.php` | High
-29 | File | `ajax_represent.php` | High
-30 | File | `AlarmManagerService.java` | High
-31 | File | `app/View/Helper/CommandHelper.php` | High
-32 | File | `application\core\controller\config.php` | High
-33 | File | `AppOpsManager.java` | High
-34 | File | `AppWidgetServiceImpl.java` | High
-35 | ... | ... | ...
+1 | File | `/admin/api/admin/articles/` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/Admin/createClass.php` | High
+4 | File | `/admin/problem_judge.php` | High
+5 | File | `/api/browserextension/UpdatePassword/` | High
+6 | File | `/application/views/themeOptions/update.php` | High
+7 | File | `/attachments` | Medium
+8 | File | `/balance/service/list` | High
+9 | File | `/data/app` | Medium
+10 | File | `/dev/snd/seq` | Medium
+11 | File | `/diagnostic/login.php` | High
+12 | File | `/etc/gsissh/sshd_config` | High
+13 | File | `/etc/master.passwd` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/goform/WifiBasicSet` | High
+16 | File | `/hrm/controller/login.php` | High
+17 | File | `/login` | Low
+18 | File | `/logs/sql-error.log` | High
+19 | File | `/pages/save_user.php` | High
+20 | File | `/password/reset` | High
+21 | File | `/plugin/getList` | High
+22 | File | `/register/abort` | High
+23 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
+24 | File | `/webservices/download/index.php` | High
+25 | File | `acme_certificate_edit.php` | High
+26 | File | `actions.hsp` | Medium
+27 | File | `AddAppNetworksActivity.java` | High
+28 | File | `AddAppNetworksFragment.java` | High
+29 | File | `admin/ajax.attachment.php` | High
+30 | File | `admin/article_save.php` | High
+31 | File | `admin/make_payments.php` | High
+32 | File | `admin/panels/uploader/admin.uploader.php` | High
+33 | File | `admin/stat.main.php` | High
+34 | File | `aiff.c` | Low
+35 | File | `alaw.c` | Low
+36 | File | `Ap4StdCFileByteStream.cpp` | High
+37 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+38 | File | `app/controllers/code_caller_controller.php` | High
+39 | File | `app/helpers/queries_helper.rb` | High
+40 | File | `app/View/Helper/CommandHelper.php` | High
+41 | File | `app/views/timelog/_list.html.erb` | High
+42 | File | `archive_read_support_format_lha.c` | High
+43 | File | `backend/comics/comics-document.c` | High
+44 | File | `bin/jp2/convert.c` | High
+45 | File | `bitmap/pcfread.c` | High
+46 | File | `CallLogProvider.java` | High
+47 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,4 +143,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
