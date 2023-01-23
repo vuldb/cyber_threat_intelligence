@@ -42,7 +42,7 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [76.76.107.74](https://vuldb.com/?ip.76.76.107.74) | - | - | High
 20 | ... | ... | ... | ...
 
-There are 74 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,20 +68,20 @@ ID | Type | Indicator | Confidence
 3 | File | `/modules/registration_admission/patient_register.php` | High
 4 | File | `/spip.php` | Medium
 5 | File | `/Tools/tools_admin.htm` | High
-6 | File | `adm/krgourl.php` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/conf_users_edit.php` | High
-9 | File | `administers` | Medium
-10 | File | `application\User\Controller\ProfileController.class.php` | High
-11 | File | `banner-edit.php` | High
-12 | File | `btif_hd.cc` | Medium
-13 | File | `catchsegv` | Medium
-14 | File | `classes/SystemSettings.php` | High
-15 | File | `classified.php` | High
-16 | File | `coders/mat.c` | Medium
+6 | File | `/uncpath/` | Medium
+7 | File | `adm/krgourl.php` | High
+8 | File | `admin.php` | Medium
+9 | File | `admin/conf_users_edit.php` | High
+10 | File | `administers` | Medium
+11 | File | `application\User\Controller\ProfileController.class.php` | High
+12 | File | `banner-edit.php` | High
+13 | File | `btif_hd.cc` | Medium
+14 | File | `catchsegv` | Medium
+15 | File | `classes/SystemSettings.php` | High
+16 | File | `classified.php` | High
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2019/08/threat-roundup-0823-0830.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/iblocklist_abuse_spyeye.netset
+* https://www.bitdefender.com/files/News/CaseStudies/study/427/Bitdefender-PR-Whitepaper-EyeSpyVPN-creat625-en-EN.pdf
 
 ## Literature
 

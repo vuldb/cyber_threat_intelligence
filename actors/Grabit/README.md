@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,9 +35,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -65,23 +65,23 @@ ID | Type | Indicator | Confidence
 14 | File | `/cgi-bin/kerbynet` | High
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/connectors/index.php` | High
-17 | File | `/dms/admin/reports/daily_collection_report.php` | High
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/hrm/employeeadd.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/info.cgi` | Medium
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/items/view_item.php` | High
-27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-28 | File | `/lists/admin/` | High
-29 | File | `/lookin/info` | Medium
-30 | File | `/MagickCore/image.c` | High
-31 | File | `/manager/index.php` | High
-32 | File | `/medical/inventories.php` | High
-33 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/dev/block/mmcblk0rpmb` | High
+18 | File | `/dms/admin/reports/daily_collection_report.php` | High
+19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/hrm/employeeadd.php` | High
+23 | File | `/hrm/employeeview.php` | High
+24 | File | `/index.php` | Medium
+25 | File | `/info.cgi` | Medium
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/items/view_item.php` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+29 | File | `/lists/admin/` | High
+30 | File | `/lookin/info` | Medium
+31 | File | `/MagickCore/image.c` | High
+32 | File | `/manager/index.php` | High
+33 | File | `/medical/inventories.php` | High
 34 | File | `/modules/profile/index.php` | High
 35 | File | `/modules/projects/vw_files.php` | High
 36 | File | `/modules/public/calendar.php` | High
@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 60 | File | `admin.php` | Medium
 61 | ... | ... | ...
 
-There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

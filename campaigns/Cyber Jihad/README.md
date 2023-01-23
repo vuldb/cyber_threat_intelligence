@@ -58,12 +58,12 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
 3 | File | `/spip.php` | Medium
-4 | File | `application/modules/admin/views/ecommerce/products.php` | High
-5 | File | `base/ErrorHandler.php` | High
-6 | File | `blog.php` | Medium
+4 | File | `admin.jcomments.php` | High
+5 | File | `application/modules/admin/views/ecommerce/products.php` | High
+6 | File | `base/ErrorHandler.php` | High
 7 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

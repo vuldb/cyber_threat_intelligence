@@ -108,25 +108,25 @@ ID | Type | Indicator | Confidence
 40 | File | `addtocart.asp` | High
 41 | File | `add_2_basket.asp` | High
 42 | File | `add_comment.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin.php/comments/batchdel/` | High
-45 | File | `admin/aboutus.php` | High
-46 | File | `admin/adm/test.php` | High
-47 | File | `admin/bitrix.mpbuilder_step2.php` | High
-48 | File | `admin/conf_users_edit.php` | High
-49 | File | `admin/media.php` | High
-50 | File | `admin/vqmods.app/vqmods.inc.php` | High
-51 | File | `adminer.php` | Medium
-52 | File | `administrator/components/com_media/helpers/media.php` | High
-53 | File | `admin\controller\uploadfile.php` | High
-54 | File | `agora.cgi` | Medium
-55 | File | `album_portal.php` | High
-56 | File | `al_initialize.php` | High
-57 | File | `application/modules/admin/views/ecommerce/products.php` | High
-58 | File | `ArchiveNews.aspx` | High
+43 | File | `admin.jcomments.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin.php/comments/batchdel/` | High
+46 | File | `admin/aboutus.php` | High
+47 | File | `admin/adm/test.php` | High
+48 | File | `admin/bitrix.mpbuilder_step2.php` | High
+49 | File | `admin/conf_users_edit.php` | High
+50 | File | `admin/media.php` | High
+51 | File | `admin/vqmods.app/vqmods.inc.php` | High
+52 | File | `adminer.php` | Medium
+53 | File | `administrator/components/com_media/helpers/media.php` | High
+54 | File | `admin\controller\uploadfile.php` | High
+55 | File | `agora.cgi` | Medium
+56 | File | `album_portal.php` | High
+57 | File | `al_initialize.php` | High
+58 | File | `application/modules/admin/views/ecommerce/products.php` | High
 59 | ... | ... | ...
 
-There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

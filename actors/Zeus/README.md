@@ -116,32 +116,31 @@ ID | Type | Indicator | Confidence
 6 | File | `/app/options.py` | High
 7 | File | `/attachments` | Medium
 8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/hosts` | Medium
-17 | File | `/fuel/sitevariables/delete/4` | High
-18 | File | `/goform/setmac` | High
-19 | File | `/goform/wizard_end` | High
-20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-21 | File | `/index/jobfairol/show/` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/manage-apartment.php` | High
-24 | File | `/mgmt/tm/util/bash` | High
-25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/proc/<PID>/mem` | High
-28 | File | `/proxy` | Low
-29 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-30 | File | `/spip.php` | Medium
-31 | File | `/tmp` | Low
-32 | ... | ... | ...
+9 | File | `/bsms_ci/index.php/book` | High
+10 | File | `/cgi-bin/login.cgi` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/ci_hms/massage_room/edit/1` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/forum/away.php` | High
+19 | File | `/fuel/sitevariables/delete/4` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+23 | File | `/index/jobfairol/show/` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/medicines/profile.php` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/proc/<PID>/mem` | High
+30 | File | `/proxy` | Low
+31 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

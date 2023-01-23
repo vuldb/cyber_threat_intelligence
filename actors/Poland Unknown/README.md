@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1123,7 +1123,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-28, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -1135,59 +1135,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.../gogo/` | Medium
-2 | File | `.github/workflows/combine-prs.yml` | High
-3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/Admin/createClass.php` | High
-6 | File | `/admin/posts.php?source=edit_post` | High
-7 | File | `/admin/reg.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/attachments` | Medium
-10 | File | `/classes/Users.php?f=delete_client` | High
-11 | File | `/Default/Bd` | Medium
-12 | File | `/depotHead/list` | High
-13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-14 | File | `/etc/hosts` | Medium
-15 | File | `/etc/ldap.conf` | High
-16 | File | `/etc/shadow` | Medium
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forums/editforum.php` | High
-20 | File | `/garage/editorder.php` | High
-21 | File | `/goform/CertListInfo` | High
-22 | File | `/goform/IPSECsave` | High
-23 | File | `/goform/qossetting` | High
-24 | File | `/goform/SafeUrlFilter` | High
-25 | File | `/goform/setAutoPing` | High
-26 | File | `/goform/SysToolRestoreSet` | High
-27 | File | `/goform/VirtualSer` | High
-28 | File | `/goform/WifiBasicSet` | High
-29 | File | `/hrm/controller/employee.php` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/inc/parser/xhtml.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-35 | File | `/lookin/info` | Medium
-36 | File | `/MIME/INBOX-MM-1/` | High
-37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-38 | File | `/proc` | Low
-39 | File | `/product/savenewproduct.php?flag=1` | High
-40 | File | `/proxy` | Low
-41 | File | `/Redcock-Farm/farm/category.php` | High
-42 | File | `/reports/rwservlet` | High
-43 | File | `/SAFESEH` | Medium
-44 | File | `/services/Card/findUser` | High
-45 | File | `/template/edit` | High
-46 | File | `/tmp` | Low
-47 | File | `/var/cache/man` | High
-48 | File | `/var/polycom/cma/upgrade/scripts` | High
-49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-50 | File | `/view-property.php` | High
-51 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/Admin/createClass.php` | High
+5 | File | `/admin/posts.php?source=edit_post` | High
+6 | File | `/admin/reg.php` | High
+7 | File | `/attachments` | Medium
+8 | File | `/classes/Users.php?f=delete_client` | High
+9 | File | `/Default/Bd` | Medium
+10 | File | `/depotHead/list` | High
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+13 | File | `/etc/hosts` | Medium
+14 | File | `/etc/ldap.conf` | High
+15 | File | `/etc/shadow` | Medium
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forums/editforum.php` | High
+19 | File | `/garage/editorder.php` | High
+20 | File | `/goform/CertListInfo` | High
+21 | File | `/goform/IPSECsave` | High
+22 | File | `/goform/qossetting` | High
+23 | File | `/goform/SafeUrlFilter` | High
+24 | File | `/goform/setAutoPing` | High
+25 | File | `/goform/SysToolRestoreSet` | High
+26 | File | `/goform/VirtualSer` | High
+27 | File | `/goform/WifiBasicSet` | High
+28 | File | `/hrm/controller/employee.php` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/inc/parser/xhtml.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/lookin/info` | Medium
+35 | File | `/MIME/INBOX-MM-1/` | High
+36 | File | `/product/savenewproduct.php?flag=1` | High
+37 | File | `/proxy` | Low
+38 | File | `/reports/rwservlet` | High
+39 | File | `/SAFESEH` | Medium
+40 | File | `/services/Card/findUser` | High
+41 | File | `/template/edit` | High
+42 | File | `/tmp` | Low
+43 | File | `/var/cache/man` | High
+44 | File | `/var/log/nginx` | High
+45 | File | `/var/polycom/cma/upgrade/scripts` | High
+46 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+47 | File | `/view-property.php` | High
+48 | File | `AbstractScheduleJob.java` | High
+49 | File | `accessibility.js` | High
+50 | ... | ... | ...
 
-There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

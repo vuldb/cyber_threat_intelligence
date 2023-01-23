@@ -163,9 +163,10 @@ ID | Type | Indicator | Confidence
 32 | File | `/out.php` | Medium
 33 | File | `/pages/apply_vacancy.php` | High
 34 | File | `/proc/<PID>/mem` | High
-35 | ... | ... | ...
+35 | File | `/proxy` | Low
+36 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

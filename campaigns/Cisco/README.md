@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,25 +94,25 @@ ID | Type | Indicator | Confidence
 28 | File | `admin.remository.php` | High
 29 | File | `admin.webring.docs.php` | High
 30 | File | `admin/index.php` | High
-31 | File | `admin/login.php` | High
-32 | File | `admincp/auth/checklogin.php` | High
-33 | File | `admincp/auth/secure.php` | High
-34 | File | `admin_login.asp` | High
-35 | File | `advsearch.php` | High
-36 | File | `affich.php` | Medium
-37 | File | `affiliates.php` | High
-38 | File | `akocomments.php` | High
-39 | File | `alarm.cc` | Medium
-40 | File | `album_portal.php` | High
-41 | File | `allopass-error.php` | High
-42 | File | `allopass.php` | Medium
-43 | File | `al_initialize.php` | High
-44 | File | `announce.php` | Medium
-45 | File | `archive_read_support_format_rar.c` | High
-46 | File | `artlinks.dispnew.php` | High
+31 | File | `admin/index.php?n=databack&c=index&a=dogetsql&tables=<?php` | High
+32 | File | `admin/login.php` | High
+33 | File | `admincp/auth/checklogin.php` | High
+34 | File | `admincp/auth/secure.php` | High
+35 | File | `admin_login.asp` | High
+36 | File | `advsearch.php` | High
+37 | File | `affich.php` | Medium
+38 | File | `affiliates.php` | High
+39 | File | `akocomments.php` | High
+40 | File | `alarm.cc` | Medium
+41 | File | `album_portal.php` | High
+42 | File | `allopass-error.php` | High
+43 | File | `allopass.php` | Medium
+44 | File | `al_initialize.php` | High
+45 | File | `announce.php` | Medium
+46 | File | `archive_read_support_format_rar.c` | High
 47 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

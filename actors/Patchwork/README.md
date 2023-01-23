@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 30 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -154,19 +154,19 @@ ID | Type | Indicator | Confidence
 29 | File | `/proc/ioports` | High
 30 | File | `/property-list/property_view.php` | High
 31 | File | `/ptms/classes/Users.php` | High
-32 | File | `/rest/api/2/search` | High
-33 | File | `/s/` | Low
-34 | File | `/scripts/cpan_config` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/tmp` | Low
-38 | File | `/uncpath/` | Medium
-39 | File | `/vloggers_merch/?p=view_product` | High
-40 | File | `/web/MCmsAction.java` | High
-41 | File | `/websocket/exec` | High
+32 | File | `/resources//../` | High
+33 | File | `/rest/api/2/search` | High
+34 | File | `/s/` | Low
+35 | File | `/scripts/cpan_config` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/tmp` | Low
+39 | File | `/uncpath/` | Medium
+40 | File | `/vloggers_merch/?p=view_product` | High
+41 | File | `/web/MCmsAction.java` | High
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

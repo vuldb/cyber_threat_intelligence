@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Proxy:
 
-* [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,13 +47,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -63,46 +62,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/adminui/error_details.php` | High
-4 | File | `/adminui/history_log.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/binbloom-master/src/helpers.c` | High
-7 | File | `/ctcprotocol/Protocol` | High
-8 | File | `/dev/tty` | Medium
-9 | File | `/etc/passwd` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/dir_setWanWifi` | High
+1 | File | `.authlie` | Medium
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/article_category.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/classes/Master.php?f=delete_brand` | High
+9 | File | `/classes/Master.php?f=delete_category` | High
+10 | File | `/config/api/v1/reboot` | High
+11 | File | `/etc/shadow` | Medium
 12 | File | `/goform/WifiBasicSet` | High
-13 | File | `/hss/?page=view_product` | High
-14 | File | `/hss/admin/?page=client/manage_client` | High
-15 | File | `/lab.html` | Medium
-16 | File | `/login/index.php` | High
-17 | File | `/menu.html` | Medium
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/output/outdbg.c` | High
-20 | File | `/output/outieee.c` | High
-21 | File | `/plesk-site-preview/` | High
+13 | File | `/hss/admin/?page=client/manage_client` | High
+14 | File | `/login/index.php` | High
+15 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+16 | File | `/output/outdbg.c` | High
+17 | File | `/output/outieee.c` | High
+18 | File | `/plesk-site-preview/` | High
+19 | File | `/resources//../` | High
+20 | File | `/setNTP.cgi` | Medium
+21 | File | `/system/site.php` | High
 22 | File | `/tiki-importer.php` | High
-23 | File | `/usr/sbin/httpd` | High
-24 | File | `/var/log/nginx` | High
-25 | File | `/wp-json/wc/v3/webhooks` | High
-26 | File | `0_change-gallery.php` | High
-27 | File | `5.2.9\syscrb.exe` | High
-28 | File | `AbstractScheduleJob.java` | High
-29 | File | `acme_certificate_edit.php` | High
-30 | File | `action/Core.class.php` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add-blog.php` | Medium
-33 | File | `addToWishlist.asp` | High
-34 | File | `admin/panels/uploader/admin.uploader.php` | High
-35 | File | `admin/plugin-preferences.php` | High
-36 | File | `admin/viewtheatre.php` | High
-37 | File | `administrative` | High
-38 | ... | ... | ...
+23 | File | `/tmp` | Low
+24 | File | `/tpts/manage_user.php` | High
+25 | File | `/trufusionPortal/upDwModuleProxy` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/usr/etc/restore0.9` | High
+28 | File | `/wp-admin/options-general.php` | High
+29 | File | `acl.c` | Low
+30 | File | `admin/manage_user.php` | High
+31 | File | `admin/page-login.php` | High
+32 | File | `admin/panels/uploader/admin.uploader.php` | High
+33 | File | `admin_class.php` | High
+34 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -70,14 +70,14 @@ ID | Type | Indicator | Confidence
 13 | File | `/upload/file.php` | High
 14 | File | `/usr/bin/at` | Medium
 15 | File | `/usr/local/www/pkg.php` | High
-16 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-17 | File | `5.2.9\syscrb.exe` | High
-18 | File | `admin.cgi` | Medium
-19 | File | `admin/cal_login.php` | High
-20 | File | `admin/category.inc.php` | High
+16 | File | `/wp-admin/admin-ajax.php` | High
+17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+18 | File | `5.2.9\syscrb.exe` | High
+19 | File | `admin.cgi` | Medium
+20 | File | `admin/cal_login.php` | High
 21 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

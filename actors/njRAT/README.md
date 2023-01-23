@@ -69,22 +69,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
 5 | File | `/dashboard/menu-list.php` | High
 6 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-7 | File | `/etc/gsissh/sshd_config` | High
-8 | File | `/redpass.cgi` | Medium
-9 | File | `/see_more_details.php` | High
-10 | File | `/server-status` | High
-11 | File | `/tour/admin/update_packages.php` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/var/log/nginx` | High
-14 | File | `/WebMstr7/servlet/mstrWeb` | High
-15 | File | `/wp-admin/admin-ajax.php` | High
-16 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-17 | File | `adclick.php` | Medium
-18 | File | `admin.php` | Medium
-19 | File | `Admin/ADM_Pagina.php` | High
+7 | File | `/dotproject/index.php` | High
+8 | File | `/etc/gsissh/sshd_config` | High
+9 | File | `/redpass.cgi` | Medium
+10 | File | `/see_more_details.php` | High
+11 | File | `/server-status` | High
+12 | File | `/tour/admin/update_packages.php` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/var/log/nginx` | High
+15 | File | `/WebMstr7/servlet/mstrWeb` | High
+16 | File | `/wp-admin/admin-ajax.php` | High
+17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+18 | File | `adclick.php` | Medium
+19 | File | `admin.php` | Medium
 20 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +121,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

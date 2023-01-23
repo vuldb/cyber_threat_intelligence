@@ -62,10 +62,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/librarian/bookdetails.php` | High
 8 | File | `/magnoliaPublic/travel/members/login.html` | High
 9 | File | `/Main_AdmStatus_Content.asp` | High
-10 | File | `/uncpath/` | Medium
-11 | ... | ... | ...
+10 | File | `/requests.php` | High
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 90 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4778,7 +4778,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -4800,48 +4800,47 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/browserextension/UpdatePassword/` | High
 8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
 9 | File | `/debug/pprof` | Medium
-10 | File | `/env` | Low
-11 | File | `/etc/hosts` | Medium
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/hrm/controller/login.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-18 | File | `/LMS/LM/#main` | High
-19 | File | `/login` | Low
-20 | File | `/mods/_standard/rss_feeds/edit_feed.php` | High
-21 | File | `/proxy` | Low
-22 | File | `/register/abort` | High
-23 | File | `/reports/rwservlet` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/tmp` | Low
-26 | File | `/var/polycom/cma/upgrade/scripts` | High
-27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/webservices/stream/tail.php` | High
-29 | File | `accessibility.js` | High
-30 | File | `actionphp/download.File.php` | High
-31 | File | `adclick.php` | Medium
-32 | File | `AddAppNetworksActivity.java` | High
-33 | File | `adm/menu_list_update.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/ajax.attachment.php` | High
-36 | File | `admin/article_save.php` | High
-37 | File | `admin/conf_users_edit.php` | High
-38 | File | `admin/index.php?c=database` | High
-39 | File | `admin/login.php` | High
-40 | File | `admin/menus/edit.php` | High
-41 | File | `admin/panels/entry/admin.entry.list.php` | High
-42 | File | `admin/panels/uploader/admin.uploader.php` | High
-43 | File | `admin/stat.ratings.php` | High
-44 | File | `admin/sysCheckFile_deal.php` | High
-45 | File | `administers` | Medium
-46 | File | `adpcm.c` | Low
-47 | File | `agent/listener/templates/tail.html` | High
-48 | File | `ajax_represent.php` | High
-49 | ... | ... | ...
+10 | File | `/dev/block/mmcblk0rpmb` | High
+11 | File | `/env` | Low
+12 | File | `/etc/hosts` | Medium
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/fos/admin/ajax.php?action=login` | High
+16 | File | `/fos/admin/index.php?page=menu` | High
+17 | File | `/goform/WifiBasicSet` | High
+18 | File | `/hrm/controller/login.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+21 | File | `/LMS/LM/#main` | High
+22 | File | `/login` | Low
+23 | File | `/mods/_standard/rss_feeds/edit_feed.php` | High
+24 | File | `/proxy` | Low
+25 | File | `/register/abort` | High
+26 | File | `/reports/rwservlet` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/template/edit` | High
+29 | File | `/tmp` | Low
+30 | File | `/var/polycom/cma/upgrade/scripts` | High
+31 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+32 | File | `/webservices/stream/tail.php` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `01article.php` | High
+35 | File | `accessibility.js` | High
+36 | File | `actionphp/download.File.php` | High
+37 | File | `adclick.php` | Medium
+38 | File | `adm/menu_list_update.php` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/ajax.attachment.php` | High
+41 | File | `admin/article_save.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `admin/index.php?c=database` | High
+44 | File | `admin/login.php` | High
+45 | File | `admin/menus/edit.php` | High
+46 | File | `admin/panels/entry/admin.entry.list.php` | High
+47 | File | `admin/panels/uploader/admin.uploader.php` | High
+48 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

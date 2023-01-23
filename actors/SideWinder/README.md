@@ -79,11 +79,11 @@ ID | Type | Indicator | Confidence
 14 | File | `/export` | Low
 15 | File | `/goform/delAd` | High
 16 | File | `/goform/setMAC` | High
-17 | File | `/goform/webSettingProfileSecurity` | High
-18 | File | `/goform/wifiSSIDset` | High
-19 | File | `/items/view_item.php` | High
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/login` | Low
+17 | File | `/goform/wifiSSIDset` | High
+18 | File | `/items/view_item.php` | High
+19 | File | `/librarian/bookdetails.php` | High
+20 | File | `/login` | Low
+21 | File | `/login/index.php` | High
 22 | File | `/mail/index.html` | High
 23 | File | `/mgmt/tm/util/bash` | High
 24 | File | `/MIME/INBOX-MM-1/` | High
@@ -106,10 +106,9 @@ ID | Type | Indicator | Confidence
 41 | File | `/table_manager/view/cu_user_groups` | High
 42 | File | `/templates/header.inc.php` | High
 43 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-44 | File | `/uncpath/` | Medium
-45 | ... | ... | ...
+44 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

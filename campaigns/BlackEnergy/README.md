@@ -87,14 +87,14 @@ ID | Type | Indicator | Confidence
 24 | File | `/librarian/bookdetails.php` | High
 25 | File | `/manage-apartment.php` | High
 26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-29 | File | `/proc/<PID>/mem` | High
-30 | File | `/proxy` | Low
-31 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
+27 | File | `/out.php` | Medium
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+30 | File | `/proc/<PID>/mem` | High
+31 | File | `/proxy` | Low
 32 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -16,12 +16,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [104.18.10.39](https://vuldb.com/?ip.104.18.10.39) | - | - | High
-2 | [148.81.111.121](https://vuldb.com/?ip.148.81.111.121) | sinkhole.cert.pl | - | High
-3 | [172.105.155.183](https://vuldb.com/?ip.172.105.155.183) | li2071-183.members.linode.com | - | High
+1 | [23.222.236.33](https://vuldb.com/?ip.23.222.236.33) | a23-222-236-33.deploy.static.akamaitechnologies.com | - | High
+2 | [24.201.72.161](https://vuldb.com/?ip.24.201.72.161) | modemcable161.72-201-24.mc.videotron.ca | - | High
+3 | [104.18.10.39](https://vuldb.com/?ip.104.18.10.39) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,6 +38,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/03/threat-roundup-for-feb-22-to-march-1.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0402-0409.html
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0430-0507.html
+* https://blog.talosintelligence.com/threat-roundup-0106-0113/
 
 ## Literature
 

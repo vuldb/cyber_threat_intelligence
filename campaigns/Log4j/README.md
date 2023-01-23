@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [JP](https://vuldb.com/?country.jp)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -4910,14 +4910,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4925,42 +4926,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/upload/upload` | High
-2 | File | `/bin/sh` | Low
-3 | File | `/blogengine/api/posts` | High
-4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-5 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-6 | File | `/cgi-bin/R14.2/log.pl` | High
-7 | File | `/cgi-bin/webadminget.cgi` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/download` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/graphql` | Medium
-12 | File | `/hss/admin/?page=client/manage_client` | High
-13 | File | `/Items/*/RemoteImages/Download` | High
-14 | File | `/login/index.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/output/outdbg.c` | High
-17 | File | `/output/outieee.c` | High
-18 | File | `/picturesPreview` | High
-19 | File | `/reports/rwservlet` | High
-20 | File | `/royal_event/userregister.php` | High
-21 | File | `/setNTP.cgi` | Medium
-22 | File | `/shell` | Low
-23 | File | `/tpts/manage_user.php` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/upload/upload` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `adclick.php` | Medium
-28 | File | `admin/conf_users_edit.php` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin/make_payments.php` | High
-31 | File | `administers` | Medium
-32 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
-33 | File | `adminweb/ra/viewendentity.jsp` | High
-34 | ... | ... | ...
+1 | File | `/admin/ajax.php?action=delete_transaction` | High
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/ajax.php?action=save_window` | High
+6 | File | `/admin/article_category.php` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/classes/Master.php?f=delete_brand` | High
+9 | File | `/classes/Master.php?f=delete_category` | High
+10 | File | `/classes/Master.php?f=delete_helmet` | High
+11 | File | `/config/api/v1/reboot` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/dev/block/mmcblk0rpmb` | High
+14 | File | `/etc` | Low
+15 | File | `/etc/passwd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/fos/admin/ajax.php?action=login` | High
+18 | File | `/fos/admin/index.php?page=menu` | High
+19 | File | `/login/index.php` | High
+20 | File | `/MicroStrategyWS/` | High
+21 | File | `/obs/book.php` | High
+22 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+23 | File | `/resources//../` | High
+24 | File | `/royal_event/userregister.php` | High
+25 | File | `/setNTP.cgi` | Medium
+26 | File | `/spip.php` | Medium
+27 | File | `/tmp` | Low
+28 | File | `/u/username.json` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/bin/tddp` | High
+31 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `/wp-admin/options-general.php` | High
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `01article.php` | High
+36 | File | `add_contestant.php` | High
+37 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

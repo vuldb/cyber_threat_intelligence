@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,13 +58,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,12 +73,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/api/audits` | Medium
-3 | File | `/bsms_ci/index.php/user/edit_user/` | High
-4 | File | `/cms/category/list` | High
-5 | File | `/env` | Low
-6 | File | `/face-recognition-php/facepay-master/camera.php` | High
-7 | File | `/forum/away.php` | High
+2 | File | `/bsms_ci/index.php/user/edit_user/` | High
+3 | File | `/cms/category/list` | High
+4 | File | `/env` | Low
+5 | File | `/forum/away.php` | High
+6 | File | `/fos/admin/ajax.php?action=login` | High
+7 | File | `/fos/admin/index.php?page=menu` | High
 8 | File | `/FreshRSS/p/ext.php` | High
 9 | File | `/goform/addressNat` | High
 10 | File | `/goform/CertListInfo` | High
@@ -97,20 +97,26 @@ ID | Type | Indicator | Confidence
 23 | File | `/hrm/controller/employee.php` | High
 24 | File | `/hrm/employeeadd.php` | High
 25 | File | `/hrm/employeeview.php` | High
-26 | File | `/leave_system/admin/?page=maintenance/department` | High
-27 | File | `/lib` | Low
-28 | File | `/login` | Low
-29 | File | `/m3_exec.h` | Medium
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-32 | File | `/picturesPreview` | High
-33 | File | `/product/savenewproduct.php?flag=1` | High
-34 | File | `/scenegraph/svg_attributes.c` | High
-35 | File | `/school/model/get_subject.php` | High
-36 | File | `/services/Card/findUser` | High
-37 | ... | ... | ...
+26 | File | `/lib` | Low
+27 | File | `/m3_exec.h` | Medium
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+30 | File | `/picturesPreview` | High
+31 | File | `/royal_event/companyprofile.php` | High
+32 | File | `/royal_event/userregister.php` | High
+33 | File | `/school/model/get_subject.php` | High
+34 | File | `/services/view_service.php` | High
+35 | File | `/v1/sql-runner` | High
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+37 | File | `/view-property.php` | High
+38 | File | `01article.php` | High
+39 | File | `acme_certificate_edit.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `add_contestant.php` | High
+42 | File | `add_post.php` | Medium
+43 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

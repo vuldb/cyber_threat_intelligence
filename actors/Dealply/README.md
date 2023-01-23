@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [IT](https://vuldb.com/?country.it)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,65 +53,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/?page=transactions/manage_transaction` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/acms/classes/Master.php?f=delete_cargo` | High
-5 | File | `/acms/classes/Master.php?f=delete_cargo_type` | High
-6 | File | `/acms/classes/Master.php?f=delete_img` | High
-7 | File | `/admin/?page=inmates/view_inmate` | High
-8 | File | `/admin/?page=system_info` | High
-9 | File | `/admin/?page=system_info/contact_info` | High
-10 | File | `/admin/add_exercises.php` | High
+1 | File | `/admin/?page=inmates/view_inmate` | High
+2 | File | `/admin/?page=system_info` | High
+3 | File | `/admin/?page=system_info/contact_info` | High
+4 | File | `/admin/add_exercises.php` | High
+5 | File | `/admin/ajax.php?action=delete_transaction` | High
+6 | File | `/admin/ajax.php?action=delete_uploads` | High
+7 | File | `/admin/ajax.php?action=delete_user` | High
+8 | File | `/admin/ajax.php?action=delete_window` | High
+9 | File | `/admin/ajax.php?action=save_queue` | High
+10 | File | `/admin/ajax.php?action=save_window` | High
 11 | File | `/Admin/createClass.php` | High
 12 | File | `/admin/edit.php` | High
 13 | File | `/admin/lab.php` | High
-14 | File | `/admin/new-content` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/aqpg/users/login.php` | High
-17 | File | `/back/index.php/user/User/?1` | High
-18 | File | `/bcms/admin/?page=user/list` | High
-19 | File | `/blog/comment` | High
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/bsms_ci/index.php/user/edit_user/` | High
-22 | File | `/cgi-bin/login.cgi` | High
-23 | File | `/ci_spms/admin/category` | High
-24 | File | `/classes/Users.php?f=save` | High
-25 | File | `/cms/admin/?page=invoice/manage_invoice` | High
-26 | File | `/cms/admin/?page=invoice/view_invoice` | High
-27 | File | `/cms/admin/?page=user/manage_user` | High
-28 | File | `/cms/category/list` | High
-29 | File | `/College_Management_System/admin/display-teacher.php` | High
-30 | File | `/ctpms/admin/applications/update_status.php` | High
-31 | File | `/ctpms/admin/individuals/update_status.php` | High
-32 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-33 | File | `/ctpms/classes/Master.php?f=delete_img` | High
-34 | File | `/cwms/admin/?page=articles/view_article/` | High
-35 | File | `/cwms/classes/Master.php?f=save_contact` | High
-36 | File | `/dashboard/add-blog.php` | High
-37 | File | `/dashboard/add-portfolio.php` | High
-38 | File | `/dashboard/settings` | High
-39 | File | `/Default/Bd` | Medium
-40 | File | `/event/admin/?page=user/list` | High
-41 | File | `/face-recognition-php/facepay-master/camera.php` | High
-42 | File | `/goform/SetSysTimeCfg` | High
-43 | File | `/graphql` | Medium
-44 | File | `/guestmanagement/front.php` | High
-45 | File | `/horde/imp/search.php` | High
-46 | File | `/hrm/controller/employee.php` | High
-47 | File | `/hrm/employeeadd.php` | High
-48 | File | `/hrm/employeeview.php` | High
-49 | File | `/index.php` | Medium
-50 | File | `/login.php` | Medium
-51 | File | `/login/index.php` | High
-52 | File | `/management/api/rcx_management/global_config_query` | High
-53 | File | `/mims/app/addcustomerHandler.php` | High
-54 | File | `/mims/login.php` | High
-55 | File | `/mtms/admin/?page=user/manage_user` | High
-56 | File | `/mygym/admin/index.php` | High
-57 | ... | ... | ...
+14 | File | `/admin/manage_user.php` | High
+15 | File | `/admin/new-content` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/aqpg/users/login.php` | High
+18 | File | `/back/index.php/user/User/?1` | High
+19 | File | `/bcms/admin/?page=user/list` | High
+20 | File | `/blog/comment` | High
+21 | File | `/bsms_ci/index.php` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/bsms_ci/index.php/user/edit_user/` | High
+24 | File | `/ci_spms/admin/category` | High
+25 | File | `/classes/Master.php?f=delete_brand` | High
+26 | File | `/classes/Users.php?f=save` | High
+27 | File | `/cms/category/list` | High
+28 | File | `/config/api/v1/reboot` | High
+29 | File | `/cwms/admin/?page=articles/view_article/` | High
+30 | File | `/cwms/classes/Master.php?f=save_contact` | High
+31 | File | `/dashboard/add-blog.php` | High
+32 | File | `/dashboard/add-portfolio.php` | High
+33 | File | `/dashboard/settings` | High
+34 | File | `/Default/Bd` | Medium
+35 | File | `/event/admin/?page=user/list` | High
+36 | File | `/face-recognition-php/facepay-master/camera.php` | High
+37 | File | `/forums.php?action=post` | High
+38 | File | `/fos/admin/ajax.php?action=login` | High
+39 | File | `/fos/admin/index.php?page=menu` | High
+40 | File | `/graphql` | Medium
+41 | File | `/guestmanagement/front.php` | High
+42 | File | `/horde/imp/search.php` | High
+43 | File | `/hrm/controller/employee.php` | High
+44 | File | `/hrm/employeeadd.php` | High
+45 | File | `/hrm/employeeview.php` | High
+46 | File | `/index.php` | Medium
+47 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+48 | File | `/login.php` | Medium
+49 | File | `/login/index.php` | High
+50 | File | `/management/api/rcx_management/global_config_query` | High
+51 | File | `/mims/app/addcustomerHandler.php` | High
+52 | File | `/mims/login.php` | High
+53 | File | `/mygym/admin/index.php` | High
+54 | File | `/mygym/admin/index.php?view_exercises` | High
+55 | File | `/mygym/admin/login.php` | High
+56 | File | `/obs/bookPerPub.php` | High
+57 | File | `/one_church/churchprofile.php` | High
+58 | File | `/one_church/userregister.php` | High
+59 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+60 | ... | ... | ...
 
-There are 497 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 528 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

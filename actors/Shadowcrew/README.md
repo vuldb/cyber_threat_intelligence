@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -770,34 +770,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/ad_js.php` | Medium
 4 | File | `/app/options.py` | High
 5 | File | `/attachments` | Medium
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/cgi-bin/luci/api/wireless` | High
-8 | File | `/ci_hms/massage_room/edit/1` | High
-9 | File | `/CMD_SELECT_USERS` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/data/wps.setup.json` | High
-13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/setmac` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-20 | File | `/IISADMPWD` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/manage-apartment.php` | High
-25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/proc/<PID>/mem` | High
-28 | File | `/proxy` | Low
-29 | File | `/sessions/sess_<sessionid>` | High
-30 | File | `/spip.php` | Medium
-31 | ... | ... | ...
+6 | File | `/cgi-bin/luci/api/wireless` | High
+7 | File | `/CMD_SELECT_USERS` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/dashboard/reports/logs/view` | High
+10 | File | `/data/wps.setup.json` | High
+11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/setmac` | High
+16 | File | `/goform/wizard_end` | High
+17 | File | `/IISADMPWD` | Medium
+18 | File | `/index.php` | Medium
+19 | File | `/manage-apartment.php` | High
+20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+21 | File | `/pages/apply_vacancy.php` | High
+22 | File | `/proc/<PID>/mem` | High
+23 | File | `/proxy` | Low
+24 | File | `/sessions/sess_<sessionid>` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/upload` | Low
+29 | File | `/var/log/nginx` | High
+30 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -814,4 +813,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

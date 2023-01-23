@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Switzerland Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CH](https://vuldb.com/?country.ch)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -726,14 +726,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -741,67 +741,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `//proc/kcore` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/admin/students/view_student.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/api/user/password/sent-reset-email` | High
-10 | File | `/api/user/upsert/<uuid>` | High
-11 | File | `/apilog.php` | Medium
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/connectors/index.php` | High
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/employeeview.php` | High
-16 | File | `/etc/openshift/server_priv.pem` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/h/calendar` | Medium
-19 | File | `/h/compose` | Medium
-20 | File | `/h/search?action=voicemail&action=listen` | High
-21 | File | `/index.asp` | Medium
-22 | File | `/index.php` | Medium
-23 | File | `/items/view_item.php` | High
-24 | File | `/jfinal_cms/system/role/list` | High
-25 | File | `/loginVaLidation.php` | High
-26 | File | `/manage-apartment.php` | High
-27 | File | `/manager/index.php` | High
-28 | File | `/medical/inventories.php` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/modules/public/calendar.php` | High
-33 | File | `/newsDia.php` | Medium
-34 | File | `/Noxen-master/users.php` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-37 | File | `/out.php` | Medium
-38 | File | `/pages/animals.php` | High
-39 | File | `/php-sms/classes/Master.php` | High
-40 | File | `/php-sms/classes/SystemSettings.php` | High
-41 | File | `/php_action/createOrder.php` | High
-42 | File | `/php_action/editProductImage.php` | High
-43 | File | `/ResiotQueryDBActive` | High
-44 | File | `/sacco_shield/manage_user.php` | High
-45 | File | `/secure/QueryComponent!Default.jspa` | High
-46 | File | `/SetTriggerWPS/PIN` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-49 | File | `/src/png2swf.c` | High
-50 | File | `/staff/bookdetails.php` | High
-51 | File | `/tos/index.php?app/app_start_stop` | High
-52 | File | `/uncpath/` | Medium
-53 | File | `/user/update_booking.php` | High
-54 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-55 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-56 | File | `/wordpress/wp-admin/options-general.php` | High
-57 | File | `adclick.php` | Medium
-58 | File | `add-patient.php` | High
-59 | ... | ... | ...
+1 | File | `.../gogo/` | Medium
+2 | File | `.github/workflows/combine-prs.yml` | High
+3 | File | `/admin.php/Admin/adminadd.html` | High
+4 | File | `/admin/api/admin/articles/` | High
+5 | File | `/admin/api/admin/v2_products` | High
+6 | File | `/admin/api/theme-edit/` | High
+7 | File | `/admin/settings/save.php` | High
+8 | File | `/admin/students/manage.php` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/api/user/password/sent-reset-email` | High
+11 | File | `/Default/Bd` | Medium
+12 | File | `/dev/block/mmcblk0rpmb` | High
+13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+14 | File | `/etc/ldap.conf` | High
+15 | File | `/etc/openshift/server_priv.pem` | High
+16 | File | `/etc/shadow` | Medium
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/goform/addUserName` | High
+23 | File | `/goform/delAd` | High
+24 | File | `/goform/wifiSSIDset` | High
+25 | File | `/gpac/src/bifs/unquantize.c` | High
+26 | File | `/hrm/controller/employee.php` | High
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/hrm/employeeview.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+31 | File | `/lookin/info` | Medium
+32 | File | `/out.php` | Medium
+33 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+34 | File | `/php-sms/classes/Master.php` | High
+35 | File | `/php-sms/classes/SystemSettings.php` | High
+36 | File | `/php_action/editProductImage.php` | High
+37 | File | `/product/savenewproduct.php?flag=1` | High
+38 | File | `/proxy` | Low
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/services/Card/findUser` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+45 | File | `/view-property.php` | High
+46 | File | `/webman/info.cgi` | High
+47 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+48 | File | `01article.php` | High
+49 | File | `AbstractScheduleJob.java` | High
+50 | File | `actionphp/download.File.php` | High
+51 | File | `adclick.php` | Medium
+52 | File | `add-patient.php` | High
+53 | File | `admin.php` | Medium
+54 | File | `admin/admin.php` | High
+55 | ... | ... | ...
 
-There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -818,4 +814,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -143,20 +143,20 @@ ID | Type | Indicator | Confidence
 22 | File | `/goforms/rlminfo` | High
 23 | File | `/index.php` | Medium
 24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/login` | Low
-26 | File | `/members/view_member.php` | High
-27 | File | `/menu.html` | Medium
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/navigate/navigate_download.php` | High
-30 | File | `/ocwbs/admin/?page=user/manage_user` | High
-31 | File | `/ofrs/admin/?page=user/manage_user` | High
-32 | File | `/out.php` | Medium
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/password.html` | High
-35 | File | `/php_action/fetchSelectedUser.php` | High
-36 | File | `/proc/ioports` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
+25 | File | `/members/view_member.php` | High
+26 | File | `/menu.html` | Medium
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/navigate/navigate_download.php` | High
+29 | File | `/ocwbs/admin/?page=user/manage_user` | High
+30 | File | `/ofrs/admin/?page=user/manage_user` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/password.html` | High
+34 | File | `/php_action/fetchSelectedUser.php` | High
+35 | File | `/proc/ioports` | High
+36 | File | `/property-list/property_view.php` | High
+37 | File | `/ptms/classes/Users.php` | High
+38 | File | `/resources//../` | High
 39 | File | `/rest/api/2/search` | High
 40 | File | `/s/` | Low
 41 | File | `/scripts/cpan_config` | High
@@ -167,10 +167,9 @@ ID | Type | Indicator | Confidence
 46 | File | `/tmp` | Low
 47 | File | `/uncpath/` | Medium
 48 | File | `/vloggers_merch/?p=view_product` | High
-49 | File | `/webconsole/APIController` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

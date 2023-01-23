@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1496,13 +1496,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1511,64 +1512,63 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `.qpopper-options` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/ctcprotocol/Protocol` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-11 | File | `/menu.html` | Medium
-12 | File | `/modules/snf/index.php` | High
-13 | File | `/proxy` | Low
-14 | File | `/reports/rwservlet` | High
-15 | File | `/tmp` | Low
-16 | File | `26.html` | Low
-17 | File | `actionphp/download.File.php` | High
-18 | File | `adclick.php` | Medium
-19 | File | `add_postit.php` | High
-20 | File | `admin.php` | Medium
-21 | File | `admin/conf_users_edit.php` | High
-22 | File | `admin/login.php` | High
-23 | File | `admin/panels/entry/admin.entry.list.php` | High
-24 | File | `admin/panels/uploader/admin.uploader.php` | High
-25 | File | `admin/shophelp.php` | High
-26 | File | `administers` | Medium
-27 | File | `administration.jsp` | High
-28 | File | `adminquery.php` | High
-29 | File | `agent/listener/templates/tail.html` | High
-30 | File | `ansfaq.asp` | Medium
-31 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
-32 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-33 | File | `appGet.cgi` | Medium
-34 | File | `application/controllers/timedtext.php` | High
-35 | File | `AppRestrictionsFragment.java` | High
-36 | File | `articleCall.php` | High
-37 | File | `audioflinger/Threads.cpp` | High
-38 | File | `authpam.c` | Medium
-39 | File | `autocms.php` | Medium
-40 | File | `avahi-core/socket.c` | High
-41 | File | `awstats.pl` | Medium
-42 | File | `banner.php` | Medium
-43 | File | `Binder.java` | Medium
-44 | File | `block_sitenews.php` | High
-45 | File | `boundary_rules.jsp` | High
-46 | File | `bpdbm.exe` | Medium
-47 | File | `browser.php` | Medium
-48 | File | `calendar.php` | Medium
-49 | File | `calendar_scheduler.php` | High
-50 | File | `cal_config.inc.php` | High
-51 | File | `chrome-devtools-frontend.appspot.com` | High
-52 | File | `claro_init_global.inc.php` | High
-53 | File | `class/class.php` | High
-54 | File | `cloud.php` | Medium
-55 | File | `cls_fast_template.php` | High
-56 | File | `cn.hutool.core.util.ZipUtil.java` | High
-57 | ... | ... | ...
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/apply_noauth.cgi` | High
+4 | File | `/bin/sh` | Low
+5 | File | `/ctcprotocol/Protocol` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dev/block/mmcblk0rpmb` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/fos/admin/ajax.php?action=login` | High
+10 | File | `/fos/admin/index.php?page=menu` | High
+11 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+12 | File | `/menu.html` | Medium
+13 | File | `/modules/snf/index.php` | High
+14 | File | `/proxy` | Low
+15 | File | `/reports/rwservlet` | High
+16 | File | `/resources//../` | High
+17 | File | `/tmp` | Low
+18 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+19 | File | `01article.php` | High
+20 | File | `26.html` | Low
+21 | File | `actionphp/download.File.php` | High
+22 | File | `adclick.php` | Medium
+23 | File | `add_postit.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/conf_users_edit.php` | High
+26 | File | `admin/login.php` | High
+27 | File | `admin/panels/entry/admin.entry.list.php` | High
+28 | File | `admin/panels/uploader/admin.uploader.php` | High
+29 | File | `admin/shophelp.php` | High
+30 | File | `administers` | Medium
+31 | File | `administration.jsp` | High
+32 | File | `adminquery.php` | High
+33 | File | `agent/listener/templates/tail.html` | High
+34 | File | `announce.php` | Medium
+35 | File | `ansfaq.asp` | Medium
+36 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+37 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+38 | File | `appGet.cgi` | Medium
+39 | File | `application/controllers/timedtext.php` | High
+40 | File | `AppRestrictionsFragment.java` | High
+41 | File | `App\Manage\Controller\ArticleController.class.php` | High
+42 | File | `articleCall.php` | High
+43 | File | `audioflinger/Threads.cpp` | High
+44 | File | `authpam.c` | Medium
+45 | File | `autocms.php` | Medium
+46 | File | `avahi-core/socket.c` | High
+47 | File | `awstats.pl` | Medium
+48 | File | `banner.php` | Medium
+49 | File | `Binder.java` | Medium
+50 | File | `block_sitenews.php` | High
+51 | File | `boundary_rules.jsp` | High
+52 | File | `bpdbm.exe` | Medium
+53 | File | `browser.php` | Medium
+54 | File | `calendar.php` | Medium
+55 | File | `calendar_scheduler.php` | High
+56 | ... | ... | ...
 
-There are 494 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

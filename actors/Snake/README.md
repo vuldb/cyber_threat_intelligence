@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Snake:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snake:
 
-* [DE](https://vuldb.com/?country.de)
 * [CH](https://vuldb.com/?country.ch)
-* [ES](https://vuldb.com/?country.es)
+* [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,8 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -58,48 +57,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/adminui/error_details.php` | High
-4 | File | `/adminui/history_log.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/binbloom-master/src/helpers.c` | High
-7 | File | `/dev/tty` | Medium
-8 | File | `/etc/passwd` | Medium
-9 | File | `/face-recognition-php/facepay-master/camera.php` | High
-10 | File | `/goform/dir_setWanWifi` | High
-11 | File | `/goform/WifiBasicSet` | High
-12 | File | `/hss/?page=view_product` | High
-13 | File | `/hss/admin/?page=client/manage_client` | High
-14 | File | `/lab.html` | Medium
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/article_category.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/adminui/history_log.php` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/classes/Master.php?f=delete_brand` | High
+10 | File | `/classes/Master.php?f=delete_category` | High
+11 | File | `/config/api/v1/reboot` | High
+12 | File | `/etc/passwd` | Medium
+13 | File | `/goform/WifiBasicSet` | High
+14 | File | `/hss/admin/?page=client/manage_client` | High
 15 | File | `/login/index.php` | High
-16 | File | `/menu.html` | Medium
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/output/outdbg.c` | High
-19 | File | `/output/outieee.c` | High
-20 | File | `/picturesPreview` | High
-21 | File | `/tiki-importer.php` | High
-22 | File | `/usr/sbin/httpd` | High
-23 | File | `/var/log/nginx` | High
-24 | File | `/wp-json/wc/v3/webhooks` | High
-25 | File | `0_change-gallery.php` | High
-26 | File | `5.2.9\syscrb.exe` | High
-27 | File | `AbstractScheduleJob.java` | High
-28 | File | `acme_certificate_edit.php` | High
-29 | File | `action/Core.class.php` | High
-30 | File | `adclick.php` | Medium
-31 | File | `add-blog.php` | Medium
-32 | File | `addToWishlist.asp` | High
+16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+17 | File | `/output/outdbg.c` | High
+18 | File | `/output/outieee.c` | High
+19 | File | `/picturesPreview` | High
+20 | File | `/setNTP.cgi` | Medium
+21 | File | `/system/site.php` | High
+22 | File | `/tiki-importer.php` | High
+23 | File | `/tmp` | Low
+24 | File | `/tpts/manage_user.php` | High
+25 | File | `/trufusionPortal/upDwModuleProxy` | High
+26 | File | `/var/log/nginx` | High
+27 | File | `/wp-admin/options-general.php` | High
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `0_change-gallery.php` | High
+30 | File | `addToWishlist.asp` | High
+31 | File | `admin/manage_user.php` | High
+32 | File | `admin/page-login.php` | High
 33 | File | `admin/panels/entry/admin.entry.list.php` | High
 34 | File | `admin/panels/uploader/admin.uploader.php` | High
 35 | File | `admin/plugin-preferences.php` | High
-36 | File | `admin/viewtheatre.php` | High
-37 | File | `administrative` | High
+36 | File | `administrative` | High
+37 | File | `admin_class.php` | High
 38 | File | `agent/listener/templates/tail.html` | High
-39 | File | `ajax/getDropdownValue.php` | High
-40 | File | `announce.php` | Medium
-41 | ... | ... | ...
+39 | File | `announce.php` | Medium
+40 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

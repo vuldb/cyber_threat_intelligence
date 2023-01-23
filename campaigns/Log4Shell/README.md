@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SC](https://vuldb.com/?country.sc)
 * [DE](https://vuldb.com/?country.de)
-* [PT](https://vuldb.com/?country.pt)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -96,12 +96,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -111,43 +112,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/api/admin/articles/` | High
-2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/adminui/history_log.php` | High
+1 | File | `/admin/ajax.php?action=delete_uploads` | High
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/app/dao/CustomerDAO.php` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/common/run_cross_report.php` | High
-6 | File | `/common/user_profile.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/dir_setWanWifi` | High
-9 | File | `/goform/IPSECsave` | High
-10 | File | `/goform/WifiBasicSet` | High
-11 | File | `/hss/admin/?page=client/manage_client` | High
-12 | File | `/login/index.php` | High
-13 | File | `/product/savenewproduct.php?flag=1` | High
-14 | File | `/setNTP.cgi` | Medium
-15 | File | `/ui/cbpc/login` | High
-16 | File | `/v1/sql-runner` | High
-17 | File | `actions/UploadAction.php` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin/AJAX_lookup_handler.php` | High
-20 | File | `admin/panels/entry/admin.entry.list.php` | High
-21 | File | `admin/plugin-preferences.php` | High
-22 | File | `admin/plugin-settings.php` | High
-23 | File | `administrative` | High
-24 | File | `ajax/getDropdownValue.php` | High
-25 | File | `announce.php` | Medium
-26 | File | `Ap4StssAtom.cpp` | High
-27 | File | `api/?api=add_server` | High
-28 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
-29 | File | `app/controller/insertarSliderAjax.php` | High
-30 | File | `app/controllers/code_caller_controller.php` | High
-31 | File | `app/controllers/oauth.js` | High
-32 | File | `app/controllers/uploaded_files_controller.rb` | High
-33 | File | `app/filters.php` | High
-34 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-35 | ... | ... | ...
+5 | File | `/config/api/v1/reboot` | High
+6 | File | `/etc/shadow` | Medium
+7 | File | `/food` | Low
+8 | File | `/forum/away.php` | High
+9 | File | `/forums.php?action=post` | High
+10 | File | `/fos/admin/ajax.php?action=login` | High
+11 | File | `/fos/admin/index.php?page=menu` | High
+12 | File | `/hss/admin/?page=client/manage_client` | High
+13 | File | `/hss/classes/Users.php?f=delete` | High
+14 | File | `/index/user/user_edit.html` | High
+15 | File | `/login/index.php` | High
+16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+17 | File | `/rest/api/2/user/picker` | High
+18 | File | `/royal_event/userregister.php` | High
+19 | File | `/rrdp` | Low
+20 | File | `/setNTP.cgi` | Medium
+21 | File | `/tpts/manage_user.php` | High
+22 | File | `/u/username.json` | High
+23 | File | `/usr/etc/restore0.9` | High
+24 | File | `/VerAyari` | Medium
+25 | File | `01article.php` | High
+26 | File | `acl.c` | Low
+27 | File | `add_contestant.php` | High
+28 | File | `admin.jcomments.php` | High
+29 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 247 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

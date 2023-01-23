@@ -66,7 +66,7 @@ ID | Type | Indicator | Confidence
 16 | File | `attachmentlibrary.php` | High
 17 | ... | ... | ...
 
-There are 137 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 141 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

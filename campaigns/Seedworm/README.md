@@ -72,9 +72,10 @@ ID | Type | Indicator | Confidence
 15 | File | `affich.php` | Medium
 16 | File | `ahcache.sys` | Medium
 17 | File | `ajax/api/hook/getHookList` | High
-18 | ... | ... | ...
+18 | File | `ajax_represent.php` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

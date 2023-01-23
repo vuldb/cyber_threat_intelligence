@@ -98,7 +98,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -112,33 +112,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.FBCIndex` | Medium
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/blogengine/api/posts` | High
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/cgi-bin/api-get_line_status` | High
-6 | File | `/cgi-bin/luci` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-8 | File | `/cgi-bin/upload_vpntar` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/env` | Low
-12 | File | `/export` | Low
-13 | File | `/forum/away.php` | High
-14 | File | `/FreshRSS/p/ext.php` | High
-15 | File | `/goform/addressNat` | High
-16 | File | `/goform/CertListInfo` | High
-17 | File | `/goform/fast_setting_wifi_set` | High
-18 | File | `/goform/IPSECsave` | High
-19 | File | `/goform/L7Im` | Medium
-20 | File | `/goform/NatStaticSetting` | High
-21 | File | `/goform/qossetting` | High
-22 | File | `/goform/SafeClientFilter` | High
-23 | File | `/goform/SafeMacFilter` | High
-24 | File | `/goform/SafeUrlFilter` | High
-25 | File | `/goform/setMacFilterCfg` | High
-26 | File | `/goform/SysToolReboot` | High
-27 | File | `/goform/SysToolRestoreSet` | High
-28 | ... | ... | ...
+4 | File | `/cgi-bin/api-get_line_status` | High
+5 | File | `/cgi-bin/luci` | High
+6 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+7 | File | `/cgi-bin/upload_vpntar` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/Content/Template/root/reverse-shell.aspx` | High
+10 | File | `/env` | Low
+11 | File | `/export` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/FreshRSS/p/ext.php` | High
+14 | File | `/goform/addressNat` | High
+15 | File | `/goform/CertListInfo` | High
+16 | File | `/goform/fast_setting_wifi_set` | High
+17 | File | `/goform/IPSECsave` | High
+18 | File | `/goform/L7Im` | Medium
+19 | File | `/goform/NatStaticSetting` | High
+20 | File | `/goform/qossetting` | High
+21 | File | `/goform/SafeClientFilter` | High
+22 | File | `/goform/SafeMacFilter` | High
+23 | File | `/goform/SafeUrlFilter` | High
+24 | File | `/goform/setMacFilterCfg` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/goform/SysToolRestoreSet` | High
+27 | File | `/goform/VirtualSer` | High
+28 | File | `/h/calendar` | Medium
+29 | File | `/hrm/controller/employee.php` | High
+30 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

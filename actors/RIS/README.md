@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -171,11 +171,11 @@ ID | Type | Indicator | Confidence
 1 | File | `/addNotifyServlet` | High
 2 | File | `/admin/api/theme-edit/` | High
 3 | File | `/admin/conferences/get-all-status/` | High
-4 | File | `/admin/settings/save.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/adminui/history_log.php` | High
-8 | File | `/attachments` | Medium
+4 | File | `/admin/submit-articles` | High
+5 | File | `/admin/transactions/update_status.php` | High
+6 | File | `/adminui/history_log.php` | High
+7 | File | `/attachments` | Medium
+8 | File | `/classes/Master.php?f=delete_helmet` | High
 9 | File | `/cms/category/list` | High
 10 | File | `/common/run_cross_report.php` | High
 11 | File | `/debug/pprof` | Medium
@@ -196,21 +196,21 @@ ID | Type | Indicator | Confidence
 26 | File | `/login` | Low
 27 | File | `/login/index.php` | High
 28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/pages/faculty_sched.php` | High
-31 | File | `/php-sms/admin/?page=inquiries/view_inquiry` | High
-32 | File | `/product/savenewproduct.php?flag=1` | High
-33 | File | `/proxy` | Low
-34 | File | `/purchase_order/admin/?page=system_info` | High
-35 | File | `/services/Card/findUser` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sys/dict/queryTableData` | High
-38 | File | `/sys/user/deleteRecycleBin` | High
-39 | File | `/sys/user/putRecycleBin` | High
-40 | File | `/templates/install.php` | High
+29 | File | `/pages/faculty_sched.php` | High
+30 | File | `/php-sms/admin/?page=inquiries/view_inquiry` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/proxy` | Low
+33 | File | `/purchase_order/admin/?page=system_info` | High
+34 | File | `/services/Card/findUser` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/sys/dict/queryTableData` | High
+37 | File | `/sys/user/deleteRecycleBin` | High
+38 | File | `/sys/user/putRecycleBin` | High
+39 | File | `/templates/install.php` | High
+40 | File | `/tmp` | Low
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

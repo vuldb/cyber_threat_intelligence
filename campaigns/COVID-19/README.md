@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -191,16 +191,17 @@ ID | Type | Indicator | Confidence
 23 | File | `/mkshope/login.php` | High
 24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 25 | File | `/obs/book.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/proxy` | Low
-28 | File | `/public/launchNewWindow.jsp` | High
-29 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-30 | File | `/self.key` | Medium
-31 | File | `/services/view_service.php` | High
-32 | File | `/spip.php` | Medium
-33 | ... | ... | ...
+26 | File | `/proxy` | Low
+27 | File | `/public/launchNewWindow.jsp` | High
+28 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+29 | File | `/self.key` | Medium
+30 | File | `/services/view_service.php` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

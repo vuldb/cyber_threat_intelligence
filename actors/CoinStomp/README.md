@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with CoinStomp:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -31,12 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 5 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,51 +46,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/category_view.php` | High
-2 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-3 | File | `/fs/cifs/file.c` | High
-4 | File | `/highlight/index.html` | High
-5 | File | `/hotel.php` | Medium
-6 | File | `/Login.do` | Medium
-7 | File | `/var/etc/shadow` | High
-8 | File | `/var/log/cgred` | High
-9 | File | `/var/run/hostapd` | High
-10 | File | `add.php` | Low
-11 | File | `AddEvent.php` | Medium
-12 | File | `addlisting.asp` | High
-13 | File | `add_tmsp.php` | Medium
-14 | File | `admin.php` | Medium
-15 | File | `admin/handlers.php` | High
-16 | File | `admin/help.php` | High
-17 | File | `admin/modules/system/app_user.php` | High
-18 | File | `admin/tools/trackback/index.php` | High
-19 | File | `admin/users_edit.php` | High
-20 | File | `administrators/backups/` | High
-21 | File | `afmparse.c` | Medium
-22 | File | `ajax.php` | Medium
-23 | File | `answers.php` | Medium
-24 | File | `apsetup.php` | Medium
-25 | File | `arch/powerpc/kernel/process.c` | High
-26 | File | `arch/x86/kvm/vmx.c` | High
-27 | File | `ArchiveUtil.java` | High
-28 | File | `bmp.c` | Low
-29 | File | `browse.php` | Medium
-30 | File | `buy.php` | Low
-31 | File | `calendar.class.php` | High
-32 | File | `calendar/submit/` | High
-33 | File | `category.php` | Medium
-34 | File | `cc_guestbook.pl` | High
-35 | File | `centipaid_class.php` | High
-36 | File | `channel.c` | Medium
-37 | File | `chetcpasswd.cgi` | High
-38 | File | `clastree.htm` | Medium
-39 | File | `client-assist.php` | High
-40 | File | `coders/dds.c` | Medium
-41 | File | `coders/webp.c` | High
-42 | File | `CollabNetApp.java` | High
-43 | File | `collection.class.php` | High
-44 | ... | ... | ...
+2 | File | `/forum/away.php` | High
+3 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
+4 | File | `/fs/cifs/file.c` | High
+5 | File | `/highlight/index.html` | High
+6 | File | `/hotel.php` | Medium
+7 | File | `/Login.do` | Medium
+8 | File | `/var/etc/shadow` | High
+9 | File | `/var/log/cgred` | High
+10 | File | `/var/run/hostapd` | High
+11 | File | `add.php` | Low
+12 | File | `AddEvent.php` | Medium
+13 | File | `addlisting.asp` | High
+14 | File | `add_tmsp.php` | Medium
+15 | File | `admin.php` | Medium
+16 | File | `admin/handlers.php` | High
+17 | File | `admin/help.php` | High
+18 | File | `admin/modules/system/app_user.php` | High
+19 | File | `admin/tools/trackback/index.php` | High
+20 | File | `admin/users_edit.php` | High
+21 | File | `administrators/backups/` | High
+22 | File | `afmparse.c` | Medium
+23 | File | `ajax.php` | Medium
+24 | File | `answers.php` | Medium
+25 | File | `apsetup.php` | Medium
+26 | File | `arch/powerpc/kernel/process.c` | High
+27 | File | `arch/x86/kvm/vmx.c` | High
+28 | File | `ArchiveUtil.java` | High
+29 | File | `bmp.c` | Low
+30 | File | `browse.php` | Medium
+31 | File | `buy.php` | Low
+32 | File | `calendar.class.php` | High
+33 | File | `calendar/submit/` | High
+34 | File | `category.php` | Medium
+35 | File | `cc_guestbook.pl` | High
+36 | File | `centipaid_class.php` | High
+37 | File | `channel.c` | Medium
+38 | File | `chetcpasswd.cgi` | High
+39 | File | `clastree.htm` | Medium
+40 | File | `client-assist.php` | High
+41 | File | `coders/dds.c` | Medium
+42 | File | `coders/webp.c` | High
+43 | File | `CollabNetApp.java` | High
+44 | File | `collection.class.php` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -106,4 +108,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

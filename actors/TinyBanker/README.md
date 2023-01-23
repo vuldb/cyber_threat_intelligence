@@ -34,15 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-273, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,48 +49,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/admin/article/list_approve` | High
-3 | File | `/admin/client_edit.php` | High
-4 | File | `/admin/comment.php` | High
-5 | File | `/admin/curltest.cgi` | High
-6 | File | `/admin/doctors/manage_doctor.php` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/news/sort_ok.php` | High
-9 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
-10 | File | `/admin/users/index.php` | High
-11 | File | `/api/browserextension/UpdatePassword/` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/blog/blog.php` | High
-14 | File | `/calendar/viewcalendar.php` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/classes/Master.php?f=delete_stockout` | High
-17 | File | `/common/download_agent_installer.php` | High
-18 | File | `/config/service/host.go` | High
-19 | File | `/Controller/ChinaCityController.class.php` | High
-20 | File | `/cwms/classes/Master.php?f=save_contact` | High
-21 | File | `/dashboard/menu-list.php` | High
-22 | File | `/dashboard/table-list.php` | High
-23 | File | `/diag_ping_admin.asp` | High
-24 | File | `/etc/passwd` | Medium
-25 | File | `/etc/shadow.sample` | High
-26 | File | `/goform/saveParentControlInfo` | High
-27 | File | `/goform/setAdInfoDetail` | High
-28 | File | `/goform/SetIpMacBind` | High
-29 | File | `/goform/SetPptpServerCfg` | High
-30 | File | `/goform/WifiBasicSet` | High
-31 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-32 | File | `/hrm/controller/employee.php` | High
-33 | File | `/hrm/state.php` | High
-34 | File | `/hss/admin/?page=client/manage_client` | High
-35 | File | `/index.php/ccm/system/file/upload` | High
-36 | File | `/js/js-parser.c` | High
-37 | File | `/login/index.php` | High
-38 | File | `/meetings/listmeetings.php` | High
-39 | File | `/mgm_dev_reboot.asp` | High
-40 | ... | ... | ...
+1 | File | `/admin/ajax.php?action=delete_transaction` | High
+2 | File | `/admin/ajax.php?action=delete_uploads` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/article/list_approve` | High
+7 | File | `/admin/client_edit.php` | High
+8 | File | `/admin/curltest.cgi` | High
+9 | File | `/admin/doctors/manage_doctor.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/manage_user.php` | High
+12 | File | `/admin/news/sort_ok.php` | High
+13 | File | `/admin/uesrs.php&action=type&userrole=Admin&userid=3` | High
+14 | File | `/admin/users/index.php` | High
+15 | File | `/api/browserextension/UpdatePassword/` | High
+16 | File | `/app/dao/CustomerDAO.php` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/blog/blog.php` | High
+19 | File | `/calendar/viewcalendar.php` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php?f=delete_helmet` | High
+22 | File | `/classes/Master.php?f=delete_stockout` | High
+23 | File | `/common/download_agent_installer.php` | High
+24 | File | `/config/api/v1/reboot` | High
+25 | File | `/config/service/host.go` | High
+26 | File | `/cwms/classes/Master.php?f=save_contact` | High
+27 | File | `/dashboard/menu-list.php` | High
+28 | File | `/dashboard/table-list.php` | High
+29 | File | `/diag_ping_admin.asp` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/etc/shadow.sample` | High
+32 | File | `/fos/admin/ajax.php?action=login` | High
+33 | File | `/goform/saveParentControlInfo` | High
+34 | File | `/goform/setAdInfoDetail` | High
+35 | File | `/goform/SetIpMacBind` | High
+36 | File | `/goform/SetPptpServerCfg` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+39 | File | `/hrm/controller/employee.php` | High
+40 | File | `/hrm/state.php` | High
+41 | File | `/hss/admin/?page=client/manage_client` | High
+42 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

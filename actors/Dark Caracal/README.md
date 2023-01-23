@@ -52,13 +52,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/apply.cgi` | Medium
 4 | File | `/spip.php` | Medium
 5 | File | `/usr/bin/pkexec` | High
-6 | File | `admin/file-manager/attachments` | High
-7 | File | `application/modules/admin/views/ecommerce/products.php` | High
-8 | File | `apply.cgi` | Medium
-9 | File | `archivejson.cgi` | High
-10 | ... | ... | ...
+6 | File | `admin.jcomments.php` | High
+7 | File | `admin/file-manager/attachments` | High
+8 | File | `application/modules/admin/views/ecommerce/products.php` | High
+9 | File | `apply.cgi` | Medium
+10 | File | `archivejson.cgi` | High
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

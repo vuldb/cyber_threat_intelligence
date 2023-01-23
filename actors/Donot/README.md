@@ -97,7 +97,7 @@ ID | Type | Indicator | Confidence
 33 | File | `/dashboard/settings` | High
 34 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

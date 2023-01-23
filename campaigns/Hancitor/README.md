@@ -79,37 +79,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/auth/session` | High
-2 | File | `/card_scan.php` | High
-3 | File | `/cgi-bin/wlogin.cgi` | High
-4 | File | `/concat?/%2557EB-INF/web.xml` | High
-5 | File | `/cwc/login` | Medium
-6 | File | `/etc/quagga` | Medium
-7 | File | `/files.md5` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/h/calendar` | Medium
-10 | File | `/hrm/employeeview.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/lists/index.php` | High
-13 | File | `/login` | Low
-14 | File | `/members/view_member.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/nova/bin/detnet` | High
-18 | File | `/objects/getImageMP4.php` | High
-19 | File | `/one_church/userregister.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/replication` | Medium
-24 | File | `/req_password_user.php` | High
-25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-26 | File | `/SASWebReportStudio/logonAndRender.do` | High
-27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-28 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+1 | File | `/card_scan.php` | High
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/concat?/%2557EB-INF/web.xml` | High
+4 | File | `/cwc/login` | Medium
+5 | File | `/etc/quagga` | Medium
+6 | File | `/files.md5` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/h/calendar` | Medium
+9 | File | `/hrm/employeeview.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/lists/index.php` | High
+12 | File | `/login` | Low
+13 | File | `/members/view_member.php` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/nova/bin/console` | High
+16 | File | `/nova/bin/detnet` | High
+17 | File | `/objects/getImageMP4.php` | High
+18 | File | `/one_church/userregister.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/replication` | Medium
+23 | File | `/req_password_user.php` | High
+24 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
 29 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

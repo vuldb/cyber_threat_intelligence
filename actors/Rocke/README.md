@@ -111,10 +111,9 @@ ID | Type | Indicator | Confidence
 46 | File | `claro_init_global.inc.php` | High
 47 | File | `class/class.php` | High
 48 | File | `cloud.php` | Medium
-49 | File | `cls_fast_template.php` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

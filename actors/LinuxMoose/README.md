@@ -70,28 +70,28 @@ ID | Type | Indicator | Confidence
 9 | File | `/cgi-bin/luci/api/wireless` | High
 10 | File | `/ci_hms/massage_room/edit/1` | High
 11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/core/conditions/AbstractWrapper.java` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dev/shm` | Medium
-17 | File | `/ebics-server/ebics.aspx` | High
-18 | File | `/etc/hosts` | Medium
-19 | File | `/etc/shadow` | Medium
-20 | File | `/export` | Low
-21 | File | `/goform/setmac` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/hardware` | Medium
-24 | File | `/manage-apartment.php` | High
-25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/out.php` | Medium
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/plugin/LiveChat/getChat.json.php` | High
-30 | File | `/proc/<PID>/mem` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dev/shm` | Medium
+16 | File | `/ebics-server/ebics.aspx` | High
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/shadow` | Medium
+19 | File | `/export` | Low
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hardware` | Medium
+23 | File | `/manage-apartment.php` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+26 | File | `/out.php` | Medium
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/plugin/LiveChat/getChat.json.php` | High
+29 | File | `/proc/<PID>/mem` | High
+30 | File | `/proxy` | Low
 31 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

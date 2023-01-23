@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,14 +58,14 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin/upload/upload` | High
 4 | File | `/admin/videoalbum/list` | High
-5 | File | `/authUserAction!edit.action` | High
-6 | File | `/c/macho_reader.c` | High
-7 | File | `/cgi-bin/DownloadFlash` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-10 | File | `/conf/` | Low
-11 | File | `/config/getuser` | High
-12 | File | `/dashboard/contact` | High
+5 | File | `/c/macho_reader.c` | High
+6 | File | `/cgi-bin/DownloadFlash` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/cloud_config/router_post/check_reg_verify_code` | High
+9 | File | `/conf/` | Low
+10 | File | `/config/getuser` | High
+11 | File | `/dashboard/contact` | High
+12 | File | `/debug/pprof` | Medium
 13 | File | `/dev/bus` | Medium
 14 | File | `/example/editor` | High
 15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
@@ -80,24 +80,25 @@ ID | Type | Indicator | Confidence
 24 | File | `/module/module_frame/index.php` | High
 25 | File | `/music/ajax.php` | High
 26 | File | `/northstar/Admin/changePassword.jsp` | High
-27 | File | `/orms/` | Low
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/rest/api/1.0/render` | High
-31 | File | `/sre/params.php` | High
-32 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-33 | File | `/tmp` | Low
-34 | File | `/tmp/xbindkeysrc-tmp` | High
-35 | File | `/user/upload/upload` | High
-36 | File | `/Users` | Low
-37 | File | `/var/spool/hylafax` | High
-38 | File | `/vendor` | Low
-39 | File | `/whbs/?page=my_bookings` | High
-40 | File | `access_rules/rules_form` | High
-41 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-42 | ... | ... | ...
+27 | File | `/obs/book.php` | High
+28 | File | `/orms/` | Low
+29 | File | `/ossn/administrator/com_installer` | High
+30 | File | `/pms/update_user.php?user_id=1` | High
+31 | File | `/rest/api/1.0/render` | High
+32 | File | `/sre/params.php` | High
+33 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+34 | File | `/tmp` | Low
+35 | File | `/tmp/xbindkeysrc-tmp` | High
+36 | File | `/user/upload/upload` | High
+37 | File | `/Users` | Low
+38 | File | `/var/spool/hylafax` | High
+39 | File | `/vendor` | Low
+40 | File | `/whbs/?page=my_bookings` | High
+41 | File | `access_rules/rules_form` | High
+42 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+43 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -73,11 +73,12 @@ ID | Type | Indicator | Confidence
 22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 23 | File | `/wolfcms/?/admin/user/add` | High
 24 | File | `/wp-admin` | Medium
-25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-26 | File | `/wp-json/wc/v3/webhooks` | High
-27 | ... | ... | ...
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

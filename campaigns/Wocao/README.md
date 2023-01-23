@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [DE](https://vuldb.com/?country.de)
 * [ES](https://vuldb.com/?country.es)
-* [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,15 +42,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,46 +58,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/&quot` | Low
-3 | File | `/admin/subnets/ripe-query.php` | High
-4 | File | `/adminui/error_details.php` | High
-5 | File | `/adminui/history_log.php` | High
-6 | File | `/auth/register` | High
-7 | File | `/binbloom-master/src/helpers.c` | High
-8 | File | `/dev/kmem` | Medium
-9 | File | `/dev/tty` | Medium
-10 | File | `/etc/gsissh/sshd_config` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/face-recognition-php/facepay-master/camera.php` | High
-13 | File | `/goform/dir_setWanWifi` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/hss/?page=view_product` | High
-16 | File | `/hss/admin/categories/view_category.php` | High
-17 | File | `/lab.html` | Medium
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/article_category.php` | High
+6 | File | `/admin/manage_user.php` | High
+7 | File | `/adminui/error_details.php` | High
+8 | File | `/adminui/history_log.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/classes/Master.php?f=delete_brand` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/config/api/v1/reboot` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/goform/dir_setWanWifi` | High
+15 | File | `/goform/WifiBasicSet` | High
+16 | File | `/hospital/hms/admin/patient-search.php` | High
+17 | File | `/hss/admin/?page=client/manage_client` | High
 18 | File | `/login/index.php` | High
-19 | File | `/menu.html` | Medium
-20 | File | `/modules/profile/index.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/output/outdbg.c` | High
-23 | File | `/output/outieee.c` | High
-24 | File | `/SAFESEH` | Medium
-25 | File | `/Upload/admin/admin_notify.php` | High
-26 | File | `/usr/sbin/httpd` | High
-27 | File | `/var/log/nginx` | High
-28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `0_change-gallery.php` | High
-30 | File | `4.edu.php` | Medium
-31 | File | `5.2.9\syscrb.exe` | High
-32 | File | `AbstractScheduleJob.java` | High
-33 | File | `account-inbox.php` | High
-34 | File | `acme_certificate_edit.php` | High
-35 | File | `action/Core.class.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add-blog.php` | Medium
-38 | File | `addToWishlist.asp` | High
-39 | ... | ... | ...
+19 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+20 | File | `/output/outdbg.c` | High
+21 | File | `/output/outieee.c` | High
+22 | File | `/setNTP.cgi` | Medium
+23 | File | `/system/site.php` | High
+24 | File | `/tiki-importer.php` | High
+25 | File | `/tmp` | Low
+26 | File | `/tpts/manage_user.php` | High
+27 | File | `/trufusionPortal/upDwModuleProxy` | High
+28 | File | `/var/log/nginx` | High
+29 | File | `/wp-admin/options-general.php` | High
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `0_change-gallery.php` | High
+32 | File | `addToWishlist.asp` | High
+33 | File | `admin/manage_user.php` | High
+34 | File | `admin/page-login.php` | High
+35 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

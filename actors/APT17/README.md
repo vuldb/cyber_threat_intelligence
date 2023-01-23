@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/wbg/core/_includes/authorization.inc.php` | High
 4 | File | `addentry.php` | Medium
 5 | File | `data/gbconfiguration.dat` | High
-6 | ... | ... | ...
+6 | File | `detail.php` | Medium
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

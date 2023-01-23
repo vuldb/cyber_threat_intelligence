@@ -8,12 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MedusaLocker:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
-* [AR](https://vuldb.com/?country.ar)
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
+* [IR](https://vuldb.com/?country.ir)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -36,14 +33,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,41 +48,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/adminui/history_log.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/common/download_agent_installer.php` | High
-5 | File | `/common/download_attachment.php` | High
-6 | File | `/common/run_cross_report.php` | High
-7 | File | `/etc/passwd` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/IPSECsave` | High
-10 | File | `/goform/WifiBasicSet` | High
-11 | File | `/hss/admin/?page=client/manage_client` | High
-12 | File | `/login/index.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/output/outdbg.c` | High
-15 | File | `/output/outieee.c` | High
-16 | File | `/product/savenewproduct.php?flag=1` | High
-17 | File | `/setNTP.cgi` | Medium
-18 | File | `/tiki-importer.php` | High
-19 | File | `/ui/cbpc/login` | High
-20 | File | `0_change-gallery.php` | High
-21 | File | `addToWishlist.asp` | High
-22 | File | `admin/panels/uploader/admin.uploader.php` | High
-23 | File | `admin/plugin-preferences.php` | High
-24 | File | `administrative` | High
-25 | File | `announce.php` | Medium
-26 | File | `app/controller/insertarSliderAjax.php` | High
-27 | File | `app/controllers/code_caller_controller.php` | High
-28 | File | `app/controllers/geopoll_controller.rb` | High
-29 | File | `app/controllers/image_controller.rb` | High
-30 | File | `app/controllers/oauth.js` | High
-31 | File | `app/controllers/uploaded_files_controller.rb` | High
-32 | File | `app/filters.php` | High
-33 | ... | ... | ...
+1 | File | `/admin/ajax.php?action=delete_transaction` | High
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/admin/ajax.php?action=save_queue` | High
+5 | File | `/admin/ajax.php?action=save_window` | High
+6 | File | `/admin/article_category.php` | High
+7 | File | `/admin/manage_user.php` | High
+8 | File | `/app/dao/CustomerDAO.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/apps/app_user/sys_user.php` | High
+11 | File | `/classes/Master.php?f=delete_brand` | High
+12 | File | `/classes/Master.php?f=delete_category` | High
+13 | File | `/config/api/v1/reboot` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/hss/admin/?page=client/manage_client` | High
+16 | File | `/hss/classes/Users.php?f=delete` | High
+17 | File | `/login/index.php` | High
+18 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+19 | File | `/setNTP.cgi` | Medium
+20 | File | `/system/site.php` | High
+21 | File | `/tiki-importer.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/tpts/manage_user.php` | High
+24 | File | `/trufusionPortal/upDwModuleProxy` | High
+25 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

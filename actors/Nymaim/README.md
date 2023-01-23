@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,20 +62,20 @@ ID | Type | Indicator | Confidence
 6 | File | `/config/getuser` | High
 7 | File | `/data-service/users/` | High
 8 | File | `/IISADMPWD` | Medium
-9 | File | `/index.php` | Medium
-10 | File | `/js/app.js` | Medium
-11 | File | `/login` | Low
-12 | File | `/mgmt/tm/util/bash` | High
-13 | File | `/northstar/Portal/processlogin.jsp` | High
-14 | File | `/public/plugins/` | High
-15 | File | `/registration.php` | High
-16 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-17 | File | `/rest/api/latest/projectvalidate/key` | High
-18 | File | `/rest/collectors/1.0/template/custom` | High
-19 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+9 | File | `/inc/campaign/count_of_send.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/js/app.js` | Medium
+12 | File | `/login` | Low
+13 | File | `/mgmt/tm/util/bash` | High
+14 | File | `/northstar/Portal/processlogin.jsp` | High
+15 | File | `/public/plugins/` | High
+16 | File | `/rdms/admin/?page=user/manage_user` | High
+17 | File | `/registration.php` | High
+18 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+19 | File | `/rest/api/latest/projectvalidate/key` | High
 20 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -41,7 +41,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -80,21 +81,22 @@ ID | Type | Indicator | Confidence
 27 | File | `admincp/attachment.php` | High
 28 | File | `adminedit.pl` | Medium
 29 | File | `ajax/api/hook/getHookList` | High
-30 | File | `archive/index.php` | High
-31 | File | `backend/groups/index.php` | High
-32 | File | `bbs/member_confirm.php` | High
-33 | File | `bottom.php` | Medium
-34 | File | `breadcrumbs_create.php` | High
-35 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-36 | File | `cds-fpdf.php` | Medium
-37 | File | `common.php` | Medium
-38 | File | `controllers/member/Api.php` | High
-39 | File | `core/Web.js` | Medium
-40 | File | `cp.php` | Low
-41 | File | `dashboard_teacher.php` | High
-42 | ... | ... | ...
+30 | File | `App\Manage\Controller\ArticleController.class.php` | High
+31 | File | `archive/index.php` | High
+32 | File | `auth-gss2.c` | Medium
+33 | File | `backend/groups/index.php` | High
+34 | File | `bbs/member_confirm.php` | High
+35 | File | `bottom.php` | Medium
+36 | File | `breadcrumbs_create.php` | High
+37 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+38 | File | `cds-fpdf.php` | Medium
+39 | File | `common.php` | Medium
+40 | File | `controllers/member/Api.php` | High
+41 | File | `core/Web.js` | Medium
+42 | File | `cp.php` | Low
+43 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

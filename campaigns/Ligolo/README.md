@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ligolo:
 
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
 * [FI](https://vuldb.com/?country.fi)
-* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -37,8 +37,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
-2 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 

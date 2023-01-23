@@ -96,19 +96,19 @@ ID | Type | Indicator | Confidence
 15 | File | `/SASWebReportStudio/logonAndRender.do` | High
 16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/system/proxy` | High
-19 | File | `/tmp/phpglibccheck` | High
-20 | File | `/v2/quantum/save-data-upload-big-file` | High
-21 | File | `4.edu.php` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `addentry.php` | Medium
-24 | File | `addressbookprovider.php` | High
-25 | File | `admin.jcomments.php` | High
-26 | File | `admin/pageUploadCSV.php` | High
-27 | File | `ajax_udf.php` | Medium
+18 | File | `/tmp/phpglibccheck` | High
+19 | File | `/v2/quantum/save-data-upload-big-file` | High
+20 | File | `4.edu.php` | Medium
+21 | File | `adclick.php` | Medium
+22 | File | `addentry.php` | Medium
+23 | File | `addressbookprovider.php` | High
+24 | File | `admin.jcomments.php` | High
+25 | File | `admin/pageUploadCSV.php` | High
+26 | File | `ajax_udf.php` | Medium
+27 | File | `AppCompatCache.exe` | High
 28 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

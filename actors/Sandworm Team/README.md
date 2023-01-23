@@ -62,39 +62,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/submit-articles` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/app/options.py` | High
-7 | File | `/attachments` | Medium
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/dcim/sites/add/` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/delAd` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-23 | File | `/index/jobfairol/show/` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/odfs/classes/Master.php?f=save_category` | High
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-30 | File | `/print.php` | Medium
-31 | File | `/proc/<PID>/mem` | High
+2 | File | `/admin/submit-articles` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/api/v2/cli/commands` | High
+5 | File | `/app/options.py` | High
+6 | File | `/attachments` | Medium
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/dcim/sites/add/` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/delAd` | High
+19 | File | `/goform/setmac` | High
+20 | File | `/goform/wizard_end` | High
+21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+22 | File | `/index/jobfairol/show/` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/manage-apartment.php` | High
+25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+26 | File | `/out.php` | Medium
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+29 | File | `/print.php` | Medium
+30 | File | `/proc/<PID>/mem` | High
+31 | File | `/proxy` | Low
 32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

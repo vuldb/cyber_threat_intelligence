@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -70,42 +70,42 @@ ID | Type | Indicator | Confidence
 10 | File | `/cgi-sys/FormMail-clone.cgi` | High
 11 | File | `/debug` | Low
 12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/goform/setmac` | High
-17 | File | `/goform/setportList` | High
-18 | File | `/goform/setVLAN` | High
-19 | File | `/goform/wlanPrimaryNetwork` | High
-20 | File | `/GponForm/usb_Form?script/` | High
-21 | File | `/groups/31-twitter-basics` | High
-22 | File | `/login` | Low
-23 | File | `/login/index.php` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/sys/dict/queryTableData` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/before` | Medium
-28 | File | `/User/saveUser` | High
-29 | File | `/usr/bin/vmware-mount` | High
-30 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/_vti_pvt/access.cnf` | High
-33 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-34 | File | `accountsettings_add.html` | High
-35 | File | `aclient.exe` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `addentry.php` | Medium
-38 | File | `admin.php` | Medium
-39 | File | `admin.php?c=update&f=unzip` | High
-40 | File | `admin/ajax/op_kandidat.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/domain-fields/` | High
-43 | File | `admin/index.asp` | High
-44 | File | `admin/member_deal.php` | High
-45 | File | `admin/news.php` | High
+13 | File | `/DXR.axd` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/setmac` | High
+18 | File | `/goform/setportList` | High
+19 | File | `/goform/setVLAN` | High
+20 | File | `/goform/wlanPrimaryNetwork` | High
+21 | File | `/GponForm/usb_Form?script/` | High
+22 | File | `/groups/31-twitter-basics` | High
+23 | File | `/login` | Low
+24 | File | `/login/index.php` | High
+25 | File | `/modules/profile/index.php` | High
+26 | File | `/sys/dict/queryTableData` | High
+27 | File | `/tmp` | Low
+28 | File | `/tmp/before` | Medium
+29 | File | `/User/saveUser` | High
+30 | File | `/usr/bin/vmware-mount` | High
+31 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/_vti_pvt/access.cnf` | High
+34 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+35 | File | `accountsettings_add.html` | High
+36 | File | `aclient.exe` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin.php?c=update&f=unzip` | High
+41 | File | `admin/ajax/op_kandidat.php` | High
+42 | File | `admin/conf_users_edit.php` | High
+43 | File | `admin/domain-fields/` | High
+44 | File | `admin/index.asp` | High
+45 | File | `admin/member_deal.php` | High
 46 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

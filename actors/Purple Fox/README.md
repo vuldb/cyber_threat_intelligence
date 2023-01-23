@@ -439,7 +439,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -455,46 +455,42 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/upload/upload` | High
 3 | File | `/apply_noauth.cgi` | High
 4 | File | `/bin/sh` | Low
-5 | File | `/bsms_ci/index.php` | High
-6 | File | `/bsms_ci/index.php/user/edit_user/` | High
-7 | File | `/cgi-bin/api-get_line_status` | High
-8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-9 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-10 | File | `/cgi-bin/R14.2/log.pl` | High
-11 | File | `/cgi-bin/upload_vpntar` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/ctcprotocol/Protocol` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/export` | Low
-17 | File | `/forum/away.php` | High
-18 | File | `/h/calendar` | Medium
-19 | File | `/login/index.php` | High
-20 | File | `/menu.html` | Medium
-21 | File | `/obs/book.php` | High
-22 | File | `/ossn/administrator/com_installer` | High
-23 | File | `/pms/update_user.php?user_id=1` | High
-24 | File | `/tmp` | Low
-25 | File | `/uncpath/` | Medium
-26 | File | `/user/upload/upload` | High
-27 | File | `/vendor` | Low
-28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add_postit.php` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin/index.php` | High
-35 | File | `admin/login.php` | High
-36 | File | `admin/make_payments.php` | High
-37 | File | `admin/panels/uploader/admin.uploader.php` | High
-38 | File | `admin/partials/ajax/add_field_to_form.php` | High
-39 | File | `admin/shophelp.php` | High
-40 | File | `administration.jsp` | High
-41 | File | `adminquery.php` | High
-42 | ... | ... | ...
+5 | File | `/blogengine/api/posts` | High
+6 | File | `/bsms_ci/index.php` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/cgi-bin/api-get_line_status` | High
+9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+10 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+11 | File | `/cgi-bin/R14.2/log.pl` | High
+12 | File | `/cgi-bin/upload_vpntar` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/export` | Low
+18 | File | `/forum/away.php` | High
+19 | File | `/h/calendar` | Medium
+20 | File | `/hss/admin/?page=products/manage_product` | High
+21 | File | `/login/index.php` | High
+22 | File | `/menu.html` | Medium
+23 | File | `/obs/book.php` | High
+24 | File | `/ossn/administrator/com_installer` | High
+25 | File | `/pms/update_user.php?user_id=1` | High
+26 | File | `/resources//../` | High
+27 | File | `/tmp` | Low
+28 | File | `/uncpath/` | Medium
+29 | File | `/user/upload/upload` | High
+30 | File | `/vendor` | Low
+31 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+32 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add_contestant.php` | High
+38 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

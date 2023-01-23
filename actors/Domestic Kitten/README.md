@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,33 +51,30 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
-6 | File | `/export` | Low
-7 | File | `/file?action=download&file` | High
-8 | File | `/hub/api/user` | High
-9 | File | `/medical/inventories.php` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-12 | File | `/plugin/LiveChat/getChat.json.php` | High
-13 | File | `/plugins/servlet/audit/resource` | High
-14 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-15 | File | `/replication` | Medium
-16 | File | `/RestAPI` | Medium
-17 | File | `/tmp/speedtest_urls.xml` | High
-18 | File | `/tmp/zarafa-vacation-*` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload` | Low
-21 | File | `/var/log/nginx` | High
-22 | File | `/var/run/watchman.pid` | High
-23 | File | `/viewer/krpano.html` | High
-24 | File | `/WEB-INF/web.xml` | High
-25 | File | `/wp-json/oembed/1.0/embed?url` | High
-26 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-27 | File | `admins.js` | Medium
-28 | ... | ... | ...
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/appliance/users?action=edit` | High
+6 | File | `/core/conditions/AbstractWrapper.java` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/export` | Low
+9 | File | `/file?action=download&file` | High
+10 | File | `/hardware` | Medium
+11 | File | `/hub/api/user` | High
+12 | File | `/medical/inventories.php` | High
+13 | File | `/monitoring` | Medium
+14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+15 | File | `/plugin/LiveChat/getChat.json.php` | High
+16 | File | `/plugins/servlet/audit/resource` | High
+17 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+18 | File | `/replication` | Medium
+19 | File | `/RestAPI` | Medium
+20 | File | `/tmp/speedtest_urls.xml` | High
+21 | File | `/tmp/zarafa-vacation-*` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/user/loader.php?api=1` | High
+25 | ... | ... | ...
 
-There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

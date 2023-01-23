@@ -72,14 +72,14 @@ ID | Type | Indicator | Confidence
 21 | File | `/usr/sbin/httpd` | High
 22 | File | `/util/print.c` | High
 23 | File | `/web/MCmsAction.java` | High
-24 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-25 | File | `5.2.9\syscrb.exe` | High
-26 | File | `abc-pcie.c` | Medium
-27 | File | `accounts/payment_history.php` | High
-28 | File | `adclick.php` | Medium
+24 | File | `/wp-admin/admin-ajax.php` | High
+25 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+26 | File | `5.2.9\syscrb.exe` | High
+27 | File | `abc-pcie.c` | Medium
+28 | File | `accounts/payment_history.php` | High
 29 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

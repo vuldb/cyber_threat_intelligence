@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [KR](https://vuldb.com/?country.kr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,12 +58,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,22 +74,25 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/adfs/ls` | Medium
-3 | File | `/cgi-bin/api-get_line_status` | High
-4 | File | `/config/getuser` | High
-5 | File | `/export` | Low
-6 | File | `/getcfg.php` | Medium
-7 | File | `/includes/rrdtool.inc.php` | High
-8 | File | `/mifs/c/i/reg/reg.html` | High
-9 | File | `/pages/systemcall.php?command={COMMAND}` | High
-10 | File | `/server-info` | Medium
-11 | File | `/uncpath/` | Medium
-12 | File | `/updown/upload.cgi` | High
-13 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
-14 | File | `/wp-json/oembed/1.0/embed?url` | High
-15 | File | `a2billing/customer/iridium_threed.php` | High
-16 | ... | ... | ...
+3 | File | `/baseOpLog.do` | High
+4 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/config/getuser` | High
+8 | File | `/controller/OnlinePreviewController.java` | High
+9 | File | `/export` | Low
+10 | File | `/getcfg.php` | Medium
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/pages/systemcall.php?command={COMMAND}` | High
+14 | File | `/server-info` | Medium
+15 | File | `/uncpath/` | Medium
+16 | File | `/updown/upload.cgi` | High
+17 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+18 | File | `/wp-json/oembed/1.0/embed?url` | High
+19 | ... | ... | ...
 
-There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -105,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

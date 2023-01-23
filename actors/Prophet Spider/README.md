@@ -14,8 +14,9 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
-* [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
+* [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -42,13 +43,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,34 +59,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/apply.cgi` | Medium
-2 | File | `/forum/away.php` | High
-3 | File | `/goform/WifiBasicSet` | High
-4 | File | `/graphql` | Medium
-5 | File | `/hss/admin/?page=client/manage_client` | High
-6 | File | `/login/index.php` | High
-7 | File | `/output/outdbg.c` | High
-8 | File | `/output/outieee.c` | High
-9 | File | `/setNTP.cgi` | Medium
-10 | File | `/tiki-importer.php` | High
-11 | File | `/tpts/manage_user.php` | High
-12 | File | `01article.php` | High
-13 | File | `actions/UploadAction.php` | High
-14 | File | `announce.php` | Medium
-15 | File | `app/controller/insertarSliderAjax.php` | High
-16 | File | `app/controllers/code_caller_controller.php` | High
-17 | File | `app/controllers/image_controller.rb` | High
-18 | File | `app/controllers/oauth.js` | High
-19 | File | `app/controllers/uploaded_files_controller.rb` | High
-20 | File | `app/filters.php` | High
-21 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-22 | File | `application/controllers/Restapi.php` | High
-23 | File | `application/libraries/LanguageTask.php` | High
-24 | File | `arta/common/middleware.py` | High
-25 | File | `assets/components/fred/web/elfinder/connector.php` | High
-26 | ... | ... | ...
+1 | File | `.authlie` | Medium
+2 | File | `/apply.cgi` | Medium
+3 | File | `/bsms_ci/index.php/book` | High
+4 | File | `/config/api/v1/reboot` | High
+5 | File | `/etc/shadow` | Medium
+6 | File | `/food` | Low
+7 | File | `/forum/away.php` | High
+8 | File | `/forums.php?action=post` | High
+9 | File | `/index.php` | Medium
+10 | File | `/index/user/user_edit.html` | High
+11 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+12 | File | `/login/index.php` | High
+13 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+14 | File | `/rest/api/2/user/picker` | High
+15 | File | `/rrdp` | Low
+16 | File | `/setNTP.cgi` | Medium
+17 | File | `/tpts/manage_user.php` | High
+18 | File | `/u/username.json` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/usr/etc/restore0.9` | High
+21 | File | `/VerAyari` | Medium
+22 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

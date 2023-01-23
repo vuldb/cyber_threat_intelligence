@@ -9,11 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
-* [SV](https://vuldb.com/?country.sv)
-* [IT](https://vuldb.com/?country.it)
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -34,11 +30,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 21 more TTP items available. Please use our online service to access the data.
@@ -49,41 +45,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/adminui/history_log.php` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/asan/asan_interceptors_memintrinsics.cpp` | High
-4 | File | `/balance/service/list` | High
-5 | File | `/bsms_ci/index.php/user/edit_user/` | High
-6 | File | `/ci_hms/massage_room/edit/1` | High
-7 | File | `/common/ajax_email_connection_test.php` | High
-8 | File | `/common/download_agent_installer.php` | High
-9 | File | `/common/download_attachment.php` | High
-10 | File | `/common/run_cross_report.php` | High
-11 | File | `/common/user_profile.php` | High
+1 | File | `/admin/ajax.php?action=delete_transaction` | High
+2 | File | `/admin/ajax.php?action=delete_user` | High
+3 | File | `/admin/ajax.php?action=save_window` | High
+4 | File | `/admin/manage_user.php` | High
+5 | File | `/app/dao/CustomerDAO.php` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/apps/app_user/sys_user.php` | High
+8 | File | `/config/api/v1/reboot` | High
+9 | File | `/data/app` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/food` | Low
 12 | File | `/forum/away.php` | High
-13 | File | `/goform/CertListInfo` | High
-14 | File | `/goform/IPSECsave` | High
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/hss/admin/?page=client/manage_client` | High
-17 | File | `/login.php` | Medium
-18 | File | `/login/index.php` | High
-19 | File | `/php_action/createUser.php` | High
-20 | File | `/product/savenewproduct.php?flag=1` | High
-21 | File | `/setNTP.cgi` | Medium
-22 | File | `/tpts/manage_user.php` | High
-23 | File | `/ui/cbpc/login` | High
-24 | File | `/v1/sql-runner` | High
-25 | File | `actions/UploadAction.php` | High
-26 | File | `add_contestant.php` | High
-27 | File | `admin/panels/entry/admin.entry.list.php` | High
-28 | File | `admin/plugin-preferences.php` | High
-29 | File | `administrative` | High
-30 | File | `and/or` | Low
-31 | File | `announce.php` | Medium
-32 | File | `Ap4StscAtom.cpp` | High
-33 | ... | ... | ...
+13 | File | `/hss/admin/?page=client/manage_client` | High
+14 | File | `/hss/classes/Users.php?f=delete` | High
+15 | File | `/index/user/user_edit.html` | High
+16 | File | `/login/index.php` | High
+17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+18 | File | `/rest/api/2/user/picker` | High
+19 | File | `/setNTP.cgi` | Medium
+20 | File | `/tpts/manage_user.php` | High
+21 | File | `/usr/etc/restore0.9` | High
+22 | File | `/VerAyari` | Medium
+23 | File | `adclick.php` | Medium
+24 | File | `AddAppNetworksFragment.java` | High
+25 | File | `add_contestant.php` | High
+26 | File | `admin/import/class-import-settings.php` | High
+27 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

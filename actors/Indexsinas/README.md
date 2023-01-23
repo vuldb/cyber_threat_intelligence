@@ -294,7 +294,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -334,20 +334,19 @@ ID | Type | Indicator | Confidence
 30 | File | `/see_more_details.php` | High
 31 | File | `/services/view_service.php` | High
 32 | File | `/spip.php` | Medium
-33 | File | `/sre/params.php` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/user/upload/upload` | High
-36 | File | `/Users` | Low
-37 | File | `/vendor` | Low
-38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-39 | File | `/view-property.php` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-42 | File | `adclick.php` | Medium
-43 | File | `add_contestant.php` | High
-44 | ... | ... | ...
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/upload/upload` | High
+35 | File | `/Users` | Low
+36 | File | `/vendor` | Low
+37 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+38 | File | `/view-property.php` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add_contestant.php` | High
+43 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

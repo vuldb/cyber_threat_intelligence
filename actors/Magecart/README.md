@@ -51,13 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,15 +99,15 @@ ID | Type | Indicator | Confidence
 32 | File | `/mgm_log_cfg.asp` | High
 33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 34 | File | `/odlms/?page=appointments/view_appointment` | High
-35 | File | `/php_action/fetchSelectedCategories.php` | High
-36 | File | `/proxy` | Low
-37 | File | `/RestAPI` | Medium
-38 | File | `/routing.asp` | Medium
-39 | File | `/services/getFile.cmd` | High
-40 | File | `/services/view_service.php` | High
+35 | File | `/proxy` | Low
+36 | File | `/RestAPI` | Medium
+37 | File | `/routing.asp` | Medium
+38 | File | `/services/getFile.cmd` | High
+39 | File | `/services/view_service.php` | High
+40 | File | `/spip.php` | Medium
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -93,21 +93,21 @@ ID | Type | Indicator | Confidence
 34 | File | `/proc/ioports` | High
 35 | File | `/property-list/property_view.php` | High
 36 | File | `/ptms/classes/Users.php` | High
-37 | File | `/rest/api/2/search` | High
-38 | File | `/s/` | Low
-39 | File | `/scripts/cpan_config` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/services/system/setup.json` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/tmp` | Low
-44 | File | `/uncpath/` | Medium
-45 | File | `/vloggers_merch/?p=view_product` | High
-46 | File | `/webconsole/APIController` | High
-47 | File | `/websocket/exec` | High
-48 | File | `/whbs/?page=my_bookings` | High
+37 | File | `/resources//../` | High
+38 | File | `/rest/api/2/search` | High
+39 | File | `/s/` | Low
+40 | File | `/scripts/cpan_config` | High
+41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+42 | File | `/services/system/setup.json` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
+46 | File | `/vloggers_merch/?p=view_product` | High
+47 | File | `/webconsole/APIController` | High
+48 | File | `/websocket/exec` | High
 49 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

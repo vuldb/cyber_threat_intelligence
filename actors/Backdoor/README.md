@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [KE](https://vuldb.com/?country.ke)
+* [PK](https://vuldb.com/?country.pk)
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -93,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,30 +120,31 @@ ID | Type | Indicator | Confidence
 17 | File | `/cms/print.php` | High
 18 | File | `/concat?/%2557EB-INF/web.xml` | High
 19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/cwc/login` | Medium
-21 | File | `/dashboard/menu-list.php` | High
-22 | File | `/data/remove` | Medium
-23 | File | `/download` | Medium
-24 | File | `/edit-db.php` | Medium
-25 | File | `/EXCU_SHELL` | Medium
-26 | File | `/ffos/classes/Master.php?f=save_category` | High
-27 | File | `/goforms/rlminfo` | High
-28 | File | `/h/calendar` | Medium
-29 | File | `/inc/extensions.php` | High
-30 | File | `/includes/rrdtool.inc.php` | High
-31 | File | `/Items/*/RemoteImages/Download` | High
-32 | File | `/navigate/navigate_download.php` | High
-33 | File | `/nova/bin/console` | High
-34 | File | `/nova/bin/detnet` | High
-35 | File | `/ocwbs/admin/?page=user/manage_user` | High
-36 | File | `/ofrs/admin/?page=user/manage_user` | High
-37 | File | `/out.php` | Medium
-38 | File | `/password.html` | High
-39 | File | `/php_action/fetchSelectedUser.php` | High
-40 | File | `/proc/ioports` | High
-41 | ... | ... | ...
+20 | File | `/ctcprotocol/Protocol` | High
+21 | File | `/cwc/login` | Medium
+22 | File | `/dashboard/menu-list.php` | High
+23 | File | `/data/remove` | Medium
+24 | File | `/download` | Medium
+25 | File | `/edit-db.php` | Medium
+26 | File | `/etc/quagga` | Medium
+27 | File | `/EXCU_SHELL` | Medium
+28 | File | `/ffos/classes/Master.php?f=save_category` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goforms/rlminfo` | High
+31 | File | `/h/calendar` | Medium
+32 | File | `/inc/extensions.php` | High
+33 | File | `/includes/rrdtool.inc.php` | High
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/navigate/navigate_download.php` | High
+37 | File | `/nova/bin/console` | High
+38 | File | `/nova/bin/detnet` | High
+39 | File | `/ocwbs/admin/?page=user/manage_user` | High
+40 | File | `/ofrs/admin/?page=user/manage_user` | High
+41 | File | `/out.php` | Medium
+42 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -170,4 +171,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

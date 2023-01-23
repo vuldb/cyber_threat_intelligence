@@ -130,10 +130,9 @@ ID | Type | Indicator | Confidence
 23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 24 | File | `/REBOOTSYSTEM` | High
 25 | File | `/replication` | Medium
-26 | File | `/RestAPI` | Medium
-27 | ... | ... | ...
+26 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

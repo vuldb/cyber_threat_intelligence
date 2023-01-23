@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -60,16 +60,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/addQuestion.php` | High
-3 | File | `/admin` | Low
-4 | File | `/admin/conferences/get-all-status/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/countrymanagement.php` | High
-7 | File | `/admin/general/change-lang` | High
-8 | File | `/admin/group/list/` | High
-9 | File | `/admin/renewaldue.php` | High
-10 | File | `/admin/usermanagement.php` | High
-11 | File | `/admin/ztliuyan_sendmail.php` | High
-12 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/admin/conferences/get-all-status/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/countrymanagement.php` | High
+6 | File | `/admin/general/change-lang` | High
+7 | File | `/admin/group/list/` | High
+8 | File | `/admin/renewaldue.php` | High
+9 | File | `/admin/usermanagement.php` | High
+10 | File | `/admin/ztliuyan_sendmail.php` | High
+11 | File | `/api/RecordingList/DownloadRecord?file=` | High
+12 | File | `/api/v1/chat.getThreadsList` | High
 13 | File | `/app1/admin#foo` | High
 14 | File | `/aya/module/admin/ust_tab_e.inc.php` | High
 15 | File | `/backups/` | Medium
@@ -79,31 +79,30 @@ ID | Type | Indicator | Confidence
 19 | File | `/chart` | Low
 20 | File | `/classes/Master.php?f=delete_appointment` | High
 21 | File | `/Core/Ap4Utils.h` | High
-22 | File | `/core/kernels/ctc_decoder_ops.cc` | High
-23 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-24 | File | `/etc/passwd` | Medium
-25 | File | `/front/roomtype-details.php` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/gofrom/setwanType` | High
-28 | File | `/hdf5/src/H5T.c` | High
-29 | File | `/homeaction.php` | High
-30 | File | `/horde/imp/search.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/installer/upgrade_start` | High
-33 | File | `/Items/*/RemoteImages/Download` | High
-34 | File | `/items/view_item.php` | High
-35 | File | `/lan.asp` | Medium
-36 | File | `/librarian/bookdetails.php` | High
-37 | File | `/lists/admin/` | High
-38 | File | `/mail/index.html` | High
-39 | File | `/navigate/navigate_download.php` | High
-40 | File | `/public/plugins/` | High
-41 | File | `/rapi/read_url` | High
-42 | File | `/reps/admin/?page=agents/manage_agent` | High
-43 | File | `/rest/api/1.0/render` | High
-44 | ... | ... | ...
+22 | File | `/ctpms/classes/Master.php?f=delete_application` | High
+23 | File | `/etc/passwd` | Medium
+24 | File | `/front/roomtype-details.php` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/hdf5/src/H5T.c` | High
+27 | File | `/homeaction.php` | High
+28 | File | `/horde/imp/search.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/installer/upgrade_start` | High
+31 | File | `/Items/*/RemoteImages/Download` | High
+32 | File | `/items/view_item.php` | High
+33 | File | `/lan.asp` | Medium
+34 | File | `/librarian/bookdetails.php` | High
+35 | File | `/lists/admin/` | High
+36 | File | `/login/index.php` | High
+37 | File | `/mail/index.html` | High
+38 | File | `/navigate/navigate_download.php` | High
+39 | File | `/public/plugins/` | High
+40 | File | `/rapi/read_url` | High
+41 | File | `/reps/admin/?page=agents/manage_agent` | High
+42 | File | `/rest/api/1.0/render` | High
+43 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,4 +119,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

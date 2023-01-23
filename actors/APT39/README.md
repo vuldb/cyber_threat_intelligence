@@ -65,9 +65,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/Main_AdmStatus_Content.asp` | High
 10 | File | `/requests.php` | High
 11 | File | `/server-status` | High
-12 | ... | ... | ...
+12 | File | `/uncpath/` | Medium
+13 | ... | ... | ...
 
-There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

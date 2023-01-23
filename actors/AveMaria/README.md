@@ -67,34 +67,34 @@ ID | Type | Indicator | Confidence
 15 | File | `/etc/sudoers` | Medium
 16 | File | `/Forms/` | Low
 17 | File | `/framework/modules/users/models/user.php` | High
-18 | File | `/HNAP1/SetAccessPointMode` | High
-19 | File | `/index.php` | Medium
-20 | File | `/mcategory.php` | High
-21 | File | `/member/picture/album` | High
-22 | File | `/mysql/api/diags.php` | High
-23 | File | `/phpcollab/users/edituser.php` | High
-24 | File | `/plain` | Low
-25 | File | `/products/details.asp` | High
-26 | File | `/product_list.php` | High
-27 | File | `/public/login.htm` | High
-28 | File | `/replication` | Medium
-29 | File | `/service/upload` | High
-30 | File | `/services/details.asp` | High
-31 | File | `/trx_addons/v2/get/sc_layout` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/upload/catalog/controller/account/password.php` | High
-34 | File | `/usr/bin/pkexec` | High
-35 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-36 | File | `/WebMstr7/servlet/mstrWeb` | High
-37 | File | `4.edu.php` | Medium
-38 | File | `5.2.9\syscrb.exe` | High
-39 | File | `123flashchat.php` | High
-40 | File | `add_ons.php` | Medium
-41 | File | `add_to_cart.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin/index.php` | High
-44 | File | `admin/mod_users/controller.php?action=edit` | High
-45 | File | `admin/pageEditGroup.php` | High
+18 | File | `/ghost/preview` | High
+19 | File | `/HNAP1/SetAccessPointMode` | High
+20 | File | `/index.php` | Medium
+21 | File | `/mcategory.php` | High
+22 | File | `/member/picture/album` | High
+23 | File | `/mysql/api/diags.php` | High
+24 | File | `/phpcollab/users/edituser.php` | High
+25 | File | `/plain` | Low
+26 | File | `/products/details.asp` | High
+27 | File | `/product_list.php` | High
+28 | File | `/public/login.htm` | High
+29 | File | `/replication` | Medium
+30 | File | `/service/upload` | High
+31 | File | `/services/details.asp` | High
+32 | File | `/trx_addons/v2/get/sc_layout` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload/catalog/controller/account/password.php` | High
+35 | File | `/usr/bin/pkexec` | High
+36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+37 | File | `/WebMstr7/servlet/mstrWeb` | High
+38 | File | `4.edu.php` | Medium
+39 | File | `5.2.9\syscrb.exe` | High
+40 | File | `123flashchat.php` | High
+41 | File | `add_ons.php` | Medium
+42 | File | `add_to_cart.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin/index.php` | High
+45 | File | `admin/mod_users/controller.php?action=edit` | High
 46 | ... | ... | ...
 
 There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
@@ -123,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

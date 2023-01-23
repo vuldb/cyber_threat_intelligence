@@ -95,16 +95,15 @@ ID | Type | Indicator | Confidence
 35 | File | `/proc/ioports` | High
 36 | File | `/property-list/property_view.php` | High
 37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/rest/api/2/search` | High
-39 | File | `/s/` | Low
-40 | File | `/scripts/cpan_config` | High
-41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-42 | File | `/services/system/setup.json` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/tmp` | Low
-45 | File | `/type.php` | Medium
-46 | File | `/uncpath/` | Medium
-47 | ... | ... | ...
+38 | File | `/resources//../` | High
+39 | File | `/rest/api/2/search` | High
+40 | File | `/s/` | Low
+41 | File | `/scripts/cpan_config` | High
+42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+43 | File | `/services/system/setup.json` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/tmp` | Low
+46 | ... | ... | ...
 
 There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

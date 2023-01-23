@@ -36,11 +36,11 @@ There are 37 more campaign items available. Please use our online service to acc
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
-* [VN](https://vuldb.com/?country.vn)
+* [DE](https://vuldb.com/?country.de)
+* [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16719,9 +16719,10 @@ ID | IP address | Hostname | Campaign | Confidence
 16669 | [49.232.0.190](https://vuldb.com/?ip.49.232.0.190) | - | Log4j | High
 16670 | [49.232.1.48](https://vuldb.com/?ip.49.232.1.48) | - | - | High
 16671 | [49.232.3.46](https://vuldb.com/?ip.49.232.3.46) | - | - | High
-16672 | ... | ... | ... | ...
+16672 | [49.232.6.132](https://vuldb.com/?ip.49.232.6.132) | - | - | High
+16673 | ... | ... | ... | ...
 
-There are 66686 more IOC items available. Please use our online service to access the data.
+There are 66687 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -16729,14 +16730,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -16744,33 +16745,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/upload/upload` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/blogengine/api/posts` | High
-4 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-5 | File | `/cgi-bin/webadminget.cgi` | High
-6 | File | `/download` | Medium
-7 | File | `/event/admin/?page=user/list` | High
-8 | File | `/graphql` | Medium
-9 | File | `/hss/admin/?page=client/manage_client` | High
-10 | File | `/hss/admin/?page=products/manage_product` | High
-11 | File | `/ims/login.php` | High
-12 | File | `/login/index.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/output/outdbg.c` | High
-15 | File | `/output/outieee.c` | High
-16 | File | `/picturesPreview` | High
-17 | File | `/queuing/index.php?page=display` | High
-18 | File | `/setNTP.cgi` | Medium
-19 | File | `/shell` | Low
-20 | File | `/tiki-importer.php` | High
-21 | File | `/tpts/manage_user.php` | High
-22 | File | `/user/upload/upload` | High
-23 | File | `/webman/info.cgi` | High
-24 | File | `add_contestant.php` | High
-25 | ... | ... | ...
+1 | File | `/apply.cgi` | Medium
+2 | File | `/config/api/v1/reboot` | High
+3 | File | `/dev/kmem` | Medium
+4 | File | `/etc` | Low
+5 | File | `/etc/passwd` | Medium
+6 | File | `/etc/shadow` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/fos/admin/ajax.php?action=login` | High
+9 | File | `/fos/admin/index.php?page=menu` | High
+10 | File | `/login/index.php` | High
+11 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+12 | File | `/product/savenewproduct.php?flag=1` | High
+13 | File | `/royal_event/companyprofile.php` | High
+14 | File | `/royal_event/userregister.php` | High
+15 | File | `/sacco_shield/manage_payment.php` | High
+16 | File | `/setNTP.cgi` | Medium
+17 | File | `/spip.php` | Medium
+18 | File | `/tpts/manage_user.php` | High
+19 | File | `/u/username.json` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/usr/etc/restore0.9` | High
+22 | File | `01article.php` | High
+23 | File | `acl.c` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `add_contestant.php` | High
+26 | File | `admin/conf_users_edit.php` | High
+27 | File | `admin/import/class-import-settings.php` | High
+28 | File | `admin/manage_user.php` | High
+29 | File | `admin/page-login.php` | High
+30 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+31 | File | `admin_class.php` | High
+32 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -17139,6 +17147,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://research.checkpoint.com/2019/canadian-banks-targeted-in-a-massive-phishing-campaign/
 * https://research.checkpoint.com/2019/the-eye-on-the-nile/
 * https://research.checkpoint.com/2021/uyghurs-a-turkic-ethnic-minority-in-china-targeted-via-fake-foundations/
+* https://research.checkpoint.com/2023/16th-january-threat-intelligence-report/
 * https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/594/original/Network_IOCs_list_for_coverage.txt?1625657479
 * https://securityintelligence.com/ibm-x-force-iris-uncovers-active-business-email-compromise-campaign-targeting-fortune-500-companies/
 * https://socprime.com/blog/stealthphish-investigation-528-domains-involved-in-bec-attack-against-fortune-500-companies/

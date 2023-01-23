@@ -63,12 +63,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `drivers/i2c/i2c-core-smbus.c` | High
-3 | File | `kernel/futex.c` | High
+1 | File | `/usr/bin/pkexec` | High
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `drivers/i2c/i2c-core-smbus.c` | High
 4 | ... | ... | ...
 
-There are 4 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

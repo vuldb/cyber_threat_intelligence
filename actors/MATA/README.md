@@ -56,12 +56,13 @@ ID | Type | Indicator | Confidence
 6 | File | `/spip.php` | Medium
 7 | File | `/systemrw/` | Medium
 8 | File | `adclick.php` | Medium
-9 | File | `application/modules/admin/views/ecommerce/products.php` | High
-10 | File | `base/ErrorHandler.php` | High
-11 | File | `blog.php` | Medium
-12 | ... | ... | ...
+9 | File | `admin.jcomments.php` | High
+10 | File | `application/modules/admin/views/ecommerce/products.php` | High
+11 | File | `base/ErrorHandler.php` | High
+12 | File | `blog.php` | Medium
+13 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

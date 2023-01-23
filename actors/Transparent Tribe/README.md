@@ -99,9 +99,10 @@ ID | Type | Indicator | Confidence
 34 | File | `actions/CompanyDetailsSave.php` | High
 35 | File | `adclick.php` | Medium
 36 | File | `add_comment.php` | High
-37 | ... | ... | ...
+37 | File | `admin.php` | Medium
+38 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

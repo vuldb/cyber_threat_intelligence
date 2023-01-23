@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -100,12 +100,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,67 +113,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.kss.pid` | Medium
-2 | File | `.qpopper-options` | High
-3 | File | `/+CSCOE+/logon.html` | High
-4 | File | `/admin/upload/upload` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/ctcprotocol/Protocol` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/menu.html` | Medium
-12 | File | `/modules/snf/index.php` | High
+1 | File | `.qpopper-options` | High
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `/admin/upload/upload` | High
+4 | File | `/apply_noauth.cgi` | High
+5 | File | `/bin/sh` | Low
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/ctcprotocol/Protocol` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/menu.html` | Medium
+11 | File | `/modules/snf/index.php` | High
+12 | File | `/obs/book.php` | High
 13 | File | `/ossn/administrator/com_installer` | High
 14 | File | `/pms/update_user.php?user_id=1` | High
-15 | File | `/tmp` | Low
-16 | File | `/user/upload/upload` | High
-17 | File | `/Users` | Low
-18 | File | `/vendor` | Low
-19 | File | `26.html` | Low
-20 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-21 | File | `adclick.php` | Medium
-22 | File | `add_contestant.php` | High
-23 | File | `add_postit.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/index.php` | High
-26 | File | `admin/make_payments.php` | High
-27 | File | `admin/shophelp.php` | High
-28 | File | `administration.jsp` | High
-29 | File | `adminquery.php` | High
-30 | File | `album_portal.php` | High
-31 | File | `ansfaq.asp` | Medium
-32 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-33 | File | `appGet.cgi` | Medium
-34 | File | `artreplydelete.asp` | High
-35 | File | `attachment.cgi` | High
-36 | File | `authpam.c` | Medium
-37 | File | `autocms.php` | Medium
-38 | File | `avahi-core/socket.c` | High
-39 | File | `banner.php` | Medium
-40 | File | `base_qry_main.php` | High
-41 | File | `bb_smilies.php/bbcode_ref.php` | High
-42 | File | `bgp_packet.c` | Medium
-43 | File | `Binder.java` | Medium
-44 | File | `Blog.CGI` | Medium
-45 | File | `blogroll.php` | Medium
-46 | File | `boundary_rules.jsp` | High
-47 | File | `calendar.php` | Medium
-48 | File | `calendar_scheduler.php` | High
-49 | File | `cal_config.inc.php` | High
-50 | File | `category.php` | Medium
-51 | File | `Category.php` | Medium
-52 | File | `centrify.cmd.0` | High
-53 | File | `CGI.pm` | Low
-54 | File | `chrome-devtools-frontend.appspot.com` | High
-55 | File | `claro_init_global.inc.php` | High
-56 | File | `class/class.php` | High
-57 | File | `classifieds/viewcat.cgi` | High
-58 | File | `cloud.php` | Medium
-59 | ... | ... | ...
+15 | File | `/resources//../` | High
+16 | File | `/sys/dict/queryTableData` | High
+17 | File | `/tmp` | Low
+18 | File | `/user/upload/upload` | High
+19 | File | `/vendor` | Low
+20 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+21 | File | `26.html` | Low
+22 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add_contestant.php` | High
+25 | File | `add_postit.php` | High
+26 | File | `admin.php` | Medium
+27 | File | `admin/index.php` | High
+28 | File | `admin/make_payments.php` | High
+29 | File | `admin/shophelp.php` | High
+30 | File | `administration.jsp` | High
+31 | File | `adminquery.php` | High
+32 | File | `album_portal.php` | High
+33 | File | `ansfaq.asp` | Medium
+34 | File | `APKINDEX.tar.gz` | High
+35 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+36 | File | `appconfig.ini` | High
+37 | File | `appGet.cgi` | Medium
+38 | File | `artreplydelete.asp` | High
+39 | File | `attachment.cgi` | High
+40 | File | `authpam.c` | Medium
+41 | File | `autocms.php` | Medium
+42 | File | `avahi-core/socket.c` | High
+43 | File | `banner.php` | Medium
+44 | File | `base_qry_main.php` | High
+45 | File | `bb_smilies.php/bbcode_ref.php` | High
+46 | File | `bgp_packet.c` | Medium
+47 | File | `Binder.java` | Medium
+48 | File | `Blog.CGI` | Medium
+49 | File | `blogroll.php` | Medium
+50 | File | `boundary_rules.jsp` | High
+51 | File | `calendar.php` | Medium
+52 | File | `calendar_scheduler.php` | High
+53 | File | `cal_config.inc.php` | High
+54 | File | `category.php` | Medium
+55 | File | `Category.php` | Medium
+56 | File | `centrify.cmd.0` | High
+57 | File | `CGI.pm` | Low
+58 | File | `chrome-devtools-frontend.appspot.com` | High
+59 | File | `claro_init_global.inc.php` | High
+60 | ... | ... | ...
 
-There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

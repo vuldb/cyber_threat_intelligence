@@ -156,14 +156,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -174,46 +173,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/addNotifyServlet` | High
 2 | File | `/admin/api/theme-edit/` | High
 3 | File | `/admin/conferences/get-all-status/` | High
-4 | File | `/admin/settings/save.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/adminui/history_log.php` | High
-8 | File | `/attachments` | Medium
-9 | File | `/cms/category/list` | High
-10 | File | `/common/run_cross_report.php` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/Default/Bd` | Medium
-13 | File | `/download` | Medium
-14 | File | `/etc/hosts` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/face-recognition-php/facepay-master/camera.php` | High
-17 | File | `/garage/php_action/createBrand.php` | High
-18 | File | `/goform/SysToolChangePwd` | High
-19 | File | `/goform/WifiBasicSet` | High
-20 | File | `/hardware` | Medium
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/hss/?page=view_product` | High
-23 | File | `/index.php?module=configuration/application` | High
-24 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-25 | File | `/lib` | Low
-26 | File | `/login` | Low
-27 | File | `/login/index.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/modules/projects/vw_files.php` | High
-30 | File | `/pages/faculty_sched.php` | High
-31 | File | `/php-sms/admin/?page=inquiries/view_inquiry` | High
-32 | File | `/product/savenewproduct.php?flag=1` | High
-33 | File | `/proxy` | Low
-34 | File | `/purchase_order/admin/?page=system_info` | High
-35 | File | `/services/Card/findUser` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/sys/dict/queryTableData` | High
-38 | File | `/sys/user/deleteRecycleBin` | High
-39 | File | `/sys/user/putRecycleBin` | High
-40 | File | `/templates/install.php` | High
+4 | File | `/adminui/history_log.php` | High
+5 | File | `/attachments` | Medium
+6 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/classes/Master.php?f=delete_helmet` | High
+8 | File | `/cms/category/list` | High
+9 | File | `/common/run_cross_report.php` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/Default/Bd` | Medium
+12 | File | `/download` | Medium
+13 | File | `/etc/hosts` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/face-recognition-php/facepay-master/camera.php` | High
+16 | File | `/goform/SysToolChangePwd` | High
+17 | File | `/goform/WifiBasicSet` | High
+18 | File | `/hardware` | Medium
+19 | File | `/hrm/employeeview.php` | High
+20 | File | `/hss/?page=view_product` | High
+21 | File | `/index.php?module=configuration/application` | High
+22 | File | `/index/user/user_edit.html` | High
+23 | File | `/lib` | Low
+24 | File | `/login` | Low
+25 | File | `/login/index.php` | High
+26 | File | `/pages/faculty_sched.php` | High
+27 | File | `/product/savenewproduct.php?flag=1` | High
+28 | File | `/proxy` | Low
+29 | File | `/tmp` | Low
+30 | File | `/tmp/app/.env` | High
+31 | File | `/user/loader.php?api=1` | High
+32 | File | `/v1/sql-runner` | High
+33 | File | `/var/tmp/audacity-$USER` | High
+34 | File | `/wp-json/wc/v3/webhooks` | High
+35 | File | `account_change.php` | High
+36 | File | `actions/UploadAction.php` | High
+37 | File | `ActivityRecord.java` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/manage_user.php` | High
+40 | File | `admin/page-login.php` | High
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,43 +66,42 @@ ID | Type | Indicator | Confidence
 13 | File | `/cms/print.php` | High
 14 | File | `/concat?/%2557EB-INF/web.xml` | High
 15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/dashboard/menu-list.php` | High
-17 | File | `/dashboard/updatelogo.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/download` | Medium
-20 | File | `/etc/openshift/server_priv.pem` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/goforms/rlminfo` | High
-23 | File | `/hospital/hms/admin/patient-search.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-27 | File | `/login` | Low
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/modules/announcement/index.php?view=edit` | High
-30 | File | `/navigate/navigate_download.php` | High
-31 | File | `/Noxen-master/users.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/owa/auth/logon.aspx` | High
-36 | File | `/password.html` | High
-37 | File | `/php_action/fetchSelectedUser.php` | High
-38 | File | `/port_3480/data_request` | High
-39 | File | `/proc/ioports` | High
-40 | File | `/property-list/property_view.php` | High
-41 | File | `/ptms/classes/Users.php` | High
-42 | File | `/rest/api/2/search` | High
-43 | File | `/s/` | Low
-44 | File | `/scripts/cpan_config` | High
-45 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-46 | File | `/self.key` | Medium
-47 | File | `/services/system/setup.json` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/tmp` | Low
-50 | ... | ... | ...
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/dashboard/updatelogo.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/download` | Medium
+21 | File | `/etc/openshift/server_priv.pem` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goforms/rlminfo` | High
+25 | File | `/hospital/hms/admin/patient-search.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+29 | File | `/menu.html` | Medium
+30 | File | `/mkshop/Men/profile.php` | High
+31 | File | `/modules/announcement/index.php?view=edit` | High
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/Noxen-master/users.php` | High
+34 | File | `/ocwbs/admin/?page=user/manage_user` | High
+35 | File | `/ofrs/admin/?page=user/manage_user` | High
+36 | File | `/out.php` | Medium
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/password.html` | High
+39 | File | `/php_action/fetchSelectedUser.php` | High
+40 | File | `/port_3480/data_request` | High
+41 | File | `/proc/ioports` | High
+42 | File | `/property-list/property_view.php` | High
+43 | File | `/ptms/classes/Users.php` | High
+44 | File | `/resources//../` | High
+45 | File | `/rest/api/2/search` | High
+46 | File | `/s/` | Low
+47 | File | `/scripts/cpan_config` | High
+48 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,4 +118,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

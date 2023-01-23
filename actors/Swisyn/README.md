@@ -82,9 +82,10 @@ ID | Type | Indicator | Confidence
 23 | File | `/goform/delIpMacBind/` | High
 24 | File | `/goform/SetLEDCfg` | High
 25 | File | `/home/iojs/build/ws/out/Release/obj.target/deps/openssl/openssl.cnf` | High
-26 | ... | ... | ...
+26 | File | `/htdocs/utils/Files.php` | High
+27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -102,27 +102,28 @@ ID | IP address | Hostname | Campaign | Confidence
 73 | [37.230.130.153](https://vuldb.com/?ip.37.230.130.153) | - | - | High
 74 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
 75 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
-76 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
-77 | [40.126.28.12](https://vuldb.com/?ip.40.126.28.12) | - | - | High
-78 | [40.126.28.22](https://vuldb.com/?ip.40.126.28.22) | - | - | High
-79 | [41.190.3.209](https://vuldb.com/?ip.41.190.3.209) | www.9mobile.com.ng | - | High
-80 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
-81 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
-82 | [45.15.143.148](https://vuldb.com/?ip.45.15.143.148) | - | - | High
-83 | [45.74.32.12](https://vuldb.com/?ip.45.74.32.12) | - | - | High
-84 | [45.95.168.62](https://vuldb.com/?ip.45.95.168.62) | maxko-hosting.com | - | High
-85 | [45.133.174.177](https://vuldb.com/?ip.45.133.174.177) | - | - | High
-86 | [45.148.17.62](https://vuldb.com/?ip.45.148.17.62) | mail.spokel.se | - | High
-87 | [46.2.255.122](https://vuldb.com/?ip.46.2.255.122) | - | - | High
-88 | [46.105.127.143](https://vuldb.com/?ip.46.105.127.143) | ns385442.ip-46-105-127.eu | - | High
-89 | [46.243.147.194](https://vuldb.com/?ip.46.243.147.194) | - | - | High
-90 | [46.243.239.153](https://vuldb.com/?ip.46.243.239.153) | - | - | High
-91 | [46.243.249.150](https://vuldb.com/?ip.46.243.249.150) | - | - | High
-92 | [46.246.80.68](https://vuldb.com/?ip.46.246.80.68) | c-46-246-80-68.ip4.frootvpn.com | - | High
-93 | [47.254.172.117](https://vuldb.com/?ip.47.254.172.117) | - | - | High
-94 | ... | ... | ... | ...
+76 | [38.26.191.78](https://vuldb.com/?ip.38.26.191.78) | - | - | High
+77 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
+78 | [40.126.28.12](https://vuldb.com/?ip.40.126.28.12) | - | - | High
+79 | [40.126.28.22](https://vuldb.com/?ip.40.126.28.22) | - | - | High
+80 | [41.190.3.209](https://vuldb.com/?ip.41.190.3.209) | www.9mobile.com.ng | - | High
+81 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
+82 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
+83 | [45.15.143.148](https://vuldb.com/?ip.45.15.143.148) | - | - | High
+84 | [45.74.32.12](https://vuldb.com/?ip.45.74.32.12) | - | - | High
+85 | [45.95.168.62](https://vuldb.com/?ip.45.95.168.62) | maxko-hosting.com | - | High
+86 | [45.133.174.177](https://vuldb.com/?ip.45.133.174.177) | - | - | High
+87 | [45.148.17.62](https://vuldb.com/?ip.45.148.17.62) | mail.spokel.se | - | High
+88 | [46.2.255.122](https://vuldb.com/?ip.46.2.255.122) | - | - | High
+89 | [46.105.127.143](https://vuldb.com/?ip.46.105.127.143) | ns385442.ip-46-105-127.eu | - | High
+90 | [46.243.147.194](https://vuldb.com/?ip.46.243.147.194) | - | - | High
+91 | [46.243.239.153](https://vuldb.com/?ip.46.243.239.153) | - | - | High
+92 | [46.243.249.150](https://vuldb.com/?ip.46.243.249.150) | - | - | High
+93 | [46.246.80.68](https://vuldb.com/?ip.46.246.80.68) | c-46-246-80-68.ip4.frootvpn.com | - | High
+94 | [47.254.172.117](https://vuldb.com/?ip.47.254.172.117) | - | - | High
+95 | ... | ... | ... | ...
 
-There are 371 more IOC items available. Please use our online service to access the data.
+There are 375 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -137,7 +138,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -154,24 +155,25 @@ ID | Type | Indicator | Confidence
 7 | File | `/config/getuser` | High
 8 | File | `/configs/application.ini` | High
 9 | File | `/etc/grafana/grafana.ini` | High
-10 | File | `/export` | Low
-11 | File | `/file` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/home/hjsz/jsonlint/src/lexer` | High
-14 | File | `/hrm/employeeview.php` | High
-15 | File | `/info.asp` | Medium
-16 | File | `/login` | Low
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/out.php` | Medium
-19 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/rendering/wiki` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/servlet/file` | High
-24 | File | `/spip.php` | Medium
-25 | ... | ... | ...
+10 | File | `/file` | Low
+11 | File | `/forum/away.php` | High
+12 | File | `/home/hjsz/jsonlint/src/lexer` | High
+13 | File | `/hrm/employeeview.php` | High
+14 | File | `/info.asp` | Medium
+15 | File | `/login` | Low
+16 | File | `/login/index.php` | High
+17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/out.php` | Medium
+20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+21 | File | `/public/plugins/` | High
+22 | File | `/rendering/wiki` | High
+23 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/servlet/file` | High
+25 | File | `/spip.php` | Medium
+26 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -231,6 +233,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0729-0805.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0923-0930.html
+* https://blog.talosintelligence.com/threat-roundup-0106-0113/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://github.com/0xToxin/Malware-IOCs/blob/main/Remcos%20RAT/Remcos%20-%2024082022
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20Remcos%20IOCs

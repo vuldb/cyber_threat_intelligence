@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2618,14 +2618,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2636,44 +2636,41 @@ ID | Type | Indicator | Confidence
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/conferences/list/` | High
-5 | File | `/admin/upload/upload` | High
-6 | File | `/apply_noauth.cgi` | High
-7 | File | `/bin/sh` | Low
-8 | File | `/blog/blog.php` | High
-9 | File | `/blogengine/api/posts` | High
-10 | File | `/cgi-bin/api-get_line_status` | High
-11 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-12 | File | `/cgi-bin/upload_vpntar` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/tomcat8/Catalina/attack` | High
-17 | File | `/export` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/horde/util/go.php` | High
-20 | File | `/hrm/controller/employee.php` | High
-21 | File | `/hrm/employeeadd.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/ims/login.php` | High
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/login/index.php` | High
-26 | File | `/mhds/clinic/view_details.php` | High
-27 | File | `/oauth/logout?redirect=url` | High
-28 | File | `/obs/book.php` | High
-29 | File | `/ossn/administrator/com_installer` | High
-30 | File | `/out.php` | Medium
-31 | File | `/pms/update_user.php?user_id=1` | High
-32 | File | `/proxy` | Low
-33 | File | `/reports/rwservlet` | High
-34 | File | `/tmp/net-$DEVICE.conf` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/user/upload/upload` | High
-37 | File | `/vendor` | Low
-38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-39 | ... | ... | ...
+4 | File | `/admin/upload/upload` | High
+5 | File | `/bin/sh` | Low
+6 | File | `/blogengine/api/posts` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/dev/block/mmcblk0rpmb` | High
+10 | File | `/etc/tomcat8/Catalina/attack` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/fos/admin/ajax.php?action=login` | High
+13 | File | `/fos/admin/index.php?page=menu` | High
+14 | File | `/ims/login.php` | High
+15 | File | `/login/index.php` | High
+16 | File | `/oauth/logout?redirect=url` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+19 | File | `/out.php` | Medium
+20 | File | `/pms/update_user.php?user_id=1` | High
+21 | File | `/products/view_product.php` | High
+22 | File | `/proxy` | Low
+23 | File | `/reports/rwservlet` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/tmp/net-$DEVICE.conf` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/user/upload/upload` | High
+28 | File | `/usr/bin/tddp` | High
+29 | File | `/vendor` | Low
+30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+31 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | File | `/wp-json/wc/v3/webhooks` | High
+34 | File | `01article.php` | High
+35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+36 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

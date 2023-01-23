@@ -47,9 +47,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -61,11 +61,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.ssh/authorized_keys` | High
+1 | File | `/admin/ajax.php?action=delete_window` | High
 2 | File | `/admin/api/admin/articles/` | High
 3 | File | `/admin/api/admin/v2_products` | High
 4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/back/index.php/user/User/?1` | High
+5 | File | `/blogengine/api/posts` | High
 6 | File | `/cgi-bin/api-get_line_status` | High
 7 | File | `/cgi-bin/luci` | High
 8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
@@ -74,39 +74,43 @@ ID | Type | Indicator | Confidence
 11 | File | `/common/run_cross_report.php` | High
 12 | File | `/Content/Template/root/reverse-shell.aspx` | High
 13 | File | `/debug/pprof` | Medium
-14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/QuickIndex` | High
-17 | File | `/goform/setMacFilterCfg` | High
-18 | File | `/goform/SysToolChangePwd` | High
-19 | File | `/goform/WifiBasicSet` | High
-20 | File | `/h/calendar` | Medium
-21 | File | `/horde/util/go.php` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/index.php?action=seomatic/file/seo-file-link` | High
-24 | File | `/lib` | Low
-25 | File | `/login/index.php` | High
-26 | File | `/mkshope/login.php` | High
+14 | File | `/event/admin/?page=user/list` | High
+15 | File | `/export` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/fos/admin/ajax.php?action=login` | High
+18 | File | `/goform/setMacFilterCfg` | High
+19 | File | `/goform/SysToolChangePwd` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/horde/util/go.php` | High
+23 | File | `/hrm/controller/employee.php` | High
+24 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+25 | File | `/index/user/user_edit.html` | High
+26 | File | `/login/index.php` | High
 27 | File | `/obs/book.php` | High
 28 | File | `/php_action/createUser.php` | High
-29 | File | `/product/savenewproduct.php?flag=1` | High
-30 | File | `/public/launchNewWindow.jsp` | High
-31 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-32 | File | `/services/Card/findUser` | High
-33 | File | `/services/view_service.php` | High
-34 | File | `/TestJDBC_Web/test2` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/v1/sql-runner` | High
-37 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+29 | File | `/products/view_product.php` | High
+30 | File | `/services/view_service.php` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/TestJDBC_Web/test2` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/usr/bin/tddp` | High
+35 | File | `/v1/sql-runner` | High
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+37 | File | `/wp-json/wc/v3/webhooks` | High
 38 | File | `/_vti_pvt/access.cnf` | High
 39 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-40 | File | `AbstractScheduleJob.java` | High
-41 | File | `actions/UploadAction.php` | High
-42 | File | `admin/admin.php` | High
-43 | File | `admin/panels/uploader/admin.uploader.php` | High
-44 | ... | ... | ...
+40 | File | `actions/UploadAction.php` | High
+41 | File | `admin/admin.php` | High
+42 | File | `admin/import/class-import-settings.php` | High
+43 | File | `admin/manage_user.php` | High
+44 | File | `admin/page-login.php` | High
+45 | File | `admin/panels/uploader/admin.uploader.php` | High
+46 | File | `admin/partials/ajax/add_field_to_form.php` | High
+47 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+48 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

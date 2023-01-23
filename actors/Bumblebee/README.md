@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -152,7 +152,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 23 more TTP items available. Please use our online service to access the data.
@@ -180,21 +180,23 @@ ID | Type | Indicator | Confidence
 15 | File | `/forum/away.php` | High
 16 | File | `/FreshRSS/p/ext.php` | High
 17 | File | `/goform/addressNat` | High
-18 | File | `/goform/CertListInfo` | High
-19 | File | `/goform/fast_setting_wifi_set` | High
-20 | File | `/goform/IPSECsave` | High
-21 | File | `/goform/L7Im` | Medium
-22 | File | `/goform/NatStaticSetting` | High
-23 | File | `/goform/qossetting` | High
-24 | File | `/goform/SafeClientFilter` | High
-25 | File | `/goform/SafeMacFilter` | High
-26 | File | `/goform/SafeUrlFilter` | High
-27 | File | `/goform/setMacFilterCfg` | High
-28 | File | `/goform/SysToolReboot` | High
-29 | File | `/goform/SysToolRestoreSet` | High
-30 | ... | ... | ...
+18 | File | `/goform/fast_setting_wifi_set` | High
+19 | File | `/goform/IPSECsave` | High
+20 | File | `/goform/L7Im` | Medium
+21 | File | `/goform/NatStaticSetting` | High
+22 | File | `/goform/qossetting` | High
+23 | File | `/goform/SafeClientFilter` | High
+24 | File | `/goform/SafeMacFilter` | High
+25 | File | `/goform/SafeUrlFilter` | High
+26 | File | `/goform/setMacFilterCfg` | High
+27 | File | `/goform/VirtualSer` | High
+28 | File | `/h/calendar` | Medium
+29 | File | `/hrm/controller/employee.php` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
