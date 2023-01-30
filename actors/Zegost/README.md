@@ -113,9 +113,10 @@ ID | Type | Indicator | Confidence
 35 | File | `/ocwbs/admin/?page=user/manage_user` | High
 36 | File | `/ofrs/admin/?page=user/manage_user` | High
 37 | File | `/out.php` | Medium
-38 | ... | ... | ...
+38 | File | `/outgoing.php` | High
+39 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

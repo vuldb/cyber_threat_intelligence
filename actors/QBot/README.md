@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with QBot:
 
 * [IN](https://vuldb.com/?country.in)
-* [GB](https://vuldb.com/?country.gb)
 
 ## IOC - Indicator of Compromise
 
@@ -65,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,34 +80,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/../conf/config.properties` | High
-2 | File | `/componetns/user/class.user.php` | High
-3 | File | `/etc/passwd` | Medium
-4 | File | `/etc/tomcat8/Catalina/attack` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/front/document.form.php` | High
-7 | File | `/goform/wizard_end` | High
-8 | File | `/ibi_apps/WFServlet.cfg` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/out.php` | Medium
-11 | File | `/rest/api/latest/projectvalidate/key` | High
-12 | File | `/rest/collectors/1.0/template/custom` | High
-13 | File | `/RestAPI` | Medium
-14 | File | `/search.php` | Medium
-15 | File | `/ServletAPI/accounts/login` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/user/login/oauth` | High
-18 | File | `/usr/bin/pkexec` | High
-19 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-20 | File | `/var/log/messages` | High
-21 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-22 | File | `/WEB-INF/web.xml` | High
-23 | File | `/websocket/exec` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `/wp-json` | Medium
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+4 | File | `/componetns/user/class.user.php` | High
+5 | File | `/etc/tomcat8/Catalina/attack` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/front/document.form.php` | High
+8 | File | `/goform/wizard_end` | High
+9 | File | `/ims/login.php` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/mhds/clinic/view_details.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/rest/api/latest/projectvalidate/key` | High
+14 | File | `/rest/collectors/1.0/template/custom` | High
+15 | File | `/RestAPI` | Medium
+16 | File | `/search.php` | Medium
+17 | File | `/ServletAPI/accounts/login` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/user/login/oauth` | High
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+22 | File | `/var/log/messages` | High
+23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+24 | File | `/websocket/exec` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
 26 | File | `/x_program_center/jaxrs/invoke` | High
-27 | ... | ... | ...
+27 | File | `/zm/index.php` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -126,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

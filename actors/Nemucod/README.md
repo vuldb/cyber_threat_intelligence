@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nemucod:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 16 more country items available. Please use our online service to access the data.
@@ -41,11 +41,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,37 +58,42 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/folderrollpicture/list` | High
 4 | File | `/Admin/login.php` | High
 5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/usermanagement.php` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/app/options.py` | High
-9 | File | `/attachments` | Medium
-10 | File | `/bin/httpd` | Medium
-11 | File | `/blog/edit` | Medium
-12 | File | `/cgi-bin/login.cgi` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/SystemCommand` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/hospital/hms/admin/patient-search.php` | High
-24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-25 | File | `/hrm/index.php?msg` | High
-26 | File | `/hrm/state.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index/jobfairol/show/` | High
-29 | File | `/lib` | Low
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/librarian/lab.php` | High
-32 | File | `/manage-apartment.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | ... | ... | ...
+6 | File | `/ad_js.php` | Medium
+7 | File | `/attachments` | Medium
+8 | File | `/bin/httpd` | Medium
+9 | File | `/blog/edit` | Medium
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/SystemCommand` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/hospital/hms/admin/patient-search.php` | High
+23 | File | `/hrm/index.php?msg` | High
+24 | File | `/hrm/state.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index/user/user_edit.html` | High
+27 | File | `/lib` | Low
+28 | File | `/librarian/lab.php` | High
+29 | File | `/manage-apartment.php` | High
+30 | File | `/medicines/profile.php` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/modules/projects/vw_files.php` | High
+33 | File | `/net-banking/send_funds.php` | High
+34 | File | `/odlms/?page=appointments/view_appointment` | High
+35 | File | `/pages/apply_vacancy.php` | High
+36 | File | `/proc/<PID>/mem` | High
+37 | File | `/proxy` | Low
+38 | File | `/purchase_order/admin/?page=system_info` | High
+39 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +113,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

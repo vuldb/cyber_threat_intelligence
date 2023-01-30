@@ -821,7 +821,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -842,27 +842,27 @@ ID | Type | Indicator | Confidence
 4 | File | `/bin/sh` | Low
 5 | File | `/blogengine/api/posts` | High
 6 | File | `/bsms_ci/index.php/book` | High
-7 | File | `/cgi-bin/api-get_line_status` | High
-8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/Content/Template/root/reverse-shell.aspx` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/hrm/controller/employee.php` | High
-16 | File | `/hrm/employeeadd.php` | High
-17 | File | `/hrm/employeeview.php` | High
-18 | File | `/hss/admin/?page=products/manage_product` | High
-19 | File | `/ims/login.php` | High
-20 | File | `/login/index.php` | High
-21 | File | `/medicines/profile.php` | High
-22 | File | `/mhds/clinic/view_details.php` | High
-23 | File | `/obs/book.php` | High
-24 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-25 | File | `/pms/update_user.php?user_id=1` | High
-26 | File | `/products/view_product.php` | High
-27 | File | `/spip.php` | Medium
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/upload_vpntar` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/hrm/controller/employee.php` | High
+14 | File | `/hrm/employeeadd.php` | High
+15 | File | `/hrm/employeeview.php` | High
+16 | File | `/hss/admin/?page=products/manage_product` | High
+17 | File | `/ims/login.php` | High
+18 | File | `/login/index.php` | High
+19 | File | `/medicines/profile.php` | High
+20 | File | `/mhds/clinic/view_details.php` | High
+21 | File | `/obs/book.php` | High
+22 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+23 | File | `/pms/update_user.php?user_id=1` | High
+24 | File | `/products/view_product.php` | High
+25 | File | `/shell` | Low
+26 | File | `/spip.php` | Medium
+27 | File | `/subtitles.php` | High
 28 | File | `/tmp` | Low
 29 | File | `/tmp/net-$DEVICE.conf` | High
 30 | File | `/uncpath/` | Medium

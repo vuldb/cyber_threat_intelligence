@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shadowcrew:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 21 more country items available. Please use our online service to access the data.
@@ -770,33 +770,33 @@ ID | Type | Indicator | Confidence
 3 | File | `/ad_js.php` | Medium
 4 | File | `/app/options.py` | High
 5 | File | `/attachments` | Medium
-6 | File | `/cgi-bin/luci/api/wireless` | High
-7 | File | `/CMD_SELECT_USERS` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dashboard/reports/logs/view` | High
-10 | File | `/data/wps.setup.json` | High
-11 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/hosts` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/setmac` | High
-16 | File | `/goform/wizard_end` | High
-17 | File | `/IISADMPWD` | Medium
-18 | File | `/index.php` | Medium
-19 | File | `/manage-apartment.php` | High
-20 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-21 | File | `/pages/apply_vacancy.php` | High
-22 | File | `/proc/<PID>/mem` | High
-23 | File | `/proxy` | Low
-24 | File | `/sessions/sess_<sessionid>` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/upload` | Low
-29 | File | `/var/log/nginx` | High
+6 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/cgi-bin/luci/api/wireless` | High
+8 | File | `/CMD_SELECT_USERS` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/data/wps.setup.json` | High
+12 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/etc/hosts` | Medium
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/setmac` | High
+17 | File | `/goform/wizard_end` | High
+18 | File | `/IISADMPWD` | Medium
+19 | File | `/index.php` | Medium
+20 | File | `/manage-apartment.php` | High
+21 | File | `/medicines/profile.php` | High
+22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+23 | File | `/pages/apply_vacancy.php` | High
+24 | File | `/proc/<PID>/mem` | High
+25 | File | `/proxy` | Low
+26 | File | `/sessions/sess_<sessionid>` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
 30 | ... | ... | ...
 
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

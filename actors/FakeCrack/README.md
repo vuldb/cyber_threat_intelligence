@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FakeCrack:
 
 * [US](https://vuldb.com/?country.us)
-* [TR](https://vuldb.com/?country.tr)
 * [CN](https://vuldb.com/?country.cn)
+* [TR](https://vuldb.com/?country.tr)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.
@@ -37,8 +37,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -52,15 +53,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/news/admin/topic/save` | High
 3 | File | `/admin/comn/service/update.json` | High
 4 | File | `/api/files/` | Medium
-5 | File | `/dev/shm` | Medium
-6 | File | `/dl/dl_print.php` | High
-7 | File | `/getcfg.php` | Medium
-8 | File | `/ofcms/company-c-47` | High
-9 | File | `/util/print.c` | High
-10 | File | `/web/MCmsAction.java` | High
-11 | ... | ... | ...
+5 | File | `/cgi-bin/touchlist_sync.cgi` | High
+6 | File | `/dev/shm` | Medium
+7 | File | `/dl/dl_print.php` | High
+8 | File | `/getcfg.php` | Medium
+9 | File | `/ofcms/company-c-47` | High
+10 | File | `/usr/sbin/httpd` | High
+11 | File | `/util/print.c` | High
+12 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -77,4 +79,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

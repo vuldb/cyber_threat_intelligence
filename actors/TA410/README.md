@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,18 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/gena.cgi` | Medium
-2 | File | `/MIME/INBOX-MM-1/` | High
-3 | File | `/netflow/jspui/editProfile.jsp` | High
-4 | File | `/rapi/read_url` | High
-5 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-6 | File | `/see_more_details.php` | High
-7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-8 | File | `Application/Admin/Controller/ConfigController.class.php` | High
-9 | File | `auth-gss2.c` | Medium
-10 | ... | ... | ...
+1 | File | `/api/RecordingList/DownloadRecord?file=` | High
+2 | File | `/gena.cgi` | Medium
+3 | File | `/MIME/INBOX-MM-1/` | High
+4 | File | `/netflow/jspui/editProfile.jsp` | High
+5 | File | `/rapi/read_url` | High
+6 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+7 | File | `/see_more_details.php` | High
+8 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+9 | File | `Application/Admin/Controller/ConfigController.class.php` | High
+10 | File | `auth-gss2.c` | Medium
+11 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

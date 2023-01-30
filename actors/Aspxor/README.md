@@ -17,11 +17,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [46.55.222.24](https://vuldb.com/?ip.46.55.222.24) | - | - | High
-2 | [82.116.211.16](https://vuldb.com/?ip.82.116.211.16) | is.ouc.ac.cy | - | High
-3 | [93.186.181.62](https://vuldb.com/?ip.93.186.181.62) | - | - | High
+2 | [74.125.155.201](https://vuldb.com/?ip.74.125.155.201) | - | - | High
+3 | [82.116.211.16](https://vuldb.com/?ip.82.116.211.16) | is.ouc.ac.cy | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 12 more IOC items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,6 +36,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2019/04/threat-roundup-0405-0412.html
+* https://blog.talosintelligence.com/2020/10/threat-roundup-1016-1023.html
 
 ## Literature
 
@@ -46,4 +47,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

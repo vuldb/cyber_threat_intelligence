@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NZ](https://vuldb.com/?country.nz)
 * [ES](https://vuldb.com/?country.es)
-* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -49,13 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,38 +64,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-2 | File | `/adminzone/index.php?page=admin-commandr` | High
-3 | File | `/admin_giant/` | High
-4 | File | `/admin_giant/add_gallery.php` | High
-5 | File | `/admin_giant/add_team_member.php` | High
-6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/ApplicationBanner` | High
+1 | File | `%PROGRAMFILES(X86)%\Steam` | High
+2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+3 | File | `/adminzone/index.php?page=admin-commandr` | High
+4 | File | `/admin_giant/` | High
+5 | File | `/admin_giant/add_gallery.php` | High
+6 | File | `/admin_giant/add_team_member.php` | High
+7 | File | `/ajax/networking/get_netcfg.php` | High
 8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 9 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
 10 | File | `/config/getuser` | High
 11 | File | `/etc/passwd` | Medium
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/login` | Low
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/panel/uploads` | High
-16 | File | `/probe?target` | High
-17 | File | `/product.php` | Medium
-18 | File | `/Side.php` | Medium
-19 | File | `/start_apply.htm` | High
-20 | File | `/tmp` | Low
-21 | File | `/tmp/app/.env` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/uploads/exam_question/` | High
-24 | File | `/usr/local/www/pkg.php` | High
-25 | File | `/var/log/nginx` | High
+12 | File | `/etc/tomcat8/Catalina/attack` | High
+13 | File | `/filemanager/upload.php` | High
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/login` | Low
+16 | File | `/mgmt/tm/util/bash` | High
+17 | File | `/panel/uploads` | High
+18 | File | `/product.php` | Medium
+19 | File | `/see_more_details.php` | High
+20 | File | `/Side.php` | Medium
+21 | File | `/start_apply.htm` | High
+22 | File | `/tmp/app/.env` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/uploads/exam_question/` | High
+25 | File | `/usr/local/www/pkg.php` | High
 26 | File | `/vdesk` | Low
-27 | File | `/zm/index.php` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `ActivityManagerService.java` | High
-30 | ... | ... | ...
+27 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -111,4 +109,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -71,23 +71,23 @@ ID | Type | Indicator | Confidence
 7 | File | `/config.cgi?webmin` | High
 8 | File | `/filemanager/upload.php` | High
 9 | File | `/forum/away.php` | High
-10 | File | `/idm/admin/changeself.jsp` | High
-11 | File | `/idm/includes/helpServer.jsp` | High
-12 | File | `/if.cgi` | Low
-13 | File | `/include/chart_generator.php` | High
-14 | File | `/mifs/c/i/reg/reg.html` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/news.dtl.php` | High
-17 | File | `/product_list.php` | High
-18 | File | `/setup` | Low
-19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `/_vti_pvt/access.cnf` | High
-24 | File | `5.2.9\syscrb.exe` | High
-25 | File | `a-b-membres.php` | High
-26 | File | `account.asp` | Medium
+10 | File | `/hrm/employeeadd.php` | High
+11 | File | `/idm/admin/changeself.jsp` | High
+12 | File | `/idm/includes/helpServer.jsp` | High
+13 | File | `/if.cgi` | Low
+14 | File | `/include/chart_generator.php` | High
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/news.dtl.php` | High
+18 | File | `/product_list.php` | High
+19 | File | `/setup` | Low
+20 | File | `/spip.php` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+24 | File | `/_vti_pvt/access.cnf` | High
+25 | File | `5.2.9\syscrb.exe` | High
+26 | File | `a-b-membres.php` | High
 27 | File | `act.php` | Low
 28 | File | `adclick.php` | Medium
 29 | File | `admin` | Low
@@ -122,10 +122,9 @@ ID | Type | Indicator | Confidence
 58 | File | `cgi-bin/DownloadCfg/RouterCfm.cfg` | High
 59 | File | `Cgi/private.py` | High
 60 | File | `city.asp` | Medium
-61 | File | `class.ajax.php` | High
-62 | ... | ... | ...
+61 | ... | ... | ...
 
-There are 542 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -142,4 +141,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

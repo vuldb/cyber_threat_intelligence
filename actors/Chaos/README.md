@@ -41,11 +41,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,42 +57,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/singer/admin/lists/zhuan` | High
 3 | File | `/admin.php/User/level_sort` | High
 4 | File | `/authUserAction!edit.action` | High
-5 | File | `/blog/edit` | Medium
-6 | File | `/bmis/pages/resident/resident.php` | High
-7 | File | `/cgi-bin-sdb/` | High
-8 | File | `/cgi-bin/activate.cgi` | High
-9 | File | `/cgi-bin/luci/api/auth` | High
+5 | File | `/baseOpLog.do` | High
+6 | File | `/blog/edit` | Medium
+7 | File | `/bmis/pages/resident/resident.php` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
 10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 11 | File | `/cgi-bin/uploadWeiXinPic` | High
 12 | File | `/claire_blake` | High
 13 | File | `/core/admin/categories.php` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dms/admin/reports/daily_collection_report.php` | High
-16 | File | `/etc/config/cameo` | High
-17 | File | `/export` | Low
-18 | File | `/files.md5` | Medium
-19 | File | `/food/admin/all_users.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/images/` | Medium
-22 | File | `/isms/classes/Users.php` | High
-23 | File | `/login` | Low
-24 | File | `/MagickCore/quantize.c` | High
-25 | File | `/mc` | Low
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/multiux/SaveMailbox` | High
-29 | File | `/ofrs/admin/?page=teams/view_team` | High
-30 | File | `/one_church/userregister.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/panel/configuration/general` | High
+14 | File | `/dashboard/contact` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dms/admin/reports/daily_collection_report.php` | High
+17 | File | `/etc/config/cameo` | High
+18 | File | `/export` | Low
+19 | File | `/files.md5` | Medium
+20 | File | `/food/admin/all_users.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/images/` | Medium
+24 | File | `/isms/classes/Users.php` | High
+25 | File | `/login` | Low
+26 | File | `/MagickCore/quantize.c` | High
+27 | File | `/mc` | Low
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/ofrs/admin/?page=teams/view_team` | High
+31 | File | `/one_church/userregister.php` | High
+32 | File | `/out.php` | Medium
 33 | File | `/public/plugins/` | High
-34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-35 | File | `/SASWebReportStudio/logonAndRender.do` | High
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-38 | ... | ... | ...
+34 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +105,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

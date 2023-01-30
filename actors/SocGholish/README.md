@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -38,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -58,18 +59,18 @@ ID | Type | Indicator | Confidence
 8 | File | `/dev/snd/seq` | Medium
 9 | File | `/device/device=140/tab=wifi/view` | High
 10 | File | `/goform/SetClientState` | High
-11 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-12 | File | `/product_list.php` | High
-13 | File | `/rrps/classes/Master.php?f=delete_category` | High
-14 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
-15 | File | `/src/core/controllers/cm.php` | High
-16 | File | `/transmission/web/` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/local` | Medium
-19 | File | `/usr/sbin/sendmail` | High
+11 | File | `/goform/SysToolChangePwd` | High
+12 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+13 | File | `/product_list.php` | High
+14 | File | `/rrps/classes/Master.php?f=delete_category` | High
+15 | File | `/rukovoditel_2.4.1/index.php?module=configuration/save&redirect_to=configuration/application` | High
+16 | File | `/src/core/controllers/cm.php` | High
+17 | File | `/transmission/web/` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/local` | Medium
 20 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -86,4 +87,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

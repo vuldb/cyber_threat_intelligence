@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brata:
 
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -18,6 +19,7 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [51.83.225.224](https://vuldb.com/?ip.51.83.225.224) | - | - | High
 2 | [51.83.251.214](https://vuldb.com/?ip.51.83.251.214) | - | - | High
+3 | [152.89.247.159](https://vuldb.com/?ip.152.89.247.159) | - | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,6 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2022/07/21/amextroll-android-banking-trojan-spotted-in-the-wild/
 * https://community.blueliv.com/#!/s/62b0155982df417ed03311f0
 
 ## Literature
@@ -42,4 +45,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

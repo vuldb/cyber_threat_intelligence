@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Naikon:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Naikon:
 
 * [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CH](https://vuldb.com/?country.ch)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -41,13 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-40 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,47 +55,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.dbshell` | Medium
-2 | File | `/action/import_firmware/` | High
-3 | File | `/action/import_sdk_file/` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/admin.php` | High
-7 | File | `/admin/budget.php` | High
-8 | File | `/Admin/createClass.php` | High
-9 | File | `/Admin/login.php` | High
-10 | File | `/admin/settings.php` | High
-11 | File | `/admin/sign/out` | High
-12 | File | `/admin/sql` | Medium
-13 | File | `/admin/students/manage.php` | High
-14 | File | `/admin/update_currency.php` | High
-15 | File | `/api/discoveries/` | High
-16 | File | `/api/public/signup` | High
-17 | File | `/api/v1/attack` | High
-18 | File | `/api/v1/attack/falco` | High
-19 | File | `/api/v1/attack/token` | High
-20 | File | `/api/v1/bait/set` | High
-21 | File | `/api/v2/cli/commands` | High
-22 | File | `/api/v2/open/rowsInfo` | High
-23 | File | `/api/v2/open/tablesInfo` | High
-24 | File | `/asms/admin/mechanics/manage_mechanic.php` | High
-25 | File | `/attachments` | Medium
-26 | File | `/balance/service/list` | High
-27 | File | `/baseOpLog.do` | High
-28 | File | `/category.php` | High
-29 | File | `/cgi-bin/editBookmark` | High
-30 | File | `/cgi-bin/ExportSettings.sh` | High
-31 | File | `/csms/?page=contact_us` | High
-32 | File | `/csms/admin/?page=system_info` | High
-33 | File | `/csms/admin/?page=user/list` | High
-34 | File | `/csms/admin/?page=user/manage_user` | High
-35 | File | `/depotHead/list` | High
-36 | File | `/dishes.php` | Medium
-37 | File | `/ebics-server/ebics.aspx` | High
-38 | File | `/etc/ciel.cfg` | High
-39 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/api/public/signup` | High
+3 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+4 | File | `/back/index.php/user/User/?1` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/cms/category/list` | High
+7 | File | `/csms/?page=contact_us` | High
+8 | File | `/csms/admin/?page=user/manage_user` | High
+9 | File | `/env` | Low
+10 | File | `/fos/admin/ajax.php?action=login` | High
+11 | File | `/fos/admin/index.php?page=menu` | High
+12 | File | `/goform/addUserName` | High
+13 | File | `/new` | Low
+14 | File | `/omos/admin/?page=user/list` | High
+15 | File | `/picturesPreview` | High
+16 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+17 | File | `/v1/sql-runner` | High
+18 | File | `01article.php` | High
+19 | File | `AbstractScheduleJob.java` | High
+20 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+21 | File | `actions/UploadAction.php` | High
+22 | File | `add_contestant.php` | High
+23 | File | `adm/menu_list_update.php` | High
+24 | File | `admin/manage_user.php` | High
+25 | File | `admin/page-login.php` | High
+26 | File | `admin/panels/entry/admin.entry.list.php` | High
+27 | File | `admin/panels/uploader/admin.uploader.php` | High
+28 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+29 | File | `agent/listener/templates/tail.html` | High
+30 | File | `ajax_represent.php` | High
+31 | File | `announce.php` | Medium
+32 | File | `api.php` | Low
+33 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java` | High
+34 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+35 | File | `app.py` | Low
+36 | File | `app/api/songs.py` | High
+37 | File | `app/business/impl/ReviewServiceImpl.java` | High
+38 | File | `app/config/passport.js` | High
+39 | File | `app/controller/insertarSliderAjax.php` | High
+40 | File | `app/controllers/code_caller_controller.php` | High
+41 | File | `app/controllers/curupira/passwords_controller.rb` | High
+42 | File | `app/controllers/geopoll_controller.rb` | High
+43 | File | `app/controllers/image_controller.rb` | High
+44 | File | `app/controllers/oauth.js` | High
+45 | File | `app/controllers/uploaded_files_controller.rb` | High
+46 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+47 | File | `application/controllers/Restapi.php` | High
+48 | File | `application/controllers/timedtext.php` | High
+49 | File | `application/libraries/LanguageTask.php` | High
+50 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -116,4 +127,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

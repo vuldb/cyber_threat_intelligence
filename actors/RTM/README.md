@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with RTM:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RTM:
 
 * [NL](https://vuldb.com/?country.nl)
-* [US](https://vuldb.com/?country.us)
 * [CH](https://vuldb.com/?country.ch)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,37 +63,32 @@ ID | Type | Indicator | Confidence
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin.php` | Medium
-4 | File | `/core/conditions/AbstractWrapper.java` | High
-5 | File | `/dashboard/updatelogo.php` | High
-6 | File | `/file?action=download&file` | High
-7 | File | `/index.php` | Medium
-8 | File | `/medical/inventories.php` | High
-9 | File | `/mkshop/Men/profile.php` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/NAGErrors` | Medium
-12 | File | `/Noxen-master/users.php` | High
-13 | File | `/plugin/LiveChat/getChat.json.php` | High
-14 | File | `/plugins/servlet/audit/resource` | High
-15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-16 | File | `/PreviewHandler.ashx` | High
-17 | File | `/recordings/index.php` | High
-18 | File | `/replication` | Medium
-19 | File | `/RestAPI` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/tmp/speedtest_urls.xml` | High
-22 | File | `/tmp/zarafa-vacation-*` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/upload` | Low
-25 | File | `/var/log/nginx` | High
-26 | File | `/var/run/watchman.pid` | High
-27 | File | `/viewer/krpano.html` | High
-28 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-29 | File | `admin/index.php` | High
-30 | File | `admin\model\catalog\download.php` | High
-31 | File | `AdxDSrv.exe` | Medium
-32 | ... | ... | ...
+4 | File | `/admin/subnets/ripe-query.php` | High
+5 | File | `/core/conditions/AbstractWrapper.java` | High
+6 | File | `/dashboard/updatelogo.php` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/openshift/server_priv.pem` | High
+9 | File | `/export` | Low
+10 | File | `/file?action=download&file` | High
+11 | File | `/hardware` | Medium
+12 | File | `/index.php` | Medium
+13 | File | `/medical/inventories.php` | High
+14 | File | `/mkshop/Men/profile.php` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/Noxen-master/users.php` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/plugin/LiveChat/getChat.json.php` | High
+19 | File | `/plugins/servlet/audit/resource` | High
+20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+21 | File | `/PreviewHandler.ashx` | High
+22 | File | `/recordings/index.php` | High
+23 | File | `/replication` | Medium
+24 | File | `/RestAPI` | Medium
+25 | File | `/tmp/speedtest_urls.xml` | High
+26 | File | `/tmp/zarafa-vacation-*` | High
+27 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +107,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

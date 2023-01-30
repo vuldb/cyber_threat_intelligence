@@ -112,7 +112,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -134,39 +134,39 @@ ID | Type | Indicator | Confidence
 12 | File | `/cgi-bin/wlogin.cgi` | High
 13 | File | `/config/api/v1/reboot` | High
 14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/ctcprotocol/Protocol` | High
-16 | File | `/dev/block/mmcblk0rpmb` | High
-17 | File | `/etc` | Low
-18 | File | `/etc/passwd` | Medium
-19 | File | `/export` | Low
-20 | File | `/forum/away.php` | High
-21 | File | `/fos/admin/ajax.php?action=login` | High
-22 | File | `/fos/admin/index.php?page=menu` | High
-23 | File | `/goform/WifiBasicSet` | High
-24 | File | `/h/calendar` | Medium
-25 | File | `/hss/admin/?page=client/manage_client` | High
-26 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-27 | File | `/login/index.php` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/obs/book.php` | High
-30 | File | `/proxy` | Low
-31 | File | `/reports/rwservlet` | High
-32 | File | `/resources//../` | High
-33 | File | `/setNTP.cgi` | Medium
-34 | File | `/spip.php` | Medium
-35 | File | `/tmp/boa-temp` | High
-36 | File | `/tpts/manage_user.php` | High
-37 | File | `/trufusionPortal/upDwModuleProxy` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/usr/bin/tddp` | High
-40 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-41 | File | `/wp-json/wc/v3/webhooks` | High
-42 | File | `01article.php` | High
-43 | File | `actionphp/download.File.php` | High
-44 | File | `adclick.php` | Medium
+15 | File | `/dev/block/mmcblk0rpmb` | High
+16 | File | `/etc` | Low
+17 | File | `/etc/passwd` | Medium
+18 | File | `/export` | Low
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/goform/WifiBasicSet` | High
+23 | File | `/hss/admin/?page=client/manage_client` | High
+24 | File | `/login/index.php` | High
+25 | File | `/obs/book.php` | High
+26 | File | `/products/view_product.php` | High
+27 | File | `/proxy` | Low
+28 | File | `/reports/rwservlet` | High
+29 | File | `/resources//../` | High
+30 | File | `/setNTP.cgi` | Medium
+31 | File | `/shell` | Low
+32 | File | `/spip.php` | Medium
+33 | File | `/sys/dict/queryTableData` | High
+34 | File | `/tpts/manage_user.php` | High
+35 | File | `/trufusionPortal/upDwModuleProxy` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/usr/bin/tddp` | High
+38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+39 | File | `/wp-json/wc/v3/webhooks` | High
+40 | File | `01article.php` | High
+41 | File | `adclick.php` | Medium
+42 | File | `addrtoname.c` | Medium
+43 | File | `admin/admin/adminsave.html` | High
+44 | File | `admin/conf_users_edit.php` | High
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [TK](https://vuldb.com/?country.tk)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -69,26 +69,27 @@ ID | Type | Indicator | Confidence
 12 | File | `/ebics-server/ebics.aspx` | High
 13 | File | `/esbus/servlet/GetSQLData` | High
 14 | File | `/film-rating.php` | High
-15 | File | `/goform/formLogin` | High
-16 | File | `/HNAP1` | Low
-17 | File | `/horde/util/go.php` | High
-18 | File | `/ishttpd/localweb/java/` | High
-19 | File | `/KK_LS9ReportingPortal/GetData` | High
-20 | File | `/mcategory.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/p` | Low
-23 | File | `/pages/processlogin.php` | High
-24 | File | `/product/savenewproduct.php?flag=1` | High
-25 | File | `/services/Card/findUser` | High
-26 | File | `/template/edit` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/uucp` | High
-29 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-30 | File | `/v1/tokens` | Medium
-31 | File | `/web/google_analytics.php` | High
-32 | ... | ... | ...
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/formLogin` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/horde/util/go.php` | High
+19 | File | `/ishttpd/localweb/java/` | High
+20 | File | `/KK_LS9ReportingPortal/GetData` | High
+21 | File | `/mcategory.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/p` | Low
+24 | File | `/pages/processlogin.php` | High
+25 | File | `/product/savenewproduct.php?flag=1` | High
+26 | File | `/services/Card/findUser` | High
+27 | File | `/template/edit` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/uucp` | High
+30 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+31 | File | `/v1/tokens` | Medium
+32 | File | `/web/google_analytics.php` | High
+33 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

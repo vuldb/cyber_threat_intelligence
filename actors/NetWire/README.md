@@ -72,7 +72,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -110,31 +111,31 @@ ID | Type | Indicator | Confidence
 26 | File | `/cgi-mod/lookup.cgi` | High
 27 | File | `/dashboard/updatelogo.php` | High
 28 | File | `/designer/add/layout` | High
-29 | File | `/dev/dri/card1` | High
-30 | File | `/etc/ldap.conf` | High
-31 | File | `/etc/shadow` | Medium
-32 | File | `/etc/sudoers` | Medium
-33 | File | `/export` | Low
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/h/calendar` | Medium
-36 | File | `/h/compose` | Medium
-37 | File | `/h/search?action=voicemail&action=listen` | High
-38 | File | `/iissamples` | Medium
-39 | File | `/index.php` | Medium
-40 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-41 | File | `/librarian/bookdetails.php` | High
-42 | File | `/login` | Low
-43 | File | `/loginVaLidation.php` | High
-44 | File | `/manage-apartment.php` | High
-45 | File | `/manager/index.php` | High
-46 | File | `/mkshop/Men/profile.php` | High
-47 | File | `/Noxen-master/users.php` | High
-48 | File | `/opac/Actions.php?a=login` | High
-49 | File | `/osm/REGISTER.cmd` | High
-50 | File | `/pages/animals.php` | High
+29 | File | `/etc/ldap.conf` | High
+30 | File | `/etc/shadow` | Medium
+31 | File | `/etc/sudoers` | Medium
+32 | File | `/export` | Low
+33 | File | `/filemanager/upload/drop` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/h/compose` | Medium
+36 | File | `/h/search?action=voicemail&action=listen` | High
+37 | File | `/iissamples` | Medium
+38 | File | `/index.php` | Medium
+39 | File | `/librarian/bookdetails.php` | High
+40 | File | `/login` | Low
+41 | File | `/loginVaLidation.php` | High
+42 | File | `/manage-apartment.php` | High
+43 | File | `/manager/index.php` | High
+44 | File | `/mkshop/Men/profile.php` | High
+45 | File | `/Noxen-master/users.php` | High
+46 | File | `/opac/Actions.php?a=login` | High
+47 | File | `/pages/animals.php` | High
+48 | File | `/php-sms/classes/Master.php` | High
+49 | File | `/php-sms/classes/SystemSettings.php` | High
+50 | File | `/php_action/createOrder.php` | High
 51 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

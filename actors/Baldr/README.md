@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
 
@@ -57,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,29 +74,27 @@ ID | Type | Indicator | Confidence
 6 | File | `/debug/pprof` | Medium
 7 | File | `/export` | Low
 8 | File | `/file?action=download&file` | High
-9 | File | `/medical/inventories.php` | High
-10 | File | `/monitoring` | Medium
-11 | File | `/NAGErrors` | Medium
+9 | File | `/hardware` | Medium
+10 | File | `/medical/inventories.php` | High
+11 | File | `/monitoring` | Medium
 12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 13 | File | `/plugin/LiveChat/getChat.json.php` | High
 14 | File | `/plugins/servlet/audit/resource` | High
 15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 16 | File | `/replication` | Medium
 17 | File | `/RestAPI` | Medium
-18 | File | `/tmp` | Low
-19 | File | `/tmp/speedtest_urls.xml` | High
-20 | File | `/tmp/zarafa-vacation-*` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
+18 | File | `/tmp/speedtest_urls.xml` | High
+19 | File | `/tmp/zarafa-vacation-*` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/upload` | Low
+22 | File | `/user/loader.php?api=1` | High
 23 | File | `/var/log/nginx` | High
 24 | File | `/var/run/watchman.pid` | High
 25 | File | `/viewer/krpano.html` | High
 26 | File | `/wp-json/oembed/1.0/embed?url` | High
-27 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-28 | File | `admin\model\catalog\download.php` | High
-29 | ... | ... | ...
+27 | ... | ... | ...
 
-There are 245 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -112,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,21 +48,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/apply_noauth.cgi` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/config.cgi?webmin` | High
-5 | File | `/index.php` | Medium
-6 | File | `/lib/` | Low
-7 | File | `/public/login.htm` | High
-8 | File | `/rom-0` | Low
-9 | File | `/uncpath/` | Medium
-10 | File | `/var/run/beaker/container_file/` | High
-11 | File | `/wordpress/wp-admin/options-general.php` | High
-12 | File | `/workspaceCleanup` | High
-13 | File | `5.2.9\syscrb.exe` | High
-14 | ... | ... | ...
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/apply_noauth.cgi` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/config.cgi?webmin` | High
+6 | File | `/index.php` | Medium
+7 | File | `/lib/` | Low
+8 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+9 | File | `/public/login.htm` | High
+10 | File | `/public_main_modul.php` | High
+11 | File | `/rom-0` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/var/run/beaker/container_file/` | High
+14 | File | `/wordpress/wp-admin/options-general.php` | High
+15 | File | `/workspaceCleanup` | High
+16 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -79,4 +81,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

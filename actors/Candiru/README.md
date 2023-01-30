@@ -91,8 +91,7 @@ ID | Type | Indicator | Confidence
 30 | File | `/librarian/lab.php` | High
 31 | File | `/login` | Low
 32 | File | `/mngset/authset` | High
-33 | File | `/nova/bin/sniffer` | High
-34 | ... | ... | ...
+33 | ... | ... | ...
 
 There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

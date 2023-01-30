@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -83,7 +83,7 @@ ID | Type | Indicator | Confidence
 16 | File | `/artist-display.php` | High
 17 | File | `/attachments` | Medium
 18 | File | `/bsms_ci/index.php` | High
-19 | File | `/cgi-bin/login.cgi` | High
+19 | File | `/bsms_ci/index.php/book` | High
 20 | File | `/cgi-bin/luci/api/wireless` | High
 21 | File | `/cgi-bin/nightled.cgi` | High
 22 | File | `/ci_hms/massage_room/edit/1` | High
@@ -97,18 +97,17 @@ ID | Type | Indicator | Confidence
 30 | File | `/forum/away.php` | High
 31 | File | `/goform/setmac` | High
 32 | File | `/goform/wizard_end` | High
-33 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index/jobfairol/show/` | High
-36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-37 | File | `/librarian/bookdetails.php` | High
-38 | File | `/manage-apartment.php` | High
-39 | File | `/management/api/rcx_management/global_config_query` | High
-40 | File | `/mcategory.php` | High
-41 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-42 | ... | ... | ...
+33 | File | `/index.php` | Medium
+34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+35 | File | `/manage-apartment.php` | High
+36 | File | `/management/api/rcx_management/global_config_query` | High
+37 | File | `/mcategory.php` | High
+38 | File | `/medicines/profile.php` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/multi-vendor-shopping-script/product-list.php` | High
+41 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

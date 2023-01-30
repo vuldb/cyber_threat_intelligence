@@ -4,15 +4,29 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sload](https://vuldb.com/?actor.sload)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sload:
+
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [TR](https://vuldb.com/?country.tr)
+* ...
+
+There are 2 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Sload.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [64.210.137.102](https://vuldb.com/?ip.64.210.137.102) | - | - | High
-2 | [92.63.197.153](https://vuldb.com/?ip.92.63.197.153) | - | - | High
-3 | [216.239.34.21](https://vuldb.com/?ip.216.239.34.21) | any-in-2215.1e100.net | - | High
+1 | [2.59.117.6](https://vuldb.com/?ip.2.59.117.6) | server4.poyrazhosting.com | - | High
+2 | [51.77.231.185](https://vuldb.com/?ip.51.77.231.185) | vps-06fdbf53.vps.ovh.net | - | High
+3 | [51.254.205.84](https://vuldb.com/?ip.51.254.205.84) | 84.ip-51-254-205.eu | - | High
+4 | ... | ... | ... | ...
+
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -20,8 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -29,12 +48,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `ajax/api/hook/decodeArguments` | High
-2 | File | `breadcrumbs_create.php` | High
-3 | File | `forumrunner/includes/moderation.php` | High
-4 | ... | ... | ...
+1 | File | `/admin` | Low
+2 | File | `/admin/launch_message.php` | High
+3 | File | `/admin/send_message.php` | High
+4 | File | `/categoriesServlet` | High
+5 | File | `/category.php` | High
+6 | File | `/cgi-bin/login_action.cgi` | High
+7 | File | `/dev/datum/` | Medium
+8 | File | `/forms/web_runScript` | High
+9 | File | `/getImage` | Medium
+10 | File | `/html/feed.php` | High
+11 | File | `/includes/rrdtool.inc.php` | High
+12 | File | `/job/(job-name)/api` | High
+13 | File | `/multi-vendor-shopping-script/product-list.php` | High
+14 | File | `/plugin/extended-choice-parameter/js/` | High
+15 | File | `/src/basic/fs-util.c` | High
+16 | File | `/wfo/control/emp_selector_pu` | High
+17 | File | `admin/conf_users_edit.php` | High
+18 | File | `admin/settings/update/` | High
+19 | File | `admin/tags.php` | High
+20 | File | `administrator.cfc` | High
+21 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -42,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/2018/12/threat-roundup-1130-1207.html
 * https://blog.talosintelligence.com/2019/02/threat-roundup-0125-0201.html
+* https://blog.talosintelligence.com/2020/09/threat-roundup-0918-0925.html
 
 ## Literature
 
@@ -52,4 +89,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

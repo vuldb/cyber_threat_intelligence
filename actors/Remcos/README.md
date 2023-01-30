@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -138,7 +138,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -147,33 +147,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/admin/subnets/ripe-query.php` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/blog/blog.php` | High
-5 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/config/getuser` | High
-8 | File | `/configs/application.ini` | High
-9 | File | `/etc/grafana/grafana.ini` | High
-10 | File | `/file` | Low
-11 | File | `/forum/away.php` | High
-12 | File | `/home/hjsz/jsonlint/src/lexer` | High
-13 | File | `/hrm/employeeview.php` | High
-14 | File | `/info.asp` | Medium
-15 | File | `/login` | Low
-16 | File | `/login/index.php` | High
-17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/out.php` | Medium
-20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-21 | File | `/public/plugins/` | High
-22 | File | `/rendering/wiki` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/servlet/file` | High
-25 | File | `/spip.php` | Medium
+2 | File | `/bin/boa` | Medium
+3 | File | `/blog/blog.php` | High
+4 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/config/getuser` | High
+7 | File | `/configs/application.ini` | High
+8 | File | `/etc/grafana/grafana.ini` | High
+9 | File | `/file` | Low
+10 | File | `/forum/away.php` | High
+11 | File | `/home/hjsz/jsonlint/src/lexer` | High
+12 | File | `/hrm/employeeview.php` | High
+13 | File | `/info.asp` | Medium
+14 | File | `/login` | Low
+15 | File | `/login/index.php` | High
+16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/out.php` | Medium
+19 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rendering/wiki` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/servlet/file` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/src/amf/amf-context.c` | High
 26 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -105,7 +105,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -128,36 +128,36 @@ ID | Type | Indicator | Confidence
 13 | File | `/ossn/administrator/com_installer` | High
 14 | File | `/pms/update_user.php?user_id=1` | High
 15 | File | `/resources//../` | High
-16 | File | `/sys/dict/queryTableData` | High
-17 | File | `/tmp` | Low
-18 | File | `/user/upload/upload` | High
-19 | File | `/vendor` | Low
-20 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-21 | File | `26.html` | Low
-22 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-23 | File | `adclick.php` | Medium
-24 | File | `add_contestant.php` | High
-25 | File | `add_postit.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/index.php` | High
-28 | File | `admin/make_payments.php` | High
-29 | File | `admin/shophelp.php` | High
-30 | File | `administration.jsp` | High
-31 | File | `adminquery.php` | High
-32 | File | `album_portal.php` | High
-33 | File | `ansfaq.asp` | Medium
-34 | File | `APKINDEX.tar.gz` | High
-35 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-36 | File | `appconfig.ini` | High
-37 | File | `appGet.cgi` | Medium
-38 | File | `artreplydelete.asp` | High
-39 | File | `attachment.cgi` | High
-40 | File | `authpam.c` | Medium
-41 | File | `autocms.php` | Medium
-42 | File | `avahi-core/socket.c` | High
-43 | File | `banner.php` | Medium
-44 | File | `base_qry_main.php` | High
-45 | File | `bb_smilies.php/bbcode_ref.php` | High
+16 | File | `/subtitles.php` | High
+17 | File | `/sys/dict/queryTableData` | High
+18 | File | `/tmp` | Low
+19 | File | `/user/upload/upload` | High
+20 | File | `/vendor` | Low
+21 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+22 | File | `26.html` | Low
+23 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+24 | File | `adclick.php` | Medium
+25 | File | `add_contestant.php` | High
+26 | File | `add_postit.php` | High
+27 | File | `admin.php` | Medium
+28 | File | `admin/index.php` | High
+29 | File | `admin/make_payments.php` | High
+30 | File | `admin/shophelp.php` | High
+31 | File | `administration.jsp` | High
+32 | File | `adminquery.php` | High
+33 | File | `album_portal.php` | High
+34 | File | `ansfaq.asp` | Medium
+35 | File | `APKINDEX.tar.gz` | High
+36 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+37 | File | `appconfig.ini` | High
+38 | File | `appGet.cgi` | Medium
+39 | File | `artreplydelete.asp` | High
+40 | File | `attachment.cgi` | High
+41 | File | `authpam.c` | Medium
+42 | File | `autocms.php` | Medium
+43 | File | `avahi-core/socket.c` | High
+44 | File | `banner.php` | Medium
+45 | File | `base_qry_main.php` | High
 46 | File | `bgp_packet.c` | Medium
 47 | File | `Binder.java` | Medium
 48 | File | `Blog.CGI` | Medium
@@ -174,7 +174,7 @@ ID | Type | Indicator | Confidence
 59 | File | `claro_init_global.inc.php` | High
 60 | ... | ... | ...
 
-There are 524 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 521 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

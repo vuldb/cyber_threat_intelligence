@@ -2635,7 +2635,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin/api/admin/articles/` | High
+3 | File | `/Admin/add-student.php` | High
 4 | File | `/admin/upload/upload` | High
 5 | File | `/bin/sh` | Low
 6 | File | `/blogengine/api/posts` | High
@@ -2656,21 +2656,21 @@ ID | Type | Indicator | Confidence
 21 | File | `/products/view_product.php` | High
 22 | File | `/proxy` | Low
 23 | File | `/reports/rwservlet` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/tmp/net-$DEVICE.conf` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/user/upload/upload` | High
-28 | File | `/usr/bin/tddp` | High
-29 | File | `/vendor` | Low
-30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-31 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-json/wc/v3/webhooks` | High
-34 | File | `01article.php` | High
-35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+24 | File | `/shell` | Low
+25 | File | `/spip.php` | Medium
+26 | File | `/subtitles.php` | High
+27 | File | `/tmp/net-$DEVICE.conf` | High
+28 | File | `/uncpath/` | Medium
+29 | File | `/user/upload/upload` | High
+30 | File | `/usr/bin/tddp` | High
+31 | File | `/vendor` | Low
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/wc/v3/webhooks` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

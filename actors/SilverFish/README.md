@@ -74,12 +74,12 @@ ID | Type | Indicator | Confidence
 11 | File | `/etc/passwd` | Medium
 12 | File | `/goform/saveParentControlInfo` | High
 13 | File | `/goform/SetFirewallCfg` | High
-14 | File | `/htdocs/admin/dict.php?id=3` | High
-15 | File | `/module/module_frame/index.php` | High
-16 | File | `/nidp/app/login` | High
-17 | File | `/proc` | Low
-18 | File | `/rapi/read_url` | High
-19 | File | `/redpass.cgi` | Medium
+14 | File | `/goform/SysToolChangePwd` | High
+15 | File | `/htdocs/admin/dict.php?id=3` | High
+16 | File | `/module/module_frame/index.php` | High
+17 | File | `/nidp/app/login` | High
+18 | File | `/proc` | Low
+19 | File | `/rapi/read_url` | High
 20 | File | `/release-x64/otfccdump` | High
 21 | File | `/rom-0` | Low
 22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
@@ -91,18 +91,18 @@ ID | Type | Indicator | Confidence
 28 | File | `/wp-admin` | Medium
 29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 30 | File | `2020\Messages\SDNotify.exe` | High
-31 | File | `admin/Login.php` | High
-32 | File | `admin/plugin-index.php` | High
-33 | File | `administration` | High
-34 | File | `administrative` | High
-35 | File | `ag_server_service.exe` | High
-36 | File | `Alias.asmx` | Medium
-37 | File | `aolfix.exe` | Medium
-38 | File | `app/models/user.rb` | High
-39 | File | `apply.cgi` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `admin/Login.php` | High
+33 | File | `admin/plugin-index.php` | High
+34 | File | `administration` | High
+35 | File | `administrative` | High
+36 | File | `ag_server_service.exe` | High
+37 | File | `Alias.asmx` | Medium
+38 | File | `aolfix.exe` | Medium
+39 | File | `app/models/user.rb` | High
 40 | ... | ... | ...
 
-There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -120,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

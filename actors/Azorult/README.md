@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,10 +41,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,20 +59,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/auparse/auparse.c` | High
 5 | File | `/aux` | Low
 6 | File | `/BindAccount/SuccessTips.js` | High
-7 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-8 | File | `/login.html` | Medium
-9 | File | `/medical/inventories.php` | High
-10 | File | `/pages.php` | Medium
-11 | File | `/pages/save_user.php` | High
-12 | File | `/patient/doctors.php` | High
-13 | File | `/rom-0` | Low
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-16 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-17 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-18 | ... | ... | ...
+7 | File | `/goform/QuickIndex` | High
+8 | File | `/goform/setMacFilterCfg` | High
+9 | File | `/goform/WifiBasicSet` | High
+10 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+11 | File | `/login.html` | Medium
+12 | File | `/medical/inventories.php` | High
+13 | File | `/pages.php` | Medium
+14 | File | `/pages/save_user.php` | High
+15 | File | `/patient/doctors.php` | High
+16 | File | `/rom-0` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+19 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+20 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+21 | File | `abm.aspx` | Medium
+22 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +97,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

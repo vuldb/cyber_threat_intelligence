@@ -34,11 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -52,47 +53,49 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/user/level_del` | High
 3 | File | `/admin.php?r=admin/AdminBackup/del` | High
 4 | File | `/admin/dl_sendmail.php` | High
-5 | File | `/alarm_pi/alarmService.php` | High
-6 | File | `/Ap4RtpAtom.cpp` | High
-7 | File | `/bcms/admin/?page=sales/view_details` | High
-8 | File | `/categorypage.php` | High
-9 | File | `/cgi-bin/hi3510/param.cgi` | High
-10 | File | `/cgi-bin/user/Config.cgi` | High
-11 | File | `/course/api/upload/pic` | High
-12 | File | `/htdocs/cgibin` | High
-13 | File | `/icingaweb2/navigation/add` | High
-14 | File | `/module/index.php` | High
-15 | File | `/Monitoring-History.php` | High
-16 | File | `/my_photo_gallery/image.php` | High
-17 | File | `/product.php` | Medium
-18 | File | `/ServletAPI/accounts/login` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-23 | File | `/videotalk` | Medium
-24 | File | `/vloggers_merch/?p=products` | High
-25 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-26 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-27 | File | `/web/MCmsAction.java` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `activity_log.php` | High
-30 | File | `adclick.php` | Medium
-31 | File | `adm/systools.asp` | High
-32 | File | `admin/dashboard.php` | High
-33 | File | `admin/departments/manage_department.php` | High
-34 | File | `admin/getparam.cgi` | High
-35 | File | `admin/login.asp` | High
-36 | File | `adminCons.php` | High
-37 | File | `AdminViewError/AdminAddadmin` | High
-38 | File | `admin_add.php` | High
-39 | File | `ajax_calls.php` | High
-40 | File | `ajax_list_accounts.php` | High
-41 | File | `ajax_new_account.php` | High
-42 | File | `application/modules/admin/views/ecommerce/products.php` | High
-43 | ... | ... | ...
+5 | File | `/admin/friendlylink/list` | High
+6 | File | `/alarm_pi/alarmService.php` | High
+7 | File | `/Ap4RtpAtom.cpp` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/bcms/admin/?page=sales/view_details` | High
+10 | File | `/categorypage.php` | High
+11 | File | `/cgi-bin/hi3510/param.cgi` | High
+12 | File | `/cgi-bin/user/Config.cgi` | High
+13 | File | `/classes/Master.php?f=delete_student` | High
+14 | File | `/course/api/upload/pic` | High
+15 | File | `/htdocs/cgibin` | High
+16 | File | `/icingaweb2/navigation/add` | High
+17 | File | `/mkshop/Men/profile.php` | High
+18 | File | `/module/index.php` | High
+19 | File | `/Monitoring-History.php` | High
+20 | File | `/my_photo_gallery/image.php` | High
+21 | File | `/product.php` | Medium
+22 | File | `/ServletAPI/accounts/login` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/pkexec` | High
+26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+27 | File | `/videotalk` | Medium
+28 | File | `/vloggers_merch/?p=products` | High
+29 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+30 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+31 | File | `/web/MCmsAction.java` | High
+32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+33 | File | `activity_log.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `adm/systools.asp` | High
+36 | File | `admin.jcomments.php` | High
+37 | File | `admin/dashboard.php` | High
+38 | File | `admin/departments/manage_department.php` | High
+39 | File | `admin/getparam.cgi` | High
+40 | File | `admin/login.asp` | High
+41 | File | `admin/media/index.php"` | High
+42 | File | `adminCons.php` | High
+43 | File | `AdminViewError/AdminAddadmin` | High
+44 | File | `admin_add.php` | High
+45 | ... | ... | ...
 
-There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -109,4 +112,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,22 +51,24 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/broadcast.php` | High
 2 | File | `/admin/sysmon.php` | High
 3 | File | `/cgi-bin/webviewer_login_page` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/getcfg.php` | Medium
-6 | File | `/proc/ioports` | High
-7 | File | `/services/details.asp` | High
-8 | File | `/tmp` | Low
-9 | File | `/uncpath/` | Medium
-10 | File | `/Upload.ashx` | Medium
-11 | File | `/var/tmp/sess_*` | High
-12 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-13 | File | `activateuser.aspx` | High
-14 | File | `adclick.php` | Medium
-15 | File | `admin/killsource` | High
-16 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-17 | ... | ... | ...
+4 | File | `/ecrire` | Low
+5 | File | `/forum/away.php` | High
+6 | File | `/getcfg.php` | Medium
+7 | File | `/proc/ioports` | High
+8 | File | `/services/details.asp` | High
+9 | File | `/tmp` | Low
+10 | File | `/uncpath/` | Medium
+11 | File | `/Upload.ashx` | Medium
+12 | File | `/var/tmp/sess_*` | High
+13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+14 | File | `activateuser.aspx` | High
+15 | File | `adclick.php` | Medium
+16 | File | `admin/killsource` | High
+17 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+18 | File | `auth-gss2.c` | Medium
+19 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -83,4 +85,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

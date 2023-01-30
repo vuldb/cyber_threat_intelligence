@@ -18,7 +18,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [3.122.143.26](https://vuldb.com/?ip.3.122.143.26) | ec2-3-122-143-26.eu-central-1.compute.amazonaws.com | - | Medium
-2 | [47.254.144.154](https://vuldb.com/?ip.47.254.144.154) | - | - | High
+2 | [18.141.129.153](https://vuldb.com/?ip.18.141.129.153) | ec2-18-141-129-153.ap-southeast-1.compute.amazonaws.com | - | Medium
+3 | [47.74.179.177](https://vuldb.com/?ip.47.74.179.177) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,9 +30,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | ... | ... | ... | ...
+
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,17 +43,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/wbg/core/_includes/authorization.inc.php` | High
-2 | File | `admin/app/mediamanager` | High
-3 | File | `inc.php` | Low
-4 | ... | ... | ...
+1 | File | `/htdocs/admin/dict.php?id=3` | High
+2 | File | `/wbg/core/_includes/authorization.inc.php` | High
+3 | File | `admin/app/mediamanager` | High
+4 | File | `app/call_centers/cmd.php` | High
+5 | File | `app\edit\filedelete.php` | High
+6 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://community.blueliv.com/#!/s/5f72fe1482df413eb234d2d4
 * https://medium.com/csis-techblog/analysis-of-joker-a-spy-premium-subscription-bot-on-googleplay-9ad24f044451
 
 ## Literature
@@ -58,4 +68,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

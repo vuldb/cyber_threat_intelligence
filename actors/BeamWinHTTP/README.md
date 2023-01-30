@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BeamWinHTTP:
 
 * [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
+* [IT](https://vuldb.com/?country.it)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,96 +47,100 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php` | Medium
 3 | File | `/admin/doctors/view_doctor.php` | High
 4 | File | `/admin/modules/bibliography/index.php` | High
-5 | File | `/adminlogin.asp` | High
-6 | File | `/app/controller/Books.php` | High
-7 | File | `/aqpg/users/login.php` | High
-8 | File | `/controller/Index.php` | High
-9 | File | `/coreframe/app/content/admin/content.php` | High
-10 | File | `/dl/dl_print.php` | High
-11 | File | `/etc/master.passwd` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/Hospital-Management-System-master/contact.php` | High
-14 | File | `/include/friends.inc.php` | High
-15 | File | `/members/view_member.php` | High
-16 | File | `/servlet/webacc` | High
-17 | File | `/sitemagic/upgrade.php` | High
-18 | File | `/userui/ticket_list.php` | High
-19 | File | `/wp-admin/options-general.php` | High
-20 | File | `/zm/index.php` | High
-21 | File | `abook_database.php` | High
-22 | File | `accounts/inc/include.php` | High
-23 | File | `adaptive-images-script.php` | High
-24 | File | `additem.asp` | Medium
-25 | File | `addtocart.asp` | High
-26 | File | `adherents/subscription/info.php` | High
-27 | File | `admin.asp` | Medium
-28 | File | `admin.php` | Medium
-29 | File | `admin/admin.php` | High
-30 | File | `admin/admin_users.php` | High
-31 | File | `admin/general.php` | High
-32 | File | `admin/header.php` | High
-33 | File | `admin/inc/change_action.php` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/info.php` | High
-36 | File | `admin/login.asp` | High
-37 | File | `admin/manage-comments.php` | High
-38 | File | `admin/manage-news.php` | High
-39 | File | `admin/plugin-settings.php` | High
-40 | File | `admin/specials.php` | High
-41 | File | `admin:de` | Medium
-42 | File | `admincp/auth/checklogin.php` | High
-43 | File | `admincp/auth/secure.php` | High
-44 | File | `administrator/components/com_media/helpers/media.php` | High
-45 | File | `administrator/index.php` | High
-46 | File | `admin_login.asp` | High
-47 | File | `adv_search.asp` | High
-48 | File | `ajax_url.php` | Medium
-49 | File | `album_portal.php` | High
-50 | File | `al_initialize.php` | High
-51 | File | `anjel.index.php` | High
-52 | File | `annonces-p-f.php` | High
-53 | File | `announce.php` | Medium
-54 | File | `announcement.php` | High
-55 | File | `announcements.php` | High
-56 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-57 | File | `application/config/config.php` | High
-58 | File | `apply.cgi` | Medium
-59 | File | `apps/app_article/controller/rating.php` | High
-60 | File | `article.php` | Medium
-61 | File | `articles.php` | Medium
-62 | File | `artikel_anzeige.php` | High
-63 | File | `auktion.cgi` | Medium
-64 | File | `auth.php` | Medium
-65 | File | `authfiles/login.asp` | High
-66 | File | `basket.php` | Medium
-67 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-68 | File | `books.php` | Medium
-69 | File | `browse-category.php` | High
-70 | File | `browse.php` | Medium
-71 | File | `browse_videos.php` | High
-72 | File | `BrudaNews/BrudaGB` | High
-73 | File | `bwlist_inc.html` | High
-74 | File | `calendar.php` | Medium
-75 | File | `callme_page.php` | High
-76 | File | `cart.php` | Medium
-77 | File | `cart_add.php` | Medium
-78 | File | `case.filemanager.php` | High
-79 | File | `catalog.php` | Medium
-80 | File | `catalogshop.php` | High
-81 | File | `catalogue.asp` | High
-82 | File | `category.cfm` | Medium
-83 | File | `category.php` | Medium
-84 | File | `category_list.php` | High
-85 | File | `cgi-bin/awstats.pl` | High
-86 | File | `channel.asp` | Medium
-87 | File | `ChooseCpSearch.php` | High
-88 | File | `comentarii.php` | High
-89 | File | `comments.php` | Medium
-90 | File | `config.inc.php` | High
-91 | File | `config.php` | Medium
-92 | ... | ... | ...
+5 | File | `/admin/students/manage.php` | High
+6 | File | `/adminlogin.asp` | High
+7 | File | `/app/controller/Books.php` | High
+8 | File | `/aqpg/users/login.php` | High
+9 | File | `/controller/Index.php` | High
+10 | File | `/coreframe/app/content/admin/content.php` | High
+11 | File | `/dev/audio` | Medium
+12 | File | `/dl/dl_print.php` | High
+13 | File | `/etc/crash` | Medium
+14 | File | `/etc/master.passwd` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/goform/AddSysLogRule` | High
+17 | File | `/goform/WifiBasicSet` | High
+18 | File | `/Hospital-Management-System-master/contact.php` | High
+19 | File | `/include/friends.inc.php` | High
+20 | File | `/index.php?module=configuration/application` | High
+21 | File | `/members/view_member.php` | High
+22 | File | `/services/view_service.php` | High
+23 | File | `/servlet/webacc` | High
+24 | File | `/sitemagic/upgrade.php` | High
+25 | File | `/userui/ticket_list.php` | High
+26 | File | `/usr/5bin/su` | Medium
+27 | File | `/wp-admin/options-general.php` | High
+28 | File | `/zm/index.php` | High
+29 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+30 | File | `abook_database.php` | High
+31 | File | `accounts/inc/include.php` | High
+32 | File | `adaptive-images-script.php` | High
+33 | File | `additem.asp` | Medium
+34 | File | `addtocart.asp` | High
+35 | File | `adherents/subscription/info.php` | High
+36 | File | `admin.asp` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin/admin.php` | High
+39 | File | `admin/admin_users.php` | High
+40 | File | `admin/article_save.php` | High
+41 | File | `admin/general.php` | High
+42 | File | `admin/header.php` | High
+43 | File | `admin/inc/change_action.php` | High
+44 | File | `admin/index.php` | High
+45 | File | `admin/info.php` | High
+46 | File | `admin/login.asp` | High
+47 | File | `admin/manage-comments.php` | High
+48 | File | `admin/manage-news.php` | High
+49 | File | `admin/plugin-settings.php` | High
+50 | File | `admin/specials.php` | High
+51 | File | `admin:de` | Medium
+52 | File | `admincp/auth/checklogin.php` | High
+53 | File | `admincp/auth/secure.php` | High
+54 | File | `administrator/components/com_media/helpers/media.php` | High
+55 | File | `administrator/index.php` | High
+56 | File | `admin_login.asp` | High
+57 | File | `adv_search.asp` | High
+58 | File | `ajax_url.php` | Medium
+59 | File | `album_portal.php` | High
+60 | File | `al_initialize.php` | High
+61 | File | `anjel.index.php` | High
+62 | File | `annonces-p-f.php` | High
+63 | File | `announce.php` | Medium
+64 | File | `announcement.php` | High
+65 | File | `announcements.php` | High
+66 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+67 | File | `application/config/config.php` | High
+68 | File | `application/controllers/basedata/inventory.php` | High
+69 | File | `apply.cgi` | Medium
+70 | File | `apps/app_article/controller/rating.php` | High
+71 | File | `article.php` | Medium
+72 | File | `articles.php` | Medium
+73 | File | `artikel_anzeige.php` | High
+74 | File | `auktion.cgi` | Medium
+75 | File | `auth.php` | Medium
+76 | File | `authfiles/login.asp` | High
+77 | File | `basket.php` | Medium
+78 | File | `books.php` | Medium
+79 | File | `browse-category.php` | High
+80 | File | `browse.php` | Medium
+81 | File | `browse_videos.php` | High
+82 | File | `BrudaNews/BrudaGB` | High
+83 | File | `bwlist_inc.html` | High
+84 | File | `calendar.php` | Medium
+85 | File | `callme_page.php` | High
+86 | File | `cart.php` | Medium
+87 | File | `cart_add.php` | Medium
+88 | File | `case.filemanager.php` | High
+89 | File | `catalog.php` | Medium
+90 | File | `catalogshop.php` | High
+91 | File | `catalogue.asp` | High
+92 | File | `category.cfm` | Medium
+93 | File | `category.php` | Medium
+94 | File | `category_list.php` | High
+95 | File | `cgi-bin/awstats.pl` | High
+96 | ... | ... | ...
 
-There are 814 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 844 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -148,4 +157,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

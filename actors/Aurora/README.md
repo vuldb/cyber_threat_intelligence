@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [WF](https://vuldb.com/?country.wf)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,22 +56,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/GponForm/device_Form?script/` | High
 5 | File | `/index.php?/manage/channel/addchannel` | High
 6 | File | `/opac/Actions.php?a=login` | High
-7 | File | `/spip.php` | Medium
-8 | File | `/var/log/nginx` | High
-9 | File | `/wp-admin/admin-ajax.php` | High
-10 | File | `actions/beats_uploader.php` | High
-11 | File | `actions/vote_channel.php` | High
-12 | File | `Admin/ADM_Pagina.php` | High
-13 | File | `admin/article.php` | High
-14 | File | `admin/dashboard.php` | High
-15 | File | `Admin/edit-admin.php` | High
-16 | File | `admin/show.php?rec=update` | High
-17 | File | `allow/block` | Medium
-18 | File | `AlUpdate.exe` | Medium
-19 | File | `app/admin/controller/api/Update.php` | High
-20 | ... | ... | ...
+7 | File | `/opt/tms/bin/cli` | High
+8 | File | `/spip.php` | Medium
+9 | File | `/var/log/nginx` | High
+10 | File | `/wp-admin/admin-ajax.php` | High
+11 | File | `actions/beats_uploader.php` | High
+12 | File | `actions/vote_channel.php` | High
+13 | File | `Admin/ADM_Pagina.php` | High
+14 | File | `admin/article.php` | High
+15 | File | `admin/dashboard.php` | High
+16 | File | `Admin/edit-admin.php` | High
+17 | File | `admin/partials/ajax/add_field_to_form.php` | High
+18 | File | `admin/show.php?rec=update` | High
+19 | File | `allow/block` | Medium
+20 | File | `AlUpdate.exe` | Medium
+21 | File | `app/admin/controller/api/Update.php` | High
+22 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -88,4 +90,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

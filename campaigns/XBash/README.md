@@ -34,15 +34,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,28 +63,28 @@ ID | Type | Indicator | Confidence
 11 | File | `/CommunitySSORedirect.jsp` | High
 12 | File | `/ctpms/admin/?page=applications/view_application` | High
 13 | File | `/dl/dl_sendmail.php` | High
-14 | File | `/formStaticDHCP` | High
-15 | File | `/formVirtualApp` | High
-16 | File | `/formVirtualServ` | High
-17 | File | `/goform/form2WizardStep4` | High
-18 | File | `/goform/rlmswitchr_process` | High
-19 | File | `/goform/SafeMacFilter` | High
-20 | File | `/goform/SafeUrlFilter` | High
-21 | File | `/goforms/rlminfo` | High
-22 | File | `/include/make.php` | High
-23 | File | `/jsonrpc` | Medium
-24 | File | `/magnoliaAuthor/.magnolia/` | High
-25 | File | `/master/core/PostHandler.php` | High
-26 | File | `/medianet/sgcontentset.aspx` | High
-27 | File | `/Nodes-Traffic.php` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/formStaticDHCP` | High
+16 | File | `/formVirtualApp` | High
+17 | File | `/formVirtualServ` | High
+18 | File | `/goform/form2WizardStep4` | High
+19 | File | `/goform/rlmswitchr_process` | High
+20 | File | `/goform/SafeMacFilter` | High
+21 | File | `/goform/SafeUrlFilter` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/include/make.php` | High
+24 | File | `/jsonrpc` | Medium
+25 | File | `/magnoliaAuthor/.magnolia/` | High
+26 | File | `/master/core/PostHandler.php` | High
+27 | File | `/medianet/sgcontentset.aspx` | High
 28 | File | `/php-sms/classes/Master.php?f=save_quote` | High
 29 | File | `/proc/pid/syscall` | High
 30 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-31 | File | `/rss.xml` | Medium
+31 | File | `/rrdp` | Low
 32 | File | `/settings/profile` | High
 33 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,4 +101,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

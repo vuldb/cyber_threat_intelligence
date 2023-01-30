@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [SE](https://vuldb.com/?country.se)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
@@ -63,38 +63,45 @@ ID | Type | Indicator | Confidence
 3 | File | `//WEB-INF` | Medium
 4 | File | `/acms/admin/?page=transactions/manage_transaction` | High
 5 | File | `/admin/` | Low
-6 | File | `/admin/del.php` | High
-7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-10 | File | `/admin/usermanagement.php` | High
-11 | File | `/app/controller/Books.php` | High
-12 | File | `/auth/v1/sso/config/` | High
-13 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/blog/edit` | Medium
-16 | File | `/car-rental-management-system/admin/manage_user.php` | High
-17 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
-18 | File | `/cgi-bin/login.cgi` | High
-19 | File | `/cgi/networkDiag.cgi` | High
-20 | File | `/company/down_resume/total/nature` | High
-21 | File | `/ctpms/admin/?page=applications/view_application` | High
-22 | File | `/dev/cedar_dev` | High
-23 | File | `/dev/ion` | Medium
-24 | File | `/etc/passwd` | Medium
-25 | File | `/exponent_constants.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/gena.cgi` | Medium
-28 | File | `/goform/SystemCommand` | High
-29 | File | `/hospital/hms/admin/patient-search.php` | High
-30 | File | `/hrm/index.php?msg` | High
-31 | File | `/hrm/state.php` | High
-32 | File | `/include/chart_generator.php` | High
-33 | File | `/index.php` | Medium
-34 | File | `/lib` | Low
-35 | ... | ... | ...
+6 | File | `/admin/api/theme-edit/` | High
+7 | File | `/admin/del.php` | High
+8 | File | `/admin/folderrollpicture/list` | High
+9 | File | `/Admin/login.php` | High
+10 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+11 | File | `/admin/usermanagement.php` | High
+12 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+13 | File | `/bin/httpd` | Medium
+14 | File | `/blog/edit` | Medium
+15 | File | `/car-rental-management-system/admin/manage_user.php` | High
+16 | File | `/cdsms/classes/Master.php?f=delete_enrollment` | High
+17 | File | `/cgi-bin/login.cgi` | High
+18 | File | `/company/down_resume/total/nature` | High
+19 | File | `/ctpms/admin/?page=applications/view_application` | High
+20 | File | `/exponent_constants.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/SystemCommand` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/hospital/hms/admin/patient-search.php` | High
+25 | File | `/hrm/index.php?msg` | High
+26 | File | `/hrm/state.php` | High
+27 | File | `/include/chart_generator.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index/user/user_edit.html` | High
+30 | File | `/lib` | Low
+31 | File | `/librarian/lab.php` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/mtms/admin/?page=transaction/send` | High
+35 | File | `/net-banking/send_funds.php` | High
+36 | File | `/nova/bin/igmp-proxy` | High
+37 | File | `/odlms/?page=appointments/view_appointment` | High
+38 | File | `/out.php` | Medium
+39 | File | `/picturesPreview` | High
+40 | File | `/purchase_order/admin/?page=system_info` | High
+41 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+42 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,4 +120,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

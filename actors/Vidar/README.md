@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [104.200.67.209](https://vuldb.com/?ip.104.200.67.209) | x-sert.online | - | High
-2 | [159.69.20.131](https://vuldb.com/?ip.159.69.20.131) | static.131.20.69.159.clients.your-server.de | - | High
+1 | [79.124.78.206](https://vuldb.com/?ip.79.124.78.206) | - | - | High
+2 | [95.216.181.231](https://vuldb.com/?ip.95.216.181.231) | static.231.181.216.95.clients.your-server.de | - | High
+3 | [104.200.67.209](https://vuldb.com/?ip.104.200.67.209) | x-sert.online | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,8 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-2 | T1211 | CWE-358 | 7PK Security Features | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -36,14 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `net/ipv4/inet_connection_sock.c` | High
-2 | File | `router/httpd/web.c` | High
-3 | Argument | `_wpcf7_captcha_challenge_captcha-719` | High
+1 | File | `/common/info.cgi` | High
+2 | File | `host.c` | Low
+3 | File | `ldms/sm_actionfrm.asp` | High
+4 | ... | ... | ...
+
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://1275.ru/ioc/57/vidar-malware-ioc/
+* https://asec.ahnlab.com/en/39370/
 * https://isc.sans.edu/forums/diary/Arkei+Variants+From+Vidar+to+Mars+Stealer/28468/
 * https://twitter.com/S2W_Official/status/1401915001921626114
 
@@ -56,4 +72,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

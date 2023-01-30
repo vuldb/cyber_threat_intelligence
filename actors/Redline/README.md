@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -89,7 +89,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -113,42 +113,43 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/index.html` | High
 11 | File | `/admin/settings/save.php` | High
 12 | File | `/api/v2/cli/commands` | High
-13 | File | `/bin/login` | Medium
-14 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-15 | File | `/category.php` | High
-16 | File | `/cgi-bin/delete_CA` | High
-17 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-18 | File | `/download` | Medium
-19 | File | `/etc/gsissh/sshd_config` | High
-20 | File | `/get_getnetworkconf.cgi` | High
-21 | File | `/goform/addUserName` | High
-22 | File | `/goform/delAd` | High
-23 | File | `/goform/wifiSSIDset` | High
-24 | File | `/gpac/src/bifs/unquantize.c` | High
-25 | File | `/GponForm/device_Form?script/` | High
-26 | File | `/home` | Low
-27 | File | `/includes/rrdtool.inc.php` | High
-28 | File | `/index.asp` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/jfinal_cms/system/role/list` | High
-31 | File | `/Main_AdmStatus_Content.asp` | High
-32 | File | `/members/view_member.php` | High
-33 | File | `/NAGErrors` | Medium
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-36 | File | `/plain` | Low
-37 | File | `/public` | Low
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/sgms/TreeControl` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-42 | File | `/tmp` | Low
-43 | File | `/uncpath/` | Medium
-44 | File | `/updown/upload.cgi` | High
-45 | File | `/var/log/nginx` | High
-46 | ... | ... | ...
+13 | File | `/apply.cgi` | Medium
+14 | File | `/bin/login` | Medium
+15 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+16 | File | `/category.php` | High
+17 | File | `/cgi-bin/delete_CA` | High
+18 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+19 | File | `/download` | Medium
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/get_getnetworkconf.cgi` | High
+22 | File | `/goform/addUserName` | High
+23 | File | `/goform/delAd` | High
+24 | File | `/goform/wifiSSIDset` | High
+25 | File | `/gpac/src/bifs/unquantize.c` | High
+26 | File | `/GponForm/device_Form?script/` | High
+27 | File | `/home` | Low
+28 | File | `/includes/rrdtool.inc.php` | High
+29 | File | `/index.asp` | Medium
+30 | File | `/index.php` | Medium
+31 | File | `/jfinal_cms/system/role/list` | High
+32 | File | `/Main_AdmStatus_Content.asp` | High
+33 | File | `/members/view_member.php` | High
+34 | File | `/NAGErrors` | Medium
+35 | File | `/owa/auth/logon.aspx` | High
+36 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+37 | File | `/plain` | Low
+38 | File | `/public` | Low
+39 | File | `/secure/QueryComponent!Default.jspa` | High
+40 | File | `/sgms/TreeControl` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+43 | File | `/tmp` | Low
+44 | File | `/uncpath/` | Medium
+45 | File | `/updown/upload.cgi` | High
+46 | File | `/var/log/nginx` | High
+47 | ... | ... | ...
 
-There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

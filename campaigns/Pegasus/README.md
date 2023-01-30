@@ -98,12 +98,12 @@ ID | Type | Indicator | Confidence
 30 | File | `admin.php` | Medium
 31 | File | `admin.php?m=backup&c=backup&a=doback` | High
 32 | File | `admin.php?mod=product&act=state` | High
-33 | File | `admin/conf_users_edit.php` | High
-34 | File | `admin/cp-functions/event-add.php` | High
-35 | File | `admin/index.php` | High
+33 | File | `admin/abc.php` | High
+34 | File | `admin/booking_report.php` | High
+35 | File | `admin/conf_users_edit.php` | High
 36 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

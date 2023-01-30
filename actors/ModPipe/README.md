@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ModPipe:
 
-* [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,33 +65,36 @@ ID | Type | Indicator | Confidence
 15 | File | `/uncpath/` | Medium
 16 | File | `/updown/upload.cgi` | High
 17 | File | `/usr/bin/pkexec` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-20 | File | `addpost_newpoll.php` | High
-21 | File | `adm-index.php` | High
-22 | File | `Admin.PHP` | Medium
-23 | File | `admin.php` | Medium
-24 | File | `admin/index.php` | High
-25 | File | `admin/ops/reports/ops/forum.php` | High
-26 | File | `admincp/attachment.php` | High
-27 | File | `adminedit.pl` | Medium
-28 | File | `ajax/api/hook/getHookList` | High
-29 | File | `archive/index.php` | High
-30 | File | `backend/groups/index.php` | High
-31 | File | `bbs/member_confirm.php` | High
-32 | File | `bottom.php` | Medium
-33 | File | `breadcrumbs_create.php` | High
-34 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-35 | File | `cds-fpdf.php` | Medium
-36 | File | `connector.php` | High
-37 | File | `controllers/member/Api.php` | High
-38 | File | `cp.php` | Low
-39 | File | `dashboard_teacher.php` | High
-40 | File | `data/gbconfiguration.dat` | High
-41 | File | `demo.php` | Medium
-42 | ... | ... | ...
+18 | File | `/var/run/docker.sock` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `/xpdf/Stream.cc` | High
+21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+22 | File | `addpost_newpoll.php` | High
+23 | File | `adm-index.php` | High
+24 | File | `Admin.PHP` | Medium
+25 | File | `admin.php` | Medium
+26 | File | `admin.php&r=article/AdminContent/edit` | High
+27 | File | `admin/index.php` | High
+28 | File | `admin/ops/reports/ops/forum.php` | High
+29 | File | `admincp/attachment.php` | High
+30 | File | `adminedit.pl` | Medium
+31 | File | `ajax/api/hook/getHookList` | High
+32 | File | `App\Manage\Controller\ArticleController.class.php` | High
+33 | File | `archive/index.php` | High
+34 | File | `auth-gss2.c` | Medium
+35 | File | `backend/groups/index.php` | High
+36 | File | `bbs/member_confirm.php` | High
+37 | File | `bottom.php` | Medium
+38 | File | `breadcrumbs_create.php` | High
+39 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+40 | File | `cds-fpdf.php` | Medium
+41 | File | `common.php` | Medium
+42 | File | `connector.php` | High
+43 | File | `controllers/member/Api.php` | High
+44 | File | `core/Web.js` | Medium
+45 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,4 +111,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

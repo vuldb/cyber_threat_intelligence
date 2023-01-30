@@ -133,14 +133,15 @@ ID | Type | Indicator | Confidence
 22 | File | `/goform/SafeMacFilter` | High
 23 | File | `/goform/SafeUrlFilter` | High
 24 | File | `/goform/setMacFilterCfg` | High
-25 | File | `/goform/SysToolReboot` | High
-26 | File | `/goform/SysToolRestoreSet` | High
-27 | File | `/goform/VirtualSer` | High
-28 | File | `/h/calendar` | Medium
-29 | File | `/hrm/controller/employee.php` | High
-30 | ... | ... | ...
+25 | File | `/goform/VirtualSer` | High
+26 | File | `/h/calendar` | Medium
+27 | File | `/hrm/controller/employee.php` | High
+28 | File | `/hrm/employeeadd.php` | High
+29 | File | `/hrm/employeeview.php` | High
+30 | File | `/lib` | Low
+31 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

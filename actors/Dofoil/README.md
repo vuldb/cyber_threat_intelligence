@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,35 +58,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/Ap4RtpAtom.cpp` | High
-3 | File | `/app/options.py` | High
-4 | File | `/bcms/admin/?page=user/list` | High
-5 | File | `/bsms/?page=manage_account` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/ci_hms/massage_room/edit/1` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/dashboard/reports/logs/view` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/hosts` | Medium
-12 | File | `/fuel/index.php/fuel/logs/items` | High
-13 | File | `/fuel/sitevariables/delete/4` | High
-14 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-15 | File | `/index/jobfairol/show/` | High
-16 | File | `/librarian/bookdetails.php` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/monitoring` | Medium
-19 | File | `/new` | Low
-20 | File | `/proc/<PID>/mem` | High
-21 | File | `/proc/<pid>/status` | High
-22 | File | `/public/plugins/` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-26 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-27 | File | `/tmp` | Low
-28 | ... | ... | ...
+2 | File | `/about.php` | Medium
+3 | File | `/admin/config.php?display=disa&view=form` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/app/options.py` | High
+8 | File | `/attachments` | Medium
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/fuel/sitevariables/delete/4` | High
+21 | File | `/goform/setmac` | High
+22 | File | `/goform/wizard_end` | High
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/pages/apply_vacancy.php` | High
+30 | File | `/proc/<PID>/mem` | High
+31 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -107,4 +110,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

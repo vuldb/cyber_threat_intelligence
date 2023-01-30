@@ -80,15 +80,15 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
 2 | File | `/about.php` | Medium
-3 | File | `/admin/?page=system_info/contact_info` | High
-4 | File | `/admin/dl_sendmail.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/ad_js.php` | Medium
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/app/options.py` | High
-10 | File | `/attachments` | Medium
-11 | File | `/bsms/?page=manage_account` | High
+3 | File | `/admin/dl_sendmail.php` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/app/options.py` | High
+9 | File | `/attachments` | Medium
+10 | File | `/bsms/?page=manage_account` | High
+11 | File | `/bsms_ci/index.php/book` | High
 12 | File | `/cgi-bin/login.cgi` | High
 13 | File | `/cgi-bin/luci/api/wireless` | High
 14 | File | `/ci_hms/massage_room/edit/1` | High
@@ -97,22 +97,21 @@ ID | Type | Indicator | Confidence
 17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 18 | File | `/debug/pprof` | Medium
 19 | File | `/etc/hosts` | Medium
-20 | File | `/fuel/sitevariables/delete/4` | High
-21 | File | `/goform/aspForm` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/fuel/sitevariables/delete/4` | High
 22 | File | `/goform/setmac` | High
 23 | File | `/goform/wizard_end` | High
 24 | File | `/hprms/admin/doctors/manage_doctor.php` | High
 25 | File | `/index/jobfairol/show/` | High
 26 | File | `/librarian/bookdetails.php` | High
 27 | File | `/manage-apartment.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/pages/apply_vacancy.php` | High
-30 | File | `/proc/<PID>/mem` | High
-31 | File | `/project/PROJECTNAME/reports/` | High
-32 | File | `/proxy` | Low
-33 | ... | ... | ...
+28 | File | `/medicines/profile.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/pages/apply_vacancy.php` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

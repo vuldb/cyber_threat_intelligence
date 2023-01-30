@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1211 | CWE-254 | 7PK Security Features | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/netflow/jspui/editProfile.jsp` | High
-3 | File | `/rapi/read_url` | High
-4 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-5 | File | `admin/google_search_console/class-gsc-table.php` | High
-6 | File | `administrator/components/com_media/helpers/media.php` | High
-7 | File | `cgi-bin/qcmap_web_cgi` | High
-8 | File | `class/debug/debug_show.php` | High
-9 | File | `coders/png.c` | Medium
-10 | ... | ... | ...
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/netflow/jspui/editProfile.jsp` | High
+4 | File | `/rapi/read_url` | High
+5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+6 | File | `admin/google_search_console/class-gsc-table.php` | High
+7 | File | `administrator/components/com_media/helpers/media.php` | High
+8 | File | `cgi-bin/qcmap_web_cgi` | High
+9 | File | `class/debug/debug_show.php` | High
+10 | File | `coders/png.c` | Medium
+11 | ... | ... | ...
 
-There are 72 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,4 +76,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

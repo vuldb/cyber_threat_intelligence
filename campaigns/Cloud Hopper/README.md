@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 28 | File | `/v2/quantum/save-data-upload-big-file` | High
 29 | File | `4.edu.php` | Medium
 30 | File | `adclick.php` | Medium
-31 | File | `addentry.php` | Medium
-32 | ... | ... | ...
+31 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

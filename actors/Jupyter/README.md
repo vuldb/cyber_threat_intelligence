@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Jupyter:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 31 more country items available. Please use our online service to access the data.
@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,38 +71,40 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/addusers` | High
 19 | File | `/api/crontab` | Medium
 20 | File | `/api/user/upsert/<uuid>` | High
-21 | File | `/apiadmin/notice/add` | High
-22 | File | `/bin/boa` | Medium
-23 | File | `/category_view.php` | High
+21 | File | `/api2/html/` | Medium
+22 | File | `/apiadmin/notice/add` | High
+23 | File | `/bin/boa` | Medium
 24 | File | `/cgi-bin/wapopen` | High
 25 | File | `/cgi-bin/wlogin.cgi` | High
 26 | File | `/cgi-mod/lookup.cgi` | High
 27 | File | `/cloud_config/router_post/register` | High
 28 | File | `/dashboard/updatelogo.php` | High
 29 | File | `/designer/add/layout` | High
-30 | File | `/filemanager/upload/drop` | High
-31 | File | `/forum/away.php` | High
-32 | File | `/h/calendar` | Medium
-33 | File | `/h/compose` | Medium
-34 | File | `/h/search?action=voicemail&action=listen` | High
-35 | File | `/iissamples` | Medium
-36 | File | `/include/chart_generator.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/librarian/bookdetails.php` | High
-39 | File | `/loginVaLidation.php` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/manager/index.php` | High
-42 | File | `/mgmt/tm/util/bash` | High
-43 | File | `/mkshop/Men/profile.php` | High
-44 | File | `/Noxen-master/users.php` | High
-45 | File | `/opac/Actions.php?a=login` | High
-46 | File | `/owa/auth/logon.aspx` | High
-47 | File | `/p1/p2/:name` | Medium
-48 | File | `/pages/animals.php` | High
-49 | File | `/pages/processlogin.php` | High
-50 | ... | ... | ...
+30 | File | `/etc/ldap.conf` | High
+31 | File | `/etc/shadow` | Medium
+32 | File | `/filemanager/upload/drop` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/h/compose` | Medium
+36 | File | `/h/search?action=voicemail&action=listen` | High
+37 | File | `/iissamples` | Medium
+38 | File | `/include/chart_generator.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/loginVaLidation.php` | High
+42 | File | `/manage-apartment.php` | High
+43 | File | `/manager/index.php` | High
+44 | File | `/mgmt/tm/util/bash` | High
+45 | File | `/mkshop/Men/profile.php` | High
+46 | File | `/Noxen-master/users.php` | High
+47 | File | `/opac/Actions.php?a=login` | High
+48 | File | `/owa/auth/logon.aspx` | High
+49 | File | `/p1/p2/:name` | Medium
+50 | File | `/pages/animals.php` | High
+51 | File | `/pages/processlogin.php` | High
+52 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,4 +123,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -117,37 +117,37 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/submit-articles` | High
 7 | File | `/apilog.php` | Medium
 8 | File | `/attachments` | Medium
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/connectors/index.php` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/dev/block/mmcblk0rpmb` | High
-15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-16 | File | `/etc/hosts` | Medium
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/fos/admin/ajax.php?action=login` | High
-20 | File | `/fos/admin/index.php?page=menu` | High
-21 | File | `/goform/setmac` | High
-22 | File | `/goform/wizard_end` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/items/view_item.php` | High
-27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-28 | File | `/lookin/info` | Medium
-29 | File | `/manage-apartment.php` | High
+9 | File | `/bsms_ci/index.php/book` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/connectors/index.php` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dev/block/mmcblk0rpmb` | High
+16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+17 | File | `/etc/hosts` | Medium
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/items/view_item.php` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+29 | File | `/lookin/info` | Medium
 30 | File | `/manager/index.php` | High
 31 | File | `/medical/inventories.php` | High
-32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-33 | File | `/modules/profile/index.php` | High
-34 | File | `/modules/projects/vw_files.php` | High
-35 | File | `/modules/public/calendar.php` | High
-36 | File | `/MTFWU` | Low
-37 | File | `/newsDia.php` | Medium
-38 | File | `/out.php` | Medium
-39 | File | `/pages/apply_vacancy.php` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/modules/projects/vw_files.php` | High
+36 | File | `/modules/public/calendar.php` | High
+37 | File | `/MTFWU` | Low
+38 | File | `/newsDia.php` | Medium
+39 | File | `/out.php` | Medium
 40 | File | `/proxy` | Low
 41 | File | `/Redcock-Farm/farm/category.php` | High
 42 | File | `/reports/rwservlet` | High
@@ -169,7 +169,7 @@ ID | Type | Indicator | Confidence
 58 | File | `adclick.php` | Medium
 59 | ... | ... | ...
 
-There are 515 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

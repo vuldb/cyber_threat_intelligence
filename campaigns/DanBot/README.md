@@ -100,14 +100,14 @@ ID | Type | Indicator | Confidence
 41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 42 | File | `/services/system/setup.json` | High
 43 | File | `/spip.php` | Medium
-44 | File | `/tmp` | Low
-45 | File | `/uncpath/` | Medium
-46 | File | `/vloggers_merch/?p=view_product` | High
-47 | File | `/webconsole/APIController` | High
-48 | File | `/websocket/exec` | High
+44 | File | `/sys/dict/queryTableData` | High
+45 | File | `/tmp` | Low
+46 | File | `/uncpath/` | Medium
+47 | File | `/vloggers_merch/?p=view_product` | High
+48 | File | `/webconsole/APIController` | High
 49 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

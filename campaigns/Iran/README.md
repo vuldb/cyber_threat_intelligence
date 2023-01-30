@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [NL](https://vuldb.com/?country.nl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -30,12 +30,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [68.183.79.77](https://vuldb.com/?ip.68.183.79.77) | - | [Indra](https://vuldb.com/?actor.indra) | High
-2 | [91.214.124.143](https://vuldb.com/?ip.91.214.124.143) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
-3 | [139.59.89.238](https://vuldb.com/?ip.139.59.89.238) | 481010.cloudwaysapps.com | [Indra](https://vuldb.com/?actor.indra) | High
-4 | ... | ... | ... | ...
+1 | [46.30.189.66](https://vuldb.com/?ip.46.30.189.66) | - | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+2 | [51.89.181.64](https://vuldb.com/?ip.51.89.181.64) | ip64.ip-51-89-181.eu | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+3 | [66.219.22.235](https://vuldb.com/?ip.66.219.22.235) | core96.hostingmadeeasy.com | [Iran Unknown](https://vuldb.com/?actor.iran_unknown) | High
+4 | [68.183.79.77](https://vuldb.com/?ip.68.183.79.77) | - | [Indra](https://vuldb.com/?actor.indra) | High
+5 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,18 +58,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/administration/theme.php` | High
-2 | File | `/cgi-bin/webproc` | High
-3 | File | `/ofrs/admin/?page=requests/manage_request` | High
-4 | ... | ... | ...
+2 | File | `/api/` | Low
+3 | File | `/api/index.php` | High
+4 | File | `/cgi-bin/webproc` | High
+5 | File | `/coreframe/app/pay/admin/index.php` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/index.php` | Medium
+8 | File | `/ofrs/admin/?page=requests/manage_request` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `announcement.php` | High
+13 | ... | ... | ...
 
-There are 20 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://github.com/blackorbird/APT_REPORT/blob/master/muddywater/Clearsky-Iranian-APT-group-%E2%80%98MuddyWater%E2%80%99-Adds-Exploits-to-Their-Arsenal.pdf
 * https://research.checkpoint.com/2021/indra-hackers-behind-recent-attacks-on-iran/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-321a
+* https://www.cisa.gov/uscert/ncas/alerts/aa22-320a
+* https://www.microsoft.com/security/blog/2022/09/08/microsoft-investigates-iranian-attacks-against-the-albanian-government/
 
 ## Literature
 
@@ -79,4 +92,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

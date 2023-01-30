@@ -30,14 +30,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-29, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,23 +57,22 @@ ID | Type | Indicator | Confidence
 10 | File | `/etc/shadow` | Medium
 11 | File | `/food` | Low
 12 | File | `/forum/away.php` | High
-13 | File | `/hss/admin/?page=client/manage_client` | High
-14 | File | `/hss/classes/Users.php?f=delete` | High
-15 | File | `/index/user/user_edit.html` | High
-16 | File | `/login/index.php` | High
-17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-18 | File | `/rest/api/2/user/picker` | High
-19 | File | `/setNTP.cgi` | Medium
-20 | File | `/tpts/manage_user.php` | High
-21 | File | `/usr/etc/restore0.9` | High
-22 | File | `/VerAyari` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `AddAppNetworksFragment.java` | High
-25 | File | `add_contestant.php` | High
-26 | File | `admin/import/class-import-settings.php` | High
-27 | ... | ... | ...
+13 | File | `/hss/classes/Users.php?f=delete` | High
+14 | File | `/index/user/user_edit.html` | High
+15 | File | `/login/index.php` | High
+16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+17 | File | `/rest/api/2/user/picker` | High
+18 | File | `/setNTP.cgi` | Medium
+19 | File | `/tpts/manage_user.php` | High
+20 | File | `/usr/etc/restore0.9` | High
+21 | File | `/VerAyari` | Medium
+22 | File | `adclick.php` | Medium
+23 | File | `AddAppNetworksFragment.java` | High
+24 | File | `add_contestant.php` | High
+25 | File | `admin/import/class-import-settings.php` | High
+26 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

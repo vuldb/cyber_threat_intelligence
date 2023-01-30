@@ -65,23 +65,23 @@ ID | Type | Indicator | Confidence
 5 | File | `/Home/debit_credit_p` | High
 6 | File | `/index.php/weblinks-categories` | High
 7 | File | `/iwguestbook/admin/messages_edit.asp` | High
-8 | File | `/odfs/classes/Master.php?f=delete_team` | High
-9 | File | `/public/plugins/` | High
-10 | File | `/scripts/iisadmin/bdir.htr` | High
-11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-12 | File | `add.php` | Low
-13 | File | `admin.cgi/config.cgi` | High
-14 | File | `admin/admin.guestbook.php` | High
-15 | File | `admin/auth.php` | High
-16 | File | `admin/backupdb.php` | High
-17 | File | `admin/login.asp` | High
-18 | File | `admin/preview.php` | High
-19 | File | `administrator/components/com_media/helpers/media.php` | High
-20 | File | `archive_read_support_format_rar.c` | High
-21 | File | `auth.py` | Low
+8 | File | `/login/index.php` | High
+9 | File | `/odfs/classes/Master.php?f=delete_team` | High
+10 | File | `/public/plugins/` | High
+11 | File | `/scripts/iisadmin/bdir.htr` | High
+12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+13 | File | `add.php` | Low
+14 | File | `admin.cgi/config.cgi` | High
+15 | File | `admin/admin.guestbook.php` | High
+16 | File | `admin/auth.php` | High
+17 | File | `admin/backupdb.php` | High
+18 | File | `admin/login.asp` | High
+19 | File | `admin/preview.php` | High
+20 | File | `administrator/components/com_media/helpers/media.php` | High
+21 | File | `archive_read_support_format_rar.c` | High
 22 | ... | ... | ...
 
-There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,4 +98,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

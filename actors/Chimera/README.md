@@ -31,14 +31,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,41 +48,40 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/admin.php` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/index.PHP` | High
-7 | File | `/admin/sendmailto.php?tomail=&groupid=` | High
-8 | File | `/admin/update_traveller.php` | High
-9 | File | `/advanced-tools/nova/bin/netwatch` | High
-10 | File | `/bsms_ci/index.php` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cameras/XXXX/clips` | High
-13 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-14 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-15 | File | `/cgi-bin/qcmap_auth` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/CommunitySSORedirect.jsp` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/diagnostic/editclient.php` | High
-21 | File | `/editbrand.php` | High
-22 | File | `/etc/sudoers` | Medium
-23 | File | `/filemanager/php/connector.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/index.php?module=global_lists/lists` | High
-26 | File | `/leave_system/classes/Master.php?f=delete_application` | High
+3 | File | `/admin/admin.php` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/bsms_ci/index.php` | High
+6 | File | `/bsms_ci/index.php/user/edit_user/` | High
+7 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+8 | File | `/cgi-bin/api-get_line_status` | High
+9 | File | `/cgi-bin/luci` | High
+10 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+11 | File | `/cgi-bin/qcmap_auth` | High
+12 | File | `/cgi-bin/upload_vpntar` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/CommunitySSORedirect.jsp` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/diagnostic/editclient.php` | High
+17 | File | `/export` | Low
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/hrm/controller/employee.php` | High
+22 | File | `/index.php?module=global_lists/lists` | High
+23 | File | `/login/index.php` | High
+24 | File | `/mkshope/login.php` | High
+25 | File | `/network_test.php` | High
+26 | File | `/obs/book.php` | High
 27 | File | `/okm:root` | Medium
-28 | File | `/opt/onedev/sites/` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/out.php` | Medium
-31 | File | `/phpinventory/editcategory.php` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/out.php` | Medium
+30 | File | `/products/view_product.php` | High
+31 | File | `/public/launchNewWindow.jsp` | High
 32 | File | `/public_html/animals` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/sqfs/bin/sccd` | High
-35 | ... | ... | ...
+33 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+34 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -100,4 +99,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cuba:
 
+* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [UNC2596](https://vuldb.com/?actor.unc2596) | High
 2 | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
+3 | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
 
 ## IOC - Indicator of Compromise
 
@@ -33,14 +34,28 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [5.62.56.72](https://vuldb.com/?ip.5.62.56.72) | r-72-56-62-5.consumer-pool.prcdn.net | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
 2 | [5.62.58.68](https://vuldb.com/?ip.5.62.58.68) | r-68-58-62-5.consumer-pool.prcdn.net | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
 3 | [5.101.221.128](https://vuldb.com/?ip.5.101.221.128) | - | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
-4 | [23.227.197.229](https://vuldb.com/?ip.23.227.197.229) | 23-227-197-229.static.hvvc.us | [UNC2596](https://vuldb.com/?actor.unc2596) | High
-5 | [45.12.70.51](https://vuldb.com/?ip.45.12.70.51) | appropriate.get-eye.com | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
-6 | [45.12.71.51](https://vuldb.com/?ip.45.12.71.51) | - | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
-7 | [45.32.229.66](https://vuldb.com/?ip.45.32.229.66) | 45.32.229.66.vultrusercontent.com | [UNC2596](https://vuldb.com/?actor.unc2596) | High
-8 | [57.91.32.0](https://vuldb.com/?ip.57.91.32.0) | - | [Cuba Unknown](https://vuldb.com/?actor.cuba_unknown) | High
-9 | ... | ... | ... | ...
+4 | [10.13.102.1](https://vuldb.com/?ip.10.13.102.1) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+5 | [10.13.102.58](https://vuldb.com/?ip.10.13.102.58) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+6 | [10.14.100.20](https://vuldb.com/?ip.10.14.100.20) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+7 | [10.133.78.41](https://vuldb.com/?ip.10.133.78.41) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+8 | [23.227.197.229](https://vuldb.com/?ip.23.227.197.229) | 23-227-197-229.static.hvvc.us | [UNC2596](https://vuldb.com/?actor.unc2596) | High
+9 | [23.227.198.246](https://vuldb.com/?ip.23.227.198.246) | 23-227-198-246.static.hvvc.us | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+10 | [31.44.184.84](https://vuldb.com/?ip.31.44.184.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+11 | [31.44.184.100](https://vuldb.com/?ip.31.44.184.100) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+12 | [31.184.192.44](https://vuldb.com/?ip.31.184.192.44) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+13 | [31.184.194.42](https://vuldb.com/?ip.31.184.194.42) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+14 | [31.184.198.74](https://vuldb.com/?ip.31.184.198.74) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+15 | [31.184.198.80](https://vuldb.com/?ip.31.184.198.80) | directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+16 | [31.184.198.82](https://vuldb.com/?ip.31.184.198.82) | harms.directingme.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+17 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+18 | [31.184.198.84](https://vuldb.com/?ip.31.184.198.84) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+19 | [31.184.198.85](https://vuldb.com/?ip.31.184.198.85) | mta1.thomsai.com | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+20 | [31.184.198.86](https://vuldb.com/?ip.31.184.198.86) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+21 | [31.184.198.90](https://vuldb.com/?ip.31.184.198.90) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+22 | [31.184.198.111](https://vuldb.com/?ip.31.184.198.111) | - | [Cuba Ransomware](https://vuldb.com/?actor.cuba_ransomware) | High
+23 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -48,13 +63,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,70 +78,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/drivers/media/media-device.c` | High
-9 | File | `/etc/gsissh/sshd_config` | High
-10 | File | `/etc/master.passwd` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/home.php` | Medium
-15 | File | `/homeaction.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/p` | Low
-22 | File | `/preauth` | Medium
-23 | File | `/products/details.asp` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/see_more_details.php` | High
-26 | File | `/show_news.php` | High
-27 | File | `/supervisor/procesa_carga.php` | High
-28 | File | `/tmp/before` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/updownload/t.report` | High
-31 | File | `/user.profile.php` | High
-32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-33 | File | `/wordpress/wp-admin/options-general.php` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `account.asp` | Medium
-37 | File | `adclick.php` | Medium
-38 | File | `add_comment.php` | High
-39 | File | `adm/systools.asp` | High
-40 | File | `admin.php` | Medium
-41 | File | `admin/admin.shtml` | High
-42 | File | `Admin/ADM_Pagina.php` | High
-43 | File | `admin/category.inc.php` | High
-44 | File | `admin/main.asp` | High
-45 | File | `admin/param/param_func.inc.php` | High
-46 | File | `admin/y_admin.asp` | High
-47 | File | `adminer.php` | Medium
-48 | File | `administrator/components/com_media/helpers/media.php` | High
-49 | File | `admin_ok.asp` | Medium
-50 | File | `app/Core/Paginator.php` | High
-51 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-52 | File | `artlinks.dispnew.php` | High
-53 | File | `auth.php` | Medium
-54 | File | `auth_changepassword.php` | High
-55 | File | `bin/named/query.c` | High
-56 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin/ajax.php?action=delete_window` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
+6 | File | `/cgi-bin/luci` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/upload_vpntar` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/common/run_cross_report.php` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/export` | Low
+14 | File | `/forum/away.php` | High
+15 | File | `/goform/QuickIndex` | High
+16 | File | `/goform/setMacFilterCfg` | High
+17 | File | `/goform/SysToolChangePwd` | High
+18 | File | `/goform/WifiBasicSet` | High
+19 | File | `/goform/WifiMacFilterGet` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/hrm/controller/employee.php` | High
+22 | File | `/index.php?action=seomatic/file/seo-file-link` | High
+23 | File | `/login/index.php` | High
+24 | File | `/mkshope/login.php` | High
+25 | File | `/nova/bin/sniffer` | High
+26 | File | `/obs/book.php` | High
+27 | File | `/php_action/createUser.php` | High
+28 | File | `/products/view_product.php` | High
+29 | File | `/public/launchNewWindow.jsp` | High
+30 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+31 | File | `/self.key` | Medium
+32 | File | `/services/view_service.php` | High
+33 | File | `/shell` | Low
+34 | File | `/spip.php` | Medium
+35 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_cu.netset
+* https://www.cisa.gov/uscert/ncas/alerts/aa22-335a
 * https://www.mandiant.com/resources/unc2596-cuba-ransomware
 
 ## Literature
@@ -137,4 +133,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

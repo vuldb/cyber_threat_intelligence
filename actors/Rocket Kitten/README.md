@@ -51,31 +51,33 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin.php` | Medium
 3 | File | `/admin/book/create/` | High
-4 | File | `/admin/loginc.php` | High
-5 | File | `/auditLogAction.do` | High
-6 | File | `/cgi-bin/wapopen` | High
-7 | File | `/devices/acurite.c` | High
-8 | File | `/etc/ajenti/config.yml` | High
-9 | File | `/etc/sudoers` | Medium
-10 | File | `/example/editor` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-13 | File | `/goform/login_process` | High
-14 | File | `/goform/rlmswitchr_process` | High
-15 | File | `/goforms/rlminfo` | High
-16 | File | `/newsDia.php` | Medium
-17 | File | `/plugin` | Low
-18 | File | `/rating.php` | Medium
-19 | File | `/scas/admin/` | Medium
-20 | File | `/scas/classes/Users.php?f=save_user` | High
-21 | File | `/services/prefs.php` | High
-22 | File | `/src/njs_object.c` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/wordpress-gallery-transformation/gallery.php` | High
-25 | File | `adclick.php` | Medium
-26 | ... | ... | ...
+4 | File | `/Admin/login.php` | High
+5 | File | `/admin/loginc.php` | High
+6 | File | `/admin/students/manage.php` | High
+7 | File | `/auditLogAction.do` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/devices/acurite.c` | High
+10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+11 | File | `/etc/ajenti/config.yml` | High
+12 | File | `/etc/sudoers` | Medium
+13 | File | `/event/admin/?page=user/list` | High
+14 | File | `/example/editor` | High
+15 | File | `/foms/place-order.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+18 | File | `/goform/login_process` | High
+19 | File | `/goform/rlmswitchr_process` | High
+20 | File | `/goforms/rlminfo` | High
+21 | File | `/newsDia.php` | Medium
+22 | File | `/plugin` | Low
+23 | File | `/pms/index.php` | High
+24 | File | `/rating.php` | Medium
+25 | File | `/scas/admin/` | Medium
+26 | File | `/scas/classes/Users.php?f=save_user` | High
+27 | File | `/services/prefs.php` | High
+28 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,4 +94,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
