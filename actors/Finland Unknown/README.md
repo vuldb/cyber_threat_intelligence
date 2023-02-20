@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Finland Unknown:
 
-* [AR](https://vuldb.com/?country.ar)
-* [FR](https://vuldb.com/?country.fr)
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
+* [AR](https://vuldb.com/?country.ar)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -388,12 +388,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-36 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1083 | CWE-538, CWE-548, CWE-552 | File and Directory Information Exposure | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -403,56 +404,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/ipcamRecordPost` | High
+1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `/admin/api/admin/articles/` | High
 3 | File | `/admin/fst_upload.inc.php` | High
 4 | File | `/admin/pages/revisions.php` | High
-5 | File | `/admin/users/index.php` | High
-6 | File | `/api/audits` | Medium
-7 | File | `/api2/html/` | Medium
-8 | File | `/asms/classes/Master.php?f=delete_mechanic` | High
-9 | File | `/asms/classes/Master.php?f=delete_service` | High
-10 | File | `/bin/proc.cgi` | High
-11 | File | `/bsms_ci/index.php/book` | High
-12 | File | `/cgi-bin/logs.ha` | High
-13 | File | `/clients/listclients.php` | High
-14 | File | `/contacts/listcontacts.php` | High
-15 | File | `/data/app` | Medium
-16 | File | `/device/` | Medium
-17 | File | `/diag_ping_admin.asp` | High
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/etc/passwd` | Medium
-20 | File | `/event/admin/?page=user/list` | High
-21 | File | `/face-recognition-php/facepay-master/camera.php` | High
-22 | File | `/FreshRSS/p/ext.php` | High
-23 | File | `/front/actions.php` | High
-24 | File | `/goform/exeCommand` | High
-25 | File | `/goform/form2WizardStep4` | High
-26 | File | `/goform/IPSECsave` | High
-27 | File | `/goform/L7Im` | Medium
-28 | File | `/goform/SafeClientFilter` | High
-29 | File | `/goform/SafeUrlFilter` | High
-30 | File | `/goform/SetIpMacBind` | High
-31 | File | `/goform/setSysAdm` | High
-32 | File | `/goform/setSysPwd` | High
-33 | File | `/goform/SysToolReboot` | High
-34 | File | `/hrm/controller/employee.php` | High
-35 | File | `/hrm/employeeadd.php` | High
-36 | File | `/hrm/employeeview.php` | High
-37 | File | `/hss/?page=product_per_brand` | High
-38 | File | `/hss/admin/brands/manage_brand.php` | High
-39 | File | `/ims/login.php` | High
-40 | File | `/inc/parser/xhtml.php` | High
-41 | File | `/index.php?module=entities/fields&entities_id=24` | High
-42 | File | `/isomedia/meta.c` | High
-43 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-44 | File | `/lookin/info` | Medium
-45 | File | `/mods/_core/courses/users/create_course.php` | High
-46 | File | `/odlms/?page=appointments/view_appointment` | High
-47 | File | `/proxy` | Low
-48 | ... | ... | ...
+5 | File | `/api/audits` | Medium
+6 | File | `/api2/html/` | Medium
+7 | File | `/cgi-bin/logs.ha` | High
+8 | File | `/clients/listclients.php` | High
+9 | File | `/contacts/listcontacts.php` | High
+10 | File | `/data/app` | Medium
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/fos/admin/ajax.php?action=login` | High
+16 | File | `/fos/admin/index.php?page=menu` | High
+17 | File | `/FreshRSS/p/ext.php` | High
+18 | File | `/front/actions.php` | High
+19 | File | `/goform/exeCommand` | High
+20 | File | `/goform/IPSECsave` | High
+21 | File | `/goform/L7Im` | Medium
+22 | File | `/goform/SafeClientFilter` | High
+23 | File | `/goform/SafeUrlFilter` | High
+24 | File | `/goform/setSysPwd` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/home/sendBroadcast` | High
+28 | File | `/hrm/controller/employee.php` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/hss/?page=product_per_brand` | High
+32 | File | `/hss/admin/brands/manage_brand.php` | High
+33 | File | `/inc/parser/xhtml.php` | High
+34 | File | `/index.php?module=entities/fields&entities_id=24` | High
+35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+36 | File | `/lookin/info` | Medium
+37 | File | `/mods/_core/courses/users/create_course.php` | High
+38 | File | `/odlms/?page=appointments/view_appointment` | High
+39 | File | `/proxy` | Low
+40 | File | `/reports/rwservlet` | High
+41 | File | `/template/edit` | High
+42 | File | `/webservices/download/index.php` | High
+43 | File | `/wireless/security.asp` | High
+44 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+45 | File | `01article.php` | High
+46 | File | `4840/tcp` | Medium
+47 | File | `AAVCAssembler.cpp` | High
+48 | File | `AbstractScheduleJob.java` | High
+49 | File | `AccessibilityManager.java` | High
+50 | File | `account/lost_password` | High
+51 | File | `AccountsDb.java` | High
+52 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

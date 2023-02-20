@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
-* [SC](https://vuldb.com/?country.sc)
 * [DE](https://vuldb.com/?country.de)
+* [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -104,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,30 +120,34 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/shadow` | Medium
 7 | File | `/food` | Low
 8 | File | `/forum/away.php` | High
-9 | File | `/forums.php?action=post` | High
-10 | File | `/fos/admin/ajax.php?action=login` | High
-11 | File | `/fos/admin/index.php?page=menu` | High
-12 | File | `/hss/admin/?page=client/manage_client` | High
-13 | File | `/hss/classes/Users.php?f=delete` | High
-14 | File | `/index/user/user_edit.html` | High
-15 | File | `/login/index.php` | High
-16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-17 | File | `/rest/api/2/user/picker` | High
-18 | File | `/royal_event/userregister.php` | High
-19 | File | `/rrdp` | Low
-20 | File | `/setNTP.cgi` | Medium
-21 | File | `/tpts/manage_user.php` | High
-22 | File | `/u/username.json` | High
-23 | File | `/usr/etc/restore0.9` | High
-24 | File | `/VerAyari` | Medium
-25 | File | `01article.php` | High
-26 | File | `acl.c` | Low
-27 | File | `add_contestant.php` | High
-28 | File | `admin.jcomments.php` | High
-29 | File | `admin/import/class-import-settings.php` | High
-30 | ... | ... | ...
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/forums.php?action=post` | High
+11 | File | `/fos/admin/ajax.php?action=login` | High
+12 | File | `/fos/admin/index.php?page=menu` | High
+13 | File | `/hss/admin/?page=client/manage_client` | High
+14 | File | `/hss/classes/Users.php?f=delete` | High
+15 | File | `/index/user/user_edit.html` | High
+16 | File | `/login/index.php` | High
+17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+18 | File | `/param.file.tgz` | High
+19 | File | `/rest/api/2/user/picker` | High
+20 | File | `/royal_event/userregister.php` | High
+21 | File | `/rrdp` | Low
+22 | File | `/setNTP.cgi` | Medium
+23 | File | `/tpts/manage_user.php` | High
+24 | File | `/u/username.json` | High
+25 | File | `/user/s.php` | Medium
+26 | File | `/user/updatePwd` | High
+27 | File | `/usr/etc/restore0.9` | High
+28 | File | `/VerAyari` | Medium
+29 | File | `/wireless/guestnetwork.asp` | High
+30 | File | `01article.php` | High
+31 | File | `acl.c` | Low
+32 | File | `add-locker-form.php` | High
+33 | File | `add_contestant.php` | High
+34 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

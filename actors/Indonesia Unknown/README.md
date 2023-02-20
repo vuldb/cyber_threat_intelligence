@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -540,10 +540,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -554,64 +554,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.github/workflows/combine-prs.yml` | High
-3 | File | `.kss.pid` | Medium
-4 | File | `.qpopper-options` | High
-5 | File | `/admin/api/admin/articles/` | High
-6 | File | `/api/v1/containers` | High
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/apps/` | Low
-9 | File | `/backupsettings.conf` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-12 | File | `/modules/snf/index.php` | High
-13 | File | `/Online%20Course%20Registration/my-profile.php` | High
-14 | File | `/opt/mysql` | Medium
-15 | File | `/private/sessions` | High
-16 | File | `/proxy` | Low
-17 | File | `/root/*.db` | Medium
-18 | File | `/tmp` | Low
-19 | File | `/var/avamar/f_cache.dat` | High
-20 | File | `26.html` | Low
-21 | File | `actionphp/download.File.php` | High
-22 | File | `adclick.php` | Medium
-23 | File | `add_postit.php` | High
-24 | File | `admin.php` | Medium
-25 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
-26 | File | `admin/login.php` | High
-27 | File | `admin/manage-fields.php` | High
-28 | File | `admin/panels/entry/admin.entry.list.php` | High
-29 | File | `admin/panels/uploader/admin.uploader.php` | High
-30 | File | `admin/wp-security-blacklist-menu.php` | High
-31 | File | `administration.jsp` | High
-32 | File | `adminquery.php` | High
-33 | File | `agent/listener/templates/tail.html` | High
-34 | File | `ajaxRequest/methodCall.do` | High
-35 | File | `Alias.asmx` | Medium
-36 | File | `ansfaq.asp` | Medium
-37 | File | `api.php/List/index` | High
-38 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
-39 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-40 | File | `appGet.cgi` | Medium
-41 | File | `application/controllers/timedtext.php` | High
-42 | File | `archivejson.cgi` | High
-43 | File | `authpam.c` | Medium
-44 | File | `autocms.php` | Medium
-45 | File | `avahi-core/socket.c` | High
-46 | File | `AvailableApps.php` | High
-47 | File | `awstats.pl` | Medium
-48 | File | `banner.php` | Medium
-49 | File | `block_sitenews.php` | High
-50 | File | `boundary_rules.jsp` | High
-51 | File | `buf.c` | Low
-52 | File | `calendar.php` | Medium
-53 | File | `calendar_scheduler.php` | High
-54 | File | `cal_config.inc.php` | High
-55 | File | `channels/chan_sip.c` | High
-56 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/apply_noauth.cgi` | High
+4 | File | `/bin/sh` | Low
+5 | File | `/cgi-bin/webadminget.cgi` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dev/block/mmcblk0rpmb` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/fos/admin/ajax.php?action=login` | High
+11 | File | `/fos/admin/index.php?page=menu` | High
+12 | File | `/home/masterConsole` | High
+13 | File | `/home/sendBroadcast` | High
+14 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+15 | File | `/login/index.php` | High
+16 | File | `/modules/snf/index.php` | High
+17 | File | `/orrs/admin/?page=user/manage_user` | High
+18 | File | `/proxy` | Low
+19 | File | `/reports/rwservlet` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/subtitles.php` | High
+22 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+23 | File | `/wireless/security.asp` | High
+24 | File | `01article.php` | High
+25 | File | `actionphp/download.File.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `add_postit.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/abc.php` | High
+30 | File | `admin/admin/adminsave.html` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/disapprove_user.php` | High
+33 | File | `admin/login.php` | High
+34 | File | `admin/panels/entry/admin.entry.list.php` | High
+35 | File | `admin/panels/uploader/admin.uploader.php` | High
+36 | File | `admin/shophelp.php` | High
+37 | File | `administers` | Medium
+38 | File | `administration.jsp` | High
+39 | File | `adminquery.php` | High
+40 | File | `admin_class.php` | High
+41 | File | `agent/listener/templates/tail.html` | High
+42 | File | `announce.php` | Medium
+43 | File | `ansfaq.asp` | Medium
+44 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+45 | File | `APKINDEX.tar.gz` | High
+46 | File | `app/controllers/curupira/passwords_controller.rb` | High
+47 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+48 | File | `appconfig.ini` | High
+49 | File | `appGet.cgi` | Medium
+50 | File | `application/controllers/timedtext.php` | High
+51 | File | `App\Manage\Controller\ArticleController.class.php` | High
+52 | File | `auths/call_pam.c` | High
+53 | ... | ... | ...
 
-There are 493 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

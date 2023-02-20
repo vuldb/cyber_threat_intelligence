@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Spain Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [SV](https://vuldb.com/?country.sv)
+* [PL](https://vuldb.com/?country.pl)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1315,14 +1315,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1330,54 +1330,61 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/admin/fst_upload.inc.php` | High
-3 | File | `/admin/posts.php?source=edit_post` | High
-4 | File | `/admin/reg.php` | High
-5 | File | `/api/user/password/sent-reset-email` | High
-6 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-7 | File | `/auth/register` | High
-8 | File | `/blog/comment` | High
-9 | File | `/Default/Bd` | Medium
-10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-11 | File | `/etc/ldap.conf` | High
-12 | File | `/face-recognition-php/facepay-master/camera.php` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/delFileName` | High
-15 | File | `/goform/fast_setting_wifi_set` | High
-16 | File | `/goform/setAutoPing` | High
-17 | File | `/goform/SysToolRestoreSet` | High
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/hss/?page=categories` | High
-22 | File | `/hss/admin/?page=user/manage_user` | High
-23 | File | `/hss/admin/categories/view_category.php` | High
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/leave_system/classes/SystemSettings.php?f=update_settings` | High
-26 | File | `/lookin/info` | Medium
-27 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-28 | File | `/product/savenewproduct.php?flag=1` | High
-29 | File | `/rukovoditel/index.php?module=users/login` | High
-30 | File | `/services/Card/findUser` | High
-31 | File | `/services/view_service.php` | High
-32 | File | `/tmp` | Low
-33 | File | `/tmp/kamailio_ctl` | High
-34 | File | `/v1/sql-runner` | High
-35 | File | `/var/tmp/` | Medium
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | File | `/view-property.php` | High
-38 | File | `/web/admin/index.php?r=log%2Fview-layer` | High
-39 | File | `/web/IndexController.java` | High
-40 | File | `AbstractScheduleJob.java` | High
-41 | File | `accessibility.js` | High
-42 | File | `acp/core/files.browser.php` | High
-43 | File | `action/Core.class.php` | High
-44 | File | `actionphp/download.File.php` | High
-45 | File | `ActivityRecord.java` | High
-46 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/posts.php?source=edit_post` | High
+5 | File | `/admin/reg.php` | High
+6 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+9 | File | `/auth/register` | High
+10 | File | `/cgi-bin/webadminget.cgi` | High
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/etc/ldap.conf` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/fos/admin/ajax.php?action=login` | High
+17 | File | `/fos/admin/index.php?page=menu` | High
+18 | File | `/goform/SysToolChangePwd` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/home/masterConsole` | High
+21 | File | `/home/sendBroadcast` | High
+22 | File | `/hss/?page=categories` | High
+23 | File | `/hss/admin/?page=user/manage_user` | High
+24 | File | `/index.php` | Medium
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/proxy` | Low
+27 | File | `/reports/rwservlet` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/tmp/kamailio_ctl` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/var/log/messages` | High
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/webservices/download/index.php` | High
+34 | File | `/webservices/stream/tail.php` | High
+35 | File | `/wireless/security.asp` | High
+36 | File | `01article.php` | High
+37 | File | `accessibility.js` | High
+38 | File | `action/Core.class.php` | High
+39 | File | `actionphp/download.File.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `AddAppNetworksFragment.java` | High
+42 | File | `admin/abc.php` | High
+43 | File | `admin/admin/adminsave.html` | High
+44 | File | `admin/conf_users_edit.php` | High
+45 | File | `admin/disapprove_user.php` | High
+46 | File | `admin/login.php` | High
+47 | File | `admin/news.php` | High
+48 | File | `admin/panels/entry/admin.entry.list.php` | High
+49 | File | `admin/panels/uploader/admin.uploader.php` | High
+50 | File | `admin/stat.main.php` | High
+51 | File | `admin/stat.ratings.php` | High
+52 | File | `administers` | Medium
+53 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -1394,4 +1401,4 @@ The following _articles_ explain our unique predictive cyber threat intelligence
 
 ## License
 
-(c) [1997-2022](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!
+(c) [1997-2023](https://vuldb.com/?kb.changelog) by [vuldb.com](https://vuldb.com/?kb.about). All data on this page is shared under the license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Questions? Check the [FAQ](https://vuldb.com/?kb.faq), read the [documentation](https://vuldb.com/?kb) or [contact us](https://vuldb.com/?contact)!

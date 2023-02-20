@@ -94,7 +94,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -110,66 +110,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/about.php` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/apilog.php` | Medium
-8 | File | `/attachments` | Medium
-9 | File | `/bsms_ci/index.php/book` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/connectors/index.php` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dev/block/mmcblk0rpmb` | High
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/etc/hosts` | Medium
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/items/view_item.php` | High
-28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/lookin/info` | Medium
-30 | File | `/manager/index.php` | High
-31 | File | `/medical/inventories.php` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/MTFWU` | Low
-38 | File | `/newsDia.php` | Medium
-39 | File | `/out.php` | Medium
-40 | File | `/proxy` | Low
-41 | File | `/Redcock-Farm/farm/category.php` | High
-42 | File | `/reports/rwservlet` | High
-43 | File | `/sacco_shield/manage_user.php` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-46 | File | `/staff/bookdetails.php` | High
-47 | File | `/tmp` | Low
-48 | File | `/uncpath/` | Medium
-49 | File | `/user/update_booking.php` | High
-50 | File | `/WebInterface/UserManager/` | High
-51 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-52 | File | `/wordpress/wp-admin/options-general.php` | High
-53 | File | `/wp-admin/admin-ajax.php` | High
-54 | File | `01article.php` | High
-55 | File | `AbstractScheduleJob.java` | High
-56 | File | `actionphp/download.File.php` | High
-57 | File | `ActivityRecord.java` | High
-58 | File | `adclick.php` | Medium
-59 | ... | ... | ...
+2 | File | `/admin/api/admin/articles/` | High
+3 | File | `/admin/submit-articles` | High
+4 | File | `/apilog.php` | Medium
+5 | File | `/attachments` | Medium
+6 | File | `/bin/httpd` | Medium
+7 | File | `/bsms_ci/index.php/book` | High
+8 | File | `/connectors/index.php` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+13 | File | `/etc/hosts` | Medium
+14 | File | `/face-recognition-php/facepay-master/camera.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/fos/admin/ajax.php?action=login` | High
+17 | File | `/fos/admin/index.php?page=menu` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/home/masterConsole` | High
+20 | File | `/home/sendBroadcast` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/items/view_item.php` | High
+25 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+26 | File | `/lookin/info` | Medium
+27 | File | `/manager/index.php` | High
+28 | File | `/medical/inventories.php` | High
+29 | File | `/medicines/profile.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/modules/projects/vw_files.php` | High
+33 | File | `/modules/public/calendar.php` | High
+34 | File | `/MTFWU` | Low
+35 | File | `/newsDia.php` | Medium
+36 | File | `/out.php` | Medium
+37 | File | `/proxy` | Low
+38 | File | `/Redcock-Farm/farm/category.php` | High
+39 | File | `/reports/rwservlet` | High
+40 | File | `/sacco_shield/manage_user.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+43 | File | `/staff/bookdetails.php` | High
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
+46 | File | `/user/update_booking.php` | High
+47 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+48 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+49 | File | `/wireless/security.asp` | High
+50 | File | `/wordpress/wp-admin/options-general.php` | High
+51 | File | `/wp-admin/admin-ajax.php` | High
+52 | File | `01article.php` | High
+53 | File | `AbstractScheduleJob.java` | High
+54 | File | `actionphp/download.File.php` | High
+55 | File | `ActivityRecord.java` | High
+56 | File | `adclick.php` | Medium
+57 | File | `addtocart.asp` | High
+58 | File | `admin.php` | Medium
+59 | File | `admin/abc.php` | High
+60 | File | `admin/add_payment.php` | High
+61 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 537 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

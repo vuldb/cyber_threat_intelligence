@@ -206,7 +206,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -234,38 +234,40 @@ ID | Type | Indicator | Confidence
 18 | File | `/api/addusers` | High
 19 | File | `/api/crontab` | Medium
 20 | File | `/api/user/upsert/<uuid>` | High
-21 | File | `/bin/boa` | Medium
-22 | File | `/cgi-bin/wapopen` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/cgi-mod/lookup.cgi` | High
-25 | File | `/dashboard/updatelogo.php` | High
-26 | File | `/designer/add/layout` | High
-27 | File | `/dev/dri/card1` | High
-28 | File | `/etc/ldap.conf` | High
-29 | File | `/etc/passwd` | Medium
-30 | File | `/etc/sudoers` | Medium
-31 | File | `/export` | Low
-32 | File | `/filemanager/upload/drop` | High
-33 | File | `/goform/SysToolChangePwd` | High
-34 | File | `/h/calendar` | Medium
-35 | File | `/h/compose` | Medium
-36 | File | `/h/search?action=voicemail&action=listen` | High
-37 | File | `/iissamples` | Medium
-38 | File | `/index.php` | Medium
-39 | File | `/index.php?controller=calendar&format=raw&cat[0]=SQLi&task=events` | High
-40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/login` | Low
-42 | File | `/loginVaLidation.php` | High
-43 | File | `/manage-apartment.php` | High
-44 | File | `/manager/index.php` | High
-45 | File | `/mkshop/Men/profile.php` | High
-46 | File | `/Noxen-master/users.php` | High
-47 | File | `/opac/Actions.php?a=login` | High
-48 | File | `/osm/REGISTER.cmd` | High
+21 | File | `/appliance/users?action=edit` | High
+22 | File | `/bin/boa` | Medium
+23 | File | `/cgi-bin/wapopen` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/cgi-mod/lookup.cgi` | High
+26 | File | `/dashboard/updatelogo.php` | High
+27 | File | `/designer/add/layout` | High
+28 | File | `/dev/dri/card1` | High
+29 | File | `/etc/ldap.conf` | High
+30 | File | `/etc/passwd` | Medium
+31 | File | `/etc/shadow` | Medium
+32 | File | `/etc/sudoers` | Medium
+33 | File | `/export` | Low
+34 | File | `/filemanager/upload/drop` | High
+35 | File | `/goform/SysToolChangePwd` | High
+36 | File | `/h/calendar` | Medium
+37 | File | `/h/compose` | Medium
+38 | File | `/h/search?action=voicemail&action=listen` | High
+39 | File | `/iissamples` | Medium
+40 | File | `/index.php` | Medium
+41 | File | `/librarian/bookdetails.php` | High
+42 | File | `/login` | Low
+43 | File | `/loginVaLidation.php` | High
+44 | File | `/manage-apartment.php` | High
+45 | File | `/manager/index.php` | High
+46 | File | `/mkshop/Men/profile.php` | High
+47 | File | `/Noxen-master/users.php` | High
+48 | File | `/opac/Actions.php?a=login` | High
 49 | File | `/pages/animals.php` | High
-50 | ... | ... | ...
+50 | File | `/php-sms/classes/Master.php` | High
+51 | File | `/php-sms/classes/SystemSettings.php` | High
+52 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 449 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

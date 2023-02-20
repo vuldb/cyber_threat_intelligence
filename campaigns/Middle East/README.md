@@ -97,35 +97,35 @@ ID | Type | Indicator | Confidence
 14 | File | `/example/editor` | High
 15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
 16 | File | `/forum/away.php` | High
-17 | File | `/goform/setMacFilterCfg` | High
-18 | File | `/HNAP1` | Low
-19 | File | `/index` | Low
-20 | File | `/iu-application/controllers/administration/auth.php` | High
-21 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-22 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-23 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-24 | File | `/module/module_frame/index.php` | High
-25 | File | `/music/ajax.php` | High
-26 | File | `/northstar/Admin/changePassword.jsp` | High
-27 | File | `/obs/book.php` | High
-28 | File | `/orms/` | Low
-29 | File | `/ossn/administrator/com_installer` | High
-30 | File | `/pms/update_user.php?user_id=1` | High
-31 | File | `/rest/api/1.0/render` | High
-32 | File | `/sre/params.php` | High
-33 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-34 | File | `/tmp` | Low
-35 | File | `/tmp/xbindkeysrc-tmp` | High
-36 | File | `/user/upload/upload` | High
-37 | File | `/Users` | Low
-38 | File | `/var/spool/hylafax` | High
-39 | File | `/vendor` | Low
-40 | File | `/whbs/?page=my_bookings` | High
-41 | File | `access_rules/rules_form` | High
-42 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/index` | Low
+19 | File | `/iu-application/controllers/administration/auth.php` | High
+20 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+21 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+23 | File | `/module/module_frame/index.php` | High
+24 | File | `/music/ajax.php` | High
+25 | File | `/northstar/Admin/changePassword.jsp` | High
+26 | File | `/obs/book.php` | High
+27 | File | `/orms/` | Low
+28 | File | `/ossn/administrator/com_installer` | High
+29 | File | `/pms/update_user.php?user_id=1` | High
+30 | File | `/sre/params.php` | High
+31 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+32 | File | `/tmp` | Low
+33 | File | `/tmp/xbindkeysrc-tmp` | High
+34 | File | `/user/upload/upload` | High
+35 | File | `/Users` | Low
+36 | File | `/var/spool/hylafax` | High
+37 | File | `/vendor` | Low
+38 | File | `/whbs/?page=my_bookings` | High
+39 | File | `access_rules/rules_form` | High
+40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+41 | File | `action/addproject.php` | High
+42 | File | `adclick.php` | Medium
 43 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

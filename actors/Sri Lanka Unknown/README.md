@@ -47,8 +47,20 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1552 | CWE-522 | ASP.NET Misconfiguration: Password in Configuration File | High
-2 | T1608.002 | CWE-434 | Unrestricted Upload | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1552 | CWE-522 | ASP.NET Misconfiguration: Password in Configuration File | High
+4 | ... | ... | ... | ...
+
+There are 1 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Sri Lanka Unknown. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `testng-core/src/main/java/org/testng/JarFileUtils.java` | High
 
 ## References
 

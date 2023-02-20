@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [AR](https://vuldb.com/?country.ar)
 * [PT](https://vuldb.com/?country.pt)
-* [IT](https://vuldb.com/?country.it)
+* [PL](https://vuldb.com/?country.pl)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -77,38 +77,38 @@ ID | Type | Indicator | Confidence
 7 | File | `/anony/mjpg.cgi` | High
 8 | File | `/api/common/ping` | High
 9 | File | `/api/v2/open/rowsInfo` | High
-10 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-11 | File | `/appointments/update_status.php` | High
-12 | File | `/binbloom-master/src/helpers.c` | High
-13 | File | `/bookings/update_status.php` | High
-14 | File | `/classes/Users.php?f=delete_client` | High
-15 | File | `/contacts/listcontacts.php` | High
-16 | File | `/Core/Ap4File.cpp` | High
-17 | File | `/data/app` | Medium
-18 | File | `/dede/file_manage_control.php` | High
-19 | File | `/depotHead/list` | High
-20 | File | `/etc/openshift/server_priv.pem` | High
-21 | File | `/etc/os-release` | High
-22 | File | `/etc/pki/pulp/nodes/` | High
-23 | File | `/forms/web_runScript` | High
-24 | File | `/fs/nfsd/nfs4proc.c` | High
-25 | File | `/garage/php_action/createBrand.php` | High
-26 | File | `/general/search.php?searchtype=simple` | High
-27 | File | `/goform/AddSysLogRule` | High
-28 | File | `/goform/AdvSetWrlsafeset` | High
-29 | File | `/goform/formSetFirewallCfg` | High
-30 | File | `/goform/qossetting` | High
-31 | File | `/goform/setAutoPing` | High
-32 | File | `/hrm/employeeview.php` | High
-33 | File | `/hss/?page=product_per_brand` | High
-34 | File | `/isomedia/meta.c` | High
-35 | File | `/meetings/listmeetings.php` | High
-36 | File | `/odlms/?page=appointments/view_appointment` | High
-37 | File | `/odlms/classes/Users.php?f=delete` | High
-38 | File | `/one/siteinfo.php` | High
-39 | File | `/proc/*/exe` | Medium
-40 | File | `/projects/listprojects.php` | High
-41 | File | `/release-x64/otfccdump+0x4adcdb` | High
+10 | File | `/appointments/update_status.php` | High
+11 | File | `/binbloom-master/src/helpers.c` | High
+12 | File | `/bookings/update_status.php` | High
+13 | File | `/classes/Users.php?f=delete_client` | High
+14 | File | `/contacts/listcontacts.php` | High
+15 | File | `/Core/Ap4File.cpp` | High
+16 | File | `/data/app` | Medium
+17 | File | `/dede/file_manage_control.php` | High
+18 | File | `/depotHead/list` | High
+19 | File | `/etc/openshift/server_priv.pem` | High
+20 | File | `/etc/os-release` | High
+21 | File | `/etc/pki/pulp/nodes/` | High
+22 | File | `/forms/web_runScript` | High
+23 | File | `/fs/nfsd/nfs4proc.c` | High
+24 | File | `/garage/php_action/createBrand.php` | High
+25 | File | `/general/search.php?searchtype=simple` | High
+26 | File | `/goform/AddSysLogRule` | High
+27 | File | `/goform/AdvSetWrlsafeset` | High
+28 | File | `/goform/qossetting` | High
+29 | File | `/goform/setAutoPing` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/hss/?page=product_per_brand` | High
+32 | File | `/isomedia/meta.c` | High
+33 | File | `/meetings/listmeetings.php` | High
+34 | File | `/odlms/?page=appointments/view_appointment` | High
+35 | File | `/odlms/classes/Users.php?f=delete` | High
+36 | File | `/one/siteinfo.php` | High
+37 | File | `/proc/*/exe` | Medium
+38 | File | `/projects/listprojects.php` | High
+39 | File | `/release-x64/otfccdump+0x4adcdb` | High
+40 | File | `/release-x64/otfccdump+0x6e41b8` | High
+41 | File | `/release-x64/otfccdump+0x6e412a` | High
 42 | ... | ... | ...
 
 There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

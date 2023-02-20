@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,19 +57,19 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/addemployee.php` | High
 5 | File | `/admin/submit-articles` | High
 6 | File | `/ad_js.php` | Medium
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/app/options.py` | High
-9 | File | `/attachments` | Medium
-10 | File | `/bcms/admin/?page=user/list` | High
-11 | File | `/bsms/?page=manage_account` | High
-12 | File | `/cgi-bin/login.cgi` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/ci_hms/massage_room/edit/1` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/attachments` | Medium
+9 | File | `/bsms/?page=manage_account` | High
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/cgi-bin/login.cgi` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/ci_hms/massage_room/edit/1` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/dashboard/reports/logs/view` | High
+16 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/forum/away.php` | High
 20 | File | `/fuel/sitevariables/delete/4` | High
 21 | File | `/goform/setmac` | High
 22 | File | `/goform/wizard_end` | High
@@ -77,14 +77,15 @@ ID | Type | Indicator | Confidence
 24 | File | `/index/jobfairol/show/` | High
 25 | File | `/librarian/bookdetails.php` | High
 26 | File | `/manage-apartment.php` | High
-27 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/medicines/profile.php` | High
 28 | File | `/mkshop/Men/profile.php` | High
 29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 30 | File | `/pages/apply_vacancy.php` | High
 31 | File | `/proc/<PID>/mem` | High
-32 | ... | ... | ...
+32 | File | `/proxy` | Low
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

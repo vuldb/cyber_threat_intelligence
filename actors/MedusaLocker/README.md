@@ -33,14 +33,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,33 +49,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=delete_transaction` | High
+1 | File | `.authlie` | Medium
 2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/admin/ajax.php?action=delete_window` | High
-4 | File | `/admin/ajax.php?action=save_queue` | High
-5 | File | `/admin/ajax.php?action=save_window` | High
-6 | File | `/admin/article_category.php` | High
-7 | File | `/admin/manage_user.php` | High
-8 | File | `/app/dao/CustomerDAO.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/apps/app_user/sys_user.php` | High
-11 | File | `/classes/Master.php?f=delete_brand` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/config/api/v1/reboot` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/hss/admin/?page=client/manage_client` | High
-16 | File | `/hss/classes/Users.php?f=delete` | High
+3 | File | `/admin/ajax.php?action=save_queue` | High
+4 | File | `/app/dao/CustomerDAO.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/apps/app_user/sys_user.php` | High
+7 | File | `/bsms_ci/index.php/book` | High
+8 | File | `/classes/Master.php?f=delete_category` | High
+9 | File | `/config/api/v1/reboot` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/food` | Low
+12 | File | `/forum/away.php` | High
+13 | File | `/forums.php?action=post` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index/user/user_edit.html` | High
+16 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
 17 | File | `/login/index.php` | High
 18 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-19 | File | `/setNTP.cgi` | Medium
-20 | File | `/system/site.php` | High
-21 | File | `/tiki-importer.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/tpts/manage_user.php` | High
-24 | File | `/trufusionPortal/upDwModuleProxy` | High
-25 | ... | ... | ...
+19 | File | `/rest/api/2/user/picker` | High
+20 | File | `/setNTP.cgi` | Medium
+21 | File | `/system/site.php` | High
+22 | File | `/tpts/manage_user.php` | High
+23 | File | `/uncpath/` | Medium
+24 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 198 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

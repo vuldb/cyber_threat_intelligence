@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [IO](https://vuldb.com/?country.io)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4775,13 +4775,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -4791,56 +4790,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/admin/api/admin/articles/` | High
-3 | File | `/admin/api/admin/v2_products` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/Admin/createClass.php` | High
+1 | File | `$GIT_DIR/objects` | High
+2 | File | `.github/workflows/combine-prs.yml` | High
+3 | File | `/admin/admin_manage/delete` | High
+4 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+5 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 6 | File | `/alarm_pi/alarmService.php` | High
-7 | File | `/api/browserextension/UpdatePassword/` | High
-8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/dev/block/mmcblk0rpmb` | High
-11 | File | `/env` | Low
-12 | File | `/etc/hosts` | Medium
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/fos/admin/ajax.php?action=login` | High
-16 | File | `/fos/admin/index.php?page=menu` | High
-17 | File | `/goform/WifiBasicSet` | High
-18 | File | `/hrm/controller/login.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-21 | File | `/LMS/LM/#main` | High
-22 | File | `/login` | Low
-23 | File | `/mods/_standard/rss_feeds/edit_feed.php` | High
-24 | File | `/proxy` | Low
-25 | File | `/register/abort` | High
-26 | File | `/reports/rwservlet` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/template/edit` | High
-29 | File | `/tmp` | Low
-30 | File | `/var/polycom/cma/upgrade/scripts` | High
-31 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-32 | File | `/webservices/stream/tail.php` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `01article.php` | High
-35 | File | `accessibility.js` | High
-36 | File | `actionphp/download.File.php` | High
-37 | File | `adclick.php` | Medium
-38 | File | `adm/menu_list_update.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/ajax.attachment.php` | High
-41 | File | `admin/article_save.php` | High
-42 | File | `admin/conf_users_edit.php` | High
-43 | File | `admin/index.php?c=database` | High
-44 | File | `admin/login.php` | High
-45 | File | `admin/menus/edit.php` | High
-46 | File | `admin/panels/entry/admin.entry.list.php` | High
-47 | File | `admin/panels/uploader/admin.uploader.php` | High
-48 | ... | ... | ...
+7 | File | `/api/` | Low
+8 | File | `/api/common/ping` | High
+9 | File | `/appliance/users?action=edit` | High
+10 | File | `/bin/httpd` | Medium
+11 | File | `/bsms_ci/index.php/book` | High
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+14 | File | `/dev/block/mmcblk0rpmb` | High
+15 | File | `/env` | Low
+16 | File | `/etc/shadow` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/forms/doLogin` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forum/PostPrivateMessage` | High
+21 | File | `/fos/admin/ajax.php?action=login` | High
+22 | File | `/fos/admin/index.php?page=menu` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/home/masterConsole` | High
+25 | File | `/home/sendBroadcast` | High
+26 | File | `/index.php` | Medium
+27 | File | `/login` | Low
+28 | File | `/medicines/profile.php` | High
+29 | File | `/orrs/admin/?page=user/manage_user` | High
+30 | File | `/param.file.tgz` | High
+31 | File | `/public_html/users.php` | High
+32 | File | `/reports/rwservlet` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/template/edit` | High
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/user/s.php` | Medium
+40 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+41 | File | `/wireless/guestnetwork.asp` | High
+42 | File | `/wireless/security.asp` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `01article.php` | High
+45 | File | `action.php` | Medium
+46 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

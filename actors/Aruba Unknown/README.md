@@ -26,9 +26,12 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [23.247.138.0](https://vuldb.com/?ip.23.247.138.0) | - | - | High
 4 | [45.12.70.14](https://vuldb.com/?ip.45.12.70.14) | suasion.get-eye.com | - | High
 5 | [45.12.71.14](https://vuldb.com/?ip.45.12.71.14) | - | - | High
-6 | ... | ... | ... | ...
+6 | [57.74.102.0](https://vuldb.com/?ip.57.74.102.0) | - | - | High
+7 | [57.91.224.0](https://vuldb.com/?ip.57.91.224.0) | - | - | High
+8 | [66.247.200.0](https://vuldb.com/?ip.66.247.200.0) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -111,6 +114,7 @@ There are 465 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_aw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_aw.netset
 
 ## Literature
 

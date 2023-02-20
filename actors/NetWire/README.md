@@ -104,38 +104,39 @@ ID | Type | Indicator | Confidence
 19 | File | `/api/crontab` | Medium
 20 | File | `/api/RecordingList/DownloadRecord?file=` | High
 21 | File | `/api/user/upsert/<uuid>` | High
-22 | File | `/bin/boa` | Medium
-23 | File | `/cgi-bin/wapopen` | High
-24 | File | `/cgi-bin/webviewer_login_page` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/cgi-mod/lookup.cgi` | High
-27 | File | `/dashboard/updatelogo.php` | High
-28 | File | `/designer/add/layout` | High
-29 | File | `/etc/ldap.conf` | High
-30 | File | `/etc/shadow` | Medium
-31 | File | `/etc/sudoers` | Medium
-32 | File | `/export` | Low
-33 | File | `/filemanager/upload/drop` | High
-34 | File | `/h/calendar` | Medium
-35 | File | `/h/compose` | Medium
-36 | File | `/h/search?action=voicemail&action=listen` | High
-37 | File | `/iissamples` | Medium
-38 | File | `/index.php` | Medium
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/login` | Low
-41 | File | `/loginVaLidation.php` | High
-42 | File | `/manage-apartment.php` | High
-43 | File | `/manager/index.php` | High
-44 | File | `/mkshop/Men/profile.php` | High
-45 | File | `/Noxen-master/users.php` | High
-46 | File | `/opac/Actions.php?a=login` | High
-47 | File | `/pages/animals.php` | High
-48 | File | `/php-sms/classes/Master.php` | High
-49 | File | `/php-sms/classes/SystemSettings.php` | High
-50 | File | `/php_action/createOrder.php` | High
-51 | ... | ... | ...
+22 | File | `/appliance/users?action=edit` | High
+23 | File | `/bin/boa` | Medium
+24 | File | `/cgi-bin/wapopen` | High
+25 | File | `/cgi-bin/webviewer_login_page` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/cgi-mod/lookup.cgi` | High
+28 | File | `/dashboard/updatelogo.php` | High
+29 | File | `/designer/add/layout` | High
+30 | File | `/etc/ldap.conf` | High
+31 | File | `/etc/shadow` | Medium
+32 | File | `/etc/sudoers` | Medium
+33 | File | `/export` | Low
+34 | File | `/filemanager/upload/drop` | High
+35 | File | `/h/calendar` | Medium
+36 | File | `/h/compose` | Medium
+37 | File | `/h/search?action=voicemail&action=listen` | High
+38 | File | `/iissamples` | Medium
+39 | File | `/index.php` | Medium
+40 | File | `/librarian/bookdetails.php` | High
+41 | File | `/login` | Low
+42 | File | `/loginVaLidation.php` | High
+43 | File | `/manage-apartment.php` | High
+44 | File | `/manager/index.php` | High
+45 | File | `/mkshop/Men/profile.php` | High
+46 | File | `/Noxen-master/users.php` | High
+47 | File | `/opac/Actions.php?a=login` | High
+48 | File | `/pages/animals.php` | High
+49 | File | `/php-sms/classes/Master.php` | High
+50 | File | `/php-sms/classes/SystemSettings.php` | High
+51 | File | `/php_action/createOrder.php` | High
+52 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 450 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

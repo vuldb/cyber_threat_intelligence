@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -71,40 +71,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin/submit-articles` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/app/options.py` | High
-7 | File | `/attachments` | Medium
-8 | File | `/bsms/?page=manage_account` | High
-9 | File | `/card_scan.php` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/ci_hms/massage_room/edit/1` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/cwc/login` | Medium
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/etc/hosts` | Medium
-20 | File | `/etc/quagga` | Medium
-21 | File | `/fuel/sitevariables/delete/4` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/h/calendar` | Medium
-25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-26 | File | `/index/jobfairol/show/` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/nova/bin/detnet` | High
-31 | File | `/out.php` | Medium
-32 | ... | ... | ...
+1 | File | `/about.php` | Medium
+2 | File | `/admin/submit-articles` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/app/options.py` | High
+5 | File | `/attachments` | Medium
+6 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/card_scan.php` | High
+8 | File | `/cgi-bin/login.cgi` | High
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/cwc/login` | Medium
+14 | File | `/dashboard/reports/logs/view` | High
+15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/quagga` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/setmac` | High
+21 | File | `/goform/wizard_end` | High
+22 | File | `/h/calendar` | Medium
+23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+24 | File | `/index/jobfairol/show/` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/nova/bin/detnet` | High
+30 | File | `/out.php` | Medium
+31 | File | `/pages/apply_vacancy.php` | High
+32 | File | `/proc/<PID>/mem` | High
+33 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

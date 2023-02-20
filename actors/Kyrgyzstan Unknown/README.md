@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -66,41 +66,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-6 | File | `/Admin/login.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-9 | File | `/api/public/signup` | High
-10 | File | `/api/v1/attack` | High
-11 | File | `/api/v1/attack/falco` | High
-12 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-13 | File | `/appLms/ajax.server.php` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/ajax/avatar.php` | High
+6 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+10 | File | `/api/public/signup` | High
+11 | File | `/api/v1/attack` | High
+12 | File | `/api/v1/attack/falco` | High
+13 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
 14 | File | `/bsms_ci/index.php/book` | High
 15 | File | `/cmd?cmd=connect` | High
-16 | File | `/confirm` | Medium
-17 | File | `/dev/zero` | Medium
-18 | File | `/edit-db.php` | Medium
-19 | File | `/etc/stunnel.key` | High
-20 | File | `/etc/tomcat8/Catalina/attack` | High
-21 | File | `/FormLogin` | Medium
-22 | File | `/hss/classes/Master.php?f=delete_product` | High
-23 | File | `/lilac/main.php` | High
-24 | File | `/patient/doctors.php` | High
-25 | File | `/phpinventory/editcategory.php` | High
-26 | File | `/servlet/webacc` | High
-27 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/updown/upload.cgi` | High
+16 | File | `/dev/zero` | Medium
+17 | File | `/etc/stunnel.key` | High
+18 | File | `/etc/tomcat8/Catalina/attack` | High
+19 | File | `/FormLogin` | Medium
+20 | File | `/hss/classes/Master.php?f=delete_product` | High
+21 | File | `/lilac/main.php` | High
+22 | File | `/login/index.php` | High
+23 | File | `/patient/doctors.php` | High
+24 | File | `/phpinventory/editcategory.php` | High
+25 | File | `/servlet/webacc` | High
+26 | File | `/siteminderagent/pwcgi/smpwservicescgi.exe` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/updown/upload.cgi` | High
+29 | File | `/v1/hotlink/proxy` | High
 30 | File | `/viewer/krpano.html` | High
-31 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/RoleStore.java` | High
-32 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
-33 | ... | ... | ...
+31 | File | `/wireless/basic.asp` | High
+32 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/RoleStore.java` | High
+33 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
+34 | File | `Access.app/Contents/Resources/kcproxy` | High
+35 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

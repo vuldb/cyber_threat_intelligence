@@ -269,13 +269,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-37 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -287,39 +286,38 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/Admin/add-student.php` | High
 2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-3 | File | `/bsms_ci/index.php/user/edit_user/` | High
-4 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-5 | File | `/cgi-bin/R14.2/log.pl` | High
-6 | File | `/ctcprotocol/Protocol` | High
-7 | File | `/env` | Low
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/FreshRSS/p/ext.php` | High
-11 | File | `/goform/addressNat` | High
-12 | File | `/goform/CertListInfo` | High
-13 | File | `/goform/fast_setting_wifi_set` | High
-14 | File | `/goform/IPSECsave` | High
-15 | File | `/goform/L7Im` | Medium
-16 | File | `/goform/NatStaticSetting` | High
-17 | File | `/goform/qossetting` | High
-18 | File | `/goform/SafeClientFilter` | High
-19 | File | `/goform/SafeMacFilter` | High
-20 | File | `/goform/SafeUrlFilter` | High
-21 | File | `/goform/setMacFilterCfg` | High
-22 | File | `/goform/SysToolReboot` | High
-23 | File | `/goform/SysToolRestoreSet` | High
-24 | File | `/goform/VirtualSer` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/ims/login.php` | High
-29 | File | `/leave_system/admin/?page=maintenance/department` | High
-30 | File | `/lib` | Low
-31 | File | `/login/index.php` | High
-32 | File | `/m3_exec.h` | Medium
-33 | ... | ... | ...
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/aya/module/admin/fst_down.inc.php` | High
+5 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+6 | File | `/cgi-bin/R14.2/log.pl` | High
+7 | File | `/ctcprotocol/Protocol` | High
+8 | File | `/env` | Low
+9 | File | `/etc/tomcat8/Catalina/attack` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | File | `/goform/setMacFilterCfg` | High
+13 | File | `/hrm/controller/employee.php` | High
+14 | File | `/hrm/employeeadd.php` | High
+15 | File | `/hrm/employeeview.php` | High
+16 | File | `/ims/login.php` | High
+17 | File | `/lib` | Low
+18 | File | `/login/index.php` | High
+19 | File | `/m3_exec.h` | Medium
+20 | File | `/menu.html` | Medium
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/nova/bin/detnet` | High
+23 | File | `/out.php` | Medium
+24 | File | `/resources//../` | High
+25 | File | `/sys/dict/queryTableData` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/v1/sql-runner` | High
+28 | File | `/view-property.php` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `acme_certificate_edit.php` | High
+31 | File | `action-visitor.php` | High
+32 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

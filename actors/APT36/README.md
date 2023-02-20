@@ -111,7 +111,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/goform/wlanPrimaryNetwork` | High
 46 | ... | ... | ...
 
-There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

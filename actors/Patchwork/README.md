@@ -160,13 +160,13 @@ ID | Type | Indicator | Confidence
 35 | File | `/scripts/cpan_config` | High
 36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 37 | File | `/spip.php` | Medium
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/vloggers_merch/?p=view_product` | High
-41 | File | `/web/MCmsAction.java` | High
+38 | File | `/sys/dict/queryTableData` | High
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | File | `/vloggers_merch/?p=view_product` | High
 42 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

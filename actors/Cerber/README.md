@@ -100,7 +100,7 @@ ID | IP address | Hostname | Campaign | Confidence
 77 | [54.152.181.87](https://vuldb.com/?ip.54.152.181.87) | ec2-54-152-181-87.compute-1.amazonaws.com | - | Medium
 78 | ... | ... | ... | ...
 
-There are 307 more IOC items available. Please use our online service to access the data.
+There are 310 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -138,7 +138,7 @@ ID | Type | Indicator | Confidence
 13 | File | `/dev/bus` | Medium
 14 | File | `/example/editor` | High
 15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-16 | File | `/goform/setMacFilterCfg` | High
+16 | File | `/forum/away.php` | High
 17 | File | `/HNAP1` | Low
 18 | File | `/index` | Low
 19 | File | `/iu-application/controllers/administration/auth.php` | High
@@ -152,22 +152,22 @@ ID | Type | Indicator | Confidence
 27 | File | `/orms/` | Low
 28 | File | `/ossn/administrator/com_installer` | High
 29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/rest/api/1.0/render` | High
-31 | File | `/sre/params.php` | High
-32 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-33 | File | `/tmp` | Low
-34 | File | `/tmp/xbindkeysrc-tmp` | High
-35 | File | `/user/upload/upload` | High
-36 | File | `/Users` | Low
-37 | File | `/var/spool/hylafax` | High
-38 | File | `/vendor` | Low
-39 | File | `/whbs/?page=my_bookings` | High
-40 | File | `access_rules/rules_form` | High
-41 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-42 | File | `action/addproject.php` | High
+30 | File | `/sre/params.php` | High
+31 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+32 | File | `/tmp` | Low
+33 | File | `/tmp/xbindkeysrc-tmp` | High
+34 | File | `/user/upload/upload` | High
+35 | File | `/Users` | Low
+36 | File | `/var/spool/hylafax` | High
+37 | File | `/vendor` | Low
+38 | File | `/whbs/?page=my_bookings` | High
+39 | File | `access_rules/rules_form` | High
+40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+41 | File | `action/addproject.php` | High
+42 | File | `adclick.php` | Medium
 43 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -212,6 +212,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0729-0805.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-1007-1014.html
+* https://blog.talosintelligence.com/threat-roundup-0120-0127/
 
 ## Literature
 

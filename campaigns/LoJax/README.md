@@ -62,9 +62,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
 6 | File | `/hrm/employeeadd.php` | High
 7 | File | `/modules/tasks/summary.inc.php` | High
-8 | ... | ... | ...
+8 | File | `/uncpath/` | Medium
+9 | ... | ... | ...
 
-There are 58 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,30 +50,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/subnets/ripe-query.php` | High
-2 | File | `/fw.login.php` | High
-3 | File | `/gfxpoly/convert.c` | High
-4 | File | `/GponForm/device_Form?script/` | High
-5 | File | `/index.php?/manage/channel/addchannel` | High
-6 | File | `/opac/Actions.php?a=login` | High
-7 | File | `/opt/tms/bin/cli` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/var/log/nginx` | High
-10 | File | `/wp-admin/admin-ajax.php` | High
-11 | File | `actions/beats_uploader.php` | High
-12 | File | `actions/vote_channel.php` | High
-13 | File | `Admin/ADM_Pagina.php` | High
-14 | File | `admin/article.php` | High
-15 | File | `admin/dashboard.php` | High
-16 | File | `Admin/edit-admin.php` | High
-17 | File | `admin/partials/ajax/add_field_to_form.php` | High
-18 | File | `admin/show.php?rec=update` | High
-19 | File | `allow/block` | Medium
-20 | File | `AlUpdate.exe` | Medium
-21 | File | `app/admin/controller/api/Update.php` | High
-22 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/fw.login.php` | High
+4 | File | `/gfxpoly/convert.c` | High
+5 | File | `/GponForm/device_Form?script/` | High
+6 | File | `/index.php?/manage/channel/addchannel` | High
+7 | File | `/opac/Actions.php?a=login` | High
+8 | File | `/opt/tms/bin/cli` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/var/log/nginx` | High
+11 | File | `/wp-admin/admin-ajax.php` | High
+12 | File | `actions/beats_uploader.php` | High
+13 | File | `actions/vote_channel.php` | High
+14 | File | `Admin/ADM_Pagina.php` | High
+15 | File | `admin/article.php` | High
+16 | File | `admin/dashboard.php` | High
+17 | File | `Admin/edit-admin.php` | High
+18 | File | `admin/partials/ajax/add_field_to_form.php` | High
+19 | File | `admin/show.php?rec=update` | High
+20 | File | `allow/block` | Medium
+21 | File | `AlUpdate.exe` | Medium
+22 | File | `app/admin/controller/api/Update.php` | High
+23 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

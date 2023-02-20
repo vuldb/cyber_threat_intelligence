@@ -97,40 +97,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin/submit-articles` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/Ap4RtpAtom.cpp` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/app/options.py` | High
-8 | File | `/attachments` | Medium
-9 | File | `/bsms/?page=manage_account` | High
-10 | File | `/cgi-bin/login.cgi` | High
-11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/ci_hms/massage_room/edit/1` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/fuel/sitevariables/delete/4` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/librarian/bookdetails.php` | High
-24 | File | `/manage-apartment.php` | High
+1 | File | `/about.php` | Medium
+2 | File | `/admin/submit-articles` | High
+3 | File | `/ad_js.php` | Medium
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/app/options.py` | High
+6 | File | `/attachments` | Medium
+7 | File | `/bsms/?page=manage_account` | High
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/cgi-bin/luci/api/wireless` | High
+11 | File | `/ci_hms/massage_room/edit/1` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+21 | File | `/index/jobfairol/show/` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/manage-apartment.php` | High
+24 | File | `/medicines/profile.php` | High
 25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 26 | File | `/pages/apply_vacancy.php` | High
 27 | File | `/proc/<PID>/mem` | High
 28 | File | `/proxy` | Low
 29 | File | `/secure/ViewCollectors` | High
-30 | File | `/simple_chat_bot/admin/?page=user/manage_user` | High
-31 | File | `/spip.php` | Medium
-32 | ... | ... | ...
+30 | File | `/spip.php` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/uncpath/` | Medium
+33 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

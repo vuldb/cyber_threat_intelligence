@@ -110,9 +110,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/out.php` | Medium
 8 | File | `/spip.php` | Medium
 9 | File | `/uncpath/` | Medium
-10 | ... | ... | ...
+10 | File | `adclick.php` | Medium
+11 | File | `addentry.php` | Medium
+12 | ... | ... | ...
 
-There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Nicaragua Unknown:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -47,15 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-6 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
-7 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,59 +62,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
+1 | File | `$HOME/.printers` | High
 2 | File | `//` | Low
-3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/edit_members.php` | High
-6 | File | `/api/audits` | Medium
-7 | File | `/api/browserextension/UpdatePassword/` | High
-8 | File | `/back/index.php/user/User/?1` | High
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/calendar/viewcalendar.php` | High
-12 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-13 | File | `/clients/listclients.php` | High
-14 | File | `/cms/category/list` | High
-15 | File | `/confirm` | Medium
-16 | File | `/contacts/listcontacts.php` | High
-17 | File | `/data/app` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-20 | File | `/etc/sudoers` | Medium
-21 | File | `/event/admin/?page=user/list` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forums/editforum.php` | High
-24 | File | `/general/search.php?searchtype=simple` | High
-25 | File | `/goform/fast_setting_wifi_set` | High
-26 | File | `/goform/setDiagnoseInfo` | High
-27 | File | `/goform/setMacFilterCfg` | High
-28 | File | `/goform/setSnmpInfo` | High
-29 | File | `/goform/setSysPwd` | High
-30 | File | `/goform/setUplinkInfo` | High
-31 | File | `/goform/SysToolRestoreSet` | High
-32 | File | `/gpac/src/bifs/unquantize.c` | High
-33 | File | `/hrm/controller/employee.php` | High
-34 | File | `/hrm/employeeadd.php` | High
-35 | File | `/hrm/employeeview.php` | High
-36 | File | `/index.php?module=configuration/application` | High
-37 | File | `/index.php?module=entities/fields&entities_id=24` | High
-38 | File | `/linkedcontent/listfiles.php` | High
-39 | File | `/m3_exec.h` | Medium
-40 | File | `/meetings/listmeetings.php` | High
-41 | File | `/opac/Actions.php?a=login` | High
-42 | File | `/pages/processlogin.php` | High
-43 | File | `/password/reset` | High
-44 | File | `/picturesPreview` | High
-45 | File | `/projects/listprojects.php` | High
-46 | File | `/services/Card/findUser` | High
-47 | File | `/template/edit` | High
-48 | File | `/tmp` | Low
-49 | File | `/uncpath/` | Medium
-50 | File | `/user/loader.php?api=1` | High
-51 | ... | ... | ...
+3 | File | `/admin/admin.php` | High
+4 | File | `/bin/httpd` | Medium
+5 | File | `/CPE` | Low
+6 | File | `/etc/tomcat8/Catalina/attack` | High
+7 | File | `/forum/PostPrivateMessage` | High
+8 | File | `/home/cavesConsole` | High
+9 | File | `/home/kickPlayer` | High
+10 | File | `/home/masterConsole` | High
+11 | File | `/home/sendBroadcast` | High
+12 | File | `/login/index.php` | High
+13 | File | `/oews/classes/Master.php?f=update_cart` | High
+14 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+15 | File | `/output/outdbg.c` | High
+16 | File | `/output/outieee.c` | High
+17 | File | `/param.file.tgz` | High
+18 | File | `/password/reset` | High
+19 | File | `/ptippage.cgi` | High
+20 | File | `/ptipupgrade.cgi` | High
+21 | File | `/royal_event/userregister.php` | High
+22 | File | `/setnetworksettings/IPAddress` | High
+23 | File | `/SetNetworkSettings/SubnetMask` | High
+24 | File | `/u/username.json` | High
+25 | File | `/user/s.php` | Medium
+26 | File | `/user/updatePwd` | High
+27 | File | `/wireless/basic.asp` | High
+28 | File | `/wireless/guestnetwork.asp` | High
+29 | File | `01article.php` | High
+30 | File | `action.php` | Medium
+31 | File | `add-locker-form.php` | High
+32 | File | `admin/abc.php` | High
+33 | File | `admin/add_payment.php` | High
+34 | File | `admin/adminlogin.php` | High
+35 | File | `admin/approve_user.php` | High
+36 | File | `admin/disapprove_user.php` | High
+37 | File | `admin/expense_report.php` | High
+38 | File | `admin/forget_password.php` | High
+39 | File | `admin/make_payments.php` | High
+40 | File | `admin/manage_user.php` | High
+41 | File | `admin/page-login.php` | High
+42 | File | `admin/practice_pdf.php` | High
+43 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

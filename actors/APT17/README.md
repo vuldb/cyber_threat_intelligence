@@ -62,7 +62,7 @@ ID | Type | Indicator | Confidence
 6 | File | `detail.php` | Medium
 7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

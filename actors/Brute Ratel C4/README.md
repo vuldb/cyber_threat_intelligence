@@ -62,17 +62,17 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/web_config.php` | High
 7 | File | `/ajax/ImportCertificate` | High
 8 | File | `/app/controller/Books.php` | High
-9 | File | `/cgi-bin` | Medium
-10 | File | `/config/service/host.go` | High
-11 | File | `/data/sqldata` | High
-12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-13 | File | `/htmldoc/htmldoc/html.cxx` | High
-14 | File | `/lan.asp` | Medium
-15 | File | `/login.php` | Medium
-16 | File | `/Pwrchute` | Medium
+9 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+10 | File | `/cgi-bin` | Medium
+11 | File | `/config/service/host.go` | High
+12 | File | `/data/sqldata` | High
+13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+14 | File | `/htmldoc/htmldoc/html.cxx` | High
+15 | File | `/lan.asp` | Medium
+16 | File | `/login.php` | Medium
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

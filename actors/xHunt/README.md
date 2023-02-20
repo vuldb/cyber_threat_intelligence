@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,51 +64,52 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/` | Low
 4 | File | `/admin/addemployee.php` | High
 5 | File | `/admin/communitymanagement.php` | High
-6 | File | `/admin/extended` | High
-7 | File | `/admin/featured.php` | High
-8 | File | `/admin/generalsettings.php` | High
-9 | File | `/admin/index.PHP` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/newsletter1.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/renewaldue.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/admin/students/view_student.php` | High
-16 | File | `/admin/usermanagement.php` | High
-17 | File | `/api/addusers` | High
-18 | File | `/api/user/upsert/<uuid>` | High
-19 | File | `/bits/stl_vector.h` | High
-20 | File | `/bsms_ci/index.php` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/common/info.cgi` | High
-23 | File | `/dashboard/add-portfolio.php` | High
-24 | File | `/dashboard/updatelogo.php` | High
-25 | File | `/designer/add/layout` | High
-26 | File | `/etc/gsissh/sshd_config` | High
-27 | File | `/etc/ldap.conf` | High
-28 | File | `/etc/shadow` | Medium
-29 | File | `/face-recognition-php/facepay-master/camera.php` | High
-30 | File | `/filemanager/upload/drop` | High
-31 | File | `/foms/place-order.php` | High
-32 | File | `/getImage` | Medium
-33 | File | `/goform/wizard_end` | High
-34 | File | `/h/calendar` | Medium
-35 | File | `/h/compose` | Medium
-36 | File | `/h/search?action=voicemail&action=listen` | High
-37 | File | `/hrm/employeeview.php` | High
-38 | File | `/htmldoc/htmldoc/html.cxx` | High
-39 | File | `/index.php` | Medium
-40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/login.php` | Medium
-42 | File | `/loginVaLidation.php` | High
-43 | File | `/manage-apartment.php` | High
-44 | File | `/manager/index.php` | High
-45 | File | `/mcategory.php` | High
-46 | File | `/mkshop/Men/profile.php` | High
-47 | File | `/new` | Low
-48 | ... | ... | ...
+6 | File | `/admin/edit.php` | High
+7 | File | `/admin/extended` | High
+8 | File | `/admin/featured.php` | High
+9 | File | `/admin/generalsettings.php` | High
+10 | File | `/admin/index.PHP` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/newsletter1.php` | High
+13 | File | `/admin/payment.php` | High
+14 | File | `/admin/renewaldue.php` | High
+15 | File | `/admin/students/manage.php` | High
+16 | File | `/admin/students/view_student.php` | High
+17 | File | `/admin/usermanagement.php` | High
+18 | File | `/api/addusers` | High
+19 | File | `/api/user/upsert/<uuid>` | High
+20 | File | `/appliance/users?action=edit` | High
+21 | File | `/bits/stl_vector.h` | High
+22 | File | `/bsms_ci/index.php` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/common/info.cgi` | High
+25 | File | `/dashboard/add-portfolio.php` | High
+26 | File | `/dashboard/updatelogo.php` | High
+27 | File | `/designer/add/layout` | High
+28 | File | `/etc/gsissh/sshd_config` | High
+29 | File | `/etc/ldap.conf` | High
+30 | File | `/etc/shadow` | Medium
+31 | File | `/face-recognition-php/facepay-master/camera.php` | High
+32 | File | `/filemanager/upload/drop` | High
+33 | File | `/foms/place-order.php` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/getImage` | Medium
+36 | File | `/goform/wizard_end` | High
+37 | File | `/h/calendar` | Medium
+38 | File | `/h/compose` | Medium
+39 | File | `/h/search?action=voicemail&action=listen` | High
+40 | File | `/hrm/employeeview.php` | High
+41 | File | `/htmldoc/htmldoc/html.cxx` | High
+42 | File | `/index.php` | Medium
+43 | File | `/librarian/bookdetails.php` | High
+44 | File | `/login.php` | Medium
+45 | File | `/loginVaLidation.php` | High
+46 | File | `/manage-apartment.php` | High
+47 | File | `/manager/index.php` | High
+48 | File | `/mcategory.php` | High
+49 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

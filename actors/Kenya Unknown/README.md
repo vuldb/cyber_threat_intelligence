@@ -123,16 +123,17 @@ ID | Type | Indicator | Confidence
 7 | File | `/goform/form2Wan.cgi` | High
 8 | File | `/HNAP1/SetClientInfo` | High
 9 | File | `/includes/rrdtool.inc.php` | High
-10 | File | `/management/users/register` | High
-11 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
-12 | File | `/php-sms/classes/Master.php` | High
-13 | File | `/php-sms/classes/SystemSettings.php` | High
-14 | File | `/plugin/getList` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `5.2.9\syscrb.exe` | High
-17 | ... | ... | ...
+10 | File | `/index.php` | Medium
+11 | File | `/management/users/register` | High
+12 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+13 | File | `/php-sms/classes/Master.php` | High
+14 | File | `/php-sms/classes/SystemSettings.php` | High
+15 | File | `/plugin/getList` | High
+16 | File | `/sacco_shield/manage_payment.php` | High
+17 | File | `/uncpath/` | Medium
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

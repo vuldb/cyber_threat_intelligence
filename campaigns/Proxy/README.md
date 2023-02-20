@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -69,35 +69,32 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/article_category.php` | High
 6 | File | `/admin/manage_user.php` | High
 7 | File | `/apply.cgi` | Medium
-8 | File | `/classes/Master.php?f=delete_brand` | High
-9 | File | `/classes/Master.php?f=delete_category` | High
-10 | File | `/config/api/v1/reboot` | High
-11 | File | `/etc/shadow` | Medium
-12 | File | `/goform/WifiBasicSet` | High
-13 | File | `/hss/admin/?page=client/manage_client` | High
-14 | File | `/login/index.php` | High
-15 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-16 | File | `/output/outdbg.c` | High
-17 | File | `/output/outieee.c` | High
-18 | File | `/plesk-site-preview/` | High
-19 | File | `/resources//../` | High
-20 | File | `/setNTP.cgi` | Medium
-21 | File | `/system/site.php` | High
-22 | File | `/tiki-importer.php` | High
-23 | File | `/tmp` | Low
-24 | File | `/tpts/manage_user.php` | High
-25 | File | `/trufusionPortal/upDwModuleProxy` | High
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/etc/restore0.9` | High
-28 | File | `/wp-admin/options-general.php` | High
-29 | File | `acl.c` | Low
-30 | File | `admin/manage_user.php` | High
-31 | File | `admin/page-login.php` | High
-32 | File | `admin/panels/uploader/admin.uploader.php` | High
-33 | File | `admin_class.php` | High
-34 | ... | ... | ...
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/classes/Master.php?f=delete_brand` | High
+10 | File | `/classes/Master.php?f=delete_category` | High
+11 | File | `/config/api/v1/reboot` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forums.php?action=post` | High
+14 | File | `/home/cavesConsole` | High
+15 | File | `/home/kickPlayer` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/home/sendBroadcast` | High
+18 | File | `/hss/admin/?page=client/manage_client` | High
+19 | File | `/index.php` | Medium
+20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+21 | File | `/login/index.php` | High
+22 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+23 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+24 | File | `/resources//../` | High
+25 | File | `/setNTP.cgi` | Medium
+26 | File | `/sys/dict/queryTableData` | High
+27 | File | `/system/site.php` | High
+28 | File | `/tiki-importer.php` | High
+29 | File | `/tmp` | Low
+30 | File | `/tpts/manage_user.php` | High
+31 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -357,10 +357,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -370,35 +370,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `.php.gif` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/Admin/login.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/apilog.php` | Medium
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/connectors/index.php` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/dev/block/mmcblk0rpmb` | High
-12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-13 | File | `/employeeview.php` | High
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/fos/admin/ajax.php?action=login` | High
-17 | File | `/fos/admin/index.php?page=menu` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/submit-articles` | High
+5 | File | `/apilog.php` | Medium
+6 | File | `/bin/httpd` | Medium
+7 | File | `/connectors/index.php` | High
+8 | File | `/Default/Bd` | Medium
+9 | File | `/dev/block/mmcblk0rpmb` | High
+10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+11 | File | `/face-recognition-php/facepay-master/camera.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/fos/admin/ajax.php?action=login` | High
+15 | File | `/fos/admin/index.php?page=menu` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/home/sendBroadcast` | High
 18 | File | `/hrm/controller/employee.php` | High
 19 | File | `/hrm/employeeadd.php` | High
 20 | File | `/hrm/employeeview.php` | High
 21 | File | `/index.php` | Medium
 22 | File | `/items/view_item.php` | High
 23 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-24 | File | `/lookin/info` | Medium
-25 | File | `/manager/index.php` | High
-26 | File | `/medical/inventories.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/modules/public/calendar.php` | High
-30 | File | `/newsDia.php` | Medium
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/login/index.php` | High
+25 | File | `/lookin/info` | Medium
+26 | File | `/manager/index.php` | High
+27 | File | `/medical/inventories.php` | High
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/modules/public/calendar.php` | High
+31 | File | `/newsDia.php` | Medium
 32 | File | `/out.php` | Medium
 33 | File | `/php_action/editProductImage.php` | High
 34 | File | `/product/savenewproduct.php?flag=1` | High
@@ -412,25 +412,25 @@ ID | Type | Indicator | Confidence
 42 | File | `/staff/bookdetails.php` | High
 43 | File | `/uncpath/` | Medium
 44 | File | `/user/update_booking.php` | High
-45 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-46 | File | `/view-property.php` | High
-47 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+45 | File | `/view-property.php` | High
+46 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+47 | File | `/wireless/security.asp` | High
 48 | File | `/wordpress/wp-admin/options-general.php` | High
 49 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 50 | File | `01article.php` | High
 51 | File | `AbstractScheduleJob.java` | High
-52 | File | `actionphp/download.File.php` | High
-53 | File | `adclick.php` | Medium
-54 | File | `addtocart.asp` | High
-55 | File | `admin.php` | Medium
-56 | File | `admin/admin/adminsave.html` | High
-57 | File | `admin/conf_users_edit.php` | High
-58 | File | `admin/login.php` | High
-59 | File | `admin/panels/entry/admin.entry.list.php` | High
-60 | File | `admin/panels/uploader/admin.uploader.php` | High
+52 | File | `action.php` | Medium
+53 | File | `actionphp/download.File.php` | High
+54 | File | `adclick.php` | Medium
+55 | File | `addtocart.asp` | High
+56 | File | `admin.php` | Medium
+57 | File | `admin/abc.php` | High
+58 | File | `admin/admin/adminsave.html` | High
+59 | File | `admin/conf_users_edit.php` | High
+60 | File | `admin/disapprove_user.php` | High
 61 | ... | ... | ...
 
-There are 534 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

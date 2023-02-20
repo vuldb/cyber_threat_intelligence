@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3453,14 +3453,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3469,56 +3469,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/+CSCOE+/logon.html` | High
-3 | File | `/admin.php?action=themeinstall` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/api/browserextension/UpdatePassword/` | High
-7 | File | `/api/resource/Item?fields` | High
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/cgi-bin/webadminget.cgi` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/dev/block/mmcblk0rpmb` | High
-13 | File | `/etc/master.passwd` | High
-14 | File | `/etc/shadow` | Medium
+2 | File | `/admin.php?action=themeinstall` | High
+3 | File | `/api/resource/Item?fields` | High
+4 | File | `/appliance/users?action=edit` | High
+5 | File | `/bin/httpd` | Medium
+6 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/cgi-bin/luci/api/wireless` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/webadminget.cgi` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/etc/master.passwd` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/etc/sudoers` | Medium
 15 | File | `/forum/away.php` | High
-16 | File | `/fos/admin/ajax.php?action=login` | High
-17 | File | `/fos/admin/index.php?page=menu` | High
-18 | File | `/goform/WifiBasicSet` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/Items/*/RemoteImages/Download` | High
-22 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-23 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-24 | File | `/medicines/profile.php` | High
-25 | File | `/out.php` | Medium
-26 | File | `/pages/save_user.php` | High
-27 | File | `/proxy` | Low
-28 | File | `/reports/rwservlet` | High
-29 | File | `/tmp` | Low
-30 | File | `/util/print.c` | High
-31 | File | `/var/log/nginx` | High
-32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `01article.php` | High
-35 | File | `actionphp/download.File.php` | High
-36 | File | `adclick.php` | Medium
-37 | File | `add_contestant.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin/adminsave.html` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/login.php` | High
-42 | File | `admin/panels/entry/admin.entry.list.php` | High
-43 | File | `admin/panels/uploader/admin.uploader.php` | High
-44 | File | `admin/sysCheckFile_deal.php` | High
-45 | File | `administers` | Medium
-46 | File | `admin_class.php` | High
-47 | File | `agent/listener/templates/tail.html` | High
-48 | File | `ajax_represent.php` | High
-49 | ... | ... | ...
+16 | File | `/forum/PostPrivateMessage` | High
+17 | File | `/fos/admin/ajax.php?action=login` | High
+18 | File | `/fos/admin/index.php?page=menu` | High
+19 | File | `/goform/WifiBasicSet` | High
+20 | File | `/home/masterConsole` | High
+21 | File | `/home/sendBroadcast` | High
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/index.php` | Medium
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+26 | File | `/medicines/profile.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/proxy` | Low
+29 | File | `/psrs/admin/?page=inquiries/view_inquiry` | High
+30 | File | `/reports/rwservlet` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/start_apply.htm` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/upload` | Low
+35 | File | `/util/print.c` | High
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+37 | File | `/wireless/security.asp` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `01article.php` | High
+40 | File | `Access.app/Contents/Resources/kcproxy` | High
+41 | File | `action.php` | Medium
+42 | File | `adclick.php` | Medium
+43 | ... | ... | ...
 
-There are 422 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

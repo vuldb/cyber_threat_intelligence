@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ireland Unknown:
 
-* [AR](https://vuldb.com/?country.ar)
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
+* [AR](https://vuldb.com/?country.ar)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -524,9 +524,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -540,52 +541,53 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/posts.php?source=edit_post` | High
 5 | File | `/admin/problem_judge.php` | High
 6 | File | `/clients/profile` | High
-7 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-8 | File | `/etc/ldap.conf` | High
-9 | File | `/etc/master.passwd` | High
-10 | File | `/etc/passwd` | Medium
-11 | File | `/etc/pki/pulp/nodes/` | High
+7 | File | `/dev/block/mmcblk0rpmb` | High
+8 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+9 | File | `/etc/ldap.conf` | High
+10 | File | `/etc/master.passwd` | High
+11 | File | `/etc/passwd` | Medium
 12 | File | `/face-recognition-php/facepay-master/camera.php` | High
-13 | File | `/front/actions.php` | High
-14 | File | `/fs/nfsd/nfs4proc.c` | High
-15 | File | `/goform/AdvSetWrlsafeset` | High
-16 | File | `/goform/CertListInfo` | High
-17 | File | `/goform/editFileName` | High
-18 | File | `/goform/exeCommand` | High
-19 | File | `/goform/L7Im` | Medium
-20 | File | `/goform/SetIpBind` | High
-21 | File | `/goform/SysToolRestoreSet` | High
-22 | File | `/goform/webExcptypemanFilter` | High
-23 | File | `/goform/WifiBasicSet` | High
-24 | File | `/goform/WifiMacFilterGet` | High
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/hrm/employeeview.php` | High
-27 | File | `/hss/?page=categories` | High
-28 | File | `/hss/?page=product_per_brand` | High
-29 | File | `/hss/admin/?page=products/manage_product` | High
-30 | File | `/hss/admin/?page=user/manage_user` | High
-31 | File | `/hss/admin/categories/view_category.php` | High
-32 | File | `/js/player/dmplayer/dmku/index.php` | High
-33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-34 | File | `/leave_system/admin/?page=maintenance/department` | High
-35 | File | `/login` | Low
-36 | File | `/lookin/info` | Medium
-37 | File | `/mods/_core/courses/users/create_course.php` | High
-38 | File | `/panel/fields/add` | High
-39 | File | `/proxy` | Low
-40 | File | `/queuing/admin/ajax.php?action=save_settings` | High
-41 | File | `/services/view_service.php` | High
-42 | File | `/var/log/messages` | High
-43 | File | `/var/tmp/` | Medium
-44 | File | `/webservices/stream/tail.php` | High
-45 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-46 | File | `102/tcp` | Low
-47 | File | `4840/tcp` | Medium
-48 | File | `AAVCAssembler.cpp` | High
-49 | File | `AbstractScheduleJob.java` | High
-50 | ... | ... | ...
+13 | File | `/fos/admin/ajax.php?action=login` | High
+14 | File | `/fos/admin/index.php?page=menu` | High
+15 | File | `/front/actions.php` | High
+16 | File | `/goform/WifiBasicSet` | High
+17 | File | `/home/masterConsole` | High
+18 | File | `/home/sendBroadcast` | High
+19 | File | `/hrm/employeeadd.php` | High
+20 | File | `/hrm/employeeview.php` | High
+21 | File | `/hss/?page=categories` | High
+22 | File | `/hss/?page=product_per_brand` | High
+23 | File | `/hss/admin/?page=products/manage_product` | High
+24 | File | `/hss/admin/?page=user/manage_user` | High
+25 | File | `/hss/admin/categories/view_category.php` | High
+26 | File | `/js/player/dmplayer/dmku/index.php` | High
+27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+28 | File | `/login` | Low
+29 | File | `/mods/_core/courses/users/create_course.php` | High
+30 | File | `/panel/fields/add` | High
+31 | File | `/proxy` | Low
+32 | File | `/queuing/admin/ajax.php?action=save_settings` | High
+33 | File | `/reports/rwservlet` | High
+34 | File | `/var/tmp/` | Medium
+35 | File | `/webservices/stream/tail.php` | High
+36 | File | `/wireless/security.asp` | High
+37 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+38 | File | `01article.php` | High
+39 | File | `102/tcp` | Low
+40 | File | `4840/tcp` | Medium
+41 | File | `AbstractScheduleJob.java` | High
+42 | File | `account/lost_password` | High
+43 | File | `AccountsDb.java` | High
+44 | File | `actionphp/download.File.php` | High
+45 | File | `adclick.php` | Medium
+46 | File | `AddAppNetworksActivity.java` | High
+47 | File | `addrtoname.c` | Medium
+48 | File | `admin.php` | Medium
+49 | File | `admin/abc.php` | High
+50 | File | `admin/admin.shtml` | High
+51 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 442 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

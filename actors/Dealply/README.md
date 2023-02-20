@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dealply:
 
 * [IT](https://vuldb.com/?country.it)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -33,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,50 +49,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=delete_transaction` | High
-2 | File | `/admin/ajax.php?action=delete_uploads` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/admin/ajax.php?action=delete_window` | High
-5 | File | `/admin/ajax.php?action=save_queue` | High
-6 | File | `/admin/ajax.php?action=save_window` | High
-7 | File | `/admin/backups/work-dir` | High
-8 | File | `/admin/manage_user.php` | High
-9 | File | `/api/upload` | Medium
-10 | File | `/apply.cgi` | Medium
-11 | File | `/bsms_ci/index.php/book` | High
-12 | File | `/classes/Master.php?f=delete_brand` | High
-13 | File | `/config/api/v1/reboot` | High
-14 | File | `/formNewSchedule` | High
-15 | File | `/formPasswordAuth` | High
-16 | File | `/formPasswordSetup` | High
-17 | File | `/formSysLog` | Medium
-18 | File | `/formSystemCheck` | High
-19 | File | `/formWizardPassword` | High
-20 | File | `/forums.php?action=post` | High
-21 | File | `/fos/admin/ajax.php?action=login` | High
-22 | File | `/fos/admin/index.php?page=menu` | High
-23 | File | `/graphql` | Medium
-24 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-25 | File | `/login/index.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-28 | File | `/output/outdbg.c` | High
-29 | File | `/output/outieee.c` | High
-30 | File | `/queuing/index.php?page=display` | High
-31 | File | `/rrdp` | Low
-32 | File | `/search.php` | Medium
-33 | File | `/setNTP.cgi` | Medium
-34 | File | `/subtitles.php` | High
-35 | File | `/sys/dict/queryTableData` | High
-36 | File | `/tiki-importer.php` | High
-37 | File | `/tmp` | Low
-38 | File | `/tpts/manage_user.php` | High
-39 | File | `/u/username.json` | High
-40 | File | `/upload` | Low
-41 | File | `/www/include/filesave.php` | High
-42 | ... | ... | ...
+1 | File | `$GIT_DIR/objects` | High
+2 | File | `/admin/index2.html` | High
+3 | File | `/adminGetUserList` | High
+4 | File | `/admin_area/login_transfer.php` | High
+5 | File | `/api/public/register/family` | High
+6 | File | `/api/v1/mentions` | High
+7 | File | `/backup.pl` | Medium
+8 | File | `/bin/httpd` | Medium
+9 | File | `/cgi-bin/ExportLogs.sh` | High
+10 | File | `/check` | Low
+11 | File | `/controller/OnlinePreviewController.java` | High
+12 | File | `/CPE` | Low
+13 | File | `/ecshop/admin/template.php` | High
+14 | File | `/file_manage_view.php?fmdo=edit&filename` | High
+15 | File | `/formwork/panel/dashboard` | High
+16 | File | `/forum/PostPrivateMessage` | High
+17 | File | `/goform/formEasySetupWizard3` | High
+18 | File | `/goform/formLogin` | High
+19 | File | `/goform/formSchedule` | High
+20 | File | `/goform/formSetACLFilter` | High
+21 | File | `/goform/formSetEmail` | High
+22 | File | `/goform/formSetRoute` | High
+23 | File | `/goform/formSetWanDhcpplus` | High
+24 | File | `/goform/formWlanGuestSetup` | High
+25 | File | `/goform/formWPS` | High
+26 | File | `/home/cavesConsole` | High
+27 | File | `/home/kickPlayer` | High
+28 | File | `/home/masterConsole` | High
+29 | File | `/home/sendBroadcast` | High
+30 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

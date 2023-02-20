@@ -14,12 +14,9 @@ The following _campaigns_ are known and can be associated with Wocao:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Wocao:
 
-* [DE](https://vuldb.com/?country.de)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
+* [IR](https://vuldb.com/?country.ir)
+* [IT](https://vuldb.com/?country.it)
 
 ## IOC - Indicator of Compromise
 
@@ -40,11 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -55,23 +52,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
+1 | File | `.authlie` | Medium
 2 | File | `/admin/ajax.php?action=delete_user` | High
 3 | File | `/admin/ajax.php?action=delete_window` | High
 4 | File | `/admin/ajax.php?action=save_queue` | High
 5 | File | `/admin/article_category.php` | High
 6 | File | `/admin/manage_user.php` | High
-7 | File | `/adminui/error_details.php` | High
-8 | File | `/adminui/history_log.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/classes/Master.php?f=delete_brand` | High
-11 | File | `/classes/Master.php?f=delete_category` | High
-12 | File | `/config/api/v1/reboot` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/goform/dir_setWanWifi` | High
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/hospital/hms/admin/patient-search.php` | High
-17 | File | `/hss/admin/?page=client/manage_client` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/classes/Master.php?f=delete_brand` | High
+10 | File | `/classes/Master.php?f=delete_category` | High
+11 | File | `/config/api/v1/reboot` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forums.php?action=post` | High
+14 | File | `/hospital/hms/admin/patient-search.php` | High
+15 | File | `/hss/admin/?page=client/manage_client` | High
+16 | File | `/index.php` | Medium
+17 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
 18 | File | `/login/index.php` | High
 19 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
 20 | File | `/output/outdbg.c` | High
@@ -82,16 +79,11 @@ ID | Type | Indicator | Confidence
 25 | File | `/tmp` | Low
 26 | File | `/tpts/manage_user.php` | High
 27 | File | `/trufusionPortal/upDwModuleProxy` | High
-28 | File | `/var/log/nginx` | High
-29 | File | `/wp-admin/options-general.php` | High
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `0_change-gallery.php` | High
-32 | File | `addToWishlist.asp` | High
-33 | File | `admin/manage_user.php` | High
-34 | File | `admin/page-login.php` | High
-35 | ... | ... | ...
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/etc/restore0.9` | High
+30 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

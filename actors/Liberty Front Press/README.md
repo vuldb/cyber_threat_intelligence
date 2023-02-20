@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Liberty Front Press:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,14 +90,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,52 +105,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/wirelessConnect` | High
+1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/admin/videoalbum/list` | High
-4 | File | `/attachments` | Medium
-5 | File | `/c/macho_reader.c` | High
-6 | File | `/cgi-bin/DownloadFlash` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-9 | File | `/conf/` | Low
-10 | File | `/config/getuser` | High
-11 | File | `/dashboard/contact` | High
-12 | File | `/etc/hosts` | Medium
-13 | File | `/example/editor` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/index` | Low
-16 | File | `/iu-application/controllers/administration/auth.php` | High
-17 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-20 | File | `/module/module_frame/index.php` | High
-21 | File | `/music/ajax.php` | High
-22 | File | `/northstar/Admin/changePassword.jsp` | High
-23 | File | `/orms/` | Low
-24 | File | `/ossn/administrator/com_installer` | High
-25 | File | `/sre/params.php` | High
-26 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/xbindkeysrc-tmp` | High
-29 | File | `/Users` | Low
-30 | File | `/var/spool/hylafax` | High
-31 | File | `/whbs/?page=my_bookings` | High
-32 | File | `access_rules/rules_form` | High
-33 | File | `action/addproject.php` | High
-34 | File | `adclick.php` | Medium
+3 | File | `/admin/upload/upload` | High
+4 | File | `/bsms_ci/index.php/book` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/hosts` | Medium
+9 | File | `/example/editor` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/HNAP1` | Low
+12 | File | `/iu-application/controllers/administration/auth.php` | High
+13 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+14 | File | `/medicines/profile.php` | High
+15 | File | `/obs/book.php` | High
+16 | File | `/ossn/administrator/com_installer` | High
+17 | File | `/param.file.tgz` | High
+18 | File | `/pms/update_user.php?user_id=1` | High
+19 | File | `/public_html/users.php` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/sre/params.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/user/s.php` | Medium
+24 | File | `/user/upload/upload` | High
+25 | File | `/Users` | Low
+26 | File | `/var/spool/hylafax` | High
+27 | File | `/vendor` | Low
+28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+29 | File | `/wireless/guestnetwork.asp` | High
+30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+31 | File | `action/addproject.php` | High
+32 | File | `adclick.php` | Medium
+33 | File | `add-locker-form.php` | High
+34 | File | `add_contestant.php` | High
 35 | File | `admin.php` | Medium
-36 | File | `admin/ajax.attachment.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `admin/profile.php?section=admin` | High
-39 | File | `admin/sysCheckFile_deal.php` | High
-40 | File | `admin_delete.php` | High
-41 | File | `Advanced_ASUSDDNS_Content.asp` | High
-42 | File | `af_netlink.c` | Medium
-43 | File | `album_portal.php` | High
-44 | ... | ... | ...
+36 | File | `admin/add_payment.php` | High
+37 | File | `admin/booking_report.php` | High
+38 | File | `admin/disapprove_user.php` | High
+39 | File | `admin/expense_report.php` | High
+40 | File | `admin/forget_password.php` | High
+41 | File | `admin/index.php` | High
+42 | File | `admin/make_payments.php` | High
+43 | File | `admin/sysCheckFile_deal.php` | High
+44 | File | `Advanced_ASUSDDNS_Content.asp` | High
+45 | File | `af_netlink.c` | Medium
+46 | File | `album_portal.php` | High
+47 | File | `application/libraries/LanguageTask.php` | High
+48 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

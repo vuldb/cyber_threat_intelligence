@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Guatemala Unknown:
 
+* [ES](https://vuldb.com/?country.es)
 * [NI](https://vuldb.com/?country.ni)
 * [US](https://vuldb.com/?country.us)
 

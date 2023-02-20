@@ -56,28 +56,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students/view_student.php` | High
-2 | File | `/bin/boa` | Medium
-3 | File | `/classes/Master.php?f=delete_schedule` | High
-4 | File | `/controller/OnlinePreviewController.java` | High
-5 | File | `/dashboard/settings` | High
-6 | File | `/etc/init0.d/S80telnetd.sh` | High
-7 | File | `/etc/srapi/config/system.conf` | High
-8 | File | `/etc/sysconfig/tomcat` | High
-9 | File | `/goform/SafeEmailFilter` | High
-10 | File | `/goform/setMAC` | High
-11 | File | `/hrm/controller/employee.php` | High
-12 | File | `/htmldoc/htmldoc/html.cxx` | High
-13 | File | `/index.php` | Medium
-14 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-15 | File | `/leave_system/classes/Users.php?f=save` | High
-16 | File | `/net-banking/manage_customers.php` | High
-17 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-18 | File | `/release-x64/otfccdump+0x6c0a32` | High
-19 | File | `/release-x64/otfccdump+0x703969` | High
-20 | ... | ... | ...
+1 | File | `/admin/DBbackup/` | High
+2 | File | `/admin/students/view_student.php` | High
+3 | File | `/bin/boa` | Medium
+4 | File | `/classes/Master.php?f=delete_schedule` | High
+5 | File | `/controller/OnlinePreviewController.java` | High
+6 | File | `/dashboard/settings` | High
+7 | File | `/etc/init0.d/S80telnetd.sh` | High
+8 | File | `/etc/srapi/config/system.conf` | High
+9 | File | `/etc/sysconfig/tomcat` | High
+10 | File | `/goform/SafeEmailFilter` | High
+11 | File | `/goform/setMAC` | High
+12 | File | `/hrm/controller/employee.php` | High
+13 | File | `/htmldoc/htmldoc/html.cxx` | High
+14 | File | `/index.php` | Medium
+15 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+16 | File | `/leave_system/classes/Users.php?f=save` | High
+17 | File | `/net-banking/manage_customers.php` | High
+18 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+19 | File | `/release-x64/otfccdump+0x6c0a32` | High
+20 | File | `/release-x64/otfccdump+0x703969` | High
+21 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

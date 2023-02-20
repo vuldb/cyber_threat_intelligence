@@ -19,12 +19,12 @@ There are 2 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MuddyWater:
 
-* [JP](https://vuldb.com/?country.jp)
 * [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,15 +59,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,53 +73,50 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `//` | Low
-3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/api/audits` | Medium
-6 | File | `/api/browserextension/UpdatePassword/` | High
-7 | File | `/back/index.php/user/User/?1` | High
-8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-9 | File | `/cms/category/list` | High
-10 | File | `/data/app` | Medium
-11 | File | `/Default/Bd` | Medium
-12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/goform/fast_setting_wifi_set` | High
-16 | File | `/goform/setMacFilterCfg` | High
-17 | File | `/goform/SysToolRestoreSet` | High
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/m3_exec.h` | Medium
-21 | File | `/opac/Actions.php?a=login` | High
-22 | File | `/out.php` | Medium
-23 | File | `/output/outdbg.c` | High
-24 | File | `/output/outieee.c` | High
-25 | File | `/password/reset` | High
-26 | File | `/picturesPreview` | High
-27 | File | `/services/Card/findUser` | High
-28 | File | `/u/username.json` | High
-29 | File | `/user/loader.php?api=1` | High
-30 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-31 | File | `AbstractScheduleJob.java` | High
-32 | File | `admin/panels/uploader/admin.uploader.php` | High
-33 | File | `admin/partials/ajax/add_field_to_form.php` | High
-34 | File | `agent/listener/templates/tail.html` | High
-35 | File | `ajax_represent.php` | High
-36 | File | `announce.php` | Medium
-37 | File | `api.php` | Low
-38 | File | `api/?api=add_server` | High
-39 | File | `app.coffee` | Medium
-40 | File | `app.py` | Low
-41 | File | `app/config/passport.js` | High
-42 | File | `app/controllers/code_caller_controller.php` | High
-43 | File | `app/controllers/geopoll_controller.rb` | High
-44 | File | `app/controllers/oauth.js` | High
-45 | ... | ... | ...
+1 | File | `$HOME/.printers` | High
+2 | File | `/admin/admin.php` | High
+3 | File | `/backup.pl` | Medium
+4 | File | `/bin/httpd` | Medium
+5 | File | `/CPE` | Low
+6 | File | `/dev/tty` | Medium
+7 | File | `/ecshop/admin/template.php` | High
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/home/cavesConsole` | High
+11 | File | `/home/kickPlayer` | High
+12 | File | `/home/masterConsole` | High
+13 | File | `/home/sendBroadcast` | High
+14 | File | `/login/index.php` | High
+15 | File | `/oews/classes/Master.php?f=update_cart` | High
+16 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+17 | File | `/param.file.tgz` | High
+18 | File | `/ptippage.cgi` | High
+19 | File | `/ptipupgrade.cgi` | High
+20 | File | `/royal_event/userregister.php` | High
+21 | File | `/setnetworksettings/IPAddress` | High
+22 | File | `/SetNetworkSettings/SubnetMask` | High
+23 | File | `/u/username.json` | High
+24 | File | `/user/s.php` | Medium
+25 | File | `/user/updatePwd` | High
+26 | File | `/wireless/basic.asp` | High
+27 | File | `/wireless/guestnetwork.asp` | High
+28 | File | `01article.php` | High
+29 | File | `action.php` | Medium
+30 | File | `add-locker-form.php` | High
+31 | File | `admin/abc.php` | High
+32 | File | `admin/add_payment.php` | High
+33 | File | `admin/adminlogin.php` | High
+34 | File | `admin/approve_user.php` | High
+35 | File | `admin/disapprove_user.php` | High
+36 | File | `admin/expense_report.php` | High
+37 | File | `admin/forget_password.php` | High
+38 | File | `admin/make_payments.php` | High
+39 | File | `admin/manage_user.php` | High
+40 | File | `admin/page-login.php` | High
+41 | File | `admin/practice_pdf.php` | High
+42 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

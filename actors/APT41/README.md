@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -83,45 +83,46 @@ ID | Type | Indicator | Confidence
 5 | File | `/category_view.php` | High
 6 | File | `/cgi-bin/portal` | High
 7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/csms/?page=contact_us` | High
-9 | File | `/debug` | Low
-10 | File | `/debug/pprof` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/PowerSaveSet` | High
-13 | File | `/include/make.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/jeecg-boot/sys/common/upload` | High
-16 | File | `/lists/admin/` | High
-17 | File | `/login.cgi?logout=1` | High
-18 | File | `/medical/inventories.php` | High
-19 | File | `/members/view_member.php` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/module/admin_logs` | High
-22 | File | `/nova/bin/console` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/plesk-site-preview/` | High
-25 | File | `/public/login.htm` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/replication` | Medium
-28 | File | `/SASWebReportStudio/logonAndRender.do` | High
-29 | File | `/scas/classes/Users.php?f=save_user` | High
-30 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-31 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-34 | File | `/start-stop` | Medium
-35 | File | `/start_apply.htm` | High
-36 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-37 | File | `/tmp/app/.env` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/upload` | Low
-40 | File | `/usr/bin/pkexec` | High
-41 | File | `/v2/quantum/save-data-upload-big-file` | High
-42 | File | `/WEB-INF/web.xml` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | ... | ... | ...
+8 | File | `/common/download?filename=1.jsp&delete=false` | High
+9 | File | `/csms/?page=contact_us` | High
+10 | File | `/debug` | Low
+11 | File | `/debug/pprof` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/PowerSaveSet` | High
+14 | File | `/include/make.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/jeecg-boot/sys/common/upload` | High
+17 | File | `/lists/admin/` | High
+18 | File | `/login.cgi?logout=1` | High
+19 | File | `/medical/inventories.php` | High
+20 | File | `/members/view_member.php` | High
+21 | File | `/mgmt/tm/util/bash` | High
+22 | File | `/module/admin_logs` | High
+23 | File | `/nova/bin/console` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/plesk-site-preview/` | High
+26 | File | `/public/login.htm` | High
+27 | File | `/public/plugins/` | High
+28 | File | `/replication` | Medium
+29 | File | `/SASWebReportStudio/logonAndRender.do` | High
+30 | File | `/scas/classes/Users.php?f=save_user` | High
+31 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+32 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+35 | File | `/start-stop` | Medium
+36 | File | `/start_apply.htm` | High
+37 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+38 | File | `/tmp/app/.env` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/upload` | Low
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/v2/quantum/save-data-upload-big-file` | High
+43 | File | `/WEB-INF/web.xml` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

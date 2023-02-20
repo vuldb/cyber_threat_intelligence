@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -56,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -68,35 +69,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/audits` | Medium
-2 | File | `/bsms_ci/index.php` | High
-3 | File | `/bsms_ci/index.php/user/edit_user/` | High
-4 | File | `/env` | Low
-5 | File | `/face-recognition-php/facepay-master/camera.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/FreshRSS/p/ext.php` | High
-8 | File | `/goform/addressNat` | High
-9 | File | `/goform/CertListInfo` | High
-10 | File | `/goform/fast_setting_wifi_set` | High
-11 | File | `/goform/IPSECsave` | High
-12 | File | `/goform/L7Im` | Medium
-13 | File | `/goform/NatStaticSetting` | High
-14 | File | `/goform/qossetting` | High
-15 | File | `/goform/SafeClientFilter` | High
-16 | File | `/goform/SafeMacFilter` | High
-17 | File | `/goform/SafeUrlFilter` | High
-18 | File | `/goform/setMacFilterCfg` | High
-19 | File | `/goform/SysToolReboot` | High
-20 | File | `/goform/SysToolRestoreSet` | High
-21 | File | `/goform/VirtualSer` | High
-22 | File | `/gpac/src/bifs/unquantize.c` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/leave_system/admin/?page=maintenance/department` | High
-27 | File | `/lib` | Low
-28 | ... | ... | ...
+2 | File | `/bsms_ci/index.php/user/edit_user/` | High
+3 | File | `/env` | Low
+4 | File | `/face-recognition-php/facepay-master/camera.php` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/FreshRSS/p/ext.php` | High
+7 | File | `/goform/addressNat` | High
+8 | File | `/goform/CertListInfo` | High
+9 | File | `/goform/fast_setting_wifi_set` | High
+10 | File | `/goform/IPSECsave` | High
+11 | File | `/goform/L7Im` | Medium
+12 | File | `/goform/NatStaticSetting` | High
+13 | File | `/goform/qossetting` | High
+14 | File | `/goform/SafeClientFilter` | High
+15 | File | `/goform/SafeMacFilter` | High
+16 | File | `/goform/SafeUrlFilter` | High
+17 | File | `/goform/setMacFilterCfg` | High
+18 | File | `/goform/SysToolReboot` | High
+19 | File | `/goform/SysToolRestoreSet` | High
+20 | File | `/goform/VirtualSer` | High
+21 | File | `/hrm/controller/employee.php` | High
+22 | File | `/hrm/employeeadd.php` | High
+23 | File | `/hrm/employeeview.php` | High
+24 | File | `/leave_system/admin/?page=maintenance/department` | High
+25 | File | `/lib` | Low
+26 | File | `/login` | Low
+27 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

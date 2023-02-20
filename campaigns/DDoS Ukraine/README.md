@@ -157,7 +157,7 @@ ID | Type | Indicator | Confidence
 94 | File | `cart_add.php` | Medium
 95 | ... | ... | ...
 
-There are 841 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 835 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

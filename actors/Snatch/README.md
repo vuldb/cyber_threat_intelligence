@@ -38,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -62,24 +63,29 @@ ID | Type | Indicator | Confidence
 12 | File | `/export` | Low
 13 | File | `/getcfg.php` | Medium
 14 | File | `/goform/WriteFacMac` | High
-15 | File | `/index.php` | Medium
-16 | File | `/lists/admin/user.php` | High
-17 | File | `/mkshop/Men/profile.php` | High
-18 | File | `/movie.php` | Medium
-19 | File | `/news-portal-script/information.php` | High
-20 | File | `/pages/apply_vacancy.php` | High
-21 | File | `/tmp` | Low
-22 | File | `/uncpath/` | Medium
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `/_vti_pvt/access.cnf` | High
-25 | File | `adclick.php` | Medium
-26 | File | `admin.php3` | Medium
-27 | File | `admin/mobile.php` | High
-28 | File | `admin/themes` | Medium
-29 | File | `administration/comments.php` | High
-30 | ... | ... | ...
+15 | File | `/home/kickPlayer` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/index.php` | Medium
+18 | File | `/lists/admin/user.php` | High
+19 | File | `/mkshop/Men/profile.php` | High
+20 | File | `/movie.php` | Medium
+21 | File | `/news-portal-script/information.php` | High
+22 | File | `/pages/apply_vacancy.php` | High
+23 | File | `/param.file.tgz` | High
+24 | File | `/tmp` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/wireless/basic.asp` | High
+27 | File | `/wireless/guestnetwork.asp` | High
+28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+29 | File | `/_vti_pvt/access.cnf` | High
+30 | File | `adclick.php` | Medium
+31 | File | `admin.php3` | Medium
+32 | File | `admin/abc.php` | High
+33 | File | `admin/add_payment.php` | High
+34 | File | `admin/disapprove_user.php` | High
+35 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

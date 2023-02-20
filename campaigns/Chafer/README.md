@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 9 | File | `/Main_AdmStatus_Content.asp` | High
 10 | File | `/requests.php` | High
 11 | File | `/uncpath/` | Medium
-12 | ... | ... | ...
+12 | File | `/var/log/nginx` | High
+13 | ... | ... | ...
 
-There are 94 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

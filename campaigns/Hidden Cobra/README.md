@@ -180,26 +180,27 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=themeinstall` | High
 2 | File | `/admin/reports.php` | High
-3 | File | `/catcompany.php` | High
-4 | File | `/cgi-bin/login.cgi` | High
-5 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-6 | File | `/cgi-bin/R14.2/log.pl` | High
-7 | File | `/export` | Low
-8 | File | `/forgetpassword.php` | High
-9 | File | `/FormLogin` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/graphStatus/displayServiceStatus.php` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/plugin` | Low
-15 | File | `/proc/pid/syscall` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/servlet.gupld` | High
-19 | File | `/sql/sql_type.cc` | High
-20 | ... | ... | ...
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/catcompany.php` | High
+5 | File | `/cgi-bin/login.cgi` | High
+6 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+7 | File | `/cgi-bin/R14.2/log.pl` | High
+8 | File | `/export` | Low
+9 | File | `/forgetpassword.php` | High
+10 | File | `/FormLogin` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/graphStatus/displayServiceStatus.php` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/nova/bin/detnet` | High
+15 | File | `/out.php` | Medium
+16 | File | `/plugin` | Low
+17 | File | `/proc/pid/syscall` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/servlet.gupld` | High
+21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

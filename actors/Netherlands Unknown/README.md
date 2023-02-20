@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Netherlands Unknown:
 
-* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
+* [SH](https://vuldb.com/?country.sh)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2332,14 +2332,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2347,56 +2347,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.../gogo/` | Medium
-2 | File | `.github/workflows/combine-prs.yml` | High
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/admin/ajax.php?action=delete_window` | High
 3 | File | `/admin/api/admin/articles/` | High
 4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/api/index.php` | High
-7 | File | `/appliance/users?action=edit` | High
-8 | File | `/attachments` | Medium
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/dev/mem` | Medium
-12 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-13 | File | `/etc/hosts` | Medium
-14 | File | `/etc/ldap.conf` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/shadow` | Medium
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/SysToolReboot` | High
-20 | File | `/goform/SysToolRestoreSet` | High
-21 | File | `/goform/WifiBasicSet` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/hss/admin/categories/view_category.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index.php?module=entities/fields&entities_id=24` | High
-28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/lookin/info` | Medium
-30 | File | `/menu.html` | Medium
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/pages/processlogin.php` | High
-33 | File | `/pdfalto/src/pdfalto.cc` | High
-34 | File | `/product/savenewproduct.php?flag=1` | High
-35 | File | `/proxy` | Low
-36 | File | `/Redcock-Farm/farm/category.php` | High
-37 | File | `/services/Card/findUser` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/sys/duplicate/check` | High
-40 | File | `/tmp` | Low
-41 | File | `/tmp/app/.env` | High
-42 | File | `/ui/cbpc/login` | High
-43 | File | `/usr/sbin/httpd` | High
-44 | File | `/usr/sbin/nagios` | High
-45 | File | `/var/tmp/audacity-$USER` | High
-46 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-47 | File | `/view-property.php` | High
+5 | File | `/appliance/users?action=edit` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/bsms_ci/index.php/book` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/webadminget.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/dev/block/mmcblk0rpmb` | High
+12 | File | `/etc/config/product.ini` | High
+13 | File | `/etc/crash` | Medium
+14 | File | `/etc/quagga` | Medium
+15 | File | `/etc/shadow` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/forum/PostPrivateMessage` | High
+18 | File | `/fos/admin/ajax.php?action=login` | High
+19 | File | `/fos/admin/index.php?page=menu` | High
+20 | File | `/goform/WifiBasicSet` | High
+21 | File | `/home/masterConsole` | High
+22 | File | `/home/sendBroadcast` | High
+23 | File | `/index.php` | Medium
+24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+25 | File | `/login/index.php` | High
+26 | File | `/medicines/profile.php` | High
+27 | File | `/proxy` | Low
+28 | File | `/queuing/index.php?page=display` | High
+29 | File | `/reports/rwservlet` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/ui/cbpc/login` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/updatePwd` | High
+35 | File | `/users/delete/2` | High
+36 | File | `/usr/sbin/nagios` | High
+37 | File | `/var/log/nginx` | High
+38 | File | `/var/tmp/audacity-$USER` | High
+39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+40 | File | `/wireless/security.asp` | High
+41 | File | `/wp-json/wc/v3/webhooks` | High
+42 | File | `01article.php` | High
+43 | File | `actionphp/download.File.php` | High
+44 | File | `adclick.php` | Medium
+45 | File | `admin/abc.php` | High
+46 | File | `admin/add_payment.php` | High
+47 | File | `admin/admin/adminsave.html` | High
 48 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

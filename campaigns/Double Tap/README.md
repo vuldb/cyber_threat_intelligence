@@ -105,9 +105,10 @@ ID | Type | Indicator | Confidence
 46 | File | `/uncpath/` | Medium
 47 | File | `/vloggers_merch/?p=view_product` | High
 48 | File | `/webconsole/APIController` | High
-49 | ... | ... | ...
+49 | File | `/websocket/exec` | High
+50 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

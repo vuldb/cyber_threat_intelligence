@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -94,7 +94,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,70 +105,70 @@ ID | Type | Indicator | Confidence
 1 | File | `.php.gif` | Medium
 2 | File | `/Admin/login.php` | High
 3 | File | `/admin/submit-articles` | High
-4 | File | `/app/admin/nat/item-add-submit.php` | High
-5 | File | `/aux` | Low
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/cgi-bin/webproc` | High
-9 | File | `/coreframe/app/order/admin/index.php` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/employeeview.php` | High
-12 | File | `/etc/quantum/quantum.conf` | High
-13 | File | `/etc/sudoers` | Medium
-14 | File | `/EXCU_SHELL` | Medium
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform` | Low
-18 | File | `/goform/net_WebPingGetValue` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/hrm/employeeadd.php` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/inc/extensions.php` | High
-23 | File | `/includes/event-management/index.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/KeepAlive.jsp` | High
-27 | File | `/mc` | Low
-28 | File | `/member/index/login.html` | High
-29 | File | `/mkshop/Men/profile.php` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/oauth/token/request` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/phppath/php` | Medium
-34 | File | `/php_action/editProductImage.php` | High
-35 | File | `/product/savenewproduct.php?flag=1` | High
-36 | File | `/products/details.asp` | High
-37 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-38 | File | `/secure/admin/RestoreDefaults.jspa` | High
-39 | File | `/secure/EditSubscription.jspa` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/services/Card/findUser` | High
-42 | File | `/services/details.asp` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/uncpath/` | Medium
-45 | File | `/usr/bin/pkexec` | High
-46 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-47 | File | `/view-property.php` | High
-48 | File | `/webpages/data` | High
-49 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-50 | File | `4.edu.php` | Medium
-51 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-52 | File | `account.asp` | Medium
-53 | File | `adclick.php` | Medium
-54 | File | `add.exe` | Low
-55 | File | `admin.php` | Medium
-56 | File | `admin/adminlien.php3` | High
-57 | File | `admin/conf_users_edit.php` | High
-58 | File | `admin/import/class-import-settings.php` | High
-59 | File | `admin/index.php` | High
-60 | File | `admin/login.asp` | High
-61 | File | `admin/login.php` | High
-62 | File | `admin/panels/uploader/admin.uploader.php` | High
-63 | File | `admin/vqmods.app/vqmods.inc.php` | High
-64 | File | `admin/_cmdstat.jsp` | High
+4 | File | `/aux` | Low
+5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+6 | File | `/cgi-bin/system_mgr.cgi` | High
+7 | File | `/coreframe/app/order/admin/index.php` | High
+8 | File | `/Default/Bd` | Medium
+9 | File | `/employeeview.php` | High
+10 | File | `/etc/quantum/quantum.conf` | High
+11 | File | `/etc/sudoers` | Medium
+12 | File | `/EXCU_SHELL` | Medium
+13 | File | `/filemanager/php/connector.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/hrm/controller/employee.php` | High
+17 | File | `/hrm/employeeadd.php` | High
+18 | File | `/hrm/employeeview.php` | High
+19 | File | `/inc/extensions.php` | High
+20 | File | `/includes/event-management/index.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/Items/*/RemoteImages/Download` | High
+23 | File | `/KeepAlive.jsp` | High
+24 | File | `/mc` | Low
+25 | File | `/member/index/login.html` | High
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/phppath/php` | Medium
+30 | File | `/php_action/editProductImage.php` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/products/details.asp` | High
+33 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+34 | File | `/secure/admin/RestoreDefaults.jspa` | High
+35 | File | `/secure/EditSubscription.jspa` | High
+36 | File | `/secure/QueryComponent!Default.jspa` | High
+37 | File | `/services/Card/findUser` | High
+38 | File | `/services/details.asp` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/uncpath/` | Medium
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+43 | File | `/view-property.php` | High
+44 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+45 | File | `4.edu.php` | Medium
+46 | File | `account.asp` | Medium
+47 | File | `adclick.php` | Medium
+48 | File | `add.exe` | Low
+49 | File | `admin.php` | Medium
+50 | File | `admin/adminlien.php3` | High
+51 | File | `admin/conf_users_edit.php` | High
+52 | File | `admin/import/class-import-settings.php` | High
+53 | File | `admin/index.php` | High
+54 | File | `admin/login.asp` | High
+55 | File | `admin/login.php` | High
+56 | File | `admin/panels/uploader/admin.uploader.php` | High
+57 | File | `admin/vqmods.app/vqmods.inc.php` | High
+58 | File | `admin/_cmdstat.jsp` | High
+59 | File | `admin_class.php` | High
+60 | File | `admin_view_image.php` | High
+61 | File | `Advance/Premium/Standard` | High
+62 | File | `advsearch_h.asp` | High
+63 | File | `ajax_invoice.php` | High
+64 | File | `akocomments.php` | High
 65 | ... | ... | ...
 
-There are 572 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 566 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

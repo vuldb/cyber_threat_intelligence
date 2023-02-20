@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 41 | File | `apache-auth.conf` | High
 42 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
 43 | File | `Asc.exe` | Low
-44 | File | `askapache-firefox-adsense.php` | High
-45 | ... | ... | ...
+44 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

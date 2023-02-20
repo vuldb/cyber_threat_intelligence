@@ -53,36 +53,36 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax/avatar.php` | High
 4 | File | `/admin/index.php` | High
 5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/opt/bin/cli` | Medium
-12 | File | `/p` | Low
-13 | File | `/patient/doctors.php` | High
-14 | File | `/phpinventory/editcategory.php` | High
-15 | File | `/product-list.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/updown/upload.cgi` | High
-19 | File | `/user/del.php` | High
-20 | File | `/_next` | Low
-21 | File | `123flashchat.php` | High
-22 | File | `act.php` | Low
-23 | File | `admin/bad.php` | High
-24 | File | `admin/index.php` | High
-25 | File | `admin/index.php/user/del/1` | High
-26 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-27 | File | `administrator/index.php` | High
-28 | File | `ajax/render/widget_php` | High
-29 | File | `album_portal.php` | High
-30 | File | `api.php` | Low
-31 | File | `application/home/controller/debug.php` | High
-32 | File | `articulo.php` | Medium
+6 | File | `/admin/search.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/default.php?idx=17` | High
+9 | File | `/download` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/opt/bin/cli` | Medium
+13 | File | `/p` | Low
+14 | File | `/patient/doctors.php` | High
+15 | File | `/phpinventory/editcategory.php` | High
+16 | File | `/product-list.php` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/updown/upload.cgi` | High
+20 | File | `/user/del.php` | High
+21 | File | `/_next` | Low
+22 | File | `123flashchat.php` | High
+23 | File | `act.php` | Low
+24 | File | `admin/bad.php` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin/index.php/user/del/1` | High
+27 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+28 | File | `administrator/index.php` | High
+29 | File | `ajax/render/widget_php` | High
+30 | File | `album_portal.php` | High
+31 | File | `api.php` | Low
+32 | File | `application/home/controller/debug.php` | High
 33 | ... | ... | ...
 
-There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

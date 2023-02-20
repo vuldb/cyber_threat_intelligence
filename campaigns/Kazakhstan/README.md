@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kazakhstan:
 
 * [KZ](https://vuldb.com/?country.kz)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -153,27 +153,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/advanced-tools/nova/bin/netwatch` | High
-2 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-3 | File | `/auth/session` | High
-4 | File | `/cgi-bin/admin/testserver.cgi` | High
-5 | File | `/course/modedit.php` | High
-6 | File | `/etc/srapi/config/system.conf` | High
-7 | File | `/Forms/tools_test_1` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/usr/sbin/pinger` | High
-10 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-11 | File | `/zm/index.php` | High
-12 | File | `admin/bitrix.mpbuilder_step2.php` | High
-13 | File | `admin/caste_view.php` | High
-14 | File | `admin/server/api/download.js` | High
-15 | File | `AlwaysOnHotwordDetector.java` | High
-16 | File | `auth.php` | Medium
-17 | File | `avatar.php` | Medium
-18 | File | `awstats.pl` | Medium
-19 | ... | ... | ...
+1 | File | `%APPDATA%\Securepoint SSL VPN` | High
+2 | File | `/advanced-tools/nova/bin/netwatch` | High
+3 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+4 | File | `/api/common/ping` | High
+5 | File | `/auth/session` | High
+6 | File | `/cgi-bin/admin/testserver.cgi` | High
+7 | File | `/course/modedit.php` | High
+8 | File | `/etc/srapi/config/system.conf` | High
+9 | File | `/Forms/tools_test_1` | High
+10 | File | `/graphql` | Medium
+11 | File | `/uncpath/` | Medium
+12 | File | `/usr/sbin/pinger` | High
+13 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+14 | File | `/zm/index.php` | High
+15 | File | `admin/bitrix.mpbuilder_step2.php` | High
+16 | File | `admin/caste_view.php` | High
+17 | File | `admin/server/api/download.js` | High
+18 | File | `AlwaysOnHotwordDetector.java` | High
+19 | File | `auth.php` | Medium
+20 | File | `avatar.php` | Medium
+21 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

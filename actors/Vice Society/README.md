@@ -69,9 +69,10 @@ ID | Type | Indicator | Confidence
 21 | File | `/user/check.php` | High
 22 | File | `/var/avamar/f_cache.dat` | High
 23 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
-24 | ... | ... | ...
+24 | File | `/wlanAccess.asp` | High
+25 | ... | ... | ...
 
-There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [43.230.208.0](https://vuldb.com/?ip.43.230.208.0) | - | - | High
 7 | [43.241.136.0](https://vuldb.com/?ip.43.241.136.0) | - | - | High
 8 | [45.12.70.33](https://vuldb.com/?ip.45.12.70.33) | moulds.get-eye.com | - | High
-9 | ... | ... | ... | ...
+9 | [45.12.71.33](https://vuldb.com/?ip.45.12.71.33) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,15 +95,17 @@ ID | Type | Indicator | Confidence
 39 | File | `AdminUpdateController.class.php` | High
 40 | File | `Advanced_ASUSDDNS_Content.asp` | High
 41 | File | `affich.php` | Medium
-42 | ... | ... | ...
+42 | File | `ajax/render/widget_php` | High
+43 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bt.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bt.netset
 
 ## Literature
 

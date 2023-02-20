@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,8 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -71,54 +70,45 @@ ID | Type | Indicator | Confidence
 14 | File | `/etc/sudoers` | Medium
 15 | File | `/filemanager/php/connector.php` | High
 16 | File | `/forum/away.php` | High
-17 | File | `/goform/net_WebPingGetValue` | High
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/inc/extensions.php` | High
-22 | File | `/includes/event-management/index.php` | High
+17 | File | `/forum/PostPrivateMessage` | High
+18 | File | `/goform/net_WebPingGetValue` | High
+19 | File | `/hrm/controller/employee.php` | High
+20 | File | `/hrm/employeeadd.php` | High
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/inc/extensions.php` | High
 23 | File | `/index.php` | Medium
 24 | File | `/Items/*/RemoteImages/Download` | High
 25 | File | `/KeepAlive.jsp` | High
-26 | File | `/member/index/login.html` | High
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/phppath/php` | Medium
-31 | File | `/php_action/editProductImage.php` | High
-32 | File | `/product/savenewproduct.php?flag=1` | High
-33 | File | `/products/details.asp` | High
-34 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-35 | File | `/secure/admin/RestoreDefaults.jspa` | High
-36 | File | `/secure/EditSubscription.jspa` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/services/Card/findUser` | High
-39 | File | `/services/details.asp` | High
-40 | File | `/setup` | Low
-41 | File | `/spip.php` | Medium
-42 | File | `/uncpath/` | Medium
-43 | File | `/usr/bin/pkexec` | High
-44 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-45 | File | `/view-property.php` | High
-46 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-47 | File | `4.edu.php` | Medium
-48 | File | `adclick.php` | Medium
-49 | File | `add.exe` | Low
-50 | File | `admin.php` | Medium
-51 | File | `admin/adminlien.php3` | High
-52 | File | `admin/conf_users_edit.php` | High
-53 | File | `admin/index.php` | High
-54 | File | `admin/login.php` | High
-55 | File | `admin/panels/uploader/admin.uploader.php` | High
-56 | File | `admin/vqmods.app/vqmods.inc.php` | High
-57 | File | `admin/_cmdstat.jsp` | High
-58 | File | `admin_view_image.php` | High
-59 | File | `Advance/Premium/Standard` | High
-60 | File | `advsearch_h.asp` | High
-61 | File | `ajax_calls.php` | High
-62 | ... | ... | ...
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+29 | File | `/phppath/php` | Medium
+30 | File | `/php_action/editProductImage.php` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+33 | File | `/secure/admin/RestoreDefaults.jspa` | High
+34 | File | `/secure/EditSubscription.jspa` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/services/Card/findUser` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/usr/bin/pkexec` | High
+40 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+41 | File | `/view-property.php` | High
+42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+43 | File | `4.edu.php` | Medium
+44 | File | `action.php` | Medium
+45 | File | `adclick.php` | Medium
+46 | File | `add.exe` | Low
+47 | File | `admin.php` | Medium
+48 | File | `admin/adminlien.php3` | High
+49 | File | `admin/conf_users_edit.php` | High
+50 | File | `admin/index.php` | High
+51 | File | `admin/login.php` | High
+52 | File | `admin/panels/uploader/admin.uploader.php` | High
+53 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 465 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -52,7 +52,7 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
 30 | ... | ... | ... | ...
 
-There are 114 more IOC items available. Please use our online service to access the data.
+There are 117 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -97,23 +97,24 @@ ID | Type | Indicator | Confidence
 21 | File | `/includes/decorators/global-translations.jsp` | High
 22 | File | `/index.php` | Medium
 23 | File | `/product_list.php` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/see_more_details.php` | High
-26 | File | `/server-status` | High
-27 | File | `/setSystemAdmin` | High
-28 | File | `/tmp` | Low
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `addentry.php` | Medium
-33 | File | `admin.php` | Medium
-34 | File | `admin/executar_login.php` | High
-35 | File | `admin/mcart_xls_import.php` | High
-36 | File | `admin/setting.php` | High
-37 | File | `admin_ranks.php` | High
-38 | ... | ... | ...
+24 | File | `/public_html/users.php` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/see_more_details.php` | High
+27 | File | `/server-status` | High
+28 | File | `/setSystemAdmin` | High
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/user/s.php` | Medium
+32 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+33 | File | `/WEB-INF/web.xml` | High
+34 | File | `add-locker-form.php` | High
+35 | File | `addentry.php` | Medium
+36 | File | `admin.php` | Medium
+37 | File | `admin/booking_report.php` | High
+38 | File | `admin/executar_login.php` | High
+39 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -136,6 +137,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-0930-1007.html
+* https://blog.talosintelligence.com/threat-roundup-0127-0203/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/

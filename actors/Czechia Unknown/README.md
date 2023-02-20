@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Czechia Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [PT](https://vuldb.com/?country.pt)
 * [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -497,7 +497,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -515,49 +515,52 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/browserextension/UpdatePassword/` | High
 6 | File | `/api/contents` | High
 7 | File | `/auth/register` | High
-8 | File | `/blog/comment` | High
-9 | File | `/Default/Bd` | Medium
+8 | File | `/Default/Bd` | Medium
+9 | File | `/dev/block/mmcblk0rpmb` | High
 10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
 11 | File | `/drivers/isdn/i4l/isdn_net.c` | High
-12 | File | `/env` | Low
-13 | File | `/etc/os-release` | High
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addressNat` | High
-17 | File | `/goform/addUserName` | High
-18 | File | `/goform/exeCommand` | High
-19 | File | `/goform/IPSECsave` | High
-20 | File | `/goform/NatStaticSetting` | High
-21 | File | `/goform/P2pListFilter` | High
-22 | File | `/goform/SafeMacFilter` | High
-23 | File | `/goform/setMacFilterCfg` | High
-24 | File | `/goform/WifiMacFilterGet` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/hss/?page=categories` | High
-29 | File | `/hss/?page=product_per_brand` | High
-30 | File | `/hss/admin/?page=products/view_product` | High
-31 | File | `/inc/parser/xhtml.php` | High
-32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-33 | File | `/lookin/info` | Medium
-34 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-35 | File | `/ossim/report/wizard_email.php` | High
-36 | File | `/pages/save_user.php` | High
-37 | File | `/plugin/getList` | High
-38 | File | `/product/savenewproduct.php?flag=1` | High
-39 | File | `/proxy` | Low
-40 | File | `/services/Card/findUser` | High
-41 | File | `/services/view_service.php` | High
-42 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
-43 | File | `/timeline2.php` | High
-44 | File | `/tmp/jvm-*/hs_error.log` | High
-45 | File | `/Upload/admin/admin_notify.php` | High
-46 | File | `/usr/sbin/nagios` | High
-47 | File | `/v1/sql-runner` | High
-48 | ... | ... | ...
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/fos/admin/ajax.php?action=login` | High
+15 | File | `/fos/admin/index.php?page=menu` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/home/sendBroadcast` | High
+18 | File | `/hrm/controller/employee.php` | High
+19 | File | `/hss/?page=categories` | High
+20 | File | `/hss/?page=product_per_brand` | High
+21 | File | `/hss/admin/?page=products/view_product` | High
+22 | File | `/inc/parser/xhtml.php` | High
+23 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+24 | File | `/ossim/report/wizard_email.php` | High
+25 | File | `/pages/save_user.php` | High
+26 | File | `/plugin/getList` | High
+27 | File | `/product/savenewproduct.php?flag=1` | High
+28 | File | `/proxy` | Low
+29 | File | `/reports/rwservlet` | High
+30 | File | `/services/Card/findUser` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/timeline2.php` | High
+33 | File | `/Upload/admin/admin_notify.php` | High
+34 | File | `/usr/sbin/nagios` | High
+35 | File | `/view-property.php` | High
+36 | File | `/wireless/security.asp` | High
+37 | File | `01article.php` | High
+38 | File | `accessibility.js` | High
+39 | File | `actionphp/download.File.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `AddAppNetworksFragment.java` | High
+42 | File | `admin/abc.php` | High
+43 | File | `admin/admin.shtml` | High
+44 | File | `admin/admin/adminsave.html` | High
+45 | File | `admin/adminlogin.php` | High
+46 | File | `admin/conf_users_edit.php` | High
+47 | File | `admin/disapprove_user.php` | High
+48 | File | `admin/login.php` | High
+49 | File | `admin/make_payments.php` | High
+50 | File | `admin/panels/entry/admin.entry.list.php` | High
+51 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

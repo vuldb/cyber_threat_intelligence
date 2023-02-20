@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LokiBot:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,27 +82,31 @@ ID | IP address | Hostname | Campaign | Confidence
 59 | [40.76.4.15](https://vuldb.com/?ip.40.76.4.15) | - | - | High
 60 | [43.254.17.15](https://vuldb.com/?ip.43.254.17.15) | 43-254-17-15.static.ip.net.tw | - | High
 61 | [43.255.154.37](https://vuldb.com/?ip.43.255.154.37) | ip-43-255-154-37.ip.secureserver.net | - | High
-62 | [45.33.83.75](https://vuldb.com/?ip.45.33.83.75) | li1029-75.members.linode.com | - | High
-63 | [45.43.35.96](https://vuldb.com/?ip.45.43.35.96) | - | - | High
-64 | [45.67.14.182](https://vuldb.com/?ip.45.67.14.182) | - | - | High
-65 | [45.80.132.70](https://vuldb.com/?ip.45.80.132.70) | host-45-80-132-70.superhosting.rs | - | High
-66 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
-67 | [45.128.184.132](https://vuldb.com/?ip.45.128.184.132) | vds107519.mgn-host.ru | - | High
-68 | [45.133.1.20](https://vuldb.com/?ip.45.133.1.20) | - | - | High
-69 | [45.133.1.45](https://vuldb.com/?ip.45.133.1.45) | - | - | High
-70 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
-71 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
-72 | [45.154.253.152](https://vuldb.com/?ip.45.154.253.152) | shared06.cust05.proxy.is | - | High
-73 | [46.17.98.105](https://vuldb.com/?ip.46.17.98.105) | - | - | High
-74 | [46.101.46.83](https://vuldb.com/?ip.46.101.46.83) | - | - | High
-75 | [47.52.60.150](https://vuldb.com/?ip.47.52.60.150) | - | - | High
-76 | [47.88.22.122](https://vuldb.com/?ip.47.88.22.122) | server1.sjdjeu.top | - | High
-77 | [47.91.169.15](https://vuldb.com/?ip.47.91.169.15) | - | - | High
-78 | [47.254.177.155](https://vuldb.com/?ip.47.254.177.155) | - | - | High
-79 | [50.16.216.118](https://vuldb.com/?ip.50.16.216.118) | ec2-50-16-216-118.compute-1.amazonaws.com | - | Medium
-80 | ... | ... | ... | ...
+62 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+63 | [45.33.83.75](https://vuldb.com/?ip.45.33.83.75) | li1029-75.members.linode.com | - | High
+64 | [45.43.35.96](https://vuldb.com/?ip.45.43.35.96) | - | - | High
+65 | [45.67.14.182](https://vuldb.com/?ip.45.67.14.182) | - | - | High
+66 | [45.80.132.70](https://vuldb.com/?ip.45.80.132.70) | host-45-80-132-70.superhosting.rs | - | High
+67 | [45.122.138.6](https://vuldb.com/?ip.45.122.138.6) | - | - | High
+68 | [45.128.184.132](https://vuldb.com/?ip.45.128.184.132) | vds107519.mgn-host.ru | - | High
+69 | [45.133.1.20](https://vuldb.com/?ip.45.133.1.20) | - | - | High
+70 | [45.133.1.45](https://vuldb.com/?ip.45.133.1.45) | - | - | High
+71 | [45.147.229.85](https://vuldb.com/?ip.45.147.229.85) | - | - | High
+72 | [45.154.253.150](https://vuldb.com/?ip.45.154.253.150) | shared04.cust05.proxy.is | - | High
+73 | [45.154.253.152](https://vuldb.com/?ip.45.154.253.152) | shared06.cust05.proxy.is | - | High
+74 | [46.17.98.105](https://vuldb.com/?ip.46.17.98.105) | - | - | High
+75 | [46.101.46.83](https://vuldb.com/?ip.46.101.46.83) | - | - | High
+76 | [47.52.60.150](https://vuldb.com/?ip.47.52.60.150) | - | - | High
+77 | [47.88.22.122](https://vuldb.com/?ip.47.88.22.122) | server1.sjdjeu.top | - | High
+78 | [47.91.169.15](https://vuldb.com/?ip.47.91.169.15) | - | - | High
+79 | [47.254.177.155](https://vuldb.com/?ip.47.254.177.155) | - | - | High
+80 | [50.16.216.118](https://vuldb.com/?ip.50.16.216.118) | ec2-50-16-216-118.compute-1.amazonaws.com | - | Medium
+81 | [50.19.92.227](https://vuldb.com/?ip.50.19.92.227) | ec2-50-19-92-227.compute-1.amazonaws.com | - | Medium
+82 | [50.31.174.86](https://vuldb.com/?ip.50.31.174.86) | single-priva16.privatednsorg.com | - | High
+83 | [50.63.202.52](https://vuldb.com/?ip.50.63.202.52) | ip-50-63-202-52.ip.secureserver.net | - | High
+84 | ... | ... | ... | ...
 
-There are 317 more IOC items available. Please use our online service to access the data.
+There are 333 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -110,12 +114,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -125,53 +128,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/wirelessConnect` | High
-2 | File | `/admin/videoalbum/list` | High
-3 | File | `/attachments` | Medium
-4 | File | `/c/macho_reader.c` | High
-5 | File | `/cgi-bin/DownloadFlash` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/cloud_config/router_post/check_reg_verify_code` | High
-8 | File | `/conf/` | Low
-9 | File | `/config/getuser` | High
-10 | File | `/dashboard/contact` | High
-11 | File | `/etc/hosts` | Medium
-12 | File | `/example/editor` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/delAd` | High
-15 | File | `/HNAP1` | Low
-16 | File | `/index` | Low
-17 | File | `/iu-application/controllers/administration/auth.php` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-20 | File | `/module/module_frame/index.php` | High
-21 | File | `/ossn/administrator/com_installer` | High
-22 | File | `/sre/params.php` | High
-23 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-24 | File | `/tmp` | Low
-25 | File | `/tmp/xbindkeysrc-tmp` | High
-26 | File | `/Users` | Low
-27 | File | `/var/spool/hylafax` | High
-28 | File | `/whbs/?page=my_bookings` | High
-29 | File | `access_rules/rules_form` | High
-30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-31 | File | `action/addproject.php` | High
-32 | File | `adclick.php` | Medium
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/upload/upload` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/bsms_ci/index.php/book` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/config/getuser` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/etc/hosts` | Medium
+9 | File | `/example/editor` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/delAd` | High
+12 | File | `/HNAP1` | Low
+13 | File | `/iu-application/controllers/administration/auth.php` | High
+14 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+15 | File | `/medicines/profile.php` | High
+16 | File | `/obs/book.php` | High
+17 | File | `/ossn/administrator/com_installer` | High
+18 | File | `/pms/update_user.php?user_id=1` | High
+19 | File | `/spip.php` | Medium
+20 | File | `/sre/params.php` | High
+21 | File | `/tmp` | Low
+22 | File | `/user/upload/upload` | High
+23 | File | `/Users` | Low
+24 | File | `/var/spool/hylafax` | High
+25 | File | `/vendor` | Low
+26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+27 | File | `/webman/info.cgi` | High
+28 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+29 | File | `action/addproject.php` | High
+30 | File | `adclick.php` | Medium
+31 | File | `add_contestant.php` | High
+32 | File | `add_product.php` | High
 33 | File | `admin.php` | Medium
-34 | File | `admin/ajax.attachment.php` | High
-35 | File | `admin/index.php` | High
-36 | File | `admin/profile.php?section=admin` | High
-37 | File | `admin/sysCheckFile_deal.php` | High
-38 | File | `Advanced_ASUSDDNS_Content.asp` | High
-39 | File | `af_netlink.c` | Medium
-40 | File | `album_portal.php` | High
-41 | File | `and/or` | Low
-42 | File | `ArtifactoryChoiceListProvider.java` | High
-43 | File | `artreplydelete.asp` | High
-44 | File | `attachment.cgi` | High
-45 | ... | ... | ...
+34 | File | `admin/add_payment.php` | High
+35 | File | `admin/disapprove_user.php` | High
+36 | File | `admin/forget_password.php` | High
+37 | File | `admin/index.php` | High
+38 | File | `admin/make_payments.php` | High
+39 | File | `admin/sysCheckFile_deal.php` | High
+40 | File | `Advanced_ASUSDDNS_Content.asp` | High
+41 | File | `af_netlink.c` | Medium
+42 | File | `album_portal.php` | High
+43 | File | `AppRestrictionsFragment.java` | High
+44 | File | `ArtifactoryChoiceListProvider.java` | High
+45 | File | `artreplydelete.asp` | High
+46 | File | `attachment.cgi` | High
+47 | ... | ... | ...
 
-There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -219,6 +224,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
+* https://blog.talosintelligence.com/threat-roundup-0113-0120/
 * https://blog.talosintelligence.com/threat-roundup-1209-1216/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-10-20%20Lokibot%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-17%20Lokibot%20IOCs

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,10 +44,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -60,71 +60,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/ajax/avatar.php` | High
-6 | File | `/admin/api/admin/articles/` | High
-7 | File | `/admin/conferences/list/` | High
-8 | File | `/admin/edit_admin_details.php?id=admin` | High
-9 | File | `/admin/generalsettings.php` | High
-10 | File | `/Admin/login.php` | High
-11 | File | `/admin/payment.php` | High
-12 | File | `/admin/reports.php` | High
-13 | File | `/admin/show.php` | High
-14 | File | `/admin/showbad.php` | High
-15 | File | `/admin_page/all-files-update-ajax.php` | High
-16 | File | `/apilog.php` | Medium
-17 | File | `/cgi-bin/kerbynet` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/connectors/index.php` | High
-20 | File | `/dms/admin/reports/daily_collection_report.php` | High
-21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
+2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/ajax/avatar.php` | High
+5 | File | `/admin/api/admin/articles/` | High
+6 | File | `/admin/conferences/list/` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/admin/showbad.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/apilog.php` | Medium
+13 | File | `/bin/httpd` | Medium
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/connectors/index.php` | High
+16 | File | `/dev/block/mmcblk0rpmb` | High
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/sendBroadcast` | High
 24 | File | `/hrm/employeeadd.php` | High
 25 | File | `/hrm/employeeview.php` | High
 26 | File | `/index.php` | Medium
-27 | File | `/info.cgi` | Medium
-28 | File | `/Items/*/RemoteImages/Download` | High
-29 | File | `/items/view_item.php` | High
-30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-31 | File | `/lists/admin/` | High
-32 | File | `/lookin/info` | Medium
-33 | File | `/MagickCore/image.c` | High
-34 | File | `/manager/index.php` | High
-35 | File | `/medical/inventories.php` | High
-36 | File | `/mgmt/tm/util/bash` | High
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/modules/public/calendar.php` | High
-40 | File | `/newsDia.php` | Medium
-41 | File | `/out.php` | Medium
-42 | File | `/patient/doctors.php` | High
-43 | File | `/phpinventory/editcategory.php` | High
-44 | File | `/proxy` | Low
-45 | File | `/public/launchNewWindow.jsp` | High
-46 | File | `/Redcock-Farm/farm/category.php` | High
-47 | File | `/sacco_shield/manage_user.php` | High
-48 | File | `/spip.php` | Medium
-49 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-50 | File | `/staff/bookdetails.php` | High
-51 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-52 | File | `/updown/upload.cgi` | High
-53 | File | `/user/update_booking.php` | High
-54 | File | `/WEB-INF/web.xml` | High
-55 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-56 | File | `/Wedding-Management/package_detail.php` | High
-57 | File | `/wordpress/wp-admin/options-general.php` | High
-58 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-59 | File | `a2billing/customer/iridium_threed.php` | High
-60 | File | `AbstractScheduleJob.java` | High
-61 | File | `actionphp/download.File.php` | High
-62 | File | `AdClass.php` | Medium
-63 | File | `adclick.php` | Medium
-64 | ... | ... | ...
+27 | File | `/items/view_item.php` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+29 | File | `/lookin/info` | Medium
+30 | File | `/manager/index.php` | High
+31 | File | `/medical/inventories.php` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/newsDia.php` | Medium
+36 | File | `/out.php` | Medium
+37 | File | `/patient/doctors.php` | High
+38 | File | `/phpinventory/editcategory.php` | High
+39 | File | `/proxy` | Low
+40 | File | `/public/launchNewWindow.jsp` | High
+41 | File | `/Redcock-Farm/farm/category.php` | High
+42 | File | `/reports/rwservlet` | High
+43 | File | `/sacco_shield/manage_user.php` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+46 | File | `/staff/bookdetails.php` | High
+47 | File | `/uncpath/` | Medium
+48 | File | `/updown/upload.cgi` | High
+49 | File | `/user/update_booking.php` | High
+50 | File | `/WEB-INF/web.xml` | High
+51 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+52 | File | `/wireless/security.asp` | High
+53 | File | `/wordpress/wp-admin/options-general.php` | High
+54 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+55 | File | `01article.php` | High
+56 | File | `AbstractScheduleJob.java` | High
+57 | File | `actionphp/download.File.php` | High
+58 | File | `adclick.php` | Medium
+59 | File | `addtocart.asp` | High
+60 | File | `admin.php` | Medium
+61 | File | `admin/abc.php` | High
+62 | File | `admin/admin/adminsave.html` | High
+63 | ... | ... | ...
 
-There are 563 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 548 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

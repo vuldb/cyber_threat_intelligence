@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kraken:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.

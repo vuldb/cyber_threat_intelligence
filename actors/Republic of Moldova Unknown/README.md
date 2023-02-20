@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -135,11 +135,11 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,37 +160,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/administrator/alerts/alertLightbox.php` | High
 12 | File | `/administrator/templates/default/html/windows/right.php` | High
 13 | File | `/api/RecordingList/DownloadRecord?file=` | High
-14 | File | `/apps/acs-commons/content/page-compare.html` | High
+14 | File | `/cgi-bin/webadminget.cgi` | High
 15 | File | `/Default/Bd` | Medium
 16 | File | `/demo/module/?module=HERE` | High
 17 | File | `/employeeview.php` | High
 18 | File | `/etc/sudoers` | Medium
 19 | File | `/filemanager/php/connector.php` | High
 20 | File | `/forum/away.php` | High
-21 | File | `/goform/SysToolReboot` | High
-22 | File | `/goform/WifiExtraSet` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/mobile/downloadfile.aspx` | High
-30 | File | `/net/nfc/netlink.c` | High
-31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-32 | File | `/outgoing.php` | High
-33 | File | `/php_action/editProductImage.php` | High
-34 | File | `/presale/join` | High
+21 | File | `/forum/PostPrivateMessage` | High
+22 | File | `/goform/SysToolReboot` | High
+23 | File | `/goform/WifiExtraSet` | High
+24 | File | `/hrm/controller/employee.php` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+29 | File | `/mkshop/Men/profile.php` | High
+30 | File | `/mobile/downloadfile.aspx` | High
+31 | File | `/net/nfc/netlink.c` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/outgoing.php` | High
+34 | File | `/php_action/editProductImage.php` | High
 35 | File | `/product/savenewproduct.php?flag=1` | High
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-38 | File | `/secure/admin/RestoreDefaults.jspa` | High
-39 | File | `/services/Card/findUser` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/staff/delete.php` | High
-42 | ... | ... | ...
+36 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+37 | File | `/secure/admin/RestoreDefaults.jspa` | High
+38 | File | `/services/Card/findUser` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/staff/delete.php` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+43 | File | `/view-property.php` | High
+44 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+45 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 30 more country items available. Please use our online service to access the data.
@@ -77,28 +77,30 @@ ID | Type | Indicator | Confidence
 16 | File | `/exports/export.php` | High
 17 | File | `/gena.cgi` | Medium
 18 | File | `/getcfg.php` | Medium
-19 | File | `/html/portal/flash.jsp` | High
-20 | File | `/include/chart_generator.php` | High
-21 | File | `/lan.asp` | Medium
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/metrics` | Medium
-24 | File | `/MIME/INBOX-MM-1/` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/photo/webapi/photo.php` | High
-27 | File | `/plesk-site-preview/` | High
-28 | File | `/requests.php` | High
-29 | File | `/resources//../` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/setSystemAdmin` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/start_apply.htm` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/vitrea-view/error/` | High
-38 | ... | ... | ...
+19 | File | `/home/cavesConsole` | High
+20 | File | `/home/kickPlayer` | High
+21 | File | `/home/masterConsole` | High
+22 | File | `/home/sendBroadcast` | High
+23 | File | `/html/portal/flash.jsp` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/lan.asp` | Medium
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+28 | File | `/metrics` | Medium
+29 | File | `/MIME/INBOX-MM-1/` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+31 | File | `/photo/webapi/photo.php` | High
+32 | File | `/plesk-site-preview/` | High
+33 | File | `/requests.php` | High
+34 | File | `/resources//../` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/setSystemAdmin` | High
+37 | File | `/spip.php` | Medium
+38 | File | `/start_apply.htm` | High
+39 | File | `/uncpath/` | Medium
+40 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

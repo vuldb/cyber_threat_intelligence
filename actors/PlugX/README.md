@@ -88,26 +88,26 @@ ID | Type | Indicator | Confidence
 26 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
 27 | File | `/NAGErrors` | Medium
 28 | File | `/out.php` | Medium
-29 | File | `/replication` | Medium
-30 | File | `/RestAPI` | Medium
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/service/upload` | High
-33 | File | `/smstest.html` | High
-34 | File | `/start-stop` | Medium
-35 | File | `/subscribe/subscribe` | High
-36 | File | `/tmp` | Low
-37 | File | `/uncpath/` | Medium
-38 | File | `/WEB-INF/web.xml` | High
-39 | File | `/wp-json/oembed/1.0/embed?url` | High
-40 | File | `/_error` | Low
-41 | File | `actions/authenticate.php` | High
-42 | File | `adclick.php` | Medium
-43 | File | `addlyricsform.php` | High
-44 | File | `addmerchpicform.php` | High
-45 | File | `addresses_export.php` | High
+29 | File | `/proxy` | Low
+30 | File | `/replication` | Medium
+31 | File | `/RestAPI` | Medium
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/service/upload` | High
+34 | File | `/smstest.html` | High
+35 | File | `/start-stop` | Medium
+36 | File | `/subscribe/subscribe` | High
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/WEB-INF/web.xml` | High
+40 | File | `/wp-json/oembed/1.0/embed?url` | High
+41 | File | `/_error` | Low
+42 | File | `actions/authenticate.php` | High
+43 | File | `adclick.php` | Medium
+44 | File | `addlyricsform.php` | High
+45 | File | `addmerchpicform.php` | High
 46 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1020,10 +1020,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -1034,57 +1034,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.php.gif` | Medium
-3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/fst_upload.inc.php` | High
-7 | File | `/admin/options` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/admin/subnets/ripe-query.php` | High
-10 | File | `/alarm_pi/alarmService.php` | High
-11 | File | `/api/audits` | Medium
-12 | File | `/api/resource/Item?fields` | High
-13 | File | `/api/v1/attack/token` | High
-14 | File | `/core/conditions/AbstractWrapper.java` | High
-15 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-16 | File | `/crmeb/crmeb/services/UploadService.php` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/Default/Bd` | Medium
-19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-20 | File | `/env` | Low
-21 | File | `/etc/grafana/grafana.ini` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/doReboot` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/employeeadd.php` | High
-27 | File | `/hrm/employeeview.php` | High
-28 | File | `/includes/login.php` | High
-29 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-31 | File | `/lookin/info` | Medium
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/out.php` | Medium
-34 | File | `/php_action/editProductImage.php` | High
-35 | File | `/plugin/getList` | High
-36 | File | `/product/savenewproduct.php?flag=1` | High
-37 | File | `/proxy` | Low
-38 | File | `/Redcock-Farm/farm/category.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/services/Card/findUser` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/uncpath/` | Medium
-44 | File | `/user/update_booking.php` | High
-45 | File | `/util/print.c` | High
-46 | File | `/var/log/nginx` | High
-47 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-48 | File | `/view-property.php` | High
-49 | ... | ... | ...
+1 | File | `$GIT_DIR/objects` | High
+2 | File | `.github/workflows/combine-prs.yml` | High
+3 | File | `/admin.php?action=themeinstall` | High
+4 | File | `/admin/admin_manage/delete` | High
+5 | File | `/admin/api/admin/articles/` | High
+6 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+8 | File | `/alarm_pi/alarmService.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/resource/Item?fields` | High
+11 | File | `/bin/httpd` | Medium
+12 | File | `/cgi-bin/luci/api/wireless` | High
+13 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/Default/Bd` | Medium
+16 | File | `/dev/block/mmcblk0rpmb` | High
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/env` | Low
+19 | File | `/etc/sudoers` | Medium
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forms/doLogin` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/fos/admin/ajax.php?action=login` | High
+25 | File | `/fos/admin/index.php?page=menu` | High
+26 | File | `/home/masterConsole` | High
+27 | File | `/home/sendBroadcast` | High
+28 | File | `/hrm/controller/employee.php` | High
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+31 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+32 | File | `/login/index.php` | High
+33 | File | `/orrs/admin/?page=user/manage_user` | High
+34 | File | `/product/savenewproduct.php?flag=1` | High
+35 | File | `/proxy` | Low
+36 | File | `/psrs/admin/?page=inquiries/view_inquiry` | High
+37 | File | `/reports/rwservlet` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/services/Card/findUser` | High
+40 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/start_apply.htm` | High
+43 | File | `/template/edit` | High
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
+46 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

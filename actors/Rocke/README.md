@@ -48,7 +48,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-25 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-25 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -71,49 +71,49 @@ ID | Type | Indicator | Confidence
 6 | File | `/apps/` | Low
 7 | File | `/backupsettings.conf` | High
 8 | File | `/bin/sh` | Low
-9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/passwd` | Medium
-11 | File | `/modules/snf/index.php` | High
-12 | File | `/Online%20Course%20Registration/my-profile.php` | High
-13 | File | `/opt/mysql` | Medium
-14 | File | `/private/sessions` | High
-15 | File | `/root/*.db` | Medium
-16 | File | `/tmp` | Low
-17 | File | `/var/avamar/f_cache.dat` | High
-18 | File | `26.html` | Low
-19 | File | `ActivityStarter.java` | High
-20 | File | `add_postit.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
-23 | File | `admin/manage-fields.php` | High
-24 | File | `admin/shophelp.php` | High
-25 | File | `admin/wp-security-blacklist-menu.php` | High
-26 | File | `administration.jsp` | High
-27 | File | `adminquery.php` | High
-28 | File | `ajaxRequest/methodCall.do` | High
-29 | File | `Alias.asmx` | Medium
-30 | File | `ansfaq.asp` | Medium
-31 | File | `api.php/List/index` | High
-32 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-33 | File | `appGet.cgi` | Medium
-34 | File | `archivejson.cgi` | High
-35 | File | `authpam.c` | Medium
-36 | File | `autocms.php` | Medium
-37 | File | `avahi-core/socket.c` | High
-38 | File | `AvailableApps.php` | High
-39 | File | `banner.php` | Medium
-40 | File | `boundary_rules.jsp` | High
-41 | File | `calendar.php` | Medium
-42 | File | `calendar_scheduler.php` | High
-43 | File | `cal_config.inc.php` | High
-44 | File | `channels/chan_sip.c` | High
-45 | File | `chrome-devtools-frontend.appspot.com` | High
-46 | File | `claro_init_global.inc.php` | High
-47 | File | `class/class.php` | High
-48 | File | `cloud.php` | Medium
+9 | File | `/cgi-bin/ExportLogs.sh` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/etc/passwd` | Medium
+12 | File | `/include/Model/Upload.php` | High
+13 | File | `/modules/snf/index.php` | High
+14 | File | `/Online%20Course%20Registration/my-profile.php` | High
+15 | File | `/orrs/admin/?page=user/manage_user` | High
+16 | File | `/param.file.tgz` | High
+17 | File | `/product/savenewproduct.php?flag=1` | High
+18 | File | `/rrdp` | Low
+19 | File | `/subtitles.php` | High
+20 | File | `/tmp` | Low
+21 | File | `/var/avamar/f_cache.dat` | High
+22 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+23 | File | `26.html` | Low
+24 | File | `add_postit.php` | High
+25 | File | `admin.php` | Medium
+26 | File | `admin/shophelp.php` | High
+27 | File | `admin/wp-security-blacklist-menu.php` | High
+28 | File | `administration.jsp` | High
+29 | File | `adminquery.php` | High
+30 | File | `ajaxRequest/methodCall.do` | High
+31 | File | `Alias.asmx` | Medium
+32 | File | `ansfaq.asp` | Medium
+33 | File | `APKINDEX.tar.gz` | High
+34 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+35 | File | `appconfig.ini` | High
+36 | File | `appGet.cgi` | Medium
+37 | File | `application/src/main/webapp/vue-app/components/ExoChatMessageComposer.vue` | High
+38 | File | `authpam.c` | Medium
+39 | File | `autocms.php` | Medium
+40 | File | `avahi-core/socket.c` | High
+41 | File | `AvailableApps.php` | High
+42 | File | `banner.php` | Medium
+43 | File | `boundary_rules.jsp` | High
+44 | File | `calendar.php` | Medium
+45 | File | `calendar_scheduler.php` | High
+46 | File | `cal_config.inc.php` | High
+47 | File | `channels/chan_sip.c` | High
+48 | File | `chrome-devtools-frontend.appspot.com` | High
 49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -60,7 +60,7 @@ ID | Type | Indicator | Confidence
 13 | File | `/dev/bus` | Medium
 14 | File | `/example/editor` | High
 15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-16 | File | `/goform/setMacFilterCfg` | High
+16 | File | `/forum/away.php` | High
 17 | File | `/HNAP1` | Low
 18 | File | `/index` | Low
 19 | File | `/iu-application/controllers/administration/auth.php` | High
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 42 | File | `action/addproject.php` | High
 43 | ... | ... | ...
 
-There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -109,10 +109,11 @@ ID | Type | Indicator | Confidence
 43 | File | `allopass.php` | Medium
 44 | File | `al_initialize.php` | High
 45 | File | `announce.php` | Medium
-46 | File | `archive_read_support_format_rar.c` | High
-47 | ... | ... | ...
+46 | File | `apply.cgi` | Medium
+47 | File | `archive_read_support_format_rar.c` | High
+48 | ... | ... | ...
 
-There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

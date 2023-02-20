@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -211,14 +211,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -238,58 +238,57 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/reports.php` | High
 11 | File | `/admin/showbad.php` | High
 12 | File | `/admin/subnets/ripe-query.php` | High
-13 | File | `/admin_page/all-files-update-ajax.php` | High
-14 | File | `/apilog.php` | Medium
-15 | File | `/bsms/?page=products` | High
-16 | File | `/cgi-bin/kerbynet` | High
-17 | File | `/cgi-bin/system_mgr.cgi` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/connectors/index.php` | High
-20 | File | `/dms/admin/reports/daily_collection_report.php` | High
-21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/include/chart_generator.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/info.cgi` | Medium
+13 | File | `/apilog.php` | Medium
+14 | File | `/cgi-bin/kerbynet` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/connectors/index.php` | High
+17 | File | `/dev/block/mmcblk0rpmb` | High
+18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+19 | File | `/etc/quagga` | Medium
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/fos/admin/ajax.php?action=login` | High
+23 | File | `/fos/admin/index.php?page=menu` | High
+24 | File | `/home/masterConsole` | High
+25 | File | `/home/sendBroadcast` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/index.php` | Medium
 29 | File | `/Items/*/RemoteImages/Download` | High
 30 | File | `/items/view_item.php` | High
 31 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-32 | File | `/lists/admin/` | High
-33 | File | `/lookin/info` | Medium
-34 | File | `/MagickCore/image.c` | High
-35 | File | `/manager/index.php` | High
-36 | File | `/medical/inventories.php` | High
-37 | File | `/mgmt/tm/util/bash` | High
-38 | File | `/modules/profile/index.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/modules/public/calendar.php` | High
-41 | File | `/newsDia.php` | Medium
-42 | File | `/out.php` | Medium
-43 | File | `/proxy` | Low
-44 | File | `/public/launchNewWindow.jsp` | High
-45 | File | `/Redcock-Farm/farm/category.php` | High
-46 | File | `/sacco_shield/manage_user.php` | High
-47 | File | `/spip.php` | Medium
-48 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-49 | File | `/staff/bookdetails.php` | High
-50 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+32 | File | `/lookin/info` | Medium
+33 | File | `/MagickCore/image.c` | High
+34 | File | `/manager/index.php` | High
+35 | File | `/medical/inventories.php` | High
+36 | File | `/modules/profile/index.php` | High
+37 | File | `/modules/projects/vw_files.php` | High
+38 | File | `/modules/public/calendar.php` | High
+39 | File | `/newsDia.php` | Medium
+40 | File | `/out.php` | Medium
+41 | File | `/proxy` | Low
+42 | File | `/public/launchNewWindow.jsp` | High
+43 | File | `/Redcock-Farm/farm/category.php` | High
+44 | File | `/reports/rwservlet` | High
+45 | File | `/sacco_shield/manage_user.php` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+48 | File | `/staff/bookdetails.php` | High
+49 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+50 | File | `/uncpath/` | Medium
 51 | File | `/user/update_booking.php` | High
-52 | File | `/usr/bin/pkexec` | High
-53 | File | `/WEB-INF/web.xml` | High
-54 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-55 | File | `/Wedding-Management/package_detail.php` | High
-56 | File | `/wordpress/wp-admin/options-general.php` | High
-57 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-58 | File | `a2billing/customer/iridium_threed.php` | High
-59 | File | `AbstractScheduleJob.java` | High
-60 | File | `actionphp/download.File.php` | High
-61 | File | `AdClass.php` | Medium
-62 | ... | ... | ...
+52 | File | `/WEB-INF/web.xml` | High
+53 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+54 | File | `/wireless/security.asp` | High
+55 | File | `/wordpress/wp-admin/options-general.php` | High
+56 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+57 | File | `01article.php` | High
+58 | File | `AbstractScheduleJob.java` | High
+59 | File | `actionphp/download.File.php` | High
+60 | File | `AdClass.php` | Medium
+61 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

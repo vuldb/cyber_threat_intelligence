@@ -117,13 +117,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `/var/log/nginx` | High
-4 | File | `/_uuids` | Low
-5 | File | `agent/Core/SpawningKit/Spawner.h` | High
-6 | ... | ... | ...
+2 | File | `/api/common/ping` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `/var/log/nginx` | High
+5 | File | `/_uuids` | Low
+6 | File | `agent/Core/SpawningKit/Spawner.h` | High
+7 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

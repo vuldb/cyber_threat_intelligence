@@ -68,31 +68,32 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/index.php` | High
 5 | File | `/apilog.php` | Medium
 6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/see_more_details.php` | High
-14 | File | `/server-status` | High
-15 | File | `/services/details.asp` | High
-16 | File | `/setup` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `act.php` | Low
-23 | File | `adclick.php` | Medium
-24 | File | `admin` | Low
-25 | File | `admin.php` | Medium
-26 | File | `admin/adminsignin.html` | High
-27 | File | `admin/movieview.php` | High
-28 | File | `admin/versions.html` | High
-29 | ... | ... | ...
+7 | File | `/cstecgi.cgi` | Medium
+8 | File | `/filemanager/upload.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/if.cgi` | Low
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/news.dtl.php` | High
+14 | File | `/see_more_details.php` | High
+15 | File | `/server-status` | High
+16 | File | `/services/details.asp` | High
+17 | File | `/setup` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+23 | File | `act.php` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `admin` | Low
+26 | File | `admin.php` | Medium
+27 | File | `admin/adminsignin.html` | High
+28 | File | `admin/movieview.php` | High
+29 | File | `admin/versions.html` | High
+30 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

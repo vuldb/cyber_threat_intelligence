@@ -44,9 +44,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/service/upload` | High
 4 | File | `/system?action=ServiceAdmin` | High
 5 | File | `/var/log/nginx` | High
-6 | ... | ... | ...
+6 | File | `admin/import/class-import-settings.php` | High
+7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

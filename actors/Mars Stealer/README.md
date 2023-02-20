@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,26 +69,27 @@ ID | Type | Indicator | Confidence
 10 | File | `/dashboard/add-service.php` | High
 11 | File | `/dashboard/updatelogo.php` | High
 12 | File | `/Default/Bd` | Medium
-13 | File | `/event/admin/?page=user/list` | High
-14 | File | `/face-recognition-php/facepay-master/camera.php` | High
-15 | File | `/filemanager/upload/drop` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/goform/RouteStatic` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/htdocs/cgibin` | High
-22 | File | `/lists/index.php` | High
-23 | File | `/login.php` | Medium
-24 | File | `/netflow/jspui/editProfile.jsp` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-28 | File | `/videotalk` | Medium
-29 | File | `/view-property.php` | High
-30 | ... | ... | ...
+13 | File | `/download` | Medium
+14 | File | `/event/admin/?page=user/list` | High
+15 | File | `/face-recognition-php/facepay-master/camera.php` | High
+16 | File | `/filemanager/upload/drop` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forum/PostPrivateMessage` | High
+19 | File | `/getcfg.php` | Medium
+20 | File | `/goform/RouteStatic` | High
+21 | File | `/home/masterConsole` | High
+22 | File | `/hrm/employeeadd.php` | High
+23 | File | `/hrm/employeeview.php` | High
+24 | File | `/htdocs/cgibin` | High
+25 | File | `/lists/index.php` | High
+26 | File | `/login.php` | Medium
+27 | File | `/netflow/jspui/editProfile.jsp` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/uncpath/` | Medium
+30 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+31 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

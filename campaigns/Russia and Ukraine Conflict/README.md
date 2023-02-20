@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia and Ukraine Conflict:
 
-* [VN](https://vuldb.com/?country.vn)
 * [DE](https://vuldb.com/?country.de)
+* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
 * ...
 
@@ -57,14 +57,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,50 +73,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/bsms_ci/index.php/user/edit_user/` | High
-3 | File | `/cms/category/list` | High
-4 | File | `/env` | Low
-5 | File | `/forum/away.php` | High
-6 | File | `/fos/admin/ajax.php?action=login` | High
-7 | File | `/fos/admin/index.php?page=menu` | High
-8 | File | `/FreshRSS/p/ext.php` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/CertListInfo` | High
-11 | File | `/goform/fast_setting_wifi_set` | High
-12 | File | `/goform/IPSECsave` | High
-13 | File | `/goform/L7Im` | Medium
-14 | File | `/goform/NatStaticSetting` | High
-15 | File | `/goform/qossetting` | High
-16 | File | `/goform/SafeClientFilter` | High
-17 | File | `/goform/SafeMacFilter` | High
-18 | File | `/goform/SafeUrlFilter` | High
-19 | File | `/goform/setMacFilterCfg` | High
-20 | File | `/goform/SysToolReboot` | High
-21 | File | `/goform/SysToolRestoreSet` | High
-22 | File | `/goform/VirtualSer` | High
-23 | File | `/hrm/controller/employee.php` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/lib` | Low
-27 | File | `/m3_exec.h` | Medium
-28 | File | `/mhds/clinic/view_details.php` | High
-29 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-30 | File | `/picturesPreview` | High
-31 | File | `/royal_event/companyprofile.php` | High
-32 | File | `/royal_event/userregister.php` | High
-33 | File | `/school/model/get_subject.php` | High
-34 | File | `/services/view_service.php` | High
-35 | File | `/v1/sql-runner` | High
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | File | `/view-property.php` | High
-38 | File | `01article.php` | High
-39 | File | `acme_certificate_edit.php` | High
-40 | File | `adclick.php` | Medium
-41 | File | `add_contestant.php` | High
-42 | File | `add_post.php` | Medium
-43 | ... | ... | ...
+2 | File | `/cgi-bin/wlogin.cgi` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/forum/PostPrivateMessage` | High
+5 | File | `/fos/admin/ajax.php?action=login` | High
+6 | File | `/fos/admin/index.php?page=menu` | High
+7 | File | `/home/sendBroadcast` | High
+8 | File | `/hrm/controller/employee.php` | High
+9 | File | `/hrm/employeeadd.php` | High
+10 | File | `/hrm/employeeview.php` | High
+11 | File | `/mhds/clinic/view_details.php` | High
+12 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+13 | File | `/param.file.tgz` | High
+14 | File | `/picturesPreview` | High
+15 | File | `/royal_event/companyprofile.php` | High
+16 | File | `/royal_event/userregister.php` | High
+17 | File | `/school/model/get_subject.php` | High
+18 | File | `/user/s.php` | Medium
+19 | File | `/user/updatePwd` | High
+20 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+21 | File | `/view-property.php` | High
+22 | File | `/wireless/guestnetwork.asp` | High
+23 | File | `/wireless/security.asp` | High
+24 | File | `01article.php` | High
+25 | File | `acme_certificate_edit.php` | High
+26 | File | `adclick.php` | Medium
+27 | File | `add-locker-form.php` | High
+28 | File | `add_contestant.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/abc.php` | High
+31 | File | `admin/approve_user.php` | High
+32 | File | `admin/booking_report.php` | High
+33 | File | `admin/disapprove_user.php` | High
+34 | File | `admin/expense_report.php` | High
+35 | File | `admin/gv_mail.php` | High
+36 | File | `admin/index.php` | High
+37 | File | `admin/manage_user.php` | High
+38 | File | `admin/page-login.php` | High
+39 | File | `admin/panels/entry/admin.entry.list.php` | High
+40 | File | `admincp/attachment.php` | High
+41 | File | `adminer.php` | Medium
+42 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+43 | File | `admin_class.php` | High
+44 | File | `agent/listener/templates/tail.html` | High
+45 | File | `announce.php` | Medium
+46 | File | `api.php` | Low
+47 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+48 | File | `app/business/impl/ReviewServiceImpl.java` | High
+49 | File | `app/config/passport.js` | High
+50 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

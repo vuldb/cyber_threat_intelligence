@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Maldives Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [GB](https://vuldb.com/?country.gb)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.

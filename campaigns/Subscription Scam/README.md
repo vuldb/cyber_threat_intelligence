@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,30 +68,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/ajax-files/followBoard.php` | High
-2 | File | `/includes/lib/detail.php` | High
-3 | File | `/modules/projects/vw_files.php` | High
-4 | File | `/see_more_details.php` | High
-5 | File | `/server-status` | High
-6 | File | `add-services.php` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin/models/Galleries.php` | High
-9 | File | `affich.php` | Medium
-10 | File | `affiliate-preview.php` | High
-11 | File | `akocomments.php` | High
-12 | File | `album_portal.php` | High
-13 | File | `application/modules/admin/views/ecommerce/products.php` | High
-14 | File | `apps/app_article/controller/rating.php` | High
-15 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
-16 | File | `auktion.cgi` | Medium
-17 | File | `basket.php` | Medium
-18 | File | `big.php` | Low
-19 | File | `category_list.php` | High
-20 | File | `closeup.php` | Medium
-21 | File | `cng.sys` | Low
-22 | File | `comersus_optreviewreadexec.asp` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/includes/lib/detail.php` | High
+4 | File | `/modules/projects/vw_files.php` | High
+5 | File | `/see_more_details.php` | High
+6 | File | `/server-status` | High
+7 | File | `add-services.php` | High
+8 | File | `admin.php` | Medium
+9 | File | `admin/models/Galleries.php` | High
+10 | File | `affich.php` | Medium
+11 | File | `affiliate-preview.php` | High
+12 | File | `akocomments.php` | High
+13 | File | `album_portal.php` | High
+14 | File | `application/modules/admin/views/ecommerce/products.php` | High
+15 | File | `apps/app_article/controller/rating.php` | High
+16 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
+17 | File | `auktion.cgi` | Medium
+18 | File | `basket.php` | Medium
+19 | File | `big.php` | Low
+20 | File | `category_list.php` | High
+21 | File | `closeup.php` | Medium
+22 | File | `cng.sys` | Low
 23 | ... | ... | ...
 
-There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

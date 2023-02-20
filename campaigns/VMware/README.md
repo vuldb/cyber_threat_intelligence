@@ -75,31 +75,31 @@ ID | Type | Indicator | Confidence
 16 | File | `/list-gitolite` | High
 17 | File | `/login` | Low
 18 | File | `/member/pm.php` | High
-19 | File | `/onvif/device_service` | High
-20 | File | `/rapi/read_url` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/tab_tariffe.php` | High
-23 | File | `/var/log/drachtio` | High
-24 | File | `/var/log/groonga` | High
-25 | File | `/visualizza_tabelle.php` | High
-26 | File | `/wp-json/wc/v3/webhooks` | High
-27 | File | `acrord32.exe` | Medium
-28 | File | `admin.php/user/add` | High
-29 | File | `admin.php?m=Member&a=adminadd` | High
-30 | File | `admin/conf_users_edit.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/content/search.html` | High
-33 | File | `admin/index.php?lfj=member&action=addmember` | High
-34 | File | `admin/tool/ShowPic.php` | High
-35 | File | `admin/ueditor/uploadFile` | High
-36 | File | `adv_remotelog.asp` | High
-37 | File | `AjaxApplication.java` | High
-38 | File | `album_cat.php` | High
-39 | File | `AndroidManifest.xml` | High
-40 | File | `Annot.c` | Low
+19 | File | `/objects/getSpiritsFromVideo.php` | High
+20 | File | `/onvif/device_service` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/tab_tariffe.php` | High
+24 | File | `/var/log/drachtio` | High
+25 | File | `/var/log/groonga` | High
+26 | File | `/visualizza_tabelle.php` | High
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | File | `acrord32.exe` | Medium
+29 | File | `admin.php/user/add` | High
+30 | File | `admin.php?m=Member&a=adminadd` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/content/search.html` | High
+34 | File | `admin/index.php?lfj=member&action=addmember` | High
+35 | File | `admin/tool/ShowPic.php` | High
+36 | File | `admin/ueditor/uploadFile` | High
+37 | File | `adv_remotelog.asp` | High
+38 | File | `AjaxApplication.java` | High
+39 | File | `album_cat.php` | High
+40 | File | `AndroidManifest.xml` | High
 41 | ... | ... | ...
 
-There are 352 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

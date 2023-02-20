@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [PL](https://vuldb.com/?country.pl)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -105,7 +105,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -120,53 +120,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/admin/ajax.php?action=delete_window` | High
-3 | File | `/admin/ajax.php?action=save_window` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/Api/ASF` | Medium
-7 | File | `/api/browserextension/UpdatePassword/` | High
-8 | File | `/blogengine/api/posts` | High
-9 | File | `/cgi-bin/api-get_line_status` | High
-10 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-11 | File | `/cgi-bin/upload_vpntar` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/config/api/v1/reboot` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/dev/block/mmcblk0rpmb` | High
-16 | File | `/etc` | Low
-17 | File | `/etc/passwd` | Medium
-18 | File | `/export` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/goform/WifiBasicSet` | High
-23 | File | `/hss/admin/?page=client/manage_client` | High
-24 | File | `/login/index.php` | High
-25 | File | `/obs/book.php` | High
-26 | File | `/products/view_product.php` | High
-27 | File | `/proxy` | Low
-28 | File | `/reports/rwservlet` | High
-29 | File | `/resources//../` | High
-30 | File | `/setNTP.cgi` | Medium
-31 | File | `/shell` | Low
-32 | File | `/spip.php` | Medium
-33 | File | `/sys/dict/queryTableData` | High
-34 | File | `/tpts/manage_user.php` | High
-35 | File | `/trufusionPortal/upDwModuleProxy` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/usr/bin/tddp` | High
-38 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-39 | File | `/wp-json/wc/v3/webhooks` | High
-40 | File | `01article.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `addrtoname.c` | Medium
-43 | File | `admin/admin/adminsave.html` | High
-44 | File | `admin/conf_users_edit.php` | High
-45 | ... | ... | ...
+1 | File | `/admin/ajax.php?action=delete_window` | High
+2 | File | `/admin/ajax.php?action=save_window` | High
+3 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+4 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+5 | File | `/bin/httpd` | Medium
+6 | File | `/blogengine/api/posts` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/config/api/v1/reboot` | High
+10 | File | `/dev/block/mmcblk0rpmb` | High
+11 | File | `/etc` | Low
+12 | File | `/etc/passwd` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/forum/PostPrivateMessage` | High
+15 | File | `/fos/admin/ajax.php?action=login` | High
+16 | File | `/fos/admin/index.php?page=menu` | High
+17 | File | `/home/masterConsole` | High
+18 | File | `/home/sendBroadcast` | High
+19 | File | `/hss/admin/?page=client/manage_client` | High
+20 | File | `/login/index.php` | High
+21 | File | `/products/view_product.php` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/reports/rwservlet` | High
+24 | File | `/resources//../` | High
+25 | File | `/secure/QueryComponent!Default.jspa` | High
+26 | File | `/setNTP.cgi` | Medium
+27 | File | `/shell` | Low
+28 | File | `/spip.php` | Medium
+29 | File | `/sys/dict/queryTableData` | High
+30 | File | `/tpts/manage_user.php` | High
+31 | File | `/trufusionPortal/upDwModuleProxy` | High
+32 | File | `/uncpath/` | Medium
+33 | File | `/usr/bin/tddp` | High
+34 | File | `/wireless/security.asp` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
