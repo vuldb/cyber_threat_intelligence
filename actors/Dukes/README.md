@@ -50,17 +50,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/users.php?source=edit_user&id=1` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/modules/profile/index.php` | High
-4 | File | `/proc/self/environ` | High
-5 | File | `/rest/project-templates/1.0/createshared` | High
-6 | File | `/server-status` | High
-7 | File | `act.php` | Low
-8 | File | `adclick.php` | Medium
-9 | File | `admin.php` | Medium
-10 | ... | ... | ...
+2 | File | `/cdsms/classes/Master.php?f=delete_package` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/modules/profile/index.php` | High
+5 | File | `/onvif/device_service` | High
+6 | File | `/pro/repo-create.html` | High
+7 | File | `/proc/self/environ` | High
+8 | File | `/rest/project-templates/1.0/createshared` | High
+9 | File | `/server-status` | High
+10 | File | `act.php` | Low
+11 | ... | ... | ...
 
-There are 77 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 30 more country items available. Please use our online service to access the data.
+There are 31 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -76,15 +76,15 @@ ID | Type | Indicator | Confidence
 15 | File | `/dashboard/snapshot/*?orgId=0` | High
 16 | File | `/exports/export.php` | High
 17 | File | `/gena.cgi` | Medium
-18 | File | `/getcfg.php` | Medium
-19 | File | `/home/cavesConsole` | High
-20 | File | `/home/kickPlayer` | High
-21 | File | `/home/masterConsole` | High
-22 | File | `/home/sendBroadcast` | High
-23 | File | `/html/portal/flash.jsp` | High
-24 | File | `/include/chart_generator.php` | High
-25 | File | `/lan.asp` | Medium
-26 | File | `/librarian/bookdetails.php` | High
+18 | File | `/home/cavesConsole` | High
+19 | File | `/home/kickPlayer` | High
+20 | File | `/home/masterConsole` | High
+21 | File | `/home/sendBroadcast` | High
+22 | File | `/html/portal/flash.jsp` | High
+23 | File | `/include/chart_generator.php` | High
+24 | File | `/lan.asp` | Medium
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/loginVaLidation.php` | High
 27 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
 28 | File | `/metrics` | Medium
 29 | File | `/MIME/INBOX-MM-1/` | High
@@ -97,10 +97,9 @@ ID | Type | Indicator | Confidence
 36 | File | `/setSystemAdmin` | High
 37 | File | `/spip.php` | Medium
 38 | File | `/start_apply.htm` | High
-39 | File | `/uncpath/` | Medium
-40 | ... | ... | ...
+39 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

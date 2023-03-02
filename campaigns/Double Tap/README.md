@@ -76,7 +76,7 @@ ID | Type | Indicator | Confidence
 17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
 19 | File | `/data/remove` | Medium
-20 | File | `/etc/passwd` | Medium
+20 | File | `/ebics-server/ebics.aspx` | High
 21 | File | `/ffos/classes/Master.php?f=save_category` | High
 22 | File | `/forum/away.php` | High
 23 | File | `/goforms/rlminfo` | High
@@ -105,8 +105,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/uncpath/` | Medium
 47 | File | `/vloggers_merch/?p=view_product` | High
 48 | File | `/webconsole/APIController` | High
-49 | File | `/websocket/exec` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
 There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

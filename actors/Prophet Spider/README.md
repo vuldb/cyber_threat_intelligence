@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -50,10 +50,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,32 +62,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `.authlie` | Medium
-3 | File | `/admin_area/login_transfer.php` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/bsms_ci/index.php/book` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/forums.php?action=post` | High
-10 | File | `/goform/fromSetWirelessRepeat` | High
-11 | File | `/index.php` | Medium
-12 | File | `/index/user/user_edit.html` | High
-13 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-14 | File | `/login/index.php` | High
-15 | File | `/rest/api/2/user/picker` | High
-16 | File | `/rrdp` | Low
-17 | File | `/SetNetworkSettings/SubnetMask` | High
-18 | File | `/setNTP.cgi` | Medium
-19 | File | `/tpts/manage_user.php` | High
-20 | File | `/u/username.json` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/user/s.php` | Medium
-23 | File | `/usr/etc/restore0.9` | High
-24 | File | `acl.c` | Low
-25 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/index3.php` | High
+4 | File | `/admin_area/login_transfer.php` | High
+5 | File | `/adms/admin/?page=user/manage_user` | High
+6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/forums.php?action=post` | High
+13 | File | `/goform/formDefault` | High
+14 | File | `/goform/formSysCmd` | High
+15 | File | `/goform/fromSetWirelessRepeat` | High
+16 | File | `/index.php` | Medium
+17 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+18 | File | `/login/index.php` | High
+19 | File | `/Moosikay/order.php` | High
+20 | File | `/SetNetworkSettings/SubnetMask` | High
+21 | File | `/setNTP.cgi` | Medium
+22 | File | `/tpts/manage_user.php` | High
+23 | File | `/u/username.json` | High
+24 | File | `/user/s.php` | Medium
+25 | File | `/usr/etc/restore0.9` | High
+26 | File | `acl.c` | Low
+27 | ... | ... | ...
 
-There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

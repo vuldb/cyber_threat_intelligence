@@ -64,14 +64,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,9 +92,9 @@ ID | Type | Indicator | Confidence
 11 | File | `/include/chart_generator.php` | High
 12 | File | `/mhds/clinic/view_details.php` | High
 13 | File | `/out.php` | Medium
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/RestAPI` | Medium
+14 | File | `/php-opos/index.php` | High
+15 | File | `/rest/api/latest/projectvalidate/key` | High
+16 | File | `/rest/collectors/1.0/template/custom` | High
 17 | File | `/search.php` | Medium
 18 | File | `/ServletAPI/accounts/login` | High
 19 | File | `/uncpath/` | Medium

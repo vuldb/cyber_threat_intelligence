@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -786,14 +786,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -807,43 +807,43 @@ ID | Type | Indicator | Confidence
 4 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 5 | File | `/bin/httpd` | Medium
 6 | File | `/bsms_ci/index.php/book` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/debug/pprof` | Medium
 8 | File | `/dev/block/mmcblk0rpmb` | High
 9 | File | `/forum/away.php` | High
 10 | File | `/fos/admin/ajax.php?action=login` | High
 11 | File | `/fos/admin/index.php?page=menu` | High
 12 | File | `/home/masterConsole` | High
 13 | File | `/home/sendBroadcast` | High
-14 | File | `/hrm/controller/employee.php` | High
-15 | File | `/hrm/employeeadd.php` | High
-16 | File | `/hrm/employeeview.php` | High
-17 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-18 | File | `/medicines/profile.php` | High
-19 | File | `/mhds/clinic/view_details.php` | High
-20 | File | `/param.file.tgz` | High
-21 | File | `/picturesPreview` | High
-22 | File | `/proxy` | Low
-23 | File | `/reports/rwservlet` | High
-24 | File | `/spip.php` | Medium
-25 | File | `/tmp` | Low
+14 | File | `/medicines/profile.php` | High
+15 | File | `/Moosikay/order.php` | High
+16 | File | `/mygym/admin/index.php?view_exercises` | High
+17 | File | `/out.php` | Medium
+18 | File | `/param.file.tgz` | High
+19 | File | `/php-opos/index.php` | High
+20 | File | `/picturesPreview` | High
+21 | File | `/proxy` | Low
+22 | File | `/reports/rwservlet` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/tmp` | Low
+25 | File | `/tmp/boa-temp` | High
 26 | File | `/uncpath/` | Medium
 27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/view-property.php` | High
+28 | File | `/video-sharing-script/watch-video.php` | High
 29 | File | `/wireless/security.asp` | High
 30 | File | `01article.php` | High
-31 | File | `actionphp/download.File.php` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 32 | File | `adclick.php` | Medium
 33 | File | `admin.jcomments.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/abc.php` | High
-36 | File | `admin/add_payment.php` | High
+34 | File | `admin/abc.php` | High
+35 | File | `admin/add_payment.php` | High
+36 | File | `admin/admin.php?action=users&mode=info&user=2` | High
 37 | File | `admin/admin/adminsave.html` | High
 38 | File | `admin/conf_users_edit.php` | High
 39 | File | `admin/disapprove_user.php` | High
 40 | File | `admin/expense_report.php` | High
 41 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -171,11 +171,11 @@ ID | Type | Indicator | Confidence
 16 | File | `admin/caste_view.php` | High
 17 | File | `admin/server/api/download.js` | High
 18 | File | `AlwaysOnHotwordDetector.java` | High
-19 | File | `auth.php` | Medium
-20 | File | `avatar.php` | Medium
+19 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+20 | File | `auth.php` | Medium
 21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

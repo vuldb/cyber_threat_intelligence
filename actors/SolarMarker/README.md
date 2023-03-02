@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [FR](https://vuldb.com/?country.fr)
-* [RU](https://vuldb.com/?country.ru)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 25 more country items available. Please use our online service to access the data.
@@ -56,29 +56,34 @@ ID | Type | Indicator | Confidence
 5 | File | `/etc/gsissh/sshd_config` | High
 6 | File | `/forms/nslookupHandler` | High
 7 | File | `/forum/away.php` | High
-8 | File | `/include/chart_generator.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/log_download.cgi` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/p1/p2/:name` | Medium
-14 | File | `/proc/<PID>/mem` | High
-15 | File | `/ptms/?page=user` | High
-16 | File | `/setup/finish` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/template/edit` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/upload/file.php` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-23 | File | `/wolfcms/?/admin/user/add` | High
-24 | File | `/wp-admin` | Medium
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | ... | ... | ...
+8 | File | `/forum/PostPrivateMessage` | High
+9 | File | `/home/cavesConsole` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/login/index.php` | High
+13 | File | `/log_download.cgi` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/news.dtl.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/p1/p2/:name` | Medium
+18 | File | `/param.file.tgz` | High
+19 | File | `/proc/<PID>/mem` | High
+20 | File | `/ptms/?page=user` | High
+21 | File | `/setup/finish` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/template/edit` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/upload/file.php` | High
+26 | File | `/user/s.php` | Medium
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+29 | File | `/wolfcms/?/admin/user/add` | High
+30 | File | `/wp-admin` | Medium
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+33 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

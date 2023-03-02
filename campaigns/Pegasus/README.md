@@ -87,23 +87,23 @@ ID | Type | Indicator | Confidence
 19 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
 20 | File | `/setNTP.cgi` | Medium
 21 | File | `/templates/header.inc.php` | High
-22 | File | `/v2/devices/add` | High
-23 | File | `/var/ipfire/backup/bin/backup.pl` | High
-24 | File | `/wp-json/wc/v3/webhooks` | High
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `account.php` | Medium
-27 | File | `accounts/view_details.php` | High
-28 | File | `AddEvent.php` | Medium
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin.php?m=backup&c=backup&a=doback` | High
-32 | File | `admin.php?mod=product&act=state` | High
-33 | File | `admin/abc.php` | High
-34 | File | `admin/booking_report.php` | High
-35 | File | `admin/conf_users_edit.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/v2/devices/add` | High
+24 | File | `/var/ipfire/backup/bin/backup.pl` | High
+25 | File | `/wp-json/wc/v3/webhooks` | High
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `account.php` | Medium
+28 | File | `accounts/view_details.php` | High
+29 | File | `AddEvent.php` | Medium
+30 | File | `admin.jcomments.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin.php?m=backup&c=backup&a=doback` | High
+33 | File | `admin.php?mod=product&act=state` | High
+34 | File | `admin/abc.php` | High
+35 | File | `admin/booking_report.php` | High
 36 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

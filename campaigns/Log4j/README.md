@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4910,14 +4910,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4925,41 +4925,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin.php` | High
-2 | File | `/adms/admin/?page=user/manage_user` | High
-3 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-4 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-5 | File | `/adms/classes/Users.php` | High
-6 | File | `/backup.pl` | Medium
-7 | File | `/bin/httpd` | Medium
-8 | File | `/bin/sh` | Low
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/check` | Low
-11 | File | `/data/wps.setup.json` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ecshop/admin/template.php` | High
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/formLogin` | High
-17 | File | `/oews/classes/Master.php?f=update_cart` | High
-18 | File | `/out.php` | Medium
-19 | File | `/param.file.tgz` | High
-20 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-21 | File | `/php-inventory-management-system/product.php` | High
-22 | File | `/php-opos/index.php` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/start_apply.htm` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/user/updatePwd` | High
-29 | File | `/wp-json/oembed/1.0/embed?url` | High
-30 | File | `/zm/index.php` | High
-31 | File | `action.php` | Medium
-32 | File | `adclick.php` | Medium
-33 | ... | ... | ...
+1 | File | `$GIT_DIR/objects` | High
+2 | File | `/.env` | Low
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/edit-doc.php` | High
+9 | File | `/admin/index2.html` | High
+10 | File | `/admin/index3.php` | High
+11 | File | `/admin/patient.php` | High
+12 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+15 | File | `/APR/signup.php` | High
+16 | File | `/backup.pl` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
+19 | File | `/cgi-bin/mainfunction.cgi` | High
+20 | File | `/cimom` | Low
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/controller/OnlinePreviewController.java` | High
+23 | File | `/CPE` | Low
+24 | File | `/data/config.ftp.php` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/ebics-server/ebics.aspx` | High
+27 | File | `/ecshop/admin/template.php` | High
+28 | File | `/editor/index.php` | High
+29 | File | `/edoc/doctor/patient.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/forum/PostPrivateMessage` | High
+32 | File | `/IISADMPWD` | Medium
+33 | File | `/lists/admin/` | High
+34 | File | `/Moosikay/order.php` | High
+35 | File | `/mygym/admin/index.php?view_exercises` | High
+36 | File | `/out.php` | Medium
+37 | File | `/pet_shop/admin/orders/update_status.php` | High
+38 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

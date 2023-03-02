@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -105,14 +105,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -120,45 +119,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=delete_window` | High
-2 | File | `/admin/ajax.php?action=save_window` | High
+1 | File | `/.env` | Low
+2 | File | `/admin/` | Low
 3 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
 4 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-5 | File | `/bin/httpd` | Medium
-6 | File | `/blogengine/api/posts` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+5 | File | `/as/authorization.oauth2` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/cgi-bin/luci/api/auth` | High
 8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/config/api/v1/reboot` | High
-10 | File | `/dev/block/mmcblk0rpmb` | High
-11 | File | `/etc` | Low
-12 | File | `/etc/passwd` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/forum/PostPrivateMessage` | High
-15 | File | `/fos/admin/ajax.php?action=login` | High
-16 | File | `/fos/admin/index.php?page=menu` | High
-17 | File | `/home/masterConsole` | High
-18 | File | `/home/sendBroadcast` | High
-19 | File | `/hss/admin/?page=client/manage_client` | High
-20 | File | `/login/index.php` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/public/login.htm` | High
-23 | File | `/reports/rwservlet` | High
-24 | File | `/resources//../` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/setNTP.cgi` | Medium
-27 | File | `/shell` | Low
-28 | File | `/spip.php` | Medium
-29 | File | `/sys/dict/queryTableData` | High
-30 | File | `/tpts/manage_user.php` | High
-31 | File | `/trufusionPortal/upDwModuleProxy` | High
-32 | File | `/uncpath/` | Medium
-33 | File | `/usr/bin/tddp` | High
-34 | File | `/wireless/security.asp` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-json/wc/v3/webhooks` | High
-37 | ... | ... | ...
+9 | File | `/ebics-server/ebics.aspx` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/home/masterConsole` | High
+13 | File | `/home/sendBroadcast` | High
+14 | File | `/mygym/admin/index.php?view_exercises` | High
+15 | File | `/php-opos/index.php` | High
+16 | File | `/php-scrm/login.php` | High
+17 | File | `/public/login.htm` | High
+18 | File | `/secure/QueryComponent!Default.jspa` | High
+19 | File | `/shell` | Low
+20 | File | `/spip.php` | Medium
+21 | File | `/sys/dict/queryTableData` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/wireless/security.asp` | High
+24 | File | `/wp-admin/admin-ajax.php` | High
+25 | File | `/wp-admin/options.php` | High
+26 | File | `account-signup.php` | High
+27 | File | `account/signup.php` | High
+28 | File | `action.php` | Medium
+29 | File | `adclick.php` | Medium
+30 | File | `addentry.php` | Medium
+31 | File | `admin/abc.php` | High
+32 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+33 | File | `admin/admin/adminsave.html` | High
+34 | File | `admin/admin_editor.php` | High
+35 | File | `admin/conf_users_edit.php` | High
+36 | ... | ... | ...
 
-There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

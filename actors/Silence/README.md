@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Silence:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -95,17 +95,17 @@ ID | Type | Indicator | Confidence
 22 | File | `/h/calendar` | Medium
 23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
 24 | File | `/index/jobfairol/show/` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/manage-apartment.php` | High
-27 | File | `/medicines/profile.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/nova/bin/detnet` | High
-30 | File | `/out.php` | Medium
-31 | File | `/pages/apply_vacancy.php` | High
-32 | File | `/proc/<PID>/mem` | High
+25 | File | `/manage-apartment.php` | High
+26 | File | `/medicines/profile.php` | High
+27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/nova/bin/detnet` | High
+29 | File | `/out.php` | Medium
+30 | File | `/pages/apply_vacancy.php` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | File | `/proxy` | Low
 33 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

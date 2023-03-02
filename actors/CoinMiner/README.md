@@ -46,9 +46,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
@@ -65,45 +65,46 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/editBookmark` | High
 5 | File | `/configs/application.ini` | High
 6 | File | `/goform/setPicListItem` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/services/Card/findUser` | High
-9 | File | `/spacecom/login.php` | High
-10 | File | `/ucenter/active.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/xampp/guestbook-en.pl` | High
-13 | File | `/zm/index.php` | High
-14 | File | `123flashchat.php` | High
-15 | File | `abook_database.php` | High
-16 | File | `action.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/admin_process.php` | High
-19 | File | `admin/profile_settings_net.html` | High
-20 | File | `admin/vqmods.app/vqmods.inc.php` | High
-21 | File | `af.cgi/alienform.cgi` | High
-22 | File | `afd.sys` | Low
-23 | File | `ajax.php` | Medium
-24 | File | `akocomment.php` | High
-25 | File | `app/routes/research.js` | High
-26 | File | `article.php` | Medium
-27 | File | `aviso.php` | Medium
-28 | File | `awredir.pl` | Medium
-29 | File | `bar.phtml` | Medium
-30 | File | `bitmap/bdfread.c` | High
-31 | File | `blocks.php` | Medium
-32 | File | `blog.cgi` | Medium
-33 | File | `bluewrench-video-widget.php` | High
-34 | File | `browse.php` | Medium
-35 | File | `carsdetail.asp` | High
-36 | File | `cartman.php` | Medium
-37 | File | `categories.php` | High
-38 | File | `cdf.c` | Low
-39 | File | `cgi-bin/module/sysmanager/admin/SYSAdminUserDialog` | High
-40 | File | `chetcpasswd.cgi` | High
-41 | File | `classifieds.cgi` | High
-42 | File | `cmd.php` | Low
-43 | ... | ... | ...
+7 | File | `/home/cavesConsole` | High
+8 | File | `/home/kickPlayer` | High
+9 | File | `/home/masterConsole` | High
+10 | File | `/home/sendBroadcast` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/services/Card/findUser` | High
+13 | File | `/spacecom/login.php` | High
+14 | File | `/sys/dict/queryTableData` | High
+15 | File | `/ucenter/active.php` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/user/updatePwd` | High
+18 | File | `/xampp/guestbook-en.pl` | High
+19 | File | `/zm/index.php` | High
+20 | File | `123flashchat.php` | High
+21 | File | `abook_database.php` | High
+22 | File | `action.php` | Medium
+23 | File | `admin.php` | Medium
+24 | File | `admin/admin_process.php` | High
+25 | File | `admin/profile_settings_net.html` | High
+26 | File | `admin/vqmods.app/vqmods.inc.php` | High
+27 | File | `af.cgi/alienform.cgi` | High
+28 | File | `afd.sys` | Low
+29 | File | `ajax.php` | Medium
+30 | File | `akocomment.php` | High
+31 | File | `app/routes/research.js` | High
+32 | File | `article.php` | Medium
+33 | File | `aviso.php` | Medium
+34 | File | `awredir.pl` | Medium
+35 | File | `bar.phtml` | Medium
+36 | File | `bitmap/bdfread.c` | High
+37 | File | `blocks.php` | Medium
+38 | File | `blog.cgi` | Medium
+39 | File | `bluewrench-video-widget.php` | High
+40 | File | `browse.php` | Medium
+41 | File | `carsdetail.asp` | High
+42 | File | `cartman.php` | Medium
+43 | File | `categories.php` | High
+44 | ... | ... | ...
 
-There are 370 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

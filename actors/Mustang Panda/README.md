@@ -82,25 +82,26 @@ ID | Type | Indicator | Confidence
 7 | File | `/api/v1/attack` | High
 8 | File | `/cgi-bin/portal` | High
 9 | File | `/Config/service/initModel?` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/export` | Low
-12 | File | `/goform/NTPSyncWithHost` | High
-13 | File | `/goform/SetVirtualServerCfg` | High
-14 | File | `/HNAP1/SetAccessPointMode` | High
-15 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-16 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-17 | File | `/htmlcode/html/indexdefault.asp` | High
-18 | File | `/include/helpers/upload.helper.php` | High
-19 | File | `/interface/main/backup.php` | High
-20 | File | `/local/domain/$DOMID` | High
-21 | File | `/mkshop/Men/profile.php` | High
-22 | File | `/MTFWU` | Low
-23 | File | `/mygym/admin/index.php` | High
-24 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-25 | File | `/patient/settings.php` | High
-26 | ... | ... | ...
+10 | File | `/data/config.ftp.php` | High
+11 | File | `/etc/shadow` | Medium
+12 | File | `/export` | Low
+13 | File | `/goform/NTPSyncWithHost` | High
+14 | File | `/goform/SetVirtualServerCfg` | High
+15 | File | `/HNAP1/SetAccessPointMode` | High
+16 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+17 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+18 | File | `/htmlcode/html/indexdefault.asp` | High
+19 | File | `/include/helpers/upload.helper.php` | High
+20 | File | `/interface/main/backup.php` | High
+21 | File | `/local/domain/$DOMID` | High
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/MTFWU` | Low
+24 | File | `/mygym/admin/index.php` | High
+25 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+26 | File | `/patient/settings.php` | High
+27 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

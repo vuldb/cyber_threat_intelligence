@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [DK](https://vuldb.com/?country.dk)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +59,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -73,50 +73,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$HOME/.printers` | High
-2 | File | `/admin/admin.php` | High
-3 | File | `/backup.pl` | Medium
-4 | File | `/bin/httpd` | Medium
-5 | File | `/CPE` | Low
-6 | File | `/dev/tty` | Medium
-7 | File | `/ecshop/admin/template.php` | High
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/forum/PostPrivateMessage` | High
-10 | File | `/home/cavesConsole` | High
-11 | File | `/home/kickPlayer` | High
-12 | File | `/home/masterConsole` | High
-13 | File | `/home/sendBroadcast` | High
-14 | File | `/login/index.php` | High
-15 | File | `/oews/classes/Master.php?f=update_cart` | High
-16 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-17 | File | `/param.file.tgz` | High
-18 | File | `/ptippage.cgi` | High
-19 | File | `/ptipupgrade.cgi` | High
-20 | File | `/royal_event/userregister.php` | High
-21 | File | `/setnetworksettings/IPAddress` | High
-22 | File | `/SetNetworkSettings/SubnetMask` | High
-23 | File | `/u/username.json` | High
-24 | File | `/user/s.php` | Medium
-25 | File | `/user/updatePwd` | High
-26 | File | `/wireless/basic.asp` | High
-27 | File | `/wireless/guestnetwork.asp` | High
-28 | File | `01article.php` | High
-29 | File | `action.php` | Medium
-30 | File | `add-locker-form.php` | High
-31 | File | `admin/abc.php` | High
-32 | File | `admin/add_payment.php` | High
-33 | File | `admin/adminlogin.php` | High
-34 | File | `admin/approve_user.php` | High
-35 | File | `admin/disapprove_user.php` | High
-36 | File | `admin/expense_report.php` | High
-37 | File | `admin/forget_password.php` | High
-38 | File | `admin/make_payments.php` | High
-39 | File | `admin/manage_user.php` | High
-40 | File | `admin/page-login.php` | High
-41 | File | `admin/practice_pdf.php` | High
-42 | ... | ... | ...
+1 | File | `$GIT_DIR/objects` | High
+2 | File | `$HOME/.printers` | High
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/admin.php` | High
+8 | File | `/admin/doctors.php` | High
+9 | File | `/admin/edit-doc.php` | High
+10 | File | `/admin/index3.php` | High
+11 | File | `/admin/patient.php` | High
+12 | File | `/adms/admin/?page=user/manage_user` | High
+13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+15 | File | `/adms/classes/Users.php` | High
+16 | File | `/APR/signup.php` | High
+17 | File | `/backup.pl` | Medium
+18 | File | `/bin/httpd` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/cgi-bin/mainfunction.cgi` | High
+21 | File | `/CPE` | Low
+22 | File | `/data/config.ftp.php` | High
+23 | File | `/ecshop/admin/template.php` | High
+24 | File | `/editor/index.php` | High
+25 | File | `/edoc/doctor/patient.php` | High
+26 | File | `/etc/tomcat8/Catalina/attack` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/forum/PostPrivateMessage` | High
+29 | File | `/home/cavesConsole` | High
+30 | File | `/home/kickPlayer` | High
+31 | File | `/home/masterConsole` | High
+32 | File | `/home/sendBroadcast` | High
+33 | File | `/oews/classes/Master.php?f=update_cart` | High
+34 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+35 | File | `/param.file.tgz` | High
+36 | File | `/pet_shop/admin/orders/update_status.php` | High
+37 | File | `/php-opos/index.php` | High
+38 | File | `/ptippage.cgi` | High
+39 | File | `/ptipupgrade.cgi` | High
+40 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+41 | File | `/royal_event/userregister.php` | High
+42 | File | `/setnetworksettings/IPAddress` | High
+43 | File | `/SetNetworkSettings/SubnetMask` | High
+44 | File | `/tourism/rate_review.php` | High
+45 | ... | ... | ...
 
-There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

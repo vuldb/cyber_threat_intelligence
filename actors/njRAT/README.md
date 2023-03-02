@@ -40,9 +40,10 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [43.229.151.64](https://vuldb.com/?ip.43.229.151.64) | - | - | High
 18 | [46.105.201.240](https://vuldb.com/?ip.46.105.201.240) | - | - | High
 19 | [46.243.150.150](https://vuldb.com/?ip.46.243.150.150) | - | - | High
-20 | ... | ... | ... | ...
+20 | [46.246.13.73](https://vuldb.com/?ip.46.246.13.73) | c-46-246-13-73.ip4.frootvpn.com | - | High
+21 | ... | ... | ... | ...
 
-There are 77 more IOC items available. Please use our online service to access the data.
+There are 78 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,9 +83,10 @@ ID | Type | Indicator | Confidence
 17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 18 | File | `adclick.php` | Medium
 19 | File | `admin.php` | Medium
-20 | ... | ... | ...
+20 | File | `Admin/ADM_Pagina.php` | High
+21 | ... | ... | ...
 
-There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -108,6 +110,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0326-0402.html
 * https://blog.talosintelligence.com/2021/04/threat-roundup-0423-0430.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
+* https://blog.talosintelligence.com/threat-roundup-0217-0224/
 * https://blogs.blackberry.com/en/2021/08/threat-thursday-dont-let-njrat-take-your-cheddar
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-20%20njRAT%20IOCs
 * https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/594/original/Network_IOCs_list_for_coverage.txt?1625657479

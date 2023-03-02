@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,18 +61,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/admin/showbad.php` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/reports.php` | High
+9 | File | `/admin/showbad.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 12 | File | `/apilog.php` | Medium
-13 | File | `/cgi-bin/kerbynet` | High
+13 | File | `/bin/httpd` | Medium
 14 | File | `/cgi-bin/wlogin.cgi` | High
 15 | File | `/connectors/index.php` | High
 16 | File | `/dev/block/mmcblk0rpmb` | High
@@ -86,18 +86,18 @@ ID | Type | Indicator | Confidence
 24 | File | `/hrm/employeeadd.php` | High
 25 | File | `/hrm/employeeview.php` | High
 26 | File | `/index.php` | Medium
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/items/view_item.php` | High
-29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-30 | File | `/lookin/info` | Medium
-31 | File | `/MagickCore/image.c` | High
-32 | File | `/manager/index.php` | High
-33 | File | `/medical/inventories.php` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/newsDia.php` | Medium
-38 | File | `/out.php` | Medium
+27 | File | `/items/view_item.php` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+29 | File | `/lookin/info` | Medium
+30 | File | `/manager/index.php` | High
+31 | File | `/medical/inventories.php` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/mygym/admin/index.php?view_exercises` | High
+36 | File | `/newsDia.php` | Medium
+37 | File | `/out.php` | Medium
+38 | File | `/php-opos/index.php` | High
 39 | File | `/proxy` | Low
 40 | File | `/public/launchNewWindow.jsp` | High
 41 | File | `/Redcock-Farm/farm/category.php` | High
@@ -120,9 +120,10 @@ ID | Type | Indicator | Confidence
 58 | File | `AdClass.php` | Medium
 59 | File | `adclick.php` | Medium
 60 | File | `addtocart.asp` | High
-61 | ... | ... | ...
+61 | File | `admin.php` | Medium
+62 | ... | ... | ...
 
-There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

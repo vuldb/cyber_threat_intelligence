@@ -102,10 +102,11 @@ ID | Type | Indicator | Confidence
 42 | File | `admin/conf_users_edit.php` | High
 43 | File | `admin/domain-fields/` | High
 44 | File | `admin/index.asp` | High
-45 | File | `admin/member_deal.php` | High
-46 | ... | ... | ...
+45 | File | `admin/news.php` | High
+46 | File | `AdminLoginInterceptor.java` | High
+47 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

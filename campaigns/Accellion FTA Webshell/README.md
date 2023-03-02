@@ -99,7 +99,7 @@ ID | Type | Indicator | Confidence
 41 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
 42 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

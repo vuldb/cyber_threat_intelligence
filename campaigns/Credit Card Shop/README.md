@@ -75,34 +75,35 @@ ID | Type | Indicator | Confidence
 6 | File | `/app/options.py` | High
 7 | File | `/attachments` | Medium
 8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/cgi-bin/login.cgi` | High
-10 | File | `/cgi-bin/luci/api/wireless` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/confirm` | Medium
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/setmac` | High
-20 | File | `/goform/wizard_end` | High
-21 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-22 | File | `/index/jobfairol/show/` | High
-23 | File | `/manage-apartment.php` | High
-24 | File | `/medicines/profile.php` | High
-25 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-26 | File | `/out.php` | Medium
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/pms/update_patient.php` | High
-29 | File | `/proc/<PID>/mem` | High
-30 | File | `/proxy` | Low
-31 | File | `/secure/ViewCollectors` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/tmp` | Low
-34 | ... | ... | ...
+9 | File | `/cgi-bin/luci/api/wireless` | High
+10 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/confirm` | Medium
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/dashboard/reports/logs/view` | High
+14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/etc/hosts` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/manage-apartment.php` | High
+21 | File | `/medicines/profile.php` | High
+22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+23 | File | `/out.php` | Medium
+24 | File | `/pages/apply_vacancy.php` | High
+25 | File | `/pms/update_patient.php` | High
+26 | File | `/proc/<PID>/mem` | High
+27 | File | `/proxy` | Low
+28 | File | `/secure/ViewCollectors` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/tmp` | Low
+31 | File | `/uncpath/` | Medium
+32 | File | `/upload` | Low
+33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+34 | File | `/vendor/views/add_product.php` | High
+35 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

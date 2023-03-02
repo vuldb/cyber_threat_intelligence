@@ -24,34 +24,41 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [5.252.48.0](https://vuldb.com/?ip.5.252.48.0) | - | - | High
 13 | [31.170.224.0](https://vuldb.com/?ip.31.170.224.0) | - | - | High
 14 | [31.171.0.0](https://vuldb.com/?ip.31.171.0.0) | - | - | High
-15 | [37.26.0.0](https://vuldb.com/?ip.37.26.0.0) | - | - | High
-16 | [37.32.64.0](https://vuldb.com/?ip.37.32.64.0) | - | - | High
-17 | [37.61.0.0](https://vuldb.com/?ip.37.61.0.0) | - | - | High
-18 | [37.72.128.0](https://vuldb.com/?ip.37.72.128.0) | - | - | High
-19 | [37.114.128.0](https://vuldb.com/?ip.37.114.128.0) | - | - | High
-20 | [37.128.200.0](https://vuldb.com/?ip.37.128.200.0) | - | - | High
-21 | [45.12.70.16](https://vuldb.com/?ip.45.12.70.16) | hops-cases.get-eye.com | - | High
-22 | [45.12.71.16](https://vuldb.com/?ip.45.12.71.16) | - | - | High
-23 | [45.59.135.0](https://vuldb.com/?ip.45.59.135.0) | - | - | High
-24 | [45.136.164.0](https://vuldb.com/?ip.45.136.164.0) | - | - | High
-25 | [45.145.163.0](https://vuldb.com/?ip.45.145.163.0) | - | - | High
-26 | [46.18.64.0](https://vuldb.com/?ip.46.18.64.0) | - | - | High
-27 | [46.22.224.0](https://vuldb.com/?ip.46.22.224.0) | - | - | High
-28 | [46.23.96.0](https://vuldb.com/?ip.46.23.96.0) | - | - | High
-29 | [46.32.160.0](https://vuldb.com/?ip.46.32.160.0) | - | - | High
-30 | [46.228.176.0](https://vuldb.com/?ip.46.228.176.0) | - | - | High
-31 | [62.212.224.0](https://vuldb.com/?ip.62.212.224.0) | - | - | High
-32 | [62.217.128.0](https://vuldb.com/?ip.62.217.128.0) | - | - | High
-33 | [77.81.56.0](https://vuldb.com/?ip.77.81.56.0) | - | - | High
-34 | ... | ... | ... | ...
+15 | [31.222.225.0](https://vuldb.com/?ip.31.222.225.0) | - | - | High
+16 | [37.18.58.0](https://vuldb.com/?ip.37.18.58.0) | - | - | High
+17 | [37.26.0.0](https://vuldb.com/?ip.37.26.0.0) | - | - | High
+18 | [37.32.64.0](https://vuldb.com/?ip.37.32.64.0) | - | - | High
+19 | [37.61.0.0](https://vuldb.com/?ip.37.61.0.0) | - | - | High
+20 | [37.72.128.0](https://vuldb.com/?ip.37.72.128.0) | - | - | High
+21 | [37.114.128.0](https://vuldb.com/?ip.37.114.128.0) | - | - | High
+22 | [37.128.200.0](https://vuldb.com/?ip.37.128.200.0) | - | - | High
+23 | [38.10.80.0](https://vuldb.com/?ip.38.10.80.0) | - | - | High
+24 | [45.12.70.16](https://vuldb.com/?ip.45.12.70.16) | hops-cases.get-eye.com | - | High
+25 | [45.12.71.16](https://vuldb.com/?ip.45.12.71.16) | - | - | High
+26 | [45.15.43.0](https://vuldb.com/?ip.45.15.43.0) | - | - | High
+27 | [45.59.135.0](https://vuldb.com/?ip.45.59.135.0) | - | - | High
+28 | [45.136.164.0](https://vuldb.com/?ip.45.136.164.0) | - | - | High
+29 | [45.145.163.0](https://vuldb.com/?ip.45.145.163.0) | - | - | High
+30 | [45.154.204.0](https://vuldb.com/?ip.45.154.204.0) | - | - | High
+31 | [45.156.112.0](https://vuldb.com/?ip.45.156.112.0) | - | - | High
+32 | [45.159.210.0](https://vuldb.com/?ip.45.159.210.0) | - | - | High
+33 | [46.18.64.0](https://vuldb.com/?ip.46.18.64.0) | - | - | High
+34 | [46.22.224.0](https://vuldb.com/?ip.46.22.224.0) | - | - | High
+35 | [46.23.96.0](https://vuldb.com/?ip.46.23.96.0) | - | - | High
+36 | [46.32.160.0](https://vuldb.com/?ip.46.32.160.0) | - | - | High
+37 | [46.228.176.0](https://vuldb.com/?ip.46.228.176.0) | - | - | High
+38 | [57.88.16.0](https://vuldb.com/?ip.57.88.16.0) | - | - | High
+39 | [57.90.148.0](https://vuldb.com/?ip.57.90.148.0) | - | - | High
+40 | ... | ... | ... | ...
 
-There are 133 more IOC items available. Please use our online service to access the data.
+There are 155 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_az.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_az.netset
 
 ## Literature
 

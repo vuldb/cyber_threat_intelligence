@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2633,13 +2633,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2647,38 +2647,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.dbus-keyrings` | High
+1 | File | `/.env` | Low
 2 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
 3 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-4 | File | `/bin/httpd` | Medium
-5 | File | `/bin/sh` | Low
-6 | File | `/bitrix/admin/ldap_server_edit.php` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/data/wps.setup.json` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/home/masterConsole` | High
-12 | File | `/home/sendBroadcast` | High
-13 | File | `/net-banking/send_funds.php` | High
-14 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-15 | File | `/out.php` | Medium
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/public/login.htm` | High
-18 | File | `/secure/QueryComponent!Default.jspa` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/sbin/suexec` | High
-22 | File | `/wireless/security.asp` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `/wp-json/oembed/1.0/embed?url` | High
-25 | File | `action.php` | Medium
-26 | File | `adclick.php` | Medium
-27 | File | `admin/expense_report.php` | High
-28 | File | `admin/index.php` | High
-29 | File | `admin/manage_user.php` | High
-30 | ... | ... | ...
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/bin/httpd` | Medium
+6 | File | `/bin/sh` | Low
+7 | File | `/boat/login.php` | High
+8 | File | `/bsms_ci/index.php/user/edit_user/` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/cimom` | Low
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/ecshop/admin/template.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/Moosikay/order.php` | High
+17 | File | `/mygym/admin/index.php?view_exercises` | High
+18 | File | `/out.php` | Medium
+19 | File | `/php-opos/index.php` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/tmp/boa-temp` | High
+24 | File | `/tourism/rate_review.php` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/sbin/suexec` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-admin/options.php` | High
+29 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

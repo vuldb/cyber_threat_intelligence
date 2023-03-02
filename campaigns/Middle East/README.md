@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -73,7 +73,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -93,10 +93,10 @@ ID | Type | Indicator | Confidence
 10 | File | `/config/getuser` | High
 11 | File | `/dashboard/contact` | High
 12 | File | `/debug/pprof` | Medium
-13 | File | `/dev/bus` | Medium
+13 | File | `/ecshop/admin/template.php` | High
 14 | File | `/example/editor` | High
-15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-16 | File | `/forum/away.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/forum/PostPrivateMessage` | High
 17 | File | `/HNAP1` | Low
 18 | File | `/index` | Low
 19 | File | `/iu-application/controllers/administration/auth.php` | High
@@ -125,7 +125,7 @@ ID | Type | Indicator | Confidence
 42 | File | `adclick.php` | Medium
 43 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [5.189.167.220](https://vuldb.com/?ip.5.189.167.220) | - | - | High
 9 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -74,33 +74,32 @@ ID | Type | Indicator | Confidence
 9 | File | `/export` | Low
 10 | File | `/forgetpassword.php` | High
 11 | File | `/forum/away.php` | High
-12 | File | `/fudforum/index.php` | High
-13 | File | `/goform/setVLAN` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/horde/util/go.php` | High
-16 | File | `/hss/?page=view_product` | High
-17 | File | `/index.php/ccm/system/file/upload` | High
-18 | File | `/isms/admin/stocks/view_stock.php` | High
-19 | File | `/lab.html` | Medium
-20 | File | `/list/<path:folderpath>` | High
-21 | File | `/out.php` | Medium
-22 | File | `/products/details.asp` | High
-23 | File | `/RestAPI` | Medium
-24 | File | `/sm/api/v1/firewall/zone/services` | High
-25 | File | `/spacecom/login.php` | High
-26 | File | `/strings/ctype-simple.c` | High
-27 | File | `/sys/dict/queryTableData` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/user/dls_download.php` | High
-30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-31 | File | `/v1/sql-runner` | High
-32 | File | `/web/IndexController.java` | High
-33 | File | `acknowledge.c` | High
-34 | File | `actions/CompanyDetailsSave.php` | High
-35 | File | `adclick.php` | Medium
+12 | File | `/fos/admin/ajax.php` | High
+13 | File | `/fudforum/index.php` | High
+14 | File | `/goform/setVLAN` | High
+15 | File | `/goform/WifiBasicSet` | High
+16 | File | `/horde/util/go.php` | High
+17 | File | `/hss/?page=view_product` | High
+18 | File | `/index.php/ccm/system/file/upload` | High
+19 | File | `/isms/admin/stocks/view_stock.php` | High
+20 | File | `/lab.html` | Medium
+21 | File | `/list/<path:folderpath>` | High
+22 | File | `/out.php` | Medium
+23 | File | `/products/details.asp` | High
+24 | File | `/RestAPI` | Medium
+25 | File | `/sm/api/v1/firewall/zone/services` | High
+26 | File | `/spacecom/login.php` | High
+27 | File | `/strings/ctype-simple.c` | High
+28 | File | `/sys/dict/queryTableData` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/user/dls_download.php` | High
+31 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+32 | File | `/v1/sql-runner` | High
+33 | File | `/web/IndexController.java` | High
+34 | File | `acknowledge.c` | High
+35 | File | `actions/CompanyDetailsSave.php` | High
 36 | File | `add_comment.php` | High
-37 | File | `admin.php` | Medium
-38 | ... | ... | ...
+37 | ... | ... | ...
 
 There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -112,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/transparent-tribe-new-campaign.html
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/07/transparent-tribe-targets-education.txt
 * https://lab52.io/blog/new-transparentribe-operation-targeting-india-with-weaponized-covid-19-lure-documents/
+* https://mp.weixin.qq.com/s/xU7b3m-L2OlAi2bU7nBj0A
 * https://www.threatminer.org/report.php?q=APTGroupSendsSpearPhishingEmailstoIndianGovernmentOfficials%C2%ABThreatResearchBlog_FireEyeInc.pdf&y=2016
 * https://www.threatminer.org/report.php?q=MalwareActorsUsingNICCyberSecurityThemedSpearPhishingtoTargetIndianGovernmentOrganizations-Cysinfo.pdf&y=2016
 * https://www.threatminer.org/report.php?q=proofpoint-operation-transparent-tribe-threat-insight-en.pdf&y=2016

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,12 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [128.90.106.22](https://vuldb.com/?ip.128.90.106.22) | undefined.hostname.localhost | - | High
-2 | [128.90.107.21](https://vuldb.com/?ip.128.90.107.21) | undefined.hostname.localhost | - | High
-3 | [128.90.107.189](https://vuldb.com/?ip.128.90.107.189) | undefined.hostname.localhost | - | High
+1 | [46.246.12.6](https://vuldb.com/?ip.46.246.12.6) | c-46-246-12-6.ip4.frootvpn.com | - | High
+2 | [46.246.86.3](https://vuldb.com/?ip.46.246.86.3) | c-46-246-86-3.ip4.frootvpn.com | - | High
+3 | [128.90.106.22](https://vuldb.com/?ip.128.90.106.22) | undefined.hostname.localhost | - | High
 4 | ... | ... | ... | ...
 
-There are 5 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,10 +34,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -50,43 +50,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/admin/showbad.php` | High
-12 | File | `/admin_page/all-files-update-ajax.php` | High
-13 | File | `/apilog.php` | Medium
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/connectors/index.php` | High
-17 | File | `/dms/admin/reports/daily_collection_report.php` | High
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/hrm/employeeadd.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/info.cgi` | Medium
-25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/items/view_item.php` | High
-27 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-28 | File | `/lists/admin/` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/generalsettings.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/reports.php` | High
+9 | File | `/admin/showbad.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/apilog.php` | Medium
+13 | File | `/bin/httpd` | Medium
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/connectors/index.php` | High
+16 | File | `/dev/block/mmcblk0rpmb` | High
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/face-recognition-php/facepay-master/camera.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/sendBroadcast` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/index.php` | Medium
+27 | File | `/items/view_item.php` | High
+28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 29 | File | `/lookin/info` | Medium
-30 | File | `/MagickCore/image.c` | High
-31 | File | `/manager/index.php` | High
-32 | File | `/medical/inventories.php` | High
-33 | File | `/mgmt/tm/util/bash` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/newsDia.php` | Medium
-38 | File | `/out.php` | Medium
+30 | File | `/manager/index.php` | High
+31 | File | `/medical/inventories.php` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/modules/public/calendar.php` | High
+35 | File | `/mygym/admin/index.php?view_exercises` | High
+36 | File | `/newsDia.php` | Medium
+37 | File | `/out.php` | Medium
+38 | File | `/php-opos/index.php` | High
 39 | File | `/proxy` | Low
 40 | File | `/public/launchNewWindow.jsp` | High
 41 | File | `/Redcock-Farm/farm/category.php` | High
@@ -96,27 +96,29 @@ ID | Type | Indicator | Confidence
 45 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
 46 | File | `/staff/bookdetails.php` | High
 47 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-48 | File | `/user/update_booking.php` | High
-49 | File | `/WEB-INF/web.xml` | High
-50 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-51 | File | `/Wedding-Management/package_detail.php` | High
-52 | File | `/wordpress/wp-admin/options-general.php` | High
-53 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-54 | File | `a2billing/customer/iridium_threed.php` | High
-55 | File | `AbstractScheduleJob.java` | High
-56 | File | `actionphp/download.File.php` | High
-57 | File | `AdClass.php` | Medium
-58 | File | `adclick.php` | Medium
-59 | File | `addtocart.asp` | High
-60 | File | `admin.php` | Medium
-61 | ... | ... | ...
+48 | File | `/uncpath/` | Medium
+49 | File | `/user/update_booking.php` | High
+50 | File | `/WEB-INF/web.xml` | High
+51 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+52 | File | `/wireless/security.asp` | High
+53 | File | `/wordpress/wp-admin/options-general.php` | High
+54 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+55 | File | `01article.php` | High
+56 | File | `AbstractScheduleJob.java` | High
+57 | File | `actionphp/download.File.php` | High
+58 | File | `AdClass.php` | Medium
+59 | File | `adclick.php` | Medium
+60 | File | `addtocart.asp` | High
+61 | File | `admin.php` | Medium
+62 | ... | ... | ...
 
-There are 533 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 539 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blogs.blackberry.com/en/2023/02/blind-eagle-apt-c-36-targets-colombia
 * https://web.archive.org/web/20190625182633if_/https://ti.360.net/blog/articles/apt-c-36-continuous-attacks-targeting-colombian-government-institutions-and-corporations-en/
 
 ## Literature

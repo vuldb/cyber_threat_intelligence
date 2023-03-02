@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snatch:
 
-* [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,10 +82,11 @@ ID | Type | Indicator | Confidence
 31 | File | `admin.php3` | Medium
 32 | File | `admin/abc.php` | High
 33 | File | `admin/add_payment.php` | High
-34 | File | `admin/disapprove_user.php` | High
-35 | ... | ... | ...
+34 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+35 | File | `admin/disapprove_user.php` | High
+36 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Goldfin:
 
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
 * [RU](https://vuldb.com/?country.ru)
+* [IR](https://vuldb.com/?country.ir)
 * ...
 
 There are 2 more country items available. Please use our online service to access the data.

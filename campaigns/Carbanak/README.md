@@ -106,31 +106,32 @@ ID | Type | Indicator | Confidence
 14 | File | `/login/index.php` | High
 15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/phppath/php` | Medium
-18 | File | `/proc/self/exe` | High
-19 | File | `/public/login.htm` | High
-20 | File | `/server-info` | Medium
-21 | File | `/server-status` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/jobmanage.php` | High
-24 | File | `/user/zs_elite.php` | High
-25 | File | `/usr/bin/enq` | Medium
-26 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-30 | File | `/zhndnsdisplay.cmd` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `about.php` | Medium
-33 | File | `acl.c` | Low
-34 | File | `adclick.php` | Medium
-35 | File | `add_comment.php` | High
-36 | File | `add_vhost.php` | High
-37 | File | `admin.php` | Medium
-38 | File | `admin/conf_users_edit.php` | High
-39 | ... | ... | ...
+17 | File | `/php-sms/classes/SystemSettings.php` | High
+18 | File | `/phppath/php` | Medium
+19 | File | `/proc/self/exe` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/server-info` | Medium
+22 | File | `/server-status` | High
+23 | File | `/shell` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/user/jobmanage.php` | High
+26 | File | `/user/zs_elite.php` | High
+27 | File | `/usr/bin/enq` | Medium
+28 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+32 | File | `/zhndnsdisplay.cmd` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | File | `about.php` | Medium
+35 | File | `acl.c` | Low
+36 | File | `adclick.php` | Medium
+37 | File | `add_comment.php` | High
+38 | File | `add_vhost.php` | High
+39 | File | `admin.php` | Medium
+40 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

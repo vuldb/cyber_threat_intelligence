@@ -88,7 +88,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -111,23 +111,23 @@ ID | Type | Indicator | Confidence
 13 | File | `/out.php` | Medium
 14 | File | `/rest/api/latest/projectvalidate/key` | High
 15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/RestAPI` | Medium
-17 | File | `/search.php` | Medium
-18 | File | `/ServletAPI/accounts/login` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/user/login/oauth` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-23 | File | `/var/log/messages` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/websocket/exec` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/x_program_center/jaxrs/invoke` | High
-28 | File | `/zm/index.php` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+16 | File | `/search.php` | Medium
+17 | File | `/ServletAPI/accounts/login` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/user/login/oauth` | High
+20 | File | `/usr/bin/pkexec` | High
+21 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+22 | File | `/var/log/messages` | High
+23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+24 | File | `/websocket/exec` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `/x_program_center/jaxrs/invoke` | High
+27 | File | `/zm/index.php` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `action-visitor.php` | High
 30 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

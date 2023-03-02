@@ -15,8 +15,11 @@ The following _campaigns_ are known and can be associated with LULU:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LULU:
 
 * [IT](https://vuldb.com/?country.it)
+* [GB](https://vuldb.com/?country.gb)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,7 +62,7 @@ ID | Type | Indicator | Confidence
 7 | File | `assets/javascripts/workflowStepEditorKO.js` | High
 8 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

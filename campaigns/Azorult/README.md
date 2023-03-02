@@ -70,25 +70,25 @@ ID | Type | Indicator | Confidence
 4 | File | `/auparse/auparse.c` | High
 5 | File | `/aux` | Low
 6 | File | `/BindAccount/SuccessTips.js` | High
-7 | File | `/goform/QuickIndex` | High
-8 | File | `/goform/setMacFilterCfg` | High
-9 | File | `/goform/WifiBasicSet` | High
-10 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-11 | File | `/login.html` | Medium
-12 | File | `/medical/inventories.php` | High
-13 | File | `/pages.php` | Medium
-14 | File | `/pages/save_user.php` | High
-15 | File | `/patient/doctors.php` | High
-16 | File | `/rom-0` | Low
-17 | File | `/uncpath/` | Medium
-18 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-19 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-20 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
-21 | File | `abm.aspx` | Medium
-22 | File | `actions/ChangeConfiguration.html` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/goform/QuickIndex` | High
+9 | File | `/goform/setMacFilterCfg` | High
+10 | File | `/goform/WifiBasicSet` | High
+11 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+12 | File | `/login.html` | Medium
+13 | File | `/medical/inventories.php` | High
+14 | File | `/pages.php` | Medium
+15 | File | `/pages/save_user.php` | High
+16 | File | `/patient/doctors.php` | High
+17 | File | `/rom-0` | Low
+18 | File | `/uncpath/` | Medium
+19 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+20 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+21 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
+22 | File | `abm.aspx` | Medium
 23 | ... | ... | ...
 
-There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

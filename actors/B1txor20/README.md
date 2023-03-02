@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with B1txor20:
 
 * [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
 * [CN](https://vuldb.com/?country.cn)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,34 +61,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/admin_area/login_transfer.php` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/bsms_ci/index.php/book` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/ecshop/admin/template.php` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/forums.php?action=post` | High
-10 | File | `/goform/formLogin` | High
-11 | File | `/goform/fromSetWirelessRepeat` | High
-12 | File | `/index.php` | Medium
-13 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-14 | File | `/list.php` | Medium
-15 | File | `/login/index.php` | High
-16 | File | `/medicines/profile.php` | High
-17 | File | `/SetNetworkSettings/SubnetMask` | High
-18 | File | `/setNTP.cgi` | Medium
-19 | File | `/spip.php` | Medium
-20 | File | `/tmp` | Low
-21 | File | `/tpts/manage_user.php` | High
-22 | File | `/u/username.json` | High
-23 | File | `/user/s.php` | Medium
-24 | File | `/usr/etc/restore0.9` | High
-25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-26 | File | `/webif/SecurityModule` | High
-27 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/index3.php` | High
+4 | File | `/admin_area/login_transfer.php` | High
+5 | File | `/adms/admin/?page=user/manage_user` | High
+6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+7 | File | `/apply.cgi` | Medium
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/ecshop/admin/template.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forums.php?action=post` | High
+14 | File | `/goform/formDefault` | High
+15 | File | `/goform/formLogin` | High
+16 | File | `/goform/formSysCmd` | High
+17 | File | `/goform/fromSetWirelessRepeat` | High
+18 | File | `/index.php` | Medium
+19 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+20 | File | `/list.php` | Medium
+21 | File | `/login/index.php` | High
+22 | File | `/medicines/profile.php` | High
+23 | File | `/Moosikay/order.php` | High
+24 | File | `/SetNetworkSettings/SubnetMask` | High
+25 | File | `/setNTP.cgi` | Medium
+26 | File | `/spip.php` | Medium
+27 | File | `/tmp` | Low
+28 | File | `/tpts/manage_user.php` | High
+29 | File | `/user/s.php` | Medium
+30 | File | `/usr/etc/restore0.9` | High
+31 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

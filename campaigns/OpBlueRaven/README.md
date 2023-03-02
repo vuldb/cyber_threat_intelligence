@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OpBlueRaven:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -86,28 +86,31 @@ ID | Type | Indicator | Confidence
 19 | File | `/bsms_ci/index.php/book` | High
 20 | File | `/cgi-bin/luci/api/wireless` | High
 21 | File | `/cgi-bin/nightled.cgi` | High
-22 | File | `/ci_hms/massage_room/edit/1` | High
-23 | File | `/common/info.cgi` | High
-24 | File | `/context/%2e/WEB-INF/web.xml` | High
-25 | File | `/dashboard/reports/logs/view` | High
-26 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-27 | File | `/debug/pprof` | Medium
-28 | File | `/etc/hosts` | Medium
-29 | File | `/foms/place-order.php` | High
-30 | File | `/forum/away.php` | High
-31 | File | `/goform/setmac` | High
-32 | File | `/goform/wizard_end` | High
-33 | File | `/index.php` | Medium
-34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-35 | File | `/manage-apartment.php` | High
-36 | File | `/management/api/rcx_management/global_config_query` | High
-37 | File | `/mcategory.php` | High
-38 | File | `/medicines/profile.php` | High
-39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-40 | File | `/multi-vendor-shopping-script/product-list.php` | High
-41 | ... | ... | ...
+22 | File | `/common/info.cgi` | High
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/dashboard/reports/logs/view` | High
+25 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+26 | File | `/debug/pprof` | Medium
+27 | File | `/etc/hosts` | Medium
+28 | File | `/foms/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/setmac` | High
+31 | File | `/goform/wizard_end` | High
+32 | File | `/index.php` | Medium
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/manage-apartment.php` | High
+35 | File | `/management/api/rcx_management/global_config_query` | High
+36 | File | `/mcategory.php` | High
+37 | File | `/medicines/profile.php` | High
+38 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+39 | File | `/multi-vendor-shopping-script/product-list.php` | High
+40 | File | `/pages/apply_vacancy.php` | High
+41 | File | `/php-sms/admin/` | High
+42 | File | `/proc/<PID>/mem` | High
+43 | File | `/product/savenewproduct.php?flag=1` | High
+44 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

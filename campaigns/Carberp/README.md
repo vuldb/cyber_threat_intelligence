@@ -57,47 +57,47 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/index.html` | High
 4 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
 5 | File | `/admin/posts.php` | High
-6 | File | `/ci_ssms/index.php/orders/create` | High
-7 | File | `/fw.login.php` | High
-8 | File | `/home/masterConsole` | High
-9 | File | `/index.php` | Medium
-10 | File | `/membres/modif_profil.php` | High
-11 | File | `/ordering/admin/category/index.php?view=edit` | High
-12 | File | `/pms/index.php` | High
-13 | File | `/pms/update_user.php?user_id=1` | High
-14 | File | `/SimpleBusTicket/index.php` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/var/run/docker.sock` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `/xpdf/Stream.cc` | High
-20 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-21 | File | `addpost_newpoll.php` | High
-22 | File | `adm-index.php` | High
-23 | File | `Admin.PHP` | Medium
-24 | File | `admin.php` | Medium
-25 | File | `admin.php&r=article/AdminContent/edit` | High
-26 | File | `admin/expense_report.php` | High
-27 | File | `admin/index.php` | High
-28 | File | `admin/ops/reports/ops/forum.php` | High
-29 | File | `admincp/attachment.php` | High
-30 | File | `adminedit.pl` | Medium
-31 | File | `ajax/api/hook/getHookList` | High
-32 | File | `App\Manage\Controller\ArticleController.class.php` | High
-33 | File | `archive/index.php` | High
-34 | File | `auth-gss2.c` | Medium
-35 | File | `backend/groups/index.php` | High
-36 | File | `bbs/member_confirm.php` | High
-37 | File | `bottom.php` | Medium
-38 | File | `breadcrumbs_create.php` | High
-39 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-40 | File | `cds-fpdf.php` | Medium
-41 | File | `common.php` | Medium
-42 | File | `controllers/member/Api.php` | High
-43 | File | `core/Web.js` | Medium
+6 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+7 | File | `/ci_ssms/index.php/orders/create` | High
+8 | File | `/fw.login.php` | High
+9 | File | `/home/masterConsole` | High
+10 | File | `/index.php` | Medium
+11 | File | `/membres/modif_profil.php` | High
+12 | File | `/ordering/admin/category/index.php?view=edit` | High
+13 | File | `/pms/index.php` | High
+14 | File | `/pms/update_user.php?user_id=1` | High
+15 | File | `/SimpleBusTicket/index.php` | High
+16 | File | `/uncpath/` | Medium
+17 | File | `/usr/bin/pkexec` | High
+18 | File | `/var/run/docker.sock` | High
+19 | File | `/wp-admin/admin-ajax.php` | High
+20 | File | `/xpdf/Stream.cc` | High
+21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+22 | File | `addpost_newpoll.php` | High
+23 | File | `adm-index.php` | High
+24 | File | `Admin.PHP` | Medium
+25 | File | `admin.php` | Medium
+26 | File | `admin.php&r=article/AdminContent/edit` | High
+27 | File | `admin/expense_report.php` | High
+28 | File | `admin/index.php` | High
+29 | File | `admin/ops/reports/ops/forum.php` | High
+30 | File | `admincp/attachment.php` | High
+31 | File | `adminedit.pl` | Medium
+32 | File | `ajax/api/hook/getHookList` | High
+33 | File | `App\Manage\Controller\ArticleController.class.php` | High
+34 | File | `archive/index.php` | High
+35 | File | `auth-gss2.c` | Medium
+36 | File | `backend/groups/index.php` | High
+37 | File | `bbs/member_confirm.php` | High
+38 | File | `bottom.php` | Medium
+39 | File | `breadcrumbs_create.php` | High
+40 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
+41 | File | `cds-fpdf.php` | Medium
+42 | File | `common.php` | Medium
+43 | File | `controllers/member/Api.php` | High
 44 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

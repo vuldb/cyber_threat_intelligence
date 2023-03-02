@@ -11,9 +11,6 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* ...
-
-There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -67,42 +64,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/blogengine/api/posts` | High
-4 | File | `/bsms_ci/index.php` | High
-5 | File | `/bsms_ci/index.php/user/edit_user/` | High
-6 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-7 | File | `/cgi-bin/api-get_line_status` | High
-8 | File | `/cgi-bin/luci` | High
+2 | File | `/.env` | Low
+3 | File | `/.ssh/authorized_keys` | High
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/blogengine/api/posts` | High
+6 | File | `/cgi-bin/api-get_line_status` | High
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
 9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
 10 | File | `/cgi-bin/upload_vpntar` | High
 11 | File | `/cgi-bin/wlogin.cgi` | High
 12 | File | `/cgi/trustclustermaster.cgi` | High
 13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/export` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/SetPptpServerCfg` | High
-17 | File | `/h/calendar` | Medium
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/js/app.js` | Medium
-20 | File | `/login/index.php` | High
-21 | File | `/mkshope/login.php` | High
-22 | File | `/obs/book.php` | High
-23 | File | `/out.php` | Medium
+14 | File | `/debug/pprof` | Medium
+15 | File | `/export` | Low
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/SetPptpServerCfg` | High
+18 | File | `/h/calendar` | Medium
+19 | File | `/hrm/controller/employee.php` | High
+20 | File | `/js/app.js` | Medium
+21 | File | `/login/index.php` | High
+22 | File | `/mkshope/login.php` | High
+23 | File | `/obs/book.php` | High
 24 | File | `/products/view_product.php` | High
 25 | File | `/public/launchNewWindow.jsp` | High
-26 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-27 | File | `/self.key` | Medium
-28 | File | `/services/view_service.php` | High
-29 | File | `/shell` | Low
-30 | File | `/spip.php` | Medium
-31 | File | `/uncpath/` | Medium
-32 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-33 | File | `/usr/bin/pkexec` | High
-34 | File | `/usr/bin/tddp` | High
-35 | ... | ... | ...
+26 | File | `/public/login.htm` | High
+27 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/self.key` | Medium
+30 | File | `/services/view_service.php` | High
+31 | File | `/shell` | Low
+32 | File | `/spip.php` | Medium
+33 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

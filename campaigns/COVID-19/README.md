@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with COVID-19:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -151,11 +151,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -166,41 +166,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/assets` | Low
-2 | File | `/blogengine/api/posts` | High
-3 | File | `/bsms_ci/index.php/book` | High
-4 | File | `/cgi-bin/api-get_line_status` | High
-5 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-6 | File | `/cgi-bin/upload_vpntar` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/Content/Template/root/reverse-shell.aspx` | High
-9 | File | `/etc/hosts` | Medium
-10 | File | `/export` | Low
-11 | File | `/forum/away.php` | High
-12 | File | `/h/calendar` | Medium
-13 | File | `/ims/login.php` | High
-14 | File | `/login/index.php` | High
-15 | File | `/medicines/profile.php` | High
-16 | File | `/obs/book.php` | High
-17 | File | `/products/view_product.php` | High
-18 | File | `/public/login.htm` | High
-19 | File | `/secure/QueryComponent!Default.jspa` | High
-20 | File | `/services/view_service.php` | High
-21 | File | `/shell` | Low
-22 | File | `/spip.php` | Medium
-23 | File | `/tmp` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `/usr/bin/tddp` | High
-27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-json/wc/v3/webhooks` | High
-30 | File | `adclick.php` | Medium
-31 | File | `admin.jcomments.php` | High
-32 | File | `admin.php` | Medium
-33 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/api/blade-log/api/list` | High
+3 | File | `/as/authorization.oauth2` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/bsms_ci/index.php/book` | High
+6 | File | `/cgi-bin/luci/api/auth` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/ims/login.php` | High
+12 | File | `/login/index.php` | High
+13 | File | `/medicines/profile.php` | High
+14 | File | `/obs/book.php` | High
+15 | File | `/products/view_product.php` | High
+16 | File | `/public/login.htm` | High
+17 | File | `/secure/QueryComponent!Default.jspa` | High
+18 | File | `/shell` | Low
+19 | File | `/spip.php` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/bin/pkexec` | High
+23 | File | `/usr/bin/tddp` | High
+24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+25 | File | `/video-sharing-script/watch-video.php` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-admin/options.php` | High
+28 | File | `/wp-json/wc/v3/webhooks` | High
+29 | File | `adclick.php` | Medium
+30 | File | `admin.jcomments.php` | High
+31 | File | `admin/add_payment.php` | High
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

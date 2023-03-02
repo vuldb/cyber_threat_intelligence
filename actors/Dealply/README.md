@@ -9,7 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dealply:
 
 * [IT](https://vuldb.com/?country.it)
-* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -34,11 +33,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
 There are 20 more TTP items available. Please use our online service to access the data.
@@ -50,37 +49,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$GIT_DIR/objects` | High
-2 | File | `/admin/index2.html` | High
-3 | File | `/adminGetUserList` | High
-4 | File | `/admin_area/login_transfer.php` | High
-5 | File | `/api/public/register/family` | High
-6 | File | `/api/v1/mentions` | High
-7 | File | `/backup.pl` | Medium
-8 | File | `/bin/httpd` | Medium
-9 | File | `/cgi-bin/ExportLogs.sh` | High
-10 | File | `/check` | Low
-11 | File | `/controller/OnlinePreviewController.java` | High
-12 | File | `/CPE` | Low
-13 | File | `/ecshop/admin/template.php` | High
-14 | File | `/file_manage_view.php?fmdo=edit&filename` | High
-15 | File | `/formwork/panel/dashboard` | High
-16 | File | `/forum/PostPrivateMessage` | High
-17 | File | `/goform/formEasySetupWizard3` | High
-18 | File | `/goform/formLogin` | High
-19 | File | `/goform/formSchedule` | High
-20 | File | `/goform/formSetACLFilter` | High
-21 | File | `/goform/formSetEmail` | High
-22 | File | `/goform/formSetRoute` | High
-23 | File | `/goform/formSetWanDhcpplus` | High
-24 | File | `/goform/formWlanGuestSetup` | High
-25 | File | `/goform/formWPS` | High
-26 | File | `/home/cavesConsole` | High
-27 | File | `/home/kickPlayer` | High
-28 | File | `/home/masterConsole` | High
-29 | File | `/home/sendBroadcast` | High
-30 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin.php/update/getFile.html` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/index3.php` | High
+6 | File | `/admin/main/mod-blog` | High
+7 | File | `/admin_area/login_transfer.php` | High
+8 | File | `/adms/admin/?page=user/manage_user` | High
+9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+11 | File | `/adms/classes/Users.php` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/public/register/family` | High
+14 | File | `/api/sys_msg/list/1/10` | High
+15 | File | `/APR/login.php` | High
+16 | File | `/APR/signup.php` | High
+17 | File | `/backup.pl` | Medium
+18 | File | `/bin/httpd` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/cgi-bin/ExportLogs.sh` | High
+21 | File | `/cgi-bin/mainfunction.cgi` | High
+22 | File | `/cgi-bin/mft/wireless_mft` | High
+23 | File | `/check` | Low
+24 | File | `/data/config.ftp.php` | High
+25 | File | `/ecshop/admin/template.php` | High
+26 | File | `/editor/index.php` | High
+27 | File | `/formwork/panel/dashboard` | High
+28 | File | `/goform/formEasySetupWizard3` | High
+29 | File | `/goform/formLogin` | High
+30 | File | `/goform/formSchedule` | High
+31 | File | `/goform/formSetACLFilter` | High
+32 | File | `/goform/formSetEmail` | High
+33 | File | `/goform/formSetRoute` | High
+34 | File | `/goform/formSetWanDhcpplus` | High
+35 | File | `/goform/formSysCmd` | High
+36 | File | `/goform/formWlanGuestSetup` | High
+37 | File | `/goform/formWPS` | High
+38 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

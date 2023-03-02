@@ -62,13 +62,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,37 +76,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/../conf/config.properties` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-4 | File | `/advanced-tools/nova/bin/netwatch` | High
-5 | File | `/aya/module/admin/fst_down.inc.php` | High
-6 | File | `/cgi-bin/login.cgi` | High
-7 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-8 | File | `/cgi-bin/R14.2/log.pl` | High
-9 | File | `/componetns/user/class.user.php` | High
-10 | File | `/etc/tomcat8/Catalina/attack` | High
-11 | File | `/FormLogin` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/wizard_end` | High
-14 | File | `/ims/login.php` | High
-15 | File | `/mhds/clinic/view_details.php` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/out.php` | Medium
-18 | File | `/plugin` | Low
-19 | File | `/rest/api/latest/projectvalidate/key` | High
-20 | File | `/ServletAPI/accounts/login` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-23 | File | `/var/log/messages` | High
-24 | File | `/var/www/core/controller/index.php` | High
-25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-26 | File | `/websocket/exec` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | ... | ... | ...
+1 | File | `/Admin/add-student.php` | High
+2 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+3 | File | `/advanced-tools/nova/bin/netwatch` | High
+4 | File | `/aya/module/admin/fst_down.inc.php` | High
+5 | File | `/boat/login.php` | High
+6 | File | `/bsms_ci/index.php/user/edit_user/` | High
+7 | File | `/cgi-bin/login.cgi` | High
+8 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+9 | File | `/cgi-bin/R14.2/log.pl` | High
+10 | File | `/componetns/user/class.user.php` | High
+11 | File | `/etc/tomcat8/Catalina/attack` | High
+12 | File | `/FormLogin` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/wizard_end` | High
+15 | File | `/ims/login.php` | High
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/out.php` | Medium
+19 | File | `/php-opos/index.php` | High
+20 | File | `/plugin` | Low
+21 | File | `/rest/api/latest/projectvalidate/key` | High
+22 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+23 | File | `/ServletAPI/accounts/login` | High
+24 | File | `/tourism/rate_review.php` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+27 | File | `/var/log/messages` | High
+28 | File | `/var/www/core/controller/index.php` | High
+29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+30 | File | `/websocket/exec` | High
+31 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

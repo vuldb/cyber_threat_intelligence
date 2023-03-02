@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -529,7 +529,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -545,41 +546,43 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/subnets/ripe-query.php` | High
 5 | File | `/appliance/users?action=edit` | High
 6 | File | `/attachments` | Medium
-7 | File | `/bsms_ci/index.php/book` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-11 | File | `/etc/hosts` | Medium
-12 | File | `/etc/ldap.conf` | High
-13 | File | `/etc/quagga` | Medium
-14 | File | `/etc/shadow` | Medium
-15 | File | `/event/admin/?page=user/list` | High
-16 | File | `/foms/place-order.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/h/calendar` | Medium
-20 | File | `/hardware` | Medium
-21 | File | `/index.php` | Medium
-22 | File | `/medicines/profile.php` | High
-23 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-24 | File | `/nova/bin/detnet` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/out.php` | Medium
-27 | File | `/php-sms/classes/Master.php` | High
-28 | File | `/php-sms/classes/SystemSettings.php` | High
-29 | File | `/proxy` | Low
-30 | File | `/spip.php` | Medium
-31 | File | `/tmp` | Low
-32 | File | `/uncpath/` | Medium
-33 | File | `/user/loader.php?api=1` | High
-34 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
+7 | File | `/backup.pl` | Medium
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+12 | File | `/etc/hosts` | Medium
+13 | File | `/etc/ldap.conf` | High
+14 | File | `/etc/quagga` | Medium
+15 | File | `/etc/shadow` | Medium
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/foms/place-order.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/h/calendar` | Medium
+21 | File | `/hardware` | Medium
+22 | File | `/index.php` | Medium
+23 | File | `/medicines/profile.php` | High
+24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+25 | File | `/out.php` | Medium
+26 | File | `/php-scrm/login.php` | High
+27 | File | `/proxy` | Low
+28 | File | `/spip.php` | Medium
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/user/loader.php?api=1` | High
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/video-sharing-script/watch-video.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `action.php` | Medium
 36 | File | `ActivityRecord.java` | High
 37 | File | `adclick.php` | Medium
 38 | File | `add-patient.php` | High
-39 | ... | ... | ...
+39 | File | `adm.cgi` | Low
+40 | File | `admin.php` | Medium
+41 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

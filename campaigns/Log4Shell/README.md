@@ -116,38 +116,39 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/ajax.php?action=delete_user` | High
 3 | File | `/app/dao/CustomerDAO.php` | High
 4 | File | `/apply.cgi` | Medium
-5 | File | `/config/api/v1/reboot` | High
-6 | File | `/etc/shadow` | Medium
-7 | File | `/food` | Low
-8 | File | `/forum/away.php` | High
-9 | File | `/forum/PostPrivateMessage` | High
-10 | File | `/forums.php?action=post` | High
-11 | File | `/fos/admin/ajax.php?action=login` | High
-12 | File | `/fos/admin/index.php?page=menu` | High
-13 | File | `/hss/admin/?page=client/manage_client` | High
-14 | File | `/hss/classes/Users.php?f=delete` | High
-15 | File | `/index/user/user_edit.html` | High
-16 | File | `/login/index.php` | High
-17 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-18 | File | `/param.file.tgz` | High
-19 | File | `/rest/api/2/user/picker` | High
-20 | File | `/royal_event/userregister.php` | High
-21 | File | `/rrdp` | Low
-22 | File | `/setNTP.cgi` | Medium
-23 | File | `/tpts/manage_user.php` | High
-24 | File | `/u/username.json` | High
-25 | File | `/user/s.php` | Medium
-26 | File | `/user/updatePwd` | High
-27 | File | `/usr/etc/restore0.9` | High
-28 | File | `/VerAyari` | Medium
-29 | File | `/wireless/guestnetwork.asp` | High
-30 | File | `01article.php` | High
-31 | File | `acl.c` | Low
-32 | File | `add-locker-form.php` | High
-33 | File | `add_contestant.php` | High
-34 | ... | ... | ...
+5 | File | `/cgi-bin/mainfunction.cgi` | High
+6 | File | `/config/api/v1/reboot` | High
+7 | File | `/etc/shadow` | Medium
+8 | File | `/food` | Low
+9 | File | `/forum/away.php` | High
+10 | File | `/forum/PostPrivateMessage` | High
+11 | File | `/forums.php?action=post` | High
+12 | File | `/fos/admin/ajax.php?action=login` | High
+13 | File | `/fos/admin/index.php?page=menu` | High
+14 | File | `/hss/admin/?page=client/manage_client` | High
+15 | File | `/hss/classes/Users.php?f=delete` | High
+16 | File | `/index/user/user_edit.html` | High
+17 | File | `/login/index.php` | High
+18 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+19 | File | `/param.file.tgz` | High
+20 | File | `/rest/api/2/user/picker` | High
+21 | File | `/royal_event/userregister.php` | High
+22 | File | `/rrdp` | Low
+23 | File | `/setNTP.cgi` | Medium
+24 | File | `/tpts/manage_user.php` | High
+25 | File | `/u/username.json` | High
+26 | File | `/user/s.php` | Medium
+27 | File | `/user/updatePwd` | High
+28 | File | `/usr/etc/restore0.9` | High
+29 | File | `/VerAyari` | Medium
+30 | File | `/wireless/guestnetwork.asp` | High
+31 | File | `01article.php` | High
+32 | File | `acl.c` | Low
+33 | File | `add-locker-form.php` | High
+34 | File | `add_contestant.php` | High
+35 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

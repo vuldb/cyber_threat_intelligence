@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,21 +54,22 @@ ID | Type | Indicator | Confidence
 4 | File | `/ecrire` | Low
 5 | File | `/forum/away.php` | High
 6 | File | `/getcfg.php` | Medium
-7 | File | `/proc/ioports` | High
-8 | File | `/services/details.asp` | High
-9 | File | `/tmp` | Low
-10 | File | `/uncpath/` | Medium
-11 | File | `/Upload.ashx` | Medium
-12 | File | `/var/tmp/sess_*` | High
-13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-14 | File | `activateuser.aspx` | High
-15 | File | `adclick.php` | Medium
-16 | File | `admin/killsource` | High
-17 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
-18 | File | `auth-gss2.c` | Medium
-19 | ... | ... | ...
+7 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/proc/ioports` | High
+10 | File | `/services/details.asp` | High
+11 | File | `/tmp` | Low
+12 | File | `/uncpath/` | Medium
+13 | File | `/Upload.ashx` | Medium
+14 | File | `/var/tmp/sess_*` | High
+15 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+16 | File | `activateuser.aspx` | High
+17 | File | `adclick.php` | Medium
+18 | File | `admin/killsource` | High
+19 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
+20 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

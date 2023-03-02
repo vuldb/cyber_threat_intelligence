@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -165,7 +165,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -177,64 +177,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.php.gif` | Medium
-2 | File | `/admin/admapi.php` | High
+2 | File | `/admin/` | Low
 3 | File | `/Admin/login.php` | High
 4 | File | `/admin/submit-articles` | High
 5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/coreframe/app/order/admin/index.php` | High
-9 | File | `/cwms/classes/Master.php?f=save_contact` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/employeeview.php` | High
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/event/admin/?page=user/list` | High
-14 | File | `/export` | Low
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/forum/PostPrivateMessage` | High
-18 | File | `/hrm/controller/employee.php` | High
-19 | File | `/hrm/employeeadd.php` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/inc/extensions.php` | High
-22 | File | `/index.php` | Medium
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/KeepAlive.jsp` | High
-25 | File | `/member/index/login.html` | High
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-29 | File | `/phppath/php` | Medium
-30 | File | `/php_action/editProductImage.php` | High
-31 | File | `/product/savenewproduct.php?flag=1` | High
-32 | File | `/products/details.asp` | High
-33 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-34 | File | `/rest/api/1.0/render` | High
-35 | File | `/secure/admin/RestoreDefaults.jspa` | High
-36 | File | `/secure/EditSubscription.jspa` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/services/Card/findUser` | High
-39 | File | `/services/details.asp` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/uncpath/` | Medium
-42 | File | `/usr/bin/pkexec` | High
-43 | File | `/usr/local/www/pkg.php` | High
-44 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-45 | File | `/view-property.php` | High
-46 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-47 | File | `/wp-json` | Medium
-48 | File | `4.edu.php` | Medium
-49 | File | `adclick.php` | Medium
-50 | File | `add.exe` | Low
-51 | File | `admin.php` | Medium
-52 | File | `admin/adminlien.php3` | High
-53 | File | `admin/conf_users_edit.php` | High
-54 | File | `admin/index.php` | High
-55 | File | `admin/login.php` | High
-56 | File | `admin/panels/uploader/admin.uploader.php` | High
-57 | ... | ... | ...
+6 | File | `/coreframe/app/order/admin/index.php` | High
+7 | File | `/cwms/classes/Master.php?f=save_contact` | High
+8 | File | `/Default/Bd` | Medium
+9 | File | `/employeeview.php` | High
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/event/admin/?page=user/list` | High
+12 | File | `/export` | Low
+13 | File | `/filemanager/php/connector.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/hrm/controller/employee.php` | High
+17 | File | `/hrm/employeeadd.php` | High
+18 | File | `/hrm/employeeview.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/Items/*/RemoteImages/Download` | High
+21 | File | `/KeepAlive.jsp` | High
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+24 | File | `/pages/apply_vacancy.php` | High
+25 | File | `/php-scrm/login.php` | High
+26 | File | `/php_action/editProductImage.php` | High
+27 | File | `/product/savenewproduct.php?flag=1` | High
+28 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+29 | File | `/secure/admin/RestoreDefaults.jspa` | High
+30 | File | `/secure/EditSubscription.jspa` | High
+31 | File | `/services/Card/findUser` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/uncpath/` | Medium
+34 | File | `/usr/bin/pkexec` | High
+35 | File | `/usr/local/www/pkg.php` | High
+36 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
+37 | File | `/view-property.php` | High
+38 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+39 | File | `/wp-json` | Medium
+40 | File | `account-signup.php` | High
+41 | File | `action.php` | Medium
+42 | File | `adclick.php` | Medium
+43 | File | `addentry.php` | Medium
+44 | ... | ... | ...
 
-There are 500 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

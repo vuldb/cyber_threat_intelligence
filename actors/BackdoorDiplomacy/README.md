@@ -75,40 +75,39 @@ ID | Type | Indicator | Confidence
 16 | File | `/ctcprotocol/Protocol` | High
 17 | File | `/dashboard/menu-list.php` | High
 18 | File | `/data/remove` | Medium
-19 | File | `/ffos/classes/Master.php?f=save_category` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goforms/rlminfo` | High
-22 | File | `/index.php/newsletter/subscriber/new/` | High
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/login` | Low
-25 | File | `/menu.html` | Medium
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/navigate/navigate_download.php` | High
-28 | File | `/ocwbs/admin/?page=user/manage_user` | High
-29 | File | `/ofrs/admin/?page=user/manage_user` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/password.html` | High
-33 | File | `/php_action/fetchSelectedUser.php` | High
-34 | File | `/proc/ioports` | High
-35 | File | `/property-list/property_view.php` | High
-36 | File | `/ptms/classes/Users.php` | High
-37 | File | `/resources//../` | High
-38 | File | `/rest/api/2/search` | High
-39 | File | `/s/` | Low
-40 | File | `/scripts/cpan_config` | High
-41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-42 | File | `/services/system/setup.json` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/sys/dict/queryTableData` | High
-45 | File | `/tmp` | Low
-46 | File | `/uncpath/` | Medium
-47 | File | `/vloggers_merch/?p=view_product` | High
-48 | File | `/webconsole/APIController` | High
-49 | File | `/websocket/exec` | High
-50 | ... | ... | ...
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/ffos/classes/Master.php?f=save_category` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/index.php/newsletter/subscriber/new/` | High
+24 | File | `/Items/*/RemoteImages/Download` | High
+25 | File | `/login` | Low
+26 | File | `/menu.html` | Medium
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/navigate/navigate_download.php` | High
+29 | File | `/ocwbs/admin/?page=user/manage_user` | High
+30 | File | `/ofrs/admin/?page=user/manage_user` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/password.html` | High
+34 | File | `/php_action/fetchSelectedUser.php` | High
+35 | File | `/proc/ioports` | High
+36 | File | `/property-list/property_view.php` | High
+37 | File | `/ptms/classes/Users.php` | High
+38 | File | `/resources//../` | High
+39 | File | `/rest/api/2/search` | High
+40 | File | `/s/` | Low
+41 | File | `/scripts/cpan_config` | High
+42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+43 | File | `/services/system/setup.json` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/sys/dict/queryTableData` | High
+46 | File | `/tmp` | Low
+47 | File | `/uncpath/` | Medium
+48 | File | `/vloggers_merch/?p=view_product` | High
+49 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

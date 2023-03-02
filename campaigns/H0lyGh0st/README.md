@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,39 +66,39 @@ ID | Type | Indicator | Confidence
 10 | File | `/config/getuser` | High
 11 | File | `/dashboard/contact` | High
 12 | File | `/debug/pprof` | Medium
-13 | File | `/dev/bus` | Medium
-14 | File | `/example/editor` | High
-15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/index` | Low
-19 | File | `/iu-application/controllers/administration/auth.php` | High
-20 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
-21 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
-23 | File | `/module/module_frame/index.php` | High
-24 | File | `/music/ajax.php` | High
-25 | File | `/northstar/Admin/changePassword.jsp` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/orms/` | Low
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/sre/params.php` | High
-31 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-32 | File | `/tmp` | Low
-33 | File | `/tmp/xbindkeysrc-tmp` | High
-34 | File | `/user/upload/upload` | High
-35 | File | `/Users` | Low
-36 | File | `/var/spool/hylafax` | High
-37 | File | `/vendor` | Low
-38 | File | `/whbs/?page=my_bookings` | High
-39 | File | `access_rules/rules_form` | High
-40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-41 | File | `action/addproject.php` | High
-42 | File | `adclick.php` | Medium
+13 | File | `/example/editor` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/HNAP1` | Low
+17 | File | `/index` | Low
+18 | File | `/iu-application/controllers/administration/auth.php` | High
+19 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+20 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+21 | File | `/leave_system/classes/Master.php?f=delete_department` | High
+22 | File | `/module/module_frame/index.php` | High
+23 | File | `/music/ajax.php` | High
+24 | File | `/northstar/Admin/changePassword.jsp` | High
+25 | File | `/obs/book.php` | High
+26 | File | `/orms/` | Low
+27 | File | `/ossn/administrator/com_installer` | High
+28 | File | `/pms/update_user.php?user_id=1` | High
+29 | File | `/sre/params.php` | High
+30 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+31 | File | `/tmp` | Low
+32 | File | `/tmp/xbindkeysrc-tmp` | High
+33 | File | `/user/upload/upload` | High
+34 | File | `/Users` | Low
+35 | File | `/var/spool/hylafax` | High
+36 | File | `/vendor` | Low
+37 | File | `/whbs/?page=my_bookings` | High
+38 | File | `access_rules/rules_form` | High
+39 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+40 | File | `action/addproject.php` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add_contestant.php` | High
 43 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

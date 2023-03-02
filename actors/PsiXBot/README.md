@@ -105,11 +105,9 @@ ID | Type | Indicator | Confidence
 43 | File | `/uncpath/` | Medium
 44 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 45 | File | `/usr/syno/etc/mount.conf` | High
-46 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-47 | File | `/WEB-INF/web.xml` | High
-48 | ... | ... | ...
+46 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

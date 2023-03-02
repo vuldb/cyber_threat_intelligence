@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -50,36 +50,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/admin/showbad.php` | High
-12 | File | `/admin_page/all-files-update-ajax.php` | High
+2 | File | `/Admin/add-student.php` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/conferences/list/` | High
+5 | File | `/admin/edit_admin_details.php?id=admin` | High
+6 | File | `/admin/generalsettings.php` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/reports.php` | High
+10 | File | `/admin/showbad.php` | High
+11 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+12 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 13 | File | `/apilog.php` | Medium
-14 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/bin/httpd` | Medium
 15 | File | `/cgi-bin/wlogin.cgi` | High
 16 | File | `/connectors/index.php` | High
 17 | File | `/dev/block/mmcblk0rpmb` | High
-18 | File | `/dms/admin/reports/daily_collection_report.php` | High
-19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-20 | File | `/face-recognition-php/facepay-master/camera.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/hrm/employeeadd.php` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/index.php` | Medium
-25 | File | `/info.cgi` | Medium
-26 | File | `/Items/*/RemoteImages/Download` | High
-27 | File | `/items/view_item.php` | High
-28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/lists/admin/` | High
-30 | File | `/lookin/info` | Medium
-31 | File | `/MagickCore/image.c` | High
+18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+19 | File | `/face-recognition-php/facepay-master/camera.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/fos/admin/ajax.php?action=login` | High
+22 | File | `/fos/admin/index.php?page=menu` | High
+23 | File | `/home/masterConsole` | High
+24 | File | `/home/sendBroadcast` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/items/view_item.php` | High
+30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+31 | File | `/lookin/info` | Medium
 32 | File | `/manager/index.php` | High
 33 | File | `/medical/inventories.php` | High
 34 | File | `/modules/profile/index.php` | High
@@ -87,31 +87,31 @@ ID | Type | Indicator | Confidence
 36 | File | `/modules/public/calendar.php` | High
 37 | File | `/newsDia.php` | Medium
 38 | File | `/out.php` | Medium
-39 | File | `/proxy` | Low
-40 | File | `/public/launchNewWindow.jsp` | High
-41 | File | `/Redcock-Farm/farm/category.php` | High
-42 | File | `/reports/rwservlet` | High
-43 | File | `/sacco_shield/manage_user.php` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-46 | File | `/staff/bookdetails.php` | High
-47 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-48 | File | `/user/update_booking.php` | High
-49 | File | `/WEB-INF/web.xml` | High
-50 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-51 | File | `/Wedding-Management/package_detail.php` | High
-52 | File | `/wordpress/wp-admin/options-general.php` | High
-53 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-54 | File | `a2billing/customer/iridium_threed.php` | High
-55 | File | `AbstractScheduleJob.java` | High
-56 | File | `actionphp/download.File.php` | High
-57 | File | `AdClass.php` | Medium
-58 | File | `adclick.php` | Medium
-59 | File | `addtocart.asp` | High
-60 | File | `admin.php` | Medium
+39 | File | `/php-opos/index.php` | High
+40 | File | `/proxy` | Low
+41 | File | `/public/launchNewWindow.jsp` | High
+42 | File | `/Redcock-Farm/farm/category.php` | High
+43 | File | `/reports/rwservlet` | High
+44 | File | `/sacco_shield/manage_user.php` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+47 | File | `/staff/bookdetails.php` | High
+48 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
+49 | File | `/uncpath/` | Medium
+50 | File | `/user/update_booking.php` | High
+51 | File | `/WEB-INF/web.xml` | High
+52 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+53 | File | `/wireless/security.asp` | High
+54 | File | `/wordpress/wp-admin/options-general.php` | High
+55 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+56 | File | `01article.php` | High
+57 | File | `AbstractScheduleJob.java` | High
+58 | File | `actionphp/download.File.php` | High
+59 | File | `AdClass.php` | Medium
+60 | File | `adclick.php` | Medium
 61 | ... | ... | ...
 
-There are 531 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 536 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
