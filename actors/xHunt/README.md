@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 35 more country items available. Please use our online service to access the data.
+There are 36 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,55 +61,58 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
 2 | File | `.procmailrc` | Medium
-3 | File | `/admin/` | Low
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/communitymanagement.php` | High
-6 | File | `/admin/edit.php` | High
-7 | File | `/admin/extended` | High
-8 | File | `/admin/featured.php` | High
-9 | File | `/admin/generalsettings.php` | High
-10 | File | `/admin/index.PHP` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/newsletter1.php` | High
-13 | File | `/admin/payment.php` | High
-14 | File | `/admin/renewaldue.php` | High
-15 | File | `/admin/students/manage.php` | High
-16 | File | `/admin/students/view_student.php` | High
-17 | File | `/admin/usermanagement.php` | High
-18 | File | `/api/addusers` | High
-19 | File | `/api/user/upsert/<uuid>` | High
-20 | File | `/appliance/users?action=edit` | High
-21 | File | `/bits/stl_vector.h` | High
-22 | File | `/bsms_ci/index.php` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/common/info.cgi` | High
-25 | File | `/dashboard/add-portfolio.php` | High
-26 | File | `/dashboard/updatelogo.php` | High
-27 | File | `/designer/add/layout` | High
-28 | File | `/etc/gsissh/sshd_config` | High
-29 | File | `/etc/ldap.conf` | High
-30 | File | `/etc/shadow` | Medium
-31 | File | `/face-recognition-php/facepay-master/camera.php` | High
-32 | File | `/filemanager/upload/drop` | High
-33 | File | `/foms/place-order.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/getImage` | Medium
-36 | File | `/goform/wizard_end` | High
-37 | File | `/h/calendar` | Medium
-38 | File | `/h/compose` | Medium
-39 | File | `/h/search?action=voicemail&action=listen` | High
-40 | File | `/hrm/employeeview.php` | High
-41 | File | `/htmldoc/htmldoc/html.cxx` | High
-42 | File | `/index.php` | Medium
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/login.php` | Medium
-45 | File | `/loginVaLidation.php` | High
-46 | File | `/manage-apartment.php` | High
-47 | File | `/manager/index.php` | High
-48 | File | `/mcategory.php` | High
-49 | ... | ... | ...
+3 | File | `//proc/kcore` | Medium
+4 | File | `/admin/` | Low
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/communitymanagement.php` | High
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/extended` | High
+9 | File | `/admin/featured.php` | High
+10 | File | `/admin/generalsettings.php` | High
+11 | File | `/admin/index.PHP` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/renewaldue.php` | High
+16 | File | `/admin/students/manage.php` | High
+17 | File | `/admin/students/view_student.php` | High
+18 | File | `/admin/usermanagement.php` | High
+19 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+20 | File | `/api/addusers` | High
+21 | File | `/api/user/upsert/<uuid>` | High
+22 | File | `/appliance/users?action=edit` | High
+23 | File | `/backup.pl` | Medium
+24 | File | `/bits/stl_vector.h` | High
+25 | File | `/bsms_ci/index.php` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/dashboard/add-portfolio.php` | High
+28 | File | `/dashboard/updatelogo.php` | High
+29 | File | `/designer/add/layout` | High
+30 | File | `/etc/gsissh/sshd_config` | High
+31 | File | `/etc/ldap.conf` | High
+32 | File | `/etc/shadow` | Medium
+33 | File | `/face-recognition-php/facepay-master/camera.php` | High
+34 | File | `/filemanager/upload/drop` | High
+35 | File | `/foms/place-order.php` | High
+36 | File | `/forum/away.php` | High
+37 | File | `/getImage` | Medium
+38 | File | `/goform/wizard_end` | High
+39 | File | `/h/calendar` | Medium
+40 | File | `/h/compose` | Medium
+41 | File | `/h/search?action=voicemail&action=listen` | High
+42 | File | `/hrm/employeeview.php` | High
+43 | File | `/htmldoc/htmldoc/html.cxx` | High
+44 | File | `/index.php` | Medium
+45 | File | `/librarian/bookdetails.php` | High
+46 | File | `/login.php` | Medium
+47 | File | `/loginVaLidation.php` | High
+48 | File | `/manage-apartment.php` | High
+49 | File | `/manager/index.php` | High
+50 | File | `/mcategory.php` | High
+51 | File | `/mkshop/Men/profile.php` | High
+52 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

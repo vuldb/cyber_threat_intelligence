@@ -74,7 +74,7 @@ ID | Type | Indicator | Confidence
 13 | File | `bb_usage_stats.php` | High
 14 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

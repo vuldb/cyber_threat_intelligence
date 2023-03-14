@@ -233,14 +233,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -249,43 +249,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?ajax-request=jnews` | High
-2 | File | `/admin/conferences/list/` | High
-3 | File | `/Admin/dashboard.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/api/audits` | Medium
-6 | File | `/api/sys_username_passwd.cmd` | High
-7 | File | `/attachments` | Medium
-8 | File | `/bsms_ci/index.php` | High
-9 | File | `/bsms_ci/index.php/book` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/diag_ping_admin.asp` | High
-12 | File | `/diag_tracert_admin.asp` | High
-13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-14 | File | `/edit-db.php` | Medium
-15 | File | `/env` | Low
-16 | File | `/etc/hosts` | Medium
-17 | File | `/etc/quagga` | Medium
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/FreshRSS/p/ext.php` | High
-21 | File | `/goform/CertListInfo` | High
-22 | File | `/goform/fast_setting_wifi_set` | High
-23 | File | `/goform/L7Im` | Medium
-24 | File | `/goform/NatStaticSetting` | High
-25 | File | `/goform/SafeClientFilter` | High
-26 | File | `/goform/SafeMacFilter` | High
-27 | File | `/goform/SafeUrlFilter` | High
-28 | File | `/goform/setMacFilterCfg` | High
-29 | File | `/goform/SysToolReboot` | High
-30 | File | `/goform/SysToolRestoreSet` | High
-31 | File | `/goform/VirtualSer` | High
-32 | File | `/gpac/src/bifs/unquantize.c` | High
-33 | File | `/hardware` | Medium
-34 | File | `/horde/util/go.php` | High
-35 | File | `/index/user/user_edit.html` | High
-36 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/conferences/list/` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/api/audits` | Medium
+11 | File | `/api/sys_username_passwd.cmd` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/attachments` | Medium
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php` | High
+16 | File | `/bsms_ci/index.php/book` | High
+17 | File | `/bsms_ci/index.php/user/edit_user/` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+20 | File | `/env` | Low
+21 | File | `/etc/hosts` | Medium
+22 | File | `/etc/quagga` | Medium
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/FreshRSS/p/ext.php` | High
+26 | File | `/goform/CertListInfo` | High
+27 | File | `/goform/fast_setting_wifi_set` | High
+28 | File | `/goform/L7Im` | Medium
+29 | File | `/goform/NatStaticSetting` | High
+30 | File | `/goform/SafeClientFilter` | High
+31 | File | `/goform/SafeMacFilter` | High
+32 | File | `/goform/SafeUrlFilter` | High
+33 | File | `/goform/setMacFilterCfg` | High
+34 | File | `/goform/SysToolReboot` | High
+35 | File | `/goform/SysToolRestoreSet` | High
+36 | File | `/goform/VirtualSer` | High
+37 | ... | ... | ...
 
-There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

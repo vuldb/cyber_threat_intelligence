@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 35 | File | `admin/booking_report.php` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

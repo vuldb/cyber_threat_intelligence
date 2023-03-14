@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 35 more country items available. Please use our online service to access the data.
+There are 29 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,12 +54,17 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [37.48.80.173](https://vuldb.com/?ip.37.48.80.173) | - | - | High
 26 | [37.139.64.106](https://vuldb.com/?ip.37.139.64.106) | - | - | High
 27 | [39.108.116.125](https://vuldb.com/?ip.39.108.116.125) | - | - | High
-28 | [45.144.225.219](https://vuldb.com/?ip.45.144.225.219) | - | - | High
-29 | [45.224.128.33](https://vuldb.com/?ip.45.224.128.33) | gunnar.servidor.net.br | - | High
-30 | [46.244.18.141](https://vuldb.com/?ip.46.244.18.141) | 141-18-244-46.a2b-internet.com | - | High
-31 | ... | ... | ... | ...
+28 | [45.10.154.55](https://vuldb.com/?ip.45.10.154.55) | vmi1037505.contaboserver.net | - | High
+29 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+30 | [45.144.225.219](https://vuldb.com/?ip.45.144.225.219) | - | - | High
+31 | [45.207.92.23](https://vuldb.com/?ip.45.207.92.23) | - | - | High
+32 | [45.224.128.33](https://vuldb.com/?ip.45.224.128.33) | gunnar.servidor.net.br | - | High
+33 | [46.244.18.141](https://vuldb.com/?ip.46.244.18.141) | 141-18-244-46.a2b-internet.com | - | High
+34 | [46.246.126.193](https://vuldb.com/?ip.46.246.126.193) | 193-126-246-46.static.edis.at | - | High
+35 | [50.87.196.120](https://vuldb.com/?ip.50.87.196.120) | box2348.bluehost.com | - | High
+36 | ... | ... | ... | ...
 
-There are 122 more IOC items available. Please use our online service to access the data.
+There are 140 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,15 +72,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -86,57 +90,60 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `.../gogo/` | Medium
 3 | File | `.procmailrc` | Medium
-4 | File | `/../../conf/template/uhttpd.json` | High
-5 | File | `/admin/` | Low
-6 | File | `/admin/communitymanagement.php` | High
-7 | File | `/admin/contenttemp` | High
-8 | File | `/admin/extended` | High
-9 | File | `/admin/featured.php` | High
-10 | File | `/admin/generalsettings.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/modules/system/custom_field.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/students/manage.php` | High
-16 | File | `/admin/students/view_student.php` | High
-17 | File | `/admin/usermanagement.php` | High
-18 | File | `/api/addusers` | High
-19 | File | `/api/crontab` | Medium
-20 | File | `/api/RecordingList/DownloadRecord?file=` | High
-21 | File | `/api/user/upsert/<uuid>` | High
-22 | File | `/appliance/users?action=edit` | High
-23 | File | `/bin/boa` | Medium
-24 | File | `/cgi-bin/wapopen` | High
-25 | File | `/cgi-bin/webviewer_login_page` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/cgi-mod/lookup.cgi` | High
-28 | File | `/dashboard/updatelogo.php` | High
-29 | File | `/designer/add/layout` | High
-30 | File | `/etc/ldap.conf` | High
-31 | File | `/etc/shadow` | Medium
-32 | File | `/etc/sudoers` | Medium
-33 | File | `/export` | Low
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/h/calendar` | Medium
-36 | File | `/h/compose` | Medium
-37 | File | `/h/search?action=voicemail&action=listen` | High
-38 | File | `/iissamples` | Medium
-39 | File | `/index.php` | Medium
-40 | File | `/librarian/bookdetails.php` | High
-41 | File | `/login` | Low
-42 | File | `/loginVaLidation.php` | High
-43 | File | `/manage-apartment.php` | High
-44 | File | `/manager/index.php` | High
-45 | File | `/mkshop/Men/profile.php` | High
-46 | File | `/Noxen-master/users.php` | High
-47 | File | `/opac/Actions.php?a=login` | High
-48 | File | `/pages/animals.php` | High
-49 | File | `/php-sms/classes/Master.php` | High
-50 | File | `/php-sms/classes/SystemSettings.php` | High
-51 | File | `/php_action/createOrder.php` | High
-52 | ... | ... | ...
+4 | File | `//proc/kcore` | Medium
+5 | File | `/admin.php/Admin/adminadd.html` | High
+6 | File | `/admin/` | Low
+7 | File | `/Admin/add-student.php` | High
+8 | File | `/admin/communitymanagement.php` | High
+9 | File | `/admin/contenttemp` | High
+10 | File | `/admin/extended` | High
+11 | File | `/admin/featured.php` | High
+12 | File | `/admin/generalsettings.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/modules/system/custom_field.php` | High
+15 | File | `/admin/newsletter1.php` | High
+16 | File | `/admin/payment.php` | High
+17 | File | `/admin/settings/save.php` | High
+18 | File | `/admin/students/manage.php` | High
+19 | File | `/admin/students/view_student.php` | High
+20 | File | `/admin/usermanagement.php` | High
+21 | File | `/api/addusers` | High
+22 | File | `/api/crontab` | Medium
+23 | File | `/api/RecordingList/DownloadRecord?file=` | High
+24 | File | `/api/user/upsert/<uuid>` | High
+25 | File | `/appliance/users?action=edit` | High
+26 | File | `/apply.cgi` | Medium
+27 | File | `/backup.pl` | Medium
+28 | File | `/cgi-bin/wapopen` | High
+29 | File | `/cgi-bin/webviewer_login_page` | High
+30 | File | `/cgi-bin/wlogin.cgi` | High
+31 | File | `/cgi-mod/lookup.cgi` | High
+32 | File | `/dashboard/updatelogo.php` | High
+33 | File | `/designer/add/layout` | High
+34 | File | `/edoc/doctor/patient.php` | High
+35 | File | `/etc/ldap.conf` | High
+36 | File | `/etc/shadow` | Medium
+37 | File | `/filemanager/upload/drop` | High
+38 | File | `/goform/addUserName` | High
+39 | File | `/goform/delAd` | High
+40 | File | `/goform/wifiSSIDset` | High
+41 | File | `/gpac/src/bifs/unquantize.c` | High
+42 | File | `/h/calendar` | Medium
+43 | File | `/h/compose` | Medium
+44 | File | `/h/search?action=voicemail&action=listen` | High
+45 | File | `/index.asp` | Medium
+46 | File | `/index.php` | Medium
+47 | File | `/jfinal_cms/system/role/list` | High
+48 | File | `/librarian/bookdetails.php` | High
+49 | File | `/loginVaLidation.php` | High
+50 | File | `/manage-apartment.php` | High
+51 | File | `/manager/index.php` | High
+52 | File | `/mkshop/Men/profile.php` | High
+53 | File | `/Moosikay/order.php` | High
+54 | File | `/Noxen-master/users.php` | High
+55 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -163,6 +170,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
+* https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://unit42.paloaltonetworks.jp/guloader-installing-netwire-rat/
 * https://www.mandiant.com/resources/dissecting-netwire-phishing-campaigns-usage-process-hollowing
 

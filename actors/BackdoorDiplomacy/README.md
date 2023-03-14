@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -79,9 +79,9 @@ ID | Type | Indicator | Confidence
 20 | File | `/ffos/classes/Master.php?f=save_category` | High
 21 | File | `/forum/away.php` | High
 22 | File | `/goforms/rlminfo` | High
-23 | File | `/index.php/newsletter/subscriber/new/` | High
-24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/login` | Low
+23 | File | `/HNAP1/SetClientInfo` | High
+24 | File | `/index.php/newsletter/subscriber/new/` | High
+25 | File | `/Items/*/RemoteImages/Download` | High
 26 | File | `/menu.html` | Medium
 27 | File | `/mkshop/Men/profile.php` | High
 28 | File | `/navigate/navigate_download.php` | High
@@ -104,15 +104,15 @@ ID | Type | Indicator | Confidence
 45 | File | `/sys/dict/queryTableData` | High
 46 | File | `/tmp` | Low
 47 | File | `/uncpath/` | Medium
-48 | File | `/vloggers_merch/?p=view_product` | High
-49 | ... | ... | ...
+48 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/eset/malware-ioc/tree/master/backdoordiplomacy
 * https://www.bitdefender.com/files/News/CaseStudies/study/426/Bitdefender-PR-Whitepaper-BackdoorDiplomacy-creat6507-en-EN.pdf
 * https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/
 

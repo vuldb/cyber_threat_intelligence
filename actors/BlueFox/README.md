@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +49,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/index.php` | Medium
 2 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-3 | File | `addtocart.asp` | High
-4 | File | `admin/adm/test.php` | High
-5 | File | `agora.cgi` | Medium
-6 | File | `books.php` | Medium
-7 | File | `cat.asp` | Low
-8 | File | `catalog.php` | Medium
-9 | File | `categories.php` | High
-10 | File | `default.php` | Medium
-11 | File | `detail.php` | Medium
+3 | File | `adclick.php` | Medium
+4 | File | `addtocart.asp` | High
+5 | File | `admin/adm/test.php` | High
+6 | File | `agora.cgi` | Medium
+7 | File | `books.php` | Medium
+8 | File | `cat.asp` | Low
+9 | File | `catalog.php` | Medium
+10 | File | `categories.php` | High
+11 | File | `default.php` | Medium
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 91 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,27 +97,25 @@ ID | Type | Indicator | Confidence
 36 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
 37 | File | `/isomedia/box_funcs.c` | High
 38 | File | `/isomedia/meta.c` | High
-39 | File | `/members/view_member.php` | High
-40 | File | `/pages/animals.php` | High
-41 | File | `/pages/apply_vacancy.php` | High
-42 | File | `/php-sms/admin/?page=services/manage_service` | High
-43 | File | `/php_action/editProductImage.php` | High
-44 | File | `/plesk-site-preview/` | High
-45 | File | `/project/PROJECTNAME/reports/` | High
-46 | File | `/sacco_shield/manage_loan.php` | High
-47 | File | `/scene_manager/scene_dump.c` | High
-48 | File | `/school/model/get_admin_profile.php` | High
-49 | File | `/services/view_service.php` | High
-50 | File | `/shell` | Low
-51 | File | `/spip.php` | Medium
-52 | File | `/student-grading-system/rms.php?page=grade` | High
-53 | File | `/timeline2.php` | High
-54 | File | `/userui/ticket_list.php` | High
-55 | File | `/user_operations/profile.php` | High
-56 | File | `/usr/5bin/su` | Medium
-57 | ... | ... | ...
+39 | File | `/pages/animals.php` | High
+40 | File | `/pages/apply_vacancy.php` | High
+41 | File | `/php-sms/admin/?page=services/manage_service` | High
+42 | File | `/php_action/editProductImage.php` | High
+43 | File | `/plesk-site-preview/` | High
+44 | File | `/project/PROJECTNAME/reports/` | High
+45 | File | `/sacco_shield/manage_loan.php` | High
+46 | File | `/scene_manager/scene_dump.c` | High
+47 | File | `/school/model/get_admin_profile.php` | High
+48 | File | `/services/view_service.php` | High
+49 | File | `/shell` | Low
+50 | File | `/spip.php` | Medium
+51 | File | `/student-grading-system/rms.php?page=grade` | High
+52 | File | `/timeline2.php` | High
+53 | File | `/userui/ticket_list.php` | High
+54 | File | `/user_operations/profile.php` | High
+55 | ... | ... | ...
 
-There are 497 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

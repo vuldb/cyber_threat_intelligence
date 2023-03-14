@@ -77,7 +77,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,17 +87,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api` | Low
 2 | File | `/api/sys_username_passwd.cmd` | High
-3 | File | `/include/makecvs.php` | High
-4 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-5 | File | `/requests.php` | High
-6 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-7 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-8 | File | `add.php` | Low
-9 | File | `admin/admin.shtml` | High
-10 | File | `bpf-object-fuzzer.c` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/include/makecvs.php` | High
+5 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+6 | File | `/requests.php` | High
+7 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+8 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+9 | File | `add.php` | Low
+10 | File | `admin/admin.shtml` | High
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -91,8 +91,7 @@ ID | Type | Indicator | Confidence
 23 | File | `/var/log/nginx` | High
 24 | File | `/var/run/watchman.pid` | High
 25 | File | `/viewer/krpano.html` | High
-26 | File | `/wp-json/oembed/1.0/embed?url` | High
-27 | ... | ... | ...
+26 | ... | ... | ...
 
 There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

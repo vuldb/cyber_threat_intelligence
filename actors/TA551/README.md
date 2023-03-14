@@ -20,11 +20,11 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
 * [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
 * [FR](https://vuldb.com/?country.fr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,27 +99,27 @@ ID | Type | Indicator | Confidence
 26 | File | `actions.hsp` | Medium
 27 | File | `AddAppNetworksActivity.java` | High
 28 | File | `AddAppNetworksFragment.java` | High
-29 | File | `admin/ajax.attachment.php` | High
-30 | File | `admin/article_save.php` | High
-31 | File | `admin/make_payments.php` | High
-32 | File | `admin/panels/uploader/admin.uploader.php` | High
-33 | File | `admin/stat.main.php` | High
-34 | File | `aiff.c` | Low
-35 | File | `alaw.c` | Low
-36 | File | `Ap4StdCFileByteStream.cpp` | High
-37 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
-38 | File | `app/controllers/code_caller_controller.php` | High
-39 | File | `app/helpers/queries_helper.rb` | High
-40 | File | `app/View/Helper/CommandHelper.php` | High
-41 | File | `app/views/timelog/_list.html.erb` | High
-42 | File | `archive_read_support_format_lha.c` | High
-43 | File | `backend/comics/comics-document.c` | High
-44 | File | `bin/jp2/convert.c` | High
-45 | File | `bitmap/pcfread.c` | High
-46 | File | `CallLogProvider.java` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/ajax.attachment.php` | High
+31 | File | `admin/article_save.php` | High
+32 | File | `admin/make_payments.php` | High
+33 | File | `admin/panels/uploader/admin.uploader.php` | High
+34 | File | `admin/stat.main.php` | High
+35 | File | `aiff.c` | Low
+36 | File | `alaw.c` | Low
+37 | File | `Ap4StdCFileByteStream.cpp` | High
+38 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+39 | File | `app/controllers/code_caller_controller.php` | High
+40 | File | `app/helpers/queries_helper.rb` | High
+41 | File | `app/View/Helper/CommandHelper.php` | High
+42 | File | `app/views/timelog/_list.html.erb` | High
+43 | File | `archive_read_support_format_lha.c` | High
+44 | File | `backend/comics/comics-document.c` | High
+45 | File | `bin/jp2/convert.c` | High
+46 | File | `bitmap/pcfread.c` | High
 47 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

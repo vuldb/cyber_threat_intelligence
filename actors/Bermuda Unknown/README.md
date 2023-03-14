@@ -25,19 +25,22 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.62.58.36](https://vuldb.com/?ip.5.62.58.36) | r-36-58-62-5.consumer-pool.prcdn.net | - | High
 3 | [45.12.70.27](https://vuldb.com/?ip.45.12.70.27) | specious.get-eye.com | - | High
 4 | [45.12.71.27](https://vuldb.com/?ip.45.12.71.27) | - | - | High
-5 | [45.74.26.0](https://vuldb.com/?ip.45.74.26.0) | - | - | High
-6 | [64.37.32.0](https://vuldb.com/?ip.64.37.32.0) | - | - | High
-7 | [64.147.80.0](https://vuldb.com/?ip.64.147.80.0) | 64.147.80.0.transact.bm | - | High
-8 | [65.171.98.0](https://vuldb.com/?ip.65.171.98.0) | - | - | High
-9 | [66.55.112.0](https://vuldb.com/?ip.66.55.112.0) | - | - | High
-10 | [66.97.172.0](https://vuldb.com/?ip.66.97.172.0) | - | - | High
-11 | [66.110.73.68](https://vuldb.com/?ip.66.110.73.68) | - | - | High
-12 | [66.110.73.96](https://vuldb.com/?ip.66.110.73.96) | - | - | High
-13 | [69.17.192.0](https://vuldb.com/?ip.69.17.192.0) | - | - | High
-14 | [74.114.240.0](https://vuldb.com/?ip.74.114.240.0) | - | - | High
-15 | ... | ... | ... | ...
+5 | [45.42.144.0](https://vuldb.com/?ip.45.42.144.0) | - | - | High
+6 | [45.74.26.0](https://vuldb.com/?ip.45.74.26.0) | - | - | High
+7 | [63.85.42.0](https://vuldb.com/?ip.63.85.42.0) | - | - | High
+8 | [64.37.32.0](https://vuldb.com/?ip.64.37.32.0) | - | - | High
+9 | [64.147.80.0](https://vuldb.com/?ip.64.147.80.0) | 64.147.80.0.transact.bm | - | High
+10 | [65.171.98.0](https://vuldb.com/?ip.65.171.98.0) | - | - | High
+11 | [66.55.112.0](https://vuldb.com/?ip.66.55.112.0) | - | - | High
+12 | [66.97.172.0](https://vuldb.com/?ip.66.97.172.0) | - | - | High
+13 | [66.110.73.68](https://vuldb.com/?ip.66.110.73.68) | - | - | High
+14 | [66.110.73.96](https://vuldb.com/?ip.66.110.73.96) | - | - | High
+15 | [69.17.192.0](https://vuldb.com/?ip.69.17.192.0) | - | - | High
+16 | [74.114.240.0](https://vuldb.com/?ip.74.114.240.0) | - | - | High
+17 | [76.8.32.0](https://vuldb.com/?ip.76.8.32.0) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -121,6 +124,7 @@ There are 471 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bm.netset
 
 ## Literature
 

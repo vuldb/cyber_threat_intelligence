@@ -56,27 +56,27 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/account/ResetPassword` | High
 3 | File | `/addnews.html` | High
-4 | File | `/cm/delete` | Medium
-5 | File | `/download` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-8 | File | `/lms/admin.php` | High
-9 | File | `/my_photo_gallery/image.php` | High
-10 | File | `/redpass.cgi` | Medium
-11 | File | `/reps/classes/Users.php?f=delete_agent` | High
-12 | File | `/rom-0` | Low
-13 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-14 | File | `/uncpath/` | Medium
-15 | File | `/usr/ucb/mail` | High
-16 | File | `adclick.php` | Medium
-17 | File | `add-category.php` | High
-18 | File | `add_comment.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin.shtml` | High
-21 | File | `admin/content.php` | High
+4 | File | `/cgi-bin/go` | Medium
+5 | File | `/cm/delete` | Medium
+6 | File | `/download` | Medium
+7 | File | `/forum/away.php` | High
+8 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
+9 | File | `/lms/admin.php` | High
+10 | File | `/my_photo_gallery/image.php` | High
+11 | File | `/redpass.cgi` | Medium
+12 | File | `/reps/classes/Users.php?f=delete_agent` | High
+13 | File | `/rom-0` | Low
+14 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
+15 | File | `/uncpath/` | Medium
+16 | File | `/usr/ucb/mail` | High
+17 | File | `adclick.php` | Medium
+18 | File | `add-category.php` | High
+19 | File | `add_comment.php` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/admin.shtml` | High
 22 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

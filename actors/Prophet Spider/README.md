@@ -67,29 +67,29 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin_area/login_transfer.php` | High
 5 | File | `/adms/admin/?page=user/manage_user` | High
 6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/etc/shadow` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/forums.php?action=post` | High
-13 | File | `/goform/formDefault` | High
-14 | File | `/goform/formSysCmd` | High
-15 | File | `/goform/fromSetWirelessRepeat` | High
-16 | File | `/index.php` | Medium
-17 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-18 | File | `/login/index.php` | High
-19 | File | `/Moosikay/order.php` | High
-20 | File | `/SetNetworkSettings/SubnetMask` | High
-21 | File | `/setNTP.cgi` | Medium
-22 | File | `/tpts/manage_user.php` | High
-23 | File | `/u/username.json` | High
-24 | File | `/user/s.php` | Medium
-25 | File | `/usr/etc/restore0.9` | High
-26 | File | `acl.c` | Low
+7 | File | `/ajax/update_certificate` | High
+8 | File | `/apply.cgi` | Medium
+9 | File | `/bsms_ci/index.php/book` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/forums.php?action=post` | High
+14 | File | `/goform/formDefault` | High
+15 | File | `/goform/formSysCmd` | High
+16 | File | `/goform/fromSetWirelessRepeat` | High
+17 | File | `/index.php` | Medium
+18 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+19 | File | `/login/index.php` | High
+20 | File | `/Moosikay/order.php` | High
+21 | File | `/philosophy/admin/user/controller.php?action=add` | High
+22 | File | `/php-opos/signup.php` | High
+23 | File | `/SetNetworkSettings/SubnetMask` | High
+24 | File | `/setNTP.cgi` | Medium
+25 | File | `/tpts/manage_user.php` | High
+26 | File | `/u/username.json` | High
 27 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

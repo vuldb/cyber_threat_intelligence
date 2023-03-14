@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with eCh0raix:
 
 * [SC](https://vuldb.com/?country.sc)
+* [RU](https://vuldb.com/?country.ru)
 * [LI](https://vuldb.com/?country.li)
-* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -50,13 +50,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
 3 | File | `/Home/GetAttachment` | High
-4 | File | `/modules/projects/vw_files.php` | High
-5 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-6 | File | `account/gallery.php` | High
-7 | File | `action.asp` | Medium
-8 | ... | ... | ...
+4 | File | `/index.php` | Medium
+5 | File | `/modules/projects/vw_files.php` | High
+6 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+7 | File | `/webman/info.cgi` | High
+8 | File | `account/gallery.php` | High
+9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

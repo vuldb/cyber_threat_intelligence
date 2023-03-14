@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -90,13 +90,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -105,55 +106,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/bsms_ci/index.php/book` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/config/getuser` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/etc/hosts` | Medium
-9 | File | `/example/editor` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/HNAP1` | Low
-12 | File | `/iu-application/controllers/administration/auth.php` | High
-13 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-14 | File | `/medicines/profile.php` | High
-15 | File | `/obs/book.php` | High
-16 | File | `/ossn/administrator/com_installer` | High
-17 | File | `/param.file.tgz` | High
-18 | File | `/pms/update_user.php?user_id=1` | High
-19 | File | `/public_html/users.php` | High
-20 | File | `/spip.php` | Medium
-21 | File | `/sre/params.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/user/s.php` | Medium
-24 | File | `/user/upload/upload` | High
-25 | File | `/Users` | Low
-26 | File | `/var/spool/hylafax` | High
-27 | File | `/vendor` | Low
-28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-29 | File | `/wireless/guestnetwork.asp` | High
-30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-31 | File | `action/addproject.php` | High
-32 | File | `adclick.php` | Medium
-33 | File | `add-locker-form.php` | High
-34 | File | `add_contestant.php` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/add_payment.php` | High
-37 | File | `admin/booking_report.php` | High
-38 | File | `admin/disapprove_user.php` | High
-39 | File | `admin/expense_report.php` | High
-40 | File | `admin/forget_password.php` | High
-41 | File | `admin/index.php` | High
-42 | File | `admin/make_payments.php` | High
-43 | File | `admin/sysCheckFile_deal.php` | High
-44 | File | `Advanced_ASUSDDNS_Content.asp` | High
-45 | File | `af_netlink.c` | Medium
-46 | File | `album_portal.php` | High
-47 | File | `application/libraries/LanguageTask.php` | High
-48 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/index3.php` | High
+8 | File | `/admin/upload/upload` | High
+9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+10 | File | `/alphaware/summary.php` | High
+11 | File | `/boat/login.php` | High
+12 | File | `/bsms_ci/index.php/book` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/config/getuser` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/ecshop/admin/template.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forum/PostPrivateMessage` | High
+19 | File | `/home/www/cgi-bin/login.cgi` | High
+20 | File | `/medicines/profile.php` | High
+21 | File | `/net-banking/customer_transactions.php` | High
+22 | File | `/obs/book.php` | High
+23 | File | `/ossn/administrator/com_installer` | High
+24 | File | `/param.file.tgz` | High
+25 | File | `/pms/update_user.php?user_id=1` | High
+26 | File | `/public_html/users.php` | High
+27 | File | `/reservation/add_message.php` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/sre/params.php` | High
+30 | File | `/tmp` | Low
+31 | File | `/user/s.php` | Medium
+32 | File | `/user/upload/upload` | High
+33 | File | `/Users` | Low
+34 | File | `/var/spool/hylafax` | High
+35 | File | `/vendor` | Low
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+37 | File | `/video-sharing-script/watch-video.php` | High
+38 | File | `/wireless/guestnetwork.asp` | High
+39 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+40 | File | `AcquisiAction.class.php` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add-locker-form.php` | High
+43 | File | `add_contestant.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin/add_payment.php` | High
+46 | File | `admin/booking_report.php` | High
+47 | File | `admin/conf_users_edit.php` | High
+48 | File | `admin/disapprove_user.php` | High
+49 | File | `admin/expense_report.php` | High
+50 | File | `admin/fecalysis_form.php` | High
+51 | File | `admin/forget_password.php` | High
+52 | File | `admin/index.php` | High
+53 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

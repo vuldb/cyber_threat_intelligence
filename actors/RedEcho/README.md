@@ -85,15 +85,15 @@ ID | Type | Indicator | Confidence
 22 | File | `/include/config.cache.php` | High
 23 | File | `/index.php` | Medium
 24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/plugin/ajax.php` | High
-26 | File | `/preauth` | Medium
-27 | File | `/proxy/` | Low
-28 | File | `/public/plugins/` | High
-29 | File | `/rest/api/2/search` | High
-30 | File | `/rest/api/latest/projectvalidate/key` | High
+25 | File | `/param.file.tgz` | High
+26 | File | `/plugin/ajax.php` | High
+27 | File | `/preauth` | Medium
+28 | File | `/proxy/` | Low
+29 | File | `/public/plugins/` | High
+30 | File | `/rest/api/2/search` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

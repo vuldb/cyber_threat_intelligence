@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Qakbot:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -2625,7 +2625,7 @@ ID | IP address | Hostname | Campaign | Confidence
 2602 | [50.79.35.222](https://vuldb.com/?ip.50.79.35.222) | 50-79-35-222-static.hfc.comcastbusiness.net | - | High
 2603 | ... | ... | ... | ...
 
-There are 10406 more IOC items available. Please use our online service to access the data.
+There are 10408 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -2633,13 +2633,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2648,36 +2648,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-3 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/bin/httpd` | Medium
-6 | File | `/bin/sh` | Low
+2 | File | `//` | Low
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/api/jmeter/download/files` | High
+5 | File | `/APR/login.php` | High
+6 | File | `/as/authorization.oauth2` | High
 7 | File | `/boat/login.php` | High
 8 | File | `/bsms_ci/index.php/user/edit_user/` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/cimom` | Low
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ecshop/admin/template.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/forum/PostPrivateMessage` | High
-16 | File | `/Moosikay/order.php` | High
-17 | File | `/mygym/admin/index.php?view_exercises` | High
-18 | File | `/out.php` | Medium
-19 | File | `/php-opos/index.php` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/tmp/boa-temp` | High
-24 | File | `/tourism/rate_review.php` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/sbin/suexec` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-admin/options.php` | High
-29 | ... | ... | ...
+9 | File | `/cgi-bin/luci/api/auth` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cimom` | Low
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/ecshop/admin/template.php` | High
+16 | File | `/etc/openstack-dashboard/local_settings` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/files/import` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/forum/PostPrivateMessage` | High
+22 | File | `/home/www/cgi-bin/login.cgi` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/Moosikay/order.php` | High
+25 | File | `/mygym/admin/index.php?view_exercises` | High
+26 | File | `/net-banking/customer_transactions.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/php-opos/index.php` | High
+29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+30 | File | `/rukovoditel/index.php?module=users/login` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/tmp/boa-temp` | High
+33 | File | `/tourism/rate_review.php` | High
+34 | File | `/uncpath/` | Medium
+35 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2797,6 +2803,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/210511-kvcz7vyfkx
 * https://twitter.com/Malwar3Ninja/status/1483514897266737154
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
+* https://www.netresec.com/?page=Blog&month=2023-03&post=QakBot-C2-Traffic
 * https://www.zscaler.com/blogs/security-research/rise-qakbot-attacks-traced-evolving-threat-techniques
 
 ## Literature

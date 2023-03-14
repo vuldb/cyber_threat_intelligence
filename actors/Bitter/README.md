@@ -77,9 +77,10 @@ ID | Type | Indicator | Confidence
 26 | File | `5.2.9\syscrb.exe` | High
 27 | File | `abc-pcie.c` | Medium
 28 | File | `accounts/payment_history.php` | High
-29 | ... | ... | ...
+29 | File | `adclick.php` | Medium
+30 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

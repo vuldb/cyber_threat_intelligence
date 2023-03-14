@@ -73,10 +73,11 @@ ID | Type | Indicator | Confidence
 16 | File | `/manage-apartment.php` | High
 17 | File | `/mics/j_spring_security_check` | High
 18 | File | `/mkshope/login.php` | High
-19 | File | `/resources//../` | High
-20 | ... | ... | ...
+19 | File | `/pages/processlogin.php` | High
+20 | File | `/resources//../` | High
+21 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

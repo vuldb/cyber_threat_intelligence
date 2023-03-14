@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -88,18 +88,18 @@ ID | Type | Indicator | Confidence
 27 | File | `/members/view_member.php` | High
 28 | File | `/moddable/xs/sources/xsScript.c` | High
 29 | File | `/moddable/xs/sources/xsSymbol.c` | High
-30 | File | `/nagioslogserver/configure/create_snapshot` | High
-31 | File | `/nova/bin/lcdstat` | High
-32 | File | `/ofrs/admin/?page=teams/view_team` | High
-33 | File | `/ordering/index.php?q=category` | High
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/picturesPreview` | High
-36 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-37 | File | `/rest/api/2/user/picker` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-40 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-41 | File | `/sns/classes/Master.php?f=delete_img` | High
+30 | File | `/nova/bin/lcdstat` | High
+31 | File | `/ofrs/admin/?page=teams/view_team` | High
+32 | File | `/ordering/index.php?q=category` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/picturesPreview` | High
+35 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+36 | File | `/rest/api/2/user/picker` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+39 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+40 | File | `/sns/classes/Master.php?f=delete_img` | High
+41 | File | `/Source/C++/Core/Ap4Array.h` | High
 42 | ... | ... | ...
 
 There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

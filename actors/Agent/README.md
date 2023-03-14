@@ -53,41 +53,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
-5 | File | `/api` | Low
-6 | File | `/app/options.py` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=delete_appointment` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/cms/print.php` | High
-14 | File | `/concat?/%2557EB-INF/web.xml` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/ctcprotocol/Protocol` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/dashboard/updatelogo.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/download` | Medium
+3 | File | `/ajax/networking/get_netcfg.php` | High
+4 | File | `/api` | Low
+5 | File | `/app/options.py` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/ci_spms/admin/category` | High
+9 | File | `/ci_spms/admin/search/searching/` | High
+10 | File | `/classes/Master.php?f=delete_appointment` | High
+11 | File | `/classes/Master.php?f=delete_train` | High
+12 | File | `/cms/print.php` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/dashboard/menu-list.php` | High
+17 | File | `/dashboard/updatelogo.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/download` | Medium
+20 | File | `/ebics-server/ebics.aspx` | High
 21 | File | `/etc/openshift/server_priv.pem` | High
 22 | File | `/ffos/classes/Master.php?f=save_category` | High
 23 | File | `/forum/away.php` | High
 24 | File | `/goforms/rlminfo` | High
-25 | File | `/hospital/hms/admin/patient-search.php` | High
-26 | File | `/index.php` | Medium
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/menu.html` | Medium
-30 | File | `/mkshop/Men/profile.php` | High
-31 | File | `/modules/announcement/index.php?view=edit` | High
-32 | File | `/navigate/navigate_download.php` | High
-33 | File | `/Noxen-master/users.php` | High
-34 | File | `/ocwbs/admin/?page=user/manage_user` | High
-35 | File | `/ofrs/admin/?page=user/manage_user` | High
-36 | File | `/out.php` | Medium
-37 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/HNAP1/SetClientInfo` | High
+26 | File | `/hospital/hms/admin/patient-search.php` | High
+27 | File | `/index.php` | Medium
+28 | File | `/Items/*/RemoteImages/Download` | High
+29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+30 | File | `/menu.html` | Medium
+31 | File | `/mkshop/Men/profile.php` | High
+32 | File | `/modules/announcement/index.php?view=edit` | High
+33 | File | `/navigate/navigate_download.php` | High
+34 | File | `/Noxen-master/users.php` | High
+35 | File | `/ocwbs/admin/?page=user/manage_user` | High
+36 | File | `/ofrs/admin/?page=user/manage_user` | High
+37 | File | `/out.php` | Medium
 38 | File | `/password.html` | High
 39 | File | `/php_action/fetchSelectedUser.php` | High
 40 | File | `/port_3480/data_request` | High
@@ -97,11 +97,9 @@ ID | Type | Indicator | Confidence
 44 | File | `/resources//../` | High
 45 | File | `/rest/api/2/search` | High
 46 | File | `/s/` | Low
-47 | File | `/scripts/cpan_config` | High
-48 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-49 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

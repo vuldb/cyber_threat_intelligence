@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [KR](https://vuldb.com/?country.kr)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 1 more country items available. Please use our online service to access the data.
@@ -49,10 +49,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/out.php` | Medium
 2 | File | `data/gbconfiguration.dat` | High
-3 | File | `wp-login.php` | Medium
+3 | File | `miniserv.pl` | Medium
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

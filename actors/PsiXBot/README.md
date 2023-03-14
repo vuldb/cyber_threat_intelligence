@@ -107,7 +107,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/usr/syno/etc/mount.conf` | High
 46 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

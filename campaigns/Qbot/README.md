@@ -100,34 +100,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
 4 | File | `/aya/module/admin/fst_down.inc.php` | High
-5 | File | `/componetns/user/class.user.php` | High
-6 | File | `/etc/tomcat8/Catalina/attack` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/front/document.form.php` | High
-9 | File | `/goform/wizard_end` | High
-10 | File | `/ims/login.php` | High
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/mhds/clinic/view_details.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/rest/api/latest/projectvalidate/key` | High
-15 | File | `/rest/collectors/1.0/template/custom` | High
-16 | File | `/search.php` | Medium
-17 | File | `/ServletAPI/accounts/login` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/user/login/oauth` | High
-20 | File | `/usr/bin/pkexec` | High
-21 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-22 | File | `/var/log/messages` | High
-23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-24 | File | `/websocket/exec` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/x_program_center/jaxrs/invoke` | High
-27 | File | `/zm/index.php` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `action-visitor.php` | High
-30 | ... | ... | ...
+5 | File | `/boat/login.php` | High
+6 | File | `/bsms_ci/index.php/user/edit_user/` | High
+7 | File | `/componetns/user/class.user.php` | High
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/front/document.form.php` | High
+11 | File | `/goform/wizard_end` | High
+12 | File | `/ims/login.php` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/php-opos/index.php` | High
+17 | File | `/rest/api/latest/projectvalidate/key` | High
+18 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+19 | File | `/search.php` | Medium
+20 | File | `/ServletAPI/accounts/login` | High
+21 | File | `/tourism/rate_review.php` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/user/login/oauth` | High
+24 | File | `/usr/bin/pkexec` | High
+25 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+26 | File | `/var/log/messages` | High
+27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+28 | File | `/websocket/exec` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/x_program_center/jaxrs/invoke` | High
+31 | File | `/zm/index.php` | High
+32 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

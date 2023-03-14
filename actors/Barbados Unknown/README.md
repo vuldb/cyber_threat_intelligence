@@ -17,37 +17,43 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [45.12.71.18](https://vuldb.com/?ip.45.12.71.18) | - | - | High
 6 | [45.62.191.112](https://vuldb.com/?ip.45.62.191.112) | - | - | High
 7 | [45.74.22.128](https://vuldb.com/?ip.45.74.22.128) | - | - | High
-8 | [57.91.16.0](https://vuldb.com/?ip.57.91.16.0) | - | - | High
-9 | [63.143.76.0](https://vuldb.com/?ip.63.143.76.0) | - | - | High
-10 | [63.170.68.0](https://vuldb.com/?ip.63.170.68.0) | - | - | High
-11 | [63.175.156.0](https://vuldb.com/?ip.63.175.156.0) | - | - | High
-12 | [64.119.192.0](https://vuldb.com/?ip.64.119.192.0) | - | - | High
-13 | [64.210.40.0](https://vuldb.com/?ip.64.210.40.0) | - | - | High
-14 | [65.48.128.0](https://vuldb.com/?ip.65.48.128.0) | - | - | High
-15 | [65.48.132.0](https://vuldb.com/?ip.65.48.132.0) | - | - | High
-16 | [65.48.144.0](https://vuldb.com/?ip.65.48.144.0) | - | - | High
-17 | [65.48.160.0](https://vuldb.com/?ip.65.48.160.0) | - | - | High
-18 | [65.48.168.0](https://vuldb.com/?ip.65.48.168.0) | - | - | High
-19 | [65.48.174.0](https://vuldb.com/?ip.65.48.174.0) | - | - | High
-20 | [65.48.176.0](https://vuldb.com/?ip.65.48.176.0) | - | - | High
-21 | [65.48.192.0](https://vuldb.com/?ip.65.48.192.0) | - | - | High
-22 | [65.48.200.0](https://vuldb.com/?ip.65.48.200.0) | - | - | High
-23 | [65.48.207.0](https://vuldb.com/?ip.65.48.207.0) | - | - | High
-24 | [65.48.208.0](https://vuldb.com/?ip.65.48.208.0) | - | - | High
-25 | [65.48.212.0](https://vuldb.com/?ip.65.48.212.0) | - | - | High
-26 | [65.48.214.0](https://vuldb.com/?ip.65.48.214.0) | - | - | High
-27 | [65.48.217.0](https://vuldb.com/?ip.65.48.217.0) | - | - | High
-28 | [65.48.221.0](https://vuldb.com/?ip.65.48.221.0) | - | - | High
-29 | [65.48.222.0](https://vuldb.com/?ip.65.48.222.0) | - | - | High
-30 | ... | ... | ... | ...
+8 | [57.74.122.0](https://vuldb.com/?ip.57.74.122.0) | - | - | High
+9 | [57.91.16.0](https://vuldb.com/?ip.57.91.16.0) | - | - | High
+10 | [63.143.76.0](https://vuldb.com/?ip.63.143.76.0) | - | - | High
+11 | [63.170.68.0](https://vuldb.com/?ip.63.170.68.0) | - | - | High
+12 | [63.175.156.0](https://vuldb.com/?ip.63.175.156.0) | - | - | High
+13 | [63.245.48.0](https://vuldb.com/?ip.63.245.48.0) | - | - | High
+14 | [64.119.192.0](https://vuldb.com/?ip.64.119.192.0) | - | - | High
+15 | [64.210.40.0](https://vuldb.com/?ip.64.210.40.0) | - | - | High
+16 | [65.48.128.0](https://vuldb.com/?ip.65.48.128.0) | - | - | High
+17 | [65.48.132.0](https://vuldb.com/?ip.65.48.132.0) | - | - | High
+18 | [65.48.144.0](https://vuldb.com/?ip.65.48.144.0) | - | - | High
+19 | [65.48.152.0](https://vuldb.com/?ip.65.48.152.0) | - | - | High
+20 | [65.48.155.0](https://vuldb.com/?ip.65.48.155.0) | - | - | High
+21 | [65.48.156.0](https://vuldb.com/?ip.65.48.156.0) | - | - | High
+22 | [65.48.160.0](https://vuldb.com/?ip.65.48.160.0) | - | - | High
+23 | [65.48.168.0](https://vuldb.com/?ip.65.48.168.0) | - | - | High
+24 | [65.48.174.0](https://vuldb.com/?ip.65.48.174.0) | - | - | High
+25 | [65.48.176.0](https://vuldb.com/?ip.65.48.176.0) | - | - | High
+26 | [65.48.192.0](https://vuldb.com/?ip.65.48.192.0) | - | - | High
+27 | [65.48.200.0](https://vuldb.com/?ip.65.48.200.0) | - | - | High
+28 | [65.48.207.0](https://vuldb.com/?ip.65.48.207.0) | - | - | High
+29 | [65.48.208.0](https://vuldb.com/?ip.65.48.208.0) | - | - | High
+30 | [65.48.212.0](https://vuldb.com/?ip.65.48.212.0) | - | - | High
+31 | [65.48.214.0](https://vuldb.com/?ip.65.48.214.0) | - | - | High
+32 | [65.48.217.0](https://vuldb.com/?ip.65.48.217.0) | - | - | High
+33 | [65.48.221.0](https://vuldb.com/?ip.65.48.221.0) | - | - | High
+34 | [65.48.222.0](https://vuldb.com/?ip.65.48.222.0) | - | - | High
+35 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 136 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bb.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bb.netset
 
 ## Literature
 

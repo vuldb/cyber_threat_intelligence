@@ -40,7 +40,7 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [58.215.145.95](https://vuldb.com/?ip.58.215.145.95) | - | - | High
 18 | ... | ... | ... | ...
 
-There are 68 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -129,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0820-0827.html
 * https://blog.talosintelligence.com/2021/09/threat-roundup-0827-0903.html
 * https://blog.talosintelligence.com/2022/01/threat-roundup-0121-0128.html
+* https://blog.talosintelligence.com/threat-roundup-0127-0203/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 
 ## Literature

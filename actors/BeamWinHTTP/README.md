@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,20 +63,20 @@ ID | Type | Indicator | Confidence
 18 | File | `/Hospital-Management-System-master/contact.php` | High
 19 | File | `/include/friends.inc.php` | High
 20 | File | `/index.php?module=configuration/application` | High
-21 | File | `/members/view_member.php` | High
-22 | File | `/services/view_service.php` | High
-23 | File | `/servlet/webacc` | High
-24 | File | `/sitemagic/upgrade.php` | High
-25 | File | `/userui/ticket_list.php` | High
-26 | File | `/usr/5bin/su` | Medium
-27 | File | `/wp-admin/options-general.php` | High
-28 | File | `/zm/index.php` | High
-29 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-30 | File | `abook_database.php` | High
-31 | File | `accounts/inc/include.php` | High
-32 | File | `adaptive-images-script.php` | High
-33 | File | `additem.asp` | Medium
-34 | File | `addtocart.asp` | High
+21 | File | `/kruxton/receipt.php` | High
+22 | File | `/members/view_member.php` | High
+23 | File | `/services/view_service.php` | High
+24 | File | `/servlet/webacc` | High
+25 | File | `/sitemagic/upgrade.php` | High
+26 | File | `/userui/ticket_list.php` | High
+27 | File | `/usr/5bin/su` | Medium
+28 | File | `/wp-admin/options-general.php` | High
+29 | File | `/zm/index.php` | High
+30 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+31 | File | `abook_database.php` | High
+32 | File | `accounts/inc/include.php` | High
+33 | File | `adaptive-images-script.php` | High
+34 | File | `additem.asp` | Medium
 35 | File | `adherents/subscription/info.php` | High
 36 | File | `admin.asp` | Medium
 37 | File | `admin.php` | Medium
@@ -99,23 +99,23 @@ ID | Type | Indicator | Confidence
 54 | File | `administrator/components/com_media/helpers/media.php` | High
 55 | File | `administrator/index.php` | High
 56 | File | `admin_login.asp` | High
-57 | File | `adv_search.asp` | High
-58 | File | `ajax_url.php` | Medium
-59 | File | `album_portal.php` | High
-60 | File | `al_initialize.php` | High
-61 | File | `anjel.index.php` | High
-62 | File | `annonces-p-f.php` | High
-63 | File | `announce.php` | Medium
-64 | File | `announcement.php` | High
-65 | File | `announcements.php` | High
-66 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-67 | File | `application/config/config.php` | High
-68 | File | `application/controllers/basedata/inventory.php` | High
-69 | File | `apply.cgi` | Medium
-70 | File | `apps/app_article/controller/rating.php` | High
-71 | File | `article.php` | Medium
-72 | File | `articles.php` | Medium
-73 | File | `artikel_anzeige.php` | High
+57 | File | `ajax_url.php` | Medium
+58 | File | `album_portal.php` | High
+59 | File | `al_initialize.php` | High
+60 | File | `anjel.index.php` | High
+61 | File | `annonces-p-f.php` | High
+62 | File | `announce.php` | Medium
+63 | File | `announcement.php` | High
+64 | File | `announcements.php` | High
+65 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+66 | File | `application/config/config.php` | High
+67 | File | `application/controllers/basedata/inventory.php` | High
+68 | File | `apply.cgi` | Medium
+69 | File | `apps/app_article/controller/rating.php` | High
+70 | File | `article.php` | Medium
+71 | File | `articles.php` | Medium
+72 | File | `artikel_anzeige.php` | High
+73 | File | `AudioFlinger.cpp` | High
 74 | File | `auktion.cgi` | Medium
 75 | File | `auth.php` | Medium
 76 | File | `authfiles/login.asp` | High
@@ -137,8 +137,7 @@ ID | Type | Indicator | Confidence
 92 | File | `category.cfm` | Medium
 93 | File | `category.php` | Medium
 94 | File | `category_list.php` | High
-95 | File | `cgi-bin/awstats.pl` | High
-96 | ... | ... | ...
+95 | ... | ... | ...
 
 There are 844 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

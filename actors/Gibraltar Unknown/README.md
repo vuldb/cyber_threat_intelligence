@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.gibraltar_unknown](https://vuldb.com/?actor.gibraltar_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gibraltar Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [RO](https://vuldb.com/?country.ro)
-* ...
-
-There are 18 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Gibraltar Unknown.
@@ -31,79 +20,28 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.12.70.84](https://vuldb.com/?ip.45.12.70.84) | feeble-log.yourbandinc.com | - | High
 9 | [45.12.71.84](https://vuldb.com/?ip.45.12.71.84) | - | - | High
 10 | [45.59.179.0](https://vuldb.com/?ip.45.59.179.0) | - | - | High
-11 | [45.157.136.0](https://vuldb.com/?ip.45.157.136.0) | - | - | High
-12 | [45.157.138.0](https://vuldb.com/?ip.45.157.138.0) | - | - | High
-13 | [85.115.128.0](https://vuldb.com/?ip.85.115.128.0) | - | - | High
-14 | [85.159.120.0](https://vuldb.com/?ip.85.159.120.0) | - | - | High
-15 | [85.208.60.0](https://vuldb.com/?ip.85.208.60.0) | - | - | High
-16 | [85.208.62.0](https://vuldb.com/?ip.85.208.62.0) | - | - | High
-17 | ... | ... | ... | ...
+11 | [45.130.164.0](https://vuldb.com/?ip.45.130.164.0) | - | - | High
+12 | [45.157.136.0](https://vuldb.com/?ip.45.157.136.0) | - | - | High
+13 | [45.157.138.0](https://vuldb.com/?ip.45.157.138.0) | - | - | High
+14 | [81.94.218.0](https://vuldb.com/?ip.81.94.218.0) | - | - | High
+15 | [85.115.128.0](https://vuldb.com/?ip.85.115.128.0) | - | - | High
+16 | [85.159.120.0](https://vuldb.com/?ip.85.159.120.0) | - | - | High
+17 | [85.208.60.0](https://vuldb.com/?ip.85.208.60.0) | - | - | High
+18 | [85.208.62.0](https://vuldb.com/?ip.85.208.62.0) | - | - | High
+19 | [91.109.248.0](https://vuldb.com/?ip.91.109.248.0) | - | - | High
+20 | [91.193.74.0](https://vuldb.com/?ip.91.193.74.0) | - | - | High
+21 | [91.198.133.0](https://vuldb.com/?ip.91.198.133.0) | - | - | High
+22 | [91.198.166.0](https://vuldb.com/?ip.91.198.166.0) | - | - | High
+23 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Gibraltar Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 15 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Gibraltar Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/etc/ajenti/config.yml` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/plugins/servlet/gadgets/makeRequest` | High
-17 | File | `/product-list.php` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/updown/upload.cgi` | High
-22 | File | `/user/del.php` | High
-23 | File | `/_next` | Low
-24 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-25 | File | `123flashchat.php` | High
-26 | File | `act.php` | Low
-27 | File | `admin/bad.php` | High
-28 | File | `admin/index.php` | High
-29 | File | `admin/index.php/user/del/1` | High
-30 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-31 | File | `administrator/index.php` | High
-32 | File | `ajax/render/widget_php` | High
-33 | File | `album_portal.php` | High
-34 | File | `api.php` | Low
-35 | ... | ... | ...
-
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gi.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gi.netset
 
 ## Literature
 

@@ -40,7 +40,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -122,31 +123,31 @@ ID | Type | Indicator | Confidence
 70 | File | `article.php` | Medium
 71 | File | `articles.php` | Medium
 72 | File | `artikel_anzeige.php` | High
-73 | File | `auktion.cgi` | Medium
-74 | File | `auth.php` | Medium
-75 | File | `authfiles/login.asp` | High
-76 | File | `basket.php` | Medium
-77 | File | `books.php` | Medium
-78 | File | `browse-category.php` | High
-79 | File | `browse.php` | Medium
-80 | File | `browse_videos.php` | High
-81 | File | `BrudaNews/BrudaGB` | High
-82 | File | `bwlist_inc.html` | High
-83 | File | `calendar.php` | Medium
-84 | File | `callme_page.php` | High
-85 | File | `cart.php` | Medium
-86 | File | `cart_add.php` | Medium
-87 | File | `case.filemanager.php` | High
-88 | File | `catalog.php` | Medium
-89 | File | `catalogshop.php` | High
-90 | File | `catalogue.asp` | High
-91 | File | `category.cfm` | Medium
-92 | File | `category.php` | Medium
-93 | File | `category_list.php` | High
-94 | File | `cgi-bin/awstats.pl` | High
+73 | File | `AudioFlinger.cpp` | High
+74 | File | `auktion.cgi` | Medium
+75 | File | `auth.php` | Medium
+76 | File | `authfiles/login.asp` | High
+77 | File | `basket.php` | Medium
+78 | File | `books.php` | Medium
+79 | File | `browse-category.php` | High
+80 | File | `browse.php` | Medium
+81 | File | `browse_videos.php` | High
+82 | File | `BrudaNews/BrudaGB` | High
+83 | File | `bwlist_inc.html` | High
+84 | File | `calendar.php` | Medium
+85 | File | `callme_page.php` | High
+86 | File | `cart.php` | Medium
+87 | File | `cart_add.php` | Medium
+88 | File | `case.filemanager.php` | High
+89 | File | `catalog.php` | Medium
+90 | File | `catalogshop.php` | High
+91 | File | `catalogue.asp` | High
+92 | File | `category.cfm` | Medium
+93 | File | `category.php` | Medium
+94 | File | `category_list.php` | High
 95 | ... | ... | ...
 
-There are 842 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 843 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

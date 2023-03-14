@@ -70,33 +70,31 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/bsms_ci/index.php/user/edit_user/` | High
 2 | File | `/env` | Low
-3 | File | `/forum/away.php` | High
-4 | File | `/FreshRSS/p/ext.php` | High
-5 | File | `/goform/addressNat` | High
-6 | File | `/goform/CertListInfo` | High
-7 | File | `/goform/fast_setting_wifi_set` | High
-8 | File | `/goform/IPSECsave` | High
-9 | File | `/goform/L7Im` | Medium
-10 | File | `/goform/NatStaticSetting` | High
-11 | File | `/goform/qossetting` | High
-12 | File | `/goform/SafeClientFilter` | High
-13 | File | `/goform/SafeMacFilter` | High
-14 | File | `/goform/SafeUrlFilter` | High
-15 | File | `/goform/setMacFilterCfg` | High
-16 | File | `/goform/SysToolReboot` | High
-17 | File | `/goform/SysToolRestoreSet` | High
-18 | File | `/goform/VirtualSer` | High
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/hrm/employeeadd.php` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/leave_system/admin/?page=maintenance/department` | High
-23 | File | `/lib` | Low
-24 | File | `/m3_exec.h` | Medium
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/Moosikay/order.php` | High
-27 | ... | ... | ...
+3 | File | `/files/import` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/FreshRSS/p/ext.php` | High
+6 | File | `/goform/addressNat` | High
+7 | File | `/goform/CertListInfo` | High
+8 | File | `/goform/fast_setting_wifi_set` | High
+9 | File | `/goform/IPSECsave` | High
+10 | File | `/goform/L7Im` | Medium
+11 | File | `/goform/NatStaticSetting` | High
+12 | File | `/goform/qossetting` | High
+13 | File | `/goform/SafeClientFilter` | High
+14 | File | `/goform/SafeMacFilter` | High
+15 | File | `/goform/SafeUrlFilter` | High
+16 | File | `/goform/setMacFilterCfg` | High
+17 | File | `/goform/SysToolReboot` | High
+18 | File | `/goform/SysToolRestoreSet` | High
+19 | File | `/goform/VirtualSer` | High
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/hrm/employeeadd.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/leave_system/admin/?page=maintenance/department` | High
+24 | File | `/lib` | Low
+25 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Thailand:
 
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
+* [TH](https://vuldb.com/?country.th)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -190,13 +190,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -204,62 +203,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.php.gif` | Medium
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/admin/subnets/ripe-query.php` | High
-6 | File | `/api/trackedEntityInstances` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/coreframe/app/order/admin/index.php` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/employeeview.php` | High
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/filemanager/php/connector.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/hrm/controller/employee.php` | High
-16 | File | `/hrm/employeeadd.php` | High
-17 | File | `/hrm/employeeview.php` | High
-18 | File | `/inc/extensions.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/Items/*/RemoteImages/Download` | High
-21 | File | `/KeepAlive.jsp` | High
-22 | File | `/member/index/login.html` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/modules/profile/index.php` | High
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/phppath/php` | Medium
-28 | File | `/php_action/editProductImage.php` | High
-29 | File | `/product/savenewproduct.php?flag=1` | High
-30 | File | `/products/details.asp` | High
-31 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-32 | File | `/SASWebReportStudio/logonAndRender.do` | High
-33 | File | `/secure/admin/RestoreDefaults.jspa` | High
-34 | File | `/secure/EditSubscription.jspa` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/services/Card/findUser` | High
-37 | File | `/services/details.asp` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/uncpath/` | Medium
-40 | File | `/usr/bin/pkexec` | High
-41 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-42 | File | `/view-property.php` | High
-43 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-44 | File | `/_vti_pvt/access.cnf` | High
-45 | File | `4.edu.php` | Medium
-46 | File | `adclick.php` | Medium
-47 | File | `add.exe` | Low
-48 | File | `admin.php` | Medium
-49 | File | `admin/adminlien.php3` | High
-50 | File | `admin/conf_users_edit.php` | High
-51 | File | `admin/index.php` | High
-52 | File | `admin/login.php` | High
-53 | File | `admin/panels/uploader/admin.uploader.php` | High
-54 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/APR/signup.php` | High
+3 | File | `/forum/PostPrivateMessage` | High
+4 | File | `/mims/login.php` | High
+5 | File | `/php-scrm/login.php` | High
+6 | File | `/textpattern/index.php` | High
+7 | File | `/tmp` | Low
+8 | File | `account-signup.php` | High
+9 | File | `account/signup.php` | High
+10 | File | `action.php` | Medium
+11 | File | `addentry.php` | Medium
+12 | File | `admin.php` | Medium
+13 | File | `admin/admin_editor.php` | High
+14 | File | `admin/conf_users_edit.php` | High
+15 | File | `blocks/block-Old_Articles.php` | High
+16 | File | `bp_ncom.php` | Medium
+17 | File | `buy.php` | Low
+18 | File | `changePasswordForEmployee.php` | High
+19 | File | `class/table_broken.php` | High
+20 | File | `clinics/register.php` | High
+21 | File | `cloud.php` | Medium
+22 | File | `codes-english.php` | High
+23 | ... | ... | ...
 
-There are 469 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

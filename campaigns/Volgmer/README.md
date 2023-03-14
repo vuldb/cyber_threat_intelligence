@@ -105,10 +105,10 @@ ID | Type | Indicator | Confidence
 27 | File | `/var/log/messages` | High
 28 | File | `/var/www/core/controller/index.php` | High
 29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-30 | File | `/websocket/exec` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
 31 | ... | ... | ...
 
-There are 266 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

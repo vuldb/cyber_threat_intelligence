@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,20 +23,23 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.60.44](https://vuldb.com/?ip.5.62.60.44) | r-44-60-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.62.44](https://vuldb.com/?ip.5.62.62.44) | r-44-62-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.60.215.0](https://vuldb.com/?ip.41.60.215.0) | - | - | High
-4 | [41.74.48.0](https://vuldb.com/?ip.41.74.48.0) | - | - | High
-5 | [41.75.0.0](https://vuldb.com/?ip.41.75.0.0) | - | - | High
-6 | [41.76.240.0](https://vuldb.com/?ip.41.76.240.0) | - | - | High
-7 | [41.77.88.0](https://vuldb.com/?ip.41.77.88.0) | - | - | High
-8 | [41.78.95.0](https://vuldb.com/?ip.41.78.95.0) | - | - | High
-9 | [41.79.32.0](https://vuldb.com/?ip.41.79.32.0) | - | - | High
-10 | [41.79.136.0](https://vuldb.com/?ip.41.79.136.0) | 41-79-136-0.abaricom.co.bw | - | High
-11 | [41.87.160.0](https://vuldb.com/?ip.41.87.160.0) | - | - | High
-12 | [41.138.72.0](https://vuldb.com/?ip.41.138.72.0) | - | - | High
-13 | [41.190.244.0](https://vuldb.com/?ip.41.190.244.0) | - | - | High
-14 | ... | ... | ... | ...
+3 | [41.60.156.0](https://vuldb.com/?ip.41.60.156.0) | - | - | High
+4 | [41.60.215.0](https://vuldb.com/?ip.41.60.215.0) | - | - | High
+5 | [41.74.48.0](https://vuldb.com/?ip.41.74.48.0) | - | - | High
+6 | [41.75.0.0](https://vuldb.com/?ip.41.75.0.0) | - | - | High
+7 | [41.76.240.0](https://vuldb.com/?ip.41.76.240.0) | - | - | High
+8 | [41.77.88.0](https://vuldb.com/?ip.41.77.88.0) | - | - | High
+9 | [41.78.95.0](https://vuldb.com/?ip.41.78.95.0) | - | - | High
+10 | [41.79.32.0](https://vuldb.com/?ip.41.79.32.0) | - | - | High
+11 | [41.79.136.0](https://vuldb.com/?ip.41.79.136.0) | 41-79-136-0.abaricom.co.bw | - | High
+12 | [41.87.160.0](https://vuldb.com/?ip.41.87.160.0) | - | - | High
+13 | [41.138.72.0](https://vuldb.com/?ip.41.138.72.0) | - | - | High
+14 | [41.190.244.0](https://vuldb.com/?ip.41.190.244.0) | - | - | High
+15 | [41.191.64.0](https://vuldb.com/?ip.41.191.64.0) | - | - | High
+16 | [41.191.216.0](https://vuldb.com/?ip.41.191.216.0) | - | - | High
+17 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 65 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,15 +94,18 @@ ID | Type | Indicator | Confidence
 31 | File | `album_portal.php` | High
 32 | File | `api.php` | Low
 33 | File | `app/xml_cdr/xml_cdr_search.php` | High
-34 | ... | ... | ...
+34 | File | `application/home/controller/debug.php` | High
+35 | File | `articulo.php` | Medium
+36 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bw.netset
 
 ## Literature
 

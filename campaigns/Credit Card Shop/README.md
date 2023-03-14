@@ -54,12 +54,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,34 +76,34 @@ ID | Type | Indicator | Confidence
 7 | File | `/attachments` | Medium
 8 | File | `/bsms_ci/index.php/book` | High
 9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/confirm` | Medium
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/dashboard/reports/logs/view` | High
-14 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/etc/hosts` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/setmac` | High
-19 | File | `/goform/wizard_end` | High
-20 | File | `/manage-apartment.php` | High
-21 | File | `/medicines/profile.php` | High
-22 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-23 | File | `/out.php` | Medium
-24 | File | `/pages/apply_vacancy.php` | High
-25 | File | `/pms/update_patient.php` | High
-26 | File | `/proc/<PID>/mem` | High
-27 | File | `/proxy` | Low
-28 | File | `/secure/ViewCollectors` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/upload` | Low
-33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-34 | File | `/vendor/views/add_product.php` | High
+10 | File | `/confirm` | Medium
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/dashboard/reports/logs/view` | High
+13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/setmac` | High
+18 | File | `/goform/wizard_end` | High
+19 | File | `/manage-apartment.php` | High
+20 | File | `/medicines/profile.php` | High
+21 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+22 | File | `/out.php` | Medium
+23 | File | `/pages/apply_vacancy.php` | High
+24 | File | `/pms/update_patient.php` | High
+25 | File | `/proc/<PID>/mem` | High
+26 | File | `/proxy` | Low
+27 | File | `/secure/ViewCollectors` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/tmp` | Low
+30 | File | `/uncpath/` | Medium
+31 | File | `/upload` | Low
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/vendor/views/add_product.php` | High
+34 | File | `/vicidial/AST_agent_time_sheet.php` | High
 35 | ... | ... | ...
 
-There are 296 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

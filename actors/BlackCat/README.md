@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,27 +72,27 @@ ID | Type | Indicator | Confidence
 20 | File | `/contacts/listcontacts.php` | High
 21 | File | `/csms/admin/?page=user/manage_user` | High
 22 | File | `/Default/Bd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/fos/admin/index.php?page=menu` | High
-25 | File | `/goform/AddSysLogRule` | High
-26 | File | `/goform/SafeEmailFilter` | High
-27 | File | `/goform/SetIpMacBind` | High
-28 | File | `/goform/setSnmpInfo` | High
-29 | File | `/goform/setUplinkInfo` | High
-30 | File | `/goform/SysToolReboot` | High
-31 | File | `/goform/WifiBasicSet` | High
-32 | File | `/graphql` | Medium
-33 | File | `/home/hjsz/jsonlint/src/lexer` | High
-34 | File | `/hrm/employeeview.php` | High
-35 | File | `/hss/?page=categories` | High
-36 | File | `/hss/admin/brands/manage_brand.php` | High
-37 | File | `/index.php?module=entities/entities` | High
-38 | File | `/index.php?module=global_lists/lists` | High
-39 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-40 | File | `/index.php?module=users_alerts/users_alerts` | High
+23 | File | `/ext/phar/phar_object.c` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/fos/admin/index.php?page=menu` | High
+26 | File | `/goform/AddSysLogRule` | High
+27 | File | `/goform/SafeEmailFilter` | High
+28 | File | `/goform/SetIpMacBind` | High
+29 | File | `/goform/setSnmpInfo` | High
+30 | File | `/goform/setUplinkInfo` | High
+31 | File | `/goform/SysToolReboot` | High
+32 | File | `/goform/WifiBasicSet` | High
+33 | File | `/graphql` | Medium
+34 | File | `/home/hjsz/jsonlint/src/lexer` | High
+35 | File | `/hrm/employeeview.php` | High
+36 | File | `/hss/?page=categories` | High
+37 | File | `/hss/admin/brands/manage_brand.php` | High
+38 | File | `/index.php?module=entities/entities` | High
+39 | File | `/index.php?module=global_lists/lists` | High
+40 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
 41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

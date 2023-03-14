@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ProxyNotShell:
 
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
-* [SE](https://vuldb.com/?country.se)
+* [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -46,11 +46,12 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,32 +66,32 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/article_category.php` | High
 6 | File | `/admin/manage_user.php` | High
 7 | File | `/apply.cgi` | Medium
-8 | File | `/classes/Master.php?f=delete_brand` | High
-9 | File | `/classes/Master.php?f=delete_category` | High
-10 | File | `/config/api/v1/reboot` | High
-11 | File | `/etc/shadow` | Medium
-12 | File | `/goform/WifiBasicSet` | High
-13 | File | `/hss/admin/?page=client/manage_client` | High
-14 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-15 | File | `/login/index.php` | High
-16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-17 | File | `/output/outdbg.c` | High
-18 | File | `/output/outieee.c` | High
-19 | File | `/setNTP.cgi` | Medium
-20 | File | `/system/site.php` | High
-21 | File | `/tiki-importer.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/tpts/manage_user.php` | High
-24 | File | `/trufusionPortal/upDwModuleProxy` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/etc/restore0.9` | High
-27 | File | `/wp-admin/options-general.php` | High
-28 | File | `acl.c` | Low
-29 | File | `admin/manage_user.php` | High
-30 | File | `admin/page-login.php` | High
+8 | File | `/bsms_ci/index.php/book` | High
+9 | File | `/classes/Master.php?f=delete_brand` | High
+10 | File | `/classes/Master.php?f=delete_category` | High
+11 | File | `/config/api/v1/reboot` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forums.php?action=post` | High
+14 | File | `/home/cavesConsole` | High
+15 | File | `/home/kickPlayer` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/home/sendBroadcast` | High
+18 | File | `/hss/admin/?page=client/manage_client` | High
+19 | File | `/index.php` | Medium
+20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+21 | File | `/login/index.php` | High
+22 | File | `/loginVaLidation.php` | High
+23 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+24 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+25 | File | `/setNTP.cgi` | Medium
+26 | File | `/system/site.php` | High
+27 | File | `/tiki-importer.php` | High
+28 | File | `/tmp` | Low
+29 | File | `/tpts/manage_user.php` | High
+30 | File | `/trufusionPortal/upDwModuleProxy` | High
 31 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

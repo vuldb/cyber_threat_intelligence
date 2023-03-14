@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -70,8 +70,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -98,13 +97,13 @@ ID | Type | Indicator | Confidence
 15 | File | `/forum/away.php` | High
 16 | File | `/forum/PostPrivateMessage` | High
 17 | File | `/HNAP1` | Low
-18 | File | `/index` | Low
-19 | File | `/iu-application/controllers/administration/auth.php` | High
-20 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+18 | File | `/home/www/cgi-bin/login.cgi` | High
+19 | File | `/index` | Low
+20 | File | `/iu-application/controllers/administration/auth.php` | High
 21 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
 22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
 23 | File | `/module/module_frame/index.php` | High
-24 | File | `/music/ajax.php` | High
+24 | File | `/net-banking/customer_transactions.php` | High
 25 | File | `/northstar/Admin/changePassword.jsp` | High
 26 | File | `/obs/book.php` | High
 27 | File | `/orms/` | Low
@@ -123,9 +122,10 @@ ID | Type | Indicator | Confidence
 40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
 41 | File | `action/addproject.php` | High
 42 | File | `adclick.php` | Medium
-43 | ... | ... | ...
+43 | File | `add_contestant.php` | High
+44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

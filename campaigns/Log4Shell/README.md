@@ -145,10 +145,9 @@ ID | Type | Indicator | Confidence
 31 | File | `01article.php` | High
 32 | File | `acl.c` | Low
 33 | File | `add-locker-form.php` | High
-34 | File | `add_contestant.php` | High
-35 | ... | ... | ...
+34 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

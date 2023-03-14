@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -121,23 +121,23 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
-4 | File | `/admin/moduleinterface.php` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/ci_spms/admin/category` | High
-10 | File | `/ci_spms/admin/search/searching/` | High
-11 | File | `/classes/Master.php?f=delete_appointment` | High
-12 | File | `/classes/Master.php?f=delete_train` | High
-13 | File | `/cms/print.php` | High
-14 | File | `/concat?/%2557EB-INF/web.xml` | High
-15 | File | `/Content/Template/root/reverse-shell.aspx` | High
-16 | File | `/ctcprotocol/Protocol` | High
-17 | File | `/dashboard/menu-list.php` | High
-18 | File | `/data/remove` | Medium
-19 | File | `/debug/pprof` | Medium
+3 | File | `/admin/moduleinterface.php` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/app/options.py` | High
+6 | File | `/bin/httpd` | Medium
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/ci_spms/admin/category` | High
+9 | File | `/ci_spms/admin/search/searching/` | High
+10 | File | `/classes/Master.php?f=delete_appointment` | High
+11 | File | `/classes/Master.php?f=delete_train` | High
+12 | File | `/cms/print.php` | High
+13 | File | `/concat?/%2557EB-INF/web.xml` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/dashboard/menu-list.php` | High
+17 | File | `/data/remove` | Medium
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
 20 | File | `/ffos/classes/Master.php?f=save_category` | High
 21 | File | `/forum/away.php` | High
 22 | File | `/goforms/rlminfo` | High
@@ -161,15 +161,13 @@ ID | Type | Indicator | Confidence
 40 | File | `/s/` | Low
 41 | File | `/scripts/cpan_config` | High
 42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-43 | File | `/services/system/setup.json` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+45 | File | `/sys/dict/queryTableData` | High
 46 | File | `/tmp` | Low
-47 | File | `/uncpath/` | Medium
-48 | File | `/vloggers_merch/?p=view_product` | High
-49 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

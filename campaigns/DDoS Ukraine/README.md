@@ -113,34 +113,34 @@ ID | Type | Indicator | Confidence
 50 | File | `admin/header.php` | High
 51 | File | `admin/inc/change_action.php` | High
 52 | File | `admin/index.php` | High
-53 | File | `admin/info.php` | High
-54 | File | `admin/login.asp` | High
-55 | File | `admin/manage-comments.php` | High
-56 | File | `admin/manage-news.php` | High
-57 | File | `admin/plugin-settings.php` | High
-58 | File | `admin:de` | Medium
-59 | File | `admincp/auth/checklogin.php` | High
-60 | File | `admincp/auth/secure.php` | High
-61 | File | `administrator/components/com_media/helpers/media.php` | High
-62 | File | `administrator/index.php` | High
-63 | File | `admin_login.asp` | High
-64 | File | `ajax_url.php` | Medium
-65 | File | `album_portal.php` | High
-66 | File | `al_initialize.php` | High
-67 | File | `anjel.index.php` | High
-68 | File | `annonces-p-f.php` | High
-69 | File | `announce.php` | Medium
-70 | File | `announcement.php` | High
-71 | File | `announcements.php` | High
-72 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-73 | File | `app/models/user.rb` | High
-74 | File | `application/config/config.php` | High
-75 | File | `application/controllers/basedata/inventory.php` | High
-76 | File | `apply.cgi` | Medium
-77 | File | `apps/app_article/controller/rating.php` | High
-78 | File | `article.php` | Medium
-79 | File | `articles.php` | Medium
-80 | File | `artikel_anzeige.php` | High
+53 | File | `admin/login.asp` | High
+54 | File | `admin/manage-comments.php` | High
+55 | File | `admin/manage-news.php` | High
+56 | File | `admin/plugin-settings.php` | High
+57 | File | `admin:de` | Medium
+58 | File | `admincp/auth/checklogin.php` | High
+59 | File | `admincp/auth/secure.php` | High
+60 | File | `administrator/components/com_media/helpers/media.php` | High
+61 | File | `administrator/index.php` | High
+62 | File | `admin_login.asp` | High
+63 | File | `ajax_url.php` | Medium
+64 | File | `album_portal.php` | High
+65 | File | `al_initialize.php` | High
+66 | File | `anjel.index.php` | High
+67 | File | `annonces-p-f.php` | High
+68 | File | `announce.php` | Medium
+69 | File | `announcement.php` | High
+70 | File | `announcements.php` | High
+71 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
+72 | File | `app/models/user.rb` | High
+73 | File | `application/config/config.php` | High
+74 | File | `application/controllers/basedata/inventory.php` | High
+75 | File | `apply.cgi` | Medium
+76 | File | `apps/app_article/controller/rating.php` | High
+77 | File | `article.php` | Medium
+78 | File | `articles.php` | Medium
+79 | File | `artikel_anzeige.php` | High
+80 | File | `AudioFlinger.cpp` | High
 81 | File | `auktion.cgi` | Medium
 82 | File | `auth.php` | Medium
 83 | File | `authfiles/login.asp` | High
@@ -153,11 +153,9 @@ ID | Type | Indicator | Confidence
 90 | File | `bwlist_inc.html` | High
 91 | File | `calendar.php` | Medium
 92 | File | `calenderServer.cpp` | High
-93 | File | `callme_page.php` | High
-94 | File | `cart_add.php` | Medium
-95 | ... | ... | ...
+93 | ... | ... | ...
 
-There are 835 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 819 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

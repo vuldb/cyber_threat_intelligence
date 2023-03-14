@@ -52,10 +52,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,41 +62,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi-bin/luci/api/auth` | High
-9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-10 | File | `/cgi-bin/upload_vpntar` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cgi/trustclustermaster.cgi` | High
-13 | File | `/Content/Template/root/reverse-shell.aspx` | High
-14 | File | `/debug/pprof` | Medium
+1 | File | `/.env` | Low
+2 | File | `/admin/edit-doc.php` | High
+3 | File | `/as/authorization.oauth2` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
+6 | File | `/cgi-bin/luci` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+9 | File | `/cgi-bin/upload_vpntar` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/cgi/trustclustermaster.cgi` | High
+12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/DXR.axd` | Medium
 15 | File | `/export` | Low
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/SetPptpServerCfg` | High
-18 | File | `/h/calendar` | Medium
-19 | File | `/hrm/controller/employee.php` | High
-20 | File | `/js/app.js` | Medium
-21 | File | `/login/index.php` | High
-22 | File | `/mkshope/login.php` | High
+16 | File | `/filemanager/php/connector.php` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/SetPptpServerCfg` | High
+19 | File | `/h/calendar` | Medium
+20 | File | `/hrm/controller/employee.php` | High
+21 | File | `/js/app.js` | Medium
+22 | File | `/login/index.php` | High
 23 | File | `/obs/book.php` | High
 24 | File | `/products/view_product.php` | High
-25 | File | `/public/launchNewWindow.jsp` | High
-26 | File | `/public/login.htm` | High
-27 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/self.key` | Medium
-30 | File | `/services/view_service.php` | High
-31 | File | `/shell` | Low
-32 | File | `/spip.php` | Medium
+25 | File | `/public/login.htm` | High
+26 | File | `/rukovoditel/index.php?module=users/login` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/services/view_service.php` | High
+29 | File | `/shell` | Low
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/bin/tddp` | High
 33 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

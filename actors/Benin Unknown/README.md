@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +30,10 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [41.86.224.0](https://vuldb.com/?ip.41.86.224.0) | - | - | High
 8 | [41.138.88.0](https://vuldb.com/?ip.41.138.88.0) | - | - | High
 9 | [41.190.64.0](https://vuldb.com/?ip.41.190.64.0) | - | - | High
-10 | ... | ... | ... | ...
+10 | [41.191.84.0](https://vuldb.com/?ip.41.191.84.0) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,13 +90,14 @@ ID | Type | Indicator | Confidence
 33 | File | `application/home/controller/debug.php` | High
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bj.netset
 
 ## Literature
 

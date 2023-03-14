@@ -59,9 +59,10 @@ ID | Type | Indicator | Confidence
 6 | File | `/etc/passwd` | Medium
 7 | File | `/etc/shadow` | Medium
 8 | File | `/htmlcode/html/indexdefault.asp` | High
-9 | ... | ... | ...
+9 | File | `/include/config.cache.php` | High
+10 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

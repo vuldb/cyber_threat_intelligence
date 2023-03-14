@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetWalker:
 
 * [US](https://vuldb.com/?country.us)
+* [FR](https://vuldb.com/?country.fr)
 * [CO](https://vuldb.com/?country.co)
-* [CH](https://vuldb.com/?country.ch)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,23 +48,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/api/theme-edit/` | High
-3 | File | `/apply_noauth.cgi` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/config.cgi?webmin` | High
-6 | File | `/index.php` | Medium
-7 | File | `/lib/` | Low
-8 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-9 | File | `/public/login.htm` | High
-10 | File | `/public_main_modul.php` | High
-11 | File | `/rom-0` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/var/run/beaker/container_file/` | High
-14 | File | `/wordpress/wp-admin/options-general.php` | High
-15 | File | `/workspaceCleanup` | High
-16 | ... | ... | ...
+2 | File | `/admin/ajax/file-browser/upload/` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/apply_noauth.cgi` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/config.cgi?webmin` | High
+8 | File | `/core/feeds/custom.php` | High
+9 | File | `/home/masterConsole` | High
+10 | File | `/index.php` | Medium
+11 | File | `/lib/` | Low
+12 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+13 | File | `/phppath/php` | Medium
+14 | File | `/public/login.htm` | High
+15 | File | `/public_main_modul.php` | High
+16 | File | `/rom-0` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `/usr/bin/pkexec` | High
+19 | File | `/var/run/beaker/container_file/` | High
+20 | File | `/wireless/basic.asp` | High
+21 | File | `/wireless/guestnetwork.asp` | High
+22 | ... | ... | ...
 
-There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

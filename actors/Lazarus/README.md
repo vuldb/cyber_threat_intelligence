@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -278,7 +278,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -295,36 +296,34 @@ ID | Type | Indicator | Confidence
 5 | File | `/bsms_ci/index.php/user/edit_user/` | High
 6 | File | `/cgi-bin/R14.2/easy1350.pl` | High
 7 | File | `/cgi-bin/R14.2/log.pl` | High
-8 | File | `/ctcprotocol/Protocol` | High
-9 | File | `/ebics-server/ebics.aspx` | High
-10 | File | `/etc/tomcat8/Catalina/attack` | High
+8 | File | `/ebics-server/ebics.aspx` | High
+9 | File | `/etc/tomcat8/Catalina/attack` | High
+10 | File | `/files/import` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/hrm/controller/employee.php` | High
 13 | File | `/hrm/employeeadd.php` | High
 14 | File | `/hrm/employeeview.php` | High
 15 | File | `/ims/login.php` | High
 16 | File | `/login/index.php` | High
-17 | File | `/menu.html` | Medium
-18 | File | `/mhds/clinic/view_details.php` | High
-19 | File | `/Moosikay/order.php` | High
-20 | File | `/nova/bin/detnet` | High
-21 | File | `/out.php` | Medium
-22 | File | `/php-opos/index.php` | High
-23 | File | `/resources//../` | High
-24 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-25 | File | `/sys/dict/queryTableData` | High
-26 | File | `/tmp/boa-temp` | High
-27 | File | `/tourism/rate_review.php` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/view-property.php` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `action-visitor.php` | High
-33 | File | `action.php` | Medium
-34 | File | `adclick.php` | Medium
-35 | ... | ... | ...
+17 | File | `/mhds/clinic/view_details.php` | High
+18 | File | `/Moosikay/order.php` | High
+19 | File | `/nova/bin/detnet` | High
+20 | File | `/out.php` | Medium
+21 | File | `/php-opos/index.php` | High
+22 | File | `/resources//../` | High
+23 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+24 | File | `/sys/dict/queryTableData` | High
+25 | File | `/tmp/boa-temp` | High
+26 | File | `/tourism/rate_review.php` | High
+27 | File | `/uncpath/` | Medium
+28 | File | `/view-property.php` | High
+29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+30 | File | `action.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `admin.jcomments.php` | High
+33 | ... | ... | ...
 
-There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

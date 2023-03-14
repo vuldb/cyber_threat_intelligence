@@ -45,44 +45,47 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [37.140.199.224](https://vuldb.com/?ip.37.140.199.224) | nedvizhimostdoma.ru | - | High
 21 | [45.32.149.8](https://vuldb.com/?ip.45.32.149.8) | 45.32.149.8.vultr.com | - | Medium
 22 | [45.63.42.255](https://vuldb.com/?ip.45.63.42.255) | 45.63.42.255.vultrusercontent.com | - | High
-23 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | Ukraine Government | High
-24 | [45.134.255.131](https://vuldb.com/?ip.45.134.255.131) | - | - | High
-25 | [45.135.134.139](https://vuldb.com/?ip.45.135.134.139) | ckus.site | - | High
-26 | [68.183.3.178](https://vuldb.com/?ip.68.183.3.178) | - | - | High
-27 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
-28 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
-29 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
-30 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
-31 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
-32 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
-33 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
-34 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
-35 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
-36 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
-37 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
-38 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
-39 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
-40 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
-41 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
-42 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
-43 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
-44 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
-45 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
-46 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
-47 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
-48 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
-49 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
-50 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
-51 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
-52 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
-53 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
-54 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
-55 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
-56 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
-57 | [83.166.247.110](https://vuldb.com/?ip.83.166.247.110) | - | - | High
-58 | ... | ... | ... | ...
+23 | [45.77.11.107](https://vuldb.com/?ip.45.77.11.107) | 45.77.11.107.vultrusercontent.com | - | High
+24 | [45.77.229.187](https://vuldb.com/?ip.45.77.229.187) | 45.77.229.187.vultrusercontent.com | - | High
+25 | [45.77.237.252](https://vuldb.com/?ip.45.77.237.252) | 45.77.237.252.vultrusercontent.com | Ukraine Government | High
+26 | [45.134.255.131](https://vuldb.com/?ip.45.134.255.131) | - | - | High
+27 | [45.135.134.139](https://vuldb.com/?ip.45.135.134.139) | ckus.site | - | High
+28 | [68.183.3.178](https://vuldb.com/?ip.68.183.3.178) | - | - | High
+29 | [70.34.194.31](https://vuldb.com/?ip.70.34.194.31) | 70.34.194.31.vultr.com | - | Medium
+30 | [70.34.194.123](https://vuldb.com/?ip.70.34.194.123) | 70.34.194.123.vultr.com | - | Medium
+31 | [70.34.195.75](https://vuldb.com/?ip.70.34.195.75) | 70.34.195.75.vultr.com | - | Medium
+32 | [70.34.197.185](https://vuldb.com/?ip.70.34.197.185) | 70.34.197.185.vultr.com | - | Medium
+33 | [70.34.198.226](https://vuldb.com/?ip.70.34.198.226) | 70.34.198.226.vultr.com | - | Medium
+34 | [70.34.199.214](https://vuldb.com/?ip.70.34.199.214) | 70.34.199.214.vultr.com | - | Medium
+35 | [70.34.202.55](https://vuldb.com/?ip.70.34.202.55) | 70.34.202.55.vultr.com | - | Medium
+36 | [70.34.204.74](https://vuldb.com/?ip.70.34.204.74) | 70.34.204.74.vultr.com | - | Medium
+37 | [70.34.204.141](https://vuldb.com/?ip.70.34.204.141) | 70.34.204.141.vultr.com | - | Medium
+38 | [70.34.208.32](https://vuldb.com/?ip.70.34.208.32) | 70.34.208.32.vultr.com | - | Medium
+39 | [78.40.219.12](https://vuldb.com/?ip.78.40.219.12) | 628153-cn06191.tmweb.ru | Ukraine | High
+40 | [80.78.240.210](https://vuldb.com/?ip.80.78.240.210) | 80-78-240-210.cloudvps.regruhosting.ru | - | High
+41 | [80.78.241.88](https://vuldb.com/?ip.80.78.241.88) | 80-78-241-88.cloudvps.regruhosting.ru | - | High
+42 | [80.78.241.253](https://vuldb.com/?ip.80.78.241.253) | 80-78-241-253.cloudvps.regruhosting.ru | - | High
+43 | [80.78.244.124](https://vuldb.com/?ip.80.78.244.124) | 80-78-244-124.cloudvps.regruhosting.ru | - | High
+44 | [80.78.244.199](https://vuldb.com/?ip.80.78.244.199) | 80-78-244-199.cloudvps.regruhosting.ru | - | High
+45 | [80.78.245.89](https://vuldb.com/?ip.80.78.245.89) | mail-open-3.nascom.nasa.gov | - | High
+46 | [80.78.245.223](https://vuldb.com/?ip.80.78.245.223) | 80-78-245-223.cloudvps.regruhosting.ru | - | High
+47 | [80.78.245.254](https://vuldb.com/?ip.80.78.245.254) | scraper.betty.network | - | High
+48 | [80.78.248.22](https://vuldb.com/?ip.80.78.248.22) | - | - | High
+49 | [80.78.248.167](https://vuldb.com/?ip.80.78.248.167) | hadassah.moscow | - | High
+50 | [80.78.248.222](https://vuldb.com/?ip.80.78.248.222) | 80-78-248-222.cloudvps.regruhosting.ru | - | High
+51 | [80.78.251.4](https://vuldb.com/?ip.80.78.251.4) | 80-78-251-4.cloudvps.regruhosting.ru | - | High
+52 | [80.78.251.191](https://vuldb.com/?ip.80.78.251.191) | 80-78-251-191.cloudvps.regruhosting.ru | - | High
+53 | [80.78.251.231](https://vuldb.com/?ip.80.78.251.231) | 80-78-251-231.cloudvps.regruhosting.ru | - | High
+54 | [80.78.253.26](https://vuldb.com/?ip.80.78.253.26) | 80-78-253-26.cloudvps.regruhosting.ru | - | High
+55 | [80.78.253.86](https://vuldb.com/?ip.80.78.253.86) | 80-78-253-86.cloudvps.regruhosting.ru | - | High
+56 | [80.78.253.196](https://vuldb.com/?ip.80.78.253.196) | 80-78-253-196.cloudvps.regruhosting.ru | - | High
+57 | [80.78.254.238](https://vuldb.com/?ip.80.78.254.238) | 80-78-254-238.cloudvps.regruhosting.ru | - | High
+58 | [82.146.39.104](https://vuldb.com/?ip.82.146.39.104) | web.eng | - | High
+59 | [83.166.242.108](https://vuldb.com/?ip.83.166.242.108) | - | - | High
+60 | [83.166.247.110](https://vuldb.com/?ip.83.166.247.110) | - | - | High
+61 | ... | ... | ... | ...
 
-There are 230 more IOC items available. Please use our online service to access the data.
+There are 239 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,6 +127,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.blackberry.com/en/2023/01/gamaredon-abuses-telegram-to-target-ukrainian-organizations
 * https://cert.gov.ua/article/10702
 * https://github.com/blackorbird/APT_REPORT/blob/master/Gamaredon/Gamaredon202102_ioc1000%2B.csv
+* https://github.com/pan-unit42/iocs/blob/master/Gamaredon/Gamaredon_IoCs_DEC2022.txt
 * https://github.com/pan-unit42/iocs/blob/master/Gamaredon/Gamaredon_IoCs_JAN2022.txt
 * https://github.com/SentineLabs/Gamaredon-APT/blob/master/2020-02-04-gamaredon-blog-iocs-vk.misp.csv
 * https://github.com/stamparm/maltrail/blob/2d0339af3523b230d8e9a08efd22af032ec7a18e/trails/static/malware/apt_gamaredon.txt

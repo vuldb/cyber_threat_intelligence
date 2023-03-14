@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,48 +64,46 @@ ID | Type | Indicator | Confidence
 1 | File | `/.env` | Low
 2 | File | `/admin/ajax.php?action=delete_window` | High
 3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/api/admin/v2_products` | High
-5 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/as/authorization.oauth2` | High
 6 | File | `/blogengine/api/posts` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-8 | File | `/cgi-bin/upload_vpntar` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
 9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/event/admin/?page=user/list` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/fos/admin/ajax.php?action=login` | High
-14 | File | `/goform/SysToolChangePwd` | High
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/index/user/user_edit.html` | High
-17 | File | `/login/index.php` | High
-18 | File | `/obs/book.php` | High
-19 | File | `/products/view_product.php` | High
-20 | File | `/proxy` | Low
-21 | File | `/public/login.htm` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/shell` | Low
-24 | File | `/spip.php` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/tddp` | High
-27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-admin/options.php` | High
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `/_vti_pvt/access.cnf` | High
-32 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
-33 | File | `actions/UploadAction.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `add_contestant.php` | High
-36 | File | `admin/import/class-import-settings.php` | High
-37 | File | `admin/manage_user.php` | High
-38 | File | `admin/page-login.php` | High
-39 | File | `admin/panels/uploader/admin.uploader.php` | High
-40 | File | `admin/practice_pdf.php` | High
-41 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
-42 | File | `announce.php` | Medium
-43 | ... | ... | ...
+10 | File | `/event/admin/?page=user/list` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/fos/admin/ajax.php?action=login` | High
+13 | File | `/goform/SysToolChangePwd` | High
+14 | File | `/goform/WifiBasicSet` | High
+15 | File | `/index/user/user_edit.html` | High
+16 | File | `/login/index.php` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/products/view_product.php` | High
+19 | File | `/proxy` | Low
+20 | File | `/public/login.htm` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/shell` | Low
+23 | File | `/spip.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/tddp` | High
+26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-admin/options.php` | High
+29 | File | `/wp-json/wc/v3/webhooks` | High
+30 | File | `/_vti_pvt/access.cnf` | High
+31 | File | `1.x/src/rogatkin/web/WarRoller.java` | High
+32 | File | `actions/UploadAction.php` | High
+33 | File | `adclick.php` | Medium
+34 | File | `add_contestant.php` | High
+35 | File | `admin/import/class-import-settings.php` | High
+36 | File | `admin/manage_user.php` | High
+37 | File | `admin/page-login.php` | High
+38 | File | `admin/panels/uploader/admin.uploader.php` | High
+39 | File | `admin/practice_pdf.php` | High
+40 | File | `admin/template/js/uploadify/uploadify.swf` | High
+41 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

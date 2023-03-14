@@ -87,9 +87,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/spip.php` | Medium
 29 | File | `/uncpath/` | Medium
 30 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-31 | ... | ... | ...
+31 | File | `/videotalk` | Medium
+32 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

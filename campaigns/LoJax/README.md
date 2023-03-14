@@ -65,7 +65,7 @@ ID | Type | Indicator | Confidence
 8 | File | `/uncpath/` | Medium
 9 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

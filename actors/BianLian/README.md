@@ -80,29 +80,30 @@ ID | Type | Indicator | Confidence
 20 | File | `/classes/Master.php?f=delete_appointment` | High
 21 | File | `/Core/Ap4Utils.h` | High
 22 | File | `/ctpms/classes/Master.php?f=delete_application` | High
-23 | File | `/etc/passwd` | Medium
-24 | File | `/front/roomtype-details.php` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/hdf5/src/H5T.c` | High
-27 | File | `/homeaction.php` | High
-28 | File | `/horde/imp/search.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/installer/upgrade_start` | High
-31 | File | `/Items/*/RemoteImages/Download` | High
-32 | File | `/items/view_item.php` | High
-33 | File | `/lan.asp` | Medium
-34 | File | `/librarian/bookdetails.php` | High
-35 | File | `/lists/admin/` | High
-36 | File | `/login/index.php` | High
-37 | File | `/mail/index.html` | High
-38 | File | `/navigate/navigate_download.php` | High
-39 | File | `/public/plugins/` | High
-40 | File | `/rapi/read_url` | High
-41 | File | `/reps/admin/?page=agents/manage_agent` | High
-42 | File | `/rest/api/1.0/render` | High
-43 | ... | ... | ...
+23 | File | `/front/roomtype-details.php` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/hdf5/src/H5T.c` | High
+26 | File | `/homeaction.php` | High
+27 | File | `/horde/imp/search.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/installer/upgrade_start` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/items/view_item.php` | High
+32 | File | `/lan.asp` | Medium
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/lists/admin/` | High
+35 | File | `/login/index.php` | High
+36 | File | `/mail/index.html` | High
+37 | File | `/navigate/navigate_download.php` | High
+38 | File | `/public/plugins/` | High
+39 | File | `/rapi/read_url` | High
+40 | File | `/reps/admin/?page=agents/manage_agent` | High
+41 | File | `/rest/api/1.0/render` | High
+42 | File | `/rest/api/latest/projectvalidate/key` | High
+43 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+44 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -168,13 +168,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -183,38 +183,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/appliance/users?action=edit` | High
-3 | File | `/backup.pl` | Medium
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/login/index.php` | High
-8 | File | `/Moosikay/order.php` | High
-9 | File | `/out.php` | Medium
-10 | File | `/php-scrm/login.php` | High
-11 | File | `/products/view_product.php` | High
-12 | File | `/public/login.htm` | High
-13 | File | `/secure/QueryComponent!Default.jspa` | High
-14 | File | `/shell` | Low
-15 | File | `/spip.php` | Medium
-16 | File | `/tmp/boa-temp` | High
-17 | File | `/usr/bin/tddp` | High
-18 | File | `/wp-admin/admin-ajax.php` | High
-19 | File | `/wp-admin/options.php` | High
-20 | File | `/wp-json/wc/v3/webhooks` | High
-21 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-22 | File | `action.php` | Medium
-23 | File | `adclick.php` | Medium
-24 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-25 | File | `admin/disapprove_user.php` | High
-26 | File | `admin/import/class-import-settings.php` | High
+2 | File | `//` | Low
+3 | File | `/appliance/users?action=edit` | High
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/backup.pl` | Medium
+6 | File | `/cgi-bin/luci/api/auth` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/filemanager/php/connector.php` | High
+9 | File | `/files/import` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/Moosikay/order.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/php-scrm/login.php` | High
+14 | File | `/products/view_product.php` | High
+15 | File | `/public/login.htm` | High
+16 | File | `/secure/QueryComponent!Default.jspa` | High
+17 | File | `/shell` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/tmp/boa-temp` | High
+20 | File | `/wp-admin/admin-ajax.php` | High
+21 | File | `/wp-admin/options.php` | High
+22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+23 | File | `action.php` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+26 | File | `admin/disapprove_user.php` | High
 27 | File | `admin/manage_user.php` | High
-28 | File | `admin/page-login.php` | High
+28 | File | `admin/template/js/uploadify/uploadify.swf` | High
 29 | File | `adminer.php` | Medium
-30 | File | `AndroidManifest.xml` | High
-31 | ... | ... | ...
+30 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

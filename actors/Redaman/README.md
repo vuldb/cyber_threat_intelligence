@@ -73,7 +73,7 @@ ID | Type | Indicator | Confidence
 12 | File | `browser.php` | Medium
 13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

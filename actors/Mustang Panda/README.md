@@ -20,11 +20,11 @@ There are 2 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mustang Panda:
 
 * [DE](https://vuldb.com/?country.de)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,25 +32,26 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.34.178.156](https://vuldb.com/?ip.5.34.178.156) | paulojohnjerick.pserver.ru | Europe and Asia Pacific | High
-2 | [5.206.224.167](https://vuldb.com/?ip.5.206.224.167) | hardsysi | Europe | High
-3 | [18.138.107.235](https://vuldb.com/?ip.18.138.107.235) | ec2-18-138-107-235.ap-southeast-1.compute.amazonaws.com | Europe | Medium
-4 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
-5 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
-6 | [43.254.218.42](https://vuldb.com/?ip.43.254.218.42) | - | Hodur | High
-7 | [43.254.218.128](https://vuldb.com/?ip.43.254.218.128) | - | Europe and Asia Pacific | High
-8 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
-9 | [45.32.101.7](https://vuldb.com/?ip.45.32.101.7) | 45.32.101.7.vultrusercontent.com | Europe and Asia Pacific | High
-10 | [45.43.50.197](https://vuldb.com/?ip.45.43.50.197) | - | Europe | High
-11 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
-12 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
-13 | [45.134.83.4](https://vuldb.com/?ip.45.134.83.4) | - | - | High
-14 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
-15 | [45.147.26.45](https://vuldb.com/?ip.45.147.26.45) | - | Europe and Asia Pacific | High
-16 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
-17 | ... | ... | ... | ...
+1 | [3.228.54.173](https://vuldb.com/?ip.3.228.54.173) | ec2-3-228-54-173.compute-1.amazonaws.com | - | Medium
+2 | [5.34.178.156](https://vuldb.com/?ip.5.34.178.156) | paulojohnjerick.pserver.ru | Europe and Asia Pacific | High
+3 | [5.206.224.167](https://vuldb.com/?ip.5.206.224.167) | hardsysi | Europe | High
+4 | [18.138.107.235](https://vuldb.com/?ip.18.138.107.235) | ec2-18-138-107-235.ap-southeast-1.compute.amazonaws.com | Europe | Medium
+5 | [42.99.117.95](https://vuldb.com/?ip.42.99.117.95) | - | - | High
+6 | [43.254.217.67](https://vuldb.com/?ip.43.254.217.67) | - | - | High
+7 | [43.254.218.42](https://vuldb.com/?ip.43.254.218.42) | - | Hodur | High
+8 | [43.254.218.128](https://vuldb.com/?ip.43.254.218.128) | - | Europe and Asia Pacific | High
+9 | [45.32.50.150](https://vuldb.com/?ip.45.32.50.150) | 45.32.50.150.vultr.com | - | Medium
+10 | [45.32.101.7](https://vuldb.com/?ip.45.32.101.7) | 45.32.101.7.vultrusercontent.com | Europe and Asia Pacific | High
+11 | [45.43.50.197](https://vuldb.com/?ip.45.43.50.197) | - | Europe | High
+12 | [45.77.184.12](https://vuldb.com/?ip.45.77.184.12) | comm.phiu.pw | - | High
+13 | [45.131.179.179](https://vuldb.com/?ip.45.131.179.179) | - | Hodur | High
+14 | [45.134.83.4](https://vuldb.com/?ip.45.134.83.4) | - | - | High
+15 | [45.134.83.41](https://vuldb.com/?ip.45.134.83.41) | - | PlugX | High
+16 | [45.147.26.45](https://vuldb.com/?ip.45.147.26.45) | - | Europe and Asia Pacific | High
+17 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
+18 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 68 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,13 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -99,9 +100,10 @@ ID | Type | Indicator | Confidence
 24 | File | `/mygym/admin/index.php` | High
 25 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
 26 | File | `/patient/settings.php` | High
-27 | ... | ... | ...
+27 | File | `/product/savenewproduct.php?flag=1` | High
+28 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 239 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
 * https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx
 * https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/
+* https://www.welivesecurity.com/2023/03/02/mqsttang-mustang-panda-latest-backdoor-treads-new-ground-qt-mqtt/
 
 ## Literature
 

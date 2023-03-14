@@ -57,17 +57,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/admin_login.php` | High
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
-3 | File | `/etc/config/rpcd` | High
-4 | File | `/rapi/read_url` | High
-5 | File | `/setSystemAdmin` | High
-6 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-7 | File | `admin/Login.php` | High
-8 | File | `bidhistory.php` | High
-9 | File | `C:\Wamp64` | Medium
-10 | File | `cgi-bin/` | Medium
+3 | File | `/apply.cgi` | Medium
+4 | File | `/etc/config/rpcd` | High
+5 | File | `/rapi/read_url` | High
+6 | File | `/setSystemAdmin` | High
+7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+8 | File | `admin/Login.php` | High
+9 | File | `bidhistory.php` | High
+10 | File | `C:\Wamp64` | Medium
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

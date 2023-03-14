@@ -58,21 +58,21 @@ ID | Type | Indicator | Confidence
 10 | File | `/etc/tomcat8/Catalina/attack` | High
 11 | File | `/etc/uci-defaults` | High
 12 | File | `/goform/setSnmpInfo` | High
-13 | File | `/Home/debit_credit_p` | High
-14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/nova/bin/console` | High
-16 | File | `/ossn/administrator/com_installer` | High
-17 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
-18 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/user-utils/users/md5.json` | High
-21 | File | `/user/check.php` | High
-22 | File | `/var/avamar/f_cache.dat` | High
-23 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
-24 | File | `/wlanAccess.asp` | High
+13 | File | `/goform/WifiBasicSet` | High
+14 | File | `/Home/debit_credit_p` | High
+15 | File | `/mgmt/tm/util/bash` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/ossn/administrator/com_installer` | High
+18 | File | `/Source/C++/Core/Ap4DataBuffer.cpp` | High
+19 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/user-utils/users/md5.json` | High
+22 | File | `/user/check.php` | High
+23 | File | `/var/avamar/f_cache.dat` | High
+24 | File | `/vloggers_merch/admin/?page=maintenance/manage_sub_category` | High
 25 | ... | ... | ...
 
-There are 210 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

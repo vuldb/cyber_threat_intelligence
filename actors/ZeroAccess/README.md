@@ -93,15 +93,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,39 +107,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/blogengine/api/posts` | High
-4 | File | `/cgi-bin/api-get_line_status` | High
-5 | File | `/cgi-bin/luci` | High
-6 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-7 | File | `/cgi-bin/upload_vpntar` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/Content/Template/root/reverse-shell.aspx` | High
-10 | File | `/env` | Low
-11 | File | `/export` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/FreshRSS/p/ext.php` | High
-14 | File | `/goform/addressNat` | High
-15 | File | `/goform/CertListInfo` | High
-16 | File | `/goform/fast_setting_wifi_set` | High
-17 | File | `/goform/IPSECsave` | High
-18 | File | `/goform/L7Im` | Medium
-19 | File | `/goform/NatStaticSetting` | High
-20 | File | `/goform/qossetting` | High
-21 | File | `/goform/SafeClientFilter` | High
-22 | File | `/goform/SafeMacFilter` | High
-23 | File | `/goform/SafeUrlFilter` | High
-24 | File | `/goform/setMacFilterCfg` | High
-25 | File | `/goform/VirtualSer` | High
-26 | File | `/h/calendar` | Medium
-27 | File | `/hrm/controller/employee.php` | High
-28 | File | `/hrm/employeeadd.php` | High
-29 | File | `/hrm/employeeview.php` | High
-30 | File | `/lib` | Low
-31 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `//` | Low
+3 | File | `/as/authorization.oauth2` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/cgi-bin/luci/api/auth` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/filemanager/php/connector.php` | High
+8 | File | `/files/import` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/login/index.php` | High
+11 | File | `/Moosikay/order.php` | High
+12 | File | `/out.php` | Medium
+13 | File | `/products/view_product.php` | High
+14 | File | `/public/login.htm` | High
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/shell` | Low
+17 | File | `/spip.php` | Medium
+18 | File | `/tmp/boa-temp` | High
+19 | File | `/usr/bin/tddp` | High
+20 | File | `/wp-admin/admin-ajax.php` | High
+21 | File | `/wp-admin/options.php` | High
+22 | File | `/wp-json/wc/v3/webhooks` | High
+23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+24 | File | `adclick.php` | Medium
+25 | File | `admin/import/class-import-settings.php` | High
+26 | File | `admin/manage_user.php` | High
+27 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

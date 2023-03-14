@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [CA](https://vuldb.com/?country.ca)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -84,29 +84,29 @@ ID | Type | Indicator | Confidence
 21 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
 22 | File | `/var/log/nginx` | High
 23 | File | `/var/tmp/sess_*` | High
-24 | File | `/youthappam/add-food.php` | High
-25 | File | `/youthappam/editclient.php` | High
-26 | File | `action.php` | Medium
-27 | File | `actionphp/download.File.php` | High
-28 | File | `add_comment.php` | High
-29 | File | `admin.a6mambocredits.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/admin.php` | High
-32 | File | `admin/content.php` | High
-33 | File | `admin/import/class-import-settings.php` | High
-34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-35 | File | `admin/sitesettings.php` | High
-36 | File | `admin_gallery.php3` | High
-37 | File | `affich.php` | Medium
-38 | File | `agent/Core/Controller/SendRequest.cpp` | High
-39 | File | `akeyActivationLogin.do` | High
-40 | File | `album_portal.php` | High
-41 | File | `apache-auth.conf` | High
-42 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-43 | File | `Asc.exe` | Low
+24 | File | `/wp-admin/options.php` | High
+25 | File | `/youthappam/add-food.php` | High
+26 | File | `/youthappam/editclient.php` | High
+27 | File | `action.php` | Medium
+28 | File | `actionphp/download.File.php` | High
+29 | File | `add_comment.php` | High
+30 | File | `admin.a6mambocredits.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/admin.php` | High
+33 | File | `admin/content.php` | High
+34 | File | `admin/import/class-import-settings.php` | High
+35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+36 | File | `admin/sitesettings.php` | High
+37 | File | `admin_gallery.php3` | High
+38 | File | `affich.php` | Medium
+39 | File | `agent/Core/Controller/SendRequest.cpp` | High
+40 | File | `akeyActivationLogin.do` | High
+41 | File | `album_portal.php` | High
+42 | File | `apache-auth.conf` | High
+43 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
 44 | ... | ... | ...
 
-There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

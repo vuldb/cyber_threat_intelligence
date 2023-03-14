@@ -42,14 +42,16 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [23.67.200.172](https://vuldb.com/?ip.23.67.200.172) | a23-67-200-172.deploy.static.akamaitechnologies.com | - | High
 24 | [23.78.173.83](https://vuldb.com/?ip.23.78.173.83) | a23-78-173-83.deploy.static.akamaitechnologies.com | - | High
 25 | [23.218.140.208](https://vuldb.com/?ip.23.218.140.208) | a23-218-140-208.deploy.static.akamaitechnologies.com | - | High
-26 | [25.109.69.178](https://vuldb.com/?ip.25.109.69.178) | - | - | High
-27 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
-28 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
-29 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
-30 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
-31 | ... | ... | ... | ...
+26 | [24.122.252.19](https://vuldb.com/?ip.24.122.252.19) | 24-122-252-19.resi.cgocable.ca | - | High
+27 | [25.109.69.178](https://vuldb.com/?ip.25.109.69.178) | - | - | High
+28 | [31.170.166.110](https://vuldb.com/?ip.31.170.166.110) | - | - | High
+29 | [31.193.90.60](https://vuldb.com/?ip.31.193.90.60) | - | - | High
+30 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
+31 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
+32 | [34.213.158.239](https://vuldb.com/?ip.34.213.158.239) | ec2-34-213-158-239.us-west-2.compute.amazonaws.com | - | Medium
+33 | ... | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
+There are 127 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -105,6 +107,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0701-0708.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-1014-1021.html
+* https://blog.talosintelligence.com/threat-roundup-0127-0203/
 
 ## Literature
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2002,12 +2002,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -2018,50 +2017,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$GIT_DIR/objects` | High
-2 | File | `.github/workflows/combine-prs.yml` | High
-3 | File | `/admin/admin_manage/delete` | High
-4 | File | `/admin/api/admin/articles/` | High
+2 | File | `/admin.php?action=themeinstall` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/admin_manage/delete` | High
 5 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
 6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-7 | File | `/alarm_pi/alarmService.php` | High
-8 | File | `/api/` | Low
-9 | File | `/bin/httpd` | Medium
-10 | File | `/bsms_ci/index.php/book` | High
+7 | File | `/api/` | Low
+8 | File | `/APR/signup.php` | High
+9 | File | `/backup.pl` | Medium
+10 | File | `/bin/httpd` | Medium
 11 | File | `/cgi-bin/luci/api/wireless` | High
-12 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/dev/block/mmcblk0rpmb` | High
-15 | File | `/env` | Low
+12 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+13 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+14 | File | `/cmscp/ext/collect/fetch_url.do` | High
+15 | File | `/debug/pprof` | Medium
 16 | File | `/face-recognition-php/facepay-master/camera.php` | High
 17 | File | `/forms/doLogin` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/home/sendBroadcast` | High
-24 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-25 | File | `/login/index.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/orrs/admin/?page=user/manage_user` | High
-28 | File | `/out.php` | Medium
-29 | File | `/param.file.tgz` | High
-30 | File | `/proxy` | Low
-31 | File | `/reports/rwservlet` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/template/edit` | High
-36 | File | `/tmp` | Low
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/s.php` | Medium
-39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-40 | File | `/wireless/guestnetwork.asp` | High
-41 | File | `/wireless/security.asp` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | ... | ... | ...
+18 | File | `/forum/PostPrivateMessage` | High
+19 | File | `/home/masterConsole` | High
+20 | File | `/home/sendBroadcast` | High
+21 | File | `/Hospital-Management-System-master/func.php` | High
+22 | File | `/includes/login.php` | High
+23 | File | `/login/index.php` | High
+24 | File | `/mims/login.php` | High
+25 | File | `/mygym/admin/index.php?view_exercises` | High
+26 | File | `/orrs/admin/?page=user/manage_user` | High
+27 | File | `/param.file.tgz` | High
+28 | File | `/php-opos/index.php` | High
+29 | File | `/php-scrm/login.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/s.php` | Medium
+36 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

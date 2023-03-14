@@ -26,7 +26,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Configuration | High
+1 | T1204.001 | CWE-601 | Open Redirect | High
+2 | T1592 | CWE-200 | Configuration | High
 
 ## IOA - Indicator of Attack
 

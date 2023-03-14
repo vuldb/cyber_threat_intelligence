@@ -56,13 +56,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/anony/mjpg.cgi` | High
-2 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `cart.php` | Medium
-5 | File | `categorie.php3` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `cart.php` | Medium
 6 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,15 +55,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/public/plugins/` | High
-2 | File | `/rom-0` | Low
-3 | File | `/uncpath/` | Medium
-4 | File | `actions/ChangeConfiguration.html` | High
-5 | File | `ajaxfilemanager.php` | High
-6 | File | `codemeter.exe` | High
+1 | File | `.kdbgrc` | Low
+2 | File | `/cgi-bin/go` | Medium
+3 | File | `/public/plugins/` | High
+4 | File | `/rom-0` | Low
+5 | File | `/uncpath/` | Medium
+6 | File | `actions/ChangeConfiguration.html` | High
 7 | ... | ... | ...
 
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

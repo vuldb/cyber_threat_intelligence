@@ -33,12 +33,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -46,12 +48,68 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/ajax/networking/get_netcfg.php` | High
-3 | File | `/auth/session` | High
-4 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `/.env` | Low
+3 | File | `/ajax/networking/get_netcfg.php` | High
+4 | File | `/auth/session` | High
+5 | File | `/backups/` | Medium
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cardo/api` | Medium
+9 | File | `/CMD_ACCOUNT_ADMIN` | High
+10 | File | `/ecshop/admin/template.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/fos/admin/ajax.php?action=login` | High
+13 | File | `/fos/admin/index.php?page=menu` | High
+14 | File | `/home/cavesConsole` | High
+15 | File | `/home/kickPlayer` | High
+16 | File | `/home/masterConsole` | High
+17 | File | `/home/sendBroadcast` | High
+18 | File | `/oews/classes/Master.php?f=update_cart` | High
+19 | File | `/param.file.tgz` | High
+20 | File | `/picturesPreview` | High
+21 | File | `/royal_event/companyprofile.php` | High
+22 | File | `/royal_event/userregister.php` | High
+23 | File | `/user/s.php` | Medium
+24 | File | `/user/updatePwd` | High
+25 | File | `/wireless/basic.asp` | High
+26 | File | `/wireless/guestnetwork.asp` | High
+27 | File | `/wireless/security.asp` | High
+28 | File | `/zoo/admin/public_html/view_accounts?type=zookeeper` | High
+29 | File | `01article.php` | High
+30 | File | `action.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | File | `add-locker-form.php` | High
+33 | File | `add.php` | Low
+34 | File | `add_contestant.php` | High
+35 | File | `admin.php/index/upload because app/common/service/UploadService.php` | High
+36 | File | `admin/?page=students` | High
+37 | File | `admin/abc.php` | High
+38 | File | `admin/add_payment.php` | High
+39 | File | `admin/approve_user.php` | High
+40 | File | `admin/booking_report.php` | High
+41 | File | `admin/disapprove_user.php` | High
+42 | File | `admin/expense_report.php` | High
+43 | File | `admin/forget_password.php` | High
+44 | File | `admin/login.php` | High
+45 | File | `admin/manage-ticket.php` | High
+46 | File | `admin/manage_user.php` | High
+47 | File | `admin/page-login.php` | High
+48 | File | `admin/panels/entry/admin.entry.list.php` | High
+49 | File | `admin/panels/uploader/admin.uploader.php` | High
+50 | File | `admin/practice_pdf.php` | High
+51 | File | `admin/_cmdstat.jsp` | High
+52 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+53 | File | `admin_class.php` | High
+54 | File | `agent/listener/templates/tail.html` | High
+55 | File | `announce.php` | Medium
+56 | File | `APDE/src/main/java/com/calsignlabs/apde/build/dag/CopyBuildTask.java` | High
+57 | File | `api.php` | Low
+58 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java` | High
+59 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+60 | ... | ... | ...
 
-There are 22 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 522 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

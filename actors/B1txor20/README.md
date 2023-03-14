@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,37 +62,44 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/index3.php` | High
-4 | File | `/admin_area/login_transfer.php` | High
-5 | File | `/adms/admin/?page=user/manage_user` | High
-6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/ecshop/admin/template.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forums.php?action=post` | High
-14 | File | `/goform/formDefault` | High
-15 | File | `/goform/formLogin` | High
-16 | File | `/goform/formSysCmd` | High
-17 | File | `/goform/fromSetWirelessRepeat` | High
-18 | File | `/index.php` | Medium
-19 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-20 | File | `/list.php` | Medium
-21 | File | `/login/index.php` | High
-22 | File | `/medicines/profile.php` | High
-23 | File | `/Moosikay/order.php` | High
-24 | File | `/SetNetworkSettings/SubnetMask` | High
-25 | File | `/setNTP.cgi` | Medium
-26 | File | `/spip.php` | Medium
-27 | File | `/tmp` | Low
-28 | File | `/tpts/manage_user.php` | High
-29 | File | `/user/s.php` | Medium
-30 | File | `/usr/etc/restore0.9` | High
-31 | ... | ... | ...
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/index3.php` | High
+7 | File | `/admin_area/login_transfer.php` | High
+8 | File | `/adms/admin/?page=user/manage_user` | High
+9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+10 | File | `/ajax/update_certificate` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/book` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/ecshop/admin/template.php` | High
+18 | File | `/eduauth/student/search.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forums.php?action=post` | High
+21 | File | `/goform/formDefault` | High
+22 | File | `/goform/formLogin` | High
+23 | File | `/goform/formSysCmd` | High
+24 | File | `/goform/fromSetWirelessRepeat` | High
+25 | File | `/goform/WifiBasicSet` | High
+26 | File | `/index.php` | Medium
+27 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+28 | File | `/list.php` | Medium
+29 | File | `/login/index.php` | High
+30 | File | `/medicines/profile.php` | High
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/philosophy/admin/user/controller.php?action=add` | High
+33 | File | `/php-opos/signup.php` | High
+34 | File | `/reservation/add_message.php` | High
+35 | File | `/SetNetworkSettings/SubnetMask` | High
+36 | File | `/setNTP.cgi` | Medium
+37 | File | `/spip.php` | Medium
+38 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

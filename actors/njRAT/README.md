@@ -68,25 +68,25 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/login.php` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
 4 | File | `/cgi-bin/logo_extra_upload.cgi` | High
-5 | File | `/dashboard/menu-list.php` | High
-6 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-7 | File | `/dotproject/index.php` | High
-8 | File | `/etc/gsissh/sshd_config` | High
-9 | File | `/redpass.cgi` | Medium
-10 | File | `/see_more_details.php` | High
-11 | File | `/server-status` | High
-12 | File | `/tour/admin/update_packages.php` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/var/log/nginx` | High
-15 | File | `/WebMstr7/servlet/mstrWeb` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-18 | File | `adclick.php` | Medium
-19 | File | `admin.php` | Medium
-20 | File | `Admin/ADM_Pagina.php` | High
+5 | File | `/classes/profile.class.php` | High
+6 | File | `/dashboard/menu-list.php` | High
+7 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+8 | File | `/dotproject/index.php` | High
+9 | File | `/etc/gsissh/sshd_config` | High
+10 | File | `/redpass.cgi` | Medium
+11 | File | `/see_more_details.php` | High
+12 | File | `/server-status` | High
+13 | File | `/tour/admin/update_packages.php` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/var/log/nginx` | High
+16 | File | `/WebMstr7/servlet/mstrWeb` | High
+17 | File | `/wp-admin/admin-ajax.php` | High
+18 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+19 | File | `adclick.php` | Medium
+20 | File | `admin.php` | Medium
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

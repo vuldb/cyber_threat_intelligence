@@ -50,7 +50,8 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/admin_manage/delete` | High
 2 | File | `/my_photo_gallery/image.php` | High
 3 | File | `/reps/classes/Users.php?f=delete_agent` | High
-4 | ... | ... | ...
+4 | File | `/s/` | Low
+5 | ... | ... | ...
 
 There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

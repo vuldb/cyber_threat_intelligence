@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
-* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -436,14 +436,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -451,46 +450,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/upload/upload` | High
-3 | File | `/advanced-tools/nova/bin/netwatch` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/bsms_ci/index.php/book` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-8 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-9 | File | `/cgi-bin/R14.2/log.pl` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/hss/admin/?page=products/manage_product` | High
-14 | File | `/login/index.php` | High
-15 | File | `/medicines/profile.php` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/obs/book.php` | High
-18 | File | `/orrs/admin/?page=user/manage_user` | High
-19 | File | `/param.file.tgz` | High
-20 | File | `/pms/update_user.php?user_id=1` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/resources//../` | High
-23 | File | `/shell` | Low
-24 | File | `/spip.php` | Medium
-25 | File | `/subtitles.php` | High
-26 | File | `/sys/dict/queryTableData` | High
-27 | File | `/tmp` | Low
-28 | File | `/uncpath/` | Medium
-29 | File | `/user/upload/upload` | High
-30 | File | `/usr/bin/tddp` | High
-31 | File | `/vendor` | Low
-32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-33 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-json/wc/v3/webhooks` | High
-36 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-37 | File | `adclick.php` | Medium
-38 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/APR/signup.php` | High
+9 | File | `/as/authorization.oauth2` | High
+10 | File | `/boat/login.php` | High
+11 | File | `/cgi-bin/luci/api/auth` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/DXR.axd` | Medium
+14 | File | `/etc/openstack-dashboard/local_settings` | High
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/HNAP1/SetClientInfo` | High
+18 | File | `/home/www/cgi-bin/login.cgi` | High
+19 | File | `/mims/login.php` | High
+20 | File | `/net-banking/customer_transactions.php` | High
+21 | File | `/php-scrm/login.php` | High
+22 | File | `/reservation/add_message.php` | High
+23 | File | `/rukovoditel/index.php?module=users/login` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/textpattern/index.php` | High
+26 | File | `/tmp` | Low
+27 | File | `/video-sharing-script/watch-video.php` | High
+28 | File | `account-signup.php` | High
+29 | File | `account/signup.php` | High
+30 | ... | ... | ...
 
-There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

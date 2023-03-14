@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -123,46 +123,43 @@ ID | Type | Indicator | Confidence
 8 | File | `/debug/pprof` | Medium
 9 | File | `/ebics-server/ebics.aspx` | High
 10 | File | `/ecshop/admin/template.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/forum/PostPrivateMessage` | High
-13 | File | `/menu.html` | Medium
-14 | File | `/modules/snf/index.php` | High
-15 | File | `/obs/book.php` | High
-16 | File | `/orrs/admin/?page=user/manage_user` | High
-17 | File | `/ossn/administrator/com_installer` | High
-18 | File | `/pms/update_user.php?user_id=1` | High
-19 | File | `/resources//../` | High
-20 | File | `/subtitles.php` | High
-21 | File | `/sys/dict/queryTableData` | High
-22 | File | `/user/upload/upload` | High
-23 | File | `/vendor` | Low
-24 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-25 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-26 | File | `adclick.php` | Medium
-27 | File | `add_contestant.php` | High
-28 | File | `add_postit.php` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/index.php` | High
-31 | File | `admin/make_payments.php` | High
-32 | File | `admin/shophelp.php` | High
-33 | File | `administration.jsp` | High
-34 | File | `adminquery.php` | High
-35 | File | `ansfaq.asp` | Medium
-36 | File | `APKINDEX.tar.gz` | High
-37 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-38 | File | `appconfig.ini` | High
-39 | File | `appGet.cgi` | Medium
-40 | File | `artreplydelete.asp` | High
-41 | File | `AtlTraceTool8.exe` | High
-42 | File | `attachment.cgi` | High
-43 | File | `autocms.php` | Medium
-44 | File | `avahi-core/socket.c` | High
-45 | File | `base_qry_main.php` | High
-46 | File | `bgp_packet.c` | Medium
-47 | File | `Binder.java` | Medium
-48 | ... | ... | ...
+11 | File | `/etc/openstack-dashboard/local_settings` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/HNAP1/SetClientInfo` | High
+15 | File | `/home/www/cgi-bin/login.cgi` | High
+16 | File | `/menu.html` | Medium
+17 | File | `/modules/snf/index.php` | High
+18 | File | `/net-banking/customer_transactions.php` | High
+19 | File | `/obs/book.php` | High
+20 | File | `/orrs/admin/?page=user/manage_user` | High
+21 | File | `/ossn/administrator/com_installer` | High
+22 | File | `/pms/update_user.php?user_id=1` | High
+23 | File | `/resources//../` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/subtitles.php` | High
+26 | File | `/sys/dict/queryTableData` | High
+27 | File | `/user/upload/upload` | High
+28 | File | `/vendor` | Low
+29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_contestant.php` | High
+33 | File | `add_postit.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin/index.php` | High
+36 | File | `admin/make_payments.php` | High
+37 | File | `admin/shophelp.php` | High
+38 | File | `admin/TemplateController.java` | High
+39 | File | `administration.jsp` | High
+40 | File | `adminquery.php` | High
+41 | File | `ansfaq.asp` | Medium
+42 | File | `ApiController.class.php` | High
+43 | File | `APKINDEX.tar.gz` | High
+44 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+45 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -100,14 +100,14 @@ ID | Type | Indicator | Confidence
 38 | File | `4.edu.php` | Medium
 39 | File | `5.2.9\syscrb.exe` | High
 40 | File | `123flashchat.php` | High
-41 | File | `add_ons.php` | Medium
-42 | File | `add_to_cart.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/index.php` | High
-45 | File | `admin/mod_users/controller.php?action=edit` | High
+41 | File | `a2billing/customer/iridium_threed.php` | High
+42 | File | `add_ons.php` | Medium
+43 | File | `add_to_cart.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin/index.php` | High
 46 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 400 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

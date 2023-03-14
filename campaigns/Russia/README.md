@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -1996,7 +1996,7 @@ ID | IP address | Hostname | Actor | Confidence
 1960 | [81.161.114.0](https://vuldb.com/?ip.81.161.114.0) | - | [Russia Unknown](https://vuldb.com/?actor.russia_unknown) | High
 1961 | ... | ... | ... | ...
 
-There are 7838 more IOC items available. Please use our online service to access the data.
+There are 7840 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -2004,13 +2004,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2018,42 +2017,35 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-3 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-4 | File | `/bin/httpd` | Medium
-5 | File | `/bin/sh` | Low
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/forum/PostPrivateMessage` | High
-10 | File | `/home/masterConsole` | High
-11 | File | `/home/sendBroadcast` | High
-12 | File | `/Moosikay/order.php` | High
-13 | File | `/mygym/admin/index.php?view_exercises` | High
-14 | File | `/orrs/admin/?page=user/manage_user` | High
-15 | File | `/out.php` | Medium
-16 | File | `/param.file.tgz` | High
-17 | File | `/php-opos/index.php` | High
+1 | File | `//` | Low
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/api/jmeter/download/files` | High
+9 | File | `/APR/login.php` | High
+10 | File | `/APR/signup.php` | High
+11 | File | `/boat/login.php` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/DXR.axd` | Medium
+14 | File | `/etc/openstack-dashboard/local_settings` | High
+15 | File | `/files/import` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/mims/login.php` | High
 18 | File | `/php-scrm/login.php` | High
-19 | File | `/spip.php` | Medium
-20 | File | `/tmp/boa-temp` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+19 | File | `/reservation/add_message.php` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/textpattern/index.php` | High
+22 | File | `/tmp` | Low
 23 | File | `/video-sharing-script/watch-video.php` | High
-24 | File | `/wireless/security.asp` | High
-25 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-26 | File | `account-signup.php` | High
-27 | File | `action.php` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `addentry.php` | Medium
-30 | File | `admin/abc.php` | High
-31 | File | `admin/add_payment.php` | High
-32 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-33 | File | `admin/admin_editor.php` | High
-34 | ... | ... | ...
+24 | File | `/wp-json` | Medium
+25 | File | `account-signup.php` | High
+26 | File | `account/signup.php` | High
+27 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -2064,6 +2056,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://citizenlab.ca/2017/05/tainted-leaks-disinformation-phish/
 * https://community.blueliv.com/#!/s/628f220382df413eb5359232
 * https://ddanchev.blogspot.com/2022/02/the-cyber-war-between-russia-and.html
+* https://ddanchev.blogspot.com/2023/01/exposing-russian-business-networks.html
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ru.netset
 * https://isc.sans.edu/forums/diary/A+few+IoCs+related+to+CVE20205902/26378/
 * https://isc.sans.edu/forums/diary/More+Russian+language+malspam+pushing+Shade+Troldesh+ransomware/24668/

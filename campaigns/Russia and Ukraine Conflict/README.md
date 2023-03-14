@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -64,7 +64,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,57 +73,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-3 | File | `/backup.pl` | Medium
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/forum/PostPrivateMessage` | High
-7 | File | `/fos/admin/ajax.php?action=login` | High
-8 | File | `/fos/admin/index.php?page=menu` | High
-9 | File | `/home/sendBroadcast` | High
-10 | File | `/hrm/controller/employee.php` | High
-11 | File | `/hrm/employeeadd.php` | High
-12 | File | `/hrm/employeeview.php` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/Moosikay/order.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/param.file.tgz` | High
-17 | File | `/php-opos/index.php` | High
-18 | File | `/picturesPreview` | High
-19 | File | `/royal_event/companyprofile.php` | High
-20 | File | `/royal_event/userregister.php` | High
-21 | File | `/tmp/boa-temp` | High
-22 | File | `/user/s.php` | Medium
-23 | File | `/user/updatePwd` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/view-property.php` | High
-26 | File | `/wireless/guestnetwork.asp` | High
-27 | File | `/wireless/security.asp` | High
-28 | File | `01article.php` | High
-29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | File | `action.php` | Medium
-31 | File | `adclick.php` | Medium
-32 | File | `add-locker-form.php` | High
-33 | File | `add_contestant.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/abc.php` | High
-36 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-37 | File | `admin/approve_user.php` | High
-38 | File | `admin/booking_report.php` | High
-39 | File | `admin/disapprove_user.php` | High
-40 | File | `admin/expense_report.php` | High
-41 | File | `admin/gv_mail.php` | High
-42 | File | `admin/index.php` | High
-43 | File | `admin/manage_user.php` | High
-44 | File | `admin/page-login.php` | High
-45 | File | `admin/panels/entry/admin.entry.list.php` | High
-46 | File | `adminer.php` | Medium
-47 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
-48 | File | `admin_class.php` | High
-49 | File | `agent/listener/templates/tail.html` | High
-50 | ... | ... | ...
+2 | File | `//` | Low
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+5 | File | `/backup.pl` | Medium
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/files/import` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/forum/PostPrivateMessage` | High
+10 | File | `/fos/admin/ajax.php?action=login` | High
+11 | File | `/fos/admin/index.php?page=menu` | High
+12 | File | `/home/sendBroadcast` | High
+13 | File | `/Moosikay/order.php` | High
+14 | File | `/out.php` | Medium
+15 | File | `/param.file.tgz` | High
+16 | File | `/php-opos/index.php` | High
+17 | File | `/picturesPreview` | High
+18 | File | `/royal_event/companyprofile.php` | High
+19 | File | `/royal_event/userregister.php` | High
+20 | File | `/tmp/boa-temp` | High
+21 | File | `/user/s.php` | Medium
+22 | File | `/user/updatePwd` | High
+23 | File | `/wireless/guestnetwork.asp` | High
+24 | File | `/wireless/security.asp` | High
+25 | File | `01article.php` | High
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | File | `action.php` | Medium
+28 | File | `adclick.php` | Medium
+29 | File | `add-locker-form.php` | High
+30 | File | `add_contestant.php` | High
+31 | File | `admin/abc.php` | High
+32 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+33 | File | `admin/approve_user.php` | High
+34 | File | `admin/booking_report.php` | High
+35 | File | `admin/disapprove_user.php` | High
+36 | File | `admin/expense_report.php` | High
+37 | File | `admin/gv_mail.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/manage_user.php` | High
+40 | File | `admin/page-login.php` | High
+41 | File | `admin/panels/entry/admin.entry.list.php` | High
+42 | File | `adminer.php` | Medium
+43 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
+44 | File | `admin_class.php` | High
+45 | File | `agent/listener/templates/tail.html` | High
+46 | File | `announce.php` | Medium
+47 | File | `api.php` | Low
+48 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

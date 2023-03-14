@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zusy:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -115,13 +115,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -133,41 +133,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/api/theme-edit/` | High
 4 | File | `/admin/image/list` | High
-5 | File | `/admin/operations/packages.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/admin/transactions/update_status.php` | High
+5 | File | `/admin/submit-articles` | High
+6 | File | `/admin/transactions/update_status.php` | High
+7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 8 | File | `/ad_js.php` | Medium
-9 | File | `/app/options.py` | High
-10 | File | `/attachments` | Medium
-11 | File | `/bsms_ci/index.php/book` | High
-12 | File | `/catcompany.php` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cms/category/list` | High
-15 | File | `/context/%2e/WEB-INF/web.xml` | High
-16 | File | `/dashboard/reports/logs/view` | High
-17 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-18 | File | `/debug/pprof` | Medium
-19 | File | `/Default/Bd` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/egroupware/index.php` | High
-22 | File | `/etc/hosts` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/forums/editforum.php` | High
-25 | File | `/goform/CertListInfo` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/hrm/employeeview.php` | High
-29 | File | `/index.php` | Medium
-30 | File | `/index.php?module=entities/entities` | High
-31 | File | `/manage-apartment.php` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/out.php` | Medium
-35 | File | `/pages/apply_vacancy.php` | High
-36 | File | `/proc/<PID>/mem` | High
-37 | ... | ... | ...
+9 | File | `/attachments` | Medium
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/cgi-bin/luci/api/wireless` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/Default/Bd` | Medium
+16 | File | `/ebics-server/ebics.aspx` | High
+17 | File | `/egroupware/index.php` | High
+18 | File | `/etc/hosts` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/forums/editforum.php` | High
+21 | File | `/goform/CertListInfo` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php?module=entities/entities` | High
+27 | File | `/manage-apartment.php` | High
+28 | File | `/medicines/profile.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/out.php` | Medium
+31 | File | `/pages/apply_vacancy.php` | High
+32 | File | `/param.file.tgz` | High
+33 | File | `/proxy` | Low
+34 | File | `/public_html/users.php` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/sys/duplicate/check` | High
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/upload` | Low
+40 | File | `/user/s.php` | Medium
+41 | File | `/var/log/nginx` | High
+42 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [DK](https://vuldb.com/?country.dk)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -88,38 +88,37 @@ ID | Type | Indicator | Confidence
 13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
 14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 15 | File | `/adms/classes/Users.php` | High
-16 | File | `/APR/signup.php` | High
-17 | File | `/backup.pl` | Medium
-18 | File | `/bin/httpd` | Medium
-19 | File | `/boat/login.php` | High
-20 | File | `/cgi-bin/mainfunction.cgi` | High
-21 | File | `/CPE` | Low
-22 | File | `/data/config.ftp.php` | High
-23 | File | `/ecshop/admin/template.php` | High
-24 | File | `/editor/index.php` | High
-25 | File | `/edoc/doctor/patient.php` | High
-26 | File | `/etc/tomcat8/Catalina/attack` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/forum/PostPrivateMessage` | High
-29 | File | `/home/cavesConsole` | High
-30 | File | `/home/kickPlayer` | High
-31 | File | `/home/masterConsole` | High
-32 | File | `/home/sendBroadcast` | High
-33 | File | `/oews/classes/Master.php?f=update_cart` | High
-34 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-35 | File | `/param.file.tgz` | High
-36 | File | `/pet_shop/admin/orders/update_status.php` | High
-37 | File | `/php-opos/index.php` | High
-38 | File | `/ptippage.cgi` | High
-39 | File | `/ptipupgrade.cgi` | High
-40 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-41 | File | `/royal_event/userregister.php` | High
-42 | File | `/setnetworksettings/IPAddress` | High
-43 | File | `/SetNetworkSettings/SubnetMask` | High
-44 | File | `/tourism/rate_review.php` | High
-45 | ... | ... | ...
+16 | File | `/api/admin/system/store/order/list` | High
+17 | File | `/APR/signup.php` | High
+18 | File | `/backup.pl` | Medium
+19 | File | `/bin/httpd` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/cgi-bin/mainfunction.cgi` | High
+22 | File | `/CPE` | Low
+23 | File | `/data/config.ftp.php` | High
+24 | File | `/ecshop/admin/template.php` | High
+25 | File | `/editor/index.php` | High
+26 | File | `/edoc/doctor/patient.php` | High
+27 | File | `/etc/tomcat8/Catalina/attack` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/forum/PostPrivateMessage` | High
+30 | File | `/goform/SetSysTimeCfg` | High
+31 | File | `/home/cavesConsole` | High
+32 | File | `/home/kickPlayer` | High
+33 | File | `/home/masterConsole` | High
+34 | File | `/home/sendBroadcast` | High
+35 | File | `/oews/classes/Master.php?f=update_cart` | High
+36 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+37 | File | `/param.file.tgz` | High
+38 | File | `/pet_shop/admin/orders/update_status.php` | High
+39 | File | `/php-opos/index.php` | High
+40 | File | `/ptippage.cgi` | High
+41 | File | `/ptipupgrade.cgi` | High
+42 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+43 | File | `/setnetworksettings/IPAddress` | High
+44 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

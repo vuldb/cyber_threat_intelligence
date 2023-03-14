@@ -36,24 +36,25 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [27.40.253.131](https://vuldb.com/?ip.27.40.253.131) | - | - | High
 14 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
 15 | [35.244.181.201](https://vuldb.com/?ip.35.244.181.201) | 201.181.244.35.bc.googleusercontent.com | - | Medium
-16 | [43.248.201.133](https://vuldb.com/?ip.43.248.201.133) | - | - | High
-17 | [45.35.20.197](https://vuldb.com/?ip.45.35.20.197) | unassigned.psychz.net | - | High
-18 | [45.39.189.31](https://vuldb.com/?ip.45.39.189.31) | - | - | High
-19 | [45.114.11.195](https://vuldb.com/?ip.45.114.11.195) | - | - | High
-20 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
-21 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
-22 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
-23 | [50.63.202.70](https://vuldb.com/?ip.50.63.202.70) | ip-50-63-202-70.ip.secureserver.net | - | High
-24 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
-25 | [50.63.202.88](https://vuldb.com/?ip.50.63.202.88) | ip-50-63-202-88.ip.secureserver.net | - | High
-26 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
-27 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
-28 | [58.221.72.157](https://vuldb.com/?ip.58.221.72.157) | - | - | High
-29 | [58.250.136.113](https://vuldb.com/?ip.58.250.136.113) | - | - | High
-30 | [59.35.32.87](https://vuldb.com/?ip.59.35.32.87) | 87.32.35.59.broad.st.gd.dynamic.163data.com.cn | - | High
-31 | ... | ... | ... | ...
+16 | [43.230.169.58](https://vuldb.com/?ip.43.230.169.58) | - | - | High
+17 | [43.248.201.133](https://vuldb.com/?ip.43.248.201.133) | - | - | High
+18 | [45.35.20.197](https://vuldb.com/?ip.45.35.20.197) | unassigned.psychz.net | - | High
+19 | [45.39.189.31](https://vuldb.com/?ip.45.39.189.31) | - | - | High
+20 | [45.114.11.195](https://vuldb.com/?ip.45.114.11.195) | - | - | High
+21 | [45.119.125.223](https://vuldb.com/?ip.45.119.125.223) | - | - | High
+22 | [47.111.82.157](https://vuldb.com/?ip.47.111.82.157) | - | - | High
+23 | [49.2.123.56](https://vuldb.com/?ip.49.2.123.56) | - | - | High
+24 | [50.63.202.70](https://vuldb.com/?ip.50.63.202.70) | ip-50-63-202-70.ip.secureserver.net | - | High
+25 | [50.63.202.73](https://vuldb.com/?ip.50.63.202.73) | ip-50-63-202-73.ip.secureserver.net | - | High
+26 | [50.63.202.88](https://vuldb.com/?ip.50.63.202.88) | ip-50-63-202-88.ip.secureserver.net | - | High
+27 | [52.168.117.173](https://vuldb.com/?ip.52.168.117.173) | - | - | High
+28 | [54.76.135.1](https://vuldb.com/?ip.54.76.135.1) | ec2-54-76-135-1.eu-west-1.compute.amazonaws.com | - | Medium
+29 | [58.221.72.157](https://vuldb.com/?ip.58.221.72.157) | - | - | High
+30 | [58.250.136.113](https://vuldb.com/?ip.58.250.136.113) | - | - | High
+31 | [59.35.32.87](https://vuldb.com/?ip.59.35.32.87) | 87.32.35.59.broad.st.gd.dynamic.163data.com.cn | - | High
+32 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 124 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -87,18 +88,18 @@ ID | Type | Indicator | Confidence
 9 | File | `/administrator/alerts/alertLightbox.php` | High
 10 | File | `/administrator/templates/default/html/windows/right.php` | High
 11 | File | `/app/options.py` | High
-12 | File | `/apps/acs-commons/content/page-compare.html` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/cgi-bin/webadminget.cgi` | High
-16 | File | `/ci_spms/admin/category` | High
-17 | File | `/ci_spms/admin/search/searching/` | High
-18 | File | `/classes/Master.php?f=delete_appointment` | High
-19 | File | `/classes/Master.php?f=delete_train` | High
-20 | File | `/Content/Template/root/reverse-shell.aspx` | High
-21 | File | `/ctcprotocol/Protocol` | High
-22 | File | `/dashboard/menu-list.php` | High
-23 | File | `/demo/module/?module=HERE` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cgi-bin/webadminget.cgi` | High
+15 | File | `/ci_spms/admin/category` | High
+16 | File | `/ci_spms/admin/search/searching/` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Master.php?f=delete_train` | High
+19 | File | `/Content/Template/root/reverse-shell.aspx` | High
+20 | File | `/ctcprotocol/Protocol` | High
+21 | File | `/dashboard/menu-list.php` | High
+22 | File | `/demo/module/?module=HERE` | High
+23 | File | `/ebics-server/ebics.aspx` | High
 24 | File | `/ffos/classes/Master.php?f=save_category` | High
 25 | File | `/forum/away.php` | High
 26 | File | `/goform/SysToolReboot` | High
@@ -114,9 +115,11 @@ ID | Type | Indicator | Confidence
 36 | File | `/ofrs/admin/?page=user/manage_user` | High
 37 | File | `/out.php` | Medium
 38 | File | `/outgoing.php` | High
-39 | ... | ... | ...
+39 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+40 | File | `/php_action/fetchSelectedUser.php` | High
+41 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -146,6 +149,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
 * https://blog.talosintelligence.com/2022/06/threat-roundup-0527-0603.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-1014-1021.html
+* https://blog.talosintelligence.com/threat-roundup-0120-0127/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 
 ## Literature

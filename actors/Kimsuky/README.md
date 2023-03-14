@@ -62,32 +62,32 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/?/admin/snippet/add` | High
-3 | File | `/assets/something/services/AppModule.class` | High
-4 | File | `/bin/false` | Medium
-5 | File | `/cgi-bin/luci/api/wireless` | High
-6 | File | `/cgi-bin/webproc` | High
-7 | File | `/editsettings` | High
-8 | File | `/expert_wizard.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/images/browserslide.jpg` | High
-11 | File | `/includes/lib/get.php` | High
-12 | File | `/login` | Low
-13 | File | `/main?cmd=invalid_browser` | High
-14 | File | `/manager?action=getlogcat` | High
-15 | File | `/mc` | Low
-16 | File | `/plugins/Dashboard/Controller.php` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-19 | File | `/SASWebReportStudio/logonAndRender.do` | High
-20 | File | `/scas/admin/` | Medium
-21 | File | `/static/ueditor/php/controller.php` | High
-22 | File | `/tlogin.cgi` | Medium
-23 | File | `/tmp/scfgdndf` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload` | Low
+3 | File | `/api/upload` | Medium
+4 | File | `/assets/something/services/AppModule.class` | High
+5 | File | `/bin/false` | Medium
+6 | File | `/cgi-bin/luci/api/wireless` | High
+7 | File | `/cgi-bin/webproc` | High
+8 | File | `/editsettings` | High
+9 | File | `/expert_wizard.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/images/browserslide.jpg` | High
+12 | File | `/includes/lib/get.php` | High
+13 | File | `/login` | Low
+14 | File | `/main?cmd=invalid_browser` | High
+15 | File | `/manager?action=getlogcat` | High
+16 | File | `/mc` | Low
+17 | File | `/plugins/Dashboard/Controller.php` | High
+18 | File | `/public/plugins/` | High
+19 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/scas/admin/` | Medium
+22 | File | `/static/ueditor/php/controller.php` | High
+23 | File | `/tlogin.cgi` | Medium
+24 | File | `/tmp/scfgdndf` | High
+25 | File | `/uncpath/` | Medium
 26 | ... | ... | ...
 
-There are 221 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
