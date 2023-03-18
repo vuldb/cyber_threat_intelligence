@@ -57,27 +57,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/countrymanagement.php` | High
-2 | File | `/admin/newsletter1.php` | High
-3 | File | `/admin/payment.php` | High
-4 | File | `/doc/packages` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/getcfg.php` | Medium
-7 | File | `/hrm/employeeview.php` | High
-8 | File | `/login` | Low
-9 | File | `/mkshop/Men/profile.php` | High
-10 | File | `/newsDia.php` | Medium
-11 | File | `/product_list.php` | High
-12 | File | `/rom-0` | Low
-13 | File | `/scas/admin/` | Medium
-14 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-15 | File | `/tpts/manage_user.php` | High
-16 | File | `/var/log/nginx` | High
-17 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-18 | File | `adclick.php` | Medium
+1 | File | `/admin.php/update/getFile.html` | High
+2 | File | `/admin/countrymanagement.php` | High
+3 | File | `/admin/newsletter1.php` | High
+4 | File | `/admin/payment.php` | High
+5 | File | `/doc/packages` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/getcfg.php` | Medium
+8 | File | `/hrm/employeeview.php` | High
+9 | File | `/login` | Low
+10 | File | `/mkshop/Men/profile.php` | High
+11 | File | `/newsDia.php` | Medium
+12 | File | `/product_list.php` | High
+13 | File | `/rom-0` | Low
+14 | File | `/scas/admin/` | Medium
+15 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+16 | File | `/tpts/manage_user.php` | High
+17 | File | `/var/log/nginx` | High
+18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
 19 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

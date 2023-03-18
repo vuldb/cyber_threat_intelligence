@@ -159,7 +159,7 @@ ID | Type | Indicator | Confidence
 44 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
 45 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

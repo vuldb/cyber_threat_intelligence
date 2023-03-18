@@ -52,22 +52,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/cgi-bin/admin/testserver.cgi` | High
 3 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
 4 | File | `/export` | Low
-5 | File | `/icingaweb2/navigation/add` | High
-6 | File | `/recordings/index.php` | High
-7 | File | `/secure/QueryComponent!Default.jspa` | High
-8 | File | `/spip.php` | Medium
-9 | File | `/student/bookdetails.php` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/wp-admin/admin-ajax.php` | High
-12 | File | `adclick.php` | Medium
-13 | File | `agent/Core/Controller/SendRequest.cpp` | High
-14 | File | `api_poller.php` | High
-15 | File | `arformcontroller.php` | High
-16 | File | `attachmentlibrary.php` | High
-17 | File | `backend/Login/load/` | High
-18 | ... | ... | ...
+5 | File | `/forum/away.php` | High
+6 | File | `/icingaweb2/navigation/add` | High
+7 | File | `/recordings/index.php` | High
+8 | File | `/secure/QueryComponent!Default.jspa` | High
+9 | File | `/spip.php` | Medium
+10 | File | `/student/bookdetails.php` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/wp-admin/admin-ajax.php` | High
+13 | File | `adclick.php` | Medium
+14 | File | `agent/Core/Controller/SendRequest.cpp` | High
+15 | File | `api_poller.php` | High
+16 | File | `arformcontroller.php` | High
+17 | File | `attachmentlibrary.php` | High
+18 | File | `backend/Login/load/` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

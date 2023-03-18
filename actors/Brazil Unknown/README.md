@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1426,18 +1426,19 @@ ID | Type | Indicator | Confidence
 13 | File | `/tmp` | Low
 14 | File | `account-signup.php` | High
 15 | File | `account/signup.php` | High
-16 | File | `action.php` | Medium
-17 | File | `addentry.php` | Medium
-18 | File | `admin-ajax.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-21 | File | `admin/admin_editor.php` | High
-22 | File | `admin/conf_users_edit.php` | High
-23 | File | `adminer.php` | Medium
+16 | File | `addentry.php` | Medium
+17 | File | `admin-ajax.php` | High
+18 | File | `admin.php` | Medium
+19 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+20 | File | `admin/admin_editor.php` | High
+21 | File | `admin/conf_users_edit.php` | High
+22 | File | `adminer.php` | Medium
+23 | File | `articulo.php` | Medium
 24 | File | `blocks/block-Old_Articles.php` | High
-25 | ... | ... | ...
+25 | File | `bp_ncom.php` | Medium
+26 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

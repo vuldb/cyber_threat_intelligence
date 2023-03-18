@@ -104,28 +104,28 @@ ID | Type | Indicator | Confidence
 22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
 23 | File | `/module/module_frame/index.php` | High
 24 | File | `/net-banking/customer_transactions.php` | High
-25 | File | `/northstar/Admin/changePassword.jsp` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/orms/` | Low
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/sre/params.php` | High
-31 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-32 | File | `/tmp` | Low
-33 | File | `/tmp/xbindkeysrc-tmp` | High
-34 | File | `/user/upload/upload` | High
-35 | File | `/Users` | Low
-36 | File | `/var/spool/hylafax` | High
-37 | File | `/vendor` | Low
-38 | File | `/whbs/?page=my_bookings` | High
-39 | File | `access_rules/rules_form` | High
-40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-41 | File | `action/addproject.php` | High
-42 | File | `adclick.php` | Medium
-43 | File | `add_contestant.php` | High
+25 | File | `/obs/book.php` | High
+26 | File | `/ossn/administrator/com_installer` | High
+27 | File | `/pms/update_user.php?user_id=1` | High
+28 | File | `/sre/params.php` | High
+29 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/xbindkeysrc-tmp` | High
+32 | File | `/user/upload/upload` | High
+33 | File | `/Users` | Low
+34 | File | `/var/spool/hylafax` | High
+35 | File | `/vendor` | Low
+36 | File | `/whbs/?page=my_bookings` | High
+37 | File | `access_rules/rules_form` | High
+38 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+39 | File | `action/addproject.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `add_contestant.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin/ajax.attachment.php` | High
 44 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

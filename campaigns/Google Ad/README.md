@@ -63,11 +63,11 @@ ID | Type | Indicator | Confidence
 6 | File | `/setSystemAdmin` | High
 7 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 8 | File | `admin/Login.php` | High
-9 | File | `bidhistory.php` | High
-10 | File | `C:\Wamp64` | Medium
+9 | File | `appserv/main.php` | High
+10 | File | `bidhistory.php` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

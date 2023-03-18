@@ -161,10 +161,9 @@ ID | Type | Indicator | Confidence
 48 | File | `/video-sharing-script/watch-video.php` | High
 49 | File | `/wireless/security.asp` | High
 50 | File | `/xxl-job-admin/jobinfo` | High
-51 | File | `01article.php` | High
-52 | ... | ... | ...
+51 | ... | ... | ...
 
-There are 452 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

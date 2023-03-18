@@ -790,8 +790,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -815,33 +814,34 @@ ID | Type | Indicator | Confidence
 12 | File | `/bin/httpd` | Medium
 13 | File | `/boat/login.php` | High
 14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dev/block/mmcblk0rpmb` | High
-17 | File | `/DXR.axd` | Medium
-18 | File | `/files/import` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/home/sendBroadcast` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/medicines/profile.php` | High
-26 | File | `/Moosikay/order.php` | High
-27 | File | `/mygym/admin/index.php?view_exercises` | High
-28 | File | `/out.php` | Medium
-29 | File | `/param.file.tgz` | High
-30 | File | `/php-opos/index.php` | High
-31 | File | `/reports/rwservlet` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/tmp/boa-temp` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | File | `/video-sharing-script/watch-video.php` | High
-38 | File | `/wireless/security.asp` | High
-39 | ... | ... | ...
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/dev/block/mmcblk0rpmb` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/files/import` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/fos/admin/ajax.php?action=login` | High
+22 | File | `/fos/admin/index.php?page=menu` | High
+23 | File | `/home/masterConsole` | High
+24 | File | `/home/sendBroadcast` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/medicines/profile.php` | High
+27 | File | `/Moosikay/order.php` | High
+28 | File | `/mygym/admin/index.php?view_exercises` | High
+29 | File | `/out.php` | Medium
+30 | File | `/param.file.tgz` | High
+31 | File | `/php-opos/index.php` | High
+32 | File | `/public/launchNewWindow.jsp` | High
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/tmp/boa-temp` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+38 | File | `/video-sharing-script/watch-video.php` | High
+39 | File | `/wireless/security.asp` | High
+40 | ... | ... | ...
 
-There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

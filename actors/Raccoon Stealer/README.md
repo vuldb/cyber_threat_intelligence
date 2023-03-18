@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -67,54 +67,70 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin.php/Admin/adminadd.html` | High
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/ajax.php?action=delete_window` | High
-5 | File | `/admin/api/theme-edit/` | High
-6 | File | `/admin/article/list_approve` | High
-7 | File | `/admin/folderrollpicture/list` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/api/index.php` | High
-10 | File | `/api/RecordingList/DownloadRecord?file=` | High
-11 | File | `/api/upload-resource` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/bd_genie_create_account.cgi` | High
-14 | File | `/csms/classes/Master.php?f=delete_booking` | High
-15 | File | `/dev/mem` | Medium
-16 | File | `/dev/mmz_userdev` | High
-17 | File | `/diagnostic/editcategory.php` | High
-18 | File | `/etc/crash` | Medium
-19 | File | `/etc/passwd` | Medium
-20 | File | `/goform/addUserName` | High
-21 | File | `/goform/delAd` | High
-22 | File | `/goform/SysToolReboot` | High
-23 | File | `/goform/SysToolRestoreSet` | High
-24 | File | `/goform/WifiBasicSet` | High
-25 | File | `/goform/wifiSSIDset` | High
-26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/h/search?action` | High
-28 | File | `/h/search?action=voicemail&action=listen` | High
-29 | File | `/HNAP1` | Low
+1 | File | `/admin.php/Admin/adminadd.html` | High
+2 | File | `/admin/ajax.php?action=delete_window` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/settings/save.php` | High
+5 | File | `/ad_js.php` | Medium
+6 | File | `/agc/vicidial.php` | High
+7 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+8 | File | `/api/index.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/APR/signup.php` | High
+11 | File | `/aux` | Low
+12 | File | `/categorypage.php` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/cha.php` | Medium
+15 | File | `/College/admin/teacher.php` | High
+16 | File | `/dev/mem` | Medium
+17 | File | `/drivers/block/floppy.c` | High
+18 | File | `/etc/config/product.ini` | High
+19 | File | `/etc/crash` | Medium
+20 | File | `/etc/passwd` | Medium
+21 | File | `/etc/shadow` | Medium
+22 | File | `/fos/admin/ajax.php` | High
+23 | File | `/goform/addUserName` | High
+24 | File | `/goform/delAd` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/goform/SysToolRestoreSet` | High
+27 | File | `/goform/WifiBasicSet` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/gpac/src/bifs/unquantize.c` | High
 30 | File | `/hss/admin/categories/view_category.php` | High
-31 | File | `/htdocs/upnpinc/gena.php` | High
-32 | File | `/index.asp` | Medium
-33 | File | `/index.php` | Medium
-34 | File | `/index.php?module=entities/fields&entities_id=24` | High
-35 | File | `/jfinal_cms/system/role/list` | High
-36 | File | `/login/index.php` | High
-37 | File | `/medicines/profile.php` | High
-38 | File | `/menu.html` | Medium
-39 | File | `/module/report_event/index.php` | High
-40 | File | `/pdfalto/src/pdfalto.cc` | High
-41 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-42 | File | `/phpinventory/edituser.php` | High
-43 | File | `/php_action/createProduct.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/index.php?module=entities/fields&entities_id=24` | High
+33 | File | `/login/index.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/menu.html` | Medium
+36 | File | `/Moosikay/order.php` | High
+37 | File | `/ordering/admin/orders/loaddata.php` | High
+38 | File | `/ordering/admin/stockin/loaddata.php` | High
+39 | File | `/pdfalto/src/pdfalto.cc` | High
+40 | File | `/philosophy/admin/login.php` | High
+41 | File | `/php-opos/login.php` | High
+42 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+43 | File | `/priv_mgt.html` | High
 44 | File | `/queuing/index.php?page=display` | High
-45 | File | `/release-x64/otfccdump+0x6e1fc8` | High
-46 | ... | ... | ...
+45 | File | `/sys/duplicate/check` | High
+46 | File | `/tmp/app/.env` | High
+47 | File | `/ui/cbpc/login` | High
+48 | File | `/user/updatePwd` | High
+49 | File | `/users/delete/2` | High
+50 | File | `/usr/sbin/httpd` | High
+51 | File | `/usr/sbin/nagios` | High
+52 | File | `/var/tmp/audacity-$USER` | High
+53 | File | `/webman/info.cgi` | High
+54 | File | `/wp-json/wc/v3/webhooks` | High
+55 | File | `3G/UMTS` | Low
+56 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
+57 | File | `account_change.php` | High
+58 | File | `ad.php` | Low
+59 | File | `adclick.php` | Medium
+60 | File | `add_product.php` | High
+61 | File | `admin/partials/ajax/add_field_to_form.php` | High
+62 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

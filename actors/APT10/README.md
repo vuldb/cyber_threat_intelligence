@@ -59,7 +59,8 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [43.245.196.124](https://vuldb.com/?ip.43.245.196.124) | - | Cache Panda | High
 26 | [45.62.112.161](https://vuldb.com/?ip.45.62.112.161) | 45.62.112.161.16clouds.com | Cloud Hopper | High
 27 | [45.77.28.124](https://vuldb.com/?ip.45.77.28.124) | 45.77.28.124.vultrusercontent.com | LODEINFO | High
-28 | ... | ... | ... | ...
+28 | [45.138.157.83](https://vuldb.com/?ip.45.138.157.83) | google.com.tm | A41APT | High
+29 | ... | ... | ... | ...
 
 There are 110 more IOC items available. Please use our online service to access the data.
 
@@ -112,10 +113,9 @@ ID | Type | Indicator | Confidence
 27 | File | `/uncpath/` | Medium
 28 | File | `/v2/quantum/save-data-upload-big-file` | High
 29 | File | `4.edu.php` | Medium
-30 | File | `adclick.php` | Medium
-31 | ... | ... | ...
+30 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -129,6 +129,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://securelist.com/apt10-sophisticated-multi-layered-loader-ecipekac-discovered-in-a41apt-campaign/101519/
 * https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-i/
 * https://securelist.com/apt10-tracking-down-lodeinfo-2022-part-ii/
+* https://symantec-enterprise-blogs.security.com/blogs/threat-intelligence/cicada-apt10-china-ngo-government-attacks
 * https://www.fireeye.com/blog/threat-research/2018/09/apt10-targeting-japanese-corporations-using-updated-ttps.html
 * https://www.threatminer.org/report.php?q=Accenture-Hogfish-Threat-Analysis.pdf&y=2018
 * https://www.threatminer.org/report.php?q=cloud-hopper-indicators-of-compromise-v3-PwC.pdf&y=2017

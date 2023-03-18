@@ -58,7 +58,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -68,33 +69,34 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/bsms_ci/index.php/user/edit_user/` | High
-2 | File | `/env` | Low
-3 | File | `/files/import` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/FreshRSS/p/ext.php` | High
-6 | File | `/goform/addressNat` | High
-7 | File | `/goform/CertListInfo` | High
-8 | File | `/goform/fast_setting_wifi_set` | High
-9 | File | `/goform/IPSECsave` | High
-10 | File | `/goform/L7Im` | Medium
-11 | File | `/goform/NatStaticSetting` | High
-12 | File | `/goform/qossetting` | High
-13 | File | `/goform/SafeClientFilter` | High
-14 | File | `/goform/SafeMacFilter` | High
-15 | File | `/goform/SafeUrlFilter` | High
-16 | File | `/goform/setMacFilterCfg` | High
-17 | File | `/goform/SysToolReboot` | High
-18 | File | `/goform/SysToolRestoreSet` | High
-19 | File | `/goform/VirtualSer` | High
-20 | File | `/hrm/controller/employee.php` | High
-21 | File | `/hrm/employeeadd.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/leave_system/admin/?page=maintenance/department` | High
-24 | File | `/lib` | Low
-25 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/api/jmeter/download/files` | High
+3 | File | `/APR/login.php` | High
+4 | File | `/DXR.axd` | Medium
+5 | File | `/env` | Low
+6 | File | `/files/import` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/FreshRSS/p/ext.php` | High
+9 | File | `/goform/addressNat` | High
+10 | File | `/goform/CertListInfo` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | File | `/goform/IPSECsave` | High
+13 | File | `/goform/L7Im` | Medium
+14 | File | `/goform/NatStaticSetting` | High
+15 | File | `/goform/qossetting` | High
+16 | File | `/goform/SafeClientFilter` | High
+17 | File | `/goform/SafeMacFilter` | High
+18 | File | `/goform/SafeUrlFilter` | High
+19 | File | `/goform/setMacFilterCfg` | High
+20 | File | `/goform/SysToolRestoreSet` | High
+21 | File | `/goform/VirtualSer` | High
+22 | File | `/hrm/controller/employee.php` | High
+23 | File | `/hrm/employeeadd.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/lib` | Low
+26 | ... | ... | ...
 
-There are 212 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

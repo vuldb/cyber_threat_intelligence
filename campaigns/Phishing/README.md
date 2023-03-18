@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 27 more country items available. Please use our online service to access the data.
@@ -124,44 +124,44 @@ ID | Type | Indicator | Confidence
 13 | File | `/bin/httpd` | Medium
 14 | File | `/boat/login.php` | High
 15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/dev/block/mmcblk0rpmb` | High
-19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/face-recognition-php/facepay-master/camera.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/fos/admin/ajax.php?action=login` | High
-24 | File | `/fos/admin/index.php?page=menu` | High
-25 | File | `/goform/wizard_end` | High
-26 | File | `/home/masterConsole` | High
-27 | File | `/home/sendBroadcast` | High
-28 | File | `/hrm/employeeadd.php` | High
-29 | File | `/hrm/employeeview.php` | High
-30 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-31 | File | `/lookin/info` | Medium
-32 | File | `/medicines/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/MTFWU` | Low
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/context/%2e/WEB-INF/web.xml` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dev/block/mmcblk0rpmb` | High
+20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+21 | File | `/etc/hosts` | Medium
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/fos/admin/ajax.php?action=login` | High
+25 | File | `/fos/admin/index.php?page=menu` | High
+26 | File | `/goform/wizard_end` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/home/sendBroadcast` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+32 | File | `/lookin/info` | Medium
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 35 | File | `/mygym/admin/index.php?view_exercises` | High
 36 | File | `/out.php` | Medium
 37 | File | `/php-opos/index.php` | High
 38 | File | `/proxy` | Low
-39 | File | `/Redcock-Farm/farm/category.php` | High
-40 | File | `/reports/rwservlet` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/tmp` | Low
-44 | File | `/uncpath/` | Medium
-45 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-46 | File | `/video-sharing-script/watch-video.php` | High
-47 | File | `/wireless/security.asp` | High
-48 | File | `/wp-admin/admin-ajax.php` | High
-49 | File | `01article.php` | High
-50 | File | `AbstractScheduleJob.java` | High
+39 | File | `/public/launchNewWindow.jsp` | High
+40 | File | `/Redcock-Farm/farm/category.php` | High
+41 | File | `/reports/rwservlet` | High
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/tmp` | Low
+45 | File | `/uncpath/` | Medium
+46 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+47 | File | `/video-sharing-script/watch-video.php` | High
+48 | File | `/wireless/security.asp` | High
+49 | File | `/wp-admin/admin-ajax.php` | High
+50 | File | `01article.php` | High
 51 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

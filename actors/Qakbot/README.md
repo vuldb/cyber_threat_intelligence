@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2633,13 +2633,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-27, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2649,17 +2650,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `//` | Low
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/api/jmeter/download/files` | High
-5 | File | `/APR/login.php` | High
-6 | File | `/as/authorization.oauth2` | High
-7 | File | `/boat/login.php` | High
-8 | File | `/bsms_ci/index.php/user/edit_user/` | High
-9 | File | `/cgi-bin/luci/api/auth` | High
-10 | File | `/cgi-bin/wapopen` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/cimom` | Low
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
+3 | File | `/admin/delete_user.php` | High
+4 | File | `/admin/patient.php` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/jmeter/download/files` | High
+7 | File | `/APR/login.php` | High
+8 | File | `/as/authorization.oauth2` | High
+9 | File | `/boat/login.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/luci/api/auth` | High
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
 14 | File | `/DXR.axd` | Medium
 15 | File | `/ecshop/admin/template.php` | High
 16 | File | `/etc/openstack-dashboard/local_settings` | High
@@ -2675,15 +2676,19 @@ ID | Type | Indicator | Confidence
 26 | File | `/net-banking/customer_transactions.php` | High
 27 | File | `/out.php` | Medium
 28 | File | `/php-opos/index.php` | High
-29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-30 | File | `/rukovoditel/index.php?module=users/login` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/tmp/boa-temp` | High
-33 | File | `/tourism/rate_review.php` | High
-34 | File | `/uncpath/` | Medium
-35 | ... | ... | ...
+29 | File | `/public/launchNewWindow.jsp` | High
+30 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+31 | File | `/rukovoditel/index.php?module=users/login` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/tmp/boa-temp` | High
+34 | File | `/tourism/rate_review.php` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `/wp-admin/options.php` | High
+38 | File | `/wp-json` | Medium
+39 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

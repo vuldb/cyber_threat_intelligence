@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -442,7 +442,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -456,9 +456,9 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/APR/signup.php` | High
-9 | File | `/as/authorization.oauth2` | High
+7 | File | `/admin/patient.php` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/APR/signup.php` | High
 10 | File | `/boat/login.php` | High
 11 | File | `/cgi-bin/luci/api/auth` | High
 12 | File | `/debug/pprof` | Medium
@@ -476,12 +476,13 @@ ID | Type | Indicator | Confidence
 24 | File | `/secure/QueryComponent!Default.jspa` | High
 25 | File | `/textpattern/index.php` | High
 26 | File | `/tmp` | Low
-27 | File | `/video-sharing-script/watch-video.php` | High
-28 | File | `account-signup.php` | High
-29 | File | `account/signup.php` | High
-30 | ... | ... | ...
+27 | File | `account-signup.php` | High
+28 | File | `account/signup.php` | High
+29 | File | `AcquisiAction.class.php` | High
+30 | File | `addentry.php` | Medium
+31 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

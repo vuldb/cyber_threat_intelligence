@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -790,20 +790,20 @@ ID | Type | Indicator | Confidence
 36 | File | `/MIME/INBOX-MM-1/` | High
 37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 38 | File | `/mygym/admin/index.php?view_exercises` | High
-39 | File | `/out.php` | Medium
-40 | File | `/php-opos/index.php` | High
-41 | File | `/project/PROJECTNAME/reports/` | High
-42 | File | `/proxy` | Low
-43 | File | `/Redcock-Farm/farm/category.php` | High
-44 | File | `/reports/rwservlet` | High
-45 | File | `/reservation/add_message.php` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/tmp` | Low
-48 | File | `/uncpath/` | Medium
-49 | File | `/var/log/nginx` | High
+39 | File | `/php-opos/index.php` | High
+40 | File | `/project/PROJECTNAME/reports/` | High
+41 | File | `/proxy` | Low
+42 | File | `/Redcock-Farm/farm/category.php` | High
+43 | File | `/reports/rwservlet` | High
+44 | File | `/reservation/add_message.php` | High
+45 | File | `/spip.php` | Medium
+46 | File | `/tmp` | Low
+47 | File | `/uncpath/` | Medium
+48 | File | `/var/log/nginx` | High
+49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 50 | ... | ... | ...
 
-There are 437 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

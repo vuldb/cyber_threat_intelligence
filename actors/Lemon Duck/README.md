@@ -49,12 +49,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,24 +64,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/edit-doc.php` | High
-3 | File | `/as/authorization.oauth2` | High
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/cgi-bin/api-get_line_status` | High
-6 | File | `/cgi-bin/luci` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/cgi/trustclustermaster.cgi` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/DXR.axd` | Medium
-15 | File | `/export` | Low
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/SetPptpServerCfg` | High
-19 | File | `/h/calendar` | Medium
-20 | File | `/hrm/controller/employee.php` | High
+3 | File | `/admin/patient.php` | High
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/blogengine/api/posts` | High
+6 | File | `/cgi-bin/api-get_line_status` | High
+7 | File | `/cgi-bin/luci` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+10 | File | `/cgi-bin/upload_vpntar` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/cgi/trustclustermaster.cgi` | High
+13 | File | `/Content/Template/root/reverse-shell.aspx` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/export` | Low
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/SetPptpServerCfg` | High
+20 | File | `/h/calendar` | Medium
 21 | File | `/js/app.js` | Medium
 22 | File | `/login/index.php` | High
 23 | File | `/obs/book.php` | High
@@ -96,7 +96,7 @@ ID | Type | Indicator | Confidence
 32 | File | `/usr/bin/tddp` | High
 33 | ... | ... | ...
 
-There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

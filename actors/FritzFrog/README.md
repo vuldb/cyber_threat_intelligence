@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -337,7 +337,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -346,44 +346,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/index2.html` | High
-3 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-4 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-5 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-6 | File | `/APR/signup.php` | High
-7 | File | `/as/authorization.oauth2` | High
-8 | File | `/bin/httpd` | Medium
-9 | File | `/bin/sh` | Low
-10 | File | `/boat/login.php` | High
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/luci/api/auth` | High
-13 | File | `/cgi-bin/luci/api/wireless` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/cimom` | Low
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/controller/OnlinePreviewController.java` | High
-18 | File | `/data/wps.setup.json` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/ecshop/admin/template.php` | High
-21 | File | `/etc/openstack-dashboard/local_settings` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/forum/PostPrivateMessage` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/home/sendBroadcast` | High
-26 | File | `/home/www/cgi-bin/login.cgi` | High
-27 | File | `/IISADMPWD` | Medium
-28 | File | `/Moosikay/order.php` | High
-29 | File | `/mygym/admin/index.php?view_exercises` | High
-30 | File | `/net-banking/customer_transactions.php` | High
-31 | File | `/out.php` | Medium
-32 | File | `/pet_shop/admin/orders/update_status.php` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-36 | File | `/secure/QueryComponent!Default.jspa` | High
-37 | ... | ... | ...
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/admin/index2.html` | High
+4 | File | `/admin/patient.php` | High
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+8 | File | `/APR/login.php` | High
+9 | File | `/APR/signup.php` | High
+10 | File | `/as/authorization.oauth2` | High
+11 | File | `/bin/sh` | Low
+12 | File | `/boat/login.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/cgi-bin/luci/api/auth` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/cimom` | Low
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/controller/OnlinePreviewController.java` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/ecshop/admin/template.php` | High
+23 | File | `/etc/openstack-dashboard/local_settings` | High
+24 | File | `/etc/sudoers` | Medium
+25 | File | `/filemanager/php/connector.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/forum/PostPrivateMessage` | High
+28 | File | `/home/www/cgi-bin/login.cgi` | High
+29 | File | `/IISADMPWD` | Medium
+30 | File | `/Moosikay/order.php` | High
+31 | File | `/mygym/admin/index.php?view_exercises` | High
+32 | File | `/net-banking/customer_transactions.php` | High
+33 | File | `/out.php` | Medium
+34 | File | `/pet_shop/admin/orders/update_status.php` | High
+35 | File | `/php-opos/index.php` | High
+36 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

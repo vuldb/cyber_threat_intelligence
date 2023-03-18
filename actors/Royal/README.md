@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [EG](https://vuldb.com/?country.eg)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,40 +58,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/apply.cgi` | Medium
-3 | File | `/as/authorization.oauth2` | High
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/cgi-bin/api-get_line_status` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-8 | File | `/cgi-bin/upload_vpntar` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/Content/Template/root/reverse-shell.aspx` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/export` | Low
-13 | File | `/filemanager/php/connector.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/delAd` | High
-16 | File | `/h/calendar` | Medium
-17 | File | `/login/index.php` | High
-18 | File | `/Moosikay/order.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/products/view_product.php` | High
-21 | File | `/public/login.htm` | High
-22 | File | `/rukovoditel/index.php?module=users/login` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/services/view_service.php` | High
-25 | File | `/shell` | Low
-26 | File | `/spip.php` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/usr/bin/tddp` | High
-29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-30 | File | `/webman/info.cgi` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-admin/options.php` | High
+2 | File | `/admin/patient.php` | High
+3 | File | `/apply.cgi` | Medium
+4 | File | `/as/authorization.oauth2` | High
+5 | File | `/blogengine/api/posts` | High
+6 | File | `/cgi-bin/api-get_line_status` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+9 | File | `/cgi-bin/upload_vpntar` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/DXR.axd` | Medium
+13 | File | `/export` | Low
+14 | File | `/filemanager/php/connector.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/delAd` | High
+17 | File | `/h/calendar` | Medium
+18 | File | `/login/index.php` | High
+19 | File | `/Moosikay/order.php` | High
+20 | File | `/obs/book.php` | High
+21 | File | `/products/view_product.php` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/rukovoditel/index.php?module=users/login` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/services/view_service.php` | High
+26 | File | `/shell` | Low
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/tddp` | High
+30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+31 | File | `/webman/info.cgi` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
 33 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

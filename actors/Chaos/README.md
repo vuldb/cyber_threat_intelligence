@@ -78,16 +78,15 @@ ID | Type | Indicator | Confidence
 23 | File | `/images/` | Medium
 24 | File | `/isms/classes/Users.php` | High
 25 | File | `/login` | Low
-26 | File | `/MagickCore/quantize.c` | High
-27 | File | `/mc` | Low
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/ofrs/admin/?page=teams/view_team` | High
-31 | File | `/one_church/userregister.php` | High
-32 | File | `/out.php` | Medium
-33 | ... | ... | ...
+26 | File | `/mc` | Low
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/ofrs/admin/?page=teams/view_team` | High
+30 | File | `/one_church/userregister.php` | High
+31 | File | `/out.php` | Medium
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

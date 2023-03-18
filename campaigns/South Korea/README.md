@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [BE](https://vuldb.com/?country.be)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -360,7 +360,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -373,28 +373,28 @@ ID | Type | Indicator | Confidence
 3 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 4 | File | `/APR/login.php` | High
 5 | File | `/APR/signup.php` | High
-6 | File | `/bin/httpd` | Medium
-7 | File | `/mims/login.php` | High
-8 | File | `/mygym/admin/index.php?view_exercises` | High
-9 | File | `/php-opos/index.php` | High
-10 | File | `/php-scrm/login.php` | High
-11 | File | `/textpattern/index.php` | High
-12 | File | `/tmp` | Low
-13 | File | `account-signup.php` | High
-14 | File | `account/signup.php` | High
-15 | File | `action.php` | Medium
-16 | File | `addentry.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-19 | File | `admin/admin_editor.php` | High
-20 | File | `admin/conf_users_edit.php` | High
-21 | File | `blocks/block-Old_Articles.php` | High
-22 | File | `bp_ncom.php` | Medium
-23 | File | `buy.php` | Low
-24 | File | `changePasswordForEmployee.php` | High
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/mims/login.php` | High
+9 | File | `/mygym/admin/index.php?view_exercises` | High
+10 | File | `/php-opos/index.php` | High
+11 | File | `/php-scrm/login.php` | High
+12 | File | `/textpattern/index.php` | High
+13 | File | `/tmp` | Low
+14 | File | `account-signup.php` | High
+15 | File | `account/signup.php` | High
+16 | File | `action.php` | Medium
+17 | File | `addentry.php` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+20 | File | `admin/admin_editor.php` | High
+21 | File | `admin/conf_users_edit.php` | High
+22 | File | `adminer.php` | Medium
+23 | File | `blocks/block-Old_Articles.php` | High
+24 | File | `bp_ncom.php` | Medium
 25 | ... | ... | ...
 
-There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

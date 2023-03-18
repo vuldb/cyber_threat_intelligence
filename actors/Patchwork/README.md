@@ -115,7 +115,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -139,34 +139,34 @@ ID | Type | Indicator | Confidence
 14 | File | `/ctcprotocol/Protocol` | High
 15 | File | `/dashboard/menu-list.php` | High
 16 | File | `/data/remove` | Medium
-17 | File | `/ffos/classes/Master.php?f=save_category` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goforms/rlminfo` | High
-20 | File | `/Items/*/RemoteImages/Download` | High
-21 | File | `/menu.html` | Medium
-22 | File | `/navigate/navigate_download.php` | High
-23 | File | `/ocwbs/admin/?page=user/manage_user` | High
-24 | File | `/ofrs/admin/?page=user/manage_user` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/out.php` | Medium
-27 | File | `/password.html` | High
-28 | File | `/php_action/fetchSelectedUser.php` | High
-29 | File | `/proc/ioports` | High
-30 | File | `/property-list/property_view.php` | High
-31 | File | `/ptms/classes/Users.php` | High
-32 | File | `/resources//../` | High
-33 | File | `/rest/api/2/search` | High
-34 | File | `/s/` | Low
-35 | File | `/scripts/cpan_config` | High
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/sys/dict/queryTableData` | High
-39 | File | `/tmp` | Low
-40 | File | `/uncpath/` | Medium
-41 | File | `/vloggers_merch/?p=view_product` | High
+17 | File | `/ebics-server/ebics.aspx` | High
+18 | File | `/ffos/classes/Master.php?f=save_category` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goforms/rlminfo` | High
+21 | File | `/HNAP1/SetClientInfo` | High
+22 | File | `/Items/*/RemoteImages/Download` | High
+23 | File | `/menu.html` | Medium
+24 | File | `/navigate/navigate_download.php` | High
+25 | File | `/ocwbs/admin/?page=user/manage_user` | High
+26 | File | `/ofrs/admin/?page=user/manage_user` | High
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/out.php` | Medium
+29 | File | `/password.html` | High
+30 | File | `/php_action/fetchSelectedUser.php` | High
+31 | File | `/property-list/property_view.php` | High
+32 | File | `/ptms/classes/Users.php` | High
+33 | File | `/resources//../` | High
+34 | File | `/rest/api/2/search` | High
+35 | File | `/s/` | Low
+36 | File | `/scripts/cpan_config` | High
+37 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+38 | File | `/shell` | Low
+39 | File | `/spip.php` | Medium
+40 | File | `/sys/dict/queryTableData` | High
+41 | File | `/tmp` | Low
 42 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

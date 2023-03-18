@@ -2217,31 +2217,31 @@ ID | Type | Indicator | Confidence
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `/admin.php?action=themeinstall` | High
 3 | File | `/admin/api/admin/articles/` | High
-4 | File | `/admin/controller/JobLogController.java` | High
-5 | File | `/admin/index2.html` | High
-6 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-7 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/api/audits` | Medium
-10 | File | `/api/resource/Item?fields` | High
-11 | File | `/APR/login.php` | High
-12 | File | `/APR/signup.php` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/cgi-bin/kerbynet` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/wapopen` | High
-17 | File | `/cgi-bin/webadminget.cgi` | High
-18 | File | `/controller/OnlinePreviewController.java` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/dev/block/mmcblk0rpmb` | High
-21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-22 | File | `/env` | Low
-23 | File | `/etc/sudoers` | Medium
-24 | File | `/face-recognition-php/facepay-master/camera.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/fos/admin/ajax.php?action=login` | High
-27 | File | `/fos/admin/index.php?page=menu` | High
-28 | File | `/goform/WifiBasicSet` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+6 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+8 | File | `/api/audits` | Medium
+9 | File | `/api/resource/Item?fields` | High
+10 | File | `/APR/login.php` | High
+11 | File | `/APR/signup.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/webadminget.cgi` | High
+17 | File | `/controller/OnlinePreviewController.java` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/dev/block/mmcblk0rpmb` | High
+20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+21 | File | `/env` | Low
+22 | File | `/etc/sudoers` | Medium
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/fos/admin/ajax.php?action=login` | High
+26 | File | `/fos/admin/index.php?page=menu` | High
+27 | File | `/goform/WifiBasicSet` | High
+28 | File | `/goform/WifiGuestSet` | High
 29 | File | `/hardware` | Medium
 30 | File | `/home/masterConsole` | High
 31 | File | `/home/sendBroadcast` | High
@@ -2267,7 +2267,7 @@ ID | Type | Indicator | Confidence
 51 | File | `/sacco_shield/manage_payment.php` | High
 52 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

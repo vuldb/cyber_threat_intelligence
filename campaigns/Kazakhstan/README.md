@@ -201,17 +201,17 @@ ID | Type | Indicator | Confidence
 10 | File | `/graphql` | Medium
 11 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
 12 | File | `/uncpath/` | Medium
-13 | File | `/usr/sbin/pinger` | High
-14 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-15 | File | `/zm/index.php` | High
-16 | File | `admin/bitrix.mpbuilder_step2.php` | High
-17 | File | `admin/caste_view.php` | High
-18 | File | `admin/server/api/download.js` | High
-19 | File | `AlwaysOnHotwordDetector.java` | High
-20 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+13 | File | `/upload/catalog/controller/account/password.php` | High
+14 | File | `/usr/sbin/pinger` | High
+15 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+16 | File | `/zm/index.php` | High
+17 | File | `admin/bitrix.mpbuilder_step2.php` | High
+18 | File | `admin/caste_view.php` | High
+19 | File | `admin/server/api/download.js` | High
+20 | File | `AlwaysOnHotwordDetector.java` | High
 21 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

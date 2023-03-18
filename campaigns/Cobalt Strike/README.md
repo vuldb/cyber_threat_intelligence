@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -107,11 +107,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,33 +122,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin/` | Low
-3 | File | `/APR/login.php` | High
-4 | File | `/APR/signup.php` | High
-5 | File | `/as/authorization.oauth2` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/DXR.axd` | Medium
-9 | File | `/filemanager/php/connector.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/HNAP1/SetClientInfo` | High
-12 | File | `/mims/login.php` | High
-13 | File | `/php-scrm/login.php` | High
-14 | File | `/rukovoditel/index.php?module=users/login` | High
-15 | File | `/textpattern/index.php` | High
-16 | File | `/tmp` | Low
-17 | File | `account-signup.php` | High
-18 | File | `account/signup.php` | High
-19 | File | `addentry.php` | Medium
-20 | File | `admin.php` | Medium
-21 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+3 | File | `/admin/patient.php` | High
+4 | File | `/APR/login.php` | High
+5 | File | `/APR/signup.php` | High
+6 | File | `/as/authorization.oauth2` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/DXR.axd` | Medium
+10 | File | `/filemanager/php/connector.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/HNAP1/SetClientInfo` | High
+13 | File | `/mims/login.php` | High
+14 | File | `/php-scrm/login.php` | High
+15 | File | `/rukovoditel/index.php?module=users/login` | High
+16 | File | `/textpattern/index.php` | High
+17 | File | `/tmp` | Low
+18 | File | `account-signup.php` | High
+19 | File | `account/signup.php` | High
+20 | File | `addentry.php` | Medium
+21 | File | `admin.php` | Medium
 22 | File | `admin/admin_editor.php` | High
 23 | File | `admin/conf_users_edit.php` | High
 24 | File | `admin/template/js/uploadify/uploadify.swf` | High
 25 | File | `admin/TemplateController.java` | High
 26 | File | `adminer.php` | Medium
-27 | ... | ... | ...
+27 | File | `AndroidManifest.xml` | High
+28 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

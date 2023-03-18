@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,14 +50,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/include/makecvs.php` | High
-2 | File | `/requests.php` | High
-3 | File | `/spip.php` | Medium
-4 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-5 | File | `add.php` | Low
-6 | File | `cat.asp` | Low
-7 | File | `class.phpmailer.php` | High
-8 | ... | ... | ...
+1 | File | `/forum/away.php` | High
+2 | File | `/include/makecvs.php` | High
+3 | File | `/requests.php` | High
+4 | File | `/spip.php` | Medium
+5 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+6 | File | `add.php` | Low
+7 | File | `cat.asp` | Low
+8 | File | `class.phpmailer.php` | High
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

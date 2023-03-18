@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -77,23 +77,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/ebics-server/ebics.aspx` | High
 13 | File | `/etc/shadow` | Medium
 14 | File | `/forums.php?action=post` | High
-15 | File | `/home/cavesConsole` | High
-16 | File | `/home/kickPlayer` | High
-17 | File | `/home/masterConsole` | High
-18 | File | `/home/sendBroadcast` | High
-19 | File | `/hss/admin/?page=client/manage_client` | High
-20 | File | `/index.php` | Medium
-21 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-22 | File | `/login/index.php` | High
-23 | File | `/loginVaLidation.php` | High
-24 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-25 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-26 | File | `/resources//../` | High
-27 | File | `/setNTP.cgi` | Medium
-28 | File | `/sys/dict/queryTableData` | High
-29 | File | `/system/site.php` | High
-30 | File | `/tiki-importer.php` | High
-31 | File | `/tmp` | Low
+15 | File | `/HNAP1/SetClientInfo` | High
+16 | File | `/home/cavesConsole` | High
+17 | File | `/home/kickPlayer` | High
+18 | File | `/home/masterConsole` | High
+19 | File | `/home/sendBroadcast` | High
+20 | File | `/hss/admin/?page=client/manage_client` | High
+21 | File | `/index.php` | Medium
+22 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+23 | File | `/login/index.php` | High
+24 | File | `/loginVaLidation.php` | High
+25 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+26 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+27 | File | `/resources//../` | High
+28 | File | `/setNTP.cgi` | Medium
+29 | File | `/sys/dict/queryTableData` | High
+30 | File | `/system/site.php` | High
+31 | File | `/tiki-importer.php` | High
 32 | ... | ... | ...
 
 There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

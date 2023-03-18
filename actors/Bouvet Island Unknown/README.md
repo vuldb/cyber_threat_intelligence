@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.12.71.34](https://vuldb.com/?ip.45.12.71.34) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,6 +59,7 @@ There are 12 more IOA items available (file, library, argument, input value, pat
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bv.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bv.netset
 
 ## Literature
 

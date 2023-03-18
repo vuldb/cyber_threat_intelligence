@@ -102,13 +102,13 @@ ID | Type | Indicator | Confidence
 24 | File | `/tourism/rate_review.php` | High
 25 | File | `/uncpath/` | Medium
 26 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-27 | File | `/var/log/messages` | High
-28 | File | `/var/www/core/controller/index.php` | High
-29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/var/www/core/controller/index.php` | High
+28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `action-visitor.php` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

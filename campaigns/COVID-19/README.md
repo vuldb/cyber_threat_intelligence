@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -151,10 +151,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -166,39 +166,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/api/blade-log/api/list` | High
-3 | File | `/apply.cgi` | Medium
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/bsms_ci/index.php/book` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/login/index.php` | High
-13 | File | `/medicines/profile.php` | High
-14 | File | `/obs/book.php` | High
-15 | File | `/products/view_product.php` | High
-16 | File | `/public/login.htm` | High
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/shell` | Low
-19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/usr/bin/tddp` | High
-23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-24 | File | `/video-sharing-script/watch-video.php` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/wp-admin/options.php` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `adclick.php` | Medium
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin/add_payment.php` | High
-31 | File | `admin/disapprove_user.php` | High
-32 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/patient.php` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/api/blade-log/api/list` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/as/authorization.oauth2` | High
+11 | File | `/boat/login.php` | High
+12 | File | `/bsms_ci/index.php/book` | High
+13 | File | `/cgi-bin/luci/api/auth` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/DXR.axd` | Medium
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/medicines/profile.php` | High
+20 | File | `/products/view_product.php` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/reservation/add_message.php` | High
+23 | File | `/rukovoditel/index.php?module=users/login` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/shell` | Low
+26 | File | `/spip.php` | Medium
+27 | File | `/usr/bin/pkexec` | High
+28 | File | `/usr/bin/tddp` | High
+29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+30 | File | `/video-sharing-script/watch-video.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-admin/options.php` | High
+33 | File | `/wp-json/wc/v3/webhooks` | High
+34 | File | `AcquisiAction.class.php` | High
+35 | File | `adclick.php` | Medium
+36 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

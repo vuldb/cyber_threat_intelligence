@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Algeria Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
-* [IL](https://vuldb.com/?country.il)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,9 +37,12 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [41.109.120.0](https://vuldb.com/?ip.41.109.120.0) | - | - | High
 15 | [41.109.128.0](https://vuldb.com/?ip.41.109.128.0) | - | - | High
 16 | [41.110.0.0](https://vuldb.com/?ip.41.110.0.0) | - | - | High
-17 | ... | ... | ... | ...
+17 | [41.191.252.0](https://vuldb.com/?ip.41.191.252.0) | - | - | High
+18 | [41.200.0.0](https://vuldb.com/?ip.41.200.0.0) | - | - | High
+19 | [41.210.64.0](https://vuldb.com/?ip.41.210.64.0) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,11 +53,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,75 +65,77 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/admin/index.php` | High
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/bin/boa` | Medium
-6 | File | `/ci_spms/admin/category` | High
-7 | File | `/config.cgi?webmin` | High
-8 | File | `/filemanager/upload.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/hrm/employeeadd.php` | High
-11 | File | `/idm/admin/changeself.jsp` | High
-12 | File | `/idm/includes/helpServer.jsp` | High
-13 | File | `/if.cgi` | Low
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/product_list.php` | High
-19 | File | `/setup` | Low
-20 | File | `/spip.php` | Medium
-21 | File | `/uncpath/` | Medium
-22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `/_vti_pvt/access.cnf` | High
-25 | File | `5.2.9\syscrb.exe` | High
-26 | File | `a-b-membres.php` | High
-27 | File | `act.php` | Low
-28 | File | `adclick.php` | Medium
-29 | File | `admin` | Low
-30 | File | `admin.php` | Medium
-31 | File | `admin/index.php?id=filesmanager` | High
-32 | File | `admin/index.php?id=snippets&action=edit_snippet&filename=google-analytics` | High
-33 | File | `admin/movieview.php` | High
-34 | File | `advanced_search_results.php` | High
-35 | File | `advertiser/login_confirm.asp` | High
-36 | File | `agb.php` | Low
-37 | File | `ajax_calls.php` | High
-38 | File | `akocomments.php` | High
-39 | File | `api.php` | Low
-40 | File | `attendancy.php` | High
-41 | File | `auction\auction_common.php` | High
-42 | File | `auth-gss2.c` | Medium
-43 | File | `awstats.pl` | Medium
-44 | File | `a_login.php` | Medium
-45 | File | `backup.php` | Medium
-46 | File | `bannerclick.php` | High
-47 | File | `bfd/vms-alpha.c` | High
-48 | File | `board.html` | Medium
-49 | File | `books.php` | Medium
-50 | File | `bp_ncom.php` | Medium
-51 | File | `browsecats.php` | High
-52 | File | `browser/liferay/browser.html?Type` | High
-53 | File | `c-client/imap4r1.c` | High
-54 | File | `carbon/admin/login.jsp` | High
-55 | File | `category.cfm` | Medium
-56 | File | `category_list.php` | High
-57 | File | `ce_t4t.cc` | Medium
-58 | File | `cgi-bin/DownloadCfg/RouterCfm.cfg` | High
-59 | File | `Cgi/private.py` | High
-60 | File | `city.asp` | Medium
-61 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `.htaccess` | Medium
+3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
+4 | File | `/Admin/add-student.php` | High
+5 | File | `/admin/addemployee.php` | High
+6 | File | `/admin/api/admin/articles/` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/showbad.php` | High
+9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+11 | File | `/apilog.php` | Medium
+12 | File | `/appliance/users?action=edit` | High
+13 | File | `/APR/login.php` | High
+14 | File | `/bin/httpd` | Medium
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/connectors/index.php` | High
+18 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+19 | File | `/dev/block/mmcblk0rpmb` | High
+20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+21 | File | `/etc/default` | Medium
+22 | File | `/face-recognition-php/facepay-master/camera.php` | High
+23 | File | `/footer.inc.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/fos/admin/ajax.php?action=login` | High
+26 | File | `/fos/admin/index.php?page=menu` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/home/sendBroadcast` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/items/view_item.php` | High
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/lookin/info` | Medium
+35 | File | `/manager/index.php` | High
+36 | File | `/medical/inventories.php` | High
+37 | File | `/modules/profile/index.php` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | File | `/modules/public/calendar.php` | High
+40 | File | `/mygym/admin/index.php?view_exercises` | High
+41 | File | `/newsDia.php` | Medium
+42 | File | `/out.php` | Medium
+43 | File | `/php-opos/index.php` | High
+44 | File | `/proxy` | Low
+45 | File | `/public/launchNewWindow.jsp` | High
+46 | File | `/Redcock-Farm/farm/category.php` | High
+47 | File | `/reports/rwservlet` | High
+48 | File | `/sacco_shield/manage_user.php` | High
+49 | File | `/spip.php` | Medium
+50 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+51 | File | `/staff/bookdetails.php` | High
+52 | File | `/uncpath/` | Medium
+53 | File | `/user/update_booking.php` | High
+54 | File | `/usr/bin/at` | Medium
+55 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+56 | File | `/wireless/security.asp` | High
+57 | File | `/wordpress/wp-admin/options-general.php` | High
+58 | File | `01article.php` | High
+59 | File | `AbstractScheduleJob.java` | High
+60 | File | `actionphp/download.File.php` | High
+61 | File | `activenews_view.asp` | High
+62 | ... | ... | ...
 
-There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_dz.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_dz.netset
 
 ## Literature
 
