@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -70,36 +70,40 @@ ID | Type | Indicator | Confidence
 8 | File | `/adms/admin/?page=user/manage_user` | High
 9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 10 | File | `/ajax/update_certificate` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/ecshop/admin/template.php` | High
-18 | File | `/eduauth/student/search.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forums.php?action=post` | High
-21 | File | `/goform/formDefault` | High
-22 | File | `/goform/formLogin` | High
-23 | File | `/goform/formSysCmd` | High
-24 | File | `/goform/fromSetWirelessRepeat` | High
-25 | File | `/goform/WifiBasicSet` | High
-26 | File | `/index.php` | Medium
-27 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-28 | File | `/list.php` | Medium
-29 | File | `/login/index.php` | High
-30 | File | `/medicines/profile.php` | High
-31 | File | `/Moosikay/order.php` | High
-32 | File | `/philosophy/admin/user/controller.php?action=add` | High
-33 | File | `/php-opos/signup.php` | High
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/SetNetworkSettings/SubnetMask` | High
-36 | File | `/setNTP.cgi` | Medium
-37 | File | `/spip.php` | Medium
-38 | ... | ... | ...
+11 | File | `/alphaware/details.php` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/` | Low
+14 | File | `/api/admin/store/product/list` | High
+15 | File | `/apply.cgi` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/config/myfield/test.php` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/ecshop/admin/template.php` | High
+22 | File | `/eduauth/student/search.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/fudforum/adm/hlplist.php` | High
+25 | File | `/geoserver/rest/about/status` | High
+26 | File | `/goform/formDefault` | High
+27 | File | `/goform/formLogin` | High
+28 | File | `/goform/formSysCmd` | High
+29 | File | `/goform/fromSetWirelessRepeat` | High
+30 | File | `/goform/WifiBasicSet` | High
+31 | File | `/index.php` | Medium
+32 | File | `/list.php` | Medium
+33 | File | `/login/index.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/Moosikay/order.php` | High
+36 | File | `/philosophy/admin/user/controller.php?action=add` | High
+37 | File | `/php-opos/signup.php` | High
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/SetNetworkSettings/SubnetMask` | High
+40 | File | `/setNTP.cgi` | Medium
+41 | File | `/spip.php` | Medium
+42 | ... | ... | ...
 
-There are 327 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

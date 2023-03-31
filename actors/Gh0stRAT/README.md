@@ -103,7 +103,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -115,51 +116,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
-3 | File | `/apply_noauth.cgi` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/context/%2e/WEB-INF/web.xml` | High
-7 | File | `/ctcprotocol/Protocol` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/ebics-server/ebics.aspx` | High
-10 | File | `/ecshop/admin/template.php` | High
-11 | File | `/etc/openstack-dashboard/local_settings` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/HNAP1/SetClientInfo` | High
-15 | File | `/home/www/cgi-bin/login.cgi` | High
-16 | File | `/menu.html` | Medium
-17 | File | `/modules/snf/index.php` | High
-18 | File | `/net-banking/customer_transactions.php` | High
-19 | File | `/obs/book.php` | High
-20 | File | `/orrs/admin/?page=user/manage_user` | High
-21 | File | `/ossn/administrator/com_installer` | High
-22 | File | `/pms/update_user.php?user_id=1` | High
-23 | File | `/resources//../` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/subtitles.php` | High
-26 | File | `/sys/dict/queryTableData` | High
-27 | File | `/user/upload/upload` | High
-28 | File | `/vendor` | Low
-29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-30 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-31 | File | `adclick.php` | Medium
-32 | File | `add_contestant.php` | High
-33 | File | `add_postit.php` | High
-34 | File | `admin.php` | Medium
-35 | File | `admin/index.php` | High
-36 | File | `admin/make_payments.php` | High
-37 | File | `admin/shophelp.php` | High
-38 | File | `admin/TemplateController.java` | High
-39 | File | `administration.jsp` | High
-40 | File | `adminquery.php` | High
-41 | File | `ansfaq.asp` | Medium
-42 | File | `ApiController.class.php` | High
-43 | File | `APKINDEX.tar.gz` | High
-44 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-45 | ... | ... | ...
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/apply_noauth.cgi` | High
+5 | File | `/bin/sh` | Low
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/common/sysFile/list` | High
+8 | File | `/context/%2e/WEB-INF/web.xml` | High
+9 | File | `/ctcprotocol/Protocol` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/ebics-server/ebics.aspx` | High
+12 | File | `/ecshop/admin/template.php` | High
+13 | File | `/etc/openstack-dashboard/local_settings` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/forum/PostPrivateMessage` | High
+16 | File | `/goform/addressNat` | High
+17 | File | `/HNAP1/SetClientInfo` | High
+18 | File | `/home/www/cgi-bin/login.cgi` | High
+19 | File | `/menu.html` | Medium
+20 | File | `/net-banking/customer_transactions.php` | High
+21 | File | `/obs/book.php` | High
+22 | File | `/orrs/admin/?page=user/manage_user` | High
+23 | File | `/ossn/administrator/com_installer` | High
+24 | File | `/pms/update_user.php?user_id=1` | High
+25 | File | `/resources//../` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+28 | File | `/subtitles.php` | High
+29 | File | `/sys/dict/queryTableData` | High
+30 | File | `/user/upload/upload` | High
+31 | File | `/vendor` | Low
+32 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+34 | File | `Acl.asp` | Low
+35 | File | `adclick.php` | Medium
+36 | File | `add_contestant.php` | High
+37 | File | `add_postit.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/index.php` | High
+40 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

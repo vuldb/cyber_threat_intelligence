@@ -287,13 +287,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -303,32 +304,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `//` | Low
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/api/blade-log/api/list` | High
-5 | File | `/api/jmeter/download/files` | High
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/APR/login.php` | High
-8 | File | `/as/authorization.oauth2` | High
-9 | File | `/bsms_ci/index.php` | High
-10 | File | `/bsms_ci/index.php/user/edit_user/` | High
-11 | File | `/cgi-bin/luci/api/auth` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/ecshop/admin/template.php` | High
-16 | File | `/filemanager/php/connector.php` | High
-17 | File | `/files/import` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/home/www/cgi-bin/login.cgi` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/Moosikay/order.php` | High
-23 | File | `/net-banking/customer_transactions.php` | High
-24 | File | `/net-banking/send_funds.php` | High
-25 | File | `/out.php` | Medium
-26 | ... | ... | ...
+3 | File | `/admin/patient.php` | High
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/api/blade-log/api/list` | High
+6 | File | `/api/jmeter/download/files` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/APR/login.php` | High
+9 | File | `/as/authorization.oauth2` | High
+10 | File | `/bsms_ci/index.php` | High
+11 | File | `/bsms_ci/index.php/user/edit_user/` | High
+12 | File | `/cgi-bin/luci/api/auth` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/ecshop/admin/template.php` | High
+17 | File | `/filemanager/php/connector.php` | High
+18 | File | `/files/import` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forum/PostPrivateMessage` | High
+21 | File | `/home/www/cgi-bin/login.cgi` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/librarian/bookdetails.php` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/Moosikay/order.php` | High
+26 | File | `/net-banking/customer_transactions.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/reservation/add_message.php` | High
+29 | File | `/rukovoditel/index.php?module=users/login` | High
+30 | File | `/tmp/boa-temp` | High
+31 | File | `/usr/sbin/suexec` | High
+32 | File | `/wp-admin/admin-ajax.php` | High
+33 | ... | ... | ...
 
-There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor](https://vuldb.com/?actor)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkWatchman:
+
+* [CN](https://vuldb.com/?country.cn)
+
 ## Actors
 
 These _actors_ are associated with DarkWatchman or other actors linked to the campaign.
@@ -21,6 +27,14 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [45.156.27.245](https://vuldb.com/?ip.45.156.27.245) | dasee-1.net7.dns.cloudbackbone.net | [DarkWatchman](https://vuldb.com/?actor.darkwatchman) | High
 2 | [103.153.157.33](https://vuldb.com/?ip.103.153.157.33) | 103-153-157-33.ip.fulltimehosting.net | [Hive0117](https://vuldb.com/?actor.hive0117) | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used within DarkWatchman. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1600 | CWE-310 | J2EE Misconfiguration: Data Transmission Without Encryption | High
 
 ## References
 

@@ -104,15 +104,15 @@ ID | Type | Indicator | Confidence
 40 | File | `admin/param/param_func.inc.php` | High
 41 | File | `admin/y_admin.asp` | High
 42 | File | `adminer.php` | Medium
-43 | File | `administrator/components/com_media/helpers/media.php` | High
-44 | File | `admin_ok.asp` | Medium
-45 | File | `affiliates.php` | High
-46 | File | `app/Core/Paginator.php` | High
-47 | File | `artlinks.dispnew.php` | High
-48 | File | `auth.php` | Medium
+43 | File | `administration/admins.php` | High
+44 | File | `administrator/components/com_media/helpers/media.php` | High
+45 | File | `admin_ok.asp` | Medium
+46 | File | `affiliates.php` | High
+47 | File | `app/Core/Paginator.php` | High
+48 | File | `artlinks.dispnew.php` | High
 49 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SV](https://vuldb.com/?country.sv)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -79,19 +79,19 @@ ID | Type | Indicator | Confidence
 27 | File | `/operations/travellers.php` | High
 28 | File | `/php-sms/admin/orders/update_status.php` | High
 29 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-30 | File | `/php_action/editProductImage.php` | High
-31 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-32 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-33 | File | `/release-x64/otfccdump+0x6e41a8` | High
-34 | File | `/rukovoditel/index.php?module=users/login` | High
-35 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
-36 | File | `/sys/duplicate/check` | High
-37 | File | `/timeline2.php` | High
-38 | File | `/ucenter/repass.php` | High
-39 | File | `/usr/sbin/httpd` | High
+30 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+31 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+32 | File | `/release-x64/otfccdump+0x6e41a8` | High
+33 | File | `/rukovoditel/index.php?module=users/login` | High
+34 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
+35 | File | `/sys/duplicate/check` | High
+36 | File | `/timeline2.php` | High
+37 | File | `/ucenter/repass.php` | High
+38 | File | `/usr/sbin/httpd` | High
+39 | File | `/var/log/messages` | High
 40 | ... | ... | ...
 
-There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

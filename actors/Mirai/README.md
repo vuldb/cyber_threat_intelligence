@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with Mirai:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mirai:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -219,7 +219,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -233,31 +233,39 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/doctors.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/as/authorization.oauth2` | High
-10 | File | `/bin/sh` | Low
-11 | File | `/boat/login.php` | High
-12 | File | `/cgi-bin/luci/api/auth` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/ebics-server/ebics.aspx` | High
-17 | File | `/etc/openstack-dashboard/local_settings` | High
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/files/import` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/PowerSaveSet` | High
-22 | File | `/Moosikay/order.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/public/login.htm` | High
-25 | File | `/reservation/add_message.php` | High
-26 | File | `/rukovoditel/index.php?module=users/login` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/spip.php` | Medium
-29 | ... | ... | ...
+7 | File | `/admin/patient.php` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/jmeter/download/files` | High
+10 | File | `/api/upload` | Medium
+11 | File | `/apply.cgi` | Medium
+12 | File | `/APR/login.php` | High
+13 | File | `/as/authorization.oauth2` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/cgi-bin/luci/api/auth` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/etc/openstack-dashboard/local_settings` | High
+23 | File | `/filemanager/php/connector.php` | High
+24 | File | `/files/import` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/addressNat` | High
+27 | File | `/goform/PowerSaveSet` | High
+28 | File | `/HNAP1/SetClientInfo` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/tmp/boa-temp` | High
+37 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

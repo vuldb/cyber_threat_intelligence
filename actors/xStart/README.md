@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -93,20 +93,20 @@ ID | Type | Indicator | Confidence
 33 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
 34 | File | `accountsettings_add.html` | High
 35 | File | `aclient.exe` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `addentry.php` | Medium
-38 | File | `admin.php` | Medium
-39 | File | `admin.php?c=update&f=unzip` | High
-40 | File | `admin/ajax/op_kandidat.php` | High
-41 | File | `admin/conf_users_edit.php` | High
-42 | File | `admin/domain-fields/` | High
-43 | File | `admin/index.asp` | High
-44 | File | `admin/news.php` | High
-45 | File | `AdminLoginInterceptor.java` | High
-46 | File | `admins.js` | Medium
+36 | File | `addentry.php` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?c=update&f=unzip` | High
+39 | File | `admin/ajax/op_kandidat.php` | High
+40 | File | `admin/conf_users_edit.php` | High
+41 | File | `admin/domain-fields/` | High
+42 | File | `admin/index.asp` | High
+43 | File | `admin/news.php` | High
+44 | File | `AdminLoginInterceptor.java` | High
+45 | File | `admins.js` | Medium
+46 | File | `advancedsearch.php` | High
 47 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

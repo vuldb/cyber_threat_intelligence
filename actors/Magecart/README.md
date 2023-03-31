@@ -50,14 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,51 +65,55 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/action/import_aaa_cert_file/` | High
-2 | File | `/action/import_wireguard_cert_file/` | High
-3 | File | `/admin/admin.php` | High
-4 | File | `/admin/edit_members.php` | High
-5 | File | `/admin/submit-articles` | High
-6 | File | `/admin/users/index.php` | High
-7 | File | `/attachments` | Medium
-8 | File | `/aux` | Low
-9 | File | `/bsms_ci/index.php/book` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/dev/zero` | Medium
-12 | File | `/etc/hosts` | Medium
-13 | File | `/etc/os-release` | High
-14 | File | `/event/admin/?page=user/list` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/addUserName` | High
-17 | File | `/goform/form2WizardStep4` | High
-18 | File | `/goform/formSetEmail` | High
-19 | File | `/goform/SetIpMacBind` | High
-20 | File | `/goform/WifiBasicSet` | High
-21 | File | `/hprms/admin/rooms/view_room.php` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/controller/login.php` | High
-24 | File | `/hss/?page=categories` | High
-25 | File | `/inc/parser/xhtml.php` | High
-26 | File | `/index/user/upload_img.html` | High
-27 | File | `/js/player/dmplayer/dmku/index.php` | High
-28 | File | `/linkedcontent/listfiles.php` | High
-29 | File | `/medicines/profile.php` | High
-30 | File | `/mgm_dev_upgrade.asp` | High
-31 | File | `/mgm_log_cfg.asp` | High
-32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-33 | File | `/odlms/?page=appointments/view_appointment` | High
-34 | File | `/proxy` | Low
-35 | File | `/routing.asp` | Medium
-36 | File | `/services/getFile.cmd` | High
-37 | File | `/services/view_service.php` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/statistics/retrieve` | High
-40 | File | `/tmp` | Low
-41 | File | `/tmp/kamailio_ctl` | High
-42 | File | `/var/log/messages` | High
-43 | ... | ... | ...
+1 | File | `/admin.php/accessory/filesdel.html` | High
+2 | File | `/admin/?page=user/manage` | High
+3 | File | `/admin/add-new.php` | High
+4 | File | `/admin/admin.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/edit_members.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/attachments` | Medium
+10 | File | `/aux` | Low
+11 | File | `/boat/login.php` | High
+12 | File | `/bsms_ci/index.php/book` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/dev/zero` | Medium
+15 | File | `/etc/hosts` | Medium
+16 | File | `/etc/os-release` | High
+17 | File | `/event/admin/?page=user/list` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/addUserName` | High
+20 | File | `/goform/form2WizardStep4` | High
+21 | File | `/goform/formSetEmail` | High
+22 | File | `/goform/SetIpMacBind` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/hprms/admin/rooms/view_room.php` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/controller/login.php` | High
+27 | File | `/hss/?page=categories` | High
+28 | File | `/inc/parser/xhtml.php` | High
+29 | File | `/index/user/upload_img.html` | High
+30 | File | `/js/player/dmplayer/dmku/index.php` | High
+31 | File | `/linkedcontent/listfiles.php` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/mgm_dev_upgrade.asp` | High
+34 | File | `/mgm_log_cfg.asp` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/odlms/?page=appointments/view_appointment` | High
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/routing.asp` | Medium
+40 | File | `/services/getFile.cmd` | High
+41 | File | `/services/view_service.php` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/statistics/retrieve` | High
+44 | File | `/tmp` | Low
+45 | File | `/tmp/kamailio_ctl` | High
+46 | File | `/var/log/messages` | High
+47 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

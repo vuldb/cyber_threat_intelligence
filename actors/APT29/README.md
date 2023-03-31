@@ -91,32 +91,32 @@ ID | Type | Indicator | Confidence
 11 | File | `/attachments` | Medium
 12 | File | `/boat/login.php` | High
 13 | File | `/bsms_ci/index.php/book` | High
-14 | File | `/cgi-bin/login.cgi` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/hosts` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-26 | File | `/index/jobfairol/show/` | High
-27 | File | `/manage-apartment.php` | High
-28 | File | `/medicines/profile.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/pages/apply_vacancy.php` | High
-31 | File | `/proc/<PID>/mem` | High
-32 | File | `/project/PROJECTNAME/reports/` | High
-33 | File | `/proxy` | Low
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/tmp` | Low
+14 | File | `/cgi-bin/luci/api/wireless` | High
+15 | File | `/ci_hms/massage_room/edit/1` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/hosts` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/setmac` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/manage-apartment.php` | High
+25 | File | `/medicines/profile.php` | High
+26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/proc/<PID>/mem` | High
+29 | File | `/project/PROJECTNAME/reports/` | High
+30 | File | `/proxy` | Low
+31 | File | `/reservation/add_message.php` | High
+32 | File | `/spip.php` | Medium
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload` | Low
+36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 37 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

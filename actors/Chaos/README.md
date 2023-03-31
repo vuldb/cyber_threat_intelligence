@@ -53,28 +53,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/../conf/config.properties` | High
-2 | File | `/admin.php/singer/admin/lists/zhuan` | High
-3 | File | `/admin.php/User/level_sort` | High
-4 | File | `/authUserAction!edit.action` | High
-5 | File | `/baseOpLog.do` | High
-6 | File | `/blog/edit` | Medium
-7 | File | `/bmis/pages/resident/resident.php` | High
-8 | File | `/cgi-bin/luci/api/auth` | High
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-11 | File | `/cgi-bin/uploadWeiXinPic` | High
-12 | File | `/claire_blake` | High
-13 | File | `/core/admin/categories.php` | High
-14 | File | `/dashboard/contact` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/dms/admin/reports/daily_collection_report.php` | High
-17 | File | `/etc/config/cameo` | High
-18 | File | `/export` | Low
-19 | File | `/files.md5` | Medium
-20 | File | `/food/admin/all_users.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/hrm/employeeview.php` | High
+1 | File | `/admin.php/singer/admin/lists/zhuan` | High
+2 | File | `/admin.php/User/level_sort` | High
+3 | File | `/authUserAction!edit.action` | High
+4 | File | `/baseOpLog.do` | High
+5 | File | `/blog/edit` | Medium
+6 | File | `/bmis/pages/resident/resident.php` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/luci/api/wireless` | High
+9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+10 | File | `/cgi-bin/uploadWeiXinPic` | High
+11 | File | `/claire_blake` | High
+12 | File | `/core/admin/categories.php` | High
+13 | File | `/dashboard/contact` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/dms/admin/reports/daily_collection_report.php` | High
+16 | File | `/etc/config/cameo` | High
+17 | File | `/export` | Low
+18 | File | `/files.md5` | Medium
+19 | File | `/food/admin/all_users.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/htdocs/cgibin` | High
 23 | File | `/images/` | Medium
 24 | File | `/isms/classes/Users.php` | High
 25 | File | `/login` | Low
@@ -86,7 +86,7 @@ ID | Type | Indicator | Confidence
 31 | File | `/out.php` | Medium
 32 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

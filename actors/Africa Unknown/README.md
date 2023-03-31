@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -2236,38 +2236,41 @@ ID | Type | Indicator | Confidence
 20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
 21 | File | `/env` | Low
 22 | File | `/etc/sudoers` | Medium
-23 | File | `/face-recognition-php/facepay-master/camera.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/fos/admin/ajax.php?action=login` | High
-26 | File | `/fos/admin/index.php?page=menu` | High
-27 | File | `/goform/WifiBasicSet` | High
-28 | File | `/goform/WifiGuestSet` | High
-29 | File | `/hardware` | Medium
-30 | File | `/home/masterConsole` | High
-31 | File | `/home/sendBroadcast` | High
-32 | File | `/hrm/controller/employee.php` | High
-33 | File | `/hrm/employeeadd.php` | High
-34 | File | `/hrm/employeeview.php` | High
-35 | File | `/IISADMPWD` | Medium
-36 | File | `/includes/login.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/Items/*/RemoteImages/Download` | High
-39 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
-40 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-41 | File | `/lookin/info` | Medium
-42 | File | `/Moosikay/order.php` | High
-43 | File | `/mygym/admin/index.php?view_exercises` | High
-44 | File | `/out.php` | Medium
-45 | File | `/pet_shop/admin/orders/update_status.php` | High
-46 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-47 | File | `/php-opos/index.php` | High
-48 | File | `/proxy` | Low
-49 | File | `/psrs/admin/?page=inquiries/view_inquiry` | High
-50 | File | `/reports/rwservlet` | High
-51 | File | `/sacco_shield/manage_payment.php` | High
-52 | ... | ... | ...
+23 | File | `/forum/away.php` | High
+24 | File | `/fos/admin/ajax.php?action=login` | High
+25 | File | `/fos/admin/index.php?page=menu` | High
+26 | File | `/goform/WifiBasicSet` | High
+27 | File | `/goform/WifiGuestSet` | High
+28 | File | `/hardware` | Medium
+29 | File | `/home/masterConsole` | High
+30 | File | `/home/sendBroadcast` | High
+31 | File | `/hrm/controller/employee.php` | High
+32 | File | `/IISADMPWD` | Medium
+33 | File | `/index.php` | Medium
+34 | File | `/Items/*/RemoteImages/Download` | High
+35 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+36 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/mygym/admin/index.php?view_exercises` | High
+39 | File | `/out.php` | Medium
+40 | File | `/pet_shop/admin/orders/update_status.php` | High
+41 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+42 | File | `/php-opos/index.php` | High
+43 | File | `/proxy` | Low
+44 | File | `/psrs/admin/?page=inquiries/view_inquiry` | High
+45 | File | `/public/launchNewWindow.jsp` | High
+46 | File | `/reports/rwservlet` | High
+47 | File | `/sacco_shield/manage_payment.php` | High
+48 | File | `/spip.php` | Medium
+49 | File | `/start_apply.htm` | High
+50 | File | `/student/bookdetails.php` | High
+51 | File | `/tmp/ibmsupt` | Medium
+52 | File | `/uncpath/` | Medium
+53 | File | `/upload` | Low
+54 | File | `/user/loader.php?api=1` | High
+55 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

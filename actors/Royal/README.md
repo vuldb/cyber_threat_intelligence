@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [EG](https://vuldb.com/?country.eg)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -42,8 +42,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -62,36 +62,38 @@ ID | Type | Indicator | Confidence
 3 | File | `/apply.cgi` | Medium
 4 | File | `/as/authorization.oauth2` | High
 5 | File | `/blogengine/api/posts` | High
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/Content/Template/root/reverse-shell.aspx` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/export` | Low
-14 | File | `/filemanager/php/connector.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/delAd` | High
-17 | File | `/h/calendar` | Medium
-18 | File | `/login/index.php` | High
-19 | File | `/Moosikay/order.php` | High
-20 | File | `/obs/book.php` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/public/login.htm` | High
-23 | File | `/rukovoditel/index.php?module=users/login` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/services/view_service.php` | High
-26 | File | `/shell` | Low
-27 | File | `/spip.php` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/bin/tddp` | High
-30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-31 | File | `/webman/info.cgi` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | ... | ... | ...
+6 | File | `/cgi-bin/luci/api/auth` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/upload_vpntar` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/Content/Template/root/reverse-shell.aspx` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/filemanager/php/connector.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/login/index.php` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/Moosikay/order.php` | High
+17 | File | `/obs/book.php` | High
+18 | File | `/products/view_product.php` | High
+19 | File | `/public/login.htm` | High
+20 | File | `/rukovoditel/index.php?module=users/login` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/shell` | Low
+23 | File | `/spip.php` | Medium
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/tddp` | High
+26 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+27 | File | `/webman/info.cgi` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/wp-admin/options.php` | High
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `adclick.php` | Medium
+32 | File | `add_product.php` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/import/class-import-settings.php` | High
+35 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

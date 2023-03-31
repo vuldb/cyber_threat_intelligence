@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
-* [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,28 +68,31 @@ ID | Type | Indicator | Confidence
 5 | File | `/adms/admin/?page=user/manage_user` | High
 6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 7 | File | `/ajax/update_certificate` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/bsms_ci/index.php/book` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/etc/shadow` | Medium
-12 | File | `/forum/away.php` | High
-13 | File | `/forums.php?action=post` | High
-14 | File | `/goform/formDefault` | High
-15 | File | `/goform/formSysCmd` | High
-16 | File | `/goform/fromSetWirelessRepeat` | High
-17 | File | `/index.php` | Medium
-18 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-19 | File | `/login/index.php` | High
-20 | File | `/Moosikay/order.php` | High
-21 | File | `/philosophy/admin/user/controller.php?action=add` | High
-22 | File | `/php-opos/signup.php` | High
-23 | File | `/SetNetworkSettings/SubnetMask` | High
-24 | File | `/setNTP.cgi` | Medium
-25 | File | `/tpts/manage_user.php` | High
-26 | File | `/u/username.json` | High
-27 | ... | ... | ...
+8 | File | `/alphaware/details.php` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/etc/shadow` | Medium
+13 | File | `/forum/away.php` | High
+14 | File | `/forums.php?action=post` | High
+15 | File | `/fudforum/adm/hlplist.php` | High
+16 | File | `/goform/formDefault` | High
+17 | File | `/goform/formSysCmd` | High
+18 | File | `/goform/fromSetWirelessRepeat` | High
+19 | File | `/index.php` | Medium
+20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+21 | File | `/login/index.php` | High
+22 | File | `/Moosikay/order.php` | High
+23 | File | `/philosophy/admin/user/controller.php?action=add` | High
+24 | File | `/php-opos/signup.php` | High
+25 | File | `/SetNetworkSettings/SubnetMask` | High
+26 | File | `/setNTP.cgi` | Medium
+27 | File | `/textpattern/index.php` | High
+28 | File | `/tpts/manage_user.php` | High
+29 | File | `/u/username.json` | High
+30 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

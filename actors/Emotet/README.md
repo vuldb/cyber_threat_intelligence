@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -813,7 +813,7 @@ ID | IP address | Hostname | Campaign | Confidence
 790 | [64.227.100.222](https://vuldb.com/?ip.64.227.100.222) | - | - | High
 791 | ... | ... | ... | ...
 
-There are 3160 more IOC items available. Please use our online service to access the data.
+There are 3161 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -822,13 +822,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -836,34 +836,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.dbus-keyrings` | High
-2 | File | `/.env` | Low
-3 | File | `/api/blade-log/api/list` | High
-4 | File | `/bin/sh` | Low
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/cimom` | Low
-7 | File | `/context/%2e/WEB-INF/web.xml` | High
-8 | File | `/data/wps.setup.json` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/forum/PostPrivateMessage` | High
-12 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-13 | File | `/public/login.htm` | High
-14 | File | `/secure/QueryComponent!Default.jspa` | High
-15 | File | `/spip.php` | Medium
-16 | File | `/usr/bin/pkexec` | High
-17 | File | `/wp-admin/admin-ajax.php` | High
-18 | File | `/wp-admin/options.php` | High
-19 | File | `/wp-json/oembed/1.0/embed?url` | High
-20 | File | `adclick.php` | Medium
-21 | File | `adminer.php` | Medium
-22 | File | `api.php` | Low
-23 | File | `APKINDEX.tar.gz` | High
-24 | File | `AtlTraceTool8.exe` | High
-25 | File | `AutomaticZenRule.java` | High
-26 | ... | ... | ...
+1 | File | `//` | Low
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/delete_user.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/patient.php` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/system/store/order/list` | High
+11 | File | `/api/jmeter/download/files` | High
+12 | File | `/api/upload` | Medium
+13 | File | `/APR/login.php` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/common/sysFile/list` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/DXR.axd` | Medium
+21 | File | `/etc/sudoers` | Medium
+22 | File | `/filemanager/php/connector.php` | High
+23 | File | `/files/import` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/getcfg.php` | Medium
+26 | File | `/goform/addressNat` | High
+27 | File | `/home/www/cgi-bin/login.cgi` | High
+28 | File | `/j_security_check` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/mhds/clinic/view_details.php` | High
+31 | File | `/modules/projects/vw_files.php` | High
+32 | File | `/reservation/add_message.php` | High
+33 | File | `/rom-0` | Low
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/static/ueditor/php/controller.php` | High
+37 | File | `/usr/bin/at` | Medium
+38 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+39 | File | `/wabt/bin/poc.wasm` | High
+40 | File | `/wireless/security.asp` | High
+41 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -970,6 +985,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/A-dd-Y/secops/blob/main/MalwareIOC/triage-emotet-c2.txt
 * https://github.com/blackorbird/APT_REPORT/blob/master/cybercrime/emotet/Emotet_Exposed_A_Look_Inside_the_Cybercriminal_Supply_Chain.pdf
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/11/Emotet_contacted_ips.txt
+* https://github.com/Cisco-Talos/IOCs/blob/main/2023/03/emotet-switches-to-onenote.txt
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-11-17%20Emotet%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-12-09%20Emotet%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-20%20Emotet%20IOCs

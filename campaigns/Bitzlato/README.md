@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -115,7 +115,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -137,27 +137,27 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/submit-articles` | High
 7 | File | `/ad_js.php` | Medium
 8 | File | `/alphaware/summary.php` | High
-9 | File | `/app/options.py` | High
-10 | File | `/attachments` | Medium
-11 | File | `/boat/login.php` | High
-12 | File | `/bsms_ci/index.php/book` | High
-13 | File | `/cgi-bin/login.cgi` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/ci_hms/massage_room/edit/1` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/dashboard/updatelogo.php` | High
-19 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/hosts` | Medium
-22 | File | `/etc/openshift/server_priv.pem` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/wizard_end` | High
-26 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index/jobfairol/show/` | High
-29 | File | `/librarian/bookdetails.php` | High
+9 | File | `/api/` | Low
+10 | File | `/app/options.py` | High
+11 | File | `/attachments` | Medium
+12 | File | `/boat/login.php` | High
+13 | File | `/bsms_ci/index.php/book` | High
+14 | File | `/cgi-bin/login.cgi` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/ci_hms/massage_room/edit/1` | High
+17 | File | `/context/%2e/WEB-INF/web.xml` | High
+18 | File | `/dashboard/reports/logs/view` | High
+19 | File | `/dashboard/updatelogo.php` | High
+20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/hosts` | Medium
+23 | File | `/etc/openshift/server_priv.pem` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/wizard_end` | High
+27 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+28 | File | `/index.php` | Medium
+29 | File | `/index/jobfairol/show/` | High
 30 | File | `/manage-apartment.php` | High
 31 | File | `/medicines/profile.php` | High
 32 | File | `/mkshop/Men/profile.php` | High
@@ -167,7 +167,7 @@ ID | Type | Indicator | Confidence
 36 | File | `/proc/<PID>/mem` | High
 37 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

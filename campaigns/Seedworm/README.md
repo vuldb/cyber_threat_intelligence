@@ -55,28 +55,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/DesignTools/CssEditor.aspx` | High
-2 | File | `/dev/tty` | Medium
-3 | File | `/etc/passwd` | Medium
-4 | File | `/movie.php` | Medium
-5 | File | `/out.php` | Medium
-6 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
-7 | File | `/phppath/php` | Medium
-8 | File | `/search_events.php` | High
-9 | File | `/StartingPage/link_req_2.php` | High
-10 | File | `/user/s.php` | Medium
-11 | File | `/ViewUserHover.jspa` | High
-12 | File | `admin.php` | Medium
-13 | File | `admin/AJAX_lookup_handler.php` | High
-14 | File | `admin/general.php` | High
-15 | File | `admin/login.asp` | High
-16 | File | `admin/movieedit.php` | High
-17 | File | `affich.php` | Medium
-18 | File | `ahcache.sys` | Medium
-19 | File | `ajax/api/hook/getHookList` | High
+1 | File | `/cgi-bin/wlogin.cgi` | High
+2 | File | `/DesignTools/CssEditor.aspx` | High
+3 | File | `/dev/tty` | Medium
+4 | File | `/etc/passwd` | Medium
+5 | File | `/movie.php` | Medium
+6 | File | `/out.php` | Medium
+7 | File | `/pet_shop/admin/?page=inventory/manage_inventory` | High
+8 | File | `/phppath/php` | Medium
+9 | File | `/search_events.php` | High
+10 | File | `/StartingPage/link_req_2.php` | High
+11 | File | `/user/s.php` | Medium
+12 | File | `/ViewUserHover.jspa` | High
+13 | File | `admin.php` | Medium
+14 | File | `admin/AJAX_lookup_handler.php` | High
+15 | File | `admin/general.php` | High
+16 | File | `admin/login.asp` | High
+17 | File | `admin/movieedit.php` | High
+18 | File | `affich.php` | Medium
+19 | File | `ahcache.sys` | Medium
 20 | ... | ... | ...
 
-There are 162 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

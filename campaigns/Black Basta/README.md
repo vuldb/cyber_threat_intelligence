@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -74,62 +74,63 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/addnews.html` | High
 3 | File | `/admin/admin.php` | High
-4 | File | `/api/trackedEntityInstances` | High
-5 | File | `/bin/login.php` | High
-6 | File | `/cgi-bin/hi3510/param.cgi` | High
-7 | File | `/cgi-bin/system_mgr.cgi` | High
-8 | File | `/cgi/sshcheck.cgi` | High
-9 | File | `/common/logViewer/logViewer.jsf` | High
-10 | File | `/ConsoleHelp/` | High
-11 | File | `/etc/sudoers` | Medium
-12 | File | `/export` | Low
-13 | File | `/horde/imp/search.php` | High
-14 | File | `/index.php` | Medium
-15 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-16 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
-17 | File | `/login` | Low
-18 | File | `/modules/projects/vw_files.php` | High
-19 | File | `/news.dtl.php` | High
-20 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
-21 | File | `/opensis/modules/users/Staff.php` | High
-22 | File | `/plesk-site-preview/` | High
-23 | File | `/proc/self/environ` | High
-24 | File | `/rest/api/2/user/picker` | High
-25 | File | `/s/` | Low
-26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
-29 | File | `/services` | Medium
-30 | File | `/system?action=ServiceAdmin` | High
-31 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-32 | File | `/vicidial/user_stats.php` | High
-33 | File | `/websocket/exec` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `access.conf` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `addentry.php` | Medium
-38 | File | `admin.php?m=backup&c=backup&a=doback` | High
-39 | File | `admin/admin_users.php` | High
-40 | File | `admin/login.php` | High
-41 | File | `admin/upload.php` | High
-42 | File | `administers` | Medium
-43 | File | `Administrator_list.php` | High
-44 | File | `advancedsetup_websiteblocking.html` | High
-45 | File | `ajax_mail_autoreply.php` | High
-46 | File | `ajax_save_name.php` | High
-47 | File | `allocator.cc` | Medium
-48 | File | `announcements.php` | High
-49 | File | `ap1.com` | Low
-50 | File | `apache2/modsecurity.c` | High
-51 | File | `api_jsonrpc.php` | High
-52 | File | `app/admin/controller/Ajax.php` | High
-53 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-54 | File | `AppCompatCache.exe` | High
-55 | File | `application.php` | High
-56 | File | `apply.cgi` | Medium
-57 | ... | ... | ...
+4 | File | `/admin/user/manage_user.php` | High
+5 | File | `/api/trackedEntityInstances` | High
+6 | File | `/bin/login.php` | High
+7 | File | `/cgi-bin/hi3510/param.cgi` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/cgi/sshcheck.cgi` | High
+10 | File | `/common/logViewer/logViewer.jsf` | High
+11 | File | `/ConsoleHelp/` | High
+12 | File | `/etc/sudoers` | Medium
+13 | File | `/export` | Low
+14 | File | `/horde/imp/search.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+17 | File | `/LEPTON_stable_2.2.2/upload/admins/media/index.php` | High
+18 | File | `/login` | Low
+19 | File | `/modules/projects/vw_files.php` | High
+20 | File | `/news.dtl.php` | High
+21 | File | `/opensis/modules/grades/InputFinalGrades.php` | High
+22 | File | `/opensis/modules/users/Staff.php` | High
+23 | File | `/plesk-site-preview/` | High
+24 | File | `/proc/self/environ` | High
+25 | File | `/rest/api/2/user/picker` | High
+26 | File | `/s/` | Low
+27 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/sendrcpackage?keyid=-2544&keysymbol=-4081` | High
+30 | File | `/services` | Medium
+31 | File | `/system?action=ServiceAdmin` | High
+32 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+33 | File | `/vicidial/user_stats.php` | High
+34 | File | `/websocket/exec` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `access.conf` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `addentry.php` | Medium
+39 | File | `admin.php?m=backup&c=backup&a=doback` | High
+40 | File | `admin/admin_users.php` | High
+41 | File | `admin/login.php` | High
+42 | File | `admin/upload.php` | High
+43 | File | `administers` | Medium
+44 | File | `Administrator_list.php` | High
+45 | File | `advancedsetup_websiteblocking.html` | High
+46 | File | `ajax_mail_autoreply.php` | High
+47 | File | `ajax_save_name.php` | High
+48 | File | `allocator.cc` | Medium
+49 | File | `announcements.php` | High
+50 | File | `ap1.com` | Low
+51 | File | `apache2/modsecurity.c` | High
+52 | File | `api_jsonrpc.php` | High
+53 | File | `app/admin/controller/Ajax.php` | High
+54 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+55 | File | `AppCompatCache.exe` | High
+56 | File | `application.php` | High
+57 | File | `apply.cgi` | Medium
+58 | ... | ... | ...
 
-There are 501 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

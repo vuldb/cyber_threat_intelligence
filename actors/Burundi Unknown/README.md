@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,15 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.60.60](https://vuldb.com/?ip.5.62.60.60) | r-60-60-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.62.62.60](https://vuldb.com/?ip.5.62.62.60) | r-60-62-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.79.44.0](https://vuldb.com/?ip.41.79.44.0) | - | - | High
-4 | [41.79.224.0](https://vuldb.com/?ip.41.79.224.0) | - | - | High
-5 | [45.12.70.24](https://vuldb.com/?ip.45.12.70.24) | libres-shmit.get-eye.com | - | High
-6 | [45.12.71.24](https://vuldb.com/?ip.45.12.71.24) | - | - | High
+1 | [2.18.11.0](https://vuldb.com/?ip.2.18.11.0) | a2-18-11-0.deploy.static.akamaitechnologies.com | - | High
+2 | [5.62.60.60](https://vuldb.com/?ip.5.62.60.60) | r-60-60-62-5.consumer-pool.prcdn.net | - | High
+3 | [5.62.62.60](https://vuldb.com/?ip.5.62.62.60) | r-60-62-62-5.consumer-pool.prcdn.net | - | High
+4 | [41.79.44.0](https://vuldb.com/?ip.41.79.44.0) | - | - | High
+5 | [41.79.224.0](https://vuldb.com/?ip.41.79.224.0) | - | - | High
+6 | [41.207.112.0](https://vuldb.com/?ip.41.207.112.0) | - | - | High
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,43 +54,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 3 | File | `/admin/ajax/avatar.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/opt/bin/cli` | Medium
-12 | File | `/p` | Low
-13 | File | `/patient/doctors.php` | High
-14 | File | `/phpinventory/editcategory.php` | High
-15 | File | `/product-list.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/updown/upload.cgi` | High
-19 | File | `/user/del.php` | High
-20 | File | `/_next` | Low
-21 | File | `123flashchat.php` | High
-22 | File | `act.php` | Low
-23 | File | `admin/bad.php` | High
-24 | File | `admin/conf_users_edit.php` | High
-25 | File | `admin/dashboard.php` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/index.php/user/del/1` | High
-28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-29 | File | `administrator/index.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `album_portal.php` | High
-32 | File | `api.php` | Low
-33 | ... | ... | ...
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/default.php?idx=17` | High
+9 | File | `/download` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/opt/bin/cli` | Medium
+13 | File | `/p` | Low
+14 | File | `/patient/doctors.php` | High
+15 | File | `/phpinventory/editcategory.php` | High
+16 | File | `/product-list.php` | High
+17 | File | `/spip.php` | Medium
+18 | File | `/uncpath/` | Medium
+19 | File | `/updown/upload.cgi` | High
+20 | File | `/user/del.php` | High
+21 | File | `/_next` | Low
+22 | File | `123flashchat.php` | High
+23 | File | `act.php` | Low
+24 | File | `admin/bad.php` | High
+25 | File | `admin/conf_users_edit.php` | High
+26 | File | `admin/dashboard.php` | High
+27 | File | `admin/index.php` | High
+28 | File | `admin/index.php/user/del/1` | High
+29 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+30 | File | `administrator/index.php` | High
+31 | File | `ajax/render/widget_php` | High
+32 | File | `album_portal.php` | High
+33 | File | `api.php` | Low
+34 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bi.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bi.netset
 
 ## Literature
 

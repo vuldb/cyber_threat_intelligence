@@ -335,9 +335,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -350,39 +351,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/index2.html` | High
 4 | File | `/admin/patient.php` | High
 5 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-6 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-8 | File | `/APR/login.php` | High
-9 | File | `/APR/signup.php` | High
-10 | File | `/as/authorization.oauth2` | High
-11 | File | `/bin/sh` | Low
-12 | File | `/boat/login.php` | High
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cgi-bin/luci/api/auth` | High
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/cimom` | Low
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/controller/OnlinePreviewController.java` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/ecshop/admin/template.php` | High
-23 | File | `/etc/openstack-dashboard/local_settings` | High
-24 | File | `/etc/sudoers` | Medium
-25 | File | `/filemanager/php/connector.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/forum/PostPrivateMessage` | High
-28 | File | `/home/www/cgi-bin/login.cgi` | High
-29 | File | `/IISADMPWD` | Medium
-30 | File | `/Moosikay/order.php` | High
-31 | File | `/mygym/admin/index.php?view_exercises` | High
-32 | File | `/net-banking/customer_transactions.php` | High
-33 | File | `/out.php` | Medium
-34 | File | `/pet_shop/admin/orders/update_status.php` | High
-35 | File | `/php-opos/index.php` | High
-36 | ... | ... | ...
+6 | File | `/APR/login.php` | High
+7 | File | `/APR/signup.php` | High
+8 | File | `/as/authorization.oauth2` | High
+9 | File | `/boat/login.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/luci/api/auth` | High
+12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/cimom` | Low
+15 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/controller/OnlinePreviewController.java` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/ecshop/admin/template.php` | High
+19 | File | `/etc/openstack-dashboard/local_settings` | High
+20 | File | `/etc/sudoers` | Medium
+21 | File | `/filemanager/php/connector.php` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/forum/PostPrivateMessage` | High
+24 | File | `/goform/addressNat` | High
+25 | File | `/home/www/cgi-bin/login.cgi` | High
+26 | File | `/IISADMPWD` | Medium
+27 | File | `/modules/projects/vw_files.php` | High
+28 | File | `/Moosikay/order.php` | High
+29 | File | `/mygym/admin/index.php?view_exercises` | High
+30 | File | `/net-banking/customer_transactions.php` | High
+31 | File | `/out.php` | Medium
+32 | File | `/pet_shop/admin/orders/update_status.php` | High
+33 | File | `/php-opos/index.php` | High
+34 | File | `/public/launchNewWindow.jsp` | High
+35 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+36 | File | `/rukovoditel/index.php?module=users/login` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/tourism/rate_review.php` | High
+39 | File | `/uncpath/` | Medium
+40 | File | `/upload` | Low
+41 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+42 | File | `/wp-admin/admin-ajax.php` | High
+43 | ... | ... | ...
 
-There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

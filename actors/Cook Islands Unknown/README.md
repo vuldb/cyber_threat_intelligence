@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.56.64](https://vuldb.com/?ip.5.62.56.64) | r-64-56-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.58.60](https://vuldb.com/?ip.5.62.58.60) | r-60-58-62-5.consumer-pool.prcdn.net | - | High
-3 | [45.12.70.45](https://vuldb.com/?ip.45.12.70.45) | earns.get-eye.com | - | High
+3 | [14.137.40.0](https://vuldb.com/?ip.14.137.40.0) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,16 +91,17 @@ ID | Type | Indicator | Confidence
 41 | File | `admin/param/param_func.inc.php` | High
 42 | File | `admin/y_admin.asp` | High
 43 | File | `adminer.php` | Medium
-44 | File | `administrator/components/com_media/helpers/media.php` | High
-45 | File | `admin_ok.asp` | Medium
-46 | File | `app/Core/Paginator.php` | High
-47 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-48 | File | `artlinks.dispnew.php` | High
-49 | File | `auth.php` | Medium
-50 | File | `bin/named/query.c` | High
-51 | File | `blank.php` | Medium
-52 | File | `blocklayered-ajax.php` | High
-53 | ... | ... | ...
+44 | File | `administration/admins.php` | High
+45 | File | `administrator/components/com_media/helpers/media.php` | High
+46 | File | `admin_ok.asp` | Medium
+47 | File | `app/Core/Paginator.php` | High
+48 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+49 | File | `artlinks.dispnew.php` | High
+50 | File | `auth.php` | Medium
+51 | File | `bin/named/query.c` | High
+52 | File | `blank.php` | Medium
+53 | File | `blocklayered-ajax.php` | High
+54 | ... | ... | ...
 
 There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -109,6 +110,7 @@ There are 466 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ck.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ck.netset
 
 ## Literature
 

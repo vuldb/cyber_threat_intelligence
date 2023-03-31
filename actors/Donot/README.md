@@ -16,11 +16,11 @@ The following _campaigns_ are known and can be associated with Donot:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Donot:
 
 * [US](https://vuldb.com/?country.us)
-* [CH](https://vuldb.com/?country.ch)
 * [CN](https://vuldb.com/?country.cn)
+* [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,9 +95,11 @@ ID | Type | Indicator | Confidence
 31 | File | `/dashboard/add-blog.php` | High
 32 | File | `/dashboard/add-portfolio.php` | High
 33 | File | `/dashboard/settings` | High
-34 | ... | ... | ...
+34 | File | `/downloadmaster/dm_apply.cgi?action_mode=initial&download_type=General&special_cgi=get_language` | High
+35 | File | `/film-rating.php` | High
+36 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

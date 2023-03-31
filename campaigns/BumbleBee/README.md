@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [NO](https://vuldb.com/?country.no)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -170,7 +170,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -184,36 +184,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `//` | Low
-3 | File | `/appliance/users?action=edit` | High
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/backup.pl` | Medium
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/filemanager/php/connector.php` | High
-9 | File | `/files/import` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/Moosikay/order.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/php-scrm/login.php` | High
-14 | File | `/products/view_product.php` | High
-15 | File | `/public/login.htm` | High
-16 | File | `/secure/QueryComponent!Default.jspa` | High
-17 | File | `/shell` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/tmp/boa-temp` | High
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `/wp-admin/options.php` | High
-22 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-23 | File | `action.php` | Medium
-24 | File | `adclick.php` | Medium
-25 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-26 | File | `admin/disapprove_user.php` | High
-27 | File | `admin/manage_user.php` | High
-28 | File | `admin/template/js/uploadify/uploadify.swf` | High
-29 | File | `adminer.php` | Medium
-30 | ... | ... | ...
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/admin` | Low
+5 | File | `/admin/patient.php` | High
+6 | File | `/api/jmeter/download/files` | High
+7 | File | `/api/upload` | Medium
+8 | File | `/api/v1/attack/falco` | High
+9 | File | `/APR/login.php` | High
+10 | File | `/as/authorization.oauth2` | High
+11 | File | `/backup.pl` | Medium
+12 | File | `/cgi-bin/luci/api/auth` | High
+13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/churchcrm/EventAttendance.php` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/edoc/doctor/patient.php` | High
+18 | File | `/filemanager/php/connector.php` | High
+19 | File | `/files/import` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/j_security_check` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/Moosikay/order.php` | High
+26 | File | `/out.php` | Medium
+27 | File | `/php-scrm/login.php` | High
+28 | File | `/reservation/add_message.php` | High
+29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+30 | File | `/rukovoditel/index.php?module=users/login` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/static/ueditor/php/controller.php` | High
+33 | File | `/tmp/boa-temp` | High
+34 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-admin/options.php` | High
+37 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

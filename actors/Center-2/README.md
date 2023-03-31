@@ -54,12 +54,12 @@ ID | Type | Indicator | Confidence
 4 | File | `/forum/away.php` | High
 5 | File | `/horde/util/go.php` | High
 6 | File | `/SM8250_Q_Master/android/vendor/oppo_charger/oppo/oppo_charger.c` | High
-7 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-8 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
-9 | File | `action/addproject.php` | High
+7 | File | `/spip.php` | Medium
+8 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+9 | File | `/wp-content/plugins/emag-marketplace-connector/templates/order/awb-meta-box.php` | High
 10 | ... | ... | ...
 
-There are 76 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

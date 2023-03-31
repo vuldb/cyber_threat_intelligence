@@ -12,34 +12,41 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.61.36](https://vuldb.com/?ip.5.62.61.36) | r-36-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.28](https://vuldb.com/?ip.5.62.63.28) | r-28-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [23.232.251.0](https://vuldb.com/?ip.23.232.251.0) | - | - | High
-4 | [41.77.112.0](https://vuldb.com/?ip.41.77.112.0) | - | - | High
-5 | [41.87.128.0](https://vuldb.com/?ip.41.87.128.0) | - | - | High
-6 | [41.92.0.0](https://vuldb.com/?ip.41.92.0.0) | - | - | High
-7 | [41.94.0.0](https://vuldb.com/?ip.41.94.0.0) | - | - | High
-8 | [41.137.0.0](https://vuldb.com/?ip.41.137.0.0) | - | - | High
-9 | [41.140.0.0](https://vuldb.com/?ip.41.140.0.0) | - | - | High
-10 | [41.205.192.0](https://vuldb.com/?ip.41.205.192.0) | - | - | High
-11 | [41.214.128.0](https://vuldb.com/?ip.41.214.128.0) | - | - | High
-12 | [41.216.224.0](https://vuldb.com/?ip.41.216.224.0) | - | - | High
-13 | [41.248.0.0](https://vuldb.com/?ip.41.248.0.0) | - | - | High
-14 | [45.12.70.138](https://vuldb.com/?ip.45.12.70.138) | pyscore.alltieinc.com | - | High
-15 | [45.12.71.138](https://vuldb.com/?ip.45.12.71.138) | - | - | High
-16 | [45.95.128.0](https://vuldb.com/?ip.45.95.128.0) | - | - | High
-17 | [45.216.0.0](https://vuldb.com/?ip.45.216.0.0) | - | - | High
-18 | [46.243.137.0](https://vuldb.com/?ip.46.243.137.0) | - | - | High
-19 | [57.84.32.0](https://vuldb.com/?ip.57.84.32.0) | - | - | High
-20 | [62.251.128.0](https://vuldb.com/?ip.62.251.128.0) | ll62-0-128-251-62.ll62.iam.net.ma | - | High
-21 | [65.173.1.224](https://vuldb.com/?ip.65.173.1.224) | - | - | High
-22 | ... | ... | ... | ...
+3 | [23.95.247.0](https://vuldb.com/?ip.23.95.247.0) | 23-95-247-0-host.colocrossing.com | - | High
+4 | [23.232.251.0](https://vuldb.com/?ip.23.232.251.0) | - | - | High
+5 | [41.77.112.0](https://vuldb.com/?ip.41.77.112.0) | - | - | High
+6 | [41.77.115.0](https://vuldb.com/?ip.41.77.115.0) | - | - | High
+7 | [41.77.116.0](https://vuldb.com/?ip.41.77.116.0) | - | - | High
+8 | [41.87.128.0](https://vuldb.com/?ip.41.87.128.0) | - | - | High
+9 | [41.92.0.0](https://vuldb.com/?ip.41.92.0.0) | - | - | High
+10 | [41.94.0.0](https://vuldb.com/?ip.41.94.0.0) | - | - | High
+11 | [41.137.0.0](https://vuldb.com/?ip.41.137.0.0) | - | - | High
+12 | [41.140.0.0](https://vuldb.com/?ip.41.140.0.0) | - | - | High
+13 | [41.205.192.0](https://vuldb.com/?ip.41.205.192.0) | - | - | High
+14 | [41.214.128.0](https://vuldb.com/?ip.41.214.128.0) | - | - | High
+15 | [41.216.224.0](https://vuldb.com/?ip.41.216.224.0) | - | - | High
+16 | [41.248.0.0](https://vuldb.com/?ip.41.248.0.0) | - | - | High
+17 | [45.12.70.138](https://vuldb.com/?ip.45.12.70.138) | pyscore.alltieinc.com | - | High
+18 | [45.12.71.138](https://vuldb.com/?ip.45.12.71.138) | - | - | High
+19 | [45.95.128.0](https://vuldb.com/?ip.45.95.128.0) | - | - | High
+20 | [45.216.0.0](https://vuldb.com/?ip.45.216.0.0) | - | - | High
+21 | [46.243.137.0](https://vuldb.com/?ip.46.243.137.0) | - | - | High
+22 | [57.82.32.0](https://vuldb.com/?ip.57.82.32.0) | - | - | High
+23 | [57.84.32.0](https://vuldb.com/?ip.57.84.32.0) | - | - | High
+24 | [62.251.128.0](https://vuldb.com/?ip.62.251.128.0) | ll62-0-128-251-62.ll62.iam.net.ma | - | High
+25 | [65.173.1.224](https://vuldb.com/?ip.65.173.1.224) | - | - | High
+26 | [67.15.234.0](https://vuldb.com/?ip.67.15.234.0) | ev1s-67-15-234-0.theplanet.com | - | High
+27 | [80.250.32.0](https://vuldb.com/?ip.80.250.32.0) | - | - | High
+28 | ... | ... | ... | ...
 
-There are 82 more IOC items available. Please use our online service to access the data.
+There are 107 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ma.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ma.netset
 
 ## Literature
 

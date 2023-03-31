@@ -55,19 +55,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-6 | File | `/jquery_file_upload/server/php/index.php` | High
-7 | File | `/librarian/bookdetails.php` | High
-8 | File | `/magnoliaPublic/travel/members/login.html` | High
-9 | File | `/Main_AdmStatus_Content.asp` | High
-10 | File | `/requests.php` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/var/log/nginx` | High
+3 | File | `/appConfig/userDB.json` | High
+4 | File | `/bin/boa` | Medium
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+7 | File | `/jquery_file_upload/server/php/index.php` | High
+8 | File | `/librarian/bookdetails.php` | High
+9 | File | `/magnoliaPublic/travel/members/login.html` | High
+10 | File | `/Main_AdmStatus_Content.asp` | High
+11 | File | `/requests.php` | High
+12 | File | `/uncpath/` | Medium
 13 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -137,23 +137,23 @@ ID | Type | Indicator | Confidence
 24 | File | `/forum/away.php` | High
 25 | File | `/fos/admin/ajax.php?action=login` | High
 26 | File | `/fos/admin/index.php?page=menu` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/home/masterConsole` | High
-29 | File | `/home/sendBroadcast` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-33 | File | `/lookin/info` | Medium
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/mygym/admin/index.php?view_exercises` | High
-37 | File | `/out.php` | Medium
-38 | File | `/php-opos/index.php` | High
-39 | File | `/proxy` | Low
-40 | File | `/Redcock-Farm/farm/category.php` | High
-41 | File | `/reports/rwservlet` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/home/masterConsole` | High
+28 | File | `/home/sendBroadcast` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+32 | File | `/lookin/info` | Medium
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/mygym/admin/index.php?view_exercises` | High
+36 | File | `/php-opos/index.php` | High
+37 | File | `/proxy` | Low
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/secure/QueryComponent!Default.jspa` | High
+43 | File | `/Session` | Medium
 44 | File | `/spip.php` | Medium
 45 | File | `/tmp` | Low
 46 | File | `/uncpath/` | Medium
@@ -161,9 +161,11 @@ ID | Type | Indicator | Confidence
 48 | File | `/video-sharing-script/watch-video.php` | High
 49 | File | `/wireless/security.asp` | High
 50 | File | `/xxl-job-admin/jobinfo` | High
-51 | ... | ... | ...
+51 | File | `01article.php` | High
+52 | File | `AbstractScheduleJob.java` | High
+53 | ... | ... | ...
 
-There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

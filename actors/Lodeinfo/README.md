@@ -49,18 +49,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/index.php` | High
-3 | File | `/api /v3/auth` | High
-4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-5 | File | `/auth` | Low
-6 | File | `/balance/service/list` | High
-7 | File | `/config/getuser` | High
-8 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-9 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-10 | File | `/uncpath/` | Medium
-11 | ... | ... | ...
+2 | File | `.kdbgrc` | Low
+3 | File | `/admin/index.php` | High
+4 | File | `/api /v3/auth` | High
+5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+6 | File | `/auth` | Low
+7 | File | `/balance/service/list` | High
+8 | File | `/config/getuser` | High
+9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+10 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+11 | File | `/uncpath/` | Medium
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

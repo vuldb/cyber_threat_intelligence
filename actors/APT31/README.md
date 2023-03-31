@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -60,21 +60,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/etc/openstack-dashboard/local_settings` | High
-3 | File | `/get_getnetworkconf.cgi` | High
-4 | File | `/goform/RgDhcp` | High
-5 | File | `/goform/RGFirewallEL` | High
-6 | File | `/horde/util/go.php` | High
-7 | File | `/rapi/read_url` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/usr/bin/pkexec` | High
-10 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-11 | File | `/wp-content/uploads/photo-gallery/` | High
-12 | File | `administrator/components/com_media/helpers/media.php` | High
-13 | File | `bb_usage_stats.php` | High
-14 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/etc/openstack-dashboard/local_settings` | High
+4 | File | `/get_getnetworkconf.cgi` | High
+5 | File | `/goform/RgDhcp` | High
+6 | File | `/goform/RGFirewallEL` | High
+7 | File | `/horde/util/go.php` | High
+8 | File | `/rapi/read_url` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/usr/bin/pkexec` | High
+11 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+12 | File | `/wp-content/uploads/photo-gallery/` | High
+13 | File | `administrator/components/com_media/helpers/media.php` | High
+14 | File | `appserv/main.php` | High
+15 | ... | ... | ...
 
-There are 113 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 115 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

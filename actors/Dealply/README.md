@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dealply:
 
 * [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -33,13 +34,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-27, CWE-29 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-25, CWE-27, CWE-29 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,51 +48,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin.php/update/getFile.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/ajax.php` | High
-6 | File | `/admin/content/index` | High
-7 | File | `/admin/convert/export_z3950_new.php` | High
-8 | File | `/admin/delete_user.php` | High
-9 | File | `/admin/doctors.php` | High
-10 | File | `/admin/edit-doc.php` | High
-11 | File | `/admin/index3.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/main/mod-blog` | High
-14 | File | `/admin/manage_user.php` | High
-15 | File | `/admin/navbar.php` | High
-16 | File | `/admin/patient.php` | High
-17 | File | `/admin/upload` | High
-18 | File | `/admin/view_order.php` | High
-19 | File | `/admin1/config/update` | High
-20 | File | `/admin1/file/download` | High
-21 | File | `/agc/vicidial.php` | High
-22 | File | `/ajax/update_certificate` | High
-23 | File | `/alphaware/summary.php` | High
-24 | File | `/api/admin/system/store/order/list` | High
-25 | File | `/api/admin/user/list` | High
-26 | File | `/api/jmeter/download/files` | High
-27 | File | `/APR/login.php` | High
-28 | File | `/APR/signup.php` | High
-29 | File | `/billing/home.php` | High
-30 | File | `/boat/login.php` | High
-31 | File | `/cgi-bin/mainfunction.cgi` | High
-32 | File | `/cgi-bin/mft/wireless_mft` | High
-33 | File | `/data/config.ftp.php` | High
-34 | File | `/databases/database/edit` | High
-35 | File | `/databases/database/list` | High
-36 | File | `/databases/table/columns` | High
-37 | File | `/databases/table/list` | High
-38 | File | `/dist/index.js` | High
-39 | File | `/editor/index.php` | High
-40 | File | `/edoc/doctor/patient.php` | High
-41 | File | `/eduauth/student/search.php` | High
-42 | File | `/etc/init.d/openfire` | High
-43 | ... | ... | ...
+1 | File | `/admin.php/appcenter/local.html?type=addon` | High
+2 | File | `/admin.php?controller=admin_commonuser` | High
+3 | File | `/admin/ajax.php` | High
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/content/index` | High
+6 | File | `/admin/convert/export_z3950_new.php` | High
+7 | File | `/admin/delete_user.php` | High
+8 | File | `/admin/getallarticleinfo` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/manage_user.php` | High
+11 | File | `/admin/navbar.php` | High
+12 | File | `/admin/reports/index.php` | High
+13 | File | `/admin/robot/approval/list` | High
+14 | File | `/admin/upload` | High
+15 | File | `/admin/view_order.php` | High
+16 | File | `/admin1/file/download` | High
+17 | File | `/admin_system/api.php` | High
+18 | File | `/agc/vicidial.php` | High
+19 | File | `/alphaware/details.php` | High
+20 | File | `/analysisProject/pagingQueryData` | High
+21 | File | `/api/admin/store/product/list` | High
+22 | File | `/api/admin/store/product/save` | High
+23 | File | `/api/admin/user/list` | High
+24 | File | `/api/jmeter/download/files` | High
+25 | File | `/api/upload` | Medium
+26 | File | `/batm/app/admin/standalone/deployments` | High
+27 | File | `/billing/home.php` | High
+28 | File | `/bookstore/bookPerPub.php` | High
+29 | File | `/bsenordering/index.php` | High
+30 | File | `/churchcrm/EventAttendance.php` | High
+31 | File | `/common/sysFile/list` | High
+32 | File | `/databases/database/edit` | High
+33 | File | `/databases/database/list` | High
+34 | File | `/databases/table/columns` | High
+35 | File | `/databases/table/list` | High
+36 | File | `/ecommerce/admin/category/controller.php` | High
+37 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+38 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+39 | File | `/eduauth/student/search.php` | High
+40 | File | `/etc/init.d/openfire` | High
+41 | File | `/feeds/post/publish` | High
+42 | File | `/files/list-file` | High
+43 | File | `/file_manager/login.php` | High
+44 | File | `/geoserver/rest/about/status` | High
+45 | File | `/https_redirect.php` | High
+46 | File | `/kruxton/manage_user.php` | High
+47 | File | `/kruxton/navbar.php` | High
+48 | File | `/kruxton/receipt.php` | High
+49 | File | `/kruxton/sales_report.php` | High
+50 | File | `/NotrinosERP/sales/customer_delivery.php` | High
+51 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 447 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

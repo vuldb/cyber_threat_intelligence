@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,10 +81,11 @@ ID | Type | Indicator | Confidence
 27 | File | `AccountStatus.jsp` | High
 28 | File | `add.php` | Low
 29 | File | `addentry.php` | Medium
-30 | File | `admin.php` | Medium
-31 | ... | ... | ...
+30 | File | `admin.a6mambocredits.php` | High
+31 | File | `admin.cropcanvas.php` | High
+32 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

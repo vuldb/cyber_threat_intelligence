@@ -525,13 +525,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -546,42 +546,42 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/submit-articles` | High
-8 | File | `/admin/subnets/ripe-query.php` | High
-9 | File | `/alphaware/summary.php` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/api/` | Low
 10 | File | `/appliance/users?action=edit` | High
 11 | File | `/apply.cgi` | Medium
 12 | File | `/attachments` | Medium
 13 | File | `/backup.pl` | Medium
 14 | File | `/boat/login.php` | High
 15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/edoc/doctor/patient.php` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/etc/ldap.conf` | High
-22 | File | `/etc/quagga` | Medium
-23 | File | `/etc/shadow` | Medium
-24 | File | `/event/admin/?page=user/list` | High
-25 | File | `/foms/place-order.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/h/calendar` | Medium
-28 | File | `/hardware` | Medium
-29 | File | `/index.php` | Medium
-30 | File | `/medicines/profile.php` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-32 | File | `/out.php` | Medium
-33 | File | `/php-scrm/login.php` | High
-34 | File | `/proxy` | Low
-35 | File | `/reservation/add_message.php` | High
-36 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/loader.php?api=1` | High
-41 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-42 | File | `/video-sharing-script/watch-video.php` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+18 | File | `/edoc/doctor/patient.php` | High
+19 | File | `/etc/hosts` | Medium
+20 | File | `/etc/ldap.conf` | High
+21 | File | `/etc/quagga` | Medium
+22 | File | `/etc/shadow` | Medium
+23 | File | `/event/admin/?page=user/list` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/hardware` | Medium
+26 | File | `/index.php` | Medium
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/out.php` | Medium
+30 | File | `/php-scrm/login.php` | High
+31 | File | `/proxy` | Low
+32 | File | `/reservation/add_message.php` | High
+33 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+34 | File | `/Session` | Medium
+35 | File | `/spip.php` | Medium
+36 | File | `/tmp` | Low
+37 | File | `/uncpath/` | Medium
+38 | File | `/user/loader.php?api=1` | High
+39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+40 | File | `/video-sharing-script/watch-video.php` | High
+41 | File | `/wireless/security.asp` | High
+42 | File | `/wp-admin/admin-ajax.php` | High
+43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 44 | ... | ... | ...
 
 There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

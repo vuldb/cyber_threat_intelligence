@@ -60,13 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,43 +78,47 @@ ID | Type | Indicator | Confidence
 2 | File | `/about.php` | Medium
 3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
 4 | File | `/admin.php` | Medium
-5 | File | `/admin/` | Low
-6 | File | `/Admin/add-student.php` | High
-7 | File | `/admin/api/theme-edit/` | High
-8 | File | `/admin/photo.php` | High
-9 | File | `/auth` | Low
-10 | File | `/catcompany.php` | High
-11 | File | `/cms/category/list` | High
-12 | File | `/dashboard/view-chair-list.php` | High
-13 | File | `/Default/Bd` | Medium
-14 | File | `/ebics-server/ebics.aspx` | High
-15 | File | `/egroupware/index.php` | High
-16 | File | `/etc/hosts` | Medium
-17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/GponForm/fsetup_Form` | High
-19 | File | `/GponForm/usb_restore_Form?script/` | High
-20 | File | `/hrm/employeeview.php` | High
-21 | File | `/includes/decorators/global-translations.jsp` | High
-22 | File | `/index.php` | Medium
-23 | File | `/product_list.php` | High
-24 | File | `/public_html/users.php` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/server-status` | High
-28 | File | `/setSystemAdmin` | High
-29 | File | `/tmp` | Low
-30 | File | `/uncpath/` | Medium
-31 | File | `/user/s.php` | Medium
-32 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-33 | File | `/WEB-INF/web.xml` | High
-34 | File | `add-locker-form.php` | High
-35 | File | `addentry.php` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin/booking_report.php` | High
-38 | File | `admin/executar_login.php` | High
-39 | ... | ... | ...
+5 | File | `/admin.php/accessory/filesdel.html` | High
+6 | File | `/admin/` | Low
+7 | File | `/Admin/add-student.php` | High
+8 | File | `/admin/api/theme-edit/` | High
+9 | File | `/admin/index3.php` | High
+10 | File | `/admin/photo.php` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/auth` | Low
+13 | File | `/catcompany.php` | High
+14 | File | `/cms/category/list` | High
+15 | File | `/dashboard/view-chair-list.php` | High
+16 | File | `/Default/Bd` | Medium
+17 | File | `/ebics-server/ebics.aspx` | High
+18 | File | `/egroupware/index.php` | High
+19 | File | `/etc/hosts` | Medium
+20 | File | `/GponForm/device_Form?script/` | High
+21 | File | `/GponForm/fsetup_Form` | High
+22 | File | `/GponForm/usb_restore_Form?script/` | High
+23 | File | `/hrm/employeeview.php` | High
+24 | File | `/includes/decorators/global-translations.jsp` | High
+25 | File | `/index.php` | Medium
+26 | File | `/loginsave.php` | High
+27 | File | `/param.file.tgz` | High
+28 | File | `/product_list.php` | High
+29 | File | `/public_html/users.php` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/see_more_details.php` | High
+32 | File | `/server-status` | High
+33 | File | `/setSystemAdmin` | High
+34 | File | `/tmp` | Low
+35 | File | `/uncpath/` | Medium
+36 | File | `/user/s.php` | Medium
+37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+38 | File | `/WEB-INF/web.xml` | High
+39 | File | `/wireless/guestnetwork.asp` | High
+40 | File | `adclick.php` | Medium
+41 | File | `add-locker-form.php` | High
+42 | File | `addentry.php` | Medium
+43 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

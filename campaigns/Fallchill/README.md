@@ -58,10 +58,9 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-267, CWE-269, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,32 +70,33 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//` | Low
 2 | File | `/api/jmeter/download/files` | High
-3 | File | `/APR/login.php` | High
-4 | File | `/DXR.axd` | Medium
-5 | File | `/env` | Low
-6 | File | `/files/import` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/FreshRSS/p/ext.php` | High
-9 | File | `/goform/addressNat` | High
-10 | File | `/goform/CertListInfo` | High
-11 | File | `/goform/fast_setting_wifi_set` | High
-12 | File | `/goform/IPSECsave` | High
-13 | File | `/goform/L7Im` | Medium
-14 | File | `/goform/NatStaticSetting` | High
-15 | File | `/goform/qossetting` | High
-16 | File | `/goform/SafeClientFilter` | High
-17 | File | `/goform/SafeMacFilter` | High
-18 | File | `/goform/SafeUrlFilter` | High
-19 | File | `/goform/setMacFilterCfg` | High
-20 | File | `/goform/SysToolRestoreSet` | High
-21 | File | `/goform/VirtualSer` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/lib` | Low
-26 | ... | ... | ...
+3 | File | `/api/upload` | Medium
+4 | File | `/APR/login.php` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/DXR.axd` | Medium
+7 | File | `/env` | Low
+8 | File | `/files/import` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/fast_setting_wifi_set` | High
+11 | File | `/goform/setMacFilterCfg` | High
+12 | File | `/hrm/controller/employee.php` | High
+13 | File | `/hrm/employeeadd.php` | High
+14 | File | `/hrm/employeeview.php` | High
+15 | File | `/j_security_check` | High
+16 | File | `/lib` | Low
+17 | File | `/librarian/bookdetails.php` | High
+18 | File | `/m3_exec.h` | Medium
+19 | File | `/mhds/clinic/view_details.php` | High
+20 | File | `/Moosikay/order.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/tmp/boa-temp` | High
+23 | File | `/v1/sql-runner` | High
+24 | File | `/view-property.php` | High
+25 | File | `/wp-json` | Medium
+26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+27 | ... | ... | ...
 
-There are 220 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

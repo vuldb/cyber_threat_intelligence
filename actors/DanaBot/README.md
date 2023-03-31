@@ -74,9 +74,10 @@ ID | Type | Indicator | Confidence
 19 | File | `add_comment.php` | High
 20 | File | `admin.php` | Medium
 21 | File | `admin/admin.shtml` | High
-22 | ... | ... | ...
+22 | File | `admin/content.php` | High
+23 | ... | ... | ...
 
-There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 189 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

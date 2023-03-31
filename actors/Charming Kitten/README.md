@@ -18,10 +18,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [NL](https://vuldb.com/?country.nl)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -63,13 +63,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,37 +78,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/about.php` | Medium
-2 | File | `/admin/submit-articles` | High
-3 | File | `/admin/subnets/ripe-query.php` | High
-4 | File | `/ad_js.php` | Medium
-5 | File | `/app/options.py` | High
-6 | File | `/attachments` | Medium
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/cgi-bin/luci/api/wireless` | High
-9 | File | `/ci_hms/massage_room/edit/1` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/export` | Low
-17 | File | `/goform/setmac` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/hardware` | Medium
-20 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-21 | File | `/index/jobfairol/show/` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/manage-apartment.php` | High
-24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/plugin/LiveChat/getChat.json.php` | High
-28 | File | `/proc/<PID>/mem` | High
-29 | File | `/proxy` | Low
-30 | ... | ... | ...
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/submit-articles` | High
+7 | File | `/admin/subnets/ripe-query.php` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/attachments` | Medium
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/book` | High
+15 | File | `/cgi-bin/luci/api/wireless` | High
+16 | File | `/context/%2e/WEB-INF/web.xml` | High
+17 | File | `/dashboard/reports/logs/view` | High
+18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+19 | File | `/debug/pprof` | Medium
+20 | File | `/etc/hosts` | Medium
+21 | File | `/export` | Low
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/setmac` | High
+24 | File | `/goform/wizard_end` | High
+25 | File | `/hardware` | Medium
+26 | File | `/manage-apartment.php` | High
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+30 | File | `/pages/apply_vacancy.php` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | File | `/proxy` | Low
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/tmp` | Low
+36 | File | `/uncpath/` | Medium
+37 | File | `/upload` | Low
+38 | ... | ... | ...
 
-There are 256 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

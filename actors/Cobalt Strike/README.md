@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -82,13 +82,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -96,36 +96,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
+1 | File | `/admin` | Low
 2 | File | `/admin/` | Low
 3 | File | `/admin/patient.php` | High
 4 | File | `/APR/login.php` | High
 5 | File | `/APR/signup.php` | High
-6 | File | `/as/authorization.oauth2` | High
-7 | File | `/cgi-bin/luci/api/auth` | High
-8 | File | `/cgi-bin/wapopen` | High
+6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/churchcrm/EventAttendance.php` | High
 9 | File | `/DXR.axd` | Medium
 10 | File | `/filemanager/php/connector.php` | High
 11 | File | `/forum/away.php` | High
 12 | File | `/HNAP1/SetClientInfo` | High
-13 | File | `/mims/login.php` | High
-14 | File | `/php-scrm/login.php` | High
-15 | File | `/rukovoditel/index.php?module=users/login` | High
-16 | File | `/textpattern/index.php` | High
-17 | File | `/tmp` | Low
-18 | File | `account-signup.php` | High
-19 | File | `account/signup.php` | High
-20 | File | `addentry.php` | Medium
-21 | File | `admin.php` | Medium
-22 | File | `admin/admin_editor.php` | High
-23 | File | `admin/conf_users_edit.php` | High
-24 | File | `admin/template/js/uploadify/uploadify.swf` | High
-25 | File | `admin/TemplateController.java` | High
-26 | File | `adminer.php` | Medium
-27 | File | `AndroidManifest.xml` | High
-28 | ... | ... | ...
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/mims/login.php` | High
+15 | File | `/modules/projects/vw_files.php` | High
+16 | File | `/php-scrm/login.php` | High
+17 | File | `/public/launchNewWindow.jsp` | High
+18 | File | `/rukovoditel/index.php?module=users/login` | High
+19 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+20 | File | `/static/ueditor/php/controller.php` | High
+21 | File | `/textpattern/index.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+24 | File | `/wp-admin/admin-ajax.php` | High
+25 | File | `/wp-admin/options.php` | High
+26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+27 | File | `account/signup.php` | High
+28 | File | `Acl.asp` | Low
+29 | File | `activenews_view.asp` | High
+30 | File | `adclick.php` | Medium
+31 | File | `addentry.php` | Medium
+32 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+33 | File | `admin.php` | Medium
+34 | File | `admin/admin_editor.php` | High
+35 | File | `admin/TemplateController.java` | High
+36 | File | `admincp.php` | Medium
+37 | File | `adminer.php` | Medium
+38 | File | `affich.php` | Medium
+39 | File | `ajax/telemetry.php` | High
+40 | ... | ... | ...
 
-There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

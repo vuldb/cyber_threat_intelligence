@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedFoxtrot:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,18 +58,19 @@ ID | Type | Indicator | Confidence
 7 | File | `/system/user/resetPwd` | High
 8 | File | `/tos/index.php?editor/fileGet` | High
 9 | File | `/uncpath/` | Medium
-10 | File | `/var/log/nginx` | High
-11 | File | `addentry.php` | Medium
-12 | File | `admin/plib/api-rpc/Agent.php` | High
-13 | File | `auth-gss2.c` | Medium
-14 | File | `bcbadmSettings.jsp` | High
-15 | File | `books.php` | Medium
-16 | File | `cgi.c` | Low
-17 | File | `class/connect.php` | High
-18 | File | `commands.c` | Medium
-19 | ... | ... | ...
+10 | File | `/user/updatePwd` | High
+11 | File | `/var/log/nginx` | High
+12 | File | `addentry.php` | Medium
+13 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+14 | File | `admin/plib/api-rpc/Agent.php` | High
+15 | File | `auth-gss2.c` | Medium
+16 | File | `bcbadmSettings.jsp` | High
+17 | File | `books.php` | Medium
+18 | File | `cgi.c` | Low
+19 | File | `class/connect.php` | High
+20 | ... | ... | ...
 
-There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

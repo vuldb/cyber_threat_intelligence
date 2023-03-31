@@ -54,7 +54,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -96,29 +96,29 @@ ID | Type | Indicator | Confidence
 25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 26 | File | `00.jsp` | Low
 27 | File | `add_2_basket.asp` | High
-28 | File | `admin.asp` | Medium
-29 | File | `admin.jcomments.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/` | Low
-32 | File | `admin/?page=system_info` | High
-33 | File | `admin/aboutus.php` | High
-34 | File | `admin/article_save.php` | High
-35 | File | `admin/import/class-import-settings.php` | High
-36 | File | `admin/manage-comments.php` | High
-37 | File | `administration/comments.php` | High
-38 | File | `administrator/mail/download.cfm` | High
-39 | File | `AdminViewError/AdminAddadmin` | High
-40 | File | `admin_edit_comment.php` | High
-41 | File | `agentdisplay.php` | High
-42 | File | `apply.cgi` | Medium
-43 | File | `appointment.php` | High
-44 | File | `arch/x86/kvm/hyperv.c` | High
-45 | File | `armv8_deprecated.c` | High
-46 | File | `assets/components/fred/web/elfinder/connector.php` | High
-47 | File | `auction.cgi` | Medium
+28 | File | `admin-ajax.php` | High
+29 | File | `admin.asp` | Medium
+30 | File | `admin.jcomments.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/` | Low
+33 | File | `admin/?page=system_info` | High
+34 | File | `admin/aboutus.php` | High
+35 | File | `admin/article_save.php` | High
+36 | File | `admin/import/class-import-settings.php` | High
+37 | File | `admin/manage-comments.php` | High
+38 | File | `administration/comments.php` | High
+39 | File | `administrator/mail/download.cfm` | High
+40 | File | `AdminViewError/AdminAddadmin` | High
+41 | File | `admin_edit_comment.php` | High
+42 | File | `agentdisplay.php` | High
+43 | File | `apply.cgi` | Medium
+44 | File | `appointment.php` | High
+45 | File | `arch/x86/kvm/hyperv.c` | High
+46 | File | `armv8_deprecated.c` | High
+47 | File | `assets/components/fred/web/elfinder/connector.php` | High
 48 | ... | ... | ...
 
-There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

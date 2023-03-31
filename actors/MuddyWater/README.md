@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [JP](https://vuldb.com/?country.jp)
-* [ES](https://vuldb.com/?country.es)
+* [DK](https://vuldb.com/?country.dk)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -59,11 +59,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -73,52 +74,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `$GIT_DIR/objects` | High
-2 | File | `$HOME/.printers` | High
-3 | File | `/admin.php/accessory/filesdel.html` | High
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin.php/appcenter/local.html?type=addon` | High
 4 | File | `/admin.php/update/getFile.html` | High
 5 | File | `/admin/?page=user/manage` | High
 6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/admin.php` | High
-8 | File | `/admin/doctors.php` | High
-9 | File | `/admin/edit-doc.php` | High
-10 | File | `/admin/index3.php` | High
-11 | File | `/admin/patient.php` | High
-12 | File | `/adms/admin/?page=user/manage_user` | High
-13 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-15 | File | `/adms/classes/Users.php` | High
-16 | File | `/api/admin/system/store/order/list` | High
-17 | File | `/APR/signup.php` | High
-18 | File | `/backup.pl` | Medium
-19 | File | `/bin/httpd` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/CPE` | Low
-23 | File | `/data/config.ftp.php` | High
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/editor/index.php` | High
-26 | File | `/edoc/doctor/patient.php` | High
-27 | File | `/etc/tomcat8/Catalina/attack` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/forum/PostPrivateMessage` | High
-30 | File | `/goform/SetSysTimeCfg` | High
-31 | File | `/home/cavesConsole` | High
-32 | File | `/home/kickPlayer` | High
-33 | File | `/home/masterConsole` | High
-34 | File | `/home/sendBroadcast` | High
-35 | File | `/oews/classes/Master.php?f=update_cart` | High
-36 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-37 | File | `/param.file.tgz` | High
-38 | File | `/pet_shop/admin/orders/update_status.php` | High
-39 | File | `/php-opos/index.php` | High
-40 | File | `/ptippage.cgi` | High
-41 | File | `/ptipupgrade.cgi` | High
-42 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-43 | File | `/setnetworksettings/IPAddress` | High
-44 | ... | ... | ...
+7 | File | `/admin/ajax.php` | High
+8 | File | `/admin/assign/assign.php` | High
+9 | File | `/admin/content/index` | High
+10 | File | `/admin/delete_user.php` | High
+11 | File | `/admin/doctors.php` | High
+12 | File | `/admin/edit-doc.php` | High
+13 | File | `/admin/getallarticleinfo` | High
+14 | File | `/admin/index3.php` | High
+15 | File | `/admin/info_deal.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/patient.php` | High
+18 | File | `/admin/reports/index.php` | High
+19 | File | `/admin/robot/approval/list` | High
+20 | File | `/admin_system/api.php` | High
+21 | File | `/alphaware/details.php` | High
+22 | File | `/alphaware/summary.php` | High
+23 | File | `/analysisProject/pagingQueryData` | High
+24 | File | `/api/admin/store/product/list` | High
+25 | File | `/api/admin/system/store/order/list` | High
+26 | File | `/APR/login.php` | High
+27 | File | `/APR/signup.php` | High
+28 | File | `/batm/app/admin/standalone/deployments` | High
+29 | File | `/bilal final/login.php` | High
+30 | File | `/cgi-bin/mft/wireless_mft` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/dayrui/Fcms/View/system_log.html` | High
+33 | File | `/dayrui/My/Config/Install.txt` | High
+34 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+35 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
+36 | File | `/editor/index.php` | High
+37 | File | `/edoc/doctor/patient.php` | High
+38 | File | `/feeds/post/publish` | High
+39 | File | `/file_manager/login.php` | High
+40 | File | `/fos/admin/ajax.php?action=save_settings` | High
+41 | File | `/ghost/preview` | High
+42 | File | `/goform/SetSysTimeCfg` | High
+43 | File | `/Moosikay/order.php` | High
+44 | File | `/param.file.tgz` | High
+45 | File | `/pet_shop/admin/orders/update_status.php` | High
+46 | File | `/philosophy/admin/login.php` | High
+47 | File | `/philosophy/admin/user/controller.php?action=add` | High
+48 | File | `/php-opos/index.php` | High
+49 | ... | ... | ...
 
-There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

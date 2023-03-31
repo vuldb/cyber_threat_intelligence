@@ -54,11 +54,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/mics/j_spring_security_check` | High
-2 | File | `examples/openid.php` | High
-3 | File | `FormDisplay.php` | High
-4 | ... | ... | ...
+2 | File | `/user/s.php` | Medium
+3 | File | `add-locker-form.php` | High
+4 | File | `admin/booking_report.php` | High
+5 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 27 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

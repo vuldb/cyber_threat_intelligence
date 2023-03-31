@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Passwordstealera:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [RO](https://vuldb.com/?country.ro)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -67,16 +67,17 @@ ID | Type | Indicator | Confidence
 12 | File | `/uncpath/` | Medium
 13 | File | `/vdesk` | Low
 14 | File | `/web/google_analytics.php` | High
-15 | File | `admin_component.php` | High
-16 | File | `app/views/journals/index.builder` | High
-17 | File | `archive_endian.h` | High
-18 | File | `auth-gss2.c` | Medium
-19 | File | `bmp.c` | Low
-20 | File | `body.asp` | Medium
-21 | File | `caca/dither.c` | High
-22 | ... | ... | ...
+15 | File | `admin/login.php` | High
+16 | File | `admin_component.php` | High
+17 | File | `app/views/journals/index.builder` | High
+18 | File | `archive_endian.h` | High
+19 | File | `auth-gss2.c` | Medium
+20 | File | `bmp.c` | Low
+21 | File | `boaform/admin/formPing` | High
+22 | File | `body.asp` | Medium
+23 | ... | ... | ...
 
-There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

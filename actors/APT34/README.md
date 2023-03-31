@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
 29 | File | `/replication` | Medium
 30 | File | `/RestAPI` | Medium
-31 | ... | ... | ...
+31 | File | `/SASWebReportStudio/logonAndRender.do` | High
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

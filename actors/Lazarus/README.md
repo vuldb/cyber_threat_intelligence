@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -274,7 +274,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -292,36 +292,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/advanced-tools/nova/bin/netwatch` | High
 4 | File | `/api/jmeter/download/files` | High
-5 | File | `/api/v1/attack/falco` | High
-6 | File | `/APR/login.php` | High
-7 | File | `/aya/module/admin/fst_down.inc.php` | High
-8 | File | `/boat/login.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-11 | File | `/cgi-bin/R14.2/log.pl` | High
+5 | File | `/api/upload` | Medium
+6 | File | `/api/v1/attack/falco` | High
+7 | File | `/APR/login.php` | High
+8 | File | `/aya/module/admin/fst_down.inc.php` | High
+9 | File | `/boat/login.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
 12 | File | `/DXR.axd` | Medium
 13 | File | `/ebics-server/ebics.aspx` | High
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/files/import` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/HNAP1/SetClientInfo` | High
-18 | File | `/ims/login.php` | High
+14 | File | `/files/import` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/HNAP1/SetClientInfo` | High
+17 | File | `/ims/login.php` | High
+18 | File | `/j_security_check` | High
 19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/login/index.php` | High
-21 | File | `/mhds/clinic/view_details.php` | High
-22 | File | `/Moosikay/order.php` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/out.php` | Medium
-25 | File | `/php-opos/index.php` | High
-26 | File | `/resources//../` | High
-27 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-28 | File | `/sys/dict/queryTableData` | High
-29 | File | `/tmp/boa-temp` | High
-30 | File | `/tourism/rate_review.php` | High
-31 | File | `/uncpath/` | Medium
+20 | File | `/Moosikay/order.php` | High
+21 | File | `/nova/bin/detnet` | High
+22 | File | `/out.php` | Medium
+23 | File | `/php-opos/index.php` | High
+24 | File | `/resources//../` | High
+25 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+26 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+27 | File | `/sys/dict/queryTableData` | High
+28 | File | `/tmp/boa-temp` | High
+29 | File | `/tourism/rate_review.php` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/wp-json` | Medium
 32 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

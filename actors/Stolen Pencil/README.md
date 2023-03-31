@@ -53,9 +53,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/forum/away.php` | High
 5 | File | `/horde/util/go.php` | High
 6 | File | `/secure/EditSubscription.jspa` | High
-7 | ... | ... | ...
+7 | File | `/systemrw/` | Medium
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

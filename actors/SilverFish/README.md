@@ -64,9 +64,9 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\OpenVPN Connect\drivers\tap\amd64\win10` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/.asp` | Low
-4 | File | `/admin/admin_login.php` | High
-5 | File | `/advanced/adv_dns.xgi` | High
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
+4 | File | `/advanced/adv_dns.xgi` | High
+5 | File | `/api/RecordingList/DownloadRecord?file=` | High
+6 | File | `/apply.cgi` | Medium
 7 | File | `/CFIDE/probe.cfm` | High
 8 | File | `/cgi-bin/kerbynet` | High
 9 | File | `/conf/` | Low
@@ -92,17 +92,16 @@ ID | Type | Indicator | Confidence
 29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
 30 | File | `2020\Messages\SDNotify.exe` | High
 31 | File | `adclick.php` | Medium
-32 | File | `admin/Login.php` | High
-33 | File | `admin/plugin-index.php` | High
-34 | File | `administration` | High
-35 | File | `administrative` | High
-36 | File | `ag_server_service.exe` | High
-37 | File | `Alias.asmx` | Medium
-38 | File | `aolfix.exe` | Medium
-39 | File | `app/models/user.rb` | High
-40 | ... | ... | ...
+32 | File | `admin/plugin-index.php` | High
+33 | File | `administration` | High
+34 | File | `administrative` | High
+35 | File | `ag_server_service.exe` | High
+36 | File | `Alias.asmx` | Medium
+37 | File | `aolfix.exe` | Medium
+38 | File | `app/models/user.rb` | High
+39 | ... | ... | ...
 
-There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -15,8 +15,11 @@ The following _campaigns_ are known and can be associated with Earth Kitsune:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Earth Kitsune:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 

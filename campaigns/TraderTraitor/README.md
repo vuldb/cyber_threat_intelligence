@@ -75,9 +75,10 @@ ID | Type | Indicator | Confidence
 16 | File | `/tpts/manage_user.php` | High
 17 | File | `/var/log/nginx` | High
 18 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-19 | ... | ... | ...
+19 | File | `adclick.php` | Medium
+20 | ... | ... | ...
 
-There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 160 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

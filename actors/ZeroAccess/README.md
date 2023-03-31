@@ -96,10 +96,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,33 +110,35 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `//` | Low
-3 | File | `/as/authorization.oauth2` | High
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/cgi-bin/luci/api/auth` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/filemanager/php/connector.php` | High
-8 | File | `/files/import` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/login/index.php` | High
-11 | File | `/Moosikay/order.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/products/view_product.php` | High
-14 | File | `/public/login.htm` | High
-15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | File | `/shell` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/tmp/boa-temp` | High
-19 | File | `/usr/bin/tddp` | High
-20 | File | `/wp-admin/admin-ajax.php` | High
-21 | File | `/wp-admin/options.php` | High
-22 | File | `/wp-json/wc/v3/webhooks` | High
-23 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-24 | File | `adclick.php` | Medium
-25 | File | `admin/import/class-import-settings.php` | High
-26 | File | `admin/manage_user.php` | High
-27 | ... | ... | ...
+3 | File | `/admin/patient.php` | High
+4 | File | `/api/jmeter/download/files` | High
+5 | File | `/api/upload` | Medium
+6 | File | `/APR/login.php` | High
+7 | File | `/as/authorization.oauth2` | High
+8 | File | `/cgi-bin/luci/api/auth` | High
+9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/filemanager/php/connector.php` | High
+13 | File | `/files/import` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/librarian/bookdetails.php` | High
+16 | File | `/modules/projects/vw_files.php` | High
+17 | File | `/Moosikay/order.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/public/login.htm` | High
+20 | File | `/rukovoditel/index.php?module=users/login` | High
+21 | File | `/secure/QueryComponent!Default.jspa` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/tmp/boa-temp` | High
+24 | File | `/wp-admin/admin-ajax.php` | High
+25 | File | `/wp-admin/options.php` | High
+26 | File | `/wp-json` | Medium
+27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+28 | File | `ActBar.ocx` | Medium
+29 | ... | ... | ...
 
-There are 232 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

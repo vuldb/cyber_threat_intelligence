@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 36 | File | `/ofrs/admin/?page=reports` | High
 37 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

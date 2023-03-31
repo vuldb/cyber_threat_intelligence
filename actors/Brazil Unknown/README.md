@@ -16,7 +16,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [BR](https://vuldb.com/?country.br)
-* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -1422,23 +1422,26 @@ ID | Type | Indicator | Confidence
 9 | File | `/mygym/admin/index.php?view_exercises` | High
 10 | File | `/php-opos/index.php` | High
 11 | File | `/php-scrm/login.php` | High
-12 | File | `/textpattern/index.php` | High
-13 | File | `/tmp` | Low
-14 | File | `account-signup.php` | High
-15 | File | `account/signup.php` | High
-16 | File | `addentry.php` | Medium
-17 | File | `admin-ajax.php` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-20 | File | `admin/admin_editor.php` | High
-21 | File | `admin/conf_users_edit.php` | High
-22 | File | `adminer.php` | Medium
-23 | File | `articulo.php` | Medium
-24 | File | `blocks/block-Old_Articles.php` | High
-25 | File | `bp_ncom.php` | Medium
-26 | ... | ... | ...
+12 | File | `/public/launchNewWindow.jsp` | High
+13 | File | `/textpattern/index.php` | High
+14 | File | `/tmp` | Low
+15 | File | `account-signup.php` | High
+16 | File | `account/signup.php` | High
+17 | File | `activenews_view.asp` | High
+18 | File | `addentry.php` | Medium
+19 | File | `admin-ajax.php` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+22 | File | `admin/admin_editor.php` | High
+23 | File | `admin/conf_users_edit.php` | High
+24 | File | `adminer.php` | Medium
+25 | File | `articulo.php` | Medium
+26 | File | `art_detalle.php` | High
+27 | File | `banner_add_edit.asp` | High
+28 | File | `blocks/block-Old_Articles.php` | High
+29 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

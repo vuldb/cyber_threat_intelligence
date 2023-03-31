@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,39 +61,40 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 3 | File | `/admin/ajax/avatar.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/nova/bin/traceroute` | High
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/product-list.php` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/updown/upload.cgi` | High
-20 | File | `/user/del.php` | High
-21 | File | `/_next` | Low
-22 | File | `123flashchat.php` | High
-23 | File | `act.php` | Low
-24 | File | `admin/bad.php` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/index.php/user/del/1` | High
-27 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-28 | File | `administrator/index.php` | High
-29 | File | `ajax/render/widget_php` | High
-30 | File | `album_portal.php` | High
-31 | File | `api.php` | Low
-32 | File | `application/home/controller/debug.php` | High
-33 | File | `articulo.php` | Medium
-34 | File | `author.control.php` | High
-35 | ... | ... | ...
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/default.php?idx=17` | High
+9 | File | `/download` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/index.php` | Medium
+12 | File | `/nova/bin/traceroute` | High
+13 | File | `/opt/bin/cli` | Medium
+14 | File | `/p` | Low
+15 | File | `/patient/doctors.php` | High
+16 | File | `/phpinventory/editcategory.php` | High
+17 | File | `/product-list.php` | High
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/updown/upload.cgi` | High
+21 | File | `/user/del.php` | High
+22 | File | `/_next` | Low
+23 | File | `123flashchat.php` | High
+24 | File | `act.php` | Low
+25 | File | `admin/bad.php` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin/index.php/user/del/1` | High
+28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+29 | File | `administrator/index.php` | High
+30 | File | `ajax/render/widget_php` | High
+31 | File | `album_portal.php` | High
+32 | File | `api.php` | Low
+33 | File | `application/home/controller/debug.php` | High
+34 | File | `articulo.php` | Medium
+35 | File | `author.control.php` | High
+36 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

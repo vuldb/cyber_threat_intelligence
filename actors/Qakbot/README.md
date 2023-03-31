@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Qakbot:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 18 more country items available. Please use our online service to access the data.
@@ -2668,27 +2668,29 @@ ID | Type | Indicator | Confidence
 18 | File | `/filemanager/php/connector.php` | High
 19 | File | `/files/import` | High
 20 | File | `/forum/away.php` | High
-21 | File | `/forum/PostPrivateMessage` | High
-22 | File | `/home/www/cgi-bin/login.cgi` | High
-23 | File | `/librarian/bookdetails.php` | High
+21 | File | `/home/www/cgi-bin/login.cgi` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/modules/projects/vw_files.php` | High
 24 | File | `/Moosikay/order.php` | High
 25 | File | `/mygym/admin/index.php?view_exercises` | High
 26 | File | `/net-banking/customer_transactions.php` | High
 27 | File | `/out.php` | Medium
-28 | File | `/php-opos/index.php` | High
-29 | File | `/public/launchNewWindow.jsp` | High
-30 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-31 | File | `/rukovoditel/index.php?module=users/login` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/tmp/boa-temp` | High
-34 | File | `/tourism/rate_review.php` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `/wp-admin/options.php` | High
-38 | File | `/wp-json` | Medium
-39 | ... | ... | ...
+28 | File | `/public/launchNewWindow.jsp` | High
+29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+30 | File | `/rukovoditel/index.php?module=users/login` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/tmp/boa-temp` | High
+33 | File | `/tourism/rate_review.php` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-json` | Medium
+37 | File | `Access.app/Contents/Resources/kcproxy` | High
+38 | File | `ActBar.ocx` | Medium
+39 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+40 | File | `activenews_view.asp` | High
+41 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

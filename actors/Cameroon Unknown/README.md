@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,21 +21,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.60.68](https://vuldb.com/?ip.5.62.60.68) | r-68-60-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.62.62.68](https://vuldb.com/?ip.5.62.62.68) | r-68-62-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.67.192.0](https://vuldb.com/?ip.41.67.192.0) | - | - | High
-4 | [41.77.80.0](https://vuldb.com/?ip.41.77.80.0) | - | - | High
-5 | [41.77.208.0](https://vuldb.com/?ip.41.77.208.0) | - | - | High
-6 | [41.78.97.10](https://vuldb.com/?ip.41.78.97.10) | - | - | High
-7 | [41.78.204.0](https://vuldb.com/?ip.41.78.204.0) | - | - | High
-8 | [41.79.128.0](https://vuldb.com/?ip.41.79.128.0) | - | - | High
-9 | [41.92.128.0](https://vuldb.com/?ip.41.92.128.0) | - | - | High
-10 | [41.190.224.0](https://vuldb.com/?ip.41.190.224.0) | - | - | High
-11 | [41.191.100.0](https://vuldb.com/?ip.41.191.100.0) | - | - | High
-12 | [41.202.192.0](https://vuldb.com/?ip.41.202.192.0) | - | - | High
-13 | ... | ... | ... | ...
+1 | [2.16.134.0](https://vuldb.com/?ip.2.16.134.0) | a2-16-134-0.deploy.static.akamaitechnologies.com | - | High
+2 | [5.62.60.68](https://vuldb.com/?ip.5.62.60.68) | r-68-60-62-5.consumer-pool.prcdn.net | - | High
+3 | [5.62.62.68](https://vuldb.com/?ip.5.62.62.68) | r-68-62-62-5.consumer-pool.prcdn.net | - | High
+4 | [41.67.192.0](https://vuldb.com/?ip.41.67.192.0) | - | - | High
+5 | [41.67.224.0](https://vuldb.com/?ip.41.67.224.0) | - | - | High
+6 | [41.77.80.0](https://vuldb.com/?ip.41.77.80.0) | - | - | High
+7 | [41.77.208.0](https://vuldb.com/?ip.41.77.208.0) | - | - | High
+8 | [41.78.97.10](https://vuldb.com/?ip.41.78.97.10) | - | - | High
+9 | [41.78.204.0](https://vuldb.com/?ip.41.78.204.0) | - | - | High
+10 | [41.79.128.0](https://vuldb.com/?ip.41.79.128.0) | - | - | High
+11 | [41.92.128.0](https://vuldb.com/?ip.41.92.128.0) | - | - | High
+12 | [41.92.152.0](https://vuldb.com/?ip.41.92.152.0) | host-0-152-92.newtelnet.info | - | High
+13 | [41.92.176.0](https://vuldb.com/?ip.41.92.176.0) | - | - | High
+14 | [41.92.184.0](https://vuldb.com/?ip.41.92.184.0) | host-0-184-92.newtelnet.info | - | High
+15 | [41.92.200.0](https://vuldb.com/?ip.41.92.200.0) | host-0-200-92.newtelnet.info | - | High
+16 | [41.92.208.0](https://vuldb.com/?ip.41.92.208.0) | host-0-208-92.newtelnet.info | - | High
+17 | [41.92.224.0](https://vuldb.com/?ip.41.92.224.0) | host-0-224-92.newtelnet.info | - | High
+18 | [41.92.248.0](https://vuldb.com/?ip.41.92.248.0) | host-0-248-92.newtelnet.info | - | High
+19 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 70 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,44 +67,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 3 | File | `/admin/ajax/avatar.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/product-list.php` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/updown/upload.cgi` | High
-20 | File | `/user/del.php` | High
-21 | File | `/_next` | Low
-22 | File | `123flashchat.php` | High
-23 | File | `act.php` | Low
-24 | File | `admin.jcomments.php` | High
-25 | File | `admin/bad.php` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/index.php/user/del/1` | High
-28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-29 | File | `administrator/index.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `album_portal.php` | High
-32 | File | `AoWinAgt` | Medium
-33 | File | `api.php` | Low
-34 | ... | ... | ...
+5 | File | `/admin/lab.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/show.php` | High
+8 | File | `/default.php?idx=17` | High
+9 | File | `/download` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/opt/bin/cli` | Medium
+14 | File | `/p` | Low
+15 | File | `/patient/doctors.php` | High
+16 | File | `/phpinventory/editcategory.php` | High
+17 | File | `/product-list.php` | High
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/updown/upload.cgi` | High
+21 | File | `/user/del.php` | High
+22 | File | `/_next` | Low
+23 | File | `123flashchat.php` | High
+24 | File | `act.php` | Low
+25 | File | `admin.jcomments.php` | High
+26 | File | `admin/bad.php` | High
+27 | File | `admin/index.php` | High
+28 | File | `admin/index.php/user/del/1` | High
+29 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+30 | File | `administrator/index.php` | High
+31 | File | `ajax/render/widget_php` | High
+32 | File | `album_portal.php` | High
+33 | File | `AoWinAgt` | Medium
+34 | File | `api.php` | Low
+35 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_cm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_cm.netset
 
 ## Literature
 

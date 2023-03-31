@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,39 +47,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/cgi-bin/api-get_line_status` | High
-7 | File | `/cgi-bin/luci` | High
-8 | File | `/cgi-bin/luci/api/auth` | High
-9 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-10 | File | `/cgi-bin/upload_vpntar` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/Content/Template/root/reverse-shell.aspx` | High
+1 | File | `/.env` | Low
+2 | File | `/admin/patient.php` | High
+3 | File | `/as/authorization.oauth2` | High
+4 | File | `/blogengine/api/posts` | High
+5 | File | `/cgi-bin/api-get_line_status` | High
+6 | File | `/cgi-bin/luci/api/auth` | High
+7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/upload_vpntar` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/Content/Template/root/reverse-shell.aspx` | High
+12 | File | `/DXR.axd` | Medium
 13 | File | `/export` | Low
-14 | File | `/forum/away.php` | High
-15 | File | `/h/calendar` | Medium
-16 | File | `/hrm/controller/employee.php` | High
-17 | File | `/login/index.php` | High
-18 | File | `/mkshope/login.php` | High
-19 | File | `/network_test.php` | High
-20 | File | `/obs/book.php` | High
-21 | File | `/products/view_product.php` | High
-22 | File | `/public/launchNewWindow.jsp` | High
-23 | File | `/public/login.htm` | High
-24 | File | `/rules/REQUEST-942-APPLICATION-ATTACK-SQLI.conf` | High
-25 | File | `/secure/QueryComponent!Default.jspa` | High
-26 | File | `/self.key` | Medium
-27 | File | `/services/view_service.php` | High
-28 | File | `/shell` | Low
-29 | File | `/spip.php` | Medium
-30 | File | `/uncpath/` | Medium
-31 | ... | ... | ...
+14 | File | `/filemanager/php/connector.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/login/index.php` | High
+17 | File | `/modules/projects/vw_files.php` | High
+18 | File | `/obs/book.php` | High
+19 | File | `/products/view_product.php` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/rukovoditel/index.php?module=users/login` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/shell` | Low
+24 | File | `/spip.php` | Medium
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/bin/tddp` | High
+27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/wp-admin/options.php` | High
+30 | File | `/wp-json/wc/v3/webhooks` | High
+31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+32 | File | `adclick.php` | Medium
+33 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

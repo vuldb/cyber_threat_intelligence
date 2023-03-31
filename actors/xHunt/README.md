@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [DE](https://vuldb.com/?country.de)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 36 more country items available. Please use our online service to access the data.
+There are 37 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,17 +62,17 @@ ID | Type | Indicator | Confidence
 1 | File | `.../gogo/` | Medium
 2 | File | `.procmailrc` | Medium
 3 | File | `//proc/kcore` | Medium
-4 | File | `/admin/` | Low
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/communitymanagement.php` | High
-7 | File | `/admin/edit.php` | High
-8 | File | `/admin/extended` | High
-9 | File | `/admin/featured.php` | High
-10 | File | `/admin/generalsettings.php` | High
-11 | File | `/admin/index.PHP` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
+4 | File | `/?ajax-request=jnews` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/edit.php` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/index.PHP` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/newsletter1.php` | High
 15 | File | `/admin/renewaldue.php` | High
 16 | File | `/admin/students/manage.php` | High
 17 | File | `/admin/students/view_student.php` | High
@@ -88,14 +88,14 @@ ID | Type | Indicator | Confidence
 27 | File | `/dashboard/add-portfolio.php` | High
 28 | File | `/dashboard/updatelogo.php` | High
 29 | File | `/designer/add/layout` | High
-30 | File | `/etc/gsissh/sshd_config` | High
-31 | File | `/etc/ldap.conf` | High
-32 | File | `/etc/shadow` | Medium
-33 | File | `/face-recognition-php/facepay-master/camera.php` | High
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/foms/place-order.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/getImage` | Medium
+30 | File | `/edoc/doctor/patient.php` | High
+31 | File | `/etc/gsissh/sshd_config` | High
+32 | File | `/etc/ldap.conf` | High
+33 | File | `/etc/shadow` | Medium
+34 | File | `/face-recognition-php/facepay-master/camera.php` | High
+35 | File | `/filemanager/upload/drop` | High
+36 | File | `/foms/place-order.php` | High
+37 | File | `/forum/away.php` | High
 38 | File | `/goform/wizard_end` | High
 39 | File | `/h/calendar` | Medium
 40 | File | `/h/compose` | Medium
@@ -103,16 +103,17 @@ ID | Type | Indicator | Confidence
 42 | File | `/hrm/employeeview.php` | High
 43 | File | `/htmldoc/htmldoc/html.cxx` | High
 44 | File | `/index.php` | Medium
-45 | File | `/librarian/bookdetails.php` | High
-46 | File | `/login.php` | Medium
-47 | File | `/loginVaLidation.php` | High
-48 | File | `/manage-apartment.php` | High
-49 | File | `/manager/index.php` | High
-50 | File | `/mcategory.php` | High
-51 | File | `/mkshop/Men/profile.php` | High
-52 | ... | ... | ...
+45 | File | `/login.php` | Medium
+46 | File | `/loginVaLidation.php` | High
+47 | File | `/manage-apartment.php` | High
+48 | File | `/manager/index.php` | High
+49 | File | `/mcategory.php` | High
+50 | File | `/mkshop/Men/profile.php` | High
+51 | File | `/Noxen-master/users.php` | High
+52 | File | `/opac/Actions.php?a=login` | High
+53 | ... | ... | ...
 
-There are 451 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

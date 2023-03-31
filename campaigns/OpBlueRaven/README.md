@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -84,39 +84,39 @@ ID | Type | Indicator | Confidence
 17 | File | `/ad_js.php` | Medium
 18 | File | `/alphaware/summary.php` | High
 19 | File | `/api/RecordingList/DownloadRecord?file=` | High
-20 | File | `/app/options.py` | High
-21 | File | `/apply.cgi` | Medium
-22 | File | `/artist-display.php` | High
-23 | File | `/attachments` | Medium
-24 | File | `/boat/login.php` | High
-25 | File | `/bsms_ci/index.php` | High
-26 | File | `/bsms_ci/index.php/book` | High
-27 | File | `/cgi-bin/luci/api/wireless` | High
-28 | File | `/cgi-bin/nightled.cgi` | High
-29 | File | `/common/info.cgi` | High
-30 | File | `/context/%2e/WEB-INF/web.xml` | High
-31 | File | `/dashboard/reports/logs/view` | High
-32 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/etc/hosts` | Medium
-35 | File | `/foms/place-order.php` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/goform/setmac` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/index.php` | Medium
-40 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-41 | File | `/manage-apartment.php` | High
-42 | File | `/management/api/rcx_management/global_config_query` | High
-43 | File | `/mcategory.php` | High
-44 | File | `/medicines/profile.php` | High
-45 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-46 | File | `/multi-vendor-shopping-script/product-list.php` | High
-47 | File | `/pages/apply_vacancy.php` | High
-48 | File | `/php-sms/admin/` | High
-49 | File | `/proc/<PID>/mem` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/artist-display.php` | High
+22 | File | `/attachments` | Medium
+23 | File | `/boat/login.php` | High
+24 | File | `/bsms_ci/index.php` | High
+25 | File | `/bsms_ci/index.php/book` | High
+26 | File | `/cgi-bin/luci/api/wireless` | High
+27 | File | `/cgi-bin/nightled.cgi` | High
+28 | File | `/common/info.cgi` | High
+29 | File | `/context/%2e/WEB-INF/web.xml` | High
+30 | File | `/dashboard/reports/logs/view` | High
+31 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+32 | File | `/debug/pprof` | Medium
+33 | File | `/etc/hosts` | Medium
+34 | File | `/foms/place-order.php` | High
+35 | File | `/forum/away.php` | High
+36 | File | `/goform/setmac` | High
+37 | File | `/goform/wizard_end` | High
+38 | File | `/index.php` | Medium
+39 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+40 | File | `/manage-apartment.php` | High
+41 | File | `/management/api/rcx_management/global_config_query` | High
+42 | File | `/mcategory.php` | High
+43 | File | `/medicines/profile.php` | High
+44 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+45 | File | `/multi-vendor-shopping-script/product-list.php` | High
+46 | File | `/pages/apply_vacancy.php` | High
+47 | File | `/php-sms/admin/` | High
+48 | File | `/proc/<PID>/mem` | High
+49 | File | `/product/savenewproduct.php?flag=1` | High
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

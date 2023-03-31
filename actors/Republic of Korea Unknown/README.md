@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -432,7 +432,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -444,30 +444,30 @@ ID | Type | Indicator | Confidence
 2 | File | `.github/workflows/combine-prs.yml` | High
 3 | File | `/admin/admin_manage/delete` | High
 4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/fst_upload.inc.php` | High
-7 | File | `/admin/main/mod-blog` | High
-8 | File | `/admin/options` | High
-9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/advanced/adv_dns.xgi` | High
-12 | File | `/alarm_pi/alarmService.php` | High
-13 | File | `/api/` | Low
-14 | File | `/api/v1/attack/token` | High
-15 | File | `/backup.pl` | Medium
-16 | File | `/bin/httpd` | Medium
-17 | File | `/browse.PROJECTKEY` | High
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-20 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-21 | File | `/cmscp/ext/collect/fetch_url.do` | High
-22 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/dev/block/mmcblk0rpmb` | High
-25 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-26 | File | `/env` | Low
-27 | File | `/face-recognition-php/facepay-master/camera.php` | High
-28 | File | `/forms/doLogin` | High
+5 | File | `/admin/fst_upload.inc.php` | High
+6 | File | `/admin/main/mod-blog` | High
+7 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+9 | File | `/advanced/adv_dns.xgi` | High
+10 | File | `/alarm_pi/alarmService.php` | High
+11 | File | `/api/` | Low
+12 | File | `/APR/login.php` | High
+13 | File | `/backup.pl` | Medium
+14 | File | `/bin/httpd` | Medium
+15 | File | `/browse.PROJECTKEY` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+18 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+19 | File | `/cgi-bin/wapopen` | High
+20 | File | `/cmscp/ext/collect/fetch_url.do` | High
+21 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/dev/block/mmcblk0rpmb` | High
+24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+25 | File | `/env` | Low
+26 | File | `/face-recognition-php/facepay-master/camera.php` | High
+27 | File | `/forms/doLogin` | High
+28 | File | `/forum/away.php` | High
 29 | File | `/fos/admin/ajax.php?action=login` | High
 30 | File | `/fos/admin/index.php?page=menu` | High
 31 | File | `/home/masterConsole` | High
@@ -476,19 +476,23 @@ ID | Type | Indicator | Confidence
 34 | File | `/hrm/employeeview.php` | High
 35 | File | `/jsoa/hntdCustomDesktopActionContent` | High
 36 | File | `/login/index.php` | High
-37 | File | `/lookin/info` | Medium
-38 | File | `/mygym/admin/index.php?view_exercises` | High
-39 | File | `/orrs/admin/?page=user/manage_user` | High
-40 | File | `/out.php` | Medium
+37 | File | `/loginsave.php` | High
+38 | File | `/lookin/info` | Medium
+39 | File | `/mygym/admin/index.php?view_exercises` | High
+40 | File | `/orrs/admin/?page=user/manage_user` | High
 41 | File | `/php-opos/index.php` | High
 42 | File | `/plugin/getList` | High
 43 | File | `/proxy` | Low
-44 | File | `/Redcock-Farm/farm/category.php` | High
-45 | File | `/reports/rwservlet` | High
-46 | File | `/resources//../` | High
-47 | ... | ... | ...
+44 | File | `/public/launchNewWindow.jsp` | High
+45 | File | `/Redcock-Farm/farm/category.php` | High
+46 | File | `/reports/rwservlet` | High
+47 | File | `/rest/project-templates/1.0/createshared` | High
+48 | File | `/secure/QueryComponent!Default.jspa` | High
+49 | File | `/SkycaijiApp/admin/controller/Mystore.php` | High
+50 | File | `/spip.php` | Medium
+51 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

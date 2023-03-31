@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -112,10 +112,9 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -135,39 +134,40 @@ ID | Type | Indicator | Confidence
 10 | File | `/config/getuser` | High
 11 | File | `/dashboard/contact` | High
 12 | File | `/debug/pprof` | Medium
-13 | File | `/dev/bus` | Medium
+13 | File | `/ecshop/admin/template.php` | High
 14 | File | `/example/editor` | High
-15 | File | `/files/$username/Myfolder/Mysubfolder/shared.txt` | High
-16 | File | `/forum/away.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/forum/PostPrivateMessage` | High
 17 | File | `/HNAP1` | Low
-18 | File | `/index` | Low
-19 | File | `/iu-application/controllers/administration/auth.php` | High
-20 | File | `/jerry-core/ecma/operations/ecma-objects.c` | High
+18 | File | `/home/www/cgi-bin/login.cgi` | High
+19 | File | `/index` | Low
+20 | File | `/iu-application/controllers/administration/auth.php` | High
 21 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
 22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
 23 | File | `/module/module_frame/index.php` | High
-24 | File | `/music/ajax.php` | High
-25 | File | `/northstar/Admin/changePassword.jsp` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/orms/` | Low
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/sre/params.php` | High
-31 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-32 | File | `/tmp` | Low
-33 | File | `/tmp/xbindkeysrc-tmp` | High
-34 | File | `/user/upload/upload` | High
-35 | File | `/Users` | Low
-36 | File | `/var/spool/hylafax` | High
-37 | File | `/vendor` | Low
-38 | File | `/whbs/?page=my_bookings` | High
-39 | File | `access_rules/rules_form` | High
-40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-41 | File | `action/addproject.php` | High
-42 | File | `adclick.php` | Medium
-43 | ... | ... | ...
+24 | File | `/net-banking/customer_transactions.php` | High
+25 | File | `/obs/book.php` | High
+26 | File | `/ossn/administrator/com_installer` | High
+27 | File | `/pms/update_user.php?user_id=1` | High
+28 | File | `/sre/params.php` | High
+29 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/xbindkeysrc-tmp` | High
+32 | File | `/user/upload/upload` | High
+33 | File | `/Users` | Low
+34 | File | `/var/spool/hylafax` | High
+35 | File | `/vendor` | Low
+36 | File | `/whbs/?page=my_bookings` | High
+37 | File | `access_rules/rules_form` | High
+38 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+39 | File | `action/addproject.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `add_contestant.php` | High
+42 | File | `admin.php` | Medium
+43 | File | `admin/ajax.attachment.php` | High
+44 | ... | ... | ...
 
-There are 371 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -65,32 +65,32 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
-2 | File | `/cgi-bin/cgiServer.exx` | High
-3 | File | `/cgi-bin/login_action.cgi` | High
-4 | File | `/cgi-bin/nobody/Search.cgi` | High
-5 | File | `/cgi-bin/webviewer_login_page` | High
-6 | File | `/dev/sg0` | Medium
-7 | File | `/event/runquery.do` | High
-8 | File | `/filemanager/php/connector.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/setmac` | High
-11 | File | `/log_download.cgi` | High
-12 | File | `/manager?action=getlogcat` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/pages/systemcall.php?command={COMMAND}` | High
-15 | File | `/password.html` | High
-16 | File | `/system/ws/v11/ss/email` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
-19 | File | `add_vhost.php` | High
-20 | File | `admin/images.aspx` | High
-21 | File | `admin/index.php` | High
-22 | File | `adv2.php?action=modify` | High
-23 | File | `agent.cfg` | Medium
-24 | File | `arch/x86/include/asm/fpu/internal.h` | High
+2 | File | `/api/` | Low
+3 | File | `/cgi-bin/cgiServer.exx` | High
+4 | File | `/cgi-bin/login_action.cgi` | High
+5 | File | `/cgi-bin/nobody/Search.cgi` | High
+6 | File | `/cgi-bin/webviewer_login_page` | High
+7 | File | `/dev/sg0` | Medium
+8 | File | `/event/runquery.do` | High
+9 | File | `/filemanager/php/connector.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/setmac` | High
+12 | File | `/log_download.cgi` | High
+13 | File | `/manager?action=getlogcat` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/pages/systemcall.php?command={COMMAND}` | High
+16 | File | `/password.html` | High
+17 | File | `/system/ws/v11/ss/email` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/upload` | Low
+20 | File | `add_vhost.php` | High
+21 | File | `admin/images.aspx` | High
+22 | File | `admin/index.php` | High
+23 | File | `adv2.php?action=modify` | High
+24 | File | `agent.cfg` | Medium
 25 | ... | ... | ...
 
-There are 209 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

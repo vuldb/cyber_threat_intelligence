@@ -21,10 +21,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1659,10 +1659,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -1681,26 +1682,31 @@ ID | Type | Indicator | Confidence
 7 | File | `/APR/login.php` | High
 8 | File | `/APR/signup.php` | High
 9 | File | `/boat/login.php` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/etc/openstack-dashboard/local_settings` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/mims/login.php` | High
-14 | File | `/mygym/admin/index.php?view_exercises` | High
-15 | File | `/php-opos/index.php` | High
-16 | File | `/php-scrm/login.php` | High
-17 | File | `/reservation/add_message.php` | High
-18 | File | `/secure/QueryComponent!Default.jspa` | High
-19 | File | `/textpattern/index.php` | High
-20 | File | `/tmp` | Low
-21 | File | `/video-sharing-script/watch-video.php` | High
-22 | File | `account-signup.php` | High
-23 | File | `account/signup.php` | High
-24 | File | `addentry.php` | Medium
-25 | File | `admin.php` | Medium
-26 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-27 | ... | ... | ...
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/etc/openstack-dashboard/local_settings` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/addressNat` | High
+15 | File | `/HNAP1/SetClientInfo` | High
+16 | File | `/mims/login.php` | High
+17 | File | `/php-scrm/login.php` | High
+18 | File | `/public/launchNewWindow.jsp` | High
+19 | File | `/reservation/add_message.php` | High
+20 | File | `/secure/QueryComponent!Default.jspa` | High
+21 | File | `/textpattern/index.php` | High
+22 | File | `/tmp` | Low
+23 | File | `/video-sharing-script/watch-video.php` | High
+24 | File | `account-signup.php` | High
+25 | File | `account/signup.php` | High
+26 | File | `Acl.asp` | Low
+27 | File | `AcquisiAction.class.php` | High
+28 | File | `activenews_view.asp` | High
+29 | File | `addentry.php` | Medium
+30 | File | `admin.php` | Medium
+31 | File | `admin/?page=reports&date_from=2023-02-17&date_to=2023-03-17` | High
+32 | ... | ... | ...
 
-There are 229 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -134,20 +134,21 @@ ID | Type | Indicator | Confidence
 20 | File | `/rest/api/2/user/picker` | High
 21 | File | `/royal_event/userregister.php` | High
 22 | File | `/rrdp` | Low
-23 | File | `/setNTP.cgi` | Medium
-24 | File | `/tpts/manage_user.php` | High
-25 | File | `/u/username.json` | High
-26 | File | `/user/s.php` | Medium
-27 | File | `/user/updatePwd` | High
-28 | File | `/usr/etc/restore0.9` | High
-29 | File | `/VerAyari` | Medium
-30 | File | `/wireless/guestnetwork.asp` | High
-31 | File | `01article.php` | High
-32 | File | `acl.c` | Low
-33 | File | `add-locker-form.php` | High
-34 | ... | ... | ...
+23 | File | `/Session` | Medium
+24 | File | `/setNTP.cgi` | Medium
+25 | File | `/tpts/manage_user.php` | High
+26 | File | `/u/username.json` | High
+27 | File | `/user/s.php` | Medium
+28 | File | `/user/updatePwd` | High
+29 | File | `/usr/etc/restore0.9` | High
+30 | File | `/VerAyari` | Medium
+31 | File | `/wireless/guestnetwork.asp` | High
+32 | File | `01article.php` | High
+33 | File | `acl.c` | Low
+34 | File | `acloudCosAction.php.SQL` | High
+35 | ... | ... | ...
 
-There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,65 +68,68 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/contenttemp` | High
 2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/api/files/` | Medium
-4 | File | `/api/trackedEntityInstances` | High
-5 | File | `/api/v2/cli/commands` | High
-6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/de/cgi/dfs_guest/` | High
-9 | File | `/filemanager/upload.php` | High
-10 | File | `/GponForm/fsetup_Form` | High
-11 | File | `/include/makecvs.php` | High
-12 | File | `/includes/event-management/index.php` | High
-13 | File | `/index.php` | Medium
-14 | File | `/lab.html` | Medium
-15 | File | `/Main_AdmStatus_Content.asp` | High
-16 | File | `/member/picture/album` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/mifs/c/i/reg/reg.html` | High
-19 | File | `/modules/profile/index.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/products/details.asp` | High
-22 | File | `/requests.php` | High
-23 | File | `/secure/QueryComponent!Default.jspa` | High
-24 | File | `/secure/ViewCollectors` | High
-25 | File | `/services/details.asp` | High
-26 | File | `/spip.php` | Medium
-27 | File | `/SysInfo.htm` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-30 | File | `/usr/syno/etc/mount.conf` | High
-31 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-32 | File | `/vendor` | Low
-33 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-34 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-35 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-36 | File | `a-b-membres.php` | High
-37 | File | `actions.php` | Medium
-38 | File | `adclick.php` | Medium
-39 | File | `add.php` | Low
-40 | File | `addtocart.asp` | High
-41 | File | `add_2_basket.asp` | High
-42 | File | `add_comment.php` | High
-43 | File | `admin.jcomments.php` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin.php/comments/batchdel/` | High
-46 | File | `admin/aboutus.php` | High
-47 | File | `admin/adm/test.php` | High
-48 | File | `admin/bitrix.mpbuilder_step2.php` | High
-49 | File | `admin/conf_users_edit.php` | High
-50 | File | `admin/media.php` | High
-51 | File | `admin/vqmods.app/vqmods.inc.php` | High
-52 | File | `adminer.php` | Medium
-53 | File | `administrator/components/com_media/helpers/media.php` | High
-54 | File | `admin\controller\uploadfile.php` | High
-55 | File | `agora.cgi` | Medium
-56 | File | `album_portal.php` | High
-57 | File | `al_initialize.php` | High
-58 | File | `application/modules/admin/views/ecommerce/products.php` | High
-59 | ... | ... | ...
+3 | File | `/admin/store.php` | High
+4 | File | `/api/files/` | Medium
+5 | File | `/api/trackedEntityInstances` | High
+6 | File | `/api/user/password/sent-reset-email` | High
+7 | File | `/api/v2/cli/commands` | High
+8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/de/cgi/dfs_guest/` | High
+11 | File | `/filemanager/upload.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/GponForm/fsetup_Form` | High
+14 | File | `/include/makecvs.php` | High
+15 | File | `/includes/event-management/index.php` | High
+16 | File | `/index.php` | Medium
+17 | File | `/lab.html` | Medium
+18 | File | `/Main_AdmStatus_Content.asp` | High
+19 | File | `/member/picture/album` | High
+20 | File | `/mgmt/tm/util/bash` | High
+21 | File | `/mifs/c/i/reg/reg.html` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/out.php` | Medium
+24 | File | `/plugins/servlet/gadgets/makeRequest` | High
+25 | File | `/products/details.asp` | High
+26 | File | `/public/plugins/` | High
+27 | File | `/requests.php` | High
+28 | File | `/secure/QueryComponent!Default.jspa` | High
+29 | File | `/secure/ViewCollectors` | High
+30 | File | `/services/details.asp` | High
+31 | File | `/Session` | Medium
+32 | File | `/spip.php` | Medium
+33 | File | `/SysInfo.htm` | Medium
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+36 | File | `/usr/syno/etc/mount.conf` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/vendor` | Low
+39 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+40 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+41 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+42 | File | `a-b-membres.php` | High
+43 | File | `actions.php` | Medium
+44 | File | `adclick.php` | Medium
+45 | File | `add.php` | Low
+46 | File | `addtocart.asp` | High
+47 | File | `add_2_basket.asp` | High
+48 | File | `add_comment.php` | High
+49 | File | `admin.jcomments.php` | High
+50 | File | `admin.php` | Medium
+51 | File | `admin.php/comments/batchdel/` | High
+52 | File | `admin/aboutus.php` | High
+53 | File | `admin/adm/test.php` | High
+54 | File | `admin/article_save.php` | High
+55 | File | `admin/bitrix.mpbuilder_step2.php` | High
+56 | File | `admin/conf_users_edit.php` | High
+57 | File | `admin/media.php` | High
+58 | File | `admin/vqmods.app/vqmods.inc.php` | High
+59 | File | `adminer.php` | Medium
+60 | File | `administrator/components/com_media/helpers/media.php` | High
+61 | File | `admin\controller\uploadfile.php` | High
+62 | ... | ... | ...
 
-There are 517 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 543 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
