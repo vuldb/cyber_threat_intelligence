@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -91,13 +91,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -115,51 +115,53 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/upload/upload` | High
 9 | File | `/adms/admin/?page=vehicles/view_transaction` | High
 10 | File | `/alphaware/summary.php` | High
-11 | File | `/boat/login.php` | High
-12 | File | `/bsms_ci/index.php/book` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/forum/PostPrivateMessage` | High
-19 | File | `/home/www/cgi-bin/login.cgi` | High
-20 | File | `/medicines/profile.php` | High
-21 | File | `/net-banking/customer_transactions.php` | High
-22 | File | `/obs/book.php` | High
-23 | File | `/ossn/administrator/com_installer` | High
-24 | File | `/param.file.tgz` | High
-25 | File | `/pms/update_user.php?user_id=1` | High
-26 | File | `/public_html/users.php` | High
-27 | File | `/reservation/add_message.php` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/sre/params.php` | High
-30 | File | `/tmp` | Low
-31 | File | `/user/s.php` | Medium
-32 | File | `/user/upload/upload` | High
-33 | File | `/Users` | Low
-34 | File | `/var/spool/hylafax` | High
-35 | File | `/vendor` | Low
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | File | `/video-sharing-script/watch-video.php` | High
-38 | File | `/wireless/guestnetwork.asp` | High
-39 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-40 | File | `AcquisiAction.class.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `add-locker-form.php` | High
-43 | File | `add_contestant.php` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin/add_payment.php` | High
-46 | File | `admin/booking_report.php` | High
-47 | File | `admin/conf_users_edit.php` | High
-48 | File | `admin/disapprove_user.php` | High
-49 | File | `admin/expense_report.php` | High
-50 | File | `admin/fecalysis_form.php` | High
-51 | File | `admin/forget_password.php` | High
-52 | File | `admin/index.php` | High
-53 | ... | ... | ...
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/book` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/config/getuser` | High
+17 | File | `/config/myfield/test.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/ecshop/admin/template.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/forum/PostPrivateMessage` | High
+22 | File | `/home/www/cgi-bin/login.cgi` | High
+23 | File | `/loginsave.php` | High
+24 | File | `/medicines/profile.php` | High
+25 | File | `/multi-vendor-shopping-script/product-list.php` | High
+26 | File | `/net-banking/customer_transactions.php` | High
+27 | File | `/obs/book.php` | High
+28 | File | `/ossn/administrator/com_installer` | High
+29 | File | `/param.file.tgz` | High
+30 | File | `/pms/update_user.php?user_id=1` | High
+31 | File | `/public_html/users.php` | High
+32 | File | `/reservation/add_message.php` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/sre/params.php` | High
+35 | File | `/tmp` | Low
+36 | File | `/user/s.php` | Medium
+37 | File | `/user/upload/upload` | High
+38 | File | `/Users` | Low
+39 | File | `/var/spool/hylafax` | High
+40 | File | `/vendor` | Low
+41 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+42 | File | `/video-sharing-script/watch-video.php` | High
+43 | File | `/wireless/guestnetwork.asp` | High
+44 | File | `/wireless/security.asp` | High
+45 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+46 | File | `AcquisiAction.class.php` | High
+47 | File | `adclick.php` | Medium
+48 | File | `add-locker-form.php` | High
+49 | File | `add_contestant.php` | High
+50 | File | `admin.php` | Medium
+51 | File | `admin/add_payment.php` | High
+52 | File | `admin/booking_report.php` | High
+53 | File | `admin/conf_users_edit.php` | High
+54 | File | `admin/disapprove_user.php` | High
+55 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -92,25 +92,26 @@ ID | Type | Indicator | Confidence
 44 | File | `/staff/bookdetails.php` | High
 45 | File | `/uncpath/` | Medium
 46 | File | `/user/update_booking.php` | High
-47 | File | `/WEB-INF/web.xml` | High
-48 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-49 | File | `/wireless/security.asp` | High
-50 | File | `/wordpress/wp-admin/options-general.php` | High
-51 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-52 | File | `01article.php` | High
-53 | File | `AbstractScheduleJob.java` | High
-54 | File | `actionphp/download.File.php` | High
-55 | File | `activenews_view.asp` | High
-56 | File | `adclick.php` | Medium
-57 | File | `addtocart.asp` | High
-58 | File | `admin.php` | Medium
-59 | File | `admin/abc.php` | High
-60 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-61 | File | `admin/admin/adminsave.html` | High
-62 | File | `admin/conf_users_edit.php` | High
-63 | ... | ... | ...
+47 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+48 | File | `/wireless/security.asp` | High
+49 | File | `/wordpress/wp-admin/options-general.php` | High
+50 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+51 | File | `01article.php` | High
+52 | File | `AbstractScheduleJob.java` | High
+53 | File | `actionphp/download.File.php` | High
+54 | File | `activenews_view.asp` | High
+55 | File | `adclick.php` | Medium
+56 | File | `addtocart.asp` | High
+57 | File | `admin.php` | Medium
+58 | File | `admin/abc.php` | High
+59 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+60 | File | `admin/admin/adminsave.html` | High
+61 | File | `admin/conf_users_edit.php` | High
+62 | File | `admin/disapprove_user.php` | High
+63 | File | `admin/expense_report.php` | High
+64 | ... | ... | ...
 
-There are 552 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 557 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

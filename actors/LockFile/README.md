@@ -92,8 +92,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/tmp` | Low
 47 | File | `/uncpath/` | Medium
 48 | File | `/vloggers_merch/?p=view_product` | High
-49 | File | `/webconsole/APIController` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
 There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

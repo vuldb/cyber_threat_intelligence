@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -117,45 +117,43 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
 3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/apply_noauth.cgi` | High
-5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/common/sysFile/list` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/ctcprotocol/Protocol` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/ebics-server/ebics.aspx` | High
-12 | File | `/ecshop/admin/template.php` | High
-13 | File | `/etc/openstack-dashboard/local_settings` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/forum/PostPrivateMessage` | High
-16 | File | `/goform/addressNat` | High
-17 | File | `/HNAP1/SetClientInfo` | High
-18 | File | `/home/www/cgi-bin/login.cgi` | High
-19 | File | `/menu.html` | Medium
-20 | File | `/net-banking/customer_transactions.php` | High
-21 | File | `/obs/book.php` | High
-22 | File | `/orrs/admin/?page=user/manage_user` | High
-23 | File | `/ossn/administrator/com_installer` | High
-24 | File | `/pms/update_user.php?user_id=1` | High
-25 | File | `/resources//../` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-28 | File | `/subtitles.php` | High
-29 | File | `/sys/dict/queryTableData` | High
-30 | File | `/user/upload/upload` | High
-31 | File | `/vendor` | Low
-32 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-34 | File | `Acl.asp` | Low
-35 | File | `adclick.php` | Medium
-36 | File | `add_contestant.php` | High
-37 | File | `add_postit.php` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/index.php` | High
-40 | ... | ... | ...
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/apply_noauth.cgi` | High
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/common/sysFile/list` | High
+9 | File | `/config/myfield/test.php` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/ctcprotocol/Protocol` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/ebics-server/ebics.aspx` | High
+14 | File | `/ecshop/admin/template.php` | High
+15 | File | `/etc/openstack-dashboard/local_settings` | High
+16 | File | `/file/upload/1` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/forum/PostPrivateMessage` | High
+19 | File | `/goform/addressNat` | High
+20 | File | `/HNAP1/SetClientInfo` | High
+21 | File | `/home/www/cgi-bin/login.cgi` | High
+22 | File | `/js/player/dmplayer/dmku/index.php` | High
+23 | File | `/menu.html` | Medium
+24 | File | `/multi-vendor-shopping-script/product-list.php` | High
+25 | File | `/net-banking/customer_transactions.php` | High
+26 | File | `/obs/book.php` | High
+27 | File | `/orrs/admin/?page=user/manage_user` | High
+28 | File | `/ossn/administrator/com_installer` | High
+29 | File | `/pms/update_user.php?user_id=1` | High
+30 | File | `/requests.php` | High
+31 | File | `/resources//../` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/spip.php` | Medium
+34 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+35 | File | `/subtitles.php` | High
+36 | File | `/sys/dict/queryTableData` | High
+37 | File | `/user/upload/upload` | High
+38 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

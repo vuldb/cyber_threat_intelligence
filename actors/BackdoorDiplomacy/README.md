@@ -59,9 +59,9 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
-4 | File | `/administrator/components/table_manager/` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
+3 | File | `/administrator/components/table_manager/` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
 7 | File | `/bin/httpd` | Medium
 8 | File | `/cgi-bin/wapopen` | High
@@ -99,14 +99,13 @@ ID | Type | Indicator | Confidence
 40 | File | `/s/` | Low
 41 | File | `/scripts/cpan_config` | High
 42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-43 | File | `/services/system/setup.json` | High
-44 | File | `/spip.php` | Medium
+43 | File | `/spip.php` | Medium
+44 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
 45 | File | `/sys/dict/queryTableData` | High
 46 | File | `/tmp` | Low
-47 | File | `/uncpath/` | Medium
-48 | ... | ... | ...
+47 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bahamas Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [ES](https://vuldb.com/?country.es)
-* [AR](https://vuldb.com/?country.ar)
 * ...
 
 There are 17 more country items available. Please use our online service to access the data.
@@ -92,9 +92,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
 29 | File | `/preauth` | Medium
 30 | File | `/presale/join` | High
-31 | ... | ... | ...
+31 | File | `/public/launchNewWindow.jsp` | High
+32 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -76,33 +76,33 @@ ID | Type | Indicator | Confidence
 13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 14 | File | `/oscommerce/admin/currencies.php` | High
 15 | File | `/proc/pid/syscall` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/rom-0` | Low
-18 | File | `/session/list/allActiveSession` | High
-19 | File | `/SysInfo.htm` | Medium
-20 | File | `/syslog_rules` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/users/{id}` | Medium
-24 | File | `/var/tmp/sess_*` | High
-25 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-26 | File | `/video` | Low
-27 | File | `actionphp/download.File.php` | High
-28 | File | `ActivityManagerService.java` | High
-29 | File | `adaptmap_reg.c` | High
-30 | File | `add_comment.php` | High
-31 | File | `admin.cgi` | Medium
-32 | File | `admin.php` | Medium
-33 | File | `admin.php?action=files` | High
-34 | File | `admin/admin.php` | High
-35 | File | `admin/content.php` | High
-36 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-37 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
-38 | File | `admin_gallery.php3` | High
-39 | File | `affich.php` | Medium
+16 | File | `/public/launchNewWindow.jsp` | High
+17 | File | `/rapi/read_url` | High
+18 | File | `/rom-0` | Low
+19 | File | `/session/list/allActiveSession` | High
+20 | File | `/SysInfo.htm` | Medium
+21 | File | `/syslog_rules` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/users/{id}` | Medium
+25 | File | `/var/tmp/sess_*` | High
+26 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+27 | File | `/video` | Low
+28 | File | `actionphp/download.File.php` | High
+29 | File | `ActivityManagerService.java` | High
+30 | File | `adaptmap_reg.c` | High
+31 | File | `add_comment.php` | High
+32 | File | `admin.cgi` | Medium
+33 | File | `admin.php` | Medium
+34 | File | `admin.php?action=files` | High
+35 | File | `admin/admin.php` | High
+36 | File | `admin/content.php` | High
+37 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+38 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
+39 | File | `admin_gallery.php3` | High
 40 | ... | ... | ...
 
-There are 348 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

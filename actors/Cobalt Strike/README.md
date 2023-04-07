@@ -103,41 +103,42 @@ ID | Type | Indicator | Confidence
 5 | File | `/APR/signup.php` | High
 6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
 7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/churchcrm/EventAttendance.php` | High
-9 | File | `/DXR.axd` | Medium
-10 | File | `/filemanager/php/connector.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/HNAP1/SetClientInfo` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/mims/login.php` | High
-15 | File | `/modules/projects/vw_files.php` | High
-16 | File | `/php-scrm/login.php` | High
-17 | File | `/public/launchNewWindow.jsp` | High
-18 | File | `/rukovoditel/index.php?module=users/login` | High
-19 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-20 | File | `/static/ueditor/php/controller.php` | High
-21 | File | `/textpattern/index.php` | High
-22 | File | `/tmp` | Low
-23 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `/wp-admin/options.php` | High
-26 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-27 | File | `account/signup.php` | High
-28 | File | `Acl.asp` | Low
-29 | File | `activenews_view.asp` | High
-30 | File | `adclick.php` | Medium
-31 | File | `addentry.php` | Medium
-32 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-33 | File | `admin.php` | Medium
-34 | File | `admin/admin_editor.php` | High
-35 | File | `admin/TemplateController.java` | High
-36 | File | `admincp.php` | Medium
-37 | File | `adminer.php` | Medium
-38 | File | `affich.php` | Medium
-39 | File | `ajax/telemetry.php` | High
-40 | ... | ... | ...
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/churchcrm/EventAttendance.php` | High
+10 | File | `/DXR.axd` | Medium
+11 | File | `/filemanager/php/connector.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/HNAP1/SetClientInfo` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/mims/login.php` | High
+16 | File | `/modules/projects/vw_files.php` | High
+17 | File | `/php-scrm/login.php` | High
+18 | File | `/plain` | Low
+19 | File | `/public/launchNewWindow.jsp` | High
+20 | File | `/rukovoditel/index.php?module=users/login` | High
+21 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+22 | File | `/static/ueditor/php/controller.php` | High
+23 | File | `/textpattern/index.php` | High
+24 | File | `/tmp` | Low
+25 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-admin/options.php` | High
+28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+29 | File | `account/signup.php` | High
+30 | File | `Acl.asp` | Low
+31 | File | `activenews_view.asp` | High
+32 | File | `adclick.php` | Medium
+33 | File | `addentry.php` | Medium
+34 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/admin_editor.php` | High
+37 | File | `admin/TemplateController.java` | High
+38 | File | `admincp.php` | Medium
+39 | File | `adminer.php` | Medium
+40 | File | `affich.php` | Medium
+41 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

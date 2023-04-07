@@ -86,36 +86,33 @@ ID | Type | Indicator | Confidence
 25 | File | `/etc/passwd` | Medium
 26 | File | `/etc/shadow` | Medium
 27 | File | `/EXCU_SHELL` | Medium
-28 | File | `/goform/addressNat` | High
-29 | File | `/goform/AddSysLogRule` | High
-30 | File | `/goform/aspForm` | High
-31 | File | `/goform/NatStaticSetting` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/hocms/classes/Master.php?f=delete_collection` | High
-34 | File | `/index.php` | Medium
-35 | File | `/index.php?module=configuration/application` | High
-36 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
-37 | File | `/isomedia/box_funcs.c` | High
-38 | File | `/isomedia/meta.c` | High
-39 | File | `/pages/animals.php` | High
-40 | File | `/pages/apply_vacancy.php` | High
-41 | File | `/php-sms/admin/?page=services/manage_service` | High
-42 | File | `/php_action/editProductImage.php` | High
-43 | File | `/plesk-site-preview/` | High
-44 | File | `/project/PROJECTNAME/reports/` | High
-45 | File | `/sacco_shield/manage_loan.php` | High
-46 | File | `/scene_manager/scene_dump.c` | High
-47 | File | `/school/model/get_admin_profile.php` | High
-48 | File | `/services/view_service.php` | High
-49 | File | `/shell` | Low
-50 | File | `/spip.php` | Medium
-51 | File | `/student-grading-system/rms.php?page=grade` | High
-52 | File | `/timeline2.php` | High
-53 | File | `/userui/ticket_list.php` | High
-54 | File | `/user_operations/profile.php` | High
-55 | ... | ... | ...
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/addressNat` | High
+30 | File | `/goform/AddSysLogRule` | High
+31 | File | `/goform/aspForm` | High
+32 | File | `/goform/NatStaticSetting` | High
+33 | File | `/goform/WifiBasicSet` | High
+34 | File | `/hocms/classes/Master.php?f=delete_collection` | High
+35 | File | `/index.php` | Medium
+36 | File | `/index.php?module=configuration/application` | High
+37 | File | `/index.php?route=extension/module/so_filter_shop_by/filter_data` | High
+38 | File | `/isomedia/box_funcs.c` | High
+39 | File | `/isomedia/meta.c` | High
+40 | File | `/kruxton/receipt.php` | High
+41 | File | `/pages/animals.php` | High
+42 | File | `/pages/apply_vacancy.php` | High
+43 | File | `/php-sms/admin/?page=services/manage_service` | High
+44 | File | `/php_action/editProductImage.php` | High
+45 | File | `/plesk-site-preview/` | High
+46 | File | `/project/PROJECTNAME/reports/` | High
+47 | File | `/sacco_shield/manage_loan.php` | High
+48 | File | `/scene_manager/scene_dump.c` | High
+49 | File | `/school/model/get_admin_profile.php` | High
+50 | File | `/services/view_service.php` | High
+51 | File | `/shell` | Low
+52 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

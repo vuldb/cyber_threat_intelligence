@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -60,20 +60,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/edit.php` | High
-2 | File | `/debug/pprof` | Medium
-3 | File | `/sqfs/bin/sccd` | High
-4 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-5 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-6 | File | `admin.php` | Medium
-7 | File | `admin/google_search_console/class-gsc-table.php` | High
-8 | File | `ajax.php` | Medium
-9 | File | `akocomments.php` | High
-10 | File | `auth.inc.php` | Medium
-11 | File | `bgpd/bgp_aspath.c` | High
-12 | File | `browser.php` | Medium
+2 | File | `/api/index.php` | High
+3 | File | `/debug/pprof` | Medium
+4 | File | `/sqfs/bin/sccd` | High
+5 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+6 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+7 | File | `admin.php` | Medium
+8 | File | `admin/google_search_console/class-gsc-table.php` | High
+9 | File | `ajax.php` | Medium
+10 | File | `akocomments.php` | High
+11 | File | `auth.inc.php` | Medium
+12 | File | `bgpd/bgp_aspath.c` | High
 13 | ... | ... | ...
 
-There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

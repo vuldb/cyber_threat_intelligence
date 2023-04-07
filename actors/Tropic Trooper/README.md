@@ -54,7 +54,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -74,20 +74,20 @@ ID | Type | Indicator | Confidence
 4 | File | `/baseOpLog.do` | High
 5 | File | `/cgi-bin/api-get_line_status` | High
 6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/CMD_ACCOUNT_ADMIN` | High
-9 | File | `/controller/OnlinePreviewController.java` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/export` | Low
-12 | File | `/getcfg.php` | Medium
-13 | File | `/includes/rrdtool.inc.php` | High
-14 | File | `/onvif/device_service` | High
-15 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `ActiveMediaServer.exe` | High
+7 | File | `/cgi-bin/go` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/CMD_ACCOUNT_ADMIN` | High
+10 | File | `/controller/OnlinePreviewController.java` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/export` | Low
+13 | File | `/getcfg.php` | Medium
+14 | File | `/includes/rrdtool.inc.php` | High
+15 | File | `/onvif/device_service` | High
+16 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+17 | File | `/uncpath/` | Medium
 18 | ... | ... | ...
 
-There are 144 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

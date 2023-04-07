@@ -60,12 +60,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/config/getuser` | High
 4 | File | `/lan.asp` | Medium
 5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-6 | File | `/rapi/read_url` | High
-7 | File | `/SysInfo.htm` | Medium
-8 | File | `admin.php` | Medium
+6 | File | `/public/launchNewWindow.jsp` | High
+7 | File | `/rapi/read_url` | High
+8 | File | `/SysInfo.htm` | Medium
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -83,40 +83,41 @@ ID | Type | Indicator | Confidence
 16 | File | `/admin/submit-articles` | High
 17 | File | `/ad_js.php` | Medium
 18 | File | `/alphaware/summary.php` | High
-19 | File | `/api/RecordingList/DownloadRecord?file=` | High
-20 | File | `/apply.cgi` | Medium
-21 | File | `/artist-display.php` | High
-22 | File | `/attachments` | Medium
-23 | File | `/boat/login.php` | High
-24 | File | `/bsms_ci/index.php` | High
-25 | File | `/bsms_ci/index.php/book` | High
-26 | File | `/cgi-bin/luci/api/wireless` | High
-27 | File | `/cgi-bin/nightled.cgi` | High
-28 | File | `/common/info.cgi` | High
-29 | File | `/context/%2e/WEB-INF/web.xml` | High
-30 | File | `/dashboard/reports/logs/view` | High
-31 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/etc/hosts` | Medium
-34 | File | `/foms/place-order.php` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/goform/setmac` | High
-37 | File | `/goform/wizard_end` | High
-38 | File | `/index.php` | Medium
-39 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-40 | File | `/manage-apartment.php` | High
-41 | File | `/management/api/rcx_management/global_config_query` | High
-42 | File | `/mcategory.php` | High
-43 | File | `/medicines/profile.php` | High
-44 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-45 | File | `/multi-vendor-shopping-script/product-list.php` | High
-46 | File | `/pages/apply_vacancy.php` | High
-47 | File | `/php-sms/admin/` | High
-48 | File | `/proc/<PID>/mem` | High
-49 | File | `/product/savenewproduct.php?flag=1` | High
-50 | ... | ... | ...
+19 | File | `/api/` | Low
+20 | File | `/api/admin/store/product/list` | High
+21 | File | `/api/RecordingList/DownloadRecord?file=` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/artist-display.php` | High
+24 | File | `/attachments` | Medium
+25 | File | `/boat/login.php` | High
+26 | File | `/bsms_ci/index.php` | High
+27 | File | `/bsms_ci/index.php/book` | High
+28 | File | `/cgi-bin/luci/api/wireless` | High
+29 | File | `/cgi-bin/nightled.cgi` | High
+30 | File | `/common/info.cgi` | High
+31 | File | `/context/%2e/WEB-INF/web.xml` | High
+32 | File | `/dashboard/reports/logs/view` | High
+33 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+34 | File | `/debug/pprof` | Medium
+35 | File | `/etc/hosts` | Medium
+36 | File | `/foms/place-order.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/setmac` | High
+39 | File | `/goform/wizard_end` | High
+40 | File | `/index.php` | Medium
+41 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+42 | File | `/manage-apartment.php` | High
+43 | File | `/management/api/rcx_management/global_config_query` | High
+44 | File | `/mcategory.php` | High
+45 | File | `/medicines/profile.php` | High
+46 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+47 | File | `/multi-vendor-shopping-script/product-list.php` | High
+48 | File | `/pages/apply_vacancy.php` | High
+49 | File | `/php-sms/admin/` | High
+50 | File | `/proc/<PID>/mem` | High
+51 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

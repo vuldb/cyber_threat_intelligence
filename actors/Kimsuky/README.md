@@ -76,19 +76,19 @@ ID | Type | Indicator | Confidence
 14 | File | `/main?cmd=invalid_browser` | High
 15 | File | `/manager?action=getlogcat` | High
 16 | File | `/mc` | Low
-17 | File | `/plugins/Dashboard/Controller.php` | High
-18 | File | `/public/plugins/` | High
-19 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-20 | File | `/SASWebReportStudio/logonAndRender.do` | High
-21 | File | `/scas/admin/` | Medium
-22 | File | `/static/ueditor/php/controller.php` | High
-23 | File | `/tlogin.cgi` | Medium
-24 | File | `/tmp/scfgdndf` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
+17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+18 | File | `/plugins/Dashboard/Controller.php` | High
+19 | File | `/public/plugins/` | High
+20 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+21 | File | `/SASWebReportStudio/logonAndRender.do` | High
+22 | File | `/scas/admin/` | Medium
+23 | File | `/static/ueditor/php/controller.php` | High
+24 | File | `/tlogin.cgi` | Medium
+25 | File | `/tmp/scfgdndf` | High
+26 | File | `/uncpath/` | Medium
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

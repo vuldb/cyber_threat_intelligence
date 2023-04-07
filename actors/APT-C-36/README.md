@@ -111,9 +111,10 @@ ID | Type | Indicator | Confidence
 60 | File | `admin/admin.php?action=users&mode=info&user=2` | High
 61 | File | `admin/admin/adminsave.html` | High
 62 | File | `admin/conf_users_edit.php` | High
-63 | ... | ... | ...
+63 | File | `admin/disapprove_user.php` | High
+64 | ... | ... | ...
 
-There are 555 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 557 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

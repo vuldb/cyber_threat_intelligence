@@ -76,25 +76,25 @@ ID | Type | Indicator | Confidence
 15 | File | `/controller/pay.class.php` | High
 16 | File | `/ctpms/admin/?page=applications/view_application` | High
 17 | File | `/dev/block/mmcblk0rpmb` | High
-18 | File | `/dev/kmem` | Medium
-19 | File | `/dev/snd/seq` | Medium
-20 | File | `/device/device=140/tab=wifi/view` | High
-21 | File | `/dl/dl_print.php` | High
-22 | File | `/etc/passwd` | Medium
-23 | File | `/getcfg.php` | Medium
-24 | File | `/goform/SetClientState` | High
-25 | File | `/goform/SysToolChangePwd` | High
-26 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-27 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-28 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/librarian/lab.php` | High
-31 | File | `/login` | Low
-32 | File | `/mngset/authset` | High
-33 | File | `/nova/bin/sniffer` | High
+18 | File | `/dev/snd/seq` | Medium
+19 | File | `/device/device=140/tab=wifi/view` | High
+20 | File | `/dl/dl_print.php` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/SetClientState` | High
+24 | File | `/goform/SysToolChangePwd` | High
+25 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+26 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+27 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/librarian/lab.php` | High
+30 | File | `/login` | Low
+31 | File | `/mngset/authset` | High
+32 | File | `/nova/bin/sniffer` | High
+33 | File | `/ofcms/company-c-47` | High
 34 | ... | ... | ...
 
-There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

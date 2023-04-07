@@ -70,20 +70,21 @@ ID | Type | Indicator | Confidence
 20 | File | `AccountStatus.jsp` | High
 21 | File | `adclick.php` | Medium
 22 | File | `add.php` | Low
-23 | File | `admin.color.php` | High
-24 | File | `admin.joomlaradiov5.php` | High
-25 | File | `admin/systemOutOfBand.do` | High
-26 | File | `allopass-error.php` | High
-27 | File | `app/application.cpp` | High
-28 | File | `ashnews.php/ashheadlines.php` | High
-29 | File | `auth-gss2.c` | Medium
-30 | File | `authent.php4` | Medium
-31 | File | `base_maintenance.php` | High
-32 | File | `BBStore.php` | Medium
-33 | File | `boardrule.php` | High
-34 | ... | ... | ...
+23 | File | `admin.a6mambocredits.php` | High
+24 | File | `admin.color.php` | High
+25 | File | `admin.cropcanvas.php` | High
+26 | File | `admin.joomlaradiov5.php` | High
+27 | File | `Admin.PHP` | Medium
+28 | File | `admin/systemOutOfBand.do` | High
+29 | File | `allopass-error.php` | High
+30 | File | `app/application.cpp` | High
+31 | File | `ashnews.php/ashheadlines.php` | High
+32 | File | `auth-gss2.c` | Medium
+33 | File | `authent.php4` | Medium
+34 | File | `base_maintenance.php` | High
+35 | ... | ... | ...
 
-There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

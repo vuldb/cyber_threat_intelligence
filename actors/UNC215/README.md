@@ -54,7 +54,7 @@ ID | Type | Indicator | Confidence
 5 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 6 | ... | ... | ...
 
-There are 41 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

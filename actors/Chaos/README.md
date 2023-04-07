@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Chaos:
 
 * [US](https://vuldb.com/?country.us)
-* [LU](https://vuldb.com/?country.lu)
 * [CN](https://vuldb.com/?country.cn)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
 There are 6 more country items available. Please use our online service to access the data.
@@ -41,11 +41,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,30 +63,34 @@ ID | Type | Indicator | Confidence
 8 | File | `/cgi-bin/luci/api/wireless` | High
 9 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
 10 | File | `/cgi-bin/uploadWeiXinPic` | High
-11 | File | `/claire_blake` | High
-12 | File | `/core/admin/categories.php` | High
-13 | File | `/dashboard/contact` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dms/admin/reports/daily_collection_report.php` | High
-16 | File | `/etc/config/cameo` | High
-17 | File | `/export` | Low
-18 | File | `/files.md5` | Medium
-19 | File | `/food/admin/all_users.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/hrm/employeeview.php` | High
-22 | File | `/htdocs/cgibin` | High
-23 | File | `/images/` | Medium
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/claire_blake` | High
+13 | File | `/core/admin/categories.php` | High
+14 | File | `/dashboard/contact` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/dms/admin/reports/daily_collection_report.php` | High
+17 | File | `/etc/config/cameo` | High
+18 | File | `/export` | Low
+19 | File | `/files.md5` | Medium
+20 | File | `/food/admin/all_users.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/hrm/employeeview.php` | High
+23 | File | `/htdocs/cgibin` | High
 24 | File | `/isms/classes/Users.php` | High
-25 | File | `/login` | Low
-26 | File | `/mc` | Low
-27 | File | `/mkshop/Men/profile.php` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/ofrs/admin/?page=teams/view_team` | High
-30 | File | `/one_church/userregister.php` | High
-31 | File | `/out.php` | Medium
-32 | ... | ... | ...
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/login` | Low
+27 | File | `/mc` | Low
+28 | File | `/mkshop/Men/profile.php` | High
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/ofrs/admin/?page=teams/view_team` | High
+31 | File | `/one_church/userregister.php` | High
+32 | File | `/out.php` | Medium
+33 | File | `/public/plugins/` | High
+34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+35 | File | `/SASWebReportStudio/logonAndRender.do` | High
+36 | ... | ... | ...
 
-There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

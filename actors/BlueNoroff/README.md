@@ -49,11 +49,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/mgmt/tm/util/bash` | High
 2 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-3 | File | `auth.php` | Medium
-4 | File | `books.php` | Medium
-5 | ... | ... | ...
+3 | File | `acme_certificate_edit.php` | High
+4 | File | `auth.php` | Medium
+5 | File | `books.php` | Medium
+6 | ... | ... | ...
 
-There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

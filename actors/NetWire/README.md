@@ -115,34 +115,34 @@ ID | Type | Indicator | Confidence
 26 | File | `/backup.pl` | Medium
 27 | File | `/cgi-bin/webviewer_login_page` | High
 28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/cgi-mod/lookup.cgi` | High
-30 | File | `/dashboard/updatelogo.php` | High
-31 | File | `/designer/add/layout` | High
-32 | File | `/edoc/doctor/patient.php` | High
-33 | File | `/etc/ldap.conf` | High
-34 | File | `/etc/shadow` | Medium
-35 | File | `/filemanager/upload/drop` | High
-36 | File | `/goform/addUserName` | High
-37 | File | `/goform/delAd` | High
-38 | File | `/goform/wifiSSIDset` | High
-39 | File | `/gpac/src/bifs/unquantize.c` | High
-40 | File | `/h/calendar` | Medium
-41 | File | `/h/compose` | Medium
-42 | File | `/h/search?action=voicemail&action=listen` | High
-43 | File | `/index.asp` | Medium
-44 | File | `/index.php` | Medium
-45 | File | `/jfinal_cms/system/role/list` | High
-46 | File | `/librarian/bookdetails.php` | High
-47 | File | `/loginVaLidation.php` | High
-48 | File | `/manage-apartment.php` | High
-49 | File | `/manager/index.php` | High
-50 | File | `/mkshop/Men/profile.php` | High
-51 | File | `/Moosikay/order.php` | High
-52 | File | `/Noxen-master/users.php` | High
-53 | File | `/opac/Actions.php?a=login` | High
+29 | File | `/dashboard/updatelogo.php` | High
+30 | File | `/designer/add/layout` | High
+31 | File | `/edoc/doctor/patient.php` | High
+32 | File | `/etc/ldap.conf` | High
+33 | File | `/etc/shadow` | Medium
+34 | File | `/filemanager/upload/drop` | High
+35 | File | `/goform/addUserName` | High
+36 | File | `/goform/delAd` | High
+37 | File | `/goform/wifiSSIDset` | High
+38 | File | `/gpac/src/bifs/unquantize.c` | High
+39 | File | `/h/calendar` | Medium
+40 | File | `/h/compose` | Medium
+41 | File | `/h/search?action=voicemail&action=listen` | High
+42 | File | `/index.asp` | Medium
+43 | File | `/index.php` | Medium
+44 | File | `/jfinal_cms/system/role/list` | High
+45 | File | `/librarian/bookdetails.php` | High
+46 | File | `/loginVaLidation.php` | High
+47 | File | `/manage-apartment.php` | High
+48 | File | `/manager/index.php` | High
+49 | File | `/mkshop/Men/profile.php` | High
+50 | File | `/Moosikay/order.php` | High
+51 | File | `/Noxen-master/users.php` | High
+52 | File | `/opac/Actions.php?a=login` | High
+53 | File | `/pages/animals.php` | High
 54 | ... | ... | ...
 
-There are 470 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

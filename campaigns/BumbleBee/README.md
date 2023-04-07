@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [NO](https://vuldb.com/?country.no)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -182,45 +182,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `//` | Low
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/admin` | Low
-5 | File | `/admin/patient.php` | High
-6 | File | `/api/jmeter/download/files` | High
-7 | File | `/api/upload` | Medium
-8 | File | `/api/v1/attack/falco` | High
-9 | File | `/APR/login.php` | High
-10 | File | `/as/authorization.oauth2` | High
-11 | File | `/backup.pl` | Medium
-12 | File | `/cgi-bin/luci/api/auth` | High
-13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/churchcrm/EventAttendance.php` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/edoc/doctor/patient.php` | High
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/files/import` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/j_security_check` | High
-22 | File | `/librarian/bookdetails.php` | High
-23 | File | `/mhds/clinic/view_details.php` | High
-24 | File | `/modules/projects/vw_files.php` | High
-25 | File | `/Moosikay/order.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/php-scrm/login.php` | High
-28 | File | `/reservation/add_message.php` | High
-29 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-30 | File | `/rukovoditel/index.php?module=users/login` | High
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/static/ueditor/php/controller.php` | High
-33 | File | `/tmp/boa-temp` | High
-34 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `/wp-admin/options.php` | High
-37 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/.env` | Low
+3 | File | `//` | Low
+4 | File | `/?ajax-request=jnews` | High
+5 | File | `/admin` | Low
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/patient.php` | High
+8 | File | `/api/jmeter/download/files` | High
+9 | File | `/api/upload` | Medium
+10 | File | `/api/v1/attack/falco` | High
+11 | File | `/APR/login.php` | High
+12 | File | `/as/authorization.oauth2` | High
+13 | File | `/backup.pl` | Medium
+14 | File | `/cgi-bin/luci/api/auth` | High
+15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/churchcrm/EventAttendance.php` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/edoc/doctor/patient.php` | High
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/files/import` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/j_security_check` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/modules/projects/vw_files.php` | High
+27 | File | `/Moosikay/order.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/php-scrm/login.php` | High
+30 | File | `/plain` | Low
+31 | File | `/public/launchNewWindow.jsp` | High
+32 | File | `/reservation/add_message.php` | High
+33 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/static/ueditor/php/controller.php` | High
+36 | File | `/tmp/boa-temp` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `/wp-admin/options.php` | High
+40 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

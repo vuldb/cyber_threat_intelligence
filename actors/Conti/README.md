@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -531,7 +531,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -548,43 +548,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/submit-articles` | High
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
-10 | File | `/appliance/users?action=edit` | High
-11 | File | `/apply.cgi` | Medium
-12 | File | `/attachments` | Medium
-13 | File | `/backup.pl` | Medium
-14 | File | `/boat/login.php` | High
-15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-18 | File | `/edoc/doctor/patient.php` | High
-19 | File | `/etc/hosts` | Medium
-20 | File | `/etc/ldap.conf` | High
-21 | File | `/etc/quagga` | Medium
-22 | File | `/etc/shadow` | Medium
-23 | File | `/event/admin/?page=user/list` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/hardware` | Medium
-26 | File | `/index.php` | Medium
-27 | File | `/medicines/profile.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/out.php` | Medium
-30 | File | `/php-scrm/login.php` | High
-31 | File | `/proxy` | Low
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-34 | File | `/Session` | Medium
-35 | File | `/spip.php` | Medium
-36 | File | `/tmp` | Low
-37 | File | `/uncpath/` | Medium
-38 | File | `/user/loader.php?api=1` | High
-39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-40 | File | `/video-sharing-script/watch-video.php` | High
-41 | File | `/wireless/security.asp` | High
-42 | File | `/wp-admin/admin-ajax.php` | High
-43 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-44 | ... | ... | ...
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/appliance/users?action=edit` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/attachments` | Medium
+14 | File | `/backup.pl` | Medium
+15 | File | `/boat/login.php` | High
+16 | File | `/bsms_ci/index.php/book` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+19 | File | `/edoc/doctor/patient.php` | High
+20 | File | `/etc/hosts` | Medium
+21 | File | `/etc/ldap.conf` | High
+22 | File | `/etc/quagga` | Medium
+23 | File | `/etc/shadow` | Medium
+24 | File | `/event/admin/?page=user/list` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/hardware` | Medium
+27 | File | `/index.php` | Medium
+28 | File | `/medicines/profile.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/out.php` | Medium
+31 | File | `/php-scrm/login.php` | High
+32 | File | `/proxy` | Low
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+35 | File | `/Session` | Medium
+36 | File | `/spip.php` | Medium
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/user/loader.php?api=1` | High
+40 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+41 | File | `/video-sharing-script/watch-video.php` | High
+42 | File | `/wireless/security.asp` | High
+43 | File | `/wp-admin/admin-ajax.php` | High
+44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+45 | ... | ... | ...
 
-There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

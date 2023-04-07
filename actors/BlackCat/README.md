@@ -92,7 +92,7 @@ ID | Type | Indicator | Confidence
 40 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
 41 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -61,18 +61,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `.kdbgrc` | Low
-3 | File | `/admin/index.php` | High
-4 | File | `/api /v3/auth` | High
-5 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-6 | File | `/auth` | Low
-7 | File | `/balance/service/list` | High
-8 | File | `/config/getuser` | High
-9 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-10 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-11 | File | `/uncpath/` | Medium
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/api /v3/auth` | High
+6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+7 | File | `/auth` | Low
+8 | File | `/balance/service/list` | High
+9 | File | `/config/getuser` | High
+10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+11 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
 12 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

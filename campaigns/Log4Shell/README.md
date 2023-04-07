@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 7 | ... | ... | ... | ...
 
@@ -114,41 +114,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/ajax.php?action=delete_uploads` | High
 2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/app/dao/CustomerDAO.php` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/cgi-bin/mainfunction.cgi` | High
-6 | File | `/config/api/v1/reboot` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/food` | Low
-9 | File | `/forum/away.php` | High
-10 | File | `/forum/PostPrivateMessage` | High
-11 | File | `/forums.php?action=post` | High
-12 | File | `/fos/admin/ajax.php?action=login` | High
-13 | File | `/fos/admin/index.php?page=menu` | High
-14 | File | `/hss/admin/?page=client/manage_client` | High
-15 | File | `/hss/classes/Users.php?f=delete` | High
-16 | File | `/index/user/user_edit.html` | High
-17 | File | `/login/index.php` | High
-18 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-19 | File | `/param.file.tgz` | High
-20 | File | `/rest/api/2/user/picker` | High
-21 | File | `/royal_event/userregister.php` | High
-22 | File | `/rrdp` | Low
-23 | File | `/Session` | Medium
-24 | File | `/setNTP.cgi` | Medium
-25 | File | `/tpts/manage_user.php` | High
-26 | File | `/u/username.json` | High
-27 | File | `/user/s.php` | Medium
-28 | File | `/user/updatePwd` | High
-29 | File | `/usr/etc/restore0.9` | High
-30 | File | `/VerAyari` | Medium
-31 | File | `/wireless/guestnetwork.asp` | High
-32 | File | `01article.php` | High
-33 | File | `acl.c` | Low
-34 | File | `acloudCosAction.php.SQL` | High
-35 | ... | ... | ...
+3 | File | `/api/baskets/{name}` | High
+4 | File | `/app/dao/CustomerDAO.php` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/cgi-bin/mainfunction.cgi` | High
+7 | File | `/config/api/v1/reboot` | High
+8 | File | `/etc/shadow` | Medium
+9 | File | `/food` | Low
+10 | File | `/forum/away.php` | High
+11 | File | `/forum/PostPrivateMessage` | High
+12 | File | `/forums.php?action=post` | High
+13 | File | `/fos/admin/ajax.php?action=login` | High
+14 | File | `/fos/admin/index.php?page=menu` | High
+15 | File | `/hss/admin/?page=client/manage_client` | High
+16 | File | `/hss/classes/Users.php?f=delete` | High
+17 | File | `/index/user/user_edit.html` | High
+18 | File | `/login/index.php` | High
+19 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/param.file.tgz` | High
+22 | File | `/rest/api/2/user/picker` | High
+23 | File | `/royal_event/userregister.php` | High
+24 | File | `/rrdp` | Low
+25 | File | `/Session` | Medium
+26 | File | `/setNTP.cgi` | Medium
+27 | File | `/tpts/manage_user.php` | High
+28 | File | `/u/username.json` | High
+29 | File | `/user/s.php` | Medium
+30 | File | `/user/updatePwd` | High
+31 | File | `/usr/etc/restore0.9` | High
+32 | File | `/VerAyari` | Medium
+33 | File | `/wireless/guestnetwork.asp` | High
+34 | File | `/zm/index.php` | High
+35 | File | `01article.php` | High
+36 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

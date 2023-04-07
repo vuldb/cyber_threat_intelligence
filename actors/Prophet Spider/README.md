@@ -16,10 +16,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [SC](https://vuldb.com/?country.sc)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,37 +62,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/index3.php` | High
-4 | File | `/admin_area/login_transfer.php` | High
-5 | File | `/adms/admin/?page=user/manage_user` | High
-6 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-7 | File | `/ajax/update_certificate` | High
-8 | File | `/alphaware/details.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bsms_ci/index.php/book` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/forums.php?action=post` | High
-15 | File | `/fudforum/adm/hlplist.php` | High
-16 | File | `/goform/formDefault` | High
-17 | File | `/goform/formSysCmd` | High
-18 | File | `/goform/fromSetWirelessRepeat` | High
-19 | File | `/index.php` | Medium
-20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-21 | File | `/login/index.php` | High
-22 | File | `/Moosikay/order.php` | High
-23 | File | `/philosophy/admin/user/controller.php?action=add` | High
-24 | File | `/php-opos/signup.php` | High
-25 | File | `/SetNetworkSettings/SubnetMask` | High
-26 | File | `/setNTP.cgi` | Medium
-27 | File | `/textpattern/index.php` | High
-28 | File | `/tpts/manage_user.php` | High
-29 | File | `/u/username.json` | High
+2 | File | `/admin` | Low
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/index3.php` | High
+5 | File | `/admin_area/login_transfer.php` | High
+6 | File | `/adms/admin/?page=user/manage_user` | High
+7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+8 | File | `/ajax/update_certificate` | High
+9 | File | `/alphaware/details.php` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/bsms_ci/index.php/book` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/etc/shadow` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/forums.php?action=post` | High
+16 | File | `/fudforum/adm/hlplist.php` | High
+17 | File | `/goform/formDefault` | High
+18 | File | `/goform/formSysCmd` | High
+19 | File | `/goform/fromSetWirelessRepeat` | High
+20 | File | `/index.php` | Medium
+21 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+22 | File | `/login/index.php` | High
+23 | File | `/Moosikay/order.php` | High
+24 | File | `/philosophy/admin/user/controller.php?action=add` | High
+25 | File | `/php-opos/signup.php` | High
+26 | File | `/SetNetworkSettings/SubnetMask` | High
+27 | File | `/setNTP.cgi` | Medium
+28 | File | `/textpattern/index.php` | High
+29 | File | `/tpts/manage_user.php` | High
 30 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -135,9 +135,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -145,33 +146,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%ProgramData%\GOG.com` | High
-2 | File | `/.dbus-keyrings` | High
-3 | File | `/bin/boa` | Medium
-4 | File | `/bitrix/admin/ldap_server_edit.php` | High
-5 | File | `/blog/blog.php` | High
-6 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cimom` | Low
-9 | File | `/data/wps.setup.json` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/hrm/employeeview.php` | High
-12 | File | `/login/index.php` | High
-13 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-14 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-15 | File | `/out.php` | Medium
-16 | File | `/rendering/wiki` | High
-17 | File | `/secure/QueryComponent!Default.jspa` | High
-18 | File | `/src/amf/amf-context.c` | High
-19 | File | `/storage/poc.svg` | High
-20 | File | `/system/sshkeys.js` | High
-21 | File | `/tmp/net-$DEVICE.conf` | High
-22 | File | `/usr/bin/pkexec` | High
-23 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | ... | ... | ...
+1 | File | `/.dbus-keyrings` | High
+2 | File | `/admin/delete_user.php` | High
+3 | File | `/bitrix/admin/ldap_server_edit.php` | High
+4 | File | `/blog/blog.php` | High
+5 | File | `/cimom` | Low
+6 | File | `/data/wps.setup.json` | High
+7 | File | `/etc/sudoers` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/login/index.php` | High
+11 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+12 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+13 | File | `/out.php` | Medium
+14 | File | `/rom-0` | Low
+15 | File | `/secure/QueryComponent!Default.jspa` | High
+16 | File | `/storage/poc.svg` | High
+17 | File | `/tmp/net-$DEVICE.conf` | High
+18 | File | `/usr/bin/at` | Medium
+19 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+20 | File | `/wabt/bin/poc.wasm` | High
+21 | File | `/wp-admin/admin-ajax.php` | High
+22 | File | `/wp-admin/options.php` | High
+23 | File | `/wp-json/oembed/1.0/embed?url` | High
+24 | File | `a2billing/customer/iridium_threed.php` | High
+25 | File | `Access.app/Contents/Resources/kcproxy` | High
+26 | File | `access_token.php` | High
+27 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+28 | File | `adclick.php` | Medium
+29 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

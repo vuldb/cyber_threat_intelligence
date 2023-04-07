@@ -84,7 +84,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -114,22 +114,22 @@ ID | Type | Indicator | Confidence
 16 | File | `/php-opos/index.php` | High
 17 | File | `/rest/api/latest/projectvalidate/key` | High
 18 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-19 | File | `/search.php` | Medium
-20 | File | `/ServletAPI/accounts/login` | High
-21 | File | `/tourism/rate_review.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/user/login/oauth` | High
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-26 | File | `/var/log/messages` | High
-27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/websocket/exec` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/x_program_center/jaxrs/invoke` | High
-31 | File | `/zm/index.php` | High
+19 | File | `/ServletAPI/accounts/login` | High
+20 | File | `/tourism/rate_review.php` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+23 | File | `/var/log/messages` | High
+24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+25 | File | `/websocket/exec` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/x_program_center/jaxrs/invoke` | High
+28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+29 | File | `action-visitor.php` | High
+30 | File | `action.php` | Medium
+31 | File | `adclick.php` | Medium
 32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

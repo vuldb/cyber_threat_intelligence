@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Winter Vivern:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [NL](https://vuldb.com/?country.nl)
+* [IL](https://vuldb.com/?country.il)
+* [PT](https://vuldb.com/?country.pt)
+* ...
+
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -20,7 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [37.252.5.133](https://vuldb.com/?ip.37.252.5.133) | - | - | High
 2 | [37.252.9.123](https://vuldb.com/?ip.37.252.9.123) | gw.r-service.info | - | High
-3 | [185.238.169.57](https://vuldb.com/?ip.185.238.169.57) | - | - | High
+3 | [80.79.124.135](https://vuldb.com/?ip.80.79.124.135) | 80.79.124.135.wavecom.ee | - | High
+4 | ... | ... | ... | ...
+
+There are 5 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,11 +35,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,12 +47,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `asm/preproc.c` | High
-2 | File | `listpics.asp` | Medium
-3 | File | `wc/store/products/collection-data?calculate_attribute_counts[][taxonomy]` | High
-4 | ... | ... | ...
+1 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+2 | File | `/etc/gsissh/sshd_config` | High
+3 | File | `/goform/WifiBasicSet` | High
+4 | File | `/login/index.php` | High
+5 | File | `/out.php` | Medium
+6 | File | `/spip.php` | Medium
+7 | File | `/web/IndexController.java` | High
+8 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -54,6 +64,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://lab52.io/blog/winter-vivern-all-summer/
 * https://www.domaintools.com/resources/blog/winter-vivern-a-look-at-re-crafted-government-maldocs
+* https://www.sentinelone.com/labs/winter-vivern-uncovering-a-wave-of-global-espionage/
 
 ## Literature
 
