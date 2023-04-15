@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BG](https://vuldb.com/?country.bg)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -40,7 +40,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -55,28 +55,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `//` | Low
-3 | File | `/admin/doctors/view_doctor.php` | High
-4 | File | `/appliance/users?action=edit` | High
-5 | File | `/backup.pl` | Medium
-6 | File | `/bin/boa` | Medium
-7 | File | `/classes/Master.php?f=delete_reservation` | High
-8 | File | `/config/getuser` | High
-9 | File | `/data-service/users/` | High
-10 | File | `/IISADMPWD` | Medium
-11 | File | `/inc/campaign/count_of_send.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/js/app.js` | Medium
-14 | File | `/login` | Low
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/northstar/Portal/processlogin.jsp` | High
-17 | File | `/public/plugins/` | High
-18 | File | `/rdms/admin/?page=user/manage_user` | High
-19 | File | `/registration.php` | High
-20 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-21 | ... | ... | ...
+2 | File | `/+CSCOE+/logon.html` | High
+3 | File | `//` | Low
+4 | File | `/admin/doctors/view_doctor.php` | High
+5 | File | `/appliance/users?action=edit` | High
+6 | File | `/backup.pl` | Medium
+7 | File | `/bin/boa` | Medium
+8 | File | `/classes/Master.php?f=delete_reservation` | High
+9 | File | `/config/getuser` | High
+10 | File | `/data-service/users/` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/goform/formWPS` | High
+13 | File | `/IISADMPWD` | Medium
+14 | File | `/inc/campaign/count_of_send.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/js/app.js` | Medium
+17 | File | `/login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/northstar/Portal/processlogin.jsp` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rdms/admin/?page=user/manage_user` | High
+22 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

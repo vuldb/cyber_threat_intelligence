@@ -82,33 +82,33 @@ ID | Type | Indicator | Confidence
 4 | File | `/aya/module/admin/fst_down.inc.php` | High
 5 | File | `/boat/login.php` | High
 6 | File | `/bsms_ci/index.php/user/edit_user/` | High
-7 | File | `/cgi-bin/login.cgi` | High
-8 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-9 | File | `/cgi-bin/R14.2/log.pl` | High
-10 | File | `/componetns/user/class.user.php` | High
-11 | File | `/etc/tomcat8/Catalina/attack` | High
-12 | File | `/FormLogin` | Medium
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/wizard_end` | High
-15 | File | `/ims/login.php` | High
-16 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+8 | File | `/cgi-bin/R14.2/log.pl` | High
+9 | File | `/config/api/v1/reboot` | High
+10 | File | `/etc/tomcat8/Catalina/attack` | High
+11 | File | `/FormLogin` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/wizard_end` | High
+14 | File | `/ims/login.php` | High
+15 | File | `/mhds/clinic/view_details.php` | High
+16 | File | `/modules/profile/index.php` | High
 17 | File | `/nova/bin/detnet` | High
 18 | File | `/out.php` | Medium
 19 | File | `/php-opos/index.php` | High
 20 | File | `/plugin` | Low
-21 | File | `/rest/api/latest/projectvalidate/key` | High
-22 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-23 | File | `/ServletAPI/accounts/login` | High
-24 | File | `/tourism/rate_review.php` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-27 | File | `/var/www/core/controller/index.php` | High
-28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `action-visitor.php` | High
+21 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+22 | File | `/shell` | Low
+23 | File | `/tourism/rate_review.php` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+26 | File | `/var/www/core/controller/index.php` | High
+27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `action-visitor.php` | High
+30 | File | `action.php` | Medium
 31 | ... | ... | ...
 
-There are 263 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

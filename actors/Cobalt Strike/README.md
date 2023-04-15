@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cobalt Strike:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,7 +72,8 @@ ID | IP address | Hostname | Campaign | Confidence
 49 | [45.66.158.14](https://vuldb.com/?ip.45.66.158.14) | 14.158-66-45.rdns.scalabledns.com | - | High
 50 | [45.84.0.116](https://vuldb.com/?ip.45.84.0.116) | n5336.md | - | High
 51 | [45.134.26.174](https://vuldb.com/?ip.45.134.26.174) | - | - | High
-52 | ... | ... | ... | ...
+52 | [45.140.146.30](https://vuldb.com/?ip.45.140.146.30) | vm582590.stark-industries.solutions | - | High
+53 | ... | ... | ... | ...
 
 There are 206 more IOC items available. Please use our online service to access the data.
 
@@ -82,10 +83,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -97,48 +98,54 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin` | Low
-2 | File | `/admin/` | Low
-3 | File | `/admin/patient.php` | High
-4 | File | `/APR/login.php` | High
-5 | File | `/APR/signup.php` | High
-6 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/churchcrm/EventAttendance.php` | High
-10 | File | `/DXR.axd` | Medium
-11 | File | `/filemanager/php/connector.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/HNAP1/SetClientInfo` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/mims/login.php` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/php-scrm/login.php` | High
-18 | File | `/plain` | Low
-19 | File | `/public/launchNewWindow.jsp` | High
-20 | File | `/rukovoditel/index.php?module=users/login` | High
-21 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-22 | File | `/static/ueditor/php/controller.php` | High
-23 | File | `/textpattern/index.php` | High
-24 | File | `/tmp` | Low
-25 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/wp-admin/options.php` | High
-28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-29 | File | `account/signup.php` | High
-30 | File | `Acl.asp` | Low
-31 | File | `activenews_view.asp` | High
-32 | File | `adclick.php` | Medium
-33 | File | `addentry.php` | Medium
-34 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/admin_editor.php` | High
-37 | File | `admin/TemplateController.java` | High
-38 | File | `admincp.php` | Medium
-39 | File | `adminer.php` | Medium
-40 | File | `affich.php` | Medium
-41 | ... | ... | ...
+2 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/cashadvance_row.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/patient.php` | High
+7 | File | `/api/gen/clients/{language}` | High
+8 | File | `/APR/login.php` | High
+9 | File | `/APR/signup.php` | High
+10 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/churchcrm/EventAttendance.php` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/HNAP1` | Low
+18 | File | `/HNAP1/SetClientInfo` | High
+19 | File | `/licenses` | Medium
+20 | File | `/mhds/clinic/view_details.php` | High
+21 | File | `/mims/login.php` | High
+22 | File | `/modules/projects/vw_files.php` | High
+23 | File | `/plain` | Low
+24 | File | `/public/launchNewWindow.jsp` | High
+25 | File | `/rukovoditel/index.php?module=users/login` | High
+26 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+27 | File | `/static/ueditor/php/controller.php` | High
+28 | File | `/textpattern/index.php` | High
+29 | File | `/tmp` | Low
+30 | File | `/user/updatePwd` | High
+31 | File | `/v1/tokens` | Medium
+32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-admin/options.php` | High
+35 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+36 | File | `account/signup.php` | High
+37 | File | `Acl.asp` | Low
+38 | File | `activenews_view.asp` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+42 | File | `admin-ajax.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin/admin_editor.php` | High
+45 | File | `admin/edit_category.php` | High
+46 | File | `admin/operations/currency.php` | High
+47 | ... | ... | ...
 
-There are 351 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -225,6 +232,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.trendmicro.com/de_de/research/22/e/patch-your-wso2-cve-2022-29464-exploited-to-install-linux-compatible-cobalt-strike-beacons-other-malware.html
 * https://www.trendmicro.com/de_de/research/22/i/play-ransomware-s-attack-playbook-unmasks-it-as-another-hive-aff.html
 * https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
+* https://www.zscaler.com/blogs/security-research/warhawk-new-backdoor-arsenal-sidewinder-apt-group-0
 
 ## Literature
 

@@ -32,8 +32,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -48,40 +48,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/patient.php` | High
-3 | File | `/as/authorization.oauth2` | High
-4 | File | `/blogengine/api/posts` | High
-5 | File | `/cgi-bin/api-get_line_status` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/nobody/VerifyCode.cgi` | High
-8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-9 | File | `/cgi-bin/upload_vpntar` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/Content/Template/root/reverse-shell.aspx` | High
-12 | File | `/DXR.axd` | Medium
-13 | File | `/export` | Low
-14 | File | `/filemanager/php/connector.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/login/index.php` | High
-17 | File | `/modules/projects/vw_files.php` | High
-18 | File | `/obs/book.php` | High
-19 | File | `/products/view_product.php` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/rukovoditel/index.php?module=users/login` | High
-22 | File | `/secure/QueryComponent!Default.jspa` | High
-23 | File | `/shell` | Low
-24 | File | `/spip.php` | Medium
-25 | File | `/uncpath/` | Medium
-26 | File | `/usr/bin/tddp` | High
-27 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-28 | File | `/wp-admin/admin-ajax.php` | High
-29 | File | `/wp-admin/options.php` | High
-30 | File | `/wp-json/wc/v3/webhooks` | High
-31 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-32 | File | `adclick.php` | Medium
-33 | ... | ... | ...
+2 | File | `/?p=products` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+5 | File | `/admin/cashadvance_row.php` | High
+6 | File | `/admin/login.php` | High
+7 | File | `/admin/patient.php` | High
+8 | File | `/api/admin/store/product/list` | High
+9 | File | `/as/authorization.oauth2` | High
+10 | File | `/cgi-bin/luci/api/auth` | High
+11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/churchcrm/EventAttendance.php` | High
+14 | File | `/DXR.axd` | Medium
+15 | File | `/filemanager/php/connector.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/licenses` | Medium
+18 | File | `/mhds/clinic/view_details.php` | High
+19 | File | `/modules/projects/vw_files.php` | High
+20 | File | `/plain` | Low
+21 | File | `/public/launchNewWindow.jsp` | High
+22 | File | `/public/login.htm` | High
+23 | File | `/rukovoditel/index.php?module=users/login` | High
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/shell` | Low
+26 | File | `/spip.php` | Medium
+27 | File | `/static/ueditor/php/controller.php` | High
+28 | File | `/v1/tokens` | Medium
+29 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
+30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `/wp-admin/options.php` | High
+33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin-ajax.php` | High
+37 | File | `admin.php` | Medium
+38 | ... | ... | ...
 
-There are 284 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

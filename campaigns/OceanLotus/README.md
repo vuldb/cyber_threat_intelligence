@@ -78,12 +78,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `admin/languages.php` | High
-3 | File | `ext/date/lib/parse_date.c` | High
+1 | File | `/app/controller/Books.php` | High
+2 | File | `/uncpath/` | Medium
+3 | File | `admin/ajax.attachment.php` | High
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

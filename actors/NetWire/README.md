@@ -95,33 +95,33 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/` | Low
 7 | File | `/Admin/add-student.php` | High
 8 | File | `/admin/communitymanagement.php` | High
-9 | File | `/admin/contenttemp` | High
-10 | File | `/admin/extended` | High
-11 | File | `/admin/featured.php` | High
-12 | File | `/admin/generalsettings.php` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/newsletter1.php` | High
-15 | File | `/admin/payment.php` | High
-16 | File | `/admin/settings/save.php` | High
-17 | File | `/admin/students/manage.php` | High
-18 | File | `/admin/students/view_student.php` | High
-19 | File | `/admin/usermanagement.php` | High
-20 | File | `/api/addusers` | High
-21 | File | `/api/crontab` | Medium
-22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/api/user/upsert/<uuid>` | High
-24 | File | `/appliance/users?action=edit` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/backup.pl` | Medium
-27 | File | `/cgi-bin/webviewer_login_page` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/dashboard/updatelogo.php` | High
-30 | File | `/designer/add/layout` | High
-31 | File | `/edoc/doctor/patient.php` | High
-32 | File | `/etc/ldap.conf` | High
-33 | File | `/etc/shadow` | Medium
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/goform/addUserName` | High
+9 | File | `/admin/extended` | High
+10 | File | `/admin/featured.php` | High
+11 | File | `/admin/generalsettings.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/newsletter1.php` | High
+14 | File | `/admin/payment.php` | High
+15 | File | `/admin/settings/save.php` | High
+16 | File | `/admin/students/manage.php` | High
+17 | File | `/admin/students/view_student.php` | High
+18 | File | `/admin/usermanagement.php` | High
+19 | File | `/api/addusers` | High
+20 | File | `/api/RecordingList/DownloadRecord?file=` | High
+21 | File | `/api/user/upsert/<uuid>` | High
+22 | File | `/appliance/users?action=edit` | High
+23 | File | `/apply.cgi` | Medium
+24 | File | `/backup.pl` | Medium
+25 | File | `/cgi-bin/webviewer_login_page` | High
+26 | File | `/cgi-bin/wlogin.cgi` | High
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/dashboard/updatelogo.php` | High
+29 | File | `/designer/add/layout` | High
+30 | File | `/edoc/doctor/patient.php` | High
+31 | File | `/etc/ldap.conf` | High
+32 | File | `/etc/shadow` | Medium
+33 | File | `/filemanager/upload/drop` | High
+34 | File | `/goform/addUserName` | High
+35 | File | `/goform/aspForm` | High
 36 | File | `/goform/delAd` | High
 37 | File | `/goform/wifiSSIDset` | High
 38 | File | `/gpac/src/bifs/unquantize.c` | High
@@ -139,10 +139,9 @@ ID | Type | Indicator | Confidence
 50 | File | `/Moosikay/order.php` | High
 51 | File | `/Noxen-master/users.php` | High
 52 | File | `/opac/Actions.php?a=login` | High
-53 | File | `/pages/animals.php` | High
-54 | ... | ... | ...
+53 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

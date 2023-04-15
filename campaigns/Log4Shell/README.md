@@ -114,42 +114,42 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/ajax.php?action=delete_uploads` | High
 2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/api/baskets/{name}` | High
-4 | File | `/app/dao/CustomerDAO.php` | High
-5 | File | `/apply.cgi` | Medium
-6 | File | `/cgi-bin/mainfunction.cgi` | High
-7 | File | `/config/api/v1/reboot` | High
-8 | File | `/etc/shadow` | Medium
-9 | File | `/food` | Low
-10 | File | `/forum/away.php` | High
-11 | File | `/forum/PostPrivateMessage` | High
-12 | File | `/forums.php?action=post` | High
-13 | File | `/fos/admin/ajax.php?action=login` | High
-14 | File | `/fos/admin/index.php?page=menu` | High
-15 | File | `/hss/admin/?page=client/manage_client` | High
-16 | File | `/hss/classes/Users.php?f=delete` | High
-17 | File | `/index/user/user_edit.html` | High
-18 | File | `/login/index.php` | High
-19 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/param.file.tgz` | High
-22 | File | `/rest/api/2/user/picker` | High
-23 | File | `/royal_event/userregister.php` | High
-24 | File | `/rrdp` | Low
-25 | File | `/Session` | Medium
-26 | File | `/setNTP.cgi` | Medium
-27 | File | `/tpts/manage_user.php` | High
-28 | File | `/u/username.json` | High
-29 | File | `/user/s.php` | Medium
-30 | File | `/user/updatePwd` | High
-31 | File | `/usr/etc/restore0.9` | High
-32 | File | `/VerAyari` | Medium
-33 | File | `/wireless/guestnetwork.asp` | High
-34 | File | `/zm/index.php` | High
-35 | File | `01article.php` | High
+3 | File | `/admin/configurations/userInfo` | High
+4 | File | `/api/baskets/{name}` | High
+5 | File | `/app/dao/CustomerDAO.php` | High
+6 | File | `/apply.cgi` | Medium
+7 | File | `/cgi-bin/mainfunction.cgi` | High
+8 | File | `/config/api/v1/reboot` | High
+9 | File | `/etc/shadow` | Medium
+10 | File | `/food` | Low
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/forums.php?action=post` | High
+14 | File | `/fos/admin/ajax.php?action=login` | High
+15 | File | `/fos/admin/index.php?page=menu` | High
+16 | File | `/hss/admin/?page=client/manage_client` | High
+17 | File | `/hss/classes/Users.php?f=delete` | High
+18 | File | `/index/user/user_edit.html` | High
+19 | File | `/login/index.php` | High
+20 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/param.file.tgz` | High
+23 | File | `/rest/api/2/user/picker` | High
+24 | File | `/royal_event/userregister.php` | High
+25 | File | `/rrdp` | Low
+26 | File | `/Session` | Medium
+27 | File | `/setNTP.cgi` | Medium
+28 | File | `/tpts/manage_user.php` | High
+29 | File | `/u/username.json` | High
+30 | File | `/user/s.php` | Medium
+31 | File | `/user/updatePwd` | High
+32 | File | `/usr/etc/restore0.9` | High
+33 | File | `/VerAyari` | Medium
+34 | File | `/wireless/guestnetwork.asp` | High
+35 | File | `/zm/index.php` | High
 36 | ... | ... | ...
 
-There are 306 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

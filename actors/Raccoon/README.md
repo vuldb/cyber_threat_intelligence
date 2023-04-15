@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +29,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [8.249.245.254](https://vuldb.com/?ip.8.249.245.254) | - | - | High
 7 | [8.253.132.120](https://vuldb.com/?ip.8.253.132.120) | - | - | High
 8 | [8.253.156.120](https://vuldb.com/?ip.8.253.156.120) | - | - | High
-9 | ... | ... | ... | ...
+9 | [18.238.4.79](https://vuldb.com/?ip.18.238.4.79) | server-18-238-4-79.phl51.r.cloudfront.net | - | High
+10 | ... | ... | ... | ...
 
-There are 34 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,35 +58,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/ajax-files/followBoard.php` | High
 3 | File | `/ajax-files/postComment.php` | High
 4 | File | `/api/RecordingList/DownloadRecord?file=` | High
-5 | File | `/categorypage.php` | High
-6 | File | `/cgi-bin/kerbynet` | High
-7 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-8 | File | `/domain/add` | Medium
-9 | File | `/etc/sudoers` | Medium
-10 | File | `/home.php` | Medium
-11 | File | `/index.php/weblinks-categories` | High
-12 | File | `/plain` | Low
-13 | File | `/rapi/read_url` | High
-14 | File | `/searchpin.php` | High
-15 | File | `/show_group_members.php` | High
-16 | File | `/soap/server_sa` | High
-17 | File | `/TemplateManager/indexExternalLocation.jsp` | High
-18 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
-19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-20 | File | `/web/google_analytics.php` | High
-21 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-22 | File | `account_change.php` | High
-23 | File | `addentry.php` | Medium
-24 | File | `admin/scripts/FileUploader/php.php` | High
-25 | File | `AdminByRequest.exe` | High
-26 | File | `admincp.php?app=prop&do=add` | High
-27 | File | `advsearch.php` | High
-28 | File | `append/override_content_security_policy_directives` | High
-29 | File | `archive_endian.h` | High
-30 | File | `assets/add/dns.php` | High
-31 | ... | ... | ...
+5 | File | `/apply.cgi` | Medium
+6 | File | `/categorypage.php` | High
+7 | File | `/cgi-bin/kerbynet` | High
+8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+9 | File | `/domain/add` | Medium
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/home.php` | Medium
+12 | File | `/index.php/weblinks-categories` | High
+13 | File | `/plain` | Low
+14 | File | `/rapi/read_url` | High
+15 | File | `/searchpin.php` | High
+16 | File | `/show_group_members.php` | High
+17 | File | `/soap/server_sa` | High
+18 | File | `/TemplateManager/indexExternalLocation.jsp` | High
+19 | File | `/usr/local/etc/config/addons/mh/loopupd.sh` | High
+20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+21 | File | `/web/google_analytics.php` | High
+22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+23 | File | `account_change.php` | High
+24 | File | `addentry.php` | Medium
+25 | File | `admin/disapprove_user.php` | High
+26 | File | `admin/scripts/FileUploader/php.php` | High
+27 | File | `AdminByRequest.exe` | High
+28 | File | `admincp.php?app=prop&do=add` | High
+29 | File | `advsearch.php` | High
+30 | File | `append/override_content_security_policy_directives` | High
+31 | File | `appserv/main.php` | High
+32 | ... | ... | ...
 
-There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -94,7 +96,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.group-ib.com/fakesecurity_raccoon
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1203-1210.html
+* https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://blogs.blackberry.com/en/2021/08/threat-spotlight-lockbit-2-0-ransomware-takes-on-top-consulting-firm
+* https://www.zscaler.com/blogs/security-research/raccoon-stealer-v2-latest-generation-raccoon-family
 
 ## Literature
 

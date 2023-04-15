@@ -50,16 +50,17 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
 3 | File | `/apply.cgi` | Medium
-4 | File | `/spip.php` | Medium
-5 | File | `/usr/bin/pkexec` | High
-6 | File | `admin.jcomments.php` | High
-7 | File | `admin/file-manager/attachments` | High
-8 | File | `application/modules/admin/views/ecommerce/products.php` | High
-9 | File | `apply.cgi` | Medium
-10 | File | `archivejson.cgi` | High
-11 | ... | ... | ...
+4 | File | `/owa/auth/logon.aspx` | High
+5 | File | `/spip.php` | Medium
+6 | File | `/usr/bin/pkexec` | High
+7 | File | `/zm/index.php` | High
+8 | File | `admin.jcomments.php` | High
+9 | File | `admin/file-manager/attachments` | High
+10 | File | `application/modules/admin/views/ecommerce/products.php` | High
+11 | File | `apply.cgi` | Medium
+12 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

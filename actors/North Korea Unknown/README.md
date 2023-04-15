@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.north_korea_unknown](https://vuldb.com/?actor.north_korea_unknown)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with North Korea Unknown:
+
+* H0lyGh0st
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with North Korea Unknown:
@@ -27,7 +33,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.12.71.122](https://vuldb.com/?ip.45.12.71.122) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 18 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,12 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,57 +55,65 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/addemployee.php` | High
-2 | File | `/apilog.php` | Medium
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/drivers/media/media-device.c` | High
-6 | File | `/filemanager/upload.php` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/getcfg.php` | Medium
-9 | File | `/home.php` | Medium
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/p` | Low
-12 | File | `/preauth` | Medium
-13 | File | `/products/details.asp` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/show_news.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/updownload/t.report` | High
-19 | File | `/user.profile.php` | High
-20 | File | `/var/log/nginx` | High
-21 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-23 | File | `/wp-admin` | Medium
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `adclick.php` | Medium
-26 | File | `adm/systools.asp` | High
-27 | File | `admin` | Low
-28 | File | `admin/adminsignin.html` | High
-29 | File | `admin/category.inc.php` | High
-30 | File | `admin/main.asp` | High
-31 | File | `admin/movieview.php` | High
-32 | File | `admin/versions.html` | High
-33 | File | `admin/y_admin.asp` | High
-34 | File | `adminer.php` | Medium
-35 | File | `administrator/components/com_media/helpers/media.php` | High
-36 | File | `admin_ok.asp` | Medium
-37 | File | `app/Core/Paginator.php` | High
-38 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-39 | File | `attendancy.php` | High
-40 | File | `auth-gss2.c` | Medium
-41 | File | `auth.php` | Medium
-42 | File | `bin/named/query.c` | High
-43 | ... | ... | ...
+1 | File | `/admin.php?page=batch_manager&mode=unit` | High
+2 | File | `/admin/addemployee.php` | High
+3 | File | `/apilog.php` | Medium
+4 | File | `/APP_Installation.asp` | High
+5 | File | `/categorypage.php` | High
+6 | File | `/drivers/media/media-device.c` | High
+7 | File | `/filemanager/upload.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/getcfg.php` | Medium
+10 | File | `/goform/aspForm` | High
+11 | File | `/home.php` | Medium
+12 | File | `/mifs/c/i/reg/reg.html` | High
+13 | File | `/omps/seller` | Medium
+14 | File | `/p` | Low
+15 | File | `/php/passport/index.php` | High
+16 | File | `/preauth` | Medium
+17 | File | `/products/details.asp` | High
+18 | File | `/replication` | Medium
+19 | File | `/see_more_details.php` | High
+20 | File | `/settings` | Medium
+21 | File | `/show_news.php` | High
+22 | File | `/spip.php` | Medium
+23 | File | `/staff/tools/custom-fields` | High
+24 | File | `/strings/ctype-latin1.c` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/updownload/t.report` | High
+27 | File | `/user.profile.php` | High
+28 | File | `/var/log/nginx` | High
+29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+30 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+31 | File | `/Wedding-Management/admin/client_manage_account_details.php?booking_id=31` | High
+32 | File | `/wp-admin` | Medium
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `adclick.php` | Medium
+35 | File | `adm/systools.asp` | High
+36 | File | `admin` | Low
+37 | File | `admin/adminsignin.html` | High
+38 | File | `admin/category.inc.php` | High
+39 | File | `admin/editproductetails.php` | High
+40 | File | `admin/main.asp` | High
+41 | File | `admin/movieview.php` | High
+42 | File | `admin/versions.html` | High
+43 | File | `admin/y_admin.asp` | High
+44 | File | `adminer.php` | Medium
+45 | File | `administrator/components/com_media/helpers/media.php` | High
+46 | File | `admin_ok.asp` | Medium
+47 | File | `app/Core/Paginator.php` | High
+48 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+49 | File | `attendancy.php` | High
+50 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kp.netset
+* https://www.microsoft.com/en-us/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/
 
 ## Literature
 

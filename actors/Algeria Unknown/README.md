@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -68,67 +68,70 @@ ID | Type | Indicator | Confidence
 1 | File | `.github/workflows/combine-prs.yml` | High
 2 | File | `.htaccess` | Medium
 3 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/api/admin/articles/` | High
-7 | File | `/Admin/login.php` | High
-8 | File | `/admin/showbad.php` | High
-9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/apilog.php` | Medium
-12 | File | `/appliance/users?action=edit` | High
-13 | File | `/APR/login.php` | High
-14 | File | `/bin/httpd` | Medium
-15 | File | `/cgi-bin/wapopen` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/connectors/index.php` | High
-18 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-19 | File | `/dev/block/mmcblk0rpmb` | High
-20 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-21 | File | `/etc/default` | Medium
-22 | File | `/face-recognition-php/facepay-master/camera.php` | High
-23 | File | `/footer.inc.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/fos/admin/ajax.php?action=login` | High
-26 | File | `/fos/admin/index.php?page=menu` | High
-27 | File | `/home/masterConsole` | High
-28 | File | `/home/sendBroadcast` | High
-29 | File | `/hrm/employeeadd.php` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/items/view_item.php` | High
-33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-34 | File | `/lookin/info` | Medium
-35 | File | `/manager/index.php` | High
-36 | File | `/medical/inventories.php` | High
-37 | File | `/modules/profile/index.php` | High
-38 | File | `/modules/projects/vw_files.php` | High
-39 | File | `/modules/public/calendar.php` | High
-40 | File | `/mygym/admin/index.php?view_exercises` | High
-41 | File | `/newsDia.php` | Medium
-42 | File | `/out.php` | Medium
-43 | File | `/php-opos/index.php` | High
-44 | File | `/proxy` | Low
-45 | File | `/public/launchNewWindow.jsp` | High
-46 | File | `/Redcock-Farm/farm/category.php` | High
-47 | File | `/reports/rwservlet` | High
-48 | File | `/sacco_shield/manage_user.php` | High
-49 | File | `/spip.php` | Medium
-50 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-51 | File | `/staff/bookdetails.php` | High
-52 | File | `/uncpath/` | Medium
-53 | File | `/user/update_booking.php` | High
-54 | File | `/usr/bin/at` | Medium
-55 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-56 | File | `/wireless/security.asp` | High
-57 | File | `/wordpress/wp-admin/options-general.php` | High
-58 | File | `01article.php` | High
-59 | File | `AbstractScheduleJob.java` | High
-60 | File | `actionphp/download.File.php` | High
-61 | File | `activenews_view.asp` | High
-62 | ... | ... | ...
+4 | File | `/adfs/ls` | Medium
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/addemployee.php` | High
+7 | File | `/admin/api/admin/articles/` | High
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/showbad.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/apilog.php` | Medium
+13 | File | `/appliance/users?action=edit` | High
+14 | File | `/APR/login.php` | High
+15 | File | `/bin/httpd` | Medium
+16 | File | `/cgi-bin/wapopen` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/connectors/index.php` | High
+19 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+20 | File | `/dev/block/mmcblk0rpmb` | High
+21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+22 | File | `/etc/default` | Medium
+23 | File | `/face-recognition-php/facepay-master/camera.php` | High
+24 | File | `/footer.inc.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/fos/admin/ajax.php?action=login` | High
+27 | File | `/fos/admin/index.php?page=menu` | High
+28 | File | `/home/masterConsole` | High
+29 | File | `/home/sendBroadcast` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/items/view_item.php` | High
+34 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+35 | File | `/lookin/info` | Medium
+36 | File | `/manager/index.php` | High
+37 | File | `/medical/inventories.php` | High
+38 | File | `/modules/profile/index.php` | High
+39 | File | `/modules/projects/vw_files.php` | High
+40 | File | `/modules/public/calendar.php` | High
+41 | File | `/mygym/admin/index.php?view_exercises` | High
+42 | File | `/newsDia.php` | Medium
+43 | File | `/out.php` | Medium
+44 | File | `/php-opos/index.php` | High
+45 | File | `/proxy` | Low
+46 | File | `/public/launchNewWindow.jsp` | High
+47 | File | `/Redcock-Farm/farm/category.php` | High
+48 | File | `/reports/rwservlet` | High
+49 | File | `/sacco_shield/manage_user.php` | High
+50 | File | `/spip.php` | Medium
+51 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
+52 | File | `/staff/bookdetails.php` | High
+53 | File | `/uncpath/` | Medium
+54 | File | `/user/update_booking.php` | High
+55 | File | `/usr/bin/at` | Medium
+56 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
+57 | File | `/wireless/security.asp` | High
+58 | File | `/wordpress/wp-admin/options-general.php` | High
+59 | File | `01article.php` | High
+60 | File | `AbstractScheduleJob.java` | High
+61 | File | `actionphp/download.File.php` | High
+62 | File | `activenews_view.asp` | High
+63 | File | `adclick.php` | Medium
+64 | File | `addtocart.asp` | High
+65 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

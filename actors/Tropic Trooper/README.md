@@ -85,7 +85,8 @@ ID | Type | Indicator | Confidence
 15 | File | `/onvif/device_service` | High
 16 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 17 | File | `/uncpath/` | Medium
-18 | ... | ... | ...
+18 | File | `ActiveMediaServer.exe` | High
+19 | ... | ... | ...
 
 There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [NL](https://vuldb.com/?country.nl)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -167,8 +167,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -187,43 +187,45 @@ ID | Type | Indicator | Confidence
 3 | File | `//` | Low
 4 | File | `/?ajax-request=jnews` | High
 5 | File | `/admin` | Low
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/patient.php` | High
-8 | File | `/api/jmeter/download/files` | High
-9 | File | `/api/upload` | Medium
-10 | File | `/api/v1/attack/falco` | High
-11 | File | `/APR/login.php` | High
-12 | File | `/as/authorization.oauth2` | High
-13 | File | `/backup.pl` | Medium
-14 | File | `/cgi-bin/luci/api/auth` | High
-15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/churchcrm/EventAttendance.php` | High
-18 | File | `/DXR.axd` | Medium
-19 | File | `/edoc/doctor/patient.php` | High
-20 | File | `/filemanager/php/connector.php` | High
-21 | File | `/files/import` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/j_security_check` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/modules/projects/vw_files.php` | High
-27 | File | `/Moosikay/order.php` | High
-28 | File | `/out.php` | Medium
-29 | File | `/php-scrm/login.php` | High
-30 | File | `/plain` | Low
-31 | File | `/public/launchNewWindow.jsp` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-34 | File | `/rukovoditel/index.php?module=users/login` | High
-35 | File | `/static/ueditor/php/controller.php` | High
-36 | File | `/tmp/boa-temp` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/wp-admin/admin-ajax.php` | High
-39 | File | `/wp-admin/options.php` | High
-40 | ... | ... | ...
+6 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/patient.php` | High
+9 | File | `/api/jmeter/download/files` | High
+10 | File | `/api/upload` | Medium
+11 | File | `/api/v1/attack/falco` | High
+12 | File | `/APR/login.php` | High
+13 | File | `/as/authorization.oauth2` | High
+14 | File | `/backup.pl` | Medium
+15 | File | `/cgi-bin/luci/api/auth` | High
+16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/churchcrm/EventAttendance.php` | High
+19 | File | `/DXR.axd` | Medium
+20 | File | `/edoc/doctor/patient.php` | High
+21 | File | `/filemanager/php/connector.php` | High
+22 | File | `/files/import` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/j_security_check` | High
+25 | File | `/librarian/bookdetails.php` | High
+26 | File | `/licenses` | Medium
+27 | File | `/mhds/clinic/view_details.php` | High
+28 | File | `/modules/projects/vw_files.php` | High
+29 | File | `/Moosikay/order.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/php-scrm/login.php` | High
+32 | File | `/plain` | Low
+33 | File | `/public/launchNewWindow.jsp` | High
+34 | File | `/reservation/add_message.php` | High
+35 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+36 | File | `/rukovoditel/index.php?module=users/login` | High
+37 | File | `/static/ueditor/php/controller.php` | High
+38 | File | `/tmp/boa-temp` | High
+39 | File | `/v1/tokens` | Medium
+40 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

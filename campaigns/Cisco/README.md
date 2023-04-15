@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -65,54 +65,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/files` | Medium
-3 | File | `/controller/Index.php` | High
-4 | File | `/etc/init0.d/S80telnetd.sh` | High
-5 | File | `/etc/raspap/hostapd/enablelog.sh` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/goform/aspForm` | High
-8 | File | `/index.php` | Medium
-9 | File | `/loginVaLidation.php` | High
-10 | File | `/mail/index.html` | High
-11 | File | `/mgmt/tm/util/bash` | High
-12 | File | `/modules/tasks/gantt.php` | High
-13 | File | `/mygym/admin/index.php` | High
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/psrs/admin/categories/manage_category.php` | High
-16 | File | `/release-x64/otfccdump+0x6b544e` | High
-17 | File | `/release-x64/otfccdump+0x6e41a8` | High
-18 | File | `/scenegraph/svg_attributes.c` | High
-19 | File | `/src/video/x11/SDL_x11yuv.c` | High
-20 | File | `/template/wapian/vlist.php` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-23 | File | `/wp-admin/admin-ajax.php` | High
-24 | File | `admin.color.php` | High
-25 | File | `admin.cropcanvas.php` | High
-26 | File | `admin.htm` | Medium
-27 | File | `admin.php` | Medium
-28 | File | `admin.remository.php` | High
-29 | File | `admin.webring.docs.php` | High
-30 | File | `admin/index.php` | High
-31 | File | `admin/index.php?n=databack&c=index&a=dogetsql&tables=<?php` | High
-32 | File | `admin/login.php` | High
-33 | File | `admincp/auth/checklogin.php` | High
-34 | File | `admincp/auth/secure.php` | High
-35 | File | `admin_login.asp` | High
-36 | File | `advsearch.php` | High
-37 | File | `affich.php` | Medium
-38 | File | `affiliates.php` | High
-39 | File | `akocomments.php` | High
-40 | File | `alarm.cc` | Medium
-41 | File | `album_portal.php` | High
-42 | File | `allopass-error.php` | High
-43 | File | `allopass.php` | Medium
-44 | File | `al_initialize.php` | High
-45 | File | `announce.php` | Medium
-46 | File | `apply.cgi` | Medium
-47 | ... | ... | ...
+2 | File | `/etc/init0.d/S80telnetd.sh` | High
+3 | File | `/etc/raspap/hostapd/enablelog.sh` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/goform/aspForm` | High
+6 | File | `/index.php` | Medium
+7 | File | `/loginVaLidation.php` | High
+8 | File | `/mail/index.html` | High
+9 | File | `/mygym/admin/index.php` | High
+10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+11 | File | `/psrs/admin/categories/manage_category.php` | High
+12 | File | `/release-x64/otfccdump+0x6b544e` | High
+13 | File | `/release-x64/otfccdump+0x6e41a8` | High
+14 | File | `/scenegraph/svg_attributes.c` | High
+15 | File | `/src/video/x11/SDL_x11yuv.c` | High
+16 | File | `/template/wapian/vlist.php` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+19 | File | `admin.color.php` | High
+20 | File | `admin.cropcanvas.php` | High
+21 | File | `admin.htm` | Medium
+22 | File | `admin.php` | Medium
+23 | File | `admin.remository.php` | High
+24 | File | `admin.webring.docs.php` | High
+25 | File | `admin/index.php` | High
+26 | File | `admin/index.php?n=databack&c=index&a=dogetsql&tables=<?php` | High
+27 | File | `admin/login.php` | High
+28 | File | `admincp/auth/checklogin.php` | High
+29 | File | `admincp/auth/secure.php` | High
+30 | File | `administrator.php` | High
+31 | File | `admin_login.asp` | High
+32 | File | `advsearch.php` | High
+33 | File | `affich.php` | Medium
+34 | File | `affiliates.php` | High
+35 | File | `akocomments.php` | High
+36 | File | `alarm.cc` | Medium
+37 | File | `album_portal.php` | High
+38 | File | `allopass-error.php` | High
+39 | File | `allopass.php` | Medium
+40 | File | `al_initialize.php` | High
+41 | File | `announce.php` | Medium
+42 | File | `apply.cgi` | Medium
+43 | File | `archive_read_support_format_rar.c` | High
+44 | File | `artlinks.dispnew.php` | High
+45 | File | `auction_details.php` | High
+46 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

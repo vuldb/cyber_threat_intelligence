@@ -919,7 +919,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -944,34 +944,33 @@ ID | Type | Indicator | Confidence
 15 | File | `/APR/login.php` | High
 16 | File | `/bin/httpd` | Medium
 17 | File | `/boat/login.php` | High
-18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/files/import` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/home/masterConsole` | High
-25 | File | `/home/sendBroadcast` | High
-26 | File | `/j_security_check` | High
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/Moosikay/order.php` | High
-29 | File | `/mygym/admin/index.php?view_exercises` | High
-30 | File | `/out.php` | Medium
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/param.file.tgz` | High
-33 | File | `/php-opos/index.php` | High
-34 | File | `/public/launchNewWindow.jsp` | High
-35 | File | `/reservation/add_message.php` | High
-36 | File | `/spip.php` | Medium
+18 | File | `/cgi-bin/DownloadFlash` | High
+19 | File | `/cgi-bin/wapopen` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/DXR.axd` | Medium
+23 | File | `/files/import` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/home/masterConsole` | High
+26 | File | `/home/sendBroadcast` | High
+27 | File | `/j_security_check` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/Moosikay/order.php` | High
+30 | File | `/mygym/admin/index.php?view_exercises` | High
+31 | File | `/out.php` | Medium
+32 | File | `/owa/auth/logon.aspx` | High
+33 | File | `/param.file.tgz` | High
+34 | File | `/php-opos/index.php` | High
+35 | File | `/public/launchNewWindow.jsp` | High
+36 | File | `/reservation/add_message.php` | High
 37 | File | `/tmp/boa-temp` | High
 38 | File | `/uncpath/` | Medium
-39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+39 | File | `/user/updatePwd` | High
 40 | File | `/video-sharing-script/watch-video.php` | High
 41 | File | `/wireless/security.asp` | High
-42 | File | `/wp-json` | Medium
-43 | ... | ... | ...
+42 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 359 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

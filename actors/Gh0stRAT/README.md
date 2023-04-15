@@ -133,27 +133,28 @@ ID | Type | Indicator | Confidence
 17 | File | `/forum/away.php` | High
 18 | File | `/forum/PostPrivateMessage` | High
 19 | File | `/goform/addressNat` | High
-20 | File | `/HNAP1/SetClientInfo` | High
-21 | File | `/home/www/cgi-bin/login.cgi` | High
-22 | File | `/js/player/dmplayer/dmku/index.php` | High
-23 | File | `/menu.html` | Medium
-24 | File | `/multi-vendor-shopping-script/product-list.php` | High
-25 | File | `/net-banking/customer_transactions.php` | High
-26 | File | `/obs/book.php` | High
-27 | File | `/orrs/admin/?page=user/manage_user` | High
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/pms/update_user.php?user_id=1` | High
-30 | File | `/requests.php` | High
-31 | File | `/resources//../` | High
-32 | File | `/secure/QueryComponent!Default.jspa` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-35 | File | `/subtitles.php` | High
-36 | File | `/sys/dict/queryTableData` | High
-37 | File | `/user/upload/upload` | High
-38 | ... | ... | ...
+20 | File | `/HNAP1` | Low
+21 | File | `/HNAP1/SetClientInfo` | High
+22 | File | `/home/www/cgi-bin/login.cgi` | High
+23 | File | `/js/player/dmplayer/dmku/index.php` | High
+24 | File | `/menu.html` | Medium
+25 | File | `/multi-vendor-shopping-script/product-list.php` | High
+26 | File | `/net-banking/customer_transactions.php` | High
+27 | File | `/obs/book.php` | High
+28 | File | `/orrs/admin/?page=user/manage_user` | High
+29 | File | `/ossn/administrator/com_installer` | High
+30 | File | `/pms/update_user.php?user_id=1` | High
+31 | File | `/requests.php` | High
+32 | File | `/resources//../` | High
+33 | File | `/secure/QueryComponent!Default.jspa` | High
+34 | File | `/spip.php` | Medium
+35 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+36 | File | `/subtitles.php` | High
+37 | File | `/sys/dict/queryTableData` | High
+38 | File | `/user/upload/upload` | High
+39 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

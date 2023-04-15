@@ -67,7 +67,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -83,34 +83,36 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
 4 | File | `/aya/module/admin/fst_down.inc.php` | High
-5 | File | `/componetns/user/class.user.php` | High
-6 | File | `/etc/tomcat8/Catalina/attack` | High
-7 | File | `/forum/away.php` | High
-8 | File | `/front/document.form.php` | High
-9 | File | `/goform/wizard_end` | High
-10 | File | `/ims/login.php` | High
-11 | File | `/include/chart_generator.php` | High
-12 | File | `/mhds/clinic/view_details.php` | High
-13 | File | `/out.php` | Medium
-14 | File | `/php-opos/index.php` | High
-15 | File | `/rest/api/latest/projectvalidate/key` | High
-16 | File | `/rest/collectors/1.0/template/custom` | High
-17 | File | `/search.php` | Medium
-18 | File | `/ServletAPI/accounts/login` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/user/login/oauth` | High
-21 | File | `/usr/bin/pkexec` | High
-22 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-23 | File | `/var/log/messages` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/websocket/exec` | High
-26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `/x_program_center/jaxrs/invoke` | High
-28 | File | `/zm/index.php` | High
+5 | File | `/boat/login.php` | High
+6 | File | `/bsms_ci/index.php/user/edit_user/` | High
+7 | File | `/componetns/user/class.user.php` | High
+8 | File | `/etc/tomcat8/Catalina/attack` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/wizard_end` | High
+11 | File | `/ims/login.php` | High
+12 | File | `/include/chart_generator.php` | High
+13 | File | `/mhds/clinic/view_details.php` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/out.php` | Medium
+16 | File | `/php-opos/index.php` | High
+17 | File | `/rest/api/latest/projectvalidate/key` | High
+18 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+19 | File | `/ServletAPI/accounts/login` | High
+20 | File | `/shell` | Low
+21 | File | `/tourism/rate_review.php` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+24 | File | `/var/log/messages` | High
+25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+26 | File | `/websocket/exec` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/x_program_center/jaxrs/invoke` | High
 29 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-30 | ... | ... | ...
+30 | File | `action-visitor.php` | High
+31 | File | `action.php` | Medium
+32 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CH](https://vuldb.com/?country.ch)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,46 +62,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/admin/ajax.php?action=delete_window` | High
-3 | File | `/admin/patient.php` | High
-4 | File | `/as/authorization.oauth2` | High
-5 | File | `/blogengine/api/posts` | High
-6 | File | `/cgi-bin/luci/api/auth` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/DXR.axd` | Medium
-10 | File | `/event/admin/?page=user/list` | High
-11 | File | `/filemanager/php/connector.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/fos/admin/ajax.php?action=login` | High
-14 | File | `/index/user/user_edit.html` | High
-15 | File | `/login/index.php` | High
+2 | File | `/admin` | Low
+3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+4 | File | `/admin/login.php` | High
+5 | File | `/admin/patient.php` | High
+6 | File | `/as/authorization.oauth2` | High
+7 | File | `/cgi-bin/luci/api/auth` | High
+8 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/churchcrm/EventAttendance.php` | High
+11 | File | `/DXR.axd` | Medium
+12 | File | `/filemanager/php/connector.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/licenses` | Medium
+15 | File | `/mhds/clinic/view_details.php` | High
 16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/products/view_product.php` | High
+17 | File | `/plain` | Low
 18 | File | `/proxy` | Low
-19 | File | `/public/login.htm` | High
-20 | File | `/rukovoditel/index.php?module=users/login` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/shell` | Low
-23 | File | `/spip.php` | Medium
-24 | File | `/usr/bin/tddp` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/wp-admin/options.php` | High
-27 | File | `/wp-json/wc/v3/webhooks` | High
-28 | File | `adclick.php` | Medium
-29 | File | `add_contestant.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/conf_users_edit.php` | High
-32 | File | `admin/import/class-import-settings.php` | High
-33 | File | `admin/manage_user.php` | High
-34 | File | `admin/page-login.php` | High
-35 | File | `admin/practice_pdf.php` | High
-36 | File | `admin/template/js/uploadify/uploadify.swf` | High
-37 | File | `administrator/components/com_joomgallery/views/config/tmpl/default.php` | High
-38 | File | `affich.php` | Medium
-39 | ... | ... | ...
+19 | File | `/public/launchNewWindow.jsp` | High
+20 | File | `/public/login.htm` | High
+21 | File | `/rukovoditel/index.php?module=users/login` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/shell` | Low
+24 | File | `/spip.php` | Medium
+25 | File | `/static/ueditor/php/controller.php` | High
+26 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `/wp-admin/options.php` | High
+29 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+30 | File | `adclick.php` | Medium
+31 | File | `admin-ajax.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/conf_users_edit.php` | High
+34 | File | `admin/practice_pdf.php` | High
+35 | File | `admin/template/js/uploadify/uploadify.swf` | High
+36 | File | `admincp.php` | Medium
+37 | ... | ... | ...
 
-There are 337 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

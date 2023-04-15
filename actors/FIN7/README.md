@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -130,43 +130,44 @@ ID | Type | Indicator | Confidence
 17 | File | `/boat/login.php` | High
 18 | File | `/bsms_ci/index.php/book` | High
 19 | File | `/cgi-bin/wapopen` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/dev/block/mmcblk0rpmb` | High
-22 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-23 | File | `/etc/hosts` | Medium
-24 | File | `/face-recognition-php/facepay-master/camera.php` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/fos/admin/ajax.php?action=login` | High
-27 | File | `/fos/admin/index.php?page=menu` | High
-28 | File | `/home/masterConsole` | High
-29 | File | `/home/sendBroadcast` | High
-30 | File | `/hrm/employeeadd.php` | High
-31 | File | `/hrm/employeeview.php` | High
-32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-33 | File | `/lookin/info` | Medium
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/mygym/admin/index.php?view_exercises` | High
-37 | File | `/php-opos/index.php` | High
-38 | File | `/proxy` | Low
-39 | File | `/public/launchNewWindow.jsp` | High
-40 | File | `/Redcock-Farm/farm/category.php` | High
-41 | File | `/reports/rwservlet` | High
-42 | File | `/reservation/add_message.php` | High
-43 | File | `/secure/QueryComponent!Default.jspa` | High
-44 | File | `/Session` | Medium
-45 | File | `/spip.php` | Medium
-46 | File | `/tmp` | Low
-47 | File | `/uncpath/` | Medium
-48 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-49 | File | `/video-sharing-script/watch-video.php` | High
-50 | File | `/wireless/security.asp` | High
-51 | File | `/xxl-job-admin/jobinfo` | High
-52 | File | `01article.php` | High
-53 | File | `AbstractScheduleJob.java` | High
-54 | ... | ... | ...
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/dev/block/mmcblk0rpmb` | High
+23 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+24 | File | `/etc/hosts` | Medium
+25 | File | `/face-recognition-php/facepay-master/camera.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/fos/admin/ajax.php?action=login` | High
+28 | File | `/fos/admin/index.php?page=menu` | High
+29 | File | `/home/masterConsole` | High
+30 | File | `/home/sendBroadcast` | High
+31 | File | `/hrm/employeeadd.php` | High
+32 | File | `/hrm/employeeview.php` | High
+33 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+34 | File | `/lookin/info` | Medium
+35 | File | `/medicines/profile.php` | High
+36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+37 | File | `/mygym/admin/index.php?view_exercises` | High
+38 | File | `/php-opos/index.php` | High
+39 | File | `/proxy` | Low
+40 | File | `/public/launchNewWindow.jsp` | High
+41 | File | `/Redcock-Farm/farm/category.php` | High
+42 | File | `/reports/rwservlet` | High
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/secure/QueryComponent!Default.jspa` | High
+45 | File | `/Session` | Medium
+46 | File | `/spip.php` | Medium
+47 | File | `/tmp` | Low
+48 | File | `/uncpath/` | Medium
+49 | File | `/user/updatePwd` | High
+50 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+51 | File | `/video-sharing-script/watch-video.php` | High
+52 | File | `/wbms/classes/Master.php?f=delete_client` | High
+53 | File | `/wireless/security.asp` | High
+54 | File | `/xxl-job-admin/jobinfo` | High
+55 | ... | ... | ...
 
-There are 467 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 480 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

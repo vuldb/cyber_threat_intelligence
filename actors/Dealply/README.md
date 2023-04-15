@@ -35,14 +35,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-24, CWE-25, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-27, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,52 +54,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/?r=report/api/getlist` | High
 3 | File | `/accessory/picdel.html` | High
 4 | File | `/admin` | Low
-5 | File | `/admin.php/appcenter/local.html?type=addon` | High
-6 | File | `/admin/?page=product/manage_product&id=2` | High
-7 | File | `/admin/assign/assign.php` | High
-8 | File | `/admin/casedetails.php` | High
-9 | File | `/admin/fields/manage_field.php` | High
-10 | File | `/admin/getallarticleinfo` | High
-11 | File | `/admin/info_deal.php` | High
-12 | File | `/admin/products/index.php` | High
-13 | File | `/admin/reports/index.php` | High
-14 | File | `/admin/robot/approval/list` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/admin_system/api.php` | High
-17 | File | `/alphaware/details.php` | High
-18 | File | `/analysisProject/pagingQueryData` | High
-19 | File | `/api/admin/store/product/list` | High
-20 | File | `/api/admin/store/product/save` | High
-21 | File | `/api/gen/clients/{language}` | High
-22 | File | `/api/upload` | Medium
-23 | File | `/articles/{id}` | High
-24 | File | `/batm/app/admin/standalone/deployments` | High
+5 | File | `/admin/?page=product/manage_product&id=2` | High
+6 | File | `/admin/?page=system_info` | High
+7 | File | `/admin/?page=user` | High
+8 | File | `/admin/admin.php` | High
+9 | File | `/admin/ajax.php?action=login` | High
+10 | File | `/admin/casedetails.php` | High
+11 | File | `/admin/categories/view_category.php` | High
+12 | File | `/admin/configurations/userInfo` | High
+13 | File | `/admin/fields/manage_field.php` | High
+14 | File | `/admin/forgot-password.php` | High
+15 | File | `/admin/info_deal.php` | High
+16 | File | `/admin/inventory/manage_stock.php` | High
+17 | File | `/admin/product/manage.php` | High
+18 | File | `/admin/products/index.php` | High
+19 | File | `/admin/template.php` | High
+20 | File | `/admin/transactions/track_shipment.php` | High
+21 | File | `/api/admin/store/product/list` | High
+22 | File | `/api/admin/store/product/save` | High
+23 | File | `/api/gen/clients/{language}` | High
+24 | File | `/articles/{id}` | High
 25 | File | `/bilal final/edit_stud.php` | High
 26 | File | `/bilal final/login.php` | High
-27 | File | `/bsenordering/index.php` | High
-28 | File | `/churchcrm/EventAttendance.php` | High
-29 | File | `/classes/Master.php?f=save_position` | High
-30 | File | `/common/sysFile/list` | High
-31 | File | `/config/general/` | High
-32 | File | `/database/sqldel.html` | High
-33 | File | `/dev/infiniband/rdma_cm` | High
-34 | File | `/ecommerce/admin/category/controller.php` | High
-35 | File | `/ecommerce/admin/settings/setDiscount.php` | High
-36 | File | `/ecommerce/admin/user/controller.php?action=edit` | High
-37 | File | `/feeds/post/publish` | High
-38 | File | `/files/list-file` | High
-39 | File | `/geoserver/rest/about/status` | High
-40 | File | `/goform/set_LimitClient_cfg` | High
-41 | File | `/group1/uploa` | High
-42 | File | `/NotrinosERP/sales/customer_delivery.php` | High
-43 | File | `/officer/assigncase.php` | High
-44 | File | `/plugins/focalboard/api/v2/users` | High
-45 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-46 | File | `/project/tasks/list` | High
-47 | File | `/setting/setWanIeCfg` | High
-48 | ... | ... | ...
+27 | File | `/churchcrm/EventAttendance.php` | High
+28 | File | `/classes/Master.php?f=delete_category` | High
+29 | File | `/classes/Master.php?f=delete_img` | High
+30 | File | `/classes/Master.php?f=delete_sub_category` | High
+31 | File | `/classes/Master.php?f=save_category` | High
+32 | File | `/classes/Master.php?f=save_position` | High
+33 | File | `/classes/Master.php?f=save_sub_category` | High
+34 | File | `/common/sysFile/list` | High
+35 | File | `/config/general/` | High
+36 | File | `/database/sqldel.html` | High
+37 | File | `/dev/infiniband/rdma_cm` | High
+38 | File | `/feeds/post/publish` | High
+39 | File | `/files/list-file` | High
+40 | File | `/geoserver/rest/about/status` | High
+41 | File | `/goform/set_LimitClient_cfg` | High
+42 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,15 +47,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-27 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,34 +68,34 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/ajax.php?action=save_queue` | High
 5 | File | `/admin/article_category.php` | High
 6 | File | `/admin/manage_user.php` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/classes/Master.php?f=delete_brand` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/config/api/v1/reboot` | High
-12 | File | `/ebics-server/ebics.aspx` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forums.php?action=post` | High
-15 | File | `/HNAP1/SetClientInfo` | High
-16 | File | `/home/cavesConsole` | High
-17 | File | `/home/kickPlayer` | High
-18 | File | `/home/masterConsole` | High
-19 | File | `/home/sendBroadcast` | High
-20 | File | `/hss/admin/?page=client/manage_client` | High
-21 | File | `/index.php` | Medium
-22 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-23 | File | `/login/index.php` | High
-24 | File | `/loginVaLidation.php` | High
-25 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-26 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-27 | File | `/resources//../` | High
-28 | File | `/setNTP.cgi` | Medium
-29 | File | `/sys/dict/queryTableData` | High
-30 | File | `/system/site.php` | High
-31 | File | `/tiki-importer.php` | High
+7 | File | `/alarm_pi/alarmService.php` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/apply.cgi` | Medium
+10 | File | `/bsms_ci/index.php/book` | High
+11 | File | `/classes/Master.php?f=delete_brand` | High
+12 | File | `/classes/Master.php?f=delete_category` | High
+13 | File | `/config/api/v1/reboot` | High
+14 | File | `/config/list` | Medium
+15 | File | `/ebics-server/ebics.aspx` | High
+16 | File | `/etc/shadow` | Medium
+17 | File | `/forums.php?action=post` | High
+18 | File | `/HNAP1` | Low
+19 | File | `/HNAP1/SetClientInfo` | High
+20 | File | `/home/cavesConsole` | High
+21 | File | `/home/kickPlayer` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/sendBroadcast` | High
+24 | File | `/hss/admin/?page=client/manage_client` | High
+25 | File | `/index.php` | Medium
+26 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
+27 | File | `/login/index.php` | High
+28 | File | `/loginVaLidation.php` | High
+29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+30 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+31 | File | `/resources//../` | High
 32 | ... | ... | ...
 
-There are 272 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

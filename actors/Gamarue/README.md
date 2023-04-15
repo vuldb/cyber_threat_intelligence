@@ -71,34 +71,35 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/config.php?display=disa&view=form` | High
 5 | File | `/admin/settings/sites/new` | High
 6 | File | `/ajax/networking/get_netcfg.php` | High
-7 | File | `/app/admin/nat/item-add-submit.php` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/config/netconf.cmd` | High
-10 | File | `/etc/config/image_sign` | High
-11 | File | `/folder/list` | Medium
-12 | File | `/forms/nslookupHandler` | High
-13 | File | `/group/comment` | High
-14 | File | `/lookin/info` | Medium
-15 | File | `/plugins/servlet/jira-blockers/` | High
-16 | File | `/ptipupgrade.cgi` | High
-17 | File | `/register.do` | Medium
-18 | File | `/sessions/sess_<sessionid>` | High
-19 | File | `/themes/<php_file_name>` | High
-20 | File | `/tmp/speedtest_urls.xml` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/upload` | Low
-23 | File | `/var/log/nginx` | High
-24 | File | `/wbg/core/_includes/authorization.inc.php` | High
-25 | File | `/wp-admin/admin.php` | High
-26 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-27 | File | `account.asp` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `admin-ajax.php` | High
-30 | File | `admin.php` | Medium
-31 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
-32 | ... | ... | ...
+7 | File | `/api/admin/store/product/save` | High
+8 | File | `/app/admin/nat/item-add-submit.php` | High
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/config/netconf.cmd` | High
+11 | File | `/etc/config/image_sign` | High
+12 | File | `/folder/list` | Medium
+13 | File | `/forms/nslookupHandler` | High
+14 | File | `/group/comment` | High
+15 | File | `/lookin/info` | Medium
+16 | File | `/plugins/servlet/jira-blockers/` | High
+17 | File | `/ptipupgrade.cgi` | High
+18 | File | `/register.do` | Medium
+19 | File | `/sessions/sess_<sessionid>` | High
+20 | File | `/themes/<php_file_name>` | High
+21 | File | `/tmp/speedtest_urls.xml` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/upload` | Low
+24 | File | `/var/log/nginx` | High
+25 | File | `/wbg/core/_includes/authorization.inc.php` | High
+26 | File | `/wp-admin/admin.php` | High
+27 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+28 | File | `account.asp` | Medium
+29 | File | `adclick.php` | Medium
+30 | File | `admin-ajax.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin/?n=tags&c=index&a=doSaveTags` | High
+33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

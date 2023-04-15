@@ -77,31 +77,32 @@ ID | Type | Indicator | Confidence
 14 | File | `/boat/login.php` | High
 15 | File | `/bsms_ci/index.php/book` | High
 16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/hosts` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-28 | File | `/out.php` | Medium
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/pages/apply_vacancy.php` | High
-31 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
-32 | File | `/proc/<PID>/mem` | High
-33 | File | `/proxy` | Low
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/tmp` | Low
-37 | File | `/uncpath/` | Medium
-38 | File | `/upload` | Low
-39 | ... | ... | ...
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/hosts` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/out.php` | Medium
+30 | File | `/owa/auth/logon.aspx` | High
+31 | File | `/pages/apply_vacancy.php` | High
+32 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
+33 | File | `/proc/<PID>/mem` | High
+34 | File | `/proxy` | Low
+35 | File | `/reservation/add_message.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | File | `/upload` | Low
+40 | ... | ... | ...
 
-There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

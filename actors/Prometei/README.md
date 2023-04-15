@@ -34,7 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,9 +47,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/forum/away.php` | High
 4 | File | `/LogoStore/search.php` | High
 5 | File | `/mhds/clinic/view_details.php` | High
-6 | ... | ... | ...
+6 | File | `/newsDia.php` | Medium
+7 | ... | ... | ...
 
-There are 42 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

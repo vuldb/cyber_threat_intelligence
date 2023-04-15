@@ -69,9 +69,10 @@ ID | Type | Indicator | Confidence
 10 | File | `Adminstrator/Users/Edit/` | High
 11 | File | `agent.cfg` | Medium
 12 | File | `ALL_IN_THE_BOX.OCX` | High
-13 | ... | ... | ...
+13 | File | `bmp.c` | Low
+14 | ... | ... | ...
 
-There are 105 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 107 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

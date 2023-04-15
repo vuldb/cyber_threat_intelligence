@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -33,11 +33,12 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [2.56.56.88](https://vuldb.com/?ip.2.56.56.88) | nutir.top | [AveMaria](https://vuldb.com/?actor.avemaria) | High
 2 | [2.56.57.85](https://vuldb.com/?ip.2.56.57.85) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
 3 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-4 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-5 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
-6 | ... | ... | ... | ...
+4 | [20.7.14.99](https://vuldb.com/?ip.20.7.14.99) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+5 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+6 | [37.0.14.204](https://vuldb.com/?ip.37.0.14.204) | - | [AveMaria](https://vuldb.com/?actor.avemaria) | High
+7 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 25 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,47 +68,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/academic/studenview_left.php` | High
 6 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
 7 | File | `/admin/contenttemp` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/syslog` | High
-10 | File | `/advance_push/public/login` | High
-11 | File | `/anony/mjpg.cgi` | High
-12 | File | `/assets/components/gallery/connector.php` | High
-13 | File | `/ctcprotocol/Protocol` | High
-14 | File | `/device/device=140/tab=wifi/view` | High
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/Forms/` | Low
-17 | File | `/framework/modules/users/models/user.php` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/HNAP1/SetAccessPointMode` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mcategory.php` | High
-22 | File | `/member/picture/album` | High
-23 | File | `/mysql/api/diags.php` | High
-24 | File | `/phpcollab/users/edituser.php` | High
-25 | File | `/plain` | Low
-26 | File | `/products/details.asp` | High
-27 | File | `/product_list.php` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/replication` | Medium
-30 | File | `/service/upload` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/trx_addons/v2/get/sc_layout` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload/catalog/controller/account/password.php` | High
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-37 | File | `/WebMstr7/servlet/mstrWeb` | High
-38 | File | `4.edu.php` | Medium
-39 | File | `5.2.9\syscrb.exe` | High
-40 | File | `123flashchat.php` | High
-41 | File | `a2billing/customer/iridium_threed.php` | High
-42 | File | `add_ons.php` | Medium
-43 | File | `add_to_cart.php` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin/index.php` | High
-46 | ... | ... | ...
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/syslog` | High
+11 | File | `/advance_push/public/login` | High
+12 | File | `/anony/mjpg.cgi` | High
+13 | File | `/assets/components/gallery/connector.php` | High
+14 | File | `/ctcprotocol/Protocol` | High
+15 | File | `/device/device=140/tab=wifi/view` | High
+16 | File | `/etc/sudoers` | Medium
+17 | File | `/Forms/` | Low
+18 | File | `/framework/modules/users/models/user.php` | High
+19 | File | `/ghost/preview` | High
+20 | File | `/HNAP1/SetAccessPointMode` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mcategory.php` | High
+23 | File | `/member/picture/album` | High
+24 | File | `/mysql/api/diags.php` | High
+25 | File | `/phpcollab/users/edituser.php` | High
+26 | File | `/plain` | Low
+27 | File | `/products/details.asp` | High
+28 | File | `/product_list.php` | High
+29 | File | `/public/login.htm` | High
+30 | File | `/replication` | Medium
+31 | File | `/service/upload` | High
+32 | File | `/services/details.asp` | High
+33 | File | `/trx_addons/v2/get/sc_layout` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/upload/catalog/controller/account/password.php` | High
+36 | File | `/usr/bin/pkexec` | High
+37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+38 | File | `/wbms/classes/Master.php?f=delete_client` | High
+39 | File | `/WebMstr7/servlet/mstrWeb` | High
+40 | File | `4.edu.php` | Medium
+41 | File | `5.2.9\syscrb.exe` | High
+42 | File | `123flashchat.php` | High
+43 | File | `a2billing/customer/iridium_threed.php` | High
+44 | File | `add_ons.php` | Medium
+45 | File | `add_to_cart.php` | High
+46 | File | `admin.php` | Medium
+47 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -124,6 +126,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-19%20AveMaria_Warzone%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-24%20AveMaria_Warzone%20RAT%20IOCs
 * https://securelist.com/fin7-5-the-infamous-cybercrime-rig-fin7-continues-its-activities/90703/
+* https://www.zscaler.com/blogs/security-research/dynamic-approaches-seen-avemarias-distribution-strategy
 
 ## Literature
 

@@ -76,22 +76,22 @@ ID | Type | Indicator | Confidence
 17 | File | `/forum/away.php` | High
 18 | File | `/forum/PostPrivateMessage` | High
 19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/RouteStatic` | High
-21 | File | `/home/masterConsole` | High
-22 | File | `/hrm/employeeadd.php` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/htdocs/cgibin` | High
-25 | File | `/lists/index.php` | High
-26 | File | `/login.php` | Medium
-27 | File | `/netflow/jspui/editProfile.jsp` | High
-28 | File | `/spip.php` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-31 | File | `/videotalk` | Medium
-32 | File | `/view-property.php` | High
+20 | File | `/goform/aspForm` | High
+21 | File | `/goform/RouteStatic` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/hrm/employeeadd.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/htdocs/cgibin` | High
+26 | File | `/lists/index.php` | High
+27 | File | `/login.php` | Medium
+28 | File | `/netflow/jspui/editProfile.jsp` | High
+29 | File | `/spip.php` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+32 | File | `/videotalk` | Medium
 33 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

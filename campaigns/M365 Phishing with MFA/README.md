@@ -80,14 +80,14 @@ ID | Type | Indicator | Confidence
 25 | File | `ajax.php` | Medium
 26 | File | `ajax_calls.php` | High
 27 | File | `ajax_cmd.php` | Medium
-28 | File | `appfeed.c` | Medium
-29 | File | `ara.asp` | Low
-30 | File | `aspx` | Low
-31 | File | `auction_details.php` | High
-32 | File | `auth.inc.php` | Medium
+28 | File | `allmanageup.pl` | High
+29 | File | `appfeed.c` | Medium
+30 | File | `ara.asp` | Low
+31 | File | `aspx` | Low
+32 | File | `auctionweaver.pl` | High
 33 | ... | ... | ...
 
-There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

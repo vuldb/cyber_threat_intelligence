@@ -74,23 +74,24 @@ ID | Type | Indicator | Confidence
 6 | File | `/server-status` | High
 7 | File | `add-services.php` | High
 8 | File | `admin.php` | Medium
-9 | File | `admin/models/Galleries.php` | High
-10 | File | `affich.php` | Medium
-11 | File | `affiliate-preview.php` | High
-12 | File | `akocomments.php` | High
-13 | File | `album_portal.php` | High
-14 | File | `application/modules/admin/views/ecommerce/products.php` | High
-15 | File | `apps/app_article/controller/rating.php` | High
-16 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
-17 | File | `auktion.cgi` | Medium
-18 | File | `basket.php` | Medium
-19 | File | `big.php` | Low
-20 | File | `category_list.php` | High
-21 | File | `closeup.php` | Medium
-22 | File | `cng.sys` | Low
-23 | ... | ... | ...
+9 | File | `admin/index.php` | High
+10 | File | `admin/models/Galleries.php` | High
+11 | File | `affich.php` | Medium
+12 | File | `affiliate-preview.php` | High
+13 | File | `akocomments.php` | High
+14 | File | `album_portal.php` | High
+15 | File | `application/modules/admin/views/ecommerce/products.php` | High
+16 | File | `apps/app_article/controller/rating.php` | High
+17 | File | `app\Http\Controllers\Backend\ProfileController.php` | High
+18 | File | `auktion.cgi` | Medium
+19 | File | `basket.php` | Medium
+20 | File | `big.php` | Low
+21 | File | `category_list.php` | High
+22 | File | `closeup.php` | Medium
+23 | File | `cng.sys` | Low
+24 | ... | ... | ...
 
-There are 194 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 199 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

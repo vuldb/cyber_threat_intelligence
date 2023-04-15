@@ -117,7 +117,7 @@ ID | Type | Indicator | Confidence
 45 | File | `addrtoname.c` | Medium
 46 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -122,12 +122,12 @@ ID | Type | Indicator | Confidence
 52 | File | `api_jsonrpc.php` | High
 53 | File | `app/admin/controller/Ajax.php` | High
 54 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-55 | File | `AppCompatCache.exe` | High
-56 | File | `application.php` | High
-57 | File | `apply.cgi` | Medium
-58 | File | `asp:.jpg` | Medium
-59 | File | `authfiles/login.asp` | High
-60 | File | `bb_usage_stats.php` | High
+55 | File | `application.php` | High
+56 | File | `apply.cgi` | Medium
+57 | File | `asp:.jpg` | Medium
+58 | File | `authfiles/login.asp` | High
+59 | File | `bb_usage_stats.php` | High
+60 | File | `bfd.c` | Low
 61 | ... | ... | ...
 
 There are 534 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

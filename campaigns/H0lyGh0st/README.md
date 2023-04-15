@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with H0lyGh0st:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [DEV-0530](https://vuldb.com/?actor.dev-0530) | High
 2 | [H0lyGh0st](https://vuldb.com/?actor.h0lygh0st) | High
+3 | [North Korea Unknown](https://vuldb.com/?actor.north_korea_unknown) | High
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +32,7 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [127.0.0.1](https://vuldb.com/?ip.127.0.0.1) | localhost | [H0lyGh0st](https://vuldb.com/?actor.h0lygh0st) | High
-2 | [193.56.29.123](https://vuldb.com/?ip.193.56.29.123) | - | [H0lyGh0st](https://vuldb.com/?actor.h0lygh0st) | High
+2 | [193.56.29.123](https://vuldb.com/?ip.193.56.29.123) | - | [North Korea Unknown](https://vuldb.com/?actor.north_korea_unknown) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,13 +62,13 @@ ID | Type | Indicator | Confidence
 5 | File | `/c/macho_reader.c` | High
 6 | File | `/cgi-bin/DownloadFlash` | High
 7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/conf/` | Low
-9 | File | `/config/getuser` | High
-10 | File | `/config/myfield/test.php` | High
-11 | File | `/dashboard/contact` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ecshop/admin/template.php` | High
-14 | File | `/example/editor` | High
+8 | File | `/config/getuser` | High
+9 | File | `/config/myfield/test.php` | High
+10 | File | `/dashboard/contact` | High
+11 | File | `/debug/pprof` | Medium
+12 | File | `/ecshop/admin/template.php` | High
+13 | File | `/example/editor` | High
+14 | File | `/file/upload/1` | High
 15 | File | `/forum/away.php` | High
 16 | File | `/forum/PostPrivateMessage` | High
 17 | File | `/HNAP1` | Low
@@ -77,35 +78,37 @@ ID | Type | Indicator | Confidence
 21 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
 22 | File | `/leave_system/classes/Master.php?f=delete_department` | High
 23 | File | `/module/module_frame/index.php` | High
-24 | File | `/net-banking/customer_transactions.php` | High
-25 | File | `/obs/book.php` | High
-26 | File | `/ossn/administrator/com_installer` | High
-27 | File | `/pms/update_user.php?user_id=1` | High
-28 | File | `/sre/params.php` | High
-29 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-30 | File | `/tmp` | Low
-31 | File | `/tmp/xbindkeysrc-tmp` | High
-32 | File | `/user/upload/upload` | High
-33 | File | `/Users` | Low
-34 | File | `/var/spool/hylafax` | High
-35 | File | `/vendor` | Low
-36 | File | `/whbs/?page=my_bookings` | High
-37 | File | `access_rules/rules_form` | High
-38 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-39 | File | `action/addproject.php` | High
-40 | File | `adclick.php` | Medium
-41 | File | `add_contestant.php` | High
-42 | File | `admin.php` | Medium
-43 | File | `admin/ajax.attachment.php` | High
-44 | ... | ... | ...
+24 | File | `/multi-vendor-shopping-script/product-list.php` | High
+25 | File | `/net-banking/customer_transactions.php` | High
+26 | File | `/obs/book.php` | High
+27 | File | `/ossn/administrator/com_installer` | High
+28 | File | `/pms/update_user.php?user_id=1` | High
+29 | File | `/requests.php` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/sre/params.php` | High
+32 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
+33 | File | `/tmp` | Low
+34 | File | `/tmp/xbindkeysrc-tmp` | High
+35 | File | `/user/upload/upload` | High
+36 | File | `/Users` | Low
+37 | File | `/var/spool/hylafax` | High
+38 | File | `/vendor` | Low
+39 | File | `access_rules/rules_form` | High
+40 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+41 | File | `action/addproject.php` | High
+42 | File | `adclick.php` | Medium
+43 | File | `add_contestant.php` | High
+44 | File | `admin.php` | Medium
+45 | ... | ... | ...
 
-There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://community.blueliv.com/#!/s/62d1143282df41552632f957
+* https://www.microsoft.com/en-us/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/
 * https://www.microsoft.com/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/
 
 ## Literature

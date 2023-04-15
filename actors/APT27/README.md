@@ -100,7 +100,8 @@ ID | Type | Indicator | Confidence
 37 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
 38 | File | `admin/modules/master_file/rda_cmc.php?keywords` | High
 39 | File | `admin_gallery.php3` | High
-40 | ... | ... | ...
+40 | File | `affich.php` | Medium
+41 | ... | ... | ...
 
 There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

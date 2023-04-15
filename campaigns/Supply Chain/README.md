@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Supply Chain:
 
+* [FR](https://vuldb.com/?country.fr)
 * [CN](https://vuldb.com/?country.cn)
 
 ## Actors
@@ -37,7 +38,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1592 | CWE-200 | Configuration | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1592 | CWE-200 | Configuration | High
 
 ## IOA - Indicator of Attack
 

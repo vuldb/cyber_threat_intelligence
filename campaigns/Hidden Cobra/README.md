@@ -195,12 +195,12 @@ ID | Type | Indicator | Confidence
 15 | File | `/out.php` | Medium
 16 | File | `/plugin` | Low
 17 | File | `/proc/pid/syscall` | High
-18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-20 | File | `/servlet.gupld` | High
+18 | File | `/public/launchNewWindow.jsp` | High
+19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
 21 | ... | ... | ...
 
-There are 170 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,8 +20,8 @@ There are 2 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT29:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -64,7 +64,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -86,37 +86,39 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/submit-articles` | High
 7 | File | `/ad_js.php` | Medium
 8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/v2/cli/commands` | High
-10 | File | `/app/options.py` | High
-11 | File | `/attachments` | Medium
-12 | File | `/boat/login.php` | High
-13 | File | `/bsms_ci/index.php/book` | High
-14 | File | `/cgi-bin/luci/api/wireless` | High
-15 | File | `/ci_hms/massage_room/edit/1` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/hosts` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/goform/setmac` | High
-23 | File | `/goform/wizard_end` | High
-24 | File | `/manage-apartment.php` | High
-25 | File | `/medicines/profile.php` | High
-26 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/proc/<PID>/mem` | High
-29 | File | `/project/PROJECTNAME/reports/` | High
-30 | File | `/proxy` | Low
-31 | File | `/reservation/add_message.php` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | ... | ... | ...
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/app/options.py` | High
+13 | File | `/attachments` | Medium
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/book` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/etc/hosts` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/wizard_end` | High
+26 | File | `/manage-apartment.php` | High
+27 | File | `/medicines/profile.php` | High
+28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/pages/apply_vacancy.php` | High
+31 | File | `/proc/<PID>/mem` | High
+32 | File | `/project/PROJECTNAME/reports/` | High
+33 | File | `/proxy` | Low
+34 | File | `/reservation/add_message.php` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/tmp` | Low
+37 | File | `/uncpath/` | Medium
+38 | File | `/upload` | Low
+39 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 335 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

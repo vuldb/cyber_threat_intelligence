@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Lorec53:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lorec53:
 
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [FR](https://vuldb.com/?country.fr)
-* [IT](https://vuldb.com/?country.it)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,6 +30,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.12.5.62](https://vuldb.com/?ip.45.12.5.62) | sarimp.website | - | High
 2 | [45.146.165.91](https://vuldb.com/?ip.45.146.165.91) | - | Phishing Georgian Government | High
 3 | [185.244.41.109](https://vuldb.com/?ip.185.244.41.109) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,12 +40,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77, CWE-78 | Command Injection | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,16 +54,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `admin/gallery.php` | High
-3 | File | `admin/manage-departments.php` | High
-4 | File | `admin/sellerupd.php` | High
-5 | File | `backend/utilities/terminal.js` | High
-6 | File | `cat.php` | Low
-7 | File | `category.php` | Medium
-8 | File | `config.inc.php` | High
-9 | ... | ... | ...
+2 | File | `/admin/login.php` | High
+3 | File | `/includes/rrdtool.inc.php` | High
+4 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+5 | File | `/www/ping_response.cgi` | High
+6 | File | `admin.php` | Medium
+7 | File | `admin/dashboard.php` | High
+8 | File | `admin/gallery.php` | High
+9 | File | `admin/manage-departments.php` | High
+10 | File | `admin/sellerupd.php` | High
+11 | File | `admin/vqmods.app/vqmods.inc.php` | High
+12 | File | `administrator/logviewer/searchlog.cfm` | High
+13 | File | `backend/utilities/terminal.js` | High
+14 | File | `bb_usage_stats.php` | High
+15 | File | `board.php` | Medium
+16 | File | `cat.php` | Low
+17 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 139 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

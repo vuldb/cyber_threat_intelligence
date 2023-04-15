@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magecart:
 
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -51,7 +51,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -73,47 +73,47 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/edit_members.php` | High
 7 | File | `/admin/submit-articles` | High
 8 | File | `/alphaware/summary.php` | High
-9 | File | `/attachments` | Medium
-10 | File | `/aux` | Low
-11 | File | `/boat/login.php` | High
-12 | File | `/bsms_ci/index.php/book` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/dev/zero` | Medium
-15 | File | `/etc/hosts` | Medium
-16 | File | `/etc/os-release` | High
-17 | File | `/event/admin/?page=user/list` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/addUserName` | High
-20 | File | `/goform/form2WizardStep4` | High
-21 | File | `/goform/formSetEmail` | High
-22 | File | `/goform/SetIpMacBind` | High
-23 | File | `/goform/WifiBasicSet` | High
-24 | File | `/hprms/admin/rooms/view_room.php` | High
-25 | File | `/hrm/controller/employee.php` | High
-26 | File | `/hrm/controller/login.php` | High
-27 | File | `/hss/?page=categories` | High
-28 | File | `/inc/parser/xhtml.php` | High
-29 | File | `/index/user/upload_img.html` | High
-30 | File | `/js/player/dmplayer/dmku/index.php` | High
-31 | File | `/linkedcontent/listfiles.php` | High
-32 | File | `/medicines/profile.php` | High
-33 | File | `/mgm_dev_upgrade.asp` | High
-34 | File | `/mgm_log_cfg.asp` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/odlms/?page=appointments/view_appointment` | High
-37 | File | `/proxy` | Low
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/routing.asp` | Medium
-40 | File | `/services/getFile.cmd` | High
-41 | File | `/services/view_service.php` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/statistics/retrieve` | High
-44 | File | `/tmp` | Low
-45 | File | `/tmp/kamailio_ctl` | High
-46 | File | `/var/log/messages` | High
+9 | File | `/api/` | Low
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/attachments` | Medium
+12 | File | `/aux` | Low
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/book` | High
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/etc/hosts` | Medium
+18 | File | `/etc/os-release` | High
+19 | File | `/event/admin/?page=user/list` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/addUserName` | High
+22 | File | `/goform/form2WizardStep4` | High
+23 | File | `/goform/formSetEmail` | High
+24 | File | `/goform/SetIpMacBind` | High
+25 | File | `/goform/WifiBasicSet` | High
+26 | File | `/hprms/admin/rooms/view_room.php` | High
+27 | File | `/hrm/controller/employee.php` | High
+28 | File | `/hrm/controller/login.php` | High
+29 | File | `/hss/?page=categories` | High
+30 | File | `/inc/parser/xhtml.php` | High
+31 | File | `/index/user/upload_img.html` | High
+32 | File | `/js/player/dmplayer/dmku/index.php` | High
+33 | File | `/linkedcontent/listfiles.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/mgm_dev_upgrade.asp` | High
+36 | File | `/mgm_log_cfg.asp` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/odlms/?page=appointments/view_appointment` | High
+39 | File | `/proxy` | Low
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/routing.asp` | Medium
+42 | File | `/services/getFile.cmd` | High
+43 | File | `/services/view_service.php` | High
+44 | File | `/Session` | Medium
+45 | File | `/spip.php` | Medium
+46 | File | `/statistics/retrieve` | High
 47 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

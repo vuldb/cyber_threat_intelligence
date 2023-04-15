@@ -70,36 +70,37 @@ ID | Type | Indicator | Confidence
 12 | File | `/cgi-bin/wapopen` | High
 13 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
 14 | File | `/data/vendor/tcl` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/DLSnap` | Low
-17 | File | `/exec/` | Low
-18 | File | `/index.php` | Medium
-19 | File | `/items/view_item.php` | High
-20 | File | `/ldclient/ldprov.cgi` | High
-21 | File | `/librarian/bookdetails.php` | High
-22 | File | `/login` | Low
-23 | File | `/login/index.php` | High
-24 | File | `/mail/index.html` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/mygym/admin/index.php?view_exercises` | High
-27 | File | `/plugin/extended-choice-parameter/js/` | High
-28 | File | `/plugins/servlet/gadgets/makeRequest` | High
-29 | File | `/PreviewHandler.ashx` | High
-30 | File | `/products/details.asp` | High
-31 | File | `/rest/api/2/user/picker` | High
-32 | File | `/rest/api/latest/groupuserpicker` | High
-33 | File | `/rom-0` | Low
-34 | File | `/secure/QueryComponent!Default.jspa` | High
-35 | File | `/services/details.asp` | High
-36 | File | `/ServletAPI/accounts/login` | High
-37 | File | `/student/bookdetails.php` | High
-38 | File | `/templates/header.inc.php` | High
-39 | File | `/uncpath/` | Medium
-40 | File | `/usr/bin/pkexec` | High
-41 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-42 | ... | ... | ...
+15 | File | `/dayrui/My/View/main.html` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/DLSnap` | Low
+18 | File | `/exec/` | Low
+19 | File | `/index.php` | Medium
+20 | File | `/items/view_item.php` | High
+21 | File | `/ldclient/ldprov.cgi` | High
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/login` | Low
+24 | File | `/login/index.php` | High
+25 | File | `/mail/index.html` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/mygym/admin/index.php?view_exercises` | High
+28 | File | `/plugin/extended-choice-parameter/js/` | High
+29 | File | `/plugins/servlet/gadgets/makeRequest` | High
+30 | File | `/PreviewHandler.ashx` | High
+31 | File | `/products/details.asp` | High
+32 | File | `/rest/api/2/user/picker` | High
+33 | File | `/rest/api/latest/groupuserpicker` | High
+34 | File | `/rom-0` | Low
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/services/details.asp` | High
+37 | File | `/ServletAPI/accounts/login` | High
+38 | File | `/student/bookdetails.php` | High
+39 | File | `/templates/header.inc.php` | High
+40 | File | `/uncpath/` | Medium
+41 | File | `/usr/bin/pkexec` | High
+42 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
+43 | ... | ... | ...
 
-There are 365 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 367 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,14 +53,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,35 +68,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/api/jmeter/download/files` | High
-3 | File | `/api/upload` | Medium
-4 | File | `/APR/login.php` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/DXR.axd` | Medium
-7 | File | `/env` | Low
-8 | File | `/files/import` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/fast_setting_wifi_set` | High
-11 | File | `/goform/setMacFilterCfg` | High
-12 | File | `/hrm/controller/employee.php` | High
-13 | File | `/hrm/employeeadd.php` | High
-14 | File | `/hrm/employeeview.php` | High
-15 | File | `/j_security_check` | High
-16 | File | `/lib` | Low
-17 | File | `/librarian/bookdetails.php` | High
-18 | File | `/m3_exec.h` | Medium
-19 | File | `/mhds/clinic/view_details.php` | High
-20 | File | `/Moosikay/order.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/tmp/boa-temp` | High
-23 | File | `/v1/sql-runner` | High
-24 | File | `/view-property.php` | High
-25 | File | `/wp-json` | Medium
-26 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-27 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `//` | Low
+3 | File | `/api/jmeter/download/files` | High
+4 | File | `/api/upload` | Medium
+5 | File | `/APR/login.php` | High
+6 | File | `/cgi-bin/DownloadFlash` | High
+7 | File | `/cgi-bin/wlogin.cgi` | High
+8 | File | `/DXR.axd` | Medium
+9 | File | `/files/import` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/fast_setting_wifi_set` | High
+12 | File | `/goform/setMacFilterCfg` | High
+13 | File | `/hrm/controller/employee.php` | High
+14 | File | `/hrm/employeeadd.php` | High
+15 | File | `/hrm/employeeview.php` | High
+16 | File | `/j_security_check` | High
+17 | File | `/lib` | Low
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/m3_exec.h` | Medium
+20 | File | `/mhds/clinic/view_details.php` | High
+21 | File | `/Moosikay/order.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/public/launchNewWindow.jsp` | High
+24 | File | `/rest/api/2/search` | High
+25 | File | `/tmp/boa-temp` | High
+26 | File | `/view-property.php` | High
+27 | File | `/wp-json` | Medium
+28 | ... | ... | ...
 
-There are 226 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

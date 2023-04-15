@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -63,43 +63,42 @@ ID | Type | Indicator | Confidence
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/new-content` | High
 4 | File | `/advanced-tools/nova/bin/netwatch` | High
-5 | File | `/api/crontab` | Medium
-6 | File | `/api/RecordingList/DownloadRecord?file=` | High
-7 | File | `/api/storage/upload/PostImage` | High
-8 | File | `/application/common.php#action_log` | High
-9 | File | `/asms/admin/products/manage_product.php` | High
-10 | File | `/asms/products/view_product.php` | High
-11 | File | `/cgi-bin/koha/members/paycollect.pl` | High
-12 | File | `/common/download?filename=1.jsp&delete=false` | High
-13 | File | `/common/info.cgi` | High
-14 | File | `/config/getuser` | High
-15 | File | `/dashboard/snapshot/*?orgId=0` | High
-16 | File | `/exports/export.php` | High
-17 | File | `/gena.cgi` | Medium
-18 | File | `/home/cavesConsole` | High
-19 | File | `/home/kickPlayer` | High
-20 | File | `/home/masterConsole` | High
-21 | File | `/home/sendBroadcast` | High
-22 | File | `/html/portal/flash.jsp` | High
-23 | File | `/include/chart_generator.php` | High
-24 | File | `/lan.asp` | Medium
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/loginVaLidation.php` | High
-27 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-28 | File | `/metrics` | Medium
-29 | File | `/MIME/INBOX-MM-1/` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/photo/webapi/photo.php` | High
-32 | File | `/plesk-site-preview/` | High
-33 | File | `/requests.php` | High
-34 | File | `/resources//../` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/setSystemAdmin` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/start_apply.htm` | High
-39 | ... | ... | ...
+5 | File | `/alarm_pi/alarmService.php` | High
+6 | File | `/api/crontab` | Medium
+7 | File | `/api/RecordingList/DownloadRecord?file=` | High
+8 | File | `/api/storage/upload/PostImage` | High
+9 | File | `/application/common.php#action_log` | High
+10 | File | `/asms/admin/products/manage_product.php` | High
+11 | File | `/asms/products/view_product.php` | High
+12 | File | `/cgi-bin/koha/members/paycollect.pl` | High
+13 | File | `/common/download?filename=1.jsp&delete=false` | High
+14 | File | `/common/info.cgi` | High
+15 | File | `/config/getuser` | High
+16 | File | `/config/list` | Medium
+17 | File | `/dashboard/snapshot/*?orgId=0` | High
+18 | File | `/exports/export.php` | High
+19 | File | `/gena.cgi` | Medium
+20 | File | `/home/cavesConsole` | High
+21 | File | `/home/kickPlayer` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/sendBroadcast` | High
+24 | File | `/html/portal/flash.jsp` | High
+25 | File | `/include/chart_generator.php` | High
+26 | File | `/lan.asp` | Medium
+27 | File | `/librarian/bookdetails.php` | High
+28 | File | `/loginVaLidation.php` | High
+29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+30 | File | `/metrics` | Medium
+31 | File | `/MIME/INBOX-MM-1/` | High
+32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+33 | File | `/photo/webapi/photo.php` | High
+34 | File | `/plesk-site-preview/` | High
+35 | File | `/requests.php` | High
+36 | File | `/resources//../` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

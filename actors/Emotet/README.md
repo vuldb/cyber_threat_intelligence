@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -813,7 +813,7 @@ ID | IP address | Hostname | Campaign | Confidence
 790 | [64.227.100.222](https://vuldb.com/?ip.64.227.100.222) | - | - | High
 791 | ... | ... | ... | ...
 
-There are 3161 more IOC items available. Please use our online service to access the data.
+There are 3162 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -821,8 +821,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -836,49 +836,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//` | Low
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/delete_user.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/patient.php` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/system/store/order/list` | High
-11 | File | `/api/jmeter/download/files` | High
-12 | File | `/api/upload` | Medium
-13 | File | `/APR/login.php` | High
-14 | File | `/boat/login.php` | High
-15 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
-16 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/common/sysFile/list` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/DXR.axd` | Medium
-21 | File | `/etc/sudoers` | Medium
-22 | File | `/filemanager/php/connector.php` | High
-23 | File | `/files/import` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/getcfg.php` | Medium
-26 | File | `/goform/addressNat` | High
-27 | File | `/home/www/cgi-bin/login.cgi` | High
-28 | File | `/j_security_check` | High
-29 | File | `/librarian/bookdetails.php` | High
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/rom-0` | Low
-34 | File | `/rukovoditel/index.php?module=users/login` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/static/ueditor/php/controller.php` | High
-37 | File | `/usr/bin/at` | Medium
-38 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-39 | File | `/wabt/bin/poc.wasm` | High
-40 | File | `/wireless/security.asp` | High
-41 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/admin` | Low
+3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+4 | File | `/admin/delete_user.php` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/patient.php` | High
+7 | File | `/api/` | Low
+8 | File | `/api/admin/store/product/list` | High
+9 | File | `/api/admin/system/store/order/list` | High
+10 | File | `/api/upload` | Medium
+11 | File | `/carbon/ndatasource/validateconnection/ajaxprocessor.jsp` | High
+12 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/churchcrm/EventAttendance.php` | High
+15 | File | `/common/info.cgi` | High
+16 | File | `/common/sysFile/list` | High
+17 | File | `/config/myfield/test.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/etc/sudoers` | Medium
+21 | File | `/file/upload/1` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/goform/addressNat` | High
+25 | File | `/hrm/controller/employee.php` | High
+26 | File | `/hrm/employeeadd.php` | High
+27 | File | `/hrm/employeeview.php` | High
+28 | File | `/js/player/dmplayer/dmku/index.php` | High
+29 | File | `/j_security_check` | High
+30 | File | `/KK_LS9ReportingPortal/GetData` | High
+31 | File | `/licenses` | Medium
+32 | File | `/mhds/clinic/view_details.php` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/multi-vendor-shopping-script/product-list.php` | High
+35 | File | `/plain` | Low
+36 | File | `/public/launchNewWindow.jsp` | High
+37 | File | `/requests.php` | High
+38 | File | `/rom-0` | Low
+39 | File | `/sbin/orthrus` | High
+40 | File | `/sbin/rtspd` | Medium
+41 | File | `/spip.php` | Medium
+42 | File | `/static/ueditor/php/controller.php` | High
+43 | File | `/uncpath/` | Medium
+44 | ... | ... | ...
 
-There are 354 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 377 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -974,6 +977,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/03/threat-roundup-0311-0318.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0520-0527.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
+* https://blog.talosintelligence.com/threat-roundup-0324-0331-2/
 * https://blogs.blackberry.com/en/2017/12/threat-spotlight-emotet-infostealer-malware
 * https://blogs.cisco.com/security/emotet-is-back
 * https://community.blueliv.com/#!/s/5f73a4dd82df413eac3478ef

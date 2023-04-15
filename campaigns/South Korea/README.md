@@ -355,7 +355,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -369,36 +369,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
-2 | File | `/APR/login.php` | High
-3 | File | `/APR/signup.php` | High
-4 | File | `/cgi-bin/wapopen` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/mims/login.php` | High
-7 | File | `/mygym/admin/index.php?view_exercises` | High
-8 | File | `/php-opos/index.php` | High
-9 | File | `/php-scrm/login.php` | High
-10 | File | `/public/launchNewWindow.jsp` | High
-11 | File | `/textpattern/index.php` | High
-12 | File | `/tmp` | Low
-13 | File | `account-signup.php` | High
-14 | File | `account/signup.php` | High
-15 | File | `activenews_view.asp` | High
-16 | File | `addentry.php` | Medium
-17 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-18 | File | `admin.php` | Medium
-19 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-20 | File | `admin/admin_editor.php` | High
-21 | File | `admin/conf_users_edit.php` | High
-22 | File | `adminer.php` | Medium
-23 | File | `articulo.php` | Medium
-24 | File | `art_detalle.php` | High
-25 | File | `awstats.pl` | Medium
-26 | File | `banner_add_edit.asp` | High
-27 | File | `blocks/block-Old_Articles.php` | High
-28 | File | `bp_ncom.php` | Medium
-29 | ... | ... | ...
+2 | File | `/admin/cashadvance_row.php` | High
+3 | File | `/APR/login.php` | High
+4 | File | `/APR/signup.php` | High
+5 | File | `/cgi-bin/wapopen` | High
+6 | File | `/forum/away.php` | High
+7 | File | `/mims/login.php` | High
+8 | File | `/mygym/admin/index.php?view_exercises` | High
+9 | File | `/php-opos/index.php` | High
+10 | File | `/php-scrm/login.php` | High
+11 | File | `/public/launchNewWindow.jsp` | High
+12 | File | `/textpattern/index.php` | High
+13 | File | `/tmp` | Low
+14 | File | `/user/updatePwd` | High
+15 | File | `account-signup.php` | High
+16 | File | `account/signup.php` | High
+17 | File | `activenews_view.asp` | High
+18 | File | `addentry.php` | Medium
+19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+22 | File | `admin/admin_editor.php` | High
+23 | File | `admin/conf_users_edit.php` | High
+24 | File | `admin/edit_category.php` | High
+25 | File | `adminer.php` | Medium
+26 | File | `AjaxFileUploadHandler.axd` | High
+27 | File | `AndroidManifest.xml` | High
+28 | File | `articulo.php` | Medium
+29 | File | `art_detalle.php` | High
+30 | File | `awstats.pl` | Medium
+31 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -89,12 +89,12 @@ ID | Type | Indicator | Confidence
 26 | File | `/plugin/LiveChat/getChat.json.php` | High
 27 | File | `/plugins/servlet/audit/resource` | High
 28 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-29 | File | `/replication` | Medium
-30 | File | `/RestAPI` | Medium
-31 | File | `/SASWebReportStudio/logonAndRender.do` | High
+29 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+30 | File | `/replication` | Medium
+31 | File | `/RestAPI` | Medium
 32 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -67,70 +67,72 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/Admin/adminadd.html` | High
+1 | File | `/admin/?page=product/manage_product&id=2` | High
 2 | File | `/admin/ajax.php?action=delete_window` | High
 3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/settings/save.php` | High
+4 | File | `/admin/casedetails.php` | High
 5 | File | `/ad_js.php` | Medium
 6 | File | `/agc/vicidial.php` | High
 7 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-8 | File | `/api/index.php` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/APR/signup.php` | High
-11 | File | `/aux` | Low
-12 | File | `/categorypage.php` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/cha.php` | Medium
-15 | File | `/College/admin/teacher.php` | High
-16 | File | `/dev/mem` | Medium
-17 | File | `/drivers/block/floppy.c` | High
-18 | File | `/etc/config/product.ini` | High
-19 | File | `/etc/crash` | Medium
-20 | File | `/etc/passwd` | Medium
-21 | File | `/etc/shadow` | Medium
-22 | File | `/fos/admin/ajax.php` | High
-23 | File | `/goform/addUserName` | High
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/SysToolReboot` | High
-26 | File | `/goform/SysToolRestoreSet` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/api/index.php` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/APR/signup.php` | High
+12 | File | `/aux` | Low
+13 | File | `/categorypage.php` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/cha.php` | Medium
+16 | File | `/College/admin/teacher.php` | High
+17 | File | `/dayrui/Fcms/View/system_log.html` | High
+18 | File | `/dev/mem` | Medium
+19 | File | `/drivers/block/floppy.c` | High
+20 | File | `/ecommerce/admin/category/controller.php` | High
+21 | File | `/etc/config/product.ini` | High
+22 | File | `/etc/crash` | Medium
+23 | File | `/etc/shadow` | Medium
+24 | File | `/fos/admin/ajax.php` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/delAd` | High
 27 | File | `/goform/WifiBasicSet` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/gpac/src/bifs/unquantize.c` | High
-30 | File | `/hss/admin/categories/view_category.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/index.php?module=entities/fields&entities_id=24` | High
-33 | File | `/login/index.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/menu.html` | Medium
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/ordering/admin/orders/loaddata.php` | High
-38 | File | `/ordering/admin/stockin/loaddata.php` | High
-39 | File | `/pdfalto/src/pdfalto.cc` | High
-40 | File | `/philosophy/admin/login.php` | High
-41 | File | `/php-opos/login.php` | High
-42 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-43 | File | `/priv_mgt.html` | High
-44 | File | `/queuing/index.php?page=display` | High
-45 | File | `/sys/duplicate/check` | High
-46 | File | `/tmp/app/.env` | High
-47 | File | `/ui/cbpc/login` | High
-48 | File | `/user/updatePwd` | High
-49 | File | `/users/delete/2` | High
-50 | File | `/usr/sbin/httpd` | High
-51 | File | `/usr/sbin/nagios` | High
-52 | File | `/var/tmp/audacity-$USER` | High
-53 | File | `/webman/info.cgi` | High
-54 | File | `/wp-json/wc/v3/webhooks` | High
-55 | File | `3G/UMTS` | Low
-56 | File | `aaa-idm-store-h2/src/main/java/org/opendaylight/aaa/datastore/h2/UserStore.java` | High
-57 | File | `account_change.php` | High
-58 | File | `ad.php` | Low
-59 | File | `adclick.php` | Medium
-60 | File | `add_product.php` | High
-61 | File | `admin/partials/ajax/add_field_to_form.php` | High
-62 | ... | ... | ...
+28 | File | `/hss/admin/categories/view_category.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/login/index.php` | High
+31 | File | `/medicines/profile.php` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/multi-vendor-shopping-script/product-list.php` | High
+35 | File | `/ordering/admin/orders/loaddata.php` | High
+36 | File | `/ordering/admin/stockin/loaddata.php` | High
+37 | File | `/pdfalto/src/pdfalto.cc` | High
+38 | File | `/philosophy/admin/login.php` | High
+39 | File | `/php-opos/login.php` | High
+40 | File | `/priv_mgt.html` | High
+41 | File | `/queuing/index.php?page=display` | High
+42 | File | `/resources//../` | High
+43 | File | `/tmp/app/.env` | High
+44 | File | `/ui/cbpc/login` | High
+45 | File | `/user/updatePwd` | High
+46 | File | `/users/delete/2` | High
+47 | File | `/usr/sbin/nagios` | High
+48 | File | `/var/tmp/audacity-$USER` | High
+49 | File | `/webman/info.cgi` | High
+50 | File | `/wp-json/wc/v3/webhooks` | High
+51 | File | `3G/UMTS` | Low
+52 | File | `account_change.php` | High
+53 | File | `acloudCosAction.php.SQL` | High
+54 | File | `ad.php` | Low
+55 | File | `adclick.php` | Medium
+56 | File | `add_product.php` | High
+57 | File | `admin/admin_index.php` | High
+58 | File | `admin/partials/ajax/add_field_to_form.php` | High
+59 | File | `admin/registrations/update_status.php` | High
+60 | File | `admin/user/manage_user.php` | High
+61 | File | `adminer.php` | Medium
+62 | File | `admin_class.php` | High
+63 | File | `ad_manage.php` | High
+64 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 563 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
