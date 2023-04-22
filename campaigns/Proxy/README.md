@@ -47,7 +47,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-27 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-27, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -67,35 +67,39 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax.php?action=delete_window` | High
 4 | File | `/admin/ajax.php?action=save_queue` | High
 5 | File | `/admin/article_category.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/alarm_pi/alarmService.php` | High
-8 | File | `/api/gen/clients/{language}` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bsms_ci/index.php/book` | High
-11 | File | `/classes/Master.php?f=delete_brand` | High
-12 | File | `/classes/Master.php?f=delete_category` | High
-13 | File | `/config/api/v1/reboot` | High
-14 | File | `/config/list` | Medium
-15 | File | `/ebics-server/ebics.aspx` | High
-16 | File | `/etc/shadow` | Medium
-17 | File | `/forums.php?action=post` | High
-18 | File | `/HNAP1` | Low
-19 | File | `/HNAP1/SetClientInfo` | High
-20 | File | `/home/cavesConsole` | High
-21 | File | `/home/kickPlayer` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/home/sendBroadcast` | High
-24 | File | `/hss/admin/?page=client/manage_client` | High
-25 | File | `/index.php` | Medium
-26 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-27 | File | `/login/index.php` | High
-28 | File | `/loginVaLidation.php` | High
-29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-30 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-31 | File | `/resources//../` | High
-32 | ... | ... | ...
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/deduction_row.php` | High
+8 | File | `/admin/employee_row.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/maintenance/manage_category.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/manage_user.php` | High
+13 | File | `/admin/mechanics/manage_mechanic.php` | High
+14 | File | `/admin/offenses/view_details.php` | High
+15 | File | `/admin/report/index.php` | High
+16 | File | `/admin/service_requests/manage_inventory.php` | High
+17 | File | `/admin/userprofile.php` | High
+18 | File | `/alarm_pi/alarmService.php` | High
+19 | File | `/api/gen/clients/{language}` | High
+20 | File | `/apply.cgi` | Medium
+21 | File | `/bsms_ci/index.php/book` | High
+22 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+23 | File | `/classes/Login.php` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=delete_brand` | High
+26 | File | `/classes/Master.php?f=delete_category` | High
+27 | File | `/classes/Master.php?f=delete_sub_category` | High
+28 | File | `/classes/Users.php` | High
+29 | File | `/config/api/v1/reboot` | High
+30 | File | `/config/list` | Medium
+31 | File | `/ebics-server/ebics.aspx` | High
+32 | File | `/etc/shadow` | Medium
+33 | File | `/forums.php?action=post` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/HNAP1/SetClientInfo` | High
+36 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

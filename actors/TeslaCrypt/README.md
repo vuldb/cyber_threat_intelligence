@@ -49,10 +49,11 @@ ID | IP address | Hostname | Campaign | Confidence
 26 | [27.254.33.44](https://vuldb.com/?ip.27.254.33.44) | da80.hostneverdie.com | - | High
 27 | [27.254.87.155](https://vuldb.com/?ip.27.254.87.155) | cs56.hostneverdie.com | - | High
 28 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
-29 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
-30 | ... | ... | ... | ...
+29 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+30 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
+31 | ... | ... | ... | ...
 
-There are 117 more IOC items available. Please use our online service to access the data.
+There are 121 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -116,7 +117,8 @@ ID | Type | Indicator | Confidence
 40 | File | `adclick.php` | Medium
 41 | File | `add-locker-form.php` | High
 42 | File | `addentry.php` | Medium
-43 | ... | ... | ...
+43 | File | `admin.php` | Medium
+44 | ... | ... | ...
 
 There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -142,6 +144,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/10/threat-roundup-0930-1007.html
 * https://blog.talosintelligence.com/threat-roundup-0127-0203/
+* https://blog.talosintelligence.com/threat-roundup-0324-0331-2/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/

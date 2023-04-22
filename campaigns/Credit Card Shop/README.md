@@ -57,7 +57,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -73,42 +74,43 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/app/options.py` | High
-13 | File | `/attachments` | Medium
-14 | File | `/boat/login.php` | High
-15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/confirm` | Medium
-19 | File | `/context/%2e/WEB-INF/web.xml` | High
-20 | File | `/dashboard/reports/logs/view` | High
-21 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/etc/hosts` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/wizard_end` | High
-27 | File | `/manage-apartment.php` | High
-28 | File | `/medicines/profile.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/out.php` | Medium
-31 | File | `/pages/apply_vacancy.php` | High
-32 | File | `/pms/update_patient.php` | High
-33 | File | `/proc/<PID>/mem` | High
-34 | File | `/proxy` | Low
-35 | File | `/reservation/add_message.php` | High
-36 | File | `/secure/ViewCollectors` | High
-37 | File | `/Session` | Medium
-38 | File | `/spip.php` | Medium
-39 | File | `/tmp` | Low
-40 | ... | ... | ...
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/submit-articles` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/alphaware/summary.php` | High
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/app/options.py` | High
+14 | File | `/attachments` | Medium
+15 | File | `/boat/login.php` | High
+16 | File | `/bsms_ci/index.php/book` | High
+17 | File | `/cgi-bin/luci/api/wireless` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/confirm` | Medium
+20 | File | `/context/%2e/WEB-INF/web.xml` | High
+21 | File | `/dashboard/reports/logs/view` | High
+22 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/etc/hosts` | Medium
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/setmac` | High
+27 | File | `/goform/wizard_end` | High
+28 | File | `/manage-apartment.php` | High
+29 | File | `/medicines/profile.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/out.php` | Medium
+32 | File | `/pages/apply_vacancy.php` | High
+33 | File | `/pms/update_patient.php` | High
+34 | File | `/proc/<PID>/mem` | High
+35 | File | `/proxy` | Low
+36 | File | `/reservation/add_message.php` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/Session` | Medium
+39 | File | `/spip.php` | Medium
+40 | File | `/tmp` | Low
+41 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

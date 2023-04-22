@@ -116,14 +116,13 @@ ID | Type | Indicator | Confidence
 38 | File | `/start_apply.htm` | High
 39 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 40 | File | `/tmp/app/.env` | High
-41 | File | `/uncpath/` | Medium
-42 | File | `/upload` | Low
-43 | File | `/usr/bin/pkexec` | High
-44 | File | `/v2/quantum/save-data-upload-big-file` | High
-45 | File | `/WEB-INF/web.xml` | High
-46 | ... | ... | ...
+41 | File | `/tool/gen/createTable` | High
+42 | File | `/uncpath/` | Medium
+43 | File | `/upload` | Low
+44 | File | `/usr/bin/pkexec` | High
+45 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

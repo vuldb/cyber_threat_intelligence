@@ -138,36 +138,37 @@ ID | Type | Indicator | Confidence
 7 | File | `/ad_js.php` | Medium
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
-10 | File | `/app/options.py` | High
-11 | File | `/attachments` | Medium
-12 | File | `/boat/login.php` | High
-13 | File | `/bsms_ci/index.php/book` | High
-14 | File | `/cgi-bin/login.cgi` | High
+10 | File | `/api/admin/store/product/list` | High
+11 | File | `/app/options.py` | High
+12 | File | `/attachments` | Medium
+13 | File | `/boat/login.php` | High
+14 | File | `/bsms_ci/index.php/book` | High
 15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/ci_hms/massage_room/edit/1` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/dashboard/updatelogo.php` | High
-20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/etc/hosts` | Medium
-23 | File | `/etc/openshift/server_priv.pem` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/wizard_end` | High
-27 | File | `/hprms/admin/doctors/manage_doctor.php` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/ci_hms/massage_room/edit/1` | High
+18 | File | `/context/%2e/WEB-INF/web.xml` | High
+19 | File | `/dashboard/reports/logs/view` | High
+20 | File | `/dashboard/updatelogo.php` | High
+21 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/etc/hosts` | Medium
+24 | File | `/etc/openshift/server_priv.pem` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/setmac` | High
+27 | File | `/goform/wizard_end` | High
 28 | File | `/index.php` | Medium
-29 | File | `/index/jobfairol/show/` | High
-30 | File | `/manage-apartment.php` | High
-31 | File | `/medicines/profile.php` | High
-32 | File | `/mkshop/Men/profile.php` | High
-33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-34 | File | `/Noxen-master/users.php` | High
-35 | File | `/pages/apply_vacancy.php` | High
-36 | File | `/proc/<PID>/mem` | High
-37 | ... | ... | ...
+29 | File | `/manage-apartment.php` | High
+30 | File | `/medicines/profile.php` | High
+31 | File | `/mkshop/Men/profile.php` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/Noxen-master/users.php` | High
+34 | File | `/pages/apply_vacancy.php` | High
+35 | File | `/proc/<PID>/mem` | High
+36 | File | `/proxy` | Low
+37 | File | `/reservation/add_message.php` | High
+38 | ... | ... | ...
 
-There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

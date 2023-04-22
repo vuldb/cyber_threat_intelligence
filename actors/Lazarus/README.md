@@ -23,10 +23,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [IN](https://vuldb.com/?country.in)
-* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -274,7 +274,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -290,38 +290,41 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `//` | Low
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/api/jmeter/download/files` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/api/v1/attack/falco` | High
-7 | File | `/APR/login.php` | High
-8 | File | `/boat/login.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/cgi-bin/DownloadFlash` | High
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/config/api/v1/reboot` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/ebics-server/ebics.aspx` | High
-15 | File | `/files/import` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/HNAP1/SetClientInfo` | High
-19 | File | `/j_security_check` | High
-20 | File | `/librarian/bookdetails.php` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/Moosikay/order.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/php-opos/index.php` | High
-26 | File | `/public/launchNewWindow.jsp` | High
-27 | File | `/rest/api/2/search` | High
-28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-29 | File | `/shell` | Low
-30 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-31 | File | `/tmp/boa-temp` | High
-32 | ... | ... | ...
+3 | File | `/admin/inventory/manage_stock.php` | High
+4 | File | `/admin/maintenance/manage_category.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/admin/offenses/view_details.php` | High
+8 | File | `/admin/report/index.php` | High
+9 | File | `/admin/service_requests/manage_inventory.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/api/gen/clients/{language}` | High
+12 | File | `/api/jmeter/download/files` | High
+13 | File | `/api/upload` | Medium
+14 | File | `/api/v1/attack/falco` | High
+15 | File | `/APR/login.php` | High
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/user/edit_user/` | High
+18 | File | `/cgi-bin/DownloadFlash` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/classes/Login.php` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Master.php?f=delete_img` | High
+23 | File | `/classes/Master.php?f=save_brand` | High
+24 | File | `/classes/Master.php?f=save_sub_category` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/classes/Users.phpp` | High
+27 | File | `/config/api/v1/reboot` | High
+28 | File | `/DXR.axd` | Medium
+29 | File | `/ebics-server/ebics.aspx` | High
+30 | File | `/files/import` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/HNAP1` | Low
+33 | File | `/HNAP1/SetClientInfo` | High
+34 | File | `/inc/topBarNav.php` | High
+35 | ... | ... | ...
 
-There are 273 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

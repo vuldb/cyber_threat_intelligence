@@ -99,9 +99,10 @@ ID | Type | Indicator | Confidence
 25 | File | `/scas/admin/` | Medium
 26 | File | `/scas/classes/Users.php?f=save_user` | High
 27 | File | `/services/prefs.php` | High
-28 | ... | ... | ...
+28 | File | `/src/njs_object.c` | High
+29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

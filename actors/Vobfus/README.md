@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [67.225.218.50](https://vuldb.com/?ip.67.225.218.50) | lb01.parklogic.com | - | High
 10 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,9 +85,10 @@ ID | Type | Indicator | Confidence
 29 | File | `/wp-admin/options.php` | High
 30 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
 31 | File | `/wp-json/oembed/1.0/embed?url` | High
-32 | ... | ... | ...
+32 | File | `/xyhai.php?s=/Auth/editUser` | High
+33 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -101,6 +102,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://blog.talosintelligence.com/2020/04/threat-roundup-0417-0424.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
+* https://blog.talosintelligence.com/threat-roundup-0106-0113/
 
 ## Literature
 

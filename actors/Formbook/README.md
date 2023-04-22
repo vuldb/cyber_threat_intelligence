@@ -87,7 +87,7 @@ ID | IP address | Hostname | Campaign | Confidence
 58 | [44.230.85.241](https://vuldb.com/?ip.44.230.85.241) | ec2-44-230-85-241.us-west-2.compute.amazonaws.com | - | Medium
 59 | ... | ... | ... | ...
 
-There are 233 more IOC items available. Please use our online service to access the data.
+There are 234 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -149,6 +149,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0127-0203/
 * https://blog.talosintelligence.com/threat-roundup-0217-0224/
 * https://blog.talosintelligence.com/threat-roundup-0324-0331-2/
+* https://blog.talosintelligence.com/threat-roundup-0331-0407-2/
 * https://blog.talosintelligence.com/threat-roundup-1111-1118/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://cert.gov.ua/article/37688

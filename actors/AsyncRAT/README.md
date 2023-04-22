@@ -54,7 +54,8 @@ ID | Type | Indicator | Confidence
 5 | File | `/ucms/chk.php` | High
 6 | File | `/uncpath/` | Medium
 7 | File | `5.2.9\syscrb.exe` | High
-8 | ... | ... | ...
+8 | File | `admin/category.inc.php` | High
+9 | ... | ... | ...
 
 There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

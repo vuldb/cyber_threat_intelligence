@@ -53,13 +53,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,57 +67,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `.qpopper-options` | High
-4 | File | `/api/v1/containers` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/apps/` | Low
-7 | File | `/backupsettings.conf` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/debug/pprof` | Medium
-10 | File | `/modules/snf/index.php` | High
-11 | File | `/Online%20Course%20Registration/my-profile.php` | High
-12 | File | `/opt/mysql` | Medium
-13 | File | `/private/sessions` | High
-14 | File | `/root/*.db` | Medium
+1 | File | `.kss.pid` | Medium
+2 | File | `.qpopper-options` | High
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/apply_noauth.cgi` | High
+5 | File | `/bin/sh` | Low
+6 | File | `/common/sysFile/list` | High
+7 | File | `/context/%2e/WEB-INF/web.xml` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/etc/openstack-dashboard/local_settings` | High
+10 | File | `/goform/addressNat` | High
+11 | File | `/js/player/dmplayer/dmku/index.php` | High
+12 | File | `/modules/snf/index.php` | High
+13 | File | `/orrs/admin/?page=user/manage_user` | High
+14 | File | `/secure/QueryComponent!Default.jspa` | High
 15 | File | `/subtitles.php` | High
 16 | File | `/tmp` | Low
 17 | File | `/var/avamar/f_cache.dat` | High
 18 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
 19 | File | `26.html` | Low
-20 | File | `ActivityStarter.java` | High
-21 | File | `add_postit.php` | High
-22 | File | `admin.php` | Medium
-23 | File | `admin/index.php?id=filesmanager&path=uploads/` | High
-24 | File | `admin/manage-fields.php` | High
-25 | File | `admin/shophelp.php` | High
-26 | File | `admin/wp-security-blacklist-menu.php` | High
-27 | File | `administration.jsp` | High
-28 | File | `adminquery.php` | High
-29 | File | `ajaxRequest/methodCall.do` | High
-30 | File | `Alias.asmx` | Medium
-31 | File | `ansfaq.asp` | Medium
-32 | File | `api.php/List/index` | High
-33 | File | `APKINDEX.tar.gz` | High
-34 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-35 | File | `appconfig.ini` | High
-36 | File | `appGet.cgi` | Medium
-37 | File | `application/core/Survey_Common_Action.php` | High
-38 | File | `archivejson.cgi` | High
-39 | File | `authpam.c` | Medium
-40 | File | `autocms.php` | Medium
-41 | File | `avahi-core/socket.c` | High
-42 | File | `AvailableApps.php` | High
-43 | File | `banner.php` | Medium
-44 | File | `boundary_rules.jsp` | High
-45 | File | `calendar.php` | Medium
-46 | File | `calendar_scheduler.php` | High
-47 | File | `cal_config.inc.php` | High
-48 | File | `channels/chan_sip.c` | High
-49 | ... | ... | ...
+20 | File | `add_postit.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/shophelp.php` | High
+23 | File | `admin/wp-security-blacklist-menu.php` | High
+24 | File | `administration.jsp` | High
+25 | File | `adminquery.php` | High
+26 | File | `ajaxRequest/methodCall.do` | High
+27 | File | `ansfaq.asp` | Medium
+28 | File | `ApiController.class.php` | High
+29 | File | `APKINDEX.tar.gz` | High
+30 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+31 | File | `appconfig.ini` | High
+32 | File | `appGet.cgi` | Medium
+33 | File | `ArchivesMapper.xml` | High
+34 | File | `AtlTraceTool8.exe` | High
+35 | File | `authpam.c` | Medium
+36 | File | `autocms.php` | Medium
+37 | File | `avahi-core/socket.c` | High
+38 | File | `banner.php` | Medium
+39 | File | `boundary_rules.jsp` | High
+40 | File | `bsc_sms_send.php` | High
+41 | File | `buffer.c` | Medium
+42 | File | `calendar.php` | Medium
+43 | File | `calendar_scheduler.php` | High
+44 | File | `cal_config.inc.php` | High
+45 | File | `cashconfirm.php` | High
+46 | File | `channels/chan_sip.c` | High
+47 | File | `chrome-devtools-frontend.appspot.com` | High
+48 | ... | ... | ...
 
-There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

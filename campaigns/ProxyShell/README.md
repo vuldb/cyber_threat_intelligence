@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
 There are 26 more country items available. Please use our online service to access the data.
@@ -108,7 +108,7 @@ ID | Type | Indicator | Confidence
 48 | File | `/sys/dict/queryTableData` | High
 49 | ... | ... | ...
 
-There are 427 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

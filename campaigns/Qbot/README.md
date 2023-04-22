@@ -99,15 +99,15 @@ ID | Type | Indicator | Confidence
 1 | File | `/../conf/config.properties` | High
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-4 | File | `/aya/module/admin/fst_down.inc.php` | High
-5 | File | `/boat/login.php` | High
-6 | File | `/bsms_ci/index.php/user/edit_user/` | High
-7 | File | `/componetns/user/class.user.php` | High
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/wizard_end` | High
-11 | File | `/ims/login.php` | High
-12 | File | `/include/chart_generator.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/aya/module/admin/fst_down.inc.php` | High
+6 | File | `/boat/login.php` | High
+7 | File | `/bsms_ci/index.php/user/edit_user/` | High
+8 | File | `/componetns/user/class.user.php` | High
+9 | File | `/etc/tomcat8/Catalina/attack` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/wizard_end` | High
+12 | File | `/ims/login.php` | High
 13 | File | `/mhds/clinic/view_details.php` | High
 14 | File | `/modules/profile/index.php` | High
 15 | File | `/out.php` | Medium
@@ -126,10 +126,9 @@ ID | Type | Indicator | Confidence
 28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 29 | File | `action-visitor.php` | High
 30 | File | `action.php` | Medium
-31 | File | `adclick.php` | Medium
-32 | ... | ... | ...
+31 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

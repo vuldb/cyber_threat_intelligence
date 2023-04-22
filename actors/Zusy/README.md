@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -141,51 +141,52 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/api/theme-edit/` | High
 6 | File | `/admin/doctors.php` | High
 7 | File | `/admin/index3.php` | High
-8 | File | `/admin/submit-articles` | High
-9 | File | `/admin/transactions/update_status.php` | High
-10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/alphaware/summary.php` | High
-12 | File | `/api/` | Low
-13 | File | `/api/admin/store/product/list` | High
-14 | File | `/attachments` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/bsms_ci/index.php/book` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/classes/Master.php?f=save_sub_category` | High
-19 | File | `/cms/category/list` | High
-20 | File | `/context/%2e/WEB-INF/web.xml` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/Default/Bd` | Medium
-23 | File | `/ebics-server/ebics.aspx` | High
-24 | File | `/egroupware/index.php` | High
-25 | File | `/etc/hosts` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/forums/editforum.php` | High
-28 | File | `/goform/CertListInfo` | High
-29 | File | `/goform/wizard_end` | High
-30 | File | `/hrm/employeeview.php` | High
-31 | File | `/index.php?module=entities/entities` | High
-32 | File | `/librarian/bookdetails.php` | High
-33 | File | `/loginsave.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/messageboard/view.php` | High
-36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-37 | File | `/out.php` | Medium
-38 | File | `/param.file.tgz` | High
-39 | File | `/proxy` | Low
-40 | File | `/public_html/users.php` | High
-41 | File | `/reservation/add_message.php` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/sys/duplicate/check` | High
-44 | File | `/textpattern/index.php` | High
-45 | File | `/tmp` | Low
-46 | File | `/uncpath/` | Medium
-47 | File | `/user/s.php` | Medium
-48 | File | `/var/log/nginx` | High
-49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-50 | ... | ... | ...
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/admin/transactions/update_status.php` | High
+11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+12 | File | `/alphaware/summary.php` | High
+13 | File | `/api/` | Low
+14 | File | `/api/admin/store/product/list` | High
+15 | File | `/attachments` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin/wlogin.cgi` | High
+19 | File | `/classes/Master.php?f=save_sub_category` | High
+20 | File | `/cms/category/list` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/Default/Bd` | Medium
+24 | File | `/ebics-server/ebics.aspx` | High
+25 | File | `/egroupware/index.php` | High
+26 | File | `/etc/hosts` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/forums/editforum.php` | High
+29 | File | `/goform/CertListInfo` | High
+30 | File | `/goform/wizard_end` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/index.php?module=entities/entities` | High
+33 | File | `/librarian/bookdetails.php` | High
+34 | File | `/loginsave.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/messageboard/view.php` | High
+37 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+38 | File | `/out.php` | Medium
+39 | File | `/param.file.tgz` | High
+40 | File | `/proxy` | Low
+41 | File | `/public_html/users.php` | High
+42 | File | `/reservation/add_message.php` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/sys/duplicate/check` | High
+45 | File | `/textpattern/index.php` | High
+46 | File | `/tmp` | Low
+47 | File | `/uncpath/` | Medium
+48 | File | `/user/s.php` | Medium
+49 | File | `/var/log/nginx` | High
+50 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+51 | ... | ... | ...
 
-There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

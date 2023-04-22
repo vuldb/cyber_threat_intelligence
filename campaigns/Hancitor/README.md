@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Hancitor:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
-* [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -67,11 +67,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,26 +87,32 @@ ID | Type | Indicator | Confidence
 7 | File | `/h/calendar` | Medium
 8 | File | `/hrm/employeeview.php` | High
 9 | File | `/index.php` | Medium
-10 | File | `/lists/index.php` | High
-11 | File | `/login` | Low
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/lists/index.php` | High
 12 | File | `/members/view_member.php` | High
-13 | File | `/modules/profile/index.php` | High
+13 | File | `/messageboard/view.php` | High
 14 | File | `/nova/bin/console` | High
 15 | File | `/nova/bin/detnet` | High
 16 | File | `/objects/getImageMP4.php` | High
 17 | File | `/one_church/userregister.php` | High
 18 | File | `/out.php` | Medium
 19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/replication` | Medium
-22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-25 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | ... | ... | ...
+20 | File | `/rom-0` | Low
+21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+25 | File | `/textpattern/index.php` | High
+26 | File | `/trx_addons/v2/get/sc_layout` | High
+27 | File | `/v2/quantum/save-data-upload-big-file` | High
+28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+29 | File | `/wp-json` | Medium
+30 | File | `/wp-json/oembed/1.0/embed?url` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `adclick.php` | Medium
+33 | ... | ... | ...
 
-There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

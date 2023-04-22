@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Prophet Spider:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Prophet Spider:
 
 * [US](https://vuldb.com/?country.us)
-* [SC](https://vuldb.com/?country.sc)
 * [RU](https://vuldb.com/?country.ru)
+* [SC](https://vuldb.com/?country.sc)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -62,37 +62,43 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
-2 | File | `/admin` | Low
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/index3.php` | High
-5 | File | `/admin_area/login_transfer.php` | High
-6 | File | `/adms/admin/?page=user/manage_user` | High
-7 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-8 | File | `/ajax/update_certificate` | High
-9 | File | `/alphaware/details.php` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/bsms_ci/index.php/book` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/etc/shadow` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/forums.php?action=post` | High
-16 | File | `/fudforum/adm/hlplist.php` | High
-17 | File | `/goform/formDefault` | High
-18 | File | `/goform/formSysCmd` | High
-19 | File | `/goform/fromSetWirelessRepeat` | High
-20 | File | `/index.php` | Medium
-21 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-22 | File | `/login/index.php` | High
-23 | File | `/Moosikay/order.php` | High
-24 | File | `/philosophy/admin/user/controller.php?action=add` | High
-25 | File | `/php-opos/signup.php` | High
-26 | File | `/SetNetworkSettings/SubnetMask` | High
-27 | File | `/setNTP.cgi` | Medium
-28 | File | `/textpattern/index.php` | High
-29 | File | `/tpts/manage_user.php` | High
-30 | ... | ... | ...
+2 | File | `/?p=products` | Medium
+3 | File | `/admin` | Low
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/deduction_row.php` | High
+8 | File | `/admin/employee_row.php` | High
+9 | File | `/admin/index3.php` | High
+10 | File | `/admin/login.php` | High
+11 | File | `/admin/maintenance/brand.php` | High
+12 | File | `/admin/maintenance/manage_category.php` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/mechanics/manage_mechanic.php` | High
+15 | File | `/admin/offenses/view_details.php` | High
+16 | File | `/admin/report/index.php` | High
+17 | File | `/admin/service_requests/manage_inventory.php` | High
+18 | File | `/admin/userprofile.php` | High
+19 | File | `/admin_area/login_transfer.php` | High
+20 | File | `/adms/admin/?page=user/manage_user` | High
+21 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+22 | File | `/ajax/update_certificate` | High
+23 | File | `/alphaware/details.php` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/bsms_ci/index.php/book` | High
+26 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+27 | File | `/cgi-bin/touchlist_sync.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/classes/Login.php` | High
+30 | File | `/classes/Master.php` | High
+31 | File | `/classes/Master.php?f=delete_sub_category` | High
+32 | File | `/classes/Users.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/forums.php?action=post` | High
+35 | File | `/fudforum/adm/hlplist.php` | High
+36 | ... | ... | ...
 
-There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

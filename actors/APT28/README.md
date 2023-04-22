@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -97,7 +97,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -106,35 +106,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
-2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-6 | File | `/core/conditions/AbstractWrapper.java` | High
-7 | File | `/dashboard/updatelogo.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/etc/openshift/server_priv.pem` | High
-10 | File | `/export` | Low
-11 | File | `/file?action=download&file` | High
-12 | File | `/hardware` | Medium
-13 | File | `/index.php` | Medium
-14 | File | `/medical/inventories.php` | High
-15 | File | `/mgmt/tm/util/bash` | High
-16 | File | `/mkshop/Men/profile.php` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/MTFWU` | Low
-19 | File | `/Noxen-master/users.php` | High
-20 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-21 | File | `/plugin/LiveChat/getChat.json.php` | High
-22 | File | `/plugins/servlet/audit/resource` | High
-23 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-24 | File | `/REBOOTSYSTEM` | High
-25 | File | `/replication` | Medium
-26 | File | `/RestAPI` | Medium
+2 | File | `/admin/subnets/ripe-query.php` | High
+3 | File | `/core/conditions/AbstractWrapper.java` | High
+4 | File | `/dashboard/updatelogo.php` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/etc/openshift/server_priv.pem` | High
+7 | File | `/export` | Low
+8 | File | `/file?action=download&file` | High
+9 | File | `/hardware` | Medium
+10 | File | `/index.php` | Medium
+11 | File | `/messageboard/view.php` | High
+12 | File | `/mgmt/tm/util/bash` | High
+13 | File | `/mkshop/Men/profile.php` | High
+14 | File | `/modules/projects/vw_files.php` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/MTFWU` | Low
+17 | File | `/Noxen-master/users.php` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/REBOOTSYSTEM` | High
+23 | File | `/replication` | Medium
+24 | File | `/RestAPI` | Medium
+25 | File | `/servlet/webacc` | High
+26 | File | `/textpattern/index.php` | High
 27 | File | `/tmp/zarafa-vacation-*` | High
-28 | ... | ... | ...
+28 | File | `/uncpath/` | Medium
+29 | File | `/upload` | Low
+30 | File | `/user/loader.php?api=1` | High
+31 | File | `/usr/bin/at` | Medium
+32 | File | `/var/log/nginx` | High
+33 | File | `/var/run/watchman.pid` | High
+34 | File | `/viewer/krpano.html` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/wp-json/wc/v3/webhooks` | High
+37 | File | `20review.asp` | Medium
+38 | File | `account.asp` | Medium
+39 | File | `ActivityManagerService.java` | High
+40 | File | `additem.asp` | Medium
+41 | File | `admin.a6mambocredits.php` | High
+42 | File | `admin.cropcanvas.php` | High
+43 | File | `admin.joomlaradiov5.php` | High
+44 | File | `admin.php` | Medium
+45 | File | `admin.remository.php` | High
+46 | File | `admin/addons/archive/archive.php` | High
+47 | File | `adminAvatars.php` | High
+48 | File | `AdxDSrv.exe` | Medium
+49 | ... | ... | ...
 
-There are 236 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

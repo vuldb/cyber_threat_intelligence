@@ -370,37 +370,37 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/` | Low
 2 | File | `/admin/cashadvance_row.php` | High
-3 | File | `/APR/login.php` | High
-4 | File | `/APR/signup.php` | High
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/mims/login.php` | High
-8 | File | `/mygym/admin/index.php?view_exercises` | High
-9 | File | `/php-opos/index.php` | High
-10 | File | `/php-scrm/login.php` | High
-11 | File | `/public/launchNewWindow.jsp` | High
-12 | File | `/textpattern/index.php` | High
-13 | File | `/tmp` | Low
-14 | File | `/user/updatePwd` | High
-15 | File | `account-signup.php` | High
-16 | File | `account/signup.php` | High
-17 | File | `activenews_view.asp` | High
-18 | File | `addentry.php` | Medium
-19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-20 | File | `admin.php` | Medium
-21 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-22 | File | `admin/admin_editor.php` | High
-23 | File | `admin/conf_users_edit.php` | High
-24 | File | `admin/edit_category.php` | High
-25 | File | `adminer.php` | Medium
-26 | File | `AjaxFileUploadHandler.axd` | High
-27 | File | `AndroidManifest.xml` | High
-28 | File | `articulo.php` | Medium
-29 | File | `art_detalle.php` | High
-30 | File | `awstats.pl` | Medium
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/userprofile.php` | High
+5 | File | `/APR/login.php` | High
+6 | File | `/APR/signup.php` | High
+7 | File | `/cgi-bin/wapopen` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/mims/login.php` | High
+10 | File | `/mygym/admin/index.php?view_exercises` | High
+11 | File | `/php-scrm/login.php` | High
+12 | File | `/public/launchNewWindow.jsp` | High
+13 | File | `/textpattern/index.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/user/updatePwd` | High
+16 | File | `account-signup.php` | High
+17 | File | `account/signup.php` | High
+18 | File | `activenews_view.asp` | High
+19 | File | `addentry.php` | Medium
+20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+23 | File | `admin/admin_editor.php` | High
+24 | File | `admin/auditTrail.jsf` | High
+25 | File | `admin/conf_users_edit.php` | High
+26 | File | `admin/edit_category.php` | High
+27 | File | `adminer.php` | Medium
+28 | File | `AjaxFileUploadHandler.axd` | High
+29 | File | `AndroidManifest.xml` | High
+30 | File | `articulo.php` | Medium
 31 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

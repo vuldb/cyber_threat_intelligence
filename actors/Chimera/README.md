@@ -71,19 +71,19 @@ ID | Type | Indicator | Confidence
 22 | File | `/public/login.htm` | High
 23 | File | `/rukovoditel/index.php?module=users/login` | High
 24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/shell` | Low
-26 | File | `/spip.php` | Medium
-27 | File | `/static/ueditor/php/controller.php` | High
-28 | File | `/v1/tokens` | Medium
-29 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-admin/options.php` | High
-33 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-35 | File | `adclick.php` | Medium
-36 | File | `admin-ajax.php` | High
-37 | File | `admin.php` | Medium
+25 | File | `/spip.php` | Medium
+26 | File | `/static/ueditor/php/controller.php` | High
+27 | File | `/v1/tokens` | Medium
+28 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
+29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-admin/options.php` | High
+32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+34 | File | `adclick.php` | Medium
+35 | File | `admin-ajax.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/template/js/uploadify/uploadify.swf` | High
 38 | ... | ... | ...
 
 There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

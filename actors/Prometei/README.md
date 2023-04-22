@@ -43,14 +43,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/inquiries/view_details.php` | High
-2 | File | `/cgi-bin/touchlist_sync.cgi` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/LogoStore/search.php` | High
-5 | File | `/mhds/clinic/view_details.php` | High
-6 | File | `/newsDia.php` | Medium
-7 | ... | ... | ...
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/cgi-bin/touchlist_sync.cgi` | High
+4 | File | `/forum/away.php` | High
+5 | File | `/LogoStore/search.php` | High
+6 | File | `/mhds/clinic/view_details.php` | High
+7 | File | `/newsDia.php` | Medium
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

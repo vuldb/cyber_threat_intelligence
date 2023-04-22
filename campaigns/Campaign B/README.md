@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Campaign B:
 
 * [NZ](https://vuldb.com/?country.nz)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -49,7 +49,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -71,28 +71,28 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin_giant/add_gallery.php` | High
 6 | File | `/admin_giant/add_team_member.php` | High
 7 | File | `/ajax/networking/get_netcfg.php` | High
-8 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-9 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
-10 | File | `/config/getuser` | High
-11 | File | `/etc/passwd` | Medium
-12 | File | `/etc/tomcat8/Catalina/attack` | High
-13 | File | `/filemanager/upload.php` | High
-14 | File | `/include/chart_generator.php` | High
-15 | File | `/login` | Low
-16 | File | `/mgmt/tm/util/bash` | High
-17 | File | `/panel/uploads` | High
-18 | File | `/product.php` | Medium
-19 | File | `/see_more_details.php` | High
-20 | File | `/Side.php` | Medium
-21 | File | `/start_apply.htm` | High
-22 | File | `/tmp/app/.env` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/uploads/exam_question/` | High
-25 | File | `/usr/local/www/pkg.php` | High
-26 | File | `/vdesk` | Low
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/cloud_config/router_post/reset_cloud_pwd` | High
+12 | File | `/config/getuser` | High
+13 | File | `/etc/passwd` | Medium
+14 | File | `/etc/tomcat8/Catalina/attack` | High
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/include/chart_generator.php` | High
+17 | File | `/login` | Low
+18 | File | `/mgmt/tm/util/bash` | High
+19 | File | `/panel/uploads` | High
+20 | File | `/product.php` | Medium
+21 | File | `/see_more_details.php` | High
+22 | File | `/Side.php` | Medium
+23 | File | `/tmp/app/.env` | High
+24 | File | `/uncpath/` | Medium
+25 | File | `/uploads/exam_question/` | High
+26 | File | `/usr/local/www/pkg.php` | High
 27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -70,31 +70,31 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/add-new.php` | High
 4 | File | `/admin/admin.php` | High
 5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/edit_members.php` | High
+6 | File | `/admin/report/index.php` | High
 7 | File | `/admin/submit-articles` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/attachments` | Medium
-12 | File | `/aux` | Low
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/etc/os-release` | High
-19 | File | `/event/admin/?page=user/list` | High
+8 | File | `/admin/suppliers/view_details.php` | High
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/attachments` | Medium
+13 | File | `/aux` | Low
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/book` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/etc/hosts` | Medium
+19 | File | `/etc/os-release` | High
 20 | File | `/forum/away.php` | High
 21 | File | `/goform/addUserName` | High
 22 | File | `/goform/form2WizardStep4` | High
 23 | File | `/goform/formSetEmail` | High
-24 | File | `/goform/SetIpMacBind` | High
-25 | File | `/goform/WifiBasicSet` | High
-26 | File | `/hprms/admin/rooms/view_room.php` | High
-27 | File | `/hrm/controller/employee.php` | High
-28 | File | `/hrm/controller/login.php` | High
-29 | File | `/hss/?page=categories` | High
-30 | File | `/inc/parser/xhtml.php` | High
+24 | File | `/goform/WifiBasicSet` | High
+25 | File | `/hprms/admin/rooms/view_room.php` | High
+26 | File | `/hrm/controller/employee.php` | High
+27 | File | `/hrm/controller/login.php` | High
+28 | File | `/hss/?page=categories` | High
+29 | File | `/inc/parser/xhtml.php` | High
+30 | File | `/inc/topBarNav.php` | High
 31 | File | `/index/user/upload_img.html` | High
 32 | File | `/js/player/dmplayer/dmku/index.php` | High
 33 | File | `/linkedcontent/listfiles.php` | High
@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 46 | File | `/statistics/retrieve` | High
 47 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

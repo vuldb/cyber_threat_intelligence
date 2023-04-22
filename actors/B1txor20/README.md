@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -60,51 +60,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+1 | File | `/?p=products` | Medium
 2 | File | `/admin` | Low
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/index3.php` | High
-8 | File | `/admin/product/manage.php` | High
-9 | File | `/admin_area/login_transfer.php` | High
-10 | File | `/adms/admin/?page=user/manage_user` | High
-11 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-12 | File | `/ajax/update_certificate` | High
-13 | File | `/alphaware/details.php` | High
-14 | File | `/alphaware/summary.php` | High
-15 | File | `/api/` | Low
-16 | File | `/api/admin/store/product/list` | High
-17 | File | `/api/gen/clients/{language}` | High
-18 | File | `/apply.cgi` | Medium
-19 | File | `/articles/{id}` | High
-20 | File | `/boat/login.php` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/config/myfield/test.php` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/ecshop/admin/template.php` | High
-25 | File | `/eduauth/student/search.php` | High
-26 | File | `/forum/away.php` | High
-27 | File | `/fudforum/adm/hlplist.php` | High
-28 | File | `/geoserver/rest/about/status` | High
-29 | File | `/goform/formDefault` | High
-30 | File | `/goform/formLogin` | High
-31 | File | `/goform/formSysCmd` | High
-32 | File | `/goform/fromSetWirelessRepeat` | High
-33 | File | `/goform/WifiBasicSet` | High
-34 | File | `/list.php` | Medium
-35 | File | `/login/index.php` | High
-36 | File | `/Moosikay/order.php` | High
-37 | File | `/philosophy/admin/user/controller.php?action=add` | High
-38 | File | `/php-opos/signup.php` | High
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/SetNetworkSettings/SubnetMask` | High
-41 | File | `/setNTP.cgi` | Medium
-42 | File | `/spip.php` | Medium
-43 | ... | ... | ...
+6 | File | `/admin/attendance_row.php` | High
+7 | File | `/admin/cashadvance_row.php` | High
+8 | File | `/admin/deduction_row.php` | High
+9 | File | `/admin/doctors.php` | High
+10 | File | `/admin/employee_row.php` | High
+11 | File | `/admin/index3.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/maintenance/brand.php` | High
+14 | File | `/admin/maintenance/manage_category.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/mechanics/manage_mechanic.php` | High
+17 | File | `/admin/offenses/view_details.php` | High
+18 | File | `/admin/product/manage.php` | High
+19 | File | `/admin/report/index.php` | High
+20 | File | `/admin/service_requests/manage_inventory.php` | High
+21 | File | `/admin/transactions/track_shipment.php` | High
+22 | File | `/admin/userprofile.php` | High
+23 | File | `/admin_area/login_transfer.php` | High
+24 | File | `/adms/admin/?page=user/manage_user` | High
+25 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+26 | File | `/ajax/update_certificate` | High
+27 | File | `/alphaware/details.php` | High
+28 | File | `/alphaware/summary.php` | High
+29 | File | `/api/` | Low
+30 | File | `/api/admin/store/product/list` | High
+31 | File | `/api/gen/clients/{language}` | High
+32 | File | `/apply.cgi` | Medium
+33 | File | `/articles/{id}` | High
+34 | File | `/boat/login.php` | High
+35 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+36 | File | `/cgi-bin/touchlist_sync.cgi` | High
+37 | File | `/cgi-bin/wlogin.cgi` | High
+38 | File | `/classes/Login.php` | High
+39 | File | `/classes/Master.php` | High
+40 | File | `/classes/Master.php?f=delete_sub_category` | High
+41 | File | `/classes/Users.php` | High
+42 | File | `/config/myfield/test.php` | High
+43 | File | `/debug/pprof` | Medium
+44 | File | `/ecshop/admin/template.php` | High
+45 | File | `/eduauth/student/search.php` | High
+46 | File | `/fudforum/adm/hlplist.php` | High
+47 | File | `/geoserver/rest/about/status` | High
+48 | ... | ... | ...
 
-There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

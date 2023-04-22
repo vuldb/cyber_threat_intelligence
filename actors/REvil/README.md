@@ -67,24 +67,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/cgi-bin/nasset.cgi` | High
 5 | File | `/cgi-bin/webadminget.cgi` | High
 6 | File | `/cms/process.php` | High
-7 | File | `/etc/shadow` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/goform/SetNetControlList` | High
-10 | File | `/hrm/controller/employee.php` | High
-11 | File | `/index.php/weblinks-categories` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/movie.php` | Medium
-14 | File | `/public/login.htm` | High
-15 | File | `/service/v1/createUser` | High
-16 | File | `/show_news.php` | High
-17 | File | `/system?action=ServiceAdmin` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-20 | File | `adclick.php` | Medium
-21 | File | `admin.asp` | Medium
+7 | File | `/DXR.axd` | Medium
+8 | File | `/etc/shadow` | Medium
+9 | File | `/forum/away.php` | High
+10 | File | `/goform/SetNetControlList` | High
+11 | File | `/hrm/controller/employee.php` | High
+12 | File | `/index.php/weblinks-categories` | High
+13 | File | `/modules/profile/index.php` | High
+14 | File | `/movie.php` | Medium
+15 | File | `/public/login.htm` | High
+16 | File | `/service/v1/createUser` | High
+17 | File | `/show_news.php` | High
+18 | File | `/system?action=ServiceAdmin` | High
+19 | File | `/uncpath/` | Medium
+20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+21 | File | `adclick.php` | Medium
 22 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -82,23 +82,23 @@ ID | Type | Indicator | Confidence
 21 | File | `/home/kickPlayer` | High
 22 | File | `/home/masterConsole` | High
 23 | File | `/home/sendBroadcast` | High
-24 | File | `/html/portal/flash.jsp` | High
-25 | File | `/include/chart_generator.php` | High
-26 | File | `/lan.asp` | Medium
-27 | File | `/librarian/bookdetails.php` | High
-28 | File | `/loginVaLidation.php` | High
-29 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-30 | File | `/metrics` | Medium
-31 | File | `/MIME/INBOX-MM-1/` | High
-32 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-33 | File | `/photo/webapi/photo.php` | High
-34 | File | `/plesk-site-preview/` | High
-35 | File | `/requests.php` | High
-36 | File | `/resources//../` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
+24 | File | `/include/chart_generator.php` | High
+25 | File | `/lan.asp` | Medium
+26 | File | `/librarian/bookdetails.php` | High
+27 | File | `/loginVaLidation.php` | High
+28 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
+29 | File | `/metrics` | Medium
+30 | File | `/MIME/INBOX-MM-1/` | High
+31 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+32 | File | `/photo/webapi/photo.php` | High
+33 | File | `/plesk-site-preview/` | High
+34 | File | `/requests.php` | High
+35 | File | `/resources//../` | High
+36 | File | `/secure/QueryComponent!Default.jspa` | High
+37 | File | `/setSystemAdmin` | High
 38 | ... | ... | ...
 
-There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

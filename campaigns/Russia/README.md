@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Russia:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [IO](https://vuldb.com/?country.io)
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -2447,13 +2447,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -2463,54 +2463,46 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `/about/../` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/?page=user/manage` | High
-6 | File | `/admin/add-new.php` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/doctors.php` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/admin/system/store/order/list` | High
-13 | File | `/api/blade-log/api/list` | High
-14 | File | `/api/jmeter/download/files` | High
-15 | File | `/api/upload` | Medium
-16 | File | `/APR/login.php` | High
-17 | File | `/APR/signup.php` | High
-18 | File | `/authUserAction!edit.action` | High
-19 | File | `/boat/login.php` | High
-20 | File | `/cgi-bin/DownloadFlash` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/common/sysFile/list` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/DXR.axd` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/addressNat` | High
-28 | File | `/js/player/dmplayer/dmku/index.php` | High
-29 | File | `/j_security_check` | High
-30 | File | `/librarian/bookdetails.php` | High
-31 | File | `/loginsave.php` | High
-32 | File | `/magnoliaPublic/travel/members/login.html` | High
-33 | File | `/mims/login.php` | High
-34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-35 | File | `/proxy` | Low
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | File | `/reservation/add_message.php` | High
-38 | File | `/rest/api/2/search` | High
-39 | File | `/rest/project-templates/1.0/createshared` | High
-40 | File | `/secure/QueryComponent!Default.jspa` | High
-41 | File | `/Session` | Medium
-42 | File | `/spip.php` | Medium
-43 | File | `/textpattern/index.php` | High
-44 | File | `/tmp` | Low
-45 | File | `/tool/gen/createTable` | High
-46 | File | `/user/updatePwd` | High
-47 | File | `/vendor/views/add_product.php` | High
-48 | ... | ... | ...
+3 | File | `/admin/?page=reminders/view_reminder` | High
+4 | File | `/admin/cashadvance_row.php` | High
+5 | File | `/admin/categories/manage_category.php` | High
+6 | File | `/admin/categories/view_category.php` | High
+7 | File | `/Admin/createClass.php` | High
+8 | File | `/admin/curriculum/view_curriculum.php` | High
+9 | File | `/admin/departments/view_department.php` | High
+10 | File | `/admin/index2.html` | High
+11 | File | `/admin/inventory/manage_stock.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/maintenance/manage_category.php` | High
+14 | File | `/admin/maintenance/view_designation.php` | High
+15 | File | `/admin/mechanics/manage_mechanic.php` | High
+16 | File | `/admin/offenses/view_details.php` | High
+17 | File | `/admin/products/manage_product.php` | High
+18 | File | `/admin/products/view_product.php` | High
+19 | File | `/admin/reminders/manage_reminder.php` | High
+20 | File | `/admin/report/index.php` | High
+21 | File | `/admin/sales/manage_sale.php` | High
+22 | File | `/admin/sales/view_details.php` | High
+23 | File | `/admin/service_requests/manage_inventory.php` | High
+24 | File | `/admin/students/view_details.php` | High
+25 | File | `/admin/suppliers/view_details.php` | High
+26 | File | `/admin/user/manage_user.php` | High
+27 | File | `/admin/userprofile.php` | High
+28 | File | `/api/` | Low
+29 | File | `/api/admin/store/product/list` | High
+30 | File | `/api/admin/system/store/order/list` | High
+31 | File | `/api/blade-log/api/list` | High
+32 | File | `/authUserAction!edit.action` | High
+33 | File | `/cgi-bin/DownloadFlash` | High
+34 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/classes/Login.php` | High
+37 | File | `/classes/Master.php` | High
+38 | File | `/classes/Master.php?f=delete_img` | High
+39 | File | `/classes/Master.php?f=save_brand` | High
+40 | ... | ... | ...
 
-There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

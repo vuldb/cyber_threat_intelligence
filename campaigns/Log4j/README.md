@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4j:
 
-* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4910,13 +4910,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4924,57 +4925,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-3 | File | `/admin/?page=product/manage_product&id=2` | High
-4 | File | `/admin/?page=user` | High
-5 | File | `/admin/?setting-base.htm` | High
-6 | File | `/admin/attendance_row.php` | High
+1 | File | `/admin/?page=reminders/view_reminder` | High
+2 | File | `/admin/?page=user` | High
+3 | File | `/admin/attendance_row.php` | High
+4 | File | `/admin/ballot_down.php` | High
+5 | File | `/admin/ballot_up.php` | High
+6 | File | `/admin/candidates_row.php` | High
 7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/categories/view_category.php` | High
-9 | File | `/admin/deduction_row.php` | High
-10 | File | `/admin/employee_add.php` | High
-11 | File | `/admin/employee_edit.php` | High
-12 | File | `/admin/employee_row.php` | High
-13 | File | `/admin/forgot-password.php` | High
-14 | File | `/admin/login.php` | High
-15 | File | `/admin/maintenance/brand.php` | High
-16 | File | `/admin/product/manage.php` | High
-17 | File | `/admin/products/manage_product.php` | High
-18 | File | `/admin/sales/index.php` | High
-19 | File | `/admin/transactions/track_shipment.php` | High
-20 | File | `/api/gen/clients/{language}` | High
-21 | File | `/bilal final/edit_stud.php` | High
-22 | File | `/bilal final/login.php` | High
-23 | File | `/cgi-bin/DownloadFlash` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/classes/Master.php?f=delete_sub_category` | High
-26 | File | `/classes/Master.php?f=save_brand` | High
-27 | File | `/classes/Master.php?f=save_position` | High
-28 | File | `/classes/Master.php?f=save_sub_category` | High
-29 | File | `/common/info.cgi` | High
-30 | File | `/config/myfield/test.php` | High
-31 | File | `/config/netconf.cmd` | High
-32 | File | `/dayrui/My/Config/Install.txt` | High
-33 | File | `/debug/pprof` | Medium
-34 | File | `/file/upload/1` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/group1/uploa` | High
-37 | File | `/HNAP1` | Low
-38 | File | `/js/player/dmplayer/dmku/index.php` | High
-39 | File | `/librarian/bookdetails.php` | High
-40 | File | `/licenses` | Medium
-41 | File | `/mcategory.php` | High
-42 | File | `/messageboard/view.php` | High
-43 | File | `/modules/profile/index.php` | High
-44 | File | `/public/launchNewWindow.jsp` | High
-45 | File | `/requests.php` | High
-46 | File | `/rest/api/2/search` | High
-47 | File | `/rom-0` | Low
-48 | File | `/sbin/orthrus` | High
-49 | ... | ... | ...
+8 | File | `/admin/categories/manage_category.php` | High
+9 | File | `/admin/categories/view_category.php` | High
+10 | File | `/admin/curriculum/view_curriculum.php` | High
+11 | File | `/admin/deduction_row.php` | High
+12 | File | `/admin/departments/view_department.php` | High
+13 | File | `/admin/employee_row.php` | High
+14 | File | `/admin/forgot-password.php` | High
+15 | File | `/admin/inventory/manage_stock.php` | High
+16 | File | `/admin/login.php` | High
+17 | File | `/admin/maintenance/manage_category.php` | High
+18 | File | `/admin/maintenance/view_designation.php` | High
+19 | File | `/admin/mechanics/manage_mechanic.php` | High
+20 | File | `/admin/offenses/view_details.php` | High
+21 | File | `/admin/positions_add.php` | High
+22 | File | `/admin/positions_delete.php` | High
+23 | File | `/admin/positions_row.php` | High
+24 | File | `/admin/products/manage_product.php` | High
+25 | File | `/admin/products/view_product.php` | High
+26 | File | `/admin/reminders/manage_reminder.php` | High
+27 | File | `/admin/report/index.php` | High
+28 | File | `/admin/sales/manage_sale.php` | High
+29 | File | `/admin/sales/view_details.php` | High
+30 | File | `/admin/service_requests/manage_inventory.php` | High
+31 | File | `/admin/students/view_details.php` | High
+32 | File | `/admin/suppliers/view_details.php` | High
+33 | File | `/admin/transactions/track_shipment.php` | High
+34 | File | `/admin/user/manage_user.php` | High
+35 | File | `/admin/userprofile.php` | High
+36 | File | `/admin/voters_row.php` | High
+37 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 320 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

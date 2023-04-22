@@ -20,8 +20,8 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
 * [DE](https://vuldb.com/?country.de)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -56,7 +56,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -74,52 +74,54 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/api/admin/articles/` | High
 2 | File | `/admin/api/theme-edit/` | High
 3 | File | `/Admin/createClass.php` | High
-4 | File | `/admin/problem_judge.php` | High
-5 | File | `/api/browserextension/UpdatePassword/` | High
-6 | File | `/application/views/themeOptions/update.php` | High
-7 | File | `/attachments` | Medium
-8 | File | `/balance/service/list` | High
-9 | File | `/data/app` | Medium
-10 | File | `/dev/snd/seq` | Medium
-11 | File | `/diagnostic/login.php` | High
-12 | File | `/etc/gsissh/sshd_config` | High
-13 | File | `/etc/master.passwd` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/hrm/controller/login.php` | High
-17 | File | `/login` | Low
-18 | File | `/logs/sql-error.log` | High
-19 | File | `/pages/save_user.php` | High
-20 | File | `/password/reset` | High
-21 | File | `/plugin/getList` | High
-22 | File | `/register/abort` | High
-23 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
-24 | File | `/webservices/download/index.php` | High
-25 | File | `acme_certificate_edit.php` | High
-26 | File | `actions.hsp` | Medium
-27 | File | `AddAppNetworksActivity.java` | High
-28 | File | `AddAppNetworksFragment.java` | High
-29 | File | `admin.php` | Medium
-30 | File | `admin/ajax.attachment.php` | High
-31 | File | `admin/article_save.php` | High
-32 | File | `admin/make_payments.php` | High
-33 | File | `admin/panels/uploader/admin.uploader.php` | High
-34 | File | `admin/stat.main.php` | High
-35 | File | `aiff.c` | Low
-36 | File | `alaw.c` | Low
-37 | File | `Ap4StdCFileByteStream.cpp` | High
-38 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
-39 | File | `app/controllers/code_caller_controller.php` | High
-40 | File | `app/helpers/queries_helper.rb` | High
-41 | File | `app/View/Helper/CommandHelper.php` | High
-42 | File | `app/views/timelog/_list.html.erb` | High
-43 | File | `archive_read_support_format_lha.c` | High
-44 | File | `backend/comics/comics-document.c` | High
-45 | File | `bin/jp2/convert.c` | High
-46 | File | `bitmap/pcfread.c` | High
-47 | ... | ... | ...
+4 | File | `/admin/curriculum/view_curriculum.php` | High
+5 | File | `/admin/departments/view_department.php` | High
+6 | File | `/admin/problem_judge.php` | High
+7 | File | `/admin/suppliers/view_details.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/api/browserextension/UpdatePassword/` | High
+10 | File | `/application/views/themeOptions/update.php` | High
+11 | File | `/attachments` | Medium
+12 | File | `/balance/service/list` | High
+13 | File | `/classes/Users.php` | High
+14 | File | `/config/myfield/test.php` | High
+15 | File | `/data/app` | Medium
+16 | File | `/dev/snd/seq` | Medium
+17 | File | `/diagnostic/login.php` | High
+18 | File | `/etc/gsissh/sshd_config` | High
+19 | File | `/etc/master.passwd` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/goform/WifiBasicSet` | High
+22 | File | `/hrm/controller/login.php` | High
+23 | File | `/login` | Low
+24 | File | `/logs/sql-error.log` | High
+25 | File | `/mogu-picture/file/uploadPicsByUrl` | High
+26 | File | `/pages/save_user.php` | High
+27 | File | `/password/reset` | High
+28 | File | `/plugin/getList` | High
+29 | File | `/register/abort` | High
+30 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
+31 | File | `/webservices/download/index.php` | High
+32 | File | `actions.hsp` | Medium
+33 | File | `adclick.php` | Medium
+34 | File | `AddAppNetworksActivity.java` | High
+35 | File | `AddAppNetworksFragment.java` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/ajax.attachment.php` | High
+38 | File | `admin/article_save.php` | High
+39 | File | `admin/make_payments.php` | High
+40 | File | `admin/panels/uploader/admin.uploader.php` | High
+41 | File | `admin/stat.main.php` | High
+42 | File | `aiff.c` | Low
+43 | File | `alaw.c` | Low
+44 | File | `Ap4StdCFileByteStream.cpp` | High
+45 | File | `api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java` | High
+46 | File | `app/controllers/code_caller_controller.php` | High
+47 | File | `app/helpers/queries_helper.rb` | High
+48 | File | `app/View/Helper/CommandHelper.php` | High
+49 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

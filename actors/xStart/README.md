@@ -93,20 +93,19 @@ ID | Type | Indicator | Confidence
 33 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
 34 | File | `accountsettings_add.html` | High
 35 | File | `aclient.exe` | Medium
-36 | File | `addentry.php` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?c=update&f=unzip` | High
-39 | File | `admin/ajax/op_kandidat.php` | High
-40 | File | `admin/conf_users_edit.php` | High
-41 | File | `admin/domain-fields/` | High
-42 | File | `admin/index.asp` | High
-43 | File | `admin/news.php` | High
-44 | File | `AdminLoginInterceptor.java` | High
-45 | File | `admins.js` | Medium
-46 | File | `advancedsearch.php` | High
-47 | ... | ... | ...
+36 | File | `admin.php` | Medium
+37 | File | `admin.php?c=update&f=unzip` | High
+38 | File | `admin/ajax/op_kandidat.php` | High
+39 | File | `admin/conf_users_edit.php` | High
+40 | File | `admin/domain-fields/` | High
+41 | File | `admin/index.asp` | High
+42 | File | `admin/news.php` | High
+43 | File | `AdminLoginInterceptor.java` | High
+44 | File | `admins.js` | Medium
+45 | File | `advancedsearch.php` | High
+46 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

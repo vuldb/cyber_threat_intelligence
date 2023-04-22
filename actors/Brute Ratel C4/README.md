@@ -55,24 +55,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/featured.php` | High
-3 | File | `/admin/newsletter1.php` | High
-4 | File | `/admin/renewaldue.php` | High
-5 | File | `/admin/reports.php` | High
-6 | File | `/admin/web_config.php` | High
-7 | File | `/ajax/ImportCertificate` | High
-8 | File | `/app/controller/Books.php` | High
-9 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-10 | File | `/cgi-bin` | Medium
-11 | File | `/config/service/host.go` | High
-12 | File | `/data/sqldata` | High
-13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-14 | File | `/htmldoc/htmldoc/html.cxx` | High
-15 | File | `/lan.asp` | Medium
-16 | File | `/login.php` | Medium
-17 | ... | ... | ...
+2 | File | `/?p=products` | Medium
+3 | File | `/admin/cashadvance_row.php` | High
+4 | File | `/admin/employee_row.php` | High
+5 | File | `/admin/featured.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/newsletter1.php` | High
+8 | File | `/admin/renewaldue.php` | High
+9 | File | `/admin/reports.php` | High
+10 | File | `/admin/transactions/track_shipment.php` | High
+11 | File | `/admin/web_config.php` | High
+12 | File | `/ajax/ImportCertificate` | High
+13 | File | `/app/controller/Books.php` | High
+14 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+15 | File | `/cgi-bin` | Medium
+16 | File | `/classes/Master.php?f=delete_sub_category` | High
+17 | File | `/config/service/host.go` | High
+18 | ... | ... | ...
 
-There are 136 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

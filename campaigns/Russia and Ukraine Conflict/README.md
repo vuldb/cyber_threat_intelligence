@@ -57,14 +57,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,53 +73,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `//` | Low
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/doctors.php` | High
-5 | File | `/admin/edit-doc.php` | High
-6 | File | `/admin/index3.php` | High
-7 | File | `/admin/patient.php` | High
-8 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/jmeter/download/files` | High
-11 | File | `/api/upload` | Medium
-12 | File | `/APR/login.php` | High
-13 | File | `/backup.pl` | Medium
-14 | File | `/cgi-bin/DownloadFlash` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/files/import` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/forum/PostPrivateMessage` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/home/sendBroadcast` | High
-23 | File | `/j_security_check` | High
-24 | File | `/librarian/bookdetails.php` | High
-25 | File | `/Moosikay/order.php` | High
-26 | File | `/out.php` | Medium
-27 | File | `/param.file.tgz` | High
-28 | File | `/php-opos/index.php` | High
-29 | File | `/public/launchNewWindow.jsp` | High
-30 | File | `/rest/api/2/search` | High
-31 | File | `/royal_event/companyprofile.php` | High
-32 | File | `/tmp/boa-temp` | High
-33 | File | `/user/s.php` | Medium
-34 | File | `/user/updatePwd` | High
-35 | File | `/wireless/guestnetwork.asp` | High
-36 | File | `/wireless/security.asp` | High
-37 | File | `/wp-json` | Medium
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `01article.php` | High
-40 | File | `5.2.9\syscrb.exe` | High
-41 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-42 | File | `ActBar.ocx` | Medium
-43 | File | `action.php` | Medium
-44 | File | `adclick.php` | Medium
-45 | File | `add-locker-form.php` | High
-46 | File | `add_contestant.php` | High
-47 | ... | ... | ...
+3 | File | `/admin/?page=reminders/view_reminder` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/categories/manage_category.php` | High
+6 | File | `/admin/categories/view_category.php` | High
+7 | File | `/admin/curriculum/view_curriculum.php` | High
+8 | File | `/admin/departments/view_department.php` | High
+9 | File | `/admin/doctors.php` | High
+10 | File | `/admin/edit-doc.php` | High
+11 | File | `/admin/index3.php` | High
+12 | File | `/admin/inventory/manage_stock.php` | High
+13 | File | `/admin/maintenance/manage_category.php` | High
+14 | File | `/admin/maintenance/view_designation.php` | High
+15 | File | `/admin/mechanics/manage_mechanic.php` | High
+16 | File | `/admin/offenses/view_details.php` | High
+17 | File | `/admin/patient.php` | High
+18 | File | `/admin/products/manage_product.php` | High
+19 | File | `/admin/products/view_product.php` | High
+20 | File | `/admin/reminders/manage_reminder.php` | High
+21 | File | `/admin/report/index.php` | High
+22 | File | `/admin/sales/manage_sale.php` | High
+23 | File | `/admin/sales/view_details.php` | High
+24 | File | `/admin/service_requests/manage_inventory.php` | High
+25 | File | `/admin/students/view_details.php` | High
+26 | File | `/admin/suppliers/view_details.php` | High
+27 | File | `/admin/user/manage_user.php` | High
+28 | File | `/admin/userprofile.php` | High
+29 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+30 | File | `/alphaware/summary.php` | High
+31 | File | `/api/jmeter/download/files` | High
+32 | File | `/api/upload` | Medium
+33 | File | `/APR/login.php` | High
+34 | File | `/backup.pl` | Medium
+35 | File | `/cgi-bin/DownloadFlash` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | ... | ... | ...
 
-There are 404 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

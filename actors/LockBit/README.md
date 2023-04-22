@@ -72,7 +72,8 @@ ID | Type | Indicator | Confidence
 21 | File | `agent/Core/Controller/SendRequest.cpp` | High
 22 | File | `album_portal.php` | High
 23 | File | `announcements.php` | High
-24 | ... | ... | ...
+24 | File | `api_poller.php` | High
+25 | ... | ... | ...
 
 There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

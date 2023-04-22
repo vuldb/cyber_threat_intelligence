@@ -53,41 +53,42 @@ ID | Type | Indicator | Confidence
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/lab.php` | High
-5 | File | `/assets/components/gallery/connector.php` | High
-6 | File | `/bsms_ci/index.php` | High
-7 | File | `/cms/category/list` | High
-8 | File | `/College/admin/teacher.php` | High
-9 | File | `/Default/Bd` | Medium
-10 | File | `/editbrand.php` | High
-11 | File | `/employeeview.php` | High
-12 | File | `/etc/target` | Medium
-13 | File | `/export` | Low
-14 | File | `/getcfg.php` | Medium
-15 | File | `/goform/WriteFacMac` | High
-16 | File | `/home/kickPlayer` | High
-17 | File | `/home/masterConsole` | High
-18 | File | `/index.php` | Medium
-19 | File | `/lists/admin/user.php` | High
-20 | File | `/mkshop/Men/profile.php` | High
-21 | File | `/movie.php` | Medium
-22 | File | `/news-portal-script/information.php` | High
-23 | File | `/pages/apply_vacancy.php` | High
-24 | File | `/param.file.tgz` | High
-25 | File | `/tmp` | Low
-26 | File | `/uncpath/` | Medium
-27 | File | `/wireless/basic.asp` | High
-28 | File | `/wireless/guestnetwork.asp` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `/_vti_pvt/access.cnf` | High
-31 | File | `adclick.php` | Medium
-32 | File | `admin.php3` | Medium
-33 | File | `admin/abc.php` | High
-34 | File | `admin/add_payment.php` | High
-35 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-36 | File | `admin/disapprove_user.php` | High
-37 | ... | ... | ...
+5 | File | `/admin/login.php` | High
+6 | File | `/assets/components/gallery/connector.php` | High
+7 | File | `/bsms_ci/index.php` | High
+8 | File | `/cms/category/list` | High
+9 | File | `/College/admin/teacher.php` | High
+10 | File | `/Default/Bd` | Medium
+11 | File | `/editbrand.php` | High
+12 | File | `/employeeview.php` | High
+13 | File | `/etc/target` | Medium
+14 | File | `/export` | Low
+15 | File | `/getcfg.php` | Medium
+16 | File | `/goform/WriteFacMac` | High
+17 | File | `/home/kickPlayer` | High
+18 | File | `/home/masterConsole` | High
+19 | File | `/index.php` | Medium
+20 | File | `/lists/admin/user.php` | High
+21 | File | `/mkshop/Men/profile.php` | High
+22 | File | `/movie.php` | Medium
+23 | File | `/news-portal-script/information.php` | High
+24 | File | `/pages/apply_vacancy.php` | High
+25 | File | `/param.file.tgz` | High
+26 | File | `/tmp` | Low
+27 | File | `/uncpath/` | Medium
+28 | File | `/wireless/basic.asp` | High
+29 | File | `/wireless/guestnetwork.asp` | High
+30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+31 | File | `/_vti_pvt/access.cnf` | High
+32 | File | `adclick.php` | Medium
+33 | File | `admin.php3` | Medium
+34 | File | `admin/abc.php` | High
+35 | File | `admin/add_payment.php` | High
+36 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+37 | File | `admin/disapprove_user.php` | High
+38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 323 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

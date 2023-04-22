@@ -51,27 +51,28 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/news/admin/lists/zhuan` | High
 2 | File | `/admin/edit.php` | High
-3 | File | `/admin/profile/save_profile` | High
-4 | File | `/admin/reports.php` | High
-5 | File | `/api/v1/chat.getThreadsList` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/cgi-bin/luci/api/diagnose` | High
-8 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-9 | File | `/coders/palm.c` | High
-10 | File | `/etc/groups` | Medium
-11 | File | `/formSetPortTr` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/goform/wlanPrimaryNetwork` | High
-14 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-15 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-16 | File | `/nova/bin/user` | High
-17 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-18 | File | `/plesk-site-preview/` | High
-19 | File | `/question/ask` | High
-20 | File | `/rest/api/2/search` | High
-21 | ... | ... | ...
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/profile/save_profile` | High
+5 | File | `/admin/reports.php` | High
+6 | File | `/api/v1/chat.getThreadsList` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/cgi-bin/luci/api/diagnose` | High
+9 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+10 | File | `/coders/palm.c` | High
+11 | File | `/etc/groups` | Medium
+12 | File | `/formSetPortTr` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/goform/wlanPrimaryNetwork` | High
+15 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+16 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+17 | File | `/nova/bin/user` | High
+18 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+19 | File | `/plesk-site-preview/` | High
+20 | File | `/question/ask` | High
+21 | File | `/rest/api/2/search` | High
+22 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 180 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -19,12 +19,12 @@ There are 5 more campaign items available. Please use our online service to acce
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Kwampirs:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -137,10 +137,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -152,59 +152,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `%PROGRAMFILES%\1E\Client\Tachyon.Performance.Metrics.exe` | High
-2 | File | `.kss.pid` | Medium
-3 | File | `.qpopper-options` | High
-4 | File | `/api/v1/containers` | High
+1 | File | `.htaccess` | Medium
+2 | File | `/api/admin/system/store/order/list` | High
+3 | File | `/api/gen/clients/{language}` | High
+4 | File | `/api/v2/cli/commands` | High
 5 | File | `/apply_noauth.cgi` | High
-6 | File | `/apps/` | Low
-7 | File | `/backupsettings.conf` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/ctcprotocol/Protocol` | High
-10 | File | `/debug/pprof` | Medium
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/menu.html` | Medium
-14 | File | `/modules/snf/index.php` | High
-15 | File | `/Online%20Course%20Registration/my-profile.php` | High
-16 | File | `/opt/mysql` | Medium
-17 | File | `/private/sessions` | High
-18 | File | `/resources//../` | High
-19 | File | `/root/*.db` | Medium
-20 | File | `/see_more_details.php` | High
-21 | File | `/subtitles.php` | High
-22 | File | `/sys/dict/queryTableData` | High
-23 | File | `/tmp` | Low
-24 | File | `/var/avamar/f_cache.dat` | High
-25 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-26 | File | `26.html` | Low
-27 | File | `add_postit.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/shophelp.php` | High
-30 | File | `admin/wp-security-blacklist-menu.php` | High
-31 | File | `administration.jsp` | High
-32 | File | `adminquery.php` | High
-33 | File | `ajaxRequest/methodCall.do` | High
-34 | File | `Alias.asmx` | Medium
-35 | File | `ansfaq.asp` | Medium
-36 | File | `APKINDEX.tar.gz` | High
-37 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-38 | File | `appconfig.ini` | High
-39 | File | `appGet.cgi` | Medium
-40 | File | `archivejson.cgi` | High
-41 | File | `authpam.c` | Medium
-42 | File | `autocms.php` | Medium
-43 | File | `avahi-core/socket.c` | High
-44 | File | `AvailableApps.php` | High
-45 | File | `banner.php` | Medium
-46 | File | `Binder.java` | Medium
-47 | File | `boundary_rules.jsp` | High
-48 | File | `calendar.php` | Medium
-49 | File | `calendar_scheduler.php` | High
-50 | File | `cal_config.inc.php` | High
-51 | ... | ... | ...
+6 | File | `/bin/sh` | Low
+7 | File | `/CFIDE/probe.cfm` | High
+8 | File | `/cgi-bin/system_mgr.cgi` | High
+9 | File | `/common/sysFile/list` | High
+10 | File | `/context/%2e/WEB-INF/web.xml` | High
+11 | File | `/ctcprotocol/Protocol` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/ebics-server/ebics.aspx` | High
+14 | File | `/etc/openstack-dashboard/local_settings` | High
+15 | File | `/filemanager/upload.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/addressNat` | High
+18 | File | `/HNAP1` | Low
+19 | File | `/HNAP1/SetClientInfo` | High
+20 | File | `/js/player/dmplayer/dmku/index.php` | High
+21 | File | `/KK_LS9ReportingPortal/GetData` | High
+22 | File | `/menu.html` | Medium
+23 | File | `/modules/snf/index.php` | High
+24 | File | `/orrs/admin/?page=user/manage_user` | High
+25 | File | `/resources//../` | High
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/see_more_details.php` | High
+28 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+29 | File | `/subtitles.php` | High
+30 | File | `/sys/dict/queryTableData` | High
+31 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+32 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+33 | File | `Acl.asp` | Low
+34 | File | `add_postit.php` | High
+35 | File | `admin.php` | Medium
+36 | File | `admin/operations/currency.php` | High
+37 | File | `admin/shophelp.php` | High
+38 | File | `admin/TemplateController.java` | High
+39 | File | `administration.jsp` | High
+40 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

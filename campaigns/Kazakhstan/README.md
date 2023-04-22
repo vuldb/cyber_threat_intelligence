@@ -213,7 +213,7 @@ ID | Type | Indicator | Confidence
 21 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
 22 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

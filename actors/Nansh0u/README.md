@@ -47,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `Core/Ap4Atom.cpp` | High
-2 | File | `creaprezzi.php` | High
-3 | File | `data/gbconfiguration.dat` | High
+1 | File | `admin.cropcanvas.php` | High
+2 | File | `Core/Ap4Atom.cpp` | High
+3 | File | `creaprezzi.php` | High
 4 | ... | ... | ...
 
-There are 12 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

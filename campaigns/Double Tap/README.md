@@ -58,28 +58,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/default.asp` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
+2 | File | `/.ssh/authorized_keys` | High
+3 | File | `/admin/default.asp` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
-7 | File | `/assets/ctx` | Medium
-8 | File | `/bin/httpd` | Medium
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
-13 | File | `/classes/Master.php?f=delete_train` | High
-14 | File | `/cms/print.php` | High
-15 | File | `/concat?/%2557EB-INF/web.xml` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/ebics-server/ebics.aspx` | High
-21 | File | `/ffos/classes/Master.php?f=save_category` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goforms/rlminfo` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/cms/print.php` | High
+14 | File | `/concat?/%2557EB-INF/web.xml` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/ffos/classes/Master.php?f=save_category` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/HNAP1` | Low
 24 | File | `/HNAP1/SetClientInfo` | High
 25 | File | `/Items/*/RemoteImages/Download` | High
 26 | File | `/login` | Low
@@ -101,14 +101,13 @@ ID | Type | Indicator | Confidence
 42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 43 | File | `/services/system/setup.json` | High
 44 | File | `/spip.php` | Medium
-45 | File | `/sys/dict/queryTableData` | High
-46 | File | `/tmp` | Low
-47 | File | `/uncpath/` | Medium
-48 | File | `/vloggers_merch/?p=view_product` | High
-49 | File | `/webconsole/APIController` | High
-50 | ... | ... | ...
+45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+46 | File | `/sys/dict/queryTableData` | High
+47 | File | `/tmp` | Low
+48 | File | `/uncpath/` | Medium
+49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

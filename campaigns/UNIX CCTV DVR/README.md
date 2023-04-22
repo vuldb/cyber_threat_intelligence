@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -48,8 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -63,46 +62,53 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php/User/level_sort` | High
 3 | File | `/admin/cloud.php` | High
 4 | File | `/admin/login.php` | High
-5 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
-6 | File | `/blog/edit` | Medium
-7 | File | `/cgi-bin/uploadWeiXinPic` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/classes/Master.php?f=delete_category` | High
-10 | File | `/core/admin/categories.php` | High
-11 | File | `/coreframe/app/order/admin/card.php` | High
-12 | File | `/dms/admin/reports/daily_collection_report.php` | High
-13 | File | `/eshop/products/json/aouCustomerAdresse` | High
-14 | File | `/etc/config/cameo` | High
-15 | File | `/extensionsinstruction` | High
-16 | File | `/food/admin/all_users.php` | High
-17 | File | `/goform/PowerSaveSet` | High
-18 | File | `/goform/SetClientState` | High
-19 | File | `/goform/SetFirewallCfg` | High
-20 | File | `/goform/setWorkmode` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/goods/getGoodsListByConditions/` | High
-23 | File | `/index.php` | Medium
-24 | File | `/isms/classes/Users.php` | High
-25 | File | `/lists/index.php` | High
-26 | File | `/member/index/login.html` | High
-27 | File | `/members/view_member.php` | High
-28 | File | `/moddable/xs/sources/xsScript.c` | High
-29 | File | `/moddable/xs/sources/xsSymbol.c` | High
-30 | File | `/nova/bin/lcdstat` | High
-31 | File | `/ofrs/admin/?page=teams/view_team` | High
-32 | File | `/ordering/index.php?q=category` | High
-33 | File | `/owa/auth/logon.aspx` | High
-34 | File | `/picturesPreview` | High
-35 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-36 | File | `/rest/api/2/user/picker` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-39 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-40 | File | `/sns/classes/Master.php?f=delete_img` | High
-41 | File | `/Source/C++/Core/Ap4Array.h` | High
-42 | ... | ... | ...
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/blog/edit` | Medium
+9 | File | `/cgi-bin/uploadWeiXinPic` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/core/admin/categories.php` | High
+13 | File | `/coreframe/app/order/admin/card.php` | High
+14 | File | `/dms/admin/reports/daily_collection_report.php` | High
+15 | File | `/eshop/products/json/aouCustomerAdresse` | High
+16 | File | `/etc/config/cameo` | High
+17 | File | `/extensionsinstruction` | High
+18 | File | `/food/admin/all_users.php` | High
+19 | File | `/goform/PowerSaveSet` | High
+20 | File | `/goform/SetClientState` | High
+21 | File | `/goform/SetFirewallCfg` | High
+22 | File | `/goform/setWorkmode` | High
+23 | File | `/goform/wizard_end` | High
+24 | File | `/goods/getGoodsListByConditions/` | High
+25 | File | `/index.php` | Medium
+26 | File | `/isms/classes/Users.php` | High
+27 | File | `/lists/index.php` | High
+28 | File | `/member/index/login.html` | High
+29 | File | `/members/view_member.php` | High
+30 | File | `/messageboard/view.php` | High
+31 | File | `/moddable/xs/sources/xsScript.c` | High
+32 | File | `/moddable/xs/sources/xsSymbol.c` | High
+33 | File | `/modules/projects/vw_files.php` | High
+34 | File | `/nova/bin/lcdstat` | High
+35 | File | `/ofrs/admin/?page=teams/view_team` | High
+36 | File | `/ordering/index.php?q=category` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | File | `/picturesPreview` | High
+39 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+40 | File | `/rest/api/2/user/picker` | High
+41 | File | `/secure/QueryComponent!Default.jspa` | High
+42 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
+43 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+44 | File | `/sns/classes/Master.php?f=delete_img` | High
+45 | File | `/Source/C++/Core/Ap4Array.h` | High
+46 | File | `/src/njs_vmcode.c` | High
+47 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+48 | File | `/syscmd.asp` | Medium
+49 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 429 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
