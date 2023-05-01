@@ -170,7 +170,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -179,28 +179,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=themeinstall` | High
-2 | File | `/admin/reports.php` | High
-3 | File | `/advanced-tools/nova/bin/netwatch` | High
-4 | File | `/catcompany.php` | High
-5 | File | `/cgi-bin/login.cgi` | High
-6 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-7 | File | `/cgi-bin/R14.2/log.pl` | High
-8 | File | `/export` | Low
-9 | File | `/forgetpassword.php` | High
-10 | File | `/FormLogin` | Medium
-11 | File | `/forum/away.php` | High
-12 | File | `/graphStatus/displayServiceStatus.php` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/nova/bin/detnet` | High
-15 | File | `/out.php` | Medium
-16 | File | `/plugin` | Low
-17 | File | `/proc/pid/syscall` | High
-18 | File | `/public/launchNewWindow.jsp` | High
-19 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-20 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/reports.php` | High
+4 | File | `/advanced-tools/nova/bin/netwatch` | High
+5 | File | `/catcompany.php` | High
+6 | File | `/cgi-bin/login.cgi` | High
+7 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+8 | File | `/cgi-bin/R14.2/log.pl` | High
+9 | File | `/export` | Low
+10 | File | `/forgetpassword.php` | High
+11 | File | `/FormLogin` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/graphStatus/displayServiceStatus.php` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/nova/bin/detnet` | High
+16 | File | `/out.php` | Medium
+17 | File | `/plugin` | Low
+18 | File | `/proc/pid/syscall` | High
+19 | File | `/public/launchNewWindow.jsp` | High
+20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 21 | ... | ... | ...
 
-There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

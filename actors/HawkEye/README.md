@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.hawkeye](https://vuldb.com/?actor.hawkeye)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with HawkEye:
-
-* [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
-* [RU](https://vuldb.com/?country.ru)
-* ...
-
-There are 7 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of HawkEye.
@@ -34,46 +23,17 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [23.217.148.78](https://vuldb.com/?ip.23.217.148.78) | a23-217-148-78.deploy.static.akamaitechnologies.com | - | High
 12 | [23.222.79.194](https://vuldb.com/?ip.23.222.79.194) | a23-222-79-194.deploy.static.akamaitechnologies.com | - | High
 13 | [23.222.79.232](https://vuldb.com/?ip.23.222.79.232) | a23-222-79-232.deploy.static.akamaitechnologies.com | - | High
-14 | [31.170.163.242](https://vuldb.com/?ip.31.170.163.242) | mx1.main-hosting.com | - | High
-15 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
-16 | [34.226.71.106](https://vuldb.com/?ip.34.226.71.106) | ec2-34-226-71-106.compute-1.amazonaws.com | - | Medium
-17 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
-18 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
-19 | [72.29.90.201](https://vuldb.com/?ip.72.29.90.201) | zeus.imd.la | - | High
-20 | [74.208.5.15](https://vuldb.com/?ip.74.208.5.15) | smtp.mail.com | - | High
-21 | ... | ... | ... | ...
+14 | [27.121.68.109](https://vuldb.com/?ip.27.121.68.109) | dcgsx-cp009.server-cpanel.com | - | High
+15 | [31.170.163.242](https://vuldb.com/?ip.31.170.163.242) | mx1.main-hosting.com | - | High
+16 | [31.209.137.12](https://vuldb.com/?ip.31.209.137.12) | smtp.vivaldi.net | - | High
+17 | [34.226.71.106](https://vuldb.com/?ip.34.226.71.106) | ec2-34-226-71-106.compute-1.amazonaws.com | - | Medium
+18 | [34.232.187.93](https://vuldb.com/?ip.34.232.187.93) | ec2-34-232-187-93.compute-1.amazonaws.com | - | Medium
+19 | [65.55.44.109](https://vuldb.com/?ip.65.55.44.109) | - | - | High
+20 | [72.29.90.201](https://vuldb.com/?ip.72.29.90.201) | zeus.imd.la | - | High
+21 | [74.208.5.15](https://vuldb.com/?ip.74.208.5.15) | smtp.mail.com | - | High
+22 | ... | ... | ... | ...
 
-There are 78 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _HawkEye_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
-
-There are 12 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by HawkEye. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/out.php` | Medium
-3 | File | `/romfile.cfg` | Medium
-4 | File | `abook_database.php` | High
-5 | File | `cloudinit/config/cc_set_passwords.py` | High
-6 | File | `CodeBrws.asp` | Medium
-7 | File | `CrystalReports12.CrystalPrintControl.1` | High
-8 | ... | ... | ...
-
-There are 55 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -92,6 +52,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0729-0805.html
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0819-0826.html
 * https://blog.talosintelligence.com/threat-roundup-0106-0113/
+* https://blog.talosintelligence.com/threat-roundup-0113-0120/
+* https://blog.talosintelligence.com/threat-roundup-0120-0127/
+* https://blog.talosintelligence.com/threat-roundup-0331-0407-2/
 
 ## Literature
 

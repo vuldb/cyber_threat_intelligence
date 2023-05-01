@@ -144,7 +144,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -153,47 +153,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/api/v2/cli/commands` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/CFIDE/probe.cfm` | High
-8 | File | `/cgi-bin/system_mgr.cgi` | High
-9 | File | `/common/sysFile/list` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/ctcprotocol/Protocol` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ebics-server/ebics.aspx` | High
-14 | File | `/etc/openstack-dashboard/local_settings` | High
-15 | File | `/filemanager/upload.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/addressNat` | High
-18 | File | `/HNAP1` | Low
-19 | File | `/HNAP1/SetClientInfo` | High
-20 | File | `/js/player/dmplayer/dmku/index.php` | High
-21 | File | `/KK_LS9ReportingPortal/GetData` | High
-22 | File | `/menu.html` | Medium
-23 | File | `/modules/snf/index.php` | High
-24 | File | `/orrs/admin/?page=user/manage_user` | High
-25 | File | `/resources//../` | High
-26 | File | `/secure/QueryComponent!Default.jspa` | High
-27 | File | `/see_more_details.php` | High
-28 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-29 | File | `/subtitles.php` | High
-30 | File | `/sys/dict/queryTableData` | High
-31 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-32 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-33 | File | `Acl.asp` | Low
-34 | File | `add_postit.php` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/operations/currency.php` | High
-37 | File | `admin/shophelp.php` | High
-38 | File | `admin/TemplateController.java` | High
-39 | File | `administration.jsp` | High
-40 | ... | ... | ...
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/api/geojson` | Medium
+6 | File | `/api/v2/cli/commands` | High
+7 | File | `/apply_noauth.cgi` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/CFIDE/probe.cfm` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/common/sysFile/list` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/ctcprotocol/Protocol` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/ebics-server/ebics.aspx` | High
+16 | File | `/etc/openstack-dashboard/local_settings` | High
+17 | File | `/filemanager/upload.php` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/goform/addressNat` | High
+20 | File | `/HNAP1` | Low
+21 | File | `/HNAP1/SetClientInfo` | High
+22 | File | `/js/player/dmplayer/dmku/index.php` | High
+23 | File | `/KK_LS9ReportingPortal/GetData` | High
+24 | File | `/menu.html` | Medium
+25 | File | `/orrs/admin/?page=user/manage_user` | High
+26 | File | `/resources//../` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+30 | File | `/subtitles.php` | High
+31 | File | `/sys/dict/queryTableData` | High
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+34 | File | `Acl.asp` | Low
+35 | File | `add_postit.php` | High
+36 | File | `admin.php` | Medium
+37 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

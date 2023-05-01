@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.aland_unknown](https://vuldb.com/?actor.aland_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Aland Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [FI](https://vuldb.com/?country.fi)
-* [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 19 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Aland Unknown.
@@ -26,67 +15,54 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.12.70.15](https://vuldb.com/?ip.45.12.70.15) | straggler.get-eye.com | - | High
 4 | [45.12.71.15](https://vuldb.com/?ip.45.12.71.15) | - | - | High
 5 | [46.36.201.221](https://vuldb.com/?ip.46.36.201.221) | - | - | High
-6 | ... | ... | ... | ...
+6 | [46.36.201.222](https://vuldb.com/?ip.46.36.201.222) | - | - | High
+7 | [46.36.201.224](https://vuldb.com/?ip.46.36.201.224) | - | - | High
+8 | [79.133.0.0](https://vuldb.com/?ip.79.133.0.0) | - | - | High
+9 | [82.199.160.0](https://vuldb.com/?ip.82.199.160.0) | - | - | High
+10 | [82.199.161.0](https://vuldb.com/?ip.82.199.161.0) | - | - | High
+11 | [82.199.161.128](https://vuldb.com/?ip.82.199.161.128) | 82-199-161-128.bredband.aland.net | - | High
+12 | [82.199.161.192](https://vuldb.com/?ip.82.199.161.192) | 82-199-161-192.bredband.aland.net | - | High
+13 | [82.199.162.0](https://vuldb.com/?ip.82.199.162.0) | - | - | High
+14 | [82.199.163.0](https://vuldb.com/?ip.82.199.163.0) | - | - | High
+15 | [82.199.163.64](https://vuldb.com/?ip.82.199.163.64) | 82-199-163-64.paf.com | - | High
+16 | [82.199.163.128](https://vuldb.com/?ip.82.199.163.128) | 82-199-163-128.mtel.aland.fi | - | High
+17 | [82.199.164.0](https://vuldb.com/?ip.82.199.164.0) | - | - | High
+18 | [82.199.168.0](https://vuldb.com/?ip.82.199.168.0) | - | - | High
+19 | [82.199.176.0](https://vuldb.com/?ip.82.199.176.0) | - | - | High
+20 | [82.199.178.0](https://vuldb.com/?ip.82.199.178.0) | - | - | High
+21 | [82.199.179.0](https://vuldb.com/?ip.82.199.179.0) | - | - | High
+22 | [82.199.179.128](https://vuldb.com/?ip.82.199.179.128) | - | - | High
+23 | [82.199.180.0](https://vuldb.com/?ip.82.199.180.0) | - | - | High
+24 | [82.199.184.0](https://vuldb.com/?ip.82.199.184.0) | - | - | High
+25 | [82.199.185.0](https://vuldb.com/?ip.82.199.185.0) | - | - | High
+26 | [82.199.185.16](https://vuldb.com/?ip.82.199.185.16) | 82-199-185-16.havsvidden.ax | - | High
+27 | [82.199.185.32](https://vuldb.com/?ip.82.199.185.32) | - | - | High
+28 | [82.199.185.48](https://vuldb.com/?ip.82.199.185.48) | - | - | High
+29 | [82.199.185.64](https://vuldb.com/?ip.82.199.185.64) | - | - | High
+30 | [83.145.3.90](https://vuldb.com/?ip.83.145.3.90) | - | - | High
+31 | [91.105.208.0](https://vuldb.com/?ip.91.105.208.0) | - | - | High
+32 | [185.36.148.0](https://vuldb.com/?ip.185.36.148.0) | - | - | High
+33 | [185.84.30.0](https://vuldb.com/?ip.185.84.30.0) | - | - | High
+34 | [185.98.228.0](https://vuldb.com/?ip.185.98.228.0) | - | - | High
+35 | [185.134.100.8](https://vuldb.com/?ip.185.134.100.8) | - | - | High
+36 | [185.217.4.0](https://vuldb.com/?ip.185.217.4.0) | - | - | High
+37 | [193.181.196.0](https://vuldb.com/?ip.193.181.196.0) | - | - | High
+38 | [193.234.48.0](https://vuldb.com/?ip.193.234.48.0) | - | - | High
+39 | [194.50.99.15](https://vuldb.com/?ip.194.50.99.15) | - | - | High
+40 | [194.50.111.15](https://vuldb.com/?ip.194.50.111.15) | - | - | High
+41 | [194.71.144.0](https://vuldb.com/?ip.194.71.144.0) | - | - | High
+42 | [194.110.176.0](https://vuldb.com/?ip.194.110.176.0) | - | - | High
+43 | [194.110.178.0](https://vuldb.com/?ip.194.110.178.0) | - | - | High
+44 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Aland Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 14 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Aland Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/html/portal/flash.jsp` | High
-10 | File | `/if.cgi` | Low
-11 | File | `/mifs/c/i/reg/reg.html` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/news.dtl.php` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/services/details.asp` | High
-16 | File | `/setup` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `act.php` | Low
-23 | File | `adclick.php` | Medium
-24 | File | `admin` | Low
-25 | File | `admin.php` | Medium
-26 | File | `admin/adminsignin.html` | High
-27 | File | `admin/movieview.php` | High
-28 | File | `admin/versions.html` | High
-29 | ... | ... | ...
-
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 173 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ax.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ax.netset
 
 ## Literature
 

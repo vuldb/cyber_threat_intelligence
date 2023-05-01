@@ -50,19 +50,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-2 | File | `/mgmt/tm/util/bash` | High
-3 | File | `/mifs/c/i/reg/reg.html` | High
-4 | File | `/secure/ViewCollectors` | High
-5 | File | `/Session` | Medium
-6 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-7 | File | `adclick.php` | Medium
-8 | File | `add_comment.php` | High
-9 | File | `cgi-bin/awstats.pl` | High
-10 | File | `checkout.cfm` | Medium
+1 | File | `/admin/login.php` | High
+2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+3 | File | `/mgmt/tm/util/bash` | High
+4 | File | `/mifs/c/i/reg/reg.html` | High
+5 | File | `/secure/ViewCollectors` | High
+6 | File | `/Session` | Medium
+7 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+8 | File | `adclick.php` | Medium
+9 | File | `add_comment.php` | High
+10 | File | `cgi-bin/awstats.pl` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -53,17 +53,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/.env` | Low
-3 | File | `//etc/RT2870STA.dat` | High
-4 | File | `/cgi-bin/activate.cgi` | High
-5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-6 | File | `/cgi-bin/nobody` | High
-7 | File | `/cgi-bin/nobody/Search.cgi` | High
-8 | File | `/etc/quagga` | Medium
-9 | File | `/export` | Low
-10 | File | `/forum/away.php` | High
-11 | File | `/get_getnetworkconf.cgi` | High
-12 | File | `/index.php` | Medium
+2 | File | `//etc/RT2870STA.dat` | High
+3 | File | `/cgi-bin/activate.cgi` | High
+4 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+5 | File | `/cgi-bin/nobody` | High
+6 | File | `/cgi-bin/nobody/Search.cgi` | High
+7 | File | `/etc/quagga` | Medium
+8 | File | `/export` | Low
+9 | File | `/forms/doLogin` | High
+10 | File | `/get_getnetworkconf.cgi` | High
+11 | File | `/index.php` | Medium
+12 | File | `/messageboard/view.php` | High
 13 | File | `/nova/bin/detnet` | High
 14 | File | `/opensis/modules/users/Staff.php` | High
 15 | File | `/php_action/createUser.php` | High
@@ -78,14 +78,15 @@ ID | Type | Indicator | Confidence
 24 | File | `/WEB-INF/web.xml` | High
 25 | File | `/webconsole/APIController` | High
 26 | File | `/wp-admin/admin-ajax.php` | High
-27 | File | `AccountStatus.jsp` | High
-28 | File | `add.php` | Low
+27 | File | `account.asp` | Medium
+28 | File | `AccountStatus.jsp` | High
 29 | File | `addentry.php` | Medium
 30 | File | `admin.a6mambocredits.php` | High
 31 | File | `admin.cropcanvas.php` | High
-32 | ... | ... | ...
+32 | File | `Admin.PHP` | Medium
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

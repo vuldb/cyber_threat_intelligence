@@ -51,14 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,39 +73,39 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/cashadvance_row.php` | High
 6 | File | `/admin/edit-doc.php` | High
 7 | File | `/admin/login.php` | High
-8 | File | `/admin/patient.php` | High
-9 | File | `/admin/suppliers/view_details.php` | High
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/as/authorization.oauth2` | High
-12 | File | `/cgi-bin/luci/api/auth` | High
-13 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/churchcrm/EventAttendance.php` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/DXR.axd` | Medium
-18 | File | `/filemanager/php/connector.php` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/licenses` | Medium
-21 | File | `/mhds/clinic/view_details.php` | High
-22 | File | `/modules/projects/vw_files.php` | High
-23 | File | `/plain` | Low
-24 | File | `/public/launchNewWindow.jsp` | High
-25 | File | `/public/login.htm` | High
-26 | File | `/qsr_server/device/reboot` | High
-27 | File | `/rukovoditel/index.php?module=users/login` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/static/ueditor/php/controller.php` | High
-31 | File | `/v1/tokens` | Medium
-32 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-admin/options.php` | High
-36 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-37 | File | `adclick.php` | Medium
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/patient.php` | High
+10 | File | `/admin/suppliers/view_details.php` | High
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/as/authorization.oauth2` | High
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/luci/api/auth` | High
+15 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/churchcrm/EventAttendance.php` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/filemanager/php/connector.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/licenses` | Medium
+23 | File | `/mhds/clinic/view_details.php` | High
+24 | File | `/modules/projects/vw_files.php` | High
+25 | File | `/plain` | Low
+26 | File | `/public/launchNewWindow.jsp` | High
+27 | File | `/public/login.htm` | High
+28 | File | `/qsr_server/device/reboot` | High
+29 | File | `/rukovoditel/index.php?module=users/login` | High
+30 | File | `/secure/QueryComponent!Default.jspa` | High
+31 | File | `/spip.php` | Medium
+32 | File | `/static/ueditor/php/controller.php` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/v1/tokens` | Medium
+35 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
+36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+37 | File | `/wp-admin/admin-ajax.php` | High
 38 | ... | ... | ...
 
-There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

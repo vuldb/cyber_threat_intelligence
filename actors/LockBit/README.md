@@ -62,20 +62,20 @@ ID | Type | Indicator | Confidence
 11 | File | `/spip.php` | Medium
 12 | File | `/student/bookdetails.php` | High
 13 | File | `/uncpath/` | Medium
-14 | File | `/wp-admin/admin-ajax.php` | High
-15 | File | `adclick.php` | Medium
-16 | File | `addmem.php` | Medium
-17 | File | `admin.php` | Medium
-18 | File | `admin.remository.php` | High
-19 | File | `adminHome.php` | High
-20 | File | `affich.php` | Medium
-21 | File | `agent/Core/Controller/SendRequest.cpp` | High
-22 | File | `album_portal.php` | High
-23 | File | `announcements.php` | High
-24 | File | `api_poller.php` | High
+14 | File | `/usr/bin/pkexec` | High
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `adclick.php` | Medium
+17 | File | `addmem.php` | Medium
+18 | File | `admin.php` | Medium
+19 | File | `admin.remository.php` | High
+20 | File | `adminHome.php` | High
+21 | File | `affich.php` | Medium
+22 | File | `agent/Core/Controller/SendRequest.cpp` | High
+23 | File | `album_portal.php` | High
+24 | File | `announcements.php` | High
 25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 207 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -355,12 +355,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-35 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -377,30 +377,32 @@ ID | Type | Indicator | Confidence
 7 | File | `/cgi-bin/wapopen` | High
 8 | File | `/forum/away.php` | High
 9 | File | `/mims/login.php` | High
-10 | File | `/mygym/admin/index.php?view_exercises` | High
-11 | File | `/php-scrm/login.php` | High
-12 | File | `/public/launchNewWindow.jsp` | High
-13 | File | `/textpattern/index.php` | High
-14 | File | `/tmp` | Low
-15 | File | `/user/updatePwd` | High
-16 | File | `account-signup.php` | High
-17 | File | `account/signup.php` | High
-18 | File | `activenews_view.asp` | High
+10 | File | `/php-scrm/login.php` | High
+11 | File | `/public/launchNewWindow.jsp` | High
+12 | File | `/textpattern/index.php` | High
+13 | File | `/tmp` | Low
+14 | File | `/user/updatePwd` | High
+15 | File | `account-signup.php` | High
+16 | File | `account/signup.php` | High
+17 | File | `activenews_view.asp` | High
+18 | File | `adclick.php` | Medium
 19 | File | `addentry.php` | Medium
 20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
 21 | File | `admin.php` | Medium
 22 | File | `admin/admin.php?action=users&mode=info&user=2` | High
 23 | File | `admin/admin_editor.php` | High
-24 | File | `admin/auditTrail.jsf` | High
-25 | File | `admin/conf_users_edit.php` | High
-26 | File | `admin/edit_category.php` | High
-27 | File | `adminer.php` | Medium
-28 | File | `AjaxFileUploadHandler.axd` | High
-29 | File | `AndroidManifest.xml` | High
-30 | File | `articulo.php` | Medium
-31 | ... | ... | ...
+24 | File | `admin/asset/grid-proxy` | High
+25 | File | `admin/auditTrail.jsf` | High
+26 | File | `admin/conf_users_edit.php` | High
+27 | File | `admin/edit_category.php` | High
+28 | File | `adminer.php` | Medium
+29 | File | `AjaxFileUploadHandler.axd` | High
+30 | File | `AndroidManifest.xml` | High
+31 | File | `app/controllers/oauth.js` | High
+32 | File | `articulo.php` | Medium
+33 | ... | ... | ...
 
-There are 265 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

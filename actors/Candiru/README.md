@@ -81,20 +81,20 @@ ID | Type | Indicator | Confidence
 20 | File | `/dl/dl_print.php` | High
 21 | File | `/etc/passwd` | Medium
 22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/SetClientState` | High
-24 | File | `/goform/SysToolChangePwd` | High
-25 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
-26 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-27 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/librarian/lab.php` | High
-30 | File | `/login` | Low
-31 | File | `/mngset/authset` | High
-32 | File | `/nova/bin/sniffer` | High
-33 | File | `/ofcms/company-c-47` | High
+23 | File | `/goform/aspForm` | High
+24 | File | `/goform/SetClientState` | High
+25 | File | `/goform/SysToolChangePwd` | High
+26 | File | `/irj/servlet/prt/portal/prtroot/com.sap.portal.usermanagement.admin.UserMapping` | High
+27 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+28 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+29 | File | `/librarian/bookdetails.php` | High
+30 | File | `/librarian/lab.php` | High
+31 | File | `/login` | Low
+32 | File | `/mngset/authset` | High
+33 | File | `/nova/bin/sniffer` | High
 34 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 289 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

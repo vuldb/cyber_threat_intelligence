@@ -88,19 +88,20 @@ ID | Type | Indicator | Confidence
 34 | File | `admin/expense_report.php` | High
 35 | File | `admin/index.php` | High
 36 | File | `admin/ops/reports/ops/forum.php` | High
-37 | File | `admincp/attachment.php` | High
-38 | File | `adminedit.pl` | Medium
-39 | File | `ajax/api/hook/getHookList` | High
-40 | File | `App\Manage\Controller\ArticleController.class.php` | High
-41 | File | `archive/index.php` | High
-42 | File | `auth-gss2.c` | Medium
-43 | File | `backend/groups/index.php` | High
-44 | File | `bbs/member_confirm.php` | High
-45 | File | `bottom.php` | Medium
-46 | File | `breadcrumbs_create.php` | High
-47 | ... | ... | ...
+37 | File | `admin/versions.html` | High
+38 | File | `admincp/attachment.php` | High
+39 | File | `adminedit.pl` | Medium
+40 | File | `ajax/api/hook/getHookList` | High
+41 | File | `App\Manage\Controller\ArticleController.class.php` | High
+42 | File | `archive/index.php` | High
+43 | File | `auth-gss2.c` | Medium
+44 | File | `backend/groups/index.php` | High
+45 | File | `bbs/member_confirm.php` | High
+46 | File | `bottom.php` | Medium
+47 | File | `breadcrumbs_create.php` | High
+48 | ... | ... | ...
 
-There are 410 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,52 +63,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/alphaware/details.php` | High
-2 | File | `/api/admin/system/store/order/list` | High
-3 | File | `/apply_noauth.cgi` | High
-4 | File | `/auth/fn.php` | Medium
-5 | File | `/bin/sh` | Low
-6 | File | `/cgi-bin/ExportLogs.sh` | High
-7 | File | `/common/sysFile/list` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/dist/index.js` | High
-11 | File | `/editor/index.php` | High
-12 | File | `/etc/openstack-dashboard/local_settings` | High
-13 | File | `/etc/passwd` | Medium
-14 | File | `/goform/addressNat` | High
-15 | File | `/include/Model/Upload.php` | High
-16 | File | `/js/player/dmplayer/dmku/index.php` | High
-17 | File | `/kruxton/sales_report.php` | High
-18 | File | `/modules/snf/index.php` | High
-19 | File | `/orrs/admin/?page=user/manage_user` | High
-20 | File | `/param.file.tgz` | High
-21 | File | `/php-jms/updateBlankTxtview.php` | High
-22 | File | `/product/savenewproduct.php?flag=1` | High
-23 | File | `/rrdp` | Low
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/subtitles.php` | High
-26 | File | `/tourism/rate_review.php` | High
-27 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-28 | File | `26.html` | Low
-29 | File | `a-forms.php` | Medium
-30 | File | `add_postit.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/shophelp.php` | High
-33 | File | `administration.jsp` | High
-34 | File | `adminquery.php` | High
-35 | File | `ansfaq.asp` | Medium
-36 | File | `ApiController.class.php` | High
-37 | File | `APKINDEX.tar.gz` | High
-38 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-39 | File | `appconfig.ini` | High
-40 | File | `appGet.cgi` | Medium
-41 | File | `application/src/main/webapp/vue-app/components/ExoChatMessageComposer.vue` | High
-42 | File | `ArchivesMapper.xml` | High
-43 | File | `AtlTraceTool8.exe` | High
-44 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/alphaware/details.php` | High
+3 | File | `/api/admin/system/store/order/list` | High
+4 | File | `/apply_noauth.cgi` | High
+5 | File | `/auth/fn.php` | Medium
+6 | File | `/bin/sh` | Low
+7 | File | `/cgi-bin/ExportLogs.sh` | High
+8 | File | `/common/sysFile/list` | High
+9 | File | `/context/%2e/WEB-INF/web.xml` | High
+10 | File | `/debug/pprof` | Medium
+11 | File | `/dist/index.js` | High
+12 | File | `/editor/index.php` | High
+13 | File | `/etc/openstack-dashboard/local_settings` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/goform/addressNat` | High
+16 | File | `/include/Model/Upload.php` | High
+17 | File | `/js/player/dmplayer/dmku/index.php` | High
+18 | File | `/kruxton/sales_report.php` | High
+19 | File | `/modules/snf/index.php` | High
+20 | File | `/nasm/nasm-token.re` | High
+21 | File | `/orrs/admin/?page=user/manage_user` | High
+22 | File | `/param.file.tgz` | High
+23 | File | `/php-jms/updateBlankTxtview.php` | High
+24 | File | `/product/savenewproduct.php?flag=1` | High
+25 | File | `/rrdp` | Low
+26 | File | `/secure/QueryComponent!Default.jspa` | High
+27 | File | `/subtitles.php` | High
+28 | File | `/tourism/rate_review.php` | High
+29 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+30 | File | `a-forms.php` | Medium
+31 | File | `add_postit.php` | High
+32 | File | `admin.php` | Medium
+33 | File | `admin/shophelp.php` | High
+34 | File | `administration.jsp` | High
+35 | File | `adminquery.php` | High
+36 | File | `ansfaq.asp` | Medium
+37 | File | `ApiController.class.php` | High
+38 | File | `APKINDEX.tar.gz` | High
+39 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+40 | File | `appconfig.ini` | High
+41 | File | `appGet.cgi` | Medium
+42 | File | `application/src/main/webapp/vue-app/components/ExoChatMessageComposer.vue` | High
+43 | ... | ... | ...
 
-There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

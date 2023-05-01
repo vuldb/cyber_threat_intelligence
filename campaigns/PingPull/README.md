@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [HK](https://vuldb.com/?country.hk)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -90,20 +90,20 @@ ID | Type | Indicator | Confidence
 7 | File | `/download` | Medium
 8 | File | `/etc/quagga` | Medium
 9 | File | `/etc/shadow` | Medium
-10 | File | `/h/calendar` | Medium
-11 | File | `/inc/extensions.php` | High
-12 | File | `/index.php` | Medium
-13 | File | `/Items/*/RemoteImages/Download` | High
-14 | File | `/members/view_member.php` | High
-15 | File | `/mifs/c/i/reg/reg.html` | High
-16 | File | `/nova/bin/console` | High
-17 | File | `/nova/bin/detnet` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/req_password_user.php` | High
+10 | File | `/forms/doLogin` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/inc/extensions.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/Items/*/RemoteImages/Download` | High
+15 | File | `/members/view_member.php` | High
+16 | File | `/mifs/c/i/reg/reg.html` | High
+17 | File | `/nova/bin/console` | High
+18 | File | `/nova/bin/detnet` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
 21 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -65,10 +65,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-270, CWE-271, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-267, CWE-269, CWE-270, CWE-271, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,53 +76,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/` | Low
-2 | File | `/api/blade-log/api/list` | High
-3 | File | `/api/trackedEntityInstances` | High
-4 | File | `/application/common.php#action_log` | High
-5 | File | `/authUserAction!edit.action` | High
-6 | File | `/baseOpLog.do` | High
-7 | File | `/category_view.php` | High
-8 | File | `/cgi-bin/portal` | High
-9 | File | `/cgi-bin/system_mgr.cgi` | High
-10 | File | `/common/download?filename=1.jsp&delete=false` | High
-11 | File | `/csms/?page=contact_us` | High
-12 | File | `/debug` | Low
-13 | File | `/debug/pprof` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/goform/PowerSaveSet` | High
-16 | File | `/include/make.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/jeecg-boot/sys/common/upload` | High
-19 | File | `/lists/admin/` | High
-20 | File | `/login.cgi?logout=1` | High
-21 | File | `/medical/inventories.php` | High
-22 | File | `/members/view_member.php` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/module/admin_logs` | High
-25 | File | `/nova/bin/console` | High
-26 | File | `/owa/auth/logon.aspx` | High
-27 | File | `/plesk-site-preview/` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/public/plugins/` | High
-30 | File | `/replication` | Medium
-31 | File | `/SASWebReportStudio/logonAndRender.do` | High
-32 | File | `/scas/classes/Users.php?f=save_user` | High
-33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-34 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-37 | File | `/start-stop` | Medium
-38 | File | `/start_apply.htm` | High
-39 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-40 | File | `/tmp/app/.env` | High
-41 | File | `/tool/gen/createTable` | High
-42 | File | `/uncpath/` | Medium
-43 | File | `/upload` | Low
-44 | File | `/usr/bin/pkexec` | High
+1 | File | `/admin/user/manage_user.php` | High
+2 | File | `/api/` | Low
+3 | File | `/api/blade-log/api/list` | High
+4 | File | `/api/trackedEntityInstances` | High
+5 | File | `/application/common.php#action_log` | High
+6 | File | `/authUserAction!edit.action` | High
+7 | File | `/baseOpLog.do` | High
+8 | File | `/category_view.php` | High
+9 | File | `/cgi-bin/portal` | High
+10 | File | `/cgi-bin/system_mgr.cgi` | High
+11 | File | `/classes/Users.php` | High
+12 | File | `/common/download?filename=1.jsp&delete=false` | High
+13 | File | `/csms/?page=contact_us` | High
+14 | File | `/debug` | Low
+15 | File | `/debug/pprof` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/PowerSaveSet` | High
+18 | File | `/include/make.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/jeecg-boot/sys/common/upload` | High
+21 | File | `/lists/admin/` | High
+22 | File | `/login.cgi?logout=1` | High
+23 | File | `/medical/inventories.php` | High
+24 | File | `/members/view_member.php` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/module/admin_logs` | High
+27 | File | `/nova/bin/console` | High
+28 | File | `/owa/auth/logon.aspx` | High
+29 | File | `/plesk-site-preview/` | High
+30 | File | `/public/login.htm` | High
+31 | File | `/public/plugins/` | High
+32 | File | `/replication` | Medium
+33 | File | `/SASWebReportStudio/logonAndRender.do` | High
+34 | File | `/scas/classes/Users.php?f=save_user` | High
+35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+36 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
+38 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+39 | File | `/start-stop` | Medium
+40 | File | `/start_apply.htm` | High
+41 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+42 | File | `/tmp/app/.env` | High
+43 | File | `/tool/gen/createTable` | High
+44 | File | `/uncpath/` | Medium
 45 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

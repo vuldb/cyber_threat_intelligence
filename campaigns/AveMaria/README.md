@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,45 +71,45 @@ ID | Type | Indicator | Confidence
 8 | File | `/Admin/login.php` | High
 9 | File | `/admin/payment.php` | High
 10 | File | `/admin/syslog` | High
-11 | File | `/advance_push/public/login` | High
-12 | File | `/anony/mjpg.cgi` | High
-13 | File | `/assets/components/gallery/connector.php` | High
-14 | File | `/ctcprotocol/Protocol` | High
-15 | File | `/device/device=140/tab=wifi/view` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/Forms/` | Low
-18 | File | `/framework/modules/users/models/user.php` | High
-19 | File | `/ghost/preview` | High
-20 | File | `/HNAP1/SetAccessPointMode` | High
-21 | File | `/index.php` | Medium
-22 | File | `/mcategory.php` | High
-23 | File | `/member/picture/album` | High
-24 | File | `/mysql/api/diags.php` | High
-25 | File | `/phpcollab/users/edituser.php` | High
-26 | File | `/plain` | Low
-27 | File | `/products/details.asp` | High
-28 | File | `/product_list.php` | High
-29 | File | `/public/login.htm` | High
-30 | File | `/replication` | Medium
-31 | File | `/service/upload` | High
-32 | File | `/services/details.asp` | High
-33 | File | `/trx_addons/v2/get/sc_layout` | High
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload/catalog/controller/account/password.php` | High
-36 | File | `/usr/bin/pkexec` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/wbms/classes/Master.php?f=delete_client` | High
-39 | File | `/WebMstr7/servlet/mstrWeb` | High
-40 | File | `4.edu.php` | Medium
-41 | File | `5.2.9\syscrb.exe` | High
-42 | File | `123flashchat.php` | High
-43 | File | `a2billing/customer/iridium_threed.php` | High
-44 | File | `add_ons.php` | Medium
-45 | File | `add_to_cart.php` | High
-46 | File | `admin.php` | Medium
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/advance_push/public/login` | High
+13 | File | `/anony/mjpg.cgi` | High
+14 | File | `/assets/components/gallery/connector.php` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/device/device=140/tab=wifi/view` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/Forms/` | Low
+19 | File | `/framework/modules/users/models/user.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/HNAP1/SetAccessPointMode` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mcategory.php` | High
+24 | File | `/member/picture/album` | High
+25 | File | `/mysql/api/diags.php` | High
+26 | File | `/phpcollab/users/edituser.php` | High
+27 | File | `/plain` | Low
+28 | File | `/products/details.asp` | High
+29 | File | `/product_list.php` | High
+30 | File | `/public/login.htm` | High
+31 | File | `/replication` | Medium
+32 | File | `/service/upload` | High
+33 | File | `/services/details.asp` | High
+34 | File | `/trx_addons/v2/get/sc_layout` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upload/catalog/controller/account/password.php` | High
+37 | File | `/usr/bin/pkexec` | High
+38 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+39 | File | `/wbms/classes/Master.php?f=delete_client` | High
+40 | File | `/WebMstr7/servlet/mstrWeb` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `4.edu.php` | Medium
+43 | File | `5.2.9\syscrb.exe` | High
+44 | File | `123flashchat.php` | High
+45 | File | `a2billing/customer/iridium_threed.php` | High
+46 | File | `add_ons.php` | Medium
 47 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

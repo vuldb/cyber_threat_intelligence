@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,38 +58,40 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/.env` | Low
 3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/cms/category/list` | High
-7 | File | `/debug/pprof` | Medium
-8 | File | `/Default/Bd` | Medium
-9 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-10 | File | `/domain/add` | Medium
-11 | File | `/donor-wall` | Medium
-12 | File | `/ebics-server/ebics.aspx` | High
-13 | File | `/esbus/servlet/GetSQLData` | High
-14 | File | `/film-rating.php` | High
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/formLogin` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/horde/util/go.php` | High
-19 | File | `/ishttpd/localweb/java/` | High
-20 | File | `/KK_LS9ReportingPortal/GetData` | High
-21 | File | `/mcategory.php` | High
-22 | File | `/out.php` | Medium
-23 | File | `/p` | Low
-24 | File | `/pages/processlogin.php` | High
-25 | File | `/product/savenewproduct.php?flag=1` | High
-26 | File | `/services/Card/findUser` | High
-27 | File | `/template/edit` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/bin/uucp` | High
-30 | File | `/usr/local/contego/scripts/mgrconfig.pl` | High
-31 | File | `/v1/tokens` | Medium
-32 | File | `/web/google_analytics.php` | High
-33 | ... | ... | ...
+4 | File | `/admin/attendance_row.php` | High
+5 | File | `/admin/cashadvance_row.php` | High
+6 | File | `/admin/employee_row.php` | High
+7 | File | `/Admin/login.php` | High
+8 | File | `/admin/products/manage_product.php` | High
+9 | File | `/api/upload` | Medium
+10 | File | `/classes/Master.php?f=delete_sub_category` | High
+11 | File | `/cms/category/list` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/Default/Bd` | Medium
+14 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+15 | File | `/domain/add` | Medium
+16 | File | `/donor-wall` | Medium
+17 | File | `/ebics-server/ebics.aspx` | High
+18 | File | `/esbus/servlet/GetSQLData` | High
+19 | File | `/film-rating.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/formLogin` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/horde/util/go.php` | High
+24 | File | `/ishttpd/localweb/java/` | High
+25 | File | `/KK_LS9ReportingPortal/GetData` | High
+26 | File | `/mcategory.php` | High
+27 | File | `/out.php` | Medium
+28 | File | `/p` | Low
+29 | File | `/pages/processlogin.php` | High
+30 | File | `/product/savenewproduct.php?flag=1` | High
+31 | File | `/services/Card/findUser` | High
+32 | File | `/template/edit` | High
+33 | File | `/uncpath/` | Medium
+34 | File | `/usr/bin/uucp` | High
+35 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

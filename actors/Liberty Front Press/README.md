@@ -90,7 +90,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -117,33 +117,33 @@ ID | Type | Indicator | Confidence
 10 | File | `/alphaware/summary.php` | High
 11 | File | `/api/` | Low
 12 | File | `/api/admin/store/product/list` | High
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/config/getuser` | High
+13 | File | `/api/gen/clients/{language}` | High
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/book` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
 17 | File | `/config/myfield/test.php` | High
 18 | File | `/debug/pprof` | Medium
 19 | File | `/ecshop/admin/template.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/forum/PostPrivateMessage` | High
-22 | File | `/home/www/cgi-bin/login.cgi` | High
-23 | File | `/loginsave.php` | High
-24 | File | `/medicines/profile.php` | High
-25 | File | `/multi-vendor-shopping-script/product-list.php` | High
-26 | File | `/net-banking/customer_transactions.php` | High
-27 | File | `/obs/book.php` | High
-28 | File | `/ossn/administrator/com_installer` | High
-29 | File | `/param.file.tgz` | High
-30 | File | `/pms/update_user.php?user_id=1` | High
-31 | File | `/public_html/users.php` | High
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/spip.php` | Medium
-34 | File | `/sre/params.php` | High
-35 | File | `/tmp` | Low
-36 | File | `/user/s.php` | Medium
-37 | File | `/user/upload/upload` | High
-38 | File | `/Users` | Low
-39 | File | `/var/spool/hylafax` | High
+20 | File | `/file/upload/1` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forum/PostPrivateMessage` | High
+23 | File | `/home/www/cgi-bin/login.cgi` | High
+24 | File | `/loginsave.php` | High
+25 | File | `/medicines/profile.php` | High
+26 | File | `/multi-vendor-shopping-script/product-list.php` | High
+27 | File | `/net-banking/customer_transactions.php` | High
+28 | File | `/obs/book.php` | High
+29 | File | `/ossn/administrator/com_installer` | High
+30 | File | `/param.file.tgz` | High
+31 | File | `/pms/update_user.php?user_id=1` | High
+32 | File | `/public_html/users.php` | High
+33 | File | `/requests.php` | High
+34 | File | `/reservation/add_message.php` | High
+35 | File | `/spip.php` | Medium
+36 | File | `/tmp` | Low
+37 | File | `/user/s.php` | Medium
+38 | File | `/user/upload/upload` | High
+39 | File | `/Users` | Low
 40 | File | `/vendor` | Low
 41 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
 42 | File | `/video-sharing-script/watch-video.php` | High
@@ -156,12 +156,13 @@ ID | Type | Indicator | Confidence
 49 | File | `add_contestant.php` | High
 50 | File | `admin.php` | Medium
 51 | File | `admin/add_payment.php` | High
-52 | File | `admin/booking_report.php` | High
-53 | File | `admin/conf_users_edit.php` | High
-54 | File | `admin/disapprove_user.php` | High
-55 | ... | ... | ...
+52 | File | `admin/ajax/op_kandidat.php` | High
+53 | File | `admin/booking_report.php` | High
+54 | File | `admin/conf_users_edit.php` | High
+55 | File | `admin/disapprove_user.php` | High
+56 | ... | ... | ...
 
-There are 475 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

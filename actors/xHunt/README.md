@@ -47,9 +47,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -65,55 +66,59 @@ ID | Type | Indicator | Confidence
 4 | File | `/?ajax-request=jnews` | High
 5 | File | `/admin/?page=user/manage` | High
 6 | File | `/admin/addemployee.php` | High
-7 | File | `/admin/communitymanagement.php` | High
-8 | File | `/admin/edit.php` | High
-9 | File | `/admin/extended` | High
-10 | File | `/admin/featured.php` | High
-11 | File | `/admin/generalsettings.php` | High
-12 | File | `/admin/index.PHP` | High
-13 | File | `/admin/login.php` | High
-14 | File | `/admin/newsletter1.php` | High
-15 | File | `/admin/renewaldue.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/students/view_student.php` | High
-18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-19 | File | `/api/addusers` | High
-20 | File | `/api/user/upsert/<uuid>` | High
-21 | File | `/appliance/users?action=edit` | High
-22 | File | `/backup.pl` | Medium
-23 | File | `/bits/stl_vector.h` | High
-24 | File | `/bsms_ci/index.php` | High
-25 | File | `/cgi-bin/wlogin.cgi` | High
-26 | File | `/dashboard/add-portfolio.php` | High
-27 | File | `/dashboard/updatelogo.php` | High
-28 | File | `/edoc/doctor/patient.php` | High
-29 | File | `/etc/gsissh/sshd_config` | High
-30 | File | `/etc/ldap.conf` | High
-31 | File | `/etc/shadow` | Medium
-32 | File | `/face-recognition-php/facepay-master/camera.php` | High
-33 | File | `/foms/place-order.php` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/goform/wizard_end` | High
-36 | File | `/h/calendar` | Medium
-37 | File | `/h/compose` | Medium
-38 | File | `/h/search?action=voicemail&action=listen` | High
-39 | File | `/hrm/employeeview.php` | High
-40 | File | `/htmldoc/htmldoc/html.cxx` | High
-41 | File | `/index.php` | Medium
-42 | File | `/login.php` | Medium
-43 | File | `/loginVaLidation.php` | High
-44 | File | `/manage-apartment.php` | High
-45 | File | `/manager/index.php` | High
-46 | File | `/mcategory.php` | High
-47 | File | `/mkshop/Men/profile.php` | High
-48 | File | `/Noxen-master/users.php` | High
-49 | File | `/opac/Actions.php?a=login` | High
-50 | File | `/pages/animals.php` | High
-51 | File | `/pet_shop/admin/orders/update_status.php` | High
-52 | File | `/php-scrm/login.php` | High
-53 | ... | ... | ...
+7 | File | `/admin/edit.php` | High
+8 | File | `/admin/index.PHP` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/products/manage_product.php` | High
+12 | File | `/admin/students/manage.php` | High
+13 | File | `/admin/students/view_student.php` | High
+14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+15 | File | `/api/user/upsert/<uuid>` | High
+16 | File | `/appliance/users?action=edit` | High
+17 | File | `/backup.pl` | Medium
+18 | File | `/bits/stl_vector.h` | High
+19 | File | `/bsms_ci/index.php` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/dashboard/add-portfolio.php` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/edoc/doctor/patient.php` | High
+24 | File | `/etc/gsissh/sshd_config` | High
+25 | File | `/etc/ldap.conf` | High
+26 | File | `/etc/shadow` | Medium
+27 | File | `/face-recognition-php/facepay-master/camera.php` | High
+28 | File | `/foms/place-order.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/wizard_end` | High
+31 | File | `/h/calendar` | Medium
+32 | File | `/h/compose` | Medium
+33 | File | `/h/search?action=voicemail&action=listen` | High
+34 | File | `/hrm/employeeview.php` | High
+35 | File | `/index.php` | Medium
+36 | File | `/loginVaLidation.php` | High
+37 | File | `/manage-apartment.php` | High
+38 | File | `/manager/index.php` | High
+39 | File | `/mcategory.php` | High
+40 | File | `/mkshop/Men/profile.php` | High
+41 | File | `/modules/projects/vw_files.php` | High
+42 | File | `/Noxen-master/users.php` | High
+43 | File | `/opac/Actions.php?a=login` | High
+44 | File | `/pages/animals.php` | High
+45 | File | `/pet_shop/admin/orders/update_status.php` | High
+46 | File | `/php-scrm/login.php` | High
+47 | File | `/php-sms/classes/Master.php` | High
+48 | File | `/php-sms/classes/SystemSettings.php` | High
+49 | File | `/php_action/createOrder.php` | High
+50 | File | `/php_action/createUser.php` | High
+51 | File | `/php_action/editProductImage.php` | High
+52 | File | `/reservation/add_message.php` | High
+53 | File | `/ResiotQueryDBActive` | High
+54 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+55 | File | `/royal_event/companyprofile.php` | High
+56 | File | `/secure/QueryComponent!Default.jspa` | High
+57 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

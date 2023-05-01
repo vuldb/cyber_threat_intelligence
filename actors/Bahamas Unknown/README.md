@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bahamas Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [RU](https://vuldb.com/?country.ru)
-* [ES](https://vuldb.com/?country.es)
+* [AR](https://vuldb.com/?country.ar)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,11 +36,18 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [24.244.172.0](https://vuldb.com/?ip.24.244.172.0) | - | - | High
 14 | [24.244.176.0](https://vuldb.com/?ip.24.244.176.0) | - | - | High
 15 | [31.220.6.0](https://vuldb.com/?ip.31.220.6.0) | - | - | High
-16 | [45.12.70.32](https://vuldb.com/?ip.45.12.70.32) | blushers.get-eye.com | - | High
-17 | [45.12.71.32](https://vuldb.com/?ip.45.12.71.32) | - | - | High
-18 | ... | ... | ... | ...
+16 | [38.107.80.128](https://vuldb.com/?ip.38.107.80.128) | - | - | High
+17 | [45.12.70.32](https://vuldb.com/?ip.45.12.70.32) | blushers.get-eye.com | - | High
+18 | [45.12.71.32](https://vuldb.com/?ip.45.12.71.32) | - | - | High
+19 | [45.62.191.48](https://vuldb.com/?ip.45.62.191.48) | - | - | High
+20 | [57.74.106.0](https://vuldb.com/?ip.57.74.106.0) | - | - | High
+21 | [57.91.176.0](https://vuldb.com/?ip.57.91.176.0) | - | - | High
+22 | [63.245.112.0](https://vuldb.com/?ip.63.245.112.0) | d-63-245-112-0.batelnet.bs | - | High
+23 | [63.245.120.0](https://vuldb.com/?ip.63.245.120.0) | - | - | High
+24 | [64.66.0.0](https://vuldb.com/?ip.64.66.0.0) | - | - | High
+25 | ... | ... | ... | ...
 
-There are 67 more IOC items available. Please use our online service to access the data.
+There are 94 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -63,13 +70,13 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?admin/user.html` | High
-2 | File | `/addnews.html` | High
-3 | File | `/admin.php?r=admin/AdminBackup/del` | High
-4 | File | `/admin/addemployee.php` | High
-5 | File | `/admin/edit.php` | High
-6 | File | `/admin/index.php/template/ajax?action=delete` | High
-7 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-8 | File | `/admin/photo.php` | High
+2 | File | `/admin.php?r=admin/AdminBackup/del` | High
+3 | File | `/admin/addemployee.php` | High
+4 | File | `/admin/edit.php` | High
+5 | File | `/admin/index.php/template/ajax?action=delete` | High
+6 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/report/index.php` | High
 9 | File | `/admin/users.php?source=edit_user&id=1` | High
 10 | File | `/administrator/alerts/alertLightbox.php` | High
 11 | File | `/administrator/templates/default/html/windows/right.php` | High
@@ -81,7 +88,7 @@ ID | Type | Indicator | Confidence
 17 | File | `/forum/away.php` | High
 18 | File | `/goform/SysToolReboot` | High
 19 | File | `/goform/WifiExtraSet` | High
-20 | File | `/index.php` | Medium
+20 | File | `/inc/topBarNav.php` | High
 21 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
 22 | File | `/mkshop/Men/profile.php` | High
 23 | File | `/mngset/authset` | High
@@ -89,13 +96,9 @@ ID | Type | Indicator | Confidence
 25 | File | `/net/nfc/netlink.c` | High
 26 | File | `/out.php` | Medium
 27 | File | `/outgoing.php` | High
-28 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-29 | File | `/preauth` | Medium
-30 | File | `/presale/join` | High
-31 | File | `/public/launchNewWindow.jsp` | High
-32 | ... | ... | ...
+28 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,6 +106,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bs.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bs.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bs.netset
 
 ## Literature
 

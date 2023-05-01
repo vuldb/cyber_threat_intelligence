@@ -83,9 +83,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/login/index.php` | High
 2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
 3 | File | `/WEB-INF/web.xml` | High
-4 | ... | ... | ...
+4 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+5 | ... | ... | ...
 
-There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

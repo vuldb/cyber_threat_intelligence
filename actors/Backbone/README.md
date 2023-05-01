@@ -3881,7 +3881,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -3906,39 +3906,39 @@ ID | Type | Indicator | Confidence
 15 | File | `/api/admin/store/product/list` | High
 16 | File | `/api/blade-log/api/list` | High
 17 | File | `/appliance/users?action=edit` | High
-18 | File | `/attachments` | Medium
-19 | File | `/authUserAction!edit.action` | High
-20 | File | `/backup.pl` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/browse.PROJECTKEY` | High
-23 | File | `/bsms_ci/index.php/book` | High
-24 | File | `/cgi-bin/luci/api/wireless` | High
-25 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-26 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-27 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/cmscp/ext/collect/fetch_url.do` | High
-30 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-31 | File | `/debug/pprof` | Medium
-32 | File | `/edoc/doctor/patient.php` | High
-33 | File | `/env` | Low
-34 | File | `/etc/hosts` | Medium
-35 | File | `/etc/ldap.conf` | High
-36 | File | `/etc/shadow` | Medium
-37 | File | `/face-recognition-php/facepay-master/camera.php` | High
-38 | File | `/forms/doLogin` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/home/masterConsole` | High
-41 | File | `/index.php` | Medium
-42 | File | `/Items/*/RemoteImages/Download` | High
-43 | File | `/login/index.php` | High
-44 | File | `/loginsave.php` | High
-45 | File | `/medicines/profile.php` | High
-46 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-47 | File | `/orrs/admin/?page=user/manage_user` | High
+18 | File | `/authUserAction!edit.action` | High
+19 | File | `/backup.pl` | Medium
+20 | File | `/boat/login.php` | High
+21 | File | `/browse.PROJECTKEY` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+26 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/cmscp/ext/collect/fetch_url.do` | High
+29 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/edoc/doctor/patient.php` | High
+32 | File | `/env` | Low
+33 | File | `/etc/hosts` | Medium
+34 | File | `/etc/shadow` | Medium
+35 | File | `/face-recognition-php/facepay-master/camera.php` | High
+36 | File | `/forms/doLogin` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/home/masterConsole` | High
+39 | File | `/index.php` | Medium
+40 | File | `/Items/*/RemoteImages/Download` | High
+41 | File | `/login/index.php` | High
+42 | File | `/loginsave.php` | High
+43 | File | `/medicines/profile.php` | High
+44 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+45 | File | `/orrs/admin/?page=user/manage_user` | High
+46 | File | `/php-scrm/login.php` | High
+47 | File | `/proxy` | Low
 48 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

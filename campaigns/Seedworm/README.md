@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,13 +70,13 @@ ID | Type | Indicator | Confidence
 13 | File | `admin.php` | Medium
 14 | File | `admin/AJAX_lookup_handler.php` | High
 15 | File | `admin/general.php` | High
-16 | File | `admin/login.asp` | High
-17 | File | `admin/movieedit.php` | High
-18 | File | `affich.php` | Medium
-19 | File | `ahcache.sys` | Medium
+16 | File | `admin/index.php` | High
+17 | File | `admin/login.asp` | High
+18 | File | `admin/movieedit.php` | High
+19 | File | `affich.php` | Medium
 20 | ... | ... | ...
 
-There are 164 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

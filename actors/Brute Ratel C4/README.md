@@ -71,9 +71,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/cgi-bin` | Medium
 16 | File | `/classes/Master.php?f=delete_sub_category` | High
 17 | File | `/config/service/host.go` | High
-18 | ... | ... | ...
+18 | File | `/data/sqldata` | High
+19 | ... | ... | ...
 
-There are 150 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

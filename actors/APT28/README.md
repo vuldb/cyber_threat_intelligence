@@ -69,21 +69,21 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
 36 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
 37 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
-38 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
-39 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
-40 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
-41 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
-42 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
-43 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
-44 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
-45 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
-46 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
-47 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
-48 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
-49 | [80.255.6.15](https://vuldb.com/?ip.80.255.6.15) | - | - | High
+38 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
+39 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
+40 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
+41 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
+42 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+43 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
+44 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
+45 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
+46 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
+47 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
+48 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
+49 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
 50 | ... | ... | ... | ...
 
-There are 196 more IOC items available. Please use our online service to access the data.
+There are 198 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -161,6 +161,7 @@ There are 424 more IOA items available (file, library, argument, input value, pa
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
 * https://cert.gov.ua/article/40102
 * https://community.blueliv.com/#!/s/5f6b482482df413eb5350d3b

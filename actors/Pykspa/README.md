@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,16 +50,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/cgi-bin/wapopen` | High
-4 | File | `/HNAP1` | Low
-5 | File | `/mgmt/tm/util/bash` | High
-6 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-7 | File | `/setSystemAdmin` | High
-8 | File | `/updown/upload.cgi` | High
-9 | File | `/usr/bin/pkexec` | High
-10 | ... | ... | ...
+3 | File | `/cgi-bin/luci;stok=/locale` | High
+4 | File | `/cgi-bin/wapopen` | High
+5 | File | `/HNAP1` | Low
+6 | File | `/mgmt/tm/util/bash` | High
+7 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+8 | File | `/setSystemAdmin` | High
+9 | File | `/updown/upload.cgi` | High
+10 | File | `/usr/bin/pkexec` | High
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

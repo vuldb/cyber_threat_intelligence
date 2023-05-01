@@ -80,9 +80,10 @@ ID | Type | Indicator | Confidence
 21 | File | `app/View/Helper/CommandHelper.php` | High
 22 | File | `apport/hookutils.py` | High
 23 | File | `auth_changepassword.php` | High
-24 | ... | ... | ...
+24 | File | `auth_profile.php` | High
+25 | ... | ... | ...
 
-There are 202 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

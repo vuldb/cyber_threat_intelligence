@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -80,38 +80,38 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/employee_row.php` | High
 14 | File | `/admin/login.php` | High
 15 | File | `/admin/maintenance/brand.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/submit-articles` | High
-18 | File | `/ad_js.php` | Medium
-19 | File | `/alphaware/summary.php` | High
-20 | File | `/api/` | Low
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/apply.cgi` | Medium
-24 | File | `/artist-display.php` | High
-25 | File | `/attachments` | Medium
-26 | File | `/boat/login.php` | High
-27 | File | `/bsms_ci/index.php` | High
-28 | File | `/bsms_ci/index.php/book` | High
-29 | File | `/cgi-bin/luci/api/wireless` | High
-30 | File | `/cgi-bin/nightled.cgi` | High
-31 | File | `/cgi-bin/wlogin.cgi` | High
-32 | File | `/classes/Master.php?f=delete_sub_category` | High
-33 | File | `/common/info.cgi` | High
-34 | File | `/context/%2e/WEB-INF/web.xml` | High
-35 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-36 | File | `/debug/pprof` | Medium
-37 | File | `/etc/hosts` | Medium
-38 | File | `/foms/place-order.php` | High
-39 | File | `/forum/away.php` | High
-40 | File | `/goform/setmac` | High
-41 | File | `/goform/wizard_end` | High
-42 | File | `/index.php` | Medium
-43 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-44 | File | `/librarian/bookdetails.php` | High
-45 | File | `/manage-apartment.php` | High
-46 | File | `/management/api/rcx_management/global_config_query` | High
-47 | File | `/mcategory.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/submit-articles` | High
+19 | File | `/ad_js.php` | Medium
+20 | File | `/alphaware/summary.php` | High
+21 | File | `/api/` | Low
+22 | File | `/api/admin/store/product/list` | High
+23 | File | `/api/RecordingList/DownloadRecord?file=` | High
+24 | File | `/apply.cgi` | Medium
+25 | File | `/artist-display.php` | High
+26 | File | `/attachments` | Medium
+27 | File | `/boat/login.php` | High
+28 | File | `/bsms_ci/index.php` | High
+29 | File | `/bsms_ci/index.php/book` | High
+30 | File | `/cgi-bin/luci/api/wireless` | High
+31 | File | `/cgi-bin/nightled.cgi` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | File | `/classes/Master.php?f=delete_sub_category` | High
+34 | File | `/common/info.cgi` | High
+35 | File | `/context/%2e/WEB-INF/web.xml` | High
+36 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/etc/hosts` | Medium
+39 | File | `/foms/place-order.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/goform/setmac` | High
+42 | File | `/goform/wizard_end` | High
+43 | File | `/index.php` | Medium
+44 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+45 | File | `/librarian/bookdetails.php` | High
+46 | File | `/manage-apartment.php` | High
+47 | File | `/management/api/rcx_management/global_config_query` | High
 48 | File | `/medicines/profile.php` | High
 49 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
 50 | File | `/multi-vendor-shopping-script/product-list.php` | High
@@ -124,7 +124,7 @@ ID | Type | Indicator | Confidence
 57 | File | `/reservation/add_message.php` | High
 58 | ... | ... | ...
 
-There are 509 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

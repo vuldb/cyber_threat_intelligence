@@ -60,12 +60,12 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/edit.php` | High
 4 | File | `/admin/googleads.php` | High
 5 | File | `/admin/renewaldue.php` | High
-6 | File | `/dashboard/add-portfolio.php` | High
-7 | File | `/login.php` | Medium
-8 | File | `/mkshop/Men/profile.php` | High
+6 | File | `/analysisProject/pagingQueryData` | High
+7 | File | `/dashboard/add-portfolio.php` | High
+8 | File | `/login.php` | Medium
 9 | ... | ... | ...
 
-There are 67 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

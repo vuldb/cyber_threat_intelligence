@@ -56,30 +56,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
-2 | File | `/resourceNode/resources.jsf` | High
-3 | File | `3.6.cpj` | Low
-4 | File | `404.php` | Low
-5 | File | `admin.asp` | Medium
-6 | File | `admin.aspx` | Medium
-7 | File | `admin.php` | Medium
-8 | File | `admin/member_details.php` | High
-9 | File | `admin_chatconfig.php` | High
-10 | File | `ajaxp.php` | Medium
-11 | File | `alphabet.php` | Medium
-12 | File | `article2/comments.inc.php` | High
-13 | File | `articles/edit.php` | High
-14 | File | `assp.pl` | Low
-15 | File | `be_config.php` | High
-16 | File | `bridge/yabbse.inc.php` | High
-17 | File | `calendar_Eventupdate.asp` | High
-18 | File | `cal_week.php` | Medium
-19 | File | `close_bug.php` | High
-20 | File | `components/minibb/index.php` | High
-21 | File | `config.php` | Medium
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/resourceNode/jdbcResourceEdit.jsf` | High
+3 | File | `/resourceNode/resources.jsf` | High
+4 | File | `3.6.cpj` | Low
+5 | File | `404.php` | Low
+6 | File | `admin.asp` | Medium
+7 | File | `admin.aspx` | Medium
+8 | File | `admin.php` | Medium
+9 | File | `admin/member_details.php` | High
+10 | File | `admin_chatconfig.php` | High
+11 | File | `ajaxp.php` | Medium
+12 | File | `alphabet.php` | Medium
+13 | File | `article2/comments.inc.php` | High
+14 | File | `articles/edit.php` | High
+15 | File | `assp.pl` | Low
+16 | File | `be_config.php` | High
+17 | File | `bridge/yabbse.inc.php` | High
+18 | File | `calendar_Eventupdate.asp` | High
+19 | File | `cal_week.php` | Medium
+20 | File | `close_bug.php` | High
+21 | File | `components/minibb/index.php` | High
 22 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

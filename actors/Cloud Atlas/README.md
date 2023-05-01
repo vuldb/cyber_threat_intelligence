@@ -59,41 +59,41 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin/?page=user/manage_user` | High
 4 | File | `/admin/myaccount` | High
-5 | File | `/admin/pages/sections_save.php` | High
-6 | File | `/admin/settings/fields` | High
-7 | File | `/api/v1/chat.getThreadsList` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/api/v2/open/rowsInfo` | High
-10 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
-11 | File | `/asms/admin/?page=user/manage_user` | High
-12 | File | `/blog/comment` | High
-13 | File | `/csms/admin/?page=system_info` | High
-14 | File | `/env` | Low
-15 | File | `/etc/master.passwd` | High
-16 | File | `/etc/os-release` | High
-17 | File | `/front/search.php` | High
-18 | File | `/garage/php_action/createBrand.php` | High
-19 | File | `/goform/addressNat` | High
-20 | File | `/goform/AdvSetWrlsafeset` | High
-21 | File | `/goform/editFileName` | High
-22 | File | `/goform/form2WizardStep54` | High
-23 | File | `/goform/setSysAdm` | High
-24 | File | `/goform/webExcptypemanFilter` | High
-25 | File | `/goform/WifiBasicSet` | High
-26 | File | `/goform/WifiMacFilterGet` | High
-27 | File | `/hss/admin/categories/view_category.php` | High
-28 | File | `/isomedia/meta.c` | High
-29 | File | `/mods/_core/courses/users/create_course.php` | High
-30 | File | `/module/report_event/index.php` | High
-31 | File | `/Redcock-Farm/farm/category.php` | High
-32 | File | `/release-x64/otfccdump+0x6c0a32` | High
-33 | File | `/services/view_service.php` | High
-34 | File | `/shell` | Low
-35 | File | `/sys/user/putRecycleBin` | High
-36 | File | `/tmp` | Low
+5 | File | `/admin/orders/update_status.php` | High
+6 | File | `/admin/pages/sections_save.php` | High
+7 | File | `/admin/settings/fields` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/api/v1/chat.getThreadsList` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/api/v2/open/rowsInfo` | High
+12 | File | `/api/v3/flows/instances/default-user-settings-flow/execute/` | High
+13 | File | `/asms/admin/?page=user/manage_user` | High
+14 | File | `/blog/comment` | High
+15 | File | `/classes/Login.php` | High
+16 | File | `/csms/admin/?page=system_info` | High
+17 | File | `/env` | Low
+18 | File | `/etc/master.passwd` | High
+19 | File | `/etc/os-release` | High
+20 | File | `/front/search.php` | High
+21 | File | `/garage/php_action/createBrand.php` | High
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/AdvSetWrlsafeset` | High
+24 | File | `/goform/editFileName` | High
+25 | File | `/goform/form2WizardStep54` | High
+26 | File | `/goform/setSysAdm` | High
+27 | File | `/goform/webExcptypemanFilter` | High
+28 | File | `/goform/WifiBasicSet` | High
+29 | File | `/goform/WifiMacFilterGet` | High
+30 | File | `/hss/admin/categories/view_category.php` | High
+31 | File | `/isomedia/meta.c` | High
+32 | File | `/mods/_core/courses/users/create_course.php` | High
+33 | File | `/module/report_event/index.php` | High
+34 | File | `/Redcock-Farm/farm/category.php` | High
+35 | File | `/release-x64/otfccdump+0x6c0a32` | High
+36 | File | `/services/view_service.php` | High
 37 | ... | ... | ...
 
-There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

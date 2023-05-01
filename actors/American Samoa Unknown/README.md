@@ -21,19 +21,26 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.56.5](https://vuldb.com/?ip.5.62.56.5) | r-5-56-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.62.56.6](https://vuldb.com/?ip.5.62.56.6) | r-6-56-62-5.consumer-pool.prcdn.net | - | High
-3 | [5.62.56.208](https://vuldb.com/?ip.5.62.56.208) | r-208-56-62-5.consumer-pool.prcdn.net | - | High
-4 | [5.62.58.5](https://vuldb.com/?ip.5.62.58.5) | r-5-58-62-5.consumer-pool.prcdn.net | - | High
-5 | [5.62.58.6](https://vuldb.com/?ip.5.62.58.6) | r-6-58-62-5.consumer-pool.prcdn.net | - | High
-6 | [5.62.58.188](https://vuldb.com/?ip.5.62.58.188) | r-188-58-62-5.consumer-pool.prcdn.net | - | High
-7 | [37.35.105.224](https://vuldb.com/?ip.37.35.105.224) | plnuk1.plenacom.com | - | High
-8 | [41.109.117.0](https://vuldb.com/?ip.41.109.117.0) | - | - | High
-9 | [43.241.164.0](https://vuldb.com/?ip.43.241.164.0) | - | - | High
-10 | [45.12.70.11](https://vuldb.com/?ip.45.12.70.11) | amethyst.get-eye.com | - | High
-11 | ... | ... | ... | ...
+1 | [4.15.75.250](https://vuldb.com/?ip.4.15.75.250) | - | - | High
+2 | [5.62.56.5](https://vuldb.com/?ip.5.62.56.5) | r-5-56-62-5.consumer-pool.prcdn.net | - | High
+3 | [5.62.56.6](https://vuldb.com/?ip.5.62.56.6) | r-6-56-62-5.consumer-pool.prcdn.net | - | High
+4 | [5.62.56.208](https://vuldb.com/?ip.5.62.56.208) | r-208-56-62-5.consumer-pool.prcdn.net | - | High
+5 | [5.62.58.5](https://vuldb.com/?ip.5.62.58.5) | r-5-58-62-5.consumer-pool.prcdn.net | - | High
+6 | [5.62.58.6](https://vuldb.com/?ip.5.62.58.6) | r-6-58-62-5.consumer-pool.prcdn.net | - | High
+7 | [5.62.58.188](https://vuldb.com/?ip.5.62.58.188) | r-188-58-62-5.consumer-pool.prcdn.net | - | High
+8 | [37.35.105.224](https://vuldb.com/?ip.37.35.105.224) | plnuk1.plenacom.com | - | High
+9 | [38.101.165.0](https://vuldb.com/?ip.38.101.165.0) | IP-DYNAMIC-38-101-165-0.dynamic.samoatelco.com | - | High
+10 | [38.111.133.0](https://vuldb.com/?ip.38.111.133.0) | IP-DYNAMIC-38-111-133-0.dynamic.samoatelco.com | - | High
+11 | [38.134.236.0](https://vuldb.com/?ip.38.134.236.0) | - | - | High
+12 | [38.134.240.0](https://vuldb.com/?ip.38.134.240.0) | IP-DYNAMIC-38-134-240-0.dynamic.samoatelco.com | - | High
+13 | [38.134.243.0](https://vuldb.com/?ip.38.134.243.0) | IP-DYNAMIC-38-134-243-0.dynamic.samoatelco.com | - | High
+14 | [41.109.117.0](https://vuldb.com/?ip.41.109.117.0) | - | - | High
+15 | [43.241.164.0](https://vuldb.com/?ip.43.241.164.0) | - | - | High
+16 | [45.12.70.11](https://vuldb.com/?ip.45.12.70.11) | amethyst.get-eye.com | - | High
+17 | [45.12.70.245](https://vuldb.com/?ip.45.12.70.245) | chafes.globalhilive.com | - | High
+18 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 68 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,12 +49,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,54 +72,55 @@ ID | Type | Indicator | Confidence
 8 | File | `/cm/delete` | Medium
 9 | File | `/common/logViewer/logViewer.jsf` | High
 10 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-11 | File | `/drivers/media/media-device.c` | High
-12 | File | `/etc/master.passwd` | High
-13 | File | `/filemanager/upload.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
-16 | File | `/home.php` | Medium
-17 | File | `/homeaction.php` | High
-18 | File | `/modules/profile/index.php` | High
-19 | File | `/modules/tasks/summary.inc.php` | High
-20 | File | `/multi-vendor-shopping-script/product-list.php` | High
-21 | File | `/out.php` | Medium
-22 | File | `/p` | Low
-23 | File | `/preauth` | Medium
-24 | File | `/products/details.asp` | High
-25 | File | `/recordings/index.php` | High
-26 | File | `/see_more_details.php` | High
-27 | File | `/show_news.php` | High
-28 | File | `/tmp/before` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/updownload/t.report` | High
-31 | File | `/user.profile.php` | High
-32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-33 | File | `/wordpress/wp-admin/options-general.php` | High
-34 | File | `/wp-admin` | Medium
-35 | File | `/wp-admin/admin-ajax.php` | High
-36 | File | `account.asp` | Medium
-37 | File | `adclick.php` | Medium
-38 | File | `adm/systools.asp` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/admin.shtml` | High
-41 | File | `Admin/ADM_Pagina.php` | High
-42 | File | `admin/category.inc.php` | High
-43 | File | `admin/main.asp` | High
-44 | File | `admin/param/param_func.inc.php` | High
-45 | File | `admin/y_admin.asp` | High
-46 | File | `adminer.php` | Medium
-47 | File | `administrator/components/com_media/helpers/media.php` | High
-48 | File | `admin_ok.asp` | Medium
-49 | File | `app/Core/Paginator.php` | High
-50 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-51 | File | `artlinks.dispnew.php` | High
-52 | File | `auth.php` | Medium
-53 | File | `bin/named/query.c` | High
-54 | File | `blank.php` | Medium
-55 | File | `blocklayered-ajax.php` | High
-56 | ... | ... | ...
+11 | File | `/download` | Medium
+12 | File | `/drivers/media/media-device.c` | High
+13 | File | `/etc/master.passwd` | High
+14 | File | `/filemanager/upload.php` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/getcfg.php` | Medium
+17 | File | `/home.php` | Medium
+18 | File | `/homeaction.php` | High
+19 | File | `/modules/profile/index.php` | High
+20 | File | `/modules/tasks/summary.inc.php` | High
+21 | File | `/multi-vendor-shopping-script/product-list.php` | High
+22 | File | `/out.php` | Medium
+23 | File | `/p` | Low
+24 | File | `/preauth` | Medium
+25 | File | `/products/details.asp` | High
+26 | File | `/recordings/index.php` | High
+27 | File | `/see_more_details.php` | High
+28 | File | `/show_news.php` | High
+29 | File | `/tmp/before` | Medium
+30 | File | `/uncpath/` | Medium
+31 | File | `/updownload/t.report` | High
+32 | File | `/user.profile.php` | High
+33 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+34 | File | `/wordpress/wp-admin/options-general.php` | High
+35 | File | `/wp-admin` | Medium
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `account.asp` | Medium
+38 | File | `adclick.php` | Medium
+39 | File | `adm/systools.asp` | High
+40 | File | `admin.php` | Medium
+41 | File | `admin/admin.shtml` | High
+42 | File | `Admin/ADM_Pagina.php` | High
+43 | File | `admin/category.inc.php` | High
+44 | File | `admin/main.asp` | High
+45 | File | `admin/param/param_func.inc.php` | High
+46 | File | `admin/y_admin.asp` | High
+47 | File | `adminer.php` | Medium
+48 | File | `administration/admins.php` | High
+49 | File | `administrator/components/com_media/helpers/media.php` | High
+50 | File | `admin_ok.asp` | Medium
+51 | File | `app/Core/Paginator.php` | High
+52 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+53 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+54 | File | `artlinks.dispnew.php` | High
+55 | File | `auth.php` | Medium
+56 | File | `bin/named/query.c` | High
+57 | ... | ... | ...
 
-There are 485 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,6 +129,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_as.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ws.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_as.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ws.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_as.netset
 
 ## Literature
 

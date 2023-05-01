@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [50.17.5.224](https://vuldb.com/?ip.50.17.5.224) | ec2-50-17-5-224.compute-1.amazonaws.com | - | Medium
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,47 +66,49 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin/wapopen` | High
 4 | File | `/controller/Index.php` | High
 5 | File | `/etc/ajenti/config.yml` | High
-6 | File | `/etc/sudoers` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/goform/telnet` | High
-9 | File | `/include/chart_generator.php` | High
-10 | File | `/lilac/main.php` | High
-11 | File | `/module/admin_bp/add_application.php` | High
-12 | File | `/module/report_event/index.php` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/public/launchNewWindow.jsp` | High
-15 | File | `/public/login.htm` | High
-16 | File | `/rom-0` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/tmp/connlicj.bin` | High
-19 | File | `/tmp/phpglibccheck` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
-22 | File | `/var/log/nginx` | High
-23 | File | `/var/tmp/sess_*` | High
-24 | File | `/wp-admin/options.php` | High
-25 | File | `/youthappam/add-food.php` | High
-26 | File | `/youthappam/editclient.php` | High
-27 | File | `action.php` | Medium
-28 | File | `actionphp/download.File.php` | High
-29 | File | `add_comment.php` | High
-30 | File | `admin.a6mambocredits.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/admin.php` | High
-33 | File | `admin/content.php` | High
-34 | File | `admin/import/class-import-settings.php` | High
-35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-36 | File | `admin/sitesettings.php` | High
-37 | File | `admin_gallery.php3` | High
-38 | File | `affich.php` | Medium
-39 | File | `agent/Core/Controller/SendRequest.cpp` | High
-40 | File | `akeyActivationLogin.do` | High
-41 | File | `album_portal.php` | High
-42 | File | `apache-auth.conf` | High
-43 | File | `app/admin/routing/edit-bgp-mapping-search.php` | High
-44 | ... | ... | ...
+6 | File | `/etc/gsissh/sshd_config` | High
+7 | File | `/etc/sudoers` | Medium
+8 | File | `/forum/away.php` | High
+9 | File | `/goform/telnet` | High
+10 | File | `/include/chart_generator.php` | High
+11 | File | `/lilac/main.php` | High
+12 | File | `/mims/login.php` | High
+13 | File | `/module/admin_bp/add_application.php` | High
+14 | File | `/module/report_event/index.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/public/launchNewWindow.jsp` | High
+18 | File | `/public/login.htm` | High
+19 | File | `/rom-0` | Low
+20 | File | `/spip.php` | Medium
+21 | File | `/tmp/connlicj.bin` | High
+22 | File | `/tmp/phpglibccheck` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+25 | File | `/var/log/nginx` | High
+26 | File | `/var/tmp/sess_*` | High
+27 | File | `/wp-admin/options.php` | High
+28 | File | `/youthappam/add-food.php` | High
+29 | File | `/youthappam/editclient.php` | High
+30 | File | `action.php` | Medium
+31 | File | `actionphp/download.File.php` | High
+32 | File | `add_comment.php` | High
+33 | File | `admin.a6mambocredits.php` | High
+34 | File | `admin.php` | Medium
+35 | File | `admin.php3` | Medium
+36 | File | `admin.php?m=backup&c=backup&a=doback` | High
+37 | File | `admin/admin.php` | High
+38 | File | `admin/content.php` | High
+39 | File | `admin/import/class-import-settings.php` | High
+40 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+41 | File | `admin/sitesettings.php` | High
+42 | File | `admin_gallery.php3` | High
+43 | File | `affich.php` | Medium
+44 | File | `agent/Core/Controller/SendRequest.cpp` | High
+45 | File | `akeyActivationLogin.do` | High
+46 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +134,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/netskopeoss/NetskopeThreatLabsIOCs/tree/main/AgentTesla/IOCs
 * https://services.global.ntt/en-us/insights/blog/discovering-a-new-agent-tesla-malware-sample
 * https://www.fortinet.com/blog/threat-research/phishing-campaign-targeting-korean-to-deliver-agent-tesla-new-variant
+* https://www.zscaler.com/blogs/security-research/agent-tesla-rat-delivered-quantum-builder-new-ttps
 
 ## Literature
 

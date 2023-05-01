@@ -9,8 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
-* [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
 
 ## Actors
 
@@ -53,13 +51,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -69,37 +67,39 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.FBCIndex` | Medium
 2 | File | `//` | Low
-3 | File | `/admin/inventory/manage_stock.php` | High
-4 | File | `/admin/maintenance/manage_category.php` | High
-5 | File | `/admin/maintenance/view_designation.php` | High
-6 | File | `/admin/mechanics/manage_mechanic.php` | High
-7 | File | `/admin/offenses/view_details.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admin/service_requests/manage_inventory.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/jmeter/download/files` | High
-12 | File | `/api/upload` | Medium
-13 | File | `/APR/login.php` | High
-14 | File | `/cgi-bin/DownloadFlash` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/classes/Login.php` | High
-17 | File | `/classes/Master.php` | High
-18 | File | `/classes/Master.php?f=delete_img` | High
-19 | File | `/classes/Master.php?f=save_brand` | High
-20 | File | `/classes/Master.php?f=save_sub_category` | High
-21 | File | `/classes/Users.php` | High
-22 | File | `/classes/Users.phpp` | High
-23 | File | `/DXR.axd` | Medium
-24 | File | `/files/import` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/hrm/controller/employee.php` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/hrm/employeeview.php` | High
-29 | File | `/inc/topBarNav.php` | High
-30 | File | `/j_security_check` | High
-31 | ... | ... | ...
+3 | File | `/admin/?page=reminders/view_reminder` | High
+4 | File | `/admin/categories/manage_category.php` | High
+5 | File | `/admin/categories/view_category.php` | High
+6 | File | `/admin/curriculum/view_curriculum.php` | High
+7 | File | `/admin/departments/view_department.php` | High
+8 | File | `/admin/index.php` | High
+9 | File | `/admin/inquiries/view_inquiry.php` | High
+10 | File | `/admin/inventory/manage_stock.php` | High
+11 | File | `/admin/maintenance/manage_category.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/mechanics/manage_mechanic.php` | High
+14 | File | `/admin/offenses/view_details.php` | High
+15 | File | `/admin/orders/update_status.php` | High
+16 | File | `/admin/products/manage_product.php` | High
+17 | File | `/admin/products/view_product.php` | High
+18 | File | `/admin/reminders/manage_reminder.php` | High
+19 | File | `/admin/report/index.php` | High
+20 | File | `/admin/sales/manage_sale.php` | High
+21 | File | `/admin/sales/view_details.php` | High
+22 | File | `/admin/services/manage_service.php` | High
+23 | File | `/admin/service_requests/manage_inventory.php` | High
+24 | File | `/admin/students/view_details.php` | High
+25 | File | `/admin/suppliers/view_details.php` | High
+26 | File | `/admin/user/manage_user.php` | High
+27 | File | `/admin/userprofile.php` | High
+28 | File | `/api/jmeter/download/files` | High
+29 | File | `/api/upload` | Medium
+30 | File | `/APR/login.php` | High
+31 | File | `/cgi-bin/DownloadFlash` | High
+32 | File | `/cgi-bin/wlogin.cgi` | High
+33 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

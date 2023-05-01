@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -545,47 +545,48 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/appliance/users?action=edit` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/attachments` | Medium
-14 | File | `/backup.pl` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/bsms_ci/index.php/book` | High
-17 | File | `/debug/pprof` | Medium
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/edoc/doctor/patient.php` | High
-20 | File | `/etc/hosts` | Medium
-21 | File | `/etc/ldap.conf` | High
-22 | File | `/etc/quagga` | Medium
-23 | File | `/etc/shadow` | Medium
-24 | File | `/event/admin/?page=user/list` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/hardware` | Medium
-27 | File | `/index.php` | Medium
-28 | File | `/medicines/profile.php` | High
-29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-30 | File | `/out.php` | Medium
-31 | File | `/php-scrm/login.php` | High
-32 | File | `/proxy` | Low
-33 | File | `/reservation/add_message.php` | High
-34 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-35 | File | `/Session` | Medium
-36 | File | `/spip.php` | Medium
-37 | File | `/tmp` | Low
-38 | File | `/uncpath/` | Medium
-39 | File | `/user/loader.php?api=1` | High
-40 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-41 | File | `/video-sharing-script/watch-video.php` | High
-42 | File | `/wireless/security.asp` | High
-43 | File | `/wp-admin/admin-ajax.php` | High
-44 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-45 | ... | ... | ...
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/products/manage_product.php` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/alphaware/summary.php` | High
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/appliance/users?action=edit` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/attachments` | Medium
+16 | File | `/backup.pl` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/bsms_ci/index.php/book` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+22 | File | `/edoc/doctor/patient.php` | High
+23 | File | `/etc/hosts` | Medium
+24 | File | `/etc/ldap.conf` | High
+25 | File | `/etc/quagga` | Medium
+26 | File | `/etc/shadow` | Medium
+27 | File | `/event/admin/?page=user/list` | High
+28 | File | `/forms/doLogin` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/hardware` | Medium
+31 | File | `/index.php` | Medium
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-scrm/login.php` | High
+36 | File | `/proxy` | Low
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+39 | File | `/rom-0` | Low
+40 | File | `/Session` | Medium
+41 | File | `/spip.php` | Medium
+42 | File | `/tmp` | Low
+43 | File | `/user/loader.php?api=1` | High
+44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+45 | File | `/video-sharing-script/watch-video.php` | High
+46 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

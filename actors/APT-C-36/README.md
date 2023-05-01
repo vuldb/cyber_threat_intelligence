@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,20 +102,22 @@ ID | Type | Indicator | Confidence
 51 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
 52 | File | `/wireless/security.asp` | High
 53 | File | `/wordpress/wp-admin/options-general.php` | High
-54 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-55 | File | `01article.php` | High
-56 | File | `AbstractScheduleJob.java` | High
-57 | File | `actionphp/download.File.php` | High
-58 | File | `activenews_view.asp` | High
-59 | File | `adclick.php` | Medium
-60 | File | `addtocart.asp` | High
-61 | File | `admin.php` | Medium
-62 | File | `admin/abc.php` | High
-63 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-64 | File | `admin/admin/adminsave.html` | High
-65 | ... | ... | ...
+54 | File | `01article.php` | High
+55 | File | `AbstractScheduleJob.java` | High
+56 | File | `actionphp/download.File.php` | High
+57 | File | `activenews_view.asp` | High
+58 | File | `adclick.php` | Medium
+59 | File | `addtocart.asp` | High
+60 | File | `admin.php` | Medium
+61 | File | `admin/abc.php` | High
+62 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+63 | File | `admin/admin/adminsave.html` | High
+64 | File | `admin/asset/grid-proxy` | High
+65 | File | `admin/auditTrail.jsf` | High
+66 | File | `admin/conf_users_edit.php` | High
+67 | ... | ... | ...
 
-There are 569 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 586 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

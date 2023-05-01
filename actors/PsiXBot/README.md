@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,49 +62,49 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.printers` | High
 2 | File | `/admin/edit-doc.php` | High
-3 | File | `/admin/news/news_ok.php` | High
-4 | File | `/api/plugin/uninstall` | High
-5 | File | `/bcms/admin/?page=user/list` | High
-6 | File | `/bin/boa` | Medium
-7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/wlogin.cgi` | High
-9 | File | `/config/getuser` | High
-10 | File | `/cwc/login` | Medium
-11 | File | `/de/cgi/dfs_guest/` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/download` | Medium
-14 | File | `/etc/gsissh/sshd_config` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-17 | File | `/etc/quagga` | Medium
-18 | File | `/etc/quantum/quantum.conf` | High
-19 | File | `/etc/shadow` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/getcfg.php` | Medium
-22 | File | `/goform/telnet` | High
-23 | File | `/goform/WanParameterSetting` | High
-24 | File | `/h/calendar` | Medium
-25 | File | `/hrm/employeeadd.php` | High
-26 | File | `/inc/extensions.php` | High
-27 | File | `/include/makecvs.php` | High
-28 | File | `/js/app.js` | Medium
-29 | File | `/mgmt/tm/util/bash` | High
-30 | File | `/modules/profile/index.php` | High
-31 | File | `/modules/tasks/summary.inc.php` | High
-32 | File | `/monitoring` | Medium
-33 | File | `/nova/bin/console` | High
-34 | File | `/nova/bin/detnet` | High
-35 | File | `/out.php` | Medium
-36 | File | `/payu/icpcheckout/` | High
-37 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-38 | File | `/property-list/property_view.php` | High
-39 | File | `/public/login.htm` | High
-40 | File | `/req_password_user.php` | High
-41 | File | `/rest/project-templates/1.0/createshared` | High
-42 | File | `/rom-0` | Low
-43 | File | `/secure/QueryComponent!Default.jspa` | High
-44 | File | `/trx_addons/v2/get/sc_layout` | High
-45 | File | `/uncpath/` | Medium
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/news/news_ok.php` | High
+5 | File | `/api/plugin/uninstall` | High
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/bin/boa` | Medium
+8 | File | `/card_scan.php` | High
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/config/getuser` | High
+11 | File | `/cwc/login` | Medium
+12 | File | `/de/cgi/dfs_guest/` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/download` | Medium
+15 | File | `/etc/gsissh/sshd_config` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+18 | File | `/etc/quagga` | Medium
+19 | File | `/etc/quantum/quantum.conf` | High
+20 | File | `/etc/shadow` | Medium
+21 | File | `/forum/away.php` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/telnet` | High
+24 | File | `/goform/WanParameterSetting` | High
+25 | File | `/h/calendar` | Medium
+26 | File | `/home/cavesConsole` | High
+27 | File | `/hrm/employeeadd.php` | High
+28 | File | `/inc/extensions.php` | High
+29 | File | `/include/makecvs.php` | High
+30 | File | `/js/app.js` | Medium
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/modules/profile/index.php` | High
+33 | File | `/modules/tasks/summary.inc.php` | High
+34 | File | `/monitoring` | Medium
+35 | File | `/nova/bin/console` | High
+36 | File | `/nova/bin/detnet` | High
+37 | File | `/out.php` | Medium
+38 | File | `/payu/icpcheckout/` | High
+39 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+40 | File | `/property-list/property_view.php` | High
+41 | File | `/public/login.htm` | High
+42 | File | `/req_password_user.php` | High
+43 | File | `/rest/project-templates/1.0/createshared` | High
+44 | File | `/rom-0` | Low
+45 | File | `/secure/QueryComponent!Default.jspa` | High
 46 | ... | ... | ...
 
 There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

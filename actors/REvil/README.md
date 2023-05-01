@@ -82,9 +82,10 @@ ID | Type | Indicator | Confidence
 19 | File | `/uncpath/` | Medium
 20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
 21 | File | `adclick.php` | Medium
-22 | ... | ... | ...
+22 | File | `admin.asp` | Medium
+23 | ... | ... | ...
 
-There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

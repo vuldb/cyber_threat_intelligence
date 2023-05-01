@@ -68,38 +68,38 @@ ID | Type | Indicator | Confidence
 3 | File | `/ajax/networking/get_netcfg.php` | High
 4 | File | `/api/collection/findone` | High
 5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/app/options.py` | High
-7 | File | `/bin/httpd` | Medium
-8 | File | `/cbs/system/ShowAdvanced.do` | High
-9 | File | `/cgi-bin/wapopen` | High
-10 | File | `/ci_spms/admin/category` | High
-11 | File | `/ci_spms/admin/search/searching/` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
-13 | File | `/classes/Master.php?f=delete_train` | High
-14 | File | `/cms/print.php` | High
-15 | File | `/concat?/%2557EB-INF/web.xml` | High
-16 | File | `/Content/Template/root/reverse-shell.aspx` | High
-17 | File | `/ctcprotocol/Protocol` | High
-18 | File | `/dashboard/menu-list.php` | High
-19 | File | `/data/remove` | Medium
-20 | File | `/debug` | Low
-21 | File | `/ebics-server/ebics.aspx` | High
-22 | File | `/ffos/classes/Master.php?f=save_category` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/setmac` | High
-25 | File | `/goform/wlanPrimaryNetwork` | High
-26 | File | `/goforms/rlminfo` | High
-27 | File | `/HNAP1` | Low
-28 | File | `/HNAP1/SetClientInfo` | High
-29 | File | `/Items/*/RemoteImages/Download` | High
-30 | File | `/menu.html` | Medium
-31 | File | `/navigate/navigate_download.php` | High
-32 | File | `/ocwbs/admin/?page=user/manage_user` | High
-33 | File | `/ofrs/admin/?page=user/manage_user` | High
-34 | File | `/out.php` | Medium
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/proc/ioports` | High
+6 | File | `/api/geojson` | Medium
+7 | File | `/app/options.py` | High
+8 | File | `/bin/httpd` | Medium
+9 | File | `/cbs/system/ShowAdvanced.do` | High
+10 | File | `/cgi-bin/wapopen` | High
+11 | File | `/ci_spms/admin/category` | High
+12 | File | `/ci_spms/admin/search/searching/` | High
+13 | File | `/classes/Master.php?f=delete_appointment` | High
+14 | File | `/classes/Master.php?f=delete_train` | High
+15 | File | `/cms/print.php` | High
+16 | File | `/concat?/%2557EB-INF/web.xml` | High
+17 | File | `/Content/Template/root/reverse-shell.aspx` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/dashboard/menu-list.php` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug` | Low
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/ffos/classes/Master.php?f=save_category` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/wlanPrimaryNetwork` | High
+27 | File | `/goforms/rlminfo` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/HNAP1/SetClientInfo` | High
+30 | File | `/Items/*/RemoteImages/Download` | High
+31 | File | `/menu.html` | Medium
+32 | File | `/navigate/navigate_download.php` | High
+33 | File | `/ocwbs/admin/?page=user/manage_user` | High
+34 | File | `/ofrs/admin/?page=user/manage_user` | High
+35 | File | `/out.php` | Medium
+36 | File | `/password.html` | High
+37 | File | `/php_action/fetchSelectedUser.php` | High
 38 | File | `/property-list/property_view.php` | High
 39 | File | `/ptms/classes/Users.php` | High
 40 | File | `/resources//../` | High
@@ -110,7 +110,7 @@ ID | Type | Indicator | Confidence
 45 | File | `/spip.php` | Medium
 46 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

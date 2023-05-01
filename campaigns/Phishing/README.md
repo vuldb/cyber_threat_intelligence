@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RO](https://vuldb.com/?country.ro)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -94,14 +94,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -136,53 +136,53 @@ ID | Type | Indicator | Confidence
 25 | File | `/fos/admin/index.php?page=menu` | High
 26 | File | `/home/masterConsole` | High
 27 | File | `/home/sendBroadcast` | High
-28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/medicines/profile.php` | High
-30 | File | `/messageboard/view.php` | High
-31 | File | `/modules/projects/vw_files.php` | High
-32 | File | `/mygym/admin/index.php?view_exercises` | High
-33 | File | `/out.php` | Medium
-34 | File | `/php-opos/index.php` | High
-35 | File | `/proxy` | Low
-36 | File | `/public/launchNewWindow.jsp` | High
-37 | File | `/reports/rwservlet` | High
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/servlet/webacc` | High
-40 | File | `/spip.php` | Medium
-41 | File | `/textpattern/index.php` | High
-42 | File | `/tmp` | Low
-43 | File | `/uncpath/` | Medium
-44 | File | `/user/updatePwd` | High
-45 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-46 | File | `/video-sharing-script/watch-video.php` | High
-47 | File | `/wireless/security.asp` | High
-48 | File | `/wp-admin/admin-ajax.php` | High
-49 | File | `01article.php` | High
-50 | File | `20review.asp` | Medium
-51 | File | `account.asp` | Medium
-52 | File | `AcquisiAction.class.php` | High
-53 | File | `actionphp/download.File.php` | High
-54 | File | `activenews_view.asp` | High
-55 | File | `adclick.php` | Medium
-56 | File | `additem.asp` | Medium
-57 | File | `admin.a6mambocredits.php` | High
-58 | File | `admin.cropcanvas.php` | High
-59 | File | `admin.joomlaradiov5.php` | High
-60 | File | `admin.php` | Medium
-61 | File | `admin.remository.php` | High
-62 | File | `admin/abc.php` | High
-63 | File | `admin/addons/archive/archive.php` | High
-64 | File | `admin/add_payment.php` | High
-65 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-66 | File | `admin/admin/adminsave.html` | High
-67 | File | `admin/ajax/op_kandidat.php` | High
-68 | File | `admin/auditTrail.jsf` | High
-69 | File | `admin/conf_users_edit.php` | High
-70 | File | `admin/disapprove_user.php` | High
+28 | File | `/medicines/profile.php` | High
+29 | File | `/messageboard/view.php` | High
+30 | File | `/modules/projects/vw_files.php` | High
+31 | File | `/mygym/admin/index.php?view_exercises` | High
+32 | File | `/out.php` | Medium
+33 | File | `/php-opos/index.php` | High
+34 | File | `/proxy` | Low
+35 | File | `/public/launchNewWindow.jsp` | High
+36 | File | `/reports/rwservlet` | High
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/servlet/webacc` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/textpattern/index.php` | High
+41 | File | `/tmp` | Low
+42 | File | `/uncpath/` | Medium
+43 | File | `/user/updatePwd` | High
+44 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+45 | File | `/video-sharing-script/watch-video.php` | High
+46 | File | `/wireless/security.asp` | High
+47 | File | `/wp-admin/admin-ajax.php` | High
+48 | File | `01article.php` | High
+49 | File | `20review.asp` | Medium
+50 | File | `account.asp` | Medium
+51 | File | `AcquisiAction.class.php` | High
+52 | File | `activenews_view.asp` | High
+53 | File | `adclick.php` | Medium
+54 | File | `additem.asp` | Medium
+55 | File | `admin.a6mambocredits.php` | High
+56 | File | `admin.cropcanvas.php` | High
+57 | File | `admin.joomlaradiov5.php` | High
+58 | File | `admin.php` | Medium
+59 | File | `admin.remository.php` | High
+60 | File | `admin/abc.php` | High
+61 | File | `admin/addons/archive/archive.php` | High
+62 | File | `admin/add_payment.php` | High
+63 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+64 | File | `admin/admin/adminsave.html` | High
+65 | File | `admin/ajax/op_kandidat.php` | High
+66 | File | `admin/asset/grid-proxy` | High
+67 | File | `admin/auditTrail.jsf` | High
+68 | File | `admin/conf_users_edit.php` | High
+69 | File | `admin/disapprove_user.php` | High
+70 | File | `admin/edit_category.php` | High
 71 | File | `admin/expense_report.php` | High
 72 | ... | ... | ...
 
-There are 635 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 634 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

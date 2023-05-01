@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -113,12 +113,13 @@ ID | Type | Indicator | Confidence
 42 | File | `agentdisplay.php` | High
 43 | File | `apply.cgi` | Medium
 44 | File | `appointment.php` | High
-45 | File | `arch/x86/kvm/hyperv.c` | High
-46 | File | `armv8_deprecated.c` | High
-47 | File | `assets/components/fred/web/elfinder/connector.php` | High
-48 | ... | ... | ...
+45 | File | `armv8_deprecated.c` | High
+46 | File | `assets/components/fred/web/elfinder/connector.php` | High
+47 | File | `auction.cgi` | Medium
+48 | File | `autologin.jsp` | High
+49 | ... | ... | ...
 
-There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -77,39 +77,40 @@ ID | Type | Indicator | Confidence
 15 | File | `/admin/maintenance/view_designation.php` | High
 16 | File | `/admin/mechanics/manage_mechanic.php` | High
 17 | File | `/admin/offenses/view_details.php` | High
-18 | File | `/admin/product/manage.php` | High
-19 | File | `/admin/report/index.php` | High
-20 | File | `/admin/service_requests/manage_inventory.php` | High
-21 | File | `/admin/transactions/track_shipment.php` | High
-22 | File | `/admin/userprofile.php` | High
-23 | File | `/admin_area/login_transfer.php` | High
-24 | File | `/adms/admin/?page=user/manage_user` | High
-25 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-26 | File | `/ajax/update_certificate` | High
-27 | File | `/alphaware/details.php` | High
-28 | File | `/alphaware/summary.php` | High
-29 | File | `/api/` | Low
-30 | File | `/api/admin/store/product/list` | High
-31 | File | `/api/gen/clients/{language}` | High
-32 | File | `/apply.cgi` | Medium
-33 | File | `/articles/{id}` | High
-34 | File | `/boat/login.php` | High
-35 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-36 | File | `/cgi-bin/touchlist_sync.cgi` | High
-37 | File | `/cgi-bin/wlogin.cgi` | High
-38 | File | `/classes/Login.php` | High
-39 | File | `/classes/Master.php` | High
-40 | File | `/classes/Master.php?f=delete_sub_category` | High
-41 | File | `/classes/Users.php` | High
-42 | File | `/config/myfield/test.php` | High
-43 | File | `/debug/pprof` | Medium
-44 | File | `/ecshop/admin/template.php` | High
-45 | File | `/eduauth/student/search.php` | High
-46 | File | `/fudforum/adm/hlplist.php` | High
-47 | File | `/geoserver/rest/about/status` | High
-48 | ... | ... | ...
+18 | File | `/admin/orders/update_status.php` | High
+19 | File | `/admin/product/manage.php` | High
+20 | File | `/admin/reminders/manage_reminder.php` | High
+21 | File | `/admin/report/index.php` | High
+22 | File | `/admin/sales/manage_sale.php` | High
+23 | File | `/admin/service_requests/manage_inventory.php` | High
+24 | File | `/admin/transactions/track_shipment.php` | High
+25 | File | `/admin/userprofile.php` | High
+26 | File | `/admin_area/login_transfer.php` | High
+27 | File | `/adms/admin/?page=user/manage_user` | High
+28 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+29 | File | `/ajax/update_certificate` | High
+30 | File | `/alphaware/details.php` | High
+31 | File | `/alphaware/summary.php` | High
+32 | File | `/api/` | Low
+33 | File | `/api/admin/store/product/list` | High
+34 | File | `/api/gen/clients/{language}` | High
+35 | File | `/articles/{id}` | High
+36 | File | `/boat/login.php` | High
+37 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+38 | File | `/cgi-bin/touchlist_sync.cgi` | High
+39 | File | `/cgi-bin/wlogin.cgi` | High
+40 | File | `/classes/Login.php` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_sub_category` | High
+43 | File | `/classes/Users.php` | High
+44 | File | `/config/myfield/test.php` | High
+45 | File | `/debug/pprof` | Medium
+46 | File | `/ecshop/admin/template.php` | High
+47 | File | `/eduauth/student/search.php` | High
+48 | File | `/fudforum/adm/hlplist.php` | High
+49 | ... | ... | ...
 
-There are 417 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -57,18 +57,18 @@ ID | Type | Indicator | Confidence
 7 | File | `/download` | Medium
 8 | File | `/etc/quagga` | Medium
 9 | File | `/etc/shadow` | Medium
-10 | File | `/h/calendar` | Medium
-11 | File | `/inc/extensions.php` | High
-12 | File | `/netflow/jspui/editProfile.jsp` | High
-13 | File | `/nova/bin/console` | High
-14 | File | `/nova/bin/detnet` | High
-15 | File | `/out.php` | Medium
-16 | File | `/rapi/read_url` | High
-17 | File | `/req_password_user.php` | High
-18 | File | `/rom-0` | Low
+10 | File | `/forms/doLogin` | High
+11 | File | `/h/calendar` | Medium
+12 | File | `/inc/extensions.php` | High
+13 | File | `/netflow/jspui/editProfile.jsp` | High
+14 | File | `/nova/bin/console` | High
+15 | File | `/nova/bin/detnet` | High
+16 | File | `/out.php` | Medium
+17 | File | `/rapi/read_url` | High
+18 | File | `/req_password_user.php` | High
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 155 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

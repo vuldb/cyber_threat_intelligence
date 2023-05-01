@@ -75,7 +75,8 @@ ID | Type | Indicator | Confidence
 20 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
 21 | File | `/vloggers_merch/classes/Master.php?f=delete_order` | High
 22 | File | `abm.aspx` | Medium
-23 | ... | ... | ...
+23 | File | `actions/ChangeConfiguration.html` | High
+24 | ... | ... | ...
 
 There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

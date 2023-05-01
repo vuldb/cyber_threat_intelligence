@@ -56,13 +56,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/edituser.php` | High
-3 | File | `/etc/shadow` | Medium
-4 | File | `/goform/CertListInfo` | High
-5 | ... | ... | ...
+1 | File | `/admin/attendance_row.php` | High
+2 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+3 | File | `/edituser.php` | High
+4 | File | `/etc/shadow` | Medium
+5 | File | `/goform/CertListInfo` | High
+6 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

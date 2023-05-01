@@ -55,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,14 +63,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/goform/dir_setWanWifi` | High
-2 | File | `/opt/tms/bin/cli` | High
-3 | File | `/preferences/tags` | High
-4 | File | `/relax-order-checks` | High
-5 | File | `and/or` | Low
+1 | File | `/admin/products/index.php` | High
+2 | File | `/goform/dir_setWanWifi` | High
+3 | File | `/opt/tms/bin/cli` | High
+4 | File | `/preferences/tags` | High
+5 | File | `/relax-order-checks` | High
 6 | ... | ... | ...
 
-There are 36 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

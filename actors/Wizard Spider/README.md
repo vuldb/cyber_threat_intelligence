@@ -120,9 +120,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/moduleinterface.php` | High
-4 | File | `/ajax/networking/get_netcfg.php` | High
+2 | File | `/admin/moduleinterface.php` | High
+3 | File | `/ajax/networking/get_netcfg.php` | High
+4 | File | `/api/gen/clients/{language}` | High
 5 | File | `/app/options.py` | High
 6 | File | `/bin/httpd` | Medium
 7 | File | `/cgi-bin/wapopen` | High
@@ -141,33 +141,31 @@ ID | Type | Indicator | Confidence
 20 | File | `/ffos/classes/Master.php?f=save_category` | High
 21 | File | `/forum/away.php` | High
 22 | File | `/goforms/rlminfo` | High
-23 | File | `/index.php` | Medium
-24 | File | `/Items/*/RemoteImages/Download` | High
-25 | File | `/members/view_member.php` | High
-26 | File | `/menu.html` | Medium
-27 | File | `/modules/profile/index.php` | High
-28 | File | `/navigate/navigate_download.php` | High
-29 | File | `/ocwbs/admin/?page=user/manage_user` | High
-30 | File | `/ofrs/admin/?page=user/manage_user` | High
-31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/password.html` | High
-34 | File | `/php_action/fetchSelectedUser.php` | High
-35 | File | `/proc/ioports` | High
-36 | File | `/property-list/property_view.php` | High
-37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/resources//../` | High
-39 | File | `/rest/api/2/search` | High
-40 | File | `/s/` | Low
-41 | File | `/scripts/cpan_config` | High
-42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-45 | File | `/sys/dict/queryTableData` | High
-46 | File | `/tmp` | Low
-47 | ... | ... | ...
+23 | File | `/HNAP1` | Low
+24 | File | `/HNAP1/SetClientInfo` | High
+25 | File | `/index.php` | Medium
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/members/view_member.php` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/navigate/navigate_download.php` | High
+31 | File | `/ocwbs/admin/?page=user/manage_user` | High
+32 | File | `/ofrs/admin/?page=user/manage_user` | High
+33 | File | `/out.php` | Medium
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/proc/ioports` | High
+38 | File | `/property-list/property_view.php` | High
+39 | File | `/ptms/classes/Users.php` | High
+40 | File | `/resources//../` | High
+41 | File | `/rest/api/2/search` | High
+42 | File | `/s/` | Low
+43 | File | `/scripts/cpan_config` | High
+44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+45 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

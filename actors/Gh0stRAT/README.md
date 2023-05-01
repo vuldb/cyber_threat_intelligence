@@ -106,7 +106,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -115,44 +115,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/upload/upload` | High
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/cgi-bin/wlogin.cgi` | High
-8 | File | `/common/sysFile/list` | High
-9 | File | `/config/myfield/test.php` | High
-10 | File | `/context/%2e/WEB-INF/web.xml` | High
-11 | File | `/ctcprotocol/Protocol` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/ebics-server/ebics.aspx` | High
-14 | File | `/ecshop/admin/template.php` | High
-15 | File | `/etc/openstack-dashboard/local_settings` | High
-16 | File | `/file/upload/1` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/forum/PostPrivateMessage` | High
-19 | File | `/goform/addressNat` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/HNAP1/SetClientInfo` | High
-22 | File | `/home/www/cgi-bin/login.cgi` | High
-23 | File | `/js/player/dmplayer/dmku/index.php` | High
-24 | File | `/menu.html` | Medium
-25 | File | `/multi-vendor-shopping-script/product-list.php` | High
-26 | File | `/net-banking/customer_transactions.php` | High
-27 | File | `/obs/book.php` | High
-28 | File | `/orrs/admin/?page=user/manage_user` | High
-29 | File | `/ossn/administrator/com_installer` | High
-30 | File | `/pms/update_user.php?user_id=1` | High
-31 | File | `/requests.php` | High
-32 | File | `/resources//../` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-36 | File | `/subtitles.php` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/upload/upload` | High
+4 | File | `/api/admin/system/store/order/list` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/api/geojson` | Medium
+7 | File | `/apply_noauth.cgi` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/cgi-bin/wlogin.cgi` | High
+10 | File | `/common/sysFile/list` | High
+11 | File | `/config/myfield/test.php` | High
+12 | File | `/context/%2e/WEB-INF/web.xml` | High
+13 | File | `/ctcprotocol/Protocol` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/ebics-server/ebics.aspx` | High
+16 | File | `/ecshop/admin/template.php` | High
+17 | File | `/etc/openstack-dashboard/local_settings` | High
+18 | File | `/file/upload/1` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/forum/PostPrivateMessage` | High
+21 | File | `/goform/addressNat` | High
+22 | File | `/HNAP1` | Low
+23 | File | `/HNAP1/SetClientInfo` | High
+24 | File | `/home/www/cgi-bin/login.cgi` | High
+25 | File | `/js/player/dmplayer/dmku/index.php` | High
+26 | File | `/menu.html` | Medium
+27 | File | `/multi-vendor-shopping-script/product-list.php` | High
+28 | File | `/net-banking/customer_transactions.php` | High
+29 | File | `/obs/book.php` | High
+30 | File | `/orrs/admin/?page=user/manage_user` | High
+31 | File | `/ossn/administrator/com_installer` | High
+32 | File | `/pms/update_user.php?user_id=1` | High
+33 | File | `/requests.php` | High
+34 | File | `/resources//../` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/spip.php` | Medium
 37 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

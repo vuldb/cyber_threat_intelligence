@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,10 +24,11 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [2.56.56.88](https://vuldb.com/?ip.2.56.56.88) | nutir.top | - | High
 2 | [2.56.57.85](https://vuldb.com/?ip.2.56.57.85) | - | - | High
 3 | [5.2.68.67](https://vuldb.com/?ip.5.2.68.67) | - | - | High
-4 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | - | High
-5 | ... | ... | ... | ...
+4 | [20.7.14.99](https://vuldb.com/?ip.20.7.14.99) | - | - | High
+5 | [31.210.20.231](https://vuldb.com/?ip.31.210.20.231) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 21 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,47 +58,48 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/academic/studenview_left.php` | High
 6 | File | `/admin/admin.php?module=admin_group_edit&agID` | High
 7 | File | `/admin/contenttemp` | High
-8 | File | `/admin/payment.php` | High
-9 | File | `/admin/syslog` | High
-10 | File | `/advance_push/public/login` | High
-11 | File | `/anony/mjpg.cgi` | High
-12 | File | `/assets/components/gallery/connector.php` | High
-13 | File | `/ctcprotocol/Protocol` | High
-14 | File | `/device/device=140/tab=wifi/view` | High
-15 | File | `/etc/sudoers` | Medium
-16 | File | `/Forms/` | Low
-17 | File | `/framework/modules/users/models/user.php` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/HNAP1/SetAccessPointMode` | High
-20 | File | `/index.php` | Medium
-21 | File | `/mcategory.php` | High
-22 | File | `/member/picture/album` | High
-23 | File | `/mysql/api/diags.php` | High
-24 | File | `/phpcollab/users/edituser.php` | High
-25 | File | `/plain` | Low
-26 | File | `/products/details.asp` | High
-27 | File | `/product_list.php` | High
-28 | File | `/public/login.htm` | High
-29 | File | `/replication` | Medium
-30 | File | `/service/upload` | High
-31 | File | `/services/details.asp` | High
-32 | File | `/trx_addons/v2/get/sc_layout` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/upload/catalog/controller/account/password.php` | High
-35 | File | `/usr/bin/pkexec` | High
-36 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-37 | File | `/WebMstr7/servlet/mstrWeb` | High
-38 | File | `4.edu.php` | Medium
-39 | File | `5.2.9\syscrb.exe` | High
-40 | File | `123flashchat.php` | High
-41 | File | `add_ons.php` | Medium
-42 | File | `add_to_cart.php` | High
-43 | File | `admin.php` | Medium
-44 | File | `admin/index.php` | High
-45 | File | `admin/mod_users/controller.php?action=edit` | High
-46 | ... | ... | ...
+8 | File | `/Admin/login.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/admin/syslog` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/advance_push/public/login` | High
+13 | File | `/anony/mjpg.cgi` | High
+14 | File | `/assets/components/gallery/connector.php` | High
+15 | File | `/ctcprotocol/Protocol` | High
+16 | File | `/device/device=140/tab=wifi/view` | High
+17 | File | `/etc/sudoers` | Medium
+18 | File | `/Forms/` | Low
+19 | File | `/framework/modules/users/models/user.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/HNAP1/SetAccessPointMode` | High
+22 | File | `/index.php` | Medium
+23 | File | `/mcategory.php` | High
+24 | File | `/member/picture/album` | High
+25 | File | `/mysql/api/diags.php` | High
+26 | File | `/phpcollab/users/edituser.php` | High
+27 | File | `/plain` | Low
+28 | File | `/products/details.asp` | High
+29 | File | `/product_list.php` | High
+30 | File | `/public/login.htm` | High
+31 | File | `/replication` | Medium
+32 | File | `/service/upload` | High
+33 | File | `/services/details.asp` | High
+34 | File | `/trx_addons/v2/get/sc_layout` | High
+35 | File | `/uncpath/` | Medium
+36 | File | `/upload/catalog/controller/account/password.php` | High
+37 | File | `/usr/bin/pkexec` | High
+38 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+39 | File | `/wbms/classes/Master.php?f=delete_client` | High
+40 | File | `/WebMstr7/servlet/mstrWeb` | High
+41 | File | `/wp-admin/admin-ajax.php` | High
+42 | File | `4.edu.php` | Medium
+43 | File | `5.2.9\syscrb.exe` | High
+44 | File | `123flashchat.php` | High
+45 | File | `a2billing/customer/iridium_threed.php` | High
+46 | File | `add_ons.php` | Medium
+47 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-28%20AveMaria_Warzone%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-19%20AveMaria_Warzone%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-24%20AveMaria_Warzone%20RAT%20IOCs
+* https://www.zscaler.com/blogs/security-research/dynamic-approaches-seen-avemarias-distribution-strategy
 
 ## Literature
 

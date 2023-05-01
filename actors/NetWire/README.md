@@ -77,7 +77,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -101,48 +102,48 @@ ID | Type | Indicator | Confidence
 12 | File | `/admin/login.php` | High
 13 | File | `/admin/newsletter1.php` | High
 14 | File | `/admin/payment.php` | High
-15 | File | `/admin/settings/save.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/students/view_student.php` | High
-18 | File | `/admin/usermanagement.php` | High
-19 | File | `/admin/userprofile.php` | High
-20 | File | `/api/addusers` | High
-21 | File | `/api/RecordingList/DownloadRecord?file=` | High
-22 | File | `/api/user/upsert/<uuid>` | High
-23 | File | `/appliance/users?action=edit` | High
-24 | File | `/apply.cgi` | Medium
-25 | File | `/backup.pl` | Medium
-26 | File | `/cgi-bin/webviewer_login_page` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/College/admin/teacher.php` | High
-29 | File | `/dashboard/updatelogo.php` | High
-30 | File | `/designer/add/layout` | High
-31 | File | `/edoc/doctor/patient.php` | High
-32 | File | `/etc/ldap.conf` | High
-33 | File | `/etc/shadow` | Medium
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/goform/addUserName` | High
-36 | File | `/goform/aspForm` | High
-37 | File | `/goform/delAd` | High
-38 | File | `/goform/wifiSSIDset` | High
-39 | File | `/gpac/src/bifs/unquantize.c` | High
-40 | File | `/h/calendar` | Medium
-41 | File | `/h/compose` | Medium
-42 | File | `/h/search?action=voicemail&action=listen` | High
-43 | File | `/inc/topBarNav.php` | High
-44 | File | `/index.asp` | Medium
-45 | File | `/index.php` | Medium
-46 | File | `/jfinal_cms/system/role/list` | High
-47 | File | `/librarian/bookdetails.php` | High
-48 | File | `/loginVaLidation.php` | High
-49 | File | `/manage-apartment.php` | High
-50 | File | `/manager/index.php` | High
-51 | File | `/mkshop/Men/profile.php` | High
-52 | File | `/Moosikay/order.php` | High
-53 | File | `/Noxen-master/users.php` | High
+15 | File | `/admin/products/manage_product.php` | High
+16 | File | `/admin/settings/save.php` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/students/view_student.php` | High
+19 | File | `/admin/usermanagement.php` | High
+20 | File | `/admin/userprofile.php` | High
+21 | File | `/api/addusers` | High
+22 | File | `/api/RecordingList/DownloadRecord?file=` | High
+23 | File | `/api/user/upsert/<uuid>` | High
+24 | File | `/appliance/users?action=edit` | High
+25 | File | `/apply.cgi` | Medium
+26 | File | `/backup.pl` | Medium
+27 | File | `/cgi-bin/webviewer_login_page` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/College/admin/teacher.php` | High
+30 | File | `/dashboard/updatelogo.php` | High
+31 | File | `/designer/add/layout` | High
+32 | File | `/edoc/doctor/patient.php` | High
+33 | File | `/etc/ldap.conf` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/filemanager/upload/drop` | High
+36 | File | `/goform/addUserName` | High
+37 | File | `/goform/aspForm` | High
+38 | File | `/goform/delAd` | High
+39 | File | `/goform/wifiSSIDset` | High
+40 | File | `/gpac/src/bifs/unquantize.c` | High
+41 | File | `/h/calendar` | Medium
+42 | File | `/h/compose` | Medium
+43 | File | `/h/search?action=voicemail&action=listen` | High
+44 | File | `/inc/topBarNav.php` | High
+45 | File | `/index.asp` | Medium
+46 | File | `/index.php` | Medium
+47 | File | `/jfinal_cms/system/role/list` | High
+48 | File | `/librarian/bookdetails.php` | High
+49 | File | `/loginVaLidation.php` | High
+50 | File | `/manage-apartment.php` | High
+51 | File | `/manager/index.php` | High
+52 | File | `/mkshop/Men/profile.php` | High
+53 | File | `/Moosikay/order.php` | High
 54 | ... | ... | ...
 
-There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

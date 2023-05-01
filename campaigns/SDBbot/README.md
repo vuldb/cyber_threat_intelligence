@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,9 +67,10 @@ ID | Type | Indicator | Confidence
 8 | File | `/uncpath/` | Medium
 9 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 10 | File | `account_activations/edit` | High
-11 | ... | ... | ...
+11 | File | `AddResolution.jspa` | High
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
