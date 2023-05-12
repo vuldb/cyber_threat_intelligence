@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with STRRat:
 
 * [US](https://vuldb.com/?country.us)
+* [PT](https://vuldb.com/?country.pt)
 
 ## IOC - Indicator of Compromise
 
@@ -39,12 +40,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `phpinfo.php` | Medium
-2 | File | `shoptellafriend.asp` | High
-3 | File | `yabb.pl` | Low
+1 | File | `jmreport/qurestSql` | High
+2 | File | `phpinfo.php` | Medium
+3 | File | `shoptellafriend.asp` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -50,7 +50,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -72,23 +73,23 @@ ID | Type | Indicator | Confidence
 10 | File | `/forum/away.php` | High
 11 | File | `/images/browserslide.jpg` | High
 12 | File | `/includes/lib/get.php` | High
-13 | File | `/login` | Low
-14 | File | `/main?cmd=invalid_browser` | High
-15 | File | `/manager?action=getlogcat` | High
-16 | File | `/mc` | Low
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/plugins/Dashboard/Controller.php` | High
-19 | File | `/public/plugins/` | High
-20 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-21 | File | `/SASWebReportStudio/logonAndRender.do` | High
-22 | File | `/scas/admin/` | Medium
-23 | File | `/static/ueditor/php/controller.php` | High
-24 | File | `/tlogin.cgi` | Medium
-25 | File | `/tmp/scfgdndf` | High
-26 | File | `/uncpath/` | Medium
+13 | File | `/lists/index.php` | High
+14 | File | `/login` | Low
+15 | File | `/main?cmd=invalid_browser` | High
+16 | File | `/manager?action=getlogcat` | High
+17 | File | `/mc` | Low
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugins/Dashboard/Controller.php` | High
+20 | File | `/public/plugins/` | High
+21 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+22 | File | `/SASWebReportStudio/logonAndRender.do` | High
+23 | File | `/scas/admin/` | Medium
+24 | File | `/static/ueditor/php/controller.php` | High
+25 | File | `/tlogin.cgi` | Medium
+26 | File | `/tmp/scfgdndf` | High
 27 | ... | ... | ...
 
-There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

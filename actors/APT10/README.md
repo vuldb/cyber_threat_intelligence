@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,27 +95,32 @@ ID | Type | Indicator | Confidence
 9 | File | `/images/` | Medium
 10 | File | `/inc/parser/xhtml.php` | High
 11 | File | `/index.php` | Medium
-12 | File | `/login` | Low
-13 | File | `/members/view_member.php` | High
-14 | File | `/mkshop/Men/profile.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/Noxen-master/users.php` | High
-17 | File | `/one_church/userregister.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-26 | File | `/tmp/phpglibccheck` | High
-27 | File | `/uncpath/` | Medium
-28 | File | `/v2/quantum/save-data-upload-big-file` | High
-29 | File | `4.edu.php` | Medium
-30 | ... | ... | ...
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/login` | Low
+14 | File | `/members/view_member.php` | High
+15 | File | `/messageboard/view.php` | High
+16 | File | `/mkshop/Men/profile.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/Noxen-master/users.php` | High
+19 | File | `/one_church/userregister.php` | High
+20 | File | `/out.php` | Medium
+21 | File | `/owa/auth/logon.aspx` | High
+22 | File | `/public/plugins/` | High
+23 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+24 | File | `/SASWebReportStudio/logonAndRender.do` | High
+25 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+26 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+27 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+28 | File | `/textpattern/index.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/v2/quantum/save-data-upload-big-file` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `adclick.php` | Medium
+33 | File | `addentry.php` | Medium
+34 | File | `admin.cropcanvas.php` | High
+35 | ... | ... | ...
 
-There are 257 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

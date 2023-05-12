@@ -60,7 +60,8 @@ ID | Type | Indicator | Confidence
 8 | File | `adclick.php` | Medium
 9 | File | `add_comment.php` | High
 10 | File | `cgi-bin/awstats.pl` | High
-11 | ... | ... | ...
+11 | File | `checkout.cfm` | Medium
+12 | ... | ... | ...
 
 There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

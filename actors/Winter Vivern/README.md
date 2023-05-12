@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Winter Vivern:
 
 * [US](https://vuldb.com/?country.us)
-* [IL](https://vuldb.com/?country.il)
 * [RU](https://vuldb.com/?country.ru)
+* [IL](https://vuldb.com/?country.il)
 * ...
 
 There are 10 more country items available. Please use our online service to access the data.
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,7 +56,7 @@ ID | Type | Indicator | Confidence
 7 | File | `/web/IndexController.java` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

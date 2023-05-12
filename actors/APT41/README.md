@@ -119,10 +119,9 @@ ID | Type | Indicator | Confidence
 41 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
 42 | File | `/tmp/app/.env` | High
 43 | File | `/tool/gen/createTable` | High
-44 | File | `/uncpath/` | Medium
-45 | ... | ... | ...
+44 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

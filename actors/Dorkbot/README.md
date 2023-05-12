@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [NL](https://vuldb.com/?country.nl)
 * [US](https://vuldb.com/?country.us)
-* [IR](https://vuldb.com/?country.ir)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -53,33 +54,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.travis.yml` | Medium
 2 | File | `/.env` | Low
-3 | File | `/admin.php` | Medium
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/core/conditions/AbstractWrapper.java` | High
+3 | File | `/admin/subnets/ripe-query.php` | High
+4 | File | `/core/conditions/AbstractWrapper.java` | High
+5 | File | `/dcim/sites/add/` | High
 6 | File | `/debug/pprof` | Medium
 7 | File | `/ecrire` | Low
 8 | File | `/export` | Low
 9 | File | `/file?action=download&file` | High
 10 | File | `/forum/away.php` | High
 11 | File | `/hardware` | Medium
-12 | File | `/medical/inventories.php` | High
-13 | File | `/monitoring` | Medium
-14 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-15 | File | `/out.php` | Medium
-16 | File | `/plugin/LiveChat/getChat.json.php` | High
-17 | File | `/plugins/servlet/audit/resource` | High
-18 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-19 | File | `/product_list.php` | High
-20 | File | `/recordings/index.php` | High
-21 | File | `/replication` | Medium
-22 | File | `/rest/api/1.0/render` | High
-23 | File | `/RestAPI` | Medium
-24 | File | `/tmp/zarafa-vacation-*` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/upload` | Low
-27 | ... | ... | ...
+12 | File | `/include/makecvs.php` | High
+13 | File | `/medical/inventories.php` | High
+14 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+15 | File | `/monitoring` | Medium
+16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+17 | File | `/out.php` | Medium
+18 | File | `/owa/auth/logon.aspx` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/recordings/index.php` | High
+23 | File | `/replication` | Medium
+24 | File | `/rest/api/1.0/render` | High
+25 | File | `/RestAPI` | Medium
+26 | File | `/tmp/zarafa-vacation-*` | High
+27 | File | `/uncpath/` | Medium
+28 | ... | ... | ...
 
-There are 231 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

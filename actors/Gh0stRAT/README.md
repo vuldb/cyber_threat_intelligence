@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -102,7 +102,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -115,44 +115,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/api/admin/system/store/order/list` | High
-5 | File | `/api/gen/clients/{language}` | High
-6 | File | `/api/geojson` | Medium
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/common/sysFile/list` | High
-11 | File | `/config/myfield/test.php` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/ctcprotocol/Protocol` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/ebics-server/ebics.aspx` | High
-16 | File | `/ecshop/admin/template.php` | High
-17 | File | `/etc/openstack-dashboard/local_settings` | High
-18 | File | `/file/upload/1` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/forum/PostPrivateMessage` | High
-21 | File | `/goform/addressNat` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/HNAP1/SetClientInfo` | High
-24 | File | `/home/www/cgi-bin/login.cgi` | High
-25 | File | `/js/player/dmplayer/dmku/index.php` | High
-26 | File | `/menu.html` | Medium
-27 | File | `/multi-vendor-shopping-script/product-list.php` | High
-28 | File | `/net-banking/customer_transactions.php` | High
-29 | File | `/obs/book.php` | High
-30 | File | `/orrs/admin/?page=user/manage_user` | High
-31 | File | `/ossn/administrator/com_installer` | High
-32 | File | `/pms/update_user.php?user_id=1` | High
-33 | File | `/requests.php` | High
-34 | File | `/resources//../` | High
-35 | File | `/secure/QueryComponent!Default.jspa` | High
-36 | File | `/spip.php` | Medium
-37 | ... | ... | ...
+2 | File | `/?r=email/api/mark&op=delFromSend` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/admin/upload/upload` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/gen/clients/{language}` | High
+7 | File | `/api/geojson` | Medium
+8 | File | `/apply_noauth.cgi` | High
+9 | File | `/bin/sh` | Low
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/common/sysFile/list` | High
+12 | File | `/config/myfield/test.php` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/ctcprotocol/Protocol` | High
+15 | File | `/debug/pprof` | Medium
+16 | File | `/Default/Bd` | Medium
+17 | File | `/ebics-server/ebics.aspx` | High
+18 | File | `/ecshop/admin/template.php` | High
+19 | File | `/etc/openstack-dashboard/local_settings` | High
+20 | File | `/file/upload/1` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forum/PostPrivateMessage` | High
+23 | File | `/goform/addressNat` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/HNAP1/SetClientInfo` | High
+26 | File | `/home/www/cgi-bin/login.cgi` | High
+27 | File | `/js/player/dmplayer/dmku/index.php` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/multi-vendor-shopping-script/product-list.php` | High
+31 | File | `/net-banking/customer_transactions.php` | High
+32 | File | `/obs/book.php` | High
+33 | File | `/orrs/admin/?page=user/manage_user` | High
+34 | File | `/ossn/administrator/com_installer` | High
+35 | File | `/pms/update_user.php?user_id=1` | High
+36 | File | `/requests.php` | High
+37 | File | `/resources//../` | High
+38 | ... | ... | ...
 
-There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -138,9 +138,10 @@ ID | Type | Indicator | Confidence
 19 | File | `add_comment.php` | High
 20 | File | `admin-ajax.php` | High
 21 | File | `admin.php` | Medium
-22 | ... | ... | ...
+22 | File | `admin/add_user/UID` | High
+23 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 188 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

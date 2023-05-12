@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BadPatch:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
 * [DE](https://vuldb.com/?country.de)
 
@@ -26,7 +27,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
 
 ## IOA - Indicator of Attack
@@ -37,10 +38,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/usr/local/sbin/webproject/set_param.cgi` | High
 2 | File | `includes/pages.inc.php` | High
-3 | File | `setup.cgi` | Medium
+3 | File | `mod_proxy_fcgi.c` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

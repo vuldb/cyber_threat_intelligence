@@ -32,14 +32,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,45 +48,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
-2 | File | `/?p=products` | Medium
-3 | File | `/admin` | Low
-4 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/login.php` | High
-7 | File | `/admin/patient.php` | High
-8 | File | `/api/admin/store/product/list` | High
-9 | File | `/as/authorization.oauth2` | High
-10 | File | `/cgi-bin/luci/api/auth` | High
-11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/churchcrm/EventAttendance.php` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/filemanager/php/connector.php` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/licenses` | Medium
-18 | File | `/mhds/clinic/view_details.php` | High
-19 | File | `/modules/projects/vw_files.php` | High
-20 | File | `/plain` | Low
-21 | File | `/public/launchNewWindow.jsp` | High
-22 | File | `/public/login.htm` | High
-23 | File | `/rukovoditel/index.php?module=users/login` | High
-24 | File | `/secure/QueryComponent!Default.jspa` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/static/ueditor/php/controller.php` | High
-27 | File | `/v1/tokens` | Medium
-28 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-30 | File | `/wp-admin/admin-ajax.php` | High
-31 | File | `/wp-admin/options.php` | High
-32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `adclick.php` | Medium
-35 | File | `admin-ajax.php` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/template/js/uploadify/uploadify.swf` | High
-38 | ... | ... | ...
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?p=products` | Medium
+4 | File | `/admin` | Low
+5 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/curriculum/view_curriculum.php` | High
+8 | File | `/admin/departments/view_department.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/maintenance/view_designation.php` | High
+11 | File | `/admin/patient.php` | High
+12 | File | `/admin/suppliers/view_details.php` | High
+13 | File | `/admin/user/manage_user.php` | High
+14 | File | `/admin/user/uploadImg` | High
+15 | File | `/api/admin/store/product/list` | High
+16 | File | `/as/authorization.oauth2` | High
+17 | File | `/cgi-bin/kerbynet` | High
+18 | File | `/cgi-bin/luci/api/auth` | High
+19 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/churchcrm/EventAttendance.php` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/DXR.axd` | Medium
+24 | File | `/filemanager/php/connector.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/licenses` | Medium
+27 | File | `/login/index.php` | High
+28 | File | `/mhds/clinic/view_details.php` | High
+29 | File | `/modules/projects/vw_files.php` | High
+30 | File | `/plain` | Low
+31 | File | `/public/launchNewWindow.jsp` | High
+32 | File | `/public/login.htm` | High
+33 | File | `/qsr_server/device/reboot` | High
+34 | File | `/rukovoditel/index.php?module=users/login` | High
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/static/ueditor/php/controller.php` | High
+38 | File | `/uncpath/` | Medium
+39 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

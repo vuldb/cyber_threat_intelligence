@@ -44,12 +44,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/include/chart_generator.php` | High
-2 | File | `/index.php` | Medium
-3 | File | `drivers/firmware/efi/capsule-loader.c` | High
+1 | File | `/fos/admin/ajax.php` | High
+2 | File | `/include/chart_generator.php` | High
+3 | File | `/index.php` | Medium
 4 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

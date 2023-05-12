@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [ES](https://vuldb.com/?country.es)
-* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -821,14 +821,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -836,45 +835,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/admin-ajax.php?action=eps_redirect_save` | High
-4 | File | `/admin/?page=reminders/view_reminder` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/employee_row.php` | High
-7 | File | `/admin/inventory/manage_stock.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/maintenance/manage_category.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/mechanics/manage_mechanic.php` | High
-12 | File | `/admin/offenses/view_details.php` | High
-13 | File | `/admin/report/index.php` | High
-14 | File | `/admin/service_requests/manage_inventory.php` | High
-15 | File | `/admin/suppliers/view_details.php` | High
-16 | File | `/admin/transactions/track_shipment.php` | High
-17 | File | `/admin/userprofile.php` | High
-18 | File | `/api/admin/store/product/list` | High
-19 | File | `/bsms_ci/index.php/user/edit_user/` | High
-20 | File | `/cgi-bin/DownloadFlash` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/classes/Login.php` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/classes/Master.php?f=delete_img` | High
-25 | File | `/classes/Master.php?f=delete_sub_category` | High
-26 | File | `/classes/Master.php?f=save_brand` | High
-27 | File | `/classes/Master.php?f=save_sub_category` | High
-28 | File | `/classes/Users.php` | High
-29 | File | `/classes/Users.phpp` | High
-30 | File | `/common/info.cgi` | High
-31 | File | `/config/myfield/test.php` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/file/upload/1` | High
-34 | File | `/hrm/employeeadd.php` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/js/player/dmplayer/dmku/index.php` | High
-37 | ... | ... | ...
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/admin/bookings/manage_booking.php` | High
+3 | File | `/admin/bookings/view_booking.php` | High
+4 | File | `/admin/bookings/view_details.php` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/manage_academic.php` | High
+7 | File | `/admin/services/view_service.php` | High
+8 | File | `/admin/user/manage_user.php` | High
+9 | File | `/admin/user/uploadImg` | High
+10 | File | `/administrator/components/table_manager/` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/boafrm/formFilter` | High
+13 | File | `/classes/Master.php?f=save_course` | High
+14 | File | `/Content/Template/root/reverse-shell.aspx` | High
+15 | File | `/Default/Bd` | Medium
+16 | File | `/message/form/` | High
+17 | File | `/send_order.cgi?parameter=access_detect` | High
+18 | File | `/server/api/v1/login` | High
+19 | File | `/static/ueditor/php/controller.php` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/v2/#/` | Low
+22 | File | `/v2/#/add/department` | High
+23 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -78,27 +78,27 @@ ID | Type | Indicator | Confidence
 19 | File | `/cgi-bin/wlogin.cgi` | High
 20 | File | `/churchcrm/EventAttendance.php` | High
 21 | File | `/College/admin/teacher.php` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/filemanager/php/connector.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/inc/topBarNav.php` | High
-27 | File | `/licenses` | Medium
-28 | File | `/login/index.php` | High
-29 | File | `/mhds/clinic/view_details.php` | High
-30 | File | `/modules/projects/vw_files.php` | High
-31 | File | `/Moosikay/order.php` | High
-32 | File | `/plain` | Low
-33 | File | `/public/launchNewWindow.jsp` | High
-34 | File | `/public/login.htm` | High
-35 | File | `/qsr_server/device/reboot` | High
-36 | File | `/rukovoditel/index.php?module=users/login` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/static/ueditor/php/controller.php` | High
+22 | File | `/Content/Template/root/reverse-shell.aspx` | High
+23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+24 | File | `/DXR.axd` | Medium
+25 | File | `/filemanager/php/connector.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/inc/topBarNav.php` | High
+29 | File | `/licenses` | Medium
+30 | File | `/login/index.php` | High
+31 | File | `/mhds/clinic/view_details.php` | High
+32 | File | `/modules/projects/vw_files.php` | High
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/plain` | Low
+35 | File | `/public/launchNewWindow.jsp` | High
+36 | File | `/public/login.htm` | High
+37 | File | `/qsr_server/device/reboot` | High
+38 | File | `/rukovoditel/index.php?module=users/login` | High
+39 | File | `/secure/QueryComponent!Default.jspa` | High
 40 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

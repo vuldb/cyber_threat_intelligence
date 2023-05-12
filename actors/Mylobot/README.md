@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [NL](https://vuldb.com/?country.nl)
-* [RU](https://vuldb.com/?country.ru)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 28 more country items available. Please use our online service to access the data.
@@ -42,7 +42,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,54 +52,57 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/../conf/config.properties` | High
-3 | File | `/addnews.html` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/inquiries/view_details.php` | High
-6 | File | `/anony/mjpg.cgi` | High
-7 | File | `/api/2.0/rest/aggregator/xml` | High
-8 | File | `/api/blade-log/api/list` | High
-9 | File | `/common/logViewer/logViewer.jsf` | High
-10 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-11 | File | `/dashboard/snapshot/*?orgId=0` | High
-12 | File | `/ecrire` | Low
-13 | File | `/exponent_constants.php` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/hub/api/user` | High
-16 | File | `/include/commrecc.inc.php` | High
-17 | File | `/include/comm_post.inc.php` | High
-18 | File | `/include/friends.inc.php` | High
-19 | File | `/include/menu_v.inc.php` | High
-20 | File | `/include/notify.inc.php` | High
-21 | File | `/mfaslmf/nolicense` | High
-22 | File | `/mhds/clinic/view_details.php` | High
-23 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-24 | File | `/owa/auth/logon.aspx` | High
-25 | File | `/proc` | Low
-26 | File | `/products/details.asp` | High
-27 | File | `/public/plugins/` | High
-28 | File | `/RestAPI` | Medium
-29 | File | `/school/model/get_teacher.php` | High
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/user/loader.php?api=1` | High
-33 | File | `/User/saveUser` | High
-34 | File | `/viewer/krpano.html` | High
-35 | File | `/ViewUserHover.jspa` | High
-36 | File | `/WEB-INF/web.xml` | High
-37 | File | `/wp-admin/admin-ajax.php` | High
-38 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-39 | File | `/wp-json/wc/v3/webhooks` | High
-40 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-41 | File | `abc-pcie.c` | Medium
-42 | File | `accountmanagement.php` | High
-43 | File | `activateuser.aspx` | High
-44 | File | `adclick.php` | Medium
-45 | File | `addentry.php` | Medium
-46 | File | `admin.joomlaflashfun.php` | High
-47 | File | `admin.php` | Medium
-48 | ... | ... | ...
+3 | File | `//proc/kcore` | Medium
+4 | File | `/addnews.html` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/inquiries/view_details.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/anony/mjpg.cgi` | High
+9 | File | `/api/blade-log/api/list` | High
+10 | File | `/checkLogin.cgi` | High
+11 | File | `/common/logViewer/logViewer.jsf` | High
+12 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+13 | File | `/dashboard/snapshot/*?orgId=0` | High
+14 | File | `/ecrire` | Low
+15 | File | `/exponent_constants.php` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/hub/api/user` | High
+18 | File | `/include/commrecc.inc.php` | High
+19 | File | `/include/comm_post.inc.php` | High
+20 | File | `/include/friends.inc.php` | High
+21 | File | `/include/menu_v.inc.php` | High
+22 | File | `/include/notify.inc.php` | High
+23 | File | `/magnoliaPublic/travel/members/login.html` | High
+24 | File | `/mfaslmf/nolicense` | High
+25 | File | `/mhds/clinic/view_details.php` | High
+26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/proc` | Low
+29 | File | `/products/details.asp` | High
+30 | File | `/public/plugins/` | High
+31 | File | `/RestAPI` | Medium
+32 | File | `/school/model/get_teacher.php` | High
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/user/loader.php?api=1` | High
+36 | File | `/User/saveUser` | High
+37 | File | `/viewer/krpano.html` | High
+38 | File | `/ViewUserHover.jspa` | High
+39 | File | `/WEB-INF/web.xml` | High
+40 | File | `/wp-admin/admin-ajax.php` | High
+41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+42 | File | `/wp-json/wc/v3/webhooks` | High
+43 | File | `abc-pcie.c` | Medium
+44 | File | `account.asp` | Medium
+45 | File | `activateuser.aspx` | High
+46 | File | `adclick.php` | Medium
+47 | File | `addentry.php` | Medium
+48 | File | `admin-ajax.php` | High
+49 | File | `admin.joomlaflashfun.php` | High
+50 | File | `admin.php` | Medium
+51 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

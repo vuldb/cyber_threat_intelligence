@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 7 more country items available. Please use our online service to access the data.
@@ -46,12 +46,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,20 +60,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `.kdbgrc` | Low
-3 | File | `/admin/assign/assign.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/api /v3/auth` | High
-6 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-7 | File | `/auth` | Low
-8 | File | `/balance/service/list` | High
-9 | File | `/config/getuser` | High
-10 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-11 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
-12 | ... | ... | ...
+1 | File | `$HOME/.printers` | High
+2 | File | `.htaccess` | Medium
+3 | File | `.kdbgrc` | Low
+4 | File | `/admin/assign/assign.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/api /v3/auth` | High
+7 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+8 | File | `/auth` | Low
+9 | File | `/balance/service/list` | High
+10 | File | `/config/getuser` | High
+11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+12 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+13 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 102 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -59,18 +59,19 @@ ID | Type | Indicator | Confidence
 3 | File | `/appConfig/userDB.json` | High
 4 | File | `/bin/boa` | Medium
 5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-7 | File | `/jquery_file_upload/server/php/index.php` | High
-8 | File | `/librarian/bookdetails.php` | High
-9 | File | `/magnoliaPublic/travel/members/login.html` | High
-10 | File | `/Main_AdmStatus_Content.asp` | High
-11 | File | `/requests.php` | High
-12 | File | `/server-status` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/var/log/nginx` | High
-15 | ... | ... | ...
+6 | File | `/CPE` | Low
+7 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+8 | File | `/jquery_file_upload/server/php/index.php` | High
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/magnoliaPublic/travel/members/login.html` | High
+11 | File | `/Main_AdmStatus_Content.asp` | High
+12 | File | `/requests.php` | High
+13 | File | `/server-status` | High
+14 | File | `/uncpath/` | Medium
+15 | File | `/var/log/nginx` | High
+16 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

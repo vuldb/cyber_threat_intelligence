@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,18 +54,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys2` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/html/device-id` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `a2dp_aac_decoder.cc` | High
-6 | File | `actbar3.ocx` | Medium
-7 | File | `adclick.php` | Medium
-8 | File | `admin.php` | Medium
-9 | File | `admin/users/add` | High
-10 | File | `administrator/components/com_media/helpers/media.php` | High
-11 | File | `ajax-actions.php` | High
+3 | File | `/forms/doLogin` | High
+4 | File | `/html/device-id` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `a2dp_aac_decoder.cc` | High
+7 | File | `actbar3.ocx` | Medium
+8 | File | `adclick.php` | Medium
+9 | File | `admin.php` | Medium
+10 | File | `admin/users/add` | High
+11 | File | `administrator/components/com_media/helpers/media.php` | High
 12 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

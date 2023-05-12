@@ -47,7 +47,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-271, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -61,37 +62,38 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/api/theme-edit/` | High
 3 | File | `/admin/communitymanagement.php` | High
 4 | File | `/admin/generalsettings.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/api/user/password/sent-reset-email` | High
-8 | File | `/aqpg/users/login.php` | High
-9 | File | `/bsms_ci/index.php/user/edit_user/` | High
-10 | File | `/dashboard/add-service.php` | High
-11 | File | `/dashboard/updatelogo.php` | High
-12 | File | `/Default/Bd` | Medium
-13 | File | `/download` | Medium
-14 | File | `/event/admin/?page=user/list` | High
-15 | File | `/face-recognition-php/facepay-master/camera.php` | High
-16 | File | `/filemanager/upload/drop` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/forum/PostPrivateMessage` | High
-19 | File | `/getcfg.php` | Medium
-20 | File | `/goform/aspForm` | High
-21 | File | `/goform/RouteStatic` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/htdocs/cgibin` | High
-26 | File | `/lists/index.php` | High
-27 | File | `/login.php` | Medium
-28 | File | `/netflow/jspui/editProfile.jsp` | High
-29 | File | `/spip.php` | Medium
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-32 | File | `/videotalk` | Medium
-33 | ... | ... | ...
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/payment.php` | High
+7 | File | `/admin/transactions/update_status.php` | High
+8 | File | `/api/user/password/sent-reset-email` | High
+9 | File | `/aqpg/users/login.php` | High
+10 | File | `/bsms_ci/index.php/user/edit_user/` | High
+11 | File | `/dashboard/add-service.php` | High
+12 | File | `/dashboard/updatelogo.php` | High
+13 | File | `/Default/Bd` | Medium
+14 | File | `/download` | Medium
+15 | File | `/event/admin/?page=user/list` | High
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/filemanager/upload/drop` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/forum/PostPrivateMessage` | High
+20 | File | `/getcfg.php` | Medium
+21 | File | `/goform/aspForm` | High
+22 | File | `/goform/RouteStatic` | High
+23 | File | `/home/masterConsole` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/htdocs/cgibin` | High
+27 | File | `/lists/index.php` | High
+28 | File | `/login.php` | Medium
+29 | File | `/netflow/jspui/editProfile.jsp` | High
+30 | File | `/spip.php` | Medium
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+33 | File | `/videotalk` | Medium
+34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

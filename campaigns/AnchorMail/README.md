@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1055 | CWE-74 | Injection | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 6 more TTP items available. Please use our online service to access the data.

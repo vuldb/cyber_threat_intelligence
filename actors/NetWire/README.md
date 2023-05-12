@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 29 more country items available. Please use our online service to access the data.
+There are 28 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -117,33 +117,33 @@ ID | Type | Indicator | Confidence
 27 | File | `/cgi-bin/webviewer_login_page` | High
 28 | File | `/cgi-bin/wlogin.cgi` | High
 29 | File | `/College/admin/teacher.php` | High
-30 | File | `/dashboard/updatelogo.php` | High
-31 | File | `/designer/add/layout` | High
-32 | File | `/edoc/doctor/patient.php` | High
-33 | File | `/etc/ldap.conf` | High
-34 | File | `/etc/shadow` | Medium
-35 | File | `/filemanager/upload/drop` | High
-36 | File | `/goform/addUserName` | High
-37 | File | `/goform/aspForm` | High
-38 | File | `/goform/delAd` | High
-39 | File | `/goform/wifiSSIDset` | High
-40 | File | `/gpac/src/bifs/unquantize.c` | High
-41 | File | `/h/calendar` | Medium
-42 | File | `/h/compose` | Medium
-43 | File | `/h/search?action=voicemail&action=listen` | High
-44 | File | `/inc/topBarNav.php` | High
-45 | File | `/index.asp` | Medium
-46 | File | `/index.php` | Medium
-47 | File | `/jfinal_cms/system/role/list` | High
-48 | File | `/librarian/bookdetails.php` | High
-49 | File | `/loginVaLidation.php` | High
-50 | File | `/manage-apartment.php` | High
-51 | File | `/manager/index.php` | High
-52 | File | `/mkshop/Men/profile.php` | High
-53 | File | `/Moosikay/order.php` | High
+30 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+31 | File | `/dashboard/updatelogo.php` | High
+32 | File | `/designer/add/layout` | High
+33 | File | `/edoc/doctor/patient.php` | High
+34 | File | `/etc/ldap.conf` | High
+35 | File | `/etc/shadow` | Medium
+36 | File | `/filemanager/upload/drop` | High
+37 | File | `/goform/addUserName` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/delAd` | High
+40 | File | `/goform/wifiSSIDset` | High
+41 | File | `/gpac/src/bifs/unquantize.c` | High
+42 | File | `/h/calendar` | Medium
+43 | File | `/h/compose` | Medium
+44 | File | `/h/search?action=voicemail&action=listen` | High
+45 | File | `/inc/topBarNav.php` | High
+46 | File | `/index.asp` | Medium
+47 | File | `/index.php` | Medium
+48 | File | `/jfinal_cms/system/role/list` | High
+49 | File | `/librarian/bookdetails.php` | High
+50 | File | `/loginVaLidation.php` | High
+51 | File | `/manage-apartment.php` | High
+52 | File | `/manager/index.php` | High
+53 | File | `/mkshop/Men/profile.php` | High
 54 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -63,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,51 +77,51 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/edit-doc.php` | High
 5 | File | `/admin/profile/save_profile` | High
 6 | File | `/aux` | Low
-7 | File | `/bin/appmgr` | Medium
-8 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-9 | File | `/cgi-bin/luci` | High
-10 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-11 | File | `/config.cgi?webmin` | High
-12 | File | `/config/getuser` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/etc/config/rpcd` | High
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/gateway/services/EdgeServiceImpl` | High
-18 | File | `/getcfg.php` | Medium
-19 | File | `/goform/dir_setWanWifi` | High
-20 | File | `/goform/telnet` | High
-21 | File | `/goform/WanParameterSetting` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/include/makecvs.php` | High
-24 | File | `/includes/common.inc.php` | High
-25 | File | `/js/app.js` | Medium
-26 | File | `/knomi/analyze` | High
-27 | File | `/mgmt/tm/util/bash` | High
-28 | File | `/monitoring` | Medium
-29 | File | `/opt/pia/ruby/64/ruby` | High
-30 | File | `/Pwrchute` | Medium
-31 | File | `/reports/rwservlet` | High
-32 | File | `/scripts/iisadmin/bdir.htr` | High
-33 | File | `/setSystemAdmin` | High
-34 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
-35 | File | `/tmp` | Low
-36 | File | `/tmp/csman/0` | Medium
-37 | File | `/ui/cbpc/login` | High
-38 | File | `/uncpath/` | Medium
-39 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-40 | File | `/var/hnap/timestamp` | High
-41 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-42 | File | `/webmail/` | Medium
-43 | File | `/wordpress/wp-admin/admin.php` | High
-44 | File | `/wp-content/plugins/forum-server/feed.php` | High
-45 | File | `/{ADMIN-FILE}/` | High
-46 | File | `a2billing/customer/iridium_threed.php` | High
-47 | File | `address.html` | Medium
-48 | File | `adm/systools.asp` | High
+7 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+8 | File | `/cgi-bin/luci` | High
+9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
+10 | File | `/config.cgi?webmin` | High
+11 | File | `/config/getuser` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/etc/config/rpcd` | High
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/etc/passwd` | Medium
+16 | File | `/gateway/services/EdgeServiceImpl` | High
+17 | File | `/getcfg.php` | Medium
+18 | File | `/goform/dir_setWanWifi` | High
+19 | File | `/goform/telnet` | High
+20 | File | `/goform/WanParameterSetting` | High
+21 | File | `/HNAP1` | Low
+22 | File | `/include/makecvs.php` | High
+23 | File | `/js/app.js` | Medium
+24 | File | `/knomi/analyze` | High
+25 | File | `/mgmt/tm/util/bash` | High
+26 | File | `/monitoring` | Medium
+27 | File | `/opt/pia/ruby/64/ruby` | High
+28 | File | `/Pwrchute` | Medium
+29 | File | `/reports/rwservlet` | High
+30 | File | `/scripts/iisadmin/bdir.htr` | High
+31 | File | `/setSystemAdmin` | High
+32 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
+33 | File | `/tmp` | Low
+34 | File | `/tmp/csman/0` | Medium
+35 | File | `/ui/cbpc/login` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+38 | File | `/var/hnap/timestamp` | High
+39 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+40 | File | `/webmail/` | Medium
+41 | File | `/wordpress/wp-admin/admin.php` | High
+42 | File | `/wp-content/plugins/forum-server/feed.php` | High
+43 | File | `/{ADMIN-FILE}/` | High
+44 | File | `a2billing/customer/iridium_threed.php` | High
+45 | File | `address.html` | Medium
+46 | File | `adm/systools.asp` | High
+47 | File | `admin/admin_login.php` | High
+48 | File | `admin/dashboard.php` | High
 49 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

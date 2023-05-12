@@ -378,31 +378,38 @@ ID | Type | Indicator | Confidence
 8 | File | `/forum/away.php` | High
 9 | File | `/mims/login.php` | High
 10 | File | `/php-scrm/login.php` | High
-11 | File | `/public/launchNewWindow.jsp` | High
-12 | File | `/textpattern/index.php` | High
-13 | File | `/tmp` | Low
-14 | File | `/user/updatePwd` | High
-15 | File | `account-signup.php` | High
-16 | File | `account/signup.php` | High
-17 | File | `activenews_view.asp` | High
-18 | File | `adclick.php` | Medium
-19 | File | `addentry.php` | Medium
-20 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-23 | File | `admin/admin_editor.php` | High
-24 | File | `admin/asset/grid-proxy` | High
-25 | File | `admin/auditTrail.jsf` | High
-26 | File | `admin/conf_users_edit.php` | High
-27 | File | `admin/edit_category.php` | High
-28 | File | `adminer.php` | Medium
-29 | File | `AjaxFileUploadHandler.axd` | High
-30 | File | `AndroidManifest.xml` | High
-31 | File | `app/controllers/oauth.js` | High
-32 | File | `articulo.php` | Medium
-33 | ... | ... | ...
+11 | File | `/proxy` | Low
+12 | File | `/public/launchNewWindow.jsp` | High
+13 | File | `/textpattern/index.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/user/updatePwd` | High
+16 | File | `account-signup.php` | High
+17 | File | `account/signup.php` | High
+18 | File | `activenews_view.asp` | High
+19 | File | `adclick.php` | Medium
+20 | File | `addentry.php` | Medium
+21 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+22 | File | `admin.a6mambocredits.php` | High
+23 | File | `admin.cropcanvas.php` | High
+24 | File | `admin.php` | Medium
+25 | File | `admin/admin_editor.php` | High
+26 | File | `admin/asset/grid-proxy` | High
+27 | File | `admin/auditTrail.jsf` | High
+28 | File | `admin/conf_users_edit.php` | High
+29 | File | `admin/edit_category.php` | High
+30 | File | `adminer.php` | Medium
+31 | File | `admin_ip.php` | Medium
+32 | File | `AjaxFileUploadHandler.axd` | High
+33 | File | `al_initialize.php` | High
+34 | File | `AndroidManifest.xml` | High
+35 | File | `app/controllers/oauth.js` | High
+36 | File | `article_coonepage_rule.php` | High
+37 | File | `articulo.php` | Medium
+38 | File | `artlinks.dispnew.php` | High
+39 | File | `art_detalle.php` | High
+40 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

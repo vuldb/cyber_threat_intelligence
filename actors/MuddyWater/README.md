@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 26 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,36 +74,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?p=products` | Medium
-3 | File | `/admin.php/appcenter/local.html?type=addon` | High
-4 | File | `/admin/?page=product/manage_product&id=2` | High
-5 | File | `/admin/?page=reminders/view_reminder` | High
-6 | File | `/admin/?page=user` | High
-7 | File | `/admin/assign/assign.php` | High
-8 | File | `/admin/attendance_row.php` | High
-9 | File | `/admin/ballot_down.php` | High
-10 | File | `/admin/ballot_up.php` | High
+1 | File | `/?p=products` | Medium
+2 | File | `/admin.php/appcenter/local.html?type=addon` | High
+3 | File | `/admin/?page=product/manage_product&id=2` | High
+4 | File | `/admin/?page=reminders/view_reminder` | High
+5 | File | `/admin/?page=user` | High
+6 | File | `/admin/assign/assign.php` | High
+7 | File | `/admin/attendance_row.php` | High
+8 | File | `/admin/ballot_down.php` | High
+9 | File | `/admin/ballot_up.php` | High
+10 | File | `/admin/bookings/view_booking.php` | High
 11 | File | `/admin/candidates_row.php` | High
 12 | File | `/admin/casedetails.php` | High
 13 | File | `/admin/cashadvance_row.php` | High
 14 | File | `/admin/categories/view_category.php` | High
 15 | File | `/admin/curriculum/view_curriculum.php` | High
 16 | File | `/admin/deduction_row.php` | High
-17 | File | `/admin/delete_user.php` | High
-18 | File | `/admin/departments/view_department.php` | High
-19 | File | `/admin/employee_add.php` | High
-20 | File | `/admin/employee_edit.php` | High
-21 | File | `/admin/employee_row.php` | High
-22 | File | `/admin/fields/manage_field.php` | High
-23 | File | `/admin/forgot-password.php` | High
-24 | File | `/admin/getallarticleinfo` | High
-25 | File | `/admin/index.php` | High
-26 | File | `/admin/info_deal.php` | High
-27 | File | `/admin/inquiries/view_inquiry.php` | High
-28 | File | `/admin/login.php` | High
-29 | File | `/admin/maintenance/brand.php` | High
-30 | File | `/admin/maintenance/manage_category.php` | High
+17 | File | `/admin/departments/view_department.php` | High
+18 | File | `/admin/employee_add.php` | High
+19 | File | `/admin/employee_edit.php` | High
+20 | File | `/admin/employee_row.php` | High
+21 | File | `/admin/fields/manage_field.php` | High
+22 | File | `/admin/forgot-password.php` | High
+23 | File | `/admin/getallarticleinfo` | High
+24 | File | `/admin/index.php` | High
+25 | File | `/admin/info_deal.php` | High
+26 | File | `/admin/inquiries/view_inquiry.php` | High
+27 | File | `/admin/login.php` | High
+28 | File | `/admin/maintenance/brand.php` | High
+29 | File | `/admin/maintenance/manage_category.php` | High
+30 | File | `/admin/misc/script-proxy` | High
 31 | File | `/admin/offenses/view_details.php` | High
 32 | File | `/admin/orders/update_status.php` | High
 33 | File | `/admin/positions_add.php` | High
@@ -120,19 +120,17 @@ ID | Type | Indicator | Confidence
 44 | File | `/admin/transactions/track_shipment.php` | High
 45 | File | `/admin/user/manage_user.php` | High
 46 | File | `/admin/voters_row.php` | High
-47 | File | `/admin_system/api.php` | High
-48 | File | `/alphaware/details.php` | High
-49 | File | `/analysisProject/pagingQueryData` | High
-50 | File | `/api/admin/store/product/list` | High
-51 | File | `/batm/app/admin/standalone/deployments` | High
-52 | File | `/bilal final/edit_stud.php` | High
-53 | File | `/bilal final/login.php` | High
-54 | File | `/category/list?limit=10&offset=0&order=desc` | High
-55 | File | `/cgi-bin/downloadFile.cgi` | High
-56 | File | `/classes/Login.php` | High
-57 | ... | ... | ...
+47 | File | `/alphaware/details.php` | High
+48 | File | `/analysisProject/pagingQueryData` | High
+49 | File | `/api/admin/store/product/list` | High
+50 | File | `/batm/app/admin/standalone/deployments` | High
+51 | File | `/bilal final/edit_stud.php` | High
+52 | File | `/bilal final/login.php` | High
+53 | File | `/category/list?limit=10&offset=0&order=desc` | High
+54 | File | `/cgi-bin/downloadFile.cgi` | High
+55 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

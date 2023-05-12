@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -3905,40 +3905,41 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/` | Low
 15 | File | `/api/admin/store/product/list` | High
 16 | File | `/api/blade-log/api/list` | High
-17 | File | `/appliance/users?action=edit` | High
-18 | File | `/authUserAction!edit.action` | High
-19 | File | `/backup.pl` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/browse.PROJECTKEY` | High
-22 | File | `/bsms_ci/index.php/book` | High
-23 | File | `/cgi-bin/luci/api/wireless` | High
-24 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-25 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
-26 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/cmscp/ext/collect/fetch_url.do` | High
-29 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-30 | File | `/debug/pprof` | Medium
-31 | File | `/edoc/doctor/patient.php` | High
-32 | File | `/env` | Low
-33 | File | `/etc/hosts` | Medium
-34 | File | `/etc/shadow` | Medium
-35 | File | `/face-recognition-php/facepay-master/camera.php` | High
-36 | File | `/forms/doLogin` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/home/masterConsole` | High
-39 | File | `/index.php` | Medium
-40 | File | `/Items/*/RemoteImages/Download` | High
-41 | File | `/login/index.php` | High
-42 | File | `/loginsave.php` | High
-43 | File | `/medicines/profile.php` | High
-44 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-45 | File | `/orrs/admin/?page=user/manage_user` | High
-46 | File | `/php-scrm/login.php` | High
-47 | File | `/proxy` | Low
-48 | ... | ... | ...
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/appliance/users?action=edit` | High
+19 | File | `/authUserAction!edit.action` | High
+20 | File | `/backup.pl` | Medium
+21 | File | `/boat/login.php` | High
+22 | File | `/browse.PROJECTKEY` | High
+23 | File | `/bsms_ci/index.php/book` | High
+24 | File | `/cgi-bin/luci/api/wireless` | High
+25 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+26 | File | `/cgi-bin/supervisor/adcommand.cgi` | High
+27 | File | `/cgi-bin/supervisor/CloudSetup.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/cmscp/ext/collect/fetch_url.do` | High
+30 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
+31 | File | `/debug/pprof` | Medium
+32 | File | `/edoc/doctor/patient.php` | High
+33 | File | `/env` | Low
+34 | File | `/etc/hosts` | Medium
+35 | File | `/etc/shadow` | Medium
+36 | File | `/face-recognition-php/facepay-master/camera.php` | High
+37 | File | `/forms/doLogin` | High
+38 | File | `/forum/away.php` | High
+39 | File | `/home/masterConsole` | High
+40 | File | `/index.php` | Medium
+41 | File | `/Items/*/RemoteImages/Download` | High
+42 | File | `/login/index.php` | High
+43 | File | `/loginsave.php` | High
+44 | File | `/medicines/profile.php` | High
+45 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+46 | File | `/orrs/admin/?page=user/manage_user` | High
+47 | File | `/php-scrm/login.php` | High
+48 | File | `/proxy` | Low
+49 | ... | ... | ...
 
-There are 419 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 425 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

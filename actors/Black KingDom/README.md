@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Black KingDom:
 
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [IR](https://vuldb.com/?country.ir)
 
 ## IOC - Indicator of Compromise
@@ -30,7 +31,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-36 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -50,33 +51,43 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/ajax.php?action=delete_window` | High
 4 | File | `/admin/ajax.php?action=save_queue` | High
 5 | File | `/admin/article_category.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/classes/Master.php?f=delete_brand` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/config/api/v1/reboot` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forums.php?action=post` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/hss/admin/?page=client/manage_client` | High
-16 | File | `/index.php` | Medium
-17 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-18 | File | `/login/index.php` | High
-19 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-20 | File | `/output/outdbg.c` | High
-21 | File | `/output/outieee.c` | High
-22 | File | `/setNTP.cgi` | Medium
-23 | File | `/system/site.php` | High
-24 | File | `/tiki-importer.php` | High
-25 | File | `/tmp` | Low
-26 | File | `/tpts/manage_user.php` | High
-27 | File | `/trufusionPortal/upDwModuleProxy` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/usr/etc/restore0.9` | High
-30 | ... | ... | ...
+6 | File | `/admin/bookings/manage_booking.php` | High
+7 | File | `/admin/bookings/view_booking.php` | High
+8 | File | `/admin/cashadvance_row.php` | High
+9 | File | `/admin/deduction_row.php` | High
+10 | File | `/admin/employee_row.php` | High
+11 | File | `/admin/index.php` | High
+12 | File | `/admin/inquiries/view_inquiry.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/maintenance/manage_category.php` | High
+15 | File | `/admin/maintenance/view_designation.php` | High
+16 | File | `/admin/manage_user.php` | High
+17 | File | `/admin/mechanics/manage_mechanic.php` | High
+18 | File | `/admin/offenses/view_details.php` | High
+19 | File | `/admin/orders/update_status.php` | High
+20 | File | `/admin/products/manage_product.php` | High
+21 | File | `/admin/products/view_product.php` | High
+22 | File | `/admin/reminders/manage_reminder.php` | High
+23 | File | `/admin/report/index.php` | High
+24 | File | `/admin/services/manage_service.php` | High
+25 | File | `/admin/services/view_service.php` | High
+26 | File | `/admin/service_requests/manage_inventory.php` | High
+27 | File | `/admin/user/manage_user.php` | High
+28 | File | `/admin/userprofile.php` | High
+29 | File | `/apply.cgi` | Medium
+30 | File | `/bsms_ci/index.php/book` | High
+31 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+32 | File | `/classes/Login.php` | High
+33 | File | `/classes/Master.php` | High
+34 | File | `/classes/Master.php?f=delete_brand` | High
+35 | File | `/classes/Master.php?f=delete_category` | High
+36 | File | `/classes/Master.php?f=delete_inquiry` | High
+37 | File | `/classes/Master.php?f=delete_sub_category` | High
+38 | File | `/classes/Master.php?f=save_course` | High
+39 | File | `/classes/Master.php?f=save_service` | High
+40 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 347 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

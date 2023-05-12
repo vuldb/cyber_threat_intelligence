@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,15 +64,15 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/lab.php` | High
 5 | File | `/api/collection/findone` | High
 6 | File | `/api/crontab` | Medium
-7 | File | `/cbs/system/ShowAdvanced.do` | High
-8 | File | `/cgi-bin/editBookmark` | High
-9 | File | `/cgi-bin/loaddata.py` | High
-10 | File | `/debug` | Low
-11 | File | `/debug/pprof` | Medium
-12 | File | `/DXR.axd` | Medium
-13 | File | `/etc/passwd` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/getcfg.php` | Medium
+7 | File | `/api/geojson` | Medium
+8 | File | `/cbs/system/ShowAdvanced.do` | High
+9 | File | `/cgi-bin/editBookmark` | High
+10 | File | `/cgi-bin/loaddata.py` | High
+11 | File | `/debug` | Low
+12 | File | `/debug/pprof` | Medium
+13 | File | `/DXR.axd` | Medium
+14 | File | `/etc/passwd` | Medium
+15 | File | `/forum/away.php` | High
 16 | File | `/goform/setmac` | High
 17 | File | `/goform/setportList` | High
 18 | File | `/goform/setVLAN` | High
@@ -82,20 +82,20 @@ ID | Type | Indicator | Confidence
 22 | File | `/login` | Low
 23 | File | `/login/index.php` | High
 24 | File | `/modules/profile/index.php` | High
-25 | File | `/sys/dict/queryTableData` | High
-26 | File | `/tmp` | Low
-27 | File | `/tmp/before` | Medium
-28 | File | `/User/saveUser` | High
-29 | File | `/usr/bin/vmware-mount` | High
-30 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-31 | File | `/WEB-INF/web.xml` | High
-32 | File | `/_vti_pvt/access.cnf` | High
-33 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-34 | File | `accountsettings_add.html` | High
-35 | File | `aclient.exe` | Medium
-36 | File | `admin.php` | Medium
-37 | File | `admin.php?c=update&f=unzip` | High
-38 | File | `admin/ajax/op_kandidat.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/sys/dict/queryTableData` | High
+27 | File | `/tmp` | Low
+28 | File | `/tmp/before` | Medium
+29 | File | `/User/saveUser` | High
+30 | File | `/usr/bin/vmware-mount` | High
+31 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+32 | File | `/WEB-INF/web.xml` | High
+33 | File | `/_vti_pvt/access.cnf` | High
+34 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+35 | File | `accountsettings_add.html` | High
+36 | File | `aclient.exe` | Medium
+37 | File | `admin.php` | Medium
+38 | File | `admin.php?c=update&f=unzip` | High
 39 | File | `admin/conf_users_edit.php` | High
 40 | File | `admin/domain-fields/` | High
 41 | File | `admin/index.asp` | High
@@ -105,7 +105,7 @@ ID | Type | Indicator | Confidence
 45 | File | `advancedsearch.php` | High
 46 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

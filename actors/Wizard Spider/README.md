@@ -107,7 +107,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -155,17 +155,17 @@ ID | Type | Indicator | Confidence
 34 | File | `/owa/auth/logon.aspx` | High
 35 | File | `/password.html` | High
 36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/proc/ioports` | High
-38 | File | `/property-list/property_view.php` | High
-39 | File | `/ptms/classes/Users.php` | High
-40 | File | `/resources//../` | High
-41 | File | `/rest/api/2/search` | High
-42 | File | `/s/` | Low
-43 | File | `/scripts/cpan_config` | High
-44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/resources//../` | High
+40 | File | `/rest/api/2/search` | High
+41 | File | `/s/` | Low
+42 | File | `/scripts/cpan_config` | High
+43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+44 | File | `/spip.php` | Medium
 45 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

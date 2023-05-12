@@ -67,13 +67,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -107,27 +107,28 @@ ID | Type | Indicator | Confidence
 24 | File | `/requests.php` | High
 25 | File | `/spip.php` | Medium
 26 | File | `/sre/params.php` | High
-27 | File | `/tensorflow/core/grappler/optimizers/arithmetic_optimizer.cc` | High
-28 | File | `/tmp` | Low
-29 | File | `/tmp/xbindkeysrc-tmp` | High
-30 | File | `/user/upload/upload` | High
-31 | File | `/Users` | Low
-32 | File | `/var/spool/hylafax` | High
-33 | File | `/vendor` | Low
-34 | File | `access_rules/rules_form` | High
-35 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-36 | File | `action/addproject.php` | High
-37 | File | `adclick.php` | Medium
-38 | File | `add_contestant.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/ajax.attachment.php` | High
-41 | File | `admin/index.php` | High
-42 | File | `admin/make_payments.php` | High
-43 | File | `Advanced_ASUSDDNS_Content.asp` | High
-44 | File | `af_netlink.c` | Medium
-45 | ... | ... | ...
+27 | File | `/tmp` | Low
+28 | File | `/tmp/xbindkeysrc-tmp` | High
+29 | File | `/user/upload/upload` | High
+30 | File | `/Users` | Low
+31 | File | `/var/spool/hylafax` | High
+32 | File | `/vendor` | Low
+33 | File | `access_rules/rules_form` | High
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `action/addproject.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add_contestant.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/ajax.attachment.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/make_payments.php` | High
+42 | File | `Advanced_ASUSDDNS_Content.asp` | High
+43 | File | `af_netlink.c` | Medium
+44 | File | `album_portal.php` | High
+45 | File | `api_jsonrpc.php` | High
+46 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

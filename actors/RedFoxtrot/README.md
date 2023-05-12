@@ -49,28 +49,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/getcfg.php` | Medium
-4 | File | `/inc/lists/csvexport.php` | High
-5 | File | `/server-status` | High
-6 | File | `/sgmi/` | Low
-7 | File | `/system/user/resetPwd` | High
-8 | File | `/tos/index.php?editor/fileGet` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/user/updatePwd` | High
-11 | File | `/var/log/nginx` | High
-12 | File | `addentry.php` | Medium
-13 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-14 | File | `admin/plib/api-rpc/Agent.php` | High
-15 | File | `auth-gss2.c` | Medium
-16 | File | `bcbadmSettings.jsp` | High
-17 | File | `books.php` | Medium
-18 | File | `cgi.c` | Low
-19 | File | `class/connect.php` | High
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/getcfg.php` | Medium
+5 | File | `/inc/lists/csvexport.php` | High
+6 | File | `/server-status` | High
+7 | File | `/sgmi/` | Low
+8 | File | `/system/user/resetPwd` | High
+9 | File | `/tos/index.php?editor/fileGet` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/user/updatePwd` | High
+12 | File | `/var/log/nginx` | High
+13 | File | `addentry.php` | Medium
+14 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+15 | File | `admin/plib/api-rpc/Agent.php` | High
+16 | File | `auth-gss2.c` | Medium
+17 | File | `bcbadmSettings.jsp` | High
+18 | File | `books.php` | Medium
+19 | File | `cgi.c` | Low
 20 | ... | ... | ...
 
-There are 163 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

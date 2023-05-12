@@ -82,10 +82,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -96,7 +96,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/../conf/config.properties` | High
+1 | File | `/?ajax-request=jnews` | High
 2 | File | `/Admin/add-student.php` | High
 3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
 4 | File | `/admin/maintenance/view_designation.php` | High
@@ -126,9 +126,10 @@ ID | Type | Indicator | Confidence
 28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 29 | File | `action-visitor.php` | High
 30 | File | `action.php` | Medium
-31 | ... | ... | ...
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

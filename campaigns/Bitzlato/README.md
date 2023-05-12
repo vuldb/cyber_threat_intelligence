@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bitzlato:
 
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 14 more country items available. Please use our online service to access the data.
@@ -121,7 +121,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -139,13 +139,13 @@ ID | Type | Indicator | Confidence
 8 | File | `/alphaware/summary.php` | High
 9 | File | `/api/` | Low
 10 | File | `/api/admin/store/product/list` | High
-11 | File | `/app/options.py` | High
-12 | File | `/attachments` | Medium
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/ci_hms/massage_room/edit/1` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/app/options.py` | High
+13 | File | `/attachments` | Medium
+14 | File | `/boat/login.php` | High
+15 | File | `/bsms_ci/index.php/book` | High
+16 | File | `/cgi-bin/luci/api/wireless` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
 18 | File | `/context/%2e/WEB-INF/web.xml` | High
 19 | File | `/dashboard/reports/logs/view` | High
 20 | File | `/dashboard/updatelogo.php` | High
@@ -168,7 +168,7 @@ ID | Type | Indicator | Confidence
 37 | File | `/reservation/add_message.php` | High
 38 | ... | ... | ...
 
-There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LA](https://vuldb.com/?country.la)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [5.255.87.39](https://vuldb.com/?ip.5.255.87.39) | - | BlackEnergy | High
 7 | [31.210.111.154](https://vuldb.com/?ip.31.210.111.154) | . | BlackEnergy | High
 8 | [37.220.34.56](https://vuldb.com/?ip.37.220.34.56) | - | BlackEnergy | High
-9 | ... | ... | ... | ...
+9 | [45.56.93.83](https://vuldb.com/?ip.45.56.93.83) | li895-83.members.linode.com | Ukraine | High
+10 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,39 +79,41 @@ ID | Type | Indicator | Confidence
 15 | File | `/cgi-bin/luci/api/wireless` | High
 16 | File | `/cgi-bin/wlogin.cgi` | High
 17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/dcim/sites/add/` | High
-20 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/enginemanager/server/user/delete.htm` | High
-23 | File | `/etc/hosts` | Medium
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/delAd` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/medicines/profile.php` | High
-30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+18 | File | `/dcim/sites/add/` | High
+19 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+20 | File | `/debug/pprof` | Medium
+21 | File | `/enginemanager/server/user/delete.htm` | High
+22 | File | `/etc/hosts` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/delAd` | High
+25 | File | `/goform/setmac` | High
+26 | File | `/goform/wizard_end` | High
+27 | File | `/manage-apartment.php` | High
+28 | File | `/medicines/profile.php` | High
+29 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
 31 | File | `/out.php` | Medium
 32 | File | `/owa/auth/logon.aspx` | High
 33 | File | `/pages/apply_vacancy.php` | High
 34 | File | `/pet_shop/admin/?page=maintenance/manage_category` | High
 35 | File | `/print.php` | Medium
 36 | File | `/probe?target` | High
-37 | File | `/proc/<PID>/mem` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/tmp` | Low
-43 | ... | ... | ...
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+40 | File | `/spip.php` | Medium
+41 | File | `/tmp` | Low
+42 | File | `/uncpath/` | Medium
+43 | File | `/upload` | Low
+44 | ... | ... | ...
 
-There are 373 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/
 * https://ddanchev.blogspot.com/2022/06/exclusive-exposing-grus-unit-74455.html
 * https://media.defense.gov/2020/May/28/2002306626/-1/-1/0/CSA%20Sandworm%20Actors%20Exploiting%20Vulnerability%20in%20Exim%20Transfer%20Agent%2020200528.pdf
 * https://otx.alienvault.com/pulse/62552abdd7e44d9aba08636d

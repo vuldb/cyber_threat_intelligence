@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1830,26 +1830,33 @@ ID | Type | Indicator | Confidence
 15 | File | `/textpattern/index.php` | High
 16 | File | `/tmp` | Low
 17 | File | `/user/updatePwd` | High
-18 | File | `account-signup.php` | High
-19 | File | `account/signup.php` | High
-20 | File | `activenews_view.asp` | High
-21 | File | `adclick.php` | Medium
-22 | File | `addentry.php` | Medium
-23 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-24 | File | `admin-ajax.php` | High
-25 | File | `admin.php` | Medium
-26 | File | `admin/admin_editor.php` | High
-27 | File | `admin/asset/grid-proxy` | High
-28 | File | `admin/auditTrail.jsf` | High
-29 | File | `admin/conf_users_edit.php` | High
-30 | File | `admin/edit_category.php` | High
-31 | File | `adminer.php` | Medium
-32 | File | `AjaxFileUploadHandler.axd` | High
-33 | File | `app/controllers/oauth.js` | High
-34 | File | `articulo.php` | Medium
-35 | ... | ... | ...
+18 | File | `abook_database.php` | High
+19 | File | `account-signup.php` | High
+20 | File | `account/signup.php` | High
+21 | File | `activenews_view.asp` | High
+22 | File | `adclick.php` | Medium
+23 | File | `addentry.php` | Medium
+24 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+25 | File | `admin-ajax.php` | High
+26 | File | `admin.a6mambocredits.php` | High
+27 | File | `admin.cropcanvas.php` | High
+28 | File | `admin.php` | Medium
+29 | File | `admin/admin_editor.php` | High
+30 | File | `admin/asset/grid-proxy` | High
+31 | File | `admin/auditTrail.jsf` | High
+32 | File | `admin/conf_users_edit.php` | High
+33 | File | `admin/edit_category.php` | High
+34 | File | `adminer.php` | Medium
+35 | File | `admin_ip.php` | Medium
+36 | File | `AjaxFileUploadHandler.axd` | High
+37 | File | `al_initialize.php` | High
+38 | File | `app/controllers/oauth.js` | High
+39 | File | `articulo.php` | Medium
+40 | File | `artlinks.dispnew.php` | High
+41 | File | `art_detalle.php` | High
+42 | ... | ... | ...
 
-There are 299 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

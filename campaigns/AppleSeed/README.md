@@ -45,7 +45,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -62,15 +63,15 @@ ID | Type | Indicator | Confidence
 5 | File | `/expert_wizard.php` | High
 6 | File | `/images/browserslide.jpg` | High
 7 | File | `/includes/lib/get.php` | High
-8 | File | `/main?cmd=invalid_browser` | High
-9 | File | `/manager?action=getlogcat` | High
-10 | File | `/mc` | Low
-11 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-12 | File | `/SASWebReportStudio/logonAndRender.do` | High
-13 | File | `/scas/admin/` | Medium
+8 | File | `/lists/index.php` | High
+9 | File | `/main?cmd=invalid_browser` | High
+10 | File | `/manager?action=getlogcat` | High
+11 | File | `/mc` | Low
+12 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+13 | File | `/SASWebReportStudio/logonAndRender.do` | High
 14 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

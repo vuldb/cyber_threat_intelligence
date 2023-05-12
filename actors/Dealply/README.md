@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Dealply:
 
 * [IT](https://vuldb.com/?country.it)
+* [US](https://vuldb.com/?country.us)
 
 ## IOC - Indicator of Compromise
 
@@ -33,14 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-27, CWE-28, CWE-36, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-35, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80, CWE-86 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,50 +49,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=maintenance/brand` | High
-2 | File | `/admin/?page=product/manage_product&id=2` | High
-3 | File | `/admin/?page=reminders/view_reminder` | High
-4 | File | `/admin/?page=system_info` | High
-5 | File | `/admin/?page=user` | High
-6 | File | `/admin/admin.php` | High
-7 | File | `/admin/ajax.php?action=login` | High
-8 | File | `/admin/ballot_down.php` | High
-9 | File | `/admin/ballot_up.php` | High
-10 | File | `/admin/candidates_row.php` | High
-11 | File | `/admin/categories/view_category.php` | High
-12 | File | `/admin/configurations/userInfo` | High
-13 | File | `/admin/config_save.php` | High
-14 | File | `/admin/curriculum/view_curriculum.php` | High
-15 | File | `/admin/forgot-password.php` | High
-16 | File | `/admin/inventory/manage_stock.php` | High
-17 | File | `/admin/login.php` | High
-18 | File | `/admin/maintenance/manage_category.php` | High
-19 | File | `/admin/maintenance/view_designation.php` | High
-20 | File | `/admin/mechanics/manage_mechanic.php` | High
-21 | File | `/admin/offenses/view_details.php` | High
-22 | File | `/admin/orders/update_status.php` | High
-23 | File | `/admin/positions_add.php` | High
-24 | File | `/admin/positions_delete.php` | High
-25 | File | `/admin/positions_row.php` | High
-26 | File | `/admin/product/manage.php` | High
-27 | File | `/admin/products/manage_product.php` | High
-28 | File | `/admin/products/view_product.php` | High
-29 | File | `/admin/reminders/manage_reminder.php` | High
-30 | File | `/admin/report/index.php` | High
-31 | File | `/admin/sales/manage_sale.php` | High
-32 | File | `/admin/service_requests/manage_inventory.php` | High
-33 | File | `/admin/students/view_details.php` | High
-34 | File | `/admin/suppliers/view_details.php` | High
-35 | File | `/admin/template.php` | High
-36 | File | `/admin/transactions/track_shipment.php` | High
-37 | File | `/admin/user/manage_user.php` | High
-38 | File | `/admin/userprofile.php` | High
-39 | File | `/admin/voters_row.php` | High
-40 | File | `/app/options.py` | High
-41 | File | `/author/list?limit=10&offset=0&order=desc` | High
-42 | ... | ... | ...
+1 | File | `/admin/admin_admin.php` | High
+2 | File | `/admin/ajax.php` | High
+3 | File | `/admin/bookings/manage_booking.php` | High
+4 | File | `/admin/bookings/view_details.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/inquiries/view_inquiry.php` | High
+7 | File | `/admin/manage_academic.php` | High
+8 | File | `/admin/orders/update_status.php` | High
+9 | File | `/admin/services/manage_service.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/ajax/myshop` | Medium
+12 | File | `/ari/asterisk/variable` | High
+13 | File | `/base/ecma-helpers.c` | High
+14 | File | `/bin/ate` | Medium
+15 | File | `/boafrm/formFilter` | High
+16 | File | `/boafrm/formHomeWlanSetup` | High
+17 | File | `/churchcrm/v2/family/not-found` | High
+18 | File | `/classes/Master.php?f=delete_inquiry` | High
+19 | File | `/classes/Master.php?f=delete_item` | High
+20 | File | `/classes/Master.php?f=save_course` | High
+21 | File | `/classes/Master.php?f=save_service` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/client/manage/ourphp_out.php` | High
+24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+25 | File | `/dialog/select_media.php` | High
+26 | File | `/Enclave.cpp` | Medium
+27 | File | `/get-artifact` | High
+28 | File | `/goform/sysTools` | High
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/index.php/archives/1/comment` | High
+31 | File | `/jerry-core/parser/js/js-lexer.c` | High
+32 | File | `/jerry-core/parser/js/js-parser-statm.c` | High
+33 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+34 | File | `/jerry-core/vm/vm.c` | High
+35 | File | `/message/form/` | High
+36 | File | `/nasm/nasm-parse.c` | High
+37 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

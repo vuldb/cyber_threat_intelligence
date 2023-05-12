@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,17 +64,17 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/renewaldue.php` | High
 9 | File | `/admin/reports.php` | High
 10 | File | `/admin/transactions/track_shipment.php` | High
-11 | File | `/admin/web_config.php` | High
-12 | File | `/ajax/ImportCertificate` | High
-13 | File | `/app/controller/Books.php` | High
-14 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-15 | File | `/cgi-bin` | Medium
-16 | File | `/classes/Master.php?f=delete_sub_category` | High
-17 | File | `/config/service/host.go` | High
-18 | File | `/data/sqldata` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/admin/web_config.php` | High
+13 | File | `/ajax/ImportCertificate` | High
+14 | File | `/app/controller/Books.php` | High
+15 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+16 | File | `/cgi-bin` | Medium
+17 | File | `/classes/Master.php?f=delete_sub_category` | High
+18 | File | `/config/service/host.go` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

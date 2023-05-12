@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -89,13 +89,13 @@ ID | Type | Indicator | Confidence
 15 | File | `/foundry/modules/news/newscolumns.php` | High
 16 | File | `/ghost/preview` | High
 17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/include/config.cache.php` | High
-19 | File | `/index.php/admin/tag/add.html` | High
-20 | File | `/jeecg-boot/sys/common/upload` | High
-21 | File | `/lan.asp` | Medium
-22 | File | `/LDMS/frm_splitfrm.aspx` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/Mum.Geo.Services/DataAccessService.svc` | High
+18 | File | `/group1/uploa` | High
+19 | File | `/include/config.cache.php` | High
+20 | File | `/index.php/admin/tag/add.html` | High
+21 | File | `/jeecg-boot/sys/common/upload` | High
+22 | File | `/lan.asp` | Medium
+23 | File | `/LDMS/frm_splitfrm.aspx` | High
+24 | File | `/modules/profile/index.php` | High
 25 | File | `/NAGErrors` | Medium
 26 | File | `/out.php` | Medium
 27 | File | `/proxy` | Low

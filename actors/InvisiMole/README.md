@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -76,43 +76,45 @@ ID | Type | Indicator | Confidence
 19 | File | `/login` | Low
 20 | File | `/login.cgi?logout=1` | High
 21 | File | `/Login.do` | Medium
-22 | File | `/mifs/c/i/reg/reg.html` | High
-23 | File | `/nova/bin/detnet` | High
-24 | File | `/pages.php` | Medium
-25 | File | `/pages/items` | Medium
-26 | File | `/proc/iomem` | Medium
-27 | File | `/profile/deleteWatch.do` | High
-28 | File | `/show_news.php` | High
-29 | File | `/status.js` | Medium
-30 | File | `/tmp` | Low
-31 | File | `/uncpath/` | Medium
-32 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-33 | File | `/usr/local/ssl/openssl.cnf` | High
-34 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-35 | File | `/var/log/nginx` | High
-36 | File | `/wp-admin` | Medium
-37 | File | `/xampp/guestbook-en.pl` | High
-38 | File | `abook_database.php` | High
-39 | File | `AccountStatus.jsp` | High
-40 | File | `action/usermanager.htm` | High
-41 | File | `add.php` | Low
-42 | File | `add_comment.php` | High
-43 | File | `admin.cgi?action=config_restore` | High
-44 | File | `admin.php3` | Medium
-45 | File | `admin/add-news.php` | High
-46 | File | `admin/ajax/op_kandidat.php` | High
-47 | File | `admin/gv_mail.php` | High
-48 | File | `admin/manage-articles.php` | High
-49 | File | `admin/manage-departments.php` | High
-50 | File | `admin/systemOutOfBand.do` | High
-51 | File | `ajax.php` | Medium
-52 | File | `and/or` | Low
-53 | File | `Annot.cc` | Medium
-54 | File | `aoutx.h` | Low
-55 | File | `app/application.cpp` | High
-56 | ... | ... | ...
+22 | File | `/messageboard/view.php` | High
+23 | File | `/mifs/c/i/reg/reg.html` | High
+24 | File | `/nova/bin/detnet` | High
+25 | File | `/pages.php` | Medium
+26 | File | `/pages/items` | Medium
+27 | File | `/proc/iomem` | Medium
+28 | File | `/profile/deleteWatch.do` | High
+29 | File | `/show_news.php` | High
+30 | File | `/status.js` | Medium
+31 | File | `/tmp` | Low
+32 | File | `/uncpath/` | Medium
+33 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+34 | File | `/usr/local/ssl/openssl.cnf` | High
+35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+36 | File | `/var/log/nginx` | High
+37 | File | `/wp-admin` | Medium
+38 | File | `/xampp/guestbook-en.pl` | High
+39 | File | `abook_database.php` | High
+40 | File | `account.asp` | Medium
+41 | File | `AccountStatus.jsp` | High
+42 | File | `action/usermanager.htm` | High
+43 | File | `add.php` | Low
+44 | File | `add_comment.php` | High
+45 | File | `admin.a6mambocredits.php` | High
+46 | File | `admin.cgi?action=config_restore` | High
+47 | File | `admin.cropcanvas.php` | High
+48 | File | `Admin.PHP` | Medium
+49 | File | `admin.php3` | Medium
+50 | File | `admin/add-news.php` | High
+51 | File | `admin/ajax/op_kandidat.php` | High
+52 | File | `admin/gv_mail.php` | High
+53 | File | `admin/manage-articles.php` | High
+54 | File | `admin/manage-departments.php` | High
+55 | File | `admin/systemOutOfBand.do` | High
+56 | File | `adminAvatars.php` | High
+57 | File | `adminBackupdatabase.php` | High
+58 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OldGremlin:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [AT](https://vuldb.com/?country.at)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/rapi/read_url` | High
-3 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-4 | File | `AppCompatCache.exe` | High
-5 | File | `cgi-bin/awstats.pl` | High
-6 | File | `cgi-bin/MANGA/admin.cgi` | High
-7 | File | `coders/png.c` | Medium
-8 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/rapi/read_url` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+6 | File | `AppCompatCache.exe` | High
+7 | File | `appserv/main.php` | High
+8 | File | `cgi-bin/awstats.pl` | High
+9 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 63 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

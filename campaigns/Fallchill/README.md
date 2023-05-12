@@ -51,11 +51,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-1321 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -65,41 +64,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `//` | Low
-3 | File | `/admin/?page=reminders/view_reminder` | High
-4 | File | `/admin/categories/manage_category.php` | High
-5 | File | `/admin/categories/view_category.php` | High
-6 | File | `/admin/curriculum/view_curriculum.php` | High
-7 | File | `/admin/departments/view_department.php` | High
-8 | File | `/admin/index.php` | High
-9 | File | `/admin/inquiries/view_inquiry.php` | High
-10 | File | `/admin/inventory/manage_stock.php` | High
-11 | File | `/admin/maintenance/manage_category.php` | High
-12 | File | `/admin/maintenance/view_designation.php` | High
-13 | File | `/admin/mechanics/manage_mechanic.php` | High
-14 | File | `/admin/offenses/view_details.php` | High
-15 | File | `/admin/orders/update_status.php` | High
-16 | File | `/admin/products/manage_product.php` | High
-17 | File | `/admin/products/view_product.php` | High
-18 | File | `/admin/reminders/manage_reminder.php` | High
-19 | File | `/admin/report/index.php` | High
-20 | File | `/admin/sales/manage_sale.php` | High
-21 | File | `/admin/sales/view_details.php` | High
-22 | File | `/admin/services/manage_service.php` | High
-23 | File | `/admin/service_requests/manage_inventory.php` | High
-24 | File | `/admin/students/view_details.php` | High
-25 | File | `/admin/suppliers/view_details.php` | High
-26 | File | `/admin/user/manage_user.php` | High
-27 | File | `/admin/userprofile.php` | High
-28 | File | `/api/jmeter/download/files` | High
-29 | File | `/api/upload` | Medium
-30 | File | `/APR/login.php` | High
-31 | File | `/cgi-bin/DownloadFlash` | High
-32 | File | `/cgi-bin/wlogin.cgi` | High
-33 | ... | ... | ...
+1 | File | `/admin/bookings/manage_booking.php` | High
+2 | File | `/admin/bookings/view_booking.php` | High
+3 | File | `/admin/bookings/view_details.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/manage_academic.php` | High
+7 | File | `/admin/orders/update_status.php` | High
+8 | File | `/admin/services/manage_service.php` | High
+9 | File | `/admin/services/view_service.php` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/boafrm/formFilter` | High
+12 | File | `/classes/Master.php?f=delete_inquiry` | High
+13 | File | `/classes/Master.php?f=save_course` | High
+14 | File | `/classes/Master.php?f=save_service` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/message/form/` | High
+17 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
+18 | File | `/send_order.cgi?parameter=access_detect` | High
+19 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

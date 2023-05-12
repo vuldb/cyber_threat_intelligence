@@ -39,10 +39,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,44 +54,46 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin` | Low
 4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/Admin/dashboard.php` | High
-6 | File | `/admin/sign/out` | High
-7 | File | `/api/common/ping` | High
-8 | File | `/api/v2/open/tablesInfo` | High
-9 | File | `/asms/classes/Master.php?f=delete_img` | High
-10 | File | `/bin/httpd` | Medium
-11 | File | `/catcompany.php` | High
-12 | File | `/classes/Master.php?f=delete_appointment` | High
-13 | File | `/cms/notify` | Medium
-14 | File | `/depotHead/list` | High
-15 | File | `/device/signin` | High
-16 | File | `/etc/shadow.sample` | High
-17 | File | `/fusiondirectory/index.php` | High
-18 | File | `/goform/addressNat` | High
-19 | File | `/goform/fast_setting_wifi_set` | High
-20 | File | `/goform/WifiBasicSet` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/js/player/dmplayer/dmku/index.php` | High
-23 | File | `/lists/admin/` | High
-24 | File | `/login/index.php` | High
-25 | File | `/multi-vendor-shopping-script/product-list.php` | High
-26 | File | `/myAccount` | Medium
-27 | File | `/operations/travellers.php` | High
-28 | File | `/php-sms/admin/orders/update_status.php` | High
-29 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-30 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-31 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-32 | File | `/release-x64/otfccdump+0x6e41a8` | High
-33 | File | `/rukovoditel/index.php?module=users/login` | High
-34 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
-35 | File | `/sys/duplicate/check` | High
-36 | File | `/timeline2.php` | High
-37 | File | `/ucenter/repass.php` | High
-38 | File | `/usr/sbin/httpd` | High
-39 | File | `/var/log/messages` | High
-40 | ... | ... | ...
+5 | File | `/admin/curriculum/view_curriculum.php` | High
+6 | File | `/Admin/dashboard.php` | High
+7 | File | `/admin/sales/view_details.php` | High
+8 | File | `/admin/sign/out` | High
+9 | File | `/api/common/ping` | High
+10 | File | `/api/v2/open/tablesInfo` | High
+11 | File | `/asms/classes/Master.php?f=delete_img` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/catcompany.php` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/classes/Users.php` | High
+16 | File | `/cms/notify` | Medium
+17 | File | `/depotHead/list` | High
+18 | File | `/device/signin` | High
+19 | File | `/etc/shadow.sample` | High
+20 | File | `/fusiondirectory/index.php` | High
+21 | File | `/goform/addressNat` | High
+22 | File | `/goform/fast_setting_wifi_set` | High
+23 | File | `/goform/WifiBasicSet` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/js/player/dmplayer/dmku/index.php` | High
+26 | File | `/lists/admin/` | High
+27 | File | `/login/index.php` | High
+28 | File | `/multi-vendor-shopping-script/product-list.php` | High
+29 | File | `/myAccount` | Medium
+30 | File | `/operations/travellers.php` | High
+31 | File | `/php-sms/admin/orders/update_status.php` | High
+32 | File | `/php-sms/classes/Master.php?f=delete_service` | High
+33 | File | `/public/launchNewWindow.jsp` | High
+34 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+35 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+36 | File | `/release-x64/otfccdump+0x6e41a8` | High
+37 | File | `/rukovoditel/index.php?module=users/login` | High
+38 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
+39 | File | `/sys/duplicate/check` | High
+40 | File | `/timeline2.php` | High
+41 | File | `/ucenter/repass.php` | High
+42 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

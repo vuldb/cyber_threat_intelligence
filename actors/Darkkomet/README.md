@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
 7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,14 +50,14 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/pages/processlogin.php` | High
-2 | File | `/SCRIPTPATH/index.php` | High
-3 | File | `admin/index.php` | High
-4 | File | `auth-gss2.c` | Medium
-5 | File | `captcha.php` | Medium
+1 | File | `/admin/departments/view_department.php` | High
+2 | File | `/pages/processlogin.php` | High
+3 | File | `/SCRIPTPATH/index.php` | High
+4 | File | `admin/index.php` | High
+5 | File | `auth-gss2.c` | Medium
 6 | ... | ... | ...
 
-There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +70,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0826-0902.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
 * https://blog.talosintelligence.com/threat-roundup-0113-0120/
+* https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
 
 ## Literature
 

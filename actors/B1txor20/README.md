@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,51 +66,56 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=user/manage` | High
 5 | File | `/admin/add-new.php` | High
 6 | File | `/admin/attendance_row.php` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/deduction_row.php` | High
-9 | File | `/admin/doctors.php` | High
-10 | File | `/admin/employee_row.php` | High
-11 | File | `/admin/index3.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/maintenance/brand.php` | High
-14 | File | `/admin/maintenance/manage_category.php` | High
-15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/mechanics/manage_mechanic.php` | High
-17 | File | `/admin/offenses/view_details.php` | High
-18 | File | `/admin/orders/update_status.php` | High
-19 | File | `/admin/product/manage.php` | High
-20 | File | `/admin/reminders/manage_reminder.php` | High
-21 | File | `/admin/report/index.php` | High
-22 | File | `/admin/sales/manage_sale.php` | High
-23 | File | `/admin/service_requests/manage_inventory.php` | High
-24 | File | `/admin/transactions/track_shipment.php` | High
-25 | File | `/admin/userprofile.php` | High
-26 | File | `/admin_area/login_transfer.php` | High
-27 | File | `/adms/admin/?page=user/manage_user` | High
-28 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-29 | File | `/ajax/update_certificate` | High
-30 | File | `/alphaware/details.php` | High
-31 | File | `/alphaware/summary.php` | High
-32 | File | `/api/` | Low
-33 | File | `/api/admin/store/product/list` | High
-34 | File | `/api/gen/clients/{language}` | High
-35 | File | `/articles/{id}` | High
-36 | File | `/boat/login.php` | High
-37 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-38 | File | `/cgi-bin/touchlist_sync.cgi` | High
-39 | File | `/cgi-bin/wlogin.cgi` | High
-40 | File | `/classes/Login.php` | High
-41 | File | `/classes/Master.php` | High
-42 | File | `/classes/Master.php?f=delete_sub_category` | High
-43 | File | `/classes/Users.php` | High
-44 | File | `/config/myfield/test.php` | High
-45 | File | `/debug/pprof` | Medium
-46 | File | `/ecshop/admin/template.php` | High
-47 | File | `/eduauth/student/search.php` | High
-48 | File | `/fudforum/adm/hlplist.php` | High
-49 | ... | ... | ...
+7 | File | `/admin/bookings/manage_booking.php` | High
+8 | File | `/admin/bookings/view_booking.php` | High
+9 | File | `/admin/bookings/view_details.php` | High
+10 | File | `/admin/cashadvance_row.php` | High
+11 | File | `/admin/curriculum/view_curriculum.php` | High
+12 | File | `/admin/deduction_row.php` | High
+13 | File | `/admin/departments/view_department.php` | High
+14 | File | `/admin/doctors.php` | High
+15 | File | `/admin/employee_row.php` | High
+16 | File | `/admin/index.php` | High
+17 | File | `/admin/index3.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/maintenance/brand.php` | High
+21 | File | `/admin/maintenance/manage_category.php` | High
+22 | File | `/admin/maintenance/view_designation.php` | High
+23 | File | `/admin/manage_academic.php` | High
+24 | File | `/admin/mechanics/manage_mechanic.php` | High
+25 | File | `/admin/offenses/view_details.php` | High
+26 | File | `/admin/orders/update_status.php` | High
+27 | File | `/admin/product/manage.php` | High
+28 | File | `/admin/products/manage_product.php` | High
+29 | File | `/admin/products/view_product.php` | High
+30 | File | `/admin/reminders/manage_reminder.php` | High
+31 | File | `/admin/report/index.php` | High
+32 | File | `/admin/sales/manage_sale.php` | High
+33 | File | `/admin/services/manage_service.php` | High
+34 | File | `/admin/services/view_service.php` | High
+35 | File | `/admin/service_requests/manage_inventory.php` | High
+36 | File | `/admin/transactions/track_shipment.php` | High
+37 | File | `/admin/user/manage_user.php` | High
+38 | File | `/admin/userprofile.php` | High
+39 | File | `/ajax/update_certificate` | High
+40 | File | `/alphaware/details.php` | High
+41 | File | `/alphaware/summary.php` | High
+42 | File | `/api/` | Low
+43 | File | `/api/admin/store/product/list` | High
+44 | File | `/api/gen/clients/{language}` | High
+45 | File | `/api/v2/cli/commands` | High
+46 | File | `/articles/{id}` | High
+47 | File | `/boafrm/formFilter` | High
+48 | File | `/boafrm/formHomeWlanSetup` | High
+49 | File | `/boat/login.php` | High
+50 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+51 | File | `/cgi-bin/touchlist_sync.cgi` | High
+52 | File | `/cgi-bin/wlogin.cgi` | High
+53 | File | `/classes/Login.php` | High
+54 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

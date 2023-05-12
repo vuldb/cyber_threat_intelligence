@@ -62,13 +62,14 @@ ID | Type | Indicator | Confidence
 1 | File | `/debug/pprof` | Medium
 2 | File | `/forum/away.php` | High
 3 | File | `/goform/saveParentControlInfo` | High
-4 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-5 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-6 | File | `/uncpath/` | Medium
-7 | File | `2020\Messages\SDNotify.exe` | High
-8 | ... | ... | ...
+4 | File | `/php-sms/admin/?page=user/manage_user` | High
+5 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+6 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `2020\Messages\SDNotify.exe` | High
+9 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

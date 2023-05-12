@@ -106,9 +106,10 @@ ID | Type | Indicator | Confidence
 28 | File | `/wp-admin/admin-ajax.php` | High
 29 | File | `action-visitor.php` | High
 30 | File | `action.php` | Medium
-31 | ... | ... | ...
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

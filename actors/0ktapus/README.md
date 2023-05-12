@@ -63,35 +63,36 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/employee_row.php` | High
 7 | File | `/Admin/login.php` | High
 8 | File | `/admin/products/manage_product.php` | High
-9 | File | `/api/upload` | Medium
-10 | File | `/classes/Master.php?f=delete_sub_category` | High
-11 | File | `/cms/category/list` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/Default/Bd` | Medium
-14 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-15 | File | `/domain/add` | Medium
-16 | File | `/donor-wall` | Medium
-17 | File | `/ebics-server/ebics.aspx` | High
-18 | File | `/esbus/servlet/GetSQLData` | High
-19 | File | `/film-rating.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/goform/formLogin` | High
-22 | File | `/HNAP1` | Low
-23 | File | `/horde/util/go.php` | High
-24 | File | `/ishttpd/localweb/java/` | High
-25 | File | `/KK_LS9ReportingPortal/GetData` | High
-26 | File | `/mcategory.php` | High
-27 | File | `/out.php` | Medium
-28 | File | `/p` | Low
-29 | File | `/pages/processlogin.php` | High
-30 | File | `/product/savenewproduct.php?flag=1` | High
-31 | File | `/services/Card/findUser` | High
-32 | File | `/template/edit` | High
-33 | File | `/uncpath/` | Medium
-34 | File | `/usr/bin/uucp` | High
-35 | ... | ... | ...
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/api/upload` | Medium
+11 | File | `/classes/Master.php?f=delete_sub_category` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/domain/add` | Medium
+17 | File | `/donor-wall` | Medium
+18 | File | `/ebics-server/ebics.aspx` | High
+19 | File | `/esbus/servlet/GetSQLData` | High
+20 | File | `/film-rating.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/goform/formLogin` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/horde/util/go.php` | High
+25 | File | `/ishttpd/localweb/java/` | High
+26 | File | `/KK_LS9ReportingPortal/GetData` | High
+27 | File | `/mcategory.php` | High
+28 | File | `/out.php` | Medium
+29 | File | `/p` | Low
+30 | File | `/pages/processlogin.php` | High
+31 | File | `/product/savenewproduct.php?flag=1` | High
+32 | File | `/services/Card/findUser` | High
+33 | File | `/template/edit` | High
+34 | File | `/uncpath/` | Medium
+35 | File | `/usr/bin/uucp` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

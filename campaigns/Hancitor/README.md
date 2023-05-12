@@ -68,7 +68,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -83,17 +84,17 @@ ID | Type | Indicator | Confidence
 3 | File | `/cwc/login` | Medium
 4 | File | `/etc/quagga` | Medium
 5 | File | `/files.md5` | Medium
-6 | File | `/forum/away.php` | High
-7 | File | `/h/calendar` | Medium
-8 | File | `/hrm/employeeview.php` | High
-9 | File | `/index.php` | Medium
-10 | File | `/librarian/bookdetails.php` | High
-11 | File | `/lists/index.php` | High
-12 | File | `/members/view_member.php` | High
-13 | File | `/messageboard/view.php` | High
-14 | File | `/nova/bin/console` | High
-15 | File | `/nova/bin/detnet` | High
-16 | File | `/objects/getImageMP4.php` | High
+6 | File | `/forms/doLogin` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/h/calendar` | Medium
+9 | File | `/hrm/employeeview.php` | High
+10 | File | `/index.php` | Medium
+11 | File | `/librarian/bookdetails.php` | High
+12 | File | `/lists/index.php` | High
+13 | File | `/members/view_member.php` | High
+14 | File | `/messageboard/view.php` | High
+15 | File | `/nova/bin/console` | High
+16 | File | `/nova/bin/detnet` | High
 17 | File | `/one_church/userregister.php` | High
 18 | File | `/out.php` | Medium
 19 | File | `/owa/auth/logon.aspx` | High
@@ -101,18 +102,17 @@ ID | Type | Indicator | Confidence
 21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 22 | File | `/SASWebReportStudio/logonAndRender.do` | High
 23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/trx_addons/v2/get/sc_layout` | High
-27 | File | `/v2/quantum/save-data-upload-big-file` | High
-28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-29 | File | `/wp-json` | Medium
-30 | File | `/wp-json/oembed/1.0/embed?url` | High
-31 | File | `4.edu.php` | Medium
-32 | File | `adclick.php` | Medium
-33 | ... | ... | ...
+24 | File | `/textpattern/index.php` | High
+25 | File | `/trx_addons/v2/get/sc_layout` | High
+26 | File | `/v2/quantum/save-data-upload-big-file` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `/wp-json` | Medium
+29 | File | `/wp-json/oembed/1.0/embed?url` | High
+30 | File | `4.edu.php` | Medium
+31 | File | `adclick.php` | Medium
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
