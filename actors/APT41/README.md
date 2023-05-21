@@ -89,39 +89,39 @@ ID | Type | Indicator | Confidence
 11 | File | `/classes/Users.php` | High
 12 | File | `/common/download?filename=1.jsp&delete=false` | High
 13 | File | `/csms/?page=contact_us` | High
-14 | File | `/debug` | Low
-15 | File | `/debug/pprof` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/PowerSaveSet` | High
-18 | File | `/include/make.php` | High
-19 | File | `/index.php` | Medium
-20 | File | `/jeecg-boot/sys/common/upload` | High
-21 | File | `/lists/admin/` | High
-22 | File | `/login.cgi?logout=1` | High
-23 | File | `/medical/inventories.php` | High
-24 | File | `/members/view_member.php` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/module/admin_logs` | High
-27 | File | `/nova/bin/console` | High
-28 | File | `/owa/auth/logon.aspx` | High
-29 | File | `/plesk-site-preview/` | High
-30 | File | `/public/login.htm` | High
-31 | File | `/public/plugins/` | High
-32 | File | `/replication` | Medium
-33 | File | `/SASWebReportStudio/logonAndRender.do` | High
-34 | File | `/scas/classes/Users.php?f=save_user` | High
-35 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-36 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-39 | File | `/start-stop` | Medium
-40 | File | `/start_apply.htm` | High
-41 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-42 | File | `/tmp/app/.env` | High
-43 | File | `/tool/gen/createTable` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug` | Low
+16 | File | `/debug/pprof` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/PowerSaveSet` | High
+19 | File | `/include/make.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/jeecg-boot/sys/common/upload` | High
+22 | File | `/lists/admin/` | High
+23 | File | `/login.cgi?logout=1` | High
+24 | File | `/medical/inventories.php` | High
+25 | File | `/members/view_member.php` | High
+26 | File | `/mgmt/tm/util/bash` | High
+27 | File | `/module/admin_logs` | High
+28 | File | `/nova/bin/console` | High
+29 | File | `/owa/auth/logon.aspx` | High
+30 | File | `/plesk-site-preview/` | High
+31 | File | `/public/login.htm` | High
+32 | File | `/public/plugins/` | High
+33 | File | `/replication` | Medium
+34 | File | `/SASWebReportStudio/logonAndRender.do` | High
+35 | File | `/scas/classes/Users.php?f=save_user` | High
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+40 | File | `/start-stop` | Medium
+41 | File | `/start_apply.htm` | High
+42 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+43 | File | `/tmp/app/.env` | High
 44 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

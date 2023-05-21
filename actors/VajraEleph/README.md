@@ -14,9 +14,12 @@ The following _campaigns_ are known and can be associated with VajraEleph:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with VajraEleph:
 
+* [LT](https://vuldb.com/?country.lt)
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [NL](https://vuldb.com/?country.nl)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,8 +35,18 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+1 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 2 | T1548.002 | CWE-285 | Improper Authorization | High
+3 | T1552 | CWE-640 | ASP.NET Misconfiguration: Password in Configuration File | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by VajraEleph. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `wp-login.php` | Medium
+2 | Argument | `HOST` | Low
 
 ## References
 

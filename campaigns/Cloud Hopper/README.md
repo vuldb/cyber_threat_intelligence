@@ -107,7 +107,8 @@ ID | Type | Indicator | Confidence
 31 | File | `4.edu.php` | Medium
 32 | File | `adclick.php` | Medium
 33 | File | `addentry.php` | Medium
-34 | ... | ... | ...
+34 | File | `admin.cropcanvas.php` | High
+35 | ... | ... | ...
 
 There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

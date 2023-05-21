@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -101,30 +101,30 @@ ID | Type | Indicator | Confidence
 34 | File | `/classes/Master.php?f=delete_sub_category` | High
 35 | File | `/common/info.cgi` | High
 36 | File | `/context/%2e/WEB-INF/web.xml` | High
-37 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-38 | File | `/debug/pprof` | Medium
-39 | File | `/etc/hosts` | Medium
-40 | File | `/foms/place-order.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/setmac` | High
-43 | File | `/goform/wizard_end` | High
-44 | File | `/index.php` | Medium
-45 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-46 | File | `/librarian/bookdetails.php` | High
-47 | File | `/manage-apartment.php` | High
-48 | File | `/management/api/rcx_management/global_config_query` | High
-49 | File | `/medicines/profile.php` | High
-50 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-51 | File | `/multi-vendor-shopping-script/product-list.php` | High
-52 | File | `/pages/apply_vacancy.php` | High
-53 | File | `/php-sms/admin/` | High
-54 | File | `/product/savenewproduct.php?flag=1` | High
-55 | File | `/proxy` | Low
-56 | File | `/ptipupgrade.cgi` | High
-57 | File | `/real-estate-script/search_property.php` | High
+37 | File | `/debug/pprof` | Medium
+38 | File | `/etc/hosts` | Medium
+39 | File | `/foms/place-order.php` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/goform/setmac` | High
+42 | File | `/goform/wizard_end` | High
+43 | File | `/index.php` | Medium
+44 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+45 | File | `/librarian/bookdetails.php` | High
+46 | File | `/manage-apartment.php` | High
+47 | File | `/management/api/rcx_management/global_config_query` | High
+48 | File | `/medicines/profile.php` | High
+49 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+50 | File | `/multi-vendor-shopping-script/product-list.php` | High
+51 | File | `/pages/apply_vacancy.php` | High
+52 | File | `/php-sms/admin/` | High
+53 | File | `/product/savenewproduct.php?flag=1` | High
+54 | File | `/proxy` | Low
+55 | File | `/ptipupgrade.cgi` | High
+56 | File | `/real-estate-script/search_property.php` | High
+57 | File | `/reservation/add_message.php` | High
 58 | ... | ... | ...
 
-There are 507 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

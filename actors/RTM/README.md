@@ -84,11 +84,10 @@ ID | Type | Indicator | Confidence
 22 | File | `/recordings/index.php` | High
 23 | File | `/replication` | Medium
 24 | File | `/RestAPI` | Medium
-25 | File | `/tmp/speedtest_urls.xml` | High
-26 | File | `/tmp/zarafa-vacation-*` | High
-27 | ... | ... | ...
+25 | File | `/tmp/zarafa-vacation-*` | High
+26 | ... | ... | ...
 
-There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

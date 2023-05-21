@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,23 +52,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.vnc/sesman_${username}_passwd` | High
-2 | File | `/asms/classes/Master.php?f=delete_transaction` | High
-3 | File | `/cgi-bin/editBookmark` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/goform/addressNat` | High
-6 | File | `/include/chart_generator.php` | High
-7 | File | `/include/menu_v.inc.php` | High
-8 | File | `/librarian/lab.php` | High
-9 | File | `/omos/admin/?page=user/list` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/panel/fields/add` | High
-12 | File | `/patient/settings.php` | High
-13 | File | `/proc/*/cmdline"` | High
-14 | File | `/proc/pid/syscall` | High
-15 | File | `/sbin/acos_service` | High
-16 | ... | ... | ...
+2 | File | `/admin/cashadvance_row.php` | High
+3 | File | `/admin/login.php` | High
+4 | File | `/asms/classes/Master.php?f=delete_transaction` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/goform/addressNat` | High
+8 | File | `/goform/aspForm` | High
+9 | File | `/include/chart_generator.php` | High
+10 | File | `/include/menu_v.inc.php` | High
+11 | File | `/librarian/lab.php` | High
+12 | File | `/omos/admin/?page=user/list` | High
+13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+14 | File | `/panel/fields/add` | High
+15 | File | `/patient/settings.php` | High
+16 | File | `/proc/*/cmdline"` | High
+17 | File | `/proc/pid/syscall` | High
+18 | ... | ... | ...
 
-There are 132 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

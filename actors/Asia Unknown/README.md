@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [IO](https://vuldb.com/?country.io)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25295,15 +25295,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-35, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-29 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-272, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -25311,42 +25309,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/categories/manage_category.php` | High
-2 | File | `/admin/categories/view_category.php` | High
-3 | File | `/admin/curriculum/view_curriculum.php` | High
-4 | File | `/admin/departments/view_department.php` | High
-5 | File | `/admin/forgot-password.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/maintenance/manage_category.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/orders/update_status.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/products/view_product.php` | High
-13 | File | `/admin/reminders/manage_reminder.php` | High
-14 | File | `/admin/sales/manage_sale.php` | High
-15 | File | `/admin/sales/view_details.php` | High
-16 | File | `/admin/services/manage_service.php` | High
-17 | File | `/admin/suppliers/view_details.php` | High
-18 | File | `/admin/user/manage_user.php` | High
-19 | File | `/api/gen/clients/{language}` | High
-20 | File | `/api/geojson` | Medium
-21 | File | `/api/jmeter/download/files` | High
-22 | File | `/cgi-bin/activate.cgi` | High
-23 | File | `/cgi-bin/kerbynet` | High
-24 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-25 | File | `/cgi-bin/wapopen` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/classes/Master.php?f=delete_inquiry` | High
-28 | File | `/classes/Master.php?f=save_brand` | High
-29 | File | `/classes/Master.php?f=save_service` | High
-30 | File | `/classes/Users.php` | High
-31 | File | `/function/login.php` | High
-32 | File | `/htdocs/cgibin` | High
-33 | File | `/login/index.php` | High
-34 | ... | ... | ...
+1 | File | `$HOME/.terminfo` | High
+2 | File | `/?p=products` | Medium
+3 | File | `/action/wirelessConnect` | High
+4 | File | `/admin/configurations/userInfo` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/services/manage_service.php` | High
+7 | File | `/api/users/admin/check` | High
+8 | File | `/backup.pl` | Medium
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/category/list?limit=10&offset=0&order=desc` | High
+12 | File | `/cgi-bin` | Medium
+13 | File | `/cgi-bin/ping.cgi` | High
+14 | File | `/classes/Master.php` | High
+15 | File | `/classes/Master.php?f=delete_inquiry` | High
+16 | File | `/classes/Master.php?f=delete_item` | High
+17 | File | `/classes/Master.php?f=delete_service` | High
+18 | File | `/classes/Master.php?f=save_service` | High
+19 | File | `/classes/Users.php` | High
+20 | File | `/dosen/data` | Medium
+21 | File | `/etc/networkd-dispatcher` | High
+22 | File | `/eval/admin/manage_class.php` | High
+23 | File | `/export` | Low
+24 | File | `/file_manager/admin/save_user.php` | High
+25 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 208 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

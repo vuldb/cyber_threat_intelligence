@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,7 +73,7 @@ ID | Type | Indicator | Confidence
 16 | File | `cnd.c` | Low
 17 | ... | ... | ...
 
-There are 133 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 134 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -62,7 +62,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -75,34 +76,35 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/admin.php` | Medium
 3 | File | `/admin/book/create/` | High
-4 | File | `/Admin/login.php` | High
-5 | File | `/admin/loginc.php` | High
-6 | File | `/admin/students/manage.php` | High
-7 | File | `/auditLogAction.do` | High
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/devices/acurite.c` | High
-10 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-11 | File | `/etc/ajenti/config.yml` | High
-12 | File | `/etc/sudoers` | Medium
-13 | File | `/event/admin/?page=user/list` | High
-14 | File | `/example/editor` | High
-15 | File | `/foms/place-order.php` | High
-16 | File | `/getcfg.php` | Medium
-17 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
-18 | File | `/goform/login_process` | High
-19 | File | `/goform/rlmswitchr_process` | High
-20 | File | `/goforms/rlminfo` | High
-21 | File | `/newsDia.php` | Medium
-22 | File | `/plugin` | Low
-23 | File | `/pms/index.php` | High
-24 | File | `/rating.php` | Medium
-25 | File | `/scas/admin/` | Medium
-26 | File | `/scas/classes/Users.php?f=save_user` | High
-27 | File | `/services/prefs.php` | High
-28 | File | `/src/njs_object.c` | High
-29 | ... | ... | ...
+4 | File | `/admin/curriculum/view_curriculum.php` | High
+5 | File | `/admin/departments/view_department.php` | High
+6 | File | `/Admin/login.php` | High
+7 | File | `/admin/loginc.php` | High
+8 | File | `/admin/students/manage.php` | High
+9 | File | `/admin/user/manage_user.php` | High
+10 | File | `/auditLogAction.do` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/devices/acurite.c` | High
+13 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+14 | File | `/etc/ajenti/config.yml` | High
+15 | File | `/etc/sudoers` | Medium
+16 | File | `/event/admin/?page=user/list` | High
+17 | File | `/example/editor` | High
+18 | File | `/foms/place-order.php` | High
+19 | File | `/getcfg.php` | Medium
+20 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
+21 | File | `/goform/login_process` | High
+22 | File | `/goform/rlmswitchr_process` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/newsDia.php` | Medium
+25 | File | `/plugin` | Low
+26 | File | `/pms/index.php` | High
+27 | File | `/rating.php` | Medium
+28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+29 | File | `/scas/admin/` | Medium
+30 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

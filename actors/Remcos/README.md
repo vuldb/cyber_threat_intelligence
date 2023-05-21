@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -123,7 +123,7 @@ ID | IP address | Hostname | Campaign | Confidence
 94 | [47.254.172.117](https://vuldb.com/?ip.47.254.172.117) | - | - | High
 95 | ... | ... | ... | ...
 
-There are 375 more IOC items available. Please use our online service to access the data.
+There are 376 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -132,9 +132,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -148,35 +148,43 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.dbus-keyrings` | High
 2 | File | `/admin/delete_user.php` | High
-3 | File | `/bitrix/admin/ldap_server_edit.php` | High
-4 | File | `/blog/blog.php` | High
-5 | File | `/cimom` | Low
-6 | File | `/data/wps.setup.json` | High
-7 | File | `/etc/sudoers` | Medium
-8 | File | `/forum/away.php` | High
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/login/index.php` | High
-11 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
-12 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-13 | File | `/out.php` | Medium
-14 | File | `/rom-0` | Low
-15 | File | `/secure/QueryComponent!Default.jspa` | High
-16 | File | `/storage/poc.svg` | High
-17 | File | `/tmp/net-$DEVICE.conf` | High
-18 | File | `/usr/bin/at` | Medium
-19 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-20 | File | `/wabt/bin/poc.wasm` | High
-21 | File | `/wp-admin/admin-ajax.php` | High
-22 | File | `/wp-admin/options.php` | High
-23 | File | `/wp-json/oembed/1.0/embed?url` | High
-24 | File | `a2billing/customer/iridium_threed.php` | High
-25 | File | `Access.app/Contents/Resources/kcproxy` | High
-26 | File | `access_token.php` | High
-27 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
-28 | File | `adclick.php` | Medium
-29 | ... | ... | ...
+3 | File | `/administrator/components/table_manager/` | High
+4 | File | `/bitrix/admin/ldap_server_edit.php` | High
+5 | File | `/blog/blog.php` | High
+6 | File | `/BRS_netgear_success.html` | High
+7 | File | `/cimom` | Low
+8 | File | `/common/info.cgi` | High
+9 | File | `/data/wps.setup.json` | High
+10 | File | `/etc/sudoers` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/mcategory.php` | High
+14 | File | `/messageboard/view.php` | High
+15 | File | `/mhds/clinic/view_details.php` | High
+16 | File | `/movie.php` | Medium
+17 | File | `/officescan/console/html/cgi/fcgiOfcDDA.exe` | High
+18 | File | `/out.php` | Medium
+19 | File | `/rom-0` | Low
+20 | File | `/sbin/orthrus` | High
+21 | File | `/sbin/rtspd` | Medium
+22 | File | `/textpattern/index.php` | High
+23 | File | `/tmp` | Low
+24 | File | `/uncpath/` | Medium
+25 | File | `/usr/bin/at` | Medium
+26 | File | `/var/www/video/mp4ts` | High
+27 | File | `/wabt/bin/poc.wasm` | High
+28 | File | `/wp-admin/admin-ajax.php` | High
+29 | File | `/wp-admin/options.php` | High
+30 | File | `/wp-json/oembed/1.0/embed?url` | High
+31 | File | `123flashchat.php` | High
+32 | File | `404.php` | Low
+33 | File | `a2billing/customer/iridium_threed.php` | High
+34 | File | `Access.app/Contents/Resources/kcproxy` | High
+35 | File | `actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb` | High
+36 | File | `adclick.php` | Medium
+37 | ... | ... | ...
 
-There are 243 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -237,6 +245,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/08/threat-roundup-0805-0812.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0923-0930.html
 * https://blog.talosintelligence.com/threat-roundup-0106-0113/
+* https://blog.talosintelligence.com/threat-roundup-0331-0407-2/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://github.com/0xToxin/Malware-IOCs/blob/main/Remcos%20RAT/Remcos%20-%2024082022
 * https://github.com/executemalware/Malware-IOCs/blob/main/2021-08-17%20Remcos%20IOCs

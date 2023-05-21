@@ -86,40 +86,39 @@ ID | Type | Indicator | Confidence
 12 | File | `/download` | Medium
 13 | File | `/etc/passwd` | Medium
 14 | File | `/forum/away.php` | High
-15 | File | `/foundry/modules/news/newscolumns.php` | High
-16 | File | `/ghost/preview` | High
-17 | File | `/GponForm/device_Form?script/` | High
-18 | File | `/group1/uploa` | High
-19 | File | `/include/config.cache.php` | High
-20 | File | `/index.php/admin/tag/add.html` | High
-21 | File | `/jeecg-boot/sys/common/upload` | High
-22 | File | `/lan.asp` | Medium
-23 | File | `/LDMS/frm_splitfrm.aspx` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/NAGErrors` | Medium
-26 | File | `/out.php` | Medium
-27 | File | `/proxy` | Low
-28 | File | `/replication` | Medium
-29 | File | `/RestAPI` | Medium
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/service/upload` | High
-32 | File | `/smstest.html` | High
-33 | File | `/start-stop` | Medium
-34 | File | `/subscribe/subscribe` | High
-35 | File | `/tmp` | Low
-36 | File | `/uncpath/` | Medium
-37 | File | `/WEB-INF/web.xml` | High
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `/_error` | Low
-40 | File | `actions/authenticate.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `addlyricsform.php` | High
-43 | File | `addmerchpicform.php` | High
-44 | File | `addresses_export.php` | High
-45 | File | `admin.php` | Medium
-46 | ... | ... | ...
+15 | File | `/ghost/preview` | High
+16 | File | `/GponForm/device_Form?script/` | High
+17 | File | `/group1/uploa` | High
+18 | File | `/include/config.cache.php` | High
+19 | File | `/index.php/admin/tag/add.html` | High
+20 | File | `/jeecg-boot/sys/common/upload` | High
+21 | File | `/lan.asp` | Medium
+22 | File | `/LDMS/frm_splitfrm.aspx` | High
+23 | File | `/modules/profile/index.php` | High
+24 | File | `/NAGErrors` | Medium
+25 | File | `/out.php` | Medium
+26 | File | `/proxy` | Low
+27 | File | `/replication` | Medium
+28 | File | `/RestAPI` | Medium
+29 | File | `/secure/QueryComponent!Default.jspa` | High
+30 | File | `/service/upload` | High
+31 | File | `/start-stop` | Medium
+32 | File | `/subscribe/subscribe` | High
+33 | File | `/tmp` | Low
+34 | File | `/uncpath/` | Medium
+35 | File | `/WEB-INF/web.xml` | High
+36 | File | `/wp-admin/options.php` | High
+37 | File | `/wp-json/oembed/1.0/embed?url` | High
+38 | File | `/_error` | Low
+39 | File | `actions/authenticate.php` | High
+40 | File | `adclick.php` | Medium
+41 | File | `addlyricsform.php` | High
+42 | File | `addmerchpicform.php` | High
+43 | File | `addresses_export.php` | High
+44 | File | `admin.php` | Medium
+45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

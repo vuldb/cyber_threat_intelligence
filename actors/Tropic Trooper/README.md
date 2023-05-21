@@ -84,11 +84,11 @@ ID | Type | Indicator | Confidence
 14 | File | `/includes/rrdtool.inc.php` | High
 15 | File | `/onvif/device_service` | High
 16 | File | `/php-sms/admin/?page=user/manage_user` | High
-17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-18 | File | `/uncpath/` | Medium
+17 | File | `/spip.php` | Medium
+18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
 19 | ... | ... | ...
 
-There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

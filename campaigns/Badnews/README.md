@@ -64,7 +64,7 @@ ID | Type | Indicator | Confidence
 10 | File | `C:\MSDCSC` | Medium
 11 | ... | ... | ...
 
-There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

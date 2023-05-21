@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PYSA:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* [SV](https://vuldb.com/?country.sv)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,8 +34,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29, CWE-35 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
@@ -45,34 +49,48 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/ajax.php?action=delete_transaction` | High
-2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/admin/ajax.php?action=save_window` | High
-4 | File | `/admin/manage_user.php` | High
-5 | File | `/app/dao/CustomerDAO.php` | High
-6 | File | `/apply.cgi` | Medium
-7 | File | `/apps/app_user/sys_user.php` | High
-8 | File | `/config/api/v1/reboot` | High
-9 | File | `/data/app` | Medium
-10 | File | `/etc/shadow` | Medium
-11 | File | `/food` | Low
-12 | File | `/forum/away.php` | High
-13 | File | `/hss/classes/Users.php?f=delete` | High
-14 | File | `/index/user/user_edit.html` | High
-15 | File | `/login/index.php` | High
-16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-17 | File | `/rest/api/2/user/picker` | High
-18 | File | `/setNTP.cgi` | Medium
-19 | File | `/tpts/manage_user.php` | High
-20 | File | `/usr/etc/restore0.9` | High
-21 | File | `/VerAyari` | Medium
-22 | File | `adclick.php` | Medium
-23 | File | `AddAppNetworksFragment.java` | High
-24 | File | `add_contestant.php` | High
-25 | File | `admin/import/class-import-settings.php` | High
-26 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
+2 | File | `/admin` | Low
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/attendance_row.php` | High
+5 | File | `/admin/index3.php` | High
+6 | File | `/admin/maintenance/brand.php` | High
+7 | File | `/admin/maintenance/manage_category.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/report/index.php` | High
+10 | File | `/admin/service_requests/manage_inventory.php` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/admin_area/login_transfer.php` | High
+13 | File | `/adms/admin/?page=user/manage_user` | High
+14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+15 | File | `/ajax/update_certificate` | High
+16 | File | `/alphaware/details.php` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/cgi-bin/ping.cgi` | High
+19 | File | `/cgi-bin/touchlist_sync.cgi` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/Master.php` | High
+22 | File | `/classes/Users.php` | High
+23 | File | `/file_manager/admin/save_user.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/fudforum/adm/hlplist.php` | High
+26 | File | `/goForm/aspForm` | High
+27 | File | `/goform/formDefault` | High
+28 | File | `/goform/formSysCmd` | High
+29 | File | `/goform/fromSetWirelessRepeat` | High
+30 | File | `/index/user/user_edit.html` | High
+31 | File | `/jurusan/data` | High
+32 | File | `/kelas/data` | Medium
+33 | File | `/login/index.php` | High
+34 | File | `/mogu-picture/file/uploadPicsByUrl` | High
+35 | File | `/Moosikay/order.php` | High
+36 | File | `/pf/idprofile.ping` | High
+37 | File | `/philosophy/admin/user/controller.php?action=add` | High
+38 | File | `/php-opos/signup.php` | High
+39 | File | `/rest/api/2/user/picker` | High
+40 | ... | ... | ...
 
-There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

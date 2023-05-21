@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -99,7 +99,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -118,16 +118,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/?r=email/api/mark&op=delFromSend` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/upload/upload` | High
-5 | File | `/api/admin/system/store/order/list` | High
-6 | File | `/api/gen/clients/{language}` | High
-7 | File | `/api/geojson` | Medium
-8 | File | `/apply_noauth.cgi` | High
-9 | File | `/bin/sh` | Low
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/common/sysFile/list` | High
-12 | File | `/config/myfield/test.php` | High
-13 | File | `/context/%2e/WEB-INF/web.xml` | High
-14 | File | `/ctcprotocol/Protocol` | High
+5 | File | `/analysisProject/pagingQueryData` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/gen/clients/{language}` | High
+8 | File | `/api/geojson` | Medium
+9 | File | `/apply_noauth.cgi` | High
+10 | File | `/bin/sh` | Low
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/common/sysFile/list` | High
+13 | File | `/config/myfield/test.php` | High
+14 | File | `/context/%2e/WEB-INF/web.xml` | High
 15 | File | `/debug/pprof` | Medium
 16 | File | `/Default/Bd` | Medium
 17 | File | `/ebics-server/ebics.aspx` | High
@@ -141,19 +141,19 @@ ID | Type | Indicator | Confidence
 25 | File | `/HNAP1/SetClientInfo` | High
 26 | File | `/home/www/cgi-bin/login.cgi` | High
 27 | File | `/js/player/dmplayer/dmku/index.php` | High
-28 | File | `/menu.html` | Medium
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/multi-vendor-shopping-script/product-list.php` | High
-31 | File | `/net-banking/customer_transactions.php` | High
-32 | File | `/obs/book.php` | High
-33 | File | `/orrs/admin/?page=user/manage_user` | High
-34 | File | `/ossn/administrator/com_installer` | High
-35 | File | `/pms/update_user.php?user_id=1` | High
-36 | File | `/requests.php` | High
-37 | File | `/resources//../` | High
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/multi-vendor-shopping-script/product-list.php` | High
+30 | File | `/net-banking/customer_transactions.php` | High
+31 | File | `/obs/book.php` | High
+32 | File | `/orrs/admin/?page=user/manage_user` | High
+33 | File | `/ossn/administrator/com_installer` | High
+34 | File | `/pms/update_user.php?user_id=1` | High
+35 | File | `/requests.php` | High
+36 | File | `/resources//../` | High
+37 | File | `/secure/QueryComponent!Default.jspa` | High
 38 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

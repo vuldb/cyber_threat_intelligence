@@ -72,13 +72,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -124,26 +123,27 @@ ID | Type | Indicator | Confidence
 34 | File | `/etc/ldap.conf` | High
 35 | File | `/etc/shadow` | Medium
 36 | File | `/filemanager/upload/drop` | High
-37 | File | `/goform/addUserName` | High
-38 | File | `/goform/aspForm` | High
-39 | File | `/goform/delAd` | High
-40 | File | `/goform/wifiSSIDset` | High
-41 | File | `/gpac/src/bifs/unquantize.c` | High
-42 | File | `/h/calendar` | Medium
-43 | File | `/h/compose` | Medium
-44 | File | `/h/search?action=voicemail&action=listen` | High
-45 | File | `/inc/topBarNav.php` | High
-46 | File | `/index.asp` | Medium
-47 | File | `/index.php` | Medium
-48 | File | `/jfinal_cms/system/role/list` | High
-49 | File | `/librarian/bookdetails.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/addUserName` | High
+39 | File | `/goform/aspForm` | High
+40 | File | `/goform/delAd` | High
+41 | File | `/goform/wifiSSIDset` | High
+42 | File | `/gpac/src/bifs/unquantize.c` | High
+43 | File | `/h/calendar` | Medium
+44 | File | `/h/compose` | Medium
+45 | File | `/h/search?action=voicemail&action=listen` | High
+46 | File | `/inc/topBarNav.php` | High
+47 | File | `/index.asp` | Medium
+48 | File | `/index.php` | Medium
+49 | File | `/jfinal_cms/system/role/list` | High
 50 | File | `/loginVaLidation.php` | High
 51 | File | `/manage-apartment.php` | High
 52 | File | `/manager/index.php` | High
 53 | File | `/mkshop/Men/profile.php` | High
-54 | ... | ... | ...
+54 | File | `/Moosikay/order.php` | High
+55 | ... | ... | ...
 
-There are 472 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

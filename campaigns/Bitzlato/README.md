@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -129,46 +129,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/app/options.py` | High
-13 | File | `/attachments` | Medium
-14 | File | `/boat/login.php` | High
-15 | File | `/bsms_ci/index.php/book` | High
-16 | File | `/cgi-bin/luci/api/wireless` | High
-17 | File | `/cgi-bin/wlogin.cgi` | High
-18 | File | `/context/%2e/WEB-INF/web.xml` | High
-19 | File | `/dashboard/reports/logs/view` | High
-20 | File | `/dashboard/updatelogo.php` | High
-21 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/etc/hosts` | Medium
-24 | File | `/etc/openshift/server_priv.pem` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/index.php` | Medium
-29 | File | `/manage-apartment.php` | High
-30 | File | `/medicines/profile.php` | High
-31 | File | `/mkshop/Men/profile.php` | High
-32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-33 | File | `/Noxen-master/users.php` | High
-34 | File | `/pages/apply_vacancy.php` | High
-35 | File | `/proc/<PID>/mem` | High
-36 | File | `/proxy` | Low
-37 | File | `/reservation/add_message.php` | High
-38 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/app/options.py` | High
+14 | File | `/attachments` | Medium
+15 | File | `/boat/login.php` | High
+16 | File | `/bsms_ci/index.php/book` | High
+17 | File | `/cgi-bin` | Medium
+18 | File | `/cgi-bin/luci/api/wireless` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/context/%2e/WEB-INF/web.xml` | High
+21 | File | `/dashboard/reports/logs/view` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/etc/hosts` | Medium
+26 | File | `/etc/openshift/server_priv.pem` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/index.php` | Medium
+31 | File | `/manage-apartment.php` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/Noxen-master/users.php` | High
+36 | File | `/pages/apply_vacancy.php` | High
+37 | File | `/proc/<PID>/mem` | High
+38 | File | `/proxy` | Low
+39 | ... | ... | ...
 
-There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -147,12 +147,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -160,27 +162,29 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/bookings/manage_booking.php` | High
-2 | File | `/admin/bookings/view_booking.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/curriculum/view_curriculum.php` | High
-5 | File | `/admin/departments/view_department.php` | High
-6 | File | `/admin/index.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/manage_academic.php` | High
-9 | File | `/admin/services/manage_service.php` | High
-10 | File | `/admin/services/view_service.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin/user/uploadImg` | High
-13 | File | `/boafrm/formFilter` | High
-14 | File | `/classes/Master.php?f=delete_inquiry` | High
-15 | File | `/classes/Master.php?f=save_course` | High
+1 | File | `//proc/kcore` | Medium
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/admin/assign/assign.php` | High
+4 | File | `/admin/index.php` | High
+5 | File | `/admin/inquiries/view_inquiry.php` | High
+6 | File | `/admin/services/manage_service.php` | High
+7 | File | `/admin/services/view_service.php` | High
+8 | File | `/admin/user/uploadImg` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/boafrm/formFilter` | High
+11 | File | `/cgi-bin/ping.cgi` | High
+12 | File | `/classes/Master.php` | High
+13 | File | `/classes/Master.php?f=delete_inquiry` | High
+14 | File | `/classes/Master.php?f=delete_item` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
 16 | File | `/classes/Master.php?f=save_service` | High
 17 | File | `/classes/Users.php` | High
-18 | File | `/Content/Template/root/reverse-shell.aspx` | High
-19 | ... | ... | ...
+18 | File | `/config/getuser` | High
+19 | File | `/dosen/data` | Medium
+20 | File | `/etc/networkd-dispatcher` | High
+21 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 174 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

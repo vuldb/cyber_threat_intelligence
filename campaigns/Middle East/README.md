@@ -66,14 +66,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -84,31 +84,31 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/upload/upload` | High
 3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/cgi-bin/DownloadFlash` | High
-5 | File | `/cgi-bin/wlogin.cgi` | High
-6 | File | `/config/getuser` | High
-7 | File | `/config/myfield/test.php` | High
-8 | File | `/debug/pprof` | Medium
-9 | File | `/ecshop/admin/template.php` | High
-10 | File | `/example/editor` | High
-11 | File | `/file/upload/1` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/HNAP1` | Low
-15 | File | `/home/www/cgi-bin/login.cgi` | High
-16 | File | `/index` | Low
-17 | File | `/iu-application/controllers/administration/auth.php` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/net-banking/customer_transactions.php` | High
-21 | File | `/obs/book.php` | High
-22 | File | `/ossn/administrator/com_installer` | High
-23 | File | `/pms/update_user.php?user_id=1` | High
-24 | File | `/requests.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/sre/params.php` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/xbindkeysrc-tmp` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/config/getuser` | High
+6 | File | `/config/myfield/test.php` | High
+7 | File | `/debug/pprof` | Medium
+8 | File | `/ecshop/admin/template.php` | High
+9 | File | `/example/editor` | High
+10 | File | `/file/upload/1` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/forum/PostPrivateMessage` | High
+13 | File | `/HNAP1` | Low
+14 | File | `/home/www/cgi-bin/login.cgi` | High
+15 | File | `/index` | Low
+16 | File | `/iu-application/controllers/administration/auth.php` | High
+17 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/net-banking/customer_transactions.php` | High
+20 | File | `/obs/book.php` | High
+21 | File | `/ossn/administrator/com_installer` | High
+22 | File | `/pms/update_user.php?user_id=1` | High
+23 | File | `/requests.php` | High
+24 | File | `/spip.php` | Medium
+25 | File | `/sre/params.php` | High
+26 | File | `/tmp` | Low
+27 | File | `/tmp/xbindkeysrc-tmp` | High
+28 | File | `/uncpath/` | Medium
 29 | File | `/user/upload/upload` | High
 30 | File | `/Users` | Low
 31 | File | `/var/spool/hylafax` | High
@@ -125,8 +125,7 @@ ID | Type | Indicator | Confidence
 42 | File | `Advanced_ASUSDDNS_Content.asp` | High
 43 | File | `af_netlink.c` | Medium
 44 | File | `album_portal.php` | High
-45 | File | `api_jsonrpc.php` | High
-46 | ... | ... | ...
+45 | ... | ... | ...
 
 There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 37 more country items available. Please use our online service to access the data.
+There are 36 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -44,7 +44,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,55 +70,56 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/index.PHP` | High
 9 | File | `/admin/login.php` | High
 10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/students/manage.php` | High
-13 | File | `/admin/students/view_student.php` | High
-14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-15 | File | `/api/user/upsert/<uuid>` | High
-16 | File | `/appliance/users?action=edit` | High
-17 | File | `/backup.pl` | Medium
-18 | File | `/bits/stl_vector.h` | High
-19 | File | `/bsms_ci/index.php` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/dashboard/add-portfolio.php` | High
-22 | File | `/dashboard/updatelogo.php` | High
-23 | File | `/edoc/doctor/patient.php` | High
-24 | File | `/etc/gsissh/sshd_config` | High
-25 | File | `/etc/ldap.conf` | High
-26 | File | `/etc/shadow` | Medium
-27 | File | `/face-recognition-php/facepay-master/camera.php` | High
-28 | File | `/foms/place-order.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/h/calendar` | Medium
-32 | File | `/h/compose` | Medium
-33 | File | `/h/search?action=voicemail&action=listen` | High
-34 | File | `/hrm/employeeview.php` | High
-35 | File | `/index.php` | Medium
-36 | File | `/loginVaLidation.php` | High
-37 | File | `/manage-apartment.php` | High
-38 | File | `/manager/index.php` | High
-39 | File | `/mcategory.php` | High
-40 | File | `/mkshop/Men/profile.php` | High
-41 | File | `/modules/projects/vw_files.php` | High
-42 | File | `/Noxen-master/users.php` | High
-43 | File | `/opac/Actions.php?a=login` | High
-44 | File | `/pages/animals.php` | High
-45 | File | `/pet_shop/admin/orders/update_status.php` | High
-46 | File | `/php-scrm/login.php` | High
-47 | File | `/php-sms/classes/Master.php` | High
-48 | File | `/php-sms/classes/SystemSettings.php` | High
-49 | File | `/php_action/createOrder.php` | High
-50 | File | `/php_action/createUser.php` | High
-51 | File | `/php_action/editProductImage.php` | High
-52 | File | `/reservation/add_message.php` | High
-53 | File | `/ResiotQueryDBActive` | High
-54 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-55 | File | `/royal_event/companyprofile.php` | High
-56 | File | `/secure/QueryComponent!Default.jspa` | High
-57 | ... | ... | ...
+11 | File | `/admin/manage_academic.php` | High
+12 | File | `/admin/products/manage_product.php` | High
+13 | File | `/admin/students/manage.php` | High
+14 | File | `/admin/students/view_student.php` | High
+15 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+16 | File | `/alerts/alertConfigField.php` | High
+17 | File | `/api/user/upsert/<uuid>` | High
+18 | File | `/appliance/users?action=edit` | High
+19 | File | `/backup.pl` | Medium
+20 | File | `/bits/stl_vector.h` | High
+21 | File | `/bsms_ci/index.php` | High
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/dashboard/add-portfolio.php` | High
+24 | File | `/dashboard/updatelogo.php` | High
+25 | File | `/edoc/doctor/patient.php` | High
+26 | File | `/etc/gsissh/sshd_config` | High
+27 | File | `/etc/ldap.conf` | High
+28 | File | `/etc/shadow` | Medium
+29 | File | `/face-recognition-php/facepay-master/camera.php` | High
+30 | File | `/foms/place-order.php` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/h/calendar` | Medium
+34 | File | `/h/compose` | Medium
+35 | File | `/h/search?action=voicemail&action=listen` | High
+36 | File | `/hrm/employeeview.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/loginVaLidation.php` | High
+39 | File | `/manage-apartment.php` | High
+40 | File | `/manager/index.php` | High
+41 | File | `/mcategory.php` | High
+42 | File | `/mkshop/Men/profile.php` | High
+43 | File | `/modules/projects/vw_files.php` | High
+44 | File | `/Noxen-master/users.php` | High
+45 | File | `/opac/Actions.php?a=login` | High
+46 | File | `/pages/animals.php` | High
+47 | File | `/pet_shop/admin/orders/update_status.php` | High
+48 | File | `/php-scrm/login.php` | High
+49 | File | `/php-sms/classes/Master.php` | High
+50 | File | `/php-sms/classes/SystemSettings.php` | High
+51 | File | `/php_action/createOrder.php` | High
+52 | File | `/php_action/createUser.php` | High
+53 | File | `/php_action/editProductImage.php` | High
+54 | File | `/reservation/add_message.php` | High
+55 | File | `/ResiotQueryDBActive` | High
+56 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+57 | File | `/royal_event/companyprofile.php` | High
+58 | ... | ... | ...
 
-There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

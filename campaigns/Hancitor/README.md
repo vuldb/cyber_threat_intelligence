@@ -89,30 +89,31 @@ ID | Type | Indicator | Confidence
 8 | File | `/h/calendar` | Medium
 9 | File | `/hrm/employeeview.php` | High
 10 | File | `/index.php` | Medium
-11 | File | `/librarian/bookdetails.php` | High
-12 | File | `/lists/index.php` | High
-13 | File | `/members/view_member.php` | High
-14 | File | `/messageboard/view.php` | High
-15 | File | `/nova/bin/console` | High
-16 | File | `/nova/bin/detnet` | High
-17 | File | `/one_church/userregister.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/owa/auth/logon.aspx` | High
-20 | File | `/rom-0` | Low
-21 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-24 | File | `/textpattern/index.php` | High
-25 | File | `/trx_addons/v2/get/sc_layout` | High
-26 | File | `/v2/quantum/save-data-upload-big-file` | High
-27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-28 | File | `/wp-json` | Medium
-29 | File | `/wp-json/oembed/1.0/embed?url` | High
-30 | File | `4.edu.php` | Medium
-31 | File | `adclick.php` | Medium
-32 | ... | ... | ...
+11 | File | `/lan.asp` | Medium
+12 | File | `/librarian/bookdetails.php` | High
+13 | File | `/lists/index.php` | High
+14 | File | `/members/view_member.php` | High
+15 | File | `/messageboard/view.php` | High
+16 | File | `/nova/bin/console` | High
+17 | File | `/nova/bin/detnet` | High
+18 | File | `/one_church/userregister.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/rom-0` | Low
+22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+23 | File | `/SASWebReportStudio/logonAndRender.do` | High
+24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+25 | File | `/textpattern/index.php` | High
+26 | File | `/trx_addons/v2/get/sc_layout` | High
+27 | File | `/v2/quantum/save-data-upload-big-file` | High
+28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+29 | File | `/wp-json` | Medium
+30 | File | `/wp-json/oembed/1.0/embed?url` | High
+31 | File | `4.edu.php` | Medium
+32 | File | `adclick.php` | Medium
+33 | ... | ... | ...
 
-There are 275 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

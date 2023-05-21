@@ -50,29 +50,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php/news/admin/lists/zhuan` | High
-2 | File | `/admin/edit.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/profile/save_profile` | High
-5 | File | `/admin/reports.php` | High
-6 | File | `/api/v1/chat.getThreadsList` | High
-7 | File | `/bin/sh` | Low
-8 | File | `/cgi-bin/luci/api/diagnose` | High
-9 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-10 | File | `/coders/palm.c` | High
-11 | File | `/etc/groups` | Medium
-12 | File | `/formSetPortTr` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/goform/wlanPrimaryNetwork` | High
-15 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-16 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-17 | File | `/nova/bin/user` | High
-18 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-19 | File | `/plesk-site-preview/` | High
-20 | File | `/question/ask` | High
-21 | File | `/rest/api/2/search` | High
-22 | ... | ... | ...
+2 | File | `/admin/bookings/view_details.php` | High
+3 | File | `/admin/edit.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/profile/save_profile` | High
+6 | File | `/admin/reports.php` | High
+7 | File | `/api/v1/chat.getThreadsList` | High
+8 | File | `/bin/sh` | Low
+9 | File | `/cgi-bin/luci/api/diagnose` | High
+10 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+11 | File | `/coders/palm.c` | High
+12 | File | `/EditEventTypes.php` | High
+13 | File | `/etc/groups` | Medium
+14 | File | `/formSetPortTr` | High
+15 | File | `/forum/away.php` | High
+16 | File | `/goform/wlanPrimaryNetwork` | High
+17 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+18 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+19 | File | `/nova/bin/user` | High
+20 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+21 | File | `/plesk-site-preview/` | High
+22 | File | `/question/ask` | High
+23 | ... | ... | ...
 
-There are 182 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

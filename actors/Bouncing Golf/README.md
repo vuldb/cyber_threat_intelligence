@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,33 +58,35 @@ ID | Type | Indicator | Confidence
 8 | File | `/forum/away.php` | High
 9 | File | `/get_getnetworkconf.cgi` | High
 10 | File | `/horde/util/go.php` | High
-11 | File | `/mobile_seal/get_seal.php` | High
-12 | File | `/new` | Low
-13 | File | `/nova/bin/detnet` | High
-14 | File | `/show_news.php` | High
-15 | File | `/tmp` | Low
-16 | File | `/uncpath/` | Medium
-17 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
-18 | File | `/vicidial/AST_agent_time_sheet.php` | High
-19 | File | `/ViewUserHover.jspa` | High
-20 | File | `AccountStatus.jsp` | High
-21 | File | `adclick.php` | Medium
-22 | File | `add.php` | Low
-23 | File | `admin.a6mambocredits.php` | High
-24 | File | `admin.color.php` | High
-25 | File | `admin.cropcanvas.php` | High
-26 | File | `admin.joomlaradiov5.php` | High
-27 | File | `Admin.PHP` | Medium
-28 | File | `admin/systemOutOfBand.do` | High
-29 | File | `allopass-error.php` | High
-30 | File | `app/application.cpp` | High
-31 | File | `ashnews.php/ashheadlines.php` | High
-32 | File | `auth-gss2.c` | Medium
-33 | File | `authent.php4` | Medium
-34 | File | `base_maintenance.php` | High
-35 | ... | ... | ...
+11 | File | `/messageboard/view.php` | High
+12 | File | `/mobile_seal/get_seal.php` | High
+13 | File | `/new` | Low
+14 | File | `/nova/bin/detnet` | High
+15 | File | `/show_news.php` | High
+16 | File | `/tmp` | Low
+17 | File | `/uncpath/` | Medium
+18 | File | `/userRpm/MediaServerFoldersCfgRpm.htm` | High
+19 | File | `/vicidial/AST_agent_time_sheet.php` | High
+20 | File | `/ViewUserHover.jspa` | High
+21 | File | `account.asp` | Medium
+22 | File | `AccountStatus.jsp` | High
+23 | File | `adclick.php` | Medium
+24 | File | `add.php` | Low
+25 | File | `admin.a6mambocredits.php` | High
+26 | File | `admin.color.php` | High
+27 | File | `admin.cropcanvas.php` | High
+28 | File | `admin.joomlaradiov5.php` | High
+29 | File | `Admin.PHP` | Medium
+30 | File | `admin/systemOutOfBand.do` | High
+31 | File | `adminAvatars.php` | High
+32 | File | `adminBackupdatabase.php` | High
+33 | File | `adminForums.php` | High
+34 | File | `allopass-error.php` | High
+35 | File | `app/application.cpp` | High
+36 | File | `ashnews.php/ashheadlines.php` | High
+37 | ... | ... | ...
 
-There are 300 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

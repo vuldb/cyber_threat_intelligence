@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Palau Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.12.70.186](https://vuldb.com/?ip.45.12.70.186) | rounded-tray.alltieinc.com | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,14 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-35 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,72 +47,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.php.gif` | Medium
-2 | File | `/admin/addemployee.php` | High
-3 | File | `/Admin/login.php` | High
-4 | File | `/admin/submit-articles` | High
-5 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-6 | File | `/cgi-bin/system_mgr.cgi` | High
-7 | File | `/coreframe/app/order/admin/index.php` | High
-8 | File | `/Default/Bd` | Medium
-9 | File | `/employeeview.php` | High
-10 | File | `/etc/sudoers` | Medium
-11 | File | `/filemanager/php/connector.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/forum/PostPrivateMessage` | High
-14 | File | `/hrm/controller/employee.php` | High
-15 | File | `/hrm/employeeadd.php` | High
-16 | File | `/hrm/employeeview.php` | High
-17 | File | `/inc/extensions.php` | High
-18 | File | `/index.php` | Medium
-19 | File | `/Items/*/RemoteImages/Download` | High
-20 | File | `/KeepAlive.jsp` | High
-21 | File | `/member/index/login.html` | High
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/modules/profile/index.php` | High
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/phppath/php` | Medium
-26 | File | `/php_action/editProductImage.php` | High
-27 | File | `/preauth` | Medium
-28 | File | `/product/savenewproduct.php?flag=1` | High
-29 | File | `/products/details.asp` | High
-30 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
-31 | File | `/secure/admin/RestoreDefaults.jspa` | High
-32 | File | `/secure/EditSubscription.jspa` | High
-33 | File | `/secure/QueryComponent!Default.jspa` | High
-34 | File | `/services/Card/findUser` | High
-35 | File | `/services/details.asp` | High
-36 | File | `/spip.php` | Medium
-37 | File | `/uncpath/` | Medium
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/var/log/qualys/qualys-cloud-agent-scan.log` | High
-40 | File | `/view-property.php` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-43 | File | `4.edu.php` | Medium
-44 | File | `action.php` | Medium
-45 | File | `adclick.php` | Medium
-46 | File | `add.exe` | Low
-47 | File | `admin.php` | Medium
-48 | File | `admin/adminlien.php3` | High
-49 | File | `admin/conf_users_edit.php` | High
-50 | File | `admin/index.php` | High
-51 | File | `admin/login.php` | High
-52 | File | `admin/panels/uploader/admin.uploader.php` | High
-53 | File | `admin/y_admin.asp` | High
-54 | File | `adminer.php` | Medium
-55 | File | `admin_class.php` | High
-56 | File | `admin_ok.asp` | Medium
-57 | File | `admin_view_image.php` | High
-58 | ... | ... | ...
+1 | File | `/admin/` | Low
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/APR/signup.php` | High
+4 | File | `/cgi-bin/wlogin.cgi` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/mims/login.php` | High
+7 | File | `/php-scrm/login.php` | High
+8 | File | `/proxy` | Low
+9 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+10 | File | `/send_order.cgi?parameter=access_detect` | High
+11 | File | `/textpattern/index.php` | High
+12 | File | `/tmp` | Low
+13 | File | `/wp-admin/admin-ajax.php` | High
+14 | File | `account-signup.php` | High
+15 | File | `account/signup.php` | High
+16 | File | `addentry.php` | Medium
+17 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+18 | File | `admin.jcomments.php` | High
+19 | File | `admin.php` | Medium
+20 | File | `admin/admin_editor.php` | High
+21 | File | `admin/conf_users_edit.php` | High
+22 | File | `admin/data.php` | High
+23 | File | `admin/edit_category.php` | High
+24 | File | `admin/operations/currency.php` | High
+25 | File | `album_portal.php` | High
+26 | File | `awstats.pl` | Medium
+27 | File | `blocks/block-Old_Articles.php` | High
+28 | File | `bp_ncom.php` | Medium
+29 | File | `buy.php` | Low
+30 | File | `changePasswordForEmployee.php` | High
+31 | ... | ... | ...
 
-There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pw.netset
 
 ## Literature
 

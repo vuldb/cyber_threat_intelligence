@@ -35,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -53,24 +53,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
 3 | File | `/forum/away.php` | High
 4 | File | `/getcfg.php` | Medium
-5 | File | `/inc/lists/csvexport.php` | High
-6 | File | `/server-status` | High
-7 | File | `/sgmi/` | Low
-8 | File | `/system/user/resetPwd` | High
-9 | File | `/tos/index.php?editor/fileGet` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/user/updatePwd` | High
-12 | File | `/var/log/nginx` | High
-13 | File | `addentry.php` | Medium
-14 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
-15 | File | `admin/plib/api-rpc/Agent.php` | High
-16 | File | `auth-gss2.c` | Medium
-17 | File | `bcbadmSettings.jsp` | High
-18 | File | `books.php` | Medium
-19 | File | `cgi.c` | Low
+5 | File | `/group1/uploa` | High
+6 | File | `/inc/lists/csvexport.php` | High
+7 | File | `/server-status` | High
+8 | File | `/sgmi/` | Low
+9 | File | `/system/user/resetPwd` | High
+10 | File | `/tos/index.php?editor/fileGet` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/user/updatePwd` | High
+13 | File | `/var/log/nginx` | High
+14 | File | `addentry.php` | Medium
+15 | File | `admin-ajax.php?action=get_wdtable order[0][dir]` | High
+16 | File | `admin/plib/api-rpc/Agent.php` | High
+17 | File | `auth-gss2.c` | Medium
+18 | File | `bcbadmSettings.jsp` | High
+19 | File | `books.php` | Medium
 20 | ... | ... | ...
 
-There are 167 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

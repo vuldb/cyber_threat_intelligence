@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedLine:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [LA](https://vuldb.com/?country.la)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 20 more country items available. Please use our online service to access the data.
@@ -91,9 +91,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -112,44 +113,47 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/dl_sendmail.php` | High
 10 | File | `/admin/index.html` | High
 11 | File | `/admin/settings/save.php` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/apply.cgi` | Medium
-14 | File | `/bin/login` | Medium
-15 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-16 | File | `/category.php` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/bin/login` | Medium
+16 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
 17 | File | `/cgi-bin/delete_CA` | High
 18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-20 | File | `/download` | Medium
-21 | File | `/etc/gsissh/sshd_config` | High
-22 | File | `/get_getnetworkconf.cgi` | High
-23 | File | `/goform/addUserName` | High
-24 | File | `/goform/delAd` | High
-25 | File | `/goform/wifiSSIDset` | High
-26 | File | `/gpac/src/bifs/unquantize.c` | High
-27 | File | `/GponForm/device_Form?script/` | High
-28 | File | `/home` | Low
-29 | File | `/includes/rrdtool.inc.php` | High
-30 | File | `/index.asp` | Medium
-31 | File | `/index.php` | Medium
-32 | File | `/jfinal_cms/system/role/list` | High
-33 | File | `/Main_AdmStatus_Content.asp` | High
-34 | File | `/members/view_member.php` | High
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/NAGErrors` | Medium
-37 | File | `/owa/auth/logon.aspx` | High
-38 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-39 | File | `/plain` | Low
-40 | File | `/public` | Low
-41 | File | `/secure/QueryComponent!Default.jspa` | High
-42 | File | `/spip.php` | Medium
-43 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-44 | File | `/tmp` | Low
-45 | File | `/uncpath/` | Medium
-46 | File | `/updown/upload.cgi` | High
-47 | ... | ... | ...
+19 | File | `/College/admin/teacher.php` | High
+20 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+22 | File | `/download` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/addUserName` | High
+25 | File | `/goform/aspForm` | High
+26 | File | `/goform/delAd` | High
+27 | File | `/goform/wifiSSIDset` | High
+28 | File | `/gpac/src/bifs/unquantize.c` | High
+29 | File | `/GponForm/device_Form?script/` | High
+30 | File | `/inc/topBarNav.php` | High
+31 | File | `/includes/rrdtool.inc.php` | High
+32 | File | `/index.asp` | Medium
+33 | File | `/index.php` | Medium
+34 | File | `/jfinal_cms/system/role/list` | High
+35 | File | `/Main_AdmStatus_Content.asp` | High
+36 | File | `/members/view_member.php` | High
+37 | File | `/Moosikay/order.php` | High
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+40 | File | `/plain` | Low
+41 | File | `/public` | Low
+42 | File | `/secure/QueryComponent!Default.jspa` | High
+43 | File | `/spip.php` | Medium
+44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+45 | File | `/tmp` | Low
+46 | File | `/uncpath/` | Medium
+47 | File | `/updown/upload.cgi` | High
+48 | File | `/webman/info.cgi` | High
+49 | File | `/zm/index.php` | High
+50 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

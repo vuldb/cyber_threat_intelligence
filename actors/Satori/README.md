@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,18 +53,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/anony/mjpg.cgi` | High
-2 | File | `/plain` | Low
-3 | File | `/public/login.htm` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/wbms/classes/Master.php?f=delete_client` | High
-6 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-7 | File | `admin_add.php` | High
-8 | File | `awstats.pl` | Medium
-9 | File | `books.php` | Medium
-10 | ... | ... | ...
+1 | File | `/admin/user/manage_user.php` | High
+2 | File | `/anony/mjpg.cgi` | High
+3 | File | `/plain` | Low
+4 | File | `/public/login.htm` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/wbms/classes/Master.php?f=delete_client` | High
+7 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+8 | File | `admin_add.php` | High
+9 | File | `awstats.pl` | Medium
+10 | File | `books.php` | Medium
+11 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 79 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

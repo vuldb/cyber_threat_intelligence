@@ -98,17 +98,17 @@ ID | Type | Indicator | Confidence
 35 | File | `/tmp` | Low
 36 | File | `/uncpath/` | Medium
 37 | File | `/WEB-INF/web.xml` | High
-38 | File | `/wp-json/oembed/1.0/embed?url` | High
-39 | File | `/_error` | Low
-40 | File | `actions/authenticate.php` | High
-41 | File | `adclick.php` | Medium
-42 | File | `addlyricsform.php` | High
-43 | File | `addmerchpicform.php` | High
-44 | File | `addresses_export.php` | High
-45 | File | `admin.php` | Medium
+38 | File | `/wp-admin/options.php` | High
+39 | File | `/wp-json/oembed/1.0/embed?url` | High
+40 | File | `/_error` | Low
+41 | File | `actions/authenticate.php` | High
+42 | File | `adclick.php` | Medium
+43 | File | `addlyricsform.php` | High
+44 | File | `addmerchpicform.php` | High
+45 | File | `addresses_export.php` | High
 46 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 395 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

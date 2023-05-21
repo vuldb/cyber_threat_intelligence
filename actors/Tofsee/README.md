@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -179,7 +179,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/about.php` | Medium
+2 | File | `/?p=products` | Medium
 3 | File | `/admin.php/accessory/filesdel.html` | High
 4 | File | `/admin.php/Admin/adminadd.html` | High
 5 | File | `/admin/?page=user/manage` | High
@@ -199,7 +199,7 @@ ID | Type | Indicator | Confidence
 19 | File | `/attachments` | Medium
 20 | File | `/boat/login.php` | High
 21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin` | Medium
 23 | File | `/cgi-bin/wlogin.cgi` | High
 24 | File | `/College/admin/teacher.php` | High
 25 | File | `/context/%2e/WEB-INF/web.xml` | High
@@ -212,19 +212,19 @@ ID | Type | Indicator | Confidence
 32 | File | `/goform/addUserName` | High
 33 | File | `/goform/aspForm` | High
 34 | File | `/goform/delAd` | High
-35 | File | `/goform/setmac` | High
-36 | File | `/goform/SysToolChangePwd` | High
-37 | File | `/goform/wifiSSIDset` | High
-38 | File | `/goform/wizard_end` | High
-39 | File | `/gpac/src/bifs/unquantize.c` | High
-40 | File | `/inc/topBarNav.php` | High
-41 | File | `/index.asp` | Medium
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-44 | File | `/Moosikay/order.php` | High
+35 | File | `/goform/SysToolChangePwd` | High
+36 | File | `/goform/wifiSSIDset` | High
+37 | File | `/goform/wizard_end` | High
+38 | File | `/gpac/src/bifs/unquantize.c` | High
+39 | File | `/inc/topBarNav.php` | High
+40 | File | `/index.asp` | Medium
+41 | File | `/medicines/profile.php` | High
+42 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+43 | File | `/Moosikay/order.php` | High
+44 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 45 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

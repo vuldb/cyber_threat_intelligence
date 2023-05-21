@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [SE](https://vuldb.com/?country.se)
 * ...
 
-There are 31 more country items available. Please use our online service to access the data.
+There are 32 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -80,7 +80,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,36 +101,36 @@ ID | Type | Indicator | Confidence
 11 | File | `/config/getuser` | High
 12 | File | `/filemanager/ajax_calls.php` | High
 13 | File | `/forum/away.php` | High
-14 | File | `/login/index.php` | High
-15 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-16 | File | `/owa/auth/logon.aspx` | High
-17 | File | `/php-sms/classes/SystemSettings.php` | High
-18 | File | `/phppath/php` | Medium
-19 | File | `/proc/self/exe` | High
-20 | File | `/public/login.htm` | High
-21 | File | `/server-info` | Medium
-22 | File | `/server-status` | High
-23 | File | `/shell` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `/user/jobmanage.php` | High
-26 | File | `/user/zs_elite.php` | High
-27 | File | `/usr/bin/enq` | Medium
-28 | File | `/web/jquery/uploader/multi_uploadify.php` | High
-29 | File | `/wp-admin/admin-ajax.php` | High
-30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-31 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-32 | File | `/zhndnsdisplay.cmd` | High
-33 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-34 | File | `about.php` | Medium
-35 | File | `acl.c` | Low
-36 | File | `adclick.php` | Medium
-37 | File | `add_comment.php` | High
-38 | File | `add_vhost.php` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/conf_users_edit.php` | High
+14 | File | `/items/manage_item.php` | High
+15 | File | `/login/index.php` | High
+16 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+17 | File | `/owa/auth/logon.aspx` | High
+18 | File | `/php-sms/classes/SystemSettings.php` | High
+19 | File | `/phppath/php` | Medium
+20 | File | `/proc/self/exe` | High
+21 | File | `/public/login.htm` | High
+22 | File | `/server-info` | Medium
+23 | File | `/server-status` | High
+24 | File | `/shell` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/user/jobmanage.php` | High
+27 | File | `/user/zs_elite.php` | High
+28 | File | `/usr/bin/enq` | Medium
+29 | File | `/web/jquery/uploader/multi_uploadify.php` | High
+30 | File | `/wp-admin/admin-ajax.php` | High
+31 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+33 | File | `/zhndnsdisplay.cmd` | High
+34 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+35 | File | `about.php` | Medium
+36 | File | `acl.c` | Low
+37 | File | `adclick.php` | Medium
+38 | File | `add_comment.php` | High
+39 | File | `add_vhost.php` | High
+40 | File | `admin.php` | Medium
 41 | ... | ... | ...
 
-There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

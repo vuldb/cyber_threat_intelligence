@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -83,25 +83,25 @@ ID | Type | Indicator | Confidence
 20 | File | `/release-x64/otfccdump` | High
 21 | File | `/rom-0` | Low
 22 | File | `/sbin/conf.d/SuSEconfig.javarunt` | High
-23 | File | `/tmp` | Low
-24 | File | `/uncpath/` | Medium
-25 | File | `/user-utils/users/md5.json` | High
-26 | File | `/usr/lib/utmp_update` | High
-27 | File | `/usr/local` | Medium
-28 | File | `/wp-admin` | Medium
-29 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-30 | File | `2020\Messages\SDNotify.exe` | High
-31 | File | `adclick.php` | Medium
-32 | File | `admin/plugin-index.php` | High
-33 | File | `administration` | High
-34 | File | `administrative` | High
-35 | File | `ag_server_service.exe` | High
-36 | File | `Alias.asmx` | Medium
-37 | File | `aolfix.exe` | Medium
-38 | File | `app/models/user.rb` | High
+23 | File | `/see_more_details.php` | High
+24 | File | `/tmp` | Low
+25 | File | `/uncpath/` | Medium
+26 | File | `/user-utils/users/md5.json` | High
+27 | File | `/usr/lib/utmp_update` | High
+28 | File | `/usr/local` | Medium
+29 | File | `/wp-admin` | Medium
+30 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+31 | File | `2020\Messages\SDNotify.exe` | High
+32 | File | `adclick.php` | Medium
+33 | File | `admin/plugin-index.php` | High
+34 | File | `administration` | High
+35 | File | `administrative` | High
+36 | File | `ag_server_service.exe` | High
+37 | File | `Alias.asmx` | Medium
+38 | File | `aolfix.exe` | Medium
 39 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

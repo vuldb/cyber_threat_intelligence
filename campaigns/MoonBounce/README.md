@@ -69,11 +69,11 @@ ID | Type | Indicator | Confidence
 10 | File | `adclick.php` | Medium
 11 | File | `addrating.php` | High
 12 | File | `adm.cgi` | Low
-13 | File | `admin_forum_prune.php` | High
-14 | File | `adverts/assets/plugins/ultimate/content/downloader.php` | High
+13 | File | `adminpanel/admin/facebox_modal/updateCourse.php` | High
+14 | File | `admin_forum_prune.php` | High
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

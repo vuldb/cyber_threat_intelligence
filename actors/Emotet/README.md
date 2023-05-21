@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Emotet:
 
 * [VN](https://vuldb.com/?country.vn)
+* [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -821,13 +821,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-25, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -835,31 +836,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?r=email/api/mark&op=delFromSend` | High
-2 | File | `/admin/bookings/manage_booking.php` | High
-3 | File | `/admin/bookings/view_booking.php` | High
-4 | File | `/admin/bookings/view_details.php` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/manage_academic.php` | High
-7 | File | `/admin/services/view_service.php` | High
-8 | File | `/admin/user/manage_user.php` | High
-9 | File | `/admin/user/uploadImg` | High
-10 | File | `/administrator/components/table_manager/` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/boafrm/formFilter` | High
-13 | File | `/classes/Master.php?f=save_course` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/Default/Bd` | Medium
-16 | File | `/message/form/` | High
-17 | File | `/send_order.cgi?parameter=access_detect` | High
-18 | File | `/server/api/v1/login` | High
-19 | File | `/static/ueditor/php/controller.php` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/v2/#/` | Low
-22 | File | `/v2/#/add/department` | High
-23 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/action/wirelessConnect` | High
+3 | File | `/admin/budget/manage_budget.php` | High
+4 | File | `/admin/edit_subject.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/save_teacher.php` | High
+7 | File | `/admin/service.php` | High
+8 | File | `/admin/services/manage_service.php` | High
+9 | File | `/admin/services/view_service.php` | High
+10 | File | `/analysisProject/pagingQueryData` | High
+11 | File | `/bin/ate` | Medium
+12 | File | `/bin/login` | Medium
+13 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+14 | File | `/cas/logout` | Medium
+15 | File | `/cgi-bin` | Medium
+16 | File | `/cgi-bin/ping.cgi` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php` | High
+19 | File | `/classes/Master.php?f=delete_inquiry` | High
+20 | File | `/classes/Master.php?f=delete_item` | High
+21 | File | `/classes/Master.php?f=delete_service` | High
+22 | File | `/classes/Master.php?f=save_service` | High
+23 | File | `/classes/Users.php` | High
+24 | File | `/data/remove` | Medium
+25 | ... | ... | ...
 
-There are 191 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 214 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

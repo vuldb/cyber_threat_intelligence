@@ -45,11 +45,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,8 +82,8 @@ ID | Type | Indicator | Confidence
 23 | File | `/HNAP1` | Low
 24 | File | `/HNAP1/SetClientInfo` | High
 25 | File | `/Items/*/RemoteImages/Download` | High
-26 | File | `/login` | Low
-27 | File | `/menu.html` | Medium
+26 | File | `/menu.html` | Medium
+27 | File | `/modules/profile/index.php` | High
 28 | File | `/navigate/navigate_download.php` | High
 29 | File | `/ocwbs/admin/?page=user/manage_user` | High
 30 | File | `/ofrs/admin/?page=user/manage_user` | High
@@ -104,10 +104,9 @@ ID | Type | Indicator | Confidence
 45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
 46 | File | `/sys/dict/queryTableData` | High
 47 | File | `/tmp` | Low
-48 | File | `/uncpath/` | Medium
-49 | ... | ... | ...
+48 | ... | ... | ...
 
-There are 421 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 414 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

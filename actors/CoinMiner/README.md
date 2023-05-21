@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,12 +46,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,48 +63,49 @@ ID | Type | Indicator | Confidence
 2 | File | `.plan` | Low
 3 | File | `.tin` | Low
 4 | File | `/cgi-bin/editBookmark` | High
-5 | File | `/configs/application.ini` | High
-6 | File | `/goform/setPicListItem` | High
-7 | File | `/home/cavesConsole` | High
-8 | File | `/home/kickPlayer` | High
-9 | File | `/home/masterConsole` | High
-10 | File | `/home/sendBroadcast` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/services/Card/findUser` | High
-13 | File | `/spacecom/login.php` | High
-14 | File | `/sys/dict/queryTableData` | High
-15 | File | `/ucenter/active.php` | High
-16 | File | `/uncpath/` | Medium
-17 | File | `/user/updatePwd` | High
-18 | File | `/xampp/guestbook-en.pl` | High
-19 | File | `/zm/index.php` | High
-20 | File | `123flashchat.php` | High
-21 | File | `abook_database.php` | High
-22 | File | `action.php` | Medium
-23 | File | `admin.php` | Medium
-24 | File | `admin/admin_process.php` | High
-25 | File | `admin/profile_settings_net.html` | High
-26 | File | `admin/vqmods.app/vqmods.inc.php` | High
-27 | File | `af.cgi/alienform.cgi` | High
-28 | File | `afd.sys` | Low
-29 | File | `ajax.php` | Medium
-30 | File | `akocomment.php` | High
-31 | File | `app/routes/research.js` | High
-32 | File | `article.php` | Medium
-33 | File | `aviso.php` | Medium
-34 | File | `awredir.pl` | Medium
-35 | File | `bar.phtml` | Medium
-36 | File | `bitmap/bdfread.c` | High
-37 | File | `blocks.php` | Medium
-38 | File | `blog.cgi` | Medium
-39 | File | `bluewrench-video-widget.php` | High
-40 | File | `browse.php` | Medium
-41 | File | `carsdetail.asp` | High
-42 | File | `cartman.php` | Medium
-43 | File | `categories.php` | High
-44 | ... | ... | ...
+5 | File | `/cgi-bin/luci;stok=/locale` | High
+6 | File | `/classes/Login.php` | High
+7 | File | `/configs/application.ini` | High
+8 | File | `/goform/setPicListItem` | High
+9 | File | `/home/cavesConsole` | High
+10 | File | `/home/kickPlayer` | High
+11 | File | `/home/masterConsole` | High
+12 | File | `/home/sendBroadcast` | High
+13 | File | `/rapi/read_url` | High
+14 | File | `/services/Card/findUser` | High
+15 | File | `/spacecom/login.php` | High
+16 | File | `/sys/dict/queryTableData` | High
+17 | File | `/ucenter/active.php` | High
+18 | File | `/uncpath/` | Medium
+19 | File | `/user/updatePwd` | High
+20 | File | `/xampp/guestbook-en.pl` | High
+21 | File | `/zm/index.php` | High
+22 | File | `123flashchat.php` | High
+23 | File | `abook_database.php` | High
+24 | File | `action.php` | Medium
+25 | File | `admin.php` | Medium
+26 | File | `admin/admin_process.php` | High
+27 | File | `admin/profile_settings_net.html` | High
+28 | File | `admin/vqmods.app/vqmods.inc.php` | High
+29 | File | `af.cgi/alienform.cgi` | High
+30 | File | `afd.sys` | Low
+31 | File | `ajax.php` | Medium
+32 | File | `akocomment.php` | High
+33 | File | `app/routes/research.js` | High
+34 | File | `article.php` | Medium
+35 | File | `aviso.php` | Medium
+36 | File | `awredir.pl` | Medium
+37 | File | `bitmap/bdfread.c` | High
+38 | File | `blocks.php` | Medium
+39 | File | `blog.cgi` | Medium
+40 | File | `bluewrench-video-widget.php` | High
+41 | File | `browse.php` | Medium
+42 | File | `carsdetail.asp` | High
+43 | File | `cartman.php` | Medium
+44 | File | `categories.php` | High
+45 | ... | ... | ...
 
-There are 384 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
