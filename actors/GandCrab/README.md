@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -72,7 +72,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,27 +88,32 @@ ID | Type | Indicator | Confidence
 6 | File | `/hrm/employeeview.php` | High
 7 | File | `/images/` | Medium
 8 | File | `/inc/parser/xhtml.php` | High
-9 | File | `/login` | Low
-10 | File | `/modules/profile/index.php` | High
-11 | File | `/one_church/userregister.php` | High
-12 | File | `/out.php` | Medium
-13 | File | `/public/plugins/` | High
-14 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-15 | File | `/SASWebReportStudio/logonAndRender.do` | High
-16 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-17 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-18 | File | `/tmp/phpglibccheck` | High
-19 | File | `/v2/quantum/save-data-upload-big-file` | High
-20 | File | `4.edu.php` | Medium
-21 | File | `adclick.php` | Medium
-22 | File | `addentry.php` | Medium
-23 | File | `addressbookprovider.php` | High
-24 | File | `admin.jcomments.php` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/pageUploadCSV.php` | High
-27 | ... | ... | ...
+9 | File | `/librarian/bookdetails.php` | High
+10 | File | `/login` | Low
+11 | File | `/messageboard/view.php` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/one_church/userregister.php` | High
+14 | File | `/out.php` | Medium
+15 | File | `/public/plugins/` | High
+16 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+17 | File | `/SASWebReportStudio/logonAndRender.do` | High
+18 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+19 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+20 | File | `/textpattern/index.php` | High
+21 | File | `/tmp/phpglibccheck` | High
+22 | File | `/v2/quantum/save-data-upload-big-file` | High
+23 | File | `4.edu.php` | Medium
+24 | File | `adclick.php` | Medium
+25 | File | `addentry.php` | Medium
+26 | File | `admin.cropcanvas.php` | High
+27 | File | `admin.jcomments.php` | High
+28 | File | `admin/index.php` | High
+29 | File | `admin/pageUploadCSV.php` | High
+30 | File | `adminAttachments.php` | High
+31 | File | `adminBanned.php` | High
+32 | ... | ... | ...
 
-There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 274 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

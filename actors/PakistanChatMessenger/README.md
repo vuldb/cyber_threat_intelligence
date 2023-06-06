@@ -48,21 +48,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/countrymanagement.php` | High
-2 | File | `/administration/settings_registration.php` | High
-3 | File | `/ajax-files/postComment.php` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/home.php` | Medium
-6 | File | `/list_temp_photo_pin_upload.php` | High
-7 | File | `/nova/bin/detnet` | High
-8 | File | `/searchpin.php` | High
-9 | File | `/service/upload` | High
-10 | File | `/services/Card/findUser` | High
-11 | File | `/show_group_members.php` | High
-12 | File | `/sqfs/bin/sccd` | High
-13 | ... | ... | ...
+1 | File | `/admin/article.php` | High
+2 | File | `/admin/countrymanagement.php` | High
+3 | File | `/admin/transactions/track_shipment.php` | High
+4 | File | `/admin/user/manage_user.php` | High
+5 | File | `/administration/settings_registration.php` | High
+6 | File | `/ajax-files/postComment.php` | High
+7 | File | `/categorypage.php` | High
+8 | File | `/classes/Master.php` | High
+9 | File | `/home.php` | Medium
+10 | File | `/list_temp_photo_pin_upload.php` | High
+11 | File | `/nova/bin/detnet` | High
+12 | File | `/print.php` | Medium
+13 | File | `/searchpin.php` | High
+14 | File | `/service/upload` | High
+15 | File | `/services/Card/findUser` | High
+16 | File | `/show_group_members.php` | High
+17 | File | `/sqfs/bin/sccd` | High
+18 | File | `/whbs/?page=manage_account` | High
+19 | ... | ... | ...
 
-There are 103 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 154 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

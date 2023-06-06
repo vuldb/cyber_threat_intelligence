@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,16 +23,26 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.61.184](https://vuldb.com/?ip.5.62.61.184) | r-184-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.164](https://vuldb.com/?ip.5.62.63.164) | r-164-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.224.0.0](https://vuldb.com/?ip.41.224.0.0) | - | - | High
-4 | [45.12.70.224](https://vuldb.com/?ip.45.12.70.224) | rabat.globalhilive.com | - | High
-5 | [45.12.71.224](https://vuldb.com/?ip.45.12.71.224) | - | - | High
-6 | [45.59.189.0](https://vuldb.com/?ip.45.59.189.0) | - | - | High
-7 | [65.169.217.101](https://vuldb.com/?ip.65.169.217.101) | - | - | High
-8 | [66.96.118.0](https://vuldb.com/?ip.66.96.118.0) | - | - | High
-9 | [88.202.123.0](https://vuldb.com/?ip.88.202.123.0) | 88-202-123-0.ip.skylogicnet.com | - | High
-10 | ... | ... | ... | ...
+3 | [41.62.0.0](https://vuldb.com/?ip.41.62.0.0) | - | - | High
+4 | [41.224.0.0](https://vuldb.com/?ip.41.224.0.0) | - | - | High
+5 | [45.12.70.224](https://vuldb.com/?ip.45.12.70.224) | rabat.globalhilive.com | - | High
+6 | [45.12.71.224](https://vuldb.com/?ip.45.12.71.224) | - | - | High
+7 | [45.59.189.0](https://vuldb.com/?ip.45.59.189.0) | - | - | High
+8 | [57.82.40.0](https://vuldb.com/?ip.57.82.40.0) | - | - | High
+9 | [57.85.32.0](https://vuldb.com/?ip.57.85.32.0) | - | - | High
+10 | [65.169.217.101](https://vuldb.com/?ip.65.169.217.101) | - | - | High
+11 | [66.96.118.0](https://vuldb.com/?ip.66.96.118.0) | - | - | High
+12 | [85.255.21.0](https://vuldb.com/?ip.85.255.21.0) | - | - | High
+13 | [88.202.123.0](https://vuldb.com/?ip.88.202.123.0) | 88-202-123-0.ip.skylogicnet.com | - | High
+14 | [89.202.179.250](https://vuldb.com/?ip.89.202.179.250) | - | - | High
+15 | [92.240.201.0](https://vuldb.com/?ip.92.240.201.0) | - | - | High
+16 | [102.24.0.0](https://vuldb.com/?ip.102.24.0.0) | - | - | High
+17 | [102.104.0.0](https://vuldb.com/?ip.102.104.0.0) | - | - | High
+18 | [102.128.0.0](https://vuldb.com/?ip.102.128.0.0) | - | - | High
+19 | [102.141.204.0](https://vuldb.com/?ip.102.141.204.0) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 77 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,24 +85,29 @@ ID | Type | Indicator | Confidence
 19 | File | `/spip.php` | Medium
 20 | File | `/uncpath/` | Medium
 21 | File | `/var/log/nginx` | High
-22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `act.php` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `add_comment.php` | High
-27 | File | `admin` | Low
-28 | File | `admin.php` | Medium
-29 | File | `admin/adminsignin.html` | High
-30 | File | `admin/movieview.php` | High
-31 | ... | ... | ...
+22 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+24 | File | `/wbms/classes/Master.php?f=delete_client` | High
+25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+26 | File | `act.php` | Low
+27 | File | `adclick.php` | Medium
+28 | File | `add_comment.php` | High
+29 | File | `admin` | Low
+30 | File | `admin.php` | Medium
+31 | File | `admin/adminsignin.html` | High
+32 | File | `admin/movieview.php` | High
+33 | File | `admin/versions.html` | High
+34 | ... | ... | ...
 
-There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_tn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tn.netset
 
 ## Literature
 

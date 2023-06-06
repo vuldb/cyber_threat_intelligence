@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +26,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [41.78.116.0](https://vuldb.com/?ip.41.78.116.0) | - | - | High
 4 | [41.138.32.0](https://vuldb.com/?ip.41.138.32.0) | - | - | High
 5 | [41.190.228.0](https://vuldb.com/?ip.41.190.228.0) | - | - | High
-6 | ... | ... | ... | ...
+6 | [41.203.128.0](https://vuldb.com/?ip.41.203.128.0) | - | - | High
+7 | [41.221.217.0](https://vuldb.com/?ip.41.221.217.0) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,53 +62,56 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/inbox.php&action=read` | High
 8 | File | `/admin/index.php` | High
 9 | File | `/admin/operations/packages.php` | High
-10 | File | `/admin/pages/sections_save.php` | High
-11 | File | `/admin/settings/save.php` | High
-12 | File | `/admin/uesrs.php&action=display&value=Show` | High
-13 | File | `/apilog.php` | Medium
-14 | File | `/appliance/users?action=edit` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/config/list` | Medium
-17 | File | `/coreframe/app/guestbook/myissue.php` | High
-18 | File | `/dede/co_do.php` | High
-19 | File | `/DXR.axd` | Medium
-20 | File | `/etc/init.d/sshd_service` | High
-21 | File | `/filemanager/upload.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/fuel/sitevariables/delete/4` | High
-24 | File | `/goform/saveParentControlInfo` | High
-25 | File | `/goform/setSnmpInfo` | High
-26 | File | `/if.cgi` | Low
-27 | File | `/include/make.php` | High
-28 | File | `/index.php/admins/Fields/get_fields.html` | High
-29 | File | `/login` | Low
-30 | File | `/mgm_dev_reset.asp` | High
-31 | File | `/mifs/c/i/reg/reg.html` | High
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/news.dtl.php` | High
-34 | File | `/odlms/classes/Master.php?f=delete_message` | High
-35 | File | `/php-sms/classes/SystemSettings.php` | High
-36 | File | `/php_action/createUser.php` | High
-37 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-38 | File | `/reps/admin/?page=agents/manage_agent` | High
-39 | File | `/see_more_details.php` | High
-40 | File | `/services/Card/findUser` | High
-41 | File | `/services/details.asp` | High
-42 | File | `/setup` | Low
-43 | File | `/spip.php` | Medium
-44 | File | `/src/njs_object.c` | High
-45 | File | `/system/menu/list` | High
-46 | File | `/system/user/modules/mod_users/controller.php` | High
-47 | File | `/TMS/admin/setting/mail/createorupdate` | High
-48 | ... | ... | ...
+10 | File | `/admin/orders/update_status.php` | High
+11 | File | `/admin/pages/sections_save.php` | High
+12 | File | `/admin/settings/save.php` | High
+13 | File | `/admin/uesrs.php&action=display&value=Show` | High
+14 | File | `/apilog.php` | Medium
+15 | File | `/appliance/users?action=edit` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+18 | File | `/config/list` | Medium
+19 | File | `/coreframe/app/guestbook/myissue.php` | High
+20 | File | `/dede/co_do.php` | High
+21 | File | `/DXR.axd` | Medium
+22 | File | `/etc/init.d/sshd_service` | High
+23 | File | `/filemanager/upload.php` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/fuel/sitevariables/delete/4` | High
+26 | File | `/goform/saveParentControlInfo` | High
+27 | File | `/goform/setSnmpInfo` | High
+28 | File | `/if.cgi` | Low
+29 | File | `/include/make.php` | High
+30 | File | `/index.php/admins/Fields/get_fields.html` | High
+31 | File | `/login` | Low
+32 | File | `/mgm_dev_reset.asp` | High
+33 | File | `/mifs/c/i/reg/reg.html` | High
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/news.dtl.php` | High
+36 | File | `/odlms/classes/Master.php?f=delete_message` | High
+37 | File | `/php-sms/classes/SystemSettings.php` | High
+38 | File | `/php_action/createUser.php` | High
+39 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+40 | File | `/reps/admin/?page=agents/manage_agent` | High
+41 | File | `/see_more_details.php` | High
+42 | File | `/services/Card/findUser` | High
+43 | File | `/services/details.asp` | High
+44 | File | `/setup` | Low
+45 | File | `/spip.php` | Medium
+46 | File | `/src/njs_object.c` | High
+47 | File | `/system/menu/list` | High
+48 | File | `/system/user/modules/mod_users/controller.php` | High
+49 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ne.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ne.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ne.netset
 
 ## Literature
 

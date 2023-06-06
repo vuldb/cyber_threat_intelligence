@@ -24,7 +24,8 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.58.180](https://vuldb.com/?ip.5.62.58.180) | r-180-58-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.92](https://vuldb.com/?ip.5.62.63.92) | r-92-63-62-5.consumer-pool.prcdn.net | - | High
 3 | [5.252.112.0](https://vuldb.com/?ip.5.252.112.0) | - | - | High
-4 | ... | ... | ... | ...
+4 | [45.12.70.181](https://vuldb.com/?ip.45.12.70.181) | technic.alltieinc.com | - | High
+5 | ... | ... | ... | ...
 
 There are 14 more IOC items available. Please use our online service to access the data.
 
@@ -40,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,49 +58,51 @@ ID | Type | Indicator | Confidence
 7 | File | `/cm/delete` | Medium
 8 | File | `/common/logViewer/logViewer.jsf` | High
 9 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-10 | File | `/etc/master.passwd` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/homeaction.php` | High
-13 | File | `/if.cgi` | Low
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/modules/tasks/summary.inc.php` | High
-16 | File | `/multi-vendor-shopping-script/product-list.php` | High
-17 | File | `/news.dtl.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/p` | Low
-20 | File | `/recordings/index.php` | High
-21 | File | `/see_more_details.php` | High
-22 | File | `/services/details.asp` | High
-23 | File | `/setup` | Low
-24 | File | `/show_news.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/tmp/before` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/wordpress/wp-admin/options-general.php` | High
-29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-30 | File | `account.asp` | Medium
-31 | File | `act.php` | Low
-32 | File | `adclick.php` | Medium
-33 | File | `admin.php` | Medium
-34 | File | `admin/admin.shtml` | High
-35 | File | `Admin/ADM_Pagina.php` | High
-36 | File | `admin/category.inc.php` | High
-37 | File | `admin/param/param_func.inc.php` | High
-38 | File | `ajax_calls.php` | High
-39 | File | `api.php` | Low
-40 | File | `artlinks.dispnew.php` | High
-41 | File | `blocklayered-ajax.php` | High
-42 | File | `blog.php` | Medium
-43 | File | `book.cfm` | Medium
-44 | ... | ... | ...
+10 | File | `/download` | Medium
+11 | File | `/etc/master.passwd` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/homeaction.php` | High
+14 | File | `/if.cgi` | Low
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/modules/tasks/summary.inc.php` | High
+17 | File | `/multi-vendor-shopping-script/product-list.php` | High
+18 | File | `/news.dtl.php` | High
+19 | File | `/out.php` | Medium
+20 | File | `/p` | Low
+21 | File | `/recordings/index.php` | High
+22 | File | `/see_more_details.php` | High
+23 | File | `/services/details.asp` | High
+24 | File | `/setup` | Low
+25 | File | `/show_news.php` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/tmp/before` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/wordpress/wp-admin/options-general.php` | High
+30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+31 | File | `account.asp` | Medium
+32 | File | `act.php` | Low
+33 | File | `adclick.php` | Medium
+34 | File | `admin.php` | Medium
+35 | File | `admin/admin.shtml` | High
+36 | File | `Admin/ADM_Pagina.php` | High
+37 | File | `admin/category.inc.php` | High
+38 | File | `admin/param/param_func.inc.php` | High
+39 | File | `administration/admins.php` | High
+40 | File | `ajax_calls.php` | High
+41 | File | `api.php` | Low
+42 | File | `artlinks.dispnew.php` | High
+43 | File | `blocklayered-ajax.php` | High
+44 | File | `blog.php` | Medium
+45 | ... | ... | ...
 
-There are 379 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pm.netset
 
 ## Literature
 

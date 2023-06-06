@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gelsemium:
 
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [IR](https://vuldb.com/?country.ir)
 * ...
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
-3 | T1202 | CWE-77 | Command Injection | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,11 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/public/login.htm` | High
-3 | File | `admin.php` | Medium
-4 | ... | ... | ...
+2 | File | `/admin/maintenance/brand.php` | High
+3 | File | `/fastfood/purchase.php` | High
+4 | File | `/librarian/bookdetails.php` | High
+5 | File | `/mkshop/Men/profile.php` | High
+6 | File | `/multi-vendor-shopping-script/product-list.php` | High
+7 | File | `/public/login.htm` | High
+8 | File | `account.asp` | Medium
+9 | File | `adherents/cartes/carte.php` | High
+10 | File | `admin.php` | Medium
+11 | File | `album_portal.php` | High
+12 | File | `announcements.php` | High
+13 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

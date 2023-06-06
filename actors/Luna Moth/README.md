@@ -39,13 +39,11 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [104.168.171.231](https://vuldb.com/?ip.104.168.171.231) | hwsrv-979190.hostwindsdns.com | Subscription Scam | High
 13 | [104.168.201.87](https://vuldb.com/?ip.104.168.201.87) | client-104-168-201-87.hostwindsdns.com | Subscription Scam | High
 14 | [104.168.201.100](https://vuldb.com/?ip.104.168.201.100) | client-104-168-201-100.hostwindsdns.com | Subscription Scam | High
-15 | [104.168.201.121](https://vuldb.com/?ip.104.168.201.121) | client-104-168-201-121.hostwindsdns.com | Subscription Scam | High
-16 | [104.168.201.129](https://vuldb.com/?ip.104.168.201.129) | client-104-168-201-129.hostwindsdns.com | Subscription Scam | High
-17 | [104.168.204.231](https://vuldb.com/?ip.104.168.204.231) | client-104-168-204-231.hostwindsdns.com | Subscription Scam | High
-18 | [104.168.218.242](https://vuldb.com/?ip.104.168.218.242) | hwsrv-975504.hostwindsdns.com | Subscription Scam | High
-19 | ... | ... | ... | ...
+15 | [104.168.201.129](https://vuldb.com/?ip.104.168.201.129) | client-104-168-201-129.hostwindsdns.com | Subscription Scam | High
+16 | [104.168.204.231](https://vuldb.com/?ip.104.168.204.231) | client-104-168-204-231.hostwindsdns.com | Subscription Scam | High
+17 | ... | ... | ... | ...
 
-There are 71 more IOC items available. Please use our online service to access the data.
+There are 64 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -91,7 +89,7 @@ ID | Type | Indicator | Confidence
 23 | File | `cng.sys` | Low
 24 | ... | ... | ...
 
-There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 201 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

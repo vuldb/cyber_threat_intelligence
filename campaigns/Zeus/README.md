@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -33,65 +33,72 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [1.186.47.244](https://vuldb.com/?ip.1.186.47.244) | 1.186.47.244.dvois.com | [Zeus](https://vuldb.com/?actor.zeus) | High
 2 | [2.30.33.121](https://vuldb.com/?ip.2.30.33.121) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
 3 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-4 | [24.39.46.222](https://vuldb.com/?ip.24.39.46.222) | rrcs-24-39-46-222.nys.biz.rr.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-5 | [27.159.239.77](https://vuldb.com/?ip.27.159.239.77) | 77.239.159.27.broad.pt.fj.dynamic.163data.com.cn | [Zeus](https://vuldb.com/?actor.zeus) | High
-6 | [31.7.63.146](https://vuldb.com/?ip.31.7.63.146) | game.bignamegamereviewz.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-7 | [31.28.27.17](https://vuldb.com/?ip.31.28.27.17) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-8 | [31.210.72.207](https://vuldb.com/?ip.31.210.72.207) | server-31.210.72.207.as42926.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-9 | [31.220.15.147](https://vuldb.com/?ip.31.220.15.147) | offsite.swanseahost.co.uk | [Zeus](https://vuldb.com/?actor.zeus) | High
-10 | [31.220.43.72](https://vuldb.com/?ip.31.220.43.72) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-11 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | [Zeus](https://vuldb.com/?actor.zeus) | Medium
-12 | [37.123.99.188](https://vuldb.com/?ip.37.123.99.188) | sv1.jojobulten.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-13 | [37.143.11.189](https://vuldb.com/?ip.37.143.11.189) | hosted-by.ihc.ru | [Zeus](https://vuldb.com/?actor.zeus) | High
-14 | [45.34.161.13](https://vuldb.com/?ip.45.34.161.13) | zambusing.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-15 | [46.4.150.111](https://vuldb.com/?ip.46.4.150.111) | static.111.150.4.46.clients.your-server.de | [Zeus](https://vuldb.com/?actor.zeus) | High
-16 | [46.151.52.48](https://vuldb.com/?ip.46.151.52.48) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-17 | [46.151.52.61](https://vuldb.com/?ip.46.151.52.61) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-18 | [46.151.52.191](https://vuldb.com/?ip.46.151.52.191) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-19 | [46.151.54.46](https://vuldb.com/?ip.46.151.54.46) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-20 | [46.166.131.154](https://vuldb.com/?ip.46.166.131.154) | svr508.redium.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-21 | [46.166.145.113](https://vuldb.com/?ip.46.166.145.113) | . | [Zeus](https://vuldb.com/?actor.zeus) | High
-22 | [46.183.221.240](https://vuldb.com/?ip.46.183.221.240) | ip-221-240.dataclub.info | [Zeus](https://vuldb.com/?actor.zeus) | High
-23 | [50.22.46.49](https://vuldb.com/?ip.50.22.46.49) | 31.2e.1632.ip4.static.sl-reverse.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-24 | [58.195.1.4](https://vuldb.com/?ip.58.195.1.4) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-25 | [59.157.4.2](https://vuldb.com/?ip.59.157.4.2) | v-59-157-4-2.ub-freebit.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-26 | [60.13.186.5](https://vuldb.com/?ip.60.13.186.5) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-27 | [60.241.184.209](https://vuldb.com/?ip.60.241.184.209) | 60-241-184-209.static.tpgi.com.au | [Zeus](https://vuldb.com/?actor.zeus) | High
-28 | [62.14.215.109](https://vuldb.com/?ip.62.14.215.109) | 109.215.14.62.static.jazztel.es | [Zeus](https://vuldb.com/?actor.zeus) | High
-29 | [62.103.170.90](https://vuldb.com/?ip.62.103.170.90) | serial.soulis.ondsl.gr | [Zeus](https://vuldb.com/?actor.zeus) | High
-30 | [62.109.29.101](https://vuldb.com/?ip.62.109.29.101) | imlejnnn.fvds.ru | [TA544](https://vuldb.com/?actor.ta544) | High
-31 | [63.249.131.74](https://vuldb.com/?ip.63.249.131.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-32 | [63.249.133.74](https://vuldb.com/?ip.63.249.133.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-33 | [63.249.138.74](https://vuldb.com/?ip.63.249.138.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-34 | [63.249.141.74](https://vuldb.com/?ip.63.249.141.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-35 | [63.249.142.74](https://vuldb.com/?ip.63.249.142.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-36 | [63.249.143.70](https://vuldb.com/?ip.63.249.143.70) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-37 | [63.249.143.74](https://vuldb.com/?ip.63.249.143.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-38 | [63.249.146.74](https://vuldb.com/?ip.63.249.146.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-39 | [63.249.147.74](https://vuldb.com/?ip.63.249.147.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-40 | [63.249.148.74](https://vuldb.com/?ip.63.249.148.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-41 | [64.60.153.210](https://vuldb.com/?ip.64.60.153.210) | 64-60-153-210.static-ip.telepacific.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-42 | [64.70.19.202](https://vuldb.com/?ip.64.70.19.202) | mailrelay.202.website.ws | [Zeus](https://vuldb.com/?actor.zeus) | High
-43 | [64.74.223.48](https://vuldb.com/?ip.64.74.223.48) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-44 | [64.85.233.8](https://vuldb.com/?ip.64.85.233.8) | astound-64-85-233-8.ca.astound.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-45 | [64.90.187.131](https://vuldb.com/?ip.64.90.187.131) | 64.90.187.131.static.nyinternet.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-46 | [64.127.71.73](https://vuldb.com/?ip.64.127.71.73) | vcg2-4.slc1.tnltd.net | [Zeus](https://vuldb.com/?actor.zeus) | High
-47 | [64.182.0.64](https://vuldb.com/?ip.64.182.0.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-48 | [64.182.1.64](https://vuldb.com/?ip.64.182.1.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-49 | [64.182.6.64](https://vuldb.com/?ip.64.182.6.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-50 | [64.182.10.64](https://vuldb.com/?ip.64.182.10.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-51 | [64.182.12.64](https://vuldb.com/?ip.64.182.12.64) | hobart2.dal01.corespace.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-52 | [64.182.13.64](https://vuldb.com/?ip.64.182.13.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-53 | [64.182.16.64](https://vuldb.com/?ip.64.182.16.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-54 | [64.182.17.64](https://vuldb.com/?ip.64.182.17.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-55 | [64.182.20.64](https://vuldb.com/?ip.64.182.20.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-56 | [64.182.215.70](https://vuldb.com/?ip.64.182.215.70) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-57 | [64.182.215.73](https://vuldb.com/?ip.64.182.215.73) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-58 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
-59 | [66.117.77.134](https://vuldb.com/?ip.66.117.77.134) | 66-117-77-134.gohighspeed.com | [Zeus](https://vuldb.com/?actor.zeus) | High
-60 | ... | ... | ... | ...
+4 | [24.31.240.254](https://vuldb.com/?ip.24.31.240.254) | cpe-24-31-240-254.kc.res.rr.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+5 | [24.39.46.222](https://vuldb.com/?ip.24.39.46.222) | rrcs-24-39-46-222.nys.biz.rr.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+6 | [24.120.165.58](https://vuldb.com/?ip.24.120.165.58) | wsip-24-120-165-58.lv.lv.cox.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+7 | [27.54.110.77](https://vuldb.com/?ip.27.54.110.77) | 77.110.54.27.dhcp.mct.ne.jp | [Zeus](https://vuldb.com/?actor.zeus) | High
+8 | [27.159.239.77](https://vuldb.com/?ip.27.159.239.77) | 77.239.159.27.broad.pt.fj.dynamic.163data.com.cn | [Zeus](https://vuldb.com/?actor.zeus) | High
+9 | [31.7.63.146](https://vuldb.com/?ip.31.7.63.146) | game.bignamegamereviewz.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+10 | [31.28.27.17](https://vuldb.com/?ip.31.28.27.17) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+11 | [31.168.72.155](https://vuldb.com/?ip.31.168.72.155) | bzq-72-168-31-155.red.bezeqint.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+12 | [31.210.72.207](https://vuldb.com/?ip.31.210.72.207) | server-31.210.72.207.as42926.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+13 | [31.220.15.147](https://vuldb.com/?ip.31.220.15.147) | offsite.swanseahost.co.uk | [Zeus](https://vuldb.com/?actor.zeus) | High
+14 | [31.220.43.72](https://vuldb.com/?ip.31.220.43.72) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+15 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | [Zeus](https://vuldb.com/?actor.zeus) | Medium
+16 | [37.123.99.188](https://vuldb.com/?ip.37.123.99.188) | sv1.jojobulten.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+17 | [37.143.11.189](https://vuldb.com/?ip.37.143.11.189) | hosted-by.ihc.ru | [Zeus](https://vuldb.com/?actor.zeus) | High
+18 | [45.34.161.13](https://vuldb.com/?ip.45.34.161.13) | zambusing.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+19 | [46.4.150.111](https://vuldb.com/?ip.46.4.150.111) | static.111.150.4.46.clients.your-server.de | [Zeus](https://vuldb.com/?actor.zeus) | High
+20 | [46.151.52.48](https://vuldb.com/?ip.46.151.52.48) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+21 | [46.151.52.61](https://vuldb.com/?ip.46.151.52.61) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+22 | [46.151.52.191](https://vuldb.com/?ip.46.151.52.191) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+23 | [46.151.54.46](https://vuldb.com/?ip.46.151.54.46) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+24 | [46.166.131.154](https://vuldb.com/?ip.46.166.131.154) | svr508.redium.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+25 | [46.166.145.113](https://vuldb.com/?ip.46.166.145.113) | . | [Zeus](https://vuldb.com/?actor.zeus) | High
+26 | [46.183.221.240](https://vuldb.com/?ip.46.183.221.240) | ip-221-240.dataclub.info | [Zeus](https://vuldb.com/?actor.zeus) | High
+27 | [50.22.46.49](https://vuldb.com/?ip.50.22.46.49) | 31.2e.1632.ip4.static.sl-reverse.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+28 | [50.72.177.24](https://vuldb.com/?ip.50.72.177.24) | S0106f85e42d5f5d5.wp.shawcable.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+29 | [58.195.1.4](https://vuldb.com/?ip.58.195.1.4) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+30 | [59.157.4.2](https://vuldb.com/?ip.59.157.4.2) | v-59-157-4-2.ub-freebit.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+31 | [60.13.186.5](https://vuldb.com/?ip.60.13.186.5) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+32 | [60.241.184.209](https://vuldb.com/?ip.60.241.184.209) | 60-241-184-209.static.tpgi.com.au | [Zeus](https://vuldb.com/?actor.zeus) | High
+33 | [62.14.215.109](https://vuldb.com/?ip.62.14.215.109) | 109.215.14.62.static.jazztel.es | [Zeus](https://vuldb.com/?actor.zeus) | High
+34 | [62.103.170.90](https://vuldb.com/?ip.62.103.170.90) | serial.soulis.ondsl.gr | [Zeus](https://vuldb.com/?actor.zeus) | High
+35 | [62.109.29.101](https://vuldb.com/?ip.62.109.29.101) | imlejnnn.fvds.ru | [TA544](https://vuldb.com/?actor.ta544) | High
+36 | [63.249.131.74](https://vuldb.com/?ip.63.249.131.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+37 | [63.249.133.74](https://vuldb.com/?ip.63.249.133.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+38 | [63.249.138.74](https://vuldb.com/?ip.63.249.138.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+39 | [63.249.141.74](https://vuldb.com/?ip.63.249.141.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+40 | [63.249.142.74](https://vuldb.com/?ip.63.249.142.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+41 | [63.249.143.70](https://vuldb.com/?ip.63.249.143.70) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+42 | [63.249.143.74](https://vuldb.com/?ip.63.249.143.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+43 | [63.249.146.74](https://vuldb.com/?ip.63.249.146.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+44 | [63.249.147.74](https://vuldb.com/?ip.63.249.147.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+45 | [63.249.148.74](https://vuldb.com/?ip.63.249.148.74) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+46 | [64.60.153.210](https://vuldb.com/?ip.64.60.153.210) | 64-60-153-210.static-ip.telepacific.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+47 | [64.70.19.202](https://vuldb.com/?ip.64.70.19.202) | mailrelay.202.website.ws | [Zeus](https://vuldb.com/?actor.zeus) | High
+48 | [64.74.223.48](https://vuldb.com/?ip.64.74.223.48) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+49 | [64.85.233.8](https://vuldb.com/?ip.64.85.233.8) | astound-64-85-233-8.ca.astound.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+50 | [64.90.187.131](https://vuldb.com/?ip.64.90.187.131) | 64.90.187.131.static.nyinternet.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+51 | [64.127.71.73](https://vuldb.com/?ip.64.127.71.73) | vcg2-4.slc1.tnltd.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+52 | [64.182.0.64](https://vuldb.com/?ip.64.182.0.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+53 | [64.182.1.64](https://vuldb.com/?ip.64.182.1.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+54 | [64.182.6.64](https://vuldb.com/?ip.64.182.6.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+55 | [64.182.10.64](https://vuldb.com/?ip.64.182.10.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+56 | [64.182.12.64](https://vuldb.com/?ip.64.182.12.64) | hobart2.dal01.corespace.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+57 | [64.182.13.64](https://vuldb.com/?ip.64.182.13.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+58 | [64.182.16.64](https://vuldb.com/?ip.64.182.16.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+59 | [64.182.17.64](https://vuldb.com/?ip.64.182.17.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+60 | [64.182.20.64](https://vuldb.com/?ip.64.182.20.64) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+61 | [64.182.215.70](https://vuldb.com/?ip.64.182.215.70) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+62 | [64.182.215.73](https://vuldb.com/?ip.64.182.215.73) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+63 | [64.219.121.189](https://vuldb.com/?ip.64.219.121.189) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+64 | [66.117.77.134](https://vuldb.com/?ip.66.117.77.134) | 66-117-77-134.gohighspeed.com | [Zeus](https://vuldb.com/?actor.zeus) | High
+65 | [66.180.118.226](https://vuldb.com/?ip.66.180.118.226) | 66-180-118-226.customerip.birch.net | [Zeus](https://vuldb.com/?actor.zeus) | High
+66 | [66.221.13.60](https://vuldb.com/?ip.66.221.13.60) | - | [Zeus](https://vuldb.com/?actor.zeus) | High
+67 | ... | ... | ... | ...
 
-There are 238 more IOC items available. Please use our online service to access the data.
+There are 265 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -106,7 +113,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,45 +121,47 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/ad_js.php` | Medium
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/app/options.py` | High
-12 | File | `/attachments` | Medium
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/context/%2e/WEB-INF/web.xml` | High
-18 | File | `/dashboard/reports/logs/view` | High
-19 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-20 | File | `/debug/pprof` | Medium
-21 | File | `/etc/hosts` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-28 | File | `/pages/apply_vacancy.php` | High
-29 | File | `/proc/<PID>/mem` | High
-30 | File | `/proxy` | Low
-31 | File | `/reservation/add_message.php` | High
-32 | File | `/spip.php` | Medium
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/upload` | Low
-36 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-37 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/app/options.py` | High
+15 | File | `/attachments` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/dashboard/reports/logs/view` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/etc/hosts` | Medium
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/goform/wizard_end` | High
+29 | File | `/manage-apartment.php` | High
+30 | File | `/medicines/profile.php` | High
+31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+32 | File | `/pages/apply_vacancy.php` | High
+33 | File | `/proc/<PID>/mem` | High
+34 | File | `/proxy` | Low
+35 | File | `/reservation/add_message.php` | High
+36 | File | `/spip.php` | Medium
+37 | File | `/tmp` | Low
+38 | File | `/uncpath/` | Medium
+39 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -164,6 +173,8 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://blog.talosintelligence.com/2022/07/threat-roundup-0715-0722.html
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0909-0916.html
 * https://blog.talosintelligence.com/threat-roundup-0217-0224/
+* https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
+* https://blog.talosintelligence.com/threat-roundup-0519-0526-23/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://ddanchev.blogspot.com/2022/11/profiling-zeusesta-managed-zeus.html

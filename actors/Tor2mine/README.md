@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,52 +55,52 @@ ID | Type | Indicator | Confidence
 5 | File | `/api/content/posts/comments` | High
 6 | File | `/Basic_Goperation_Content.asp` | High
 7 | File | `/ControlManager/cgi-bin/VA/isaNVWRequest.dll` | High
-8 | File | `/Home/GetAttachment` | High
-9 | File | `/modules/projects/vw_files.php` | High
-10 | File | `/secure/QueryComponent!Default.jspa` | High
-11 | File | `/tmp` | Low
-12 | File | `/var/tmp/abrt/*/maps` | High
-13 | File | `/var/yp` | Low
-14 | File | `action.php` | Medium
-15 | File | `add.asp` | Low
-16 | File | `add.php` | Low
-17 | File | `addinterviewsform.php` | High
-18 | File | `admin-files/ad.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/addsptemplate.php` | High
-21 | File | `admin/admin.php` | High
-22 | File | `admin/content.php` | High
-23 | File | `admin/index.php` | High
-24 | File | `admin/limits.php` | High
-25 | File | `admin/membership_pricing.php` | High
-26 | File | `admin/picture/picture_real_edit.asp` | High
-27 | File | `admin/view.asp` | High
-28 | File | `adminfoot.php` | High
-29 | File | `administration.php` | High
-30 | File | `advertise.php` | High
-31 | File | `appl/user_user/server.c` | High
-32 | File | `application/classes/application.php` | High
-33 | File | `archiv.cgi` | Medium
-34 | File | `archive_read_support_format_rar.c` | High
-35 | File | `article.asp` | Medium
-36 | File | `article.php` | Medium
-37 | File | `articles/edit.php` | High
-38 | File | `b2archives.php` | High
-39 | File | `base/ttinterp.c` | High
-40 | File | `bin/defaults/script/info/login.js` | High
-41 | File | `board.php` | Medium
-42 | File | `categorie.php3` | High
-43 | File | `categos.php` | Medium
-44 | File | `cgi-bin/ddns_enc.cgi` | High
-45 | File | `cgi_test.cgi` | Medium
-46 | File | `cms/index.php` | High
-47 | File | `CodeBrws.asp` | Medium
-48 | File | `coders/mpc.c` | Medium
-49 | File | `coders/wmf.c` | Medium
-50 | File | `code_generator.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/Home/GetAttachment` | High
+10 | File | `/modules/projects/vw_files.php` | High
+11 | File | `/secure/QueryComponent!Default.jspa` | High
+12 | File | `/tmp` | Low
+13 | File | `/var/tmp/abrt/*/maps` | High
+14 | File | `/var/yp` | Low
+15 | File | `action.php` | Medium
+16 | File | `add.asp` | Low
+17 | File | `add.php` | Low
+18 | File | `addinterviewsform.php` | High
+19 | File | `admin-files/ad.php` | High
+20 | File | `admin.php` | Medium
+21 | File | `admin/addsptemplate.php` | High
+22 | File | `admin/admin.php` | High
+23 | File | `admin/content.php` | High
+24 | File | `admin/index.php` | High
+25 | File | `admin/limits.php` | High
+26 | File | `admin/membership_pricing.php` | High
+27 | File | `admin/picture/picture_real_edit.asp` | High
+28 | File | `admin/view.asp` | High
+29 | File | `adminfoot.php` | High
+30 | File | `administration.php` | High
+31 | File | `advertise.php` | High
+32 | File | `appl/user_user/server.c` | High
+33 | File | `application/classes/application.php` | High
+34 | File | `archiv.cgi` | Medium
+35 | File | `archive_read_support_format_rar.c` | High
+36 | File | `article.asp` | Medium
+37 | File | `article.php` | Medium
+38 | File | `articles/edit.php` | High
+39 | File | `b2archives.php` | High
+40 | File | `base/ttinterp.c` | High
+41 | File | `bin/defaults/script/info/login.js` | High
+42 | File | `board.php` | Medium
+43 | File | `categorie.php3` | High
+44 | File | `categos.php` | Medium
+45 | File | `cgi-bin/ddns_enc.cgi` | High
+46 | File | `cgi_test.cgi` | Medium
+47 | File | `cms/index.php` | High
+48 | File | `CodeBrws.asp` | Medium
+49 | File | `coders/mpc.c` | Medium
+50 | File | `coders/wmf.c` | Medium
 51 | ... | ... | ...
 
-There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

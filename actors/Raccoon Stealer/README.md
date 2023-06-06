@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,10 +70,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/?p=products` | Medium
 2 | File | `/admin/?page=product/manage_product&id=2` | High
 3 | File | `/admin/ajax.php?action=delete_window` | High
-4 | File | `/admin/api/theme-edit/` | High
-5 | File | `/admin/casedetails.php` | High
-6 | File | `/admin/maintenance/brand.php` | High
-7 | File | `/admin/mechanics/manage_mechanic.php` | High
+4 | File | `/admin/casedetails.php` | High
+5 | File | `/admin/maintenance/brand.php` | High
+6 | File | `/admin/mechanics/manage_mechanic.php` | High
+7 | File | `/admin/user/manage_user.php` | High
 8 | File | `/admin/userprofile.php` | High
 9 | File | `/admin/voters_row.php` | High
 10 | File | `/ad_js.php` | Medium
@@ -83,55 +83,51 @@ ID | Type | Indicator | Confidence
 14 | File | `/api/gen/clients/{language}` | High
 15 | File | `/apply.cgi` | Medium
 16 | File | `/APR/signup.php` | High
-17 | File | `/aux` | Low
-18 | File | `/categorypage.php` | High
-19 | File | `/cgi-bin/system_mgr.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/cha.php` | Medium
-22 | File | `/College/admin/teacher.php` | High
-23 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-24 | File | `/dayrui/Fcms/View/system_log.html` | High
-25 | File | `/dev/mem` | Medium
-26 | File | `/drivers/block/floppy.c` | High
-27 | File | `/ecommerce/admin/category/controller.php` | High
-28 | File | `/etc/config/product.ini` | High
-29 | File | `/etc/crash` | Medium
-30 | File | `/etc/shadow` | Medium
-31 | File | `/fos/admin/ajax.php` | High
-32 | File | `/goform/aspForm` | High
-33 | File | `/goform/delAd` | High
-34 | File | `/goform/WifiBasicSet` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/login/index.php` | High
-38 | File | `/medicines/profile.php` | High
-39 | File | `/menu.html` | Medium
-40 | File | `/Moosikay/order.php` | High
-41 | File | `/multi-vendor-shopping-script/product-list.php` | High
-42 | File | `/nasm/nasm-parse.c` | High
-43 | File | `/ordering/admin/orders/loaddata.php` | High
-44 | File | `/ordering/admin/stockin/loaddata.php` | High
-45 | File | `/philosophy/admin/login.php` | High
-46 | File | `/php-opos/login.php` | High
-47 | File | `/priv_mgt.html` | High
-48 | File | `/queuing/index.php?page=display` | High
-49 | File | `/resources//../` | High
-50 | File | `/tmp/app/.env` | High
-51 | File | `/ui/cbpc/login` | High
-52 | File | `/user/updatePwd` | High
-53 | File | `/users/delete/2` | High
-54 | File | `/usr/sbin/nagios` | High
-55 | File | `/var/tmp/audacity-$USER` | High
-56 | File | `/webman/info.cgi` | High
-57 | File | `/wp-json/wc/v3/webhooks` | High
-58 | File | `3G/UMTS` | Low
-59 | File | `account_change.php` | High
-60 | File | `acloudCosAction.php.SQL` | High
-61 | File | `ActiveServices.java` | High
-62 | File | `ad.php` | Low
-63 | ... | ... | ...
+17 | File | `/authenticationendpoint/login.do` | High
+18 | File | `/aux` | Low
+19 | File | `/backup.pl` | Medium
+20 | File | `/cas/logout` | Medium
+21 | File | `/categorypage.php` | High
+22 | File | `/cgi-bin/system_mgr.cgi` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/cha.php` | Medium
+25 | File | `/College/admin/teacher.php` | High
+26 | File | `/contactform/contactform.php` | High
+27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+28 | File | `/dayrui/Fcms/View/system_log.html` | High
+29 | File | `/drivers/block/floppy.c` | High
+30 | File | `/ecommerce/admin/category/controller.php` | High
+31 | File | `/etc/config/product.ini` | High
+32 | File | `/etc/crash` | Medium
+33 | File | `/etc/shadow` | Medium
+34 | File | `/forum/away.php` | High
+35 | File | `/fos/admin/ajax.php` | High
+36 | File | `/goform/aspForm` | High
+37 | File | `/goform/WifiBasicSet` | High
+38 | File | `/inc/topBarNav.php` | High
+39 | File | `/index.php` | Medium
+40 | File | `/kelasdosen/data` | High
+41 | File | `/login/index.php` | High
+42 | File | `/medicines/profile.php` | High
+43 | File | `/modules/projects/vw_files.php` | High
+44 | File | `/Moosikay/order.php` | High
+45 | File | `/multi-vendor-shopping-script/product-list.php` | High
+46 | File | `/nasm/nasm-parse.c` | High
+47 | File | `/ordering/admin/orders/loaddata.php` | High
+48 | File | `/ordering/admin/stockin/loaddata.php` | High
+49 | File | `/philosophy/admin/login.php` | High
+50 | File | `/php-opos/login.php` | High
+51 | File | `/priv_mgt.html` | High
+52 | File | `/queuing/index.php?page=display` | High
+53 | File | `/resources//../` | High
+54 | File | `/see_more_details.php` | High
+55 | File | `/user/updatePwd` | High
+56 | File | `/users/delete/2` | High
+57 | File | `/webman/info.cgi` | High
+58 | File | `/webroot/inc/utility_all.php` | High
+59 | ... | ... | ...
 
-There are 554 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -14,12 +14,12 @@ The following _campaigns_ are known and can be associated with Snake:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Snake:
 
-* [CH](https://vuldb.com/?country.ch)
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [CH](https://vuldb.com/?country.ch)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,14 +41,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,48 +56,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/admin/ajax.php?action=delete_window` | High
-4 | File | `/admin/ajax.php?action=save_queue` | High
-5 | File | `/admin/article_category.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/adminui/history_log.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/classes/Master.php?f=delete_brand` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/config/api/v1/reboot` | High
-12 | File | `/etc/passwd` | Medium
-13 | File | `/goform/WifiBasicSet` | High
-14 | File | `/hss/admin/?page=client/manage_client` | High
-15 | File | `/login/index.php` | High
-16 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-17 | File | `/output/outdbg.c` | High
-18 | File | `/output/outieee.c` | High
-19 | File | `/picturesPreview` | High
-20 | File | `/setNTP.cgi` | Medium
-21 | File | `/system/site.php` | High
-22 | File | `/tiki-importer.php` | High
-23 | File | `/tmp` | Low
-24 | File | `/tpts/manage_user.php` | High
-25 | File | `/trufusionPortal/upDwModuleProxy` | High
-26 | File | `/var/log/nginx` | High
-27 | File | `/wp-admin/options-general.php` | High
-28 | File | `/wp-json/wc/v3/webhooks` | High
-29 | File | `0_change-gallery.php` | High
-30 | File | `addToWishlist.asp` | High
-31 | File | `admin/manage_user.php` | High
-32 | File | `admin/page-login.php` | High
-33 | File | `admin/panels/entry/admin.entry.list.php` | High
-34 | File | `admin/panels/uploader/admin.uploader.php` | High
-35 | File | `admin/plugin-preferences.php` | High
-36 | File | `administrative` | High
-37 | File | `admin_class.php` | High
-38 | File | `agent/listener/templates/tail.html` | High
-39 | File | `announce.php` | Medium
-40 | ... | ... | ...
+1 | File | `.authlie` | Medium
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/ajax.php?action=delete_window` | High
+5 | File | `/admin/ajax.php?action=save_queue` | High
+6 | File | `/admin/article_category.php` | High
+7 | File | `/admin/bookings/manage_booking.php` | High
+8 | File | `/admin/bookings/view_booking.php` | High
+9 | File | `/admin/budget/manage_budget.php` | High
+10 | File | `/admin/cashadvance_row.php` | High
+11 | File | `/admin/contacts/organizations/edit/2` | High
+12 | File | `/admin/curriculum/view_curriculum.php` | High
+13 | File | `/admin/deduction_row.php` | High
+14 | File | `/admin/departments/view_department.php` | High
+15 | File | `/admin/edit_subject.php` | High
+16 | File | `/admin/employee_row.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/maintenance/manage_category.php` | High
+21 | File | `/admin/maintenance/view_designation.php` | High
+22 | File | `/admin/manage_user.php` | High
+23 | File | `/admin/mechanics/manage_mechanic.php` | High
+24 | File | `/admin/offenses/view_details.php` | High
+25 | File | `/admin/orders/update_status.php` | High
+26 | File | `/admin/products/manage_product.php` | High
+27 | File | `/admin/products/view_product.php` | High
+28 | File | `/admin/reminders/manage_reminder.php` | High
+29 | File | `/admin/report/index.php` | High
+30 | File | `/admin/service.php` | High
+31 | File | `/admin/services/manage_service.php` | High
+32 | File | `/admin/services/view_service.php` | High
+33 | File | `/admin/service_requests/manage_inventory.php` | High
+34 | File | `/admin/user/manage_user.php` | High
+35 | File | `/admin/userprofile.php` | High
+36 | File | `/api/stl/actions/search` | High
+37 | File | `/apply.cgi` | Medium
+38 | File | `/bin/ate` | Medium
+39 | File | `/bsms_ci/index.php/book` | High
+40 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+41 | File | `/cgi-bin/ping.cgi` | High
+42 | File | `/classes/Login.php` | High
+43 | File | `/classes/Master.php` | High
+44 | File | `/classes/Master.php?f=delete_brand` | High
+45 | File | `/classes/Master.php?f=delete_category` | High
+46 | File | `/classes/Master.php?f=delete_inquiry` | High
+47 | File | `/classes/Master.php?f=delete_item` | High
+48 | File | `/classes/Master.php?f=delete_service` | High
+49 | ... | ... | ...
 
-There are 342 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

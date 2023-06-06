@@ -92,10 +92,9 @@ ID | IP address | Hostname | Campaign | Confidence
 69 | [58.185.131.158](https://vuldb.com/?ip.58.185.131.158) | - | - | High
 70 | [59.90.221.6](https://vuldb.com/?ip.59.90.221.6) | static.bb.hyd.59.90.221.6.bsnl.in | - | High
 71 | [60.244.81.6](https://vuldb.com/?ip.60.244.81.6) | 60-244-81-6.apol.com.tw | - | High
-72 | [61.7.235.35](https://vuldb.com/?ip.61.7.235.35) | - | - | High
-73 | ... | ... | ... | ...
+72 | ... | ... | ... | ...
 
-There are 287 more IOC items available. Please use our online service to access the data.
+There are 286 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

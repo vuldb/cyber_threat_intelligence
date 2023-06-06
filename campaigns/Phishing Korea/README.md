@@ -99,10 +99,9 @@ ID | Type | Indicator | Confidence
 45 | File | `d1_both.c` | Medium
 46 | File | `data/gbconfiguration.dat` | High
 47 | File | `Debug_command_page.asp` | High
-48 | File | `details_view.php` | High
-49 | ... | ... | ...
+48 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 420 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

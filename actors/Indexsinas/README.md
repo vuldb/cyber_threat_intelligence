@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [NZ](https://vuldb.com/?country.nz)
 * [US](https://vuldb.com/?country.us)
+* [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,14 +287,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -302,45 +301,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.FBCIndex` | Medium
-2 | File | `//` | Low
-3 | File | `/admin` | Low
-4 | File | `/admin/login.php` | High
-5 | File | `/admin/patient.php` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/jmeter/download/files` | High
-8 | File | `/api/upload` | Medium
-9 | File | `/APR/login.php` | High
-10 | File | `/cgi-bin/luci/api/auth` | High
-11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-12 | File | `/cgi-bin/system_mgr.cgi` | High
+1 | File | `/admin/?page=user/list` | High
+2 | File | `/admin/ajax.php?action=save_area` | High
+3 | File | `/admin/contacts/organizations/edit/2` | High
+4 | File | `/admin/modal_add_product.php` | High
+5 | File | `/admin/reportupload.aspx` | High
+6 | File | `/admin/update_s6.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/ajax.php?action=save_company` | High
+9 | File | `/api/user/password/sent-reset-email` | High
+10 | File | `/bin/login` | Medium
+11 | File | `/bsms_ci/index.php/user/edit_user/` | High
+12 | File | `/cgi-bin/upload_vpntar` | High
 13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/churchcrm/EventAttendance.php` | High
-15 | File | `/config/myfield/test.php` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/filemanager/php/connector.php` | High
-18 | File | `/files/import` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/home/www/cgi-bin/login.cgi` | High
-22 | File | `/hrm/controller/employee.php` | High
-23 | File | `/hrm/employeeadd.php` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/j_security_check` | High
-26 | File | `/librarian/bookdetails.php` | High
-27 | File | `/mhds/clinic/view_details.php` | High
-28 | File | `/modules/projects/vw_files.php` | High
-29 | File | `/multi-vendor-shopping-script/product-list.php` | High
-30 | File | `/plain` | Low
-31 | File | `/public/launchNewWindow.jsp` | High
-32 | File | `/requests.php` | High
-33 | File | `/reservation/add_message.php` | High
-34 | File | `/rukovoditel/index.php?module=users/login` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/static/ueditor/php/controller.php` | High
-37 | ... | ... | ...
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/hrm/controller/employee.php` | High
+18 | File | `/hrm/employeeadd.php` | High
+19 | ... | ... | ...
 
-There are 319 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

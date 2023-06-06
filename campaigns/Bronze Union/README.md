@@ -31,7 +31,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [104.130.244.126](https://vuldb.com/?ip.104.130.244.126) | - | [TG-3390](https://vuldb.com/?actor.tg-3390) | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,10 +54,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
 2 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-3 | File | `http_auth.c` | Medium
+3 | File | `/videotalk` | Medium
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -68,18 +68,19 @@ ID | Type | Indicator | Confidence
 10 | File | `admin_chatconfig.php` | High
 11 | File | `ajaxp.php` | Medium
 12 | File | `alphabet.php` | Medium
-13 | File | `article2/comments.inc.php` | High
-14 | File | `articles/edit.php` | High
-15 | File | `assp.pl` | Low
-16 | File | `be_config.php` | High
-17 | File | `bridge/yabbse.inc.php` | High
-18 | File | `calendar_Eventupdate.asp` | High
-19 | File | `cal_week.php` | Medium
-20 | File | `close_bug.php` | High
-21 | File | `components/minibb/index.php` | High
-22 | ... | ... | ...
+13 | File | `app/controllers/oauth.js` | High
+14 | File | `article2/comments.inc.php` | High
+15 | File | `articles/edit.php` | High
+16 | File | `assp.pl` | Low
+17 | File | `be_config.php` | High
+18 | File | `bridge/yabbse.inc.php` | High
+19 | File | `calendar_Eventupdate.asp` | High
+20 | File | `cal_week.php` | Medium
+21 | File | `close_bug.php` | High
+22 | File | `components/minibb/index.php` | High
+23 | ... | ... | ...
 
-There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -147,7 +147,7 @@ ID | IP address | Hostname | Campaign | Confidence
 124 | [46.242.66.240](https://vuldb.com/?ip.46.242.66.240) | broadband-46-242-66-240.ip.moscow.rt.ru | - | High
 125 | ... | ... | ... | ...
 
-There are 496 more IOC items available. Please use our online service to access the data.
+There are 495 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -155,14 +155,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -170,51 +171,52 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php/accessory/filesdel.html` | High
-2 | File | `/admin/?page=user/manage` | High
-3 | File | `/admin/add-new.php` | High
-4 | File | `/admin/doctors.php` | High
-5 | File | `/admin/index3.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/service_requests/manage_inventory.php` | High
-8 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/boat/login.php` | High
-13 | File | `/bsms_ci/index.php/book` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/check` | Low
-16 | File | `/classes/Master.php?f=delete_helmet` | High
-17 | File | `/classes/Master.php?f=delete_sub_category` | High
-18 | File | `/CPE` | Low
-19 | File | `/debug/pprof` | Medium
-20 | File | `/download` | Medium
-21 | File | `/etc/pki/pesign` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/SetFirewallCfg` | High
-24 | File | `/index/user/user_edit.html` | High
-25 | File | `/login/index.php` | High
-26 | File | `/loginsave.php` | High
-27 | File | `/medicines/profile.php` | High
-28 | File | `/MIME/INBOX-MM-1/` | High
-29 | File | `/Moosikay/order.php` | High
-30 | File | `/param.file.tgz` | High
-31 | File | `/php-inventory-management-system/product.php` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/public_html/users.php` | High
-34 | File | `/reservation/add_message.php` | High
-35 | File | `/spip.php` | Medium
-36 | File | `/system/UserMapper.xml` | High
-37 | File | `/user/s.php` | Medium
-38 | File | `/usr/bin/pkexec` | High
-39 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-40 | File | `/video-sharing-script/watch-video.php` | High
-41 | File | `/web/index.php` | High
-42 | File | `/wireless/guestnetwork.asp` | High
-43 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/edit_subject.php` | High
+8 | File | `/admin/employee_row.php` | High
+9 | File | `/admin/index3.php` | High
+10 | File | `/admin/maintenance/brand.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/mechanics/manage_mechanic.php` | High
+13 | File | `/admin/orders/update_status.php` | High
+14 | File | `/admin/service.php` | High
+15 | File | `/admin/service_requests/manage_inventory.php` | High
+16 | File | `/admin/transactions/track_shipment.php` | High
+17 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+18 | File | `/alphaware/summary.php` | High
+19 | File | `/api/` | Low
+20 | File | `/api/admin/store/product/list` | High
+21 | File | `/api/stl/actions/search` | High
+22 | File | `/api/v2/cli/commands` | High
+23 | File | `/api2/html/` | Medium
+24 | File | `/boat/login.php` | High
+25 | File | `/bsms_ci/index.php/book` | High
+26 | File | `/cgi-bin` | Medium
+27 | File | `/cgi-bin/nightled.cgi` | High
+28 | File | `/cgi-bin/wlogin.cgi` | High
+29 | File | `/check` | Low
+30 | File | `/churchcrm/v2/family/not-found` | High
+31 | File | `/classes/Master.php?f=delete_inquiry` | High
+32 | File | `/classes/Master.php?f=delete_sub_category` | High
+33 | File | `/CPE` | Low
+34 | File | `/debug/pprof` | Medium
+35 | File | `/etc/pki/pesign` | High
+36 | File | `/file_manager/admin/save_user.php` | High
+37 | File | `/forum/away.php` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/SetFirewallCfg` | High
+40 | File | `/inc/topBarNav.php` | High
+41 | File | `/iwgallery/pictures/details.asp` | High
+42 | File | `/jurusan/data` | High
+43 | File | `/kelasdosen/data` | High
+44 | ... | ... | ...
 
-There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

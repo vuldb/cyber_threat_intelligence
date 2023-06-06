@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
+* [CO](https://vuldb.com/?country.co)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -58,7 +61,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
@@ -70,57 +73,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.kss.pid` | Medium
-2 | File | `.qpopper-options` | High
+1 | File | `.qpopper-options` | High
+2 | File | `/?r=email/api/mark&op=delFromSend` | High
 3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/api/admin/system/store/order/list` | High
-5 | File | `/apply_noauth.cgi` | High
-6 | File | `/bin/sh` | Low
-7 | File | `/common/sysFile/list` | High
-8 | File | `/context/%2e/WEB-INF/web.xml` | High
-9 | File | `/debug/pprof` | Medium
-10 | File | `/etc/openstack-dashboard/local_settings` | High
-11 | File | `/goform/addressNat` | High
-12 | File | `/js/player/dmplayer/dmku/index.php` | High
-13 | File | `/KK_LS9ReportingPortal/GetData` | High
-14 | File | `/modules/snf/index.php` | High
-15 | File | `/orrs/admin/?page=user/manage_user` | High
-16 | File | `/secure/QueryComponent!Default.jspa` | High
-17 | File | `/subtitles.php` | High
-18 | File | `/tmp` | Low
-19 | File | `/var/avamar/f_cache.dat` | High
-20 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-21 | File | `26.html` | Low
-22 | File | `add_postit.php` | High
-23 | File | `admin.php` | Medium
-24 | File | `admin/shophelp.php` | High
-25 | File | `administration.jsp` | High
-26 | File | `adminquery.php` | High
-27 | File | `ajaxRequest/methodCall.do` | High
-28 | File | `ansfaq.asp` | Medium
-29 | File | `ApiController.class.php` | High
-30 | File | `APKINDEX.tar.gz` | High
-31 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-32 | File | `appconfig.ini` | High
-33 | File | `appGet.cgi` | Medium
-34 | File | `ArchivesMapper.xml` | High
-35 | File | `article_coonepage_rule.php` | High
-36 | File | `AtlTraceTool8.exe` | High
-37 | File | `authpam.c` | Medium
-38 | File | `autocms.php` | Medium
-39 | File | `avahi-core/socket.c` | High
-40 | File | `banner.php` | Medium
-41 | File | `boundary_rules.jsp` | High
-42 | File | `bsc_sms_send.php` | High
-43 | File | `buffer.c` | Medium
-44 | File | `calendar.php` | Medium
-45 | File | `calendar_scheduler.php` | High
-46 | File | `cal_config.inc.php` | High
-47 | File | `cashconfirm.php` | High
-48 | File | `channels/chan_sip.c` | High
-49 | ... | ... | ...
+4 | File | `/analysisProject/pagingQueryData` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/apply_noauth.cgi` | High
+7 | File | `/bin/sh` | Low
+8 | File | `/classes/Master.php?f=delete_category` | High
+9 | File | `/classes/Master.php?f=save_service` | High
+10 | File | `/common/sysFile/list` | High
+11 | File | `/context/%2e/WEB-INF/web.xml` | High
+12 | File | `/data/remove` | Medium
+13 | File | `/debug/pprof` | Medium
+14 | File | `/Default/Bd` | Medium
+15 | File | `/etc/openstack-dashboard/local_settings` | High
+16 | File | `/goform/addressNat` | High
+17 | File | `/inc/jquery/uploadify/uploadify.php` | High
+18 | File | `/js/player/dmplayer/dmku/index.php` | High
+19 | File | `/KK_LS9ReportingPortal/GetData` | High
+20 | File | `/modules/snf/index.php` | High
+21 | File | `/orrs/admin/?page=user/manage_user` | High
+22 | File | `/secure/QueryComponent!Default.jspa` | High
+23 | File | `/static/ueditor/php/controller.php` | High
+24 | File | `/subtitles.php` | High
+25 | File | `/tmp` | Low
+26 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `26.html` | Low
+29 | File | `adclick.php` | Medium
+30 | File | `add_postit.php` | High
+31 | File | `admin.php` | Medium
+32 | File | `admin.php?m=backup&c=backup&a=doback` | High
+33 | File | `admin/default.asp` | High
+34 | File | `admin/shophelp.php` | High
+35 | File | `administration.jsp` | High
+36 | File | `adminquery.php` | High
+37 | File | `ansfaq.asp` | Medium
+38 | File | `ApiController.class.php` | High
+39 | File | `APKINDEX.tar.gz` | High
+40 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
+41 | File | `appconfig.ini` | High
+42 | File | `appGet.cgi` | Medium
+43 | File | `ArchivesMapper.xml` | High
+44 | File | `article_coonepage_rule.php` | High
+45 | File | `AtlTraceTool8.exe` | High
+46 | File | `authpam.c` | Medium
+47 | File | `autocms.php` | Medium
+48 | File | `avahi-core/socket.c` | High
+49 | File | `banner.php` | Medium
+50 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

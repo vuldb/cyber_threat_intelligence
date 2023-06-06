@@ -43,13 +43,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,21 +58,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/editBookmark` | High
-2 | File | `/goform/SetNetControlList` | High
-3 | File | `/modules/tasks/summary.inc.php` | High
-4 | File | `/rest/api/2/user/picker` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/wp-json` | Medium
-7 | File | `admin/categories_industry.php` | High
-8 | File | `admin/category.inc.php` | High
-9 | File | `admin/content/postcategory` | High
-10 | File | `Adminstrator/Users/Edit/` | High
-11 | File | `agent.cfg` | Medium
-12 | File | `ALL_IN_THE_BOX.OCX` | High
-13 | File | `bmp.c` | Low
-14 | ... | ... | ...
+2 | File | `/debug/pprof` | Medium
+3 | File | `/env` | Low
+4 | File | `/goform/SetNetControlList` | High
+5 | File | `/modules/tasks/summary.inc.php` | High
+6 | File | `/rest/api/2/user/picker` | High
+7 | File | `/uncpath/` | Medium
+8 | File | `/wp-json` | Medium
+9 | File | `admin/categories_industry.php` | High
+10 | File | `admin/category.inc.php` | High
+11 | File | `admin/content/postcategory` | High
+12 | File | `Adminstrator/Users/Edit/` | High
+13 | File | `agent.cfg` | Medium
+14 | File | `ALL_IN_THE_BOX.OCX` | High
+15 | ... | ... | ...
 
-There are 109 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 117 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

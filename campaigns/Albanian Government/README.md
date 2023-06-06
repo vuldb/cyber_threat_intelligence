@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 7 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,17 +55,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/index.php` | Medium
-3 | File | `/wp-admin/admin-ajax.php` | High
-4 | File | `announcement.php` | High
-5 | File | `attachment.php` | High
-6 | File | `auth-gss2.c` | Medium
-7 | File | `catalog.asp` | Medium
-8 | File | `cloud.php` | Medium
-9 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/boafrm/formFilter` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/index.php` | Medium
+5 | File | `/wp-admin/admin-ajax.php` | High
+6 | File | `admincp/auth/secure.php` | High
+7 | File | `announcement.php` | High
+8 | File | `attachment.php` | High
+9 | File | `auth-gss2.c` | Medium
+10 | File | `avrc_pars_tg.cc` | High
+11 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

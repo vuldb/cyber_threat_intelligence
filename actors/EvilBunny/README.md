@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/category.php` | High
-2 | File | `/error` | Low
-3 | File | `/etc/passwd` | Medium
-4 | File | `/getcfg.php` | Medium
-5 | File | `awredir.pl` | Medium
-6 | File | `bta_hf_client_at.cc` | High
-7 | ... | ... | ...
+1 | File | `/admin/sales/index.php` | High
+2 | File | `/category.php` | High
+3 | File | `/classes/Master.php?f=save_sub_category` | High
+4 | File | `/error` | Low
+5 | File | `/etc/passwd` | Medium
+6 | File | `/getcfg.php` | Medium
+7 | File | `awredir.pl` | Medium
+8 | ... | ... | ...
 
-There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

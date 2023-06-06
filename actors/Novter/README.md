@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -61,27 +61,28 @@ ID | Type | Indicator | Confidence
 1 | File | `.htaccess` | Medium
 2 | File | `/adfs/ls` | Medium
 3 | File | `/carbon/mediation_secure_vault/properties/ajaxprocessor.jsp` | High
-4 | File | `/getcfg.php` | Medium
-5 | File | `/Home/debit_credit_p` | High
-6 | File | `/index.php/weblinks-categories` | High
-7 | File | `/iwguestbook/admin/messages_edit.asp` | High
-8 | File | `/login/index.php` | High
-9 | File | `/odfs/classes/Master.php?f=delete_team` | High
-10 | File | `/public/plugins/` | High
-11 | File | `/scripts/iisadmin/bdir.htr` | High
-12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-13 | File | `add.php` | Low
-14 | File | `admin.cgi/config.cgi` | High
-15 | File | `admin/admin.guestbook.php` | High
-16 | File | `admin/auth.php` | High
-17 | File | `admin/backupdb.php` | High
-18 | File | `admin/login.asp` | High
-19 | File | `admin/preview.php` | High
-20 | File | `administrator/components/com_media/helpers/media.php` | High
-21 | File | `archive_read_support_format_rar.c` | High
-22 | ... | ... | ...
+4 | File | `/fos/admin/index.php?page=menu` | High
+5 | File | `/getcfg.php` | Medium
+6 | File | `/Home/debit_credit_p` | High
+7 | File | `/index.php/weblinks-categories` | High
+8 | File | `/iwguestbook/admin/messages_edit.asp` | High
+9 | File | `/login/index.php` | High
+10 | File | `/odfs/classes/Master.php?f=delete_team` | High
+11 | File | `/public/plugins/` | High
+12 | File | `/scripts/iisadmin/bdir.htr` | High
+13 | File | `/usr/bin/pkexec` | High
+14 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+15 | File | `add.php` | Low
+16 | File | `admin.cgi/config.cgi` | High
+17 | File | `admin/admin.guestbook.php` | High
+18 | File | `admin/auth.php` | High
+19 | File | `admin/backupdb.php` | High
+20 | File | `admin/login.asp` | High
+21 | File | `admin/preview.php` | High
+22 | File | `administrator/components/com_media/helpers/media.php` | High
+23 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 195 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Northern Mariana Islands Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
@@ -23,9 +24,13 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [8.3.123.164](https://vuldb.com/?ip.8.3.123.164) | - | - | High
 5 | [8.3.123.224](https://vuldb.com/?ip.8.3.123.224) | - | - | High
 6 | [8.3.125.0](https://vuldb.com/?ip.8.3.125.0) | - | - | High
-7 | ... | ... | ... | ...
+7 | [8.3.126.0](https://vuldb.com/?ip.8.3.126.0) | - | - | High
+8 | [8.3.127.0](https://vuldb.com/?ip.8.3.127.0) | - | - | High
+9 | [43.247.60.0](https://vuldb.com/?ip.43.247.60.0) | - | - | High
+10 | [45.12.70.150](https://vuldb.com/?ip.45.12.70.150) | upper-a8993.alltieinc.com | - | High
+11 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,11 +39,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,16 +53,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `APKINDEX.tar.gz` | High
 2 | File | `drivers/net/ieee802154/atusb.c` | High
-3 | File | `upload.php` | Medium
+3 | File | `index.cgi` | Medium
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mp.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mp.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_mp.netset
 
 ## Literature
 

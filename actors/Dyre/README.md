@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [85.25.138.12](https://vuldb.com/?ip.85.25.138.12) | echo389.startdedicated.de | - | High
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

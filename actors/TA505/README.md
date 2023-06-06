@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,10 +43,9 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [45.77.16.211](https://vuldb.com/?ip.45.77.16.211) | 45.77.16.211.vultr.com | - | Medium
 10 | [45.129.137.237](https://vuldb.com/?ip.45.129.137.237) | - | - | High
 11 | [45.142.213.139](https://vuldb.com/?ip.45.142.213.139) | jorrygo1.example.com | - | High
-12 | [45.142.214.119](https://vuldb.com/?ip.45.142.214.119) | vm293088.pq.hosting | - | High
-13 | ... | ... | ... | ...
+12 | ... | ... | ... | ...
 
-There are 46 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,7 +53,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -77,30 +76,30 @@ ID | Type | Indicator | Confidence
 6 | File | `/common/ticket_associated_tickets.php` | High
 7 | File | `/crmeb/crmeb/services/UploadService.php` | High
 8 | File | `/debug/pprof` | Medium
-9 | File | `/dus/shopliste/index.php` | High
-10 | File | `/etc/path` | Medium
-11 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-12 | File | `/include/chart_generator.php` | High
-13 | File | `/mgmt/tm/util/bash` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/nagiosql/admin/checkcommands.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-18 | File | `/SysInfo.htm` | Medium
-19 | File | `/tmp` | Low
-20 | File | `/uncpath/` | Medium
-21 | File | `/usr/5bin/su` | Medium
-22 | File | `/usr/bin/mail` | High
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/var/dt/` | Medium
+9 | File | `/dosen/data` | Medium
+10 | File | `/dus/shopliste/index.php` | High
+11 | File | `/etc/path` | Medium
+12 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+13 | File | `/include/chart_generator.php` | High
+14 | File | `/mgmt/tm/util/bash` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/nagiosql/admin/checkcommands.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+19 | File | `/SysInfo.htm` | Medium
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/usr/5bin/su` | Medium
+23 | File | `/usr/bin/mail` | High
+24 | File | `/usr/bin/pkexec` | High
 25 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-26 | File | `00.jsp` | Low
-27 | File | `add_2_basket.asp` | High
-28 | File | `admin-ajax.php` | High
-29 | File | `admin.asp` | Medium
-30 | File | `admin.jcomments.php` | High
-31 | File | `admin.php` | Medium
-32 | File | `admin/` | Low
+26 | File | `add_2_basket.asp` | High
+27 | File | `admin-ajax.php` | High
+28 | File | `admin.asp` | Medium
+29 | File | `admin.jcomments.php` | High
+30 | File | `admin.php` | Medium
+31 | File | `admin/` | Low
+32 | File | `admin/?page=categories/manage_category` | High
 33 | File | `admin/?page=system_info` | High
 34 | File | `admin/aboutus.php` | High
 35 | File | `admin/article_save.php` | High
@@ -119,7 +118,7 @@ ID | Type | Indicator | Confidence
 48 | File | `autologin.jsp` | High
 49 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,7 +131,6 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://www.deepinstinct.com/2019/04/02/new-servhelper-variant-employs-excel-4-0-macro-to-drop-signed-payload/
 * https://www.proofpoint.com/us/threat-insight/post/leaked-ammyy-admin-source-code-turned-malware
 * https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505
-* https://www.proofpoint.com/us/threat-insight/post/ta505-abusing-settingcontent-ms-within-pdf-files-distribute-flawedammyy-rat
 * https://www.proofpoint.com/us/threat-insight/post/ta505-distributes-new-sdbbot-remote-access-trojan-get2-downloader
 * https://www.zerofox.com/blog/ta505-halloween-malware/
 

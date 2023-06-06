@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +31,8 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.62.61.64](https://vuldb.com/?ip.5.62.61.64) | r-64-61-62-5.consumer-pool.prcdn.net | - | High
 3 | [45.12.70.122](https://vuldb.com/?ip.45.12.70.122) | engineers.yourbandinc.com | - | High
 4 | [45.12.71.122](https://vuldb.com/?ip.45.12.71.122) | - | - | High
-5 | ... | ... | ... | ...
+5 | [46.36.203.81](https://vuldb.com/?ip.46.36.203.81) | - | - | High
+6 | ... | ... | ... | ...
 
 There are 18 more IOC items available. Please use our online service to access the data.
 
@@ -45,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -91,28 +93,34 @@ ID | Type | Indicator | Confidence
 34 | File | `adclick.php` | Medium
 35 | File | `adm/systools.asp` | High
 36 | File | `admin` | Low
-37 | File | `admin/adminsignin.html` | High
-38 | File | `admin/category.inc.php` | High
-39 | File | `admin/editproductetails.php` | High
-40 | File | `admin/main.asp` | High
-41 | File | `admin/movieview.php` | High
-42 | File | `admin/versions.html` | High
-43 | File | `admin/y_admin.asp` | High
-44 | File | `adminer.php` | Medium
-45 | File | `administrator/components/com_media/helpers/media.php` | High
-46 | File | `admin_ok.asp` | Medium
-47 | File | `app/Core/Paginator.php` | High
-48 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-49 | File | `attendancy.php` | High
-50 | ... | ... | ...
+37 | File | `admin.php` | Medium
+38 | File | `admin/adminsignin.html` | High
+39 | File | `admin/category.inc.php` | High
+40 | File | `admin/editproductetails.php` | High
+41 | File | `admin/main.asp` | High
+42 | File | `admin/movieview.php` | High
+43 | File | `admin/versions.html` | High
+44 | File | `admin/y_admin.asp` | High
+45 | File | `adminer.php` | Medium
+46 | File | `administrator/components/com_media/helpers/media.php` | High
+47 | File | `admin_ok.asp` | Medium
+48 | File | `album_portal.php` | High
+49 | File | `app/Core/Paginator.php` | High
+50 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+51 | File | `attendancy.php` | High
+52 | File | `AttributionSource.java` | High
+53 | File | `auth-gss2.c` | Medium
+54 | File | `auth.php` | Medium
+55 | ... | ... | ...
 
-There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kp.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_kp.netset
 * https://www.microsoft.com/en-us/security/blog/2022/07/14/north-korean-threat-actor-targets-small-and-midsize-businesses-with-h0lygh0st-ransomware/
 
 ## Literature

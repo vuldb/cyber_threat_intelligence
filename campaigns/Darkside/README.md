@@ -9,7 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Darkside:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
+* [CA](https://vuldb.com/?country.ca)
+* [ID](https://vuldb.com/?country.id)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -26,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [81.91.177.54](https://vuldb.com/?ip.81.91.177.54) | free.example.com | [UNC2465](https://vuldb.com/?actor.unc2465) | High
-2 | [99.83.154.118](https://vuldb.com/?ip.99.83.154.118) | a51062ecadbb5a26e.awsglobalaccelerator.com | [DarkSide](https://vuldb.com/?actor.darkside) | High
-3 | [176.103.62.217](https://vuldb.com/?ip.176.103.62.217) | - | [DarkSide](https://vuldb.com/?actor.darkside) | High
+1 | [51.79.243.236](https://vuldb.com/?ip.51.79.243.236) | vps-55125c46.vps.ovh.ca | [DarkSide](https://vuldb.com/?actor.darkside) | High
+2 | [81.91.177.54](https://vuldb.com/?ip.81.91.177.54) | free.example.com | [UNC2465](https://vuldb.com/?actor.unc2465) | High
+3 | [99.83.154.118](https://vuldb.com/?ip.99.83.154.118) | a51062ecadbb5a26e.awsglobalaccelerator.com | [DarkSide](https://vuldb.com/?actor.darkside) | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,12 +61,13 @@ ID | Type | Indicator | Confidence
 3 | File | `addentry.php` | Medium
 4 | ... | ... | ...
 
-There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://bazaar.abuse.ch/sample/6a7b7147fea63d77368c73cef205eb75d16ef209a246b05698358a28fd16e502/
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar21-189a
 * https://us-cert.cisa.gov/sites/default/files/publications/AA21-131A.stix.xml
 * https://www.fireeye.com/blog/threat-research/2021/06/darkside-affiliate-supply-chain-software-compromise.html

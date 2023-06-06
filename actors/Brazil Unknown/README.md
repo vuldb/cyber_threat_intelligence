@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with Brazil Unknown:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Brazil Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [BR](https://vuldb.com/?country.br)
 * [CN](https://vuldb.com/?country.cn)
+* [BR](https://vuldb.com/?country.br)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -1777,21 +1777,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1748 | [45.180.116.0](https://vuldb.com/?ip.45.180.116.0) | - | - | High
 1749 | [45.180.128.0](https://vuldb.com/?ip.45.180.128.0) | 45.180.128.0.2rnet.com.br | - | High
 1750 | [45.180.136.0](https://vuldb.com/?ip.45.180.136.0) | 45-180-136-0.azarititelecom.com.br | - | High
-1751 | [45.180.144.0](https://vuldb.com/?ip.45.180.144.0) | static-45-180-144-0.pntipontonet.net.br | - | High
-1752 | [45.180.160.0](https://vuldb.com/?ip.45.180.160.0) | pinhaltelecom.com.br | - | High
-1753 | [45.180.168.0](https://vuldb.com/?ip.45.180.168.0) | - | - | High
-1754 | [45.180.178.0](https://vuldb.com/?ip.45.180.178.0) | - | - | High
-1755 | [45.180.184.0](https://vuldb.com/?ip.45.180.184.0) | - | - | High
-1756 | [45.180.192.0](https://vuldb.com/?ip.45.180.192.0) | - | - | High
-1757 | [45.180.224.0](https://vuldb.com/?ip.45.180.224.0) | 45-180.224-0.galaxyanettelecom.com.br | - | High
-1758 | [45.180.236.0](https://vuldb.com/?ip.45.180.236.0) | 45.180.236.0.conectetelecomba.com.br | - | High
-1759 | [45.180.248.0](https://vuldb.com/?ip.45.180.248.0) | - | - | High
-1760 | [45.181.0.0](https://vuldb.com/?ip.45.181.0.0) | - | - | High
-1761 | [45.181.4.0](https://vuldb.com/?ip.45.181.4.0) | - | - | High
-1762 | [45.181.7.0](https://vuldb.com/?ip.45.181.7.0) | - | - | High
-1763 | ... | ... | ... | ...
+1751 | ... | ... | ... | ...
 
-There are 7046 more IOC items available. Please use our online service to access the data.
+There are 6998 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -1799,13 +1787,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1813,50 +1801,58 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/` | Low
-2 | File | `/admin/cashadvance_row.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/userprofile.php` | High
-5 | File | `/APR/login.php` | High
-6 | File | `/APR/signup.php` | High
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/licenses` | Medium
-10 | File | `/mics/j_spring_security_check` | High
-11 | File | `/mims/login.php` | High
-12 | File | `/php-scrm/login.php` | High
-13 | File | `/proxy` | Low
-14 | File | `/public/launchNewWindow.jsp` | High
-15 | File | `/textpattern/index.php` | High
-16 | File | `/tmp` | Low
-17 | File | `/user/updatePwd` | High
-18 | File | `abook_database.php` | High
-19 | File | `account-signup.php` | High
-20 | File | `account/signup.php` | High
-21 | File | `activenews_view.asp` | High
-22 | File | `adclick.php` | Medium
-23 | File | `addentry.php` | Medium
-24 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-25 | File | `admin-ajax.php` | High
-26 | File | `admin.a6mambocredits.php` | High
-27 | File | `admin.cropcanvas.php` | High
-28 | File | `admin.php` | Medium
-29 | File | `admin/admin_editor.php` | High
-30 | File | `admin/asset/grid-proxy` | High
-31 | File | `admin/auditTrail.jsf` | High
-32 | File | `admin/conf_users_edit.php` | High
-33 | File | `admin/edit_category.php` | High
-34 | File | `adminer.php` | Medium
-35 | File | `admin_ip.php` | Medium
-36 | File | `AjaxFileUploadHandler.axd` | High
-37 | File | `al_initialize.php` | High
-38 | File | `app/controllers/oauth.js` | High
-39 | File | `articulo.php` | Medium
-40 | File | `artlinks.dispnew.php` | High
-41 | File | `art_detalle.php` | High
-42 | ... | ... | ...
+1 | File | `//WEB-INF` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/update/getFile.html` | High
+4 | File | `/admin/` | Low
+5 | File | `/admin/cashadvance_row.php` | High
+6 | File | `/admin/maintenance/view_designation.php` | High
+7 | File | `/admin/userprofile.php` | High
+8 | File | `/APR/login.php` | High
+9 | File | `/APR/signup.php` | High
+10 | File | `/cgi-bin/ping.cgi` | High
+11 | File | `/cgi-bin/wapopen` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/E-mobile/App/System/File/downfile.php` | High
+14 | File | `/Electron/download` | High
+15 | File | `/feeds/post/publish` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/inc/jquery/uploadify/uploadify.php` | High
+18 | File | `/index.php?app=main&func=passport&action=login` | High
+19 | File | `/licenses` | Medium
+20 | File | `/mics/j_spring_security_check` | High
+21 | File | `/mims/login.php` | High
+22 | File | `/Moosikay/order.php` | High
+23 | File | `/opac/Actions.php?a=login` | High
+24 | File | `/php-scrm/login.php` | High
+25 | File | `/proxy` | Low
+26 | File | `/public/launchNewWindow.jsp` | High
+27 | File | `/reservation/add_message.php` | High
+28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+29 | File | `/send_order.cgi?parameter=access_detect` | High
+30 | File | `/textpattern/index.php` | High
+31 | File | `/tmp` | Low
+32 | File | `/user/updatePwd` | High
+33 | File | `/v2/customerdb/operator.svc/a` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `a-forms.php` | Medium
+36 | File | `abook_database.php` | High
+37 | File | `account/signup.php` | High
+38 | File | `activenews_view.asp` | High
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+42 | File | `admin-ajax.php` | High
+43 | File | `admin.a6mambocredits.php` | High
+44 | File | `admin.cropcanvas.php` | High
+45 | File | `admin.jcomments.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin/admin_editor.php` | High
+48 | File | `admin/asset/grid-proxy` | High
+49 | File | `admin/auditTrail.jsf` | High
+50 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

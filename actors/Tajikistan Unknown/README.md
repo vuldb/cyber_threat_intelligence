@@ -29,11 +29,15 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [45.12.71.220](https://vuldb.com/?ip.45.12.71.220) | - | - | High
 7 | [45.59.165.0](https://vuldb.com/?ip.45.59.165.0) | - | - | High
 8 | [45.94.216.0](https://vuldb.com/?ip.45.94.216.0) | - | - | High
-9 | [46.20.192.0](https://vuldb.com/?ip.46.20.192.0) | - | - | High
-10 | [46.36.202.181](https://vuldb.com/?ip.46.36.202.181) | - | - | High
-11 | ... | ... | ... | ...
+9 | [45.142.121.0](https://vuldb.com/?ip.45.142.121.0) | - | - | High
+10 | [46.20.192.0](https://vuldb.com/?ip.46.20.192.0) | - | - | High
+11 | [46.36.202.181](https://vuldb.com/?ip.46.36.202.181) | - | - | High
+12 | [46.36.202.182](https://vuldb.com/?ip.46.36.202.182) | - | - | High
+13 | [46.36.202.184](https://vuldb.com/?ip.46.36.202.184) | - | - | High
+14 | [46.36.202.188](https://vuldb.com/?ip.46.36.202.188) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
@@ -63,37 +67,44 @@ ID | Type | Indicator | Confidence
 7 | File | `/filemanager/upload.php` | High
 8 | File | `/forum/away.php` | High
 9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/redirect?url` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/services/details.asp` | High
-16 | File | `/setup` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-21 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-22 | File | `act.php` | Low
-23 | File | `adclick.php` | Medium
-24 | File | `admin` | Low
-25 | File | `admin.php` | Medium
-26 | File | `admin/adminsignin.html` | High
-27 | File | `admin/admin_password.php` | High
-28 | File | `admin/movieview.php` | High
-29 | File | `admin/versions.html` | High
-30 | File | `ajax_calls.php` | High
-31 | File | `api.php` | Low
-32 | ... | ... | ...
+10 | File | `/index.php/weblinks-categories` | High
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/news.dtl.php` | High
+14 | File | `/redirect?url` | High
+15 | File | `/see_more_details.php` | High
+16 | File | `/services/details.asp` | High
+17 | File | `/setup` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+23 | File | `act.php` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `admin` | Low
+26 | File | `admin.php` | Medium
+27 | File | `admin/adminsignin.html` | High
+28 | File | `admin/admin_password.php` | High
+29 | File | `admin/movieview.php` | High
+30 | File | `admin/plib/api-rpc/Agent.php` | High
+31 | File | `admin/versions.html` | High
+32 | File | `ajax_calls.php` | High
+33 | File | `api.php` | Low
+34 | File | `attendancy.php` | High
+35 | File | `auth-gss2.c` | Medium
+36 | File | `blog.php` | Medium
+37 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_tj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tj.netset
 
 ## Literature
 

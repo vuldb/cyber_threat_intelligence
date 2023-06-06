@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,17 +55,17 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/sysmon.php` | High
 3 | File | `/api/content/posts/comments` | High
 4 | File | `/churchcrm/WhyCameEditor.php` | High
-5 | File | `/example/editor` | High
-6 | File | `/goform/aspForm` | High
-7 | File | `/Home/GetAttachment` | High
-8 | File | `/index.php?page=search/rentals` | High
-9 | File | `/members/view_member.php` | High
-10 | File | `/mgmt/tm/util/bash` | High
-11 | File | `/modules/projects/vw_files.php` | High
-12 | File | `/see_more_details.php` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/example/editor` | High
+7 | File | `/goform/aspForm` | High
+8 | File | `/Home/GetAttachment` | High
+9 | File | `/index.php?page=search/rentals` | High
+10 | File | `/members/view_member.php` | High
+11 | File | `/mgmt/tm/util/bash` | High
+12 | File | `/modules/projects/vw_files.php` | High
 13 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 101 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

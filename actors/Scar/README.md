@@ -23,8 +23,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [52.85.151.59](https://vuldb.com/?ip.52.85.151.59) | server-52-85-151-59.iad89.r.cloudfront.net | - | High
 4 | [64.186.131.47](https://vuldb.com/?ip.64.186.131.47) | - | - | High
 5 | [67.228.31.225](https://vuldb.com/?ip.67.228.31.225) | e1.1f.e443.ip4.static.sl-reverse.com | - | High
-6 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more IOC items available. Please use our online service to access the data.
 
@@ -35,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 3 | T1202 | CWE-77 | Command Injection | High
 4 | ... | ... | ... | ...
 

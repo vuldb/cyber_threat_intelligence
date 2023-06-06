@@ -11,12 +11,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [133.242.134.121](https://vuldb.com/?ip.133.242.134.121) | usv0503.iqservs-jp.com | - | High
+2 | [161.129.64.124](https://vuldb.com/?ip.161.129.64.124) | 161.129.64.124.static.quadranet.com | - | High
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://www.symantec.com/connect/blogs/suckfly-revealing-secret-life-your-code-signing-certificates
+* https://www.welivesecurity.com/2021/03/10/exchange-servers-under-siege-10-apt-groups/
 
 ## Literature
 

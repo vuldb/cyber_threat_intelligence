@@ -66,14 +66,14 @@ ID | Type | Indicator | Confidence
 5 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
 6 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 7 | File | `admin.php` | Medium
-8 | File | `admin/google_search_console/class-gsc-table.php` | High
-9 | File | `ajax.php` | Medium
-10 | File | `akocomments.php` | High
-11 | File | `auth.inc.php` | Medium
-12 | File | `bgpd/bgp_aspath.c` | High
+8 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
+9 | File | `admin/google_search_console/class-gsc-table.php` | High
+10 | File | `ajax.php` | Medium
+11 | File | `akocomments.php` | High
+12 | File | `auth.inc.php` | Medium
 13 | ... | ... | ...
 
-There are 104 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

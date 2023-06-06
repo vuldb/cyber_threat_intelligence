@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [MS](https://vuldb.com/?country.ms)
 * [HK](https://vuldb.com/?country.hk)
-* [KR](https://vuldb.com/?country.kr)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -47,8 +47,7 @@ ID | IP address | Hostname | Actor | Confidence
 16 | [101.55.64.183](https://vuldb.com/?ip.101.55.64.183) | - | [PassCV](https://vuldb.com/?actor.passcv) | High
 17 | [101.55.64.209](https://vuldb.com/?ip.101.55.64.209) | - | [PassCV](https://vuldb.com/?actor.passcv) | High
 18 | [101.55.64.246](https://vuldb.com/?ip.101.55.64.246) | - | [PassCV](https://vuldb.com/?actor.passcv) | High
-19 | [101.55.64.248](https://vuldb.com/?ip.101.55.64.248) | - | [PassCV](https://vuldb.com/?actor.passcv) | High
-20 | ... | ... | ... | ...
+19 | ... | ... | ... | ...
 
 There are 74 more IOC items available. Please use our online service to access the data.
 
@@ -64,7 +63,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,7 +91,7 @@ ID | Type | Indicator | Confidence
 18 | File | `/wp-json/oembed/1.0/embed?url` | High
 19 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

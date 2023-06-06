@@ -10,7 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PF](https://vuldb.com/?country.pf)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [AU](https://vuldb.com/?country.au)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,11 +24,13 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [43.249.176.0](https://vuldb.com/?ip.43.249.176.0) | - | - | High
 2 | [45.12.70.176](https://vuldb.com/?ip.45.12.70.176) | wholesomely.alltieinc.com | - | High
 3 | [45.12.71.176](https://vuldb.com/?ip.45.12.71.176) | - | - | High
-4 | [103.4.72.0](https://vuldb.com/?ip.103.4.72.0) | - | - | High
-5 | [103.46.216.0](https://vuldb.com/?ip.103.46.216.0) | - | - | High
-6 | ... | ... | ... | ...
+4 | [50.21.80.0](https://vuldb.com/?ip.50.21.80.0) | 0.80.21.50.abo.mana.pf | - | High
+5 | [64.140.144.0](https://vuldb.com/?ip.64.140.144.0) | 0.144.140.64.dsl.dyn.mana.pf | - | High
+6 | [103.4.72.0](https://vuldb.com/?ip.103.4.72.0) | - | - | High
+7 | [103.46.216.0](https://vuldb.com/?ip.103.46.216.0) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 19 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -33,12 +38,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 5 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,17 +52,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `Access.app/Contents/Resources/kcproxy` | High
-2 | File | `htdocs/main.inc.php` | High
-3 | File | `UserNotificationCenter.app` | High
+2 | File | `accountancy/customer/card.php` | High
+3 | File | `admin/downloadbackup.php` | High
 4 | ... | ... | ...
 
-There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pf.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pf.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_pf.netset
 
 ## Literature
 

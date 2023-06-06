@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.60.168](https://vuldb.com/?ip.5.62.60.168) | r-168-60-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.62.160](https://vuldb.com/?ip.5.62.62.160) | r-160-62-62-5.consumer-pool.prcdn.net | - | High
 3 | [45.12.70.94](https://vuldb.com/?ip.45.12.70.94) | feet-corks.yourbandinc.com | - | High
-4 | ... | ... | ... | ...
+4 | [45.12.71.94](https://vuldb.com/?ip.45.12.71.94) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 9 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +38,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -50,44 +52,48 @@ ID | Type | Indicator | Confidence
 1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/opt/bin/cli` | Medium
-12 | File | `/p` | Low
-13 | File | `/patient/doctors.php` | High
-14 | File | `/phpinventory/editcategory.php` | High
-15 | File | `/product-list.php` | High
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/updown/upload.cgi` | High
-19 | File | `/user/del.php` | High
-20 | File | `/_next` | Low
-21 | File | `123flashchat.php` | High
-22 | File | `act.php` | Low
-23 | File | `admin/bad.php` | High
-24 | File | `admin/index.php` | High
-25 | File | `admin/index.php/user/del/1` | High
-26 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-27 | File | `administrator/index.php` | High
-28 | File | `ajax/render/widget_php` | High
-29 | File | `album_portal.php` | High
-30 | File | `api.php` | Low
-31 | File | `application/home/controller/debug.php` | High
-32 | File | `articulo.php` | Medium
-33 | ... | ... | ...
+4 | File | `/admin/forgot-password.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/lab.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/default.php?idx=17` | High
+10 | File | `/download` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/opt/bin/cli` | Medium
+14 | File | `/p` | Low
+15 | File | `/patient/doctors.php` | High
+16 | File | `/phpinventory/editcategory.php` | High
+17 | File | `/product-list.php` | High
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/updown/upload.cgi` | High
+21 | File | `/user/del.php` | High
+22 | File | `/_next` | Low
+23 | File | `123flashchat.php` | High
+24 | File | `act.php` | Low
+25 | File | `admin/bad.php` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin/index.php/user/del/1` | High
+28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+29 | File | `administrator/index.php` | High
+30 | File | `agenda.php` | Medium
+31 | File | `ajax/render/widget_php` | High
+32 | File | `album_portal.php` | High
+33 | File | `api.php` | Low
+34 | File | `application/home/controller/debug.php` | High
+35 | ... | ... | ...
 
-There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_gw.netset
 
 ## Literature
 

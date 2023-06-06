@@ -58,7 +58,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -75,25 +75,26 @@ ID | Type | Indicator | Confidence
 7 | File | `/export` | Low
 8 | File | `/file?action=download&file` | High
 9 | File | `/hardware` | Medium
-10 | File | `/medical/inventories.php` | High
-11 | File | `/monitoring` | Medium
-12 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-13 | File | `/plugin/LiveChat/getChat.json.php` | High
-14 | File | `/plugins/servlet/audit/resource` | High
-15 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-16 | File | `/replication` | Medium
-17 | File | `/RestAPI` | Medium
-18 | File | `/tmp/speedtest_urls.xml` | High
-19 | File | `/tmp/zarafa-vacation-*` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/upload` | Low
-22 | File | `/user/loader.php?api=1` | High
-23 | File | `/var/log/nginx` | High
-24 | File | `/var/run/watchman.pid` | High
-25 | File | `/viewer/krpano.html` | High
-26 | ... | ... | ...
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/medical/inventories.php` | High
+12 | File | `/monitoring` | Medium
+13 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+14 | File | `/plugin/LiveChat/getChat.json.php` | High
+15 | File | `/plugins/servlet/audit/resource` | High
+16 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+17 | File | `/replication` | Medium
+18 | File | `/RestAPI` | Medium
+19 | File | `/tmp/speedtest_urls.xml` | High
+20 | File | `/tmp/zarafa-vacation-*` | High
+21 | File | `/uncpath/` | Medium
+22 | File | `/upload` | Low
+23 | File | `/user/loader.php?api=1` | High
+24 | File | `/var/log/nginx` | High
+25 | File | `/var/run/watchman.pid` | High
+26 | File | `/viewer/krpano.html` | High
+27 | ... | ... | ...
 
-There are 223 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 224 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

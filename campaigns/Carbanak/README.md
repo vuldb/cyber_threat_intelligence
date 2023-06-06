@@ -65,7 +65,8 @@ ID | IP address | Hostname | Actor | Confidence
 33 | [62.210.25.121](https://vuldb.com/?ip.62.210.25.121) | svgit.festivalscope.com | [Carbanak](https://vuldb.com/?actor.carbanak) | High
 34 | [65.19.141.199](https://vuldb.com/?ip.65.19.141.199) | - | [Carbanak](https://vuldb.com/?actor.carbanak) | High
 35 | [66.55.133.86](https://vuldb.com/?ip.66.55.133.86) | 66-55-133-86.choopa.net | [Carbanak](https://vuldb.com/?actor.carbanak) | High
-36 | ... | ... | ... | ...
+36 | [66.232.124.175](https://vuldb.com/?ip.66.232.124.175) | customer.hivelocity.net | [Carbanak](https://vuldb.com/?actor.carbanak) | High
+37 | ... | ... | ... | ...
 
 There are 142 more IOC items available. Please use our online service to access the data.
 
@@ -132,13 +133,14 @@ ID | Type | Indicator | Confidence
 40 | File | `admin.php` | Medium
 41 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf
+* https://securityintelligence.com/posts/ex-conti-fin7-actors-collaborate-new-backdoor/
 * https://www.forcepoint.com/blog/x-labs/carbanak-group-uses-google-malware-command-and-control
 * https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf
 * https://www.prodaft.com/resource/detail/fin7-unveiled-deep-dive-notorious-cybercrime-gang

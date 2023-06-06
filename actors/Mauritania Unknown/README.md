@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [GB](https://vuldb.com/?country.gb)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +25,13 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.62.63.4](https://vuldb.com/?ip.5.62.63.4) | r-4-63-62-5.consumer-pool.prcdn.net | - | High
 3 | [41.138.128.0](https://vuldb.com/?ip.41.138.128.0) | - | - | High
 4 | [41.188.64.0](https://vuldb.com/?ip.41.188.64.0) | - | - | High
-5 | ... | ... | ... | ...
+5 | [41.221.221.0](https://vuldb.com/?ip.41.221.221.0) | 41-221-221-0.static.pccwglobal.net | - | High
+6 | [41.223.96.0](https://vuldb.com/?ip.41.223.96.0) | - | - | High
+7 | [45.12.70.152](https://vuldb.com/?ip.45.12.70.152) | system-pudding.alltieinc.com | - | High
+8 | [45.12.71.152](https://vuldb.com/?ip.45.12.71.152) | - | - | High
+9 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 33 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -68,25 +72,27 @@ ID | Type | Indicator | Confidence
 17 | File | `/services/details.asp` | High
 18 | File | `/setup` | Low
 19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/var/log/nginx` | High
-22 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-24 | File | `act.php` | Low
-25 | File | `adclick.php` | Medium
-26 | File | `admin` | Low
-27 | File | `admin.php` | Medium
-28 | File | `admin/adminsignin.html` | High
-29 | File | `admin/movieview.php` | High
+20 | File | `/uapi/doc` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/var/log/nginx` | High
+23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+24 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+25 | File | `act.php` | Low
+26 | File | `adclick.php` | Medium
+27 | File | `admin` | Low
+28 | File | `admin.php` | Medium
+29 | File | `admin/adminsignin.html` | High
 30 | ... | ... | ...
 
-There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mr.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mr.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_mr.netset
 
 ## Literature
 

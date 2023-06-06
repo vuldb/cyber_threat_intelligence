@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [117.136.63.145](https://vuldb.com/?ip.117.136.63.145) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,10 +45,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/getcfg.php` | Medium
 2 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-3 | File | `http_auth.c` | Medium
+3 | File | `/videotalk` | Medium
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

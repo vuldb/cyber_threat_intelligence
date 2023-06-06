@@ -25,11 +25,9 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [64.110.25.152](https://vuldb.com/?ip.64.110.25.152) | h2iuode.hairrestoredfast.top | - | High
 7 | [64.110.25.153](https://vuldb.com/?ip.64.110.25.153) | vaxoiu5.shadego.top | - | High
 8 | [64.110.25.154](https://vuldb.com/?ip.64.110.25.154) | nae2oiu.sidedgo.top | - | High
-9 | [107.173.193.242](https://vuldb.com/?ip.107.173.193.242) | 107-173-193-242-host.colocrossing.com | - | High
-10 | [107.173.193.243](https://vuldb.com/?ip.107.173.193.243) | 107-173-193-243-host.colocrossing.com | - | High
-11 | ... | ... | ... | ...
+9 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

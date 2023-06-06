@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,9 +26,11 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [41.78.136.0](https://vuldb.com/?ip.41.78.136.0) | - | - | High
 4 | [41.207.160.0](https://vuldb.com/?ip.41.207.160.0) | - | - | High
 5 | [45.12.70.218](https://vuldb.com/?ip.45.12.70.218) | scenes.globalhilive.com | - | High
-6 | ... | ... | ... | ...
+6 | [45.12.71.218](https://vuldb.com/?ip.45.12.71.218) | - | - | High
+7 | [45.42.169.0](https://vuldb.com/?ip.45.42.169.0) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -78,15 +80,18 @@ ID | Type | Indicator | Confidence
 27 | File | `admin/versions.html` | High
 28 | File | `ajax_calls.php` | High
 29 | File | `al_initialize.php` | High
-30 | ... | ... | ...
+30 | File | `api.php` | Low
+31 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 260 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_tg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tg.netset
 
 ## Literature
 

@@ -68,32 +68,32 @@ ID | Type | Indicator | Confidence
 5 | File | `/cgi-bin/webadminget.cgi` | High
 6 | File | `/cms/process.php` | High
 7 | File | `/DXR.axd` | Medium
-8 | File | `/etc/shadow` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/goform/SetNetControlList` | High
-11 | File | `/hrm/controller/employee.php` | High
-12 | File | `/index.php/weblinks-categories` | High
-13 | File | `/modules/profile/index.php` | High
-14 | File | `/movie.php` | Medium
-15 | File | `/public/login.htm` | High
-16 | File | `/service/v1/createUser` | High
-17 | File | `/show_news.php` | High
-18 | File | `/system?action=ServiceAdmin` | High
-19 | File | `/uncpath/` | Medium
-20 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-21 | File | `adclick.php` | Medium
-22 | File | `admin.asp` | Medium
-23 | File | `admin/categories_industry.php` | High
-24 | File | `admin/content/postcategory` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/settings.php` | High
-27 | File | `admin/status/realtime/bandwidth_status` | High
-28 | File | `adminAttachments.php` | High
-29 | File | `adminAvatars.php` | High
-30 | File | `adminBoards.php` | High
+8 | File | `/env` | Low
+9 | File | `/etc/shadow` | Medium
+10 | File | `/forum/away.php` | High
+11 | File | `/goform/SetNetControlList` | High
+12 | File | `/hrm/controller/employee.php` | High
+13 | File | `/index.php/weblinks-categories` | High
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/movie.php` | Medium
+16 | File | `/public/login.htm` | High
+17 | File | `/service/v1/createUser` | High
+18 | File | `/show_news.php` | High
+19 | File | `/system?action=ServiceAdmin` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+22 | File | `adclick.php` | Medium
+23 | File | `admin.asp` | Medium
+24 | File | `admin/categories_industry.php` | High
+25 | File | `admin/content/postcategory` | High
+26 | File | `admin/index.php` | High
+27 | File | `admin/settings.php` | High
+28 | File | `admin/status/realtime/bandwidth_status` | High
+29 | File | `adminAttachments.php` | High
+30 | File | `adminAvatars.php` | High
 31 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

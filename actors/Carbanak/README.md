@@ -65,7 +65,7 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [66.232.124.175](https://vuldb.com/?ip.66.232.124.175) | customer.hivelocity.net | - | High
 36 | ... | ... | ... | ...
 
-There are 140 more IOC items available. Please use our online service to access the data.
+There are 141 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -137,6 +137,7 @@ There are 353 more IOA items available (file, library, argument, input value, pa
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://media.kasperskycontenthub.com/wp-content/uploads/sites/43/2018/03/08064518/Carbanak_APT_eng.pdf
+* https://securityintelligence.com/posts/ex-conti-fin7-actors-collaborate-new-backdoor/
 * https://www.forcepoint.com/blog/x-labs/carbanak-group-uses-google-malware-command-and-control
 * https://www.group-ib.com/resources/threat-research/Anunak_APT_against_financial_institutions.pdf
 * https://www.threatminer.org/report.php?q=Carbanak-Oraclebreach-KresonSecurity.pdf&y=2016

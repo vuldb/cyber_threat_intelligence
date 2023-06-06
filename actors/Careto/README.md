@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,26 +53,26 @@ ID | Type | Indicator | Confidence
 2 | File | `/APP_Installation.asp` | High
 3 | File | `/cgi-bin/live_api.cgi` | High
 4 | File | `/IISADMPWD` | Medium
-5 | File | `/pages/class_sched.php` | High
-6 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
-7 | File | `/platform.cgi` | High
-8 | File | `/Status/wan_button_action.asp` | High
-9 | File | `/tmp/.uci/network` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/Users` | Low
-12 | File | `/usr/` | Low
-13 | File | `Aavmker4.sys` | Medium
-14 | File | `add_user.php` | Medium
-15 | File | `admin/app/physical/physical.php` | High
-16 | File | `admin/auto.def` | High
-17 | File | `api/settings/values` | High
-18 | File | `app/admin/custom-fields/filter.php` | High
-19 | File | `appfeed.c` | Medium
-20 | File | `ashmem.c` | Medium
-21 | File | `auth-gss2.c` | Medium
+5 | File | `/items/view_item.php` | High
+6 | File | `/pages/class_sched.php` | High
+7 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+8 | File | `/platform.cgi` | High
+9 | File | `/Status/wan_button_action.asp` | High
+10 | File | `/tmp/.uci/network` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/Users` | Low
+13 | File | `/usr/` | Low
+14 | File | `Aavmker4.sys` | Medium
+15 | File | `add_user.php` | Medium
+16 | File | `admin/app/physical/physical.php` | High
+17 | File | `admin/auto.def` | High
+18 | File | `api/settings/values` | High
+19 | File | `app/admin/custom-fields/filter.php` | High
+20 | File | `appfeed.c` | Medium
+21 | File | `ashmem.c` | Medium
 22 | ... | ... | ...
 
-There are 183 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 185 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

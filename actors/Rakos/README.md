@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [PL](https://vuldb.com/?country.pl)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,7 +37,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -49,24 +50,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/addWhiteListDomain.imss` | High
 2 | File | `/anony/mjpg.cgi` | High
-3 | File | `/include/makecvs.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/login/index.php` | High
-6 | File | `/requests.php` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-9 | File | `add.php` | Low
-10 | File | `adm_config_report.php` | High
-11 | File | `ampie.swf` | Medium
-12 | File | `auth-gss2.c` | Medium
-13 | File | `cat.asp` | Low
-14 | File | `class.phpmailer.php` | High
-15 | File | `clickstats.php` | High
-16 | File | `CodeMeter.exe` | High
-17 | File | `components/bitrix/mobileapp.list/ajax.php/` | High
+3 | File | `/forum/away.php` | High
+4 | File | `/include/makecvs.php` | High
+5 | File | `/index.php` | Medium
+6 | File | `/login/index.php` | High
+7 | File | `/requests.php` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+10 | File | `add.php` | Low
+11 | File | `adm_config_report.php` | High
+12 | File | `ampie.swf` | Medium
+13 | File | `api/it-recht-kanzlei/api-it-recht-kanzlei.php` | High
+14 | File | `auth-gss2.c` | Medium
+15 | File | `cat.asp` | Low
+16 | File | `class.phpmailer.php` | High
+17 | File | `clickstats.php` | High
 18 | ... | ... | ...
 
-There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

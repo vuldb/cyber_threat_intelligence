@@ -52,7 +52,7 @@ ID | IP address | Hostname | Campaign | Confidence
 29 | [46.54.224.12](https://vuldb.com/?ip.46.54.224.12) | ntp1.kate-wing.si | - | High
 30 | ... | ... | ... | ...
 
-There are 118 more IOC items available. Please use our online service to access the data.
+There are 117 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +66,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,7 +101,7 @@ ID | Type | Indicator | Confidence
 25 | File | `/viewer/krpano.html` | High
 26 | ... | ... | ...
 
-There are 218 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 216 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

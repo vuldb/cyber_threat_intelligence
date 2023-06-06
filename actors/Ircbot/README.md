@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,16 +48,23 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/catcompany.php` | High
-2 | File | `/proc/self/cwd` | High
-3 | File | `/uncpath/` | Medium
-4 | File | `/wp-admin/options-general.php` | High
-5 | File | `admin/movieview.php` | High
-6 | File | `admincp/attachment.php` | High
-7 | File | `auth2-chall.c` | High
-8 | ... | ... | ...
+1 | File | `/admin/budget/manage_budget.php` | High
+2 | File | `/admin/edit_subject.php` | High
+3 | File | `/admin/save_teacher.php` | High
+4 | File | `/admin/service.php` | High
+5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+6 | File | `/cas/logout` | Medium
+7 | File | `/catcompany.php` | High
+8 | File | `/dosen/data` | Medium
+9 | File | `/jurusan/data` | High
+10 | File | `/kelas/data` | Medium
+11 | File | `/kelasdosen/data` | High
+12 | File | `/mahasiswa/data` | High
+13 | File | `/proc/self/cwd` | High
+14 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+15 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

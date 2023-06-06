@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-37 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -60,17 +60,18 @@ ID | Type | Indicator | Confidence
 1 | File | `/.ssh/authorized_keys` | High
 2 | File | `/api/plugin/uninstall` | High
 3 | File | `/cgi-bin/webproc` | High
-4 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-5 | File | `/modules/tasks/summary.inc.php` | High
-6 | File | `/rest/api/2/user/picker` | High
-7 | File | `/secure/QueryComponent!Default.jspa` | High
-8 | File | `/uncpath/` | Medium
-9 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-10 | File | `account_activations/edit` | High
-11 | File | `AddResolution.jspa` | High
-12 | ... | ... | ...
+4 | File | `/dosen/data` | Medium
+5 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+6 | File | `/modules/tasks/summary.inc.php` | High
+7 | File | `/rest/api/2/user/picker` | High
+8 | File | `/secure/QueryComponent!Default.jspa` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+11 | File | `account_activations/edit` | High
+12 | File | `AddResolution.jspa` | High
+13 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

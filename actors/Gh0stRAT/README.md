@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gh0stRAT:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -87,11 +87,9 @@ ID | IP address | Hostname | Campaign | Confidence
 64 | [58.218.67.245](https://vuldb.com/?ip.58.218.67.245) | - | - | High
 65 | [58.218.199.225](https://vuldb.com/?ip.58.218.199.225) | - | - | High
 66 | [58.221.47.41](https://vuldb.com/?ip.58.221.47.41) | - | - | High
-67 | [58.221.47.47](https://vuldb.com/?ip.58.221.47.47) | - | - | High
-68 | [59.13.211.161](https://vuldb.com/?ip.59.13.211.161) | - | - | High
-69 | ... | ... | ... | ...
+67 | ... | ... | ... | ...
 
-There are 271 more IOC items available. Please use our online service to access the data.
+There are 262 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -106,7 +104,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -114,46 +112,45 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/?r=email/api/mark&op=delFromSend` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/upload/upload` | High
+1 | File | `/?r=email/api/mark&op=delFromSend` | High
+2 | File | `/admin/maintenance/view_designation.php` | High
+3 | File | `/admin/upload/upload` | High
+4 | File | `/ajax.php?action=read_msg` | High
 5 | File | `/analysisProject/pagingQueryData` | High
 6 | File | `/api/admin/system/store/order/list` | High
 7 | File | `/api/gen/clients/{language}` | High
 8 | File | `/api/geojson` | Medium
-9 | File | `/apply_noauth.cgi` | High
-10 | File | `/bin/sh` | Low
-11 | File | `/cgi-bin/wlogin.cgi` | High
-12 | File | `/common/sysFile/list` | High
-13 | File | `/config/myfield/test.php` | High
-14 | File | `/context/%2e/WEB-INF/web.xml` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/Default/Bd` | Medium
-17 | File | `/ebics-server/ebics.aspx` | High
-18 | File | `/ecshop/admin/template.php` | High
-19 | File | `/etc/openstack-dashboard/local_settings` | High
-20 | File | `/file/upload/1` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/forum/PostPrivateMessage` | High
-23 | File | `/goform/addressNat` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/HNAP1/SetClientInfo` | High
-26 | File | `/home/www/cgi-bin/login.cgi` | High
-27 | File | `/js/player/dmplayer/dmku/index.php` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/multi-vendor-shopping-script/product-list.php` | High
-30 | File | `/net-banking/customer_transactions.php` | High
-31 | File | `/obs/book.php` | High
-32 | File | `/orrs/admin/?page=user/manage_user` | High
-33 | File | `/ossn/administrator/com_installer` | High
-34 | File | `/pms/update_user.php?user_id=1` | High
-35 | File | `/requests.php` | High
-36 | File | `/resources//../` | High
-37 | File | `/secure/QueryComponent!Default.jspa` | High
-38 | ... | ... | ...
+9 | File | `/bin/sh` | Low
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/classes/Master.php?f=delete_category` | High
+12 | File | `/classes/Master.php?f=save_service` | High
+13 | File | `/common/sysFile/list` | High
+14 | File | `/config/myfield/test.php` | High
+15 | File | `/context/%2e/WEB-INF/web.xml` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/debug/pprof` | Medium
+18 | File | `/Default/Bd` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/ecshop/admin/template.php` | High
+21 | File | `/etc/openstack-dashboard/local_settings` | High
+22 | File | `/file/upload/1` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/forum/PostPrivateMessage` | High
+25 | File | `/goform/addressNat` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/HNAP1/SetClientInfo` | High
+28 | File | `/home/www/cgi-bin/login.cgi` | High
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/js/player/dmplayer/dmku/index.php` | High
+31 | File | `/modules/profile/index.php` | High
+32 | File | `/multi-vendor-shopping-script/product-list.php` | High
+33 | File | `/net-banking/customer_transactions.php` | High
+34 | File | `/obs/book.php` | High
+35 | File | `/orrs/admin/?page=user/manage_user` | High
+36 | File | `/requests.php` | High
+37 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -196,7 +193,6 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0128-0204.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0204-0211.html
 * https://blog.talosintelligence.com/2022/02/threat-roundup-0218-0225.html
-* https://blog.talosintelligence.com/2022/03/threat-roundup-0225-0304.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0325-0401.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0422-0429.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0506-0513.html

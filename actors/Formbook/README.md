@@ -64,30 +64,30 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
 36 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
 37 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
-38 | [34.194.149.67](https://vuldb.com/?ip.34.194.149.67) | ec2-34-194-149-67.compute-1.amazonaws.com | - | Medium
-39 | [34.214.40.214](https://vuldb.com/?ip.34.214.40.214) | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | - | Medium
-40 | [34.216.47.14](https://vuldb.com/?ip.34.216.47.14) | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | - | Medium
-41 | [34.242.63.192](https://vuldb.com/?ip.34.242.63.192) | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | - | Medium
-42 | [34.243.160.251](https://vuldb.com/?ip.34.243.160.251) | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | - | Medium
-43 | [34.255.61.59](https://vuldb.com/?ip.34.255.61.59) | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | - | Medium
-44 | [35.164.33.0](https://vuldb.com/?ip.35.164.33.0) | ec2-35-164-33-0.us-west-2.compute.amazonaws.com | - | Medium
-45 | [35.178.125.63](https://vuldb.com/?ip.35.178.125.63) | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | - | Medium
-46 | [35.227.197.36](https://vuldb.com/?ip.35.227.197.36) | 36.197.227.35.bc.googleusercontent.com | - | Medium
-47 | [35.241.11.162](https://vuldb.com/?ip.35.241.11.162) | 162.11.241.35.bc.googleusercontent.com | - | Medium
-48 | [35.244.140.114](https://vuldb.com/?ip.35.244.140.114) | 114.140.244.35.bc.googleusercontent.com | - | Medium
-49 | [37.123.118.150](https://vuldb.com/?ip.37.123.118.150) | - | - | High
-50 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
-51 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
-52 | [38.63.50.68](https://vuldb.com/?ip.38.63.50.68) | - | - | High
-53 | [40.77.18.167](https://vuldb.com/?ip.40.77.18.167) | - | - | High
-54 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
-55 | [44.194.24.167](https://vuldb.com/?ip.44.194.24.167) | ec2-44-194-24-167.compute-1.amazonaws.com | - | Medium
-56 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
-57 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
-58 | [44.230.85.241](https://vuldb.com/?ip.44.230.85.241) | ec2-44-230-85-241.us-west-2.compute.amazonaws.com | - | Medium
+38 | [34.138.169.8](https://vuldb.com/?ip.34.138.169.8) | 8.169.138.34.bc.googleusercontent.com | - | Medium
+39 | [34.194.149.67](https://vuldb.com/?ip.34.194.149.67) | ec2-34-194-149-67.compute-1.amazonaws.com | - | Medium
+40 | [34.214.40.214](https://vuldb.com/?ip.34.214.40.214) | ec2-34-214-40-214.us-west-2.compute.amazonaws.com | - | Medium
+41 | [34.216.47.14](https://vuldb.com/?ip.34.216.47.14) | ec2-34-216-47-14.us-west-2.compute.amazonaws.com | - | Medium
+42 | [34.242.63.192](https://vuldb.com/?ip.34.242.63.192) | ec2-34-242-63-192.eu-west-1.compute.amazonaws.com | - | Medium
+43 | [34.243.160.251](https://vuldb.com/?ip.34.243.160.251) | ec2-34-243-160-251.eu-west-1.compute.amazonaws.com | - | Medium
+44 | [34.255.61.59](https://vuldb.com/?ip.34.255.61.59) | ec2-34-255-61-59.eu-west-1.compute.amazonaws.com | - | Medium
+45 | [35.164.33.0](https://vuldb.com/?ip.35.164.33.0) | ec2-35-164-33-0.us-west-2.compute.amazonaws.com | - | Medium
+46 | [35.178.125.63](https://vuldb.com/?ip.35.178.125.63) | ec2-35-178-125-63.eu-west-2.compute.amazonaws.com | - | Medium
+47 | [35.227.197.36](https://vuldb.com/?ip.35.227.197.36) | 36.197.227.35.bc.googleusercontent.com | - | Medium
+48 | [35.241.11.162](https://vuldb.com/?ip.35.241.11.162) | 162.11.241.35.bc.googleusercontent.com | - | Medium
+49 | [35.244.140.114](https://vuldb.com/?ip.35.244.140.114) | 114.140.244.35.bc.googleusercontent.com | - | Medium
+50 | [37.123.118.150](https://vuldb.com/?ip.37.123.118.150) | - | - | High
+51 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
+52 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
+53 | [38.63.50.68](https://vuldb.com/?ip.38.63.50.68) | - | - | High
+54 | [40.77.18.167](https://vuldb.com/?ip.40.77.18.167) | - | - | High
+55 | [40.126.26.134](https://vuldb.com/?ip.40.126.26.134) | - | - | High
+56 | [44.194.24.167](https://vuldb.com/?ip.44.194.24.167) | ec2-44-194-24-167.compute-1.amazonaws.com | - | Medium
+57 | [44.227.65.245](https://vuldb.com/?ip.44.227.65.245) | ec2-44-227-65-245.us-west-2.compute.amazonaws.com | - | Medium
+58 | [44.230.27.49](https://vuldb.com/?ip.44.230.27.49) | ec2-44-230-27-49.us-west-2.compute.amazonaws.com | - | Medium
 59 | ... | ... | ... | ...
 
-There are 234 more IOC items available. Please use our online service to access the data.
+There are 232 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -157,6 +157,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-13%20Formbook%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Formbook%20IOCs
 * https://isc.sans.edu/forums/diary/Excel+spreasheet+macro+kicks+off+Formbook+infection/26332/
+* https://research.checkpoint.com/2023/cloud-based-malware-delivery-the-evolution-of-guloader/
 
 ## Literature
 

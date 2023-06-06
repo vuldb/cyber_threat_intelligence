@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 9 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,14 +49,19 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/api/admin/articles/` | High
 2 | File | `/admin/photo.php` | High
-3 | File | `/api/browserextension/UpdatePassword/` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/horde/util/go.php` | High
-6 | File | `/secure/EditSubscription.jspa` | High
-7 | File | `/systemrw/` | Medium
-8 | ... | ... | ...
+3 | File | `/admin/transactions/track_shipment.php` | High
+4 | File | `/api/browserextension/UpdatePassword/` | High
+5 | File | `/boat/login.php` | High
+6 | File | `/coreframe/app/member/admin/group.php` | High
+7 | File | `/forum/away.php` | High
+8 | File | `/horde/util/go.php` | High
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/secure/EditSubscription.jspa` | High
+11 | File | `/systemrw/` | Medium
+12 | File | `/tmp/supp_log` | High
+13 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 99 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

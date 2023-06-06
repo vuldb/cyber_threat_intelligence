@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -43,7 +43,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -67,17 +68,17 @@ ID | Type | Indicator | Confidence
 12 | File | `/uncpath/` | Medium
 13 | File | `/vdesk` | Low
 14 | File | `/web/google_analytics.php` | High
-15 | File | `admin/login.php` | High
-16 | File | `admin_component.php` | High
-17 | File | `app/views/journals/index.builder` | High
-18 | File | `archive_endian.h` | High
-19 | File | `auth-gss2.c` | Medium
-20 | File | `bmp.c` | Low
-21 | File | `boaform/admin/formPing` | High
-22 | File | `body.asp` | Medium
+15 | File | `addentry.php` | Medium
+16 | File | `admin/login.php` | High
+17 | File | `admin_component.php` | High
+18 | File | `app/views/journals/index.builder` | High
+19 | File | `archive_endian.h` | High
+20 | File | `auth-gss2.c` | Medium
+21 | File | `bmp.c` | Low
+22 | File | `boaform/admin/formPing` | High
 23 | ... | ... | ...
 
-There are 192 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Monokle:
 
 * [TT](https://vuldb.com/?country.tt)
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,11 +36,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1059 | CWE-88 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,18 +48,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/students/manage.php` | High
-2 | File | `/goform/SetFirewallCfg` | High
-3 | File | `/goform/SetPptpServerCfg` | High
-4 | File | `/goform/SetSysTimeCfg` | High
-5 | File | `/goform/SetVirtualServerCfg` | High
-6 | File | `/htmlcode/html/reboot.cgi` | High
-7 | File | `/php-sms/classes/Master.php` | High
-8 | File | `/php-sms/classes/SystemSettings.php` | High
-9 | File | `/queuing/login.php` | High
-10 | ... | ... | ...
+1 | File | `/admin/access` | High
+2 | File | `/admin/students/manage.php` | High
+3 | File | `/goform/SetFirewallCfg` | High
+4 | File | `/goform/SetPptpServerCfg` | High
+5 | File | `/goform/SetSysTimeCfg` | High
+6 | File | `/goform/SetVirtualServerCfg` | High
+7 | File | `/htmlcode/html/reboot.cgi` | High
+8 | File | `/php-sms/classes/Master.php` | High
+9 | File | `/php-sms/classes/SystemSettings.php` | High
+10 | File | `/queuing/login.php` | High
+11 | File | `/sacco_shield/manage_payment.php` | High
+12 | ... | ... | ...
 
-There are 78 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 92 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with FritzFrog:
 
 * [VN](https://vuldb.com/?country.vn)
+* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -318,12 +318,9 @@ ID | IP address | Hostname | Campaign | Confidence
 295 | [49.50.106.73](https://vuldb.com/?ip.49.50.106.73) | - | - | High
 296 | [49.69.36.214](https://vuldb.com/?ip.49.69.36.214) | - | - | High
 297 | [49.204.124.253](https://vuldb.com/?ip.49.204.124.253) | broadband.actcorp.in | - | High
-298 | [49.232.80.64](https://vuldb.com/?ip.49.232.80.64) | - | - | High
-299 | [49.232.104.199](https://vuldb.com/?ip.49.232.104.199) | - | - | High
-300 | [49.232.122.130](https://vuldb.com/?ip.49.232.122.130) | - | - | High
-301 | ... | ... | ... | ...
+298 | ... | ... | ... | ...
 
-There are 1200 more IOC items available. Please use our online service to access the data.
+There are 1189 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -331,14 +328,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -347,55 +344,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//proc/kcore` | Medium
-2 | File | `/?ajax-request=jnews` | High
-3 | File | `/?p=products` | Medium
-4 | File | `/?r=email/api/mark&op=delFromSend` | High
-5 | File | `/admin.php/update/getFile.html` | High
-6 | File | `/admin/assign/assign.php` | High
-7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/admin/departments/view_department.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/suppliers/view_details.php` | High
-12 | File | `/admin/user/manage_user.php` | High
-13 | File | `/admin/user/uploadImg` | High
-14 | File | `/admin/userprofile.php` | High
-15 | File | `/administrator/components/table_manager/` | High
-16 | File | `/api/admin/store/product/list` | High
-17 | File | `/api/gen/clients/{language}` | High
-18 | File | `/blog/blog.php` | High
-19 | File | `/cgi-bin/activate.cgi` | High
-20 | File | `/cgi-bin/kerbynet` | High
-21 | File | `/cgi-bin/wapopen` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/config/getuser` | High
-24 | File | `/Content/Template/root/reverse-shell.aspx` | High
-25 | File | `/Default/Bd` | Medium
-26 | File | `/feeds/post/publish` | High
+2 | File | `//WEB-INF` | Medium
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/about.php` | Medium
+5 | File | `/action/wirelessConnect` | High
+6 | File | `/admin.php/update/getFile.html` | High
+7 | File | `/admin/assign/assign.php` | High
+8 | File | `/admin/contacts/organizations/edit/2` | High
+9 | File | `/admin/user/uploadImg` | High
+10 | File | `/analysisProject/pagingQueryData` | High
+11 | File | `/api/login` | Medium
+12 | File | `/cas/logout` | Medium
+13 | File | `/cgi-bin/kerbynet` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/classes/Master.php` | High
+16 | File | `/classes/Master.php?f=delete_category` | High
+17 | File | `/classes/Master.php?f=delete_item` | High
+18 | File | `/classes/Master.php?f=save_service` | High
+19 | File | `/config/getuser` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/databases/database/list` | High
+22 | File | `/debug/pprof` | Medium
+23 | File | `/DXR.axd` | Medium
+24 | File | `/export` | Low
+25 | File | `/feeds/post/publish` | High
+26 | File | `/forms/doLogin` | High
 27 | File | `/forum/away.php` | High
-28 | File | `/index.php/archives/1/comment` | High
-29 | File | `/login/index.php` | High
-30 | File | `/mhds/clinic/view_details.php` | High
-31 | File | `/movie.php` | Medium
-32 | File | `/qsr_server/device/reboot` | High
-33 | File | `/reservation/add_message.php` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/static/ueditor/php/controller.php` | High
-36 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-37 | File | `/uncpath/` | Medium
-38 | File | `/vaccinated/admin/maintenance/manage_location.php` | High
-39 | File | `/var/log/webfsd.log` | High
-40 | File | `/vendor` | Low
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `/xxl-job-admin/user/add` | High
-43 | File | `123flashchat.php` | High
-44 | File | `404.php` | Low
-45 | File | `a-forms.php` | Medium
-46 | File | `adclick.php` | Medium
-47 | File | `admin.a6mambocredits.php` | High
-48 | ... | ... | ...
+28 | File | `/inc/jquery/uploadify/uploadify.php` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/index.php?page=category_list` | High
+31 | File | `/menu.html` | Medium
+32 | File | `/mims/login.php` | High
+33 | File | `/Moosikay/order.php` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/out.php` | Medium
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/secure/QueryComponent!Default.jspa` | High
+39 | ... | ... | ...
 
-There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

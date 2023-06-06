@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,64 +21,104 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.62.60.112](https://vuldb.com/?ip.5.62.60.112) | r-112-60-62-5.consumer-pool.prcdn.net | - | High
-2 | [5.62.62.108](https://vuldb.com/?ip.5.62.62.108) | r-108-62-62-5.consumer-pool.prcdn.net | - | High
-3 | [5.189.201.0](https://vuldb.com/?ip.5.189.201.0) | subnet.gcore.lu | - | High
-4 | [5.254.105.152](https://vuldb.com/?ip.5.254.105.152) | - | - | High
-5 | [23.236.140.0](https://vuldb.com/?ip.23.236.140.0) | - | - | High
-6 | [31.6.10.0](https://vuldb.com/?ip.31.6.10.0) | - | - | High
-7 | [34.99.146.0](https://vuldb.com/?ip.34.99.146.0) | 0.146.99.34.bc.googleusercontent.com | - | Medium
-8 | [34.99.218.0](https://vuldb.com/?ip.34.99.218.0) | 0.218.99.34.bc.googleusercontent.com | - | Medium
-9 | [34.103.162.0](https://vuldb.com/?ip.34.103.162.0) | 0.162.103.34.bc.googleusercontent.com | - | Medium
-10 | [41.32.0.0](https://vuldb.com/?ip.41.32.0.0) | - | - | High
-11 | [41.64.0.0](https://vuldb.com/?ip.41.64.0.0) | - | - | High
-12 | [41.67.80.0](https://vuldb.com/?ip.41.67.80.0) | - | - | High
-13 | [41.68.0.0](https://vuldb.com/?ip.41.68.0.0) | - | - | High
-14 | [41.72.64.0](https://vuldb.com/?ip.41.72.64.0) | - | - | High
-15 | [41.77.136.0](https://vuldb.com/?ip.41.77.136.0) | - | - | High
-16 | [41.78.20.0](https://vuldb.com/?ip.41.78.20.0) | - | - | High
-17 | [41.78.60.0](https://vuldb.com/?ip.41.78.60.0) | - | - | High
-18 | [41.78.148.0](https://vuldb.com/?ip.41.78.148.0) | - | - | High
-19 | [41.79.208.0](https://vuldb.com/?ip.41.79.208.0) | - | - | High
-20 | [41.88.0.0](https://vuldb.com/?ip.41.88.0.0) | - | - | High
-21 | [41.91.0.0](https://vuldb.com/?ip.41.91.0.0) | - | - | High
-22 | [41.128.0.0](https://vuldb.com/?ip.41.128.0.0) | - | - | High
-23 | [41.152.0.0](https://vuldb.com/?ip.41.152.0.0) | host-41.152.0.0.etisalat.com.eg | - | High
-24 | [41.155.128.0](https://vuldb.com/?ip.41.155.128.0) | - | - | High
-25 | [41.176.0.0](https://vuldb.com/?ip.41.176.0.0) | - | - | High
-26 | [41.178.0.0](https://vuldb.com/?ip.41.178.0.0) | - | - | High
-27 | [41.187.0.0](https://vuldb.com/?ip.41.187.0.0) | - | - | High
-28 | [41.190.248.0](https://vuldb.com/?ip.41.190.248.0) | - | - | High
-29 | [41.191.0.0](https://vuldb.com/?ip.41.191.0.0) | - | - | High
-30 | [41.191.80.0](https://vuldb.com/?ip.41.191.80.0) | - | - | High
-31 | [41.196.0.0](https://vuldb.com/?ip.41.196.0.0) | - | - | High
-32 | [41.199.0.0](https://vuldb.com/?ip.41.199.0.0) | HOST-0-0.199.41.nile-online.net | - | High
-33 | [41.205.96.0](https://vuldb.com/?ip.41.205.96.0) | - | - | High
-34 | [41.206.128.0](https://vuldb.com/?ip.41.206.128.0) | - | - | High
-35 | [41.206.176.0](https://vuldb.com/?ip.41.206.176.0) | - | - | High
-36 | [41.206.189.0](https://vuldb.com/?ip.41.206.189.0) | - | - | High
-37 | [41.209.192.0](https://vuldb.com/?ip.41.209.192.0) | - | - | High
-38 | [41.215.240.0](https://vuldb.com/?ip.41.215.240.0) | - | - | High
-39 | [41.217.160.0](https://vuldb.com/?ip.41.217.160.0) | - | - | High
-40 | [41.217.224.0](https://vuldb.com/?ip.41.217.224.0) | - | - | High
-41 | [41.218.128.0](https://vuldb.com/?ip.41.218.128.0) | - | - | High
-42 | [41.221.128.0](https://vuldb.com/?ip.41.221.128.0) | - | - | High
-43 | [41.222.128.0](https://vuldb.com/?ip.41.222.128.0) | host-41.222.128.0.etisalat.com.eg | - | High
-44 | [41.222.168.0](https://vuldb.com/?ip.41.222.168.0) | - | - | High
-45 | [41.223.20.0](https://vuldb.com/?ip.41.223.20.0) | - | - | High
-46 | [41.223.52.0](https://vuldb.com/?ip.41.223.52.0) | - | - | High
-47 | [41.223.196.0](https://vuldb.com/?ip.41.223.196.0) | - | - | High
-48 | [41.223.240.0](https://vuldb.com/?ip.41.223.240.0) | - | - | High
-49 | [41.232.0.0](https://vuldb.com/?ip.41.232.0.0) | - | - | High
-50 | [45.12.70.65](https://vuldb.com/?ip.45.12.70.65) | set-touch.get-eye.com | - | High
-51 | [45.12.71.65](https://vuldb.com/?ip.45.12.71.65) | - | - | High
-52 | [45.96.0.0](https://vuldb.com/?ip.45.96.0.0) | - | - | High
-53 | [45.154.120.0](https://vuldb.com/?ip.45.154.120.0) | - | - | High
-54 | [45.240.0.0](https://vuldb.com/?ip.45.240.0.0) | - | - | High
-55 | [57.83.0.0](https://vuldb.com/?ip.57.83.0.0) | - | - | High
-56 | ... | ... | ... | ...
+1 | [2.21.128.0](https://vuldb.com/?ip.2.21.128.0) | a2-21-128-0.deploy.static.akamaitechnologies.com | - | High
+2 | [5.62.60.112](https://vuldb.com/?ip.5.62.60.112) | r-112-60-62-5.consumer-pool.prcdn.net | - | High
+3 | [5.62.62.108](https://vuldb.com/?ip.5.62.62.108) | r-108-62-62-5.consumer-pool.prcdn.net | - | High
+4 | [5.189.201.0](https://vuldb.com/?ip.5.189.201.0) | subnet.gcore.lu | - | High
+5 | [5.254.105.152](https://vuldb.com/?ip.5.254.105.152) | - | - | High
+6 | [17.118.196.176](https://vuldb.com/?ip.17.118.196.176) | - | - | High
+7 | [17.118.228.0](https://vuldb.com/?ip.17.118.228.0) | - | - | High
+8 | [23.50.192.0](https://vuldb.com/?ip.23.50.192.0) | a23-50-192-0.deploy.static.akamaitechnologies.com | - | High
+9 | [23.218.228.0](https://vuldb.com/?ip.23.218.228.0) | a23-218-228-0.deploy.static.akamaitechnologies.com | - | High
+10 | [23.236.140.0](https://vuldb.com/?ip.23.236.140.0) | - | - | High
+11 | [31.6.10.0](https://vuldb.com/?ip.31.6.10.0) | - | - | High
+12 | [34.99.146.0](https://vuldb.com/?ip.34.99.146.0) | 0.146.99.34.bc.googleusercontent.com | - | Medium
+13 | [34.99.218.0](https://vuldb.com/?ip.34.99.218.0) | 0.218.99.34.bc.googleusercontent.com | - | Medium
+14 | [34.103.162.0](https://vuldb.com/?ip.34.103.162.0) | 0.162.103.34.bc.googleusercontent.com | - | Medium
+15 | [34.103.226.0](https://vuldb.com/?ip.34.103.226.0) | 0.226.103.34.bc.googleusercontent.com | - | Medium
+16 | [34.124.72.0](https://vuldb.com/?ip.34.124.72.0) | 0.72.124.34.bc.googleusercontent.com | - | Medium
+17 | [37.75.149.0](https://vuldb.com/?ip.37.75.149.0) | - | - | High
+18 | [38.54.59.0](https://vuldb.com/?ip.38.54.59.0) | - | - | High
+19 | [38.54.60.0](https://vuldb.com/?ip.38.54.60.0) | - | - | High
+20 | [41.32.0.0](https://vuldb.com/?ip.41.32.0.0) | - | - | High
+21 | [41.63.72.0](https://vuldb.com/?ip.41.63.72.0) | mpr01.saaj1.llnw.net | - | High
+22 | [41.64.0.0](https://vuldb.com/?ip.41.64.0.0) | - | - | High
+23 | [41.67.80.0](https://vuldb.com/?ip.41.67.80.0) | - | - | High
+24 | [41.68.0.0](https://vuldb.com/?ip.41.68.0.0) | - | - | High
+25 | [41.72.64.0](https://vuldb.com/?ip.41.72.64.0) | - | - | High
+26 | [41.77.136.0](https://vuldb.com/?ip.41.77.136.0) | - | - | High
+27 | [41.77.140.0](https://vuldb.com/?ip.41.77.140.0) | - | - | High
+28 | [41.78.20.0](https://vuldb.com/?ip.41.78.20.0) | - | - | High
+29 | [41.78.21.0](https://vuldb.com/?ip.41.78.21.0) | - | - | High
+30 | [41.78.22.0](https://vuldb.com/?ip.41.78.22.0) | - | - | High
+31 | [41.78.60.0](https://vuldb.com/?ip.41.78.60.0) | - | - | High
+32 | [41.78.62.0](https://vuldb.com/?ip.41.78.62.0) | - | - | High
+33 | [41.78.148.0](https://vuldb.com/?ip.41.78.148.0) | - | - | High
+34 | [41.79.208.0](https://vuldb.com/?ip.41.79.208.0) | - | - | High
+35 | [41.79.210.0](https://vuldb.com/?ip.41.79.210.0) | - | - | High
+36 | [41.88.0.0](https://vuldb.com/?ip.41.88.0.0) | - | - | High
+37 | [41.91.0.0](https://vuldb.com/?ip.41.91.0.0) | - | - | High
+38 | [41.128.0.0](https://vuldb.com/?ip.41.128.0.0) | - | - | High
+39 | [41.152.0.0](https://vuldb.com/?ip.41.152.0.0) | host-41.152.0.0.etisalat.com.eg | - | High
+40 | [41.155.128.0](https://vuldb.com/?ip.41.155.128.0) | - | - | High
+41 | [41.176.0.0](https://vuldb.com/?ip.41.176.0.0) | - | - | High
+42 | [41.178.0.0](https://vuldb.com/?ip.41.178.0.0) | - | - | High
+43 | [41.179.0.0](https://vuldb.com/?ip.41.179.0.0) | - | - | High
+44 | [41.179.128.0](https://vuldb.com/?ip.41.179.128.0) | - | - | High
+45 | [41.179.192.0](https://vuldb.com/?ip.41.179.192.0) | - | - | High
+46 | [41.179.224.0](https://vuldb.com/?ip.41.179.224.0) | - | - | High
+47 | [41.179.240.0](https://vuldb.com/?ip.41.179.240.0) | - | - | High
+48 | [41.179.248.0](https://vuldb.com/?ip.41.179.248.0) | - | - | High
+49 | [41.179.252.0](https://vuldb.com/?ip.41.179.252.0) | - | - | High
+50 | [41.179.254.0](https://vuldb.com/?ip.41.179.254.0) | - | - | High
+51 | [41.187.0.0](https://vuldb.com/?ip.41.187.0.0) | - | - | High
+52 | [41.190.248.0](https://vuldb.com/?ip.41.190.248.0) | - | - | High
+53 | [41.191.0.0](https://vuldb.com/?ip.41.191.0.0) | - | - | High
+54 | [41.191.80.0](https://vuldb.com/?ip.41.191.80.0) | - | - | High
+55 | [41.196.0.0](https://vuldb.com/?ip.41.196.0.0) | - | - | High
+56 | [41.199.0.0](https://vuldb.com/?ip.41.199.0.0) | HOST-0-0.199.41.nile-online.net | - | High
+57 | [41.205.96.0](https://vuldb.com/?ip.41.205.96.0) | - | - | High
+58 | [41.206.128.0](https://vuldb.com/?ip.41.206.128.0) | - | - | High
+59 | [41.206.176.0](https://vuldb.com/?ip.41.206.176.0) | - | - | High
+60 | [41.206.189.0](https://vuldb.com/?ip.41.206.189.0) | - | - | High
+61 | [41.209.192.0](https://vuldb.com/?ip.41.209.192.0) | - | - | High
+62 | [41.215.240.0](https://vuldb.com/?ip.41.215.240.0) | - | - | High
+63 | [41.215.242.0](https://vuldb.com/?ip.41.215.242.0) | - | - | High
+64 | [41.217.160.0](https://vuldb.com/?ip.41.217.160.0) | - | - | High
+65 | [41.217.224.0](https://vuldb.com/?ip.41.217.224.0) | - | - | High
+66 | [41.218.128.0](https://vuldb.com/?ip.41.218.128.0) | - | - | High
+67 | [41.221.128.0](https://vuldb.com/?ip.41.221.128.0) | - | - | High
+68 | [41.221.222.0](https://vuldb.com/?ip.41.221.222.0) | - | - | High
+69 | [41.222.128.0](https://vuldb.com/?ip.41.222.128.0) | host-41.222.128.0.etisalat.com.eg | - | High
+70 | [41.222.168.0](https://vuldb.com/?ip.41.222.168.0) | - | - | High
+71 | [41.223.20.0](https://vuldb.com/?ip.41.223.20.0) | - | - | High
+72 | [41.223.52.0](https://vuldb.com/?ip.41.223.52.0) | - | - | High
+73 | [41.223.54.0](https://vuldb.com/?ip.41.223.54.0) | - | - | High
+74 | [41.223.196.0](https://vuldb.com/?ip.41.223.196.0) | - | - | High
+75 | [41.223.240.0](https://vuldb.com/?ip.41.223.240.0) | - | - | High
+76 | [41.232.0.0](https://vuldb.com/?ip.41.232.0.0) | - | - | High
+77 | [43.152.12.0](https://vuldb.com/?ip.43.152.12.0) | - | - | High
+78 | [43.152.55.0](https://vuldb.com/?ip.43.152.55.0) | - | - | High
+79 | [43.152.176.0](https://vuldb.com/?ip.43.152.176.0) | - | - | High
+80 | [45.12.70.65](https://vuldb.com/?ip.45.12.70.65) | set-touch.get-eye.com | - | High
+81 | [45.12.71.65](https://vuldb.com/?ip.45.12.71.65) | - | - | High
+82 | [45.96.0.0](https://vuldb.com/?ip.45.96.0.0) | - | - | High
+83 | [45.154.120.0](https://vuldb.com/?ip.45.154.120.0) | - | - | High
+84 | [45.240.0.0](https://vuldb.com/?ip.45.240.0.0) | - | - | High
+85 | [57.83.0.0](https://vuldb.com/?ip.57.83.0.0) | - | - | High
+86 | [57.88.48.0](https://vuldb.com/?ip.57.88.48.0) | - | - | High
+87 | [57.188.16.0](https://vuldb.com/?ip.57.188.16.0) | - | - | High
+88 | [62.12.120.0](https://vuldb.com/?ip.62.12.120.0) | - | - | High
+89 | [62.68.224.0](https://vuldb.com/?ip.62.68.224.0) | - | - | High
+90 | [62.114.0.0](https://vuldb.com/?ip.62.114.0.0) | - | - | High
+91 | [62.117.32.0](https://vuldb.com/?ip.62.117.32.0) | - | - | High
+92 | [62.135.0.0](https://vuldb.com/?ip.62.135.0.0) | - | - | High
+93 | [62.139.0.0](https://vuldb.com/?ip.62.139.0.0) | - | - | High
+94 | [62.140.64.0](https://vuldb.com/?ip.62.140.64.0) | - | - | High
+95 | [62.193.64.0](https://vuldb.com/?ip.62.193.64.0) | - | - | High
+96 | ... | ... | ... | ...
 
-There are 221 more IOC items available. Please use our online service to access the data.
+There are 379 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,14 +126,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,72 +142,81 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.github/workflows/combine-prs.yml` | High
-2 | File | `.htaccess` | Medium
-3 | File | `/Admin/add-student.php` | High
-4 | File | `/admin/api/admin/articles/` | High
-5 | File | `/admin/conferences/list/` | High
-6 | File | `/admin/edit_admin_details.php?id=admin` | High
-7 | File | `/admin/generalsettings.php` | High
-8 | File | `/Admin/login.php` | High
-9 | File | `/admin/payment.php` | High
-10 | File | `/admin/reports.php` | High
-11 | File | `/admin/showbad.php` | High
-12 | File | `/apilog.php` | Medium
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/connectors/index.php` | High
-16 | File | `/dev/block/mmcblk0rpmb` | High
-17 | File | `/dms/admin/reports/daily_collection_report.php` | High
-18 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forum/away.php` | High
-21 | File | `/fos/admin/ajax.php?action=login` | High
-22 | File | `/fos/admin/index.php?page=menu` | High
+2 | File | `//WEB-INF` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/api/admin/articles/` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+11 | File | `/APR/login.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/dev/block/mmcblk0rpmb` | High
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/feeds/post/publish` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/fos/admin/ajax.php?action=login` | High
+20 | File | `/fos/admin/index.php?page=menu` | High
+21 | File | `/home/masterConsole` | High
+22 | File | `/home/sendBroadcast` | High
 23 | File | `/hrm/employeeadd.php` | High
 24 | File | `/hrm/employeeview.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/Items/*/RemoteImages/Download` | High
-27 | File | `/items/view_item.php` | High
+25 | File | `/inc/jquery/uploadify/uploadify.php` | High
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/index.php?page=category_list` | High
 28 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-29 | File | `/lists/admin/` | High
+29 | File | `/KK_LS9ReportingPortal/GetData` | High
 30 | File | `/lookin/info` | Medium
-31 | File | `/MagickCore/image.c` | High
-32 | File | `/manager/index.php` | High
-33 | File | `/medical/inventories.php` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/projects/vw_files.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/newsDia.php` | Medium
-38 | File | `/out.php` | Medium
-39 | File | `/proxy` | Low
-40 | File | `/public/launchNewWindow.jsp` | High
-41 | File | `/Redcock-Farm/farm/category.php` | High
-42 | File | `/reports/rwservlet` | High
-43 | File | `/sacco_shield/manage_user.php` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-46 | File | `/staff/bookdetails.php` | High
-47 | File | `/TeleoptiWFM/Administration/GetOneTenant` | High
-48 | File | `/user/update_booking.php` | High
-49 | File | `/WEB-INF/web.xml` | High
-50 | File | `/Wedding-Management-PHP/admin/photos_add.php` | High
-51 | File | `/wordpress/wp-admin/options-general.php` | High
-52 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-53 | File | `01article.php` | High
-54 | File | `AbstractScheduleJob.java` | High
-55 | File | `actionphp/download.File.php` | High
-56 | File | `AdClass.php` | Medium
-57 | File | `adclick.php` | Medium
-58 | File | `addtocart.asp` | High
-59 | ... | ... | ...
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/mygym/admin/index.php?view_exercises` | High
+33 | File | `/opac/Actions.php?a=login` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-opos/index.php` | High
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/proxy` | Low
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/user/updatePwd` | High
+45 | File | `/user/update_booking.php` | High
+46 | File | `/wireless/security.asp` | High
+47 | File | `/wp-admin/admin-ajax.php` | High
+48 | File | `01article.php` | High
+49 | File | `a-forms.php` | Medium
+50 | File | `AbstractScheduleJob.java` | High
+51 | File | `actionphp/download.File.php` | High
+52 | File | `activenews_view.asp` | High
+53 | File | `adclick.php` | Medium
+54 | File | `admin.a6mambocredits.php` | High
+55 | File | `admin.cropcanvas.php` | High
+56 | File | `admin.php` | Medium
+57 | File | `admin/abc.php` | High
+58 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+59 | File | `admin/admin/adminsave.html` | High
+60 | File | `admin/asset/grid-proxy` | High
+61 | File | `admin/auditTrail.jsf` | High
+62 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
+63 | File | `admin/conf_users_edit.php` | High
+64 | File | `admin/disapprove_user.php` | High
+65 | File | `admin/edit_category.php` | High
+66 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 578 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_eg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_eg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_eg.netset
 
 ## Literature
 

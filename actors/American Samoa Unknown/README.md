@@ -112,15 +112,20 @@ ID | Type | Indicator | Confidence
 48 | File | `administration/admins.php` | High
 49 | File | `administrator/components/com_media/helpers/media.php` | High
 50 | File | `admin_ok.asp` | Medium
-51 | File | `app/Core/Paginator.php` | High
-52 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-53 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
-54 | File | `artlinks.dispnew.php` | High
-55 | File | `auth.php` | Medium
-56 | File | `bin/named/query.c` | High
-57 | ... | ... | ...
+51 | File | `album_portal.php` | High
+52 | File | `app/Core/Paginator.php` | High
+53 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+54 | File | `apps/yang/web/src/main/java/org/onosproject/yang/web/YangWebResource.java` | High
+55 | File | `artlinks.dispnew.php` | High
+56 | File | `auth.php` | Medium
+57 | File | `bin/named/query.c` | High
+58 | File | `blank.php` | Medium
+59 | File | `blocklayered-ajax.php` | High
+60 | File | `blogger-importer.php` | High
+61 | File | `bluegate_seo.inc.php` | High
+62 | ... | ... | ...
 
-There are 499 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 538 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

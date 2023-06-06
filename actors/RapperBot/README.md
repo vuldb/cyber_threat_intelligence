@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RapperBot:
 
-* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [DE](https://vuldb.com/?country.de)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -20,10 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [2.58.149.116](https://vuldb.com/?ip.2.58.149.116) | - | - | High
 2 | [31.44.185.235](https://vuldb.com/?ip.31.44.185.235) | - | - | High
-3 | [185.216.71.149](https://vuldb.com/?ip.185.216.71.149) | - | - | High
+3 | [109.206.243.207](https://vuldb.com/?ip.109.206.243.207) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,15 +47,21 @@ ID | Type | Indicator | Confidence
 1 | File | `/fos/admin/ajax.php` | High
 2 | File | `/include/chart_generator.php` | High
 3 | File | `/index.php` | Medium
-4 | ... | ... | ...
+4 | File | `/modules/projects/vw_files.php` | High
+5 | File | `admin.php` | Medium
+6 | File | `affich.php` | Medium
+7 | File | `album_portal.php` | High
+8 | File | `category.cfm` | Medium
+9 | ... | ... | ...
 
-There are 25 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://community.blueliv.com/#!/s/62f0af7a82df417a00331dae
+* https://threatfox.abuse.ch
 * https://www.fortinet.com/blog/threat-research/new-rapperbot-campaign-ddos-attacks
 
 ## Literature

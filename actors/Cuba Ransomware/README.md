@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -35,10 +35,9 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [31.184.198.82](https://vuldb.com/?ip.31.184.198.82) | harms.directingme.com | - | High
 13 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | - | High
 14 | [31.184.198.84](https://vuldb.com/?ip.31.184.198.84) | - | - | High
-15 | [31.184.198.85](https://vuldb.com/?ip.31.184.198.85) | mta1.thomsai.com | - | High
-16 | ... | ... | ... | ...
+15 | ... | ... | ... | ...
 
-There are 61 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -69,43 +68,49 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/assign/assign.php` | High
 7 | File | `/admin/attendance_row.php` | High
 8 | File | `/admin/cashadvance_row.php` | High
-9 | File | `/admin/curriculum/view_curriculum.php` | High
-10 | File | `/admin/departments/view_department.php` | High
-11 | File | `/admin/employee_row.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/maintenance/brand.php` | High
-14 | File | `/admin/maintenance/view_designation.php` | High
-15 | File | `/admin/mechanics/manage_mechanic.php` | High
-16 | File | `/admin/patient.php` | High
-17 | File | `/admin/suppliers/view_details.php` | High
-18 | File | `/admin/transactions/track_shipment.php` | High
-19 | File | `/admin/user/manage_user.php` | High
-20 | File | `/admin/user/uploadImg` | High
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/cgi-bin/kerbynet` | High
-23 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/churchcrm/EventAttendance.php` | High
-26 | File | `/classes/Master.php` | High
-27 | File | `/classes/Master.php?f=delete_item` | High
-28 | File | `/config/getuser` | High
-29 | File | `/Content/Template/root/reverse-shell.aspx` | High
-30 | File | `/DXR.axd` | Medium
-31 | File | `/filemanager/php/connector.php` | High
-32 | File | `/forms/doLogin` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/install/index.php` | High
-35 | File | `/licenses` | Medium
-36 | File | `/login/index.php` | High
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/mims/login.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/plain` | Low
-41 | File | `/public/launchNewWindow.jsp` | High
-42 | File | `/qsr_server/device/reboot` | High
-43 | ... | ... | ...
+9 | File | `/admin/contacts/organizations/edit/2` | High
+10 | File | `/admin/curriculum/view_curriculum.php` | High
+11 | File | `/admin/departments/view_department.php` | High
+12 | File | `/admin/edit_subject.php` | High
+13 | File | `/admin/employee_row.php` | High
+14 | File | `/admin/login.php` | High
+15 | File | `/admin/maintenance/brand.php` | High
+16 | File | `/admin/maintenance/view_designation.php` | High
+17 | File | `/admin/mechanics/manage_mechanic.php` | High
+18 | File | `/admin/reportupload.aspx` | High
+19 | File | `/admin/service.php` | High
+20 | File | `/admin/suppliers/view_details.php` | High
+21 | File | `/admin/transactions/track_shipment.php` | High
+22 | File | `/admin/user/manage_user.php` | High
+23 | File | `/admin/user/uploadImg` | High
+24 | File | `/api/admin/store/product/list` | High
+25 | File | `/cgi-bin/kerbynet` | High
+26 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+27 | File | `/cgi-bin/wlogin.cgi` | High
+28 | File | `/churchcrm/EventAttendance.php` | High
+29 | File | `/classes/Master.php` | High
+30 | File | `/classes/Master.php?f=delete_item` | High
+31 | File | `/config/getuser` | High
+32 | File | `/Content/Template/root/reverse-shell.aspx` | High
+33 | File | `/forms/doLogin` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/install/index.php` | High
+36 | File | `/licenses` | Medium
+37 | File | `/login/index.php` | High
+38 | File | `/menu.html` | Medium
+39 | File | `/mhds/clinic/view_details.php` | High
+40 | File | `/mims/login.php` | High
+41 | File | `/modules/projects/vw_files.php` | High
+42 | File | `/out.php` | Medium
+43 | File | `/plain` | Low
+44 | File | `/public/launchNewWindow.jsp` | High
+45 | File | `/qsr_server/device/reboot` | High
+46 | File | `/spip.php` | Medium
+47 | File | `/staff/bookdetails.php` | High
+48 | File | `/staff_login.php` | High
+49 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

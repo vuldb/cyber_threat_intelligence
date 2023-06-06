@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [68.65.121.51](https://vuldb.com/?ip.68.65.121.51) | strategic.com.ua | - | High
 8 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 5 more TTP items available. Please use our online service to access the data.

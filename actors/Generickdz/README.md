@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,16 +56,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/aux` | Low
-2 | File | `/etc/sudoers` | Medium
-3 | File | `/pages/processlogin.php` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/way4acs/enroll` | High
-6 | File | `admin/conf_users_edit.php` | High
-7 | File | `announcement.php` | High
+1 | File | `/admin/departments/view_department.php` | High
+2 | File | `/aux` | Low
+3 | File | `/etc/sudoers` | Medium
+4 | File | `/items/view_item.php` | High
+5 | File | `/pages/processlogin.php` | High
+6 | File | `/uncpath/` | Medium
+7 | File | `/way4acs/enroll` | High
 8 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

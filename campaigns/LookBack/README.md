@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LookBack:
 
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,15 +51,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/etc/openstack-dashboard/local_settings` | High
-3 | File | `/rapi/read_url` | High
-4 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-5 | File | `/wp-content/uploads/photo-gallery/` | High
-6 | File | `coders/png.c` | Medium
-7 | File | `customoid.inc.php` | High
-8 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/etc/openstack-dashboard/local_settings` | High
+4 | File | `/rapi/read_url` | High
+5 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+6 | File | `/wp-content/uploads/photo-gallery/` | High
+7 | File | `appserv/main.php` | High
+8 | File | `coders/png.c` | Medium
+9 | ... | ... | ...
 
-There are 57 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

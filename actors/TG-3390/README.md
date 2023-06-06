@@ -37,10 +37,9 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [66.63.178.142](https://vuldb.com/?ip.66.63.178.142) | unassigned.quadranet.com | - | High
 7 | [67.215.232.179](https://vuldb.com/?ip.67.215.232.179) | ed-cricalf.latention.com | - | High
 8 | [67.215.232.181](https://vuldb.com/?ip.67.215.232.181) | ninths.latention.com | - | High
-9 | [67.215.232.182](https://vuldb.com/?ip.67.215.232.182) | 67.215.232.182.static.quadranet.com | - | High
-10 | ... | ... | ... | ...
+9 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -87,21 +86,21 @@ ID | Type | Indicator | Confidence
 22 | File | `/var/tmp/sess_*` | High
 23 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
 24 | File | `/video` | Low
-25 | File | `action.php` | Medium
-26 | File | `actionphp/download.File.php` | High
-27 | File | `ActivityManagerService.java` | High
-28 | File | `adaptmap_reg.c` | High
-29 | File | `add_comment.php` | High
-30 | File | `admin.cgi` | Medium
-31 | File | `admin.php?action=files` | High
-32 | File | `admin/admin.php` | High
-33 | File | `admin/content.php` | High
-34 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-35 | File | `admin_gallery.php3` | High
-36 | File | `affich.php` | Medium
+25 | File | `/videotalk` | Medium
+26 | File | `action.php` | Medium
+27 | File | `actionphp/download.File.php` | High
+28 | File | `ActivityManagerService.java` | High
+29 | File | `adaptmap_reg.c` | High
+30 | File | `add_comment.php` | High
+31 | File | `admin.cgi` | Medium
+32 | File | `admin.php?action=files` | High
+33 | File | `admin/admin.php` | High
+34 | File | `admin/content.php` | High
+35 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+36 | File | `admin_gallery.php3` | High
 37 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 316 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

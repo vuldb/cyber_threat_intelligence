@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,12 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,19 +48,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/etc/postfix/sender_login` | High
-3 | File | `/filemanager/ajax_calls.php` | High
-4 | File | `/index.php` | Medium
-5 | File | `/Items/*/RemoteImages/Download` | High
-6 | File | `/members/view_member.php` | High
-7 | File | `/owa/auth/logon.aspx` | High
-8 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-9 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-12 | ... | ... | ...
+2 | File | `/classes/Master.php` | High
+3 | File | `/classes/Master.php?f=delete_service` | High
+4 | File | `/etc/postfix/sender_login` | High
+5 | File | `/filemanager/ajax_calls.php` | High
+6 | File | `/index.php` | Medium
+7 | File | `/Items/*/RemoteImages/Download` | High
+8 | File | `/members/view_member.php` | High
+9 | File | `/owa/auth/logon.aspx` | High
+10 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+11 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+14 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

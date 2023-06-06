@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -64,7 +64,7 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [50.87.196.120](https://vuldb.com/?ip.50.87.196.120) | box2348.bluehost.com | - | High
 36 | ... | ... | ... | ...
 
-There are 140 more IOC items available. Please use our online service to access the data.
+There are 139 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,12 +72,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -92,58 +93,58 @@ ID | Type | Indicator | Confidence
 3 | File | `//proc/kcore` | Medium
 4 | File | `/?ajax-request=jnews` | High
 5 | File | `/admin.php/Admin/adminadd.html` | High
-6 | File | `/admin/` | Low
-7 | File | `/Admin/add-student.php` | High
-8 | File | `/admin/communitymanagement.php` | High
-9 | File | `/admin/extended` | High
-10 | File | `/admin/featured.php` | High
-11 | File | `/admin/generalsettings.php` | High
-12 | File | `/admin/login.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/products/manage_product.php` | High
-16 | File | `/admin/settings/save.php` | High
-17 | File | `/admin/students/manage.php` | High
-18 | File | `/admin/students/view_student.php` | High
-19 | File | `/admin/usermanagement.php` | High
-20 | File | `/admin/userprofile.php` | High
-21 | File | `/api/addusers` | High
-22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/api/user/upsert/<uuid>` | High
-24 | File | `/appliance/users?action=edit` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/backup.pl` | Medium
-27 | File | `/cgi-bin/webviewer_login_page` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/College/admin/teacher.php` | High
-30 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-31 | File | `/dashboard/updatelogo.php` | High
-32 | File | `/designer/add/layout` | High
-33 | File | `/edoc/doctor/patient.php` | High
-34 | File | `/etc/ldap.conf` | High
-35 | File | `/etc/shadow` | Medium
-36 | File | `/filemanager/upload/drop` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/addUserName` | High
-39 | File | `/goform/aspForm` | High
-40 | File | `/goform/delAd` | High
-41 | File | `/goform/wifiSSIDset` | High
-42 | File | `/gpac/src/bifs/unquantize.c` | High
-43 | File | `/h/calendar` | Medium
-44 | File | `/h/compose` | Medium
-45 | File | `/h/search?action=voicemail&action=listen` | High
-46 | File | `/inc/topBarNav.php` | High
-47 | File | `/index.asp` | Medium
-48 | File | `/index.php` | Medium
-49 | File | `/jfinal_cms/system/role/list` | High
-50 | File | `/loginVaLidation.php` | High
-51 | File | `/manage-apartment.php` | High
-52 | File | `/manager/index.php` | High
-53 | File | `/mkshop/Men/profile.php` | High
-54 | File | `/Moosikay/order.php` | High
+6 | File | `/Admin/add-student.php` | High
+7 | File | `/admin/login.php` | High
+8 | File | `/admin/products/manage_product.php` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/students/manage.php` | High
+11 | File | `/admin/students/view_student.php` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/api/RecordingList/DownloadRecord?file=` | High
+14 | File | `/api/user/upsert/<uuid>` | High
+15 | File | `/appliance/users?action=edit` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/backup.pl` | Medium
+18 | File | `/cgi-bin/webviewer_login_page` | High
+19 | File | `/cgi-bin/wlogin.cgi` | High
+20 | File | `/College/admin/teacher.php` | High
+21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+22 | File | `/dashboard/updatelogo.php` | High
+23 | File | `/dcim/rack-roles/` | High
+24 | File | `/E-mobile/App/System/File/downfile.php` | High
+25 | File | `/edoc/doctor/patient.php` | High
+26 | File | `/etc/ldap.conf` | High
+27 | File | `/etc/shadow` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/addUserName` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/goform/delAd` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/gpac/src/bifs/unquantize.c` | High
+34 | File | `/h/calendar` | Medium
+35 | File | `/h/compose` | Medium
+36 | File | `/h/search?action=voicemail&action=listen` | High
+37 | File | `/inc/topBarNav.php` | High
+38 | File | `/index.asp` | Medium
+39 | File | `/index.php` | Medium
+40 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/jfinal_cms/system/role/list` | High
+42 | File | `/kelas/data` | Medium
+43 | File | `/kelasdosen/data` | High
+44 | File | `/loginVaLidation.php` | High
+45 | File | `/manage-apartment.php` | High
+46 | File | `/manager/index.php` | High
+47 | File | `/mkshop/Men/profile.php` | High
+48 | File | `/Moosikay/order.php` | High
+49 | File | `/Noxen-master/users.php` | High
+50 | File | `/opac/Actions.php?a=login` | High
+51 | File | `/osm/REGISTER.cmd` | High
+52 | File | `/pages/animals.php` | High
+53 | File | `/php-scrm/login.php` | High
+54 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 55 | ... | ... | ...
 
-There are 478 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

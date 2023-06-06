@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,18 +48,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/gena.cgi` | Medium
-3 | File | `/MIME/INBOX-MM-1/` | High
-4 | File | `/netflow/jspui/editProfile.jsp` | High
-5 | File | `/rapi/read_url` | High
-6 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-7 | File | `/see_more_details.php` | High
-8 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-9 | File | `Application/Admin/Controller/ConfigController.class.php` | High
-10 | File | `auth-gss2.c` | Medium
+2 | File | `/apply.cgi` | Medium
+3 | File | `/gena.cgi` | Medium
+4 | File | `/MIME/INBOX-MM-1/` | High
+5 | File | `/netflow/jspui/editProfile.jsp` | High
+6 | File | `/rapi/read_url` | High
+7 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+8 | File | `/see_more_details.php` | High
+9 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+10 | File | `Application/Admin/Controller/ConfigController.class.php` | High
 11 | ... | ... | ...
 
-There are 81 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

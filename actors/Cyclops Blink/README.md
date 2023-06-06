@@ -49,7 +49,7 @@ ID | IP address | Hostname | Campaign | Confidence
 37 | [50.192.49.210](https://vuldb.com/?ip.50.192.49.210) | 50-192-49-210-static.hfc.comcastbusiness.net | - | High
 38 | ... | ... | ... | ...
 
-There are 150 more IOC items available. Please use our online service to access the data.
+There are 146 more IOC items available. Please use our online service to access the data.
 
 ## References
 

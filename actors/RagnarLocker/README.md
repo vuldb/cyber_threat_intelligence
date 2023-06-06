@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 17 more TTP items available. Please use our online service to access the data.
@@ -59,24 +59,25 @@ ID | Type | Indicator | Confidence
 6 | File | `/HNAP1` | Low
 7 | File | `/mc-admin/post.php?state=delete&delete` | High
 8 | File | `/mkshop/Men/profile.php` | High
-9 | File | `/public/login.htm` | High
-10 | File | `/student/bookdetails.php` | High
-11 | File | `/usr/ucb/mail` | High
-12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-13 | File | `adclick.php` | Medium
-14 | File | `addmember.php` | High
-15 | File | `addtocart.asp` | High
-16 | File | `addtomylist.asp` | High
-17 | File | `admin.x-shop.php` | High
-18 | File | `admin/auth.php` | High
-19 | File | `admin/import/class-import-settings.php` | High
-20 | File | `admin/sqlpatch.php` | High
-21 | File | `admincp/auth/checklogin.php` | High
-22 | File | `adminlogin.asp` | High
-23 | File | `admin_feature.php` | High
-24 | ... | ... | ...
+9 | File | `/php-jms/review_se_result.php` | High
+10 | File | `/public/login.htm` | High
+11 | File | `/spip.php` | Medium
+12 | File | `/student/bookdetails.php` | High
+13 | File | `/usr/ucb/mail` | High
+14 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+15 | File | `adclick.php` | Medium
+16 | File | `addmember.php` | High
+17 | File | `addtocart.asp` | High
+18 | File | `addtomylist.asp` | High
+19 | File | `admin.x-shop.php` | High
+20 | File | `admin/auth.php` | High
+21 | File | `admin/import/class-import-settings.php` | High
+22 | File | `admin/sqlpatch.php` | High
+23 | File | `admincp/auth/checklogin.php` | High
+24 | File | `adminlogin.asp` | High
+25 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

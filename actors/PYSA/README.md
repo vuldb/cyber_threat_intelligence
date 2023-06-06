@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,40 +57,42 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/maintenance/brand.php` | High
 7 | File | `/admin/maintenance/manage_category.php` | High
 8 | File | `/admin/maintenance/view_designation.php` | High
-9 | File | `/admin/report/index.php` | High
-10 | File | `/admin/service_requests/manage_inventory.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin_area/login_transfer.php` | High
-13 | File | `/adms/admin/?page=user/manage_user` | High
-14 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-15 | File | `/ajax/update_certificate` | High
-16 | File | `/alphaware/details.php` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/cgi-bin/ping.cgi` | High
-19 | File | `/cgi-bin/touchlist_sync.cgi` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php` | High
-22 | File | `/classes/Users.php` | High
-23 | File | `/file_manager/admin/save_user.php` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/fudforum/adm/hlplist.php` | High
-26 | File | `/goForm/aspForm` | High
-27 | File | `/goform/formDefault` | High
-28 | File | `/goform/formSysCmd` | High
-29 | File | `/goform/fromSetWirelessRepeat` | High
-30 | File | `/index/user/user_edit.html` | High
-31 | File | `/jurusan/data` | High
-32 | File | `/kelas/data` | Medium
-33 | File | `/login/index.php` | High
-34 | File | `/mogu-picture/file/uploadPicsByUrl` | High
-35 | File | `/Moosikay/order.php` | High
-36 | File | `/pf/idprofile.ping` | High
-37 | File | `/philosophy/admin/user/controller.php?action=add` | High
-38 | File | `/php-opos/signup.php` | High
-39 | File | `/rest/api/2/user/picker` | High
-40 | ... | ... | ...
+9 | File | `/admin/modal_add_product.php` | High
+10 | File | `/admin/report/index.php` | High
+11 | File | `/admin/reportupload.aspx` | High
+12 | File | `/admin/service.php` | High
+13 | File | `/admin/service_requests/manage_inventory.php` | High
+14 | File | `/admin/update_s6.php` | High
+15 | File | `/admin/user/manage_user.php` | High
+16 | File | `/admin_area/login_transfer.php` | High
+17 | File | `/adms/admin/?page=user/manage_user` | High
+18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+19 | File | `/ajax.php?action=save_company` | High
+20 | File | `/ajax/update_certificate` | High
+21 | File | `/alphaware/details.php` | High
+22 | File | `/apply.cgi` | Medium
+23 | File | `/cgi-bin/ping.cgi` | High
+24 | File | `/cgi-bin/touchlist_sync.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Users.php` | High
+28 | File | `/file_manager/admin/save_user.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/fudforum/adm/hlplist.php` | High
+31 | File | `/goForm/aspForm` | High
+32 | File | `/goform/formDefault` | High
+33 | File | `/goform/formSysCmd` | High
+34 | File | `/goform/fromSetWirelessRepeat` | High
+35 | File | `/jurusan/data` | High
+36 | File | `/kelas/data` | Medium
+37 | File | `/login/index.php` | High
+38 | File | `/mahasiswa/data` | High
+39 | File | `/mogu-picture/file/uploadPicsByUrl` | High
+40 | File | `/Moosikay/order.php` | High
+41 | File | `/pf/idprofile.ping` | High
+42 | ... | ... | ...
 
-There are 345 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [JP](https://vuldb.com/?country.jp)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4850,59 +4850,9 @@ ID | IP address | Hostname | Actor | Confidence
 4818 | [45.133.9.32](https://vuldb.com/?ip.45.133.9.32) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4819 | [45.133.9.81](https://vuldb.com/?ip.45.133.9.81) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 4820 | [45.133.119.241](https://vuldb.com/?ip.45.133.119.241) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4821 | [45.133.194.11](https://vuldb.com/?ip.45.133.194.11) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4822 | [45.133.194.39](https://vuldb.com/?ip.45.133.194.39) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4823 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4824 | [45.133.216.58](https://vuldb.com/?ip.45.133.216.58) | vm354332.pq.hosting | [Unknown](https://vuldb.com/?actor.unknown) | High
-4825 | [45.133.216.59](https://vuldb.com/?ip.45.133.216.59) | 4ser-1646140867.mskhost.su | [Unknown](https://vuldb.com/?actor.unknown) | High
-4826 | [45.133.216.60](https://vuldb.com/?ip.45.133.216.60) | vm294715.pq.hosting | [Unknown](https://vuldb.com/?actor.unknown) | High
-4827 | [45.133.217.148](https://vuldb.com/?ip.45.133.217.148) | bitwebru3.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4828 | [45.133.217.203](https://vuldb.com/?ip.45.133.217.203) | druzhba-svet.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4829 | [45.133.235.227](https://vuldb.com/?ip.45.133.235.227) | bitwebru3.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4830 | [45.133.239.173](https://vuldb.com/?ip.45.133.239.173) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4831 | [45.133.245.219](https://vuldb.com/?ip.45.133.245.219) | vds2190119.my-ihor.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4832 | [45.133.245.228](https://vuldb.com/?ip.45.133.245.228) | vds2163744.my-ihor.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4833 | [45.134.17.152](https://vuldb.com/?ip.45.134.17.152) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4834 | [45.134.17.165](https://vuldb.com/?ip.45.134.17.165) | oyhvj.todoingllc.online | [Unknown](https://vuldb.com/?actor.unknown) | High
-4835 | [45.134.17.166](https://vuldb.com/?ip.45.134.17.166) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4836 | [45.134.17.171](https://vuldb.com/?ip.45.134.17.171) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4837 | [45.134.225.18](https://vuldb.com/?ip.45.134.225.18) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4838 | [45.134.225.20](https://vuldb.com/?ip.45.134.225.20) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4839 | [45.134.225.35](https://vuldb.com/?ip.45.134.225.35) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4840 | [45.135.116.233](https://vuldb.com/?ip.45.135.116.233) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4841 | [45.135.118.185](https://vuldb.com/?ip.45.135.118.185) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4842 | [45.135.132.19](https://vuldb.com/?ip.45.135.132.19) | bitwebru3.ru | [Unknown](https://vuldb.com/?actor.unknown) | High
-4843 | [45.135.135.132](https://vuldb.com/?ip.45.135.135.132) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4844 | [45.135.135.154](https://vuldb.com/?ip.45.135.135.154) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4845 | [45.135.135.168](https://vuldb.com/?ip.45.135.135.168) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4846 | [45.135.135.184](https://vuldb.com/?ip.45.135.135.184) | rnekusnsu.shop | [Unknown](https://vuldb.com/?actor.unknown) | High
-4847 | [45.136.5.245](https://vuldb.com/?ip.45.136.5.245) | node-245.tor.exit.sx | [Unknown](https://vuldb.com/?actor.unknown) | High
-4848 | [45.136.15.11](https://vuldb.com/?ip.45.136.15.11) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4849 | [45.136.74.17](https://vuldb.com/?ip.45.136.74.17) | 45-136-74-17.dsl.cambrium.nl | [Unknown](https://vuldb.com/?actor.unknown) | High
-4850 | [45.136.184.195](https://vuldb.com/?ip.45.136.184.195) | 45.136.184.195.static.xtom.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-4851 | [45.136.230.187](https://vuldb.com/?ip.45.136.230.187) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4852 | [45.136.244.233](https://vuldb.com/?ip.45.136.244.233) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4853 | [45.137.10.201](https://vuldb.com/?ip.45.137.10.201) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-4854 | [45.137.22.36](https://vuldb.com/?ip.45.137.22.36) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4855 | [45.137.22.50](https://vuldb.com/?ip.45.137.22.50) | host.pclonline.ga | [Unknown](https://vuldb.com/?actor.unknown) | High
-4856 | [45.137.22.52](https://vuldb.com/?ip.45.137.22.52) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4857 | [45.137.22.56](https://vuldb.com/?ip.45.137.22.56) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4858 | [45.137.22.58](https://vuldb.com/?ip.45.137.22.58) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4859 | [45.137.22.60](https://vuldb.com/?ip.45.137.22.60) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4860 | [45.137.22.70](https://vuldb.com/?ip.45.137.22.70) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4861 | [45.137.22.77](https://vuldb.com/?ip.45.137.22.77) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4862 | [45.137.22.101](https://vuldb.com/?ip.45.137.22.101) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4863 | [45.137.22.102](https://vuldb.com/?ip.45.137.22.102) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4864 | [45.137.22.104](https://vuldb.com/?ip.45.137.22.104) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4865 | [45.137.22.107](https://vuldb.com/?ip.45.137.22.107) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4866 | [45.137.22.115](https://vuldb.com/?ip.45.137.22.115) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4867 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4868 | [45.137.22.142](https://vuldb.com/?ip.45.137.22.142) | hosted-by.rootlayer.net | [Unknown](https://vuldb.com/?actor.unknown) | High
-4869 | [45.137.22.146](https://vuldb.com/?ip.45.137.22.146) | host.nectonline.ga | [Unknown](https://vuldb.com/?actor.unknown) | High
-4870 | [45.137.64.165](https://vuldb.com/?ip.45.137.64.165) | chx12.aalid.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-4871 | ... | ... | ... | ...
+4821 | ... | ... | ... | ...
 
-There are 19478 more IOC items available. Please use our online service to access the data.
+There are 19280 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -4910,14 +4860,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4925,49 +4874,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/?r=email/api/mark&op=delFromSend` | High
-3 | File | `/admin/bookings/manage_booking.php` | High
-4 | File | `/admin/bookings/view_booking.php` | High
-5 | File | `/admin/bookings/view_details.php` | High
-6 | File | `/admin/curriculum/view_curriculum.php` | High
-7 | File | `/admin/inquiries/view_inquiry.php` | High
-8 | File | `/admin/misc/script-proxy` | High
-9 | File | `/admin/services/view_service.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/admin/user/uploadImg` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/be/erpc.php` | Medium
-14 | File | `/bin/login` | Medium
-15 | File | `/boafrm/formFilter` | High
-16 | File | `/classes/Master.php?f=delete_inquiry` | High
-17 | File | `/classes/Master.php?f=save_course` | High
-18 | File | `/classes/Master.php?f=save_service` | High
-19 | File | `/Content/Template/root/reverse-shell.aspx` | High
-20 | File | `/Default/Bd` | Medium
-21 | File | `/dev/net` | Medium
-22 | File | `/dialog/select_media.php` | High
-23 | File | `/Electron/download` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/sysTools` | High
-26 | File | `/index.php/archives/1/comment` | High
-27 | File | `/message/form/` | High
-28 | File | `/modules/profile/index.php` | High
-29 | File | `/php-jms/edit_judge.php` | High
-30 | File | `/plesk-site-preview/` | High
-31 | File | `/proc/ftxxxx-debug` | High
-32 | File | `/send_order.cgi?parameter=access_detect` | High
-33 | File | `/server/api/v1/login` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/static/ueditor/php/controller.php` | High
-36 | File | `/tmp/speedtest_urls.xml` | High
-37 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-38 | File | `/v2/#/` | Low
-39 | File | `/v2/#/add/department` | High
-40 | File | `/vendor` | Low
-41 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/contacts/organizations/edit/2` | High
+5 | File | `/admin/curriculum/view_curriculum.php` | High
+6 | File | `/admin/edit_subject.php` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/reportupload.aspx` | High
+9 | File | `/admin/save_teacher.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/update_s6.php` | High
+12 | File | `/advanced-tools/nova/bin/netwatch` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/ajax.php?action=save_company` | High
+15 | File | `/api/crontab` | Medium
+16 | File | `/api/login` | Medium
+17 | File | `/api/v2/cli/commands` | High
+18 | File | `/bin/login` | Medium
+19 | File | `/cas/logout` | Medium
+20 | File | `/classes/Master.php?f=delete_category` | High
+21 | File | `/debug/pprof` | Medium
+22 | File | `/DXR.axd` | Medium
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/index.php?page=category_list` | High
+27 | File | `/Login/CheckLogin` | High
+28 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

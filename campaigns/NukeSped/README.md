@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NukeSped:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [UA](https://vuldb.com/?country.ua)
 
 ## Actors
 
@@ -86,10 +88,9 @@ ID | Type | Indicator | Confidence
 35 | File | `AndroidManifest.xml` | High
 36 | File | `Annot.c` | Low
 37 | File | `app/admin/controller/themecontroller.php` | High
-38 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-39 | ... | ... | ...
+38 | ... | ... | ...
 
-There are 336 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

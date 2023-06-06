@@ -21,6 +21,14 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [88.99.112.168](https://vuldb.com/?ip.88.99.112.168) | static.168.112.99.88.clients.your-server.de | - | High
 3 | [88.99.112.169](https://vuldb.com/?ip.88.99.112.169) | static.169.112.99.88.clients.your-server.de | - | High
 
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Edwind_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1202 | CWE-78 | Command Injection | High
+
 ## IOA - Indicator of Attack
 
 These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Edwind. This data is unique as it uses our predictive model for actor profiling.

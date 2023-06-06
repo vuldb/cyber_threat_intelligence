@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,10 +27,9 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [45.84.0.152](https://vuldb.com/?ip.45.84.0.152) | vm603207.stark-industries.solutions | - | High
 5 | [45.133.216.145](https://vuldb.com/?ip.45.133.216.145) | new18.vpsfast | - | High
 6 | [45.133.216.170](https://vuldb.com/?ip.45.133.216.170) | wireguard.vasilchenko.dev | - | High
-7 | [45.133.216.249](https://vuldb.com/?ip.45.133.216.249) | vm542550.stark-industries.solutions | - | High
-8 | ... | ... | ... | ...
+7 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,10 +37,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -52,21 +52,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/cgi-bin/luci/api/switch` | High
-3 | File | `/cgi-bin/sm_changepassword.cgi` | High
-4 | File | `/export` | Low
-5 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-6 | File | `/include/chart_generator.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/jsonrpc` | Medium
-9 | File | `/mims/login.php` | High
-10 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-11 | File | `/rapi/read_url` | High
-12 | File | `/SetTriggerWPS/PIN` | High
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/cgi-bin/luci/api/switch` | High
+4 | File | `/cgi-bin/sm_changepassword.cgi` | High
+5 | File | `/export` | Low
+6 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+7 | File | `/include/chart_generator.php` | High
+8 | File | `/index.php` | Medium
+9 | File | `/jsonrpc` | Medium
+10 | File | `/mims/login.php` | High
+11 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+12 | File | `/rapi/read_url` | High
+13 | File | `/SetTriggerWPS/PIN` | High
+14 | File | `/wp-admin/admin-ajax.php` | High
+15 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+16 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+17 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 135 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

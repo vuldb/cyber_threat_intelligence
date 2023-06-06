@@ -4,19 +4,64 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.pennywise_stealer](https://vuldb.com/?actor.pennywise_stealer)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PennyWise Stealer:
+
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [IT](https://vuldb.com/?country.it)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of PennyWise Stealer.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.246.116.237](https://vuldb.com/?ip.185.246.116.237) | vps105237.vpsville.ru | - | High
+1 | [45.151.137.145](https://vuldb.com/?ip.45.151.137.145) | vps257016.vpsville.ru | - | High
+2 | [85.192.63.194](https://vuldb.com/?ip.85.192.63.194) | available-fog.aeza.network | - | High
+3 | [185.220.35.84](https://vuldb.com/?ip.185.220.35.84) | vps07019.vpsville.ru | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _PennyWise Stealer_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1204.001 | CWE-601 | Open Redirect | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by PennyWise Stealer. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/spip.php` | Medium
+4 | File | `/wp-admin/admin-ajax.php` | High
+5 | File | `action.php` | Medium
+6 | File | `adclick.php` | Medium
+7 | ... | ... | ...
+
+There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/f43fcedd-fdfc-4fed-9e26-ffca5797e9bd
 * https://blog.cyble.com/2022/06/30/infostealer/
+* https://threatfox.abuse.ch
+* https://twitter.com/petrovic082/status/1644238902444670976
 
 ## Literature
 

@@ -36,10 +36,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,32 +62,31 @@ ID | Type | Indicator | Confidence
 13 | File | `/auparse/auparse.c` | High
 14 | File | `/back/index.php/user/User/?1` | High
 15 | File | `/backups/` | Medium
-16 | File | `/backupsettings.conf` | High
-17 | File | `/bfd/pef.c` | Medium
-18 | File | `/cgi-bin/logs.ha` | High
-19 | File | `/claire_blake` | High
-20 | File | `/classes/Master.php?f=delete_service` | High
-21 | File | `/coders/pdf.c` | High
-22 | File | `/common/info.cgi` | High
-23 | File | `/core/table/query` | High
-24 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
-25 | File | `/feedback/post/` | High
-26 | File | `/gaia-job-admin/user/add` | High
-27 | File | `/goform/dir_setWanWifi` | High
-28 | File | `/goform/login` | High
-29 | File | `/goform/SetInternetLanInfo` | High
-30 | File | `/goform/setportList` | High
-31 | File | `/goform/SetPptpServerCfg` | High
-32 | File | `/goform/WifiBasicSet` | High
-33 | File | `/group/apply` | Medium
-34 | File | `/hdf5/src/H5Fint.c` | High
-35 | File | `/includes/login.php` | High
-36 | File | `/index.cfm/_api/asset/image/` | High
-37 | File | `/insurance/editClient.php` | High
-38 | File | `/linkedcontent/editfolder.php` | High
-39 | ... | ... | ...
+16 | File | `/bfd/pef.c` | Medium
+17 | File | `/cgi-bin/logs.ha` | High
+18 | File | `/claire_blake` | High
+19 | File | `/classes/Master.php?f=delete_service` | High
+20 | File | `/common/info.cgi` | High
+21 | File | `/core/table/query` | High
+22 | File | `/damicms-master/admin.php?s=/Article/doedit` | High
+23 | File | `/feedback/post/` | High
+24 | File | `/gaia-job-admin/user/add` | High
+25 | File | `/goform/dir_setWanWifi` | High
+26 | File | `/goform/login` | High
+27 | File | `/goform/SetInternetLanInfo` | High
+28 | File | `/goform/setportList` | High
+29 | File | `/goform/SetPptpServerCfg` | High
+30 | File | `/goform/WifiBasicSet` | High
+31 | File | `/group/apply` | Medium
+32 | File | `/hdf5/src/H5Fint.c` | High
+33 | File | `/includes/login.php` | High
+34 | File | `/index.cfm/_api/asset/image/` | High
+35 | File | `/insurance/editClient.php` | High
+36 | File | `/linkedcontent/editfolder.php` | High
+37 | File | `/master/core/PostHandler.php` | High
+38 | ... | ... | ...
 
-There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 331 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

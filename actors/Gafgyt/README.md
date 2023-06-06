@@ -16,12 +16,12 @@ The following _campaigns_ are known and can be associated with Gafgyt:
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Gafgyt:
 
-* [SC](https://vuldb.com/?country.sc)
 * [US](https://vuldb.com/?country.us)
+* [SC](https://vuldb.com/?country.sc)
 * [LI](https://vuldb.com/?country.li)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,7 +48,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,20 +56,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/sysmon.php` | High
-2 | File | `/api/content/posts/comments` | High
-3 | File | `/cimom` | Low
-4 | File | `/Home/GetAttachment` | High
-5 | File | `/LogoStore/search.php` | High
-6 | File | `/MIME/INBOX-MM-1/` | High
-7 | File | `/modules/projects/vw_files.php` | High
-8 | File | `/sm/api/v1/firewall/zone/services` | High
-9 | File | `/usr/bin/pkexec` | High
-10 | File | `admin/limits.php` | High
-11 | File | `AjaxFileUploadHandler.axd` | High
-12 | ... | ... | ...
+1 | File | `/adfs/ls` | Medium
+2 | File | `/admin/sysmon.php` | High
+3 | File | `/api/content/posts/comments` | High
+4 | File | `/cimom` | Low
+5 | File | `/debug/pprof` | Medium
+6 | File | `/forum/away.php` | High
+7 | File | `/Home/GetAttachment` | High
+8 | File | `/LogoStore/search.php` | High
+9 | File | `/MIME/INBOX-MM-1/` | High
+10 | File | `/modules/projects/vw_files.php` | High
+11 | File | `/sm/api/v1/firewall/zone/services` | High
+12 | File | `/usr/bin/pkexec` | High
+13 | File | `/var/run/zabbix` | High
+14 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

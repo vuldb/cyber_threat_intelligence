@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -95,15 +95,19 @@ ID | Type | Indicator | Confidence
 45 | File | `administration/admins.php` | High
 46 | File | `administrator/components/com_media/helpers/media.php` | High
 47 | File | `admin_ok.asp` | Medium
-48 | File | `app/Core/Paginator.php` | High
-49 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-50 | File | `artlinks.dispnew.php` | High
-51 | File | `auth.php` | Medium
-52 | File | `bin/named/query.c` | High
-53 | File | `blank.php` | Medium
-54 | ... | ... | ...
+48 | File | `album_portal.php` | High
+49 | File | `app/Core/Paginator.php` | High
+50 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+51 | File | `artlinks.dispnew.php` | High
+52 | File | `auth.php` | Medium
+53 | File | `bin/named/query.c` | High
+54 | File | `blank.php` | Medium
+55 | File | `blocklayered-ajax.php` | High
+56 | File | `blogger-importer.php` | High
+57 | File | `bluegate_seo.inc.php` | High
+58 | ... | ... | ...
 
-There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 508 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

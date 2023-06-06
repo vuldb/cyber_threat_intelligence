@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,28 +69,29 @@ ID | Type | Indicator | Confidence
 14 | File | `/dashboard/contact` | High
 15 | File | `/debug/pprof` | Medium
 16 | File | `/dms/admin/reports/daily_collection_report.php` | High
-17 | File | `/etc/config/cameo` | High
-18 | File | `/export` | Low
-19 | File | `/files.md5` | Medium
-20 | File | `/food/admin/all_users.php` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/hrm/employeeview.php` | High
-23 | File | `/htdocs/cgibin` | High
-24 | File | `/isms/classes/Users.php` | High
-25 | File | `/librarian/bookdetails.php` | High
-26 | File | `/login` | Low
-27 | File | `/mc` | Low
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/ofrs/admin/?page=teams/view_team` | High
-31 | File | `/one_church/userregister.php` | High
-32 | File | `/out.php` | Medium
-33 | File | `/public/plugins/` | High
-34 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-35 | File | `/SASWebReportStudio/logonAndRender.do` | High
-36 | ... | ... | ...
+17 | File | `/export` | Low
+18 | File | `/files.md5` | Medium
+19 | File | `/food/admin/all_users.php` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/hrm/employeeview.php` | High
+22 | File | `/htdocs/cgibin` | High
+23 | File | `/isms/classes/Users.php` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/mc` | Low
+26 | File | `/messageboard/view.php` | High
+27 | File | `/mkshop/Men/profile.php` | High
+28 | File | `/ofrs/admin/?page=teams/view_team` | High
+29 | File | `/one_church/userregister.php` | High
+30 | File | `/out.php` | Medium
+31 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+32 | File | `/SASWebReportStudio/logonAndRender.do` | High
+33 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+34 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+35 | File | `/sns/classes/Master.php?f=delete_img` | High
+36 | File | `/Source/C++/Core/Ap4Array.h` | High
+37 | ... | ... | ...
 
-There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

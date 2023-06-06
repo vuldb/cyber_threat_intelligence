@@ -47,12 +47,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/debug/pprof` | Medium
-2 | File | `/redbin/rpwebutilities.exe/text` | High
-3 | File | `/rules/REQUEST-932-APPLICATION-ATTACK-RCE.conf` | High
+1 | File | `/bitrix/admin/ldap_server_edit.php` | High
+2 | File | `/debug/pprof` | Medium
+3 | File | `/redbin/rpwebutilities.exe/text` | High
 4 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 24 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

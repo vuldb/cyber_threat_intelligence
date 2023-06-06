@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 23 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | IP address | Hostname | Campaign | Confidence
 16 | [66.117.2.182](https://vuldb.com/?ip.66.117.2.182) | crownwine.net | - | High
 17 | ... | ... | ... | ...
 
-There are 65 more IOC items available. Please use our online service to access the data.
+There are 63 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,7 +60,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,9 +102,10 @@ ID | Type | Indicator | Confidence
 32 | File | `admin/shophelp.php` | High
 33 | File | `ajax-actions.php` | High
 34 | File | `ajax/api/hook/decodeArguments` | High
-35 | ... | ... | ...
+35 | File | `akocomments.php` | High
+36 | ... | ... | ...
 
-There are 301 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 311 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

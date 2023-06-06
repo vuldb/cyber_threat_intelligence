@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [DE](https://vuldb.com/?country.de)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,12 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-27, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -61,37 +61,54 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.authlie` | Medium
 2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/admin/ajax.php?action=delete_window` | High
-4 | File | `/admin/ajax.php?action=save_queue` | High
-5 | File | `/admin/article_category.php` | High
-6 | File | `/admin/manage_user.php` | High
-7 | File | `/apply.cgi` | Medium
-8 | File | `/bsms_ci/index.php/book` | High
-9 | File | `/classes/Master.php?f=delete_brand` | High
-10 | File | `/classes/Master.php?f=delete_category` | High
-11 | File | `/config/api/v1/reboot` | High
-12 | File | `/etc/shadow` | Medium
-13 | File | `/forums.php?action=post` | High
-14 | File | `/home/cavesConsole` | High
-15 | File | `/home/kickPlayer` | High
-16 | File | `/home/masterConsole` | High
-17 | File | `/home/sendBroadcast` | High
-18 | File | `/hss/admin/?page=client/manage_client` | High
-19 | File | `/index.php` | Medium
-20 | File | `/inxedu/demo_inxedu_open/src/main/resources/mybatis/inxedu/website/WebsiteImagesMapper.xml` | High
-21 | File | `/login/index.php` | High
-22 | File | `/loginVaLidation.php` | High
-23 | File | `/manage/emailrichment/userlist.php?CUSTOMER_ID_INNER=1` | High
-24 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-25 | File | `/setNTP.cgi` | Medium
-26 | File | `/system/site.php` | High
-27 | File | `/tiki-importer.php` | High
-28 | File | `/tmp` | Low
-29 | File | `/tpts/manage_user.php` | High
-30 | File | `/trufusionPortal/upDwModuleProxy` | High
-31 | ... | ... | ...
+3 | File | `/admin/ajax.php?action=save_queue` | High
+4 | File | `/admin/bookings/manage_booking.php` | High
+5 | File | `/admin/bookings/view_booking.php` | High
+6 | File | `/admin/budget/manage_budget.php` | High
+7 | File | `/admin/cashadvance_row.php` | High
+8 | File | `/admin/curriculum/view_curriculum.php` | High
+9 | File | `/admin/deduction_row.php` | High
+10 | File | `/admin/departments/view_department.php` | High
+11 | File | `/admin/edit_subject.php` | High
+12 | File | `/admin/employee_row.php` | High
+13 | File | `/admin/index.php` | High
+14 | File | `/admin/inquiries/view_inquiry.php` | High
+15 | File | `/admin/login.php` | High
+16 | File | `/admin/maintenance/manage_category.php` | High
+17 | File | `/admin/maintenance/view_designation.php` | High
+18 | File | `/admin/mechanics/manage_mechanic.php` | High
+19 | File | `/admin/offenses/view_details.php` | High
+20 | File | `/admin/orders/update_status.php` | High
+21 | File | `/admin/products/manage_product.php` | High
+22 | File | `/admin/products/view_product.php` | High
+23 | File | `/admin/reminders/manage_reminder.php` | High
+24 | File | `/admin/report/index.php` | High
+25 | File | `/admin/service.php` | High
+26 | File | `/admin/services/manage_service.php` | High
+27 | File | `/admin/services/view_service.php` | High
+28 | File | `/admin/service_requests/manage_inventory.php` | High
+29 | File | `/admin/suppliers/view_details.php` | High
+30 | File | `/admin/transactions/track_shipment.php` | High
+31 | File | `/admin/user/manage_user.php` | High
+32 | File | `/admin/userprofile.php` | High
+33 | File | `/ajax/myshop` | Medium
+34 | File | `/alarm_pi/alarmService.php` | High
+35 | File | `/api/stl/actions/search` | High
+36 | File | `/apply.cgi` | Medium
+37 | File | `/bsms_ci/index.php/book` | High
+38 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+39 | File | `/cgi-bin/ping.cgi` | High
+40 | File | `/classes/Login.php` | High
+41 | File | `/classes/Master.php` | High
+42 | File | `/classes/Master.php?f=delete_category` | High
+43 | File | `/classes/Master.php?f=delete_inquiry` | High
+44 | File | `/classes/Master.php?f=delete_item` | High
+45 | File | `/classes/Master.php?f=delete_service` | High
+46 | File | `/classes/Master.php?f=delete_sub_category` | High
+47 | File | `/classes/Master.php?f=save_course` | High
+48 | ... | ... | ...
 
-There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

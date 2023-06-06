@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,9 +28,12 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [41.221.176.0](https://vuldb.com/?ip.41.221.176.0) | - | - | High
 6 | [45.12.70.146](https://vuldb.com/?ip.45.12.70.146) | mesure-whetted.alltieinc.com | - | High
 7 | [45.12.71.146](https://vuldb.com/?ip.45.12.71.146) | - | - | High
-8 | ... | ... | ... | ...
+8 | [45.42.129.0](https://vuldb.com/?ip.45.42.129.0) | - | - | High
+9 | [45.61.37.0](https://vuldb.com/?ip.45.61.37.0) | - | - | High
+10 | [57.82.154.0](https://vuldb.com/?ip.57.82.154.0) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +44,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -77,18 +81,21 @@ ID | Type | Indicator | Confidence
 24 | File | `admin/movieview.php` | High
 25 | File | `admin/versions.html` | High
 26 | File | `administrator/index.php` | High
-27 | File | `album_portal.php` | High
-28 | File | `api.php` | Low
-29 | File | `application/home/controller/debug.php` | High
-30 | ... | ... | ...
+27 | File | `agenda.php` | Medium
+28 | File | `album_portal.php` | High
+29 | File | `api.php` | Low
+30 | File | `application/home/controller/debug.php` | High
+31 | ... | ... | ...
 
-There are 254 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 259 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ml.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ml.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ml.netset
 
 ## Literature
 

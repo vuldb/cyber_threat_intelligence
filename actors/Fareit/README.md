@@ -58,7 +58,7 @@ ID | IP address | Hostname | Campaign | Confidence
 35 | [62.210.204.55](https://vuldb.com/?ip.62.210.204.55) | 62-210-204-55.rev.poneytelecom.eu | - | High
 36 | ... | ... | ... | ...
 
-There are 141 more IOC items available. Please use our online service to access the data.
+There are 139 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,7 +72,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,22 +81,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
-2 | File | `/api/v2/cli/commands` | High
-3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/mifs/c/i/reg/reg.html` | High
-6 | File | `/secure/ViewCollectors` | High
-7 | File | `/spip.php` | Medium
-8 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-9 | File | `adclick.php` | Medium
-10 | File | `add_comment.php` | High
-11 | File | `admin.jcomments.php` | High
-12 | File | `application/modules/admin/views/ecommerce/products.php` | High
-13 | File | `base/ErrorHandler.php` | High
-14 | File | `blog.php` | Medium
-15 | ... | ... | ...
+2 | File | `/admin/login.php` | High
+3 | File | `/api/v2/cli/commands` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/DXR.axd` | Medium
+6 | File | `/mgmt/tm/util/bash` | High
+7 | File | `/mifs/c/i/reg/reg.html` | High
+8 | File | `/owa/auth/logon.aspx` | High
+9 | File | `/secure/ViewCollectors` | High
+10 | File | `/Session` | Medium
+11 | File | `/spip.php` | Medium
+12 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+13 | File | `/zm/index.php` | High
+14 | File | `adclick.php` | Medium
+15 | File | `add_comment.php` | High
+16 | File | `admin.jcomments.php` | High
+17 | File | `application/modules/admin/views/ecommerce/products.php` | High
+18 | File | `base/ErrorHandler.php` | High
+19 | ... | ... | ...
 
-There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -111,7 +111,7 @@ ID | IP address | Hostname | Campaign | Confidence
 88 | [44.238.161.76](https://vuldb.com/?ip.44.238.161.76) | ec2-44-238-161-76.us-west-2.compute.amazonaws.com | - | Medium
 89 | ... | ... | ... | ...
 
-There are 351 more IOC items available. Please use our online service to access the data.
+There are 350 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -119,7 +119,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -148,23 +148,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/alphaware/summary.php` | High
 13 | File | `/api/` | Low
 14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/attachments` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/classes/Master.php?f=save_sub_category` | High
-22 | File | `/cms/category/list` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/attachments` | Medium
+18 | File | `/boat/login.php` | High
+19 | File | `/bsms_ci/index.php/book` | High
+20 | File | `/cgi-bin` | Medium
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/classes/Master.php?f=save_sub_category` | High
+23 | File | `/cms/category/list` | High
 24 | File | `/debug/pprof` | Medium
 25 | File | `/Default/Bd` | Medium
-26 | File | `/egroupware/index.php` | High
-27 | File | `/etc/hosts` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/forums/editforum.php` | High
-30 | File | `/goform/CertListInfo` | High
-31 | File | `/hrm/employeeview.php` | High
+26 | File | `/etc/hosts` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/forums/editforum.php` | High
+29 | File | `/goform/CertListInfo` | High
+30 | File | `/hrm/employeeview.php` | High
+31 | File | `/kelas/data` | Medium
 32 | File | `/librarian/bookdetails.php` | High
 33 | File | `/loginsave.php` | High
 34 | File | `/medicines/profile.php` | High
@@ -180,11 +180,12 @@ ID | Type | Indicator | Confidence
 44 | File | `/textpattern/index.php` | High
 45 | File | `/tmp` | Low
 46 | File | `/user/s.php` | Medium
-47 | File | `/var/log/nginx` | High
-48 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-49 | ... | ... | ...
+47 | File | `/user/updatePwd` | High
+48 | File | `/var/log/nginx` | High
+49 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+50 | ... | ... | ...
 
-There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 436 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

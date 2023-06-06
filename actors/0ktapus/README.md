@@ -92,7 +92,7 @@ ID | Type | Indicator | Confidence
 35 | File | `/usr/bin/uucp` | High
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

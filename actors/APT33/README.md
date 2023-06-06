@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with APT33:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with APT33:
 
 * [PL](https://vuldb.com/?country.pl)
+* [FR](https://vuldb.com/?country.fr)
 * [ES](https://vuldb.com/?country.es)
-* [SV](https://vuldb.com/?country.sv)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -58,11 +58,11 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,54 +70,59 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/api/audits` | Medium
-3 | File | `/bin/sh` | Low
-4 | File | `/bsms_ci/index.php/user/edit_user/` | High
-5 | File | `/calendar/viewcalendar.php` | High
-6 | File | `/classes/Master.php?f=delete_appointment` | High
-7 | File | `/classes/Users.php?f=delete_client` | High
-8 | File | `/clients/profile` | High
-9 | File | `/cms/notify` | Medium
-10 | File | `/depotHead/list` | High
-11 | File | `/device/signin` | High
-12 | File | `/env` | Low
-13 | File | `/ext/phar/phar_object.c` | High
-14 | File | `/goform/setSysPwd` | High
-15 | File | `/goform/SysToolReboot` | High
-16 | File | `/goform/SysToolRestoreSet` | High
-17 | File | `/goform/WifiBasicSet` | High
-18 | File | `/goform/wifiSSIDset` | High
-19 | File | `/gpac/src/bifs/unquantize.c` | High
-20 | File | `/hrm/employeeadd.php` | High
-21 | File | `/hss/?page=product_per_brand` | High
-22 | File | `/hss/admin/?page=client/manage_client` | High
-23 | File | `/hss/admin/?page=user/manage_user` | High
-24 | File | `/index.php?module=configuration/application` | High
-25 | File | `/index.php?module=entities/forms&entities_id=24` | High
-26 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
-27 | File | `/login` | Low
-28 | File | `/network_test.php` | High
-29 | File | `/odlms//classes/Master.php?f=delete_activity` | High
-30 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-31 | File | `/plugin/getList` | High
-32 | File | `/projects/listprojects.php` | High
-33 | File | `/queuing/admin/ajax.php?action=save_settings` | High
-34 | File | `/rukovoditel/index.php?module=users/login` | High
-35 | File | `/tmp` | Low
-36 | File | `/v1/sql-runner` | High
-37 | File | `/var/polycom/cma/upgrade/scripts` | High
-38 | File | `/var/tmp/abrt/*/maps` | High
-39 | File | `/web/IndexController.java` | High
-40 | File | `/youthappam/editcategory.php` | High
-41 | File | `3_row-order.php` | High
-42 | File | `4840/tcp` | Medium
-43 | File | `AbstractScheduleJob.java` | High
-44 | File | `AccountTypePreferenceLoader.java` | High
-45 | File | `addrtoname.c` | Medium
-46 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/?page=reminders/view_reminder` | High
+3 | File | `/admin/api/theme-edit/` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/orders/update_status.php` | High
+6 | File | `/admin/userprofile.php` | High
+7 | File | `/api/audits` | Medium
+8 | File | `/bin/sh` | Low
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+11 | File | `/calendar/viewcalendar.php` | High
+12 | File | `/cas/logout` | Medium
+13 | File | `/classes/Login.php` | High
+14 | File | `/classes/Master.php?f=delete_appointment` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Users.php?f=delete_client` | High
+17 | File | `/clients/profile` | High
+18 | File | `/cms/notify` | Medium
+19 | File | `/depotHead/list` | High
+20 | File | `/env` | Low
+21 | File | `/ext/phar/phar_object.c` | High
+22 | File | `/file_manager/admin/save_user.php` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/setSysPwd` | High
+25 | File | `/goform/SysToolReboot` | High
+26 | File | `/goform/SysToolRestoreSet` | High
+27 | File | `/goform/WifiBasicSet` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/hss/?page=product_per_brand` | High
+31 | File | `/hss/admin/?page=client/manage_client` | High
+32 | File | `/hss/admin/?page=user/manage_user` | High
+33 | File | `/inc/jquery/uploadify/uploadify.php` | High
+34 | File | `/index.php?module=configuration/application` | High
+35 | File | `/index.php?module=entities/forms&entities_id=24` | High
+36 | File | `/index.php?module=help_pages/pages&entities_id=24` | High
+37 | File | `/jurusan/data` | High
+38 | File | `/kelasdosen/data` | High
+39 | File | `/login` | Low
+40 | File | `/network_test.php` | High
+41 | File | `/odlms//classes/Master.php?f=delete_activity` | High
+42 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+43 | File | `/plugin/getList` | High
+44 | File | `/projects/listprojects.php` | High
+45 | File | `/queuing/admin/ajax.php?action=save_settings` | High
+46 | File | `/rukovoditel/index.php?module=users/login` | High
+47 | File | `/tmp` | Low
+48 | File | `/v1/sql-runner` | High
+49 | File | `/var/polycom/cma/upgrade/scripts` | High
+50 | File | `/var/tmp/abrt/*/maps` | High
+51 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 446 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -30,7 +30,7 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [35.231.151.7](https://vuldb.com/?ip.35.231.151.7) | 7.151.231.35.bc.googleusercontent.com | - | Medium
 8 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,9 +41,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,14 +53,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/cgi-bin/nasset.cgi` | High
-3 | File | `/index.php/weblinks-categories` | High
-4 | File | `/MIME/INBOX-MM-1/` | High
-5 | File | `/uncpath/` | Medium
-6 | File | `/wp-admin/options-general.php` | High
-7 | ... | ... | ...
+2 | File | `/admin/budget/manage_budget.php` | High
+3 | File | `/admin/edit_subject.php` | High
+4 | File | `/admin/save_teacher.php` | High
+5 | File | `/admin/service.php` | High
+6 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+7 | File | `/cas/logout` | Medium
+8 | File | `/cgi-bin/nasset.cgi` | High
+9 | File | `/dosen/data` | Medium
+10 | File | `/index.php/weblinks-categories` | High
+11 | File | `/jurusan/data` | High
+12 | File | `/kelas/data` | Medium
+13 | File | `/kelasdosen/data` | High
+14 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -70,6 +78,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0115-0122.html
 * https://blog.talosintelligence.com/2021/11/threat-roundup-1029-1105.html
 * https://blog.talosintelligence.com/2022/06/threat-roundup-0617-0624.html
+* https://blog.talosintelligence.com/threat-roundup-0210-0217/
 
 ## Literature
 

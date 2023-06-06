@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,7 +42,7 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [80.240.134.51](https://vuldb.com/?ip.80.240.134.51) | - | C-Major | High
 13 | ... | ... | ... | ...
 
-There are 47 more IOC items available. Please use our online service to access the data.
+There are 49 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -56,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,9 +109,10 @@ ID | Type | Indicator | Confidence
 43 | File | `/goform/RgTime` | High
 44 | File | `/goform/RgUrlBlock.asp` | High
 45 | File | `/goform/wlanPrimaryNetwork` | High
-46 | ... | ... | ...
+46 | File | `/horde/imp/search.php` | High
+47 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 407 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,6 +122,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://vxug.fakedoma.in/archive/APTs/2021/2021.05.13/Transparent%20Tribe.pdf
 * https://www.threatminer.org/report.php?q=indian-military-personnel-targeted-by-information-theft-campaign-cmajor.pdf&y=2016
 * https://www.trendmicro.com/en_us/research/22/a/investigating-apt36-or-earth-karkaddans-attack-chain-and-malware.html
+* https://www.zscaler.com/blogs/security-research/apt-36-uses-new-ttps-and-new-tools-target-indian-governmental-organizations
 
 ## Literature
 

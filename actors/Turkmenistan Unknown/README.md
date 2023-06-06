@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,11 +23,13 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.61.188](https://vuldb.com/?ip.5.62.61.188) | r-188-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.168](https://vuldb.com/?ip.5.62.63.168) | r-168-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [45.12.70.223](https://vuldb.com/?ip.45.12.70.223) | excavations.globalhilive.com | - | High
-4 | [45.12.71.223](https://vuldb.com/?ip.45.12.71.223) | - | - | High
-5 | ... | ... | ... | ...
+3 | [27.34.176.0](https://vuldb.com/?ip.27.34.176.0) | - | - | High
+4 | [27.34.185.0](https://vuldb.com/?ip.27.34.185.0) | - | - | High
+5 | [45.12.70.223](https://vuldb.com/?ip.45.12.70.223) | excavations.globalhilive.com | - | High
+6 | [45.12.71.223](https://vuldb.com/?ip.45.12.71.223) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 16 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,15 +79,18 @@ ID | Type | Indicator | Confidence
 26 | File | `admin/adminsignin.html` | High
 27 | File | `admin/movieview.php` | High
 28 | File | `admin/versions.html` | High
-29 | ... | ... | ...
+29 | File | `ajax_calls.php` | High
+30 | ... | ... | ...
 
-There are 244 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 251 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_tm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tm.netset
 
 ## Literature
 

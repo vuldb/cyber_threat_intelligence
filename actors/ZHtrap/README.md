@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CA](https://vuldb.com/?country.ca)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,38 +50,40 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/addemployee.php` | High
-2 | File | `/admin/foldernotice/list` | High
-3 | File | `/admin/weixin.php` | High
-4 | File | `/Ap4RtpAtom.cpp` | High
-5 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
-6 | File | `/bcms/admin/?page=user/manage_user` | High
-7 | File | `/College/admin/teacher.php` | High
-8 | File | `/common/run_cross_report.php` | High
-9 | File | `/confirm` | Medium
-10 | File | `/etc/ciel.cfg` | High
-11 | File | `/etc/gsissh/sshd_config` | High
-12 | File | `/exponent_constants.php` | High
-13 | File | `/goform/addRouting` | High
-14 | File | `/goform/WifiBasicSet` | High
-15 | File | `/group/apply` | Medium
-16 | File | `/image_zoom.php` | High
-17 | File | `/index.php` | Medium
-18 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
-19 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
-20 | File | `/master/core/PostHandler.php` | High
-21 | File | `/mdiy/dict/list` | High
-22 | File | `/ocwbs/admin/?page=bookings/view_details` | High
-23 | File | `/ofrs/admin/?page=requests/manage_request` | High
-24 | File | `/package_detail.php` | High
-25 | File | `/php-sms/classes/Master.php` | High
-26 | File | `/php_action/createUser.php` | High
-27 | File | `/preferences/tags` | High
-28 | File | `/release-x64/otfccdump+0x6b559f` | High
-29 | File | `/royal_event/companyprofile.php` | High
-30 | File | `/server-status` | High
-31 | ... | ... | ...
+2 | File | `/admin/edit_subject.php` | High
+3 | File | `/admin/foldernotice/list` | High
+4 | File | `/admin/transactions/track_shipment.php` | High
+5 | File | `/admin/weixin.php` | High
+6 | File | `/Ap4RtpAtom.cpp` | High
+7 | File | `/bcms/admin/?page=service_transactions/manage_service_transaction` | High
+8 | File | `/bcms/admin/?page=user/manage_user` | High
+9 | File | `/classes/Master.php?f=save_category` | High
+10 | File | `/College/admin/teacher.php` | High
+11 | File | `/common/run_cross_report.php` | High
+12 | File | `/confirm` | Medium
+13 | File | `/etc/ciel.cfg` | High
+14 | File | `/etc/gsissh/sshd_config` | High
+15 | File | `/exponent_constants.php` | High
+16 | File | `/goform/addRouting` | High
+17 | File | `/goform/WifiBasicSet` | High
+18 | File | `/group/apply` | Medium
+19 | File | `/image_zoom.php` | High
+20 | File | `/index.php` | Medium
+21 | File | `/it-IT/splunkd/__raw/services/get_snapshot` | High
+22 | File | `/jerry-core/ecma/base/ecma-gc.c` | High
+23 | File | `/master/core/PostHandler.php` | High
+24 | File | `/mdiy/dict/list` | High
+25 | File | `/ocwbs/admin/?page=bookings/view_details` | High
+26 | File | `/ofrs/admin/?page=requests/manage_request` | High
+27 | File | `/package_detail.php` | High
+28 | File | `/php-sms/classes/Master.php` | High
+29 | File | `/php_action/createUser.php` | High
+30 | File | `/plugin/dataDictionary/tableView.do` | High
+31 | File | `/preferences/tags` | High
+32 | File | `/release-x64/otfccdump+0x6b559f` | High
+33 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

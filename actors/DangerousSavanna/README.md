@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with DangerousSavanna:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DangerousSavanna:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -35,8 +36,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
@@ -48,12 +49,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/install/index.php` | High
-2 | File | `/subscribe/subscribe` | High
-3 | File | `addentry.php` | Medium
-4 | ... | ... | ...
+1 | File | `/admin/configure.php` | High
+2 | File | `/admin/inquiries/view_details.php` | High
+3 | File | `/admin/manage-comments.php` | High
+4 | File | `/alphaware/details.php` | High
+5 | File | `/bsenordering/index.php` | High
+6 | File | `/eclime/manufacturers.php` | High
+7 | File | `/install/index.php` | High
+8 | File | `/php-inventory-management-system/product.php` | High
+9 | ... | ... | ...
 
-There are 23 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 66 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

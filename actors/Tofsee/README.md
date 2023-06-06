@@ -224,7 +224,7 @@ ID | Type | Indicator | Confidence
 44 | File | `/php-sms/admin/quotes/manage_remark.php` | High
 45 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

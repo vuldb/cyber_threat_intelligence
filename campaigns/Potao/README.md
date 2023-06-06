@@ -60,20 +60,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
-3 | File | `/htdocs/admin/dict.php?id=3` | High
-4 | File | `/iwguestbook/admin/badwords_edit.asp` | High
-5 | File | `/out.php` | Medium
-6 | File | `/setSystemAdmin` | High
-7 | File | `/uncpath/` | Medium
-8 | File | `/usr/bin/pkexec` | High
-9 | File | `/webpages/data` | High
-10 | File | `/wp-admin/options.php` | High
-11 | File | `/zm/index.php` | High
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/frontend/x3/cpanelpro/filelist-thumbs.html` | High
+4 | File | `/htdocs/admin/dict.php?id=3` | High
+5 | File | `/iwguestbook/admin/badwords_edit.asp` | High
+6 | File | `/modules/profile/index.php` | High
+7 | File | `/out.php` | Medium
+8 | File | `/setSystemAdmin` | High
+9 | File | `/uncpath/` | Medium
+10 | File | `/usr/bin/pkexec` | High
+11 | File | `/webpages/data` | High
 12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 96 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

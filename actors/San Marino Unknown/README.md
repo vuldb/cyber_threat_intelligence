@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,17 +24,18 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.61.116](https://vuldb.com/?ip.5.62.61.116) | r-116-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.96](https://vuldb.com/?ip.5.62.63.96) | r-96-63-62-5.consumer-pool.prcdn.net | - | High
 3 | [5.168.137.152](https://vuldb.com/?ip.5.168.137.152) | - | - | High
-4 | [31.193.33.45](https://vuldb.com/?ip.31.193.33.45) | host-31-193-33-45-dynamic.telecomitaliasm.net | - | High
-5 | [31.193.39.0](https://vuldb.com/?ip.31.193.39.0) | - | - | High
-6 | [45.12.70.205](https://vuldb.com/?ip.45.12.70.205) | privatised.globalhilive.com | - | High
-7 | [45.12.71.205](https://vuldb.com/?ip.45.12.71.205) | - | - | High
-8 | [45.42.210.0](https://vuldb.com/?ip.45.42.210.0) | - | - | High
-9 | [45.65.80.0](https://vuldb.com/?ip.45.65.80.0) | - | - | High
-10 | [46.36.201.146](https://vuldb.com/?ip.46.36.201.146) | - | - | High
-11 | [46.36.201.148](https://vuldb.com/?ip.46.36.201.148) | - | - | High
-12 | ... | ... | ... | ...
+4 | [31.193.32.0](https://vuldb.com/?ip.31.193.32.0) | - | - | High
+5 | [31.193.33.45](https://vuldb.com/?ip.31.193.33.45) | host-31-193-33-45-dynamic.telecomitaliasm.net | - | High
+6 | [31.193.39.0](https://vuldb.com/?ip.31.193.39.0) | - | - | High
+7 | [45.12.70.205](https://vuldb.com/?ip.45.12.70.205) | privatised.globalhilive.com | - | High
+8 | [45.12.71.205](https://vuldb.com/?ip.45.12.71.205) | - | - | High
+9 | [45.42.210.0](https://vuldb.com/?ip.45.42.210.0) | - | - | High
+10 | [45.65.80.0](https://vuldb.com/?ip.45.65.80.0) | - | - | High
+11 | [46.36.201.146](https://vuldb.com/?ip.46.36.201.146) | - | - | High
+12 | [46.36.201.148](https://vuldb.com/?ip.46.36.201.148) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 42 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,13 +86,15 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/versions.html` | High
 29 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_sm.netset
 
 ## Literature
 

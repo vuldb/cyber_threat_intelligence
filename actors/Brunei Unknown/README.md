@@ -33,9 +33,11 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [45.12.70.28](https://vuldb.com/?ip.45.12.70.28) | slave.get-eye.com | - | High
 11 | [45.12.71.28](https://vuldb.com/?ip.45.12.71.28) | - | - | High
 12 | [45.126.140.0](https://vuldb.com/?ip.45.126.140.0) | - | - | High
-13 | ... | ... | ... | ...
+13 | [45.127.140.0](https://vuldb.com/?ip.45.127.140.0) | - | - | High
+14 | [46.36.201.111](https://vuldb.com/?ip.46.36.201.111) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 48 more IOC items available. Please use our online service to access the data.
+There are 56 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 19 more TTP items available. Please use our online service to access the data.
@@ -62,63 +64,65 @@ ID | Type | Indicator | Confidence
 2 | File | `/+CSCOE+/logon.html` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/lab.php` | High
-7 | File | `/admin/payment.php` | High
-8 | File | `/admin/show.php` | High
-9 | File | `/api/file_uploader.php` | High
-10 | File | `/api/RecordingList/DownloadRecord?file=` | High
-11 | File | `/default.php?idx=17` | High
-12 | File | `/dev/shm` | Medium
-13 | File | `/download` | Medium
-14 | File | `/forum/away.php` | High
-15 | File | `/GponForm/device_Form?script/` | High
-16 | File | `/login/index.php` | High
-17 | File | `/mgmt/tm/util/bash` | High
-18 | File | `/net` | Low
-19 | File | `/opt/bin/cli` | Medium
-20 | File | `/p` | Low
-21 | File | `/patient/doctors.php` | High
-22 | File | `/phpinventory/editcategory.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/service/upload` | High
-25 | File | `/setup/finish` | High
-26 | File | `/spip.php` | Medium
-27 | File | `/system-info/health` | High
-28 | File | `/uncpath/` | Medium
-29 | File | `/updown/upload.cgi` | High
-30 | File | `/user/del.php` | High
-31 | File | `/viewer/krpano.html` | High
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `/wp-json/oembed/1.0/embed?url` | High
-34 | File | `/_next` | Low
-35 | File | `/_vti_pvt/access.cnf` | High
-36 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-37 | File | `123flashchat.php` | High
-38 | File | `act.php` | Low
-39 | File | `ActionServlet.java` | High
-40 | File | `adclick.php` | Medium
-41 | File | `admin.php` | Medium
-42 | File | `admin/bad.php` | High
-43 | File | `admin/index.php` | High
-44 | File | `admin/index.php/user/del/1` | High
-45 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-46 | File | `admin/loginform.php` | High
-47 | File | `admin/member/edit.html` | High
-48 | File | `admin/scripts/FileUploader/php.php` | High
-49 | File | `administrator` | High
-50 | File | `administrator/index.php` | High
-51 | File | `administrator/mail/download.cfm` | High
-52 | File | `AdminUpdateController.class.php` | High
-53 | ... | ... | ...
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/lab.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/show.php` | High
+10 | File | `/api/file_uploader.php` | High
+11 | File | `/api/RecordingList/DownloadRecord?file=` | High
+12 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+13 | File | `/default.php?idx=17` | High
+14 | File | `/dev/shm` | Medium
+15 | File | `/download` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/GponForm/device_Form?script/` | High
+18 | File | `/login/index.php` | High
+19 | File | `/mgmt/tm/util/bash` | High
+20 | File | `/net` | Low
+21 | File | `/opt/bin/cli` | Medium
+22 | File | `/p` | Low
+23 | File | `/patient/doctors.php` | High
+24 | File | `/phpinventory/editcategory.php` | High
+25 | File | `/SASWebReportStudio/logonAndRender.do` | High
+26 | File | `/service/upload` | High
+27 | File | `/setup/finish` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/system-info/health` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/updown/upload.cgi` | High
+32 | File | `/user/del.php` | High
+33 | File | `/viewer/krpano.html` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | File | `/wp-json/oembed/1.0/embed?url` | High
+36 | File | `/_next` | Low
+37 | File | `/_vti_pvt/access.cnf` | High
+38 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+39 | File | `123flashchat.php` | High
+40 | File | `act.php` | Low
+41 | File | `ActionServlet.java` | High
+42 | File | `adclick.php` | Medium
+43 | File | `admin.php` | Medium
+44 | File | `admin/bad.php` | High
+45 | File | `admin/index.php` | High
+46 | File | `admin/index.php/user/del/1` | High
+47 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+48 | File | `admin/loginform.php` | High
+49 | File | `admin/member/edit.html` | High
+50 | File | `administrator` | High
+51 | File | `administrator/index.php` | High
+52 | File | `administrator/mail/download.cfm` | High
+53 | File | `AdminUpdateController.class.php` | High
+54 | ... | ... | ...
 
-There are 464 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bn.netset
 
 ## Literature
 

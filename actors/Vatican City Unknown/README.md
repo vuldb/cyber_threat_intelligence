@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -54,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,34 +68,41 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/index.php` | High
 5 | File | `/apilog.php` | Medium
 6 | File | `/appliance/users?action=edit` | High
-7 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-8 | File | `/filemanager/upload.php` | High
-9 | File | `/forum/away.php` | High
-10 | File | `/if.cgi` | Low
-11 | File | `/mifs/c/i/reg/reg.html` | High
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/news.dtl.php` | High
-14 | File | `/RestAPI` | Medium
-15 | File | `/see_more_details.php` | High
-16 | File | `/services/details.asp` | High
-17 | File | `/setup` | Low
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/var/log/nginx` | High
-21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `act.php` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `admin` | Low
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminsignin.html` | High
-28 | File | `admin/index.php?module=rootpwd` | High
-29 | File | `admin/movieview.php` | High
-30 | File | `admin/versions.html` | High
-31 | File | `ajax_calls.php` | High
-32 | ... | ... | ...
+7 | File | `/card_scan.php` | High
+8 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+9 | File | `/feegroups/tgrt_group.jsf` | High
+10 | File | `/filemanager/upload.php` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/if.cgi` | Low
+13 | File | `/jerry-core/ecma/operations/ecma-get-put-value.c` | High
+14 | File | `/magick/quantize.c` | High
+15 | File | `/mifs/c/i/reg/reg.html` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/news.dtl.php` | High
+18 | File | `/release-x64/otfccdump` | High
+19 | File | `/RestAPI` | Medium
+20 | File | `/SASWebReportStudio/logonAndRender.do` | High
+21 | File | `/see_more_details.php` | High
+22 | File | `/services/details.asp` | High
+23 | File | `/setup` | Low
+24 | File | `/spip.php` | Medium
+25 | File | `/uncpath/` | Medium
+26 | File | `/v1/sql-runner` | High
+27 | File | `/var/log/nginx` | High
+28 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+29 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+30 | File | `act.php` | Low
+31 | File | `adclick.php` | Medium
+32 | File | `admin` | Low
+33 | File | `admin.php` | Medium
+34 | File | `admin/adminsignin.html` | High
+35 | File | `admin/index.php?module=rootpwd` | High
+36 | File | `admin/movieview.php` | High
+37 | File | `admin/versions.html` | High
+38 | File | `ajax_calls.php` | High
+39 | ... | ... | ...
 
-There are 276 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

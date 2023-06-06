@@ -62,10 +62,11 @@ ID | Type | Indicator | Confidence
 7 | File | `/webmail/` | Medium
 8 | File | `adclick.php` | Medium
 9 | File | `admin.php?s=/Admin/doedit` | High
-10 | File | `admin/web_config.php` | High
-11 | ... | ... | ...
+10 | File | `admin/conf_users_edit.php` | High
+11 | File | `admin/web_config.php` | High
+12 | ... | ... | ...
 
-There are 88 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

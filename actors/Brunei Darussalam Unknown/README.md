@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,23 +56,24 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `/apiclient/ember/index.jsp` | High
-3 | File | `/etc/sysconfig/tomcat` | High
-4 | File | `/forum/away.php` | High
-5 | File | `/getcfg.php` | Medium
-6 | File | `/goform` | Low
-7 | File | `/login/index.php` | High
-8 | File | `/mgmt/tm/util/bash` | High
-9 | File | `/printers` | Medium
-10 | File | `/SASWebReportStudio/logonAndRender.do` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/viewer/krpano.html` | High
-13 | File | `/wp-json/oembed/1.0/embed?url` | High
-14 | File | `/_vti_pvt/access.cnf` | High
-15 | File | `ActionServlet.java` | High
-16 | File | `adclick.php` | Medium
-17 | ... | ... | ...
+3 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
+4 | File | `/etc/sysconfig/tomcat` | High
+5 | File | `/forum/away.php` | High
+6 | File | `/getcfg.php` | Medium
+7 | File | `/goform` | Low
+8 | File | `/login/index.php` | High
+9 | File | `/mgmt/tm/util/bash` | High
+10 | File | `/printers` | Medium
+11 | File | `/SASWebReportStudio/logonAndRender.do` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/viewer/krpano.html` | High
+14 | File | `/wp-json/oembed/1.0/embed?url` | High
+15 | File | `/_vti_pvt/access.cnf` | High
+16 | File | `ActionServlet.java` | High
+17 | File | `adclick.php` | Medium
+18 | ... | ... | ...
 
-There are 140 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 145 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

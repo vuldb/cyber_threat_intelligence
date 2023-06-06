@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OceanLotus:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -57,7 +57,7 @@ ID | IP address | Hostname | Actor | Confidence
 25 | [46.183.222.84](https://vuldb.com/?ip.46.183.222.84) | ip-222-84.dataclub.info | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
 26 | ... | ... | ... | ...
 
-There are 99 more IOC items available. Please use our online service to access the data.
+There are 98 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,7 +103,7 @@ ID | Type | Indicator | Confidence
 23 | File | `admin/languages.php` | High
 24 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

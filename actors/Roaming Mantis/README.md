@@ -59,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,21 +71,24 @@ ID | Type | Indicator | Confidence
 2 | File | `/addnews.html` | High
 3 | File | `/admin/system/database/filedown.php` | High
 4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/upload_vpntar` | High
-6 | File | `/MTFWU` | Low
-7 | File | `/network_test.php` | High
-8 | File | `/okm:root` | Medium
-9 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-10 | File | `acs.exe` | Low
-11 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/upload_vpntar` | High
+7 | File | `/lan.asp` | Medium
+8 | File | `/MTFWU` | Low
+9 | File | `/network_test.php` | High
+10 | File | `/okm:root` | Medium
+11 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+12 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+13 | ... | ... | ...
 
-There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 98 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.kaspersky.co.jp/roaming-mantis-update/20383/
+* https://blog.sekoia.io/ongoing-roaming-mantis-smishing-campaign-targeting-france/
 * https://github.com/SEKOIA-IO/Community/blob/main/IOCs/roamingmantis/roaming_mantis_iocs_20220718.csv
 
 ## Literature

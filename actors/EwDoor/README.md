@@ -34,7 +34,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -46,14 +47,14 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
-3 | File | `/Home/GetAttachment` | High
-4 | File | `/modules/projects/vw_files.php` | High
-5 | File | `admin/limits.php` | High
-6 | File | `cgi-bin/ddns_enc.cgi` | High
-7 | File | `cmd.exe` | Low
+3 | File | `/debug/pprof` | Medium
+4 | File | `/Home/GetAttachment` | High
+5 | File | `/modules/projects/vw_files.php` | High
+6 | File | `admin/limits.php` | High
+7 | File | `cgi-bin/ddns_enc.cgi` | High
 8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

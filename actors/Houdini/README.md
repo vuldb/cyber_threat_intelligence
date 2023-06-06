@@ -4,21 +4,70 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.houdini](https://vuldb.com/?actor.houdini)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Houdini:
+
+* [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
+* [FR](https://vuldb.com/?country.fr)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Houdini.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [194.5.97.7](https://vuldb.com/?ip.194.5.97.7) | - | - | High
-2 | [194.5.97.17](https://vuldb.com/?ip.194.5.97.17) | - | - | High
+1 | [45.90.222.125](https://vuldb.com/?ip.45.90.222.125) | 45-90-222-125-hostedby.bcr.host | - | High
+2 | [62.197.136.69](https://vuldb.com/?ip.62.197.136.69) | - | - | High
+3 | [79.134.225.91](https://vuldb.com/?ip.79.134.225.91) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Houdini_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 7 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Houdini. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/debug/pprof` | Medium
+2 | File | `/etc/sudoers` | Medium
+3 | File | `/showfile.php` | High
+4 | File | `/uncpath/` | Medium
+5 | File | `cat.php` | Low
+6 | ... | ... | ...
+
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/568aac24-7631-4f8f-a89b-ff10adf6b875
+* https://app.any.run/tasks/8070f7cb-b7e2-4394-8898-cfcf9b52c332/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-06-20%20Vjw0rm%20and%20Houdini%20IOCs
 * https://isc.sans.edu/forums/diary/Houdini+is+Back+Delivered+Through+a+JavaScript+Dropper/28746/
+* https://threatfox.abuse.ch
+* https://tria.ge/211009-xz62wafch8
+* https://tria.ge/220613-smnybadca4
+* https://www.joesandbox.com/analysis/839457/0/html#TCP_Packets
 
 ## Literature
 

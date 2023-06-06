@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Evilnum:
 
 * [IO](https://vuldb.com/?country.io)
-* [SE](https://vuldb.com/?country.se)
 * [US](https://vuldb.com/?country.us)
+* [SE](https://vuldb.com/?country.se)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -18,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [139.28.37.63](https://vuldb.com/?ip.139.28.37.63) | 139.28.37.63.deltahost-ptr | - | High
-2 | [139.28.39.165](https://vuldb.com/?ip.139.28.39.165) | 139.28.39.165.deltahost-ptr | - | High
-3 | [185.62.190.89](https://vuldb.com/?ip.185.62.190.89) | hosted-by.blazingfast.io | - | High
+1 | [5.206.227.72](https://vuldb.com/?ip.5.206.227.72) | - | - | High
+2 | [139.28.37.63](https://vuldb.com/?ip.139.28.37.63) | 139.28.37.63.deltahost-ptr | - | High
+3 | [139.28.39.165](https://vuldb.com/?ip.139.28.39.165) | 139.28.39.165.deltahost-ptr | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,20 +47,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/etc/shadow` | Medium
-2 | File | `/public/login.htm` | High
-3 | File | `auth-gss2.c` | Medium
-4 | File | `books.php` | Medium
-5 | File | `data/gbconfiguration.dat` | High
+1 | File | `/dev/block/mmcblk0rpmb` | High
+2 | File | `/etc/shadow` | Medium
+3 | File | `/public/login.htm` | High
+4 | File | `auth-gss2.c` | Medium
+5 | File | `books.php` | Medium
 6 | ... | ... | ...
 
-There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 35 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/eset/malware-ioc/tree/master/evilnum
+* https://tria.ge/211006-p5ssfabbb6
 
 ## Literature
 

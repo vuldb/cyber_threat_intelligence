@@ -59,10 +59,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/debug/pprof` | Medium
 3 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 4 | File | `/uncpath/` | Medium
-5 | File | `cart.php` | Medium
-6 | ... | ... | ...
+5 | File | `ArchivesMapper.xml` | High
+6 | File | `cart.php` | Medium
+7 | ... | ... | ...
 
-There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

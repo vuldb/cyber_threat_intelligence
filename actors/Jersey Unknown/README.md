@@ -8,12 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Jersey Unknown:
 
-* [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
-* [DE](https://vuldb.com/?country.de)
-* ...
-
-There are 4 more country items available. Please use our online service to access the data.
+* [JE](https://vuldb.com/?country.je)
 
 ## IOC - Indicator of Compromise
 
@@ -23,54 +18,51 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.35.160.0](https://vuldb.com/?ip.5.35.160.0) | - | - | High
 2 | [5.42.128.0](https://vuldb.com/?ip.5.42.128.0) | - | - | High
-3 | [31.186.112.0](https://vuldb.com/?ip.31.186.112.0) | - | - | High
-4 | [37.156.38.0](https://vuldb.com/?ip.37.156.38.0) | - | - | High
-5 | [46.254.248.0](https://vuldb.com/?ip.46.254.248.0) | - | - | High
-6 | [62.68.160.0](https://vuldb.com/?ip.62.68.160.0) | bbdj62.68.160.0.network.sure.com | - | High
-7 | [62.68.168.0](https://vuldb.com/?ip.62.68.168.0) | - | - | High
-8 | [62.68.176.0](https://vuldb.com/?ip.62.68.176.0) | - | - | High
-9 | [62.68.184.0](https://vuldb.com/?ip.62.68.184.0) | - | - | High
-10 | [81.20.176.0](https://vuldb.com/?ip.81.20.176.0) | 81-20-176-0.wimax-dynamic1.newtel.je | - | High
-11 | [82.112.128.0](https://vuldb.com/?ip.82.112.128.0) | - | - | High
-12 | ... | ... | ... | ...
+3 | [31.129.125.0](https://vuldb.com/?ip.31.129.125.0) | - | - | High
+4 | [31.186.112.0](https://vuldb.com/?ip.31.186.112.0) | - | - | High
+5 | [37.156.38.0](https://vuldb.com/?ip.37.156.38.0) | - | - | High
+6 | [46.28.15.0](https://vuldb.com/?ip.46.28.15.0) | - | - | High
+7 | [46.31.240.0](https://vuldb.com/?ip.46.31.240.0) | - | - | High
+8 | [46.149.108.0](https://vuldb.com/?ip.46.149.108.0) | - | - | High
+9 | [46.254.248.0](https://vuldb.com/?ip.46.254.248.0) | - | - | High
+10 | [62.68.160.0](https://vuldb.com/?ip.62.68.160.0) | bbdj62.68.160.0.network.sure.com | - | High
+11 | [62.68.168.0](https://vuldb.com/?ip.62.68.168.0) | - | - | High
+12 | [62.68.176.0](https://vuldb.com/?ip.62.68.176.0) | - | - | High
+13 | [62.68.184.0](https://vuldb.com/?ip.62.68.184.0) | - | - | High
+14 | [78.41.0.0](https://vuldb.com/?ip.78.41.0.0) | - | - | High
+15 | [78.41.0.128](https://vuldb.com/?ip.78.41.0.128) | 128.0.41.78.jtglobal.com | - | High
+16 | [78.41.0.131](https://vuldb.com/?ip.78.41.0.131) | 131.0.41.78.jtglobal.com | - | High
+17 | [78.41.0.132](https://vuldb.com/?ip.78.41.0.132) | 132.0.41.78.jtglobal.com | - | High
+18 | [78.41.0.136](https://vuldb.com/?ip.78.41.0.136) | 136.0.41.78.jtglobal.com | - | High
+19 | [78.41.0.144](https://vuldb.com/?ip.78.41.0.144) | 144.0.41.78.jtglobal.com | - | High
+20 | [78.41.0.160](https://vuldb.com/?ip.78.41.0.160) | 160.0.41.78.jtglobal.com | - | High
+21 | [78.41.0.192](https://vuldb.com/?ip.78.41.0.192) | 192.0.41.78.jtglobal.com | - | High
+22 | [78.41.2.0](https://vuldb.com/?ip.78.41.2.0) | - | - | High
+23 | [78.41.4.0](https://vuldb.com/?ip.78.41.4.0) | - | - | High
+24 | [78.138.3.0](https://vuldb.com/?ip.78.138.3.0) | - | - | High
+25 | [81.20.176.0](https://vuldb.com/?ip.81.20.176.0) | 81-20-176-0.wimax-dynamic1.newtel.je | - | High
+26 | [82.112.128.0](https://vuldb.com/?ip.82.112.128.0) | - | - | High
+27 | [83.137.248.0](https://vuldb.com/?ip.83.137.248.0) | - | - | High
+28 | [83.229.94.0](https://vuldb.com/?ip.83.229.94.0) | - | - | High
+29 | [86.106.16.0](https://vuldb.com/?ip.86.106.16.0) | - | - | High
+30 | [87.237.128.0](https://vuldb.com/?ip.87.237.128.0) | - | - | High
+31 | [87.244.64.0](https://vuldb.com/?ip.87.244.64.0) | - | - | High
+32 | [87.244.96.0](https://vuldb.com/?ip.87.244.96.0) | - | - | High
+33 | [87.244.100.0](https://vuldb.com/?ip.87.244.100.0) | - | - | High
+34 | [87.244.102.0](https://vuldb.com/?ip.87.244.102.0) | - | - | High
+35 | [87.244.103.0](https://vuldb.com/?ip.87.244.103.0) | - | - | High
+36 | [87.244.103.64](https://vuldb.com/?ip.87.244.103.64) | 64.103.244.87.jtglobal.com | - | High
+37 | [87.244.103.80](https://vuldb.com/?ip.87.244.103.80) | 80.103.244.87.jtglobal.com | - | High
+38 | ... | ... | ... | ...
 
-There are 44 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Jersey Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
-
-There are 8 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Jersey Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/controllers/MgrDiagnosticTools.php` | High
-2 | File | `/forum/away.php` | High
-3 | File | `/inc/lists/csvexport.php` | High
-4 | File | `add_comment.php` | High
-5 | File | `board.php` | Medium
-6 | File | `comment_add.asp` | High
-7 | File | `configuration.php` | High
-8 | ... | ... | ...
-
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 146 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_je.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_je.netset
 
 ## Literature
 

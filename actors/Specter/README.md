@@ -22,11 +22,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [45.141.70.5](https://vuldb.com/?ip.45.141.70.5) | - | - | High
-2 | [85.159.233.158](https://vuldb.com/?ip.85.159.233.158) | ns101.cloudns.net | - | High
-3 | [108.59.1.30](https://vuldb.com/?ip.108.59.1.30) | ns102.cloudns.net | - | High
+2 | [47.252.19.25](https://vuldb.com/?ip.47.252.19.25) | - | - | High
+3 | [85.159.233.158](https://vuldb.com/?ip.85.159.233.158) | ns101.cloudns.net | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -60,6 +60,7 @@ There are 39 more IOA items available (file, library, argument, input value, pat
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/7b0140619c811f000bd739dbaca0ab23c5027da5a4a56ada4efa6151fde9b848/
 * https://blog.netlab.360.com/the-pitfall-of-threat-intelligence-whitelisting-specter-botnet-is-taking-over-top-legit-dns-domains-by-using-cloudns-service/
 
 ## Literature

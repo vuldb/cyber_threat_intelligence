@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [NZ](https://vuldb.com/?country.nz)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -144,7 +144,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -153,44 +153,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/api/admin/system/store/order/list` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/api/geojson` | Medium
-6 | File | `/api/v2/cli/commands` | High
-7 | File | `/apply_noauth.cgi` | High
-8 | File | `/bin/sh` | Low
-9 | File | `/CFIDE/probe.cfm` | High
-10 | File | `/cgi-bin/system_mgr.cgi` | High
-11 | File | `/common/sysFile/list` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/ctcprotocol/Protocol` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/ebics-server/ebics.aspx` | High
-16 | File | `/etc/openstack-dashboard/local_settings` | High
-17 | File | `/filemanager/upload.php` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/goform/addressNat` | High
-20 | File | `/HNAP1` | Low
-21 | File | `/HNAP1/SetClientInfo` | High
-22 | File | `/js/player/dmplayer/dmku/index.php` | High
-23 | File | `/KK_LS9ReportingPortal/GetData` | High
-24 | File | `/menu.html` | Medium
-25 | File | `/orrs/admin/?page=user/manage_user` | High
-26 | File | `/resources//../` | High
-27 | File | `/secure/QueryComponent!Default.jspa` | High
-28 | File | `/see_more_details.php` | High
-29 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-30 | File | `/subtitles.php` | High
-31 | File | `/sys/dict/queryTableData` | High
-32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-33 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-34 | File | `Acl.asp` | Low
-35 | File | `add_postit.php` | High
-36 | File | `admin.php` | Medium
-37 | ... | ... | ...
+2 | File | `/?r=email/api/mark&op=delFromSend` | High
+3 | File | `/admin/maintenance/view_designation.php` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/analysisProject/pagingQueryData` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/gen/clients/{language}` | High
+8 | File | `/api/geojson` | Medium
+9 | File | `/api/v2/cli/commands` | High
+10 | File | `/apply_noauth.cgi` | High
+11 | File | `/bin/sh` | Low
+12 | File | `/CFIDE/probe.cfm` | High
+13 | File | `/cgi-bin/system_mgr.cgi` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=save_service` | High
+16 | File | `/common/sysFile/list` | High
+17 | File | `/context/%2e/WEB-INF/web.xml` | High
+18 | File | `/ctcprotocol/Protocol` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug/pprof` | Medium
+21 | File | `/Default/Bd` | Medium
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/etc/openstack-dashboard/local_settings` | High
+24 | File | `/filemanager/upload.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/addressNat` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/HNAP1/SetClientInfo` | High
+29 | File | `/inc/jquery/uploadify/uploadify.php` | High
+30 | File | `/js/player/dmplayer/dmku/index.php` | High
+31 | File | `/KK_LS9ReportingPortal/GetData` | High
+32 | File | `/menu.html` | Medium
+33 | File | `/modules/profile/index.php` | High
+34 | File | `/orrs/admin/?page=user/manage_user` | High
+35 | ... | ... | ...
 
-There are 314 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

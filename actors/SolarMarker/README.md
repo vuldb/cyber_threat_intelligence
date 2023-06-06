@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 25 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.42.201.248](https://vuldb.com/?ip.45.42.201.248) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,10 +38,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,33 +63,39 @@ ID | Type | Indicator | Confidence
 12 | File | `/login/index.php` | High
 13 | File | `/log_download.cgi` | High
 14 | File | `/mgmt/tm/util/bash` | High
-15 | File | `/news.dtl.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/p1/p2/:name` | Medium
-18 | File | `/param.file.tgz` | High
-19 | File | `/proc/<PID>/mem` | High
-20 | File | `/ptms/?page=user` | High
-21 | File | `/setup/finish` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/template/edit` | High
-24 | File | `/uncpath/` | Medium
-25 | File | `/upload/file.php` | High
-26 | File | `/user/s.php` | Medium
-27 | File | `/usr/bin/pkexec` | High
-28 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-29 | File | `/wolfcms/?/admin/user/add` | High
-30 | File | `/wp-admin` | Medium
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-33 | ... | ... | ...
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/news.dtl.php` | High
+17 | File | `/out.php` | Medium
+18 | File | `/p1/p2/:name` | Medium
+19 | File | `/param.file.tgz` | High
+20 | File | `/proc/<PID>/mem` | High
+21 | File | `/ptms/?page=user` | High
+22 | File | `/setup/finish` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/template/edit` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/upload/file.php` | High
+27 | File | `/user/s.php` | Medium
+28 | File | `/usr/bin/at` | Medium
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+31 | File | `/wolfcms/?/admin/user/add` | High
+32 | File | `/wp-admin` | Medium
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+35 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/184/solarmarker-malware-iocs/
+* https://threatfox.abuse.ch
+* https://tria.ge/210824-j7r4atcshe/behavioral2
+* https://twitter.com/SquiblydooBlog/status/1498447061628379140
+* https://twitter.com/SquiblydooBlog/status/1660782805687865344
 
 ## Literature
 

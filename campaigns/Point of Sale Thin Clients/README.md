@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
 There are 3 more country items available. Please use our online service to access the data.
@@ -58,9 +58,10 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/conferences/get-all-status/` | High
 3 | File | `/admin/index.php?n=system&c=filept&a=doGetFileList` | High
-4 | ... | ... | ...
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

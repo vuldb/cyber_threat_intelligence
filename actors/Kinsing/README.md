@@ -41,9 +41,10 @@ ID | IP address | Hostname | Campaign | Confidence
 12 | [45.137.151.106](https://vuldb.com/?ip.45.137.151.106) | - | Log4Shell | High
 13 | [45.137.155.55](https://vuldb.com/?ip.45.137.155.55) | vm360194.pq.hosting | Log4Shell | High
 14 | [45.142.214.48](https://vuldb.com/?ip.45.142.214.48) | server.com | Log4Shell | High
-15 | ... | ... | ... | ...
+15 | [45.147.201.186](https://vuldb.com/?ip.45.147.201.186) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 57 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,7 +59,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,68 +69,71 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/contenttemp` | High
 2 | File | `/admin/dl_sendmail.php` | High
-3 | File | `/admin/store.php` | High
-4 | File | `/api/files/` | Medium
-5 | File | `/api/trackedEntityInstances` | High
-6 | File | `/api/user/password/sent-reset-email` | High
-7 | File | `/api/v2/cli/commands` | High
-8 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/de/cgi/dfs_guest/` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/GponForm/fsetup_Form` | High
-14 | File | `/include/makecvs.php` | High
-15 | File | `/includes/event-management/index.php` | High
-16 | File | `/index.php` | Medium
-17 | File | `/lab.html` | Medium
-18 | File | `/Main_AdmStatus_Content.asp` | High
-19 | File | `/member/picture/album` | High
-20 | File | `/mgmt/tm/util/bash` | High
-21 | File | `/mifs/c/i/reg/reg.html` | High
-22 | File | `/modules/profile/index.php` | High
-23 | File | `/out.php` | Medium
-24 | File | `/plugins/servlet/gadgets/makeRequest` | High
-25 | File | `/products/details.asp` | High
-26 | File | `/public/plugins/` | High
-27 | File | `/requests.php` | High
-28 | File | `/secure/QueryComponent!Default.jspa` | High
-29 | File | `/secure/ViewCollectors` | High
-30 | File | `/services/details.asp` | High
-31 | File | `/Session` | Medium
-32 | File | `/spip.php` | Medium
-33 | File | `/SysInfo.htm` | Medium
-34 | File | `/uncpath/` | Medium
-35 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-36 | File | `/usr/syno/etc/mount.conf` | High
-37 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-38 | File | `/vendor` | Low
-39 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
-40 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-41 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-42 | File | `a-b-membres.php` | High
-43 | File | `actions.php` | Medium
-44 | File | `adclick.php` | Medium
-45 | File | `add.php` | Low
-46 | File | `addtocart.asp` | High
-47 | File | `add_2_basket.asp` | High
-48 | File | `add_comment.php` | High
-49 | File | `admin.jcomments.php` | High
-50 | File | `admin.php` | Medium
-51 | File | `admin.php/comments/batchdel/` | High
-52 | File | `admin/aboutus.php` | High
-53 | File | `admin/adm/test.php` | High
-54 | File | `admin/article_save.php` | High
-55 | File | `admin/bitrix.mpbuilder_step2.php` | High
-56 | File | `admin/conf_users_edit.php` | High
-57 | File | `admin/media.php` | High
-58 | File | `admin/vqmods.app/vqmods.inc.php` | High
-59 | File | `adminer.php` | Medium
-60 | File | `administrator/components/com_media/helpers/media.php` | High
-61 | File | `admin\controller\uploadfile.php` | High
-62 | ... | ... | ...
+3 | File | `/admin/login.php` | High
+4 | File | `/admin/store.php` | High
+5 | File | `/api/files/` | Medium
+6 | File | `/api/trackedEntityInstances` | High
+7 | File | `/api/user/password/sent-reset-email` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/de/cgi/dfs_guest/` | High
+12 | File | `/DXR.axd` | Medium
+13 | File | `/filemanager/upload.php` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/GponForm/fsetup_Form` | High
+16 | File | `/include/makecvs.php` | High
+17 | File | `/includes/event-management/index.php` | High
+18 | File | `/index.php` | Medium
+19 | File | `/lab.html` | Medium
+20 | File | `/Main_AdmStatus_Content.asp` | High
+21 | File | `/member/picture/album` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/mifs/c/i/reg/reg.html` | High
+24 | File | `/modules/profile/index.php` | High
+25 | File | `/out.php` | Medium
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/plugins/servlet/gadgets/makeRequest` | High
+28 | File | `/products/details.asp` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/requests.php` | High
+31 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+32 | File | `/secure/QueryComponent!Default.jspa` | High
+33 | File | `/secure/ViewCollectors` | High
+34 | File | `/services/details.asp` | High
+35 | File | `/Session` | Medium
+36 | File | `/spip.php` | Medium
+37 | File | `/SysInfo.htm` | Medium
+38 | File | `/uncpath/` | Medium
+39 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+40 | File | `/usr/syno/etc/mount.conf` | High
+41 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+42 | File | `/vendor` | Low
+43 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
+44 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
+45 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+46 | File | `/zm/index.php` | High
+47 | File | `a-b-membres.php` | High
+48 | File | `actions.php` | Medium
+49 | File | `adclick.php` | Medium
+50 | File | `add.php` | Low
+51 | File | `addtocart.asp` | High
+52 | File | `add_2_basket.asp` | High
+53 | File | `add_edit_cat.asp` | High
+54 | File | `admin.jcomments.php` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin.php/comments/batchdel/` | High
+57 | File | `admin/aboutus.php` | High
+58 | File | `admin/adm/test.php` | High
+59 | File | `admin/article_save.php` | High
+60 | File | `admin/bitrix.mpbuilder_step2.php` | High
+61 | File | `admin/conf_users_edit.php` | High
+62 | File | `admin/vqmods.app/vqmods.inc.php` | High
+63 | File | `adminer.php` | Medium
+64 | File | `administrator/components/com_media/helpers/media.php` | High
+65 | ... | ... | ...
 
-There are 543 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 572 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -138,7 +142,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://1275.ru/ioc/315/kinsing-i-dark-iot-botnet-iocs/
 * https://blogs.infoblox.com/cyber-threat-intelligence/cyber-campaign-briefs/log4j-indicators-of-compromise-to-date/
 * https://gist.github.com/Iansus/050e121170a864c37b13f979c1883ad4
+* https://threatfox.abuse.ch
 * https://twitter.com/iansus/status/1472867647410819073
+* https://urlhaus.abuse.ch/host/185.246.90.205/
+* https://urlhaus.abuse.ch/url/2532766/
+* https://urlhaus.abuse.ch/url/2532772/
 * https://www.trendmicro.com/content/dam/trendmicro/global/en/research/21/l/patch-now-apache-log4j-vulnerability-called-log4shell-being-actively-exploited/IOCs-PatchNow-Log4Shell-Vulnerability.txt
 
 ## Literature

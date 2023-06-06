@@ -21,7 +21,6 @@ There are 5 more IOC items available. Please use our online service to access th
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
-* https://blog.talosintelligence.com/2019/03/threat-roundup-for-mar-01-to-mar-08.html
 * https://blog.trendmicro.co.jp/archives/15257
 * https://blogs.blackberry.com/en/2019/03/blackberry-cylance-vs-tinba-banking-trojan
 * https://github.com/firehol/blocklist-ipsets/blob/master/bambenek_tinba.ipset

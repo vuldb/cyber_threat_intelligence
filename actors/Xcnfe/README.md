@@ -13,10 +13,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [8.249.221.254](https://vuldb.com/?ip.8.249.221.254) | - | - | High
 2 | [8.249.225.254](https://vuldb.com/?ip.8.249.225.254) | - | - | High
 3 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
-4 | [104.20.208.21](https://vuldb.com/?ip.104.20.208.21) | - | - | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 15 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## References
 

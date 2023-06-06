@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 12 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,8 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -71,42 +72,41 @@ ID | Type | Indicator | Confidence
 6 | File | `/cgi-bin/wapopen` | High
 7 | File | `/cgi-bin/wlogin.cgi` | High
 8 | File | `/client.php` | Medium
-9 | File | `/config/getuser` | High
-10 | File | `/controller/OnlinePreviewController.java` | High
-11 | File | `/dashboard/reports/logs/view` | High
-12 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-13 | File | `/EXCU_SHELL` | Medium
-14 | File | `/export` | Low
-15 | File | `/goform/delAd` | High
-16 | File | `/goform/setMAC` | High
-17 | File | `/goform/wifiSSIDset` | High
-18 | File | `/items/view_item.php` | High
-19 | File | `/librarian/bookdetails.php` | High
-20 | File | `/login` | Low
-21 | File | `/login/index.php` | High
-22 | File | `/mail/index.html` | High
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/MIME/INBOX-MM-1/` | High
-25 | File | `/ms/file/uploadTemplate.do` | High
-26 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
-27 | File | `/ofrs/admin/?page=requests/view_request` | High
-28 | File | `/pages/processlogin.php` | High
-29 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
-30 | File | `/php/ajax.php` | High
-31 | File | `/ptipupgrade.cgi` | High
-32 | File | `/public/login.htm` | High
-33 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-34 | File | `/service/v1/createUser` | High
-35 | File | `/setSystemAdmin` | High
-36 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
-37 | File | `/student/bookdetails.php` | High
-38 | File | `/sys/user/queryUserComponentData` | High
-39 | File | `/table_manager/view/cu_user_groups` | High
-40 | File | `/templates/header.inc.php` | High
-41 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-42 | ... | ... | ...
+9 | File | `/controller/OnlinePreviewController.java` | High
+10 | File | `/dashboard/reports/logs/view` | High
+11 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+12 | File | `/EXCU_SHELL` | Medium
+13 | File | `/export` | Low
+14 | File | `/goform/delAd` | High
+15 | File | `/goform/setMAC` | High
+16 | File | `/goform/wifiSSIDset` | High
+17 | File | `/items/view_item.php` | High
+18 | File | `/librarian/bookdetails.php` | High
+19 | File | `/login` | Low
+20 | File | `/login/index.php` | High
+21 | File | `/mail/index.html` | High
+22 | File | `/mgmt/tm/util/bash` | High
+23 | File | `/MIME/INBOX-MM-1/` | High
+24 | File | `/ms/file/uploadTemplate.do` | High
+25 | File | `/novel-admin/src/main/java/com/java2nb/common/controller/FileController.java` | High
+26 | File | `/ofrs/admin/?page=requests/view_request` | High
+27 | File | `/pages/processlogin.php` | High
+28 | File | `/pet_shop/classes/Master.php?f=delete_sub_category` | High
+29 | File | `/php/ajax.php` | High
+30 | File | `/ptipupgrade.cgi` | High
+31 | File | `/public/login.htm` | High
+32 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+33 | File | `/setSystemAdmin` | High
+34 | File | `/Storage/Emulated/0/Telegram/Telegram` | High
+35 | File | `/student/bookdetails.php` | High
+36 | File | `/sys/user/queryUserComponentData` | High
+37 | File | `/table_manager/view/cu_user_groups` | High
+38 | File | `/templates/header.inc.php` | High
+39 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+40 | File | `/uncpath/` | Medium
+41 | ... | ... | ...
 
-There are 361 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

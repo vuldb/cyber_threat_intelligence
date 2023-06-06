@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SideCopy:
 
 * [NL](https://vuldb.com/?country.nl)
-* [US](https://vuldb.com/?country.us)
 * [PT](https://vuldb.com/?country.pt)
+* [US](https://vuldb.com/?country.us)
 * ...
 
 There are 5 more country items available. Please use our online service to access the data.
@@ -63,19 +63,21 @@ ID | Type | Indicator | Confidence
 13 | File | `/goform/aspForm` | High
 14 | File | `/hardware` | Medium
 15 | File | `/installers/common.sh` | High
-16 | File | `/medical/inventories.php` | High
-17 | File | `/monitoring` | Medium
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/plugin/LiveChat/getChat.json.php` | High
-20 | File | `/plugins/servlet/audit/resource` | High
-21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-22 | File | `/replication` | Medium
-23 | File | `/RestAPI` | Medium
-24 | File | `/tmp/zarafa-vacation-*` | High
-25 | File | `/uncpath/` | Medium
-26 | ... | ... | ...
+16 | File | `/librarian/bookdetails.php` | High
+17 | File | `/medical/inventories.php` | High
+18 | File | `/monitoring` | Medium
+19 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+20 | File | `/plugin/LiveChat/getChat.json.php` | High
+21 | File | `/plugins/servlet/audit/resource` | High
+22 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+23 | File | `/replication` | Medium
+24 | File | `/RestAPI` | Medium
+25 | File | `/tmp/zarafa-vacation-*` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/upload` | Low
+28 | ... | ... | ...
 
-There are 219 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

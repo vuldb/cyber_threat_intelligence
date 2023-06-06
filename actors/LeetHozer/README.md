@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CE](https://vuldb.com/?country.ce)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,15 +48,16 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/rapi/read_url` | High
-3 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-4 | File | `AjaxFileUploadHandler.axd` | High
-5 | File | `coders/png.c` | Medium
-6 | File | `customoid.inc.php` | High
-7 | File | `dapur/index.php` | High
-8 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/rapi/read_url` | High
+4 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+5 | File | `AjaxFileUploadHandler.axd` | High
+6 | File | `appserv/main.php` | High
+7 | File | `coders/png.c` | Medium
+8 | File | `customoid.inc.php` | High
+9 | ... | ... | ...
 
-There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

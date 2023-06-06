@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [BG](https://vuldb.com/?country.bg)
+* [RO](https://vuldb.com/?country.ro)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -25,13 +25,14 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [8.253.132.120](https://vuldb.com/?ip.8.253.132.120) | - | - | High
 3 | [34.227.185.153](https://vuldb.com/?ip.34.227.185.153) | ec2-34-227-185-153.compute-1.amazonaws.com | - | Medium
 4 | [37.152.176.90](https://vuldb.com/?ip.37.152.176.90) | - | - | High
-5 | [46.4.52.109](https://vuldb.com/?ip.46.4.52.109) | witntech.dev | - | High
-6 | [46.47.98.128](https://vuldb.com/?ip.46.47.98.128) | 46-47-98-128.stz.ddns.bulsat.com | - | High
-7 | [46.238.18.157](https://vuldb.com/?ip.46.238.18.157) | ip-46-238-18-157.home.megalan.bg | - | High
-8 | [47.91.242.212](https://vuldb.com/?ip.47.91.242.212) | - | - | High
-9 | ... | ... | ... | ...
+5 | [45.139.105.171](https://vuldb.com/?ip.45.139.105.171) | - | - | High
+6 | [46.4.52.109](https://vuldb.com/?ip.46.4.52.109) | witntech.dev | - | High
+7 | [46.47.98.128](https://vuldb.com/?ip.46.47.98.128) | 46-47-98-128.stz.ddns.bulsat.com | - | High
+8 | [46.238.18.157](https://vuldb.com/?ip.46.238.18.157) | ip-46-238-18-157.home.megalan.bg | - | High
+9 | [47.91.242.212](https://vuldb.com/?ip.47.91.242.212) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -40,11 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -75,9 +77,15 @@ ID | Type | Indicator | Confidence
 19 | File | `/northstar/Portal/processlogin.jsp` | High
 20 | File | `/public/plugins/` | High
 21 | File | `/rdms/admin/?page=user/manage_user` | High
-22 | ... | ... | ...
+22 | File | `/registration.php` | High
+23 | File | `/rest/api/1.0/issues/{id}/ActionsAndOperations` | High
+24 | File | `/rest/collectors/1.0/template/custom` | High
+25 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+26 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+27 | File | `/secure/QueryComponent!Default.jspa` | High
+28 | ... | ... | ...
 
-There are 179 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 235 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -92,6 +100,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0528-0604.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0625-0702.html
 * https://blog.talosintelligence.com/2021/08/threat-roundup-0730-0806.html
+* https://tria.ge/221114-t9vvtagh7t
 
 ## Literature
 

@@ -97,9 +97,10 @@ ID | Type | Indicator | Confidence
 32 | File | `5.2.9\syscrb.exe` | High
 33 | File | `ad.cgi` | Low
 34 | File | `adclick.php` | Medium
-35 | ... | ... | ...
+35 | File | `add-category.php` | High
+36 | ... | ... | ...
 
-There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

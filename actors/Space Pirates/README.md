@@ -24,8 +24,7 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [45.76.145.22](https://vuldb.com/?ip.45.76.145.22) | 45.76.145.22.vultrusercontent.com | - | High
 2 | [45.77.16.91](https://vuldb.com/?ip.45.77.16.91) | 45.77.16.91.vultrusercontent.com | - | High
 3 | [47.108.89.169](https://vuldb.com/?ip.47.108.89.169) | - | - | High
-4 | [103.27.109.234](https://vuldb.com/?ip.103.27.109.234) | - | - | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
 There are 14 more IOC items available. Please use our online service to access the data.
 
@@ -40,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 10 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,13 +51,13 @@ ID | Type | Indicator | Confidence
 2 | File | `/GetCSSashx/?CP=%2fwebconfig` | High
 3 | File | `/includes/rrdtool.inc.php` | High
 4 | File | `/login.php` | Medium
-5 | File | `/srv/www/htdocs` | High
-6 | File | `admin/killsource` | High
-7 | File | `api_poller.php` | High
-8 | File | `articleview.php` | High
+5 | File | `/rom` | Low
+6 | File | `/srv/www/htdocs` | High
+7 | File | `admin/killsource` | High
+8 | File | `api_poller.php` | High
 9 | ... | ... | ...
 
-There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

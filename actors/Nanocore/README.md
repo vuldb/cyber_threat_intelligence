@@ -33,28 +33,33 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [3.232.242.170](https://vuldb.com/?ip.3.232.242.170) | ec2-3-232-242-170.compute-1.amazonaws.com | - | Medium
 5 | [8.8.8.8](https://vuldb.com/?ip.8.8.8.8) | dns.google | - | High
 6 | [20.42.65.92](https://vuldb.com/?ip.20.42.65.92) | - | - | High
-7 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
-8 | [23.230.152.134](https://vuldb.com/?ip.23.230.152.134) | - | - | High
-9 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
-10 | [31.31.196.51](https://vuldb.com/?ip.31.31.196.51) | server222.hosting.reg.ru | - | High
-11 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-12 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
-13 | [35.169.217.142](https://vuldb.com/?ip.35.169.217.142) | ec2-35-169-217-142.compute-1.amazonaws.com | - | Medium
-14 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
-15 | [35.208.225.54](https://vuldb.com/?ip.35.208.225.54) | 54.225.208.35.bc.googleusercontent.com | - | Medium
-16 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
-17 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
-18 | [38.6.77.91](https://vuldb.com/?ip.38.6.77.91) | - | - | High
-19 | [38.48.189.90](https://vuldb.com/?ip.38.48.189.90) | - | - | High
-20 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
-21 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | High
-22 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
-23 | [50.87.253.125](https://vuldb.com/?ip.50.87.253.125) | box2186.bluehost.com | - | High
-24 | [52.20.78.240](https://vuldb.com/?ip.52.20.78.240) | ec2-52-20-78-240.compute-1.amazonaws.com | - | Medium
-25 | [52.23.46.39](https://vuldb.com/?ip.52.23.46.39) | ec2-52-23-46-39.compute-1.amazonaws.com | - | Medium
-26 | ... | ... | ... | ...
+7 | [23.7.178.157](https://vuldb.com/?ip.23.7.178.157) | a23-7-178-157.deploy.static.akamaitechnologies.com | - | High
+8 | [23.192.63.45](https://vuldb.com/?ip.23.192.63.45) | a23-192-63-45.deploy.static.akamaitechnologies.com | - | High
+9 | [23.193.194.148](https://vuldb.com/?ip.23.193.194.148) | a23-193-194-148.deploy.static.akamaitechnologies.com | - | High
+10 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
+11 | [23.230.152.134](https://vuldb.com/?ip.23.230.152.134) | - | - | High
+12 | [23.235.221.158](https://vuldb.com/?ip.23.235.221.158) | vps53141.inmotionhosting.com | Tax-Themed Phishing | High
+13 | [31.31.196.51](https://vuldb.com/?ip.31.31.196.51) | server222.hosting.reg.ru | - | High
+14 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+15 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
+16 | [35.76.115.170](https://vuldb.com/?ip.35.76.115.170) | ec2-35-76-115-170.ap-northeast-1.compute.amazonaws.com | - | Medium
+17 | [35.169.217.142](https://vuldb.com/?ip.35.169.217.142) | ec2-35-169-217-142.compute-1.amazonaws.com | - | Medium
+18 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+19 | [35.208.225.54](https://vuldb.com/?ip.35.208.225.54) | 54.225.208.35.bc.googleusercontent.com | - | Medium
+20 | [37.0.14.207](https://vuldb.com/?ip.37.0.14.207) | - | - | High
+21 | [37.0.14.209](https://vuldb.com/?ip.37.0.14.209) | - | - | High
+22 | [37.235.1.174](https://vuldb.com/?ip.37.235.1.174) | resolver1.freedns.zone.powered.by.virtexxa.com | - | High
+23 | [37.235.1.177](https://vuldb.com/?ip.37.235.1.177) | resolver2.freedns.zone.powered.by.virtexxa.com | - | High
+24 | [38.6.77.91](https://vuldb.com/?ip.38.6.77.91) | - | - | High
+25 | [38.48.189.90](https://vuldb.com/?ip.38.48.189.90) | - | - | High
+26 | [38.79.142.66](https://vuldb.com/?ip.38.79.142.66) | box6.dnsexit.com | - | High
+27 | [45.12.253.242](https://vuldb.com/?ip.45.12.253.242) | - | - | High
+28 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+29 | [45.77.55.161](https://vuldb.com/?ip.45.77.55.161) | 45.77.55.161.vultrusercontent.com | - | High
+30 | [45.133.174.131](https://vuldb.com/?ip.45.133.174.131) | - | - | High
+31 | ... | ... | ... | ...
 
-There are 99 more IOC items available. Please use our online service to access the data.
+There are 118 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -110,9 +115,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
 * https://blog.talosintelligence.com/threat-roundup-0113-0120/
 * https://blog.talosintelligence.com/threat-roundup-0120-0127/
+* https://blog.talosintelligence.com/threat-roundup-0217-0224/
+* https://blog.talosintelligence.com/threat-roundup-0526-0602/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://blog.talosintelligence.com/threat-roundup-1209-1216/
+* https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-01-12%20Remcos%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-02-15%20Nanocore%20IOCs
 * https://isc.sans.edu/forums/diary/Malspam+delivers+NanoCore+RAT/21615/

@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
-* [CN](https://vuldb.com/?country.cn)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
 There are 27 more country items available. Please use our online service to access the data.
@@ -58,21 +58,21 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `//etc/RT2870STA.dat` | High
 2 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-3 | File | `/appConfig/userDB.json` | High
-4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/wapopen` | High
-6 | File | `/CPE` | Low
-7 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
-8 | File | `/jquery_file_upload/server/php/index.php` | High
-9 | File | `/librarian/bookdetails.php` | High
-10 | File | `/magnoliaPublic/travel/members/login.html` | High
-11 | File | `/Main_AdmStatus_Content.asp` | High
-12 | File | `/requests.php` | High
-13 | File | `/uncpath/` | Medium
-14 | File | `/var/log/nginx` | High
+3 | File | `/api/login` | Medium
+4 | File | `/appConfig/userDB.json` | High
+5 | File | `/bin/boa` | Medium
+6 | File | `/cgi-bin/wapopen` | High
+7 | File | `/CPE` | Low
+8 | File | `/cwp_{SESSION_HASH}/admin/loader_ajax.php` | High
+9 | File | `/jquery_file_upload/server/php/index.php` | High
+10 | File | `/librarian/bookdetails.php` | High
+11 | File | `/magnoliaPublic/travel/members/login.html` | High
+12 | File | `/Main_AdmStatus_Content.asp` | High
+13 | File | `/requests.php` | High
+14 | File | `/uncpath/` | Medium
 15 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 121 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -28,9 +28,10 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [62.61.230.0](https://vuldb.com/?ip.62.61.230.0) | 0.230.61.62.rev.sfr.net | - | High
 10 | [80.8.192.0](https://vuldb.com/?ip.80.8.192.0) | - | - | High
 11 | [80.8.200.0](https://vuldb.com/?ip.80.8.200.0) | - | - | High
-12 | ... | ... | ... | ...
+12 | [80.8.206.0](https://vuldb.com/?ip.80.8.206.0) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 47 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 3 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -51,18 +52,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/forum/away.php` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `ajax_invoice.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/forum/away.php` | High
+3 | File | `/uncpath/` | Medium
+4 | File | `ajax_invoice.php` | High
+5 | ... | ... | ...
 
-There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 26 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_yt.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_yt.netset
 
 ## Literature
 

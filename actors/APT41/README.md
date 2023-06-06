@@ -61,7 +61,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -92,36 +92,37 @@ ID | Type | Indicator | Confidence
 14 | File | `/data/remove` | Medium
 15 | File | `/debug` | Low
 16 | File | `/debug/pprof` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/PowerSaveSet` | High
-19 | File | `/include/make.php` | High
-20 | File | `/index.php` | Medium
-21 | File | `/jeecg-boot/sys/common/upload` | High
-22 | File | `/lists/admin/` | High
-23 | File | `/login.cgi?logout=1` | High
-24 | File | `/medical/inventories.php` | High
-25 | File | `/members/view_member.php` | High
-26 | File | `/mgmt/tm/util/bash` | High
-27 | File | `/module/admin_logs` | High
-28 | File | `/nova/bin/console` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/plesk-site-preview/` | High
-31 | File | `/public/login.htm` | High
-32 | File | `/public/plugins/` | High
-33 | File | `/replication` | Medium
-34 | File | `/SASWebReportStudio/logonAndRender.do` | High
-35 | File | `/scas/classes/Users.php?f=save_user` | High
-36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-37 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-40 | File | `/start-stop` | Medium
-41 | File | `/start_apply.htm` | High
-42 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-43 | File | `/tmp/app/.env` | High
-44 | ... | ... | ...
+17 | File | `/dede/group_store.php` | High
+18 | File | `/dialog/select_media.php` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/goform/PowerSaveSet` | High
+21 | File | `/include/make.php` | High
+22 | File | `/index.php` | Medium
+23 | File | `/jeecg-boot/sys/common/upload` | High
+24 | File | `/lists/admin/` | High
+25 | File | `/login.cgi?logout=1` | High
+26 | File | `/medical/inventories.php` | High
+27 | File | `/members/view_member.php` | High
+28 | File | `/mgmt/tm/util/bash` | High
+29 | File | `/module/admin_logs` | High
+30 | File | `/nova/bin/console` | High
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/plesk-site-preview/` | High
+33 | File | `/public/login.htm` | High
+34 | File | `/public/plugins/` | High
+35 | File | `/replication` | Medium
+36 | File | `/SASWebReportStudio/logonAndRender.do` | High
+37 | File | `/scas/classes/Users.php?f=save_user` | High
+38 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+39 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+40 | File | `/secure/QueryComponent!Default.jspa` | High
+41 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+42 | File | `/start-stop` | Medium
+43 | File | `/start_apply.htm` | High
+44 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+45 | ... | ... | ...
 
-There are 382 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

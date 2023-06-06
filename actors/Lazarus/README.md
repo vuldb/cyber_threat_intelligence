@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -263,10 +263,9 @@ ID | IP address | Hostname | Campaign | Confidence
 227 | [54.39.64.114](https://vuldb.com/?ip.54.39.64.114) | server2.urgentfury.net | - | High
 228 | [54.39.204.190](https://vuldb.com/?ip.54.39.204.190) | ip190.ip-54-39-204.net | - | High
 229 | [54.64.30.175](https://vuldb.com/?ip.54.64.30.175) | vega.mh-tec.co.jp | - | High
-230 | [54.68.42.4](https://vuldb.com/?ip.54.68.42.4) | ec2-54-68-42-4.us-west-2.compute.amazonaws.com | - | Medium
-231 | ... | ... | ... | ...
+230 | ... | ... | ... | ...
 
-There are 919 more IOC items available. Please use our online service to access the data.
+There are 918 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -274,13 +273,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -288,29 +288,33 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/bookings/manage_booking.php` | High
-2 | File | `/admin/bookings/view_booking.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/maintenance/view_designation.php` | High
-7 | File | `/admin/manage_academic.php` | High
-8 | File | `/admin/services/manage_service.php` | High
-9 | File | `/admin/services/view_service.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/boafrm/formFilter` | High
-12 | File | `/classes/Master.php?f=delete_inquiry` | High
-13 | File | `/classes/Master.php?f=save_course` | High
-14 | File | `/classes/Master.php?f=save_service` | High
-15 | File | `/classes/Users.php` | High
-16 | File | `/message/form/` | High
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/send_order.cgi?parameter=access_detect` | High
-19 | File | `/server/api/v1/login` | High
-20 | File | `/uncpath/` | Medium
-21 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/budget/manage_budget.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/edit_subject.php` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/reportupload.aspx` | High
+9 | File | `/admin/save_teacher.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/update_s6.php` | High
+12 | File | `/ajax.php?action=read_msg` | High
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/bin/login` | Medium
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/cas/logout` | Medium
+18 | File | `/cgi-bin/wapopen` | High
+19 | File | `/classes/Master.php?f=delete_service` | High
+20 | File | `/dosen/data` | Medium
+21 | File | `/DXR.axd` | Medium
+22 | File | `/E-mobile/App/System/File/downfile.php` | High
+23 | File | `/hslist` | Low
+24 | File | `/index.php?app=main&func=passport&action=login` | High
+25 | ... | ... | ...
 
-There are 175 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

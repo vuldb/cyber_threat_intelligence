@@ -17,8 +17,8 @@ The following _campaigns_ are known and can be associated with Transparent Tribe
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Transparent Tribe:
 
 * [US](https://vuldb.com/?country.us)
-* [IS](https://vuldb.com/?country.is)
 * [RU](https://vuldb.com/?country.ru)
+* [IS](https://vuldb.com/?country.is)
 * ...
 
 There are 12 more country items available. Please use our online service to access the data.
@@ -52,10 +52,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,27 +64,27 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin.php?action=editpage` | High
-2 | File | `/admin/featured.php` | High
-3 | File | `/admin/imagealbum/list` | High
-4 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
-5 | File | `/coders/pdf.c` | High
-6 | File | `/download` | Medium
-7 | File | `/etc/grafana/grafana.ini` | High
-8 | File | `/exponentcms/administration/configure_site` | High
-9 | File | `/export` | Low
-10 | File | `/forgetpassword.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/fos/admin/ajax.php` | High
-13 | File | `/fudforum/index.php` | High
-14 | File | `/goform/setVLAN` | High
-15 | File | `/goform/WifiBasicSet` | High
-16 | File | `/horde/util/go.php` | High
-17 | File | `/hss/?page=view_product` | High
-18 | File | `/index.php/ccm/system/file/upload` | High
-19 | File | `/isms/admin/stocks/view_stock.php` | High
-20 | File | `/lab.html` | Medium
-21 | File | `/list/<path:folderpath>` | High
-22 | File | `/out.php` | Medium
+2 | File | `/admin/imagealbum/list` | High
+3 | File | `/api/V2/internal/TaskPermissions/CheckTaskAccess` | High
+4 | File | `/coders/pdf.c` | High
+5 | File | `/download` | Medium
+6 | File | `/etc/grafana/grafana.ini` | High
+7 | File | `/exponentcms/administration/configure_site` | High
+8 | File | `/export` | Low
+9 | File | `/forgetpassword.php` | High
+10 | File | `/forum/away.php` | High
+11 | File | `/fos/admin/ajax.php` | High
+12 | File | `/fudforum/index.php` | High
+13 | File | `/goform/setVLAN` | High
+14 | File | `/goform/WifiBasicSet` | High
+15 | File | `/horde/util/go.php` | High
+16 | File | `/hss/?page=view_product` | High
+17 | File | `/index.php/ccm/system/file/upload` | High
+18 | File | `/isms/admin/stocks/view_stock.php` | High
+19 | File | `/lab.html` | Medium
+20 | File | `/list/<path:folderpath>` | High
+21 | File | `/out.php` | Medium
+22 | File | `/php-jms/updateBlankTxtview.php` | High
 23 | File | `/products/details.asp` | High
 24 | File | `/RestAPI` | Medium
 25 | File | `/sm/api/v1/firewall/zone/services` | High
@@ -98,10 +98,11 @@ ID | Type | Indicator | Confidence
 33 | File | `/web/IndexController.java` | High
 34 | File | `acknowledge.c` | High
 35 | File | `actions/CompanyDetailsSave.php` | High
-36 | File | `add_comment.php` | High
-37 | ... | ... | ...
+36 | File | `adclick.php` | Medium
+37 | File | `add_comment.php` | High
+38 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 328 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

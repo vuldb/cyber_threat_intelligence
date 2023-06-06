@@ -60,7 +60,7 @@ ID | IP address | Hostname | Campaign | Confidence
 31 | [66.218.85.151](https://vuldb.com/?ip.66.218.85.151) | unknown.yahoo.com | - | High
 32 | ... | ... | ... | ...
 
-There are 125 more IOC items available. Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

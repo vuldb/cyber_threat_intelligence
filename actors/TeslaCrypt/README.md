@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GR](https://vuldb.com/?country.gr)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,15 +45,16 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [23.218.119.73](https://vuldb.com/?ip.23.218.119.73) | a23-218-119-73.deploy.static.akamaitechnologies.com | - | High
 23 | [23.221.227.165](https://vuldb.com/?ip.23.221.227.165) | a23-221-227-165.deploy.static.akamaitechnologies.com | - | High
 24 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
-25 | [23.236.62.147](https://vuldb.com/?ip.23.236.62.147) | 147.62.236.23.bc.googleusercontent.com | - | Medium
-26 | [27.254.33.44](https://vuldb.com/?ip.27.254.33.44) | da80.hostneverdie.com | - | High
-27 | [27.254.87.155](https://vuldb.com/?ip.27.254.87.155) | cs56.hostneverdie.com | - | High
-28 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
-29 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-30 | [34.117.59.81](https://vuldb.com/?ip.34.117.59.81) | 81.59.117.34.bc.googleusercontent.com | - | Medium
-31 | ... | ... | ... | ...
+25 | [23.221.227.174](https://vuldb.com/?ip.23.221.227.174) | a23-221-227-174.deploy.static.akamaitechnologies.com | - | High
+26 | [23.221.227.186](https://vuldb.com/?ip.23.221.227.186) | a23-221-227-186.deploy.static.akamaitechnologies.com | - | High
+27 | [23.236.62.147](https://vuldb.com/?ip.23.236.62.147) | 147.62.236.23.bc.googleusercontent.com | - | Medium
+28 | [27.254.33.44](https://vuldb.com/?ip.27.254.33.44) | da80.hostneverdie.com | - | High
+29 | [27.254.87.155](https://vuldb.com/?ip.27.254.87.155) | cs56.hostneverdie.com | - | High
+30 | [34.98.99.30](https://vuldb.com/?ip.34.98.99.30) | 30.99.98.34.bc.googleusercontent.com | - | Medium
+31 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+32 | ... | ... | ... | ...
 
-There are 121 more IOC items available. Please use our online service to access the data.
+There are 126 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,7 +68,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -94,33 +95,33 @@ ID | Type | Indicator | Confidence
 17 | File | `/ebics-server/ebics.aspx` | High
 18 | File | `/egroupware/index.php` | High
 19 | File | `/etc/hosts` | Medium
-20 | File | `/GponForm/device_Form?script/` | High
-21 | File | `/GponForm/fsetup_Form` | High
-22 | File | `/GponForm/usb_restore_Form?script/` | High
-23 | File | `/hrm/employeeview.php` | High
-24 | File | `/includes/decorators/global-translations.jsp` | High
-25 | File | `/index.php` | Medium
-26 | File | `/loginsave.php` | High
-27 | File | `/param.file.tgz` | High
-28 | File | `/product_list.php` | High
-29 | File | `/public_html/users.php` | High
-30 | File | `/secure/QueryComponent!Default.jspa` | High
-31 | File | `/see_more_details.php` | High
-32 | File | `/server-status` | High
-33 | File | `/setSystemAdmin` | High
-34 | File | `/tmp` | Low
-35 | File | `/uncpath/` | Medium
-36 | File | `/user/s.php` | Medium
-37 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-38 | File | `/WEB-INF/web.xml` | High
-39 | File | `/wireless/guestnetwork.asp` | High
-40 | File | `adclick.php` | Medium
-41 | File | `add-locker-form.php` | High
-42 | File | `addentry.php` | Medium
-43 | File | `admin.php` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/GponForm/device_Form?script/` | High
+22 | File | `/GponForm/fsetup_Form` | High
+23 | File | `/GponForm/usb_restore_Form?script/` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/includes/decorators/global-translations.jsp` | High
+26 | File | `/index.php` | Medium
+27 | File | `/loginsave.php` | High
+28 | File | `/param.file.tgz` | High
+29 | File | `/product_list.php` | High
+30 | File | `/public_html/users.php` | High
+31 | File | `/secure/QueryComponent!Default.jspa` | High
+32 | File | `/see_more_details.php` | High
+33 | File | `/server-status` | High
+34 | File | `/setSystemAdmin` | High
+35 | File | `/tmp` | Low
+36 | File | `/uncpath/` | Medium
+37 | File | `/user/s.php` | Medium
+38 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+39 | File | `/WEB-INF/web.xml` | High
+40 | File | `/wireless/guestnetwork.asp` | High
+41 | File | `adclick.php` | Medium
+42 | File | `add-locker-form.php` | High
+43 | File | `addentry.php` | Medium
 44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 383 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -145,6 +146,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/10/threat-roundup-0930-1007.html
 * https://blog.talosintelligence.com/threat-roundup-0127-0203/
 * https://blog.talosintelligence.com/threat-roundup-0324-0331-2/
+* https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
+* https://blog.talosintelligence.com/threat-roundup-0519-0526-23/
 * https://blog.talosintelligence.com/threat-roundup-1021-1028-2/
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/

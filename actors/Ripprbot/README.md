@@ -29,7 +29,6 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [171.22.109.201](https://vuldb.com/?ip.171.22.109.201) | - | DDoS Ukraine | High
 2 | [212.192.246.183](https://vuldb.com/?ip.212.192.246.183) | - | DDoS Ukraine | High
-3 | [212.192.246.186](https://vuldb.com/?ip.212.192.246.186) | - | DDoS Ukraine | High
 
 ## TTP - Tactics, Techniques, Procedures
 

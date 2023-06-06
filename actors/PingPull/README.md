@@ -46,10 +46,9 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [45.128.221.169](https://vuldb.com/?ip.45.128.221.169) | - | - | High
 24 | [45.128.221.172](https://vuldb.com/?ip.45.128.221.172) | - | - | High
 25 | [45.128.221.182](https://vuldb.com/?ip.45.128.221.182) | - | - | High
-26 | [45.128.221.186](https://vuldb.com/?ip.45.128.221.186) | - | - | High
-27 | ... | ... | ... | ...
+26 | ... | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -92,7 +91,8 @@ ID | Type | Indicator | Confidence
 18 | File | `/nova/bin/detnet` | High
 19 | File | `/out.php` | Medium
 20 | File | `/owa/auth/logon.aspx` | High
-21 | ... | ... | ...
+21 | File | `/req_password_user.php` | High
+22 | ... | ... | ...
 
 There are 178 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

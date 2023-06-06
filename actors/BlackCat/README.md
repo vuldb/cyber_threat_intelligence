@@ -37,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-29 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-85 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
@@ -59,21 +59,21 @@ ID | Type | Indicator | Confidence
 7 | File | `/admin/ajax.php?action=delete_user` | High
 8 | File | `/admin/ajax.php?action=delete_window` | High
 9 | File | `/admin/edit_members.php` | High
-10 | File | `/admin/fst_upload.inc.php` | High
-11 | File | `/admin/index.php` | High
-12 | File | `/admin/report/index.php` | High
-13 | File | `/admin/services/manage_service.php` | High
-14 | File | `/admin/user/manage_user.php` | High
-15 | File | `/admin/users/index.php` | High
-16 | File | `/asms/classes/Master.php?f=delete_service` | High
-17 | File | `/bsms_ci/index.php/user/edit_user/` | High
-18 | File | `/classes/Master.php?f=delete_category` | High
-19 | File | `/classes/Users.php?f=delete_client` | High
-20 | File | `/clients/listclients.php` | High
-21 | File | `/clients/profile` | High
-22 | File | `/cms/category/list` | High
-23 | File | `/contacts/listcontacts.php` | High
-24 | File | `/csms/admin/?page=user/manage_user` | High
+10 | File | `/admin/edit_subject.php` | High
+11 | File | `/admin/fst_upload.inc.php` | High
+12 | File | `/admin/index.php` | High
+13 | File | `/admin/report/index.php` | High
+14 | File | `/admin/services/manage_service.php` | High
+15 | File | `/admin/user/manage_user.php` | High
+16 | File | `/admin/users/index.php` | High
+17 | File | `/asms/classes/Master.php?f=delete_service` | High
+18 | File | `/bsms_ci/index.php/user/edit_user/` | High
+19 | File | `/classes/Master.php?f=delete_category` | High
+20 | File | `/classes/Users.php?f=delete_client` | High
+21 | File | `/clients/listclients.php` | High
+22 | File | `/clients/profile` | High
+23 | File | `/cms/category/list` | High
+24 | File | `/contacts/listcontacts.php` | High
 25 | File | `/Default/Bd` | Medium
 26 | File | `/ext/phar/phar_object.c` | High
 27 | File | `/forum/away.php` | High
@@ -91,9 +91,10 @@ ID | Type | Indicator | Confidence
 39 | File | `/hss/?page=categories` | High
 40 | File | `/hss/admin/brands/manage_brand.php` | High
 41 | File | `/index.php?module=entities/entities` | High
-42 | ... | ... | ...
+42 | File | `/index.php?module=global_lists/lists` | High
+43 | ... | ... | ...
 
-There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

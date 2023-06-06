@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with PoshC2:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 
 ## Actors
 
@@ -26,7 +27,11 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [35.202.253.45](https://vuldb.com/?ip.35.202.253.45) | 45.253.202.35.bc.googleusercontent.com | [PoshC2](https://vuldb.com/?actor.poshc2) | Medium
-2 | [213.227.155.25](https://vuldb.com/?ip.213.227.155.25) | - | [APT33](https://vuldb.com/?actor.apt33) | High
+2 | [46.243.186.112](https://vuldb.com/?ip.46.243.186.112) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+3 | [95.213.145.101](https://vuldb.com/?ip.95.213.145.101) | - | [PoshC2](https://vuldb.com/?actor.poshc2) | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,6 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1505 | CWE-89 | SQL Injection | High
+3 | T1592 | CWE-200 | Configuration | High
 
 ## IOA - Indicator of Attack
 
@@ -48,13 +54,15 @@ ID | Type | Indicator | Confidence
 3 | File | `category.cfm` | Medium
 4 | ... | ... | ...
 
-There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/APT/poshc2_apt_33.md
+* https://twitter.com/1ZRR4H/status/1582068501036273665
+* https://twitter.com/TheDFIRReport/status/1407322479664762890
 * https://www.lac.co.jp/lacwatch/people/20190213_001770.html
 
 ## Literature

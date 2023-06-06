@@ -36,7 +36,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -50,24 +50,24 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/?page=reports/stockin` | High
 5 | File | `/admin/inbox.php&action=read` | High
 6 | File | `/admin/operations/packages.php` | High
-7 | File | `/admin/pages/sections_save.php` | High
-8 | File | `/admin/settings/save.php` | High
-9 | File | `/admin/uesrs.php&action=display&value=Show` | High
-10 | File | `/apply.cgi` | Medium
-11 | File | `/config/list` | Medium
-12 | File | `/coreframe/app/guestbook/myissue.php` | High
-13 | File | `/dede/co_do.php` | High
-14 | File | `/DXR.axd` | Medium
-15 | File | `/etc/init.d/sshd_service` | High
-16 | File | `/fuel/sitevariables/delete/4` | High
-17 | File | `/goform/saveParentControlInfo` | High
-18 | File | `/goform/setSnmpInfo` | High
-19 | File | `/include/make.php` | High
-20 | File | `/index.php/admins/Fields/get_fields.html` | High
-21 | File | `/login` | Low
+7 | File | `/admin/orders/update_status.php` | High
+8 | File | `/admin/pages/sections_save.php` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/uesrs.php&action=display&value=Show` | High
+11 | File | `/apply.cgi` | Medium
+12 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+13 | File | `/config/list` | Medium
+14 | File | `/coreframe/app/guestbook/myissue.php` | High
+15 | File | `/dede/co_do.php` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/etc/init.d/sshd_service` | High
+18 | File | `/fuel/sitevariables/delete/4` | High
+19 | File | `/goform/saveParentControlInfo` | High
+20 | File | `/goform/setSnmpInfo` | High
+21 | File | `/include/make.php` | High
 22 | ... | ... | ...
 
-There are 181 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 187 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

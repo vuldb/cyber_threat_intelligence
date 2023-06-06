@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [AR](https://vuldb.com/?country.ar)
-* [IT](https://vuldb.com/?country.it)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -44,8 +44,7 @@ ID | IP address | Hostname | Campaign | Confidence
 21 | [57.91.176.0](https://vuldb.com/?ip.57.91.176.0) | - | - | High
 22 | [63.245.112.0](https://vuldb.com/?ip.63.245.112.0) | d-63-245-112-0.batelnet.bs | - | High
 23 | [63.245.120.0](https://vuldb.com/?ip.63.245.120.0) | - | - | High
-24 | [64.66.0.0](https://vuldb.com/?ip.64.66.0.0) | - | - | High
-25 | ... | ... | ... | ...
+24 | ... | ... | ... | ...
 
 There are 94 more IOC items available. Please use our online service to access the data.
 
@@ -75,30 +74,35 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/edit.php` | High
 5 | File | `/admin/index.php/template/ajax?action=delete` | High
 6 | File | `/admin/index.php?mode=content&page=media&action=edit` | High
-7 | File | `/admin/maintenance/view_designation.php` | High
-8 | File | `/admin/report/index.php` | High
-9 | File | `/admin/users.php?source=edit_user&id=1` | High
-10 | File | `/administrator/alerts/alertLightbox.php` | High
-11 | File | `/administrator/templates/default/html/windows/right.php` | High
-12 | File | `/apps/acs-commons/content/page-compare.html` | High
-13 | File | `/cgi-bin/webadminget.cgi` | High
-14 | File | `/demo/module/?module=HERE` | High
-15 | File | `/download/set.cgi` | High
-16 | File | `/dvcset/sysset/set.cgi` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/goform/SysToolReboot` | High
-19 | File | `/goform/WifiExtraSet` | High
-20 | File | `/inc/topBarNav.php` | High
-21 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/mngset/authset` | High
-24 | File | `/mobile/downloadfile.aspx` | High
-25 | File | `/net/nfc/netlink.c` | High
-26 | File | `/out.php` | Medium
-27 | File | `/outgoing.php` | High
-28 | ... | ... | ...
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/report/index.php` | High
+10 | File | `/admin/users.php?source=edit_user&id=1` | High
+11 | File | `/administrator/alerts/alertLightbox.php` | High
+12 | File | `/administrator/templates/default/html/windows/right.php` | High
+13 | File | `/apps/acs-commons/content/page-compare.html` | High
+14 | File | `/cgi-bin/webadminget.cgi` | High
+15 | File | `/classes/Master.php?f=delete_service` | High
+16 | File | `/classes/Master.php?f=save_course` | High
+17 | File | `/demo/module/?module=HERE` | High
+18 | File | `/download/set.cgi` | High
+19 | File | `/dvcset/sysset/set.cgi` | High
+20 | File | `/forum/away.php` | High
+21 | File | `/goform/SysToolReboot` | High
+22 | File | `/goform/WifiExtraSet` | High
+23 | File | `/inc/topBarNav.php` | High
+24 | File | `/index.php?m=admin&c=custom&a=plugindelhandle` | High
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/mngset/authset` | High
+27 | File | `/mobile/downloadfile.aspx` | High
+28 | File | `/net/nfc/netlink.c` | High
+29 | File | `/out.php` | Medium
+30 | File | `/outgoing.php` | High
+31 | File | `/php-fusion/infusions/shoutbox_panel/shoutbox_archive.php` | High
+32 | File | `/presale/join` | High
+33 | ... | ... | ...
 
-There are 241 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

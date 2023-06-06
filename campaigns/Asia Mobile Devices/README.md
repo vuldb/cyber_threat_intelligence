@@ -44,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,16 +56,18 @@ ID | Type | Indicator | Confidence
 2 | File | `/addnews.html` | High
 3 | File | `/admin/system/database/filedown.php` | High
 4 | File | `/bin/boa` | Medium
-5 | File | `/cgi-bin/upload_vpntar` | High
-6 | File | `/cgi-bin/user/Config.cgi` | High
-7 | File | `/MTFWU` | Low
-8 | File | `/network_test.php` | High
-9 | File | `/okm:root` | Medium
-10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-11 | File | `acs.exe` | Low
-12 | ... | ... | ...
+5 | File | `/cgi-bin/cstecgi.cgi` | High
+6 | File | `/cgi-bin/upload_vpntar` | High
+7 | File | `/cgi-bin/user/Config.cgi` | High
+8 | File | `/lan.asp` | Medium
+9 | File | `/MTFWU` | Low
+10 | File | `/network_test.php` | High
+11 | File | `/okm:root` | Medium
+12 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+13 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+14 | ... | ... | ...
 
-There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -83,7 +83,7 @@ ID | IP address | Hostname | Campaign | Confidence
 49 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
 50 | ... | ... | ... | ...
 
-There are 198 more IOC items available. Please use our online service to access the data.
+There are 195 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -155,7 +155,7 @@ ID | Type | Indicator | Confidence
 48 | File | `AdxDSrv.exe` | Medium
 49 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

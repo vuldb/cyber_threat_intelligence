@@ -20,6 +20,9 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [51.83.225.224](https://vuldb.com/?ip.51.83.225.224) | - | - | High
 2 | [51.83.251.214](https://vuldb.com/?ip.51.83.251.214) | - | - | High
 3 | [152.89.247.159](https://vuldb.com/?ip.152.89.247.159) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,12 +30,31 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Brata. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `add_comment.php` | High
+2 | File | `case.filemanager.php` | High
+3 | File | `cloud.php` | Medium
+4 | ... | ... | ...
+
+There are 16 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/400cdf9d2ba1c5b5ffb511f840c9e174dbd35de2ddf58bd33392901a6c0f20ce/
 * https://blog.cyble.com/2022/07/21/amextroll-android-banking-trojan-spotted-in-the-wild/
 * https://community.blueliv.com/#!/s/62b0155982df417ed03311f0
 

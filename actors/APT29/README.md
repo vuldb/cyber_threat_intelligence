@@ -21,7 +21,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [LA](https://vuldb.com/?country.la)
 * ...
 
 There are 15 more country items available. Please use our online service to access the data.
@@ -89,38 +89,40 @@ ID | Type | Indicator | Confidence
 9 | File | `/alphaware/summary.php` | High
 10 | File | `/api/` | Low
 11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/v2/cli/commands` | High
-13 | File | `/app/options.py` | High
-14 | File | `/attachments` | Medium
-15 | File | `/boat/login.php` | High
-16 | File | `/bsms_ci/index.php/book` | High
-17 | File | `/cgi-bin` | Medium
-18 | File | `/cgi-bin/luci/api/wireless` | High
-19 | File | `/cgi-bin/wlogin.cgi` | High
-20 | File | `/context/%2e/WEB-INF/web.xml` | High
-21 | File | `/dashboard/reports/logs/view` | High
-22 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/etc/hosts` | Medium
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/wizard_end` | High
-28 | File | `/manage-apartment.php` | High
-29 | File | `/medicines/profile.php` | High
-30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-31 | File | `/owa/auth/logon.aspx` | High
-32 | File | `/pages/apply_vacancy.php` | High
-33 | File | `/proc/<PID>/mem` | High
-34 | File | `/project/PROJECTNAME/reports/` | High
-35 | File | `/proxy` | Low
-36 | File | `/reservation/add_message.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/upload` | Low
-41 | ... | ... | ...
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/app/options.py` | High
+15 | File | `/attachments` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/dashboard/reports/logs/view` | High
+23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+24 | File | `/debug/pprof` | Medium
+25 | File | `/DXR.axd` | Medium
+26 | File | `/etc/hosts` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/manage-apartment.php` | High
+31 | File | `/medicines/profile.php` | High
+32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/pages/apply_vacancy.php` | High
+35 | File | `/proc/<PID>/mem` | High
+36 | File | `/project/PROJECTNAME/reports/` | High
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/tmp` | Low
+41 | File | `/uncpath/` | Medium
+42 | File | `/upload` | Low
+43 | ... | ... | ...
 
-There are 353 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

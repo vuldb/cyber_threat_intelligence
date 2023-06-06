@@ -30,9 +30,11 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [45.12.70.246](https://vuldb.com/?ip.45.12.70.246) | dodges.globalhilive.com | - | High
 8 | [45.12.71.246](https://vuldb.com/?ip.45.12.71.246) | - | - | High
 9 | [46.35.64.0](https://vuldb.com/?ip.46.35.64.0) | - | - | High
-10 | ... | ... | ... | ...
+10 | [46.161.224.0](https://vuldb.com/?ip.46.161.224.0) | - | - | High
+11 | [46.243.149.0](https://vuldb.com/?ip.46.243.149.0) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,29 +85,32 @@ ID | Type | Indicator | Confidence
 26 | File | `/setSystemAdmin` | High
 27 | File | `/setup` | Low
 28 | File | `/spip.php` | Medium
-29 | File | `/uncpath/` | Medium
-30 | File | `/usr/bin/pkexec` | High
-31 | File | `/var/log/nginx` | High
-32 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-33 | File | `/wbms/classes/Users.php?f=save` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-36 | File | `a2dp_aac_decoder.cc` | High
-37 | File | `act.php` | Low
-38 | File | `adclick.php` | Medium
-39 | File | `addentry.php` | Medium
-40 | File | `admin` | Low
-41 | File | `admin-ajax.php` | High
-42 | File | `admin.php` | Medium
-43 | ... | ... | ...
+29 | File | `/squashfs-root/etc_ro/custom.conf` | High
+30 | File | `/uncpath/` | Medium
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/log/nginx` | High
+33 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+34 | File | `/wbms/classes/Users.php?f=save` | High
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+37 | File | `a2dp_aac_decoder.cc` | High
+38 | File | `act.php` | Low
+39 | File | `adclick.php` | Medium
+40 | File | `addentry.php` | Medium
+41 | File | `admin` | Low
+42 | File | `admin-ajax.php` | High
+43 | File | `admin.php` | Medium
+44 | File | `admin/adminsignin.html` | High
+45 | ... | ... | ...
 
-There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ye.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ye.netset
 
 ## Literature
 

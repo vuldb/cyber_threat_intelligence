@@ -96,18 +96,9 @@ ID | IP address | Hostname | Campaign | Confidence
 84 | [80.88.138.64](https://vuldb.com/?ip.80.88.138.64) | - | - | High
 85 | [80.88.147.176](https://vuldb.com/?ip.80.88.147.176) | - | - | High
 86 | [83.229.62.8](https://vuldb.com/?ip.83.229.62.8) | - | - | High
-87 | [84.22.71.0](https://vuldb.com/?ip.84.22.71.0) | - | - | High
-88 | [84.22.72.0](https://vuldb.com/?ip.84.22.72.0) | - | - | High
-89 | [84.254.128.0](https://vuldb.com/?ip.84.254.128.0) | 84-254-128-0.ip.skylogicnet.com | - | High
-90 | [88.202.36.0](https://vuldb.com/?ip.88.202.36.0) | 88-202-36-0.ip.skylogicnet.com | - | High
-91 | [102.36.224.0](https://vuldb.com/?ip.102.36.224.0) | - | - | High
-92 | [102.64.60.0](https://vuldb.com/?ip.102.64.60.0) | - | - | High
-93 | [102.64.80.0](https://vuldb.com/?ip.102.64.80.0) | - | - | High
-94 | [102.130.64.0](https://vuldb.com/?ip.102.130.64.0) | - | - | High
-95 | [102.130.64.20](https://vuldb.com/?ip.102.130.64.20) | - | - | High
-96 | ... | ... | ... | ...
+87 | ... | ... | ... | ...
 
-There are 381 more IOC items available. Please use our online service to access the data.
+There are 345 more IOC items available. Please use our online service to access the data.
 
 ## References
 

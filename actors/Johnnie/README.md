@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [BR](https://vuldb.com/?country.br)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,11 +46,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,9 +60,9 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/../conf/config.properties` | High
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/admin/default.asp` | High
-5 | File | `/ajax/networking/get_netcfg.php` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
 7 | File | `/bin/httpd` | Medium
 8 | File | `/cgi-bin/wapopen` | High
@@ -77,35 +77,32 @@ ID | Type | Indicator | Confidence
 17 | File | `/ctcprotocol/Protocol` | High
 18 | File | `/dashboard/menu-list.php` | High
 19 | File | `/data/remove` | Medium
-20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goforms/rlminfo` | High
-23 | File | `/Items/*/RemoteImages/Download` | High
-24 | File | `/login` | Low
-25 | File | `/menu.html` | Medium
-26 | File | `/MIME/INBOX-MM-1/` | High
-27 | File | `/navigate/navigate_download.php` | High
-28 | File | `/ocwbs/admin/?page=user/manage_user` | High
-29 | File | `/ofrs/admin/?page=user/manage_user` | High
-30 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/password.html` | High
-34 | File | `/php_action/fetchSelectedUser.php` | High
-35 | File | `/proc/ioports` | High
-36 | File | `/property-list/property_view.php` | High
-37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/resources//../` | High
-39 | File | `/rest/api/2/search` | High
-40 | File | `/s/` | Low
-41 | File | `/scripts/cpan_config` | High
-42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-43 | File | `/services/system/setup.json` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/tmp` | Low
-46 | ... | ... | ...
+20 | File | `/ebics-server/ebics.aspx` | High
+21 | File | `/ffos/classes/Master.php?f=save_category` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/HNAP1/SetClientInfo` | High
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/menu.html` | Medium
+28 | File | `/MIME/INBOX-MM-1/` | High
+29 | File | `/modules/profile/index.php` | High
+30 | File | `/navigate/navigate_download.php` | High
+31 | File | `/ocwbs/admin/?page=user/manage_user` | High
+32 | File | `/ofrs/admin/?page=user/manage_user` | High
+33 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+34 | File | `/out.php` | Medium
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/resources//../` | High
+40 | File | `/rest/api/2/search` | High
+41 | File | `/s/` | Low
+42 | File | `/scripts/cpan_config` | High
+43 | ... | ... | ...
 
-There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 369 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

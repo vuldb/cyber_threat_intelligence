@@ -51,10 +51,9 @@ ID | IP address | Hostname | Campaign | Confidence
 20 | [54.37.164.254](https://vuldb.com/?ip.54.37.164.254) | - | - | High
 21 | [54.38.49.6](https://vuldb.com/?ip.54.38.49.6) | ip6.ip-54-38-49.eu | Log4Shell | High
 22 | [69.30.221.126](https://vuldb.com/?ip.69.30.221.126) | - | - | High
-23 | [69.30.224.244](https://vuldb.com/?ip.69.30.224.244) | ramuran.eveningcatcher.com | - | High
-24 | ... | ... | ... | ...
+23 | ... | ... | ... | ...
 
-There are 90 more IOC items available. Please use our online service to access the data.
+There are 87 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -77,46 +76,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin.php/accessory/filesdel.html` | High
-3 | File | `/admin/?page=user/manage` | High
-4 | File | `/admin/add-new.php` | High
-5 | File | `/admin/doctors.php` | High
-6 | File | `/admin/submit-articles` | High
-7 | File | `/admin/subnets/ripe-query.php` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/attachments` | Medium
-13 | File | `/boat/login.php` | High
-14 | File | `/bsms_ci/index.php/book` | High
-15 | File | `/cgi-bin/luci/api/wireless` | High
-16 | File | `/context/%2e/WEB-INF/web.xml` | High
-17 | File | `/dashboard/reports/logs/view` | High
-18 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-19 | File | `/debug/pprof` | Medium
-20 | File | `/etc/hosts` | Medium
-21 | File | `/export` | Low
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/setmac` | High
-24 | File | `/goform/wizard_end` | High
-25 | File | `/hardware` | Medium
-26 | File | `/manage-apartment.php` | High
-27 | File | `/medicines/profile.php` | High
-28 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-29 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-30 | File | `/pages/apply_vacancy.php` | High
-31 | File | `/proc/<PID>/mem` | High
-32 | File | `/proxy` | Low
-33 | File | `/reservation/add_message.php` | High
-34 | File | `/spip.php` | Medium
-35 | File | `/tmp` | Low
-36 | File | `/uncpath/` | Medium
-37 | File | `/upload` | Low
-38 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/admin/subnets/ripe-query.php` | High
+9 | File | `/ad_js.php` | Medium
+10 | File | `/alphaware/summary.php` | High
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/attachments` | Medium
+16 | File | `/boat/login.php` | High
+17 | File | `/bsms_ci/index.php/book` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/etc/hosts` | Medium
+25 | File | `/export` | Low
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/setmac` | High
+28 | File | `/goform/wizard_end` | High
+29 | File | `/hardware` | Medium
+30 | File | `/librarian/bookdetails.php` | High
+31 | File | `/manage-apartment.php` | High
+32 | File | `/medicines/profile.php` | High
+33 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+34 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+35 | File | `/pages/apply_vacancy.php` | High
+36 | File | `/proxy` | Low
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/tmp` | Low
+40 | File | `/uncpath/` | Medium
+41 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 350 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

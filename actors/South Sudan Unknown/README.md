@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with South Sudan Unknown:
 
 * [US](https://vuldb.com/?country.us)
+* [ID](https://vuldb.com/?country.id)
 * [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
@@ -17,14 +18,23 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [41.79.24.0](https://vuldb.com/?ip.41.79.24.0) | - | - | High
-2 | [41.79.120.0](https://vuldb.com/?ip.41.79.120.0) | - | - | High
-3 | [41.222.72.0](https://vuldb.com/?ip.41.222.72.0) | - | - | High
-4 | [45.12.70.209](https://vuldb.com/?ip.45.12.70.209) | choir.globalhilive.com | - | High
-5 | [45.12.71.209](https://vuldb.com/?ip.45.12.71.209) | - | - | High
-6 | ... | ... | ... | ...
+1 | [38.43.72.0](https://vuldb.com/?ip.38.43.72.0) | - | - | High
+2 | [41.79.24.0](https://vuldb.com/?ip.41.79.24.0) | - | - | High
+3 | [41.79.120.0](https://vuldb.com/?ip.41.79.120.0) | - | - | High
+4 | [41.84.208.0](https://vuldb.com/?ip.41.84.208.0) | - | - | High
+5 | [41.84.212.0](https://vuldb.com/?ip.41.84.212.0) | - | - | High
+6 | [41.138.240.0](https://vuldb.com/?ip.41.138.240.0) | - | - | High
+7 | [41.138.244.0](https://vuldb.com/?ip.41.138.244.0) | - | - | High
+8 | [41.222.72.0](https://vuldb.com/?ip.41.222.72.0) | - | - | High
+9 | [45.12.70.209](https://vuldb.com/?ip.45.12.70.209) | choir.globalhilive.com | - | High
+10 | [45.12.71.209](https://vuldb.com/?ip.45.12.71.209) | - | - | High
+11 | [45.148.27.0](https://vuldb.com/?ip.45.148.27.0) | - | - | High
+12 | [46.36.203.151](https://vuldb.com/?ip.46.36.203.151) | - | - | High
+13 | [46.36.203.152](https://vuldb.com/?ip.46.36.203.152) | - | - | High
+14 | [46.36.203.160](https://vuldb.com/?ip.46.36.203.160) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -32,8 +42,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-269 | Execution with Unnecessary Privileges | High
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -41,15 +55,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mgmt/tm/util/bash` | High
-2 | File | `virtualinput.cgi` | High
-3 | Library | `winmm.dll` | Medium
+1 | File | `/admin/admapi.php` | High
+2 | File | `/mgmt/tm/util/bash` | High
+3 | File | `/modules/registration_admission/patient_register.php` | High
+4 | ... | ... | ...
+
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ss.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ss.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ss.netset
 
 ## Literature
 

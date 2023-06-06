@@ -16,7 +16,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [80.211.252.12](https://vuldb.com/?ip.80.211.252.12) | host12-252-211-80.static.arubacloud.pl | - | High
+1 | [18.222.122.216](https://vuldb.com/?ip.18.222.122.216) | ec2-18-222-122-216.us-east-2.compute.amazonaws.com | - | Medium
+2 | [20.206.126.228](https://vuldb.com/?ip.20.206.126.228) | - | - | High
+3 | [80.211.252.12](https://vuldb.com/?ip.80.211.252.12) | host12-252-211-80.static.arubacloud.pl | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -43,6 +45,8 @@ There are 1 more IOA items available (file, library, argument, input value, patt
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/153a5a770e7594794ce3ac19121c1ad44edc6acdf4e4ae6d77adbd964ae6609e/
+* https://bazaar.abuse.ch/sample/951c2f341e914601140aa9ead05895f6957d5cbfda80b81be99015d2be02d44f/
 * https://github.com/jeFF0Falltrades/IoCs/blob/master/Broadbased/metamorfo.md
 
 ## Literature

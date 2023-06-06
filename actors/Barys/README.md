@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Barys:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [FR](https://vuldb.com/?country.fr)
-* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,55 +66,55 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-bin` | Medium
 4 | File | `/cgi/cpaddons_feature.pl` | High
 5 | File | `/dana/nc/ncrun.cgi` | High
-6 | File | `/firewall/policy/` | High
-7 | File | `/help/helpredir.aspx` | High
-8 | File | `/irj/portal/` | Medium
-9 | File | `/proc` | Low
-10 | File | `/proc/net/ip6_flowlabel` | High
-11 | File | `/search` | Low
-12 | File | `/tmp/.pk11ipc1` | High
-13 | File | `/tmp/adb.log` | Medium
-14 | File | `/usr/bin/cu` | Medium
-15 | File | `/var/crash/vmcore.log` | High
-16 | File | `aclient.exe` | Medium
-17 | File | `admin` | Low
-18 | File | `admin.php` | Medium
-19 | File | `admin.rssreader.php` | High
-20 | File | `admin/batch_manager_unit.php` | High
-21 | File | `admin/configuration/modifier.php` | High
-22 | File | `admin/skins.php` | High
-23 | File | `admin/system_manage/save.html` | High
-24 | File | `admin/system_manage/user_config_add.html` | High
-25 | File | `adminconsole` | Medium
-26 | File | `administrator/mail/download.cfm` | High
-27 | File | `admin_board.php` | High
-28 | File | `af_netlink.c` | Medium
-29 | File | `ajax.php` | Medium
-30 | File | `ajaxRequest/methodCall.do` | High
-31 | File | `announcements.php` | High
-32 | File | `apache2/modsecurity.c` | High
-33 | File | `apply.cgi` | Medium
-34 | File | `app_new.php` | Medium
-35 | File | `aspx` | Low
-36 | File | `AttachmentsList.aspx` | High
-37 | File | `Atx45.ocx` | Medium
-38 | File | `auction_details.php` | High
-39 | File | `auth-gss2.c` | Medium
-40 | File | `auth.php` | Medium
-41 | File | `aut_verifica.inc.php` | High
-42 | File | `awsguest.php` | Medium
-43 | File | `b2edit.showposts.php` | High
-44 | File | `backend.php/screen.php/comment.php` | High
-45 | File | `basicfunctions.php` | High
-46 | File | `board.cgi` | Medium
-47 | File | `bug_actiongroup_ext_page.php` | High
-48 | File | `canned_opr.php` | High
-49 | File | `cart.cgi` | Medium
-50 | File | `cat.asp` | Low
-51 | File | `cddbcontrolaol.cddbaolcontrol` | High
+6 | File | `/help/helpredir.aspx` | High
+7 | File | `/irj/portal/` | Medium
+8 | File | `/proc` | Low
+9 | File | `/proc/net/ip6_flowlabel` | High
+10 | File | `/search` | Low
+11 | File | `/tmp/.pk11ipc1` | High
+12 | File | `/tmp/adb.log` | Medium
+13 | File | `/usr/bin/cu` | Medium
+14 | File | `/var/crash/vmcore.log` | High
+15 | File | `aclient.exe` | Medium
+16 | File | `admin` | Low
+17 | File | `admin.php` | Medium
+18 | File | `admin.rssreader.php` | High
+19 | File | `admin/batch_manager_unit.php` | High
+20 | File | `admin/configuration/modifier.php` | High
+21 | File | `admin/skins.php` | High
+22 | File | `admin/system_manage/save.html` | High
+23 | File | `admin/system_manage/user_config_add.html` | High
+24 | File | `adminconsole` | Medium
+25 | File | `administrator/mail/download.cfm` | High
+26 | File | `admin_board.php` | High
+27 | File | `af_netlink.c` | Medium
+28 | File | `ajax.php` | Medium
+29 | File | `ajaxRequest/methodCall.do` | High
+30 | File | `announcements.php` | High
+31 | File | `apache2/modsecurity.c` | High
+32 | File | `apply.cgi` | Medium
+33 | File | `app_new.php` | Medium
+34 | File | `aspx` | Low
+35 | File | `AttachmentsList.aspx` | High
+36 | File | `Atx45.ocx` | Medium
+37 | File | `auction_details.php` | High
+38 | File | `auth-gss2.c` | Medium
+39 | File | `auth.php` | Medium
+40 | File | `aut_verifica.inc.php` | High
+41 | File | `awsguest.php` | Medium
+42 | File | `b2edit.showposts.php` | High
+43 | File | `backend.php/screen.php/comment.php` | High
+44 | File | `basicfunctions.php` | High
+45 | File | `board.cgi` | Medium
+46 | File | `bug_actiongroup_ext_page.php` | High
+47 | File | `canned_opr.php` | High
+48 | File | `cart.cgi` | Medium
+49 | File | `cat.asp` | Low
+50 | File | `cddbcontrolaol.cddbaolcontrol` | High
+51 | File | `channel.asp` | Medium
 52 | ... | ... | ...
 
-There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

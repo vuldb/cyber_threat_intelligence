@@ -46,9 +46,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/etc/config/image_sign` | High
 3 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
 4 | File | `/htdocs/web/getcfg.php` | High
-5 | ... | ... | ...
+5 | File | `/uncpath/` | Medium
+6 | ... | ... | ...
 
-There are 32 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 39 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

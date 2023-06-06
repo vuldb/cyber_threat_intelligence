@@ -918,37 +918,9 @@ ID | IP address | Hostname | Campaign | Confidence
 906 | [23.138.92.0](https://vuldb.com/?ip.23.138.92.0) | - | - | High
 907 | [23.138.97.0](https://vuldb.com/?ip.23.138.97.0) | - | - | High
 908 | [23.138.98.0](https://vuldb.com/?ip.23.138.98.0) | - | - | High
-909 | [23.138.100.0](https://vuldb.com/?ip.23.138.100.0) | - | - | High
-910 | [23.138.105.0](https://vuldb.com/?ip.23.138.105.0) | - | - | High
-911 | [23.138.106.0](https://vuldb.com/?ip.23.138.106.0) | - | - | High
-912 | [23.138.108.0](https://vuldb.com/?ip.23.138.108.0) | - | - | High
-913 | [23.138.115.0](https://vuldb.com/?ip.23.138.115.0) | - | - | High
-914 | [23.138.116.0](https://vuldb.com/?ip.23.138.116.0) | - | - | High
-915 | [23.138.121.0](https://vuldb.com/?ip.23.138.121.0) | - | - | High
-916 | [23.138.122.0](https://vuldb.com/?ip.23.138.122.0) | - | - | High
-917 | [23.138.124.0](https://vuldb.com/?ip.23.138.124.0) | - | - | High
-918 | [23.138.130.0](https://vuldb.com/?ip.23.138.130.0) | - | - | High
-919 | [23.138.132.0](https://vuldb.com/?ip.23.138.132.0) | - | - | High
-920 | [23.138.137.0](https://vuldb.com/?ip.23.138.137.0) | - | - | High
-921 | [23.138.138.0](https://vuldb.com/?ip.23.138.138.0) | - | - | High
-922 | [23.138.140.0](https://vuldb.com/?ip.23.138.140.0) | - | - | High
-923 | [23.138.145.0](https://vuldb.com/?ip.23.138.145.0) | - | - | High
-924 | [23.138.146.0](https://vuldb.com/?ip.23.138.146.0) | - | - | High
-925 | [23.138.148.0](https://vuldb.com/?ip.23.138.148.0) | - | - | High
-926 | [23.138.153.0](https://vuldb.com/?ip.23.138.153.0) | - | - | High
-927 | [23.138.154.0](https://vuldb.com/?ip.23.138.154.0) | - | - | High
-928 | [23.138.156.0](https://vuldb.com/?ip.23.138.156.0) | - | - | High
-929 | [23.138.161.0](https://vuldb.com/?ip.23.138.161.0) | - | - | High
-930 | [23.138.162.0](https://vuldb.com/?ip.23.138.162.0) | - | - | High
-931 | [23.138.164.0](https://vuldb.com/?ip.23.138.164.0) | - | - | High
-932 | [23.138.169.0](https://vuldb.com/?ip.23.138.169.0) | - | - | High
-933 | [23.138.170.0](https://vuldb.com/?ip.23.138.170.0) | - | - | High
-934 | [23.138.172.0](https://vuldb.com/?ip.23.138.172.0) | - | - | High
-935 | [23.138.177.0](https://vuldb.com/?ip.23.138.177.0) | - | - | High
-936 | [23.138.178.0](https://vuldb.com/?ip.23.138.178.0) | - | - | High
-937 | ... | ... | ... | ...
+909 | ... | ... | ... | ...
 
-There are 3744 more IOC items available. Please use our online service to access the data.
+There are 3634 more IOC items available. Please use our online service to access the data.
 
 ## References
 

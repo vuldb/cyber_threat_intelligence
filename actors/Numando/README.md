@@ -18,12 +18,16 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [20.195.196.231](https://vuldb.com/?ip.20.195.196.231) | - | - | High
 2 | [20.197.228.40](https://vuldb.com/?ip.20.197.228.40) | - | - | High
-3 | [138.91.168.205](https://vuldb.com/?ip.138.91.168.205) | - | - | High
+3 | [52.142.190.146](https://vuldb.com/?ip.52.142.190.146) | - | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/b535f3c56749c532d29440fc0a446e3d5a46c294996af8c2992273e2499222e0/
 * https://github.com/eset/malware-ioc/tree/master/numando
 
 ## Literature

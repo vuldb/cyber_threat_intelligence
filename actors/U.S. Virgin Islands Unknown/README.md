@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.u.s._virgin_islands_unknown](https://vuldb.com/?actor.u.s._virgin_islands_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with U.S. Virgin Islands Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [IR](https://vuldb.com/?country.ir)
-* ...
-
-There are 12 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of U.S. Virgin Islands Unknown.
@@ -38,45 +27,19 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [12.118.162.168](https://vuldb.com/?ip.12.118.162.168) | - | - | High
 16 | [12.118.162.176](https://vuldb.com/?ip.12.118.162.176) | - | - | High
 17 | [12.118.162.192](https://vuldb.com/?ip.12.118.162.192) | - | - | High
-18 | ... | ... | ... | ...
+18 | [12.118.163.0](https://vuldb.com/?ip.12.118.163.0) | - | - | High
+19 | [12.118.166.0](https://vuldb.com/?ip.12.118.166.0) | - | - | High
+20 | [12.174.243.0](https://vuldb.com/?ip.12.174.243.0) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 70 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _U.S. Virgin Islands Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 15 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by U.S. Virgin Islands Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/categories/view_category.php` | High
-2 | File | `/etc/config/rpcd` | High
-3 | File | `/index.php` | Medium
-4 | File | `/plesk-site-preview/` | High
-5 | File | `auth-gss2.c` | Medium
-6 | File | `cgi-bin/awstats.pl` | High
-7 | ... | ... | ...
-
-There are 43 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_vi.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_vi.netset
 
 ## Literature
 

@@ -55,7 +55,7 @@ ID | IP address | Hostname | Campaign | Confidence
 43 | [194.110.178.0](https://vuldb.com/?ip.194.110.178.0) | - | - | High
 44 | ... | ... | ... | ...
 
-There are 173 more IOC items available. Please use our online service to access the data.
+There are 171 more IOC items available. Please use our online service to access the data.
 
 ## References
 

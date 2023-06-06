@@ -139,11 +139,9 @@ ID | IP address | Hostname | Actor | Confidence
 103 | [63.250.38.195](https://vuldb.com/?ip.63.250.38.195) | business61-5.web-hosting.com | [Unknown](https://vuldb.com/?actor.unknown) | High
 104 | [63.250.38.240](https://vuldb.com/?ip.63.250.38.240) | anakmas.org | [Unknown](https://vuldb.com/?actor.unknown) | High
 105 | [63.250.47.83](https://vuldb.com/?ip.63.250.47.83) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-106 | [64.44.51.113](https://vuldb.com/?ip.64.44.51.113) | srv44.pahlmeyer.life | [Unknown](https://vuldb.com/?actor.unknown) | High
-107 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-108 | ... | ... | ... | ...
+106 | ... | ... | ... | ...
 
-There are 426 more IOC items available. Please use our online service to access the data.
+There are 421 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -154,11 +152,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -173,46 +171,42 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin-ajax.php?action=eps_redirect_save` | High
 6 | File | `/admin/assign/assign.php` | High
 7 | File | `/admin/cashadvance_row.php` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/admin/departments/view_department.php` | High
-10 | File | `/admin/employee_row.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/maintenance/view_designation.php` | High
-13 | File | `/admin/products/manage_product.php` | High
-14 | File | `/admin/suppliers/view_details.php` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/admin/user/uploadImg` | High
-18 | File | `/api/` | Low
+8 | File | `/admin/contacts/organizations/edit/2` | High
+9 | File | `/admin/curriculum/view_curriculum.php` | High
+10 | File | `/admin/departments/view_department.php` | High
+11 | File | `/admin/employee_row.php` | High
+12 | File | `/admin/login.php` | High
+13 | File | `/admin/maintenance/view_designation.php` | High
+14 | File | `/admin/products/manage_product.php` | High
+15 | File | `/admin/suppliers/view_details.php` | High
+16 | File | `/admin/transactions/track_shipment.php` | High
+17 | File | `/admin/user/manage_user.php` | High
+18 | File | `/admin/user/uploadImg` | High
 19 | File | `/api/admin/store/product/list` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/bin/login` | Medium
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/go` | Medium
+20 | File | `/api/stl/actions/search` | High
+21 | File | `/api/v2/cli/commands` | High
+22 | File | `/bin/login` | Medium
+23 | File | `/cgi-bin` | Medium
 24 | File | `/cgi-bin/kerbynet` | High
-25 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/churchcrm/EventAttendance.php` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Master.php?f=delete_item` | High
-30 | File | `/config/getuser` | High
-31 | File | `/Content/Template/root/reverse-shell.aspx` | High
-32 | File | `/debug/pprof` | Medium
-33 | File | `/forms/doLogin` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/licenses` | Medium
-36 | File | `/login/index.php` | High
-37 | File | `/mhds/clinic/view_details.php` | High
-38 | File | `/mims/login.php` | High
-39 | File | `/modules/projects/vw_files.php` | High
-40 | File | `/owa/auth/logon.aspx` | High
-41 | File | `/plain` | Low
-42 | File | `/public/launchNewWindow.jsp` | High
-43 | File | `/qsr_server/device/reboot` | High
-44 | File | `/spip.php` | Medium
-45 | ... | ... | ...
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_item` | High
+28 | File | `/config/getuser` | High
+29 | File | `/Content/Template/root/reverse-shell.aspx` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/forms/doLogin` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/licenses` | Medium
+35 | File | `/login/index.php` | High
+36 | File | `/menu.html` | Medium
+37 | File | `/mims/login.php` | High
+38 | File | `/out.php` | Medium
+39 | File | `/owa/auth/logon.aspx` | High
+40 | File | `/plain` | Low
+41 | ... | ... | ...
 
-There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 356 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -24,9 +24,10 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
 2 | [23.222.236.33](https://vuldb.com/?ip.23.222.236.33) | a23-222-236-33.deploy.static.akamaitechnologies.com | - | High
 3 | [24.201.72.161](https://vuldb.com/?ip.24.201.72.161) | modemcable161.72-201-24.mc.videotron.ca | - | High
-4 | ... | ... | ... | ...
+4 | [31.170.164.19](https://vuldb.com/?ip.31.170.164.19) | - | - | High
+5 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +37,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 2 more TTP items available. Please use our online service to access the data.
@@ -63,6 +64,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/05/threat-roundup-0430-0507.html
 * https://blog.talosintelligence.com/threat-roundup-0106-0113/
 * https://blog.talosintelligence.com/threat-roundup-0120-0127/
+* https://blog.talosintelligence.com/threat-roundup-0526-0602/
 
 ## Literature
 

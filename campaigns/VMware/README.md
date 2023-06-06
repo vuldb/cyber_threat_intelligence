@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [NL](https://vuldb.com/?country.nl)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 11 more country items available. Please use our online service to access the data.
@@ -49,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -82,24 +82,25 @@ ID | Type | Indicator | Confidence
 23 | File | `/var/log/drachtio` | High
 24 | File | `/var/log/groonga` | High
 25 | File | `/visualizza_tabelle.php` | High
-26 | File | `/wp-json/wc/v3/webhooks` | High
-27 | File | `acrord32.exe` | Medium
-28 | File | `admin.php/user/add` | High
-29 | File | `admin.php?m=Member&a=adminadd` | High
-30 | File | `admin/conf_users_edit.php` | High
-31 | File | `admin/content.php` | High
-32 | File | `admin/content/search.html` | High
-33 | File | `admin/index.php?lfj=member&action=addmember` | High
-34 | File | `admin/tool/ShowPic.php` | High
-35 | File | `admin/ueditor/uploadFile` | High
-36 | File | `adv_remotelog.asp` | High
-37 | File | `AjaxApplication.java` | High
-38 | File | `album_cat.php` | High
-39 | File | `AndroidManifest.xml` | High
-40 | File | `Annot.c` | Low
-41 | ... | ... | ...
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `/wp-json/wc/v3/webhooks` | High
+28 | File | `acrord32.exe` | Medium
+29 | File | `admin.php/user/add` | High
+30 | File | `admin.php?m=Member&a=adminadd` | High
+31 | File | `admin/conf_users_edit.php` | High
+32 | File | `admin/content.php` | High
+33 | File | `admin/content/search.html` | High
+34 | File | `admin/index.php?lfj=member&action=addmember` | High
+35 | File | `admin/tool/ShowPic.php` | High
+36 | File | `admin/ueditor/uploadFile` | High
+37 | File | `adv_remotelog.asp` | High
+38 | File | `AjaxApplication.java` | High
+39 | File | `album_cat.php` | High
+40 | File | `AndroidManifest.xml` | High
+41 | File | `Annot.c` | Low
+42 | ... | ... | ...
 
-There are 355 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

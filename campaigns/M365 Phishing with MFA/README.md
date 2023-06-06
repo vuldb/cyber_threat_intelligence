@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with M365 Phishing with MFA:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 19 more country items available. Please use our online service to access the data.
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,35 +59,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/iissamples/sdk/asp/interaction/Form_JScript.asp` | High
 5 | File | `/index.php` | Medium
 6 | File | `/iwgallery/admin/pictures_edit.asp` | High
-7 | File | `/mail/index.html` | High
-8 | File | `/okm:root` | Medium
-9 | File | `/public/plugins/` | High
-10 | File | `/replication` | Medium
-11 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
-12 | File | `/uncpath/` | Medium
-13 | File | `/uploads/dede` | High
-14 | File | `/WEB-INF/web.xml` | High
-15 | File | `AccessPoint.aspx` | High
-16 | File | `activateuser.aspx` | High
-17 | File | `AdHocQuery_Processor.aspx` | High
-18 | File | `admin.asp` | Medium
-19 | File | `admin/admin.asp` | High
-20 | File | `admin/images.aspx` | High
-21 | File | `admin/index.php` | High
-22 | File | `admin/login.asp` | High
-23 | File | `advsearch.asp` | High
-24 | File | `AEAgent.cpp` | Medium
-25 | File | `ajax.php` | Medium
-26 | File | `ajax_calls.php` | High
-27 | File | `ajax_cmd.php` | Medium
-28 | File | `allmanageup.pl` | High
-29 | File | `appfeed.c` | Medium
-30 | File | `ara.asp` | Low
-31 | File | `aspx` | Low
-32 | File | `auctionweaver.pl` | High
-33 | ... | ... | ...
+7 | File | `/lists/index.php` | High
+8 | File | `/mail/index.html` | High
+9 | File | `/okm:root` | Medium
+10 | File | `/public/plugins/` | High
+11 | File | `/replication` | Medium
+12 | File | `/TeamMate/Upload/DomainObjectDocumentUpload.ashx` | High
+13 | File | `/uncpath/` | Medium
+14 | File | `/uploads/dede` | High
+15 | File | `/WEB-INF/web.xml` | High
+16 | File | `AccessPoint.aspx` | High
+17 | File | `activateuser.aspx` | High
+18 | File | `AdHocQuery_Processor.aspx` | High
+19 | File | `admin.asp` | Medium
+20 | File | `admin/admin.asp` | High
+21 | File | `admin/images.aspx` | High
+22 | File | `admin/index.php` | High
+23 | File | `admin/login.asp` | High
+24 | File | `advsearch.asp` | High
+25 | File | `AEAgent.cpp` | Medium
+26 | File | `ajax.php` | Medium
+27 | File | `ajax_calls.php` | High
+28 | File | `ajax_cmd.php` | Medium
+29 | File | `allmanageup.pl` | High
+30 | File | `appfeed.c` | Medium
+31 | File | `ara.asp` | Low
+32 | File | `aspx` | Low
+33 | File | `auctionweaver.pl` | High
+34 | ... | ... | ...
 
-There are 286 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

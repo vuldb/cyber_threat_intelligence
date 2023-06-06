@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Jupyter:
 
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
 There are 32 more country items available. Please use our online service to access the data.
@@ -36,12 +36,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -54,60 +55,63 @@ ID | Type | Indicator | Confidence
 1 | File | `%PROGRAMDATA%\Razer\Synapse3\Service\bin` | High
 2 | File | `.../gogo/` | Medium
 3 | File | `.procmailrc` | Medium
-4 | File | `/admin/` | Low
-5 | File | `/admin/?page=system_info/contact_info` | High
-6 | File | `/admin/communitymanagement.php` | High
-7 | File | `/admin/contenttemp` | High
-8 | File | `/admin/extended` | High
-9 | File | `/admin/featured.php` | High
-10 | File | `/admin/generalsettings.php` | High
-11 | File | `/admin/login.php` | High
-12 | File | `/admin/modules/system/custom_field.php` | High
-13 | File | `/admin/newsletter1.php` | High
-14 | File | `/admin/payment.php` | High
-15 | File | `/admin/students/manage.php` | High
-16 | File | `/admin/students/view_student.php` | High
-17 | File | `/admin/usermanagement.php` | High
-18 | File | `/api/addusers` | High
-19 | File | `/api/crontab` | Medium
-20 | File | `/api/user/upsert/<uuid>` | High
-21 | File | `/api2/html/` | Medium
-22 | File | `/apiadmin/notice/add` | High
-23 | File | `/appliance/users?action=edit` | High
-24 | File | `/backup.pl` | Medium
-25 | File | `/cgi-bin/wapopen` | High
-26 | File | `/cgi-bin/wlogin.cgi` | High
-27 | File | `/cgi-mod/lookup.cgi` | High
-28 | File | `/cloud_config/router_post/register` | High
-29 | File | `/dashboard/updatelogo.php` | High
-30 | File | `/designer/add/layout` | High
-31 | File | `/etc/ldap.conf` | High
-32 | File | `/etc/shadow` | Medium
-33 | File | `/ext/phar/phar_object.c` | High
-34 | File | `/filemanager/upload/drop` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/forum/PostPrivateMessage` | High
-37 | File | `/h/calendar` | Medium
-38 | File | `/h/compose` | Medium
-39 | File | `/h/search?action=voicemail&action=listen` | High
-40 | File | `/home/cavesConsole` | High
-41 | File | `/include/chart_generator.php` | High
-42 | File | `/index.php` | Medium
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/login/index.php` | High
-45 | File | `/loginVaLidation.php` | High
-46 | File | `/manage-apartment.php` | High
-47 | File | `/manager/index.php` | High
-48 | File | `/mgmt/tm/util/bash` | High
-49 | File | `/mkshop/Men/profile.php` | High
-50 | File | `/Noxen-master/users.php` | High
-51 | File | `/opac/Actions.php?a=login` | High
-52 | File | `/owa/auth/logon.aspx` | High
-53 | File | `/p1/p2/:name` | Medium
-54 | File | `/pages/animals.php` | High
-55 | ... | ... | ...
+4 | File | `/?ajax-request=jnews` | High
+5 | File | `/admin/` | Low
+6 | File | `/admin/?page=system_info/contact_info` | High
+7 | File | `/admin/communitymanagement.php` | High
+8 | File | `/admin/contenttemp` | High
+9 | File | `/admin/edit_subject.php` | High
+10 | File | `/admin/extended` | High
+11 | File | `/admin/featured.php` | High
+12 | File | `/admin/generalsettings.php` | High
+13 | File | `/admin/login.php` | High
+14 | File | `/admin/modules/system/custom_field.php` | High
+15 | File | `/admin/newsletter1.php` | High
+16 | File | `/admin/payment.php` | High
+17 | File | `/admin/products/manage_product.php` | High
+18 | File | `/admin/students/manage.php` | High
+19 | File | `/admin/students/view_student.php` | High
+20 | File | `/admin/usermanagement.php` | High
+21 | File | `/api/addusers` | High
+22 | File | `/api/crontab` | Medium
+23 | File | `/api/user/upsert/<uuid>` | High
+24 | File | `/api2/html/` | Medium
+25 | File | `/apiadmin/notice/add` | High
+26 | File | `/appliance/users?action=edit` | High
+27 | File | `/backup.pl` | Medium
+28 | File | `/cgi-bin/wapopen` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/cgi-mod/lookup.cgi` | High
+31 | File | `/cloud_config/router_post/register` | High
+32 | File | `/dashboard/updatelogo.php` | High
+33 | File | `/designer/add/layout` | High
+34 | File | `/E-mobile/App/System/File/downfile.php` | High
+35 | File | `/edoc/doctor/patient.php` | High
+36 | File | `/etc/ldap.conf` | High
+37 | File | `/etc/shadow` | Medium
+38 | File | `/ext/phar/phar_object.c` | High
+39 | File | `/filemanager/upload/drop` | High
+40 | File | `/forum/away.php` | High
+41 | File | `/forum/PostPrivateMessage` | High
+42 | File | `/h/calendar` | Medium
+43 | File | `/h/compose` | Medium
+44 | File | `/h/search?action=voicemail&action=listen` | High
+45 | File | `/home/cavesConsole` | High
+46 | File | `/index.php` | Medium
+47 | File | `/index.php?app=main&func=passport&action=login` | High
+48 | File | `/kelasdosen/data` | High
+49 | File | `/librarian/bookdetails.php` | High
+50 | File | `/login/index.php` | High
+51 | File | `/loginVaLidation.php` | High
+52 | File | `/manage-apartment.php` | High
+53 | File | `/manager/index.php` | High
+54 | File | `/mgmt/tm/util/bash` | High
+55 | File | `/mkshop/Men/profile.php` | High
+56 | File | `/Noxen-master/users.php` | High
+57 | File | `/opac/Actions.php?a=login` | High
+58 | ... | ... | ...
 
-There are 479 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 511 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

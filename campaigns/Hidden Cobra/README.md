@@ -195,12 +195,13 @@ ID | Type | Indicator | Confidence
 15 | File | `/nova/bin/detnet` | High
 16 | File | `/out.php` | Medium
 17 | File | `/plugin` | Low
-18 | File | `/proc/pid/syscall` | High
-19 | File | `/public/launchNewWindow.jsp` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | ... | ... | ...
+18 | File | `/proc/ftxxxx-debug` | High
+19 | File | `/proc/pid/syscall` | High
+20 | File | `/public/launchNewWindow.jsp` | High
+21 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 184 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

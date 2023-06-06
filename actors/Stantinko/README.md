@@ -57,7 +57,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -92,16 +92,16 @@ ID | Type | Indicator | Confidence
 25 | File | `/tmp` | Low
 26 | File | `/user/ldap_user/add` | High
 27 | File | `/wp-admin/upload.php?page=instant-images` | High
-28 | File | `admin/article/add.html` | High
-29 | File | `admin/navbar.php?action=add_page` | High
-30 | File | `admin/plugin-settings.php` | High
-31 | File | `admin/user_import.php` | High
-32 | File | `admin/wenjian.php?wj=../templets/pc` | High
-33 | File | `administrative` | High
-34 | File | `Administrative` | High
+28 | File | `adclick.php` | Medium
+29 | File | `admin/article/add.html` | High
+30 | File | `admin/navbar.php?action=add_page` | High
+31 | File | `admin/plugin-settings.php` | High
+32 | File | `admin/user_import.php` | High
+33 | File | `admin/wenjian.php?wj=../templets/pc` | High
+34 | File | `administrative` | High
 35 | ... | ... | ...
 
-There are 298 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 304 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

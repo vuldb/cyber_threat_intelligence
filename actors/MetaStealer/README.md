@@ -4,19 +4,65 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.metastealer](https://vuldb.com/?actor.metastealer)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with MetaStealer:
+
+* [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of MetaStealer.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [193.106.191.162](https://vuldb.com/?ip.193.106.191.162) | - | - | High
+1 | [167.88.12.112](https://vuldb.com/?ip.167.88.12.112) | 112-12-88-167.reverse-dns | - | High
+2 | [185.172.129.192](https://vuldb.com/?ip.185.172.129.192) | vm2063812.firstbyte.club | - | High
+3 | [185.200.190.185](https://vuldb.com/?ip.185.200.190.185) | dablup.vpn | - | High
+4 | ... | ... | ... | ...
+
+There are 3 more IOC items available. Please use our online service to access the data.
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _MetaStealer_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1059 | CWE-94 | Cross Site Scripting | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 5 more TTP items available. Please use our online service to access the data.
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by MetaStealer. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `/index.php` | Medium
+2 | File | `/uncpath/` | Medium
+3 | File | `admin.php` | Medium
+4 | File | `admin_feature.php` | High
+5 | ... | ... | ...
+
+There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/d3da939964cbf347635dd39214d941dc4bd59c84060ae4465ee6e943bae79dc9/
 * https://isc.sans.edu/forums/diary/Windows+MetaStealer+Malware/28522/
+* https://medium.com/walmartglobaltech/metastealer-string-decryption-and-dga-overview-5f38f76830cd
+* https://threatfox.abuse.ch
 
 ## Literature
 

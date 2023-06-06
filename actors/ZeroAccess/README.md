@@ -85,7 +85,7 @@ ID | IP address | Hostname | Campaign | Confidence
 67 | [66.188.233.100](https://vuldb.com/?ip.66.188.233.100) | 066-188-233-100.res.spectrum.com | - | High
 68 | ... | ... | ... | ...
 
-There are 268 more IOC items available. Please use our online service to access the data.
+There are 267 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -93,14 +93,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,37 +107,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `//` | Low
-3 | File | `/admin/patient.php` | High
-4 | File | `/api/jmeter/download/files` | High
-5 | File | `/api/upload` | Medium
-6 | File | `/APR/login.php` | High
-7 | File | `/as/authorization.oauth2` | High
-8 | File | `/cgi-bin/luci/api/auth` | High
-9 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/DXR.axd` | Medium
-12 | File | `/filemanager/php/connector.php` | High
-13 | File | `/files/import` | High
-14 | File | `/forum/away.php` | High
-15 | File | `/librarian/bookdetails.php` | High
-16 | File | `/modules/projects/vw_files.php` | High
-17 | File | `/Moosikay/order.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/public/login.htm` | High
-20 | File | `/rukovoditel/index.php?module=users/login` | High
-21 | File | `/secure/QueryComponent!Default.jspa` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/tmp/boa-temp` | High
-24 | File | `/wp-admin/admin-ajax.php` | High
-25 | File | `/wp-admin/options.php` | High
-26 | File | `/wp-json` | Medium
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `ActBar.ocx` | Medium
-29 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/contacts/organizations/edit/2` | High
+5 | File | `/admin/edit_subject.php` | High
+6 | File | `/admin/modal_add_product.php` | High
+7 | File | `/admin/reportupload.aspx` | High
+8 | File | `/admin/service.php` | High
+9 | File | `/admin/update_s6.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/ajax.php?action=save_company` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/cas/logout` | Medium
+15 | File | `/cgi-bin/wlogin.cgi` | High
+16 | File | `/forum/away.php` | High
+17 | File | `/Login/CheckLogin` | High
+18 | File | `/menu.html` | Medium
+19 | File | `/note/index/delete` | High
+20 | ... | ... | ...
 
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

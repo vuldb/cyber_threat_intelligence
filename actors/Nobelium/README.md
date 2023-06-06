@@ -46,7 +46,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -57,26 +58,26 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/functions.php` | High
-2 | File | `/cgi-bin/webadminget.cgi` | High
-3 | File | `/dashboard/updatelogo.php` | High
-4 | File | `/etc/networkd-dispatcher` | High
-5 | File | `/etc/openshift/server_priv.pem` | High
-6 | File | `/etc/shadow.sample` | High
-7 | File | `/guest_auth/cfg/upLoadCfg.php` | High
-8 | File | `/index.php` | Medium
-9 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
-10 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-11 | File | `/mkshop/Men/profile.php` | High
-12 | File | `/notice-edit.php` | High
-13 | File | `/Noxen-master/users.php` | High
-14 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-15 | File | `/public/login.htm` | High
-16 | File | `/start_apply.htm` | High
-17 | File | `/uncpath/` | Medium
-18 | File | `/upload` | Low
+2 | File | `/admin/user/manage_user.php` | High
+3 | File | `/cgi-bin/webadminget.cgi` | High
+4 | File | `/dashboard/updatelogo.php` | High
+5 | File | `/etc/networkd-dispatcher` | High
+6 | File | `/etc/openshift/server_priv.pem` | High
+7 | File | `/etc/shadow.sample` | High
+8 | File | `/guest_auth/cfg/upLoadCfg.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/Interface/DevManage/EC.php?cmd=upload` | High
+11 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+12 | File | `/mkshop/Men/profile.php` | High
+13 | File | `/notice-edit.php` | High
+14 | File | `/Noxen-master/users.php` | High
+15 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
+16 | File | `/public/login.htm` | High
+17 | File | `/start_apply.htm` | High
+18 | File | `/uncpath/` | Medium
 19 | ... | ... | ...
 
-There are 156 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 159 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

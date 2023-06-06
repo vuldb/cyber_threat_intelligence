@@ -63,21 +63,22 @@ ID | Type | Indicator | Confidence
 6 | File | `/modules/profile/index.php` | High
 7 | File | `/news.dtl.php` | High
 8 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-9 | File | `/ptms/?page=user` | High
-10 | File | `/sqfs/bin/sccd` | High
-11 | File | `/tmp` | Low
-12 | File | `/uncpath/` | Medium
-13 | File | `/upload/file.php` | High
-14 | File | `/usr/bin/at` | Medium
-15 | File | `/usr/local/www/pkg.php` | High
-16 | File | `/wp-admin/admin-ajax.php` | High
-17 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-18 | File | `5.2.9\syscrb.exe` | High
-19 | File | `admin.cgi` | Medium
-20 | File | `admin/cal_login.php` | High
-21 | ... | ... | ...
+9 | File | `/out.php` | Medium
+10 | File | `/ptms/?page=user` | High
+11 | File | `/sqfs/bin/sccd` | High
+12 | File | `/tmp` | Low
+13 | File | `/uncpath/` | Medium
+14 | File | `/upload/file.php` | High
+15 | File | `/usr/bin/at` | Medium
+16 | File | `/usr/local/www/pkg.php` | High
+17 | File | `/wp-admin/admin-ajax.php` | High
+18 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+19 | File | `5.2.9\syscrb.exe` | High
+20 | File | `admin.cgi` | Medium
+21 | File | `admin/cal_login.php` | High
+22 | ... | ... | ...
 
-There are 177 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 186 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

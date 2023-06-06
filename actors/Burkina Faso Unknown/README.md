@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.burkina_faso_unknown](https://vuldb.com/?actor.burkina_faso_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Burkina Faso Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
-* [ES](https://vuldb.com/?country.es)
-* ...
-
-There are 16 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Burkina Faso Unknown.
@@ -31,70 +20,31 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.12.70.21](https://vuldb.com/?ip.45.12.70.21) | entail-face.get-eye.com | - | High
 9 | [45.12.71.21](https://vuldb.com/?ip.45.12.71.21) | - | - | High
 10 | [57.82.96.0](https://vuldb.com/?ip.57.82.96.0) | - | - | High
-11 | [57.82.104.0](https://vuldb.com/?ip.57.82.104.0) | - | - | High
-12 | [57.82.152.0](https://vuldb.com/?ip.57.82.152.0) | - | - | High
-13 | ... | ... | ... | ...
+11 | [57.82.100.0](https://vuldb.com/?ip.57.82.100.0) | - | - | High
+12 | [57.82.104.0](https://vuldb.com/?ip.57.82.104.0) | - | - | High
+13 | [57.82.152.0](https://vuldb.com/?ip.57.82.152.0) | - | - | High
+14 | [66.102.42.0](https://vuldb.com/?ip.66.102.42.0) | - | - | High
+15 | [77.70.134.0](https://vuldb.com/?ip.77.70.134.0) | - | - | High
+16 | [83.229.56.0](https://vuldb.com/?ip.83.229.56.0) | - | - | High
+17 | [84.254.138.0](https://vuldb.com/?ip.84.254.138.0) | 84-254-138-0.ip.skylogicnet.com | - | High
+18 | [88.202.53.0](https://vuldb.com/?ip.88.202.53.0) | 88-202-53-0.ip.skylogicnet.com | - | High
+19 | [102.23.0.0](https://vuldb.com/?ip.102.23.0.0) | - | - | High
+20 | [102.36.164.0](https://vuldb.com/?ip.102.36.164.0) | - | - | High
+21 | [102.64.104.0](https://vuldb.com/?ip.102.64.104.0) | - | - | High
+22 | [102.67.96.0](https://vuldb.com/?ip.102.67.96.0) | - | - | High
+23 | [102.67.96.16](https://vuldb.com/?ip.102.67.96.16) | ce3-2065.bb1.abj1.vts.bf | - | High
+24 | [102.67.96.18](https://vuldb.com/?ip.102.67.96.18) | - | - | High
+25 | [102.67.96.20](https://vuldb.com/?ip.102.67.96.20) | - | - | High
+26 | [102.67.96.25](https://vuldb.com/?ip.102.67.96.25) | et-0-0-1-2034.bb2.lis1.vts.bf | - | High
+27 | [102.67.96.29](https://vuldb.com/?ip.102.67.96.29) | ce1-2050.bb1.dak1.vts.bf | - | High
+28 | [102.67.96.32](https://vuldb.com/?ip.102.67.96.32) | ce1-2051.bb1.dak1.vts.bf | - | High
+29 | [102.67.96.45](https://vuldb.com/?ip.102.67.96.45) | ce4-2022.bb1.oua1.vts.bf | - | High
+30 | [102.67.96.48](https://vuldb.com/?ip.102.67.96.48) | - | - | High
+31 | [102.67.96.64](https://vuldb.com/?ip.102.67.96.64) | - | - | High
+32 | [102.67.96.92](https://vuldb.com/?ip.102.67.96.92) | - | - | High
+33 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Burkina Faso Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 14 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Burkina Faso Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/lab.php` | High
-6 | File | `/admin/payment.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/default.php?idx=17` | High
-9 | File | `/download` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/nova/bin/traceroute` | High
-13 | File | `/opt/bin/cli` | Medium
-14 | File | `/p` | Low
-15 | File | `/patient/doctors.php` | High
-16 | File | `/phpinventory/editcategory.php` | High
-17 | File | `/product-list.php` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/updown/upload.cgi` | High
-21 | File | `/user/del.php` | High
-22 | File | `/_next` | Low
-23 | File | `123flashchat.php` | High
-24 | File | `act.php` | Low
-25 | File | `admin/bad.php` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/index.php/user/del/1` | High
-28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-29 | File | `administrator/index.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `album_portal.php` | High
-32 | File | `api.php` | Low
-33 | File | `application/home/controller/debug.php` | High
-34 | File | `articulo.php` | Medium
-35 | File | `author.control.php` | High
-36 | ... | ... | ...
-
-There are 307 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +52,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bf.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bf.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bf.netset
 
 ## Literature
 

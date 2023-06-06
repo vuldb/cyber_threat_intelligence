@@ -25,10 +25,12 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.79.71.225](https://vuldb.com/?ip.5.79.71.225) | - | - | High
 3 | [18.213.250.117](https://vuldb.com/?ip.18.213.250.117) | ec2-18-213-250-117.compute-1.amazonaws.com | - | Medium
 4 | [18.215.128.143](https://vuldb.com/?ip.18.215.128.143) | ec2-18-215-128-143.compute-1.amazonaws.com | - | Medium
-5 | [35.234.136.13](https://vuldb.com/?ip.35.234.136.13) | 13.136.234.35.bc.googleusercontent.com | - | Medium
-6 | ... | ... | ... | ...
+5 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+6 | [35.234.136.13](https://vuldb.com/?ip.35.234.136.13) | 13.136.234.35.bc.googleusercontent.com | - | Medium
+7 | [46.165.220.145](https://vuldb.com/?ip.46.165.220.145) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,7 +68,7 @@ ID | Type | Indicator | Confidence
 14 | File | `cgi.rb` | Low
 15 | ... | ... | ...
 
-There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 118 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -75,6 +77,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2019/10/threat-roundup-for-september-27-to.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2022/07/threat-roundup-for-july-22-29.html
+* https://blog.talosintelligence.com/threat-roundup-0526-0602/
 
 ## Literature
 

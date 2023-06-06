@@ -39,7 +39,7 @@ ID | IP address | Hostname | Actor | Confidence
 3 | [46.29.166.105](https://vuldb.com/?ip.46.29.166.105) | - | [Mirai](https://vuldb.com/?actor.mirai) | High
 4 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -150,9 +150,10 @@ ID | Type | Indicator | Confidence
 87 | File | `bwlist_inc.html` | High
 88 | File | `calendar.php` | Medium
 89 | File | `calenderServer.cpp` | High
-90 | ... | ... | ...
+90 | File | `callme_page.php` | High
+91 | ... | ... | ...
 
-There are 798 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 799 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

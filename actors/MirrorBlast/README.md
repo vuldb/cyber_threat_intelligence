@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,26 +52,28 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/sysmon.php` | High
 2 | File | `/api/content/posts/comments` | High
 3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-5 | File | `/Home/GetAttachment` | High
-6 | File | `/html/device-id` | High
-7 | File | `/html/devstat.html` | High
-8 | File | `/html/repository` | High
-9 | File | `/index.php` | Medium
-10 | File | `/members/view_member.php` | High
-11 | File | `/modules/projects/vw_files.php` | High
-12 | File | `/nova/bin/console` | High
-13 | File | `/owa/auth/logon.aspx` | High
-14 | File | `/rapi/read_url` | High
-15 | File | `/services/config/config.xml` | High
-16 | File | `/services/system/setup.json` | High
-17 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/WEB-INF/web.xml` | High
-20 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-21 | ... | ... | ...
+4 | File | `/apply.cgi` | Medium
+5 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+6 | File | `/debug/pprof` | Medium
+7 | File | `/Home/GetAttachment` | High
+8 | File | `/html/device-id` | High
+9 | File | `/html/devstat.html` | High
+10 | File | `/html/repository` | High
+11 | File | `/index.php` | Medium
+12 | File | `/members/view_member.php` | High
+13 | File | `/modules/projects/vw_files.php` | High
+14 | File | `/nova/bin/console` | High
+15 | File | `/owa/auth/logon.aspx` | High
+16 | File | `/rapi/read_url` | High
+17 | File | `/services/config/config.xml` | High
+18 | File | `/services/system/setup.json` | High
+19 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/WEB-INF/web.xml` | High
+22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+23 | ... | ... | ...
 
-There are 176 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 190 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -79,9 +79,10 @@ ID | Type | Indicator | Confidence
 25 | File | `/RestAPI` | Medium
 26 | File | `/tmp/zarafa-vacation-*` | High
 27 | File | `/uncpath/` | Medium
-28 | ... | ... | ...
+28 | File | `/upload` | Low
+29 | ... | ... | ...
 
-There are 234 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 242 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

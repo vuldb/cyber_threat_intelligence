@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,12 +27,17 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [41.79.196.0](https://vuldb.com/?ip.41.79.196.0) | - | - | High
 5 | [41.189.228.0](https://vuldb.com/?ip.41.189.228.0) | - | - | High
 6 | [41.223.108.0](https://vuldb.com/?ip.41.223.108.0) | - | - | High
-7 | [45.12.70.207](https://vuldb.com/?ip.45.12.70.207) | airless.globalhilive.com | - | High
-8 | [45.12.71.207](https://vuldb.com/?ip.45.12.71.207) | - | - | High
-9 | [45.42.233.0](https://vuldb.com/?ip.45.42.233.0) | - | - | High
-10 | ... | ... | ... | ...
+7 | [41.223.110.0](https://vuldb.com/?ip.41.223.110.0) | - | - | High
+8 | [41.223.111.0](https://vuldb.com/?ip.41.223.111.0) | - | - | High
+9 | [45.12.70.207](https://vuldb.com/?ip.45.12.70.207) | airless.globalhilive.com | - | High
+10 | [45.12.71.207](https://vuldb.com/?ip.45.12.71.207) | - | - | High
+11 | [45.42.233.0](https://vuldb.com/?ip.45.42.233.0) | - | - | High
+12 | [45.61.45.128](https://vuldb.com/?ip.45.61.45.128) | - | - | High
+13 | [57.84.192.0](https://vuldb.com/?ip.57.84.192.0) | - | - | High
+14 | [66.96.123.0](https://vuldb.com/?ip.66.96.123.0) | - | - | High
+15 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 55 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,41 +62,45 @@ ID | Type | Indicator | Confidence
 2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
 3 | File | `/admin/addemployee.php` | High
 4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/php_action/createUser.php` | High
-14 | File | `/see_more_details.php` | High
-15 | File | `/services/details.asp` | High
-16 | File | `/setup` | Low
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/var/log/nginx` | High
-20 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-21 | File | `/wabt/bin/poc.wasm` | High
-22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-23 | File | `act.php` | Low
-24 | File | `adclick.php` | Medium
-25 | File | `admin` | Low
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminsignin.html` | High
-28 | File | `admin/movieview.php` | High
-29 | File | `admin/versions.html` | High
-30 | File | `ajax_calls.php` | High
-31 | ... | ... | ...
+5 | File | `/advanced-tools/nova/bin/netwatch` | High
+6 | File | `/apilog.php` | Medium
+7 | File | `/appliance/users?action=edit` | High
+8 | File | `/filemanager/upload.php` | High
+9 | File | `/forum/away.php` | High
+10 | File | `/if.cgi` | Low
+11 | File | `/mifs/c/i/reg/reg.html` | High
+12 | File | `/modules/profile/index.php` | High
+13 | File | `/news.dtl.php` | High
+14 | File | `/php_action/createUser.php` | High
+15 | File | `/see_more_details.php` | High
+16 | File | `/services/details.asp` | High
+17 | File | `/setup` | Low
+18 | File | `/spip.php` | Medium
+19 | File | `/uncpath/` | Medium
+20 | File | `/var/log/nginx` | High
+21 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+22 | File | `/wabt/bin/poc.wasm` | High
+23 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+24 | File | `act.php` | Low
+25 | File | `adclick.php` | Medium
+26 | File | `add_comment.php` | High
+27 | File | `admin` | Low
+28 | File | `admin.php` | Medium
+29 | File | `admin/adminsignin.html` | High
+30 | File | `admin/movieview.php` | High
+31 | File | `admin/versions.html` | High
+32 | File | `ajax_calls.php` | High
+33 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 279 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_so.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_so.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_so.netset
 
 ## Literature
 

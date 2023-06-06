@@ -511,12 +511,9 @@ ID | IP address | Hostname | Campaign | Confidence
 481 | [6.2.4.2](https://vuldb.com/?ip.6.2.4.2) | - | - | High
 482 | [6.2.4.27](https://vuldb.com/?ip.6.2.4.27) | - | - | High
 483 | [6.2.5.2](https://vuldb.com/?ip.6.2.5.2) | - | - | High
-484 | [6.2.16.1](https://vuldb.com/?ip.6.2.16.1) | - | - | High
-485 | [6.2.18.1](https://vuldb.com/?ip.6.2.18.1) | - | - | High
-486 | [6.2.39.1](https://vuldb.com/?ip.6.2.39.1) | - | - | High
-487 | ... | ... | ... | ...
+484 | ... | ... | ... | ...
 
-There are 1943 more IOC items available. Please use our online service to access the data.
+There are 1930 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -524,7 +521,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -554,40 +551,42 @@ ID | Type | Indicator | Confidence
 12 | File | `/alphaware/summary.php` | High
 13 | File | `/api/` | Low
 14 | File | `/api/admin/store/product/list` | High
-15 | File | `/api/v2/cli/commands` | High
-16 | File | `/appliance/users?action=edit` | High
-17 | File | `/apply.cgi` | Medium
-18 | File | `/attachments` | Medium
-19 | File | `/backup.pl` | Medium
-20 | File | `/boat/login.php` | High
-21 | File | `/bsms_ci/index.php/book` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/debug/pprof` | Medium
-24 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-25 | File | `/edoc/doctor/patient.php` | High
-26 | File | `/etc/hosts` | Medium
-27 | File | `/etc/ldap.conf` | High
-28 | File | `/etc/quagga` | Medium
-29 | File | `/etc/shadow` | Medium
-30 | File | `/event/admin/?page=user/list` | High
-31 | File | `/forms/doLogin` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/hardware` | Medium
-34 | File | `/index.php` | Medium
-35 | File | `/medicines/profile.php` | High
-36 | File | `/out.php` | Medium
-37 | File | `/php-scrm/login.php` | High
-38 | File | `/proxy` | Low
-39 | File | `/reservation/add_message.php` | High
-40 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-41 | File | `/rom-0` | Low
-42 | File | `/Session` | Medium
-43 | File | `/spip.php` | Medium
-44 | File | `/tmp` | Low
-45 | File | `/user/loader.php?api=1` | High
-46 | ... | ... | ...
+15 | File | `/api/stl/actions/search` | High
+16 | File | `/api/v2/cli/commands` | High
+17 | File | `/appliance/users?action=edit` | High
+18 | File | `/apply.cgi` | Medium
+19 | File | `/attachments` | Medium
+20 | File | `/backup.pl` | Medium
+21 | File | `/boat/login.php` | High
+22 | File | `/bsms_ci/index.php/book` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+27 | File | `/E-mobile/App/System/File/downfile.php` | High
+28 | File | `/edoc/doctor/patient.php` | High
+29 | File | `/etc/hosts` | Medium
+30 | File | `/etc/ldap.conf` | High
+31 | File | `/etc/quagga` | Medium
+32 | File | `/etc/shadow` | Medium
+33 | File | `/forms/doLogin` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/hardware` | Medium
+36 | File | `/index.php` | Medium
+37 | File | `/index.php?app=main&func=passport&action=login` | High
+38 | File | `/lan.asp` | Medium
+39 | File | `/medicines/profile.php` | High
+40 | File | `/osm/REGISTER.cmd` | High
+41 | File | `/out.php` | Medium
+42 | File | `/php-scrm/login.php` | High
+43 | File | `/reservation/add_message.php` | High
+44 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+45 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+46 | File | `/rom-0` | Low
+47 | File | `/Session` | Medium
+48 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 415 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

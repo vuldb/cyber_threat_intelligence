@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.reverserat](https://vuldb.com/?actor.reverserat)
 
+## Countries
+
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ReverseRAT:
+
+* [US](https://vuldb.com/?country.us)
+
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of ReverseRAT.
@@ -12,12 +18,33 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [161.97.90.175](https://vuldb.com/?ip.161.97.90.175) | vmi669652.contaboserver.net | - | High
 2 | [173.249.50.230](https://vuldb.com/?ip.173.249.50.230) | vmi626137.contaboserver.net | - | High
+3 | [185.174.102.54](https://vuldb.com/?ip.185.174.102.54) | 185.174.102.54.deltahost-ptr | - | High
+
+## TTP - Tactics, Techniques, Procedures
+
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _ReverseRAT_. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Technique | Weakness | Description | Confidence
+-- | --------- | -------- | ----------- | ----------
+1 | T1505 | CWE-89 | SQL Injection | High
+2 | T1592 | CWE-200 | Configuration | High
+
+## IOA - Indicator of Attack
+
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by ReverseRAT. This data is unique as it uses our predictive model for actor profiling.
+
+ID | Type | Indicator | Confidence
+-- | ---- | --------- | ----------
+1 | File | `data/gbconfiguration.dat` | High
+2 | File | `redir.asp` | Medium
+3 | Argument | `password` | Medium
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://s3.amazonaws.com/talos-intelligence-site/production/document_files/files/000/095/594/original/Network_IOCs_list_for_coverage.txt?1625657479
+* https://twitter.com/souiten/status/1620629752863404032
 
 ## Literature
 

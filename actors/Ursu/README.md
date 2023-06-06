@@ -26,9 +26,14 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [14.11.5.18](https://vuldb.com/?ip.14.11.5.18) | M014011005018.v4.enabler.ne.jp | - | High
 4 | [15.11.35.18](https://vuldb.com/?ip.15.11.35.18) | - | - | High
 5 | [23.3.13.88](https://vuldb.com/?ip.23.3.13.88) | a23-3-13-88.deploy.static.akamaitechnologies.com | - | High
-6 | ... | ... | ... | ...
+6 | [27.254.66.8](https://vuldb.com/?ip.27.254.66.8) | asn4.hostneverdie.com | - | High
+7 | [34.117.237.239](https://vuldb.com/?ip.34.117.237.239) | 239.237.117.34.bc.googleusercontent.com | - | Medium
+8 | [35.162.37.28](https://vuldb.com/?ip.35.162.37.28) | ec2-35-162-37-28.us-west-2.compute.amazonaws.com | - | Medium
+9 | [44.230.33.128](https://vuldb.com/?ip.44.230.33.128) | ec2-44-230-33-128.us-west-2.compute.amazonaws.com | - | Medium
+10 | [44.236.48.31](https://vuldb.com/?ip.44.236.48.31) | ec2-44-236-48-31.us-west-2.compute.amazonaws.com | - | Medium
+11 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -38,10 +43,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-269 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,7 +59,7 @@ ID | Type | Indicator | Confidence
 3 | File | `/start_apply.htm` | High
 4 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 19 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -68,6 +73,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/12/threat-roundup-1203-1210.html
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0513-0520.html
 * https://blog.talosintelligence.com/2022/06/threat-roundup-0610-0617.html
+* https://blog.talosintelligence.com/threat-roundup-0310-0317/
 
 ## Literature
 

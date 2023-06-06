@@ -38,10 +38,10 @@ ID | IP address | Hostname | Actor | Confidence
 5 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | [Azorult](https://vuldb.com/?actor.azorult) | High
 6 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | [Azorult](https://vuldb.com/?actor.azorult) | High
 7 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | [Azorult](https://vuldb.com/?actor.azorult) | High
-8 | [67.199.248.10](https://vuldb.com/?ip.67.199.248.10) | bit.ly | [Azorult](https://vuldb.com/?actor.azorult) | High
+8 | [66.151.174.10](https://vuldb.com/?ip.66.151.174.10) | da1.hosteons.com | [Azorult](https://vuldb.com/?actor.azorult) | High
 9 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,7 +89,7 @@ ID | Type | Indicator | Confidence
 23 | File | `actions/ChangeConfiguration.html` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -102,6 +102,9 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://cert.gov.ua/article/2806
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
 * https://research.checkpoint.com/2018/new-ramnit-campaign-spreads-azorult-malware/
+* https://threatfox.abuse.ch
+* https://tria.ge/220314-ymactadghk
+* https://tria.ge/220602-c7n6tagcgn
 
 ## Literature
 

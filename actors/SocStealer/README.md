@@ -43,12 +43,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `inc/filebrowser/browser.php` | High
-2 | File | `index.php` | Medium
-3 | Argument | `file` | Low
+1 | File | `/bin/httpd` | Medium
+2 | File | `inc/filebrowser/browser.php` | High
+3 | File | `index.php` | Medium
 4 | ... | ... | ...
 
-There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [118.193.153.221](https://vuldb.com/?ip.118.193.153.221) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

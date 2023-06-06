@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Maldives Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [GB](https://vuldb.com/?country.gb)
 * [ES](https://vuldb.com/?country.es)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 21 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,9 +31,12 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [45.12.71.156](https://vuldb.com/?ip.45.12.71.156) | - | - | High
 9 | [45.42.136.0](https://vuldb.com/?ip.45.42.136.0) | - | - | High
 10 | [45.61.40.0](https://vuldb.com/?ip.45.61.40.0) | - | - | High
-11 | ... | ... | ... | ...
+11 | [45.254.246.0](https://vuldb.com/?ip.45.254.246.0) | - | - | High
+12 | [46.244.29.144](https://vuldb.com/?ip.46.244.29.144) | - | - | High
+13 | [57.72.90.0](https://vuldb.com/?ip.57.72.90.0) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 50 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -74,32 +77,36 @@ ID | Type | Indicator | Confidence
 17 | File | `/patient/doctors.php` | High
 18 | File | `/phpinventory/editcategory.php` | High
 19 | File | `/spip.php` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/updater.php` | Medium
-22 | File | `/var/log/nginx` | High
-23 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-24 | File | `admin` | Low
-25 | File | `admin.php` | Medium
-26 | File | `admin/adminsignin.html` | High
-27 | File | `admin/bad.php` | High
-28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-29 | File | `admin/keyWord_deal.php?mudi=add` | High
-30 | File | `admin/loginform.php` | High
-31 | File | `admin/movieview.php` | High
-32 | File | `admin/versions.html` | High
-33 | File | `administrator/components/com_media/helpers/media.php` | High
-34 | File | `administrator/index.php` | High
-35 | File | `administrator/mail/download.cfm` | High
-36 | File | `AdminUpdateController.class.php` | High
-37 | ... | ... | ...
+20 | File | `/tmp` | Low
+21 | File | `/uncpath/` | Medium
+22 | File | `/updater.php` | Medium
+23 | File | `/var/log/nginx` | High
+24 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
+25 | File | `admin` | Low
+26 | File | `admin.php` | Medium
+27 | File | `admin/adminsignin.html` | High
+28 | File | `admin/bad.php` | High
+29 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+30 | File | `admin/keyWord_deal.php?mudi=add` | High
+31 | File | `admin/loginform.php` | High
+32 | File | `admin/movieview.php` | High
+33 | File | `admin/versions.html` | High
+34 | File | `AdminByRequest.exe` | High
+35 | File | `administrator/components/com_media/helpers/media.php` | High
+36 | File | `administrator/index.php` | High
+37 | File | `administrator/mail/download.cfm` | High
+38 | File | `AdminUpdateController.class.php` | High
+39 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 334 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_mv.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_mv.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_mv.netset
 
 ## Literature
 

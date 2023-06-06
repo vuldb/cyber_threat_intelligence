@@ -9,8 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mispadu:
 
 * [US](https://vuldb.com/?country.us)
+* [IR](https://vuldb.com/?country.ir)
 * [IN](https://vuldb.com/?country.in)
-* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 

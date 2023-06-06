@@ -19,15 +19,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [41.72.224.0](https://vuldb.com/?ip.41.72.224.0) | - | - | High
-2 | [41.78.240.0](https://vuldb.com/?ip.41.78.240.0) | - | - | High
-3 | [41.158.0.0](https://vuldb.com/?ip.41.158.0.0) | - | - | High
-4 | [41.211.128.0](https://vuldb.com/?ip.41.211.128.0) | - | - | High
-5 | [41.223.168.0](https://vuldb.com/?ip.41.223.168.0) | - | - | High
-6 | [57.82.62.0](https://vuldb.com/?ip.57.82.62.0) | - | - | High
-7 | [84.254.156.0](https://vuldb.com/?ip.84.254.156.0) | 84-254-156-0.ip.skylogicnet.com | - | High
-8 | ... | ... | ... | ...
+2 | [41.76.120.0](https://vuldb.com/?ip.41.76.120.0) | - | - | High
+3 | [41.77.120.0](https://vuldb.com/?ip.41.77.120.0) | - | - | High
+4 | [41.78.96.0](https://vuldb.com/?ip.41.78.96.0) | - | - | High
+5 | [41.78.240.0](https://vuldb.com/?ip.41.78.240.0) | - | - | High
+6 | [41.158.0.0](https://vuldb.com/?ip.41.158.0.0) | - | - | High
+7 | [41.211.128.0](https://vuldb.com/?ip.41.211.128.0) | - | - | High
+8 | [41.223.168.0](https://vuldb.com/?ip.41.223.168.0) | - | - | High
+9 | [57.82.62.0](https://vuldb.com/?ip.57.82.62.0) | - | - | High
+10 | [66.102.36.64](https://vuldb.com/?ip.66.102.36.64) | - | - | High
+11 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 39 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,7 +39,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 3 | T1078.001 | CWE-259 | Use of Hard-coded Password | High
 4 | ... | ... | ... | ...
 
@@ -60,6 +63,7 @@ There are 4 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ga.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ga.netset
 
 ## Literature
 

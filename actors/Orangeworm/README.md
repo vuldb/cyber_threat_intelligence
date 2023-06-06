@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Orangeworm:
 
 * [VN](https://vuldb.com/?country.vn)
+* [FR](https://vuldb.com/?country.fr)
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
@@ -43,40 +44,41 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.htpasswd` | Medium
-2 | File | `//etc/RT2870STA.dat` | High
-3 | File | `/api/user/{ID}` | High
-4 | File | `/bin/proc.cgi` | High
-5 | File | `/cgi-bin/login_action.cgi` | High
-6 | File | `/data/vendor/tcl` | High
-7 | File | `/download` | Medium
-8 | File | `/etc/tomcat8/Catalina/attack` | High
-9 | File | `/files.md5` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/getcfg.php` | Medium
-12 | File | `/modules/profile/index.php` | High
-13 | File | `/modules/registration_admission/patient_register.php` | High
-14 | File | `/news.dtl.php` | High
-15 | File | `/public/plugins/` | High
-16 | File | `/rapi/read_url` | High
-17 | File | `/rest/api/2/user/picker` | High
-18 | File | `/sbin/acos_service` | High
-19 | File | `/scripts/iisadmin/bdir.htr` | High
-20 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-21 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
-22 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-23 | File | `/uncpath/` | Medium
-24 | File | `/usr/bin/pkexec` | High
-25 | File | `/ViewUserHover.jspa` | High
-26 | File | `/WEB-INF/web.xml` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `/wp-json/oembed/1.0/embed?url` | High
-29 | File | `/www/cgi-bin/popen.cgi` | High
-30 | File | `5.2.9\syscrb.exe` | High
-31 | File | `ad.cgi` | Low
-32 | ... | ... | ...
+1 | File | `.htaccess` | Medium
+2 | File | `/.htpasswd` | Medium
+3 | File | `//etc/RT2870STA.dat` | High
+4 | File | `/api/user/{ID}` | High
+5 | File | `/bin/proc.cgi` | High
+6 | File | `/CFIDE/probe.cfm` | High
+7 | File | `/cgi-bin/login_action.cgi` | High
+8 | File | `/data/vendor/tcl` | High
+9 | File | `/download` | Medium
+10 | File | `/etc/tomcat8/Catalina/attack` | High
+11 | File | `/files.md5` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/getcfg.php` | Medium
+14 | File | `/modules/profile/index.php` | High
+15 | File | `/modules/registration_admission/patient_register.php` | High
+16 | File | `/news.dtl.php` | High
+17 | File | `/public/plugins/` | High
+18 | File | `/rapi/read_url` | High
+19 | File | `/rest/api/2/user/picker` | High
+20 | File | `/sbin/acos_service` | High
+21 | File | `/scripts/iisadmin/bdir.htr` | High
+22 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/squashfs-root/www/HNAP1/control/SetWizardConfig.php` | High
+24 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+25 | File | `/uncpath/` | Medium
+26 | File | `/usr/bin/pkexec` | High
+27 | File | `/ViewUserHover.jspa` | High
+28 | File | `/WEB-INF/web.xml` | High
+29 | File | `/wp-admin/admin-ajax.php` | High
+30 | File | `/wp-json/oembed/1.0/embed?url` | High
+31 | File | `/www/cgi-bin/popen.cgi` | High
+32 | File | `5.2.9\syscrb.exe` | High
+33 | ... | ... | ...
 
-There are 269 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 283 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

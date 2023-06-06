@@ -52,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -65,49 +65,46 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/maintenance/view_designation.php` | High
 4 | File | `/admin/news/news_ok.php` | High
 5 | File | `/api/plugin/uninstall` | High
-6 | File | `/bcms/admin/?page=user/list` | High
-7 | File | `/bin/boa` | Medium
-8 | File | `/card_scan.php` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/config/getuser` | High
-11 | File | `/cwc/login` | Medium
-12 | File | `/de/cgi/dfs_guest/` | High
-13 | File | `/debug/pprof` | Medium
-14 | File | `/download` | Medium
-15 | File | `/etc/gsissh/sshd_config` | High
-16 | File | `/etc/passwd` | Medium
-17 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-18 | File | `/etc/quagga` | Medium
-19 | File | `/etc/quantum/quantum.conf` | High
-20 | File | `/etc/shadow` | Medium
-21 | File | `/forum/away.php` | High
-22 | File | `/getcfg.php` | Medium
-23 | File | `/goform/telnet` | High
-24 | File | `/goform/WanParameterSetting` | High
-25 | File | `/h/calendar` | Medium
-26 | File | `/home/cavesConsole` | High
-27 | File | `/hrm/employeeadd.php` | High
-28 | File | `/inc/extensions.php` | High
-29 | File | `/include/makecvs.php` | High
-30 | File | `/js/app.js` | Medium
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/modules/profile/index.php` | High
-33 | File | `/modules/tasks/summary.inc.php` | High
-34 | File | `/monitoring` | Medium
-35 | File | `/nova/bin/console` | High
-36 | File | `/nova/bin/detnet` | High
-37 | File | `/out.php` | Medium
-38 | File | `/payu/icpcheckout/` | High
-39 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-40 | File | `/property-list/property_view.php` | High
-41 | File | `/public/login.htm` | High
-42 | File | `/req_password_user.php` | High
-43 | File | `/rest/project-templates/1.0/createshared` | High
-44 | File | `/rom-0` | Low
-45 | File | `/secure/QueryComponent!Default.jspa` | High
-46 | ... | ... | ...
+6 | File | `/api /v3/auth` | High
+7 | File | `/bcms/admin/?page=user/list` | High
+8 | File | `/bin/boa` | Medium
+9 | File | `/card_scan.php` | High
+10 | File | `/cgi-bin/wlogin.cgi` | High
+11 | File | `/config/getuser` | High
+12 | File | `/cwc/login` | Medium
+13 | File | `/de/cgi/dfs_guest/` | High
+14 | File | `/debug/pprof` | Medium
+15 | File | `/download` | Medium
+16 | File | `/etc/gsissh/sshd_config` | High
+17 | File | `/etc/passwd` | Medium
+18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+19 | File | `/etc/quagga` | Medium
+20 | File | `/etc/quantum/quantum.conf` | High
+21 | File | `/etc/shadow` | Medium
+22 | File | `/forms/doLogin` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/getcfg.php` | Medium
+25 | File | `/goform/telnet` | High
+26 | File | `/goform/WanParameterSetting` | High
+27 | File | `/h/calendar` | Medium
+28 | File | `/home/cavesConsole` | High
+29 | File | `/hrm/employeeadd.php` | High
+30 | File | `/inc/extensions.php` | High
+31 | File | `/include/makecvs.php` | High
+32 | File | `/js/app.js` | Medium
+33 | File | `/mgmt/tm/util/bash` | High
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/modules/tasks/summary.inc.php` | High
+36 | File | `/monitoring` | Medium
+37 | File | `/nova/bin/console` | High
+38 | File | `/nova/bin/detnet` | High
+39 | File | `/out.php` | Medium
+40 | File | `/payu/icpcheckout/` | High
+41 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+42 | File | `/property-list/property_view.php` | High
+43 | ... | ... | ...
 
-There are 399 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

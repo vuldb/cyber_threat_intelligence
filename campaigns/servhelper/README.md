@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with servhelper:
 
 * [US](https://vuldb.com/?country.us)
-* [AT](https://vuldb.com/?country.at)
 * [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with servhelper or other actors linked to the camp
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [TA505](https://vuldb.com/?actor.ta505) | High
+2 | [ServHelper](https://vuldb.com/?actor.servhelper) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.63.101.210](https://vuldb.com/?ip.45.63.101.210) | 45.63.101.210.vultr.com | [TA505](https://vuldb.com/?actor.ta505) | Medium
-2 | [46.161.27.241](https://vuldb.com/?ip.46.161.27.241) | - | [TA505](https://vuldb.com/?actor.ta505) | High
-3 | [151.236.23.56](https://vuldb.com/?ip.151.236.23.56) | 56.23.236.151.in-addr.arpa | [TA505](https://vuldb.com/?actor.ta505) | High
+1 | [5.181.156.79](https://vuldb.com/?ip.5.181.156.79) | 5-181-156-79.mivocloud.com | [ServHelper](https://vuldb.com/?actor.servhelper) | High
+2 | [5.181.156.250](https://vuldb.com/?ip.5.181.156.250) | no-rdns.mivocloud.com | [ServHelper](https://vuldb.com/?actor.servhelper) | High
+3 | [45.63.101.210](https://vuldb.com/?ip.45.63.101.210) | 45.63.101.210.vultr.com | [TA505](https://vuldb.com/?actor.ta505) | Medium
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,13 +43,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,42 +58,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/addusers` | High
-2 | File | `/dus/shopliste/index.php` | High
-3 | File | `/etc/path` | Medium
-4 | File | `/nagiosql/admin/checkcommands.php` | High
-5 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-6 | File | `/public/login.htm` | High
-7 | File | `/sendKey` | Medium
-8 | File | `/tmp` | Low
-9 | File | `/usr/5bin/su` | Medium
-10 | File | `/usr/bin/mail` | High
-11 | File | `/var/dt/` | Medium
-12 | File | `00.jsp` | Low
-13 | File | `adclick.php` | Medium
-14 | File | `admin.asp` | Medium
-15 | File | `admin.php` | Medium
-16 | File | `admin/` | Low
-17 | File | `admin/manage-comments.php` | High
-18 | File | `administrator/mail/download.cfm` | High
-19 | File | `AdminViewError/AdminAddadmin` | High
-20 | File | `agentdisplay.php` | High
-21 | File | `ashnews.php/ashheadlines.php` | High
-22 | File | `auction.cgi` | Medium
-23 | File | `autologin.jsp` | High
-24 | File | `axspawn.c` | Medium
-25 | File | `base_ag_main.php` | High
-26 | File | `base_qry_main.php` | High
-27 | File | `bigsam_guestbook.php` | High
-28 | File | `bugzilla_email_append.pl` | High
-29 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/admin_login.php` | High
+3 | File | `/api/addusers` | High
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/debug/pprof` | Medium
+7 | File | `/dus/shopliste/index.php` | High
+8 | File | `/etc/config/rpcd` | High
+9 | File | `/etc/path` | Medium
+10 | File | `/login` | Low
+11 | File | `/nagiosql/admin/checkcommands.php` | High
+12 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+13 | File | `/public/login.htm` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/sendKey` | Medium
+16 | File | `/setSystemAdmin` | High
+17 | File | `/tmp` | Low
+18 | File | `/type.php` | Medium
+19 | File | `/usr/5bin/su` | Medium
+20 | File | `/usr/bin/mail` | High
+21 | File | `/var/dt/` | Medium
+22 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+23 | File | `00.jsp` | Low
+24 | File | `adclick.php` | Medium
+25 | File | `admin.asp` | Medium
+26 | File | `admin.php` | Medium
+27 | File | `admin/` | Low
+28 | File | `admin/Login.php` | High
+29 | File | `admin/manage-comments.php` | High
+30 | File | `Administration/Controllers/ImportController.cs` | High
+31 | File | `administrator/mail/download.cfm` | High
+32 | File | `AdminViewError/AdminAddadmin` | High
+33 | File | `agentdisplay.php` | High
+34 | File | `appserv/main.php` | High
+35 | File | `ashnews.php/ashheadlines.php` | High
+36 | File | `auction.cgi` | Medium
+37 | File | `autologin.jsp` | High
+38 | File | `axspawn.c` | Medium
+39 | File | `base_ag_main.php` | High
+40 | File | `base_qry_main.php` | High
+41 | File | `bidhistory.php` | High
+42 | ... | ... | ...
 
-There are 248 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 363 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://bazaar.abuse.ch/sample/58514fa7288607858aae17799ded4bb96d5f9b78733ad1ca2cece597d5516d44/
+* https://bazaar.abuse.ch/sample/bac78c78e97c8458437ffcbb31b4a54a141200a8cb656eac2dcab06691bc4a91/
+* https://bazaar.abuse.ch/sample/be31a5c1391bbc1c62d8f2c9fbebb9147ba69371fd8e7fcf81fcb5a9ac6ddf73/
+* https://bazaar.abuse.ch/sample/d53c9d7349bdbee8f73709c263cb08c2ca721365bb0670993b81fe2fd9200bac/
+* https://bazaar.abuse.ch/sample/d6372afdd18503ab17f18ebec05254727c7a0377d425bc74e4ae12ffe6243c4c/
+* https://bazaar.abuse.ch/sample/f60f32ec899bcb92fd50491a8c32f0548afbd4dc02462dfa373d484b4b161a86/
+* https://threatfox.abuse.ch
 * https://www.deepinstinct.com/2019/04/02/new-servhelper-variant-employs-excel-4-0-macro-to-drop-signed-payload/
 * https://www.proofpoint.com/us/threat-insight/post/servhelper-and-flawedgrace-new-malware-introduced-ta505
 

@@ -9,11 +9,6 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Antigua and Barbuda Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [AG](https://vuldb.com/?country.ag)
-* ...
-
-There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,21 +20,44 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [5.62.58.12](https://vuldb.com/?ip.5.62.58.12) | r-12-58-62-5.consumer-pool.prcdn.net | - | High
 3 | [5.101.222.128](https://vuldb.com/?ip.5.101.222.128) | - | - | High
 4 | [23.132.144.0](https://vuldb.com/?ip.23.132.144.0) | - | - | High
-5 | [45.12.70.4](https://vuldb.com/?ip.45.12.70.4) | ptr.autonomoussystemssolutions.com | - | High
-6 | [45.12.71.4](https://vuldb.com/?ip.45.12.71.4) | - | - | High
-7 | [45.74.27.0](https://vuldb.com/?ip.45.74.27.0) | - | - | High
-8 | [57.91.0.0](https://vuldb.com/?ip.57.91.0.0) | - | - | High
-9 | [69.50.64.0](https://vuldb.com/?ip.69.50.64.0) | - | - | High
-10 | [69.57.224.0](https://vuldb.com/?ip.69.57.224.0) | - | - | High
-11 | [69.57.227.0](https://vuldb.com/?ip.69.57.227.0) | - | - | High
-12 | [69.57.228.0](https://vuldb.com/?ip.69.57.228.0) | - | - | High
-13 | [69.57.235.0](https://vuldb.com/?ip.69.57.235.0) | - | - | High
-14 | [69.57.242.0](https://vuldb.com/?ip.69.57.242.0) | - | - | High
-15 | [69.57.244.0](https://vuldb.com/?ip.69.57.244.0) | - | - | High
-16 | [69.57.249.0](https://vuldb.com/?ip.69.57.249.0) | - | - | High
-17 | ... | ... | ... | ...
+5 | [23.176.240.0](https://vuldb.com/?ip.23.176.240.0) | - | - | High
+6 | [38.2.64.0](https://vuldb.com/?ip.38.2.64.0) | - | - | High
+7 | [38.87.192.0](https://vuldb.com/?ip.38.87.192.0) | - | - | High
+8 | [38.87.192.4](https://vuldb.com/?ip.38.87.192.4) | - | - | High
+9 | [38.87.192.8](https://vuldb.com/?ip.38.87.192.8) | - | - | High
+10 | [38.87.192.16](https://vuldb.com/?ip.38.87.192.16) | - | - | High
+11 | [38.87.192.32](https://vuldb.com/?ip.38.87.192.32) | - | - | High
+12 | [38.87.192.64](https://vuldb.com/?ip.38.87.192.64) | - | - | High
+13 | [38.88.57.114](https://vuldb.com/?ip.38.88.57.114) | - | - | High
+14 | [38.88.57.116](https://vuldb.com/?ip.38.88.57.116) | - | - | High
+15 | [38.92.120.0](https://vuldb.com/?ip.38.92.120.0) | - | - | High
+16 | [38.131.16.0](https://vuldb.com/?ip.38.131.16.0) | - | - | High
+17 | [45.12.70.4](https://vuldb.com/?ip.45.12.70.4) | ptr.autonomoussystemssolutions.com | - | High
+18 | [45.12.71.4](https://vuldb.com/?ip.45.12.71.4) | - | - | High
+19 | [45.74.27.0](https://vuldb.com/?ip.45.74.27.0) | - | - | High
+20 | [57.74.114.0](https://vuldb.com/?ip.57.74.114.0) | - | - | High
+21 | [57.91.0.0](https://vuldb.com/?ip.57.91.0.0) | - | - | High
+22 | [63.143.86.0](https://vuldb.com/?ip.63.143.86.0) | - | - | High
+23 | [63.143.105.0](https://vuldb.com/?ip.63.143.105.0) | - | - | High
+24 | [63.143.109.0](https://vuldb.com/?ip.63.143.109.0) | - | - | High
+25 | [65.48.213.5](https://vuldb.com/?ip.65.48.213.5) | bgi-vpls1.caribsurf.com | - | High
+26 | [65.48.213.6](https://vuldb.com/?ip.65.48.213.6) | bgi-vpls2.caribsurf.com | - | High
+27 | [66.249.146.0](https://vuldb.com/?ip.66.249.146.0) | - | - | High
+28 | [67.230.96.149](https://vuldb.com/?ip.67.230.96.149) | flow-antigua.cwc.com | - | High
+29 | [69.50.64.0](https://vuldb.com/?ip.69.50.64.0) | - | - | High
+30 | [69.50.64.128](https://vuldb.com/?ip.69.50.64.128) | - | - | High
+31 | [69.50.64.144](https://vuldb.com/?ip.69.50.64.144) | - | - | High
+32 | [69.50.64.153](https://vuldb.com/?ip.69.50.64.153) | - | - | High
+33 | [69.50.64.154](https://vuldb.com/?ip.69.50.64.154) | - | - | High
+34 | [69.50.64.156](https://vuldb.com/?ip.69.50.64.156) | - | - | High
+35 | [69.50.64.160](https://vuldb.com/?ip.69.50.64.160) | - | - | High
+36 | [69.50.64.176](https://vuldb.com/?ip.69.50.64.176) | - | - | High
+37 | [69.50.64.184](https://vuldb.com/?ip.69.50.64.184) | - | - | High
+38 | [69.50.64.189](https://vuldb.com/?ip.69.50.64.189) | - | - | High
+39 | [69.50.64.192](https://vuldb.com/?ip.69.50.64.192) | - | - | High
+40 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 157 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,13 +65,9 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 16 more TTP items available. Please use our online service to access the data.
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1222 | CWE-276 | Permission Issues | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -61,75 +75,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/data/local.prop` | High
-9 | File | `/drivers/media/media-device.c` | High
-10 | File | `/etc/master.passwd` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/home.php` | Medium
-15 | File | `/homeaction.php` | High
-16 | File | `/modules/profile/index.php` | High
-17 | File | `/modules/tasks/summary.inc.php` | High
-18 | File | `/multi-vendor-shopping-script/product-list.php` | High
-19 | File | `/out.php` | Medium
-20 | File | `/p` | Low
-21 | File | `/preauth` | Medium
-22 | File | `/products/details.asp` | High
-23 | File | `/recordings/index.php` | High
-24 | File | `/see_more_details.php` | High
-25 | File | `/show_news.php` | High
-26 | File | `/tmp/before` | Medium
-27 | File | `/uncpath/` | Medium
-28 | File | `/updownload/t.report` | High
-29 | File | `/user.profile.php` | High
-30 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-31 | File | `/wordpress/wp-admin/options-general.php` | High
-32 | File | `/wp-admin` | Medium
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | File | `account.asp` | Medium
-35 | File | `aclient.exe` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `add_comment.php` | High
-38 | File | `adm/systools.asp` | High
-39 | File | `admin.php` | Medium
-40 | File | `admin/admin.shtml` | High
-41 | File | `Admin/ADM_Pagina.php` | High
-42 | File | `admin/category.inc.php` | High
-43 | File | `admin/main.asp` | High
-44 | File | `admin/param/param_func.inc.php` | High
-45 | File | `admin/y_admin.asp` | High
-46 | File | `adminer.php` | Medium
-47 | File | `administrator/components/com_media/helpers/media.php` | High
-48 | File | `admin_ok.asp` | Medium
-49 | File | `advertiser_statistic.php` | High
-50 | File | `ajax.cgi` | Medium
-51 | File | `app/Core/Paginator.php` | High
-52 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-53 | File | `archive.php` | Medium
-54 | File | `artlinks.dispnew.php` | High
-55 | File | `auth.php` | Medium
-56 | File | `awstats.pl` | Medium
-57 | File | `bin/named/query.c` | High
-58 | File | `blank.php` | Medium
-59 | File | `blocklayered-ajax.php` | High
-60 | File | `bluegate_seo.inc.php` | High
-61 | ... | ... | ...
+1 | File | `config.php` | Medium
+2 | File | `index.php` | Medium
+3 | Argument | `email_address` | High
+4 | ... | ... | ...
 
-There are 530 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 2 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ag.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ag.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipdeny_country/id_country_ag.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ag.netset
 
 ## Literature
 

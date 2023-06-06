@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -88,15 +88,15 @@ ID | Type | Indicator | Confidence
 21 | File | `/api/` | Low
 22 | File | `/api/admin/store/product/list` | High
 23 | File | `/api/RecordingList/DownloadRecord?file=` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/artist-display.php` | High
+24 | File | `/api/stl/actions/search` | High
+25 | File | `/api/v2/cli/commands` | High
+26 | File | `/apply.cgi` | Medium
 27 | File | `/attachments` | Medium
 28 | File | `/boat/login.php` | High
 29 | File | `/bsms_ci/index.php` | High
 30 | File | `/bsms_ci/index.php/book` | High
-31 | File | `/cgi-bin/luci/api/wireless` | High
-32 | File | `/cgi-bin/nightled.cgi` | High
+31 | File | `/cgi-bin` | Medium
+32 | File | `/cgi-bin/luci/api/wireless` | High
 33 | File | `/cgi-bin/wlogin.cgi` | High
 34 | File | `/classes/Master.php?f=delete_sub_category` | High
 35 | File | `/common/info.cgi` | High
@@ -107,24 +107,22 @@ ID | Type | Indicator | Confidence
 40 | File | `/forum/away.php` | High
 41 | File | `/goform/setmac` | High
 42 | File | `/goform/wizard_end` | High
-43 | File | `/index.php` | Medium
-44 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-45 | File | `/librarian/bookdetails.php` | High
-46 | File | `/manage-apartment.php` | High
-47 | File | `/management/api/rcx_management/global_config_query` | High
-48 | File | `/medicines/profile.php` | High
-49 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-50 | File | `/multi-vendor-shopping-script/product-list.php` | High
-51 | File | `/pages/apply_vacancy.php` | High
-52 | File | `/php-sms/admin/` | High
-53 | File | `/product/savenewproduct.php?flag=1` | High
-54 | File | `/proxy` | Low
-55 | File | `/ptipupgrade.cgi` | High
-56 | File | `/real-estate-script/search_property.php` | High
-57 | File | `/reservation/add_message.php` | High
-58 | ... | ... | ...
+43 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+44 | File | `/librarian/bookdetails.php` | High
+45 | File | `/manage-apartment.php` | High
+46 | File | `/management/api/rcx_management/global_config_query` | High
+47 | File | `/medicines/profile.php` | High
+48 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+49 | File | `/pages/apply_vacancy.php` | High
+50 | File | `/php-sms/admin/` | High
+51 | File | `/product/savenewproduct.php?flag=1` | High
+52 | File | `/proxy` | Low
+53 | File | `/ptipupgrade.cgi` | High
+54 | File | `/reservation/add_message.php` | High
+55 | File | `/services/Card/findUser` | High
+56 | ... | ... | ...
 
-There are 503 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 484 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

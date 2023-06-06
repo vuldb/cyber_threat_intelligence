@@ -53,7 +53,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -81,22 +81,23 @@ ID | Type | Indicator | Confidence
 18 | File | `/hardware` | Medium
 19 | File | `/hrm/employeeview.php` | High
 20 | File | `/index.php` | Medium
-21 | File | `/login.php` | Medium
-22 | File | `/mgmt/tm/util/bash` | High
-23 | File | `/mkshop/Men/profile.php` | High
-24 | File | `/monitoring` | Medium
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/pages/apply_vacancy.php` | High
-27 | File | `/php_action/createUser.php` | High
-28 | File | `/plugin/LiveChat/getChat.json.php` | High
-29 | File | `/plugins/servlet/audit/resource` | High
-30 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-31 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-32 | File | `/replication` | Medium
-33 | File | `/RestAPI` | Medium
-34 | ... | ... | ...
+21 | File | `/index.php?app=main&func=passport&action=login` | High
+22 | File | `/login.php` | Medium
+23 | File | `/mgmt/tm/util/bash` | High
+24 | File | `/mkshop/Men/profile.php` | High
+25 | File | `/monitoring` | Medium
+26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+27 | File | `/pages/apply_vacancy.php` | High
+28 | File | `/php_action/createUser.php` | High
+29 | File | `/plugin/LiveChat/getChat.json.php` | High
+30 | File | `/plugins/servlet/audit/resource` | High
+31 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+32 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+33 | File | `/replication` | Medium
+34 | File | `/RestAPI` | Medium
+35 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

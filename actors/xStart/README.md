@@ -46,11 +46,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -68,44 +68,45 @@ ID | Type | Indicator | Confidence
 8 | File | `/cbs/system/ShowAdvanced.do` | High
 9 | File | `/cgi-bin/editBookmark` | High
 10 | File | `/cgi-bin/loaddata.py` | High
-11 | File | `/debug` | Low
-12 | File | `/debug/pprof` | Medium
-13 | File | `/DXR.axd` | Medium
-14 | File | `/etc/passwd` | Medium
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/setmac` | High
-17 | File | `/goform/setportList` | High
-18 | File | `/goform/setVLAN` | High
-19 | File | `/goform/wlanPrimaryNetwork` | High
-20 | File | `/GponForm/usb_Form?script/` | High
-21 | File | `/groups/31-twitter-basics` | High
-22 | File | `/login` | Low
-23 | File | `/login/index.php` | High
-24 | File | `/modules/profile/index.php` | High
-25 | File | `/spip.php` | Medium
-26 | File | `/sys/dict/queryTableData` | High
-27 | File | `/tmp` | Low
-28 | File | `/tmp/before` | Medium
-29 | File | `/User/saveUser` | High
-30 | File | `/usr/bin/vmware-mount` | High
-31 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-32 | File | `/WEB-INF/web.xml` | High
-33 | File | `/_vti_pvt/access.cnf` | High
-34 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-35 | File | `accountsettings_add.html` | High
-36 | File | `aclient.exe` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?c=update&f=unzip` | High
-39 | File | `admin/conf_users_edit.php` | High
-40 | File | `admin/domain-fields/` | High
-41 | File | `admin/index.asp` | High
-42 | File | `admin/news.php` | High
-43 | File | `AdminLoginInterceptor.java` | High
-44 | File | `admins.js` | Medium
-45 | File | `advancedsearch.php` | High
-46 | ... | ... | ...
+11 | File | `/cms/category/list` | High
+12 | File | `/debug` | Low
+13 | File | `/debug/pprof` | Medium
+14 | File | `/DXR.axd` | Medium
+15 | File | `/etc/passwd` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/goform/setmac` | High
+18 | File | `/goform/setportList` | High
+19 | File | `/goform/setVLAN` | High
+20 | File | `/goform/wlanPrimaryNetwork` | High
+21 | File | `/GponForm/usb_Form?script/` | High
+22 | File | `/groups/31-twitter-basics` | High
+23 | File | `/inc/jquery/uploadify/uploadify.php` | High
+24 | File | `/login` | Low
+25 | File | `/login/index.php` | High
+26 | File | `/modules/profile/index.php` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/sys/dict/queryTableData` | High
+29 | File | `/tmp` | Low
+30 | File | `/tmp/before` | Medium
+31 | File | `/User/saveUser` | High
+32 | File | `/usr/bin/vmware-mount` | High
+33 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+34 | File | `/WEB-INF/web.xml` | High
+35 | File | `/_vti_pvt/access.cnf` | High
+36 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+37 | File | `accountsettings_add.html` | High
+38 | File | `aclient.exe` | Medium
+39 | File | `admin.php` | Medium
+40 | File | `admin.php?c=update&f=unzip` | High
+41 | File | `admin/domain-fields/` | High
+42 | File | `admin/index.asp` | High
+43 | File | `admin/news.php` | High
+44 | File | `AdminLoginInterceptor.java` | High
+45 | File | `admins.js` | Medium
+46 | File | `advancedsearch.php` | High
+47 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

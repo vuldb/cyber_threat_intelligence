@@ -51,17 +51,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/users.php?source=edit_user&id=1` | High
 2 | File | `/cdsms/classes/Master.php?f=delete_package` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/modules/profile/index.php` | High
-5 | File | `/onvif/device_service` | High
-6 | File | `/pro/repo-create.html` | High
-7 | File | `/proc/self/environ` | High
-8 | File | `/rest/project-templates/1.0/createshared` | High
-9 | File | `/server-status` | High
-10 | File | `act.php` | Low
+3 | File | `/debug/pprof` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/modules/profile/index.php` | High
+6 | File | `/onvif/device_service` | High
+7 | File | `/pro/repo-create.html` | High
+8 | File | `/proc/self/environ` | High
+9 | File | `/rest/project-templates/1.0/createshared` | High
+10 | File | `/server-status` | High
 11 | ... | ... | ...
 
-There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

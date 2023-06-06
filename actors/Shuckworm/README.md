@@ -8,9 +8,9 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Shuckworm:
 
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -57,21 +57,22 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
-3 | File | `/data/data/com.tronlink.wallet/shared_prefs/<wallet-name>.xml` | High
-4 | File | `/error` | Low
-5 | File | `/forum/away.php` | High
-6 | File | `/gena.cgi` | Medium
-7 | File | `/login` | Low
-8 | File | `/php/ajax.php` | High
-9 | File | `/proxy` | Low
-10 | File | `/rapi/read_url` | High
-11 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
-12 | File | `/see_more_details.php` | High
-13 | File | `/sys/user/queryUserComponentData` | High
-14 | ... | ... | ...
+2 | File | `/apply.cgi` | Medium
+3 | File | `/dashboard/system/express/entities/forms/save_control/[GUID]` | High
+4 | File | `/data/data/com.tronlink.wallet/shared_prefs/<wallet-name>.xml` | High
+5 | File | `/error` | Low
+6 | File | `/forum/away.php` | High
+7 | File | `/gena.cgi` | Medium
+8 | File | `/login` | Low
+9 | File | `/php/ajax.php` | High
+10 | File | `/proxy` | Low
+11 | File | `/rapi/read_url` | High
+12 | File | `/sec/content/sec_asa_users_local_db_add.html` | High
+13 | File | `/see_more_details.php` | High
+14 | File | `/sys/user/queryUserComponentData` | High
+15 | ... | ... | ...
 
-There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

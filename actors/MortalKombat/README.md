@@ -52,9 +52,10 @@ ID | Type | Indicator | Confidence
 7 | File | `/root/cleardata.pl` | High
 8 | File | `adclick.php` | Medium
 9 | File | `add_contestant.php` | High
-10 | ... | ... | ...
+10 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
+11 | ... | ... | ...
 
-There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

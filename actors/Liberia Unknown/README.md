@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,13 +24,24 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.60.224](https://vuldb.com/?ip.5.62.60.224) | r-224-60-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.62.216](https://vuldb.com/?ip.5.62.62.216) | r-216-62-62-5.consumer-pool.prcdn.net | - | High
 3 | [41.57.80.0](https://vuldb.com/?ip.41.57.80.0) | - | - | High
-4 | [41.86.0.0](https://vuldb.com/?ip.41.86.0.0) | - | - | High
-5 | [41.191.104.0](https://vuldb.com/?ip.41.191.104.0) | - | - | High
-6 | [45.12.70.132](https://vuldb.com/?ip.45.12.70.132) | hazelhg-marks.yourbandinc.com | - | High
-7 | [45.12.71.132](https://vuldb.com/?ip.45.12.71.132) | - | - | High
-8 | ... | ... | ... | ...
+4 | [41.57.80.3](https://vuldb.com/?ip.41.57.80.3) | - | - | High
+5 | [41.57.80.4](https://vuldb.com/?ip.41.57.80.4) | - | - | High
+6 | [41.57.80.8](https://vuldb.com/?ip.41.57.80.8) | - | - | High
+7 | [41.57.80.16](https://vuldb.com/?ip.41.57.80.16) | - | - | High
+8 | [41.57.80.32](https://vuldb.com/?ip.41.57.80.32) | - | - | High
+9 | [41.57.80.64](https://vuldb.com/?ip.41.57.80.64) | - | - | High
+10 | [41.57.80.128](https://vuldb.com/?ip.41.57.80.128) | - | - | High
+11 | [41.57.81.0](https://vuldb.com/?ip.41.57.81.0) | - | - | High
+12 | [41.57.82.0](https://vuldb.com/?ip.41.57.82.0) | - | - | High
+13 | [41.57.84.0](https://vuldb.com/?ip.41.57.84.0) | - | - | High
+14 | [41.57.88.0](https://vuldb.com/?ip.41.57.88.0) | - | - | High
+15 | [41.57.89.0](https://vuldb.com/?ip.41.57.89.0) | - | - | High
+16 | [41.57.89.128](https://vuldb.com/?ip.41.57.89.128) | - | - | High
+17 | [41.57.89.192](https://vuldb.com/?ip.41.57.89.192) | - | - | High
+18 | [41.57.89.224](https://vuldb.com/?ip.41.57.89.224) | - | - | High
+19 | ... | ... | ... | ...
 
-There are 27 more IOC items available. Please use our online service to access the data.
+There are 73 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +52,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -55,44 +67,49 @@ ID | Type | Indicator | Confidence
 2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/index.php` | High
-6 | File | `/admin/payment.php` | High
-7 | File | `/admin/show.php` | High
-8 | File | `/default.php?idx=17` | High
-9 | File | `/download` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/product-list.php` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/uapi/doc` | Medium
-20 | File | `/uncpath/` | Medium
-21 | File | `/updown/upload.cgi` | High
-22 | File | `/user/del.php` | High
-23 | File | `/_next` | Low
-24 | File | `123flashchat.php` | High
-25 | File | `act.php` | Low
-26 | File | `admin/bad.php` | High
-27 | File | `admin/index.php` | High
-28 | File | `admin/index.php/user/del/1` | High
-29 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-30 | File | `administrator/index.php` | High
-31 | File | `ajax/render/widget_php` | High
-32 | File | `album_portal.php` | High
-33 | File | `api.php` | Low
-34 | ... | ... | ...
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/lab.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/show.php` | High
+10 | File | `/default.php?idx=17` | High
+11 | File | `/download` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/index.php` | Medium
+14 | File | `/opt/bin/cli` | Medium
+15 | File | `/p` | Low
+16 | File | `/patient/doctors.php` | High
+17 | File | `/phpinventory/editcategory.php` | High
+18 | File | `/php_action/createUser.php` | High
+19 | File | `/product-list.php` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/uapi/doc` | Medium
+22 | File | `/uncpath/` | Medium
+23 | File | `/updown/upload.cgi` | High
+24 | File | `/user/del.php` | High
+25 | File | `/_next` | Low
+26 | File | `123flashchat.php` | High
+27 | File | `act.php` | Low
+28 | File | `admin/bad.php` | High
+29 | File | `admin/index.php` | High
+30 | File | `admin/index.php/user/del/1` | High
+31 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+32 | File | `administrator/index.php` | High
+33 | File | `agenda.php` | Medium
+34 | File | `ajax/render/widget_php` | High
+35 | File | `album_portal.php` | High
+36 | File | `api.php` | Low
+37 | ... | ... | ...
 
-There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 317 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_lr.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_lr.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_lr.netset
 
 ## Literature
 

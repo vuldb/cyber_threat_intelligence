@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [NL](https://vuldb.com/?country.nl)
-* [ES](https://vuldb.com/?country.es)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -33,10 +33,9 @@ ID | IP address | Hostname | Campaign | Confidence
 10 | [77.247.178.177](https://vuldb.com/?ip.77.247.178.177) | - | - | High
 11 | [79.176.26.142](https://vuldb.com/?ip.79.176.26.142) | bzq-79-176-26-142.red.bezeqint.net | - | High
 12 | [82.146.63.15](https://vuldb.com/?ip.82.146.63.15) | ebay2.com | - | High
-13 | [85.159.237.0](https://vuldb.com/?ip.85.159.237.0) | - | - | High
-14 | ... | ... | ... | ...
+13 | ... | ... | ... | ...
 
-There are 50 more IOC items available. Please use our online service to access the data.
+There are 48 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,13 +44,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,38 +59,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/about.php` | Medium
-3 | File | `/admin/submit-articles` | High
-4 | File | `/admin/subnets/ripe-query.php` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/app/options.py` | High
-7 | File | `/attachments` | Medium
-8 | File | `/bin/boa` | Medium
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/ci_hms/massage_room/edit/1` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/dashboard/reports/logs/view` | High
-13 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/dev/shm` | Medium
-16 | File | `/ebics-server/ebics.aspx` | High
-17 | File | `/etc/hosts` | Medium
-18 | File | `/etc/shadow` | Medium
-19 | File | `/export` | Low
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/hardware` | Medium
-23 | File | `/manage-apartment.php` | High
-24 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-25 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-26 | File | `/out.php` | Medium
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/plugin/LiveChat/getChat.json.php` | High
-29 | File | `/proc/<PID>/mem` | High
-30 | File | `/proxy` | Low
-31 | ... | ... | ...
+2 | File | `/?p=products` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin.php/accessory/filesdel.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/submit-articles` | High
+9 | File | `/admin/subnets/ripe-query.php` | High
+10 | File | `/alphaware/summary.php` | High
+11 | File | `/api/` | Low
+12 | File | `/api/admin/store/product/list` | High
+13 | File | `/api/stl/actions/search` | High
+14 | File | `/api/v2/cli/commands` | High
+15 | File | `/attachments` | Medium
+16 | File | `/bin/boa` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/bsms_ci/index.php/book` | High
+19 | File | `/cgi-bin` | Medium
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/comments` | Medium
+23 | File | `/context/%2e/WEB-INF/web.xml` | High
+24 | File | `/dcim/sites/add/` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/dev/shm` | Medium
+27 | File | `/ebics-server/ebics.aspx` | High
+28 | File | `/etc/hosts` | Medium
+29 | File | `/etc/shadow` | Medium
+30 | File | `/export` | Low
+31 | File | `/forum/away.php` | High
+32 | File | `/goform/setmac` | High
+33 | File | `/goform/wizard_end` | High
+34 | File | `/hardware` | Medium
+35 | File | `/include/makecvs.php` | High
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/manage-apartment.php` | High
+38 | File | `/medicines/profile.php` | High
+39 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+40 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+41 | File | `/out.php` | Medium
+42 | ... | ... | ...
 
-There are 264 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -46,11 +46,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -60,7 +60,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
+3 | File | `/ajax.php?action=read_msg` | High
 4 | File | `/ajax/networking/get_netcfg.php` | High
 5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
@@ -78,37 +78,35 @@ ID | Type | Indicator | Confidence
 18 | File | `/data/remove` | Medium
 19 | File | `/ebics-server/ebics.aspx` | High
 20 | File | `/ffos/classes/Master.php?f=save_category` | High
-21 | File | `/filemanager/upload.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goforms/rlminfo` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/HNAP1/SetClientInfo` | High
-26 | File | `/index_amp.php` | High
-27 | File | `/Items/*/RemoteImages/Download` | High
-28 | File | `/login` | Low
-29 | File | `/menu.html` | Medium
-30 | File | `/navigate/navigate_download.php` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | File | `/ofrs/admin/?page=user/manage_user` | High
-33 | File | `/out.php` | Medium
-34 | File | `/owa/auth/logon.aspx` | High
-35 | File | `/password.html` | High
-36 | File | `/php_action/fetchSelectedUser.php` | High
-37 | File | `/proc/ioports` | High
-38 | File | `/property-list/property_view.php` | High
-39 | File | `/ptms/classes/Users.php` | High
-40 | File | `/resources//../` | High
-41 | File | `/rest/api/2/search` | High
-42 | File | `/s/` | Low
-43 | File | `/scripts/cpan_config` | High
-44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-45 | File | `/services/system/setup.json` | High
-46 | File | `/spip.php` | Medium
-47 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-48 | File | `/sys/dict/queryTableData` | High
-49 | ... | ... | ...
+21 | File | `/forum/away.php` | High
+22 | File | `/goforms/rlminfo` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/HNAP1/SetClientInfo` | High
+25 | File | `/index_amp.php` | High
+26 | File | `/Items/*/RemoteImages/Download` | High
+27 | File | `/menu.html` | Medium
+28 | File | `/modules/profile/index.php` | High
+29 | File | `/navigate/navigate_download.php` | High
+30 | File | `/ocwbs/admin/?page=user/manage_user` | High
+31 | File | `/ofrs/admin/?page=user/manage_user` | High
+32 | File | `/out.php` | Medium
+33 | File | `/owa/auth/logon.aspx` | High
+34 | File | `/password.html` | High
+35 | File | `/php_action/fetchSelectedUser.php` | High
+36 | File | `/proc/ioports` | High
+37 | File | `/property-list/property_view.php` | High
+38 | File | `/ptms/classes/Users.php` | High
+39 | File | `/resources//../` | High
+40 | File | `/rest/api/2/search` | High
+41 | File | `/s/` | Low
+42 | File | `/scripts/cpan_config` | High
+43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+46 | File | `/sys/dict/queryTableData` | High
+47 | ... | ... | ...
 
-There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 403 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

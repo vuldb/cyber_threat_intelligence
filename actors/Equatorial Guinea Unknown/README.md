@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,9 +27,16 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [41.222.112.0](https://vuldb.com/?ip.41.222.112.0) | - | - | High
 5 | [45.12.70.89](https://vuldb.com/?ip.45.12.70.89) | mx329-lacier.yourbandinc.com | - | High
 6 | [45.12.71.89](https://vuldb.com/?ip.45.12.71.89) | - | - | High
-7 | ... | ... | ... | ...
+7 | [45.42.193.0](https://vuldb.com/?ip.45.42.193.0) | 45-42-193-0-static.iteratel.net | - | High
+8 | [57.82.60.0](https://vuldb.com/?ip.57.82.60.0) | - | - | High
+9 | [80.78.18.192](https://vuldb.com/?ip.80.78.18.192) | - | - | High
+10 | [84.254.159.0](https://vuldb.com/?ip.84.254.159.0) | 84-254-159-0.ip.skylogicnet.com | - | High
+11 | [95.210.5.0](https://vuldb.com/?ip.95.210.5.0) | 95-210-5-0.ip.skylogicnet.com | - | High
+12 | [102.141.216.0](https://vuldb.com/?ip.102.141.216.0) | - | - | High
+13 | [102.141.218.0](https://vuldb.com/?ip.102.141.218.0) | - | - | High
+14 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 52 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -80,14 +87,15 @@ ID | Type | Indicator | Confidence
 27 | File | `admin/index.php/user/del/1` | High
 28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
 29 | File | `administrator/index.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `album_portal.php` | High
-32 | File | `api.php` | Low
-33 | File | `application/home/controller/debug.php` | High
-34 | File | `articulo.php` | Medium
-35 | ... | ... | ...
+30 | File | `agenda.php` | Medium
+31 | File | `ajax/render/widget_php` | High
+32 | File | `album_portal.php` | High
+33 | File | `api.php` | Low
+34 | File | `application/home/controller/debug.php` | High
+35 | File | `articulo.php` | Medium
+36 | ... | ... | ...
 
-There are 303 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 308 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -95,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gq.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gq.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_gq.netset
 
 ## Literature
 

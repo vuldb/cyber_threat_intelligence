@@ -96,11 +96,9 @@ ID | IP address | Hostname | Campaign | Confidence
 84 | [105.17.192.0](https://vuldb.com/?ip.105.17.192.0) | - | - | High
 85 | [105.17.224.0](https://vuldb.com/?ip.105.17.224.0) | - | - | High
 86 | [105.18.144.0](https://vuldb.com/?ip.105.18.144.0) | - | - | High
-87 | [105.18.160.0](https://vuldb.com/?ip.105.18.160.0) | - | - | High
-88 | [105.18.192.0](https://vuldb.com/?ip.105.18.192.0) | - | - | High
-89 | ... | ... | ... | ...
+87 | ... | ... | ... | ...
 
-There are 351 more IOC items available. Please use our online service to access the data.
+There are 346 more IOC items available. Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tokelau Unknown:
 
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [27.96.24.0](https://vuldb.com/?ip.27.96.24.0) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,13 +34,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,67 +49,82 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/drivers/media/media-device.c` | High
-9 | File | `/etc/master.passwd` | High
-10 | File | `/filemanager/upload.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/home.php` | Medium
-14 | File | `/homeaction.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/modules/tasks/summary.inc.php` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/p` | Low
-20 | File | `/preauth` | Medium
-21 | File | `/products/details.asp` | High
-22 | File | `/recordings/index.php` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/show_news.php` | High
-25 | File | `/tmp/before` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/updownload/t.report` | High
-28 | File | `/user.profile.php` | High
-29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-30 | File | `/wordpress/wp-admin/options-general.php` | High
-31 | File | `/wp-admin` | Medium
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `account.asp` | Medium
-34 | File | `adclick.php` | Medium
-35 | File | `adm/systools.asp` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/admin.shtml` | High
-38 | File | `Admin/ADM_Pagina.php` | High
-39 | File | `admin/category.inc.php` | High
-40 | File | `admin/main.asp` | High
-41 | File | `admin/param/param_func.inc.php` | High
-42 | File | `admin/y_admin.asp` | High
-43 | File | `adminer.php` | Medium
-44 | File | `administrator/components/com_media/helpers/media.php` | High
-45 | File | `admin_ok.asp` | Medium
-46 | File | `app/Core/Paginator.php` | High
-47 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-48 | File | `artlinks.dispnew.php` | High
-49 | File | `auth.php` | Medium
-50 | File | `bin/named/query.c` | High
-51 | File | `blank.php` | Medium
-52 | File | `blocklayered-ajax.php` | High
-53 | ... | ... | ...
+1 | File | `.github/workflows/combine-prs.yml` | High
+2 | File | `//WEB-INF` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin.php/update/getFile.html` | High
+5 | File | `/admin/api/admin/articles/` | High
+6 | File | `/admin/cashadvance_row.php` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+11 | File | `/APR/login.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/dev/block/mmcblk0rpmb` | High
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/download` | Medium
+17 | File | `/face-recognition-php/facepay-master/camera.php` | High
+18 | File | `/feeds/post/publish` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/fos/admin/ajax.php?action=login` | High
+21 | File | `/fos/admin/index.php?page=menu` | High
+22 | File | `/home/masterConsole` | High
+23 | File | `/home/sendBroadcast` | High
+24 | File | `/hrm/employeeadd.php` | High
+25 | File | `/hrm/employeeview.php` | High
+26 | File | `/inc/jquery/uploadify/uploadify.php` | High
+27 | File | `/index.php?app=main&func=passport&action=login` | High
+28 | File | `/index.php?page=category_list` | High
+29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+30 | File | `/lookin/info` | Medium
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/mygym/admin/index.php?view_exercises` | High
+33 | File | `/opac/Actions.php?a=login` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-opos/index.php` | High
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/proxy` | Low
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/user/updatePwd` | High
+45 | File | `/wireless/security.asp` | High
+46 | File | `/wp-admin/admin-ajax.php` | High
+47 | File | `01article.php` | High
+48 | File | `a-forms.php` | Medium
+49 | File | `AbstractScheduleJob.java` | High
+50 | File | `actionphp/download.File.php` | High
+51 | File | `activenews_view.asp` | High
+52 | File | `adclick.php` | Medium
+53 | File | `admin.a6mambocredits.php` | High
+54 | File | `admin.cropcanvas.php` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin/abc.php` | High
+57 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+58 | File | `admin/admin/adminsave.html` | High
+59 | File | `admin/asset/grid-proxy` | High
+60 | File | `admin/auditTrail.jsf` | High
+61 | File | `admin/conf_users_edit.php` | High
+62 | File | `admin/disapprove_user.php` | High
+63 | File | `admin/edit_category.php` | High
+64 | File | `admin/expense_report.php` | High
+65 | File | `admin/panels/entry/admin.entry.list.php` | High
+66 | ... | ... | ...
 
-There are 461 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 576 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tk.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_tk.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tk.netset
 
 ## Literature
 

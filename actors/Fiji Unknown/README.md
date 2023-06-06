@@ -23,16 +23,26 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.56.96](https://vuldb.com/?ip.5.62.56.96) | r-96-56-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.58.92](https://vuldb.com/?ip.5.62.58.92) | r-92-58-62-5.consumer-pool.prcdn.net | - | High
-3 | [27.123.128.0](https://vuldb.com/?ip.27.123.128.0) | - | - | High
-4 | [43.245.56.0](https://vuldb.com/?ip.43.245.56.0) | - | - | High
-5 | [45.12.70.72](https://vuldb.com/?ip.45.12.70.72) | a5977-langage.yourbandinc.com | - | High
-6 | [45.12.71.72](https://vuldb.com/?ip.45.12.71.72) | - | - | High
-7 | [45.42.171.0](https://vuldb.com/?ip.45.42.171.0) | - | - | High
-8 | [45.112.224.0](https://vuldb.com/?ip.45.112.224.0) | Corporate-45-112-224-0.connect.com.fj | - | High
-9 | [45.117.240.0](https://vuldb.com/?ip.45.117.240.0) | - | - | High
-10 | ... | ... | ... | ...
+3 | [14.137.38.0](https://vuldb.com/?ip.14.137.38.0) | - | - | High
+4 | [14.137.51.0](https://vuldb.com/?ip.14.137.51.0) | - | - | High
+5 | [27.123.128.0](https://vuldb.com/?ip.27.123.128.0) | - | - | High
+6 | [43.245.56.0](https://vuldb.com/?ip.43.245.56.0) | - | - | High
+7 | [45.12.70.72](https://vuldb.com/?ip.45.12.70.72) | a5977-langage.yourbandinc.com | - | High
+8 | [45.12.71.72](https://vuldb.com/?ip.45.12.71.72) | - | - | High
+9 | [45.42.171.0](https://vuldb.com/?ip.45.42.171.0) | - | - | High
+10 | [45.112.224.0](https://vuldb.com/?ip.45.112.224.0) | Corporate-45-112-224-0.connect.com.fj | - | High
+11 | [45.117.240.0](https://vuldb.com/?ip.45.117.240.0) | - | - | High
+12 | [57.70.162.0](https://vuldb.com/?ip.57.70.162.0) | - | - | High
+13 | [57.70.224.0](https://vuldb.com/?ip.57.70.224.0) | - | - | High
+14 | [80.92.59.0](https://vuldb.com/?ip.80.92.59.0) | - | - | High
+15 | [103.1.180.0](https://vuldb.com/?ip.103.1.180.0) | - | - | High
+16 | [103.52.88.0](https://vuldb.com/?ip.103.52.88.0) | WIFI-103-52-88-0.connect.com.fj | - | High
+17 | [103.58.20.0](https://vuldb.com/?ip.103.58.20.0) | - | - | High
+18 | [103.71.204.0](https://vuldb.com/?ip.103.71.204.0) | - | - | High
+19 | [103.76.157.0](https://vuldb.com/?ip.103.76.157.0) | - | - | High
+20 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
+There are 76 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +56,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,60 +72,67 @@ ID | Type | Indicator | Confidence
 6 | File | `/cm/delete` | Medium
 7 | File | `/common/logViewer/logViewer.jsf` | High
 8 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-9 | File | `/drivers/media/media-device.c` | High
-10 | File | `/etc/master.passwd` | High
-11 | File | `/filemanager/upload.php` | High
-12 | File | `/forum/away.php` | High
-13 | File | `/getcfg.php` | Medium
-14 | File | `/home.php` | Medium
-15 | File | `/homeaction.php` | High
-16 | File | `/login.php` | Medium
-17 | File | `/modules/profile/index.php` | High
-18 | File | `/modules/tasks/summary.inc.php` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/p` | Low
-22 | File | `/preauth` | Medium
-23 | File | `/products/details.asp` | High
-24 | File | `/recordings/index.php` | High
-25 | File | `/see_more_details.php` | High
-26 | File | `/show_news.php` | High
-27 | File | `/tmp/before` | Medium
-28 | File | `/uncpath/` | Medium
-29 | File | `/updownload/t.report` | High
-30 | File | `/user.profile.php` | High
-31 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-32 | File | `/wordpress/wp-admin/options-general.php` | High
-33 | File | `/wp-admin` | Medium
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `account.asp` | Medium
-36 | File | `adclick.php` | Medium
-37 | File | `adm/systools.asp` | High
-38 | File | `admin.php` | Medium
-39 | File | `admin/admin.shtml` | High
-40 | File | `Admin/ADM_Pagina.php` | High
-41 | File | `admin/category.inc.php` | High
-42 | File | `admin/main.asp` | High
-43 | File | `admin/param/param_func.inc.php` | High
-44 | File | `admin/y_admin.asp` | High
-45 | File | `adminer.php` | Medium
-46 | File | `administrator/components/com_media/helpers/media.php` | High
-47 | File | `admin_ok.asp` | Medium
-48 | File | `app/Core/Paginator.php` | High
-49 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-50 | File | `artlinks.dispnew.php` | High
-51 | File | `auth.php` | Medium
-52 | File | `bin/named/query.c` | High
-53 | File | `blank.php` | Medium
-54 | ... | ... | ...
+9 | File | `/download` | Medium
+10 | File | `/drivers/media/media-device.c` | High
+11 | File | `/etc/master.passwd` | High
+12 | File | `/filemanager/upload.php` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/getcfg.php` | Medium
+15 | File | `/home.php` | Medium
+16 | File | `/homeaction.php` | High
+17 | File | `/login.php` | Medium
+18 | File | `/modules/profile/index.php` | High
+19 | File | `/modules/tasks/summary.inc.php` | High
+20 | File | `/multi-vendor-shopping-script/product-list.php` | High
+21 | File | `/out.php` | Medium
+22 | File | `/p` | Low
+23 | File | `/preauth` | Medium
+24 | File | `/products/details.asp` | High
+25 | File | `/recordings/index.php` | High
+26 | File | `/see_more_details.php` | High
+27 | File | `/show_news.php` | High
+28 | File | `/tmp/before` | Medium
+29 | File | `/uncpath/` | Medium
+30 | File | `/updownload/t.report` | High
+31 | File | `/user.profile.php` | High
+32 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+33 | File | `/wordpress/wp-admin/options-general.php` | High
+34 | File | `/wp-admin` | Medium
+35 | File | `/wp-admin/admin-ajax.php` | High
+36 | File | `account.asp` | Medium
+37 | File | `adclick.php` | Medium
+38 | File | `adm/systools.asp` | High
+39 | File | `admin.php` | Medium
+40 | File | `admin/admin.shtml` | High
+41 | File | `Admin/ADM_Pagina.php` | High
+42 | File | `admin/category.inc.php` | High
+43 | File | `admin/main.asp` | High
+44 | File | `admin/param/param_func.inc.php` | High
+45 | File | `admin/y_admin.asp` | High
+46 | File | `adminer.php` | Medium
+47 | File | `administration/admins.php` | High
+48 | File | `administrator/components/com_media/helpers/media.php` | High
+49 | File | `admin_ok.asp` | Medium
+50 | File | `album_portal.php` | High
+51 | File | `app/Core/Paginator.php` | High
+52 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
+53 | File | `artlinks.dispnew.php` | High
+54 | File | `auth.php` | Medium
+55 | File | `bin/named/query.c` | High
+56 | File | `blank.php` | Medium
+57 | File | `blocklayered-ajax.php` | High
+58 | File | `blogger-importer.php` | High
+59 | ... | ... | ...
 
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 516 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_fj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_fj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_fj.netset
 
 ## Literature
 

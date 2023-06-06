@@ -41,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -52,50 +52,54 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin.php/news/admin/topic/save` | High
 2 | File | `/admin.php/user/level_del` | High
 3 | File | `/admin.php?r=admin/AdminBackup/del` | High
-4 | File | `/admin/dl_sendmail.php` | High
-5 | File | `/admin/friendlylink/list` | High
-6 | File | `/alarm_pi/alarmService.php` | High
-7 | File | `/Ap4RtpAtom.cpp` | High
-8 | File | `/api/v2/cli/commands` | High
-9 | File | `/bcms/admin/?page=sales/view_details` | High
-10 | File | `/categorypage.php` | High
-11 | File | `/cgi-bin/hi3510/param.cgi` | High
-12 | File | `/cgi-bin/user/Config.cgi` | High
-13 | File | `/classes/Master.php?f=delete_student` | High
-14 | File | `/course/api/upload/pic` | High
-15 | File | `/htdocs/cgibin` | High
-16 | File | `/icingaweb2/navigation/add` | High
-17 | File | `/mkshop/Men/profile.php` | High
-18 | File | `/module/index.php` | High
-19 | File | `/Monitoring-History.php` | High
-20 | File | `/my_photo_gallery/image.php` | High
-21 | File | `/product.php` | Medium
-22 | File | `/ServletAPI/accounts/login` | High
-23 | File | `/spip.php` | Medium
-24 | File | `/uncpath/` | Medium
-25 | File | `/usr/bin/pkexec` | High
-26 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-27 | File | `/videotalk` | Medium
-28 | File | `/vloggers_merch/?p=products` | High
-29 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
-30 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
-31 | File | `/web/MCmsAction.java` | High
-32 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-33 | File | `activity_log.php` | High
-34 | File | `adclick.php` | Medium
-35 | File | `adm/systools.asp` | High
-36 | File | `admin.jcomments.php` | High
-37 | File | `admin/dashboard.php` | High
-38 | File | `admin/departments/manage_department.php` | High
-39 | File | `admin/getparam.cgi` | High
-40 | File | `admin/login.asp` | High
-41 | File | `admin/media/index.php"` | High
-42 | File | `adminCons.php` | High
-43 | File | `AdminViewError/AdminAddadmin` | High
-44 | File | `admin_add.php` | High
-45 | ... | ... | ...
+4 | File | `/admin/bookings/view_booking.php` | High
+5 | File | `/admin/dl_sendmail.php` | High
+6 | File | `/admin/friendlylink/list` | High
+7 | File | `/admin/offenses/view_details.php` | High
+8 | File | `/alarm_pi/alarmService.php` | High
+9 | File | `/Ap4RtpAtom.cpp` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/bcms/admin/?page=sales/view_details` | High
+12 | File | `/categorypage.php` | High
+13 | File | `/cgi-bin/hi3510/param.cgi` | High
+14 | File | `/cgi-bin/user/Config.cgi` | High
+15 | File | `/classes/Master.php?f=delete_student` | High
+16 | File | `/course/api/upload/pic` | High
+17 | File | `/DXR.axd` | Medium
+18 | File | `/htdocs/cgibin` | High
+19 | File | `/icingaweb2/navigation/add` | High
+20 | File | `/mkshop/Men/profile.php` | High
+21 | File | `/module/index.php` | High
+22 | File | `/Monitoring-History.php` | High
+23 | File | `/my_photo_gallery/image.php` | High
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/product.php` | Medium
+26 | File | `/ServletAPI/accounts/login` | High
+27 | File | `/spip.php` | Medium
+28 | File | `/uncpath/` | Medium
+29 | File | `/usr/bin/pkexec` | High
+30 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
+31 | File | `/videotalk` | Medium
+32 | File | `/vloggers_merch/?p=products` | High
+33 | File | `/vloggers_merch/classes/Master.php?f=delete_category` | High
+34 | File | `/vloggers_merch/classes/Master.php?f=delete_product` | High
+35 | File | `/web/MCmsAction.java` | High
+36 | File | `/zm/index.php` | High
+37 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+38 | File | `activity_log.php` | High
+39 | File | `adclick.php` | Medium
+40 | File | `adm/systools.asp` | High
+41 | File | `admin.cropcanvas.php` | High
+42 | File | `admin.jcomments.php` | High
+43 | File | `admin/dashboard.php` | High
+44 | File | `admin/departments/manage_department.php` | High
+45 | File | `admin/getparam.cgi` | High
+46 | File | `admin/login.asp` | High
+47 | File | `admin/media/index.php"` | High
+48 | File | `adminCons.php` | High
+49 | ... | ... | ...
 
-There are 393 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 426 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

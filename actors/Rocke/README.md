@@ -72,37 +72,36 @@ ID | Type | Indicator | Confidence
 7 | File | `/auth/fn.php` | Medium
 8 | File | `/bin/sh` | Low
 9 | File | `/cgi-bin/ExportLogs.sh` | High
-10 | File | `/common/sysFile/list` | High
-11 | File | `/context/%2e/WEB-INF/web.xml` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/Default/Bd` | Medium
-14 | File | `/dist/index.js` | High
-15 | File | `/editor/index.php` | High
-16 | File | `/Electron/download` | High
-17 | File | `/etc/openstack-dashboard/local_settings` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/goform/addressNat` | High
-20 | File | `/goForm/aspForm` | High
-21 | File | `/include/Model/Upload.php` | High
-22 | File | `/js/player/dmplayer/dmku/index.php` | High
-23 | File | `/kruxton/sales_report.php` | High
-24 | File | `/message/form/` | High
-25 | File | `/nasm/nasm-token.re` | High
-26 | File | `/orrs/admin/?page=user/manage_user` | High
-27 | File | `/param.file.tgz` | High
-28 | File | `/php-jms/updateBlankTxtview.php` | High
-29 | File | `/product/savenewproduct.php?flag=1` | High
-30 | File | `/rrdp` | Low
-31 | File | `/secure/QueryComponent!Default.jspa` | High
-32 | File | `/send_order.cgi?parameter=access_detect` | High
-33 | File | `/static/ueditor/php/controller.php` | High
-34 | File | `/subtitles.php` | High
-35 | File | `/tourism/rate_review.php` | High
-36 | File | `/views/directive/sys/SysConfigDataDirective.java` | High
-37 | File | `a-forms.php` | Medium
-38 | ... | ... | ...
+10 | File | `/classes/Master.php?f=save_service` | High
+11 | File | `/classes/Users.php?f=save` | High
+12 | File | `/common/sysFile/list` | High
+13 | File | `/context/%2e/WEB-INF/web.xml` | High
+14 | File | `/data/remove` | Medium
+15 | File | `/debug/pprof` | Medium
+16 | File | `/Default/Bd` | Medium
+17 | File | `/dist/index.js` | High
+18 | File | `/editor/index.php` | High
+19 | File | `/Electron/download` | High
+20 | File | `/etc/openstack-dashboard/local_settings` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/goform/addressNat` | High
+23 | File | `/goForm/aspForm` | High
+24 | File | `/inc/jquery/uploadify/uploadify.php` | High
+25 | File | `/include/Model/Upload.php` | High
+26 | File | `/js/player/dmplayer/dmku/index.php` | High
+27 | File | `/kruxton/sales_report.php` | High
+28 | File | `/message/form/` | High
+29 | File | `/nasm/nasm-token.re` | High
+30 | File | `/orrs/admin/?page=user/manage_user` | High
+31 | File | `/param.file.tgz` | High
+32 | File | `/php-jms/updateBlankTxtview.php` | High
+33 | File | `/product/savenewproduct.php?flag=1` | High
+34 | File | `/rrdp` | Low
+35 | File | `/secure/QueryComponent!Default.jspa` | High
+36 | File | `/send_order.cgi?parameter=access_detect` | High
+37 | ... | ... | ...
 
-There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 318 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

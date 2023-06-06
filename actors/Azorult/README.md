@@ -27,10 +27,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [37.140.192.166](https://vuldb.com/?ip.37.140.192.166) | scp46.hosting.reg.ru | - | High
 5 | [45.76.18.39](https://vuldb.com/?ip.45.76.18.39) | 45.76.18.39.vultrusercontent.com | - | High
 6 | [45.139.236.14](https://vuldb.com/?ip.45.139.236.14) | - | - | High
-7 | [67.199.248.10](https://vuldb.com/?ip.67.199.248.10) | bit.ly | - | High
+7 | [66.151.174.10](https://vuldb.com/?ip.66.151.174.10) | da1.hosteons.com | - | High
 8 | ... | ... | ... | ...
 
-There are 26 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -78,7 +78,7 @@ ID | Type | Indicator | Confidence
 23 | File | `actions/ChangeConfiguration.html` | High
 24 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 200 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,6 +89,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0117-0124.html
 * https://cert.gov.ua/article/2806
 * https://isc.sans.edu/forums/diary/More+malspam+pushing+passwordprotected+Word+docs+for+AZORult+and+Hermes+Ransomware/23992/
+* https://threatfox.abuse.ch
+* https://tria.ge/220314-ymactadghk
+* https://tria.ge/220602-c7n6tagcgn
 
 ## Literature
 

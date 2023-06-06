@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [67.225.218.50](https://vuldb.com/?ip.67.225.218.50) | lb01.parklogic.com | - | High
 10 | ... | ... | ... | ...
 
-There are 36 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,7 +46,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -103,6 +103,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/04/threat-roundup-0417-0424.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 * https://blog.talosintelligence.com/threat-roundup-0106-0113/
+* https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
 
 ## Literature
 

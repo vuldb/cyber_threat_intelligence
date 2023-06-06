@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Log4Shell:
 
-* [DE](https://vuldb.com/?country.de)
 * [SC](https://vuldb.com/?country.sc)
+* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
 * ...
 
@@ -82,13 +82,9 @@ ID | IP address | Hostname | Actor | Confidence
 45 | [68.183.36.244](https://vuldb.com/?ip.68.183.36.244) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 46 | [68.183.44.143](https://vuldb.com/?ip.68.183.44.143) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 47 | [68.183.45.190](https://vuldb.com/?ip.68.183.45.190) | 719702.cloudwaysapps.com | [Unknown](https://vuldb.com/?actor.unknown) | High
-48 | [68.183.192.239](https://vuldb.com/?ip.68.183.192.239) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-49 | [68.183.198.36](https://vuldb.com/?ip.68.183.198.36) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-50 | [68.183.198.247](https://vuldb.com/?ip.68.183.198.247) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-51 | [68.183.207.73](https://vuldb.com/?ip.68.183.207.73) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-52 | ... | ... | ... | ...
+48 | ... | ... | ... | ...
 
-There are 204 more IOC items available. Please use our online service to access the data.
+There are 188 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -96,7 +92,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-29, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -104,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 25 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -113,53 +109,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin/ajax.php?action=delete_user` | High
-3 | File | `/admin/attendance_row.php` | High
-4 | File | `/admin/configurations/userInfo` | High
-5 | File | `/admin/curriculum/view_curriculum.php` | High
-6 | File | `/admin/deduction_row.php` | High
-7 | File | `/admin/employee_row.php` | High
-8 | File | `/admin/login.php` | High
-9 | File | `/admin/maintenance/brand.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/mechanics/manage_mechanic.php` | High
-12 | File | `/admin/report/index.php` | High
+2 | File | `/admin/ajax.php?action=delete_uploads` | High
+3 | File | `/admin/ajax.php?action=delete_user` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/configurations/userInfo` | High
+7 | File | `/admin/deduction_row.php` | High
+8 | File | `/admin/employee_row.php` | High
+9 | File | `/admin/login.php` | High
+10 | File | `/admin/maintenance/brand.php` | High
+11 | File | `/admin/maintenance/view_designation.php` | High
+12 | File | `/admin/mechanics/manage_mechanic.php` | High
 13 | File | `/admin/sales/manage_sale.php` | High
-14 | File | `/admin/services/manage_service.php` | High
-15 | File | `/admin/service_requests/manage_inventory.php` | High
-16 | File | `/admin/transactions/track_shipment.php` | High
-17 | File | `/admin/user/manage_user.php` | High
+14 | File | `/admin/service_requests/manage_inventory.php` | High
+15 | File | `/admin/transactions/track_shipment.php` | High
+16 | File | `/admin/user/manage_user.php` | High
+17 | File | `/ajax.php?action=save_company` | High
 18 | File | `/api/baskets/{name}` | High
-19 | File | `/app/dao/CustomerDAO.php` | High
+19 | File | `/api/stl/actions/search` | High
 20 | File | `/apply.cgi` | Medium
 21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-23 | File | `/cgi-bin/touchlist_sync.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Users.php` | High
-26 | File | `/config/api/v1/reboot` | High
-27 | File | `/etc/shadow` | Medium
-28 | File | `/file_manager/admin/save_user.php` | High
-29 | File | `/food` | Low
-30 | File | `/forum/away.php` | High
-31 | File | `/forum/PostPrivateMessage` | High
-32 | File | `/forums.php?action=post` | High
-33 | File | `/fos/admin/ajax.php?action=login` | High
-34 | File | `/fos/admin/index.php?page=menu` | High
-35 | File | `/goForm/aspForm` | High
-36 | File | `/hss/classes/Users.php?f=delete` | High
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/index/user/user_edit.html` | High
-39 | File | `/kelas/data` | Medium
-40 | File | `/login/index.php` | High
-41 | File | `/mogu-picture/file/uploadPicsByUrl` | High
-42 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-43 | File | `/owa/auth/logon.aspx` | High
-44 | File | `/param.file.tgz` | High
-45 | File | `/rest/api/2/user/picker` | High
-46 | ... | ... | ...
+22 | File | `/cgi-bin/touchlist_sync.cgi` | High
+23 | File | `/classes/Master.php` | High
+24 | File | `/config/api/v1/reboot` | High
+25 | File | `/DXR.axd` | Medium
+26 | File | `/etc/shadow` | Medium
+27 | File | `/file_manager/admin/save_user.php` | High
+28 | File | `/forum/away.php` | High
+29 | File | `/forum/PostPrivateMessage` | High
+30 | File | `/forums.php?action=post` | High
+31 | File | `/fos/admin/ajax.php?action=login` | High
+32 | File | `/fos/admin/index.php?page=menu` | High
+33 | File | `/goForm/aspForm` | High
+34 | File | `/goform/WifiBasicSet` | High
+35 | File | `/hss/admin/?page=client/manage_client` | High
+36 | File | `/index.php?app=main&func=passport&action=login` | High
+37 | File | `/kelas/data` | Medium
+38 | File | `/login/index.php` | High
+39 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+40 | File | `/owa/auth/logon.aspx` | High
+41 | File | `/param.file.tgz` | High
+42 | File | `/royal_event/userregister.php` | High
+43 | File | `/rrdp` | Low
+44 | File | `/Security/Transactions/Transactions.aspx` | High
+45 | File | `/Session` | Medium
+46 | File | `/setNTP.cgi` | Medium
+47 | File | `/tpts/manage_user.php` | High
+48 | File | `/u/username.json` | High
+49 | File | `/user/s.php` | Medium
+50 | ... | ... | ...
 
-There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

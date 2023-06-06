@@ -63,9 +63,10 @@ ID | Type | Indicator | Confidence
 6 | File | `adminpanel/modules/pro/inc/ajax.php` | High
 7 | File | `api.php` | Low
 8 | File | `avrc_pars_tg.cc` | High
-9 | ... | ... | ...
+9 | File | `awstats.pl` | Medium
+10 | ... | ... | ...
 
-There are 68 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -51,7 +51,7 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -65,8 +65,8 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/lab.php` | High
-3 | File | `/ajax/networking/get_netcfg.php` | High
-4 | File | `/api/collection/findone` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
 5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/api/geojson` | Medium
 7 | File | `/app/options.py` | High
@@ -77,23 +77,23 @@ ID | Type | Indicator | Confidence
 12 | File | `/ci_spms/admin/search/searching/` | High
 13 | File | `/classes/Master.php?f=delete_appointment` | High
 14 | File | `/classes/Master.php?f=delete_train` | High
-15 | File | `/cms/print.php` | High
-16 | File | `/concat?/%2557EB-INF/web.xml` | High
-17 | File | `/Content/Template/root/reverse-shell.aspx` | High
-18 | File | `/ctcprotocol/Protocol` | High
-19 | File | `/dashboard/menu-list.php` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/debug` | Low
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/setmac` | High
-26 | File | `/goform/wlanPrimaryNetwork` | High
-27 | File | `/goforms/rlminfo` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/Items/*/RemoteImages/Download` | High
-31 | File | `/menu.html` | Medium
+15 | File | `/concat?/%2557EB-INF/web.xml` | High
+16 | File | `/Content/Template/root/reverse-shell.aspx` | High
+17 | File | `/ctcprotocol/Protocol` | High
+18 | File | `/dashboard/menu-list.php` | High
+19 | File | `/data/remove` | Medium
+20 | File | `/debug` | Low
+21 | File | `/ebics-server/ebics.aspx` | High
+22 | File | `/ffos/classes/Master.php?f=save_category` | High
+23 | File | `/forum/away.php` | High
+24 | File | `/goform/setmac` | High
+25 | File | `/goform/wlanPrimaryNetwork` | High
+26 | File | `/goforms/rlminfo` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/HNAP1/SetClientInfo` | High
+29 | File | `/Items/*/RemoteImages/Download` | High
+30 | File | `/menu.html` | Medium
+31 | File | `/modules/profile/index.php` | High
 32 | File | `/navigate/navigate_download.php` | High
 33 | File | `/ocwbs/admin/?page=user/manage_user` | High
 34 | File | `/ofrs/admin/?page=user/manage_user` | High
@@ -105,12 +105,9 @@ ID | Type | Indicator | Confidence
 40 | File | `/resources//../` | High
 41 | File | `/rest/api/2/search` | High
 42 | File | `/s/` | Low
-43 | File | `/scripts/cpan_config` | High
-44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-45 | File | `/spip.php` | Medium
-46 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 375 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

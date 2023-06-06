@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -31,24 +31,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-2 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-3 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-5 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-6 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-7 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-8 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-9 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-10 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-11 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | Medium
-12 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-13 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-14 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-15 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-16 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
-17 | ... | ... | ... | ...
+2 | [5.101.0.32](https://vuldb.com/?ip.5.101.0.32) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+3 | [5.135.183.146](https://vuldb.com/?ip.5.135.183.146) | freya.stelas.de | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+4 | [5.196.8.173](https://vuldb.com/?ip.5.196.8.173) | vps-b5645e9a.vps.ovh.net | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+5 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+6 | [20.45.1.107](https://vuldb.com/?ip.20.45.1.107) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+7 | [23.0.48.75](https://vuldb.com/?ip.23.0.48.75) | a23-0-48-75.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+8 | [23.0.209.167](https://vuldb.com/?ip.23.0.209.167) | a23-0-209-167.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+9 | [23.3.13.154](https://vuldb.com/?ip.23.3.13.154) | a23-3-13-154.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+10 | [23.6.69.99](https://vuldb.com/?ip.23.6.69.99) | a23-6-69-99.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+11 | [23.13.211.142](https://vuldb.com/?ip.23.13.211.142) | a23-13-211-142.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+12 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | Medium
+13 | [23.66.61.153](https://vuldb.com/?ip.23.66.61.153) | a23-66-61-153.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+14 | [23.193.177.127](https://vuldb.com/?ip.23.193.177.127) | a23-193-177-127.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+15 | [23.218.40.161](https://vuldb.com/?ip.23.218.40.161) | a23-218-40-161.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+16 | [23.221.48.201](https://vuldb.com/?ip.23.221.48.201) | a23-221-48-201.deploy.static.akamaitechnologies.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+17 | [27.102.67.144](https://vuldb.com/?ip.27.102.67.144) | - | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+18 | [31.13.65.36](https://vuldb.com/?ip.31.13.65.36) | edge-star-mini-shv-01-atl3.facebook.com | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+19 | [31.210.170.195](https://vuldb.com/?ip.31.210.170.195) | vps16632.hosted-by.eurohoster.online | [SmokeLoader](https://vuldb.com/?actor.smokeloader) | High
+20 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 74 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -61,9 +64,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -73,66 +77,68 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
 2 | File | `.pref.xml` | Medium
-3 | File | `/admin/admin_login.php` | High
-4 | File | `/admin/edit-doc.php` | High
-5 | File | `/admin/profile/save_profile` | High
-6 | File | `/aux` | Low
-7 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-8 | File | `/cgi-bin/luci` | High
-9 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-10 | File | `/config.cgi?webmin` | High
-11 | File | `/config/getuser` | High
-12 | File | `/debug/pprof` | Medium
-13 | File | `/etc/config/rpcd` | High
-14 | File | `/etc/gsissh/sshd_config` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/gateway/services/EdgeServiceImpl` | High
-17 | File | `/getcfg.php` | Medium
-18 | File | `/goform/dir_setWanWifi` | High
-19 | File | `/goform/telnet` | High
-20 | File | `/goform/WanParameterSetting` | High
-21 | File | `/HNAP1` | Low
-22 | File | `/include/makecvs.php` | High
-23 | File | `/js/app.js` | Medium
-24 | File | `/knomi/analyze` | High
-25 | File | `/mgmt/tm/util/bash` | High
-26 | File | `/monitoring` | Medium
-27 | File | `/opt/pia/ruby/64/ruby` | High
-28 | File | `/Pwrchute` | Medium
-29 | File | `/reports/rwservlet` | High
-30 | File | `/scripts/iisadmin/bdir.htr` | High
-31 | File | `/setSystemAdmin` | High
-32 | File | `/skyboxview-softwareupdate/services/CollectorSoftwareUpdate` | High
-33 | File | `/tmp` | Low
-34 | File | `/tmp/csman/0` | Medium
-35 | File | `/ui/cbpc/login` | High
-36 | File | `/uncpath/` | Medium
-37 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-38 | File | `/var/hnap/timestamp` | High
-39 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
-40 | File | `/webmail/` | Medium
-41 | File | `/wordpress/wp-admin/admin.php` | High
-42 | File | `/wp-content/plugins/forum-server/feed.php` | High
-43 | File | `/{ADMIN-FILE}/` | High
-44 | File | `a2billing/customer/iridium_threed.php` | High
-45 | File | `address.html` | Medium
-46 | File | `adm/systools.asp` | High
-47 | File | `admin/admin_login.php` | High
-48 | File | `admin/dashboard.php` | High
-49 | ... | ... | ...
+3 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+4 | File | `/admin.add` | Medium
+5 | File | `/admin.php/news/admin/topic/save` | High
+6 | File | `/admin/admin_login.php` | High
+7 | File | `/admin/comn/service/update.json` | High
+8 | File | `/admin/edit-doc.php` | High
+9 | File | `/admin/profile/save_profile` | High
+10 | File | `/api/v2/labels/` | High
+11 | File | `/aux` | Low
+12 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
+13 | File | `/cgi-bin/luci` | High
+14 | File | `/config.cgi?webmin` | High
+15 | File | `/config/getuser` | High
+16 | File | `/debug/pprof` | Medium
+17 | File | `/dev/shm` | Medium
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/gateway/services/EdgeServiceImpl` | High
+22 | File | `/getcfg.php` | Medium
+23 | File | `/goform/dir_setWanWifi` | High
+24 | File | `/goform/telnet` | High
+25 | File | `/goform/WanParameterSetting` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/include/makecvs.php` | High
+28 | File | `/info.xml` | Medium
+29 | File | `/js/app.js` | Medium
+30 | File | `/knomi/analyze` | High
+31 | File | `/mgmt/tm/util/bash` | High
+32 | File | `/monitoring` | Medium
+33 | File | `/ofcms/company-c-47` | High
+34 | File | `/opac/Actions.php?a=login` | High
+35 | File | `/opt/pia/ruby/64/ruby` | High
+36 | File | `/Pwrchute` | Medium
+37 | File | `/scripts/iisadmin/bdir.htr` | High
+38 | File | `/spip.php` | Medium
+39 | File | `/tmp/csman/0` | Medium
+40 | File | `/ui/cbpc/login` | High
+41 | File | `/uncpath/` | Medium
+42 | File | `/usr/sbin/httpd` | High
+43 | File | `/util/print.c` | High
+44 | File | `/var/hnap/timestamp` | High
+45 | File | `/vloggers_merch/admin/?page=product/manage_product` | High
+46 | File | `/web/MCmsAction.java` | High
+47 | ... | ... | ...
 
-There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 408 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://asec.ahnlab.com/en/36634/
+* https://bazaar.abuse.ch/sample/5bbe4ff9dc3e2fb44d356785216d39faa2ea386b1a5227798aea9c2d18b8b3fa/
+* https://bazaar.abuse.ch/sample/5e30a88fb1c9a45bd6697990493098ca05e87b2560172ae89e9811ea887ff8b4/#intel
 * https://blog.talosintelligence.com/2020/01/threat-roundup-0124-0131.html
 * https://blog.talosintelligence.com/2021/07/threat-roundup-0716-0723.html
 * https://community.blueliv.com/#!/s/6333fa0182df417ed0331a1d
 * https://isc.sans.edu/forums/diary/Resumethemed+malspam+pushing+Smoke+Loader/23054/
 * https://research.checkpoint.com/2019/2019-resurgence-of-smokeloader/
+* https://threatfox.abuse.ch
+* https://tria.ge/220511-fxrezafgg2
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
 
 ## Literature

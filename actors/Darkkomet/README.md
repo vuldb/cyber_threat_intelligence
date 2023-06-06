@@ -25,11 +25,11 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [12.167.151.119](https://vuldb.com/?ip.12.167.151.119) | - | - | High
 3 | [20.72.235.82](https://vuldb.com/?ip.20.72.235.82) | - | - | High
 4 | [20.81.111.85](https://vuldb.com/?ip.20.81.111.85) | - | - | High
-5 | [23.221.227.172](https://vuldb.com/?ip.23.221.227.172) | a23-221-227-172.deploy.static.akamaitechnologies.com | - | High
-6 | [35.205.61.67](https://vuldb.com/?ip.35.205.61.67) | 67.61.205.35.bc.googleusercontent.com | - | Medium
+5 | [23.49.102.35](https://vuldb.com/?ip.23.49.102.35) | a23-49-102-35.deploy.static.akamaitechnologies.com | - | High
+6 | [23.221.227.172](https://vuldb.com/?ip.23.221.227.172) | a23-221-227-172.deploy.static.akamaitechnologies.com | - | High
 7 | ... | ... | ... | ...
 
-There are 23 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,7 +57,7 @@ ID | Type | Indicator | Confidence
 5 | File | `auth-gss2.c` | Medium
 6 | ... | ... | ...
 
-There are 37 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -71,6 +71,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/09/threat-roundup-0916-0923.html
 * https://blog.talosintelligence.com/threat-roundup-0113-0120/
 * https://blog.talosintelligence.com/threat-roundup-0414-0421-3/
+* https://blog.talosintelligence.com/threat-roundup-0526-0602/
 
 ## Literature
 

@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +49,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/dashboard/add-portfolio.php` | High
 2 | File | `/forum/away.php` | High
-3 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
-4 | File | `/login` | Low
-5 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
-6 | File | `/sdm-ws-rest/preconfiguration` | High
-7 | File | `/settings` | Medium
-8 | File | `/uapi/doc` | Medium
-9 | File | `/uncpath/` | Medium
-10 | File | `/updownload/t.report` | High
-11 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+3 | File | `/ghost/preview` | High
+4 | File | `/jerry-core/ecma/base/ecma-helpers-conversion.c` | High
+5 | File | `/login` | Low
+6 | File | `/opt/IBM/es/lib/libffq.cryptionjni.so` | High
+7 | File | `/sdm-ws-rest/preconfiguration` | High
+8 | File | `/settings` | Medium
+9 | File | `/uapi/doc` | Medium
+10 | File | `/uncpath/` | Medium
+11 | File | `/updownload/t.report` | High
 12 | ... | ... | ...
 
-There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 95 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

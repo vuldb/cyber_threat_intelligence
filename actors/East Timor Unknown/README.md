@@ -21,14 +21,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [43.254.56.0](https://vuldb.com/?ip.43.254.56.0) | - | - | High
-2 | [45.12.70.222](https://vuldb.com/?ip.45.12.70.222) | to-quit-up.globalhilive.com | - | High
-3 | [45.12.71.222](https://vuldb.com/?ip.45.12.71.222) | - | - | High
-4 | [45.115.72.0](https://vuldb.com/?ip.45.115.72.0) | - | - | High
-5 | [46.36.203.140](https://vuldb.com/?ip.46.36.203.140) | - | - | High
-6 | ... | ... | ... | ...
+1 | [14.137.33.0](https://vuldb.com/?ip.14.137.33.0) | - | - | High
+2 | [35.248.7.128](https://vuldb.com/?ip.35.248.7.128) | - | - | High
+3 | [35.248.7.144](https://vuldb.com/?ip.35.248.7.144) | - | - | High
+4 | [35.248.7.148](https://vuldb.com/?ip.35.248.7.148) | - | - | High
+5 | [35.248.7.150](https://vuldb.com/?ip.35.248.7.150) | var1.bch1-ae21-0.us.twtelecom.net | - | High
+6 | [35.248.7.152](https://vuldb.com/?ip.35.248.7.152) | - | - | High
+7 | [35.248.7.156](https://vuldb.com/?ip.35.248.7.156) | - | - | High
+8 | [35.248.7.158](https://vuldb.com/?ip.35.248.7.158) | var2.bch1-ae21-0.3549.level3.net | - | High
+9 | [43.243.120.0](https://vuldb.com/?ip.43.243.120.0) | - | - | High
+10 | ... | ... | ... | ...
 
-There are 21 more IOC items available. Please use our online service to access the data.
+There are 37 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,18 +53,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `fetchsettings.php` | High
-2 | File | `inc/config.php` | High
-3 | File | `jokes/index.php` | High
+1 | File | `/uncpath/` | Medium
+2 | File | `fetchsettings.php` | High
+3 | File | `inc/config.php` | High
 4 | ... | ... | ...
 
-There are 8 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_tl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_tl.netset
 
 ## Literature
 

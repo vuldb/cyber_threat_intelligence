@@ -37,7 +37,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [66.96.252.198](https://vuldb.com/?ip.66.96.252.198) | host-66-96-252-198.myrepublic.co.id | Cleaver | High
 9 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 31 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

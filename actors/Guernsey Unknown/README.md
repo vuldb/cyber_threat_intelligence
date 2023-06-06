@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.guernsey_unknown](https://vuldb.com/?actor.guernsey_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Guernsey Unknown:
-
-* [GB](https://vuldb.com/?country.gb)
-* [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 4 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Guernsey Unknown.
@@ -36,41 +25,32 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [46.36.200.120](https://vuldb.com/?ip.46.36.200.120) | - | - | High
 14 | [46.102.107.0](https://vuldb.com/?ip.46.102.107.0) | - | - | High
 15 | [46.235.128.0](https://vuldb.com/?ip.46.235.128.0) | - | - | High
-16 | ... | ... | ... | ...
+16 | [46.254.248.0](https://vuldb.com/?ip.46.254.248.0) | - | - | High
+17 | [62.68.160.0](https://vuldb.com/?ip.62.68.160.0) | bbdj62.68.160.0.network.sure.com | - | High
+18 | [62.68.170.0](https://vuldb.com/?ip.62.68.170.0) | - | - | High
+19 | [62.68.172.0](https://vuldb.com/?ip.62.68.172.0) | bbdj62.68.172.0.network.sure.com | - | High
+20 | [62.68.176.0](https://vuldb.com/?ip.62.68.176.0) | - | - | High
+21 | [62.68.184.0](https://vuldb.com/?ip.62.68.184.0) | - | - | High
+22 | [77.81.75.0](https://vuldb.com/?ip.77.81.75.0) | - | - | High
+23 | [78.41.0.0](https://vuldb.com/?ip.78.41.0.0) | - | - | High
+24 | [78.41.0.130](https://vuldb.com/?ip.78.41.0.130) | 130.0.41.78.jtglobal.com | - | High
+25 | [78.41.1.0](https://vuldb.com/?ip.78.41.1.0) | - | - | High
+26 | [78.41.2.0](https://vuldb.com/?ip.78.41.2.0) | - | - | High
+27 | [78.41.4.0](https://vuldb.com/?ip.78.41.4.0) | - | - | High
+28 | [78.111.192.0](https://vuldb.com/?ip.78.111.192.0) | - | - | High
+29 | [78.111.193.0](https://vuldb.com/?ip.78.111.193.0) | - | - | High
+30 | [78.111.194.0](https://vuldb.com/?ip.78.111.194.0) | - | - | High
+31 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Guernsey Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
-
-There are 9 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Guernsey Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/uncpath/` | Medium
-2 | File | `caddy/Resources/Public/JavaScript/e-payment/paymill/api/php/payment.php` | High
-3 | File | `class.classLoader.URLs[0]=jar` | High
-4 | ... | ... | ...
-
-There are 17 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_gg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_gg.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_gg.netset
 
 ## Literature
 

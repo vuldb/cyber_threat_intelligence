@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 8 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -47,13 +47,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/maint/modules/home/index.php` | High
-2 | File | `/uncpath/` | Medium
-3 | File | `/wp-admin/options-general.php` | High
-4 | File | `cgi.c` | Low
-5 | ... | ... | ...
+1 | File | `/admin/budget/manage_budget.php` | High
+2 | File | `/admin/edit_subject.php` | High
+3 | File | `/admin/save_teacher.php` | High
+4 | File | `/admin/service.php` | High
+5 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+6 | File | `/cas/logout` | Medium
+7 | File | `/dosen/data` | Medium
+8 | File | `/jurusan/data` | High
+9 | File | `/kelas/data` | Medium
+10 | File | `/kelasdosen/data` | High
+11 | File | `/mahasiswa/data` | High
+12 | ... | ... | ...
 
-There are 31 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 93 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

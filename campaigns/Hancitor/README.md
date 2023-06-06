@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -54,7 +54,8 @@ ID | IP address | Hostname | Actor | Confidence
 22 | [43.129.239.78](https://vuldb.com/?ip.43.129.239.78) | - | [TA551](https://vuldb.com/?actor.ta551) | High
 23 | [43.133.160.144](https://vuldb.com/?ip.43.133.160.144) | - | [TA551](https://vuldb.com/?actor.ta551) | High
 24 | [45.40.182.1](https://vuldb.com/?ip.45.40.182.1) | ip-45-40-182-1.ip.secureserver.net | [Hancitor](https://vuldb.com/?actor.hancitor) | High
-25 | ... | ... | ... | ...
+25 | [45.49.169.80](https://vuldb.com/?ip.45.49.169.80) | cpe-45-49-169-80.socal.res.rr.com | [Hancitor](https://vuldb.com/?actor.hancitor) | High
+26 | ... | ... | ... | ...
 
 There are 98 more IOC items available. Please use our online service to access the data.
 
@@ -101,8 +102,8 @@ ID | Type | Indicator | Confidence
 20 | File | `/owa/auth/logon.aspx` | High
 21 | File | `/rom-0` | Low
 22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-23 | File | `/SASWebReportStudio/logonAndRender.do` | High
-24 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+23 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+24 | File | `/ServletAPI/accounts/login` | High
 25 | File | `/textpattern/index.php` | High
 26 | File | `/trx_addons/v2/get/sc_layout` | High
 27 | File | `/v2/quantum/save-data-upload-big-file` | High
@@ -113,7 +114,7 @@ ID | Type | Indicator | Confidence
 32 | File | `adclick.php` | Medium
 33 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -132,6 +133,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://isc.sans.edu/forums/diary/RTF+files+for+Hancitor+utilize+exploit+for+CVE201711882/23271/
 * https://thedfirreport.com/2021/06/28/hancitor-continues-to-push-cobalt-strike/
 * https://thedfirreport.com/2021/11/01/from-zero-to-domain-admin/
+* https://tria.ge/220328-wn8kwshcdj
 * https://www.malware-traffic-analysis.net/2021/09/14/index.html
 
 ## Literature

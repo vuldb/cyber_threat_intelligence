@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Glupteba:
 
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * [FR](https://vuldb.com/?country.fr)
 
 ## IOC - Indicator of Compromise
@@ -23,26 +23,35 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [5.79.87.139](https://vuldb.com/?ip.5.79.87.139) | - | - | High
 4 | [5.79.87.153](https://vuldb.com/?ip.5.79.87.153) | - | - | High
 5 | [5.101.6.132](https://vuldb.com/?ip.5.101.6.132) | amoglo.ru | - | High
-6 | [23.5.238.97](https://vuldb.com/?ip.23.5.238.97) | a23-5-238-97.deploy.static.akamaitechnologies.com | - | High
-7 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
-8 | [40.90.22.185](https://vuldb.com/?ip.40.90.22.185) | - | - | High
-9 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
-10 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
-11 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
-12 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
-13 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
-14 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
-15 | [46.165.249.201](https://vuldb.com/?ip.46.165.249.201) | - | - | High
-16 | [46.165.249.203](https://vuldb.com/?ip.46.165.249.203) | - | - | High
-17 | [46.165.250.25](https://vuldb.com/?ip.46.165.250.25) | - | - | High
-18 | [69.55.5.249](https://vuldb.com/?ip.69.55.5.249) | - | - | High
-19 | [69.64.46.27](https://vuldb.com/?ip.69.64.46.27) | dragon085.startdedicated.de | - | High
-20 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
-21 | [72.21.91.29](https://vuldb.com/?ip.72.21.91.29) | - | - | High
-22 | [74.67.240.204](https://vuldb.com/?ip.74.67.240.204) | cpe-74-67-240-204.twcny.res.rr.com | - | High
-23 | ... | ... | ... | ...
+6 | [20.60.148.196](https://vuldb.com/?ip.20.60.148.196) | - | - | High
+7 | [20.60.161.225](https://vuldb.com/?ip.20.60.161.225) | - | - | High
+8 | [20.150.38.228](https://vuldb.com/?ip.20.150.38.228) | - | - | High
+9 | [20.150.70.36](https://vuldb.com/?ip.20.150.70.36) | - | - | High
+10 | [20.150.79.68](https://vuldb.com/?ip.20.150.79.68) | - | - | High
+11 | [20.209.34.36](https://vuldb.com/?ip.20.209.34.36) | - | - | High
+12 | [23.5.238.97](https://vuldb.com/?ip.23.5.238.97) | a23-5-238-97.deploy.static.akamaitechnologies.com | - | High
+13 | [37.48.81.151](https://vuldb.com/?ip.37.48.81.151) | - | - | High
+14 | [40.90.22.185](https://vuldb.com/?ip.40.90.22.185) | - | - | High
+15 | [40.112.72.205](https://vuldb.com/?ip.40.112.72.205) | - | - | High
+16 | [43.231.4.7](https://vuldb.com/?ip.43.231.4.7) | - | - | High
+17 | [45.15.156.202](https://vuldb.com/?ip.45.15.156.202) | - | - | High
+18 | [45.90.34.87](https://vuldb.com/?ip.45.90.34.87) | - | - | High
+19 | [46.165.244.129](https://vuldb.com/?ip.46.165.244.129) | - | - | High
+20 | [46.165.249.167](https://vuldb.com/?ip.46.165.249.167) | - | - | High
+21 | [46.165.249.195](https://vuldb.com/?ip.46.165.249.195) | - | - | High
+22 | [46.165.249.201](https://vuldb.com/?ip.46.165.249.201) | - | - | High
+23 | [46.165.249.203](https://vuldb.com/?ip.46.165.249.203) | - | - | High
+24 | [46.165.250.25](https://vuldb.com/?ip.46.165.250.25) | - | - | High
+25 | [51.159.136.111](https://vuldb.com/?ip.51.159.136.111) | 111-136-159-51.instances.scw.cloud | - | High
+26 | [62.204.41.159](https://vuldb.com/?ip.62.204.41.159) | - | - | High
+27 | [69.55.5.249](https://vuldb.com/?ip.69.55.5.249) | - | - | High
+28 | [69.64.46.27](https://vuldb.com/?ip.69.64.46.27) | dragon085.startdedicated.de | - | High
+29 | [72.21.81.240](https://vuldb.com/?ip.72.21.81.240) | - | - | High
+30 | [72.21.91.29](https://vuldb.com/?ip.72.21.91.29) | - | - | High
+31 | [74.67.240.204](https://vuldb.com/?ip.74.67.240.204) | cpe-74-67-240-204.twcny.res.rr.com | - | High
+32 | ... | ... | ... | ...
 
-There are 87 more IOC items available. Please use our online service to access the data.
+There are 122 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -51,11 +60,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1505 | CWE-89 | SQL Injection | High
+2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,12 +72,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/pages/processlogin.php` | High
-2 | File | `formContactGroup.php` | High
-3 | Library | `tandberg/web/lib/secure.php` | High
+1 | File | `/admin/departments/view_department.php` | High
+2 | File | `/pages/processlogin.php` | High
+3 | File | `/wfo/control/emp_selector_pu` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -78,6 +87,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2020/12/threat-roundup-1204-1211.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0108-0115.html
 * https://blog.talosintelligence.com/2021/01/threat-roundup-0115-0122.html
+* https://blog.talosintelligence.com/threat-roundup-0505-0512-3/
+* https://blog.talosintelligence.com/threat-roundup-0526-0602/
+* https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://github.com/eset/malware-ioc/tree/master/glupteba
 
 ## Literature

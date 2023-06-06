@@ -52,10 +52,9 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [45.128.221.169](https://vuldb.com/?ip.45.128.221.169) | - | - | High
 24 | [45.128.221.172](https://vuldb.com/?ip.45.128.221.172) | - | - | High
 25 | [45.128.221.182](https://vuldb.com/?ip.45.128.221.182) | - | - | High
-26 | [45.128.221.186](https://vuldb.com/?ip.45.128.221.186) | - | - | High
-27 | ... | ... | ... | ...
+26 | ... | ... | ... | ...
 
-There are 103 more IOC items available. Please use our online service to access the data.
+There are 102 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,7 +65,8 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 

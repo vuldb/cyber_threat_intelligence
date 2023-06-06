@@ -84,22 +84,23 @@ ID | Type | Indicator | Confidence
 31 | File | `/replication` | Medium
 32 | File | `/service/upload` | High
 33 | File | `/services/details.asp` | High
-34 | File | `/trx_addons/v2/get/sc_layout` | High
-35 | File | `/uncpath/` | Medium
-36 | File | `/upload/catalog/controller/account/password.php` | High
-37 | File | `/usr/bin/pkexec` | High
-38 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-39 | File | `/wbms/classes/Master.php?f=delete_client` | High
-40 | File | `/WebMstr7/servlet/mstrWeb` | High
-41 | File | `/wp-admin/admin-ajax.php` | High
-42 | File | `4.edu.php` | Medium
-43 | File | `5.2.9\syscrb.exe` | High
-44 | File | `123flashchat.php` | High
-45 | File | `a2billing/customer/iridium_threed.php` | High
-46 | File | `add_ons.php` | Medium
-47 | ... | ... | ...
+34 | File | `/showfile.php` | High
+35 | File | `/trx_addons/v2/get/sc_layout` | High
+36 | File | `/uncpath/` | Medium
+37 | File | `/upload/catalog/controller/account/password.php` | High
+38 | File | `/usr/bin/pkexec` | High
+39 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+40 | File | `/wbms/classes/Master.php?f=delete_client` | High
+41 | File | `/WebMstr7/servlet/mstrWeb` | High
+42 | File | `/wp-admin/admin-ajax.php` | High
+43 | File | `4.edu.php` | Medium
+44 | File | `5.2.9\syscrb.exe` | High
+45 | File | `123flashchat.php` | High
+46 | File | `a2billing/customer/iridium_threed.php` | High
+47 | File | `add_ons.php` | Medium
+48 | ... | ... | ...
 
-There are 409 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

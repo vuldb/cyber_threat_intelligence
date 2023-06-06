@@ -8,6 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with ModernLoader:
 
+* [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [FR](https://vuldb.com/?country.fr)
 
 ## IOC - Indicator of Compromise
@@ -18,10 +20,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [31.41.244.231](https://vuldb.com/?ip.31.41.244.231) | - | - | High
 2 | [31.41.244.235](https://vuldb.com/?ip.31.41.244.235) | - | - | High
-3 | [62.204.41.71](https://vuldb.com/?ip.62.204.41.71) | - | - | High
+3 | [62.204.41.23](https://vuldb.com/?ip.62.204.41.23) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,7 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
 2 | T1059.007 | CWE-79 | Cross Site Scripting | High
-3 | T1068 | CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 5 more TTP items available. Please use our online service to access the data.
@@ -42,21 +44,28 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/api/theme-edit/` | High
-2 | File | `/face-recognition-php/facepay-master/camera.php` | High
-3 | File | `/forum/PostPrivateMessage` | High
-4 | File | `/home/masterConsole` | High
-5 | File | `/hrm/employeeadd.php` | High
-6 | File | `/hrm/employeeview.php` | High
-7 | ... | ... | ...
+1 | File | `/admin/ajax.php?action=save_window` | High
+2 | File | `/admin/api/theme-edit/` | High
+3 | File | `/face-recognition-php/facepay-master/camera.php` | High
+4 | File | `/forum/PostPrivateMessage` | High
+5 | File | `/home/masterConsole` | High
+6 | File | `/hrm/employeeadd.php` | High
+7 | File | `/hrm/employeeview.php` | High
+8 | File | `action.php` | Medium
+9 | ... | ... | ...
 
-There are 45 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 62 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/08/modernloader-delivers-multiple-stealers.txt
+* https://tracker.viriback.com/index.php?q=62.204.41.23
+* https://tracker.viriback.com/index.php?q=62.204.41.69
+* https://tracker.viriback.com/index.php?q=62.204.41.194
+* https://tracker.viriback.com/index.php?q=62.204.41.235
+* https://twitter.com/Yeti_Sec/status/1648670765116522496
 
 ## Literature
 

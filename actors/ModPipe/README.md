@@ -40,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,56 +48,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/admin/access` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.html` | High
-5 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
-6 | File | `/admin/posts.php` | High
-7 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
-8 | File | `/ci_ssms/index.php/orders/create` | High
-9 | File | `/edoc/doctor/patient.php` | High
-10 | File | `/fw.login.php` | High
-11 | File | `/home/masterConsole` | High
-12 | File | `/index.php` | Medium
-13 | File | `/membres/modif_profil.php` | High
-14 | File | `/ordering/admin/category/index.php?view=edit` | High
-15 | File | `/pet_shop/admin/orders/update_status.php` | High
-16 | File | `/pms/index.php` | High
-17 | File | `/pms/update_user.php?user_id=1` | High
-18 | File | `/SimpleBusTicket/index.php` | High
-19 | File | `/tmp` | Low
-20 | File | `/transcation.php` | High
-21 | File | `/uncpath/` | Medium
-22 | File | `/updown/upload.cgi` | High
-23 | File | `/usr/bin/pkexec` | High
-24 | File | `/var/run/docker.sock` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `/xpdf/Stream.cc` | High
-27 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-28 | File | `addpost_newpoll.php` | High
-29 | File | `adm-index.php` | High
-30 | File | `Admin.PHP` | Medium
-31 | File | `admin.php` | Medium
-32 | File | `admin.php&r=article/AdminContent/edit` | High
-33 | File | `admin/expense_report.php` | High
-34 | File | `admin/index.php` | High
-35 | File | `admin/ops/reports/ops/forum.php` | High
-36 | File | `admincp/attachment.php` | High
-37 | File | `adminedit.pl` | Medium
-38 | File | `ajax/api/hook/getHookList` | High
-39 | File | `App\Manage\Controller\ArticleController.class.php` | High
-40 | File | `archive/index.php` | High
-41 | File | `auth-gss2.c` | Medium
-42 | File | `backend/groups/index.php` | High
-43 | File | `bbs/member_confirm.php` | High
-44 | File | `bottom.php` | Medium
-45 | File | `breadcrumbs_create.php` | High
-46 | File | `C:\Program Files\FileZilla FTP Client\uninstall.exe` | High
-47 | File | `cds-fpdf.php` | Medium
-48 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/admin/access` | High
+4 | File | `/admin/addemployee.php` | High
+5 | File | `/admin/budget/manage_budget.php` | High
+6 | File | `/admin/index.html` | High
+7 | File | `/admin/index.php?id=themes&action=edit_template&filename=blog` | High
+8 | File | `/admin/manage_academic.php` | High
+9 | File | `/admin/posts.php` | High
+10 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+11 | File | `/ci_ssms/index.php/orders/create` | High
+12 | File | `/CPE` | Low
+13 | File | `/edoc/doctor/patient.php` | High
+14 | File | `/enterprise/www/student.php` | High
+15 | File | `/eval/admin/manage_subject.php` | High
+16 | File | `/front/actions.php` | High
+17 | File | `/fw.login.php` | High
+18 | File | `/home/masterConsole` | High
+19 | File | `/index.php` | Medium
+20 | File | `/membres/modif_profil.php` | High
+21 | File | `/NotrinosERP/sales/customer_delivery.php` | High
+22 | File | `/ordering/admin/category/index.php?view=edit` | High
+23 | File | `/pet_shop/admin/orders/update_status.php` | High
+24 | File | `/pms/index.php` | High
+25 | File | `/pms/update_user.php?user_id=1` | High
+26 | File | `/SimpleBusTicket/index.php` | High
+27 | File | `/tmp` | Low
+28 | File | `/transcation.php` | High
+29 | File | `/uncpath/` | Medium
+30 | File | `/updown/upload.cgi` | High
+31 | File | `/usr/bin/pkexec` | High
+32 | File | `/var/run/docker.sock` | High
+33 | File | `/wp-admin/admin-ajax.php` | High
+34 | File | `/xpdf/Stream.cc` | High
+35 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
+36 | File | `addons/mediapool/pages/index.php` | High
+37 | File | `addpost_newpoll.php` | High
+38 | File | `adm-index.php` | High
+39 | File | `Admin.PHP` | Medium
+40 | File | `admin.php` | Medium
+41 | File | `admin.php&r=article/AdminContent/edit` | High
+42 | File | `admin/expense_report.php` | High
+43 | File | `admin/index.php` | High
+44 | File | `admin/ops/reports/ops/forum.php` | High
+45 | File | `admin/versions.html` | High
+46 | File | `admincp/attachment.php` | High
+47 | File | `adminedit.pl` | Medium
+48 | File | `ajax.php` | Medium
+49 | File | `ajax/api/hook/getHookList` | High
+50 | File | `application/controllers/Leaves.php` | High
+51 | File | `App\Manage\Controller\ArticleController.class.php` | High
+52 | File | `archive/index.php` | High
+53 | File | `auth-gss2.c` | Medium
+54 | ... | ... | ...
 
-There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 468 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

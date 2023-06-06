@@ -63,10 +63,11 @@ ID | Type | Indicator | Confidence
 11 | File | `/etc/password` | High
 12 | File | `/show_group_members.php` | High
 13 | File | `/usr/etc/rpc.passwd` | High
-14 | File | `/WEB-INF/web.xml` | High
-15 | ... | ... | ...
+14 | File | `/v2/customerdb/operator.svc/a` | High
+15 | File | `/WEB-INF/web.xml` | High
+16 | ... | ... | ...
 
-There are 123 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

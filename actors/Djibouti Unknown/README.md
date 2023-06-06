@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,12 +23,22 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.61.96](https://vuldb.com/?ip.5.62.61.96) | r-96-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.72](https://vuldb.com/?ip.5.62.63.72) | r-72-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.189.224.0](https://vuldb.com/?ip.41.189.224.0) | - | - | High
-4 | [45.12.70.58](https://vuldb.com/?ip.45.12.70.58) | loathed.get-eye.com | - | High
-5 | [45.12.71.58](https://vuldb.com/?ip.45.12.71.58) | - | - | High
-6 | ... | ... | ... | ...
+3 | [8.254.47.0](https://vuldb.com/?ip.8.254.47.0) | - | - | High
+4 | [23.148.3.0](https://vuldb.com/?ip.23.148.3.0) | - | - | High
+5 | [41.87.120.0](https://vuldb.com/?ip.41.87.120.0) | - | - | High
+6 | [41.189.224.0](https://vuldb.com/?ip.41.189.224.0) | - | - | High
+7 | [41.189.230.0](https://vuldb.com/?ip.41.189.230.0) | - | - | High
+8 | [41.189.232.0](https://vuldb.com/?ip.41.189.232.0) | - | - | High
+9 | [41.189.240.0](https://vuldb.com/?ip.41.189.240.0) | - | - | High
+10 | [45.12.70.58](https://vuldb.com/?ip.45.12.70.58) | loathed.get-eye.com | - | High
+11 | [45.12.71.58](https://vuldb.com/?ip.45.12.71.58) | - | - | High
+12 | [45.195.97.0](https://vuldb.com/?ip.45.195.97.0) | - | - | High
+13 | [45.195.102.0](https://vuldb.com/?ip.45.195.102.0) | - | - | High
+14 | [45.195.210.0](https://vuldb.com/?ip.45.195.210.0) | - | - | High
+15 | [45.195.238.0](https://vuldb.com/?ip.45.195.238.0) | - | - | High
+16 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -73,20 +83,24 @@ ID | Type | Indicator | Confidence
 22 | File | `/wp-content/plugins/updraftplus/admin.php` | High
 23 | File | `act.php` | Low
 24 | File | `adclick.php` | Medium
-25 | File | `admin` | Low
-26 | File | `admin.php` | Medium
-27 | File | `admin/adminsignin.html` | High
-28 | File | `admin/movieview.php` | High
-29 | File | `admin/versions.html` | High
-30 | ... | ... | ...
+25 | File | `add_comment.php` | High
+26 | File | `admin` | Low
+27 | File | `admin.php` | Medium
+28 | File | `admin/adminsignin.html` | High
+29 | File | `admin/movieview.php` | High
+30 | File | `admin/versions.html` | High
+31 | File | `ajax_calls.php` | High
+32 | ... | ... | ...
 
-There are 258 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_dj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_dj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_dj.netset
 
 ## Literature
 

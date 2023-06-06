@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 18 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -28,12 +28,19 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [41.79.216.0](https://vuldb.com/?ip.41.79.216.0) | - | - | High
 6 | [41.85.160.0](https://vuldb.com/?ip.41.85.160.0) | - | - | High
 7 | [41.86.224.0](https://vuldb.com/?ip.41.86.224.0) | - | - | High
-8 | [41.138.88.0](https://vuldb.com/?ip.41.138.88.0) | - | - | High
-9 | [41.190.64.0](https://vuldb.com/?ip.41.190.64.0) | - | - | High
-10 | [41.191.84.0](https://vuldb.com/?ip.41.191.84.0) | - | - | High
-11 | ... | ... | ... | ...
+8 | [41.86.224.128](https://vuldb.com/?ip.41.86.224.128) | - | - | High
+9 | [41.86.224.192](https://vuldb.com/?ip.41.86.224.192) | - | - | High
+10 | [41.86.224.224](https://vuldb.com/?ip.41.86.224.224) | - | - | High
+11 | [41.86.224.240](https://vuldb.com/?ip.41.86.224.240) | - | - | High
+12 | [41.86.224.248](https://vuldb.com/?ip.41.86.224.248) | - | - | High
+13 | [41.86.224.252](https://vuldb.com/?ip.41.86.224.252) | - | - | High
+14 | [41.86.224.255](https://vuldb.com/?ip.41.86.224.255) | - | - | High
+15 | [41.86.225.0](https://vuldb.com/?ip.41.86.225.0) | - | - | High
+16 | [41.86.226.0](https://vuldb.com/?ip.41.86.226.0) | - | - | High
+17 | [41.86.228.0](https://vuldb.com/?ip.41.86.228.0) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 41 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 15 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,42 +62,46 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
-2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-8 | File | `/default.php?idx=17` | High
-9 | File | `/download` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/index.php` | Medium
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/product-list.php` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/uncpath/` | Medium
-19 | File | `/updown/upload.cgi` | High
-20 | File | `/user/del.php` | High
-21 | File | `/_next` | Low
-22 | File | `123flashchat.php` | High
-23 | File | `act.php` | Low
-24 | File | `admin/bad.php` | High
-25 | File | `admin/index.php` | High
-26 | File | `admin/index.php/user/del/1` | High
-27 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-28 | File | `administrator/index.php` | High
-29 | File | `ajax/render/widget_php` | High
-30 | File | `album_portal.php` | High
-31 | File | `api.php` | Low
-32 | File | `app/api/cms/user.py` | High
-33 | File | `application/home/controller/debug.php` | High
-34 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
+3 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+4 | File | `/admin/ajax/avatar.php` | High
+5 | File | `/admin/forgot-password.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/lab.php` | High
+8 | File | `/admin/payment.php` | High
+9 | File | `/admin/show.php` | High
+10 | File | `/advanced-tools/nova/bin/netwatch` | High
+11 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+12 | File | `/default.php?idx=17` | High
+13 | File | `/download` | Medium
+14 | File | `/forum/away.php` | High
+15 | File | `/index.php` | Medium
+16 | File | `/opt/bin/cli` | Medium
+17 | File | `/p` | Low
+18 | File | `/patient/doctors.php` | High
+19 | File | `/phpinventory/editcategory.php` | High
+20 | File | `/product-list.php` | High
+21 | File | `/proxy/` | Low
+22 | File | `/spip.php` | Medium
+23 | File | `/uncpath/` | Medium
+24 | File | `/updown/upload.cgi` | High
+25 | File | `/user/del.php` | High
+26 | File | `/_next` | Low
+27 | File | `123flashchat.php` | High
+28 | File | `act.php` | Low
+29 | File | `admin/admin_menu.php` | High
+30 | File | `admin/bad.php` | High
+31 | File | `admin/index.php` | High
+32 | File | `admin/index.php/user/del/1` | High
+33 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+34 | File | `administrator/index.php` | High
+35 | File | `agenda.php` | Medium
+36 | File | `ajax/render/widget_php` | High
+37 | File | `album_portal.php` | High
+38 | ... | ... | ...
 
-There are 295 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -98,6 +109,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bj.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bj.netset
 
 ## Literature
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 18 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,14 +23,19 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.60.220](https://vuldb.com/?ip.5.62.60.220) | r-220-60-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.62.212](https://vuldb.com/?ip.5.62.62.212) | r-212-62-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.76.16.0](https://vuldb.com/?ip.41.76.16.0) | - | - | High
-4 | [41.191.200.0](https://vuldb.com/?ip.41.191.200.0) | - | - | High
-5 | [41.203.176.0](https://vuldb.com/?ip.41.203.176.0) | - | - | High
-6 | [45.12.70.133](https://vuldb.com/?ip.45.12.70.133) | pitted.alltieinc.com | - | High
-7 | [45.12.71.133](https://vuldb.com/?ip.45.12.71.133) | - | - | High
-8 | ... | ... | ... | ...
+3 | [23.4.87.0](https://vuldb.com/?ip.23.4.87.0) | a23-4-87-0.deploy.static.akamaitechnologies.com | - | High
+4 | [41.21.232.182](https://vuldb.com/?ip.41.21.232.182) | vc-vb-41-21-232-182.ens.vodacom.co.za | - | High
+5 | [41.76.16.0](https://vuldb.com/?ip.41.76.16.0) | - | - | High
+6 | [41.191.200.0](https://vuldb.com/?ip.41.191.200.0) | - | - | High
+7 | [41.203.176.0](https://vuldb.com/?ip.41.203.176.0) | - | - | High
+8 | [45.12.70.133](https://vuldb.com/?ip.45.12.70.133) | pitted.alltieinc.com | - | High
+9 | [45.12.71.133](https://vuldb.com/?ip.45.12.71.133) | - | - | High
+10 | [45.42.198.0](https://vuldb.com/?ip.45.42.198.0) | - | - | High
+11 | [57.82.82.0](https://vuldb.com/?ip.57.82.82.0) | - | - | High
+12 | [57.83.160.0](https://vuldb.com/?ip.57.83.160.0) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 28 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -44,7 +49,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,45 +60,50 @@ ID | Type | Indicator | Confidence
 1 | File | `/?Page=Node/OBJ=/System/DeviceFolder/DeviceFolder/DateTime/Action=Submit` | High
 2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
 3 | File | `/admin/ajax/avatar.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/payment.php` | High
-6 | File | `/admin/show.php` | High
-7 | File | `/default.php?idx=17` | High
-8 | File | `/download` | Medium
-9 | File | `/forum/away.php` | High
-10 | File | `/index.php` | Medium
-11 | File | `/index.php/admins/Fields/get_fields.html` | High
-12 | File | `/opt/bin/cli` | Medium
-13 | File | `/p` | Low
-14 | File | `/patient/doctors.php` | High
-15 | File | `/phpinventory/editcategory.php` | High
-16 | File | `/php_action/createUser.php` | High
-17 | File | `/product-list.php` | High
-18 | File | `/spip.php` | Medium
-19 | File | `/uncpath/` | Medium
-20 | File | `/updown/upload.cgi` | High
-21 | File | `/user/del.php` | High
-22 | File | `/_next` | Low
-23 | File | `123flashchat.php` | High
-24 | File | `act.php` | Low
-25 | File | `admin/bad.php` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/index.php/user/del/1` | High
-28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
-29 | File | `administrator/index.php` | High
-30 | File | `ajax/render/widget_php` | High
-31 | File | `album_portal.php` | High
-32 | File | `api.php` | Low
-33 | File | `application/home/controller/debug.php` | High
-34 | ... | ... | ...
+4 | File | `/admin/forgot-password.php` | High
+5 | File | `/admin/index.php` | High
+6 | File | `/admin/lab.php` | High
+7 | File | `/admin/payment.php` | High
+8 | File | `/admin/show.php` | High
+9 | File | `/default.php?idx=17` | High
+10 | File | `/download` | Medium
+11 | File | `/forum/away.php` | High
+12 | File | `/index.php` | Medium
+13 | File | `/index.php/admins/Fields/get_fields.html` | High
+14 | File | `/opt/bin/cli` | Medium
+15 | File | `/p` | Low
+16 | File | `/patient/doctors.php` | High
+17 | File | `/phpinventory/editcategory.php` | High
+18 | File | `/php_action/createUser.php` | High
+19 | File | `/product-list.php` | High
+20 | File | `/spip.php` | Medium
+21 | File | `/uncpath/` | Medium
+22 | File | `/updown/upload.cgi` | High
+23 | File | `/user/del.php` | High
+24 | File | `/_next` | Low
+25 | File | `123flashchat.php` | High
+26 | File | `act.php` | Low
+27 | File | `admin/bad.php` | High
+28 | File | `admin/index.php` | High
+29 | File | `admin/index.php/user/del/1` | High
+30 | File | `admin/index.php?id=themes&action=edit_chunk` | High
+31 | File | `administrator/index.php` | High
+32 | File | `agenda.php` | Medium
+33 | File | `ajax/render/widget_php` | High
+34 | File | `album_portal.php` | High
+35 | File | `api.php` | Low
+36 | File | `application/home/controller/debug.php` | High
+37 | ... | ... | ...
 
-There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_ls.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_ls.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_ls.netset
 
 ## Literature
 

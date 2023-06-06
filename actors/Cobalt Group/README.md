@@ -10,7 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [PL](https://vuldb.com/?country.pl)
 * [DE](https://vuldb.com/?country.de)
-* [SV](https://vuldb.com/?country.sv)
+* [FR](https://vuldb.com/?country.fr)
 * ...
 
 There are 8 more country items available. Please use our online service to access the data.
@@ -54,46 +54,49 @@ ID | Type | Indicator | Confidence
 2 | File | `/action/wirelessConnect` | High
 3 | File | `/admin` | Low
 4 | File | `/admin/?page=user/manage_user` | High
-5 | File | `/admin/curriculum/view_curriculum.php` | High
-6 | File | `/Admin/dashboard.php` | High
-7 | File | `/admin/sales/view_details.php` | High
-8 | File | `/admin/sign/out` | High
-9 | File | `/api/common/ping` | High
-10 | File | `/api/v2/open/tablesInfo` | High
-11 | File | `/asms/classes/Master.php?f=delete_img` | High
-12 | File | `/bin/httpd` | Medium
-13 | File | `/catcompany.php` | High
-14 | File | `/classes/Master.php?f=delete_appointment` | High
-15 | File | `/classes/Users.php` | High
-16 | File | `/cms/notify` | Medium
-17 | File | `/depotHead/list` | High
-18 | File | `/device/signin` | High
-19 | File | `/etc/shadow.sample` | High
-20 | File | `/fusiondirectory/index.php` | High
-21 | File | `/goform/addressNat` | High
-22 | File | `/goform/fast_setting_wifi_set` | High
-23 | File | `/goform/WifiBasicSet` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/js/player/dmplayer/dmku/index.php` | High
-26 | File | `/lists/admin/` | High
-27 | File | `/login/index.php` | High
-28 | File | `/multi-vendor-shopping-script/product-list.php` | High
-29 | File | `/myAccount` | Medium
-30 | File | `/operations/travellers.php` | High
-31 | File | `/php-sms/admin/orders/update_status.php` | High
-32 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-33 | File | `/public/launchNewWindow.jsp` | High
-34 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-35 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-36 | File | `/release-x64/otfccdump+0x6e41a8` | High
-37 | File | `/rukovoditel/index.php?module=users/login` | High
-38 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
-39 | File | `/sys/duplicate/check` | High
-40 | File | `/timeline2.php` | High
-41 | File | `/ucenter/repass.php` | High
-42 | ... | ... | ...
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/curriculum/view_curriculum.php` | High
+7 | File | `/Admin/dashboard.php` | High
+8 | File | `/admin/edit_subject.php` | High
+9 | File | `/admin/sales/view_details.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/sign/out` | High
+12 | File | `/api/common/ping` | High
+13 | File | `/api/v2/open/tablesInfo` | High
+14 | File | `/asms/classes/Master.php?f=delete_img` | High
+15 | File | `/catcompany.php` | High
+16 | File | `/classes/Master.php?f=delete_appointment` | High
+17 | File | `/classes/Users.php` | High
+18 | File | `/cms/notify` | Medium
+19 | File | `/depotHead/list` | High
+20 | File | `/device/signin` | High
+21 | File | `/fusiondirectory/index.php` | High
+22 | File | `/goform/addressNat` | High
+23 | File | `/goform/fast_setting_wifi_set` | High
+24 | File | `/goform/RGFirewallEL` | High
+25 | File | `/goform/WifiBasicSet` | High
+26 | File | `/HNAP1` | Low
+27 | File | `/hslist` | Low
+28 | File | `/js/player/dmplayer/dmku/index.php` | High
+29 | File | `/lists/admin/` | High
+30 | File | `/login/index.php` | High
+31 | File | `/multi-vendor-shopping-script/product-list.php` | High
+32 | File | `/myAccount` | Medium
+33 | File | `/note/index/delete` | High
+34 | File | `/operations/travellers.php` | High
+35 | File | `/php-sms/admin/orders/update_status.php` | High
+36 | File | `/php-sms/classes/Master.php?f=delete_service` | High
+37 | File | `/public/launchNewWindow.jsp` | High
+38 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+39 | File | `/release-x64/otfccdump+0x6e7e3d` | High
+40 | File | `/release-x64/otfccdump+0x6e41a8` | High
+41 | File | `/rukovoditel/index.php?module=users/login` | High
+42 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
+43 | File | `/sys/duplicate/check` | High
+44 | File | `/timeline2.php` | High
+45 | ... | ... | ...
 
-There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 388 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

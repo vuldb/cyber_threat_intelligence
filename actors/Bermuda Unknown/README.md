@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.bermuda_unknown](https://vuldb.com/?actor.bermuda_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Bermuda Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [DE](https://vuldb.com/?country.de)
-* ...
-
-There are 21 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Bermuda Unknown.
@@ -23,101 +12,45 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.56.36](https://vuldb.com/?ip.5.62.56.36) | r-36-56-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.58.36](https://vuldb.com/?ip.5.62.58.36) | r-36-58-62-5.consumer-pool.prcdn.net | - | High
-3 | [45.12.70.27](https://vuldb.com/?ip.45.12.70.27) | specious.get-eye.com | - | High
-4 | [45.12.71.27](https://vuldb.com/?ip.45.12.71.27) | - | - | High
-5 | [45.42.144.0](https://vuldb.com/?ip.45.42.144.0) | - | - | High
-6 | [45.74.26.0](https://vuldb.com/?ip.45.74.26.0) | - | - | High
-7 | [63.85.42.0](https://vuldb.com/?ip.63.85.42.0) | - | - | High
-8 | [64.37.32.0](https://vuldb.com/?ip.64.37.32.0) | - | - | High
-9 | [64.147.80.0](https://vuldb.com/?ip.64.147.80.0) | 64.147.80.0.transact.bm | - | High
-10 | [65.171.98.0](https://vuldb.com/?ip.65.171.98.0) | - | - | High
-11 | [66.55.112.0](https://vuldb.com/?ip.66.55.112.0) | - | - | High
-12 | [66.97.172.0](https://vuldb.com/?ip.66.97.172.0) | - | - | High
-13 | [66.110.73.68](https://vuldb.com/?ip.66.110.73.68) | - | - | High
-14 | [66.110.73.96](https://vuldb.com/?ip.66.110.73.96) | - | - | High
-15 | [69.17.192.0](https://vuldb.com/?ip.69.17.192.0) | - | - | High
-16 | [74.114.240.0](https://vuldb.com/?ip.74.114.240.0) | - | - | High
-17 | [76.8.32.0](https://vuldb.com/?ip.76.8.32.0) | - | - | High
-18 | ... | ... | ... | ...
+3 | [38.69.208.0](https://vuldb.com/?ip.38.69.208.0) | - | - | High
+4 | [38.75.80.0](https://vuldb.com/?ip.38.75.80.0) | - | - | High
+5 | [45.12.70.27](https://vuldb.com/?ip.45.12.70.27) | specious.get-eye.com | - | High
+6 | [45.12.71.27](https://vuldb.com/?ip.45.12.71.27) | - | - | High
+7 | [45.42.144.0](https://vuldb.com/?ip.45.42.144.0) | - | - | High
+8 | [45.74.26.0](https://vuldb.com/?ip.45.74.26.0) | - | - | High
+9 | [63.85.42.0](https://vuldb.com/?ip.63.85.42.0) | - | - | High
+10 | [63.115.0.0](https://vuldb.com/?ip.63.115.0.0) | - | - | High
+11 | [63.115.2.0](https://vuldb.com/?ip.63.115.2.0) | - | - | High
+12 | [63.115.4.0](https://vuldb.com/?ip.63.115.4.0) | - | - | High
+13 | [63.115.8.0](https://vuldb.com/?ip.63.115.8.0) | - | - | High
+14 | [64.37.32.0](https://vuldb.com/?ip.64.37.32.0) | - | - | High
+15 | [64.37.44.0](https://vuldb.com/?ip.64.37.44.0) | - | - | High
+16 | [64.37.46.0](https://vuldb.com/?ip.64.37.46.0) | - | - | High
+17 | [64.124.184.205](https://vuldb.com/?ip.64.124.184.205) | 64.124.184.205.IPYX-063261-006-ZYO.zip.zayo.com | - | High
+18 | [64.147.80.0](https://vuldb.com/?ip.64.147.80.0) | 64.147.80.0.transact.bm | - | High
+19 | [65.22.10.0](https://vuldb.com/?ip.65.22.10.0) | - | - | High
+20 | [65.49.100.0](https://vuldb.com/?ip.65.49.100.0) | - | - | High
+21 | [65.171.98.0](https://vuldb.com/?ip.65.171.98.0) | - | - | High
+22 | [66.55.112.0](https://vuldb.com/?ip.66.55.112.0) | - | - | High
+23 | [66.97.172.0](https://vuldb.com/?ip.66.97.172.0) | - | - | High
+24 | [66.110.73.68](https://vuldb.com/?ip.66.110.73.68) | - | - | High
+25 | [66.110.73.96](https://vuldb.com/?ip.66.110.73.96) | - | - | High
+26 | [66.110.96.153](https://vuldb.com/?ip.66.110.96.153) | - | - | High
+27 | [69.17.192.0](https://vuldb.com/?ip.69.17.192.0) | - | - | High
+28 | [74.114.240.0](https://vuldb.com/?ip.74.114.240.0) | - | - | High
+29 | [76.8.32.0](https://vuldb.com/?ip.76.8.32.0) | - | - | High
+30 | [76.8.36.0](https://vuldb.com/?ip.76.8.36.0) | - | - | High
+31 | [76.8.38.0](https://vuldb.com/?ip.76.8.38.0) | - | - | High
+32 | [76.8.38.40](https://vuldb.com/?ip.76.8.38.40) | host-76-8-38-40.telebermuda.com | - | High
+33 | [76.8.38.48](https://vuldb.com/?ip.76.8.38.48) | host-76-8-38-48.telebermuda.com | - | High
+34 | [76.8.38.64](https://vuldb.com/?ip.76.8.38.64) | host-76-8-38-64.telebermuda.com | - | High
+35 | [76.8.38.128](https://vuldb.com/?ip.76.8.38.128) | host-76-8-38-128.telebermuda.com | - | High
+36 | [76.8.39.0](https://vuldb.com/?ip.76.8.39.0) | - | - | High
+37 | [76.8.40.0](https://vuldb.com/?ip.76.8.40.0) | - | - | High
+38 | [93.115.30.40](https://vuldb.com/?ip.93.115.30.40) | - | - | High
+39 | ... | ... | ... | ...
 
-There are 66 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Bermuda Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
-
-There are 15 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Bermuda Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/admin/photo.php` | High
-2 | File | `/admin/user/add` | High
-3 | File | `/APP_Installation.asp` | High
-4 | File | `/categorypage.php` | High
-5 | File | `/cm/delete` | Medium
-6 | File | `/common/logViewer/logViewer.jsf` | High
-7 | File | `/crmeb/app/admin/controller/store/CopyTaobao.php` | High
-8 | File | `/drivers/media/media-device.c` | High
-9 | File | `/etc/master.passwd` | High
-10 | File | `/filemanager/upload.php` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/getcfg.php` | Medium
-13 | File | `/home.php` | Medium
-14 | File | `/homeaction.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/modules/tasks/summary.inc.php` | High
-17 | File | `/multi-vendor-shopping-script/product-list.php` | High
-18 | File | `/out.php` | Medium
-19 | File | `/p` | Low
-20 | File | `/preauth` | Medium
-21 | File | `/products/details.asp` | High
-22 | File | `/recordings/index.php` | High
-23 | File | `/see_more_details.php` | High
-24 | File | `/show_news.php` | High
-25 | File | `/tmp/before` | Medium
-26 | File | `/uncpath/` | Medium
-27 | File | `/updownload/t.report` | High
-28 | File | `/user.profile.php` | High
-29 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-30 | File | `/wordpress/wp-admin/options-general.php` | High
-31 | File | `/wp-admin` | Medium
-32 | File | `/wp-admin/admin-ajax.php` | High
-33 | File | `account.asp` | Medium
-34 | File | `adclick.php` | Medium
-35 | File | `adm/systools.asp` | High
-36 | File | `admin.php` | Medium
-37 | File | `admin/admin.shtml` | High
-38 | File | `Admin/ADM_Pagina.php` | High
-39 | File | `admin/category.inc.php` | High
-40 | File | `admin/main.asp` | High
-41 | File | `admin/param/param_func.inc.php` | High
-42 | File | `admin/y_admin.asp` | High
-43 | File | `adminer.php` | Medium
-44 | File | `administrator/components/com_media/helpers/media.php` | High
-45 | File | `admin_ok.asp` | Medium
-46 | File | `app/Core/Paginator.php` | High
-47 | File | `app/index.php/accounts/default/details?id=2&kanbanBoard=1&openToTaskId=1` | High
-48 | File | `artlinks.dispnew.php` | High
-49 | File | `auth.php` | Medium
-50 | File | `bin/named/query.c` | High
-51 | File | `blank.php` | Medium
-52 | File | `blocklayered-ajax.php` | High
-53 | File | `bluegate_seo.inc.php` | High
-54 | ... | ... | ...
-
-There are 471 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOC items available. Please use our online service to access the data.
 
 ## References
 
@@ -125,6 +58,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bm.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bm.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bm.netset
 
 ## Literature
 

@@ -10,6 +10,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [LA](https://vuldb.com/?country.la)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +33,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 12 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,15 +43,18 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
-3 | File | `/spip.php` | Medium
-4 | File | `admin.jcomments.php` | High
-5 | File | `application/modules/admin/views/ecommerce/products.php` | High
-6 | File | `base/ErrorHandler.php` | High
-7 | File | `blog.php` | Medium
-8 | File | `c4t64fx.c` | Medium
-9 | ... | ... | ...
+3 | File | `/DXR.axd` | Medium
+4 | File | `/owa/auth/logon.aspx` | High
+5 | File | `/spip.php` | Medium
+6 | File | `/zm/index.php` | High
+7 | File | `admin.cropcanvas.php` | High
+8 | File | `admin.jcomments.php` | High
+9 | File | `application/modules/admin/views/ecommerce/products.php` | High
+10 | File | `base/ErrorHandler.php` | High
+11 | File | `blog.php` | Medium
+12 | ... | ... | ...
 
-There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

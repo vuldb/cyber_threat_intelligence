@@ -54,14 +54,14 @@ ID | Type | Indicator | Confidence
 3 | File | `/cgi-mod/lookup.cgi` | High
 4 | File | `/getcfg.php` | Medium
 5 | File | `/message/ajax/send/` | High
-6 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
-7 | File | `add_comment.php` | High
-8 | File | `app/controllers/application_controller.rb` | High
-9 | File | `application\api\controller\User.php` | High
-10 | File | `blog.php` | Medium
+6 | File | `/proc/self/environ` | High
+7 | File | `/sitecore/client/Applications/List Manager/Taskpages/Contact list` | High
+8 | File | `add_comment.php` | High
+9 | File | `app/controllers/application_controller.rb` | High
+10 | File | `application\api\controller\User.php` | High
 11 | ... | ... | ...
 
-There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 86 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

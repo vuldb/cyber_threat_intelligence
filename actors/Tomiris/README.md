@@ -30,7 +30,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-23 | Pathname Traversal | High
 2 | T1059.007 | CWE-80 | Cross Site Scripting | High
-3 | T1068 | CWE-264, CWE-284 | Execution with Unnecessary Privileges | High
+3 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
 There are 3 more TTP items available. Please use our online service to access the data.
@@ -41,12 +41,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/webadminget.cgi` | High
-2 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
-3 | File | `/public/login.htm` | High
+1 | File | `/admin/user/manage_user.php` | High
+2 | File | `/cgi-bin/webadminget.cgi` | High
+3 | File | `/opt/teradata/gsctools/bin/t2a.pl` | High
 4 | ... | ... | ...
 
-There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

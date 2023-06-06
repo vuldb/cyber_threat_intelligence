@@ -75,10 +75,9 @@ ID | IP address | Hostname | Campaign | Confidence
 52 | [46.21.250.40](https://vuldb.com/?ip.46.21.250.40) | 3010512.ds.had.pm | - | High
 53 | [46.29.114.16](https://vuldb.com/?ip.46.29.114.16) | pointer.vps.house | - | High
 54 | [46.105.124.55](https://vuldb.com/?ip.46.105.124.55) | 132.rbx.abcvg.ovh | - | High
-55 | [49.12.5.55](https://vuldb.com/?ip.49.12.5.55) | static.55.5.12.49.clients.your-server.de | - | High
-56 | ... | ... | ... | ...
+55 | ... | ... | ... | ...
 
-There are 221 more IOC items available. Please use our online service to access the data.
+There are 218 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -94,7 +93,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -108,34 +107,34 @@ ID | Type | Indicator | Confidence
 4 | File | `//proc/kcore` | Medium
 5 | File | `/?Key=PhoneRequestAuthorization` | High
 6 | File | `/admin.php/Admin/adminadd.html` | High
-7 | File | `/admin/access` | High
-8 | File | `/Admin/add-student.php` | High
-9 | File | `/admin/dl_sendmail.php` | High
-10 | File | `/admin/index.html` | High
-11 | File | `/admin/settings/save.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/apply.cgi` | Medium
-15 | File | `/bin/login` | Medium
-16 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-17 | File | `/cgi-bin/delete_CA` | High
-18 | File | `/cgi-bin/wlogin.cgi` | High
-19 | File | `/College/admin/teacher.php` | High
-20 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-21 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-22 | File | `/download` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/addUserName` | High
-25 | File | `/goform/aspForm` | High
-26 | File | `/goform/delAd` | High
-27 | File | `/goform/wifiSSIDset` | High
-28 | File | `/gpac/src/bifs/unquantize.c` | High
-29 | File | `/GponForm/device_Form?script/` | High
-30 | File | `/inc/topBarNav.php` | High
-31 | File | `/includes/rrdtool.inc.php` | High
-32 | File | `/index.asp` | Medium
-33 | File | `/index.php` | Medium
-34 | File | `/jfinal_cms/system/role/list` | High
+7 | File | `/Admin/add-student.php` | High
+8 | File | `/admin/dl_sendmail.php` | High
+9 | File | `/admin/settings/save.php` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/api/v2/cli/commands` | High
+12 | File | `/apply.cgi` | Medium
+13 | File | `/bin/login` | Medium
+14 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
+15 | File | `/cgi-bin/delete_CA` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/College/admin/teacher.php` | High
+18 | File | `/Config/SaveUploadedHotspotLogoFile` | High
+19 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+20 | File | `/dcim/rack-roles/` | High
+21 | File | `/download` | Medium
+22 | File | `/forum/away.php` | High
+23 | File | `/goform/addUserName` | High
+24 | File | `/goform/aspForm` | High
+25 | File | `/goform/delAd` | High
+26 | File | `/goform/wifiSSIDset` | High
+27 | File | `/gpac/src/bifs/unquantize.c` | High
+28 | File | `/GponForm/device_Form?script/` | High
+29 | File | `/inc/topBarNav.php` | High
+30 | File | `/includes/rrdtool.inc.php` | High
+31 | File | `/index.asp` | Medium
+32 | File | `/index.php` | Medium
+33 | File | `/jfinal_cms/system/role/list` | High
+34 | File | `/kelas/data` | Medium
 35 | File | `/Main_AdmStatus_Content.asp` | High
 36 | File | `/members/view_member.php` | High
 37 | File | `/Moosikay/order.php` | High
@@ -153,7 +152,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/zm/index.php` | High
 50 | ... | ... | ...
 
-There are 439 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

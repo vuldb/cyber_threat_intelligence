@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Magniber:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [IR](https://vuldb.com/?country.ir)
-* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -23,10 +23,10 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [92.222.121.30](https://vuldb.com/?ip.92.222.121.30) | ip30.ip-92-222-121.eu | - | High
 2 | [94.23.165.192](https://vuldb.com/?ip.94.23.165.192) | ip192.ip-94-23-165.eu | - | High
-3 | [149.202.112.72](https://vuldb.com/?ip.149.202.112.72) | ip72.ip-149-202-112.eu | - | High
+3 | [141.164.35.40](https://vuldb.com/?ip.141.164.35.40) | 141.164.35.40.vultrusercontent.com | - | High
 4 | ... | ... | ... | ...
 
-There are 1 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,9 +34,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1202 | CWE-78 | Command Injection | High
-2 | T1505 | CWE-89 | SQL Injection | High
-3 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 3 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -44,15 +47,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `data/gbconfiguration.dat` | High
-2 | File | `shopprojectlogin.asp` | High
-3 | Argument | `strpemail` | Medium
+1 | File | `/controller/Index.php` | High
+2 | File | `data/gbconfiguration.dat` | High
+3 | File | `shopprojectlogin.asp` | High
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/163/magniber-ransomware-iocs/
+* https://threatfox.abuse.ch
 
 ## Literature
 

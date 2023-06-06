@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -45,11 +45,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,21 +58,25 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/administration/theme.php` | High
-2 | File | `/api/` | Low
-3 | File | `/api/index.php` | High
-4 | File | `/cgi-bin/webproc` | High
-5 | File | `/coreframe/app/pay/admin/index.php` | High
-6 | File | `/forum/away.php` | High
-7 | File | `/index.php` | Medium
-8 | File | `/ofrs/admin/?page=requests/manage_request` | High
-9 | File | `/spip.php` | Medium
-10 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-11 | File | `/wp-admin/admin-ajax.php` | High
-12 | File | `announcement.php` | High
-13 | ... | ... | ...
+1 | File | `/admin/maintenance/view_designation.php` | High
+2 | File | `/administration/theme.php` | High
+3 | File | `/api/` | Low
+4 | File | `/api/index.php` | High
+5 | File | `/boafrm/formFilter` | High
+6 | File | `/cgi-bin/webproc` | High
+7 | File | `/coreframe/app/pay/admin/index.php` | High
+8 | File | `/forum/away.php` | High
+9 | File | `/index.php` | Medium
+10 | File | `/ofrs/admin/?page=requests/manage_request` | High
+11 | File | `/spip.php` | Medium
+12 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+13 | File | `/wp-admin/admin-ajax.php` | High
+14 | File | `activenews_view.asp` | High
+15 | File | `admincp/auth/secure.php` | High
+16 | File | `announcement.php` | High
+17 | ... | ... | ...
 
-There are 100 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 138 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

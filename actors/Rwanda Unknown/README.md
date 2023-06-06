@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.rwanda_unknown](https://vuldb.com/?actor.rwanda_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Rwanda Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 20 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Rwanda Unknown.
@@ -23,75 +12,35 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.62.61.108](https://vuldb.com/?ip.5.62.61.108) | r-108-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.84](https://vuldb.com/?ip.5.62.63.84) | r-84-63-62-5.consumer-pool.prcdn.net | - | High
-3 | [41.74.160.0](https://vuldb.com/?ip.41.74.160.0) | - | - | High
-4 | [41.78.98.128](https://vuldb.com/?ip.41.78.98.128) | - | - | High
-5 | [41.138.80.0](https://vuldb.com/?ip.41.138.80.0) | - | - | High
-6 | [41.186.0.0](https://vuldb.com/?ip.41.186.0.0) | - | - | High
-7 | [41.197.0.0](https://vuldb.com/?ip.41.197.0.0) | - | - | High
-8 | [41.215.248.0](https://vuldb.com/?ip.41.215.248.0) | - | - | High
-9 | [41.216.96.0](https://vuldb.com/?ip.41.216.96.0) | - | - | High
-10 | [41.222.244.0](https://vuldb.com/?ip.41.222.244.0) | - | - | High
-11 | ... | ... | ... | ...
+3 | [41.60.150.0](https://vuldb.com/?ip.41.60.150.0) | - | - | High
+4 | [41.74.160.0](https://vuldb.com/?ip.41.74.160.0) | - | - | High
+5 | [41.78.98.128](https://vuldb.com/?ip.41.78.98.128) | - | - | High
+6 | [41.84.200.0](https://vuldb.com/?ip.41.84.200.0) | - | - | High
+7 | [41.84.210.0](https://vuldb.com/?ip.41.84.210.0) | - | - | High
+8 | [41.87.122.0](https://vuldb.com/?ip.41.87.122.0) | - | - | High
+9 | [41.138.80.0](https://vuldb.com/?ip.41.138.80.0) | - | - | High
+10 | [41.173.24.0](https://vuldb.com/?ip.41.173.24.0) | - | - | High
+11 | [41.173.252.0](https://vuldb.com/?ip.41.173.252.0) | - | - | High
+12 | [41.175.53.0](https://vuldb.com/?ip.41.175.53.0) | - | - | High
+13 | [41.186.0.0](https://vuldb.com/?ip.41.186.0.0) | - | - | High
+14 | [41.186.32.0](https://vuldb.com/?ip.41.186.32.0) | - | - | High
+15 | [41.186.34.0](https://vuldb.com/?ip.41.186.34.0) | - | - | High
+16 | [41.186.36.0](https://vuldb.com/?ip.41.186.36.0) | - | - | High
+17 | [41.186.40.0](https://vuldb.com/?ip.41.186.40.0) | - | - | High
+18 | [41.186.48.0](https://vuldb.com/?ip.41.186.48.0) | - | - | High
+19 | [41.186.64.0](https://vuldb.com/?ip.41.186.64.0) | - | - | High
+20 | [41.186.128.0](https://vuldb.com/?ip.41.186.128.0) | - | - | High
+21 | ... | ... | ... | ...
 
-There are 38 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Rwanda Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
-
-There are 14 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Rwanda Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/see_more_details.php` | High
-14 | File | `/services/details.asp` | High
-15 | File | `/setup` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/nginx` | High
-19 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-21 | File | `act.php` | Low
-22 | File | `adclick.php` | Medium
-23 | File | `admin` | Low
-24 | File | `admin.php` | Medium
-25 | File | `admin/adminsignin.html` | High
-26 | File | `admin/movieview.php` | High
-27 | File | `admin/versions.html` | High
-28 | File | `ajax_calls.php` | High
-29 | File | `api.php` | Low
-30 | ... | ... | ...
-
-There are 253 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_rw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_rw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_rw.netset
 
 ## Literature
 

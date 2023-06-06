@@ -9,6 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Fallchill:
 
 * [VN](https://vuldb.com/?country.vn)
+* [ES](https://vuldb.com/?country.es)
 
 ## Actors
 
@@ -51,12 +52,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-1321 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1059 | CWE-94 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+4 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -64,27 +66,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/bookings/manage_booking.php` | High
-2 | File | `/admin/bookings/view_booking.php` | High
-3 | File | `/admin/bookings/view_details.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/admin/inquiries/view_inquiry.php` | High
-6 | File | `/admin/manage_academic.php` | High
-7 | File | `/admin/orders/update_status.php` | High
-8 | File | `/admin/services/manage_service.php` | High
-9 | File | `/admin/services/view_service.php` | High
-10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/boafrm/formFilter` | High
-12 | File | `/classes/Master.php?f=delete_inquiry` | High
-13 | File | `/classes/Master.php?f=save_course` | High
-14 | File | `/classes/Master.php?f=save_service` | High
-15 | File | `/classes/Users.php` | High
-16 | File | `/message/form/` | High
-17 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-18 | File | `/send_order.cgi?parameter=access_detect` | High
-19 | ... | ... | ...
+1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/ajax.php?action=save_area` | High
+4 | File | `/admin/budget/manage_budget.php` | High
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/edit_subject.php` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/reportupload.aspx` | High
+9 | File | `/admin/save_teacher.php` | High
+10 | File | `/admin/service.php` | High
+11 | File | `/admin/update_s6.php` | High
+12 | File | `/ajax.php?action=read_msg` | High
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/bin/login` | Medium
+16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+17 | File | `/cas/logout` | Medium
+18 | File | `/classes/Master.php?f=delete_service` | High
+19 | File | `/dosen/data` | Medium
+20 | File | `/E-mobile/App/System/File/downfile.php` | High
+21 | File | `/file_manager/admin/save_user.php` | High
+22 | File | `/goForm/aspForm` | High
+23 | ... | ... | ...
 
-There are 153 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 193 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

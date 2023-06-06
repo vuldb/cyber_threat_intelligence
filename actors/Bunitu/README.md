@@ -29,7 +29,7 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [23.21.42.25](https://vuldb.com/?ip.23.21.42.25) | ec2-23-21-42-25.compute-1.amazonaws.com | - | Medium
 7 | ... | ... | ... | ...
 
-There are 24 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -42,10 +42,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,42 +56,43 @@ ID | Type | Indicator | Confidence
 1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
 2 | File | `/09/business/upgrade/upcfgAction.php?download=true` | High
 3 | File | `/32` | Low
-4 | File | `/admin/usermanagement.php` | High
-5 | File | `/assets/something/services/AppModule.class` | High
-6 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
-7 | File | `/cgi-bin/kerbynet` | High
-8 | File | `/cgi-bin/pass` | High
-9 | File | `/ctpms/admin/?page=applications/view_application` | High
-10 | File | `/dev/tcx0` | Medium
-11 | File | `/dev/urandom` | Medium
-12 | File | `/etc/environment` | High
-13 | File | `/etc/keystone/user-project-map.json` | High
-14 | File | `/etc/passwd` | Medium
-15 | File | `/home.jsp` | Medium
-16 | File | `/inc/campaign/view-campaign-list.php` | High
-17 | File | `/include/menu_v.inc.php` | High
-18 | File | `/index.php/weblinks-categories` | High
-19 | File | `/servlet/webacc` | High
-20 | File | `/student-grading-system/rms.php?page=school_year` | High
-21 | File | `/system?action=ServiceAdmin` | High
-22 | File | `/usr/` | Low
-23 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
-24 | File | `ActiveMQConnection.java` | High
-25 | File | `admin-ajax.php` | High
-26 | File | `admin.php` | Medium
-27 | File | `admin/ad_list.php` | High
-28 | File | `admin/panels/uploader/admin.uploader.php` | High
-29 | File | `admin/status/realtime/bandwidth_status` | High
-30 | File | `agent.c` | Low
-31 | File | `ajax_crons.php` | High
-32 | File | `ansi.c` | Low
-33 | File | `api.php/List/index` | High
-34 | File | `API/api/Version` | High
-35 | File | `application/controllers/LSBaseController.php` | High
-36 | File | `arq_updater` | Medium
-37 | ... | ... | ...
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/usermanagement.php` | High
+6 | File | `/assets/something/services/AppModule.class` | High
+7 | File | `/bcms/admin/?page=reports/daily_court_rental_report` | High
+8 | File | `/cgi-bin/kerbynet` | High
+9 | File | `/cgi-bin/luci;stok=/locale` | High
+10 | File | `/cgi-bin/pass` | High
+11 | File | `/ctpms/admin/?page=applications/view_application` | High
+12 | File | `/dev/tcx0` | Medium
+13 | File | `/dev/urandom` | Medium
+14 | File | `/etc/environment` | High
+15 | File | `/etc/keystone/user-project-map.json` | High
+16 | File | `/etc/passwd` | Medium
+17 | File | `/home.jsp` | Medium
+18 | File | `/inc/campaign/view-campaign-list.php` | High
+19 | File | `/include/menu_v.inc.php` | High
+20 | File | `/index.php/weblinks-categories` | High
+21 | File | `/servlet/webacc` | High
+22 | File | `/student-grading-system/rms.php?page=school_year` | High
+23 | File | `/system?action=ServiceAdmin` | High
+24 | File | `/usr/` | Low
+25 | File | `/usr/bin/pkexec` | High
+26 | File | `/wp-admin/admin.php?page=cpabc_appointments.php` | High
+27 | File | `ActiveMQConnection.java` | High
+28 | File | `admin-ajax.php` | High
+29 | File | `admin.php` | Medium
+30 | File | `admin/ad_list.php` | High
+31 | File | `admin/panels/uploader/admin.uploader.php` | High
+32 | File | `admin/status/realtime/bandwidth_status` | High
+33 | File | `agent.c` | Low
+34 | File | `ajax_crons.php` | High
+35 | File | `ansi.c` | Low
+36 | File | `api.php/List/index` | High
+37 | File | `API/api/Version` | High
+38 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 324 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

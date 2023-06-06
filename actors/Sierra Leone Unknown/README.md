@@ -4,17 +4,6 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sierra_leone_unknown](https://vuldb.com/?actor.sierra_leone_unknown)
 
-## Countries
-
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sierra Leone Unknown:
-
-* [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
-* [FR](https://vuldb.com/?country.fr)
-* ...
-
-There are 17 more country items available. Please use our online service to access the data.
-
 ## IOC - Indicator of Compromise
 
 These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Sierra Leone Unknown.
@@ -30,66 +19,39 @@ ID | IP address | Hostname | Campaign | Confidence
 7 | [41.223.132.0](https://vuldb.com/?ip.41.223.132.0) | - | - | High
 8 | [45.12.70.204](https://vuldb.com/?ip.45.12.70.204) | puppets.globalhilive.com | - | High
 9 | [45.12.71.204](https://vuldb.com/?ip.45.12.71.204) | - | - | High
-10 | ... | ... | ... | ...
+10 | [45.42.164.0](https://vuldb.com/?ip.45.42.164.0) | - | - | High
+11 | [57.82.158.0](https://vuldb.com/?ip.57.82.158.0) | - | - | High
+12 | [57.84.176.0](https://vuldb.com/?ip.57.84.176.0) | - | - | High
+13 | [63.110.193.0](https://vuldb.com/?ip.63.110.193.0) | - | - | High
+14 | [63.110.195.0](https://vuldb.com/?ip.63.110.195.0) | - | - | High
+15 | [63.110.197.0](https://vuldb.com/?ip.63.110.197.0) | - | - | High
+16 | [63.110.198.0](https://vuldb.com/?ip.63.110.198.0) | - | - | High
+17 | [63.110.214.0](https://vuldb.com/?ip.63.110.214.0) | - | - | High
+18 | [63.110.220.0](https://vuldb.com/?ip.63.110.220.0) | - | - | High
+19 | [63.123.164.0](https://vuldb.com/?ip.63.123.164.0) | - | - | High
+20 | [63.123.170.0](https://vuldb.com/?ip.63.123.170.0) | - | - | High
+21 | [63.225.73.0](https://vuldb.com/?ip.63.225.73.0) | - | - | High
+22 | [63.229.186.0](https://vuldb.com/?ip.63.229.186.0) | - | - | High
+23 | [63.230.80.0](https://vuldb.com/?ip.63.230.80.0) | - | - | High
+24 | [63.230.108.0](https://vuldb.com/?ip.63.230.108.0) | - | - | High
+25 | [63.231.10.0](https://vuldb.com/?ip.63.231.10.0) | - | - | High
+26 | [65.100.6.0](https://vuldb.com/?ip.65.100.6.0) | - | - | High
+27 | [65.102.106.0](https://vuldb.com/?ip.65.102.106.0) | - | - | High
+28 | [65.103.57.0](https://vuldb.com/?ip.65.103.57.0) | - | - | High
+29 | [65.131.0.0](https://vuldb.com/?ip.65.131.0.0) | - | - | High
+30 | [65.131.128.0](https://vuldb.com/?ip.65.131.128.0) | - | - | High
+31 | [65.217.140.0](https://vuldb.com/?ip.65.217.140.0) | - | - | High
+32 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
-
-## TTP - Tactics, Techniques, Procedures
-
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Sierra Leone Unknown_. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Technique | Weakness | Description | Confidence
--- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
-
-There are 14 more TTP items available. Please use our online service to access the data.
-
-## IOA - Indicator of Attack
-
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Sierra Leone Unknown. This data is unique as it uses our predictive model for actor profiling.
-
-ID | Type | Indicator | Confidence
--- | ---- | --------- | ----------
-1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/acms/admin/cargo_types/view_cargo_type.php` | High
-3 | File | `/admin/addemployee.php` | High
-4 | File | `/admin/index.php` | High
-5 | File | `/apilog.php` | Medium
-6 | File | `/appliance/users?action=edit` | High
-7 | File | `/filemanager/upload.php` | High
-8 | File | `/forum/away.php` | High
-9 | File | `/if.cgi` | Low
-10 | File | `/mifs/c/i/reg/reg.html` | High
-11 | File | `/modules/profile/index.php` | High
-12 | File | `/news.dtl.php` | High
-13 | File | `/see_more_details.php` | High
-14 | File | `/services/details.asp` | High
-15 | File | `/setup` | Low
-16 | File | `/spip.php` | Medium
-17 | File | `/uncpath/` | Medium
-18 | File | `/var/log/nginx` | High
-19 | File | `/VPortal/mgtconsole/Subscriptions.jsp` | High
-20 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-21 | File | `act.php` | Low
-22 | File | `adclick.php` | Medium
-23 | File | `admin` | Low
-24 | File | `admin.php` | Medium
-25 | File | `admin/adminsignin.html` | High
-26 | File | `admin/movieview.php` | High
-27 | File | `admin/versions.html` | High
-28 | File | `ajax_calls.php` | High
-29 | ... | ... | ...
-
-There are 250 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOC items available. Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_sl.netset
 
 ## Literature
 

@@ -70,10 +70,9 @@ ID | IP address | Hostname | Actor | Confidence
 42 | [39.52.221.84](https://vuldb.com/?ip.39.52.221.84) | - | [QBot](https://vuldb.com/?actor.qbot) | High
 43 | [39.52.221.205](https://vuldb.com/?ip.39.52.221.205) | - | [QBot](https://vuldb.com/?actor.qbot) | High
 44 | [39.53.124.45](https://vuldb.com/?ip.39.53.124.45) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-45 | [39.53.124.135](https://vuldb.com/?ip.39.53.124.135) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-46 | ... | ... | ... | ...
+45 | ... | ... | ... | ...
 
-There are 180 more IOC items available. Please use our online service to access the data.
+There are 177 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -103,30 +102,30 @@ ID | Type | Indicator | Confidence
 5 | File | `/aya/module/admin/fst_down.inc.php` | High
 6 | File | `/boat/login.php` | High
 7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/componetns/user/class.user.php` | High
-9 | File | `/etc/tomcat8/Catalina/attack` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/wizard_end` | High
-12 | File | `/ims/login.php` | High
-13 | File | `/mhds/clinic/view_details.php` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/out.php` | Medium
-16 | File | `/php-opos/index.php` | High
-17 | File | `/rest/api/latest/projectvalidate/key` | High
-18 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-19 | File | `/ServletAPI/accounts/login` | High
+8 | File | `/cas/logout` | Medium
+9 | File | `/componetns/user/class.user.php` | High
+10 | File | `/etc/tomcat8/Catalina/attack` | High
+11 | File | `/forum/away.php` | High
+12 | File | `/goform/wizard_end` | High
+13 | File | `/ims/login.php` | High
+14 | File | `/mhds/clinic/view_details.php` | High
+15 | File | `/modules/profile/index.php` | High
+16 | File | `/out.php` | Medium
+17 | File | `/php-opos/index.php` | High
+18 | File | `/rest/api/latest/projectvalidate/key` | High
+19 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
 20 | File | `/shell` | Low
 21 | File | `/tourism/rate_review.php` | High
 22 | File | `/uncpath/` | Medium
 23 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-24 | File | `/var/log/messages` | High
-25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-26 | File | `/websocket/exec` | High
-27 | File | `/wp-admin/admin-ajax.php` | High
-28 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
-29 | File | `action-visitor.php` | High
-30 | File | `action.php` | Medium
-31 | File | `adclick.php` | Medium
+24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+25 | File | `/wp-admin/admin-ajax.php` | High
+26 | File | `action-visitor.php` | High
+27 | File | `action.php` | Medium
+28 | File | `adclick.php` | Medium
+29 | File | `AdHocQuery_Processor.aspx` | High
+30 | File | `admin/ajax.php?action=save_user` | High
+31 | File | `admin/expense_report.php` | High
 32 | ... | ... | ...
 
 There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.

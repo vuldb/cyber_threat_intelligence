@@ -43,7 +43,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -77,24 +77,24 @@ ID | Type | Indicator | Confidence
 24 | File | `admin.php` | Medium
 25 | File | `admin/addpage.php` | High
 26 | File | `admin/admin_process.php` | High
-27 | File | `admin/editusertag.php` | High
-28 | File | `admin/eventlist.php` | High
-29 | File | `admin/reklam_detay.asp` | High
-30 | File | `admin/settings.php` | High
-31 | File | `admin/snacks_edit.php` | High
-32 | File | `admin/userview.php` | High
-33 | File | `all_calendars.asp` | High
-34 | File | `anniv.php` | Medium
-35 | File | `api.php` | Low
-36 | File | `app/search/search.app.php` | High
-37 | File | `appGet.cgi` | Medium
-38 | File | `apply.cgi` | Medium
-39 | File | `arch/arm/kernel/perf_event.c` | High
-40 | File | `ArticleType.php` | High
-41 | File | `attachment.php` | High
+27 | File | `admin/checksum.php?__c` | High
+28 | File | `admin/editusertag.php` | High
+29 | File | `admin/eventlist.php` | High
+30 | File | `admin/reklam_detay.asp` | High
+31 | File | `admin/settings.php` | High
+32 | File | `admin/snacks_edit.php` | High
+33 | File | `admin/userview.php` | High
+34 | File | `all_calendars.asp` | High
+35 | File | `anniv.php` | Medium
+36 | File | `api.php` | Low
+37 | File | `app/search/search.app.php` | High
+38 | File | `appGet.cgi` | Medium
+39 | File | `apply.cgi` | Medium
+40 | File | `arch/arm/kernel/perf_event.c` | High
+41 | File | `ArticleType.php` | High
 42 | ... | ... | ...
 
-There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 366 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

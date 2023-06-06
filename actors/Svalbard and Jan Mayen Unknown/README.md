@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,8 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [62.16.230.0](https://vuldb.com/?ip.62.16.230.0) | - | - | High
 10 | [77.110.194.0](https://vuldb.com/?ip.77.110.194.0) | 77-110-194-0.inet.signal.no | - | High
 11 | [77.110.214.0](https://vuldb.com/?ip.77.110.214.0) | 77-110-214-0.insignal.net | - | High
-12 | ... | ... | ... | ...
+12 | [77.110.214.4](https://vuldb.com/?ip.77.110.214.4) | 77-110-214-4.insignal.net | - | High
+13 | ... | ... | ... | ...
 
 There are 46 more IOC items available. Please use our online service to access the data.
 
@@ -42,10 +43,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | ... | ... | ... | ...
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
 There are 14 more TTP items available. Please use our online service to access the data.
 
@@ -82,15 +84,17 @@ ID | Type | Indicator | Confidence
 25 | File | `admin/adminsignin.html` | High
 26 | File | `admin/movieview.php` | High
 27 | File | `admin/versions.html` | High
-28 | ... | ... | ...
+28 | File | `ajax_calls.php` | High
+29 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 249 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sj.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sj.netset
 
 ## Literature
 

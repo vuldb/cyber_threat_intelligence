@@ -48,15 +48,16 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/comment.php` | High
 3 | File | `/admin/index.php` | High
 4 | File | `/etc/postfix/sender_login` | High
-5 | File | `/login.html` | Medium
-6 | File | `/new` | Low
-7 | File | `/system?action=ServiceAdmin` | High
-8 | File | `/tlogin.cgi` | Medium
-9 | File | `/userRpm/popupSiteSurveyRpm.html` | High
-10 | File | `/var/log/nginx` | High
-11 | ... | ... | ...
+5 | File | `/lists/index.php` | High
+6 | File | `/login.html` | Medium
+7 | File | `/new` | Low
+8 | File | `/system?action=ServiceAdmin` | High
+9 | File | `/tlogin.cgi` | Medium
+10 | File | `/userRpm/popupSiteSurveyRpm.html` | High
+11 | File | `/var/log/nginx` | High
+12 | ... | ... | ...
 
-There are 85 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 89 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

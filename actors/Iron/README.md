@@ -45,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | Execution with Unnecessary Privileges | High
+6 | T1068 | CWE-250, CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 23 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,35 +62,36 @@ ID | Type | Indicator | Confidence
 4 | File | `/adherents/note.php?id=1` | High
 5 | File | `/admin/ajax.php` | High
 6 | File | `/Admin/dashboard.php` | High
-7 | File | `/Api/ASF` | Medium
-8 | File | `/cgi-bin/cgiServer.exx` | High
-9 | File | `/cgi-bin/wlogin.cgi` | High
-10 | File | `/cgi?1&5` | Medium
-11 | File | `/clients/editclient.php` | High
-12 | File | `/CommunitySSORedirect.jsp` | High
-13 | File | `/ctpms/admin/?page=applications/view_application` | High
-14 | File | `/dl/dl_sendmail.php` | High
-15 | File | `/etc/passwd` | Medium
-16 | File | `/formStaticDHCP` | High
-17 | File | `/formVirtualApp` | High
-18 | File | `/formVirtualServ` | High
-19 | File | `/goform/form2WizardStep4` | High
-20 | File | `/goform/rlmswitchr_process` | High
-21 | File | `/goform/SafeMacFilter` | High
-22 | File | `/goform/SafeUrlFilter` | High
-23 | File | `/goforms/rlminfo` | High
-24 | File | `/include/make.php` | High
-25 | File | `/jsonrpc` | Medium
-26 | File | `/magnoliaAuthor/.magnolia/` | High
-27 | File | `/master/core/PostHandler.php` | High
-28 | File | `/medianet/sgcontentset.aspx` | High
-29 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-30 | File | `/proc/pid/syscall` | High
-31 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-32 | File | `/rrdp` | Low
-33 | ... | ... | ...
+7 | File | `/alphaware/details.php` | High
+8 | File | `/Api/ASF` | Medium
+9 | File | `/auth/fn.php` | Medium
+10 | File | `/cgi-bin/ExportLogs.sh` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/classes/Users.php?f=save` | High
+13 | File | `/clients/editclient.php` | High
+14 | File | `/CommunitySSORedirect.jsp` | High
+15 | File | `/ctpms/admin/?page=applications/view_application` | High
+16 | File | `/dist/index.js` | High
+17 | File | `/dl/dl_sendmail.php` | High
+18 | File | `/editor/index.php` | High
+19 | File | `/Electron/download` | High
+20 | File | `/etc/passwd` | Medium
+21 | File | `/formStaticDHCP` | High
+22 | File | `/formVirtualApp` | High
+23 | File | `/formVirtualServ` | High
+24 | File | `/goForm/aspForm` | High
+25 | File | `/goform/form2WizardStep4` | High
+26 | File | `/goform/rlmswitchr_process` | High
+27 | File | `/goform/SafeMacFilter` | High
+28 | File | `/goform/SafeUrlFilter` | High
+29 | File | `/goforms/rlminfo` | High
+30 | File | `/include/make.php` | High
+31 | File | `/include/Model/Upload.php` | High
+32 | File | `/kruxton/sales_report.php` | High
+33 | File | `/magnoliaAuthor/.magnolia/` | High
+34 | ... | ... | ...
 
-There are 280 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 292 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

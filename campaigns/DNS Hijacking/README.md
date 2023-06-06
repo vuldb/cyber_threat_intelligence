@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -35,7 +35,7 @@ ID | IP address | Hostname | Actor | Confidence
 4 | [89.163.206.26](https://vuldb.com/?ip.89.163.206.26) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
 5 | ... | ... | ... | ...
 
-There are 17 more IOC items available. Please use our online service to access the data.
+There are 16 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,10 +46,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+4 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -63,8 +62,8 @@ ID | Type | Indicator | Confidence
 4 | File | `/admin/add_exercises.php` | High
 5 | File | `/Admin/createClass.php` | High
 6 | File | `/admin/lab.php` | High
-7 | File | `/api/v2/open/rowsInfo` | High
-8 | File | `/bin/webserver` | High
+7 | File | `/admin/maintenance/view_designation.php` | High
+8 | File | `/api/v2/open/rowsInfo` | High
 9 | File | `/cgi-bin/touchlist_sync.cgi` | High
 10 | File | `/ci_spms/admin/category` | High
 11 | File | `/classes/Users.php?f=save` | High
@@ -76,8 +75,7 @@ ID | Type | Indicator | Confidence
 17 | File | `/EXCU_SHELL` | Medium
 18 | File | `/guestmanagement/front.php` | High
 19 | File | `/index.php/purchase_order/browse_data` | High
-20 | File | `/login.php` | Medium
-21 | ... | ... | ...
+20 | ... | ... | ...
 
 There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

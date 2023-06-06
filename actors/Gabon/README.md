@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -88,14 +88,14 @@ ID | Type | Indicator | Confidence
 28 | File | `admin/index.php?id=themes&action=edit_chunk` | High
 29 | File | `administrator/index.php` | High
 30 | File | `AdxDSrv.exe` | Medium
-31 | File | `ajax.cgi` | Medium
-32 | File | `ajax/render/widget_php` | High
-33 | File | `album_portal.php` | High
-34 | File | `api.php` | Low
-35 | File | `application/home/controller/debug.php` | High
+31 | File | `agenda.php` | Medium
+32 | File | `ajax.cgi` | Medium
+33 | File | `ajax/render/widget_php` | High
+34 | File | `album_portal.php` | High
+35 | File | `api.php` | Low
 36 | ... | ... | ...
 
-There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 309 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

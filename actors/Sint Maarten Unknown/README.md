@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Sint Maarten Unknown:
 
-* [SX](https://vuldb.com/?country.sx)
 * [US](https://vuldb.com/?country.us)
+* [SX](https://vuldb.com/?country.sx)
+* [NL](https://vuldb.com/?country.nl)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +25,17 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [45.12.71.212](https://vuldb.com/?ip.45.12.71.212) | - | - | High
 3 | [46.36.202.40](https://vuldb.com/?ip.46.36.202.40) | - | - | High
 4 | [46.36.203.36](https://vuldb.com/?ip.46.36.203.36) | - | - | High
-5 | ... | ... | ... | ...
+5 | [46.36.203.40](https://vuldb.com/?ip.46.36.203.40) | - | - | High
+6 | [65.198.230.0](https://vuldb.com/?ip.65.198.230.0) | - | - | High
+7 | [65.217.50.0](https://vuldb.com/?ip.65.217.50.0) | - | - | High
+8 | [65.248.160.0](https://vuldb.com/?ip.65.248.160.0) | - | - | High
+9 | [72.252.8.0](https://vuldb.com/?ip.72.252.8.0) | - | - | High
+10 | [131.161.84.0](https://vuldb.com/?ip.131.161.84.0) | ip-131-161-084-000.v4.isp.telem.sx | - | High
+11 | [168.0.84.0](https://vuldb.com/?ip.168.0.84.0) | 168-000-084-000.xdsl.telemgroup.sx | - | High
+12 | [168.197.108.0](https://vuldb.com/?ip.168.197.108.0) | - | - | High
+13 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -31,8 +43,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79 | Cross Site Scripting | High
-2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
+
+There are 2 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,6 +64,8 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sx.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sx.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_sx.netset
 
 ## Literature
 

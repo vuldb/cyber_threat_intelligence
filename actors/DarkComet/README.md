@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DarkComet:
 
-* [UA](https://vuldb.com/?country.ua)
+* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
+* [UA](https://vuldb.com/?country.ua)
+* ...
+
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,9 +53,10 @@ ID | IP address | Hostname | Campaign | Confidence
 30 | [31.202.203.58](https://vuldb.com/?ip.31.202.203.58) | 31.202.203.58.format-tv.net | - | High
 31 | [34.107.221.82](https://vuldb.com/?ip.34.107.221.82) | 82.221.107.34.bc.googleusercontent.com | - | Medium
 32 | [34.213.158.239](https://vuldb.com/?ip.34.213.158.239) | ec2-34-213-158-239.us-west-2.compute.amazonaws.com | - | Medium
-33 | ... | ... | ... | ...
+33 | [34.214.179.131](https://vuldb.com/?ip.34.214.179.131) | ec2-34-214-179-131.us-west-2.compute.amazonaws.com | - | Medium
+34 | ... | ... | ... | ...
 
-There are 129 more IOC items available. Please use our online service to access the data.
+There are 132 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -59,12 +64,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059 | CWE-94 | Cross Site Scripting | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059.007 | CWE-79 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 1 more TTP items available. Please use our online service to access the data.
+There are 10 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -72,17 +77,30 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin.php` | Medium
-2 | File | `apache2/modsecurity.c` | High
-3 | File | `forumrunner/includes/moderation.php` | High
-4 | ... | ... | ...
+1 | File | `/admin/add_trainers.php` | High
+2 | File | `/bin/sh` | Low
+3 | File | `/ci_ssms/index.php/orders/create` | High
+4 | File | `/htdocs/upnpinc/gena.php` | High
+5 | File | `/index.php` | Medium
+6 | File | `/param.file.tgz` | High
+7 | File | `/php_action/createUser.php` | High
+8 | File | `/show_news.php` | High
+9 | File | `/v2/customerdb/operator.svc/a` | High
+10 | File | `01article.php` | High
+11 | File | `add-locker-form.php` | High
+12 | File | `add_contestant.php` | High
+13 | File | `admin.php` | Medium
+14 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 111 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/cbbf3381-1424-4dbf-94ba-0e10425bb69d
+* https://bazaar.abuse.ch/sample/68625836043a2593ccabcca5e3d49a0331d64657ed28bec54ecf37246c25ab4c/
+* https://bazaar.abuse.ch/sample/e50cf3f7139ac7f4924b835334a98f7c426b66d0d19e986d885bd4080433d7bd/
 * https://blog.talosintelligence.com/2019/05/threat-roundup-0517-0524.html
 * https://blog.talosintelligence.com/2019/09/threat-roundup-0906-0913.html
 * https://blog.talosintelligence.com/2019/11/threat-roundup-1101-1108.html
@@ -110,6 +128,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-0127-0203/
 * https://blog.talosintelligence.com/threat-roundup-0317-0324/
 * https://blog.talosintelligence.com/threat-roundup-0407-0414/
+* https://blog.talosintelligence.com/threat-roundup-0421-0428-2/
+* https://threatfox.abuse.ch
 
 ## Literature
 

@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 16 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -49,7 +49,8 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -63,7 +64,7 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=system_info/contact_info` | High
 3 | File | `/admin/doctors/view_doctor.php` | High
 4 | File | `/admin/edit_user.php` | High
-5 | File | `/admin/modules/bibliography/index.php` | High
+5 | File | `/admin/products/controller.php?action=add` | High
 6 | File | `/admin/question/edit` | High
 7 | File | `/admin/students/manage.php` | High
 8 | File | `/adminlogin.asp` | High
@@ -108,11 +109,9 @@ ID | Type | Indicator | Confidence
 47 | File | `/sacco_shield/manage_loan.php` | High
 48 | File | `/scene_manager/scene_dump.c` | High
 49 | File | `/school/model/get_admin_profile.php` | High
-50 | File | `/services/view_service.php` | High
-51 | File | `/shell` | Low
-52 | ... | ... | ...
+50 | ... | ... | ...
 
-There are 453 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -24,13 +24,17 @@ ID | IP address | Hostname | Campaign | Confidence
 1 | [5.62.61.128](https://vuldb.com/?ip.5.62.61.128) | r-128-61-62-5.consumer-pool.prcdn.net | - | High
 2 | [5.62.63.108](https://vuldb.com/?ip.5.62.63.108) | r-108-63-62-5.consumer-pool.prcdn.net | - | High
 3 | [41.82.0.0](https://vuldb.com/?ip.41.82.0.0) | - | - | High
-4 | [41.208.128.0](https://vuldb.com/?ip.41.208.128.0) | - | - | High
-5 | [41.214.0.0](https://vuldb.com/?ip.41.214.0.0) | - | - | High
-6 | [41.219.0.0](https://vuldb.com/?ip.41.219.0.0) | - | - | High
-7 | [45.12.70.206](https://vuldb.com/?ip.45.12.70.206) | fertilising.globalhilive.com | - | High
-8 | ... | ... | ... | ...
+4 | [41.194.26.0](https://vuldb.com/?ip.41.194.26.0) | - | - | High
+5 | [41.194.208.0](https://vuldb.com/?ip.41.194.208.0) | - | - | High
+6 | [41.208.128.0](https://vuldb.com/?ip.41.208.128.0) | - | - | High
+7 | [41.214.0.0](https://vuldb.com/?ip.41.214.0.0) | - | - | High
+8 | [41.219.0.0](https://vuldb.com/?ip.41.219.0.0) | - | - | High
+9 | [45.12.70.206](https://vuldb.com/?ip.45.12.70.206) | fertilising.globalhilive.com | - | High
+10 | [45.12.71.206](https://vuldb.com/?ip.45.12.71.206) | - | - | High
+11 | [45.59.174.0](https://vuldb.com/?ip.45.59.174.0) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 30 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -82,15 +86,18 @@ ID | Type | Indicator | Confidence
 29 | File | `admin.php` | Medium
 30 | File | `admin/adminsignin.html` | High
 31 | File | `admin/movieview.php` | High
-32 | ... | ... | ...
+32 | File | `admin/versions.html` | High
+33 | ... | ... | ...
 
-There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 281 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_sn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_sn.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_sn.netset
 
 ## Literature
 

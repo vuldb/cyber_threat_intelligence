@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,19 +36,22 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [31.31.204.161](https://vuldb.com/?ip.31.31.204.161) | - | - | High
 14 | [31.41.47.190](https://vuldb.com/?ip.31.41.47.190) | official.zzar.top | - | High
 15 | [31.207.45.85](https://vuldb.com/?ip.31.207.45.85) | - | - | High
-16 | [46.30.43.83](https://vuldb.com/?ip.46.30.43.83) | free.eurobyte.ru | - | High
-17 | [46.170.125.222](https://vuldb.com/?ip.46.170.125.222) | 3.silopol.eu | - | High
-18 | [46.183.221.37](https://vuldb.com/?ip.46.183.221.37) | ip-221-37.dataclub.info | - | High
-19 | [46.183.221.89](https://vuldb.com/?ip.46.183.221.89) | ip-221-89.dataclub.info | - | High
-20 | [51.255.200.161](https://vuldb.com/?ip.51.255.200.161) | 161.ip-51-255-200.eu | - | High
-21 | [54.36.191.97](https://vuldb.com/?ip.54.36.191.97) | vps-58b2e5b8.vps.ovh.net | - | High
-22 | [62.57.131.114](https://vuldb.com/?ip.62.57.131.114) | 62.57.131.114.dyn.user.ono.com | - | High
-23 | [74.220.215.239](https://vuldb.com/?ip.74.220.215.239) | host239.hostmonster.com | - | High
-24 | [77.246.145.82](https://vuldb.com/?ip.77.246.145.82) | skoderyaru2.e-vds.ru | - | High
-25 | [77.246.145.86](https://vuldb.com/?ip.77.246.145.86) | znatokfinansov.ru | - | High
-26 | ... | ... | ... | ...
+16 | [45.182.189.71](https://vuldb.com/?ip.45.182.189.71) | - | - | High
+17 | [45.182.189.91](https://vuldb.com/?ip.45.182.189.91) | - | - | High
+18 | [45.182.189.103](https://vuldb.com/?ip.45.182.189.103) | - | - | High
+19 | [45.182.189.118](https://vuldb.com/?ip.45.182.189.118) | - | - | High
+20 | [45.182.189.119](https://vuldb.com/?ip.45.182.189.119) | - | - | High
+21 | [45.182.189.120](https://vuldb.com/?ip.45.182.189.120) | - | - | High
+22 | [45.182.189.200](https://vuldb.com/?ip.45.182.189.200) | - | - | High
+23 | [46.30.43.83](https://vuldb.com/?ip.46.30.43.83) | free.eurobyte.ru | - | High
+24 | [46.161.40.92](https://vuldb.com/?ip.46.161.40.92) | - | - | High
+25 | [46.170.125.222](https://vuldb.com/?ip.46.170.125.222) | 3.silopol.eu | - | High
+26 | [46.183.221.37](https://vuldb.com/?ip.46.183.221.37) | ip-221-37.dataclub.info | - | High
+27 | [46.183.221.89](https://vuldb.com/?ip.46.183.221.89) | ip-221-89.dataclub.info | - | High
+28 | [51.255.200.161](https://vuldb.com/?ip.51.255.200.161) | 161.ip-51-255-200.eu | - | High
+29 | ... | ... | ... | ...
 
-There are 101 more IOC items available. Please use our online service to access the data.
+There are 110 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,13 +60,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -71,41 +74,49 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/about.php` | Medium
-2 | File | `/admin/submit-articles` | High
-3 | File | `/ad_js.php` | Medium
-4 | File | `/app/options.py` | High
-5 | File | `/attachments` | Medium
-6 | File | `/bsms_ci/index.php/book` | High
-7 | File | `/card_scan.php` | High
-8 | File | `/cgi-bin/login.cgi` | High
-9 | File | `/cgi-bin/luci/api/wireless` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/ci_hms/massage_room/edit/1` | High
-12 | File | `/context/%2e/WEB-INF/web.xml` | High
-13 | File | `/cwc/login` | Medium
-14 | File | `/dashboard/reports/logs/view` | High
-15 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-16 | File | `/debug/pprof` | Medium
-17 | File | `/etc/hosts` | Medium
-18 | File | `/etc/quagga` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/goform/setmac` | High
-21 | File | `/goform/wizard_end` | High
-22 | File | `/h/calendar` | Medium
-23 | File | `/hprms/admin/doctors/manage_doctor.php` | High
-24 | File | `/index/jobfairol/show/` | High
-25 | File | `/manage-apartment.php` | High
-26 | File | `/medicines/profile.php` | High
-27 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-28 | File | `/nova/bin/detnet` | High
-29 | File | `/out.php` | Medium
-30 | File | `/pages/apply_vacancy.php` | High
-31 | File | `/proc/<PID>/mem` | High
-32 | File | `/proxy` | Low
-33 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/about.php` | Medium
+3 | File | `/admin.php/accessory/filesdel.html` | High
+4 | File | `/admin/?page=user/manage` | High
+5 | File | `/admin/add-new.php` | High
+6 | File | `/admin/doctors.php` | High
+7 | File | `/admin/submit-articles` | High
+8 | File | `/ad_js.php` | Medium
+9 | File | `/alphaware/summary.php` | High
+10 | File | `/api/` | Low
+11 | File | `/api/admin/store/product/list` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/attachments` | Medium
+15 | File | `/boat/login.php` | High
+16 | File | `/bsms_ci/index.php/book` | High
+17 | File | `/card_scan.php` | High
+18 | File | `/cgi-bin` | Medium
+19 | File | `/cgi-bin/luci/api/wireless` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/context/%2e/WEB-INF/web.xml` | High
+22 | File | `/cwc/login` | Medium
+23 | File | `/dashboard/reports/logs/view` | High
+24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/etc/hosts` | Medium
+27 | File | `/etc/quagga` | Medium
+28 | File | `/forms/doLogin` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/goform/setmac` | High
+31 | File | `/goform/wizard_end` | High
+32 | File | `/h/calendar` | Medium
+33 | File | `/manage-apartment.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/nova/bin/detnet` | High
+37 | File | `/out.php` | Medium
+38 | File | `/pages/apply_vacancy.php` | High
+39 | File | `/proc/<PID>/mem` | High
+40 | File | `/proxy` | Low
+41 | ... | ... | ...
 
-There are 285 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -113,6 +124,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://cyberforensicator.com/2019/01/20/silence-dissecting-malicious-chm-files-and-performing-forensic-analysis/
 * https://securelist.com/the-silence/83009/
+* https://threatfox.abuse.ch
 * https://www.group-ib.com/resources/threat-research/silence_2.0.going_global.pdf
 * https://www.group-ib.com/resources/threat-research/silence_moving-into-the-darkside.pdf
 

@@ -39,7 +39,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,14 +48,15 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-2 | File | `/etc/postfix/sender_login` | High
-3 | File | `/filemanager/ajax_calls.php` | High
-4 | File | `/Items/*/RemoteImages/Download` | High
-5 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
-6 | File | `/usr/local/WowzaStreamingEngine/bin/` | High
-7 | ... | ... | ...
+2 | File | `/classes/Master.php` | High
+3 | File | `/classes/Master.php?f=delete_service` | High
+4 | File | `/etc/postfix/sender_login` | High
+5 | File | `/filemanager/ajax_calls.php` | High
+6 | File | `/Items/*/RemoteImages/Download` | High
+7 | File | `/restapi/v1/certificates/FFM-SSLInspect` | High
+8 | ... | ... | ...
 
-There are 50 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 59 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

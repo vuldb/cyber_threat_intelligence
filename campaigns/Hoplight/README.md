@@ -48,11 +48,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,36 +62,34 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin-panel1.php` | High
 2 | File | `/admin/academic/studenview_left.php` | High
-3 | File | `/admin/controller/JobLogController.java` | High
-4 | File | `/admin/login.php` | High
-5 | File | `/ad_js.php` | Medium
-6 | File | `/alerts/alertConfigField.php` | High
-7 | File | `/API/system/admins/session` | High
-8 | File | `/cgi-bin/ExportALLSettings.sh` | High
-9 | File | `/config/config.php` | High
+3 | File | `/admin/bookings/view_details.php` | High
+4 | File | `/admin/controller/JobLogController.java` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/ad_js.php` | Medium
+7 | File | `/alerts/alertConfigField.php` | High
+8 | File | `/API/system/admins/session` | High
+9 | File | `/config/myfield/test.php` | High
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
 11 | File | `/core/conditions/AbstractWrapper.java` | High
-12 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-13 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-14 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-15 | File | `/DataHandler/Handler_CFG.ashx` | High
-16 | File | `/ECT_Provider/` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/face-recognition-php/facepay-master/camera.php` | High
-19 | File | `/fuel/index.php/fuel/logs/items` | High
-20 | File | `/fuel/index.php/fuel/pages/items` | High
-21 | File | `/image_zoom.php` | High
-22 | File | `/include/config.cache.php` | High
-23 | File | `/index.php` | Medium
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/plugin/ajax.php` | High
-26 | File | `/proxy/` | Low
-27 | File | `/public/plugins/` | High
-28 | File | `/rest/api/2/search` | High
-29 | File | `/rest/api/latest/projectvalidate/key` | High
-30 | ... | ... | ...
+12 | File | `/data/remove` | Medium
+13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
+14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
+15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
+16 | File | `/DataHandler/Handler_CFG.ashx` | High
+17 | File | `/ECT_Provider/` | High
+18 | File | `/etc/passwd` | Medium
+19 | File | `/face-recognition-php/facepay-master/camera.php` | High
+20 | File | `/forms/doLogin` | High
+21 | File | `/fuel/index.php/fuel/logs/items` | High
+22 | File | `/fuel/index.php/fuel/pages/items` | High
+23 | File | `/image_zoom.php` | High
+24 | File | `/include/config.cache.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/mkshop/Men/profile.php` | High
+27 | File | `/param.file.tgz` | High
+28 | ... | ... | ...
 
-There are 255 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

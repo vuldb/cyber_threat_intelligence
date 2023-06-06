@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Phishing Ukrainian Soldiers:
 
 * [CN](https://vuldb.com/?country.cn)
+* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
 
 ## Actors
 
@@ -39,7 +41,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059.007 | CWE-80 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,10 +51,10 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/concat?/%2557EB-INF/web.xml` | High
 2 | File | `/context/%2e/WEB-INF/web.xml` | High
-3 | File | `net/unix/af_unix.c` | High
+3 | File | `Basic/Wireless.shtml` | High
 4 | ... | ... | ...
 
-There are 7 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 9 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

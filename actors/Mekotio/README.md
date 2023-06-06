@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mekotio:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
+* [GB](https://vuldb.com/?country.gb)
+* ...
+
+There are 5 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,9 +21,19 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [13.66.15.167](https://vuldb.com/?ip.13.66.15.167) | - | - | High
-2 | [20.206.121.1](https://vuldb.com/?ip.20.206.121.1) | - | - | High
-3 | [40.90.192.58](https://vuldb.com/?ip.40.90.192.58) | - | - | High
+1 | [4.240.84.251](https://vuldb.com/?ip.4.240.84.251) | - | - | High
+2 | [13.66.15.167](https://vuldb.com/?ip.13.66.15.167) | - | - | High
+3 | [15.228.13.156](https://vuldb.com/?ip.15.228.13.156) | ec2-15-228-13-156.sa-east-1.compute.amazonaws.com | - | Medium
+4 | [15.228.46.182](https://vuldb.com/?ip.15.228.46.182) | ec2-15-228-46-182.sa-east-1.compute.amazonaws.com | - | Medium
+5 | [15.229.26.142](https://vuldb.com/?ip.15.229.26.142) | ec2-15-229-26-142.sa-east-1.compute.amazonaws.com | - | Medium
+6 | [18.118.78.11](https://vuldb.com/?ip.18.118.78.11) | ec2-18-118-78-11.us-east-2.compute.amazonaws.com | - | Medium
+7 | [18.223.102.186](https://vuldb.com/?ip.18.223.102.186) | ec2-18-223-102-186.us-east-2.compute.amazonaws.com | - | Medium
+8 | [18.231.161.239](https://vuldb.com/?ip.18.231.161.239) | ec2-18-231-161-239.sa-east-1.compute.amazonaws.com | - | Medium
+9 | [20.5.65.48](https://vuldb.com/?ip.20.5.65.48) | - | - | High
+10 | [20.25.181.202](https://vuldb.com/?ip.20.25.181.202) | - | - | High
+11 | ... | ... | ... | ...
+
+There are 42 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -26,8 +41,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1592 | CWE-200 | Configuration | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
+
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -35,13 +55,64 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `index.html` | Medium
+1 | File | `..\WWWRoot\CustomPages\aspshell.asp` | High
+2 | File | `/account/details.php` | High
+3 | File | `/admin/` | Low
+4 | File | `/admin/ajax.php?action=save_window` | High
+5 | File | `/admin/general/change-lang` | High
+6 | File | `/admin/group` | Medium
+7 | File | `/admin/launch_time.php` | High
+8 | File | `/admin/moduleinterface.php` | High
+9 | File | `/admin/payment.php` | High
+10 | File | `/apps/app_article/controller/editor.php` | High
+11 | File | `/artist-display.php` | High
+12 | File | `/BRS_netgear_success.html` | High
+13 | File | `/controllers/MgrDiagnosticTools.php` | High
+14 | File | `/czarnews/cn_users.php` | High
+15 | File | `/designer/add/layout` | High
+16 | File | `/dev/zero` | Medium
+17 | File | `/etc/waipass` | Medium
+18 | File | `/include/stat/stat.php` | High
+19 | File | `/index.php` | Medium
+20 | File | `/message/ajax/send/` | High
+21 | File | `/myAccount` | Medium
+22 | File | `/proc/*/exe` | Medium
+23 | File | `/real-estate-script/search_property.php` | High
+24 | File | `/recordings/index.php` | High
+25 | File | `/roomtype-details.php` | High
+26 | File | `/search.php` | Medium
+27 | File | `/searchJob.php` | High
+28 | File | `/see_more_details.php` | High
+29 | File | `/StartingPage/link_req_2.php` | High
+30 | File | `/storage.html` | High
+31 | File | `/tools/required/files/importers/imageeditor` | High
+32 | File | `/userman/inbox.php` | High
+33 | File | `/UserSelfServiceSettings.jsp` | High
+34 | File | `/usr/local/contego/scripts/hostname.sh` | High
+35 | File | `/video-sharing-script/watch-video.php` | High
+36 | File | `/vmi/manager/engine/management/commands/apns_worker.py` | High
+37 | ... | ... | ...
+
+There are 313 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/cb5538b08c11ad4a004b1f5668ce77a38fe574c2fb8ccaf0ebf06a548ad4144d/
 * https://research.checkpoint.com/2021/mekotio-banker-returns-with-improved-stealth-and-ancient-encryption/
+* https://threatfox.abuse.ch
+* https://twitter.com/Dkavalanche/status/1623456458464702468
+* https://twitter.com/Dkavalanche/status/1633256558158118913
+* https://twitter.com/Merlax_/status/1598764864738033680
+* https://twitter.com/Merlax_/status/1612827626967638017
+* https://twitter.com/Merlax_/status/1617705925779017729
+* https://twitter.com/Merlax_/status/1626290586016792576
+* https://twitter.com/Merlax_/status/1642935684292804609
+* https://twitter.com/Merlax_/status/1651696436013068290
+* https://twitter.com/Merlax_/status/1654904040906530817
+* https://twitter.com/Merlax_/status/1657030594121826306
+* https://twitter.com/Merlax_/status/1659652152543813652
 
 ## Literature
 
