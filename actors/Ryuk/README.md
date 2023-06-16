@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 17 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -37,17 +37,18 @@ ID | IP address | Hostname | Campaign | Confidence
 14 | [5.2.79.10](https://vuldb.com/?ip.5.2.79.10) | - | - | High
 15 | [5.2.79.12](https://vuldb.com/?ip.5.2.79.12) | mail.suspicious-login-managepaypal.com | - | High
 16 | [5.182.210.145](https://vuldb.com/?ip.5.182.210.145) | - | - | High
-17 | [8.208.103.182](https://vuldb.com/?ip.8.208.103.182) | - | - | High
-18 | [34.222.33.48](https://vuldb.com/?ip.34.222.33.48) | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | - | Medium
-19 | [45.34.6.225](https://vuldb.com/?ip.45.34.6.225) | unassigned.psychz.net | - | High
-20 | [45.34.6.226](https://vuldb.com/?ip.45.34.6.226) | unassigned.psychz.net | - | High
-21 | [45.138.172.95](https://vuldb.com/?ip.45.138.172.95) | - | - | High
-22 | [45.141.84.120](https://vuldb.com/?ip.45.141.84.120) | - | - | High
-23 | [45.147.228.77](https://vuldb.com/?ip.45.147.228.77) | - | - | High
-24 | [45.147.229.52](https://vuldb.com/?ip.45.147.229.52) | - | - | High
-25 | ... | ... | ... | ...
+17 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+18 | [8.208.103.182](https://vuldb.com/?ip.8.208.103.182) | - | - | High
+19 | [34.222.33.48](https://vuldb.com/?ip.34.222.33.48) | ec2-34-222-33-48.us-west-2.compute.amazonaws.com | - | Medium
+20 | [45.34.6.225](https://vuldb.com/?ip.45.34.6.225) | unassigned.psychz.net | - | High
+21 | [45.34.6.226](https://vuldb.com/?ip.45.34.6.226) | unassigned.psychz.net | - | High
+22 | [45.138.172.95](https://vuldb.com/?ip.45.138.172.95) | - | - | High
+23 | [45.141.84.120](https://vuldb.com/?ip.45.141.84.120) | - | - | High
+24 | [45.147.228.77](https://vuldb.com/?ip.45.147.228.77) | - | - | High
+25 | [45.147.229.52](https://vuldb.com/?ip.45.147.229.52) | - | - | High
+26 | ... | ... | ... | ...
 
-There are 94 more IOC items available. Please use our online service to access the data.
+There are 98 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -76,49 +77,48 @@ ID | Type | Indicator | Confidence
 4 | File | `/Admin/add-student.php` | High
 5 | File | `/admin/settings/save.php` | High
 6 | File | `/admin/userprofile.php` | High
-7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/app/options.py` | High
-9 | File | `/apply.cgi` | Medium
-10 | File | `/bin/httpd` | Medium
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/ci_spms/admin/category` | High
-14 | File | `/ci_spms/admin/search/searching/` | High
-15 | File | `/classes/Master.php?f=delete_appointment` | High
-16 | File | `/classes/Master.php?f=delete_train` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-19 | File | `/ctcprotocol/Protocol` | High
-20 | File | `/dashboard/menu-list.php` | High
-21 | File | `/dcim/rack-roles/` | High
-22 | File | `/ebics-server/ebics.aspx` | High
-23 | File | `/ffos/classes/Master.php?f=save_category` | High
-24 | File | `/forum/away.php` | High
-25 | File | `/goform/addUserName` | High
-26 | File | `/goform/aspForm` | High
-27 | File | `/goform/delAd` | High
-28 | File | `/goform/wifiSSIDset` | High
-29 | File | `/gpac/src/bifs/unquantize.c` | High
-30 | File | `/HNAP1` | Low
-31 | File | `/HNAP1/SetClientInfo` | High
-32 | File | `/inc/topBarNav.php` | High
-33 | File | `/index.asp` | Medium
-34 | File | `/index.php` | Medium
-35 | File | `/Items/*/RemoteImages/Download` | High
-36 | File | `/jfinal_cms/system/role/list` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/members/view_member.php` | High
-39 | File | `/menu.html` | Medium
-40 | File | `/modules/profile/index.php` | High
-41 | File | `/Moosikay/order.php` | High
-42 | File | `/ocwbs/admin/?page=user/manage_user` | High
-43 | File | `/ofrs/admin/?page=user/manage_user` | High
-44 | File | `/out.php` | Medium
-45 | File | `/owa/auth/logon.aspx` | High
-46 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-47 | ... | ... | ...
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/gen/clients/{language}` | High
+9 | File | `/app/options.py` | High
+10 | File | `/apply.cgi` | Medium
+11 | File | `/bin/httpd` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/ci_spms/admin/category` | High
+15 | File | `/ci_spms/admin/search/searching/` | High
+16 | File | `/classes/Master.php?f=delete_appointment` | High
+17 | File | `/classes/Master.php?f=delete_train` | High
+18 | File | `/College/admin/teacher.php` | High
+19 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+20 | File | `/ctcprotocol/Protocol` | High
+21 | File | `/dashboard/menu-list.php` | High
+22 | File | `/dcim/rack-roles/` | High
+23 | File | `/ebics-server/ebics.aspx` | High
+24 | File | `/ffos/classes/Master.php?f=save_category` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/addUserName` | High
+27 | File | `/goform/aspForm` | High
+28 | File | `/goform/delAd` | High
+29 | File | `/goform/wifiSSIDset` | High
+30 | File | `/gpac/src/bifs/unquantize.c` | High
+31 | File | `/HNAP1` | Low
+32 | File | `/HNAP1/SetClientInfo` | High
+33 | File | `/inc/topBarNav.php` | High
+34 | File | `/index.asp` | Medium
+35 | File | `/index.php` | Medium
+36 | File | `/Items/*/RemoteImages/Download` | High
+37 | File | `/jfinal_cms/system/role/list` | High
+38 | File | `/kelas/data` | Medium
+39 | File | `/members/view_member.php` | High
+40 | File | `/menu.html` | Medium
+41 | File | `/modules/profile/index.php` | High
+42 | File | `/Moosikay/order.php` | High
+43 | File | `/out.php` | Medium
+44 | File | `/owa/auth/logon.aspx` | High
+45 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+46 | ... | ... | ...
 
-There are 405 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -131,6 +131,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://thedfirreport.com/2020/11/05/ryuk-speed-run-2-hours-to-ransom/
 * https://thedfirreport.com/2021/01/31/bazar-no-ryuk/
 * https://twitter.com/TeamDreier/status/1378005931678699521
+* https://www.crowdstrike.com/blog/wizard-spider-adds-new-feature-to-ryuk-ransomware/
+* https://www.fortinet.com/blog/threat-research/ryuk-revisited-analysis-of-recent-ryuk-attack.html
 
 ## Literature
 

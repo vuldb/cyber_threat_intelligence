@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 19 more country items available. Please use our online service to access the data.
+There are 20 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -203,9 +203,11 @@ ID | IP address | Hostname | Campaign | Confidence
 180 | [41.108.184.148](https://vuldb.com/?ip.41.108.184.148) | - | - | High
 181 | [41.109.68.239](https://vuldb.com/?ip.41.109.68.239) | - | - | High
 182 | [41.109.74.58](https://vuldb.com/?ip.41.109.74.58) | - | - | High
-183 | ... | ... | ... | ...
+183 | [41.109.224.182](https://vuldb.com/?ip.41.109.224.182) | - | - | High
+184 | [41.109.251.66](https://vuldb.com/?ip.41.109.251.66) | - | - | High
+185 | ... | ... | ... | ...
 
-There are 730 more IOC items available. Please use our online service to access the data.
+There are 735 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -213,7 +215,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-35, CWE-36, CWE-50 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -243,14 +245,14 @@ ID | Type | Indicator | Confidence
 13 | File | `/DXR.axd` | Medium
 14 | File | `/E-mobile/App/System/File/downfile.php` | High
 15 | File | `/Electron/download` | High
-16 | File | `/etc/sudoers` | Medium
-17 | File | `/feeds/post/publish` | High
-18 | File | `/forum/away.php` | High
-19 | File | `/healthcare/Admin/consulting_detail.php` | High
-20 | File | `/holiday.php` | Medium
-21 | File | `/inc/jquery/uploadify/uploadify.php` | High
-22 | File | `/index.php?app=main&func=passport&action=login` | High
-23 | File | `/index.php?page=category_list` | High
+16 | File | `/feeds/post/publish` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/healthcare/Admin/consulting_detail.php` | High
+19 | File | `/holiday.php` | Medium
+20 | File | `/inc/jquery/uploadify/uploadify.php` | High
+21 | File | `/index.php?app=main&func=passport&action=login` | High
+22 | File | `/index.php?page=category_list` | High
+23 | File | `/jobinfo/` | Medium
 24 | File | `/mcategory.php` | High
 25 | File | `/mhds/clinic/view_details.php` | High
 26 | File | `/Moosikay/order.php` | High
@@ -261,27 +263,27 @@ ID | Type | Indicator | Confidence
 31 | File | `/proxy` | Low
 32 | File | `/reservation/add_message.php` | High
 33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-34 | File | `/rom-0` | Low
-35 | File | `/sbin/orthrus` | High
-36 | File | `/sbin/rtspd` | Medium
-37 | File | `/send_order.cgi?parameter=access_detect` | High
-38 | File | `/text/pdf/PdfReader.java` | High
-39 | File | `/tmp` | Low
-40 | File | `/uncpath/` | Medium
-41 | File | `/user/updatePwd` | High
-42 | File | `/usr/bin/at` | Medium
-43 | File | `/var/www/video/mp4ts` | High
-44 | File | `/wabt/bin/poc.wasm` | High
-45 | File | `/wp-admin/admin-ajax.php` | High
-46 | File | `/zm/index.php` | High
-47 | File | `123flashchat.php` | High
-48 | File | `404.php` | Low
-49 | File | `a-forms.php` | Medium
-50 | File | `a2billing/customer/iridium_threed.php` | High
-51 | File | `adclick.php` | Medium
+34 | File | `/sbin/orthrus` | High
+35 | File | `/sbin/rtspd` | Medium
+36 | File | `/send_order.cgi?parameter=access_detect` | High
+37 | File | `/text/pdf/PdfReader.java` | High
+38 | File | `/tmp` | Low
+39 | File | `/uncpath/` | Medium
+40 | File | `/user/updatePwd` | High
+41 | File | `/usr/bin/at` | Medium
+42 | File | `/var/www/video/mp4ts` | High
+43 | File | `/wabt/bin/poc.wasm` | High
+44 | File | `/wp-admin/admin-ajax.php` | High
+45 | File | `/zm/index.php` | High
+46 | File | `123flashchat.php` | High
+47 | File | `404.php` | Low
+48 | File | `a-forms.php` | Medium
+49 | File | `adclick.php` | Medium
+50 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+51 | File | `admin.a6mambocredits.php` | High
 52 | ... | ... | ...
 
-There are 454 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

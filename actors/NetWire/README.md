@@ -1,74 +1,75 @@
-# NetWire - Cyber Threat Intelligence
+# Netwire - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [NetWire](https://vuldb.com/?actor.netwire). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Netwire](https://vuldb.com/?actor.netwire). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.netwire](https://vuldb.com/?actor.netwire)
 
 ## Campaigns
 
-The following _campaigns_ are known and can be associated with NetWire:
+The following _campaigns_ are known and can be associated with Netwire:
 
 * Phishing
 
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with NetWire:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Netwire:
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of NetWire.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Netwire.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [1.2.3.4](https://vuldb.com/?ip.1.2.3.4) | - | - | High
-2 | [2.57.90.16](https://vuldb.com/?ip.2.57.90.16) | - | - | High
-3 | [3.19.100.43](https://vuldb.com/?ip.3.19.100.43) | ec2-3-19-100-43.us-east-2.compute.amazonaws.com | - | Medium
-4 | [3.64.163.50](https://vuldb.com/?ip.3.64.163.50) | ec2-3-64-163-50.eu-central-1.compute.amazonaws.com | - | Medium
-5 | [3.129.252.224](https://vuldb.com/?ip.3.129.252.224) | ec2-3-129-252-224.us-east-2.compute.amazonaws.com | - | Medium
-6 | [3.134.22.63](https://vuldb.com/?ip.3.134.22.63) | ec2-3-134-22-63.us-east-2.compute.amazonaws.com | - | Medium
-7 | [3.136.101.224](https://vuldb.com/?ip.3.136.101.224) | ec2-3-136-101-224.us-east-2.compute.amazonaws.com | - | Medium
-8 | [5.56.133.55](https://vuldb.com/?ip.5.56.133.55) | 5-56-133-55.static.karizanta.com | - | High
-9 | [5.56.133.98](https://vuldb.com/?ip.5.56.133.98) | 5-56-133-98.static.karizanta.com | - | High
-10 | [5.254.112.53](https://vuldb.com/?ip.5.254.112.53) | - | - | High
-11 | [13.248.243.5](https://vuldb.com/?ip.13.248.243.5) | a16e665f42988324c.awsglobalaccelerator.com | - | High
-12 | [20.103.85.33](https://vuldb.com/?ip.20.103.85.33) | - | - | High
-13 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
-14 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
-15 | [23.227.38.64](https://vuldb.com/?ip.23.227.38.64) | shops.myshopify.com | - | High
-16 | [23.227.199.214](https://vuldb.com/?ip.23.227.199.214) | 23-227-199-214.static.hvvc.us | - | High
-17 | [23.230.152.134](https://vuldb.com/?ip.23.230.152.134) | - | - | High
-18 | [23.254.202.192](https://vuldb.com/?ip.23.254.202.192) | hwsrv-738718.hostwindsdns.com | - | High
-19 | [31.220.126.24](https://vuldb.com/?ip.31.220.126.24) | - | - | High
-20 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
-21 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
-22 | [37.0.11.206](https://vuldb.com/?ip.37.0.11.206) | - | - | High
-23 | [37.46.114.246](https://vuldb.com/?ip.37.46.114.246) | yjnimw.yyngy4.reversedigital.radio.am | - | High
-24 | [37.46.150.139](https://vuldb.com/?ip.37.46.150.139) | - | - | High
-25 | [37.48.80.173](https://vuldb.com/?ip.37.48.80.173) | - | - | High
-26 | [37.139.64.106](https://vuldb.com/?ip.37.139.64.106) | - | - | High
-27 | [39.108.116.125](https://vuldb.com/?ip.39.108.116.125) | - | - | High
-28 | [45.10.154.55](https://vuldb.com/?ip.45.10.154.55) | vmi1037505.contaboserver.net | - | High
-29 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
-30 | [45.144.225.219](https://vuldb.com/?ip.45.144.225.219) | - | - | High
-31 | [45.207.92.23](https://vuldb.com/?ip.45.207.92.23) | - | - | High
-32 | [45.224.128.33](https://vuldb.com/?ip.45.224.128.33) | gunnar.servidor.net.br | - | High
-33 | [46.244.18.141](https://vuldb.com/?ip.46.244.18.141) | 141-18-244-46.a2b-internet.com | - | High
-34 | [46.246.126.193](https://vuldb.com/?ip.46.246.126.193) | 193-126-246-46.static.edis.at | - | High
-35 | [50.87.196.120](https://vuldb.com/?ip.50.87.196.120) | box2348.bluehost.com | - | High
-36 | ... | ... | ... | ...
+1 | [0.0.0.0](https://vuldb.com/?ip.0.0.0.0) | - | - | High
+2 | [1.2.3.4](https://vuldb.com/?ip.1.2.3.4) | - | - | High
+3 | [2.5.198.17](https://vuldb.com/?ip.2.5.198.17) | - | - | High
+4 | [2.57.90.16](https://vuldb.com/?ip.2.57.90.16) | - | - | High
+5 | [3.19.100.43](https://vuldb.com/?ip.3.19.100.43) | ec2-3-19-100-43.us-east-2.compute.amazonaws.com | - | Medium
+6 | [3.64.163.50](https://vuldb.com/?ip.3.64.163.50) | ec2-3-64-163-50.eu-central-1.compute.amazonaws.com | - | Medium
+7 | [3.129.252.224](https://vuldb.com/?ip.3.129.252.224) | ec2-3-129-252-224.us-east-2.compute.amazonaws.com | - | Medium
+8 | [3.134.22.63](https://vuldb.com/?ip.3.134.22.63) | ec2-3-134-22-63.us-east-2.compute.amazonaws.com | - | Medium
+9 | [3.136.101.224](https://vuldb.com/?ip.3.136.101.224) | ec2-3-136-101-224.us-east-2.compute.amazonaws.com | - | Medium
+10 | [5.56.133.55](https://vuldb.com/?ip.5.56.133.55) | 5-56-133-55.static.karizanta.com | - | High
+11 | [5.56.133.98](https://vuldb.com/?ip.5.56.133.98) | 5-56-133-98.static.karizanta.com | - | High
+12 | [5.254.112.53](https://vuldb.com/?ip.5.254.112.53) | - | - | High
+13 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+14 | [10.0.2.15](https://vuldb.com/?ip.10.0.2.15) | - | - | High
+15 | [13.248.243.5](https://vuldb.com/?ip.13.248.243.5) | a16e665f42988324c.awsglobalaccelerator.com | - | High
+16 | [20.103.85.33](https://vuldb.com/?ip.20.103.85.33) | - | - | High
+17 | [23.20.239.12](https://vuldb.com/?ip.23.20.239.12) | ec2-23-20-239-12.compute-1.amazonaws.com | - | Medium
+18 | [23.221.227.169](https://vuldb.com/?ip.23.221.227.169) | a23-221-227-169.deploy.static.akamaitechnologies.com | - | High
+19 | [23.227.38.64](https://vuldb.com/?ip.23.227.38.64) | shops.myshopify.com | - | High
+20 | [23.227.199.214](https://vuldb.com/?ip.23.227.199.214) | 23-227-199-214.static.hvvc.us | - | High
+21 | [23.230.152.134](https://vuldb.com/?ip.23.230.152.134) | - | - | High
+22 | [23.254.202.192](https://vuldb.com/?ip.23.254.202.192) | hwsrv-738718.hostwindsdns.com | - | High
+23 | [31.220.126.24](https://vuldb.com/?ip.31.220.126.24) | - | - | High
+24 | [34.102.136.180](https://vuldb.com/?ip.34.102.136.180) | 180.136.102.34.bc.googleusercontent.com | - | Medium
+25 | [34.117.168.233](https://vuldb.com/?ip.34.117.168.233) | 233.168.117.34.bc.googleusercontent.com | - | Medium
+26 | [37.0.11.206](https://vuldb.com/?ip.37.0.11.206) | - | - | High
+27 | [37.46.114.246](https://vuldb.com/?ip.37.46.114.246) | yjnimw.yyngy4.reversedigital.radio.am | - | High
+28 | [37.46.150.139](https://vuldb.com/?ip.37.46.150.139) | - | - | High
+29 | [37.48.80.173](https://vuldb.com/?ip.37.48.80.173) | - | - | High
+30 | [37.139.64.106](https://vuldb.com/?ip.37.139.64.106) | - | - | High
+31 | [39.108.116.125](https://vuldb.com/?ip.39.108.116.125) | - | - | High
+32 | [45.10.154.55](https://vuldb.com/?ip.45.10.154.55) | vmi1037505.contaboserver.net | - | High
+33 | [45.33.6.223](https://vuldb.com/?ip.45.33.6.223) | sqlite.org | - | High
+34 | [45.144.225.219](https://vuldb.com/?ip.45.144.225.219) | - | - | High
+35 | [45.207.92.23](https://vuldb.com/?ip.45.207.92.23) | - | - | High
+36 | [45.224.128.33](https://vuldb.com/?ip.45.224.128.33) | gunnar.servidor.net.br | - | High
+37 | ... | ... | ... | ...
 
-There are 139 more IOC items available. Please use our online service to access the data.
+There are 143 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _NetWire_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Netwire_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -84,16 +85,16 @@ There are 22 more TTP items available. Please use our online service to access t
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by NetWire. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Netwire. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `.procmailrc` | Medium
-3 | File | `//proc/kcore` | Medium
-4 | File | `/?ajax-request=jnews` | High
-5 | File | `/admin.php/Admin/adminadd.html` | High
-6 | File | `/Admin/add-student.php` | High
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?ajax-request=jnews` | High
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/edit_subject.php` | High
 7 | File | `/admin/login.php` | High
 8 | File | `/admin/products/manage_product.php` | High
 9 | File | `/admin/settings/save.php` | High
@@ -142,9 +143,10 @@ ID | Type | Indicator | Confidence
 52 | File | `/pages/animals.php` | High
 53 | File | `/php-scrm/login.php` | High
 54 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-55 | ... | ... | ...
+55 | File | `/php-sms/classes/Master.php` | High
+56 | ... | ... | ...
 
-There are 477 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 487 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -173,6 +175,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/threat-roundup-1028-1104/
 * https://blog.talosintelligence.com/threat-roundup-feb-24-march-3-2023/
 * https://unit42.paloaltonetworks.jp/guloader-installing-netwire-rat/
+* https://www.fortinet.com/blog/threat-research/netwire-rat-targeting-taxpayers-is-spreading-via-legacy-microsoft-excel-4-0-macro.html
+* https://www.fortinet.com/blog/threat-research/new-netwire-rat-variant-spread-by-phishing.html
 * https://www.mandiant.com/resources/dissecting-netwire-phishing-campaigns-usage-process-hollowing
 
 ## Literature

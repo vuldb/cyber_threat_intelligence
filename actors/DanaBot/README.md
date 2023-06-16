@@ -9,11 +9,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DanaBot:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
-* ...
-
-There are 8 more country items available. Please use our online service to access the data.
+* [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
 
@@ -23,15 +19,37 @@ ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.8.55.205](https://vuldb.com/?ip.5.8.55.205) | carpbaboon.com | - | High
 2 | [5.9.224.217](https://vuldb.com/?ip.5.9.224.217) | static.217.224.9.5.clients.your-server.de | - | High
-3 | [23.106.122.14](https://vuldb.com/?ip.23.106.122.14) | - | - | High
-4 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
-5 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
-6 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
-7 | [45.147.231.79](https://vuldb.com/?ip.45.147.231.79) | - | - | High
-8 | [46.173.218.13](https://vuldb.com/?ip.46.173.218.13) | - | - | High
-9 | ... | ... | ... | ...
+3 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+4 | [23.106.122.14](https://vuldb.com/?ip.23.106.122.14) | - | - | High
+5 | [23.106.123.224](https://vuldb.com/?ip.23.106.123.224) | - | - | High
+6 | [23.106.123.249](https://vuldb.com/?ip.23.106.123.249) | - | - | High
+7 | [23.254.129.180](https://vuldb.com/?ip.23.254.129.180) | hwsrv-1035456.hostwindsdns.com | - | High
+8 | [23.254.133.7](https://vuldb.com/?ip.23.254.133.7) | client-23-254-133-7.hostwindsdns.com | - | High
+9 | [23.254.134.53](https://vuldb.com/?ip.23.254.134.53) | hwsrv-1045495.hostwindsdns.com | - | High
+10 | [23.254.144.209](https://vuldb.com/?ip.23.254.144.209) | client-23-254-144-209.hostwindsdns.com | - | High
+11 | [23.254.164.106](https://vuldb.com/?ip.23.254.164.106) | hwsrv-978595.hostwindsdns.com | - | High
+12 | [23.254.201.147](https://vuldb.com/?ip.23.254.201.147) | WIN-FRBTX5I65I.com | - | High
+13 | [23.254.217.192](https://vuldb.com/?ip.23.254.217.192) | hwsrv-982289.hostwindsdns.com | - | High
+14 | [23.254.226.52](https://vuldb.com/?ip.23.254.226.52) | client-23-254-226-52.hostwindsdns.com | - | High
+15 | [23.254.226.136](https://vuldb.com/?ip.23.254.226.136) | box.sostenibilidadsocia.online | - | High
+16 | [23.254.227.74](https://vuldb.com/?ip.23.254.227.74) | hwsrv-1042388.hostwindsdns.com | - | High
+17 | [23.254.228.176](https://vuldb.com/?ip.23.254.228.176) | client-23-254-228-176.hostwindsdns.com | - | High
+18 | [26.64.30.13](https://vuldb.com/?ip.26.64.30.13) | - | - | High
+19 | [31.214.157.12](https://vuldb.com/?ip.31.214.157.12) | mail.private-mail.nl | - | High
+20 | [34.90.104.246](https://vuldb.com/?ip.34.90.104.246) | 246.104.90.34.bc.googleusercontent.com | - | Medium
+21 | [34.95.4.102](https://vuldb.com/?ip.34.95.4.102) | 102.4.95.34.bc.googleusercontent.com | - | Medium
+22 | [34.105.203.100](https://vuldb.com/?ip.34.105.203.100) | 100.203.105.34.bc.googleusercontent.com | - | Medium
+23 | [34.129.5.173](https://vuldb.com/?ip.34.129.5.173) | 173.5.129.34.bc.googleusercontent.com | - | Medium
+24 | [34.247.234.201](https://vuldb.com/?ip.34.247.234.201) | ec2-34-247-234-201.eu-west-1.compute.amazonaws.com | - | Medium
+25 | [35.194.193.144](https://vuldb.com/?ip.35.194.193.144) | 144.193.194.35.bc.googleusercontent.com | - | Medium
+26 | [35.199.99.16](https://vuldb.com/?ip.35.199.99.16) | 16.99.199.35.bc.googleusercontent.com | - | Medium
+27 | [35.199.103.5](https://vuldb.com/?ip.35.199.103.5) | 5.103.199.35.bc.googleusercontent.com | - | Medium
+28 | [35.220.142.90](https://vuldb.com/?ip.35.220.142.90) | 90.142.220.35.bc.googleusercontent.com | - | Medium
+29 | [35.220.149.58](https://vuldb.com/?ip.35.220.149.58) | 58.149.220.35.bc.googleusercontent.com | - | Medium
+30 | [35.226.27.224](https://vuldb.com/?ip.35.226.27.224) | 224.27.226.35.bc.googleusercontent.com | - | Medium
+31 | ... | ... | ... | ...
 
-There are 32 more IOC items available. Please use our online service to access the data.
+There are 121 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,13 +57,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1059.007 | CWE-79 | Cross Site Scripting | High
+3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+4 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 6 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,32 +70,12 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/account/ResetPassword` | High
-3 | File | `/addnews.html` | High
-4 | File | `/cgi-bin/go` | Medium
-5 | File | `/cm/delete` | Medium
-6 | File | `/download` | Medium
-7 | File | `/forum/away.php` | High
-8 | File | `/GetSimpleCMS-3.3.15/admin/log.php` | High
-9 | File | `/lms/admin.php` | High
-10 | File | `/my_photo_gallery/image.php` | High
-11 | File | `/redpass.cgi` | Medium
-12 | File | `/reps/classes/Users.php?f=delete_agent` | High
-13 | File | `/rom-0` | Low
-14 | File | `/secure/admin/ImporterFinishedPage.jspa` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/usr/ucb/mail` | High
-17 | File | `adclick.php` | Medium
-18 | File | `add-category.php` | High
-19 | File | `add_comment.php` | High
-20 | File | `admin.php` | Medium
-21 | File | `admin/admin.shtml` | High
-22 | File | `admin/content.php` | High
-23 | File | `admin/index.php` | High
-24 | ... | ... | ...
+1 | File | `/cgi-bin/kerbynet` | High
+2 | File | `/uncpath/` | Medium
+3 | File | `Deliver_SendMail.class.php` | High
+4 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -89,7 +86,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/eset/malware-ioc/tree/master/danabot
 * https://isc.sans.edu/forums/diary/Example+of+Danabot+distributed+through+malspam/27744/
 * https://research.checkpoint.com/2019/danabot-demands-a-ransom-payment/
+* https://threatfox.abuse.ch
+* https://tria.ge/220106-qkhmeabcd2
+* https://tria.ge/s/family:danabot
 * https://twitter.com/CERT_OPL/status/1138810411149643777
+* https://www.fortinet.com/blog/threat-research/breakdown-of-a-targeted-danabot-attack.html
+* https://www.virustotal.com/gui/file/6134ee02f86b79ea77b58ef215c36d45a849f70d4421dee96efdc1b9f011a8fd
 
 ## Literature
 

@@ -66,17 +66,17 @@ ID | Type | Indicator | Confidence
 9 | File | `/search_events.php` | High
 10 | File | `/StartingPage/link_req_2.php` | High
 11 | File | `/user/s.php` | Medium
-12 | File | `/ViewUserHover.jspa` | High
-13 | File | `admin.php` | Medium
-14 | File | `admin/AJAX_lookup_handler.php` | High
-15 | File | `admin/general.php` | High
-16 | File | `admin/index.php` | High
-17 | File | `admin/login.asp` | High
-18 | File | `admin/movieedit.php` | High
-19 | File | `affich.php` | Medium
+12 | File | `/vendor` | Low
+13 | File | `/ViewUserHover.jspa` | High
+14 | File | `admin.php` | Medium
+15 | File | `admin/AJAX_lookup_handler.php` | High
+16 | File | `admin/general.php` | High
+17 | File | `admin/index.php` | High
+18 | File | `admin/login.asp` | High
+19 | File | `admin/movieedit.php` | High
 20 | ... | ... | ...
 
-There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

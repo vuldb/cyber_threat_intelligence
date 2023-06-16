@@ -23,6 +23,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 2 | [DPRK](https://vuldb.com/?actor.dprk) | High
+3 | [HopLight](https://vuldb.com/?actor.hoplight) | High
 
 ## IOC - Indicator of Compromise
 
@@ -30,14 +31,18 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-2 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
-3 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
-4 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [DPRK](https://vuldb.com/?actor.dprk) | High
-5 | [70.224.36.194](https://vuldb.com/?ip.70.224.36.194) | adsl-70-224-36-194.dsl.sbndin.ameritech.net | [DPRK](https://vuldb.com/?actor.dprk) | High
-6 | ... | ... | ... | ...
+1 | [10.10.30.130](https://vuldb.com/?ip.10.10.30.130) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+2 | [14.140.116.172](https://vuldb.com/?ip.14.140.116.172) | 14-140-116-172-sapient.com | [HopLight](https://vuldb.com/?actor.hoplight) | High
+3 | [21.0.0.0](https://vuldb.com/?ip.21.0.0.0) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+4 | [21.252.107.198](https://vuldb.com/?ip.21.252.107.198) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+5 | [21.255.255.255](https://vuldb.com/?ip.21.255.255.255) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+6 | [26.0.0.0](https://vuldb.com/?ip.26.0.0.0) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+7 | [26.165.218.44](https://vuldb.com/?ip.26.165.218.44) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+8 | [26.255.255.255](https://vuldb.com/?ip.26.255.255.255) | - | [HopLight](https://vuldb.com/?actor.hoplight) | High
+9 | [47.206.4.145](https://vuldb.com/?ip.47.206.4.145) | static-47-206-4-145.srst.fl.frontiernet.net | [HopLight](https://vuldb.com/?actor.hoplight) | High
+10 | ... | ... | ... | ...
 
-There are 18 more IOC items available. Please use our online service to access the data.
+There are 35 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -72,24 +77,23 @@ ID | Type | Indicator | Confidence
 10 | File | `/context/%2e/WEB-INF/web.xml` | High
 11 | File | `/core/conditions/AbstractWrapper.java` | High
 12 | File | `/data/remove` | Medium
-13 | File | `/DataHandler/AM/AM_Handler.ashx` | High
-14 | File | `/DataHandler/HandlerAlarmGroup.ashx` | High
-15 | File | `/DataHandler/HandlerEnergyType.ashx` | High
-16 | File | `/DataHandler/Handler_CFG.ashx` | High
-17 | File | `/ECT_Provider/` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/face-recognition-php/facepay-master/camera.php` | High
-20 | File | `/forms/doLogin` | High
-21 | File | `/fuel/index.php/fuel/logs/items` | High
-22 | File | `/fuel/index.php/fuel/pages/items` | High
-23 | File | `/image_zoom.php` | High
-24 | File | `/include/config.cache.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/mkshop/Men/profile.php` | High
-27 | File | `/param.file.tgz` | High
-28 | ... | ... | ...
+13 | File | `/ECT_Provider/` | High
+14 | File | `/etc/passwd` | Medium
+15 | File | `/face-recognition-php/facepay-master/camera.php` | High
+16 | File | `/forms/doLogin` | High
+17 | File | `/fuel/index.php/fuel/logs/items` | High
+18 | File | `/fuel/index.php/fuel/pages/items` | High
+19 | File | `/image_zoom.php` | High
+20 | File | `/include/config.cache.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/param.file.tgz` | High
+24 | File | `/proxy/` | Low
+25 | File | `/public/plugins/` | High
+26 | File | `/rest/api/2/search` | High
+27 | ... | ... | ...
 
-There are 240 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -97,6 +101,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR19-100A
 * https://www.cisa.gov/uscert/ncas/analysis-reports/ar20-045g
+* https://www.us-cert.gov/ncas/analysis-reports/ar20-045g
 
 ## Literature
 

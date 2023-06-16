@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with AppleJeus:
 
-* [DE](https://vuldb.com/?country.de)
+* [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -23,6 +23,10 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 2 | [DPRK](https://vuldb.com/?actor.dprk) | High
+3 | [AppleJeus](https://vuldb.com/?actor.applejeus) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,14 +34,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-2 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-3 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-4 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
-5 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
-6 | ... | ... | ... | ...
+1 | [23.254.217.53](https://vuldb.com/?ip.23.254.217.53) | client-23-254-217-53.hostwindsdns.com | [Applejeus](https://vuldb.com/?actor.applejeus) | High
+2 | [45.33.2.79](https://vuldb.com/?ip.45.33.2.79) | li956-79.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+3 | [45.33.23.183](https://vuldb.com/?ip.45.33.23.183) | li977-183.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+4 | [45.56.79.23](https://vuldb.com/?ip.45.56.79.23) | li929-23.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+5 | [45.79.19.196](https://vuldb.com/?ip.45.79.19.196) | li1118-196.members.linode.com | [DPRK](https://vuldb.com/?actor.dprk) | High
+6 | [45.199.63.220](https://vuldb.com/?ip.45.199.63.220) | - | [DPRK](https://vuldb.com/?actor.dprk) | High
+7 | [80.82.64.91](https://vuldb.com/?ip.80.82.64.91) | - | [AppleJeus](https://vuldb.com/?actor.applejeus) | High
+8 | ... | ... | ... | ...
 
-There are 20 more IOC items available. Please use our online service to access the data.
+There are 29 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,12 +51,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -58,22 +66,62 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php/weblinks-categories` | High
-2 | File | `admin/mail.php` | High
-3 | File | `admin_edit_room.php` | High
-4 | File | `ajax/actions.php` | High
-5 | File | `AutoUpdater.cs` | High
-6 | File | `body2.ghp` | Medium
-7 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/admin/upload/upload` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/cgi-bin/wlogin.cgi` | High
+6 | File | `/classes/Users.php` | High
+7 | File | `/config/getuser` | High
+8 | File | `/config/myfield/test.php` | High
+9 | File | `/debug/pprof` | Medium
+10 | File | `/ecshop/admin/template.php` | High
+11 | File | `/example/editor` | High
+12 | File | `/file/upload/1` | High
+13 | File | `/forum/away.php` | High
+14 | File | `/forum/PostPrivateMessage` | High
+15 | File | `/HNAP1` | Low
+16 | File | `/home/www/cgi-bin/login.cgi` | High
+17 | File | `/iu-application/controllers/administration/auth.php` | High
+18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+19 | File | `/multi-vendor-shopping-script/product-list.php` | High
+20 | File | `/net-banking/customer_transactions.php` | High
+21 | File | `/obs/book.php` | High
+22 | File | `/ossn/administrator/com_installer` | High
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/pms/update_user.php?user_id=1` | High
+25 | File | `/requests.php` | High
+26 | File | `/spip.php` | Medium
+27 | File | `/sre/params.php` | High
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/user/upload/upload` | High
+31 | File | `/Users` | Low
+32 | File | `/var/spool/hylafax` | High
+33 | File | `/vendor` | Low
+34 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+35 | File | `action/addproject.php` | High
+36 | File | `adclick.php` | Medium
+37 | File | `add_contestant.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin/index.php` | High
+40 | File | `admin/make_payments.php` | High
+41 | File | `Advanced_ASUSDDNS_Content.asp` | High
+42 | File | `af_netlink.c` | Medium
+43 | File | `album_portal.php` | High
+44 | File | `api_jsonrpc.php` | High
+45 | ... | ... | ...
 
-There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://securelist.com/operation-applejeus-sequel/95596/
 * https://us-cert.cisa.gov/ncas/alerts/aa21-048a
 * https://us-cert.cisa.gov/ncas/analysis-reports/ar21-048c
+* https://www.cyber45.com
 
 ## Literature
 

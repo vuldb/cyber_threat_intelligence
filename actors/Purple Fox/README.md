@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Purple Fox:
 
 * [VN](https://vuldb.com/?country.vn)
-* [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -431,13 +431,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -445,46 +446,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
-2 | File | `/?p=products` | Medium
-3 | File | `/?r=email/api/mark&op=delFromSend` | High
-4 | File | `/action/wirelessConnect` | High
-5 | File | `/admin/assign/assign.php` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/curriculum/view_curriculum.php` | High
-8 | File | `/admin/departments/view_department.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin/user/uploadImg` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/analysisProject/pagingQueryData` | High
-15 | File | `/api/stl/actions/search` | High
-16 | File | `/api/v2/cli/commands` | High
-17 | File | `/bin/login` | Medium
-18 | File | `/bsms_ci/index.php` | High
-19 | File | `/bsms_ci/index.php/user/edit_user/` | High
-20 | File | `/cas/logout` | Medium
-21 | File | `/cgi-bin` | Medium
-22 | File | `/cgi-bin/upload_vpntar` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/classes/Master.php?f=delete_item` | High
-26 | File | `/classes/Master.php?f=save_service` | High
-27 | File | `/config/getuser` | High
-28 | File | `/Content/Template/root/reverse-shell.aspx` | High
-29 | File | `/data/remove` | Medium
-30 | File | `/debug/pprof` | Medium
-31 | File | `/Default/Bd` | Medium
-32 | File | `/E-mobile/App/System/File/downfile.php` | High
-33 | File | `/Electron/download` | High
-34 | File | `/forms/doLogin` | High
-35 | File | `/forum/away.php` | High
-36 | File | `/hrm/controller/employee.php` | High
-37 | File | `/hrm/employeeadd.php` | High
-38 | ... | ... | ...
+1 | File | `/action/wirelessConnect` | High
+2 | File | `/admin/contacts/organizations/edit/2` | High
+3 | File | `/admin/service.php` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/api/stl/actions/search` | High
+6 | File | `/api/user/password/sent-reset-email` | High
+7 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+8 | File | `/authenticationendpoint/login.do` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
+12 | File | `/bsms_ci/index.php` | High
+13 | File | `/bsms_ci/index.php/user/edit_user/` | High
+14 | File | `/cas/logout` | Medium
+15 | File | `/cgi-bin` | Medium
+16 | File | `/cgi-bin/upload_vpntar` | High
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/classes/Master.php?f=delete_category` | High
+19 | File | `/classes/Master.php?f=save_service` | High
+20 | File | `/data/remove` | Medium
+21 | File | `/debug/pprof` | Medium
+22 | File | `/download` | Medium
+23 | File | `/E-mobile/App/System/File/downfile.php` | High
+24 | File | `/Electron/download` | High
+25 | File | `/env` | Low
+26 | File | `/forms/doLogin` | High
+27 | File | `/forum/away.php` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/hrm/controller/employee.php` | High
+30 | File | `/hrm/employeeadd.php` | High
+31 | File | `/hrm/employeeview.php` | High
+32 | File | `/inc/jquery/uploadify/uploadify.php` | High
+33 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+34 | ... | ... | ...
 
-There are 329 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 290 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

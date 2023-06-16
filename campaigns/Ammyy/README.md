@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Ammyy:
 
 * [US](https://vuldb.com/?country.us)
-* [CA](https://vuldb.com/?country.ca)
+* [CN](https://vuldb.com/?country.cn)
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -23,6 +23,10 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [TA505](https://vuldb.com/?actor.ta505) | High
 2 | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
+3 | [Ammyy (.iqy)](https://vuldb.com/?actor.ammyy_(.iqy)) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -30,9 +34,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [179.60.146.3](https://vuldb.com/?ip.179.60.146.3) | hostby.data-solutions.net | [TA505](https://vuldb.com/?actor.ta505) | High
-2 | [185.99.133.83](https://vuldb.com/?ip.185.99.133.83) | rns.nz.zappiehost.com | [AmmyyRAT](https://vuldb.com/?actor.ammyyrat) | High
-3 | [194.165.16.11](https://vuldb.com/?ip.194.165.16.11) | - | [TA505](https://vuldb.com/?actor.ta505) | High
+1 | [103.208.86.226](https://vuldb.com/?ip.103.208.86.226) | - | [Ammyy (.iqy)](https://vuldb.com/?actor.ammyy_(.iqy)) | High
+2 | [169.239.128.150](https://vuldb.com/?ip.169.239.128.150) | rns.za.zappiehost.com | [Ammyy (SettingContent-MS)](https://vuldb.com/?actor.ammyy_(settingcontent-ms)) | High
+3 | [169.239.128.164](https://vuldb.com/?ip.169.239.128.164) | rns.za.zappiehost.com | [Ammyy (SettingContent-MS)](https://vuldb.com/?actor.ammyy_(settingcontent-ms)) | High
+4 | ... | ... | ... | ...
+
+There are 4 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,7 +52,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,16 +62,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/common/ticket_associated_tickets.php` | High
 2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-3 | File | `DesktopEditor/common/File.cpp` | High
+3 | File | `category.php` | Medium
 4 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 13 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.morphisec.com/morphisec-uncovers-pied-piper-campaign
+* https://www.cyber45.com
 * https://www.proofpoint.com/us/threat-insight/post/leaked-ammyy-admin-source-code-turned-malware
 
 ## Literature

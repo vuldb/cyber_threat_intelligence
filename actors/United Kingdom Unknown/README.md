@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -10136,33 +10136,33 @@ ID | Type | Indicator | Confidence
 30 | File | `/dcim/rack-roles/` | High
 31 | File | `/debug/pprof` | Medium
 32 | File | `/dev/shm` | Medium
-33 | File | `/dosen/data` | Medium
-34 | File | `/E-mobile/App/System/File/downfile.php` | High
-35 | File | `/Electron/download` | High
-36 | File | `/eval/admin/manage_class.php` | High
-37 | File | `/feeds/post/publish` | High
-38 | File | `/forum/away.php` | High
-39 | File | `/goForm/aspForm` | High
-40 | File | `/goform/RgTime` | High
-41 | File | `/inc/jquery/uploadify/uploadify.php` | High
-42 | File | `/index.php?app=main&func=passport&action=login` | High
-43 | File | `/index.php?page=category_list` | High
-44 | File | `/index/user/user_edit.html` | High
-45 | File | `/kelas/data` | Medium
-46 | File | `/kelasdosen/data` | High
-47 | File | `/mahasiswa/data` | High
-48 | File | `/matkul/data` | Medium
-49 | File | `/Moosikay/order.php` | High
-50 | File | `/opac/Actions.php?a=login` | High
-51 | File | `/osm/REGISTER.cmd` | High
-52 | File | `/PreviewHandler.ashx` | High
-53 | File | `/proxy` | Low
-54 | File | `/reservation/add_message.php` | High
-55 | File | `/rest/api/latest/groupuserpicker` | High
-56 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+33 | File | `/dishes.php` | Medium
+34 | File | `/dosen/data` | Medium
+35 | File | `/E-mobile/App/System/File/downfile.php` | High
+36 | File | `/Electron/download` | High
+37 | File | `/eval/admin/manage_class.php` | High
+38 | File | `/feeds/post/publish` | High
+39 | File | `/forum/away.php` | High
+40 | File | `/goForm/aspForm` | High
+41 | File | `/goform/RgTime` | High
+42 | File | `/inc/jquery/uploadify/uploadify.php` | High
+43 | File | `/index.php?app=main&func=passport&action=login` | High
+44 | File | `/index.php?page=category_list` | High
+45 | File | `/index/user/user_edit.html` | High
+46 | File | `/kelas/data` | Medium
+47 | File | `/kelasdosen/data` | High
+48 | File | `/mahasiswa/data` | High
+49 | File | `/matkul/data` | Medium
+50 | File | `/Moosikay/order.php` | High
+51 | File | `/opac/Actions.php?a=login` | High
+52 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+53 | File | `/osm/REGISTER.cmd` | High
+54 | File | `/PreviewHandler.ashx` | High
+55 | File | `/proxy` | Low
+56 | File | `/reservation/add_message.php` | High
 57 | ... | ... | ...
 
-There are 495 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 502 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

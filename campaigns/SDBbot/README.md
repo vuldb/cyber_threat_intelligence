@@ -58,20 +58,21 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.ssh/authorized_keys` | High
-2 | File | `/api/plugin/uninstall` | High
-3 | File | `/cgi-bin/webproc` | High
-4 | File | `/dosen/data` | Medium
-5 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-6 | File | `/modules/tasks/summary.inc.php` | High
-7 | File | `/rest/api/2/user/picker` | High
-8 | File | `/secure/QueryComponent!Default.jspa` | High
-9 | File | `/uncpath/` | Medium
-10 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
-11 | File | `account_activations/edit` | High
-12 | File | `AddResolution.jspa` | High
-13 | ... | ... | ...
+2 | File | `/admin/ajax.php?action=save_area` | High
+3 | File | `/api/plugin/uninstall` | High
+4 | File | `/cgi-bin/webproc` | High
+5 | File | `/dosen/data` | Medium
+6 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+7 | File | `/modules/tasks/summary.inc.php` | High
+8 | File | `/rest/api/2/user/picker` | High
+9 | File | `/secure/QueryComponent!Default.jspa` | High
+10 | File | `/uncpath/` | Medium
+11 | File | `/var/WEB-GUI/cgi-bin/telnet.cgi` | High
+12 | File | `account_activations/edit` | High
+13 | File | `AddResolution.jspa` | High
+14 | ... | ... | ...
 
-There are 97 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 110 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

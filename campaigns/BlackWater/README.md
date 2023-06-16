@@ -22,6 +22,7 @@ These _actors_ are associated with BlackWater or other actors linked to the camp
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
+2 | [Blackwater](https://vuldb.com/?actor.blackwater) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +30,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
-2 | [82.102.8.101](https://vuldb.com/?ip.82.102.8.101) | h82-102-8-101.host.redstation.co.uk | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
-3 | [94.23.148.194](https://vuldb.com/?ip.94.23.148.194) | ip194.ip-94-23-148.eu | [MuddyWater](https://vuldb.com/?actor.muddywater) | High
+1 | [38.132.99.167](https://vuldb.com/?ip.38.132.99.167) | - | [Blackwater](https://vuldb.com/?actor.blackwater) | High
+2 | [82.102.8.101](https://vuldb.com/?ip.82.102.8.101) | h82-102-8-101.host.redstation.co.uk | [Blackwater](https://vuldb.com/?actor.blackwater) | High
+3 | [94.23.148.194](https://vuldb.com/?ip.94.23.148.194) | ip194.ip-94-23-148.eu | [Blackwater](https://vuldb.com/?actor.blackwater) | High
 4 | ... | ... | ... | ...
 
 There are 1 more IOC items available. Please use our online service to access the data.
@@ -42,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -62,16 +63,19 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/renewaldue.php` | High
 6 | File | `/analysisProject/pagingQueryData` | High
 7 | File | `/dashboard/add-portfolio.php` | High
-8 | File | `/login.php` | Medium
-9 | ... | ... | ...
+8 | File | `/E-mobile/App/System/File/downfile.php` | High
+9 | File | `/jurusanmatkul/data` | High
+10 | File | `/login.php` | Medium
+11 | ... | ... | ...
 
-There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 80 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html
+* https://blog.talosintelligence.com/2019/05/recent-muddywater-associated-blackwater.html?m=1
 
 ## Literature
 

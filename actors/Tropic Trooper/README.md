@@ -72,23 +72,23 @@ ID | Type | Indicator | Confidence
 2 | File | `/.ssh/authorized_keys` | High
 3 | File | `/admin/manager/admin_mod.php` | High
 4 | File | `/baseOpLog.do` | High
-5 | File | `/cgi-bin/api-get_line_status` | High
-6 | File | `/cgi-bin/editBookmark` | High
-7 | File | `/cgi-bin/go` | Medium
-8 | File | `/cgi-bin/wapopen` | High
-9 | File | `/CMD_ACCOUNT_ADMIN` | High
-10 | File | `/controller/OnlinePreviewController.java` | High
-11 | File | `/debug/pprof` | Medium
-12 | File | `/export` | Low
-13 | File | `/getcfg.php` | Medium
-14 | File | `/includes/rrdtool.inc.php` | High
-15 | File | `/onvif/device_service` | High
-16 | File | `/php-sms/admin/?page=user/manage_user` | High
-17 | File | `/spip.php` | Medium
-18 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
+5 | File | `/bitrix/admin/ldap_server_edit.php` | High
+6 | File | `/cgi-bin/api-get_line_status` | High
+7 | File | `/cgi-bin/editBookmark` | High
+8 | File | `/cgi-bin/go` | Medium
+9 | File | `/cgi-bin/wapopen` | High
+10 | File | `/CMD_ACCOUNT_ADMIN` | High
+11 | File | `/controller/OnlinePreviewController.java` | High
+12 | File | `/debug/pprof` | Medium
+13 | File | `/export` | Low
+14 | File | `/getcfg.php` | Medium
+15 | File | `/includes/rrdtool.inc.php` | High
+16 | File | `/onvif/device_service` | High
+17 | File | `/php-sms/admin/?page=user/manage_user` | High
+18 | File | `/spip.php` | Medium
 19 | ... | ... | ...
 
-There are 157 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 158 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

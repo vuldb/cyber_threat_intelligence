@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [85.215.162.167](https://vuldb.com/?ip.85.215.162.167) | ip85.215.162.167.pbiaas.com | - | High
 9 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 34 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -58,9 +58,10 @@ ID | Type | Indicator | Confidence
 4 | File | `/cwms/admin/?page=articles/view_article/` | High
 5 | File | `/getcfg.php` | Medium
 6 | File | `/message/ajax/send/` | High
-7 | ... | ... | ...
+7 | File | `/proc/self/environ` | High
+8 | ... | ... | ...
 
-There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

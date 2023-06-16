@@ -22,6 +22,7 @@ These _actors_ are associated with LoJax or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT28](https://vuldb.com/?actor.apt28) | High
+2 | [LoJax](https://vuldb.com/?actor.lojax) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,12 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [86.106.131.54](https://vuldb.com/?ip.86.106.131.54) | - | [APT28](https://vuldb.com/?actor.apt28) | High
-2 | [93.113.131.103](https://vuldb.com/?ip.93.113.131.103) | a.qmail.ru.com | [APT28](https://vuldb.com/?actor.apt28) | High
-3 | [103.41.177.43](https://vuldb.com/?ip.103.41.177.43) | - | [APT28](https://vuldb.com/?actor.apt28) | High
+1 | [1.23.82.72](https://vuldb.com/?ip.1.23.82.72) | - | [LoJax](https://vuldb.com/?actor.lojax) | High
+2 | [2.2.82.64](https://vuldb.com/?ip.2.2.82.64) | - | [LoJax](https://vuldb.com/?actor.lojax) | High
+3 | [2.12.51.56](https://vuldb.com/?ip.2.12.51.56) | arennes-655-1-148-56.w2-12.abo.wanadoo.fr | [LoJax](https://vuldb.com/?actor.lojax) | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 13 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,9 +46,10 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | ... | ... | ... | ...
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 13 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,18 +61,19 @@ ID | Type | Indicator | Confidence
 2 | File | `/api/plugin/uninstall` | High
 3 | File | `/bin/boa` | Medium
 4 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-5 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
-6 | File | `/hrm/employeeadd.php` | High
-7 | File | `/modules/tasks/summary.inc.php` | High
-8 | File | `/uncpath/` | Medium
+5 | File | `/goform/SetNetControlList` | High
+6 | File | `/home/httpd/cgi-bin/cgi.cgi` | High
+7 | File | `/hrm/employeeadd.php` | High
+8 | File | `/modules/tasks/summary.inc.php` | High
 9 | ... | ... | ...
 
-There are 65 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 69 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://www.cyber45.com
 * https://www.welivesecurity.com/wp-content/uploads/2018/09/ESET-LoJax.pdf
 
 ## Literature

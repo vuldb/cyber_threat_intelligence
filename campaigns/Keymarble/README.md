@@ -17,6 +17,7 @@ These _actors_ are associated with Keymarble or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+2 | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
 
 ## IOC - Indicator of Compromise
 
@@ -24,9 +25,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [100.43.153.60](https://vuldb.com/?ip.100.43.153.60) | 100.43.153.60.static.krypt.com | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-2 | [104.194.160.59](https://vuldb.com/?ip.104.194.160.59) | a.59.160.194.104.servpac.com | [Lazarus](https://vuldb.com/?actor.lazarus) | High
-3 | [212.143.21.43](https://vuldb.com/?ip.212.143.21.43) | - | [Lazarus](https://vuldb.com/?actor.lazarus) | High
+1 | [100.43.153.60](https://vuldb.com/?ip.100.43.153.60) | 100.43.153.60.static.krypt.com | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
+2 | [104.194.160.59](https://vuldb.com/?ip.104.194.160.59) | a.59.160.194.104.servpac.com | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
+3 | [212.143.21.43](https://vuldb.com/?ip.212.143.21.43) | - | [KEYMARBLE](https://vuldb.com/?actor.keymarble) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -49,6 +50,7 @@ ID | Type | Indicator | Confidence
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://us-cert.cisa.gov/ncas/analysis-reports/AR18-221A
+* https://www.cyber45.com
 
 ## Literature
 

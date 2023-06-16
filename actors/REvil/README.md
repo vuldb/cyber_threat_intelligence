@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -62,38 +62,38 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.htpasswd` | Medium
-2 | File | `/assets/something/services/AppModule.class` | High
-3 | File | `/category_view.php` | High
-4 | File | `/cgi-bin/nasset.cgi` | High
-5 | File | `/cgi-bin/webadminget.cgi` | High
-6 | File | `/cms/process.php` | High
-7 | File | `/DXR.axd` | Medium
-8 | File | `/env` | Low
-9 | File | `/etc/shadow` | Medium
-10 | File | `/forum/away.php` | High
-11 | File | `/goform/SetNetControlList` | High
-12 | File | `/hrm/controller/employee.php` | High
-13 | File | `/index.php/weblinks-categories` | High
-14 | File | `/modules/profile/index.php` | High
-15 | File | `/movie.php` | Medium
-16 | File | `/public/login.htm` | High
-17 | File | `/service/v1/createUser` | High
-18 | File | `/show_news.php` | High
-19 | File | `/system?action=ServiceAdmin` | High
-20 | File | `/uncpath/` | Medium
-21 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
-22 | File | `adclick.php` | Medium
-23 | File | `admin.asp` | Medium
-24 | File | `admin/categories_industry.php` | High
-25 | File | `admin/content/postcategory` | High
-26 | File | `admin/index.php` | High
-27 | File | `admin/settings.php` | High
-28 | File | `admin/status/realtime/bandwidth_status` | High
-29 | File | `adminAttachments.php` | High
-30 | File | `adminAvatars.php` | High
+2 | File | `/ajax.php?action=read_msg` | High
+3 | File | `/assets/something/services/AppModule.class` | High
+4 | File | `/category_view.php` | High
+5 | File | `/cgi-bin/nasset.cgi` | High
+6 | File | `/cgi-bin/webadminget.cgi` | High
+7 | File | `/cms/process.php` | High
+8 | File | `/debug/pprof` | Medium
+9 | File | `/DXR.axd` | Medium
+10 | File | `/env` | Low
+11 | File | `/etc/shadow` | Medium
+12 | File | `/forum/away.php` | High
+13 | File | `/goform/SetNetControlList` | High
+14 | File | `/hrm/controller/employee.php` | High
+15 | File | `/index.php/weblinks-categories` | High
+16 | File | `/modules/profile/index.php` | High
+17 | File | `/movie.php` | Medium
+18 | File | `/public/login.htm` | High
+19 | File | `/service/v1/createUser` | High
+20 | File | `/show_news.php` | High
+21 | File | `/system?action=ServiceAdmin` | High
+22 | File | `/uncpath/` | Medium
+23 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+24 | File | `adclick.php` | Medium
+25 | File | `admin.asp` | Medium
+26 | File | `admin/categories_industry.php` | High
+27 | File | `admin/content/postcategory` | High
+28 | File | `admin/index.php` | High
+29 | File | `admin/settings.php` | High
+30 | File | `admin/status/realtime/bandwidth_status` | High
 31 | ... | ... | ...
 
-There are 262 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 268 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

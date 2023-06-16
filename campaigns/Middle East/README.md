@@ -98,37 +98,38 @@ ID | Type | Indicator | Confidence
 17 | File | `/net-banking/customer_transactions.php` | High
 18 | File | `/obs/book.php` | High
 19 | File | `/ossn/administrator/com_installer` | High
-20 | File | `/pms/update_user.php?user_id=1` | High
-21 | File | `/requests.php` | High
-22 | File | `/spip.php` | Medium
-23 | File | `/sre/params.php` | High
-24 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
-25 | File | `/uncpath/` | Medium
-26 | File | `/user/upload/upload` | High
-27 | File | `/Users` | Low
-28 | File | `/v2/#/` | Low
-29 | File | `/var/spool/hylafax` | High
-30 | File | `/vendor` | Low
-31 | File | `/webservices/download/index.php` | High
-32 | File | `accountrecoveryendpoint/recoverpassword.do` | High
-33 | File | `adclick.php` | Medium
-34 | File | `add_contestant.php` | High
-35 | File | `admin.php` | Medium
-36 | File | `admin/conf_users_edit.php` | High
-37 | File | `admin/index.php` | High
-38 | File | `admin/make_payments.php` | High
-39 | File | `admin/menus/edit.php` | High
-40 | File | `adminHome.php` | High
-41 | File | `af_netlink.c` | Medium
-42 | File | `album_portal.php` | High
-43 | File | `Ap4StssAtom.cpp` | High
-44 | File | `APDE/src/main/java/com/calsignlabs/apde/build/dag/CopyBuildTask.java` | High
-45 | File | `api_jsonrpc.php` | High
-46 | File | `app/controllers/oauth.js` | High
-47 | File | `app/parameters/sipity/parameters/search_criteria_for_works_parameter.rb` | High
-48 | ... | ... | ...
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/pms/update_user.php?user_id=1` | High
+22 | File | `/requests.php` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/sre/params.php` | High
+25 | File | `/ueditor/net/controller.ashx?action=catchimage` | High
+26 | File | `/uncpath/` | Medium
+27 | File | `/user/upload/upload` | High
+28 | File | `/Users` | Low
+29 | File | `/v2/#/` | Low
+30 | File | `/var/spool/hylafax` | High
+31 | File | `/vendor` | Low
+32 | File | `/webservices/download/index.php` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+34 | File | `adclick.php` | Medium
+35 | File | `add_contestant.php` | High
+36 | File | `admin.php` | Medium
+37 | File | `admin/conf_users_edit.php` | High
+38 | File | `admin/index.php` | High
+39 | File | `admin/make_payments.php` | High
+40 | File | `admin/menus/edit.php` | High
+41 | File | `adminHome.php` | High
+42 | File | `admin\categories\manage_category.php` | High
+43 | File | `af_netlink.c` | Medium
+44 | File | `album_portal.php` | High
+45 | File | `Ap4StssAtom.cpp` | High
+46 | File | `APDE/src/main/java/com/calsignlabs/apde/build/dag/CopyBuildTask.java` | High
+47 | File | `api/controller/v1/PublicController.php` | High
+48 | File | `api_jsonrpc.php` | High
+49 | ... | ... | ...
 
-There are 418 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 423 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

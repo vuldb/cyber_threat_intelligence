@@ -43,7 +43,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -62,51 +62,52 @@ ID | Type | Indicator | Confidence
 2 | File | `.kss.pid` | Medium
 3 | File | `/+CSCOE+/logon.html` | High
 4 | File | `/admin/lab.php` | High
-5 | File | `/api/collection/findone` | High
-6 | File | `/api/crontab` | Medium
-7 | File | `/api/geojson` | Medium
-8 | File | `/cbs/system/ShowAdvanced.do` | High
-9 | File | `/cgi-bin/editBookmark` | High
-10 | File | `/cgi-bin/loaddata.py` | High
-11 | File | `/cms/category/list` | High
-12 | File | `/debug` | Low
-13 | File | `/debug/pprof` | Medium
-14 | File | `/DXR.axd` | Medium
-15 | File | `/etc/passwd` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/goform/setmac` | High
-18 | File | `/goform/setportList` | High
-19 | File | `/goform/setVLAN` | High
-20 | File | `/goform/wlanPrimaryNetwork` | High
-21 | File | `/GponForm/usb_Form?script/` | High
-22 | File | `/groups/31-twitter-basics` | High
-23 | File | `/inc/jquery/uploadify/uploadify.php` | High
-24 | File | `/login` | Low
-25 | File | `/login/index.php` | High
-26 | File | `/modules/profile/index.php` | High
-27 | File | `/spip.php` | Medium
-28 | File | `/sys/dict/queryTableData` | High
-29 | File | `/tmp` | Low
-30 | File | `/tmp/before` | Medium
-31 | File | `/User/saveUser` | High
-32 | File | `/usr/bin/vmware-mount` | High
-33 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-34 | File | `/WEB-INF/web.xml` | High
-35 | File | `/_vti_pvt/access.cnf` | High
-36 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
-37 | File | `accountsettings_add.html` | High
-38 | File | `aclient.exe` | Medium
-39 | File | `admin.php` | Medium
-40 | File | `admin.php?c=update&f=unzip` | High
-41 | File | `admin/domain-fields/` | High
-42 | File | `admin/index.asp` | High
-43 | File | `admin/news.php` | High
-44 | File | `AdminLoginInterceptor.java` | High
-45 | File | `admins.js` | Medium
-46 | File | `advancedsearch.php` | High
-47 | ... | ... | ...
+5 | File | `/admin/update_s6.php` | High
+6 | File | `/api/collection/findone` | High
+7 | File | `/api/crontab` | Medium
+8 | File | `/api/geojson` | Medium
+9 | File | `/cbs/system/ShowAdvanced.do` | High
+10 | File | `/cgi-bin/editBookmark` | High
+11 | File | `/cgi-bin/loaddata.py` | High
+12 | File | `/cms/category/list` | High
+13 | File | `/debug` | Low
+14 | File | `/debug/pprof` | Medium
+15 | File | `/DXR.axd` | Medium
+16 | File | `/etc/passwd` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/setmac` | High
+19 | File | `/goform/setportList` | High
+20 | File | `/goform/setVLAN` | High
+21 | File | `/goform/wlanPrimaryNetwork` | High
+22 | File | `/GponForm/usb_Form?script/` | High
+23 | File | `/groups/31-twitter-basics` | High
+24 | File | `/inc/jquery/uploadify/uploadify.php` | High
+25 | File | `/login` | Low
+26 | File | `/login/index.php` | High
+27 | File | `/modules/profile/index.php` | High
+28 | File | `/spip.php` | Medium
+29 | File | `/sys/dict/queryTableData` | High
+30 | File | `/tmp` | Low
+31 | File | `/tmp/before` | Medium
+32 | File | `/User/saveUser` | High
+33 | File | `/usr/bin/vmware-mount` | High
+34 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+35 | File | `/WEB-INF/web.xml` | High
+36 | File | `/_vti_pvt/access.cnf` | High
+37 | File | `3/qq_connect2.0/API/class/ErrorCase.class.php` | High
+38 | File | `accountsettings_add.html` | High
+39 | File | `aclient.exe` | Medium
+40 | File | `admin.php` | Medium
+41 | File | `admin.php?c=update&f=unzip` | High
+42 | File | `admin/domain-fields/` | High
+43 | File | `admin/index.asp` | High
+44 | File | `admin/news.php` | High
+45 | File | `AdminLoginInterceptor.java` | High
+46 | File | `admins.js` | Medium
+47 | File | `advancedsearch.php` | High
+48 | ... | ... | ...
 
-There are 411 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 413 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

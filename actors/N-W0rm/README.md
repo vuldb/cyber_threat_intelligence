@@ -79,24 +79,26 @@ ID | Type | Indicator | Confidence
 22 | File | `/dashboard/reports/logs/view` | High
 23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 24 | File | `/debug/pprof` | Medium
-25 | File | `/etc/hosts` | Medium
-26 | File | `/forum/away.php` | High
-27 | File | `/goform/setmac` | High
-28 | File | `/goform/wizard_end` | High
-29 | File | `/index.php` | Medium
-30 | File | `/manage-apartment.php` | High
-31 | File | `/medicines/profile.php` | High
-32 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-33 | File | `/pages/apply_vacancy.php` | High
-34 | File | `/proc/<PID>/mem` | High
-35 | File | `/proxy` | Low
-36 | File | `/reservation/add_message.php` | High
-37 | File | `/spip.php` | Medium
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | ... | ... | ...
+25 | File | `/env` | Low
+26 | File | `/etc/hosts` | Medium
+27 | File | `/forum/away.php` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/wizard_end` | High
+30 | File | `/horde/util/go.php` | High
+31 | File | `/index.php` | Medium
+32 | File | `/manage-apartment.php` | High
+33 | File | `/medicines/profile.php` | High
+34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+35 | File | `/pages/apply_vacancy.php` | High
+36 | File | `/proc/<PID>/mem` | High
+37 | File | `/proxy` | Low
+38 | File | `/reservation/add_message.php` | High
+39 | File | `/spip.php` | Medium
+40 | File | `/tmp` | Low
+41 | File | `/uncpath/` | Medium
+42 | ... | ... | ...
 
-There are 349 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

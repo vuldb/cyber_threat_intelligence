@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Asylum Ambuscade:
 
 * [US](https://vuldb.com/?country.us)
+* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
-* [TR](https://vuldb.com/?country.tr)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -22,6 +22,7 @@ These _actors_ are associated with Asylum Ambuscade or other actors linked to th
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Unknown](https://vuldb.com/?actor.unknown) | High
+2 | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
 
 ## IOC - Indicator of Compromise
 
@@ -29,9 +30,27 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [45.61.137.231](https://vuldb.com/?ip.45.61.137.231) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-2 | [84.32.188.96](https://vuldb.com/?ip.84.32.188.96) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
-3 | [157.230.104.79](https://vuldb.com/?ip.157.230.104.79) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+1 | [5.39.222.150](https://vuldb.com/?ip.5.39.222.150) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+2 | [5.44.42.27](https://vuldb.com/?ip.5.44.42.27) | mexomail-smtp.ip-ptr.tech | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+3 | [5.230.68.137](https://vuldb.com/?ip.5.230.68.137) | placeholder.noezserver.de | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+4 | [5.230.71.166](https://vuldb.com/?ip.5.230.71.166) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+5 | [5.230.72.38](https://vuldb.com/?ip.5.230.72.38) | placeholder.noezserver.de | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+6 | [5.230.72.148](https://vuldb.com/?ip.5.230.72.148) | placeholder.noezserver.de | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+7 | [5.230.73.57](https://vuldb.com/?ip.5.230.73.57) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+8 | [5.230.73.63](https://vuldb.com/?ip.5.230.73.63) | ringbirdapp.com | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+9 | [5.230.73.241](https://vuldb.com/?ip.5.230.73.241) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+10 | [5.230.73.247](https://vuldb.com/?ip.5.230.73.247) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+11 | [5.230.73.248](https://vuldb.com/?ip.5.230.73.248) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+12 | [5.230.73.250](https://vuldb.com/?ip.5.230.73.250) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+13 | [5.252.118.132](https://vuldb.com/?ip.5.252.118.132) | mail2.delivery2023.info | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+14 | [5.252.118.204](https://vuldb.com/?ip.5.252.118.204) | acceptable-scarecrow.aeza.network | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+15 | [5.255.88.222](https://vuldb.com/?ip.5.255.88.222) | alphawolve.com | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+16 | [23.106.123.119](https://vuldb.com/?ip.23.106.123.119) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+17 | [31.192.105.28](https://vuldb.com/?ip.31.192.105.28) | - | [Asylum Ambuscade](https://vuldb.com/?actor.asylum_ambuscade) | High
+18 | [45.61.137.231](https://vuldb.com/?ip.45.61.137.231) | - | [Unknown](https://vuldb.com/?actor.unknown) | High
+19 | ... | ... | ... | ...
+
+There are 72 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -39,9 +58,15 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+7 | ... | ... | ... | ...
+
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -49,18 +74,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `admin.php` | Medium
-2 | File | `libraries/classes/Server/Privileges.php` | High
-3 | File | `search.php` | Medium
-4 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/acms/classes/Master.php?f=delete_cargo` | High
+3 | File | `/admin.add` | Medium
+4 | File | `/admin.php/news/admin/topic/save` | High
+5 | File | `/admin/api/theme-edit/` | High
+6 | File | `/admin/comn/service/update.json` | High
+7 | File | `/admin/fst_upload.inc.php` | High
+8 | File | `/admin/login.php` | High
+9 | File | `/admin/maintenance/view_designation.php` | High
+10 | File | `/admin/robot/approval/list` | High
+11 | File | `/api/RecordingList/DownloadRecord?file=` | High
+12 | File | `/api/v2/labels/` | High
+13 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/cgi-bin/go` | Medium
+16 | File | `/cgi-bin/uploadWeiXinPic` | High
+17 | File | `/cgi-bin/wapopen` | High
+18 | File | `/dl/dl_print.php` | High
+19 | File | `/etc/gsissh/sshd_config` | High
+20 | File | `/face-recognition-php/facepay-master/camera.php` | High
+21 | File | `/forum/away.php` | High
+22 | File | `/forum/PostPrivateMessage` | High
+23 | File | `/getcfg.php` | Medium
+24 | File | `/home/masterConsole` | High
+25 | File | `/hrm/employeeadd.php` | High
+26 | File | `/hrm/employeeview.php` | High
+27 | File | `/info.xml` | Medium
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/mgmt/tm/util/bash` | High
+30 | File | `/nova/bin/sniffer` | High
+31 | File | `/ofcms/company-c-47` | High
+32 | File | `/opt/vyatta/share/vyatta-cfg/templates/system/static-host-mapping/host-name/node.def` | High
+33 | File | `/pms/update_user.php?user_id=1` | High
+34 | File | `/public/login.htm` | High
+35 | File | `/rom-0` | Low
+36 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+37 | File | `/secure/ViewCollectors` | High
+38 | File | `/Session` | Medium
+39 | File | `/spip.php` | Medium
+40 | File | `/uncpath/` | Medium
+41 | File | `/usr/local/nagiosxi/html/admin/sshterm.php` | High
+42 | File | `/usr/local/nagiosxi/html/includes/configwizards/cloud-vm/cloud-vm.inc.php` | High
+43 | File | `/usr/local/nagiosxi/html/includes/configwizards/switch/switch.inc.php` | High
+44 | File | `/usr/local/nagiosxi/html/includes/configwizards/windowswmi/windowswmi.inc.php` | High
+45 | ... | ... | ...
 
-There are 6 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://www.proofpoint.com/us/blog/threat-insight/asylum-ambuscade-state-actor-uses-compromised-private-ukrainian-military-emails
+* https://www.welivesecurity.com/2023/06/08/asylum-ambuscade-crimeware-or-cyberespionage/
 
 ## Literature
 

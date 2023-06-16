@@ -1,39 +1,46 @@
-# LockBit - Cyber Threat Intelligence
+# Lockbit - Cyber Threat Intelligence
 
-These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [LockBit](https://vuldb.com/?actor.lockbit). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
+These _indicators_ were reported, collected, and generated during the [VulDB CTI analysis](https://vuldb.com/?kb.cti) of the actor known as [Lockbit](https://vuldb.com/?actor.lockbit). The _activity monitoring_ correlates data from social media, forums, chat rooms, and darknet markets. It helps to determine associated actors, specific activities, expected intentions, emerging research, and ongoing attacks. Our unique _predictive model_ uses _big data_ to forecast activities and their characteristics.
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.lockbit](https://vuldb.com/?actor.lockbit)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with Lockbit:
+
+* South Korea
+
 ## Countries
 
-These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with LockBit:
+These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Lockbit:
 
 * [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 23 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
-These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of LockBit.
+These _indicators of compromise_ (IOC) indicate associated network resources which are known to be part of research and attack activities of Lockbit.
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.32.108.54](https://vuldb.com/?ip.45.32.108.54) | 45.32.108.54.vultrusercontent.com | - | High
-2 | [45.91.83.176](https://vuldb.com/?ip.45.91.83.176) | - | - | High
-3 | [45.227.255.190](https://vuldb.com/?ip.45.227.255.190) | - | - | High
-4 | [51.15.18.180](https://vuldb.com/?ip.51.15.18.180) | 51-15-18-180.rev.poneytelecom.eu | - | High
-5 | [51.89.134.150](https://vuldb.com/?ip.51.89.134.150) | postal.sendovo.net | - | High
-6 | [52.237.96.13](https://vuldb.com/?ip.52.237.96.13) | - | - | High
-7 | ... | ... | ... | ...
+1 | [35.194.251.0](https://vuldb.com/?ip.35.194.251.0) | 0.251.194.35.bc.googleusercontent.com | - | Medium
+2 | [45.32.108.54](https://vuldb.com/?ip.45.32.108.54) | 45.32.108.54.vultrusercontent.com | - | High
+3 | [45.91.83.176](https://vuldb.com/?ip.45.91.83.176) | - | - | High
+4 | [45.227.255.190](https://vuldb.com/?ip.45.227.255.190) | - | - | High
+5 | [51.15.18.180](https://vuldb.com/?ip.51.15.18.180) | 51-15-18-180.rev.poneytelecom.eu | - | High
+6 | [51.89.134.150](https://vuldb.com/?ip.51.89.134.150) | postal.sendovo.net | - | High
+7 | [52.237.96.13](https://vuldb.com/?ip.52.237.96.13) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 27 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
-_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _LockBit_. This data is unique as it uses our predictive model for actor profiling.
+_Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK techniques used by _Lockbit_. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
@@ -48,7 +55,7 @@ There are 19 more TTP items available. Please use our online service to access t
 
 ## IOA - Indicator of Attack
 
-These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by LockBit. This data is unique as it uses our predictive model for actor profiling.
+These _indicators of attack_ (IOA) list the potential fragments used for technical activities like reconnaissance, exploitation, privilege escalation, and exfiltration by Lockbit. This data is unique as it uses our predictive model for actor profiling.
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
@@ -90,15 +97,17 @@ ID | Type | Indicator | Confidence
 36 | File | `agent/Core/Controller/SendRequest.cpp` | High
 37 | File | `AjaxFileUploadHandler.axd` | High
 38 | File | `album_portal.php` | High
-39 | ... | ... | ...
+39 | File | `announcements.php` | High
+40 | ... | ... | ...
 
-There are 339 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://1275.ru/ioc/158/lockbit-ransomware-iocs/
+* https://blog.cyble.com/2023/06/06/lockbit-2-0-ransomware-resurfaces/
 * https://github.com/hvs-consulting/ioc_signatures/blob/main/Proxyshell/HvS_Proxyshell_2021_09_IOCs.csv
 * https://github.com/sophoslabs/IoCs/blob/master/Ransomware-LockBit.csv
 * https://thedfirreport.com/2020/06/10/lockbit-ransomware-why-you-no-spread/
@@ -106,6 +115,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/OscarAldana/status/1548457335852437506
 * https://www.cybereason.com/blog/threat-analysis-report-lockbit-2.0-all-paths-lead-to-ransom
 * https://www.ic3.gov/Media/News/2022/220204.pdf
+* https://www.mcafee.com/blogs/other-blogs/mcafee-labs/tales-from-the-trenches-a-lockbit-ransomware-story/
 
 ## Literature
 

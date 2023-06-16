@@ -17,12 +17,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.227.253.102](https://vuldb.com/?ip.45.227.253.102) | hosting-by.directwebhost.org | - | High
-2 | [88.214.27.100](https://vuldb.com/?ip.88.214.27.100) | - | - | High
-3 | [88.214.27.101](https://vuldb.com/?ip.88.214.27.101) | - | - | High
+1 | [45.182.189.71](https://vuldb.com/?ip.45.182.189.71) | - | - | High
+2 | [45.227.253.102](https://vuldb.com/?ip.45.227.253.102) | hosting-by.directwebhost.org | - | High
+3 | [88.214.27.100](https://vuldb.com/?ip.88.214.27.100) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 3 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +35,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 7 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -56,6 +56,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.talosintelligence.com/breaking-the-silence-recent-truebot-activity/
 * https://github.com/Cisco-Talos/IOCs/blob/main/2022/12/breaking_the_silence_truebot_activity.txt
+* https://thedfirreport.com/2023/06/12/a-truly-graceful-wipe-out/
 
 ## Literature
 

@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
+* [JP](https://vuldb.com/?country.jp)
 * ...
 
-There are 21 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -4860,13 +4860,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -4878,32 +4878,35 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/?page=user/list` | High
 3 | File | `/admin/ajax.php?action=save_area` | High
 4 | File | `/admin/contacts/organizations/edit/2` | High
-5 | File | `/admin/curriculum/view_curriculum.php` | High
-6 | File | `/admin/edit_subject.php` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/save_teacher.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/update_s6.php` | High
-12 | File | `/advanced-tools/nova/bin/netwatch` | High
-13 | File | `/ajax.php?action=read_msg` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/api/crontab` | Medium
-16 | File | `/api/login` | Medium
-17 | File | `/api/v2/cli/commands` | High
-18 | File | `/bin/login` | Medium
-19 | File | `/cas/logout` | Medium
+5 | File | `/admin/edit_subject.php` | High
+6 | File | `/admin/modal_add_product.php` | High
+7 | File | `/admin/reportupload.aspx` | High
+8 | File | `/admin/save_teacher.php` | High
+9 | File | `/admin/service.php` | High
+10 | File | `/admin/update_s6.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/ajax.php?action=save_company` | High
+13 | File | `/api/crontab` | Medium
+14 | File | `/api/login` | Medium
+15 | File | `/bin/login` | Medium
+16 | File | `/cas/logout` | Medium
+17 | File | `/cgi-bin/wlogin.cgi` | High
+18 | File | `/circuits/circuit-types/` | High
+19 | File | `/circuits/provider-accounts/` | High
 20 | File | `/classes/Master.php?f=delete_category` | High
-21 | File | `/debug/pprof` | Medium
-22 | File | `/DXR.axd` | Medium
-23 | File | `/forum/away.php` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/index.php?app=main&func=passport&action=login` | High
-26 | File | `/index.php?page=category_list` | High
-27 | File | `/Login/CheckLogin` | High
-28 | ... | ... | ...
+21 | File | `/dcim/locations/` | High
+22 | File | `/dcim/power-panels/` | High
+23 | File | `/dcim/rack-roles/` | High
+24 | File | `/dcim/rack/` | Medium
+25 | File | `/dcim/regions/` | High
+26 | File | `/dcim/site-groups/` | High
+27 | File | `/dcim/sites/` | Medium
+28 | File | `/debug/pprof` | Medium
+29 | File | `/DXR.axd` | Medium
+30 | File | `/forms/doLogin` | High
+31 | ... | ... | ...
 
-There are 238 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 267 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

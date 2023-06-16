@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [82.54.254.143](https://vuldb.com/?ip.82.54.254.143) | host-82-54-254-143.retail.telecomitalia.it | - | High
 4 | ... | ... | ... | ...
 
-There are 7 more IOC items available. Please use our online service to access the data.
+There are 8 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ There are 9 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://isc.sans.edu/forums/diary/Malicious+spam+Subject+RE+Bill/20417/
+* https://threatfox.abuse.ch
 
 ## Literature
 

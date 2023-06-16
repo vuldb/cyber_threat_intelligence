@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -43,164 +43,204 @@ ID | IP address | Hostname | Actor | Confidence
 10 | [27.255.0.0](https://vuldb.com/?ip.27.255.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
 11 | [31.6.58.0](https://vuldb.com/?ip.31.6.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
 12 | [31.187.65.64](https://vuldb.com/?ip.31.187.65.64) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-13 | [34.98.208.0](https://vuldb.com/?ip.34.98.208.0) | 0.208.98.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
-14 | [34.100.112.0](https://vuldb.com/?ip.34.100.112.0) | 0.112.100.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
-15 | [34.100.117.0](https://vuldb.com/?ip.34.100.117.0) | 0.117.100.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
-16 | [34.124.67.0](https://vuldb.com/?ip.34.124.67.0) | 0.67.124.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
-17 | [36.255.32.0](https://vuldb.com/?ip.36.255.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-18 | [36.255.40.0](https://vuldb.com/?ip.36.255.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-19 | [36.255.96.0](https://vuldb.com/?ip.36.255.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-20 | [36.255.100.0](https://vuldb.com/?ip.36.255.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-21 | [36.255.212.0](https://vuldb.com/?ip.36.255.212.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-22 | [36.255.213.0](https://vuldb.com/?ip.36.255.213.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-23 | [36.255.214.0](https://vuldb.com/?ip.36.255.214.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-24 | [37.111.128.0](https://vuldb.com/?ip.37.111.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-25 | [39.32.0.0](https://vuldb.com/?ip.39.32.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-26 | [42.83.84.0](https://vuldb.com/?ip.42.83.84.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-27 | [42.201.128.0](https://vuldb.com/?ip.42.201.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-28 | [43.224.236.0](https://vuldb.com/?ip.43.224.236.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-29 | [43.225.96.0](https://vuldb.com/?ip.43.225.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-30 | [43.225.98.0](https://vuldb.com/?ip.43.225.98.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-31 | [43.226.224.0](https://vuldb.com/?ip.43.226.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-32 | [43.228.156.0](https://vuldb.com/?ip.43.228.156.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-33 | [43.229.164.0](https://vuldb.com/?ip.43.229.164.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-34 | [43.230.92.0](https://vuldb.com/?ip.43.230.92.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-35 | [43.231.60.0](https://vuldb.com/?ip.43.231.60.0) | static-0-60-231-43.ebonenet.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-36 | [43.242.100.0](https://vuldb.com/?ip.43.242.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-37 | [43.242.176.0](https://vuldb.com/?ip.43.242.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-38 | [43.245.8.0](https://vuldb.com/?ip.43.245.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-39 | [43.245.128.0](https://vuldb.com/?ip.43.245.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-40 | [43.245.204.0](https://vuldb.com/?ip.43.245.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-41 | [43.246.220.0](https://vuldb.com/?ip.43.246.220.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-42 | [43.246.224.0](https://vuldb.com/?ip.43.246.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-43 | [43.247.120.0](https://vuldb.com/?ip.43.247.120.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-44 | [43.248.12.0](https://vuldb.com/?ip.43.248.12.0) | static-0-12-248-43.dnt.net.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-45 | [43.250.84.0](https://vuldb.com/?ip.43.250.84.0) | 43-250-84-0.reverse.ntc.net.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-46 | [43.251.252.0](https://vuldb.com/?ip.43.251.252.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-47 | [43.254.12.0](https://vuldb.com/?ip.43.254.12.0) | 43-254-12-0.kroservices.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-48 | [45.12.70.179](https://vuldb.com/?ip.45.12.70.179) | quantifying.alltieinc.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-49 | [45.12.71.179](https://vuldb.com/?ip.45.12.71.179) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-50 | [45.61.70.0](https://vuldb.com/?ip.45.61.70.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-51 | [45.62.40.0](https://vuldb.com/?ip.45.62.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-52 | [45.62.53.0](https://vuldb.com/?ip.45.62.53.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-53 | [45.62.62.0](https://vuldb.com/?ip.45.62.62.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-54 | [45.64.24.0](https://vuldb.com/?ip.45.64.24.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-55 | [45.64.180.0](https://vuldb.com/?ip.45.64.180.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-56 | [45.90.40.0](https://vuldb.com/?ip.45.90.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-57 | [45.113.124.0](https://vuldb.com/?ip.45.113.124.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-58 | [45.115.49.0](https://vuldb.com/?ip.45.115.49.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-59 | [45.115.84.0](https://vuldb.com/?ip.45.115.84.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-60 | [45.116.232.0](https://vuldb.com/?ip.45.116.232.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-61 | [45.117.88.0](https://vuldb.com/?ip.45.117.88.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-62 | [45.117.104.0](https://vuldb.com/?ip.45.117.104.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-63 | [45.120.196.0](https://vuldb.com/?ip.45.120.196.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-64 | [45.137.116.0](https://vuldb.com/?ip.45.137.116.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-65 | [45.140.28.0](https://vuldb.com/?ip.45.140.28.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-66 | [45.198.0.0](https://vuldb.com/?ip.45.198.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-67 | [45.249.8.0](https://vuldb.com/?ip.45.249.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-68 | [46.36.202.56](https://vuldb.com/?ip.46.36.202.56) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-69 | [46.183.221.240](https://vuldb.com/?ip.46.183.221.240) | ip-221-240.dataclub.info | [PakistanChatMessenger](https://vuldb.com/?actor.pakistanchatmessenger) | High
-70 | [46.244.29.0](https://vuldb.com/?ip.46.244.29.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-71 | [46.244.29.49](https://vuldb.com/?ip.46.244.29.49) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-72 | [46.244.29.50](https://vuldb.com/?ip.46.244.29.50) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-73 | [46.244.29.52](https://vuldb.com/?ip.46.244.29.52) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-74 | [46.244.29.56](https://vuldb.com/?ip.46.244.29.56) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-75 | [46.244.29.192](https://vuldb.com/?ip.46.244.29.192) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-76 | [57.90.136.0](https://vuldb.com/?ip.57.90.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-77 | [57.92.240.0](https://vuldb.com/?ip.57.92.240.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-78 | [58.27.128.0](https://vuldb.com/?ip.58.27.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-79 | [58.65.128.0](https://vuldb.com/?ip.58.65.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-80 | [58.65.192.0](https://vuldb.com/?ip.58.65.192.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-81 | [58.84.28.0](https://vuldb.com/?ip.58.84.28.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-82 | [58.181.96.0](https://vuldb.com/?ip.58.181.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-83 | [59.103.0.0](https://vuldb.com/?ip.59.103.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-84 | [61.5.128.0](https://vuldb.com/?ip.61.5.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-85 | [63.70.24.0](https://vuldb.com/?ip.63.70.24.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-86 | [63.114.37.0](https://vuldb.com/?ip.63.114.37.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-87 | [64.64.121.248](https://vuldb.com/?ip.64.64.121.248) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-88 | [64.86.121.0](https://vuldb.com/?ip.64.86.121.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-89 | [64.86.122.0](https://vuldb.com/?ip.64.86.122.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-90 | [64.86.131.0](https://vuldb.com/?ip.64.86.131.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-91 | [66.160.172.0](https://vuldb.com/?ip.66.160.172.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-92 | [66.249.93.12](https://vuldb.com/?ip.66.249.93.12) | google-proxy-66-249-93-12.google.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-93 | [72.255.0.0](https://vuldb.com/?ip.72.255.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-94 | [80.77.8.0](https://vuldb.com/?ip.80.77.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-95 | [82.195.180.246](https://vuldb.com/?ip.82.195.180.246) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-96 | [85.204.30.0](https://vuldb.com/?ip.85.204.30.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-97 | [89.33.128.0](https://vuldb.com/?ip.89.33.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-98 | [89.33.204.0](https://vuldb.com/?ip.89.33.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-99 | [89.33.234.0](https://vuldb.com/?ip.89.33.234.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-100 | [89.34.88.0](https://vuldb.com/?ip.89.34.88.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-101 | [89.34.94.0](https://vuldb.com/?ip.89.34.94.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-102 | [89.34.168.0](https://vuldb.com/?ip.89.34.168.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-103 | [89.34.176.0](https://vuldb.com/?ip.89.34.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-104 | [89.35.58.0](https://vuldb.com/?ip.89.35.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-105 | [89.35.156.0](https://vuldb.com/?ip.89.35.156.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-106 | [89.35.176.0](https://vuldb.com/?ip.89.35.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-107 | [89.37.30.0](https://vuldb.com/?ip.89.37.30.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-108 | [89.37.42.0](https://vuldb.com/?ip.89.37.42.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-109 | [89.38.242.0](https://vuldb.com/?ip.89.38.242.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-110 | [89.39.186.0](https://vuldb.com/?ip.89.39.186.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-111 | [89.40.38.0](https://vuldb.com/?ip.89.40.38.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-112 | [89.40.90.0](https://vuldb.com/?ip.89.40.90.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-113 | [89.40.110.0](https://vuldb.com/?ip.89.40.110.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-114 | [89.40.128.0](https://vuldb.com/?ip.89.40.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-115 | [89.41.32.0](https://vuldb.com/?ip.89.41.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-116 | [89.41.58.0](https://vuldb.com/?ip.89.41.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-117 | [89.42.32.0](https://vuldb.com/?ip.89.42.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-118 | [89.43.204.0](https://vuldb.com/?ip.89.43.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-119 | [89.44.112.0](https://vuldb.com/?ip.89.44.112.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-120 | [89.44.118.0](https://vuldb.com/?ip.89.44.118.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-121 | [89.44.146.0](https://vuldb.com/?ip.89.44.146.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-122 | [89.44.202.0](https://vuldb.com/?ip.89.44.202.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-123 | [89.45.68.0](https://vuldb.com/?ip.89.45.68.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-124 | [89.45.230.0](https://vuldb.com/?ip.89.45.230.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-125 | [89.46.44.0](https://vuldb.com/?ip.89.46.44.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-126 | [92.240.205.0](https://vuldb.com/?ip.92.240.205.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-127 | [101.50.64.0](https://vuldb.com/?ip.101.50.64.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-128 | [101.53.224.0](https://vuldb.com/?ip.101.53.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-129 | [102.129.211.0](https://vuldb.com/?ip.102.129.211.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-130 | [102.165.11.0](https://vuldb.com/?ip.102.165.11.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-131 | [103.4.92.0](https://vuldb.com/?ip.103.4.92.0) | eaa.khi.hec.gov.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-132 | [103.5.136.0](https://vuldb.com/?ip.103.5.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-133 | [103.7.60.0](https://vuldb.com/?ip.103.7.60.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-134 | [103.7.76.0](https://vuldb.com/?ip.103.7.76.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-135 | [103.8.14.0](https://vuldb.com/?ip.103.8.14.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-136 | [103.8.112.0](https://vuldb.com/?ip.103.8.112.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-137 | [103.8.214.0](https://vuldb.com/?ip.103.8.214.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-138 | [103.8.231.0](https://vuldb.com/?ip.103.8.231.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-139 | [103.9.23.0](https://vuldb.com/?ip.103.9.23.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-140 | [103.9.182.0](https://vuldb.com/?ip.103.9.182.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-141 | [103.11.0.0](https://vuldb.com/?ip.103.11.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-142 | [103.11.60.0](https://vuldb.com/?ip.103.11.60.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-143 | [103.11.68.0](https://vuldb.com/?ip.103.11.68.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-144 | [103.11.220.0](https://vuldb.com/?ip.103.11.220.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-145 | [103.12.40.0](https://vuldb.com/?ip.103.12.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-146 | [103.12.58.0](https://vuldb.com/?ip.103.12.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-147 | [103.12.120.0](https://vuldb.com/?ip.103.12.120.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-148 | [103.12.196.0](https://vuldb.com/?ip.103.12.196.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-149 | [103.13.1.0](https://vuldb.com/?ip.103.13.1.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-150 | [103.17.200.0](https://vuldb.com/?ip.103.17.200.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-151 | [103.18.8.0](https://vuldb.com/?ip.103.18.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-152 | [103.18.20.0](https://vuldb.com/?ip.103.18.20.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-153 | [103.18.116.0](https://vuldb.com/?ip.103.18.116.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-154 | [103.18.243.0](https://vuldb.com/?ip.103.18.243.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-155 | [103.20.0.0](https://vuldb.com/?ip.103.20.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-156 | [103.20.132.0](https://vuldb.com/?ip.103.20.132.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-157 | [103.24.96.0](https://vuldb.com/?ip.103.24.96.0) | static-0-96-24-103.ebonenet.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-158 | [103.25.136.0](https://vuldb.com/?ip.103.25.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-159 | [103.26.80.0](https://vuldb.com/?ip.103.26.80.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-160 | [103.26.184.0](https://vuldb.com/?ip.103.26.184.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-161 | [103.27.20.0](https://vuldb.com/?ip.103.27.20.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-162 | [103.28.150.0](https://vuldb.com/?ip.103.28.150.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-163 | [103.28.152.0](https://vuldb.com/?ip.103.28.152.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-164 | [103.29.163.0](https://vuldb.com/?ip.103.29.163.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-165 | [103.31.80.0](https://vuldb.com/?ip.103.31.80.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-166 | [103.31.92.0](https://vuldb.com/?ip.103.31.92.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-167 | [103.31.100.0](https://vuldb.com/?ip.103.31.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
-168 | ... | ... | ... | ...
+13 | [32.106.184.0](https://vuldb.com/?ip.32.106.184.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+14 | [34.98.208.0](https://vuldb.com/?ip.34.98.208.0) | 0.208.98.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
+15 | [34.100.112.0](https://vuldb.com/?ip.34.100.112.0) | 0.112.100.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
+16 | [34.100.117.0](https://vuldb.com/?ip.34.100.117.0) | 0.117.100.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
+17 | [34.124.67.0](https://vuldb.com/?ip.34.124.67.0) | 0.67.124.34.bc.googleusercontent.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | Medium
+18 | [36.255.32.0](https://vuldb.com/?ip.36.255.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+19 | [36.255.40.0](https://vuldb.com/?ip.36.255.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+20 | [36.255.96.0](https://vuldb.com/?ip.36.255.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+21 | [36.255.100.0](https://vuldb.com/?ip.36.255.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+22 | [36.255.212.0](https://vuldb.com/?ip.36.255.212.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+23 | [36.255.213.0](https://vuldb.com/?ip.36.255.213.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+24 | [36.255.214.0](https://vuldb.com/?ip.36.255.214.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+25 | [37.111.128.0](https://vuldb.com/?ip.37.111.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+26 | [38.7.160.0](https://vuldb.com/?ip.38.7.160.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+27 | [38.10.160.0](https://vuldb.com/?ip.38.10.160.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+28 | [38.51.50.0](https://vuldb.com/?ip.38.51.50.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+29 | [38.54.78.0](https://vuldb.com/?ip.38.54.78.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+30 | [39.32.0.0](https://vuldb.com/?ip.39.32.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+31 | [42.83.84.0](https://vuldb.com/?ip.42.83.84.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+32 | [42.201.128.0](https://vuldb.com/?ip.42.201.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+33 | [43.132.69.0](https://vuldb.com/?ip.43.132.69.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+34 | [43.132.75.0](https://vuldb.com/?ip.43.132.75.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+35 | [43.152.10.0](https://vuldb.com/?ip.43.152.10.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+36 | [43.152.168.0](https://vuldb.com/?ip.43.152.168.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+37 | [43.224.236.0](https://vuldb.com/?ip.43.224.236.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+38 | [43.225.96.0](https://vuldb.com/?ip.43.225.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+39 | [43.225.98.0](https://vuldb.com/?ip.43.225.98.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+40 | [43.226.224.0](https://vuldb.com/?ip.43.226.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+41 | [43.228.156.0](https://vuldb.com/?ip.43.228.156.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+42 | [43.229.164.0](https://vuldb.com/?ip.43.229.164.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+43 | [43.230.92.0](https://vuldb.com/?ip.43.230.92.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+44 | [43.231.60.0](https://vuldb.com/?ip.43.231.60.0) | static-0-60-231-43.ebonenet.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+45 | [43.242.100.0](https://vuldb.com/?ip.43.242.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+46 | [43.242.176.0](https://vuldb.com/?ip.43.242.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+47 | [43.245.8.0](https://vuldb.com/?ip.43.245.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+48 | [43.245.128.0](https://vuldb.com/?ip.43.245.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+49 | [43.245.204.0](https://vuldb.com/?ip.43.245.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+50 | [43.246.220.0](https://vuldb.com/?ip.43.246.220.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+51 | [43.246.224.0](https://vuldb.com/?ip.43.246.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+52 | [43.247.120.0](https://vuldb.com/?ip.43.247.120.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+53 | [43.248.12.0](https://vuldb.com/?ip.43.248.12.0) | static-0-12-248-43.dnt.net.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+54 | [43.250.84.0](https://vuldb.com/?ip.43.250.84.0) | 43-250-84-0.reverse.ntc.net.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+55 | [43.251.252.0](https://vuldb.com/?ip.43.251.252.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+56 | [43.254.12.0](https://vuldb.com/?ip.43.254.12.0) | 43-254-12-0.kroservices.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+57 | [45.12.70.179](https://vuldb.com/?ip.45.12.70.179) | quantifying.alltieinc.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+58 | [45.12.71.179](https://vuldb.com/?ip.45.12.71.179) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+59 | [45.61.70.0](https://vuldb.com/?ip.45.61.70.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+60 | [45.62.40.0](https://vuldb.com/?ip.45.62.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+61 | [45.62.53.0](https://vuldb.com/?ip.45.62.53.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+62 | [45.62.62.0](https://vuldb.com/?ip.45.62.62.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+63 | [45.64.24.0](https://vuldb.com/?ip.45.64.24.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+64 | [45.64.180.0](https://vuldb.com/?ip.45.64.180.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+65 | [45.90.40.0](https://vuldb.com/?ip.45.90.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+66 | [45.113.124.0](https://vuldb.com/?ip.45.113.124.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+67 | [45.115.49.0](https://vuldb.com/?ip.45.115.49.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+68 | [45.115.84.0](https://vuldb.com/?ip.45.115.84.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+69 | [45.116.232.0](https://vuldb.com/?ip.45.116.232.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+70 | [45.117.88.0](https://vuldb.com/?ip.45.117.88.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+71 | [45.117.104.0](https://vuldb.com/?ip.45.117.104.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+72 | [45.120.196.0](https://vuldb.com/?ip.45.120.196.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+73 | [45.137.116.0](https://vuldb.com/?ip.45.137.116.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+74 | [45.140.28.0](https://vuldb.com/?ip.45.140.28.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+75 | [45.198.0.0](https://vuldb.com/?ip.45.198.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+76 | [45.199.187.0](https://vuldb.com/?ip.45.199.187.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+77 | [45.206.0.0](https://vuldb.com/?ip.45.206.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+78 | [45.249.8.0](https://vuldb.com/?ip.45.249.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+79 | [46.36.202.56](https://vuldb.com/?ip.46.36.202.56) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+80 | [46.183.221.240](https://vuldb.com/?ip.46.183.221.240) | ip-221-240.dataclub.info | [PakistanChatMessenger](https://vuldb.com/?actor.pakistanchatmessenger) | High
+81 | [46.244.29.0](https://vuldb.com/?ip.46.244.29.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+82 | [46.244.29.49](https://vuldb.com/?ip.46.244.29.49) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+83 | [46.244.29.50](https://vuldb.com/?ip.46.244.29.50) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+84 | [46.244.29.52](https://vuldb.com/?ip.46.244.29.52) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+85 | [46.244.29.56](https://vuldb.com/?ip.46.244.29.56) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+86 | [46.244.29.192](https://vuldb.com/?ip.46.244.29.192) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+87 | [57.90.136.0](https://vuldb.com/?ip.57.90.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+88 | [57.92.240.0](https://vuldb.com/?ip.57.92.240.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+89 | [58.27.128.0](https://vuldb.com/?ip.58.27.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+90 | [58.65.128.0](https://vuldb.com/?ip.58.65.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+91 | [58.65.192.0](https://vuldb.com/?ip.58.65.192.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+92 | [58.84.28.0](https://vuldb.com/?ip.58.84.28.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+93 | [58.181.96.0](https://vuldb.com/?ip.58.181.96.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+94 | [59.103.0.0](https://vuldb.com/?ip.59.103.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+95 | [61.5.128.0](https://vuldb.com/?ip.61.5.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+96 | [62.200.198.0](https://vuldb.com/?ip.62.200.198.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+97 | [62.200.198.64](https://vuldb.com/?ip.62.200.198.64) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+98 | [63.70.24.0](https://vuldb.com/?ip.63.70.24.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+99 | [63.114.37.0](https://vuldb.com/?ip.63.114.37.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+100 | [64.64.121.248](https://vuldb.com/?ip.64.64.121.248) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+101 | [64.86.121.0](https://vuldb.com/?ip.64.86.121.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+102 | [64.86.122.0](https://vuldb.com/?ip.64.86.122.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+103 | [64.86.131.0](https://vuldb.com/?ip.64.86.131.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+104 | [64.110.152.0](https://vuldb.com/?ip.64.110.152.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+105 | [66.160.172.0](https://vuldb.com/?ip.66.160.172.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+106 | [66.249.93.12](https://vuldb.com/?ip.66.249.93.12) | google-proxy-66-249-93-12.google.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+107 | [72.255.0.0](https://vuldb.com/?ip.72.255.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+108 | [80.77.8.0](https://vuldb.com/?ip.80.77.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+109 | [80.247.138.0](https://vuldb.com/?ip.80.247.138.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+110 | [80.247.152.0](https://vuldb.com/?ip.80.247.152.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+111 | [82.195.180.246](https://vuldb.com/?ip.82.195.180.246) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+112 | [85.204.30.0](https://vuldb.com/?ip.85.204.30.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+113 | [89.33.128.0](https://vuldb.com/?ip.89.33.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+114 | [89.33.204.0](https://vuldb.com/?ip.89.33.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+115 | [89.33.234.0](https://vuldb.com/?ip.89.33.234.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+116 | [89.34.88.0](https://vuldb.com/?ip.89.34.88.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+117 | [89.34.94.0](https://vuldb.com/?ip.89.34.94.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+118 | [89.34.168.0](https://vuldb.com/?ip.89.34.168.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+119 | [89.34.176.0](https://vuldb.com/?ip.89.34.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+120 | [89.35.58.0](https://vuldb.com/?ip.89.35.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+121 | [89.35.156.0](https://vuldb.com/?ip.89.35.156.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+122 | [89.35.176.0](https://vuldb.com/?ip.89.35.176.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+123 | [89.37.30.0](https://vuldb.com/?ip.89.37.30.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+124 | [89.37.42.0](https://vuldb.com/?ip.89.37.42.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+125 | [89.38.242.0](https://vuldb.com/?ip.89.38.242.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+126 | [89.39.186.0](https://vuldb.com/?ip.89.39.186.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+127 | [89.40.38.0](https://vuldb.com/?ip.89.40.38.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+128 | [89.40.90.0](https://vuldb.com/?ip.89.40.90.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+129 | [89.40.110.0](https://vuldb.com/?ip.89.40.110.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+130 | [89.40.128.0](https://vuldb.com/?ip.89.40.128.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+131 | [89.41.32.0](https://vuldb.com/?ip.89.41.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+132 | [89.41.58.0](https://vuldb.com/?ip.89.41.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+133 | [89.42.32.0](https://vuldb.com/?ip.89.42.32.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+134 | [89.43.204.0](https://vuldb.com/?ip.89.43.204.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+135 | [89.44.112.0](https://vuldb.com/?ip.89.44.112.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+136 | [89.44.118.0](https://vuldb.com/?ip.89.44.118.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+137 | [89.44.146.0](https://vuldb.com/?ip.89.44.146.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+138 | [89.44.202.0](https://vuldb.com/?ip.89.44.202.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+139 | [89.45.68.0](https://vuldb.com/?ip.89.45.68.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+140 | [89.45.230.0](https://vuldb.com/?ip.89.45.230.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+141 | [89.46.44.0](https://vuldb.com/?ip.89.46.44.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+142 | [92.240.205.0](https://vuldb.com/?ip.92.240.205.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+143 | [101.50.64.0](https://vuldb.com/?ip.101.50.64.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+144 | [101.53.224.0](https://vuldb.com/?ip.101.53.224.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+145 | [102.129.211.0](https://vuldb.com/?ip.102.129.211.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+146 | [102.165.11.0](https://vuldb.com/?ip.102.165.11.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+147 | [103.4.92.0](https://vuldb.com/?ip.103.4.92.0) | eaa.khi.hec.gov.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+148 | [103.4.102.0](https://vuldb.com/?ip.103.4.102.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+149 | [103.5.136.0](https://vuldb.com/?ip.103.5.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+150 | [103.7.60.0](https://vuldb.com/?ip.103.7.60.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+151 | [103.7.76.0](https://vuldb.com/?ip.103.7.76.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+152 | [103.8.14.0](https://vuldb.com/?ip.103.8.14.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+153 | [103.8.112.0](https://vuldb.com/?ip.103.8.112.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+154 | [103.8.214.0](https://vuldb.com/?ip.103.8.214.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+155 | [103.8.231.0](https://vuldb.com/?ip.103.8.231.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+156 | [103.9.23.0](https://vuldb.com/?ip.103.9.23.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+157 | [103.9.182.0](https://vuldb.com/?ip.103.9.182.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+158 | [103.11.0.0](https://vuldb.com/?ip.103.11.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+159 | [103.11.60.0](https://vuldb.com/?ip.103.11.60.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+160 | [103.11.68.0](https://vuldb.com/?ip.103.11.68.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+161 | [103.11.220.0](https://vuldb.com/?ip.103.11.220.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+162 | [103.12.40.0](https://vuldb.com/?ip.103.12.40.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+163 | [103.12.58.0](https://vuldb.com/?ip.103.12.58.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+164 | [103.12.78.0](https://vuldb.com/?ip.103.12.78.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+165 | [103.12.120.0](https://vuldb.com/?ip.103.12.120.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+166 | [103.12.196.0](https://vuldb.com/?ip.103.12.196.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+167 | [103.13.1.0](https://vuldb.com/?ip.103.13.1.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+168 | [103.17.200.0](https://vuldb.com/?ip.103.17.200.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+169 | [103.18.8.0](https://vuldb.com/?ip.103.18.8.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+170 | [103.18.20.0](https://vuldb.com/?ip.103.18.20.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+171 | [103.18.116.0](https://vuldb.com/?ip.103.18.116.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+172 | [103.18.243.0](https://vuldb.com/?ip.103.18.243.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+173 | [103.19.48.0](https://vuldb.com/?ip.103.19.48.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+174 | [103.20.0.0](https://vuldb.com/?ip.103.20.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+175 | [103.20.132.0](https://vuldb.com/?ip.103.20.132.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+176 | [103.23.252.0](https://vuldb.com/?ip.103.23.252.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+177 | [103.24.70.0](https://vuldb.com/?ip.103.24.70.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+178 | [103.24.96.0](https://vuldb.com/?ip.103.24.96.0) | static-0-96-24-103.ebonenet.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+179 | [103.25.136.0](https://vuldb.com/?ip.103.25.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+180 | [103.26.80.0](https://vuldb.com/?ip.103.26.80.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+181 | [103.26.184.0](https://vuldb.com/?ip.103.26.184.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+182 | [103.26.185.0](https://vuldb.com/?ip.103.26.185.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+183 | [103.26.238.0](https://vuldb.com/?ip.103.26.238.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+184 | [103.27.20.0](https://vuldb.com/?ip.103.27.20.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+185 | [103.28.150.0](https://vuldb.com/?ip.103.28.150.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+186 | [103.28.152.0](https://vuldb.com/?ip.103.28.152.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+187 | [103.29.163.0](https://vuldb.com/?ip.103.29.163.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+188 | [103.31.80.0](https://vuldb.com/?ip.103.31.80.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+189 | [103.31.92.0](https://vuldb.com/?ip.103.31.92.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+190 | [103.31.100.0](https://vuldb.com/?ip.103.31.100.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+191 | [103.31.104.0](https://vuldb.com/?ip.103.31.104.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+192 | [103.35.208.0](https://vuldb.com/?ip.103.35.208.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+193 | [103.39.80.0](https://vuldb.com/?ip.103.39.80.0) | static-0-80-39-103.dnt.net.pk | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+194 | [103.44.223.0](https://vuldb.com/?ip.103.44.223.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+195 | [103.47.144.0](https://vuldb.com/?ip.103.47.144.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+196 | [103.47.180.0](https://vuldb.com/?ip.103.47.180.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+197 | [103.48.0.0](https://vuldb.com/?ip.103.48.0.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+198 | [103.48.24.0](https://vuldb.com/?ip.103.48.24.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+199 | [103.49.69.0](https://vuldb.com/?ip.103.49.69.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+200 | [103.49.136.0](https://vuldb.com/?ip.103.49.136.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+201 | [103.50.156.0](https://vuldb.com/?ip.103.50.156.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+202 | [103.51.220.0](https://vuldb.com/?ip.103.51.220.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+203 | [103.52.34.0](https://vuldb.com/?ip.103.52.34.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+204 | [103.53.44.0](https://vuldb.com/?ip.103.53.44.0) | static-0-44-53-103.ebonenet.com | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+205 | [103.53.162.0](https://vuldb.com/?ip.103.53.162.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+206 | [103.55.68.0](https://vuldb.com/?ip.103.55.68.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+207 | [103.55.133.0](https://vuldb.com/?ip.103.55.133.0) | - | [Pakistan Unknown](https://vuldb.com/?actor.pakistan_unknown) | High
+208 | ... | ... | ... | ...
 
-There are 666 more IOC items available. Please use our online service to access the data.
+There are 829 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -208,12 +248,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
+1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
 4 | ... | ... | ... | ...
 
-There are 11 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -224,33 +264,39 @@ ID | Type | Indicator | Confidence
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/?p=products` | Medium
 3 | File | `/admin/` | Low
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/APR/signup.php` | High
-6 | File | `/cgi-bin/wlogin.cgi` | High
-7 | File | `/classes/Master.php?f=save_brand` | High
-8 | File | `/goform/set_LimitClient_cfg` | High
-9 | File | `/mims/login.php` | High
-10 | File | `/pages/apply_vacancy.php` | High
-11 | File | `/php-scrm/login.php` | High
-12 | File | `/proxy` | Low
-13 | File | `/send_order.cgi?parameter=access_detect` | High
-14 | File | `/textpattern/index.php` | High
-15 | File | `/tmp` | Low
-16 | File | `account-signup.php` | High
-17 | File | `account/signup.php` | High
-18 | File | `addentry.php` | Medium
-19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-20 | File | `admin.jcomments.php` | High
-21 | File | `admin.php` | Medium
-22 | File | `admin/admin_editor.php` | High
-23 | File | `admin/conf_users_edit.php` | High
-24 | File | `admin/data.php` | High
-25 | File | `admin/edit_category.php` | High
-26 | File | `ajax/autocompletion.php` | High
-27 | File | `awstats.pl` | Medium
-28 | ... | ... | ...
+4 | File | `/admin/inquiries/view_inquiry.php` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/admin/report/index.php` | High
+7 | File | `/APR/signup.php` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/classes/Master.php?f=delete_service` | High
+10 | File | `/classes/Master.php?f=save_brand` | High
+11 | File | `/classes/Master.php?f=save_course` | High
+12 | File | `/E-mobile/App/System/File/downfile.php` | High
+13 | File | `/Electron/download` | High
+14 | File | `/forum/away.php` | High
+15 | File | `/ghost/preview` | High
+16 | File | `/goform/set_LimitClient_cfg` | High
+17 | File | `/inc/topBarNav.php` | High
+18 | File | `/mims/login.php` | High
+19 | File | `/php-scrm/login.php` | High
+20 | File | `/proxy` | Low
+21 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+22 | File | `/send_order.cgi?parameter=access_detect` | High
+23 | File | `/spip.php` | Medium
+24 | File | `/text/pdf/PdfReader.java` | High
+25 | File | `/textpattern/index.php` | High
+26 | File | `/tmp` | Low
+27 | File | `/wp-admin/admin-ajax.php` | High
+28 | File | `account-signup.php` | High
+29 | File | `account/signup.php` | High
+30 | File | `adclick.php` | Medium
+31 | File | `addentry.php` | Medium
+32 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+33 | File | `admin.jcomments.php` | High
+34 | ... | ... | ...
 
-There are 237 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 293 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -258,6 +304,7 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pk.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pk.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_pk.netset
 * https://github.com/sophoslabs/IoCs/blob/master/Android-pakchat.csv
 * https://mp.weixin.qq.com/s/B0ElRhbqLzs-wGQh79fTww
 

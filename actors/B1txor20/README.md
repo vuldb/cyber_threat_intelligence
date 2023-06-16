@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
+* [LU](https://vuldb.com/?country.lu)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 13 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,13 +31,9 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [51.15.43.205](https://vuldb.com/?ip.51.15.43.205) | 205-43-15-51.instances.scw.cloud | - | High
 9 | [62.102.148.68](https://vuldb.com/?ip.62.102.148.68) | - | - | High
 10 | [62.102.148.69](https://vuldb.com/?ip.62.102.148.69) | - | - | High
-11 | [81.17.18.62](https://vuldb.com/?ip.81.17.18.62) | block1-che.interlayer.co.uk | - | High
-12 | [104.244.73.126](https://vuldb.com/?ip.104.244.73.126) | lu1.exit.tor.alkyl.eu.org | - | High
-13 | [109.201.133.100](https://vuldb.com/?ip.109.201.133.100) | . | - | High
-14 | [162.247.74.27](https://vuldb.com/?ip.162.247.74.27) | turing.tor-exit.calyxinstitute.org | - | High
-15 | ... | ... | ... | ...
+11 | ... | ... | ... | ...
 
-There are 54 more IOC items available. Please use our online service to access the data.
+There are 40 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,13 +42,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79 | Cross Site Scripting | High
+5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,62 +58,64 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
 2 | File | `/admin` | Low
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/attendance_row.php` | High
-7 | File | `/admin/bookings/manage_booking.php` | High
-8 | File | `/admin/bookings/view_booking.php` | High
-9 | File | `/admin/bookings/view_details.php` | High
+3 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+4 | File | `/admin/addproduct.php` | High
+5 | File | `/admin/attendance_row.php` | High
+6 | File | `/admin/bookings/manage_booking.php` | High
+7 | File | `/admin/bookings/view_booking.php` | High
+8 | File | `/admin/bookings/view_details.php` | High
+9 | File | `/admin/budget/manage_budget.php` | High
 10 | File | `/admin/cashadvance_row.php` | High
-11 | File | `/admin/curriculum/view_curriculum.php` | High
-12 | File | `/admin/deduction_row.php` | High
-13 | File | `/admin/departments/view_department.php` | High
-14 | File | `/admin/doctors.php` | High
-15 | File | `/admin/employee_row.php` | High
-16 | File | `/admin/index.php` | High
-17 | File | `/admin/inquiries/view_inquiry.php` | High
-18 | File | `/admin/login.php` | High
-19 | File | `/admin/maintenance/brand.php` | High
-20 | File | `/admin/maintenance/manage_category.php` | High
-21 | File | `/admin/maintenance/view_designation.php` | High
-22 | File | `/admin/manage_academic.php` | High
-23 | File | `/admin/mechanics/manage_mechanic.php` | High
-24 | File | `/admin/offenses/view_details.php` | High
-25 | File | `/admin/orders/update_status.php` | High
-26 | File | `/admin/product/manage.php` | High
-27 | File | `/admin/products/manage_product.php` | High
-28 | File | `/admin/products/view_product.php` | High
-29 | File | `/admin/reminders/manage_reminder.php` | High
-30 | File | `/admin/report/index.php` | High
-31 | File | `/admin/sales/manage_sale.php` | High
-32 | File | `/admin/services/manage_service.php` | High
-33 | File | `/admin/services/view_service.php` | High
-34 | File | `/admin/service_requests/manage_inventory.php` | High
-35 | File | `/admin/transactions/track_shipment.php` | High
-36 | File | `/admin/user/manage_user.php` | High
-37 | File | `/admin/userprofile.php` | High
-38 | File | `/ajax/update_certificate` | High
-39 | File | `/alphaware/details.php` | High
-40 | File | `/alphaware/summary.php` | High
-41 | File | `/api/` | Low
-42 | File | `/api/admin/store/product/list` | High
-43 | File | `/api/gen/clients/{language}` | High
-44 | File | `/api/v2/cli/commands` | High
-45 | File | `/articles/{id}` | High
-46 | File | `/boafrm/formFilter` | High
-47 | File | `/boafrm/formHomeWlanSetup` | High
-48 | File | `/boat/login.php` | High
-49 | File | `/cgi-bin` | Medium
-50 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-51 | File | `/cgi-bin/ping.cgi` | High
-52 | File | `/cgi-bin/touchlist_sync.cgi` | High
-53 | File | `/cgi-bin/wlogin.cgi` | High
-54 | File | `/classes/Login.php` | High
-55 | File | `/classes/Master.php` | High
-56 | ... | ... | ...
+11 | File | `/admin/contacts/organizations/edit/2` | High
+12 | File | `/admin/curriculum/view_curriculum.php` | High
+13 | File | `/admin/deduction_row.php` | High
+14 | File | `/admin/departments/view_department.php` | High
+15 | File | `/admin/edit_subject.php` | High
+16 | File | `/admin/employee_row.php` | High
+17 | File | `/admin/index.php` | High
+18 | File | `/admin/inquiries/view_inquiry.php` | High
+19 | File | `/admin/login.php` | High
+20 | File | `/admin/maintenance/brand.php` | High
+21 | File | `/admin/maintenance/manage_category.php` | High
+22 | File | `/admin/maintenance/view_designation.php` | High
+23 | File | `/admin/manage_academic.php` | High
+24 | File | `/admin/mechanics/manage_mechanic.php` | High
+25 | File | `/admin/modal_add_product.php` | High
+26 | File | `/admin/offenses/view_details.php` | High
+27 | File | `/admin/orders/update_status.php` | High
+28 | File | `/admin/product/manage.php` | High
+29 | File | `/admin/products/manage_product.php` | High
+30 | File | `/admin/products/view_product.php` | High
+31 | File | `/admin/reminders/manage_reminder.php` | High
+32 | File | `/admin/report/index.php` | High
+33 | File | `/admin/reportupload.aspx` | High
+34 | File | `/admin/sales/manage_sale.php` | High
+35 | File | `/admin/service.php` | High
+36 | File | `/admin/services/manage_service.php` | High
+37 | File | `/admin/services/view_service.php` | High
+38 | File | `/admin/service_requests/manage_inventory.php` | High
+39 | File | `/admin/transactions/track_shipment.php` | High
+40 | File | `/admin/update_s6.php` | High
+41 | File | `/admin/user/manage_user.php` | High
+42 | File | `/admin/userprofile.php` | High
+43 | File | `/ajax.php?action=read_msg` | High
+44 | File | `/ajax.php?action=save_company` | High
+45 | File | `/api/gen/clients/{language}` | High
+46 | File | `/api/stl/actions/search` | High
+47 | File | `/api/v2/cli/commands` | High
+48 | File | `/articles/{id}` | High
+49 | File | `/boafrm/formFilter` | High
+50 | File | `/boafrm/formHomeWlanSetup` | High
+51 | File | `/cgi-bin` | Medium
+52 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+53 | File | `/cgi-bin/ping.cgi` | High
+54 | File | `/cgi-bin/touchlist_sync.cgi` | High
+55 | File | `/cgi-bin/wlogin.cgi` | High
+56 | File | `/changeimage.php` | High
+57 | File | `/classes/Login.php` | High
+58 | ... | ... | ...
 
-There are 486 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

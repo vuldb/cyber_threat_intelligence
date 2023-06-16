@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,13 +45,13 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [45.182.189.200](https://vuldb.com/?ip.45.182.189.200) | - | - | High
 23 | [46.30.43.83](https://vuldb.com/?ip.46.30.43.83) | free.eurobyte.ru | - | High
 24 | [46.161.40.92](https://vuldb.com/?ip.46.161.40.92) | - | - | High
-25 | [46.170.125.222](https://vuldb.com/?ip.46.170.125.222) | 3.silopol.eu | - | High
-26 | [46.183.221.37](https://vuldb.com/?ip.46.183.221.37) | ip-221-37.dataclub.info | - | High
-27 | [46.183.221.89](https://vuldb.com/?ip.46.183.221.89) | ip-221-89.dataclub.info | - | High
-28 | [51.255.200.161](https://vuldb.com/?ip.51.255.200.161) | 161.ip-51-255-200.eu | - | High
+25 | [46.161.40.128](https://vuldb.com/?ip.46.161.40.128) | - | - | High
+26 | [46.170.125.222](https://vuldb.com/?ip.46.170.125.222) | 3.silopol.eu | - | High
+27 | [46.183.221.37](https://vuldb.com/?ip.46.183.221.37) | ip-221-37.dataclub.info | - | High
+28 | [46.183.221.89](https://vuldb.com/?ip.46.183.221.89) | ip-221-89.dataclub.info | - | High
 29 | ... | ... | ... | ...
 
-There are 110 more IOC items available. Please use our online service to access the data.
+There are 111 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -99,24 +99,25 @@ ID | Type | Indicator | Confidence
 23 | File | `/dashboard/reports/logs/view` | High
 24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
 25 | File | `/debug/pprof` | Medium
-26 | File | `/etc/hosts` | Medium
-27 | File | `/etc/quagga` | Medium
-28 | File | `/forms/doLogin` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/goform/setmac` | High
-31 | File | `/goform/wizard_end` | High
-32 | File | `/h/calendar` | Medium
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/nova/bin/detnet` | High
-37 | File | `/out.php` | Medium
+26 | File | `/env` | Low
+27 | File | `/etc/hosts` | Medium
+28 | File | `/etc/quagga` | Medium
+29 | File | `/forms/doLogin` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/setmac` | High
+32 | File | `/goform/wizard_end` | High
+33 | File | `/h/calendar` | Medium
+34 | File | `/manage-apartment.php` | High
+35 | File | `/medicines/profile.php` | High
+36 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+37 | File | `/nova/bin/detnet` | High
 38 | File | `/pages/apply_vacancy.php` | High
 39 | File | `/proc/<PID>/mem` | High
 40 | File | `/proxy` | Low
-41 | ... | ... | ...
+41 | File | `/reservation/add_message.php` | High
+42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 360 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

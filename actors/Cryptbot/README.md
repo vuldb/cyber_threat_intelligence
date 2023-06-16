@@ -22,7 +22,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [8.248.167.254](https://vuldb.com/?ip.8.248.167.254) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -55,6 +55,7 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://blog.talosintelligence.com/2021/10/threat-roundup-1008-1015.html
+* https://threatfox.abuse.ch
 
 ## Literature
 

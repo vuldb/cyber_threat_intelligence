@@ -113,8 +113,7 @@ ID | Type | Indicator | Confidence
 46 | File | `admin/content.php` | High
 47 | File | `admin/import/class-import-settings.php` | High
 48 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-49 | File | `admin/sitesettings.php` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
 There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

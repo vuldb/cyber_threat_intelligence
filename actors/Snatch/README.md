@@ -21,12 +21,15 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [37.59.146.180](https://vuldb.com/?ip.37.59.146.180) | ip180.ip-37-59-146.eu | - | High
-2 | [45.147.228.91](https://vuldb.com/?ip.45.147.228.91) | - | - | High
-3 | [67.211.209.151](https://vuldb.com/?ip.67.211.209.151) | vps2367725.trouble-free.net | - | High
-4 | ... | ... | ... | ...
+1 | [1.23.82.72](https://vuldb.com/?ip.1.23.82.72) | - | - | High
+2 | [2.2.82.64](https://vuldb.com/?ip.2.2.82.64) | - | - | High
+3 | [2.12.51.56](https://vuldb.com/?ip.2.12.51.56) | arennes-655-1-148-56.w2-12.abo.wanadoo.fr | - | High
+4 | [3.95.29.25](https://vuldb.com/?ip.3.95.29.25) | ec2-3-95-29-25.compute-1.amazonaws.com | - | Medium
+5 | [4.96.46.65](https://vuldb.com/?ip.4.96.46.65) | - | - | High
+6 | [19.2.45.3](https://vuldb.com/?ip.19.2.45.3) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 8 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -41,7 +44,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -54,41 +57,42 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/?page=user/manage` | High
 4 | File | `/admin/lab.php` | High
 5 | File | `/admin/login.php` | High
-6 | File | `/assets/components/gallery/connector.php` | High
-7 | File | `/bsms_ci/index.php` | High
-8 | File | `/cms/category/list` | High
-9 | File | `/College/admin/teacher.php` | High
-10 | File | `/Default/Bd` | Medium
-11 | File | `/editbrand.php` | High
-12 | File | `/employeeview.php` | High
-13 | File | `/etc/target` | Medium
-14 | File | `/export` | Low
-15 | File | `/getcfg.php` | Medium
-16 | File | `/goform/WriteFacMac` | High
-17 | File | `/home/kickPlayer` | High
-18 | File | `/home/masterConsole` | High
-19 | File | `/index.php` | Medium
-20 | File | `/lists/admin/user.php` | High
-21 | File | `/mkshop/Men/profile.php` | High
-22 | File | `/movie.php` | Medium
-23 | File | `/news-portal-script/information.php` | High
-24 | File | `/pages/apply_vacancy.php` | High
-25 | File | `/param.file.tgz` | High
-26 | File | `/tmp` | Low
-27 | File | `/uncpath/` | Medium
-28 | File | `/wireless/basic.asp` | High
-29 | File | `/wireless/guestnetwork.asp` | High
-30 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-31 | File | `/_vti_pvt/access.cnf` | High
-32 | File | `adclick.php` | Medium
-33 | File | `admin.php3` | Medium
-34 | File | `admin/abc.php` | High
-35 | File | `admin/add_payment.php` | High
-36 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-37 | File | `admin/disapprove_user.php` | High
-38 | ... | ... | ...
+6 | File | `/ajax.php?action=read_msg` | High
+7 | File | `/assets/components/gallery/connector.php` | High
+8 | File | `/bsms_ci/index.php` | High
+9 | File | `/cms/category/list` | High
+10 | File | `/College/admin/teacher.php` | High
+11 | File | `/Default/Bd` | Medium
+12 | File | `/editbrand.php` | High
+13 | File | `/employeeview.php` | High
+14 | File | `/etc/target` | Medium
+15 | File | `/export` | Low
+16 | File | `/getcfg.php` | Medium
+17 | File | `/goform/WriteFacMac` | High
+18 | File | `/home/kickPlayer` | High
+19 | File | `/home/masterConsole` | High
+20 | File | `/index.php` | Medium
+21 | File | `/lists/admin/user.php` | High
+22 | File | `/mkshop/Men/profile.php` | High
+23 | File | `/movie.php` | Medium
+24 | File | `/news-portal-script/information.php` | High
+25 | File | `/pages/apply_vacancy.php` | High
+26 | File | `/param.file.tgz` | High
+27 | File | `/rest/api/2/user/picker` | High
+28 | File | `/tmp` | Low
+29 | File | `/uncpath/` | Medium
+30 | File | `/var/log/nginx` | High
+31 | File | `/wireless/basic.asp` | High
+32 | File | `/wireless/guestnetwork.asp` | High
+33 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+34 | File | `/_vti_pvt/access.cnf` | High
+35 | File | `adclick.php` | Medium
+36 | File | `admin.php3` | Medium
+37 | File | `admin/abc.php` | High
+38 | File | `admin/add_payment.php` | High
+39 | ... | ... | ...
 
-There are 326 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 338 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

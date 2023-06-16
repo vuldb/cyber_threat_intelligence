@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -111,7 +111,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -121,16 +121,16 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/admin/moduleinterface.php` | High
-3 | File | `/ajax/networking/get_netcfg.php` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bin/httpd` | Medium
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/ci_spms/admin/category` | High
-9 | File | `/ci_spms/admin/search/searching/` | High
-10 | File | `/classes/Master.php?f=delete_appointment` | High
-11 | File | `/classes/Master.php?f=delete_train` | High
-12 | File | `/cms/print.php` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
 13 | File | `/concat?/%2557EB-INF/web.xml` | High
 14 | File | `/Content/Template/root/reverse-shell.aspx` | High
 15 | File | `/ctcprotocol/Protocol` | High
@@ -161,11 +161,9 @@ ID | Type | Indicator | Confidence
 40 | File | `/rest/api/2/search` | High
 41 | File | `/s/` | Low
 42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | File | `/spip.php` | Medium
-45 | ... | ... | ...
+43 | ... | ... | ...
 
-There are 387 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 368 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

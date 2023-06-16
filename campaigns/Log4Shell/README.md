@@ -100,7 +100,7 @@ ID | Technique | Weakness | Description | Confidence
 6 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 24 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -109,9 +109,9 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/admin/ajax.php?action=delete_uploads` | High
-3 | File | `/admin/ajax.php?action=delete_user` | High
-4 | File | `/admin/api/theme-edit/` | High
+2 | File | `/admin/addproduct.php` | High
+3 | File | `/admin/ajax.php?action=delete_uploads` | High
+4 | File | `/admin/ajax.php?action=delete_user` | High
 5 | File | `/admin/attendance_row.php` | High
 6 | File | `/admin/configurations/userInfo` | High
 7 | File | `/admin/deduction_row.php` | High
@@ -120,46 +120,46 @@ ID | Type | Indicator | Confidence
 10 | File | `/admin/maintenance/brand.php` | High
 11 | File | `/admin/maintenance/view_designation.php` | High
 12 | File | `/admin/mechanics/manage_mechanic.php` | High
-13 | File | `/admin/sales/manage_sale.php` | High
-14 | File | `/admin/service_requests/manage_inventory.php` | High
-15 | File | `/admin/transactions/track_shipment.php` | High
-16 | File | `/admin/user/manage_user.php` | High
-17 | File | `/ajax.php?action=save_company` | High
-18 | File | `/api/baskets/{name}` | High
-19 | File | `/api/stl/actions/search` | High
-20 | File | `/apply.cgi` | Medium
-21 | File | `/cgi-bin/mainfunction.cgi` | High
-22 | File | `/cgi-bin/touchlist_sync.cgi` | High
-23 | File | `/classes/Master.php` | High
-24 | File | `/config/api/v1/reboot` | High
-25 | File | `/DXR.axd` | Medium
-26 | File | `/etc/shadow` | Medium
-27 | File | `/file_manager/admin/save_user.php` | High
-28 | File | `/forum/away.php` | High
-29 | File | `/forum/PostPrivateMessage` | High
-30 | File | `/forums.php?action=post` | High
-31 | File | `/fos/admin/ajax.php?action=login` | High
-32 | File | `/fos/admin/index.php?page=menu` | High
-33 | File | `/goForm/aspForm` | High
-34 | File | `/goform/WifiBasicSet` | High
-35 | File | `/hss/admin/?page=client/manage_client` | High
-36 | File | `/index.php?app=main&func=passport&action=login` | High
-37 | File | `/kelas/data` | Medium
-38 | File | `/login/index.php` | High
-39 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-40 | File | `/owa/auth/logon.aspx` | High
-41 | File | `/param.file.tgz` | High
-42 | File | `/royal_event/userregister.php` | High
-43 | File | `/rrdp` | Low
-44 | File | `/Security/Transactions/Transactions.aspx` | High
-45 | File | `/Session` | Medium
-46 | File | `/setNTP.cgi` | Medium
-47 | File | `/tpts/manage_user.php` | High
-48 | File | `/u/username.json` | High
-49 | File | `/user/s.php` | Medium
+13 | File | `/admin/read.php?mudi=getSignal` | High
+14 | File | `/admin/sales/manage_sale.php` | High
+15 | File | `/admin/service_requests/manage_inventory.php` | High
+16 | File | `/admin/transactions/track_shipment.php` | High
+17 | File | `/admin/user/manage_user.php` | High
+18 | File | `/ajax.php?action=save_company` | High
+19 | File | `/api/baskets/{name}` | High
+20 | File | `/api/stl/actions/search` | High
+21 | File | `/apply.cgi` | Medium
+22 | File | `/cgi-bin/mainfunction.cgi` | High
+23 | File | `/cgi-bin/touchlist_sync.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/config/api/v1/reboot` | High
+26 | File | `/DXR.axd` | Medium
+27 | File | `/etc/shadow` | Medium
+28 | File | `/file_manager/admin/save_user.php` | High
+29 | File | `/forum/away.php` | High
+30 | File | `/forum/PostPrivateMessage` | High
+31 | File | `/forums.php?action=post` | High
+32 | File | `/fos/admin/ajax.php?action=login` | High
+33 | File | `/fos/admin/index.php?page=menu` | High
+34 | File | `/goForm/aspForm` | High
+35 | File | `/goform/WifiBasicSet` | High
+36 | File | `/hss/admin/?page=client/manage_client` | High
+37 | File | `/index.php?app=main&func=passport&action=login` | High
+38 | File | `/kelas/data` | Medium
+39 | File | `/login/index.php` | High
+40 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+41 | File | `/owa/auth/logon.aspx` | High
+42 | File | `/param.file.tgz` | High
+43 | File | `/royal_event/userregister.php` | High
+44 | File | `/rrdp` | Low
+45 | File | `/Security/Transactions/Transactions.aspx` | High
+46 | File | `/Session` | Medium
+47 | File | `/setNTP.cgi` | Medium
+48 | File | `/tpts/manage_user.php` | High
+49 | File | `/u/username.json` | High
 50 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

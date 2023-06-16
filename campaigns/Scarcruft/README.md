@@ -11,6 +11,7 @@ These _actors_ are associated with Scarcruft or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [APT37](https://vuldb.com/?actor.apt37) | High
+2 | [Scarcruft](https://vuldb.com/?actor.scarcruft) | High
 
 ## IOC - Indicator of Compromise
 
@@ -18,9 +19,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [34.13.42.35](https://vuldb.com/?ip.34.13.42.35) | - | [APT37](https://vuldb.com/?actor.apt37) | High
-2 | [120.192.73.202](https://vuldb.com/?ip.120.192.73.202) | - | [APT37](https://vuldb.com/?actor.apt37) | High
-3 | [180.182.52.76](https://vuldb.com/?ip.180.182.52.76) | - | [APT37](https://vuldb.com/?actor.apt37) | High
+1 | [34.13.42.35](https://vuldb.com/?ip.34.13.42.35) | - | [Scarcruft](https://vuldb.com/?actor.scarcruft) | High
+2 | [120.192.73.202](https://vuldb.com/?ip.120.192.73.202) | - | [Scarcruft](https://vuldb.com/?actor.scarcruft) | High
+3 | [180.182.52.76](https://vuldb.com/?ip.180.182.52.76) | - | [Scarcruft](https://vuldb.com/?actor.scarcruft) | High
 
 ## References
 

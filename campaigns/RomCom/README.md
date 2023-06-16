@@ -9,6 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RomCom:
 
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
+* [CN](https://vuldb.com/?country.cn)
 
 ## Actors
 
@@ -18,6 +20,7 @@ ID | Actor | Confidence
 -- | ----- | ----------
 1 | [ROMCOM RAT](https://vuldb.com/?actor.romcom_rat) | High
 2 | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
+3 | [RomCom](https://vuldb.com/?actor.romcom) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,9 +28,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [51.195.49.215](https://vuldb.com/?ip.51.195.49.215) | ip215.ip-51-195-49.eu | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
-2 | [94.142.138.244](https://vuldb.com/?ip.94.142.138.244) | - | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
-3 | [104.234.10.207](https://vuldb.com/?ip.104.234.10.207) | - | [ROMCOM RAT](https://vuldb.com/?actor.romcom_rat) | High
+1 | [46.246.98.15](https://vuldb.com/?ip.46.246.98.15) | 46-246-98-15.static.glesys.net | [RomCom](https://vuldb.com/?actor.romcom) | High
+2 | [51.195.49.215](https://vuldb.com/?ip.51.195.49.215) | ip215.ip-51-195-49.eu | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
+3 | [94.142.138.244](https://vuldb.com/?ip.94.142.138.244) | - | [Void Rabisu](https://vuldb.com/?actor.void_rabisu) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -35,7 +41,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1505 | CWE-89 | SQL Injection | High
+1 | T1059.007 | CWE-79 | Cross Site Scripting | High
+2 | T1068 | CWE-264, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1202 | CWE-77, CWE-78 | Command Injection | High
+4 | ... | ... | ... | ...
+
+There are 4 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -43,13 +54,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `category.cfm` | Medium
-2 | Argument | `cat` | Low
+1 | File | `/MIME/INBOX-MM-1/` | High
+2 | File | `category.cfm` | Medium
+3 | File | `reservation_save.php` | High
+4 | ... | ... | ...
+
+There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blogs.blackberry.com/en/2023/06/romcom-resurfaces-targeting-ukraine
 * https://twitter.com/TLP_R3D/status/1655687889391431680
 * https://www.trendmicro.com/en_us/research/23/e/void-rabisu-s-use-of-romcom-backdoor-shows-a-growing-shift-in-th.html
 

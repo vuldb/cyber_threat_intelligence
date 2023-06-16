@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -31,35 +31,46 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [23.105.131.236](https://vuldb.com/?ip.23.105.131.236) | mail236.nessfist.com | - | High
 9 | [23.146.242.147](https://vuldb.com/?ip.23.146.242.147) | - | - | High
 10 | [31.210.20.226](https://vuldb.com/?ip.31.210.20.226) | - | - | High
-11 | [37.0.11.6](https://vuldb.com/?ip.37.0.11.6) | - | - | High
-12 | [37.0.14.197](https://vuldb.com/?ip.37.0.14.197) | - | - | High
-13 | [37.0.14.198](https://vuldb.com/?ip.37.0.14.198) | - | - | High
-14 | [37.0.14.199](https://vuldb.com/?ip.37.0.14.199) | - | - | High
-15 | [37.0.14.203](https://vuldb.com/?ip.37.0.14.203) | - | - | High
-16 | [37.0.14.206](https://vuldb.com/?ip.37.0.14.206) | - | - | High
-17 | [37.0.14.214](https://vuldb.com/?ip.37.0.14.214) | - | - | High
-18 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
-19 | [37.120.145.160](https://vuldb.com/?ip.37.120.145.160) | - | - | High
-20 | [37.120.247.24](https://vuldb.com/?ip.37.120.247.24) | - | - | High
-21 | [43.154.232.190](https://vuldb.com/?ip.43.154.232.190) | - | - | High
-22 | [45.57.161.9](https://vuldb.com/?ip.45.57.161.9) | - | - | High
-23 | [45.83.88.218](https://vuldb.com/?ip.45.83.88.218) | - | - | High
-24 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-25 | [45.133.174.214](https://vuldb.com/?ip.45.133.174.214) | - | - | High
-26 | [45.144.225.174](https://vuldb.com/?ip.45.144.225.174) | - | - | High
-27 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
-28 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
-29 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
-30 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
-31 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
-32 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
-33 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
-34 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
-35 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
-36 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
-37 | ... | ... | ... | ...
+11 | [31.214.141.181](https://vuldb.com/?ip.31.214.141.181) | - | - | High
+12 | [31.220.4.216](https://vuldb.com/?ip.31.220.4.216) | - | - | High
+13 | [37.0.11.6](https://vuldb.com/?ip.37.0.11.6) | - | - | High
+14 | [37.0.14.197](https://vuldb.com/?ip.37.0.14.197) | - | - | High
+15 | [37.0.14.198](https://vuldb.com/?ip.37.0.14.198) | - | - | High
+16 | [37.0.14.199](https://vuldb.com/?ip.37.0.14.199) | - | - | High
+17 | [37.0.14.203](https://vuldb.com/?ip.37.0.14.203) | - | - | High
+18 | [37.0.14.206](https://vuldb.com/?ip.37.0.14.206) | - | - | High
+19 | [37.0.14.214](https://vuldb.com/?ip.37.0.14.214) | - | - | High
+20 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
+21 | [37.120.145.160](https://vuldb.com/?ip.37.120.145.160) | - | - | High
+22 | [37.120.234.120](https://vuldb.com/?ip.37.120.234.120) | no-rdns.m247.com | - | High
+23 | [37.120.247.24](https://vuldb.com/?ip.37.120.247.24) | - | - | High
+24 | [43.154.232.190](https://vuldb.com/?ip.43.154.232.190) | - | - | High
+25 | [45.57.161.9](https://vuldb.com/?ip.45.57.161.9) | - | - | High
+26 | [45.83.88.218](https://vuldb.com/?ip.45.83.88.218) | - | - | High
+27 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+28 | [45.133.174.214](https://vuldb.com/?ip.45.133.174.214) | - | - | High
+29 | [45.144.225.128](https://vuldb.com/?ip.45.144.225.128) | - | - | High
+30 | [45.144.225.174](https://vuldb.com/?ip.45.144.225.174) | - | - | High
+31 | [51.15.19.32](https://vuldb.com/?ip.51.15.19.32) | 51-15-19-32.rev.poneytelecom.eu | - | High
+32 | [51.77.67.168](https://vuldb.com/?ip.51.77.67.168) | ns3139397.ip-51-77-67.eu | - | High
+33 | [51.161.104.138](https://vuldb.com/?ip.51.161.104.138) | ip138.ip-51-161-104.net | - | High
+34 | [51.195.57.232](https://vuldb.com/?ip.51.195.57.232) | ip232.ip-51-195-57.eu | - | High
+35 | [52.188.19.78](https://vuldb.com/?ip.52.188.19.78) | - | - | High
+36 | [54.36.4.180](https://vuldb.com/?ip.54.36.4.180) | ip180.ip-54-36-4.eu | - | High
+37 | [62.113.215.200](https://vuldb.com/?ip.62.113.215.200) | - | - | High
+38 | [62.197.136.163](https://vuldb.com/?ip.62.197.136.163) | kaiser-miles.joggingcourt.org.uk | - | High
+39 | [64.42.179.51](https://vuldb.com/?ip.64.42.179.51) | - | - | High
+40 | [64.42.179.67](https://vuldb.com/?ip.64.42.179.67) | - | - | High
+41 | [64.44.168.203](https://vuldb.com/?ip.64.44.168.203) | 203-168-44-64-.reverse-dns | - | High
+42 | [66.42.43.177](https://vuldb.com/?ip.66.42.43.177) | 66.42.43.177.vultrusercontent.com | - | High
+43 | [66.63.168.12](https://vuldb.com/?ip.66.63.168.12) | 12-york.rushbells.com | - | High
+44 | [66.154.103.106](https://vuldb.com/?ip.66.154.103.106) | 66.154.103.106.static.quadranet.com | - | High
+45 | [69.12.64.134](https://vuldb.com/?ip.69.12.64.134) | 69.12.64.134.static.quadranet.com | - | High
+46 | [74.201.28.67](https://vuldb.com/?ip.74.201.28.67) | - | - | High
+47 | [74.201.28.116](https://vuldb.com/?ip.74.201.28.116) | - | - | High
+48 | ... | ... | ... | ...
 
-There are 146 more IOC items available. Please use our online service to access the data.
+There are 186 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,10 +78,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -83,59 +94,57 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.../gogo/` | Medium
-2 | File | `.procmailrc` | Medium
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/admin/` | Low
-5 | File | `/admin/communitymanagement.php` | High
-6 | File | `/admin/dl_sendmail.php` | High
-7 | File | `/admin/extended` | High
-8 | File | `/admin/featured.php` | High
-9 | File | `/admin/generalsettings.php` | High
-10 | File | `/admin/login.php` | High
-11 | File | `/admin/newsletter1.php` | High
-12 | File | `/admin/payment.php` | High
-13 | File | `/admin/products/manage_product.php` | High
-14 | File | `/admin/students/manage.php` | High
-15 | File | `/admin/students/view_student.php` | High
-16 | File | `/admin/usermanagement.php` | High
-17 | File | `/api/addusers` | High
-18 | File | `/api/user/upsert/<uuid>` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/appliance/users?action=edit` | High
-21 | File | `/backup.pl` | Medium
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/dashboard/updatelogo.php` | High
-24 | File | `/designer/add/layout` | High
-25 | File | `/edoc/doctor/patient.php` | High
-26 | File | `/etc/ldap.conf` | High
-27 | File | `/etc/shadow` | Medium
-28 | File | `/filemanager/upload/drop` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/h/calendar` | Medium
-31 | File | `/h/compose` | Medium
-32 | File | `/h/search?action=voicemail&action=listen` | High
-33 | File | `/hrm/employeeview.php` | High
-34 | File | `/index.php` | Medium
-35 | File | `/librarian/bookdetails.php` | High
-36 | File | `/loginVaLidation.php` | High
-37 | File | `/manage-apartment.php` | High
-38 | File | `/manager/index.php` | High
-39 | File | `/messageboard/view.php` | High
-40 | File | `/MIME/INBOX-MM-1/` | High
-41 | File | `/mkshop/Men/profile.php` | High
-42 | File | `/Noxen-master/users.php` | High
-43 | File | `/opac/Actions.php?a=login` | High
-44 | File | `/osm/REGISTER.cmd` | High
-45 | File | `/out.php` | Medium
-46 | File | `/owa/auth/logon.aspx` | High
-47 | File | `/pages/animals.php` | High
-48 | File | `/php-scrm/login.php` | High
-49 | File | `/php-sms/classes/Master.php` | High
-50 | File | `/php-sms/classes/SystemSettings.php` | High
-51 | File | `/php_action/createOrder.php` | High
-52 | ... | ... | ...
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/admin/edit_subject.php` | High
+4 | File | `/admin/index2.html` | High
+5 | File | `/admin/login.php` | High
+6 | File | `/admin/products/manage_product.php` | High
+7 | File | `/admin/students/manage.php` | High
+8 | File | `/admin/students/view_student.php` | High
+9 | File | `/api/user/upsert/<uuid>` | High
+10 | File | `/api/v2/cli/commands` | High
+11 | File | `/appliance/users?action=edit` | High
+12 | File | `/backup.pl` | Medium
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/dashboard/updatelogo.php` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/E-mobile/App/System/File/downfile.php` | High
+17 | File | `/edoc/doctor/patient.php` | High
+18 | File | `/etc/ldap.conf` | High
+19 | File | `/etc/shadow` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/h/calendar` | Medium
+22 | File | `/h/compose` | Medium
+23 | File | `/h/search?action=voicemail&action=listen` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/index.php` | Medium
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/kelasdosen/data` | High
+28 | File | `/librarian/bookdetails.php` | High
+29 | File | `/loginVaLidation.php` | High
+30 | File | `/manager/index.php` | High
+31 | File | `/messageboard/view.php` | High
+32 | File | `/MIME/INBOX-MM-1/` | High
+33 | File | `/mkshop/Men/profile.php` | High
+34 | File | `/Noxen-master/users.php` | High
+35 | File | `/opac/Actions.php?a=login` | High
+36 | File | `/osm/REGISTER.cmd` | High
+37 | File | `/out.php` | Medium
+38 | File | `/owa/auth/logon.aspx` | High
+39 | File | `/php-scrm/login.php` | High
+40 | File | `/php-sms/classes/Master.php` | High
+41 | File | `/php-sms/classes/SystemSettings.php` | High
+42 | File | `/php_action/createOrder.php` | High
+43 | File | `/php_action/editProductImage.php` | High
+44 | File | `/reservation/add_message.php` | High
+45 | File | `/ResiotQueryDBActive` | High
+46 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+47 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+48 | File | `/SetTriggerWPS/PIN` | High
+49 | File | `/spcgi.cgi` | Medium
+50 | ... | ... | ...
 
-There are 448 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

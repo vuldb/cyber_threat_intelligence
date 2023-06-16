@@ -68,9 +68,10 @@ ID | Type | Indicator | Confidence
 15 | File | `/patient/settings.php` | High
 16 | File | `/proc/*/cmdline"` | High
 17 | File | `/proc/pid/syscall` | High
-18 | ... | ... | ...
+18 | File | `/sbin/acos_service` | High
+19 | ... | ... | ...
 
-There are 149 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

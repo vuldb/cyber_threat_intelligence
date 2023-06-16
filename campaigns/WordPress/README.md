@@ -8,8 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with WordPress:
 
+* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
-* [FR](https://vuldb.com/?country.fr)
+* [ES](https://vuldb.com/?country.es)
+* ...
+
+There are 1 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -18,6 +22,7 @@ These _actors_ are associated with WordPress or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Lock360](https://vuldb.com/?actor.lock360) | High
+2 | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,8 +30,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [173.208.129.58](https://vuldb.com/?ip.173.208.129.58) | - | [Lock360](https://vuldb.com/?actor.lock360) | High
-2 | [173.208.202.234](https://vuldb.com/?ip.173.208.202.234) | - | [Lock360](https://vuldb.com/?actor.lock360) | High
+1 | [1.3.9.1](https://vuldb.com/?ip.1.3.9.1) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
+2 | [3.5.33.11](https://vuldb.com/?ip.3.5.33.11) | - | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
+3 | [86.109.170.200](https://vuldb.com/?ip.86.109.170.200) | www02.dnsprimario.com | [WordPress SMTP Exploit](https://vuldb.com/?actor.wordpress_smtp_exploit) | High
+4 | ... | ... | ... | ...
+
+There are 6 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -36,10 +45,10 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059 | CWE-94 | Cross Site Scripting | High
 2 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-3 | T1204.001 | CWE-601 | Open Redirect | High
+3 | T1068 | CWE-264, CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 4 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 7 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -48,17 +57,18 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/categorypage.php` | High
-2 | File | `adclick.php` | Medium
-3 | File | `data/gbconfiguration.dat` | High
+2 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+3 | File | `adclick.php` | Medium
 4 | ... | ... | ...
 
-There are 10 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 21 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://www.claudiokuenzler.com/blog/1183/technical-analysis-hack-php-script-running-process-read-code-from-memory
+* https://www.wordfence.com/blog/2019/03/hackers-abusing-recently-patched-vulnerability-in-easy-wp-smtp-plugin/
 
 ## Literature
 

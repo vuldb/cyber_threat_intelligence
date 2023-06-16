@@ -51,7 +51,7 @@ ID | IP address | Hostname | Campaign | Confidence
 17 | [45.154.14.235](https://vuldb.com/?ip.45.154.14.235) | - | Hodur | High
 18 | ... | ... | ... | ...
 
-There are 68 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -86,25 +86,26 @@ ID | Type | Indicator | Confidence
 10 | File | `/data/config.ftp.php` | High
 11 | File | `/etc/shadow` | Medium
 12 | File | `/export` | Low
-13 | File | `/goform/NTPSyncWithHost` | High
-14 | File | `/goform/SetVirtualServerCfg` | High
-15 | File | `/HNAP1/SetAccessPointMode` | High
-16 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
-17 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
-18 | File | `/htmlcode/html/indexdefault.asp` | High
-19 | File | `/include/helpers/upload.helper.php` | High
-20 | File | `/interface/main/backup.php` | High
-21 | File | `/local/domain/$DOMID` | High
-22 | File | `/mkshop/Men/profile.php` | High
-23 | File | `/MTFWU` | Low
-24 | File | `/mygym/admin/index.php` | High
-25 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
-26 | File | `/patient/settings.php` | High
-27 | File | `/product/savenewproduct.php?flag=1` | High
-28 | File | `/rest/api/2/user/picker` | High
-29 | ... | ... | ...
+13 | File | `/file/upload/1` | High
+14 | File | `/goform/NTPSyncWithHost` | High
+15 | File | `/goform/SetVirtualServerCfg` | High
+16 | File | `/HNAP1/SetAccessPointMode` | High
+17 | File | `/home/<user>/SecurityOnion/setup/so-setup` | High
+18 | File | `/home/www/cgi-bin/diagnostics.cgi` | High
+19 | File | `/htmlcode/html/indexdefault.asp` | High
+20 | File | `/include/helpers/upload.helper.php` | High
+21 | File | `/interface/main/backup.php` | High
+22 | File | `/local/domain/$DOMID` | High
+23 | File | `/mkshop/Men/profile.php` | High
+24 | File | `/MTFWU` | Low
+25 | File | `/mygym/admin/index.php` | High
+26 | File | `/opt/Citrix/ICAClient/util/ctxwebhelper` | High
+27 | File | `/out.php` | Medium
+28 | File | `/patient/settings.php` | High
+29 | File | `/product/savenewproduct.php?flag=1` | High
+30 | ... | ... | ...
 
-There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 252 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +119,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/xorhex/status/1406496693735067650
 * https://twitter.com/xorhex/status/1422815329684758537
 * https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations
+* https://www.anomali.com/blog/china-based-apt-mustang-panda-targets-minority-groups-public-and-private-sector-organizations#When:17:14:00Z
 * https://www.mcafee.com/enterprise/en-us/assets/reports/rp-operation-dianxun.pdf
 * https://www.secureworks.com/blog/bronze-president-targets-russian-speakers-with-updated-plugx
 * https://www.welivesecurity.com/2022/03/23/mustang-panda-hodur-old-tricks-new-korplug-variant/

@@ -38,7 +38,7 @@ ID | IP address | Hostname | Campaign | Confidence
 15 | [81.17.56.249](https://vuldb.com/?ip.81.17.56.249) | - | - | High
 16 | ... | ... | ... | ...
 
-There are 59 more IOC items available. Please use our online service to access the data.
+There are 60 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,7 +50,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -82,22 +82,23 @@ ID | Type | Indicator | Confidence
 19 | File | `/hrm/employeeview.php` | High
 20 | File | `/index.php` | Medium
 21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/login.php` | Medium
-23 | File | `/mgmt/tm/util/bash` | High
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/monitoring` | Medium
-26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-27 | File | `/pages/apply_vacancy.php` | High
-28 | File | `/php_action/createUser.php` | High
-29 | File | `/plugin/LiveChat/getChat.json.php` | High
-30 | File | `/plugins/servlet/audit/resource` | High
-31 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-32 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
-33 | File | `/replication` | Medium
-34 | File | `/RestAPI` | Medium
-35 | ... | ... | ...
+22 | File | `/librarian/bookdetails.php` | High
+23 | File | `/login.php` | Medium
+24 | File | `/mgmt/tm/util/bash` | High
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/monitoring` | Medium
+27 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+28 | File | `/pages/apply_vacancy.php` | High
+29 | File | `/php_action/createUser.php` | High
+30 | File | `/plugin/LiveChat/getChat.json.php` | High
+31 | File | `/plugins/servlet/audit/resource` | High
+32 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+33 | File | `/PROD_ar/twbkwbis.P_FirstMenu` | High
+34 | File | `/replication` | Medium
+35 | File | `/RestAPI` | Medium
+36 | ... | ... | ...
 
-There are 302 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 305 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -110,6 +111,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://unit42.paloaltonetworks.com/unit42-oilrig-uses-updated-bondupdater-target-middle-eastern-government/
 * https://unit42.paloaltonetworks.com/unit42-oopsie-oilrig-uses-threedollars-deliver-new-trojan/
 * https://www.clearskysec.com/oilrig/
+* https://www.cyber45.com
 * https://www.fireeye.com/blog/threat-research/2017/12/targeted-attack-in-middle-east-by-apt34.html
 * https://www.fireeye.com/blog/threat-research/2019/07/hard-pass-declining-apt34-invite-to-join-their-professional-network.html
 

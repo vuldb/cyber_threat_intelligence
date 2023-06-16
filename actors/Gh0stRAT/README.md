@@ -89,7 +89,7 @@ ID | IP address | Hostname | Campaign | Confidence
 66 | [58.221.47.41](https://vuldb.com/?ip.58.221.47.41) | - | - | High
 67 | ... | ... | ... | ...
 
-There are 262 more IOC items available. Please use our online service to access the data.
+There are 263 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -114,12 +114,12 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?r=email/api/mark&op=delFromSend` | High
 2 | File | `/admin/maintenance/view_designation.php` | High
-3 | File | `/admin/upload/upload` | High
-4 | File | `/ajax.php?action=read_msg` | High
-5 | File | `/analysisProject/pagingQueryData` | High
-6 | File | `/api/admin/system/store/order/list` | High
-7 | File | `/api/gen/clients/{language}` | High
-8 | File | `/api/geojson` | Medium
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/analysisProject/pagingQueryData` | High
+5 | File | `/api/admin/system/store/order/list` | High
+6 | File | `/api/gen/clients/{language}` | High
+7 | File | `/api/geojson` | Medium
+8 | File | `/bin/ate` | Medium
 9 | File | `/bin/sh` | Low
 10 | File | `/cgi-bin/wlogin.cgi` | High
 11 | File | `/classes/Master.php?f=delete_category` | High
@@ -145,12 +145,13 @@ ID | Type | Indicator | Confidence
 31 | File | `/modules/profile/index.php` | High
 32 | File | `/multi-vendor-shopping-script/product-list.php` | High
 33 | File | `/net-banking/customer_transactions.php` | High
-34 | File | `/obs/book.php` | High
-35 | File | `/orrs/admin/?page=user/manage_user` | High
-36 | File | `/requests.php` | High
-37 | ... | ... | ...
+34 | File | `/news/*.html` | Medium
+35 | File | `/obs/book.php` | High
+36 | File | `/orrs/admin/?page=user/manage_user` | High
+37 | File | `/owa/auth/logon.aspx` | High
+38 | ... | ... | ...
 
-There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -199,6 +200,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2022/05/threat-roundup-0520-0527.html
 * https://blog.talosintelligence.com/threat-roundup-1202-1209/
 * https://blog.talosintelligence.com/threat-roundup-1209-1216/
+* https://www.alienvault.com/blogs/labs-research/the-odd-case-of-a-gh0strat-variant
 
 ## Literature
 

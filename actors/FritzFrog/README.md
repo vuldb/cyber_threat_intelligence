@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
+* [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -328,14 +328,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-29, CWE-50 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -343,47 +343,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `//proc/kcore` | Medium
+1 | File | `.FBCIndex` | Medium
 2 | File | `//WEB-INF` | Medium
-3 | File | `/?ajax-request=jnews` | High
-4 | File | `/about.php` | Medium
-5 | File | `/action/wirelessConnect` | High
-6 | File | `/admin.php/update/getFile.html` | High
-7 | File | `/admin/assign/assign.php` | High
-8 | File | `/admin/contacts/organizations/edit/2` | High
-9 | File | `/admin/user/uploadImg` | High
-10 | File | `/analysisProject/pagingQueryData` | High
-11 | File | `/api/login` | Medium
+3 | File | `/about.php` | Medium
+4 | File | `/admin/contacts/organizations/edit/2` | High
+5 | File | `/api/login` | Medium
+6 | File | `/application/common.php#action_log` | High
+7 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+8 | File | `/authenticationendpoint/login.do` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/bitrix/admin/ldap_server_edit.php` | High
 12 | File | `/cas/logout` | Medium
-13 | File | `/cgi-bin/kerbynet` | High
-14 | File | `/cgi-bin/wlogin.cgi` | High
-15 | File | `/classes/Master.php` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/classes/Master.php?f=delete_item` | High
-18 | File | `/classes/Master.php?f=save_service` | High
-19 | File | `/config/getuser` | High
-20 | File | `/data/remove` | Medium
-21 | File | `/databases/database/list` | High
-22 | File | `/debug/pprof` | Medium
-23 | File | `/DXR.axd` | Medium
-24 | File | `/export` | Low
-25 | File | `/feeds/post/publish` | High
-26 | File | `/forms/doLogin` | High
-27 | File | `/forum/away.php` | High
-28 | File | `/inc/jquery/uploadify/uploadify.php` | High
-29 | File | `/index.php?app=main&func=passport&action=login` | High
-30 | File | `/index.php?page=category_list` | High
-31 | File | `/menu.html` | Medium
-32 | File | `/mims/login.php` | High
-33 | File | `/Moosikay/order.php` | High
-34 | File | `/opac/Actions.php?a=login` | High
-35 | File | `/out.php` | Medium
-36 | File | `/PreviewHandler.ashx` | High
-37 | File | `/reservation/add_message.php` | High
-38 | File | `/secure/QueryComponent!Default.jspa` | High
-39 | ... | ... | ...
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/classes/Master.php?f=delete_category` | High
+15 | File | `/classes/Master.php?f=save_service` | High
+16 | File | `/data/remove` | Medium
+17 | File | `/databases/database/list` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/DXR.axd` | Medium
+20 | File | `/forum/away.php` | High
+21 | File | `/ghost/preview` | High
+22 | File | `/goForm/aspForm` | High
+23 | File | `/HNAP1` | Low
+24 | File | `/inc/jquery/uploadify/uploadify.php` | High
+25 | File | `/index.php?app=main&func=passport&action=login` | High
+26 | File | `/index.php?page=category_list` | High
+27 | File | `/jobinfo/` | Medium
+28 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+29 | File | `/login.php` | Medium
+30 | File | `/menu.html` | Medium
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/news/*.html` | Medium
+33 | File | `/out.php` | Medium
+34 | File | `/owa/auth/logon.aspx` | High
+35 | File | `/PreviewHandler.ashx` | High
+36 | ... | ... | ...
 
-There are 332 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 310 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

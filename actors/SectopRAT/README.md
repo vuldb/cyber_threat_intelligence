@@ -31,7 +31,7 @@ ID | IP address | Hostname | Campaign | Confidence
 8 | [34.107.84.7](https://vuldb.com/?ip.34.107.84.7) | 7.84.107.34.bc.googleusercontent.com | - | Medium
 9 | ... | ... | ... | ...
 
-There are 31 more IOC items available. Please use our online service to access the data.
+There are 32 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,21 +62,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/forum/away.php` | High
 7 | File | `/mics/j_spring_security_check` | High
 8 | File | `/opac/Actions.php?a=login` | High
-9 | File | `/public/login.htm` | High
-10 | File | `/rpc/membership/setProfile` | High
-11 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-12 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
-13 | File | `/spip.php` | Medium
-14 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
-15 | File | `adclick.php` | Medium
-16 | File | `add_comment.php` | High
-17 | File | `admin/admin.php` | High
-18 | File | `books.php` | Medium
-19 | File | `C:\Strawberry` | High
-20 | File | `case.filemanager.php` | High
+9 | File | `/public/launchNewWindow.jsp` | High
+10 | File | `/public/login.htm` | High
+11 | File | `/rpc/membership/setProfile` | High
+12 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+13 | File | `/simple_chat_bot/admin/?page=responses/manage_response` | High
+14 | File | `/spip.php` | Medium
+15 | File | `/src/main/java/com/dotmarketing/filters/CMSFilter.java` | High
+16 | File | `adclick.php` | Medium
+17 | File | `add_comment.php` | High
+18 | File | `admin/admin.php` | High
+19 | File | `books.php` | Medium
+20 | File | `C:\Strawberry` | High
 21 | ... | ... | ...
 
-There are 171 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

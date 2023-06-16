@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 8 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -273,14 +273,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 17 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -288,33 +287,31 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/ajax.php?action=save_area` | High
-4 | File | `/admin/budget/manage_budget.php` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/edit_subject.php` | High
+1 | File | `.FBCIndex` | Medium
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/addproduct.php` | High
+5 | File | `/admin/ajax.php?action=save_area` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
 7 | File | `/admin/modal_add_product.php` | High
 8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/save_teacher.php` | High
-10 | File | `/admin/service.php` | High
-11 | File | `/admin/update_s6.php` | High
-12 | File | `/ajax.php?action=read_msg` | High
-13 | File | `/ajax.php?action=save_company` | High
-14 | File | `/api/stl/actions/search` | High
-15 | File | `/bin/login` | Medium
-16 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-17 | File | `/cas/logout` | Medium
-18 | File | `/cgi-bin/wapopen` | High
-19 | File | `/classes/Master.php?f=delete_service` | High
-20 | File | `/dosen/data` | Medium
-21 | File | `/DXR.axd` | Medium
-22 | File | `/E-mobile/App/System/File/downfile.php` | High
-23 | File | `/hslist` | Low
-24 | File | `/index.php?app=main&func=passport&action=login` | High
-25 | ... | ... | ...
+9 | File | `/admin/update_s6.php` | High
+10 | File | `/ajax.php?action=read_msg` | High
+11 | File | `/ajax.php?action=save_company` | High
+12 | File | `/api/stl/actions/search` | High
+13 | File | `/bin/login` | Medium
+14 | File | `/changeimage.php` | High
+15 | File | `/classes/Users.php?f=save` | High
+16 | File | `/DXR.axd` | Medium
+17 | File | `/ghost/preview` | High
+18 | File | `/Login/CheckLogin` | High
+19 | File | `/note/index/delete` | High
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+22 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
+23 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

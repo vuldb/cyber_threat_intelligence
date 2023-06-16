@@ -54,11 +54,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/getcfg.php` | Medium
 3 | File | `act.php` | Low
 4 | File | `admin.php` | Medium
-5 | File | `app/admin/import-export/import-load-data.php` | High
-6 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
+5 | File | `admin\posts\manage_post.php` | High
+6 | File | `app/admin/import-export/import-load-data.php` | High
 7 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 48 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

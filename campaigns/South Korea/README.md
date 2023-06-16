@@ -24,6 +24,9 @@ ID | Actor | Confidence
 1 | [Lazarus](https://vuldb.com/?actor.lazarus) | High
 2 | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
 3 | [Dalbit](https://vuldb.com/?actor.dalbit) | High
+4 | ... | ...
+
+There are 1 more actor items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -347,7 +350,7 @@ ID | IP address | Hostname | Actor | Confidence
 314 | [45.142.153.0](https://vuldb.com/?ip.45.142.153.0) | - | [South Korea Unknown](https://vuldb.com/?actor.south_korea_unknown) | High
 315 | ... | ... | ... | ...
 
-There are 1255 more IOC items available. Please use our online service to access the data.
+There are 1256 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -379,55 +382,56 @@ ID | Type | Indicator | Confidence
 8 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
 9 | File | `/APR/login.php` | High
 10 | File | `/APR/signup.php` | High
-11 | File | `/cgi-bin/wapopen` | High
-12 | File | `/cgi-bin/wlogin.cgi` | High
-13 | File | `/E-mobile/App/System/File/downfile.php` | High
-14 | File | `/Electron/download` | High
-15 | File | `/feeds/post/publish` | High
-16 | File | `/forum/away.php` | High
-17 | File | `/inc/jquery/uploadify/uploadify.php` | High
-18 | File | `/index.php?app=main&func=passport&action=login` | High
-19 | File | `/index.php?page=category_list` | High
-20 | File | `/mims/login.php` | High
-21 | File | `/Moosikay/order.php` | High
-22 | File | `/opac/Actions.php?a=login` | High
-23 | File | `/php-scrm/login.php` | High
-24 | File | `/PreviewHandler.ashx` | High
-25 | File | `/proxy` | Low
-26 | File | `/public/launchNewWindow.jsp` | High
-27 | File | `/reservation/add_message.php` | High
-28 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-29 | File | `/send_order.cgi?parameter=access_detect` | High
-30 | File | `/text/pdf/PdfReader.java` | High
-31 | File | `/textpattern/index.php` | High
-32 | File | `/tmp` | Low
-33 | File | `/user/updatePwd` | High
-34 | File | `/wp-admin/admin-ajax.php` | High
-35 | File | `a-forms.php` | Medium
-36 | File | `account/signup.php` | High
-37 | File | `activenews_view.asp` | High
-38 | File | `adclick.php` | Medium
-39 | File | `addentry.php` | Medium
-40 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-41 | File | `admin.a6mambocredits.php` | High
-42 | File | `admin.cropcanvas.php` | High
-43 | File | `admin.jcomments.php` | High
-44 | File | `admin.php` | Medium
-45 | File | `admin/admin_editor.php` | High
-46 | File | `admin/asset/grid-proxy` | High
-47 | File | `admin/auditTrail.jsf` | High
-48 | File | `admin/conf_users_edit.php` | High
-49 | File | `admin/data.php` | High
-50 | File | `admin/edit_category.php` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/cgi-bin/wapopen` | High
+13 | File | `/cgi-bin/wlogin.cgi` | High
+14 | File | `/E-mobile/App/System/File/downfile.php` | High
+15 | File | `/Electron/download` | High
+16 | File | `/feeds/post/publish` | High
+17 | File | `/forum/away.php` | High
+18 | File | `/inc/jquery/uploadify/uploadify.php` | High
+19 | File | `/index.php?app=main&func=passport&action=login` | High
+20 | File | `/index.php?page=category_list` | High
+21 | File | `/jobinfo/` | Medium
+22 | File | `/mims/login.php` | High
+23 | File | `/Moosikay/order.php` | High
+24 | File | `/opac/Actions.php?a=login` | High
+25 | File | `/php-scrm/login.php` | High
+26 | File | `/PreviewHandler.ashx` | High
+27 | File | `/proxy` | Low
+28 | File | `/public/launchNewWindow.jsp` | High
+29 | File | `/reservation/add_message.php` | High
+30 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+31 | File | `/send_order.cgi?parameter=access_detect` | High
+32 | File | `/text/pdf/PdfReader.java` | High
+33 | File | `/textpattern/index.php` | High
+34 | File | `/tmp` | Low
+35 | File | `/user/updatePwd` | High
+36 | File | `/wp-admin/admin-ajax.php` | High
+37 | File | `a-forms.php` | Medium
+38 | File | `account/signup.php` | High
+39 | File | `activenews_view.asp` | High
+40 | File | `adclick.php` | Medium
+41 | File | `addentry.php` | Medium
+42 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+43 | File | `admin.a6mambocredits.php` | High
+44 | File | `admin.cropcanvas.php` | High
+45 | File | `admin.jcomments.php` | High
+46 | File | `admin.php` | Medium
+47 | File | `admin/admin_editor.php` | High
+48 | File | `admin/asset/grid-proxy` | High
+49 | File | `admin/auditTrail.jsf` | High
+50 | File | `admin/conf_users_edit.php` | High
 51 | ... | ... | ...
 
-There are 440 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://asec.ahnlab.com/en/47455/
+* https://blog.cyble.com/2023/06/06/lockbit-2-0-ransomware-resurfaces/
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_kr.netset
 * https://www.zscaler.com/blogs/security-research/naver-ending-game-lazarus-apt
 

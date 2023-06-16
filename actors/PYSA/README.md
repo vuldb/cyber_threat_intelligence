@@ -83,16 +83,16 @@ ID | Type | Indicator | Confidence
 32 | File | `/goform/formDefault` | High
 33 | File | `/goform/formSysCmd` | High
 34 | File | `/goform/fromSetWirelessRepeat` | High
-35 | File | `/jurusan/data` | High
-36 | File | `/kelas/data` | Medium
-37 | File | `/login/index.php` | High
-38 | File | `/mahasiswa/data` | High
-39 | File | `/mogu-picture/file/uploadPicsByUrl` | High
-40 | File | `/Moosikay/order.php` | High
-41 | File | `/pf/idprofile.ping` | High
+35 | File | `/ipms/imageConvert/image` | High
+36 | File | `/jurusan/data` | High
+37 | File | `/kelas/data` | Medium
+38 | File | `/login/index.php` | High
+39 | File | `/mahasiswa/data` | High
+40 | File | `/mogu-picture/file/uploadPicsByUrl` | High
+41 | File | `/Moosikay/order.php` | High
 42 | ... | ... | ...
 
-There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 364 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

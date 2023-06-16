@@ -60,58 +60,56 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/administrator/components/table_manager/` | High
-3 | File | `/ajax/networking/get_netcfg.php` | High
-4 | File | `/api/gen/clients/{language}` | High
-5 | File | `/app/options.py` | High
-6 | File | `/bin/httpd` | Medium
-7 | File | `/cgi-bin/wapopen` | High
-8 | File | `/ci_spms/admin/category` | High
-9 | File | `/ci_spms/admin/search/searching/` | High
-10 | File | `/classes/Master.php?f=delete_appointment` | High
-11 | File | `/classes/Master.php?f=delete_train` | High
-12 | File | `/cms/print.php` | High
-13 | File | `/concat?/%2557EB-INF/web.xml` | High
-14 | File | `/Content/Template/root/reverse-shell.aspx` | High
-15 | File | `/ctcprotocol/Protocol` | High
-16 | File | `/dashboard/menu-list.php` | High
-17 | File | `/data/remove` | Medium
-18 | File | `/ebics-server/ebics.aspx` | High
-19 | File | `/ffos/classes/Master.php?f=save_category` | High
-20 | File | `/filemanager/upload/drop` | High
-21 | File | `/forum/away.php` | High
-22 | File | `/goforms/rlminfo` | High
-23 | File | `/HNAP1` | Low
-24 | File | `/HNAP1/SetClientInfo` | High
-25 | File | `/index.php/newsletter/subscriber/new/` | High
-26 | File | `/Items/*/RemoteImages/Download` | High
-27 | File | `/menu.html` | Medium
-28 | File | `/mkshop/Men/profile.php` | High
-29 | File | `/modules/profile/index.php` | High
-30 | File | `/navigate/navigate_download.php` | High
-31 | File | `/ocwbs/admin/?page=user/manage_user` | High
-32 | File | `/ofrs/admin/?page=user/manage_user` | High
-33 | File | `/out.php` | Medium
-34 | File | `/password.html` | High
-35 | File | `/php_action/fetchSelectedUser.php` | High
-36 | File | `/proc/ioports` | High
-37 | File | `/property-list/property_view.php` | High
-38 | File | `/ptms/classes/Users.php` | High
-39 | File | `/resources//../` | High
-40 | File | `/rest/api/2/search` | High
-41 | File | `/s/` | Low
-42 | File | `/scripts/cpan_config` | High
-43 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-44 | File | `/spip.php` | Medium
-45 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-46 | ... | ... | ...
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/ajax/networking/get_netcfg.php` | High
+5 | File | `/api/gen/clients/{language}` | High
+6 | File | `/app/options.py` | High
+7 | File | `/bin/httpd` | Medium
+8 | File | `/cgi-bin/wapopen` | High
+9 | File | `/ci_spms/admin/category` | High
+10 | File | `/ci_spms/admin/search/searching/` | High
+11 | File | `/classes/Master.php?f=delete_appointment` | High
+12 | File | `/classes/Master.php?f=delete_train` | High
+13 | File | `/cms/print.php` | High
+14 | File | `/concat?/%2557EB-INF/web.xml` | High
+15 | File | `/Content/Template/root/reverse-shell.aspx` | High
+16 | File | `/ctcprotocol/Protocol` | High
+17 | File | `/dashboard/menu-list.php` | High
+18 | File | `/data/remove` | Medium
+19 | File | `/ebics-server/ebics.aspx` | High
+20 | File | `/ffos/classes/Master.php?f=save_category` | High
+21 | File | `/filemanager/upload/drop` | High
+22 | File | `/forum/away.php` | High
+23 | File | `/goforms/rlminfo` | High
+24 | File | `/HNAP1` | Low
+25 | File | `/HNAP1/SetClientInfo` | High
+26 | File | `/index.php/newsletter/subscriber/new/` | High
+27 | File | `/Items/*/RemoteImages/Download` | High
+28 | File | `/menu.html` | Medium
+29 | File | `/mkshop/Men/profile.php` | High
+30 | File | `/modules/profile/index.php` | High
+31 | File | `/navigate/navigate_download.php` | High
+32 | File | `/ocwbs/admin/?page=user/manage_user` | High
+33 | File | `/ofrs/admin/?page=user/manage_user` | High
+34 | File | `/out.php` | Medium
+35 | File | `/password.html` | High
+36 | File | `/php_action/fetchSelectedUser.php` | High
+37 | File | `/proc/ioports` | High
+38 | File | `/property-list/property_view.php` | High
+39 | File | `/ptms/classes/Users.php` | High
+40 | File | `/resources//../` | High
+41 | File | `/rest/api/2/search` | High
+42 | File | `/s/` | Low
+43 | File | `/scripts/cpan_config` | High
+44 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+45 | ... | ... | ...
 
-There are 397 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 392 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
-* https://github.com/eset/malware-ioc/tree/master/backdoordiplomacy
 * https://www.bitdefender.com/files/News/CaseStudies/study/426/Bitdefender-PR-Whitepaper-BackdoorDiplomacy-creat6507-en-EN.pdf
 * https://www.welivesecurity.com/2021/06/10/backdoordiplomacy-upgrading-quarian-turian/
 

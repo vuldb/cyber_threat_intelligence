@@ -28,18 +28,18 @@ ID | IP address | Hostname | Campaign | Confidence
 5 | [5.199.174.179](https://vuldb.com/?ip.5.199.174.179) | - | - | High
 6 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
 7 | [20.115.47.118](https://vuldb.com/?ip.20.115.47.118) | - | - | High
-8 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
-9 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
-10 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
-11 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
-12 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
-13 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
-14 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
-15 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-16 | [45.81.225.72](https://vuldb.com/?ip.45.81.225.72) | vm3618662.24ssd.had.wf | - | High
+8 | [23.95.44.228](https://vuldb.com/?ip.23.95.44.228) | 23-95-44-228-host.colocrossing.com | - | High
+9 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
+10 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
+11 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
+12 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
+13 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
+14 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
+15 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
+16 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
 17 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 63 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -113,7 +113,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/ucms/chk.php` | High
 50 | ... | ... | ...
 
-There are 435 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
