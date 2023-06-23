@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -227,7 +227,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -236,43 +236,44 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
-3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/alphaware/summary.php` | High
-9 | File | `/api/` | Low
-10 | File | `/api/admin/store/product/list` | High
-11 | File | `/api/RecordingList/DownloadRecord?file=` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/sys_username_passwd.cmd` | High
-14 | File | `/api/v2/cli/commands` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/attachments` | Medium
+2 | File | `/admin.php/accessory/filesdel.html` | High
+3 | File | `/admin/?page=user/manage` | High
+4 | File | `/admin/add-new.php` | High
+5 | File | `/admin/doctors.php` | High
+6 | File | `/admin/submit-articles` | High
+7 | File | `/alphaware/summary.php` | High
+8 | File | `/api/` | Low
+9 | File | `/api/admin/store/product/list` | High
+10 | File | `/api/RecordingList/DownloadRecord?file=` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/sys_username_passwd.cmd` | High
+13 | File | `/api/v2/cli/commands` | High
+14 | File | `/apply.cgi` | Medium
+15 | File | `/attachments` | Medium
+16 | File | `/bin/ate` | Medium
 17 | File | `/boat/login.php` | High
 18 | File | `/bsms_ci/index.php/book` | High
 19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
-22 | File | `/cgi-bin/wlogin.cgi` | High
-23 | File | `/context/%2e/WEB-INF/web.xml` | High
-24 | File | `/debug/pprof` | Medium
+20 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/context/%2e/WEB-INF/web.xml` | High
+23 | File | `/debug/pprof` | Medium
+24 | File | `/env` | Low
 25 | File | `/etc/hosts` | Medium
 26 | File | `/eval/admin/manage_class.php` | High
 27 | File | `/forum/away.php` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goform/wizard_end` | High
-30 | File | `/medicines/profile.php` | High
-31 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+28 | File | `/goform/wizard_end` | High
+29 | File | `/medicines/profile.php` | High
+30 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+31 | File | `/php-sms/admin/?page=user/manage_user` | High
 32 | File | `/proxy` | Low
 33 | File | `/reservation/add_message.php` | High
 34 | File | `/spip.php` | Medium
 35 | File | `/tmp` | Low
-36 | ... | ... | ...
+36 | File | `/uncpath/` | Medium
+37 | ... | ... | ...
 
-There are 312 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 315 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

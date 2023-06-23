@@ -9,8 +9,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Crimson RAT:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [CN](https://vuldb.com/?country.cn)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 13 more country items available. Please use our online service to access the data.
@@ -38,12 +38,12 @@ ID | IP address | Hostname | Actor | Confidence
 6 | [62.171.130.47](https://vuldb.com/?ip.62.171.130.47) | ip-47-130-171-62.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 7 | [62.171.135.174](https://vuldb.com/?ip.62.171.135.174) | vmi875832.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 8 | [64.188.25.205](https://vuldb.com/?ip.64.188.25.205) | 64.188.25.205.static.quadranet.com | [APT36](https://vuldb.com/?actor.apt36) | High
-9 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-10 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
-11 | [79.143.181.178](https://vuldb.com/?ip.79.143.181.178) | ip-178-181-143-79.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+9 | [66.154.103.101](https://vuldb.com/?ip.66.154.103.101) | 66.154.103.101.static.quadranet.com | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+10 | [75.119.133.15](https://vuldb.com/?ip.75.119.133.15) | ip-15-133-119-75.static.contabo.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
+11 | [79.143.177.122](https://vuldb.com/?ip.79.143.177.122) | vmi183368.contaboserver.net | [Crimson RAT](https://vuldb.com/?actor.crimson_rat) | High
 12 | ... | ... | ... | ...
 
-There are 45 more IOC items available. Please use our online service to access the data.
+There are 46 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -107,7 +107,7 @@ ID | Type | Indicator | Confidence
 40 | File | `admsession.php` | High
 41 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 358 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -118,6 +118,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://twitter.com/0xrb/status/1492030514035060741?s=20&t=LxxFCank6LgKGEWxOnVa0Q
 * https://twitter.com/RedDrip7/status/1622908094606094338
 * https://twitter.com/StopMalvertisin/status/1645805949234597889
+* https://twitter.com/StopMalvertisin/status/1670660520540770305
 
 ## Literature
 

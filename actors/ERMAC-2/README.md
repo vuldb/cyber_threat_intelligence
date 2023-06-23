@@ -21,7 +21,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [193.106.191.116](https://vuldb.com/?ip.193.106.191.116) | - | Bolt Food | High
 4 | ... | ... | ... | ...
 
-There are 3 more IOC items available. Please use our online service to access the data.
+There are 2 more IOC items available. Please use our online service to access the data.
 
 ## References
 

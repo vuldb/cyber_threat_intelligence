@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with BadPatch:
 
-* [RU](https://vuldb.com/?country.ru)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * [DE](https://vuldb.com/?country.de)
 
 ## IOC - Indicator of Compromise
@@ -18,8 +18,9 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [148.251.135.117](https://vuldb.com/?ip.148.251.135.117) | server.pogled.ba | - | High
-2 | [195.154.216.74](https://vuldb.com/?ip.195.154.216.74) | 195-154-216-74.rev.poneytelecom.eu | - | High
+1 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | - | High
+2 | [148.251.135.117](https://vuldb.com/?ip.148.251.135.117) | server.pogled.ba | - | High
+3 | [195.154.216.74](https://vuldb.com/?ip.195.154.216.74) | 195-154-216-74.rev.poneytelecom.eu | - | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,6 +30,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1068 | CWE-269 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 2 | T1110.001 | CWE-798 | Improper Restriction of Excessive Authentication Attempts | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 
@@ -37,16 +39,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/usr/local/sbin/webproject/set_param.cgi` | High
-2 | File | `includes/pages.inc.php` | High
-3 | File | `mod_proxy_fcgi.c` | High
+2 | File | `category.cfm` | Medium
+3 | File | `includes/pages.inc.php` | High
 4 | ... | ... | ...
 
-There are 3 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 5 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://www.fortinet.com/blog/threat-research/badpatch-campaign-uses-python-malware.html
 * https://www.threatminer.org/report.php?q=BadPatch-PaloAltoNetworks.pdf&y=2017
 
 ## Literature

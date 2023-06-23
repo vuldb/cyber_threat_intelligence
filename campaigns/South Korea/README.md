@@ -406,25 +406,25 @@ ID | Type | Indicator | Confidence
 32 | File | `/text/pdf/PdfReader.java` | High
 33 | File | `/textpattern/index.php` | High
 34 | File | `/tmp` | Low
-35 | File | `/user/updatePwd` | High
-36 | File | `/wp-admin/admin-ajax.php` | High
-37 | File | `a-forms.php` | Medium
-38 | File | `account/signup.php` | High
-39 | File | `activenews_view.asp` | High
-40 | File | `adclick.php` | Medium
-41 | File | `addentry.php` | Medium
-42 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-43 | File | `admin.a6mambocredits.php` | High
-44 | File | `admin.cropcanvas.php` | High
-45 | File | `admin.jcomments.php` | High
-46 | File | `admin.php` | Medium
-47 | File | `admin/admin_editor.php` | High
-48 | File | `admin/asset/grid-proxy` | High
-49 | File | `admin/auditTrail.jsf` | High
-50 | File | `admin/conf_users_edit.php` | High
+35 | File | `/uploads/exam_question/` | High
+36 | File | `/user/updatePwd` | High
+37 | File | `/var/lib/docker/<remapping>` | High
+38 | File | `/wp-admin/admin-ajax.php` | High
+39 | File | `a-forms.php` | Medium
+40 | File | `account/signup.php` | High
+41 | File | `activenews_view.asp` | High
+42 | File | `adclick.php` | Medium
+43 | File | `addentry.php` | Medium
+44 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+45 | File | `admin.a6mambocredits.php` | High
+46 | File | `admin.cropcanvas.php` | High
+47 | File | `admin.jcomments.php` | High
+48 | File | `admin.php` | Medium
+49 | File | `admin/admin_editor.php` | High
+50 | File | `admin/asset/grid-proxy` | High
 51 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 445 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

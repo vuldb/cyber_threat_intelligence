@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 26 more country items available. Please use our online service to access the data.
+There are 24 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -59,7 +59,7 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
 2 | File | `/.ssh/authorized_keys` | High
-3 | File | `/admin/default.asp` | High
+3 | File | `/ajax.php?action=read_msg` | High
 4 | File | `/ajax/networking/get_netcfg.php` | High
 5 | File | `/api/gen/clients/{language}` | High
 6 | File | `/app/options.py` | High
@@ -88,24 +88,22 @@ ID | Type | Indicator | Confidence
 29 | File | `/ocwbs/admin/?page=user/manage_user` | High
 30 | File | `/ofrs/admin/?page=user/manage_user` | High
 31 | File | `/out.php` | Medium
-32 | File | `/owa/auth/logon.aspx` | High
-33 | File | `/password.html` | High
-34 | File | `/php_action/fetchSelectedUser.php` | High
-35 | File | `/proc/ioports` | High
-36 | File | `/property-list/property_view.php` | High
-37 | File | `/ptms/classes/Users.php` | High
-38 | File | `/resources//../` | High
-39 | File | `/rest/api/2/search` | High
-40 | File | `/s/` | Low
-41 | File | `/scripts/cpan_config` | High
-42 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-45 | File | `/sys/dict/queryTableData` | High
-46 | File | `/tmp` | Low
-47 | ... | ... | ...
+32 | File | `/password.html` | High
+33 | File | `/php_action/fetchSelectedUser.php` | High
+34 | File | `/proc/ioports` | High
+35 | File | `/property-list/property_view.php` | High
+36 | File | `/ptms/classes/Users.php` | High
+37 | File | `/resources//../` | High
+38 | File | `/rest/api/2/search` | High
+39 | File | `/s/` | Low
+40 | File | `/scripts/cpan_config` | High
+41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
+44 | File | `/sys/dict/queryTableData` | High
+45 | ... | ... | ...
 
-There are 406 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

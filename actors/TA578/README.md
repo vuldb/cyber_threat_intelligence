@@ -15,6 +15,7 @@ The following _campaigns_ are known and can be associated with TA578:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA578:
 
 * [US](https://vuldb.com/?country.us)
+* [CA](https://vuldb.com/?country.ca)
 * [RU](https://vuldb.com/?country.ru)
 
 ## IOC - Indicator of Compromise
@@ -33,6 +34,7 @@ ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1059.007 | CWE-79 | Cross Site Scripting | High
 2 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+3 | T1505 | CWE-89 | SQL Injection | High
 
 ## IOA - Indicator of Attack
 

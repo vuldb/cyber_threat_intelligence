@@ -136,9 +136,11 @@ ID | IP address | Hostname | Campaign | Confidence
 113 | [45.9.148.212](https://vuldb.com/?ip.45.9.148.212) | - | - | High
 114 | [45.9.148.252](https://vuldb.com/?ip.45.9.148.252) | - | - | High
 115 | [45.9.150.109](https://vuldb.com/?ip.45.9.150.109) | - | - | High
-116 | ... | ... | ... | ...
+116 | [45.9.150.132](https://vuldb.com/?ip.45.9.150.132) | - | - | High
+117 | [45.14.224.102](https://vuldb.com/?ip.45.14.224.102) | hosted-by.spectraip.net | - | High
+118 | ... | ... | ... | ...
 
-There are 460 more IOC items available. Please use our online service to access the data.
+There are 467 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -147,7 +149,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -205,19 +207,19 @@ ID | Type | Indicator | Confidence
 42 | File | `/ServletAPI/accounts/login` | High
 43 | File | `/uncpath/` | Medium
 44 | File | `/user/updatePwd` | High
-45 | File | `/webman/info.cgi` | High
-46 | File | `/wireless/security.asp` | High
-47 | File | `/wp-admin/admin-ajax.php` | High
-48 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-49 | File | `01article.php` | High
-50 | File | `a-forms.php` | Medium
-51 | File | `acloudCosAction.php.SQL` | High
-52 | File | `activenews_view.asp` | High
-53 | File | `ActiveServices.java` | High
-54 | File | `adclick.php` | Medium
+45 | File | `/var/lib/docker/<remapping>` | High
+46 | File | `/webman/info.cgi` | High
+47 | File | `/wireless/security.asp` | High
+48 | File | `/wp-admin/admin-ajax.php` | High
+49 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+50 | File | `01article.php` | High
+51 | File | `a-forms.php` | Medium
+52 | File | `acloudCosAction.php.SQL` | High
+53 | File | `activenews_view.asp` | High
+54 | File | `ActiveServices.java` | High
 55 | ... | ... | ...
 
-There are 482 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 481 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -286,6 +288,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/45.120.52.149
 * https://search.censys.io/hosts/45.134.83.252
 * https://search.censys.io/hosts/45.142.166.93
+* https://search.censys.io/hosts/45.152.114.93
 * https://search.censys.io/hosts/45.154.14.194
 * https://search.censys.io/hosts/45.227.255.185
 * https://search.censys.io/hosts/45.227.255.217
@@ -303,6 +306,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/51.178.81.117
 * https://search.censys.io/hosts/52.40.129.127
 * https://search.censys.io/hosts/52.53.230.115
+* https://search.censys.io/hosts/52.70.185.38
 * https://search.censys.io/hosts/54.152.37.54
 * https://search.censys.io/hosts/54.165.231.50
 * https://search.censys.io/hosts/54.197.29.26
@@ -331,11 +335,14 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/93.95.229.168
 * https://search.censys.io/hosts/95.164.46.194
 * https://search.censys.io/hosts/95.170.68.91
+* https://search.censys.io/hosts/95.214.27.241
 * https://search.censys.io/hosts/95.216.192.109
 * https://search.censys.io/hosts/97.107.134.18
 * https://search.censys.io/hosts/101.35.172.163
+* https://search.censys.io/hosts/101.35.234.201
 * https://search.censys.io/hosts/101.35.253.83
 * https://search.censys.io/hosts/101.36.121.133
+* https://search.censys.io/hosts/101.37.91.112
 * https://search.censys.io/hosts/101.43.156.89
 * https://search.censys.io/hosts/103.56.19.196
 * https://search.censys.io/hosts/103.87.10.156
@@ -363,6 +370,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/119.91.77.189
 * https://search.censys.io/hosts/120.24.42.20
 * https://search.censys.io/hosts/121.199.2.153
+* https://search.censys.io/hosts/123.57.39.29
 * https://search.censys.io/hosts/124.71.84.65
 * https://search.censys.io/hosts/128.199.38.50
 * https://search.censys.io/hosts/129.211.212.112
@@ -381,6 +389,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/139.177.203.214
 * https://search.censys.io/hosts/139.224.50.7
 * https://search.censys.io/hosts/139.224.254.195
+* https://search.censys.io/hosts/140.82.6.222
 * https://search.censys.io/hosts/140.238.226.66
 * https://search.censys.io/hosts/141.164.45.81
 * https://search.censys.io/hosts/141.164.50.44
@@ -389,6 +398,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/143.110.155.198
 * https://search.censys.io/hosts/143.110.240.214
 * https://search.censys.io/hosts/143.110.252.93
+* https://search.censys.io/hosts/143.198.40.42
 * https://search.censys.io/hosts/143.244.185.237
 * https://search.censys.io/hosts/144.22.135.107
 * https://search.censys.io/hosts/144.22.230.36
@@ -407,6 +417,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/157.245.96.88
 * https://search.censys.io/hosts/158.247.217.247
 * https://search.censys.io/hosts/159.65.62.90
+* https://search.censys.io/hosts/159.223.189.221
 * https://search.censys.io/hosts/161.35.214.132
 * https://search.censys.io/hosts/162.33.177.72
 * https://search.censys.io/hosts/162.33.177.203

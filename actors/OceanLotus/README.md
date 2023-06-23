@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with OceanLotus:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with OceanLotus:
 
 * [US](https://vuldb.com/?country.us)
-* [CN](https://vuldb.com/?country.cn)
 * [RU](https://vuldb.com/?country.ru)
+* [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 1 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -52,7 +52,7 @@ ID | IP address | Hostname | Campaign | Confidence
 23 | [46.183.223.106](https://vuldb.com/?ip.46.183.223.106) | ip-223-106.dataclub.info | - | High
 24 | ... | ... | ... | ...
 
-There are 92 more IOC items available. Please use our online service to access the data.
+There are 91 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -98,7 +98,7 @@ ID | Type | Indicator | Confidence
 23 | File | `admin/languages.php` | High
 24 | ... | ... | ...
 
-There are 205 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 204 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

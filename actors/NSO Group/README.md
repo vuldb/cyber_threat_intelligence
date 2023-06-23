@@ -54,8 +54,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
 
@@ -70,10 +69,10 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/config_save.php` | High
 4 | File | `/admin/edit_visitor.php` | High
 5 | File | `/admin/info.php` | High
-6 | File | `/admin/template.php` | High
-7 | File | `/alphaware/summary.php` | High
-8 | File | `/apply.cgi` | Medium
-9 | File | `/cfg` | Low
+6 | File | `/admin/plugin.php` | High
+7 | File | `/admin/template.php` | High
+8 | File | `/alphaware/summary.php` | High
+9 | File | `/apply.cgi` | Medium
 10 | File | `/cgi?` | Low
 11 | File | `/classes/Users.php` | High
 12 | File | `/dashboard/updatelogo.php` | High
@@ -85,18 +84,18 @@ ID | Type | Indicator | Confidence
 18 | File | `/goform/SysToolRestoreSet` | High
 19 | File | `/graphql` | Medium
 20 | File | `/index.php` | Medium
-21 | File | `/jeecg-boot/jmreport/view` | High
-22 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-23 | File | `/localhost/u` | Medium
-24 | File | `/mkshop/Men/profile.php` | High
-25 | File | `/net` | Low
-26 | File | `/Noxen-master/users.php` | High
-27 | File | `/opt/bin/cli` | Medium
-28 | File | `/out.php` | Medium
-29 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
-32 | File | `/rom-0` | Low
+21 | File | `/jeecg-boot/jmreport/upload` | High
+22 | File | `/jeecg-boot/jmreport/view` | High
+23 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+24 | File | `/localhost/u` | Medium
+25 | File | `/mkshop/Men/profile.php` | High
+26 | File | `/net` | Low
+27 | File | `/Noxen-master/users.php` | High
+28 | File | `/opt/bin/cli` | Medium
+29 | File | `/out.php` | Medium
+30 | File | `/PluXml/core/admin/parametres_edittpl.php` | High
+31 | File | `/public/plugins/` | High
+32 | File | `/public_html/admin/plugins/bad_behavior2/blacklist.php` | High
 33 | File | `/root/run/adm.php?admin-ediy&part=exdiy` | High
 34 | File | `/setNTP.cgi` | Medium
 35 | File | `/setting/setWanIeCfg` | High
@@ -108,10 +107,9 @@ ID | Type | Indicator | Confidence
 41 | File | `/wp-json/wc/v3/webhooks` | High
 42 | File | `14all.cgi/14all-1.1.cgi/traffic.cgi/mrtg.cgi` | High
 43 | File | `account.php` | Medium
-44 | File | `accounts/view_details.php` | High
-45 | ... | ... | ...
+44 | ... | ... | ...
 
-There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 385 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

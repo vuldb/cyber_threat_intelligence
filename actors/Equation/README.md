@@ -69,21 +69,20 @@ ID | IP address | Hostname | Campaign | Confidence
 40 | [130.237.234.51](https://vuldb.com/?ip.130.237.234.51) | - | - | High
 41 | [130.237.234.53](https://vuldb.com/?ip.130.237.234.53) | ns53.stacken.kth.se | - | High
 42 | [130.237.234.151](https://vuldb.com/?ip.130.237.234.151) | mount-kilimanjaro.stacken.kth.se | - | High
-43 | [130.237.234.152](https://vuldb.com/?ip.130.237.234.152) | snacks.stacken.kth.se | - | High
-44 | [131.188.3.200](https://vuldb.com/?ip.131.188.3.200) | reserved.rrze.uni-erlangen.de | - | High
-45 | [132.248.10.2](https://vuldb.com/?ip.132.248.10.2) | dns2.unam.mx | - | High
-46 | [132.248.204.1](https://vuldb.com/?ip.132.248.204.1) | dns1.unam.mx | - | High
-47 | [132.248.253.1](https://vuldb.com/?ip.132.248.253.1) | ve53.zc-dist.unam.mx | - | High
-48 | [133.3.5.2](https://vuldb.com/?ip.133.3.5.2) | pfdsun.kuicr.kyoto-u.ac.jp | - | High
-49 | [133.3.5.20](https://vuldb.com/?ip.133.3.5.20) | icrsun.kuicr.kyoto-u.ac.jp | - | High
-50 | [133.3.5.30](https://vuldb.com/?ip.133.3.5.30) | - | - | High
-51 | [133.3.5.33](https://vuldb.com/?ip.133.3.5.33) | sms.uji.kyoto-u.ac.jp | - | High
-52 | [133.26.135.224](https://vuldb.com/?ip.133.26.135.224) | - | - | High
-53 | [133.31.106.46](https://vuldb.com/?ip.133.31.106.46) | ci970000.ci.noda.sut.ac.jp | - | High
-54 | [133.41.145.11](https://vuldb.com/?ip.133.41.145.11) | 145-011.eduroam.hiroshima-u.ac.jp | - | High
-55 | ... | ... | ... | ...
+43 | [131.188.3.200](https://vuldb.com/?ip.131.188.3.200) | reserved.rrze.uni-erlangen.de | - | High
+44 | [132.248.10.2](https://vuldb.com/?ip.132.248.10.2) | dns2.unam.mx | - | High
+45 | [132.248.204.1](https://vuldb.com/?ip.132.248.204.1) | dns1.unam.mx | - | High
+46 | [132.248.253.1](https://vuldb.com/?ip.132.248.253.1) | ve53.zc-dist.unam.mx | - | High
+47 | [133.3.5.2](https://vuldb.com/?ip.133.3.5.2) | pfdsun.kuicr.kyoto-u.ac.jp | - | High
+48 | [133.3.5.20](https://vuldb.com/?ip.133.3.5.20) | icrsun.kuicr.kyoto-u.ac.jp | - | High
+49 | [133.3.5.30](https://vuldb.com/?ip.133.3.5.30) | - | - | High
+50 | [133.3.5.33](https://vuldb.com/?ip.133.3.5.33) | sms.uji.kyoto-u.ac.jp | - | High
+51 | [133.26.135.224](https://vuldb.com/?ip.133.26.135.224) | - | - | High
+52 | [133.31.106.46](https://vuldb.com/?ip.133.31.106.46) | ci970000.ci.noda.sut.ac.jp | - | High
+53 | [133.41.145.11](https://vuldb.com/?ip.133.41.145.11) | 145-011.eduroam.hiroshima-u.ac.jp | - | High
+54 | ... | ... | ... | ...
 
-There are 214 more IOC items available. Please use our online service to access the data.
+There are 211 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

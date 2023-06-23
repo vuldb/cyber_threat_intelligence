@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
 10 | ... | ... | ... | ...
 
-There are 35 more IOC items available. Please use our online service to access the data.
+There are 36 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,35 +70,36 @@ ID | Type | Indicator | Confidence
 13 | File | `/api/v2/cli/commands` | High
 14 | File | `/app/options.py` | High
 15 | File | `/attachments` | Medium
-16 | File | `/boat/login.php` | High
-17 | File | `/bsms_ci/index.php/book` | High
-18 | File | `/cgi-bin` | Medium
-19 | File | `/cgi-bin/luci/api/wireless` | High
-20 | File | `/cgi-bin/wlogin.cgi` | High
-21 | File | `/context/%2e/WEB-INF/web.xml` | High
-22 | File | `/dashboard/reports/logs/view` | High
-23 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-24 | File | `/debug/pprof` | Medium
-25 | File | `/env` | Low
-26 | File | `/etc/hosts` | Medium
-27 | File | `/forum/away.php` | High
-28 | File | `/goform/setmac` | High
-29 | File | `/goform/wizard_end` | High
-30 | File | `/horde/util/go.php` | High
-31 | File | `/index.php` | Medium
-32 | File | `/manage-apartment.php` | High
-33 | File | `/medicines/profile.php` | High
-34 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-35 | File | `/pages/apply_vacancy.php` | High
-36 | File | `/proc/<PID>/mem` | High
-37 | File | `/proxy` | Low
-38 | File | `/reservation/add_message.php` | High
-39 | File | `/spip.php` | Medium
-40 | File | `/tmp` | Low
-41 | File | `/uncpath/` | Medium
-42 | ... | ... | ...
+16 | File | `/bin/ate` | Medium
+17 | File | `/boat/login.php` | High
+18 | File | `/bsms_ci/index.php/book` | High
+19 | File | `/cgi-bin` | Medium
+20 | File | `/cgi-bin/luci/api/wireless` | High
+21 | File | `/cgi-bin/wlogin.cgi` | High
+22 | File | `/context/%2e/WEB-INF/web.xml` | High
+23 | File | `/dashboard/reports/logs/view` | High
+24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
+25 | File | `/debug/pprof` | Medium
+26 | File | `/env` | Low
+27 | File | `/etc/hosts` | Medium
+28 | File | `/forum/away.php` | High
+29 | File | `/goform/setmac` | High
+30 | File | `/goform/wizard_end` | High
+31 | File | `/horde/util/go.php` | High
+32 | File | `/index.php` | Medium
+33 | File | `/manage-apartment.php` | High
+34 | File | `/medicines/profile.php` | High
+35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+36 | File | `/pages/apply_vacancy.php` | High
+37 | File | `/php-sms/admin/?page=user/manage_user` | High
+38 | File | `/proc/<PID>/mem` | High
+39 | File | `/proxy` | Low
+40 | File | `/reservation/add_message.php` | High
+41 | File | `/spip.php` | Medium
+42 | File | `/tmp` | Low
+43 | ... | ... | ...
 
-There are 362 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

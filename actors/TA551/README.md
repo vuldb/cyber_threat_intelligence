@@ -20,8 +20,8 @@ There are 1 more campaign items available. Please use our online service to acce
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with TA551:
 
 * [ES](https://vuldb.com/?country.es)
+* [RU](https://vuldb.com/?country.ru)
 * [FR](https://vuldb.com/?country.fr)
-* [DE](https://vuldb.com/?country.de)
 * ...
 
 There are 9 more country items available. Please use our online service to access the data.
@@ -72,63 +72,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/api/admin/articles/` | High
-3 | File | `/admin/api/theme-edit/` | High
-4 | File | `/admin/budget/manage_budget.php` | High
-5 | File | `/admin/categories/view_category.php` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/Admin/createClass.php` | High
-8 | File | `/admin/curriculum/view_curriculum.php` | High
-9 | File | `/admin/departments/view_department.php` | High
-10 | File | `/admin/edit_subject.php` | High
-11 | File | `/admin/maintenance/view_designation.php` | High
-12 | File | `/admin/modal_add_product.php` | High
-13 | File | `/admin/problem_judge.php` | High
-14 | File | `/admin/reminders/manage_reminder.php` | High
-15 | File | `/admin/sales/manage_sale.php` | High
-16 | File | `/admin/sales/view_details.php` | High
-17 | File | `/admin/suppliers/view_details.php` | High
-18 | File | `/admin/user/manage_user.php` | High
-19 | File | `/admin/userprofile.php` | High
-20 | File | `/admin/voters_row.php` | High
-21 | File | `/ajax.php?action=read_msg` | High
-22 | File | `/ajax.php?action=save_company` | High
-23 | File | `/api/browserextension/UpdatePassword/` | High
-24 | File | `/api/stl/actions/search` | High
-25 | File | `/application/views/themeOptions/update.php` | High
-26 | File | `/attachments` | Medium
-27 | File | `/balance/service/list` | High
-28 | File | `/bin/ate` | Medium
-29 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-30 | File | `/cgi-bin/ping.cgi` | High
-31 | File | `/classes/Users.php` | High
-32 | File | `/config/myfield/test.php` | High
-33 | File | `/data/app` | Medium
-34 | File | `/dev/snd/seq` | Medium
-35 | File | `/diagnostic/login.php` | High
-36 | File | `/E-mobile/App/System/File/downfile.php` | High
-37 | File | `/etc/gsissh/sshd_config` | High
-38 | File | `/etc/master.passwd` | High
-39 | File | `/etc/passwd` | Medium
-40 | File | `/file_manager/admin/save_user.php` | High
-41 | File | `/goForm/aspForm` | High
-42 | File | `/goform/WifiBasicSet` | High
-43 | File | `/hrm/controller/login.php` | High
-44 | File | `/kelas/data` | Medium
-45 | File | `/login` | Low
-46 | File | `/logs/sql-error.log` | High
-47 | File | `/matkul/data` | Medium
-48 | File | `/mogu-picture/file/uploadPicsByUrl` | High
-49 | File | `/pages/save_user.php` | High
-50 | File | `/password/reset` | High
-51 | File | `/plugin/getList` | High
-52 | File | `/register/abort` | High
-53 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-54 | File | `/rukovoditel/index.php?module=logs/view&type=php` | High
-55 | File | `/send_order.cgi?parameter=access_detect` | High
-56 | ... | ... | ...
+2 | File | `/admin/addproduct.php` | High
+3 | File | `/admin/api/admin/articles/` | High
+4 | File | `/admin/api/theme-edit/` | High
+5 | File | `/admin/budget/manage_budget.php` | High
+6 | File | `/admin/categories/view_category.php` | High
+7 | File | `/admin/contacts/organizations/edit/2` | High
+8 | File | `/Admin/createClass.php` | High
+9 | File | `/admin/curriculum/view_curriculum.php` | High
+10 | File | `/admin/departments/view_department.php` | High
+11 | File | `/admin/edit_subject.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/modal_add_product.php` | High
+14 | File | `/admin/problem_judge.php` | High
+15 | File | `/admin/reminders/manage_reminder.php` | High
+16 | File | `/admin/sales/manage_sale.php` | High
+17 | File | `/admin/sales/view_details.php` | High
+18 | File | `/admin/suppliers/view_details.php` | High
+19 | File | `/admin/user/manage_user.php` | High
+20 | File | `/admin/userprofile.php` | High
+21 | File | `/admin/voters_row.php` | High
+22 | File | `/ajax.php?action=read_msg` | High
+23 | File | `/ajax.php?action=save_company` | High
+24 | File | `/api/browserextension/UpdatePassword/` | High
+25 | File | `/api/stl/actions/search` | High
+26 | File | `/application/views/themeOptions/update.php` | High
+27 | File | `/attachments` | Medium
+28 | File | `/balance/service/list` | High
+29 | File | `/bin/ate` | Medium
+30 | File | `/booking/show_bookings/` | High
+31 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+32 | File | `/cgi-bin/ping.cgi` | High
+33 | File | `/changeimage.php` | High
+34 | File | `/classes/Users.php` | High
+35 | File | `/classes/Users.php?f=save` | High
+36 | File | `/config/myfield/test.php` | High
+37 | File | `/dev/snd/seq` | Medium
+38 | File | `/diagnostic/login.php` | High
+39 | File | `/E-mobile/App/System/File/downfile.php` | High
+40 | File | `/etc/gsissh/sshd_config` | High
+41 | File | `/etc/master.passwd` | High
+42 | File | `/etc/passwd` | Medium
+43 | File | `/file_manager/admin/save_user.php` | High
+44 | File | `/goForm/aspForm` | High
+45 | File | `/goform/RgDhcp` | High
+46 | File | `/goform/RgTime` | High
+47 | File | `/goform/WifiBasicSet` | High
+48 | File | `/hrm/controller/login.php` | High
+49 | File | `/kelas/data` | Medium
+50 | File | `/login` | Low
+51 | File | `/logs/sql-error.log` | High
+52 | File | `/matkul/data` | Medium
+53 | File | `/mogu-picture/file/uploadPicsByUrl` | High
+54 | File | `/pages/save_user.php` | High
+55 | File | `/password/reset` | High
+56 | File | `/paysystem/branch.php` | High
+57 | File | `/plugin/getList` | High
+58 | File | `/register/abort` | High
+59 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+60 | ... | ... | ...
 
-There are 492 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 521 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

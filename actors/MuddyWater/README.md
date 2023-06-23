@@ -58,8 +58,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-28, CWE-36, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-28, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -105,37 +105,34 @@ ID | Type | Indicator | Confidence
 30 | File | `/admin/positions_add.php` | High
 31 | File | `/admin/positions_delete.php` | High
 32 | File | `/admin/positions_row.php` | High
-33 | File | `/admin/product/manage.php` | High
-34 | File | `/admin/products/manage_product.php` | High
-35 | File | `/admin/reportupload.aspx` | High
-36 | File | `/admin/sales/index.php` | High
-37 | File | `/admin/sales/view_details.php` | High
-38 | File | `/admin/save_teacher.php` | High
-39 | File | `/admin/service.php` | High
-40 | File | `/admin/services/manage_service.php` | High
-41 | File | `/admin/update_s6.php` | High
-42 | File | `/admin/user/manage_user.php` | High
-43 | File | `/admin/voters_row.php` | High
-44 | File | `/advanced-tools/nova/bin/netwatch` | High
-45 | File | `/ajax.php?action=read_msg` | High
-46 | File | `/ajax.php?action=save_company` | High
-47 | File | `/analysisProject/pagingQueryData` | High
-48 | File | `/api/stl/actions/search` | High
-49 | File | `/bilal final/edit_stud.php` | High
-50 | File | `/bilal final/login.php` | High
-51 | File | `/bin/ate` | Medium
-52 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-53 | File | `/cas/logout` | Medium
-54 | File | `/category/list?limit=10&offset=0&order=desc` | High
-55 | File | `/cgi-bin/ping.cgi` | High
-56 | File | `/circuits/circuit-types/` | High
-57 | File | `/circuits/provider-accounts/` | High
-58 | File | `/classes/Login.php` | High
-59 | File | `/classes/Master.php` | High
-60 | File | `/classes/Master.php?f=delete_inquiry` | High
-61 | ... | ... | ...
+33 | File | `/admin/products/manage_product.php` | High
+34 | File | `/admin/reportupload.aspx` | High
+35 | File | `/admin/sales/view_details.php` | High
+36 | File | `/admin/save_teacher.php` | High
+37 | File | `/admin/service.php` | High
+38 | File | `/admin/services/manage_service.php` | High
+39 | File | `/admin/update_s6.php` | High
+40 | File | `/admin/user/manage_user.php` | High
+41 | File | `/admin/voters_row.php` | High
+42 | File | `/advanced-tools/nova/bin/netwatch` | High
+43 | File | `/ajax.php?action=read_msg` | High
+44 | File | `/ajax.php?action=save_company` | High
+45 | File | `/analysisProject/pagingQueryData` | High
+46 | File | `/api/stl/actions/search` | High
+47 | File | `/bin/ate` | Medium
+48 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
+49 | File | `/cas/logout` | Medium
+50 | File | `/category/list?limit=10&offset=0&order=desc` | High
+51 | File | `/cgi-bin/ping.cgi` | High
+52 | File | `/circuits/circuit-types/` | High
+53 | File | `/circuits/provider-accounts/` | High
+54 | File | `/classes/Login.php` | High
+55 | File | `/classes/Master.php` | High
+56 | File | `/classes/Master.php?f=delete_inquiry` | High
+57 | File | `/classes/Master.php?f=delete_item` | High
+58 | ... | ... | ...
 
-There are 535 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

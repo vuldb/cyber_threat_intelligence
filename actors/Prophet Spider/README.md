@@ -90,40 +90,40 @@ ID | Type | Indicator | Confidence
 28 | File | `/admin/products/manage_product.php` | High
 29 | File | `/admin/products/view_product.php` | High
 30 | File | `/admin/read.php?mudi=getSignal` | High
-31 | File | `/admin/reminders/manage_reminder.php` | High
-32 | File | `/admin/report/index.php` | High
-33 | File | `/admin/reportupload.aspx` | High
-34 | File | `/admin/sales/manage_sale.php` | High
-35 | File | `/admin/service.php` | High
-36 | File | `/admin/services/manage_service.php` | High
-37 | File | `/admin/services/view_service.php` | High
-38 | File | `/admin/service_requests/manage_inventory.php` | High
-39 | File | `/admin/update_s6.php` | High
-40 | File | `/admin/user/manage_user.php` | High
-41 | File | `/admin/userprofile.php` | High
-42 | File | `/admin_area/login_transfer.php` | High
-43 | File | `/adms/admin/?page=user/manage_user` | High
-44 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-45 | File | `/ajax.php?action=read_msg` | High
-46 | File | `/ajax.php?action=save_company` | High
-47 | File | `/ajax/update_certificate` | High
-48 | File | `/alphaware/details.php` | High
-49 | File | `/api/stl/actions/search` | High
-50 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
-51 | File | `/cgi-bin/ping.cgi` | High
-52 | File | `/cgi-bin/touchlist_sync.cgi` | High
-53 | File | `/cgi-bin/wlogin.cgi` | High
-54 | File | `/changeimage.php` | High
-55 | File | `/classes/Login.php` | High
-56 | File | `/classes/Master.php` | High
-57 | File | `/classes/Master.php?f=delete_inquiry` | High
-58 | File | `/classes/Master.php?f=delete_item` | High
-59 | File | `/classes/Master.php?f=delete_service` | High
-60 | File | `/classes/Master.php?f=delete_sub_category` | High
-61 | File | `/classes/Master.php?f=save_course` | High
+31 | File | `/admin/reg.php` | High
+32 | File | `/admin/reminders/manage_reminder.php` | High
+33 | File | `/admin/report/index.php` | High
+34 | File | `/admin/reportupload.aspx` | High
+35 | File | `/admin/sales/manage_sale.php` | High
+36 | File | `/admin/service.php` | High
+37 | File | `/admin/services/manage_service.php` | High
+38 | File | `/admin/services/view_service.php` | High
+39 | File | `/admin/service_requests/manage_inventory.php` | High
+40 | File | `/admin/update_s6.php` | High
+41 | File | `/admin/user/manage_user.php` | High
+42 | File | `/admin/userprofile.php` | High
+43 | File | `/admin_area/login_transfer.php` | High
+44 | File | `/adms/admin/?page=user/manage_user` | High
+45 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+46 | File | `/ajax.php?action=read_msg` | High
+47 | File | `/ajax.php?action=save_company` | High
+48 | File | `/ajax/update_certificate` | High
+49 | File | `/alphaware/details.php` | High
+50 | File | `/api/stl/actions/search` | High
+51 | File | `/booking/show_bookings/` | High
+52 | File | `/cgi-bin/mesh.cgi?page=upgrade` | High
+53 | File | `/cgi-bin/ping.cgi` | High
+54 | File | `/cgi-bin/touchlist_sync.cgi` | High
+55 | File | `/cgi-bin/wlogin.cgi` | High
+56 | File | `/changeimage.php` | High
+57 | File | `/classes/Login.php` | High
+58 | File | `/classes/Master.php` | High
+59 | File | `/classes/Master.php?f=delete_inquiry` | High
+60 | File | `/classes/Master.php?f=delete_item` | High
+61 | File | `/classes/Master.php?f=delete_service` | High
 62 | ... | ... | ...
 
-There are 541 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

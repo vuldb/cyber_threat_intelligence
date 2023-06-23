@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 13 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -133,46 +133,45 @@ ID | Type | Indicator | Confidence
 20 | File | `/api/v2/cli/commands` | High
 21 | File | `/apply.cgi` | Medium
 22 | File | `/APR/login.php` | High
-23 | File | `/bin/httpd` | Medium
-24 | File | `/boat/login.php` | High
-25 | File | `/bsms_ci/index.php/book` | High
-26 | File | `/cgi-bin` | Medium
-27 | File | `/cgi-bin/wapopen` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/debug/pprof` | Medium
-30 | File | `/dev/block/mmcblk0rpmb` | High
-31 | File | `/feeds/post/publish` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/fos/admin/ajax.php?action=login` | High
-34 | File | `/fos/admin/index.php?page=menu` | High
-35 | File | `/home/masterConsole` | High
-36 | File | `/home/sendBroadcast` | High
-37 | File | `/inc/jquery/uploadify/uploadify.php` | High
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/index.php?page=category_list` | High
-40 | File | `/medicines/profile.php` | High
-41 | File | `/Moosikay/order.php` | High
-42 | File | `/mygym/admin/index.php?view_exercises` | High
-43 | File | `/opac/Actions.php?a=login` | High
-44 | File | `/php-opos/index.php` | High
-45 | File | `/PreviewHandler.ashx` | High
-46 | File | `/public/launchNewWindow.jsp` | High
-47 | File | `/reports/rwservlet` | High
-48 | File | `/reservation/add_message.php` | High
-49 | File | `/secure/QueryComponent!Default.jspa` | High
-50 | File | `/Session` | Medium
-51 | File | `/spip.php` | Medium
-52 | File | `/uncpath/` | Medium
-53 | File | `/user/updatePwd` | High
-54 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-55 | File | `/video-sharing-script/watch-video.php` | High
-56 | File | `/wbms/classes/Master.php?f=delete_client` | High
-57 | File | `/wireless/security.asp` | High
-58 | File | `/wp-admin/admin-ajax.php` | High
-59 | File | `/xxl-job-admin/jobinfo` | High
-60 | ... | ... | ...
+23 | File | `/bin/ate` | Medium
+24 | File | `/bin/httpd` | Medium
+25 | File | `/boat/login.php` | High
+26 | File | `/bsms_ci/index.php/book` | High
+27 | File | `/cgi-bin` | Medium
+28 | File | `/cgi-bin/wapopen` | High
+29 | File | `/cgi-bin/wlogin.cgi` | High
+30 | File | `/debug/pprof` | Medium
+31 | File | `/dev/block/mmcblk0rpmb` | High
+32 | File | `/env` | Low
+33 | File | `/feeds/post/publish` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/fos/admin/ajax.php?action=login` | High
+36 | File | `/fos/admin/index.php?page=menu` | High
+37 | File | `/home/masterConsole` | High
+38 | File | `/home/sendBroadcast` | High
+39 | File | `/inc/jquery/uploadify/uploadify.php` | High
+40 | File | `/index.php?app=main&func=passport&action=login` | High
+41 | File | `/index.php?page=category_list` | High
+42 | File | `/jobinfo/` | Medium
+43 | File | `/medicines/profile.php` | High
+44 | File | `/Moosikay/order.php` | High
+45 | File | `/mygym/admin/index.php?view_exercises` | High
+46 | File | `/opac/Actions.php?a=login` | High
+47 | File | `/php-opos/index.php` | High
+48 | File | `/php-sms/admin/?page=user/manage_user` | High
+49 | File | `/PreviewHandler.ashx` | High
+50 | File | `/public/launchNewWindow.jsp` | High
+51 | File | `/reservation/add_message.php` | High
+52 | File | `/secure/QueryComponent!Default.jspa` | High
+53 | File | `/Session` | Medium
+54 | File | `/spip.php` | Medium
+55 | File | `/uncpath/` | Medium
+56 | File | `/user/updatePwd` | High
+57 | File | `/var/lib/docker/<remapping>` | High
+58 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+59 | ... | ... | ...
 
-There are 523 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

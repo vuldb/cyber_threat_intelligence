@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
-* [GB](https://vuldb.com/?country.gb)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -21,9 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [185.163.45.248](https://vuldb.com/?ip.185.163.45.248) | no-rdns.mivocloud.com | - | High
-2 | [194.180.174.20](https://vuldb.com/?ip.194.180.174.20) | 194-180-174-20.mivocloud.com | - | High
-3 | [194.180.174.56](https://vuldb.com/?ip.194.180.174.56) | no-rdns.mivocloud.com | - | High
+1 | [5.181.156.79](https://vuldb.com/?ip.5.181.156.79) | 5-181-156-79.mivocloud.com | - | High
+2 | [5.181.156.250](https://vuldb.com/?ip.5.181.156.250) | no-rdns.mivocloud.com | - | High
+3 | [45.77.122.108](https://vuldb.com/?ip.45.77.122.108) | 45.77.122.108.vultrusercontent.com | - | High
+4 | ... | ... | ... | ...
+
+There are 10 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -37,7 +40,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -45,28 +48,36 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/admin_login.php` | High
-2 | File | `/api/addusers` | High
-3 | File | `/api/RecordingList/DownloadRecord?file=` | High
-4 | File | `/apply.cgi` | Medium
-5 | File | `/debug/pprof` | Medium
-6 | File | `/etc/config/rpcd` | High
-7 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
-8 | File | `/public/login.htm` | High
-9 | File | `/rapi/read_url` | High
-10 | File | `/sendKey` | Medium
-11 | File | `/setSystemAdmin` | High
-12 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-13 | File | `adclick.php` | Medium
-14 | File | `admin/Login.php` | High
-15 | ... | ... | ...
+1 | File | `/.env` | Low
+2 | File | `/admin/admin_login.php` | High
+3 | File | `/api/addusers` | High
+4 | File | `/api/RecordingList/DownloadRecord?file=` | High
+5 | File | `/apply.cgi` | Medium
+6 | File | `/debug/pprof` | Medium
+7 | File | `/etc/config/rpcd` | High
+8 | File | `/login` | Low
+9 | File | `/OA_HTML/cabo/jsps/a.jsp` | High
+10 | File | `/public/login.htm` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/sendKey` | Medium
+13 | File | `/setSystemAdmin` | High
+14 | File | `/tmp` | Low
+15 | File | `/type.php` | Medium
+16 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+17 | File | `adclick.php` | Medium
+18 | ... | ... | ...
 
-There are 119 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 147 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/58514fa7288607858aae17799ded4bb96d5f9b78733ad1ca2cece597d5516d44/
+* https://bazaar.abuse.ch/sample/bac78c78e97c8458437ffcbb31b4a54a141200a8cb656eac2dcab06691bc4a91/
+* https://bazaar.abuse.ch/sample/be31a5c1391bbc1c62d8f2c9fbebb9147ba69371fd8e7fcf81fcb5a9ac6ddf73/
+* https://bazaar.abuse.ch/sample/d53c9d7349bdbee8f73709c263cb08c2ca721365bb0670993b81fe2fd9200bac/
+* https://bazaar.abuse.ch/sample/d6372afdd18503ab17f18ebec05254727c7a0377d425bc74e4ae12ffe6243c4c/
 * https://bazaar.abuse.ch/sample/f60f32ec899bcb92fd50491a8c32f0548afbd4dc02462dfa373d484b4b161a86/
 * https://threatfox.abuse.ch
 

@@ -29,50 +29,51 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [1.161.79.139](https://vuldb.com/?ip.1.161.79.139) | 1-161-79-139.dynamic-ip.hinet.net | [QBot](https://vuldb.com/?actor.qbot) | High
 2 | [1.161.79.166](https://vuldb.com/?ip.1.161.79.166) | 1-161-79-166.dynamic-ip.hinet.net | [QBot](https://vuldb.com/?actor.qbot) | High
 3 | [1.161.79.219](https://vuldb.com/?ip.1.161.79.219) | 1-161-79-219.dynamic-ip.hinet.net | [QBot](https://vuldb.com/?actor.qbot) | High
-4 | [24.49.232.96](https://vuldb.com/?ip.24.49.232.96) | 24-49-232-96.resi.cgocable.ca | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-5 | [24.64.114.59](https://vuldb.com/?ip.24.64.114.59) | S0106b06ebfd79790.cg.shawcable.net | [Black Basta](https://vuldb.com/?actor.black_basta) | High
-6 | [24.158.23.45](https://vuldb.com/?ip.24.158.23.45) | mailserver.superiorusa.com | [QBot](https://vuldb.com/?actor.qbot) | High
-7 | [24.158.23.104](https://vuldb.com/?ip.24.158.23.104) | 024-158-023-104.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-8 | [24.158.23.204](https://vuldb.com/?ip.24.158.23.204) | 024-158-023-204.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-9 | [24.158.23.219](https://vuldb.com/?ip.24.158.23.219) | 024-158-023-219.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-10 | [24.178.196.74](https://vuldb.com/?ip.24.178.196.74) | 024-178-196-074.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-11 | [24.178.196.177](https://vuldb.com/?ip.24.178.196.177) | 024-178-196-177.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-12 | [24.178.196.227](https://vuldb.com/?ip.24.178.196.227) | 024-178-196-227.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-13 | [24.178.196.228](https://vuldb.com/?ip.24.178.196.228) | 024-178-196-228.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
-14 | [32.221.224.7](https://vuldb.com/?ip.32.221.224.7) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-15 | [32.221.224.83](https://vuldb.com/?ip.32.221.224.83) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-16 | [32.221.224.102](https://vuldb.com/?ip.32.221.224.102) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-17 | [32.221.224.201](https://vuldb.com/?ip.32.221.224.201) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-18 | [37.186.58.18](https://vuldb.com/?ip.37.186.58.18) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-19 | [37.186.58.41](https://vuldb.com/?ip.37.186.58.41) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-20 | [37.186.58.153](https://vuldb.com/?ip.37.186.58.153) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-21 | [37.208.131.96](https://vuldb.com/?ip.37.208.131.96) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-22 | [37.208.131.224](https://vuldb.com/?ip.37.208.131.224) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-23 | [37.208.131.230](https://vuldb.com/?ip.37.208.131.230) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-24 | [37.208.131.249](https://vuldb.com/?ip.37.208.131.249) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-25 | [38.70.253.56](https://vuldb.com/?ip.38.70.253.56) | 38.70.253.56.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
-26 | [38.70.253.70](https://vuldb.com/?ip.38.70.253.70) | 38.70.253.70.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
-27 | [38.70.253.154](https://vuldb.com/?ip.38.70.253.154) | 38.70.253.154.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
-28 | [38.70.253.213](https://vuldb.com/?ip.38.70.253.213) | 38.70.253.213.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
-29 | [39.41.16.31](https://vuldb.com/?ip.39.41.16.31) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-30 | [39.41.16.33](https://vuldb.com/?ip.39.41.16.33) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-31 | [39.41.16.109](https://vuldb.com/?ip.39.41.16.109) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-32 | [39.44.60.51](https://vuldb.com/?ip.39.44.60.51) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-33 | [39.44.60.65](https://vuldb.com/?ip.39.44.60.65) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-34 | [39.44.60.187](https://vuldb.com/?ip.39.44.60.187) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-35 | [39.49.41.28](https://vuldb.com/?ip.39.49.41.28) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-36 | [39.49.41.55](https://vuldb.com/?ip.39.49.41.55) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-37 | [39.49.41.181](https://vuldb.com/?ip.39.49.41.181) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-38 | [39.52.59.37](https://vuldb.com/?ip.39.52.59.37) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-39 | [39.52.59.184](https://vuldb.com/?ip.39.52.59.184) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-40 | [39.52.59.234](https://vuldb.com/?ip.39.52.59.234) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-41 | [39.52.221.39](https://vuldb.com/?ip.39.52.221.39) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-42 | [39.52.221.84](https://vuldb.com/?ip.39.52.221.84) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-43 | [39.52.221.205](https://vuldb.com/?ip.39.52.221.205) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-44 | [39.53.124.45](https://vuldb.com/?ip.39.53.124.45) | - | [QBot](https://vuldb.com/?actor.qbot) | High
-45 | ... | ... | ... | ...
+4 | [6.43.51.17](https://vuldb.com/?ip.6.43.51.17) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+5 | [10.9.0.15](https://vuldb.com/?ip.10.9.0.15) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+6 | [24.49.232.96](https://vuldb.com/?ip.24.49.232.96) | 24-49-232-96.resi.cgocable.ca | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+7 | [24.64.114.59](https://vuldb.com/?ip.24.64.114.59) | S0106b06ebfd79790.cg.shawcable.net | [Black Basta](https://vuldb.com/?actor.black_basta) | High
+8 | [24.158.23.45](https://vuldb.com/?ip.24.158.23.45) | mailserver.superiorusa.com | [QBot](https://vuldb.com/?actor.qbot) | High
+9 | [24.158.23.104](https://vuldb.com/?ip.24.158.23.104) | 024-158-023-104.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+10 | [24.158.23.204](https://vuldb.com/?ip.24.158.23.204) | 024-158-023-204.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+11 | [24.158.23.219](https://vuldb.com/?ip.24.158.23.219) | 024-158-023-219.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+12 | [24.178.196.74](https://vuldb.com/?ip.24.178.196.74) | 024-178-196-074.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+13 | [24.178.196.177](https://vuldb.com/?ip.24.178.196.177) | 024-178-196-177.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+14 | [24.178.196.227](https://vuldb.com/?ip.24.178.196.227) | 024-178-196-227.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+15 | [24.178.196.228](https://vuldb.com/?ip.24.178.196.228) | 024-178-196-228.biz.spectrum.com | [QBot](https://vuldb.com/?actor.qbot) | High
+16 | [32.221.224.7](https://vuldb.com/?ip.32.221.224.7) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+17 | [32.221.224.83](https://vuldb.com/?ip.32.221.224.83) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+18 | [32.221.224.102](https://vuldb.com/?ip.32.221.224.102) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+19 | [32.221.224.201](https://vuldb.com/?ip.32.221.224.201) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+20 | [37.186.58.18](https://vuldb.com/?ip.37.186.58.18) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+21 | [37.186.58.41](https://vuldb.com/?ip.37.186.58.41) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+22 | [37.186.58.153](https://vuldb.com/?ip.37.186.58.153) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+23 | [37.208.131.96](https://vuldb.com/?ip.37.208.131.96) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+24 | [37.208.131.224](https://vuldb.com/?ip.37.208.131.224) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+25 | [37.208.131.230](https://vuldb.com/?ip.37.208.131.230) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+26 | [37.208.131.249](https://vuldb.com/?ip.37.208.131.249) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+27 | [38.70.253.56](https://vuldb.com/?ip.38.70.253.56) | 38.70.253.56.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
+28 | [38.70.253.70](https://vuldb.com/?ip.38.70.253.70) | 38.70.253.70.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
+29 | [38.70.253.154](https://vuldb.com/?ip.38.70.253.154) | 38.70.253.154.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
+30 | [38.70.253.213](https://vuldb.com/?ip.38.70.253.213) | 38.70.253.213.sumofiber.net | [QBot](https://vuldb.com/?actor.qbot) | High
+31 | [39.41.16.31](https://vuldb.com/?ip.39.41.16.31) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+32 | [39.41.16.33](https://vuldb.com/?ip.39.41.16.33) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+33 | [39.41.16.109](https://vuldb.com/?ip.39.41.16.109) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+34 | [39.44.60.51](https://vuldb.com/?ip.39.44.60.51) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+35 | [39.44.60.65](https://vuldb.com/?ip.39.44.60.65) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+36 | [39.44.60.187](https://vuldb.com/?ip.39.44.60.187) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+37 | [39.49.41.28](https://vuldb.com/?ip.39.49.41.28) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+38 | [39.49.41.55](https://vuldb.com/?ip.39.49.41.55) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+39 | [39.49.41.181](https://vuldb.com/?ip.39.49.41.181) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+40 | [39.52.59.37](https://vuldb.com/?ip.39.52.59.37) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+41 | [39.52.59.184](https://vuldb.com/?ip.39.52.59.184) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+42 | [39.52.59.234](https://vuldb.com/?ip.39.52.59.234) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+43 | [39.52.221.39](https://vuldb.com/?ip.39.52.221.39) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+44 | [39.52.221.84](https://vuldb.com/?ip.39.52.221.84) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+45 | [39.52.221.205](https://vuldb.com/?ip.39.52.221.205) | - | [QBot](https://vuldb.com/?actor.qbot) | High
+46 | ... | ... | ... | ...
 
-There are 177 more IOC items available. Please use our online service to access the data.
+There are 181 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -95,38 +96,39 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?ajax-request=jnews` | High
-2 | File | `/Admin/add-student.php` | High
-3 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
-4 | File | `/admin/maintenance/view_designation.php` | High
-5 | File | `/aya/module/admin/fst_down.inc.php` | High
-6 | File | `/boat/login.php` | High
-7 | File | `/bsms_ci/index.php/user/edit_user/` | High
-8 | File | `/cas/logout` | Medium
-9 | File | `/componetns/user/class.user.php` | High
-10 | File | `/etc/tomcat8/Catalina/attack` | High
-11 | File | `/forum/away.php` | High
-12 | File | `/goform/wizard_end` | High
-13 | File | `/ims/login.php` | High
-14 | File | `/mhds/clinic/view_details.php` | High
-15 | File | `/modules/profile/index.php` | High
-16 | File | `/out.php` | Medium
-17 | File | `/php-opos/index.php` | High
-18 | File | `/rest/api/latest/projectvalidate/key` | High
-19 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-20 | File | `/shell` | Low
-21 | File | `/tourism/rate_review.php` | High
-22 | File | `/uncpath/` | Medium
-23 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-24 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-25 | File | `/wp-admin/admin-ajax.php` | High
-26 | File | `action-visitor.php` | High
-27 | File | `action.php` | Medium
-28 | File | `adclick.php` | Medium
-29 | File | `AdHocQuery_Processor.aspx` | High
-30 | File | `admin/ajax.php?action=save_user` | High
-31 | File | `admin/expense_report.php` | High
-32 | ... | ... | ...
+1 | File | `.FBCIndex` | Medium
+2 | File | `/?ajax-request=jnews` | High
+3 | File | `/Admin/add-student.php` | High
+4 | File | `/admin/blog/blogcategory/add/?_to_field=id&_popup=1` | High
+5 | File | `/admin/maintenance/view_designation.php` | High
+6 | File | `/aya/module/admin/fst_down.inc.php` | High
+7 | File | `/boat/login.php` | High
+8 | File | `/bsms_ci/index.php/user/edit_user/` | High
+9 | File | `/cas/logout` | Medium
+10 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+11 | File | `/etc/tomcat8/Catalina/attack` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/ghost/preview` | High
+14 | File | `/goform/wizard_end` | High
+15 | File | `/ims/login.php` | High
+16 | File | `/mhds/clinic/view_details.php` | High
+17 | File | `/modules/profile/index.php` | High
+18 | File | `/out.php` | Medium
+19 | File | `/php-opos/index.php` | High
+20 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+21 | File | `/shell` | Low
+22 | File | `/tourism/rate_review.php` | High
+23 | File | `/uncpath/` | Medium
+24 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+25 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+26 | File | `/wp-admin/admin-ajax.php` | High
+27 | File | `action-visitor.php` | High
+28 | File | `action.php` | Medium
+29 | File | `adclick.php` | Medium
+30 | File | `AdHocQuery_Processor.aspx` | High
+31 | File | `admin/ajax.php?action=save_user` | High
+32 | File | `admin/expense_report.php` | High
+33 | ... | ... | ...
 
 There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
@@ -136,7 +138,9 @@ The following list contains _external sources_ which discuss the campaign and th
 
 * https://blogs.trellix.jp/demystifying-qbot-malware
 * https://community.blueliv.com/#!/s/5fa3bb7882df413eb2352497
+* https://pastebin.com/errfGxRE
 * https://www.cybereason.com/blog/threat-alert-aggressive-qakbot-campaign-and-the-black-basta-ransomware-group-targeting-u.s.-companies
+* https://www.fortinet.com/blog/threat-research/deep-analysis-of-a-qbot-campaign-part-1
 * https://www.proofpoint.com/us/blog/threat-insight/first-step-initial-access-leads-ransomware
 
 ## Literature

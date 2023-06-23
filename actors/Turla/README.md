@@ -72,20 +72,21 @@ ID | Type | Indicator | Confidence
 6 | File | `/form/index.php?module=getjson` | High
 7 | File | `/hcms/admin/index.php/language/ajax` | High
 8 | File | `/jsonrpc` | Medium
-9 | File | `/product.php` | Medium
-10 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
-11 | File | `/redpass.cgi` | Medium
-12 | File | `/registerCpe` | Medium
-13 | File | `/rest/collectors/1.0/template/custom` | High
-14 | File | `/system?action=ServiceAdmin` | High
-15 | File | `/uncpath/` | Medium
-16 | File | `/Uploads` | Medium
-17 | File | `/User/saveUser` | High
-18 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
-19 | File | `/wp-admin/customization.php` | High
-20 | ... | ... | ...
+9 | File | `/pms/admin/crimes/manage_crime.php` | High
+10 | File | `/product.php` | Medium
+11 | File | `/ram/pckg/advanced-tools/nova/bin/netwatch` | High
+12 | File | `/redpass.cgi` | Medium
+13 | File | `/registerCpe` | Medium
+14 | File | `/rest/collectors/1.0/template/custom` | High
+15 | File | `/sitecore/shell/Invoke.aspx` | High
+16 | File | `/system?action=ServiceAdmin` | High
+17 | File | `/uncpath/` | Medium
+18 | File | `/Uploads` | Medium
+19 | File | `/User/saveUser` | High
+20 | File | `/webapps/Bb-sites-user-profile-BBLEARN/profile.form` | High
+21 | ... | ... | ...
 
-There are 161 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

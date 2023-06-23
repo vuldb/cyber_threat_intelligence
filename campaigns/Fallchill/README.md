@@ -52,7 +52,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-36, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -82,16 +82,16 @@ ID | Type | Indicator | Confidence
 14 | File | `/ajax.php?action=save_company` | High
 15 | File | `/api/stl/actions/search` | High
 16 | File | `/bin/login` | Medium
-17 | File | `/building/backmgr/urlpage/mobileurl/configfile/jx2_config.ini` | High
-18 | File | `/cas/logout` | Medium
-19 | File | `/changeimage.php` | High
-20 | File | `/classes/Master.php?f=delete_service` | High
-21 | File | `/classes/Users.php?f=save` | High
-22 | File | `/DXR.axd` | Medium
-23 | File | `/E-mobile/App/System/File/downfile.php` | High
+17 | File | `/cas/logout` | Medium
+18 | File | `/changeimage.php` | High
+19 | File | `/classes/Users.php?f=save` | High
+20 | File | `/DXR.axd` | Medium
+21 | File | `/index.php?app=main&func=passport&action=login` | High
+22 | File | `/jurusanmatkul/data` | High
+23 | File | `/Login/CheckLogin` | High
 24 | ... | ... | ...
 
-There are 197 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

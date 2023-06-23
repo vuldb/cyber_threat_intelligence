@@ -44,19 +44,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/login.php` | High
-2 | File | `/api/file_uploader.php` | High
-3 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
-4 | File | `/mgmt/tm/util/bash` | High
-5 | File | `/mifs/c/i/reg/reg.html` | High
-6 | File | `/secure/admin/ViewInstrumentation.jspa` | High
-7 | File | `/secure/ViewCollectors` | High
-8 | File | `/Session` | Medium
-9 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-10 | File | `adclick.php` | Medium
-11 | File | `add_comment.php` | High
-12 | File | `board.php` | Medium
-13 | ... | ... | ...
+1 | File | `/+CSCOE+/logon.html` | High
+2 | File | `/admin/login.php` | High
+3 | File | `/api/file_uploader.php` | High
+4 | File | `/app/Http/Controllers/Admin/NEditorController.php` | High
+5 | File | `/mgmt/tm/util/bash` | High
+6 | File | `/mifs/c/i/reg/reg.html` | High
+7 | File | `/secure/admin/ViewInstrumentation.jspa` | High
+8 | File | `/secure/ViewCollectors` | High
+9 | File | `/Session` | Medium
+10 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
+11 | File | `adclick.php` | Medium
+12 | File | `add_comment.php` | High
+13 | File | `board.php` | Medium
+14 | ... | ... | ...
 
 There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 

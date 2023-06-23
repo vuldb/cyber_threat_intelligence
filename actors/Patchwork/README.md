@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -95,11 +95,9 @@ ID | IP address | Hostname | Campaign | Confidence
 65 | [46.165.248.236](https://vuldb.com/?ip.46.165.248.236) | - | - | High
 66 | [46.165.248.237](https://vuldb.com/?ip.46.165.248.237) | - | - | High
 67 | [46.165.248.238](https://vuldb.com/?ip.46.165.248.238) | - | - | High
-68 | [46.165.248.239](https://vuldb.com/?ip.46.165.248.239) | - | - | High
-69 | [46.165.248.240](https://vuldb.com/?ip.46.165.248.240) | - | - | High
-70 | ... | ... | ... | ...
+68 | ... | ... | ... | ...
 
-There are 275 more IOC items available. Please use our online service to access the data.
+There are 270 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -124,10 +122,10 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/ajax/networking/get_netcfg.php` | High
-3 | File | `/api/gen/clients/{language}` | High
-4 | File | `/app/options.py` | High
-5 | File | `/apply_noauth.cgi` | High
+2 | File | `/ajax.php?action=read_msg` | High
+3 | File | `/ajax/networking/get_netcfg.php` | High
+4 | File | `/api/gen/clients/{language}` | High
+5 | File | `/app/options.py` | High
 6 | File | `/bin/httpd` | Medium
 7 | File | `/cgi-bin/wapopen` | High
 8 | File | `/ci_spms/admin/category` | High
@@ -162,10 +160,9 @@ ID | Type | Indicator | Confidence
 37 | File | `/s/` | Low
 38 | File | `/scripts/cpan_config` | High
 39 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
-40 | File | `/shell` | Low
-41 | ... | ... | ...
+40 | ... | ... | ...
 
-There are 357 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 346 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

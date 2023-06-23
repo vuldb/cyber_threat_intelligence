@@ -279,7 +279,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -298,20 +298,23 @@ ID | Type | Indicator | Confidence
 9 | File | `/admin/update_s6.php` | High
 10 | File | `/ajax.php?action=read_msg` | High
 11 | File | `/ajax.php?action=save_company` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/bin/login` | Medium
+12 | File | `/bin/login` | Medium
+13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
 14 | File | `/changeimage.php` | High
 15 | File | `/classes/Users.php?f=save` | High
 16 | File | `/DXR.axd` | Medium
-17 | File | `/ghost/preview` | High
-18 | File | `/Login/CheckLogin` | High
-19 | File | `/note/index/delete` | High
-20 | File | `/owa/auth/logon.aspx` | High
-21 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-22 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
-23 | ... | ... | ...
+17 | File | `/forum/away.php` | High
+18 | File | `/ghost/preview` | High
+19 | File | `/Login/CheckLogin` | High
+20 | File | `/note/index/delete` | High
+21 | File | `/out.php` | Medium
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/send_order.cgi?parameter=restart` | High
+24 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+25 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
+26 | ... | ... | ...
 
-There are 196 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -86,32 +86,33 @@ ID | Type | Indicator | Confidence
 8 | File | `/boat/login.php` | High
 9 | File | `/bsms_ci/index.php/user/edit_user/` | High
 10 | File | `/cas/logout` | Medium
-11 | File | `/cgi-bin/R14.2/easy1350.pl` | High
-12 | File | `/cgi-bin/R14.2/log.pl` | High
-13 | File | `/config/api/v1/reboot` | High
-14 | File | `/etc/tomcat8/Catalina/attack` | High
-15 | File | `/FormLogin` | Medium
-16 | File | `/forum/away.php` | High
-17 | File | `/ghost/preview` | High
-18 | File | `/goform/wizard_end` | High
-19 | File | `/ims/login.php` | High
-20 | File | `/mhds/clinic/view_details.php` | High
-21 | File | `/modules/profile/index.php` | High
-22 | File | `/nova/bin/detnet` | High
-23 | File | `/out.php` | Medium
-24 | File | `/php-opos/index.php` | High
-25 | File | `/plugin` | Low
-26 | File | `/proc/ftxxxx-debug` | High
-27 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-28 | File | `/shell` | Low
-29 | File | `/tourism/rate_review.php` | High
-30 | File | `/uncpath/` | Medium
-31 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-33 | File | `/wp-admin/admin-ajax.php` | High
-34 | ... | ... | ...
+11 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+12 | File | `/cgi-bin/R14.2/easy1350.pl` | High
+13 | File | `/cgi-bin/R14.2/log.pl` | High
+14 | File | `/config/api/v1/reboot` | High
+15 | File | `/etc/tomcat8/Catalina/attack` | High
+16 | File | `/FormLogin` | Medium
+17 | File | `/forum/away.php` | High
+18 | File | `/ghost/preview` | High
+19 | File | `/goform/wizard_end` | High
+20 | File | `/ims/login.php` | High
+21 | File | `/mhds/clinic/view_details.php` | High
+22 | File | `/modules/profile/index.php` | High
+23 | File | `/nova/bin/detnet` | High
+24 | File | `/out.php` | Medium
+25 | File | `/php-opos/index.php` | High
+26 | File | `/plugin` | Low
+27 | File | `/proc/ftxxxx-debug` | High
+28 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+29 | File | `/shell` | Low
+30 | File | `/tourism/rate_review.php` | High
+31 | File | `/uncpath/` | Medium
+32 | File | `/usr/www/ja/mnt_cmd.cgi` | High
+33 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+34 | File | `/wp-admin/admin-ajax.php` | High
+35 | ... | ... | ...
 
-There are 294 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 297 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

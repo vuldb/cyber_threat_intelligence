@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [VN](https://vuldb.com/?country.vn)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -98,13 +98,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-25, CWE-29 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
-3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -137,21 +137,20 @@ ID | Type | Indicator | Confidence
 23 | File | `/forum/away.php` | High
 24 | File | `/forum/PostPrivateMessage` | High
 25 | File | `/goform/addressNat` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/HNAP1/SetClientInfo` | High
-28 | File | `/home/www/cgi-bin/login.cgi` | High
-29 | File | `/inc/jquery/uploadify/uploadify.php` | High
-30 | File | `/js/player/dmplayer/dmku/index.php` | High
-31 | File | `/modules/profile/index.php` | High
-32 | File | `/multi-vendor-shopping-script/product-list.php` | High
-33 | File | `/net-banking/customer_transactions.php` | High
-34 | File | `/news/*.html` | Medium
-35 | File | `/obs/book.php` | High
-36 | File | `/orrs/admin/?page=user/manage_user` | High
-37 | File | `/owa/auth/logon.aspx` | High
-38 | ... | ... | ...
+26 | File | `/goform/setmac` | High
+27 | File | `/goform/setMacFilterCfg` | High
+28 | File | `/HNAP1` | Low
+29 | File | `/HNAP1/SetClientInfo` | High
+30 | File | `/home/www/cgi-bin/login.cgi` | High
+31 | File | `/inc/jquery/uploadify/uploadify.php` | High
+32 | File | `/js/player/dmplayer/dmku/index.php` | High
+33 | File | `/kelasdosen/data` | High
+34 | File | `/modules/profile/index.php` | High
+35 | File | `/multi-vendor-shopping-script/product-list.php` | High
+36 | File | `/net-banking/customer_transactions.php` | High
+37 | ... | ... | ...
 
-There are 322 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

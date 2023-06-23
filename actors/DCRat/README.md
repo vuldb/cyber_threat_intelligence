@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with DCRat:
 
 * [CN](https://vuldb.com/?country.cn)
-* [PL](https://vuldb.com/?country.pl)
 * [US](https://vuldb.com/?country.us)
+* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -25,18 +25,20 @@ ID | IP address | Hostname | Campaign | Confidence
 2 | [1.242.139.44](https://vuldb.com/?ip.1.242.139.44) | - | - | High
 3 | [5.135.83.205](https://vuldb.com/?ip.5.135.83.205) | 5-135-83-205.asyx.ru | - | High
 4 | [5.178.3.191](https://vuldb.com/?ip.5.178.3.191) | - | - | High
-5 | [20.223.128.97](https://vuldb.com/?ip.20.223.128.97) | - | - | High
-6 | [43.243.111.229](https://vuldb.com/?ip.43.243.111.229) | - | - | High
-7 | [45.77.34.211](https://vuldb.com/?ip.45.77.34.211) | 45.77.34.211.vultrusercontent.com | - | High
-8 | [45.95.19.170](https://vuldb.com/?ip.45.95.19.170) | - | - | High
-9 | [45.95.19.172](https://vuldb.com/?ip.45.95.19.172) | - | - | High
-10 | [45.95.19.173](https://vuldb.com/?ip.45.95.19.173) | - | - | High
-11 | [45.95.19.174](https://vuldb.com/?ip.45.95.19.174) | - | - | High
-12 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | - | High
-13 | [46.149.77.33](https://vuldb.com/?ip.46.149.77.33) | v1874993.hosted-by-vdsina.ru | - | High
-14 | ... | ... | ... | ...
+5 | [20.216.178.113](https://vuldb.com/?ip.20.216.178.113) | - | - | High
+6 | [20.223.128.97](https://vuldb.com/?ip.20.223.128.97) | - | - | High
+7 | [34.92.66.146](https://vuldb.com/?ip.34.92.66.146) | 146.66.92.34.bc.googleusercontent.com | - | Medium
+8 | [40.87.50.159](https://vuldb.com/?ip.40.87.50.159) | - | - | High
+9 | [43.243.111.229](https://vuldb.com/?ip.43.243.111.229) | - | - | High
+10 | [45.77.34.211](https://vuldb.com/?ip.45.77.34.211) | 45.77.34.211.vultrusercontent.com | - | High
+11 | [45.95.19.170](https://vuldb.com/?ip.45.95.19.170) | - | - | High
+12 | [45.95.19.172](https://vuldb.com/?ip.45.95.19.172) | - | - | High
+13 | [45.95.19.173](https://vuldb.com/?ip.45.95.19.173) | - | - | High
+14 | [45.95.19.174](https://vuldb.com/?ip.45.95.19.174) | - | - | High
+15 | [45.140.147.214](https://vuldb.com/?ip.45.140.147.214) | vm1329418.stark-industries.solutions | - | High
+16 | ... | ... | ... | ...
 
-There are 52 more IOC items available. Please use our online service to access the data.
+There are 59 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,13 +47,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -59,54 +61,60 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
-2 | File | `/adfs/ls` | Medium
-3 | File | `/admin/access` | High
-4 | File | `/admin/ajax/avatar.php` | High
-5 | File | `/admin/inventory/manage_stock.php` | High
-6 | File | `/admin/media/upload` | High
-7 | File | `/admin/options` | High
-8 | File | `/admin/show.php` | High
-9 | File | `/api/blade-log/api/list` | High
-10 | File | `/api/RecordingList/download` | High
-11 | File | `/Applications/Calculator.app/Contents/MacOS/Calculator` | High
-12 | File | `/batm/app/admin/standalone/deployments` | High
-13 | File | `/cgi-bin/go` | Medium
-14 | File | `/cgi-bin/webproc` | High
-15 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
-16 | File | `/common/info.cgi` | High
-17 | File | `/etc` | Low
-18 | File | `/exec/` | Low
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/HNAP1` | Low
-22 | File | `/Home/GetAttachment` | High
-23 | File | `/htdocs/cgibin` | High
-24 | File | `/index.php?s=/admin-tpl-del&id=` | High
-25 | File | `/my_photo_gallery/image.php` | High
-26 | File | `/new` | Low
-27 | File | `/oauth/authorized_applications.json` | High
-28 | File | `/opt/tplink/EAPController/lib/eap-web-3.2.6.jar` | High
-29 | File | `/patient/doctors.php` | High
-30 | File | `/phpinventory/editcategory.php` | High
-31 | File | `/phpinventory/edituser.php` | High
-32 | File | `/probe?target` | High
-33 | File | `/rk-responsive-contact-form/include/rk_user_list.php` | High
-34 | File | `/root/.urcaps` | High
-35 | File | `/schedules/view_schedule.php` | High
-36 | File | `/see_more_details.php` | High
-37 | File | `/service/upload` | High
-38 | File | `/spip.php` | Medium
-39 | File | `/template/edit` | High
-40 | File | `/uncpath/` | Medium
-41 | File | `/upload` | Low
-42 | File | `/var/run/jboss-eap/` | High
-43 | File | `/wp-json/wc/v3/webhooks` | High
-44 | File | `4.edu.php\conn\function.php` | High
-45 | File | `a1disp2.cgi/a1disp3.cgi/a1disp4.cgi` | High
-46 | ... | ... | ...
+1 | File | `//proc/kcore` | Medium
+2 | File | `/acms/admin/cargo_types/manage_cargo_type.php` | High
+3 | File | `/adfs/ls` | Medium
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/Admin/add-student.php` | High
+6 | File | `/admin/ajax/avatar.php` | High
+7 | File | `/admin/inventory/manage_stock.php` | High
+8 | File | `/admin/media/upload` | High
+9 | File | `/admin/options` | High
+10 | File | `/admin/settings/save.php` | High
+11 | File | `/admin/show.php` | High
+12 | File | `/admin/userprofile.php` | High
+13 | File | `/api/blade-log/api/list` | High
+14 | File | `/api/RecordingList/download` | High
+15 | File | `/api/RecordingList/DownloadRecord?file=` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/batm/app/admin/standalone/deployments` | High
+18 | File | `/cgi-bin/go` | Medium
+19 | File | `/cgi-bin/webproc` | High
+20 | File | `/cgi-bin/wlogin.cgi` | High
+21 | File | `/classes/conf/db.properties&config=filemanager.config.js` | High
+22 | File | `/College/admin/teacher.php` | High
+23 | File | `/common/info.cgi` | High
+24 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+25 | File | `/dcim/rack-roles/` | High
+26 | File | `/exec/` | Low
+27 | File | `/forum/away.php` | High
+28 | File | `/getcfg.php` | Medium
+29 | File | `/goform/addUserName` | High
+30 | File | `/goform/aspForm` | High
+31 | File | `/goform/delAd` | High
+32 | File | `/goform/wifiSSIDset` | High
+33 | File | `/gpac/src/bifs/unquantize.c` | High
+34 | File | `/HNAP1` | Low
+35 | File | `/htdocs/cgibin` | High
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.asp` | Medium
+38 | File | `/index.php?s=/admin-tpl-del&id=` | High
+39 | File | `/jfinal_cms/system/role/list` | High
+40 | File | `/kelas/data` | Medium
+41 | File | `/Moosikay/order.php` | High
+42 | File | `/my_photo_gallery/image.php` | High
+43 | File | `/new` | Low
+44 | File | `/patient/doctors.php` | High
+45 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+46 | File | `/phpinventory/editcategory.php` | High
+47 | File | `/phpinventory/edituser.php` | High
+48 | File | `/probe?target` | High
+49 | File | `/schedules/view_schedule.php` | High
+50 | File | `/secure/QueryComponent!Default.jspa` | High
+51 | File | `/service/upload` | High
+52 | ... | ... | ...
 
-There are 401 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 457 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,13 +129,17 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/1.165.96.128
 * https://search.censys.io/hosts/1.242.139.44
 * https://search.censys.io/hosts/5.178.3.191
+* https://search.censys.io/hosts/20.216.178.113
 * https://search.censys.io/hosts/20.223.128.97
+* https://search.censys.io/hosts/34.92.66.146
+* https://search.censys.io/hosts/40.87.50.159
 * https://search.censys.io/hosts/43.243.111.229
 * https://search.censys.io/hosts/45.77.34.211
 * https://search.censys.io/hosts/45.95.19.170
 * https://search.censys.io/hosts/45.95.19.172
 * https://search.censys.io/hosts/45.95.19.173
 * https://search.censys.io/hosts/45.95.19.174
+* https://search.censys.io/hosts/47.106.131.255
 * https://search.censys.io/hosts/64.44.166.203
 * https://search.censys.io/hosts/64.176.43.239
 * https://search.censys.io/hosts/77.92.154.211
@@ -145,11 +157,15 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/112.213.98.87
 * https://search.censys.io/hosts/139.180.143.50
 * https://search.censys.io/hosts/142.202.242.168
+* https://search.censys.io/hosts/144.126.230.14
 * https://search.censys.io/hosts/154.53.42.53
+* https://search.censys.io/hosts/179.43.154.184
 * https://search.censys.io/hosts/179.61.251.188
+* https://search.censys.io/hosts/185.225.18.110
 * https://search.censys.io/hosts/192.99.10.207
 * https://search.censys.io/hosts/193.42.32.159
 * https://search.censys.io/hosts/198.23.212.148
+* https://search.censys.io/hosts/209.25.142.180
 * https://threatfox.abuse.ch
 * https://tria.ge/220411-rpjwpsagg7
 * https://tria.ge/220421-rkv36sbagj

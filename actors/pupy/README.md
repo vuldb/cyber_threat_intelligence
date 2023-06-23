@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 4 more country items available. Please use our online service to access the data.
+There are 6 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -27,19 +27,20 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [13.215.175.44](https://vuldb.com/?ip.13.215.175.44) | ec2-13-215-175-44.ap-southeast-1.compute.amazonaws.com | - | Medium
 5 | [16.163.43.4](https://vuldb.com/?ip.16.163.43.4) | ec2-16-163-43-4.ap-east-1.compute.amazonaws.com | - | Medium
 6 | [18.163.105.206](https://vuldb.com/?ip.18.163.105.206) | ec2-18-163-105-206.ap-east-1.compute.amazonaws.com | - | Medium
-7 | [18.167.13.235](https://vuldb.com/?ip.18.167.13.235) | ec2-18-167-13-235.ap-east-1.compute.amazonaws.com | - | Medium
-8 | [34.84.185.40](https://vuldb.com/?ip.34.84.185.40) | 40.185.84.34.bc.googleusercontent.com | - | Medium
-9 | [34.92.235.56](https://vuldb.com/?ip.34.92.235.56) | 56.235.92.34.bc.googleusercontent.com | - | Medium
-10 | [35.201.196.246](https://vuldb.com/?ip.35.201.196.246) | 246.196.201.35.bc.googleusercontent.com | - | Medium
-11 | [35.220.154.238](https://vuldb.com/?ip.35.220.154.238) | 238.154.220.35.bc.googleusercontent.com | - | Medium
-12 | [35.241.106.118](https://vuldb.com/?ip.35.241.106.118) | 118.106.241.35.bc.googleusercontent.com | - | Medium
-13 | [38.54.40.25](https://vuldb.com/?ip.38.54.40.25) | - | - | High
-14 | [39.98.206.63](https://vuldb.com/?ip.39.98.206.63) | - | - | High
-15 | [39.107.32.219](https://vuldb.com/?ip.39.107.32.219) | - | - | High
-16 | [41.147.195.62](https://vuldb.com/?ip.41.147.195.62) | 8ta-147-195-62.telkomadsl.co.za | - | High
-17 | ... | ... | ... | ...
+7 | [18.163.180.135](https://vuldb.com/?ip.18.163.180.135) | ec2-18-163-180-135.ap-east-1.compute.amazonaws.com | - | Medium
+8 | [18.167.13.235](https://vuldb.com/?ip.18.167.13.235) | ec2-18-167-13-235.ap-east-1.compute.amazonaws.com | - | Medium
+9 | [34.84.185.40](https://vuldb.com/?ip.34.84.185.40) | 40.185.84.34.bc.googleusercontent.com | - | Medium
+10 | [34.92.235.56](https://vuldb.com/?ip.34.92.235.56) | 56.235.92.34.bc.googleusercontent.com | - | Medium
+11 | [35.201.196.246](https://vuldb.com/?ip.35.201.196.246) | 246.196.201.35.bc.googleusercontent.com | - | Medium
+12 | [35.220.154.238](https://vuldb.com/?ip.35.220.154.238) | 238.154.220.35.bc.googleusercontent.com | - | Medium
+13 | [35.241.106.118](https://vuldb.com/?ip.35.241.106.118) | 118.106.241.35.bc.googleusercontent.com | - | Medium
+14 | [38.54.40.25](https://vuldb.com/?ip.38.54.40.25) | - | - | High
+15 | [39.98.206.63](https://vuldb.com/?ip.39.98.206.63) | - | - | High
+16 | [39.107.32.219](https://vuldb.com/?ip.39.107.32.219) | - | - | High
+17 | [41.147.195.62](https://vuldb.com/?ip.41.147.195.62) | 8ta-147-195-62.telkomadsl.co.za | - | High
+18 | ... | ... | ... | ...
 
-There are 62 more IOC items available. Please use our online service to access the data.
+There are 69 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -66,27 +67,27 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin.php?action=themeinstall` | High
 3 | File | `/admin/?page=product/manage_product&id=2` | High
 4 | File | `/admin/?setting-base.htm` | High
-5 | File | `/admin/addemployee.php` | High
-6 | File | `/admin/controller/JobLogController.java` | High
-7 | File | `/admin/fst_upload.inc.php` | High
-8 | File | `/admin/index2.html` | High
-9 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
-10 | File | `/admin/subnets/ripe-query.php` | High
-11 | File | `/admin/update_currency.php` | High
-12 | File | `/api/audits` | Medium
-13 | File | `/api/resource/Item?fields` | High
+5 | File | `/admin/controller/JobLogController.java` | High
+6 | File | `/admin/fst_upload.inc.php` | High
+7 | File | `/admin/index2.html` | High
+8 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+9 | File | `/admin/subnets/ripe-query.php` | High
+10 | File | `/admin/update_currency.php` | High
+11 | File | `/api/audits` | Medium
+12 | File | `/api/resource/Item?fields` | High
+13 | File | `/api/upload.php` | High
 14 | File | `/api/v1/attack/token` | High
-15 | File | `/Application/Admin/Controller/ConfigController.class.php` | High
-16 | File | `/application/common.php#action_log` | High
-17 | File | `/APR/signup.php` | High
-18 | File | `/assets` | Low
-19 | File | `/cgi-bin/activate.cgi` | High
-20 | File | `/cgi-bin/cstecgi.cgi` | High
-21 | File | `/cgi-bin/kerbynet` | High
-22 | File | `/cgi-bin/luci/api/wireless` | High
-23 | File | `/cgi-bin/wapopen` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/context/%2e/WEB-INF/web.xml` | High
+15 | File | `/application/common.php#action_log` | High
+16 | File | `/APR/signup.php` | High
+17 | File | `/baseOpLog.do` | High
+18 | File | `/bin/ate` | Medium
+19 | File | `/bitrix/admin/ldap_server_edit.php` | High
+20 | File | `/cgi-bin/activate.cgi` | High
+21 | File | `/cgi-bin/cstecgi.cgi` | High
+22 | File | `/cgi-bin/kerbynet` | High
+23 | File | `/cgi-bin/luci/api/wireless` | High
+24 | File | `/cgi-bin/wapopen` | High
+25 | File | `/classes/Users.php?f=save` | High
 26 | File | `/controller/OnlinePreviewController.java` | High
 27 | File | `/core/conditions/AbstractWrapper.java` | High
 28 | File | `/crmeb/crmeb/services/UploadService.php` | High
@@ -97,17 +98,17 @@ ID | Type | Indicator | Confidence
 33 | File | `/forum/away.php` | High
 34 | File | `/fos/admin/index.php?page=menu` | High
 35 | File | `/goform/addRouting` | High
-36 | File | `/goform/doReboot` | High
-37 | File | `/goform/form2Wan.cgi` | High
-38 | File | `/hrm/controller/employee.php` | High
-39 | File | `/IISADMPWD` | Medium
-40 | File | `/includes/login.php` | High
-41 | File | `/index.php/archives/1/comment` | High
-42 | File | `/Items/*/RemoteImages/Download` | High
-43 | File | `/jerry-core/parser/js/js-scanner-util.c` | High
+36 | File | `/goForm/aspForm` | High
+37 | File | `/goform/doReboot` | High
+38 | File | `/goform/form2Wan.cgi` | High
+39 | File | `/HNAP1` | Low
+40 | File | `/hrm/controller/employee.php` | High
+41 | File | `/IISADMPWD` | Medium
+42 | File | `/includes/login.php` | High
+43 | File | `/index.php/archives/1/comment` | High
 44 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 378 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -119,6 +120,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/13.215.175.44
 * https://search.censys.io/hosts/16.163.43.4
 * https://search.censys.io/hosts/18.163.105.206
+* https://search.censys.io/hosts/18.163.180.135
 * https://search.censys.io/hosts/18.167.13.235
 * https://search.censys.io/hosts/34.84.185.40
 * https://search.censys.io/hosts/34.92.235.56
@@ -129,6 +131,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/39.98.206.63
 * https://search.censys.io/hosts/39.107.32.219
 * https://search.censys.io/hosts/41.147.195.62
+* https://search.censys.io/hosts/41.147.198.28
 * https://search.censys.io/hosts/43.139.167.131
 * https://search.censys.io/hosts/43.154.112.87
 * https://search.censys.io/hosts/43.155.117.195
@@ -143,7 +146,9 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/65.20.66.221
 * https://search.censys.io/hosts/66.42.59.191
 * https://search.censys.io/hosts/92.118.189.178
+* https://search.censys.io/hosts/93.90.72.13
 * https://search.censys.io/hosts/95.216.206.17
+* https://search.censys.io/hosts/102.248.4.140
 * https://search.censys.io/hosts/103.13.229.67
 * https://search.censys.io/hosts/103.13.231.34
 * https://search.censys.io/hosts/103.27.186.185
@@ -164,6 +169,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/134.122.39.118
 * https://search.censys.io/hosts/134.209.101.105
 * https://search.censys.io/hosts/136.244.65.241
+* https://search.censys.io/hosts/136.244.98.14
+* https://search.censys.io/hosts/137.184.219.41
 * https://search.censys.io/hosts/139.84.140.110
 * https://search.censys.io/hosts/139.84.140.157
 * https://search.censys.io/hosts/139.84.142.187
@@ -173,6 +180,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/149.28.19.155
 * https://search.censys.io/hosts/149.248.34.178
 * https://search.censys.io/hosts/154.3.34.146
+* https://search.censys.io/hosts/154.202.59.51
 * https://search.censys.io/hosts/154.202.59.107
 * https://search.censys.io/hosts/154.202.59.148
 * https://search.censys.io/hosts/154.202.59.194
@@ -189,6 +197,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/202.182.106.252
 * https://search.censys.io/hosts/203.86.236.93
 * https://search.censys.io/hosts/206.189.44.250
+* https://search.censys.io/hosts/207.148.99.121
 * https://search.censys.io/hosts/212.115.55.53
 * https://search.censys.io/hosts/217.195.153.13
 

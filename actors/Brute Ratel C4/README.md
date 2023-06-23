@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 24 more country items available. Please use our online service to access the data.
+There are 25 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -42,21 +42,22 @@ ID | IP address | Hostname | Campaign | Confidence
 19 | [18.134.141.72](https://vuldb.com/?ip.18.134.141.72) | ec2-18-134-141-72.eu-west-2.compute.amazonaws.com | - | Medium
 20 | [18.163.6.122](https://vuldb.com/?ip.18.163.6.122) | ec2-18-163-6-122.ap-east-1.compute.amazonaws.com | - | Medium
 21 | [18.176.20.234](https://vuldb.com/?ip.18.176.20.234) | ec2-18-176-20-234.ap-northeast-1.compute.amazonaws.com | - | Medium
-22 | [18.177.226.88](https://vuldb.com/?ip.18.177.226.88) | ec2-18-177-226-88.ap-northeast-1.compute.amazonaws.com | - | Medium
-23 | [18.178.244.246](https://vuldb.com/?ip.18.178.244.246) | ec2-18-178-244-246.ap-northeast-1.compute.amazonaws.com | - | Medium
-24 | [18.182.126.252](https://vuldb.com/?ip.18.182.126.252) | ec2-18-182-126-252.ap-northeast-1.compute.amazonaws.com | - | Medium
-25 | [18.188.54.77](https://vuldb.com/?ip.18.188.54.77) | ec2-18-188-54-77.us-east-2.compute.amazonaws.com | - | Medium
-26 | [18.208.87.99](https://vuldb.com/?ip.18.208.87.99) | ec2-18-208-87-99.compute-1.amazonaws.com | - | Medium
-27 | [18.217.179.8](https://vuldb.com/?ip.18.217.179.8) | ec2-18-217-179-8.us-east-2.compute.amazonaws.com | - | Medium
-28 | [18.236.92.31](https://vuldb.com/?ip.18.236.92.31) | ec2-18-236-92-31.us-west-2.compute.amazonaws.com | - | Medium
-29 | [23.254.167.32](https://vuldb.com/?ip.23.254.167.32) | hwsrv-1075866.hostwindsdns.com | - | High
-30 | [31.42.189.61](https://vuldb.com/?ip.31.42.189.61) | caponystmodo.live | - | High
-31 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | - | High
-32 | [34.195.122.225](https://vuldb.com/?ip.34.195.122.225) | ec2-34-195-122-225.compute-1.amazonaws.com | - | Medium
-33 | [34.206.147.4](https://vuldb.com/?ip.34.206.147.4) | ec2-34-206-147-4.compute-1.amazonaws.com | - | Medium
-34 | ... | ... | ... | ...
+22 | [18.176.35.161](https://vuldb.com/?ip.18.176.35.161) | ec2-18-176-35-161.ap-northeast-1.compute.amazonaws.com | - | Medium
+23 | [18.177.226.88](https://vuldb.com/?ip.18.177.226.88) | ec2-18-177-226-88.ap-northeast-1.compute.amazonaws.com | - | Medium
+24 | [18.178.244.246](https://vuldb.com/?ip.18.178.244.246) | ec2-18-178-244-246.ap-northeast-1.compute.amazonaws.com | - | Medium
+25 | [18.182.126.252](https://vuldb.com/?ip.18.182.126.252) | ec2-18-182-126-252.ap-northeast-1.compute.amazonaws.com | - | Medium
+26 | [18.188.54.77](https://vuldb.com/?ip.18.188.54.77) | ec2-18-188-54-77.us-east-2.compute.amazonaws.com | - | Medium
+27 | [18.208.87.99](https://vuldb.com/?ip.18.208.87.99) | ec2-18-208-87-99.compute-1.amazonaws.com | - | Medium
+28 | [18.217.179.8](https://vuldb.com/?ip.18.217.179.8) | ec2-18-217-179-8.us-east-2.compute.amazonaws.com | - | Medium
+29 | [18.236.92.31](https://vuldb.com/?ip.18.236.92.31) | ec2-18-236-92-31.us-west-2.compute.amazonaws.com | - | Medium
+30 | [23.254.167.32](https://vuldb.com/?ip.23.254.167.32) | hwsrv-1075866.hostwindsdns.com | - | High
+31 | [31.42.189.61](https://vuldb.com/?ip.31.42.189.61) | caponystmodo.live | - | High
+32 | [31.184.198.83](https://vuldb.com/?ip.31.184.198.83) | - | - | High
+33 | [34.195.122.225](https://vuldb.com/?ip.34.195.122.225) | ec2-34-195-122-225.compute-1.amazonaws.com | - | Medium
+34 | [34.206.147.4](https://vuldb.com/?ip.34.206.147.4) | ec2-34-206-147-4.compute-1.amazonaws.com | - | Medium
+35 | ... | ... | ... | ...
 
-There are 132 more IOC items available. Please use our online service to access the data.
+There are 134 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -89,67 +90,64 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/userprofile.php` | High
 9 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
 10 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-11 | File | `/apilog.php` | Medium
-12 | File | `/APR/login.php` | High
-13 | File | `/bin/httpd` | Medium
-14 | File | `/cgi-bin/wapopen` | High
-15 | File | `/dev/block/mmcblk0rpmb` | High
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/face-recognition-php/facepay-master/camera.php` | High
-18 | File | `/feeds/post/publish` | High
-19 | File | `/forum/away.php` | High
-20 | File | `/fos/admin/ajax.php?action=login` | High
-21 | File | `/fos/admin/index.php?page=menu` | High
-22 | File | `/home/masterConsole` | High
-23 | File | `/home/sendBroadcast` | High
-24 | File | `/hrm/employeeadd.php` | High
-25 | File | `/hrm/employeeview.php` | High
-26 | File | `/inc/jquery/uploadify/uploadify.php` | High
-27 | File | `/index.php` | Medium
-28 | File | `/index.php?app=main&func=passport&action=login` | High
-29 | File | `/index.php?page=category_list` | High
-30 | File | `/items/view_item.php` | High
-31 | File | `/jobinfo/` | Medium
-32 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-33 | File | `/lookin/info` | Medium
-34 | File | `/medical/inventories.php` | High
-35 | File | `/modules/profile/index.php` | High
-36 | File | `/modules/public/calendar.php` | High
-37 | File | `/Moosikay/order.php` | High
-38 | File | `/mygym/admin/index.php?view_exercises` | High
-39 | File | `/newsDia.php` | Medium
-40 | File | `/opac/Actions.php?a=login` | High
-41 | File | `/out.php` | Medium
-42 | File | `/php-opos/index.php` | High
-43 | File | `/PreviewHandler.ashx` | High
-44 | File | `/proxy` | Low
-45 | File | `/public/launchNewWindow.jsp` | High
-46 | File | `/Redcock-Farm/farm/category.php` | High
-47 | File | `/reports/rwservlet` | High
-48 | File | `/reservation/add_message.php` | High
-49 | File | `/spip.php` | Medium
-50 | File | `/sqlitemanager/main.php?dbsel=-1%20or%2072%20=%2072` | High
-51 | File | `/staff/bookdetails.php` | High
-52 | File | `/uncpath/` | Medium
-53 | File | `/user/updatePwd` | High
-54 | File | `/user/update_booking.php` | High
-55 | File | `/wireless/security.asp` | High
-56 | File | `/wp-admin/admin-ajax.php` | High
-57 | File | `01article.php` | High
-58 | File | `a-forms.php` | Medium
-59 | File | `AbstractScheduleJob.java` | High
-60 | File | `actionphp/download.File.php` | High
-61 | File | `activenews_view.asp` | High
-62 | File | `adclick.php` | Medium
-63 | File | `admin.a6mambocredits.php` | High
-64 | File | `admin.cropcanvas.php` | High
-65 | File | `admin.php` | Medium
-66 | File | `admin/abc.php` | High
-67 | File | `admin/admin.php?action=users&mode=info&user=2` | High
-68 | File | `admin/admin/adminsave.html` | High
-69 | ... | ... | ...
+11 | File | `/APR/login.php` | High
+12 | File | `/bin/httpd` | Medium
+13 | File | `/cgi-bin/wapopen` | High
+14 | File | `/dev/block/mmcblk0rpmb` | High
+15 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+16 | File | `/face-recognition-php/facepay-master/camera.php` | High
+17 | File | `/feeds/post/publish` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/fos/admin/ajax.php?action=login` | High
+20 | File | `/fos/admin/index.php?page=menu` | High
+21 | File | `/home/masterConsole` | High
+22 | File | `/home/sendBroadcast` | High
+23 | File | `/hrm/employeeadd.php` | High
+24 | File | `/hrm/employeeview.php` | High
+25 | File | `/inc/jquery/uploadify/uploadify.php` | High
+26 | File | `/index.php?app=main&func=passport&action=login` | High
+27 | File | `/index.php?page=category_list` | High
+28 | File | `/jobinfo/` | Medium
+29 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+30 | File | `/lookin/info` | Medium
+31 | File | `/Moosikay/order.php` | High
+32 | File | `/mygym/admin/index.php?view_exercises` | High
+33 | File | `/opac/Actions.php?a=login` | High
+34 | File | `/out.php` | Medium
+35 | File | `/php-opos/index.php` | High
+36 | File | `/PreviewHandler.ashx` | High
+37 | File | `/proxy` | Low
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/Redcock-Farm/farm/category.php` | High
+40 | File | `/reports/rwservlet` | High
+41 | File | `/reservation/add_message.php` | High
+42 | File | `/spip.php` | Medium
+43 | File | `/uncpath/` | Medium
+44 | File | `/uploads/exam_question/` | High
+45 | File | `/user/updatePwd` | High
+46 | File | `/user/update_booking.php` | High
+47 | File | `/var/lib/docker/<remapping>` | High
+48 | File | `/wireless/security.asp` | High
+49 | File | `/wp-admin/admin-ajax.php` | High
+50 | File | `01article.php` | High
+51 | File | `a-forms.php` | Medium
+52 | File | `AbstractScheduleJob.java` | High
+53 | File | `actionphp/download.File.php` | High
+54 | File | `activenews_view.asp` | High
+55 | File | `adclick.php` | Medium
+56 | File | `admin.a6mambocredits.php` | High
+57 | File | `admin.cropcanvas.php` | High
+58 | File | `admin.php` | Medium
+59 | File | `admin/abc.php` | High
+60 | File | `admin/admin.php?action=users&mode=info&user=2` | High
+61 | File | `admin/admin/adminsave.html` | High
+62 | File | `admin/asset/grid-proxy` | High
+63 | File | `admin/auditTrail.jsf` | High
+64 | File | `admin/conf_users_edit.php` | High
+65 | File | `admin/disapprove_user.php` | High
+66 | ... | ... | ...
 
-There are 603 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -170,6 +168,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/18.134.141.72
 * https://search.censys.io/hosts/18.163.6.122
 * https://search.censys.io/hosts/18.176.20.234
+* https://search.censys.io/hosts/18.176.35.161
 * https://search.censys.io/hosts/18.177.226.88
 * https://search.censys.io/hosts/18.178.244.246
 * https://search.censys.io/hosts/18.182.126.252
@@ -188,6 +187,8 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://search.censys.io/hosts/37.119.57.169
 * https://search.censys.io/hosts/37.119.57.195
 * https://search.censys.io/hosts/43.207.8.102
+* https://search.censys.io/hosts/47.252.28.13
+* https://search.censys.io/hosts/50.16.83.73
 * https://search.censys.io/hosts/50.116.29.40
 * https://search.censys.io/hosts/51.77.112.254
 * https://search.censys.io/hosts/52.68.31.77

@@ -20,10 +20,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [185.215.113.100](https://vuldb.com/?ip.185.215.113.100) | - | [ERMAC-2](https://vuldb.com/?actor.ermac-2) | High
 2 | [193.106.191.116](https://vuldb.com/?ip.193.106.191.116) | - | [ERMAC-2](https://vuldb.com/?actor.ermac-2) | High
-3 | [193.106.191.118](https://vuldb.com/?ip.193.106.191.118) | - | [ERMAC-2](https://vuldb.com/?actor.ermac-2) | High
+3 | [193.106.191.121](https://vuldb.com/?ip.193.106.191.121) | - | [ERMAC-2](https://vuldb.com/?actor.ermac-2) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 

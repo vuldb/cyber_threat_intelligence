@@ -20,10 +20,10 @@ ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
 1 | [109.71.45.115](https://vuldb.com/?ip.109.71.45.115) | smtp-out.wisdomgroup.pt | [Equation](https://vuldb.com/?actor.equation) | High
 2 | [173.204.235.196](https://vuldb.com/?ip.173.204.235.196) | - | [Equation](https://vuldb.com/?actor.equation) | High
-3 | [173.204.235.201](https://vuldb.com/?ip.173.204.235.201) | - | [Equation](https://vuldb.com/?actor.equation) | High
+3 | [173.204.235.204](https://vuldb.com/?ip.173.204.235.204) | - | [Equation](https://vuldb.com/?actor.equation) | High
 4 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## References
 

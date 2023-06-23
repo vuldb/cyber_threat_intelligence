@@ -8,8 +8,8 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with YoroTrooper:
 
-* [US](https://vuldb.com/?country.us)
 * [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
@@ -50,16 +50,17 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/index2.html` | High
-2 | File | `/jeecg-boot/sys/common/upload` | High
-3 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
-4 | File | `/uncpath/` | Medium
-5 | File | `/usr/sbin/nagios` | High
-6 | File | `/zm/index.php` | High
-7 | File | `admin/admin.php` | High
-8 | File | `admin/moduleinterface.php` | High
-9 | ... | ... | ...
+2 | File | `/devices/ProcessRequest.do` | High
+3 | File | `/jeecg-boot/sys/common/upload` | High
+4 | File | `/thruk/#cgi-bin/extinfo.cgi?type=2` | High
+5 | File | `/uncpath/` | Medium
+6 | File | `/usr/sbin/nagios` | High
+7 | File | `/web/entry/en/address/adrsSetUserWizard.cgi` | High
+8 | File | `/zm/index.php` | High
+9 | File | `admin/admin.php` | High
+10 | ... | ... | ...
 
-There are 70 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 73 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

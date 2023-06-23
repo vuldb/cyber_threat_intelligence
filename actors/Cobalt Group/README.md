@@ -63,40 +63,40 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/sign/out` | High
 12 | File | `/api/common/ping` | High
 13 | File | `/api/v2/open/tablesInfo` | High
-14 | File | `/asms/classes/Master.php?f=delete_img` | High
-15 | File | `/catcompany.php` | High
-16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/classes/Users.php` | High
-18 | File | `/cms/notify` | Medium
-19 | File | `/depotHead/list` | High
-20 | File | `/device/signin` | High
-21 | File | `/fusiondirectory/index.php` | High
-22 | File | `/goform/addressNat` | High
-23 | File | `/goform/fast_setting_wifi_set` | High
-24 | File | `/goform/RGFirewallEL` | High
-25 | File | `/goform/WifiBasicSet` | High
-26 | File | `/HNAP1` | Low
-27 | File | `/hslist` | Low
-28 | File | `/js/player/dmplayer/dmku/index.php` | High
-29 | File | `/lists/admin/` | High
-30 | File | `/login/index.php` | High
-31 | File | `/multi-vendor-shopping-script/product-list.php` | High
-32 | File | `/myAccount` | Medium
-33 | File | `/note/index/delete` | High
-34 | File | `/operations/travellers.php` | High
-35 | File | `/php-sms/admin/orders/update_status.php` | High
-36 | File | `/php-sms/classes/Master.php?f=delete_service` | High
-37 | File | `/public/launchNewWindow.jsp` | High
-38 | File | `/release-x64/otfccdump+0x6b6a8f` | High
-39 | File | `/release-x64/otfccdump+0x6e7e3d` | High
-40 | File | `/release-x64/otfccdump+0x6e41a8` | High
+14 | File | `/api/wechat/app_auth` | High
+15 | File | `/asms/classes/Master.php?f=delete_img` | High
+16 | File | `/catcompany.php` | High
+17 | File | `/classes/Master.php?f=delete_appointment` | High
+18 | File | `/classes/Users.php` | High
+19 | File | `/cms/notify` | Medium
+20 | File | `/depotHead/list` | High
+21 | File | `/device/signin` | High
+22 | File | `/fusiondirectory/index.php` | High
+23 | File | `/goform/addressNat` | High
+24 | File | `/goform/fast_setting_wifi_set` | High
+25 | File | `/goform/RGFirewallEL` | High
+26 | File | `/goform/WifiBasicSet` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/hslist` | Low
+29 | File | `/js/player/dmplayer/dmku/index.php` | High
+30 | File | `/lists/admin/` | High
+31 | File | `/login/index.php` | High
+32 | File | `/multi-vendor-shopping-script/product-list.php` | High
+33 | File | `/myAccount` | Medium
+34 | File | `/note/index/delete` | High
+35 | File | `/operations/travellers.php` | High
+36 | File | `/php-sms/admin/orders/update_status.php` | High
+37 | File | `/php-sms/classes/Master.php?f=delete_service` | High
+38 | File | `/public/launchNewWindow.jsp` | High
+39 | File | `/release-x64/otfccdump+0x6b6a8f` | High
+40 | File | `/release-x64/otfccdump+0x6e7e3d` | High
 41 | File | `/rukovoditel/index.php?module=users/login` | High
 42 | File | `/SVFE2/pages/feegroups/mcc_group.jsf` | High
 43 | File | `/sys/duplicate/check` | High
 44 | File | `/timeline2.php` | High
 45 | ... | ... | ...
 
-There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 390 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

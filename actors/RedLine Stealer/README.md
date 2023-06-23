@@ -829,9 +829,10 @@ ID | IP address | Hostname | Campaign | Confidence
 806 | [45.150.67.126](https://vuldb.com/?ip.45.150.67.126) | example.com | - | High
 807 | [45.150.67.128](https://vuldb.com/?ip.45.150.67.128) | vpn2529md.com | - | High
 808 | [45.150.67.151](https://vuldb.com/?ip.45.150.67.151) | vm1279157.stark-industries.solutions | - | High
-809 | ... | ... | ... | ...
+809 | [45.150.67.236](https://vuldb.com/?ip.45.150.67.236) | licher2.lone.example.com | - | High
+810 | ... | ... | ... | ...
 
-There are 3234 more IOC items available. Please use our online service to access the data.
+There are 3235 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -864,54 +865,54 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/maintenance/brand.php` | High
 9 | File | `/admin/maintenance/view_designation.php` | High
 10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin/userprofile.php` | High
-13 | File | `/admin/voters_row.php` | High
-14 | File | `/ajax.php?action=save_company` | High
-15 | File | `/ajax.php?action=save_user` | High
-16 | File | `/ajax/myshop` | Medium
-17 | File | `/alerts/alertConfigField.php` | High
-18 | File | `/api/stl/actions/search` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/authenticationendpoint/login.do` | High
-21 | File | `/backup.pl` | Medium
-22 | File | `/cas/logout` | Medium
-23 | File | `/cgi-bin` | Medium
-24 | File | `/cgi-bin/system_mgr.cgi` | High
-25 | File | `/contactform/contactform.php` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/DXR.axd` | Medium
-29 | File | `/env` | Low
-30 | File | `/feeds/post/publish` | High
-31 | File | `/film-rating.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/WifiGuestSet` | High
-34 | File | `/inc/jquery/uploadify/uploadify.php` | High
-35 | File | `/inc/topBarNav.php` | High
-36 | File | `/index.php` | Medium
-37 | File | `/index.php?app=main&func=passport&action=login` | High
-38 | File | `/index.php?page=category_list` | High
-39 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-40 | File | `/jobinfo/` | Medium
-41 | File | `/kelas/data` | Medium
-42 | File | `/kelasdosen/data` | High
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/mantis/view_all_bug_page.php` | High
-45 | File | `/modules/projects/vw_files.php` | High
-46 | File | `/Moosikay/order.php` | High
-47 | File | `/nasm/nasm-parse.c` | High
-48 | File | `/opac/Actions.php?a=login` | High
-49 | File | `/out.php` | Medium
-50 | File | `/PreviewHandler.ashx` | High
-51 | File | `/reservation/add_message.php` | High
-52 | File | `/see_more_details.php` | High
-53 | File | `/services/indexing/preview` | High
-54 | File | `/student/bookdetails.php` | High
-55 | File | `/upgrade` | Medium
+11 | File | `/admin/positions_add.php` | High
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/admin/userprofile.php` | High
+14 | File | `/admin/voters_row.php` | High
+15 | File | `/ajax.php?action=save_company` | High
+16 | File | `/ajax.php?action=save_user` | High
+17 | File | `/ajax/myshop` | Medium
+18 | File | `/alerts/alertConfigField.php` | High
+19 | File | `/api/stl/actions/search` | High
+20 | File | `/api/v2/cli/commands` | High
+21 | File | `/authenticationendpoint/login.do` | High
+22 | File | `/backup.pl` | Medium
+23 | File | `/cas/logout` | Medium
+24 | File | `/cgi-bin` | Medium
+25 | File | `/cgi-bin/system_mgr.cgi` | High
+26 | File | `/contactform/contactform.php` | High
+27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+28 | File | `/dcim/rack-roles/` | High
+29 | File | `/DXR.axd` | Medium
+30 | File | `/env` | Low
+31 | File | `/feeds/post/publish` | High
+32 | File | `/film-rating.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/WifiGuestSet` | High
+35 | File | `/inc/jquery/uploadify/uploadify.php` | High
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/index.php?page=category_list` | High
+40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+41 | File | `/jobinfo/` | Medium
+42 | File | `/kelas/data` | Medium
+43 | File | `/kelasdosen/data` | High
+44 | File | `/librarian/bookdetails.php` | High
+45 | File | `/mantis/view_all_bug_page.php` | High
+46 | File | `/modules/projects/vw_files.php` | High
+47 | File | `/Moosikay/order.php` | High
+48 | File | `/nasm/nasm-parse.c` | High
+49 | File | `/opac/Actions.php?a=login` | High
+50 | File | `/out.php` | Medium
+51 | File | `/PreviewHandler.ashx` | High
+52 | File | `/reservation/add_message.php` | High
+53 | File | `/see_more_details.php` | High
+54 | File | `/services/indexing/preview` | High
+55 | File | `/student/bookdetails.php` | High
 56 | ... | ... | ...
 
-There are 490 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -951,6 +952,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/82ec3045-fea7-4e48-bdb0-3b4387daf0ea
 * https://app.any.run/tasks/83ddae45-68bc-4863-9740-899497396e5c
 * https://app.any.run/tasks/91f32395-7c7e-41a9-8174-4e651c4715dc/
+* https://app.any.run/tasks/173b2306-33e2-4682-b1fa-e87457e7c8ab
 * https://app.any.run/tasks/524dba93-413b-40c0-8e80-71f9a878ee1c
 * https://app.any.run/tasks/532df5b1-d120-415d-9bd1-7ac9883f8e25
 * https://app.any.run/tasks/856e6eb5-9f60-46ff-a46c-7d7cbf704f02

@@ -100,34 +100,34 @@ ID | Type | Indicator | Confidence
 17 | File | `/api/stl/actions/search` | High
 18 | File | `/api/v2/cli/commands` | High
 19 | File | `/APR/login.php` | High
-20 | File | `/bin/httpd` | Medium
-21 | File | `/boat/login.php` | High
-22 | File | `/cgi-bin` | Medium
-23 | File | `/cgi-bin/wapopen` | High
-24 | File | `/cgi-bin/wlogin.cgi` | High
-25 | File | `/College/admin/teacher.php` | High
-26 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-27 | File | `/dcim/rack-roles/` | High
-28 | File | `/debug/pprof` | Medium
-29 | File | `/env` | Low
-30 | File | `/feeds/post/publish` | High
-31 | File | `/film-rating.php` | High
-32 | File | `/forum/away.php` | High
-33 | File | `/goform/aspForm` | High
-34 | File | `/home/masterConsole` | High
-35 | File | `/home/sendBroadcast` | High
-36 | File | `/inc/jquery/uploadify/uploadify.php` | High
-37 | File | `/inc/topBarNav.php` | High
-38 | File | `/index.php` | Medium
-39 | File | `/index.php?app=main&func=passport&action=login` | High
-40 | File | `/index.php?page=category_list` | High
-41 | File | `/jobinfo/` | Medium
-42 | File | `/kelas/data` | Medium
-43 | File | `/librarian/bookdetails.php` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/mygym/admin/index.php?view_exercises` | High
-46 | File | `/opac/Actions.php?a=login` | High
-47 | File | `/php-opos/index.php` | High
+20 | File | `/bin/ate` | Medium
+21 | File | `/bin/httpd` | Medium
+22 | File | `/boat/login.php` | High
+23 | File | `/cgi-bin` | Medium
+24 | File | `/cgi-bin/wapopen` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/College/admin/teacher.php` | High
+27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+28 | File | `/dcim/rack-roles/` | High
+29 | File | `/debug/pprof` | Medium
+30 | File | `/env` | Low
+31 | File | `/feeds/post/publish` | High
+32 | File | `/film-rating.php` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/goform/aspForm` | High
+35 | File | `/inc/jquery/uploadify/uploadify.php` | High
+36 | File | `/inc/topBarNav.php` | High
+37 | File | `/index.php` | Medium
+38 | File | `/index.php?app=main&func=passport&action=login` | High
+39 | File | `/index.php?page=category_list` | High
+40 | File | `/jobinfo/` | Medium
+41 | File | `/kelas/data` | Medium
+42 | File | `/librarian/bookdetails.php` | High
+43 | File | `/Moosikay/order.php` | High
+44 | File | `/mygym/admin/index.php?view_exercises` | High
+45 | File | `/opac/Actions.php?a=login` | High
+46 | File | `/php-opos/index.php` | High
+47 | File | `/php-sms/admin/?page=user/manage_user` | High
 48 | File | `/PreviewHandler.ashx` | High
 49 | File | `/public/launchNewWindow.jsp` | High
 50 | File | `/reservation/add_message.php` | High
@@ -147,7 +147,7 @@ ID | Type | Indicator | Confidence
 64 | File | `admin.a6mambocredits.php` | High
 65 | ... | ... | ...
 
-There are 574 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

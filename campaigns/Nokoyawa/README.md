@@ -61,11 +61,11 @@ ID | Type | Indicator | Confidence
 2 | File | `/librarian/bookdetails.php` | High
 3 | File | `/modules/projects/vw_files.php` | High
 4 | File | `/out.php` | Medium
-5 | File | `admin.php` | Medium
-6 | File | `admin.webring.docs.php` | High
+5 | File | `adclick.php` | Medium
+6 | File | `admin.php` | Medium
 7 | ... | ... | ...
 
-There are 44 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 46 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

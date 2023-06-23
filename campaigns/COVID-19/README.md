@@ -153,10 +153,10 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 20 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -168,43 +168,44 @@ ID | Type | Indicator | Confidence
 2 | File | `/?p=products` | Medium
 3 | File | `/action/wirelessConnect` | High
 4 | File | `/admin/assign/assign.php` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/curriculum/view_curriculum.php` | High
-8 | File | `/admin/departments/view_department.php` | High
-9 | File | `/admin/employee_row.php` | High
-10 | File | `/admin/maintenance/view_designation.php` | High
-11 | File | `/admin/products/manage_product.php` | High
-12 | File | `/admin/suppliers/view_details.php` | High
-13 | File | `/admin/transactions/track_shipment.php` | High
-14 | File | `/admin/user/manage_user.php` | High
-15 | File | `/admin/user/uploadImg` | High
-16 | File | `/ajax.php?action=read_msg` | High
-17 | File | `/api/admin/store/product/list` | High
-18 | File | `/api/stl/actions/search` | High
-19 | File | `/api/v2/cli/commands` | High
-20 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-21 | File | `/authenticationendpoint/login.do` | High
-22 | File | `/bin/login` | Medium
-23 | File | `/bsms_ci/index.php` | High
-24 | File | `/bsms_ci/index.php/user/edit_user/` | High
-25 | File | `/cgi-bin` | Medium
-26 | File | `/cgi-bin/kerbynet` | High
-27 | File | `/cgi-bin/wlogin.cgi` | High
-28 | File | `/classes/Master.php` | High
-29 | File | `/classes/Master.php?f=delete_item` | High
-30 | File | `/config/getuser` | High
-31 | File | `/Content/Template/root/reverse-shell.aspx` | High
-32 | File | `/download` | Medium
-33 | File | `/DXR.axd` | Medium
-34 | File | `/env` | Low
-35 | File | `/forms/doLogin` | High
-36 | File | `/forum/away.php` | High
-37 | File | `/HNAP1` | Low
-38 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-39 | ... | ... | ...
+5 | File | `/admin/contacts/organizations/edit/2` | High
+6 | File | `/admin/curriculum/view_curriculum.php` | High
+7 | File | `/admin/departments/view_department.php` | High
+8 | File | `/admin/maintenance/view_designation.php` | High
+9 | File | `/admin/products/manage_product.php` | High
+10 | File | `/admin/suppliers/view_details.php` | High
+11 | File | `/admin/user/manage_user.php` | High
+12 | File | `/admin/user/uploadImg` | High
+13 | File | `/ajax.php?action=read_msg` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+17 | File | `/authenticationendpoint/login.do` | High
+18 | File | `/bin/ate` | Medium
+19 | File | `/bin/login` | Medium
+20 | File | `/bsms_ci/index.php` | High
+21 | File | `/bsms_ci/index.php/user/edit_user/` | High
+22 | File | `/cgi-bin` | Medium
+23 | File | `/cgi-bin/kerbynet` | High
+24 | File | `/cgi-bin/luci` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/classes/Master.php` | High
+27 | File | `/classes/Master.php?f=delete_item` | High
+28 | File | `/config/getuser` | High
+29 | File | `/Content/Template/root/reverse-shell.aspx` | High
+30 | File | `/download` | Medium
+31 | File | `/DXR.axd` | Medium
+32 | File | `/env` | Low
+33 | File | `/forms/doLogin` | High
+34 | File | `/forum/away.php` | High
+35 | File | `/HNAP1` | Low
+36 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+37 | File | `/login/index.php` | High
+38 | File | `/mc` | Low
+39 | File | `/menu.html` | Medium
+40 | ... | ... | ...
 
-There are 340 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 341 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

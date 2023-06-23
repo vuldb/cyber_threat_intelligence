@@ -68,9 +68,10 @@ ID | Type | Indicator | Confidence
 17 | File | `auth-gss2.c` | Medium
 18 | File | `bcbadmSettings.jsp` | High
 19 | File | `books.php` | Medium
-20 | ... | ... | ...
+20 | File | `cgi.c` | Low
+21 | ... | ... | ...
 
-There are 168 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 169 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

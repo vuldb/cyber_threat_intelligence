@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 22 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,24 +22,25 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.39.221.47](https://vuldb.com/?ip.5.39.221.47) | - | - | High
-2 | [5.61.41.136](https://vuldb.com/?ip.5.61.41.136) | - | - | High
-3 | [5.101.78.2](https://vuldb.com/?ip.5.101.78.2) | - | - | High
-4 | [5.183.95.197](https://vuldb.com/?ip.5.183.95.197) | - | - | High
-5 | [5.199.174.179](https://vuldb.com/?ip.5.199.174.179) | - | - | High
-6 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
-7 | [20.115.47.118](https://vuldb.com/?ip.20.115.47.118) | - | - | High
-8 | [23.95.44.228](https://vuldb.com/?ip.23.95.44.228) | 23-95-44-228-host.colocrossing.com | - | High
-9 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
-10 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
-11 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
-12 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
-13 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
-14 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
-15 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
-16 | [45.32.132.182](https://vuldb.com/?ip.45.32.132.182) | 45.32.132.182.vultrusercontent.com | - | High
-17 | ... | ... | ... | ...
+2 | [5.42.65.67](https://vuldb.com/?ip.5.42.65.67) | - | - | High
+3 | [5.45.127.115](https://vuldb.com/?ip.5.45.127.115) | s0b7731cb.fastvps-server.com | - | High
+4 | [5.61.41.136](https://vuldb.com/?ip.5.61.41.136) | - | - | High
+5 | [5.101.78.2](https://vuldb.com/?ip.5.101.78.2) | - | - | High
+6 | [5.183.95.197](https://vuldb.com/?ip.5.183.95.197) | - | - | High
+7 | [5.199.174.179](https://vuldb.com/?ip.5.199.174.179) | - | - | High
+8 | [5.199.174.223](https://vuldb.com/?ip.5.199.174.223) | - | - | High
+9 | [20.115.47.118](https://vuldb.com/?ip.20.115.47.118) | - | - | High
+10 | [23.95.44.228](https://vuldb.com/?ip.23.95.44.228) | 23-95-44-228-host.colocrossing.com | - | High
+11 | [23.137.249.215](https://vuldb.com/?ip.23.137.249.215) | - | - | High
+12 | [23.227.202.22](https://vuldb.com/?ip.23.227.202.22) | 23-227-202-22.static.hvvc.us | - | High
+13 | [31.41.244.183](https://vuldb.com/?ip.31.41.244.183) | - | - | High
+14 | [31.44.185.6](https://vuldb.com/?ip.31.44.185.6) | - | - | High
+15 | [34.171.171.32](https://vuldb.com/?ip.34.171.171.32) | 32.171.171.34.bc.googleusercontent.com | - | Medium
+16 | [45.11.57.142](https://vuldb.com/?ip.45.11.57.142) | dedicated.vsys.host | - | High
+17 | [45.15.156.48](https://vuldb.com/?ip.45.15.156.48) | - | - | High
+18 | ... | ... | ... | ...
 
-There are 63 more IOC items available. Please use our online service to access the data.
+There are 66 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -54,7 +55,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,24 +102,26 @@ ID | Type | Indicator | Confidence
 37 | File | `/param.file.tgz` | High
 38 | File | `/php-jms/review_se_result.php` | High
 39 | File | `/plesk-site-preview/` | High
-40 | File | `/project/PROJECTNAME/reports/` | High
-41 | File | `/school/model/get_admin_profile.php` | High
-42 | File | `/services/prefs.php` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/Status/wan_button_action.asp` | High
-45 | File | `/student-grading-system/rms.php?page=grade` | High
-46 | File | `/template/edit` | High
-47 | File | `/text/pdf/PdfReader.java` | High
-48 | File | `/timeline2.php` | High
-49 | File | `/ucms/chk.php` | High
+40 | File | `/pms/admin/crimes/manage_crime.php` | High
+41 | File | `/project/PROJECTNAME/reports/` | High
+42 | File | `/school/model/get_admin_profile.php` | High
+43 | File | `/sitecore/shell/Invoke.aspx` | High
+44 | File | `/spip.php` | Medium
+45 | File | `/Status/wan_button_action.asp` | High
+46 | File | `/student-grading-system/rms.php?page=grade` | High
+47 | File | `/template/edit` | High
+48 | File | `/text/pdf/PdfReader.java` | High
+49 | File | `/timeline2.php` | High
 50 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 438 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/6b4a52a0-4bbe-4c57-a196-a7c0e3425220/
+* https://app.any.run/tasks/e6fbe61e-e881-4b8f-8a2b-cd226715c389/
 * https://bazaar.abuse.ch/sample/040aa152e739826874a268f4ffb8be80dd256e7817cdb2c25329d25a5264671e/
 * https://bazaar.abuse.ch/sample/2a1ba880f0cacda99db3eed861bc738a3f8ec6cac2518da431c446851fb4f923/
 * https://bazaar.abuse.ch/sample/4aec64f64812b8ed41eebe2d561d166b6dc9c16f2a856f7d10408ec83f493c06/
@@ -132,6 +135,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/742a97dbebd3f760b215186d04655dfcaf3846b40d3390a2db9bd7ee5f3d3266/
 * https://bazaar.abuse.ch/sample/998b16d93ed1043b616cddfcae2cbe10b6f4ae05b9bbd1abed4a99ad11205444/
 * https://bazaar.abuse.ch/sample/49763b5871eae34139060e486a62817242212a549593a1875a5221655b510334/
+* https://bazaar.abuse.ch/sample/835089cc52af94cdcdf26ab335f8a4fe4719071746539acf472579fa2fc8e4f9/
 * https://bazaar.abuse.ch/sample/a2bf4098b65e0efb8bc9cba70cfb5e36d01de5f591d100bb429a5dc3ef6c3bc3/
 * https://bazaar.abuse.ch/sample/ca958072c2483f5cfab83972b3e5a25a163eed2d0d6df7d310ddf200a6fec53c/
 * https://bazaar.abuse.ch/sample/f0c40cd7b07913d9ed925ebc130d4263850aeb2e16c32c47214d2b5989bbf4f5/

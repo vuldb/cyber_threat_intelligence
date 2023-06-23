@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [98.144.56.47](https://vuldb.com/?ip.98.144.56.47) | cpe-98-144-56-47.wi.res.rr.com | - | High
 4 | ... | ... | ... | ...
 
-There are 6 more IOC items available. Please use our online service to access the data.
+There are 7 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -66,6 +66,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://community.blueliv.com/#!/s/61126ed882df413eb5357b59
 * https://threatfox.abuse.ch/ioc/715905/
+* https://www.anomali.com/blog/the-ech0raix-ransomware#When:14:00:00Z
 
 ## Literature
 

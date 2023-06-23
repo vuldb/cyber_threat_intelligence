@@ -104,34 +104,34 @@ ID | Type | Indicator | Confidence
 34 | File | `/websocket/exec` | High
 35 | File | `access.conf` | Medium
 36 | File | `adclick.php` | Medium
-37 | File | `admin.php` | Medium
-38 | File | `admin.php?m=backup&c=backup&a=doback` | High
-39 | File | `admin.remository.php` | High
-40 | File | `admin/admin_users.php` | High
-41 | File | `admin/login.php` | High
-42 | File | `admin/upload.php` | High
-43 | File | `administers` | Medium
-44 | File | `Administrator_list.php` | High
-45 | File | `advancedsetup_websiteblocking.html` | High
-46 | File | `affich.php` | Medium
-47 | File | `ajax_mail_autoreply.php` | High
-48 | File | `ajax_save_name.php` | High
-49 | File | `album_portal.php` | High
-50 | File | `allocator.cc` | Medium
-51 | File | `announcements.php` | High
-52 | File | `ap1.com` | Low
-53 | File | `apache2/modsecurity.c` | High
-54 | File | `api_jsonrpc.php` | High
-55 | File | `app/admin/controller/Ajax.php` | High
-56 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
-57 | File | `application.php` | High
-58 | File | `apply.cgi` | Medium
-59 | File | `asp:.jpg` | Medium
-60 | File | `authfiles/login.asp` | High
-61 | File | `bb_usage_stats.php` | High
+37 | File | `addsuppliers.php` | High
+38 | File | `admin.php` | Medium
+39 | File | `admin.php?m=backup&c=backup&a=doback` | High
+40 | File | `admin.remository.php` | High
+41 | File | `admin/admin_users.php` | High
+42 | File | `admin/login.php` | High
+43 | File | `admin/upload.php` | High
+44 | File | `administers` | Medium
+45 | File | `Administrator_list.php` | High
+46 | File | `advancedsetup_websiteblocking.html` | High
+47 | File | `affich.php` | Medium
+48 | File | `ajax_mail_autoreply.php` | High
+49 | File | `ajax_save_name.php` | High
+50 | File | `album_portal.php` | High
+51 | File | `allocator.cc` | Medium
+52 | File | `announcements.php` | High
+53 | File | `ap1.com` | Low
+54 | File | `apache2/modsecurity.c` | High
+55 | File | `api_jsonrpc.php` | High
+56 | File | `app/admin/controller/Ajax.php` | High
+57 | File | `App/Modules/Admin/Tpl/default/Public/dwz/uploadify/scripts/uploadify.swf` | High
+58 | File | `application.php` | High
+59 | File | `apply.cgi` | Medium
+60 | File | `asp:.jpg` | Medium
+61 | File | `authfiles/login.asp` | High
 62 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

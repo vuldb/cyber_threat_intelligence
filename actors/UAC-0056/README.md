@@ -100,18 +100,18 @@ ID | Type | Indicator | Confidence
 38 | File | `/isomedia/box_funcs.c` | High
 39 | File | `/isomedia/meta.c` | High
 40 | File | `/kruxton/receipt.php` | High
-41 | File | `/pages/animals.php` | High
-42 | File | `/pages/apply_vacancy.php` | High
-43 | File | `/php-sms/admin/?page=services/manage_service` | High
-44 | File | `/php_action/editProductImage.php` | High
-45 | File | `/plesk-site-preview/` | High
-46 | File | `/project/PROJECTNAME/reports/` | High
-47 | File | `/sacco_shield/manage_loan.php` | High
-48 | File | `/scene_manager/scene_dump.c` | High
-49 | File | `/school/model/get_admin_profile.php` | High
+41 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+42 | File | `/pages/animals.php` | High
+43 | File | `/pages/apply_vacancy.php` | High
+44 | File | `/php-sms/admin/?page=services/manage_service` | High
+45 | File | `/php_action/editProductImage.php` | High
+46 | File | `/plesk-site-preview/` | High
+47 | File | `/project/PROJECTNAME/reports/` | High
+48 | File | `/sacco_shield/manage_loan.php` | High
+49 | File | `/scene_manager/scene_dump.c` | High
 50 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

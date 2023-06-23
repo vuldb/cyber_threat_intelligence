@@ -129,20 +129,20 @@ ID | Type | Indicator | Confidence
 19 | File | `/api/baskets/{name}` | High
 20 | File | `/api/stl/actions/search` | High
 21 | File | `/apply.cgi` | Medium
-22 | File | `/cgi-bin/mainfunction.cgi` | High
-23 | File | `/cgi-bin/touchlist_sync.cgi` | High
-24 | File | `/classes/Master.php` | High
-25 | File | `/config/api/v1/reboot` | High
-26 | File | `/DXR.axd` | Medium
-27 | File | `/etc/shadow` | Medium
-28 | File | `/file_manager/admin/save_user.php` | High
-29 | File | `/forum/away.php` | High
-30 | File | `/forum/PostPrivateMessage` | High
-31 | File | `/forums.php?action=post` | High
-32 | File | `/fos/admin/ajax.php?action=login` | High
-33 | File | `/fos/admin/index.php?page=menu` | High
-34 | File | `/goForm/aspForm` | High
-35 | File | `/goform/WifiBasicSet` | High
+22 | File | `/booking/show_bookings/` | High
+23 | File | `/cgi-bin/mainfunction.cgi` | High
+24 | File | `/cgi-bin/touchlist_sync.cgi` | High
+25 | File | `/classes/Master.php` | High
+26 | File | `/config/api/v1/reboot` | High
+27 | File | `/DXR.axd` | Medium
+28 | File | `/etc/shadow` | Medium
+29 | File | `/file_manager/admin/save_user.php` | High
+30 | File | `/forum/away.php` | High
+31 | File | `/forum/PostPrivateMessage` | High
+32 | File | `/forums.php?action=post` | High
+33 | File | `/fos/admin/ajax.php?action=login` | High
+34 | File | `/fos/admin/index.php?page=menu` | High
+35 | File | `/goForm/aspForm` | High
 36 | File | `/hss/admin/?page=client/manage_client` | High
 37 | File | `/index.php?app=main&func=passport&action=login` | High
 38 | File | `/kelas/data` | Medium
@@ -159,7 +159,7 @@ ID | Type | Indicator | Confidence
 49 | File | `/u/username.json` | High
 50 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

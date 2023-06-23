@@ -38,7 +38,7 @@ ID | IP address | Hostname | Actor | Confidence
 7 | [142.93.75.192](https://vuldb.com/?ip.142.93.75.192) | - | [OceanLotus](https://vuldb.com/?actor.oceanlotus) | High
 8 | ... | ... | ... | ...
 
-There are 29 more IOC items available. Please use our online service to access the data.
+There are 28 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,17 +62,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/.env` | Low
 2 | File | `/admin_system/api.php` | High
-3 | File | `/maint/index.php` | High
-4 | File | `/see_more_details.php` | High
-5 | File | `/shopping/product.php` | High
-6 | File | `adclick.php` | Medium
-7 | File | `admin.php` | Medium
-8 | File | `admsession.php` | High
-9 | File | `al_initialize.php` | High
-10 | File | `blocks/block-Old_Articles.php` | High
+3 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+4 | File | `/maint/index.php` | High
+5 | File | `/see_more_details.php` | High
+6 | File | `/shopping/product.php` | High
+7 | File | `adclick.php` | Medium
+8 | File | `admin.php` | Medium
+9 | File | `admsession.php` | High
+10 | File | `al_initialize.php` | High
 11 | ... | ... | ...
 
-There are 84 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 87 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

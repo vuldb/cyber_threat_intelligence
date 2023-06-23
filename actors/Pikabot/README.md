@@ -21,15 +21,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [38.54.33.239](https://vuldb.com/?ip.38.54.33.239) | - | - | High
-2 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
-3 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
-4 | [67.21.33.188](https://vuldb.com/?ip.67.21.33.188) | oy5bj6thee.ah1556.com | - | High
-5 | [67.21.33.208](https://vuldb.com/?ip.67.21.33.208) | rcs92zewb1.absolutehomecarekent.com | - | High
-6 | [76.115.120.231](https://vuldb.com/?ip.76.115.120.231) | c-76-115-120-231.hsd1.or.comcast.net | - | High
-7 | [81.254.128.85](https://vuldb.com/?ip.81.254.128.85) | lfbn-lil-1-546-85.w81-254.abo.wanadoo.fr | - | High
-8 | [85.215.162.167](https://vuldb.com/?ip.85.215.162.167) | ip85.215.162.167.pbiaas.com | - | High
-9 | ... | ... | ... | ...
+1 | [8.20.255.249](https://vuldb.com/?ip.8.20.255.249) | - | - | High
+2 | [38.54.33.239](https://vuldb.com/?ip.38.54.33.239) | - | - | High
+3 | [45.85.235.39](https://vuldb.com/?ip.45.85.235.39) | - | - | High
+4 | [45.154.24.57](https://vuldb.com/?ip.45.154.24.57) | - | - | High
+5 | [67.21.33.188](https://vuldb.com/?ip.67.21.33.188) | oy5bj6thee.ah1556.com | - | High
+6 | [67.21.33.208](https://vuldb.com/?ip.67.21.33.208) | rcs92zewb1.absolutehomecarekent.com | - | High
+7 | [76.115.120.231](https://vuldb.com/?ip.76.115.120.231) | c-76-115-120-231.hsd1.or.comcast.net | - | High
+8 | [81.254.128.85](https://vuldb.com/?ip.81.254.128.85) | lfbn-lil-1-546-85.w81-254.abo.wanadoo.fr | - | High
+9 | [85.215.162.167](https://vuldb.com/?ip.85.215.162.167) | ip85.215.162.167.pbiaas.com | - | High
+10 | ... | ... | ... | ...
 
 There are 34 more IOC items available. Please use our online service to access the data.
 
@@ -61,7 +62,7 @@ ID | Type | Indicator | Confidence
 7 | File | `/proc/self/environ` | High
 8 | ... | ... | ...
 
-There are 53 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 56 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

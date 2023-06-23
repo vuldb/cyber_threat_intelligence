@@ -51,25 +51,26 @@ ID | IP address | Hostname | Campaign | Confidence
 28 | [37.120.247.13](https://vuldb.com/?ip.37.120.247.13) | - | - | High
 29 | [37.221.114.90](https://vuldb.com/?ip.37.221.114.90) | - | - | High
 30 | [45.9.168.40](https://vuldb.com/?ip.45.9.168.40) | - | - | High
-31 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
-32 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
-33 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
-34 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
-35 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
-36 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
-37 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
-38 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
-39 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
-40 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
-41 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
-42 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
-43 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
-44 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
-45 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
-46 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
-47 | ... | ... | ... | ...
+31 | [45.12.253.130](https://vuldb.com/?ip.45.12.253.130) | - | - | High
+32 | [45.61.168.73](https://vuldb.com/?ip.45.61.168.73) | - | - | High
+33 | [45.66.230.68](https://vuldb.com/?ip.45.66.230.68) | - | - | High
+34 | [45.66.230.138](https://vuldb.com/?ip.45.66.230.138) | - | - | High
+35 | [45.87.61.211](https://vuldb.com/?ip.45.87.61.211) | - | - | High
+36 | [45.88.67.63](https://vuldb.com/?ip.45.88.67.63) | - | - | High
+37 | [45.88.67.229](https://vuldb.com/?ip.45.88.67.229) | - | - | High
+38 | [45.95.169.160](https://vuldb.com/?ip.45.95.169.160) | - | - | High
+39 | [45.133.1.47](https://vuldb.com/?ip.45.133.1.47) | - | - | High
+40 | [45.133.1.72](https://vuldb.com/?ip.45.133.1.72) | - | - | High
+41 | [45.133.174.157](https://vuldb.com/?ip.45.133.174.157) | - | - | High
+42 | [45.137.22.89](https://vuldb.com/?ip.45.137.22.89) | hosted-by.rootlayer.net | - | High
+43 | [45.137.22.131](https://vuldb.com/?ip.45.137.22.131) | hosted-by.rootlayer.net | - | High
+44 | [45.137.22.141](https://vuldb.com/?ip.45.137.22.141) | hosted-by.rootlayer.net | - | High
+45 | [45.137.22.150](https://vuldb.com/?ip.45.137.22.150) | hosted-by.rootlayer.net | - | High
+46 | [45.137.22.170](https://vuldb.com/?ip.45.137.22.170) | hosted-by.rootlayer.net | - | High
+47 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
+48 | ... | ... | ... | ...
 
-There are 185 more IOC items available. Please use our online service to access the data.
+There are 186 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -84,7 +85,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 21 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -102,60 +103,61 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/index2.html` | High
 9 | File | `/admin/maintenance/brand.php` | High
 10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/user/manage_user.php` | High
-12 | File | `/admin/voters_row.php` | High
-13 | File | `/ad_js.php` | Medium
-14 | File | `/agc/vicidial.php` | High
-15 | File | `/ajax.php?action=save_company` | High
-16 | File | `/ajax.php?action=save_user` | High
-17 | File | `/ajax/myshop` | Medium
-18 | File | `/alphaware/summary.php` | High
-19 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-20 | File | `/api/` | Low
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/api/gen/clients/{language}` | High
-23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/APR/signup.php` | High
-26 | File | `/authenticationendpoint/login.do` | High
-27 | File | `/aux` | Low
-28 | File | `/backup.pl` | Medium
-29 | File | `/boat/login.php` | High
-30 | File | `/cas/logout` | Medium
-31 | File | `/categorypage.php` | High
-32 | File | `/cgi-bin` | Medium
-33 | File | `/cgi-bin/system_mgr.cgi` | High
-34 | File | `/cgi-bin/wlogin.cgi` | High
-35 | File | `/cha.php` | Medium
-36 | File | `/College/admin/teacher.php` | High
-37 | File | `/contactform/contactform.php` | High
-38 | File | `/dayrui/Fcms/View/system_log.html` | High
-39 | File | `/debug/pprof` | Medium
-40 | File | `/drivers/block/floppy.c` | High
-41 | File | `/ecommerce/admin/category/controller.php` | High
-42 | File | `/env` | Low
-43 | File | `/etc/config/product.ini` | High
-44 | File | `/etc/shadow` | Medium
-45 | File | `/eval/admin/manage_class.php` | High
-46 | File | `/fos/admin/ajax.php` | High
-47 | File | `/goform/aspForm` | High
-48 | File | `/goform/WifiGuestSet` | High
-49 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-50 | File | `/kelasdosen/data` | High
-51 | File | `/modules/projects/vw_files.php` | High
-52 | File | `/Moosikay/order.php` | High
-53 | File | `/multi-vendor-shopping-script/product-list.php` | High
-54 | File | `/nasm/nasm-parse.c` | High
-55 | File | `/ordering/admin/orders/loaddata.php` | High
-56 | File | `/ordering/admin/stockin/loaddata.php` | High
-57 | File | `/philosophy/admin/login.php` | High
-58 | File | `/php-opos/login.php` | High
-59 | File | `/priv_mgt.html` | High
-60 | File | `/reservation/add_message.php` | High
-61 | File | `/resources//../` | High
-62 | ... | ... | ...
+11 | File | `/admin/positions_add.php` | High
+12 | File | `/admin/user/manage_user.php` | High
+13 | File | `/admin/voters_row.php` | High
+14 | File | `/ad_js.php` | Medium
+15 | File | `/agc/vicidial.php` | High
+16 | File | `/ajax.php?action=save_company` | High
+17 | File | `/ajax.php?action=save_user` | High
+18 | File | `/ajax/myshop` | Medium
+19 | File | `/alphaware/summary.php` | High
+20 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+21 | File | `/api/` | Low
+22 | File | `/api/admin/store/product/list` | High
+23 | File | `/api/gen/clients/{language}` | High
+24 | File | `/api/stl/actions/search` | High
+25 | File | `/api/v2/cli/commands` | High
+26 | File | `/APR/signup.php` | High
+27 | File | `/authenticationendpoint/login.do` | High
+28 | File | `/aux` | Low
+29 | File | `/backup.pl` | Medium
+30 | File | `/bin/ate` | Medium
+31 | File | `/boat/login.php` | High
+32 | File | `/cas/logout` | Medium
+33 | File | `/categorypage.php` | High
+34 | File | `/cgi-bin` | Medium
+35 | File | `/cgi-bin/system_mgr.cgi` | High
+36 | File | `/cgi-bin/wlogin.cgi` | High
+37 | File | `/cha.php` | Medium
+38 | File | `/College/admin/teacher.php` | High
+39 | File | `/contactform/contactform.php` | High
+40 | File | `/dayrui/Fcms/View/system_log.html` | High
+41 | File | `/debug/pprof` | Medium
+42 | File | `/drivers/block/floppy.c` | High
+43 | File | `/ecommerce/admin/category/controller.php` | High
+44 | File | `/env` | Low
+45 | File | `/etc/shadow` | Medium
+46 | File | `/eval/admin/manage_class.php` | High
+47 | File | `/fos/admin/ajax.php` | High
+48 | File | `/goform/aspForm` | High
+49 | File | `/goform/WifiGuestSet` | High
+50 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+51 | File | `/kelasdosen/data` | High
+52 | File | `/modules/projects/vw_files.php` | High
+53 | File | `/Moosikay/order.php` | High
+54 | File | `/multi-vendor-shopping-script/product-list.php` | High
+55 | File | `/nasm/nasm-parse.c` | High
+56 | File | `/ordering/admin/orders/loaddata.php` | High
+57 | File | `/ordering/admin/stockin/loaddata.php` | High
+58 | File | `/philosophy/admin/login.php` | High
+59 | File | `/php-opos/login.php` | High
+60 | File | `/php-sms/admin/?page=user/manage_user` | High
+61 | File | `/priv_mgt.html` | High
+62 | File | `/reservation/add_message.php` | High
+63 | ... | ... | ...
 
-There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

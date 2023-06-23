@@ -18,6 +18,7 @@ These _actors_ are associated with XBash or other actors linked to the campaign.
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Iron](https://vuldb.com/?actor.iron) | High
+2 | [Xbash](https://vuldb.com/?actor.xbash) | High
 
 ## IOC - Indicator of Compromise
 
@@ -25,8 +26,8 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [142.44.215.177](https://vuldb.com/?ip.142.44.215.177) | ns554604.ip-142-44-215.net | [Iron](https://vuldb.com/?actor.iron) | High
-2 | [144.217.61.147](https://vuldb.com/?ip.144.217.61.147) | ip147.ip-144-217-61.net | [Iron](https://vuldb.com/?actor.iron) | High
+1 | [142.44.215.177](https://vuldb.com/?ip.142.44.215.177) | ns554604.ip-142-44-215.net | [Xbash](https://vuldb.com/?actor.xbash) | High
+2 | [144.217.61.147](https://vuldb.com/?ip.144.217.61.147) | ip147.ip-144-217-61.net | [Xbash](https://vuldb.com/?actor.xbash) | High
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -85,13 +86,14 @@ ID | Type | Indicator | Confidence
 33 | File | `/magnoliaAuthor/.magnolia/` | High
 34 | ... | ... | ...
 
-There are 288 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 287 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://unit42.paloaltonetworks.com/unit42-xbash-combines-botnet-ransomware-coinmining-worm-targets-linux-windows/
+* https://www.cyber45.com
 
 ## Literature
 

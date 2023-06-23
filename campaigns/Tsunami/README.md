@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Tsunami:
 
+* [VN](https://vuldb.com/?country.vn)
 * [CN](https://vuldb.com/?country.cn)
-* [ES](https://vuldb.com/?country.es)
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -42,7 +42,7 @@ ID | IP address | Hostname | Actor | Confidence
 10 | [45.9.148.44](https://vuldb.com/?ip.45.9.148.44) | - | [Tsunami](https://vuldb.com/?actor.tsunami) | High
 11 | ... | ... | ... | ...
 
-There are 39 more IOC items available. Please use our online service to access the data.
+There are 41 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,15 +50,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
-2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-29, CWE-37, CWE-425 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-274, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -67,63 +66,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `.htaccess` | Medium
-2 | File | `.pref.xml` | Medium
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `/Admin/add-student.php` | High
-5 | File | `/admin/edit-doc.php` | High
-6 | File | `/admin/transactions/update_status.php` | High
-7 | File | `/api/user/password/sent-reset-email` | High
-8 | File | `/ApplicationBanner` | High
-9 | File | `/bin/appmgr` | Medium
-10 | File | `/cgi-bin/koha/acqui/supplier.pl?op=enter` | High
-11 | File | `/cgi-bin/luci` | High
-12 | File | `/cgi/ansi` | Medium
-13 | File | `/ClickAndBanexDemo/admin/admin.asp` | High
-14 | File | `/config/getuser` | High
-15 | File | `/debug/pprof` | Medium
-16 | File | `/env` | Low
-17 | File | `/etc/gsissh/sshd_config` | High
-18 | File | `/etc/passwd` | Medium
-19 | File | `/forum/away.php` | High
-20 | File | `/getcfg.php` | Medium
-21 | File | `/goform/SetNetControlList` | High
-22 | File | `/goform/setWorkmode` | High
-23 | File | `/goform/telnet` | High
-24 | File | `/goform/WanParameterSetting` | High
-25 | File | `/HNAP1` | Low
-26 | File | `/home.jsp` | Medium
-27 | File | `/include/makecvs.php` | High
-28 | File | `/includes/common.inc.php` | High
-29 | File | `/js/app.js` | Medium
-30 | File | `/knomi/analyze` | High
-31 | File | `/mgmt/tm/util/bash` | High
-32 | File | `/monitoring` | Medium
-33 | File | `/out.php` | Medium
-34 | File | `/scripts/iisadmin/bdir.htr` | High
-35 | File | `/scripts/uistrings.cgi` | High
-36 | File | `/tmp` | Low
-37 | File | `/tmp/csman/0` | Medium
-38 | File | `/ui/cbpc/login` | High
-39 | File | `/usr/www/ja/mnt_cmd.cgi` | High
-40 | File | `/var/hnap/timestamp` | High
-41 | File | `/webmail/` | Medium
-42 | File | `/webman/info.cgi` | High
-43 | File | `/wp-content/plugins/forum-server/feed.php` | High
-44 | File | `/{ADMIN-FILE}/` | High
-45 | File | `a2billing/customer/iridium_threed.php` | High
-46 | File | `adclick.php` | Medium
-47 | File | `address.html` | Medium
-48 | File | `adm/systools.asp` | High
-49 | File | `admin/categories_industry.php` | High
-50 | File | `admin/content/postcategory` | High
-51 | ... | ... | ...
+2 | File | `//proc/kcore` | Medium
+3 | File | `/?p=products` | Medium
+4 | File | `/action/wirelessConnect` | High
+5 | File | `/admin-ajax.php?action=eps_redirect_save` | High
+6 | File | `/admin/assign/assign.php` | High
+7 | File | `/admin/cashadvance_row.php` | High
+8 | File | `/admin/contacts/organizations/edit/2` | High
+9 | File | `/admin/curriculum/view_curriculum.php` | High
+10 | File | `/admin/departments/view_department.php` | High
+11 | File | `/admin/login.php` | High
+12 | File | `/admin/maintenance/view_designation.php` | High
+13 | File | `/admin/suppliers/view_details.php` | High
+14 | File | `/admin/user/manage_user.php` | High
+15 | File | `/admin/user/uploadImg` | High
+16 | File | `/ajax.php?action=read_msg` | High
+17 | File | `/api/admin/store/product/list` | High
+18 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+19 | File | `/authenticationendpoint/login.do` | High
+20 | File | `/bin/login` | Medium
+21 | File | `/cgi-bin/kerbynet` | High
+22 | File | `/cgi-bin/luci` | High
+23 | File | `/cgi-bin/wlogin.cgi` | High
+24 | File | `/classes/Master.php` | High
+25 | File | `/classes/Master.php?f=delete_item` | High
+26 | File | `/config/getuser` | High
+27 | File | `/Content/Template/root/reverse-shell.aspx` | High
+28 | File | `/debug/pprof` | Medium
+29 | File | `/env` | Low
+30 | File | `/forms/doLogin` | High
+31 | File | `/forum/away.php` | High
+32 | File | `/HNAP1` | Low
+33 | File | `/licenses` | Medium
+34 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+35 | File | `/login/index.php` | High
+36 | File | `/mc` | Low
+37 | File | `/menu.html` | Medium
+38 | File | `/mims/login.php` | High
+39 | File | `/out.php` | Medium
+40 | ... | ... | ...
 
-There are 443 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 344 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://asec.ahnlab.com/en/54647/
 * https://bazaar.abuse.ch/sample/02acdc11b6e22b8fa19ebafb10190ac28a7f0e5ee569a058c2df825337e4447a/
 * https://bazaar.abuse.ch/sample/6c6888a75d6a62dc7414dd22d0b6a70456a108a14889b8406f7aeb8b61b34633/
 * https://bazaar.abuse.ch/sample/7c4e9e95a27147623ec5b3be81c76c131a0871d75f50b148b93e88ef6ee0b468/
@@ -146,6 +135,7 @@ The following list contains _external sources_ which discuss the campaign and th
 * https://threatfox.abuse.ch
 * https://unit42.paloaltonetworks.com/analysis-of-smoke-loader-in-new-tsunami-campaign/
 * https://urlhaus.abuse.ch/host/202.110.187.205/
+* https://www.virustotal.com/gui/file/6c0dbbd757cac412e4f80a761d0084c4dcee7d0ec46d1a0bf769474f8ed153b3
 
 ## Literature
 

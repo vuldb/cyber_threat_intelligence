@@ -35,8 +35,7 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [84.32.188.29](https://vuldb.com/?ip.84.32.188.29) | - | Cobalt Strike | High
 5 | [84.32.190.34](https://vuldb.com/?ip.84.32.190.34) | - | Ukraine | High
 6 | [87.251.64.5](https://vuldb.com/?ip.87.251.64.5) | - | - | High
-7 | [134.209.144.87](https://vuldb.com/?ip.134.209.144.87) | - | IcedID | High
-8 | ... | ... | ... | ...
+7 | ... | ... | ... | ...
 
 There are 26 more IOC items available. Please use our online service to access the data.
 
