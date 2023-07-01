@@ -104,9 +104,10 @@ ID | Type | Indicator | Confidence
 50 | File | `App\Manage\Controller\ArticleController.class.php` | High
 51 | File | `archive/index.php` | High
 52 | File | `auth-gss2.c` | Medium
-53 | ... | ... | ...
+53 | File | `backend/groups/index.php` | High
+54 | ... | ... | ...
 
-There are 459 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 466 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

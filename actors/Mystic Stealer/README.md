@@ -9,6 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Mystic Stealer:
 
 * [DE](https://vuldb.com/?country.de)
+* [RU](https://vuldb.com/?country.ru)
+* [US](https://vuldb.com/?country.us)
+* ...
+
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -16,12 +21,14 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [91.121.118.80](https://vuldb.com/?ip.91.121.118.80) | 1218.rbx.abcvg.ovh | - | High
-2 | [94.23.26.20](https://vuldb.com/?ip.94.23.26.20) | 706.rbx.abcvg.ovh | - | High
-3 | [94.130.164.47](https://vuldb.com/?ip.94.130.164.47) | static.47.164.130.94.clients.your-server.de | - | High
-4 | ... | ... | ... | ...
+1 | [5.42.94.125](https://vuldb.com/?ip.5.42.94.125) | juicy-milk.aeza.network | - | High
+2 | [5.75.183.169](https://vuldb.com/?ip.5.75.183.169) | static.169.183.75.5.clients.your-server.de | - | High
+3 | [23.163.0.179](https://vuldb.com/?ip.23.163.0.179) | mail.pnet-asp.tech | - | High
+4 | [43.154.7.225](https://vuldb.com/?ip.43.154.7.225) | - | - | High
+5 | [45.9.74.110](https://vuldb.com/?ip.45.9.74.110) | - | - | High
+6 | ... | ... | ... | ...
 
-There are 4 more IOC items available. Please use our online service to access the data.
+There are 22 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -29,12 +36,12 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1055 | CWE-74 | Injection | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-80 | Cross Site Scripting | High
+1 | T1006 | CWE-22 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 4 more TTP items available. Please use our online service to access the data.
+There are 11 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -42,17 +49,20 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/mgmt/tm/util/bash` | High
-2 | File | `adclick.php` | Medium
-3 | File | `data/gbconfiguration.dat` | High
-4 | ... | ... | ...
+1 | File | `/etc/gsissh/sshd_config` | High
+2 | File | `/film-rating.php` | High
+3 | File | `/index.php/admin/admin_manage/add.html` | High
+4 | File | `/index.php?m=tags&f=index&v=add` | High
+5 | File | `/mgmt/tm/util/bash` | High
+6 | ... | ... | ...
 
-There are 14 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 40 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://github.com/threatlabz/iocs/blob/main/mystic_stealer/c2s.txt
 * https://www.zscaler.com/blogs/security-research/mystic-stealer
 
 ## Literature

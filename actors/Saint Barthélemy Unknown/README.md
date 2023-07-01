@@ -17,15 +17,16 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.12.70.26](https://vuldb.com/?ip.45.12.70.26) | scribing.get-eye.com | - | High
-2 | [45.12.71.26](https://vuldb.com/?ip.45.12.71.26) | - | - | High
-3 | [46.36.203.51](https://vuldb.com/?ip.46.36.203.51) | - | - | High
-4 | [46.36.203.52](https://vuldb.com/?ip.46.36.203.52) | - | - | High
-5 | [64.62.204.0](https://vuldb.com/?ip.64.62.204.0) | - | - | High
-6 | [81.248.133.0](https://vuldb.com/?ip.81.248.133.0) | lpointe-a-pitre-656-1-2-net.w81-248.abo.wanadoo.fr | - | High
-7 | ... | ... | ... | ...
+1 | [23.135.232.0](https://vuldb.com/?ip.23.135.232.0) | - | - | High
+2 | [23.136.248.0](https://vuldb.com/?ip.23.136.248.0) | - | - | High
+3 | [38.92.104.0](https://vuldb.com/?ip.38.92.104.0) | - | - | High
+4 | [45.12.70.26](https://vuldb.com/?ip.45.12.70.26) | scribing.get-eye.com | - | High
+5 | [45.12.71.26](https://vuldb.com/?ip.45.12.71.26) | - | - | High
+6 | [46.36.203.51](https://vuldb.com/?ip.46.36.203.51) | - | - | High
+7 | [46.36.203.52](https://vuldb.com/?ip.46.36.203.52) | - | - | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 30 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1068 | CWE-264 | Execution with Unnecessary Privileges | High
+2 | T1068 | CWE-264 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 3 | T1505 | CWE-89 | SQL Injection | High
 4 | ... | ... | ... | ...
 
@@ -59,6 +60,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_bl.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_bl.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_bl.netset
 
 ## Literature
 

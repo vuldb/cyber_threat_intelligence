@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 19 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -205,9 +205,10 @@ ID | IP address | Hostname | Campaign | Confidence
 182 | [41.109.74.58](https://vuldb.com/?ip.41.109.74.58) | - | - | High
 183 | [41.109.224.182](https://vuldb.com/?ip.41.109.224.182) | - | - | High
 184 | [41.109.251.66](https://vuldb.com/?ip.41.109.251.66) | - | - | High
-185 | ... | ... | ... | ...
+185 | [41.141.118.138](https://vuldb.com/?ip.41.141.118.138) | - | - | High
+186 | ... | ... | ... | ...
 
-There are 735 more IOC items available. Please use our online service to access the data.
+There are 742 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -237,53 +238,52 @@ ID | Type | Indicator | Confidence
 5 | File | `/admin/maintenance/view_designation.php` | High
 6 | File | `/admin/userprofile.php` | High
 7 | File | `/administrator/components/table_manager/` | High
-8 | File | `/api/login` | Medium
-9 | File | `/blog/blog.php` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/common/info.cgi` | High
-12 | File | `/databases/database/list` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/E-mobile/App/System/File/downfile.php` | High
-15 | File | `/Electron/download` | High
-16 | File | `/feeds/post/publish` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/healthcare/Admin/consulting_detail.php` | High
-19 | File | `/holiday.php` | Medium
-20 | File | `/inc/jquery/uploadify/uploadify.php` | High
-21 | File | `/index.php?app=main&func=passport&action=login` | High
-22 | File | `/index.php?page=category_list` | High
-23 | File | `/jobinfo/` | Medium
-24 | File | `/mcategory.php` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/Moosikay/order.php` | High
-27 | File | `/movie.php` | Medium
-28 | File | `/opac/Actions.php?a=login` | High
-29 | File | `/owa/auth/logon.aspx` | High
-30 | File | `/PreviewHandler.ashx` | High
-31 | File | `/proxy` | Low
-32 | File | `/reservation/add_message.php` | High
-33 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-34 | File | `/sbin/orthrus` | High
-35 | File | `/sbin/rtspd` | Medium
-36 | File | `/send_order.cgi?parameter=access_detect` | High
-37 | File | `/text/pdf/PdfReader.java` | High
-38 | File | `/tmp` | Low
-39 | File | `/uncpath/` | Medium
-40 | File | `/user/updatePwd` | High
-41 | File | `/usr/bin/at` | Medium
-42 | File | `/var/www/video/mp4ts` | High
-43 | File | `/wabt/bin/poc.wasm` | High
+8 | File | `/api/geojson` | Medium
+9 | File | `/api/login` | Medium
+10 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+11 | File | `/blog/blog.php` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/common/info.cgi` | High
+14 | File | `/databases/database/list` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/E-mobile/App/System/File/downfile.php` | High
+17 | File | `/Electron/download` | High
+18 | File | `/feeds/post/publish` | High
+19 | File | `/forum/away.php` | High
+20 | File | `/healthcare/Admin/consulting_detail.php` | High
+21 | File | `/holiday.php` | Medium
+22 | File | `/inc/jquery/uploadify/uploadify.php` | High
+23 | File | `/index.php?app=main&func=passport&action=login` | High
+24 | File | `/index.php?page=category_list` | High
+25 | File | `/jobinfo/` | Medium
+26 | File | `/mcategory.php` | High
+27 | File | `/mhds/clinic/view_details.php` | High
+28 | File | `/Moosikay/order.php` | High
+29 | File | `/movie.php` | Medium
+30 | File | `/opac/Actions.php?a=login` | High
+31 | File | `/PreviewHandler.ashx` | High
+32 | File | `/proxy` | Low
+33 | File | `/reservation/add_message.php` | High
+34 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+35 | File | `/sbin/orthrus` | High
+36 | File | `/sbin/rtspd` | Medium
+37 | File | `/send_order.cgi?parameter=access_detect` | High
+38 | File | `/text/pdf/PdfReader.java` | High
+39 | File | `/tmp` | Low
+40 | File | `/uploads/exam_question/` | High
+41 | File | `/user/updatePwd` | High
+42 | File | `/var/lib/docker/<remapping>` | High
+43 | File | `/var/www/video/mp4ts` | High
 44 | File | `/wp-admin/admin-ajax.php` | High
-45 | File | `/zm/index.php` | High
-46 | File | `123flashchat.php` | High
-47 | File | `404.php` | Low
-48 | File | `a-forms.php` | Medium
-49 | File | `adclick.php` | Medium
-50 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-51 | File | `admin.a6mambocredits.php` | High
-52 | ... | ... | ...
+45 | File | `123flashchat.php` | High
+46 | File | `404.php` | Low
+47 | File | `a-forms.php` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `admin.a6mambocredits.php` | High
+50 | File | `admin.cropcanvas.php` | High
+51 | ... | ... | ...
 
-There are 455 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 444 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

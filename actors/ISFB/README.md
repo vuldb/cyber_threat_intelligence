@@ -67,45 +67,47 @@ ID | IP address | Hostname | Campaign | Confidence
 44 | [31.214.157.31](https://vuldb.com/?ip.31.214.157.31) | vm12150.ru | - | High
 45 | [31.214.157.160](https://vuldb.com/?ip.31.214.157.160) | elijah-nascent.specbowel.net | - | High
 46 | [37.10.71.114](https://vuldb.com/?ip.37.10.71.114) | - | - | High
-47 | [37.120.206.70](https://vuldb.com/?ip.37.120.206.70) | - | - | High
-48 | [37.120.206.119](https://vuldb.com/?ip.37.120.206.119) | - | - | High
-49 | [37.120.222.138](https://vuldb.com/?ip.37.120.222.138) | - | - | High
-50 | [37.120.222.178](https://vuldb.com/?ip.37.120.222.178) | - | - | High
-51 | [37.120.222.188](https://vuldb.com/?ip.37.120.222.188) | - | - | High
-52 | [37.120.239.178](https://vuldb.com/?ip.37.120.239.178) | - | - | High
-53 | [45.9.20.245](https://vuldb.com/?ip.45.9.20.245) | - | - | High
-54 | [45.11.180.140](https://vuldb.com/?ip.45.11.180.140) | boab-exchange.stuffbent.net | - | High
-55 | [45.11.180.178](https://vuldb.com/?ip.45.11.180.178) | pleased-process.eitherbar.com | - | High
-56 | [45.11.181.28](https://vuldb.com/?ip.45.11.181.28) | sourengine.com | - | High
-57 | [45.11.181.122](https://vuldb.com/?ip.45.11.181.122) | - | - | High
-58 | [45.11.182.30](https://vuldb.com/?ip.45.11.182.30) | - | - | High
-59 | [45.11.182.165](https://vuldb.com/?ip.45.11.182.165) | - | - | High
-60 | [45.11.182.208](https://vuldb.com/?ip.45.11.182.208) | - | - | High
-61 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
-62 | [45.67.230.16](https://vuldb.com/?ip.45.67.230.16) | vm1300397.stark-industries.solutions | - | High
-63 | [45.89.67.190](https://vuldb.com/?ip.45.89.67.190) | 13ipv6.ok | - | High
-64 | [45.89.189.6](https://vuldb.com/?ip.45.89.189.6) | vds125341.mgnhost.com | - | High
-65 | [45.89.189.7](https://vuldb.com/?ip.45.89.189.7) | vds123455.mgn-host.ru | - | High
-66 | [45.89.230.121](https://vuldb.com/?ip.45.89.230.121) | - | - | High
-67 | [45.90.57.19](https://vuldb.com/?ip.45.90.57.19) | kuzina.val.pserver.ru | - | High
-68 | [45.90.58.37](https://vuldb.com/?ip.45.90.58.37) | vps.hostry.com | - | High
-69 | [45.130.147.89](https://vuldb.com/?ip.45.130.147.89) | lao89.nengtanyun.cn | - | High
-70 | [45.130.151.190](https://vuldb.com/?ip.45.130.151.190) | 526204.msk-kvm.ru | - | High
-71 | [45.130.151.191](https://vuldb.com/?ip.45.130.151.191) | godaddy.com | - | High
-72 | [45.130.151.195](https://vuldb.com/?ip.45.130.151.195) | 533873.msk-kvm.ru | - | High
-73 | [45.130.151.199](https://vuldb.com/?ip.45.130.151.199) | 515904.msk-kvm.ru | - | High
-74 | [45.140.167.95](https://vuldb.com/?ip.45.140.167.95) | - | - | High
-75 | [45.147.200.47](https://vuldb.com/?ip.45.147.200.47) | mail.ofsekck.cn | - | High
-76 | [45.153.230.139](https://vuldb.com/?ip.45.153.230.139) | vm247045.pq.hosting | - | High
-77 | [45.155.249.47](https://vuldb.com/?ip.45.155.249.47) | - | - | High
-78 | [45.155.249.49](https://vuldb.com/?ip.45.155.249.49) | - | - | High
-79 | [45.155.249.65](https://vuldb.com/?ip.45.155.249.65) | - | - | High
-80 | [45.155.249.66](https://vuldb.com/?ip.45.155.249.66) | - | - | High
-81 | [45.155.249.91](https://vuldb.com/?ip.45.155.249.91) | - | - | High
-82 | [45.155.249.94](https://vuldb.com/?ip.45.155.249.94) | - | - | High
-83 | ... | ... | ... | ...
+47 | [37.46.130.155](https://vuldb.com/?ip.37.46.130.155) | sunchronize00work032.ispvds.com | - | High
+48 | [37.120.206.70](https://vuldb.com/?ip.37.120.206.70) | - | - | High
+49 | [37.120.206.119](https://vuldb.com/?ip.37.120.206.119) | - | - | High
+50 | [37.120.222.138](https://vuldb.com/?ip.37.120.222.138) | - | - | High
+51 | [37.120.222.178](https://vuldb.com/?ip.37.120.222.178) | - | - | High
+52 | [37.120.222.188](https://vuldb.com/?ip.37.120.222.188) | - | - | High
+53 | [37.120.239.178](https://vuldb.com/?ip.37.120.239.178) | - | - | High
+54 | [45.9.20.245](https://vuldb.com/?ip.45.9.20.245) | - | - | High
+55 | [45.11.180.140](https://vuldb.com/?ip.45.11.180.140) | boab-exchange.stuffbent.net | - | High
+56 | [45.11.180.178](https://vuldb.com/?ip.45.11.180.178) | pleased-process.eitherbar.com | - | High
+57 | [45.11.181.28](https://vuldb.com/?ip.45.11.181.28) | sourengine.com | - | High
+58 | [45.11.181.122](https://vuldb.com/?ip.45.11.181.122) | - | - | High
+59 | [45.11.182.30](https://vuldb.com/?ip.45.11.182.30) | - | - | High
+60 | [45.11.182.165](https://vuldb.com/?ip.45.11.182.165) | - | - | High
+61 | [45.11.182.208](https://vuldb.com/?ip.45.11.182.208) | - | - | High
+62 | [45.11.183.24](https://vuldb.com/?ip.45.11.183.24) | - | - | High
+63 | [45.67.230.16](https://vuldb.com/?ip.45.67.230.16) | vm1300397.stark-industries.solutions | - | High
+64 | [45.89.67.190](https://vuldb.com/?ip.45.89.67.190) | 13ipv6.ok | - | High
+65 | [45.89.189.6](https://vuldb.com/?ip.45.89.189.6) | vds125341.mgnhost.com | - | High
+66 | [45.89.189.7](https://vuldb.com/?ip.45.89.189.7) | vds123455.mgn-host.ru | - | High
+67 | [45.89.230.121](https://vuldb.com/?ip.45.89.230.121) | - | - | High
+68 | [45.90.57.19](https://vuldb.com/?ip.45.90.57.19) | kuzina.val.pserver.ru | - | High
+69 | [45.90.58.37](https://vuldb.com/?ip.45.90.58.37) | vps.hostry.com | - | High
+70 | [45.130.147.89](https://vuldb.com/?ip.45.130.147.89) | lao89.nengtanyun.cn | - | High
+71 | [45.130.151.190](https://vuldb.com/?ip.45.130.151.190) | 526204.msk-kvm.ru | - | High
+72 | [45.130.151.191](https://vuldb.com/?ip.45.130.151.191) | godaddy.com | - | High
+73 | [45.130.151.195](https://vuldb.com/?ip.45.130.151.195) | 533873.msk-kvm.ru | - | High
+74 | [45.130.151.199](https://vuldb.com/?ip.45.130.151.199) | 515904.msk-kvm.ru | - | High
+75 | [45.140.167.95](https://vuldb.com/?ip.45.140.167.95) | - | - | High
+76 | [45.147.200.47](https://vuldb.com/?ip.45.147.200.47) | mail.ofsekck.cn | - | High
+77 | [45.153.230.139](https://vuldb.com/?ip.45.153.230.139) | vm247045.pq.hosting | - | High
+78 | [45.155.249.47](https://vuldb.com/?ip.45.155.249.47) | - | - | High
+79 | [45.155.249.49](https://vuldb.com/?ip.45.155.249.49) | - | - | High
+80 | [45.155.249.65](https://vuldb.com/?ip.45.155.249.65) | - | - | High
+81 | [45.155.249.66](https://vuldb.com/?ip.45.155.249.66) | - | - | High
+82 | [45.155.249.91](https://vuldb.com/?ip.45.155.249.91) | - | - | High
+83 | [45.155.249.94](https://vuldb.com/?ip.45.155.249.94) | - | - | High
+84 | [45.155.249.129](https://vuldb.com/?ip.45.155.249.129) | - | - | High
+85 | ... | ... | ... | ...
 
-There are 330 more IOC items available. Please use our online service to access the data.
+There are 338 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -145,7 +147,7 @@ ID | Type | Indicator | Confidence
 15 | File | `/owa/auth/logon.aspx` | High
 16 | ... | ... | ...
 
-There are 127 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 128 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -191,6 +193,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://twitter.com/JAMESWT_MHT/status/1637767016692973570
 * https://twitter.com/JAMESWT_MHT/status/1639161112405975042
 * https://twitter.com/JAMESWT_MHT/status/1641002609765916672
+* https://twitter.com/JAMESWT_MHT/status/1671438225838161920
 * https://twitter.com/luc4m/status/1555095048122949632
 * https://twitter.com/reecdeep/status/1414873034234679296
 * https://twitter.com/reecdeep/status/1414878988103790593

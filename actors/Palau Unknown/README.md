@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -26,7 +26,7 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.12.70.186](https://vuldb.com/?ip.45.12.70.186) | rounded-tray.alltieinc.com | - | High
 4 | ... | ... | ... | ...
 
-There are 13 more IOC items available. Please use our online service to access the data.
+There are 14 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +34,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-35 | Pathname Traversal | High
+1 | T1006 | CWE-22, CWE-35, CWE-36 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -51,35 +51,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/maintenance/view_designation.php` | High
 3 | File | `/APR/signup.php` | High
 4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/forum/away.php` | High
-6 | File | `/mims/login.php` | High
-7 | File | `/php-scrm/login.php` | High
-8 | File | `/proxy` | Low
-9 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-10 | File | `/send_order.cgi?parameter=access_detect` | High
-11 | File | `/textpattern/index.php` | High
-12 | File | `/tmp` | Low
-13 | File | `/wp-admin/admin-ajax.php` | High
-14 | File | `account-signup.php` | High
-15 | File | `account/signup.php` | High
-16 | File | `addentry.php` | Medium
-17 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
-18 | File | `admin.jcomments.php` | High
-19 | File | `admin.php` | Medium
-20 | File | `admin/admin_editor.php` | High
-21 | File | `admin/conf_users_edit.php` | High
-22 | File | `admin/data.php` | High
-23 | File | `admin/edit_category.php` | High
-24 | File | `admin/operations/currency.php` | High
-25 | File | `album_portal.php` | High
-26 | File | `awstats.pl` | Medium
-27 | File | `blocks/block-Old_Articles.php` | High
-28 | File | `bp_ncom.php` | Medium
-29 | File | `buy.php` | Low
-30 | File | `changePasswordForEmployee.php` | High
-31 | ... | ... | ...
+5 | File | `/E-mobile/App/System/File/downfile.php` | High
+6 | File | `/Electron/download` | High
+7 | File | `/mims/login.php` | High
+8 | File | `/php-scrm/login.php` | High
+9 | File | `/proxy` | Low
+10 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+11 | File | `/send_order.cgi?parameter=access_detect` | High
+12 | File | `/text/pdf/PdfReader.java` | High
+13 | File | `/textpattern/index.php` | High
+14 | File | `/tmp` | Low
+15 | File | `/wp-admin/admin-ajax.php` | High
+16 | File | `account-signup.php` | High
+17 | File | `account/signup.php` | High
+18 | File | `addentry.php` | Medium
+19 | File | `addressbook/backends/ldap/e-book-backend-ldap.c` | High
+20 | File | `admin.jcomments.php` | High
+21 | File | `admin.php` | Medium
+22 | File | `admin/admin_editor.php` | High
+23 | File | `admin/conf_users_edit.php` | High
+24 | File | `admin/data.php` | High
+25 | File | `admin/edit_category.php` | High
+26 | File | `admin/operations/currency.php` | High
+27 | File | `album_portal.php` | High
+28 | File | `awstats.pl` | Medium
+29 | File | `blocks/block-Old_Articles.php` | High
+30 | File | `blogger-importer.php` | High
+31 | File | `bp_ncom.php` | Medium
+32 | File | `buy.php` | Low
+33 | ... | ... | ...
 
-There are 261 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 282 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -87,6 +89,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://github.com/firehol/blocklist-ipsets/blob/master/geolite2_country/country_pw.netset
 * https://github.com/firehol/blocklist-ipsets/blob/master/ip2location_country/ip2location_country_pw.netset
+* https://github.com/firehol/blocklist-ipsets/blob/master/ipip_country/ipip_country_pw.netset
 
 ## Literature
 

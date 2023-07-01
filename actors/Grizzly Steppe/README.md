@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Grizzly Steppe:
 
 * [RU](https://vuldb.com/?country.ru)
-* [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
+* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 10 more country items available. Please use our online service to access the data.
+There are 11 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -158,9 +158,9 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
+6 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
 There are 22 more TTP items available. Please use our online service to access the data.
@@ -184,39 +184,41 @@ ID | Type | Indicator | Confidence
 11 | File | `/admin/maintenance/view_designation.php` | High
 12 | File | `/admin/mechanics/manage_mechanic.php` | High
 13 | File | `/admin/orders/update_status.php` | High
-14 | File | `/admin/service.php` | High
-15 | File | `/admin/service_requests/manage_inventory.php` | High
-16 | File | `/admin/transactions/track_shipment.php` | High
-17 | File | `/adms/admin/?page=vehicles/view_transaction` | High
-18 | File | `/alphaware/summary.php` | High
-19 | File | `/api/` | Low
-20 | File | `/api/admin/store/product/list` | High
-21 | File | `/api/stl/actions/search` | High
-22 | File | `/api/v2/cli/commands` | High
-23 | File | `/api2/html/` | Medium
-24 | File | `/boat/login.php` | High
-25 | File | `/bsms_ci/index.php/book` | High
-26 | File | `/cgi-bin` | Medium
-27 | File | `/cgi-bin/nightled.cgi` | High
-28 | File | `/cgi-bin/wlogin.cgi` | High
-29 | File | `/check` | Low
-30 | File | `/churchcrm/v2/family/not-found` | High
-31 | File | `/classes/Master.php?f=delete_inquiry` | High
-32 | File | `/classes/Master.php?f=delete_sub_category` | High
-33 | File | `/CPE` | Low
-34 | File | `/debug/pprof` | Medium
-35 | File | `/etc/pki/pesign` | High
-36 | File | `/file_manager/admin/save_user.php` | High
-37 | File | `/forum/away.php` | High
-38 | File | `/goform/aspForm` | High
-39 | File | `/goform/SetFirewallCfg` | High
-40 | File | `/inc/topBarNav.php` | High
-41 | File | `/iwgallery/pictures/details.asp` | High
-42 | File | `/jurusan/data` | High
-43 | File | `/kelasdosen/data` | High
-44 | ... | ... | ...
+14 | File | `/admin/reportupload.aspx` | High
+15 | File | `/admin/service.php` | High
+16 | File | `/admin/service_requests/manage_inventory.php` | High
+17 | File | `/admin/transactions/track_shipment.php` | High
+18 | File | `/adms/admin/?page=vehicles/view_transaction` | High
+19 | File | `/alphaware/summary.php` | High
+20 | File | `/api/` | Low
+21 | File | `/api/admin/store/product/list` | High
+22 | File | `/api/crontab` | Medium
+23 | File | `/api/stl/actions/search` | High
+24 | File | `/api/v2/cli/commands` | High
+25 | File | `/api2/html/` | Medium
+26 | File | `/archibus/login.axvw` | High
+27 | File | `/bin/ate` | Medium
+28 | File | `/boat/login.php` | High
+29 | File | `/cgi-bin` | Medium
+30 | File | `/cgi-bin/nightled.cgi` | High
+31 | File | `/cgi-bin/wlogin.cgi` | High
+32 | File | `/check` | Low
+33 | File | `/churchcrm/v2/family/not-found` | High
+34 | File | `/classes/Master.php?f=delete_inquiry` | High
+35 | File | `/classes/Master.php?f=delete_sub_category` | High
+36 | File | `/CPE` | Low
+37 | File | `/debug/pprof` | Medium
+38 | File | `/env` | Low
+39 | File | `/etc/pki/pesign` | High
+40 | File | `/file_manager/admin/save_user.php` | High
+41 | File | `/forum/away.php` | High
+42 | File | `/goform/aspForm` | High
+43 | File | `/goform/SetFirewallCfg` | High
+44 | File | `/inc/topBarNav.php` | High
+45 | File | `/iwgallery/pictures/details.asp` | High
+46 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

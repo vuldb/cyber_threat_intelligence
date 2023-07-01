@@ -26,7 +26,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 8 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -279,7 +279,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 16 more TTP items available. Please use our online service to access the data.
+There are 15 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -292,29 +292,30 @@ ID | Type | Indicator | Confidence
 3 | File | `/admin/?page=user/list` | High
 4 | File | `/admin/addproduct.php` | High
 5 | File | `/admin/ajax.php?action=save_area` | High
-6 | File | `/admin/contacts/organizations/edit/2` | High
-7 | File | `/admin/modal_add_product.php` | High
-8 | File | `/admin/reportupload.aspx` | High
-9 | File | `/admin/update_s6.php` | High
-10 | File | `/ajax.php?action=read_msg` | High
-11 | File | `/ajax.php?action=save_company` | High
-12 | File | `/bin/login` | Medium
-13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
-14 | File | `/changeimage.php` | High
-15 | File | `/classes/Users.php?f=save` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/forum/away.php` | High
-18 | File | `/ghost/preview` | High
-19 | File | `/Login/CheckLogin` | High
-20 | File | `/note/index/delete` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/send_order.cgi?parameter=restart` | High
-24 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
-25 | File | `/SystemManage/Role/GetGridJson?keyword=&page=1&rows=20` | High
-26 | ... | ... | ...
+6 | File | `/admin/categories/manage_category.php` | High
+7 | File | `/admin/contacts/organizations/edit/2` | High
+8 | File | `/admin/modal_add_product.php` | High
+9 | File | `/admin/reportupload.aspx` | High
+10 | File | `/admin/sales/manage_sale.php` | High
+11 | File | `/admin/update_s6.php` | High
+12 | File | `/ajax.php?action=read_msg` | High
+13 | File | `/ajax.php?action=save_company` | High
+14 | File | `/bin/login` | Medium
+15 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+16 | File | `/changeimage.php` | High
+17 | File | `/classes/Users.php?f=save` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/forum/away.php` | High
+20 | File | `/ghost/preview` | High
+21 | File | `/Login/CheckLogin` | High
+22 | File | `/note/index/delete` | High
+23 | File | `/out.php` | Medium
+24 | File | `/owa/auth/logon.aspx` | High
+25 | File | `/send_order.cgi?parameter=restart` | High
+26 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+27 | ... | ... | ...
 
-There are 215 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 228 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

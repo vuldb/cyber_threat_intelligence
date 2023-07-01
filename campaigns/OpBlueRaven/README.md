@@ -50,7 +50,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-28 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-28 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
@@ -80,49 +80,51 @@ ID | Type | Indicator | Confidence
 13 | File | `/admin/login.php` | High
 14 | File | `/admin/maintenance/brand.php` | High
 15 | File | `/admin/maintenance/view_designation.php` | High
-16 | File | `/admin/students/manage.php` | High
-17 | File | `/admin/submit-articles` | High
-18 | File | `/ajax.php?action=read_msg` | High
-19 | File | `/alphaware/summary.php` | High
-20 | File | `/api/` | Low
-21 | File | `/api/admin/store/product/list` | High
-22 | File | `/api/RecordingList/DownloadRecord?file=` | High
-23 | File | `/api/stl/actions/search` | High
-24 | File | `/api/v2/cli/commands` | High
-25 | File | `/apply.cgi` | Medium
-26 | File | `/attachments` | Medium
-27 | File | `/bin/ate` | Medium
-28 | File | `/boat/login.php` | High
-29 | File | `/bsms_ci/index.php` | High
-30 | File | `/bsms_ci/index.php/book` | High
-31 | File | `/cgi-bin` | Medium
-32 | File | `/cgi-bin/luci/api/wireless` | High
-33 | File | `/cgi-bin/wlogin.cgi` | High
-34 | File | `/classes/Master.php?f=delete_sub_category` | High
-35 | File | `/common/info.cgi` | High
-36 | File | `/context/%2e/WEB-INF/web.xml` | High
-37 | File | `/debug/pprof` | Medium
-38 | File | `/env` | Low
-39 | File | `/etc/hosts` | Medium
-40 | File | `/foms/place-order.php` | High
-41 | File | `/forum/away.php` | High
-42 | File | `/goform/setmac` | High
-43 | File | `/goform/wizard_end` | High
-44 | File | `/jsoa/hntdCustomDesktopActionContent` | High
-45 | File | `/librarian/bookdetails.php` | High
-46 | File | `/manage-apartment.php` | High
-47 | File | `/medicines/profile.php` | High
-48 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-49 | File | `/pages/apply_vacancy.php` | High
-50 | File | `/php-sms/admin/` | High
-51 | File | `/php-sms/admin/?page=user/manage_user` | High
-52 | File | `/product/savenewproduct.php?flag=1` | High
-53 | File | `/proxy` | Low
-54 | File | `/ptipupgrade.cgi` | High
-55 | File | `/reservation/add_message.php` | High
-56 | ... | ... | ...
+16 | File | `/admin/read.php?mudi=getSignal` | High
+17 | File | `/admin/students/manage.php` | High
+18 | File | `/admin/submit-articles` | High
+19 | File | `/ajax.php?action=read_msg` | High
+20 | File | `/alphaware/summary.php` | High
+21 | File | `/api/` | Low
+22 | File | `/api/admin/store/product/list` | High
+23 | File | `/api/RecordingList/DownloadRecord?file=` | High
+24 | File | `/api/stl/actions/search` | High
+25 | File | `/api/v2/cli/commands` | High
+26 | File | `/api/wechat/app_auth` | High
+27 | File | `/apply.cgi` | Medium
+28 | File | `/attachments` | Medium
+29 | File | `/bin/ate` | Medium
+30 | File | `/boat/login.php` | High
+31 | File | `/bsms_ci/index.php` | High
+32 | File | `/bsms_ci/index.php/book` | High
+33 | File | `/cgi-bin` | Medium
+34 | File | `/cgi-bin/luci/api/wireless` | High
+35 | File | `/cgi-bin/wlogin.cgi` | High
+36 | File | `/classes/Master.php?f=delete_sub_category` | High
+37 | File | `/classes/Users.php?f=save` | High
+38 | File | `/common/info.cgi` | High
+39 | File | `/context/%2e/WEB-INF/web.xml` | High
+40 | File | `/debug/pprof` | Medium
+41 | File | `/env` | Low
+42 | File | `/etc/hosts` | Medium
+43 | File | `/foms/place-order.php` | High
+44 | File | `/forum/away.php` | High
+45 | File | `/front/roomtype-details.php` | High
+46 | File | `/goform/setmac` | High
+47 | File | `/goform/wizard_end` | High
+48 | File | `/jsoa/hntdCustomDesktopActionContent` | High
+49 | File | `/librarian/bookdetails.php` | High
+50 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+51 | File | `/manage-apartment.php` | High
+52 | File | `/medicines/profile.php` | High
+53 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+54 | File | `/pages/apply_vacancy.php` | High
+55 | File | `/php-sms/admin/` | High
+56 | File | `/php-sms/admin/?page=user/manage_user` | High
+57 | File | `/product/savenewproduct.php?flag=1` | High
+58 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 510 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

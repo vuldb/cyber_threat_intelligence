@@ -156,10 +156,9 @@ ID | Type | Indicator | Confidence
 46 | File | `/Session` | Medium
 47 | File | `/setNTP.cgi` | Medium
 48 | File | `/tpts/manage_user.php` | High
-49 | File | `/u/username.json` | High
-50 | ... | ... | ...
+49 | ... | ... | ...
 
-There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 428 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

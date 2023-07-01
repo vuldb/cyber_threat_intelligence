@@ -15,8 +15,8 @@ The following _campaigns_ are known and can be associated with Zloader:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Zloader:
 
 * [US](https://vuldb.com/?country.us)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
-* [JP](https://vuldb.com/?country.jp)
 * ...
 
 There are 4 more country items available. Please use our online service to access the data.
@@ -42,7 +42,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
@@ -55,22 +55,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/user/team` | High
-2 | File | `/baseOpLog.do` | High
-3 | File | `/bcms/admin/?page=user/list` | High
-4 | File | `/home/cavesConsole` | High
-5 | File | `/upload` | Low
-6 | File | `/users/check_availability.php` | High
-7 | File | `/youthappam/add-food.php` | High
-8 | File | `admin/?page=user/manage_user` | High
-9 | File | `admin/expense_report.php` | High
-10 | File | `admin/user/manage_user.php` | High
-11 | File | `ast/parser.go` | High
-12 | File | `authent.php4` | Medium
-13 | File | `boardData103.php/boardDataJP.php/boardDataNA.php/boardDataWW.php` | High
-14 | ... | ... | ...
+1 | File | `/admin/?page=user/list` | High
+2 | File | `/admin/service.php` | High
+3 | File | `/admin/user/team` | High
+4 | File | `/ajax.php?action=read_msg` | High
+5 | File | `/baseOpLog.do` | High
+6 | File | `/bcms/admin/?page=user/list` | High
+7 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+8 | File | `/home/cavesConsole` | High
+9 | File | `/SystemManage/Organize/GetTreeGridJson?_search=false&nd=1681813520783&rows=10000&page=1&sidx=&sord=asc` | High
+10 | File | `/upload` | Low
+11 | File | `/users/check_availability.php` | High
+12 | File | `/youthappam/add-food.php` | High
+13 | File | `admin/?page=user/manage_user` | High
+14 | File | `admin/expense_report.php` | High
+15 | File | `admin/readDeal.php?mudi=readQrCode` | High
+16 | ... | ... | ...
 
-There are 108 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 125 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -1200,7 +1200,7 @@ ID | Technique | Weakness | Description | Confidence
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | ... | ... | ... | ...
 
-There are 17 more TTP items available. Please use our online service to access the data.
+There are 16 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -1208,36 +1208,37 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
-2 | File | `/admin/?page=user/list` | High
-3 | File | `/admin/addproduct.php` | High
-4 | File | `/admin/ajax.php?action=save_area` | High
-5 | File | `/admin/contacts/organizations/edit/2` | High
-6 | File | `/admin/modal_add_product.php` | High
-7 | File | `/admin/reportupload.aspx` | High
-8 | File | `/admin/update_s6.php` | High
-9 | File | `/ajax.php?action=read_msg` | High
-10 | File | `/ajax.php?action=save_company` | High
-11 | File | `/bin/ate` | Medium
-12 | File | `/bin/login` | Medium
-13 | File | `/changeimage.php` | High
-14 | File | `/classes/Users.php?f=save` | High
-15 | File | `/cwms/classes/Master.php?f=save_contact` | High
-16 | File | `/DXR.axd` | Medium
-17 | File | `/env` | Low
-18 | File | `/forum/away.php` | High
-19 | File | `/index.php?app=main&func=passport&action=login` | High
-20 | File | `/index.php?page=category_list` | High
-21 | File | `/jobinfo/` | Medium
-22 | File | `/Login/CheckLogin` | High
-23 | File | `/note/index/delete` | High
-24 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-25 | File | `/owa/auth/logon.aspx` | High
-26 | File | `/php-sms/admin/?page=user/manage_user` | High
-27 | File | `/PreviewHandler.ashx` | High
-28 | ... | ... | ...
+1 | File | `/action/import_cert_file/` | High
+2 | File | `/admin.php?c=upload&f=zip&_noCache=0.1683794968` | High
+3 | File | `/admin/?page=user/list` | High
+4 | File | `/admin/addproduct.php` | High
+5 | File | `/admin/ajax.php?action=save_area` | High
+6 | File | `/admin/contacts/organizations/edit/2` | High
+7 | File | `/admin/modal_add_product.php` | High
+8 | File | `/admin/reportupload.aspx` | High
+9 | File | `/admin/scripts/pi-hole/phpqueryads.php` | High
+10 | File | `/admin/update_s6.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/ajax.php?action=save_company` | High
+13 | File | `/bin/ate` | Medium
+14 | File | `/bin/login` | Medium
+15 | File | `/changeimage.php` | High
+16 | File | `/classes/Users.php?f=save` | High
+17 | File | `/cwms/classes/Master.php?f=save_contact` | High
+18 | File | `/DXR.axd` | Medium
+19 | File | `/env` | Low
+20 | File | `/forum/away.php` | High
+21 | File | `/index.php?app=main&func=passport&action=login` | High
+22 | File | `/index.php?page=category_list` | High
+23 | File | `/jobinfo/` | Medium
+24 | File | `/Login/CheckLogin` | High
+25 | File | `/note/index/delete` | High
+26 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+27 | File | `/owa/auth/logon.aspx` | High
+28 | File | `/php-sms/admin/?page=user/manage_user` | High
+29 | ... | ... | ...
 
-There are 233 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 246 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

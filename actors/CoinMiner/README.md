@@ -21,23 +21,24 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.196.13.29](https://vuldb.com/?ip.5.196.13.29) | 29.ip-5-196-13.eu | - | High
-2 | [5.196.23.240](https://vuldb.com/?ip.5.196.23.240) | 240.ip-5-196-23.eu | - | High
-3 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
-4 | [18.210.126.40](https://vuldb.com/?ip.18.210.126.40) | ec2-18-210-126-40.compute-1.amazonaws.com | - | Medium
-5 | [23.21.48.44](https://vuldb.com/?ip.23.21.48.44) | ec2-23-21-48-44.compute-1.amazonaws.com | - | Medium
-6 | [23.21.76.253](https://vuldb.com/?ip.23.21.76.253) | ec2-23-21-76-253.compute-1.amazonaws.com | - | Medium
-7 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
-8 | [23.21.140.41](https://vuldb.com/?ip.23.21.140.41) | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
-9 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
-10 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
-11 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
-12 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
-13 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
-14 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
-15 | ... | ... | ... | ...
+1 | [4.4.0.0](https://vuldb.com/?ip.4.4.0.0) | - | - | High
+2 | [5.196.13.29](https://vuldb.com/?ip.5.196.13.29) | 29.ip-5-196-13.eu | - | High
+3 | [5.196.23.240](https://vuldb.com/?ip.5.196.23.240) | 240.ip-5-196-23.eu | - | High
+4 | [13.107.21.200](https://vuldb.com/?ip.13.107.21.200) | - | - | High
+5 | [18.210.126.40](https://vuldb.com/?ip.18.210.126.40) | ec2-18-210-126-40.compute-1.amazonaws.com | - | Medium
+6 | [23.21.48.44](https://vuldb.com/?ip.23.21.48.44) | ec2-23-21-48-44.compute-1.amazonaws.com | - | Medium
+7 | [23.21.76.253](https://vuldb.com/?ip.23.21.76.253) | ec2-23-21-76-253.compute-1.amazonaws.com | - | Medium
+8 | [23.21.126.66](https://vuldb.com/?ip.23.21.126.66) | ec2-23-21-126-66.compute-1.amazonaws.com | - | Medium
+9 | [23.21.140.41](https://vuldb.com/?ip.23.21.140.41) | ec2-23-21-140-41.compute-1.amazonaws.com | - | Medium
+10 | [23.21.252.4](https://vuldb.com/?ip.23.21.252.4) | ec2-23-21-252-4.compute-1.amazonaws.com | - | Medium
+11 | [49.12.80.38](https://vuldb.com/?ip.49.12.80.38) | static.38.80.12.49.clients.your-server.de | - | High
+12 | [49.12.80.40](https://vuldb.com/?ip.49.12.80.40) | static.40.80.12.49.clients.your-server.de | - | High
+13 | [50.19.96.218](https://vuldb.com/?ip.50.19.96.218) | ec2-50-19-96-218.compute-1.amazonaws.com | - | Medium
+14 | [50.19.252.36](https://vuldb.com/?ip.50.19.252.36) | ec2-50-19-252-36.compute-1.amazonaws.com | - | Medium
+15 | [51.15.54.102](https://vuldb.com/?ip.51.15.54.102) | 102-54-15-51.instances.scw.cloud | - | High
+16 | ... | ... | ... | ...
 
-There are 56 more IOC items available. Please use our online service to access the data.
+There are 58 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -62,50 +63,49 @@ ID | Type | Indicator | Confidence
 1 | File | `.imwheelrc` | Medium
 2 | File | `.plan` | Low
 3 | File | `.tin` | Low
-4 | File | `/cgi-bin/editBookmark` | High
-5 | File | `/cgi-bin/luci;stok=/locale` | High
-6 | File | `/classes/Login.php` | High
-7 | File | `/configs/application.ini` | High
-8 | File | `/goform/setPicListItem` | High
-9 | File | `/home/cavesConsole` | High
-10 | File | `/home/kickPlayer` | High
-11 | File | `/home/masterConsole` | High
-12 | File | `/home/sendBroadcast` | High
-13 | File | `/rapi/read_url` | High
-14 | File | `/services/Card/findUser` | High
-15 | File | `/spacecom/login.php` | High
-16 | File | `/sys/dict/queryTableData` | High
-17 | File | `/ucenter/active.php` | High
-18 | File | `/uncpath/` | Medium
-19 | File | `/user/updatePwd` | High
-20 | File | `/xampp/guestbook-en.pl` | High
-21 | File | `/zm/index.php` | High
-22 | File | `123flashchat.php` | High
-23 | File | `abook_database.php` | High
-24 | File | `action.php` | Medium
-25 | File | `admin.php` | Medium
-26 | File | `admin/admin_process.php` | High
-27 | File | `admin/profile_settings_net.html` | High
-28 | File | `admin/vqmods.app/vqmods.inc.php` | High
-29 | File | `af.cgi/alienform.cgi` | High
-30 | File | `afd.sys` | Low
-31 | File | `ajax.php` | Medium
-32 | File | `akocomment.php` | High
-33 | File | `app/routes/research.js` | High
-34 | File | `article.php` | Medium
-35 | File | `aviso.php` | Medium
-36 | File | `awredir.pl` | Medium
-37 | File | `bitmap/bdfread.c` | High
-38 | File | `blocks.php` | Medium
-39 | File | `blog.cgi` | Medium
-40 | File | `bluewrench-video-widget.php` | High
-41 | File | `browse.php` | Medium
-42 | File | `carsdetail.asp` | High
-43 | File | `cartman.php` | Medium
-44 | File | `categories.php` | High
-45 | ... | ... | ...
+4 | File | `/admin/read.php?mudi=announContent` | High
+5 | File | `/cgi-bin/editBookmark` | High
+6 | File | `/cgi-bin/luci;stok=/locale` | High
+7 | File | `/classes/Login.php` | High
+8 | File | `/configs/application.ini` | High
+9 | File | `/goform/setPicListItem` | High
+10 | File | `/home/cavesConsole` | High
+11 | File | `/home/kickPlayer` | High
+12 | File | `/home/masterConsole` | High
+13 | File | `/home/sendBroadcast` | High
+14 | File | `/rapi/read_url` | High
+15 | File | `/services/Card/findUser` | High
+16 | File | `/spacecom/login.php` | High
+17 | File | `/sys/dict/queryTableData` | High
+18 | File | `/Taier/API/tenant/listTenant` | High
+19 | File | `/ucenter/active.php` | High
+20 | File | `/uncpath/` | Medium
+21 | File | `/user/updatePwd` | High
+22 | File | `/xampp/guestbook-en.pl` | High
+23 | File | `/zm/index.php` | High
+24 | File | `123flashchat.php` | High
+25 | File | `abook_database.php` | High
+26 | File | `action.php` | Medium
+27 | File | `admin.php` | Medium
+28 | File | `admin/admin_process.php` | High
+29 | File | `admin/profile_settings_net.html` | High
+30 | File | `admin/vqmods.app/vqmods.inc.php` | High
+31 | File | `af.cgi/alienform.cgi` | High
+32 | File | `afd.sys` | Low
+33 | File | `akocomment.php` | High
+34 | File | `app/routes/research.js` | High
+35 | File | `article.php` | Medium
+36 | File | `aviso.php` | Medium
+37 | File | `awredir.pl` | Medium
+38 | File | `bitmap/bdfread.c` | High
+39 | File | `blocks.php` | Medium
+40 | File | `blog.cgi` | Medium
+41 | File | `bluewrench-video-widget.php` | High
+42 | File | `browse.php` | Medium
+43 | File | `carsdetail.asp` | High
+44 | ... | ... | ...
 
-There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -121,9 +121,11 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0611-0617.html
 * https://blog.talosintelligence.com/2021/06/threat-roundup-0617-0624.html
 * https://blog.talosintelligence.com/2022/04/threat-roundup-0408-0415.html
+* https://blog.trendmicro.com/trendlabs-security-intelligence/zoomed-in-a-look-into-a-coinminer-bundled-with-zoom-installer/
 * https://isc.sans.edu/forums/diary/CoinMiners+searching+for+hosts/24364/
 * https://isc.sans.edu/forums/diary/From+Microtik+with+Love/23762/ https://isc.sans.edu/forums/diary/More+malspam+pushing+Lokibot/23754/
 * https://isc.sans.edu/forums/diary/Pornographic+malspam+pushes+coin+miner+malware/23119/
+* https://tria.ge/220416-dv7casgchn
 * https://www.trendmicro.com/en_us/research/22/i/a-post-exploitation-look-at-coinminers-abusing-weblogic-vulnerab.html
 
 ## Literature

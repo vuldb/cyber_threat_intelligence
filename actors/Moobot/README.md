@@ -20,7 +20,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -34,9 +34,10 @@ ID | IP address | Hostname | Campaign | Confidence
 4 | [89.248.174.165](https://vuldb.com/?ip.89.248.174.165) | - | UNIX CCTV DVR | High
 5 | [89.248.174.166](https://vuldb.com/?ip.89.248.174.166) | - | UNIX CCTV DVR | High
 6 | [89.248.174.198](https://vuldb.com/?ip.89.248.174.198) | - | - | High
-7 | ... | ... | ... | ...
+7 | [89.248.174.203](https://vuldb.com/?ip.89.248.174.203) | no-reverse-dns-configured.com | UNIX CCTV DVR | High
+8 | ... | ... | ... | ...
 
-There are 25 more IOC items available. Please use our online service to access the data.
+There are 26 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -45,14 +46,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 7 | ... | ... | ... | ...
 
-There are 23 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -70,15 +71,15 @@ ID | Type | Indicator | Confidence
 8 | File | `/admin/payment.php` | High
 9 | File | `/admin/siteoptions.php&action=displaygoal&value=1&roleid=1` | High
 10 | File | `/admin/user/manage_user.php` | High
-11 | File | `/aqpg/users/login.php` | High
-12 | File | `/blog/edit` | Medium
-13 | File | `/bsms_ci/index.php/user/edit_user/` | High
-14 | File | `/cgi-bin/uploadWeiXinPic` | High
-15 | File | `/cgi-bin/wlogin.cgi` | High
-16 | File | `/classes/Master.php?f=delete_category` | High
-17 | File | `/Default/Bd` | Medium
-18 | File | `/dms/admin/reports/daily_collection_report.php` | High
-19 | File | `/DsaDataTest` | Medium
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/aqpg/users/login.php` | High
+13 | File | `/blog/edit` | Medium
+14 | File | `/bsms_ci/index.php/user/edit_user/` | High
+15 | File | `/cgi-bin/wapopen` | High
+16 | File | `/cgi-bin/wlogin.cgi` | High
+17 | File | `/classes/Master.php?f=delete_category` | High
+18 | File | `/Default/Bd` | Medium
+19 | File | `/dms/admin/reports/daily_collection_report.php` | High
 20 | File | `/etc/networkd-dispatcher` | High
 21 | File | `/event/admin/?page=user/list` | High
 22 | File | `/filemanager/upload/drop` | High
@@ -88,7 +89,7 @@ ID | Type | Indicator | Confidence
 26 | File | `/goform/PowerSaveSet` | High
 27 | File | `/goform/SetClientState` | High
 28 | File | `/goform/SetFirewallCfg` | High
-29 | File | `/goform/setWorkmode` | High
+29 | File | `/goform/setIPv6Status` | High
 30 | File | `/goform/wizard_end` | High
 31 | File | `/hrm/employeeview.php` | High
 32 | File | `/index.php` | Medium
@@ -108,18 +109,24 @@ ID | Type | Indicator | Confidence
 46 | File | `/purchase_order/classes/Master.php?f=delete_supplier` | High
 47 | File | `/SAP_Information_System/controllers/add_admin.php` | High
 48 | File | `/simple_chat_bot/classes/Master.php?f=delete_response` | High
-49 | ... | ... | ...
+49 | File | `/SiteServer/Ajax/ajaxOtherService.aspx` | High
+50 | File | `/sns/classes/Master.php?f=delete_img` | High
+51 | File | `/Source/C++/Core/Ap4Array.h` | High
+52 | File | `/TestJDBC_Web/test2` | High
+53 | ... | ... | ...
 
-There are 424 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 462 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://bazaar.abuse.ch/sample/e09dfc1ba1052e4b5c2c3ff2d9985f6f5024b526aeb8ae4a1d28d8cd81bb0c1e/
 * https://blog.netlab.360.com/ddos-botnet-moobot-en/
 * https://blog.netlab.360.com/moobot-0day-unixcctv-dvr-en/
 * https://blog.netlab.360.com/some_details_of_the_ddos_attacks_targeting_ukraine_and_russia_in_recent_days/
 * https://blog.netlab.360.com/the-botnet-cluster-on-185-244-25-0-24-en/
+* https://threatfox.abuse.ch
 
 ## Literature
 

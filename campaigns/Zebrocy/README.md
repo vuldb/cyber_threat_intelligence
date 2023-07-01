@@ -18,6 +18,7 @@ These _actors_ are associated with Zebrocy or other actors linked to the campaig
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [Sofacy](https://vuldb.com/?actor.sofacy) | High
+2 | [Zebrocy](https://vuldb.com/?actor.zebrocy) | High
 
 ## IOC - Indicator of Compromise
 
@@ -28,6 +29,9 @@ ID | IP address | Hostname | Actor | Confidence
 1 | [86.106.131.177](https://vuldb.com/?ip.86.106.131.177) | slot0.rilzcarlton.com | [Sofacy](https://vuldb.com/?actor.sofacy) | High
 2 | [92.114.92.102](https://vuldb.com/?ip.92.114.92.102) | oracleupdatenews.com | [Sofacy](https://vuldb.com/?actor.sofacy) | High
 3 | [92.222.136.105](https://vuldb.com/?ip.92.222.136.105) | - | [Sofacy](https://vuldb.com/?actor.sofacy) | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -57,6 +61,7 @@ There are 2 more IOA items available (file, library, argument, input value, patt
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
 * https://unit42.paloaltonetworks.com/unit42-sofacy-groups-parallel-attacks/
+* https://www.welivesecurity.com/2019/09/24/no-summer-vacations-zebrocy/
 
 ## Literature
 

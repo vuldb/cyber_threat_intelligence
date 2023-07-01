@@ -53,9 +53,10 @@ ID | Type | Indicator | Confidence
 4 | File | `avahi-core/socket.c` | High
 5 | File | `block/bfq-iosched.c` | High
 6 | File | `chat.php` | Medium
-7 | ... | ... | ...
+7 | File | `Crypt32.dll` | Medium
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

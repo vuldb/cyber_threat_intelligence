@@ -8,12 +8,12 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with RedLine:
 
+* [SH](https://vuldb.com/?country.sh)
 * [US](https://vuldb.com/?country.us)
 * [LA](https://vuldb.com/?country.la)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 20 more country items available. Please use our online service to access the data.
+There are 9 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -75,7 +75,8 @@ ID | IP address | Hostname | Campaign | Confidence
 52 | [46.21.250.40](https://vuldb.com/?ip.46.21.250.40) | 3010512.ds.had.pm | - | High
 53 | [46.29.114.16](https://vuldb.com/?ip.46.29.114.16) | pointer.vps.house | - | High
 54 | [46.105.124.55](https://vuldb.com/?ip.46.105.124.55) | 132.rbx.abcvg.ovh | - | High
-55 | ... | ... | ... | ...
+55 | [49.12.5.55](https://vuldb.com/?ip.49.12.5.55) | static.55.5.12.49.clients.your-server.de | - | High
+56 | ... | ... | ... | ...
 
 There are 218 more IOC items available. Please use our online service to access the data.
 
@@ -85,15 +86,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | T1068 | CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-7 | ... | ... | ... | ...
+6 | ... | ... | ... | ...
 
-There are 24 more TTP items available. Please use our online service to access the data.
+There are 20 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -101,58 +101,67 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `.htaccess` | Medium
-2 | File | `/.env` | Low
-3 | File | `/.ssh/authorized_keys` | High
-4 | File | `//proc/kcore` | Medium
-5 | File | `/?Key=PhoneRequestAuthorization` | High
-6 | File | `/admin.php/Admin/adminadd.html` | High
-7 | File | `/Admin/add-student.php` | High
-8 | File | `/admin/dl_sendmail.php` | High
-9 | File | `/admin/settings/save.php` | High
-10 | File | `/admin/userprofile.php` | High
-11 | File | `/api/v2/cli/commands` | High
-12 | File | `/apply.cgi` | Medium
-13 | File | `/bin/login` | Medium
-14 | File | `/catalog/admin/categories.php?cPath=&action=new_product` | High
-15 | File | `/cgi-bin/delete_CA` | High
-16 | File | `/cgi-bin/wlogin.cgi` | High
-17 | File | `/College/admin/teacher.php` | High
-18 | File | `/Config/SaveUploadedHotspotLogoFile` | High
-19 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-20 | File | `/dcim/rack-roles/` | High
-21 | File | `/download` | Medium
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/addUserName` | High
-24 | File | `/goform/aspForm` | High
-25 | File | `/goform/delAd` | High
-26 | File | `/goform/wifiSSIDset` | High
-27 | File | `/gpac/src/bifs/unquantize.c` | High
-28 | File | `/GponForm/device_Form?script/` | High
-29 | File | `/inc/topBarNav.php` | High
-30 | File | `/includes/rrdtool.inc.php` | High
-31 | File | `/index.asp` | Medium
-32 | File | `/index.php` | Medium
-33 | File | `/jfinal_cms/system/role/list` | High
-34 | File | `/kelas/data` | Medium
-35 | File | `/Main_AdmStatus_Content.asp` | High
-36 | File | `/members/view_member.php` | High
-37 | File | `/Moosikay/order.php` | High
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-40 | File | `/plain` | Low
-41 | File | `/public` | Low
-42 | File | `/secure/QueryComponent!Default.jspa` | High
-43 | File | `/spip.php` | Medium
-44 | File | `/SSOPOST/metaAlias/%realm%/idpv2` | High
-45 | File | `/tmp` | Low
-46 | File | `/uncpath/` | Medium
-47 | File | `/updown/upload.cgi` | High
-48 | File | `/webman/info.cgi` | High
-49 | File | `/zm/index.php` | High
-50 | ... | ... | ...
+1 | File | `/?p=products` | Medium
+2 | File | `/admin/?page=product/manage_product&id=2` | High
+3 | File | `/admin/casedetails.php` | High
+4 | File | `/admin/maintenance/brand.php` | High
+5 | File | `/admin/mechanics/manage_mechanic.php` | High
+6 | File | `/admin/positions_add.php` | High
+7 | File | `/admin/user/manage_user.php` | High
+8 | File | `/admin/userprofile.php` | High
+9 | File | `/admin/voters_row.php` | High
+10 | File | `/ad_js.php` | Medium
+11 | File | `/agc/vicidial.php` | High
+12 | File | `/ajax.php?action=save_company` | High
+13 | File | `/ajax.php?action=save_user` | High
+14 | File | `/ajax/myshop` | Medium
+15 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+16 | File | `/api/gen/clients/{language}` | High
+17 | File | `/APR/signup.php` | High
+18 | File | `/authenticationendpoint/login.do` | High
+19 | File | `/aux` | Low
+20 | File | `/backup.pl` | Medium
+21 | File | `/cas/logout` | Medium
+22 | File | `/categorypage.php` | High
+23 | File | `/cgi-bin/system_mgr.cgi` | High
+24 | File | `/cgi-bin/wlogin.cgi` | High
+25 | File | `/cha.php` | Medium
+26 | File | `/College/admin/teacher.php` | High
+27 | File | `/contactform/contactform.php` | High
+28 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+29 | File | `/dayrui/Fcms/View/system_log.html` | High
+30 | File | `/dcim/rack-roles/` | High
+31 | File | `/drivers/block/floppy.c` | High
+32 | File | `/DXR.axd` | Medium
+33 | File | `/ecommerce/admin/category/controller.php` | High
+34 | File | `/etc/shadow` | Medium
+35 | File | `/forum/away.php` | High
+36 | File | `/fos/admin/ajax.php` | High
+37 | File | `/goform/aspForm` | High
+38 | File | `/goform/WifiGuestSet` | High
+39 | File | `/inc/topBarNav.php` | High
+40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+41 | File | `/kelas/data` | Medium
+42 | File | `/kelasdosen/data` | High
+43 | File | `/modules/projects/vw_files.php` | High
+44 | File | `/Moosikay/order.php` | High
+45 | File | `/multi-vendor-shopping-script/product-list.php` | High
+46 | File | `/nasm/nasm-parse.c` | High
+47 | File | `/ordering/admin/orders/loaddata.php` | High
+48 | File | `/ordering/admin/stockin/loaddata.php` | High
+49 | File | `/owa/auth/logon.aspx` | High
+50 | File | `/paysystem/branch.php` | High
+51 | File | `/paysystem/datatable.php` | High
+52 | File | `/philosophy/admin/login.php` | High
+53 | File | `/php-opos/login.php` | High
+54 | File | `/priv_mgt.html` | High
+55 | File | `/resources//../` | High
+56 | File | `/see_more_details.php` | High
+57 | File | `/services/indexing/preview` | High
+58 | File | `/Taier/API/tenant/listTenant` | High
+59 | ... | ... | ...
 
-There are 432 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 512 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -203,6 +212,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://blogs.blackberry.com/en/2021/10/threat-thursday-redline-infostealer-update
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-04-21%20Redline%20IOCs
 * https://github.com/executemalware/Malware-IOCs/blob/main/2022-05-09%20Redline%20IOCs
+* https://github.com/threatlabz/iocs/blob/main/onenote_attacks/network_indicators.txt
 * https://isc.sans.edu/forums/diary/RedLine+Stealer+Delivered+Through+FTP/28258/
 * https://www.malwarebytes.com/blog/news/2022/09/2k-games-helpdesk-abused-to-spread-redline-malware
 

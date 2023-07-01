@@ -63,37 +63,38 @@ ID | Type | Indicator | Confidence
 6 | File | `/admin/employee_row.php` | High
 7 | File | `/Admin/login.php` | High
 8 | File | `/admin/products/manage_product.php` | High
-9 | File | `/admin/user/manage_user.php` | High
-10 | File | `/ajax.php?action=read_msg` | High
-11 | File | `/api/upload` | Medium
-12 | File | `/classes/Master.php?f=delete_sub_category` | High
-13 | File | `/cms/category/list` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/Default/Bd` | Medium
-16 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
-17 | File | `/domain/add` | Medium
-18 | File | `/donor-wall` | Medium
-19 | File | `/ebics-server/ebics.aspx` | High
-20 | File | `/esbus/servlet/GetSQLData` | High
-21 | File | `/film-rating.php` | High
-22 | File | `/forum/away.php` | High
-23 | File | `/goform/formLogin` | High
-24 | File | `/HNAP1` | Low
-25 | File | `/horde/util/go.php` | High
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/ishttpd/localweb/java/` | High
-28 | File | `/KK_LS9ReportingPortal/GetData` | High
-29 | File | `/mcategory.php` | High
-30 | File | `/out.php` | Medium
-31 | File | `/p` | Low
-32 | File | `/pages/processlogin.php` | High
-33 | File | `/product/savenewproduct.php?flag=1` | High
-34 | File | `/services/Card/findUser` | High
-35 | File | `/template/edit` | High
-36 | File | `/uncpath/` | Medium
-37 | ... | ... | ...
+9 | File | `/admin/read.php?mudi=announContent` | High
+10 | File | `/admin/user/manage_user.php` | High
+11 | File | `/ajax.php?action=read_msg` | High
+12 | File | `/api/upload` | Medium
+13 | File | `/api/wechat/app_auth` | High
+14 | File | `/changeimage.php` | High
+15 | File | `/classes/Master.php?f=delete_sub_category` | High
+16 | File | `/cms/category/list` | High
+17 | File | `/debug/pprof` | Medium
+18 | File | `/Default/Bd` | Medium
+19 | File | `/DocSystem/Repos/getReposAllUsers.do` | High
+20 | File | `/domain/add` | Medium
+21 | File | `/donor-wall` | Medium
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/esbus/servlet/GetSQLData` | High
+24 | File | `/film-rating.php` | High
+25 | File | `/forum/away.php` | High
+26 | File | `/goform/formLogin` | High
+27 | File | `/HNAP1` | Low
+28 | File | `/horde/util/go.php` | High
+29 | File | `/index.php?app=main&func=passport&action=login` | High
+30 | File | `/ishttpd/localweb/java/` | High
+31 | File | `/KK_LS9ReportingPortal/GetData` | High
+32 | File | `/mcategory.php` | High
+33 | File | `/out.php` | Medium
+34 | File | `/p` | Low
+35 | File | `/pages/processlogin.php` | High
+36 | File | `/product/savenewproduct.php?flag=1` | High
+37 | File | `/services/Card/findUser` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 325 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -17,10 +17,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [MN](https://vuldb.com/?country.mn)
+* [KR](https://vuldb.com/?country.kr)
 * ...
 
-There are 5 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,9 +36,12 @@ ID | IP address | Hostname | Campaign | Confidence
 6 | [27.102.114.63](https://vuldb.com/?ip.27.102.114.63) | - | - | High
 7 | [27.102.114.79](https://vuldb.com/?ip.27.102.114.79) | - | - | High
 8 | [27.102.114.89](https://vuldb.com/?ip.27.102.114.89) | - | AppleSeed | High
-9 | ... | ... | ... | ...
+9 | [27.102.127.240](https://vuldb.com/?ip.27.102.127.240) | - | - | High
+10 | [27.102.128.169](https://vuldb.com/?ip.27.102.128.169) | - | - | High
+11 | [27.255.79.204](https://vuldb.com/?ip.27.255.79.204) | - | - | High
+12 | ... | ... | ... | ...
 
-There are 33 more IOC items available. Please use our online service to access the data.
+There are 45 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -46,14 +49,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 5 | T1068 | CWE-264, CWE-266, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
 6 | ... | ... | ... | ...
 
-There are 18 more TTP items available. Please use our online service to access the data.
+There are 19 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -61,35 +64,51 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/.env` | Low
-2 | File | `/?/admin/snippet/add` | High
-3 | File | `/api/upload` | Medium
-4 | File | `/assets/something/services/AppModule.class` | High
-5 | File | `/bin/false` | Medium
-6 | File | `/cgi-bin/luci/api/wireless` | High
-7 | File | `/cgi-bin/webproc` | High
-8 | File | `/editsettings` | High
-9 | File | `/expert_wizard.php` | High
-10 | File | `/forum/away.php` | High
-11 | File | `/images/browserslide.jpg` | High
-12 | File | `/includes/lib/get.php` | High
-13 | File | `/lists/index.php` | High
-14 | File | `/login` | Low
-15 | File | `/main?cmd=invalid_browser` | High
-16 | File | `/manager?action=getlogcat` | High
-17 | File | `/mc` | Low
-18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-19 | File | `/plugins/Dashboard/Controller.php` | High
-20 | File | `/public/plugins/` | High
-21 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
-22 | File | `/SASWebReportStudio/logonAndRender.do` | High
-23 | File | `/scas/admin/` | Medium
-24 | File | `/static/ueditor/php/controller.php` | High
-25 | File | `/tlogin.cgi` | Medium
-26 | File | `/tmp/scfgdndf` | High
-27 | ... | ... | ...
+1 | File | `%PROGRAMDATA%\Netwrix Auditor\Logs\ActiveDirectory\` | High
+2 | File | `/.env` | Low
+3 | File | `/?/admin/snippet/add` | High
+4 | File | `/admin/categories/manage_category.php` | High
+5 | File | `/admin/categories/view_category.php` | High
+6 | File | `/admin/index.php` | High
+7 | File | `/admin/inquiries/view_inquiry.php` | High
+8 | File | `/admin/manage_academic.php` | High
+9 | File | `/admin/orders/update_status.php` | High
+10 | File | `/admin/products/manage_product.php` | High
+11 | File | `/admin/products/view_product.php` | High
+12 | File | `/admin/reminders/manage_reminder.php` | High
+13 | File | `/admin/sales/manage_sale.php` | High
+14 | File | `/admin/sales/view_details.php` | High
+15 | File | `/admin/services/manage_service.php` | High
+16 | File | `/admin/user/manage_user.php` | High
+17 | File | `/api/` | Low
+18 | File | `/api/upload` | Medium
+19 | File | `/assets/something/services/AppModule.class` | High
+20 | File | `/bin/false` | Medium
+21 | File | `/cgi-bin/luci/api/wireless` | High
+22 | File | `/cgi-bin/webproc` | High
+23 | File | `/classes/Master.php?f=delete_inquiry` | High
+24 | File | `/classes/Master.php?f=save_service` | High
+25 | File | `/classes/Users.php` | High
+26 | File | `/editsettings` | High
+27 | File | `/expert_wizard.php` | High
+28 | File | `/export` | Low
+29 | File | `/forum/away.php` | High
+30 | File | `/function/login.php` | High
+31 | File | `/images/browserslide.jpg` | High
+32 | File | `/includes/lib/get.php` | High
+33 | File | `/lists/index.php` | High
+34 | File | `/login` | Low
+35 | File | `/main?cmd=invalid_browser` | High
+36 | File | `/manager?action=getlogcat` | High
+37 | File | `/mc` | Low
+38 | File | `/mgmt/tm/util/bash` | High
+39 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+40 | File | `/plugins/Dashboard/Controller.php` | High
+41 | File | `/public/plugins/` | High
+42 | File | `/rest/jpo/1.0/hierarchyConfiguration` | High
+43 | ... | ... | ...
 
-There are 227 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 374 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -103,8 +122,10 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://github.com/blackorbird/APT_REPORT/blob/master/kimsuky/Kimsuky%20APT%20Group%20targeted%20on%20South%20Korean%20defense%20and%20security%20departments.pdf
 * https://github.com/blackorbird/APT_REPORT/tree/master/kimsuky
 * https://github.com/eset/malware-ioc/tree/master/kimsuky/hotdoge_donutcat_case
+* https://threatfox.abuse.ch
 * https://twitter.com/shadowchasing1/status/1500778382966939653
 * https://twitter.com/souiten/status/1473862308132651011
+* https://www.sentinelone.com/labs/kimsuky-new-social-engineering-campaign-aims-to-steal-credentials-and-gather-strategic-intelligence/
 
 ## Literature
 

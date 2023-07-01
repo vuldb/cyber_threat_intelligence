@@ -8,6 +8,7 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Alien:
 
+* [DE](https://vuldb.com/?country.de)
 * [US](https://vuldb.com/?country.us)
 * [CN](https://vuldb.com/?country.cn)
 
@@ -17,9 +18,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [5.199.173.52](https://vuldb.com/?ip.5.199.173.52) | - | - | High
-2 | [20.127.122.139](https://vuldb.com/?ip.20.127.122.139) | - | - | High
-3 | [57.128.54.210](https://vuldb.com/?ip.57.128.54.210) | ip210.ip-57-128-54.eu | - | High
+1 | [5.78.74.58](https://vuldb.com/?ip.5.78.74.58) | static.58.74.78.5.clients.your-server.de | - | High
+2 | [5.78.105.58](https://vuldb.com/?ip.5.78.105.58) | static.58.105.78.5.clients.your-server.de | - | High
+3 | [5.161.178.107](https://vuldb.com/?ip.5.161.178.107) | static.107.178.161.5.clients.your-server.de | - | High
+4 | ... | ... | ... | ...
+
+There are 9 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -27,12 +31,13 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-2 | T1068 | CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-3 | T1505 | CWE-89 | SQL Injection | High
-4 | ... | ... | ... | ...
+1 | T1006 | CWE-22, CWE-23, CWE-425 | Pathname Traversal | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+5 | ... | ... | ... | ...
 
-There are 2 more TTP items available. Please use our online service to access the data.
+There are 14 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -40,12 +45,24 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/cgi-bin/wlogin.cgi` | High
-2 | File | `browse.php` | Medium
-3 | File | `com\mingsoft\basic\action\web\FileAction.java` | High
-4 | ... | ... | ...
+1 | File | `/admin.php?controller=admin_commonuser` | High
+2 | File | `/admin/content/index` | High
+3 | File | `/admin/convert/export_z3950_new.php` | High
+4 | File | `/adms/admin/?page=vehicles/sell_vehicle` | High
+5 | File | `/ajax/update_certificate` | High
+6 | File | `/api/admin/system/store/order/list` | High
+7 | File | `/api/jmeter/download/files` | High
+8 | File | `/cgi-bin/wlogin.cgi` | High
+9 | File | `/customs/loan_by_class.php?reportView` | High
+10 | File | `/ecommerce/admin/settings/setDiscount.php` | High
+11 | File | `/editor/index.php` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/fos/admin/ajax.php` | High
+14 | File | `/goform/WifiBasicSet` | High
+15 | File | `/intern/controller.php` | High
+16 | ... | ... | ...
 
-There are 15 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 124 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [CN](https://vuldb.com/?country.cn)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 14 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -830,9 +830,14 @@ ID | IP address | Hostname | Campaign | Confidence
 807 | [45.150.67.128](https://vuldb.com/?ip.45.150.67.128) | vpn2529md.com | - | High
 808 | [45.150.67.151](https://vuldb.com/?ip.45.150.67.151) | vm1279157.stark-industries.solutions | - | High
 809 | [45.150.67.236](https://vuldb.com/?ip.45.150.67.236) | licher2.lone.example.com | - | High
-810 | ... | ... | ... | ...
+810 | [45.150.108.67](https://vuldb.com/?ip.45.150.108.67) | - | - | High
+811 | [45.150.108.187](https://vuldb.com/?ip.45.150.108.187) | - | - | High
+812 | [45.150.173.61](https://vuldb.com/?ip.45.150.173.61) | - | - | High
+813 | [45.153.184.61](https://vuldb.com/?ip.45.153.184.61) | no-reverse-yet.local | - | High
+814 | [45.153.186.153](https://vuldb.com/?ip.45.153.186.153) | no-reverse-yet.local | - | High
+815 | ... | ... | ... | ...
 
-There are 3235 more IOC items available. Please use our online service to access the data.
+There are 3258 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -840,14 +845,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -859,65 +864,64 @@ ID | Type | Indicator | Confidence
 2 | File | `/?p=products` | Medium
 3 | File | `/about.php` | Medium
 4 | File | `/admin.php/update/getFile.html` | High
-5 | File | `/admin/cashadvance_row.php` | High
-6 | File | `/admin/index2.html` | High
-7 | File | `/admin/login.php` | High
-8 | File | `/admin/maintenance/brand.php` | High
-9 | File | `/admin/maintenance/view_designation.php` | High
-10 | File | `/admin/mechanics/manage_mechanic.php` | High
-11 | File | `/admin/positions_add.php` | High
-12 | File | `/admin/user/manage_user.php` | High
-13 | File | `/admin/userprofile.php` | High
-14 | File | `/admin/voters_row.php` | High
-15 | File | `/ajax.php?action=save_company` | High
-16 | File | `/ajax.php?action=save_user` | High
-17 | File | `/ajax/myshop` | Medium
-18 | File | `/alerts/alertConfigField.php` | High
-19 | File | `/api/stl/actions/search` | High
-20 | File | `/api/v2/cli/commands` | High
-21 | File | `/authenticationendpoint/login.do` | High
-22 | File | `/backup.pl` | Medium
-23 | File | `/cas/logout` | Medium
-24 | File | `/cgi-bin` | Medium
-25 | File | `/cgi-bin/system_mgr.cgi` | High
-26 | File | `/contactform/contactform.php` | High
-27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-28 | File | `/dcim/rack-roles/` | High
-29 | File | `/DXR.axd` | Medium
-30 | File | `/env` | Low
-31 | File | `/feeds/post/publish` | High
-32 | File | `/film-rating.php` | High
-33 | File | `/forum/away.php` | High
-34 | File | `/goform/WifiGuestSet` | High
-35 | File | `/inc/jquery/uploadify/uploadify.php` | High
-36 | File | `/inc/topBarNav.php` | High
-37 | File | `/index.php` | Medium
-38 | File | `/index.php?app=main&func=passport&action=login` | High
-39 | File | `/index.php?page=category_list` | High
-40 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
-41 | File | `/jobinfo/` | Medium
-42 | File | `/kelas/data` | Medium
-43 | File | `/kelasdosen/data` | High
-44 | File | `/librarian/bookdetails.php` | High
-45 | File | `/mantis/view_all_bug_page.php` | High
-46 | File | `/modules/projects/vw_files.php` | High
-47 | File | `/Moosikay/order.php` | High
-48 | File | `/nasm/nasm-parse.c` | High
-49 | File | `/opac/Actions.php?a=login` | High
-50 | File | `/out.php` | Medium
-51 | File | `/PreviewHandler.ashx` | High
-52 | File | `/reservation/add_message.php` | High
-53 | File | `/see_more_details.php` | High
-54 | File | `/services/indexing/preview` | High
-55 | File | `/student/bookdetails.php` | High
-56 | ... | ... | ...
+5 | File | `/admin/positions_add.php` | High
+6 | File | `/admin/user/manage_user.php` | High
+7 | File | `/ajax.php?action=save_company` | High
+8 | File | `/ajax.php?action=save_user` | High
+9 | File | `/ajax/myshop` | Medium
+10 | File | `/alerts/alertConfigField.php` | High
+11 | File | `/api/stl/actions/search` | High
+12 | File | `/api/v2/cli/commands` | High
+13 | File | `/authenticationendpoint/login.do` | High
+14 | File | `/backup.pl` | Medium
+15 | File | `/bin/ate` | Medium
+16 | File | `/cas/logout` | Medium
+17 | File | `/cgi-bin` | Medium
+18 | File | `/cgi-bin/system_mgr.cgi` | High
+19 | File | `/contactform/contactform.php` | High
+20 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+21 | File | `/dcim/rack-roles/` | High
+22 | File | `/DXR.axd` | Medium
+23 | File | `/env` | Low
+24 | File | `/feeds/post/publish` | High
+25 | File | `/film-rating.php` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/goform/WifiGuestSet` | High
+28 | File | `/inc/jquery/uploadify/uploadify.php` | High
+29 | File | `/index.php` | Medium
+30 | File | `/index.php?app=main&func=passport&action=login` | High
+31 | File | `/index.php?page=category_list` | High
+32 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+33 | File | `/jobinfo/` | Medium
+34 | File | `/kelas/data` | Medium
+35 | File | `/kelasdosen/data` | High
+36 | File | `/librarian/bookdetails.php` | High
+37 | File | `/mantis/view_all_bug_page.php` | High
+38 | File | `/modules/projects/vw_files.php` | High
+39 | File | `/Moosikay/order.php` | High
+40 | File | `/opac/Actions.php?a=login` | High
+41 | File | `/out.php` | Medium
+42 | File | `/paysystem/branch.php` | High
+43 | File | `/php-sms/admin/?page=user/manage_user` | High
+44 | File | `/PreviewHandler.ashx` | High
+45 | File | `/reservation/add_message.php` | High
+46 | File | `/see_more_details.php` | High
+47 | File | `/services/indexing/preview` | High
+48 | File | `/student/bookdetails.php` | High
+49 | File | `/Taier/API/tenant/listTenant` | High
+50 | File | `/upgrade` | Medium
+51 | File | `/uploads/exam_question/` | High
+52 | File | `/user/updatePwd` | High
+53 | File | `/var/lib/docker/<remapping>` | High
+54 | ... | ... | ...
 
-There are 489 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 474 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://app.any.run/tasks/0ac01d92-9226-4078-8bce-a30146014d42
 * https://app.any.run/tasks/0b943fcc-efd7-498d-a0d5-1ce4c766c2f6
 * https://app.any.run/tasks/00d1b24f-c276-4c96-b2d3-d71e2fcaabeb
 * https://app.any.run/tasks/00d28d0c-9e4c-4248-9c03-b73bbe30a9e4
@@ -932,6 +936,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/2d3debfb-51c9-451e-9486-12153e39c8d6
 * https://app.any.run/tasks/2e0f7f3d-f737-4fdf-80c7-bb3c092cb768
 * https://app.any.run/tasks/2f7d3e47-981b-4664-9099-b3d7a06599b4
+* https://app.any.run/tasks/3acc3dee-7ba8-4eeb-80f2-a91822ac3a7f
 * https://app.any.run/tasks/5b25913d-c5cb-4116-8183-cc2051621894
 * https://app.any.run/tasks/5ca98b49-50a6-4d8c-b05a-cdce1b520749
 * https://app.any.run/tasks/5da96d6d-a08c-4ac6-883c-ef5782557c17
@@ -945,6 +950,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/27a0d6d1-7b73-4561-b003-a9365b0a4ae5
 * https://app.any.run/tasks/29d3f59b-566d-4fa8-b7ef-4609a48c510d/
 * https://app.any.run/tasks/30bb18a1-ea92-4208-91a1-e1b964930fa5
+* https://app.any.run/tasks/35f264ac-fca9-4990-a7ca-38ab8fb19fc2
 * https://app.any.run/tasks/42d07163-76d4-4931-abfe-e913d5a266ca
 * https://app.any.run/tasks/44e686b8-6d55-424a-b072-2a1513a3c2d5
 * https://app.any.run/tasks/57fcfd4e-c661-4839-b2bd-d2b5f9292b5c
@@ -953,6 +959,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/83ddae45-68bc-4863-9740-899497396e5c
 * https://app.any.run/tasks/91f32395-7c7e-41a9-8174-4e651c4715dc/
 * https://app.any.run/tasks/173b2306-33e2-4682-b1fa-e87457e7c8ab
+* https://app.any.run/tasks/379bf8d1-1190-4b22-81df-b33b79e2f005
 * https://app.any.run/tasks/524dba93-413b-40c0-8e80-71f9a878ee1c
 * https://app.any.run/tasks/532df5b1-d120-415d-9bd1-7ac9883f8e25
 * https://app.any.run/tasks/856e6eb5-9f60-46ff-a46c-7d7cbf704f02
@@ -997,10 +1004,12 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://app.any.run/tasks/e2dbe268-1e82-4fce-b70a-c2bfc41b65ef
 * https://app.any.run/tasks/e4bcaea9-9cf9-4302-a7c9-931c530e3442
 * https://app.any.run/tasks/e5c1be3b-4237-4910-ad1d-c079ea6f6966
+* https://app.any.run/tasks/e6bf0bab-8980-4a7c-8bfb-a7c6fc7aeb30
 * https://app.any.run/tasks/e6f358c8-0fb0-4f94-b8e3-85c0e5abdc66
 * https://app.any.run/tasks/e9a66937-5b0a-4963-9c4c-d617eb48c12b
 * https://app.any.run/tasks/e43cfcb8-486f-489d-9457-70f4722158da
 * https://app.any.run/tasks/e628fbeb-9ca3-4265-833d-fd04b0e3c327/
+* https://app.any.run/tasks/efc9d056-616b-4eb3-a497-a5550cfc7327
 * https://app.any.run/tasks/f0b34352-73a9-420d-a0ce-cbe1dd18e808
 * https://app.any.run/tasks/f484e729-ef9f-4eb8-aa7a-5ddba0ad7348
 * https://app.any.run/tasks/f89292ba-fb07-4da3-b659-3b1fc292a06e
@@ -1066,6 +1075,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://tria.ge/221228-y62w6sef2t/behavioral1
 * https://twitter.com/0xToxin/status/1621227203655499777
 * https://twitter.com/500mk500/status/1594786207661232173
+* https://twitter.com/500mk500/status/1670413106416164864
 * https://twitter.com/AnFam17/status/1625990921488674816
 * https://twitter.com/Artilllerie/status/1461358867233705985
 * https://twitter.com/Artilllerie/status/1618186600068026370

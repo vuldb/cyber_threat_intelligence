@@ -45,7 +45,8 @@ ID | IP address | Hostname | Campaign | Confidence
 22 | [45.77.31.210](https://vuldb.com/?ip.45.77.31.210) | 45.77.31.210.vultrusercontent.com | - | High
 23 | [45.133.203.205](https://vuldb.com/?ip.45.133.203.205) | - | - | High
 24 | [46.17.106.110](https://vuldb.com/?ip.46.17.106.110) | zaphim2.ru | - | High
-25 | ... | ... | ... | ...
+25 | [46.17.106.230](https://vuldb.com/?ip.46.17.106.230) | vds2364993.my-ihor.ru | - | High
+26 | ... | ... | ... | ...
 
 There are 98 more IOC items available. Please use our online service to access the data.
 
@@ -96,6 +97,7 @@ The following list contains _external sources_ which discuss the actor and the a
 * https://bazaar.abuse.ch/sample/26cad4ec29bc07d7b2c32c94dbbef397391babf1c78cc533950b325aaf11bba8/
 * https://bazaar.abuse.ch/sample/759e159da0592063bb0eb967dd45802caa0a1538867994868d5b883f099286a5/
 * https://bazaar.abuse.ch/sample/2174b4c58eb43aac8e5e0061ff0bc45125f4cb64404d552fe25ea6ac1777113d/
+* https://bazaar.abuse.ch/sample/ae49d8d6d68069696428ebd3fce5a003af4a6ccaf4f67331eea37a0cd4dfbb77/
 * https://bazaar.abuse.ch/sample/c9e6dc44db59f1883e850babac21890e5723d2627a623c47f709e3bb7d073e35/
 * https://infosec.exchange/@malware_traffic/109762477310102114
 * https://threatfox.abuse.ch

@@ -138,23 +138,22 @@ ID | Type | Indicator | Confidence
 16 | File | `/messageboard/view.php` | High
 17 | File | `/nova/bin/console` | High
 18 | File | `/nova/bin/detnet` | High
-19 | File | `/one_church/userregister.php` | High
-20 | File | `/out.php` | Medium
-21 | File | `/owa/auth/logon.aspx` | High
-22 | File | `/rom-0` | Low
-23 | File | `/SAP_Information_System/controllers/add_admin.php` | High
-24 | File | `/ServletAPI/accounts/login` | High
-25 | File | `/textpattern/index.php` | High
-26 | File | `/trx_addons/v2/get/sc_layout` | High
-27 | File | `/v2/quantum/save-data-upload-big-file` | High
-28 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
-29 | File | `/wp-json` | Medium
-30 | File | `4.edu.php` | Medium
-31 | File | `adclick.php` | Medium
-32 | File | `adm.cgi` | Low
-33 | ... | ... | ...
+19 | File | `/out.php` | Medium
+20 | File | `/owa/auth/logon.aspx` | High
+21 | File | `/rom-0` | Low
+22 | File | `/SAP_Information_System/controllers/add_admin.php` | High
+23 | File | `/ServletAPI/accounts/login` | High
+24 | File | `/textpattern/index.php` | High
+25 | File | `/trx_addons/v2/get/sc_layout` | High
+26 | File | `/v2/quantum/save-data-upload-big-file` | High
+27 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+28 | File | `/wp-json` | Medium
+29 | File | `4.edu.php` | Medium
+30 | File | `adclick.php` | Medium
+31 | File | `adm.cgi` | Low
+32 | ... | ... | ...
 
-There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 271 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

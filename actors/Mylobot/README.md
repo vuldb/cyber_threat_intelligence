@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [FR](https://vuldb.com/?country.fr)
 * ...
 
-There are 28 more country items available. Please use our online service to access the data.
+There are 27 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -73,24 +73,24 @@ ID | Type | Indicator | Confidence
 21 | File | `/include/menu_v.inc.php` | High
 22 | File | `/include/notify.inc.php` | High
 23 | File | `/magnoliaPublic/travel/members/login.html` | High
-24 | File | `/mfaslmf/nolicense` | High
-25 | File | `/mhds/clinic/view_details.php` | High
-26 | File | `/MicroStrategyWS/happyaxis.jsp` | High
-27 | File | `/owa/auth/logon.aspx` | High
-28 | File | `/proc` | Low
-29 | File | `/products/details.asp` | High
-30 | File | `/public/plugins/` | High
-31 | File | `/RestAPI` | Medium
-32 | File | `/school/model/get_teacher.php` | High
-33 | File | `/tmp` | Low
-34 | File | `/uncpath/` | Medium
-35 | File | `/user/loader.php?api=1` | High
-36 | File | `/User/saveUser` | High
-37 | File | `/viewer/krpano.html` | High
-38 | File | `/ViewUserHover.jspa` | High
-39 | File | `/WEB-INF/web.xml` | High
-40 | File | `/wp-admin/admin-ajax.php` | High
-41 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+24 | File | `/mhds/clinic/view_details.php` | High
+25 | File | `/MicroStrategyWS/happyaxis.jsp` | High
+26 | File | `/owa/auth/logon.aspx` | High
+27 | File | `/proc` | Low
+28 | File | `/products/details.asp` | High
+29 | File | `/public/plugins/` | High
+30 | File | `/RestAPI` | Medium
+31 | File | `/school/model/get_teacher.php` | High
+32 | File | `/tmp` | Low
+33 | File | `/uncpath/` | Medium
+34 | File | `/user/loader.php?api=1` | High
+35 | File | `/User/saveUser` | High
+36 | File | `/viewer/krpano.html` | High
+37 | File | `/ViewUserHover.jspa` | High
+38 | File | `/WEB-INF/web.xml` | High
+39 | File | `/wp-admin/admin-ajax.php` | High
+40 | File | `/wp-content/plugins/woocommerce/templates/emails/plain/` | High
+41 | File | `/wp-json/oembed/1.0/embed?url` | High
 42 | File | `/wp-json/wc/v3/webhooks` | High
 43 | File | `abc-pcie.c` | Medium
 44 | File | `account.asp` | Medium
@@ -100,9 +100,11 @@ ID | Type | Indicator | Confidence
 48 | File | `admin-ajax.php` | High
 49 | File | `admin.joomlaflashfun.php` | High
 50 | File | `admin.php` | Medium
-51 | ... | ... | ...
+51 | File | `admin/addons/archive/archive.php` | High
+52 | File | `admin/auth.php` | High
+53 | ... | ... | ...
 
-There are 441 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 460 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -48,7 +48,7 @@ ID | IP address | Hostname | Campaign | Confidence
 25 | [66.29.139.154](https://vuldb.com/?ip.66.29.139.154) | main-too.quarantine-pnap-vlan52.web-hosting.com | - | High
 26 | ... | ... | ... | ...
 
-There are 102 more IOC items available. Please use our online service to access the data.
+There are 101 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 

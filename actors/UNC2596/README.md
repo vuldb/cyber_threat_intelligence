@@ -15,11 +15,11 @@ The following _campaigns_ are known and can be associated with UNC2596:
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with UNC2596:
 
 * [US](https://vuldb.com/?country.us)
-* [NZ](https://vuldb.com/?country.nz)
-* [RU](https://vuldb.com/?country.ru)
+* [ES](https://vuldb.com/?country.es)
+* [IT](https://vuldb.com/?country.it)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -45,7 +45,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 6 more TTP items available. Please use our online service to access the data.
+There are 8 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -53,12 +53,19 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/index.php` | Medium
-2 | File | `/supervisor/procesa_carga.php` | High
-3 | File | `check.php` | Medium
-4 | ... | ... | ...
+1 | File | `/cgi-bin/supervisor/PwdGrp.cgi` | High
+2 | File | `/index.php` | Medium
+3 | File | `/supervisor/procesa_carga.php` | High
+4 | File | `/wireless/basic.asp` | High
+5 | File | `action.php` | Medium
+6 | File | `add.php` | Low
+7 | File | `administrator.php` | High
+8 | File | `admin\categories\manage_category.php` | High
+9 | File | `agents.php` | Medium
+10 | File | `AGENTS/index.php` | High
+11 | ... | ... | ...
 
-There are 18 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 82 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

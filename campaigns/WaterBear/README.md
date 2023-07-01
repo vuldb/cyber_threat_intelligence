@@ -11,6 +11,7 @@ These _actors_ are associated with WaterBear or other actors linked to the campa
 ID | Actor | Confidence
 -- | ----- | ----------
 1 | [BlackTech](https://vuldb.com/?actor.blacktech) | High
+2 | [Waterbear](https://vuldb.com/?actor.waterbear) | High
 
 ## IOC - Indicator of Compromise
 
@@ -18,12 +19,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Actor | Confidence
 -- | ---------- | -------- | ----- | ----------
-1 | [10.0.0.211](https://vuldb.com/?ip.10.0.0.211) | - | [BlackTech](https://vuldb.com/?actor.blacktech) | High
+1 | [10.0.0.211](https://vuldb.com/?ip.10.0.0.211) | - | [Waterbear](https://vuldb.com/?actor.waterbear) | High
 
 ## References
 
 The following list contains _external sources_ which discuss the campaign and the associated activities:
 
+* https://blog.trendmicro.com/trendlabs-security-intelligence/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection/
 * https://www.trendmicro.com/en_us/research/19/l/waterbear-is-back-uses-api-hooking-to-evade-security-product-detection.html
 
 ## Literature

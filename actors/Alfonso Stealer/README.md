@@ -21,8 +21,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [95.142.46.35](https://vuldb.com/?ip.95.142.46.35) | v798635.hosted-by-vdsina.ru | - | High
-2 | [194.87.248.102](https://vuldb.com/?ip.194.87.248.102) | ptr.ruvds.com | - | High
+1 | [89.23.101.20](https://vuldb.com/?ip.89.23.101.20) | - | - | High
+2 | [95.142.46.35](https://vuldb.com/?ip.95.142.46.35) | v798635.hosted-by-vdsina.ru | - | High
+3 | [109.172.45.229](https://vuldb.com/?ip.109.172.45.229) | necessary-pet.aeza.network | - | High
+4 | ... | ... | ... | ...
+
+There are 1 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -67,6 +71,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://app.any.run/tasks/95fa13b9-fe54-4e3b-9352-b5533dcf5b77/
 * https://app.any.run/tasks/907c994b-46eb-4722-85f9-2350ebda039a
+* https://twitter.com/crep1x/status/1670881170567954432
 
 ## Literature
 

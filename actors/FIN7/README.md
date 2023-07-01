@@ -24,7 +24,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -141,37 +141,38 @@ ID | Type | Indicator | Confidence
 28 | File | `/cgi-bin/wapopen` | High
 29 | File | `/cgi-bin/wlogin.cgi` | High
 30 | File | `/debug/pprof` | Medium
-31 | File | `/dev/block/mmcblk0rpmb` | High
-32 | File | `/env` | Low
-33 | File | `/feeds/post/publish` | High
-34 | File | `/forum/away.php` | High
-35 | File | `/fos/admin/ajax.php?action=login` | High
-36 | File | `/fos/admin/index.php?page=menu` | High
-37 | File | `/home/masterConsole` | High
-38 | File | `/home/sendBroadcast` | High
-39 | File | `/inc/jquery/uploadify/uploadify.php` | High
-40 | File | `/index.php?app=main&func=passport&action=login` | High
-41 | File | `/index.php?page=category_list` | High
-42 | File | `/jobinfo/` | Medium
-43 | File | `/medicines/profile.php` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/mygym/admin/index.php?view_exercises` | High
-46 | File | `/opac/Actions.php?a=login` | High
-47 | File | `/php-opos/index.php` | High
-48 | File | `/php-sms/admin/?page=user/manage_user` | High
-49 | File | `/PreviewHandler.ashx` | High
-50 | File | `/public/launchNewWindow.jsp` | High
-51 | File | `/reservation/add_message.php` | High
-52 | File | `/secure/QueryComponent!Default.jspa` | High
-53 | File | `/Session` | Medium
-54 | File | `/spip.php` | Medium
-55 | File | `/uncpath/` | Medium
+31 | File | `/env` | Low
+32 | File | `/feeds/post/publish` | High
+33 | File | `/forum/away.php` | High
+34 | File | `/fos/admin/ajax.php?action=login` | High
+35 | File | `/fos/admin/index.php?page=menu` | High
+36 | File | `/home/masterConsole` | High
+37 | File | `/home/sendBroadcast` | High
+38 | File | `/inc/jquery/uploadify/uploadify.php` | High
+39 | File | `/index.php?app=main&func=passport&action=login` | High
+40 | File | `/index.php?page=category_list` | High
+41 | File | `/jobinfo/` | Medium
+42 | File | `/medicines/profile.php` | High
+43 | File | `/Moosikay/order.php` | High
+44 | File | `/mygym/admin/index.php?view_exercises` | High
+45 | File | `/opac/Actions.php?a=login` | High
+46 | File | `/php-opos/index.php` | High
+47 | File | `/php-sms/admin/?page=user/manage_user` | High
+48 | File | `/PreviewHandler.ashx` | High
+49 | File | `/public/launchNewWindow.jsp` | High
+50 | File | `/reservation/add_message.php` | High
+51 | File | `/secure/QueryComponent!Default.jspa` | High
+52 | File | `/Session` | Medium
+53 | File | `/spip.php` | Medium
+54 | File | `/uncpath/` | Medium
+55 | File | `/uploads/exam_question/` | High
 56 | File | `/user/updatePwd` | High
 57 | File | `/var/lib/docker/<remapping>` | High
 58 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
-59 | ... | ... | ...
+59 | File | `/video-sharing-script/watch-video.php` | High
+60 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 529 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

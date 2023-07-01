@@ -52,8 +52,8 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+1 | T1006 | CWE-21, CWE-22 | Pathname Traversal | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -69,65 +69,63 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/?p=products` | Medium
 2 | File | `/admin/?page=product/manage_product&id=2` | High
-3 | File | `/admin/ajax.php?action=delete_window` | High
-4 | File | `/admin/casedetails.php` | High
-5 | File | `/admin/maintenance/brand.php` | High
-6 | File | `/admin/mechanics/manage_mechanic.php` | High
+3 | File | `/admin/casedetails.php` | High
+4 | File | `/admin/maintenance/brand.php` | High
+5 | File | `/admin/mechanics/manage_mechanic.php` | High
+6 | File | `/admin/positions_add.php` | High
 7 | File | `/admin/user/manage_user.php` | High
 8 | File | `/admin/userprofile.php` | High
 9 | File | `/admin/voters_row.php` | High
 10 | File | `/ad_js.php` | Medium
 11 | File | `/agc/vicidial.php` | High
-12 | File | `/ajax/myshop` | Medium
-13 | File | `/alumni/admin/ajax.php?action=save_settings` | High
-14 | File | `/api/gen/clients/{language}` | High
-15 | File | `/apply.cgi` | Medium
-16 | File | `/APR/signup.php` | High
-17 | File | `/authenticationendpoint/login.do` | High
-18 | File | `/aux` | Low
-19 | File | `/backup.pl` | Medium
-20 | File | `/cas/logout` | Medium
-21 | File | `/categorypage.php` | High
-22 | File | `/cgi-bin/system_mgr.cgi` | High
-23 | File | `/cgi-bin/wlogin.cgi` | High
-24 | File | `/cha.php` | Medium
-25 | File | `/College/admin/teacher.php` | High
-26 | File | `/contactform/contactform.php` | High
-27 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-28 | File | `/dayrui/Fcms/View/system_log.html` | High
-29 | File | `/drivers/block/floppy.c` | High
-30 | File | `/ecommerce/admin/category/controller.php` | High
-31 | File | `/etc/config/product.ini` | High
-32 | File | `/etc/crash` | Medium
-33 | File | `/etc/shadow` | Medium
-34 | File | `/forum/away.php` | High
-35 | File | `/fos/admin/ajax.php` | High
-36 | File | `/goform/aspForm` | High
-37 | File | `/goform/WifiBasicSet` | High
-38 | File | `/inc/topBarNav.php` | High
-39 | File | `/index.php` | Medium
-40 | File | `/kelasdosen/data` | High
-41 | File | `/login/index.php` | High
-42 | File | `/medicines/profile.php` | High
-43 | File | `/modules/projects/vw_files.php` | High
-44 | File | `/Moosikay/order.php` | High
-45 | File | `/multi-vendor-shopping-script/product-list.php` | High
-46 | File | `/nasm/nasm-parse.c` | High
-47 | File | `/ordering/admin/orders/loaddata.php` | High
-48 | File | `/ordering/admin/stockin/loaddata.php` | High
-49 | File | `/philosophy/admin/login.php` | High
-50 | File | `/php-opos/login.php` | High
-51 | File | `/priv_mgt.html` | High
-52 | File | `/queuing/index.php?page=display` | High
-53 | File | `/resources//../` | High
-54 | File | `/see_more_details.php` | High
-55 | File | `/user/updatePwd` | High
-56 | File | `/users/delete/2` | High
-57 | File | `/webman/info.cgi` | High
-58 | File | `/webroot/inc/utility_all.php` | High
-59 | ... | ... | ...
+12 | File | `/ajax.php?action=save_company` | High
+13 | File | `/ajax.php?action=save_user` | High
+14 | File | `/ajax/myshop` | Medium
+15 | File | `/alumni/admin/ajax.php?action=save_settings` | High
+16 | File | `/api/gen/clients/{language}` | High
+17 | File | `/apply.cgi` | Medium
+18 | File | `/APR/signup.php` | High
+19 | File | `/authenticationendpoint/login.do` | High
+20 | File | `/aux` | Low
+21 | File | `/backup.pl` | Medium
+22 | File | `/cas/logout` | Medium
+23 | File | `/categorypage.php` | High
+24 | File | `/cgi-bin/system_mgr.cgi` | High
+25 | File | `/cgi-bin/wlogin.cgi` | High
+26 | File | `/cha.php` | Medium
+27 | File | `/College/admin/teacher.php` | High
+28 | File | `/contactform/contactform.php` | High
+29 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+30 | File | `/dayrui/Fcms/View/system_log.html` | High
+31 | File | `/dcim/rack-roles/` | High
+32 | File | `/drivers/block/floppy.c` | High
+33 | File | `/ecommerce/admin/category/controller.php` | High
+34 | File | `/etc/config/product.ini` | High
+35 | File | `/etc/shadow` | Medium
+36 | File | `/forum/away.php` | High
+37 | File | `/fos/admin/ajax.php` | High
+38 | File | `/goform/aspForm` | High
+39 | File | `/goform/WifiGuestSet` | High
+40 | File | `/inc/topBarNav.php` | High
+41 | File | `/index.php?s=/article/ApiAdminArticle/itemAdd` | High
+42 | File | `/kelas/data` | Medium
+43 | File | `/kelasdosen/data` | High
+44 | File | `/modules/projects/vw_files.php` | High
+45 | File | `/Moosikay/order.php` | High
+46 | File | `/multi-vendor-shopping-script/product-list.php` | High
+47 | File | `/nasm/nasm-parse.c` | High
+48 | File | `/ordering/admin/orders/loaddata.php` | High
+49 | File | `/ordering/admin/stockin/loaddata.php` | High
+50 | File | `/paysystem/branch.php` | High
+51 | File | `/paysystem/datatable.php` | High
+52 | File | `/philosophy/admin/login.php` | High
+53 | File | `/php-opos/login.php` | High
+54 | File | `/priv_mgt.html` | High
+55 | File | `/resources//../` | High
+56 | File | `/see_more_details.php` | High
+57 | ... | ... | ...
 
-There are 520 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 496 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

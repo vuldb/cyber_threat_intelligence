@@ -60,7 +60,7 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/+CSCOE+/logon.html` | High
-2 | File | `/.ssh/authorized_keys` | High
+2 | File | `/ajax.php?action=read_msg` | High
 3 | File | `/ajax/networking/get_netcfg.php` | High
 4 | File | `/api/gen/clients/{language}` | High
 5 | File | `/app/options.py` | High
@@ -102,11 +102,9 @@ ID | Type | Indicator | Confidence
 41 | File | `/secure/admin/InsightDefaultCustomFieldConfig.jspa` | High
 42 | File | `/spip.php` | Medium
 43 | File | `/squashfs-root/www/HNAP1/control/SetMasterWLanSettings.php` | High
-44 | File | `/sys/dict/queryTableData` | High
-45 | File | `/tmp` | Low
-46 | ... | ... | ...
+44 | ... | ... | ...
 
-There are 398 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 381 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

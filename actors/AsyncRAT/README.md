@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [US](https://vuldb.com/?country.us)
 * ...
 
-There are 11 more country items available. Please use our online service to access the data.
+There are 12 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -317,7 +317,7 @@ ID | IP address | Hostname | Campaign | Confidence
 294 | [45.137.22.111](https://vuldb.com/?ip.45.137.22.111) | hosted-by.rootlayer.net | - | High
 295 | ... | ... | ... | ...
 
-There are 1175 more IOC items available. Please use our online service to access the data.
+There are 1176 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -325,10 +325,10 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-50, CWE-425 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-29, CWE-50 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
@@ -344,36 +344,37 @@ ID | Type | Indicator | Confidence
 2 | File | `/admin/modal_add_product.php` | High
 3 | File | `/admin/positions_add.php` | High
 4 | File | `/admin/update_s6.php` | High
-5 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
-6 | File | `/authenticationendpoint/login.do` | High
-7 | File | `/bin/ate` | Medium
-8 | File | `/bin/login` | Medium
-9 | File | `/cgi-bin/luci` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/changeimage.php` | High
-12 | File | `/classes/Users.php?f=save` | High
-13 | File | `/DXR.axd` | Medium
-14 | File | `/env` | Low
-15 | File | `/forum/away.php` | High
-16 | File | `/goform/WifiGuestSet` | High
-17 | File | `/HNAP1` | Low
-18 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
-19 | File | `/mc` | Low
-20 | File | `/note/index/delete` | High
-21 | File | `/out.php` | Medium
-22 | File | `/owa/auth/logon.aspx` | High
-23 | File | `/paysystem/branch.php` | High
-24 | File | `/php-inventory-management-system/product.php` | High
-25 | File | `/php-sms/admin/?page=user/manage_user` | High
-26 | File | `/send_order.cgi?parameter=restart` | High
-27 | File | `/services/indexing/preview` | High
-28 | File | `/tmp/boa-temp` | High
-29 | File | `/userfs/bin/tcapi` | High
-30 | File | `/var/log/nginx` | High
-31 | File | `/wp-admin/admin-ajax.php` | High
-32 | ... | ... | ...
+5 | File | `/api/geojson` | Medium
+6 | File | `/Applications/Content%20Manager/Execute.aspx?cmd=convert&mode=HTML` | High
+7 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+8 | File | `/authenticationendpoint/login.do` | High
+9 | File | `/bin/ate` | Medium
+10 | File | `/bin/login` | Medium
+11 | File | `/cgi-bin/luci` | High
+12 | File | `/cgi-bin/wlogin.cgi` | High
+13 | File | `/changeimage.php` | High
+14 | File | `/classes/Users.php?f=save` | High
+15 | File | `/DXR.axd` | Medium
+16 | File | `/env` | Low
+17 | File | `/forum/away.php` | High
+18 | File | `/goform/WifiGuestSet` | High
+19 | File | `/HNAP1` | Low
+20 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+21 | File | `/mc` | Low
+22 | File | `/out.php` | Medium
+23 | File | `/owa/auth/logon.aspx` | High
+24 | File | `/paysystem/branch.php` | High
+25 | File | `/php-inventory-management-system/product.php` | High
+26 | File | `/php-sms/admin/?page=user/manage_user` | High
+27 | File | `/send_order.cgi?parameter=restart` | High
+28 | File | `/Taier/API/tenant/listTenant` | High
+29 | File | `/tmp/boa-temp` | High
+30 | File | `/userfs/bin/tcapi` | High
+31 | File | `/var/log/nginx` | High
+32 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+33 | ... | ... | ...
 
-There are 270 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 277 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

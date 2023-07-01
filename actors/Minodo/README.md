@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -22,11 +22,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
 1 | [5.182.37.118](https://vuldb.com/?ip.5.182.37.118) | vps.hostry.com | - | High
-2 | [88.119.175.124](https://vuldb.com/?ip.88.119.175.124) | 19872-33971.bacloud.info | - | High
-3 | [94.158.247.72](https://vuldb.com/?ip.94.158.247.72) | no-rdns.mivocloud.com | - | High
-4 | ... | ... | ... | ...
+2 | [5.252.177.8](https://vuldb.com/?ip.5.252.177.8) | no-rdns.mivocloud.com | - | High
+3 | [5.252.177.15](https://vuldb.com/?ip.5.252.177.15) | no-rdns.mivocloud.com | - | High
+4 | [23.227.193.141](https://vuldb.com/?ip.23.227.193.141) | arthritisdocs.net | - | High
+5 | ... | ... | ... | ...
 
-There are 2 more IOC items available. Please use our online service to access the data.
+There are 17 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -34,7 +35,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
@@ -48,33 +49,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/api/RecordingList/DownloadRecord?file=` | High
-2 | File | `/apply.cgi` | Medium
-3 | File | `/card_scan.php` | High
-4 | File | `/cgi-bin/wlogin.cgi` | High
-5 | File | `/cwc/login` | Medium
-6 | File | `/download` | Medium
-7 | File | `/etc/quagga` | Medium
-8 | File | `/etc/shadow` | Medium
-9 | File | `/forms/doLogin` | High
-10 | File | `/h/calendar` | Medium
-11 | File | `/inc/extensions.php` | High
-12 | File | `/netflow/jspui/editProfile.jsp` | High
-13 | File | `/nova/bin/console` | High
-14 | File | `/nova/bin/detnet` | High
-15 | File | `/out.php` | Medium
-16 | File | `/rapi/read_url` | High
-17 | File | `/req_password_user.php` | High
-18 | File | `/rom-0` | Low
-19 | ... | ... | ...
+1 | File | `%APPDATA%\Securepoint SSL VPN` | High
+2 | File | `/api/RecordingList/DownloadRecord?file=` | High
+3 | File | `/application/common.php#action_log` | High
+4 | File | `/apply.cgi` | Medium
+5 | File | `/card_scan.php` | High
+6 | File | `/cgi-bin/wlogin.cgi` | High
+7 | File | `/cwc/login` | Medium
+8 | File | `/download` | Medium
+9 | File | `/etc/quagga` | Medium
+10 | File | `/etc/shadow` | Medium
+11 | File | `/forms/doLogin` | High
+12 | File | `/goform/L7Im` | Medium
+13 | File | `/h/calendar` | Medium
+14 | File | `/icingaweb2/navigation/add` | High
+15 | File | `/inc/extensions.php` | High
+16 | File | `/netflow/jspui/editProfile.jsp` | High
+17 | File | `/nova/bin/console` | High
+18 | File | `/nova/bin/detnet` | High
+19 | File | `/out.php` | Medium
+20 | File | `/php-sms/classes/Master.php?f=save_quote` | High
+21 | File | `/rapi/read_url` | High
+22 | File | `/req_password_user.php` | High
+23 | File | `/rom-0` | Low
+24 | File | `/secure/QueryComponent!Default.jspa` | High
+25 | File | `/ServletAPI/accounts/login` | High
+26 | File | `/setNTP.cgi` | Medium
+27 | ... | ... | ...
 
-There are 152 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 230 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://securityintelligence.com/posts/ex-conti-fin7-actors-collaborate-new-backdoor/
+* https://twitter.com/TLP_R3D/status/1647632354926534657
 
 ## Literature
 

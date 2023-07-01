@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Indexsinas:
 
 * [VN](https://vuldb.com/?country.vn)
-* [US](https://vuldb.com/?country.us)
 * [NZ](https://vuldb.com/?country.nz)
+* [HK](https://vuldb.com/?country.hk)
 * ...
 
-There are 3 more country items available. Please use our online service to access the data.
+There are 4 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -287,13 +287,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-29, CWE-425 | Pathname Traversal | High
-2 | T1055 | CWE-74 | Injection | High
-3 | T1059 | CWE-94 | Cross Site Scripting | High
-4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | ... | ... | ... | ...
+1 | T1006 | CWE-21, CWE-22, CWE-24, CWE-29 | Pathname Traversal | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+3 | T1055 | CWE-74 | Injection | High
+4 | T1059 | CWE-94 | Cross Site Scripting | High
+5 | T1059.007 | CWE-79 | Cross Site Scripting | High
+6 | ... | ... | ... | ...
 
-There are 14 more TTP items available. Please use our online service to access the data.
+There are 18 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -301,27 +302,42 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/admin/?page=user/list` | High
-2 | File | `/admin/ajax.php?action=save_area` | High
-3 | File | `/admin/contacts/organizations/edit/2` | High
-4 | File | `/admin/modal_add_product.php` | High
-5 | File | `/admin/reportupload.aspx` | High
-6 | File | `/admin/update_s6.php` | High
-7 | File | `/ajax.php?action=read_msg` | High
-8 | File | `/ajax.php?action=save_company` | High
-9 | File | `/api/user/password/sent-reset-email` | High
-10 | File | `/bin/login` | Medium
-11 | File | `/bsms_ci/index.php/user/edit_user/` | High
-12 | File | `/cgi-bin/upload_vpntar` | High
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/data/remove` | Medium
-15 | File | `/debug/pprof` | Medium
+1 | File | `/admin/addproduct.php` | High
+2 | File | `/admin/modal_add_product.php` | High
+3 | File | `/ajax.php?action=read_msg` | High
+4 | File | `/api/user/password/sent-reset-email` | High
+5 | File | `/Applications/Google\ Drive.app/Contents/MacOS` | High
+6 | File | `/authenticationendpoint/login.do` | High
+7 | File | `/bin/login` | Medium
+8 | File | `/bsms_ci/index.php` | High
+9 | File | `/bsms_ci/index.php/user/edit_user/` | High
+10 | File | `/cgi-bin/luci` | High
+11 | File | `/cgi-bin/wlogin.cgi` | High
+12 | File | `/changeimage.php` | High
+13 | File | `/classes/Users.php?f=save` | High
+14 | File | `/download` | Medium
+15 | File | `/DXR.axd` | Medium
 16 | File | `/forum/away.php` | High
-17 | File | `/hrm/controller/employee.php` | High
+17 | File | `/HNAP1` | Low
 18 | File | `/hrm/employeeadd.php` | High
-19 | ... | ... | ...
+19 | File | `/link/` | Low
+20 | File | `/Log/Query?appid=0B736354-9473-4D66-B9C0-15CAC149EB05&tabid=tab_0B73635494734D66B9C015CAC149EB05` | High
+21 | File | `/mc` | Low
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/php-inventory-management-system/product.php` | High
+24 | File | `/send_order.cgi?parameter=restart` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/tmp/boa-temp` | High
+27 | File | `/userfs/bin/tcapi` | High
+28 | File | `/var/log/nginx` | High
+29 | File | `/vendor/htmlawed/htmlawed/htmLawedTest.php` | High
+30 | File | `/vendor/views/add_product.php` | High
+31 | File | `/wp-admin/admin-ajax.php` | High
+32 | File | `?r=dashboard/approval/del` | High
+33 | File | `accountrecoveryendpoint/recoverpassword.do` | High
+34 | ... | ... | ...
 
-There are 151 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 291 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

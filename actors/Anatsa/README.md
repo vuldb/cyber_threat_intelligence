@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Anatsa:
 
 * [US](https://vuldb.com/?country.us)
-* [DE](https://vuldb.com/?country.de)
 * [TR](https://vuldb.com/?country.tr)
+* [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 2 more country items available. Please use our online service to access the data.
+There are 3 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -48,8 +48,11 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `Illuminate\Broadcasting\PendingBroadcast.php` | High
-2 | Library | `FARFLT.SYS` | Medium
-3 | Argument | `wan_dyn_hostname` | High
+2 | File | `web/upload/UploadHandler.php` | High
+3 | Library | `FARFLT.SYS` | Medium
+4 | ... | ... | ...
+
+There are 1 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

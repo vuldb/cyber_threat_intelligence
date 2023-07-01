@@ -70,7 +70,7 @@ ID | IP address | Hostname | Campaign | Confidence
 47 | [45.137.22.251](https://vuldb.com/?ip.45.137.22.251) | hosted-by.rootlayer.net | - | High
 48 | ... | ... | ... | ...
 
-There are 186 more IOC items available. Please use our online service to access the data.
+There are 188 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -81,11 +81,11 @@ ID | Technique | Weakness | Description | Confidence
 1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
-4 | T1059 | CWE-94 | Cross Site Scripting | High
+4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -150,14 +150,14 @@ ID | Type | Indicator | Confidence
 55 | File | `/nasm/nasm-parse.c` | High
 56 | File | `/ordering/admin/orders/loaddata.php` | High
 57 | File | `/ordering/admin/stockin/loaddata.php` | High
-58 | File | `/philosophy/admin/login.php` | High
-59 | File | `/php-opos/login.php` | High
-60 | File | `/php-sms/admin/?page=user/manage_user` | High
-61 | File | `/priv_mgt.html` | High
-62 | File | `/reservation/add_message.php` | High
+58 | File | `/paysystem/branch.php` | High
+59 | File | `/philosophy/admin/login.php` | High
+60 | File | `/php-opos/login.php` | High
+61 | File | `/php-sms/admin/?page=user/manage_user` | High
+62 | File | `/priv_mgt.html` | High
 63 | ... | ... | ...
 
-There are 549 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 547 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

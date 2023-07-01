@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Cyber Jihad:
 
 * [LA](https://vuldb.com/?country.la)
+* [GB](https://vuldb.com/?country.gb)
 * [CN](https://vuldb.com/?country.cn)
-* [US](https://vuldb.com/?country.us)
 * ...
 
-There are 1 more country items available. Please use our online service to access the data.
+There are 2 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 3 | T1059 | CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 12 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -57,16 +57,17 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
-3 | File | `/owa/auth/logon.aspx` | High
-4 | File | `/spip.php` | Medium
-5 | File | `/zm/index.php` | High
-6 | File | `admin.jcomments.php` | High
-7 | File | `application/modules/admin/views/ecommerce/products.php` | High
-8 | File | `base/ErrorHandler.php` | High
-9 | File | `blog.php` | Medium
-10 | ... | ... | ...
+3 | File | `/DXR.axd` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/owa/auth/logon.aspx` | High
+6 | File | `/spip.php` | Medium
+7 | File | `/zm/index.php` | High
+8 | File | `admin.jcomments.php` | High
+9 | File | `application/modules/admin/views/ecommerce/products.php` | High
+10 | File | `base/ErrorHandler.php` | High
+11 | ... | ... | ...
 
-There are 75 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 83 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

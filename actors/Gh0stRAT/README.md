@@ -101,8 +101,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1055 | CWE-74 | Injection | High
 3 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 4 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-5 | T1068 | CWE-250, CWE-264, CWE-269, CWE-284 | J2EE Misconfiguration: Weak Access Permissions for EJB Methods | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -137,20 +136,21 @@ ID | Type | Indicator | Confidence
 23 | File | `/forum/away.php` | High
 24 | File | `/forum/PostPrivateMessage` | High
 25 | File | `/goform/addressNat` | High
-26 | File | `/goform/setmac` | High
-27 | File | `/goform/setMacFilterCfg` | High
-28 | File | `/HNAP1` | Low
-29 | File | `/HNAP1/SetClientInfo` | High
-30 | File | `/home/www/cgi-bin/login.cgi` | High
-31 | File | `/inc/jquery/uploadify/uploadify.php` | High
-32 | File | `/js/player/dmplayer/dmku/index.php` | High
-33 | File | `/kelasdosen/data` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/multi-vendor-shopping-script/product-list.php` | High
-36 | File | `/net-banking/customer_transactions.php` | High
-37 | ... | ... | ...
+26 | File | `/goform/AdvSetLanip` | High
+27 | File | `/goform/fromSetWirelessRepeat` | High
+28 | File | `/goform/setmac` | High
+29 | File | `/goform/setMacFilterCfg` | High
+30 | File | `/goform/SetSysTimeCfg` | High
+31 | File | `/goform/set_LimitClient_cfg` | High
+32 | File | `/goform/WifiGuestSet` | High
+33 | File | `/HNAP1` | Low
+34 | File | `/HNAP1/SetClientInfo` | High
+35 | File | `/home/www/cgi-bin/login.cgi` | High
+36 | File | `/inc/jquery/uploadify/uploadify.php` | High
+37 | File | `/js/player/dmplayer/dmku/index.php` | High
+38 | ... | ... | ...
 
-There are 321 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 330 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

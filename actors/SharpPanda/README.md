@@ -4,6 +4,12 @@ These _indicators_ were reported, collected, and generated during the [VulDB CTI
 
 _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com/?actor.sharppanda](https://vuldb.com/?actor.sharppanda)
 
+## Campaigns
+
+The following _campaigns_ are known and can be associated with SharpPanda:
+
+* G20 Nations
+
 ## Countries
 
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with SharpPanda:
@@ -21,12 +27,12 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [45.76.190.210](https://vuldb.com/?ip.45.76.190.210) | 45.76.190.210.vultrusercontent.com | - | High
-2 | [45.91.225.139](https://vuldb.com/?ip.45.91.225.139) | - | - | High
-3 | [45.121.146.88](https://vuldb.com/?ip.45.121.146.88) | 4master-cablestd.tartshow.com | - | High
+1 | [13.236.189.80](https://vuldb.com/?ip.13.236.189.80) | ec2-13-236-189-80.ap-southeast-2.compute.amazonaws.com | G20 Nations | Medium
+2 | [45.76.190.210](https://vuldb.com/?ip.45.76.190.210) | 45.76.190.210.vultrusercontent.com | - | High
+3 | [45.91.225.139](https://vuldb.com/?ip.45.91.225.139) | - | - | High
 4 | ... | ... | ... | ...
 
-There are 10 more IOC items available. Please use our online service to access the data.
+There are 11 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -53,14 +59,16 @@ ID | Type | Indicator | Confidence
 4 | File | `/modules/profile/index.php` | High
 5 | File | `/out.php` | Medium
 6 | File | `/tmp` | Low
-7 | ... | ... | ...
+7 | File | `/uncpath/` | Medium
+8 | ... | ... | ...
 
-There are 51 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 52 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
+* https://blog.cyble.com/2023/06/01/sharppanda-apt-campaign-expands-its-arsenal-targeting-g20-nations/
 * https://research.checkpoint.com/2021/chinese-apt-group-targets-southeast-asian-government-with-previously-unknown-backdoor/
 * https://research.checkpoint.com/2023/pandas-with-a-soul-chinese-espionage-attacks-against-southeast-asian-government-entities/
 

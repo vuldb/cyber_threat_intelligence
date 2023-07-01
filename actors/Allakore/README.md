@@ -48,9 +48,10 @@ ID | Type | Indicator | Confidence
 2 | File | `/wordpress/wp-admin/admin.php` | High
 3 | File | `admin/index.php` | High
 4 | File | `data/gbconfiguration.dat` | High
-5 | ... | ... | ...
+5 | File | `filter.php` | Medium
+6 | ... | ... | ...
 
-There are 33 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 34 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

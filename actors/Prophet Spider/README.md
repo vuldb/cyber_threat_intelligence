@@ -19,7 +19,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [ES](https://vuldb.com/?country.es)
 * ...
 
-There are 6 more country items available. Please use our online service to access the data.
+There are 7 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -46,7 +46,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-22, CWE-23, CWE-24, CWE-36 | Pathname Traversal | High
-2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-94 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79 | Cross Site Scripting | High
@@ -121,9 +121,10 @@ ID | Type | Indicator | Confidence
 59 | File | `/classes/Master.php?f=delete_inquiry` | High
 60 | File | `/classes/Master.php?f=delete_item` | High
 61 | File | `/classes/Master.php?f=delete_service` | High
-62 | ... | ... | ...
+62 | File | `/classes/Master.php?f=delete_sub_category` | High
+63 | ... | ... | ...
 
-There are 545 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 550 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

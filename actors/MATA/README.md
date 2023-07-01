@@ -21,13 +21,13 @@ These _indicators of compromise_ (IOC) indicate associated network resources whi
 
 ID | IP address | Hostname | Campaign | Confidence
 -- | ---------- | -------- | -------- | ----------
-1 | [23.227.199.53](https://vuldb.com/?ip.23.227.199.53) | 23-227-199-53.static.hvvc.us | - | High
-2 | [23.227.199.69](https://vuldb.com/?ip.23.227.199.69) | 23-227-199-69.static.hvvc.us | - | High
-3 | [23.254.119.12](https://vuldb.com/?ip.23.254.119.12) | - | - | High
-4 | [67.43.239.146](https://vuldb.com/?ip.67.43.239.146) | - | - | High
+1 | [2.4.17.15](https://vuldb.com/?ip.2.4.17.15) | lfbn-mon-1-592-15.w2-4.abo.wanadoo.fr | - | High
+2 | [23.227.199.53](https://vuldb.com/?ip.23.227.199.53) | 23-227-199-53.static.hvvc.us | - | High
+3 | [23.227.199.69](https://vuldb.com/?ip.23.227.199.69) | 23-227-199-69.static.hvvc.us | - | High
+4 | [23.254.119.12](https://vuldb.com/?ip.23.254.119.12) | - | - | High
 5 | ... | ... | ... | ...
 
-There are 14 more IOC items available. Please use our online service to access the data.
+There are 15 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -50,21 +50,22 @@ ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `/admin/dl_sendmail.php` | High
 2 | File | `/api/v2/cli/commands` | High
-3 | File | `/forum/away.php` | High
-4 | File | `/out.php` | Medium
-5 | File | `/owa/auth/logon.aspx` | High
-6 | File | `/phppath/php` | Medium
-7 | File | `/spip.php` | Medium
-8 | File | `/systemrw/` | Medium
-9 | File | `/zm/index.php` | High
-10 | File | `adclick.php` | Medium
-11 | File | `admin.jcomments.php` | High
-12 | File | `application/modules/admin/views/ecommerce/products.php` | High
-13 | File | `base/ErrorHandler.php` | High
-14 | File | `blog.php` | Medium
-15 | ... | ... | ...
+3 | File | `/DXR.axd` | Medium
+4 | File | `/forum/away.php` | High
+5 | File | `/out.php` | Medium
+6 | File | `/owa/auth/logon.aspx` | High
+7 | File | `/phppath/php` | Medium
+8 | File | `/spip.php` | Medium
+9 | File | `/systemrw/` | Medium
+10 | File | `/zm/index.php` | High
+11 | File | `adclick.php` | Medium
+12 | File | `admin.jcomments.php` | High
+13 | File | `application/modules/admin/views/ecommerce/products.php` | High
+14 | File | `base/ErrorHandler.php` | High
+15 | File | `blog.php` | Medium
+16 | ... | ... | ...
 
-There are 120 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 129 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

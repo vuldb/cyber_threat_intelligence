@@ -54,9 +54,10 @@ ID | Type | Indicator | Confidence
 5 | File | `/out.php` | Medium
 6 | File | `/spip.php` | Medium
 7 | File | `/web/IndexController.java` | High
-8 | ... | ... | ...
+8 | File | `/youthappam/editcategory.php` | High
+9 | ... | ... | ...
 
-There are 60 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 61 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

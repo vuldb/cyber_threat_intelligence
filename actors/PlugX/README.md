@@ -71,8 +71,7 @@ ID | Technique | Weakness | Description | Confidence
 2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
-5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
-6 | ... | ... | ... | ...
+5 | ... | ... | ... | ...
 
 There are 18 more TTP items available. Please use our online service to access the data.
 
@@ -87,47 +86,48 @@ ID | Type | Indicator | Confidence
 3 | File | `/etc/ajenti/config.yml` | High
 4 | File | `/forum/away.php` | High
 5 | File | `/goform/telnet` | High
-6 | File | `/modules/profile/index.php` | High
-7 | File | `/proc/self/environ` | High
-8 | File | `/rom-0` | Low
-9 | File | `/tmp/phpglibccheck` | High
-10 | File | `/uncpath/` | Medium
-11 | File | `/var/tmp/sess_*` | High
-12 | File | `/wp-json/oembed/1.0/embed?url` | High
-13 | File | `action.php` | Medium
-14 | File | `actionphp/download.File.php` | High
-15 | File | `add_comment.php` | High
-16 | File | `admin/admin.php` | High
-17 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
-18 | File | `admin/content.php` | High
-19 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
-20 | File | `admin/memberviewdetails.php` | High
-21 | File | `admin_gallery.php3` | High
-22 | File | `affich.php` | Medium
-23 | File | `agent/Core/Controller/SendRequest.cpp` | High
-24 | File | `akeyActivationLogin.do` | High
-25 | File | `album_portal.php` | High
-26 | File | `apache-auth.conf` | High
-27 | File | `askapache-firefox-adsense.php` | High
-28 | File | `attachment.cgi` | High
-29 | File | `auth.php` | Medium
-30 | File | `blogger-importer.php` | High
-31 | File | `blueprints/sections/edit/1` | High
-32 | File | `books.php` | Medium
-33 | File | `cart_add.php` | Medium
-34 | File | `CFS.c` | Low
-35 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
-36 | File | `cgi/cal?year` | Medium
-37 | File | `checktransferstatus.php` | High
-38 | File | `class.SystemAction.php` | High
-39 | File | `clientarea.php` | High
-40 | File | `collectivite.class.php` | High
-41 | File | `contact` | Low
-42 | File | `control.c` | Medium
-43 | File | `core/core.php` | High
-44 | ... | ... | ...
+6 | File | `/HNAP1` | Low
+7 | File | `/modules/profile/index.php` | High
+8 | File | `/proc/self/environ` | High
+9 | File | `/rom-0` | Low
+10 | File | `/tmp/phpglibccheck` | High
+11 | File | `/uncpath/` | Medium
+12 | File | `/var/tmp/sess_*` | High
+13 | File | `/wp-json/oembed/1.0/embed?url` | High
+14 | File | `action.php` | Medium
+15 | File | `actionphp/download.File.php` | High
+16 | File | `add_comment.php` | High
+17 | File | `admin/admin.php` | High
+18 | File | `admin/class-favicon-by-realfavicongenerator-admin.php` | High
+19 | File | `admin/content.php` | High
+20 | File | `admin/index.php?id=users/action=edit/user_id=1` | High
+21 | File | `admin/memberviewdetails.php` | High
+22 | File | `admin_gallery.php3` | High
+23 | File | `affich.php` | Medium
+24 | File | `agent/Core/Controller/SendRequest.cpp` | High
+25 | File | `akeyActivationLogin.do` | High
+26 | File | `album_portal.php` | High
+27 | File | `apache-auth.conf` | High
+28 | File | `askapache-firefox-adsense.php` | High
+29 | File | `attachment.cgi` | High
+30 | File | `auth.php` | Medium
+31 | File | `blogger-importer.php` | High
+32 | File | `blueprints/sections/edit/1` | High
+33 | File | `books.php` | Medium
+34 | File | `cart_add.php` | Medium
+35 | File | `CFS.c` | Low
+36 | File | `cgi-bin/webui/admin/tools/app_ping/diag_ping/` | High
+37 | File | `cgi/cal?year` | Medium
+38 | File | `checktransferstatus.php` | High
+39 | File | `class.SystemAction.php` | High
+40 | File | `clientarea.php` | High
+41 | File | `collectivite.class.php` | High
+42 | File | `contact` | Low
+43 | File | `control.c` | Medium
+44 | File | `core/core.php` | High
+45 | ... | ... | ...
 
-There are 380 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 386 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

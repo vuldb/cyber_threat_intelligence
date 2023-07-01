@@ -91,7 +91,7 @@ ID | Type | Indicator | Confidence
 24 | File | `agent.cfg` | Medium
 25 | ... | ... | ...
 
-There are 211 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 213 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

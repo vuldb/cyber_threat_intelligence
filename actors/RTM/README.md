@@ -72,22 +72,23 @@ ID | Type | Indicator | Confidence
 10 | File | `/file?action=download&file` | High
 11 | File | `/hardware` | Medium
 12 | File | `/index.php` | Medium
-13 | File | `/medical/inventories.php` | High
-14 | File | `/mkshop/Men/profile.php` | High
-15 | File | `/monitoring` | Medium
-16 | File | `/Noxen-master/users.php` | High
-17 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
-18 | File | `/plugin/LiveChat/getChat.json.php` | High
-19 | File | `/plugins/servlet/audit/resource` | High
-20 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
-21 | File | `/PreviewHandler.ashx` | High
-22 | File | `/recordings/index.php` | High
-23 | File | `/replication` | Medium
-24 | File | `/RestAPI` | Medium
-25 | File | `/tmp/zarafa-vacation-*` | High
-26 | ... | ... | ...
+13 | File | `/librarian/bookdetails.php` | High
+14 | File | `/medical/inventories.php` | High
+15 | File | `/mkshop/Men/profile.php` | High
+16 | File | `/monitoring` | Medium
+17 | File | `/Noxen-master/users.php` | High
+18 | File | `/opt/zimbra/jetty/webapps/zimbra/public` | High
+19 | File | `/plugin/LiveChat/getChat.json.php` | High
+20 | File | `/plugins/servlet/audit/resource` | High
+21 | File | `/plugins/servlet/project-config/PROJECT/roles` | High
+22 | File | `/PreviewHandler.ashx` | High
+23 | File | `/recordings/index.php` | High
+24 | File | `/replication` | Medium
+25 | File | `/RestAPI` | Medium
+26 | File | `/tmp/zarafa-vacation-*` | High
+27 | ... | ... | ...
 
-There are 222 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 225 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

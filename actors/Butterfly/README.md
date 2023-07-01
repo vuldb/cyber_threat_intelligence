@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [DE](https://vuldb.com/?country.de)
 * ...
 
-There are 14 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -69,7 +69,7 @@ ID | Type | Indicator | Confidence
 19 | File | `admin/orion.extfeedbackform_efbf_forms.php` | High
 20 | ... | ... | ...
 
-There are 165 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 166 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -45,7 +45,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
 2 | T1040 | CWE-294 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
@@ -61,50 +61,53 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
 1 | File | `$HOME/.printers` | High
-2 | File | `/admin/edit-doc.php` | High
-3 | File | `/admin/maintenance/view_designation.php` | High
-4 | File | `/admin/news/news_ok.php` | High
-5 | File | `/api/plugin/uninstall` | High
-6 | File | `/api /v3/auth` | High
-7 | File | `/bcms/admin/?page=user/list` | High
-8 | File | `/bin/boa` | Medium
-9 | File | `/card_scan.php` | High
-10 | File | `/cgi-bin/wlogin.cgi` | High
-11 | File | `/config/getuser` | High
-12 | File | `/cwc/login` | Medium
-13 | File | `/de/cgi/dfs_guest/` | High
-14 | File | `/debug/pprof` | Medium
-15 | File | `/download` | Medium
-16 | File | `/etc/gsissh/sshd_config` | High
-17 | File | `/etc/passwd` | Medium
-18 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
-19 | File | `/etc/quagga` | Medium
-20 | File | `/etc/quantum/quantum.conf` | High
-21 | File | `/etc/shadow` | Medium
-22 | File | `/forms/doLogin` | High
-23 | File | `/forum/away.php` | High
-24 | File | `/getcfg.php` | Medium
-25 | File | `/goform/telnet` | High
-26 | File | `/goform/WanParameterSetting` | High
-27 | File | `/h/calendar` | Medium
-28 | File | `/home/cavesConsole` | High
-29 | File | `/hrm/employeeadd.php` | High
-30 | File | `/inc/extensions.php` | High
-31 | File | `/include/makecvs.php` | High
-32 | File | `/js/app.js` | Medium
-33 | File | `/mgmt/tm/util/bash` | High
-34 | File | `/modules/profile/index.php` | High
-35 | File | `/modules/tasks/summary.inc.php` | High
-36 | File | `/monitoring` | Medium
-37 | File | `/nova/bin/console` | High
-38 | File | `/nova/bin/detnet` | High
-39 | File | `/out.php` | Medium
-40 | File | `/payu/icpcheckout/` | High
-41 | File | `/php-sms/classes/Master.php?f=save_quote` | High
-42 | File | `/property-list/property_view.php` | High
-43 | ... | ... | ...
+2 | File | `/admin/?page=user/list` | High
+3 | File | `/admin/edit-doc.php` | High
+4 | File | `/admin/maintenance/view_designation.php` | High
+5 | File | `/admin/news/news_ok.php` | High
+6 | File | `/admin/service.php` | High
+7 | File | `/ajax.php?action=read_msg` | High
+8 | File | `/api/plugin/uninstall` | High
+9 | File | `/api /v3/auth` | High
+10 | File | `/bcms/admin/?page=user/list` | High
+11 | File | `/bin/boa` | Medium
+12 | File | `/card_scan.php` | High
+13 | File | `/cgi-bin/jumpto.php?class=user&page=config_save&isphp=1` | High
+14 | File | `/cgi-bin/wlogin.cgi` | High
+15 | File | `/config/getuser` | High
+16 | File | `/cwc/login` | Medium
+17 | File | `/de/cgi/dfs_guest/` | High
+18 | File | `/debug/pprof` | Medium
+19 | File | `/download` | Medium
+20 | File | `/etc/gsissh/sshd_config` | High
+21 | File | `/etc/passwd` | Medium
+22 | File | `/etc/puppetlabs/puppetserver/conf.d/ca.conf` | High
+23 | File | `/etc/quagga` | Medium
+24 | File | `/etc/quantum/quantum.conf` | High
+25 | File | `/forms/doLogin` | High
+26 | File | `/forum/away.php` | High
+27 | File | `/getcfg.php` | Medium
+28 | File | `/goform/SetNetControlList` | High
+29 | File | `/goform/telnet` | High
+30 | File | `/goform/WanParameterSetting` | High
+31 | File | `/h/calendar` | Medium
+32 | File | `/home/cavesConsole` | High
+33 | File | `/hrm/employeeadd.php` | High
+34 | File | `/inc/extensions.php` | High
+35 | File | `/include/makecvs.php` | High
+36 | File | `/jeecg-boot/jmreport/upload` | High
+37 | File | `/js/app.js` | Medium
+38 | File | `/mgmt/tm/util/bash` | High
+39 | File | `/modules/profile/index.php` | High
+40 | File | `/modules/tasks/summary.inc.php` | High
+41 | File | `/monitoring` | Medium
+42 | File | `/nova/bin/console` | High
+43 | File | `/nova/bin/detnet` | High
+44 | File | `/out.php` | Medium
+45 | File | `/payu/icpcheckout/` | High
+46 | ... | ... | ...
 
-There are 376 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 402 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

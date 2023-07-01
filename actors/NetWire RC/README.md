@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 27 more country items available. Please use our online service to access the data.
+There are 22 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -78,14 +78,14 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
-1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-36, CWE-37 | Pathname Traversal | High
+1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24, CWE-27, CWE-36, CWE-37 | Pathname Traversal | High
 2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80, CWE-87 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 22 more TTP items available. Please use our online service to access the data.
+There are 21 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -97,54 +97,52 @@ ID | Type | Indicator | Confidence
 2 | File | `/?ajax-request=jnews` | High
 3 | File | `/admin/edit_subject.php` | High
 4 | File | `/admin/index2.html` | High
-5 | File | `/admin/login.php` | High
-6 | File | `/admin/products/manage_product.php` | High
-7 | File | `/admin/students/manage.php` | High
-8 | File | `/admin/students/view_student.php` | High
-9 | File | `/api/user/upsert/<uuid>` | High
-10 | File | `/api/v2/cli/commands` | High
-11 | File | `/appliance/users?action=edit` | High
-12 | File | `/backup.pl` | Medium
-13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/dashboard/updatelogo.php` | High
-15 | File | `/DXR.axd` | Medium
-16 | File | `/E-mobile/App/System/File/downfile.php` | High
-17 | File | `/edoc/doctor/patient.php` | High
-18 | File | `/etc/ldap.conf` | High
-19 | File | `/etc/shadow` | Medium
-20 | File | `/forum/away.php` | High
-21 | File | `/h/calendar` | Medium
-22 | File | `/h/compose` | Medium
-23 | File | `/h/search?action=voicemail&action=listen` | High
-24 | File | `/hrm/employeeview.php` | High
-25 | File | `/index.php` | Medium
-26 | File | `/index.php?app=main&func=passport&action=login` | High
-27 | File | `/kelasdosen/data` | High
-28 | File | `/librarian/bookdetails.php` | High
-29 | File | `/loginVaLidation.php` | High
-30 | File | `/manager/index.php` | High
-31 | File | `/messageboard/view.php` | High
-32 | File | `/MIME/INBOX-MM-1/` | High
-33 | File | `/mkshop/Men/profile.php` | High
-34 | File | `/Noxen-master/users.php` | High
-35 | File | `/opac/Actions.php?a=login` | High
-36 | File | `/osm/REGISTER.cmd` | High
-37 | File | `/out.php` | Medium
-38 | File | `/owa/auth/logon.aspx` | High
-39 | File | `/php-scrm/login.php` | High
-40 | File | `/php-sms/classes/Master.php` | High
-41 | File | `/php-sms/classes/SystemSettings.php` | High
-42 | File | `/php_action/createOrder.php` | High
-43 | File | `/php_action/editProductImage.php` | High
-44 | File | `/reservation/add_message.php` | High
-45 | File | `/ResiotQueryDBActive` | High
-46 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
-47 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
-48 | File | `/SetTriggerWPS/PIN` | High
-49 | File | `/spcgi.cgi` | Medium
-50 | ... | ... | ...
+5 | File | `/admin/products/manage_product.php` | High
+6 | File | `/admin/students/manage.php` | High
+7 | File | `/api/user/upsert/<uuid>` | High
+8 | File | `/api/v2/cli/commands` | High
+9 | File | `/appliance/users?action=edit` | High
+10 | File | `/backup.pl` | Medium
+11 | File | `/DXR.axd` | Medium
+12 | File | `/E-mobile/App/System/File/downfile.php` | High
+13 | File | `/edoc/doctor/patient.php` | High
+14 | File | `/etc/ldap.conf` | High
+15 | File | `/etc/shadow` | Medium
+16 | File | `/forum/away.php` | High
+17 | File | `/h/calendar` | Medium
+18 | File | `/h/compose` | Medium
+19 | File | `/h/search?action=voicemail&action=listen` | High
+20 | File | `/hrm/employeeview.php` | High
+21 | File | `/index.php` | Medium
+22 | File | `/index.php?app=main&func=passport&action=login` | High
+23 | File | `/kelasdosen/data` | High
+24 | File | `/librarian/bookdetails.php` | High
+25 | File | `/manager/index.php` | High
+26 | File | `/messageboard/view.php` | High
+27 | File | `/MIME/INBOX-MM-1/` | High
+28 | File | `/opac/Actions.php?a=login` | High
+29 | File | `/osm/REGISTER.cmd` | High
+30 | File | `/out.php` | Medium
+31 | File | `/owa/auth/logon.aspx` | High
+32 | File | `/php-scrm/login.php` | High
+33 | File | `/php-sms/classes/Master.php` | High
+34 | File | `/php-sms/classes/SystemSettings.php` | High
+35 | File | `/php_action/createOrder.php` | High
+36 | File | `/php_action/editProductImage.php` | High
+37 | File | `/reservation/add_message.php` | High
+38 | File | `/ResiotQueryDBActive` | High
+39 | File | `/reviewer/system/system/admins/manage/users/user-update.php` | High
+40 | File | `/reviewer_0/admins/assessments/pretest/questions-view.php` | High
+41 | File | `/send_order.cgi?parameter=restart` | High
+42 | File | `/SetTriggerWPS/PIN` | High
+43 | File | `/spcgi.cgi` | Medium
+44 | File | `/spip.php` | Medium
+45 | File | `/src/png2swf.c` | High
+46 | File | `/textpattern/index.php` | High
+47 | File | `/tos/index.php?app/app_start_stop` | High
+48 | ... | ... | ...
 
-There are 433 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 416 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

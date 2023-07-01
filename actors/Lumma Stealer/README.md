@@ -26,9 +26,10 @@ ID | IP address | Hostname | Campaign | Confidence
 3 | [45.8.146.130](https://vuldb.com/?ip.45.8.146.130) | vm1266137.stark-industries.solutions | - | High
 4 | [45.8.146.213](https://vuldb.com/?ip.45.8.146.213) | vm1266137.stark-industries.solutions | - | High
 5 | [45.8.146.227](https://vuldb.com/?ip.45.8.146.227) | vm1266137.stark-industries.solutions | - | High
-6 | ... | ... | ... | ...
+6 | [45.15.25.190](https://vuldb.com/?ip.45.15.25.190) | - | - | High
+7 | ... | ... | ... | ...
 
-There are 22 more IOC items available. Please use our online service to access the data.
+There are 23 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -52,26 +53,29 @@ ID | Type | Indicator | Confidence
 1 | File | `/api/profile` | Medium
 2 | File | `/api/RecordingList/DownloadRecord?file=` | High
 3 | File | `/apply.cgi` | Medium
-4 | File | `/debug/pprof` | Medium
-5 | File | `/etc/grafana/grafana.ini` | High
-6 | File | `/forum/PostPrivateMessage` | High
-7 | File | `/nova/bin/igmp-proxy` | High
-8 | File | `/orrs/admin/?page=user/manage_user` | High
-9 | File | `/pages/processlogin.php` | High
-10 | File | `/rapi/read_url` | High
-11 | File | `/uncpath/` | Medium
-12 | File | `/usr/local/psa/admin/sbin/wrapper` | High
-13 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
-14 | ... | ... | ...
+4 | File | `/dataset/data/{id}` | High
+5 | File | `/debug/pprof` | Medium
+6 | File | `/etc/grafana/grafana.ini` | High
+7 | File | `/forum/PostPrivateMessage` | High
+8 | File | `/nova/bin/igmp-proxy` | High
+9 | File | `/orrs/admin/?page=user/manage_user` | High
+10 | File | `/pages/processlogin.php` | High
+11 | File | `/rapi/read_url` | High
+12 | File | `/uncpath/` | Medium
+13 | File | `/usr/local/psa/admin/sbin/wrapper` | High
+14 | File | `/wp-admin/admin-post.php?es_skip=1&option_name` | High
+15 | ... | ... | ...
 
-There are 112 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 116 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://0xtoxin-labs.gitbook.io/malware-analysis/malware-analysis/lummac2-breakdown
+* https://app.any.run/tasks/4e682046-d702-46c7-91c5-6f2a6c9a0909/
 * https://app.any.run/tasks/9a53fdba-8af6-4d2c-9c2b-e5b86fa34e8b
+* https://app.any.run/tasks/330d3bb4-cb91-4311-8bf3-f3d8db2712fb
 * https://app.any.run/tasks/b80c5c12-9c12-414d-be8e-818ffdab1e74
 * https://threatfox.abuse.ch
 * https://tracker.viriback.com/index.php?q=45.8.146.130

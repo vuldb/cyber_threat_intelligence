@@ -112,29 +112,29 @@ ID | Type | Indicator | Confidence
 42 | File | `/vendor` | Low
 43 | File | `/wp-admin/admin.php?page=wp_file_manager_properties` | High
 44 | File | `/wp/?cpmvc_id=1&cpmvc_do_action=mvparse&f=datafeed&calid=1&month_index=1&method=adddetails&id=2` | High
-45 | File | `/xAdmin/html/cm_doclist_view_uc.jsp` | High
-46 | File | `/zm/index.php` | High
-47 | File | `a-b-membres.php` | High
-48 | File | `actions.php` | Medium
-49 | File | `adclick.php` | Medium
-50 | File | `add.php` | Low
-51 | File | `addtocart.asp` | High
-52 | File | `add_2_basket.asp` | High
-53 | File | `add_comment.php` | High
-54 | File | `add_edit_cat.asp` | High
-55 | File | `admin.jcomments.php` | High
-56 | File | `admin.php` | Medium
-57 | File | `admin.php/comments/batchdel/` | High
-58 | File | `admin/aboutus.php` | High
-59 | File | `admin/adm/test.php` | High
-60 | File | `admin/article_save.php` | High
-61 | File | `admin/bitrix.mpbuilder_step2.php` | High
-62 | File | `admin/conf_users_edit.php` | High
-63 | File | `admin/vqmods.app/vqmods.inc.php` | High
-64 | File | `adminer.php` | Medium
+45 | File | `/zm/index.php` | High
+46 | File | `a-b-membres.php` | High
+47 | File | `actions.php` | Medium
+48 | File | `adclick.php` | Medium
+49 | File | `add.php` | Low
+50 | File | `addtocart.asp` | High
+51 | File | `add_2_basket.asp` | High
+52 | File | `add_comment.php` | High
+53 | File | `add_edit_cat.asp` | High
+54 | File | `admin.jcomments.php` | High
+55 | File | `admin.php` | Medium
+56 | File | `admin.php/comments/batchdel/` | High
+57 | File | `admin/aboutus.php` | High
+58 | File | `admin/adm/test.php` | High
+59 | File | `admin/article_save.php` | High
+60 | File | `admin/bitrix.mpbuilder_step2.php` | High
+61 | File | `admin/conf_users_edit.php` | High
+62 | File | `admin/vqmods.app/vqmods.inc.php` | High
+63 | File | `adminer.php` | Medium
+64 | File | `administrator/components/com_media/helpers/media.php` | High
 65 | ... | ... | ...
 
-There are 567 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 565 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

@@ -9,11 +9,11 @@ _Live data_ and more _analysis capabilities_ are available at [https://vuldb.com
 These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. access by proxy) associated with Redaman:
 
 * [US](https://vuldb.com/?country.us)
+* [LV](https://vuldb.com/?country.lv)
 * [CN](https://vuldb.com/?country.cn)
-* [RU](https://vuldb.com/?country.ru)
 * ...
 
-There are 9 more country items available. Please use our online service to access the data.
+There are 10 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -36,9 +36,10 @@ ID | IP address | Hostname | Campaign | Confidence
 13 | [85.217.94.156](https://vuldb.com/?ip.85.217.94.156) | - | - | High
 14 | [85.217.170.51](https://vuldb.com/?ip.85.217.170.51) | - | - | High
 15 | [85.217.171.48](https://vuldb.com/?ip.85.217.171.48) | - | - | High
-16 | ... | ... | ... | ...
+16 | [91.200.69.5](https://vuldb.com/?ip.91.200.69.5) | 91-200-69-5.partnet.com.pl | - | High
+17 | ... | ... | ... | ...
 
-There are 59 more IOC items available. Please use our online service to access the data.
+There are 62 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,11 +48,11 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-425 | Pathname Traversal | High
-2 | T1059 | CWE-94 | Cross Site Scripting | High
-3 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
+2 | T1055 | CWE-74 | Injection | High
+3 | T1059 | CWE-88, CWE-94 | Cross Site Scripting | High
 4 | ... | ... | ... | ...
 
-There are 9 more TTP items available. Please use our online service to access the data.
+There are 13 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -62,24 +63,33 @@ ID | Type | Indicator | Confidence
 1 | File | `/admin/edit.php` | High
 2 | File | `/api/index.php` | High
 3 | File | `/debug/pprof` | Medium
-4 | File | `/sqfs/bin/sccd` | High
-5 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
-6 | File | `/wp-content/plugins/updraftplus/admin.php` | High
-7 | File | `admin.php` | Medium
-8 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
-9 | File | `admin/google_search_console/class-gsc-table.php` | High
-10 | File | `ajax.php` | Medium
-11 | File | `akocomments.php` | High
-12 | File | `auth.inc.php` | Medium
-13 | ... | ... | ...
+4 | File | `/inc/extensions.php` | High
+5 | File | `/MIME/INBOX-MM-1/` | High
+6 | File | `/ServletAPI/accounts/login` | High
+7 | File | `/sqfs/bin/sccd` | High
+8 | File | `/uncpath/` | Medium
+9 | File | `/var/WEB-GUI/cgi-bin/downloadfile.cgi` | High
+10 | File | `/wp-content/plugins/updraftplus/admin.php` | High
+11 | File | `admin.php` | Medium
+12 | File | `admin.php?action=file&ctrl=download&path=../../1.txt` | High
+13 | File | `admin/google_search_console/class-gsc-table.php` | High
+14 | File | `ajax.php` | Medium
+15 | File | `akocomments.php` | High
+16 | File | `appGet.cgi` | Medium
+17 | File | `auth.inc.php` | Medium
+18 | File | `bgpd/bgp_aspath.c` | High
+19 | File | `bigdecimal.c` | Medium
+20 | File | `browser.php` | Medium
+21 | ... | ... | ...
 
-There are 106 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 172 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
 The following list contains _external sources_ which discuss the actor and the associated activities:
 
 * https://research.checkpoint.com/2019/ponys-cc-servers-hidden-inside-the-bitcoin-blockchain/
+* https://www.cyber45.com
 
 ## Literature
 

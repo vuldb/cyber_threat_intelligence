@@ -57,7 +57,7 @@ _Tactics, techniques, and procedures_ (TTP) summarize the suspected MITRE ATT&CK
 ID | Technique | Weakness | Description | Confidence
 -- | --------- | -------- | ----------- | ----------
 1 | T1006 | CWE-21, CWE-22, CWE-23, CWE-24 | Pathname Traversal | High
-2 | T1040 | CWE-319 | Authentication Bypass by Capture-replay | High
+2 | T1040 | CWE-294, CWE-319 | Authentication Bypass by Capture-replay | High
 3 | T1055 | CWE-74 | Injection | High
 4 | T1059 | CWE-88, CWE-94, CWE-1321 | Cross Site Scripting | High
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
@@ -87,38 +87,37 @@ ID | Type | Indicator | Confidence
 14 | File | `/ci_spms/admin/category` | High
 15 | File | `/ci_spms/admin/search/searching/` | High
 16 | File | `/classes/Master.php?f=delete_appointment` | High
-17 | File | `/classes/Master.php?f=delete_train` | High
-18 | File | `/College/admin/teacher.php` | High
-19 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
-20 | File | `/ctcprotocol/Protocol` | High
-21 | File | `/dashboard/menu-list.php` | High
-22 | File | `/dcim/rack-roles/` | High
-23 | File | `/ebics-server/ebics.aspx` | High
-24 | File | `/ffos/classes/Master.php?f=save_category` | High
-25 | File | `/forum/away.php` | High
-26 | File | `/goform/addUserName` | High
-27 | File | `/goform/aspForm` | High
-28 | File | `/goform/delAd` | High
-29 | File | `/goform/wifiSSIDset` | High
-30 | File | `/gpac/src/bifs/unquantize.c` | High
-31 | File | `/HNAP1` | Low
-32 | File | `/HNAP1/SetClientInfo` | High
-33 | File | `/inc/topBarNav.php` | High
-34 | File | `/index.asp` | Medium
-35 | File | `/index.php` | Medium
-36 | File | `/Items/*/RemoteImages/Download` | High
-37 | File | `/jfinal_cms/system/role/list` | High
-38 | File | `/kelas/data` | Medium
-39 | File | `/members/view_member.php` | High
-40 | File | `/menu.html` | Medium
-41 | File | `/modules/profile/index.php` | High
-42 | File | `/Moosikay/order.php` | High
-43 | File | `/out.php` | Medium
-44 | File | `/owa/auth/logon.aspx` | High
-45 | File | `/php-sms/admin/quotes/manage_remark.php` | High
-46 | ... | ... | ...
+17 | File | `/College/admin/teacher.php` | High
+18 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+19 | File | `/ctcprotocol/Protocol` | High
+20 | File | `/dashboard/menu-list.php` | High
+21 | File | `/dcim/rack-roles/` | High
+22 | File | `/ebics-server/ebics.aspx` | High
+23 | File | `/ffos/classes/Master.php?f=save_category` | High
+24 | File | `/forum/away.php` | High
+25 | File | `/goform/addUserName` | High
+26 | File | `/goform/aspForm` | High
+27 | File | `/goform/delAd` | High
+28 | File | `/goform/wifiSSIDset` | High
+29 | File | `/gpac/src/bifs/unquantize.c` | High
+30 | File | `/HNAP1` | Low
+31 | File | `/HNAP1/SetClientInfo` | High
+32 | File | `/inc/topBarNav.php` | High
+33 | File | `/index.asp` | Medium
+34 | File | `/index.php` | Medium
+35 | File | `/Items/*/RemoteImages/Download` | High
+36 | File | `/jfinal_cms/system/role/list` | High
+37 | File | `/kelas/data` | Medium
+38 | File | `/members/view_member.php` | High
+39 | File | `/menu.html` | Medium
+40 | File | `/modules/profile/index.php` | High
+41 | File | `/Moosikay/order.php` | High
+42 | File | `/out.php` | Medium
+43 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+44 | File | `/php_action/fetchSelectedUser.php` | High
+45 | ... | ... | ...
 
-There are 396 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 391 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

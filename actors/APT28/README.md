@@ -45,45 +45,46 @@ ID | IP address | Hostname | Campaign | Confidence
 11 | [23.227.196.21](https://vuldb.com/?ip.23.227.196.21) | 23-227-196-21.static.hvvc.us | - | High
 12 | [23.227.196.215](https://vuldb.com/?ip.23.227.196.215) | 23-227-196-215.static.hvvc.us | - | High
 13 | [23.227.196.217](https://vuldb.com/?ip.23.227.196.217) | 23-227-196-217.static.hvvc.us | - | High
-14 | [31.184.198.23](https://vuldb.com/?ip.31.184.198.23) | - | - | High
-15 | [31.184.198.38](https://vuldb.com/?ip.31.184.198.38) | - | - | High
-16 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | Sednit | High
-17 | [31.220.61.251](https://vuldb.com/?ip.31.220.61.251) | - | - | High
-18 | [37.235.52.18](https://vuldb.com/?ip.37.235.52.18) | 18.52.235.37.in-addr.arpa | - | High
-19 | [45.32.129.185](https://vuldb.com/?ip.45.32.129.185) | 45.32.129.185.vultr.com | - | Medium
-20 | [45.32.227.21](https://vuldb.com/?ip.45.32.227.21) | 45.32.227.21.mobiltel.mx | - | High
-21 | [45.64.105.23](https://vuldb.com/?ip.45.64.105.23) | - | - | High
-22 | [45.124.132.127](https://vuldb.com/?ip.45.124.132.127) | - | - | High
-23 | [46.19.138.66](https://vuldb.com/?ip.46.19.138.66) | ab2.alchibasystems.in.net | - | High
-24 | [46.21.147.55](https://vuldb.com/?ip.46.21.147.55) | 46-21-147-55.static.hvvc.us | - | High
-25 | [46.21.147.71](https://vuldb.com/?ip.46.21.147.71) | 46-21-147-71.static.hvvc.us | - | High
-26 | [46.21.147.76](https://vuldb.com/?ip.46.21.147.76) | 46-21-147-76.static.hvvc.us | - | High
-27 | [46.148.17.227](https://vuldb.com/?ip.46.148.17.227) | - | - | High
-28 | [46.166.162.90](https://vuldb.com/?ip.46.166.162.90) | - | Pawn Storm | High
-29 | [46.183.217.74](https://vuldb.com/?ip.46.183.217.74) | ip-217-74.dataclub.info | Pawn Storm | High
-30 | [51.38.128.110](https://vuldb.com/?ip.51.38.128.110) | vps-0a3489af.vps.ovh.net | - | High
-31 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
-32 | [51.254.158.57](https://vuldb.com/?ip.51.254.158.57) | - | - | High
-33 | [54.37.104.106](https://vuldb.com/?ip.54.37.104.106) | piber.connectedlists.com | - | High
-34 | [58.49.58.58](https://vuldb.com/?ip.58.49.58.58) | - | - | High
-35 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
-36 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
-37 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
-38 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
-39 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
-40 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
-41 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
-42 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
-43 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
-44 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
-45 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
-46 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
-47 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
-48 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
-49 | [80.255.3.94](https://vuldb.com/?ip.80.255.3.94) | set121.com | - | High
-50 | ... | ... | ... | ...
+14 | [24.11.70.85](https://vuldb.com/?ip.24.11.70.85) | c-24-11-70-85.hsd1.ut.comcast.net | - | High
+15 | [31.184.198.23](https://vuldb.com/?ip.31.184.198.23) | - | - | High
+16 | [31.184.198.38](https://vuldb.com/?ip.31.184.198.38) | - | - | High
+17 | [31.220.43.99](https://vuldb.com/?ip.31.220.43.99) | - | Sednit | High
+18 | [31.220.61.251](https://vuldb.com/?ip.31.220.61.251) | - | - | High
+19 | [37.235.52.18](https://vuldb.com/?ip.37.235.52.18) | 18.52.235.37.in-addr.arpa | - | High
+20 | [45.32.129.185](https://vuldb.com/?ip.45.32.129.185) | 45.32.129.185.vultr.com | - | Medium
+21 | [45.32.227.21](https://vuldb.com/?ip.45.32.227.21) | 45.32.227.21.mobiltel.mx | - | High
+22 | [45.64.105.23](https://vuldb.com/?ip.45.64.105.23) | - | - | High
+23 | [45.124.132.127](https://vuldb.com/?ip.45.124.132.127) | - | - | High
+24 | [46.19.138.66](https://vuldb.com/?ip.46.19.138.66) | ab2.alchibasystems.in.net | - | High
+25 | [46.21.147.55](https://vuldb.com/?ip.46.21.147.55) | 46-21-147-55.static.hvvc.us | - | High
+26 | [46.21.147.71](https://vuldb.com/?ip.46.21.147.71) | 46-21-147-71.static.hvvc.us | - | High
+27 | [46.21.147.76](https://vuldb.com/?ip.46.21.147.76) | 46-21-147-76.static.hvvc.us | - | High
+28 | [46.148.17.227](https://vuldb.com/?ip.46.148.17.227) | - | - | High
+29 | [46.166.162.90](https://vuldb.com/?ip.46.166.162.90) | - | Pawn Storm | High
+30 | [46.183.217.74](https://vuldb.com/?ip.46.183.217.74) | ip-217-74.dataclub.info | Pawn Storm | High
+31 | [51.38.128.110](https://vuldb.com/?ip.51.38.128.110) | vps-0a3489af.vps.ovh.net | - | High
+32 | [51.254.76.54](https://vuldb.com/?ip.51.254.76.54) | - | - | High
+33 | [51.254.158.57](https://vuldb.com/?ip.51.254.158.57) | - | - | High
+34 | [54.37.104.106](https://vuldb.com/?ip.54.37.104.106) | piber.connectedlists.com | - | High
+35 | [58.49.58.58](https://vuldb.com/?ip.58.49.58.58) | - | - | High
+36 | [62.113.232.197](https://vuldb.com/?ip.62.113.232.197) | - | - | High
+37 | [66.172.11.207](https://vuldb.com/?ip.66.172.11.207) | ip-66-172-11-207.chunkhost.com | Carberp | High
+38 | [66.172.12.133](https://vuldb.com/?ip.66.172.12.133) | - | - | High
+39 | [68.76.150.97](https://vuldb.com/?ip.68.76.150.97) | 68-76-150-97.lightspeed.hstntx.sbcglobal.net | - | High
+40 | [69.12.73.174](https://vuldb.com/?ip.69.12.73.174) | 69.12.73.174.static.quadranet.com | Sednit | High
+41 | [69.16.243.33](https://vuldb.com/?ip.69.16.243.33) | host.tecnode.com | - | High
+42 | [69.28.64.137](https://vuldb.com/?ip.69.28.64.137) | - | - | High
+43 | [70.85.221.10](https://vuldb.com/?ip.70.85.221.10) | server002.nilsson-it.dk | - | High
+44 | [70.85.221.20](https://vuldb.com/?ip.70.85.221.20) | 14.dd.5546.static.theplanet.com | Pawn Storm | High
+45 | [76.74.177.251](https://vuldb.com/?ip.76.74.177.251) | ip-76-74-177-251.chunkhost.com | - | High
+46 | [77.81.98.122](https://vuldb.com/?ip.77.81.98.122) | no-rdns.clues.ro | - | High
+47 | [77.83.247.81](https://vuldb.com/?ip.77.83.247.81) | - | Global Brute Force | High
+48 | [78.153.151.222](https://vuldb.com/?ip.78.153.151.222) | smtp33.pristavka-fr.ru | - | High
+49 | [80.83.115.187](https://vuldb.com/?ip.80.83.115.187) | host3.smtpnoida.biz | - | High
+50 | [80.255.3.93](https://vuldb.com/?ip.80.255.3.93) | - | - | High
+51 | ... | ... | ... | ...
 
-There are 195 more IOC items available. Please use our online service to access the data.
+There are 198 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -156,7 +157,7 @@ ID | Type | Indicator | Confidence
 49 | File | `AdxDSrv.exe` | Medium
 50 | ... | ... | ...
 
-There are 430 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 431 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 
@@ -164,6 +165,7 @@ The following list contains _external sources_ which discuss the actor and the a
 
 * https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/
 * https://blog.malwarebytes.com/threat-intelligence/2022/06/russias-apt28-uses-fear-of-nuclear-war-to-spread-follina-docs-in-ukraine/
+* https://blog.sekoia.io/apt28-leverages-multiple-phishing-techniques-to-target-ukrainian-civil-society/
 * https://cert.gov.ua/article/40102
 * https://community.blueliv.com/#!/s/5f6b482482df413eb5350d3b
 * https://documents.trendmicro.com/assets/wp/wp-two-years-of-pawn-storm.pdf

@@ -13,7 +13,7 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 * [GB](https://vuldb.com/?country.gb)
 * ...
 
-There are 15 more country items available. Please use our online service to access the data.
+There are 16 more country items available. Please use our online service to access the data.
 
 ## Actors
 
@@ -385,18 +385,18 @@ ID | Type | Indicator | Confidence
 11 | File | `/bin/boa` | Medium
 12 | File | `/cgi-bin/wapopen` | High
 13 | File | `/cgi-bin/wlogin.cgi` | High
-14 | File | `/E-mobile/App/System/File/downfile.php` | High
-15 | File | `/Electron/download` | High
-16 | File | `/feeds/post/publish` | High
-17 | File | `/forum/away.php` | High
-18 | File | `/inc/jquery/uploadify/uploadify.php` | High
-19 | File | `/index.php?app=main&func=passport&action=login` | High
-20 | File | `/index.php?page=category_list` | High
-21 | File | `/jobinfo/` | Medium
-22 | File | `/mims/login.php` | High
-23 | File | `/Moosikay/order.php` | High
-24 | File | `/opac/Actions.php?a=login` | High
-25 | File | `/php-scrm/login.php` | High
+14 | File | `/cimom` | Low
+15 | File | `/E-mobile/App/System/File/downfile.php` | High
+16 | File | `/Electron/download` | High
+17 | File | `/feeds/post/publish` | High
+18 | File | `/forum/away.php` | High
+19 | File | `/inc/jquery/uploadify/uploadify.php` | High
+20 | File | `/index.php?app=main&func=passport&action=login` | High
+21 | File | `/index.php?page=category_list` | High
+22 | File | `/jobinfo/` | Medium
+23 | File | `/mims/login.php` | High
+24 | File | `/Moosikay/order.php` | High
+25 | File | `/opac/Actions.php?a=login` | High
 26 | File | `/PreviewHandler.ashx` | High
 27 | File | `/proxy` | Low
 28 | File | `/public/launchNewWindow.jsp` | High

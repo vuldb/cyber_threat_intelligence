@@ -10,10 +10,10 @@ These _countries_ are directly (e.g. origin of attacks) or indirectly (e.g. acce
 
 * [CN](https://vuldb.com/?country.cn)
 * [US](https://vuldb.com/?country.us)
-* [ES](https://vuldb.com/?country.es)
+* [NL](https://vuldb.com/?country.nl)
 * ...
 
-There are 17 more country items available. Please use our online service to access the data.
+There are 15 more country items available. Please use our online service to access the data.
 
 ## IOC - Indicator of Compromise
 
@@ -32,7 +32,7 @@ ID | IP address | Hostname | Campaign | Confidence
 9 | [37.120.141.190](https://vuldb.com/?ip.37.120.141.190) | - | - | High
 10 | ... | ... | ... | ...
 
-There are 36 more IOC items available. Please use our online service to access the data.
+There are 38 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
@@ -47,7 +47,7 @@ ID | Technique | Weakness | Description | Confidence
 5 | T1059.007 | CWE-79, CWE-80 | Cross Site Scripting | High
 6 | ... | ... | ... | ...
 
-There are 19 more TTP items available. Please use our online service to access the data.
+There are 22 more TTP items available. Please use our online service to access the data.
 
 ## IOA - Indicator of Attack
 
@@ -55,51 +55,56 @@ These _indicators of attack_ (IOA) list the potential fragments used for technic
 
 ID | Type | Indicator | Confidence
 -- | ---- | --------- | ----------
-1 | File | `/?p=products` | Medium
-2 | File | `/about.php` | Medium
+1 | File | `//proc/kcore` | Medium
+2 | File | `/?p=products` | Medium
 3 | File | `/admin.php/accessory/filesdel.html` | High
-4 | File | `/admin/?page=user/manage` | High
-5 | File | `/admin/add-new.php` | High
-6 | File | `/admin/doctors.php` | High
-7 | File | `/admin/submit-articles` | High
-8 | File | `/ad_js.php` | Medium
-9 | File | `/alphaware/summary.php` | High
-10 | File | `/api/` | Low
-11 | File | `/api/admin/store/product/list` | High
-12 | File | `/api/stl/actions/search` | High
-13 | File | `/api/v2/cli/commands` | High
-14 | File | `/app/options.py` | High
-15 | File | `/attachments` | Medium
-16 | File | `/bin/ate` | Medium
-17 | File | `/boat/login.php` | High
-18 | File | `/bsms_ci/index.php/book` | High
-19 | File | `/cgi-bin` | Medium
-20 | File | `/cgi-bin/luci/api/wireless` | High
-21 | File | `/cgi-bin/wlogin.cgi` | High
-22 | File | `/context/%2e/WEB-INF/web.xml` | High
-23 | File | `/dashboard/reports/logs/view` | High
-24 | File | `/debian/patches/load_ppp_generic_if_needed` | High
-25 | File | `/debug/pprof` | Medium
-26 | File | `/env` | Low
-27 | File | `/etc/hosts` | Medium
-28 | File | `/forum/away.php` | High
-29 | File | `/goform/setmac` | High
-30 | File | `/goform/wizard_end` | High
-31 | File | `/horde/util/go.php` | High
-32 | File | `/index.php` | Medium
-33 | File | `/manage-apartment.php` | High
-34 | File | `/medicines/profile.php` | High
-35 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
-36 | File | `/pages/apply_vacancy.php` | High
-37 | File | `/php-sms/admin/?page=user/manage_user` | High
-38 | File | `/proc/<PID>/mem` | High
-39 | File | `/proxy` | Low
-40 | File | `/reservation/add_message.php` | High
-41 | File | `/spip.php` | Medium
-42 | File | `/tmp` | Low
-43 | ... | ... | ...
+4 | File | `/admin.php/Admin/adminadd.html` | High
+5 | File | `/admin/?page=user/manage` | High
+6 | File | `/admin/add-new.php` | High
+7 | File | `/admin/doctors.php` | High
+8 | File | `/admin/settings/save.php` | High
+9 | File | `/admin/submit-articles` | High
+10 | File | `/admin/userprofile.php` | High
+11 | File | `/alphaware/summary.php` | High
+12 | File | `/api/` | Low
+13 | File | `/api/admin/store/product/list` | High
+14 | File | `/api/stl/actions/search` | High
+15 | File | `/api/v2/cli/commands` | High
+16 | File | `/apply.cgi` | Medium
+17 | File | `/attachments` | Medium
+18 | File | `/bin/ate` | Medium
+19 | File | `/boat/login.php` | High
+20 | File | `/bsms_ci/index.php/book` | High
+21 | File | `/cgi-bin` | Medium
+22 | File | `/cgi-bin/wlogin.cgi` | High
+23 | File | `/College/admin/teacher.php` | High
+24 | File | `/context/%2e/WEB-INF/web.xml` | High
+25 | File | `/Controls/Generic/EBMK/Handlers/EStatements/DownloadEStatement.ashx` | High
+26 | File | `/dcim/rack-roles/` | High
+27 | File | `/debug/pprof` | Medium
+28 | File | `/env` | Low
+29 | File | `/etc/hosts` | Medium
+30 | File | `/forum/away.php` | High
+31 | File | `/goform/addUserName` | High
+32 | File | `/goform/aspForm` | High
+33 | File | `/goform/delAd` | High
+34 | File | `/goform/wifiSSIDset` | High
+35 | File | `/goform/wizard_end` | High
+36 | File | `/gpac/src/bifs/unquantize.c` | High
+37 | File | `/horde/util/go.php` | High
+38 | File | `/inc/topBarNav.php` | High
+39 | File | `/index.asp` | Medium
+40 | File | `/index.php` | Medium
+41 | File | `/kelas/data` | Medium
+42 | File | `/medicines/profile.php` | High
+43 | File | `/modules/caddyhttp/rewrite/rewrite.go` | High
+44 | File | `/Moosikay/order.php` | High
+45 | File | `/php-sms/admin/?page=user/manage_user` | High
+46 | File | `/php-sms/admin/quotes/manage_remark.php` | High
+47 | File | `/proxy` | Low
+48 | ... | ... | ...
 
-There are 372 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 412 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

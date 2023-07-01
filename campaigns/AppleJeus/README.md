@@ -76,22 +76,22 @@ ID | Type | Indicator | Confidence
 8 | File | `/config/myfield/test.php` | High
 9 | File | `/debug/pprof` | Medium
 10 | File | `/ecshop/admin/template.php` | High
-11 | File | `/example/editor` | High
-12 | File | `/file/upload/1` | High
-13 | File | `/forum/away.php` | High
-14 | File | `/forum/PostPrivateMessage` | High
+11 | File | `/file/upload/1` | High
+12 | File | `/forum/away.php` | High
+13 | File | `/forum/PostPrivateMessage` | High
+14 | File | `/goform/set_LimitClient_cfg` | High
 15 | File | `/HNAP1` | Low
 16 | File | `/home/www/cgi-bin/login.cgi` | High
-17 | File | `/iu-application/controllers/administration/auth.php` | High
-18 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
-19 | File | `/multi-vendor-shopping-script/product-list.php` | High
-20 | File | `/net-banking/customer_transactions.php` | High
-21 | File | `/obs/book.php` | High
-22 | File | `/ossn/administrator/com_installer` | High
-23 | File | `/owa/auth/logon.aspx` | High
-24 | File | `/pms/update_user.php?user_id=1` | High
-25 | File | `/requests.php` | High
-26 | File | `/spip.php` | Medium
+17 | File | `/Kofax/KFS/ThinClient/document/upload/` | High
+18 | File | `/multi-vendor-shopping-script/product-list.php` | High
+19 | File | `/net-banking/customer_transactions.php` | High
+20 | File | `/obs/book.php` | High
+21 | File | `/ossn/administrator/com_installer` | High
+22 | File | `/owa/auth/logon.aspx` | High
+23 | File | `/pms/update_user.php?user_id=1` | High
+24 | File | `/requests.php` | High
+25 | File | `/spip.php` | Medium
+26 | File | `/sqlite3_aflpp/shell.c` | High
 27 | File | `/sre/params.php` | High
 28 | File | `/tmp` | Low
 29 | File | `/uncpath/` | Medium
@@ -104,15 +104,15 @@ ID | Type | Indicator | Confidence
 36 | File | `adclick.php` | Medium
 37 | File | `add_contestant.php` | High
 38 | File | `admin.php` | Medium
-39 | File | `admin/index.php` | High
-40 | File | `admin/make_payments.php` | High
-41 | File | `Advanced_ASUSDDNS_Content.asp` | High
-42 | File | `af_netlink.c` | Medium
-43 | File | `album_portal.php` | High
-44 | File | `api/auth.go` | Medium
+39 | File | `admin/edit_category.php` | High
+40 | File | `admin/index.php` | High
+41 | File | `admin/make_payments.php` | High
+42 | File | `Advanced_ASUSDDNS_Content.asp` | High
+43 | File | `af_netlink.c` | Medium
+44 | File | `album_portal.php` | High
 45 | ... | ... | ...
 
-There are 389 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
+There are 394 more IOA items available (file, library, argument, input value, pattern, network port). Please use our online service to access the data.
 
 ## References
 

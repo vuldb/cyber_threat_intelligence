@@ -163,12 +163,9 @@ ID | IP address | Hostname | Campaign | Confidence
 143 | [32.104.64.0](https://vuldb.com/?ip.32.104.64.0) | - | - | High
 144 | [32.104.66.0](https://vuldb.com/?ip.32.104.66.0) | - | - | High
 145 | [32.104.68.0](https://vuldb.com/?ip.32.104.68.0) | - | - | High
-146 | [32.104.72.0](https://vuldb.com/?ip.32.104.72.0) | - | - | High
-147 | [32.104.80.0](https://vuldb.com/?ip.32.104.80.0) | - | - | High
-148 | [32.104.96.0](https://vuldb.com/?ip.32.104.96.0) | - | - | High
-149 | ... | ... | ... | ...
+146 | ... | ... | ... | ...
 
-There are 591 more IOC items available. Please use our online service to access the data.
+There are 580 more IOC items available. Please use our online service to access the data.
 
 ## TTP - Tactics, Techniques, Procedures
 
